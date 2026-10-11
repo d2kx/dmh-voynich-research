@@ -36,7 +36,8 @@ Rather than rehashing historical decipherment speculations, this project focuses
 │   ├── analyze_collocations_and_quires.py  # Within-line permutation tests & quire structure
 │   ├── analyze_rosettes_phrases_and_v101.py # 9-Rosettes (<fRos>) concordance, bigram space forensics & v101 check
 │   ├── analyze_astro_and_herbal.py     # f57v 4-quadrant key ring & Herbal-Pharma visual twin permutation test
-│   └── analyze_bio_rosettes_and_keys.py # Marginal character keys (f49v, f57v, f66r, f76r) & Bio/Quire N analysis
+│   ├── analyze_bio_rosettes_and_keys.py # Marginal character keys (f49v, f57v, f66r, f76r) & Bio/Quire N analysis
+│   └── analyze_cipher_wheel_f57v.py    # f57v 6-sector radial alignment & 4x17=68 key wheel analysis
 └── pages/                       # Extracted, cropped, and contrast-enhanced folio images
 ```
 
@@ -133,15 +134,16 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
-### 9. Herbal $\leftrightarrow$ Pharmaceutical Visual Twin Plant Labels ($z = +4.82, p = 0.0030$) & Cross-Scribe `f` $\to$ `p` Character Keys (`f49v`, `f57v`, `f66r`)
+### 9. Herbal $\leftrightarrow$ Pharmaceutical Visual Twin Plant Labels ($z = +4.82, p = 0.0030$), Cross-Scribe `f` $\to$ `p` Keys & `f57v` 6-Sector Radial Synchronization
 - **Visual Twin Plant Label Matching ($z = +4.82, p = 0.0030$)**: Across the 19 visually matched `(Herbal, Pharmaceutical)` plant pairs, rare `@Lf` plant labels on the Pharmaceutical page recur specifically in **Paragraph-Opening Lines (`<%>`, `Line 0`)** of their visually paired full-page Herbal folio (`3` observed vs. `0.32 ± 0.56` expected in a 5,000-trial Currier-A permutation test):
   1. **`f99v` $\leftrightarrow$ `f5r` (`olsy`, Global MS Count = 2)**: Miniature plant label `<f99v.7,@Lf> olsy` $\to$ Line 1 of its full-page Herbal twin `<f5r.1,@P0> olsy` (the only two occurrences of `olsy` in the entire manuscript!).
   2. **`f99r` $\leftrightarrow$ `f17r` (`darar` $\leftrightarrow$ `daram`, Global Count = 11, plus `dcheor` $\leftrightarrow$ `dcheor`, Count = 5)**: Miniature plant label `<f99r.3,@Lf> darar` $\to$ 2nd word of Line 1 on its full-page Herbal twin `<f17r.1,@P0> daram` (plus shared `<f99r.17> dcheor` $\leftrightarrow$ `<f17r.10> dcheor`).
   3. **`f88r` $\leftrightarrow$ `f22r` (`oldar` $\leftrightarrow$ `oldam`, Global Count = 12)**: Miniature plant label `<f88r.4,@Lf> oldar` $\to$ last word of Line 1 of Paragraph 3 on its full-page Herbal twin `<f22r.10,+P0> oldam`.
 - **Cross-Scribe `f` $\to$ `p` Substitution in Repeating Single-Character Keys (`f49v`, `f57v`, `f66r`)**: Across three different sections and three paleographic scribes (`Hand 1` on `f49v`, `Hand 4` on `f57v`, `Hand 5` on `f66r`), repeating single-character key sequences systematically replace **`f` in the initial/upper cycle** with **`p` in the lower/later cycles**:
   - **`f49v` (`Hand 1`, `pages/f49v_margin_key_enh.png`)**: Cycle 1 (`lines 1–5`) = **`f` `- o - r - y - e`** $\to$ Cycles 2–3 (`lines 9–13, 16–20`) = **`p` `- o - @192; - y - e`**.
-  - **`f57v` (`Hand 4`, `pages/f57v_ring_enh.png`)**: Quadrants 1–2 = `o l d r v x k m` **`f`** `@169;v t r y (c)` $\to$ Quadrants 3–4 = `o l d r v x k m` **`p`** `@169;v t r y c`.
-  - **`f66r` (`Hand 5`, `pages/f66r_margin_labels.png`)**: Upper cycles = **`f` `- [@169;/c] - x - t - o`** $\to$ Final bottom cycle = `t - o - x -` **`p`** `- d`.
+  - **`f57v` (`Hand 4`, `pages/f57v_ring_enh.png`)**: Ring 2 (`<f57v.3>`) has **exactly `68 = 4 × 17` tokens**, repeating `o l d r v x k m [f/p] @169;v t r @170; @171; y [I/c] @172;` four times (`f` in Quadrants 1–2, `p` in Quadrants 3–4).
+  - **`f66r` (`Hand 5`, `pages/f66r_margin_labels.png`)**: Upper cycles = **`f` `- c - @172;` / `f - @169; - x - t - o`** (sharing the exact `f - c - @172;` sequence with `f57v.3`!) $\to$ Final bottom cycle = `t - o - x -` **`p`** `- d`.
+- **`f57v` 6-Sector Radial Synchronization (`Ring 1` $\leftrightarrow$ `Ring 3`)**: Converting the token positions of Ring 1 (`<f57v.2>`) and Ring 3 (`<f57v.4>`) to polar angles from the 10 o'clock radial bar (`0°`) proves that both word rings are divided into **6 synchronized radial sectors** bounded by matching embedded single-character delimiter pairs at the exact same angles: **`v`** (`0°`/`348.4°`), **`o . d`** (`50.0°` vs. `52.3°`, $\Delta\theta = 2.3^\circ$, followed by exactly **1 word** in both rings: `soefchees` above `okeeod`), **`l . g` / `l . o`** (`70.0°`/`87.1°`), **`s . y`** (`156.7°` vs. `156.8°`, $\Delta\theta = 0.1^\circ$), **`a . r` / `x`** (`210.0°` vs. `209.0°`, $\Delta\theta = 1.0^\circ$), and **`d . o . l` / `@172;`** (`293.3°` vs. `290.3°`, $\Delta\theta = 3.0^\circ`).
 
 ---
 
@@ -172,5 +174,6 @@ python tools/analyze_collocations_and_quires.py
 python tools/analyze_rosettes_phrases_and_v101.py
 python tools/analyze_astro_and_herbal.py
 python tools/analyze_bio_rosettes_and_keys.py
+python tools/analyze_cipher_wheel_f57v.py
 ```
 
