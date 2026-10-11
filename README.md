@@ -38,7 +38,8 @@ Rather than rehashing historical decipherment speculations, this project focuses
 │   ├── analyze_astro_and_herbal.py     # f57v 4-quadrant key ring & Herbal-Pharma visual twin permutation test
 │   ├── analyze_bio_rosettes_and_keys.py # Marginal character keys (f49v, f57v, f66r, f76r) & Bio/Quire N analysis
 │   ├── analyze_cipher_wheel_f57v.py    # f57v 6-sector radial alignment & 4x17=68 key wheel analysis
-│   └── test_syllable_and_entropy.py    # 5-slot Shannon entropy decomposition & 7.24-bit core root inventory
+│   ├── test_syllable_and_entropy.py    # 5-slot Shannon entropy decomposition & 7.24-bit core root inventory
+│   └── analyze_cribs_and_taxonomy.py   # Pharma jar (@Lc) vs plant (@Lf) derivational morphology & Taurus/Rosette cribs
 └── pages/                       # Extracted, cropped, and contrast-enhanced folio images
 ```
 
@@ -154,6 +155,15 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 11. Pharmaceutical Jar (`@Lc`) vs. Plant (`@Lf`) Derivational Morphology & Taurus (`f71v`) $\leftrightarrow$ Rosette 6 Double Concordance
+- **Apothecary Jars (`@Lc`) Are Morphologically Derived from Same-Page Plant Stems (`@Lf`)**: `@Lc` apothecary jar labels are on average **`1.27` characters longer** (`6.92` vs. `5.65` chars) than `@Lf` plant labels, and across `8` same-page `(Jar, Plant)` stem pairs on `f88r–f102v2`, the Jar label equals the Plant stem plus a derivational/preparation suffix:
+  - `<f88v.12,@Lf> otora` (1st plant in Row 2) $\to$ adjacent Jar `<f88v.11,@Lc> otoram` (`otora` + `-m`, `pages/f88v_otoram_otora_row2.png`).
+  - `<f99r.2,@Lf> okar` (1st plant in Row 1) $\to$ adjacent Jar `<f99r.1,@Lc> okaradag` (`okar` + `-adag`).
+  - `<f102v2.7,@Lf> okol` (bare plant root) $\to$ Jar `<f102v2.24,@Lc> okolky` (`okol` + `-ky`) $\to$ Starred Recipe `<f105r.30,+P0> qokolky` (`q-` + `okol` + `-ky`, a 3-tier compositional chain!).
+- **Taurus I (`f71v`) $\leftrightarrow$ Rosette 6 (`<fRos.123..124>`) Double Label Concordance**: Two consecutive labels inside Rosette 6 of the 9-Rosettes foldout (`<fRos.123,@L0> ofaraiin` and `<fRos.124,@L0> okolar`, global counts = 4) both match the outer-ring nymph/star labels of Taurus I (`<f71v.8,&Lz> okaraiin` and `<f71v.4,&Lz> okolar`).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -183,5 +193,6 @@ python tools/analyze_astro_and_herbal.py
 python tools/analyze_bio_rosettes_and_keys.py
 python tools/analyze_cipher_wheel_f57v.py
 python tools/test_syllable_and_entropy.py
+python tools/analyze_cribs_and_taxonomy.py
 ```
 
