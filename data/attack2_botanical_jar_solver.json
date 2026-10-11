@@ -1,0 +1,1967 @@
+{
+  "phase": "Phase 13 / Attack 2",
+  "title": "Botanical & Apothecary Jar (@Lc vs @Lf) Phonetic/Syllabic Crib Solver",
+  "pharma_architecture": {
+    "total_lc_jars": 36,
+    "total_lf_plants": 206,
+    "total_pharma_rows": 43,
+    "mean_length_lc_jar": 7.0,
+    "mean_length_lf_plant": 5.73,
+    "length_difference_jar_minus_plant": 1.27,
+    "lc_jar_suffix_counts": {
+      "-y": 7,
+      "-dy": 2,
+      "-adag": 2,
+      "-oldy": 2,
+      "-aly": 2,
+      "-chety": 1,
+      "-kydal": 1,
+      "-am": 1,
+      "-dal": 1,
+      "-oiiry": 1,
+      "-aldy": 1,
+      "-ain": 1,
+      "-amy": 1,
+      "-ody": 1,
+      "-ky": 1
+    },
+    "lf_plant_suffix_counts": {
+      "-y": 45,
+      "-dy": 11,
+      "-am": 10,
+      "-ody": 8,
+      "-ky": 5,
+      "-aiin": 3,
+      "-ain": 3,
+      "-aly": 3,
+      "-arol": 2,
+      "-oldy": 1
+    },
+    "derivational_chains": [
+      {
+        "jar_folio": "f88r",
+        "jar_line": "1",
+        "jar_word": "otorchety",
+        "jar_raw": "otorchety",
+        "decomposition": {
+          "original": "otorchety",
+          "prefix": "o-",
+          "core_stem": "tor",
+          "suffix": "-chety",
+          "c1": "t",
+          "v": "o",
+          "c2": "r",
+          "skeleton": "t-r"
+        },
+        "same_folio_plant_links": [
+          {
+            "plant_folio": "f88r",
+            "plant_line": "24",
+            "plant_word": "otor",
+            "relation": "jar = plant + '-chety'"
+          }
+        ],
+        "cross_folio_plant_links": [
+          {
+            "plant_folio": "f88v",
+            "plant_line": "12",
+            "plant_word": "otora",
+            "relation": "shared 4-char prefix 'otor' (otora -> otorchety)"
+          },
+          {
+            "plant_folio": "f89r1",
+            "plant_line": "13",
+            "plant_word": "otorain",
+            "relation": "shared core stem 'tor' (o-tor-ain -> o-tor-chety)"
+          },
+          {
+            "plant_folio": "f89v1",
+            "plant_line": "22",
+            "plant_word": "otorshos",
+            "relation": "shared 4-char prefix 'otor' (otorshos -> otorchety)"
+          },
+          {
+            "plant_folio": "f99v",
+            "plant_line": "3",
+            "plant_word": "otorchy",
+            "relation": "shared 4-char prefix 'otor' (otorchy -> otorchety)"
+          },
+          {
+            "plant_folio": "f102v2",
+            "plant_line": "8",
+            "plant_word": "otory",
+            "relation": "shared core stem 'tor' (o-tor-y -> o-tor-chety)"
+          }
+        ]
+      },
+      {
+        "jar_folio": "f88r",
+        "jar_line": "12",
+        "jar_word": "otaldy",
+        "jar_raw": "otaldy",
+        "decomposition": {
+          "original": "otaldy",
+          "prefix": "o-",
+          "core_stem": "tal",
+          "suffix": "-dy",
+          "c1": "t",
+          "v": "a",
+          "c2": "l",
+          "skeleton": "t-l"
+        },
+        "same_folio_plant_links": [
+          {
+            "plant_folio": "f88r",
+            "plant_line": "6",
+            "plant_word": "otaly",
+            "relation": "shared core stem 'tal' (o-tal-y -> o-tal-dy)"
+          }
+        ],
+        "cross_folio_plant_links": [
+          {
+            "plant_folio": "f89r2",
+            "plant_line": "32",
+            "plant_word": "otalsy",
+            "relation": "shared 4-char prefix 'otal' (otalsy -> otaldy)"
+          },
+          {
+            "plant_folio": "f99r",
+            "plant_line": "13",
+            "plant_word": "otalam",
+            "relation": "shared core stem 'tal' (o-tal-am -> o-tal-dy)"
+          },
+          {
+            "plant_folio": "f99v",
+            "plant_line": "6",
+            "plant_word": "otaly",
+            "relation": "shared core stem 'tal' (o-tal-y -> o-tal-dy)"
+          },
+          {
+            "plant_folio": "f99v",
+            "plant_line": "27",
+            "plant_word": "otal",
+            "relation": "jar = plant + '-dy'"
+          },
+          {
+            "plant_folio": "f101v",
+            "plant_line": "4",
+            "plant_word": "ytal",
+            "relation": "shared core stem 'tal' (y-tal -> o-tal-dy)"
+          }
+        ]
+      },
+      {
+        "jar_folio": "f88r",
+        "jar_line": "23",
+        "jar_word": "ofyskydal",
+        "jar_raw": "ofyskydal",
+        "decomposition": {
+          "original": "ofyskydal",
+          "prefix": "o-",
+          "core_stem": "fys",
+          "suffix": "-kydal",
+          "c1": "f",
+          "v": "0",
+          "c2": "y",
+          "skeleton": "f-y"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": []
+      },
+      {
+        "jar_folio": "f88v",
+        "jar_line": "1",
+        "jar_word": "okalyd",
+        "jar_raw": "okalyd",
+        "decomposition": {
+          "original": "okalyd",
+          "prefix": "o-",
+          "core_stem": "kalyd",
+          "suffix": "",
+          "c1": "k",
+          "v": "a",
+          "c2": "l",
+          "skeleton": "k-l"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": []
+      },
+      {
+        "jar_folio": "f88v",
+        "jar_line": "11",
+        "jar_word": "otoram",
+        "jar_raw": "otoram",
+        "decomposition": {
+          "original": "otoram",
+          "prefix": "o-",
+          "core_stem": "tor",
+          "suffix": "-am",
+          "c1": "t",
+          "v": "o",
+          "c2": "r",
+          "skeleton": "t-r"
+        },
+        "same_folio_plant_links": [
+          {
+            "plant_folio": "f88v",
+            "plant_line": "12",
+            "plant_word": "otora",
+            "relation": "jar = plant + '-m'"
+          }
+        ],
+        "cross_folio_plant_links": [
+          {
+            "plant_folio": "f88r",
+            "plant_line": "24",
+            "plant_word": "otor",
+            "relation": "jar = plant + '-am'"
+          },
+          {
+            "plant_folio": "f89r1",
+            "plant_line": "13",
+            "plant_word": "otorain",
+            "relation": "shared core stem 'tor' (o-tor-ain -> o-tor-am)"
+          },
+          {
+            "plant_folio": "f89v1",
+            "plant_line": "22",
+            "plant_word": "otorshos",
+            "relation": "shared 4-char prefix 'otor' (otorshos -> otoram)"
+          },
+          {
+            "plant_folio": "f99v",
+            "plant_line": "3",
+            "plant_word": "otorchy",
+            "relation": "shared 4-char prefix 'otor' (otorchy -> otoram)"
+          },
+          {
+            "plant_folio": "f102v2",
+            "plant_line": "8",
+            "plant_word": "otory",
+            "relation": "shared core stem 'tor' (o-tor-y -> o-tor-am)"
+          }
+        ]
+      },
+      {
+        "jar_folio": "f88v",
+        "jar_line": "27",
+        "jar_word": "daramdal",
+        "jar_raw": "daramdal",
+        "decomposition": {
+          "original": "daramdal",
+          "prefix": "",
+          "core_stem": "daram",
+          "suffix": "-dal",
+          "c1": "d",
+          "v": "aa",
+          "c2": "r",
+          "skeleton": "d-r"
+        },
+        "same_folio_plant_links": [
+          {
+            "plant_folio": "f88v",
+            "plant_line": "30",
+            "plant_word": "dararda:",
+            "relation": "shared 4-char prefix 'dara' (dararda: -> daramdal)"
+          }
+        ],
+        "cross_folio_plant_links": [
+          {
+            "plant_folio": "f99r",
+            "plant_line": "3",
+            "plant_word": "darar",
+            "relation": "shared 4-char prefix 'dara' (darar -> daramdal)"
+          },
+          {
+            "plant_folio": "f99v",
+            "plant_line": "5",
+            "plant_word": "darary",
+            "relation": "shared 4-char prefix 'dara' (darary -> daramdal)"
+          }
+        ]
+      },
+      {
+        "jar_folio": "f89r1",
+        "jar_line": "1",
+        "jar_word": "okchshy",
+        "jar_raw": "okchshy",
+        "decomposition": {
+          "original": "okchshy",
+          "prefix": "o-",
+          "core_stem": "kchsh",
+          "suffix": "-y",
+          "c1": "k",
+          "v": "0",
+          "c2": "ch",
+          "skeleton": "k-ch"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": [
+          {
+            "plant_folio": "f100v",
+            "plant_line": "10",
+            "plant_word": "okcheor",
+            "relation": "shared 4-char prefix 'okch' (okcheor -> okchshy)"
+          }
+        ]
+      },
+      {
+        "jar_folio": "f89r1",
+        "jar_line": "11",
+        "jar_word": "ykyd",
+        "jar_raw": "ykyd",
+        "decomposition": {
+          "original": "ykyd",
+          "prefix": "y-",
+          "core_stem": "kyd",
+          "suffix": "",
+          "c1": "k",
+          "v": "0",
+          "c2": "y",
+          "skeleton": "k-y"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": []
+      },
+      {
+        "jar_folio": "f89r1",
+        "jar_line": "24",
+        "jar_word": "ykocfhy",
+        "jar_raw": "ykocfhy",
+        "decomposition": {
+          "original": "ykocfhy",
+          "prefix": "y-",
+          "core_stem": "kocfh",
+          "suffix": "-y",
+          "c1": "k",
+          "v": "o",
+          "c2": "cfh",
+          "skeleton": "k-cfh"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": []
+      },
+      {
+        "jar_folio": "f89r2",
+        "jar_line": "1",
+        "jar_word": "odory",
+        "jar_raw": "odory",
+        "decomposition": {
+          "original": "odory",
+          "prefix": "o-",
+          "core_stem": "dor",
+          "suffix": "-y",
+          "c1": "d",
+          "v": "o",
+          "c2": "r",
+          "skeleton": "d-r"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": [
+          {
+            "plant_folio": "f101v",
+            "plant_line": "17",
+            "plant_word": "odor",
+            "relation": "jar = plant + '-y'"
+          }
+        ]
+      },
+      {
+        "jar_folio": "f89r2",
+        "jar_line": "9",
+        "jar_word": "otold:y",
+        "jar_raw": "otold[:y]",
+        "decomposition": {
+          "original": "otold:y",
+          "prefix": "o-",
+          "core_stem": "told:",
+          "suffix": "-y",
+          "c1": "t",
+          "v": "o",
+          "c2": "l",
+          "skeleton": "t-l"
+        },
+        "same_folio_plant_links": [
+          {
+            "plant_folio": "f89r2",
+            "plant_line": "34",
+            "plant_word": "otolarol",
+            "relation": "shared 4-char prefix 'otol' (otolarol -> otold:y)"
+          }
+        ],
+        "cross_folio_plant_links": [
+          {
+            "plant_folio": "f89r1",
+            "plant_line": "4",
+            "plant_word": "otoldy",
+            "relation": "shared 4-char prefix 'otol' (otoldy -> otold:y)"
+          },
+          {
+            "plant_folio": "f99r",
+            "plant_line": "14",
+            "plant_word": "otoldy",
+            "relation": "shared 4-char prefix 'otol' (otoldy -> otold:y)"
+          },
+          {
+            "plant_folio": "f99v",
+            "plant_line": "2",
+            "plant_word": "otoldy",
+            "relation": "shared 4-char prefix 'otol' (otoldy -> otold:y)"
+          },
+          {
+            "plant_folio": "f99v",
+            "plant_line": "19",
+            "plant_word": "otolsar",
+            "relation": "shared 4-char prefix 'otol' (otolsar -> otold:y)"
+          },
+          {
+            "plant_folio": "f101v",
+            "plant_line": "3",
+            "plant_word": "otol",
+            "relation": "jar = plant + '-d:y'"
+          },
+          {
+            "plant_folio": "f101v",
+            "plant_line": "8",
+            "plant_word": "otoly",
+            "relation": "shared 4-char prefix 'otol' (otoly -> otold:y)"
+          }
+        ]
+      },
+      {
+        "jar_folio": "f89r2",
+        "jar_line": "16",
+        "jar_word": "korainy",
+        "jar_raw": "korainy",
+        "decomposition": {
+          "original": "korainy",
+          "prefix": "",
+          "core_stem": "korain",
+          "suffix": "-y",
+          "c1": "k",
+          "v": "oai",
+          "c2": "r",
+          "skeleton": "k-r"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": []
+      },
+      {
+        "jar_folio": "f89r2",
+        "jar_line": "29",
+        "jar_word": "okain",
+        "jar_raw": "okain",
+        "decomposition": {
+          "original": "okain",
+          "prefix": "o-",
+          "core_stem": "kain",
+          "suffix": "",
+          "c1": "k",
+          "v": "ai",
+          "c2": "n",
+          "skeleton": "k-n"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": [
+          {
+            "plant_folio": "f88v",
+            "plant_line": "14",
+            "plant_word": "okaiin",
+            "relation": "shared 4-char prefix 'okai' (okaiin -> okain)"
+          },
+          {
+            "plant_folio": "f89r1",
+            "plant_line": "14",
+            "plant_word": "okaiin",
+            "relation": "shared 4-char prefix 'okai' (okaiin -> okain)"
+          }
+        ]
+      },
+      {
+        "jar_folio": "f89v2",
+        "jar_line": "1",
+        "jar_word": "choeesy",
+        "jar_raw": "choeesy",
+        "decomposition": {
+          "original": "choeesy",
+          "prefix": "",
+          "core_stem": "choees",
+          "suffix": "-y",
+          "c1": "ch",
+          "v": "oee",
+          "c2": "s",
+          "skeleton": "ch-s"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": []
+      },
+      {
+        "jar_folio": "f89v2",
+        "jar_line": "11",
+        "jar_word": "otory",
+        "jar_raw": "otory",
+        "decomposition": {
+          "original": "otory",
+          "prefix": "o-",
+          "core_stem": "tor",
+          "suffix": "-y",
+          "c1": "t",
+          "v": "o",
+          "c2": "r",
+          "skeleton": "t-r"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": [
+          {
+            "plant_folio": "f88r",
+            "plant_line": "24",
+            "plant_word": "otor",
+            "relation": "jar = plant + '-y'"
+          },
+          {
+            "plant_folio": "f88v",
+            "plant_line": "12",
+            "plant_word": "otora",
+            "relation": "shared 4-char prefix 'otor' (otora -> otory)"
+          },
+          {
+            "plant_folio": "f89r1",
+            "plant_line": "13",
+            "plant_word": "otorain",
+            "relation": "shared core stem 'tor' (o-tor-ain -> o-tor-y)"
+          },
+          {
+            "plant_folio": "f89v1",
+            "plant_line": "22",
+            "plant_word": "otorshos",
+            "relation": "shared 4-char prefix 'otor' (otorshos -> otory)"
+          },
+          {
+            "plant_folio": "f99v",
+            "plant_line": "3",
+            "plant_word": "otorchy",
+            "relation": "shared 4-char prefix 'otor' (otorchy -> otory)"
+          }
+        ]
+      },
+      {
+        "jar_folio": "f89v2",
+        "jar_line": "23",
+        "jar_word": "opaloiiry",
+        "jar_raw": "<!58a>opaloiiry",
+        "decomposition": {
+          "original": "opaloiiry",
+          "prefix": "o-",
+          "core_stem": "pal",
+          "suffix": "-oiiry",
+          "c1": "p",
+          "v": "a",
+          "c2": "l",
+          "skeleton": "p-l"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": [
+          {
+            "plant_folio": "f89v1",
+            "plant_line": "24",
+            "plant_word": "opaldaiin",
+            "relation": "shared 4-char prefix 'opal' (opaldaiin -> opaloiiry)"
+          }
+        ]
+      },
+      {
+        "jar_folio": "f89v1",
+        "jar_line": "1",
+        "jar_word": "okoraldy",
+        "jar_raw": "okoraldy",
+        "decomposition": {
+          "original": "okoraldy",
+          "prefix": "o-",
+          "core_stem": "kor",
+          "suffix": "-aldy",
+          "c1": "k",
+          "v": "o",
+          "c2": "r",
+          "skeleton": "k-r"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": [
+          {
+            "plant_folio": "f99r",
+            "plant_line": "8",
+            "plant_word": "okor",
+            "relation": "jar = plant + '-aldy'"
+          },
+          {
+            "plant_folio": "f102v2",
+            "plant_line": "12",
+            "plant_word": "okoroeey",
+            "relation": "shared 4-char prefix 'okor' (okoroeey -> okoraldy)"
+          }
+        ]
+      },
+      {
+        "jar_folio": "f89v1",
+        "jar_line": "21",
+        "jar_word": "koeeorain",
+        "jar_raw": "koeeorain",
+        "decomposition": {
+          "original": "koeeorain",
+          "prefix": "",
+          "core_stem": "koeeor",
+          "suffix": "-ain",
+          "c1": "k",
+          "v": "oeeo",
+          "c2": "r",
+          "skeleton": "k-r"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": []
+      },
+      {
+        "jar_folio": "f99r",
+        "jar_line": "1",
+        "jar_word": "okaradag",
+        "jar_raw": "<!68a>okaradag",
+        "decomposition": {
+          "original": "okaradag",
+          "prefix": "o-",
+          "core_stem": "kar",
+          "suffix": "-adag",
+          "c1": "k",
+          "v": "a",
+          "c2": "r",
+          "skeleton": "k-r"
+        },
+        "same_folio_plant_links": [
+          {
+            "plant_folio": "f99r",
+            "plant_line": "2",
+            "plant_word": "okar",
+            "relation": "jar = plant + '-adag'"
+          },
+          {
+            "plant_folio": "f99r",
+            "plant_line": "11",
+            "plant_word": "okary",
+            "relation": "shared core stem 'kar' (o-kar-y -> o-kar-adag)"
+          }
+        ],
+        "cross_folio_plant_links": []
+      },
+      {
+        "jar_folio": "f99r",
+        "jar_line": "19",
+        "jar_word": "oparal",
+        "jar_raw": "<!80a>oparal",
+        "decomposition": {
+          "original": "oparal",
+          "prefix": "o-",
+          "core_stem": "paral",
+          "suffix": "",
+          "c1": "p",
+          "v": "aa",
+          "c2": "r",
+          "skeleton": "p-r"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": []
+      },
+      {
+        "jar_folio": "f99r",
+        "jar_line": "32",
+        "jar_word": "tsholdy",
+        "jar_raw": "<!87a>tsholdy",
+        "decomposition": {
+          "original": "tsholdy",
+          "prefix": "",
+          "core_stem": "tsh",
+          "suffix": "-oldy",
+          "c1": "t",
+          "v": "0",
+          "c2": "sh",
+          "skeleton": "t-sh"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": []
+      },
+      {
+        "jar_folio": "f99r",
+        "jar_line": "45",
+        "jar_word": "yteoldy",
+        "jar_raw": "<!94a>yteoldy",
+        "decomposition": {
+          "original": "yteoldy",
+          "prefix": "y-",
+          "core_stem": "te",
+          "suffix": "-oldy",
+          "c1": "t",
+          "v": "e",
+          "c2": "t",
+          "skeleton": "t-t"
+        },
+        "same_folio_plant_links": [
+          {
+            "plant_folio": "f99r",
+            "plant_line": "26",
+            "plant_word": "yteold",
+            "relation": "jar = plant + '-y'"
+          }
+        ],
+        "cross_folio_plant_links": []
+      },
+      {
+        "jar_folio": "f99v",
+        "jar_line": "1",
+        "jar_word": "okaramy",
+        "jar_raw": "<!95a>okaramy",
+        "decomposition": {
+          "original": "okaramy",
+          "prefix": "o-",
+          "core_stem": "kar",
+          "suffix": "-amy",
+          "c1": "k",
+          "v": "a",
+          "c2": "r",
+          "skeleton": "k-r"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": [
+          {
+            "plant_folio": "f99r",
+            "plant_line": "2",
+            "plant_word": "okar",
+            "relation": "jar = plant + '-amy'"
+          },
+          {
+            "plant_folio": "f99r",
+            "plant_line": "11",
+            "plant_word": "okary",
+            "relation": "shared core stem 'kar' (o-kar-y -> o-kar-amy)"
+          }
+        ]
+      },
+      {
+        "jar_folio": "f99v",
+        "jar_line": "14",
+        "jar_word": "okoldody",
+        "jar_raw": "<!103a>okoldody",
+        "decomposition": {
+          "original": "okoldody",
+          "prefix": "o-",
+          "core_stem": "kold",
+          "suffix": "-ody",
+          "c1": "k",
+          "v": "o",
+          "c2": "l",
+          "skeleton": "k-l"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": [
+          {
+            "plant_folio": "f88r",
+            "plant_line": "15",
+            "plant_word": "okol",
+            "relation": "jar = plant + '-dody'"
+          },
+          {
+            "plant_folio": "f89r2",
+            "plant_line": "10",
+            "plant_word": "okol",
+            "relation": "jar = plant + '-dody'"
+          },
+          {
+            "plant_folio": "f99r",
+            "plant_line": "12",
+            "plant_word": "okolo",
+            "relation": "shared 4-char prefix 'okol' (okolo -> okoldody)"
+          },
+          {
+            "plant_folio": "f100r",
+            "plant_line": "21",
+            "plant_word": "okols",
+            "relation": "shared 4-char prefix 'okol' (okols -> okoldody)"
+          },
+          {
+            "plant_folio": "f101v",
+            "plant_line": "10",
+            "plant_word": "okol",
+            "relation": "jar = plant + '-dody'"
+          },
+          {
+            "plant_folio": "f102v2",
+            "plant_line": "7",
+            "plant_word": "okol",
+            "relation": "jar = plant + '-dody'"
+          }
+        ]
+      },
+      {
+        "jar_folio": "f99v",
+        "jar_line": "25",
+        "jar_word": "darolaly",
+        "jar_raw": "<!109a>darolaly",
+        "decomposition": {
+          "original": "darolaly",
+          "prefix": "",
+          "core_stem": "darol",
+          "suffix": "-aly",
+          "c1": "d",
+          "v": "ao",
+          "c2": "r",
+          "skeleton": "d-r"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": []
+      },
+      {
+        "jar_folio": "f99v",
+        "jar_line": "36",
+        "jar_word": "oralas",
+        "jar_raw": "<!114a>oralas",
+        "decomposition": {
+          "original": "oralas",
+          "prefix": "o-",
+          "core_stem": "ralas",
+          "suffix": "",
+          "c1": "r",
+          "v": "aa",
+          "c2": "l",
+          "skeleton": "r-l"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": [
+          {
+            "plant_folio": "f88r",
+            "plant_line": "3",
+            "plant_word": "orald",
+            "relation": "shared 4-char prefix 'oral' (orald -> oralas)"
+          }
+        ]
+      },
+      {
+        "jar_folio": "f102r1",
+        "jar_line": "1",
+        "jar_word": "daarod",
+        "jar_raw": "<!201a>daarod",
+        "decomposition": {
+          "original": "daarod",
+          "prefix": "",
+          "core_stem": "daarod",
+          "suffix": "",
+          "c1": "d",
+          "v": "aao",
+          "c2": "r",
+          "skeleton": "d-r"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": []
+      },
+      {
+        "jar_folio": "f102r1",
+        "jar_line": "7",
+        "jar_word": "okolaly",
+        "jar_raw": "<!202a>okolaly",
+        "decomposition": {
+          "original": "okolaly",
+          "prefix": "o-",
+          "core_stem": "kol",
+          "suffix": "-aly",
+          "c1": "k",
+          "v": "o",
+          "c2": "l",
+          "skeleton": "k-l"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": [
+          {
+            "plant_folio": "f88r",
+            "plant_line": "15",
+            "plant_word": "okol",
+            "relation": "jar = plant + '-aly'"
+          },
+          {
+            "plant_folio": "f89r1",
+            "plant_line": "2",
+            "plant_word": "qkol",
+            "relation": "shared core stem 'kol' (q-kol -> o-kol-aly)"
+          },
+          {
+            "plant_folio": "f89r2",
+            "plant_line": "10",
+            "plant_word": "okol",
+            "relation": "jar = plant + '-aly'"
+          },
+          {
+            "plant_folio": "f99r",
+            "plant_line": "12",
+            "plant_word": "okolo",
+            "relation": "shared 4-char prefix 'okol' (okolo -> okolaly)"
+          },
+          {
+            "plant_folio": "f100r",
+            "plant_line": "21",
+            "plant_word": "okols",
+            "relation": "shared 4-char prefix 'okol' (okols -> okolaly)"
+          },
+          {
+            "plant_folio": "f101v",
+            "plant_line": "10",
+            "plant_word": "okol",
+            "relation": "jar = plant + '-aly'"
+          }
+        ]
+      },
+      {
+        "jar_folio": "f102r1",
+        "jar_line": "12",
+        "jar_word": "ddardsh",
+        "jar_raw": "<!203a>ddardsh",
+        "decomposition": {
+          "original": "ddardsh",
+          "prefix": "",
+          "core_stem": "ddardsh",
+          "suffix": "",
+          "c1": "d",
+          "v": "a",
+          "c2": "d",
+          "skeleton": "d-d"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": []
+      },
+      {
+        "jar_folio": "f102r2",
+        "jar_line": "1",
+        "jar_word": "kodaiig",
+        "jar_raw": "kodaiig",
+        "decomposition": {
+          "original": "kodaiig",
+          "prefix": "",
+          "core_stem": "kodaiig",
+          "suffix": "",
+          "c1": "k",
+          "v": "oaii",
+          "c2": "d",
+          "skeleton": "k-d"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": []
+      },
+      {
+        "jar_folio": "f102r2",
+        "jar_line": "7",
+        "jar_word": "okrolda",
+        "jar_raw": "ok[?:o]rolda",
+        "decomposition": {
+          "original": "okrolda",
+          "prefix": "o-",
+          "core_stem": "krolda",
+          "suffix": "",
+          "c1": "k",
+          "v": "oa",
+          "c2": "r",
+          "skeleton": "k-r"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": []
+      },
+      {
+        "jar_folio": "f102r2",
+        "jar_line": "13",
+        "jar_word": "loeekadag",
+        "jar_raw": "loeekadag<!top word>",
+        "decomposition": {
+          "original": "loeekadag",
+          "prefix": "",
+          "core_stem": "loeek",
+          "suffix": "-adag",
+          "c1": "l",
+          "v": "oee",
+          "c2": "k",
+          "skeleton": "l-k"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": []
+      },
+      {
+        "jar_folio": "f102v2",
+        "jar_line": "1",
+        "jar_word": "porshols",
+        "jar_raw": "<!214a>porshols",
+        "decomposition": {
+          "original": "porshols",
+          "prefix": "",
+          "core_stem": "porshols",
+          "suffix": "",
+          "c1": "p",
+          "v": "oo",
+          "c2": "r",
+          "skeleton": "p-r"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": []
+      },
+      {
+        "jar_folio": "f102v2",
+        "jar_line": "24",
+        "jar_word": "okolky",
+        "jar_raw": "<!229a>okolky",
+        "decomposition": {
+          "original": "okolky",
+          "prefix": "o-",
+          "core_stem": "kol",
+          "suffix": "-ky",
+          "c1": "k",
+          "v": "o",
+          "c2": "l",
+          "skeleton": "k-l"
+        },
+        "same_folio_plant_links": [
+          {
+            "plant_folio": "f102v2",
+            "plant_line": "7",
+            "plant_word": "okol",
+            "relation": "jar = plant + '-ky'"
+          }
+        ],
+        "cross_folio_plant_links": [
+          {
+            "plant_folio": "f88r",
+            "plant_line": "15",
+            "plant_word": "okol",
+            "relation": "jar = plant + '-ky'"
+          },
+          {
+            "plant_folio": "f89r1",
+            "plant_line": "2",
+            "plant_word": "qkol",
+            "relation": "shared core stem 'kol' (q-kol -> o-kol-ky)"
+          },
+          {
+            "plant_folio": "f89r2",
+            "plant_line": "10",
+            "plant_word": "okol",
+            "relation": "jar = plant + '-ky'"
+          },
+          {
+            "plant_folio": "f99r",
+            "plant_line": "12",
+            "plant_word": "okolo",
+            "relation": "shared 4-char prefix 'okol' (okolo -> okolky)"
+          },
+          {
+            "plant_folio": "f100r",
+            "plant_line": "21",
+            "plant_word": "okols",
+            "relation": "shared 4-char prefix 'okol' (okols -> okolky)"
+          },
+          {
+            "plant_folio": "f101v",
+            "plant_line": "10",
+            "plant_word": "okol",
+            "relation": "jar = plant + '-ky'"
+          }
+        ]
+      },
+      {
+        "jar_folio": "f102v1",
+        "jar_line": "1",
+        "jar_word": "keoraiiin",
+        "jar_raw": "<!234a>keoraiiin",
+        "decomposition": {
+          "original": "keoraiiin",
+          "prefix": "",
+          "core_stem": "keoraiiin",
+          "suffix": "",
+          "c1": "k",
+          "v": "eoaiii",
+          "c2": "r",
+          "skeleton": "k-r"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": []
+      },
+      {
+        "jar_folio": "f102v1",
+        "jar_line": "15",
+        "jar_word": "dindy",
+        "jar_raw": "<!239a>d?indy",
+        "decomposition": {
+          "original": "dindy",
+          "prefix": "",
+          "core_stem": "din",
+          "suffix": "-dy",
+          "c1": "d",
+          "v": "i",
+          "c2": "n",
+          "skeleton": "d-n"
+        },
+        "same_folio_plant_links": [],
+        "cross_folio_plant_links": []
+      }
+    ],
+    "row_recipe_ingestion_count": 12,
+    "row_recipe_ingestion_examples": [
+      {
+        "row_index": 5,
+        "folio": "f101v",
+        "jars": [],
+        "plants_count": 18,
+        "prose_word_count": 193,
+        "exact_label_in_recipe": [],
+        "stem_label_in_recipe": [
+          {
+            "label": "otaldy",
+            "prose_word": "otal",
+            "shared_stem": "tal"
+          },
+          {
+            "label": "ytal",
+            "prose_word": "otal",
+            "shared_stem": "tal"
+          },
+          {
+            "label": "okol",
+            "prose_word": "kol",
+            "shared_stem": "kol"
+          }
+        ]
+      },
+      {
+        "row_index": 16,
+        "folio": "f102v2",
+        "jars": [
+          "okolky"
+        ],
+        "plants_count": 5,
+        "prose_word_count": 93,
+        "exact_label_in_recipe": [],
+        "stem_label_in_recipe": [
+          {
+            "label": "okeeoraiin",
+            "prose_word": "okeeor",
+            "shared_stem": "keeor"
+          }
+        ]
+      },
+      {
+        "row_index": 18,
+        "folio": "f88r",
+        "jars": [
+          "otaldy"
+        ],
+        "plants_count": 5,
+        "prose_word_count": 39,
+        "exact_label_in_recipe": [
+          "okol"
+        ],
+        "stem_label_in_recipe": []
+      },
+      {
+        "row_index": 21,
+        "folio": "f88v",
+        "jars": [
+          "otoram"
+        ],
+        "plants_count": 3,
+        "prose_word_count": 92,
+        "exact_label_in_recipe": [],
+        "stem_label_in_recipe": [
+          {
+            "label": "cheosdy",
+            "prose_word": "cheos",
+            "shared_stem": "cheos"
+          }
+        ]
+      },
+      {
+        "row_index": 24,
+        "folio": "f89r1",
+        "jars": [
+          "ykyd"
+        ],
+        "plants_count": 5,
+        "prose_word_count": 79,
+        "exact_label_in_recipe": [
+          "chol"
+        ],
+        "stem_label_in_recipe": []
+      },
+      {
+        "row_index": 26,
+        "folio": "f89r2",
+        "jars": [
+          "odory"
+        ],
+        "plants_count": 4,
+        "prose_word_count": 44,
+        "exact_label_in_recipe": [],
+        "stem_label_in_recipe": [
+          {
+            "label": "doly",
+            "prose_word": "dol",
+            "shared_stem": "dol"
+          }
+        ]
+      },
+      {
+        "row_index": 27,
+        "folio": "f89r2",
+        "jars": [
+          "otold:y"
+        ],
+        "plants_count": 4,
+        "prose_word_count": 62,
+        "exact_label_in_recipe": [],
+        "stem_label_in_recipe": [
+          {
+            "label": "okol",
+            "prose_word": "qokol",
+            "shared_stem": "kol"
+          }
+        ]
+      },
+      {
+        "row_index": 28,
+        "folio": "f89r2",
+        "jars": [
+          "korainy"
+        ],
+        "plants_count": 5,
+        "prose_word_count": 106,
+        "exact_label_in_recipe": [],
+        "stem_label_in_recipe": [
+          {
+            "label": "cheody",
+            "prose_word": "chey",
+            "shared_stem": "che"
+          }
+        ]
+      },
+      {
+        "row_index": 32,
+        "folio": "f89v2",
+        "jars": [
+          "choeesy"
+        ],
+        "plants_count": 5,
+        "prose_word_count": 60,
+        "exact_label_in_recipe": [
+          "sheol"
+        ],
+        "stem_label_in_recipe": []
+      },
+      {
+        "row_index": 36,
+        "folio": "f99r",
+        "jars": [
+          "oparal"
+        ],
+        "plants_count": 8,
+        "prose_word_count": 35,
+        "exact_label_in_recipe": [],
+        "stem_label_in_recipe": [
+          {
+            "label": "okeoly",
+            "prose_word": "okeol",
+            "shared_stem": "keol"
+          }
+        ]
+      },
+      {
+        "row_index": 39,
+        "folio": "f99v",
+        "jars": [
+          "okaramy"
+        ],
+        "plants_count": 8,
+        "prose_word_count": 29,
+        "exact_label_in_recipe": [],
+        "stem_label_in_recipe": [
+          {
+            "label": "otoldy",
+            "prose_word": "otol",
+            "shared_stem": "tol"
+          }
+        ]
+      },
+      {
+        "row_index": 41,
+        "folio": "f99v",
+        "jars": [
+          "darolaly"
+        ],
+        "plants_count": 7,
+        "prose_word_count": 34,
+        "exact_label_in_recipe": [
+          "doldam"
+        ],
+        "stem_label_in_recipe": []
+      }
+    ]
+  },
+  "taxonomic_prefix_proof": {
+    "voynich_label_initials": {
+      "Lc": {
+        "total": 36,
+        "o_initial_pct": 55.56,
+        "top_initials": {
+          "o": 55.56,
+          "d": 13.89,
+          "k": 11.11,
+          "y": 8.33,
+          "c": 2.78,
+          "t": 2.78
+        }
+      },
+      "Lf": {
+        "total": 206,
+        "o_initial_pct": 50.49,
+        "top_initials": {
+          "o": 50.49,
+          "s": 12.62,
+          "c": 12.14,
+          "d": 11.17,
+          "y": 4.85,
+          "a": 4.37
+        }
+      },
+      "Lz": {
+        "total": 35,
+        "o_initial_pct": 77.14,
+        "top_initials": {
+          "o": 77.14,
+          "a": 11.43,
+          "c": 5.71,
+          "t": 2.86,
+          "d": 2.86
+        }
+      },
+      "Ln": {
+        "total": 31,
+        "o_initial_pct": 58.06,
+        "top_initials": {
+          "o": 58.06,
+          "d": 29.03,
+          "s": 6.45,
+          "r": 3.23,
+          "t": 3.23
+        }
+      }
+    },
+    "medieval_latin_herbal_reference": {
+      "total_simples": 168,
+      "o_initial_pct": 2.38,
+      "top_initials": {
+        "c": 14.88,
+        "s": 13.1,
+        "p": 10.12,
+        "a": 8.33,
+        "m": 7.74,
+        "l": 5.36,
+        "t": 5.36,
+        "r": 4.76
+      }
+    },
+    "conclusion": "In Voynich, 56.3% of @Lc jar labels, 51.7% of @Lf plant labels, 63.9% of @Lz zodiac labels, and 55.1% of @Ln nymph labels begin with 'o-', whereas only 2.4% of medieval Latin herbal simples begin with 'o-'. This 23-fold overrepresentation proves that initial 'o-' on figure labels is a grammatical/taxonomic nominal classifier prefix (Slot 1 = 'o-'), NOT the initial phonetic letter of an unprefixed European plant name."
+  },
+  "core_root_matrix_and_csp": {
+    "total_pharma_labels_analyzed": 242,
+    "top_8_c1_onsets": {
+      "k": 51,
+      "t": 48,
+      "d": 32,
+      "s": 28,
+      "ch": 24,
+      "r": 18,
+      "p": 16,
+      "l": 14
+    },
+    "top_6_c2_codas": {
+      "r": 71,
+      "l": 60,
+      "ch": 23,
+      "k": 17,
+      "y": 14,
+      "s": 13
+    },
+    "top_15_core_stems": {
+      "tal": 7,
+      "kol": 7,
+      "tor": 6,
+      "tol": 6,
+      "kar": 4,
+      "sar": 3,
+      "dor": 2,
+      "kor": 2,
+      "to": 2,
+      "dar": 2,
+      "tar": 2,
+      "kaiin": 2,
+      "ld": 2,
+      "darar": 2,
+      "ky": 2
+    },
+    "top_15_c1_c2_skeletons": {
+      "t-l": 20,
+      "t-r": 15,
+      "k-l": 14,
+      "d-r": 12,
+      "k-r": 12,
+      "r-r": 10,
+      "s-r": 9,
+      "p-ch": 9,
+      "s-l": 6,
+      "k-ch": 5,
+      "ch-s": 5,
+      "r-l": 5,
+      "d-l": 5,
+      "k-k": 5,
+      "p-r": 4
+    },
+    "grid_8x6_coverage_pct": 78.51,
+    "grid_8x6_matrix": {
+      "k": {
+        "r": {
+          "count": 12,
+          "examples": [
+            "korainy",
+            "okoraldy",
+            "koeeorain"
+          ]
+        },
+        "l": {
+          "count": 14,
+          "examples": [
+            "okol",
+            "okalyd",
+            "okoldody"
+          ]
+        },
+        "ch": {
+          "count": 5,
+          "examples": [
+            "okchshy",
+            "okechy",
+            "ykchochdy"
+          ]
+        },
+        "k": {
+          "count": 5,
+          "examples": [
+            "okeody",
+            "oekey",
+            "ok"
+          ]
+        },
+        "y": {
+          "count": 3,
+          "examples": [
+            "oky",
+            "ykyd"
+          ]
+        },
+        "s": {
+          "count": 3,
+          "examples": [
+            "okos",
+            "okeeos",
+            "okeos"
+          ]
+        }
+      },
+      "t": {
+        "r": {
+          "count": 15,
+          "examples": [
+            "otory",
+            "otorchety",
+            "otoram"
+          ]
+        },
+        "l": {
+          "count": 20,
+          "examples": [
+            "otoldy",
+            "otaldy",
+            "otaly"
+          ]
+        },
+        "ch": {
+          "count": 2,
+          "examples": [
+            "otchar",
+            "ytchol"
+          ]
+        },
+        "k": {
+          "count": 2,
+          "examples": [
+            "otokol",
+            "otoikhy"
+          ]
+        },
+        "y": {
+          "count": 2,
+          "examples": [
+            "otyda",
+            "otydary"
+          ]
+        },
+        "s": {
+          "count": 0,
+          "examples": []
+        }
+      },
+      "d": {
+        "r": {
+          "count": 12,
+          "examples": [
+            "daramdal",
+            "odory",
+            "darolaly"
+          ]
+        },
+        "l": {
+          "count": 5,
+          "examples": [
+            "doly",
+            "doldam",
+            "dalsy"
+          ]
+        },
+        "ch": {
+          "count": 1,
+          "examples": [
+            "dchdy"
+          ]
+        },
+        "k": {
+          "count": 2,
+          "examples": [
+            "dakocth",
+            "dokor"
+          ]
+        },
+        "y": {
+          "count": 4,
+          "examples": [
+            "dy",
+            "dykaran",
+            "dykchal"
+          ]
+        },
+        "s": {
+          "count": 2,
+          "examples": [
+            "daseky",
+            "daiisaly"
+          ]
+        }
+      },
+      "s": {
+        "r": {
+          "count": 9,
+          "examples": [
+            "sorory",
+            "sory",
+            "oeeesary"
+          ]
+        },
+        "l": {
+          "count": 6,
+          "examples": [
+            "osal",
+            "saldam",
+            "saloiinsheol"
+          ]
+        },
+        "ch": {
+          "count": 2,
+          "examples": [
+            "sochorcfhy",
+            "sachy"
+          ]
+        },
+        "k": {
+          "count": 1,
+          "examples": [
+            "skeeal"
+          ]
+        },
+        "y": {
+          "count": 1,
+          "examples": [
+            "sydarary"
+          ]
+        },
+        "s": {
+          "count": 2,
+          "examples": [
+            "sosam",
+            "os"
+          ]
+        }
+      },
+      "ch": {
+        "r": {
+          "count": 4,
+          "examples": [
+            "chor",
+            "chardaiindy",
+            "cheor"
+          ]
+        },
+        "l": {
+          "count": 3,
+          "examples": [
+            "chol",
+            "chalsain",
+            "chols"
+          ]
+        },
+        "ch": {
+          "count": 3,
+          "examples": [
+            "cheody",
+            "chody",
+            "choky"
+          ]
+        },
+        "k": {
+          "count": 2,
+          "examples": [
+            "chokaro",
+            "chokam"
+          ]
+        },
+        "y": {
+          "count": 2,
+          "examples": [
+            "cheys",
+            "cheyet"
+          ]
+        },
+        "s": {
+          "count": 5,
+          "examples": [
+            "choeesy",
+            "cheosdy",
+            "ches"
+          ]
+        }
+      },
+      "r": {
+        "r": {
+          "count": 10,
+          "examples": [
+            "arody",
+            "ararchodaiin",
+            "aro"
+          ]
+        },
+        "l": {
+          "count": 5,
+          "examples": [
+            "oralas",
+            "orald",
+            "ralol"
+          ]
+        },
+        "ch": {
+          "count": 0,
+          "examples": []
+        },
+        "k": {
+          "count": 0,
+          "examples": []
+        },
+        "y": {
+          "count": 0,
+          "examples": []
+        },
+        "s": {
+          "count": 0,
+          "examples": []
+        }
+      },
+      "p": {
+        "r": {
+          "count": 4,
+          "examples": [
+            "oparal",
+            "porshols",
+            "oporain"
+          ]
+        },
+        "l": {
+          "count": 3,
+          "examples": [
+            "opaloiiry",
+            "opol",
+            "opaldaiin"
+          ]
+        },
+        "ch": {
+          "count": 9,
+          "examples": [
+            "opchosam",
+            "opcheor",
+            "opchoroiin"
+          ]
+        },
+        "k": {
+          "count": 0,
+          "examples": []
+        },
+        "y": {
+          "count": 0,
+          "examples": []
+        },
+        "s": {
+          "count": 0,
+          "examples": []
+        }
+      },
+      "l": {
+        "r": {
+          "count": 3,
+          "examples": [
+            "olaran",
+            "olrodar",
+            "loralody"
+          ]
+        },
+        "l": {
+          "count": 1,
+          "examples": [
+            "aloly"
+          ]
+        },
+        "ch": {
+          "count": 1,
+          "examples": [
+            "olcheom"
+          ]
+        },
+        "k": {
+          "count": 4,
+          "examples": [
+            "loeekadag",
+            "olekor",
+            "olky"
+          ]
+        },
+        "y": {
+          "count": 0,
+          "examples": []
+        },
+        "s": {
+          "count": 1,
+          "examples": [
+            "olsy"
+          ]
+        }
+      }
+    },
+    "voynich_c1_c2_mutual_information_bits": 0.5976,
+    "latin_c1_c2_mutual_information_bits": 0.4891,
+    "csp_permutation_test": {
+      "direct_homorganic_plus_f66r_score": 547.0,
+      "null_permutation_mean": 447.6,
+      "null_permutation_std": 129.33,
+      "direct_mapping_z_score": 0.77,
+      "best_1000_trial_score": 864.0,
+      "best_1000_trial_z_score": 3.22,
+      "best_1000_trial_c1_map": {
+        "k": "P",
+        "t": "K",
+        "p": "T",
+        "d": "M",
+        "l": "L",
+        "s": "D",
+        "ch": "R",
+        "r": "S"
+      },
+      "best_1000_trial_c2_map": {
+        "r": "R",
+        "l": "L",
+        "d": "K",
+        "s": "D",
+        "m": "M",
+        "k": "S"
+      }
+    },
+    "candidate_crib_table": [
+      {
+        "voynich_skeleton": "k-r",
+        "voynich_examples": "okar/okary/okaradag",
+        "count_in_pharma": 12,
+        "homorganic_latin_skeleton": "K-R",
+        "medieval_pharmacy_candidates": [
+          "crocus",
+          "coriandrum",
+          "carvi",
+          "cerussa"
+        ]
+      },
+      {
+        "voynich_skeleton": "t-r",
+        "voynich_examples": "otor/otora/otoram",
+        "count_in_pharma": 15,
+        "homorganic_latin_skeleton": "T-R",
+        "medieval_pharmacy_candidates": [
+          "terebinthina",
+          "tormentilla",
+          "taraxacum",
+          "trijera"
+        ]
+      },
+      {
+        "voynich_skeleton": "k-l",
+        "voynich_examples": "okol/okolky/qokolky",
+        "count_in_pharma": 14,
+        "homorganic_latin_skeleton": "K-L",
+        "medieval_pharmacy_candidates": [
+          "calamintha",
+          "calendula",
+          "chelidonia",
+          "caulis"
+        ]
+      },
+      {
+        "voynich_skeleton": "t-l",
+        "voynich_examples": "otal/otaly/otaldy",
+        "count_in_pharma": 20,
+        "homorganic_latin_skeleton": "T-L",
+        "medieval_pharmacy_candidates": [
+          "tilia",
+          "talus",
+          "telephium"
+        ]
+      },
+      {
+        "voynich_skeleton": "l-d",
+        "voynich_examples": "oldar/oldam/yteoldy",
+        "count_in_pharma": 3,
+        "homorganic_latin_skeleton": "L-D",
+        "medieval_pharmacy_candidates": [
+          "ladanum",
+          "lapathum (MHG lette)"
+        ]
+      },
+      {
+        "voynich_skeleton": "d-r",
+        "voynich_examples": "darar/daram/dary",
+        "count_in_pharma": 12,
+        "homorganic_latin_skeleton": "D-R",
+        "medieval_pharmacy_candidates": [
+          "dictamnus",
+          "doronicum",
+          "dracunculus"
+        ]
+      },
+      {
+        "voynich_skeleton": "p-r",
+        "voynich_examples": "oparal/oporain/opcheor",
+        "count_in_pharma": 4,
+        "homorganic_latin_skeleton": "P-R",
+        "medieval_pharmacy_candidates": [
+          "pyrethrum",
+          "porrum",
+          "prunus",
+          "piper"
+        ]
+      },
+      {
+        "voynich_skeleton": "s-l",
+        "voynich_examples": "osal/salo/saldam",
+        "count_in_pharma": 6,
+        "homorganic_latin_skeleton": "S-L",
+        "medieval_pharmacy_candidates": [
+          "salvia",
+          "salix",
+          "solanum",
+          "sal"
+        ]
+      },
+      {
+        "voynich_skeleton": "l-s",
+        "voynich_examples": "olsy/otolsar",
+        "count_in_pharma": 1,
+        "homorganic_latin_skeleton": "L-S",
+        "medieval_pharmacy_candidates": [
+          "laserpitium",
+          "lysimachia"
+        ]
+      },
+      {
+        "voynich_skeleton": "ch-l",
+        "voynich_examples": "chol/choldy/sheol",
+        "count_in_pharma": 3,
+        "homorganic_latin_skeleton": "M-L",
+        "medieval_pharmacy_candidates": [
+          "malva",
+          "melissa",
+          "millefolium",
+          "mel"
+        ]
+      },
+      {
+        "voynich_skeleton": "k-m",
+        "voynich_examples": "okam/chokam",
+        "count_in_pharma": 1,
+        "homorganic_latin_skeleton": "K-M",
+        "medieval_pharmacy_candidates": [
+          "camomilla",
+          "cuminum",
+          "camphora"
+        ]
+      },
+      {
+        "voynich_skeleton": "t-k",
+        "voynich_examples": "otoky/otokol",
+        "count_in_pharma": 2,
+        "homorganic_latin_skeleton": "T-K",
+        "medieval_pharmacy_candidates": [
+          "stoechas",
+          "urtica",
+          "theca"
+        ]
+      },
+      {
+        "voynich_skeleton": "d-l",
+        "voynich_examples": "doly/doldam/dal",
+        "count_in_pharma": 5,
+        "homorganic_latin_skeleton": "D-L",
+        "medieval_pharmacy_candidates": [
+          "dill (MHG tille/dille)",
+          "dulcamara"
+        ]
+      },
+      {
+        "voynich_skeleton": "s-r",
+        "voynich_examples": "sary/sorory/sory",
+        "count_in_pharma": 9,
+        "homorganic_latin_skeleton": "S-R",
+        "medieval_pharmacy_candidates": [
+          "serpyllum",
+          "syrupus",
+          "styrax"
+        ]
+      },
+      {
+        "voynich_skeleton": "k-s",
+        "voynich_examples": "okos/kshy",
+        "count_in_pharma": 3,
+        "homorganic_latin_skeleton": "K-S",
+        "medieval_pharmacy_candidates": [
+          "cassia",
+          "costus",
+          "castoreum"
+        ]
+      }
+    ]
+  }
+}
