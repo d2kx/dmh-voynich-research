@@ -1,0 +1,1567 @@
+{
+  "phase": "Phase 16 / Attack 5",
+  "title": "Full-Manuscript Sequential Tuple Scanner (Ordered Multi-Label Sequences -> Prose Windows)",
+  "total_ordered_label_sequences_scanned": 80,
+  "results": {
+    "total_multi_label_window_hits": 48,
+    "order_preservation_all_pairs": {
+      "concordant_forward_pairs": 29,
+      "discordant_reverse_pairs": 25,
+      "total_pairs": 54,
+      "forward_pct": 53.7,
+      "z_score_vs_50pct_null": 0.54
+    },
+    "order_preservation_contiguous_neighbors_step1": {
+      "concordant_forward_pairs": 6,
+      "discordant_reverse_pairs": 2,
+      "total_pairs": 8,
+      "forward_pct": 75.0,
+      "z_score_vs_50pct_null": 1.41
+    },
+    "order_preservation_near_neighbors_step2": {
+      "concordant_forward_pairs": 8,
+      "discordant_reverse_pairs": 5,
+      "total_pairs": 13,
+      "forward_pct": 61.54,
+      "z_score_vs_50pct_null": 0.83
+    },
+    "top_3_and_4_tuple_hits": [
+      {
+        "seq_id": "Zodiac:f70v2:Ring2",
+        "category": "Zodiac Ring",
+        "source_folio": "f70v2",
+        "target_folio": "f107r",
+        "is_same_folio": false,
+        "target_line_range": "9..17",
+        "tuple_size": 3,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 3,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 2,
+        "contiguous_discordant": 0,
+        "near2_concordant": 3,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 0,
+            "word": "otaram",
+            "canon": "otaram",
+            "line": "22",
+            "clock": "10:00",
+            "global_prose_count": 3,
+            "prose_pos": 32,
+            "prose_line": "11"
+          },
+          {
+            "seq_pos": 1,
+            "word": "otaral",
+            "canon": "otaral",
+            "line": "23",
+            "clock": "11:00",
+            "global_prose_count": 2,
+            "prose_pos": 47,
+            "prose_line": "13"
+          },
+          {
+            "seq_pos": 2,
+            "word": "otalar",
+            "canon": "otalar",
+            "line": "24",
+            "clock": "00:00",
+            "global_prose_count": 2,
+            "prose_pos": 71,
+            "prose_line": "16"
+          }
+        ]
+      },
+      {
+        "seq_id": "Zodiac:f72v1:Ring1",
+        "category": "Zodiac Ring",
+        "source_folio": "f72v1",
+        "target_folio": "f24r",
+        "is_same_folio": false,
+        "target_line_range": "4..18",
+        "tuple_size": 3,
+        "is_forward_ordered": false,
+        "is_reverse_ordered": true,
+        "concordant_pairs": 0,
+        "discordant_pairs": 3,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 1,
+        "matched_labels": [
+          {
+            "seq_pos": 16,
+            "word": "oeeeos",
+            "canon": "oeos",
+            "line": "18",
+            "clock": "06:00",
+            "global_prose_count": 2,
+            "prose_pos": 12,
+            "prose_line": "6"
+          },
+          {
+            "seq_pos": 6,
+            "word": "oees",
+            "canon": "oes",
+            "line": "8",
+            "clock": "01:45",
+            "global_prose_count": 9,
+            "prose_pos": 51,
+            "prose_line": "13"
+          },
+          {
+            "seq_pos": 4,
+            "word": "oeees",
+            "canon": "oes",
+            "line": "6",
+            "clock": "11:00",
+            "global_prose_count": 5,
+            "prose_pos": 64,
+            "prose_line": "15"
+          }
+        ]
+      },
+      {
+        "seq_id": "Rosettes Map:fRos",
+        "category": "Rosettes Map",
+        "source_folio": "fRos",
+        "target_folio": "f114v",
+        "is_same_folio": false,
+        "target_line_range": "13..22",
+        "tuple_size": 3,
+        "is_forward_ordered": false,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 2,
+        "discordant_pairs": 1,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 22,
+            "word": "okary",
+            "canon": "okary",
+            "line": "25",
+            "clock": "",
+            "global_prose_count": 6,
+            "prose_pos": 38,
+            "prose_line": "17"
+          },
+          {
+            "seq_pos": 75,
+            "word": "otody",
+            "canon": "otody",
+            "line": "84",
+            "clock": "",
+            "global_prose_count": 9,
+            "prose_pos": 43,
+            "prose_line": "18"
+          },
+          {
+            "seq_pos": 40,
+            "word": "otedal",
+            "canon": "otedal",
+            "line": "48",
+            "clock": "",
+            "global_prose_count": 3,
+            "prose_pos": 69,
+            "prose_line": "21"
+          }
+        ]
+      }
+    ],
+    "contiguous_diagram_neighbor_hits": [
+      {
+        "seq_id": "Zodiac:f70v2:Ring2",
+        "category": "Zodiac Ring",
+        "source_folio": "f70v2",
+        "target_folio": "f107r",
+        "is_same_folio": false,
+        "target_line_range": "9..17",
+        "tuple_size": 3,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 3,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 2,
+        "contiguous_discordant": 0,
+        "near2_concordant": 3,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 0,
+            "word": "otaram",
+            "canon": "otaram",
+            "line": "22",
+            "clock": "10:00",
+            "global_prose_count": 3,
+            "prose_pos": 32,
+            "prose_line": "11"
+          },
+          {
+            "seq_pos": 1,
+            "word": "otaral",
+            "canon": "otaral",
+            "line": "23",
+            "clock": "11:00",
+            "global_prose_count": 2,
+            "prose_pos": 47,
+            "prose_line": "13"
+          },
+          {
+            "seq_pos": 2,
+            "word": "otalar",
+            "canon": "otalar",
+            "line": "24",
+            "clock": "00:00",
+            "global_prose_count": 2,
+            "prose_pos": 71,
+            "prose_line": "16"
+          }
+        ]
+      },
+      {
+        "seq_id": "Zodiac:f72v1:Ring1",
+        "category": "Zodiac Ring",
+        "source_folio": "f72v1",
+        "target_folio": "f24r",
+        "is_same_folio": false,
+        "target_line_range": "4..18",
+        "tuple_size": 3,
+        "is_forward_ordered": false,
+        "is_reverse_ordered": true,
+        "concordant_pairs": 0,
+        "discordant_pairs": 3,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 1,
+        "matched_labels": [
+          {
+            "seq_pos": 16,
+            "word": "oeeeos",
+            "canon": "oeos",
+            "line": "18",
+            "clock": "06:00",
+            "global_prose_count": 2,
+            "prose_pos": 12,
+            "prose_line": "6"
+          },
+          {
+            "seq_pos": 6,
+            "word": "oees",
+            "canon": "oes",
+            "line": "8",
+            "clock": "01:45",
+            "global_prose_count": 9,
+            "prose_pos": 51,
+            "prose_line": "13"
+          },
+          {
+            "seq_pos": 4,
+            "word": "oeees",
+            "canon": "oes",
+            "line": "6",
+            "clock": "11:00",
+            "global_prose_count": 5,
+            "prose_pos": 64,
+            "prose_line": "15"
+          }
+        ]
+      },
+      {
+        "seq_id": "Pharma:f89r1:Row7",
+        "category": "Pharmaceutical Row",
+        "source_folio": "f89r1",
+        "target_folio": "f22r",
+        "is_same_folio": false,
+        "target_line_range": "2..13",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 1,
+        "contiguous_discordant": 0,
+        "near2_concordant": 1,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 2,
+            "word": "oldam",
+            "canon": "oldam",
+            "line": "3",
+            "clock": "",
+            "global_prose_count": 4,
+            "prose_pos": 62,
+            "prose_line": "10"
+          },
+          {
+            "seq_pos": 3,
+            "word": "otoldy",
+            "canon": "otoldy",
+            "line": "4",
+            "clock": "",
+            "global_prose_count": 5,
+            "prose_pos": 67,
+            "prose_line": "11"
+          }
+        ]
+      },
+      {
+        "seq_id": "Pharma:f99v:Row23",
+        "category": "Pharmaceutical Row",
+        "source_folio": "f99v",
+        "target_folio": "f103v",
+        "is_same_folio": false,
+        "target_line_range": "34..43",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 1,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 5,
+            "word": "otaly",
+            "canon": "otaly",
+            "line": "6",
+            "clock": "",
+            "global_prose_count": 9,
+            "prose_pos": 12,
+            "prose_line": "35"
+          },
+          {
+            "seq_pos": 7,
+            "word": "arol",
+            "canon": "arol",
+            "line": "8",
+            "clock": "",
+            "global_prose_count": 6,
+            "prose_pos": 72,
+            "prose_line": "42"
+          }
+        ]
+      },
+      {
+        "seq_id": "Pharma:f101v:Row31",
+        "category": "Pharmaceutical Row",
+        "source_folio": "f101v",
+        "target_folio": "f104v",
+        "is_same_folio": false,
+        "target_line_range": "1..8",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 1,
+        "contiguous_discordant": 0,
+        "near2_concordant": 1,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 5,
+            "word": "orar",
+            "canon": "orar",
+            "line": "6",
+            "clock": "",
+            "global_prose_count": 7,
+            "prose_pos": 2,
+            "prose_line": "1"
+          },
+          {
+            "seq_pos": 6,
+            "word": "otarar",
+            "canon": "otarar",
+            "line": "7",
+            "clock": "",
+            "global_prose_count": 4,
+            "prose_pos": 18,
+            "prose_line": "2"
+          }
+        ]
+      },
+      {
+        "seq_id": "Biological:f75v",
+        "category": "Biological",
+        "source_folio": "f75v",
+        "target_folio": "f77v",
+        "is_same_folio": false,
+        "target_line_range": "28..38",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 1,
+        "contiguous_discordant": 0,
+        "near2_concordant": 1,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 17,
+            "word": "lchy",
+            "canon": "lchy",
+            "line": "29",
+            "clock": "",
+            "global_prose_count": 8,
+            "prose_pos": 29,
+            "prose_line": "31"
+          },
+          {
+            "seq_pos": 18,
+            "word": "dary",
+            "canon": "dary",
+            "line": "30",
+            "clock": "",
+            "global_prose_count": 15,
+            "prose_pos": 61,
+            "prose_line": "35"
+          }
+        ]
+      },
+      {
+        "seq_id": "Biological:f80r",
+        "category": "Biological",
+        "source_folio": "f80r",
+        "target_folio": "f86v5",
+        "is_same_folio": false,
+        "target_line_range": "1..8",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 1,
+        "contiguous_discordant": 0,
+        "near2_concordant": 1,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 4,
+            "word": "okary",
+            "canon": "okary",
+            "line": "5",
+            "clock": "",
+            "global_prose_count": 6,
+            "prose_pos": 55,
+            "prose_line": "5"
+          },
+          {
+            "seq_pos": 5,
+            "word": "opor",
+            "canon": "otor",
+            "line": "6",
+            "clock": "",
+            "global_prose_count": 4,
+            "prose_pos": 75,
+            "prose_line": "8"
+          }
+        ]
+      },
+      {
+        "seq_id": "Zodiac:f72v1:Ring1",
+        "category": "Zodiac Ring",
+        "source_folio": "f72v1",
+        "target_folio": "f102r2",
+        "is_same_folio": false,
+        "target_line_range": "2..12",
+        "tuple_size": 2,
+        "is_forward_ordered": false,
+        "is_reverse_ordered": true,
+        "concordant_pairs": 0,
+        "discordant_pairs": 1,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 1,
+        "matched_labels": [
+          {
+            "seq_pos": 13,
+            "word": "okody",
+            "canon": "okody",
+            "line": "15",
+            "clock": "04:30",
+            "global_prose_count": 4,
+            "prose_pos": 30,
+            "prose_line": "6"
+          },
+          {
+            "seq_pos": 11,
+            "word": "oteod",
+            "canon": "oteod",
+            "line": "13",
+            "clock": "03:15",
+            "global_prose_count": 2,
+            "prose_pos": 35,
+            "prose_line": "6"
+          }
+        ]
+      },
+      {
+        "seq_id": "Astronomical:f68r1",
+        "category": "Astronomical",
+        "source_folio": "f68r1",
+        "target_folio": "f86v5",
+        "is_same_folio": false,
+        "target_line_range": "4..12",
+        "tuple_size": 2,
+        "is_forward_ordered": false,
+        "is_reverse_ordered": true,
+        "concordant_pairs": 0,
+        "discordant_pairs": 1,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 1,
+        "near2_concordant": 0,
+        "near2_discordant": 1,
+        "matched_labels": [
+          {
+            "seq_pos": 6,
+            "word": "otshey",
+            "canon": "otshey",
+            "line": "14",
+            "clock": "",
+            "global_prose_count": 7,
+            "prose_pos": 8,
+            "prose_line": "5"
+          },
+          {
+            "seq_pos": 5,
+            "word": "octhey",
+            "canon": "octhey",
+            "line": "13",
+            "clock": "",
+            "global_prose_count": 3,
+            "prose_pos": 68,
+            "prose_line": "11"
+          }
+        ]
+      },
+      {
+        "seq_id": "Biological:f80r",
+        "category": "Biological",
+        "source_folio": "f80r",
+        "target_folio": "f112r",
+        "is_same_folio": false,
+        "target_line_range": "37..45",
+        "tuple_size": 2,
+        "is_forward_ordered": false,
+        "is_reverse_ordered": true,
+        "concordant_pairs": 0,
+        "discordant_pairs": 1,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 1,
+        "near2_concordant": 0,
+        "near2_discordant": 1,
+        "matched_labels": [
+          {
+            "seq_pos": 5,
+            "word": "opor",
+            "canon": "otor",
+            "line": "6",
+            "clock": "",
+            "global_prose_count": 4,
+            "prose_pos": 53,
+            "prose_line": "43"
+          },
+          {
+            "seq_pos": 4,
+            "word": "okary",
+            "canon": "okary",
+            "line": "5",
+            "clock": "",
+            "global_prose_count": 6,
+            "prose_pos": 78,
+            "prose_line": "45"
+          }
+        ]
+      },
+      {
+        "seq_id": "Biological:f80r",
+        "category": "Biological",
+        "source_folio": "f80r",
+        "target_folio": "f33v",
+        "is_same_folio": false,
+        "target_line_range": "3..11",
+        "tuple_size": 2,
+        "is_forward_ordered": false,
+        "is_reverse_ordered": true,
+        "concordant_pairs": 0,
+        "discordant_pairs": 1,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 1,
+        "matched_labels": [
+          {
+            "seq_pos": 4,
+            "word": "okary",
+            "canon": "okary",
+            "line": "5",
+            "clock": "",
+            "global_prose_count": 6,
+            "prose_pos": 47,
+            "prose_line": "8"
+          },
+          {
+            "seq_pos": 2,
+            "word": "okaly",
+            "canon": "okaly",
+            "line": "3",
+            "clock": "",
+            "global_prose_count": 14,
+            "prose_pos": 68,
+            "prose_line": "10"
+          }
+        ]
+      }
+    ],
+    "top_forward_2_tuple_hits": [
+      {
+        "seq_id": "Rosettes Map:fRos",
+        "category": "Rosettes Map",
+        "source_folio": "fRos",
+        "target_folio": "f84r",
+        "is_same_folio": false,
+        "target_line_range": "28..34",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 17,
+            "word": "daraldy",
+            "canon": "daraldy",
+            "line": "19",
+            "clock": "",
+            "global_prose_count": 1,
+            "prose_pos": 77,
+            "prose_line": "34"
+          },
+          {
+            "seq_pos": 92,
+            "word": "otedaiin",
+            "canon": "otedain",
+            "line": "103",
+            "clock": "",
+            "global_prose_count": 2,
+            "prose_pos": 78,
+            "prose_line": "34"
+          }
+        ]
+      },
+      {
+        "seq_id": "Pharma:f102v2:Row39",
+        "category": "Pharmaceutical Row",
+        "source_folio": "f102v2",
+        "target_folio": "f39v",
+        "is_same_folio": false,
+        "target_line_range": "4..11",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 9,
+            "word": "okody",
+            "canon": "okody",
+            "line": "10",
+            "clock": "",
+            "global_prose_count": 4,
+            "prose_pos": 1,
+            "prose_line": "4"
+          },
+          {
+            "seq_pos": 13,
+            "word": "sarol",
+            "canon": "sarol",
+            "line": "14",
+            "clock": "",
+            "global_prose_count": 3,
+            "prose_pos": 72,
+            "prose_line": "11"
+          }
+        ]
+      },
+      {
+        "seq_id": "Pharma:f89r1:Row7",
+        "category": "Pharmaceutical Row",
+        "source_folio": "f89r1",
+        "target_folio": "f22r",
+        "is_same_folio": false,
+        "target_line_range": "2..13",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 1,
+        "contiguous_discordant": 0,
+        "near2_concordant": 1,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 2,
+            "word": "oldam",
+            "canon": "oldam",
+            "line": "3",
+            "clock": "",
+            "global_prose_count": 4,
+            "prose_pos": 62,
+            "prose_line": "10"
+          },
+          {
+            "seq_pos": 3,
+            "word": "otoldy",
+            "canon": "otoldy",
+            "line": "4",
+            "clock": "",
+            "global_prose_count": 5,
+            "prose_pos": 67,
+            "prose_line": "11"
+          }
+        ]
+      },
+      {
+        "seq_id": "Biological:f75v",
+        "category": "Biological",
+        "source_folio": "f75v",
+        "target_folio": "f80v",
+        "is_same_folio": false,
+        "target_line_range": "31..40",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 17,
+            "word": "lchy",
+            "canon": "lchy",
+            "line": "29",
+            "clock": "",
+            "global_prose_count": 8,
+            "prose_pos": 51,
+            "prose_line": "36"
+          },
+          {
+            "seq_pos": 24,
+            "word": "olkchy",
+            "canon": "olkchy",
+            "line": "36",
+            "clock": "",
+            "global_prose_count": 2,
+            "prose_pos": 60,
+            "prose_line": "38"
+          }
+        ]
+      },
+      {
+        "seq_id": "Biological:f80r",
+        "category": "Biological",
+        "source_folio": "f80r",
+        "target_folio": "f86v5",
+        "is_same_folio": false,
+        "target_line_range": "1..8",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 1,
+        "contiguous_discordant": 0,
+        "near2_concordant": 1,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 4,
+            "word": "okary",
+            "canon": "okary",
+            "line": "5",
+            "clock": "",
+            "global_prose_count": 6,
+            "prose_pos": 55,
+            "prose_line": "5"
+          },
+          {
+            "seq_pos": 5,
+            "word": "opor",
+            "canon": "otor",
+            "line": "6",
+            "clock": "",
+            "global_prose_count": 4,
+            "prose_pos": 75,
+            "prose_line": "8"
+          }
+        ]
+      },
+      {
+        "seq_id": "Rosettes Map:fRos",
+        "category": "Rosettes Map",
+        "source_folio": "fRos",
+        "target_folio": "f58v",
+        "is_same_folio": false,
+        "target_line_range": "1..8",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 41,
+            "word": "opaiin",
+            "canon": "otain",
+            "line": "49",
+            "clock": "",
+            "global_prose_count": 9,
+            "prose_pos": 2,
+            "prose_line": "1"
+          },
+          {
+            "seq_pos": 67,
+            "word": "ypal",
+            "canon": "tal",
+            "line": "76",
+            "clock": "",
+            "global_prose_count": 1,
+            "prose_pos": 6,
+            "prose_line": "1"
+          }
+        ]
+      },
+      {
+        "seq_id": "Pharma:f101v:Row31",
+        "category": "Pharmaceutical Row",
+        "source_folio": "f101v",
+        "target_folio": "f104v",
+        "is_same_folio": false,
+        "target_line_range": "1..8",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 1,
+        "contiguous_discordant": 0,
+        "near2_concordant": 1,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 5,
+            "word": "orar",
+            "canon": "orar",
+            "line": "6",
+            "clock": "",
+            "global_prose_count": 7,
+            "prose_pos": 2,
+            "prose_line": "1"
+          },
+          {
+            "seq_pos": 6,
+            "word": "otarar",
+            "canon": "otarar",
+            "line": "7",
+            "clock": "",
+            "global_prose_count": 4,
+            "prose_pos": 18,
+            "prose_line": "2"
+          }
+        ]
+      },
+      {
+        "seq_id": "Astronomical:f68r1",
+        "category": "Astronomical",
+        "source_folio": "f68r1",
+        "target_folio": "f67r2",
+        "is_same_folio": false,
+        "target_line_range": "13..46",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 4,
+            "word": "chocfhy",
+            "canon": "chockhy",
+            "line": "12",
+            "clock": "",
+            "global_prose_count": 1,
+            "prose_pos": 21,
+            "prose_line": "20"
+          },
+          {
+            "seq_pos": 13,
+            "word": "ockhy",
+            "canon": "ockhy",
+            "line": "21",
+            "clock": "",
+            "global_prose_count": 10,
+            "prose_pos": 68,
+            "prose_line": "42"
+          }
+        ]
+      },
+      {
+        "seq_id": "Rosettes Map:fRos",
+        "category": "Rosettes Map",
+        "source_folio": "fRos",
+        "target_folio": "f107v",
+        "is_same_folio": false,
+        "target_line_range": "1..9",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 75,
+            "word": "otody",
+            "canon": "otody",
+            "line": "84",
+            "clock": "",
+            "global_prose_count": 9,
+            "prose_pos": 4,
+            "prose_line": "1"
+          },
+          {
+            "seq_pos": 89,
+            "word": "otedam",
+            "canon": "otedam",
+            "line": "100",
+            "clock": "",
+            "global_prose_count": 3,
+            "prose_pos": 78,
+            "prose_line": "8"
+          }
+        ]
+      },
+      {
+        "seq_id": "Zodiac:f72v3:Ring2",
+        "category": "Zodiac Ring",
+        "source_folio": "f72v3",
+        "target_folio": "f107r",
+        "is_same_folio": false,
+        "target_line_range": "39..47",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 4,
+            "word": "oeedy",
+            "canon": "oedy",
+            "line": "25",
+            "clock": "02:00",
+            "global_prose_count": 6,
+            "prose_pos": 10,
+            "prose_line": "39"
+          },
+          {
+            "seq_pos": 9,
+            "word": "opal",
+            "canon": "otal",
+            "line": "30",
+            "clock": "07:30",
+            "global_prose_count": 7,
+            "prose_pos": 60,
+            "prose_line": "45"
+          }
+        ]
+      },
+      {
+        "seq_id": "Rosettes Map:fRos",
+        "category": "Rosettes Map",
+        "source_folio": "fRos",
+        "target_folio": "f48r",
+        "is_same_folio": false,
+        "target_line_range": "3..9",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 56,
+            "word": "odal",
+            "canon": "odal",
+            "line": "65",
+            "clock": "",
+            "global_prose_count": 13,
+            "prose_pos": 9,
+            "prose_line": "3"
+          },
+          {
+            "seq_pos": 102,
+            "word": "oteoly",
+            "canon": "oteoly",
+            "line": "115",
+            "clock": "",
+            "global_prose_count": 1,
+            "prose_pos": 61,
+            "prose_line": "8"
+          }
+        ]
+      },
+      {
+        "seq_id": "Rosettes Map:fRos",
+        "category": "Rosettes Map",
+        "source_folio": "fRos",
+        "target_folio": "f89v1",
+        "is_same_folio": false,
+        "target_line_range": "7..15",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 15,
+            "word": "orarol",
+            "canon": "orarol",
+            "line": "17",
+            "clock": "",
+            "global_prose_count": 1,
+            "prose_pos": 11,
+            "prose_line": "8"
+          },
+          {
+            "seq_pos": 56,
+            "word": "odal",
+            "canon": "odal",
+            "line": "65",
+            "clock": "",
+            "global_prose_count": 13,
+            "prose_pos": 62,
+            "prose_line": "14"
+          }
+        ]
+      },
+      {
+        "seq_id": "Pharma:f99v:Row23",
+        "category": "Pharmaceutical Row",
+        "source_folio": "f99v",
+        "target_folio": "f103v",
+        "is_same_folio": false,
+        "target_line_range": "34..43",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 1,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 5,
+            "word": "otaly",
+            "canon": "otaly",
+            "line": "6",
+            "clock": "",
+            "global_prose_count": 9,
+            "prose_pos": 12,
+            "prose_line": "35"
+          },
+          {
+            "seq_pos": 7,
+            "word": "arol",
+            "canon": "arol",
+            "line": "8",
+            "clock": "",
+            "global_prose_count": 6,
+            "prose_pos": 72,
+            "prose_line": "42"
+          }
+        ]
+      },
+      {
+        "seq_id": "Rosettes Map:fRos",
+        "category": "Rosettes Map",
+        "source_folio": "fRos",
+        "target_folio": "f106v",
+        "is_same_folio": false,
+        "target_line_range": "30..38",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 56,
+            "word": "odal",
+            "canon": "odal",
+            "line": "65",
+            "clock": "",
+            "global_prose_count": 13,
+            "prose_pos": 37,
+            "prose_line": "34"
+          },
+          {
+            "seq_pos": 77,
+            "word": "rody",
+            "canon": "rody",
+            "line": "86",
+            "clock": "",
+            "global_prose_count": 2,
+            "prose_pos": 77,
+            "prose_line": "38"
+          }
+        ]
+      },
+      {
+        "seq_id": "Astronomical:f67r2",
+        "category": "Astronomical",
+        "source_folio": "f67r2",
+        "target_folio": "f14v",
+        "is_same_folio": false,
+        "target_line_range": "1..9",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 0,
+            "word": "ykshy",
+            "canon": "kshy",
+            "line": "1",
+            "clock": "",
+            "global_prose_count": 2,
+            "prose_pos": 30,
+            "prose_line": "4"
+          },
+          {
+            "seq_pos": 10,
+            "word": "chky",
+            "canon": "chky",
+            "line": "11",
+            "clock": "",
+            "global_prose_count": 15,
+            "prose_pos": 39,
+            "prose_line": "5"
+          }
+        ]
+      },
+      {
+        "seq_id": "Zodiac:f70v2:Ring1",
+        "category": "Zodiac Ring",
+        "source_folio": "f70v2",
+        "target_folio": "f94r",
+        "is_same_folio": false,
+        "target_line_range": "1..9",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 7,
+            "word": "otody",
+            "canon": "otody",
+            "line": "9",
+            "clock": "01:00",
+            "global_prose_count": 9,
+            "prose_pos": 24,
+            "prose_line": "3"
+          },
+          {
+            "seq_pos": 13,
+            "word": "otaly",
+            "canon": "otaly",
+            "line": "15",
+            "clock": "04:30",
+            "global_prose_count": 9,
+            "prose_pos": 51,
+            "prose_line": "6"
+          }
+        ]
+      },
+      {
+        "seq_id": "Astronomical:f67r2",
+        "category": "Astronomical",
+        "source_folio": "f67r2",
+        "target_folio": "f55r",
+        "is_same_folio": false,
+        "target_line_range": "1..9",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 3,
+            "word": "shekchy",
+            "canon": "shekchy",
+            "line": "4",
+            "clock": "",
+            "global_prose_count": 3,
+            "prose_pos": 1,
+            "prose_line": "1"
+          },
+          {
+            "seq_pos": 10,
+            "word": "chky",
+            "canon": "chky",
+            "line": "11",
+            "clock": "",
+            "global_prose_count": 15,
+            "prose_pos": 23,
+            "prose_line": "3"
+          }
+        ]
+      },
+      {
+        "seq_id": "Rosettes Map:fRos",
+        "category": "Rosettes Map",
+        "source_folio": "fRos",
+        "target_folio": "f39v",
+        "is_same_folio": false,
+        "target_line_range": "1..7",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 31,
+            "word": "okody",
+            "canon": "okody",
+            "line": "34",
+            "clock": "",
+            "global_prose_count": 4,
+            "prose_pos": 41,
+            "prose_line": "4"
+          },
+          {
+            "seq_pos": 112,
+            "word": "ykedy",
+            "canon": "kedy",
+            "line": "126",
+            "clock": "",
+            "global_prose_count": 15,
+            "prose_pos": 43,
+            "prose_line": "4"
+          }
+        ]
+      },
+      {
+        "seq_id": "Zodiac:f72v3:Ring1",
+        "category": "Zodiac Ring",
+        "source_folio": "f72v3",
+        "target_folio": "f58v",
+        "is_same_folio": false,
+        "target_line_range": "4..12",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 7,
+            "word": "okaly",
+            "canon": "okaly",
+            "line": "9",
+            "clock": "02:00",
+            "global_prose_count": 14,
+            "prose_pos": 12,
+            "prose_line": "5"
+          },
+          {
+            "seq_pos": 16,
+            "word": "okaldy",
+            "canon": "okaldy",
+            "line": "18",
+            "clock": "09:00",
+            "global_prose_count": 6,
+            "prose_pos": 62,
+            "prose_line": "10"
+          }
+        ]
+      },
+      {
+        "seq_id": "Biological:f75v",
+        "category": "Biological",
+        "source_folio": "f75v",
+        "target_folio": "f77v",
+        "is_same_folio": false,
+        "target_line_range": "28..38",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 1,
+        "contiguous_discordant": 0,
+        "near2_concordant": 1,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 17,
+            "word": "lchy",
+            "canon": "lchy",
+            "line": "29",
+            "clock": "",
+            "global_prose_count": 8,
+            "prose_pos": 29,
+            "prose_line": "31"
+          },
+          {
+            "seq_pos": 18,
+            "word": "dary",
+            "canon": "dary",
+            "line": "30",
+            "clock": "",
+            "global_prose_count": 15,
+            "prose_pos": 61,
+            "prose_line": "35"
+          }
+        ]
+      },
+      {
+        "seq_id": "Rosettes Map:fRos",
+        "category": "Rosettes Map",
+        "source_folio": "fRos",
+        "target_folio": "f95r1",
+        "is_same_folio": false,
+        "target_line_range": "2..11",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 99,
+            "word": "chdain",
+            "canon": "chdain",
+            "line": "110",
+            "clock": "",
+            "global_prose_count": 8,
+            "prose_pos": 38,
+            "prose_line": "7"
+          },
+          {
+            "seq_pos": 112,
+            "word": "ykedy",
+            "canon": "kedy",
+            "line": "126",
+            "clock": "",
+            "global_prose_count": 15,
+            "prose_pos": 68,
+            "prose_line": "10"
+          }
+        ]
+      },
+      {
+        "seq_id": "Zodiac:f72r2:Ring2",
+        "category": "Zodiac Ring",
+        "source_folio": "f72r2",
+        "target_folio": "f103r",
+        "is_same_folio": false,
+        "target_line_range": "16..24",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 3,
+            "word": "okaly",
+            "canon": "okaly",
+            "line": "10",
+            "clock": "00:15",
+            "global_prose_count": 14,
+            "prose_pos": 55,
+            "prose_line": "21"
+          },
+          {
+            "seq_pos": 9,
+            "word": "okeal",
+            "canon": "okeal",
+            "line": "16",
+            "clock": "06:00",
+            "global_prose_count": 11,
+            "prose_pos": 76,
+            "prose_line": "24"
+          }
+        ]
+      },
+      {
+        "seq_id": "Astronomical:f68r2",
+        "category": "Astronomical",
+        "source_folio": "f68r2",
+        "target_folio": "f13r",
+        "is_same_folio": false,
+        "target_line_range": "1..10",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 5,
+            "word": "dchol",
+            "canon": "dchol",
+            "line": "12",
+            "clock": "",
+            "global_prose_count": 15,
+            "prose_pos": 9,
+            "prose_line": "2"
+          },
+          {
+            "seq_pos": 8,
+            "word": "okchor",
+            "canon": "okchor",
+            "line": "15",
+            "clock": "",
+            "global_prose_count": 15,
+            "prose_pos": 47,
+            "prose_line": "6"
+          }
+        ]
+      },
+      {
+        "seq_id": "Astronomical:f68r2",
+        "category": "Astronomical",
+        "source_folio": "f68r2",
+        "target_folio": "f19v",
+        "is_same_folio": false,
+        "target_line_range": "1..14",
+        "tuple_size": 2,
+        "is_forward_ordered": true,
+        "is_reverse_ordered": false,
+        "concordant_pairs": 1,
+        "discordant_pairs": 0,
+        "contiguous_concordant": 0,
+        "contiguous_discordant": 0,
+        "near2_concordant": 0,
+        "near2_discordant": 0,
+        "matched_labels": [
+          {
+            "seq_pos": 5,
+            "word": "dchol",
+            "canon": "dchol",
+            "line": "12",
+            "clock": "",
+            "global_prose_count": 15,
+            "prose_pos": 40,
+            "prose_line": "8"
+          },
+          {
+            "seq_pos": 8,
+            "word": "okchor",
+            "canon": "okchor",
+            "line": "15",
+            "clock": "",
+            "global_prose_count": 15,
+            "prose_pos": 58,
+            "prose_line": "11"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -41,9 +41,14 @@ Rather than rehashing historical decipherment speculations, this project focuses
 │   ├── test_syllable_and_entropy.py    # 5-slot Shannon entropy decomposition & 7.24-bit core root inventory
 │   ├── analyze_cribs_and_taxonomy.py   # Pharma jar (@Lc) vs plant (@Lf) derivational morphology & Taurus/Rosette cribs
 │   ├── generate_interlinear_gloss.py   # Functional role parser & full-page interlinear structural gloss generator
-│   └── attack1_key_and_syllabary.py    # f49v (1..5=f-o-r-y-e) generative tuple, f66r 3-column index & f57v 4-ring alignment
+│   ├── attack1_key_and_syllabary.py    # f49v (1..5=f-o-r-y-e) generative tuple, f66r 3-column index & f57v 4-ring alignment
+│   ├── attack2_botanical_jar_solver.py # f99r reserve cartouches, 27.9% row-to-recipe ingestion & 23x o- prefix proof
+│   ├── attack3_syllable_stream_alignment.py # 89.02% Gallows paragraph openers, -ry/-am closers & clause framing
+│   ├── attack4_zodiac_decan_decoder.py # Zodiac clockwise step-mutation (z=+3.42) & Pisces <-> f107r triple concordance
+│   └── attack5_sequential_tuple_scanner.py # Full-MS sequential tuple scanner & contiguous neighbor order preservation
 ├── notes/
-│   └── INTERLINEAR_GLOSSES.md   # Full-page line-by-line structural interlinear glosses (f5r, f17r, f82v, f84r, f99v, f106v)
+│   ├── INTERLINEAR_GLOSSES.md          # Full-page line-by-line structural interlinear glosses (f5r, f17r, f82v, f84r, f99v, f106v)
+│   └── DECODING_ATTACKS_SYNTHESIS.md   # Comprehensive synthesis of the cryptographic & linguistic decoding attacks
 └── pages/                       # Extracted, cropped, and contrast-enhanced folio images
 ```
 
@@ -180,6 +185,14 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 14. Full-Manuscript Sequential Tuple Scanner & Contiguous Diagram Neighbor Order Preservation (`75.0%` Forward)
+- **Contiguous Diagram Neighbors (`|pos_b - pos_a| == 1`) Preserve Forward (`k -> k+1`) Order in Prose (`75.0%`, `6 / 8` Contiguous Pairs)**: Scanning all `80` ordered diagram-label sequences against 80-word prose windows yields `48` multi-label window hits (`3` three-tuples and `45` two-tuples), proving that immediately adjacent diagram labels preserve their left-to-right or clockwise `k -> k+1` order when cited in prose:
+  1. **`Pharma:f89r1:Row1` (`seq_pos = 2 -> 3`: `<f89r1.3,@Lf> oldam -> <f89r1.4,@Lf> otoldy`) $\to$ Herbal `f22r` (`<f22r.10..11>`, `pages/f22r_oldam_otoldy_enh.png`)**: Two contiguous plant roots on `f89r1` Row 1 (`oldam`, global prose count `4`, and `otoldy`, count `5`) recur in exact `2 -> 3` forward order on consecutive lines `<f22r.10>` (`oldam`) and `<f22r.11>` (`otoldy`).
+  2. **`Pharma:f101v:Row1` (`seq_pos = 5 -> 6`: `<f101v.6,@Lf> orar -> <f101v.7,@Lf> otarar`, `pages/f101v_orar_otarar_row1_enh.png`) $\to$ Starred Recipe `f104v` (`<f104v.1..2>`, `pages/f104v_orar_otarar_recipe_enh.png`)**: Two contiguous plant roots on `f101v` Row 1 (`orar`, prose count `7`, and `otarar`, prose count `4`) recur in exact `5 -> 6` order as the 3rd word of Line 1 and 7th word of Line 2 of Starred Recipe 1 on `f104v`!
+- **Side-by-Side Bigram Ingestion of Two Ultra-Rare 9-Rosettes Labels on Biological `f84r` (`<f84r.34>: daraldy . otedaiin`, `pages/f84r_daraldy_otedaiin_enh.png`)**: Two ultra-rare labels from `<fRos>` (`daraldy`, global prose count `1`, and `otedaiin`, global prose count `2`) are written immediately side-by-side (`daraldy . otedaiin`) on line `<f84r.34>`.
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -215,4 +228,6 @@ python tools/attack1_key_and_syllabary.py
 python tools/attack2_botanical_jar_solver.py
 python tools/attack3_syllable_stream_alignment.py
 python tools/attack4_zodiac_decan_decoder.py
+python tools/attack5_sequential_tuple_scanner.py
 ```
+
