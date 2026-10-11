@@ -184,3 +184,49 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 2. **Independent Paleographic Ground-Truth Proof: `80.26%` (`1,740 / 2,168`) of All Intra-Word Scribe Micro-Spaces (`,`) Fall on Exact Morpheme or Radical Boundaries ($z = +30.72$)**:
    - Evaluated blind against the `2,168` physical scribe half-spaces `,` recorded in `ZL3b-n.txt`, **`80.26%` (`1,740 / 2,168`)** fall on an exact boundary of `[Prefix | R_1 + R_2 | -Suffix]`, and among the `1,379` micro-spaces inside a multi-character Core Root, **`74.76%` (`1,031 / 1,379`) hit the exact predicted internal radical boundary `R_1 | R_2`** vs. `35.24%` random expectation (**`2.121×` enrichment, $z = +30.72, p < 10^{-100}$**)!
 
+---
+
+## 13. Attack 13 (`Phase 24`): Multi-Word Phrase Cribs, the Three-Way `otar . arody` Positional Paradigm & Bidirectional Compound Splitting ($z = +7.75, p < 10^{-14}$)
+- **Script & Data**: [`tools/attack13_multiword_phrase_crib_scanner.py`](../tools/attack13_multiword_phrase_crib_scanner.py) $\to$ [`data/attack13_multiword_phrase_crib_scanner.json`](../data/attack13_multiword_phrase_crib_scanner.json)
+- **Visual Forensics**: [`pages/f114v_tar_arody_enh.png`](../pages/f114v_tar_arody_enh.png), [`pages/f48v_otchdy_otoldy_enh.png`](../pages/f48v_otchdy_otoldy_enh.png), [`pages/f89v2_darcheor_label_enh.png`](../pages/f89v2_darcheor_label_enh.png), [`pages/f102v2_dar_cheor_prose_enh.png`](../pages/f102v2_dar_cheor_prose_enh.png)
+
+### Key Breakthroughs:
+1. **The Three-Way Positional Paradigm of `<f88v.4,@Lf> otar . arody` (`18.47` Rarity Bits)**:
+   - Recurs across three syntactic environments with textbook positional allography: (a) standalone diagram label `<f88v.4,@Lf> otar . arody` (`o-` nominal + `t` gallows), (b) paragraph-initial recipe header `<f105r.6,@P0> <%>par . arody` (top-line `p` gallows), and (c) interior line-final clause closer `<f114v.37,+P0> ... otain . chey . tar . arody <$>` (unprefixed `t` gallows).
+2. **High-Rarity 2-Word Diagram Labels Cited Intact in Prose (`62` Hits) & Bidirectional Compound Splitting ($z = +7.75$)**:
+   - `<fRos.45,+L0> otchdy . otoldy` $\leftrightarrow$ `<f48v.9,+P0> otchdy . otoldy` (`19.53` bits, followed by `otedy` matching `<fRos.72>`); `<f71v.16,&Lz> otar . shar` (`14° Taurus`) $\leftrightarrow$ `<f24r.17> otam . sham` (`16.71` bits, dual `-r -> -m`); `<f70v2.22,@Lz> otar . am` (`20° Pisces`) $\leftrightarrow$ `<f112r.5> otar . am` (`16.07` bits).
+   - Rare 1-word compound labels (`len >= 6`, `prose_cnt <= 15`) split into 2-word prose bigrams **`1.65×` above chance (`237` observed vs. `143.75 ± 12.03` expected, $z = +7.75, p < 10^{-14}$)**, e.g., `<f89v2.3,@Lf> darcheor` $\to$ `<f102v2.32> dar . cheor`; `<f89v1.4,@Lf> darshody` $\to$ `<f1v.9> dar . shody`; `<f70v2.30,&Lz> okaldal` (`28° Pisces`) $\to$ `<f103r.41, f54v.10, f75v.7, f77v.18> qokal . dal`.
+
+---
+
+## 14. Attack 14 (`Phase 25`): Empirical Radical Lexicon of the Top `59` Elementary Radicals — Object-Category & Syntactic Grounding
+- **Script & Data**: [`tools/attack14_elementary_radical_lexicon.py`](../tools/attack14_elementary_radical_lexicon.py) $\to$ [`data/attack14_elementary_radical_lexicon.json`](../data/attack14_elementary_radical_lexicon.json)
+
+### Key Breakthroughs:
+1. **Object-Category Specialist Radicals**:
+   - **Apothecary Jars (`@Lc`)**: `dar` (`45.66×`), `g` (`13.54×`, stoppered `-adag` jar rims), `or` (`4.17×`), `ol` (`2.14×`), `al` (`2.05×`).
+   - **Pharmaceutical Plants (`@Lf`)**: `kol` (`18.47×`), `dar` (`13.28×`), `tol` (`7.97×`), `so` (`6.04×`), `ar` (`3.44×`), `or` (`2.75×`).
+   - **Barreled Zodiac Nymphs (`f70v2–f72r1`) vs. Free Nymphs (`f72r2–f73v`)**: Barreled nymphs select **`tal` (`34.18×`)**, **`teo` (`7.10×`)**, `al` (`7.09×`), `am` (`6.46×`), `ar` (`4.94×`); Free nymphs select **`air` (`12.05×`)**, `e` (`4.56×`), `ke` (`3.41×`), `te` (`2.54×`).
+   - **Biological Tubes (`@Lt`) vs. Bathing Nymphs (`@Ln`)**: Tubes select `o` (`5.29×`), `ol` (`3.37×`), `ar` (`2.77×`); Nymphs select `or` (`3.65×`), `al` (`3.58×`), `k` (`1.72×`).
+   - **Pure Verbal Operators (`ch`, `sh`, `che`, `she`, `cth`, `ckh`)**: Strongly depleted in diagram labels (`0.35×–0.46×`), near-zero `o-` nominal rate (`3.5%–8.6%`), and `25.9%–36.2%` `-edy/-dy` verbal suffix rate.
+
+---
+
+## 15. Attack 15 (`Phase 26`): Parallel Template Cloning & Tail-to-Head Catenation in the `10` Same-Star Chained Recipe Pairs (`L. -> L.` / `L -> L`) & Functional Tripartition of the `14` Crimson-Star (`D -> L_1 -> L_2`) Triads
+- **Script & Data**: [`tools/attack15_chained_recipes_and_d_triads.py`](../tools/attack15_chained_recipes_and_d_triads.py) $\to$ [`data/attack15_chained_recipes_and_d_triads.json`](../data/attack15_chained_recipes_and_d_triads.json)
+- **Visual Forensics**: [`pages/f115r_P5_P6_chained_enh.png`](../pages/f115r_P5_P6_chained_enh.png), [`pages/f111r_P3_P4_chained_enh.png`](../pages/f111r_P3_P4_chained_enh.png)
+
+### Key Breakthroughs:
+1. **Parallel Template Cloning (`f115r:P5->P6`) & Tail-to-Head Catenation (`f111r:P3->P4`)**:
+   - On `f115r:P5->P6` (`★L. -> ★L.`), four of the first five opening words clone the exact same 4-root sequence (`tchedy . qoolkeedy . qokchedy . qotchd . lpchedy` $\leftrightarrow$ `pcheodain . qokchey . qotchedy . darailchedy . polchedy`).
+   - On `f111r:P3->P4` (`★L. -> ★L.`, `Jaccard = 0.2045`), `P3` closes with `okeedy . lkeedy . lkedar . okeedy . chedy <$>` and `P4` opens with `<%>pchedar . oteeol . lkeedain . okeam`, simultaneously cloning the header root `pched-` and catenating `lkedar . okeedy` into `lkeedain . okeam`.
+2. **Functional Tripartition of the `14` Crimson-Star (`D -> L_1 -> L_2`) Triads (`f103r`, `f104r`, `f108r`)**:
+   - **Slot 1 (`★D`, Crimson Master, `30.21` words)**: Primary header preparation (`25.3%` `-edy/-dy`, `12.5%` `-aiin`, enriched `2.60×` for `or` and `2.45×` for `ek`).
+   - **Slot 2 (`★L_1`, First Follower, `35.62` words)**: Nominal ingredient/quantity elaboration (`16.0%` `-aiin`, `20.7%` `q-`, lowest verbal `-edy/-dy` at `20.5%`).
+   - **Slot 3 (`★L_2`, Second Follower, `29.40` words)**: Procedural action execution (surging to **`29.2%` `-edy/-dy` verbal suffix rate, `+42%` vs. `L_1`**).
+
+---
+
+## 16. Attack 16 (`Phase 27`): The Four-Tier Radical & Clause-Frame Structural Translation Edition (`95.69%` Corpus-Wide Parse Coverage)
+- **Script, Data & Edition**: [`tools/attack16_radical_clause_translation_edition.py`](../tools/attack16_radical_clause_translation_edition.py) $\to$ [`data/attack16_radical_clause_translation_edition.json`](../data/attack16_radical_clause_translation_edition.json), [`notes/RADICAL_CLAUSE_TRANSLATION_EDITION.md`](RADICAL_CLAUSE_TRANSLATION_EDITION.md)
+- **Corpus-Wide Coverage**: **`31,184 / 32,590` (`95.69%`)** of all prose tokens receive a grounded `[Prefix + Elementary Radical(s) + Suffix]` parse; **`95.27%`** contain a Top-59 Elementary Radical; and **`72.71%`** share an exact Core Root with a diagram figure label (`@Lf/@Lc/@Lz/@L0/@Lt/@Ln`).

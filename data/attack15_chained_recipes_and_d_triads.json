@@ -1,0 +1,3074 @@
+{
+  "summary": {
+    "total_quire20_recipes": 285,
+    "binary_alternating_folios_count": 20,
+    "crimson_triad_folios": [
+      "f103r",
+      "f104r",
+      "f108r"
+    ],
+    "same_star_binary_pairs_summary": {
+      "count": 10,
+      "mean_root_jaccard": 0.162,
+      "mean_shared_roots": 6.4,
+      "mean_rare_shared_roots": 1.0,
+      "mean_radical_cosine": 0.6482,
+      "mean_suffix_cosine": 0.8448,
+      "header_to_header_match_rate": 0.7,
+      "tail_to_head_match_rate": 0.5
+    },
+    "alternating_binary_pairs_summary": {
+      "count": 202,
+      "mean_root_jaccard": 0.1408,
+      "mean_shared_roots": 4.62,
+      "mean_rare_shared_roots": 0.52,
+      "mean_radical_cosine": 0.5218,
+      "mean_suffix_cosine": 0.77,
+      "header_to_header_match_rate": 0.6485,
+      "tail_to_head_match_rate": 0.4505
+    },
+    "triad_slot_comparison": {
+      "slot1_D_crimson_master": {
+        "slot": "Slot 1 (D - Crimson Master)",
+        "recipe_count": 14,
+        "mean_word_count": 30.21,
+        "mean_line_count": 3.07,
+        "q_proclitic_rate": 0.1915,
+        "o_nominal_rate": 0.2459,
+        "verbal_edy_dy_rate": 0.253,
+        "nominal_aiin_rate": 0.1253,
+        "top_opener_prefixes": [
+          [
+            "pc",
+            4
+          ],
+          [
+            "q-",
+            3
+          ],
+          [
+            "tc",
+            2
+          ],
+          [
+            "to",
+            2
+          ],
+          [
+            "ds",
+            1
+          ]
+        ],
+        "top_closer_suffixes": [
+          [
+            "-ain",
+            6
+          ],
+          [
+            "-ey",
+            2
+          ],
+          [
+            "-aly",
+            1
+          ],
+          [
+            "in",
+            1
+          ],
+          [
+            "-or",
+            1
+          ]
+        ],
+        "top_radicals": [
+          [
+            "k",
+            87
+          ],
+          [
+            "t",
+            38
+          ],
+          [
+            "ch",
+            23
+          ],
+          [
+            "sh",
+            22
+          ],
+          [
+            "d",
+            12
+          ],
+          [
+            "ar",
+            10
+          ],
+          [
+            "tch",
+            9
+          ],
+          [
+            "or",
+            9
+          ]
+        ]
+      },
+      "slot2_L1_first_follower": {
+        "slot": "Slot 2 (L_1 - First Follower)",
+        "recipe_count": 13,
+        "mean_word_count": 35.62,
+        "mean_line_count": 3.62,
+        "q_proclitic_rate": 0.2073,
+        "o_nominal_rate": 0.2592,
+        "verbal_edy_dy_rate": 0.2052,
+        "nominal_aiin_rate": 0.1598,
+        "top_opener_prefixes": [
+          [
+            "po",
+            5
+          ],
+          [
+            "q-",
+            3
+          ],
+          [
+            "ts",
+            2
+          ],
+          [
+            "ok",
+            1
+          ],
+          [
+            "fo",
+            1
+          ]
+        ],
+        "top_closer_suffixes": [
+          [
+            "-ain",
+            4
+          ],
+          [
+            "-edy",
+            3
+          ],
+          [
+            "-ody",
+            2
+          ],
+          [
+            "-or",
+            1
+          ],
+          [
+            "-ey",
+            1
+          ]
+        ],
+        "top_radicals": [
+          [
+            "k",
+            90
+          ],
+          [
+            "ch",
+            41
+          ],
+          [
+            "t",
+            29
+          ],
+          [
+            "sh",
+            21
+          ],
+          [
+            "d",
+            14
+          ],
+          [
+            "ol",
+            11
+          ],
+          [
+            "lk",
+            10
+          ],
+          [
+            "tch",
+            10
+          ]
+        ]
+      },
+      "slot3_L2_second_follower": {
+        "slot": "Slot 3 (L_2 - Second Follower)",
+        "recipe_count": 10,
+        "mean_word_count": 29.4,
+        "mean_line_count": 3.0,
+        "q_proclitic_rate": 0.1973,
+        "o_nominal_rate": 0.2619,
+        "verbal_edy_dy_rate": 0.2925,
+        "nominal_aiin_rate": 0.1361,
+        "top_opener_prefixes": [
+          [
+            "pc",
+            4
+          ],
+          [
+            "da",
+            2
+          ],
+          [
+            "ta",
+            1
+          ],
+          [
+            "oc",
+            1
+          ],
+          [
+            "fc",
+            1
+          ]
+        ],
+        "top_closer_suffixes": [
+          [
+            "-edy",
+            4
+          ],
+          [
+            "-ol",
+            1
+          ],
+          [
+            "-ain",
+            1
+          ],
+          [
+            "-y",
+            1
+          ],
+          [
+            "-aly",
+            1
+          ]
+        ],
+        "top_radicals": [
+          [
+            "k",
+            65
+          ],
+          [
+            "t",
+            32
+          ],
+          [
+            "ch",
+            18
+          ],
+          [
+            "sh",
+            18
+          ],
+          [
+            "d",
+            10
+          ],
+          [
+            "che",
+            7
+          ],
+          [
+            "ke",
+            7
+          ],
+          [
+            "tch",
+            7
+          ]
+        ]
+      }
+    }
+  },
+  "ten_same_star_chained_pairs": [
+    {
+      "folio": "f103v",
+      "pair_id": "f103v:P7->P8",
+      "star_transition": "L. -> L.",
+      "p1_start_line": "f103v.20",
+      "p2_start_line": "f103v.27",
+      "p1_words_count": 70,
+      "p2_words_count": 29,
+      "p1_opener_5": [
+        "pol",
+        "char",
+        "otar",
+        "okaiin",
+        "shay"
+      ],
+      "p1_closer_5": [
+        "qokeey",
+        "sheety",
+        "oteey",
+        "lshedy",
+        "oteaiin"
+      ],
+      "p2_opener_5": [
+        "fcheody",
+        "arar",
+        "okeey",
+        "okeey",
+        "lchedy"
+      ],
+      "p2_closer_5": [
+        "sho",
+        "chcthy",
+        "sal",
+        "araiin",
+        "qokeey"
+      ],
+      "root_jaccard": 0.1471,
+      "radical_cosine": 0.7878,
+      "suffix_cosine": 0.951,
+      "shared_root_count": 5,
+      "rare_shared_root_count": 0,
+      "shared_roots": [
+        "ain",
+        "ar",
+        "ch",
+        "lch",
+        "te"
+      ],
+      "rare_shared_roots": [],
+      "header_to_header_roots": [
+        "te"
+      ],
+      "tail_to_head_roots": [
+        "te"
+      ],
+      "shared_word_realizations": [
+        {
+          "root": "ain",
+          "quire20_freq": 317,
+          "radicals": [
+            "ain"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "aiiin",
+            "aiin"
+          ],
+          "p2_words": [
+            "aiin"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "ar",
+          "quire20_freq": 193,
+          "radicals": [
+            "ar"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "ar",
+            "ar",
+            "ar",
+            "aram"
+          ],
+          "p2_words": [
+            "arar",
+            "araiin"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "ch",
+          "quire20_freq": 733,
+          "radicals": [
+            "ch"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "char",
+            "cheey"
+          ],
+          "p2_words": [
+            "chey",
+            "chey"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "lch",
+          "quire20_freq": 110,
+          "radicals": [
+            "lch"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "lchey"
+          ],
+          "p2_words": [
+            "lchedy"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "te",
+          "quire20_freq": 103,
+          "radicals": [
+            "te"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "oteal",
+            "teor",
+            "otear",
+            "oteeam"
+          ],
+          "p2_words": [
+            "oteal"
+          ],
+          "in_header_to_header": true,
+          "in_tail_to_head": true
+        }
+      ]
+    },
+    {
+      "folio": "f105r",
+      "pair_id": "f105r:P1->P2",
+      "star_transition": "L. -> L.",
+      "p1_start_line": "f105r.1",
+      "p2_start_line": "f105r.6",
+      "p1_words_count": 56,
+      "p2_words_count": 39,
+      "p1_opener_5": [
+        "@199;aiin",
+        "dar",
+        "chcphy",
+        "qokeey",
+        "qopaiin"
+      ],
+      "p1_closer_5": [
+        "cheod",
+        "or",
+        "aiiroekey",
+        "otchdy",
+        "otey"
+      ],
+      "p2_opener_5": [
+        "par",
+        "arody",
+        "shedeeey",
+        "qopchedy",
+        "qody"
+      ],
+      "p2_closer_5": [
+        "okchey",
+        "sairy",
+        "ore",
+        "daiindy",
+        "ytam"
+      ],
+      "root_jaccard": 0.2162,
+      "radical_cosine": 0.6697,
+      "suffix_cosine": 0.9366,
+      "shared_root_count": 8,
+      "rare_shared_root_count": 1,
+      "shared_roots": [
+        "ain",
+        "ar",
+        "ch",
+        "dy",
+        "ke",
+        "or",
+        "tch",
+        "te"
+      ],
+      "rare_shared_roots": [
+        "dy"
+      ],
+      "header_to_header_roots": [
+        "ain",
+        "ar",
+        "tch"
+      ],
+      "tail_to_head_roots": [
+        "tch",
+        "te"
+      ],
+      "shared_word_realizations": [
+        {
+          "root": "ain",
+          "quire20_freq": 317,
+          "radicals": [
+            "ain"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "aiin",
+            "aiin"
+          ],
+          "p2_words": [
+            "aiin",
+            "aiiin"
+          ],
+          "in_header_to_header": true,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "ar",
+          "quire20_freq": 193,
+          "radicals": [
+            "ar"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "arody",
+            "ar"
+          ],
+          "p2_words": [
+            "arody"
+          ],
+          "in_header_to_header": true,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "ch",
+          "quire20_freq": 733,
+          "radicals": [
+            "ch"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "cheedy",
+            "cheey",
+            "cheey",
+            "ochedy"
+          ],
+          "p2_words": [
+            "chey"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "dy",
+          "quire20_freq": 24,
+          "radicals": [
+            "dy"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "qody"
+          ],
+          "p2_words": [
+            "qody"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "ke",
+          "quire20_freq": 156,
+          "radicals": [
+            "ke"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "okees"
+          ],
+          "p2_words": [
+            "qokeed"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "or",
+          "quire20_freq": 117,
+          "radicals": [
+            "or"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "or",
+            "or"
+          ],
+          "p2_words": [
+            "or",
+            "or"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "tch",
+          "quire20_freq": 278,
+          "radicals": [
+            "tch"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "ypcheeey",
+            "otchdy",
+            "ytchy",
+            "otchdy"
+          ],
+          "p2_words": [
+            "qopchedy"
+          ],
+          "in_header_to_header": true,
+          "in_tail_to_head": true
+        },
+        {
+          "root": "te",
+          "quire20_freq": 103,
+          "radicals": [
+            "te"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "yteeeody"
+          ],
+          "p2_words": [
+            "qoteody",
+            "yteody"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": true
+        }
+      ]
+    },
+    {
+      "folio": "f107r",
+      "pair_id": "f107r:P4->P5",
+      "star_transition": "L -> L",
+      "p1_start_line": "f107r.13",
+      "p2_start_line": "f107r.18",
+      "p1_words_count": 43,
+      "p2_words_count": 25,
+      "p1_opener_5": [
+        "polchls",
+        "aiin",
+        "sheky",
+        "qokaiin",
+        "opchal"
+      ],
+      "p1_closer_5": [
+        "otaiinam",
+        "sair",
+        "chey",
+        "losaiin",
+        "chey"
+      ],
+      "p2_opener_5": [
+        "poalosy",
+        "shey",
+        "tar",
+        "ay",
+        "f"
+      ],
+      "p2_closer_5": [
+        "okeeey",
+        "cheodaiin",
+        "aldy",
+        "tcheol",
+        "kcheedy"
+      ],
+      "root_jaccard": 0.1316,
+      "radical_cosine": 0.4635,
+      "suffix_cosine": 0.7949,
+      "shared_root_count": 5,
+      "rare_shared_root_count": 1,
+      "shared_roots": [
+        "ain",
+        "al",
+        "sh",
+        "tain",
+        "tche"
+      ],
+      "rare_shared_roots": [
+        "tain"
+      ],
+      "header_to_header_roots": [
+        "sh"
+      ],
+      "tail_to_head_roots": [],
+      "shared_word_realizations": [
+        {
+          "root": "ain",
+          "quire20_freq": 317,
+          "radicals": [
+            "ain"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "aiin"
+          ],
+          "p2_words": [
+            "oaiin",
+            "aiin"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "al",
+          "quire20_freq": 169,
+          "radicals": [
+            "al"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "alam",
+            "al"
+          ],
+          "p2_words": [
+            "aldy"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "sh",
+          "quire20_freq": 400,
+          "radicals": [
+            "sh"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "shedy",
+            "shedy",
+            "shey"
+          ],
+          "p2_words": [
+            "shey",
+            "sheey",
+            "sheey"
+          ],
+          "in_header_to_header": true,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "tain",
+          "quire20_freq": 5,
+          "radicals": [
+            "tain"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "otaiinam"
+          ],
+          "p2_words": [
+            "ypaiinal"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "tche",
+          "quire20_freq": 46,
+          "radicals": [
+            "tche"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "opcheol"
+          ],
+          "p2_words": [
+            "tcheol"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        }
+      ]
+    },
+    {
+      "folio": "f111r",
+      "pair_id": "f111r:P3->P4",
+      "star_transition": "L. -> L.",
+      "p1_start_line": "f111r.36",
+      "p2_start_line": "f111r.44",
+      "p1_words_count": 86,
+      "p2_words_count": 46,
+      "p1_opener_5": [
+        "polal",
+        "shedal",
+        "pchedy",
+        "qofchedy",
+        "pykeor"
+      ],
+      "p1_closer_5": [
+        "okeedy",
+        "lkeedy",
+        "lkedar",
+        "okeedy",
+        "chedy"
+      ],
+      "p2_opener_5": [
+        "pchedar",
+        "oteeol",
+        "lkeedain",
+        "okeam",
+        "sheo"
+      ],
+      "p2_closer_5": [
+        "qeear",
+        "al",
+        "chedy",
+        "okeey",
+        "chedy"
+      ],
+      "root_jaccard": 0.2045,
+      "radical_cosine": 0.6091,
+      "suffix_cosine": 0.7021,
+      "shared_root_count": 9,
+      "rare_shared_root_count": 2,
+      "shared_roots": [
+        "al",
+        "ch",
+        "che",
+        "ke",
+        "keo",
+        "lk",
+        "lked",
+        "tched",
+        "te"
+      ],
+      "rare_shared_roots": [
+        "lked",
+        "tched"
+      ],
+      "header_to_header_roots": [
+        "tched"
+      ],
+      "tail_to_head_roots": [
+        "lked"
+      ],
+      "shared_word_realizations": [
+        {
+          "root": "al",
+          "quire20_freq": 169,
+          "radicals": [
+            "al"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "al",
+            "al"
+          ],
+          "p2_words": [
+            "al",
+            "al"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "ch",
+          "quire20_freq": 733,
+          "radicals": [
+            "ch"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "chol",
+            "chedy",
+            "ycheey",
+            "chedy"
+          ],
+          "p2_words": [
+            "chey",
+            "chedy",
+            "chedy"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "che",
+          "quire20_freq": 213,
+          "radicals": [
+            "che"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "cheeol",
+            "cheody"
+          ],
+          "p2_words": [
+            "cheal",
+            "cheom"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "ke",
+          "quire20_freq": 156,
+          "radicals": [
+            "ke"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "keeol",
+            "okeal",
+            "qokeeal",
+            "qokeol"
+          ],
+          "p2_words": [
+            "okeam"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "keo",
+          "quire20_freq": 54,
+          "radicals": [
+            "keo"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "okeeo"
+          ],
+          "p2_words": [
+            "okeeo"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "lk",
+          "quire20_freq": 218,
+          "radicals": [
+            "lk"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "lkeeedy",
+            "lkedy",
+            "lkeedy"
+          ],
+          "p2_words": [
+            "lkeeey",
+            "lkeey",
+            "lkeey",
+            "lkeedy"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "lked",
+          "quire20_freq": 10,
+          "radicals": [
+            "lked"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "lkedar"
+          ],
+          "p2_words": [
+            "lkeedain"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": true
+        },
+        {
+          "root": "tched",
+          "quire20_freq": 27,
+          "radicals": [
+            "tched"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "opchedal"
+          ],
+          "p2_words": [
+            "pchedar"
+          ],
+          "in_header_to_header": true,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "te",
+          "quire20_freq": 103,
+          "radicals": [
+            "te"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "oteain"
+          ],
+          "p2_words": [
+            "oteeol",
+            "teed",
+            "oteed"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        }
+      ]
+    },
+    {
+      "folio": "f111v",
+      "pair_id": "f111v:P1->P2",
+      "star_transition": "L. -> L.",
+      "p1_start_line": "f111v.1",
+      "p2_start_line": "f111v.26",
+      "p1_words_count": 294,
+      "p2_words_count": 28,
+      "p1_opener_5": [
+        "koshey",
+        "qokal",
+        "chckheal",
+        "opcheodair",
+        "alkain"
+      ],
+      "p1_closer_5": [
+        "chctham",
+        "tair",
+        "alchedar",
+        "shykaiin",
+        "chd"
+      ],
+      "p2_opener_5": [
+        "polar",
+        "ar",
+        "okshey",
+        "qokain",
+        "chey"
+      ],
+      "p2_closer_5": [
+        "llo",
+        "qorchain",
+        "okain",
+        "chear",
+        "lkain"
+      ],
+      "root_jaccard": 0.1084,
+      "radical_cosine": 0.7751,
+      "suffix_cosine": 0.8599,
+      "shared_root_count": 9,
+      "rare_shared_root_count": 2,
+      "shared_roots": [
+        "alk",
+        "ar",
+        "ch",
+        "che",
+        "ksh",
+        "lk",
+        "ol",
+        "sh",
+        "tch"
+      ],
+      "rare_shared_roots": [
+        "alk",
+        "ksh"
+      ],
+      "header_to_header_roots": [],
+      "tail_to_head_roots": [
+        "ch"
+      ],
+      "shared_word_realizations": [
+        {
+          "root": "alk",
+          "quire20_freq": 22,
+          "radicals": [
+            "alk"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "alkain",
+            "alkain"
+          ],
+          "p2_words": [
+            "alkar"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "ar",
+          "quire20_freq": 193,
+          "radicals": [
+            "ar"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "ar",
+            "ar"
+          ],
+          "p2_words": [
+            "ar"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "ch",
+          "quire20_freq": 733,
+          "radicals": [
+            "ch"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "chy",
+            "chedy",
+            "chedy",
+            "chey"
+          ],
+          "p2_words": [
+            "chey",
+            "chey"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": true
+        },
+        {
+          "root": "che",
+          "quire20_freq": 213,
+          "radicals": [
+            "che"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "cheol",
+            "cheal",
+            "cheol",
+            "chear"
+          ],
+          "p2_words": [
+            "ches",
+            "chear"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "ksh",
+          "quire20_freq": 21,
+          "radicals": [
+            "ksh"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "qokshedy"
+          ],
+          "p2_words": [
+            "okshey"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "lk",
+          "quire20_freq": 218,
+          "radicals": [
+            "lk"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "lkam",
+            "lkeey",
+            "lkey",
+            "lkain"
+          ],
+          "p2_words": [
+            "lkain"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "ol",
+          "quire20_freq": 196,
+          "radicals": [
+            "ol"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "ol",
+            "ol",
+            "ol",
+            "qol"
+          ],
+          "p2_words": [
+            "ol"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "sh",
+          "quire20_freq": 400,
+          "radicals": [
+            "sh"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "shedy",
+            "shedy",
+            "shey",
+            "shey"
+          ],
+          "p2_words": [
+            "sheey",
+            "sheey",
+            "shy"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "tch",
+          "quire20_freq": 278,
+          "radicals": [
+            "tch"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "qopchedy",
+            "otchey"
+          ],
+          "p2_words": [
+            "qopchedy",
+            "qopchey"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        }
+      ]
+    },
+    {
+      "folio": "f111v",
+      "pair_id": "f111v:P4->P5",
+      "star_transition": "L. -> L.",
+      "p1_start_line": "f111v.31",
+      "p2_start_line": "f111v.34",
+      "p1_words_count": 37,
+      "p2_words_count": 33,
+      "p1_opener_5": [
+        "pochey",
+        "oteain",
+        "chekain",
+        "cheal",
+        "lain"
+      ],
+      "p1_closer_5": [
+        "qokan",
+        "chan",
+        "aman",
+        "cheal",
+        "char"
+      ],
+      "p2_opener_5": [
+        "polar",
+        "okar",
+        "teody",
+        "qokain",
+        "talol"
+      ],
+      "p2_closer_5": [
+        "ar",
+        "ain",
+        "olr",
+        "ar",
+        "olor"
+      ],
+      "root_jaccard": 0.2069,
+      "radical_cosine": 0.3664,
+      "suffix_cosine": 0.8749,
+      "shared_root_count": 6,
+      "rare_shared_root_count": 1,
+      "shared_roots": [
+        "ain",
+        "ch",
+        "chk",
+        "lk",
+        "ol",
+        "te"
+      ],
+      "rare_shared_roots": [
+        "chk"
+      ],
+      "header_to_header_roots": [
+        "te"
+      ],
+      "tail_to_head_roots": [],
+      "shared_word_realizations": [
+        {
+          "root": "ain",
+          "quire20_freq": 317,
+          "radicals": [
+            "ain"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "ain"
+          ],
+          "p2_words": [
+            "oain",
+            "ain"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "ch",
+          "quire20_freq": 733,
+          "radicals": [
+            "ch"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "chey",
+            "chey",
+            "chal",
+            "chey"
+          ],
+          "p2_words": [
+            "chey"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "chk",
+          "quire20_freq": 33,
+          "radicals": [
+            "chk"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "chkar"
+          ],
+          "p2_words": [
+            "chkeey"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "lk",
+          "quire20_freq": 218,
+          "radicals": [
+            "lk"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "lkain"
+          ],
+          "p2_words": [
+            "lkain",
+            "lkain"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "ol",
+          "quire20_freq": 196,
+          "radicals": [
+            "ol"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "qol"
+          ],
+          "p2_words": [
+            "olr",
+            "olor"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "te",
+          "quire20_freq": 103,
+          "radicals": [
+            "te"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "oteain"
+          ],
+          "p2_words": [
+            "teody"
+          ],
+          "in_header_to_header": true,
+          "in_tail_to_head": false
+        }
+      ]
+    },
+    {
+      "folio": "f111v",
+      "pair_id": "f111v:P6->P7",
+      "star_transition": "L -> L",
+      "p1_start_line": "f111v.37",
+      "p2_start_line": "f111v.45",
+      "p1_words_count": 82,
+      "p2_words_count": 29,
+      "p1_opener_5": [
+        "polchey",
+        "lkarshar",
+        "ykain",
+        "qokain",
+        "shalky"
+      ],
+      "p1_closer_5": [
+        "dain",
+        "teeodain",
+        "cheeal",
+        "olaiin",
+        "or"
+      ],
+      "p2_opener_5": [
+        "pollaiin",
+        "okain",
+        "sheal",
+        "pchedain",
+        "opchey"
+      ],
+      "p2_closer_5": [
+        "olain",
+        "ykeeedy",
+        "chekain",
+        "chckhey",
+        "lchar"
+      ],
+      "root_jaccard": 0.1395,
+      "radical_cosine": 0.5884,
+      "suffix_cosine": 0.8745,
+      "shared_root_count": 6,
+      "rare_shared_root_count": 1,
+      "shared_roots": [
+        "ch",
+        "chckh",
+        "checth",
+        "lch",
+        "lk",
+        "ol"
+      ],
+      "rare_shared_roots": [
+        "checth"
+      ],
+      "header_to_header_roots": [],
+      "tail_to_head_roots": [],
+      "shared_word_realizations": [
+        {
+          "root": "ch",
+          "quire20_freq": 733,
+          "radicals": [
+            "ch"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "chey",
+            "ycheey",
+            "chedy",
+            "chedy"
+          ],
+          "p2_words": [
+            "chey",
+            "cheey"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "chckh",
+          "quire20_freq": 68,
+          "radicals": [
+            "chckh"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "chckhy",
+            "chckhal"
+          ],
+          "p2_words": [
+            "chckhy",
+            "chckhey"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "checth",
+          "quire20_freq": 14,
+          "radicals": [
+            "checth"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "checthy"
+          ],
+          "p2_words": [
+            "checthy"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "lch",
+          "quire20_freq": 110,
+          "radicals": [
+            "lch"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "lchdy"
+          ],
+          "p2_words": [
+            "lchedy",
+            "lchar"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "lk",
+          "quire20_freq": 218,
+          "radicals": [
+            "lk"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "lkeey",
+            "lkeey",
+            "lkain",
+            "lkeey"
+          ],
+          "p2_words": [
+            "lkeey"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "ol",
+          "quire20_freq": 196,
+          "radicals": [
+            "ol"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "olaiin"
+          ],
+          "p2_words": [
+            "olain"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        }
+      ]
+    },
+    {
+      "folio": "f112r",
+      "pair_id": "f112r:P1->P2",
+      "star_transition": "L. -> L.",
+      "p1_start_line": "f112r.1",
+      "p2_start_line": "f112r.11",
+      "p1_words_count": 78,
+      "p2_words_count": 33,
+      "p1_opener_5": [
+        "folchey",
+        "qokeey",
+        "ykair",
+        "@185;arally",
+        "oteedal"
+      ],
+      "p1_closer_5": [
+        "dair",
+        "al",
+        "chedy",
+        "qodain",
+        "dam"
+      ],
+      "p2_opener_5": [
+        "tchedy",
+        "qoteey",
+        "qeol",
+        "qokeey",
+        "otey"
+      ],
+      "p2_closer_5": [
+        "al",
+        "chey",
+        "otaiin",
+        "okeedy",
+        "qokeey"
+      ],
+      "root_jaccard": 0.1875,
+      "radical_cosine": 0.8828,
+      "suffix_cosine": 0.783,
+      "shared_root_count": 6,
+      "rare_shared_root_count": 1,
+      "shared_roots": [
+        "ain",
+        "al",
+        "ch",
+        "chcth",
+        "dy",
+        "tch"
+      ],
+      "rare_shared_roots": [
+        "dy"
+      ],
+      "header_to_header_roots": [],
+      "tail_to_head_roots": [],
+      "shared_word_realizations": [
+        {
+          "root": "ain",
+          "quire20_freq": 317,
+          "radicals": [
+            "ain"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "aiin",
+            "oain"
+          ],
+          "p2_words": [
+            "aiin"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "al",
+          "quire20_freq": 169,
+          "radicals": [
+            "al"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "al"
+          ],
+          "p2_words": [
+            "al"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "ch",
+          "quire20_freq": 733,
+          "radicals": [
+            "ch"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "chol",
+            "cheey",
+            "chedy",
+            "chol"
+          ],
+          "p2_words": [
+            "chdy",
+            "chdy",
+            "chey"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "chcth",
+          "quire20_freq": 44,
+          "radicals": [
+            "chcth"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "chcphy"
+          ],
+          "p2_words": [
+            "chcthy"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "dy",
+          "quire20_freq": 24,
+          "radicals": [
+            "dy"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "odys"
+          ],
+          "p2_words": [
+            "dy"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "tch",
+          "quire20_freq": 278,
+          "radicals": [
+            "tch"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "qotchedy"
+          ],
+          "p2_words": [
+            "tchedy",
+            "otchedy"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        }
+      ]
+    },
+    {
+      "folio": "f115r",
+      "pair_id": "f115r:P5->P6",
+      "star_transition": "L. -> L.",
+      "p1_start_line": "f115r.13",
+      "p2_start_line": "f115r.19",
+      "p1_words_count": 63,
+      "p2_words_count": 33,
+      "p1_opener_5": [
+        "tchedy",
+        "qoolkeedy",
+        "qokchedy",
+        "qotchd",
+        "lpchedy"
+      ],
+      "p1_closer_5": [
+        "lcheey",
+        "okcho",
+        "keedor",
+        "ykechey",
+        "chchdy"
+      ],
+      "p2_opener_5": [
+        "pcheodain",
+        "qokchey",
+        "qotchedy",
+        "darailchedy",
+        "polchedy"
+      ],
+      "p2_closer_5": [
+        "chy",
+        "cheody",
+        "rodaiin",
+        "cheockhy",
+        "oeeody"
+      ],
+      "root_jaccard": 0.1304,
+      "radical_cosine": 0.5278,
+      "suffix_cosine": 0.7771,
+      "shared_root_count": 6,
+      "rare_shared_root_count": 1,
+      "shared_roots": [
+        "ch",
+        "che",
+        "kch",
+        "ol",
+        "tch",
+        "tolch"
+      ],
+      "rare_shared_roots": [
+        "tolch"
+      ],
+      "header_to_header_roots": [
+        "kch",
+        "tch"
+      ],
+      "tail_to_head_roots": [],
+      "shared_word_realizations": [
+        {
+          "root": "ch",
+          "quire20_freq": 733,
+          "radicals": [
+            "ch"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "cheey",
+            "cheedy",
+            "chedy",
+            "chody"
+          ],
+          "p2_words": [
+            "chol",
+            "chedy",
+            "chor",
+            "cheey"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "che",
+          "quire20_freq": 213,
+          "radicals": [
+            "che"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "cheol",
+            "cheol"
+          ],
+          "p2_words": [
+            "yches",
+            "cheody"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "kch",
+          "quire20_freq": 179,
+          "radicals": [
+            "kch"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "qokchedy"
+          ],
+          "p2_words": [
+            "qokchey",
+            "qofchedy",
+            "qokchedy"
+          ],
+          "in_header_to_header": true,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "ol",
+          "quire20_freq": 196,
+          "radicals": [
+            "ol"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "qol"
+          ],
+          "p2_words": [
+            "qol"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "tch",
+          "quire20_freq": 278,
+          "radicals": [
+            "tch"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "tchedy",
+            "qotchd",
+            "otchdy",
+            "qotchy"
+          ],
+          "p2_words": [
+            "qotchedy",
+            "pchody",
+            "qotchedy"
+          ],
+          "in_header_to_header": true,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "tolch",
+          "quire20_freq": 12,
+          "radicals": [
+            "tolch"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "qotolchd"
+          ],
+          "p2_words": [
+            "polchedy"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        }
+      ]
+    },
+    {
+      "folio": "f116r",
+      "pair_id": "f116r:P4->P5",
+      "star_transition": "L. -> L.",
+      "p1_start_line": "f116r.10",
+      "p2_start_line": "f116r.15",
+      "p1_words_count": 53,
+      "p2_words_count": 32,
+      "p1_opener_5": [
+        "chdin",
+        "checkhy",
+        "dar",
+        "shedy",
+        "qokeedy"
+      ],
+      "p1_closer_5": [
+        "ain",
+        "chl",
+        "l",
+        "s",
+        "oleedy"
+      ],
+      "p2_opener_5": [
+        "pchoetal",
+        "otedal",
+        "otal",
+        "oteedy",
+        "olr"
+      ],
+      "p2_closer_5": [
+        "okeey",
+        "lain",
+        "okeey",
+        "qol",
+        "chedy"
+      ],
+      "root_jaccard": 0.1481,
+      "radical_cosine": 0.8119,
+      "suffix_cosine": 0.8942,
+      "shared_root_count": 4,
+      "rare_shared_root_count": 0,
+      "shared_roots": [
+        "al",
+        "ch",
+        "ol",
+        "sh"
+      ],
+      "rare_shared_roots": [],
+      "header_to_header_roots": [
+        "sh"
+      ],
+      "tail_to_head_roots": [
+        "ol"
+      ],
+      "shared_word_realizations": [
+        {
+          "root": "al",
+          "quire20_freq": 169,
+          "radicals": [
+            "al"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "als"
+          ],
+          "p2_words": [
+            "al",
+            "al"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "ch",
+          "quire20_freq": 733,
+          "radicals": [
+            "ch"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "chedy",
+            "cheey",
+            "chedy",
+            "chl"
+          ],
+          "p2_words": [
+            "chedy",
+            "chey",
+            "chedy"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": false
+        },
+        {
+          "root": "ol",
+          "quire20_freq": 196,
+          "radicals": [
+            "ol"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "ol",
+            "olam",
+            "oleedy"
+          ],
+          "p2_words": [
+            "olr",
+            "qol"
+          ],
+          "in_header_to_header": false,
+          "in_tail_to_head": true
+        },
+        {
+          "root": "sh",
+          "quire20_freq": 400,
+          "radicals": [
+            "sh"
+          ],
+          "radical_roles": [
+            ""
+          ],
+          "p1_words": [
+            "shedy",
+            "shdy",
+            "sheedy"
+          ],
+          "p2_words": [
+            "shdy",
+            "sheedy"
+          ],
+          "in_header_to_header": true,
+          "in_tail_to_head": false
+        }
+      ]
+    }
+  ],
+  "crimson_d_triads": [
+    {
+      "folio": "f103r",
+      "triad_id": "f103r:P1..P4",
+      "star_pattern": "D -> L -> L -> L",
+      "member_word_counts": [
+        50,
+        35,
+        62,
+        30
+      ],
+      "member_openers": [
+        [
+          "pchedal",
+          "shdy",
+          "ytechypchy"
+        ],
+        [
+          "pocharal",
+          "okedar",
+          "shedy"
+        ],
+        [
+          "daroal",
+          "okey",
+          "chedy"
+        ],
+        [
+          "podar",
+          "sheor",
+          "qotedy"
+        ]
+      ],
+      "member_closers": [
+        [
+          "ol",
+          "loty",
+          "chedaraly"
+        ],
+        [
+          "qoedy",
+          "ol",
+          "shedy"
+        ],
+        [
+          "shar",
+          "aiin",
+          "otedy"
+        ],
+        [
+          "shol",
+          "qotey",
+          "shkaiin"
+        ]
+      ],
+      "shared_roots_D_to_subrecipes": [
+        "ain",
+        "ar",
+        "ch",
+        "chet",
+        "lk",
+        "ol",
+        "or",
+        "sh",
+        "shek",
+        "tch"
+      ],
+      "shared_roots_L1_to_L2": [
+        "ch",
+        "ke",
+        "lk",
+        "ol",
+        "sh",
+        "to"
+      ]
+    },
+    {
+      "folio": "f103r",
+      "triad_id": "f103r:P5..P7",
+      "star_pattern": "D -> L -> L",
+      "member_word_counts": [
+        21,
+        28,
+        29
+      ],
+      "member_openers": [
+        [
+          "dshol",
+          "sholkar",
+          "shdaiin"
+        ],
+        [
+          "polchedy",
+          "qokeol",
+          "okain"
+        ],
+        [
+          "pcheam",
+          "sokedy",
+          "dalkar"
+        ]
+      ],
+      "member_closers": [
+        [
+          "oty",
+          "or",
+          "aiin"
+        ],
+        [
+          "qokaiin",
+          "shedy",
+          "olor"
+        ],
+        [
+          "lchedy",
+          "chckhy",
+          "shol"
+        ]
+      ],
+      "shared_roots_D_to_subrecipes": [
+        "ch",
+        "chckh",
+        "sh",
+        "shckh",
+        "shd",
+        "tch",
+        "tche"
+      ],
+      "shared_roots_L1_to_L2": [
+        "sh",
+        "shckh"
+      ]
+    },
+    {
+      "folio": "f103r",
+      "triad_id": "f103r:P8..P10",
+      "star_pattern": "D -> L -> L",
+      "member_word_counts": [
+        31,
+        28,
+        28
+      ],
+      "member_openers": [
+        [
+          "tchoky",
+          "okeal",
+          "shedy"
+        ],
+        [
+          "qokechy",
+          "okeey",
+          "qokeey"
+        ],
+        [
+          "pcholkchdy",
+          "sheckhy",
+          "qokey"
+        ]
+      ],
+      "member_closers": [
+        [
+          "olcheedar",
+          "shey",
+          "lotor"
+        ],
+        [
+          "qokeey",
+          "chal",
+          "chedy"
+        ],
+        [
+          "otedy",
+          "shcthy",
+          "oraiin"
+        ]
+      ],
+      "shared_roots_D_to_subrecipes": [
+        "ch",
+        "ol",
+        "sh",
+        "shcth",
+        "tch"
+      ],
+      "shared_roots_L1_to_L2": [
+        "ch",
+        "sh",
+        "tch"
+      ]
+    },
+    {
+      "folio": "f103r",
+      "triad_id": "f103r:P11..P12",
+      "star_pattern": "D -> L",
+      "member_word_counts": [
+        14,
+        18
+      ],
+      "member_openers": [
+        [
+          "qokeey",
+          "chechy",
+          "qokey"
+        ],
+        [
+          "qoker",
+          "chain",
+          "olain"
+        ]
+      ],
+      "member_closers": [
+        [
+          "sheod",
+          "oshey",
+          "cheedalaiin"
+        ],
+        [
+          "shdy",
+          "otey",
+          "qokeey"
+        ]
+      ],
+      "shared_roots_D_to_subrecipes": [
+        "sh"
+      ],
+      "shared_roots_L1_to_L2": []
+    },
+    {
+      "folio": "f103r",
+      "triad_id": "f103r:P13..P15",
+      "star_pattern": "D -> L -> L",
+      "member_word_counts": [
+        24,
+        27,
+        16
+      ],
+      "member_openers": [
+        [
+          "pchedy",
+          "qokeey",
+          "qokeodair"
+        ],
+        [
+          "qokeey",
+          "sheeol",
+          "shckhy"
+        ],
+        [
+          "tar",
+          "cheal",
+          "ol"
+        ]
+      ],
+      "member_closers": [
+        [
+          "qotal",
+          "shedy",
+          "oteey"
+        ],
+        [
+          "sheol",
+          "cheolshy",
+          "chalal"
+        ],
+        [
+          "shey",
+          "sheal",
+          "otshedy"
+        ]
+      ],
+      "shared_roots_D_to_subrecipes": [
+        "sh"
+      ],
+      "shared_roots_L1_to_L2": [
+        "che",
+        "sh",
+        "she",
+        "tsh"
+      ]
+    },
+    {
+      "folio": "f103r",
+      "triad_id": "f103r:P16..P18",
+      "star_pattern": "D -> L -> L",
+      "member_word_counts": [
+        28,
+        37,
+        25
+      ],
+      "member_openers": [
+        [
+          "qokeedy",
+          "qokeedy",
+          "shol"
+        ],
+        [
+          "polarar",
+          "lshedy",
+          "qotolaiin"
+        ],
+        [
+          "pchedal",
+          "oteey",
+          "qol"
+        ]
+      ],
+      "member_closers": [
+        [
+          "qokaly",
+          "lcheedy",
+          "oloraiin"
+        ],
+        [
+          "cheteey",
+          "shey",
+          "cheosaiin"
+        ],
+        [
+          "darchedy",
+          "qokey",
+          "qoty"
+        ]
+      ],
+      "shared_roots_D_to_subrecipes": [
+        "ch",
+        "lch",
+        "ol",
+        "sh",
+        "ssh"
+      ],
+      "shared_roots_L1_to_L2": [
+        "ch",
+        "ol",
+        "sh",
+        "ssh"
+      ]
+    },
+    {
+      "folio": "f104r",
+      "triad_id": "f104r:P3..P5",
+      "star_pattern": "D -> L -> L",
+      "member_word_counts": [
+        20,
+        39,
+        26
+      ],
+      "member_openers": [
+        [
+          "tol",
+          "chedal",
+          "cheoy"
+        ],
+        [
+          "tshdol",
+          "qotchedy",
+          "qokoeey"
+        ],
+        [
+          "ocheoey",
+          "qoctheody",
+          "ykeeodey"
+        ]
+      ],
+      "member_closers": [
+        [
+          "cheey",
+          "okar",
+          "olkeedy"
+        ],
+        [
+          "okal",
+          "kaiin",
+          "cheodaiin"
+        ],
+        [
+          "or",
+          "chockhar",
+          "otalkshedy"
+        ]
+      ],
+      "shared_roots_D_to_subrecipes": [
+        "ch",
+        "cheo",
+        "cthe",
+        "sh"
+      ],
+      "shared_roots_L1_to_L2": [
+        "ch",
+        "ol",
+        "tch"
+      ]
+    },
+    {
+      "folio": "f104r",
+      "triad_id": "f104r:P6..P7",
+      "star_pattern": "D -> L",
+      "member_word_counts": [
+        29,
+        50
+      ],
+      "member_openers": [
+        [
+          "toaiin",
+          "chdar",
+          "otar"
+        ],
+        [
+          "tshedar",
+          "chllo",
+          "rl"
+        ]
+      ],
+      "member_closers": [
+        [
+          "chear",
+          "olkchedy",
+          "charaiin"
+        ],
+        [
+          "sheey",
+          "kar",
+          "sheody"
+        ]
+      ],
+      "shared_roots_D_to_subrecipes": [
+        "al",
+        "ar",
+        "ch",
+        "che",
+        "kch",
+        "sh"
+      ],
+      "shared_roots_L1_to_L2": []
+    },
+    {
+      "folio": "f104r",
+      "triad_id": "f104r:P8..P13",
+      "star_pattern": "D -> L -> L. -> L -> L. -> L",
+      "member_word_counts": [
+        34,
+        42,
+        19,
+        25,
+        35,
+        32
+      ],
+      "member_openers": [
+        [
+          "pchedar",
+          "qokaiin",
+          "qotaiin"
+        ],
+        [
+          "okeeo",
+          "l",
+          "keeo"
+        ],
+        [
+          "pchol",
+          "ksheody",
+          "qokeshedy"
+        ],
+        [
+          "psheody",
+          "qotar",
+          "chopar"
+        ],
+        [
+          "pcholor",
+          "ar",
+          "aiin"
+        ],
+        [
+          "tsheodl",
+          "qokaiin",
+          "qokchedy"
+        ]
+      ],
+      "member_closers": [
+        [
+          "air",
+          "cheoltar",
+          "arodly"
+        ],
+        [
+          "lkaiin",
+          "chey",
+          "raly"
+        ],
+        [
+          "chol",
+          "cheol",
+          "olaly"
+        ],
+        [
+          "qokchol",
+          "kcheody",
+          "qotchdy"
+        ],
+        [
+          "y",
+          "lshedy",
+          "cholkar"
+        ],
+        [
+          "qokaiin",
+          "otaiin",
+          "otaiin"
+        ]
+      ],
+      "shared_roots_D_to_subrecipes": [
+        "ai",
+        "ain",
+        "ar",
+        "ch",
+        "ched",
+        "cheod",
+        "cth",
+        "olche",
+        "or"
+      ],
+      "shared_roots_L1_to_L2": [
+        "ch",
+        "che",
+        "ched"
+      ]
+    },
+    {
+      "folio": "f108r",
+      "triad_id": "f108r:P3..P5",
+      "star_pattern": "D -> L -> L.",
+      "member_word_counts": [
+        61,
+        28,
+        39
+      ],
+      "member_openers": [
+        [
+          "pochedy",
+          "shy",
+          "shokeedar"
+        ],
+        [
+          "polchal",
+          "shol",
+          "qokar"
+        ],
+        [
+          "fcheokair",
+          "okedaiin",
+          "chedy"
+        ]
+      ],
+      "member_closers": [
+        [
+          "ar",
+          "ail",
+          "odaiin"
+        ],
+        [
+          "daiin",
+          "dal",
+          "daiin"
+        ],
+        [
+          "cholcheey",
+          "dalkar",
+          "okedy"
+        ]
+      ],
+      "shared_roots_D_to_subrecipes": [
+        "ch",
+        "ched",
+        "ckh",
+        "kch",
+        "ke",
+        "ked",
+        "lk",
+        "sh"
+      ],
+      "shared_roots_L1_to_L2": [
+        "ch",
+        "kch"
+      ]
+    },
+    {
+      "folio": "f108r",
+      "triad_id": "f108r:P6..P8",
+      "star_pattern": "D -> L -> L",
+      "member_word_counts": [
+        25,
+        52,
+        17
+      ],
+      "member_openers": [
+        [
+          "qolshy",
+          "qoeedy",
+          "lkealshedy"
+        ],
+        [
+          "folaiin",
+          "y",
+          "qokal"
+        ],
+        [
+          "polchedy",
+          "okedy",
+          "qopchedy"
+        ]
+      ],
+      "member_closers": [
+        [
+          "chey",
+          "okain",
+          "charain"
+        ],
+        [
+          "qoal",
+          "olkedy",
+          "okaiin"
+        ],
+        [
+          "okchedy",
+          "saiin",
+          "alkan"
+        ]
+      ],
+      "shared_roots_D_to_subrecipes": [
+        "ain",
+        "ch",
+        "ke",
+        "ol",
+        "tch"
+      ],
+      "shared_roots_L1_to_L2": [
+        "ched",
+        "ke",
+        "tch",
+        "ted"
+      ]
+    },
+    {
+      "folio": "f108r",
+      "triad_id": "f108r:P9..P10",
+      "star_pattern": "D -> L",
+      "member_word_counts": [
+        36,
+        19
+      ],
+      "member_openers": [
+        [
+          "keol",
+          "sheody",
+          "qokedy"
+        ],
+        [
+          "pychory",
+          "opchey",
+          "lkeol"
+        ]
+      ],
+      "member_closers": [
+        [
+          "chckhy",
+          "qokedy",
+          "okain"
+        ],
+        [
+          "chdy",
+          "chedal",
+          "chedy"
+        ]
+      ],
+      "shared_roots_D_to_subrecipes": [
+        "ch",
+        "kch",
+        "ke",
+        "sh"
+      ],
+      "shared_roots_L1_to_L2": []
+    },
+    {
+      "folio": "f108r",
+      "triad_id": "f108r:P11..P13",
+      "star_pattern": "D -> L -> L",
+      "member_word_counts": [
+        18,
+        60,
+        33
+      ],
+      "member_openers": [
+        [
+          "tchedy",
+          "qokey",
+          "okeey"
+        ],
+        [
+          "poro",
+          "l",
+          "tedo"
+        ],
+        [
+          "dain",
+          "sheckhy",
+          "okeey"
+        ]
+      ],
+      "member_closers": [
+        [
+          "otedy",
+          "qeeey",
+          "chey"
+        ],
+        [
+          "charam",
+          "otam",
+          "cheody"
+        ],
+        [
+          "ched",
+          "al",
+          "keam"
+        ]
+      ],
+      "shared_roots_D_to_subrecipes": [
+        "al",
+        "ch",
+        "ched",
+        "lk"
+      ],
+      "shared_roots_L1_to_L2": [
+        "ch",
+        "che",
+        "ke"
+      ]
+    },
+    {
+      "folio": "f108r",
+      "triad_id": "f108r:P14..P14",
+      "star_pattern": "D",
+      "member_word_counts": [
+        32
+      ],
+      "member_openers": [
+        [
+          "pcheedy",
+          "qokeo",
+          "l"
+        ]
+      ],
+      "member_closers": [
+        [
+          "chdar",
+          "ar",
+          "okam"
+        ]
+      ],
+      "shared_roots_D_to_subrecipes": [],
+      "shared_roots_L1_to_L2": []
+    }
+  ],
+  "d_enriched_radicals": [
+    {
+      "radical": "or",
+      "d_count": 9,
+      "quire20_count": 117,
+      "enrichment_vs_quire20": 1.98,
+      "role": ""
+    },
+    {
+      "radical": "keo",
+      "d_count": 4,
+      "quire20_count": 54,
+      "enrichment_vs_quire20": 1.91,
+      "role": ""
+    },
+    {
+      "radical": "chckh",
+      "d_count": 5,
+      "quire20_count": 68,
+      "enrichment_vs_quire20": 1.89,
+      "role": ""
+    },
+    {
+      "radical": "k",
+      "d_count": 87,
+      "quire20_count": 1541,
+      "enrichment_vs_quire20": 1.45,
+      "role": ""
+    },
+    {
+      "radical": "sh",
+      "d_count": 22,
+      "quire20_count": 400,
+      "enrichment_vs_quire20": 1.42,
+      "role": ""
+    },
+    {
+      "radical": "ai",
+      "d_count": 4,
+      "quire20_count": 73,
+      "enrichment_vs_quire20": 1.41,
+      "role": ""
+    },
+    {
+      "radical": "lch",
+      "d_count": 6,
+      "quire20_count": 110,
+      "enrichment_vs_quire20": 1.4,
+      "role": ""
+    },
+    {
+      "radical": "ched",
+      "d_count": 6,
+      "quire20_count": 114,
+      "enrichment_vs_quire20": 1.35,
+      "role": ""
+    },
+    {
+      "radical": "ar",
+      "d_count": 10,
+      "quire20_count": 193,
+      "enrichment_vs_quire20": 1.33,
+      "role": ""
+    },
+    {
+      "radical": "ke",
+      "d_count": 8,
+      "quire20_count": 156,
+      "enrichment_vs_quire20": 1.32,
+      "role": ""
+    },
+    {
+      "radical": "t",
+      "d_count": 38,
+      "quire20_count": 953,
+      "enrichment_vs_quire20": 1.03,
+      "role": ""
+    },
+    {
+      "radical": "r",
+      "d_count": 5,
+      "quire20_count": 145,
+      "enrichment_vs_quire20": 0.89,
+      "role": ""
+    },
+    {
+      "radical": "d",
+      "d_count": 12,
+      "quire20_count": 362,
+      "enrichment_vs_quire20": 0.85,
+      "role": ""
+    },
+    {
+      "radical": "tch",
+      "d_count": 9,
+      "quire20_count": 278,
+      "enrichment_vs_quire20": 0.83,
+      "role": ""
+    },
+    {
+      "radical": "lk",
+      "d_count": 7,
+      "quire20_count": 218,
+      "enrichment_vs_quire20": 0.83,
+      "role": ""
+    },
+    {
+      "radical": "ch",
+      "d_count": 23,
+      "quire20_count": 733,
+      "enrichment_vs_quire20": 0.81,
+      "role": ""
+    },
+    {
+      "radical": "s",
+      "d_count": 4,
+      "quire20_count": 140,
+      "enrichment_vs_quire20": 0.74,
+      "role": ""
+    },
+    {
+      "radical": "kch",
+      "d_count": 5,
+      "quire20_count": 179,
+      "enrichment_vs_quire20": 0.72,
+      "role": ""
+    },
+    {
+      "radical": "l",
+      "d_count": 5,
+      "quire20_count": 178,
+      "enrichment_vs_quire20": 0.72,
+      "role": ""
+    },
+    {
+      "radical": "al",
+      "d_count": 4,
+      "quire20_count": 169,
+      "enrichment_vs_quire20": 0.61,
+      "role": ""
+    }
+  ]
+}

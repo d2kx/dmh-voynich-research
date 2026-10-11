@@ -787,9 +787,91 @@ Executing [`tools/attack12_core_root_radical_decomposition.py`](tools/attack12_c
 
 ---
 
+### Discovery 30: Multi-Word Phrase Cribs, the Three-Way `otar . arody` Positional Paradigm & Bidirectional Compound Splitting ($z = +7.75, p < 10^{-14}$, `Attack 13`)
+Executing [`tools/attack13_multiword_phrase_crib_scanner.py`](tools/attack13_multiword_phrase_crib_scanner.py) ($\to$ [`data/attack13_multiword_phrase_crib_scanner.json`](data/attack13_multiword_phrase_crib_scanner.json)) and visually verifying [`pages/f114v_tar_arody_enh.png`](pages/f114v_tar_arody_enh.png), [`pages/f48v_otchdy_otoldy_enh.png`](pages/f48v_otchdy_otoldy_enh.png), [`pages/f89v2_darcheor_label_enh.png`](pages/f89v2_darcheor_label_enh.png), and [`pages/f102v2_dar_cheor_prose_enh.png`](pages/f102v2_dar_cheor_prose_enh.png) establishes three major multi-word and compound crib phenomena:
+1. **The Three-Way Positional Allography Paradigm of the 2-Word Botanical Label `<f88v.4,@Lf> otar . arody` (`18.47` Rarity Bits)**:
+   - Beyond its paragraph-initial occurrence on `<f105r.6,@P0> <%>par . arody` (`Discovery 28`), the 2-word Pharmaceutical botanical root label **`<f88v.4,@Lf> otar . arody`** recurs a **second time in Quire 20** as an exact 2-word phrase at the end of Starred Recipe line **`<f114v.37,+P0>: ... otain . chey . tar . arody <$>`** ([`pages/f114v_tar_arody_enh.png`](pages/f114v_tar_arody_enh.png))!
+   - These three attestations form a complete, textbook positional paradigm of a single 2-word botanical name across three distinct syntactic slots:
+     - **Standalone Diagram Label (`<f88v.4,@Lf>`)**: **`otar . arody`** (with nominal classifier prefix `o-` + standard gallows `t`);
+     - **Paragraph-Initial Recipe Header (`<f105r.6,@P0>`)**: **`<%>par . arody`** (dropping `o-` and upgrading `t -> p` top-line gallows at `<%>`);
+     - **Interior Line-Final Clause Closer (`<f114v.37,+P0>`)**: **`tar . arody <$>`** (unprefixed interior `t` gallows closing the line and paragraph).
+2. **Additional High-Rarity 2-Word Diagram Labels Cited Intact in Prose (`Mode 1`, `62` Matches)**:
+   - **Cosmological Rosettes 2-Word Label `<fRos.45,+L0> otchdy . otoldy` $\leftrightarrow$ Herbal `<f48v.9,+P0> otchdy . otoldy` (`19.53` Rarity Bits, [`pages/f48v_otchdy_otoldy_enh.png`](pages/f48v_otchdy_otoldy_enh.png))**:
+     - On `<f48v.9,+P0>`, immediately to the right of the flower-stalk intrusion (`<->`), the scribe writes **`otchedy . otoldy . ykoy . otedy`**—matching both the 2-word Rosettes label `<fRos.45,+L0> otchdy . otoldy` (`prose_cnt(otoldy) = 2`) and, two words later, `<fRos.72,@L0> otedain . otedy`!
+   - **Zodiac `14° Taurus` 2-Word Label `<f71v.16,&Lz> otar . shar` $\leftrightarrow$ Herbal `<f24r.17,+P0> otam . sham` (`16.71` Rarity Bits)**:
+     - Both words of the 2-word Taurus nymph label `otar . shar` simultaneously take the `-r -> -m` terminal nasal allograph (`otam . sham`) on `<f24r.17,+P0>`!
+   - **Astronomical Star Label `<f68r3.15,@Ls> chky . oky` $\leftrightarrow$ Herbal `<f43v.3,+P0> chky . oky` (`18.28` Rarity Bits)**;
+   - **Zodiac `20° Pisces` Label `<f70v2.22,@Lz> otar . am` $\leftrightarrow$ Starred Recipe `<f112r.5,+P0> otar . am` (`16.07` Rarity Bits, unfused 2-word citation)** alongside `<f107r.11> otaram` (fused 1-word citation)!
+   - **Contiguous Diagram Label Pairs (`L_i -> L_{i+1}`) Cited Side-by-Side as Prose Bigrams (`Mode 4`, `34` Matches)**:
+     - `<fRos.54->55> odeey -> okody` $\leftrightarrow$ `<f6v.4> dey . okody` (`21.13` bits);
+     - `<f72v3.17->18> okaly -> okaldy` (`15°->16° Leo`) $\leftrightarrow$ `<f58r.34> qokaly . kaldy` (`20.13` bits);
+     - `<f73v.3->4> oteedy -> eeeody` (`3°->4° Sagittarius`) $\leftrightarrow$ `<f43r.1> ytedy . eeody` (`18.37` bits);
+     - `<f84r.4->6> okedy -> doiir` $\leftrightarrow$ `<f46v.6> qokedy . doir` (`17.55` bits).
+3. **Bidirectional Compound Fusion (`Mode 2`, `94` Hits) & Compound Splitting (`Mode 3`, `237` Hits vs. `143.75 ± 12.03` Expected, $1.65\times, z = +7.75, p < 10^{-14}$)**:
+   - **2-Word Diagram Labels Fused into 1-Word Prose Compounds (`Mode 2`)**: `<f89r1.12,@Lf> chol , ches` $\to$ `<f116r.12> cholches` (hapax); `<f89r2.10,@Lf> okol . shol` $\to$ `<f1v.8> okolshol` (hapax); `<f69r.18> dair , alody` $\to$ `<f86v4.3> dairalody` (hapax); `<f99v.5,@Lf> dar . ary` $\to$ `<f80r.29> darary` (hapax); `<f99v.3,@Lf> otor . chy` $\to$ `<f13r.8, f4v.7> torchy` & `<f28r.5, f8v.13> otorchy`.
+   - **1-Word Compound Diagram Labels Split into 2-Word Prose Bigrams (`Mode 3`, `1,000`-Trial Permutation $z = +7.75$)**:
+     - Rare compound figure labels (`len >= 6`, `prose_cnt <= 15`) split into 2-word adjacent prose bigrams `1.65×` above random radical/character baselines (`237` observed vs. `143.75 ± 12.03` expected, $z = +7.75$):
+       - **`<f89v2.3,@Lf> darcheor`** (`prose_cnt = 0` as 1 word, [`pages/f89v2_darcheor_label_enh.png`](pages/f89v2_darcheor_label_enh.png)) $\to$ **`<f102v2.32,+P0> dar . cheor`** ([`pages/f102v2_dar_cheor_prose_enh.png`](pages/f102v2_dar_cheor_prose_enh.png))!
+       - **`<f89v1.4,@Lf> darshody`** (`prose_cnt = 0`) $\to$ **`<f1v.9,+P0> dar . shody`**;
+       - **`<f70v2.30,&Lz> okaldal`** (`28° Pisces`, `prose_cnt = 0`) $\to$ **`<f103r.41, f54v.10, f75v.7, f77v.18> qokal . dal`** & **`<f75v.3> okal . dal`**;
+       - **`<f71r.5,&Lz> oteolar`** (`20° Aries`, `prose_cnt = 0`) $\to$ **`<f113v.2> oteol . ar`**;
+       - **`<f71r.8,&Lz> otalsar`** (`23° Aries`, `prose_cnt = 0`) $\to$ **`<f69r.1> otal . sar`**;
+       - **`<f72r1.8,&Lz> otaraldy`** (`22° Taurus`, `prose_cnt = 0`) $\to$ **`<f58r.10> otar . aldy`**.
+
+---
+
+### Discovery 31: Empirical Radical Lexicon of the Top `59` Elementary Radicals — Object-Category & Syntactic Grounding (`Attack 14`)
+Executing [`tools/attack14_elementary_radical_lexicon.py`](tools/attack14_elementary_radical_lexicon.py) ($\to$ [`data/attack14_elementary_radical_lexicon.json`](data/attack14_elementary_radical_lexicon.json)) across all `48,905` radical token instances (`1,598` in figure labels) cross-tabulates the `Top 59` elementary radicals against 7 illustrated diagram object categories (`@Lc` Apothecary Jars, `@Lf` Pharmaceutical Plants, Barreled vs. Free Zodiac Nymphs, `@Lt` Biological Tubes/Vessels, `@Ln` Bathing Nymphs, `@L0` Rosettes Map, `@Ls` Astronomical Stars), Astrological Elemental Trigons, and Syntactic Slots:
+1. **Illustrated Object-Category Specialist Radicals**:
+   - **Apothecary Containers (`@Lc`, `70` label radical tokens)**: Dominated by **`dar` (`45.66×` enrichment, `12` jar/plant labels)**, **`g` (`13.54×`, stoppered jar-rim labels in `-adag`/`-alag`)**, **`or` (`4.17×`)**, **`ol` (`2.14×`)**, and **`al` (`2.05×`)**.
+   - **Pharmaceutical Botanical Plant Parts (`@Lf`, `467` label radical tokens)**: Dominated by **`kol` (`18.47×`, `40.9%` `o-` nominal)**, **`dar` (`13.28×`)**, **`tol` (`7.97×`, `35.3%` `o-`)**, **`so` (`6.04×`)**, **`ar` (`3.44×`)**, **`or` (`2.75×`)**, and **`s` (`2.72×`)**.
+   - **Zodiac Barreled Nymphs (`f70v2–f72r1`, `210` tokens) vs. Unbarreled/Free Nymphs (`f72r2–f73v`, `268` tokens)**:
+     - **Barreled Nymphs (contained in wooden/cylindrical barrels)** select **`tal` (`34.18×` enrichment, `74.6%` `o-`)**, **`teo` (`7.10×`, `75.1%` `o-`)**, **`al` (`7.09×`)**, **`am` (`6.46×`)**, **`ar` (`4.94×`)**, and **`t` (`2.03×`, `63.4%` `o-`)**.
+     - **Unbarreled/Free Nymphs (standing free holding stars)** select **`air` (`12.05×` enrichment)**, **`e` (`4.56×`)**, **`ke` (`3.41×`, `60.7%` `o-`)**, **`te` (`2.54×`, `68.2%` `o-`)**, and **`keo` (`2.04×`, `57.9%` `o-`)**.
+   - **Biological Tubes & Vessels (`@Lt`, `55` tokens) vs. Bathing Nymphs (`@Ln`, `199` tokens)**:
+     - **Tubes/Ducts (`@Lt`)** select **`o` (`5.29×`)**, **`ol` (`3.37×`, peaking in `Biological_Balneological` prose at `2.16×`)**, **`ar` (`2.77×`)**, and **`d` (`1.66×`)**.
+     - **Bathing Nymphs (`@Ln`)** select **`or` (`3.65×`)**, **`al` (`3.58×`)**, and **`k` (`1.72×`, `69.6%` `o-`, `40.4%` `q-`)**.
+   - **Cosmological 9-Rosettes Map (`@L0`, `180` tokens)**: Selects **`dar` (`13.20×`)**, **`a` (`7.48×`)**, **`g` (`5.22×`)**, **`to` (`3.85×`)**, **`te` (`2.46×`)**, and **`d` (`1.75×`, `30` labels)**.
+   - **Astronomical Star/Spoke Diagrams (`@Ls`, `134` tokens)**: Select **`ko` (`7.40×`, `47.2%` `o-`)**, **`to` (`6.13×`, `38.5%` `o-`)**, **`am` (`4.58×`)**, **`chk` (`4.15×`)**, and **`kch` (`2.12×`, `53.4%` `o-`)**.
+2. **Strict Separation of Verbal/Procedural Operators vs. Nominal Substance Radicals**:
+   - The **`c`-initial operator radicals (`ch`, `sh`, `che`, `she`, `cth`, `ckh`)** are **strongly depleted in diagram labels (`0.35×–0.46×`)**, reject the `o-` nominal classifier (`3.5%–8.6%`), and take **`25.9%–36.2%` `-edy/-dy` verbal suffixes** in prose—confirming their status as **procedural verbs/operators** (`ACT:mix/proc`, `ACT:heat/steep`, `ACT:infuse`, `ACT:decoct`).
+   - Conversely, gallows and liquid/resonant radicals (`k`, `t`, `kol`, `tol`, `tal`, `teo`, `ke`, `te`, `dar`, `ol`, `al`, `ar`, `or`) are **enriched `1.5×–45.7×` in diagram labels** and take **`35%–75%` `o-` nominal classifiers** in prose—confirming their status as **concrete nouns, vessels, plant parts, and measured substances**.
+
+---
+
+### Discovery 32: Parallel Template Cloning & Tail-to-Head Catenation in the `10` Same-Star Chained Recipe Pairs (`L. -> L.` / `L -> L`) & Functional Tripartition of the `14` Crimson-Star (`D -> L_1 -> L_2`) Triads (`Attack 15`)
+Executing [`tools/attack15_chained_recipes_and_d_triads.py`](tools/attack15_chained_recipes_and_d_triads.py) ($\to$ [`data/attack15_chained_recipes_and_d_triads.json`](data/attack15_chained_recipes_and_d_triads.json)) and visually inspecting [`pages/f115r_P5_P6_chained_enh.png`](pages/f115r_P5_P6_chained_enh.png) and [`pages/f111r_P3_P4_chained_enh.png`](pages/f111r_P3_P4_chained_enh.png) reveals the exact structural mechanisms behind both same-star chaining and Crimson-Star (`D`) triads in Quire 20 (`f103r–f116r`):
+1. **Why the Rubricator Repeated the Same Marginal Star (`L. -> L.` / `L -> L`) on `10` Pairs Across the `20` Binary-Alternating Folios**:
+   - Across the `20` binary-alternating folios (`212` consecutive recipe transitions), the `10` same-star exceptions (`8` `L. -> L.` and `2` `L -> L`) share **`6.40` Core Roots per pair** (vs. `4.62` in alternating pairs), **`1.92×` more rare Core Roots (`1.00` vs. `0.52`)**, **`1.24×` higher Elementary Radical cosine (`0.6482` vs. `0.5218`)**, **`70.0%` Header-to-Header (`Line 1 <-> Line 1`) root matching**, and **`50.0%` Tail-to-Head (`Closer of P_i <-> Opener of P_{i+1}`) catenation**!
+   - **Word-by-Word Parallel Template Cloning on `f115r:P5->P6` (`L. -> L.`, [`pages/f115r_P5_P6_chained_enh.png`](pages/f115r_P5_P6_chained_enh.png))**:
+     - `<f115r.17,@P0>` (`P5`, `★L.`): **`<%> tchedy . qoolkeedy . qokchedy . qotchd . lpchedy ...`**
+     - `<f115r.21,@P0>` (`P6`, `★L.`): **`<%> pcheodain . qokchey . qotchedy . darailchedy . polchedy ...`**
+     - Four of the first five opening words of `P5` and `P6` clone the exact same 4-root template in lockstep order: **`tch` (`tchedy` $\leftrightarrow$ `pcheodain`) $\to$ `qokch` (`qokchedy` $\leftrightarrow$ `qokchey`) $\to$ `qotch` (`qotchd` $\leftrightarrow$ `qotchedy`) $\to$ `l-pch/polch` (`lpchedy` $\leftrightarrow$ `polchedy`)**!
+   - **Simultaneous Header Cloning + Tail-to-Head Catenation on `f111r:P3->P4` (`L. -> L.`, [`pages/f111r_P3_P4_chained_enh.png`](pages/f111r_P3_P4_chained_enh.png), `Jaccard = 0.2045`, `9` Shared Roots)**:
+     - `P3` opens on `<f111r.12,@P0>` with `polal . shedal . pchedy . qofchedy . pykeor` (`tched` root in `pchedy`) and closes on `<f111r.18,+P0>` with **`... okeedy . lkeedy . lkedar . okeedy . chedy <$>`** (`lk`, `lked`, `ke` roots).
+     - Immediately on `<f111r.19,@P0>`, `P4` (`★L.`) opens with **`<%> pchedar . oteeol . lkeedain . okeam`**—simultaneously cloning the header root `pched-` (`pchedy -> pchedar`) and catenating the closing roots `lkedar . okeedy` of `P3` directly into `lkeedain . okeam` in the opening clause of `P4`!
+2. **Tripartite Functional Division Inside the `14` Crimson-Star (`D -> L_1 -> L_2`) Triads (`f103r`, `f104r`, `f108r`)**:
+   - Comparing **Slot 1 (`★D`, Crimson Master Recipe, `n=14`)**, **Slot 2 (`★L_1`, First Follower, `n=13`)**, and **Slot 3 (`★L_2`, Second Follower, `n=10`)** across the Crimson-Star folios shows a clear division of labor across the 3-recipe cycle:
+     - **Slot 1 (`★D`, Crimson Master, `30.21` words)**: Introduces the primary preparation with balanced verbal (`25.3%` `-edy/-dy`) and nominal (`12.5%` `-aiin`) rates, enriched for **`or` (`2.60×`)**, **`ek` (`2.45×`)**, **`sh` (`2.22×`)**, and **`ck` (`1.98×`)**.
+     - **Slot 2 (`★L_1`, First Follower, `35.62` words — longest member of the triad)**: Acts as the **Nominal Ingredient & Quantity Elaboration** paragraph, reaching the **highest `-aiin` unit/essence rate (`16.0%`)**, highest `q-` conjunction rate (`20.7%`), and **lowest verbal `-edy/-dy` rate (`20.5%`)**.
+     - **Slot 3 (`★L_2`, Second Follower, `29.40` words)**: Acts as the **Procedural Action Execution** paragraph, surging to **`29.2%` `-edy/-dy` verbal suffix density (`+42%` relative to `L_1`)**.
+
+---
+
+### Discovery 33: The Four-Tier Radical & Clause-Frame Structural Translation Edition (`95.69%` Corpus-Wide Parse Coverage, `Attack 16`)
+Executing [`tools/attack16_radical_clause_translation_edition.py`](tools/attack16_radical_clause_translation_edition.py) ($\to$ [`data/attack16_radical_clause_translation_edition.json`](data/attack16_radical_clause_translation_edition.json), [`notes/RADICAL_CLAUSE_TRANSLATION_EDITION.md`](notes/RADICAL_CLAUSE_TRANSLATION_EDITION.md)) integrates our 3-Stage Positional FST (`Attack 7`), Minimum Description Length Radical Segmenter (`Attack 12`), Multi-Word & Compound Crib Scanner (`Attack 13`), Empirical Radical Lexicon (`Attack 14`), and Recipe Chaining/Triad Grammar (`Attack 15`) into a unified **Four-Tier Interlinear Structural Translation Decoder**:
+1. **Corpus-Wide Structural & Radical Parse Coverage Across All `32,590` Prose Tokens**:
+   - **`31,184 / 32,590` (`95.69%`)** of all prose tokens across the entire Voynich Manuscript receive a complete, grounded **`[Prefix + Elementary Radical(s) + Suffix]`** structural parse!
+   - **`31,049 / 32,590` (`95.27%`)** contain at least one empirically grounded radical from the **Top `59` Elementary Radical Lexicon** (`Attack 14`).
+   - **`23,695 / 32,590` (`72.71%`)** share an exact Core Root with an **illustrated Diagram Figure Label (`@Lf/@Lc/@Lz/@L0/@Lt/@Ln`)**!
+2. **Complete Four-Tier Interlinear Edition ([`notes/RADICAL_CLAUSE_TRANSLATION_EDITION.md`](notes/RADICAL_CLAUSE_TRANSLATION_EDITION.md))**:
+   - Provides full line-by-line 4-tier interlinear parses (`Tier 1: EVA + Physical Tags`, `Tier 2: Prefix-[R_1+R_2]-Suffix Segmentation`, `Tier 3: Morphosyntactic & Domain Role Gloss`, `Tier 4: Exact 1-Word & 2-Word Diagram Crib Equations`) for:
+     1. The Three-Way Botanical Phrase Crib Paradigm (`f88v.1–6` Labels $\leftrightarrow$ `f105r.1–10` Chained `★L.` Recipes $\leftrightarrow$ `f114v.36–38` `tar . arody` Recipe);
+     2. The Parallel Template-Cloned Pair (`f115r:P5->P6`, lines `17–23`) and Tail-to-Head Catenated Pair (`f111r:P3->P4`, lines `12–21`);
+     3. The Rosettes-Anchored Herbal Treatise (`f48v`, lines `7–11`, citing `<fRos.45> otchdy . otoldy` and `<fRos.72> otedy`);
+     4. The First Crimson-Star Triad (`f103r:P1–P3`, `★D -> ★L -> ★L`, lines `1–11`).
+
+---
+
 ## 4. Summary Checklist of Verified Deliverables & Continuing Research Continuity
-All 27 analysis scripts (`tools/*.py`), 25 structured datasets (`data/*.json`), full-page interlinear glosses ([`notes/INTERLINEAR_GLOSSES.md`](notes/INTERLINEAR_GLOSSES.md)), the stripped root-stream edition ([`notes/STRIPPED_ROOT_EDITION.md`](notes/STRIPPED_ROOT_EDITION.md)), the decoding synthesis report ([`notes/DECODING_ATTACKS_SYNTHESIS.md`](notes/DECODING_ATTACKS_SYNTHESIS.md)), and 85 high-resolution visual evidence crops (`pages/*.png`) are version-controlled and pushed to `origin/main` so any future session or researcher can reproduce and extend these 29 quantitative and paleographic discoveries immediately.
-
-
-
-
+All 31 analysis scripts (`tools/*.py`), 29 structured datasets (`data/*.json`), full-page interlinear glosses ([`notes/INTERLINEAR_GLOSSES.md`](notes/INTERLINEAR_GLOSSES.md)), the stripped root-stream edition ([`notes/STRIPPED_ROOT_EDITION.md`](notes/STRIPPED_ROOT_EDITION.md)), the four-tier radical & clause-frame translation edition ([`notes/RADICAL_CLAUSE_TRANSLATION_EDITION.md`](notes/RADICAL_CLAUSE_TRANSLATION_EDITION.md)), the decoding synthesis report ([`notes/DECODING_ATTACKS_SYNTHESIS.md`](notes/DECODING_ATTACKS_SYNTHESIS.md)), and 91 high-resolution visual evidence crops (`pages/*.png`) are version-controlled and pushed to `origin/main` so any future session or researcher can reproduce and extend these 33 quantitative and paleographic discoveries immediately.

@@ -1,0 +1,4612 @@
+{
+  "summary": {
+    "total_prose_lines": 4529,
+    "total_label_lines": 847,
+    "single_locus_multiword_label_pairs": 154,
+    "contiguous_adjacent_label_pairs": 781,
+    "mode1_adjacent_or_bridged_phrase_hits": 62,
+    "mode1_paragraph_opener_hits": 1,
+    "mode2_fused_compound_hits": 94,
+    "mode3_split_compound_hits": 237,
+    "mode4_same_line_pair_hits": 123
+  },
+  "mode3_split_compound_permutation_test": {
+    "observed_hits": 237,
+    "null_mean": 143.75,
+    "null_std": 12.033,
+    "enrichment_ratio": 1.649,
+    "z_score": 7.75,
+    "p_value": 0.0
+  },
+  "mode1_paragraph_opener_hits": [
+    {
+      "prose_folio": "f105r",
+      "prose_loc": "f105r.6",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": true,
+      "is_line_start": true,
+      "word_pos": 0,
+      "gap": 1,
+      "prose_words": "par . arody",
+      "prose_line_text": "par . arody . shedeeey . qopchedy . qody . qoteody . aiin . yteody . qokor . olpshedy",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "tar",
+        "arody"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f88v",
+      "label_loc": "f88v.4",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "otar . arody",
+      "t1_counts_in_prose": [
+        261,
+        10
+      ],
+      "t2_counts_in_prose": [
+        342,
+        10
+      ],
+      "joint_rarity_bits": 18.47
+    }
+  ],
+  "mode1_top_phrase_matches": [
+    {
+      "prose_folio": "f48v",
+      "prose_loc": "f48v.9",
+      "prose_sec": "H",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 8,
+      "gap": 1,
+      "prose_words": "otchdy . otoldy",
+      "prose_line_text": "tor . shody . okal . otchedy . cheky . oly . loldy . lol . otchdy . otoldy . ytam . otedy",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tchdy",
+        "toldy"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "fRos",
+      "label_loc": "fRos.45",
+      "label_domain": "Rosettes_Cosmo",
+      "label_words": "otchdy . otoldy",
+      "t1_counts_in_prose": [
+        83,
+        6
+      ],
+      "t2_counts_in_prose": [
+        117,
+        14
+      ],
+      "joint_rarity_bits": 19.53
+    },
+    {
+      "prose_folio": "f105r",
+      "prose_loc": "f105r.6",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": true,
+      "is_line_start": true,
+      "word_pos": 0,
+      "gap": 1,
+      "prose_words": "par . arody",
+      "prose_line_text": "par . arody . shedeeey . qopchedy . qody . qoteody . aiin . yteody . qokor . olpshedy",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "tar",
+        "arody"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f88v",
+      "label_loc": "f88v.4",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "otar . arody",
+      "t1_counts_in_prose": [
+        261,
+        10
+      ],
+      "t2_counts_in_prose": [
+        342,
+        10
+      ],
+      "joint_rarity_bits": 18.47
+    },
+    {
+      "prose_folio": "f114v",
+      "prose_loc": "f114v.37",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 8,
+      "gap": 1,
+      "prose_words": "tar . arody",
+      "prose_line_text": "dcheey . ol . cheodaiiin . qokar . otaiin . otal . okaiin . chey . tar . arody",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "tar",
+        "arody"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f88v",
+      "label_loc": "f88v.4",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "otar . arody",
+      "t1_counts_in_prose": [
+        261,
+        10
+      ],
+      "t2_counts_in_prose": [
+        342,
+        10
+      ],
+      "joint_rarity_bits": 18.47
+    },
+    {
+      "prose_folio": "f43v",
+      "prose_loc": "f43v.3",
+      "prose_sec": "H",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 4,
+      "gap": 1,
+      "prose_words": "chky . oky",
+      "prose_line_text": "tody . teedy . qot . chocthy . chky . oky . chdy . okedy . ykaiin . chey . ody . dary",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "chky",
+        "ky"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f68r3",
+      "label_loc": "f68r3.15",
+      "label_domain": "Astronomical",
+      "label_words": "chky . oky",
+      "t1_counts_in_prose": [
+        14,
+        231
+      ],
+      "t2_counts_in_prose": [
+        15,
+        260
+      ],
+      "joint_rarity_bits": 18.28
+    },
+    {
+      "prose_folio": "f58v",
+      "prose_loc": "f58v.6",
+      "prose_sec": "S",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 1,
+      "gap": 1,
+      "prose_words": "ar . aly",
+      "prose_line_text": "qokair . ar . aly . shor . daiin . choly . dal . ykaiin . org . fchey . okaly . oky",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "ar",
+        "aly"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f71v",
+      "label_loc": "f71v.9",
+      "label_domain": "Zodiac",
+      "label_words": "ar . aly",
+      "t1_counts_in_prose": [
+        268,
+        13
+      ],
+      "t2_counts_in_prose": [
+        295,
+        14
+      ],
+      "joint_rarity_bits": 18.2
+    },
+    {
+      "prose_folio": "f24r",
+      "prose_loc": "f24r.17",
+      "prose_sec": "H",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 1,
+      "gap": 1,
+      "prose_words": "otam . sham",
+      "prose_line_text": "sshey . otam . sham . cthoj . oky",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tar",
+        "shar"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f71v",
+      "label_loc": "f71v.16",
+      "label_domain": "Zodiac",
+      "label_words": "otar . shar",
+      "t1_counts_in_prose": [
+        261,
+        32
+      ],
+      "t2_counts_in_prose": [
+        342,
+        34
+      ],
+      "joint_rarity_bits": 16.71
+    },
+    {
+      "prose_folio": "f5r",
+      "prose_loc": "f5r.5",
+      "prose_sec": "H",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 5,
+      "gap": 1,
+      "prose_words": "qotcheo . daiin",
+      "prose_line_text": "tchy . shody . qoaiin . cholols . sho . qotcheo . daiin . shodaiin",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tcheo",
+        "dain"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f66r",
+      "label_loc": "f66r.82",
+      "label_domain": "Other_T",
+      "label_words": "otcheo . daiin",
+      "t1_counts_in_prose": [
+        6,
+        1002
+      ],
+      "t2_counts_in_prose": [
+        11,
+        1142
+      ],
+      "joint_rarity_bits": 16.59
+    },
+    {
+      "prose_folio": "f114v",
+      "prose_loc": "f114v.3",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 1,
+      "gap": 1,
+      "prose_words": "qotcheo . odain",
+      "prose_line_text": "oeos . qotcheo . odain . qotain . otar . qotchd . dol . qotchedy . choty . ol . lchdaiin . dal",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "tcheo",
+        "dain"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f66r",
+      "label_loc": "f66r.82",
+      "label_domain": "Other_T",
+      "label_words": "otcheo . daiin",
+      "t1_counts_in_prose": [
+        6,
+        1002
+      ],
+      "t2_counts_in_prose": [
+        11,
+        1142
+      ],
+      "joint_rarity_bits": 16.59
+    },
+    {
+      "prose_folio": "f86v4",
+      "prose_loc": "f86v4.2",
+      "prose_sec": "C",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 3,
+      "gap": 1,
+      "prose_words": "otedaiin . otedy",
+      "prose_line_text": "oeeey . o . daiin . otedaiin . otedy . oteey . chedaiin . octhedy . chy . shedaiin . chotaiin . oraiin . otodeee . ar . yteeody . oteedaraiin . shedaiin . chdar . shedy . qotedaiin . chedy . tchdy . chetdy . chedy . qotar . chedy . chckhy . daiin . otedy . seeedy . yteey . sam",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tedain",
+        "tedy"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "fRos",
+      "label_loc": "fRos.72",
+      "label_domain": "Rosettes_Cosmo",
+      "label_words": "otedain . otedy",
+      "t1_counts_in_prose": [
+        18,
+        424
+      ],
+      "t2_counts_in_prose": [
+        25,
+        525
+      ],
+      "joint_rarity_bits": 16.53
+    },
+    {
+      "prose_folio": "f21v",
+      "prose_loc": "f21v.4",
+      "prose_sec": "H",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 5,
+      "gap": 1,
+      "prose_words": "daiin . chty",
+      "prose_line_text": "sho . chodaiin . choty . chol . daiin . daiin . chty . chtol",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "dain",
+        "chty"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f66r",
+      "label_loc": "f66r.82",
+      "label_domain": "Other_T",
+      "label_words": "daiin . chty",
+      "t1_counts_in_prose": [
+        1002,
+        12
+      ],
+      "t2_counts_in_prose": [
+        1142,
+        13
+      ],
+      "joint_rarity_bits": 16.35
+    },
+    {
+      "prose_folio": "f112r",
+      "prose_loc": "f112r.5",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 4,
+      "gap": 1,
+      "prose_words": "otar . am",
+      "prose_line_text": "otairokody . otody . otal . okeeey . otar . am . oainoy",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tar",
+        "am"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f70v2",
+      "label_loc": "f70v2.22",
+      "label_domain": "Zodiac",
+      "label_words": "otar . am",
+      "t1_counts_in_prose": [
+        261,
+        53
+      ],
+      "t2_counts_in_prose": [
+        342,
+        53
+      ],
+      "joint_rarity_bits": 16.07
+    },
+    {
+      "prose_folio": "f6v",
+      "prose_loc": "f6v.4",
+      "prose_sec": "H",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 7,
+      "gap": 1,
+      "prose_words": "dey . okody",
+      "prose_line_text": "yshckhy . ytchoy . s . os . y . jajy . dchy . dey . okody . ytody",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "dey",
+        "kody"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "fRos",
+      "label_loc": "fRos.54->fRos.55",
+      "label_domain": "Rosettes_Cosmo",
+      "label_words": "odeey . okody",
+      "t1_counts_in_prose": [
+        7,
+        22
+      ],
+      "t2_counts_in_prose": [
+        18,
+        30
+      ],
+      "joint_rarity_bits": 21.13
+    },
+    {
+      "prose_folio": "f58r",
+      "prose_loc": "f58r.34",
+      "prose_sec": "S",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 4,
+      "gap": 1,
+      "prose_words": "qokaly . kaldy",
+      "prose_line_text": "yssheol . chokey . dalol . shokalol . qokaly . kaldy . ytaipom",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "kaly",
+        "kaldy"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "f72v3",
+      "label_loc": "f72v3.17->f72v3.18",
+      "label_domain": "Zodiac",
+      "label_words": "okaly . okaldy",
+      "t1_counts_in_prose": [
+        37,
+        20
+      ],
+      "t2_counts_in_prose": [
+        45,
+        24
+      ],
+      "joint_rarity_bits": 20.13
+    },
+    {
+      "prose_folio": "f43r",
+      "prose_loc": "f43r.1",
+      "prose_sec": "H",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 1,
+      "gap": 1,
+      "prose_words": "ytedy . eeody",
+      "prose_line_text": "tarodaiin . ytedy . eeody . ofchtar . chcphedy . ypar . shol . folor . aiin . cphey . dar",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "tedy",
+        "eody"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "f73v",
+      "label_loc": "f73v.3->f73v.4",
+      "label_domain": "Zodiac",
+      "label_words": "oteedy . eeeody",
+      "t1_counts_in_prose": [
+        424,
+        2
+      ],
+      "t2_counts_in_prose": [
+        525,
+        7
+      ],
+      "joint_rarity_bits": 18.37
+    },
+    {
+      "prose_folio": "f28r",
+      "prose_loc": "f28r.1",
+      "prose_sec": "H",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 6,
+      "gap": 1,
+      "prose_words": "chy . qoldy",
+      "prose_line_text": "pchodar . shod . chocphy . opchol . daiin . otchol . chy . qoldy",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "chy",
+        "oldy"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "f99v",
+      "label_loc": "f99v.3->f99v.4",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "chy . oldy",
+      "t1_counts_in_prose": [
+        150,
+        29
+      ],
+      "t2_counts_in_prose": [
+        160,
+        29
+      ],
+      "joint_rarity_bits": 18.03
+    },
+    {
+      "prose_folio": "f55r",
+      "prose_loc": "f55r.3",
+      "prose_sec": "H",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 3,
+      "gap": 1,
+      "prose_words": "okar . chky",
+      "prose_line_text": "ykaiir . chol . chky . okar . chky . chdy . qokar . okaiin . chckhy . s . aiin",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "kar",
+        "chky"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "f67r2",
+      "label_loc": "f67r2.10->f67r2.11",
+      "label_domain": "Astronomical",
+      "label_words": "okar . chky",
+      "t1_counts_in_prose": [
+        332,
+        14
+      ],
+      "t2_counts_in_prose": [
+        419,
+        15
+      ],
+      "joint_rarity_bits": 17.59
+    },
+    {
+      "prose_folio": "f104r",
+      "prose_loc": "f104r.14",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 2,
+      "gap": 1,
+      "prose_words": "qokechy . qotal",
+      "prose_line_text": "daiin . choaiin . qokechy . qotal . cheolor . saiin . olkeechey . otal . oloeeal",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "kechy",
+        "tal"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "f99v",
+      "label_loc": "f99v.26->f99v.27",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "okechy . otal",
+      "t1_counts_in_prose": [
+        26,
+        177
+      ],
+      "t2_counts_in_prose": [
+        31,
+        205
+      ],
+      "joint_rarity_bits": 17.58
+    },
+    {
+      "prose_folio": "f46v",
+      "prose_loc": "f46v.6",
+      "prose_sec": "H",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 7,
+      "gap": 1,
+      "prose_words": "qokedy . doir",
+      "prose_line_text": "tor . aiirchar . shedy . olaiin . qotedy . sheedy . qokaldy . qokedy . doir . chody . cthey . m",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "kedy",
+        "doir"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "f84r",
+      "label_loc": "f84r.4->f84r.6",
+      "label_domain": "Bio_Nymph_Tube",
+      "label_words": "okedy . doiir",
+      "t1_counts_in_prose": [
+        810,
+        7
+      ],
+      "t2_counts_in_prose": [
+        926,
+        7
+      ],
+      "joint_rarity_bits": 17.55
+    },
+    {
+      "prose_folio": "f58v",
+      "prose_loc": "f58v.28",
+      "prose_sec": "S",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 2,
+      "gap": 1,
+      "prose_words": "okal . otaly",
+      "prose_line_text": "ycheockhy . okey . okal . otaly . okaldy . okeor . sheey",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "kal",
+        "taly"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "f72v1",
+      "label_loc": "f72v1.16->f72v1.17",
+      "label_domain": "Zodiac",
+      "label_words": "okal . ytaly",
+      "t1_counts_in_prose": [
+        319,
+        3
+      ],
+      "t2_counts_in_prose": [
+        347,
+        23
+      ],
+      "joint_rarity_bits": 17.25
+    },
+    {
+      "prose_folio": "f58v",
+      "prose_loc": "f58v.10",
+      "prose_sec": "S",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 7,
+      "gap": 1,
+      "prose_words": "okal . okaldy",
+      "prose_line_text": "ykair . shey . key . ctholy . qotalom . qokals . qokaiin . okal . okaldy . ory",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "kal",
+        "kaldy"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "f82r",
+      "label_loc": "f82r.36->f82r.37",
+      "label_domain": "Bio_Nymph_Tube",
+      "label_words": "okal . okaldy",
+      "t1_counts_in_prose": [
+        319,
+        20
+      ],
+      "t2_counts_in_prose": [
+        347,
+        24
+      ],
+      "joint_rarity_bits": 17.19
+    },
+    {
+      "prose_folio": "f69v",
+      "prose_loc": "f69v.1",
+      "prose_sec": "C",
+      "prose_lang": "Unknown",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 6,
+      "gap": 1,
+      "prose_words": "okeeos . otey",
+      "prose_line_text": "dair . cheyky . otaza . sararchykar . okoirshar . chetody . okeeos . otey . otokeeey . okeeody . okeey . doiir . teeo . y . chey . ot . y . okedy . chsdy . okeod . y . dy . choaiin . okar . okar . chol . chees . yto . odair . oty . oteeo . dar . oeykeody . dchor . char",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "keos",
+        "tey"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "f73r",
+      "label_loc": "f73r.20->f73r.21",
+      "label_domain": "Zodiac",
+      "label_words": "okeos . otey",
+      "t1_counts_in_prose": [
+        24,
+        267
+      ],
+      "t2_counts_in_prose": [
+        35,
+        338
+      ],
+      "joint_rarity_bits": 16.68
+    },
+    {
+      "prose_folio": "f58v",
+      "prose_loc": "f58v.5",
+      "prose_sec": "S",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 6,
+      "gap": 1,
+      "prose_words": "okal . qokaly",
+      "prose_line_text": "faiir . ofasar . qotaiin . sholy . qotaiin . yqokaly . okal . qokaly . okaly",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "kal",
+        "kaly"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "f72r2",
+      "label_loc": "f72r2.9->f72r2.10",
+      "label_domain": "Zodiac",
+      "label_words": "okal . okaly",
+      "t1_counts_in_prose": [
+        319,
+        37
+      ],
+      "t2_counts_in_prose": [
+        347,
+        45
+      ],
+      "joint_rarity_bits": 16.28
+    },
+    {
+      "prose_folio": "f58v",
+      "prose_loc": "f58v.16",
+      "prose_sec": "S",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 2,
+      "gap": 1,
+      "prose_words": "okaly . qokal",
+      "prose_line_text": "ykam . qokair . okaly . qokal . chaly . cheockhey . olaly . taldaral",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "kaly",
+        "kal"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "f72r2",
+      "label_loc": "f72r2.10->f72r2.11",
+      "label_domain": "Zodiac",
+      "label_words": "okaly . okal",
+      "t1_counts_in_prose": [
+        37,
+        319
+      ],
+      "t2_counts_in_prose": [
+        45,
+        347
+      ],
+      "joint_rarity_bits": 16.28
+    },
+    {
+      "prose_folio": "f84v",
+      "prose_loc": "f84v.3",
+      "prose_sec": "B",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 3,
+      "gap": 1,
+      "prose_words": "qotedy . otedar",
+      "prose_line_text": "kor . shedy . otedy . qotedy . otedar . cfhdarol",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "tedy",
+        "tedar"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "fRos",
+      "label_loc": "fRos.72->fRos.73",
+      "label_domain": "Rosettes_Cosmo",
+      "label_words": "otedy . ytedar",
+      "t1_counts_in_prose": [
+        424,
+        3
+      ],
+      "t2_counts_in_prose": [
+        525,
+        35
+      ],
+      "joint_rarity_bits": 16.05
+    },
+    {
+      "prose_folio": "f111r",
+      "prose_loc": "f111r.14",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 6,
+      "gap": 1,
+      "prose_words": "oteedy . tedam",
+      "prose_line_text": "dchedar . oteey . lchey . ykeeeos . aiin . shear . oteedy . tedam . oteey . pchedey . chedy . lchedy",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "tedy",
+        "tedar"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "fRos",
+      "label_loc": "fRos.72->fRos.73",
+      "label_domain": "Rosettes_Cosmo",
+      "label_words": "otedy . ytedar",
+      "t1_counts_in_prose": [
+        424,
+        3
+      ],
+      "t2_counts_in_prose": [
+        525,
+        35
+      ],
+      "joint_rarity_bits": 16.05
+    },
+    {
+      "prose_folio": "f115v",
+      "prose_loc": "f115v.22",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 4,
+      "gap": 1,
+      "prose_words": "otedain . qokeedy",
+      "prose_line_text": "soiin . shedain . qokeedy . chodain . otedain . qokeedy . qokeedy . qotedy . rosy",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tedain",
+        "kedy"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "fRos",
+      "label_loc": "fRos.103->fRos.104",
+      "label_domain": "Rosettes_Cosmo",
+      "label_words": "otedaiin . okedy",
+      "t1_counts_in_prose": [
+        18,
+        810
+      ],
+      "t2_counts_in_prose": [
+        25,
+        926
+      ],
+      "joint_rarity_bits": 15.71
+    },
+    {
+      "prose_folio": "f104r",
+      "prose_loc": "f104r.10",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 4,
+      "gap": 2,
+      "prose_words": "os . l . air",
+      "prose_line_text": "tol . chedal . cheoy . otyd . os . l . air . shdy . qokchd . octheody . cholfor . otalr",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "os",
+        "air"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.15",
+      "label_domain": "Astronomical",
+      "label_words": "os . air",
+      "t1_counts_in_prose": [
+        26,
+        65
+      ],
+      "t2_counts_in_prose": [
+        26,
+        81
+      ],
+      "joint_rarity_bits": 19.17
+    },
+    {
+      "prose_folio": "f116r",
+      "prose_loc": "f116r.19",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 4,
+      "gap": 2,
+      "prose_words": "qotar . ar . arody",
+      "prose_line_text": "porchey . sheedy . qotain . chetar . qotar . ar . arody . chcthy . rain . otey . oty . dain",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tar",
+        "arody"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f88v",
+      "label_loc": "f88v.4",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "otar . arody",
+      "t1_counts_in_prose": [
+        261,
+        10
+      ],
+      "t2_counts_in_prose": [
+        342,
+        10
+      ],
+      "joint_rarity_bits": 18.47
+    },
+    {
+      "prose_folio": "f43r",
+      "prose_loc": "f43r.4",
+      "prose_sec": "H",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 6,
+      "gap": 2,
+      "prose_words": "qotaly . chedy . oty",
+      "prose_line_text": "dasar . yteytedykar . arar . she . kalchdy . cholky . qotaly . chedy . oty . otam",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "taly",
+        "ty"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f72v3",
+      "label_loc": "f72v3.32",
+      "label_domain": "Zodiac",
+      "label_words": "otaly . yty",
+      "t1_counts_in_prose": [
+        17,
+        22
+      ],
+      "t2_counts_in_prose": [
+        23,
+        228
+      ],
+      "joint_rarity_bits": 17.86
+    },
+    {
+      "prose_folio": "f105v",
+      "prose_loc": "f105v.34",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 6,
+      "gap": 2,
+      "prose_words": "otaiin . chedaiin . olkal",
+      "prose_line_text": "sheeo . daiin . chsd . qokeeey . dair . okaiin . otaiin . chedaiin . olkal . lkldain",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tain",
+        "olkal"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f81v",
+      "label_loc": "f81v.28",
+      "label_domain": "Bio_Nymph_Tube",
+      "label_words": "otain . olkal",
+      "t1_counts_in_prose": [
+        404,
+        11
+      ],
+      "t2_counts_in_prose": [
+        506,
+        11
+      ],
+      "joint_rarity_bits": 17.77
+    },
+    {
+      "prose_folio": "f55v",
+      "prose_loc": "f55v.5",
+      "prose_sec": "H",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 5,
+      "gap": 2,
+      "prose_words": "daiin . chedy . talam",
+      "prose_line_text": "qokaiin . chaiin . ykain . ykan . ody . daiin . chedy . talam",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "dain",
+        "talar"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.19",
+      "label_domain": "Astronomical",
+      "label_words": "daiin . otalam",
+      "t1_counts_in_prose": [
+        1002,
+        4
+      ],
+      "t2_counts_in_prose": [
+        1142,
+        8
+      ],
+      "joint_rarity_bits": 17.05
+    },
+    {
+      "prose_folio": "f8v",
+      "prose_loc": "f8v.12",
+      "prose_sec": "H",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 1,
+      "gap": 2,
+      "prose_words": "cho . rol . dal",
+      "prose_line_text": "pchar . cho . rol . dal . shear . chchotaiin . chal . daiin",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "cho",
+        "dal"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f67r2",
+      "label_loc": "f67r2.58",
+      "label_domain": "Astronomical",
+      "label_words": "cho . dal",
+      "t1_counts_in_prose": [
+        54,
+        188
+      ],
+      "t2_counts_in_prose": [
+        60,
+        208
+      ],
+      "joint_rarity_bits": 16.6
+    },
+    {
+      "prose_folio": "f24r",
+      "prose_loc": "f24r.10",
+      "prose_sec": "H",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 4,
+      "gap": 2,
+      "prose_words": "am . chotaiin . dy",
+      "prose_line_text": "qor . cfhar . chor . s . am . chotaiin . dy",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "am",
+        "dy"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f70v1",
+      "label_loc": "f70v1.2",
+      "label_domain": "Zodiac",
+      "label_words": "am . dy",
+      "t1_counts_in_prose": [
+        53,
+        180
+      ],
+      "t2_counts_in_prose": [
+        53,
+        236
+      ],
+      "joint_rarity_bits": 16.6
+    },
+    {
+      "prose_folio": "f83r",
+      "prose_loc": "f83r.22",
+      "prose_sec": "B",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 5,
+      "gap": 2,
+      "prose_words": "qotedaiin . otaiin . otedy",
+      "prose_line_text": "schedair . otchedy . qokeedy . chedain . chedy . qotedaiin . otaiin . otedy . ldy",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tedain",
+        "tedy"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "fRos",
+      "label_loc": "fRos.72",
+      "label_domain": "Rosettes_Cosmo",
+      "label_words": "otedain . otedy",
+      "t1_counts_in_prose": [
+        18,
+        424
+      ],
+      "t2_counts_in_prose": [
+        25,
+        525
+      ],
+      "joint_rarity_bits": 16.53
+    },
+    {
+      "prose_folio": "f114r",
+      "prose_loc": "f114r.20",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 6,
+      "gap": 2,
+      "prose_words": "qotedaiin . otar . otedy",
+      "prose_line_text": "sairchedaiin . dalchdy . daiidy . olchedy . chedaiin . oteedy . qotedaiin . otar . otedy . do . rol",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tedain",
+        "tedy"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "fRos",
+      "label_loc": "fRos.72",
+      "label_domain": "Rosettes_Cosmo",
+      "label_words": "otedain . otedy",
+      "t1_counts_in_prose": [
+        18,
+        424
+      ],
+      "t2_counts_in_prose": [
+        25,
+        525
+      ],
+      "joint_rarity_bits": 16.53
+    },
+    {
+      "prose_folio": "f58r",
+      "prose_loc": "f58r.15",
+      "prose_sec": "S",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 2,
+      "gap": 2,
+      "prose_words": "qopaim . cholaly . dy",
+      "prose_line_text": "daiir . shal . qopaim . cholaly . dy . shedy",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tair",
+        "dy"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f72r2",
+      "label_loc": "f72r2.14",
+      "label_domain": "Zodiac",
+      "label_words": "otair . dy",
+      "t1_counts_in_prose": [
+        34,
+        180
+      ],
+      "t2_counts_in_prose": [
+        59,
+        236
+      ],
+      "joint_rarity_bits": 16.45
+    },
+    {
+      "prose_folio": "f21v",
+      "prose_loc": "f21v.4",
+      "prose_sec": "H",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 4,
+      "gap": 2,
+      "prose_words": "daiin . daiin . chty",
+      "prose_line_text": "sho . chodaiin . choty . chol . daiin . daiin . chty . chtol",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "dain",
+        "chty"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f66r",
+      "label_loc": "f66r.82",
+      "label_domain": "Other_T",
+      "label_words": "daiin . chty",
+      "t1_counts_in_prose": [
+        1002,
+        12
+      ],
+      "t2_counts_in_prose": [
+        1142,
+        13
+      ],
+      "joint_rarity_bits": 16.35
+    },
+    {
+      "prose_folio": "f48v",
+      "prose_loc": "f48v.6",
+      "prose_sec": "H",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 11,
+      "gap": 2,
+      "prose_words": "ytar . chedy . am",
+      "prose_line_text": "shdy . qokain . okar . otar . or . otees . ol . or . ain . otal . ok . ytar . chedy . am",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "tar",
+        "am"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f70v2",
+      "label_loc": "f70v2.22",
+      "label_domain": "Zodiac",
+      "label_words": "otar . am",
+      "t1_counts_in_prose": [
+        261,
+        53
+      ],
+      "t2_counts_in_prose": [
+        342,
+        53
+      ],
+      "joint_rarity_bits": 16.07
+    },
+    {
+      "prose_folio": "f58v",
+      "prose_loc": "f58v.16",
+      "prose_sec": "S",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": true,
+      "word_pos": 0,
+      "gap": 2,
+      "prose_words": "ykam . qokair . okaly",
+      "prose_line_text": "ykam . qokair . okaly . qokal . chaly . cheockhey . olaly . taldaral",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "kar",
+        "kaly"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f67r2",
+      "label_loc": "f67r2.9",
+      "label_domain": "Astronomical",
+      "label_words": "ykar . ykaly",
+      "t1_counts_in_prose": [
+        39,
+        6
+      ],
+      "t2_counts_in_prose": [
+        419,
+        45
+      ],
+      "joint_rarity_bits": 16.01
+    },
+    {
+      "prose_folio": "f116r",
+      "prose_loc": "f116r.30",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 4,
+      "gap": 2,
+      "prose_words": "okar . airollaiin . okaly",
+      "prose_line_text": "saraiin . shey . qokain . chcthy . okar . airollaiin . okaly",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "kar",
+        "kaly"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f67r2",
+      "label_loc": "f67r2.9",
+      "label_domain": "Astronomical",
+      "label_words": "ykar . ykaly",
+      "t1_counts_in_prose": [
+        39,
+        6
+      ],
+      "t2_counts_in_prose": [
+        419,
+        45
+      ],
+      "joint_rarity_bits": 16.01
+    },
+    {
+      "prose_folio": "f66v",
+      "prose_loc": "f66v.4",
+      "prose_sec": "H",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 1,
+      "gap": 2,
+      "prose_words": "daiin . cheos . chety",
+      "prose_line_text": "shokeshy . daiin . cheos . chety . dol . chckhy . dal . kodal . chekal . dal",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "dain",
+        "chety"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f72v3",
+      "label_loc": "f72v3.13",
+      "label_domain": "Zodiac",
+      "label_words": "daiin . chepy",
+      "t1_counts_in_prose": [
+        1002,
+        32
+      ],
+      "t2_counts_in_prose": [
+        1142,
+        33
+      ],
+      "joint_rarity_bits": 15.01
+    },
+    {
+      "prose_folio": "f40r",
+      "prose_loc": "f40r.1",
+      "prose_sec": "H",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 5,
+      "gap": 2,
+      "prose_words": "shdy . olkedy . opches",
+      "prose_line_text": "pchey . keodar . aldydy . qoky . okal . shdy . olkedy . opches . ar . ordaiin",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "shdy",
+        "tches"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "fRos",
+      "label_loc": "fRos.66->fRos.67",
+      "label_domain": "Rosettes_Cosmo",
+      "label_words": "shdy . opchees",
+      "t1_counts_in_prose": [
+        43,
+        4
+      ],
+      "t2_counts_in_prose": [
+        44,
+        5
+      ],
+      "joint_rarity_bits": 22.43
+    },
+    {
+      "prose_folio": "f102v1",
+      "prose_loc": "f102v1.21",
+      "prose_sec": "P",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": true,
+      "word_pos": 0,
+      "gap": 2,
+      "prose_words": "qoeeody . ychey . okeody",
+      "prose_line_text": "qoeeody . ychey . okeody . deody . okody . cheodaiin . cheody . ram",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "eody",
+        "keody"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "f73v",
+      "label_loc": "f73v.4->f73v.6",
+      "label_domain": "Zodiac",
+      "label_words": "eeeody . okeody",
+      "t1_counts_in_prose": [
+        2,
+        100
+      ],
+      "t2_counts_in_prose": [
+        7,
+        158
+      ],
+      "joint_rarity_bits": 20.1
+    },
+    {
+      "prose_folio": "f113v",
+      "prose_loc": "f113v.8",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 1,
+      "gap": 2,
+      "prose_words": "qokeeor . choltar . olkam",
+      "prose_line_text": "ycheody . qokeeor . choltar . olkam . chokam . odal . sheckhy . qokchedy . otor . otar . toky",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "keor",
+        "olkar"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "f72v2",
+      "label_loc": "f72v2.25->f72v2.26",
+      "label_domain": "Zodiac",
+      "label_words": "okeeom . olkar",
+      "t1_counts_in_prose": [
+        67,
+        32
+      ],
+      "t2_counts_in_prose": [
+        90,
+        32
+      ],
+      "joint_rarity_bits": 18.72
+    },
+    {
+      "prose_folio": "f102r2",
+      "prose_loc": "f102r2.3",
+      "prose_sec": "P",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 3,
+      "gap": 2,
+      "prose_words": "qokol . olaiin . oldam",
+      "prose_line_text": "ycheor . olaiin . olsho . qokol . olaiin . oldam",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "kol",
+        "oldar"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "f89r1",
+      "label_loc": "f89r1.2->f89r1.3",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "qkol . oldam",
+      "t1_counts_in_prose": [
+        2,
+        15
+      ],
+      "t2_counts_in_prose": [
+        198,
+        15
+      ],
+      "joint_rarity_bits": 18.68
+    },
+    {
+      "prose_folio": "f102v1",
+      "prose_loc": "f102v1.22",
+      "prose_sec": "P",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": true,
+      "word_pos": 0,
+      "gap": 2,
+      "prose_words": "ykeeody . chodaiin . qokeos",
+      "prose_line_text": "ykeeody . chodaiin . qokeos . cheol . qool . chsey . oteody . okchy",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "keody",
+        "keos"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "f73v",
+      "label_loc": "f73v.18->f73v.19",
+      "label_domain": "Zodiac",
+      "label_words": "ykeeody . okeos",
+      "t1_counts_in_prose": [
+        26,
+        24
+      ],
+      "t2_counts_in_prose": [
+        158,
+        35
+      ],
+      "joint_rarity_bits": 17.78
+    },
+    {
+      "prose_folio": "f58v",
+      "prose_loc": "f58v.13",
+      "prose_sec": "S",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 5,
+      "gap": 2,
+      "prose_words": "okal . chcthy . taly",
+      "prose_line_text": "qoeear . alkeain . ytal . chos . alor . okal . chcthy . taly . kar",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "kal",
+        "taly"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "f72v1",
+      "label_loc": "f72v1.16->f72v1.17",
+      "label_domain": "Zodiac",
+      "label_words": "okal . ytaly",
+      "t1_counts_in_prose": [
+        319,
+        3
+      ],
+      "t2_counts_in_prose": [
+        347,
+        23
+      ],
+      "joint_rarity_bits": 17.25
+    },
+    {
+      "prose_folio": "f58v",
+      "prose_loc": "f58v.28",
+      "prose_sec": "S",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 2,
+      "gap": 2,
+      "prose_words": "okal . otaly . okaldy",
+      "prose_line_text": "ycheockhy . okey . okal . otaly . okaldy . okeor . sheey",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "kal",
+        "kaldy"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "f82r",
+      "label_loc": "f82r.36->f82r.37",
+      "label_domain": "Bio_Nymph_Tube",
+      "label_words": "okal . okaldy",
+      "t1_counts_in_prose": [
+        319,
+        20
+      ],
+      "t2_counts_in_prose": [
+        347,
+        24
+      ],
+      "joint_rarity_bits": 17.19
+    },
+    {
+      "prose_folio": "f58v",
+      "prose_loc": "f58v.25",
+      "prose_sec": "S",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 3,
+      "gap": 2,
+      "prose_words": "qokeol . okeoly . qokaly",
+      "prose_line_text": "qotain . okeor . sheey . qokeol . okeoly . qokaly . qokairortas . ykal",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "keol",
+        "kaly"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "f72v3",
+      "label_loc": "f72v3.16->f72v3.17",
+      "label_domain": "Zodiac",
+      "label_words": "okeeol . okaly",
+      "t1_counts_in_prose": [
+        137,
+        37
+      ],
+      "t2_counts_in_prose": [
+        189,
+        45
+      ],
+      "joint_rarity_bits": 17.16
+    },
+    {
+      "prose_folio": "f15v",
+      "prose_loc": "f15v.4",
+      "prose_sec": "H",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 1,
+      "gap": 2,
+      "prose_words": "choky . shol . qoky",
+      "prose_line_text": "doiin . choky . shol . qoky . qotchod",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "choky",
+        "ky"
+      ],
+      "label_source_type": "Contiguous_Adjacent_Labels",
+      "label_folio": "f99r",
+      "label_loc": "f99r.23->f99r.24",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "choky . oky",
+      "t1_counts_in_prose": [
+        39,
+        231
+      ],
+      "t2_counts_in_prose": [
+        39,
+        260
+      ],
+      "joint_rarity_bits": 16.9
+    }
+  ],
+  "mode2_top_fused_compound_matches": [
+    {
+      "prose_folio": "f106v",
+      "prose_loc": "f106v.45",
+      "prose_sec": "S",
+      "word_pos": 0,
+      "prose_word": "ysair",
+      "prose_word_count": 1,
+      "prose_line_text": "ysair . okeey . cheodain . chey . tchar . oqotaiin . oty . rasal . oteey . sar . aildy",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.15",
+      "label_domain": "Astronomical",
+      "label_words": "os . air"
+    },
+    {
+      "prose_folio": "f114r",
+      "prose_loc": "f114r.28",
+      "prose_sec": "S",
+      "word_pos": 7,
+      "prose_word": "aiiraim",
+      "prose_word_count": 1,
+      "prose_line_text": "pchedairs . oeail . chotarqokeedair . olkaiin . opdaiin . otoldair . chdytedair . aiiraim",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f72v2",
+      "label_loc": "f72v2.5",
+      "label_domain": "Zodiac",
+      "label_words": "air . aim"
+    },
+    {
+      "prose_folio": "f114v",
+      "prose_loc": "f114v.21",
+      "prose_sec": "S",
+      "word_pos": 5,
+      "prose_word": "otcheodaiin",
+      "prose_word_count": 1,
+      "prose_line_text": "dair . cheeo . chy . chdaiin . qokedy . otcheodaiin . qokchdy . otedal . dain . aral",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f66r",
+      "label_loc": "f66r.82",
+      "label_domain": "Other_T",
+      "label_words": "otcheo . daiin"
+    },
+    {
+      "prose_folio": "f116r",
+      "prose_loc": "f116r.12",
+      "prose_sec": "S",
+      "word_pos": 2,
+      "prose_word": "cholches",
+      "prose_word_count": 1,
+      "prose_line_text": "qoin . ar . cholches . okain . dain . cheey . okeey . otain . olchdy . otaldain . olam",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f89r1",
+      "label_loc": "f89r1.12",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "chol . ches"
+    },
+    {
+      "prose_folio": "f14r",
+      "prose_loc": "f14r.12",
+      "prose_sec": "H",
+      "word_pos": 5,
+      "prose_word": "chodalg",
+      "prose_word_count": 1,
+      "prose_line_text": "oeeeb . chey . keor . chey . tchyky . chodalg",
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f67r2",
+      "label_loc": "f67r2.58",
+      "label_domain": "Astronomical",
+      "label_words": "cho . dalg"
+    },
+    {
+      "prose_folio": "f1v",
+      "prose_loc": "f1v.8",
+      "prose_sec": "H",
+      "word_pos": 0,
+      "prose_word": "okolshol",
+      "prose_word_count": 1,
+      "prose_line_text": "okolshol . kolkechy . chol . ky . chol . cthol . chody . chol . daiin",
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f89r2",
+      "label_loc": "f89r2.10",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "okol . shol"
+    },
+    {
+      "prose_folio": "f39v",
+      "prose_loc": "f39v.7",
+      "prose_sec": "H",
+      "word_pos": 0,
+      "prose_word": "pardy",
+      "prose_word_count": 1,
+      "prose_line_text": "pardy . shedy . qokar . sheedy . oraly . olaiir . okar . ar",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f67r2",
+      "label_loc": "f67r2.57",
+      "label_domain": "Astronomical",
+      "label_words": "otar . dy"
+    },
+    {
+      "prose_folio": "f51r",
+      "prose_loc": "f51r.9",
+      "prose_sec": "H",
+      "word_pos": 3,
+      "prose_word": "qchodal",
+      "prose_word_count": 1,
+      "prose_line_text": "tol . daiin . daim . qchodal . dal . qody . qoetam",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f67r2",
+      "label_loc": "f67r2.58",
+      "label_domain": "Astronomical",
+      "label_words": "cho . dal"
+    },
+    {
+      "prose_folio": "f58r",
+      "prose_loc": "f58r.20",
+      "prose_sec": "S",
+      "word_pos": 8,
+      "prose_word": "arodaim",
+      "prose_word_count": 1,
+      "prose_line_text": "ysheockhy . olchey . oleesey . alaiin . olkeal . daldy . otalar . ar . arodaim",
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.6",
+      "label_domain": "Astronomical",
+      "label_words": "ar . odair"
+    },
+    {
+      "prose_folio": "f80r",
+      "prose_loc": "f80r.29",
+      "prose_sec": "B",
+      "word_pos": 8,
+      "prose_word": "darary",
+      "prose_word_count": 1,
+      "prose_line_text": "okchey . qoky . chedy . qokain . shedy . qol . sheey . qokal . darary",
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f99v",
+      "label_loc": "f99v.5",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "dar . ary"
+    },
+    {
+      "prose_folio": "f86v4",
+      "prose_loc": "f86v4.3",
+      "prose_sec": "C",
+      "word_pos": 1,
+      "prose_word": "dairalody",
+      "prose_word_count": 1,
+      "prose_line_text": "tchey . dairalody . shes . qeeor . or . odarchdy . chdy . orcheos . osain . or . oteed . chedees . oteedy . qoty . otedy . shedy . otedy . darshd . shyy . schdy . chdeedy . dodar . oiin . or . oiin . sarorchedy . qotchdy . dchdes . ar . sheody . opcho . fcheom",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.18",
+      "label_domain": "Astronomical",
+      "label_words": "dair . alody"
+    },
+    {
+      "prose_folio": "f86v5",
+      "prose_loc": "f86v5.18",
+      "prose_sec": "T",
+      "word_pos": 0,
+      "prose_word": "poldaiin",
+      "prose_word_count": 1,
+      "prose_line_text": "poldaiin . shea . teraiin . otcho . lkaiin . os . al . ody . qotar . ytedy . daiin",
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f67r2",
+      "label_loc": "f67r2.56",
+      "label_domain": "Astronomical",
+      "label_words": "tol . daiin"
+    },
+    {
+      "prose_folio": "f86v5",
+      "prose_loc": "f86v5.28",
+      "prose_sec": "T",
+      "word_pos": 8,
+      "prose_word": "ytarar",
+      "prose_word_count": 1,
+      "prose_line_text": "odaiin . oal . kar . ar . or . ytdarqokeeey . teodyteytar . a . ytarar",
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f70v2",
+      "label_loc": "f70v2.22",
+      "label_domain": "Zodiac",
+      "label_words": "otar . am"
+    },
+    {
+      "prose_folio": "f95v1",
+      "prose_loc": "f95v1.7",
+      "prose_sec": "H",
+      "word_pos": 9,
+      "prose_word": "otardy",
+      "prose_word_count": 1,
+      "prose_line_text": "dsheykain . qokar . olkar . chy . tar . otar . chdy . kchdy . dolkain . otardy",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f67r2",
+      "label_loc": "f67r2.57",
+      "label_domain": "Astronomical",
+      "label_words": "otar . dy"
+    },
+    {
+      "prose_folio": "f107r",
+      "prose_loc": "f107r.13",
+      "prose_sec": "S",
+      "word_pos": 8,
+      "prose_word": "otaral",
+      "prose_word_count": 2,
+      "prose_line_text": "polchlsaiin . sheky . qokaiin . opchal . shedy . pshedaiin . otodal . shedy . otaral",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f70v2",
+      "label_loc": "f70v2.23",
+      "label_domain": "Zodiac",
+      "label_words": "otar . al"
+    },
+    {
+      "prose_folio": "f111r",
+      "prose_loc": "f111r.41",
+      "prose_sec": "S",
+      "word_pos": 9,
+      "prose_word": "otaral",
+      "prose_word_count": 2,
+      "prose_line_text": "ycheey . raiin . cheody . qokechy . qokeey . okedy . lchedy . qokeeal . daiin . otaral",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f70v2",
+      "label_loc": "f70v2.23",
+      "label_domain": "Zodiac",
+      "label_words": "otar . al"
+    },
+    {
+      "prose_folio": "f13r",
+      "prose_loc": "f13r.8",
+      "prose_sec": "H",
+      "word_pos": 2,
+      "prose_word": "torchy",
+      "prose_word_count": 2,
+      "prose_line_text": "shochy . qokchy . torchy . k . s . okchey . daiin",
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f99v",
+      "label_loc": "f99v.3",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "otor . chy"
+    },
+    {
+      "prose_folio": "f28r",
+      "prose_loc": "f28r.5",
+      "prose_sec": "H",
+      "word_pos": 1,
+      "prose_word": "otorchy",
+      "prose_word_count": 2,
+      "prose_line_text": "oksho . otorchy . kchoror . chodaiin . shocthody . okoy",
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f99v",
+      "label_loc": "f99v.3",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "otor . chy"
+    },
+    {
+      "prose_folio": "f33v",
+      "prose_loc": "f33v.7",
+      "prose_sec": "H",
+      "word_pos": 9,
+      "prose_word": "porar",
+      "prose_word_count": 2,
+      "prose_line_text": "tshdy . shefchdy . shckhdy . oltedy . daiin . oky . cheol . orain . chdyshdy . porar",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f88r",
+      "label_loc": "f88r.24",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "otor . am"
+    },
+    {
+      "prose_folio": "f3r",
+      "prose_loc": "f3r.15",
+      "prose_sec": "H",
+      "word_pos": 7,
+      "prose_word": "oporar",
+      "prose_word_count": 2,
+      "prose_line_text": "tsheoarom . shor . or . chor . olchsy . chom . otchom . oporar",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f88r",
+      "label_loc": "f88r.24",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "otor . am"
+    },
+    {
+      "prose_folio": "f4v",
+      "prose_loc": "f4v.11",
+      "prose_sec": "H",
+      "word_pos": 4,
+      "prose_word": "qotoldaiin",
+      "prose_word_count": 2,
+      "prose_line_text": "sho . kcheor . shody . shtaiin . qotoldaiin",
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f67r2",
+      "label_loc": "f67r2.56",
+      "label_domain": "Astronomical",
+      "label_words": "tol . daiin"
+    },
+    {
+      "prose_folio": "f4v",
+      "prose_loc": "f4v.7",
+      "prose_sec": "H",
+      "word_pos": 0,
+      "prose_word": "torchy",
+      "prose_word_count": 2,
+      "prose_line_text": "torchy . sheeor . chor . chokchy . cphydy",
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f99v",
+      "label_loc": "f99v.3",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "otor . chy"
+    },
+    {
+      "prose_folio": "f55v",
+      "prose_loc": "f55v.1",
+      "prose_sec": "H",
+      "word_pos": 3,
+      "prose_word": "otoldaiin",
+      "prose_word_count": 2,
+      "prose_line_text": "kcheedchdy . oedain . chckhy . otoldaiin . dodyd",
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f67r2",
+      "label_loc": "f67r2.56",
+      "label_domain": "Astronomical",
+      "label_words": "tol . daiin"
+    },
+    {
+      "prose_folio": "f72v1",
+      "prose_loc": "f72v1.1",
+      "prose_sec": "Z",
+      "word_pos": 24,
+      "prose_word": "otorar",
+      "prose_word_count": 2,
+      "prose_line_text": "oteos . alar . otar . air . chpaly . oteody . okchesal . otear . alshey . oleealy . shtey . oteos . alal . dalsalchol . ytolaiin . ydaiin . chotar . ytal . oto . shoty . otey . okchedaly . chdary . sarotedy . otorar . shedy . opsheytey . opairaly . choshydy . otar . cheedy . otaraiin . cheeky . okolar . ychey . otechety",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f88r",
+      "label_loc": "f88r.24",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "otor . am"
+    },
+    {
+      "prose_folio": "f75v",
+      "prose_loc": "f75v.13",
+      "prose_sec": "B",
+      "word_pos": 10,
+      "prose_word": "taral",
+      "prose_word_count": 2,
+      "prose_line_text": "ocheain . cheedy . qokal . dain . sheeky . qoky . sshedy . tedy . otedy . tedy . taral",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f70v2",
+      "label_loc": "f70v2.23",
+      "label_domain": "Zodiac",
+      "label_words": "otar . al"
+    },
+    {
+      "prose_folio": "f86v5",
+      "prose_loc": "f86v5.11",
+      "prose_sec": "T",
+      "word_pos": 0,
+      "prose_word": "taral",
+      "prose_word_count": 2,
+      "prose_line_text": "taral . okar . octhey . sal . kaiin . ytal . chey . otal . aiiin . olkam",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f70v2",
+      "label_loc": "f70v2.23",
+      "label_domain": "Zodiac",
+      "label_words": "otar . al"
+    },
+    {
+      "prose_folio": "f86v5",
+      "prose_loc": "f86v5.8",
+      "prose_sec": "T",
+      "word_pos": 5,
+      "prose_word": "torar",
+      "prose_word_count": 2,
+      "prose_line_text": "octhal . shckhy . otshey . opor . shey . torar . otar . aiin . chdy . tarcheeg",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f88r",
+      "label_loc": "f88r.24",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "otor . am"
+    },
+    {
+      "prose_folio": "f8v",
+      "prose_loc": "f8v.13",
+      "prose_sec": "H",
+      "word_pos": 5,
+      "prose_word": "otorchy",
+      "prose_word_count": 2,
+      "prose_line_text": "kchor . otchar . oky . chokain . keoky . otorchy . satar",
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f99v",
+      "label_loc": "f99v.3",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "otor . chy"
+    },
+    {
+      "prose_folio": "f105r",
+      "prose_loc": "f105r.19",
+      "prose_sec": "S",
+      "word_pos": 9,
+      "prose_word": "aiiral",
+      "prose_word_count": 3,
+      "prose_line_text": "dsechey . oteol . daiindy . saiin . chedy . laiin . okeeody . okeeyteedy . odaiin . aiiral",
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.10",
+      "label_domain": "Astronomical",
+      "label_words": "air . al"
+    },
+    {
+      "prose_folio": "f105r",
+      "prose_loc": "f105r.26",
+      "prose_sec": "S",
+      "word_pos": 3,
+      "prose_word": "airal",
+      "prose_word_count": 3,
+      "prose_line_text": "pdal . sheey . yqopchy . airal . sheey . fchdy . qopchdy . raiir . oky . chdedy . qodeedy . qokedy",
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.10",
+      "label_domain": "Astronomical",
+      "label_words": "air . al"
+    },
+    {
+      "prose_folio": "f106v",
+      "prose_loc": "f106v.4",
+      "prose_sec": "S",
+      "word_pos": 6,
+      "prose_word": "charam",
+      "prose_word_count": 3,
+      "prose_line_text": "ycheoto . lsheoaiin . chcthy . okain . chdal . chdam . charam",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.9",
+      "label_domain": "Astronomical",
+      "label_words": "char . ar"
+    },
+    {
+      "prose_folio": "f107r",
+      "prose_loc": "f107r.15",
+      "prose_sec": "S",
+      "word_pos": 9,
+      "prose_word": "airal",
+      "prose_word_count": 3,
+      "prose_line_text": "ychol . oiin . chey . qockhal . al . otaraiin . sheky . okeeey . raiin . airal",
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.10",
+      "label_domain": "Astronomical",
+      "label_words": "air . al"
+    },
+    {
+      "prose_folio": "f108r",
+      "prose_loc": "f108r.44",
+      "prose_sec": "S",
+      "word_pos": 3,
+      "prose_word": "charam",
+      "prose_word_count": 3,
+      "prose_line_text": "ychey . chey . okar . charam . otam . cheody",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.9",
+      "label_domain": "Astronomical",
+      "label_words": "char . ar"
+    },
+    {
+      "prose_folio": "f112v",
+      "prose_loc": "f112v.46",
+      "prose_sec": "S",
+      "word_pos": 5,
+      "prose_word": "charam",
+      "prose_word_count": 3,
+      "prose_line_text": "ykeey . lor . chaiin . cheky . chokain . charam . chey . kain . chdal . okaiin . daldy",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.9",
+      "label_domain": "Astronomical",
+      "label_words": "char . ar"
+    },
+    {
+      "prose_folio": "f113r",
+      "prose_loc": "f113r.42",
+      "prose_sec": "S",
+      "word_pos": 0,
+      "prose_word": "pcheodaiin",
+      "prose_word_count": 3,
+      "prose_line_text": "pcheodaiin . sholkeechy . ar . alkar . otchedy . cheol . tcheor . qokchedy . pchor . aral",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f66r",
+      "label_loc": "f66r.82",
+      "label_domain": "Other_T",
+      "label_words": "otcheo . daiin"
+    },
+    {
+      "prose_folio": "f114r",
+      "prose_loc": "f114r.32",
+      "prose_sec": "S",
+      "word_pos": 0,
+      "prose_word": "tcheodaiin",
+      "prose_word_count": 3,
+      "prose_line_text": "tcheodaiin . chaiin . qokaiin . otaiin . otalkain . otchedain . qotcho . chdy . dair . qotar",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f66r",
+      "label_loc": "f66r.82",
+      "label_domain": "Other_T",
+      "label_words": "otcheo . daiin"
+    },
+    {
+      "prose_folio": "f115r",
+      "prose_loc": "f115r.19",
+      "prose_sec": "S",
+      "word_pos": 0,
+      "prose_word": "pcheodain",
+      "prose_word_count": 3,
+      "prose_line_text": "pcheodain . qokchey . qotchedy . darailchedy . polchedy . chol . pchody . qotchedy . qofchedy . ram",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f66r",
+      "label_loc": "f66r.82",
+      "label_domain": "Other_T",
+      "label_words": "otcheo . daiin"
+    },
+    {
+      "prose_folio": "f115v",
+      "prose_loc": "f115v.35",
+      "prose_sec": "S",
+      "word_pos": 5,
+      "prose_word": "alches",
+      "prose_word_count": 3,
+      "prose_line_text": "shos . shee . oky . cheolkain . cheeos . alches . kcheo . rain . checthey . lcham",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f72r3",
+      "label_loc": "f72r3.7",
+      "label_domain": "Zodiac",
+      "label_words": "al . ches"
+    },
+    {
+      "prose_folio": "f40v",
+      "prose_loc": "f40v.2",
+      "prose_sec": "H",
+      "word_pos": 0,
+      "prose_word": "todar",
+      "prose_word_count": 3,
+      "prose_line_text": "todar . qokaiin . ol . arag",
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.7",
+      "label_domain": "Astronomical",
+      "label_words": "oto . dar"
+    },
+    {
+      "prose_folio": "f58r",
+      "prose_loc": "f58r.5",
+      "prose_sec": "S",
+      "word_pos": 8,
+      "prose_word": "arary",
+      "prose_word_count": 3,
+      "prose_line_text": "qor . dchairam . otar . otar . char . ar . al . char . arary . ytalar . cham",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f72r1",
+      "label_loc": "f72r1.4",
+      "label_domain": "Zodiac",
+      "label_words": "ar . ary"
+    },
+    {
+      "prose_folio": "f58r",
+      "prose_loc": "f58r.9",
+      "prose_sec": "S",
+      "word_pos": 5,
+      "prose_word": "arary",
+      "prose_word_count": 3,
+      "prose_line_text": "sholaiin . cheey . yteodaiin . qoar . aiin . arary . sheey . daiin . ealam",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f72r1",
+      "label_loc": "f72r1.4",
+      "label_domain": "Zodiac",
+      "label_words": "ar . ary"
+    },
+    {
+      "prose_folio": "f72r3",
+      "prose_loc": "f72r3.26",
+      "prose_sec": "Z",
+      "word_pos": 1,
+      "prose_word": "arary",
+      "prose_word_count": 3,
+      "prose_line_text": "oteey . arary . eeercheshees . opcholalaiin . oteeor . am . sheal . okaipchy . oteeesar . am . olaiin . otedar . olol . choty . oteol . sheshdy . chedy . chedy . dy . shes . eedy . sheol . shyckhol",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f72r1",
+      "label_loc": "f72r1.4",
+      "label_domain": "Zodiac",
+      "label_words": "ar . ary"
+    },
+    {
+      "prose_folio": "f73r",
+      "prose_loc": "f73r.5",
+      "prose_sec": "Z",
+      "word_pos": 9,
+      "prose_word": "alchees",
+      "prose_word_count": 3,
+      "prose_line_text": "ypolcheey . salchedal . chepchey . daraly . oteosairar . oteosdal . chotoey . soteeesalshey . ches . alchees . cheoly . jeiii . choteey . cheteey . cheteeeosaiin . chetchody . chedar . ar . cheteey . otesar . airalor . shetee . yteey . cheody . ykeydam . oteos . alar . alcheky",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f72r3",
+      "label_loc": "f72r3.7",
+      "label_domain": "Zodiac",
+      "label_words": "al . ches"
+    },
+    {
+      "prose_folio": "f76v",
+      "prose_loc": "f76v.29",
+      "prose_sec": "B",
+      "word_pos": 7,
+      "prose_word": "alches",
+      "prose_word_count": 3,
+      "prose_line_text": "sar . sheedy . qokeedy . qolkey . lchdy . schees . shees . alches . okaiin . alaldy",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f72r3",
+      "label_loc": "f72r3.7",
+      "label_domain": "Zodiac",
+      "label_words": "al . ches"
+    },
+    {
+      "prose_folio": "f96r",
+      "prose_loc": "f96r.9",
+      "prose_sec": "H",
+      "word_pos": 0,
+      "prose_word": "todar",
+      "prose_word_count": 3,
+      "prose_line_text": "todar . sheo . cthody . shokocfhy . chopcho . dory",
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.7",
+      "label_domain": "Astronomical",
+      "label_words": "oto . dar"
+    },
+    {
+      "prose_folio": "fRos",
+      "prose_loc": "fRos.35",
+      "prose_sec": "C",
+      "word_pos": 13,
+      "prose_word": "todar",
+      "prose_word_count": 3,
+      "prose_line_text": "okos . or . airu . oteoteedy . otos . otedar . ches . okodainol . ykedy . eedor . tchdaiin . sy . sarald . todar . chkar . odair . or . oal . okchdy . seedy . oteedy . ykchda . cheky . o . aiin . okees . olar . or . ykeedy . okeolodaiin . or . olaiiin . olar",
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.7",
+      "label_domain": "Astronomical",
+      "label_words": "oto . dar"
+    },
+    {
+      "prose_folio": "f108r",
+      "prose_loc": "f108r.16",
+      "prose_sec": "S",
+      "word_pos": 4,
+      "prose_word": "daldaiin",
+      "prose_word_count": 4,
+      "prose_line_text": "say . olkaiin . chckhy . daiin . daldaiin",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.19",
+      "label_domain": "Astronomical",
+      "label_words": "dal . daiin"
+    },
+    {
+      "prose_folio": "f45r",
+      "prose_loc": "f45r.11",
+      "prose_sec": "H",
+      "word_pos": 4,
+      "prose_word": "daldaiin",
+      "prose_word_count": 4,
+      "prose_line_text": "l . okaiin . okcho . laldan . daldaiin",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.19",
+      "label_domain": "Astronomical",
+      "label_words": "dal . daiin"
+    },
+    {
+      "prose_folio": "f89r1",
+      "prose_loc": "f89r1.7",
+      "prose_sec": "P",
+      "word_pos": 6,
+      "prose_word": "daldaiin",
+      "prose_word_count": 4,
+      "prose_line_text": "dshody . qocthy . chockhy . dal . chedy . qokeody . daldaiin . chodaiin . dal",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.19",
+      "label_domain": "Astronomical",
+      "label_words": "dal . daiin"
+    },
+    {
+      "prose_folio": "f89v2",
+      "prose_loc": "f89v2.19",
+      "prose_sec": "P",
+      "word_pos": 11,
+      "prose_word": "daldaiin",
+      "prose_word_count": 4,
+      "prose_line_text": "toar . qokeeody . doef . shey . dair . olsheos . psheoepoain . daiin . qekor . okeor . otolsheey . daldaiin",
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.19",
+      "label_domain": "Astronomical",
+      "label_words": "dal . daiin"
+    }
+  ],
+  "mode3_top_split_compound_matches": [
+    {
+      "prose_folio": "f100v",
+      "prose_loc": "f100v.14",
+      "prose_sec": "P",
+      "is_par_start": false,
+      "word_pos": 6,
+      "prose_bigram": "oteey . daiin",
+      "joined_canon": "oteydain",
+      "prose_line_text": "deey . sheocphy . qoteody . ckhoor . ar . chor . oteey . daiin . qokomo",
+      "label_folio": "f72r3",
+      "label_loc": "f72r3.9",
+      "label_domain": "Zodiac",
+      "label_word": "oteeydaiin",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f102v2",
+      "prose_loc": "f102v2.32",
+      "prose_sec": "P",
+      "is_par_start": false,
+      "word_pos": 0,
+      "prose_bigram": "dar . cheor",
+      "joined_canon": "darcheor",
+      "prose_line_text": "dar . cheor . shoar . okeol . shoy . s . ar . oky . cheeor . ol . daiin . sy",
+      "label_folio": "f89v2",
+      "label_loc": "f89v2.3",
+      "label_domain": "Pharma_Botanical",
+      "label_word": "darcheor",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f103r",
+      "prose_loc": "f103r.24",
+      "prose_sec": "S",
+      "is_par_start": false,
+      "word_pos": 8,
+      "prose_bigram": "otey . dain",
+      "joined_canon": "oteydain",
+      "prose_line_text": "tchoky . okeal . shedy . qokal . oty . opchedy . qotain . shcthy . otey . dain . oteey . oky",
+      "label_folio": "f72r3",
+      "label_loc": "f72r3.9",
+      "label_domain": "Zodiac",
+      "label_word": "oteeydaiin",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f103r",
+      "prose_loc": "f103r.41",
+      "prose_sec": "S",
+      "is_par_start": false,
+      "word_pos": 8,
+      "prose_bigram": "qokal . dal",
+      "joined_canon": "okaldal",
+      "prose_line_text": "cheol . sheeey . qotey . oteeal . oteedy . shetsho . keeosshey . qokeedy . qokal . dal",
+      "label_folio": "f70v2",
+      "label_loc": "f70v2.30",
+      "label_domain": "Zodiac",
+      "label_word": "okaldal",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f104r",
+      "prose_loc": "f104r.13",
+      "prose_sec": "S",
+      "is_par_start": false,
+      "word_pos": 7,
+      "prose_bigram": "qodam . chdy",
+      "joined_canon": "odamchdy",
+      "prose_line_text": "olcheol . qodain . chokar . okcholkain . okar . cheody . okeeody . qodam . chdy",
+      "label_folio": "fRos",
+      "label_loc": "fRos.93",
+      "label_domain": "Rosettes_Cosmo",
+      "label_word": "darchdy",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f105r",
+      "prose_loc": "f105r.4",
+      "prose_sec": "S",
+      "is_par_start": false,
+      "word_pos": 8,
+      "prose_bigram": "oy . teedy",
+      "joined_canon": "oytedy",
+      "prose_line_text": "ykaiin . olkeedy . odaiin . okar . eeeodaiin . yteey . ochedy . qokeeey . oy . teedy . qotam",
+      "label_folio": "f73r",
+      "label_loc": "f73r.25",
+      "label_domain": "Zodiac",
+      "label_word": "oyteedy",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f105v",
+      "prose_loc": "f105v.30",
+      "prose_sec": "S",
+      "is_par_start": false,
+      "word_pos": 7,
+      "prose_bigram": "kaiin . aiin",
+      "joined_canon": "kainain",
+      "prose_line_text": "dchedy . cheey . qokor . otaiin . otair . otair . okeedy . kaiin . aiin . s . aiinsy",
+      "label_folio": "fRos",
+      "label_loc": "fRos.3",
+      "label_domain": "Rosettes_Cosmo",
+      "label_word": "ofainain",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f106r",
+      "prose_loc": "f106r.16",
+      "prose_sec": "S",
+      "is_par_start": false,
+      "word_pos": 2,
+      "prose_bigram": "okain . aiin",
+      "joined_canon": "okainain",
+      "prose_line_text": "soin . oin . okain . aiin . arol . ocheedy . lkeeeody . daiin . chedar . okol . otar . chdam",
+      "label_folio": "fRos",
+      "label_loc": "fRos.3",
+      "label_domain": "Rosettes_Cosmo",
+      "label_word": "ofainain",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f106r",
+      "prose_loc": "f106r.2",
+      "prose_sec": "S",
+      "is_par_start": false,
+      "word_pos": 4,
+      "prose_bigram": "okcho . chdy",
+      "joined_canon": "okchochdy",
+      "prose_line_text": "shedchy . ytchedy . chees . otshes . okcho . chdy . qokeedy . ched . chedy . chedy . qotar . rod",
+      "label_folio": "f100v",
+      "label_loc": "f100v.6",
+      "label_domain": "Pharma_Botanical",
+      "label_word": "ykchochdy",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f106v",
+      "prose_loc": "f106v.1",
+      "prose_sec": "S",
+      "is_par_start": false,
+      "word_pos": 8,
+      "prose_bigram": "aiin . aly",
+      "joined_canon": "ainaly",
+      "prose_line_text": "fsheda . looin . opaiiral . oteodaiin . chopchy . otair . kar . alalor . aiin . aly . kar",
+      "label_folio": "f72r2",
+      "label_loc": "f72r2.30",
+      "label_domain": "Zodiac",
+      "label_word": "ainaly",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f108r",
+      "prose_loc": "f108r.7",
+      "prose_sec": "S",
+      "is_par_start": false,
+      "word_pos": 7,
+      "prose_bigram": "okar . char",
+      "joined_canon": "okarchar",
+      "prose_line_text": "okchey . okedy . qokchedy . chedy . qokedy . okar . chdy . okar . char . chkaiin . chsy",
+      "label_folio": "f72r2",
+      "label_loc": "f72r2.31",
+      "label_domain": "Zodiac",
+      "label_word": "okarcham",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f112r",
+      "prose_loc": "f112r.23",
+      "prose_sec": "S",
+      "is_par_start": false,
+      "word_pos": 5,
+      "prose_bigram": "qopol . chdy",
+      "joined_canon": "otolchdy",
+      "prose_line_text": "qoain . qoiin . olcheedy . dairiy . teedy . qopol . chdy . oteor . octhdy . otychey",
+      "label_folio": "f71r",
+      "label_loc": "f71r.13",
+      "label_domain": "Zodiac",
+      "label_word": "otolchdy",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f113r",
+      "prose_loc": "f113r.38",
+      "prose_sec": "S",
+      "is_par_start": false,
+      "word_pos": 2,
+      "prose_bigram": "qoteey . daiin",
+      "joined_canon": "oteydain",
+      "prose_line_text": "daiin . sheor . qoteey . daiin . okchedy . sheos . aiin",
+      "label_folio": "f72r3",
+      "label_loc": "f72r3.9",
+      "label_domain": "Zodiac",
+      "label_word": "oteeydaiin",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f113v",
+      "prose_loc": "f113v.2",
+      "prose_sec": "S",
+      "is_par_start": false,
+      "word_pos": 8,
+      "prose_bigram": "oteol . ar",
+      "joined_canon": "oteolar",
+      "prose_line_text": "teoar . ain . qotar . ycheey . otaiir . otaiin . okchy . lkchdy . oteol . ar . al . araiin . okal . cheyor",
+      "label_folio": "f71r",
+      "label_loc": "f71r.5",
+      "label_domain": "Zodiac",
+      "label_word": "oteolar",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f113v",
+      "prose_loc": "f113v.30",
+      "prose_sec": "S",
+      "is_par_start": false,
+      "word_pos": 8,
+      "prose_bigram": "okaiiin . aiin",
+      "joined_canon": "okainain",
+      "prose_line_text": "ysheey . qoeey . or . aiiin . okeeol . otain . ar . ol . okaiiin . aiin . shody . otcham",
+      "label_folio": "fRos",
+      "label_loc": "fRos.3",
+      "label_domain": "Rosettes_Cosmo",
+      "label_word": "ofainain",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f114v",
+      "prose_loc": "f114v.40",
+      "prose_sec": "S",
+      "is_par_start": false,
+      "word_pos": 5,
+      "prose_bigram": "oteeey . daiin",
+      "joined_canon": "oteydain",
+      "prose_line_text": "eeo . cheoy . oteey . qotaiin . cheol . oteeey . daiin . oteey . teeedy . dm",
+      "label_folio": "f72r3",
+      "label_loc": "f72r3.9",
+      "label_domain": "Zodiac",
+      "label_word": "oteeydaiin",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f116r",
+      "prose_loc": "f116r.16",
+      "prose_sec": "S",
+      "is_par_start": false,
+      "word_pos": 7,
+      "prose_bigram": "qotey . dain",
+      "joined_canon": "oteydain",
+      "prose_line_text": "dar . chedy . sheedy . otal . al . lchedy . shcthy . qotey . dain . otar . otarar . opam",
+      "label_folio": "f72r3",
+      "label_loc": "f72r3.9",
+      "label_domain": "Zodiac",
+      "label_word": "oteeydaiin",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f116r",
+      "prose_loc": "f116r.23",
+      "prose_sec": "S",
+      "is_par_start": false,
+      "word_pos": 9,
+      "prose_bigram": "ain . aly",
+      "joined_canon": "ainaly",
+      "prose_line_text": "dain . cheeteey . lkar . shedy . qokal . shedy . qoteedy . ches . ain . ain . aly . salo . lm",
+      "label_folio": "f72r2",
+      "label_loc": "f72r2.30",
+      "label_domain": "Zodiac",
+      "label_word": "ainaly",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f19v",
+      "prose_loc": "f19v.5",
+      "prose_sec": "H",
+      "is_par_start": false,
+      "word_pos": 1,
+      "prose_bigram": "qoteey . daiin",
+      "joined_canon": "oteydain",
+      "prose_line_text": "qotchy . qoteey . daiin . doty . qot",
+      "label_folio": "f72r3",
+      "label_loc": "f72r3.9",
+      "label_domain": "Zodiac",
+      "label_word": "oteeydaiin",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f1r",
+      "prose_loc": "f1r.18",
+      "prose_sec": "T",
+      "is_par_start": false,
+      "word_pos": 0,
+      "prose_bigram": "yto . shol",
+      "joined_canon": "ytoshol",
+      "prose_line_text": "yto . shol . she . kodshey . cphealy . darain . dain . ckhyds",
+      "label_folio": "f68r2",
+      "label_loc": "f68r2.27",
+      "label_domain": "Astronomical",
+      "label_word": "otoshol",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f1v",
+      "prose_loc": "f1v.9",
+      "prose_sec": "H",
+      "is_par_start": false,
+      "word_pos": 8,
+      "prose_bigram": "dar . shody",
+      "joined_canon": "darshody",
+      "prose_line_text": "shor . okol . chol . dolky . dar . shol . dchor . otcho . dar . shody",
+      "label_folio": "f89v1",
+      "label_loc": "f89v1.4",
+      "label_domain": "Pharma_Botanical",
+      "label_word": "darshody",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f20r",
+      "prose_loc": "f20r.12",
+      "prose_sec": "H",
+      "is_par_start": false,
+      "word_pos": 5,
+      "prose_bigram": "qoteey . daiin",
+      "joined_canon": "oteydain",
+      "prose_line_text": "shoiin . cheody . otchey . otchy . tchy . qoteey . daiin . dar",
+      "label_folio": "f72r3",
+      "label_loc": "f72r3.9",
+      "label_domain": "Zodiac",
+      "label_word": "oteeydaiin",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f27r",
+      "prose_loc": "f27r.8",
+      "prose_sec": "H",
+      "is_par_start": false,
+      "word_pos": 2,
+      "prose_bigram": "tchol . dy",
+      "joined_canon": "tcholdy",
+      "prose_line_text": "ytchy . chy . tchol . dy . tchey . dain . chol . dal",
+      "label_folio": "f102v1",
+      "label_loc": "f102v1.16",
+      "label_domain": "Pharma_Botanical",
+      "label_word": "ypcholdy",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f28v",
+      "prose_loc": "f28v.4",
+      "prose_sec": "H",
+      "is_par_start": false,
+      "word_pos": 8,
+      "prose_bigram": "daiin . qoty",
+      "joined_canon": "dainqoty",
+      "prose_line_text": "tshoiin . cheor . chor . o . chty . qotol . sheol . shor . daiin . qoty",
+      "label_folio": "f82v",
+      "label_loc": "f82v.3",
+      "label_domain": "Bio_Nymph_Tube",
+      "label_word": "daiinoty",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f38v",
+      "prose_loc": "f38v.6",
+      "prose_sec": "H",
+      "is_par_start": false,
+      "word_pos": 3,
+      "prose_bigram": "tey . daiin",
+      "joined_canon": "teydain",
+      "prose_line_text": "sho . keeey . key . tey . daiin . daiiin . dain . dain",
+      "label_folio": "f72r3",
+      "label_loc": "f72r3.9",
+      "label_domain": "Zodiac",
+      "label_word": "oteeydaiin",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f39r",
+      "prose_loc": "f39r.8",
+      "prose_sec": "H",
+      "is_par_start": false,
+      "word_pos": 5,
+      "prose_bigram": "okam . chy",
+      "joined_canon": "okamchy",
+      "prose_line_text": "lchedy . shedy . qokaiin . chkeey . fchedy . okam . chy . saiin . chckhy . daisog",
+      "label_folio": "f83v",
+      "label_loc": "f83v.10",
+      "label_domain": "Bio_Nymph_Tube",
+      "label_word": "okarchy",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f39v",
+      "prose_loc": "f39v.2",
+      "prose_sec": "H",
+      "is_par_start": false,
+      "word_pos": 7,
+      "prose_bigram": "dar . chdy",
+      "joined_canon": "darchdy",
+      "prose_line_text": "sor . shy . kar . chol . qoty . kchdy . olky . dar . chdy . ykar . olkedaiin . ody . dy",
+      "label_folio": "fRos",
+      "label_loc": "fRos.93",
+      "label_domain": "Rosettes_Cosmo",
+      "label_word": "darchdy",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f3v",
+      "prose_loc": "f3v.4",
+      "prose_sec": "H",
+      "is_par_start": false,
+      "word_pos": 4,
+      "prose_bigram": "okal . do",
+      "joined_canon": "okaldo",
+      "prose_line_text": "qodar . ees . eey . kcheol . okal . do . r . cheareen",
+      "label_folio": "f88r",
+      "label_loc": "f88r.25",
+      "label_domain": "Pharma_Botanical",
+      "label_word": "ofaldo",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f44r",
+      "prose_loc": "f44r.5",
+      "prose_sec": "H",
+      "is_par_start": false,
+      "word_pos": 6,
+      "prose_bigram": "ytey . daiin",
+      "joined_canon": "yteydain",
+      "prose_line_text": "toy . shysho . qoteey . char . cheeky . sheey . ytey . daiin",
+      "label_folio": "f72r3",
+      "label_loc": "f72r3.9",
+      "label_domain": "Zodiac",
+      "label_word": "oteeydaiin",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f46r",
+      "prose_loc": "f46r.14",
+      "prose_sec": "H",
+      "is_par_start": false,
+      "word_pos": 5,
+      "prose_bigram": "dam . chdam",
+      "joined_canon": "damchdar",
+      "prose_line_text": "otchealkar . sholkshy . qokar . cheol . okal . dam . chdam . qokam",
+      "label_folio": "f77r",
+      "label_loc": "f77r.1",
+      "label_domain": "Bio_Nymph_Tube",
+      "label_word": "darchdar",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f54v",
+      "prose_loc": "f54v.10",
+      "prose_sec": "H",
+      "is_par_start": false,
+      "word_pos": 3,
+      "prose_bigram": "qokal . dal",
+      "joined_canon": "okaldal",
+      "prose_line_text": "kol . aiin . chckhy . qokal . dal . qocthy",
+      "label_folio": "f70v2",
+      "label_loc": "f70v2.30",
+      "label_domain": "Zodiac",
+      "label_word": "okaldal",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f54v",
+      "prose_loc": "f54v.5",
+      "prose_sec": "H",
+      "is_par_start": false,
+      "word_pos": 3,
+      "prose_bigram": "qokar . chy",
+      "joined_canon": "okarchy",
+      "prose_line_text": "odaiin . ytaiin . qodaim . qokar . chy . s . am",
+      "label_folio": "f83v",
+      "label_loc": "f83v.10",
+      "label_domain": "Bio_Nymph_Tube",
+      "label_word": "okarchy",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f56v",
+      "prose_loc": "f56v.2",
+      "prose_sec": "H",
+      "is_par_start": false,
+      "word_pos": 2,
+      "prose_bigram": "qoteey . daiin",
+      "joined_canon": "oteydain",
+      "prose_line_text": "shodshey . qoteeey . qoteey . daiin . qoteey . cthar",
+      "label_folio": "f72r3",
+      "label_loc": "f72r3.9",
+      "label_domain": "Zodiac",
+      "label_word": "oteeydaiin",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f58r",
+      "prose_loc": "f58r.10",
+      "prose_sec": "S",
+      "is_par_start": false,
+      "word_pos": 5,
+      "prose_bigram": "otar . aldy",
+      "joined_canon": "otaraldy",
+      "prose_line_text": "tal . ar . am . shar . chepchey . otar . aldy . otalcheam . qokaiin . ote . sy",
+      "label_folio": "f72r1",
+      "label_loc": "f72r1.8",
+      "label_domain": "Zodiac",
+      "label_word": "otaraldy",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f58r",
+      "prose_loc": "f58r.24",
+      "prose_sec": "S",
+      "is_par_start": false,
+      "word_pos": 2,
+      "prose_bigram": "okeal . ar",
+      "joined_canon": "okealar",
+      "prose_line_text": "tazain . oteeos . okeal . ar . otalor . cheoekar . cheky . otakas",
+      "label_folio": "f72r2",
+      "label_loc": "f72r2.5",
+      "label_domain": "Zodiac",
+      "label_word": "okealar",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f58r",
+      "prose_loc": "f58r.9",
+      "prose_sec": "S",
+      "is_par_start": false,
+      "word_pos": 4,
+      "prose_bigram": "aiin . arary",
+      "joined_canon": "ainarary",
+      "prose_line_text": "sholaiin . cheey . yteodaiin . qoar . aiin . arary . sheey . daiin . ealam",
+      "label_folio": "f72r1",
+      "label_loc": "f72r1.4",
+      "label_domain": "Zodiac",
+      "label_word": "oaiinarary",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f67r1",
+      "prose_loc": "f67r1.6",
+      "prose_sec": "A",
+      "is_par_start": false,
+      "word_pos": 1,
+      "prose_bigram": "al . cheol",
+      "joined_canon": "alcheol",
+      "prose_line_text": "dair . al . cheol . dal . oekaiin . sol . daiin . eetees . saiin . ykeos . l . chy . otodaiin . chetejy . otar . dair . ar . chedar . okeedy . oteodaiin . ychsy . chekeey . ot . dol . al . cheor . okeor . oiin . cheeky . ary . okeokeds . oshey . shchey . chol . dair . dain . cho . dar . aldy",
+      "label_folio": "f68r3",
+      "label_loc": "f68r3.12",
+      "label_domain": "Astronomical",
+      "label_word": "oalcheol",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f68r3",
+      "prose_loc": "f68r3.8",
+      "prose_sec": "A",
+      "is_par_start": false,
+      "word_pos": 1,
+      "prose_bigram": "oteey . daiin",
+      "joined_canon": "oteydain",
+      "prose_line_text": "keeoty . oteey . daiin . dcheeody . oteey",
+      "label_folio": "f72r3",
+      "label_loc": "f72r3.9",
+      "label_domain": "Zodiac",
+      "label_word": "oteeydaiin",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f68v1",
+      "prose_loc": "f68v1.2",
+      "prose_sec": "A",
+      "is_par_start": false,
+      "word_pos": 2,
+      "prose_bigram": "oteey . dain",
+      "joined_canon": "oteydain",
+      "prose_line_text": "chear . s . oteey . dain . dycheckhy . oteeos . oteol . okeor . okeeody . sho . ykeod . oteeol . okeeos . or . chos . or . o . aiin . chol . ykeey . sheo . s . cheoekeey . cheodaiir . cheekchey . chkeody . okchy . teeos . sh . cheoeky . okey . dleed . s . aly . oteotey . otechs . opain",
+      "label_folio": "f72r3",
+      "label_loc": "f72r3.9",
+      "label_domain": "Zodiac",
+      "label_word": "oteeydaiin",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f69r",
+      "prose_loc": "f69r.1",
+      "prose_sec": "C",
+      "is_par_start": false,
+      "word_pos": 8,
+      "prose_bigram": "otal . sar",
+      "joined_canon": "otalsar",
+      "prose_line_text": "tcheeos . shey . opaiin . chey . shey . qokeeyshdy . ol . ot . otal . sar",
+      "label_folio": "f71r",
+      "label_loc": "f71r.8",
+      "label_domain": "Zodiac",
+      "label_word": "otalsar",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f75r",
+      "prose_loc": "f75r.7",
+      "prose_sec": "B",
+      "is_par_start": false,
+      "word_pos": 4,
+      "prose_bigram": "qokar . chy",
+      "joined_canon": "okarchy",
+      "prose_line_text": "pchedy . qokshdy . ytain . chedy . qokar . chy . lol . chedy . qoky",
+      "label_folio": "f83v",
+      "label_loc": "f83v.10",
+      "label_domain": "Bio_Nymph_Tube",
+      "label_word": "okarchy",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f75v",
+      "prose_loc": "f75v.3",
+      "prose_sec": "B",
+      "is_par_start": false,
+      "word_pos": 3,
+      "prose_bigram": "okal . dal",
+      "joined_canon": "okaldal",
+      "prose_line_text": "sor . sheky . qokain . okal . dal . olchedy . daiin . chckhy . lkar . chckhyrom",
+      "label_folio": "f70v2",
+      "label_loc": "f70v2.30",
+      "label_domain": "Zodiac",
+      "label_word": "okaldal",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f75v",
+      "prose_loc": "f75v.7",
+      "prose_sec": "B",
+      "is_par_start": false,
+      "word_pos": 1,
+      "prose_bigram": "qokal . dal",
+      "joined_canon": "okaldal",
+      "prose_line_text": "qokchdy . qokal . dal . ol . chety . lchdy . shedy . ched . otedy . qotedy . otar",
+      "label_folio": "f70v2",
+      "label_loc": "f70v2.30",
+      "label_domain": "Zodiac",
+      "label_word": "okaldal",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f77v",
+      "prose_loc": "f77v.18",
+      "prose_sec": "B",
+      "is_par_start": false,
+      "word_pos": 4,
+      "prose_bigram": "qokal . dal",
+      "joined_canon": "okaldal",
+      "prose_line_text": "qokaiin . sheol . ekedy . qokey . qokal . dal . daly",
+      "label_folio": "f70v2",
+      "label_loc": "f70v2.30",
+      "label_domain": "Zodiac",
+      "label_word": "okaldal",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f78r",
+      "prose_loc": "f78r.29",
+      "prose_sec": "B",
+      "is_par_start": false,
+      "word_pos": 3,
+      "prose_bigram": "dain . oty",
+      "joined_canon": "dainoty",
+      "prose_line_text": "ssheky . olkedy . chckhy . dain . oty . qokor . oky . dain . chy . ol",
+      "label_folio": "f82v",
+      "label_loc": "f82v.3",
+      "label_domain": "Bio_Nymph_Tube",
+      "label_word": "daiinoty",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f78r",
+      "prose_loc": "f78r.34",
+      "prose_sec": "B",
+      "is_par_start": false,
+      "word_pos": 6,
+      "prose_bigram": "okeeal . am",
+      "joined_canon": "okealar",
+      "prose_line_text": "dshedy . qokeedy . qopchedy . qokaly . dar . okaiin . okeeal . am",
+      "label_folio": "f72r2",
+      "label_loc": "f72r2.5",
+      "label_domain": "Zodiac",
+      "label_word": "okealar",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f78v",
+      "prose_loc": "f78v.5",
+      "prose_sec": "B",
+      "is_par_start": false,
+      "word_pos": 8,
+      "prose_bigram": "okal . dal",
+      "joined_canon": "okaldal",
+      "prose_line_text": "qor . olkeey . olkain . ol . chsey . ol . cheeky . dar . okal . dal . olchedy",
+      "label_folio": "f70v2",
+      "label_loc": "f70v2.30",
+      "label_domain": "Zodiac",
+      "label_word": "okaldal",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f7v",
+      "prose_loc": "f7v.1",
+      "prose_sec": "H",
+      "is_par_start": false,
+      "word_pos": 4,
+      "prose_bigram": "otshol . dy",
+      "joined_canon": "otsholdy",
+      "prose_line_text": "polyshy . shey . tchody . qopchy . otshol . dy . daiin . tshodody",
+      "label_folio": "f99r",
+      "label_loc": "f99r.32",
+      "label_domain": "Pharma_Jar",
+      "label_word": "tsholdy",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f80r",
+      "prose_loc": "f80r.24",
+      "prose_sec": "B",
+      "is_par_start": false,
+      "word_pos": 4,
+      "prose_bigram": "dain . oty",
+      "joined_canon": "dainoty",
+      "prose_line_text": "lol . chey . rchy . rol . dain . oty . qoty . otalor . sheckhy . olkeey . ral . chedyor",
+      "label_folio": "f82v",
+      "label_loc": "f82v.3",
+      "label_domain": "Bio_Nymph_Tube",
+      "label_word": "daiinoty",
+      "label_prose_cnt": 0
+    },
+    {
+      "prose_folio": "f80v",
+      "prose_loc": "f80v.42",
+      "prose_sec": "B",
+      "is_par_start": false,
+      "word_pos": 0,
+      "prose_bigram": "pol . olaiin",
+      "joined_canon": "tololain",
+      "prose_line_text": "pol . olaiin . olkalshar . shedy . qokol . chdy . ldol . dar . al",
+      "label_folio": "f89v1",
+      "label_loc": "f89v1.23",
+      "label_domain": "Pharma_Botanical",
+      "label_word": "opololaiin",
+      "label_prose_cnt": 0
+    }
+  ],
+  "mode4_top_same_line_matches": [
+    {
+      "prose_folio": "f48v",
+      "prose_loc": "f48v.9",
+      "prose_sec": "H",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 8,
+      "gap": 1,
+      "prose_words": "otchdy . otoldy",
+      "prose_line_text": "tor . shody . okal . otchedy . cheky . oly . loldy . lol . otchdy . otoldy . ytam . otedy",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tchdy",
+        "toldy"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "fRos",
+      "label_loc": "fRos.45",
+      "label_domain": "Rosettes_Cosmo",
+      "label_words": "otchdy . otoldy",
+      "t1_counts_in_prose": [
+        83,
+        6
+      ],
+      "t2_counts_in_prose": [
+        117,
+        14
+      ],
+      "joint_rarity_bits": 19.53
+    },
+    {
+      "prose_folio": "f105r",
+      "prose_loc": "f105r.6",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": true,
+      "is_line_start": true,
+      "word_pos": 0,
+      "gap": 1,
+      "prose_words": "par . arody",
+      "prose_line_text": "par . arody . shedeeey . qopchedy . qody . qoteody . aiin . yteody . qokor . olpshedy",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "tar",
+        "arody"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f88v",
+      "label_loc": "f88v.4",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "otar . arody",
+      "t1_counts_in_prose": [
+        261,
+        10
+      ],
+      "t2_counts_in_prose": [
+        342,
+        10
+      ],
+      "joint_rarity_bits": 18.47
+    },
+    {
+      "prose_folio": "f114v",
+      "prose_loc": "f114v.37",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 8,
+      "gap": 1,
+      "prose_words": "tar . arody",
+      "prose_line_text": "dcheey . ol . cheodaiiin . qokar . otaiin . otal . okaiin . chey . tar . arody",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "tar",
+        "arody"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f88v",
+      "label_loc": "f88v.4",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "otar . arody",
+      "t1_counts_in_prose": [
+        261,
+        10
+      ],
+      "t2_counts_in_prose": [
+        342,
+        10
+      ],
+      "joint_rarity_bits": 18.47
+    },
+    {
+      "prose_folio": "f43v",
+      "prose_loc": "f43v.3",
+      "prose_sec": "H",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 4,
+      "gap": 1,
+      "prose_words": "chky . oky",
+      "prose_line_text": "tody . teedy . qot . chocthy . chky . oky . chdy . okedy . ykaiin . chey . ody . dary",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "chky",
+        "ky"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f68r3",
+      "label_loc": "f68r3.15",
+      "label_domain": "Astronomical",
+      "label_words": "chky . oky",
+      "t1_counts_in_prose": [
+        14,
+        231
+      ],
+      "t2_counts_in_prose": [
+        15,
+        260
+      ],
+      "joint_rarity_bits": 18.28
+    },
+    {
+      "prose_folio": "f58v",
+      "prose_loc": "f58v.6",
+      "prose_sec": "S",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 1,
+      "gap": 1,
+      "prose_words": "ar . aly",
+      "prose_line_text": "qokair . ar . aly . shor . daiin . choly . dal . ykaiin . org . fchey . okaly . oky",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "ar",
+        "aly"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f71v",
+      "label_loc": "f71v.9",
+      "label_domain": "Zodiac",
+      "label_words": "ar . aly",
+      "t1_counts_in_prose": [
+        268,
+        13
+      ],
+      "t2_counts_in_prose": [
+        295,
+        14
+      ],
+      "joint_rarity_bits": 18.2
+    },
+    {
+      "prose_folio": "f24r",
+      "prose_loc": "f24r.17",
+      "prose_sec": "H",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 1,
+      "gap": 1,
+      "prose_words": "otam . sham",
+      "prose_line_text": "sshey . otam . sham . cthoj . oky",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tar",
+        "shar"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f71v",
+      "label_loc": "f71v.16",
+      "label_domain": "Zodiac",
+      "label_words": "otar . shar",
+      "t1_counts_in_prose": [
+        261,
+        32
+      ],
+      "t2_counts_in_prose": [
+        342,
+        34
+      ],
+      "joint_rarity_bits": 16.71
+    },
+    {
+      "prose_folio": "f5r",
+      "prose_loc": "f5r.5",
+      "prose_sec": "H",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 5,
+      "gap": 1,
+      "prose_words": "qotcheo . daiin",
+      "prose_line_text": "tchy . shody . qoaiin . cholols . sho . qotcheo . daiin . shodaiin",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tcheo",
+        "dain"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f66r",
+      "label_loc": "f66r.82",
+      "label_domain": "Other_T",
+      "label_words": "otcheo . daiin",
+      "t1_counts_in_prose": [
+        6,
+        1002
+      ],
+      "t2_counts_in_prose": [
+        11,
+        1142
+      ],
+      "joint_rarity_bits": 16.59
+    },
+    {
+      "prose_folio": "f114v",
+      "prose_loc": "f114v.3",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 1,
+      "gap": 1,
+      "prose_words": "qotcheo . odain",
+      "prose_line_text": "oeos . qotcheo . odain . qotain . otar . qotchd . dol . qotchedy . choty . ol . lchdaiin . dal",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "tcheo",
+        "dain"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f66r",
+      "label_loc": "f66r.82",
+      "label_domain": "Other_T",
+      "label_words": "otcheo . daiin",
+      "t1_counts_in_prose": [
+        6,
+        1002
+      ],
+      "t2_counts_in_prose": [
+        11,
+        1142
+      ],
+      "joint_rarity_bits": 16.59
+    },
+    {
+      "prose_folio": "f86v4",
+      "prose_loc": "f86v4.2",
+      "prose_sec": "C",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 3,
+      "gap": 1,
+      "prose_words": "otedaiin . otedy",
+      "prose_line_text": "oeeey . o . daiin . otedaiin . otedy . oteey . chedaiin . octhedy . chy . shedaiin . chotaiin . oraiin . otodeee . ar . yteeody . oteedaraiin . shedaiin . chdar . shedy . qotedaiin . chedy . tchdy . chetdy . chedy . qotar . chedy . chckhy . daiin . otedy . seeedy . yteey . sam",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tedain",
+        "tedy"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "fRos",
+      "label_loc": "fRos.72",
+      "label_domain": "Rosettes_Cosmo",
+      "label_words": "otedain . otedy",
+      "t1_counts_in_prose": [
+        18,
+        424
+      ],
+      "t2_counts_in_prose": [
+        25,
+        525
+      ],
+      "joint_rarity_bits": 16.53
+    },
+    {
+      "prose_folio": "f21v",
+      "prose_loc": "f21v.4",
+      "prose_sec": "H",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 5,
+      "gap": 1,
+      "prose_words": "daiin . chty",
+      "prose_line_text": "sho . chodaiin . choty . chol . daiin . daiin . chty . chtol",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "dain",
+        "chty"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f66r",
+      "label_loc": "f66r.82",
+      "label_domain": "Other_T",
+      "label_words": "daiin . chty",
+      "t1_counts_in_prose": [
+        1002,
+        12
+      ],
+      "t2_counts_in_prose": [
+        1142,
+        13
+      ],
+      "joint_rarity_bits": 16.35
+    },
+    {
+      "prose_folio": "f112r",
+      "prose_loc": "f112r.5",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 4,
+      "gap": 1,
+      "prose_words": "otar . am",
+      "prose_line_text": "otairokody . otody . otal . okeeey . otar . am . oainoy",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tar",
+        "am"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f70v2",
+      "label_loc": "f70v2.22",
+      "label_domain": "Zodiac",
+      "label_words": "otar . am",
+      "t1_counts_in_prose": [
+        261,
+        53
+      ],
+      "t2_counts_in_prose": [
+        342,
+        53
+      ],
+      "joint_rarity_bits": 16.07
+    },
+    {
+      "prose_folio": "f104r",
+      "prose_loc": "f104r.10",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 4,
+      "gap": 2,
+      "prose_words": "os . l . air",
+      "prose_line_text": "tol . chedal . cheoy . otyd . os . l . air . shdy . qokchd . octheody . cholfor . otalr",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "os",
+        "air"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.15",
+      "label_domain": "Astronomical",
+      "label_words": "os . air",
+      "t1_counts_in_prose": [
+        26,
+        65
+      ],
+      "t2_counts_in_prose": [
+        26,
+        81
+      ],
+      "joint_rarity_bits": 19.17
+    },
+    {
+      "prose_folio": "f116r",
+      "prose_loc": "f116r.19",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 4,
+      "gap": 2,
+      "prose_words": "qotar . ar . arody",
+      "prose_line_text": "porchey . sheedy . qotain . chetar . qotar . ar . arody . chcthy . rain . otey . oty . dain",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tar",
+        "arody"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f88v",
+      "label_loc": "f88v.4",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "otar . arody",
+      "t1_counts_in_prose": [
+        261,
+        10
+      ],
+      "t2_counts_in_prose": [
+        342,
+        10
+      ],
+      "joint_rarity_bits": 18.47
+    },
+    {
+      "prose_folio": "f43r",
+      "prose_loc": "f43r.4",
+      "prose_sec": "H",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 6,
+      "gap": 2,
+      "prose_words": "qotaly . chedy . oty",
+      "prose_line_text": "dasar . yteytedykar . arar . she . kalchdy . cholky . qotaly . chedy . oty . otam",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "taly",
+        "ty"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f72v3",
+      "label_loc": "f72v3.32",
+      "label_domain": "Zodiac",
+      "label_words": "otaly . yty",
+      "t1_counts_in_prose": [
+        17,
+        22
+      ],
+      "t2_counts_in_prose": [
+        23,
+        228
+      ],
+      "joint_rarity_bits": 17.86
+    },
+    {
+      "prose_folio": "f105v",
+      "prose_loc": "f105v.34",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 6,
+      "gap": 2,
+      "prose_words": "otaiin . chedaiin . olkal",
+      "prose_line_text": "sheeo . daiin . chsd . qokeeey . dair . okaiin . otaiin . chedaiin . olkal . lkldain",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tain",
+        "olkal"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f81v",
+      "label_loc": "f81v.28",
+      "label_domain": "Bio_Nymph_Tube",
+      "label_words": "otain . olkal",
+      "t1_counts_in_prose": [
+        404,
+        11
+      ],
+      "t2_counts_in_prose": [
+        506,
+        11
+      ],
+      "joint_rarity_bits": 17.77
+    },
+    {
+      "prose_folio": "f55v",
+      "prose_loc": "f55v.5",
+      "prose_sec": "H",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 5,
+      "gap": 2,
+      "prose_words": "daiin . chedy . talam",
+      "prose_line_text": "qokaiin . chaiin . ykain . ykan . ody . daiin . chedy . talam",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "dain",
+        "talar"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.19",
+      "label_domain": "Astronomical",
+      "label_words": "daiin . otalam",
+      "t1_counts_in_prose": [
+        1002,
+        4
+      ],
+      "t2_counts_in_prose": [
+        1142,
+        8
+      ],
+      "joint_rarity_bits": 17.05
+    },
+    {
+      "prose_folio": "f8v",
+      "prose_loc": "f8v.12",
+      "prose_sec": "H",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 1,
+      "gap": 2,
+      "prose_words": "cho . rol . dal",
+      "prose_line_text": "pchar . cho . rol . dal . shear . chchotaiin . chal . daiin",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "cho",
+        "dal"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f67r2",
+      "label_loc": "f67r2.58",
+      "label_domain": "Astronomical",
+      "label_words": "cho . dal",
+      "t1_counts_in_prose": [
+        54,
+        188
+      ],
+      "t2_counts_in_prose": [
+        60,
+        208
+      ],
+      "joint_rarity_bits": 16.6
+    },
+    {
+      "prose_folio": "f24r",
+      "prose_loc": "f24r.10",
+      "prose_sec": "H",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 4,
+      "gap": 2,
+      "prose_words": "am . chotaiin . dy",
+      "prose_line_text": "qor . cfhar . chor . s . am . chotaiin . dy",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "am",
+        "dy"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f70v1",
+      "label_loc": "f70v1.2",
+      "label_domain": "Zodiac",
+      "label_words": "am . dy",
+      "t1_counts_in_prose": [
+        53,
+        180
+      ],
+      "t2_counts_in_prose": [
+        53,
+        236
+      ],
+      "joint_rarity_bits": 16.6
+    },
+    {
+      "prose_folio": "f83r",
+      "prose_loc": "f83r.22",
+      "prose_sec": "B",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 5,
+      "gap": 2,
+      "prose_words": "qotedaiin . otaiin . otedy",
+      "prose_line_text": "schedair . otchedy . qokeedy . chedain . chedy . qotedaiin . otaiin . otedy . ldy",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tedain",
+        "tedy"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "fRos",
+      "label_loc": "fRos.72",
+      "label_domain": "Rosettes_Cosmo",
+      "label_words": "otedain . otedy",
+      "t1_counts_in_prose": [
+        18,
+        424
+      ],
+      "t2_counts_in_prose": [
+        25,
+        525
+      ],
+      "joint_rarity_bits": 16.53
+    },
+    {
+      "prose_folio": "f114r",
+      "prose_loc": "f114r.20",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 6,
+      "gap": 2,
+      "prose_words": "qotedaiin . otar . otedy",
+      "prose_line_text": "sairchedaiin . dalchdy . daiidy . olchedy . chedaiin . oteedy . qotedaiin . otar . otedy . do . rol",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tedain",
+        "tedy"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "fRos",
+      "label_loc": "fRos.72",
+      "label_domain": "Rosettes_Cosmo",
+      "label_words": "otedain . otedy",
+      "t1_counts_in_prose": [
+        18,
+        424
+      ],
+      "t2_counts_in_prose": [
+        25,
+        525
+      ],
+      "joint_rarity_bits": 16.53
+    },
+    {
+      "prose_folio": "f58r",
+      "prose_loc": "f58r.15",
+      "prose_sec": "S",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 2,
+      "gap": 2,
+      "prose_words": "qopaim . cholaly . dy",
+      "prose_line_text": "daiir . shal . qopaim . cholaly . dy . shedy",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tair",
+        "dy"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f72r2",
+      "label_loc": "f72r2.14",
+      "label_domain": "Zodiac",
+      "label_words": "otair . dy",
+      "t1_counts_in_prose": [
+        34,
+        180
+      ],
+      "t2_counts_in_prose": [
+        59,
+        236
+      ],
+      "joint_rarity_bits": 16.45
+    },
+    {
+      "prose_folio": "f21v",
+      "prose_loc": "f21v.4",
+      "prose_sec": "H",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 4,
+      "gap": 2,
+      "prose_words": "daiin . daiin . chty",
+      "prose_line_text": "sho . chodaiin . choty . chol . daiin . daiin . chty . chtol",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "dain",
+        "chty"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f66r",
+      "label_loc": "f66r.82",
+      "label_domain": "Other_T",
+      "label_words": "daiin . chty",
+      "t1_counts_in_prose": [
+        1002,
+        12
+      ],
+      "t2_counts_in_prose": [
+        1142,
+        13
+      ],
+      "joint_rarity_bits": 16.35
+    },
+    {
+      "prose_folio": "f48v",
+      "prose_loc": "f48v.6",
+      "prose_sec": "H",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 11,
+      "gap": 2,
+      "prose_words": "ytar . chedy . am",
+      "prose_line_text": "shdy . qokain . okar . otar . or . otees . ol . or . ain . otal . ok . ytar . chedy . am",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "tar",
+        "am"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f70v2",
+      "label_loc": "f70v2.22",
+      "label_domain": "Zodiac",
+      "label_words": "otar . am",
+      "t1_counts_in_prose": [
+        261,
+        53
+      ],
+      "t2_counts_in_prose": [
+        342,
+        53
+      ],
+      "joint_rarity_bits": 16.07
+    },
+    {
+      "prose_folio": "f58v",
+      "prose_loc": "f58v.16",
+      "prose_sec": "S",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": true,
+      "word_pos": 0,
+      "gap": 2,
+      "prose_words": "ykam . qokair . okaly",
+      "prose_line_text": "ykam . qokair . okaly . qokal . chaly . cheockhey . olaly . taldaral",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "kar",
+        "kaly"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f67r2",
+      "label_loc": "f67r2.9",
+      "label_domain": "Astronomical",
+      "label_words": "ykar . ykaly",
+      "t1_counts_in_prose": [
+        39,
+        6
+      ],
+      "t2_counts_in_prose": [
+        419,
+        45
+      ],
+      "joint_rarity_bits": 16.01
+    },
+    {
+      "prose_folio": "f116r",
+      "prose_loc": "f116r.30",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 4,
+      "gap": 2,
+      "prose_words": "okar . airollaiin . okaly",
+      "prose_line_text": "saraiin . shey . qokain . chcthy . okar . airollaiin . okaly",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "kar",
+        "kaly"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f67r2",
+      "label_loc": "f67r2.9",
+      "label_domain": "Astronomical",
+      "label_words": "ykar . ykaly",
+      "t1_counts_in_prose": [
+        39,
+        6
+      ],
+      "t2_counts_in_prose": [
+        419,
+        45
+      ],
+      "joint_rarity_bits": 16.01
+    },
+    {
+      "prose_folio": "f66v",
+      "prose_loc": "f66v.4",
+      "prose_sec": "H",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 1,
+      "gap": 2,
+      "prose_words": "daiin . cheos . chety",
+      "prose_line_text": "shokeshy . daiin . cheos . chety . dol . chckhy . dal . kodal . chekal . dal",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "dain",
+        "chety"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f72v3",
+      "label_loc": "f72v3.13",
+      "label_domain": "Zodiac",
+      "label_words": "daiin . chepy",
+      "t1_counts_in_prose": [
+        1002,
+        32
+      ],
+      "t2_counts_in_prose": [
+        1142,
+        33
+      ],
+      "joint_rarity_bits": 15.01
+    },
+    {
+      "prose_folio": "f103v",
+      "prose_loc": "f103v.25",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 5,
+      "gap": 3,
+      "prose_words": "otal . oty . opar . aram",
+      "prose_line_text": "sain . olkeeey . qokan . oteedy . qotain . otal . oty . opar . aram . oteeam",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tal",
+        "arar"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f70v2",
+      "label_loc": "f70v2.16",
+      "label_domain": "Zodiac",
+      "label_words": "otal . arar",
+      "t1_counts_in_prose": [
+        177,
+        15
+      ],
+      "t2_counts_in_prose": [
+        205,
+        18
+      ],
+      "joint_rarity_bits": 18.36
+    },
+    {
+      "prose_folio": "f107r",
+      "prose_loc": "f107r.43",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 6,
+      "gap": 3,
+      "prose_words": "otal . taiin . chotaiir . aram",
+      "prose_line_text": "okeear . ay . daiin . sheody . ykchedy . chykaiin . otal . taiin . chotaiir . aram",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tal",
+        "arar"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f70v2",
+      "label_loc": "f70v2.16",
+      "label_domain": "Zodiac",
+      "label_words": "otal . arar",
+      "t1_counts_in_prose": [
+        177,
+        15
+      ],
+      "t2_counts_in_prose": [
+        205,
+        18
+      ],
+      "joint_rarity_bits": 18.36
+    },
+    {
+      "prose_folio": "f78v",
+      "prose_loc": "f78v.30",
+      "prose_sec": "B",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 6,
+      "gap": 3,
+      "prose_words": "okal . oltal . qokar . ary",
+      "prose_line_text": "sal . shol . sain . sheety . or . oiiin . okal . oltal . qokar . ary",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "kal",
+        "ary"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f67v1",
+      "label_loc": "f67v1.3",
+      "label_domain": "Astronomical",
+      "label_words": "okal . ary",
+      "t1_counts_in_prose": [
+        319,
+        14
+      ],
+      "t2_counts_in_prose": [
+        347,
+        14
+      ],
+      "joint_rarity_bits": 17.97
+    },
+    {
+      "prose_folio": "f115v",
+      "prose_loc": "f115v.22",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 4,
+      "gap": 3,
+      "prose_words": "otedain . qokeedy . qokeedy . qotedy",
+      "prose_line_text": "soiin . shedain . qokeedy . chodain . otedain . qokeedy . qokeedy . qotedy . rosy",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tedain",
+        "tedy"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "fRos",
+      "label_loc": "fRos.72",
+      "label_domain": "Rosettes_Cosmo",
+      "label_words": "otedain . otedy",
+      "t1_counts_in_prose": [
+        18,
+        424
+      ],
+      "t2_counts_in_prose": [
+        25,
+        525
+      ],
+      "joint_rarity_bits": 16.53
+    },
+    {
+      "prose_folio": "f57r",
+      "prose_loc": "f57r.8",
+      "prose_sec": "H",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": true,
+      "word_pos": 0,
+      "gap": 3,
+      "prose_words": "tair . sheedy . ochedy . dy",
+      "prose_line_text": "tair . sheedy . ochedy . dy . okchy . chedy . dal . qokedam",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "tair",
+        "dy"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f72r2",
+      "label_loc": "f72r2.14",
+      "label_domain": "Zodiac",
+      "label_words": "otair . dy",
+      "t1_counts_in_prose": [
+        34,
+        180
+      ],
+      "t2_counts_in_prose": [
+        59,
+        236
+      ],
+      "joint_rarity_bits": 16.45
+    },
+    {
+      "prose_folio": "f86v6",
+      "prose_loc": "f86v6.32",
+      "prose_sec": "T",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 6,
+      "gap": 3,
+      "prose_words": "qotar . olkchedy . qokaiin . am",
+      "prose_line_text": "qokeey . qoeear . chsey . oky . qokar . orchey . qotar . olkchedy . qokaiin . am",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tar",
+        "am"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f70v2",
+      "label_loc": "f70v2.22",
+      "label_domain": "Zodiac",
+      "label_words": "otar . am",
+      "t1_counts_in_prose": [
+        261,
+        53
+      ],
+      "t2_counts_in_prose": [
+        342,
+        53
+      ],
+      "joint_rarity_bits": 16.07
+    },
+    {
+      "prose_folio": "f105r",
+      "prose_loc": "f105r.20",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 3,
+      "gap": 3,
+      "prose_words": "paiir . olkaiin . olfaiin . odar",
+      "prose_line_text": "saiin . cheyteol . ykair . paiir . olkaiin . olfaiin . odar . al . airody . al . teedar . dam",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "tair",
+        "dar"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f65r",
+      "label_loc": "f65r.1",
+      "label_domain": "Other_H",
+      "label_words": "otaim . dam",
+      "t1_counts_in_prose": [
+        34,
+        347
+      ],
+      "t2_counts_in_prose": [
+        59,
+        389
+      ],
+      "joint_rarity_bits": 15.73
+    },
+    {
+      "prose_folio": "f31v",
+      "prose_loc": "f31v.7",
+      "prose_sec": "H",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 5,
+      "gap": 4,
+      "prose_words": "okal . oky . cheokar . okor . ary",
+      "prose_line_text": "olkeedam . ches . cholkeeol . checkhy . okeol . okal . oky . cheokar . okor . ary",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "kal",
+        "ary"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f67v1",
+      "label_loc": "f67v1.3",
+      "label_domain": "Astronomical",
+      "label_words": "okal . ary",
+      "t1_counts_in_prose": [
+        319,
+        14
+      ],
+      "t2_counts_in_prose": [
+        347,
+        14
+      ],
+      "joint_rarity_bits": 17.97
+    },
+    {
+      "prose_folio": "f104v",
+      "prose_loc": "f104v.33",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 9,
+      "gap": 4,
+      "prose_words": "odar . chedain . etar . arair . ary",
+      "prose_line_text": "yteeey . cheeod . ykeey . kaiin . qokaiin . cheey . or . ol . ar . odar . chedain . etar . arair . ary",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "dar",
+        "ary"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f99v",
+      "label_loc": "f99v.5",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "dar . ary",
+      "t1_counts_in_prose": [
+        347,
+        14
+      ],
+      "t2_counts_in_prose": [
+        389,
+        14
+      ],
+      "joint_rarity_bits": 17.8
+    },
+    {
+      "prose_folio": "f69v",
+      "prose_loc": "f69v.1",
+      "prose_sec": "C",
+      "prose_lang": "Unknown",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 27,
+      "gap": 4,
+      "prose_words": "yto . odair . oty . oteeo . dar",
+      "prose_line_text": "dair . cheyky . otaza . sararchykar . okoirshar . chetody . okeeos . otey . otokeeey . okeeody . okeey . doiir . teeo . y . chey . ot . y . okedy . chsdy . okeod . y . dy . choaiin . okar . okar . chol . chees . yto . odair . oty . oteeo . dar . oeykeody . dchor . char",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "to",
+        "dar"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.7",
+      "label_domain": "Astronomical",
+      "label_words": "oto . dar",
+      "t1_counts_in_prose": [
+        11,
+        347
+      ],
+      "t2_counts_in_prose": [
+        18,
+        389
+      ],
+      "joint_rarity_bits": 17.44
+    },
+    {
+      "prose_folio": "f79r",
+      "prose_loc": "f79r.12",
+      "prose_sec": "B",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 1,
+      "gap": 4,
+      "prose_words": "qotchey . ldain . shedy . qotaiin . sal",
+      "prose_line_text": "qokchy . qotchey . ldain . shedy . qotaiin . sal",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tchey",
+        "sal"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f70v1",
+      "label_loc": "f70v1.3",
+      "label_domain": "Zodiac",
+      "label_words": "opchey . sal",
+      "t1_counts_in_prose": [
+        101,
+        47
+      ],
+      "t2_counts_in_prose": [
+        154,
+        51
+      ],
+      "joint_rarity_bits": 17.27
+    },
+    {
+      "prose_folio": "f86v5",
+      "prose_loc": "f86v5.35",
+      "prose_sec": "T",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 4,
+      "gap": 4,
+      "prose_words": "ytaim . otal . shod . qokchy . qoody",
+      "prose_line_text": "ychey . or . aiin . ytair . ytaim . otal . shod . qokchy . qoody . saim",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "tair",
+        "dy"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f72r2",
+      "label_loc": "f72r2.14",
+      "label_domain": "Zodiac",
+      "label_words": "otair . dy",
+      "t1_counts_in_prose": [
+        34,
+        180
+      ],
+      "t2_counts_in_prose": [
+        59,
+        236
+      ],
+      "joint_rarity_bits": 16.45
+    },
+    {
+      "prose_folio": "f36r",
+      "prose_loc": "f36r.6",
+      "prose_sec": "H",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 2,
+      "gap": 4,
+      "prose_words": "ykaiiin . s . dain . an . dan",
+      "prose_line_text": "okaiin . cthor . ykaiiin . s . dain . an . dan",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "kain",
+        "dan"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f89r1",
+      "label_loc": "f89r1.14",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "okaiin . dan",
+      "t1_counts_in_prose": [
+        899,
+        12
+      ],
+      "t2_counts_in_prose": [
+        1029,
+        14
+      ],
+      "joint_rarity_bits": 16.4
+    },
+    {
+      "prose_folio": "f105v",
+      "prose_loc": "f105v.12",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 7,
+      "gap": 4,
+      "prose_words": "otar . otaiin . otal . tair . am",
+      "prose_line_text": "ysheedy . aiin . okeol . ykedor . ar . ar . alkair . otar . otaiin . otal . tair . am",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tar",
+        "am"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f70v2",
+      "label_loc": "f70v2.22",
+      "label_domain": "Zodiac",
+      "label_words": "otar . am",
+      "t1_counts_in_prose": [
+        261,
+        53
+      ],
+      "t2_counts_in_prose": [
+        342,
+        53
+      ],
+      "joint_rarity_bits": 16.07
+    },
+    {
+      "prose_folio": "f51r",
+      "prose_loc": "f51r.15",
+      "prose_sec": "H",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": true,
+      "word_pos": 0,
+      "gap": 5,
+      "prose_words": "qokol . cheor . ckhal . s . or . aldy",
+      "prose_line_text": "qokol . cheor . ckhal . s . or . aldy . otal",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "kol",
+        "aldy"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f67v1",
+      "label_loc": "f67v1.5",
+      "label_domain": "Astronomical",
+      "label_words": "okol . aldy",
+      "t1_counts_in_prose": [
+        160,
+        7
+      ],
+      "t2_counts_in_prose": [
+        198,
+        7
+      ],
+      "joint_rarity_bits": 19.77
+    },
+    {
+      "prose_folio": "f55r",
+      "prose_loc": "f55r.1",
+      "prose_sec": "H",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 2,
+      "gap": 5,
+      "prose_words": "qofair . okar . yk . chepaiin . qokchdy . os",
+      "prose_line_text": "podaiin . shekchy . qofair . okar . yk . chepaiin . qokchdy . os . arod",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "kair",
+        "os"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.15",
+      "label_domain": "Astronomical",
+      "label_words": "okair . os",
+      "t1_counts_in_prose": [
+        51,
+        26
+      ],
+      "t2_counts_in_prose": [
+        73,
+        26
+      ],
+      "joint_rarity_bits": 19.32
+    },
+    {
+      "prose_folio": "f105v",
+      "prose_loc": "f105v.11",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 4,
+      "gap": 5,
+      "prose_words": "os . aiin . chckhodu . qoteedy . ckhddl . aiir",
+      "prose_line_text": "roees . aiiin . ol . okaiin . os . aiin . chckhodu . qoteedy . ckhddl . aiir . ypar . kaiidy",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "os",
+        "air"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f69r",
+      "label_loc": "f69r.15",
+      "label_domain": "Astronomical",
+      "label_words": "os . air",
+      "t1_counts_in_prose": [
+        26,
+        65
+      ],
+      "t2_counts_in_prose": [
+        26,
+        81
+      ],
+      "joint_rarity_bits": 19.17
+    },
+    {
+      "prose_folio": "f104v",
+      "prose_loc": "f104v.33",
+      "prose_sec": "S",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 8,
+      "gap": 5,
+      "prose_words": "ar . odar . chedain . etar . arair . ary",
+      "prose_line_text": "yteeey . cheeod . ykeey . kaiin . qokaiin . cheey . or . ol . ar . odar . chedain . etar . arair . ary",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "ar",
+        "ary"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f72r1",
+      "label_loc": "f72r1.4",
+      "label_domain": "Zodiac",
+      "label_words": "ar . ary",
+      "t1_counts_in_prose": [
+        268,
+        14
+      ],
+      "t2_counts_in_prose": [
+        295,
+        14
+      ],
+      "joint_rarity_bits": 18.2
+    },
+    {
+      "prose_folio": "f40r",
+      "prose_loc": "f40r.6",
+      "prose_sec": "H",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": true,
+      "word_pos": 0,
+      "gap": 5,
+      "prose_words": "tor . or . ar . shok . or . am",
+      "prose_line_text": "tor . or . ar . shok . or . am . olshedy . qokam . chdy . kar . oraiin",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "tor",
+        "am"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f88r",
+      "label_loc": "f88r.24",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "otor . am",
+      "t1_counts_in_prose": [
+        74,
+        53
+      ],
+      "t2_counts_in_prose": [
+        108,
+        53
+      ],
+      "joint_rarity_bits": 17.73
+    },
+    {
+      "prose_folio": "f86v5",
+      "prose_loc": "f86v5.35",
+      "prose_sec": "T",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 3,
+      "gap": 5,
+      "prose_words": "ytair . ytaim . otal . shod . qokchy . qoody",
+      "prose_line_text": "ychey . or . aiin . ytair . ytaim . otal . shod . qokchy . qoody . saim",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "tair",
+        "dy"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f72r2",
+      "label_loc": "f72r2.14",
+      "label_domain": "Zodiac",
+      "label_words": "otair . dy",
+      "t1_counts_in_prose": [
+        34,
+        180
+      ],
+      "t2_counts_in_prose": [
+        59,
+        236
+      ],
+      "joint_rarity_bits": 16.45
+    },
+    {
+      "prose_folio": "f52r",
+      "prose_loc": "f52r.1",
+      "prose_sec": "H",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 2,
+      "gap": 5,
+      "prose_words": "ytair . shar . qofydaiin . ypchy . otchol . dar",
+      "prose_line_text": "tdokchcfhy . ycphko . ytair . shar . qofydaiin . ypchy . otchol . dar . yty",
+      "match_tier": "Tier2_Allographic_Stem",
+      "t2_pair": [
+        "tair",
+        "dar"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f65r",
+      "label_loc": "f65r.1",
+      "label_domain": "Other_H",
+      "label_words": "otaim . dam",
+      "t1_counts_in_prose": [
+        34,
+        347
+      ],
+      "t2_counts_in_prose": [
+        59,
+        389
+      ],
+      "joint_rarity_bits": 15.73
+    },
+    {
+      "prose_folio": "f36v",
+      "prose_loc": "f36v.2",
+      "prose_sec": "H",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 2,
+      "gap": 5,
+      "prose_words": "daiin . otaiin . qotor . ytar . ochor . chety",
+      "prose_line_text": "qotor . chol . daiin . otaiin . qotor . ytar . ochor . chety . ckhor . dom",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "dain",
+        "chety"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f72v3",
+      "label_loc": "f72v3.13",
+      "label_domain": "Zodiac",
+      "label_words": "daiin . chepy",
+      "t1_counts_in_prose": [
+        1002,
+        32
+      ],
+      "t2_counts_in_prose": [
+        1142,
+        33
+      ],
+      "joint_rarity_bits": 15.01
+    },
+    {
+      "prose_folio": "f36r",
+      "prose_loc": "f36r.6",
+      "prose_sec": "H",
+      "prose_lang": "A",
+      "is_par_start": false,
+      "is_line_start": true,
+      "word_pos": 0,
+      "gap": 6,
+      "prose_words": "okaiin . cthor . ykaiiin . s . dain . an . dan",
+      "prose_line_text": "okaiin . cthor . ykaiiin . s . dain . an . dan",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "kain",
+        "dan"
+      ],
+      "label_source_type": "Comma_MultiWord_Label",
+      "label_folio": "f89r1",
+      "label_loc": "f89r1.14",
+      "label_domain": "Pharma_Botanical",
+      "label_words": "okaiin . dan",
+      "t1_counts_in_prose": [
+        899,
+        12
+      ],
+      "t2_counts_in_prose": [
+        1029,
+        14
+      ],
+      "joint_rarity_bits": 16.4
+    },
+    {
+      "prose_folio": "f95v1",
+      "prose_loc": "f95v1.2",
+      "prose_sec": "H",
+      "prose_lang": "B",
+      "is_par_start": false,
+      "is_line_start": false,
+      "word_pos": 4,
+      "gap": 6,
+      "prose_words": "otar . oty . qokedy . otal . ytchdy . qokar . am",
+      "prose_line_text": "okshy . tshor . qoksh . qokain . otar . oty . qokedy . otal . ytchdy . qokar . am",
+      "match_tier": "Tier1_Canonical_Exact",
+      "t2_pair": [
+        "tar",
+        "am"
+      ],
+      "label_source_type": "Dot_MultiWord_Label",
+      "label_folio": "f70v2",
+      "label_loc": "f70v2.22",
+      "label_domain": "Zodiac",
+      "label_words": "otar . am",
+      "t1_counts_in_prose": [
+        261,
+        53
+      ],
+      "t2_counts_in_prose": [
+        342,
+        53
+      ],
+      "joint_rarity_bits": 16.07
+    }
+  ]
+}

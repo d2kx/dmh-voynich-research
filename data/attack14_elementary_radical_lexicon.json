@@ -1,0 +1,5050 @@
+{
+  "summary": {
+    "total_radical_token_instances": 48905,
+    "total_label_radical_instances": 1598,
+    "num_radicals_in_lexicon_table": 59,
+    "section_totals": {
+      "Section_T": 2874,
+      "Herbal_A": 10005,
+      "Herbal_B": 4332,
+      "Cosmological_Rosettes": 2898,
+      "Starred_Recipes": 14641,
+      "Herbal_Unknown": 60,
+      "Astronomical": 1239,
+      "Zodiac": 1820,
+      "Biological_Balneological": 7705,
+      "Pharmaceutical": 3331
+    },
+    "diagram_object_totals": {
+      "Other_Label_H": 17,
+      "Other_Label_C": 13,
+      "Other_Label_T": 11,
+      "Astro_Star_Spoke": 274,
+      "Zodiac_Barreled_Nymph": 194,
+      "Zodiac_Free_Nymph": 317,
+      "Bio_Bathing_Nymph": 48,
+      "Bio_Tube_Vessel": 61,
+      "Rosettes_Map_Label": 218,
+      "Pharma_Apothecary_Jar": 84,
+      "Pharma_Botanical_Plant": 361
+    },
+    "zodiac_trigon_totals": {
+      "Water": 156,
+      "Fire": 152,
+      "Earth": 121,
+      "Air": 82
+    }
+  },
+  "diagram_object_specialist_radicals": {
+    "Other_Label_H": [],
+    "Other_Label_C": [],
+    "Other_Label_T": [],
+    "Astro_Star_Spoke": [
+      {
+        "radical": "ko",
+        "label_count": 8,
+        "enrichment": 7.4,
+        "total_tokens": 193,
+        "o_rate": 0.472,
+        "q_rate": 0.197
+      },
+      {
+        "radical": "to",
+        "label_count": 10,
+        "enrichment": 6.13,
+        "total_tokens": 291,
+        "o_rate": 0.385,
+        "q_rate": 0.096
+      },
+      {
+        "radical": "am",
+        "label_count": 3,
+        "enrichment": 4.58,
+        "total_tokens": 117,
+        "o_rate": 0.051,
+        "q_rate": 0.009
+      },
+      {
+        "radical": "chk",
+        "label_count": 3,
+        "enrichment": 4.15,
+        "total_tokens": 129,
+        "o_rate": 0.0,
+        "q_rate": 0.0
+      },
+      {
+        "radical": "e",
+        "label_count": 6,
+        "enrichment": 3.17,
+        "total_tokens": 338,
+        "o_rate": 0.473,
+        "q_rate": 0.254
+      },
+      {
+        "radical": "ai",
+        "label_count": 4,
+        "enrichment": 2.95,
+        "total_tokens": 242,
+        "o_rate": 0.091,
+        "q_rate": 0.033
+      },
+      {
+        "radical": "ar",
+        "label_count": 12,
+        "enrichment": 2.47,
+        "total_tokens": 867,
+        "o_rate": 0.11,
+        "q_rate": 0.018
+      },
+      {
+        "radical": "y",
+        "label_count": 8,
+        "enrichment": 2.38,
+        "total_tokens": 601,
+        "o_rate": 0.03,
+        "q_rate": 0.017
+      },
+      {
+        "radical": "dch",
+        "label_count": 3,
+        "enrichment": 2.3,
+        "total_tokens": 233,
+        "o_rate": 0.026,
+        "q_rate": 0.009
+      },
+      {
+        "radical": "dai",
+        "label_count": 4,
+        "enrichment": 2.26,
+        "total_tokens": 316,
+        "o_rate": 0.098,
+        "q_rate": 0.025
+      },
+      {
+        "radical": "kch",
+        "label_count": 11,
+        "enrichment": 2.12,
+        "total_tokens": 924,
+        "o_rate": 0.534,
+        "q_rate": 0.284
+      },
+      {
+        "radical": "cho",
+        "label_count": 9,
+        "enrichment": 1.71,
+        "total_tokens": 939,
+        "o_rate": 0.082,
+        "q_rate": 0.038
+      }
+    ],
+    "Zodiac_Barreled_Nymph": [
+      {
+        "radical": "tal",
+        "label_count": 8,
+        "enrichment": 34.18,
+        "total_tokens": 59,
+        "o_rate": 0.746,
+        "q_rate": 0.068
+      },
+      {
+        "radical": "teo",
+        "label_count": 6,
+        "enrichment": 7.1,
+        "total_tokens": 213,
+        "o_rate": 0.751,
+        "q_rate": 0.08
+      },
+      {
+        "radical": "al",
+        "label_count": 24,
+        "enrichment": 7.09,
+        "total_tokens": 853,
+        "o_rate": 0.162,
+        "q_rate": 0.038
+      },
+      {
+        "radical": "am",
+        "label_count": 3,
+        "enrichment": 6.46,
+        "total_tokens": 117,
+        "o_rate": 0.051,
+        "q_rate": 0.009
+      },
+      {
+        "radical": "ar",
+        "label_count": 17,
+        "enrichment": 4.94,
+        "total_tokens": 867,
+        "o_rate": 0.11,
+        "q_rate": 0.018
+      },
+      {
+        "radical": "y",
+        "label_count": 5,
+        "enrichment": 2.1,
+        "total_tokens": 601,
+        "o_rate": 0.03,
+        "q_rate": 0.017
+      },
+      {
+        "radical": "t",
+        "label_count": 32,
+        "enrichment": 2.03,
+        "total_tokens": 3972,
+        "o_rate": 0.634,
+        "q_rate": 0.204
+      }
+    ],
+    "Zodiac_Free_Nymph": [
+      {
+        "radical": "air",
+        "label_count": 5,
+        "enrichment": 12.05,
+        "total_tokens": 64,
+        "o_rate": 0.188,
+        "q_rate": 0.031
+      },
+      {
+        "radical": "e",
+        "label_count": 10,
+        "enrichment": 4.56,
+        "total_tokens": 338,
+        "o_rate": 0.473,
+        "q_rate": 0.254
+      },
+      {
+        "radical": "teo",
+        "label_count": 6,
+        "enrichment": 4.35,
+        "total_tokens": 213,
+        "o_rate": 0.751,
+        "q_rate": 0.08
+      },
+      {
+        "radical": "a",
+        "label_count": 4,
+        "enrichment": 4.11,
+        "total_tokens": 150,
+        "o_rate": 0.18,
+        "q_rate": 0.053
+      },
+      {
+        "radical": "ke",
+        "label_count": 25,
+        "enrichment": 3.41,
+        "total_tokens": 1131,
+        "o_rate": 0.607,
+        "q_rate": 0.261
+      },
+      {
+        "radical": "al",
+        "label_count": 15,
+        "enrichment": 2.71,
+        "total_tokens": 853,
+        "o_rate": 0.162,
+        "q_rate": 0.038
+      },
+      {
+        "radical": "te",
+        "label_count": 9,
+        "enrichment": 2.54,
+        "total_tokens": 547,
+        "o_rate": 0.682,
+        "q_rate": 0.172
+      },
+      {
+        "radical": "to",
+        "label_count": 4,
+        "enrichment": 2.12,
+        "total_tokens": 291,
+        "o_rate": 0.385,
+        "q_rate": 0.096
+      },
+      {
+        "radical": "sheo",
+        "label_count": 3,
+        "enrichment": 2.06,
+        "total_tokens": 225,
+        "o_rate": 0.062,
+        "q_rate": 0.022
+      },
+      {
+        "radical": "keo",
+        "label_count": 4,
+        "enrichment": 2.04,
+        "total_tokens": 302,
+        "o_rate": 0.579,
+        "q_rate": 0.228
+      },
+      {
+        "radical": "or",
+        "label_count": 11,
+        "enrichment": 2.03,
+        "total_tokens": 838,
+        "o_rate": 0.049,
+        "q_rate": 0.058
+      },
+      {
+        "radical": "ai",
+        "label_count": 3,
+        "enrichment": 1.91,
+        "total_tokens": 242,
+        "o_rate": 0.091,
+        "q_rate": 0.033
+      }
+    ],
+    "Bio_Bathing_Nymph": [
+      {
+        "radical": "or",
+        "label_count": 3,
+        "enrichment": 3.65,
+        "total_tokens": 838,
+        "o_rate": 0.049,
+        "q_rate": 0.058
+      },
+      {
+        "radical": "al",
+        "label_count": 3,
+        "enrichment": 3.58,
+        "total_tokens": 853,
+        "o_rate": 0.162,
+        "q_rate": 0.038
+      },
+      {
+        "radical": "k",
+        "label_count": 10,
+        "enrichment": 1.72,
+        "total_tokens": 5921,
+        "o_rate": 0.696,
+        "q_rate": 0.404
+      }
+    ],
+    "Bio_Tube_Vessel": [
+      {
+        "radical": "o",
+        "label_count": 3,
+        "enrichment": 5.29,
+        "total_tokens": 455,
+        "o_rate": 0.051,
+        "q_rate": 0.075
+      },
+      {
+        "radical": "ol",
+        "label_count": 8,
+        "enrichment": 3.37,
+        "total_tokens": 1904,
+        "o_rate": 0.043,
+        "q_rate": 0.123
+      },
+      {
+        "radical": "ar",
+        "label_count": 3,
+        "enrichment": 2.77,
+        "total_tokens": 867,
+        "o_rate": 0.11,
+        "q_rate": 0.018
+      },
+      {
+        "radical": "d",
+        "label_count": 8,
+        "enrichment": 1.66,
+        "total_tokens": 3856,
+        "o_rate": 0.152,
+        "q_rate": 0.045
+      }
+    ],
+    "Rosettes_Map_Label": [
+      {
+        "radical": "dar",
+        "label_count": 3,
+        "enrichment": 13.2,
+        "total_tokens": 51,
+        "o_rate": 0.098,
+        "q_rate": 0.0
+      },
+      {
+        "radical": "a",
+        "label_count": 5,
+        "enrichment": 7.48,
+        "total_tokens": 150,
+        "o_rate": 0.18,
+        "q_rate": 0.053
+      },
+      {
+        "radical": "g",
+        "label_count": 3,
+        "enrichment": 5.22,
+        "total_tokens": 129,
+        "o_rate": 0.163,
+        "q_rate": 0.023
+      },
+      {
+        "radical": "to",
+        "label_count": 5,
+        "enrichment": 3.85,
+        "total_tokens": 291,
+        "o_rate": 0.385,
+        "q_rate": 0.096
+      },
+      {
+        "radical": "te",
+        "label_count": 6,
+        "enrichment": 2.46,
+        "total_tokens": 547,
+        "o_rate": 0.682,
+        "q_rate": 0.172
+      },
+      {
+        "radical": "e",
+        "label_count": 3,
+        "enrichment": 1.99,
+        "total_tokens": 338,
+        "o_rate": 0.473,
+        "q_rate": 0.254
+      },
+      {
+        "radical": "ar",
+        "label_count": 7,
+        "enrichment": 1.81,
+        "total_tokens": 867,
+        "o_rate": 0.11,
+        "q_rate": 0.018
+      },
+      {
+        "radical": "d",
+        "label_count": 30,
+        "enrichment": 1.75,
+        "total_tokens": 3856,
+        "o_rate": 0.152,
+        "q_rate": 0.045
+      }
+    ],
+    "Pharma_Apothecary_Jar": [
+      {
+        "radical": "dar",
+        "label_count": 4,
+        "enrichment": 45.66,
+        "total_tokens": 51,
+        "o_rate": 0.098,
+        "q_rate": 0.0
+      },
+      {
+        "radical": "g",
+        "label_count": 3,
+        "enrichment": 13.54,
+        "total_tokens": 129,
+        "o_rate": 0.163,
+        "q_rate": 0.023
+      },
+      {
+        "radical": "or",
+        "label_count": 6,
+        "enrichment": 4.17,
+        "total_tokens": 838,
+        "o_rate": 0.049,
+        "q_rate": 0.058
+      },
+      {
+        "radical": "ol",
+        "label_count": 7,
+        "enrichment": 2.14,
+        "total_tokens": 1904,
+        "o_rate": 0.043,
+        "q_rate": 0.123
+      },
+      {
+        "radical": "al",
+        "label_count": 3,
+        "enrichment": 2.05,
+        "total_tokens": 853,
+        "o_rate": 0.162,
+        "q_rate": 0.038
+      }
+    ],
+    "Pharma_Botanical_Plant": [
+      {
+        "radical": "kol",
+        "label_count": 3,
+        "enrichment": 18.47,
+        "total_tokens": 22,
+        "o_rate": 0.409,
+        "q_rate": 0.091
+      },
+      {
+        "radical": "dar",
+        "label_count": 5,
+        "enrichment": 13.28,
+        "total_tokens": 51,
+        "o_rate": 0.098,
+        "q_rate": 0.0
+      },
+      {
+        "radical": "tol",
+        "label_count": 4,
+        "enrichment": 7.97,
+        "total_tokens": 68,
+        "o_rate": 0.353,
+        "q_rate": 0.044
+      },
+      {
+        "radical": "so",
+        "label_count": 7,
+        "enrichment": 6.04,
+        "total_tokens": 157,
+        "o_rate": 0.038,
+        "q_rate": 0.0
+      },
+      {
+        "radical": "a",
+        "label_count": 5,
+        "enrichment": 4.52,
+        "total_tokens": 150,
+        "o_rate": 0.18,
+        "q_rate": 0.053
+      },
+      {
+        "radical": "ar",
+        "label_count": 22,
+        "enrichment": 3.44,
+        "total_tokens": 867,
+        "o_rate": 0.11,
+        "q_rate": 0.018
+      },
+      {
+        "radical": "or",
+        "label_count": 17,
+        "enrichment": 2.75,
+        "total_tokens": 838,
+        "o_rate": 0.049,
+        "q_rate": 0.058
+      },
+      {
+        "radical": "s",
+        "label_count": 26,
+        "enrichment": 2.72,
+        "total_tokens": 1294,
+        "o_rate": 0.066,
+        "q_rate": 0.014
+      },
+      {
+        "radical": "o",
+        "label_count": 8,
+        "enrichment": 2.38,
+        "total_tokens": 455,
+        "o_rate": 0.051,
+        "q_rate": 0.075
+      },
+      {
+        "radical": "to",
+        "label_count": 5,
+        "enrichment": 2.33,
+        "total_tokens": 291,
+        "o_rate": 0.385,
+        "q_rate": 0.096
+      },
+      {
+        "radical": "ko",
+        "label_count": 3,
+        "enrichment": 2.11,
+        "total_tokens": 193,
+        "o_rate": 0.472,
+        "q_rate": 0.197
+      }
+    ]
+  },
+  "empirical_radical_lexicon_table": [
+    {
+      "rank": 1,
+      "radical": "k",
+      "total_tokens": 5921,
+      "prose_tokens": 5777,
+      "label_tokens": 144,
+      "label_enrichment_vs_global": 0.74,
+      "standalone_rate": 0.79,
+      "compound_slot1_onset_share": 0.383,
+      "q_proclitic_rate": 0.404,
+      "o_nominal_rate": 0.696,
+      "y_initial_rate": 0.059,
+      "edy_dy_verbal_rate": 0.188,
+      "top_3_suffixes": [
+        {
+          "suffix": "ain",
+          "count": 1258,
+          "rate": 0.212
+        },
+        {
+          "suffix": "edy",
+          "count": 1052,
+          "rate": 0.178
+        },
+        {
+          "suffix": "ey",
+          "count": 997,
+          "rate": 0.168
+        }
+      ],
+      "peak_section": {
+        "section": "Biological_Balneological",
+        "count": 1430,
+        "enrichment": 1.53
+      },
+      "peak_diagram_object": {
+        "object_type": "Bio_Bathing_Nymph",
+        "count": 10,
+        "enrichment": 1.72
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_H": {
+          "count": 1,
+          "enrichment": 0.49
+        },
+        "Astro_Star_Spoke": {
+          "count": 15,
+          "enrichment": 0.45
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 14,
+          "enrichment": 0.6
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 45,
+          "enrichment": 1.17
+        },
+        "Bio_Bathing_Nymph": {
+          "count": 10,
+          "enrichment": 1.72
+        },
+        "Bio_Tube_Vessel": {
+          "count": 5,
+          "enrichment": 0.68
+        },
+        "Rosettes_Map_Label": {
+          "count": 18,
+          "enrichment": 0.68
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 10,
+          "enrichment": 0.98
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 26,
+          "enrichment": 0.59
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 18,
+          "enrichment": 0.95
+        },
+        "Fire": {
+          "count": 19,
+          "enrichment": 1.03
+        },
+        "Earth": {
+          "count": 6,
+          "enrichment": 0.41
+        },
+        "Air": {
+          "count": 16,
+          "enrichment": 1.61
+        }
+      },
+      "inferred_functional_class": "Nominal_Ingredient_Container_Radical (High o-)"
+    },
+    {
+      "rank": 2,
+      "radical": "t",
+      "total_tokens": 3972,
+      "prose_tokens": 3831,
+      "label_tokens": 141,
+      "label_enrichment_vs_global": 1.09,
+      "standalone_rate": 0.725,
+      "compound_slot1_onset_share": 0.6,
+      "q_proclitic_rate": 0.204,
+      "o_nominal_rate": 0.634,
+      "y_initial_rate": 0.085,
+      "edy_dy_verbal_rate": 0.164,
+      "top_3_suffixes": [
+        {
+          "suffix": "ain",
+          "count": 673,
+          "rate": 0.169
+        },
+        {
+          "suffix": "edy",
+          "count": 602,
+          "rate": 0.152
+        },
+        {
+          "suffix": "ar",
+          "count": 531,
+          "rate": 0.134
+        }
+      ],
+      "peak_section": {
+        "section": "Herbal_Unknown",
+        "count": 8,
+        "enrichment": 1.64
+      },
+      "peak_diagram_object": {
+        "object_type": "Zodiac_Barreled_Nymph",
+        "count": 32,
+        "enrichment": 2.03
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_T": {
+          "count": 1,
+          "enrichment": 1.12
+        },
+        "Astro_Star_Spoke": {
+          "count": 13,
+          "enrichment": 0.58
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 32,
+          "enrichment": 2.03
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 31,
+          "enrichment": 1.2
+        },
+        "Bio_Bathing_Nymph": {
+          "count": 4,
+          "enrichment": 1.03
+        },
+        "Bio_Tube_Vessel": {
+          "count": 6,
+          "enrichment": 1.21
+        },
+        "Rosettes_Map_Label": {
+          "count": 23,
+          "enrichment": 1.3
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 5,
+          "enrichment": 0.73
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 26,
+          "enrichment": 0.89
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 23,
+          "enrichment": 1.82
+        },
+        "Fire": {
+          "count": 22,
+          "enrichment": 1.78
+        },
+        "Earth": {
+          "count": 12,
+          "enrichment": 1.22
+        },
+        "Air": {
+          "count": 6,
+          "enrichment": 0.9
+        }
+      },
+      "inferred_functional_class": "Nominal_Ingredient_Container_Radical (High o-)"
+    },
+    {
+      "rank": 3,
+      "radical": "ch",
+      "total_tokens": 3938,
+      "prose_tokens": 3893,
+      "label_tokens": 45,
+      "label_enrichment_vs_global": 0.35,
+      "standalone_rate": 0.679,
+      "compound_slot1_onset_share": 0.525,
+      "q_proclitic_rate": 0.025,
+      "o_nominal_rate": 0.053,
+      "y_initial_rate": 0.028,
+      "edy_dy_verbal_rate": 0.259,
+      "top_3_suffixes": [
+        {
+          "suffix": "ey",
+          "count": 790,
+          "rate": 0.201
+        },
+        {
+          "suffix": "edy",
+          "count": 760,
+          "rate": 0.193
+        },
+        {
+          "suffix": "y",
+          "count": 655,
+          "rate": 0.166
+        }
+      ],
+      "peak_section": {
+        "section": "Herbal_A",
+        "count": 1068,
+        "enrichment": 1.33
+      },
+      "peak_diagram_object": {
+        "object_type": "Astro_Star_Spoke",
+        "count": 14,
+        "enrichment": 0.63
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 14,
+          "enrichment": 0.63
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 6,
+          "enrichment": 0.38
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 7,
+          "enrichment": 0.27
+        },
+        "Bio_Bathing_Nymph": {
+          "count": 2,
+          "enrichment": 0.52
+        },
+        "Bio_Tube_Vessel": {
+          "count": 2,
+          "enrichment": 0.41
+        },
+        "Rosettes_Map_Label": {
+          "count": 2,
+          "enrichment": 0.11
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 12,
+          "enrichment": 0.41
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 3,
+          "enrichment": 0.24
+        },
+        "Fire": {
+          "count": 5,
+          "enrichment": 0.41
+        },
+        "Earth": {
+          "count": 4,
+          "enrichment": 0.41
+        },
+        "Air": {
+          "count": 1,
+          "enrichment": 0.15
+        }
+      },
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 4,
+      "radical": "d",
+      "total_tokens": 3856,
+      "prose_tokens": 3750,
+      "label_tokens": 106,
+      "label_enrichment_vs_global": 0.84,
+      "standalone_rate": 0.616,
+      "compound_slot1_onset_share": 0.272,
+      "q_proclitic_rate": 0.045,
+      "o_nominal_rate": 0.152,
+      "y_initial_rate": 0.015,
+      "edy_dy_verbal_rate": 0.019,
+      "top_3_suffixes": [
+        {
+          "suffix": "ain",
+          "count": 1677,
+          "rate": 0.435
+        },
+        {
+          "suffix": "ar",
+          "count": 810,
+          "rate": 0.21
+        },
+        {
+          "suffix": "al",
+          "count": 466,
+          "rate": 0.121
+        }
+      ],
+      "peak_section": {
+        "section": "Herbal_A",
+        "count": 1129,
+        "enrichment": 1.43
+      },
+      "peak_diagram_object": {
+        "object_type": "Other_Label_C",
+        "count": 2,
+        "enrichment": 1.95
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_H": {
+          "count": 1,
+          "enrichment": 0.75
+        },
+        "Other_Label_C": {
+          "count": 2,
+          "enrichment": 1.95
+        },
+        "Other_Label_T": {
+          "count": 1,
+          "enrichment": 1.15
+        },
+        "Astro_Star_Spoke": {
+          "count": 23,
+          "enrichment": 1.06
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 7,
+          "enrichment": 0.46
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 7,
+          "enrichment": 0.28
+        },
+        "Bio_Bathing_Nymph": {
+          "count": 4,
+          "enrichment": 1.06
+        },
+        "Bio_Tube_Vessel": {
+          "count": 8,
+          "enrichment": 1.66
+        },
+        "Rosettes_Map_Label": {
+          "count": 30,
+          "enrichment": 1.75
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 4,
+          "enrichment": 0.6
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 19,
+          "enrichment": 0.67
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 5,
+          "enrichment": 0.41
+        },
+        "Fire": {
+          "count": 2,
+          "enrichment": 0.17
+        },
+        "Earth": {
+          "count": 4,
+          "enrichment": 0.42
+        },
+        "Air": {
+          "count": 3,
+          "enrichment": 0.46
+        }
+      },
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 5,
+      "radical": "sh",
+      "total_tokens": 2164,
+      "prose_tokens": 2139,
+      "label_tokens": 25,
+      "label_enrichment_vs_global": 0.35,
+      "standalone_rate": 0.758,
+      "compound_slot1_onset_share": 0.486,
+      "q_proclitic_rate": 0.014,
+      "o_nominal_rate": 0.035,
+      "y_initial_rate": 0.024,
+      "edy_dy_verbal_rate": 0.324,
+      "top_3_suffixes": [
+        {
+          "suffix": "edy",
+          "count": 603,
+          "rate": 0.279
+        },
+        {
+          "suffix": "ey",
+          "count": 543,
+          "rate": 0.251
+        },
+        {
+          "suffix": "y",
+          "count": 295,
+          "rate": 0.136
+        }
+      ],
+      "peak_section": {
+        "section": "Biological_Balneological",
+        "count": 564,
+        "enrichment": 1.65
+      },
+      "peak_diagram_object": {
+        "object_type": "Other_Label_T",
+        "count": 1,
+        "enrichment": 2.05
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_T": {
+          "count": 1,
+          "enrichment": 2.05
+        },
+        "Astro_Star_Spoke": {
+          "count": 5,
+          "enrichment": 0.41
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 6,
+          "enrichment": 0.7
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 4,
+          "enrichment": 0.29
+        },
+        "Rosettes_Map_Label": {
+          "count": 5,
+          "enrichment": 0.52
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 2,
+          "enrichment": 0.54
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 2,
+          "enrichment": 0.13
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 2,
+          "enrichment": 0.29
+        },
+        "Fire": {
+          "count": 2,
+          "enrichment": 0.3
+        },
+        "Earth": {
+          "count": 5,
+          "enrichment": 0.93
+        },
+        "Air": {
+          "count": 1,
+          "enrichment": 0.28
+        }
+      },
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 6,
+      "radical": "ol",
+      "total_tokens": 1904,
+      "prose_tokens": 1838,
+      "label_tokens": 66,
+      "label_enrichment_vs_global": 1.06,
+      "standalone_rate": 0.502,
+      "compound_slot1_onset_share": 0.63,
+      "q_proclitic_rate": 0.123,
+      "o_nominal_rate": 0.043,
+      "y_initial_rate": 0.014,
+      "edy_dy_verbal_rate": 0.156,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 831,
+          "rate": 0.436
+        },
+        {
+          "suffix": "dy",
+          "count": 179,
+          "rate": 0.094
+        },
+        {
+          "suffix": "ain",
+          "count": 152,
+          "rate": 0.08
+        }
+      ],
+      "peak_section": {
+        "section": "Biological_Balneological",
+        "count": 647,
+        "enrichment": 2.16
+      },
+      "peak_diagram_object": {
+        "object_type": "Bio_Tube_Vessel",
+        "count": 8,
+        "enrichment": 3.37
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_C": {
+          "count": 1,
+          "enrichment": 1.98
+        },
+        "Astro_Star_Spoke": {
+          "count": 10,
+          "enrichment": 0.94
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 6,
+          "enrichment": 0.79
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 10,
+          "enrichment": 0.81
+        },
+        "Bio_Bathing_Nymph": {
+          "count": 1,
+          "enrichment": 0.54
+        },
+        "Bio_Tube_Vessel": {
+          "count": 8,
+          "enrichment": 3.37
+        },
+        "Rosettes_Map_Label": {
+          "count": 5,
+          "enrichment": 0.59
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 7,
+          "enrichment": 2.14
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 18,
+          "enrichment": 1.28
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 9,
+          "enrichment": 1.48
+        },
+        "Fire": {
+          "count": 2,
+          "enrichment": 0.34
+        },
+        "Earth": {
+          "count": 4,
+          "enrichment": 0.85
+        },
+        "Air": {
+          "count": 1,
+          "enrichment": 0.31
+        }
+      },
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 7,
+      "radical": "che",
+      "total_tokens": 1747,
+      "prose_tokens": 1721,
+      "label_tokens": 26,
+      "label_enrichment_vs_global": 0.46,
+      "standalone_rate": 0.386,
+      "compound_slot1_onset_share": 0.722,
+      "q_proclitic_rate": 0.023,
+      "o_nominal_rate": 0.059,
+      "y_initial_rate": 0.038,
+      "edy_dy_verbal_rate": 0.024,
+      "top_3_suffixes": [
+        {
+          "suffix": "ol",
+          "count": 293,
+          "rate": 0.168
+        },
+        {
+          "suffix": "y",
+          "count": 254,
+          "rate": 0.145
+        },
+        {
+          "suffix": "or",
+          "count": 191,
+          "rate": 0.109
+        }
+      ],
+      "peak_section": {
+        "section": "Pharmaceutical",
+        "count": 178,
+        "enrichment": 1.5
+      },
+      "peak_diagram_object": {
+        "object_type": "Other_Label_T",
+        "count": 1,
+        "enrichment": 2.54
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_T": {
+          "count": 1,
+          "enrichment": 2.54
+        },
+        "Astro_Star_Spoke": {
+          "count": 6,
+          "enrichment": 0.61
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 1,
+          "enrichment": 0.14
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 8,
+          "enrichment": 0.71
+        },
+        "Rosettes_Map_Label": {
+          "count": 1,
+          "enrichment": 0.13
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 9,
+          "enrichment": 0.7
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 3,
+          "enrichment": 0.54
+        },
+        "Fire": {
+          "count": 4,
+          "enrichment": 0.74
+        },
+        "Earth": {
+          "count": 2,
+          "enrichment": 0.46
+        }
+      },
+      "inferred_functional_class": "Compound_Onset_Classifier_Radical (Slot 1)"
+    },
+    {
+      "rank": 8,
+      "radical": "tch",
+      "total_tokens": 1364,
+      "prose_tokens": 1337,
+      "label_tokens": 27,
+      "label_enrichment_vs_global": 0.61,
+      "standalone_rate": 0.74,
+      "compound_slot1_onset_share": 0.408,
+      "q_proclitic_rate": 0.209,
+      "o_nominal_rate": 0.518,
+      "y_initial_rate": 0.094,
+      "edy_dy_verbal_rate": 0.32,
+      "top_3_suffixes": [
+        {
+          "suffix": "y",
+          "count": 283,
+          "rate": 0.207
+        },
+        {
+          "suffix": "edy",
+          "count": 272,
+          "rate": 0.199
+        },
+        {
+          "suffix": "ey",
+          "count": 208,
+          "rate": 0.152
+        }
+      ],
+      "peak_section": {
+        "section": "Herbal_A",
+        "count": 471,
+        "enrichment": 1.69
+      },
+      "peak_diagram_object": {
+        "object_type": "Rosettes_Map_Label",
+        "count": 9,
+        "enrichment": 1.48
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 5,
+          "enrichment": 0.65
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 3,
+          "enrichment": 0.55
+        },
+        "Bio_Bathing_Nymph": {
+          "count": 1,
+          "enrichment": 0.75
+        },
+        "Rosettes_Map_Label": {
+          "count": 9,
+          "enrichment": 1.48
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 9,
+          "enrichment": 0.89
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Fire": {
+          "count": 1,
+          "enrichment": 0.24
+        },
+        "Earth": {
+          "count": 2,
+          "enrichment": 0.59
+        }
+      },
+      "inferred_functional_class": "Nominal_Ingredient_Container_Radical (High o-)"
+    },
+    {
+      "rank": 9,
+      "radical": "s",
+      "total_tokens": 1294,
+      "prose_tokens": 1238,
+      "label_tokens": 56,
+      "label_enrichment_vs_global": 1.32,
+      "standalone_rate": 0.704,
+      "compound_slot1_onset_share": 0.512,
+      "q_proclitic_rate": 0.014,
+      "o_nominal_rate": 0.066,
+      "y_initial_rate": 0.01,
+      "edy_dy_verbal_rate": 0.032,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 383,
+          "rate": 0.296
+        },
+        {
+          "suffix": "ain",
+          "count": 268,
+          "rate": 0.207
+        },
+        {
+          "suffix": "ar",
+          "count": 135,
+          "rate": 0.104
+        }
+      ],
+      "peak_section": {
+        "section": "Astronomical",
+        "count": 51,
+        "enrichment": 1.56
+      },
+      "peak_diagram_object": {
+        "object_type": "Pharma_Botanical_Plant",
+        "count": 26,
+        "enrichment": 2.72
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 9,
+          "enrichment": 1.24
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 5,
+          "enrichment": 0.97
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 8,
+          "enrichment": 0.95
+        },
+        "Bio_Bathing_Nymph": {
+          "count": 1,
+          "enrichment": 0.79
+        },
+        "Bio_Tube_Vessel": {
+          "count": 1,
+          "enrichment": 0.62
+        },
+        "Rosettes_Map_Label": {
+          "count": 6,
+          "enrichment": 1.04
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 26,
+          "enrichment": 2.72
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 6,
+          "enrichment": 1.45
+        },
+        "Fire": {
+          "count": 3,
+          "enrichment": 0.75
+        },
+        "Earth": {
+          "count": 3,
+          "enrichment": 0.94
+        },
+        "Air": {
+          "count": 1,
+          "enrichment": 0.46
+        }
+      },
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 10,
+      "radical": "ke",
+      "total_tokens": 1131,
+      "prose_tokens": 1087,
+      "label_tokens": 44,
+      "label_enrichment_vs_global": 1.19,
+      "standalone_rate": 0.584,
+      "compound_slot1_onset_share": 0.665,
+      "q_proclitic_rate": 0.261,
+      "o_nominal_rate": 0.607,
+      "y_initial_rate": 0.117,
+      "edy_dy_verbal_rate": 0.036,
+      "top_3_suffixes": [
+        {
+          "suffix": "ol",
+          "count": 249,
+          "rate": 0.22
+        },
+        {
+          "suffix": "ody",
+          "count": 219,
+          "rate": 0.194
+        },
+        {
+          "suffix": "or",
+          "count": 128,
+          "rate": 0.113
+        }
+      ],
+      "peak_section": {
+        "section": "Pharmaceutical",
+        "count": 186,
+        "enrichment": 2.41
+      },
+      "peak_diagram_object": {
+        "object_type": "Other_Label_T",
+        "count": 1,
+        "enrichment": 3.93
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_H": {
+          "count": 1,
+          "enrichment": 2.54
+        },
+        "Other_Label_T": {
+          "count": 1,
+          "enrichment": 3.93
+        },
+        "Astro_Star_Spoke": {
+          "count": 7,
+          "enrichment": 1.1
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 3,
+          "enrichment": 0.67
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 25,
+          "enrichment": 3.41
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 1,
+          "enrichment": 0.51
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 6,
+          "enrichment": 0.72
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 6,
+          "enrichment": 1.66
+        },
+        "Fire": {
+          "count": 10,
+          "enrichment": 2.84
+        },
+        "Earth": {
+          "count": 7,
+          "enrichment": 2.5
+        },
+        "Air": {
+          "count": 5,
+          "enrichment": 2.64
+        }
+      },
+      "inferred_functional_class": "Nominal_Ingredient_Container_Radical (High o-)"
+    },
+    {
+      "rank": 11,
+      "radical": "cth",
+      "total_tokens": 943,
+      "prose_tokens": 931,
+      "label_tokens": 12,
+      "label_enrichment_vs_global": 0.39,
+      "standalone_rate": 0.531,
+      "compound_slot1_onset_share": 0.12,
+      "q_proclitic_rate": 0.036,
+      "o_nominal_rate": 0.084,
+      "y_initial_rate": 0.008,
+      "edy_dy_verbal_rate": 0.084,
+      "top_3_suffixes": [
+        {
+          "suffix": "y",
+          "count": 403,
+          "rate": 0.427
+        },
+        {
+          "suffix": "ey",
+          "count": 132,
+          "rate": 0.14
+        },
+        {
+          "suffix": "ol",
+          "count": 80,
+          "rate": 0.085
+        }
+      ],
+      "peak_section": {
+        "section": "Herbal_A",
+        "count": 456,
+        "enrichment": 2.36
+      },
+      "peak_diagram_object": {
+        "object_type": "Astro_Star_Spoke",
+        "count": 6,
+        "enrichment": 1.14
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 6,
+          "enrichment": 1.14
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 1,
+          "enrichment": 0.27
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 1,
+          "enrichment": 0.16
+        },
+        "Rosettes_Map_Label": {
+          "count": 1,
+          "enrichment": 0.24
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 3,
+          "enrichment": 0.43
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Earth": {
+          "count": 1,
+          "enrichment": 0.43
+        },
+        "Air": {
+          "count": 1,
+          "enrichment": 0.63
+        }
+      },
+      "inferred_functional_class": "Compound_Coda_Specifier_Radical (Slot 2)"
+    },
+    {
+      "rank": 12,
+      "radical": "cho",
+      "total_tokens": 939,
+      "prose_tokens": 920,
+      "label_tokens": 19,
+      "label_enrichment_vs_global": 0.62,
+      "standalone_rate": 0.209,
+      "compound_slot1_onset_share": 0.773,
+      "q_proclitic_rate": 0.038,
+      "o_nominal_rate": 0.082,
+      "y_initial_rate": 0.033,
+      "edy_dy_verbal_rate": 0.029,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 230,
+          "rate": 0.245
+        },
+        {
+          "suffix": "y",
+          "count": 205,
+          "rate": 0.218
+        },
+        {
+          "suffix": "ain",
+          "count": 106,
+          "rate": 0.113
+        }
+      ],
+      "peak_section": {
+        "section": "Herbal_A",
+        "count": 473,
+        "enrichment": 2.46
+      },
+      "peak_diagram_object": {
+        "object_type": "Astro_Star_Spoke",
+        "count": 9,
+        "enrichment": 1.71
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 9,
+          "enrichment": 1.71
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 2,
+          "enrichment": 0.33
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 1,
+          "enrichment": 0.62
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 7,
+          "enrichment": 1.01
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 1,
+          "enrichment": 0.33
+        },
+        "Air": {
+          "count": 1,
+          "enrichment": 0.64
+        }
+      },
+      "inferred_functional_class": "Compound_Onset_Classifier_Radical (Slot 1)"
+    },
+    {
+      "rank": 13,
+      "radical": "kch",
+      "total_tokens": 924,
+      "prose_tokens": 899,
+      "label_tokens": 25,
+      "label_enrichment_vs_global": 0.83,
+      "standalone_rate": 0.774,
+      "compound_slot1_onset_share": 0.335,
+      "q_proclitic_rate": 0.284,
+      "o_nominal_rate": 0.534,
+      "y_initial_rate": 0.085,
+      "edy_dy_verbal_rate": 0.31,
+      "top_3_suffixes": [
+        {
+          "suffix": "y",
+          "count": 232,
+          "rate": 0.251
+        },
+        {
+          "suffix": "dy",
+          "count": 145,
+          "rate": 0.157
+        },
+        {
+          "suffix": "edy",
+          "count": 141,
+          "rate": 0.153
+        }
+      ],
+      "peak_section": {
+        "section": "Herbal_A",
+        "count": 332,
+        "enrichment": 1.76
+      },
+      "peak_diagram_object": {
+        "object_type": "Bio_Bathing_Nymph",
+        "count": 2,
+        "enrichment": 2.21
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 11,
+          "enrichment": 2.12
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 2,
+          "enrichment": 0.33
+        },
+        "Bio_Bathing_Nymph": {
+          "count": 2,
+          "enrichment": 2.21
+        },
+        "Bio_Tube_Vessel": {
+          "count": 2,
+          "enrichment": 1.74
+        },
+        "Rosettes_Map_Label": {
+          "count": 5,
+          "enrichment": 1.21
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 1,
+          "enrichment": 0.63
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 2,
+          "enrichment": 0.29
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Earth": {
+          "count": 1,
+          "enrichment": 0.44
+        },
+        "Air": {
+          "count": 1,
+          "enrichment": 0.65
+        }
+      },
+      "inferred_functional_class": "Verbal_Process_Root (High q- & -edy/-dy)"
+    },
+    {
+      "rank": 14,
+      "radical": "she",
+      "total_tokens": 898,
+      "prose_tokens": 888,
+      "label_tokens": 10,
+      "label_enrichment_vs_global": 0.34,
+      "standalone_rate": 0.451,
+      "compound_slot1_onset_share": 0.759,
+      "q_proclitic_rate": 0.007,
+      "o_nominal_rate": 0.02,
+      "y_initial_rate": 0.028,
+      "edy_dy_verbal_rate": 0.03,
+      "top_3_suffixes": [
+        {
+          "suffix": "ol",
+          "count": 159,
+          "rate": 0.177
+        },
+        {
+          "suffix": "y",
+          "count": 155,
+          "rate": 0.173
+        },
+        {
+          "suffix": "0",
+          "count": 94,
+          "rate": 0.105
+        }
+      ],
+      "peak_section": {
+        "section": "Herbal_Unknown",
+        "count": 3,
+        "enrichment": 2.72
+      },
+      "peak_diagram_object": {
+        "object_type": "Bio_Bathing_Nymph",
+        "count": 1,
+        "enrichment": 1.13
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 1,
+          "enrichment": 0.2
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 4,
+          "enrichment": 0.69
+        },
+        "Bio_Bathing_Nymph": {
+          "count": 1,
+          "enrichment": 1.13
+        },
+        "Rosettes_Map_Label": {
+          "count": 2,
+          "enrichment": 0.5
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 2,
+          "enrichment": 0.3
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 2,
+          "enrichment": 0.7
+        },
+        "Fire": {
+          "count": 1,
+          "enrichment": 0.36
+        },
+        "Earth": {
+          "count": 1,
+          "enrichment": 0.45
+        }
+      },
+      "inferred_functional_class": "Compound_Onset_Classifier_Radical (Slot 1)"
+    },
+    {
+      "rank": 15,
+      "radical": "ar",
+      "total_tokens": 867,
+      "prose_tokens": 796,
+      "label_tokens": 71,
+      "label_enrichment_vs_global": 2.51,
+      "standalone_rate": 0.618,
+      "compound_slot1_onset_share": 0.251,
+      "q_proclitic_rate": 0.018,
+      "o_nominal_rate": 0.11,
+      "y_initial_rate": 0.012,
+      "edy_dy_verbal_rate": 0.021,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 494,
+          "rate": 0.57
+        },
+        {
+          "suffix": "ar",
+          "count": 100,
+          "rate": 0.115
+        },
+        {
+          "suffix": "ain",
+          "count": 54,
+          "rate": 0.062
+        }
+      ],
+      "peak_section": {
+        "section": "Zodiac",
+        "count": 64,
+        "enrichment": 1.98
+      },
+      "peak_diagram_object": {
+        "object_type": "Zodiac_Barreled_Nymph",
+        "count": 17,
+        "enrichment": 4.94
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_C": {
+          "count": 1,
+          "enrichment": 4.34
+        },
+        "Astro_Star_Spoke": {
+          "count": 12,
+          "enrichment": 2.47
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 17,
+          "enrichment": 4.94
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 7,
+          "enrichment": 1.25
+        },
+        "Bio_Bathing_Nymph": {
+          "count": 1,
+          "enrichment": 1.18
+        },
+        "Bio_Tube_Vessel": {
+          "count": 3,
+          "enrichment": 2.77
+        },
+        "Rosettes_Map_Label": {
+          "count": 7,
+          "enrichment": 1.81
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 1,
+          "enrichment": 0.67
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 22,
+          "enrichment": 3.44
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 9,
+          "enrichment": 3.25
+        },
+        "Fire": {
+          "count": 5,
+          "enrichment": 1.86
+        },
+        "Earth": {
+          "count": 8,
+          "enrichment": 3.73
+        },
+        "Air": {
+          "count": 2,
+          "enrichment": 1.38
+        }
+      },
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 16,
+      "radical": "al",
+      "total_tokens": 853,
+      "prose_tokens": 791,
+      "label_tokens": 62,
+      "label_enrichment_vs_global": 2.22,
+      "standalone_rate": 0.428,
+      "compound_slot1_onset_share": 0.322,
+      "q_proclitic_rate": 0.038,
+      "o_nominal_rate": 0.162,
+      "y_initial_rate": 0.014,
+      "edy_dy_verbal_rate": 0.131,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 319,
+          "rate": 0.374
+        },
+        {
+          "suffix": "dy",
+          "count": 100,
+          "rate": 0.117
+        },
+        {
+          "suffix": "ar",
+          "count": 84,
+          "rate": 0.098
+        }
+      ],
+      "peak_section": {
+        "section": "Zodiac",
+        "count": 112,
+        "enrichment": 3.53
+      },
+      "peak_diagram_object": {
+        "object_type": "Zodiac_Barreled_Nymph",
+        "count": 24,
+        "enrichment": 7.09
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_H": {
+          "count": 1,
+          "enrichment": 3.37
+        },
+        "Astro_Star_Spoke": {
+          "count": 6,
+          "enrichment": 1.26
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 24,
+          "enrichment": 7.09
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 15,
+          "enrichment": 2.71
+        },
+        "Bio_Bathing_Nymph": {
+          "count": 3,
+          "enrichment": 3.58
+        },
+        "Bio_Tube_Vessel": {
+          "count": 1,
+          "enrichment": 0.94
+        },
+        "Rosettes_Map_Label": {
+          "count": 3,
+          "enrichment": 0.79
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 3,
+          "enrichment": 2.05
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 6,
+          "enrichment": 0.95
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 13,
+          "enrichment": 4.78
+        },
+        "Fire": {
+          "count": 11,
+          "enrichment": 4.15
+        },
+        "Earth": {
+          "count": 10,
+          "enrichment": 4.74
+        },
+        "Air": {
+          "count": 5,
+          "enrichment": 3.5
+        }
+      },
+      "inferred_functional_class": "Compound_Coda_Specifier_Radical (Slot 2)"
+    },
+    {
+      "rank": 17,
+      "radical": "ckh",
+      "total_tokens": 841,
+      "prose_tokens": 834,
+      "label_tokens": 7,
+      "label_enrichment_vs_global": 0.25,
+      "standalone_rate": 0.301,
+      "compound_slot1_onset_share": 0.037,
+      "q_proclitic_rate": 0.077,
+      "o_nominal_rate": 0.127,
+      "y_initial_rate": 0.014,
+      "edy_dy_verbal_rate": 0.092,
+      "top_3_suffixes": [
+        {
+          "suffix": "y",
+          "count": 455,
+          "rate": 0.541
+        },
+        {
+          "suffix": "ey",
+          "count": 160,
+          "rate": 0.19
+        },
+        {
+          "suffix": "ol",
+          "count": 46,
+          "rate": 0.055
+        }
+      ],
+      "peak_section": {
+        "section": "Herbal_Unknown",
+        "count": 3,
+        "enrichment": 2.91
+      },
+      "peak_diagram_object": {
+        "object_type": "Pharma_Botanical_Plant",
+        "count": 3,
+        "enrichment": 0.48
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 2,
+          "enrichment": 0.42
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 2,
+          "enrichment": 0.37
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 3,
+          "enrichment": 0.48
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 1,
+          "enrichment": 0.37
+        },
+        "Earth": {
+          "count": 1,
+          "enrichment": 0.48
+        }
+      },
+      "inferred_functional_class": "Compound_Coda_Specifier_Radical (Slot 2)"
+    },
+    {
+      "rank": 18,
+      "radical": "or",
+      "total_tokens": 838,
+      "prose_tokens": 792,
+      "label_tokens": 46,
+      "label_enrichment_vs_global": 1.68,
+      "standalone_rate": 0.665,
+      "compound_slot1_onset_share": 0.374,
+      "q_proclitic_rate": 0.058,
+      "o_nominal_rate": 0.049,
+      "y_initial_rate": 0.01,
+      "edy_dy_verbal_rate": 0.024,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 475,
+          "rate": 0.567
+        },
+        {
+          "suffix": "ain",
+          "count": 117,
+          "rate": 0.14
+        },
+        {
+          "suffix": "ar",
+          "count": 45,
+          "rate": 0.054
+        }
+      ],
+      "peak_section": {
+        "section": "Pharmaceutical",
+        "count": 104,
+        "enrichment": 1.82
+      },
+      "peak_diagram_object": {
+        "object_type": "Other_Label_T",
+        "count": 1,
+        "enrichment": 5.31
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_T": {
+          "count": 1,
+          "enrichment": 5.31
+        },
+        "Astro_Star_Spoke": {
+          "count": 2,
+          "enrichment": 0.43
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 11,
+          "enrichment": 2.03
+        },
+        "Bio_Bathing_Nymph": {
+          "count": 3,
+          "enrichment": 3.65
+        },
+        "Bio_Tube_Vessel": {
+          "count": 2,
+          "enrichment": 1.91
+        },
+        "Rosettes_Map_Label": {
+          "count": 4,
+          "enrichment": 1.07
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 6,
+          "enrichment": 4.17
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 17,
+          "enrichment": 2.75
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 6,
+          "enrichment": 2.24
+        },
+        "Fire": {
+          "count": 2,
+          "enrichment": 0.77
+        },
+        "Earth": {
+          "count": 2,
+          "enrichment": 0.96
+        },
+        "Air": {
+          "count": 1,
+          "enrichment": 0.71
+        }
+      },
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 19,
+      "radical": "ain",
+      "total_tokens": 827,
+      "prose_tokens": 808,
+      "label_tokens": 19,
+      "label_enrichment_vs_global": 0.7,
+      "standalone_rate": 0.918,
+      "compound_slot1_onset_share": 0.103,
+      "q_proclitic_rate": 0.041,
+      "o_nominal_rate": 0.093,
+      "y_initial_rate": 0.007,
+      "edy_dy_verbal_rate": 0.007,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 758,
+          "rate": 0.917
+        },
+        {
+          "suffix": "y",
+          "count": 23,
+          "rate": 0.028
+        },
+        {
+          "suffix": "ar",
+          "count": 9,
+          "rate": 0.011
+        }
+      ],
+      "peak_section": {
+        "section": "Starred_Recipes",
+        "count": 359,
+        "enrichment": 1.45
+      },
+      "peak_diagram_object": {
+        "object_type": "Zodiac_Barreled_Nymph",
+        "count": 4,
+        "enrichment": 1.22
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 1,
+          "enrichment": 0.22
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 4,
+          "enrichment": 1.22
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 6,
+          "enrichment": 1.12
+        },
+        "Bio_Tube_Vessel": {
+          "count": 1,
+          "enrichment": 0.97
+        },
+        "Rosettes_Map_Label": {
+          "count": 2,
+          "enrichment": 0.54
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 1,
+          "enrichment": 0.7
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 4,
+          "enrichment": 0.66
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 1,
+          "enrichment": 0.38
+        },
+        "Fire": {
+          "count": 1,
+          "enrichment": 0.39
+        },
+        "Earth": {
+          "count": 6,
+          "enrichment": 2.93
+        },
+        "Air": {
+          "count": 2,
+          "enrichment": 1.44
+        }
+      },
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 20,
+      "radical": "y",
+      "total_tokens": 601,
+      "prose_tokens": 576,
+      "label_tokens": 25,
+      "label_enrichment_vs_global": 1.27,
+      "standalone_rate": 0.586,
+      "compound_slot1_onset_share": 0.1,
+      "q_proclitic_rate": 0.017,
+      "o_nominal_rate": 0.03,
+      "y_initial_rate": 0.01,
+      "edy_dy_verbal_rate": 0.043,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 485,
+          "rate": 0.807
+        },
+        {
+          "suffix": "dy",
+          "count": 22,
+          "rate": 0.037
+        },
+        {
+          "suffix": "d",
+          "count": 16,
+          "rate": 0.027
+        }
+      ],
+      "peak_section": {
+        "section": "Herbal_Unknown",
+        "count": 1,
+        "enrichment": 1.36
+      },
+      "peak_diagram_object": {
+        "object_type": "Other_Label_T",
+        "count": 1,
+        "enrichment": 7.4
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_T": {
+          "count": 1,
+          "enrichment": 7.4
+        },
+        "Astro_Star_Spoke": {
+          "count": 8,
+          "enrichment": 2.38
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 5,
+          "enrichment": 2.1
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 4,
+          "enrichment": 1.03
+        },
+        "Bio_Tube_Vessel": {
+          "count": 1,
+          "enrichment": 1.33
+        },
+        "Rosettes_Map_Label": {
+          "count": 2,
+          "enrichment": 0.75
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 4,
+          "enrichment": 0.9
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 1,
+          "enrichment": 0.52
+        },
+        "Fire": {
+          "count": 2,
+          "enrichment": 1.07
+        },
+        "Earth": {
+          "count": 5,
+          "enrichment": 3.36
+        },
+        "Air": {
+          "count": 1,
+          "enrichment": 0.99
+        }
+      },
+      "inferred_functional_class": "Compound_Coda_Specifier_Radical (Slot 2)"
+    },
+    {
+      "rank": 21,
+      "radical": "l",
+      "total_tokens": 593,
+      "prose_tokens": 587,
+      "label_tokens": 6,
+      "label_enrichment_vs_global": 0.31,
+      "standalone_rate": 0.634,
+      "compound_slot1_onset_share": 0.82,
+      "q_proclitic_rate": 0.003,
+      "o_nominal_rate": 0.02,
+      "y_initial_rate": 0.0,
+      "edy_dy_verbal_rate": 0.088,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 220,
+          "rate": 0.371
+        },
+        {
+          "suffix": "or",
+          "count": 61,
+          "rate": 0.103
+        },
+        {
+          "suffix": "ol",
+          "count": 59,
+          "rate": 0.099
+        }
+      ],
+      "peak_section": {
+        "section": "Starred_Recipes",
+        "count": 305,
+        "enrichment": 1.72
+      },
+      "peak_diagram_object": {
+        "object_type": "Bio_Tube_Vessel",
+        "count": 1,
+        "enrichment": 1.35
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 1,
+          "enrichment": 0.3
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 2,
+          "enrichment": 0.52
+        },
+        "Bio_Tube_Vessel": {
+          "count": 1,
+          "enrichment": 1.35
+        },
+        "Rosettes_Map_Label": {
+          "count": 1,
+          "enrichment": 0.38
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 1,
+          "enrichment": 0.23
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Fire": {
+          "count": 1,
+          "enrichment": 0.54
+        },
+        "Air": {
+          "count": 1,
+          "enrichment": 1.01
+        }
+      },
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 22,
+      "radical": "te",
+      "total_tokens": 547,
+      "prose_tokens": 519,
+      "label_tokens": 28,
+      "label_enrichment_vs_global": 1.57,
+      "standalone_rate": 0.611,
+      "compound_slot1_onset_share": 0.817,
+      "q_proclitic_rate": 0.172,
+      "o_nominal_rate": 0.682,
+      "y_initial_rate": 0.099,
+      "edy_dy_verbal_rate": 0.027,
+      "top_3_suffixes": [
+        {
+          "suffix": "ody",
+          "count": 123,
+          "rate": 0.225
+        },
+        {
+          "suffix": "ol",
+          "count": 108,
+          "rate": 0.197
+        },
+        {
+          "suffix": "ar",
+          "count": 61,
+          "rate": 0.112
+        }
+      ],
+      "peak_section": {
+        "section": "Zodiac",
+        "count": 76,
+        "enrichment": 3.73
+      },
+      "peak_diagram_object": {
+        "object_type": "Bio_Tube_Vessel",
+        "count": 2,
+        "enrichment": 2.93
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 3,
+          "enrichment": 0.98
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 3,
+          "enrichment": 1.38
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 9,
+          "enrichment": 2.54
+        },
+        "Bio_Bathing_Nymph": {
+          "count": 1,
+          "enrichment": 1.86
+        },
+        "Bio_Tube_Vessel": {
+          "count": 2,
+          "enrichment": 2.93
+        },
+        "Rosettes_Map_Label": {
+          "count": 6,
+          "enrichment": 2.46
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 1,
+          "enrichment": 1.06
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 3,
+          "enrichment": 0.74
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 3,
+          "enrichment": 1.72
+        },
+        "Fire": {
+          "count": 6,
+          "enrichment": 3.53
+        },
+        "Earth": {
+          "count": 1,
+          "enrichment": 0.74
+        },
+        "Air": {
+          "count": 2,
+          "enrichment": 2.18
+        }
+      },
+      "inferred_functional_class": "Concrete_Diagram_Noun_Radical (Bio_Tube_Vessel)"
+    },
+    {
+      "rank": 23,
+      "radical": "dy",
+      "total_tokens": 524,
+      "prose_tokens": 508,
+      "label_tokens": 16,
+      "label_enrichment_vs_global": 0.93,
+      "standalone_rate": 0.689,
+      "compound_slot1_onset_share": 0.331,
+      "q_proclitic_rate": 0.107,
+      "o_nominal_rate": 0.242,
+      "y_initial_rate": 0.004,
+      "edy_dy_verbal_rate": 0.042,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 414,
+          "rate": 0.79
+        },
+        {
+          "suffix": "y",
+          "count": 22,
+          "rate": 0.042
+        },
+        {
+          "suffix": "dy",
+          "count": 15,
+          "rate": 0.029
+        }
+      ],
+      "peak_section": {
+        "section": "Herbal_Unknown",
+        "count": 3,
+        "enrichment": 4.67
+      },
+      "peak_diagram_object": {
+        "object_type": "Zodiac_Free_Nymph",
+        "count": 6,
+        "enrichment": 1.77
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 2,
+          "enrichment": 0.68
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 2,
+          "enrichment": 0.96
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 6,
+          "enrichment": 1.77
+        },
+        "Rosettes_Map_Label": {
+          "count": 2,
+          "enrichment": 0.86
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 4,
+          "enrichment": 1.03
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 3,
+          "enrichment": 1.79
+        },
+        "Fire": {
+          "count": 2,
+          "enrichment": 1.23
+        },
+        "Earth": {
+          "count": 2,
+          "enrichment": 1.54
+        },
+        "Air": {
+          "count": 1,
+          "enrichment": 1.14
+        }
+      },
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 24,
+      "radical": "cheo",
+      "total_tokens": 476,
+      "prose_tokens": 469,
+      "label_tokens": 7,
+      "label_enrichment_vs_global": 0.45,
+      "standalone_rate": 0.401,
+      "compound_slot1_onset_share": 0.656,
+      "q_proclitic_rate": 0.027,
+      "o_nominal_rate": 0.057,
+      "y_initial_rate": 0.076,
+      "edy_dy_verbal_rate": 0.013,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 195,
+          "rate": 0.41
+        },
+        {
+          "suffix": "s",
+          "count": 74,
+          "rate": 0.155
+        },
+        {
+          "suffix": "y",
+          "count": 54,
+          "rate": 0.113
+        }
+      ],
+      "peak_section": {
+        "section": "Herbal_Unknown",
+        "count": 2,
+        "enrichment": 3.42
+      },
+      "peak_diagram_object": {
+        "object_type": "Other_Label_T",
+        "count": 1,
+        "enrichment": 9.34
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_T": {
+          "count": 1,
+          "enrichment": 9.34
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 3,
+          "enrichment": 0.97
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 3,
+          "enrichment": 0.85
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Earth": {
+          "count": 2,
+          "enrichment": 1.7
+        },
+        "Air": {
+          "count": 1,
+          "enrichment": 1.25
+        }
+      },
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 25,
+      "radical": "sho",
+      "total_tokens": 462,
+      "prose_tokens": 459,
+      "label_tokens": 3,
+      "label_enrichment_vs_global": 0.2,
+      "standalone_rate": 0.394,
+      "compound_slot1_onset_share": 0.736,
+      "q_proclitic_rate": 0.004,
+      "o_nominal_rate": 0.041,
+      "y_initial_rate": 0.022,
+      "edy_dy_verbal_rate": 0.017,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 209,
+          "rate": 0.452
+        },
+        {
+          "suffix": "y",
+          "count": 74,
+          "rate": 0.16
+        },
+        {
+          "suffix": "ain",
+          "count": 48,
+          "rate": 0.104
+        }
+      ],
+      "peak_section": {
+        "section": "Herbal_A",
+        "count": 247,
+        "enrichment": 2.61
+      },
+      "peak_diagram_object": {
+        "object_type": "Pharma_Botanical_Plant",
+        "count": 2,
+        "enrichment": 0.59
+      },
+      "diagram_object_breakdown": {
+        "Zodiac_Barreled_Nymph": {
+          "count": 1,
+          "enrichment": 0.55
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 2,
+          "enrichment": 0.59
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Earth": {
+          "count": 1,
+          "enrichment": 0.87
+        }
+      },
+      "inferred_functional_class": "Compound_Onset_Classifier_Radical (Slot 1)"
+    },
+    {
+      "rank": 26,
+      "radical": "r",
+      "total_tokens": 458,
+      "prose_tokens": 447,
+      "label_tokens": 11,
+      "label_enrichment_vs_global": 0.74,
+      "standalone_rate": 0.775,
+      "compound_slot1_onset_share": 0.583,
+      "q_proclitic_rate": 0.0,
+      "o_nominal_rate": 0.007,
+      "y_initial_rate": 0.002,
+      "edy_dy_verbal_rate": 0.011,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 172,
+          "rate": 0.376
+        },
+        {
+          "suffix": "ain",
+          "count": 102,
+          "rate": 0.223
+        },
+        {
+          "suffix": "ar",
+          "count": 44,
+          "rate": 0.096
+        }
+      ],
+      "peak_section": {
+        "section": "Biological_Balneological",
+        "count": 104,
+        "enrichment": 1.44
+      },
+      "peak_diagram_object": {
+        "object_type": "Other_Label_T",
+        "count": 1,
+        "enrichment": 9.71
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_H": {
+          "count": 1,
+          "enrichment": 6.28
+        },
+        "Other_Label_C": {
+          "count": 1,
+          "enrichment": 8.21
+        },
+        "Other_Label_T": {
+          "count": 1,
+          "enrichment": 9.71
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 1,
+          "enrichment": 0.55
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 1,
+          "enrichment": 0.34
+        },
+        "Bio_Bathing_Nymph": {
+          "count": 1,
+          "enrichment": 2.22
+        },
+        "Rosettes_Map_Label": {
+          "count": 2,
+          "enrichment": 0.98
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 1,
+          "enrichment": 1.27
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 2,
+          "enrichment": 0.59
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Fire": {
+          "count": 1,
+          "enrichment": 0.7
+        },
+        "Air": {
+          "count": 1,
+          "enrichment": 1.3
+        }
+      },
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 27,
+      "radical": "o",
+      "total_tokens": 455,
+      "prose_tokens": 429,
+      "label_tokens": 26,
+      "label_enrichment_vs_global": 1.75,
+      "standalone_rate": 0.659,
+      "compound_slot1_onset_share": 0.039,
+      "q_proclitic_rate": 0.075,
+      "o_nominal_rate": 0.051,
+      "y_initial_rate": 0.013,
+      "edy_dy_verbal_rate": 0.004,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 286,
+          "rate": 0.629
+        },
+        {
+          "suffix": "s",
+          "count": 58,
+          "rate": 0.127
+        },
+        {
+          "suffix": "y",
+          "count": 40,
+          "rate": 0.088
+        }
+      ],
+      "peak_section": {
+        "section": "Cosmological_Rosettes",
+        "count": 52,
+        "enrichment": 1.93
+      },
+      "peak_diagram_object": {
+        "object_type": "Other_Label_H",
+        "count": 2,
+        "enrichment": 12.65
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_H": {
+          "count": 2,
+          "enrichment": 12.65
+        },
+        "Astro_Star_Spoke": {
+          "count": 4,
+          "enrichment": 1.57
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 1,
+          "enrichment": 0.55
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 5,
+          "enrichment": 1.7
+        },
+        "Bio_Tube_Vessel": {
+          "count": 3,
+          "enrichment": 5.29
+        },
+        "Rosettes_Map_Label": {
+          "count": 2,
+          "enrichment": 0.99
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 1,
+          "enrichment": 1.28
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 8,
+          "enrichment": 2.38
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 2,
+          "enrichment": 1.38
+        },
+        "Fire": {
+          "count": 2,
+          "enrichment": 1.41
+        },
+        "Air": {
+          "count": 2,
+          "enrichment": 2.62
+        }
+      },
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 28,
+      "radical": "olk",
+      "total_tokens": 447,
+      "prose_tokens": 438,
+      "label_tokens": 9,
+      "label_enrichment_vs_global": 0.62,
+      "standalone_rate": 0.702,
+      "compound_slot1_onset_share": 0.135,
+      "q_proclitic_rate": 0.076,
+      "o_nominal_rate": 0.02,
+      "y_initial_rate": 0.007,
+      "edy_dy_verbal_rate": 0.253,
+      "top_3_suffixes": [
+        {
+          "suffix": "edy",
+          "count": 111,
+          "rate": 0.248
+        },
+        {
+          "suffix": "ain",
+          "count": 104,
+          "rate": 0.233
+        },
+        {
+          "suffix": "ey",
+          "count": 90,
+          "rate": 0.201
+        }
+      ],
+      "peak_section": {
+        "section": "Biological_Balneological",
+        "count": 186,
+        "enrichment": 2.64
+      },
+      "peak_diagram_object": {
+        "object_type": "Bio_Tube_Vessel",
+        "count": 2,
+        "enrichment": 3.59
+      },
+      "diagram_object_breakdown": {
+        "Zodiac_Free_Nymph": {
+          "count": 3,
+          "enrichment": 1.04
+        },
+        "Bio_Bathing_Nymph": {
+          "count": 1,
+          "enrichment": 2.28
+        },
+        "Bio_Tube_Vessel": {
+          "count": 2,
+          "enrichment": 3.59
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 1,
+          "enrichment": 1.3
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 2,
+          "enrichment": 0.61
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 2,
+          "enrichment": 1.4
+        },
+        "Earth": {
+          "count": 1,
+          "enrichment": 0.9
+        }
+      },
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 29,
+      "radical": "lk",
+      "total_tokens": 363,
+      "prose_tokens": 362,
+      "label_tokens": 1,
+      "label_enrichment_vs_global": 0.08,
+      "standalone_rate": 0.78,
+      "compound_slot1_onset_share": 0.912,
+      "q_proclitic_rate": 0.003,
+      "o_nominal_rate": 0.008,
+      "y_initial_rate": 0.003,
+      "edy_dy_verbal_rate": 0.27,
+      "top_3_suffixes": [
+        {
+          "suffix": "edy",
+          "count": 90,
+          "rate": 0.248
+        },
+        {
+          "suffix": "ain",
+          "count": 89,
+          "rate": 0.245
+        },
+        {
+          "suffix": "ey",
+          "count": 68,
+          "rate": 0.187
+        }
+      ],
+      "peak_section": {
+        "section": "Starred_Recipes",
+        "count": 282,
+        "enrichment": 2.59
+      },
+      "peak_diagram_object": {
+        "object_type": "Astro_Star_Spoke",
+        "count": 1,
+        "enrichment": 0.49
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 1,
+          "enrichment": 0.49
+        }
+      },
+      "zodiac_trigon_breakdown": {},
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 30,
+      "radical": "e",
+      "total_tokens": 338,
+      "prose_tokens": 315,
+      "label_tokens": 23,
+      "label_enrichment_vs_global": 2.08,
+      "standalone_rate": 0.364,
+      "compound_slot1_onset_share": 0.507,
+      "q_proclitic_rate": 0.254,
+      "o_nominal_rate": 0.473,
+      "y_initial_rate": 0.021,
+      "edy_dy_verbal_rate": 0.012,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 98,
+          "rate": 0.29
+        },
+        {
+          "suffix": "s",
+          "count": 90,
+          "rate": 0.266
+        },
+        {
+          "suffix": "ar",
+          "count": 24,
+          "rate": 0.071
+        }
+      ],
+      "peak_section": {
+        "section": "Astronomical",
+        "count": 28,
+        "enrichment": 3.27
+      },
+      "peak_diagram_object": {
+        "object_type": "Zodiac_Free_Nymph",
+        "count": 10,
+        "enrichment": 4.56
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 6,
+          "enrichment": 3.17
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 10,
+          "enrichment": 4.56
+        },
+        "Rosettes_Map_Label": {
+          "count": 3,
+          "enrichment": 1.99
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 1,
+          "enrichment": 1.72
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 3,
+          "enrichment": 1.2
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Fire": {
+          "count": 5,
+          "enrichment": 4.76
+        },
+        "Earth": {
+          "count": 1,
+          "enrichment": 1.2
+        },
+        "Air": {
+          "count": 4,
+          "enrichment": 7.06
+        }
+      },
+      "inferred_functional_class": "Concrete_Diagram_Noun_Radical (Zodiac_Free_Nymph)"
+    },
+    {
+      "rank": 31,
+      "radical": "dai",
+      "total_tokens": 316,
+      "prose_tokens": 306,
+      "label_tokens": 10,
+      "label_enrichment_vs_global": 0.97,
+      "standalone_rate": 0.614,
+      "compound_slot1_onset_share": 0.377,
+      "q_proclitic_rate": 0.025,
+      "o_nominal_rate": 0.098,
+      "y_initial_rate": 0.016,
+      "edy_dy_verbal_rate": 0.041,
+      "top_3_suffixes": [
+        {
+          "suffix": "r",
+          "count": 224,
+          "rate": 0.709
+        },
+        {
+          "suffix": "dy",
+          "count": 13,
+          "rate": 0.041
+        },
+        {
+          "suffix": "0",
+          "count": 12,
+          "rate": 0.038
+        }
+      ],
+      "peak_section": {
+        "section": "Astronomical",
+        "count": 18,
+        "enrichment": 2.25
+      },
+      "peak_diagram_object": {
+        "object_type": "Other_Label_C",
+        "count": 1,
+        "enrichment": 11.9
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_C": {
+          "count": 1,
+          "enrichment": 11.9
+        },
+        "Astro_Star_Spoke": {
+          "count": 4,
+          "enrichment": 2.26
+        },
+        "Bio_Tube_Vessel": {
+          "count": 1,
+          "enrichment": 2.54
+        },
+        "Rosettes_Map_Label": {
+          "count": 2,
+          "enrichment": 1.42
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 1,
+          "enrichment": 1.84
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 1,
+          "enrichment": 0.43
+        }
+      },
+      "zodiac_trigon_breakdown": {},
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 32,
+      "radical": "keo",
+      "total_tokens": 302,
+      "prose_tokens": 292,
+      "label_tokens": 10,
+      "label_enrichment_vs_global": 1.01,
+      "standalone_rate": 0.596,
+      "compound_slot1_onset_share": 0.639,
+      "q_proclitic_rate": 0.228,
+      "o_nominal_rate": 0.579,
+      "y_initial_rate": 0.113,
+      "edy_dy_verbal_rate": 0.003,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 133,
+          "rate": 0.44
+        },
+        {
+          "suffix": "s",
+          "count": 47,
+          "rate": 0.156
+        },
+        {
+          "suffix": "d",
+          "count": 29,
+          "rate": 0.096
+        }
+      ],
+      "peak_section": {
+        "section": "Zodiac",
+        "count": 35,
+        "enrichment": 3.11
+      },
+      "peak_diagram_object": {
+        "object_type": "Zodiac_Free_Nymph",
+        "count": 4,
+        "enrichment": 2.04
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 2,
+          "enrichment": 1.18
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 1,
+          "enrichment": 0.83
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 4,
+          "enrichment": 2.04
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 3,
+          "enrichment": 1.35
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 2,
+          "enrichment": 2.08
+        },
+        "Fire": {
+          "count": 3,
+          "enrichment": 3.2
+        }
+      },
+      "inferred_functional_class": "Nominal_Ingredient_Container_Radical (High o-)"
+    },
+    {
+      "rank": 33,
+      "radical": "to",
+      "total_tokens": 291,
+      "prose_tokens": 266,
+      "label_tokens": 25,
+      "label_enrichment_vs_global": 2.63,
+      "standalone_rate": 0.323,
+      "compound_slot1_onset_share": 0.873,
+      "q_proclitic_rate": 0.096,
+      "o_nominal_rate": 0.385,
+      "y_initial_rate": 0.093,
+      "edy_dy_verbal_rate": 0.045,
+      "top_3_suffixes": [
+        {
+          "suffix": "ain",
+          "count": 45,
+          "rate": 0.155
+        },
+        {
+          "suffix": "0",
+          "count": 44,
+          "rate": 0.151
+        },
+        {
+          "suffix": "y",
+          "count": 32,
+          "rate": 0.11
+        }
+      ],
+      "peak_section": {
+        "section": "Herbal_Unknown",
+        "count": 1,
+        "enrichment": 2.8
+      },
+      "peak_diagram_object": {
+        "object_type": "Other_Label_H",
+        "count": 1,
+        "enrichment": 9.89
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_H": {
+          "count": 1,
+          "enrichment": 9.89
+        },
+        "Astro_Star_Spoke": {
+          "count": 10,
+          "enrichment": 6.13
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 4,
+          "enrichment": 2.12
+        },
+        "Rosettes_Map_Label": {
+          "count": 5,
+          "enrichment": 3.85
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 5,
+          "enrichment": 2.33
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 4,
+          "enrichment": 4.31
+        }
+      },
+      "inferred_functional_class": "Concrete_Diagram_Noun_Radical (Other_Label_H)"
+    },
+    {
+      "rank": 34,
+      "radical": "lch",
+      "total_tokens": 276,
+      "prose_tokens": 276,
+      "label_tokens": 0,
+      "label_enrichment_vs_global": 0.0,
+      "standalone_rate": 0.877,
+      "compound_slot1_onset_share": 0.529,
+      "q_proclitic_rate": 0.004,
+      "o_nominal_rate": 0.011,
+      "y_initial_rate": 0.0,
+      "edy_dy_verbal_rate": 0.536,
+      "top_3_suffixes": [
+        {
+          "suffix": "edy",
+          "count": 128,
+          "rate": 0.464
+        },
+        {
+          "suffix": "ey",
+          "count": 67,
+          "rate": 0.243
+        },
+        {
+          "suffix": "dy",
+          "count": 20,
+          "rate": 0.072
+        }
+      ],
+      "peak_section": {
+        "section": "Biological_Balneological",
+        "count": 101,
+        "enrichment": 2.32
+      },
+      "peak_diagram_object": {
+        "object_type": "None",
+        "count": 0,
+        "enrichment": 0.0
+      },
+      "diagram_object_breakdown": {},
+      "zodiac_trigon_breakdown": {},
+      "inferred_functional_class": "State_Action_Verb_Root (High -edy/-dy)"
+    },
+    {
+      "rank": 35,
+      "radical": "ai",
+      "total_tokens": 242,
+      "prose_tokens": 233,
+      "label_tokens": 9,
+      "label_enrichment_vs_global": 1.14,
+      "standalone_rate": 0.653,
+      "compound_slot1_onset_share": 0.214,
+      "q_proclitic_rate": 0.033,
+      "o_nominal_rate": 0.091,
+      "y_initial_rate": 0.025,
+      "edy_dy_verbal_rate": 0.041,
+      "top_3_suffixes": [
+        {
+          "suffix": "r",
+          "count": 185,
+          "rate": 0.764
+        },
+        {
+          "suffix": "y",
+          "count": 11,
+          "rate": 0.045
+        },
+        {
+          "suffix": "l",
+          "count": 10,
+          "rate": 0.041
+        }
+      ],
+      "peak_section": {
+        "section": "Herbal_Unknown",
+        "count": 1,
+        "enrichment": 3.37
+      },
+      "peak_diagram_object": {
+        "object_type": "Other_Label_H",
+        "count": 1,
+        "enrichment": 11.89
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_H": {
+          "count": 1,
+          "enrichment": 11.89
+        },
+        "Astro_Star_Spoke": {
+          "count": 4,
+          "enrichment": 2.95
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 3,
+          "enrichment": 1.91
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 1,
+          "enrichment": 0.56
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Earth": {
+          "count": 2,
+          "enrichment": 3.34
+        },
+        "Air": {
+          "count": 1,
+          "enrichment": 2.46
+        }
+      },
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 36,
+      "radical": "dch",
+      "total_tokens": 233,
+      "prose_tokens": 229,
+      "label_tokens": 4,
+      "label_enrichment_vs_global": 0.53,
+      "standalone_rate": 0.747,
+      "compound_slot1_onset_share": 0.627,
+      "q_proclitic_rate": 0.009,
+      "o_nominal_rate": 0.026,
+      "y_initial_rate": 0.0,
+      "edy_dy_verbal_rate": 0.219,
+      "top_3_suffixes": [
+        {
+          "suffix": "y",
+          "count": 55,
+          "rate": 0.236
+        },
+        {
+          "suffix": "ey",
+          "count": 35,
+          "rate": 0.15
+        },
+        {
+          "suffix": "edy",
+          "count": 35,
+          "rate": 0.15
+        }
+      ],
+      "peak_section": {
+        "section": "Astronomical",
+        "count": 17,
+        "enrichment": 2.88
+      },
+      "peak_diagram_object": {
+        "object_type": "Astro_Star_Spoke",
+        "count": 3,
+        "enrichment": 2.3
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 3,
+          "enrichment": 2.3
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 1,
+          "enrichment": 0.58
+        }
+      },
+      "zodiac_trigon_breakdown": {},
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 37,
+      "radical": "sheo",
+      "total_tokens": 225,
+      "prose_tokens": 222,
+      "label_tokens": 3,
+      "label_enrichment_vs_global": 0.41,
+      "standalone_rate": 0.471,
+      "compound_slot1_onset_share": 0.639,
+      "q_proclitic_rate": 0.022,
+      "o_nominal_rate": 0.062,
+      "y_initial_rate": 0.049,
+      "edy_dy_verbal_rate": 0.018,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 88,
+          "rate": 0.391
+        },
+        {
+          "suffix": "y",
+          "count": 32,
+          "rate": 0.142
+        },
+        {
+          "suffix": "s",
+          "count": 26,
+          "rate": 0.116
+        }
+      ],
+      "peak_section": {
+        "section": "Zodiac",
+        "count": 19,
+        "enrichment": 2.27
+      },
+      "peak_diagram_object": {
+        "object_type": "Zodiac_Free_Nymph",
+        "count": 3,
+        "enrichment": 2.06
+      },
+      "diagram_object_breakdown": {
+        "Zodiac_Free_Nymph": {
+          "count": 3,
+          "enrichment": 2.06
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 1,
+          "enrichment": 1.39
+        },
+        "Fire": {
+          "count": 1,
+          "enrichment": 1.43
+        },
+        "Earth": {
+          "count": 1,
+          "enrichment": 1.8
+        }
+      },
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 38,
+      "radical": "teo",
+      "total_tokens": 213,
+      "prose_tokens": 199,
+      "label_tokens": 14,
+      "label_enrichment_vs_global": 2.01,
+      "standalone_rate": 0.545,
+      "compound_slot1_onset_share": 0.897,
+      "q_proclitic_rate": 0.08,
+      "o_nominal_rate": 0.751,
+      "y_initial_rate": 0.07,
+      "edy_dy_verbal_rate": 0.014,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 56,
+          "rate": 0.263
+        },
+        {
+          "suffix": "s",
+          "count": 55,
+          "rate": 0.258
+        },
+        {
+          "suffix": "ar",
+          "count": 23,
+          "rate": 0.108
+        }
+      ],
+      "peak_section": {
+        "section": "Zodiac",
+        "count": 66,
+        "enrichment": 8.33
+      },
+      "peak_diagram_object": {
+        "object_type": "Other_Label_H",
+        "count": 1,
+        "enrichment": 13.51
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_H": {
+          "count": 1,
+          "enrichment": 13.51
+        },
+        "Astro_Star_Spoke": {
+          "count": 1,
+          "enrichment": 0.84
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 6,
+          "enrichment": 7.1
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 6,
+          "enrichment": 4.35
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 2,
+          "enrichment": 2.94
+        },
+        "Fire": {
+          "count": 5,
+          "enrichment": 7.55
+        },
+        "Earth": {
+          "count": 2,
+          "enrichment": 3.8
+        },
+        "Air": {
+          "count": 3,
+          "enrichment": 8.4
+        }
+      },
+      "inferred_functional_class": "Concrete_Diagram_Noun_Radical (Other_Label_H)"
+    },
+    {
+      "rank": 39,
+      "radical": "ko",
+      "total_tokens": 193,
+      "prose_tokens": 179,
+      "label_tokens": 14,
+      "label_enrichment_vs_global": 2.22,
+      "standalone_rate": 0.487,
+      "compound_slot1_onset_share": 0.737,
+      "q_proclitic_rate": 0.197,
+      "o_nominal_rate": 0.472,
+      "y_initial_rate": 0.098,
+      "edy_dy_verbal_rate": 0.026,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 41,
+          "rate": 0.212
+        },
+        {
+          "suffix": "in",
+          "count": 31,
+          "rate": 0.161
+        },
+        {
+          "suffix": "ain",
+          "count": 19,
+          "rate": 0.098
+        }
+      ],
+      "peak_section": {
+        "section": "Astronomical",
+        "count": 13,
+        "enrichment": 2.66
+      },
+      "peak_diagram_object": {
+        "object_type": "Astro_Star_Spoke",
+        "count": 8,
+        "enrichment": 7.4
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 8,
+          "enrichment": 7.4
+        },
+        "Rosettes_Map_Label": {
+          "count": 2,
+          "enrichment": 2.32
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 1,
+          "enrichment": 3.02
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 3,
+          "enrichment": 2.11
+        }
+      },
+      "zodiac_trigon_breakdown": {},
+      "inferred_functional_class": "Concrete_Diagram_Noun_Radical (Astro_Star_Spoke)"
+    },
+    {
+      "rank": 40,
+      "radical": "tsh",
+      "total_tokens": 172,
+      "prose_tokens": 168,
+      "label_tokens": 4,
+      "label_enrichment_vs_global": 0.71,
+      "standalone_rate": 0.709,
+      "compound_slot1_onset_share": 0.6,
+      "q_proclitic_rate": 0.11,
+      "o_nominal_rate": 0.372,
+      "y_initial_rate": 0.047,
+      "edy_dy_verbal_rate": 0.36,
+      "top_3_suffixes": [
+        {
+          "suffix": "edy",
+          "count": 41,
+          "rate": 0.238
+        },
+        {
+          "suffix": "ey",
+          "count": 32,
+          "rate": 0.186
+        },
+        {
+          "suffix": "y",
+          "count": 25,
+          "rate": 0.145
+        }
+      ],
+      "peak_section": {
+        "section": "Section_T",
+        "count": 20,
+        "enrichment": 1.98
+      },
+      "peak_diagram_object": {
+        "object_type": "Pharma_Apothecary_Jar",
+        "count": 1,
+        "enrichment": 3.38
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 1,
+          "enrichment": 1.04
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 2,
+          "enrichment": 2.93
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 1,
+          "enrichment": 3.38
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Fire": {
+          "count": 2,
+          "enrichment": 3.74
+        }
+      },
+      "inferred_functional_class": "State_Action_Verb_Root (High -edy/-dy)"
+    },
+    {
+      "rank": 41,
+      "radical": "so",
+      "total_tokens": 157,
+      "prose_tokens": 146,
+      "label_tokens": 11,
+      "label_enrichment_vs_global": 2.14,
+      "standalone_rate": 0.344,
+      "compound_slot1_onset_share": 0.825,
+      "q_proclitic_rate": 0.0,
+      "o_nominal_rate": 0.038,
+      "y_initial_rate": 0.0,
+      "edy_dy_verbal_rate": 0.051,
+      "top_3_suffixes": [
+        {
+          "suffix": "in",
+          "count": 30,
+          "rate": 0.191
+        },
+        {
+          "suffix": "0",
+          "count": 24,
+          "rate": 0.153
+        },
+        {
+          "suffix": "s",
+          "count": 18,
+          "rate": 0.115
+        }
+      ],
+      "peak_section": {
+        "section": "Astronomical",
+        "count": 14,
+        "enrichment": 3.52
+      },
+      "peak_diagram_object": {
+        "object_type": "Pharma_Botanical_Plant",
+        "count": 7,
+        "enrichment": 6.04
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 2,
+          "enrichment": 2.27
+        },
+        "Rosettes_Map_Label": {
+          "count": 2,
+          "enrichment": 2.86
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 7,
+          "enrichment": 6.04
+        }
+      },
+      "zodiac_trigon_breakdown": {},
+      "inferred_functional_class": "Compound_Onset_Classifier_Radical (Slot 1)"
+    },
+    {
+      "rank": 42,
+      "radical": "kai",
+      "total_tokens": 153,
+      "prose_tokens": 148,
+      "label_tokens": 5,
+      "label_enrichment_vs_global": 1.0,
+      "standalone_rate": 0.66,
+      "compound_slot1_onset_share": 0.308,
+      "q_proclitic_rate": 0.196,
+      "o_nominal_rate": 0.503,
+      "y_initial_rate": 0.092,
+      "edy_dy_verbal_rate": 0.026,
+      "top_3_suffixes": [
+        {
+          "suffix": "r",
+          "count": 108,
+          "rate": 0.706
+        },
+        {
+          "suffix": "0",
+          "count": 13,
+          "rate": 0.085
+        },
+        {
+          "suffix": "y",
+          "count": 7,
+          "rate": 0.046
+        }
+      ],
+      "peak_section": {
+        "section": "Starred_Recipes",
+        "count": 79,
+        "enrichment": 1.72
+      },
+      "peak_diagram_object": {
+        "object_type": "Zodiac_Free_Nymph",
+        "count": 2,
+        "enrichment": 2.02
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 1,
+          "enrichment": 1.17
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 1,
+          "enrichment": 1.65
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 2,
+          "enrichment": 2.02
+        },
+        "Rosettes_Map_Label": {
+          "count": 1,
+          "enrichment": 1.47
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Fire": {
+          "count": 1,
+          "enrichment": 2.1
+        },
+        "Air": {
+          "count": 2,
+          "enrichment": 7.8
+        }
+      },
+      "inferred_functional_class": "Nominal_Ingredient_Container_Radical (High o-)"
+    },
+    {
+      "rank": 43,
+      "radical": "a",
+      "total_tokens": 150,
+      "prose_tokens": 129,
+      "label_tokens": 21,
+      "label_enrichment_vs_global": 4.28,
+      "standalone_rate": 0.28,
+      "compound_slot1_onset_share": 0.333,
+      "q_proclitic_rate": 0.053,
+      "o_nominal_rate": 0.18,
+      "y_initial_rate": 0.013,
+      "edy_dy_verbal_rate": 0.053,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 59,
+          "rate": 0.393
+        },
+        {
+          "suffix": "y",
+          "count": 30,
+          "rate": 0.2
+        },
+        {
+          "suffix": "s",
+          "count": 29,
+          "rate": 0.193
+        }
+      ],
+      "peak_section": {
+        "section": "Pharmaceutical",
+        "count": 24,
+        "enrichment": 2.35
+      },
+      "peak_diagram_object": {
+        "object_type": "Other_Label_C",
+        "count": 1,
+        "enrichment": 25.08
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_C": {
+          "count": 1,
+          "enrichment": 25.08
+        },
+        "Astro_Star_Spoke": {
+          "count": 1,
+          "enrichment": 1.19
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 2,
+          "enrichment": 3.36
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 4,
+          "enrichment": 4.11
+        },
+        "Bio_Tube_Vessel": {
+          "count": 1,
+          "enrichment": 5.34
+        },
+        "Rosettes_Map_Label": {
+          "count": 5,
+          "enrichment": 7.48
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 2,
+          "enrichment": 7.76
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 5,
+          "enrichment": 4.52
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 3,
+          "enrichment": 6.27
+        },
+        "Fire": {
+          "count": 2,
+          "enrichment": 4.29
+        },
+        "Earth": {
+          "count": 1,
+          "enrichment": 2.69
+        }
+      },
+      "inferred_functional_class": "Compound_Coda_Specifier_Radical (Slot 2)"
+    },
+    {
+      "rank": 44,
+      "radical": "ksh",
+      "total_tokens": 147,
+      "prose_tokens": 142,
+      "label_tokens": 5,
+      "label_enrichment_vs_global": 1.04,
+      "standalone_rate": 0.823,
+      "compound_slot1_onset_share": 0.423,
+      "q_proclitic_rate": 0.279,
+      "o_nominal_rate": 0.558,
+      "y_initial_rate": 0.048,
+      "edy_dy_verbal_rate": 0.272,
+      "top_3_suffixes": [
+        {
+          "suffix": "y",
+          "count": 39,
+          "rate": 0.265
+        },
+        {
+          "suffix": "ey",
+          "count": 33,
+          "rate": 0.224
+        },
+        {
+          "suffix": "edy",
+          "count": 27,
+          "rate": 0.184
+        }
+      ],
+      "peak_section": {
+        "section": "Section_T",
+        "count": 14,
+        "enrichment": 1.62
+      },
+      "peak_diagram_object": {
+        "object_type": "Bio_Bathing_Nymph",
+        "count": 1,
+        "enrichment": 6.93
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 2,
+          "enrichment": 2.43
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 1,
+          "enrichment": 1.05
+        },
+        "Bio_Bathing_Nymph": {
+          "count": 1,
+          "enrichment": 6.93
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 1,
+          "enrichment": 0.92
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 1,
+          "enrichment": 2.13
+        }
+      },
+      "inferred_functional_class": "Verbal_Process_Root (High q- & -edy/-dy)"
+    },
+    {
+      "rank": 45,
+      "radical": "chk",
+      "total_tokens": 129,
+      "prose_tokens": 124,
+      "label_tokens": 5,
+      "label_enrichment_vs_global": 1.19,
+      "standalone_rate": 0.899,
+      "compound_slot1_onset_share": 0.769,
+      "q_proclitic_rate": 0.0,
+      "o_nominal_rate": 0.0,
+      "y_initial_rate": 0.016,
+      "edy_dy_verbal_rate": 0.085,
+      "top_3_suffixes": [
+        {
+          "suffix": "ain",
+          "count": 33,
+          "rate": 0.256
+        },
+        {
+          "suffix": "y",
+          "count": 23,
+          "rate": 0.178
+        },
+        {
+          "suffix": "ey",
+          "count": 22,
+          "rate": 0.171
+        }
+      ],
+      "peak_section": {
+        "section": "Herbal_B",
+        "count": 23,
+        "enrichment": 2.01
+      },
+      "peak_diagram_object": {
+        "object_type": "Astro_Star_Spoke",
+        "count": 3,
+        "enrichment": 4.15
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 3,
+          "enrichment": 4.15
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 1,
+          "enrichment": 1.95
+        },
+        "Rosettes_Map_Label": {
+          "count": 1,
+          "enrichment": 1.74
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Earth": {
+          "count": 1,
+          "enrichment": 3.13
+        }
+      },
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 46,
+      "radical": "g",
+      "total_tokens": 129,
+      "prose_tokens": 117,
+      "label_tokens": 12,
+      "label_enrichment_vs_global": 2.85,
+      "standalone_rate": 0.124,
+      "compound_slot1_onset_share": 0.009,
+      "q_proclitic_rate": 0.023,
+      "o_nominal_rate": 0.163,
+      "y_initial_rate": 0.039,
+      "edy_dy_verbal_rate": 0.0,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 121,
+          "rate": 0.938
+        },
+        {
+          "suffix": "or",
+          "count": 3,
+          "rate": 0.023
+        },
+        {
+          "suffix": "ain",
+          "count": 2,
+          "rate": 0.016
+        }
+      ],
+      "peak_section": {
+        "section": "Astronomical",
+        "count": 8,
+        "enrichment": 2.45
+      },
+      "peak_diagram_object": {
+        "object_type": "Other_Label_T",
+        "count": 1,
+        "enrichment": 34.46
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_C": {
+          "count": 1,
+          "enrichment": 29.16
+        },
+        "Other_Label_T": {
+          "count": 1,
+          "enrichment": 34.46
+        },
+        "Astro_Star_Spoke": {
+          "count": 1,
+          "enrichment": 1.38
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 1,
+          "enrichment": 1.95
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 1,
+          "enrichment": 1.2
+        },
+        "Rosettes_Map_Label": {
+          "count": 3,
+          "enrichment": 5.22
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 3,
+          "enrichment": 13.54
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 1,
+          "enrichment": 1.05
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 1,
+          "enrichment": 2.43
+        },
+        "Earth": {
+          "count": 1,
+          "enrichment": 3.13
+        }
+      },
+      "inferred_functional_class": "Compound_Coda_Specifier_Radical (Slot 2)"
+    },
+    {
+      "rank": 47,
+      "radical": "ey",
+      "total_tokens": 118,
+      "prose_tokens": 114,
+      "label_tokens": 4,
+      "label_enrichment_vs_global": 1.04,
+      "standalone_rate": 0.686,
+      "compound_slot1_onset_share": 0.108,
+      "q_proclitic_rate": 0.339,
+      "o_nominal_rate": 0.492,
+      "y_initial_rate": 0.025,
+      "edy_dy_verbal_rate": 0.059,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 81,
+          "rate": 0.686
+        },
+        {
+          "suffix": "s",
+          "count": 7,
+          "rate": 0.059
+        },
+        {
+          "suffix": "ey",
+          "count": 5,
+          "rate": 0.042
+        }
+      ],
+      "peak_section": {
+        "section": "Cosmological_Rosettes",
+        "count": 15,
+        "enrichment": 2.15
+      },
+      "peak_diagram_object": {
+        "object_type": "Rosettes_Map_Label",
+        "count": 2,
+        "enrichment": 3.8
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 1,
+          "enrichment": 1.51
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 1,
+          "enrichment": 1.31
+        },
+        "Rosettes_Map_Label": {
+          "count": 2,
+          "enrichment": 3.8
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Air": {
+          "count": 1,
+          "enrichment": 5.05
+        }
+      },
+      "inferred_functional_class": "Nominal_Ingredient_Container_Radical (High o-)"
+    },
+    {
+      "rank": 48,
+      "radical": "am",
+      "total_tokens": 117,
+      "prose_tokens": 106,
+      "label_tokens": 11,
+      "label_enrichment_vs_global": 2.88,
+      "standalone_rate": 0.778,
+      "compound_slot1_onset_share": 0.192,
+      "q_proclitic_rate": 0.009,
+      "o_nominal_rate": 0.051,
+      "y_initial_rate": 0.0,
+      "edy_dy_verbal_rate": 0.034,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 93,
+          "rate": 0.795
+        },
+        {
+          "suffix": "y",
+          "count": 8,
+          "rate": 0.068
+        },
+        {
+          "suffix": "ar",
+          "count": 4,
+          "rate": 0.034
+        }
+      ],
+      "peak_section": {
+        "section": "Astronomical",
+        "count": 8,
+        "enrichment": 2.7
+      },
+      "peak_diagram_object": {
+        "object_type": "Pharma_Apothecary_Jar",
+        "count": 2,
+        "enrichment": 9.95
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 3,
+          "enrichment": 4.58
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 3,
+          "enrichment": 6.46
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 1,
+          "enrichment": 1.32
+        },
+        "Rosettes_Map_Label": {
+          "count": 1,
+          "enrichment": 1.92
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 2,
+          "enrichment": 9.95
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 1,
+          "enrichment": 1.16
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 1,
+          "enrichment": 2.68
+        },
+        "Fire": {
+          "count": 1,
+          "enrichment": 2.75
+        },
+        "Earth": {
+          "count": 1,
+          "enrichment": 3.45
+        },
+        "Air": {
+          "count": 1,
+          "enrichment": 5.1
+        }
+      },
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 49,
+      "radical": "chd",
+      "total_tokens": 117,
+      "prose_tokens": 114,
+      "label_tokens": 3,
+      "label_enrichment_vs_global": 0.78,
+      "standalone_rate": 0.88,
+      "compound_slot1_onset_share": 0.429,
+      "q_proclitic_rate": 0.0,
+      "o_nominal_rate": 0.017,
+      "y_initial_rate": 0.009,
+      "edy_dy_verbal_rate": 0.043,
+      "top_3_suffixes": [
+        {
+          "suffix": "ar",
+          "count": 38,
+          "rate": 0.325
+        },
+        {
+          "suffix": "ain",
+          "count": 32,
+          "rate": 0.274
+        },
+        {
+          "suffix": "al",
+          "count": 20,
+          "rate": 0.171
+        }
+      ],
+      "peak_section": {
+        "section": "Herbal_B",
+        "count": 32,
+        "enrichment": 3.09
+      },
+      "peak_diagram_object": {
+        "object_type": "Bio_Bathing_Nymph",
+        "count": 1,
+        "enrichment": 8.71
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 1,
+          "enrichment": 1.53
+        },
+        "Bio_Bathing_Nymph": {
+          "count": 1,
+          "enrichment": 8.71
+        },
+        "Rosettes_Map_Label": {
+          "count": 1,
+          "enrichment": 1.92
+        }
+      },
+      "zodiac_trigon_breakdown": {},
+      "inferred_functional_class": "General_Core_Radical"
+    },
+    {
+      "rank": 50,
+      "radical": "tai",
+      "total_tokens": 112,
+      "prose_tokens": 106,
+      "label_tokens": 6,
+      "label_enrichment_vs_global": 1.64,
+      "standalone_rate": 0.786,
+      "compound_slot1_onset_share": 0.5,
+      "q_proclitic_rate": 0.098,
+      "o_nominal_rate": 0.545,
+      "y_initial_rate": 0.125,
+      "edy_dy_verbal_rate": 0.009,
+      "top_3_suffixes": [
+        {
+          "suffix": "r",
+          "count": 83,
+          "rate": 0.741
+        },
+        {
+          "suffix": "s",
+          "count": 5,
+          "rate": 0.045
+        },
+        {
+          "suffix": "0",
+          "count": 5,
+          "rate": 0.045
+        }
+      ],
+      "peak_section": {
+        "section": "Herbal_Unknown",
+        "count": 1,
+        "enrichment": 7.28
+      },
+      "peak_diagram_object": {
+        "object_type": "Other_Label_H",
+        "count": 1,
+        "enrichment": 25.69
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_H": {
+          "count": 1,
+          "enrichment": 25.69
+        },
+        "Astro_Star_Spoke": {
+          "count": 2,
+          "enrichment": 3.19
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 2,
+          "enrichment": 2.75
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 1,
+          "enrichment": 1.21
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Air": {
+          "count": 2,
+          "enrichment": 10.65
+        }
+      },
+      "inferred_functional_class": "Concrete_Diagram_Noun_Radical (Other_Label_H)"
+    },
+    {
+      "rank": 51,
+      "radical": "tol",
+      "total_tokens": 68,
+      "prose_tokens": 63,
+      "label_tokens": 5,
+      "label_enrichment_vs_global": 2.25,
+      "standalone_rate": 0.0,
+      "compound_slot1_onset_share": 0.941,
+      "q_proclitic_rate": 0.044,
+      "o_nominal_rate": 0.353,
+      "y_initial_rate": 0.0,
+      "edy_dy_verbal_rate": 0.088,
+      "top_3_suffixes": [
+        {
+          "suffix": "y",
+          "count": 11,
+          "rate": 0.162
+        },
+        {
+          "suffix": "ain",
+          "count": 9,
+          "rate": 0.132
+        },
+        {
+          "suffix": "0",
+          "count": 7,
+          "rate": 0.103
+        }
+      ],
+      "peak_section": {
+        "section": "Pharmaceutical",
+        "count": 7,
+        "enrichment": 1.51
+      },
+      "peak_diagram_object": {
+        "object_type": "Pharma_Botanical_Plant",
+        "count": 4,
+        "enrichment": 7.97
+      },
+      "diagram_object_breakdown": {
+        "Zodiac_Barreled_Nymph": {
+          "count": 1,
+          "enrichment": 3.71
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 4,
+          "enrichment": 7.97
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Fire": {
+          "count": 1,
+          "enrichment": 4.73
+        }
+      },
+      "inferred_functional_class": "Concrete_Diagram_Noun_Radical (Pharma_Botanical_Plant)"
+    },
+    {
+      "rank": 52,
+      "radical": "kol",
+      "total_tokens": 22,
+      "prose_tokens": 18,
+      "label_tokens": 4,
+      "label_enrichment_vs_global": 5.56,
+      "standalone_rate": 0.0,
+      "compound_slot1_onset_share": 1.0,
+      "q_proclitic_rate": 0.091,
+      "o_nominal_rate": 0.409,
+      "y_initial_rate": 0.091,
+      "edy_dy_verbal_rate": 0.136,
+      "top_3_suffixes": [
+        {
+          "suffix": "ol",
+          "count": 4,
+          "rate": 0.182
+        },
+        {
+          "suffix": "dy",
+          "count": 3,
+          "rate": 0.136
+        },
+        {
+          "suffix": "s",
+          "count": 3,
+          "rate": 0.136
+        }
+      ],
+      "peak_section": {
+        "section": "Pharmaceutical",
+        "count": 6,
+        "enrichment": 4.0
+      },
+      "peak_diagram_object": {
+        "object_type": "Pharma_Botanical_Plant",
+        "count": 3,
+        "enrichment": 18.47
+      },
+      "diagram_object_breakdown": {
+        "Zodiac_Free_Nymph": {
+          "count": 1,
+          "enrichment": 7.01
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 3,
+          "enrichment": 18.47
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 1,
+          "enrichment": 14.25
+        }
+      },
+      "inferred_functional_class": "Concrete_Diagram_Noun_Radical (Pharma_Botanical_Plant)"
+    },
+    {
+      "rank": 53,
+      "radical": "tar",
+      "total_tokens": 36,
+      "prose_tokens": 27,
+      "label_tokens": 9,
+      "label_enrichment_vs_global": 7.65,
+      "standalone_rate": 0.0,
+      "compound_slot1_onset_share": 0.944,
+      "q_proclitic_rate": 0.028,
+      "o_nominal_rate": 0.583,
+      "y_initial_rate": 0.028,
+      "edy_dy_verbal_rate": 0.111,
+      "top_3_suffixes": [
+        {
+          "suffix": "ar",
+          "count": 7,
+          "rate": 0.194
+        },
+        {
+          "suffix": "dy",
+          "count": 4,
+          "rate": 0.111
+        },
+        {
+          "suffix": "ain",
+          "count": 3,
+          "rate": 0.083
+        }
+      ],
+      "peak_section": {
+        "section": "Astronomical",
+        "count": 3,
+        "enrichment": 3.29
+      },
+      "peak_diagram_object": {
+        "object_type": "Other_Label_C",
+        "count": 2,
+        "enrichment": 209.0
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_C": {
+          "count": 2,
+          "enrichment": 209.0
+        },
+        "Astro_Star_Spoke": {
+          "count": 1,
+          "enrichment": 4.96
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 1,
+          "enrichment": 7.0
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 1,
+          "enrichment": 4.29
+        },
+        "Bio_Tube_Vessel": {
+          "count": 1,
+          "enrichment": 22.27
+        },
+        "Rosettes_Map_Label": {
+          "count": 2,
+          "enrichment": 12.46
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 1,
+          "enrichment": 3.76
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Earth": {
+          "count": 1,
+          "enrichment": 11.23
+        },
+        "Air": {
+          "count": 1,
+          "enrichment": 16.57
+        }
+      },
+      "inferred_functional_class": "Concrete_Diagram_Noun_Radical (Other_Label_C)"
+    },
+    {
+      "rank": 54,
+      "radical": "tal",
+      "total_tokens": 59,
+      "prose_tokens": 46,
+      "label_tokens": 13,
+      "label_enrichment_vs_global": 6.74,
+      "standalone_rate": 0.0,
+      "compound_slot1_onset_share": 0.915,
+      "q_proclitic_rate": 0.068,
+      "o_nominal_rate": 0.746,
+      "y_initial_rate": 0.034,
+      "edy_dy_verbal_rate": 0.203,
+      "top_3_suffixes": [
+        {
+          "suffix": "ar",
+          "count": 11,
+          "rate": 0.186
+        },
+        {
+          "suffix": "y",
+          "count": 11,
+          "rate": 0.186
+        },
+        {
+          "suffix": "dy",
+          "count": 6,
+          "rate": 0.102
+        }
+      ],
+      "peak_section": {
+        "section": "Zodiac",
+        "count": 10,
+        "enrichment": 4.55
+      },
+      "peak_diagram_object": {
+        "object_type": "Zodiac_Barreled_Nymph",
+        "count": 8,
+        "enrichment": 34.18
+      },
+      "diagram_object_breakdown": {
+        "Zodiac_Barreled_Nymph": {
+          "count": 8,
+          "enrichment": 34.18
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 2,
+          "enrichment": 5.23
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 1,
+          "enrichment": 9.87
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 2,
+          "enrichment": 4.59
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 2,
+          "enrichment": 10.63
+        },
+        "Fire": {
+          "count": 4,
+          "enrichment": 21.81
+        },
+        "Earth": {
+          "count": 3,
+          "enrichment": 20.55
+        },
+        "Air": {
+          "count": 1,
+          "enrichment": 10.11
+        }
+      },
+      "inferred_functional_class": "Concrete_Diagram_Noun_Radical (Zodiac_Barreled_Nymph)"
+    },
+    {
+      "rank": 55,
+      "radical": "dar",
+      "total_tokens": 51,
+      "prose_tokens": 38,
+      "label_tokens": 13,
+      "label_enrichment_vs_global": 7.8,
+      "standalone_rate": 0.0,
+      "compound_slot1_onset_share": 0.745,
+      "q_proclitic_rate": 0.0,
+      "o_nominal_rate": 0.098,
+      "y_initial_rate": 0.0,
+      "edy_dy_verbal_rate": 0.216,
+      "top_3_suffixes": [
+        {
+          "suffix": "0",
+          "count": 8,
+          "rate": 0.157
+        },
+        {
+          "suffix": "dy",
+          "count": 7,
+          "rate": 0.137
+        },
+        {
+          "suffix": "d",
+          "count": 6,
+          "rate": 0.118
+        }
+      ],
+      "peak_section": {
+        "section": "Pharmaceutical",
+        "count": 12,
+        "enrichment": 3.45
+      },
+      "peak_diagram_object": {
+        "object_type": "Pharma_Apothecary_Jar",
+        "count": 4,
+        "enrichment": 45.66
+      },
+      "diagram_object_breakdown": {
+        "Bio_Bathing_Nymph": {
+          "count": 1,
+          "enrichment": 19.98
+        },
+        "Rosettes_Map_Label": {
+          "count": 3,
+          "enrichment": 13.2
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 4,
+          "enrichment": 45.66
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 5,
+          "enrichment": 13.28
+        }
+      },
+      "zodiac_trigon_breakdown": {},
+      "inferred_functional_class": "Compound_Onset_Classifier_Radical (Slot 1)"
+    },
+    {
+      "rank": 56,
+      "radical": "dal",
+      "total_tokens": 99,
+      "prose_tokens": 92,
+      "label_tokens": 7,
+      "label_enrichment_vs_global": 2.16,
+      "standalone_rate": 0.0,
+      "compound_slot1_onset_share": 0.737,
+      "q_proclitic_rate": 0.0,
+      "o_nominal_rate": 0.04,
+      "y_initial_rate": 0.0,
+      "edy_dy_verbal_rate": 0.303,
+      "top_3_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 18,
+          "rate": 0.182
+        },
+        {
+          "suffix": "y",
+          "count": 14,
+          "rate": 0.141
+        },
+        {
+          "suffix": "edy",
+          "count": 12,
+          "rate": 0.121
+        }
+      ],
+      "peak_section": {
+        "section": "Pharmaceutical",
+        "count": 12,
+        "enrichment": 1.78
+      },
+      "peak_diagram_object": {
+        "object_type": "Bio_Bathing_Nymph",
+        "count": 1,
+        "enrichment": 10.29
+      },
+      "diagram_object_breakdown": {
+        "Zodiac_Barreled_Nymph": {
+          "count": 1,
+          "enrichment": 2.55
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 1,
+          "enrichment": 1.56
+        },
+        "Bio_Bathing_Nymph": {
+          "count": 1,
+          "enrichment": 10.29
+        },
+        "Rosettes_Map_Label": {
+          "count": 2,
+          "enrichment": 4.53
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 2,
+          "enrichment": 2.74
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 1,
+          "enrichment": 3.17
+        },
+        "Fire": {
+          "count": 1,
+          "enrichment": 3.25
+        }
+      },
+      "inferred_functional_class": "Compound_Onset_Classifier_Radical (Slot 1)"
+    },
+    {
+      "rank": 57,
+      "radical": "air",
+      "total_tokens": 64,
+      "prose_tokens": 56,
+      "label_tokens": 8,
+      "label_enrichment_vs_global": 3.83,
+      "standalone_rate": 0.266,
+      "compound_slot1_onset_share": 0.255,
+      "q_proclitic_rate": 0.031,
+      "o_nominal_rate": 0.188,
+      "y_initial_rate": 0.062,
+      "edy_dy_verbal_rate": 0.062,
+      "top_3_suffixes": [
+        {
+          "suffix": "ar",
+          "count": 12,
+          "rate": 0.188
+        },
+        {
+          "suffix": "al",
+          "count": 9,
+          "rate": 0.141
+        },
+        {
+          "suffix": "ody",
+          "count": 9,
+          "rate": 0.141
+        }
+      ],
+      "peak_section": {
+        "section": "Zodiac",
+        "count": 7,
+        "enrichment": 2.94
+      },
+      "peak_diagram_object": {
+        "object_type": "Other_Label_C",
+        "count": 1,
+        "enrichment": 58.78
+      },
+      "diagram_object_breakdown": {
+        "Other_Label_C": {
+          "count": 1,
+          "enrichment": 58.78
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 5,
+          "enrichment": 12.05
+        },
+        "Rosettes_Map_Label": {
+          "count": 1,
+          "enrichment": 3.51
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 1,
+          "enrichment": 2.12
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 4,
+          "enrichment": 19.59
+        },
+        "Air": {
+          "count": 1,
+          "enrichment": 9.32
+        }
+      },
+      "inferred_functional_class": "Compound_Coda_Specifier_Radical (Slot 2)"
+    },
+    {
+      "rank": 58,
+      "radical": "kar",
+      "total_tokens": 18,
+      "prose_tokens": 11,
+      "label_tokens": 7,
+      "label_enrichment_vs_global": 11.9,
+      "standalone_rate": 0.0,
+      "compound_slot1_onset_share": 0.944,
+      "q_proclitic_rate": 0.0,
+      "o_nominal_rate": 0.444,
+      "y_initial_rate": 0.167,
+      "edy_dy_verbal_rate": 0.056,
+      "top_3_suffixes": [
+        {
+          "suffix": "y",
+          "count": 5,
+          "rate": 0.278
+        },
+        {
+          "suffix": "ar",
+          "count": 4,
+          "rate": 0.222
+        },
+        {
+          "suffix": "0",
+          "count": 4,
+          "rate": 0.222
+        }
+      ],
+      "peak_section": {
+        "section": "Zodiac",
+        "count": 2,
+        "enrichment": 2.99
+      },
+      "peak_diagram_object": {
+        "object_type": "Pharma_Apothecary_Jar",
+        "count": 2,
+        "enrichment": 64.69
+      },
+      "diagram_object_breakdown": {
+        "Zodiac_Barreled_Nymph": {
+          "count": 1,
+          "enrichment": 14.0
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 1,
+          "enrichment": 8.57
+        },
+        "Bio_Tube_Vessel": {
+          "count": 1,
+          "enrichment": 44.54
+        },
+        "Rosettes_Map_Label": {
+          "count": 1,
+          "enrichment": 12.46
+        },
+        "Pharma_Apothecary_Jar": {
+          "count": 2,
+          "enrichment": 64.69
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 1,
+          "enrichment": 7.53
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Earth": {
+          "count": 1,
+          "enrichment": 22.45
+        },
+        "Air": {
+          "count": 1,
+          "enrichment": 33.13
+        }
+      },
+      "inferred_functional_class": "Concrete_Diagram_Noun_Radical (Pharma_Apothecary_Jar)"
+    },
+    {
+      "rank": 59,
+      "radical": "kal",
+      "total_tokens": 57,
+      "prose_tokens": 49,
+      "label_tokens": 8,
+      "label_enrichment_vs_global": 4.3,
+      "standalone_rate": 0.0,
+      "compound_slot1_onset_share": 0.86,
+      "q_proclitic_rate": 0.228,
+      "o_nominal_rate": 0.667,
+      "y_initial_rate": 0.053,
+      "edy_dy_verbal_rate": 0.246,
+      "top_3_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 9,
+          "rate": 0.158
+        },
+        {
+          "suffix": "al",
+          "count": 8,
+          "rate": 0.14
+        },
+        {
+          "suffix": "0",
+          "count": 7,
+          "rate": 0.123
+        }
+      ],
+      "peak_section": {
+        "section": "Zodiac",
+        "count": 6,
+        "enrichment": 2.83
+      },
+      "peak_diagram_object": {
+        "object_type": "Bio_Bathing_Nymph",
+        "count": 1,
+        "enrichment": 17.87
+      },
+      "diagram_object_breakdown": {
+        "Astro_Star_Spoke": {
+          "count": 1,
+          "enrichment": 3.13
+        },
+        "Zodiac_Barreled_Nymph": {
+          "count": 2,
+          "enrichment": 8.85
+        },
+        "Zodiac_Free_Nymph": {
+          "count": 2,
+          "enrichment": 5.41
+        },
+        "Bio_Bathing_Nymph": {
+          "count": 1,
+          "enrichment": 17.87
+        },
+        "Bio_Tube_Vessel": {
+          "count": 1,
+          "enrichment": 14.07
+        },
+        "Pharma_Botanical_Plant": {
+          "count": 1,
+          "enrichment": 2.38
+        }
+      },
+      "zodiac_trigon_breakdown": {
+        "Water": {
+          "count": 2,
+          "enrichment": 11.0
+        },
+        "Fire": {
+          "count": 1,
+          "enrichment": 5.64
+        },
+        "Air": {
+          "count": 1,
+          "enrichment": 10.46
+        }
+      },
+      "inferred_functional_class": "Concrete_Diagram_Noun_Radical (Bio_Bathing_Nymph)"
+    }
+  ]
+}

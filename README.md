@@ -241,6 +241,28 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 22. Multi-Word Phrase Cribs, the Three-Way `otar . arody` Positional Paradigm & Bidirectional Compound Splitting ($z = +7.75, p < 10^{-14}$, `Attack 13`)
+- **Three-Way Positional Paradigm of `<f88v.4,@Lf> otar . arody` (`18.47` Rarity Bits)**: Recurs across three distinct syntactic environments with predictable positional allography: (a) standalone diagram label **`<f88v.4,@Lf> otar . arody`** (`o-` nominal + `t` gallows), (b) paragraph-initial recipe header **`<f105r.6,@P0> <%>par . arody`** (top-line `p` gallows), and (c) interior line-final clause closer **`<f114v.37,+P0> ... otain . chey . tar . arody <$>`** (`pages/f114v_tar_arody_enh.png`).
+- **2-Word Diagram Phrases (`62` Hits) & Bidirectional Compound Splitting ($1.65\times, z = +7.75$)**: Includes `<fRos.45,+L0> otchdy . otoldy` $\leftrightarrow$ `<f48v.9,+P0> otchdy . otoldy` (`19.53` bits, `pages/f48v_otchdy_otoldy_enh.png`), `<f71v.16,&Lz> otar . shar` (`14° Taurus`) $\leftrightarrow$ `<f24r.17> otam . sham` (`16.71` bits, dual `-r -> -m`), and `237` instances where rare 1-word compound labels split into 2-word prose bigrams ($z = +7.75$), e.g. `<f89v2.3,@Lf> darcheor` (`pages/f89v2_darcheor_label_enh.png`) $\to$ `<f102v2.32> dar . cheor` (`pages/f102v2_dar_cheor_prose_enh.png`).
+
+---
+
+### 23. Empirical Radical Lexicon of the Top `59` Elementary Radicals (`Attack 14`)
+- **Object-Category Specialist Radicals**: Cross-tabulating all `48,905` radical tokens (`1,598` in figure labels) grounds the `Top 59` elementary radicals in specific illustrated object classes: **Apothecary Jars (`@Lc`)** select `dar` (`45.66×`), `g` (`13.54×`, `-adag` jar rims), and `or` (`4.17×`); **Pharmaceutical Plants (`@Lf`)** select `kol` (`18.47×`), `dar` (`13.28×`), `tol` (`7.97×`), `so` (`6.04×`), and `ar` (`3.44×`); **Barreled Zodiac Nymphs (`f70v2–f72r1`)** select `tal` (`34.18×`) and `teo` (`7.10×`) whereas **Free Nymphs (`f72r2–f73v`)** select `air` (`12.05×`), `e` (`4.56×`), and `ke` (`3.41×`); **Biological Tubes (`@Lt`)** select `o` (`5.29×`) and `ol` (`3.37×`); while **`c`-initial verbal operators (`ch`, `sh`, `che`, `she`, `cth`, `ckh`)** are depleted in diagram labels (`0.35×–0.46×`) and carry `25.9%–36.2%` `-edy/-dy` verbal suffixes in prose.
+
+---
+
+### 24. Parallel Template Cloning (`f115r:P5->P6`), Tail-to-Head Catenation (`f111r:P3->P4`) & Crimson-Star (`D -> L_1 -> L_2`) Functional Tripartition (`Attack 15`)
+- **Why the Rubricator Repeated the Same Star (`L. -> L.` / `L -> L`) on `10` Pairs**: On `f115r:P5->P6` (`pages/f115r_P5_P6_chained_enh.png`), four of the first five opening words clone the exact same 4-root sequence (`tchedy . qoolkeedy . qokchedy . qotchd . lpchedy` $\leftrightarrow$ `pcheodain . qokchey . qotchedy . darailchedy . polchedy`). On `f111r:P3->P4` (`pages/f111r_P3_P4_chained_enh.png`, `Jaccard = 0.2045`), `P3` closes with `okeedy . lkeedy . lkedar . okeedy . chedy <$>` and `P4` opens with `<%>pchedar . oteeol . lkeedain . okeam`, simultaneously cloning the header root `pched-` and catenating `lkedar . okeedy` into `lkeedain . okeam`.
+- **Tripartite Division of the `14` Crimson-Star (`D -> L_1 -> L_2`) Triads (`f103r`, `f104r`, `f108r`)**: **Slot 1 (`★D`, `30.21` words)** introduces the primary preparation (`2.60×` `or`, `2.45×` `ek`); **Slot 2 (`★L_1`, `35.62` words)** elaborates nominal ingredients/quantities (`16.0%` `-aiin`, lowest verbal `-edy/-dy` at `20.5%`); **Slot 3 (`★L_2`, `29.40` words)** executes procedural actions (**`29.2%` `-edy/-dy` verbal rate, `+42%` vs. `L_1`**).
+
+---
+
+### 25. Four-Tier Radical & Clause-Frame Structural Translation Edition (`95.69%` Parse Coverage, [`notes/RADICAL_CLAUSE_TRANSLATION_EDITION.md`](notes/RADICAL_CLAUSE_TRANSLATION_EDITION.md), `Attack 16`)
+- **Corpus-Wide Coverage**: **`31,184 / 32,590` (`95.69%`)** of all prose tokens receive a grounded `[Prefix + Elementary Radical(s) + Suffix]` parse; **`95.27%`** contain a Top-59 Elementary Radical; and **`72.71%`** share an exact Core Root with an illustrated diagram figure label (`@Lf/@Lc/@Lz/@L0/@Lt/@Ln`).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -284,6 +306,8 @@ python tools/attack9_syntactic_context_frames.py
 python tools/attack10_zodiac_aspect_geometry.py
 python tools/attack11_recipe_triads_and_chaining.py
 python tools/attack12_core_root_radical_decomposition.py
+python tools/attack13_multiword_phrase_crib_scanner.py
+python tools/attack14_elementary_radical_lexicon.py
+python tools/attack15_chained_recipes_and_d_triads.py
+python tools/attack16_radical_clause_translation_edition.py
 ```
-
-
