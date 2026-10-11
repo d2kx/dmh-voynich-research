@@ -34,7 +34,8 @@ Rather than rehashing historical decipherment speculations, this project focuses
 │   ├── analyze_zodiac_and_hands.py     # 5-scribe invariance & Zodiac nymph ring analysis
 │   ├── inspect_zodiac_details.py       # Zodiac ot-/ok- barrel-nymph prefix shift
 │   ├── analyze_collocations_and_quires.py  # Within-line permutation tests & quire structure
-│   └── analyze_rosettes_phrases_and_v101.py # 9-Rosettes (<fRos>) concordance, bigram space forensics & v101 check
+│   ├── analyze_rosettes_phrases_and_v101.py # 9-Rosettes (<fRos>) concordance, bigram space forensics & v101 check
+│   └── analyze_astro_and_herbal.py     # f57v 4-quadrant key ring & Herbal-Pharma visual twin permutation test
 └── pages/                       # Extracted, cropped, and contrast-enhanced folio images
 ```
 
@@ -45,7 +46,7 @@ Rather than rehashing historical decipherment speculations, this project focuses
 *(See **[`NOTES.md`](NOTES.md)** for full tables, locus citations, and statistical proofs.)*
 
 ### 1. Visual & Codicological Forensics Across Both PDFs
-- **Faded Marginalia & Multilingual Charm Enhancement**: Multi-channel contrast enhancement across `2002046.pdf` and `voynich-manuscript.pdf` brings out the right-margin Latin alphabetic sequence on **`f1r`**, the `den mus` / `del` corner annotations on **`f66r`**, and the mixed Latin / Middle High German / Voynich charm on **`f116v`**:
+- **Faded Marginalia & Multilingual Charm Enhancement**: Multi-channel contrast enhancement across `2002046.pdf` and `voynich-manuscript.pdf` brings out the right-margin Latin alphabetic sequence on **`f1r`**, the top-margin inscription on **`f17r`**, the `den mus` / `del` corner annotations on **`f66r`**, and the mixed Latin / Middle High German / Voynich charm on **`f116v`**:
 
 ![Enhanced f116v comparison](pages/f116v_text_cmp_enh.png)
 
@@ -131,6 +132,15 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 9. Herbal $\leftrightarrow$ Pharmaceutical Visual Twin Plant Labels Match Paragraph-Opening Lines ($z = +4.82, p = 0.0030$) & The `f57v` Key Ring
+- **Visual Twin Plant Label Matching ($z = +4.82, p = 0.0030$)**: Across the 19 visually matched `(Herbal, Pharmaceutical)` plant pairs, rare `@Lf` plant labels on the Pharmaceutical page recur specifically in **Paragraph-Opening Lines (`<%>`, `Line 0`)** of their visually paired full-page Herbal folio (`3` observed vs. `0.32 ± 0.56` expected in a 5,000-trial Currier-A permutation test):
+  1. **`f99v` $\leftrightarrow$ `f5r` (`olsy`, Global MS Count = 2)**: Miniature plant label `<f99v.7,@Lf> olsy` $\to$ Line 1 of its full-page Herbal twin `<f5r.1,@P0> olsy` (the only two occurrences of `olsy` in the entire manuscript!).
+  2. **`f99r` $\leftrightarrow$ `f17r` (`darar` $\leftrightarrow$ `daram`, Global Count = 11, plus `dcheor` $\leftrightarrow$ `dcheor`, Count = 5)**: Miniature plant label `<f99r.3,@Lf> darar` $\to$ 2nd word of Line 1 on its full-page Herbal twin `<f17r.1,@P0> daram` (plus shared `<f99r.17> dcheor` $\leftrightarrow$ `<f17r.10> dcheor`).
+  3. **`f88r` $\leftrightarrow$ `f22r` (`oldar` $\leftrightarrow$ `oldam`, Global Count = 12)**: Miniature plant label `<f88r.4,@Lf> oldar` $\to$ last word of Line 1 of Paragraph 3 on its full-page Herbal twin `<f22r.10,+P0> oldam`.
+- **Direct Visual Proof of `f` $\leftrightarrow$ `p` Equivalence on `f57v` (`<f57v.3,+Cc>`)**: On the 4-figure wheel `f57v` (`pages/f57v_ring_enh.png`), Ring 2 repeats an identical 14-symbol sequence across all 4 quadrants (`o l d r v x k m [f/p] @169;v t r y c`), with **`f` in Quadrants 1–2** switching to **`p` in Quadrants 3–4** in the exact same 9th slot!
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -156,5 +166,6 @@ python tools/analyze_zodiac_and_hands.py
 python tools/inspect_zodiac_details.py
 python tools/analyze_collocations_and_quires.py
 python tools/analyze_rosettes_phrases_and_v101.py
+python tools/analyze_astro_and_herbal.py
 ```
 

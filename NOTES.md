@@ -25,6 +25,7 @@ This directory contains our ongoing computational, paleographic, and visual fore
 - [`tools/inspect_zodiac_details.py`](file:///c:/Users/denni/Documents/voynich/tools/inspect_zodiac_details.py): Tests the `ot-/op-` vs. `ok-/of-` prefix split between barreled and unbarreled Zodiac nymphs and across label categories (`@Lc`, `@Lf`, `@Lt`, `@Ln`, `@Lz`) ([`data/zodiac_prefix_split.json`](file:///c:/Users/denni/Documents/voynich/data/zodiac_prefix_split.json)).
 - [`tools/analyze_collocations_and_quires.py`](file:///c:/Users/denni/Documents/voynich/tools/analyze_collocations_and_quires.py): Runs a within-line permutation test of adjacent-word reduplication, canonical twin adjacency, 1-char substitution, suffix concord, multi-word collocations, and quire structure ([`data/collocations_and_quires.json`](file:///c:/Users/denni/Documents/voynich/data/collocations_and_quires.json)).
 - [`tools/analyze_rosettes_phrases_and_v101.py`](file:///c:/Users/denni/Documents/voynich/tools/analyze_rosettes_phrases_and_v101.py): Analyzes the 9-Rosettes foldout map (`<fRos>`, `p159`), tests dot (`.`) vs. uncertain comma (`,`) word boundaries in top bigrams, and cross-verifies rare label matches across all 4 transliteration files (`ZL3b-n.txt`, `RF1b-er.txt`, `IT2a-n.txt`, `GC2a-n.txt`) ([`data/rosettes_phrases_and_v101.json`](file:///c:/Users/denni/Documents/voynich/data/rosettes_phrases_and_v101.json)).
+- [`tools/analyze_astro_and_herbal.py`](file:///c:/Users/denni/Documents/voynich/tools/analyze_astro_and_herbal.py): Analyzes the `f57v` 4-quadrant single-character cipher/key ring, Astronomical wheel (`f67r1–f70r2`) cross-section label links, and runs a 5,000-trial permutation test on Herbal $\leftrightarrow$ Pharmaceutical visual twin plant matches ([`data/astro_and_herbal_analysis.json`](file:///c:/Users/denni/Documents/voynich/data/astro_and_herbal_analysis.json)).
 
 ---
 
@@ -80,9 +81,16 @@ This directory contains our ongoing computational, paleographic, and visual fore
   - [`pages/p159_rosettes_map.png`](file:///c:/Users/denni/Documents/voynich/pages/p159_rosettes_map.png) (`p159`): The complete 3×3 **9-Rosettes foldout map (`<fRos>` / `f85v2`, 540 words across 151 loci)**.
   - Contrast-enhanced zoom crops of `p159`—[`pages/p159_rosettes_top_left_enh.png`](file:///c:/Users/denni/Documents/voynich/pages/p159_rosettes_top_left_enh.png) (top-left rosette `N1` and its vertical causeway with 5 parallel pipes), [`pages/p159_rosettes_center_enh.png`](file:///c:/Users/denni/Documents/voynich/pages/p159_rosettes_center_enh.png) (central rosette `C2`), and [`pages/p159_rosettes_top_right_enh.png`](file:///c:/Users/denni/Documents/voynich/pages/p159_rosettes_top_right_enh.png) (top-right castle rosette `V1`)—reveal the dense `@L0` labels written along the causeway walls, pipe tips, and cloud turrets.
 
+### J. Folio `57v` Four-Figures Wheel & Four-Quadrant Single-Character Key Ring ([`pages/f57v_ring_enh.png`](file:///c:/Users/denni/Documents/voynich/pages/f57v_ring_enh.png))
+- On [`pages/f57v_ring_enh.png`](file:///c:/Users/denni/Documents/voynich/pages/f57v_ring_enh.png) (`p115`, the final page of Quire `H`, marked with the medieval Arabic quire signature `8` at bottom right), four human figures stand at 90-degree intervals around a central 6-petal rosette (`otodarag`, `oparairdly`, `olkeedal`, `otardaly`).
+- In the second concentric ring (`<f57v.3,+Cc>`, `55` spaced characters), the scribe wrote the **exact same 14-symbol sequence four times around the four quadrants of the circle**, with **`f` in Quadrants 1–2 (`o l d r v x k m f @169;v t r y (c)`)** switching directly to **`p` in Quadrants 3–4 (`o l d r v x k m p @169;v t r y c`)** — providing direct visual proof on a single diagram that `f` and `p` occupy the exact same slot in an ordered character sequence!
+
+### K. Visual Twin Plant Forensics (`f5r` $\leftrightarrow$ `f99v`, `f17r` $\leftrightarrow$ `f99r`, `f22r` $\leftrightarrow$ `f88r`) & `f17r` Top-Margin Inscription
+- Extracting and enhancing the paired Herbal and Pharmaceutical scans ([`pages/f5r_olsy_top.png`](file:///c:/Users/denni/Documents/voynich/pages/f5r_olsy_top.png) $\leftrightarrow$ [`pages/f99v_top_row_olsy.png`](file:///c:/Users/denni/Documents/voynich/pages/f99v_top_row_olsy.png), [`pages/f17r_top_daram_margin.png`](file:///c:/Users/denni/Documents/voynich/pages/f17r_top_daram_margin.png) $\leftrightarrow$ [`pages/f99r_top_row_darar.png`](file:///c:/Users/denni/Documents/voynich/pages/f99r_top_row_darar.png), and [`pages/f22r_oldam_crop.png`](file:///c:/Users/denni/Documents/voynich/pages/f22r_oldam_crop.png) $\leftrightarrow$ [`pages/f88r_top_row_oldar.png`](file:///c:/Users/denni/Documents/voynich/pages/f88r_top_row_oldar.png)) reveals both the faded top-margin Latin/Germanic inscription on `f17r` (`mullier alhor lucz hev vellome o...`) and direct visual-lexical cross-referencing between the Pharmaceutical `@Lf` plant labels and the paragraph-opening lines of their full-page Herbal twins.
+
 ---
 
-## 3. Ten Quantitative & Structural Discoveries
+## 3. Twelve Quantitative & Structural Discoveries
 
 ### Discovery 1: The Physical Line & Drawing-Intrusion State Machine
 Voynich word morphology is governed not just by sentence syntax, but by **physical layout coordinates on the vellum** (left margin, line interior, plant-stem interruption `<->`, right margin, and top line of a paragraph):
@@ -264,9 +272,51 @@ Running [`tools/analyze_rosettes_phrases_and_v101.py`](file:///c:/Users/denni/Do
 
 ---
 
+### Discovery 11: Herbal $\leftrightarrow$ Pharmaceutical Visual Twin Plant Labels Match Paragraph-Opening Lines ($z = +4.82, p = 0.0030$)
+While the **very first word (`w[0]`)** of a Herbal page does not repeat as its Pharmaceutical miniature label, applying our **4-Rule Canonical Normalization** across the 19 visually matched `(Herbal, Pharmaceutical)` folio pairs ([`tools/analyze_astro_and_herbal.py`](file:///c:/Users/denni/Documents/voynich/tools/analyze_astro_and_herbal.py) $\to$ [`data/astro_and_herbal_analysis.json`](file:///c:/Users/denni/Documents/voynich/data/astro_and_herbal_analysis.json)) uncovers a remarkable cross-section link:
+- **Rare `@Lf` Plant Labels on Pharmaceutical Pages Recur Specifically in Paragraph-Opening Lines (`<%>`, `Line 0`) of Their Visually Paired Full-Page Herbal Folios ($z = +4.82, p = 0.0030$ in a 5,000-trial Currier-A stratified permutation test, `3` observed vs. `0.320 ± 0.556` expected)**:
+  1. **`f99v` $\leftrightarrow$ `f5r` (`olsy`, Global MS Count = 2)**:
+     - On Pharmaceutical `f99v` ([`pages/f99v_top_row_olsy.png`](file:///c:/Users/denni/Documents/voynich/pages/f99v_top_row_olsy.png)), the 6th miniature root in the top row (`<!100>`) is labeled **`<f99v.7,@Lf> olsy`**.
+     - On Herbal `f5r` ([`pages/f5r_olsy_top.png`](file:///c:/Users/denni/Documents/voynich/pages/f5r_olsy_top.png))—the full-page drawing of `f99v`'s miniature plant—**`olsy` appears in Line 1 of Paragraph 1 (`<f5r.1,@P0> <%>kchody.fchoy.chkoy.oaiin.oar,olsy.chody.dkshy,dy`)**! Those are the **only two occurrences of `olsy` in the entire 38,949-word manuscript**!
+  2. **`f99r` $\leftrightarrow$ `f17r` (`darar` $\leftrightarrow$ `daram`, Global Count = 11, plus `dcheor` $\leftrightarrow$ `dcheor`, Global Count = 5)**:
+     - On Pharmaceutical `f99r` ([`pages/f99r_top_row_darar.png`](file:///c:/Users/denni/Documents/voynich/pages/f99r_top_row_darar.png)), the 2nd miniature root in the top row (`<!69>`) is labeled **`<f99r.3,@Lf> darar`**, and line `<f99r.17,+P0>` directly below it begins with **`dcheor`** (global count = 5).
+     - On Herbal `f17r` ([`pages/f17r_top_daram_margin.png`](file:///c:/Users/denni/Documents/voynich/pages/f17r_top_daram_margin.png))—the full-page drawing of `f99r`'s miniature root—the **2nd word of Line 1 of Paragraph 1 (`<f17r.1,@P0>`)** is **`daram`** (`<%>fshody.daram...`, the `-m` form of `darar`!), AND line `<f17r.10,+P0>` also contains **`dcheor`** (global count = 5)!
+  3. **`f88r` $\leftrightarrow$ `f22r` (`oldar` $\leftrightarrow$ `oldam`, Global Count = 12)**:
+     - On Pharmaceutical `f88r` ([`pages/f88r_top_row_oldar.png`](file:///c:/Users/denni/Documents/voynich/pages/f88r_top_row_oldar.png)), the 3rd miniature root in the top row is labeled **`<f88r.4,@Lf> oldar`**.
+     - On Herbal `f22r` ([`pages/f22r_oldam_crop.png`](file:///c:/Users/denni/Documents/voynich/pages/f22r_oldam_crop.png))—the full-page drawing of `f88r`'s miniature root—the **last word of Line 1 of Paragraph 3 (`<f22r.10,+P0>`)** at the right margin is **`oldam`** (`<%>kchol...<->opchol.oldam`), demonstrating our line-final `-m` $\leftrightarrow$ `-r` rule across paired botanical illustrations!
+  4. **Additional Rare Stem Matches Between Visually Paired `(Herbal, Pharma)` Folios**:
+     - **`f51v` $\leftrightarrow$ `f100r` (`shodol`, Global Count = 3)**: Occurs as the 4th word of `<f100r.12,@P0>` (Line 1 of Paragraph 1 on `f100r`) and as the 4th word of `<f51v.5,+P0>` (its full-page Herbal twin)!
+     - **`f19r` $\leftrightarrow$ `f101v` (`octhor`, Global Count = 3, and `choldy`, Global Count = 10)**: Both rare stems co-occur on `f19r` and its Pharmaceutical twin `f101v`.
+
+---
+
+### Discovery 12: The `f57v` Four-Quadrant Character Ring & Astronomical Spoke Concordance
+Analyzing the concentric rings of `f57v` ([`pages/f57v_ring_enh.png`](file:///c:/Users/denni/Documents/voynich/pages/f57v_ring_enh.png)) and the Astronomical wheels (`f67r1–f70r2`) in [`data/astro_and_herbal_analysis.json`](file:///c:/Users/denni/Documents/voynich/data/astro_and_herbal_analysis.json) establishes two key structural properties:
+1. **Direct Visual Proof of `f` $\leftrightarrow$ `p` Equivalence in the 4-Quadrant Key Ring (`<f57v.3,+Cc>`)**:
+   - Ring 2 of `f57v` (`55` single characters) repeats an identical 14-symbol sequence across each of its 4 quadrants:
+
+| Quadrant | Characters `1..8` | Slot `9` (`f` vs `p`) | Characters `10..14` |
+| :--- | :---: | :---: | :---: |
+| **Quadrant 1** (`10h–1h`) | `o  l  d  r  v  x  k  m` | **`f`** | `@169;v  t  r  y` |
+| **Quadrant 2** (`1h–4h`) | `o  l  d  r  v  x  k  m` | **`f`** | `@169;v  t  r  y  c` |
+| **Quadrant 3** (`4h–7h`) | `o  l  d  r  v  x  k  m` | **`p`** | `@169;v  t  r  y  c` |
+| **Quadrant 4** (`7h–10h`) | `o  l  d  r  v  x  k  m` | **`p`** | `@169;v  t  r  y  c` |
+
+   - Because `f` (in Quadrants 1–2) and `p` (in Quadrants 3–4) substitute for one another in the exact same 9th slot (`... k m [f/p] @169;v t r y c`) of a deterministic 14-symbol sequence, `f57v` provides an explicit, manuscript-internal demonstration of `f`/`p` gallows interchangeability.
+2. **Astronomical Spoke/Star Label (`@Ls`, `@L0`, `@La`) Cross-Section Concordance**:
+   - Twenty-three rare Astronomical labels (global canonical count `2..5`) recur in specific Herbal, Biological, Zodiac, Cosmological, Pharmaceutical, and Starred Recipe loci, demonstrating our morphological rules in action across sections:
+     - `<f69r.6,&L0> chtaly` (count=2) $\leftrightarrow$ Libra Zodiac `<f72v1.1,@P0> chpaly` (`t` $\leftrightarrow$ top-line `p`!).
+     - `<f68r2.19,@Ls> cholar` (count=2) $\leftrightarrow$ Cosmological `<f69r.13,@Cc> cholam` (`-r` $\leftrightarrow$ `-m`!).
+     - `<f68r1.35,@Ls> otochedy` (count=3) $\leftrightarrow$ Cancer Zodiac `<f72r3.14,@Lz> otochedy` & 9-Rosettes `<fRos.7,@L0> otochedy`.
+     - `<f68r2.8,@Ls> cheorol` (count=2) $\leftrightarrow$ Pharmaceutical `<f88v.10,+P0> cheorol`.
+     - `<f68r1.33,@Ls> okshor` (count=2) $\leftrightarrow$ Herbal `<f22v.9,@P0> okshor`.
+     - `<f67r2.62,&Ls> otolor` (count=2) $\leftrightarrow$ Biological `<f77v.4,@L0> otolor`.
+
+---
+
 ## 4. Open Questions & Next Avenues to Explore
-1. **Astronomical & Cosmological Circular Diagrams (`f57v`, `f67r1–f68v3`, `f69r–f70r2`)**: How are the radial spoke labels (`@Ls`), star labels (`@L*`), and perimeter rings structured on the Astronomical wheels, and what is the structure of the repeating 4-fold perimeter sequence on `f57v`?
-2. **Herbal Botanical Feature Taxonomy (`f1r–f57r`)**: Can we link specific botanical visual features (bulbous vs. branching roots, serrated vs. lobate leaves, single vs. composite flowers) or Currier A vs. B Herbal pages to specific label/paragraph stems?
+1. **Biological Nymph & Tube Architecture (`f75r–f84v`)**: Can we map the exact flow of water/fluid across the 20 Biological pages (`f75r–f84v`) and test how `@Lt` (tube/pool) and `@Ln` (nymph) labels relate to the multi-paragraph text blocks on each page?
+2. **Text-Only Herbal (`f58r–f58v`, `f65v`, `f66r–f66v`) & Cosmological (`f85r1`, `f86v3–f86v6`) Prose Structure**: How do the long multi-paragraph text panels on the reverse of the 9-Rosettes foldout (`f86v3`, `f86v5`, `f86v6`) and the starred/unstarred catalog pages (`f58r–f58v`, `f66r–f66v`) link to the surrounding illustrated sections?
 
 
 
