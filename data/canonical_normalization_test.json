@@ -1,0 +1,101 @@
+{
+  "total_raw_word_types": 8101,
+  "total_canonical_root_types": 5956,
+  "vocabulary_compression_ratio_pct": 26.5,
+  "all_labels_len4_match_stats": {
+    "observed": 71,
+    "null_mean": 57.78,
+    "null_sd": 4.73,
+    "z_score": 2.79,
+    "empirical_p": 0.002
+  },
+  "rare_labels_freq25_match_stats": {
+    "observed": 10,
+    "null_mean": 5.28,
+    "null_sd": 2.02,
+    "z_score": 2.33,
+    "empirical_p": 0.029
+  },
+  "rare_canonical_matches": [
+    {
+      "folio": "f66r",
+      "sec": "T",
+      "label": "dary",
+      "para_word": "dary",
+      "canonical_root": "dary",
+      "global_root_freq": 23
+    },
+    {
+      "folio": "f75v",
+      "sec": "B",
+      "label": "olol",
+      "para_word": "olol",
+      "canonical_root": "olol",
+      "global_root_freq": 19
+    },
+    {
+      "folio": "f80r",
+      "sec": "B",
+      "label": "okan",
+      "para_word": "qokan",
+      "canonical_root": "okan",
+      "global_root_freq": 14
+    },
+    {
+      "folio": "f82v",
+      "sec": "B",
+      "label": "okoldy",
+      "para_word": "qokoldy",
+      "canonical_root": "okoldy",
+      "global_root_freq": 10
+    },
+    {
+      "folio": "f82v",
+      "sec": "B",
+      "label": "olkol",
+      "para_word": "olkol",
+      "canonical_root": "olkol",
+      "global_root_freq": 4
+    },
+    {
+      "folio": "f84r",
+      "sec": "B",
+      "label": "shekar",
+      "para_word": "shekam",
+      "canonical_root": "shekar",
+      "global_root_freq": 6
+    },
+    {
+      "folio": "f84r",
+      "sec": "B",
+      "label": "otoly",
+      "para_word": "opoly",
+      "canonical_root": "otoly",
+      "global_root_freq": 12
+    },
+    {
+      "folio": "f89r2",
+      "sec": "P",
+      "label": "opcheor",
+      "para_word": "opcheor",
+      "canonical_root": "otcheor",
+      "global_root_freq": 4
+    },
+    {
+      "folio": "f99r",
+      "sec": "P",
+      "label": "okeoly",
+      "para_word": "okeoly",
+      "canonical_root": "okeoly",
+      "global_root_freq": 10
+    },
+    {
+      "folio": "f99v",
+      "sec": "P",
+      "label": "doldam",
+      "para_word": "doldam",
+      "canonical_root": "doldar",
+      "global_root_freq": 2
+    }
+  ]
+}

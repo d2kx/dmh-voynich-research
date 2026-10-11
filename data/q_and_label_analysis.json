@@ -1,0 +1,786 @@
+{
+  "q_proclitic_analysis": {
+    "total_qo_types": 723,
+    "total_qo_tokens": 5149,
+    "q_without_o_tokens": 121,
+    "qo_types_with_exact_o_twin": 403,
+    "qo_types_with_exact_o_twin_pct": 55.7,
+    "qo_tokens_with_exact_o_twin": 4785,
+    "qo_tokens_with_exact_o_twin_pct": 92.9,
+    "top_25_qo_vs_o_twins": [
+      {
+        "qo_word": "qokeedy",
+        "qo_para_count": 307,
+        "qo_label_count": 0,
+        "o_word": "okeedy",
+        "o_para_count": 105,
+        "o_label_count": 1
+      },
+      {
+        "qo_word": "qokeey",
+        "qo_para_count": 303,
+        "qo_label_count": 0,
+        "o_word": "okeey",
+        "o_para_count": 159,
+        "o_label_count": 6
+      },
+      {
+        "qo_word": "qokain",
+        "qo_para_count": 279,
+        "qo_label_count": 0,
+        "o_word": "okain",
+        "o_para_count": 136,
+        "o_label_count": 4
+      },
+      {
+        "qo_word": "qokedy",
+        "qo_para_count": 274,
+        "qo_label_count": 0,
+        "o_word": "okedy",
+        "o_para_count": 109,
+        "o_label_count": 2
+      },
+      {
+        "qo_word": "qokaiin",
+        "qo_para_count": 265,
+        "qo_label_count": 0,
+        "o_word": "okaiin",
+        "o_para_count": 204,
+        "o_label_count": 4
+      },
+      {
+        "qo_word": "qokal",
+        "qo_para_count": 191,
+        "qo_label_count": 2,
+        "o_word": "okal",
+        "o_para_count": 134,
+        "o_label_count": 7
+      },
+      {
+        "qo_word": "qokar",
+        "qo_para_count": 157,
+        "qo_label_count": 0,
+        "o_word": "okar",
+        "o_para_count": 122,
+        "o_label_count": 4
+      },
+      {
+        "qo_word": "qoky",
+        "qo_para_count": 146,
+        "qo_label_count": 0,
+        "o_word": "oky",
+        "o_para_count": 91,
+        "o_label_count": 7
+      },
+      {
+        "qo_word": "qol",
+        "qo_para_count": 142,
+        "qo_label_count": 0,
+        "o_word": "ol",
+        "o_para_count": 531,
+        "o_label_count": 0
+      },
+      {
+        "qo_word": "qokey",
+        "qo_para_count": 108,
+        "qo_label_count": 0,
+        "o_word": "okey",
+        "o_para_count": 55,
+        "o_label_count": 1
+      },
+      {
+        "qo_word": "qokol",
+        "qo_para_count": 96,
+        "qo_label_count": 0,
+        "o_word": "okol",
+        "o_para_count": 63,
+        "o_label_count": 7
+      },
+      {
+        "qo_word": "qoty",
+        "qo_para_count": 87,
+        "qo_label_count": 0,
+        "o_word": "oty",
+        "o_para_count": 102,
+        "o_label_count": 3
+      },
+      {
+        "qo_word": "qotedy",
+        "qo_para_count": 87,
+        "qo_label_count": 1,
+        "o_word": "otedy",
+        "o_para_count": 139,
+        "o_label_count": 6
+      },
+      {
+        "qo_word": "qotaiin",
+        "qo_para_count": 79,
+        "qo_label_count": 0,
+        "o_word": "otaiin",
+        "o_para_count": 141,
+        "o_label_count": 2
+      },
+      {
+        "qo_word": "qoteedy",
+        "qo_para_count": 76,
+        "qo_label_count": 0,
+        "o_word": "oteedy",
+        "o_para_count": 89,
+        "o_label_count": 2
+      },
+      {
+        "qo_word": "qokchy",
+        "qo_para_count": 67,
+        "qo_label_count": 0,
+        "o_word": "okchy",
+        "o_para_count": 23,
+        "o_label_count": 1
+      },
+      {
+        "qo_word": "qotar",
+        "qo_para_count": 63,
+        "qo_label_count": 0,
+        "o_word": "otar",
+        "o_para_count": 126,
+        "o_label_count": 7
+      },
+      {
+        "qo_word": "qotchy",
+        "qo_para_count": 62,
+        "qo_label_count": 0,
+        "o_word": "otchy",
+        "o_para_count": 42,
+        "o_label_count": 0
+      },
+      {
+        "qo_word": "qotain",
+        "qo_para_count": 60,
+        "qo_label_count": 0,
+        "o_word": "otain",
+        "o_para_count": 94,
+        "o_label_count": 2
+      },
+      {
+        "qo_word": "qotal",
+        "qo_para_count": 59,
+        "qo_label_count": 0,
+        "o_word": "otal",
+        "o_para_count": 125,
+        "o_label_count": 7
+      },
+      {
+        "qo_word": "qokeol",
+        "qo_para_count": 50,
+        "qo_label_count": 0,
+        "o_word": "okeol",
+        "o_para_count": 57,
+        "o_label_count": 1
+      },
+      {
+        "qo_word": "qokchdy",
+        "qo_para_count": 49,
+        "qo_label_count": 0,
+        "o_word": "okchdy",
+        "o_para_count": 17,
+        "o_label_count": 2
+      },
+      {
+        "qo_word": "qotol",
+        "qo_para_count": 44,
+        "qo_label_count": 0,
+        "o_word": "otol",
+        "o_para_count": 65,
+        "o_label_count": 4
+      },
+      {
+        "qo_word": "qodaiin",
+        "qo_para_count": 43,
+        "qo_label_count": 0,
+        "o_word": "odaiin",
+        "o_para_count": 58,
+        "o_label_count": 1
+      },
+      {
+        "qo_word": "qoteey",
+        "qo_para_count": 41,
+        "qo_label_count": 0,
+        "o_word": "oteey",
+        "o_para_count": 107,
+        "o_label_count": 3
+      }
+    ],
+    "proclitic_comparison": {
+      "q+o...": {
+        "types": 723,
+        "types_with_bare_twin_pct": 55.7,
+        "tokens": 5149,
+        "tokens_with_bare_twin_pct": 92.9
+      },
+      "y+o...": {
+        "types": 19,
+        "types_with_bare_twin_pct": 94.7,
+        "tokens": 25,
+        "tokens_with_bare_twin_pct": 96.0
+      },
+      "y+k...": {
+        "types": 148,
+        "types_with_bare_twin_pct": 50.7,
+        "tokens": 519,
+        "tokens_with_bare_twin_pct": 85.4
+      },
+      "y+t...": {
+        "types": 120,
+        "types_with_bare_twin_pct": 53.3,
+        "tokens": 455,
+        "tokens_with_bare_twin_pct": 86.8
+      },
+      "y+ch...": {
+        "types": 79,
+        "types_with_bare_twin_pct": 81.0,
+        "tokens": 209,
+        "tokens_with_bare_twin_pct": 92.8
+      },
+      "y+sh...": {
+        "types": 39,
+        "types_with_bare_twin_pct": 79.5,
+        "tokens": 80,
+        "tokens_with_bare_twin_pct": 90.0
+      },
+      "d+a...": {
+        "types": 198,
+        "types_with_bare_twin_pct": 40.9,
+        "tokens": 2115,
+        "tokens_with_bare_twin_pct": 93.9
+      },
+      "s+a...": {
+        "types": 72,
+        "types_with_bare_twin_pct": 66.7,
+        "tokens": 426,
+        "tokens_with_bare_twin_pct": 94.1
+      }
+    }
+  },
+  "label_to_same_folio_paragraph_test": {
+    "folios_with_labels_and_paragraphs": 39,
+    "total_tested_labels": 564,
+    "same_folio_exact_matches": 57,
+    "null_shuffled_exact_mean": 49.92,
+    "same_folio_qtwin_matches": 33,
+    "null_shuffled_qtwin_mean": 21.7,
+    "same_folio_stem_matches": 184,
+    "null_shuffled_stem_mean": 164.9,
+    "matched_examples": [
+      {
+        "folio": "f2r",
+        "section": "H",
+        "label": "an",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f66r",
+        "section": "T",
+        "label": "dary",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f66r",
+        "section": "T",
+        "label": "qokal",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f66r",
+        "section": "T",
+        "label": "daiin",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f67r2",
+        "section": "A",
+        "label": "am",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f67r2",
+        "section": "A",
+        "label": "ofar",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f67r2",
+        "section": "A",
+        "label": "daiin",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f67r2",
+        "section": "A",
+        "label": "dy",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f67r2",
+        "section": "A",
+        "label": "dal",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f67r2",
+        "section": "A",
+        "label": "air",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f67v2",
+        "section": "C",
+        "label": "am",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f68r1",
+        "section": "A",
+        "label": "otor",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f69r",
+        "section": "C",
+        "label": "chey",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f69r",
+        "section": "C",
+        "label": "daiin",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f75v",
+        "section": "B",
+        "label": "dal",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f75v",
+        "section": "B",
+        "label": "qokal",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f75v",
+        "section": "B",
+        "label": "dal",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f75v",
+        "section": "B",
+        "label": "okeey",
+        "exact_in_folio_para": false,
+        "qtwin_in_folio_para": "qokeey"
+      },
+      {
+        "folio": "f75v",
+        "section": "B",
+        "label": "lol",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f75v",
+        "section": "B",
+        "label": "olol",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": "qolol"
+      },
+      {
+        "folio": "f75v",
+        "section": "B",
+        "label": "otedy",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": "qotedy"
+      },
+      {
+        "folio": "f75v",
+        "section": "B",
+        "label": "oteey",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f75v",
+        "section": "B",
+        "label": "qotedy",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f77r",
+        "section": "B",
+        "label": "otedy",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": "qotedy"
+      },
+      {
+        "folio": "f77r",
+        "section": "B",
+        "label": "otol",
+        "exact_in_folio_para": false,
+        "qtwin_in_folio_para": "qotol"
+      },
+      {
+        "folio": "f77v",
+        "section": "B",
+        "label": "okain",
+        "exact_in_folio_para": false,
+        "qtwin_in_folio_para": "qokain"
+      },
+      {
+        "folio": "f77v",
+        "section": "B",
+        "label": "otol",
+        "exact_in_folio_para": false,
+        "qtwin_in_folio_para": "qotol"
+      },
+      {
+        "folio": "f77v",
+        "section": "B",
+        "label": "shedy",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f78r",
+        "section": "B",
+        "label": "okchdy",
+        "exact_in_folio_para": false,
+        "qtwin_in_folio_para": "qokchdy"
+      },
+      {
+        "folio": "f78r",
+        "section": "B",
+        "label": "dar",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f80r",
+        "section": "B",
+        "label": "okaly",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f80r",
+        "section": "B",
+        "label": "olky",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f80r",
+        "section": "B",
+        "label": "okar",
+        "exact_in_folio_para": false,
+        "qtwin_in_folio_para": "qokar"
+      },
+      {
+        "folio": "f80r",
+        "section": "B",
+        "label": "okan",
+        "exact_in_folio_para": false,
+        "qtwin_in_folio_para": "qokan"
+      },
+      {
+        "folio": "f81v",
+        "section": "B",
+        "label": "otain",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": "qotain"
+      },
+      {
+        "folio": "f82r",
+        "section": "B",
+        "label": "okal",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": "qokal"
+      },
+      {
+        "folio": "f82v",
+        "section": "B",
+        "label": "otedy",
+        "exact_in_folio_para": false,
+        "qtwin_in_folio_para": "qotedy"
+      },
+      {
+        "folio": "f82v",
+        "section": "B",
+        "label": "olkeedy",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f82v",
+        "section": "B",
+        "label": "okain",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": "qokain"
+      },
+      {
+        "folio": "f82v",
+        "section": "B",
+        "label": "okol",
+        "exact_in_folio_para": false,
+        "qtwin_in_folio_para": "qokol"
+      },
+      {
+        "folio": "f82v",
+        "section": "B",
+        "label": "okoldy",
+        "exact_in_folio_para": false,
+        "qtwin_in_folio_para": "qokoldy"
+      },
+      {
+        "folio": "f82v",
+        "section": "B",
+        "label": "olkol",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f82v",
+        "section": "B",
+        "label": "oteedy",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": "qoteedy"
+      },
+      {
+        "folio": "f83v",
+        "section": "B",
+        "label": "okchdy",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f83v",
+        "section": "B",
+        "label": "okaiin",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": "qokaiin"
+      },
+      {
+        "folio": "f84r",
+        "section": "B",
+        "label": "or",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": "qor"
+      },
+      {
+        "folio": "f84r",
+        "section": "B",
+        "label": "okedy",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": "qokedy"
+      },
+      {
+        "folio": "f84r",
+        "section": "B",
+        "label": "otedy",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": "qotedy"
+      },
+      {
+        "folio": "f84r",
+        "section": "B",
+        "label": "dshedy",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f88r",
+        "section": "P",
+        "label": "okol",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": "qokol"
+      },
+      {
+        "folio": "f89r1",
+        "section": "P",
+        "label": "chol",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f89r2",
+        "section": "P",
+        "label": "opcheor",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f89r2",
+        "section": "P",
+        "label": "okol",
+        "exact_in_folio_para": false,
+        "qtwin_in_folio_para": "qokol"
+      },
+      {
+        "folio": "f89r2",
+        "section": "P",
+        "label": "dy",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f89r2",
+        "section": "P",
+        "label": "cheody",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f89v2",
+        "section": "P",
+        "label": "sheol",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f89v2",
+        "section": "P",
+        "label": "chody",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f89v1",
+        "section": "P",
+        "label": "opol",
+        "exact_in_folio_para": false,
+        "qtwin_in_folio_para": "qopol"
+      },
+      {
+        "folio": "f99r",
+        "section": "P",
+        "label": "oky",
+        "exact_in_folio_para": false,
+        "qtwin_in_folio_para": "qoky"
+      },
+      {
+        "folio": "f99r",
+        "section": "P",
+        "label": "okor",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f99r",
+        "section": "P",
+        "label": "oky",
+        "exact_in_folio_para": false,
+        "qtwin_in_folio_para": "qoky"
+      },
+      {
+        "folio": "f99r",
+        "section": "P",
+        "label": "okeoly",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f99r",
+        "section": "P",
+        "label": "dar",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f99v",
+        "section": "P",
+        "label": "oldy",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f99v",
+        "section": "P",
+        "label": "dar",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f99v",
+        "section": "P",
+        "label": "chor",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f99v",
+        "section": "P",
+        "label": "doldam",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f101v",
+        "section": "P",
+        "label": "okol",
+        "exact_in_folio_para": false,
+        "qtwin_in_folio_para": "qokol"
+      },
+      {
+        "folio": "f102v2",
+        "section": "P",
+        "label": "okeos",
+        "exact_in_folio_para": false,
+        "qtwin_in_folio_para": "qokeos"
+      },
+      {
+        "folio": "f102v2",
+        "section": "P",
+        "label": "cheor",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f102v2",
+        "section": "P",
+        "label": "os",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": null
+      },
+      {
+        "folio": "f102v1",
+        "section": "P",
+        "label": "okeody",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": "qokeody"
+      },
+      {
+        "folio": "f102v1",
+        "section": "P",
+        "label": "okeody",
+        "exact_in_folio_para": true,
+        "qtwin_in_folio_para": "qokeody"
+      }
+    ]
+  }
+}

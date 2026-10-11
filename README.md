@@ -1,0 +1,104 @@
+# Voynich Manuscript Empirical & Visual Research (`dmh-voynich-research`)
+
+An open-ended computational, paleographic, and visual forensic research repository investigating the **Voynich Manuscript (Beinecke MS 408)**.
+
+Rather than rehashing historical decipherment speculations, this project focuses on **direct empirical observation and reproducible experiments**—combining high-resolution visual forensics across two complete PDF scans of the manuscript with quantitative structural analysis of the full ~38,400-word corpus.
+
+- **[`NOTES.md`](NOTES.md)**: Living research log tracking all discoveries, visual forensics, statistical tests, and open questions.
+- **[`AGENTS.md`](AGENTS.md)**: Continuity guide and workspace reference for AI research agents working in this repository.
+
+---
+
+## Repository Structure
+
+```text
+├── 2002046.pdf                  # 214-page Yale Digital Collections scan (~1500x2000 px, Git LFS)
+├── voynich-manuscript.pdf       # 210-page TCPDF scan with bookmark TOC (~1082x1500 px, Git LFS)
+├── NOTES.md                     # Detailed living research log & findings
+├── AGENTS.md                    # Instructions for multi-agent research continuity
+├── data/
+│   ├── folio_index.json         # Master cross-reference index (226 folios <-> both PDFs & metadata)
+│   ├── ZL3b-n.txt               # Zandbergen-Landini EVA transliteration (IVTFF 2.0)
+│   ├── RF1b-er.txt              # Reference basic EVA transliteration
+│   ├── IT2a-n.txt / GC2a-n.txt  # Takahashi & Glen Claston (v101) transliterations
+│   └── *.json                   # Quantitative experiment outputs
+├── tools/
+│   ├── build_index.py           # Builds data/folio_index.json from both PDFs and EVA corpus
+│   ├── render_folio.py          # Extracts, crops, enhances, and compares scans from both PDFs
+│   ├── analyze_structure.py     # Line/drawing boundary morphology & Herbal-Pharma cross-references
+│   ├── test_q_prefix_and_labels.py     # Tests the q- proclitic rule (qoX = q + oX) & label matches
+│   ├── deep_grammar_and_cipher_test.py # Tests top-line gallows allography (p/f vs t/k) & slot grammar
+│   └── test_unified_normalization.py   # 4-Rule Canonical Normalization & 1,000-trial permutation test
+└── pages/                       # Extracted, cropped, and contrast-enhanced folio images
+```
+
+---
+
+## Highlights of Findings So Far
+
+*(See **[`NOTES.md`](NOTES.md)** for full tables, locus citations, and statistical proofs.)*
+
+### 1. Visual & Codicological Forensics Across Both PDFs
+- **Faded Marginalia & Multilingual Charm Enhancement**: Multi-channel contrast enhancement across `2002046.pdf` and `voynich-manuscript.pdf` brings out the right-margin Latin alphabetic sequence on **`f1r`**, the `den mus` / `del` corner annotations on **`f66r`**, and the mixed Latin / Middle High German / Voynich charm on **`f116v`**:
+
+![Enhanced f116v comparison](pages/f116v_text_cmp_enh.png)
+
+- **Solving an "Untranscribed Inscription" on Foldout `f101v–f102v`**: Visual inspection of miniature plant `f102r1[3,2]` (the miniature twin of `f1v`) revealed a two-word Voynich inscription directly beneath its root that was absent from `<f102r1>` in all standard transcriptions. Cross-checking the verso scans (`p182` and `p183`) proved that the bottom edge of `f102r1` is folded upward onto `f102v1`, exposing `cheekey.orain` from the end of line `<f102v2.39>` on the folded panel behind it:
+
+![f102r1 plant 3,2 crop](pages/f102r1_plant32_crop.png)
+
+---
+
+### 2. The Physical Line & Drawing-Intrusion State Machine
+Voynich word morphology shifts systematically based on **physical page geometry**:
+- **Paragraph Start (`<%>`)**: **83.6%** of all paragraphs open with a gallows word (`p/f/t/k`), and average word length jumps to **6.49** characters (vs. **4.98** in line interiors).
+- **Top-Line Gallows Allography (`p/f` vs. `t/k`)**: Looped gallows (`p`, `f`) appear in **22.08%** of words on the first line of a paragraph (`Line 0`), but drop **17-fold to 1.30%** on all lower lines (`Line 1+`), while unlooped `k` and `t` remain constant (`41.6%` vs. `46.3%`). This indicates `p` and `f` are positional top-line allographs of `t` and `k`.
+- **Drawing Interruptions (`<->`) Trigger a Line-Initial Reset**: When a pre-drawn plant stem bisects a line, the word immediately *before* the stem compresses (`4.31` chars), and the word immediately *after* the stem (`<-> w`) resets to the **left-margin state**—boosting `y-` initials over **4×** (`3.4%` $\to$ `14.5%`, matching `line_start`'s `17.6%`) and suppressing `qo-` over **5×** (`16.7%` $\to$ `3.1%`).
+- **Right-Margin `-m` Terminators**: Words ending in `-m` (`-am`, `-om`, `-aim`) spike **18.6×** at the physical right end of a line (`16.8%` at `line_end` vs. `0.9%` in `line_mid`).
+
+---
+
+### 3. The `q-` Proclitic Rule (`qoX` = `q-` + Nominal `oX`)
+- In running prose (`line_mid`), **`qo-`** begins **16.7%** of all words.
+- Across all **1,033 isolated figure/object labels (`@L`)** (plants, jars, stars, nymphs), **`qo-` practically vanishes (`0.9%`, an 18.5× suppression)**, while bare **`o-` surges from `21.3%` in prose to `52.7%` in labels**.
+- **92.9% of all `qo-...` word tokens (`4,785 / 5,149`) have an exact bare `o-...` twin (`w[1:]`)** in the corpus (`qokeedy`/`okeedy`, `qokal`/`okal`, `qokol`/`okol`, `qotedy`/`otedy`, `qotar`/`otar`).
+- **Conclusion**: `q-` is not part of any noun's root stem; standalone nouns (figure labels) are written in the bare `oX` form, and `q-` is prepended as a clause-internal grammatical proclitic when `oX` is embedded in running prose.
+
+---
+
+### 4. Direct Same-Folio Label-to-Paragraph Cross-Referencing ($z = +2.79, p = 0.002$)
+Applying our **4-Rule Canonical Normalization** (1: strip `q-/y-` proclitics; 2: collapse `p/f` $\to$ `t/k` top-line gallows; 3: compress `e+/i+/o+/a+` runs; 4: neutralize line-final `-m` $\to$ `-r`) compresses the manuscript's raw vocabulary by **26.5%** (`8,101` $\to$ `5,956` types) and demonstrates that **figure labels on a folio match the paragraph text on that exact same folio significantly above chance ($p = 0.002$)**.
+
+Notable rare same-folio label $\leftrightarrow$ paragraph matches verified directly on the scans:
+- **Folio `f99v` (`doldam` $\leftrightarrow$ `doldam`, Global MS Count = 2)**: Appears **only twice in the entire 38,409-word manuscript**—once as the label `<f99v.31,@Lf>` above the crossed root on the far right, and once 3 lines below it at the right end of `<f99v.34,+P0>`:
+
+![f99v doldam pair](pages/f99v_doldam_pair.png)
+
+- **Folio `f84r` (`otoly` $\leftrightarrow$ `opoly` & `shekar` $\leftrightarrow$ `shekam`)**: Under the top canopy of `f84r`, the second nymph from the right is labeled `<f84r.11> otoly` (MS count = 4). Directly beneath her at the right end of Line 1 of the paragraph (`<f84r.13>`) is **`opoly`** (MS count = 2)—the exact same word with the top-line gallows allograph `p` replacing `t`! Meanwhile, unique canopy label `<f84r.2> shekar` (MS count = 1) appears at the right end of line `<f84r.30>` with the line-final `-m` suffix (`shekam`, MS count = 2):
+
+![f84r top crop](pages/f84r_top_crop.png)
+
+- **Folio `f82v` (`okoldy` $\leftrightarrow$ `qokoldy` & `olkol` $\leftrightarrow$ `olkol`)**: **60% (6/10)** of the bottom-pool labels appear in the paragraph text on the same folio, including rare `<f82v.45> okoldy` $\to$ `<f82v.13> qokoldy` (MS count = 2) and `<f82v.46> olkol` $\to$ `<f82v.37> olkol` (MS count = 3).
+
+---
+
+## Quick Start
+
+Requires Python 3.10+ with `pymupdf` and `pillow`:
+
+```bash
+pip install pymupdf pillow
+
+# Rebuild the master folio index from both PDFs and EVA corpus
+python tools/build_index.py
+
+# Extract and enhance a specific folio or cropped region
+python tools/render_folio.py f99v --crop 0.05 0.28 0.98 0.72 --out pages/f99v_doldam_pair.png
+python tools/render_folio.py f116v --crop 0.05 0.02 0.85 0.45 --enhance --compare --out pages/f116v_text_cmp_enh.png
+
+# Run the structural and statistical test suite
+python tools/analyze_structure.py
+python tools/test_q_prefix_and_labels.py
+python tools/deep_grammar_and_cipher_test.py
+python tools/test_unified_normalization.py
+```
