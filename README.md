@@ -37,7 +37,8 @@ Rather than rehashing historical decipherment speculations, this project focuses
 │   ├── analyze_rosettes_phrases_and_v101.py # 9-Rosettes (<fRos>) concordance, bigram space forensics & v101 check
 │   ├── analyze_astro_and_herbal.py     # f57v 4-quadrant key ring & Herbal-Pharma visual twin permutation test
 │   ├── analyze_bio_rosettes_and_keys.py # Marginal character keys (f49v, f57v, f66r, f76r) & Bio/Quire N analysis
-│   └── analyze_cipher_wheel_f57v.py    # f57v 6-sector radial alignment & 4x17=68 key wheel analysis
+│   ├── analyze_cipher_wheel_f57v.py    # f57v 6-sector radial alignment & 4x17=68 key wheel analysis
+│   └── test_syllable_and_entropy.py    # 5-slot Shannon entropy decomposition & 7.24-bit core root inventory
 └── pages/                       # Extracted, cropped, and contrast-enhanced folio images
 ```
 
@@ -147,6 +148,12 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 10. Five-Slot Shannon Entropy Decomposition & The `7.24-Bit` Core Root Inventory (`1 Voynich Word ≈ 1 Syllable`)
+- **Single 5-Slot Regex Coverage (`79.81%`) & Internal Slot Redundancy (`4.62 bits`)**: Decomposing all `39,067` words into `[S1: Proclitic] + [S2: Onset] + [S3: Core] + [S4: Grade] + [S5: Suffix]` shows that the sum of individual slot entropies (`15.00 bits`) exceeds the joint word entropy (`10.39 bits`) by **`4.62 bits` (30.8% internal phonotactic redundancy)**, led by `I(S4_Grade ; S5_Suffix) = 1.48 bits` and `I(S3_Core ; S4_Grade) = 0.88 bits`.
+- **The `7.24-Bit` Core Root Inventory**: Stripping `S1` (`Proclitic`) and `S5` (`Suffix`) and normalizing `p/f` $\to$ `t/k` and `e+` $\to$ `e` reduces the **Core Root (`S2 + S3 + S4`)** to **`7.24 bits` of Shannon entropy** (`2^{7.24} ≈ 151` effective equiprobable syllables/roots, with the top 15 core roots covering **47.56%** of the entire manuscript and the top 35 covering **64.20%**). Grouping tokens into bounded syntactic clauses (`avg = 3.28 words/clause`) yields **`12.98 bits/clause`**, matching the information content of a full European word or short phrase.
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -175,5 +182,6 @@ python tools/analyze_rosettes_phrases_and_v101.py
 python tools/analyze_astro_and_herbal.py
 python tools/analyze_bio_rosettes_and_keys.py
 python tools/analyze_cipher_wheel_f57v.py
+python tools/test_syllable_and_entropy.py
 ```
 

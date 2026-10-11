@@ -1,0 +1,882 @@
+{
+  "summary_metrics": {
+    "total_words": 39067,
+    "unique_raw_words": 8091,
+    "unique_canonical_words": 5718,
+    "avg_word_length_chars": 4.971,
+    "H_char_unigram_bits": 3.9013,
+    "H_char_conditional_bits": 2.1574,
+    "H_raw_word_bits": 10.397,
+    "H_canonical_word_bits": 9.3878,
+    "H_word_conditional_adj_bits": 4.4217,
+    "MI_adjacent_raw_words_bits": 5.5595,
+    "MI_adjacent_canonical_words_bits": 4.0141,
+    "exact_5slot_regex_coverage_pct": 79.81
+  },
+  "slot_entropies_bits": {
+    "S1_Proclitic_Initial": 1.6901,
+    "S2_Onset_Vowel": 1.4794,
+    "S3_Core_Consonant": 3.9911,
+    "S4_Medial_Grade": 3.9375,
+    "S5_Terminal_Suffix": 3.9067,
+    "sum_of_5_slot_entropies": 15.0048,
+    "joint_5_slot_entropy": 10.3863,
+    "within_word_slot_redundancy_MI": 4.6184
+  },
+  "within_word_slot_MI": {
+    "S1_Proclitic__x__S2_Onset": 0.3568,
+    "S1_Proclitic__x__S3_Core": 0.3628,
+    "S1_Proclitic__x__S4_Grade": 0.2084,
+    "S1_Proclitic__x__S5_Suffix": 0.1213,
+    "S2_Onset__x__S3_Core": 0.6465,
+    "S2_Onset__x__S4_Grade": 0.3367,
+    "S2_Onset__x__S5_Suffix": 0.1989,
+    "S3_Core__x__S4_Grade": 0.8829,
+    "S3_Core__x__S5_Suffix": 0.6162,
+    "S4_Grade__x__S5_Suffix": 1.4761
+  },
+  "cross_word_slot_MI": {
+    "W1_S1_Proclitic__to__W2_S1_Proclitic": 0.0142,
+    "W1_S1_Proclitic__to__W2_S2_Onset": 0.0067,
+    "W1_S1_Proclitic__to__W2_S3_Core": 0.0366,
+    "W1_S1_Proclitic__to__W2_S4_Grade": 0.0634,
+    "W1_S1_Proclitic__to__W2_S5_Suffix": 0.0114,
+    "W1_S2_Onset__to__W2_S1_Proclitic": 0.0119,
+    "W1_S2_Onset__to__W2_S2_Onset": 0.0036,
+    "W1_S2_Onset__to__W2_S3_Core": 0.0251,
+    "W1_S2_Onset__to__W2_S4_Grade": 0.0443,
+    "W1_S2_Onset__to__W2_S5_Suffix": 0.0073,
+    "W1_S3_Core__to__W2_S1_Proclitic": 0.0717,
+    "W1_S3_Core__to__W2_S2_Onset": 0.0403,
+    "W1_S3_Core__to__W2_S3_Core": 0.2077,
+    "W1_S3_Core__to__W2_S4_Grade": 0.2249,
+    "W1_S3_Core__to__W2_S5_Suffix": 0.0988,
+    "W1_S4_Grade__to__W2_S1_Proclitic": 0.1205,
+    "W1_S4_Grade__to__W2_S2_Onset": 0.0668,
+    "W1_S4_Grade__to__W2_S3_Core": 0.2529,
+    "W1_S4_Grade__to__W2_S4_Grade": 0.3136,
+    "W1_S4_Grade__to__W2_S5_Suffix": 0.182,
+    "W1_S5_Suffix__to__W2_S1_Proclitic": 0.1095,
+    "W1_S5_Suffix__to__W2_S2_Onset": 0.0459,
+    "W1_S5_Suffix__to__W2_S3_Core": 0.1515,
+    "W1_S5_Suffix__to__W2_S4_Grade": 0.1927,
+    "W1_S5_Suffix__to__W2_S5_Suffix": 0.0751
+  },
+  "currier_A_vs_B": {
+    "A": {
+      "total_tokens": 11631,
+      "unique_raw_types": 3376,
+      "unique_canon_types": 2482,
+      "H_raw_word_bits": 9.8122,
+      "H_canon_word_bits": 9.0286,
+      "H_S1_Proclitic": 1.6592,
+      "H_S2_Onset": 1.4359,
+      "H_S3_Core": 3.9819,
+      "H_S4_Grade": 3.7624,
+      "H_S5_Suffix": 3.8376,
+      "top_S1": [
+        [
+          "∅",
+          7421
+        ],
+        [
+          "d",
+          1725
+        ],
+        [
+          "q",
+          1119
+        ],
+        [
+          "y",
+          737
+        ],
+        [
+          "s",
+          537
+        ],
+        [
+          "l",
+          92
+        ]
+      ],
+      "top_S3": [
+        [
+          "ch",
+          2326
+        ],
+        [
+          "∅",
+          1997
+        ],
+        [
+          "k",
+          1410
+        ],
+        [
+          "sh",
+          1049
+        ],
+        [
+          "t",
+          833
+        ],
+        [
+          "r",
+          586
+        ],
+        [
+          "l",
+          452
+        ],
+        [
+          "cth",
+          432
+        ]
+      ],
+      "top_S5": [
+        [
+          "∅",
+          2271
+        ],
+        [
+          "y",
+          2245
+        ],
+        [
+          "l",
+          1153
+        ],
+        [
+          "r",
+          1019
+        ],
+        [
+          "in",
+          912
+        ],
+        [
+          "ol",
+          486
+        ],
+        [
+          "iin",
+          482
+        ],
+        [
+          "dy",
+          357
+        ]
+      ]
+    },
+    "B": {
+      "total_tokens": 24079,
+      "unique_raw_types": 5037,
+      "unique_canon_types": 3492,
+      "H_raw_word_bits": 9.8682,
+      "H_canon_word_bits": 8.8125,
+      "H_S1_Proclitic": 1.6923,
+      "H_S2_Onset": 1.4658,
+      "H_S3_Core": 3.9016,
+      "H_S4_Grade": 3.6884,
+      "H_S5_Suffix": 3.789,
+      "top_S1": [
+        [
+          "∅",
+          15208
+        ],
+        [
+          "q",
+          4197
+        ],
+        [
+          "d",
+          1621
+        ],
+        [
+          "l",
+          1347
+        ],
+        [
+          "y",
+          1019
+        ],
+        [
+          "s",
+          687
+        ]
+      ],
+      "top_S3": [
+        [
+          "k",
+          5072
+        ],
+        [
+          "ch",
+          3453
+        ],
+        [
+          "∅",
+          2780
+        ],
+        [
+          "t",
+          2776
+        ],
+        [
+          "sh",
+          2149
+        ],
+        [
+          "r",
+          1589
+        ],
+        [
+          "l",
+          1478
+        ],
+        [
+          "pch",
+          462
+        ]
+      ],
+      "top_S5": [
+        [
+          "dy",
+          4740
+        ],
+        [
+          "y",
+          3971
+        ],
+        [
+          "∅",
+          3633
+        ],
+        [
+          "in",
+          2068
+        ],
+        [
+          "r",
+          1592
+        ],
+        [
+          "l",
+          1271
+        ],
+        [
+          "iin",
+          1173
+        ],
+        [
+          "ar",
+          532
+        ]
+      ]
+    }
+  },
+  "core_root_inventory": {
+    "total_unique_core_roots_S2_S3_S4": 2660,
+    "H_core_root_bits": 7.2396,
+    "top_35_core_roots": [
+      {
+        "rank": 1,
+        "root": "∅-ch-e",
+        "count": 2284,
+        "pct": 5.85,
+        "cum_pct": 5.85,
+        "top_surface_forms": [
+          "chedy (507)",
+          "chey (355)",
+          "cheey (185)",
+          "cheol (171)",
+          "lchedy (116)"
+        ]
+      },
+      {
+        "rank": 2,
+        "root": "o-k-e",
+        "count": 2061,
+        "pct": 5.28,
+        "cum_pct": 11.12,
+        "top_surface_forms": [
+          "qokeey (307)",
+          "qokeedy (307)",
+          "qokedy (276)",
+          "okeey (184)",
+          "okedy (120)"
+        ]
+      },
+      {
+        "rank": 3,
+        "root": "a-∅-i",
+        "count": 1949,
+        "pct": 4.99,
+        "cum_pct": 16.11,
+        "top_surface_forms": [
+          "daiin (849)",
+          "aiin (508)",
+          "saiin (127)",
+          "dair (111)",
+          "air (84)"
+        ]
+      },
+      {
+        "rank": 4,
+        "root": "o-k-a",
+        "count": 1724,
+        "pct": 4.41,
+        "cum_pct": 20.52,
+        "top_surface_forms": [
+          "qokain (279)",
+          "qokaiin (265)",
+          "okaiin (215)",
+          "qokal (197)",
+          "qokar (159)"
+        ]
+      },
+      {
+        "rank": 5,
+        "root": "∅-sh-e",
+        "count": 1635,
+        "pct": 4.19,
+        "cum_pct": 24.71,
+        "top_surface_forms": [
+          "shedy (434)",
+          "shey (279)",
+          "sheey (148)",
+          "sheol (109)",
+          "sheedy (84)"
+        ]
+      },
+      {
+        "rank": 6,
+        "root": "∅-∅-∅",
+        "count": 1301,
+        "pct": 3.33,
+        "cum_pct": 28.04,
+        "top_surface_forms": [
+          "s (356)",
+          "y (334)",
+          "dy (279)",
+          "l (190)",
+          "d (71)"
+        ]
+      },
+      {
+        "rank": 7,
+        "root": "∅-ch-o",
+        "count": 1148,
+        "pct": 2.94,
+        "cum_pct": 30.98,
+        "top_surface_forms": [
+          "chol (397)",
+          "chor (211)",
+          "chody (92)",
+          "cho (83)",
+          "choky (40)"
+        ]
+      },
+      {
+        "rank": 8,
+        "root": "o-l-∅",
+        "count": 1028,
+        "pct": 2.63,
+        "cum_pct": 33.61,
+        "top_surface_forms": [
+          "ol (565)",
+          "qol (142)",
+          "dol (109)",
+          "sol (67)",
+          "oly (64)"
+        ]
+      },
+      {
+        "rank": 9,
+        "root": "o-t-a",
+        "count": 985,
+        "pct": 2.52,
+        "cum_pct": 36.13,
+        "top_surface_forms": [
+          "otaiin (155)",
+          "otar (154)",
+          "otal (137)",
+          "otain (96)",
+          "qotaiin (79)"
+        ]
+      },
+      {
+        "rank": 10,
+        "root": "o-t-e",
+        "count": 983,
+        "pct": 2.52,
+        "cum_pct": 38.65,
+        "top_surface_forms": [
+          "otedy (165)",
+          "oteey (145)",
+          "oteedy (106)",
+          "qotedy (89)",
+          "qoteedy (77)"
+        ]
+      },
+      {
+        "rank": 11,
+        "root": "a-r-∅",
+        "count": 889,
+        "pct": 2.28,
+        "cum_pct": 40.92,
+        "top_surface_forms": [
+          "ar (408)",
+          "dar (323)",
+          "sar (80)",
+          "ary (26)",
+          "dary (23)"
+        ]
+      },
+      {
+        "rank": 12,
+        "root": "∅-k-e",
+        "count": 704,
+        "pct": 1.8,
+        "cum_pct": 42.72,
+        "top_surface_forms": [
+          "keedy (62)",
+          "ykeey (57)",
+          "keey (56)",
+          "kedy (47)",
+          "lkeey (39)"
+        ]
+      },
+      {
+        "rank": 13,
+        "root": "a-∅-∅",
+        "count": 636,
+        "pct": 1.63,
+        "cum_pct": 44.35,
+        "top_surface_forms": [
+          "dain (214)",
+          "ain (117)",
+          "dam (88)",
+          "am (86)",
+          "sain (65)"
+        ]
+      },
+      {
+        "rank": 14,
+        "root": "a-l-∅",
+        "count": 627,
+        "pct": 1.6,
+        "cum_pct": 45.96,
+        "top_surface_forms": [
+          "al (263)",
+          "dal (242)",
+          "sal (49)",
+          "daly (31)",
+          "aly (26)"
+        ]
+      },
+      {
+        "rank": 15,
+        "root": "o-r-∅",
+        "count": 626,
+        "pct": 1.6,
+        "cum_pct": 47.56,
+        "top_surface_forms": [
+          "or (392)",
+          "dor (68)",
+          "sor (51)",
+          "lor (40)",
+          "qor (22)"
+        ]
+      },
+      {
+        "rank": 16,
+        "root": "∅-sh-o",
+        "count": 586,
+        "pct": 1.5,
+        "cum_pct": 49.06,
+        "top_surface_forms": [
+          "shol (186)",
+          "sho (125)",
+          "shor (96)",
+          "shody (53)",
+          "dshor (14)"
+        ]
+      },
+      {
+        "rank": 17,
+        "root": "∅-ch-∅",
+        "count": 542,
+        "pct": 1.39,
+        "cum_pct": 50.45,
+        "top_surface_forms": [
+          "chy (190)",
+          "chdy (147)",
+          "chl (30)",
+          "dchy (29)",
+          "lchdy (18)"
+        ]
+      },
+      {
+        "rank": 18,
+        "root": "∅-k-a",
+        "count": 503,
+        "pct": 1.29,
+        "cum_pct": 51.73,
+        "top_surface_forms": [
+          "kaiin (79)",
+          "kar (60)",
+          "lkaiin (48)",
+          "ykaiin (46)",
+          "kain (43)"
+        ]
+      },
+      {
+        "rank": 19,
+        "root": "o-∅-∅",
+        "count": 399,
+        "pct": 1.02,
+        "cum_pct": 52.76,
+        "top_surface_forms": [
+          "o (209)",
+          "qo (52)",
+          "om (22)",
+          "lo (20)",
+          "do (16)"
+        ]
+      },
+      {
+        "rank": 20,
+        "root": "∅-chckh-∅",
+        "count": 373,
+        "pct": 0.95,
+        "cum_pct": 53.71,
+        "top_surface_forms": [
+          "chckhy (138)",
+          "chcthy (81)",
+          "chckhey (30)",
+          "chckhdy (13)",
+          "chckhedy (11)"
+        ]
+      },
+      {
+        "rank": 21,
+        "root": "o-k-o",
+        "count": 361,
+        "pct": 0.92,
+        "cum_pct": 54.63,
+        "top_surface_forms": [
+          "qokol (98)",
+          "okol (78)",
+          "okor (35)",
+          "qokor (33)",
+          "okody (18)"
+        ]
+      },
+      {
+        "rank": 22,
+        "root": "o-t-o",
+        "count": 322,
+        "pct": 0.82,
+        "cum_pct": 55.46,
+        "top_surface_forms": [
+          "otol (82)",
+          "qotol (44)",
+          "otor (40)",
+          "qotor (26)",
+          "otody (26)"
+        ]
+      },
+      {
+        "rank": 23,
+        "root": "o-tch-e",
+        "count": 314,
+        "pct": 0.8,
+        "cum_pct": 56.26,
+        "top_surface_forms": [
+          "opchedy (49)",
+          "otchedy (35)",
+          "otchey (33)",
+          "qopchedy (31)",
+          "opchey (30)"
+        ]
+      },
+      {
+        "rank": 24,
+        "root": "o-k-∅",
+        "count": 311,
+        "pct": 0.8,
+        "cum_pct": 57.06,
+        "top_surface_forms": [
+          "qoky (147)",
+          "oky (106)",
+          "qok (15)",
+          "ok (10)",
+          "qokl (9)"
+        ]
+      },
+      {
+        "rank": 25,
+        "root": "∅-t-e",
+        "count": 306,
+        "pct": 0.78,
+        "cum_pct": 57.84,
+        "top_surface_forms": [
+          "tedy (40)",
+          "yteey (31)",
+          "yteedy (29)",
+          "ytedy (25)",
+          "teey (21)"
+        ]
+      },
+      {
+        "rank": 26,
+        "root": "∅-t-a",
+        "count": 291,
+        "pct": 0.74,
+        "cum_pct": 58.59,
+        "top_surface_forms": [
+          "taiin (45)",
+          "tar (42)",
+          "ytaiin (39)",
+          "tal (26)",
+          "ytar (24)"
+        ]
+      },
+      {
+        "rank": 27,
+        "root": "o-t-∅",
+        "count": 277,
+        "pct": 0.71,
+        "cum_pct": 59.3,
+        "top_surface_forms": [
+          "oty (118)",
+          "qoty (89)",
+          "ot (15)",
+          "qot (14)",
+          "opy (9)"
+        ]
+      },
+      {
+        "rank": 28,
+        "root": "∅-ch-a",
+        "count": 265,
+        "pct": 0.68,
+        "cum_pct": 59.97,
+        "top_surface_forms": [
+          "char (84)",
+          "chal (48)",
+          "chaiin (48)",
+          "chain (19)",
+          "cham (17)"
+        ]
+      },
+      {
+        "rank": 29,
+        "root": "o-d-a",
+        "count": 249,
+        "pct": 0.64,
+        "cum_pct": 60.61,
+        "top_surface_forms": [
+          "odaiin (66)",
+          "qodaiin (43)",
+          "odar (24)",
+          "odal (20)",
+          "odain (17)"
+        ]
+      },
+      {
+        "rank": 30,
+        "root": "o-tch-∅",
+        "count": 248,
+        "pct": 0.63,
+        "cum_pct": 61.25,
+        "top_surface_forms": [
+          "qotchy (62)",
+          "otchy (46)",
+          "otchdy (33)",
+          "qotchdy (23)",
+          "opchdy (20)"
+        ]
+      },
+      {
+        "rank": 31,
+        "root": "∅-ckh-o",
+        "count": 244,
+        "pct": 0.62,
+        "cum_pct": 61.87,
+        "top_surface_forms": [
+          "cthol (56)",
+          "cthor (43)",
+          "ckhol (21)",
+          "ctho (20)",
+          "cthody (16)"
+        ]
+      },
+      {
+        "rank": 32,
+        "root": "∅-ch-eo",
+        "count": 244,
+        "pct": 0.62,
+        "cum_pct": 62.5,
+        "top_surface_forms": [
+          "cheo (78)",
+          "cheos (37)",
+          "cheeo (20)",
+          "ycheo (11)",
+          "cheoky (9)"
+        ]
+      },
+      {
+        "rank": 33,
+        "root": "∅-sh-∅",
+        "count": 235,
+        "pct": 0.6,
+        "cum_pct": 63.1,
+        "top_surface_forms": [
+          "shy (105)",
+          "shdy (45)",
+          "sh (23)",
+          "shky (13)",
+          "shd (9)"
+        ]
+      },
+      {
+        "rank": 34,
+        "root": "∅-tch-e",
+        "count": 219,
+        "pct": 0.56,
+        "cum_pct": 63.66,
+        "top_surface_forms": [
+          "pchedy (36)",
+          "tchedy (34)",
+          "tchey (22)",
+          "ytchey (12)",
+          "ypchedy (12)"
+        ]
+      },
+      {
+        "rank": 35,
+        "root": "∅-ckh-e",
+        "count": 211,
+        "pct": 0.54,
+        "cum_pct": 64.2,
+        "top_surface_forms": [
+          "cthey (51)",
+          "ckhey (27)",
+          "ctheey (15)",
+          "cthedy (13)",
+          "cphey (10)"
+        ]
+      }
+    ]
+  },
+  "multi_word_clause_phrases": {
+    "total_clauses": 10687,
+    "avg_words_per_clause": 3.282,
+    "H_clause_bits": 12.9756,
+    "top_25_recurring_clauses": [
+      [
+        "daiin",
+        208
+      ],
+      [
+        "dain",
+        72
+      ],
+      [
+        "dar",
+        66
+      ],
+      [
+        "otam",
+        29
+      ],
+      [
+        "dal",
+        27
+      ],
+      [
+        "oty",
+        23
+      ],
+      [
+        "oky",
+        22
+      ],
+      [
+        "okam",
+        20
+      ],
+      [
+        "dy",
+        16
+      ],
+      [
+        "s",
+        14
+      ],
+      [
+        "dam",
+        13
+      ],
+      [
+        "otal",
+        13
+      ],
+      [
+        "okaiin",
+        12
+      ],
+      [
+        "okal",
+        10
+      ],
+      [
+        "okeedy",
+        10
+      ],
+      [
+        "otaiin",
+        9
+      ],
+      [
+        "okain",
+        9
+      ],
+      [
+        "ytam",
+        9
+      ],
+      [
+        "cthy",
+        8
+      ],
+      [
+        "kam",
+        7
+      ],
+      [
+        "ar",
+        7
+      ],
+      [
+        "sy",
+        7
+      ],
+      [
+        "otain",
+        7
+      ],
+      [
+        "otar",
+        6
+      ],
+      [
+        "chdy",
+        6
+      ]
+    ]
+  }
+}
