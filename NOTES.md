@@ -635,5 +635,24 @@ Executing [`tools/attack6_starred_recipes_decoder.py`](tools/attack6_starred_rec
 
 ---
 
+### Discovery 24: Five-Stage Positional Envelope Stripper (`-65.93%` Vocabulary Compression), `5.13×` Normalized Positional Mutual Information & The Stripped Root-Stream Edition (`Attack 7`)
+Executing [`tools/attack7_positional_envelope_fst.py`](tools/attack7_positional_envelope_fst.py) ($\to$ [`data/attack7_positional_envelope_fst.json`](data/attack7_positional_envelope_fst.json) and [`notes/STRIPPED_ROOT_EDITION.md`](notes/STRIPPED_ROOT_EDITION.md)) across all `37,988` prose tokens decomposes every word into its **Positional & Inflectional Envelope** (`[G:p/f->t/k | V:ee/ii | P:q-/y- | M:-m->-r | N:o- | S:-suffix]`) wrapped around its **Core Root (`R`)**:
+1. **The Five-Stage Shannon Entropy & Vocabulary Reduction Waterfall (`-65.93%` Type Compression, `-3.5204 bits`)**:
+   - **Stage 0 (Raw Surface Words `W`)**: `7,643` distinct word types, unigram entropy **`10.3076 bits`**.
+   - **Stage 1 (Top-Line Gallows Allographs `p -> t, f -> k`)**: `7,186` types (`-5.98%`), **`10.2094 bits`** (`-0.0983 bits`).
+   - **Stage 2 (Vowel-Grade Compression `ee+ -> e, ii+ -> i`)**: `6,298` types (`-17.60%`), **`9.8025 bits`** (`-0.5051 bits` cumulative).
+   - **Stage 3 (Positional Proclitics `q-/y-` & Right-Margin `-m -> -r` Strip)**: `5,746` types (`-24.82%`), **`9.4610 bits`** (`-0.8466 bits` cumulative).
+   - **Stage 4 (Pure Core Root Stream `R`, Inflectional Suffixes & `o-` Classifier Stripped)**: **`2,604` types (`-65.93%` vocabulary reduction!)**, unigram entropy **`6.7872 bits`** (`-3.5204 bits` cumulative) and conditional bigram entropy $H(R_t \mid R_{t-1}) = \mathbf{5.0515\text{ bits/root}}$!
+   - The top 15 Core Roots (`k` `4,593`, `t` `2,796`, `ch` `2,643`, `d` `2,345`, `sh` `1,630`, `tch` `992`, `ol` `948`, `s` `895`, `ain` `749`, `kch` `700`, `che` `669`, `ke` `628`, `or` `545`, `ar` `513`, `cth` `493`) account for **`55.14%` (`20,949 / 37,988`)** of all prose tokens in the manuscript.
+2. **Cardinality-Matched Mutual Information (`5.13×` Higher Normalized MI for the Positional Envelope than for the Core Root)**:
+   - Comparing the 12-state Positional Envelope (`G:p/f`, `P:q-`, `P:y-`, `M:-m`) against the cardinality-matched 12-state Core Root (`Top-11 roots + OTHER`) across the 8 physical coordinate states (`PAR_START`, `TOP_LINE_MID`, `TOP_LINE_END`, `LINE_START`, `POST_DRAWING`, `LINE_MID`, `LINE_END`, `PAR_END`) proves:
+     - $I(\text{PhysicalPosition} ; \text{PositionalEnvelope}_{12}) = \mathbf{0.1265\text{ bits}}$ (**`10.01%`** of positional envelope entropy $H = 1.2636\text{ bits}$).
+     - $I(\text{PhysicalPosition} ; \text{CoreRoot}_{12}) = \mathbf{0.0503\text{ bits}}$ (**`1.95%`** of 12-state core root entropy $H = 2.5737\text{ bits}$).
+     - Physical line/paragraph/drawing coordinates carry **`2.52×` more raw mutual information—and `5.13×` (`10.01%` vs. `1.95%`) more normalized mutual information—with the Positional Envelope than with the underlying Core Root**!
+3. **Three-Tier Stripped Root-Stream Edition ([`notes/STRIPPED_ROOT_EDITION.md`](notes/STRIPPED_ROOT_EDITION.md))**:
+   - [`notes/STRIPPED_ROOT_EDITION.md`](notes/STRIPPED_ROOT_EDITION.md) presents a line-by-line aligned edition (`SURF` $\leftrightarrow$ `ROOT[ENVELOPE]★CRIB`) across 8 flagship folios (`f5r`, `f17r`, `f22r`, `f84r`, `f88r`, `f99r`, `f107r`, and `f113r`), exposing the stripped root sequences and inline figure-label cribs (`olsy`, `darar`, `oldam -> otoldy`, `otoly <-> opoly`, `shekar <-> shekam`, `daraldy . otedaiin`, `okol`, `otaram -> otaral -> otalar`, and `ykolairol / oteeosy`).
+
+---
+
 ## 4. Summary Checklist of Verified Deliverables & Continuing Research Continuity
-All 21 analysis scripts (`tools/*.py`), 19 structured datasets (`data/*.json`), full-page interlinear glosses ([`notes/INTERLINEAR_GLOSSES.md`](notes/INTERLINEAR_GLOSSES.md)), the decoding synthesis report ([`notes/DECODING_ATTACKS_SYNTHESIS.md`](notes/DECODING_ATTACKS_SYNTHESIS.md)), and 69 high-resolution visual evidence crops (`pages/*.png`) are version-controlled and pushed to `origin/main` so any future session or researcher can reproduce and extend these 23 quantitative and paleographic discoveries immediately.
+All 22 analysis scripts (`tools/*.py`), 20 structured datasets (`data/*.json`), full-page interlinear glosses ([`notes/INTERLINEAR_GLOSSES.md`](notes/INTERLINEAR_GLOSSES.md)), the stripped root-stream edition ([`notes/STRIPPED_ROOT_EDITION.md`](notes/STRIPPED_ROOT_EDITION.md)), the decoding synthesis report ([`notes/DECODING_ATTACKS_SYNTHESIS.md`](notes/DECODING_ATTACKS_SYNTHESIS.md)), and 69 high-resolution visual evidence crops (`pages/*.png`) are version-controlled and pushed to `origin/main` so any future session or researcher can reproduce and extend these 24 quantitative and paleographic discoveries immediately.

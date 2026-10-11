@@ -1,0 +1,1031 @@
+{
+  "entropy_waterfall": {
+    "total_prose_tokens": 37988,
+    "stage0_raw_surface": {
+      "vocab_types": 7643,
+      "shannon_bits": 10.3076,
+      "conditional_bigram_bits": 4.4374
+    },
+    "stage1_gallows_allograph_strip": {
+      "vocab_types": 7186,
+      "vocab_reduction_pct": 5.98,
+      "shannon_bits": 10.2094,
+      "bits_removed": 0.0983
+    },
+    "stage2_vowel_grade_compression": {
+      "vocab_types": 6298,
+      "vocab_reduction_pct": 17.6,
+      "shannon_bits": 9.8025,
+      "bits_removed_cumulative": 0.5051
+    },
+    "stage3_positional_proclitic_and_margin_strip": {
+      "vocab_types": 5746,
+      "vocab_reduction_pct": 24.82,
+      "shannon_bits": 9.461,
+      "bits_removed_cumulative": 0.8466
+    },
+    "stage4_pure_core_root_stream": {
+      "vocab_types": 2604,
+      "vocab_reduction_pct": 65.93,
+      "shannon_bits": 6.7872,
+      "conditional_bigram_bits": 5.0515,
+      "bits_removed_cumulative": 3.5204,
+      "top_30_core_roots": [
+        [
+          "k",
+          4593
+        ],
+        [
+          "t",
+          2796
+        ],
+        [
+          "ch",
+          2643
+        ],
+        [
+          "d",
+          2345
+        ],
+        [
+          "sh",
+          1630
+        ],
+        [
+          "tch",
+          992
+        ],
+        [
+          "ol",
+          948
+        ],
+        [
+          "s",
+          895
+        ],
+        [
+          "ain",
+          749
+        ],
+        [
+          "kch",
+          700
+        ],
+        [
+          "che",
+          669
+        ],
+        [
+          "ke",
+          628
+        ],
+        [
+          "or",
+          545
+        ],
+        [
+          "ar",
+          513
+        ],
+        [
+          "cth",
+          493
+        ],
+        [
+          "she",
+          401
+        ],
+        [
+          "l",
+          372
+        ],
+        [
+          "al",
+          357
+        ],
+        [
+          "dy",
+          354
+        ],
+        [
+          "r",
+          351
+        ],
+        [
+          "y",
+          344
+        ],
+        [
+          "te",
+          321
+        ],
+        [
+          "olk",
+          308
+        ],
+        [
+          "o",
+          290
+        ],
+        [
+          "lk",
+          283
+        ],
+        [
+          "ckh",
+          250
+        ],
+        [
+          "lch",
+          241
+        ],
+        [
+          "chckh",
+          225
+        ],
+        [
+          "chek",
+          196
+        ],
+        [
+          "cheo",
+          191
+        ]
+      ]
+    },
+    "envelope_vs_position_information": {
+      "positional_envelope_12state_entropy_bits": 1.2636,
+      "core_root_12state_entropy_bits": 2.5737,
+      "position_state_entropy_bits": 1.8974,
+      "mi_position_positional_envelope_bits": 0.1265,
+      "mi_position_coreroot_12state_bits": 0.0503,
+      "ratio_mi_envelope_over_root": 2.52,
+      "normalized_mi_envelope_pct_of_entropy": 10.01,
+      "normalized_mi_coreroot_pct_of_entropy": 1.95
+    }
+  },
+  "fst_transition_summary": {
+    "A": {
+      "1_PAR_OPENER": {
+        "total_transitions": 234,
+        "top_next_states": [
+          {
+            "state": "6_NOMINAL_STEM",
+            "count": 163,
+            "prob": 0.6966
+          },
+          {
+            "state": "3_ACTION_VERB",
+            "count": 39,
+            "prob": 0.1667
+          },
+          {
+            "state": "4_PROCLITIC_QO",
+            "count": 22,
+            "prob": 0.094
+          },
+          {
+            "state": "7_CLAUSE_DAIIN",
+            "count": 5,
+            "prob": 0.0214
+          },
+          {
+            "state": "2_PREP_REL",
+            "count": 5,
+            "prob": 0.0214
+          }
+        ]
+      },
+      "2_PREP_REL": {
+        "total_transitions": 400,
+        "top_next_states": [
+          {
+            "state": "6_NOMINAL_STEM",
+            "count": 273,
+            "prob": 0.6825
+          },
+          {
+            "state": "3_ACTION_VERB",
+            "count": 56,
+            "prob": 0.14
+          },
+          {
+            "state": "2_PREP_REL",
+            "count": 27,
+            "prob": 0.0675
+          },
+          {
+            "state": "4_PROCLITIC_QO",
+            "count": 21,
+            "prob": 0.0525
+          },
+          {
+            "state": "8_RIGHT_MARGIN_M",
+            "count": 13,
+            "prob": 0.0325
+          }
+        ]
+      },
+      "3_ACTION_VERB": {
+        "total_transitions": 1020,
+        "top_next_states": [
+          {
+            "state": "6_NOMINAL_STEM",
+            "count": 678,
+            "prob": 0.6647
+          },
+          {
+            "state": "4_PROCLITIC_QO",
+            "count": 146,
+            "prob": 0.1431
+          },
+          {
+            "state": "3_ACTION_VERB",
+            "count": 89,
+            "prob": 0.0873
+          },
+          {
+            "state": "7_CLAUSE_DAIIN",
+            "count": 65,
+            "prob": 0.0637
+          },
+          {
+            "state": "2_PREP_REL",
+            "count": 30,
+            "prob": 0.0294
+          }
+        ]
+      },
+      "4_PROCLITIC_QO": {
+        "total_transitions": 1010,
+        "top_next_states": [
+          {
+            "state": "6_NOMINAL_STEM",
+            "count": 649,
+            "prob": 0.6426
+          },
+          {
+            "state": "4_PROCLITIC_QO",
+            "count": 131,
+            "prob": 0.1297
+          },
+          {
+            "state": "3_ACTION_VERB",
+            "count": 119,
+            "prob": 0.1178
+          },
+          {
+            "state": "7_CLAUSE_DAIIN",
+            "count": 58,
+            "prob": 0.0574
+          },
+          {
+            "state": "2_PREP_REL",
+            "count": 38,
+            "prob": 0.0376
+          }
+        ]
+      },
+      "5_LINE_INIT_Y": {
+        "total_transitions": 259,
+        "top_next_states": [
+          {
+            "state": "6_NOMINAL_STEM",
+            "count": 194,
+            "prob": 0.749
+          },
+          {
+            "state": "3_ACTION_VERB",
+            "count": 25,
+            "prob": 0.0965
+          },
+          {
+            "state": "4_PROCLITIC_QO",
+            "count": 18,
+            "prob": 0.0695
+          },
+          {
+            "state": "2_PREP_REL",
+            "count": 12,
+            "prob": 0.0463
+          },
+          {
+            "state": "7_CLAUSE_DAIIN",
+            "count": 7,
+            "prob": 0.027
+          }
+        ]
+      },
+      "6_NOMINAL_STEM": {
+        "total_transitions": 6368,
+        "top_next_states": [
+          {
+            "state": "6_NOMINAL_STEM",
+            "count": 4317,
+            "prob": 0.6779
+          },
+          {
+            "state": "3_ACTION_VERB",
+            "count": 733,
+            "prob": 0.1151
+          },
+          {
+            "state": "4_PROCLITIC_QO",
+            "count": 491,
+            "prob": 0.0771
+          },
+          {
+            "state": "7_CLAUSE_DAIIN",
+            "count": 360,
+            "prob": 0.0565
+          },
+          {
+            "state": "2_PREP_REL",
+            "count": 296,
+            "prob": 0.0465
+          }
+        ]
+      },
+      "7_CLAUSE_DAIIN": {
+        "total_transitions": 475,
+        "top_next_states": [
+          {
+            "state": "6_NOMINAL_STEM",
+            "count": 321,
+            "prob": 0.6758
+          },
+          {
+            "state": "3_ACTION_VERB",
+            "count": 53,
+            "prob": 0.1116
+          },
+          {
+            "state": "4_PROCLITIC_QO",
+            "count": 46,
+            "prob": 0.0968
+          },
+          {
+            "state": "7_CLAUSE_DAIIN",
+            "count": 21,
+            "prob": 0.0442
+          },
+          {
+            "state": "2_PREP_REL",
+            "count": 21,
+            "prob": 0.0442
+          }
+        ]
+      }
+    },
+    "B": {
+      "1_PAR_OPENER": {
+        "total_transitions": 479,
+        "top_next_states": [
+          {
+            "state": "6_NOMINAL_STEM",
+            "count": 294,
+            "prob": 0.6138
+          },
+          {
+            "state": "3_ACTION_VERB",
+            "count": 77,
+            "prob": 0.1608
+          },
+          {
+            "state": "4_PROCLITIC_QO",
+            "count": 72,
+            "prob": 0.1503
+          },
+          {
+            "state": "2_PREP_REL",
+            "count": 35,
+            "prob": 0.0731
+          },
+          {
+            "state": "7_CLAUSE_DAIIN",
+            "count": 1,
+            "prob": 0.0021
+          }
+        ]
+      },
+      "2_PREP_REL": {
+        "total_transitions": 1387,
+        "top_next_states": [
+          {
+            "state": "6_NOMINAL_STEM",
+            "count": 887,
+            "prob": 0.6395
+          },
+          {
+            "state": "3_ACTION_VERB",
+            "count": 264,
+            "prob": 0.1903
+          },
+          {
+            "state": "2_PREP_REL",
+            "count": 143,
+            "prob": 0.1031
+          },
+          {
+            "state": "4_PROCLITIC_QO",
+            "count": 38,
+            "prob": 0.0274
+          },
+          {
+            "state": "8_RIGHT_MARGIN_M",
+            "count": 34,
+            "prob": 0.0245
+          }
+        ]
+      },
+      "3_ACTION_VERB": {
+        "total_transitions": 3140,
+        "top_next_states": [
+          {
+            "state": "6_NOMINAL_STEM",
+            "count": 1531,
+            "prob": 0.4876
+          },
+          {
+            "state": "4_PROCLITIC_QO",
+            "count": 1088,
+            "prob": 0.3465
+          },
+          {
+            "state": "3_ACTION_VERB",
+            "count": 279,
+            "prob": 0.0889
+          },
+          {
+            "state": "2_PREP_REL",
+            "count": 121,
+            "prob": 0.0385
+          },
+          {
+            "state": "7_CLAUSE_DAIIN",
+            "count": 62,
+            "prob": 0.0197
+          }
+        ]
+      },
+      "4_PROCLITIC_QO": {
+        "total_transitions": 3821,
+        "top_next_states": [
+          {
+            "state": "6_NOMINAL_STEM",
+            "count": 1931,
+            "prob": 0.5054
+          },
+          {
+            "state": "4_PROCLITIC_QO",
+            "count": 797,
+            "prob": 0.2086
+          },
+          {
+            "state": "3_ACTION_VERB",
+            "count": 742,
+            "prob": 0.1942
+          },
+          {
+            "state": "2_PREP_REL",
+            "count": 236,
+            "prob": 0.0618
+          },
+          {
+            "state": "7_CLAUSE_DAIIN",
+            "count": 57,
+            "prob": 0.0149
+          }
+        ]
+      },
+      "5_LINE_INIT_Y": {
+        "total_transitions": 332,
+        "top_next_states": [
+          {
+            "state": "6_NOMINAL_STEM",
+            "count": 179,
+            "prob": 0.5392
+          },
+          {
+            "state": "4_PROCLITIC_QO",
+            "count": 68,
+            "prob": 0.2048
+          },
+          {
+            "state": "3_ACTION_VERB",
+            "count": 53,
+            "prob": 0.1596
+          },
+          {
+            "state": "2_PREP_REL",
+            "count": 25,
+            "prob": 0.0753
+          },
+          {
+            "state": "7_CLAUSE_DAIIN",
+            "count": 6,
+            "prob": 0.0181
+          }
+        ]
+      },
+      "6_NOMINAL_STEM": {
+        "total_transitions": 11671,
+        "top_next_states": [
+          {
+            "state": "6_NOMINAL_STEM",
+            "count": 6899,
+            "prob": 0.5911
+          },
+          {
+            "state": "3_ACTION_VERB",
+            "count": 1776,
+            "prob": 0.1522
+          },
+          {
+            "state": "4_PROCLITIC_QO",
+            "count": 1676,
+            "prob": 0.1436
+          },
+          {
+            "state": "2_PREP_REL",
+            "count": 854,
+            "prob": 0.0732
+          },
+          {
+            "state": "8_RIGHT_MARGIN_M",
+            "count": 294,
+            "prob": 0.0252
+          }
+        ]
+      },
+      "7_CLAUSE_DAIIN": {
+        "total_transitions": 388,
+        "top_next_states": [
+          {
+            "state": "6_NOMINAL_STEM",
+            "count": 198,
+            "prob": 0.5103
+          },
+          {
+            "state": "3_ACTION_VERB",
+            "count": 122,
+            "prob": 0.3144
+          },
+          {
+            "state": "2_PREP_REL",
+            "count": 33,
+            "prob": 0.0851
+          },
+          {
+            "state": "4_PROCLITIC_QO",
+            "count": 16,
+            "prob": 0.0412
+          },
+          {
+            "state": "8_RIGHT_MARGIN_M",
+            "count": 12,
+            "prob": 0.0309
+          }
+        ]
+      }
+    },
+    "ALL": {
+      "1_PAR_OPENER": {
+        "total_transitions": 740,
+        "top_next_states": [
+          {
+            "state": "6_NOMINAL_STEM",
+            "count": 475,
+            "prob": 0.6419
+          },
+          {
+            "state": "3_ACTION_VERB",
+            "count": 123,
+            "prob": 0.1662
+          },
+          {
+            "state": "4_PROCLITIC_QO",
+            "count": 94,
+            "prob": 0.127
+          },
+          {
+            "state": "2_PREP_REL",
+            "count": 41,
+            "prob": 0.0554
+          },
+          {
+            "state": "7_CLAUSE_DAIIN",
+            "count": 7,
+            "prob": 0.0095
+          }
+        ]
+      },
+      "2_PREP_REL": {
+        "total_transitions": 1961,
+        "top_next_states": [
+          {
+            "state": "6_NOMINAL_STEM",
+            "count": 1295,
+            "prob": 0.6604
+          },
+          {
+            "state": "3_ACTION_VERB",
+            "count": 340,
+            "prob": 0.1734
+          },
+          {
+            "state": "2_PREP_REL",
+            "count": 185,
+            "prob": 0.0943
+          },
+          {
+            "state": "4_PROCLITIC_QO",
+            "count": 60,
+            "prob": 0.0306
+          },
+          {
+            "state": "8_RIGHT_MARGIN_M",
+            "count": 49,
+            "prob": 0.025
+          }
+        ]
+      },
+      "3_ACTION_VERB": {
+        "total_transitions": 4468,
+        "top_next_states": [
+          {
+            "state": "6_NOMINAL_STEM",
+            "count": 2430,
+            "prob": 0.5439
+          },
+          {
+            "state": "4_PROCLITIC_QO",
+            "count": 1253,
+            "prob": 0.2804
+          },
+          {
+            "state": "3_ACTION_VERB",
+            "count": 415,
+            "prob": 0.0929
+          },
+          {
+            "state": "2_PREP_REL",
+            "count": 162,
+            "prob": 0.0363
+          },
+          {
+            "state": "7_CLAUSE_DAIIN",
+            "count": 133,
+            "prob": 0.0298
+          }
+        ]
+      },
+      "4_PROCLITIC_QO": {
+        "total_transitions": 4903,
+        "top_next_states": [
+          {
+            "state": "6_NOMINAL_STEM",
+            "count": 2634,
+            "prob": 0.5372
+          },
+          {
+            "state": "4_PROCLITIC_QO",
+            "count": 931,
+            "prob": 0.1899
+          },
+          {
+            "state": "3_ACTION_VERB",
+            "count": 871,
+            "prob": 0.1776
+          },
+          {
+            "state": "2_PREP_REL",
+            "count": 277,
+            "prob": 0.0565
+          },
+          {
+            "state": "7_CLAUSE_DAIIN",
+            "count": 116,
+            "prob": 0.0237
+          }
+        ]
+      },
+      "5_LINE_INIT_Y": {
+        "total_transitions": 626,
+        "top_next_states": [
+          {
+            "state": "6_NOMINAL_STEM",
+            "count": 393,
+            "prob": 0.6278
+          },
+          {
+            "state": "4_PROCLITIC_QO",
+            "count": 89,
+            "prob": 0.1422
+          },
+          {
+            "state": "3_ACTION_VERB",
+            "count": 82,
+            "prob": 0.131
+          },
+          {
+            "state": "2_PREP_REL",
+            "count": 42,
+            "prob": 0.0671
+          },
+          {
+            "state": "7_CLAUSE_DAIIN",
+            "count": 14,
+            "prob": 0.0224
+          }
+        ]
+      },
+      "6_NOMINAL_STEM": {
+        "total_transitions": 19854,
+        "top_next_states": [
+          {
+            "state": "6_NOMINAL_STEM",
+            "count": 12566,
+            "prob": 0.6329
+          },
+          {
+            "state": "3_ACTION_VERB",
+            "count": 2741,
+            "prob": 0.1381
+          },
+          {
+            "state": "4_PROCLITIC_QO",
+            "count": 2208,
+            "prob": 0.1112
+          },
+          {
+            "state": "2_PREP_REL",
+            "count": 1297,
+            "prob": 0.0653
+          },
+          {
+            "state": "7_CLAUSE_DAIIN",
+            "count": 523,
+            "prob": 0.0263
+          }
+        ]
+      },
+      "7_CLAUSE_DAIIN": {
+        "total_transitions": 898,
+        "top_next_states": [
+          {
+            "state": "6_NOMINAL_STEM",
+            "count": 545,
+            "prob": 0.6069
+          },
+          {
+            "state": "3_ACTION_VERB",
+            "count": 179,
+            "prob": 0.1993
+          },
+          {
+            "state": "4_PROCLITIC_QO",
+            "count": 63,
+            "prob": 0.0702
+          },
+          {
+            "state": "2_PREP_REL",
+            "count": 57,
+            "prob": 0.0635
+          },
+          {
+            "state": "7_CLAUSE_DAIIN",
+            "count": 28,
+            "prob": 0.0312
+          }
+        ]
+      }
+    }
+  },
+  "top_fst_3grams_currier_A": [
+    [
+      "6_NOMINAL_STEM -> 6_NOMINAL_STEM -> 6_NOMINAL_STEM",
+      2475
+    ],
+    [
+      "6_NOMINAL_STEM -> 6_NOMINAL_STEM -> 3_ACTION_VERB",
+      434
+    ],
+    [
+      "6_NOMINAL_STEM -> 3_ACTION_VERB -> 6_NOMINAL_STEM",
+      429
+    ],
+    [
+      "4_PROCLITIC_QO -> 6_NOMINAL_STEM -> 6_NOMINAL_STEM",
+      380
+    ],
+    [
+      "3_ACTION_VERB -> 6_NOMINAL_STEM -> 6_NOMINAL_STEM",
+      378
+    ],
+    [
+      "6_NOMINAL_STEM -> 4_PROCLITIC_QO -> 6_NOMINAL_STEM",
+      280
+    ],
+    [
+      "6_NOMINAL_STEM -> 6_NOMINAL_STEM -> 4_PROCLITIC_QO",
+      257
+    ],
+    [
+      "6_NOMINAL_STEM -> 6_NOMINAL_STEM -> 7_CLAUSE_DAIIN",
+      205
+    ],
+    [
+      "6_NOMINAL_STEM -> 7_CLAUSE_DAIIN -> 6_NOMINAL_STEM",
+      176
+    ],
+    [
+      "6_NOMINAL_STEM -> 6_NOMINAL_STEM -> 2_PREP_REL",
+      168
+    ],
+    [
+      "6_NOMINAL_STEM -> 2_PREP_REL -> 6_NOMINAL_STEM",
+      165
+    ],
+    [
+      "7_CLAUSE_DAIIN -> 6_NOMINAL_STEM -> 6_NOMINAL_STEM",
+      163
+    ],
+    [
+      "2_PREP_REL -> 6_NOMINAL_STEM -> 6_NOMINAL_STEM",
+      150
+    ],
+    [
+      "5_LINE_INIT_Y -> 6_NOMINAL_STEM -> 6_NOMINAL_STEM",
+      128
+    ],
+    [
+      "1_PAR_OPENER -> 6_NOMINAL_STEM -> 6_NOMINAL_STEM",
+      112
+    ]
+  ],
+  "top_fst_3grams_currier_B": [
+    [
+      "6_NOMINAL_STEM -> 6_NOMINAL_STEM -> 6_NOMINAL_STEM",
+      3757
+    ],
+    [
+      "4_PROCLITIC_QO -> 6_NOMINAL_STEM -> 6_NOMINAL_STEM",
+      920
+    ],
+    [
+      "6_NOMINAL_STEM -> 4_PROCLITIC_QO -> 6_NOMINAL_STEM",
+      853
+    ],
+    [
+      "6_NOMINAL_STEM -> 3_ACTION_VERB -> 6_NOMINAL_STEM",
+      848
+    ],
+    [
+      "6_NOMINAL_STEM -> 6_NOMINAL_STEM -> 3_ACTION_VERB",
+      803
+    ],
+    [
+      "6_NOMINAL_STEM -> 6_NOMINAL_STEM -> 4_PROCLITIC_QO",
+      789
+    ],
+    [
+      "3_ACTION_VERB -> 6_NOMINAL_STEM -> 6_NOMINAL_STEM",
+      749
+    ],
+    [
+      "6_NOMINAL_STEM -> 3_ACTION_VERB -> 4_PROCLITIC_QO",
+      528
+    ],
+    [
+      "6_NOMINAL_STEM -> 2_PREP_REL -> 6_NOMINAL_STEM",
+      520
+    ],
+    [
+      "3_ACTION_VERB -> 4_PROCLITIC_QO -> 6_NOMINAL_STEM",
+      493
+    ],
+    [
+      "2_PREP_REL -> 6_NOMINAL_STEM -> 6_NOMINAL_STEM",
+      473
+    ],
+    [
+      "6_NOMINAL_STEM -> 6_NOMINAL_STEM -> 2_PREP_REL",
+      447
+    ],
+    [
+      "4_PROCLITIC_QO -> 4_PROCLITIC_QO -> 6_NOMINAL_STEM",
+      355
+    ],
+    [
+      "6_NOMINAL_STEM -> 4_PROCLITIC_QO -> 4_PROCLITIC_QO",
+      308
+    ],
+    [
+      "4_PROCLITIC_QO -> 6_NOMINAL_STEM -> 4_PROCLITIC_QO",
+      306
+    ]
+  ],
+  "top_envelope_signatures": [
+    [
+      "S:0",
+      4881
+    ],
+    [
+      "S:-y",
+      2128
+    ],
+    [
+      "V:ee/ii|S:-ain",
+      2115
+    ],
+    [
+      "S:-ol",
+      1729
+    ],
+    [
+      "S:-edy",
+      1706
+    ],
+    [
+      "S:-ey",
+      1307
+    ],
+    [
+      "S:-ar",
+      1226
+    ],
+    [
+      "S:-or",
+      1093
+    ],
+    [
+      "S:-al",
+      883
+    ],
+    [
+      "V:ee/ii|S:-ey",
+      879
+    ],
+    [
+      "V:ee/ii|S:0",
+      744
+    ],
+    [
+      "S:-ain",
+      743
+    ],
+    [
+      "S:-dy",
+      649
+    ],
+    [
+      "V:ee/ii|N:o-|S:-ain",
+      556
+    ],
+    [
+      "S:-ody",
+      547
+    ],
+    [
+      "S:-s",
+      500
+    ],
+    [
+      "P:q-|N:o-|S:-edy",
+      470
+    ],
+    [
+      "P:q-|N:o-|S:-y",
+      457
+    ],
+    [
+      "V:ee/ii|P:q-|N:o-|S:-ain",
+      444
+    ],
+    [
+      "V:ee/ii|S:-edy",
+      444
+    ],
+    [
+      "N:o-|S:-ar",
+      420
+    ],
+    [
+      "N:o-|S:-y",
+      417
+    ],
+    [
+      "V:ee/ii|N:o-|S:-ey",
+      412
+    ],
+    [
+      "V:ee/ii|P:q-|N:o-|S:-ey",
+      412
+    ],
+    [
+      "V:ee/ii|P:q-|N:o-|S:-edy",
+      406
+    ]
+  ]
+}

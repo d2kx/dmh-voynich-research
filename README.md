@@ -46,9 +46,11 @@ Rather than rehashing historical decipherment speculations, this project focuses
 │   ├── attack3_syllable_stream_alignment.py # 89.02% Gallows paragraph openers, -ry/-am closers & clause framing
 │   ├── attack4_zodiac_decan_decoder.py # Zodiac clockwise step-mutation (z=+3.42) & Pisces <-> f107r triple concordance
 │   ├── attack5_sequential_tuple_scanner.py # Full-MS sequential tuple scanner & contiguous neighbor order preservation
-│   └── attack6_starred_recipes_decoder.py  # 285 Starred Recipes decoder, D/L./L star taxonomy & f113r/f114v multi-cribs
+│   ├── attack6_starred_recipes_decoder.py  # 285 Starred Recipes decoder, D/L./L star taxonomy & f113r/f114v multi-cribs
+│   └── attack7_positional_envelope_fst.py  # 5-stage Positional Envelope Stripper (-65.93% vocab), FST & Root Edition
 ├── notes/
 │   ├── INTERLINEAR_GLOSSES.md          # Full-page line-by-line structural interlinear glosses (f5r, f17r, f82v, f84r, f99v, f106v)
+│   ├── STRIPPED_ROOT_EDITION.md        # 3-tier stripped root-stream edition across 8 key folios (f5r..f113r)
 │   └── DECODING_ATTACKS_SYNTHESIS.md   # Comprehensive synthesis of the cryptographic & linguistic decoding attacks
 └── pages/                       # Extracted, cropped, and contrast-enhanced folio images
 ```
@@ -57,7 +59,7 @@ Rather than rehashing historical decipherment speculations, this project focuses
 
 ## Highlights of Findings So Far
 
-*(See **[`NOTES.md`](NOTES.md)** for full tables, locus citations, and statistical proofs, and **[`notes/INTERLINEAR_GLOSSES.md`](notes/INTERLINEAR_GLOSSES.md)** for full-page line-by-line interlinear structural glosses.)*
+*(See **[`NOTES.md`](NOTES.md)** for full tables, locus citations, and statistical proofs, **[`notes/INTERLINEAR_GLOSSES.md`](notes/INTERLINEAR_GLOSSES.md)** for full-page interlinear structural glosses, and **[`notes/STRIPPED_ROOT_EDITION.md`](notes/STRIPPED_ROOT_EDITION.md)** for the 3-tier stripped root-stream edition.)*
 
 ### 1. Visual & Codicological Forensics Across Both PDFs
 - **Faded Marginalia & Multilingual Charm Enhancement**: Multi-channel contrast enhancement across `2002046.pdf` and `voynich-manuscript.pdf` brings out the right-margin Latin alphabetic sequence on **`f1r`**, the top-margin inscription on **`f17r`**, the Arabic numerals `1..5` + Voynich key column on **`f49v`**, the `den mus` / `del` corner annotations on **`f66r`**, and the mixed Latin / Middle High German / Voynich charm on **`f116v`**:
@@ -201,6 +203,12 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 16. Five-Stage Positional Envelope Stripper (`-65.93%` Vocabulary Reduction), `5.13×` Positional Mutual Information & The Stripped Root-Stream Edition ([`notes/STRIPPED_ROOT_EDITION.md`](notes/STRIPPED_ROOT_EDITION.md))
+- **Five-Stage Entropy & Vocabulary Waterfall (`7,643` $\to$ `2,604` Types, `-65.93%`)**: Stripping Top-Line Gallows Allographs (`p -> t, f -> k`), Vowel-Grade Runs (`ee+ -> e, ii+ -> i`), Positional Proclitics/Margins (`q-/y-` and `-m -> -r`), and Inflectional Suffixes reduces unigram entropy by **`-3.5204 bits`** (`10.3076 bits` $\to$ **`6.7872 bits` unigram / `5.0515 bits` conditional bigram**), with the top 15 Core Roots covering **`55.14%`** of all prose tokens.
+- **`5.13×` Normalized Mutual Information with Physical Page Coordinates**: In a cardinality-matched 12-state comparison, physical page/line/paragraph coordinates explain **`10.01%`** of Positional Envelope entropy ($I = 0.1265\text{ bits}$) vs. only **`1.95%`** of Core Root entropy ($I = 0.0503\text{ bits}$). Full 3-tier edition in **[`notes/STRIPPED_ROOT_EDITION.md`](notes/STRIPPED_ROOT_EDITION.md)**.
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -238,5 +246,6 @@ python tools/attack3_syllable_stream_alignment.py
 python tools/attack4_zodiac_decan_decoder.py
 python tools/attack5_sequential_tuple_scanner.py
 python tools/attack6_starred_recipes_decoder.py
+python tools/attack7_positional_envelope_fst.py
 ```
 
