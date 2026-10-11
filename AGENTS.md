@@ -1,7 +1,7 @@
 # Agent Instructions & Research Continuity Guide (`AGENTS.md`)
 
 ## 1. Mission & Intention
-This repository (`dmh-voynich-research`) is an active, long-running research workspace dedicated to investigating the **Voynich Manuscript (Beinecke MS 408)**.
+This repository (`voynich-research`) is an active, long-running research workspace dedicated to investigating the **Voynich Manuscript (Beinecke MS 408)**.
 
 Our objective is to gain any genuine understanding—whether paleographic, codicological, visual, statistical, grammatical, or cryptographic— directly from:
 1. **The two full manuscript PDF scans** in the root directory (`2002046.pdf` and `voynich-manuscript.pdf`), which can be cross-checked against each other for resolution, contrast, and physical fold-out details.

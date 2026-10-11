@@ -1,4 +1,4 @@
-# Voynich Manuscript Empirical & Visual Research (`dmh-voynich-research`)
+# Voynich Manuscript Empirical & Visual Research (`voynich-research`)
 
 An open-ended computational, paleographic, and visual forensic research repository investigating the **Voynich Manuscript (Beinecke MS 408)**.
 
