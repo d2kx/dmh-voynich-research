@@ -1,0 +1,250 @@
+{
+  "zodiac_barrel_vs_unbarreled": {
+    "barreled_folios": [
+      "f70v2",
+      "f70v1",
+      "f71r",
+      "f71v",
+      "f72r1"
+    ],
+    "unbarreled_folios": [
+      "f72r2",
+      "f72r3",
+      "f72v3",
+      "f72v2",
+      "f72v1",
+      "f73r",
+      "f73v"
+    ],
+    "barreled_ot_op": 56,
+    "barreled_ok_of": 20,
+    "barreled_ot_pct": 73.68,
+    "unbarreled_ot_op": 40,
+    "unbarreled_ok_of": 68,
+    "unbarreled_ot_pct": 37.04,
+    "chi2": 24.01
+  },
+  "label_type_prefixes": {
+    "H:@Lp": {
+      "other": 4,
+      "total": 5,
+      "ot_op": 1
+    },
+    "H:@L0": {
+      "other": 4,
+      "total": 4
+    },
+    "H:*L0": {
+      "other": 20,
+      "total": 20
+    },
+    "H:@Lx": {
+      "ot_op": 1,
+      "total": 2,
+      "other": 1
+    },
+    "C:@L0": {
+      "other": 8,
+      "total": 15,
+      "ot_op": 6,
+      "ol_or": 1
+    },
+    "T:@L0": {
+      "other": 2,
+      "total": 2
+    },
+    "T:+L0": {
+      "other": 44,
+      "total": 44
+    },
+    "T:@Lx": {
+      "ot_op": 1,
+      "total": 7,
+      "other": 5,
+      "ol_or": 1
+    },
+    "A:@L0": {
+      "other": 6,
+      "total": 6
+    },
+    "A:&L0": {
+      "other": 39,
+      "total": 48,
+      "ol_or": 3,
+      "ok_of": 6
+    },
+    "A:+L0": {
+      "other": 5,
+      "total": 9,
+      "ok_of": 3,
+      "ot_op": 1
+    },
+    "A:@Ls": {
+      "other": 33,
+      "total": 63,
+      "ok_of": 13,
+      "ot_op": 15,
+      "ol_or": 2
+    },
+    "A:&Ls": {
+      "other": 13,
+      "total": 16,
+      "ot_op": 2,
+      "ok_of": 1
+    },
+    "C:@La": {
+      "ot_op": 2,
+      "total": 7,
+      "other": 3,
+      "ok_of": 2
+    },
+    "C:+La": {
+      "other": 1,
+      "total": 2,
+      "ok_of": 1
+    },
+    "A:@La": {
+      "other": 1,
+      "total": 1
+    },
+    "A:=Ls": {
+      "ot_op": 1,
+      "total": 2,
+      "other": 1
+    },
+    "A:+Ls": {
+      "other": 2,
+      "total": 4,
+      "ok_of": 1,
+      "ot_op": 1
+    },
+    "A:*Ls": {
+      "ok_of": 1,
+      "total": 1
+    },
+    "C:=L0": {
+      "ot_op": 1,
+      "total": 1
+    },
+    "C:&L0": {
+      "other": 33,
+      "total": 38,
+      "ot_op": 2,
+      "ok_of": 2,
+      "ol_or": 1
+    },
+    "Z:@Lz": {
+      "ot_op": 12,
+      "total": 35,
+      "other": 13,
+      "ok_of": 8,
+      "ol_or": 2
+    },
+    "Z:&Lz": {
+      "other": 138,
+      "total": 315,
+      "ot_op": 84,
+      "ok_of": 80,
+      "ol_or": 13
+    },
+    "B:=L0": {
+      "other": 4,
+      "total": 4
+    },
+    "B:~L0": {
+      "other": 1,
+      "total": 1
+    },
+    "B:+L0": {
+      "other": 1,
+      "total": 1
+    },
+    "B:@Ln": {
+      "ok_of": 9,
+      "total": 31,
+      "other": 14,
+      "ot_op": 5,
+      "ol_or": 3
+    },
+    "B:+Ln": {
+      "other": 10,
+      "total": 14,
+      "ol_or": 1,
+      "ot_op": 1,
+      "ok_of": 2
+    },
+    "B:@Lt": {
+      "ot_op": 9,
+      "total": 34,
+      "other": 11,
+      "ok_of": 8,
+      "ol_or": 6
+    },
+    "B:=Lt": {
+      "ok_of": 1,
+      "total": 10,
+      "other": 2,
+      "ol_or": 4,
+      "ot_op": 3
+    },
+    "B:*Lt": {
+      "other": 1,
+      "total": 1
+    },
+    "B:+Lt": {
+      "ot_op": 3,
+      "total": 6,
+      "other": 2,
+      "ol_or": 1
+    },
+    "T:*L0": {
+      "other": 9,
+      "total": 9
+    },
+    "B:~Lt": {
+      "ot_op": 1,
+      "total": 5,
+      "other": 2,
+      "ok_of": 2
+    },
+    "B:~Ln": {
+      "other": 1,
+      "total": 4,
+      "ol_or": 1,
+      "ok_of": 2
+    },
+    "B:=Ln": {
+      "ol_or": 4,
+      "total": 15,
+      "ok_of": 4,
+      "ot_op": 3,
+      "other": 4
+    },
+    "B:*Ln": {
+      "other": 1,
+      "total": 1
+    },
+    "P:@Lc": {
+      "ot_op": 7,
+      "total": 36,
+      "ok_of": 11,
+      "other": 17,
+      "ol_or": 1
+    },
+    "P:@Lf": {
+      "other": 114,
+      "total": 209,
+      "ol_or": 19,
+      "ot_op": 45,
+      "ok_of": 31
+    },
+    "P:+Lc": {
+      "other": 4,
+      "total": 4
+    },
+    "P:+Lf": {
+      "other": 1,
+      "total": 1
+    }
+  }
+}

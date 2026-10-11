@@ -21,6 +21,8 @@ This directory contains our ongoing computational, paleographic, and visual fore
 - [`tools/test_unified_normalization.py`](file:///c:/Users/denni/Documents/voynich/tools/test_unified_normalization.py): Applies our 4-Rule Canonical Normalization across the corpus and runs a 1,000-trial permutation test on same-folio figure-label to paragraph matching ([`data/canonical_normalization_test.json`](file:///c:/Users/denni/Documents/voynich/data/canonical_normalization_test.json)).
 - [`tools/analyze_recipes_and_stars.py`](file:///c:/Users/denni/Documents/voynich/tools/analyze_recipes_and_stars.py): Analyzes Starred Recipes (`f103r–f116r`) margin star classifications, cross-section rare label concordances (`241` rare label roots), and right-justified `=Pt` titles ([`data/recipes_and_stars_analysis.json`](file:///c:/Users/denni/Documents/voynich/data/recipes_and_stars_analysis.json)).
 - [`tools/test_cross_section_links.py`](file:///c:/Users/denni/Documents/voynich/tools/test_cross_section_links.py): Tests horizontal ($x$-coordinate) alignment of label references, binary alternation pairing in Starred Recipes, and section-specific rare label enrichment ([`data/cross_section_and_alignment.json`](file:///c:/Users/denni/Documents/voynich/data/cross_section_and_alignment.json)).
+- [`tools/analyze_zodiac_and_hands.py`](file:///c:/Users/denni/Documents/voynich/tools/analyze_zodiac_and_hands.py): Tests invariance of our 4 morphological rules across all 5 paleographic Scribe Hands (`$H=1..5`) and analyzes Zodiac (`f70v2–f73v`) nymph ring sequences ([`data/zodiac_and_hands_analysis.json`](file:///c:/Users/denni/Documents/voynich/data/zodiac_and_hands_analysis.json)).
+- [`tools/inspect_zodiac_details.py`](file:///c:/Users/denni/Documents/voynich/tools/inspect_zodiac_details.py): Tests the `ot-/op-` vs. `ok-/of-` prefix split between barreled and unbarreled Zodiac nymphs and across label categories (`@Lc`, `@Lf`, `@Lt`, `@Ln`, `@Lz`) ([`data/zodiac_prefix_split.json`](file:///c:/Users/denni/Documents/voynich/data/zodiac_prefix_split.json)).
 
 ---
 
@@ -56,9 +58,16 @@ This directory contains our ongoing computational, paleographic, and visual fore
   - On `f1r` and `f8r` ([`pages/f8r_pt_title.png`](file:///c:/Users/denni/Documents/voynich/pages/f8r_pt_title.png)), there is open blank vellum to the left of the `=Pt` words (`schol.saiin` on `f8r`), proving they are genuine **right-justified colophon/catchword lines** (and `schol` recurs in only two other Herbal paragraphs, `f14r.3` and `f56r.3`, while `dchaiin` from `f1r.28` recurs in only 4 Herbal paragraphs: `f20r`, `f25r`, `f35r`, `f35v`).
   - By contrast, on `f25r` ([`pages/f25r_pt_title.png`](file:///c:/Users/denni/Documents/voynich/pages/f25r_pt_title.png)), `f42v` ([`pages/f42v_pt_title.png`](file:///c:/Users/denni/Documents/voynich/pages/f42v_pt_title.png)), and `f46v` ([`pages/f46v_pt_title.png`](file:///c:/Users/denni/Documents/voynich/pages/f46v_pt_title.png)), the final line of the paragraph appears right-indented **only because the tallest green leaf or flower head rises directly into the left half of that line**, forcing the scribe to indent the paragraph's final words to the right of the illustration!
 
+### G. Zodiac Medallions, Occidental Month Glosses & Barrel-to-Naked Nymph Transition (`f70v2–f73v`)
+- Extracting and enhancing the central medallions across the Zodiac section (`p128–p135`) reveals both the Western (Occitan/Franco-Provençal) month names added in the center medallions and a sharp visual transition in the surrounding ~30 degree-nymphs:
+  - [`pages/f70v2_pisces_mars.png`](file:///c:/Users/denni/Documents/voynich/pages/f70v2_pisces_mars.png) (`Pisces` / **`mars`**): Two scaly fish tethered to gold stars; surrounding nymphs stand inside green-painted **cylindrical barrels/turrets**.
+  - [`pages/f72r2_gemini_juny.png`](file:///c:/Users/denni/Documents/voynich/pages/f72r2_gemini_juny.png) (`Taurus II` **`may`** on left, `Gemini` **`juny`** in center): On `f72r1` (`Taurus II`), the nymphs are still inside barrels; on `f72r2` (`Gemini`, showing a courtly couple in green and blue holding hands), the barrels disappear!
+  - [`pages/f72r3_cancer_jolh.png`](file:///c:/Users/denni/Documents/voynich/pages/f72r3_cancer_jolh.png) (`Cancer` / **`jolh`**): Two red/green crayfish in the center medallion surrounded by **unbarreled** nymphs.
+  - [`pages/f72v3_leo_agost.png`](file:///c:/Users/denni/Documents/voynich/pages/f72v3_leo_agost.png) (`Leo` / **`agost`**), [`pages/f72v2_virgo_setembre.png`](file:///c:/Users/denni/Documents/voynich/pages/f72v2_virgo_setembre.png) (`Virgo` / **`septemb'`**), [`pages/f72v1_libra_octobre.png`](file:///c:/Users/denni/Documents/voynich/pages/f72v1_libra_octobre.png) (`Libra` / **`octobre`**), and [`pages/f73r_scorpio_novembre.png`](file:///c:/Users/denni/Documents/voynich/pages/f73r_scorpio_novembre.png) (`Scorpio` / **`novembre`**): All feature **unbarreled** full-body nymphs holding stars (and on `f72v2` Virgo, the rare label `<f72v2.10,@Lz> sheoeky` at 11 o'clock matches `<f72v2.4,@Cc> sheeoeky` at 6 o'clock of the inner ring, global canonical count = 3).
+
 ---
 
-## 3. Six Quantitative & Structural Discoveries
+## 3. Eight Quantitative & Structural Discoveries
 
 ### Discovery 1: The Physical Line & Drawing-Intrusion State Machine
 Voynich word morphology is governed not just by sentence syntax, but by **physical layout coordinates on the vellum** (left margin, line interior, plant-stem interruption `<->`, right margin, and top line of a paragraph):
@@ -170,8 +179,40 @@ Testing all rare figure labels (`global canonical frequency 2..15`, length $\ge 
 
 ---
 
+### Discovery 7: Five-Scribe Invariance (`$H=1..5`) of the Physical Line & Proclitic Grammar
+Lisa Fagin Davis's paleographic analysis established that **five distinct human scribes** (`$H=1..5`) wrote the Voynich Manuscript across Currier Languages `A` and `B`. Testing our four structural rules independently across each of the 5 scribe hands ([`tools/analyze_zodiac_and_hands.py`](file:///c:/Users/denni/Documents/voynich/tools/analyze_zodiac_and_hands.py) $\to$ [`data/zodiac_and_hands_analysis.json`](file:///c:/Users/denni/Documents/voynich/data/zodiac_and_hands_analysis.json)) proves that **all 5 scribes independently obey the exact same orthographic and positional grammar**:
+
+| Scribe Hand (`$H`) | Folios | Words | Currier Lang | Top-Line `p/f` vs Lower-Line `p/f` | `y-` Init: `LineMid` $\to$ `AfterDraw (<->)` (vs `LineStart`) | `qo-` Init: `LineMid` $\to$ `AfterDraw (<->)` $\to$ `Labels (@L)` | `-m` End: `LineMid` $\to$ `LineEnd` |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Hand 1** | 113 | 11,037 | `A` | **21.7%** vs **1.1%** (**19.5×**) | `4.7%` $\to$ **12.5%** (`14.7%`) | `9.4%` $\to$ **1.3%** $\to$ **0.0%** (`47.9%` bare `o-`) | `1.6%` $\to$ **10.1%** (**6.2×**) |
+| **Hand 2** | 46 | 11,177 | `B` | **25.4%** vs **1.6%** (**16.3×**) | `3.8%` $\to$ **14.9%** (`12.0%`) | `20.4%` $\to$ **8.7%** $\to$ **2.2%** (`56.6%` bare `o-`) | `0.5%` $\to$ **13.5%** (**26.0×**) |
+| **Hand 3** | 33 | 11,766 | `B` / `A` | **20.7%** vs **1.2%** (**17.9×**) | `2.4%` $\to$ **30.4%** (`16.6%`) | `18.2%` $\to$ **0.0%** $\to$ **0.0%** (`40.0%` bare `o-`) | `0.8%` $\to$ **23.6%** (**30.3×**) |
+| **Hand 4** | 26 | 3,083 | `A/Z` | **10.7%** vs **2.5%** (**4.3×**) | `7.5%` $\to$ **25.0%** (`20.2%`) | `6.9%` $\to$ **0.0%** $\to$ **0.4%** (`58.1%` bare `o-`) | `1.8%` $\to$ **19.1%** (**10.5×**) |
+| **Hand 5** | 7 | 926 | `B` | **38.0%** vs **1.9%** (**19.7×**) | `8.3%` $\to$ **30.6%** (`14.9%`) | `11.8%` $\to$ **5.6%** $\to$ **7.7%** | `0.9%` $\to$ **19.2%** (**22.0×**) |
+
+**Key Implication**: Because all five paleographically distinct scribes execute the exact same 4-part system—(1) `p/f` top-line gallows allography (`4.3×–19.7×`), (2) drawing-interruption `<->` reset to `y-` initial and `qo-` suppression, (3) `q-` proclitic omission in `@L` labels, and (4) line-final `-m` termination (`6.2×–30.3×`)—these patterns **cannot be the unconscious personal tic of a single hoaxer**. All 5 scribes were trained in (or copying from exemplars governed by) a shared, explicit rule system.
+
+---
+
+### Discovery 8: The Zodiac `ot-` $\to$ `ok-` Barrel-Nymph Shift ($\chi^2 = 24.01, p = 9.6 \times 10^{-7}$) & Label Prefix Taxonomy
+Analyzing all 350 Zodiac degree-nymph labels (`@Lz`) across the 12 Zodiac pages ([`tools/inspect_zodiac_details.py`](file:///c:/Users/denni/Documents/voynich/tools/inspect_zodiac_details.py) $\to$ [`data/zodiac_prefix_split.json`](file:///c:/Users/denni/Documents/voynich/data/zodiac_prefix_split.json)) uncovers a striking correlation between **visual iconography** and **noun prefix (`ot-/op-` vs. `ok-/of-`)**:
+1. **Barreled Nymphs (`f70v2–f72r1`: Pisces, Aries I/II, Taurus I/II)**:
+   - On the first 5 Zodiac pages, the degree-nymphs emerge from cylindrical **barrels/turrets** ([`pages/f70v2_pisces_mars.png`](file:///c:/Users/denni/Documents/voynich/pages/f70v2_pisces_mars.png)).
+   - On every single one of these 5 pages, **`ot-/op-` outnumbers `ok-/of-`**, totaling **56 `ot-/op-` vs. 20 `ok-/of-` (`73.7%` `ot-/op-`)**!
+2. **Unbarreled Nymphs (`f72r2–f73v`: Gemini through Sagittarius)**:
+   - Starting on `f72r2` (`Gemini`, [`pages/f72r2_gemini_juny.png`](file:///c:/Users/denni/Documents/voynich/pages/f72r2_gemini_juny.png)), the barrels disappear and the nymphs stand naked/unbarreled ([`pages/f72v2_virgo_setembre.png`](file:///c:/Users/denni/Documents/voynich/pages/f72v2_virgo_setembre.png)).
+   - Immediately, the prefix ratio inverts: **`ok-/of-` outnumbers `ot-/op-` on every page**, totaling **68 `ok-/of-` vs. 40 `ot-/op-` (`63.0%` `ok-/of-`, `37.0%` `ot-/op-`)** — a highly significant contingency shift ($\chi^2 = 24.01, p = 9.6 \times 10^{-7}$)!
+   - Even more remarkably, the exact same `ot-/op-` vs. `ok-/of-` polarity recurs in the **Biological section (`$I=B`, `f75r–f84v`)**: labels on **tubes/barrels/pools (`*Lt`, `n=55`)** favor **`ot-/op-` over `ok-/of-` (`16` vs. `11`, `59.3%` `ot-/op-`)**, whereas labels on **free-standing nymphs (`*Ln`, `n=60`)** favor **`ok-/of-` over `ot-/op-` (`15` vs. `9`, `62.5%` `ok-/of-`)**!
+3. **The Cancer (`f72r3`) `ol-/or-` Anomaly**:
+   - On `f72r3` (`Cancer` / `jolh`, [`pages/f72r3_cancer_jolh.png`](file:///c:/Users/denni/Documents/voynich/pages/f72r3_cancer_jolh.png)), both `ok-` (`2`) and `ot-` (`2`) collapse to `<10%` of the 41 nymph labels and are replaced by liquid-initial **`ol-` (`6`) and `or-` (`5`)** labels.
+4. **Verified Negative Result on Zodiac Nymph-to-Ring Matching ($p = 0.85$)**:
+   - Unlike Herbal, Biological, and Pharmaceutical pages—where `@L` labels recur significantly inside the same folio's `@P0` paragraphs ($p = 0.002$)—Zodiac nymph labels (`@Lz`) do not generally repeat in the continuous `@Cc` ring text of the same diagram (`obs = 2` vs `null = 3.40 ± 1.82`), with the notable exception of `<f72v2.10,@Lz> sheoeky` $\leftrightarrow$ `<f72v2.4,@Cc> sheeoeky` (global count = 3) on Virgo (`f72v2`).
+
+---
+
 ## 4. Open Questions & Next Avenues to Explore
-1. **Zodiac (`f70v–f73v`) & Astronomical (`f67r–f68v`) Ring Progression & Month Annotations**: How are the 300+ Zodiac nymph/star labels (`@Lz`, `@La`, `@Ls`) structured around the concentric rings, how do they relate to the Western (Occitan/French/Latin) month annotations (`mars`, `abril`, `may`...), and do adjacent nymphs along a ring share sequential prefix/suffix mutations?
-2. **Scribe Hand Transitions (`$H=1..5`) & Currier `A/B` Dialect Split**: How do our 4 morphological normalization rules and gallows allography vary across Lisa Fagin Davis's 5 paleographic scribe hands?
-3. **Multi-Word Collocations & Formulaic Templates**: Are there recurring 2-word and 3-word templates (e.g. `chol daiin`, `or aiin`, paragraph-opening formulas) that act as structural punctuation or headings across sections?
+1. **Multi-Word Collocations, Repeated Phrases & Formulaic Templates**: What are the most frequent 2-word and 3-word collocations across the manuscript, and do specific multi-word formulas mark paragraph openings, endings, or transitions?
+2. **Glen Claston (`v101`, `GC2a-n.txt`) vs. EVA (`ZL3b-n.txt`) Plumed Gallows & Rare Glyph Forensics**: Do rare or compound glyphs distinguished in `GC2a-n.txt` / `IT2a-n.txt` clarify any of our canonical roots or label pairs?
+3. **Physical Book-Edge Scans (`p210–p213` in `2002046.pdf`) & Quire Structure**: What codicological details (quire signatures, foliation jumps, missing folios, edge markings) can we extract from the 4 physical book-edge scans and quire metadata?
+
 
