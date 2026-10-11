@@ -45,7 +45,8 @@ Rather than rehashing historical decipherment speculations, this project focuses
 │   ├── attack2_botanical_jar_solver.py # f99r reserve cartouches, 27.9% row-to-recipe ingestion & 23x o- prefix proof
 │   ├── attack3_syllable_stream_alignment.py # 89.02% Gallows paragraph openers, -ry/-am closers & clause framing
 │   ├── attack4_zodiac_decan_decoder.py # Zodiac clockwise step-mutation (z=+3.42) & Pisces <-> f107r triple concordance
-│   └── attack5_sequential_tuple_scanner.py # Full-MS sequential tuple scanner & contiguous neighbor order preservation
+│   ├── attack5_sequential_tuple_scanner.py # Full-MS sequential tuple scanner & contiguous neighbor order preservation
+│   └── attack6_starred_recipes_decoder.py  # 285 Starred Recipes decoder, D/L./L star taxonomy & f113r/f114v multi-cribs
 ├── notes/
 │   ├── INTERLINEAR_GLOSSES.md          # Full-page line-by-line structural interlinear glosses (f5r, f17r, f82v, f84r, f99v, f106v)
 │   └── DECODING_ATTACKS_SYNTHESIS.md   # Comprehensive synthesis of the cryptographic & linguistic decoding attacks
@@ -193,6 +194,13 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 15. The `285` Starred Recipes (`f103r–f116r`, Quire 20), Dark (`D`) vs. Light (`L`/`L.`) Star Taxonomy & The `f113r` / `f114v` Multi-Crib Decodings
+- **Three-Class Star Taxonomy (`136` `L` Plain Yellow, `129` `L.` Dotted Yellow, `14` `D` Solid Red/Dark)**: Solid crimson-red (`D`) stars occur exclusively on three rectos (`f103r` in a `D L L` triad cycle, `f104r`, and `f108r`, `pages/f103r_dark_light_stars_enh.png`, `pages/f108r_dark_stars_zodiac_enh.png`), average fewer words (`30.21` vs. `38.54`), terminate in **`-in` (`-aiin/-ain`) `50.0%` of the time** (vs. `21.9%` in `L/L.`), have zero Rosettes hits, and peak in Zodiac degree citations (`f108r` has `9` rare Zodiac hits).
+- **Water-Trigon Double `.13` Zodiac Hapax Crib in `f113r` Paragraph 1 (`<f113r.1..3>`, `pages/f113r_p1_ykolairol_oteeosy_enh.png`)**: In a 3-line, 29-word recipe at the top of `f113r`, the last word of Line 2 is **`ykolairol`** (exact 9-letter match to Cancer nymph `<f72r3.13,&Lz> ykolairol`, **global prose count = 1**) and the last word of Line 3 is **`oteeosy`** (exact 7-letter match to Scorpio nymph `<f73r.13,&Lz> oteeosy`, **global prose count = 1**), preceded on Line 1 by `qopchedaiin` (`<fRos.74,@L0> opchedaiin`).
+- **Five-Crib Multi-Section Convergence in `f114v` Paragraph 1 (`<f114v.1..5>`, `pages/f114v_p1_five_cribs_enh.png`)**: Packs `5` rare figure-label canons (`otdady`, `oeos`, `qotcheo`, `qotchd`, `qotedol`, `12.31` rarity bits) into a single 5-line recipe!
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -229,5 +237,6 @@ python tools/attack2_botanical_jar_solver.py
 python tools/attack3_syllable_stream_alignment.py
 python tools/attack4_zodiac_decan_decoder.py
 python tools/attack5_sequential_tuple_scanner.py
+python tools/attack6_starred_recipes_decoder.py
 ```
 
