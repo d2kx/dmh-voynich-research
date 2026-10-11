@@ -4,10 +4,10 @@
     "pdf1_pages": 214,
     "pdf2_file": "voynich-manuscript.pdf",
     "pdf2_pages": 210,
-    "transcribed_folios": 226,
-    "total_words": 38409,
-    "total_labels": 892,
-    "total_drawing_intrusions": 754
+    "transcribed_folios": 227,
+    "total_words": 38949,
+    "total_labels": 1029,
+    "total_drawing_intrusions": 758
   },
   "pdf_pages": [
     {
@@ -2867,7 +2867,8 @@
       ],
       "folios": [
         "f85v",
-        "f86r"
+        "f86r",
+        "fRos"
       ]
     },
     {
@@ -15381,17 +15382,7 @@
         "sun @ circle divided in 4, 4 human figures.",
         "'Four seasons'. Outer and inner circle of text and four",
         "blocks. Lines in blocks are loci .B1 to .B22 and",
-        "comments are included to show the compass directions.",
-        "Part of 6-page 9-circle         85v2 86r4 86r6     1 4 7",
-        "composite. Page and circle      85v1 86r3 86r5     2 5 8",
-        "numbers as indicated to the                        3 6 9",
-        "right.",
-        "Petersen loci as {circle:locus} e.g. {1:9} inside circle 1.",
-        "This is the upper left page with parts of circles 1 and 2.",
-        "The following are block left of circle, left margin unreadable",
-        "Start of circle 3",
-        "Text around Brumbaugh's 'clock'",
-        "Following are counter-clockwise from 09:00"
+        "comments are included to show the compass directions."
       ],
       "lines": 24,
       "words": 156,
@@ -15434,6 +15425,1033 @@
           "folios": [
             "f85r",
             "f86v"
+          ]
+        }
+      ]
+    },
+    "fRos": {
+      "folio": "fRos",
+      "quire": "N",
+      "section_code": "C",
+      "section": "Cosmological",
+      "currier_lang": "B",
+      "hand": "4",
+      "comments": [
+        "Part of 6-page 9-circle         85v2 86r4 86r6     1 4 7",
+        "composite. Page and circle      85v1 86r3 86r5     2 5 8",
+        "numbers as indicated to the                        3 6 9",
+        "right.",
+        "Petersen loci as {circle:locus} e.g. {1:9} inside circle 1.",
+        "This is the upper left page with parts of circles 1 and 2.",
+        "The following are block left of circle, left margin unreadable",
+        "Start of circle 3",
+        "Text around Brumbaugh's 'clock'",
+        "Following are counter-clockwise from 09:00"
+      ],
+      "lines": 160,
+      "words": 540,
+      "labels": [
+        {
+          "locus": "fRos.1",
+          "type": "@L0",
+          "words": [
+            "saeeasa?"
+          ]
+        },
+        {
+          "locus": "fRos.3",
+          "type": "@L0",
+          "words": [
+            "ofain",
+            "ain"
+          ]
+        },
+        {
+          "locus": "fRos.4",
+          "type": "+L0",
+          "words": [
+            "ych",
+            "?ais"
+          ]
+        },
+        {
+          "locus": "fRos.5",
+          "type": "+L0",
+          "words": [
+            "ydekam"
+          ]
+        },
+        {
+          "locus": "fRos.6",
+          "type": "+L0",
+          "words": [
+            "darchedy"
+          ]
+        },
+        {
+          "locus": "fRos.7",
+          "type": "+L0",
+          "words": [
+            "otochedy",
+            "sy"
+          ]
+        },
+        {
+          "locus": "fRos.8",
+          "type": "+L0",
+          "words": [
+            "soeedoy",
+            "olal"
+          ]
+        },
+        {
+          "locus": "fRos.9",
+          "type": "+L0",
+          "words": [
+            "dchor",
+            "orary"
+          ]
+        },
+        {
+          "locus": "fRos.10",
+          "type": "+L0",
+          "words": [
+            "sairojam"
+          ]
+        },
+        {
+          "locus": "fRos.11",
+          "type": "@L0",
+          "words": [
+            "okchdarar"
+          ]
+        },
+        {
+          "locus": "fRos.12",
+          "type": "@L0",
+          "words": [
+            "soiindy"
+          ]
+        },
+        {
+          "locus": "fRos.13",
+          "type": "@L0",
+          "words": [
+            "ytedar"
+          ]
+        },
+        {
+          "locus": "fRos.14",
+          "type": "@L0",
+          "words": [
+            "ddsschx"
+          ]
+        },
+        {
+          "locus": "fRos.15",
+          "type": "@L0",
+          "words": [
+            "daldar"
+          ]
+        },
+        {
+          "locus": "fRos.16",
+          "type": "@L0",
+          "words": [
+            "ofardy"
+          ]
+        },
+        {
+          "locus": "fRos.17",
+          "type": "@L0",
+          "words": [
+            "orarol"
+          ]
+        },
+        {
+          "locus": "fRos.18",
+          "type": "@L0",
+          "words": [
+            "daldal"
+          ]
+        },
+        {
+          "locus": "fRos.19",
+          "type": "@L0",
+          "words": [
+            "daraldy"
+          ]
+        },
+        {
+          "locus": "fRos.21",
+          "type": "@L0",
+          "words": [
+            "oko"
+          ]
+        },
+        {
+          "locus": "fRos.22",
+          "type": "@L0",
+          "words": [
+            "daiiny"
+          ]
+        },
+        {
+          "locus": "fRos.23",
+          "type": "@L0",
+          "words": [
+            "docfhhy"
+          ]
+        },
+        {
+          "locus": "fRos.24",
+          "type": "@L0",
+          "words": [
+            "okedy"
+          ]
+        },
+        {
+          "locus": "fRos.25",
+          "type": "@L0",
+          "words": [
+            "okary"
+          ]
+        },
+        {
+          "locus": "fRos.26",
+          "type": "@L0",
+          "words": [
+            "opain"
+          ]
+        },
+        {
+          "locus": "fRos.27",
+          "type": "@L0",
+          "words": [
+            "opar"
+          ]
+        },
+        {
+          "locus": "fRos.28",
+          "type": "@L0",
+          "words": [
+            "adairy"
+          ]
+        },
+        {
+          "locus": "fRos.29",
+          "type": "@L0",
+          "words": [
+            "dxar"
+          ]
+        },
+        {
+          "locus": "fRos.30",
+          "type": "@L0",
+          "words": [
+            "okory"
+          ]
+        },
+        {
+          "locus": "fRos.31",
+          "type": "@L0",
+          "words": [
+            "opokchosody"
+          ]
+        },
+        {
+          "locus": "fRos.32",
+          "type": "@L0",
+          "words": [
+            "adashgasain"
+          ]
+        },
+        {
+          "locus": "fRos.33",
+          "type": "@L0",
+          "words": [
+            "cfair",
+            "o@213;olc@133;hy"
+          ]
+        },
+        {
+          "locus": "fRos.34",
+          "type": "@L0",
+          "words": [
+            "okody"
+          ]
+        },
+        {
+          "locus": "fRos.37",
+          "type": "@L0",
+          "words": [
+            "opoor",
+            "daly"
+          ]
+        },
+        {
+          "locus": "fRos.38",
+          "type": "@L0",
+          "words": [
+            "okas",
+            "oedady"
+          ]
+        },
+        {
+          "locus": "fRos.41",
+          "type": "@L0",
+          "words": [
+            "osal"
+          ]
+        },
+        {
+          "locus": "fRos.42",
+          "type": "@L0",
+          "words": [
+            "cpeey"
+          ]
+        },
+        {
+          "locus": "fRos.43",
+          "type": "@L0",
+          "words": [
+            "okor"
+          ]
+        },
+        {
+          "locus": "fRos.44",
+          "type": "@L0",
+          "words": [
+            "sarchcphdy"
+          ]
+        },
+        {
+          "locus": "fRos.45",
+          "type": "@L0",
+          "words": [
+            "otchdy",
+            "otoldy"
+          ]
+        },
+        {
+          "locus": "fRos.46",
+          "type": "@L0",
+          "words": [
+            "ofchedaiin"
+          ]
+        },
+        {
+          "locus": "fRos.48",
+          "type": "@L0",
+          "words": [
+            "otedal"
+          ]
+        },
+        {
+          "locus": "fRos.49",
+          "type": "@L0",
+          "words": [
+            "opaiin",
+            "o"
+          ]
+        },
+        {
+          "locus": "fRos.50",
+          "type": "@L0",
+          "words": [
+            "otchdy"
+          ]
+        },
+        {
+          "locus": "fRos.51",
+          "type": "@L0",
+          "words": [
+            "okchy"
+          ]
+        },
+        {
+          "locus": "fRos.52",
+          "type": "@L0",
+          "words": [
+            "chkeedy"
+          ]
+        },
+        {
+          "locus": "fRos.53",
+          "type": "@L0",
+          "words": [
+            "opairar"
+          ]
+        },
+        {
+          "locus": "fRos.54",
+          "type": "@L0",
+          "words": [
+            "odee?y"
+          ]
+        },
+        {
+          "locus": "fRos.55",
+          "type": "@L0",
+          "words": [
+            "okody"
+          ]
+        },
+        {
+          "locus": "fRos.56",
+          "type": "@L0",
+          "words": [
+            "depcheky"
+          ]
+        },
+        {
+          "locus": "fRos.57",
+          "type": "@L0",
+          "words": [
+            "otch"
+          ]
+        },
+        {
+          "locus": "fRos.58",
+          "type": "@L0",
+          "words": [
+            "osy"
+          ]
+        },
+        {
+          "locus": "fRos.59",
+          "type": "@L0",
+          "words": [
+            "odl"
+          ]
+        },
+        {
+          "locus": "fRos.60",
+          "type": "@L0",
+          "words": [
+            "d",
+            "dy"
+          ]
+        },
+        {
+          "locus": "fRos.61",
+          "type": "@L0",
+          "words": [
+            "oteey"
+          ]
+        },
+        {
+          "locus": "fRos.63",
+          "type": "@L0",
+          "words": [
+            "oteedy"
+          ]
+        },
+        {
+          "locus": "fRos.64",
+          "type": "@L0",
+          "words": [
+            "opy"
+          ]
+        },
+        {
+          "locus": "fRos.65",
+          "type": "@L0",
+          "words": [
+            "odal"
+          ]
+        },
+        {
+          "locus": "fRos.66",
+          "type": "@L0",
+          "words": [
+            "shdy"
+          ]
+        },
+        {
+          "locus": "fRos.67",
+          "type": "@L0",
+          "words": [
+            "opchees"
+          ]
+        },
+        {
+          "locus": "fRos.68",
+          "type": "@L0",
+          "words": [
+            "opar"
+          ]
+        },
+        {
+          "locus": "fRos.69",
+          "type": "@L0",
+          "words": [
+            "daral"
+          ]
+        },
+        {
+          "locus": "fRos.70",
+          "type": "@L0",
+          "words": [
+            "otdodar",
+            "oedy"
+          ]
+        },
+        {
+          "locus": "fRos.71",
+          "type": "@L0",
+          "words": [
+            "soshxor",
+            "arar"
+          ]
+        },
+        {
+          "locus": "fRos.72",
+          "type": "@L0",
+          "words": [
+            "otedain",
+            "otedy"
+          ]
+        },
+        {
+          "locus": "fRos.73",
+          "type": "@L0",
+          "words": [
+            "ytedar",
+            "ary"
+          ]
+        },
+        {
+          "locus": "fRos.74",
+          "type": "@L0",
+          "words": [
+            "opchedaiin"
+          ]
+        },
+        {
+          "locus": "fRos.75",
+          "type": "@L0",
+          "words": [
+            "ols"
+          ]
+        },
+        {
+          "locus": "fRos.76",
+          "type": "@L0",
+          "words": [
+            "ypal"
+          ]
+        },
+        {
+          "locus": "fRos.77",
+          "type": "@L0",
+          "words": [
+            "opydsh"
+          ]
+        },
+        {
+          "locus": "fRos.78",
+          "type": "@L0",
+          "words": [
+            "rshy"
+          ]
+        },
+        {
+          "locus": "fRos.79",
+          "type": "@L0",
+          "words": [
+            "olz"
+          ]
+        },
+        {
+          "locus": "fRos.80",
+          "type": "@L0",
+          "words": [
+            "dtedg"
+          ]
+        },
+        {
+          "locus": "fRos.81",
+          "type": "@L0",
+          "words": [
+            "opy"
+          ]
+        },
+        {
+          "locus": "fRos.82",
+          "type": "@L0",
+          "words": [
+            "ofdaj"
+          ]
+        },
+        {
+          "locus": "fRos.83",
+          "type": "@L0",
+          "words": [
+            "ddary"
+          ]
+        },
+        {
+          "locus": "fRos.84",
+          "type": "@L0",
+          "words": [
+            "otody"
+          ]
+        },
+        {
+          "locus": "fRos.85",
+          "type": "@L0",
+          "words": [
+            "dairdy"
+          ]
+        },
+        {
+          "locus": "fRos.86",
+          "type": "@L0",
+          "words": [
+            "rody"
+          ]
+        },
+        {
+          "locus": "fRos.88",
+          "type": "@L0",
+          "words": [
+            "ofary"
+          ]
+        },
+        {
+          "locus": "fRos.89",
+          "type": "@L0",
+          "words": [
+            "okady"
+          ]
+        },
+        {
+          "locus": "fRos.90",
+          "type": "@L0",
+          "words": [
+            "okchdy",
+            "kary"
+          ]
+        },
+        {
+          "locus": "fRos.91",
+          "type": "@L0",
+          "words": [
+            "oraiin",
+            "eey"
+          ]
+        },
+        {
+          "locus": "fRos.92",
+          "type": "@L0",
+          "words": [
+            "opodchdal"
+          ]
+        },
+        {
+          "locus": "fRos.93",
+          "type": "@L0",
+          "words": [
+            "darchdy"
+          ]
+        },
+        {
+          "locus": "fRos.95",
+          "type": "@L0",
+          "words": [
+            "okaramal"
+          ]
+        },
+        {
+          "locus": "fRos.96",
+          "type": "@L0",
+          "words": [
+            "opchdy"
+          ]
+        },
+        {
+          "locus": "fRos.97",
+          "type": "@L0",
+          "words": [
+            "ofdoram"
+          ]
+        },
+        {
+          "locus": "fRos.98",
+          "type": "@L0",
+          "words": [
+            "oda"
+          ]
+        },
+        {
+          "locus": "fRos.99",
+          "type": "@L0",
+          "words": [
+            "ofchdar"
+          ]
+        },
+        {
+          "locus": "fRos.100",
+          "type": "@L0",
+          "words": [
+            "otedam"
+          ]
+        },
+        {
+          "locus": "fRos.101",
+          "type": "@L0",
+          "words": [
+            "lokedshs"
+          ]
+        },
+        {
+          "locus": "fRos.102",
+          "type": "@L0",
+          "words": [
+            "otodar"
+          ]
+        },
+        {
+          "locus": "fRos.103",
+          "type": "@L0",
+          "words": [
+            "otedaiin"
+          ]
+        },
+        {
+          "locus": "fRos.104",
+          "type": "@L0",
+          "words": [
+            "okedy"
+          ]
+        },
+        {
+          "locus": "fRos.105",
+          "type": "@L0",
+          "words": [
+            "xoltedy"
+          ]
+        },
+        {
+          "locus": "fRos.106",
+          "type": "@L0",
+          "words": [
+            "opchdam"
+          ]
+        },
+        {
+          "locus": "fRos.107",
+          "type": "@L0",
+          "words": [
+            "otedy",
+            "oporam"
+          ]
+        },
+        {
+          "locus": "fRos.108",
+          "type": "@L0",
+          "words": [
+            "otchdy"
+          ]
+        },
+        {
+          "locus": "fRos.109",
+          "type": "+L0",
+          "words": [
+            "otody"
+          ]
+        },
+        {
+          "locus": "fRos.110",
+          "type": "/L0",
+          "words": [
+            "chdain"
+          ]
+        },
+        {
+          "locus": "fRos.111",
+          "type": "+L0",
+          "words": [
+            "otedy"
+          ]
+        },
+        {
+          "locus": "fRos.112",
+          "type": "@L0",
+          "words": [
+            "opai'hefchdy"
+          ]
+        },
+        {
+          "locus": "fRos.115",
+          "type": "=L0",
+          "words": [
+            "oteoly"
+          ]
+        },
+        {
+          "locus": "fRos.116",
+          "type": "@L0",
+          "words": [
+            "ofodady"
+          ]
+        },
+        {
+          "locus": "fRos.117",
+          "type": "@L0",
+          "words": [
+            "opdady"
+          ]
+        },
+        {
+          "locus": "fRos.118",
+          "type": "@L0",
+          "words": [
+            "otodey"
+          ]
+        },
+        {
+          "locus": "fRos.119",
+          "type": "@L0",
+          "words": [
+            "otodedy"
+          ]
+        },
+        {
+          "locus": "fRos.120",
+          "type": "@L0",
+          "words": [
+            "opchdain"
+          ]
+        },
+        {
+          "locus": "fRos.121",
+          "type": "@L0",
+          "words": [
+            "otdar",
+            "shed"
+          ]
+        },
+        {
+          "locus": "fRos.123",
+          "type": "@L0",
+          "words": [
+            "ofaraiin"
+          ]
+        },
+        {
+          "locus": "fRos.124",
+          "type": "@L0",
+          "words": [
+            "okolar"
+          ]
+        },
+        {
+          "locus": "fRos.125",
+          "type": "@L0",
+          "words": [
+            "okchdy"
+          ]
+        },
+        {
+          "locus": "fRos.126",
+          "type": "@L0",
+          "words": [
+            "ykedy"
+          ]
+        },
+        {
+          "locus": "fRos.127",
+          "type": "@L0",
+          "words": [
+            "oteedy"
+          ]
+        },
+        {
+          "locus": "fRos.128",
+          "type": "@L0",
+          "words": [
+            "otosaiin"
+          ]
+        },
+        {
+          "locus": "fRos.129",
+          "type": "@L0",
+          "words": [
+            "otchdam"
+          ]
+        },
+        {
+          "locus": "fRos.130",
+          "type": "@L0",
+          "words": [
+            "otedy"
+          ]
+        },
+        {
+          "locus": "fRos.131",
+          "type": "@L0",
+          "words": [
+            "okar"
+          ]
+        },
+        {
+          "locus": "fRos.132",
+          "type": "@L0",
+          "words": [
+            "lashalg"
+          ]
+        },
+        {
+          "locus": "fRos.134",
+          "type": "@L0",
+          "words": [
+            "o@214;alda"
+          ]
+        },
+        {
+          "locus": "fRos.135",
+          "type": "@L0",
+          "words": [
+            "osaram"
+          ]
+        },
+        {
+          "locus": "fRos.136",
+          "type": "@L0",
+          "words": [
+            "oparodam"
+          ]
+        },
+        {
+          "locus": "fRos.146",
+          "type": "@L0",
+          "words": [
+            "dor"
+          ]
+        },
+        {
+          "locus": "fRos.147",
+          "type": "+L0",
+          "words": [
+            "oky"
+          ]
+        },
+        {
+          "locus": "fRos.148",
+          "type": "+L0",
+          "words": [
+            "roo"
+          ]
+        },
+        {
+          "locus": "fRos.149",
+          "type": "@L0",
+          "words": [
+            "otol"
+          ]
+        },
+        {
+          "locus": "fRos.150",
+          "type": "+L0",
+          "words": [
+            "ardas"
+          ]
+        },
+        {
+          "locus": "fRos.151",
+          "type": "+L0",
+          "words": [
+            "l",
+            "chdy"
+          ]
+        },
+        {
+          "locus": "fRos.152",
+          "type": "@L0",
+          "words": [
+            "oparod"
+          ]
+        },
+        {
+          "locus": "fRos.153",
+          "type": "+L0",
+          "words": [
+            "shckhdy"
+          ]
+        },
+        {
+          "locus": "fRos.154",
+          "type": "+L0",
+          "words": [
+            "tshda"
+          ]
+        },
+        {
+          "locus": "fRos.155",
+          "type": "@L0",
+          "words": [
+            "opchd"
+          ]
+        },
+        {
+          "locus": "fRos.156",
+          "type": "+L0",
+          "words": [
+            "opchdy"
+          ]
+        },
+        {
+          "locus": "fRos.157",
+          "type": "+L0",
+          "words": [
+            "qokal"
+          ]
+        },
+        {
+          "locus": "fRos.158",
+          "type": "@L0",
+          "words": [
+            "shet?"
+          ]
+        },
+        {
+          "locus": "fRos.159",
+          "type": "+L0",
+          "words": [
+            "opchsy"
+          ]
+        },
+        {
+          "locus": "fRos.160",
+          "type": "+L0",
+          "words": [
+            "che?ky"
+          ]
+        }
+      ],
+      "right_justified_titles": [],
+      "drawing_intrusions": 4,
+      "pdf_pages": [
+        {
+          "pdf1_page": 159,
+          "pdf1_label": "85v and 86r (foldout)",
+          "beinecke_image_id": "1006231",
+          "pdf1_size": [
+            2000,
+            1834
+          ],
+          "pdf2_page": 159,
+          "pdf2_label": "86v",
+          "pdf2_size": [
+            1200,
+            1205
+          ],
+          "folios": [
+            "f85v",
+            "f86r",
+            "fRos"
           ]
         }
       ]

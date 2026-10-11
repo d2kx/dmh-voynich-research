@@ -17,7 +17,7 @@ Rather than rehashing historical decipherment speculations, this project focuses
 ├── NOTES.md                     # Detailed living research log & findings
 ├── AGENTS.md                    # Instructions for multi-agent research continuity
 ├── data/
-│   ├── folio_index.json         # Master cross-reference index (226 folios <-> both PDFs & metadata)
+│   ├── folio_index.json         # Master cross-reference index (227 folios <-> both PDFs & metadata)
 │   ├── ZL3b-n.txt               # Zandbergen-Landini EVA transliteration (IVTFF 2.0)
 │   ├── RF1b-er.txt              # Reference basic EVA transliteration
 │   ├── IT2a-n.txt / GC2a-n.txt  # Takahashi & Glen Claston (v101) transliterations
@@ -30,7 +30,11 @@ Rather than rehashing historical decipherment speculations, this project focuses
 │   ├── deep_grammar_and_cipher_test.py # Tests top-line gallows allography (p/f vs t/k) & slot grammar
 │   ├── test_unified_normalization.py   # 4-Rule Canonical Normalization & 1,000-trial permutation test
 │   ├── analyze_recipes_and_stars.py    # Starred Recipes (f103r-f116r) star alternation & rare label lookup
-│   └── test_cross_section_links.py     # Horizontal x-alignment & cross-section label enrichment tests
+│   ├── test_cross_section_links.py     # Horizontal x-alignment & cross-section label enrichment tests
+│   ├── analyze_zodiac_and_hands.py     # 5-scribe invariance & Zodiac nymph ring analysis
+│   ├── inspect_zodiac_details.py       # Zodiac ot-/ok- barrel-nymph prefix shift
+│   ├── analyze_collocations_and_quires.py  # Within-line permutation tests & quire structure
+│   └── analyze_rosettes_phrases_and_v101.py # 9-Rosettes (<fRos>) concordance, bigram space forensics & v101 check
 └── pages/                       # Extracted, cropped, and contrast-enhanced folio images
 ```
 
@@ -72,7 +76,7 @@ Voynich word morphology shifts systematically based on **physical page geometry*
 Applying our **4-Rule Canonical Normalization** (1: strip `q-/y-` proclitics; 2: collapse `p/f` $\to$ `t/k` top-line gallows; 3: compress `e+/i+/o+/a+` runs; 4: neutralize line-final `-m` $\to$ `-r`) compresses the manuscript's raw vocabulary by **26.5%** (`8,101` $\to$ `5,956` types) and demonstrates that **figure labels on a folio match the paragraph text on that exact same folio significantly above chance ($p = 0.002$)**.
 
 Notable rare same-folio label $\leftrightarrow$ paragraph matches verified directly on the scans:
-- **Folio `f99v` (`doldam` $\leftrightarrow$ `doldam`, Global MS Count = 2)**: Appears **only twice in the entire 38,409-word manuscript**—once as the label `<f99v.31,@Lf>` above the crossed root on the far right, and once 3 lines below it at the right end of `<f99v.34,+P0>`:
+- **Folio `f99v` (`doldam` $\leftrightarrow$ `doldam`, Global MS Count = 2)**: Appears **only twice in the entire 38,949-word manuscript**—once as the label `<f99v.31,@Lf>` above the crossed root on the far right, and once 3 lines below it at the right end of `<f99v.34,+P0>`:
 
 ![f99v doldam pair](pages/f99v_doldam_pair.png)
 
@@ -114,6 +118,19 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 8. The 9-Rosettes (`<fRos>`, `p159`) Causeway Concordance, Bigram Space Forensics & 4-Corpus Verification
+- **Bigram Space Forensics (`.` vs `,`)**: Apparent `[X] + aiin` bigrams (`s aiin` `50.9%` `,`, `or aiin` `47.2%` `,`, `r aiin` `45.5%` `,`, `o l` `75.0%` `,`) are largely paleographic kerning splits of single words (`saiin`, `oraiin`, `raiin`, `ol`), whereas **`chol daiin`** (`80.6%` `.`, `38.7%` at `line_end`), **`shedy qokedy`** (`95.2%` `.`), **`chedy qokeey`** (`100%` `.`, `100%` `line_mid`), **`chedy qokain`** (`100%` `.`, `100%` `line_mid`), and **`chol chol`** (`100%` `.`) are genuine multi-word syntactic phrases.
+- **9-Rosettes (`<fRos>`, `p159`) Causeway Label Concordance**: On the vertical causeway and 5-pipe bundle below the top-left rosette (`N1`) of `p159` (`pages/p159_rosettes_top_left_enh.png`), 5 consecutive `@L0` labels (`<fRos.15..19>`) plus `<fRos.6>` have global canonical counts of only `2` or `3`, and each cross-references a major manuscript section:
+  - `<fRos.15,@L0> daldar` (count=2) $\to$ Herbal `<f43v.10> daldar`
+  - `<fRos.16,@L0> ofardy` (count=3) $\to$ Astro `<f68r1.37> okardy` & Bio `<f75r.8> qokardy`
+  - `<fRos.17,@L0> orarol` (at tip of the 5 pipes, count=2) $\to$ Pharma plant label `<f89v1.8,@Lf> orarol`
+  - `<fRos.18,@L0> daldal` (count=2) $\to$ Pharma `<f89r1.18> daldal`
+  - `<fRos.19,@L0> daraldy` (count=2) $\to$ Bio `<f84r.34> daraldy`
+  - `<fRos.6,+L0> darchedy` (count=2) $\to$ Starred Recipe `<f103r.54> darchedy`
+- **4-Corpus Verification**: All smoking-gun label-to-paragraph matches hold across `ZL3b-n.txt`, `RF1b-er.txt`, `IT2a-n.txt`, and `GC2a-n.txt` (`v101`).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -138,4 +155,6 @@ python tools/test_cross_section_links.py
 python tools/analyze_zodiac_and_hands.py
 python tools/inspect_zodiac_details.py
 python tools/analyze_collocations_and_quires.py
+python tools/analyze_rosettes_phrases_and_v101.py
 ```
+

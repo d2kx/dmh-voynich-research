@@ -16,8 +16,10 @@ SECTION_NAMES = {
 
 def normalize_pdf_label(raw_label: str) -> list[str]:
     """Map PDF page text label like '1r' or '85v and 86r (foldout)' to canonical folio IDs."""
-    folios = re.findall(r'\b(\d+[rv]\d*)\b', raw_label)
-    return [f"f{f}" for f in folios]
+    folios = [f"f{f}" for f in re.findall(r'\b(\d+[rv]\d*)\b', raw_label)]
+    if '85v' in raw_label and '86r' in raw_label:
+        folios.append('fRos')
+    return folios
 
 def parse_zl_metadata(zl_path: Path):
     folio_data = {}
@@ -25,7 +27,7 @@ def parse_zl_metadata(zl_path: Path):
     with open(zl_path, 'r', encoding='utf-8', errors='replace') as f:
         for line in f:
             line = line.rstrip('\r\n')
-            m_header = re.match(r'^<(f\d+[rv]\d*)>\s+<!\s*(.*?)>', line)
+            m_header = re.match(r'^<(f[A-Za-z0-9]+)>\s+<!\s*(.*?)>', line)
             if m_header:
                 current_folio = m_header.group(1)
                 meta_str = m_header.group(2)
@@ -52,7 +54,7 @@ def parse_zl_metadata(zl_path: Path):
                     folio_data[current_folio]['comments'].append(comment)
                 continue
 
-            m_locus = re.match(r'^<(f\d+[rv]\d*)\.([^,>]+),([^>]+)>\s+(.*)$', line)
+            m_locus = re.match(r'^<(f[A-Za-z0-9]+)\.([^,>]+),([^>]+)>\s+(.*)$', line)
             if m_locus:
                 f_id, loc_num, loc_type, text = m_locus.groups()
                 if f_id not in folio_data:
@@ -118,7 +120,8 @@ def main():
 
     # Attach PDF info to zl_data
     for f_id, f_info in zl_data.items():
-        base_f = re.match(r'^(f\d+[rv])', f_id).group(1)
+        m_b = re.match(r'^(f\d+[rv])', f_id)
+        base_f = m_b.group(1) if m_b else f_id
         f_info['pdf_pages'] = folio_to_pdf.get(f_id, folio_to_pdf.get(base_f, []))
 
     out = {

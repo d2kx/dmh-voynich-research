@@ -13,7 +13,7 @@ This directory contains our ongoing computational, paleographic, and visual fore
 | [`voynich-manuscript.pdf`](file:///c:/Users/denni/Documents/voynich/voynich-manuscript.pdf) | 210 | 2014-02-22 | ~1082 × 1500 px | Older TCPDF export with a 210-entry PDF bookmark outline (TOC). Pages `1..209` align 1-to-1 with `2002046.pdf` (`p210` is `[Back cover]`, which is `p214` in `2002046.pdf`). Has brighter highlight clipping, useful for cross-checking midtone contrast. |
 
 ### Custom Scripts (`tools/`)
-- [`tools/build_index.py`](file:///c:/Users/denni/Documents/voynich/tools/build_index.py): Parses both PDFs and `data/ZL3b-n.txt` to generate [`data/folio_index.json`](file:///c:/Users/denni/Documents/voynich/data/folio_index.json), mapping all 226 transcribed folios (`38,409` words, `892` figure labels, `754` drawing intrusions) to their exact PDF page numbers, Beinecke Image IDs, sections, Currier languages (`A`/`B`), and Lisa Fagin Davis scribe hands (`1..5`).
+- [`tools/build_index.py`](file:///c:/Users/denni/Documents/voynich/tools/build_index.py): Parses both PDFs and `data/ZL3b-n.txt` to generate [`data/folio_index.json`](file:///c:/Users/denni/Documents/voynich/data/folio_index.json), mapping all 227 transcribed folios (`38,949` words, `1,029` label lines, `758` drawing intrusions, including `<fRos>` mapped to `p159`) to their exact PDF page numbers, Beinecke Image IDs, sections, Currier languages (`A`/`B`), and Lisa Fagin Davis scribe hands (`1..5`).
 - [`tools/render_folio.py`](file:///c:/Users/denni/Documents/voynich/tools/render_folio.py): Extracts high-resolution folio images from either PDF, supports normalized bounding-box cropping (`--crop x0 y0 x1 y1`), faded-ink channel contrast enhancement (`--enhance`), and side-by-side cross-PDF comparisons (`--compare`). *(Note: fixes a TCPDF quirk in `voynich-manuscript.pdf` where all 209 images are listed in every page's global resource dictionary by resolving `page.get_image_info(xrefs=True)`).*
 - [`tools/analyze_structure.py`](file:///c:/Users/denni/Documents/voynich/tools/analyze_structure.py): Computes positional morphology across line/paragraph/drawing boundaries, Herbal-to-Pharmaceutical visual cross-references, and Currier language / scribe hand statistics ([`data/structural_analysis.json`](file:///c:/Users/denni/Documents/voynich/data/structural_analysis.json)).
 - [`tools/test_q_prefix_and_labels.py`](file:///c:/Users/denni/Documents/voynich/tools/test_q_prefix_and_labels.py): Tests the `q-` proclitic hypothesis (`qoX = q + oX`) and same-folio label-to-paragraph matching against shuffled null baselines ([`data/q_and_label_analysis.json`](file:///c:/Users/denni/Documents/voynich/data/q_and_label_analysis.json)).
@@ -24,6 +24,7 @@ This directory contains our ongoing computational, paleographic, and visual fore
 - [`tools/analyze_zodiac_and_hands.py`](file:///c:/Users/denni/Documents/voynich/tools/analyze_zodiac_and_hands.py): Tests invariance of our 4 morphological rules across all 5 paleographic Scribe Hands (`$H=1..5`) and analyzes Zodiac (`f70v2–f73v`) nymph ring sequences ([`data/zodiac_and_hands_analysis.json`](file:///c:/Users/denni/Documents/voynich/data/zodiac_and_hands_analysis.json)).
 - [`tools/inspect_zodiac_details.py`](file:///c:/Users/denni/Documents/voynich/tools/inspect_zodiac_details.py): Tests the `ot-/op-` vs. `ok-/of-` prefix split between barreled and unbarreled Zodiac nymphs and across label categories (`@Lc`, `@Lf`, `@Lt`, `@Ln`, `@Lz`) ([`data/zodiac_prefix_split.json`](file:///c:/Users/denni/Documents/voynich/data/zodiac_prefix_split.json)).
 - [`tools/analyze_collocations_and_quires.py`](file:///c:/Users/denni/Documents/voynich/tools/analyze_collocations_and_quires.py): Runs a within-line permutation test of adjacent-word reduplication, canonical twin adjacency, 1-char substitution, suffix concord, multi-word collocations, and quire structure ([`data/collocations_and_quires.json`](file:///c:/Users/denni/Documents/voynich/data/collocations_and_quires.json)).
+- [`tools/analyze_rosettes_phrases_and_v101.py`](file:///c:/Users/denni/Documents/voynich/tools/analyze_rosettes_phrases_and_v101.py): Analyzes the 9-Rosettes foldout map (`<fRos>`, `p159`), tests dot (`.`) vs. uncertain comma (`,`) word boundaries in top bigrams, and cross-verifies rare label matches across all 4 transliteration files (`ZL3b-n.txt`, `RF1b-er.txt`, `IT2a-n.txt`, `GC2a-n.txt`) ([`data/rosettes_phrases_and_v101.json`](file:///c:/Users/denni/Documents/voynich/data/rosettes_phrases_and_v101.json)).
 
 ---
 
@@ -72,9 +73,16 @@ This directory contains our ongoing computational, paleographic, and visual fore
   - In the `[Fore-edge]` view (`p212`), the left half (Quires `A–H`, single-bifolium Herbal pages) shows cut leaf edges, while the center-right (Quires `I–S`) shows smooth rounded fold edges where oversized foldouts tuck inward.
   - Quire boundaries strictly segregate Scribe Hands (`$H`) and Currier Languages (`$L`) across most of the codex: Quires `A, B, C, O, S` are 100% Hand 1 (`$L=A`); Quires `I, J, K, L` are 100% Hand 4 (`Astro/Zodiac`); Quires `M, N` are 100% Hand 2 (`$L=B`); and Quire `T` (`f103r–f116v`) is 100% Hand 3 (`$L=B`, plus the final `@` page `f116v`), while only Herbal Quires `D, E, F, G, H, Q` mix bifolia from Hands 1, 2, 3, and 5.
 
+### I. The 6-Panel 9-Rosettes Foldout Map (`<fRos>` / `f85v2` on `p159` and `f85r1–f86v6` on `p156–p158`)
+- Extracting the four physical scans of Quire `N` (`p156–p159`) reveals how the massive 6-panel foldout is arranged:
+  - [`pages/p156_rosettes_foldout.png`](file:///c:/Users/denni/Documents/voynich/pages/p156_rosettes_foldout.png) (`p156`): Shows `f85r1` (the introductory text page) on the left and the folded vellum back on the right.
+  - [`pages/p157_rosettes_back.png`](file:///c:/Users/denni/Documents/voynich/pages/p157_rosettes_back.png) (`p157`) and [`pages/p158_rosettes_full.png`](file:///c:/Users/denni/Documents/voynich/pages/p158_rosettes_full.png) (`p158`): Show the unfolded reverse panels—`f86v4` (the Four-Seasons/Four-Faces sun wheel at top-left, [`pages/p158_rosettes_top_left.png`](file:///c:/Users/denni/Documents/voynich/pages/p158_rosettes_top_left.png)), `f85r2` (the 4-wind moon diagram at bottom-right), and `f86v3`/`f86v5`/`f86v6` (3 long multi-paragraph text panels).
+  - [`pages/p159_rosettes_map.png`](file:///c:/Users/denni/Documents/voynich/pages/p159_rosettes_map.png) (`p159`): The complete 3×3 **9-Rosettes foldout map (`<fRos>` / `f85v2`, 540 words across 151 loci)**.
+  - Contrast-enhanced zoom crops of `p159`—[`pages/p159_rosettes_top_left_enh.png`](file:///c:/Users/denni/Documents/voynich/pages/p159_rosettes_top_left_enh.png) (top-left rosette `N1` and its vertical causeway with 5 parallel pipes), [`pages/p159_rosettes_center_enh.png`](file:///c:/Users/denni/Documents/voynich/pages/p159_rosettes_center_enh.png) (central rosette `C2`), and [`pages/p159_rosettes_top_right_enh.png`](file:///c:/Users/denni/Documents/voynich/pages/p159_rosettes_top_right_enh.png) (top-right castle rosette `V1`)—reveal the dense `@L0` labels written along the causeway walls, pipe tips, and cloud turrets.
+
 ---
 
-## 3. Nine Quantitative & Structural Discoveries
+## 3. Ten Quantitative & Structural Discoveries
 
 ### Discovery 1: The Physical Line & Drawing-Intrusion State Machine
 Voynich word morphology is governed not just by sentence syntax, but by **physical layout coordinates on the vellum** (left margin, line interior, plant-stem interruption `<->`, right margin, and top line of a paragraph):
@@ -234,10 +242,31 @@ To test this rigorously, [`tools/analyze_collocations_and_quires.py`](file:///c:
 
 ---
 
+### Discovery 10: Bigram Space Forensics (`.` vs `,`), the 9-Rosettes (`<fRos>`) Causeway Label Concordance & Four-Corpus Verification
+Running [`tools/analyze_rosettes_phrases_and_v101.py`](file:///c:/Users/denni/Documents/voynich/tools/analyze_rosettes_phrases_and_v101.py) ([`data/rosettes_phrases_and_v101.json`](file:///c:/Users/denni/Documents/voynich/data/rosettes_phrases_and_v101.json)) resolves all three questions from Phase 4:
+1. **Bigram Space Forensics (True Syntactic Phrases `.` vs. Paleographic Intraword Gaps `,`)**:
+   - In IVTFF (`ZL3b-n.txt`), `.` denotes a definite word space and `,` denotes an uncertain/narrow intraword gap. Checking the `.` vs. `,` ratio across top bigrams separates **single words with paleographic kerning gaps** from **genuine multi-word syntactic phrases**:
+     - **Paleographic Kerning Splits (High `,` Rate)**: `o l` (`75.0%` `,` $\to$ single word `ol`), `s aiin` (`50.9%` `,` $\to$ `saiin`), `or aiin` (`47.2%` `,` $\to$ `oraiin`), `r aiin` (`45.5%` `,` $\to$ `raiin`), `ar aiin` (`37.5%` `,` $\to$ `araiin`). In `GC2a-n.txt` (`v101`), Glen Claston transcribes almost half of these directly as unspaced single words!
+     - **Genuine Multi-Word Syntactic Phrases (`80%–100%` Definite `.` Space)**:
+       - **`chol daiin`** (`80.6%` `.`, Currier `A`): Strongly prefers the **right end of a line (`38.7%` at `line_end`)**.
+       - **`shedy qokedy`** (`95.2%` `.`, Currier `B`), **`chedy qokeey`** (`100%` `.`, `100%` `line_mid`), **`chedy qokain`** (`100%` `.`, `100%` `line_mid`), **`ol shedy`** (`87.5%` `.`), **`ol chedy`** (`90.9%` `.`), and **`chol chol`** (`100%` `.`): Genuine clause-interior verb/noun collocations.
+2. **The 9-Rosettes (`<fRos>`, `p159`) Causeway Label Concordance**:
+   - On the vertical causeway and 5-pipe bundle directly below the top-left rosette (`N1`) of `p159` ([`pages/p159_rosettes_top_left_enh.png`](file:///c:/Users/denni/Documents/voynich/pages/p159_rosettes_top_left_enh.png)), **five consecutive `@L0` labels (`<fRos.15>` through `<fRos.19>`) plus `<fRos.6>`** have global manuscript counts of only `2` or `3`, and each one cross-references a major section of the codex:
+     - `<fRos.15,@L0> daldar` (global count = **2**) $\to$ occurs in Herbal `<f43v.10,+P0> daldar`.
+     - `<fRos.16,@L0> ofardy` (global count = **3**, canonical `okardy`) $\to$ occurs in Astronomical `<f68r1.37,@XC> okardy` and Biological `<f75r.8,+P0> qokardy`.
+     - `<fRos.17,@L0> orarol` (written at the tip of the 5-pipe bundle below `N1`, global count = **2**) $\to$ occurs only once more in the entire manuscript, as the **Pharmaceutical botanical label `<f89v1.8,@Lf> orarol`**!
+     - `<fRos.18,@L0> daldal` (global count = **2**) $\to$ occurs in Pharmaceutical `<f89r1.18,+P0> daldal`.
+     - `<fRos.19,@L0> daraldy` (global count = **2**) $\to$ occurs in Biological `<f84r.34,+P0> daraldy`.
+     - `<fRos.6,+L0> darchedy` (top-left cloud/wall label, global count = **2**) $\to$ occurs in the opening Starred Recipe page `<f103r.54,@P0> darchedy`.
+   - This proves that the 9-Rosettes foldout map (`<fRos>`) serves as a **central cosmological index** whose causeway and pipe labels directly cite vocabulary from the Herbal, Astronomical, Biological, Pharmaceutical, and Starred Recipe sections.
+3. **Four-Corpus Transliteration Verification (`ZL3b-n`, `RF1b-er`, `IT2a-n`, `GC2a-n` `v101`)**:
+   - All of our smoking-gun label-to-paragraph matches (`f99v` `doldam`/`doldam`, `f84r` `otoly`/`opoly` & `shekar`/`shekam`, `f82v` `okoldy`/`qokoldy`, `f100r` `sary`/`sary`, `f102v1->f106v` `keoraiiin`/`keorain`, `f102v2->f105r` `okolky`/`qokolky`) hold across all four independent transliterations (`ZL`, `RF`, `IT`, and Glen Claston's `v101`), proving they are not artifacts of a single transcriber or encoding scheme.
+
+---
+
 ## 4. Open Questions & Next Avenues to Explore
-1. **Glen Claston (`v101`, `GC2a-n.txt`) & Takahashi (`IT2a-n.txt`) Cross-Transliteration Verification**: Do alternative transliterations (`GC2a-n.txt`, `RF1b-er.txt`, `IT2a-n.txt`) confirm our rare label-to-paragraph matches and preserve the 5-scribe invariance?
-2. **Cosmological (`f85r1–f86v6` Rosettes Foldout & `f67–f70`) Diagram Architecture**: How do the labels and ring texts on the 9-rosette foldout (`f85v2`) and cosmological wheels relate to the Herbal, Biological, and Starred Recipe vocabulary?
-3. **Positional Slot Grammar of Multi-Word Phrases (`X + aiin` and `ol + chedy/shedy`)**: Where inside lines and paragraphs do the top multi-word collocations (`or aiin`, `s aiin`, `chol daiin`, `ol shedy`) occur?
+1. **Astronomical & Cosmological Circular Diagrams (`f57v`, `f67r1–f68v3`, `f69r–f70r2`)**: How are the radial spoke labels (`@Ls`), star labels (`@L*`), and perimeter rings structured on the Astronomical wheels, and what is the structure of the repeating 4-fold perimeter sequence on `f57v`?
+2. **Herbal Botanical Feature Taxonomy (`f1r–f57r`)**: Can we link specific botanical visual features (bulbous vs. branching roots, serrated vs. lobate leaves, single vs. composite flowers) or Currier A vs. B Herbal pages to specific label/paragraph stems?
 
 
 

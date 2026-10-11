@@ -1,0 +1,965 @@
+{
+  "bigram_separator_and_position": {
+    "s aiin": {
+      "total": 55,
+      "dot_sep": 27,
+      "comma_sep": 28,
+      "line_start": 2,
+      "line_mid": 47,
+      "line_end": 6
+    },
+    "or aiin": {
+      "total": 53,
+      "dot_sep": 28,
+      "comma_sep": 25,
+      "line_start": 5,
+      "line_mid": 46,
+      "line_end": 2
+    },
+    "ar aiin": {
+      "total": 23,
+      "dot_sep": 15,
+      "comma_sep": 8,
+      "line_start": 1,
+      "line_mid": 21,
+      "line_end": 1
+    },
+    "r aiin": {
+      "total": 22,
+      "dot_sep": 12,
+      "comma_sep": 10,
+      "line_start": 0,
+      "line_mid": 21,
+      "line_end": 1
+    },
+    "chol daiin": {
+      "total": 31,
+      "dot_sep": 25,
+      "comma_sep": 6,
+      "line_start": 0,
+      "line_mid": 19,
+      "line_end": 12
+    },
+    "chol chol": {
+      "total": 21,
+      "dot_sep": 21,
+      "comma_sep": 0,
+      "line_start": 2,
+      "line_mid": 19,
+      "line_end": 0
+    },
+    "ol shedy": {
+      "total": 24,
+      "dot_sep": 16,
+      "comma_sep": 8,
+      "line_start": 0,
+      "line_mid": 22,
+      "line_end": 2
+    },
+    "ol chedy": {
+      "total": 22,
+      "dot_sep": 16,
+      "comma_sep": 6,
+      "line_start": 0,
+      "line_mid": 22,
+      "line_end": 0
+    },
+    "shedy qokedy": {
+      "total": 21,
+      "dot_sep": 20,
+      "comma_sep": 1,
+      "line_start": 1,
+      "line_mid": 19,
+      "line_end": 1
+    },
+    "chedy qokeey": {
+      "total": 19,
+      "dot_sep": 19,
+      "comma_sep": 0,
+      "line_start": 0,
+      "line_mid": 19,
+      "line_end": 0
+    },
+    "chedy qokain": {
+      "total": 18,
+      "dot_sep": 18,
+      "comma_sep": 0,
+      "line_start": 0,
+      "line_mid": 18,
+      "line_end": 0
+    },
+    "o l": {
+      "total": 20,
+      "dot_sep": 5,
+      "comma_sep": 15,
+      "line_start": 4,
+      "line_mid": 16,
+      "line_end": 0
+    }
+  },
+  "rosettes_label_count": 539,
+  "rosettes_prose_and_ring_count": 1855,
+  "rare_rosettes_links": [
+    {
+      "canon": "adar",
+      "global_freq": 2,
+      "rosettes_locus": "fRos.2",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "adar",
+      "occurrences_by_section": {
+        "C": [
+          "fRos.2:adar"
+        ],
+        "S": [
+          "f104v.30:adam"
+        ]
+      }
+    },
+    {
+      "canon": "otdar",
+      "global_freq": 2,
+      "rosettes_locus": "fRos.2",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "otdar",
+      "occurrences_by_section": {
+        "C": [
+          "fRos.121:otdar",
+          "fRos.2:otdar"
+        ]
+      }
+    },
+    {
+      "canon": "okalol",
+      "global_freq": 4,
+      "rosettes_locus": "fRos.2",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "okalol",
+      "occurrences_by_section": {
+        "B": [
+          "f80r.31:okalol",
+          "f83v.7:qokalol"
+        ],
+        "C": [
+          "fRos.133:okalol",
+          "fRos.2:okalol"
+        ]
+      }
+    },
+    {
+      "canon": "ochs",
+      "global_freq": 2,
+      "rosettes_locus": "fRos.2",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "ochs",
+      "occurrences_by_section": {
+        "C": [
+          "fRos.2:ochs",
+          "fRos.36:oochs"
+        ]
+      }
+    },
+    {
+      "canon": "darchedy",
+      "global_freq": 2,
+      "rosettes_locus": "fRos.6",
+      "rosettes_type": "+L0",
+      "rosettes_word": "darchedy",
+      "occurrences_by_section": {
+        "C": [
+          "fRos.6:darchedy"
+        ],
+        "S": [
+          "f103r.54:darchedy"
+        ]
+      }
+    },
+    {
+      "canon": "otochedy",
+      "global_freq": 3,
+      "rosettes_locus": "fRos.7",
+      "rosettes_type": "+L0",
+      "rosettes_word": "otochedy",
+      "occurrences_by_section": {
+        "A": [
+          "f68r1.35:otochedy"
+        ],
+        "Z": [
+          "f72r3.14:otochedy"
+        ],
+        "C": [
+          "fRos.7:otochedy"
+        ]
+      }
+    },
+    {
+      "canon": "olal",
+      "global_freq": 8,
+      "rosettes_locus": "fRos.8",
+      "rosettes_type": "+L0",
+      "rosettes_word": "olal",
+      "occurrences_by_section": {
+        "T": [
+          "f76r.25:qolal"
+        ],
+        "B": [
+          "f77r.13:qolal",
+          "f80v.36:olal",
+          "f83v.12:olal"
+        ],
+        "C": [
+          "fRos.8:olal"
+        ],
+        "S": [
+          "f107r.21:olal",
+          "f108r.43:olal",
+          "f113v.22:olal"
+        ]
+      }
+    },
+    {
+      "canon": "orary",
+      "global_freq": 3,
+      "rosettes_locus": "fRos.9",
+      "rosettes_type": "+L0",
+      "rosettes_word": "orary",
+      "occurrences_by_section": {
+        "Z": [
+          "f72r2.19:orary",
+          "f73v.5:orary"
+        ],
+        "C": [
+          "fRos.9:orary"
+        ]
+      }
+    },
+    {
+      "canon": "daldar",
+      "global_freq": 2,
+      "rosettes_locus": "fRos.15",
+      "rosettes_type": "@L0",
+      "rosettes_word": "daldar",
+      "occurrences_by_section": {
+        "H": [
+          "f43v.10:daldar"
+        ],
+        "C": [
+          "fRos.15:daldar"
+        ]
+      }
+    },
+    {
+      "canon": "okardy",
+      "global_freq": 3,
+      "rosettes_locus": "fRos.16",
+      "rosettes_type": "@L0",
+      "rosettes_word": "ofardy",
+      "occurrences_by_section": {
+        "A": [
+          "f68r1.37:okardy"
+        ],
+        "B": [
+          "f75r.8:qokardy"
+        ],
+        "C": [
+          "fRos.16:ofardy"
+        ]
+      }
+    },
+    {
+      "canon": "orarol",
+      "global_freq": 2,
+      "rosettes_locus": "fRos.17",
+      "rosettes_type": "@L0",
+      "rosettes_word": "orarol",
+      "occurrences_by_section": {
+        "C": [
+          "fRos.17:orarol"
+        ],
+        "P": [
+          "f89v1.8:orarol"
+        ]
+      }
+    },
+    {
+      "canon": "daldal",
+      "global_freq": 2,
+      "rosettes_locus": "fRos.18",
+      "rosettes_type": "@L0",
+      "rosettes_word": "daldal",
+      "occurrences_by_section": {
+        "C": [
+          "fRos.18:daldal"
+        ],
+        "P": [
+          "f89r1.18:daldal"
+        ]
+      }
+    },
+    {
+      "canon": "daraldy",
+      "global_freq": 2,
+      "rosettes_locus": "fRos.19",
+      "rosettes_type": "@L0",
+      "rosettes_word": "daraldy",
+      "occurrences_by_section": {
+        "B": [
+          "f84r.34:daraldy"
+        ],
+        "C": [
+          "fRos.19:daraldy"
+        ]
+      }
+    },
+    {
+      "canon": "sais",
+      "global_freq": 2,
+      "rosettes_locus": "fRos.20",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "sais",
+      "occurrences_by_section": {
+        "H": [
+          "f31r.14:saiis"
+        ],
+        "C": [
+          "fRos.20:sais"
+        ]
+      }
+    },
+    {
+      "canon": "alal",
+      "global_freq": 7,
+      "rosettes_locus": "fRos.20",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "alal",
+      "occurrences_by_section": {
+        "S": [
+          "f108v.36:alal",
+          "f111r.25:alal",
+          "f58v.17:alal"
+        ],
+        "C": [
+          "f70r1.13:alal",
+          "f70r2.8:alal",
+          "fRos.20:alal"
+        ],
+        "Z": [
+          "f72v1.1:alal"
+        ]
+      }
+    },
+    {
+      "canon": "okod",
+      "global_freq": 11,
+      "rosettes_locus": "fRos.20",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "okod",
+      "occurrences_by_section": {
+        "H": [
+          "f13v.3:qokod",
+          "f42v.9:qokod",
+          "f53r.6:qokod",
+          "f53r.7:okod",
+          "f90r1.7:qokod"
+        ],
+        "C": [
+          "fRos.20:okod"
+        ],
+        "T": [
+          "f86v6.20:qofod"
+        ],
+        "P": [
+          "f89r1.6:qokod"
+        ],
+        "S": [
+          "f114r.15:okod",
+          "f114v.15:qokod",
+          "f114v.24:qokod"
+        ]
+      }
+    },
+    {
+      "canon": "shekedy",
+      "global_freq": 3,
+      "rosettes_locus": "fRos.20",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "sheekedy",
+      "occurrences_by_section": {
+        "B": [
+          "f78r.12:shekedy",
+          "f84r.45:shekedy"
+        ],
+        "C": [
+          "fRos.20:sheekedy"
+        ]
+      }
+    },
+    {
+      "canon": "oeal",
+      "global_freq": 3,
+      "rosettes_locus": "fRos.20",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "oeal",
+      "occurrences_by_section": {
+        "C": [
+          "fRos.20:oeal"
+        ],
+        "S": [
+          "f104r.14:oeeal",
+          "f112v.43:oeeal"
+        ]
+      }
+    },
+    {
+      "canon": "dainy",
+      "global_freq": 5,
+      "rosettes_locus": "fRos.22",
+      "rosettes_type": "@L0",
+      "rosettes_word": "daiiny",
+      "occurrences_by_section": {
+        "H": [
+          "f2r.7:daiiny",
+          "f47r.11:daiiny",
+          "f55v.6:daiiny"
+        ],
+        "B": [
+          "f75r.53:dainy"
+        ],
+        "C": [
+          "fRos.22:daiiny"
+        ]
+      }
+    },
+    {
+      "canon": "okory",
+      "global_freq": 2,
+      "rosettes_locus": "fRos.30",
+      "rosettes_type": "@L0",
+      "rosettes_word": "okory",
+      "occurrences_by_section": {
+        "C": [
+          "fRos.30:okory"
+        ],
+        "S": [
+          "f105r.35:ofory"
+        ]
+      }
+    },
+    {
+      "canon": "okos",
+      "global_freq": 8,
+      "rosettes_locus": "fRos.35",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "okos",
+      "occurrences_by_section": {
+        "H": [
+          "f13v.4:okos"
+        ],
+        "S": [
+          "f58v.26:okos"
+        ],
+        "A": [
+          "f68r3.13:okos",
+          "f68v2.6:okos"
+        ],
+        "C": [
+          "f68v3.8:okos",
+          "fRos.35:okos"
+        ],
+        "P": [
+          "f89v2.21:qokos",
+          "f99r.33:okos"
+        ]
+      }
+    },
+    {
+      "canon": "otos",
+      "global_freq": 6,
+      "rosettes_locus": "fRos.35",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "otos",
+      "occurrences_by_section": {
+        "H": [
+          "f53r.7:otos"
+        ],
+        "Z": [
+          "f72r1.1:otos",
+          "f72v2.1:otos"
+        ],
+        "C": [
+          "f86v4.1:opos",
+          "fRos.35:otos"
+        ],
+        "S": [
+          "f106v.34:otos"
+        ]
+      }
+    },
+    {
+      "canon": "tchdain",
+      "global_freq": 7,
+      "rosettes_locus": "fRos.35",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "tchdaiin",
+      "occurrences_by_section": {
+        "H": [
+          "f34v.4:tchdaiin",
+          "f34v.6:ypchdaiin",
+          "f39r.6:pchdaiin",
+          "f95v1.12:tchdaiin"
+        ],
+        "T": [
+          "f85r1.23:pchdaiin"
+        ],
+        "C": [
+          "fRos.35:tchdaiin"
+        ],
+        "S": [
+          "f112v.25:pchdaiin"
+        ]
+      }
+    },
+    {
+      "canon": "todar",
+      "global_freq": 5,
+      "rosettes_locus": "fRos.35",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "todar",
+      "occurrences_by_section": {
+        "H": [
+          "f40v.2:todar",
+          "f95v2.1:podar",
+          "f96r.9:todar"
+        ],
+        "C": [
+          "fRos.35:todar"
+        ],
+        "S": [
+          "f103r.13:podar"
+        ]
+      }
+    },
+    {
+      "canon": "odair",
+      "global_freq": 12,
+      "rosettes_locus": "fRos.35",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "odair",
+      "occurrences_by_section": {
+        "H": [
+          "f20r.2:odaiir",
+          "f24v.16:odaiim",
+          "f26r.1:odaiir",
+          "f3r.14:qodair",
+          "f54v.5:qodaim"
+        ],
+        "T": [
+          "f66r.63:odair"
+        ],
+        "A": [
+          "f68r2.25:odair"
+        ],
+        "C": [
+          "f69r.6:odair",
+          "f69v.1:odair",
+          "fRos.35:odair"
+        ],
+        "S": [
+          "f114r.14:qodair",
+          "f115r.26:qodair"
+        ]
+      }
+    },
+    {
+      "canon": "sedy",
+      "global_freq": 2,
+      "rosettes_locus": "fRos.35",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "seedy",
+      "occurrences_by_section": {
+        "C": [
+          "f86v4.2:seeedy",
+          "fRos.35:seedy"
+        ]
+      }
+    },
+    {
+      "canon": "lodain",
+      "global_freq": 4,
+      "rosettes_locus": "fRos.35",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "lodaiin",
+      "occurrences_by_section": {
+        "H": [
+          "f33v.10:lodaiin",
+          "f46v.5:lodaiin"
+        ],
+        "T": [
+          "f66r.78:lodaiin"
+        ],
+        "C": [
+          "fRos.35:lodaiin"
+        ]
+      }
+    },
+    {
+      "canon": "octhey",
+      "global_freq": 12,
+      "rosettes_locus": "fRos.36",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "octhey",
+      "occurrences_by_section": {
+        "H": [
+          "f21r.4:qocthey",
+          "f48r.5:octhey"
+        ],
+        "A": [
+          "f67r1.5:octheey",
+          "f68r1.13:octhey"
+        ],
+        "B": [
+          "f81v.20:qocthey"
+        ],
+        "C": [
+          "f85r2.8:qocthey",
+          "fRos.36:octhey"
+        ],
+        "T": [
+          "f86v5.11:octhey",
+          "f86v6.20:ocphey"
+        ],
+        "P": [
+          "f89r1.15:qocphey",
+          "f99r.51:octhey"
+        ],
+        "S": [
+          "f104r.20:qocthey"
+        ]
+      }
+    },
+    {
+      "canon": "osar",
+      "global_freq": 3,
+      "rosettes_locus": "fRos.36",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "osar",
+      "occurrences_by_section": {
+        "A": [
+          "f67r2.70:osar"
+        ],
+        "C": [
+          "fRos.36:osar",
+          "fRos.47:osar"
+        ]
+      }
+    },
+    {
+      "canon": "otalshy",
+      "global_freq": 3,
+      "rosettes_locus": "fRos.36",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "opalshy",
+      "occurrences_by_section": {
+        "Z": [
+          "f72r2.26:otalshy"
+        ],
+        "C": [
+          "fRos.36:opalshy"
+        ],
+        "S": [
+          "f116r.28:qotalshy"
+        ]
+      }
+    },
+    {
+      "canon": "arodar",
+      "global_freq": 2,
+      "rosettes_locus": "fRos.36",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "arodar",
+      "occurrences_by_section": {
+        "C": [
+          "fRos.36:arodar"
+        ],
+        "S": [
+          "f104v.37:arodam"
+        ]
+      }
+    },
+    {
+      "canon": "kodar",
+      "global_freq": 5,
+      "rosettes_locus": "fRos.36",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "ykodar",
+      "occurrences_by_section": {
+        "H": [
+          "f53r.1:kodam",
+          "f90r1.9:ykodar"
+        ],
+        "C": [
+          "f68v3.5:kodar",
+          "fRos.36:ykodar"
+        ]
+      }
+    },
+    {
+      "canon": "kary",
+      "global_freq": 9,
+      "rosettes_locus": "fRos.36",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "ykary",
+      "occurrences_by_section": {
+        "H": [
+          "f42r.5:kary",
+          "f95r2.5:kary"
+        ],
+        "T": [
+          "f66r.8:fary"
+        ],
+        "Z": [
+          "f70v2.3:ykary",
+          "f72r3.28:yfary"
+        ],
+        "B": [
+          "f78r.26:kary"
+        ],
+        "C": [
+          "fRos.36:ykary",
+          "fRos.90:kary"
+        ],
+        "S": [
+          "f104r.19:kary"
+        ]
+      }
+    },
+    {
+      "canon": "okas",
+      "global_freq": 8,
+      "rosettes_locus": "fRos.38",
+      "rosettes_type": "@L0",
+      "rosettes_word": "okas",
+      "occurrences_by_section": {
+        "H": [
+          "f40r.2:okas",
+          "f46v.1:okas",
+          "f50r.4:qokas"
+        ],
+        "S": [
+          "f115v.40:okas",
+          "f58v.5:ofas"
+        ],
+        "T": [
+          "f76r.39:qokas"
+        ],
+        "B": [
+          "f80v.14:qokas"
+        ],
+        "C": [
+          "fRos.38:okas"
+        ]
+      }
+    },
+    {
+      "canon": "olchedar",
+      "global_freq": 2,
+      "rosettes_locus": "fRos.39",
+      "rosettes_type": "@Pb",
+      "rosettes_word": "qolchedar",
+      "occurrences_by_section": {
+        "C": [
+          "fRos.39:qolchedar"
+        ],
+        "S": [
+          "f103r.26:olcheedar"
+        ]
+      }
+    },
+    {
+      "canon": "osal",
+      "global_freq": 4,
+      "rosettes_locus": "fRos.41",
+      "rosettes_type": "@L0",
+      "rosettes_word": "osal",
+      "occurrences_by_section": {
+        "S": [
+          "f58r.22:osal"
+        ],
+        "B": [
+          "f78r.37:osal"
+        ],
+        "C": [
+          "fRos.41:osal"
+        ],
+        "P": [
+          "f88r.2:osal"
+        ]
+      }
+    },
+    {
+      "canon": "ctey",
+      "global_freq": 2,
+      "rosettes_locus": "fRos.42",
+      "rosettes_type": "@L0",
+      "rosettes_word": "cpeey",
+      "occurrences_by_section": {
+        "H": [
+          "f27r.11:ctey"
+        ],
+        "C": [
+          "fRos.42:cpeey"
+        ]
+      }
+    },
+    {
+      "canon": "otoldy",
+      "global_freq": 11,
+      "rosettes_locus": "fRos.45",
+      "rosettes_type": "@L0",
+      "rosettes_word": "otoldy",
+      "occurrences_by_section": {
+        "H": [
+          "f22r.11:otoldy",
+          "f28r.7:otoldy",
+          "f37v.1:qotoldy",
+          "f44v.1:otoldy",
+          "f48v.9:otoldy",
+          "f53v.13:otoldy"
+        ],
+        "B": [
+          "f79r.28:otoldy"
+        ],
+        "C": [
+          "fRos.45:otoldy"
+        ],
+        "P": [
+          "f89r1.4:otoldy",
+          "f99r.14:otoldy",
+          "f99v.2:otoldy"
+        ]
+      }
+    },
+    {
+      "canon": "okchedain",
+      "global_freq": 3,
+      "rosettes_locus": "fRos.46",
+      "rosettes_type": "@L0",
+      "rosettes_word": "ofchedaiin",
+      "occurrences_by_section": {
+        "C": [
+          "fRos.46:ofchedaiin"
+        ],
+        "S": [
+          "f114r.19:ofchedaiin",
+          "f114r.7:okchedaiin"
+        ]
+      }
+    },
+    {
+      "canon": "otodedy",
+      "global_freq": 2,
+      "rosettes_locus": "fRos.47",
+      "rosettes_type": "@Cc",
+      "rosettes_word": "otodeedy",
+      "occurrences_by_section": {
+        "C": [
+          "fRos.119:otodedy",
+          "fRos.47:otodeedy"
+        ]
+      }
+    }
+  ],
+  "cross_corpus_verification": {
+    "ZL3b": {
+      "f75v.13": "ocheain.cheedy.qokal.dain.sheeky.qoky<->sshedy.tedy.otedy.tedy.taral",
+      "f75v.16": "odchedy.qolshdy.shokshdy.qokain.?<->or.shedy.qolol,keedy.qokalom",
+      "f75v.40": "dlshedy.qokain.dal.qol.qol.ol.sheedy.cheey.dol.ol,sheey.qokain.olol",
+      "f82v.13": "tchedy.qocthes.qokar.chckhy.qokain.cholkaiin.chckhdy.qokoldy",
+      "f82v.37": "sol.chey.r.alchey.chol.olkol.chckhy.dalchckhy.olkain.olkeeyr",
+      "f82v.45": "okoldy",
+      "f82v.46": "olkol",
+      "f84r.2": "or.shekar",
+      "f84r.11": "otoly",
+      "f84r.13": "<%>kol.chedy.qokeey.otedy.dytedy.okeedy.olshed.opshed.ykshedy.qotedy.opoly",
+      "f84r.30": "dchdy.qokedy.ol,chckhy.olchdy.sar,or.ykeedy.chetey.rain.shedy.shekam",
+      "f89r2.5": "opcheor",
+      "f89r2.22": "<%>kolches.sheol.qokeoefy.sheey.opcheor.opcheol.shody.sholdy.qokal.chey.oldy.sheodal.ytoldy",
+      "f99v.31": "doldam",
+      "f99v.34": "yoiin,ol.ol.olaiin.qockhey.qokol.olshy.qokeeor.or.aiin.doldam",
+      "f100r.6": "o[r:s]aro",
+      "f102v2.24": "okolky",
+      "f102v1.1": "keoraiiin",
+      "f105r.30": "oleedar.aiildy.dar.oiin.y,teey.tair.cheody.qokolky.cheolkary<$>",
+      "f106v.2": "daiin.al.sheeodar.y,chtain.char,otar.qokar.o[t:k]ar.shed.sheo,keorain,amchy",
+      "f115r.1": "<%><@H=2>f{c'hh}dar.qopchol.qochedain.otedy.cheop,ol.teeedy.oroiir.oechedy.oteedy.qotchedy"
+    },
+    "RF1b": {
+      "f75v.13": "ocheain.cheedy.qokal.dain.sheety.qoky<->s,shedy.tedy.otedy.tedy.taral",
+      "f75v.16": "odchedy.qolshdy.shokshdy.qokain.?<->or.shedy.qololkeedy.qokalom",
+      "f75v.40": "dlshedy.qokain.dal.qol.qol.ol.sheedy.cheey.dal.ol.sheey.qokain.olol",
+      "f82v.13": "tchedy.qocthes.qokar.chckhy.qokain.cholkaiin.chckhdy.qokoldy",
+      "f82v.37": "sol.chey.r.alchey.chol.olkol.chckhy.dalchckhy.olkain.olkeeyr",
+      "f82v.45": "otoldy",
+      "f82v.46": "olkol",
+      "f84r.2": "or.shekar",
+      "f84r.11": "otoly",
+      "f84r.13": "kol.chedy.qokeey.otedy.dytedy.okeedy.olshed.opshed.ykshedy.qotedy.op,oly",
+      "f84r.30": "dchdy.qokedy.ol.chckhy.olchdy.sar.or.ykeedy.chetey.s,ain.shedy.shekam",
+      "f89r2.5": "opcheos",
+      "f89r2.22": "kolches.sheol.qokeoefy.sheey.opcheor.opcheol.shody.sholdy.qokol.chey.oldy.sheodal.ytoldy",
+      "f99v.31": "doldam",
+      "f99v.34": "yaiin.ol.ol.olaiin.qockhey.qokol.olshy.qokeeor.or.aiin.doldam",
+      "f100r.6": "oraro",
+      "f102v2.24": "okolky",
+      "f102v1.1": "keoraiiin",
+      "f105r.30": "ol,eed,ar.aiildy.dar.oiin.y.teey.tair.cheody.qokolky.cheolkary",
+      "f106v.2": "daiin.al.sheeodar.y.chtain.char.otar.qokar.okar.shed.sheo.keorain.amchy",
+      "f115r.1": "<@H=2>fshhdar.qopchol.qochedain.otedy.cheopol.teeedy.oroiir.oechedy.oteedy.qotchedy"
+    },
+    "IT2a": {
+      "f75v.13": "ocheain.cheedy.qokal.dain.sheeky.qoky<->sshedy.tedy.otedy.tedy.taral",
+      "f75v.16": "odchedy.qolshdy.shokshdy.qokain<->or.shedy.qolol.keedy.qokalom",
+      "f75v.40": "dlshedy.qokain.dal.qol.qol.ol.sheedy.cheey.dal.ol.sheey.qokain.olol",
+      "f82v.13": "tchedy.qocthes.qokar.chckhy.qokain.cholkaiin.chckhdy.qokoldy",
+      "f82v.37": "sol.chey.r.alchey.chol.olkol.chckhy.dalchckhy.olkain.olkeeyr",
+      "f82v.45": "otoldy",
+      "f82v.46": "olkol",
+      "f84r.2": "or.shekar",
+      "f84r.11": "otoly",
+      "f84r.13": "<%>kal.chedy.qokeey.otedy.dytedy.okeedy.olshed.opshed.ykcsedy.qotedy.opoly",
+      "f84r.30": "dchdy.qokedy.ol.chckhy.olchdy.sar.or.ykeedy.chetey.sain.shedy.shekam",
+      "f89r2.5": "opcheor",
+      "f89r2.22": "<%>kolches.sheol.qokeoefy.sheey.opcheor.opcheol.shody.sholdy<->qokol.chey.oldy.sheodal.ytoldy",
+      "f99v.31": "doldam",
+      "f99v.34": "yoiin.ol.ol.olaiin.qockhey.qokol.olshy.qokeeor.or.aiin.dol.dam",
+      "f100r.6": "osaro",
+      "f102v2.24": "otolky",
+      "f102v1.1": "ker.ron??",
+      "f105r.30": "oleedar.aiildy.dar.oiin.yteey.tair.cheody.qokolky.cheolkary<$>",
+      "f106v.2": "daiin.al.sheeodar.ychtain.chor.otar.qokar.okar.shed.sheo.keor.ain.amchy",
+      "f115r.1": "<%><@H=2>fshdar.qopchol.qochedain.otedy.cheopolteeedy.oroiir.oechedy.oteedy.qotchedy"
+    },
+    "GC2a_v101": {
+      "f75v.13": "o1can.1C8(.4ohae.8an.3cck9.4oh9.s.3c89.kc79.okc79.kc79.kayae",
+      "f75v.16": "o81c89.4oe389.3oh589.4ohan.oy.3c89.4oeoe,hC89.4ohaeop",
+      "f75v.40": "8e2c79.4ohan.8ae.4oe.4oe.oe.2C79.1cc9.7Ae.oe.2C9.4ohan.oeoe",
+      "f82v.13": "@242;1c79.4oKcs.4ohay.1H9.4ohan.1oe,ham.1H89.4ohoe89",
+      "f82v.37": "soe.1c9.y.ae1c9.1oe.oehoe.1H9.8ae1H9.oehan.oehC9b",
+      "f82v.45": "okoe89",
+      "f82v.46": "oehoe",
+      "f84r.2": "oy.+chay",
+      "f84r.11": "okoe9",
+      "f84r.13": "<%>hoe.1c89.4ohC9.okc89.89kc89.ohC89.oe2c8.oj2c8.9h5c89.4okc79.oj.oe9",
+      "f84r.30": "8189.4ohc89.oe.1H9.oe179.say.oy.9hC79.1ckc9.s.an.3c79.2chap",
+      "f89r2.5": "oj1cos",
+      "f89r2.22": "<%>hoe1cs.2coe.4ohcocu9.2C9.oj1coy.oj1coe.2o89.2oe89.4ohoe.1c9.oe,79.%co8ae.9koe89",
+      "f99v.31": "8oe7ap",
+      "f99v.34": "9am.oe.oe.oe,am.4oHc9.4ohoe.oe29.4ohCoy.oy.am.8oe7ap",
+      "f100r.6": "oy,ayo",
+      "f102v2.24": "ohoeh9",
+      "f102v1.1": "hoo,yaM",
+      "f105r.30": "oe.cc8.ay.aIe,89.8,ay.om.9.kC9.kaz.1co89.4o,hoe,h9.1coe,hay9<$>",
+      "f106v.2": "8am.ae.2Co,7ay.9.1kan.1ay.okay.4ohay.ohay.3c8.2co.hco,y,an.ap19",
+      "f115r.1": "<%><@H=2>f@222;7ay.4og1oe.4o1c8an.okc79.1cog,oe,kd79.oyoZ.o,c1c79.okC79.4ok1c89"
+    }
+  }
+}
