@@ -1,0 +1,5814 @@
+{
+  "summary": {
+    "total_label_tokens": 943,
+    "unique_label_canons": 711,
+    "rare_canons_25": 248,
+    "rare_canons_10": 204,
+    "cross_folio_rare_25_prose_instances": 1465
+  },
+  "baseline_prose_geometry": {
+    "total_prose_tokens": 32365,
+    "line_pos_pct": {
+      "line_medial": 73.91,
+      "line_initial": 13.36,
+      "line_final": 12.73
+    },
+    "para_pos_pct": {
+      "para_medial": 67.01,
+      "para_line1": 20.0,
+      "para_last_line": 12.99
+    }
+  },
+  "diagram_vs_prose_inflection": {
+    "ALL_RARE_25": {
+      "diagram_count": 344,
+      "prose_count": 1465,
+      "diagram_prefix_pct": {
+        "o-": 55.52,
+        "bare": 35.47,
+        "y-": 8.72,
+        "q-": 0.29
+      },
+      "prose_prefix_pct": {
+        "bare": 39.52,
+        "o-": 30.65,
+        "q-": 20.41,
+        "y-": 9.42
+      },
+      "diagram_suffix_pct": {
+        "-ar": 18.02,
+        "-dy": 9.3,
+        "-al": 8.72,
+        "-y": 8.72,
+        "-s": 6.98,
+        "-ain": 6.69
+      },
+      "prose_suffix_pct": {
+        "-ar": 16.66,
+        "-y": 12.35,
+        "-al": 10.78,
+        "-dy": 8.87,
+        "-s": 8.46,
+        "-ody": 7.51
+      },
+      "prose_line_pos_pct": {
+        "line_medial": 68.05,
+        "line_final": 21.16,
+        "line_initial": 10.78
+      },
+      "prose_para_pos_pct": {
+        "para_medial": 65.19,
+        "para_line1": 21.98,
+        "para_last_line": 12.83
+      }
+    },
+    "ALL_RARE_10": {
+      "diagram_count": 258,
+      "prose_count": 727,
+      "diagram_prefix_pct": {
+        "o-": 56.59,
+        "bare": 35.66,
+        "y-": 7.36,
+        "q-": 0.39
+      },
+      "prose_prefix_pct": {
+        "bare": 43.6,
+        "o-": 32.19,
+        "q-": 16.23,
+        "y-": 7.98
+      },
+      "diagram_suffix_pct": {
+        "-ar": 19.38,
+        "-dy": 10.08,
+        "-ain": 7.75,
+        "-y": 7.75,
+        "-al": 7.36,
+        "-or": 5.43
+      },
+      "prose_suffix_pct": {
+        "-ar": 17.74,
+        "-dy": 9.49,
+        "-or": 8.25,
+        "-al": 7.7,
+        "-y": 6.74,
+        "0": 6.33
+      },
+      "prose_line_pos_pct": {
+        "line_medial": 66.57,
+        "line_final": 22.15,
+        "line_initial": 11.28
+      },
+      "prose_para_pos_pct": {
+        "para_medial": 61.35,
+        "para_line1": 25.31,
+        "para_last_line": 13.34
+      }
+    },
+    "Pharma_All": {
+      "diagram_count": 127,
+      "prose_count": 439,
+      "diagram_prefix_pct": {
+        "o-": 59.84,
+        "bare": 33.07,
+        "y-": 6.3,
+        "q-": 0.79
+      },
+      "prose_prefix_pct": {
+        "bare": 48.75,
+        "o-": 26.88,
+        "q-": 18.22,
+        "y-": 6.15
+      },
+      "diagram_suffix_pct": {
+        "-ar": 17.32,
+        "-dy": 9.45,
+        "-or": 8.66,
+        "-y": 7.87,
+        "-s": 7.09,
+        "-oly": 7.09
+      },
+      "prose_suffix_pct": {
+        "-ar": 22.32,
+        "-y": 14.58,
+        "-dy": 11.62,
+        "-or": 9.57,
+        "-ary": 6.61,
+        "-ol": 5.47
+      },
+      "prose_line_pos_pct": {
+        "line_medial": 60.14,
+        "line_final": 29.38,
+        "line_initial": 10.48
+      },
+      "prose_para_pos_pct": {
+        "para_medial": 64.46,
+        "para_line1": 21.87,
+        "para_last_line": 13.67
+      }
+    },
+    "Pharma_Jar": {
+      "diagram_count": 11,
+      "prose_count": 14,
+      "diagram_prefix_pct": {
+        "o-": 81.82,
+        "y-": 9.09,
+        "bare": 9.09
+      },
+      "prose_prefix_pct": {
+        "o-": 64.29,
+        "q-": 21.43,
+        "bare": 7.14,
+        "y-": 7.14
+      },
+      "diagram_suffix_pct": {
+        "-dy": 36.36,
+        "-ory": 27.27,
+        "-al": 18.18,
+        "-d": 9.09,
+        "-y": 9.09
+      },
+      "prose_suffix_pct": {
+        "-dy": 50.0,
+        "-ory": 21.43,
+        "-al": 14.29,
+        "-d": 7.14,
+        "-y": 7.14
+      },
+      "prose_line_pos_pct": {
+        "line_medial": 57.14,
+        "line_final": 42.86
+      },
+      "prose_para_pos_pct": {
+        "para_medial": 50.0,
+        "para_line1": 42.86,
+        "para_last_line": 7.14
+      }
+    },
+    "Pharma_Botanical": {
+      "diagram_count": 116,
+      "prose_count": 425,
+      "diagram_prefix_pct": {
+        "o-": 57.76,
+        "bare": 35.34,
+        "y-": 6.03,
+        "q-": 0.86
+      },
+      "prose_prefix_pct": {
+        "bare": 50.12,
+        "o-": 25.65,
+        "q-": 18.12,
+        "y-": 6.12
+      },
+      "diagram_suffix_pct": {
+        "-ar": 18.97,
+        "-or": 9.48,
+        "-s": 7.76,
+        "-oly": 7.76,
+        "-ary": 7.76,
+        "-y": 7.76
+      },
+      "prose_suffix_pct": {
+        "-ar": 23.06,
+        "-y": 14.82,
+        "-dy": 10.35,
+        "-or": 9.88,
+        "-ary": 6.82,
+        "-ol": 5.65
+      },
+      "prose_line_pos_pct": {
+        "line_medial": 60.24,
+        "line_final": 28.94,
+        "line_initial": 10.82
+      },
+      "prose_para_pos_pct": {
+        "para_medial": 64.94,
+        "para_line1": 21.18,
+        "para_last_line": 13.88
+      }
+    },
+    "Zodiac": {
+      "diagram_count": 112,
+      "prose_count": 496,
+      "diagram_prefix_pct": {
+        "o-": 61.61,
+        "bare": 26.79,
+        "y-": 11.61
+      },
+      "prose_prefix_pct": {
+        "o-": 35.48,
+        "bare": 26.21,
+        "q-": 25.0,
+        "y-": 13.31
+      },
+      "diagram_suffix_pct": {
+        "-ar": 16.07,
+        "-ody": 11.61,
+        "-al": 9.82,
+        "-ain": 8.93,
+        "-y": 8.04,
+        "-s": 8.04
+      },
+      "prose_suffix_pct": {
+        "-al": 17.34,
+        "-ody": 15.73,
+        "-s": 14.11,
+        "0": 12.1,
+        "-y": 8.47,
+        "-ar": 7.46
+      },
+      "prose_line_pos_pct": {
+        "line_medial": 71.17,
+        "line_final": 19.56,
+        "line_initial": 9.27
+      },
+      "prose_para_pos_pct": {
+        "para_medial": 66.13,
+        "para_line1": 20.16,
+        "para_last_line": 13.71
+      }
+    },
+    "Astro": {
+      "diagram_count": 51,
+      "prose_count": 286,
+      "diagram_prefix_pct": {
+        "bare": 45.1,
+        "o-": 41.18,
+        "y-": 13.73
+      },
+      "prose_prefix_pct": {
+        "bare": 39.51,
+        "o-": 27.62,
+        "q-": 17.83,
+        "y-": 15.03
+      },
+      "diagram_suffix_pct": {
+        "-ar": 19.61,
+        "-al": 11.76,
+        "-y": 9.8,
+        "-dy": 9.8,
+        "-ol": 9.8,
+        "-s": 7.84
+      },
+      "prose_suffix_pct": {
+        "-ar": 20.98,
+        "-al": 13.64,
+        "-y": 13.29,
+        "-or": 8.74,
+        "-ey": 8.39,
+        "-ol": 8.04
+      },
+      "prose_line_pos_pct": {
+        "line_medial": 68.18,
+        "line_final": 16.43,
+        "line_initial": 15.38
+      },
+      "prose_para_pos_pct": {
+        "para_medial": 67.48,
+        "para_line1": 18.18,
+        "para_last_line": 14.34
+      }
+    },
+    "Rosettes_Cosmo": {
+      "diagram_count": 41,
+      "prose_count": 174,
+      "diagram_prefix_pct": {
+        "o-": 51.22,
+        "bare": 43.9,
+        "y-": 4.88
+      },
+      "prose_prefix_pct": {
+        "bare": 44.25,
+        "o-": 35.06,
+        "q-": 19.54,
+        "y-": 1.15
+      },
+      "diagram_suffix_pct": {
+        "-ar": 24.39,
+        "-ain": 14.63,
+        "-al": 9.76,
+        "0": 9.76,
+        "-dy": 9.76,
+        "-y": 4.88
+      },
+      "prose_suffix_pct": {
+        "-ar": 24.71,
+        "-ain": 16.09,
+        "-d": 14.37,
+        "0": 10.92,
+        "-al": 7.47,
+        "-s": 5.75
+      },
+      "prose_line_pos_pct": {
+        "line_medial": 77.59,
+        "line_final": 13.22,
+        "line_initial": 9.2
+      },
+      "prose_para_pos_pct": {
+        "para_medial": 59.2,
+        "para_line1": 31.61,
+        "para_last_line": 9.2
+      }
+    },
+    "Bio_Nymph": {
+      "diagram_count": 11,
+      "prose_count": 60,
+      "diagram_prefix_pct": {
+        "bare": 72.73,
+        "o-": 27.27
+      },
+      "prose_prefix_pct": {
+        "bare": 60.0,
+        "o-": 23.33,
+        "q-": 16.67
+      },
+      "diagram_suffix_pct": {
+        "-y": 27.27,
+        "-dy": 27.27,
+        "-ar": 18.18,
+        "-al": 9.09,
+        "-ly": 9.09,
+        "-r": 9.09
+      },
+      "prose_suffix_pct": {
+        "-y": 38.33,
+        "-dy": 38.33,
+        "-r": 10.0,
+        "-ar": 10.0,
+        "-ly": 1.67,
+        "-al": 1.67
+      },
+      "prose_line_pos_pct": {
+        "line_medial": 70.0,
+        "line_final": 20.0,
+        "line_initial": 10.0
+      },
+      "prose_para_pos_pct": {
+        "para_medial": 68.33,
+        "para_line1": 26.67,
+        "para_last_line": 5.0
+      }
+    }
+  },
+  "flanking_frames_by_domain": {
+    "ALL_RARE_25": {
+      "instance_count": 1465,
+      "w_minus_1_total": 1457,
+      "w_plus_1_total": 1414,
+      "w_minus_1_top_roots": [
+        {
+          "feature": "kai",
+          "observed": 10,
+          "expected": 3.66,
+          "pct": 0.69,
+          "enrichment_ratio": 2.732,
+          "z_score": 3.31
+        },
+        {
+          "feature": "te",
+          "observed": 21,
+          "expected": 10.9,
+          "pct": 1.44,
+          "enrichment_ratio": 1.927,
+          "z_score": 3.06
+        },
+        {
+          "feature": "tsh",
+          "observed": 11,
+          "expected": 4.83,
+          "pct": 0.75,
+          "enrichment_ratio": 2.275,
+          "z_score": 2.8
+        },
+        {
+          "feature": "ain",
+          "observed": 33,
+          "expected": 22.79,
+          "pct": 2.26,
+          "enrichment_ratio": 1.448,
+          "z_score": 2.14
+        },
+        {
+          "feature": "chek",
+          "observed": 12,
+          "expected": 7.37,
+          "pct": 0.82,
+          "enrichment_ratio": 1.629,
+          "z_score": 1.71
+        },
+        {
+          "feature": "t",
+          "observed": 118,
+          "expected": 103.12,
+          "pct": 8.1,
+          "enrichment_ratio": 1.144,
+          "z_score": 1.47
+        },
+        {
+          "feature": "ckh",
+          "observed": 15,
+          "expected": 10.92,
+          "pct": 1.03,
+          "enrichment_ratio": 1.373,
+          "z_score": 1.23
+        },
+        {
+          "feature": "kch",
+          "observed": 34,
+          "expected": 27.87,
+          "pct": 2.33,
+          "enrichment_ratio": 1.22,
+          "z_score": 1.16
+        },
+        {
+          "feature": "cth",
+          "observed": 24,
+          "expected": 20.08,
+          "pct": 1.65,
+          "enrichment_ratio": 1.195,
+          "z_score": 0.88
+        },
+        {
+          "feature": "al",
+          "observed": 12,
+          "expected": 9.79,
+          "pct": 0.82,
+          "enrichment_ratio": 1.226,
+          "z_score": 0.71
+        },
+        {
+          "feature": "tch",
+          "observed": 44,
+          "expected": 40.07,
+          "pct": 3.02,
+          "enrichment_ratio": 1.098,
+          "z_score": 0.62
+        },
+        {
+          "feature": "ar",
+          "observed": 18,
+          "expected": 16.25,
+          "pct": 1.24,
+          "enrichment_ratio": 1.108,
+          "z_score": 0.43
+        },
+        {
+          "feature": "or",
+          "observed": 20,
+          "expected": 19.22,
+          "pct": 1.37,
+          "enrichment_ratio": 1.041,
+          "z_score": 0.18
+        },
+        {
+          "feature": "k",
+          "observed": 171,
+          "expected": 170.75,
+          "pct": 11.74,
+          "enrichment_ratio": 1.001,
+          "z_score": 0.02
+        },
+        {
+          "feature": "d",
+          "observed": 82,
+          "expected": 83.82,
+          "pct": 5.63,
+          "enrichment_ratio": 0.978,
+          "z_score": -0.2
+        }
+      ],
+      "w_minus_1_suffixes": [
+        {
+          "feature": "-dy",
+          "observed": 73,
+          "expected": 45.7,
+          "pct": 5.01,
+          "enrichment_ratio": 1.597,
+          "z_score": 4.04
+        },
+        {
+          "feature": "-ody",
+          "observed": 59,
+          "expected": 44.63,
+          "pct": 4.05,
+          "enrichment_ratio": 1.322,
+          "z_score": 2.15
+        },
+        {
+          "feature": "-s",
+          "observed": 50,
+          "expected": 37.15,
+          "pct": 3.43,
+          "enrichment_ratio": 1.346,
+          "z_score": 2.11
+        },
+        {
+          "feature": "-ain",
+          "observed": 236,
+          "expected": 215.53,
+          "pct": 16.2,
+          "enrichment_ratio": 1.095,
+          "z_score": 1.39
+        },
+        {
+          "feature": "-edy",
+          "observed": 174,
+          "expected": 157.87,
+          "pct": 11.94,
+          "enrichment_ratio": 1.102,
+          "z_score": 1.28
+        },
+        {
+          "feature": "-d",
+          "observed": 27,
+          "expected": 21.51,
+          "pct": 1.85,
+          "enrichment_ratio": 1.255,
+          "z_score": 1.18
+        },
+        {
+          "feature": "-ar",
+          "observed": 130,
+          "expected": 119.06,
+          "pct": 8.92,
+          "enrichment_ratio": 1.092,
+          "z_score": 1.0
+        },
+        {
+          "feature": "-r",
+          "observed": 34,
+          "expected": 29.5,
+          "pct": 2.33,
+          "enrichment_ratio": 1.152,
+          "z_score": 0.83
+        },
+        {
+          "feature": "-in",
+          "observed": 10,
+          "expected": 8.72,
+          "pct": 0.69,
+          "enrichment_ratio": 1.147,
+          "z_score": 0.43
+        },
+        {
+          "feature": "-al",
+          "observed": 65,
+          "expected": 66.59,
+          "pct": 4.46,
+          "enrichment_ratio": 0.976,
+          "z_score": -0.19
+        },
+        {
+          "feature": "-or",
+          "observed": 78,
+          "expected": 80.07,
+          "pct": 5.35,
+          "enrichment_ratio": 0.974,
+          "z_score": -0.23
+        },
+        {
+          "feature": "-y",
+          "observed": 133,
+          "expected": 143.96,
+          "pct": 9.13,
+          "enrichment_ratio": 0.924,
+          "z_score": -0.91
+        },
+        {
+          "feature": "0",
+          "observed": 161,
+          "expected": 188.38,
+          "pct": 11.05,
+          "enrichment_ratio": 0.855,
+          "z_score": -1.99
+        },
+        {
+          "feature": "-ol",
+          "observed": 81,
+          "expected": 110.84,
+          "pct": 5.56,
+          "enrichment_ratio": 0.731,
+          "z_score": -2.83
+        },
+        {
+          "feature": "-ey",
+          "observed": 117,
+          "expected": 160.24,
+          "pct": 8.03,
+          "enrichment_ratio": 0.73,
+          "z_score": -3.42
+        }
+      ],
+      "w_minus_1_prefixes": [
+        {
+          "feature": "y-",
+          "observed": 79,
+          "expected": 66.27,
+          "pct": 5.42,
+          "enrichment_ratio": 1.192,
+          "z_score": 1.56
+        },
+        {
+          "feature": "o-",
+          "observed": 239,
+          "expected": 223.54,
+          "pct": 16.4,
+          "enrichment_ratio": 1.069,
+          "z_score": 1.03
+        },
+        {
+          "feature": "q-",
+          "observed": 229,
+          "expected": 223.94,
+          "pct": 15.72,
+          "enrichment_ratio": 1.023,
+          "z_score": 0.34
+        },
+        {
+          "feature": "bare",
+          "observed": 910,
+          "expected": 943.25,
+          "pct": 62.46,
+          "enrichment_ratio": 0.965,
+          "z_score": -1.08
+        }
+      ],
+      "w_plus_1_top_roots": [
+        {
+          "feature": "s",
+          "observed": 46,
+          "expected": 26.6,
+          "pct": 3.25,
+          "enrichment_ratio": 1.729,
+          "z_score": 3.76
+        },
+        {
+          "feature": "ain",
+          "observed": 36,
+          "expected": 22.29,
+          "pct": 2.55,
+          "enrichment_ratio": 1.615,
+          "z_score": 2.9
+        },
+        {
+          "feature": "dch",
+          "observed": 12,
+          "expected": 6.34,
+          "pct": 0.85,
+          "enrichment_ratio": 1.891,
+          "z_score": 2.25
+        },
+        {
+          "feature": "cheo",
+          "observed": 11,
+          "expected": 6.4,
+          "pct": 0.78,
+          "enrichment_ratio": 1.719,
+          "z_score": 1.82
+        },
+        {
+          "feature": "olk",
+          "observed": 18,
+          "expected": 11.92,
+          "pct": 1.27,
+          "enrichment_ratio": 1.51,
+          "z_score": 1.76
+        },
+        {
+          "feature": "dy",
+          "observed": 12,
+          "expected": 8.34,
+          "pct": 0.85,
+          "enrichment_ratio": 1.439,
+          "z_score": 1.27
+        },
+        {
+          "feature": "ke",
+          "observed": 30,
+          "expected": 24.08,
+          "pct": 2.12,
+          "enrichment_ratio": 1.246,
+          "z_score": 1.21
+        },
+        {
+          "feature": "ar",
+          "observed": 21,
+          "expected": 16.19,
+          "pct": 1.49,
+          "enrichment_ratio": 1.297,
+          "z_score": 1.2
+        },
+        {
+          "feature": "kch",
+          "observed": 33,
+          "expected": 27.31,
+          "pct": 2.33,
+          "enrichment_ratio": 1.209,
+          "z_score": 1.09
+        },
+        {
+          "feature": "she",
+          "observed": 19,
+          "expected": 15.38,
+          "pct": 1.34,
+          "enrichment_ratio": 1.235,
+          "z_score": 0.92
+        },
+        {
+          "feature": "d",
+          "observed": 89,
+          "expected": 83.51,
+          "pct": 6.29,
+          "enrichment_ratio": 1.066,
+          "z_score": 0.6
+        },
+        {
+          "feature": "tch",
+          "observed": 40,
+          "expected": 37.13,
+          "pct": 2.83,
+          "enrichment_ratio": 1.077,
+          "z_score": 0.47
+        },
+        {
+          "feature": "ol",
+          "observed": 29,
+          "expected": 26.78,
+          "pct": 2.05,
+          "enrichment_ratio": 1.083,
+          "z_score": 0.43
+        },
+        {
+          "feature": "t",
+          "observed": 103,
+          "expected": 99.93,
+          "pct": 7.28,
+          "enrichment_ratio": 1.031,
+          "z_score": 0.31
+        },
+        {
+          "feature": "te",
+          "observed": 11,
+          "expected": 10.65,
+          "pct": 0.78,
+          "enrichment_ratio": 1.033,
+          "z_score": 0.11
+        }
+      ],
+      "w_plus_1_suffixes": [
+        {
+          "feature": "-al",
+          "observed": 80,
+          "expected": 64.13,
+          "pct": 5.66,
+          "enrichment_ratio": 1.247,
+          "z_score": 1.98
+        },
+        {
+          "feature": "-or",
+          "observed": 91,
+          "expected": 76.4,
+          "pct": 6.44,
+          "enrichment_ratio": 1.191,
+          "z_score": 1.67
+        },
+        {
+          "feature": "-ar",
+          "observed": 130,
+          "expected": 114.62,
+          "pct": 9.19,
+          "enrichment_ratio": 1.134,
+          "z_score": 1.44
+        },
+        {
+          "feature": "0",
+          "observed": 197,
+          "expected": 183.34,
+          "pct": 13.93,
+          "enrichment_ratio": 1.075,
+          "z_score": 1.01
+        },
+        {
+          "feature": "-dy",
+          "observed": 51,
+          "expected": 44.76,
+          "pct": 3.61,
+          "enrichment_ratio": 1.139,
+          "z_score": 0.93
+        },
+        {
+          "feature": "-r",
+          "observed": 32,
+          "expected": 28.25,
+          "pct": 2.26,
+          "enrichment_ratio": 1.133,
+          "z_score": 0.71
+        },
+        {
+          "feature": "-ol",
+          "observed": 109,
+          "expected": 106.34,
+          "pct": 7.71,
+          "enrichment_ratio": 1.025,
+          "z_score": 0.26
+        },
+        {
+          "feature": "-d",
+          "observed": 21,
+          "expected": 20.54,
+          "pct": 1.49,
+          "enrichment_ratio": 1.022,
+          "z_score": 0.1
+        },
+        {
+          "feature": "-ody",
+          "observed": 43,
+          "expected": 42.98,
+          "pct": 3.04,
+          "enrichment_ratio": 1.0,
+          "z_score": 0.0
+        },
+        {
+          "feature": "-s",
+          "observed": 34,
+          "expected": 35.62,
+          "pct": 2.4,
+          "enrichment_ratio": 0.955,
+          "z_score": -0.27
+        },
+        {
+          "feature": "-edy",
+          "observed": 138,
+          "expected": 153.05,
+          "pct": 9.76,
+          "enrichment_ratio": 0.902,
+          "z_score": -1.22
+        },
+        {
+          "feature": "-ey",
+          "observed": 139,
+          "expected": 156.51,
+          "pct": 9.83,
+          "enrichment_ratio": 0.888,
+          "z_score": -1.4
+        },
+        {
+          "feature": "-ain",
+          "observed": 190,
+          "expected": 211.61,
+          "pct": 13.44,
+          "enrichment_ratio": 0.898,
+          "z_score": -1.49
+        },
+        {
+          "feature": "-y",
+          "observed": 122,
+          "expected": 139.77,
+          "pct": 8.63,
+          "enrichment_ratio": 0.873,
+          "z_score": -1.5
+        }
+      ],
+      "w_plus_1_prefixes": [
+        {
+          "feature": "y-",
+          "observed": 88,
+          "expected": 64.85,
+          "pct": 6.22,
+          "enrichment_ratio": 1.357,
+          "z_score": 2.87
+        },
+        {
+          "feature": "o-",
+          "observed": 234,
+          "expected": 221.56,
+          "pct": 16.55,
+          "enrichment_ratio": 1.056,
+          "z_score": 0.84
+        },
+        {
+          "feature": "bare",
+          "observed": 887,
+          "expected": 910.04,
+          "pct": 62.73,
+          "enrichment_ratio": 0.975,
+          "z_score": -0.76
+        },
+        {
+          "feature": "q-",
+          "observed": 205,
+          "expected": 217.55,
+          "pct": 14.5,
+          "enrichment_ratio": 0.942,
+          "z_score": -0.85
+        }
+      ]
+    },
+    "ALL_RARE_10": {
+      "instance_count": 727,
+      "w_minus_1_total": 722,
+      "w_plus_1_total": 696,
+      "w_minus_1_top_roots": [
+        {
+          "feature": "kai",
+          "observed": 7,
+          "expected": 1.82,
+          "pct": 0.97,
+          "enrichment_ratio": 3.85,
+          "z_score": 3.84
+        },
+        {
+          "feature": "te",
+          "observed": 11,
+          "expected": 5.49,
+          "pct": 1.52,
+          "enrichment_ratio": 2.003,
+          "z_score": 2.35
+        },
+        {
+          "feature": "olch",
+          "observed": 6,
+          "expected": 2.6,
+          "pct": 0.83,
+          "enrichment_ratio": 2.308,
+          "z_score": 2.11
+        },
+        {
+          "feature": "cth",
+          "observed": 16,
+          "expected": 9.73,
+          "pct": 2.22,
+          "enrichment_ratio": 1.645,
+          "z_score": 2.01
+        },
+        {
+          "feature": "ar",
+          "observed": 13,
+          "expected": 8.09,
+          "pct": 1.8,
+          "enrichment_ratio": 1.607,
+          "z_score": 1.73
+        },
+        {
+          "feature": "kch",
+          "observed": 20,
+          "expected": 13.65,
+          "pct": 2.77,
+          "enrichment_ratio": 1.465,
+          "z_score": 1.72
+        },
+        {
+          "feature": "ain",
+          "observed": 15,
+          "expected": 11.35,
+          "pct": 2.08,
+          "enrichment_ratio": 1.322,
+          "z_score": 1.08
+        },
+        {
+          "feature": "t",
+          "observed": 58,
+          "expected": 51.23,
+          "pct": 8.03,
+          "enrichment_ratio": 1.132,
+          "z_score": 0.95
+        },
+        {
+          "feature": "al",
+          "observed": 7,
+          "expected": 4.93,
+          "pct": 0.97,
+          "enrichment_ratio": 1.42,
+          "z_score": 0.93
+        },
+        {
+          "feature": "d",
+          "observed": 45,
+          "expected": 41.36,
+          "pct": 6.23,
+          "enrichment_ratio": 1.088,
+          "z_score": 0.57
+        },
+        {
+          "feature": "or",
+          "observed": 11,
+          "expected": 9.53,
+          "pct": 1.52,
+          "enrichment_ratio": 1.154,
+          "z_score": 0.48
+        },
+        {
+          "feature": "tch",
+          "observed": 20,
+          "expected": 19.72,
+          "pct": 2.77,
+          "enrichment_ratio": 1.014,
+          "z_score": 0.06
+        },
+        {
+          "feature": "k",
+          "observed": 83,
+          "expected": 84.76,
+          "pct": 11.5,
+          "enrichment_ratio": 0.979,
+          "z_score": -0.19
+        },
+        {
+          "feature": "she",
+          "observed": 7,
+          "expected": 7.81,
+          "pct": 0.97,
+          "enrichment_ratio": 0.896,
+          "z_score": -0.29
+        },
+        {
+          "feature": "che",
+          "observed": 11,
+          "expected": 12.77,
+          "pct": 1.52,
+          "enrichment_ratio": 0.861,
+          "z_score": -0.5
+        }
+      ],
+      "w_minus_1_suffixes": [
+        {
+          "feature": "-dy",
+          "observed": 38,
+          "expected": 22.44,
+          "pct": 5.26,
+          "enrichment_ratio": 1.693,
+          "z_score": 3.28
+        },
+        {
+          "feature": "-d",
+          "observed": 15,
+          "expected": 10.61,
+          "pct": 2.08,
+          "enrichment_ratio": 1.413,
+          "z_score": 1.35
+        },
+        {
+          "feature": "-ody",
+          "observed": 28,
+          "expected": 22.17,
+          "pct": 3.88,
+          "enrichment_ratio": 1.263,
+          "z_score": 1.24
+        },
+        {
+          "feature": "-ain",
+          "observed": 114,
+          "expected": 106.89,
+          "pct": 15.79,
+          "enrichment_ratio": 1.067,
+          "z_score": 0.69
+        },
+        {
+          "feature": "-edy",
+          "observed": 84,
+          "expected": 78.17,
+          "pct": 11.63,
+          "enrichment_ratio": 1.075,
+          "z_score": 0.66
+        },
+        {
+          "feature": "-ar",
+          "observed": 64,
+          "expected": 58.93,
+          "pct": 8.86,
+          "enrichment_ratio": 1.086,
+          "z_score": 0.66
+        },
+        {
+          "feature": "-y",
+          "observed": 72,
+          "expected": 70.33,
+          "pct": 9.97,
+          "enrichment_ratio": 1.024,
+          "z_score": 0.2
+        },
+        {
+          "feature": "-s",
+          "observed": 19,
+          "expected": 18.35,
+          "pct": 2.63,
+          "enrichment_ratio": 1.035,
+          "z_score": 0.15
+        },
+        {
+          "feature": "-r",
+          "observed": 15,
+          "expected": 14.71,
+          "pct": 2.08,
+          "enrichment_ratio": 1.02,
+          "z_score": 0.08
+        },
+        {
+          "feature": "0",
+          "observed": 89,
+          "expected": 93.69,
+          "pct": 12.33,
+          "enrichment_ratio": 0.95,
+          "z_score": -0.48
+        },
+        {
+          "feature": "-al",
+          "observed": 29,
+          "expected": 33.24,
+          "pct": 4.02,
+          "enrichment_ratio": 0.872,
+          "z_score": -0.74
+        },
+        {
+          "feature": "-ol",
+          "observed": 49,
+          "expected": 55.1,
+          "pct": 6.79,
+          "enrichment_ratio": 0.889,
+          "z_score": -0.82
+        },
+        {
+          "feature": "-or",
+          "observed": 33,
+          "expected": 39.38,
+          "pct": 4.57,
+          "enrichment_ratio": 0.838,
+          "z_score": -1.02
+        },
+        {
+          "feature": "-ey",
+          "observed": 54,
+          "expected": 80.18,
+          "pct": 7.48,
+          "enrichment_ratio": 0.673,
+          "z_score": -2.92
+        }
+      ],
+      "w_minus_1_prefixes": [
+        {
+          "feature": "y-",
+          "observed": 38,
+          "expected": 32.64,
+          "pct": 5.26,
+          "enrichment_ratio": 1.164,
+          "z_score": 0.94
+        },
+        {
+          "feature": "q-",
+          "observed": 120,
+          "expected": 111.35,
+          "pct": 16.62,
+          "enrichment_ratio": 1.078,
+          "z_score": 0.82
+        },
+        {
+          "feature": "o-",
+          "observed": 118,
+          "expected": 111.23,
+          "pct": 16.34,
+          "enrichment_ratio": 1.061,
+          "z_score": 0.64
+        },
+        {
+          "feature": "bare",
+          "observed": 446,
+          "expected": 466.78,
+          "pct": 61.77,
+          "enrichment_ratio": 0.955,
+          "z_score": -0.96
+        }
+      ],
+      "w_plus_1_top_roots": [
+        {
+          "feature": "s",
+          "observed": 30,
+          "expected": 13.09,
+          "pct": 4.31,
+          "enrichment_ratio": 2.292,
+          "z_score": 4.68
+        },
+        {
+          "feature": "cheo",
+          "observed": 7,
+          "expected": 3.23,
+          "pct": 1.01,
+          "enrichment_ratio": 2.164,
+          "z_score": 2.09
+        },
+        {
+          "feature": "dch",
+          "observed": 6,
+          "expected": 3.06,
+          "pct": 0.86,
+          "enrichment_ratio": 1.962,
+          "z_score": 1.68
+        },
+        {
+          "feature": "ain",
+          "observed": 15,
+          "expected": 11.08,
+          "pct": 2.16,
+          "enrichment_ratio": 1.354,
+          "z_score": 1.18
+        },
+        {
+          "feature": "tch",
+          "observed": 23,
+          "expected": 18.12,
+          "pct": 3.3,
+          "enrichment_ratio": 1.269,
+          "z_score": 1.15
+        },
+        {
+          "feature": "ar",
+          "observed": 11,
+          "expected": 8.04,
+          "pct": 1.58,
+          "enrichment_ratio": 1.368,
+          "z_score": 1.04
+        },
+        {
+          "feature": "kch",
+          "observed": 17,
+          "expected": 13.28,
+          "pct": 2.44,
+          "enrichment_ratio": 1.28,
+          "z_score": 1.02
+        },
+        {
+          "feature": "olk",
+          "observed": 8,
+          "expected": 5.74,
+          "pct": 1.15,
+          "enrichment_ratio": 1.393,
+          "z_score": 0.94
+        },
+        {
+          "feature": "d",
+          "observed": 45,
+          "expected": 40.97,
+          "pct": 6.47,
+          "enrichment_ratio": 1.098,
+          "z_score": 0.63
+        },
+        {
+          "feature": "ol",
+          "observed": 15,
+          "expected": 13.13,
+          "pct": 2.16,
+          "enrichment_ratio": 1.143,
+          "z_score": 0.52
+        },
+        {
+          "feature": "or",
+          "observed": 11,
+          "expected": 9.6,
+          "pct": 1.58,
+          "enrichment_ratio": 1.146,
+          "z_score": 0.45
+        },
+        {
+          "feature": "r",
+          "observed": 6,
+          "expected": 5.39,
+          "pct": 0.86,
+          "enrichment_ratio": 1.112,
+          "z_score": 0.26
+        },
+        {
+          "feature": "she",
+          "observed": 8,
+          "expected": 7.66,
+          "pct": 1.15,
+          "enrichment_ratio": 1.045,
+          "z_score": 0.12
+        },
+        {
+          "feature": "t",
+          "observed": 45,
+          "expected": 49.15,
+          "pct": 6.47,
+          "enrichment_ratio": 0.916,
+          "z_score": -0.59
+        },
+        {
+          "feature": "ke",
+          "observed": 10,
+          "expected": 12.25,
+          "pct": 1.44,
+          "enrichment_ratio": 0.817,
+          "z_score": -0.64
+        }
+      ],
+      "w_plus_1_suffixes": [
+        {
+          "feature": "-al",
+          "observed": 41,
+          "expected": 31.74,
+          "pct": 5.89,
+          "enrichment_ratio": 1.292,
+          "z_score": 1.64
+        },
+        {
+          "feature": "-r",
+          "observed": 20,
+          "expected": 14.07,
+          "pct": 2.87,
+          "enrichment_ratio": 1.421,
+          "z_score": 1.58
+        },
+        {
+          "feature": "-or",
+          "observed": 46,
+          "expected": 37.44,
+          "pct": 6.61,
+          "enrichment_ratio": 1.229,
+          "z_score": 1.4
+        },
+        {
+          "feature": "-ol",
+          "observed": 58,
+          "expected": 52.61,
+          "pct": 8.33,
+          "enrichment_ratio": 1.103,
+          "z_score": 0.74
+        },
+        {
+          "feature": "-ar",
+          "observed": 61,
+          "expected": 56.32,
+          "pct": 8.76,
+          "enrichment_ratio": 1.083,
+          "z_score": 0.62
+        },
+        {
+          "feature": "-dy",
+          "observed": 24,
+          "expected": 21.82,
+          "pct": 3.45,
+          "enrichment_ratio": 1.1,
+          "z_score": 0.47
+        },
+        {
+          "feature": "0",
+          "observed": 93,
+          "expected": 90.85,
+          "pct": 13.36,
+          "enrichment_ratio": 1.024,
+          "z_score": 0.23
+        },
+        {
+          "feature": "-d",
+          "observed": 10,
+          "expected": 10.06,
+          "pct": 1.44,
+          "enrichment_ratio": 0.994,
+          "z_score": -0.02
+        },
+        {
+          "feature": "-s",
+          "observed": 17,
+          "expected": 17.57,
+          "pct": 2.44,
+          "enrichment_ratio": 0.967,
+          "z_score": -0.14
+        },
+        {
+          "feature": "-ain",
+          "observed": 100,
+          "expected": 104.12,
+          "pct": 14.37,
+          "enrichment_ratio": 0.96,
+          "z_score": -0.4
+        },
+        {
+          "feature": "-ody",
+          "observed": 17,
+          "expected": 21.33,
+          "pct": 2.44,
+          "enrichment_ratio": 0.797,
+          "z_score": -0.94
+        },
+        {
+          "feature": "-y",
+          "observed": 58,
+          "expected": 67.8,
+          "pct": 8.33,
+          "enrichment_ratio": 0.855,
+          "z_score": -1.19
+        },
+        {
+          "feature": "-ey",
+          "observed": 66,
+          "expected": 77.87,
+          "pct": 9.48,
+          "enrichment_ratio": 0.848,
+          "z_score": -1.35
+        },
+        {
+          "feature": "-edy",
+          "observed": 63,
+          "expected": 74.63,
+          "pct": 9.05,
+          "enrichment_ratio": 0.844,
+          "z_score": -1.35
+        }
+      ],
+      "w_plus_1_prefixes": [
+        {
+          "feature": "y-",
+          "observed": 46,
+          "expected": 31.85,
+          "pct": 6.61,
+          "enrichment_ratio": 1.444,
+          "z_score": 2.51
+        },
+        {
+          "feature": "o-",
+          "observed": 124,
+          "expected": 109.68,
+          "pct": 17.82,
+          "enrichment_ratio": 1.131,
+          "z_score": 1.37
+        },
+        {
+          "feature": "bare",
+          "observed": 433,
+          "expected": 447.45,
+          "pct": 62.21,
+          "enrichment_ratio": 0.968,
+          "z_score": -0.68
+        },
+        {
+          "feature": "q-",
+          "observed": 93,
+          "expected": 107.01,
+          "pct": 13.36,
+          "enrichment_ratio": 0.869,
+          "z_score": -1.35
+        }
+      ]
+    },
+    "Pharma_All": {
+      "instance_count": 439,
+      "w_minus_1_total": 437,
+      "w_plus_1_total": 422,
+      "w_minus_1_top_roots": [
+        {
+          "feature": "dal",
+          "observed": 5,
+          "expected": 0.89,
+          "pct": 1.14,
+          "enrichment_ratio": 5.62,
+          "z_score": 4.36
+        },
+        {
+          "feature": "chek",
+          "observed": 6,
+          "expected": 2.22,
+          "pct": 1.37,
+          "enrichment_ratio": 2.703,
+          "z_score": 2.54
+        },
+        {
+          "feature": "ar",
+          "observed": 10,
+          "expected": 4.6,
+          "pct": 2.29,
+          "enrichment_ratio": 2.176,
+          "z_score": 2.52
+        },
+        {
+          "feature": "or",
+          "observed": 9,
+          "expected": 5.75,
+          "pct": 2.06,
+          "enrichment_ratio": 1.565,
+          "z_score": 1.35
+        },
+        {
+          "feature": "tch",
+          "observed": 15,
+          "expected": 11.58,
+          "pct": 3.43,
+          "enrichment_ratio": 1.295,
+          "z_score": 1.0
+        },
+        {
+          "feature": "ain",
+          "observed": 9,
+          "expected": 6.56,
+          "pct": 2.06,
+          "enrichment_ratio": 1.371,
+          "z_score": 0.95
+        },
+        {
+          "feature": "cth",
+          "observed": 8,
+          "expected": 5.82,
+          "pct": 1.83,
+          "enrichment_ratio": 1.374,
+          "z_score": 0.9
+        },
+        {
+          "feature": "r",
+          "observed": 5,
+          "expected": 3.35,
+          "pct": 1.14,
+          "enrichment_ratio": 1.492,
+          "z_score": 0.9
+        },
+        {
+          "feature": "che",
+          "observed": 10,
+          "expected": 7.62,
+          "pct": 2.29,
+          "enrichment_ratio": 1.312,
+          "z_score": 0.86
+        },
+        {
+          "feature": "t",
+          "observed": 34,
+          "expected": 30.84,
+          "pct": 7.78,
+          "enrichment_ratio": 1.103,
+          "z_score": 0.57
+        },
+        {
+          "feature": "kch",
+          "observed": 9,
+          "expected": 8.08,
+          "pct": 2.06,
+          "enrichment_ratio": 1.113,
+          "z_score": 0.32
+        },
+        {
+          "feature": "k",
+          "observed": 52,
+          "expected": 53.15,
+          "pct": 11.9,
+          "enrichment_ratio": 0.978,
+          "z_score": -0.16
+        },
+        {
+          "feature": "d",
+          "observed": 23,
+          "expected": 25.15,
+          "pct": 5.26,
+          "enrichment_ratio": 0.914,
+          "z_score": -0.43
+        },
+        {
+          "feature": "sh",
+          "observed": 14,
+          "expected": 18.23,
+          "pct": 3.2,
+          "enrichment_ratio": 0.768,
+          "z_score": -0.99
+        },
+        {
+          "feature": "ch",
+          "observed": 22,
+          "expected": 29.03,
+          "pct": 5.03,
+          "enrichment_ratio": 0.758,
+          "z_score": -1.3
+        }
+      ],
+      "w_minus_1_suffixes": [
+        {
+          "feature": "-dy",
+          "observed": 26,
+          "expected": 13.68,
+          "pct": 5.95,
+          "enrichment_ratio": 1.9,
+          "z_score": 3.33
+        },
+        {
+          "feature": "-ain",
+          "observed": 75,
+          "expected": 64.05,
+          "pct": 17.16,
+          "enrichment_ratio": 1.171,
+          "z_score": 1.37
+        },
+        {
+          "feature": "-ar",
+          "observed": 41,
+          "expected": 34.73,
+          "pct": 9.38,
+          "enrichment_ratio": 1.181,
+          "z_score": 1.06
+        },
+        {
+          "feature": "-r",
+          "observed": 11,
+          "expected": 8.47,
+          "pct": 2.52,
+          "enrichment_ratio": 1.298,
+          "z_score": 0.87
+        },
+        {
+          "feature": "-d",
+          "observed": 8,
+          "expected": 6.28,
+          "pct": 1.83,
+          "enrichment_ratio": 1.274,
+          "z_score": 0.69
+        },
+        {
+          "feature": "-edy",
+          "observed": 53,
+          "expected": 50.63,
+          "pct": 12.13,
+          "enrichment_ratio": 1.047,
+          "z_score": 0.33
+        },
+        {
+          "feature": "-ody",
+          "observed": 14,
+          "expected": 12.84,
+          "pct": 3.2,
+          "enrichment_ratio": 1.09,
+          "z_score": 0.32
+        },
+        {
+          "feature": "-y",
+          "observed": 44,
+          "expected": 42.91,
+          "pct": 10.07,
+          "enrichment_ratio": 1.025,
+          "z_score": 0.17
+        },
+        {
+          "feature": "-or",
+          "observed": 22,
+          "expected": 23.74,
+          "pct": 5.03,
+          "enrichment_ratio": 0.927,
+          "z_score": -0.36
+        },
+        {
+          "feature": "-ol",
+          "observed": 31,
+          "expected": 33.66,
+          "pct": 7.09,
+          "enrichment_ratio": 0.921,
+          "z_score": -0.46
+        },
+        {
+          "feature": "0",
+          "observed": 48,
+          "expected": 55.62,
+          "pct": 10.98,
+          "enrichment_ratio": 0.863,
+          "z_score": -1.02
+        },
+        {
+          "feature": "-al",
+          "observed": 15,
+          "expected": 20.13,
+          "pct": 3.43,
+          "enrichment_ratio": 0.745,
+          "z_score": -1.14
+        },
+        {
+          "feature": "-s",
+          "observed": 6,
+          "expected": 10.88,
+          "pct": 1.37,
+          "enrichment_ratio": 0.551,
+          "z_score": -1.48
+        },
+        {
+          "feature": "-ey",
+          "observed": 31,
+          "expected": 48.6,
+          "pct": 7.09,
+          "enrichment_ratio": 0.638,
+          "z_score": -2.52
+        }
+      ],
+      "w_minus_1_prefixes": [
+        {
+          "feature": "bare",
+          "observed": 292,
+          "expected": 282.25,
+          "pct": 66.82,
+          "enrichment_ratio": 1.035,
+          "z_score": 0.58
+        },
+        {
+          "feature": "o-",
+          "observed": 67,
+          "expected": 65.86,
+          "pct": 15.33,
+          "enrichment_ratio": 1.017,
+          "z_score": 0.14
+        },
+        {
+          "feature": "y-",
+          "observed": 18,
+          "expected": 19.21,
+          "pct": 4.12,
+          "enrichment_ratio": 0.937,
+          "z_score": -0.28
+        },
+        {
+          "feature": "q-",
+          "observed": 60,
+          "expected": 69.67,
+          "pct": 13.73,
+          "enrichment_ratio": 0.861,
+          "z_score": -1.16
+        }
+      ],
+      "w_plus_1_top_roots": [
+        {
+          "feature": "ksh",
+          "observed": 5,
+          "expected": 1.26,
+          "pct": 1.18,
+          "enrichment_ratio": 3.972,
+          "z_score": 3.33
+        },
+        {
+          "feature": "s",
+          "observed": 15,
+          "expected": 8.12,
+          "pct": 3.55,
+          "enrichment_ratio": 1.847,
+          "z_score": 2.41
+        },
+        {
+          "feature": "she",
+          "observed": 8,
+          "expected": 4.62,
+          "pct": 1.9,
+          "enrichment_ratio": 1.733,
+          "z_score": 1.57
+        },
+        {
+          "feature": "ke",
+          "observed": 11,
+          "expected": 7.2,
+          "pct": 2.61,
+          "enrichment_ratio": 1.527,
+          "z_score": 1.41
+        },
+        {
+          "feature": "olk",
+          "observed": 6,
+          "expected": 3.9,
+          "pct": 1.42,
+          "enrichment_ratio": 1.537,
+          "z_score": 1.06
+        },
+        {
+          "feature": "kch",
+          "observed": 10,
+          "expected": 7.89,
+          "pct": 2.37,
+          "enrichment_ratio": 1.268,
+          "z_score": 0.75
+        },
+        {
+          "feature": "tch",
+          "observed": 13,
+          "expected": 10.7,
+          "pct": 3.08,
+          "enrichment_ratio": 1.215,
+          "z_score": 0.7
+        },
+        {
+          "feature": "d",
+          "observed": 28,
+          "expected": 24.97,
+          "pct": 6.64,
+          "enrichment_ratio": 1.122,
+          "z_score": 0.61
+        },
+        {
+          "feature": "che",
+          "observed": 9,
+          "expected": 7.6,
+          "pct": 2.13,
+          "enrichment_ratio": 1.184,
+          "z_score": 0.51
+        },
+        {
+          "feature": "ar",
+          "observed": 5,
+          "expected": 4.55,
+          "pct": 1.18,
+          "enrichment_ratio": 1.098,
+          "z_score": 0.21
+        },
+        {
+          "feature": "ol",
+          "observed": 8,
+          "expected": 8.78,
+          "pct": 1.9,
+          "enrichment_ratio": 0.912,
+          "z_score": -0.26
+        },
+        {
+          "feature": "t",
+          "observed": 27,
+          "expected": 29.77,
+          "pct": 6.4,
+          "enrichment_ratio": 0.907,
+          "z_score": -0.51
+        },
+        {
+          "feature": "ain",
+          "observed": 5,
+          "expected": 6.38,
+          "pct": 1.18,
+          "enrichment_ratio": 0.784,
+          "z_score": -0.54
+        },
+        {
+          "feature": "ch",
+          "observed": 25,
+          "expected": 28.69,
+          "pct": 5.92,
+          "enrichment_ratio": 0.871,
+          "z_score": -0.69
+        },
+        {
+          "feature": "k",
+          "observed": 41,
+          "expected": 51.61,
+          "pct": 9.72,
+          "enrichment_ratio": 0.794,
+          "z_score": -1.48
+        }
+      ],
+      "w_plus_1_suffixes": [
+        {
+          "feature": "-ar",
+          "observed": 50,
+          "expected": 33.3,
+          "pct": 11.85,
+          "enrichment_ratio": 1.501,
+          "z_score": 2.89
+        },
+        {
+          "feature": "-r",
+          "observed": 11,
+          "expected": 8.06,
+          "pct": 2.61,
+          "enrichment_ratio": 1.365,
+          "z_score": 1.04
+        },
+        {
+          "feature": "-or",
+          "observed": 26,
+          "expected": 22.56,
+          "pct": 6.16,
+          "enrichment_ratio": 1.153,
+          "z_score": 0.72
+        },
+        {
+          "feature": "-s",
+          "observed": 12,
+          "expected": 10.37,
+          "pct": 2.84,
+          "enrichment_ratio": 1.157,
+          "z_score": 0.51
+        },
+        {
+          "feature": "-d",
+          "observed": 7,
+          "expected": 5.96,
+          "pct": 1.66,
+          "enrichment_ratio": 1.174,
+          "z_score": 0.43
+        },
+        {
+          "feature": "-al",
+          "observed": 21,
+          "expected": 19.31,
+          "pct": 4.98,
+          "enrichment_ratio": 1.088,
+          "z_score": 0.39
+        },
+        {
+          "feature": "0",
+          "observed": 56,
+          "expected": 54.04,
+          "pct": 13.27,
+          "enrichment_ratio": 1.036,
+          "z_score": 0.27
+        },
+        {
+          "feature": "-ol",
+          "observed": 33,
+          "expected": 32.13,
+          "pct": 7.82,
+          "enrichment_ratio": 1.027,
+          "z_score": 0.15
+        },
+        {
+          "feature": "-ey",
+          "observed": 46,
+          "expected": 47.16,
+          "pct": 10.9,
+          "enrichment_ratio": 0.975,
+          "z_score": -0.17
+        },
+        {
+          "feature": "-ain",
+          "observed": 55,
+          "expected": 62.49,
+          "pct": 13.03,
+          "enrichment_ratio": 0.88,
+          "z_score": -0.95
+        },
+        {
+          "feature": "-edy",
+          "observed": 41,
+          "expected": 48.75,
+          "pct": 9.72,
+          "enrichment_ratio": 0.841,
+          "z_score": -1.11
+        },
+        {
+          "feature": "-dy",
+          "observed": 9,
+          "expected": 13.34,
+          "pct": 2.13,
+          "enrichment_ratio": 0.675,
+          "z_score": -1.19
+        },
+        {
+          "feature": "-ody",
+          "observed": 8,
+          "expected": 12.31,
+          "pct": 1.9,
+          "enrichment_ratio": 0.65,
+          "z_score": -1.23
+        },
+        {
+          "feature": "-y",
+          "observed": 33,
+          "expected": 41.45,
+          "pct": 7.82,
+          "enrichment_ratio": 0.796,
+          "z_score": -1.31
+        }
+      ],
+      "w_plus_1_prefixes": [
+        {
+          "feature": "y-",
+          "observed": 30,
+          "expected": 18.77,
+          "pct": 7.11,
+          "enrichment_ratio": 1.599,
+          "z_score": 2.59
+        },
+        {
+          "feature": "o-",
+          "observed": 70,
+          "expected": 64.85,
+          "pct": 16.59,
+          "enrichment_ratio": 1.079,
+          "z_score": 0.64
+        },
+        {
+          "feature": "bare",
+          "observed": 264,
+          "expected": 271.16,
+          "pct": 62.56,
+          "enrichment_ratio": 0.974,
+          "z_score": -0.43
+        },
+        {
+          "feature": "q-",
+          "observed": 58,
+          "expected": 67.22,
+          "pct": 13.74,
+          "enrichment_ratio": 0.863,
+          "z_score": -1.13
+        }
+      ]
+    },
+    "Pharma_Jar": {
+      "instance_count": 14,
+      "w_minus_1_total": 14,
+      "w_plus_1_total": 14,
+      "w_minus_1_top_roots": [],
+      "w_minus_1_suffixes": [
+        {
+          "feature": "-edy",
+          "observed": 4,
+          "expected": 1.96,
+          "pct": 28.57,
+          "enrichment_ratio": 2.036,
+          "z_score": 1.45
+        }
+      ],
+      "w_minus_1_prefixes": [
+        {
+          "feature": "bare",
+          "observed": 12,
+          "expected": 8.97,
+          "pct": 85.71,
+          "enrichment_ratio": 1.337,
+          "z_score": 1.01
+        }
+      ],
+      "w_plus_1_top_roots": [
+        {
+          "feature": "ksh",
+          "observed": 3,
+          "expected": 0.04,
+          "pct": 21.43,
+          "enrichment_ratio": 72.064,
+          "z_score": 14.5
+        }
+      ],
+      "w_plus_1_suffixes": [
+        {
+          "feature": "-ol",
+          "observed": 4,
+          "expected": 1.05,
+          "pct": 28.57,
+          "enrichment_ratio": 3.821,
+          "z_score": 2.89
+        },
+        {
+          "feature": "-ain",
+          "observed": 3,
+          "expected": 2.07,
+          "pct": 21.43,
+          "enrichment_ratio": 1.453,
+          "z_score": 0.65
+        }
+      ],
+      "w_plus_1_prefixes": [
+        {
+          "feature": "q-",
+          "observed": 3,
+          "expected": 2.48,
+          "pct": 21.43,
+          "enrichment_ratio": 1.212,
+          "z_score": 0.33
+        },
+        {
+          "feature": "bare",
+          "observed": 7,
+          "expected": 8.92,
+          "pct": 50.0,
+          "enrichment_ratio": 0.785,
+          "z_score": -0.64
+        }
+      ]
+    },
+    "Pharma_Botanical": {
+      "instance_count": 425,
+      "w_minus_1_total": 423,
+      "w_plus_1_total": 408,
+      "w_minus_1_top_roots": [
+        {
+          "feature": "dal",
+          "observed": 5,
+          "expected": 0.86,
+          "pct": 1.18,
+          "enrichment_ratio": 5.791,
+          "z_score": 4.45
+        },
+        {
+          "feature": "chek",
+          "observed": 6,
+          "expected": 2.15,
+          "pct": 1.42,
+          "enrichment_ratio": 2.791,
+          "z_score": 2.63
+        },
+        {
+          "feature": "ar",
+          "observed": 10,
+          "expected": 4.47,
+          "pct": 2.36,
+          "enrichment_ratio": 2.238,
+          "z_score": 2.62
+        },
+        {
+          "feature": "or",
+          "observed": 9,
+          "expected": 5.57,
+          "pct": 2.13,
+          "enrichment_ratio": 1.615,
+          "z_score": 1.45
+        },
+        {
+          "feature": "tch",
+          "observed": 15,
+          "expected": 11.23,
+          "pct": 3.55,
+          "enrichment_ratio": 1.335,
+          "z_score": 1.12
+        },
+        {
+          "feature": "ain",
+          "observed": 9,
+          "expected": 6.38,
+          "pct": 2.13,
+          "enrichment_ratio": 1.411,
+          "z_score": 1.04
+        },
+        {
+          "feature": "r",
+          "observed": 5,
+          "expected": 3.24,
+          "pct": 1.18,
+          "enrichment_ratio": 1.544,
+          "z_score": 0.98
+        },
+        {
+          "feature": "t",
+          "observed": 34,
+          "expected": 29.83,
+          "pct": 8.04,
+          "enrichment_ratio": 1.14,
+          "z_score": 0.76
+        },
+        {
+          "feature": "che",
+          "observed": 9,
+          "expected": 7.39,
+          "pct": 2.13,
+          "enrichment_ratio": 1.218,
+          "z_score": 0.59
+        },
+        {
+          "feature": "cth",
+          "observed": 7,
+          "expected": 5.65,
+          "pct": 1.65,
+          "enrichment_ratio": 1.239,
+          "z_score": 0.57
+        },
+        {
+          "feature": "k",
+          "observed": 52,
+          "expected": 51.25,
+          "pct": 12.29,
+          "enrichment_ratio": 1.015,
+          "z_score": 0.1
+        },
+        {
+          "feature": "kch",
+          "observed": 8,
+          "expected": 7.84,
+          "pct": 1.89,
+          "enrichment_ratio": 1.021,
+          "z_score": 0.06
+        },
+        {
+          "feature": "d",
+          "observed": 22,
+          "expected": 24.37,
+          "pct": 5.2,
+          "enrichment_ratio": 0.903,
+          "z_score": -0.48
+        },
+        {
+          "feature": "ch",
+          "observed": 22,
+          "expected": 28.1,
+          "pct": 5.2,
+          "enrichment_ratio": 0.783,
+          "z_score": -1.15
+        },
+        {
+          "feature": "sh",
+          "observed": 12,
+          "expected": 17.59,
+          "pct": 2.84,
+          "enrichment_ratio": 0.682,
+          "z_score": -1.33
+        }
+      ],
+      "w_minus_1_suffixes": [
+        {
+          "feature": "-dy",
+          "observed": 25,
+          "expected": 13.24,
+          "pct": 5.91,
+          "enrichment_ratio": 1.889,
+          "z_score": 3.23
+        },
+        {
+          "feature": "-ain",
+          "observed": 73,
+          "expected": 62.0,
+          "pct": 17.26,
+          "enrichment_ratio": 1.177,
+          "z_score": 1.4
+        },
+        {
+          "feature": "-ar",
+          "observed": 40,
+          "expected": 33.67,
+          "pct": 9.46,
+          "enrichment_ratio": 1.188,
+          "z_score": 1.09
+        },
+        {
+          "feature": "-r",
+          "observed": 11,
+          "expected": 8.23,
+          "pct": 2.6,
+          "enrichment_ratio": 1.336,
+          "z_score": 0.96
+        },
+        {
+          "feature": "-d",
+          "observed": 8,
+          "expected": 6.09,
+          "pct": 1.89,
+          "enrichment_ratio": 1.314,
+          "z_score": 0.78
+        },
+        {
+          "feature": "-y",
+          "observed": 43,
+          "expected": 41.52,
+          "pct": 10.17,
+          "enrichment_ratio": 1.036,
+          "z_score": 0.23
+        },
+        {
+          "feature": "-edy",
+          "observed": 49,
+          "expected": 48.67,
+          "pct": 11.58,
+          "enrichment_ratio": 1.007,
+          "z_score": 0.05
+        },
+        {
+          "feature": "-ody",
+          "observed": 12,
+          "expected": 12.49,
+          "pct": 2.84,
+          "enrichment_ratio": 0.961,
+          "z_score": -0.14
+        },
+        {
+          "feature": "-or",
+          "observed": 22,
+          "expected": 23.01,
+          "pct": 5.2,
+          "enrichment_ratio": 0.956,
+          "z_score": -0.21
+        },
+        {
+          "feature": "-ol",
+          "observed": 30,
+          "expected": 32.59,
+          "pct": 7.09,
+          "enrichment_ratio": 0.92,
+          "z_score": -0.45
+        },
+        {
+          "feature": "0",
+          "observed": 48,
+          "expected": 53.96,
+          "pct": 11.35,
+          "enrichment_ratio": 0.89,
+          "z_score": -0.81
+        },
+        {
+          "feature": "-al",
+          "observed": 15,
+          "expected": 19.47,
+          "pct": 3.55,
+          "enrichment_ratio": 0.77,
+          "z_score": -1.01
+        },
+        {
+          "feature": "-s",
+          "observed": 6,
+          "expected": 10.57,
+          "pct": 1.42,
+          "enrichment_ratio": 0.567,
+          "z_score": -1.41
+        },
+        {
+          "feature": "-ey",
+          "observed": 29,
+          "expected": 47.04,
+          "pct": 6.86,
+          "enrichment_ratio": 0.616,
+          "z_score": -2.63
+        }
+      ],
+      "w_minus_1_prefixes": [
+        {
+          "feature": "bare",
+          "observed": 280,
+          "expected": 273.28,
+          "pct": 66.19,
+          "enrichment_ratio": 1.025,
+          "z_score": 0.41
+        },
+        {
+          "feature": "o-",
+          "observed": 66,
+          "expected": 63.86,
+          "pct": 15.6,
+          "enrichment_ratio": 1.034,
+          "z_score": 0.27
+        },
+        {
+          "feature": "y-",
+          "observed": 18,
+          "expected": 18.66,
+          "pct": 4.26,
+          "enrichment_ratio": 0.964,
+          "z_score": -0.15
+        },
+        {
+          "feature": "q-",
+          "observed": 59,
+          "expected": 67.2,
+          "pct": 13.95,
+          "enrichment_ratio": 0.878,
+          "z_score": -1.0
+        }
+      ],
+      "w_plus_1_top_roots": [
+        {
+          "feature": "s",
+          "observed": 15,
+          "expected": 7.85,
+          "pct": 3.68,
+          "enrichment_ratio": 1.911,
+          "z_score": 2.55
+        },
+        {
+          "feature": "she",
+          "observed": 8,
+          "expected": 4.47,
+          "pct": 1.96,
+          "enrichment_ratio": 1.79,
+          "z_score": 1.67
+        },
+        {
+          "feature": "olk",
+          "observed": 6,
+          "expected": 3.74,
+          "pct": 1.47,
+          "enrichment_ratio": 1.605,
+          "z_score": 1.17
+        },
+        {
+          "feature": "ke",
+          "observed": 10,
+          "expected": 7.0,
+          "pct": 2.45,
+          "enrichment_ratio": 1.429,
+          "z_score": 1.14
+        },
+        {
+          "feature": "tch",
+          "observed": 13,
+          "expected": 10.37,
+          "pct": 3.19,
+          "enrichment_ratio": 1.254,
+          "z_score": 0.82
+        },
+        {
+          "feature": "che",
+          "observed": 9,
+          "expected": 7.37,
+          "pct": 2.21,
+          "enrichment_ratio": 1.222,
+          "z_score": 0.6
+        },
+        {
+          "feature": "d",
+          "observed": 27,
+          "expected": 24.16,
+          "pct": 6.62,
+          "enrichment_ratio": 1.118,
+          "z_score": 0.58
+        },
+        {
+          "feature": "kch",
+          "observed": 9,
+          "expected": 7.64,
+          "pct": 2.21,
+          "enrichment_ratio": 1.178,
+          "z_score": 0.49
+        },
+        {
+          "feature": "ol",
+          "observed": 8,
+          "expected": 8.42,
+          "pct": 1.96,
+          "enrichment_ratio": 0.95,
+          "z_score": -0.15
+        },
+        {
+          "feature": "t",
+          "observed": 27,
+          "expected": 28.76,
+          "pct": 6.62,
+          "enrichment_ratio": 0.939,
+          "z_score": -0.33
+        },
+        {
+          "feature": "ain",
+          "observed": 5,
+          "expected": 6.19,
+          "pct": 1.23,
+          "enrichment_ratio": 0.808,
+          "z_score": -0.48
+        },
+        {
+          "feature": "ch",
+          "observed": 25,
+          "expected": 27.74,
+          "pct": 6.13,
+          "enrichment_ratio": 0.901,
+          "z_score": -0.52
+        },
+        {
+          "feature": "k",
+          "observed": 40,
+          "expected": 49.7,
+          "pct": 9.8,
+          "enrichment_ratio": 0.805,
+          "z_score": -1.38
+        },
+        {
+          "feature": "sh",
+          "observed": 10,
+          "expected": 17.22,
+          "pct": 2.45,
+          "enrichment_ratio": 0.581,
+          "z_score": -1.74
+        }
+      ],
+      "w_plus_1_suffixes": [
+        {
+          "feature": "-ar",
+          "observed": 50,
+          "expected": 32.25,
+          "pct": 12.25,
+          "enrichment_ratio": 1.55,
+          "z_score": 3.13
+        },
+        {
+          "feature": "-r",
+          "observed": 11,
+          "expected": 7.83,
+          "pct": 2.7,
+          "enrichment_ratio": 1.405,
+          "z_score": 1.13
+        },
+        {
+          "feature": "-or",
+          "observed": 25,
+          "expected": 21.85,
+          "pct": 6.13,
+          "enrichment_ratio": 1.144,
+          "z_score": 0.67
+        },
+        {
+          "feature": "-s",
+          "observed": 12,
+          "expected": 10.06,
+          "pct": 2.94,
+          "enrichment_ratio": 1.193,
+          "z_score": 0.61
+        },
+        {
+          "feature": "-al",
+          "observed": 21,
+          "expected": 18.65,
+          "pct": 5.15,
+          "enrichment_ratio": 1.126,
+          "z_score": 0.54
+        },
+        {
+          "feature": "-d",
+          "observed": 7,
+          "expected": 5.77,
+          "pct": 1.72,
+          "enrichment_ratio": 1.213,
+          "z_score": 0.51
+        },
+        {
+          "feature": "0",
+          "observed": 55,
+          "expected": 52.39,
+          "pct": 13.48,
+          "enrichment_ratio": 1.05,
+          "z_score": 0.36
+        },
+        {
+          "feature": "-ey",
+          "observed": 45,
+          "expected": 45.6,
+          "pct": 11.03,
+          "enrichment_ratio": 0.987,
+          "z_score": -0.09
+        },
+        {
+          "feature": "-ol",
+          "observed": 29,
+          "expected": 31.08,
+          "pct": 7.11,
+          "enrichment_ratio": 0.933,
+          "z_score": -0.37
+        },
+        {
+          "feature": "-ain",
+          "observed": 52,
+          "expected": 60.42,
+          "pct": 12.75,
+          "enrichment_ratio": 0.861,
+          "z_score": -1.08
+        },
+        {
+          "feature": "-dy",
+          "observed": 9,
+          "expected": 12.89,
+          "pct": 2.21,
+          "enrichment_ratio": 0.698,
+          "z_score": -1.08
+        },
+        {
+          "feature": "-edy",
+          "observed": 39,
+          "expected": 46.78,
+          "pct": 9.56,
+          "enrichment_ratio": 0.834,
+          "z_score": -1.14
+        },
+        {
+          "feature": "-ody",
+          "observed": 8,
+          "expected": 11.97,
+          "pct": 1.96,
+          "enrichment_ratio": 0.668,
+          "z_score": -1.15
+        },
+        {
+          "feature": "-y",
+          "observed": 32,
+          "expected": 40.06,
+          "pct": 7.84,
+          "enrichment_ratio": 0.799,
+          "z_score": -1.27
+        }
+      ],
+      "w_plus_1_prefixes": [
+        {
+          "feature": "y-",
+          "observed": 28,
+          "expected": 18.21,
+          "pct": 6.86,
+          "enrichment_ratio": 1.537,
+          "z_score": 2.29
+        },
+        {
+          "feature": "o-",
+          "observed": 68,
+          "expected": 62.8,
+          "pct": 16.67,
+          "enrichment_ratio": 1.083,
+          "z_score": 0.66
+        },
+        {
+          "feature": "bare",
+          "observed": 257,
+          "expected": 262.24,
+          "pct": 62.99,
+          "enrichment_ratio": 0.98,
+          "z_score": -0.32
+        },
+        {
+          "feature": "q-",
+          "observed": 55,
+          "expected": 64.75,
+          "pct": 13.48,
+          "enrichment_ratio": 0.849,
+          "z_score": -1.21
+        }
+      ]
+    },
+    "Zodiac": {
+      "instance_count": 496,
+      "w_minus_1_total": 493,
+      "w_plus_1_total": 480,
+      "w_minus_1_top_roots": [
+        {
+          "feature": "te",
+          "observed": 13,
+          "expected": 3.95,
+          "pct": 2.64,
+          "enrichment_ratio": 3.288,
+          "z_score": 4.55
+        },
+        {
+          "feature": "ain",
+          "observed": 17,
+          "expected": 8.08,
+          "pct": 3.45,
+          "enrichment_ratio": 2.105,
+          "z_score": 3.14
+        },
+        {
+          "feature": "tsh",
+          "observed": 5,
+          "expected": 1.54,
+          "pct": 1.01,
+          "enrichment_ratio": 3.251,
+          "z_score": 2.79
+        },
+        {
+          "feature": "dch",
+          "observed": 6,
+          "expected": 2.1,
+          "pct": 1.22,
+          "enrichment_ratio": 2.859,
+          "z_score": 2.69
+        },
+        {
+          "feature": "t",
+          "observed": 47,
+          "expected": 34.26,
+          "pct": 9.53,
+          "enrichment_ratio": 1.372,
+          "z_score": 2.18
+        },
+        {
+          "feature": "al",
+          "observed": 6,
+          "expected": 3.47,
+          "pct": 1.22,
+          "enrichment_ratio": 1.728,
+          "z_score": 1.36
+        },
+        {
+          "feature": "cth",
+          "observed": 10,
+          "expected": 6.74,
+          "pct": 2.03,
+          "enrichment_ratio": 1.484,
+          "z_score": 1.26
+        },
+        {
+          "feature": "ckh",
+          "observed": 6,
+          "expected": 3.93,
+          "pct": 1.22,
+          "enrichment_ratio": 1.528,
+          "z_score": 1.05
+        },
+        {
+          "feature": "or",
+          "observed": 9,
+          "expected": 6.65,
+          "pct": 1.83,
+          "enrichment_ratio": 1.353,
+          "z_score": 0.91
+        },
+        {
+          "feature": "lk",
+          "observed": 6,
+          "expected": 4.35,
+          "pct": 1.22,
+          "enrichment_ratio": 1.38,
+          "z_score": 0.79
+        },
+        {
+          "feature": "tch",
+          "observed": 15,
+          "expected": 13.39,
+          "pct": 3.04,
+          "enrichment_ratio": 1.121,
+          "z_score": 0.44
+        },
+        {
+          "feature": "kch",
+          "observed": 10,
+          "expected": 9.25,
+          "pct": 2.03,
+          "enrichment_ratio": 1.081,
+          "z_score": 0.25
+        },
+        {
+          "feature": "che",
+          "observed": 9,
+          "expected": 9.1,
+          "pct": 1.83,
+          "enrichment_ratio": 0.989,
+          "z_score": -0.03
+        },
+        {
+          "feature": "ke",
+          "observed": 9,
+          "expected": 9.24,
+          "pct": 1.83,
+          "enrichment_ratio": 0.974,
+          "z_score": -0.08
+        },
+        {
+          "feature": "she",
+          "observed": 5,
+          "expected": 5.5,
+          "pct": 1.01,
+          "enrichment_ratio": 0.91,
+          "z_score": -0.21
+        }
+      ],
+      "w_minus_1_suffixes": [
+        {
+          "feature": "-s",
+          "observed": 26,
+          "expected": 13.05,
+          "pct": 5.27,
+          "enrichment_ratio": 1.993,
+          "z_score": 3.59
+        },
+        {
+          "feature": "-ody",
+          "observed": 27,
+          "expected": 16.14,
+          "pct": 5.48,
+          "enrichment_ratio": 1.673,
+          "z_score": 2.7
+        },
+        {
+          "feature": "-ar",
+          "observed": 47,
+          "expected": 40.61,
+          "pct": 9.53,
+          "enrichment_ratio": 1.157,
+          "z_score": 1.0
+        },
+        {
+          "feature": "-r",
+          "observed": 13,
+          "expected": 10.43,
+          "pct": 2.64,
+          "enrichment_ratio": 1.247,
+          "z_score": 0.8
+        },
+        {
+          "feature": "-dy",
+          "observed": 17,
+          "expected": 15.13,
+          "pct": 3.45,
+          "enrichment_ratio": 1.124,
+          "z_score": 0.48
+        },
+        {
+          "feature": "-y",
+          "observed": 49,
+          "expected": 47.52,
+          "pct": 9.94,
+          "enrichment_ratio": 1.031,
+          "z_score": 0.22
+        },
+        {
+          "feature": "-edy",
+          "observed": 50,
+          "expected": 49.2,
+          "pct": 10.14,
+          "enrichment_ratio": 1.016,
+          "z_score": 0.11
+        },
+        {
+          "feature": "-d",
+          "observed": 7,
+          "expected": 7.25,
+          "pct": 1.42,
+          "enrichment_ratio": 0.965,
+          "z_score": -0.09
+        },
+        {
+          "feature": "0",
+          "observed": 63,
+          "expected": 65.03,
+          "pct": 12.78,
+          "enrichment_ratio": 0.969,
+          "z_score": -0.25
+        },
+        {
+          "feature": "-ain",
+          "observed": 70,
+          "expected": 72.74,
+          "pct": 14.2,
+          "enrichment_ratio": 0.962,
+          "z_score": -0.32
+        },
+        {
+          "feature": "-or",
+          "observed": 25,
+          "expected": 27.45,
+          "pct": 5.07,
+          "enrichment_ratio": 0.911,
+          "z_score": -0.47
+        },
+        {
+          "feature": "-al",
+          "observed": 20,
+          "expected": 22.41,
+          "pct": 4.06,
+          "enrichment_ratio": 0.893,
+          "z_score": -0.51
+        },
+        {
+          "feature": "-ey",
+          "observed": 43,
+          "expected": 55.33,
+          "pct": 8.72,
+          "enrichment_ratio": 0.777,
+          "z_score": -1.66
+        },
+        {
+          "feature": "-ol",
+          "observed": 24,
+          "expected": 38.5,
+          "pct": 4.87,
+          "enrichment_ratio": 0.623,
+          "z_score": -2.34
+        }
+      ],
+      "w_minus_1_prefixes": [
+        {
+          "feature": "y-",
+          "observed": 37,
+          "expected": 23.03,
+          "pct": 7.51,
+          "enrichment_ratio": 1.607,
+          "z_score": 2.91
+        },
+        {
+          "feature": "o-",
+          "observed": 94,
+          "expected": 77.1,
+          "pct": 19.07,
+          "enrichment_ratio": 1.219,
+          "z_score": 1.93
+        },
+        {
+          "feature": "q-",
+          "observed": 77,
+          "expected": 73.54,
+          "pct": 15.62,
+          "enrichment_ratio": 1.047,
+          "z_score": 0.4
+        },
+        {
+          "feature": "bare",
+          "observed": 285,
+          "expected": 319.34,
+          "pct": 57.81,
+          "enrichment_ratio": 0.892,
+          "z_score": -1.92
+        }
+      ],
+      "w_plus_1_top_roots": [
+        {
+          "feature": "ain",
+          "observed": 19,
+          "expected": 7.9,
+          "pct": 3.96,
+          "enrichment_ratio": 2.404,
+          "z_score": 3.95
+        },
+        {
+          "feature": "cheo",
+          "observed": 7,
+          "expected": 2.37,
+          "pct": 1.46,
+          "enrichment_ratio": 2.952,
+          "z_score": 3.01
+        },
+        {
+          "feature": "s",
+          "observed": 18,
+          "expected": 9.15,
+          "pct": 3.75,
+          "enrichment_ratio": 1.968,
+          "z_score": 2.93
+        },
+        {
+          "feature": "ol",
+          "observed": 14,
+          "expected": 8.63,
+          "pct": 2.92,
+          "enrichment_ratio": 1.621,
+          "z_score": 1.83
+        },
+        {
+          "feature": "dy",
+          "observed": 5,
+          "expected": 2.8,
+          "pct": 1.04,
+          "enrichment_ratio": 1.783,
+          "z_score": 1.31
+        },
+        {
+          "feature": "olk",
+          "observed": 6,
+          "expected": 3.67,
+          "pct": 1.25,
+          "enrichment_ratio": 1.634,
+          "z_score": 1.22
+        },
+        {
+          "feature": "te",
+          "observed": 6,
+          "expected": 3.85,
+          "pct": 1.25,
+          "enrichment_ratio": 1.559,
+          "z_score": 1.1
+        },
+        {
+          "feature": "ar",
+          "observed": 8,
+          "expected": 5.68,
+          "pct": 1.67,
+          "enrichment_ratio": 1.409,
+          "z_score": 0.97
+        },
+        {
+          "feature": "r",
+          "observed": 5,
+          "expected": 3.63,
+          "pct": 1.04,
+          "enrichment_ratio": 1.377,
+          "z_score": 0.72
+        },
+        {
+          "feature": "ke",
+          "observed": 11,
+          "expected": 9.16,
+          "pct": 2.29,
+          "enrichment_ratio": 1.201,
+          "z_score": 0.61
+        },
+        {
+          "feature": "or",
+          "observed": 7,
+          "expected": 6.77,
+          "pct": 1.46,
+          "enrichment_ratio": 1.033,
+          "z_score": 0.09
+        },
+        {
+          "feature": "t",
+          "observed": 33,
+          "expected": 33.21,
+          "pct": 6.88,
+          "enrichment_ratio": 0.994,
+          "z_score": -0.04
+        },
+        {
+          "feature": "she",
+          "observed": 5,
+          "expected": 5.42,
+          "pct": 1.04,
+          "enrichment_ratio": 0.922,
+          "z_score": -0.18
+        },
+        {
+          "feature": "d",
+          "observed": 27,
+          "expected": 28.65,
+          "pct": 5.62,
+          "enrichment_ratio": 0.943,
+          "z_score": -0.31
+        },
+        {
+          "feature": "kch",
+          "observed": 8,
+          "expected": 9.12,
+          "pct": 1.67,
+          "enrichment_ratio": 0.877,
+          "z_score": -0.37
+        }
+      ],
+      "w_plus_1_suffixes": [
+        {
+          "feature": "0",
+          "observed": 85,
+          "expected": 63.66,
+          "pct": 17.71,
+          "enrichment_ratio": 1.335,
+          "z_score": 2.67
+        },
+        {
+          "feature": "-al",
+          "observed": 31,
+          "expected": 21.63,
+          "pct": 6.46,
+          "enrichment_ratio": 1.433,
+          "z_score": 2.01
+        },
+        {
+          "feature": "-or",
+          "observed": 33,
+          "expected": 26.33,
+          "pct": 6.88,
+          "enrichment_ratio": 1.253,
+          "z_score": 1.3
+        },
+        {
+          "feature": "-dy",
+          "observed": 18,
+          "expected": 14.93,
+          "pct": 3.75,
+          "enrichment_ratio": 1.206,
+          "z_score": 0.79
+        },
+        {
+          "feature": "-ol",
+          "observed": 37,
+          "expected": 37.12,
+          "pct": 7.71,
+          "enrichment_ratio": 0.997,
+          "z_score": -0.02
+        },
+        {
+          "feature": "-r",
+          "observed": 9,
+          "expected": 10.01,
+          "pct": 1.88,
+          "enrichment_ratio": 0.899,
+          "z_score": -0.32
+        },
+        {
+          "feature": "-s",
+          "observed": 11,
+          "expected": 12.53,
+          "pct": 2.29,
+          "enrichment_ratio": 0.878,
+          "z_score": -0.43
+        },
+        {
+          "feature": "-ey",
+          "observed": 50,
+          "expected": 54.13,
+          "pct": 10.42,
+          "enrichment_ratio": 0.924,
+          "z_score": -0.56
+        },
+        {
+          "feature": "-ody",
+          "observed": 13,
+          "expected": 15.54,
+          "pct": 2.71,
+          "enrichment_ratio": 0.837,
+          "z_score": -0.64
+        },
+        {
+          "feature": "-d",
+          "observed": 5,
+          "expected": 6.95,
+          "pct": 1.04,
+          "enrichment_ratio": 0.72,
+          "z_score": -0.74
+        },
+        {
+          "feature": "-y",
+          "observed": 41,
+          "expected": 46.39,
+          "pct": 8.54,
+          "enrichment_ratio": 0.884,
+          "z_score": -0.79
+        },
+        {
+          "feature": "-ain",
+          "observed": 64,
+          "expected": 71.51,
+          "pct": 13.33,
+          "enrichment_ratio": 0.895,
+          "z_score": -0.89
+        },
+        {
+          "feature": "-edy",
+          "observed": 41,
+          "expected": 47.85,
+          "pct": 8.54,
+          "enrichment_ratio": 0.857,
+          "z_score": -0.99
+        },
+        {
+          "feature": "-ar",
+          "observed": 32,
+          "expected": 39.09,
+          "pct": 6.67,
+          "enrichment_ratio": 0.819,
+          "z_score": -1.13
+        }
+      ],
+      "w_plus_1_prefixes": [
+        {
+          "feature": "y-",
+          "observed": 32,
+          "expected": 22.57,
+          "pct": 6.67,
+          "enrichment_ratio": 1.418,
+          "z_score": 1.98
+        },
+        {
+          "feature": "o-",
+          "observed": 76,
+          "expected": 76.49,
+          "pct": 15.83,
+          "enrichment_ratio": 0.994,
+          "z_score": -0.06
+        },
+        {
+          "feature": "bare",
+          "observed": 305,
+          "expected": 309.31,
+          "pct": 63.54,
+          "enrichment_ratio": 0.986,
+          "z_score": -0.24
+        },
+        {
+          "feature": "q-",
+          "observed": 67,
+          "expected": 71.63,
+          "pct": 13.96,
+          "enrichment_ratio": 0.935,
+          "z_score": -0.55
+        }
+      ]
+    },
+    "Astro": {
+      "instance_count": 286,
+      "w_minus_1_total": 283,
+      "w_plus_1_total": 277,
+      "w_minus_1_top_roots": [
+        {
+          "feature": "d",
+          "observed": 23,
+          "expected": 17.06,
+          "pct": 8.13,
+          "enrichment_ratio": 1.348,
+          "z_score": 1.44
+        },
+        {
+          "feature": "k",
+          "observed": 37,
+          "expected": 31.91,
+          "pct": 13.07,
+          "enrichment_ratio": 1.159,
+          "z_score": 0.9
+        },
+        {
+          "feature": "ar",
+          "observed": 4,
+          "expected": 3.02,
+          "pct": 1.41,
+          "enrichment_ratio": 1.327,
+          "z_score": 0.57
+        },
+        {
+          "feature": "ol",
+          "observed": 6,
+          "expected": 4.99,
+          "pct": 2.12,
+          "enrichment_ratio": 1.202,
+          "z_score": 0.45
+        },
+        {
+          "feature": "kch",
+          "observed": 7,
+          "expected": 5.92,
+          "pct": 2.47,
+          "enrichment_ratio": 1.182,
+          "z_score": 0.44
+        },
+        {
+          "feature": "tch",
+          "observed": 9,
+          "expected": 8.33,
+          "pct": 3.18,
+          "enrichment_ratio": 1.081,
+          "z_score": 0.23
+        },
+        {
+          "feature": "cth",
+          "observed": 5,
+          "expected": 4.55,
+          "pct": 1.77,
+          "enrichment_ratio": 1.099,
+          "z_score": 0.21
+        },
+        {
+          "feature": "sh",
+          "observed": 12,
+          "expected": 11.75,
+          "pct": 4.24,
+          "enrichment_ratio": 1.022,
+          "z_score": 0.07
+        },
+        {
+          "feature": "ain",
+          "observed": 4,
+          "expected": 4.22,
+          "pct": 1.41,
+          "enrichment_ratio": 0.949,
+          "z_score": -0.1
+        },
+        {
+          "feature": "s",
+          "observed": 4,
+          "expected": 5.28,
+          "pct": 1.41,
+          "enrichment_ratio": 0.758,
+          "z_score": -0.56
+        },
+        {
+          "feature": "ch",
+          "observed": 16,
+          "expected": 19.6,
+          "pct": 5.65,
+          "enrichment_ratio": 0.816,
+          "z_score": -0.81
+        },
+        {
+          "feature": "t",
+          "observed": 16,
+          "expected": 19.73,
+          "pct": 5.65,
+          "enrichment_ratio": 0.811,
+          "z_score": -0.84
+        }
+      ],
+      "w_minus_1_suffixes": [
+        {
+          "feature": "-s",
+          "observed": 13,
+          "expected": 7.26,
+          "pct": 4.59,
+          "enrichment_ratio": 1.791,
+          "z_score": 2.13
+        },
+        {
+          "feature": "-dy",
+          "observed": 15,
+          "expected": 9.25,
+          "pct": 5.3,
+          "enrichment_ratio": 1.621,
+          "z_score": 1.89
+        },
+        {
+          "feature": "-ain",
+          "observed": 51,
+          "expected": 41.79,
+          "pct": 18.02,
+          "enrichment_ratio": 1.22,
+          "z_score": 1.42
+        },
+        {
+          "feature": "-or",
+          "observed": 21,
+          "expected": 16.65,
+          "pct": 7.42,
+          "enrichment_ratio": 1.261,
+          "z_score": 1.07
+        },
+        {
+          "feature": "-al",
+          "observed": 16,
+          "expected": 12.37,
+          "pct": 5.65,
+          "enrichment_ratio": 1.293,
+          "z_score": 1.03
+        },
+        {
+          "feature": "-ar",
+          "observed": 28,
+          "expected": 23.24,
+          "pct": 9.89,
+          "enrichment_ratio": 1.205,
+          "z_score": 0.99
+        },
+        {
+          "feature": "-d",
+          "observed": 6,
+          "expected": 4.31,
+          "pct": 2.12,
+          "enrichment_ratio": 1.391,
+          "z_score": 0.81
+        },
+        {
+          "feature": "-r",
+          "observed": 6,
+          "expected": 5.46,
+          "pct": 2.12,
+          "enrichment_ratio": 1.099,
+          "z_score": 0.23
+        },
+        {
+          "feature": "-ody",
+          "observed": 9,
+          "expected": 8.69,
+          "pct": 3.18,
+          "enrichment_ratio": 1.036,
+          "z_score": 0.11
+        },
+        {
+          "feature": "-ol",
+          "observed": 20,
+          "expected": 21.89,
+          "pct": 7.07,
+          "enrichment_ratio": 0.914,
+          "z_score": -0.4
+        },
+        {
+          "feature": "-ey",
+          "observed": 24,
+          "expected": 29.11,
+          "pct": 8.48,
+          "enrichment_ratio": 0.825,
+          "z_score": -0.95
+        },
+        {
+          "feature": "0",
+          "observed": 28,
+          "expected": 36.67,
+          "pct": 9.89,
+          "enrichment_ratio": 0.763,
+          "z_score": -1.43
+        },
+        {
+          "feature": "-y",
+          "observed": 20,
+          "expected": 30.17,
+          "pct": 7.07,
+          "enrichment_ratio": 0.663,
+          "z_score": -1.85
+        },
+        {
+          "feature": "-edy",
+          "observed": 17,
+          "expected": 29.14,
+          "pct": 6.01,
+          "enrichment_ratio": 0.583,
+          "z_score": -2.25
+        }
+      ],
+      "w_minus_1_prefixes": [
+        {
+          "feature": "y-",
+          "observed": 16,
+          "expected": 13.36,
+          "pct": 5.65,
+          "enrichment_ratio": 1.198,
+          "z_score": 0.72
+        },
+        {
+          "feature": "bare",
+          "observed": 190,
+          "expected": 185.51,
+          "pct": 67.14,
+          "enrichment_ratio": 1.024,
+          "z_score": 0.33
+        },
+        {
+          "feature": "q-",
+          "observed": 43,
+          "expected": 41.83,
+          "pct": 15.19,
+          "enrichment_ratio": 1.028,
+          "z_score": 0.18
+        },
+        {
+          "feature": "o-",
+          "observed": 34,
+          "expected": 42.31,
+          "pct": 12.01,
+          "enrichment_ratio": 0.804,
+          "z_score": -1.28
+        }
+      ],
+      "w_plus_1_top_roots": [
+        {
+          "feature": "ain",
+          "observed": 9,
+          "expected": 4.17,
+          "pct": 3.25,
+          "enrichment_ratio": 2.156,
+          "z_score": 2.36
+        },
+        {
+          "feature": "ch",
+          "observed": 28,
+          "expected": 19.61,
+          "pct": 10.11,
+          "enrichment_ratio": 1.428,
+          "z_score": 1.89
+        },
+        {
+          "feature": "s",
+          "observed": 8,
+          "expected": 5.19,
+          "pct": 2.89,
+          "enrichment_ratio": 1.543,
+          "z_score": 1.24
+        },
+        {
+          "feature": "she",
+          "observed": 4,
+          "expected": 2.91,
+          "pct": 1.44,
+          "enrichment_ratio": 1.376,
+          "z_score": 0.64
+        },
+        {
+          "feature": "ar",
+          "observed": 4,
+          "expected": 3.03,
+          "pct": 1.44,
+          "enrichment_ratio": 1.321,
+          "z_score": 0.56
+        },
+        {
+          "feature": "kch",
+          "observed": 7,
+          "expected": 5.82,
+          "pct": 2.53,
+          "enrichment_ratio": 1.203,
+          "z_score": 0.49
+        },
+        {
+          "feature": "tch",
+          "observed": 9,
+          "expected": 7.78,
+          "pct": 3.25,
+          "enrichment_ratio": 1.157,
+          "z_score": 0.44
+        },
+        {
+          "feature": "ke",
+          "observed": 5,
+          "expected": 4.22,
+          "pct": 1.81,
+          "enrichment_ratio": 1.186,
+          "z_score": 0.38
+        },
+        {
+          "feature": "d",
+          "observed": 18,
+          "expected": 17.14,
+          "pct": 6.5,
+          "enrichment_ratio": 1.05,
+          "z_score": 0.21
+        },
+        {
+          "feature": "ol",
+          "observed": 5,
+          "expected": 4.94,
+          "pct": 1.81,
+          "enrichment_ratio": 1.011,
+          "z_score": 0.02
+        },
+        {
+          "feature": "cth",
+          "observed": 4,
+          "expected": 4.55,
+          "pct": 1.44,
+          "enrichment_ratio": 0.878,
+          "z_score": -0.26
+        },
+        {
+          "feature": "sh",
+          "observed": 10,
+          "expected": 11.65,
+          "pct": 3.61,
+          "enrichment_ratio": 0.859,
+          "z_score": -0.48
+        },
+        {
+          "feature": "t",
+          "observed": 16,
+          "expected": 19.3,
+          "pct": 5.78,
+          "enrichment_ratio": 0.829,
+          "z_score": -0.75
+        },
+        {
+          "feature": "k",
+          "observed": 21,
+          "expected": 31.6,
+          "pct": 7.58,
+          "enrichment_ratio": 0.665,
+          "z_score": -1.89
+        }
+      ],
+      "w_plus_1_suffixes": [
+        {
+          "feature": "-aly",
+          "observed": 4,
+          "expected": 1.43,
+          "pct": 1.44,
+          "enrichment_ratio": 2.801,
+          "z_score": 2.15
+        },
+        {
+          "feature": "-ody",
+          "observed": 14,
+          "expected": 8.47,
+          "pct": 5.05,
+          "enrichment_ratio": 1.652,
+          "z_score": 1.9
+        },
+        {
+          "feature": "-d",
+          "observed": 7,
+          "expected": 4.15,
+          "pct": 2.53,
+          "enrichment_ratio": 1.686,
+          "z_score": 1.4
+        },
+        {
+          "feature": "-dy",
+          "observed": 13,
+          "expected": 9.11,
+          "pct": 4.69,
+          "enrichment_ratio": 1.427,
+          "z_score": 1.29
+        },
+        {
+          "feature": "-al",
+          "observed": 16,
+          "expected": 12.02,
+          "pct": 5.78,
+          "enrichment_ratio": 1.331,
+          "z_score": 1.15
+        },
+        {
+          "feature": "-or",
+          "observed": 18,
+          "expected": 16.01,
+          "pct": 6.5,
+          "enrichment_ratio": 1.125,
+          "z_score": 0.5
+        },
+        {
+          "feature": "-ar",
+          "observed": 24,
+          "expected": 22.63,
+          "pct": 8.66,
+          "enrichment_ratio": 1.06,
+          "z_score": 0.29
+        },
+        {
+          "feature": "-ol",
+          "observed": 21,
+          "expected": 21.2,
+          "pct": 7.58,
+          "enrichment_ratio": 0.991,
+          "z_score": -0.04
+        },
+        {
+          "feature": "-y",
+          "observed": 29,
+          "expected": 29.46,
+          "pct": 10.47,
+          "enrichment_ratio": 0.984,
+          "z_score": -0.09
+        },
+        {
+          "feature": "-r",
+          "observed": 5,
+          "expected": 5.28,
+          "pct": 1.81,
+          "enrichment_ratio": 0.947,
+          "z_score": -0.12
+        },
+        {
+          "feature": "-s",
+          "observed": 6,
+          "expected": 7.06,
+          "pct": 2.17,
+          "enrichment_ratio": 0.85,
+          "z_score": -0.4
+        },
+        {
+          "feature": "0",
+          "observed": 31,
+          "expected": 35.77,
+          "pct": 11.19,
+          "enrichment_ratio": 0.867,
+          "z_score": -0.8
+        },
+        {
+          "feature": "-ain",
+          "observed": 36,
+          "expected": 41.51,
+          "pct": 13.0,
+          "enrichment_ratio": 0.867,
+          "z_score": -0.86
+        },
+        {
+          "feature": "-ey",
+          "observed": 24,
+          "expected": 28.78,
+          "pct": 8.66,
+          "enrichment_ratio": 0.834,
+          "z_score": -0.89
+        },
+        {
+          "feature": "-edy",
+          "observed": 22,
+          "expected": 28.49,
+          "pct": 7.94,
+          "enrichment_ratio": 0.772,
+          "z_score": -1.22
+        }
+      ],
+      "w_plus_1_prefixes": [
+        {
+          "feature": "bare",
+          "observed": 195,
+          "expected": 180.31,
+          "pct": 70.4,
+          "enrichment_ratio": 1.081,
+          "z_score": 1.09
+        },
+        {
+          "feature": "y-",
+          "observed": 16,
+          "expected": 13.19,
+          "pct": 5.78,
+          "enrichment_ratio": 1.213,
+          "z_score": 0.77
+        },
+        {
+          "feature": "o-",
+          "observed": 36,
+          "expected": 42.44,
+          "pct": 13.0,
+          "enrichment_ratio": 0.848,
+          "z_score": -0.99
+        },
+        {
+          "feature": "q-",
+          "observed": 30,
+          "expected": 41.06,
+          "pct": 10.83,
+          "enrichment_ratio": 0.731,
+          "z_score": -1.73
+        }
+      ]
+    },
+    "Rosettes_Cosmo": {
+      "instance_count": 174,
+      "w_minus_1_total": 174,
+      "w_plus_1_total": 167,
+      "w_minus_1_top_roots": [
+        {
+          "feature": "kch",
+          "observed": 6,
+          "expected": 3.16,
+          "pct": 3.45,
+          "enrichment_ratio": 1.896,
+          "z_score": 1.59
+        },
+        {
+          "feature": "d",
+          "observed": 12,
+          "expected": 8.79,
+          "pct": 6.9,
+          "enrichment_ratio": 1.365,
+          "z_score": 1.08
+        },
+        {
+          "feature": "t",
+          "observed": 17,
+          "expected": 13.5,
+          "pct": 9.77,
+          "enrichment_ratio": 1.259,
+          "z_score": 0.95
+        },
+        {
+          "feature": "ch",
+          "observed": 13,
+          "expected": 11.4,
+          "pct": 7.47,
+          "enrichment_ratio": 1.14,
+          "z_score": 0.47
+        },
+        {
+          "feature": "ol",
+          "observed": 4,
+          "expected": 3.25,
+          "pct": 2.3,
+          "enrichment_ratio": 1.231,
+          "z_score": 0.42
+        },
+        {
+          "feature": "tch",
+          "observed": 5,
+          "expected": 4.75,
+          "pct": 2.87,
+          "enrichment_ratio": 1.052,
+          "z_score": 0.11
+        },
+        {
+          "feature": "sh",
+          "observed": 7,
+          "expected": 7.1,
+          "pct": 4.02,
+          "enrichment_ratio": 0.986,
+          "z_score": -0.04
+        },
+        {
+          "feature": "k",
+          "observed": 20,
+          "expected": 21.88,
+          "pct": 11.49,
+          "enrichment_ratio": 0.914,
+          "z_score": -0.4
+        }
+      ],
+      "w_minus_1_suffixes": [
+        {
+          "feature": "-edy",
+          "observed": 44,
+          "expected": 21.62,
+          "pct": 25.29,
+          "enrichment_ratio": 2.035,
+          "z_score": 4.81
+        },
+        {
+          "feature": "-dy",
+          "observed": 13,
+          "expected": 5.4,
+          "pct": 7.47,
+          "enrichment_ratio": 2.407,
+          "z_score": 3.27
+        },
+        {
+          "feature": "-ain",
+          "observed": 31,
+          "expected": 26.66,
+          "pct": 17.82,
+          "enrichment_ratio": 1.163,
+          "z_score": 0.84
+        },
+        {
+          "feature": "-ody",
+          "observed": 6,
+          "expected": 4.84,
+          "pct": 3.45,
+          "enrichment_ratio": 1.239,
+          "z_score": 0.53
+        },
+        {
+          "feature": "-or",
+          "observed": 8,
+          "expected": 8.09,
+          "pct": 4.6,
+          "enrichment_ratio": 0.989,
+          "z_score": -0.03
+        },
+        {
+          "feature": "-s",
+          "observed": 4,
+          "expected": 4.12,
+          "pct": 2.3,
+          "enrichment_ratio": 0.97,
+          "z_score": -0.06
+        },
+        {
+          "feature": "-y",
+          "observed": 15,
+          "expected": 15.96,
+          "pct": 8.62,
+          "enrichment_ratio": 0.94,
+          "z_score": -0.24
+        },
+        {
+          "feature": "-ar",
+          "observed": 11,
+          "expected": 14.86,
+          "pct": 6.32,
+          "enrichment_ratio": 0.74,
+          "z_score": -1.0
+        },
+        {
+          "feature": "-al",
+          "observed": 5,
+          "expected": 8.61,
+          "pct": 2.87,
+          "enrichment_ratio": 0.58,
+          "z_score": -1.23
+        },
+        {
+          "feature": "0",
+          "observed": 14,
+          "expected": 22.02,
+          "pct": 8.05,
+          "enrichment_ratio": 0.636,
+          "z_score": -1.71
+        },
+        {
+          "feature": "-ey",
+          "observed": 10,
+          "expected": 19.88,
+          "pct": 5.75,
+          "enrichment_ratio": 0.503,
+          "z_score": -2.22
+        }
+      ],
+      "w_minus_1_prefixes": [
+        {
+          "feature": "o-",
+          "observed": 33,
+          "expected": 27.77,
+          "pct": 18.97,
+          "enrichment_ratio": 1.188,
+          "z_score": 0.99
+        },
+        {
+          "feature": "q-",
+          "observed": 33,
+          "expected": 28.44,
+          "pct": 18.97,
+          "enrichment_ratio": 1.16,
+          "z_score": 0.86
+        },
+        {
+          "feature": "bare",
+          "observed": 103,
+          "expected": 110.35,
+          "pct": 59.2,
+          "enrichment_ratio": 0.933,
+          "z_score": -0.7
+        },
+        {
+          "feature": "y-",
+          "observed": 5,
+          "expected": 7.44,
+          "pct": 2.87,
+          "enrichment_ratio": 0.672,
+          "z_score": -0.89
+        }
+      ],
+      "w_plus_1_top_roots": [
+        {
+          "feature": "t",
+          "observed": 19,
+          "expected": 13.04,
+          "pct": 11.38,
+          "enrichment_ratio": 1.457,
+          "z_score": 1.65
+        },
+        {
+          "feature": "d",
+          "observed": 13,
+          "expected": 8.55,
+          "pct": 7.78,
+          "enrichment_ratio": 1.52,
+          "z_score": 1.52
+        },
+        {
+          "feature": "ar",
+          "observed": 4,
+          "expected": 2.2,
+          "pct": 2.4,
+          "enrichment_ratio": 1.814,
+          "z_score": 1.21
+        },
+        {
+          "feature": "kch",
+          "observed": 5,
+          "expected": 3.05,
+          "pct": 2.99,
+          "enrichment_ratio": 1.64,
+          "z_score": 1.12
+        },
+        {
+          "feature": "tch",
+          "observed": 6,
+          "expected": 4.33,
+          "pct": 3.59,
+          "enrichment_ratio": 1.386,
+          "z_score": 0.8
+        },
+        {
+          "feature": "s",
+          "observed": 4,
+          "expected": 2.86,
+          "pct": 2.4,
+          "enrichment_ratio": 1.401,
+          "z_score": 0.68
+        },
+        {
+          "feature": "ch",
+          "observed": 9,
+          "expected": 11.17,
+          "pct": 5.39,
+          "enrichment_ratio": 0.806,
+          "z_score": -0.65
+        },
+        {
+          "feature": "sh",
+          "observed": 4,
+          "expected": 6.92,
+          "pct": 2.4,
+          "enrichment_ratio": 0.578,
+          "z_score": -1.11
+        },
+        {
+          "feature": "k",
+          "observed": 14,
+          "expected": 21.34,
+          "pct": 8.38,
+          "enrichment_ratio": 0.656,
+          "z_score": -1.59
+        }
+      ],
+      "w_plus_1_suffixes": [
+        {
+          "feature": "-edy",
+          "observed": 27,
+          "expected": 20.99,
+          "pct": 16.17,
+          "enrichment_ratio": 1.287,
+          "z_score": 1.31
+        },
+        {
+          "feature": "-ol",
+          "observed": 14,
+          "expected": 10.57,
+          "pct": 8.38,
+          "enrichment_ratio": 1.325,
+          "z_score": 1.06
+        },
+        {
+          "feature": "-or",
+          "observed": 10,
+          "expected": 7.49,
+          "pct": 5.99,
+          "enrichment_ratio": 1.334,
+          "z_score": 0.92
+        },
+        {
+          "feature": "-ody",
+          "observed": 6,
+          "expected": 4.58,
+          "pct": 3.59,
+          "enrichment_ratio": 1.309,
+          "z_score": 0.66
+        },
+        {
+          "feature": "-s",
+          "observed": 5,
+          "expected": 3.89,
+          "pct": 2.99,
+          "enrichment_ratio": 1.287,
+          "z_score": 0.57
+        },
+        {
+          "feature": "-al",
+          "observed": 9,
+          "expected": 8.24,
+          "pct": 5.39,
+          "enrichment_ratio": 1.092,
+          "z_score": 0.26
+        },
+        {
+          "feature": "-r",
+          "observed": 4,
+          "expected": 3.6,
+          "pct": 2.4,
+          "enrichment_ratio": 1.112,
+          "z_score": 0.21
+        },
+        {
+          "feature": "-y",
+          "observed": 15,
+          "expected": 15.19,
+          "pct": 8.98,
+          "enrichment_ratio": 0.987,
+          "z_score": -0.05
+        },
+        {
+          "feature": "-dy",
+          "observed": 5,
+          "expected": 5.21,
+          "pct": 2.99,
+          "enrichment_ratio": 0.96,
+          "z_score": -0.09
+        },
+        {
+          "feature": "-ar",
+          "observed": 13,
+          "expected": 14.17,
+          "pct": 7.78,
+          "enrichment_ratio": 0.918,
+          "z_score": -0.31
+        },
+        {
+          "feature": "-ain",
+          "observed": 24,
+          "expected": 25.92,
+          "pct": 14.37,
+          "enrichment_ratio": 0.926,
+          "z_score": -0.38
+        },
+        {
+          "feature": "0",
+          "observed": 17,
+          "expected": 21.18,
+          "pct": 10.18,
+          "enrichment_ratio": 0.803,
+          "z_score": -0.91
+        },
+        {
+          "feature": "-ey",
+          "observed": 14,
+          "expected": 19.3,
+          "pct": 8.38,
+          "enrichment_ratio": 0.725,
+          "z_score": -1.21
+        }
+      ],
+      "w_plus_1_prefixes": [
+        {
+          "feature": "o-",
+          "observed": 33,
+          "expected": 27.31,
+          "pct": 19.76,
+          "enrichment_ratio": 1.208,
+          "z_score": 1.09
+        },
+        {
+          "feature": "y-",
+          "observed": 9,
+          "expected": 7.15,
+          "pct": 5.39,
+          "enrichment_ratio": 1.258,
+          "z_score": 0.69
+        },
+        {
+          "feature": "q-",
+          "observed": 29,
+          "expected": 27.51,
+          "pct": 17.37,
+          "enrichment_ratio": 1.054,
+          "z_score": 0.28
+        },
+        {
+          "feature": "bare",
+          "observed": 96,
+          "expected": 105.03,
+          "pct": 57.49,
+          "enrichment_ratio": 0.914,
+          "z_score": -0.88
+        }
+      ]
+    },
+    "Bio_Nymph": {
+      "instance_count": 60,
+      "w_minus_1_total": 60,
+      "w_plus_1_total": 58,
+      "w_minus_1_top_roots": [
+        {
+          "feature": "k",
+          "observed": 9,
+          "expected": 6.75,
+          "pct": 15.0,
+          "enrichment_ratio": 1.333,
+          "z_score": 0.87
+        }
+      ],
+      "w_minus_1_suffixes": [
+        {
+          "feature": "-al",
+          "observed": 9,
+          "expected": 2.63,
+          "pct": 15.0,
+          "enrichment_ratio": 3.422,
+          "z_score": 3.93
+        },
+        {
+          "feature": "-ey",
+          "observed": 9,
+          "expected": 6.34,
+          "pct": 15.0,
+          "enrichment_ratio": 1.421,
+          "z_score": 1.06
+        },
+        {
+          "feature": "-edy",
+          "observed": 7,
+          "expected": 6.08,
+          "pct": 11.67,
+          "enrichment_ratio": 1.152,
+          "z_score": 0.37
+        },
+        {
+          "feature": "0",
+          "observed": 7,
+          "expected": 7.82,
+          "pct": 11.67,
+          "enrichment_ratio": 0.896,
+          "z_score": -0.29
+        },
+        {
+          "feature": "-y",
+          "observed": 5,
+          "expected": 6.28,
+          "pct": 8.33,
+          "enrichment_ratio": 0.797,
+          "z_score": -0.51
+        },
+        {
+          "feature": "-ain",
+          "observed": 7,
+          "expected": 8.81,
+          "pct": 11.67,
+          "enrichment_ratio": 0.794,
+          "z_score": -0.61
+        }
+      ],
+      "w_minus_1_prefixes": [
+        {
+          "feature": "q-",
+          "observed": 12,
+          "expected": 8.88,
+          "pct": 20.0,
+          "enrichment_ratio": 1.352,
+          "z_score": 1.05
+        },
+        {
+          "feature": "o-",
+          "observed": 10,
+          "expected": 9.06,
+          "pct": 16.67,
+          "enrichment_ratio": 1.104,
+          "z_score": 0.31
+        },
+        {
+          "feature": "bare",
+          "observed": 35,
+          "expected": 39.25,
+          "pct": 58.33,
+          "enrichment_ratio": 0.892,
+          "z_score": -0.68
+        }
+      ],
+      "w_plus_1_top_roots": [
+        {
+          "feature": "k",
+          "observed": 12,
+          "expected": 6.55,
+          "pct": 20.69,
+          "enrichment_ratio": 1.831,
+          "z_score": 2.13
+        },
+        {
+          "feature": "tch",
+          "observed": 4,
+          "expected": 1.6,
+          "pct": 6.9,
+          "enrichment_ratio": 2.504,
+          "z_score": 1.9
+        },
+        {
+          "feature": "t",
+          "observed": 7,
+          "expected": 3.92,
+          "pct": 12.07,
+          "enrichment_ratio": 1.787,
+          "z_score": 1.56
+        }
+      ],
+      "w_plus_1_suffixes": [
+        {
+          "feature": "-ar",
+          "observed": 11,
+          "expected": 4.66,
+          "pct": 18.97,
+          "enrichment_ratio": 2.361,
+          "z_score": 2.94
+        },
+        {
+          "feature": "-dy",
+          "observed": 4,
+          "expected": 1.85,
+          "pct": 6.9,
+          "enrichment_ratio": 2.157,
+          "z_score": 1.58
+        },
+        {
+          "feature": "-ain",
+          "observed": 10,
+          "expected": 8.68,
+          "pct": 17.24,
+          "enrichment_ratio": 1.152,
+          "z_score": 0.45
+        },
+        {
+          "feature": "-or",
+          "observed": 4,
+          "expected": 3.42,
+          "pct": 6.9,
+          "enrichment_ratio": 1.169,
+          "z_score": 0.31
+        },
+        {
+          "feature": "0",
+          "observed": 8,
+          "expected": 7.47,
+          "pct": 13.79,
+          "enrichment_ratio": 1.071,
+          "z_score": 0.2
+        },
+        {
+          "feature": "-edy",
+          "observed": 5,
+          "expected": 5.77,
+          "pct": 8.62,
+          "enrichment_ratio": 0.867,
+          "z_score": -0.32
+        },
+        {
+          "feature": "-y",
+          "observed": 4,
+          "expected": 6.14,
+          "pct": 6.9,
+          "enrichment_ratio": 0.652,
+          "z_score": -0.86
+        }
+      ],
+      "w_plus_1_prefixes": [
+        {
+          "feature": "q-",
+          "observed": 18,
+          "expected": 8.54,
+          "pct": 31.03,
+          "enrichment_ratio": 2.107,
+          "z_score": 3.24
+        },
+        {
+          "feature": "o-",
+          "observed": 16,
+          "expected": 8.99,
+          "pct": 27.59,
+          "enrichment_ratio": 1.78,
+          "z_score": 2.34
+        },
+        {
+          "feature": "bare",
+          "observed": 23,
+          "expected": 37.73,
+          "pct": 39.66,
+          "enrichment_ratio": 0.61,
+          "z_score": -2.4
+        }
+      ]
+    }
+  },
+  "operator_selection_matrix": {
+    "d": {
+      "w_minus_1_pct_by_domain": {
+        "Pharma_All": 5.26,
+        "Zodiac": 4.67,
+        "Astro": 8.13,
+        "Rosettes_Cosmo": 6.9,
+        "Bio_Nymph": 1.67
+      },
+      "w_plus_1_pct_by_domain": {
+        "Pharma_All": 6.64,
+        "Zodiac": 5.62,
+        "Astro": 6.5,
+        "Rosettes_Cosmo": 7.78,
+        "Bio_Nymph": 5.17
+      }
+    },
+    "ch": {
+      "w_minus_1_pct_by_domain": {
+        "Pharma_All": 5.03,
+        "Zodiac": 3.25,
+        "Astro": 5.65,
+        "Rosettes_Cosmo": 7.47,
+        "Bio_Nymph": 3.33
+      },
+      "w_plus_1_pct_by_domain": {
+        "Pharma_All": 5.92,
+        "Zodiac": 5.0,
+        "Astro": 10.11,
+        "Rosettes_Cosmo": 5.39,
+        "Bio_Nymph": 5.17
+      }
+    },
+    "k": {
+      "w_minus_1_pct_by_domain": {
+        "Pharma_All": 11.9,
+        "Zodiac": 10.34,
+        "Astro": 13.07,
+        "Rosettes_Cosmo": 11.49,
+        "Bio_Nymph": 15.0
+      },
+      "w_plus_1_pct_by_domain": {
+        "Pharma_All": 9.72,
+        "Zodiac": 9.58,
+        "Astro": 7.58,
+        "Rosettes_Cosmo": 8.38,
+        "Bio_Nymph": 20.69
+      }
+    },
+    "t": {
+      "w_minus_1_pct_by_domain": {
+        "Pharma_All": 7.78,
+        "Zodiac": 9.53,
+        "Astro": 5.65,
+        "Rosettes_Cosmo": 9.77,
+        "Bio_Nymph": 5.0
+      },
+      "w_plus_1_pct_by_domain": {
+        "Pharma_All": 6.4,
+        "Zodiac": 6.88,
+        "Astro": 5.78,
+        "Rosettes_Cosmo": 11.38,
+        "Bio_Nymph": 12.07
+      }
+    },
+    "sh": {
+      "w_minus_1_pct_by_domain": {
+        "Pharma_All": 3.2,
+        "Zodiac": 3.65,
+        "Astro": 4.24,
+        "Rosettes_Cosmo": 4.02,
+        "Bio_Nymph": 0.0
+      },
+      "w_plus_1_pct_by_domain": {
+        "Pharma_All": 2.37,
+        "Zodiac": 3.54,
+        "Astro": 3.61,
+        "Rosettes_Cosmo": 2.4,
+        "Bio_Nymph": 1.72
+      }
+    },
+    "ke": {
+      "w_minus_1_pct_by_domain": {
+        "Pharma_All": 0.92,
+        "Zodiac": 1.83,
+        "Astro": 1.06,
+        "Rosettes_Cosmo": 1.72,
+        "Bio_Nymph": 3.33
+      },
+      "w_plus_1_pct_by_domain": {
+        "Pharma_All": 2.61,
+        "Zodiac": 2.29,
+        "Astro": 1.81,
+        "Rosettes_Cosmo": 1.2,
+        "Bio_Nymph": 1.72
+      }
+    },
+    "te": {
+      "w_minus_1_pct_by_domain": {
+        "Pharma_All": 0.69,
+        "Zodiac": 2.64,
+        "Astro": 1.06,
+        "Rosettes_Cosmo": 1.15,
+        "Bio_Nymph": 0.0
+      },
+      "w_plus_1_pct_by_domain": {
+        "Pharma_All": 0.24,
+        "Zodiac": 1.25,
+        "Astro": 0.36,
+        "Rosettes_Cosmo": 1.2,
+        "Bio_Nymph": 1.72
+      }
+    },
+    "l": {
+      "w_minus_1_pct_by_domain": {
+        "Pharma_All": 0.23,
+        "Zodiac": 0.0,
+        "Astro": 0.35,
+        "Rosettes_Cosmo": 0.57,
+        "Bio_Nymph": 0.0
+      },
+      "w_plus_1_pct_by_domain": {
+        "Pharma_All": 0.47,
+        "Zodiac": 0.83,
+        "Astro": 1.08,
+        "Rosettes_Cosmo": 0.0,
+        "Bio_Nymph": 0.0
+      }
+    },
+    "che": {
+      "w_minus_1_pct_by_domain": {
+        "Pharma_All": 2.29,
+        "Zodiac": 1.83,
+        "Astro": 0.0,
+        "Rosettes_Cosmo": 1.15,
+        "Bio_Nymph": 3.33
+      },
+      "w_plus_1_pct_by_domain": {
+        "Pharma_All": 2.13,
+        "Zodiac": 1.04,
+        "Astro": 0.36,
+        "Rosettes_Cosmo": 0.6,
+        "Bio_Nymph": 0.0
+      }
+    },
+    "r": {
+      "w_minus_1_pct_by_domain": {
+        "Pharma_All": 1.14,
+        "Zodiac": 0.41,
+        "Astro": 0.0,
+        "Rosettes_Cosmo": 0.57,
+        "Bio_Nymph": 0.0
+      },
+      "w_plus_1_pct_by_domain": {
+        "Pharma_All": 0.24,
+        "Zodiac": 1.04,
+        "Astro": 0.36,
+        "Rosettes_Cosmo": 0.6,
+        "Bio_Nymph": 0.0
+      }
+    }
+  },
+  "top_operator_before_crib_formulas": [
+    {
+      "formula": "[o-t-edy] + <Rosettes_Cosmo:otedain>",
+      "count": 3
+    },
+    {
+      "formula": "[barek-ain] + <Astro:chky>",
+      "count": 2
+    },
+    {
+      "formula": "[bared-ain] + <Zodiac:okedal>",
+      "count": 2
+    },
+    {
+      "formula": "[q-k-edy] + <Zodiac:okedal>",
+      "count": 2
+    },
+    {
+      "formula": "[barech-edy] + <Rosettes_Cosmo:otedain>",
+      "count": 2
+    },
+    {
+      "formula": "[o-t-edy] + <Zodiac:okedal>",
+      "count": 2
+    },
+    {
+      "formula": "[baret-ar] + <Pharma_Botanical:arody>",
+      "count": 2
+    },
+    {
+      "formula": "[q-k-ey] + <Zodiac:okedal>",
+      "count": 2
+    },
+    {
+      "formula": "[q-k-ain] + <Astro:dalar>",
+      "count": 2
+    },
+    {
+      "formula": "[baret-ol] + <Astro:chodar>",
+      "count": 1
+    },
+    {
+      "formula": "[q-k-ey] + <Astro:otshey>",
+      "count": 1
+    },
+    {
+      "formula": "[barech-or] + <Astro:odair>",
+      "count": 1
+    },
+    {
+      "formula": "[y-te-ody] + <Astro:okeodal>",
+      "count": 1
+    },
+    {
+      "formula": "[o-tch-or] + <Pharma_Botanical:olcheor>",
+      "count": 1
+    },
+    {
+      "formula": "[barech-ol] + <Pharma_Botanical:okary>",
+      "count": 1
+    },
+    {
+      "formula": "[barech-ey] + <Rosettes_Cosmo:okas>",
+      "count": 1
+    },
+    {
+      "formula": "[o-tch-y] + <Zodiac:otchody>",
+      "count": 1
+    },
+    {
+      "formula": "[barech-ar] + <Other_Label:chty>",
+      "count": 1
+    },
+    {
+      "formula": "[barech-ey] + <Pharma_Botanical:okos>",
+      "count": 1
+    },
+    {
+      "formula": "[barech-ody] + <Zodiac:otchody>",
+      "count": 1
+    },
+    {
+      "formula": "[y-tch-y] + <Zodiac:dan>",
+      "count": 1
+    },
+    {
+      "formula": "[y-tch-y] + <Zodiac:ytair>",
+      "count": 1
+    },
+    {
+      "formula": "[q-tch-ol] + <Zodiac:otoey>",
+      "count": 1
+    },
+    {
+      "formula": "[y-tch-y] + <Astro:otshey>",
+      "count": 1
+    },
+    {
+      "formula": "[y-tch-ey] + <Zodiac:otcheody>",
+      "count": 1
+    }
+  ],
+  "top_operator_after_crib_formulas": [
+    {
+      "formula": "<Astro:dchol> + [barech-ol]",
+      "count": 2
+    },
+    {
+      "formula": "<Astro:otshey> + [bared-ain]",
+      "count": 2
+    },
+    {
+      "formula": "<Pharma_Botanical:otaly> + [barech-edy]",
+      "count": 2
+    },
+    {
+      "formula": "<Zodiac:okedal> + [baresh-edy]",
+      "count": 2
+    },
+    {
+      "formula": "<Zodiac:ockhol> + [o-k-ol]",
+      "count": 2
+    },
+    {
+      "formula": "<Rosettes_Cosmo:otedain> + [o-t-ar]",
+      "count": 2
+    },
+    {
+      "formula": "<Astro:okodar> + [barech-ody]",
+      "count": 1
+    },
+    {
+      "formula": "<Pharma_Botanical:ytchol> + [bared-ain]",
+      "count": 1
+    },
+    {
+      "formula": "<Astro:otshey> + [q-k-ody]",
+      "count": 1
+    },
+    {
+      "formula": "<Astro:odair> + [o-k-ey]",
+      "count": 1
+    },
+    {
+      "formula": "<Astro:okeodal> + [bares-ar]",
+      "count": 1
+    },
+    {
+      "formula": "<Rosettes_Cosmo:okas> + [o-t-ol]",
+      "count": 1
+    },
+    {
+      "formula": "<Zodiac:otoey> + [barek-ey]",
+      "count": 1
+    },
+    {
+      "formula": "<Astro:chodar> + [bared-ar]",
+      "count": 1
+    },
+    {
+      "formula": "<Astro:chodar> + [baresh-y]",
+      "count": 1
+    },
+    {
+      "formula": "<Zodiac:orchey> + [bares0]",
+      "count": 1
+    },
+    {
+      "formula": "<Astro:otydy> + [bares-ain]",
+      "count": 1
+    },
+    {
+      "formula": "<Astro:dchol> + [barech-y]",
+      "count": 1
+    },
+    {
+      "formula": "<Astro:oko> + [q-k-ol]",
+      "count": 1
+    },
+    {
+      "formula": "<Rosettes_Cosmo:chot> + [o-tch-y]",
+      "count": 1
+    },
+    {
+      "formula": "<Zodiac:ykeor> + [barech-ol]",
+      "count": 1
+    },
+    {
+      "formula": "<Pharma_Botanical:ctheor> + [bared-ain]",
+      "count": 1
+    },
+    {
+      "formula": "<Zodiac:orchey> + [q-kch-ol]",
+      "count": 1
+    },
+    {
+      "formula": "<Rosettes_Cosmo:ddy> + [y-t-or]",
+      "count": 1
+    },
+    {
+      "formula": "<Astro:dchol> + [q-kch-s]",
+      "count": 1
+    }
+  ],
+  "top_ultra_rare_sandwich_clauses": [
+    {
+      "folio": "f114v",
+      "loc": "f114v.21",
+      "sec": "Starred Recipes",
+      "domain": "Other_Label",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f66r.82(otcheodaiin)"
+      ],
+      "clause_surface": "qokedy . otcheodaiin . qokchdy",
+      "clause_segmented": "[q-k-edy]  <o-|tcheod|-ain (Other_Label)>  [q-kch-dy]",
+      "w_minus_1": {
+        "surface": "qokedy",
+        "root": "k",
+        "prefix": "q-",
+        "suffix": "-edy",
+        "same_line": true
+      },
+      "crib_surface": "otcheodaiin",
+      "crib_canon": "otcheodain",
+      "w_plus_1": {
+        "surface": "qokchdy",
+        "root": "kch",
+        "prefix": "q-",
+        "suffix": "-dy",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f111r",
+      "loc": "f111r.12",
+      "sec": "Starred Recipes",
+      "domain": "Pharma_Botanical",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f89v2.14(opcheedey)"
+      ],
+      "clause_surface": "qokeedy . otchedey . lshey",
+      "clause_segmented": "[q-k-edy]  <o-|tched|-ey (Pharma_Botanical)>  [barelsh-ey]",
+      "w_minus_1": {
+        "surface": "qokeedy",
+        "root": "k",
+        "prefix": "q-",
+        "suffix": "-edy",
+        "same_line": true
+      },
+      "crib_surface": "otchedey",
+      "crib_canon": "otchedey",
+      "w_plus_1": {
+        "surface": "lshey",
+        "root": "lsh",
+        "prefix": "bare",
+        "suffix": "-ey",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f116r",
+      "loc": "f116r.12",
+      "sec": "Starred Recipes",
+      "domain": "Pharma_Botanical",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f89r1.12(cholches)"
+      ],
+      "clause_surface": "ar . cholches . okain",
+      "clause_segmented": "[barear0]  <bare|cholche|-s (Pharma_Botanical)>  [o-k-ain]",
+      "w_minus_1": {
+        "surface": "ar",
+        "root": "ar",
+        "prefix": "bare",
+        "suffix": "0",
+        "same_line": true
+      },
+      "crib_surface": "cholches",
+      "crib_canon": "cholches",
+      "w_plus_1": {
+        "surface": "okain",
+        "root": "k",
+        "prefix": "o-",
+        "suffix": "-ain",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f3r",
+      "loc": "f3r.17",
+      "sec": "Herbal (Botanical)",
+      "domain": "Astro",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f68r1.32(okeeodal)"
+      ],
+      "clause_surface": "yteody . qokeeodal . sam",
+      "clause_segmented": "[y-te-ody]  <q-|keod|-al (Astro)>  [bares-ar]",
+      "w_minus_1": {
+        "surface": "yteody",
+        "root": "te",
+        "prefix": "y-",
+        "suffix": "-ody",
+        "same_line": true
+      },
+      "crib_surface": "qokeeodal",
+      "crib_canon": "okeodal",
+      "w_plus_1": {
+        "surface": "sam",
+        "root": "s",
+        "prefix": "bare",
+        "suffix": "-ar",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f31v",
+      "loc": "f31v.9",
+      "sec": "Herbal (Botanical)",
+      "domain": "Zodiac",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f72v2.10(sheoeky)"
+      ],
+      "clause_surface": "ytecheol . sheoeky . okeos",
+      "clause_segmented": "[y-teche-ol]  <bare|sheoek|-y (Zodiac)>  [o-keo-s]",
+      "w_minus_1": {
+        "surface": "ytecheol",
+        "root": "teche",
+        "prefix": "y-",
+        "suffix": "-ol",
+        "same_line": true
+      },
+      "crib_surface": "sheoeky",
+      "crib_canon": "sheoeky",
+      "w_plus_1": {
+        "surface": "okeos",
+        "root": "keo",
+        "prefix": "o-",
+        "suffix": "-s",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f58v",
+      "loc": "f58v.2",
+      "sec": "Starred Recipes",
+      "domain": "Zodiac",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f71v.14(otalody)"
+      ],
+      "clause_surface": "y . qotalody . saiin",
+      "clause_segmented": "[barey0]  <q-|tal|-ody (Zodiac)>  [bares-ain]",
+      "w_minus_1": {
+        "surface": "y",
+        "root": "y",
+        "prefix": "bare",
+        "suffix": "0",
+        "same_line": true
+      },
+      "crib_surface": "qotalody",
+      "crib_canon": "otalody",
+      "w_plus_1": {
+        "surface": "saiin",
+        "root": "s",
+        "prefix": "bare",
+        "suffix": "-ain",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f67r1",
+      "loc": "f67r1.7",
+      "sec": "Astronomical",
+      "domain": "Zodiac",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f72v2.4(okeoram)",
+        "f72v2.32(okeorar)"
+      ],
+      "clause_surface": "dararal . okeorar . sotey",
+      "clause_segmented": "[baredarar-al]  <o-|keor|-ar (Zodiac)>  [baresot-ey]",
+      "w_minus_1": {
+        "surface": "dararal",
+        "root": "darar",
+        "prefix": "bare",
+        "suffix": "-al",
+        "same_line": true
+      },
+      "crib_surface": "okeorar",
+      "crib_canon": "okeorar",
+      "w_plus_1": {
+        "surface": "sotey",
+        "root": "sot",
+        "prefix": "bare",
+        "suffix": "-ey",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f70r2",
+      "loc": "f70r2.3",
+      "sec": "Cosmological",
+      "domain": "Zodiac",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f72v1.30(okalair)"
+      ],
+      "clause_surface": "shekey . qokalaiir . oteog",
+      "clause_segmented": "[bareshek-ey]  <q-|kalai|-r (Zodiac)>  [o-teog0]",
+      "w_minus_1": {
+        "surface": "shekey",
+        "root": "shek",
+        "prefix": "bare",
+        "suffix": "-ey",
+        "same_line": true
+      },
+      "crib_surface": "qokalaiir",
+      "crib_canon": "okalair",
+      "w_plus_1": {
+        "surface": "oteog",
+        "root": "teog",
+        "prefix": "o-",
+        "suffix": "0",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f84r",
+      "loc": "f84r.34",
+      "sec": "Biological (Balneological)",
+      "domain": "Rosettes_Cosmo",
+      "global_prose_count": 1,
+      "label_loci": [
+        "fRos.19(daraldy)"
+      ],
+      "clause_surface": "shedy . daraldy . otedaiin",
+      "clause_segmented": "[baresh-edy]  <bare|daral|-dy (Rosettes_Cosmo)>  [o-ted-ain]",
+      "w_minus_1": {
+        "surface": "shedy",
+        "root": "sh",
+        "prefix": "bare",
+        "suffix": "-edy",
+        "same_line": true
+      },
+      "crib_surface": "daraldy",
+      "crib_canon": "daraldy",
+      "w_plus_1": {
+        "surface": "otedaiin",
+        "root": "ted",
+        "prefix": "o-",
+        "suffix": "-ain",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f99v",
+      "loc": "f99v.23",
+      "sec": "Pharmaceutical",
+      "domain": "Zodiac",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f72v2.16(okeoldy)"
+      ],
+      "clause_surface": "chol . okeoldy . qokol",
+      "clause_segmented": "[barech-ol]  <o-|keol|-dy (Zodiac)>  [q-k-ol]",
+      "w_minus_1": {
+        "surface": "chol",
+        "root": "ch",
+        "prefix": "bare",
+        "suffix": "-ol",
+        "same_line": true
+      },
+      "crib_surface": "okeoldy",
+      "crib_canon": "okeoldy",
+      "w_plus_1": {
+        "surface": "qokol",
+        "root": "k",
+        "prefix": "q-",
+        "suffix": "-ol",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f101r",
+      "loc": "f101r.3",
+      "sec": "Pharmaceutical",
+      "domain": "Pharma_Jar",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f99r.45(yteoldy)"
+      ],
+      "clause_surface": "ctheey . yteeoldy . kchol",
+      "clause_segmented": "[barecth-ey]  <y-|teol|-dy (Pharma_Jar)>  [barekch-ol]",
+      "w_minus_1": {
+        "surface": "ctheey",
+        "root": "cth",
+        "prefix": "bare",
+        "suffix": "-ey",
+        "same_line": true
+      },
+      "crib_surface": "yteeoldy",
+      "crib_canon": "yteoldy",
+      "w_plus_1": {
+        "surface": "kchol",
+        "root": "kch",
+        "prefix": "bare",
+        "suffix": "-ol",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f104v",
+      "loc": "f104v.5",
+      "sec": "Starred Recipes",
+      "domain": "Zodiac",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f72r3.10(oeeodaiin)",
+        "f72v2.3(oeeodaiin)"
+      ],
+      "clause_surface": "chdeey . oeeodain . sairol",
+      "clause_segmented": "[barechd-ey]  <o-|eod|-ain (Zodiac)>  [baresair-ol]",
+      "w_minus_1": {
+        "surface": "chdeey",
+        "root": "chd",
+        "prefix": "bare",
+        "suffix": "-ey",
+        "same_line": true
+      },
+      "crib_surface": "oeeodain",
+      "crib_canon": "oeodain",
+      "w_plus_1": {
+        "surface": "sairol",
+        "root": "sair",
+        "prefix": "bare",
+        "suffix": "-ol",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f116r",
+      "loc": "f116r.28",
+      "sec": "Starred Recipes",
+      "domain": "Zodiac",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f72r2.26(otalshy)"
+      ],
+      "clause_surface": "lshalshy . qotalshy . cthedy",
+      "clause_segmented": "[barelshalsh-y]  <q-|talsh|-y (Zodiac)>  [barecth-edy]",
+      "w_minus_1": {
+        "surface": "lshalshy",
+        "root": "lshalsh",
+        "prefix": "bare",
+        "suffix": "-y",
+        "same_line": true
+      },
+      "crib_surface": "qotalshy",
+      "crib_canon": "otalshy",
+      "w_plus_1": {
+        "surface": "cthedy",
+        "root": "cth",
+        "prefix": "bare",
+        "suffix": "-edy",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f35v",
+      "loc": "f35v.10",
+      "sec": "Herbal (Botanical)",
+      "domain": "Zodiac",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f72r2.28(chosar)"
+      ],
+      "clause_surface": "okcheey . chosar . shory",
+      "clause_segmented": "[o-kch-ey]  <bare|chos|-ar (Zodiac)>  [baresh-ory]",
+      "w_minus_1": {
+        "surface": "okcheey",
+        "root": "kch",
+        "prefix": "o-",
+        "suffix": "-ey",
+        "same_line": true
+      },
+      "crib_surface": "chosar",
+      "crib_canon": "chosar",
+      "w_plus_1": {
+        "surface": "shory",
+        "root": "sh",
+        "prefix": "bare",
+        "suffix": "-ory",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f43v",
+      "loc": "f43v.10",
+      "sec": "Herbal (Botanical)",
+      "domain": "Rosettes_Cosmo",
+      "global_prose_count": 1,
+      "label_loci": [
+        "fRos.15(daldar)"
+      ],
+      "clause_surface": "chdy . daldar . chepy",
+      "clause_segmented": "[barech-dy]  <bare|dald|-ar (Rosettes_Cosmo)>  [barechet-y]",
+      "w_minus_1": {
+        "surface": "chdy",
+        "root": "ch",
+        "prefix": "bare",
+        "suffix": "-dy",
+        "same_line": true
+      },
+      "crib_surface": "daldar",
+      "crib_canon": "daldar",
+      "w_plus_1": {
+        "surface": "chepy",
+        "root": "chet",
+        "prefix": "bare",
+        "suffix": "-y",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f58v",
+      "loc": "f58v.33",
+      "sec": "Starred Recipes",
+      "domain": "Astro",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f68r2.19(cholar)",
+        "f69r.13(cholam)"
+      ],
+      "clause_surface": "qoair . cholar . chey",
+      "clause_segmented": "[q-ai-r]  <bare|chol|-ar (Astro)>  [barech-ey]",
+      "w_minus_1": {
+        "surface": "qoair",
+        "root": "ai",
+        "prefix": "q-",
+        "suffix": "-r",
+        "same_line": true
+      },
+      "crib_surface": "cholar",
+      "crib_canon": "cholar",
+      "w_plus_1": {
+        "surface": "chey",
+        "root": "ch",
+        "prefix": "bare",
+        "suffix": "-ey",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f70r1",
+      "loc": "f70r1.3",
+      "sec": "Cosmological",
+      "domain": "Zodiac",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f72v1.19(oteofy)"
+      ],
+      "clause_surface": "al . oteeoky . chety",
+      "clause_segmented": "[bareal0]  <o-|teok|-y (Zodiac)>  [barechet-y]",
+      "w_minus_1": {
+        "surface": "al",
+        "root": "al",
+        "prefix": "bare",
+        "suffix": "0",
+        "same_line": true
+      },
+      "crib_surface": "oteeoky",
+      "crib_canon": "oteoky",
+      "w_plus_1": {
+        "surface": "chety",
+        "root": "chet",
+        "prefix": "bare",
+        "suffix": "-y",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f70r2",
+      "loc": "f70r2.17",
+      "sec": "Cosmological",
+      "domain": "Zodiac",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f70v2.33(otolal)"
+      ],
+      "clause_surface": "chotal . otolal . dl",
+      "clause_segmented": "[barechot-al]  <o-|tol|-al (Zodiac)>  [bared-l]",
+      "w_minus_1": {
+        "surface": "chotal",
+        "root": "chot",
+        "prefix": "bare",
+        "suffix": "-al",
+        "same_line": true
+      },
+      "crib_surface": "otolal",
+      "crib_canon": "otolal",
+      "w_plus_1": {
+        "surface": "dl",
+        "root": "d",
+        "prefix": "bare",
+        "suffix": "-l",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f78v",
+      "loc": "f78v.2",
+      "sec": "Biological (Balneological)",
+      "domain": "Rosettes_Cosmo",
+      "global_prose_count": 1,
+      "label_loci": [
+        "fRos.18(daldal)"
+      ],
+      "clause_surface": "kedy . daldal . dol",
+      "clause_segmented": "[barek-edy]  <bare|dald|-al (Rosettes_Cosmo)>  [bared-ol]",
+      "w_minus_1": {
+        "surface": "kedy",
+        "root": "k",
+        "prefix": "bare",
+        "suffix": "-edy",
+        "same_line": true
+      },
+      "crib_surface": "daldal",
+      "crib_canon": "daldal",
+      "w_plus_1": {
+        "surface": "dol",
+        "root": "d",
+        "prefix": "bare",
+        "suffix": "-ol",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f86v3",
+      "loc": "f86v3.26",
+      "sec": "Cosmological",
+      "domain": "Rosettes_Cosmo",
+      "global_prose_count": 1,
+      "label_loci": [
+        "fRos.102(otodar)"
+      ],
+      "clause_surface": "ytaiin . otodar . aiin",
+      "clause_segmented": "[y-t-ain]  <o-|tod|-ar (Rosettes_Cosmo)>  [bareain0]",
+      "w_minus_1": {
+        "surface": "ytaiin",
+        "root": "t",
+        "prefix": "y-",
+        "suffix": "-ain",
+        "same_line": true
+      },
+      "crib_surface": "otodar",
+      "crib_canon": "otodar",
+      "w_plus_1": {
+        "surface": "aiin",
+        "root": "ain",
+        "prefix": "bare",
+        "suffix": "0",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f89v1",
+      "loc": "f89v1.8",
+      "sec": "Pharmaceutical",
+      "domain": "Rosettes_Cosmo",
+      "global_prose_count": 1,
+      "label_loci": [
+        "fRos.17(orarol)"
+      ],
+      "clause_surface": "shockhey . orarol . cheoky",
+      "clause_segmented": "[bareshockh-ey]  <bare|orar|-ol (Rosettes_Cosmo)>  [barecheok-y]",
+      "w_minus_1": {
+        "surface": "shockhey",
+        "root": "shockh",
+        "prefix": "bare",
+        "suffix": "-ey",
+        "same_line": true
+      },
+      "crib_surface": "orarol",
+      "crib_canon": "orarol",
+      "w_plus_1": {
+        "surface": "cheoky",
+        "root": "cheok",
+        "prefix": "bare",
+        "suffix": "-y",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f105r",
+      "loc": "f105r.30",
+      "sec": "Starred Recipes",
+      "domain": "Pharma_Jar",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f102v2.24(okolky)"
+      ],
+      "clause_surface": "cheody . qokolky . cheolkary",
+      "clause_segmented": "[bareche-ody]  <q-|kolk|-y (Pharma_Jar)>  [barecheolk-ary]",
+      "w_minus_1": {
+        "surface": "cheody",
+        "root": "che",
+        "prefix": "bare",
+        "suffix": "-ody",
+        "same_line": true
+      },
+      "crib_surface": "qokolky",
+      "crib_canon": "okolky",
+      "w_plus_1": {
+        "surface": "cheolkary",
+        "root": "cheolk",
+        "prefix": "bare",
+        "suffix": "-ary",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f107v",
+      "loc": "f107v.39",
+      "sec": "Starred Recipes",
+      "domain": "Zodiac",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f71r.9(cheary)"
+      ],
+      "clause_surface": "oain . cheary . raiin",
+      "clause_segmented": "[o-ain0]  <bare|che|-ary (Zodiac)>  [barer-ain]",
+      "w_minus_1": {
+        "surface": "oain",
+        "root": "ain",
+        "prefix": "o-",
+        "suffix": "0",
+        "same_line": true
+      },
+      "crib_surface": "cheary",
+      "crib_canon": "cheary",
+      "w_plus_1": {
+        "surface": "raiin",
+        "root": "r",
+        "prefix": "bare",
+        "suffix": "-ain",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f112v",
+      "loc": "f112v.7",
+      "sec": "Starred Recipes",
+      "domain": "Zodiac",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f72r3.17(oeeesaiin)",
+        "f72v3.28(oeesaiin)"
+      ],
+      "clause_surface": "qoteedy . oeesaiin . oteor",
+      "clause_segmented": "[q-t-edy]  <o-|es|-ain (Zodiac)>  [o-te-or]",
+      "w_minus_1": {
+        "surface": "qoteedy",
+        "root": "t",
+        "prefix": "q-",
+        "suffix": "-edy",
+        "same_line": true
+      },
+      "crib_surface": "oeesaiin",
+      "crib_canon": "oesain",
+      "w_plus_1": {
+        "surface": "oteor",
+        "root": "te",
+        "prefix": "o-",
+        "suffix": "-or",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f114v",
+      "loc": "f114v.1",
+      "sec": "Starred Recipes",
+      "domain": "Rosettes_Cosmo",
+      "global_prose_count": 1,
+      "label_loci": [
+        "fRos.117(opdady)"
+      ],
+      "clause_surface": "qocphdy . otdady . qotedar",
+      "clause_segmented": "[q-cth-dy]  <o-|tda|-dy (Rosettes_Cosmo)>  [q-ted-ar]",
+      "w_minus_1": {
+        "surface": "qocphdy",
+        "root": "cth",
+        "prefix": "q-",
+        "suffix": "-dy",
+        "same_line": true
+      },
+      "crib_surface": "otdady",
+      "crib_canon": "otdady",
+      "w_plus_1": {
+        "surface": "qotedar",
+        "root": "ted",
+        "prefix": "q-",
+        "suffix": "-ar",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f11r",
+      "loc": "f11r.2",
+      "sec": "Herbal (Botanical)",
+      "domain": "Pharma_Jar",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f89r2.1(odory)"
+      ],
+      "clause_surface": "socthody . qodory . kshy",
+      "clause_segmented": "[baresocth-ody]  <q-|d|-ory (Pharma_Jar)>  [bareksh-y]",
+      "w_minus_1": {
+        "surface": "socthody",
+        "root": "socth",
+        "prefix": "bare",
+        "suffix": "-ody",
+        "same_line": true
+      },
+      "crib_surface": "qodory",
+      "crib_canon": "odory",
+      "w_plus_1": {
+        "surface": "kshy",
+        "root": "ksh",
+        "prefix": "bare",
+        "suffix": "-y",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f18r",
+      "loc": "f18r.1",
+      "sec": "Herbal (Botanical)",
+      "domain": "Pharma_Jar",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f102r1.1(daarod)"
+      ],
+      "clause_surface": "pdrairdy . darod . yoar",
+      "clause_segmented": "[baretdrair-dy]  <bare|daro|-d (Pharma_Jar)>  [y-ar0]",
+      "w_minus_1": {
+        "surface": "pdrairdy",
+        "root": "tdrair",
+        "prefix": "bare",
+        "suffix": "-dy",
+        "same_line": true
+      },
+      "crib_surface": "darod",
+      "crib_canon": "darod",
+      "w_plus_1": {
+        "surface": "yoar",
+        "root": "ar",
+        "prefix": "y-",
+        "suffix": "0",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f30r",
+      "loc": "f30r.9",
+      "sec": "Herbal (Botanical)",
+      "domain": "Zodiac",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f72v3.2(ocham)"
+      ],
+      "clause_surface": "dchey . qochar . chol",
+      "clause_segmented": "[baredch-ey]  <q-|ch|-ar (Zodiac)>  [barech-ol]",
+      "w_minus_1": {
+        "surface": "dchey",
+        "root": "dch",
+        "prefix": "bare",
+        "suffix": "-ey",
+        "same_line": true
+      },
+      "crib_surface": "qochar",
+      "crib_canon": "ochar",
+      "w_plus_1": {
+        "surface": "chol",
+        "root": "ch",
+        "prefix": "bare",
+        "suffix": "-ol",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f58v",
+      "loc": "f58v.10",
+      "sec": "Starred Recipes",
+      "domain": "Zodiac",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f73v.11(ofals)"
+      ],
+      "clause_surface": "qotalom . qokals . qokaiin",
+      "clause_segmented": "[q-tal-or]  <q-|kal|-s (Zodiac)>  [q-k-ain]",
+      "w_minus_1": {
+        "surface": "qotalom",
+        "root": "tal",
+        "prefix": "q-",
+        "suffix": "-or",
+        "same_line": true
+      },
+      "crib_surface": "qokals",
+      "crib_canon": "okals",
+      "w_plus_1": {
+        "surface": "qokaiin",
+        "root": "k",
+        "prefix": "q-",
+        "suffix": "-ain",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f66v",
+      "loc": "f66v.10",
+      "sec": "Herbal (Botanical)",
+      "domain": "Bio_Nymph",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f75v.20(dokal)"
+      ],
+      "clause_surface": "otal . dokal . okag",
+      "clause_segmented": "[o-t-al]  <bare|dok|-al (Bio_Nymph)>  [o-kag0]",
+      "w_minus_1": {
+        "surface": "otal",
+        "root": "t",
+        "prefix": "o-",
+        "suffix": "-al",
+        "same_line": true
+      },
+      "crib_surface": "dokal",
+      "crib_canon": "dokal",
+      "w_plus_1": {
+        "surface": "okag",
+        "root": "kag",
+        "prefix": "o-",
+        "suffix": "0",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f114r",
+      "loc": "f114r.10",
+      "sec": "Starred Recipes",
+      "domain": "Zodiac",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f72v2.2(oeedey)"
+      ],
+      "clause_surface": "chdodaiin . qoedeey . chdaiin",
+      "clause_segmented": "[barechdod-ain]  <q-|ed|-ey (Zodiac)>  [barechd-ain]",
+      "w_minus_1": {
+        "surface": "chdodaiin",
+        "root": "chdod",
+        "prefix": "bare",
+        "suffix": "-ain",
+        "same_line": true
+      },
+      "crib_surface": "qoedeey",
+      "crib_canon": "oedey",
+      "w_plus_1": {
+        "surface": "chdaiin",
+        "root": "chd",
+        "prefix": "bare",
+        "suffix": "-ain",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f43r",
+      "loc": "f43r.1",
+      "sec": "Herbal (Botanical)",
+      "domain": "Zodiac",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f73v.4(eeeody)"
+      ],
+      "clause_surface": "ytedy . eeody . ofchtar",
+      "clause_segmented": "[y-t-edy]  <bare|e|-ody (Zodiac)>  [o-kcht-ar]",
+      "w_minus_1": {
+        "surface": "ytedy",
+        "root": "t",
+        "prefix": "y-",
+        "suffix": "-edy",
+        "same_line": true
+      },
+      "crib_surface": "eeody",
+      "crib_canon": "eody",
+      "w_plus_1": {
+        "surface": "ofchtar",
+        "root": "kcht",
+        "prefix": "o-",
+        "suffix": "-ar",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f106r",
+      "loc": "f106r.31",
+      "sec": "Starred Recipes",
+      "domain": "Pharma_Botanical",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f102v2.26(aiky)"
+      ],
+      "clause_surface": "chkar . aiiiky . ral",
+      "clause_segmented": "[barechk-ar]  <bare|aik|-y (Pharma_Botanical)>  [barer-al]",
+      "w_minus_1": {
+        "surface": "chkar",
+        "root": "chk",
+        "prefix": "bare",
+        "suffix": "-ar",
+        "same_line": true
+      },
+      "crib_surface": "aiiiky",
+      "crib_canon": "aiky",
+      "w_plus_1": {
+        "surface": "ral",
+        "root": "r",
+        "prefix": "bare",
+        "suffix": "-al",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f116r",
+      "loc": "f116r.23",
+      "sec": "Starred Recipes",
+      "domain": "Pharma_Botanical",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f99r.5(salo)"
+      ],
+      "clause_surface": "aly . salo . lm",
+      "clause_segmented": "[barealy0]  <bare|salo|0 (Pharma_Botanical)>  [barelm0]",
+      "w_minus_1": {
+        "surface": "aly",
+        "root": "aly",
+        "prefix": "bare",
+        "suffix": "0",
+        "same_line": true
+      },
+      "crib_surface": "salo",
+      "crib_canon": "salo",
+      "w_plus_1": {
+        "surface": "lm",
+        "root": "lm",
+        "prefix": "bare",
+        "suffix": "0",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f18v",
+      "loc": "f18v.8",
+      "sec": "Herbal (Botanical)",
+      "domain": "Rosettes_Cosmo",
+      "global_prose_count": 1,
+      "label_loci": [
+        "fRos.60(ddy)"
+      ],
+      "clause_surface": "daror . ddy . ytor",
+      "clause_segmented": "[baredar-or]  <bare|d|-dy (Rosettes_Cosmo)>  [y-t-or]",
+      "w_minus_1": {
+        "surface": "daror",
+        "root": "dar",
+        "prefix": "bare",
+        "suffix": "-or",
+        "same_line": true
+      },
+      "crib_surface": "ddy",
+      "crib_canon": "ddy",
+      "w_plus_1": {
+        "surface": "ytor",
+        "root": "t",
+        "prefix": "y-",
+        "suffix": "-or",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f24r",
+      "loc": "f24r.12",
+      "sec": "Herbal (Botanical)",
+      "domain": "Pharma_Botanical",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f102v2.16(tod)"
+      ],
+      "clause_surface": "tol . tod . ckhy",
+      "clause_segmented": "[baret-ol]  <bare|to|-d (Pharma_Botanical)>  [bareckh-y]",
+      "w_minus_1": {
+        "surface": "tol",
+        "root": "t",
+        "prefix": "bare",
+        "suffix": "-ol",
+        "same_line": true
+      },
+      "crib_surface": "tod",
+      "crib_canon": "tod",
+      "w_plus_1": {
+        "surface": "ckhy",
+        "root": "ckh",
+        "prefix": "bare",
+        "suffix": "-y",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f88v",
+      "loc": "f88v.24",
+      "sec": "Pharmaceutical",
+      "domain": "Rosettes_Cosmo",
+      "global_prose_count": 1,
+      "label_loci": [
+        "fRos.23(doy)"
+      ],
+      "clause_surface": "qokeody . doy . dair",
+      "clause_segmented": "[q-ke-ody]  <bare|do|-y (Rosettes_Cosmo)>  [baredai-r]",
+      "w_minus_1": {
+        "surface": "qokeody",
+        "root": "ke",
+        "prefix": "q-",
+        "suffix": "-ody",
+        "same_line": true
+      },
+      "crib_surface": "doy",
+      "crib_canon": "doy",
+      "w_plus_1": {
+        "surface": "dair",
+        "root": "dai",
+        "prefix": "bare",
+        "suffix": "-r",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f103r",
+      "loc": "f103r.7",
+      "sec": "Starred Recipes",
+      "domain": "Astro",
+      "global_prose_count": 1,
+      "label_loci": [
+        "f67r2.3(shs)"
+      ],
+      "clause_surface": "chey . shs . olshedy",
+      "clause_segmented": "[barech-ey]  <bare|sh|-s (Astro)>  [bareolsh-edy]",
+      "w_minus_1": {
+        "surface": "chey",
+        "root": "ch",
+        "prefix": "bare",
+        "suffix": "-ey",
+        "same_line": true
+      },
+      "crib_surface": "shs",
+      "crib_canon": "shs",
+      "w_plus_1": {
+        "surface": "olshedy",
+        "root": "olsh",
+        "prefix": "bare",
+        "suffix": "-edy",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f114r",
+      "loc": "f114r.7",
+      "sec": "Starred Recipes",
+      "domain": "Rosettes_Cosmo",
+      "global_prose_count": 2,
+      "label_loci": [
+        "fRos.46(ofchedaiin)"
+      ],
+      "clause_surface": "qodaiin . okchedaiin . chain",
+      "clause_segmented": "[q-d-ain]  <o-|kched|-ain (Rosettes_Cosmo)>  [barech-ain]",
+      "w_minus_1": {
+        "surface": "qodaiin",
+        "root": "d",
+        "prefix": "q-",
+        "suffix": "-ain",
+        "same_line": true
+      },
+      "crib_surface": "okchedaiin",
+      "crib_canon": "okchedain",
+      "w_plus_1": {
+        "surface": "chain",
+        "root": "ch",
+        "prefix": "bare",
+        "suffix": "-ain",
+        "same_line": true
+      }
+    },
+    {
+      "folio": "f114r",
+      "loc": "f114r.19",
+      "sec": "Starred Recipes",
+      "domain": "Rosettes_Cosmo",
+      "global_prose_count": 2,
+      "label_loci": [
+        "fRos.46(ofchedaiin)"
+      ],
+      "clause_surface": "daiin . ofchedaiin . chodaiin",
+      "clause_segmented": "[bared-ain]  <o-|kched|-ain (Rosettes_Cosmo)>  [barechod-ain]",
+      "w_minus_1": {
+        "surface": "daiin",
+        "root": "d",
+        "prefix": "bare",
+        "suffix": "-ain",
+        "same_line": true
+      },
+      "crib_surface": "ofchedaiin",
+      "crib_canon": "okchedain",
+      "w_plus_1": {
+        "surface": "chodaiin",
+        "root": "chod",
+        "prefix": "bare",
+        "suffix": "-ain",
+        "same_line": true
+      }
+    }
+  ]
+}
