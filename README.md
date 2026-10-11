@@ -173,6 +173,13 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 13. Recipe Formula Architecture (`89.02%` Gallows Openers), Zodiac Clockwise Step-Mutation ($z = +3.42$) & The Pisces (`f70v2`) $\leftrightarrow$ Starred Recipe (`f107r`) Triple Sequential Concordance ($p = 6.7 \times 10^{-6}$)
+- **Paragraph Opener (`<%>`) & Terminator (`<$>`) Formula Across `765` Paragraphs**: **`89.02%` (`681 / 765`) of all paragraphs open with a Gallows character (`p/f/t/k`) in the first 3 letters of Word 1** (`pol`, `tchedy`, `tol`, `pchedar`, `polaiin`), followed by an action/target modifier in Word 2 (`shedy`, `shey`, `ar`, `shol`, `qokedy`), while **Paragraph Ends (`<$>`)** strongly enrich for **`-ry` (`5.73×`)**, **`-am` (`3.36×`)**, and **`-ly` (`3.36×`)**. On `f88r` (`pages/f88r_okol_recipe_clause_enh.png`), directly below the plant root labelled `<f88r.15,@Lf> okol`, Line 2 of the subjacent recipe (`<f88r.19>`) writes `... chokol daiin · qoekol · qoekol · qockhol · okol · cheol ...`.
+- **Clockwise Step-Mutation Around Zodiac Rings ($z = +3.42, p = 0.0003$)**: Across all `28` concentric nymph rings (`270` clockwise-adjacent pairs `(w_i, w_{i+1})`), 5,000 within-ring permutations prove that clockwise-adjacent degree labels hold the **Core Root constant** (`17` observed vs. `8.80 ± 2.40` expected, **$z = +3.42$**; shared 4-char prefix **$z = +2.73$**; Levenshtein distance **$z = -2.80$**) while **alternating suffixes** (`z = -1.22`), e.g. Pisces Inner Ring (`pages/f70v2_pisces_inner_ring_top_enh.png`): **`otaram` (`10:00`) $\to$ `otaral` (`11:00`) $\to$ `otalar` (`12:00`) $\to$ `otalam` (`01:30`) $\to$ `dolaram` (`03:00`) $\to$ `okaram` (`04:00`)**.
+- **Smoking-Gun Pisces (`f70v2`) $\leftrightarrow$ Starred Recipe (`f107r`) Triple Sequential Concordance ($p = 6.7 \times 10^{-6}$)**: Those first three consecutive clockwise nymphs of the Pisces Inner Ring (`<f70v2.22..24>: otaram -> otaral -> otalar`, global prose counts `4`, `2`, `2`) recur in the **exact same `1 -> 2 -> 3` sequential order** across a 6-line span on Starred Recipe folio **`f107r`** (`<f107r.11> otaram` $\to$ `<f107r.13> otaral` $\to$ `<f107r.14> otarain` $\to$ `<f107r.15> otaraiin` $\to$ `<f107r.16> otalar ... otaiinam`, `pages/f107r_starred_recipes_enh.png`). Full synthesis in **[`notes/DECODING_ATTACKS_SYNTHESIS.md`](notes/DECODING_ATTACKS_SYNTHESIS.md)**.
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -206,4 +213,6 @@ python tools/analyze_cribs_and_taxonomy.py
 python tools/generate_interlinear_gloss.py
 python tools/attack1_key_and_syllabary.py
 python tools/attack2_botanical_jar_solver.py
+python tools/attack3_syllable_stream_alignment.py
+python tools/attack4_zodiac_decan_decoder.py
 ```

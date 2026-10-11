@@ -1,0 +1,1948 @@
+{
+  "phase": "Phase 15 / Attack 4",
+  "title": "30-Degree Zodiac Wheel (f70v2-f73v) & Rosette 6 Astrological Decoder",
+  "clockwise_step_mutation_test": {
+    "total_rings_analyzed": 28,
+    "total_adjacent_clockwise_pairs": 270,
+    "shared_4char_prefix_adjacency": {
+      "observed": 20,
+      "null_mean": 12.3544,
+      "null_std": 2.8043,
+      "z_score": 2.73
+    },
+    "shared_core_root_adjacency": {
+      "observed": 17,
+      "null_mean": 8.8012,
+      "null_std": 2.396,
+      "z_score": 3.42
+    },
+    "shared_2char_suffix_adjacency": {
+      "observed": 19,
+      "null_mean": 23.727,
+      "null_std": 3.8863,
+      "z_score": -1.22
+    },
+    "mean_levenshtein_distance": {
+      "observed": 4.9407,
+      "null_mean": 5.1238,
+      "null_std": 0.0653,
+      "z_score": -2.8
+    },
+    "notable_clockwise_step_chains": [
+      {
+        "folio": "f70v2",
+        "sign": "Pisces",
+        "ring": "Outer Ring",
+        "pos": "3->4",
+        "clock": "10:30->11:00",
+        "pair": "otar -> oty",
+        "lev_dist": 2,
+        "shared_prefix4": false,
+        "shared_core_root": false,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f70v2",
+        "sign": "Pisces",
+        "ring": "Outer Ring",
+        "pos": "9->10",
+        "clock": "01:30->02:00",
+        "pair": "otald -> otaldar",
+        "lev_dist": 2,
+        "shared_prefix4": true,
+        "shared_core_root": true,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f70v2",
+        "sign": "Pisces",
+        "ring": "Outer Ring",
+        "pos": "14->15",
+        "clock": "04:30->05:30",
+        "pair": "otaly -> otalarar",
+        "lev_dist": 4,
+        "shared_prefix4": true,
+        "shared_core_root": false,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f70v2",
+        "sign": "Pisces",
+        "ring": "Outer Ring",
+        "pos": "15->16",
+        "clock": "05:30->06:30",
+        "pair": "otalarar -> otaldy",
+        "lev_dist": 4,
+        "shared_prefix4": true,
+        "shared_core_root": false,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f70v2",
+        "sign": "Pisces",
+        "ring": "Inner Ring 1",
+        "pos": "1->2",
+        "clock": "10:00->11:00",
+        "pair": "otaram -> otaral",
+        "lev_dist": 1,
+        "shared_prefix4": true,
+        "shared_core_root": true,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f70v2",
+        "sign": "Pisces",
+        "ring": "Inner Ring 1",
+        "pos": "2->3",
+        "clock": "11:00->00:00",
+        "pair": "otaral -> otalar",
+        "lev_dist": 2,
+        "shared_prefix4": false,
+        "shared_core_root": false,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f70v2",
+        "sign": "Pisces",
+        "ring": "Inner Ring 1",
+        "pos": "3->4",
+        "clock": "00:00->01:30",
+        "pair": "otalar -> otalam",
+        "lev_dist": 1,
+        "shared_prefix4": true,
+        "shared_core_root": true,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f70v2",
+        "sign": "Pisces",
+        "ring": "Inner Ring 1",
+        "pos": "5->6",
+        "clock": "03:00->04:00",
+        "pair": "dolaram -> okaram",
+        "lev_dist": 2,
+        "shared_prefix4": false,
+        "shared_core_root": false,
+        "shared_suffix2": true
+      },
+      {
+        "folio": "f70v1",
+        "sign": "Aries I",
+        "ring": "Inner Ring 1",
+        "pos": "3->4",
+        "clock": "02:00->05:00",
+        "pair": "oteoalalsaraly -> oteoeeyotalokealar",
+        "lev_dist": 10,
+        "shared_prefix4": true,
+        "shared_core_root": false,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f71r",
+        "sign": "Aries II",
+        "ring": "Outer Ring",
+        "pos": "3->4",
+        "clock": "00:00->01:00",
+        "pair": "oteoaldy -> oteolar",
+        "lev_dist": 3,
+        "shared_prefix4": true,
+        "shared_core_root": false,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f71r",
+        "sign": "Aries II",
+        "ring": "Outer Ring",
+        "pos": "6->7",
+        "clock": "03:00->04:30",
+        "pair": "otaleky -> otalsar",
+        "lev_dist": 3,
+        "shared_prefix4": true,
+        "shared_core_root": false,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f71r",
+        "sign": "Aries II",
+        "ring": "Inner Ring 1",
+        "pos": "1->2",
+        "clock": "11:00->00:30",
+        "pair": "otolchdy -> otoloaram",
+        "lev_dist": 5,
+        "shared_prefix4": true,
+        "shared_core_root": false,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f71v",
+        "sign": "Taurus I",
+        "ring": "Outer Ring",
+        "pos": "9->10",
+        "clock": "07:00->09:00",
+        "pair": "opalaramdan -> opalorar",
+        "lev_dist": 5,
+        "shared_prefix4": true,
+        "shared_core_root": false,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f71v",
+        "sign": "Taurus I",
+        "ring": "Inner Ring 1",
+        "pos": "2->3",
+        "clock": "00:00->03:00",
+        "pair": "otalody -> otalaiin",
+        "lev_dist": 4,
+        "shared_prefix4": true,
+        "shared_core_root": true,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f72r1",
+        "sign": "Taurus II",
+        "ring": "Inner Ring 1",
+        "pos": "2->3",
+        "clock": "00:00->02:00",
+        "pair": "otchoshy -> otchdal",
+        "lev_dist": 4,
+        "shared_prefix4": true,
+        "shared_core_root": false,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f72r2",
+        "sign": "Gemini",
+        "ring": "Inner Ring 1",
+        "pos": "2->3",
+        "clock": "11:00->11:45",
+        "pair": "okalar -> okal",
+        "lev_dist": 2,
+        "shared_prefix4": true,
+        "shared_core_root": true,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f72r2",
+        "sign": "Gemini",
+        "ring": "Inner Ring 1",
+        "pos": "3->4",
+        "clock": "11:45->00:15",
+        "pair": "okal -> okaly",
+        "lev_dist": 1,
+        "shared_prefix4": true,
+        "shared_core_root": true,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f72r2",
+        "sign": "Gemini",
+        "ring": "Inner Ring 1",
+        "pos": "4->5",
+        "clock": "00:15->01:00",
+        "pair": "okaly -> okal",
+        "lev_dist": 1,
+        "shared_prefix4": true,
+        "shared_core_root": true,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f72r2",
+        "sign": "Gemini",
+        "ring": "Inner Ring 1",
+        "pos": "6->7",
+        "clock": "02:00->03:00",
+        "pair": "okeeyary -> oteeary",
+        "lev_dist": 2,
+        "shared_prefix4": false,
+        "shared_core_root": false,
+        "shared_suffix2": true
+      },
+      {
+        "folio": "f72r2",
+        "sign": "Gemini",
+        "ring": "Inner Ring 1",
+        "pos": "12->13",
+        "clock": "07:30->08:00",
+        "pair": "okaly -> orary",
+        "lev_dist": 2,
+        "shared_prefix4": false,
+        "shared_core_root": false,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f72r3",
+        "sign": "Cancer",
+        "ring": "Outer Ring",
+        "pos": "8->9",
+        "clock": "05:00->06:30",
+        "pair": "oteeydaiin -> oeeodaiin",
+        "lev_dist": 2,
+        "shared_prefix4": false,
+        "shared_core_root": false,
+        "shared_suffix2": true
+      },
+      {
+        "folio": "f72v3",
+        "sign": "Leo",
+        "ring": "Outer Ring",
+        "pos": "3->4",
+        "clock": "11:30->00:00",
+        "pair": "okam -> okey",
+        "lev_dist": 2,
+        "shared_prefix4": false,
+        "shared_core_root": false,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f72v3",
+        "sign": "Leo",
+        "ring": "Outer Ring",
+        "pos": "8->9",
+        "clock": "02:00->02:45",
+        "pair": "okaly -> otoly",
+        "lev_dist": 2,
+        "shared_prefix4": false,
+        "shared_core_root": false,
+        "shared_suffix2": true
+      },
+      {
+        "folio": "f72v3",
+        "sign": "Leo",
+        "ring": "Outer Ring",
+        "pos": "16->17",
+        "clock": "08:30->09:00",
+        "pair": "okaly -> okaldy",
+        "lev_dist": 1,
+        "shared_prefix4": true,
+        "shared_core_root": true,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f72v3",
+        "sign": "Leo",
+        "ring": "Inner Ring 1",
+        "pos": "10->11",
+        "clock": "07:30->08:30",
+        "pair": "opal -> otaly",
+        "lev_dist": 2,
+        "shared_prefix4": false,
+        "shared_core_root": true,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f72v3",
+        "sign": "Leo",
+        "ring": "Inner Ring 1",
+        "pos": "11->12",
+        "clock": "08:30->09:30",
+        "pair": "otaly -> otalyyty",
+        "lev_dist": 3,
+        "shared_prefix4": true,
+        "shared_core_root": false,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f72v2",
+        "sign": "Virgo",
+        "ring": "Outer Ring",
+        "pos": "7->8",
+        "clock": "02:30->03:00",
+        "pair": "cheoetey -> cheoldy",
+        "lev_dist": 3,
+        "shared_prefix4": true,
+        "shared_core_root": false,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f72v2",
+        "sign": "Virgo",
+        "ring": "Outer Ring",
+        "pos": "13->14",
+        "clock": "06:30->07:00",
+        "pair": "yteody -> okeody",
+        "lev_dist": 2,
+        "shared_prefix4": false,
+        "shared_core_root": false,
+        "shared_suffix2": true
+      },
+      {
+        "folio": "f72v2",
+        "sign": "Virgo",
+        "ring": "Outer Ring",
+        "pos": "14->15",
+        "clock": "07:00->08:00",
+        "pair": "okeody -> okeoldy",
+        "lev_dist": 1,
+        "shared_prefix4": true,
+        "shared_core_root": true,
+        "shared_suffix2": true
+      },
+      {
+        "folio": "f72v2",
+        "sign": "Virgo",
+        "ring": "Outer Ring",
+        "pos": "15->16",
+        "clock": "08:00->08:30",
+        "pair": "okeoldy -> ykeeor",
+        "lev_dist": 5,
+        "shared_prefix4": false,
+        "shared_core_root": true,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f72v1",
+        "sign": "Libra",
+        "ring": "Outer Ring",
+        "pos": "3->4",
+        "clock": "10:00->10:30",
+        "pair": "oteoly -> okeoly",
+        "lev_dist": 1,
+        "shared_prefix4": false,
+        "shared_core_root": false,
+        "shared_suffix2": true
+      },
+      {
+        "folio": "f72v1",
+        "sign": "Libra",
+        "ring": "Outer Ring",
+        "pos": "12->13",
+        "clock": "03:15->03:45",
+        "pair": "oteod -> yteod",
+        "lev_dist": 1,
+        "shared_prefix4": false,
+        "shared_core_root": true,
+        "shared_suffix2": true
+      },
+      {
+        "folio": "f72v1",
+        "sign": "Libra",
+        "ring": "Inner Ring 1",
+        "pos": "2->3",
+        "clock": "10:00->11:30",
+        "pair": "okydy -> okeey",
+        "lev_dist": 2,
+        "shared_prefix4": false,
+        "shared_core_root": false,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f72v1",
+        "sign": "Libra",
+        "ring": "Inner Ring 1",
+        "pos": "5->6",
+        "clock": "01:00->03:00",
+        "pair": "oeey -> okedy",
+        "lev_dist": 2,
+        "shared_prefix4": false,
+        "shared_core_root": false,
+        "shared_suffix2": false
+      },
+      {
+        "folio": "f73r",
+        "sign": "Scorpio",
+        "ring": "Outer Ring",
+        "pos": "3->4",
+        "clock": "00:30->01:00",
+        "pair": "otedy -> yteeody",
+        "lev_dist": 3,
+        "shared_prefix4": false,
+        "shared_core_root": true,
+        "shared_suffix2": true
+      }
+    ]
+  },
+  "zodiac_ring_and_triplicity_structure": {
+    "outer_ring_profile": {
+      "count": 140,
+      "mean_len": 7.08,
+      "o_initial_pct": 78.6,
+      "y_initial_pct": 7.1,
+      "am_final_pct": 7.9,
+      "al_ar_final_pct": 12.1,
+      "dy_y_final_pct": 53.6,
+      "top_roots": {
+        "ke": 7,
+        "tal": 6,
+        "kal": 6,
+        "te": 5,
+        "kar": 3,
+        "keol": 3
+      }
+    },
+    "inner_ring_profile": {
+      "count": 159,
+      "mean_len": 6.2,
+      "o_initial_pct": 74.8,
+      "y_initial_pct": 11.3,
+      "am_final_pct": 6.9,
+      "al_ar_final_pct": 23.3,
+      "dy_y_final_pct": 46.5,
+      "top_roots": {
+        "ke": 17,
+        "tal": 12,
+        "kal": 8,
+        "te": 6,
+        "kar": 5,
+        "ky": 4
+      }
+    },
+    "center_medallion_to_ring_minimal_pairs": [],
+    "by_zodiac_sign": {
+      "f70v2": {
+        "sign": "Pisces",
+        "month_gloss": "mars (March)",
+        "element": "Water",
+        "nymph_count": 30,
+        "ring_counts": [
+          19,
+          10,
+          1
+        ],
+        "o_initial_pct": 83.3,
+        "y_initial_pct": 6.7,
+        "top_core_roots": {
+          "tal": 4,
+          "tar": 3,
+          "kar": 2,
+          "ty": 2,
+          "ky": 2
+        },
+        "top_2char_suffixes": {
+          "ar": 5,
+          "dy": 5,
+          "am": 5,
+          "al": 4,
+          "ly": 2
+        }
+      },
+      "f70v1": {
+        "sign": "Aries I",
+        "month_gloss": "avril (April)",
+        "element": "Fire",
+        "nymph_count": 15,
+        "ring_counts": [
+          10,
+          5
+        ],
+        "o_initial_pct": 100.0,
+        "y_initial_pct": 0.0,
+        "top_core_roots": {
+          "tal": 2,
+          "talchytaram": 1,
+          "tcheys": 1,
+          "takaizan": 1,
+          "kal": 1
+        },
+        "top_2char_suffixes": {
+          "dy": 3,
+          "al": 3,
+          "ly": 3,
+          "an": 1,
+          "eg": 1
+        }
+      },
+      "f71r": {
+        "sign": "Aries II",
+        "month_gloss": "avril (April)",
+        "element": "Fire",
+        "nymph_count": 15,
+        "ring_counts": [
+          10,
+          5
+        ],
+        "o_initial_pct": 93.3,
+        "y_initial_pct": 0.0,
+        "top_core_roots": {
+          "teosar": 1,
+          "kld": 1,
+          "teo": 1,
+          "teol": 1,
+          "keo": 1
+        },
+        "top_2char_suffixes": {
+          "ar": 4,
+          "am": 2,
+          "dy": 2,
+          "ly": 2,
+          "ry": 2
+        }
+      },
+      "f71v": {
+        "sign": "Taurus I",
+        "month_gloss": "may (May)",
+        "element": "Earth",
+        "nymph_count": 15,
+        "ring_counts": [
+          10,
+          5
+        ],
+        "o_initial_pct": 73.3,
+        "y_initial_pct": 0.0,
+        "top_core_roots": {
+          "tal": 2,
+          "chararom": 1,
+          "chk": 1,
+          "kol": 1,
+          "tch": 1
+        },
+        "top_2char_suffixes": {
+          "ar": 3,
+          "dy": 3,
+          "in": 3,
+          "om": 2,
+          "ly": 2
+        }
+      },
+      "f72r1": {
+        "sign": "Taurus II",
+        "month_gloss": "may (May)",
+        "element": "Earth",
+        "nymph_count": 15,
+        "ring_counts": [
+          10,
+          5
+        ],
+        "o_initial_pct": 80.0,
+        "y_initial_pct": 6.7,
+        "top_core_roots": {
+          "shoda": 1,
+          "chdairdain": 1,
+          "ainar": 1,
+          "kal": 1,
+          "talsh": 1
+        },
+        "top_2char_suffixes": {
+          "dy": 3,
+          "am": 3,
+          "ny": 2,
+          "ry": 2,
+          "if": 1
+        }
+      },
+      "f72r2": {
+        "sign": "Gemini",
+        "month_gloss": "juny (June)",
+        "element": "Air",
+        "nymph_count": 29,
+        "ring_counts": [
+          5,
+          15,
+          9
+        ],
+        "o_initial_pct": 89.7,
+        "y_initial_pct": 0.0,
+        "top_core_roots": {
+          "kal": 6,
+          "kchdam": 1,
+          "klair": 1,
+          "kar": 1,
+          "kair": 1
+        },
+        "top_2char_suffixes": {
+          "am": 6,
+          "al": 5,
+          "dy": 4,
+          "ry": 4,
+          "ar": 3
+        }
+      },
+      "f72r3": {
+        "sign": "Cancer",
+        "month_gloss": "jul (July)",
+        "element": "Water",
+        "nymph_count": 30,
+        "ring_counts": [
+          12,
+          11,
+          7
+        ],
+        "o_initial_pct": 76.7,
+        "y_initial_pct": 20.0,
+        "top_core_roots": {
+          "lkal": 1,
+          "lals": 1,
+          "rain": 1,
+          "sarsheo": 1,
+          "to192": 1
+        },
+        "top_2char_suffixes": {
+          "al": 7,
+          "in": 6,
+          "am": 2,
+          "ly": 2,
+          "dy": 2
+        }
+      },
+      "f72v3": {
+        "sign": "Leo",
+        "month_gloss": "augst (August)",
+        "element": "Fire",
+        "nymph_count": 30,
+        "ring_counts": [
+          18,
+          12
+        ],
+        "o_initial_pct": 76.7,
+        "y_initial_pct": 0.0,
+        "top_core_roots": {
+          "kal": 3,
+          "ke": 2,
+          "tal": 2,
+          "ch": 1,
+          "rche": 1
+        },
+        "top_2char_suffixes": {
+          "ly": 5,
+          "ey": 3,
+          "dy": 3,
+          "hy": 3,
+          "am": 2
+        }
+      },
+      "f72v2": {
+        "sign": "Virgo",
+        "month_gloss": "septembr (September)",
+        "element": "Earth",
+        "nymph_count": 30,
+        "ring_counts": [
+          18,
+          12
+        ],
+        "o_initial_pct": 70.0,
+        "y_initial_pct": 10.0,
+        "top_core_roots": {
+          "ke": 4,
+          "keor": 2,
+          "che": 2,
+          "te": 2,
+          "ed": 2
+        },
+        "top_2char_suffixes": {
+          "dy": 7,
+          "ar": 3,
+          "ey": 2,
+          "in": 2,
+          "am": 2
+        }
+      },
+      "f72v1": {
+        "sign": "Libra",
+        "month_gloss": "octobr (October)",
+        "element": "Air",
+        "nymph_count": 30,
+        "ring_counts": [
+          20,
+          10
+        ],
+        "o_initial_pct": 80.0,
+        "y_initial_pct": 13.3,
+        "top_core_roots": {
+          "ke": 4,
+          "keol": 2,
+          "es": 2,
+          "teod": 2,
+          "eot": 1
+        },
+        "top_2char_suffixes": {
+          "dy": 6,
+          "ly": 5,
+          "od": 3,
+          "hy": 2,
+          "es": 2
+        }
+      },
+      "f73r": {
+        "sign": "Scorpio",
+        "month_gloss": "novembr (November)",
+        "element": "Water",
+        "nymph_count": 30,
+        "ring_counts": [
+          4,
+          16,
+          10
+        ],
+        "o_initial_pct": 63.3,
+        "y_initial_pct": 10.0,
+        "top_core_roots": {
+          "ke": 5,
+          "tal": 3,
+          "te": 3,
+          "keos": 2,
+          "kar": 2
+        },
+        "top_2char_suffixes": {
+          "dy": 8,
+          "ey": 3,
+          "al": 3,
+          "ly": 2,
+          "ry": 2
+        }
+      },
+      "f73v": {
+        "sign": "Sagittarius",
+        "month_gloss": "decembr (December)",
+        "element": "Fire",
+        "nymph_count": 30,
+        "ring_counts": [
+          4,
+          16,
+          10
+        ],
+        "o_initial_pct": 53.3,
+        "y_initial_pct": 30.0,
+        "top_core_roots": {
+          "ke": 8,
+          "te": 4,
+          "kol": 1,
+          "eo": 1,
+          "she": 1
+        },
+        "top_2char_suffixes": {
+          "dy": 8,
+          "ol": 2,
+          "ny": 2,
+          "al": 2,
+          "ey": 2
+        }
+      }
+    },
+    "by_elemental_triplicity": {
+      "Water": {
+        "count": 90,
+        "mean_len": 6.59,
+        "o_initial_pct": 74.4,
+        "y_initial_pct": 12.2,
+        "am_final_pct": 7.8,
+        "al_ar_final_pct": 25.6,
+        "dy_y_final_pct": 42.2,
+        "top_roots": {
+          "tal": 8,
+          "kar": 5,
+          "ke": 5,
+          "tar": 3,
+          "ky": 3,
+          "te": 3
+        }
+      },
+      "Fire": {
+        "count": 90,
+        "mean_len": 6.73,
+        "o_initial_pct": 75.6,
+        "y_initial_pct": 10.0,
+        "am_final_pct": 4.4,
+        "al_ar_final_pct": 14.4,
+        "dy_y_final_pct": 54.4,
+        "top_roots": {
+          "ke": 10,
+          "tal": 6,
+          "kal": 5,
+          "te": 5,
+          "kol": 2,
+          "ky": 2
+        }
+      },
+      "Earth": {
+        "count": 60,
+        "mean_len": 7.37,
+        "o_initial_pct": 73.3,
+        "y_initial_pct": 6.7,
+        "am_final_pct": 8.3,
+        "al_ar_final_pct": 13.3,
+        "dy_y_final_pct": 50.0,
+        "top_roots": {
+          "ke": 4,
+          "tain": 3,
+          "tal": 2,
+          "keor": 2,
+          "che": 2,
+          "te": 2
+        }
+      },
+      "Air": {
+        "count": 59,
+        "mean_len": 5.69,
+        "o_initial_pct": 84.7,
+        "y_initial_pct": 6.8,
+        "am_final_pct": 10.2,
+        "al_ar_final_pct": 16.9,
+        "dy_y_final_pct": 54.2,
+        "top_roots": {
+          "kal": 7,
+          "ke": 5,
+          "tal": 2,
+          "keol": 2,
+          "es": 2,
+          "teod": 2
+        }
+      }
+    }
+  },
+  "cross_section_zodiac_concordances": {
+    "pisces_f70v2_to_f107r_triple_sequential_concordance": {
+      "zodiac_source": "f70v2 Inner Ring (<f70v2.22..24>, 10:00 -> 11:00 -> 00:00)",
+      "zodiac_sequence": [
+        "otaram (<f70v2.22,@Lz> <!10:00> otar.am)",
+        "otaral (<f70v2.23,&Lz> <!11:00> otar,al)",
+        "otalar (<f70v2.24,&Lz> <!00:00> otalar)"
+      ],
+      "starred_recipe_target": "f107r Paragraphs 3-4 (<f107r.11..16>, 60-word span)",
+      "starred_recipe_sequence": [
+        "otaram (<f107r.11,+P0> right-margin line end, global prose count = 4)",
+        "otaral (<f107r.13,+P0> right-margin line end, global prose count = 2)",
+        "otarain (<f107r.14,+P0> line interior)",
+        "otaraiin (<f107r.15,+P0> line interior)",
+        "otalar (<f107r.16,+P0> line interior, global prose count = 2) + otaiinam (<f107r.16,+P0> right-margin line end, matches Virgo <f72v2.19> opaiinam, global prose count = 1)"
+      ],
+      "window_probability_p": 6.7e-06
+    },
+    "zodiac_to_rosettes_label_concordance": [
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "10:00",
+        "zodiac_label": "ykary",
+        "target_folio": "fRos",
+        "target_line": "90",
+        "target_type": "@L0",
+        "target_word": "kary"
+      },
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "10:30",
+        "zodiac_label": "otar",
+        "target_folio": "fRos",
+        "target_line": "27",
+        "target_type": "@L0",
+        "target_word": "opar"
+      },
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "10:30",
+        "zodiac_label": "otar",
+        "target_folio": "fRos",
+        "target_line": "68",
+        "target_type": "@L0",
+        "target_word": "opar"
+      },
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "01:00",
+        "zodiac_label": "otody",
+        "target_folio": "fRos",
+        "target_line": "84",
+        "target_type": "@L0",
+        "target_word": "otody"
+      },
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "01:00",
+        "zodiac_label": "otody",
+        "target_folio": "fRos",
+        "target_line": "109",
+        "target_type": "+L0",
+        "target_word": "otody"
+      },
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "02:45",
+        "zodiac_label": "okody",
+        "target_folio": "fRos",
+        "target_line": "34",
+        "target_type": "@L0",
+        "target_word": "okody"
+      },
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "02:45",
+        "zodiac_label": "okody",
+        "target_folio": "fRos",
+        "target_line": "55",
+        "target_type": "@L0",
+        "target_word": "okody"
+      },
+      {
+        "zodiac_folio": "f71v",
+        "sign": "Taurus I",
+        "clock": "00:00",
+        "zodiac_label": "okolar",
+        "target_folio": "fRos",
+        "target_line": "124",
+        "target_type": "@L0",
+        "target_word": "okolar"
+      },
+      {
+        "zodiac_folio": "f71v",
+        "sign": "Taurus I",
+        "clock": "03:00",
+        "zodiac_label": "otaiin",
+        "target_folio": "fRos",
+        "target_line": "26",
+        "target_type": "@L0",
+        "target_word": "opain"
+      },
+      {
+        "zodiac_folio": "f71v",
+        "sign": "Taurus I",
+        "clock": "03:00",
+        "zodiac_label": "otaiin",
+        "target_folio": "fRos",
+        "target_line": "49",
+        "target_type": "@L0",
+        "target_word": "opaiin"
+      },
+      {
+        "zodiac_folio": "f71v",
+        "sign": "Taurus I",
+        "clock": "04:30",
+        "zodiac_label": "okaraiin",
+        "target_folio": "fRos",
+        "target_line": "123",
+        "target_type": "@L0",
+        "target_word": "ofaraiin"
+      },
+      {
+        "zodiac_folio": "f72r2",
+        "sign": "Gemini",
+        "clock": "08:00",
+        "zodiac_label": "orary",
+        "target_folio": "fRos",
+        "target_line": "9",
+        "target_type": "+L0",
+        "target_word": "orary"
+      },
+      {
+        "zodiac_folio": "f72r3",
+        "sign": "Cancer",
+        "clock": "00:00",
+        "zodiac_label": "yfary",
+        "target_folio": "fRos",
+        "target_line": "90",
+        "target_type": "@L0",
+        "target_word": "kary"
+      },
+      {
+        "zodiac_folio": "f72v3",
+        "sign": "Leo",
+        "clock": "02:00",
+        "zodiac_label": "oeedy",
+        "target_folio": "fRos",
+        "target_line": "70",
+        "target_type": "@L0",
+        "target_word": "oedy"
+      },
+      {
+        "zodiac_folio": "f72v3",
+        "sign": "Leo",
+        "clock": "04:00",
+        "zodiac_label": "okary",
+        "target_folio": "fRos",
+        "target_line": "25",
+        "target_type": "@L0",
+        "target_word": "okary"
+      },
+      {
+        "zodiac_folio": "f72v3",
+        "sign": "Leo",
+        "clock": "04:00",
+        "zodiac_label": "okary",
+        "target_folio": "fRos",
+        "target_line": "88",
+        "target_type": "@L0",
+        "target_word": "ofary"
+      },
+      {
+        "zodiac_folio": "f72v2",
+        "sign": "Virgo",
+        "clock": "00:30",
+        "zodiac_label": "oeedy",
+        "target_folio": "fRos",
+        "target_line": "70",
+        "target_type": "@L0",
+        "target_word": "oedy"
+      },
+      {
+        "zodiac_folio": "f72v1",
+        "sign": "Libra",
+        "clock": "10:00",
+        "zodiac_label": "oteoly",
+        "target_folio": "fRos",
+        "target_line": "115",
+        "target_type": "=L0",
+        "target_word": "oteoly"
+      },
+      {
+        "zodiac_folio": "f72v1",
+        "sign": "Libra",
+        "clock": "01:30",
+        "zodiac_label": "odal",
+        "target_folio": "fRos",
+        "target_line": "65",
+        "target_type": "@L0",
+        "target_word": "odal"
+      },
+      {
+        "zodiac_folio": "f72v1",
+        "sign": "Libra",
+        "clock": "04:30",
+        "zodiac_label": "okody",
+        "target_folio": "fRos",
+        "target_line": "34",
+        "target_type": "@L0",
+        "target_word": "okody"
+      },
+      {
+        "zodiac_folio": "f72v1",
+        "sign": "Libra",
+        "clock": "04:30",
+        "zodiac_label": "okody",
+        "target_folio": "fRos",
+        "target_line": "55",
+        "target_type": "@L0",
+        "target_word": "okody"
+      },
+      {
+        "zodiac_folio": "f72v1",
+        "sign": "Libra",
+        "clock": "08:00",
+        "zodiac_label": "ykeedy",
+        "target_folio": "fRos",
+        "target_line": "126",
+        "target_type": "@L0",
+        "target_word": "ykedy"
+      },
+      {
+        "zodiac_folio": "f72v1",
+        "sign": "Libra",
+        "clock": "03:00",
+        "zodiac_label": "okedy",
+        "target_folio": "fRos",
+        "target_line": "24",
+        "target_type": "@L0",
+        "target_word": "okedy"
+      },
+      {
+        "zodiac_folio": "f72v1",
+        "sign": "Libra",
+        "clock": "03:00",
+        "zodiac_label": "okedy",
+        "target_folio": "fRos",
+        "target_line": "104",
+        "target_type": "@L0",
+        "target_word": "okedy"
+      },
+      {
+        "zodiac_folio": "f73r",
+        "sign": "Scorpio",
+        "clock": "00:30",
+        "zodiac_label": "otedy",
+        "target_folio": "fRos",
+        "target_line": "72",
+        "target_type": "@L0",
+        "target_word": "otedy"
+      },
+      {
+        "zodiac_folio": "f73r",
+        "sign": "Scorpio",
+        "clock": "00:30",
+        "zodiac_label": "otedy",
+        "target_folio": "fRos",
+        "target_line": "107",
+        "target_type": "@L0",
+        "target_word": "otedy"
+      },
+      {
+        "zodiac_folio": "f73r",
+        "sign": "Scorpio",
+        "clock": "00:30",
+        "zodiac_label": "otedy",
+        "target_folio": "fRos",
+        "target_line": "111",
+        "target_type": "+L0",
+        "target_word": "otedy"
+      },
+      {
+        "zodiac_folio": "f73r",
+        "sign": "Scorpio",
+        "clock": "00:30",
+        "zodiac_label": "otedy",
+        "target_folio": "fRos",
+        "target_line": "130",
+        "target_type": "@L0",
+        "target_word": "otedy"
+      },
+      {
+        "zodiac_folio": "f73r",
+        "sign": "Scorpio",
+        "clock": "00:30",
+        "zodiac_label": "otedy",
+        "target_folio": "fRos",
+        "target_line": "63",
+        "target_type": "@L0",
+        "target_word": "oteedy"
+      },
+      {
+        "zodiac_folio": "f73r",
+        "sign": "Scorpio",
+        "clock": "00:30",
+        "zodiac_label": "otedy",
+        "target_folio": "fRos",
+        "target_line": "127",
+        "target_type": "@L0",
+        "target_word": "oteedy"
+      },
+      {
+        "zodiac_folio": "f73r",
+        "sign": "Scorpio",
+        "clock": "00:30",
+        "zodiac_label": "ykeedy",
+        "target_folio": "fRos",
+        "target_line": "126",
+        "target_type": "@L0",
+        "target_word": "ykedy"
+      },
+      {
+        "zodiac_folio": "f73r",
+        "sign": "Scorpio",
+        "clock": "02:00",
+        "zodiac_label": "okeedy",
+        "target_folio": "fRos",
+        "target_line": "24",
+        "target_type": "@L0",
+        "target_word": "okedy"
+      },
+      {
+        "zodiac_folio": "f73r",
+        "sign": "Scorpio",
+        "clock": "02:00",
+        "zodiac_label": "okeedy",
+        "target_folio": "fRos",
+        "target_line": "104",
+        "target_type": "@L0",
+        "target_word": "okedy"
+      },
+      {
+        "zodiac_folio": "f73r",
+        "sign": "Scorpio",
+        "clock": "07:00",
+        "zodiac_label": "chdy",
+        "target_folio": "fRos",
+        "target_line": "151",
+        "target_type": "+L0",
+        "target_word": "chdy"
+      },
+      {
+        "zodiac_folio": "f73r",
+        "sign": "Scorpio",
+        "clock": "08:45",
+        "zodiac_label": "opaiin",
+        "target_folio": "fRos",
+        "target_line": "26",
+        "target_type": "@L0",
+        "target_word": "opain"
+      },
+      {
+        "zodiac_folio": "f73r",
+        "sign": "Scorpio",
+        "clock": "08:45",
+        "zodiac_label": "opaiin",
+        "target_folio": "fRos",
+        "target_line": "49",
+        "target_type": "@L0",
+        "target_word": "opaiin"
+      },
+      {
+        "zodiac_folio": "f73r",
+        "sign": "Scorpio",
+        "clock": "10:00",
+        "zodiac_label": "otey",
+        "target_folio": "fRos",
+        "target_line": "61",
+        "target_type": "@L0",
+        "target_word": "oteey"
+      },
+      {
+        "zodiac_folio": "f73r",
+        "sign": "Scorpio",
+        "clock": "11:30",
+        "zodiac_label": "okary",
+        "target_folio": "fRos",
+        "target_line": "25",
+        "target_type": "@L0",
+        "target_word": "okary"
+      },
+      {
+        "zodiac_folio": "f73r",
+        "sign": "Scorpio",
+        "clock": "11:30",
+        "zodiac_label": "okary",
+        "target_folio": "fRos",
+        "target_line": "88",
+        "target_type": "@L0",
+        "target_word": "ofary"
+      },
+      {
+        "zodiac_folio": "f73r",
+        "sign": "Scorpio",
+        "clock": "04:30",
+        "zodiac_label": "chefy",
+        "target_folio": "fRos",
+        "target_line": "160",
+        "target_type": "+L0",
+        "target_word": "cheky"
+      },
+      {
+        "zodiac_folio": "f73v",
+        "sign": "Sagittarius",
+        "clock": "00:30",
+        "zodiac_label": "oteedy",
+        "target_folio": "fRos",
+        "target_line": "72",
+        "target_type": "@L0",
+        "target_word": "otedy"
+      },
+      {
+        "zodiac_folio": "f73v",
+        "sign": "Sagittarius",
+        "clock": "00:30",
+        "zodiac_label": "oteedy",
+        "target_folio": "fRos",
+        "target_line": "107",
+        "target_type": "@L0",
+        "target_word": "otedy"
+      },
+      {
+        "zodiac_folio": "f73v",
+        "sign": "Sagittarius",
+        "clock": "00:30",
+        "zodiac_label": "oteedy",
+        "target_folio": "fRos",
+        "target_line": "111",
+        "target_type": "+L0",
+        "target_word": "otedy"
+      },
+      {
+        "zodiac_folio": "f73v",
+        "sign": "Sagittarius",
+        "clock": "00:30",
+        "zodiac_label": "oteedy",
+        "target_folio": "fRos",
+        "target_line": "130",
+        "target_type": "@L0",
+        "target_word": "otedy"
+      },
+      {
+        "zodiac_folio": "f73v",
+        "sign": "Sagittarius",
+        "clock": "00:30",
+        "zodiac_label": "oteedy",
+        "target_folio": "fRos",
+        "target_line": "63",
+        "target_type": "@L0",
+        "target_word": "oteedy"
+      },
+      {
+        "zodiac_folio": "f73v",
+        "sign": "Sagittarius",
+        "clock": "00:30",
+        "zodiac_label": "oteedy",
+        "target_folio": "fRos",
+        "target_line": "127",
+        "target_type": "@L0",
+        "target_word": "oteedy"
+      },
+      {
+        "zodiac_folio": "f73v",
+        "sign": "Sagittarius",
+        "clock": "09:30",
+        "zodiac_label": "otedy",
+        "target_folio": "fRos",
+        "target_line": "72",
+        "target_type": "@L0",
+        "target_word": "otedy"
+      },
+      {
+        "zodiac_folio": "f73v",
+        "sign": "Sagittarius",
+        "clock": "09:30",
+        "zodiac_label": "otedy",
+        "target_folio": "fRos",
+        "target_line": "107",
+        "target_type": "@L0",
+        "target_word": "otedy"
+      },
+      {
+        "zodiac_folio": "f73v",
+        "sign": "Sagittarius",
+        "clock": "09:30",
+        "zodiac_label": "otedy",
+        "target_folio": "fRos",
+        "target_line": "111",
+        "target_type": "+L0",
+        "target_word": "otedy"
+      },
+      {
+        "zodiac_folio": "f73v",
+        "sign": "Sagittarius",
+        "clock": "09:30",
+        "zodiac_label": "otedy",
+        "target_folio": "fRos",
+        "target_line": "130",
+        "target_type": "@L0",
+        "target_word": "otedy"
+      },
+      {
+        "zodiac_folio": "f73v",
+        "sign": "Sagittarius",
+        "clock": "09:30",
+        "zodiac_label": "otedy",
+        "target_folio": "fRos",
+        "target_line": "63",
+        "target_type": "@L0",
+        "target_word": "oteedy"
+      },
+      {
+        "zodiac_folio": "f73v",
+        "sign": "Sagittarius",
+        "clock": "09:30",
+        "zodiac_label": "otedy",
+        "target_folio": "fRos",
+        "target_line": "127",
+        "target_type": "@L0",
+        "target_word": "oteedy"
+      }
+    ],
+    "zodiac_to_pharma_jar_concordance": [
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "06:30",
+        "zodiac_label": "otaldy",
+        "target_folio": "f88r",
+        "target_line": "12",
+        "target_type": "@Lc",
+        "target_word": "otaldy"
+      },
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "11:00",
+        "zodiac_label": "otaral",
+        "target_folio": "f99r",
+        "target_line": "19",
+        "target_type": "@Lc",
+        "target_word": "oparal"
+      }
+    ],
+    "zodiac_to_pharma_plant_concordance_count": 47,
+    "zodiac_to_pharma_plant_concordance_examples": [
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "10:30",
+        "zodiac_label": "otar",
+        "target_folio": "f88v",
+        "target_line": "4",
+        "target_type": "@Lf",
+        "target_word": "otar"
+      },
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "02:45",
+        "zodiac_label": "okody",
+        "target_folio": "f102v2",
+        "target_line": "10",
+        "target_type": "@Lf",
+        "target_word": "okody"
+      },
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "04:30",
+        "zodiac_label": "otaly",
+        "target_folio": "f88r",
+        "target_line": "6",
+        "target_type": "@Lf",
+        "target_word": "otaly"
+      },
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "04:30",
+        "zodiac_label": "otaly",
+        "target_folio": "f99v",
+        "target_line": "6",
+        "target_type": "@Lf",
+        "target_word": "otaly"
+      },
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "06:30",
+        "zodiac_label": "otaldy",
+        "target_folio": "f101v",
+        "target_line": "2",
+        "target_type": "@Lf",
+        "target_word": "otaldy"
+      },
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "07:00",
+        "zodiac_label": "okeoly",
+        "target_folio": "f99r",
+        "target_line": "25",
+        "target_type": "@Lf",
+        "target_word": "okeoly"
+      },
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "10:00",
+        "zodiac_label": "otaram",
+        "target_folio": "f89v2",
+        "target_line": "24",
+        "target_type": "@Lf",
+        "target_word": "otaram"
+      },
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "01:30",
+        "zodiac_label": "otalam",
+        "target_folio": "f99r",
+        "target_line": "13",
+        "target_type": "@Lf",
+        "target_word": "otalam"
+      },
+      {
+        "zodiac_folio": "f70v1",
+        "sign": "Aries I",
+        "clock": "03:30",
+        "zodiac_label": "otaly",
+        "target_folio": "f88r",
+        "target_line": "6",
+        "target_type": "@Lf",
+        "target_word": "otaly"
+      },
+      {
+        "zodiac_folio": "f70v1",
+        "sign": "Aries I",
+        "clock": "03:30",
+        "zodiac_label": "otaly",
+        "target_folio": "f99v",
+        "target_line": "6",
+        "target_type": "@Lf",
+        "target_word": "otaly"
+      },
+      {
+        "zodiac_folio": "f71r",
+        "sign": "Aries II",
+        "clock": "03:30",
+        "zodiac_label": "oteeol",
+        "target_folio": "f100r",
+        "target_line": "20",
+        "target_type": "@Lf",
+        "target_word": "oteol"
+      },
+      {
+        "zodiac_folio": "f72r2",
+        "sign": "Gemini",
+        "clock": "10:30",
+        "zodiac_label": "otal",
+        "target_folio": "f99v",
+        "target_line": "27",
+        "target_type": "@Lf",
+        "target_word": "otal"
+      },
+      {
+        "zodiac_folio": "f72r2",
+        "sign": "Gemini",
+        "clock": "00:30",
+        "zodiac_label": "okam",
+        "target_folio": "f89v2",
+        "target_line": "2",
+        "target_type": "@Lf",
+        "target_word": "okam"
+      },
+      {
+        "zodiac_folio": "f72v3",
+        "sign": "Leo",
+        "clock": "11:30",
+        "zodiac_label": "okam",
+        "target_folio": "f89v2",
+        "target_line": "2",
+        "target_type": "@Lf",
+        "target_word": "okam"
+      },
+      {
+        "zodiac_folio": "f72v3",
+        "sign": "Leo",
+        "clock": "02:45",
+        "zodiac_label": "otoly",
+        "target_folio": "f101v",
+        "target_line": "8",
+        "target_type": "@Lf",
+        "target_word": "otoly"
+      },
+      {
+        "zodiac_folio": "f72v3",
+        "sign": "Leo",
+        "clock": "04:00",
+        "zodiac_label": "okary",
+        "target_folio": "f99r",
+        "target_line": "11",
+        "target_type": "@Lf",
+        "target_word": "okary"
+      },
+      {
+        "zodiac_folio": "f72v3",
+        "sign": "Leo",
+        "clock": "07:30",
+        "zodiac_label": "opal",
+        "target_folio": "f99v",
+        "target_line": "27",
+        "target_type": "@Lf",
+        "target_word": "otal"
+      },
+      {
+        "zodiac_folio": "f72v3",
+        "sign": "Leo",
+        "clock": "08:30",
+        "zodiac_label": "otaly",
+        "target_folio": "f88r",
+        "target_line": "6",
+        "target_type": "@Lf",
+        "target_word": "otaly"
+      },
+      {
+        "zodiac_folio": "f72v3",
+        "sign": "Leo",
+        "clock": "08:30",
+        "zodiac_label": "otaly",
+        "target_folio": "f99v",
+        "target_line": "6",
+        "target_type": "@Lf",
+        "target_word": "otaly"
+      },
+      {
+        "zodiac_folio": "f72v2",
+        "sign": "Virgo",
+        "clock": "07:00",
+        "zodiac_label": "okeody",
+        "target_folio": "f102v1",
+        "target_line": "2",
+        "target_type": "@Lf",
+        "target_word": "okeody"
+      },
+      {
+        "zodiac_folio": "f72v2",
+        "sign": "Virgo",
+        "clock": "07:00",
+        "zodiac_label": "okeody",
+        "target_folio": "f102v1",
+        "target_line": "3",
+        "target_type": "@Lf",
+        "target_word": "okeody"
+      },
+      {
+        "zodiac_folio": "f72v1",
+        "sign": "Libra",
+        "clock": "10:30",
+        "zodiac_label": "okeoly",
+        "target_folio": "f99r",
+        "target_line": "25",
+        "target_type": "@Lf",
+        "target_word": "okeoly"
+      },
+      {
+        "zodiac_folio": "f72v1",
+        "sign": "Libra",
+        "clock": "01:00",
+        "zodiac_label": "okeeoly",
+        "target_folio": "f99r",
+        "target_line": "25",
+        "target_type": "@Lf",
+        "target_word": "okeoly"
+      },
+      {
+        "zodiac_folio": "f72v1",
+        "sign": "Libra",
+        "clock": "04:30",
+        "zodiac_label": "okody",
+        "target_folio": "f102v2",
+        "target_line": "10",
+        "target_type": "@Lf",
+        "target_word": "okody"
+      },
+      {
+        "zodiac_folio": "f73r",
+        "sign": "Scorpio",
+        "clock": "11:15",
+        "zodiac_label": "otaly",
+        "target_folio": "f88r",
+        "target_line": "6",
+        "target_type": "@Lf",
+        "target_word": "otaly"
+      }
+    ],
+    "zodiac_to_starred_recipe_rare_concordance": [
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "08:00",
+        "zodiac_label": "okydy",
+        "recipe_folio": "f116r",
+        "recipe_line": "46",
+        "recipe_word": "okydy",
+        "global_prose_count": 2
+      },
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "00:00",
+        "zodiac_label": "otalar",
+        "recipe_folio": "f107r",
+        "recipe_line": "16",
+        "recipe_word": "otalar",
+        "global_prose_count": 2
+      },
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "04:00",
+        "zodiac_label": "okaram",
+        "recipe_folio": "f108r",
+        "recipe_line": "50",
+        "recipe_word": "okaram",
+        "global_prose_count": 2
+      },
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "09:00",
+        "zodiac_label": "ykolaiin",
+        "recipe_folio": "f108r",
+        "recipe_line": "24",
+        "recipe_word": "folaiin",
+        "global_prose_count": 4
+      },
+      {
+        "zodiac_folio": "f70v2",
+        "sign": "Pisces",
+        "clock": "09:00",
+        "zodiac_label": "ykolaiin",
+        "recipe_folio": "f116r",
+        "recipe_line": "6",
+        "recipe_word": "ykolain",
+        "global_prose_count": 4
+      },
+      {
+        "zodiac_folio": "f70v1",
+        "sign": "Aries I",
+        "clock": "02:30",
+        "zodiac_label": "okalal",
+        "recipe_folio": "f106r",
+        "recipe_line": "36",
+        "recipe_word": "okalal",
+        "global_prose_count": 4
+      },
+      {
+        "zodiac_folio": "f70v1",
+        "sign": "Aries I",
+        "clock": "02:30",
+        "zodiac_label": "okalal",
+        "recipe_folio": "f113r",
+        "recipe_line": "51",
+        "recipe_word": "okalal",
+        "global_prose_count": 4
+      },
+      {
+        "zodiac_folio": "f70v1",
+        "sign": "Aries I",
+        "clock": "00:00",
+        "zodiac_label": "otalaiin",
+        "recipe_folio": "f108r",
+        "recipe_line": "11",
+        "recipe_word": "otalaiin",
+        "global_prose_count": 2
+      },
+      {
+        "zodiac_folio": "f71r",
+        "sign": "Aries II",
+        "clock": "05:30",
+        "zodiac_label": "cheary",
+        "recipe_folio": "f107v",
+        "recipe_line": "39",
+        "recipe_word": "cheary",
+        "global_prose_count": 2
+      },
+      {
+        "zodiac_folio": "f71v",
+        "sign": "Taurus I",
+        "clock": "11:00",
+        "zodiac_label": "chfaly",
+        "recipe_folio": "f107v",
+        "recipe_line": "33",
+        "recipe_word": "chkaly",
+        "global_prose_count": 2
+      },
+      {
+        "zodiac_folio": "f71v",
+        "sign": "Taurus I",
+        "clock": "03:00",
+        "zodiac_label": "otalaiin",
+        "recipe_folio": "f108r",
+        "recipe_line": "11",
+        "recipe_word": "otalaiin",
+        "global_prose_count": 2
+      },
+      {
+        "zodiac_folio": "f72r1",
+        "sign": "Taurus II",
+        "clock": "01:00",
+        "zodiac_label": "okalam",
+        "recipe_folio": "f108v",
+        "recipe_line": "27",
+        "recipe_word": "okalam",
+        "global_prose_count": 1
+      },
+      {
+        "zodiac_folio": "f72r1",
+        "sign": "Taurus II",
+        "clock": "02:00",
+        "zodiac_label": "ytalshdy",
+        "recipe_folio": "f106v",
+        "recipe_line": "6",
+        "recipe_word": "talshdy",
+        "global_prose_count": 1
+      },
+      {
+        "zodiac_folio": "f72r1",
+        "sign": "Taurus II",
+        "clock": "02:00",
+        "zodiac_label": "otchdal",
+        "recipe_folio": "f111v",
+        "recipe_line": "48",
+        "recipe_word": "opchdal",
+        "global_prose_count": 2
+      },
+      {
+        "zodiac_folio": "f72r2",
+        "sign": "Gemini",
+        "clock": "00:00",
+        "zodiac_label": "okaram",
+        "recipe_folio": "f108r",
+        "recipe_line": "50",
+        "recipe_word": "okaram",
+        "global_prose_count": 2
+      },
+      {
+        "zodiac_folio": "f72r2",
+        "sign": "Gemini",
+        "clock": "00:30",
+        "zodiac_label": "okairy",
+        "recipe_folio": "f105v",
+        "recipe_line": "9",
+        "recipe_word": "okairy",
+        "global_prose_count": 1
+      },
+      {
+        "zodiac_folio": "f72r3",
+        "sign": "Cancer",
+        "clock": "06:30",
+        "zodiac_label": "oeeodaiin",
+        "recipe_folio": "f104v",
+        "recipe_line": "5",
+        "recipe_word": "oeeodain",
+        "global_prose_count": 1
+      },
+      {
+        "zodiac_folio": "f72r3",
+        "sign": "Cancer",
+        "clock": "10:00",
+        "zodiac_label": "ykolairol",
+        "recipe_folio": "f113r",
+        "recipe_line": "2",
+        "recipe_word": "ykolairol",
+        "global_prose_count": 1
+      },
+      {
+        "zodiac_folio": "f72r3",
+        "sign": "Cancer",
+        "clock": "10:30",
+        "zodiac_label": "opalal",
+        "recipe_folio": "f107v",
+        "recipe_line": "21",
+        "recipe_word": "otalal",
+        "global_prose_count": 3
+      },
+      {
+        "zodiac_folio": "f72r3",
+        "sign": "Cancer",
+        "clock": "10:30",
+        "zodiac_label": "opalal",
+        "recipe_folio": "f108r",
+        "recipe_line": "35",
+        "recipe_word": "opalal",
+        "global_prose_count": 3
+      },
+      {
+        "zodiac_folio": "f72v2",
+        "sign": "Virgo",
+        "clock": "11:00",
+        "zodiac_label": "oeeodaiin",
+        "recipe_folio": "f104v",
+        "recipe_line": "5",
+        "recipe_word": "oeeodain",
+        "global_prose_count": 1
+      },
+      {
+        "zodiac_folio": "f72v2",
+        "sign": "Virgo",
+        "clock": "03:00",
+        "zodiac_label": "cheoldy",
+        "recipe_folio": "f112v",
+        "recipe_line": "5",
+        "recipe_word": "cheeoldy",
+        "global_prose_count": 5
+      },
+      {
+        "zodiac_folio": "f72v2",
+        "sign": "Virgo",
+        "clock": "04:30",
+        "zodiac_label": "oteodar",
+        "recipe_folio": "f105r",
+        "recipe_line": "36",
+        "recipe_word": "oteodar",
+        "global_prose_count": 5
+      },
+      {
+        "zodiac_folio": "f72v2",
+        "sign": "Virgo",
+        "clock": "09:00",
+        "zodiac_label": "opaiinam",
+        "recipe_folio": "f107r",
+        "recipe_line": "16",
+        "recipe_word": "otaiinam",
+        "global_prose_count": 1
+      },
+      {
+        "zodiac_folio": "f72v2",
+        "sign": "Virgo",
+        "clock": "09:30",
+        "zodiac_label": "cheoldy",
+        "recipe_folio": "f112v",
+        "recipe_line": "5",
+        "recipe_word": "cheeoldy",
+        "global_prose_count": 5
+      }
+    ]
+  }
+}

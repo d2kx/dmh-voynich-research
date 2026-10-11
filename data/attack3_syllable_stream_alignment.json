@@ -1,0 +1,915 @@
+{
+  "phase": "Phase 14 / Attack 3",
+  "title": "Syllable-Stream & Recipe Formula Alignment",
+  "paragraph_slot_architecture": {
+    "total_paragraphs": 765,
+    "opener_gallows_in_first_3_chars_pct": 89.02,
+    "top_20_paragraph_opener_w1": {
+      "pol": 10,
+      "tchedy": 9,
+      "tol": 8,
+      "pchedar": 7,
+      "polaiin": 7,
+      "pcheol": 6,
+      "pchor": 6,
+      "tchor": 5,
+      "polchedy": 5,
+      "pchedy": 5,
+      "tshedy": 5,
+      "pcheor": 5,
+      "tshol": 4,
+      "tchol": 4,
+      "tar": 4,
+      "pchdair": 4,
+      "podaiin": 4,
+      "psheody": 4,
+      "pchedaiin": 4,
+      "pchedal": 4
+    },
+    "top_20_paragraph_opener_w2": {
+      "shedy": 14,
+      "shey": 12,
+      "ar": 12,
+      "shol": 10,
+      "shor": 9,
+      "or": 9,
+      "qokedy": 7,
+      "chedy": 7,
+      "dar": 7,
+      "cheo": 6,
+      "chey": 6,
+      "chor": 6,
+      "daiin": 6,
+      "ol": 6,
+      "sheody": 6,
+      "sheol": 6,
+      "shodaiin": 5,
+      "o": 5,
+      "sho": 5,
+      "qokeedy": 5
+    },
+    "top_15_paragraph_opener_bigrams": {
+      "tshor shey": 2,
+      "polor sheedy": 2,
+      "fachys ykal": 1,
+      "odar c'y": 1,
+      "ydain cphesaiin": 1,
+      "cpho shaiin": 1,
+      "kchsy chydaiin": 1,
+      "potoy shol": 1,
+      "kydainy ypchol": 1,
+      "kydain shaiin": 1,
+      "kooiin cheo": 1,
+      "kchor shy": 1,
+      "tsheos qopal": 1,
+      "pcheol shol": 1,
+      "tsheoarom shor": 1
+    },
+    "top_20_paragraph_closer_words": {
+      "daiin": 30,
+      "chedy": 12,
+      "shedy": 11,
+      "chey": 9,
+      "qokeey": 7,
+      "dy": 7,
+      "cheody": 7,
+      "okain": 5,
+      "dar": 5,
+      "okaiin": 5,
+      "aiin": 5,
+      "dam": 5,
+      "olor": 5,
+      "am": 4,
+      "dal": 4,
+      "shy": 4,
+      "chdy": 4,
+      "shol": 4,
+      "lchedy": 4,
+      "olkam": 4
+    },
+    "paragraph_closer_m_final_pct": 9.15,
+    "paragraph_closer_y_final_pct": 45.36,
+    "paragraph_closer_in_final_pct": 20.13,
+    "paragraph_end_suffix_enrichment": {
+      "in": {
+        "par_end_count": 154,
+        "par_end_pct": 20.13,
+        "par_mid_pct": 16.71,
+        "enrichment_ratio": 1.2
+      },
+      "dy": {
+        "par_end_count": 147,
+        "par_end_pct": 19.22,
+        "par_mid_pct": 18.52,
+        "enrichment_ratio": 1.04
+      },
+      "ey": {
+        "par_end_count": 66,
+        "par_end_pct": 8.63,
+        "par_mid_pct": 11.21,
+        "enrichment_ratio": 0.77
+      },
+      "am": {
+        "par_end_count": 50,
+        "par_end_pct": 6.54,
+        "par_mid_pct": 1.95,
+        "enrichment_ratio": 3.36
+      },
+      "hy": {
+        "par_end_count": 44,
+        "par_end_pct": 5.75,
+        "par_mid_pct": 6.09,
+        "enrichment_ratio": 0.94
+      },
+      "or": {
+        "par_end_count": 37,
+        "par_end_pct": 4.84,
+        "par_mid_pct": 6.03,
+        "enrichment_ratio": 0.8
+      },
+      "ol": {
+        "par_end_count": 35,
+        "par_end_pct": 4.58,
+        "par_mid_pct": 9.83,
+        "enrichment_ratio": 0.47
+      },
+      "al": {
+        "par_end_count": 29,
+        "par_end_pct": 3.79,
+        "par_mid_pct": 5.36,
+        "enrichment_ratio": 0.71
+      },
+      "ar": {
+        "par_end_count": 27,
+        "par_end_pct": 3.53,
+        "par_mid_pct": 7.16,
+        "enrichment_ratio": 0.49
+      },
+      "ly": {
+        "par_end_count": 26,
+        "par_end_pct": 3.4,
+        "par_mid_pct": 1.01,
+        "enrichment_ratio": 3.36
+      },
+      "ry": {
+        "par_end_count": 21,
+        "par_end_pct": 2.75,
+        "par_mid_pct": 0.48,
+        "enrichment_ratio": 5.73
+      },
+      "ky": {
+        "par_end_count": 17,
+        "par_end_pct": 2.22,
+        "par_mid_pct": 1.92,
+        "enrichment_ratio": 1.15
+      }
+    }
+  },
+  "clause_chains_and_syntactic_frames": {
+    "mean_clause_length_tokens": 9.21,
+    "clause_length_distribution_top10": {
+      "1": 412,
+      "2": 293,
+      "6": 285,
+      "3": 275,
+      "9": 272,
+      "5": 263,
+      "8": 260,
+      "4": 260,
+      "7": 256,
+      "10": 246
+    },
+    "top_20_currier_A_bigrams": {
+      "chol daiin": 30,
+      "s aiin": 21,
+      "chol chol": 20,
+      "or aiin": 10,
+      "daiin cthy": 9,
+      "shol daiin": 9,
+      "chor chol": 8,
+      "chor daiin": 8,
+      "chol chy": 7,
+      "daiin daiin": 7,
+      "daiin cthor": 7,
+      "otol chol": 7,
+      "s chol": 7,
+      "o l": 7,
+      "daiin dain": 7,
+      "d aiin": 7,
+      "cthol daiin": 6,
+      "chol chor": 6,
+      "chol shol": 6,
+      "chor chor": 6
+    },
+    "top_20_currier_B_bigrams": {
+      "or aiin": 46,
+      "s aiin": 34,
+      "ol shedy": 24,
+      "ar aiin": 22,
+      "ol chedy": 22,
+      "shedy qokedy": 21,
+      "chedy qokeey": 19,
+      "r aiin": 18,
+      "chedy qokain": 18,
+      "qokeedy qokeedy": 18,
+      "shedy qokaiin": 17,
+      "shey qokain": 16,
+      "shedy qokeedy": 15,
+      "qokedy qokeedy": 15,
+      "qol chedy": 15,
+      "chedy qokedy": 14,
+      "ar al": 14,
+      "o l": 13,
+      "qokedy qokedy": 13,
+      "qokain ol": 13
+    },
+    "top_15_currier_A_trigrams": {
+      "chol chol kor": 2,
+      "chol daiin cthy": 2,
+      "chol chy chaiin": 2,
+      "cho s chol": 2,
+      "cthor chol chor": 2,
+      "chaiin chcthy ctho": 2,
+      "daiin qotchy qotor": 2,
+      "qotor chol daiin": 2,
+      "daiin cthor chol": 2,
+      "sho cthy daiin": 2,
+      "chor chol daiin": 2,
+      "chol daiin chkaiin": 2,
+      "chol daiin chol": 2,
+      "d aiin d": 2,
+      "okeey d aiin": 2
+    },
+    "top_15_currier_B_trigrams": {
+      "ol s aiin": 5,
+      "ol shedy qokedy": 5,
+      "chey qol chedy": 4,
+      "s aiin chey": 4,
+      "ol chedy qol": 3,
+      "shedy qokedy qokeedy": 3,
+      "sheedy qokedy chedy": 3,
+      "or aiin ol": 3,
+      "or or aiin": 3,
+      "l s aiin": 3,
+      "chedy qokeey qokeey": 3,
+      "okedy okedy qokedy": 2,
+      "or aiin otaiin": 2,
+      "aiin or aiin": 2,
+      "dar ar al": 2
+    },
+    "top_20_verb_proclitic_qo_chains": {
+      "shedy qokedy": 21,
+      "chedy qokeey": 19,
+      "chedy qokain": 18,
+      "shedy qokaiin": 17,
+      "shey qokain": 16,
+      "shedy qokeedy": 15,
+      "chedy qokedy": 14,
+      "chedy qol": 13,
+      "shedy qokeey": 13,
+      "shedy qokain": 11,
+      "chedy qokar": 10,
+      "chedy qokaiin": 10,
+      "chedy qokeedy": 10,
+      "sheedy qokeedy": 9,
+      "shedy qokal": 9,
+      "shey qokaiin": 8,
+      "shey qokey": 8,
+      "shedy qoky": 8,
+      "chey qokain": 8,
+      "shedy qol": 7
+    },
+    "top_20_prepositional_ol_dal_phrases": {
+      "ol shedy": 24,
+      "ol chedy": 22,
+      "ol aiin": 14,
+      "ol sheey": 11,
+      "ol cheey": 11,
+      "dar ar": 10,
+      "ol kaiin": 10,
+      "ol chey": 9,
+      "ol daiin": 9,
+      "ol s": 9,
+      "al ar": 9,
+      "ol ol": 8,
+      "ol cheol": 8,
+      "dar ol": 8,
+      "dal shedy": 8,
+      "dar chedy": 7,
+      "ol or": 7,
+      "ol shey": 7,
+      "dar aiin": 6,
+      "ol olaiin": 6
+    },
+    "top_20_pre_daiin_words": {
+      "chol": 35,
+      "daiin": 19,
+      "ol": 13,
+      "qoky": 12,
+      "chedy": 12,
+      "chey": 11,
+      "qokeey": 11,
+      "shol": 10,
+      "chor": 9,
+      "y": 9,
+      "dy": 8,
+      "cheey": 8,
+      "chy": 7,
+      "cthy": 7,
+      "shey": 7,
+      "cheo": 7,
+      "cthol": 6,
+      "dain": 6,
+      "otol": 6,
+      "qokol": 6
+    },
+    "top_20_post_daiin_clause_restart_words": {
+      "chey": 20,
+      "daiin": 16,
+      "chedy": 15,
+      "shey": 13,
+      "chckhy": 11,
+      "ol": 11,
+      "cthy": 10,
+      "dal": 10,
+      "or": 10,
+      "okaiin": 9,
+      "dain": 9,
+      "cthor": 8,
+      "chy": 8,
+      "dar": 8,
+      "y": 8,
+      "shedy": 8,
+      "chor": 7,
+      "al": 7,
+      "ar": 7,
+      "chol": 7
+    }
+  },
+  "decoded_recipe_paragraph_samples": [
+    {
+      "folio": "f84r",
+      "section": "Biological (Balneological)",
+      "lang": "B",
+      "start_line": "13",
+      "word_count": 48,
+      "original_text": "kol chedy qokeey otedy dytedy okeedy olshed opshed ykshedy qotedy opoly tol or sheey chckhdy schckhy dal y shedy otedy qol or ol eedy qokeey or oly qokeey dar shedy qokedy qokeedy qokedy chedy okain chey qokedy dar olardy tor shedytedy o'l ol cheol shedy shckhy qokal olkedy",
+      "core_syllable_stream": "k - ch - k - ot - dyt - ok - olshed - otshed - ksh - t - oto - t - or - sh - chckh - schckh - d - y - sh - ot - ol - or - ol - e - k - or - o - k - d - sh - k - k - k - ch - ok - ch - k - d - olar - t - shedyt - o'l - ol - che - sh - shckh - k - olk",
+      "annotated_slot_stream": "kol[RECIPE_OPENER(GALLOWS)] · chedy[ACTION_VERB(chedy)] · qokeey[PROCLITIC_TARGET(q+k)] · otedy[LABEL_STEM(otedy)] · dytedy[STEM(dyt)] · okeedy[LABEL_STEM(okeedy)] · olshed[STEM(olshed)] · opshed[STEM(otshed)] · ykshedy[LABEL_STEM(ykshedy)] · qotedy[PROCLITIC_TARGET(q+t)] · opoly[LABEL_STEM(opoly)] · tol[STEM(t)] · or[PREP/RELATOR] · sheey[ACTION_VERB(sheey)] · chckhdy[ACTION_VERB(chckhdy)] · schckhy[STEM(schckh)] · dal[PREP/RELATOR] · y[STEM(y)] · shedy[ACTION_VERB(shedy)] · otedy[LABEL_STEM(otedy)] · qol[LABEL_STEM(qol)] · or[PREP/RELATOR] · ol[PREP/RELATOR] · eedy[STEM(e)] · qokeey[PROCLITIC_TARGET(q+k)] · or[PREP/RELATOR] · oly[STEM(o)] · qokeey[PROCLITIC_TARGET(q+k)] · dar[PREP/RELATOR] · shedy[ACTION_VERB(shedy)] · qokedy[PROCLITIC_TARGET(q+k)] · qokeedy[PROCLITIC_TARGET(q+k)] · qokedy[PROCLITIC_TARGET(q+k)] · chedy[ACTION_VERB(chedy)] · okain[LABEL_STEM(okain)] · chey[ACTION_VERB(chey)] · qokedy[PROCLITIC_TARGET(q+k)] · dar[PREP/RELATOR] · olardy[STEM(olar)] · tor[STEM(t)] · shedytedy[ACTION_VERB(shedytedy)] · o'l[STEM(o'l)] · ol[PREP/RELATOR] · cheol[LABEL_STEM(cheol)] · shedy[ACTION_VERB(shedy)] · shckhy[ACTION_VERB(shckhy)] · qokal[PROCLITIC_TARGET(q+k)] · olkedy[LABEL_STEM(olkedy)]",
+      "exact_label_cross_references": [
+        {
+          "word": "otedy",
+          "label_ref": "L0:fRos"
+        },
+        {
+          "word": "or",
+          "label_ref": "Ln:f84r"
+        },
+        {
+          "word": "sheey",
+          "label_ref": "Lx:f116v"
+        },
+        {
+          "word": "y",
+          "label_ref": "Lf:f99r"
+        },
+        {
+          "word": "otedy",
+          "label_ref": "L0:fRos"
+        },
+        {
+          "word": "or",
+          "label_ref": "Ln:f84r"
+        },
+        {
+          "word": "or",
+          "label_ref": "Ln:f84r"
+        },
+        {
+          "word": "dar",
+          "label_ref": "Lf:f99r"
+        },
+        {
+          "word": "okain",
+          "label_ref": "Lc:f89r2"
+        },
+        {
+          "word": "dar",
+          "label_ref": "Lf:f99r"
+        }
+      ],
+      "clause_segmentation": [
+        "kol chedy qokeey otedy dytedy okeedy olshed opshed ykshedy qotedy opoly tol or sheey chckhdy schckhy dal y shedy otedy qol or ol eedy qokeey or oly qokeey dar shedy qokedy qokeedy qokedy chedy okain chey qokedy dar olardy tor shedytedy o'l ol cheol shedy shckhy qokal olkedy"
+      ]
+    },
+    {
+      "folio": "f84r",
+      "section": "Biological (Balneological)",
+      "lang": "B",
+      "start_line": "17",
+      "word_count": 33,
+      "original_text": "pchol cphol sol teol tedy qotedy qokeedy qokeey ol keedy teyqokedy qopor oly otchy olshedy qokedy shedy okedy shckhy chckhy olchey schey dal chckhy ral qokey sol yqokain qolkeey qotedy qokain shedy salchedy",
+      "core_syllable_stream": "tch - cth - s - te - t - t - k - k - ol - k - teyqok - t - o - otch - olsh - k - sh - ok - shckh - chckh - olch - sch - d - chckh - r - k - s - qok - lk - t - k - sh - salch",
+      "annotated_slot_stream": "pchol[RECIPE_OPENER(GALLOWS)] · cphol[STEM(cth)] · sol[PREP/RELATOR] · teol[LABEL_STEM(teol)] · tedy[STEM(t)] · qotedy[PROCLITIC_TARGET(q+t)] · qokeedy[PROCLITIC_TARGET(q+k)] · qokeey[PROCLITIC_TARGET(q+k)] · ol[PREP/RELATOR] · keedy[STEM(k)] · teyqokedy[STEM(teyqok)] · qopor[PROCLITIC_TARGET(q+t)] · oly[STEM(o)] · otchy[LABEL_STEM(otchy)] · olshedy[STEM(olsh)] · qokedy[PROCLITIC_TARGET(q+k)] · shedy[ACTION_VERB(shedy)] · okedy[LABEL_STEM(okedy)] · shckhy[ACTION_VERB(shckhy)] · chckhy[ACTION_VERB(chckhy)] · olchey[STEM(olch)] · schey[STEM(sch)] · dal[PREP/RELATOR] · chckhy[ACTION_VERB(chckhy)] · ral[LABEL_STEM(ral)] · qokey[PROCLITIC_TARGET(q+k)] · sol[PREP/RELATOR] · yqokain[STEM(qok)] · qolkeey[PROCLITIC_TARGET(q+lk)] · qotedy[PROCLITIC_TARGET(q+t)] · qokain[PROCLITIC_TARGET(q+k)] · shedy[ACTION_VERB(shedy)] · salchedy[STEM(salch)]",
+      "exact_label_cross_references": [
+        {
+          "word": "okedy",
+          "label_ref": "L0:fRos"
+        }
+      ],
+      "clause_segmentation": [
+        "pchol cphol sol teol tedy qotedy qokeedy qokeey ol keedy teyqokedy qopor oly otchy olshedy qokedy shedy okedy shckhy chckhy olchey schey dal chckhy ral qokey sol yqokain qolkeey qotedy qokain shedy salchedy"
+      ]
+    },
+    {
+      "folio": "f88r",
+      "section": "Pharmaceutical",
+      "lang": "A",
+      "start_line": "7",
+      "word_count": 47,
+      "original_text": "dorsheoy ctheol qockhey dory sheor sholfchor dal chcthol ral sheom keol chear shekor qokor daiin sar s aiin oky sam oain or om otam okeom cheeor qokeody dar or om cheody qokeol cheol saiin cheos cheol doleeey or cheom cheojam yokeody cheom qoor cheeb ykeor shy sam",
+      "core_syllable_stream": "dorsheo - cthe - ckh - do - she - sholkch - d - chcth - r - sheom - ke - che - shek - k - d - s - s - a - o - s - o - or - om - ot - okeom - che - keo - d - or - om - cheo - ke - che - s - cheos - che - dol - or - cheom - cheoj - okeo - cheom - or - cheb - ke - sh - s",
+      "annotated_slot_stream": "dorsheoy[STEM(dorsheo)] · ctheol[LABEL_STEM(ctheol)] · qockhey[PROCLITIC_TARGET(q+ckh)] · dory[LABEL_STEM(dory)] · sheor[LABEL_STEM(sheor)] · sholfchor[STEM(sholkch)] · dal[PREP/RELATOR] · chcthol[STEM(chcth)] · ral[LABEL_STEM(ral)] · sheom[STEM(sheom)] · keol[STEM(ke)] · chear[LABEL_STEM(chear)] · shekor[LABEL_STEM(shekor)] · qokor[PROCLITIC_TARGET(q+k)] · daiin[CLAUSE_BOUNDARY(daiin)] · sar[LABEL_STEM(sar)] · s[STEM(s)] · aiin[CLAUSE_BOUNDARY(daiin)] · oky[STEM(o)] · sam[STEM(s)] · oain[STEM(o)] · or[PREP/RELATOR] · om[STEM(om)] · otam[LABEL_STEM(otam)] · okeom[STEM(okeom)] · cheeor[LABEL_STEM(cheeor)] · qokeody[PROCLITIC_TARGET(q+keo)] · dar[PREP/RELATOR] · or[PREP/RELATOR] · om[STEM(om)] · cheody[ACTION_VERB(cheody)] · qokeol[PROCLITIC_TARGET(q+ke)] · cheol[LABEL_STEM(cheol)] · saiin[CLAUSE_BOUNDARY(daiin)] · cheos[LABEL_STEM(cheos)] · cheol[LABEL_STEM(cheol)] · doleeey[STEM(dol)] · or[PREP/RELATOR] · cheom[STEM(cheom)] · cheojam[STEM(cheoj)] · yokeody[LABEL_STEM(yokeody)] · cheom[STEM(cheom)] · qoor[PROCLITIC_INGREDIENT(q+or)] · cheeb[STEM(cheb)] · ykeor[STEM(ke)] · shy[ACTION_VERB(shy)] · sam[PAR_TERMINATOR_M(sam)]",
+      "exact_label_cross_references": [
+        {
+          "word": "daiin",
+          "label_ref": "Lx:f66r"
+        },
+        {
+          "word": "sar",
+          "label_ref": "Lf:f100r"
+        },
+        {
+          "word": "s",
+          "label_ref": "L0:f69r"
+        },
+        {
+          "word": "oky",
+          "label_ref": "Lf:f99r"
+        },
+        {
+          "word": "or",
+          "label_ref": "Ln:f84r"
+        },
+        {
+          "word": "dar",
+          "label_ref": "Lf:f99r"
+        },
+        {
+          "word": "or",
+          "label_ref": "Ln:f84r"
+        },
+        {
+          "word": "cheody",
+          "label_ref": "Lf:f89r2"
+        },
+        {
+          "word": "or",
+          "label_ref": "Ln:f84r"
+        }
+      ],
+      "clause_segmentation": [
+        "dorsheoy ctheol qockhey dory sheor sholfchor dal chcthol ral sheom keol chear shekor qokor daiin",
+        "sar s aiin",
+        "oky sam oain or om otam okeom cheeor qokeody dar or om cheody qokeol cheol saiin cheos cheol doleeey or cheom cheojam yokeody cheom qoor cheeb ykeor shy sam"
+      ]
+    },
+    {
+      "folio": "f88r",
+      "section": "Pharmaceutical",
+      "lang": "A",
+      "start_line": "18",
+      "word_count": 39,
+      "original_text": "koaiphhy cphol orchor pcheoly otchol oldy salsaly dchey chokol daiin qoekol qoekol qockhol okol cheol dsheol qokeey s chy s aiin chor oteor aiin chosals teol chor olsheody qokeol shoikhy ol sheeol sheoldg ychey okaiin chol cheor ol chorcholsal",
+      "core_syllable_stream": "koaithh - cth - orch - tcheo - otch - ol - salsa - dch - chok - d - ek - ek - ckh - ok - che - dshe - k - s - ch - s - a - ch - ote - a - chosals - te - ch - olsheo - ke - shoikh - ol - she - sheoldg - ch - ok - ch - che - ol - chorchols",
+      "annotated_slot_stream": "koaiphhy[RECIPE_OPENER(GALLOWS)] · cphol[STEM(cth)] · orchor[STEM(orch)] · pcheoly[STEM(tcheo)] · otchol[LABEL_STEM(otchol)] · oldy[LABEL_STEM(oldy)] · salsaly[STEM(salsa)] · dchey[LABEL_STEM(dchey)] · chokol[LABEL_STEM(chokol)] · daiin[CLAUSE_BOUNDARY(daiin)] · qoekol[PROCLITIC_TARGET(q+ek)] · qoekol[PROCLITIC_TARGET(q+ek)] · qockhol[PROCLITIC_TARGET(q+ckh)] · okol[LABEL_STEM(okol)] · cheol[LABEL_STEM(cheol)] · dsheol[STEM(dshe)] · qokeey[PROCLITIC_TARGET(q+k)] · s[STEM(s)] · chy[ACTION_VERB(chy)] · s[STEM(s)] · aiin[CLAUSE_BOUNDARY(daiin)] · chor[NOMINAL_FRAME(chol/shol)] · oteor[LABEL_STEM(oteor)] · aiin[CLAUSE_BOUNDARY(daiin)] · chosals[STEM(chosals)] · teol[LABEL_STEM(teol)] · chor[NOMINAL_FRAME(chol/shol)] · olsheody[STEM(olsheo)] · qokeol[PROCLITIC_TARGET(q+ke)] · shoikhy[ACTION_VERB(shoikhy)] · ol[PREP/RELATOR] · sheeol[LABEL_STEM(sheeol)] · sheoldg[STEM(sheoldg)] · ychey[LABEL_STEM(ychey)] · okaiin[LABEL_STEM(okaiin)] · chol[NOMINAL_FRAME(chol/shol)] · cheor[LABEL_STEM(cheor)] · ol[PREP/RELATOR] · chorcholsal[STEM(chorchols)]",
+      "exact_label_cross_references": [
+        {
+          "word": "oldy",
+          "label_ref": "Lf:f99v"
+        },
+        {
+          "word": "daiin",
+          "label_ref": "Lx:f66r"
+        },
+        {
+          "word": "okol",
+          "label_ref": "Lf:f102v2"
+        },
+        {
+          "word": "s",
+          "label_ref": "L0:f69r"
+        },
+        {
+          "word": "s",
+          "label_ref": "L0:f69r"
+        },
+        {
+          "word": "chor",
+          "label_ref": "Lf:f102v2"
+        },
+        {
+          "word": "chor",
+          "label_ref": "Lf:f102v2"
+        },
+        {
+          "word": "okaiin",
+          "label_ref": "Lf:f89r1"
+        },
+        {
+          "word": "chol",
+          "label_ref": "Lf:f89r1"
+        },
+        {
+          "word": "cheor",
+          "label_ref": "Lf:f102v2"
+        }
+      ],
+      "clause_segmentation": [
+        "koaiphhy cphol orchor pcheoly otchol oldy salsaly dchey chokol daiin",
+        "qoekol qoekol qockhol okol cheol dsheol qokeey s chy s aiin",
+        "chor oteor aiin",
+        "chosals teol chor olsheody qokeol shoikhy ol sheeol sheoldg ychey okaiin chol cheor ol chorcholsal"
+      ]
+    },
+    {
+      "folio": "f89r2",
+      "section": "Pharmaceutical",
+      "lang": "A",
+      "start_line": "6",
+      "word_count": 44,
+      "original_text": "qokcheody cheodal dair cholkeedy qokedy cheal cheo dal qoaiis shey cpheeedol deey qockhey chaldy daim chos aiin cheodal daiin chy chedain dolchsyckheol daiin chody cheedy tchodol chor choldy chos dol okcheeg tol daiin daiin daiinody qokeey cheoldy qody cheor sain daiin oky cheody cheoky",
+      "core_syllable_stream": "kcheo - cheod - dair - cholk - k - che - cheo - d - ais - sh - cthed - d - ckh - chal - daim - chos - a - cheod - d - ch - ched - dolchsyckhe - d - cho - ch - tchod - ch - chol - chos - d - okcheg - t - d - d - daino - k - cheol - d - che - s - d - o - cheo - cheo",
+      "annotated_slot_stream": "qokcheody[RECIPE_OPENER(GALLOWS)] · cheodal[STEM(cheod)] · dair[LABEL_STEM(dair)] · cholkeedy[ACTION_VERB(cholkeedy)] · qokedy[PROCLITIC_TARGET(q+k)] · cheal[LABEL_STEM(cheal)] · cheo[LABEL_STEM(cheo)] · dal[PREP/RELATOR] · qoaiis[PROCLITIC_TARGET(q+ais)] · shey[ACTION_VERB(shey)] · cpheeedol[STEM(cthed)] · deey[STEM(d)] · qockhey[PROCLITIC_TARGET(q+ckh)] · chaldy[ACTION_VERB(chaldy)] · daim[STEM(daim)] · chos[LABEL_STEM(chos)] · aiin[CLAUSE_BOUNDARY(daiin)] · cheodal[STEM(cheod)] · daiin[CLAUSE_BOUNDARY(daiin)] · chy[ACTION_VERB(chy)] · chedain[STEM(ched)] · dolchsyckheol[STEM(dolchsyckhe)] · daiin[CLAUSE_BOUNDARY(daiin)] · chody[ACTION_VERB(chody)] · cheedy[ACTION_VERB(cheedy)] · tchodol[STEM(tchod)] · chor[NOMINAL_FRAME(chol/shol)] · choldy[ACTION_VERB(choldy)] · chos[LABEL_STEM(chos)] · dol[PREP/RELATOR] · okcheeg[STEM(okcheg)] · tol[STEM(t)] · daiin[CLAUSE_BOUNDARY(daiin)] · daiin[CLAUSE_BOUNDARY(daiin)] · daiinody[STEM(daino)] · qokeey[PROCLITIC_TARGET(q+k)] · cheoldy[ACTION_VERB(cheoldy)] · qody[PROCLITIC_TARGET(q+d)] · cheor[LABEL_STEM(cheor)] · sain[LABEL_STEM(sain)] · daiin[CLAUSE_BOUNDARY(daiin)] · oky[STEM(o)] · cheody[ACTION_VERB(cheody)] · cheoky[ACTION_VERB(cheoky)]",
+      "exact_label_cross_references": [
+        {
+          "word": "chos",
+          "label_ref": "Lf:f100v"
+        },
+        {
+          "word": "daiin",
+          "label_ref": "Lx:f66r"
+        },
+        {
+          "word": "daiin",
+          "label_ref": "Lx:f66r"
+        },
+        {
+          "word": "chody",
+          "label_ref": "Lf:f89v2"
+        },
+        {
+          "word": "chor",
+          "label_ref": "Lf:f102v2"
+        },
+        {
+          "word": "chos",
+          "label_ref": "Lf:f100v"
+        },
+        {
+          "word": "daiin",
+          "label_ref": "Lx:f66r"
+        },
+        {
+          "word": "daiin",
+          "label_ref": "Lx:f66r"
+        },
+        {
+          "word": "cheor",
+          "label_ref": "Lf:f102v2"
+        },
+        {
+          "word": "daiin",
+          "label_ref": "Lx:f66r"
+        },
+        {
+          "word": "oky",
+          "label_ref": "Lf:f99r"
+        },
+        {
+          "word": "cheody",
+          "label_ref": "Lf:f89r2"
+        }
+      ],
+      "clause_segmentation": [
+        "qokcheody cheodal dair cholkeedy qokedy cheal cheo dal qoaiis shey cpheeedol deey qockhey chaldy daim chos aiin",
+        "cheodal daiin",
+        "chy chedain dolchsyckheol daiin",
+        "chody cheedy tchodol chor choldy chos dol okcheeg tol daiin",
+        "daiin",
+        "daiinody qokeey cheoldy qody cheor sain daiin",
+        "oky cheody cheoky"
+      ]
+    },
+    {
+      "folio": "f89r2",
+      "section": "Pharmaceutical",
+      "lang": "A",
+      "start_line": "12",
+      "word_count": 62,
+      "original_text": "porachol yody qoteol oldaiin otol sheor shor oldaiin otchol cheol otolpchy dar cho lkeopol oeeor or daiin olkey okeol okey okeeol qoor ol chor cheky chol daiin chol cheol koldam olcheol dol cheol tos ol chor ydaiin chey s oiiin chckhy qokeol okey okeey keey caeky qokol okeey dal cheeody oeckhy ycheo keeo ckho saiin okeo daiin ockhy s ockhey saiin chchky",
+      "core_syllable_stream": "torach - o - te - old - ot - she - sh - old - otch - che - otoltch - d - cho - lkeot - oe - or - d - olk - oke - ok - oke - or - ol - ch - che - ch - d - ch - che - kold - olche - d - che - tos - ol - ch - d - ch - s - o - chckh - ke - ok - ok - k - cae - k - ok - d - cheo - oeckh - cheo - keo - ckho - s - okeo - d - ockh - s - ockh - s - chch",
+      "annotated_slot_stream": "porachol[RECIPE_OPENER(GALLOWS)] · yody[STEM(o)] · qoteol[PROCLITIC_TARGET(q+te)] · oldaiin[LABEL_STEM(oldaiin)] · otol[LABEL_STEM(otol)] · sheor[LABEL_STEM(sheor)] · shor[NOMINAL_FRAME(chol/shol)] · oldaiin[LABEL_STEM(oldaiin)] · otchol[LABEL_STEM(otchol)] · cheol[LABEL_STEM(cheol)] · otolpchy[STEM(otoltch)] · dar[PREP/RELATOR] · cho[LABEL_STEM(cho)] · lkeopol[STEM(lkeot)] · oeeor[STEM(oe)] · or[PREP/RELATOR] · daiin[CLAUSE_BOUNDARY(daiin)] · olkey[LABEL_STEM(olkey)] · okeol[LABEL_STEM(okeol)] · okey[LABEL_STEM(okey)] · okeeol[LABEL_STEM(okeeol)] · qoor[PROCLITIC_INGREDIENT(q+or)] · ol[PREP/RELATOR] · chor[NOMINAL_FRAME(chol/shol)] · cheky[ACTION_VERB(cheky)] · chol[NOMINAL_FRAME(chol/shol)] · daiin[CLAUSE_BOUNDARY(daiin)] · chol[NOMINAL_FRAME(chol/shol)] · cheol[LABEL_STEM(cheol)] · koldam[STEM(kold)] · olcheol[STEM(olche)] · dol[PREP/RELATOR] · cheol[LABEL_STEM(cheol)] · tos[STEM(tos)] · ol[PREP/RELATOR] · chor[NOMINAL_FRAME(chol/shol)] · ydaiin[STEM(d)] · chey[ACTION_VERB(chey)] · s[STEM(s)] · oiiin[STEM(o)] · chckhy[ACTION_VERB(chckhy)] · qokeol[PROCLITIC_TARGET(q+ke)] · okey[LABEL_STEM(okey)] · okeey[LABEL_STEM(okeey)] · keey[STEM(k)] · caeky[STEM(cae)] · qokol[PROCLITIC_TARGET(q+k)] · okeey[LABEL_STEM(okeey)] · dal[PREP/RELATOR] · cheeody[ACTION_VERB(cheeody)] · oeckhy[STEM(oeckh)] · ycheo[LABEL_STEM(ycheo)] · keeo[STEM(keo)] · ckho[STEM(ckho)] · saiin[CLAUSE_BOUNDARY(daiin)] · okeo[LABEL_STEM(okeo)] · daiin[CLAUSE_BOUNDARY(daiin)] · ockhy[LABEL_STEM(ockhy)] · s[STEM(s)] · ockhey[LABEL_STEM(ockhey)] · saiin[CLAUSE_BOUNDARY(daiin)] · chchky[ACTION_VERB(chchky)]",
+      "exact_label_cross_references": [
+        {
+          "word": "otol",
+          "label_ref": "Lf:f101v"
+        },
+        {
+          "word": "dar",
+          "label_ref": "Lf:f99r"
+        },
+        {
+          "word": "or",
+          "label_ref": "Ln:f84r"
+        },
+        {
+          "word": "daiin",
+          "label_ref": "Lx:f66r"
+        },
+        {
+          "word": "chor",
+          "label_ref": "Lf:f102v2"
+        },
+        {
+          "word": "chol",
+          "label_ref": "Lf:f89r1"
+        },
+        {
+          "word": "daiin",
+          "label_ref": "Lx:f66r"
+        },
+        {
+          "word": "chol",
+          "label_ref": "Lf:f89r1"
+        },
+        {
+          "word": "chor",
+          "label_ref": "Lf:f102v2"
+        },
+        {
+          "word": "s",
+          "label_ref": "L0:f69r"
+        },
+        {
+          "word": "daiin",
+          "label_ref": "Lx:f66r"
+        },
+        {
+          "word": "ockhy",
+          "label_ref": "Ls:f68r1"
+        },
+        {
+          "word": "s",
+          "label_ref": "L0:f69r"
+        }
+      ],
+      "clause_segmentation": [
+        "porachol yody qoteol oldaiin otol sheor shor oldaiin otchol cheol otolpchy dar cho lkeopol oeeor or daiin",
+        "olkey okeol okey okeeol qoor ol chor cheky chol daiin",
+        "chol cheol koldam olcheol dol cheol tos ol chor ydaiin chey s oiiin chckhy qokeol okey okeey keey caeky qokol okeey dal cheeody oeckhy ycheo keeo ckho saiin okeo daiin",
+        "ockhy s ockhey saiin chchky"
+      ]
+    },
+    {
+      "folio": "f99v",
+      "section": "Pharmaceutical",
+      "lang": "A",
+      "start_line": "10",
+      "word_count": 29,
+      "original_text": "sol cheols ockhey qockhhy qkoldy sok oleees oteey dain okoiin choty qokchol qokeol okoldyqkholdy toly daiin qokeo qokeol chockhy otol daiin otyotockey da chor aiin okoraiin okol shocthyqokor oloiram",
+      "core_syllable_stream": "s - cheols - ockh - ckhh - kol - sok - oles - ot - d - oko - chot - kch - ke - okoldyqkhol - to - d - keo - ke - chockh - ot - d - otyotock - da - ch - a - okor - ok - shocthyqok - oloir",
+      "annotated_slot_stream": "sol[PREP/RELATOR] · cheols[STEM(cheols)] · ockhey[LABEL_STEM(ockhey)] · qockhhy[PROCLITIC_TARGET(q+ckhh)] · qkoldy[PROCLITIC_TARGET(q+kol)] · sok[LABEL_STEM(sok)] · oleees[STEM(oles)] · oteey[LABEL_STEM(oteey)] · dain[CLAUSE_BOUNDARY(daiin)] · okoiin[LABEL_STEM(okoiin)] · choty[ACTION_VERB(choty)] · qokchol[PROCLITIC_INGREDIENT(q+kch)] · qokeol[PROCLITIC_TARGET(q+ke)] · okoldyqkholdy[STEM(okoldyqkhol)] · toly[STEM(to)] · daiin[CLAUSE_BOUNDARY(daiin)] · qokeo[PROCLITIC_TARGET(q+keo)] · qokeol[PROCLITIC_TARGET(q+ke)] · chockhy[ACTION_VERB(chockhy)] · otol[LABEL_STEM(otol)] · daiin[CLAUSE_BOUNDARY(daiin)] · otyotockey[STEM(otyotock)] · da[LABEL_STEM(da)] · chor[NOMINAL_FRAME(chol/shol)] · aiin[CLAUSE_BOUNDARY(daiin)] · okoraiin[STEM(okor)] · okol[LABEL_STEM(okol)] · shocthyqokor[STEM(shocthyqok)] · oloiram[PAR_TERMINATOR_M(oloiram)]",
+      "exact_label_cross_references": [
+        {
+          "word": "oteey",
+          "label_ref": "L0:fRos"
+        },
+        {
+          "word": "daiin",
+          "label_ref": "Lx:f66r"
+        },
+        {
+          "word": "otol",
+          "label_ref": "Lf:f101v"
+        },
+        {
+          "word": "daiin",
+          "label_ref": "Lx:f66r"
+        },
+        {
+          "word": "chor",
+          "label_ref": "Lf:f102v2"
+        },
+        {
+          "word": "okol",
+          "label_ref": "Lf:f102v2"
+        }
+      ],
+      "clause_segmentation": [
+        "sol cheols ockhey qockhhy qkoldy sok oleees oteey dain",
+        "okoiin choty qokchol qokeol okoldyqkholdy toly daiin",
+        "qokeo qokeol chockhy otol daiin",
+        "otyotockey da chor aiin",
+        "okoraiin okol shocthyqokor oloiram"
+      ]
+    },
+    {
+      "folio": "f99v",
+      "section": "Pharmaceutical",
+      "lang": "A",
+      "start_line": "21",
+      "word_count": 37,
+      "original_text": "doror okeeody opar okor eosaiin otoraiin shey ols aiiin qoetal doiin otey o keeol s aiin okeol qokeol ctheol qokeol dy qokaiin qokeey chol okeoldy qokol qokeolo lchol okeol sheodol qokeechom shokeeey cholshey okol qokey okeodal oldy",
+      "core_syllable_stream": "dor - okeo - ot - ok - eos - otor - sh - ols - a - et - do - ot - o - ke - s - a - oke - ke - cthe - ke - d - k - k - ch - okeol - k - keolo - lch - oke - sheod - kechom - shok - cholsh - ok - k - okeod - ol",
+      "annotated_slot_stream": "doror[STEM(dor)] · okeeody[LABEL_STEM(okeeody)] · opar[LABEL_STEM(opar)] · okor[LABEL_STEM(okor)] · eosaiin[STEM(eos)] · otoraiin[LABEL_STEM(otoraiin)] · shey[ACTION_VERB(shey)] · ols[LABEL_STEM(ols)] · aiiin[STEM(a)] · qoetal[PROCLITIC_TARGET(q+et)] · doiin[LABEL_STEM(doiin)] · otey[LABEL_STEM(otey)] · o[STEM(o)] · keeol[STEM(ke)] · s[STEM(s)] · aiin[CLAUSE_BOUNDARY(daiin)] · okeol[LABEL_STEM(okeol)] · qokeol[PROCLITIC_TARGET(q+ke)] · ctheol[LABEL_STEM(ctheol)] · qokeol[PROCLITIC_TARGET(q+ke)] · dy[STEM(d)] · qokaiin[PROCLITIC_TARGET(q+k)] · qokeey[PROCLITIC_TARGET(q+k)] · chol[NOMINAL_FRAME(chol/shol)] · okeoldy[STEM(okeol)] · qokol[PROCLITIC_TARGET(q+k)] · qokeolo[PROCLITIC_TARGET(q+keolo)] · lchol[STEM(lch)] · okeol[LABEL_STEM(okeol)] · sheodol[STEM(sheod)] · qokeechom[PROCLITIC_TARGET(q+kechom)] · shokeeey[ACTION_VERB(shokeeey)] · cholshey[ACTION_VERB(cholshey)] · okol[LABEL_STEM(okol)] · qokey[PROCLITIC_TARGET(q+k)] · okeodal[LABEL_STEM(okeodal)] · oldy[LABEL_STEM(oldy)]",
+      "exact_label_cross_references": [
+        {
+          "word": "opar",
+          "label_ref": "L0:fRos"
+        },
+        {
+          "word": "okor",
+          "label_ref": "Lf:f99r"
+        },
+        {
+          "word": "ols",
+          "label_ref": "L0:fRos"
+        },
+        {
+          "word": "o",
+          "label_ref": "L0:fRos"
+        },
+        {
+          "word": "s",
+          "label_ref": "L0:f69r"
+        },
+        {
+          "word": "dy",
+          "label_ref": "Lf:f89r2"
+        },
+        {
+          "word": "chol",
+          "label_ref": "Lf:f89r1"
+        },
+        {
+          "word": "okol",
+          "label_ref": "Lf:f102v2"
+        },
+        {
+          "word": "oldy",
+          "label_ref": "Lf:f99v"
+        }
+      ],
+      "clause_segmentation": [
+        "doror okeeody opar okor eosaiin otoraiin shey ols aiiin qoetal doiin otey o keeol s aiin",
+        "okeol qokeol ctheol qokeol dy qokaiin qokeey chol okeoldy qokol qokeolo lchol okeol sheodol qokeechom shokeeey cholshey okol qokey okeodal oldy"
+      ]
+    },
+    {
+      "folio": "f103r",
+      "section": "Starred Recipes",
+      "lang": "B",
+      "start_line": "1",
+      "word_count": 50,
+      "original_text": "pchedal shdy ytechypchy otey lshey qoteey qotal shedy yshdal dain okal daldy dain shek chcphhdy daloky opchedy peshol chep ar otchy sal lkeey sar ain ok chedy yshdain sheek cheoty eeokal chedy chckhy or orol okaiin eeal ot kar otar chal ychedy qokedy okedy qokeey okey chdar ol loty chedaraly",
+      "core_syllable_stream": "tched - sh - techytch - ot - lsh - t - t - sh - shd - d - ok - dal - d - shek - chcthh - dalo - otch - tesh - chet - ar - otch - s - lk - s - a - ok - ch - shd - shek - cheot - eok - ch - chckh - or - or - ok - e - ot - k - ot - ch - ch - k - ok - k - ok - chd - ol - lot - chedara",
+      "annotated_slot_stream": "pchedal[RECIPE_OPENER(GALLOWS)] · shdy[ACTION_VERB(shdy)] · ytechypchy[STEM(techytch)] · otey[LABEL_STEM(otey)] · lshey[STEM(lsh)] · qoteey[PROCLITIC_TARGET(q+t)] · qotal[PROCLITIC_TARGET(q+t)] · shedy[ACTION_VERB(shedy)] · yshdal[LABEL_STEM(yshdal)] · dain[CLAUSE_BOUNDARY(daiin)] · okal[LABEL_STEM(okal)] · daldy[LABEL_STEM(daldy)] · dain[CLAUSE_BOUNDARY(daiin)] · shek[LABEL_STEM(shek)] · chcphhdy[ACTION_VERB(chcphhdy)] · daloky[STEM(dalo)] · opchedy[LABEL_STEM(opchedy)] · peshol[STEM(tesh)] · chep[STEM(chet)] · ar[PREP/RELATOR] · otchy[LABEL_STEM(otchy)] · sal[STEM(s)] · lkeey[STEM(lk)] · sar[LABEL_STEM(sar)] · ain[STEM(a)] · ok[LABEL_STEM(ok)] · chedy[ACTION_VERB(chedy)] · yshdain[LABEL_STEM(yshdain)] · sheek[LABEL_STEM(sheek)] · cheoty[ACTION_VERB(cheoty)] · eeokal[STEM(eok)] · chedy[ACTION_VERB(chedy)] · chckhy[ACTION_VERB(chckhy)] · or[PREP/RELATOR] · orol[LABEL_STEM(orol)] · okaiin[LABEL_STEM(okaiin)] · eeal[STEM(e)] · ot[LABEL_STEM(ot)] · kar[STEM(k)] · otar[LABEL_STEM(otar)] · chal[LABEL_STEM(chal)] · ychedy[LABEL_STEM(ychedy)] · qokedy[PROCLITIC_TARGET(q+k)] · okedy[LABEL_STEM(okedy)] · qokeey[PROCLITIC_TARGET(q+k)] · okey[LABEL_STEM(okey)] · chdar[STEM(chd)] · ol[PREP/RELATOR] · loty[STEM(lot)] · chedaraly[ACTION_VERB(chedaraly)]",
+      "exact_label_cross_references": [
+        {
+          "word": "shdy",
+          "label_ref": "L0:fRos"
+        },
+        {
+          "word": "okal",
+          "label_ref": "Ln:f82r"
+        },
+        {
+          "word": "daldy",
+          "label_ref": "Ln:f75v"
+        },
+        {
+          "word": "sar",
+          "label_ref": "Lf:f100r"
+        },
+        {
+          "word": "ain",
+          "label_ref": "L0:fRos"
+        },
+        {
+          "word": "ok",
+          "label_ref": "Lf:f102v2"
+        },
+        {
+          "word": "or",
+          "label_ref": "Ln:f84r"
+        },
+        {
+          "word": "orol",
+          "label_ref": "Lf:f100r"
+        },
+        {
+          "word": "okaiin",
+          "label_ref": "Lf:f89r1"
+        },
+        {
+          "word": "otar",
+          "label_ref": "Lf:f88v"
+        },
+        {
+          "word": "okedy",
+          "label_ref": "L0:fRos"
+        }
+      ],
+      "clause_segmentation": [
+        "pchedal shdy ytechypchy otey lshey qoteey qotal shedy yshdal dain",
+        "okal daldy dain",
+        "shek chcphhdy daloky opchedy peshol chep ar otchy sal lkeey sar ain ok chedy yshdain sheek cheoty eeokal chedy chckhy or orol okaiin eeal ot kar otar chal ychedy qokedy okedy qokeey okey chdar ol loty chedaraly"
+      ]
+    },
+    {
+      "folio": "f103r",
+      "section": "Starred Recipes",
+      "lang": "B",
+      "start_line": "5",
+      "word_count": 35,
+      "original_text": "pocharal okedar shedy oteey qokey lkar sheeky okalor shedy yt rkar ota okdy ocheey dain shek okeedy okey shedy qokealdy shcthy qotedy qoto ota san am saiin chey shs olshedy qokeey okeeody qoedy ol shedy",
+      "core_syllable_stream": "tochar - oked - sh - ot - k - lk - she - okal - sh - yt - rk - ota - ok - och - d - shek - ok - ok - sh - keal - shcth - t - to - ota - san - am - s - ch - shs - olsh - k - okeo - e - ol - sh",
+      "annotated_slot_stream": "pocharal[RECIPE_OPENER(GALLOWS)] · okedar[STEM(oked)] · shedy[ACTION_VERB(shedy)] · oteey[LABEL_STEM(oteey)] · qokey[PROCLITIC_TARGET(q+k)] · lkar[STEM(lk)] · sheeky[ACTION_VERB(sheeky)] · okalor[LABEL_STEM(okalor)] · shedy[ACTION_VERB(shedy)] · yt[STEM(yt)] · rkar[LABEL_STEM(rkar)] · ota[LABEL_STEM(ota)] · okdy[LABEL_STEM(okdy)] · ocheey[LABEL_STEM(ocheey)] · dain[CLAUSE_BOUNDARY(daiin)] · shek[LABEL_STEM(shek)] · okeedy[LABEL_STEM(okeedy)] · okey[LABEL_STEM(okey)] · shedy[ACTION_VERB(shedy)] · qokealdy[PROCLITIC_TARGET(q+keal)] · shcthy[ACTION_VERB(shcthy)] · qotedy[PROCLITIC_TARGET(q+t)] · qoto[PROCLITIC_TARGET(q+to)] · ota[LABEL_STEM(ota)] · san[STEM(san)] · am[LABEL_STEM(am)] · saiin[CLAUSE_BOUNDARY(daiin)] · chey[ACTION_VERB(chey)] · shs[STEM(shs)] · olshedy[STEM(olsh)] · qokeey[PROCLITIC_TARGET(q+k)] · okeeody[LABEL_STEM(okeeody)] · qoedy[PROCLITIC_TARGET(q+e)] · ol[PREP/RELATOR] · shedy[ACTION_VERB(shedy)]",
+      "exact_label_cross_references": [
+        {
+          "word": "oteey",
+          "label_ref": "L0:fRos"
+        },
+        {
+          "word": "am",
+          "label_ref": "Lf:f88r"
+        }
+      ],
+      "clause_segmentation": [
+        "pocharal okedar shedy oteey qokey lkar sheeky okalor shedy yt rkar ota okdy ocheey dain",
+        "shek okeedy okey shedy qokealdy shcthy qotedy qoto ota san am saiin chey shs olshedy qokeey okeeody qoedy ol shedy"
+      ]
+    },
+    {
+      "folio": "f107r",
+      "section": "Starred Recipes",
+      "lang": "B",
+      "start_line": "1",
+      "word_count": 31,
+      "original_text": "pchdlar sheolor ykeeol qokchy otor okeesodar tarair oteey otaiin ytar dchey qoteos aiin shedy oteed qor aiin cheockhy olkeey qotain chey qeeey lor olcheey cheos qokeeey ycheedy qotain ykain okeey raiin",
+      "core_syllable_stream": "tchdl - sheol - ke - kch - ot - okesod - tarair - ot - ot - t - dch - teos - a - sh - oted - or - a - cheockh - olk - t - ch - e - l - olch - cheos - k - ch - t - k - ok - r",
+      "annotated_slot_stream": "pchdlar[RECIPE_OPENER(GALLOWS)] · sheolor[STEM(sheol)] · ykeeol[STEM(ke)] · qokchy[PROCLITIC_INGREDIENT(q+kch)] · otor[LABEL_STEM(otor)] · okeesodar[STEM(okesod)] · tarair[STEM(tarair)] · oteey[LABEL_STEM(oteey)] · otaiin[LABEL_STEM(otaiin)] · ytar[STEM(t)] · dchey[LABEL_STEM(dchey)] · qoteos[PROCLITIC_TARGET(q+teos)] · aiin[CLAUSE_BOUNDARY(daiin)] · shedy[ACTION_VERB(shedy)] · oteed[LABEL_STEM(oteed)] · qor[LABEL_STEM(qor)] · aiin[CLAUSE_BOUNDARY(daiin)] · cheockhy[ACTION_VERB(cheockhy)] · olkeey[LABEL_STEM(olkeey)] · qotain[PROCLITIC_TARGET(q+t)] · chey[ACTION_VERB(chey)] · qeeey[PROCLITIC_TARGET(q+e)] · lor[STEM(l)] · olcheey[STEM(olch)] · cheos[LABEL_STEM(cheos)] · qokeeey[PROCLITIC_TARGET(q+k)] · ycheedy[LABEL_STEM(ycheedy)] · qotain[PROCLITIC_TARGET(q+t)] · ykain[STEM(k)] · okeey[LABEL_STEM(okeey)] · raiin[STEM(r)]",
+      "exact_label_cross_references": [
+        {
+          "word": "otor",
+          "label_ref": "Lf:f88r"
+        },
+        {
+          "word": "oteey",
+          "label_ref": "L0:fRos"
+        }
+      ],
+      "clause_segmentation": [
+        "pchdlar sheolor ykeeol qokchy otor okeesodar tarair oteey otaiin ytar dchey qoteos aiin",
+        "shedy oteed qor aiin",
+        "cheockhy olkeey qotain chey qeeey lor olcheey cheos qokeeey ycheedy qotain ykain okeey raiin"
+      ]
+    },
+    {
+      "folio": "f107r",
+      "section": "Starred Recipes",
+      "lang": "B",
+      "start_line": "4",
+      "word_count": 37,
+      "original_text": "teeody chedain qoteey qokar deeoltedy otar ain chady otokcho qoked okchedy olkchedy tedy oteeey okchedy qokeed qokear chedy chokchedy qokain ar okcheey qokeedy chotchedy daiinar oteey lteey chedaiin okchey otaiin am ytaiin cheotchey okaiin chckhy okeedy otcheey",
+      "core_syllable_stream": "teo - ched - t - k - deolt - ot - a - cha - otokcho - ked - okch - olkch - t - ot - okch - ked - ke - ch - chokch - k - ar - okch - k - chotch - dain - ot - lt - ched - okch - ot - am - t - cheotch - ok - chckh - ok - otch",
+      "annotated_slot_stream": "teeody[RECIPE_OPENER(GALLOWS)] · chedain[STEM(ched)] · qoteey[PROCLITIC_TARGET(q+t)] · qokar[PROCLITIC_TARGET(q+k)] · deeoltedy[STEM(deolt)] · otar[LABEL_STEM(otar)] · ain[STEM(a)] · chady[ACTION_VERB(chady)] · otokcho[STEM(otokcho)] · qoked[PROCLITIC_TARGET(q+ked)] · okchedy[LABEL_STEM(okchedy)] · olkchedy[LABEL_STEM(olkchedy)] · tedy[STEM(t)] · oteeey[LABEL_STEM(oteeey)] · okchedy[LABEL_STEM(okchedy)] · qokeed[PROCLITIC_TARGET(q+ked)] · qokear[PROCLITIC_TARGET(q+ke)] · chedy[ACTION_VERB(chedy)] · chokchedy[ACTION_VERB(chokchedy)] · qokain[PROCLITIC_TARGET(q+k)] · ar[PREP/RELATOR] · okcheey[LABEL_STEM(okcheey)] · qokeedy[PROCLITIC_TARGET(q+k)] · chotchedy[ACTION_VERB(chotchedy)] · daiinar[LABEL_STEM(daiinar)] · oteey[LABEL_STEM(oteey)] · lteey[STEM(lt)] · chedaiin[STEM(ched)] · okchey[LABEL_STEM(okchey)] · otaiin[LABEL_STEM(otaiin)] · am[LABEL_STEM(am)] · ytaiin[STEM(t)] · cheotchey[ACTION_VERB(cheotchey)] · okaiin[LABEL_STEM(okaiin)] · chckhy[ACTION_VERB(chckhy)] · okeedy[LABEL_STEM(okeedy)] · otcheey[LABEL_STEM(otcheey)]",
+      "exact_label_cross_references": [
+        {
+          "word": "otar",
+          "label_ref": "Lf:f88v"
+        },
+        {
+          "word": "ain",
+          "label_ref": "L0:fRos"
+        },
+        {
+          "word": "oteey",
+          "label_ref": "L0:fRos"
+        },
+        {
+          "word": "am",
+          "label_ref": "Lf:f88r"
+        },
+        {
+          "word": "okaiin",
+          "label_ref": "Lf:f89r1"
+        }
+      ],
+      "clause_segmentation": [
+        "teeody chedain qoteey qokar deeoltedy otar ain chady otokcho qoked okchedy olkchedy tedy oteeey okchedy qokeed qokear chedy chokchedy qokain ar okcheey qokeedy chotchedy daiinar oteey lteey chedaiin okchey otaiin am ytaiin cheotchey okaiin chckhy okeedy otcheey"
+      ]
+    }
+  ]
+}
