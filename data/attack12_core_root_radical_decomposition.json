@@ -1,0 +1,3109 @@
+{
+  "summary": {
+    "total_tokens": 38960,
+    "total_prose_tokens": 37955,
+    "unique_alpha_core_roots_all": 2668,
+    "unique_alpha_core_roots_prose": 2509,
+    "unique_elementary_radicals": 202,
+    "mean_radicals_per_token": 1.2553,
+    "mean_radicals_per_root_type": 2.2324,
+    "unsegmented_root_entropy_bits": 6.826,
+    "elementary_radical_entropy_bits": 5.4333,
+    "unsegmented_lexicon_bits": 63437.1,
+    "segmented_mdl_lexicon_bits": 42923.8,
+    "mdl_lexicon_compression_ratio": 1.478
+  },
+  "core_root_coverage_milestones": {
+    "50%": {
+      "num_roots": 12,
+      "fraction_of_types": 0.0045,
+      "tokens_covered": 19935,
+      "fraction_of_tokens": 0.5117
+    },
+    "70%": {
+      "num_roots": 37,
+      "fraction_of_types": 0.0139,
+      "tokens_covered": 27334,
+      "fraction_of_tokens": 0.7016
+    },
+    "80%": {
+      "num_roots": 81,
+      "fraction_of_types": 0.0304,
+      "tokens_covered": 31207,
+      "fraction_of_tokens": 0.801
+    },
+    "85%": {
+      "num_roots": 134,
+      "fraction_of_types": 0.0502,
+      "tokens_covered": 33122,
+      "fraction_of_tokens": 0.8502
+    },
+    "90%": {
+      "num_roots": 270,
+      "fraction_of_types": 0.1012,
+      "tokens_covered": 35064,
+      "fraction_of_tokens": 0.9
+    },
+    "95%": {
+      "num_roots": 825,
+      "fraction_of_types": 0.3092,
+      "tokens_covered": 37012,
+      "fraction_of_tokens": 0.95
+    },
+    "98%": {
+      "num_roots": 1889,
+      "fraction_of_types": 0.708,
+      "tokens_covered": 38181,
+      "fraction_of_tokens": 0.98
+    },
+    "100%": {
+      "num_roots": 2668,
+      "fraction_of_types": 1.0,
+      "tokens_covered": 38960,
+      "fraction_of_tokens": 1.0
+    }
+  },
+  "radical_coverage_curve": {
+    "top_15_radicals": {
+      "num_radicals": 15,
+      "token_radical_coverage": 0.6515,
+      "type_radical_coverage": 0.3412
+    },
+    "top_25_radicals": {
+      "num_radicals": 25,
+      "token_radical_coverage": 0.7857,
+      "type_radical_coverage": 0.4746
+    },
+    "top_35_radicals": {
+      "num_radicals": 35,
+      "token_radical_coverage": 0.857,
+      "type_radical_coverage": 0.565
+    },
+    "top_50_radicals": {
+      "num_radicals": 50,
+      "token_radical_coverage": 0.9054,
+      "type_radical_coverage": 0.6625
+    },
+    "top_75_radicals": {
+      "num_radicals": 75,
+      "token_radical_coverage": 0.9475,
+      "type_radical_coverage": 0.7727
+    },
+    "top_100_radicals": {
+      "num_radicals": 100,
+      "token_radical_coverage": 0.9708,
+      "type_radical_coverage": 0.858
+    },
+    "top_150_radicals": {
+      "num_radicals": 150,
+      "token_radical_coverage": 0.9921,
+      "type_radical_coverage": 0.9548
+    },
+    "top_202_radicals": {
+      "num_radicals": 202,
+      "token_radical_coverage": 1.0,
+      "type_radical_coverage": 1.0
+    }
+  },
+  "num_radicals_per_root_distribution": {
+    "by_root_types": {
+      "1": 137,
+      "2": 1865,
+      "3": 585,
+      "4": 72,
+      "5": 8,
+      "6": 1
+    },
+    "by_token_occurrences": {
+      "1": 29799,
+      "2": 8468,
+      "3": 612,
+      "4": 72,
+      "5": 8,
+      "6": 1
+    }
+  },
+  "top_50_elementary_radicals_by_tokens": [
+    {
+      "rank": 1,
+      "radical": "k",
+      "token_occurrences": 5921,
+      "root_type_productivity": 154,
+      "standalone_root_tokens": 4678,
+      "slot1_onset_types": 69,
+      "slot2_coda_types": 56
+    },
+    {
+      "rank": 2,
+      "radical": "t",
+      "token_occurrences": 3972,
+      "root_type_productivity": 145,
+      "standalone_root_tokens": 2881,
+      "slot1_onset_types": 77,
+      "slot2_coda_types": 46
+    },
+    {
+      "rank": 3,
+      "radical": "ch",
+      "token_occurrences": 3938,
+      "root_type_productivity": 206,
+      "standalone_root_tokens": 2673,
+      "slot1_onset_types": 96,
+      "slot2_coda_types": 75
+    },
+    {
+      "rank": 4,
+      "radical": "d",
+      "token_occurrences": 3856,
+      "root_type_productivity": 197,
+      "standalone_root_tokens": 2377,
+      "slot1_onset_types": 101,
+      "slot2_coda_types": 68
+    },
+    {
+      "rank": 5,
+      "radical": "sh",
+      "token_occurrences": 2164,
+      "root_type_productivity": 164,
+      "standalone_root_tokens": 1641,
+      "slot1_onset_types": 68,
+      "slot2_coda_types": 62
+    },
+    {
+      "rank": 6,
+      "radical": "ol",
+      "token_occurrences": 1904,
+      "root_type_productivity": 178,
+      "standalone_root_tokens": 956,
+      "slot1_onset_types": 75,
+      "slot2_coda_types": 87
+    },
+    {
+      "rank": 7,
+      "radical": "che",
+      "token_occurrences": 1747,
+      "root_type_productivity": 135,
+      "standalone_root_tokens": 675,
+      "slot1_onset_types": 87,
+      "slot2_coda_types": 40
+    },
+    {
+      "rank": 8,
+      "radical": "tch",
+      "token_occurrences": 1364,
+      "root_type_productivity": 110,
+      "standalone_root_tokens": 1009,
+      "slot1_onset_types": 49,
+      "slot2_coda_types": 40
+    },
+    {
+      "rank": 9,
+      "radical": "s",
+      "token_occurrences": 1294,
+      "root_type_productivity": 184,
+      "standalone_root_tokens": 911,
+      "slot1_onset_types": 78,
+      "slot2_coda_types": 77
+    },
+    {
+      "rank": 10,
+      "radical": "ke",
+      "token_occurrences": 1131,
+      "root_type_productivity": 98,
+      "standalone_root_tokens": 660,
+      "slot1_onset_types": 46,
+      "slot2_coda_types": 38
+    },
+    {
+      "rank": 11,
+      "radical": "cth",
+      "token_occurrences": 943,
+      "root_type_productivity": 81,
+      "standalone_root_tokens": 501,
+      "slot1_onset_types": 26,
+      "slot2_coda_types": 43
+    },
+    {
+      "rank": 12,
+      "radical": "cho",
+      "token_occurrences": 939,
+      "root_type_productivity": 80,
+      "standalone_root_tokens": 196,
+      "slot1_onset_types": 49,
+      "slot2_coda_types": 27
+    },
+    {
+      "rank": 13,
+      "radical": "kch",
+      "token_occurrences": 924,
+      "root_type_productivity": 83,
+      "standalone_root_tokens": 715,
+      "slot1_onset_types": 36,
+      "slot2_coda_types": 36
+    },
+    {
+      "rank": 14,
+      "radical": "she",
+      "token_occurrences": 898,
+      "root_type_productivity": 86,
+      "standalone_root_tokens": 405,
+      "slot1_onset_types": 48,
+      "slot2_coda_types": 28
+    },
+    {
+      "rank": 15,
+      "radical": "ar",
+      "token_occurrences": 867,
+      "root_type_productivity": 131,
+      "standalone_root_tokens": 536,
+      "slot1_onset_types": 38,
+      "slot2_coda_types": 71
+    },
+    {
+      "rank": 16,
+      "radical": "al",
+      "token_occurrences": 853,
+      "root_type_productivity": 128,
+      "standalone_root_tokens": 365,
+      "slot1_onset_types": 42,
+      "slot2_coda_types": 71
+    },
+    {
+      "rank": 17,
+      "radical": "ckh",
+      "token_occurrences": 841,
+      "root_type_productivity": 73,
+      "standalone_root_tokens": 253,
+      "slot1_onset_types": 12,
+      "slot2_coda_types": 48
+    },
+    {
+      "rank": 18,
+      "radical": "or",
+      "token_occurrences": 838,
+      "root_type_productivity": 121,
+      "standalone_root_tokens": 557,
+      "slot1_onset_types": 47,
+      "slot2_coda_types": 61
+    },
+    {
+      "rank": 19,
+      "radical": "ain",
+      "token_occurrences": 827,
+      "root_type_productivity": 38,
+      "standalone_root_tokens": 759,
+      "slot1_onset_types": 6,
+      "slot2_coda_types": 26
+    },
+    {
+      "rank": 20,
+      "radical": "y",
+      "token_occurrences": 601,
+      "root_type_productivity": 89,
+      "standalone_root_tokens": 352,
+      "slot1_onset_types": 20,
+      "slot2_coda_types": 55
+    },
+    {
+      "rank": 21,
+      "radical": "l",
+      "token_occurrences": 593,
+      "root_type_productivity": 82,
+      "standalone_root_tokens": 376,
+      "slot1_onset_types": 55,
+      "slot2_coda_types": 19
+    },
+    {
+      "rank": 22,
+      "radical": "te",
+      "token_occurrences": 547,
+      "root_type_productivity": 57,
+      "standalone_root_tokens": 334,
+      "slot1_onset_types": 33,
+      "slot2_coda_types": 18
+    },
+    {
+      "rank": 23,
+      "radical": "dy",
+      "token_occurrences": 524,
+      "root_type_productivity": 58,
+      "standalone_root_tokens": 361,
+      "slot1_onset_types": 19,
+      "slot2_coda_types": 35
+    },
+    {
+      "rank": 24,
+      "radical": "cheo",
+      "token_occurrences": 476,
+      "root_type_productivity": 70,
+      "standalone_root_tokens": 191,
+      "slot1_onset_types": 37,
+      "slot2_coda_types": 31
+    },
+    {
+      "rank": 25,
+      "radical": "sho",
+      "token_occurrences": 462,
+      "root_type_productivity": 79,
+      "standalone_root_tokens": 182,
+      "slot1_onset_types": 49,
+      "slot2_coda_types": 24
+    },
+    {
+      "rank": 26,
+      "radical": "r",
+      "token_occurrences": 458,
+      "root_type_productivity": 49,
+      "standalone_root_tokens": 355,
+      "slot1_onset_types": 28,
+      "slot2_coda_types": 11
+    },
+    {
+      "rank": 27,
+      "radical": "o",
+      "token_occurrences": 455,
+      "root_type_productivity": 75,
+      "standalone_root_tokens": 300,
+      "slot1_onset_types": 3,
+      "slot2_coda_types": 40
+    },
+    {
+      "rank": 28,
+      "radical": "olk",
+      "token_occurrences": 447,
+      "root_type_productivity": 44,
+      "standalone_root_tokens": 314,
+      "slot1_onset_types": 14,
+      "slot2_coda_types": 23
+    },
+    {
+      "rank": 29,
+      "radical": "lk",
+      "token_occurrences": 363,
+      "root_type_productivity": 23,
+      "standalone_root_tokens": 283,
+      "slot1_onset_types": 16,
+      "slot2_coda_types": 3
+    },
+    {
+      "rank": 30,
+      "radical": "e",
+      "token_occurrences": 338,
+      "root_type_productivity": 91,
+      "standalone_root_tokens": 123,
+      "slot1_onset_types": 22,
+      "slot2_coda_types": 51
+    },
+    {
+      "rank": 31,
+      "radical": "dai",
+      "token_occurrences": 316,
+      "root_type_productivity": 63,
+      "standalone_root_tokens": 194,
+      "slot1_onset_types": 16,
+      "slot2_coda_types": 34
+    },
+    {
+      "rank": 32,
+      "radical": "keo",
+      "token_occurrences": 302,
+      "root_type_productivity": 41,
+      "standalone_root_tokens": 180,
+      "slot1_onset_types": 19,
+      "slot2_coda_types": 16
+    },
+    {
+      "rank": 33,
+      "radical": "to",
+      "token_occurrences": 291,
+      "root_type_productivity": 71,
+      "standalone_root_tokens": 94,
+      "slot1_onset_types": 51,
+      "slot2_coda_types": 18
+    },
+    {
+      "rank": 34,
+      "radical": "lch",
+      "token_occurrences": 276,
+      "root_type_productivity": 25,
+      "standalone_root_tokens": 242,
+      "slot1_onset_types": 12,
+      "slot2_coda_types": 10
+    },
+    {
+      "rank": 35,
+      "radical": "ai",
+      "token_occurrences": 242,
+      "root_type_productivity": 56,
+      "standalone_root_tokens": 158,
+      "slot1_onset_types": 12,
+      "slot2_coda_types": 35
+    },
+    {
+      "rank": 36,
+      "radical": "dch",
+      "token_occurrences": 233,
+      "root_type_productivity": 38,
+      "standalone_root_tokens": 174,
+      "slot1_onset_types": 18,
+      "slot2_coda_types": 12
+    },
+    {
+      "rank": 37,
+      "radical": "sheo",
+      "token_occurrences": 225,
+      "root_type_productivity": 38,
+      "standalone_root_tokens": 106,
+      "slot1_onset_types": 15,
+      "slot2_coda_types": 19
+    },
+    {
+      "rank": 38,
+      "radical": "teo",
+      "token_occurrences": 213,
+      "root_type_productivity": 32,
+      "standalone_root_tokens": 116,
+      "slot1_onset_types": 21,
+      "slot2_coda_types": 7
+    },
+    {
+      "rank": 39,
+      "radical": "ko",
+      "token_occurrences": 193,
+      "root_type_productivity": 56,
+      "standalone_root_tokens": 94,
+      "slot1_onset_types": 33,
+      "slot2_coda_types": 18
+    },
+    {
+      "rank": 40,
+      "radical": "tsh",
+      "token_occurrences": 172,
+      "root_type_productivity": 30,
+      "standalone_root_tokens": 122,
+      "slot1_onset_types": 16,
+      "slot2_coda_types": 10
+    },
+    {
+      "rank": 41,
+      "radical": "so",
+      "token_occurrences": 157,
+      "root_type_productivity": 61,
+      "standalone_root_tokens": 54,
+      "slot1_onset_types": 44,
+      "slot2_coda_types": 10
+    },
+    {
+      "rank": 42,
+      "radical": "kai",
+      "token_occurrences": 153,
+      "root_type_productivity": 41,
+      "standalone_root_tokens": 101,
+      "slot1_onset_types": 14,
+      "slot2_coda_types": 20
+    },
+    {
+      "rank": 43,
+      "radical": "a",
+      "token_occurrences": 150,
+      "root_type_productivity": 87,
+      "standalone_root_tokens": 42,
+      "slot1_onset_types": 30,
+      "slot2_coda_types": 34
+    },
+    {
+      "rank": 44,
+      "radical": "ksh",
+      "token_occurrences": 147,
+      "root_type_productivity": 21,
+      "standalone_root_tokens": 121,
+      "slot1_onset_types": 9,
+      "slot2_coda_types": 9
+    },
+    {
+      "rank": 45,
+      "radical": "chk",
+      "token_occurrences": 129,
+      "root_type_productivity": 11,
+      "standalone_root_tokens": 116,
+      "slot1_onset_types": 8,
+      "slot2_coda_types": 2
+    },
+    {
+      "rank": 46,
+      "radical": "g",
+      "token_occurrences": 129,
+      "root_type_productivity": 91,
+      "standalone_root_tokens": 16,
+      "slot1_onset_types": 1,
+      "slot2_coda_types": 37
+    },
+    {
+      "rank": 47,
+      "radical": "ey",
+      "token_occurrences": 118,
+      "root_type_productivity": 24,
+      "standalone_root_tokens": 81,
+      "slot1_onset_types": 2,
+      "slot2_coda_types": 20
+    },
+    {
+      "rank": 48,
+      "radical": "chd",
+      "token_occurrences": 117,
+      "root_type_productivity": 15,
+      "standalone_root_tokens": 103,
+      "slot1_onset_types": 6,
+      "slot2_coda_types": 7
+    },
+    {
+      "rank": 49,
+      "radical": "am",
+      "token_occurrences": 117,
+      "root_type_productivity": 23,
+      "standalone_root_tokens": 91,
+      "slot1_onset_types": 5,
+      "slot2_coda_types": 14
+    },
+    {
+      "rank": 50,
+      "radical": "tai",
+      "token_occurrences": 112,
+      "root_type_productivity": 13,
+      "standalone_root_tokens": 88,
+      "slot1_onset_types": 7,
+      "slot2_coda_types": 5
+    }
+  ],
+  "top_40_elementary_radicals_by_type_productivity": [
+    {
+      "rank": 1,
+      "radical": "ch",
+      "root_type_productivity": 206,
+      "token_occurrences": 3938,
+      "standalone_root_tokens": 2673,
+      "slot1_onset_types": 96,
+      "slot2_coda_types": 75
+    },
+    {
+      "rank": 2,
+      "radical": "d",
+      "root_type_productivity": 197,
+      "token_occurrences": 3856,
+      "standalone_root_tokens": 2377,
+      "slot1_onset_types": 101,
+      "slot2_coda_types": 68
+    },
+    {
+      "rank": 3,
+      "radical": "s",
+      "root_type_productivity": 184,
+      "token_occurrences": 1294,
+      "standalone_root_tokens": 911,
+      "slot1_onset_types": 78,
+      "slot2_coda_types": 77
+    },
+    {
+      "rank": 4,
+      "radical": "ol",
+      "root_type_productivity": 178,
+      "token_occurrences": 1904,
+      "standalone_root_tokens": 956,
+      "slot1_onset_types": 75,
+      "slot2_coda_types": 87
+    },
+    {
+      "rank": 5,
+      "radical": "sh",
+      "root_type_productivity": 164,
+      "token_occurrences": 2164,
+      "standalone_root_tokens": 1641,
+      "slot1_onset_types": 68,
+      "slot2_coda_types": 62
+    },
+    {
+      "rank": 6,
+      "radical": "k",
+      "root_type_productivity": 154,
+      "token_occurrences": 5921,
+      "standalone_root_tokens": 4678,
+      "slot1_onset_types": 69,
+      "slot2_coda_types": 56
+    },
+    {
+      "rank": 7,
+      "radical": "t",
+      "root_type_productivity": 145,
+      "token_occurrences": 3972,
+      "standalone_root_tokens": 2881,
+      "slot1_onset_types": 77,
+      "slot2_coda_types": 46
+    },
+    {
+      "rank": 8,
+      "radical": "che",
+      "root_type_productivity": 135,
+      "token_occurrences": 1747,
+      "standalone_root_tokens": 675,
+      "slot1_onset_types": 87,
+      "slot2_coda_types": 40
+    },
+    {
+      "rank": 9,
+      "radical": "ar",
+      "root_type_productivity": 131,
+      "token_occurrences": 867,
+      "standalone_root_tokens": 536,
+      "slot1_onset_types": 38,
+      "slot2_coda_types": 71
+    },
+    {
+      "rank": 10,
+      "radical": "al",
+      "root_type_productivity": 128,
+      "token_occurrences": 853,
+      "standalone_root_tokens": 365,
+      "slot1_onset_types": 42,
+      "slot2_coda_types": 71
+    },
+    {
+      "rank": 11,
+      "radical": "or",
+      "root_type_productivity": 121,
+      "token_occurrences": 838,
+      "standalone_root_tokens": 557,
+      "slot1_onset_types": 47,
+      "slot2_coda_types": 61
+    },
+    {
+      "rank": 12,
+      "radical": "tch",
+      "root_type_productivity": 110,
+      "token_occurrences": 1364,
+      "standalone_root_tokens": 1009,
+      "slot1_onset_types": 49,
+      "slot2_coda_types": 40
+    },
+    {
+      "rank": 13,
+      "radical": "ke",
+      "root_type_productivity": 98,
+      "token_occurrences": 1131,
+      "standalone_root_tokens": 660,
+      "slot1_onset_types": 46,
+      "slot2_coda_types": 38
+    },
+    {
+      "rank": 14,
+      "radical": "e",
+      "root_type_productivity": 91,
+      "token_occurrences": 338,
+      "standalone_root_tokens": 123,
+      "slot1_onset_types": 22,
+      "slot2_coda_types": 51
+    },
+    {
+      "rank": 15,
+      "radical": "g",
+      "root_type_productivity": 91,
+      "token_occurrences": 129,
+      "standalone_root_tokens": 16,
+      "slot1_onset_types": 1,
+      "slot2_coda_types": 37
+    },
+    {
+      "rank": 16,
+      "radical": "y",
+      "root_type_productivity": 89,
+      "token_occurrences": 601,
+      "standalone_root_tokens": 352,
+      "slot1_onset_types": 20,
+      "slot2_coda_types": 55
+    },
+    {
+      "rank": 17,
+      "radical": "a",
+      "root_type_productivity": 87,
+      "token_occurrences": 150,
+      "standalone_root_tokens": 42,
+      "slot1_onset_types": 30,
+      "slot2_coda_types": 34
+    },
+    {
+      "rank": 18,
+      "radical": "she",
+      "root_type_productivity": 86,
+      "token_occurrences": 898,
+      "standalone_root_tokens": 405,
+      "slot1_onset_types": 48,
+      "slot2_coda_types": 28
+    },
+    {
+      "rank": 19,
+      "radical": "kch",
+      "root_type_productivity": 83,
+      "token_occurrences": 924,
+      "standalone_root_tokens": 715,
+      "slot1_onset_types": 36,
+      "slot2_coda_types": 36
+    },
+    {
+      "rank": 20,
+      "radical": "l",
+      "root_type_productivity": 82,
+      "token_occurrences": 593,
+      "standalone_root_tokens": 376,
+      "slot1_onset_types": 55,
+      "slot2_coda_types": 19
+    },
+    {
+      "rank": 21,
+      "radical": "cth",
+      "root_type_productivity": 81,
+      "token_occurrences": 943,
+      "standalone_root_tokens": 501,
+      "slot1_onset_types": 26,
+      "slot2_coda_types": 43
+    },
+    {
+      "rank": 22,
+      "radical": "cho",
+      "root_type_productivity": 80,
+      "token_occurrences": 939,
+      "standalone_root_tokens": 196,
+      "slot1_onset_types": 49,
+      "slot2_coda_types": 27
+    },
+    {
+      "rank": 23,
+      "radical": "sho",
+      "root_type_productivity": 79,
+      "token_occurrences": 462,
+      "standalone_root_tokens": 182,
+      "slot1_onset_types": 49,
+      "slot2_coda_types": 24
+    },
+    {
+      "rank": 24,
+      "radical": "o",
+      "root_type_productivity": 75,
+      "token_occurrences": 455,
+      "standalone_root_tokens": 300,
+      "slot1_onset_types": 3,
+      "slot2_coda_types": 40
+    },
+    {
+      "rank": 25,
+      "radical": "ckh",
+      "root_type_productivity": 73,
+      "token_occurrences": 841,
+      "standalone_root_tokens": 253,
+      "slot1_onset_types": 12,
+      "slot2_coda_types": 48
+    },
+    {
+      "rank": 26,
+      "radical": "to",
+      "root_type_productivity": 71,
+      "token_occurrences": 291,
+      "standalone_root_tokens": 94,
+      "slot1_onset_types": 51,
+      "slot2_coda_types": 18
+    },
+    {
+      "rank": 27,
+      "radical": "cheo",
+      "root_type_productivity": 70,
+      "token_occurrences": 476,
+      "standalone_root_tokens": 191,
+      "slot1_onset_types": 37,
+      "slot2_coda_types": 31
+    },
+    {
+      "rank": 28,
+      "radical": "dai",
+      "root_type_productivity": 63,
+      "token_occurrences": 316,
+      "standalone_root_tokens": 194,
+      "slot1_onset_types": 16,
+      "slot2_coda_types": 34
+    },
+    {
+      "rank": 29,
+      "radical": "so",
+      "root_type_productivity": 61,
+      "token_occurrences": 157,
+      "standalone_root_tokens": 54,
+      "slot1_onset_types": 44,
+      "slot2_coda_types": 10
+    },
+    {
+      "rank": 30,
+      "radical": "dy",
+      "root_type_productivity": 58,
+      "token_occurrences": 524,
+      "standalone_root_tokens": 361,
+      "slot1_onset_types": 19,
+      "slot2_coda_types": 35
+    },
+    {
+      "rank": 31,
+      "radical": "te",
+      "root_type_productivity": 57,
+      "token_occurrences": 547,
+      "standalone_root_tokens": 334,
+      "slot1_onset_types": 33,
+      "slot2_coda_types": 18
+    },
+    {
+      "rank": 32,
+      "radical": "ai",
+      "root_type_productivity": 56,
+      "token_occurrences": 242,
+      "standalone_root_tokens": 158,
+      "slot1_onset_types": 12,
+      "slot2_coda_types": 35
+    },
+    {
+      "rank": 33,
+      "radical": "ko",
+      "root_type_productivity": 56,
+      "token_occurrences": 193,
+      "standalone_root_tokens": 94,
+      "slot1_onset_types": 33,
+      "slot2_coda_types": 18
+    },
+    {
+      "rank": 34,
+      "radical": "tol",
+      "root_type_productivity": 50,
+      "token_occurrences": 68,
+      "standalone_root_tokens": 51,
+      "slot1_onset_types": 46,
+      "slot2_coda_types": 4
+    },
+    {
+      "rank": 35,
+      "radical": "r",
+      "root_type_productivity": 49,
+      "token_occurrences": 458,
+      "standalone_root_tokens": 355,
+      "slot1_onset_types": 28,
+      "slot2_coda_types": 11
+    },
+    {
+      "rank": 36,
+      "radical": "da",
+      "root_type_productivity": 47,
+      "token_occurrences": 87,
+      "standalone_root_tokens": 25,
+      "slot1_onset_types": 16,
+      "slot2_coda_types": 24
+    },
+    {
+      "rank": 37,
+      "radical": "olk",
+      "root_type_productivity": 44,
+      "token_occurrences": 447,
+      "standalone_root_tokens": 314,
+      "slot1_onset_types": 14,
+      "slot2_coda_types": 23
+    },
+    {
+      "rank": 38,
+      "radical": "dal",
+      "root_type_productivity": 44,
+      "token_occurrences": 99,
+      "standalone_root_tokens": 76,
+      "slot1_onset_types": 26,
+      "slot2_coda_types": 16
+    },
+    {
+      "rank": 39,
+      "radical": "keo",
+      "root_type_productivity": 41,
+      "token_occurrences": 302,
+      "standalone_root_tokens": 180,
+      "slot1_onset_types": 19,
+      "slot2_coda_types": 16
+    },
+    {
+      "rank": 40,
+      "radical": "kai",
+      "root_type_productivity": 41,
+      "token_occurrences": 153,
+      "standalone_root_tokens": 101,
+      "slot1_onset_types": 14,
+      "slot2_coda_types": 20
+    }
+  ],
+  "top_40_radical_bigrams_R1_R2": [
+    {
+      "r1": "s",
+      "r2": "ar",
+      "compound": "sar",
+      "type_count": 11,
+      "standalone_compound_tokens": 19,
+      "examples": [
+        "sarol (f39v.11)",
+        "sarar (f42v.14)",
+        "saral (f67r2.20)"
+      ]
+    },
+    {
+      "r1": "ar",
+      "r2": "o",
+      "compound": "aro",
+      "type_count": 10,
+      "standalone_compound_tokens": 6,
+      "examples": [
+        "arood (f50v.10)",
+        "arod (f55r.1)",
+        "aros (f57v.4)"
+      ]
+    },
+    {
+      "r1": "d",
+      "r2": "ain",
+      "compound": "dain",
+      "type_count": 9,
+      "standalone_compound_tokens": 15,
+      "examples": [
+        "daiiny (f2r.7)",
+        "daiinol (f19r.12)",
+        "dainl (f35r.4)"
+      ]
+    },
+    {
+      "r1": "s",
+      "r2": "ol",
+      "compound": "sol",
+      "type_count": 9,
+      "standalone_compound_tokens": 12,
+      "examples": [
+        "sols (f3r.11)",
+        "sold (f36r.7)",
+        "solaiin (f40v.5)"
+      ]
+    },
+    {
+      "r1": "ch",
+      "r2": "or",
+      "compound": "chor",
+      "type_count": 8,
+      "standalone_compound_tokens": 19,
+      "examples": [
+        "choraiin (f4r.2)",
+        "chordy (f19r.2)",
+        "chordy (f19r.10)"
+      ]
+    },
+    {
+      "r1": "sh",
+      "r2": "ol",
+      "compound": "shol",
+      "type_count": 8,
+      "standalone_compound_tokens": 14,
+      "examples": [
+        "sholdy (f1r.1)",
+        "sholor (f17v.21)",
+        "sholdy (f18r.7)"
+      ]
+    },
+    {
+      "r1": "or",
+      "r2": "ar",
+      "compound": "orar",
+      "type_count": 8,
+      "standalone_compound_tokens": 3,
+      "examples": [
+        "orarol (fRos.17)",
+        "orarol (f89v1.8)",
+        "oraram (f101v.12)"
+      ]
+    },
+    {
+      "r1": "sh",
+      "r2": "y",
+      "compound": "shy",
+      "type_count": 8,
+      "standalone_compound_tokens": 1,
+      "examples": [
+        "shyly (f37v.12)"
+      ]
+    },
+    {
+      "r1": "d",
+      "r2": "ol",
+      "compound": "dol",
+      "type_count": 7,
+      "standalone_compound_tokens": 13,
+      "examples": [
+        "dolody (f2v.8)",
+        "dold (f7r.2)",
+        "doldy (f18r.7)"
+      ]
+    },
+    {
+      "r1": "s",
+      "r2": "al",
+      "compound": "sal",
+      "type_count": 7,
+      "standalone_compound_tokens": 8,
+      "examples": [
+        "saldy (f26v.4)",
+        "salol (f58r.39)",
+        "salal (f58v.9)"
+      ]
+    },
+    {
+      "r1": "qo",
+      "r2": "k",
+      "compound": "qok",
+      "type_count": 7,
+      "standalone_compound_tokens": 5,
+      "examples": [
+        "oqokain (f75r.21)",
+        "qoqokeey (f75v.39)",
+        "oqokain (f77v.22)"
+      ]
+    },
+    {
+      "r1": "she",
+      "r2": "y",
+      "compound": "shey",
+      "type_count": 7,
+      "standalone_compound_tokens": 3,
+      "examples": [
+        "sheyr (f80v.34)",
+        "sheyr (f89r1.19)",
+        "sheeyl (f90v2.7)"
+      ]
+    },
+    {
+      "r1": "or",
+      "r2": "ol",
+      "compound": "orol",
+      "type_count": 7,
+      "standalone_compound_tokens": 1,
+      "examples": [
+        "oroldy (f70r1.9)"
+      ]
+    },
+    {
+      "r1": "t",
+      "r2": "sho",
+      "compound": "tsho",
+      "type_count": 6,
+      "standalone_compound_tokens": 17,
+      "examples": [
+        "pshod (f5v.1)",
+        "pshoain (f9r.6)",
+        "tsho (f17r.6)"
+      ]
+    },
+    {
+      "r1": "al",
+      "r2": "sh",
+      "compound": "alsh",
+      "type_count": 6,
+      "standalone_compound_tokens": 7,
+      "examples": [
+        "alshey (f41r.2)",
+        "alshey (f48r.6)",
+        "alshey (f72v1.1)"
+      ]
+    },
+    {
+      "r1": "ol",
+      "r2": "al",
+      "compound": "olal",
+      "type_count": 6,
+      "standalone_compound_tokens": 6,
+      "examples": [
+        "olald (f45v.1)",
+        "olaldy (f58r.28)",
+        "olalor (f58v.21)"
+      ]
+    },
+    {
+      "r1": "t",
+      "r2": "ey",
+      "compound": "tey",
+      "type_count": 6,
+      "standalone_compound_tokens": 5,
+      "examples": [
+        "oteydy (f68v2.6)",
+        "oteeys (f68v2.6)",
+        "oteeys (f69v.15)"
+      ]
+    },
+    {
+      "r1": "t",
+      "r2": "sheo",
+      "compound": "tsheo",
+      "type_count": 6,
+      "standalone_compound_tokens": 5,
+      "examples": [
+        "tsheos (f3r.1)",
+        "qotsheod (f46r.5)",
+        "ytsheod (f50v.9)"
+      ]
+    },
+    {
+      "r1": "che",
+      "r2": "dy",
+      "compound": "chedy",
+      "type_count": 6,
+      "standalone_compound_tokens": 4,
+      "examples": [
+        "chedyl (f76r.53)",
+        "chedyor (f80r.24)",
+        "chedyr (f80v.17)"
+      ]
+    },
+    {
+      "r1": "che",
+      "r2": "al",
+      "compound": "cheal",
+      "type_count": 6,
+      "standalone_compound_tokens": 3,
+      "examples": [
+        "chealdy (f72r3.1)",
+        "chealor (f77r.32)",
+        "chealol (f106r.44)"
+      ]
+    },
+    {
+      "r1": "al",
+      "r2": "g",
+      "compound": "alg",
+      "type_count": 6,
+      "standalone_compound_tokens": 1,
+      "examples": [
+        "alg (f23r.7)"
+      ]
+    },
+    {
+      "r1": "ar",
+      "r2": "a",
+      "compound": "ara",
+      "type_count": 6,
+      "standalone_compound_tokens": 0,
+      "examples": []
+    },
+    {
+      "r1": "ar",
+      "r2": "or",
+      "compound": "aror",
+      "type_count": 6,
+      "standalone_compound_tokens": 0,
+      "examples": []
+    },
+    {
+      "r1": "ol",
+      "r2": "dai",
+      "compound": "oldai",
+      "type_count": 6,
+      "standalone_compound_tokens": 1,
+      "examples": [
+        "oldair (f75r.28)"
+      ]
+    },
+    {
+      "r1": "ol",
+      "r2": "ar",
+      "compound": "olar",
+      "type_count": 6,
+      "standalone_compound_tokens": 1,
+      "examples": [
+        "olardy (f84r.15)"
+      ]
+    },
+    {
+      "r1": "s",
+      "r2": "y",
+      "compound": "sy",
+      "type_count": 6,
+      "standalone_compound_tokens": 1,
+      "examples": [
+        "sydy (f58v.38)"
+      ]
+    },
+    {
+      "r1": "ch",
+      "r2": "ckh",
+      "compound": "chckh",
+      "type_count": 5,
+      "standalone_compound_tokens": 225,
+      "examples": [
+        "chckhol (f3v.8)",
+        "chckhy (f6r.2)",
+        "chckhy (f6v.2)"
+      ]
+    },
+    {
+      "r1": "sh",
+      "r2": "ckh",
+      "compound": "shckh",
+      "type_count": 5,
+      "standalone_compound_tokens": 87,
+      "examples": [
+        "shckhey (f1r.15)",
+        "shckhy (f6v.4)",
+        "shckhy (f7r.9)"
+      ]
+    },
+    {
+      "r1": "kch",
+      "r2": "d",
+      "compound": "kchd",
+      "type_count": 5,
+      "standalone_compound_tokens": 19,
+      "examples": [
+        "kchdal (f47r.4)",
+        "fchdar (f66r.65)",
+        "fchdly (f66v.9)"
+      ]
+    },
+    {
+      "r1": "ol",
+      "r2": "tch",
+      "compound": "oltch",
+      "type_count": 5,
+      "standalone_compound_tokens": 14,
+      "examples": [
+        "oltchy (f29v.4)",
+        "oltchy (f55v.11)",
+        "oltchey (f79r.40)"
+      ]
+    },
+    {
+      "r1": "e",
+      "r2": "tch",
+      "compound": "etch",
+      "type_count": 5,
+      "standalone_compound_tokens": 12,
+      "examples": [
+        "oepchol (f46v.1)",
+        "etchal (f54r.8)",
+        "qoetchey (f57r.10)"
+      ]
+    },
+    {
+      "r1": "k",
+      "r2": "cheo",
+      "compound": "kcheo",
+      "type_count": 5,
+      "standalone_compound_tokens": 12,
+      "examples": [
+        "qokcheo (f17v.11)",
+        "kcheo (f40r.8)",
+        "qokcheo (f47r.4)"
+      ]
+    },
+    {
+      "r1": "k",
+      "r2": "or",
+      "compound": "kor",
+      "type_count": 5,
+      "standalone_compound_tokens": 12,
+      "examples": [
+        "koraiin (f9r.8)",
+        "okorory (f13r.10)",
+        "qokorar (f19r.4)"
+      ]
+    },
+    {
+      "r1": "or",
+      "r2": "o",
+      "compound": "oro",
+      "type_count": 5,
+      "standalone_compound_tokens": 8,
+      "examples": [
+        "oro (f15v.2)",
+        "oro (f24v.5)",
+        "oroiiin (f79v.22)"
+      ]
+    },
+    {
+      "r1": "ch",
+      "r2": "ar",
+      "compound": "char",
+      "type_count": 5,
+      "standalone_compound_tokens": 7,
+      "examples": [
+        "chariin (f49v.44)",
+        "charor (f75v.42)",
+        "charaiin (f104r.21)"
+      ]
+    },
+    {
+      "r1": "d",
+      "r2": "or",
+      "compound": "dor",
+      "type_count": 5,
+      "standalone_compound_tokens": 7,
+      "examples": [
+        "odoral (f9r.6)",
+        "dorody (f14r.4)",
+        "dorl (f19r.8)"
+      ]
+    },
+    {
+      "r1": "k",
+      "r2": "ey",
+      "compound": "key",
+      "type_count": 5,
+      "standalone_compound_tokens": 7,
+      "examples": [
+        "keeeyd (f42v.7)",
+        "qokeyl (f52v.9)",
+        "ykeydy (f69v.17)"
+      ]
+    },
+    {
+      "r1": "cho",
+      "r2": "e",
+      "compound": "choe",
+      "type_count": 5,
+      "standalone_compound_tokens": 5,
+      "examples": [
+        "choees (f1v.7)",
+        "ychoees (f18v.5)",
+        "choees (f20r.6)"
+      ]
+    },
+    {
+      "r1": "dal",
+      "r2": "o",
+      "compound": "dalo",
+      "type_count": 5,
+      "standalone_compound_tokens": 4,
+      "examples": [
+        "dalo (f14r.5)",
+        "daloy (f46r.4)",
+        "dalo (f77r.47)"
+      ]
+    },
+    {
+      "r1": "che",
+      "r2": "y",
+      "compound": "chey",
+      "type_count": 5,
+      "standalone_compound_tokens": 3,
+      "examples": [
+        "cheyl (f89r1.17)",
+        "cheys (f89r2.18)",
+        "cheyor (f113v.2)"
+      ]
+    }
+  ],
+  "commuting_radical_grid": [
+    {
+      "slot1_radical": "d",
+      "total_types": 101,
+      "combinations": {
+        "ol": {
+          "compound_root": "dol",
+          "token_count": 13,
+          "example": "dolody (f2v.8)"
+        },
+        "ch": {
+          "compound_root": "dch",
+          "token_count": 174,
+          "example": "dchar (f1r.19)"
+        },
+        "al": {
+          "compound_root": "dal",
+          "token_count": 76,
+          "example": "dals (f2r.4)"
+        },
+        "ar": {
+          "compound_root": "dar",
+          "token_count": 39,
+          "example": "daraiin (f1r.3)"
+        },
+        "d": {
+          "compound_root": "dd",
+          "token_count": 4,
+          "example": "ddor (f19v.9)"
+        },
+        "sh": {
+          "compound_root": "dsh",
+          "token_count": 94,
+          "example": "dsheey (f8r.9)"
+        },
+        "or": {
+          "compound_root": "dor",
+          "token_count": 7,
+          "example": "odoral (f9r.6)"
+        },
+        "k": {
+          "compound_root": "dk",
+          "token_count": 8,
+          "example": "dkol (f2r.6)"
+        },
+        "y": {
+          "compound_root": "dy",
+          "token_count": 361,
+          "example": "dy (f2r.4)"
+        },
+        "e": {
+          "compound_root": "de",
+          "token_count": 12,
+          "example": "deees (f7v.4)"
+        },
+        "ckh": {
+          "compound_root": "dckh",
+          "token_count": 2,
+          "example": "qodckhy (f53v.1)"
+        },
+        "t": {
+          "compound_root": "dt",
+          "token_count": 2,
+          "example": "dpy (f73v.5)"
+        },
+        "cth": {
+          "compound_root": "dcth",
+          "token_count": 2,
+          "example": "qodcthy (f17r.2)"
+        },
+        "che": {
+          "compound_root": "dche",
+          "token_count": 23,
+          "example": "dcheor (f17r.10)"
+        }
+      }
+    },
+    {
+      "slot1_radical": "ch",
+      "total_types": 96,
+      "combinations": {
+        "ol": {
+          "compound_root": "chol",
+          "token_count": 41,
+          "example": "cholaiin (f2r.10)"
+        },
+        "s": {
+          "compound_root": "chs",
+          "token_count": 12,
+          "example": "chsey (f8r.16)"
+        },
+        "ch": {
+          "compound_root": "chch",
+          "token_count": 6,
+          "example": "chchs (f72r2.32)"
+        },
+        "al": {
+          "compound_root": "chal",
+          "token_count": 11,
+          "example": "chald (f7r.3)"
+        },
+        "ar": {
+          "compound_root": "char",
+          "token_count": 7,
+          "example": "chariin (f49v.44)"
+        },
+        "d": {
+          "compound_root": "chd",
+          "token_count": 103,
+          "example": "chdoly (f22r.7)"
+        },
+        "sh": {
+          "compound_root": "chsh",
+          "token_count": 3,
+          "example": "chshy (f29v.5)"
+        },
+        "or": {
+          "compound_root": "chor",
+          "token_count": 19,
+          "example": "choraiin (f4r.2)"
+        },
+        "k": {
+          "compound_root": "chk",
+          "token_count": 116,
+          "example": "chkar (f2r.2)"
+        },
+        "y": {
+          "compound_root": "chy",
+          "token_count": 2,
+          "example": "chyd (f29v.10)"
+        },
+        "e": {
+          "compound_root": "che",
+          "token_count": 675,
+          "example": "chear (f1r.5)"
+        },
+        "ckh": {
+          "compound_root": "chckh",
+          "token_count": 225,
+          "example": "chckhol (f3v.8)"
+        },
+        "t": {
+          "compound_root": "cht",
+          "token_count": 60,
+          "example": "chtaiin (f1r.2)"
+        },
+        "cth": {
+          "compound_root": "chcth",
+          "token_count": 140,
+          "example": "chcthy (f2r.13)"
+        }
+      }
+    },
+    {
+      "slot1_radical": "che",
+      "total_types": 87,
+      "combinations": {
+        "ol": {
+          "compound_root": "cheol",
+          "token_count": 14,
+          "example": "cheoldy (f30v.5)"
+        },
+        "s": {
+          "compound_root": "ches",
+          "token_count": 6,
+          "example": "chesey (f30r.8)"
+        },
+        "ch": {
+          "compound_root": "chech",
+          "token_count": 4,
+          "example": "chechey (f34v.5)"
+        },
+        "al": {
+          "compound_root": "cheal",
+          "token_count": 3,
+          "example": "chealdy (f72r3.1)"
+        },
+        "ar": {
+          "compound_root": "chear",
+          "token_count": 3,
+          "example": "chearory (f89v1.7)"
+        },
+        "d": {
+          "compound_root": "ched",
+          "token_count": 166,
+          "example": "chedaiin (f31r.12)"
+        },
+        "sh": {
+          "compound_root": "chesh",
+          "token_count": 1,
+          "example": "cheshy (f113r.26)"
+        },
+        "or": {
+          "compound_root": "cheor",
+          "token_count": 6,
+          "example": "cheoraiin (f49r.3)"
+        },
+        "k": {
+          "compound_root": "chek",
+          "token_count": 199,
+          "example": "chekain (f1r.17)"
+        },
+        "y": {
+          "compound_root": "chey",
+          "token_count": 3,
+          "example": "cheyl (f89r1.17)"
+        },
+        "ckh": {
+          "compound_root": "checkh",
+          "token_count": 68,
+          "example": "checkhy (f30v.4)"
+        },
+        "t": {
+          "compound_root": "chet",
+          "token_count": 88,
+          "example": "chety (f2r.12)"
+        },
+        "cth": {
+          "compound_root": "checth",
+          "token_count": 42,
+          "example": "checthy (f20v.2)"
+        }
+      }
+    },
+    {
+      "slot1_radical": "s",
+      "total_types": 78,
+      "combinations": {
+        "ol": {
+          "compound_root": "sol",
+          "token_count": 12,
+          "example": "sols (f3r.11)"
+        },
+        "ch": {
+          "compound_root": "sch",
+          "token_count": 30,
+          "example": "schody (f1v.10)"
+        },
+        "al": {
+          "compound_root": "sal",
+          "token_count": 8,
+          "example": "saldy (f26v.4)"
+        },
+        "ar": {
+          "compound_root": "sar",
+          "token_count": 19,
+          "example": "sarol (f39v.11)"
+        },
+        "d": {
+          "compound_root": "sd",
+          "token_count": 2,
+          "example": "osdaiin (f68r1.34)"
+        },
+        "sh": {
+          "compound_root": "ssh",
+          "token_count": 17,
+          "example": "sshey (f24r.17)"
+        },
+        "or": {
+          "compound_root": "sor",
+          "token_count": 15,
+          "example": "sorain (f8v.11)"
+        },
+        "k": {
+          "compound_root": "sk",
+          "token_count": 11,
+          "example": "sky (f15r.13)"
+        },
+        "y": {
+          "compound_root": "sy",
+          "token_count": 1,
+          "example": "sydy (f58v.38)"
+        },
+        "e": {
+          "compound_root": "se",
+          "token_count": 1,
+          "example": "seees (f3v.3)"
+        },
+        "ckh": {
+          "compound_root": "sckh",
+          "token_count": 1,
+          "example": "sckhey (f1r.12)"
+        },
+        "t": {
+          "compound_root": "st",
+          "token_count": 1,
+          "example": "spaiin (f34v.1)"
+        },
+        "cth": {
+          "compound_root": "scth",
+          "token_count": 1,
+          "example": "scthey (f79r.20)"
+        },
+        "che": {
+          "compound_root": "sche",
+          "token_count": 9,
+          "example": "scheaiin (f8r.16)"
+        }
+      }
+    },
+    {
+      "slot1_radical": "t",
+      "total_types": 77,
+      "combinations": {
+        "ol": {
+          "compound_root": "tol",
+          "token_count": 51,
+          "example": "ytoldy (f2r.6)"
+        },
+        "ch": {
+          "compound_root": "tch",
+          "token_count": 1009,
+          "example": "otchol (f1r.8)"
+        },
+        "al": {
+          "compound_root": "tal",
+          "token_count": 56,
+          "example": "otald (f47v.13)"
+        },
+        "ar": {
+          "compound_root": "tar",
+          "token_count": 39,
+          "example": "otariin (f8r.11)"
+        },
+        "d": {
+          "compound_root": "td",
+          "token_count": 24,
+          "example": "tdaiin (f19r.3)"
+        },
+        "sh": {
+          "compound_root": "tsh",
+          "token_count": 122,
+          "example": "pshol (f1r.17)"
+        },
+        "or": {
+          "compound_root": "tor",
+          "token_count": 23,
+          "example": "oporar (f3r.15)"
+        },
+        "y": {
+          "compound_root": "ty",
+          "token_count": 17,
+          "example": "tydy (f4r.5)"
+        },
+        "e": {
+          "compound_root": "te",
+          "token_count": 334,
+          "example": "teody (f1r.10)"
+        },
+        "ckh": {
+          "compound_root": "tckh",
+          "token_count": 1,
+          "example": "tcfhy (f57r.10)"
+        },
+        "t": {
+          "compound_root": "tt",
+          "token_count": 1,
+          "example": "qottor (f23v.2)"
+        },
+        "che": {
+          "compound_root": "tche",
+          "token_count": 107,
+          "example": "pcheol (f3r.11)"
+        }
+      }
+    },
+    {
+      "slot1_radical": "ol",
+      "total_types": 75,
+      "combinations": {
+        "ol": {
+          "compound_root": "olol",
+          "token_count": 6,
+          "example": "ololdy (f23r.1)"
+        },
+        "s": {
+          "compound_root": "ols",
+          "token_count": 10,
+          "example": "olsaiin (f2r.11)"
+        },
+        "ch": {
+          "compound_root": "olch",
+          "token_count": 137,
+          "example": "olchy (f14r.3)"
+        },
+        "al": {
+          "compound_root": "olal",
+          "token_count": 6,
+          "example": "olald (f45v.1)"
+        },
+        "ar": {
+          "compound_root": "olar",
+          "token_count": 1,
+          "example": "olardy (f84r.15)"
+        },
+        "d": {
+          "compound_root": "old",
+          "token_count": 30,
+          "example": "oldain (f1r.13)"
+        },
+        "sh": {
+          "compound_root": "olsh",
+          "token_count": 62,
+          "example": "olsheey (f2r.8)"
+        },
+        "or": {
+          "compound_root": "olor",
+          "token_count": 3,
+          "example": "olorol (f79v.1)"
+        },
+        "k": {
+          "compound_root": "olk",
+          "token_count": 314,
+          "example": "olk (f34r.8)"
+        },
+        "y": {
+          "compound_root": "oly",
+          "token_count": 73,
+          "example": "oly (f3v.1)"
+        },
+        "e": {
+          "compound_root": "ole",
+          "token_count": 10,
+          "example": "oleeol (f41v.4)"
+        },
+        "ckh": {
+          "compound_root": "olckh",
+          "token_count": 1,
+          "example": "olcfholy (f9v.5)"
+        },
+        "t": {
+          "compound_root": "olt",
+          "token_count": 24,
+          "example": "oltedy (f33v.7)"
+        },
+        "cth": {
+          "compound_root": "olcth",
+          "token_count": 3,
+          "example": "olcphy (f13v.6)"
+        },
+        "che": {
+          "compound_root": "olche",
+          "token_count": 23,
+          "example": "olcheol (f17v.4)"
+        }
+      }
+    },
+    {
+      "slot1_radical": "k",
+      "total_types": 69,
+      "combinations": {
+        "ol": {
+          "compound_root": "kol",
+          "token_count": 44,
+          "example": "qokoldy (f23r.4)"
+        },
+        "s": {
+          "compound_root": "ks",
+          "token_count": 2,
+          "example": "ksor (f27r.1)"
+        },
+        "ch": {
+          "compound_root": "kch",
+          "token_count": 715,
+          "example": "kchy (f1r.16)"
+        },
+        "al": {
+          "compound_root": "kal",
+          "token_count": 65,
+          "example": "kald (f13v.8)"
+        },
+        "ar": {
+          "compound_root": "kar",
+          "token_count": 33,
+          "example": "karal (f46r.9)"
+        },
+        "sh": {
+          "compound_root": "ksh",
+          "token_count": 121,
+          "example": "kshy (f1r.16)"
+        },
+        "or": {
+          "compound_root": "kor",
+          "token_count": 12,
+          "example": "koraiin (f9r.8)"
+        },
+        "y": {
+          "compound_root": "ky",
+          "token_count": 11,
+          "example": "qokyd (f44r.9)"
+        },
+        "e": {
+          "compound_root": "ke",
+          "token_count": 660,
+          "example": "keol (f2r.10)"
+        },
+        "che": {
+          "compound_root": "kche",
+          "token_count": 54,
+          "example": "kcheol (f3v.4)"
+        }
+      }
+    },
+    {
+      "slot1_radical": "sh",
+      "total_types": 68,
+      "combinations": {
+        "ol": {
+          "compound_root": "shol",
+          "token_count": 14,
+          "example": "sholdy (f1r.1)"
+        },
+        "s": {
+          "compound_root": "shs",
+          "token_count": 3,
+          "example": "shsdy (f68v2.6)"
+        },
+        "ch": {
+          "compound_root": "shch",
+          "token_count": 8,
+          "example": "shchey (f67r1.6)"
+        },
+        "al": {
+          "compound_root": "shal",
+          "token_count": 2,
+          "example": "shalom (f58r.4)"
+        },
+        "ar": {
+          "compound_root": "shar",
+          "token_count": 4,
+          "example": "sharam (f58r.14)"
+        },
+        "d": {
+          "compound_root": "shd",
+          "token_count": 25,
+          "example": "shdaiin (f19r.9)"
+        },
+        "sh": {
+          "compound_root": "shsh",
+          "token_count": 2,
+          "example": "shshy (f70r2.4)"
+        },
+        "or": {
+          "compound_root": "shor",
+          "token_count": 3,
+          "example": "shordy (f11v.1)"
+        },
+        "k": {
+          "compound_root": "shk",
+          "token_count": 30,
+          "example": "shkaiin (f3v.13)"
+        },
+        "y": {
+          "compound_root": "shy",
+          "token_count": 1,
+          "example": "shyly (f37v.12)"
+        },
+        "e": {
+          "compound_root": "she",
+          "token_count": 405,
+          "example": "she (f1r.18)"
+        },
+        "ckh": {
+          "compound_root": "shckh",
+          "token_count": 87,
+          "example": "shckhey (f1r.15)"
+        },
+        "t": {
+          "compound_root": "sht",
+          "token_count": 13,
+          "example": "shty (f2v.1)"
+        },
+        "cth": {
+          "compound_root": "shcth",
+          "token_count": 43,
+          "example": "shcthaiin (f1r.19)"
+        },
+        "che": {
+          "compound_root": "shche",
+          "token_count": 1,
+          "example": "shcheaiin (f35r.11)"
+        }
+      }
+    },
+    {
+      "slot1_radical": "l",
+      "total_types": 55,
+      "combinations": {
+        "ol": {
+          "compound_root": "lol",
+          "token_count": 7,
+          "example": "loldy (f48v.9)"
+        },
+        "s": {
+          "compound_root": "ls",
+          "token_count": 1,
+          "example": "lseeey (f87v.11)"
+        },
+        "ch": {
+          "compound_root": "lch",
+          "token_count": 242,
+          "example": "lchol (f21v.7)"
+        },
+        "ar": {
+          "compound_root": "lar",
+          "token_count": 1,
+          "example": "laram (f113r.11)"
+        },
+        "d": {
+          "compound_root": "ld",
+          "token_count": 16,
+          "example": "ldar (f50v.1)"
+        },
+        "sh": {
+          "compound_root": "lsh",
+          "token_count": 83,
+          "example": "lshy (f2v.3)"
+        },
+        "or": {
+          "compound_root": "lor",
+          "token_count": 4,
+          "example": "loral (f76r.49)"
+        },
+        "k": {
+          "compound_root": "lk",
+          "token_count": 283,
+          "example": "lkody (f1v.2)"
+        },
+        "y": {
+          "compound_root": "ly",
+          "token_count": 12,
+          "example": "ly (f27r.7)"
+        },
+        "e": {
+          "compound_root": "le",
+          "token_count": 1,
+          "example": "le (f113r.9)"
+        },
+        "t": {
+          "compound_root": "lt",
+          "token_count": 28,
+          "example": "ltain (f75r.3)"
+        },
+        "che": {
+          "compound_root": "lche",
+          "token_count": 26,
+          "example": "lchear (f77r.45)"
+        }
+      }
+    },
+    {
+      "slot1_radical": "to",
+      "total_types": 51,
+      "combinations": {
+        "s": {
+          "compound_root": "tos",
+          "token_count": 4,
+          "example": "otosy (f25r.7)"
+        },
+        "ch": {
+          "compound_root": "toch",
+          "token_count": 12,
+          "example": "otochor (f2r.5)"
+        },
+        "ar": {
+          "compound_root": "toar",
+          "token_count": 1,
+          "example": "poaral (f107r.38)"
+        },
+        "d": {
+          "compound_root": "tod",
+          "token_count": 55,
+          "example": "todaiin (f21v.6)"
+        },
+        "sh": {
+          "compound_root": "tosh",
+          "token_count": 5,
+          "example": "tosh (f8r.6)"
+        },
+        "k": {
+          "compound_root": "tok",
+          "token_count": 19,
+          "example": "tokar (f33v.4)"
+        },
+        "y": {
+          "compound_root": "toy",
+          "token_count": 2,
+          "example": "toyd (f53r.8)"
+        },
+        "e": {
+          "compound_root": "toe",
+          "token_count": 8,
+          "example": "qotoees (f7r.6)"
+        },
+        "ckh": {
+          "compound_root": "tockh",
+          "token_count": 3,
+          "example": "tockhy (f87r.12)"
+        },
+        "t": {
+          "compound_root": "tot",
+          "token_count": 7,
+          "example": "opotey (f70v1.12)"
+        },
+        "cth": {
+          "compound_root": "tocth",
+          "token_count": 6,
+          "example": "tocphol (f37r.1)"
+        },
+        "che": {
+          "compound_root": "toche",
+          "token_count": 1,
+          "example": "pocheody (f16r.1)"
+        }
+      }
+    },
+    {
+      "slot1_radical": "cho",
+      "total_types": 49,
+      "combinations": {
+        "s": {
+          "compound_root": "chos",
+          "token_count": 6,
+          "example": "chosy (f21r.5)"
+        },
+        "ch": {
+          "compound_root": "choch",
+          "token_count": 9,
+          "example": "chochy (f7r.9)"
+        },
+        "d": {
+          "compound_root": "chod",
+          "token_count": 87,
+          "example": "chodain (f1r.14)"
+        },
+        "sh": {
+          "compound_root": "chosh",
+          "token_count": 2,
+          "example": "choshy (f49r.2)"
+        },
+        "k": {
+          "compound_root": "chok",
+          "token_count": 140,
+          "example": "chok (f1r.27)"
+        },
+        "e": {
+          "compound_root": "choe",
+          "token_count": 5,
+          "example": "choees (f1v.7)"
+        },
+        "ckh": {
+          "compound_root": "chockh",
+          "token_count": 42,
+          "example": "chockhy (f6v.15)"
+        },
+        "t": {
+          "compound_root": "chot",
+          "token_count": 126,
+          "example": "choty (f1r.27)"
+        },
+        "cth": {
+          "compound_root": "chocth",
+          "token_count": 36,
+          "example": "chocthy (f1r.8)"
+        }
+      }
+    },
+    {
+      "slot1_radical": "sho",
+      "total_types": 49,
+      "combinations": {
+        "s": {
+          "compound_root": "shos",
+          "token_count": 4,
+          "example": "shosaiin (f20r.5)"
+        },
+        "ch": {
+          "compound_root": "shoch",
+          "token_count": 2,
+          "example": "shochy (f13r.8)"
+        },
+        "d": {
+          "compound_root": "shod",
+          "token_count": 39,
+          "example": "shodary (f1r.7)"
+        },
+        "sh": {
+          "compound_root": "shosh",
+          "token_count": 2,
+          "example": "shoshy (f1r.11)"
+        },
+        "k": {
+          "compound_root": "shok",
+          "token_count": 40,
+          "example": "shok (f1r.20)"
+        },
+        "e": {
+          "compound_root": "shoe",
+          "token_count": 1,
+          "example": "shoeor (f21r.7)"
+        },
+        "ckh": {
+          "compound_root": "shockh",
+          "token_count": 12,
+          "example": "shockhy (f28r.7)"
+        },
+        "t": {
+          "compound_root": "shot",
+          "token_count": 19,
+          "example": "shoty (f14r.10)"
+        },
+        "cth": {
+          "compound_root": "shocth",
+          "token_count": 18,
+          "example": "shocthol (f6v.6)"
+        }
+      }
+    },
+    {
+      "slot1_radical": "tch",
+      "total_types": 49,
+      "combinations": {
+        "ol": {
+          "compound_root": "tchol",
+          "token_count": 6,
+          "example": "tcholol (f45r.6)"
+        },
+        "s": {
+          "compound_root": "tchs",
+          "token_count": 7,
+          "example": "otchsdy (f79v.37)"
+        },
+        "ch": {
+          "compound_root": "tchch",
+          "token_count": 2,
+          "example": "pchchy (f57v.2)"
+        },
+        "al": {
+          "compound_root": "tchal",
+          "token_count": 3,
+          "example": "tchalody (f6v.14)"
+        },
+        "d": {
+          "compound_root": "tchd",
+          "token_count": 39,
+          "example": "otchdal (f18v.1)"
+        },
+        "sh": {
+          "compound_root": "tchsh",
+          "token_count": 1,
+          "example": "pchshy (f58v.23)"
+        },
+        "or": {
+          "compound_root": "tchor",
+          "token_count": 7,
+          "example": "opchordy (f15v.1)"
+        },
+        "k": {
+          "compound_root": "tchk",
+          "token_count": 2,
+          "example": "tchkaiin (f40v.10)"
+        },
+        "y": {
+          "compound_root": "tchy",
+          "token_count": 3,
+          "example": "otchyd (f22v.2)"
+        },
+        "e": {
+          "compound_root": "tche",
+          "token_count": 107,
+          "example": "pcheol (f3r.11)"
+        },
+        "ckh": {
+          "compound_root": "tchckh",
+          "token_count": 1,
+          "example": "qopchcfhy (f107v.11)"
+        },
+        "t": {
+          "compound_root": "tcht",
+          "token_count": 1,
+          "example": "tchty (f8r.2)"
+        },
+        "cth": {
+          "compound_root": "tchcth",
+          "token_count": 1,
+          "example": "tchcthy (f80v.33)"
+        }
+      }
+    },
+    {
+      "slot1_radical": "she",
+      "total_types": 48,
+      "combinations": {
+        "ol": {
+          "compound_root": "sheol",
+          "token_count": 9,
+          "example": "sheoldy (f30v.10)"
+        },
+        "s": {
+          "compound_root": "shes",
+          "token_count": 2,
+          "example": "oshesy (f72v2.6)"
+        },
+        "ch": {
+          "compound_root": "shech",
+          "token_count": 3,
+          "example": "shechy (f83r.17)"
+        },
+        "al": {
+          "compound_root": "sheal",
+          "token_count": 4,
+          "example": "sheealody (f71v.1)"
+        },
+        "d": {
+          "compound_root": "shed",
+          "token_count": 59,
+          "example": "shedal (f31v.3)"
+        },
+        "sh": {
+          "compound_root": "shesh",
+          "token_count": 2,
+          "example": "sheshy (f50v.9)"
+        },
+        "k": {
+          "compound_root": "shek",
+          "token_count": 113,
+          "example": "sheky (f1r.3)"
+        },
+        "y": {
+          "compound_root": "shey",
+          "token_count": 3,
+          "example": "sheyr (f80v.34)"
+        },
+        "ckh": {
+          "compound_root": "sheckh",
+          "token_count": 48,
+          "example": "qosheckhey (f43r.13)"
+        },
+        "t": {
+          "compound_root": "shet",
+          "token_count": 37,
+          "example": "shet (f35r.4)"
+        },
+        "cth": {
+          "compound_root": "shecth",
+          "token_count": 26,
+          "example": "shecthy (f17v.21)"
+        }
+      }
+    },
+    {
+      "slot1_radical": "or",
+      "total_types": 47,
+      "combinations": {
+        "ol": {
+          "compound_root": "orol",
+          "token_count": 1,
+          "example": "oroldy (f70r1.9)"
+        },
+        "s": {
+          "compound_root": "ors",
+          "token_count": 1,
+          "example": "orsy (f102r2.6)"
+        },
+        "ch": {
+          "compound_root": "orch",
+          "token_count": 12,
+          "example": "orchl (f8v.9)"
+        },
+        "al": {
+          "compound_root": "oral",
+          "token_count": 4,
+          "example": "oralody (f43v.5)"
+        },
+        "ar": {
+          "compound_root": "orar",
+          "token_count": 3,
+          "example": "orarol (fRos.17)"
+        },
+        "d": {
+          "compound_root": "ord",
+          "token_count": 1,
+          "example": "ordaiin (f40r.1)"
+        },
+        "sh": {
+          "compound_root": "orsh",
+          "token_count": 7,
+          "example": "orshy (f15v.1)"
+        },
+        "k": {
+          "compound_root": "ork",
+          "token_count": 3,
+          "example": "orky (f58v.2)"
+        },
+        "y": {
+          "compound_root": "ory",
+          "token_count": 17,
+          "example": "ory (f26v.8)"
+        },
+        "e": {
+          "compound_root": "ore",
+          "token_count": 2,
+          "example": "oreed (f68r2.4)"
+        },
+        "che": {
+          "compound_root": "orche",
+          "token_count": 2,
+          "example": "orcheol (f104r.38)"
+        }
+      }
+    }
+  ],
+  "paleographic_comma_microspace_verification": {
+    "total_two_part_comma_tokens": 2168,
+    "boundary_type_counts": {
+      "Internal Radical | Radical boundary (R1 | R2)": 1031,
+      "Affix-internal boundary": 80,
+      "Root | Suffix boundary": 540,
+      "Unaligned internal position": 348,
+      "Prefix | Root boundary": 169
+    },
+    "overall_morpheme_or_radical_boundary_rate": 0.8026,
+    "root_internal_comma_tokens": 1379,
+    "root_internal_R1_R2_exact_hits": 1031,
+    "root_internal_random_expected": 485.98,
+    "root_internal_hit_rate": 0.7476,
+    "root_internal_expected_rate": 0.3524,
+    "root_internal_enrichment_ratio": 2.121,
+    "root_internal_z_score": 30.72,
+    "verified_examples": [
+      {
+        "folio_loc": "<f1r.2,+P0>",
+        "raw_comma": "or,y",
+        "joined_s2": "ory",
+        "morph_parse": "[bare|or+y|-0]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f1r.2,+P0>",
+        "raw_comma": "cthar,dan",
+        "joined_s2": "cthardan",
+        "morph_parse": "[bare|cth+ar+dan|-0]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f1r.4,+P0>",
+        "raw_comma": "oteos,roloty",
+        "joined_s2": "oteosroloty",
+        "morph_parse": "[o|teo+s+r+ol+ot|-y]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f1r.4,+P0>",
+        "raw_comma": "cthiar,daiin",
+        "joined_s2": "cthiardain",
+        "morph_parse": "[bare|cth+i+ar+d|-ain]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f1r.8,+P0>",
+        "raw_comma": "os,chy",
+        "joined_s2": "oschy",
+        "morph_parse": "[o|s+ch|-y]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f1r.11,*P0>",
+        "raw_comma": "cphodal,es",
+        "joined_s2": "cthodales",
+        "morph_parse": "[bare|ctho+dal+e|-s]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f1r.17,+P0>",
+        "raw_comma": "sheo,pshol",
+        "joined_s2": "sheotshol",
+        "morph_parse": "[bare|sheo+tsh|-ol]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f1r.18,+P0>",
+        "raw_comma": "dar,ain",
+        "joined_s2": "darain",
+        "morph_parse": "[bare|d+ar|-ain]",
+        "boundary_type": "Root | Suffix boundary"
+      },
+      {
+        "folio_loc": "<f1r.22,*P0>",
+        "raw_comma": "ro,dar",
+        "joined_s2": "rodar",
+        "morph_parse": "[bare|ro+d|-ar]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f1r.26,+P0>",
+        "raw_comma": "ok,chey",
+        "joined_s2": "okchey",
+        "morph_parse": "[o|k+ch|-ey]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f1v.1,@P0>",
+        "raw_comma": "cfhar,am",
+        "joined_s2": "ckharam",
+        "morph_parse": "[bare|ckh+ar|-ar]",
+        "boundary_type": "Root | Suffix boundary"
+      },
+      {
+        "folio_loc": "<f1v.3,+P0>",
+        "raw_comma": "da,ckhy",
+        "joined_s2": "dackhy",
+        "morph_parse": "[bare|da+ckh|-y]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f1v.8,+P0>",
+        "raw_comma": "kol,kechy",
+        "joined_s2": "kolkechy",
+        "morph_parse": "[bare|kol+kech|-y]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f1v.9,+P0>",
+        "raw_comma": "o,tcho",
+        "joined_s2": "otcho",
+        "morph_parse": "[o|t+cho|-0]",
+        "boundary_type": "Prefix | Root boundary"
+      },
+      {
+        "folio_loc": "<f2r.4,+P0>",
+        "raw_comma": "chtod,dy",
+        "joined_s2": "chtoddy",
+        "morph_parse": "[bare|ch+tod|-dy]",
+        "boundary_type": "Root | Suffix boundary"
+      },
+      {
+        "folio_loc": "<f2r.5,+P0>",
+        "raw_comma": "chol,dan",
+        "joined_s2": "choldan",
+        "morph_parse": "[bare|chol+dan|-0]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f2r.6,+P0>",
+        "raw_comma": "dain,d",
+        "joined_s2": "daind",
+        "morph_parse": "[bare|d+ain|-d]",
+        "boundary_type": "Root | Suffix boundary"
+      },
+      {
+        "folio_loc": "<f2r.7,+P0>",
+        "raw_comma": "chol,dan",
+        "joined_s2": "choldan",
+        "morph_parse": "[bare|chol+dan|-0]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f2r.9,+P0>",
+        "raw_comma": "dls,sho",
+        "joined_s2": "dlssho",
+        "morph_parse": "[bare|d+ls+sho|-0]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f2r.9,+P0>",
+        "raw_comma": "chol,yky",
+        "joined_s2": "cholyky",
+        "morph_parse": "[bare|chol+yk|-y]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f2v.1,@P0>",
+        "raw_comma": "cheo,pchor",
+        "joined_s2": "cheotchor",
+        "morph_parse": "[bare|cheo+tch|-or]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f2v.1,@P0>",
+        "raw_comma": "otaiin,odain",
+        "joined_s2": "otainodain",
+        "morph_parse": "[o|t+ain+od|-ain]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f2v.2,+P0>",
+        "raw_comma": "kcho,kchy",
+        "joined_s2": "kchokchy",
+        "morph_parse": "[bare|kcho+kch|-y]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f2v.5,+P0>",
+        "raw_comma": "s,shey",
+        "joined_s2": "sshey",
+        "morph_parse": "[bare|s+sh|-ey]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f2v.6,+P0>",
+        "raw_comma": "o,tchor",
+        "joined_s2": "otchor",
+        "morph_parse": "[o|t+ch|-or]",
+        "boundary_type": "Prefix | Root boundary"
+      },
+      {
+        "folio_loc": "<f3r.12,+P0>",
+        "raw_comma": "qo,schodam",
+        "joined_s2": "qoschodam",
+        "morph_parse": "[qo|s+chod|-ar]",
+        "boundary_type": "Prefix | Root boundary"
+      },
+      {
+        "folio_loc": "<f3r.13,+P0>",
+        "raw_comma": "qot,shey",
+        "joined_s2": "qotshey",
+        "morph_parse": "[qo|t+sh|-ey]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f3r.18,+P0>",
+        "raw_comma": "opchol,qoty",
+        "joined_s2": "otcholqoty",
+        "morph_parse": "[o|tch+ol+qo+t|-y]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f3r.19,+P0>",
+        "raw_comma": "ol,cheor",
+        "joined_s2": "olcheor",
+        "morph_parse": "[bare|ol+che|-or]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f3r.20,+P0>",
+        "raw_comma": "okol,or",
+        "joined_s2": "okolor",
+        "morph_parse": "[o|k+ol|-or]",
+        "boundary_type": "Root | Suffix boundary"
+      },
+      {
+        "folio_loc": "<f3v.4,+P0>",
+        "raw_comma": "chear,een",
+        "joined_s2": "chearen",
+        "morph_parse": "[bare|che+ar+e+n|-0]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f3v.14,+P0>",
+        "raw_comma": "y,keam",
+        "joined_s2": "ykeam",
+        "morph_parse": "[y|k+e|-ar]",
+        "boundary_type": "Prefix | Root boundary"
+      },
+      {
+        "folio_loc": "<f4r.1,@P0>",
+        "raw_comma": "ol,sheey",
+        "joined_s2": "olshey",
+        "morph_parse": "[bare|ol+sh|-ey]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f4r.5,+P0>",
+        "raw_comma": "dy,tydy",
+        "joined_s2": "dytydy",
+        "morph_parse": "[bare|dy+ty|-dy]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f4r.9,+P0>",
+        "raw_comma": "kor,aiin",
+        "joined_s2": "korain",
+        "morph_parse": "[bare|k+or|-ain]",
+        "boundary_type": "Root | Suffix boundary"
+      },
+      {
+        "folio_loc": "<f4v.3,+P0>",
+        "raw_comma": "o,aram",
+        "joined_s2": "oaram",
+        "morph_parse": "[o|a+r|-ar]",
+        "boundary_type": "Prefix | Root boundary"
+      },
+      {
+        "folio_loc": "<f4v.10,+P0>",
+        "raw_comma": "chol,chokeody",
+        "joined_s2": "cholchokeody",
+        "morph_parse": "[bare|chol+cho+ke|-ody]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f4v.11,+P0>",
+        "raw_comma": "qotol,daiin",
+        "joined_s2": "qotoldain",
+        "morph_parse": "[qo|tol+d|-ain]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f4v.12,+P0>",
+        "raw_comma": "s,keey",
+        "joined_s2": "skey",
+        "morph_parse": "[bare|s+k|-ey]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f5r.1,@P0>",
+        "raw_comma": "oar,olsy",
+        "joined_s2": "oarolsy",
+        "morph_parse": "[o|ar+ol+s|-y]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f5r.1,@P0>",
+        "raw_comma": "dkshy,dy",
+        "joined_s2": "dkshydy",
+        "morph_parse": "[bare|d+ksh+y|-dy]",
+        "boundary_type": "Root | Suffix boundary"
+      },
+      {
+        "folio_loc": "<f5r.3,+P0>",
+        "raw_comma": "otan,chy",
+        "joined_s2": "otanchy",
+        "morph_parse": "[o|t+an+ch|-y]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f5r.7,+P0>",
+        "raw_comma": "cheo,kchy",
+        "joined_s2": "cheokchy",
+        "morph_parse": "[bare|cheo+kch|-y]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f5v.5,+P0>",
+        "raw_comma": "chol,chotaiin",
+        "joined_s2": "cholchotain",
+        "morph_parse": "[bare|chol+chot|-ain]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f6r.4,+P0>",
+        "raw_comma": "cho,s",
+        "joined_s2": "chos",
+        "morph_parse": "[bare|ch+o|-s]",
+        "boundary_type": "Root | Suffix boundary"
+      },
+      {
+        "folio_loc": "<f6r.10,+P0>",
+        "raw_comma": "od,she",
+        "joined_s2": "odshe",
+        "morph_parse": "[o|d+she|-0]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f6r.14,+P0>",
+        "raw_comma": "y,kaiim",
+        "joined_s2": "ykaim",
+        "morph_parse": "[y|k+ai|-r]",
+        "boundary_type": "Prefix | Root boundary"
+      },
+      {
+        "folio_loc": "<f6v.1,@P0>",
+        "raw_comma": "koary,sar",
+        "joined_s2": "koarysar",
+        "morph_parse": "[bare|ko+ary+s|-ar]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f6v.4,+P0>",
+        "raw_comma": "y,shckhy",
+        "joined_s2": "yshckhy",
+        "morph_parse": "[y|sh+ckh|-y]",
+        "boundary_type": "Prefix | Root boundary"
+      },
+      {
+        "folio_loc": "<f6v.9,+P0>",
+        "raw_comma": "oeeo,dal",
+        "joined_s2": "oeodal",
+        "morph_parse": "[o|eo+d|-al]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f6v.15,+P0>",
+        "raw_comma": "s,ain",
+        "joined_s2": "sain",
+        "morph_parse": "[bare|s|-ain]",
+        "boundary_type": "Root | Suffix boundary"
+      },
+      {
+        "folio_loc": "<f6v.17,+P0>",
+        "raw_comma": "y,chaies",
+        "joined_s2": "ychaies",
+        "morph_parse": "[y|ch+ai+e|-s]",
+        "boundary_type": "Prefix | Root boundary"
+      },
+      {
+        "folio_loc": "<f7r.9,+P0>",
+        "raw_comma": "ol,choiin",
+        "joined_s2": "olchoin",
+        "morph_parse": "[bare|ol+cho|-in]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f7r.10,+P0>",
+        "raw_comma": "s,chain",
+        "joined_s2": "schain",
+        "morph_parse": "[bare|s+ch|-ain]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f7v.6,+P0>",
+        "raw_comma": "sho,daiin",
+        "joined_s2": "shodain",
+        "morph_parse": "[bare|sho+d|-ain]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f7v.8,+P0>",
+        "raw_comma": "cho,cheeody",
+        "joined_s2": "chocheody",
+        "morph_parse": "[bare|cho+che|-ody]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f8r.2,+P0>",
+        "raw_comma": "sh,kcheals",
+        "joined_s2": "shkcheals",
+        "morph_parse": "[bare|sh+kche+al|-s]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      },
+      {
+        "folio_loc": "<f8r.11,+P0>",
+        "raw_comma": "y,tchody",
+        "joined_s2": "ytchody",
+        "morph_parse": "[y|t+ch|-ody]",
+        "boundary_type": "Prefix | Root boundary"
+      },
+      {
+        "folio_loc": "<f8r.12,+P0>",
+        "raw_comma": "qo,chodaiin",
+        "joined_s2": "qochodain",
+        "morph_parse": "[qo|cho+d|-ain]",
+        "boundary_type": "Prefix | Root boundary"
+      },
+      {
+        "folio_loc": "<f8r.16,+P0>",
+        "raw_comma": "chsey,kchy",
+        "joined_s2": "chseykchy",
+        "morph_parse": "[bare|chs+ey+kch|-y]",
+        "boundary_type": "Internal Radical | Radical boundary (R1 | R2)"
+      }
+    ]
+  },
+  "decomposed_diagram_cribs": [
+    {
+      "crib": "otar.am / otaram",
+      "target_word": "otaram",
+      "loci": "f70v2.22 / f107r.11",
+      "domain": "Pisces 20° (Water)",
+      "prefix": "o",
+      "core_root": "tar",
+      "radicals": [
+        "t",
+        "ar"
+      ],
+      "suffix": "ar",
+      "formula": "[o | t + ar | -ar]"
+    },
+    {
+      "crib": "otar,al / otaral",
+      "target_word": "otaral",
+      "loci": "f70v2.23 / f107r.13",
+      "domain": "Pisces 21° (Water)",
+      "prefix": "o",
+      "core_root": "tar",
+      "radicals": [
+        "t",
+        "ar"
+      ],
+      "suffix": "al",
+      "formula": "[o | t + ar | -al]"
+    },
+    {
+      "crib": "otalar",
+      "target_word": "otalar",
+      "loci": "f70v2.24 / f107r.16",
+      "domain": "Pisces 22° (Water)",
+      "prefix": "o",
+      "core_root": "tal",
+      "radicals": [
+        "t",
+        "al"
+      ],
+      "suffix": "ar",
+      "formula": "[o | t + al | -ar]"
+    },
+    {
+      "crib": "airal",
+      "target_word": "airal",
+      "loci": "f72r3.21 / f107r.15",
+      "domain": "Cancer 19° (Water)",
+      "prefix": "bare",
+      "core_root": "air",
+      "radicals": [
+        "ai",
+        "r"
+      ],
+      "suffix": "al",
+      "formula": "[bare | ai + r | -al]"
+    },
+    {
+      "crib": "ykolairol",
+      "target_word": "ykolairol",
+      "loci": "f72r3.13 / f113r.2",
+      "domain": "Cancer 12° (Water)",
+      "prefix": "y",
+      "core_root": "kolair",
+      "radicals": [
+        "kol",
+        "air"
+      ],
+      "suffix": "ol",
+      "formula": "[y | kol + air | -ol]"
+    },
+    {
+      "crib": "oteeosy",
+      "target_word": "oteeosy",
+      "loci": "f73r.13 / f113r.3",
+      "domain": "Scorpio 12° (Water)",
+      "prefix": "o",
+      "core_root": "teos",
+      "radicals": [
+        "teo",
+        "s"
+      ],
+      "suffix": "y",
+      "formula": "[o | teo + s | -y]"
+    },
+    {
+      "crib": "opaiinam / otaiinam",
+      "target_word": "otaiinam",
+      "loci": "f72v2.18 / f107r.16",
+      "domain": "Virgo 17° (Earth)",
+      "prefix": "o",
+      "core_root": "tain",
+      "radicals": [
+        "t",
+        "ain"
+      ],
+      "suffix": "ar",
+      "formula": "[o | t + ain | -ar]"
+    },
+    {
+      "crib": "okolar",
+      "target_word": "okolar",
+      "loci": "f70v1.11 / f107r.19",
+      "domain": "Aries 10° (Fire)",
+      "prefix": "o",
+      "core_root": "kol",
+      "radicals": [
+        "k",
+        "ol"
+      ],
+      "suffix": "ar",
+      "formula": "[o | k + ol | -ar]"
+    },
+    {
+      "crib": "oly",
+      "target_word": "oly",
+      "loci": "f71r.11 / f107r.18",
+      "domain": "Aries 25° (Fire)",
+      "prefix": "bare",
+      "core_root": "oly",
+      "radicals": [
+        "ol",
+        "y"
+      ],
+      "suffix": "0",
+      "formula": "[bare | ol + y | -0]"
+    },
+    {
+      "crib": "otaldy",
+      "target_word": "otaldy",
+      "loci": "f72v3.7 / f107r.17",
+      "domain": "Leo 6° (Fire)",
+      "prefix": "o",
+      "core_root": "tal",
+      "radicals": [
+        "t",
+        "al"
+      ],
+      "suffix": "dy",
+      "formula": "[o | t + al | -dy]"
+    },
+    {
+      "crib": "otedar",
+      "target_word": "otedar",
+      "loci": "f85v2.7 / f106v.14",
+      "domain": "Rosettes / Recipe",
+      "prefix": "o",
+      "core_root": "ted",
+      "radicals": [
+        "te",
+        "d"
+      ],
+      "suffix": "ar",
+      "formula": "[o | te + d | -ar]"
+    },
+    {
+      "crib": "daraldy",
+      "target_word": "daraldy",
+      "loci": "f85v2.19 / f84r.34",
+      "domain": "Rosettes / Bio",
+      "prefix": "bare",
+      "core_root": "daral",
+      "radicals": [
+        "dar",
+        "al"
+      ],
+      "suffix": "dy",
+      "formula": "[bare | dar + al | -dy]"
+    },
+    {
+      "crib": "daldar",
+      "target_word": "daldar",
+      "loci": "f85v2.15 / f43v.10",
+      "domain": "Rosettes / Herbal",
+      "prefix": "bare",
+      "core_root": "dald",
+      "radicals": [
+        "dal",
+        "d"
+      ],
+      "suffix": "ar",
+      "formula": "[bare | dal + d | -ar]"
+    },
+    {
+      "crib": "otolaiin / otol,daiin",
+      "target_word": "otoldaiin",
+      "loci": "f85v2.6 / f89v1.13",
+      "domain": "Rosettes / Pharma",
+      "prefix": "o",
+      "core_root": "told",
+      "radicals": [
+        "tol",
+        "d"
+      ],
+      "suffix": "ain",
+      "formula": "[o | tol + d | -ain]"
+    },
+    {
+      "crib": "yteoldy / yteeoldy",
+      "target_word": "yteoldy",
+      "loci": "f99r.45 / f101r.3",
+      "domain": "Apothecary Jar",
+      "prefix": "y",
+      "core_root": "teol",
+      "radicals": [
+        "te",
+        "ol"
+      ],
+      "suffix": "dy",
+      "formula": "[y | te + ol | -dy]"
+    },
+    {
+      "crib": "oteolair",
+      "target_word": "oteolair",
+      "loci": "f99r.16 / f111r.12",
+      "domain": "Pharma Root / Recipe",
+      "prefix": "o",
+      "core_root": "teolai",
+      "radicals": [
+        "te",
+        "ol",
+        "ai"
+      ],
+      "suffix": "r",
+      "formula": "[o | te + ol + ai | -r]"
+    },
+    {
+      "crib": "opcheedey / otchedey",
+      "target_word": "otchedey",
+      "loci": "f89v2.14 / f111r.12",
+      "domain": "Pharma Root / Recipe",
+      "prefix": "o",
+      "core_root": "tched",
+      "radicals": [
+        "t",
+        "ched"
+      ],
+      "suffix": "ey",
+      "formula": "[o | t + ched | -ey]"
+    },
+    {
+      "crib": "otar . arody / par . arody",
+      "target_word": "arody",
+      "loci": "f88v.4 / f105r.6",
+      "domain": "2-Word Botanical Crib",
+      "prefix": "bare",
+      "core_root": "ar",
+      "radicals": [
+        "a",
+        "r"
+      ],
+      "suffix": "ody",
+      "formula": "[bare | a + r | -ody]"
+    }
+  ]
+}
