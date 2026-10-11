@@ -1,0 +1,1270 @@
+{
+  "astronomical_step_mutation_permutation_test": {
+    "num_folios_with_label_sequences": 7,
+    "total_adjacent_label_pairs": 123,
+    "shared_core_root": {
+      "observed": 4,
+      "null_mean": 1.402,
+      "null_sd": 1.114,
+      "z_score": 2.331,
+      "p_value": 0.041
+    },
+    "shared_3char_prefix": {
+      "observed": 1,
+      "null_mean": 1.759,
+      "null_sd": 1.268,
+      "z_score": -0.599,
+      "p_value": 0.8356
+    },
+    "shared_2char_suffix": {
+      "observed": 9,
+      "null_mean": 10.935,
+      "null_sd": 2.853,
+      "z_score": -0.678,
+      "p_value": 0.7922
+    },
+    "mean_levenshtein_distance": {
+      "observed": 4.9106,
+      "null_mean": 5.103,
+      "null_sd": 0.101,
+      "z_score": -1.903,
+      "p_value": 0.0338
+    },
+    "adjacent_shared_root_pairs": [
+      {
+        "folio": "f67r2",
+        "loc_a": "f67r2.56",
+        "word_a": "tol",
+        "loc_b": "f67r2.57",
+        "word_b": "otar",
+        "shared_root": "t"
+      },
+      {
+        "folio": "f67r2",
+        "loc_a": "f67r2.69",
+        "word_a": "s",
+        "loc_b": "f67r2.70",
+        "word_b": "osar",
+        "shared_root": "s"
+      },
+      {
+        "folio": "f68r1",
+        "loc_a": "f68r1.25",
+        "word_a": "otol",
+        "loc_b": "f68r1.26",
+        "word_b": "otor",
+        "shared_root": "t"
+      },
+      {
+        "folio": "f69r",
+        "loc_a": "f69r.12",
+        "word_a": "yt",
+        "loc_b": "f69r.13",
+        "word_b": "ytey",
+        "shared_root": "yt"
+      }
+    ]
+  },
+  "astronomical_folios_summary": [
+    {
+      "folio": "f67r1",
+      "meta": {
+        "Q": "I",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "A",
+        "H": "4"
+      },
+      "num_star_labels": 0,
+      "num_ring_spoke_lines": 15,
+      "single_char_key_lines": [
+        {
+          "loc": "f67r1.4",
+          "unit": "+P0",
+          "num_tokens": 11,
+          "single_char_ratio": 0.273,
+          "text": "cheodaiin . chekeey . s . ar . air . s . o . ar . cheey . dair . cthey"
+        }
+      ],
+      "star_labels_preview": []
+    },
+    {
+      "folio": "f67r2",
+      "meta": {
+        "Q": "I",
+        "P": "C",
+        "F": "a",
+        "B": "1",
+        "I": "A",
+        "H": "4"
+      },
+      "num_star_labels": 32,
+      "num_ring_spoke_lines": 0,
+      "single_char_key_lines": [
+        {
+          "loc": "f67r2.13",
+          "unit": "@Pb",
+          "num_tokens": 4,
+          "single_char_ratio": 0.25,
+          "text": "opodchol . s . ain . aldy"
+        },
+        {
+          "loc": "f67r2.16",
+          "unit": "@Pb",
+          "num_tokens": 4,
+          "single_char_ratio": 0.25,
+          "text": "odaeiin . okoes . oekain . y"
+        },
+        {
+          "loc": "f67r2.27",
+          "unit": "+Pb",
+          "num_tokens": 4,
+          "single_char_ratio": 0.25,
+          "text": "okeo . r . aiin . am"
+        }
+      ],
+      "star_labels_preview": [
+        "f67r2.1(@L0):ykshy",
+        "f67r2.2(&L0):ykecho",
+        "f67r2.3(&L0)::164;ey",
+        "f67r2.4(&L0):shekchy",
+        "f67r2.5(&L0):ykeody",
+        "f67r2.6(&L0):dchetay",
+        "f67r2.7(&L0):ykchy",
+        "f67r2.8(&L0):chkchdar",
+        "f67r2.9(&L0):ykar",
+        "f67r2.10(&L0):lkshy",
+        "f67r2.11(&L0):chky",
+        "f67r2.12(&L0):ykees"
+      ]
+    },
+    {
+      "folio": "f67v1",
+      "meta": {
+        "Q": "I",
+        "P": "F",
+        "F": "a",
+        "B": "1",
+        "I": "A",
+        "H": "4"
+      },
+      "num_star_labels": 12,
+      "num_ring_spoke_lines": 17,
+      "single_char_key_lines": [
+        {
+          "loc": "f67v1.23",
+          "unit": "@Ro",
+          "num_tokens": 4,
+          "single_char_ratio": 0.25,
+          "text": "ykeeey . qokeey . olokeey . s"
+        },
+        {
+          "loc": "f67v1.26",
+          "unit": "@Ro",
+          "num_tokens": 4,
+          "single_char_ratio": 0.25,
+          "text": "oeees . otechy . o . keey"
+        }
+      ],
+      "star_labels_preview": [
+        "f67v1.1(@L0):damamm",
+        "f67v1.2(&L0):dairkal",
+        "f67v1.3(&L0):okal",
+        "f67v1.4(&L0):dar",
+        "f67v1.5(&L0):okol",
+        "f67v1.6(&L0):dchesykchy",
+        "f67v1.7(&L0):ykeodar",
+        "f67v1.8(&L0):deeeoskol",
+        "f67v1.9(&L0):ockhosam",
+        "f67v1.10(&L0):kochardy",
+        "f67v1.11(&L0):ochodare",
+        "f67v1.12(&L0):ols"
+      ]
+    },
+    {
+      "folio": "f67v2",
+      "meta": {
+        "Q": "I",
+        "P": "E",
+        "F": "a",
+        "B": "1",
+        "I": "C",
+        "H": "4"
+      },
+      "num_star_labels": 5,
+      "num_ring_spoke_lines": 8,
+      "single_char_key_lines": [],
+      "star_labels_preview": [
+        "f67v2.1(@La):otchdy",
+        "f67v2.2(@La):otararain",
+        "f67v2.19(@La):soaiin",
+        "f67v2.21(@La):oko",
+        "f67v2.22(@La):okchos"
+      ]
+    },
+    {
+      "folio": "f68r1",
+      "meta": {
+        "Q": "I",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "A",
+        "H": "4"
+      },
+      "num_star_labels": 29,
+      "num_ring_spoke_lines": 1,
+      "single_char_key_lines": [],
+      "star_labels_preview": [
+        "f68r1.8(@Ls):okodaly",
+        "f68r1.9(@Ls):odchecthy",
+        "f68r1.10(@Ls):otcheody",
+        "f68r1.11(@Ls):okoaly",
+        "f68r1.12(@Ls):chocfhy",
+        "f68r1.13(@Ls):octhey",
+        "f68r1.14(@Ls):otshey",
+        "f68r1.15(@Ls):otydy",
+        "f68r1.16(@Ls):okear",
+        "f68r1.17(@Ls):cphocthy",
+        "f68r1.18(@Ls):ytchody",
+        "f68r1.19(@Ls):otys"
+      ]
+    },
+    {
+      "folio": "f68r2",
+      "meta": {
+        "Q": "I",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "A",
+        "H": "4"
+      },
+      "num_star_labels": 24,
+      "num_ring_spoke_lines": 2,
+      "single_char_key_lines": [
+        {
+          "loc": "f68r2.31",
+          "unit": "@Cc",
+          "num_tokens": 12,
+          "single_char_ratio": 0.25,
+          "text": "okey . okoaiin . okol . o . ky . oeeeo . r . okey . okeeol . cheo . o . 231;232;233;234;"
+        }
+      ],
+      "star_labels_preview": [
+        "f68r2.7(@Ls):o167;olchy",
+        "f68r2.8(@Ls):cheorol",
+        "f68r2.9(@Ls):odaiin",
+        "f68r2.10(@Ls):ochory",
+        "f68r2.11(@Ls):shdar",
+        "f68r2.12(@Ls):dchol",
+        "f68r2.13(@Ls):todaraiily",
+        "f68r2.14(@Ls):olcheesey",
+        "f68r2.15(@Ls):okchor",
+        "f68r2.16(@Ls):oteool",
+        "f68r2.17(@Ls):oydchy",
+        "f68r2.18(@Ls):okeeeody"
+      ]
+    },
+    {
+      "folio": "f68r3",
+      "meta": {
+        "Q": "I",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "A",
+        "H": "4"
+      },
+      "num_star_labels": 6,
+      "num_ring_spoke_lines": 10,
+      "single_char_key_lines": [
+        {
+          "loc": "f68r3.7",
+          "unit": "@Ri",
+          "num_tokens": 6,
+          "single_char_ratio": 0.333,
+          "text": "pchody . qokchy . dshol . d . o . tgolg"
+        }
+      ],
+      "star_labels_preview": [
+        "f68r3.10(@Ls):dchol",
+        "f68r3.11(@Ls):doaro",
+        "f68r3.12(@La):oalcheol",
+        "f68r3.13(@Ls):okos",
+        "f68r3.15(@Ls):chky",
+        "f68r3.18(@Ls):o"
+      ]
+    },
+    {
+      "folio": "f68v1",
+      "meta": {
+        "Q": "I",
+        "P": "N",
+        "F": "z",
+        "B": "1",
+        "I": "A",
+        "H": "4"
+      },
+      "num_star_labels": 0,
+      "num_ring_spoke_lines": 10,
+      "single_char_key_lines": [],
+      "star_labels_preview": []
+    },
+    {
+      "folio": "f68v2",
+      "meta": {
+        "Q": "I",
+        "P": "M",
+        "F": "z",
+        "B": "1",
+        "I": "A",
+        "H": "4"
+      },
+      "num_star_labels": 0,
+      "num_ring_spoke_lines": 13,
+      "single_char_key_lines": [],
+      "star_labels_preview": []
+    },
+    {
+      "folio": "f68v3",
+      "meta": {
+        "Q": "I",
+        "P": "L",
+        "F": "z",
+        "B": "1",
+        "I": "C",
+        "H": "4"
+      },
+      "num_star_labels": 1,
+      "num_ring_spoke_lines": 10,
+      "single_char_key_lines": [
+        {
+          "loc": "f68v3.18",
+          "unit": "+Pb",
+          "num_tokens": 4,
+          "single_char_ratio": 0.25,
+          "text": "solaiin . y . olekeey . dy"
+        }
+      ],
+      "star_labels_preview": [
+        "f68v3.15(@L0):otodol"
+      ]
+    },
+    {
+      "folio": "f69r",
+      "meta": {
+        "Q": "J",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "C",
+        "H": "4"
+      },
+      "num_star_labels": 22,
+      "num_ring_spoke_lines": 23,
+      "single_char_key_lines": [],
+      "star_labels_preview": [
+        "f69r.5(@L0):oteos",
+        "f69r.6(&L0):ar",
+        "f69r.7(&L0):oto",
+        "f69r.8(&L0):okeey",
+        "f69r.9(&L0):dcho",
+        "f69r.10(&L0):ytal",
+        "f69r.11(&L0):shy",
+        "f69r.12(&L0):yt",
+        "f69r.13(&L0):ytey",
+        "f69r.14(&L0):dair",
+        "f69r.15(&L0):okair",
+        "f69r.16(&L0):chytos"
+      ]
+    },
+    {
+      "folio": "f69v",
+      "meta": {
+        "Q": "J",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "C",
+        "H": "4"
+      },
+      "num_star_labels": 0,
+      "num_ring_spoke_lines": 31,
+      "single_char_key_lines": [],
+      "star_labels_preview": []
+    },
+    {
+      "folio": "f70r1",
+      "meta": {
+        "Q": "J",
+        "P": "D",
+        "F": "z",
+        "B": "1",
+        "I": "C",
+        "H": "4"
+      },
+      "num_star_labels": 0,
+      "num_ring_spoke_lines": 19,
+      "single_char_key_lines": [],
+      "star_labels_preview": []
+    },
+    {
+      "folio": "f70r2",
+      "meta": {
+        "Q": "J",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "C",
+        "H": "4"
+      },
+      "num_star_labels": 0,
+      "num_ring_spoke_lines": 5,
+      "single_char_key_lines": [],
+      "star_labels_preview": []
+    }
+  ],
+  "astronomical_ultra_rare_label_concordances": [
+    {
+      "astro_folio": "f67r2",
+      "astro_loc": "f67r2.1",
+      "astro_unit": "@L0",
+      "label_word": "ykshy",
+      "canon": "ykshy",
+      "global_prose_count": 2,
+      "prose_matches": [
+        {
+          "folio": "f14v",
+          "section": "H",
+          "loc": "f14v.4",
+          "unit": "+P0",
+          "word_pos": 3,
+          "word": "ykshy"
+        },
+        {
+          "folio": "f36v",
+          "section": "H",
+          "loc": "f36v.8",
+          "unit": "+P1",
+          "word_pos": 1,
+          "word": "ykshy"
+        }
+      ]
+    },
+    {
+      "astro_folio": "f67r2",
+      "astro_loc": "f67r2.53",
+      "astro_unit": "&Ls",
+      "label_word": "dchdar",
+      "canon": "dchdar",
+      "global_prose_count": 2,
+      "prose_matches": [
+        {
+          "folio": "f39r",
+          "section": "H",
+          "loc": "f39r.7",
+          "unit": "+P0",
+          "word_pos": 1,
+          "word": "dchdar"
+        },
+        {
+          "folio": "f104v",
+          "section": "S",
+          "loc": "f104v.16",
+          "unit": "+P0",
+          "word_pos": 7,
+          "word": "dchdar"
+        }
+      ]
+    },
+    {
+      "astro_folio": "f67r2",
+      "astro_loc": "f67r2.62",
+      "astro_unit": "&Ls",
+      "label_word": "otolor",
+      "canon": "otolor",
+      "global_prose_count": 1,
+      "prose_matches": [
+        {
+          "folio": "f3r",
+          "section": "H",
+          "loc": "f3r.18",
+          "unit": "+P0",
+          "word_pos": 7,
+          "word": "otolom"
+        }
+      ]
+    },
+    {
+      "astro_folio": "f67r2",
+      "astro_loc": "f67r2.70",
+      "astro_unit": "&L0",
+      "label_word": "osar",
+      "canon": "osar",
+      "global_prose_count": 2,
+      "prose_matches": [
+        {
+          "folio": "fRos",
+          "section": "C",
+          "loc": "fRos.36",
+          "unit": "@Cc",
+          "word_pos": 3,
+          "word": "osar"
+        },
+        {
+          "folio": "fRos",
+          "section": "C",
+          "loc": "fRos.47",
+          "unit": "@Cc",
+          "word_pos": 1,
+          "word": "osar"
+        }
+      ]
+    },
+    {
+      "astro_folio": "f67v1",
+      "astro_loc": "f67v1.7",
+      "astro_unit": "&L0",
+      "label_word": "ykeodar",
+      "canon": "ykeodar",
+      "global_prose_count": 2,
+      "prose_matches": [
+        {
+          "folio": "f48r",
+          "section": "H",
+          "loc": "f48r.7",
+          "unit": "+P0",
+          "word_pos": 8,
+          "word": "ykeeodam"
+        },
+        {
+          "folio": "f53r",
+          "section": "H",
+          "loc": "f53r.6",
+          "unit": "+P0",
+          "word_pos": 1,
+          "word": "ykeodar"
+        }
+      ]
+    },
+    {
+      "astro_folio": "f67v2",
+      "astro_loc": "f67v2.22",
+      "astro_unit": "@La",
+      "label_word": "okchos",
+      "canon": "okchos",
+      "global_prose_count": 1,
+      "prose_matches": [
+        {
+          "folio": "f19v",
+          "section": "H",
+          "loc": "f19v.2",
+          "unit": "+P0",
+          "word_pos": 4,
+          "word": "qokchos"
+        }
+      ]
+    },
+    {
+      "astro_folio": "f68r1",
+      "astro_loc": "f68r1.18",
+      "astro_unit": "@Ls",
+      "label_word": "ytchody",
+      "canon": "ytchody",
+      "global_prose_count": 3,
+      "prose_matches": [
+        {
+          "folio": "f45r",
+          "section": "H",
+          "loc": "f45r.6",
+          "unit": "+P0",
+          "word_pos": 4,
+          "word": "ytchody"
+        },
+        {
+          "folio": "f51v",
+          "section": "H",
+          "loc": "f51v.3",
+          "unit": "+P0",
+          "word_pos": 5,
+          "word": "ytchody"
+        },
+        {
+          "folio": "f58r",
+          "section": "S",
+          "loc": "f58r.17",
+          "unit": "+P0",
+          "word_pos": 8,
+          "word": "ytchody"
+        }
+      ]
+    },
+    {
+      "astro_folio": "f68r1",
+      "astro_loc": "f68r1.22",
+      "astro_unit": "@Ls",
+      "label_word": "ofcheor",
+      "canon": "okcheor",
+      "global_prose_count": 3,
+      "prose_matches": [
+        {
+          "folio": "f17r",
+          "section": "H",
+          "loc": "f17r.6",
+          "unit": "+P0",
+          "word_pos": 4,
+          "word": "qokcheor"
+        },
+        {
+          "folio": "f67v1",
+          "section": "A",
+          "loc": "f67v1.25",
+          "unit": "@Ro",
+          "word_pos": 3,
+          "word": "qokcheor"
+        },
+        {
+          "folio": "f93r",
+          "section": "H",
+          "loc": "f93r.12",
+          "unit": "+P0",
+          "word_pos": 3,
+          "word": "okcheor"
+        }
+      ]
+    },
+    {
+      "astro_folio": "f68r1",
+      "astro_loc": "f68r1.33",
+      "astro_unit": "@Ls",
+      "label_word": "okshor",
+      "canon": "okshor",
+      "global_prose_count": 1,
+      "prose_matches": [
+        {
+          "folio": "f22v",
+          "section": "H",
+          "loc": "f22v.9",
+          "unit": "+P0",
+          "word_pos": 1,
+          "word": "okshor"
+        }
+      ]
+    },
+    {
+      "astro_folio": "f68r1",
+      "astro_loc": "f68r1.35",
+      "astro_unit": "@Ls",
+      "label_word": "otochedy",
+      "canon": "otochedy",
+      "global_prose_count": 2,
+      "prose_matches": [
+        {
+          "folio": "f72r3",
+          "section": "Z",
+          "loc": "f72r3.14",
+          "unit": "@Cc",
+          "word_pos": 1,
+          "word": "otochedy"
+        },
+        {
+          "folio": "fRos",
+          "section": "C",
+          "loc": "fRos.7",
+          "unit": "+L0",
+          "word_pos": 1,
+          "word": "otochedy"
+        }
+      ]
+    },
+    {
+      "astro_folio": "f68r1",
+      "astro_loc": "f68r1.36",
+      "astro_unit": "@Ls",
+      "label_word": "dolchedy",
+      "canon": "dolchedy",
+      "global_prose_count": 2,
+      "prose_matches": [
+        {
+          "folio": "f77v",
+          "section": "B",
+          "loc": "f77v.38",
+          "unit": "+P0",
+          "word_pos": 5,
+          "word": "dolcheedy"
+        },
+        {
+          "folio": "f106r",
+          "section": "S",
+          "loc": "f106r.14",
+          "unit": "+P0",
+          "word_pos": 4,
+          "word": "dolchedy"
+        }
+      ]
+    },
+    {
+      "astro_folio": "f68r2",
+      "astro_loc": "f68r2.8",
+      "astro_unit": "@Ls",
+      "label_word": "cheorol",
+      "canon": "cheorol",
+      "global_prose_count": 1,
+      "prose_matches": [
+        {
+          "folio": "f88v",
+          "section": "P",
+          "loc": "f88v.10",
+          "unit": "+P0",
+          "word_pos": 2,
+          "word": "cheorol"
+        }
+      ]
+    }
+  ],
+  "f85_f86_cosmological_foldout_summary": [
+    {
+      "panel": "f85r1",
+      "meta": {
+        "Q": "N",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "T",
+        "L": "B",
+        "H": "2",
+        "C": "3"
+      },
+      "num_lines": 35,
+      "total_words": 347,
+      "labels": [],
+      "circular_rings": [],
+      "rare_diagram_label_hits": [
+        {
+          "panel": "f85r1",
+          "loc": "f85r1.28",
+          "unit": "+P0",
+          "word_pos": 9,
+          "word": "otechdy",
+          "canon": "otechdy",
+          "global_prose_count": 4,
+          "matched_labels": [
+            {
+              "folio": "f82v",
+              "section": "B",
+              "loc": "f82v.1",
+              "unit": "@Ln",
+              "word": "otechdy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": "f85r2",
+      "meta": {
+        "Q": "N",
+        "P": "C",
+        "F": "a",
+        "B": "1",
+        "I": "C",
+        "L": "B",
+        "H": "2",
+        "C": "3"
+      },
+      "num_lines": 24,
+      "total_words": 156,
+      "labels": [],
+      "circular_rings": [
+        {
+          "loc": "f85r2.1",
+          "unit": "@Cc",
+          "num_words": 35,
+          "text": "odeedy . otedy . opaees . ar . chcthy . otchdy . otody . otar . chepaiin . otodar . otodaiin . opaiin . otaiin . qopchas . otchedy . olkaiin . odar . aloees . otchedy . qotedaiin . odar . octhody . shedaiin . olaiin . olfor . daiin . ol . lkechch . os . aiin . oteedy . dar . otees . opaiin . chcphdar"
+        },
+        {
+          "loc": "f85r2.24",
+          "unit": "@Cc",
+          "num_words": 13,
+          "text": "okees . ochar . otedor . ochedy . otody . olchedy . oteedo . ar . or . airol . otees . ar . aram"
+        }
+      ],
+      "rare_diagram_label_hits": [
+        {
+          "panel": "f85r2",
+          "loc": "f85r2.1",
+          "unit": "@Cc",
+          "word_pos": 10,
+          "word": "otodar",
+          "canon": "otodar",
+          "global_prose_count": 5,
+          "matched_labels": [
+            {
+              "folio": "fRos",
+              "section": "C",
+              "loc": "fRos.102",
+              "unit": "@L0",
+              "word": "otodar"
+            }
+          ]
+        },
+        {
+          "panel": "f85r2",
+          "loc": "f85r2.1",
+          "unit": "@Cc",
+          "word_pos": 25,
+          "word": "olfor",
+          "canon": "olkor",
+          "global_prose_count": 3,
+          "matched_labels": [
+            {
+              "folio": "f101v",
+              "section": "P",
+              "loc": "f101v.15",
+              "unit": "@Lf",
+              "word": "olkor"
+            }
+          ]
+        },
+        {
+          "panel": "f85r2",
+          "loc": "f85r2.14",
+          "unit": "+Pb",
+          "word_pos": 1,
+          "word": "ytedar",
+          "canon": "ytedar",
+          "global_prose_count": 4,
+          "matched_labels": [
+            {
+              "folio": "fRos",
+              "section": "C",
+              "loc": "fRos.13",
+              "unit": "@L0",
+              "word": "ytedar"
+            },
+            {
+              "folio": "fRos",
+              "section": "C",
+              "loc": "fRos.73",
+              "unit": "@L0",
+              "word": "ytedar"
+            }
+          ]
+        },
+        {
+          "panel": "f85r2",
+          "loc": "f85r2.24",
+          "unit": "@Cc",
+          "word_pos": 2,
+          "word": "ochar",
+          "canon": "ochar",
+          "global_prose_count": 2,
+          "matched_labels": [
+            {
+              "folio": "f72v3",
+              "section": "Z",
+              "loc": "f72v3.2",
+              "unit": "@Lz",
+              "word": "ocham"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": "f86v4",
+      "meta": {
+        "Q": "N",
+        "P": "N",
+        "F": "z",
+        "B": "1",
+        "I": "C",
+        "L": "B",
+        "H": "2",
+        "C": "3"
+      },
+      "num_lines": 9,
+      "total_words": 191,
+      "labels": [],
+      "circular_rings": [
+        {
+          "loc": "f86v4.1",
+          "unit": "@Cc",
+          "num_words": 39,
+          "text": "opos . os . sheody . pchar . odsheo . qody . cheepchdy . lpchedy . olkar . shdar . dchdor . qopcher . ches . os . eeedar . odaiin . pcheodar . chdair . orarorchy . shar . opchsey . otedy . chy . chedy . sarshed . odar . sheey . scheor . al . cheefar . shetchy . qoteol . otor . shar . qoteshy . do . ofor . arar . dl"
+        },
+        {
+          "loc": "f86v4.2",
+          "unit": "@Cc",
+          "num_words": 32,
+          "text": "oeeey . o . daiin . otedaiin . otedy . oteey . chedaiin . octhedy . chy . shedaiin . chotaiin . oraiin . otodeee . ar . yteeody . oteedaraiin . shedaiin . chdar . shedy . qotedaiin . chedy . tchdy . chetdy . chedy . qotar . chedy . chckhy . daiin . otedy . seeedy . yteey . sam"
+        },
+        {
+          "loc": "f86v4.3",
+          "unit": "@Cc",
+          "num_words": 37,
+          "text": "tchey . dair . alody . shes . qeeor . or . odarchdy . chdy . orcheos . os . ain . or . oteed . chedees . oteedy . qoty . otedy . shedy . otedy . dar . shd . shy . y . schdy . chdeedy . dodar . oiin . or . oiin . sar . orchedy . qotchdy . dchdes . ar . sheody . opcho . fcheom"
+        },
+        {
+          "loc": "f86v4.4",
+          "unit": "@Cc",
+          "num_words": 34,
+          "text": "pchedar . ar . oor . otees . oes . aiir . olkeor . dar . ain . desy . doeedey . opchedy . shedaiin . dar . otedy . dain . otey . dam . otedy . daiin . chocthy . dtedair . chody . sheos . otedos . qokechy . pchdeedy . dan . ol . dol . oty . sho . pol . otoldyl"
+        }
+      ],
+      "rare_diagram_label_hits": []
+    },
+    {
+      "panel": "f86v3",
+      "meta": {
+        "Q": "N",
+        "P": "Q",
+        "F": "z",
+        "B": "1",
+        "I": "C",
+        "L": "B",
+        "H": "2",
+        "C": "3"
+      },
+      "num_lines": 36,
+      "total_words": 281,
+      "labels": [],
+      "circular_rings": [],
+      "rare_diagram_label_hits": [
+        {
+          "panel": "f86v3",
+          "loc": "f86v3.13",
+          "unit": "+Pb",
+          "word_pos": 10,
+          "word": "qokady",
+          "canon": "okady",
+          "global_prose_count": 3,
+          "matched_labels": [
+            {
+              "folio": "fRos",
+              "section": "C",
+              "loc": "fRos.89",
+              "unit": "@L0",
+              "word": "okady"
+            }
+          ]
+        },
+        {
+          "panel": "f86v3",
+          "loc": "f86v3.26",
+          "unit": "+Pb",
+          "word_pos": 8,
+          "word": "otodar",
+          "canon": "otodar",
+          "global_prose_count": 5,
+          "matched_labels": [
+            {
+              "folio": "fRos",
+              "section": "C",
+              "loc": "fRos.102",
+              "unit": "@L0",
+              "word": "otodar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": "f86v5",
+      "meta": {
+        "Q": "N",
+        "P": "P",
+        "F": "z",
+        "B": "1",
+        "I": "T",
+        "L": "B",
+        "H": "2",
+        "C": "3"
+      },
+      "num_lines": 39,
+      "total_words": 390,
+      "labels": [],
+      "circular_rings": [],
+      "rare_diagram_label_hits": [
+        {
+          "panel": "f86v5",
+          "loc": "f86v5.20",
+          "unit": "+P0",
+          "word_pos": 4,
+          "word": "ytaly",
+          "canon": "ytaly",
+          "global_prose_count": 4,
+          "matched_labels": [
+            {
+              "folio": "f72v1",
+              "section": "Z",
+              "loc": "f72v1.17",
+              "unit": "&Lz",
+              "word": "ytaly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": "f86v6",
+      "meta": {
+        "Q": "N",
+        "P": "O",
+        "F": "z",
+        "B": "1",
+        "I": "T",
+        "L": "B",
+        "H": "2",
+        "C": "3"
+      },
+      "num_lines": 45,
+      "total_words": 490,
+      "labels": [],
+      "circular_rings": [],
+      "rare_diagram_label_hits": [
+        {
+          "panel": "f86v6",
+          "loc": "f86v6.1",
+          "unit": "@P0",
+          "word_pos": 2,
+          "word": "opory",
+          "canon": "otory",
+          "global_prose_count": 2,
+          "matched_labels": [
+            {
+              "folio": "f89v2",
+              "section": "P",
+              "loc": "f89v2.11",
+              "unit": "@Lc",
+              "word": "otory"
+            },
+            {
+              "folio": "f102v2",
+              "section": "P",
+              "loc": "f102v2.8",
+              "unit": "@Lf",
+              "word": "otory"
+            }
+          ]
+        },
+        {
+          "panel": "f86v6",
+          "loc": "f86v6.1",
+          "unit": "@P0",
+          "word_pos": 9,
+          "word": "qotchdaiin",
+          "canon": "otchdain",
+          "global_prose_count": 5,
+          "matched_labels": [
+            {
+              "folio": "fRos",
+              "section": "C",
+              "loc": "fRos.120",
+              "unit": "@L0",
+              "word": "opchdain"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "f85_f86_rare_diagram_label_concordances": [
+    {
+      "panel": "f85r1",
+      "loc": "f85r1.28",
+      "unit": "+P0",
+      "word_pos": 9,
+      "word": "otechdy",
+      "canon": "otechdy",
+      "global_prose_count": 4,
+      "matched_labels": [
+        {
+          "folio": "f82v",
+          "section": "B",
+          "loc": "f82v.1",
+          "unit": "@Ln",
+          "word": "otechdy"
+        }
+      ]
+    },
+    {
+      "panel": "f85r2",
+      "loc": "f85r2.1",
+      "unit": "@Cc",
+      "word_pos": 10,
+      "word": "otodar",
+      "canon": "otodar",
+      "global_prose_count": 5,
+      "matched_labels": [
+        {
+          "folio": "fRos",
+          "section": "C",
+          "loc": "fRos.102",
+          "unit": "@L0",
+          "word": "otodar"
+        }
+      ]
+    },
+    {
+      "panel": "f85r2",
+      "loc": "f85r2.1",
+      "unit": "@Cc",
+      "word_pos": 25,
+      "word": "olfor",
+      "canon": "olkor",
+      "global_prose_count": 3,
+      "matched_labels": [
+        {
+          "folio": "f101v",
+          "section": "P",
+          "loc": "f101v.15",
+          "unit": "@Lf",
+          "word": "olkor"
+        }
+      ]
+    },
+    {
+      "panel": "f85r2",
+      "loc": "f85r2.14",
+      "unit": "+Pb",
+      "word_pos": 1,
+      "word": "ytedar",
+      "canon": "ytedar",
+      "global_prose_count": 4,
+      "matched_labels": [
+        {
+          "folio": "fRos",
+          "section": "C",
+          "loc": "fRos.13",
+          "unit": "@L0",
+          "word": "ytedar"
+        },
+        {
+          "folio": "fRos",
+          "section": "C",
+          "loc": "fRos.73",
+          "unit": "@L0",
+          "word": "ytedar"
+        }
+      ]
+    },
+    {
+      "panel": "f85r2",
+      "loc": "f85r2.24",
+      "unit": "@Cc",
+      "word_pos": 2,
+      "word": "ochar",
+      "canon": "ochar",
+      "global_prose_count": 2,
+      "matched_labels": [
+        {
+          "folio": "f72v3",
+          "section": "Z",
+          "loc": "f72v3.2",
+          "unit": "@Lz",
+          "word": "ocham"
+        }
+      ]
+    },
+    {
+      "panel": "f86v3",
+      "loc": "f86v3.13",
+      "unit": "+Pb",
+      "word_pos": 10,
+      "word": "qokady",
+      "canon": "okady",
+      "global_prose_count": 3,
+      "matched_labels": [
+        {
+          "folio": "fRos",
+          "section": "C",
+          "loc": "fRos.89",
+          "unit": "@L0",
+          "word": "okady"
+        }
+      ]
+    },
+    {
+      "panel": "f86v3",
+      "loc": "f86v3.26",
+      "unit": "+Pb",
+      "word_pos": 8,
+      "word": "otodar",
+      "canon": "otodar",
+      "global_prose_count": 5,
+      "matched_labels": [
+        {
+          "folio": "fRos",
+          "section": "C",
+          "loc": "fRos.102",
+          "unit": "@L0",
+          "word": "otodar"
+        }
+      ]
+    },
+    {
+      "panel": "f86v5",
+      "loc": "f86v5.20",
+      "unit": "+P0",
+      "word_pos": 4,
+      "word": "ytaly",
+      "canon": "ytaly",
+      "global_prose_count": 4,
+      "matched_labels": [
+        {
+          "folio": "f72v1",
+          "section": "Z",
+          "loc": "f72v1.17",
+          "unit": "&Lz",
+          "word": "ytaly"
+        }
+      ]
+    },
+    {
+      "panel": "f86v6",
+      "loc": "f86v6.1",
+      "unit": "@P0",
+      "word_pos": 2,
+      "word": "opory",
+      "canon": "otory",
+      "global_prose_count": 2,
+      "matched_labels": [
+        {
+          "folio": "f89v2",
+          "section": "P",
+          "loc": "f89v2.11",
+          "unit": "@Lc",
+          "word": "otory"
+        },
+        {
+          "folio": "f102v2",
+          "section": "P",
+          "loc": "f102v2.8",
+          "unit": "@Lf",
+          "word": "otory"
+        }
+      ]
+    },
+    {
+      "panel": "f86v6",
+      "loc": "f86v6.1",
+      "unit": "@P0",
+      "word_pos": 9,
+      "word": "qotchdaiin",
+      "canon": "otchdain",
+      "global_prose_count": 5,
+      "matched_labels": [
+        {
+          "folio": "fRos",
+          "section": "C",
+          "loc": "fRos.120",
+          "unit": "@L0",
+          "word": "opchdain"
+        }
+      ]
+    }
+  ]
+}

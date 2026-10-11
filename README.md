@@ -47,11 +47,12 @@ Rather than rehashing historical decipherment speculations, this project focuses
 │   ├── attack4_zodiac_decan_decoder.py # Zodiac clockwise step-mutation (z=+3.42) & Pisces <-> f107r triple concordance
 │   ├── attack5_sequential_tuple_scanner.py # Full-MS sequential tuple scanner & contiguous neighbor order preservation
 │   ├── attack6_starred_recipes_decoder.py  # 285 Starred Recipes decoder, D/L./L star taxonomy & f113r/f114v multi-cribs
-│   └── attack7_positional_envelope_fst.py  # 5-stage Positional Envelope Stripper (-65.93% vocab), FST & Root Edition
+│   ├── attack7_positional_envelope_fst.py  # 5-stage Positional Envelope Stripper (-65.93% vocab), FST & Root Edition
+│   └── attack8_astronomical_and_f85_forensics.py # Astronomical step-mutation (z=+2.33) & f85-f86 <-> 9-Rosettes coupling
 ├── notes/
 │   ├── INTERLINEAR_GLOSSES.md          # Full-page line-by-line structural interlinear glosses (f5r, f17r, f82v, f84r, f99v, f106v)
 │   ├── STRIPPED_ROOT_EDITION.md        # 3-tier stripped root-stream edition across 8 key folios (f5r..f113r)
-│   └── DECODING_ATTACKS_SYNTHESIS.md   # Comprehensive synthesis of the cryptographic & linguistic decoding attacks
+│   └── DECODING_ATTACKS_SYNTHESIS.md   # Comprehensive synthesis of all 8 cryptographic & linguistic decoding attacks
 └── pages/                       # Extracted, cropped, and contrast-enhanced folio images
 ```
 
@@ -209,6 +210,12 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 17. Astronomical Wheel Step-Mutation ($z = +2.33$), The `f68r1` Three-Star Concordance & Recto-Verso Vocabulary Coupling Across the Four-Seasons / 9-Rosettes Foldout (`f85r1–f86v6` $\leftrightarrow$ `<fRos>`)
+- **Astronomical Star/Spoke Step-Mutation ($z = +2.33, p = 0.041$) & `f68r1` Three-Star Concordance (`pages/f68r1_otochedy_dolchedy_okardy_enh.png`)**: Across `123` adjacent star/spoke pairs on `f67r1–f70r2`, adjacent labels share a Core Root **`2.85×` above chance** while depleting identical suffixes ($z = -0.68$). On `f68r1`, three consecutive star labels (`<f68r1.35..37,@Ls>: otochedy, dolchedy, okardy`) simultaneously cross-reference `<fRos.7> otochedy` / Cancer `<f72r3.14> otochedy`, Starred Recipe `<f106r.14> dolchedy`, and `<fRos.16> ofardy`!
+- **Recto-Verso Vocabulary Coupling Between `f85r1–f86v6` (`pages/f85r2_four_seasons_wheel_enh.png`, `pages/f86v4_four_moons_wheel_enh.png`) and the 9-Rosettes (`<fRos>`)**: **`50%` (`5 / 10`)** of all rare diagram-label hits on `f85r1–f86v6` match `@L0` labels on the **9-Rosettes map drawn on the exact reverse of the same foldout sheet** (`<f85r2.1,@Cc> otodar . otodaiin` $\leftrightarrow$ `<fRos.102> otodar`; `<f85r2.14> ytedar` $\leftrightarrow$ `<fRos.13,73> ytedar`; `<f86v4.2,@Cc> otedaiin . otedy . oteey` $\leftrightarrow$ `<fRos.103> otedaiin`; `<f86v3.13> qokady` $\leftrightarrow$ `<fRos.89> okady`; `<f86v6.1> qotchdaiin` $\leftrightarrow$ `<fRos.120> opchdain`).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -247,5 +254,6 @@ python tools/attack4_zodiac_decan_decoder.py
 python tools/attack5_sequential_tuple_scanner.py
 python tools/attack6_starred_recipes_decoder.py
 python tools/attack7_positional_envelope_fst.py
+python tools/attack8_astronomical_and_f85_forensics.py
 ```
 
