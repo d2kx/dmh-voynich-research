@@ -1,0 +1,2609 @@
+{
+  "summary": {
+    "total_zodiac_medallions": 12,
+    "total_zodiac_signs": 10,
+    "total_labeled_nymphs": 299,
+    "unique_zodiac_canons": 261,
+    "unambiguous_rare_10_zodiac_canons": 61,
+    "unambiguous_rare_5_zodiac_canons": 50
+  },
+  "water_trine_f113r_verification": {
+    "cancer_nymph": {
+      "folio": "f72r3",
+      "loc": "f72r3.13",
+      "loc_int": 13,
+      "tag": "&Lz",
+      "sign": "Cancer",
+      "sign_idx": 4,
+      "element": "Water",
+      "modality": "Cardinal",
+      "half": "Full_30",
+      "ring": 1,
+      "folio_ordinal": 12,
+      "sign_degree": 12,
+      "decan": 2,
+      "ecliptic_lon": 102,
+      "clock_deg": 300.0,
+      "raw_tokens": [
+        "ykolairol"
+      ],
+      "canons": [
+        "ykolairol"
+      ],
+      "primary_surface": "ykolairol",
+      "primary_canon": "ykolairol",
+      "core_root": "kolair",
+      "env_sig": "P:y-|S:-ol"
+    },
+    "scorpio_nymph": {
+      "folio": "f73r",
+      "loc": "f73r.13",
+      "loc_int": 13,
+      "tag": "&Lz",
+      "sign": "Scorpio",
+      "sign_idx": 8,
+      "element": "Water",
+      "modality": "Fixed",
+      "half": "Full_30",
+      "ring": 2,
+      "folio_ordinal": 12,
+      "sign_degree": 12,
+      "decan": 2,
+      "ecliptic_lon": 222,
+      "clock_deg": 105.0,
+      "raw_tokens": [
+        "oteeosy"
+      ],
+      "canons": [
+        "oteosy"
+      ],
+      "primary_surface": "oteeosy",
+      "primary_canon": "oteosy",
+      "core_root": "teos",
+      "env_sig": "V:ee/ii|N:o-|S:-y"
+    },
+    "same_element_trigon": true,
+    "same_sign_degree": true,
+    "same_folio_locus_number": true,
+    "same_decan": true,
+    "ecliptic_longitude_cancer_12": 102,
+    "ecliptic_longitude_scorpio_12": 222,
+    "exact_ecliptic_angle_deg": 120.0,
+    "aspect_type": "Partile Water-Trigon Trine (120.0 degrees, 12 deg Cancer <-> 12 deg Scorpio)",
+    "global_prose_count_ykolairol": 1,
+    "global_prose_count_oteeosy": 1
+  },
+  "dark_vs_light_split_medallions": {
+    "Dark_1_15": {
+      "nymph_count": 30,
+      "prefix_pct": {
+        "o-": 86.67,
+        "bare": 13.33
+      },
+      "top_suffix_pct": {
+        "-ar": 23.33,
+        "-ain": 13.33,
+        "-y": 10.0,
+        "-al": 10.0,
+        "0": 10.0,
+        "-aly": 6.67
+      }
+    },
+    "Light_16_30": {
+      "nymph_count": 30,
+      "prefix_pct": {
+        "o-": 86.67,
+        "bare": 10.0,
+        "y-": 3.33
+      },
+      "top_suffix_pct": {
+        "-ar": 30.0,
+        "-dy": 16.67,
+        "-y": 13.33,
+        "-ary": 10.0,
+        "-s": 6.67,
+        "-aly": 6.67
+      }
+    }
+  },
+  "internal_zodiac_duplicate_label_pairs": [
+    {
+      "canon": "ykary",
+      "nymph_a": "f70v2.3(Pisces 2deg, Water, R1, ykary)",
+      "nymph_b": "f72r3.28(Cancer 25deg, Water, R3, yfary)",
+      "same_sign": false,
+      "sign_dist": 4,
+      "same_element": true,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 23,
+      "clock_diff": 60.0
+    },
+    {
+      "canon": "otar",
+      "nymph_a": "f70v2.4(Pisces 3deg, Water, R1, otar)",
+      "nymph_b": "f70v2.22(Pisces 20deg, Water, R2, otaram)",
+      "same_sign": true,
+      "sign_dist": 0,
+      "same_element": true,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 17,
+      "clock_diff": 15.0
+    },
+    {
+      "canon": "otar",
+      "nymph_a": "f70v2.4(Pisces 3deg, Water, R1, otar)",
+      "nymph_b": "f71v.9(Taurus 8deg, Earth, R1, otar)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": true,
+      "same_ring": true,
+      "deg_diff": 5,
+      "clock_diff": 150.0
+    },
+    {
+      "canon": "otar",
+      "nymph_a": "f70v2.4(Pisces 3deg, Water, R1, otar)",
+      "nymph_b": "f71v.16(Taurus 14deg, Earth, R2, otar)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 11,
+      "clock_diff": 150.0
+    },
+    {
+      "canon": "otar",
+      "nymph_a": "f70v2.4(Pisces 3deg, Water, R1, otar)",
+      "nymph_b": "f72r2.17(Gemini 16deg, Air, R2, otar)",
+      "same_sign": false,
+      "sign_dist": 3,
+      "same_element": false,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 13,
+      "clock_diff": 120.0
+    },
+    {
+      "canon": "otar",
+      "nymph_a": "f70v2.4(Pisces 3deg, Water, R1, otar)",
+      "nymph_b": "f72r2.29(Gemini 27deg, Air, R3, otam)",
+      "same_sign": false,
+      "sign_dist": 3,
+      "same_element": false,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 24,
+      "clock_diff": 120.0
+    },
+    {
+      "canon": "otar",
+      "nymph_a": "f70v2.22(Pisces 20deg, Water, R2, otaram)",
+      "nymph_b": "f71v.9(Taurus 8deg, Earth, R1, otar)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 12,
+      "clock_diff": 135.0
+    },
+    {
+      "canon": "otar",
+      "nymph_a": "f70v2.22(Pisces 20deg, Water, R2, otaram)",
+      "nymph_b": "f71v.16(Taurus 14deg, Earth, R2, otar)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": true,
+      "same_ring": true,
+      "deg_diff": 6,
+      "clock_diff": 135.0
+    },
+    {
+      "canon": "otar",
+      "nymph_a": "f70v2.22(Pisces 20deg, Water, R2, otaram)",
+      "nymph_b": "f72r2.17(Gemini 16deg, Air, R2, otar)",
+      "same_sign": false,
+      "sign_dist": 3,
+      "same_element": false,
+      "same_modality": true,
+      "same_decan": true,
+      "same_ring": true,
+      "deg_diff": 4,
+      "clock_diff": 105.0
+    },
+    {
+      "canon": "otar",
+      "nymph_a": "f70v2.22(Pisces 20deg, Water, R2, otaram)",
+      "nymph_b": "f72r2.29(Gemini 27deg, Air, R3, otam)",
+      "same_sign": false,
+      "sign_dist": 3,
+      "same_element": false,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 7,
+      "clock_diff": 105.0
+    },
+    {
+      "canon": "otar",
+      "nymph_a": "f71v.9(Taurus 8deg, Earth, R1, otar)",
+      "nymph_b": "f71v.16(Taurus 14deg, Earth, R2, otar)",
+      "same_sign": true,
+      "sign_dist": 0,
+      "same_element": true,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 6,
+      "clock_diff": 0.0
+    },
+    {
+      "canon": "otar",
+      "nymph_a": "f71v.9(Taurus 8deg, Earth, R1, otar)",
+      "nymph_b": "f72r2.17(Gemini 16deg, Air, R2, otar)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 8,
+      "clock_diff": 30.0
+    },
+    {
+      "canon": "otar",
+      "nymph_a": "f71v.9(Taurus 8deg, Earth, R1, otar)",
+      "nymph_b": "f72r2.29(Gemini 27deg, Air, R3, otam)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 19,
+      "clock_diff": 30.0
+    },
+    {
+      "canon": "otar",
+      "nymph_a": "f71v.16(Taurus 14deg, Earth, R2, otar)",
+      "nymph_b": "f72r2.17(Gemini 16deg, Air, R2, otar)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": true,
+      "same_ring": true,
+      "deg_diff": 2,
+      "clock_diff": 30.0
+    },
+    {
+      "canon": "otar",
+      "nymph_a": "f71v.16(Taurus 14deg, Earth, R2, otar)",
+      "nymph_b": "f72r2.29(Gemini 27deg, Air, R3, otam)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 13,
+      "clock_diff": 30.0
+    },
+    {
+      "canon": "otar",
+      "nymph_a": "f72r2.17(Gemini 16deg, Air, R2, otar)",
+      "nymph_b": "f72r2.29(Gemini 27deg, Air, R3, otam)",
+      "same_sign": true,
+      "sign_dist": 0,
+      "same_element": true,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 11,
+      "clock_diff": 0.0
+    },
+    {
+      "canon": "otaldar",
+      "nymph_a": "f70v2.11(Pisces 10deg, Water, R1, otaldar)",
+      "nymph_b": "f71r.17(Aries 30deg, Fire, R2, otaldar)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 20,
+      "clock_diff": 180.0
+    },
+    {
+      "canon": "okody",
+      "nymph_a": "f70v2.12(Pisces 11deg, Water, R1, okody)",
+      "nymph_b": "f72v1.15(Libra 14deg, Air, R1, okody)",
+      "same_sign": false,
+      "sign_dist": 5,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": true,
+      "same_ring": true,
+      "deg_diff": 3,
+      "clock_diff": 52.5
+    },
+    {
+      "canon": "otaly",
+      "nymph_a": "f70v2.15(Pisces 14deg, Water, R1, otaly)",
+      "nymph_b": "f70v1.6(Aries 5deg, Fire, R1, otaly)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 9,
+      "clock_diff": 30.0
+    },
+    {
+      "canon": "otaly",
+      "nymph_a": "f70v2.15(Pisces 14deg, Water, R1, otaly)",
+      "nymph_b": "f72v3.31(Leo 29deg, Fire, R2, otaly)",
+      "same_sign": false,
+      "sign_dist": 5,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 15,
+      "clock_diff": 120.0
+    },
+    {
+      "canon": "otaly",
+      "nymph_a": "f70v2.15(Pisces 14deg, Water, R1, otaly)",
+      "nymph_b": "f73r.1(Scorpio 1deg, Water, R1, otaly)",
+      "same_sign": false,
+      "sign_dist": 4,
+      "same_element": true,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 13,
+      "clock_diff": 157.5
+    },
+    {
+      "canon": "otaly",
+      "nymph_a": "f70v2.15(Pisces 14deg, Water, R1, otaly)",
+      "nymph_b": "f73r.6(Scorpio 5deg, Water, R2, otaly)",
+      "same_sign": false,
+      "sign_dist": 4,
+      "same_element": true,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 9,
+      "clock_diff": 165.0
+    },
+    {
+      "canon": "otaly",
+      "nymph_a": "f70v1.6(Aries 5deg, Fire, R1, otaly)",
+      "nymph_b": "f72v3.31(Leo 29deg, Fire, R2, otaly)",
+      "same_sign": false,
+      "sign_dist": 4,
+      "same_element": true,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 24,
+      "clock_diff": 150.0
+    },
+    {
+      "canon": "otaly",
+      "nymph_a": "f70v1.6(Aries 5deg, Fire, R1, otaly)",
+      "nymph_b": "f73r.1(Scorpio 1deg, Water, R1, otaly)",
+      "same_sign": false,
+      "sign_dist": 5,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": true,
+      "same_ring": true,
+      "deg_diff": 4,
+      "clock_diff": 127.5
+    },
+    {
+      "canon": "otaly",
+      "nymph_a": "f70v1.6(Aries 5deg, Fire, R1, otaly)",
+      "nymph_b": "f73r.6(Scorpio 5deg, Water, R2, otaly)",
+      "same_sign": false,
+      "sign_dist": 5,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": true,
+      "same_ring": false,
+      "deg_diff": 0,
+      "clock_diff": 135.0
+    },
+    {
+      "canon": "otaly",
+      "nymph_a": "f72v3.31(Leo 29deg, Fire, R2, otaly)",
+      "nymph_b": "f73r.1(Scorpio 1deg, Water, R1, otaly)",
+      "same_sign": false,
+      "sign_dist": 3,
+      "same_element": false,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 28,
+      "clock_diff": 82.5
+    },
+    {
+      "canon": "otaly",
+      "nymph_a": "f72v3.31(Leo 29deg, Fire, R2, otaly)",
+      "nymph_b": "f73r.6(Scorpio 5deg, Water, R2, otaly)",
+      "same_sign": false,
+      "sign_dist": 3,
+      "same_element": false,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 24,
+      "clock_diff": 75.0
+    },
+    {
+      "canon": "otaly",
+      "nymph_a": "f73r.1(Scorpio 1deg, Water, R1, otaly)",
+      "nymph_b": "f73r.6(Scorpio 5deg, Water, R2, otaly)",
+      "same_sign": true,
+      "sign_dist": 0,
+      "same_element": true,
+      "same_modality": true,
+      "same_decan": true,
+      "same_ring": false,
+      "deg_diff": 4,
+      "clock_diff": 7.5
+    },
+    {
+      "canon": "arar",
+      "nymph_a": "f70v2.16(Pisces 15deg, Water, R1, otal)",
+      "nymph_b": "f71r.2(Aries 16deg, Fire, R1, oteos)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": true,
+      "same_ring": true,
+      "deg_diff": 1,
+      "clock_diff": 135.0
+    },
+    {
+      "canon": "otal",
+      "nymph_a": "f70v2.16(Pisces 15deg, Water, R1, otal)",
+      "nymph_b": "f70v1.11(Aries 10deg, Fire, R1, otal)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 5,
+      "clock_diff": 105.0
+    },
+    {
+      "canon": "otal",
+      "nymph_a": "f70v2.16(Pisces 15deg, Water, R1, otal)",
+      "nymph_b": "f70v1.16(Aries 14deg, Fire, R2, oteoeey)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": true,
+      "same_ring": false,
+      "deg_diff": 1,
+      "clock_diff": 15.0
+    },
+    {
+      "canon": "otal",
+      "nymph_a": "f70v2.16(Pisces 15deg, Water, R1, otal)",
+      "nymph_b": "f72r2.23(Gemini 21deg, Air, R3, otal)",
+      "same_sign": false,
+      "sign_dist": 3,
+      "same_element": false,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 6,
+      "clock_diff": 150.0
+    },
+    {
+      "canon": "otal",
+      "nymph_a": "f70v2.16(Pisces 15deg, Water, R1, otal)",
+      "nymph_b": "f72v3.30(Leo 28deg, Fire, R2, opal)",
+      "same_sign": false,
+      "sign_dist": 5,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 13,
+      "clock_diff": 60.0
+    },
+    {
+      "canon": "otal",
+      "nymph_a": "f70v2.16(Pisces 15deg, Water, R1, otal)",
+      "nymph_b": "f73r.28(Scorpio 26deg, Water, R3, otal)",
+      "same_sign": false,
+      "sign_dist": 4,
+      "same_element": true,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 11,
+      "clock_diff": 15.0
+    },
+    {
+      "canon": "otal",
+      "nymph_a": "f70v1.11(Aries 10deg, Fire, R1, otal)",
+      "nymph_b": "f70v1.16(Aries 14deg, Fire, R2, oteoeey)",
+      "same_sign": true,
+      "sign_dist": 0,
+      "same_element": true,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 4,
+      "clock_diff": 120.0
+    },
+    {
+      "canon": "otal",
+      "nymph_a": "f70v1.11(Aries 10deg, Fire, R1, otal)",
+      "nymph_b": "f72r2.23(Gemini 21deg, Air, R3, otal)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 11,
+      "clock_diff": 45.0
+    },
+    {
+      "canon": "otal",
+      "nymph_a": "f70v1.11(Aries 10deg, Fire, R1, otal)",
+      "nymph_b": "f72v3.30(Leo 28deg, Fire, R2, opal)",
+      "same_sign": false,
+      "sign_dist": 4,
+      "same_element": true,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 18,
+      "clock_diff": 45.0
+    },
+    {
+      "canon": "otal",
+      "nymph_a": "f70v1.11(Aries 10deg, Fire, R1, otal)",
+      "nymph_b": "f73r.28(Scorpio 26deg, Water, R3, otal)",
+      "same_sign": false,
+      "sign_dist": 5,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 16,
+      "clock_diff": 90.0
+    },
+    {
+      "canon": "otal",
+      "nymph_a": "f70v1.16(Aries 14deg, Fire, R2, oteoeey)",
+      "nymph_b": "f72r2.23(Gemini 21deg, Air, R3, otal)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 7,
+      "clock_diff": 165.0
+    },
+    {
+      "canon": "otal",
+      "nymph_a": "f70v1.16(Aries 14deg, Fire, R2, oteoeey)",
+      "nymph_b": "f72v3.30(Leo 28deg, Fire, R2, opal)",
+      "same_sign": false,
+      "sign_dist": 4,
+      "same_element": true,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 14,
+      "clock_diff": 75.0
+    },
+    {
+      "canon": "otal",
+      "nymph_a": "f70v1.16(Aries 14deg, Fire, R2, oteoeey)",
+      "nymph_b": "f73r.28(Scorpio 26deg, Water, R3, otal)",
+      "same_sign": false,
+      "sign_dist": 5,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 12,
+      "clock_diff": 30.0
+    },
+    {
+      "canon": "otal",
+      "nymph_a": "f72r2.23(Gemini 21deg, Air, R3, otal)",
+      "nymph_b": "f72v3.30(Leo 28deg, Fire, R2, opal)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": true,
+      "same_ring": false,
+      "deg_diff": 7,
+      "clock_diff": 90.0
+    },
+    {
+      "canon": "otal",
+      "nymph_a": "f72r2.23(Gemini 21deg, Air, R3, otal)",
+      "nymph_b": "f73r.28(Scorpio 26deg, Water, R3, otal)",
+      "same_sign": false,
+      "sign_dist": 5,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": true,
+      "same_ring": true,
+      "deg_diff": 5,
+      "clock_diff": 135.0
+    },
+    {
+      "canon": "otal",
+      "nymph_a": "f72v3.30(Leo 28deg, Fire, R2, opal)",
+      "nymph_b": "f73r.28(Scorpio 26deg, Water, R3, otal)",
+      "same_sign": false,
+      "sign_dist": 3,
+      "same_element": false,
+      "same_modality": true,
+      "same_decan": true,
+      "same_ring": false,
+      "deg_diff": 2,
+      "clock_diff": 45.0
+    },
+    {
+      "canon": "okeoly",
+      "nymph_a": "f70v2.18(Pisces 17deg, Water, R1, okeoly)",
+      "nymph_b": "f72v1.5(Libra 4deg, Air, R1, okeoly)",
+      "same_sign": false,
+      "sign_dist": 5,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 13,
+      "clock_diff": 105.0
+    },
+    {
+      "canon": "okeoly",
+      "nymph_a": "f70v2.18(Pisces 17deg, Water, R1, okeoly)",
+      "nymph_b": "f72v1.9(Libra 8deg, Air, R1, okeeoly)",
+      "same_sign": false,
+      "sign_dist": 5,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 9,
+      "clock_diff": 180.0
+    },
+    {
+      "canon": "okeoly",
+      "nymph_a": "f70v2.18(Pisces 17deg, Water, R1, okeoly)",
+      "nymph_b": "f73v.21(Sagittarius 20deg, Fire, R2, qokeoly)",
+      "same_sign": false,
+      "sign_dist": 3,
+      "same_element": false,
+      "same_modality": true,
+      "same_decan": true,
+      "same_ring": false,
+      "deg_diff": 3,
+      "clock_diff": 60.0
+    },
+    {
+      "canon": "okeoly",
+      "nymph_a": "f72v1.5(Libra 4deg, Air, R1, okeoly)",
+      "nymph_b": "f72v1.9(Libra 8deg, Air, R1, okeeoly)",
+      "same_sign": true,
+      "sign_dist": 0,
+      "same_element": true,
+      "same_modality": true,
+      "same_decan": true,
+      "same_ring": true,
+      "deg_diff": 4,
+      "clock_diff": 75.0
+    },
+    {
+      "canon": "okeoly",
+      "nymph_a": "f72v1.5(Libra 4deg, Air, R1, okeoly)",
+      "nymph_b": "f73v.21(Sagittarius 20deg, Fire, R2, qokeoly)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 16,
+      "clock_diff": 45.0
+    },
+    {
+      "canon": "okeoly",
+      "nymph_a": "f72v1.9(Libra 8deg, Air, R1, okeeoly)",
+      "nymph_b": "f73v.21(Sagittarius 20deg, Fire, R2, qokeoly)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 12,
+      "clock_diff": 120.0
+    },
+    {
+      "canon": "okydy",
+      "nymph_a": "f70v2.19(Pisces 18deg, Water, R1, okydy)",
+      "nymph_b": "f72v1.24(Libra 22deg, Air, R2, okydy)",
+      "same_sign": false,
+      "sign_dist": 5,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 4,
+      "clock_diff": 60.0
+    },
+    {
+      "canon": "otalar",
+      "nymph_a": "f70v2.24(Pisces 22deg, Water, R2, otalar)",
+      "nymph_b": "f70v2.25(Pisces 23deg, Water, R2, otalam)",
+      "same_sign": true,
+      "sign_dist": 0,
+      "same_element": true,
+      "same_modality": true,
+      "same_decan": true,
+      "same_ring": true,
+      "deg_diff": 1,
+      "clock_diff": 45.0
+    },
+    {
+      "canon": "otalar",
+      "nymph_a": "f70v2.24(Pisces 22deg, Water, R2, otalar)",
+      "nymph_b": "f71v.10(Taurus 9deg, Earth, R1, opalar)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 13,
+      "clock_diff": 150.0
+    },
+    {
+      "canon": "otalar",
+      "nymph_a": "f70v2.25(Pisces 23deg, Water, R2, otalam)",
+      "nymph_b": "f71v.10(Taurus 9deg, Earth, R1, opalar)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 14,
+      "clock_diff": 165.0
+    },
+    {
+      "canon": "okarar",
+      "nymph_a": "f70v2.27(Pisces 25deg, Water, R2, okaram)",
+      "nymph_b": "f72r2.3(Gemini 3deg, Air, R1, okaram)",
+      "same_sign": false,
+      "sign_dist": 3,
+      "same_element": false,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 22,
+      "clock_diff": 120.0
+    },
+    {
+      "canon": "otalain",
+      "nymph_a": "f70v1.14(Aries 12deg, Fire, R2, otalaiin)",
+      "nymph_b": "f71v.15(Taurus 13deg, Earth, R2, otalaiin)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": true,
+      "same_ring": true,
+      "deg_diff": 1,
+      "clock_diff": 90.0
+    },
+    {
+      "canon": "araly",
+      "nymph_a": "f70v1.15(Aries 13deg, Fire, R2, oteo)",
+      "nymph_b": "f71v.9(Taurus 8deg, Earth, R1, otar)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 5,
+      "clock_diff": 105.0
+    },
+    {
+      "canon": "okealar",
+      "nymph_a": "f70v1.16(Aries 14deg, Fire, R2, oteoeey)",
+      "nymph_b": "f72r2.5(Gemini 5deg, Air, R1, okealar)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 9,
+      "clock_diff": 120.0
+    },
+    {
+      "canon": "char",
+      "nymph_a": "f71v.2(Taurus 1deg, Earth, R1, char)",
+      "nymph_b": "f72r1.7(Taurus 21deg, Earth, R1, char)",
+      "same_sign": true,
+      "sign_dist": 0,
+      "same_element": true,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 20,
+      "clock_diff": 150.0
+    },
+    {
+      "canon": "otain",
+      "nymph_a": "f71v.7(Taurus 6deg, Earth, R1, otaiin)",
+      "nymph_b": "f72r1.9(Taurus 23deg, Earth, R1, otaiin)",
+      "same_sign": true,
+      "sign_dist": 0,
+      "same_element": true,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 17,
+      "clock_diff": 60.0
+    },
+    {
+      "canon": "otain",
+      "nymph_a": "f71v.7(Taurus 6deg, Earth, R1, otaiin)",
+      "nymph_b": "f73r.19(Scorpio 18deg, Water, R2, opaiin)",
+      "same_sign": false,
+      "sign_dist": 6,
+      "same_element": false,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 12,
+      "clock_diff": 172.5
+    },
+    {
+      "canon": "otain",
+      "nymph_a": "f72r1.9(Taurus 23deg, Earth, R1, otaiin)",
+      "nymph_b": "f73r.19(Scorpio 18deg, Water, R2, opaiin)",
+      "same_sign": false,
+      "sign_dist": 6,
+      "same_element": false,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 5,
+      "clock_diff": 112.5
+    },
+    {
+      "canon": "shar",
+      "nymph_a": "f71v.16(Taurus 14deg, Earth, R2, otar)",
+      "nymph_b": "f72r3.30(Cancer 27deg, Water, R3, ytoar)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 13,
+      "clock_diff": 75.0
+    },
+    {
+      "canon": "okalar",
+      "nymph_a": "f72r1.5(Taurus 19deg, Earth, R1, okalam)",
+      "nymph_b": "f72r2.8(Gemini 7deg, Air, R2, okalar)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 12,
+      "clock_diff": 60.0
+    },
+    {
+      "canon": "okalar",
+      "nymph_a": "f72r1.5(Taurus 19deg, Earth, R1, okalam)",
+      "nymph_b": "f72r3.22(Cancer 20deg, Water, R2, okalar)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": true,
+      "same_ring": false,
+      "deg_diff": 1,
+      "clock_diff": 165.0
+    },
+    {
+      "canon": "okalar",
+      "nymph_a": "f72r2.8(Gemini 7deg, Air, R2, okalar)",
+      "nymph_b": "f72r3.22(Cancer 20deg, Water, R2, okalar)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 13,
+      "clock_diff": 135.0
+    },
+    {
+      "canon": "otaraldy",
+      "nymph_a": "f72r1.8(Taurus 22deg, Earth, R1, otaraldy)",
+      "nymph_b": "f72r2.7(Gemini 6deg, Air, R2, otaraldy)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 16,
+      "clock_diff": 165.0
+    },
+    {
+      "canon": "okey",
+      "nymph_a": "f72r1.16(Taurus 29deg, Earth, R2, okeeyary)",
+      "nymph_b": "f72r2.12(Gemini 11deg, Air, R2, okeeyary)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 18,
+      "clock_diff": 60.0
+    },
+    {
+      "canon": "okey",
+      "nymph_a": "f72r1.16(Taurus 29deg, Earth, R2, okeeyary)",
+      "nymph_b": "f72v3.5(Leo 4deg, Fire, R1, okey)",
+      "same_sign": false,
+      "sign_dist": 3,
+      "same_element": false,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 25,
+      "clock_diff": 120.0
+    },
+    {
+      "canon": "okey",
+      "nymph_a": "f72r1.16(Taurus 29deg, Earth, R2, okeeyary)",
+      "nymph_b": "f72v1.25(Libra 23deg, Air, R2, okeey)",
+      "same_sign": false,
+      "sign_dist": 5,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": true,
+      "same_ring": true,
+      "deg_diff": 6,
+      "clock_diff": 135.0
+    },
+    {
+      "canon": "okey",
+      "nymph_a": "f72r1.16(Taurus 29deg, Earth, R2, okeeyary)",
+      "nymph_b": "f73r.10(Scorpio 9deg, Water, R2, okeey)",
+      "same_sign": false,
+      "sign_dist": 6,
+      "same_element": false,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 20,
+      "clock_diff": 90.0
+    },
+    {
+      "canon": "okey",
+      "nymph_a": "f72r2.12(Gemini 11deg, Air, R2, okeeyary)",
+      "nymph_b": "f72v3.5(Leo 4deg, Fire, R1, okey)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 7,
+      "clock_diff": 60.0
+    },
+    {
+      "canon": "okey",
+      "nymph_a": "f72r2.12(Gemini 11deg, Air, R2, okeeyary)",
+      "nymph_b": "f72v1.25(Libra 23deg, Air, R2, okeey)",
+      "same_sign": false,
+      "sign_dist": 4,
+      "same_element": true,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 12,
+      "clock_diff": 75.0
+    },
+    {
+      "canon": "okey",
+      "nymph_a": "f72r2.12(Gemini 11deg, Air, R2, okeeyary)",
+      "nymph_b": "f73r.10(Scorpio 9deg, Water, R2, okeey)",
+      "same_sign": false,
+      "sign_dist": 5,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 2,
+      "clock_diff": 30.0
+    },
+    {
+      "canon": "okey",
+      "nymph_a": "f72v3.5(Leo 4deg, Fire, R1, okey)",
+      "nymph_b": "f72v1.25(Libra 23deg, Air, R2, okeey)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 19,
+      "clock_diff": 15.0
+    },
+    {
+      "canon": "okey",
+      "nymph_a": "f72v3.5(Leo 4deg, Fire, R1, okey)",
+      "nymph_b": "f73r.10(Scorpio 9deg, Water, R2, okeey)",
+      "same_sign": false,
+      "sign_dist": 3,
+      "same_element": false,
+      "same_modality": true,
+      "same_decan": true,
+      "same_ring": false,
+      "deg_diff": 5,
+      "clock_diff": 30.0
+    },
+    {
+      "canon": "okey",
+      "nymph_a": "f72v1.25(Libra 23deg, Air, R2, okeey)",
+      "nymph_b": "f73r.10(Scorpio 9deg, Water, R2, okeey)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 14,
+      "clock_diff": 45.0
+    },
+    {
+      "canon": "okeyary",
+      "nymph_a": "f72r1.16(Taurus 29deg, Earth, R2, okeeyary)",
+      "nymph_b": "f72r2.12(Gemini 11deg, Air, R2, okeeyary)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 18,
+      "clock_diff": 60.0
+    },
+    {
+      "canon": "okal",
+      "nymph_a": "f72r2.9(Gemini 8deg, Air, R2, okal)",
+      "nymph_b": "f72r2.11(Gemini 10deg, Air, R2, okal)",
+      "same_sign": true,
+      "sign_dist": 0,
+      "same_element": true,
+      "same_modality": true,
+      "same_decan": true,
+      "same_ring": true,
+      "deg_diff": 2,
+      "clock_diff": 37.5
+    },
+    {
+      "canon": "okal",
+      "nymph_a": "f72r2.9(Gemini 8deg, Air, R2, okal)",
+      "nymph_b": "f72v1.16(Libra 15deg, Air, R1, okal)",
+      "same_sign": false,
+      "sign_dist": 4,
+      "same_element": true,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 7,
+      "clock_diff": 157.5
+    },
+    {
+      "canon": "okal",
+      "nymph_a": "f72r2.9(Gemini 8deg, Air, R2, okal)",
+      "nymph_b": "f73v.27(Sagittarius 25deg, Fire, R3, okal)",
+      "same_sign": false,
+      "sign_dist": 6,
+      "same_element": false,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 17,
+      "clock_diff": 82.5
+    },
+    {
+      "canon": "okal",
+      "nymph_a": "f72r2.11(Gemini 10deg, Air, R2, okal)",
+      "nymph_b": "f72v1.16(Libra 15deg, Air, R1, okal)",
+      "same_sign": false,
+      "sign_dist": 4,
+      "same_element": true,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 5,
+      "clock_diff": 120.0
+    },
+    {
+      "canon": "okal",
+      "nymph_a": "f72r2.11(Gemini 10deg, Air, R2, okal)",
+      "nymph_b": "f73v.27(Sagittarius 25deg, Fire, R3, okal)",
+      "same_sign": false,
+      "sign_dist": 6,
+      "same_element": false,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 15,
+      "clock_diff": 45.0
+    },
+    {
+      "canon": "okal",
+      "nymph_a": "f72v1.16(Libra 15deg, Air, R1, okal)",
+      "nymph_b": "f73v.27(Sagittarius 25deg, Fire, R3, okal)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 10,
+      "clock_diff": 75.0
+    },
+    {
+      "canon": "okaly",
+      "nymph_a": "f72r2.10(Gemini 9deg, Air, R2, okaly)",
+      "nymph_b": "f72r2.18(Gemini 17deg, Air, R2, okaly)",
+      "same_sign": true,
+      "sign_dist": 0,
+      "same_element": true,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 8,
+      "clock_diff": 142.5
+    },
+    {
+      "canon": "okaly",
+      "nymph_a": "f72r2.10(Gemini 9deg, Air, R2, okaly)",
+      "nymph_b": "f72v3.9(Leo 8deg, Fire, R1, okaly)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": true,
+      "same_ring": false,
+      "deg_diff": 1,
+      "clock_diff": 52.5
+    },
+    {
+      "canon": "okaly",
+      "nymph_a": "f72r2.10(Gemini 9deg, Air, R2, okaly)",
+      "nymph_b": "f72v3.17(Leo 16deg, Fire, R1, okaly)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 7,
+      "clock_diff": 112.5
+    },
+    {
+      "canon": "okaly",
+      "nymph_a": "f72r2.18(Gemini 17deg, Air, R2, okaly)",
+      "nymph_b": "f72v3.9(Leo 8deg, Fire, R1, okaly)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 9,
+      "clock_diff": 165.0
+    },
+    {
+      "canon": "okaly",
+      "nymph_a": "f72r2.18(Gemini 17deg, Air, R2, okaly)",
+      "nymph_b": "f72v3.17(Leo 16deg, Fire, R1, okaly)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": true,
+      "same_ring": false,
+      "deg_diff": 1,
+      "clock_diff": 30.0
+    },
+    {
+      "canon": "okaly",
+      "nymph_a": "f72v3.9(Leo 8deg, Fire, R1, okaly)",
+      "nymph_b": "f72v3.17(Leo 16deg, Fire, R1, okaly)",
+      "same_sign": true,
+      "sign_dist": 0,
+      "same_element": true,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 8,
+      "clock_diff": 165.0
+    },
+    {
+      "canon": "okar",
+      "nymph_a": "f72r2.25(Gemini 23deg, Air, R3, okam)",
+      "nymph_b": "f72v3.4(Leo 3deg, Fire, R1, okam)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 20,
+      "clock_diff": 30.0
+    },
+    {
+      "canon": "okaldy",
+      "nymph_a": "f72r2.27(Gemini 25deg, Air, R3, okaldy)",
+      "nymph_b": "f72v3.18(Leo 17deg, Fire, R1, okaldy)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 8,
+      "clock_diff": 165.0
+    },
+    {
+      "canon": "ytain",
+      "nymph_a": "f72r3.8(Cancer 7deg, Water, R1, ypaiin)",
+      "nymph_b": "f73v.14(Sagittarius 13deg, Fire, R2, ypaiin)",
+      "same_sign": false,
+      "sign_dist": 5,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 6,
+      "clock_diff": 15.0
+    },
+    {
+      "canon": "oeodain",
+      "nymph_a": "f72r3.10(Cancer 9deg, Water, R1, oeeodaiin)",
+      "nymph_b": "f72v2.3(Virgo 2deg, Earth, R1, oeeodaiin)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": true,
+      "same_ring": true,
+      "deg_diff": 7,
+      "clock_diff": 135.0
+    },
+    {
+      "canon": "oesain",
+      "nymph_a": "f72r3.17(Cancer 15deg, Water, R2, oeeesaiin)",
+      "nymph_b": "f72v3.28(Leo 26deg, Fire, R2, oeesaiin)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 11,
+      "clock_diff": 120.0
+    },
+    {
+      "canon": "otey",
+      "nymph_a": "f72v3.14(Leo 13deg, Fire, R1, oteey)",
+      "nymph_b": "f73r.21(Scorpio 20deg, Water, R2, otey)",
+      "same_sign": false,
+      "sign_dist": 3,
+      "same_element": false,
+      "same_modality": true,
+      "same_decan": true,
+      "same_ring": false,
+      "deg_diff": 7,
+      "clock_diff": 120.0
+    },
+    {
+      "canon": "okeol",
+      "nymph_a": "f72v3.16(Leo 15deg, Fire, R1, okeeol)",
+      "nymph_b": "f72v1.32(Libra 30deg, Air, R2, okeol)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 15,
+      "clock_diff": 0.0
+    },
+    {
+      "canon": "oedy",
+      "nymph_a": "f72v3.25(Leo 23deg, Fire, R2, oeedy)",
+      "nymph_b": "f72v2.23(Virgo 21deg, Earth, R2, oeedy)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": true,
+      "same_ring": true,
+      "deg_diff": 2,
+      "clock_diff": 45.0
+    },
+    {
+      "canon": "okary",
+      "nymph_a": "f72v3.27(Leo 25deg, Fire, R2, okary)",
+      "nymph_b": "f73r.23(Scorpio 21deg, Water, R3, okary)",
+      "same_sign": false,
+      "sign_dist": 3,
+      "same_element": false,
+      "same_modality": true,
+      "same_decan": true,
+      "same_ring": false,
+      "deg_diff": 4,
+      "clock_diff": 135.0
+    },
+    {
+      "canon": "okeorar",
+      "nymph_a": "f72v2.4(Virgo 3deg, Earth, R1, okeoram)",
+      "nymph_b": "f72v2.32(Virgo 30deg, Earth, R2, okeorar)",
+      "same_sign": true,
+      "sign_dist": 0,
+      "same_element": true,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 27,
+      "clock_diff": 67.5
+    },
+    {
+      "canon": "cheoldy",
+      "nymph_a": "f72v2.9(Virgo 8deg, Earth, R1, cheoldy)",
+      "nymph_b": "f72v2.19(Virgo 18deg, Earth, R1, cheoldy)",
+      "same_sign": true,
+      "sign_dist": 0,
+      "same_element": true,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 10,
+      "clock_diff": 165.0
+    },
+    {
+      "canon": "yteody",
+      "nymph_a": "f72v2.14(Virgo 13deg, Earth, R1, yteody)",
+      "nymph_b": "f73r.4(Scorpio 4deg, Water, R1, yteeody)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 9,
+      "clock_diff": 165.0
+    },
+    {
+      "canon": "okeody",
+      "nymph_a": "f72v2.15(Virgo 14deg, Earth, R1, okeody)",
+      "nymph_b": "f73r.7(Scorpio 6deg, Water, R2, okeody)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 8,
+      "clock_diff": 135.0
+    },
+    {
+      "canon": "okeody",
+      "nymph_a": "f72v2.15(Virgo 14deg, Earth, R1, okeody)",
+      "nymph_b": "f73r.24(Scorpio 22deg, Water, R3, okeeody)",
+      "same_sign": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 8,
+      "clock_diff": 180.0
+    },
+    {
+      "canon": "okeody",
+      "nymph_a": "f72v2.15(Virgo 14deg, Earth, R1, okeody)",
+      "nymph_b": "f73v.6(Sagittarius 5deg, Fire, R2, okeody)",
+      "same_sign": false,
+      "sign_dist": 3,
+      "same_element": false,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 9,
+      "clock_diff": 90.0
+    },
+    {
+      "canon": "okeody",
+      "nymph_a": "f73r.7(Scorpio 6deg, Water, R2, okeody)",
+      "nymph_b": "f73r.24(Scorpio 22deg, Water, R3, okeeody)",
+      "same_sign": true,
+      "sign_dist": 0,
+      "same_element": true,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 16,
+      "clock_diff": 45.0
+    },
+    {
+      "canon": "okeody",
+      "nymph_a": "f73r.7(Scorpio 6deg, Water, R2, okeody)",
+      "nymph_b": "f73v.6(Sagittarius 5deg, Fire, R2, okeody)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": true,
+      "same_ring": true,
+      "deg_diff": 1,
+      "clock_diff": 45.0
+    },
+    {
+      "canon": "okeody",
+      "nymph_a": "f73r.24(Scorpio 22deg, Water, R3, okeeody)",
+      "nymph_b": "f73v.6(Sagittarius 5deg, Fire, R2, okeody)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 17,
+      "clock_diff": 90.0
+    },
+    {
+      "canon": "okeor",
+      "nymph_a": "f72v2.25(Virgo 23deg, Earth, R2, okeeom)",
+      "nymph_b": "f73v.10(Sagittarius 9deg, Fire, R2, okeor)",
+      "same_sign": false,
+      "sign_dist": 3,
+      "same_element": false,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 14,
+      "clock_diff": 30.0
+    },
+    {
+      "canon": "ykedy",
+      "nymph_a": "f72v1.21(Libra 20deg, Air, R1, ykeedy)",
+      "nymph_b": "f73r.9(Scorpio 8deg, Water, R2, ykeedy)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 12,
+      "clock_diff": 135.0
+    },
+    {
+      "canon": "okedy",
+      "nymph_a": "f72v1.28(Libra 26deg, Air, R2, okedy)",
+      "nymph_b": "f73r.11(Scorpio 10deg, Water, R2, okeedy)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": true,
+      "deg_diff": 16,
+      "clock_diff": 30.0
+    },
+    {
+      "canon": "otedy",
+      "nymph_a": "f73r.3(Scorpio 3deg, Water, R1, otedy)",
+      "nymph_b": "f73v.3(Sagittarius 3deg, Fire, R1, oteedy)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": true,
+      "same_ring": true,
+      "deg_diff": 0,
+      "clock_diff": 0.0
+    },
+    {
+      "canon": "otedy",
+      "nymph_a": "f73r.3(Scorpio 3deg, Water, R1, otedy)",
+      "nymph_b": "f73v.23(Sagittarius 21deg, Fire, R3, otedy)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 18,
+      "clock_diff": 90.0
+    },
+    {
+      "canon": "otedy",
+      "nymph_a": "f73v.3(Sagittarius 3deg, Fire, R1, oteedy)",
+      "nymph_b": "f73v.23(Sagittarius 21deg, Fire, R3, otedy)",
+      "same_sign": true,
+      "sign_dist": 0,
+      "same_element": true,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 18,
+      "clock_diff": 90.0
+    },
+    {
+      "canon": "okeos",
+      "nymph_a": "f73r.20(Scorpio 19deg, Water, R2, okeos)",
+      "nymph_b": "f73r.32(Scorpio 30deg, Water, R3, okeeos)",
+      "same_sign": true,
+      "sign_dist": 0,
+      "same_element": true,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 11,
+      "clock_diff": 30.0
+    },
+    {
+      "canon": "okeos",
+      "nymph_a": "f73r.20(Scorpio 19deg, Water, R2, okeos)",
+      "nymph_b": "f73v.19(Sagittarius 18deg, Fire, R2, okeos)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": true,
+      "same_ring": true,
+      "deg_diff": 1,
+      "clock_diff": 60.0
+    },
+    {
+      "canon": "okeos",
+      "nymph_a": "f73r.32(Scorpio 30deg, Water, R3, okeeos)",
+      "nymph_b": "f73v.19(Sagittarius 18deg, Fire, R2, okeos)",
+      "same_sign": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 12,
+      "clock_diff": 90.0
+    },
+    {
+      "canon": "oteody",
+      "nymph_a": "f73v.2(Sagittarius 2deg, Fire, R1, oteody)",
+      "nymph_b": "f73v.13(Sagittarius 12deg, Fire, R2, oteody)",
+      "same_sign": true,
+      "sign_dist": 0,
+      "same_element": true,
+      "same_modality": true,
+      "same_decan": false,
+      "same_ring": false,
+      "deg_diff": 10,
+      "clock_diff": 97.5
+    },
+    {
+      "canon": "ykeody",
+      "nymph_a": "f73v.12(Sagittarius 11deg, Fire, R2, ykeody)",
+      "nymph_b": "f73v.18(Sagittarius 17deg, Fire, R2, ykeeody)",
+      "same_sign": true,
+      "sign_dist": 0,
+      "same_element": true,
+      "same_modality": true,
+      "same_decan": true,
+      "same_ring": true,
+      "deg_diff": 6,
+      "clock_diff": 150.0
+    },
+    {
+      "canon": "ykey",
+      "nymph_a": "f73v.28(Sagittarius 26deg, Fire, R3, ykey)",
+      "nymph_b": "f73v.31(Sagittarius 29deg, Fire, R3, ykey)",
+      "same_sign": true,
+      "sign_dist": 0,
+      "same_element": true,
+      "same_modality": true,
+      "same_decan": true,
+      "same_ring": true,
+      "deg_diff": 3,
+      "clock_diff": 120.0
+    }
+  ],
+  "prose_cooccurrence_permutation_rare_5": {
+    "same_folio": {
+      "observed": 1,
+      "expected_mean": 1.2,
+      "expected_std": 1.04,
+      "enrichment_ratio": 0.83,
+      "z_score": -0.19,
+      "p_value": 0.7166
+    },
+    "same_sign": {
+      "observed": 1,
+      "expected_mean": 1.35,
+      "expected_std": 1.1,
+      "enrichment_ratio": 0.74,
+      "z_score": -0.32,
+      "p_value": 0.7604
+    },
+    "contiguous_same_sign_deg_le_2": {
+      "observed": 0,
+      "expected_mean": 0.18,
+      "expected_std": 0.42,
+      "enrichment_ratio": 0.0,
+      "z_score": -0.43,
+      "p_value": 1.0
+    },
+    "exact_or_adj_deg_diff_le_1": {
+      "observed": 1,
+      "expected_mean": 1.26,
+      "expected_std": 1.06,
+      "enrichment_ratio": 0.79,
+      "z_score": -0.25,
+      "p_value": 0.7352
+    },
+    "exact_or_adj_loc_diff_le_1": {
+      "observed": 1,
+      "expected_mean": 1.23,
+      "expected_std": 1.05,
+      "enrichment_ratio": 0.81,
+      "z_score": -0.22,
+      "p_value": 0.7248
+    },
+    "exact_or_adj_ord_diff_le_1": {
+      "observed": 1,
+      "expected_mean": 1.31,
+      "expected_std": 1.07,
+      "enrichment_ratio": 0.76,
+      "z_score": -0.29,
+      "p_value": 0.75
+    },
+    "same_element_trigon": {
+      "observed": 4,
+      "expected_mean": 3.33,
+      "expected_std": 1.58,
+      "enrichment_ratio": 1.2,
+      "z_score": 0.43,
+      "p_value": 0.4314
+    },
+    "cross_sign_trine_sign_dist_4": {
+      "observed": 3,
+      "expected_mean": 1.98,
+      "expected_std": 1.28,
+      "enrichment_ratio": 1.52,
+      "z_score": 0.8,
+      "p_value": 0.3194
+    },
+    "same_ring": {
+      "observed": 4,
+      "expected_mean": 5.77,
+      "expected_std": 1.84,
+      "enrichment_ratio": 0.69,
+      "z_score": -0.96,
+      "p_value": 0.8896
+    },
+    "same_decan": {
+      "observed": 3,
+      "expected_mean": 4.59,
+      "expected_std": 1.75,
+      "enrichment_ratio": 0.65,
+      "z_score": -0.91,
+      "p_value": 0.8864
+    }
+  },
+  "prose_cooccurrence_permutation_rare_10": {
+    "same_folio": {
+      "observed": 7,
+      "expected_mean": 3.56,
+      "expected_std": 1.78,
+      "enrichment_ratio": 1.96,
+      "z_score": 1.93,
+      "p_value": 0.0574
+    },
+    "same_sign": {
+      "observed": 7,
+      "expected_mean": 3.91,
+      "expected_std": 1.84,
+      "enrichment_ratio": 1.79,
+      "z_score": 1.68,
+      "p_value": 0.087
+    },
+    "contiguous_same_sign_deg_le_2": {
+      "observed": 2,
+      "expected_mean": 0.54,
+      "expected_std": 0.72,
+      "enrichment_ratio": 3.71,
+      "z_score": 2.03,
+      "p_value": 0.1012
+    },
+    "exact_or_adj_deg_diff_le_1": {
+      "observed": 5,
+      "expected_mean": 3.98,
+      "expected_std": 1.89,
+      "enrichment_ratio": 1.26,
+      "z_score": 0.54,
+      "p_value": 0.3712
+    },
+    "exact_or_adj_loc_diff_le_1": {
+      "observed": 5,
+      "expected_mean": 3.84,
+      "expected_std": 1.87,
+      "enrichment_ratio": 1.3,
+      "z_score": 0.62,
+      "p_value": 0.3456
+    },
+    "exact_or_adj_ord_diff_le_1": {
+      "observed": 5,
+      "expected_mean": 4.06,
+      "expected_std": 1.92,
+      "enrichment_ratio": 1.23,
+      "z_score": 0.49,
+      "p_value": 0.3884
+    },
+    "same_element_trigon": {
+      "observed": 13,
+      "expected_mean": 9.96,
+      "expected_std": 2.77,
+      "enrichment_ratio": 1.31,
+      "z_score": 1.1,
+      "p_value": 0.1766
+    },
+    "cross_sign_trine_sign_dist_4": {
+      "observed": 6,
+      "expected_mean": 6.04,
+      "expected_std": 2.28,
+      "enrichment_ratio": 0.99,
+      "z_score": -0.02,
+      "p_value": 0.58
+    },
+    "same_ring": {
+      "observed": 19,
+      "expected_mean": 17.7,
+      "expected_std": 3.18,
+      "enrichment_ratio": 1.07,
+      "z_score": 0.41,
+      "p_value": 0.4028
+    },
+    "same_decan": {
+      "observed": 16,
+      "expected_mean": 13.81,
+      "expected_std": 3.01,
+      "enrichment_ratio": 1.16,
+      "z_score": 0.73,
+      "p_value": 0.2828
+    }
+  },
+  "top_cooccurring_prose_pairs_rare_5": [
+    {
+      "folio": "f113r",
+      "sec": "Starred Recipes",
+      "p_idx": 1,
+      "token_dist": 4,
+      "hit_a": "f113r.2:ykolairol (cnt=1)",
+      "hit_b": "f113r.3:oteeosy (cnt=1)",
+      "zodiac_a": "f72r3.13 (Cancer deg=12, ord=12, R1, Water, ykolairol)",
+      "zodiac_b": "f73r.13 (Scorpio deg=12, ord=12, R2, Water, oteeosy)",
+      "same_sign": false,
+      "same_folio": false,
+      "sign_dist": 4,
+      "same_element": true,
+      "same_modality": false,
+      "same_ring": false,
+      "same_decan": true,
+      "deg_diff": 0,
+      "loc_diff": 0,
+      "folio_ord_diff": 0,
+      "ecliptic_diff": 120.0,
+      "max_prose_count": 1
+    },
+    {
+      "folio": "f107r",
+      "sec": "Starred Recipes",
+      "p_idx": 4,
+      "token_dist": 19,
+      "hit_a": "f107r.13:otaral (cnt=2)",
+      "hit_b": "f107r.15:airal (cnt=3)",
+      "zodiac_a": "f70v2.23 (Pisces deg=21, ord=21, R2, Water, otaral)",
+      "zodiac_b": "f72r3.21 (Cancer deg=19, ord=19, R2, Water, ykaraiin)",
+      "same_sign": false,
+      "same_folio": false,
+      "sign_dist": 4,
+      "same_element": true,
+      "same_modality": false,
+      "same_ring": true,
+      "same_decan": false,
+      "deg_diff": 2,
+      "loc_diff": 2,
+      "folio_ord_diff": 2,
+      "ecliptic_diff": 118.0,
+      "max_prose_count": 3
+    },
+    {
+      "folio": "f58v",
+      "sec": "Starred Recipes",
+      "p_idx": 1,
+      "token_dist": 79,
+      "hit_a": "f58v.2:qotalody (cnt=1)",
+      "hit_b": "f58v.10:qokals (cnt=1)",
+      "zodiac_a": "f71v.14 (Taurus deg=12, ord=12, R2, Earth, otalody)",
+      "zodiac_b": "f73v.11 (Sagittarius deg=10, ord=10, R2, Fire, ofals)",
+      "same_sign": false,
+      "same_folio": false,
+      "sign_dist": 5,
+      "same_element": false,
+      "same_modality": false,
+      "same_ring": true,
+      "same_decan": false,
+      "deg_diff": 2,
+      "loc_diff": 3,
+      "folio_ord_diff": 2,
+      "ecliptic_diff": 152.0,
+      "max_prose_count": 1
+    },
+    {
+      "folio": "f107r",
+      "sec": "Starred Recipes",
+      "p_idx": 4,
+      "token_dist": 9,
+      "hit_a": "f107r.15:airal (cnt=3)",
+      "hit_b": "f107r.16:otaiinam (cnt=1)",
+      "zodiac_a": "f72r3.21 (Cancer deg=19, ord=19, R2, Water, ykaraiin)",
+      "zodiac_b": "f72v2.18 (Virgo deg=17, ord=17, R1, Earth, opaiinam)",
+      "same_sign": false,
+      "same_folio": false,
+      "sign_dist": 2,
+      "same_element": false,
+      "same_modality": false,
+      "same_ring": false,
+      "same_decan": true,
+      "deg_diff": 2,
+      "loc_diff": 3,
+      "folio_ord_diff": 2,
+      "ecliptic_diff": 58.0,
+      "max_prose_count": 3
+    },
+    {
+      "folio": "f107r",
+      "sec": "Starred Recipes",
+      "p_idx": 4,
+      "token_dist": 28,
+      "hit_a": "f107r.13:otaral (cnt=2)",
+      "hit_b": "f107r.16:otaiinam (cnt=1)",
+      "zodiac_a": "f70v2.23 (Pisces deg=21, ord=21, R2, Water, otaral)",
+      "zodiac_b": "f72v2.18 (Virgo deg=17, ord=17, R1, Earth, opaiinam)",
+      "same_sign": false,
+      "same_folio": false,
+      "sign_dist": 6,
+      "same_element": false,
+      "same_modality": true,
+      "same_ring": false,
+      "same_decan": false,
+      "deg_diff": 4,
+      "loc_diff": 5,
+      "folio_ord_diff": 4,
+      "ecliptic_diff": 176.0,
+      "max_prose_count": 2
+    },
+    {
+      "folio": "f58v",
+      "sec": "Starred Recipes",
+      "p_idx": 1,
+      "token_dist": 62,
+      "hit_a": "f58v.4:okairy (cnt=2)",
+      "hit_b": "f58v.10:qokals (cnt=1)",
+      "zodiac_a": "f72r2.4 (Gemini deg=4, ord=4, R1, Air, okairy)",
+      "zodiac_b": "f73v.11 (Sagittarius deg=10, ord=10, R2, Fire, ofals)",
+      "same_sign": false,
+      "same_folio": false,
+      "sign_dist": 6,
+      "same_element": false,
+      "same_modality": true,
+      "same_ring": false,
+      "same_decan": true,
+      "deg_diff": 6,
+      "loc_diff": 7,
+      "folio_ord_diff": 6,
+      "ecliptic_diff": 174.0,
+      "max_prose_count": 2
+    },
+    {
+      "folio": "f31v",
+      "sec": "Herbal (Botanical)",
+      "p_idx": 2,
+      "token_dist": 12,
+      "hit_a": "f31v.9:sheoeky (cnt=1)",
+      "hit_b": "f31v.10:oeeeos (cnt=5)",
+      "zodiac_a": "f72v2.10 (Virgo deg=9, ord=9, R1, Earth, sheoeky)",
+      "zodiac_b": "f72v1.18 (Libra deg=17, ord=17, R1, Air, oeeeos)",
+      "same_sign": false,
+      "same_folio": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_ring": true,
+      "same_decan": false,
+      "deg_diff": 8,
+      "loc_diff": 8,
+      "folio_ord_diff": 8,
+      "ecliptic_diff": 38.0,
+      "max_prose_count": 5
+    },
+    {
+      "folio": "f58v",
+      "sec": "Starred Recipes",
+      "p_idx": 1,
+      "token_dist": 17,
+      "hit_a": "f58v.2:qotalody (cnt=1)",
+      "hit_b": "f58v.4:okairy (cnt=2)",
+      "zodiac_a": "f71v.14 (Taurus deg=12, ord=12, R2, Earth, otalody)",
+      "zodiac_b": "f72r2.4 (Gemini deg=4, ord=4, R1, Air, okairy)",
+      "same_sign": false,
+      "same_folio": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_ring": false,
+      "same_decan": false,
+      "deg_diff": 8,
+      "loc_diff": 10,
+      "folio_ord_diff": 8,
+      "ecliptic_diff": 22.0,
+      "max_prose_count": 2
+    },
+    {
+      "folio": "f66r",
+      "sec": "Text-only",
+      "p_idx": 6,
+      "token_dist": 61,
+      "hit_a": "f66r.73:qoteeod (cnt=4)",
+      "hit_b": "f66r.80:qoteoly (cnt=3)",
+      "zodiac_a": "f72v1.13 (Libra deg=12, ord=12, R1, Air, oteod)",
+      "zodiac_b": "f72v1.4 (Libra deg=3, ord=3, R1, Air, oteoly)",
+      "same_sign": true,
+      "same_folio": true,
+      "sign_dist": 0,
+      "same_element": true,
+      "same_modality": true,
+      "same_ring": true,
+      "same_decan": false,
+      "deg_diff": 9,
+      "loc_diff": 9,
+      "folio_ord_diff": 9,
+      "ecliptic_diff": 9.0,
+      "max_prose_count": 4
+    },
+    {
+      "folio": "f102v2",
+      "sec": "Pharmaceutical",
+      "p_idx": 3,
+      "token_dist": 22,
+      "hit_a": "f102v2.31:ykeear (cnt=4)",
+      "hit_b": "f102v2.33:okaraiin (cnt=2)",
+      "zodiac_a": "f73v.20 (Sagittarius deg=19, ord=19, R2, Fire, ykeear)",
+      "zodiac_b": "f71v.8 (Taurus deg=7, ord=7, R1, Earth, okaraiin)",
+      "same_sign": false,
+      "same_folio": false,
+      "sign_dist": 5,
+      "same_element": false,
+      "same_modality": false,
+      "same_ring": false,
+      "same_decan": false,
+      "deg_diff": 12,
+      "loc_diff": 12,
+      "folio_ord_diff": 12,
+      "ecliptic_diff": 138.0,
+      "max_prose_count": 4
+    },
+    {
+      "folio": "f58r",
+      "sec": "Starred Recipes",
+      "p_idx": 1,
+      "token_dist": 27,
+      "hit_a": "f58r.11:otalal (cnt=4)",
+      "hit_b": "f58r.14:okalal (cnt=4)",
+      "zodiac_a": "f72r3.27 (Cancer deg=24, ord=24, R3, Water, opalal)",
+      "zodiac_b": "f70v1.5 (Aries deg=4, ord=4, R1, Fire, okalal)",
+      "same_sign": false,
+      "same_folio": false,
+      "sign_dist": 3,
+      "same_element": false,
+      "same_modality": true,
+      "same_ring": false,
+      "same_decan": false,
+      "deg_diff": 20,
+      "loc_diff": 22,
+      "folio_ord_diff": 20,
+      "ecliptic_diff": 110.0,
+      "max_prose_count": 4
+    },
+    {
+      "folio": "f70r2",
+      "sec": "Cosmological",
+      "p_idx": 2,
+      "token_dist": 44,
+      "hit_a": "f70r2.16:oteeodar (cnt=5)",
+      "hit_b": "f70r2.17:otolal (cnt=1)",
+      "zodiac_a": "f72v2.11 (Virgo deg=10, ord=10, R1, Earth, oteodar)",
+      "zodiac_b": "f70v2.33 (Pisces deg=30, ord=30, R3, Water, otolal)",
+      "same_sign": false,
+      "same_folio": false,
+      "sign_dist": 6,
+      "same_element": false,
+      "same_modality": true,
+      "same_ring": false,
+      "same_decan": false,
+      "deg_diff": 20,
+      "loc_diff": 22,
+      "folio_ord_diff": 20,
+      "ecliptic_diff": 160.0,
+      "max_prose_count": 5
+    },
+    {
+      "folio": "f76v",
+      "sec": "Biological (Balneological)",
+      "p_idx": 4,
+      "token_dist": 22,
+      "hit_a": "f76v.27:chek (cnt=5)",
+      "hit_b": "f76v.29:alches (cnt=2)",
+      "zodiac_a": "f73r.29 (Scorpio deg=27, ord=27, R3, Water, chek)",
+      "zodiac_b": "f72r3.7 (Cancer deg=6, ord=6, R1, Water, opoiiinoin)",
+      "same_sign": false,
+      "same_folio": false,
+      "sign_dist": 4,
+      "same_element": true,
+      "same_modality": false,
+      "same_ring": false,
+      "same_decan": false,
+      "deg_diff": 21,
+      "loc_diff": 22,
+      "folio_ord_diff": 21,
+      "ecliptic_diff": 141.0,
+      "max_prose_count": 5
+    },
+    {
+      "folio": "f35v",
+      "sec": "Herbal (Botanical)",
+      "p_idx": 1,
+      "token_dist": 27,
+      "hit_a": "f35v.10:chosar (cnt=1)",
+      "hit_b": "f35v.17:chkaly (cnt=2)",
+      "zodiac_a": "f72r2.28 (Gemini deg=26, ord=26, R3, Air, chosar)",
+      "zodiac_b": "f71v.3 (Taurus deg=2, ord=2, R1, Earth, chfaly)",
+      "same_sign": false,
+      "same_folio": false,
+      "sign_dist": 1,
+      "same_element": false,
+      "same_modality": false,
+      "same_ring": false,
+      "same_decan": false,
+      "deg_diff": 24,
+      "loc_diff": 25,
+      "folio_ord_diff": 24,
+      "ecliptic_diff": 54.0,
+      "max_prose_count": 2
+    }
+  ],
+  "starred_recipes_folio_zodiac_profile": {
+    "f103r": {
+      "total_rare_10_zodiac_hits": 0,
+      "top_signs": {},
+      "elements": {},
+      "decans": {},
+      "ultra_rare_5_hits": []
+    },
+    "f103v": {
+      "total_rare_10_zodiac_hits": 2,
+      "top_signs": {
+        "Aries": 2
+      },
+      "elements": {
+        "Fire": 2
+      },
+      "decans": {
+        "Decan_2": 2
+      },
+      "ultra_rare_5_hits": [
+        "f103v.23:otear -> f70v1.17(Aries 15deg, Fire)",
+        "f103v.25:oteeam -> f70v1.17(Aries 15deg, Fire)"
+      ]
+    },
+    "f104r": {
+      "total_rare_10_zodiac_hits": 2,
+      "top_signs": {
+        "Leo": 2
+      },
+      "elements": {
+        "Fire": 2
+      },
+      "decans": {
+        "Decan_2": 1,
+        "Decan_1": 1
+      },
+      "ultra_rare_5_hits": []
+    },
+    "f104v": {
+      "total_rare_10_zodiac_hits": 2,
+      "top_signs": {
+        "Pisces": 1,
+        "Leo": 1
+      },
+      "elements": {
+        "Water": 1,
+        "Fire": 1
+      },
+      "decans": {
+        "Decan_2": 2
+      },
+      "ultra_rare_5_hits": []
+    },
+    "f105r": {
+      "total_rare_10_zodiac_hits": 5,
+      "top_signs": {
+        "Libra": 2,
+        "Cancer": 2,
+        "Virgo": 1
+      },
+      "elements": {
+        "Air": 2,
+        "Water": 2,
+        "Earth": 1
+      },
+      "decans": {
+        "Decan_3": 2,
+        "Decan_2": 2,
+        "Decan_1": 1
+      },
+      "ultra_rare_5_hits": [
+        "f105r.12:qoeeody -> f72v1.31(Libra 29deg, Air)",
+        "f105r.19:aiiral -> f72r3.21(Cancer 19deg, Water)",
+        "f105r.26:airal -> f72r3.21(Cancer 19deg, Water)",
+        "f105r.36:oteodar -> f72v2.11(Virgo 10deg, Earth)"
+      ]
+    },
+    "f105v": {
+      "total_rare_10_zodiac_hits": 1,
+      "top_signs": {
+        "Gemini": 1
+      },
+      "elements": {
+        "Air": 1
+      },
+      "decans": {
+        "Decan_1": 1
+      },
+      "ultra_rare_5_hits": [
+        "f105v.9:okairy -> f72r2.4(Gemini 4deg, Air)"
+      ]
+    },
+    "f106r": {
+      "total_rare_10_zodiac_hits": 6,
+      "top_signs": {
+        "Taurus": 2,
+        "Sagittarius": 1,
+        "Cancer": 1,
+        "Leo": 1
+      },
+      "elements": {
+        "Fire": 3,
+        "Earth": 2,
+        "Water": 1
+      },
+      "decans": {
+        "Decan_1": 4,
+        "Decan_3": 1,
+        "Decan_2": 1
+      },
+      "ultra_rare_5_hits": [
+        "f106r.23:aror -> f71v.2(Taurus 1deg, Earth)",
+        "f106r.25:ykarain -> f72r3.21(Cancer 19deg, Water)",
+        "f106r.34:qopcheody -> f72v3.6(Leo 5deg, Fire)",
+        "f106r.36:okalal -> f70v1.5(Aries 4deg, Fire)"
+      ]
+    },
+    "f106v": {
+      "total_rare_10_zodiac_hits": 1,
+      "top_signs": {
+        "Leo": 1
+      },
+      "elements": {
+        "Fire": 1
+      },
+      "decans": {
+        "Decan_2": 1
+      },
+      "ultra_rare_5_hits": []
+    },
+    "f107r": {
+      "total_rare_10_zodiac_hits": 7,
+      "top_signs": {
+        "Pisces": 3,
+        "Cancer": 2,
+        "Virgo": 1,
+        "Aries": 1
+      },
+      "elements": {
+        "Water": 5,
+        "Earth": 1,
+        "Fire": 1
+      },
+      "decans": {
+        "Decan_2": 4,
+        "Decan_3": 3
+      },
+      "ultra_rare_5_hits": [
+        "f107r.13:otaral -> f70v2.23(Pisces 21deg, Water)",
+        "f107r.15:airal -> f72r3.21(Cancer 19deg, Water)",
+        "f107r.16:otaiinam -> f72v2.18(Virgo 17deg, Earth)",
+        "f107r.22:qotalal -> f72r3.27(Cancer 24deg, Water)",
+        "f107r.30:rary -> f71r.10(Aries 24deg, Fire)"
+      ]
+    },
+    "f107v": {
+      "total_rare_10_zodiac_hits": 5,
+      "top_signs": {
+        "Aries": 2,
+        "Sagittarius": 1,
+        "Cancer": 1,
+        "Taurus": 1
+      },
+      "elements": {
+        "Fire": 3,
+        "Water": 1,
+        "Earth": 1
+      },
+      "decans": {
+        "Decan_3": 3,
+        "Decan_2": 1,
+        "Decan_1": 1
+      },
+      "ultra_rare_5_hits": [
+        "f107v.17:ykeear -> f73v.20(Sagittarius 19deg, Fire)",
+        "f107v.21:otalal -> f72r3.27(Cancer 24deg, Water)",
+        "f107v.31:rary -> f71r.10(Aries 24deg, Fire)",
+        "f107v.33:chkaly -> f71v.3(Taurus 2deg, Earth)",
+        "f107v.39:cheary -> f71r.9(Aries 23deg, Fire)"
+      ]
+    },
+    "f108r": {
+      "total_rare_10_zodiac_hits": 2,
+      "top_signs": {
+        "Cancer": 1,
+        "Pisces": 1
+      },
+      "elements": {
+        "Water": 2
+      },
+      "decans": {
+        "Decan_3": 1,
+        "Decan_2": 1
+      },
+      "ultra_rare_5_hits": [
+        "f108r.35:opalal -> f72r3.27(Cancer 24deg, Water)"
+      ]
+    },
+    "f108v": {
+      "total_rare_10_zodiac_hits": 0,
+      "top_signs": {},
+      "elements": {},
+      "decans": {},
+      "ultra_rare_5_hits": []
+    },
+    "f111r": {
+      "total_rare_10_zodiac_hits": 5,
+      "top_signs": {
+        "Sagittarius": 2,
+        "Aries": 1,
+        "Scorpio": 1,
+        "Pisces": 1
+      },
+      "elements": {
+        "Fire": 3,
+        "Water": 2
+      },
+      "decans": {
+        "Decan_3": 3,
+        "Decan_2": 2
+      },
+      "ultra_rare_5_hits": [
+        "f111r.2:oteeam -> f70v1.17(Aries 15deg, Fire)",
+        "f111r.23:shekal -> f73r.14(Scorpio 13deg, Water)",
+        "f111r.41:otaral -> f70v2.23(Pisces 21deg, Water)"
+      ]
+    },
+    "f111v": {
+      "total_rare_10_zodiac_hits": 1,
+      "top_signs": {
+        "Taurus": 1
+      },
+      "elements": {
+        "Earth": 1
+      },
+      "decans": {
+        "Decan_3": 1
+      },
+      "ultra_rare_5_hits": [
+        "f111v.48:opchdal -> f72r1.15(Taurus 28deg, Earth)"
+      ]
+    },
+    "f112r": {
+      "total_rare_10_zodiac_hits": 2,
+      "top_signs": {
+        "Aries": 1,
+        "Virgo": 1
+      },
+      "elements": {
+        "Fire": 1,
+        "Earth": 1
+      },
+      "decans": {
+        "Decan_2": 2
+      },
+      "ultra_rare_5_hits": [
+        "f112r.37:otear -> f70v1.17(Aries 15deg, Fire)"
+      ]
+    },
+    "f112v": {
+      "total_rare_10_zodiac_hits": 1,
+      "top_signs": {
+        "Libra": 1
+      },
+      "elements": {
+        "Air": 1
+      },
+      "decans": {
+        "Decan_3": 1
+      },
+      "ultra_rare_5_hits": [
+        "f112v.4:oeeeody -> f72v1.31(Libra 29deg, Air)"
+      ]
+    },
+    "f113r": {
+      "total_rare_10_zodiac_hits": 6,
+      "top_signs": {
+        "Cancer": 1,
+        "Scorpio": 1,
+        "Taurus": 1,
+        "Virgo": 1
+      },
+      "elements": {
+        "Water": 2,
+        "Earth": 2,
+        "Fire": 2
+      },
+      "decans": {
+        "Decan_2": 4,
+        "Decan_1": 2
+      },
+      "ultra_rare_5_hits": [
+        "f113r.2:ykolairol -> f72r3.13(Cancer 12deg, Water)",
+        "f113r.3:oteeosy -> f73r.13(Scorpio 12deg, Water)",
+        "f113r.51:okalal -> f70v1.5(Aries 4deg, Fire)"
+      ]
+    },
+    "f113v": {
+      "total_rare_10_zodiac_hits": 2,
+      "top_signs": {
+        "Leo": 1,
+        "Taurus": 1
+      },
+      "elements": {
+        "Fire": 1,
+        "Earth": 1
+      },
+      "decans": {
+        "Decan_1": 2
+      },
+      "ultra_rare_5_hits": [
+        "f113v.28:opcheody -> f72v3.6(Leo 5deg, Fire)"
+      ]
+    },
+    "f114r": {
+      "total_rare_10_zodiac_hits": 3,
+      "top_signs": {
+        "Virgo": 2,
+        "Libra": 1
+      },
+      "elements": {
+        "Earth": 2,
+        "Air": 1
+      },
+      "decans": {
+        "Decan_1": 2,
+        "Decan_3": 1
+      },
+      "ultra_rare_5_hits": [
+        "f114r.10:qoedeey -> f72v2.2(Virgo 1deg, Earth)",
+        "f114r.18:qoeeody -> f72v1.31(Libra 29deg, Air)",
+        "f114r.28:aiiraim -> f72v2.5(Virgo 4deg, Earth)"
+      ]
+    },
+    "f114v": {
+      "total_rare_10_zodiac_hits": 4,
+      "top_signs": {
+        "Libra": 2,
+        "Taurus": 1,
+        "Leo": 1
+      },
+      "elements": {
+        "Air": 2,
+        "Earth": 1,
+        "Fire": 1
+      },
+      "decans": {
+        "Decan_2": 2,
+        "Decan_1": 2
+      },
+      "ultra_rare_5_hits": [
+        "f114v.3:oeos -> f72v1.18(Libra 17deg, Air)",
+        "f114v.9:oeeos -> f72v1.18(Libra 17deg, Air)",
+        "f114v.31:otcheody -> f72v3.6(Leo 5deg, Fire)"
+      ]
+    },
+    "f115r": {
+      "total_rare_10_zodiac_hits": 3,
+      "top_signs": {
+        "Aries": 1,
+        "Libra": 1,
+        "Sagittarius": 1
+      },
+      "elements": {
+        "Fire": 2,
+        "Air": 1
+      },
+      "decans": {
+        "Decan_3": 3
+      },
+      "ultra_rare_5_hits": [
+        "f115r.16:qotolchd -> f71r.16(Aries 29deg, Fire)",
+        "f115r.21:oeeody -> f72v1.31(Libra 29deg, Air)"
+      ]
+    },
+    "f115v": {
+      "total_rare_10_zodiac_hits": 2,
+      "top_signs": {
+        "Cancer": 1,
+        "Taurus": 1
+      },
+      "elements": {
+        "Water": 1,
+        "Earth": 1
+      },
+      "decans": {
+        "Decan_1": 1,
+        "Decan_3": 1
+      },
+      "ultra_rare_5_hits": [
+        "f115v.35:alches -> f72r3.7(Cancer 6deg, Water)",
+        "f115v.43:qotchdal -> f72r1.15(Taurus 28deg, Earth)"
+      ]
+    },
+    "f116r": {
+      "total_rare_10_zodiac_hits": 3,
+      "top_signs": {
+        "Pisces": 1,
+        "Gemini": 1,
+        "Taurus": 1
+      },
+      "elements": {
+        "Water": 1,
+        "Air": 1,
+        "Earth": 1
+      },
+      "decans": {
+        "Decan_2": 1,
+        "Decan_3": 1,
+        "Decan_1": 1
+      },
+      "ultra_rare_5_hits": [
+        "f116r.28:qotalshy -> f72r2.26(Gemini 24deg, Air)",
+        "f116r.49:arom -> f71v.2(Taurus 1deg, Earth)"
+      ]
+    },
+    "f58r": {
+      "total_rare_10_zodiac_hits": 6,
+      "top_signs": {
+        "Aries": 2,
+        "Cancer": 1,
+        "Leo": 1,
+        "Taurus": 1
+      },
+      "elements": {
+        "Fire": 3,
+        "Water": 2,
+        "Earth": 1
+      },
+      "decans": {
+        "Decan_1": 4,
+        "Decan_3": 1,
+        "Decan_2": 1
+      },
+      "ultra_rare_5_hits": [
+        "f58r.11:otalal -> f72r3.27(Cancer 24deg, Water)",
+        "f58r.14:okalal -> f70v1.5(Aries 4deg, Fire)",
+        "f58r.19:okalal -> f70v1.5(Aries 4deg, Fire)"
+      ]
+    },
+    "f58v": {
+      "total_rare_10_zodiac_hits": 5,
+      "top_signs": {
+        "Taurus": 2,
+        "Gemini": 1,
+        "Leo": 1,
+        "Sagittarius": 1
+      },
+      "elements": {
+        "Earth": 2,
+        "Fire": 2,
+        "Air": 1
+      },
+      "decans": {
+        "Decan_1": 4,
+        "Decan_2": 1
+      },
+      "ultra_rare_5_hits": [
+        "f58v.2:qotalody -> f71v.14(Taurus 12deg, Earth)",
+        "f58v.4:okairy -> f72r2.4(Gemini 4deg, Air)",
+        "f58v.10:qokals -> f73v.11(Sagittarius 10deg, Fire)"
+      ]
+    }
+  }
+}
