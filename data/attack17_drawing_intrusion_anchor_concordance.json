@@ -1,0 +1,1502 @@
+{
+  "summary": {
+    "total_intrusion_pairs_analyzed": 742,
+    "left_of_drawing_profile": {
+      "group": "Left of Drawing (w_left <_>)",
+      "token_count": 742,
+      "q_proclitic_pct": 10.65,
+      "o_nominal_pct": 16.17,
+      "y_initial_pct": 4.45,
+      "pf_gallows_pct": 3.64,
+      "m_terminal_pct": 2.29,
+      "y_final_pct": 44.47,
+      "edy_verbal_pct": 19.14,
+      "aiin_nominal_pct": 11.59,
+      "exact_diagram_label_match_pct": 47.71,
+      "matches_folio_p1_header_root_pct": 3.37
+    },
+    "right_of_drawing_profile": {
+      "group": "Right of Drawing (<_> w_right)",
+      "token_count": 742,
+      "q_proclitic_pct": 3.23,
+      "o_nominal_pct": 24.53,
+      "y_initial_pct": 14.42,
+      "pf_gallows_pct": 3.91,
+      "m_terminal_pct": 2.29,
+      "y_final_pct": 35.31,
+      "edy_verbal_pct": 13.88,
+      "aiin_nominal_pct": 17.79,
+      "exact_diagram_label_match_pct": 47.98,
+      "matches_folio_p1_header_root_pct": 3.23
+    },
+    "non_flanking_interior_profile": {
+      "group": "Non-Flanking Interior Words (Same Lines)",
+      "token_count": 2397,
+      "q_proclitic_pct": 12.31,
+      "o_nominal_pct": 19.4,
+      "y_initial_pct": 3.59,
+      "pf_gallows_pct": 4.84,
+      "m_terminal_pct": 1.5,
+      "y_final_pct": 40.26,
+      "edy_verbal_pct": 14.64,
+      "aiin_nominal_pct": 14.31,
+      "exact_diagram_label_match_pct": 50.73,
+      "matches_folio_p1_header_root_pct": 6.88
+    }
+  },
+  "herbal_vertical_zone_radical_enrichment": {
+    "BOT_9_PLUS_ROOT_TUBER": [
+      {
+        "radical": "chok",
+        "zone_count": 6,
+        "section_intrusion_count": 8,
+        "enrichment": 2.53,
+        "role": ""
+      },
+      {
+        "radical": "ar",
+        "zone_count": 15,
+        "section_intrusion_count": 25,
+        "enrichment": 2.03,
+        "role": "BOTAN/ROOT(ar)"
+      },
+      {
+        "radical": "yd",
+        "zone_count": 5,
+        "section_intrusion_count": 10,
+        "enrichment": 1.69,
+        "role": ""
+      },
+      {
+        "radical": "or",
+        "zone_count": 14,
+        "section_intrusion_count": 29,
+        "enrichment": 1.63,
+        "role": "JAR/HERB(or)"
+      },
+      {
+        "radical": "ain",
+        "zone_count": 9,
+        "section_intrusion_count": 21,
+        "enrichment": 1.45,
+        "role": "ESSENCE/UNIT(ain)"
+      },
+      {
+        "radical": "yk",
+        "zone_count": 5,
+        "section_intrusion_count": 12,
+        "enrichment": 1.41,
+        "role": ""
+      },
+      {
+        "radical": "che",
+        "zone_count": 14,
+        "section_intrusion_count": 35,
+        "enrichment": 1.35,
+        "role": "ACT:infuse"
+      },
+      {
+        "radical": "ch",
+        "zone_count": 53,
+        "section_intrusion_count": 147,
+        "enrichment": 1.22,
+        "role": "ACT:mix/proc"
+      },
+      {
+        "radical": "ctho",
+        "zone_count": 5,
+        "section_intrusion_count": 14,
+        "enrichment": 1.21,
+        "role": ""
+      },
+      {
+        "radical": "ckh",
+        "zone_count": 9,
+        "section_intrusion_count": 27,
+        "enrichment": 1.13,
+        "role": "BALNEO_OP(ckh)"
+      },
+      {
+        "radical": "y",
+        "zone_count": 9,
+        "section_intrusion_count": 28,
+        "enrichment": 1.09,
+        "role": "STATE(y)"
+      },
+      {
+        "radical": "ol",
+        "zone_count": 21,
+        "section_intrusion_count": 67,
+        "enrichment": 1.06,
+        "role": "FLUID/TUBE(ol)"
+      }
+    ],
+    "MID_4_8_STEM_LEAF": [
+      {
+        "radical": "ai",
+        "zone_count": 5,
+        "section_intrusion_count": 5,
+        "enrichment": 2.19,
+        "role": ""
+      },
+      {
+        "radical": "keo",
+        "zone_count": 7,
+        "section_intrusion_count": 8,
+        "enrichment": 1.92,
+        "role": "PHARMA_BOIL(keo)"
+      },
+      {
+        "radical": "ty",
+        "zone_count": 7,
+        "section_intrusion_count": 8,
+        "enrichment": 1.92,
+        "role": ""
+      },
+      {
+        "radical": "ko",
+        "zone_count": 8,
+        "section_intrusion_count": 11,
+        "enrichment": 1.59,
+        "role": "STAR_NODE(ko)"
+      },
+      {
+        "radical": "chol",
+        "zone_count": 5,
+        "section_intrusion_count": 7,
+        "enrichment": 1.57,
+        "role": ""
+      },
+      {
+        "radical": "an",
+        "zone_count": 10,
+        "section_intrusion_count": 16,
+        "enrichment": 1.37,
+        "role": ""
+      },
+      {
+        "radical": "to",
+        "zone_count": 5,
+        "section_intrusion_count": 8,
+        "enrichment": 1.37,
+        "role": "SPOKE/RAY(to)"
+      },
+      {
+        "radical": "al",
+        "zone_count": 17,
+        "section_intrusion_count": 29,
+        "enrichment": 1.29,
+        "role": "SUBST/STAR(al)"
+      },
+      {
+        "radical": "sch",
+        "zone_count": 5,
+        "section_intrusion_count": 9,
+        "enrichment": 1.22,
+        "role": ""
+      },
+      {
+        "radical": "cheo",
+        "zone_count": 5,
+        "section_intrusion_count": 9,
+        "enrichment": 1.22,
+        "role": ""
+      },
+      {
+        "radical": "sh",
+        "zone_count": 30,
+        "section_intrusion_count": 56,
+        "enrichment": 1.17,
+        "role": "ACT:heat/steep"
+      },
+      {
+        "radical": "kch",
+        "zone_count": 19,
+        "section_intrusion_count": 36,
+        "enrichment": 1.16,
+        "role": "STAR_OP(kch)"
+      }
+    ],
+    "TOP_1_3_FLOWER_CROWN": [
+      {
+        "radical": "dai",
+        "zone_count": 5,
+        "section_intrusion_count": 11,
+        "enrichment": 1.83,
+        "role": ""
+      },
+      {
+        "radical": "o",
+        "zone_count": 7,
+        "section_intrusion_count": 17,
+        "enrichment": 1.66,
+        "role": "ENTITY_CORE(o)"
+      },
+      {
+        "radical": "y",
+        "zone_count": 11,
+        "section_intrusion_count": 28,
+        "enrichment": 1.58,
+        "role": "STATE(y)"
+      },
+      {
+        "radical": "dy",
+        "zone_count": 17,
+        "section_intrusion_count": 44,
+        "enrichment": 1.56,
+        "role": "DONE(dy)"
+      },
+      {
+        "radical": "tch",
+        "zone_count": 24,
+        "section_intrusion_count": 69,
+        "enrichment": 1.4,
+        "role": "PROC_OP(tch)"
+      },
+      {
+        "radical": "ckh",
+        "zone_count": 9,
+        "section_intrusion_count": 27,
+        "enrichment": 1.34,
+        "role": "BALNEO_OP(ckh)"
+      },
+      {
+        "radical": "ke",
+        "zone_count": 10,
+        "section_intrusion_count": 31,
+        "enrichment": 1.3,
+        "role": "EXTRACT/COOK(ke)"
+      },
+      {
+        "radical": "cth",
+        "zone_count": 17,
+        "section_intrusion_count": 55,
+        "enrichment": 1.25,
+        "role": "HERB_LEAF_OP(cth)"
+      },
+      {
+        "radical": "dch",
+        "zone_count": 8,
+        "section_intrusion_count": 26,
+        "enrichment": 1.24,
+        "role": ""
+      },
+      {
+        "radical": "sh",
+        "zone_count": 17,
+        "section_intrusion_count": 56,
+        "enrichment": 1.22,
+        "role": "ACT:heat/steep"
+      },
+      {
+        "radical": "t",
+        "zone_count": 29,
+        "section_intrusion_count": 111,
+        "enrichment": 1.05,
+        "role": "TUBE/DUCT(t)"
+      },
+      {
+        "radical": "d",
+        "zone_count": 54,
+        "section_intrusion_count": 212,
+        "enrichment": 1.03,
+        "role": "BASE/HUB(d)"
+      }
+    ]
+  },
+  "biological_vertical_zone_radical_enrichment": {
+    "BOT_16_PLUS_POOLS_BASINS": [
+      {
+        "radical": "sh",
+        "zone_count": 5,
+        "section_intrusion_count": 11,
+        "enrichment": 1.47,
+        "role": "ACT:heat/steep"
+      },
+      {
+        "radical": "d",
+        "zone_count": 4,
+        "section_intrusion_count": 10,
+        "enrichment": 1.29,
+        "role": "BASE/HUB(d)"
+      },
+      {
+        "radical": "ol",
+        "zone_count": 4,
+        "section_intrusion_count": 13,
+        "enrichment": 0.99,
+        "role": "FLUID/TUBE(ol)"
+      },
+      {
+        "radical": "k",
+        "zone_count": 5,
+        "section_intrusion_count": 23,
+        "enrichment": 0.7,
+        "role": "VESSEL/BODY(k)"
+      }
+    ],
+    "MID_6_15_NYMPHS_STREAMS": [
+      {
+        "radical": "s",
+        "zone_count": 5,
+        "section_intrusion_count": 9,
+        "enrichment": 1.87,
+        "role": "SEED/PART(s)"
+      },
+      {
+        "radical": "k",
+        "zone_count": 11,
+        "section_intrusion_count": 23,
+        "enrichment": 1.61,
+        "role": "VESSEL/BODY(k)"
+      },
+      {
+        "radical": "ol",
+        "zone_count": 4,
+        "section_intrusion_count": 13,
+        "enrichment": 1.03,
+        "role": "FLUID/TUBE(ol)"
+      }
+    ],
+    "TOP_1_5_OVERHEAD_PIPES": [
+      {
+        "radical": "t",
+        "zone_count": 5,
+        "section_intrusion_count": 8,
+        "enrichment": 1.59,
+        "role": "TUBE/DUCT(t)"
+      },
+      {
+        "radical": "ch",
+        "zone_count": 5,
+        "section_intrusion_count": 11,
+        "enrichment": 1.16,
+        "role": "ACT:mix/proc"
+      },
+      {
+        "radical": "d",
+        "zone_count": 4,
+        "section_intrusion_count": 10,
+        "enrichment": 1.02,
+        "role": "BASE/HUB(d)"
+      },
+      {
+        "radical": "ol",
+        "zone_count": 5,
+        "section_intrusion_count": 13,
+        "enrichment": 0.98,
+        "role": "FLUID/TUBE(ol)"
+      },
+      {
+        "radical": "k",
+        "zone_count": 7,
+        "section_intrusion_count": 23,
+        "enrichment": 0.78,
+        "role": "VESSEL/BODY(k)"
+      }
+    ]
+  },
+  "high_value_intrusion_cribs": [
+    {
+      "folio": "f1v",
+      "loc": "f1v.9",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 9,
+      "w_left": "dar",
+      "w_right": "shol",
+      "canon_left": "dar",
+      "canon_right": "shol",
+      "root_left": "d",
+      "root_right": "sh",
+      "rads_left": [
+        "d"
+      ],
+      "rads_right": [
+        "sh"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f67v1.4(&L0)",
+        "f69r.7(&L0)",
+        "f99r.35(@Lf)"
+      ],
+      "label_cribs_right": [
+        "f89r2.10(@Lf)"
+      ]
+    },
+    {
+      "folio": "f2r",
+      "loc": "f2r.3",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 3,
+      "w_left": "qotaiin",
+      "w_right": "cthey",
+      "canon_left": "otain",
+      "canon_right": "cthey",
+      "root_left": "t",
+      "root_right": "cth",
+      "rads_left": [
+        "t"
+      ],
+      "rads_right": [
+        "cth"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f71v.7(&Lz)",
+        "f72r1.9(&Lz)",
+        "f72r1.9(&Lz)"
+      ],
+      "label_cribs_right": [
+        "f67r2.66(&L0)"
+      ]
+    },
+    {
+      "folio": "f2r",
+      "loc": "f2r.3",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 3,
+      "w_left": "y",
+      "w_right": "chor",
+      "canon_left": "y",
+      "canon_right": "chor",
+      "root_left": "y",
+      "root_right": "ch",
+      "rads_left": [
+        "y"
+      ],
+      "rads_right": [
+        "ch"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f66r.16(@L0)",
+        "f66r.20(+L0)",
+        "f66r.29(+L0)"
+      ],
+      "label_cribs_right": [
+        "f99v.28(@Lf)",
+        "f102v2.4(@Lf)"
+      ]
+    },
+    {
+      "folio": "f2r",
+      "loc": "f2r.10",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 10,
+      "w_left": "daiin",
+      "w_right": "cthey",
+      "canon_left": "dain",
+      "canon_right": "cthey",
+      "root_left": "d",
+      "root_right": "cth",
+      "rads_left": [
+        "d"
+      ],
+      "rads_right": [
+        "cth"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f67r2.56(&Ls)"
+      ],
+      "label_cribs_right": [
+        "f67r2.66(&L0)"
+      ]
+    },
+    {
+      "folio": "f2v",
+      "loc": "f2v.1",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 1,
+      "w_left": "chor",
+      "w_right": "dair",
+      "canon_left": "chor",
+      "canon_right": "dair",
+      "root_left": "ch",
+      "root_right": "dai",
+      "rads_left": [
+        "ch"
+      ],
+      "rads_right": [
+        "dai"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f99v.28(@Lf)",
+        "f102v2.4(@Lf)"
+      ],
+      "label_cribs_right": [
+        "f69r.14(&L0)"
+      ]
+    },
+    {
+      "folio": "f2v",
+      "loc": "f2v.2",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 2,
+      "w_left": "qoty",
+      "w_right": "chor",
+      "canon_left": "oty",
+      "canon_right": "chor",
+      "root_left": "t",
+      "root_right": "ch",
+      "rads_left": [
+        "t"
+      ],
+      "rads_right": [
+        "ch"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f70v2.5(&Lz)",
+        "f70v2.7(&Lz)",
+        "f75v.28(@Ln)"
+      ],
+      "label_cribs_right": [
+        "f99v.28(@Lf)",
+        "f102v2.4(@Lf)"
+      ]
+    },
+    {
+      "folio": "f2v",
+      "loc": "f2v.6",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 6,
+      "w_left": "chty",
+      "w_right": "daiin",
+      "canon_left": "chty",
+      "canon_right": "dain",
+      "root_left": "cht",
+      "root_right": "d",
+      "rads_left": [
+        "cht"
+      ],
+      "rads_right": [
+        "d"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f66r.82(@Lx)"
+      ],
+      "label_cribs_right": [
+        "f67r2.56(&Ls)"
+      ]
+    },
+    {
+      "folio": "f3r",
+      "loc": "f3r.15",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 15,
+      "w_left": "otchom",
+      "w_right": "oporar",
+      "canon_left": "otchor",
+      "canon_right": "otorar",
+      "root_left": "tch",
+      "root_right": "tor",
+      "rads_left": [
+        "tch"
+      ],
+      "rads_right": [
+        "t",
+        "or"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f100v.3(@Lf)"
+      ],
+      "label_cribs_right": [
+        "f88r.24(@Lf)",
+        "f88v.11(@Lc)"
+      ]
+    },
+    {
+      "folio": "f3r",
+      "loc": "f3r.19",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 19,
+      "w_left": "qosaiin",
+      "w_right": "chor",
+      "canon_left": "osain",
+      "canon_right": "chor",
+      "root_left": "s",
+      "root_right": "ch",
+      "rads_left": [
+        "s"
+      ],
+      "rads_right": [
+        "ch"
+      ],
+      "matches_folio_header_root": true,
+      "label_cribs_left": [
+        "f102v2.25(@Lf)"
+      ],
+      "label_cribs_right": [
+        "f99v.28(@Lf)",
+        "f102v2.4(@Lf)"
+      ]
+    },
+    {
+      "folio": "f4r",
+      "loc": "f4r.3",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 3,
+      "w_left": "qotaiin",
+      "w_right": "daiin",
+      "canon_left": "otain",
+      "canon_right": "dain",
+      "root_left": "t",
+      "root_right": "d",
+      "rads_left": [
+        "t"
+      ],
+      "rads_right": [
+        "d"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f71v.7(&Lz)",
+        "f72r1.9(&Lz)",
+        "f72r1.9(&Lz)"
+      ],
+      "label_cribs_right": [
+        "f67r2.56(&Ls)"
+      ]
+    },
+    {
+      "folio": "f6r",
+      "loc": "f6r.4",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 4,
+      "w_left": "otcham",
+      "w_right": "yaiir",
+      "canon_left": "otchar",
+      "canon_right": "air",
+      "root_left": "tch",
+      "root_right": "ai",
+      "rads_left": [
+        "tch"
+      ],
+      "rads_right": [
+        "ai"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f89v1.3(@Lf)"
+      ],
+      "label_cribs_right": [
+        "f66r.26(+L0)",
+        "f67r2.64(@L0)",
+        "f69r.10(&L0)"
+      ]
+    },
+    {
+      "folio": "f7r",
+      "loc": "f7r.1",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 1,
+      "w_left": "qko",
+      "w_right": "shey",
+      "canon_left": "qko",
+      "canon_right": "shey",
+      "root_left": "qko",
+      "root_right": "sh",
+      "rads_left": [
+        "q",
+        "ko"
+      ],
+      "rads_right": [
+        "sh"
+      ],
+      "matches_folio_header_root": true,
+      "label_cribs_left": [],
+      "label_cribs_right": [
+        "f68r2.29(@Ls)",
+        "f116v.1(@Lx)"
+      ]
+    },
+    {
+      "folio": "f7r",
+      "loc": "f7r.8",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 8,
+      "w_left": "qokchy",
+      "w_right": "shol",
+      "canon_left": "okchy",
+      "canon_right": "shol",
+      "root_left": "kch",
+      "root_right": "sh",
+      "rads_left": [
+        "kch"
+      ],
+      "rads_right": [
+        "sh"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f67r2.5(&L0)",
+        "fRos.51(@L0)"
+      ],
+      "label_cribs_right": [
+        "f89r2.10(@Lf)"
+      ]
+    },
+    {
+      "folio": "f8r",
+      "loc": "f8r.4",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 4,
+      "w_left": "sheey",
+      "w_right": "dchol",
+      "canon_left": "shey",
+      "canon_right": "dchol",
+      "root_left": "sh",
+      "root_right": "dch",
+      "rads_left": [
+        "sh"
+      ],
+      "rads_right": [
+        "dch"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f68r2.29(@Ls)",
+        "f116v.1(@Lx)"
+      ],
+      "label_cribs_right": [
+        "f68r2.12(@Ls)"
+      ]
+    },
+    {
+      "folio": "f8r",
+      "loc": "f8r.10",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 10,
+      "w_left": "dy",
+      "w_right": "cheocthy",
+      "canon_left": "dy",
+      "canon_right": "cheocthy",
+      "root_left": "dy",
+      "root_right": "cheocth",
+      "rads_left": [
+        "dy"
+      ],
+      "rads_right": [
+        "cheo",
+        "cth"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f70v1.2(@Lz)",
+        "f89r2.10(@Lf)"
+      ],
+      "label_cribs_right": [
+        "f88v.2(@Lf)"
+      ]
+    },
+    {
+      "folio": "f8r",
+      "loc": "f8r.15",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 15,
+      "w_left": "kc",
+      "w_right": "chy",
+      "canon_left": "kc",
+      "canon_right": "chy",
+      "root_left": "kc",
+      "root_right": "ch",
+      "rads_left": [
+        "kc"
+      ],
+      "rads_right": [
+        "ch"
+      ],
+      "matches_folio_header_root": true,
+      "label_cribs_left": [],
+      "label_cribs_right": [
+        "f67r2.11(&L0)",
+        "f70v2.14(&Lz)",
+        "f72v3.23(&Lz)"
+      ]
+    },
+    {
+      "folio": "f8r",
+      "loc": "f8r.17",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 17,
+      "w_left": "chl",
+      "w_right": "aiin",
+      "canon_left": "chl",
+      "canon_right": "ain",
+      "root_left": "ch",
+      "root_right": "ain",
+      "rads_left": [
+        "ch"
+      ],
+      "rads_right": [
+        "ain"
+      ],
+      "matches_folio_header_root": true,
+      "label_cribs_left": [],
+      "label_cribs_right": [
+        "f99r.7(+Lf)"
+      ]
+    },
+    {
+      "folio": "f8r",
+      "loc": "f8r.18",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 18,
+      "w_left": "chaiin",
+      "w_right": "daiin",
+      "canon_left": "chain",
+      "canon_right": "dain",
+      "root_left": "ch",
+      "root_right": "d",
+      "rads_left": [
+        "ch"
+      ],
+      "rads_right": [
+        "d"
+      ],
+      "matches_folio_header_root": true,
+      "label_cribs_left": [],
+      "label_cribs_right": [
+        "f67r2.56(&Ls)"
+      ]
+    },
+    {
+      "folio": "f8r",
+      "loc": "f8r.19",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 19,
+      "w_left": "dar",
+      "w_right": "shol",
+      "canon_left": "dar",
+      "canon_right": "shol",
+      "root_left": "d",
+      "root_right": "sh",
+      "rads_left": [
+        "d"
+      ],
+      "rads_right": [
+        "sh"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f67v1.4(&L0)",
+        "f69r.7(&L0)",
+        "f99r.35(@Lf)"
+      ],
+      "label_cribs_right": [
+        "f89r2.10(@Lf)"
+      ]
+    },
+    {
+      "folio": "f8v",
+      "loc": "f8v.5",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 5,
+      "w_left": "dar",
+      "w_right": "otchar",
+      "canon_left": "dar",
+      "canon_right": "otchar",
+      "root_left": "d",
+      "root_right": "tch",
+      "rads_left": [
+        "d"
+      ],
+      "rads_right": [
+        "tch"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f67v1.4(&L0)",
+        "f69r.7(&L0)",
+        "f99r.35(@Lf)"
+      ],
+      "label_cribs_right": [
+        "f89v1.3(@Lf)"
+      ]
+    },
+    {
+      "folio": "f8v",
+      "loc": "f8v.15",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 15,
+      "w_left": "chy",
+      "w_right": "chor",
+      "canon_left": "chy",
+      "canon_right": "chor",
+      "root_left": "ch",
+      "root_right": "ch",
+      "rads_left": [
+        "ch"
+      ],
+      "rads_right": [
+        "ch"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f67r2.11(&L0)",
+        "f70v2.14(&Lz)",
+        "f72v3.23(&Lz)"
+      ],
+      "label_cribs_right": [
+        "f99v.28(@Lf)",
+        "f102v2.4(@Lf)"
+      ]
+    },
+    {
+      "folio": "f9r",
+      "loc": "f9r.2",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 2,
+      "w_left": "dy",
+      "w_right": "or",
+      "canon_left": "dy",
+      "canon_right": "or",
+      "root_left": "dy",
+      "root_right": "or",
+      "rads_left": [
+        "dy"
+      ],
+      "rads_right": [
+        "or"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f70v1.2(@Lz)",
+        "f89r2.10(@Lf)"
+      ],
+      "label_cribs_right": [
+        "f66r.3(+L0)",
+        "f84r.2(@Ln)"
+      ]
+    },
+    {
+      "folio": "f9r",
+      "loc": "f9r.8",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 8,
+      "w_left": "d",
+      "w_right": "dal",
+      "canon_left": "d",
+      "canon_right": "dal",
+      "root_left": "d",
+      "root_right": "d",
+      "rads_left": [
+        "d"
+      ],
+      "rads_right": [
+        "d"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f66r.21(+L0)",
+        "f66r.27(+L0)",
+        "f66r.34(+L0)"
+      ],
+      "label_cribs_right": [
+        "f75v.31(+Ln)"
+      ]
+    },
+    {
+      "folio": "f9r",
+      "loc": "f9r.8",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 8,
+      "w_left": "dal",
+      "w_right": "s",
+      "canon_left": "dal",
+      "canon_right": "s",
+      "root_left": "d",
+      "root_right": "s",
+      "rads_left": [
+        "d"
+      ],
+      "rads_right": [
+        "s"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f75v.31(+Ln)"
+      ],
+      "label_cribs_right": [
+        "f66r.18(+L0)",
+        "f66r.35(+L0)",
+        "f67r2.1(@L0)"
+      ]
+    },
+    {
+      "folio": "f9v",
+      "loc": "f9v.2",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 2,
+      "w_left": "dy",
+      "w_right": "oty",
+      "canon_left": "dy",
+      "canon_right": "oty",
+      "root_left": "dy",
+      "root_right": "t",
+      "rads_left": [
+        "dy"
+      ],
+      "rads_right": [
+        "t"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f70v1.2(@Lz)",
+        "f89r2.10(@Lf)"
+      ],
+      "label_cribs_right": [
+        "f70v2.5(&Lz)",
+        "f70v2.7(&Lz)",
+        "f75v.28(@Ln)"
+      ]
+    },
+    {
+      "folio": "f9v",
+      "loc": "f9v.3",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 3,
+      "w_left": "oky",
+      "w_right": "oeees",
+      "canon_left": "oky",
+      "canon_right": "oes",
+      "root_left": "k",
+      "root_right": "e",
+      "rads_left": [
+        "k"
+      ],
+      "rads_right": [
+        "e"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f68r3.15(@Ls)",
+        "f70v2.6(&Lz)",
+        "f72v3.22(&Lz)"
+      ],
+      "label_cribs_right": [
+        "f72v1.6(&Lz)",
+        "f72v1.8(&Lz)"
+      ]
+    },
+    {
+      "folio": "f9v",
+      "loc": "f9v.5",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 5,
+      "w_left": "ar",
+      "w_right": "chty",
+      "canon_left": "ar",
+      "canon_right": "chty",
+      "root_left": "ar",
+      "root_right": "cht",
+      "rads_left": [
+        "ar"
+      ],
+      "rads_right": [
+        "cht"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f69r.6(&L0)",
+        "f69r.14(&L0)",
+        "f70v2.7(&Lz)"
+      ],
+      "label_cribs_right": [
+        "f66r.82(@Lx)"
+      ]
+    },
+    {
+      "folio": "f9v",
+      "loc": "f9v.6",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 6,
+      "w_left": "chody",
+      "w_right": "dain",
+      "canon_left": "chody",
+      "canon_right": "dain",
+      "root_left": "ch",
+      "root_right": "d",
+      "rads_left": [
+        "ch"
+      ],
+      "rads_right": [
+        "d"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f89v2.12(@Lf)"
+      ],
+      "label_cribs_right": [
+        "f67r2.56(&Ls)"
+      ]
+    },
+    {
+      "folio": "f9v",
+      "loc": "f9v.6",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 6,
+      "w_left": "dain",
+      "w_right": "otchy",
+      "canon_left": "dain",
+      "canon_right": "otchy",
+      "root_left": "d",
+      "root_right": "tch",
+      "rads_left": [
+        "d"
+      ],
+      "rads_right": [
+        "tch"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f67r2.56(&Ls)"
+      ],
+      "label_cribs_right": [
+        "f102v2.13(@Lf)"
+      ]
+    },
+    {
+      "folio": "f9v",
+      "loc": "f9v.7",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 7,
+      "w_left": "daiin",
+      "w_right": "otal",
+      "canon_left": "dain",
+      "canon_right": "otal",
+      "root_left": "d",
+      "root_right": "t",
+      "rads_left": [
+        "d"
+      ],
+      "rads_right": [
+        "t"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f67r2.56(&Ls)"
+      ],
+      "label_cribs_right": [
+        "f70v2.16(&Lz)",
+        "f70v1.11(&Lz)",
+        "f70v1.16(&Lz)"
+      ]
+    },
+    {
+      "folio": "f9v",
+      "loc": "f9v.7",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 7,
+      "w_left": "otal",
+      "w_right": "dor",
+      "canon_left": "otal",
+      "canon_right": "dor",
+      "root_left": "t",
+      "root_right": "d",
+      "rads_left": [
+        "t"
+      ],
+      "rads_right": [
+        "d"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f70v2.16(&Lz)",
+        "f70v1.11(&Lz)",
+        "f70v1.16(&Lz)"
+      ],
+      "label_cribs_right": [
+        "fRos.146(@L0)"
+      ]
+    },
+    {
+      "folio": "f9v",
+      "loc": "f9v.7",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 7,
+      "w_left": "dor",
+      "w_right": "daim",
+      "canon_left": "dor",
+      "canon_right": "dair",
+      "root_left": "d",
+      "root_right": "dai",
+      "rads_left": [
+        "d"
+      ],
+      "rads_right": [
+        "dai"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "fRos.146(@L0)"
+      ],
+      "label_cribs_right": [
+        "f69r.14(&L0)"
+      ]
+    },
+    {
+      "folio": "f10r",
+      "loc": "f10r.6",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 6,
+      "w_left": "dy",
+      "w_right": "chy",
+      "canon_left": "dy",
+      "canon_right": "chy",
+      "root_left": "dy",
+      "root_right": "ch",
+      "rads_left": [
+        "dy"
+      ],
+      "rads_right": [
+        "ch"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f70v1.2(@Lz)",
+        "f89r2.10(@Lf)"
+      ],
+      "label_cribs_right": [
+        "f67r2.11(&L0)",
+        "f70v2.14(&Lz)",
+        "f72v3.23(&Lz)"
+      ]
+    },
+    {
+      "folio": "f10r",
+      "loc": "f10r.7",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 7,
+      "w_left": "cth",
+      "w_right": "dain",
+      "canon_left": "cth",
+      "canon_right": "dain",
+      "root_left": "cth",
+      "root_right": "d",
+      "rads_left": [
+        "cth"
+      ],
+      "rads_right": [
+        "d"
+      ],
+      "matches_folio_header_root": true,
+      "label_cribs_left": [],
+      "label_cribs_right": [
+        "f67r2.56(&Ls)"
+      ]
+    },
+    {
+      "folio": "f10r",
+      "loc": "f10r.11",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 11,
+      "w_left": "cthyd",
+      "w_right": "otar",
+      "canon_left": "cthyd",
+      "canon_right": "otar",
+      "root_left": "cthy",
+      "root_right": "t",
+      "rads_left": [
+        "cthy"
+      ],
+      "rads_right": [
+        "t"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f68r3.18(@Ls)"
+      ],
+      "label_cribs_right": [
+        "f70v2.4(&Lz)",
+        "f70v2.22(@Lz)",
+        "f71v.9(&Lz)"
+      ]
+    },
+    {
+      "folio": "f11v",
+      "loc": "f11v.1",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 1,
+      "w_left": "qoty",
+      "w_right": "shol",
+      "canon_left": "oty",
+      "canon_right": "shol",
+      "root_left": "t",
+      "root_right": "sh",
+      "rads_left": [
+        "t"
+      ],
+      "rads_right": [
+        "sh"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f70v2.5(&Lz)",
+        "f70v2.7(&Lz)",
+        "f75v.28(@Ln)"
+      ],
+      "label_cribs_right": [
+        "f89r2.10(@Lf)"
+      ]
+    },
+    {
+      "folio": "f11v",
+      "loc": "f11v.2",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 2,
+      "w_left": "dam",
+      "w_right": "ykchy",
+      "canon_left": "dar",
+      "canon_right": "ykchy",
+      "root_left": "d",
+      "root_right": "kch",
+      "rads_left": [
+        "d"
+      ],
+      "rads_right": [
+        "kch"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f67v1.4(&L0)",
+        "f69r.7(&L0)",
+        "f99r.35(@Lf)"
+      ],
+      "label_cribs_right": [
+        "f67r2.7(&L0)"
+      ]
+    },
+    {
+      "folio": "f13r",
+      "loc": "f13r.8",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 8,
+      "w_left": "k",
+      "w_right": "s",
+      "canon_left": "k",
+      "canon_right": "s",
+      "root_left": "k",
+      "root_right": "s",
+      "rads_left": [
+        "k"
+      ],
+      "rads_right": [
+        "s"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f49v.1(@L0)",
+        "f66r.23(+L0)",
+        "f66r.30(+L0)"
+      ],
+      "label_cribs_right": [
+        "f66r.18(+L0)",
+        "f66r.35(+L0)",
+        "f67r2.1(@L0)"
+      ]
+    },
+    {
+      "folio": "f13v",
+      "loc": "f13v.6",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 6,
+      "w_left": "dy",
+      "w_right": "oty",
+      "canon_left": "dy",
+      "canon_right": "oty",
+      "root_left": "dy",
+      "root_right": "t",
+      "rads_left": [
+        "dy"
+      ],
+      "rads_right": [
+        "t"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f70v1.2(@Lz)",
+        "f89r2.10(@Lf)"
+      ],
+      "label_cribs_right": [
+        "f70v2.5(&Lz)",
+        "f70v2.7(&Lz)",
+        "f75v.28(@Ln)"
+      ]
+    },
+    {
+      "folio": "f13v",
+      "loc": "f13v.9",
+      "sec": "Herbal (Botanical)",
+      "lang": "?",
+      "line_idx_1based": 9,
+      "w_left": "ytal",
+      "w_right": "y",
+      "canon_left": "ytal",
+      "canon_right": "y",
+      "root_left": "t",
+      "root_right": "y",
+      "rads_left": [
+        "t"
+      ],
+      "rads_right": [
+        "y"
+      ],
+      "matches_folio_header_root": false,
+      "label_cribs_left": [
+        "f69r.10(&L0)",
+        "f73v.32(&Lz)",
+        "fRos.76(@L0)"
+      ],
+      "label_cribs_right": [
+        "f66r.16(@L0)",
+        "f66r.20(+L0)",
+        "f66r.29(+L0)"
+      ]
+    }
+  ]
+}

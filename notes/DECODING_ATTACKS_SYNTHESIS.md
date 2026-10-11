@@ -230,3 +230,44 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 ## 16. Attack 16 (`Phase 27`): The Four-Tier Radical & Clause-Frame Structural Translation Edition (`95.69%` Corpus-Wide Parse Coverage)
 - **Script, Data & Edition**: [`tools/attack16_radical_clause_translation_edition.py`](../tools/attack16_radical_clause_translation_edition.py) $\to$ [`data/attack16_radical_clause_translation_edition.json`](../data/attack16_radical_clause_translation_edition.json), [`notes/RADICAL_CLAUSE_TRANSLATION_EDITION.md`](RADICAL_CLAUSE_TRANSLATION_EDITION.md)
 - **Corpus-Wide Coverage**: **`31,184 / 32,590` (`95.69%`)** of all prose tokens receive a grounded `[Prefix + Elementary Radical(s) + Suffix]` parse; **`95.27%`** contain a Top-59 Elementary Radical; and **`72.71%`** share an exact Core Root with a diagram figure label (`@Lf/@Lc/@Lz/@L0/@Lt/@Ln`).
+
+---
+
+## 17. Attack 17 (`Phase 28`): The `<->` Drawing-Intrusion Virtual Margin Law (`4.02×` `y-` Surge, `3.81×` `q-` Collapse) & Vertical Anatomical Radical Stratification
+- **Script & Data**: [`tools/attack17_drawing_intrusion_anchor_concordance.py`](../tools/attack17_drawing_intrusion_anchor_concordance.py) $\to$ [`data/attack17_drawing_intrusion_anchor_concordance.json`](../data/attack17_drawing_intrusion_anchor_concordance.json)
+- **Visual Forensics**: [`pages/f3r_otchom_oporar_intrusion_enh.png`](../pages/f3r_otchom_oporar_intrusion_enh.png), [`pages/f6r_otcham_yaiir_intrusion_enh.png`](../pages/f6r_otcham_yaiir_intrusion_enh.png), [`pages/f11v_red_blossom_cthe_enh.png`](../pages/f11v_red_blossom_cthe_enh.png)
+
+### Key Breakthroughs:
+1. **The `<->` Virtual Margin Law (`742` Drawing-Intrusion Boundaries)**:
+   - Words immediately left of a drawing (`w_left <->`) act as Virtual Right-Margin closers (`44.47%` `-y`, `2.29%` `-m`), while words immediately right of a drawing (`<-> w_right`) act as Virtual Left-Margin openers: **`y-` surges `4.02×` (`14.42%` vs. `3.59%` interior, $z = +10.74$)**, **`o-` surges `1.52×` (`24.53%`)**, and **`q-` collapses `3.81×` (`3.23%` vs. `12.31%` interior, $z = -7.12$)**.
+2. **Vertical Anatomical Radical Stratification at `<->` Touchpoints**:
+   - In Herbal (`$I=H`), bottom root-zone `<->` boundaries (`lines 9+`) enrich **`ar` (`2.03×`)** and **`or` (`1.63×`)**; in Biological (`$I=B`), top pipe-zone `<->` boundaries (`lines 1–5`) enrich **`t` (`1.59×`, Tube/Duct)**, middle nymph-zone boundaries (`lines 6–15`) enrich **`k` (`1.61×`, Nymph/Body)**, and bottom basin-zone boundaries (`lines 16+`) enrich **`sh` (`1.47×`, Heat/Steep)** and **`d` (`1.29×`)**.
+
+---
+
+## 18. Attack 18 (`Phase 29`): Cross-Transliteration Paleographic Invariance (`85.77%` Split Alignment) & Glen Claston `v101` Sub-Glyph Ductus Conditioning
+- **Script & Data**: [`tools/attack18_cross_transliteration_invariance_and_v101.py`](../tools/attack18_cross_transliteration_invariance_and_v101.py) $\to$ [`data/attack18_cross_transliteration_invariance_and_v101.json`](../data/attack18_cross_transliteration_invariance_and_v101.json)
+
+### Key Breakthroughs:
+1. **`85.77%` (`205 / 239`) Independent `IT2a-n` Word Splits of Unbroken `ZL3b-n` Words Hit Exact `[Prefix | R_1 + R_2 | -Suffix]` Boundaries**.
+2. **Glen Claston `v101` (`GC2a-n.txt`) Sub-Glyph Ductus Conditioning**:
+   - Word-initial `y-` (`95.2%`) and word-final `-y` (`97.2%`) both map to the same `v101` glyph `9`.
+   - Open-bottom `d` (`v101` `7` vs. `8`) surges **`2.58×` (`29.6%` vs. `8.5%–13.0%`)** immediately after `e` (`-ed-`) and `ch/sh` (`-chd-`) due to horizontal exit-stroke ligature ductus, while two-thirds (`66.8%–67.4%`) of `ee` sequences in Biological/Pharma/Recipes are written as the single linked ligature `C`.
+
+---
+
+## 19. Attack 19 (`Phase 30`): Computer-Vision Pigment & Botanical Morphology Concordance Across All `110` Herbal Folios (`f1r–f57r`)
+- **Script & Data**: [`tools/attack19_herbal_visual_pigment_radical_concordance.py`](../tools/attack19_herbal_visual_pigment_radical_concordance.py) $\to$ [`data/attack19_herbal_visual_pigment_radical_concordance.json`](../data/attack19_herbal_visual_pigment_radical_concordance.json)
+- **Visual Forensics**: [`pages/f11v_red_blossom_cthe_enh.png`](../pages/f11v_red_blossom_cthe_enh.png), [`pages/f16v_blue_blossom_ckh_enh.png`](../pages/f16v_blue_blossom_ckh_enh.png)
+
+### Key Breakthroughs (Controlled for Currier Language `A` vs. `B`):
+- **Red/Crimson Crown Folios (`f11v`, `f3r`, `f40v`, `f55v`)**: Enrich **`cthe` (`3.95×`, $z = +2.82$)**, **`o` (`1.83×`, $z = +2.67$)**, and **`she` (`1.85×`, $z = +2.39$)**.
+- **Blue/Violet Blossom Folios (`f16v`, `f3v`, `f44r`, `f50v`)**: Enrich **`ky` (`4.41×`, $z = +2.73$)**, **`chy` (`2.70×`)**, and Line-1 Header **`ckh` (`3.07×`)**.
+- **Dark Seed-Pod Folios (`f3v`, `f44r`, `f24r`, `f21r`)**: Enrich **`da` (`3.31×`, $z = +2.68$)** and Line-1 Header **`or` (`2.31×`)**.
+- **Massive Bulbous & Red-Ochre Root Folios (`f13r`, `f31r`, `f55v`, `f47v`)**: Enrich **`ol` (`1.49×`, $z = +2.41$)**, **`s` (`1.39×`)**, and Line-1 Header **`cth` (`2.20×`, `55.6%` of folios)**.
+
+---
+
+## 20. Attack 20 (`Phase 31`): Clause-Level Verb–Argument Selectional Mutual Information ($z = +9.48$) & Functional Clause-Translation Benchmark
+- **Script, Data & Edition**: [`tools/attack20_functional_clause_translation_solver.py`](../tools/attack20_functional_clause_translation_solver.py) $\to$ [`data/attack20_functional_clause_translation_solver.json`](../data/attack20_functional_clause_translation_solver.json), [`notes/READABILITY_TRANSLATION_BENCHMARK.md`](READABILITY_TRANSLATION_BENCHMARK.md)
+- **Key Breakthrough**: Across `4,990` verb+argument clauses (out of `7,179` segmented clauses), Verb–Argument Selectional Mutual Information is **`0.0885 bits` vs. `0.0557 bits` shuffled null ($z = +9.48, p < 10^{-20}$)**, enabling side-by-side readable structural translations across 8 flagship folios.

@@ -1,0 +1,610 @@
+{
+  "summary": {
+    "total_clauses_segmented": 7179,
+    "clauses_with_verb_and_nominal_argument": 4990,
+    "observed_verb_argument_mi_bits": 0.0885,
+    "null_shuffled_mi_bits": 0.0557,
+    "z_score_selectional_mi": 9.48
+  },
+  "top_verb_argument_selectional_pairs": [
+    {
+      "verb_radical": "tch",
+      "verb_gloss": "compound/treat",
+      "nominal_radical": "dy",
+      "nominal_gloss": "completed-state(dy)",
+      "cooccurrence_count": 19,
+      "expected_count": 9.3,
+      "enrichment_ratio": 2.04
+    },
+    {
+      "verb_radical": "che",
+      "verb_gloss": "infuse",
+      "nominal_radical": "ain",
+      "nominal_gloss": "unit-measure(ain)",
+      "cooccurrence_count": 20,
+      "expected_count": 11.1,
+      "enrichment_ratio": 1.81
+    },
+    {
+      "verb_radical": "cth",
+      "verb_gloss": "press/extract(leaf)",
+      "nominal_radical": "d",
+      "nominal_gloss": "base/hub(d)",
+      "cooccurrence_count": 54,
+      "expected_count": 33.7,
+      "enrichment_ratio": 1.6
+    },
+    {
+      "verb_radical": "lk",
+      "verb_gloss": "decant-liquid",
+      "nominal_radical": "k",
+      "nominal_gloss": "vessel/body(k)",
+      "cooccurrence_count": 36,
+      "expected_count": 23.6,
+      "enrichment_ratio": 1.52
+    },
+    {
+      "verb_radical": "ckh",
+      "verb_gloss": "bathe/wash(blue-herb)",
+      "nominal_radical": "s",
+      "nominal_gloss": "seed/part(s)",
+      "cooccurrence_count": 18,
+      "expected_count": 12.0,
+      "enrichment_ratio": 1.5
+    },
+    {
+      "verb_radical": "te",
+      "verb_gloss": "draw/channel",
+      "nominal_radical": "d",
+      "nominal_gloss": "base/hub(d)",
+      "cooccurrence_count": 42,
+      "expected_count": 28.9,
+      "enrichment_ratio": 1.45
+    },
+    {
+      "verb_radical": "tch",
+      "verb_gloss": "compound/treat",
+      "nominal_radical": "t",
+      "nominal_gloss": "conduit/tube(t)",
+      "cooccurrence_count": 132,
+      "expected_count": 96.5,
+      "enrichment_ratio": 1.37
+    },
+    {
+      "verb_radical": "lch",
+      "verb_gloss": "blend-in-liquid",
+      "nominal_radical": "k",
+      "nominal_gloss": "vessel/body(k)",
+      "cooccurrence_count": 28,
+      "expected_count": 20.4,
+      "enrichment_ratio": 1.37
+    },
+    {
+      "verb_radical": "ch",
+      "verb_gloss": "mix/prepare",
+      "nominal_radical": "ko",
+      "nominal_gloss": "star-node(ko)",
+      "cooccurrence_count": 16,
+      "expected_count": 11.8,
+      "enrichment_ratio": 1.36
+    }
+  ],
+  "flagship_readable_translations": [
+    {
+      "folio": "f11v",
+      "title": "1. Herbal `f11v` (`Language A, Hand 1` — Red-and-Green Checkered Crown Tree: `cthe` & `<->` Virtual Margin Showcase)",
+      "clause_count": 12,
+      "clauses": [
+        {
+          "loc": "f11v.1",
+          "eva_clause": "¶ poldchody . shcphy . shordy . qoty [VIRTUAL-RIGHT-MARGIN] <->",
+          "functional_translation": "¶ [RECIPE-HEADER] leafy-shoot(tol)+[dch]-treated ; heat/steep+press/extract(leaf) ; heat/steep+jar-herb(or) ; and the conduit/tube(t) [VIRTUAL-RIGHT-MARGIN] <->"
+        },
+        {
+          "loc": "f11v.1",
+          "eva_clause": "<-> [VIRTUAL-LEFT-MARGIN] shol . cphar . dany",
+          "functional_translation": "<-> [VIRTUAL-LEFT-MARGIN] heat/steep [in-fluid] ; press/extract(leaf) [of-root] ; base/hub(d)+[an]"
+        },
+        {
+          "loc": "f11v.2",
+          "eva_clause": "shol . dy . chckhy . shcthy . daiin . dam [VIRTUAL-RIGHT-MARGIN] <->",
+          "functional_translation": "heat/steep [in-fluid] ; completed-state(dy)-treated ; mix/prepare+bathe/wash(blue-herb) ; heat/steep+press/extract(leaf) ; base/hub(d) [1-unit] ; base/hub(d) (to completion!) [VIRTUAL-RIGHT-MARGIN] <->"
+        },
+        {
+          "loc": "f11v.2",
+          "eva_clause": "<-> [VIRTUAL-LEFT-MARGIN] ykchy . dain . dchy",
+          "functional_translation": "<-> [VIRTUAL-LEFT-MARGIN] then distill/align(star) ; base/hub(d) [1-unit] ; [dch]"
+        },
+        {
+          "loc": "f11v.3",
+          "eva_clause": "otchor . dy . kchy . tchy . ar . qokchd [VIRTUAL-RIGHT-MARGIN] <->",
+          "functional_translation": "the PHARMA-HERB:otchor[f100v.3] [from-source] ; completed-state(dy)-treated ; distill/align(star) ; compound/treat ; root-shoot(ar) [of-root] ; and the distill/align(star) [VIRTUAL-RIGHT-MARGIN] <->"
+        },
+        {
+          "loc": "f11v.3",
+          "eva_clause": "<-> [VIRTUAL-LEFT-MARGIN] oky . choldydy",
+          "functional_translation": "<-> [VIRTUAL-LEFT-MARGIN] the vessel/body(k) ; [chol]+completed-state(dy)-treated"
+        },
+        {
+          "loc": "f11v.4",
+          "eva_clause": "qokchor . cholol . chyky . dchy . qoky [VIRTUAL-RIGHT-MARGIN] <->",
+          "functional_translation": "and the distill/align(star) [from-source] ; mix/prepare+fluid/stream(ol) [in-fluid] ; mix/prepare+[yk] ; [dch] ; and the vessel/body(k) [VIRTUAL-RIGHT-MARGIN] <->"
+        },
+        {
+          "loc": "f11v.4",
+          "eva_clause": "<-> [VIRTUAL-LEFT-MARGIN] ctho . tchey . tu",
+          "functional_translation": "<-> [VIRTUAL-LEFT-MARGIN] [ctho] ; compound/treat ; conduit/tube(t)+[u]"
+        },
+        {
+          "loc": "f11v.5",
+          "eva_clause": "dd",
+          "functional_translation": "base/hub(d)"
+        },
+        {
+          "loc": "f11v.6",
+          "eva_clause": "soydy . qoteey . qot . chor . dy . ddy [VIRTUAL-RIGHT-MARGIN] <->",
+          "functional_translation": "sap-resin(so)+[y]-treated ; and the conduit/tube(t) ; and the [ot] ; mix/prepare [from-source] ; completed-state(dy)-treated ; base/hub(d)-treated [VIRTUAL-RIGHT-MARGIN] <->"
+        },
+        {
+          "loc": "f11v.6",
+          "eva_clause": "<-> [VIRTUAL-LEFT-MARGIN] cthor . shyarg",
+          "functional_translation": "<-> [VIRTUAL-LEFT-MARGIN] press/extract(leaf) [from-source] ; [shy]+root-shoot(ar)+stoppered-jar(g)"
+        },
+        {
+          "loc": "f11v.7",
+          "eva_clause": "ycheor . ksho . dor . cthey . schold ∎",
+          "functional_translation": "thus infuse [from-source] ; vessel/body(k)+[sho] ; base/hub(d) [from-source] ; press/extract(leaf) ; seed/part(s)+[chol] ∎"
+        }
+      ]
+    },
+    {
+      "folio": "f16v",
+      "title": "2. Herbal `f16v` (`Language A, Hand 1` — Bright Blue 8-Pointed Blossom: `ckh/ky` Showcase)",
+      "clause_count": 13,
+      "clauses": [
+        {
+          "loc": "f16v.1",
+          "eva_clause": "¶ pchroiin . otchor . chpchol . chpchey . spchoy",
+          "functional_translation": "¶ [RECIPE-HEADER] compound/treat+[ro] ; the PHARMA-HERB:otchor[f100v.3] [from-source] ; mix/prepare+compound/treat [in-fluid] ; mix/prepare+compound/treat ; seed/part(s)+[tcho]"
+        },
+        {
+          "loc": "f16v.2",
+          "eva_clause": "ytchor . y . kychokchy . qokchocthor . shory",
+          "functional_translation": "thus compound/treat [from-source] ; [y] ; blue-petal-extract(ky)+[chok]+mix/prepare ; and the [kcho]+press/extract(leaf) [from-source] ; heat/steep"
+        },
+        {
+          "loc": "f16v.3",
+          "eva_clause": "ykchy . dy . choy . qoty . chykchy . koshet",
+          "functional_translation": "thus distill/align(star) ; completed-state(dy)-treated ; [cho] ; and the conduit/tube(t) ; [chy]+distill/align(star) ; star-node(ko)+[shet]"
+        },
+        {
+          "loc": "f16v.4",
+          "eva_clause": "dchol . chcthody . cphod . chotol . dal",
+          "functional_translation": "[dch] [in-fluid] ; mix/prepare+press/extract(leaf) ; [ctho] ; [cho]+conduit/tube(t) [in-fluid] ; base/hub(d) [to-measure]"
+        },
+        {
+          "loc": "f16v.5",
+          "eva_clause": "ytchy . chyty . chor . chol . ytchy . dan",
+          "functional_translation": "thus compound/treat ; mix/prepare+[yt] ; mix/prepare [from-source] ; mix/prepare [in-fluid] ; thus compound/treat ; base/hub(d)+[an]"
+        },
+        {
+          "loc": "f16v.6",
+          "eva_clause": "sor . chkar . oty . chkar . chol . dairin ∎",
+          "functional_translation": "seed/part(s) [from-source] ; [chk] [of-root] ; the conduit/tube(t) ; [chk] [of-root] ; mix/prepare [in-fluid] ; base/hub(d)+aether/degree(air) ∎"
+        },
+        {
+          "loc": "f16v.7",
+          "eva_clause": "¶ pchocthy . chypchy . qotchy . chy . sy",
+          "functional_translation": "¶ [RECIPE-HEADER] [tcho]+press/extract(leaf) ; [chy]+compound/treat ; and the compound/treat ; mix/prepare ; seed/part(s)"
+        },
+        {
+          "loc": "f16v.8",
+          "eva_clause": "daiin . chol . y . daiin . chcthy . qotchar . chor . sholo",
+          "functional_translation": "base/hub(d) [1-unit] ; mix/prepare [in-fluid] ; [y] ; base/hub(d) [1-unit] ; mix/prepare+press/extract(leaf) ; and the PHARMA-HERB:otchar[f89v1.3] [of-root] ; mix/prepare [from-source] ; heat/steep+[olo]"
+        },
+        {
+          "loc": "f16v.9",
+          "eva_clause": "dshy . okaiin . okaiin . chol . chor . cthor . ty . chody",
+          "functional_translation": "[dsh] ; the vessel/body(k) [1-unit] ; the vessel/body(k) [1-unit] ; mix/prepare [in-fluid] ; mix/prepare [from-source] ; press/extract(leaf) [from-source] ; conduit/tube(t) ; mix/prepare"
+        },
+        {
+          "loc": "f16v.10",
+          "eva_clause": "qokchy . chydy . ykchy . chckhy . otain . cthor . cth:y",
+          "functional_translation": "and the distill/align(star) ; [chy]-treated ; thus distill/align(star) ; mix/prepare+bathe/wash(blue-herb) ; the conduit/tube(t) [1-unit] ; press/extract(leaf) [from-source] ; press/extract(leaf)+[:]"
+        },
+        {
+          "loc": "f16v.11",
+          "eva_clause": "okytaiin . chkchy . saiin",
+          "functional_translation": "the vessel/body(k)+[yt] [1-unit] ; mix/prepare+distill/align(star) ; seed/part(s) [1-unit]"
+        },
+        {
+          "loc": "f16v.12",
+          "eva_clause": "daiin . yky . otor . chody",
+          "functional_translation": "base/hub(d) [1-unit] ; thus vessel/body(k) ; the conduit/tube(t) [from-source] ; mix/prepare"
+        },
+        {
+          "loc": "f16v.13",
+          "eva_clause": "sokar . oaorar ∎",
+          "functional_translation": "sap-resin(so)+vessel/body(k) [of-root] ; the [a]+jar-herb(or) [of-root] ∎"
+        }
+      ]
+    },
+    {
+      "folio": "f48v",
+      "title": "3. Herbal `f48v` (`Language A, Hand 1` — Twin Dark Seed-Pods Citing Rosettes `<fRos.45> otchdy . otoldy`)",
+      "clause_count": 16,
+      "clauses": [
+        {
+          "loc": "f48v.7",
+          "eva_clause": "¶ pchedar . chey [VIRTUAL-RIGHT-MARGIN] <->",
+          "functional_translation": "¶ [RECIPE-HEADER] conduit/tube(t)+[ched] [of-root] ; mix/prepare [VIRTUAL-RIGHT-MARGIN] <->"
+        },
+        {
+          "loc": "f48v.7",
+          "eva_clause": "<-> [VIRTUAL-LEFT-MARGIN] ypchedy . otedy . shefeeedy . al [VIRTUAL-RIGHT-MARGIN] <->",
+          "functional_translation": "<-> [VIRTUAL-LEFT-MARGIN] then compound/treat ; the ROSETTE/ZOD:otedy[fRos.72/Scorpio]-treated ; decoct/boil+vessel/body(k) ; substance/degree(al) [to-measure] [VIRTUAL-RIGHT-MARGIN] <->"
+        },
+        {
+          "loc": "f48v.7",
+          "eva_clause": "<-> [VIRTUAL-LEFT-MARGIN] shedy . otedy . fcheodal . cpheeg",
+          "functional_translation": "<-> [VIRTUAL-LEFT-MARGIN] heat/steep ; the ROSETTE/ZOD:otedy[fRos.72/Scorpio]-treated ; distill/align(star)+[eod] [to-measure] ; press/extract(leaf)+[eg]"
+        },
+        {
+          "loc": "f48v.8",
+          "eva_clause": "oteody . chkey [VIRTUAL-RIGHT-MARGIN] <->",
+          "functional_translation": "the draw/channel ; [chk] [VIRTUAL-RIGHT-MARGIN] <->"
+        },
+        {
+          "loc": "f48v.8",
+          "eva_clause": "<-> [VIRTUAL-LEFT-MARGIN] okedy . chckhedy . ykedy . oldy [VIRTUAL-RIGHT-MARGIN] <->",
+          "functional_translation": "<-> [VIRTUAL-LEFT-MARGIN] the vessel/body(k)-treated ; mix/prepare+bathe/wash(blue-herb) ; then vessel/body(k)-treated ; the fluid/stream(ol)-treated [VIRTUAL-RIGHT-MARGIN] <->"
+        },
+        {
+          "loc": "f48v.8",
+          "eva_clause": "<-> [VIRTUAL-LEFT-MARGIN] otoly . chey . kaly . tokar . otam",
+          "functional_translation": "<-> [VIRTUAL-LEFT-MARGIN] the conduit/tube(t) ; mix/prepare ; vessel/body(k) ; ray/spoke(to)+vessel/body(k) [of-root] ; the PLANT/DEG:otar[f88v.4/Pisces] (to completion!)"
+        },
+        {
+          "loc": "f48v.9",
+          "eva_clause": "tor . shody . okal [VIRTUAL-RIGHT-MARGIN] <->",
+          "functional_translation": "conduit/tube(t) [from-source] ; heat/steep ; the vessel/body(k) [to-measure] [VIRTUAL-RIGHT-MARGIN] <->"
+        },
+        {
+          "loc": "f48v.9",
+          "eva_clause": "<-> [VIRTUAL-LEFT-MARGIN] otchedy . cheky . oly . loldy . lol [VIRTUAL-RIGHT-MARGIN] <->",
+          "functional_translation": "<-> [VIRTUAL-LEFT-MARGIN] the compound/treat ; infuse+vessel/body(k) ; the fluid/stream(ol)+[y] ; liquid(l)+fluid/stream(ol)-treated ; liquid(l) [in-fluid] [VIRTUAL-RIGHT-MARGIN] <->"
+        },
+        {
+          "loc": "f48v.9",
+          "eva_clause": "<-> [VIRTUAL-LEFT-MARGIN] otchdy . otoldy . ytam",
+          "functional_translation": "<-> [VIRTUAL-LEFT-MARGIN] **[2-WORD ROSETTES CRIB: `otchdy . otoldy` (fRos.45)]** the ROSETTE/STAR:otchdy[fRos.45/f67v2] ; the ROSETTE-HUB:otoldy[fRos.45]-treated ; then conduit/tube(t) (to completion!)"
+        },
+        {
+          "loc": "f48v.9",
+          "eva_clause": "otedy",
+          "functional_translation": "the ROSETTE/ZOD:otedy[fRos.72/Scorpio]-treated"
+        },
+        {
+          "loc": "f48v.10",
+          "eva_clause": "tol . chedy . ytedy [VIRTUAL-RIGHT-MARGIN] <->",
+          "functional_translation": "conduit/tube(t) [in-fluid] ; mix/prepare ; thus conduit/tube(t)-treated [VIRTUAL-RIGHT-MARGIN] <->"
+        },
+        {
+          "loc": "f48v.10",
+          "eva_clause": "<-> [VIRTUAL-LEFT-MARGIN] ykeol . chdy . chdor . chtol . chdy [VIRTUAL-RIGHT-MARGIN] <->",
+          "functional_translation": "<-> [VIRTUAL-LEFT-MARGIN] then cook/simmer [in-fluid] ; mix/prepare ; [chd] [from-source] ; [cht] [in-fluid] ; mix/prepare [VIRTUAL-RIGHT-MARGIN] <->"
+        },
+        {
+          "loc": "f48v.10",
+          "eva_clause": "<-> [VIRTUAL-LEFT-MARGIN] ytchedal . cthey . okarar . ary",
+          "functional_translation": "<-> [VIRTUAL-LEFT-MARGIN] then conduit/tube(t)+[ched] [to-measure] ; press/extract(leaf) ; the vessel/body(k)+root-shoot(ar) [of-root] ; root-shoot(ar)+[y]"
+        },
+        {
+          "loc": "f48v.11",
+          "eva_clause": "ykeedal . chckhy [VIRTUAL-RIGHT-MARGIN] <-> ∎",
+          "functional_translation": "thus cook/simmer+base/hub(d) [to-measure] ; mix/prepare+bathe/wash(blue-herb) [VIRTUAL-RIGHT-MARGIN] <-> ∎"
+        },
+        {
+          "loc": "f48v.11",
+          "eva_clause": "<-> [VIRTUAL-LEFT-MARGIN] ykal . ytam",
+          "functional_translation": "<-> [VIRTUAL-LEFT-MARGIN] then vessel/body(k) [to-measure] ; then conduit/tube(t) (to completion!)"
+        },
+        {
+          "loc": "f48v.11",
+          "eva_clause": "or . cheedls . sary ∎",
+          "functional_translation": "the jar-herb(or) [from-source] ; [ched]+liquid(l) ; seed/part(s) ∎"
+        }
+      ]
+    },
+    {
+      "folio": "f84r",
+      "title": "4. Biological `f84r` (`Language B, Hand 2` — Overhead Conduits `t`, Bathing Nymphs `k`, Basins `sh/d` & `<fRos> daraldy . otedaiin`)",
+      "clause_count": 11,
+      "clauses": [
+        {
+          "loc": "f84r.1",
+          "eva_clause": "ololal",
+          "functional_translation": "the fluid/stream(ol)+fluid/stream(ol) [to-measure]"
+        },
+        {
+          "loc": "f84r.2",
+          "eva_clause": "or . shekar",
+          "functional_translation": "the jar-herb(or) [from-source] ; decoct/boil+vessel/body(k) [of-root]"
+        },
+        {
+          "loc": "f84r.3",
+          "eva_clause": "ydy",
+          "functional_translation": "thus [y]-treated"
+        },
+        {
+          "loc": "f84r.4",
+          "eva_clause": "okedy",
+          "functional_translation": "the vessel/body(k)-treated"
+        },
+        {
+          "loc": "f84r.5",
+          "eva_clause": "loly",
+          "functional_translation": "liquid(l)"
+        },
+        {
+          "loc": "f84r.6",
+          "eva_clause": "doiir",
+          "functional_translation": "[doi]"
+        },
+        {
+          "loc": "f84r.32",
+          "eva_clause": "qotar . ytedy . tedy . dar . olkedy",
+          "functional_translation": "and the PLANT/DEG:otar[f88v.4/Pisces] [of-root] ; thus conduit/tube(t)-treated ; conduit/tube(t)-treated ; base/hub(d) [of-root] ; the [olk]-treated"
+        },
+        {
+          "loc": "f84r.32",
+          "eva_clause": "qotedy . shckhy . chtol . tedy . dar . oroly",
+          "functional_translation": "and the ROSETTE/ZOD:otedy[fRos.72/Scorpio]-treated ; heat/steep+bathe/wash(blue-herb) ; [cht] [in-fluid] ; conduit/tube(t)-treated ; base/hub(d) [of-root] ; the jar-herb(or)"
+        },
+        {
+          "loc": "f84r.33",
+          "eva_clause": "shol . tchdytedy . ykain . shey . cheolytedy . olkedy . okedar . olkeedolary",
+          "functional_translation": "heat/steep [in-fluid] ; [tchd]+[yt]-treated ; thus vessel/body(k) [1-unit] ; heat/steep ; infuse+[oly]+conduit/tube(t) ; the [olk]-treated ; the cook/simmer+base/hub(d) [of-root] ; the fluid/stream(ol)+[ked]+fluid/stream(ol)"
+        },
+        {
+          "loc": "f84r.34",
+          "eva_clause": "dsheyteey . sor . ol . shedy . daraldy . otedaiin . shckhchy . chckhy . daiinaryly",
+          "functional_translation": "base/hub(d)+decoct/boil+[yt] ; seed/part(s) [from-source] ; the fluid/stream(ol) [in-fluid] ; heat/steep ; ROSETTE-HAPAX:daraldy[fRos]-treated ; the ROSETTE:otedain[fRos.72/103] [1-unit] ; heat/steep+bathe/wash(blue-herb)+mix/prepare ; mix/prepare+bathe/wash(blue-herb) ; [dain]+root-shoot(ar)+[y]"
+        },
+        {
+          "loc": "f84r.35",
+          "eva_clause": "qokal . daiin . dain . otey . cheor . air . shckhy . orairoro ∎",
+          "functional_translation": "and the vessel/body(k) [to-measure] ; base/hub(d) [1-unit] ; base/hub(d) [1-unit] ; the conduit/tube(t) ; infuse [from-source] ; [ai] ; heat/steep+bathe/wash(blue-herb) ; the jar-herb(or)+aether/degree(air)+jar-herb(or)+core-entity(o) ∎"
+        }
+      ]
+    },
+    {
+      "folio": "f105r",
+      "title": "5. Starred Recipe `f105r:P1–P2` (`Language B, Hand 3` — Same-Star `★L. -> ★L.` Chained Recipes for `<f88v.4> otar . arody`)",
+      "clause_count": 17,
+      "clauses": [
+        {
+          "loc": "f105r.1",
+          "eva_clause": "[★L.] ¶ aiindar . chcphy . qokeey . qopaiin",
+          "functional_translation": "[★L.] ¶ unit-measure(ain)+base/hub(d) [of-root] ; mix/prepare+press/extract(leaf) ; and the vessel/body(k) ; and the conduit/tube(t) [1-unit]"
+        },
+        {
+          "loc": "f105r.1",
+          "eva_clause": "ypcheeey . saraisl . aiin . cheedy . aiin . arody",
+          "functional_translation": "thus compound/treat ; [sar]+[ai]+seed/part(s) ; unit-measure(ain) [1-unit] ; mix/prepare ; unit-measure(ain) [1-unit] ; ROOT:arody[f88v.4]-treated"
+        },
+        {
+          "loc": "f105r.2",
+          "eva_clause": "dshees . yey . cheey . raiin . otchdy",
+          "functional_translation": "base/hub(d)+decoct/boil ; thus [ey] ; mix/prepare ; portion(r) [1-unit] ; the ROSETTE/STAR:otchdy[fRos.45/f67v2]"
+        },
+        {
+          "loc": "f105r.2",
+          "eva_clause": "qodor . ches . or . cheey . okees . odar . cheodyqody",
+          "functional_translation": "and the base/hub(d) [from-source] ; infuse ; the jar-herb(or) [from-source] ; mix/prepare ; the cook/simmer ; the base/hub(d) [of-root] ; [cheo]+completed-state(dy)+[q]-treated"
+        },
+        {
+          "loc": "f105r.3",
+          "eva_clause": "olshey . qoden . odeey . kcheody . cheeo . ar . yteey",
+          "functional_translation": "the fluid/stream(ol)+heat/steep ; and the [de]+[n] ; the base/hub(d) ; vessel/body(k)+infuse ; [cheo] ; root-shoot(ar) [of-root] ; thus conduit/tube(t)"
+        },
+        {
+          "loc": "f105r.3",
+          "eva_clause": "ytchy . otedy . qokeedy . qokeey . rol",
+          "functional_translation": "thus compound/treat ; the ROSETTE/ZOD:otedy[fRos.72/Scorpio]-treated ; and the vessel/body(k)-treated ; and the vessel/body(k) ; portion(r) [in-fluid]"
+        },
+        {
+          "loc": "f105r.4",
+          "eva_clause": "ykaiin . olkeedy . odaiin . okar . eeeodaiin",
+          "functional_translation": "thus vessel/body(k) [1-unit] ; the [olk]-treated ; the base/hub(d) [1-unit] ; the vessel/body(k) [of-root] ; [eod] [1-unit]"
+        },
+        {
+          "loc": "f105r.4",
+          "eva_clause": "yteey . ochedy . qokeeey . oy . teedy . qotam",
+          "functional_translation": "thus conduit/tube(t) ; the mix/prepare ; and the vessel/body(k) ; the core-entity(o) ; conduit/tube(t)-treated ; and the PLANT/DEG:otar[f88v.4/Pisces] (to completion!)"
+        },
+        {
+          "loc": "f105r.5",
+          "eva_clause": "daiin . yteedy . yteeeody . yl . cheod . or . aiiroekey . otchdy . otey ∎",
+          "functional_translation": "base/hub(d) [1-unit] ; thus conduit/tube(t)-treated ; thus draw/channel ; [y] ; [cheo] ; the jar-herb(or) [from-source] ; aether/degree(air)+[oe]+vessel/body(k) ; the ROSETTE/STAR:otchdy[fRos.45/f67v2] ; the conduit/tube(t) ∎"
+        },
+        {
+          "loc": "f105r.6",
+          "eva_clause": "[★L.] ¶ par . arody . shedeeey . qopchedy",
+          "functional_translation": "[★L.] ¶ **[2-WORD BOTANICAL CRIB: `otar . arody` (f88v.4 Plant #4)]** [RECIPE-HEADER] conduit/tube(t) [of-root] ; ROOT:arody[f88v.4]-treated ; decoct/boil+base/hub(d) ; and the compound/treat"
+        },
+        {
+          "loc": "f105r.6",
+          "eva_clause": "qody . qoteody . aiin . yteody . qokor . olpshedy",
+          "functional_translation": "and the completed-state(dy)-treated ; and the draw/channel ; unit-measure(ain) [1-unit] ; thus draw/channel ; and the vessel/body(k) [from-source] ; the fluid/stream(ol)+[tsh]-treated"
+        },
+        {
+          "loc": "f105r.7",
+          "eva_clause": "ysheeody . ykeeos . or . aiiin . shey",
+          "functional_translation": "thus decoct/boil ; thus boil-pharma ; the jar-herb(or) [from-source] ; unit-measure(ain) ; heat/steep"
+        },
+        {
+          "loc": "f105r.7",
+          "eva_clause": "qodaiiin . qokeed . qokeey . saiin . aiirody",
+          "functional_translation": "and the base/hub(d) ; and the cook/simmer ; and the vessel/body(k) ; seed/part(s) [1-unit] ; aether/degree(air)-treated"
+        },
+        {
+          "loc": "f105r.8",
+          "eva_clause": "sheey . oleeey . orair . qokaiin . chey",
+          "functional_translation": "heat/steep ; the fluid/stream(ol) ; the jar-herb(or)+[ai] ; and the vessel/body(k) [1-unit] ; mix/prepare"
+        },
+        {
+          "loc": "f105r.8",
+          "eva_clause": "qokeedy . qokedy . oteedy . lchedy . oesal",
+          "functional_translation": "and the vessel/body(k)-treated ; and the vessel/body(k)-treated ; the ROSETTE/ZOD:otedy[fRos.72/Scorpio]-treated ; blend-in-liquid ; the [es] [to-measure]"
+        },
+        {
+          "loc": "f105r.9",
+          "eva_clause": "oeeolchy . okeeydy . okeey . okchey",
+          "functional_translation": "the [eol]+mix/prepare ; the vessel/body(k)+[ey]-treated ; the vessel/body(k) ; the distill/align(star)"
+        },
+        {
+          "loc": "f105r.10",
+          "eva_clause": "sairy . ore . daiindy . ytam ∎",
+          "functional_translation": "[sai] ; the jar-herb(or)+[e] ; base/hub(d)+unit-measure(ain)-treated ; thus conduit/tube(t) (to completion!) ∎"
+        }
+      ]
+    },
+    {
+      "folio": "f114v",
+      "title": "6. Starred Recipe `f114v:P1 & P10` (`Language B, Hand 3` — 5-Crib Recipe P1 & Clause-Final `tar . arody` Recipe P10)",
+      "clause_count": 11,
+      "clauses": [
+        {
+          "loc": "f114v.1",
+          "eva_clause": "[★L] ¶ pchdol . dar . chedain . chodalr . fcheey . dchedy",
+          "functional_translation": "[★L] ¶ [RECIPE-HEADER] compound/treat+base/hub(d) [in-fluid] ; base/hub(d) [of-root] ; infuse+base/hub(d) [1-unit] ; [chod]+substance/degree(al) ; distill/align(star) ; [dch]-treated"
+        },
+        {
+          "loc": "f114v.1",
+          "eva_clause": "qocphdy . otdady . qotedar . daiin",
+          "functional_translation": "and the press/extract(leaf) ; the conduit/tube(t)+seed-pod(da)-treated ; and the draw/channel+base/hub(d) [of-root] ; base/hub(d) [1-unit]"
+        },
+        {
+          "loc": "f114v.2",
+          "eva_clause": "dshedal . qoteody . choddy . otol . chedal . otain . chedol . chedain . shedy . qotched . dl",
+          "functional_translation": "base/hub(d)+[shed] [to-measure] ; and the draw/channel ; [cho]+base/hub(d)-treated ; the conduit/tube(t) [in-fluid] ; infuse+base/hub(d) [to-measure] ; the conduit/tube(t) [1-unit] ; infuse+base/hub(d) [in-fluid] ; infuse+base/hub(d) [1-unit] ; heat/steep ; and the conduit/tube(t)+infuse ; base/hub(d)"
+        },
+        {
+          "loc": "f114v.3",
+          "eva_clause": "oeos . qotcheo . odain . qotain . otar . qotchd . dol . qotchedy . choty . ol . lchdaiin . dal",
+          "functional_translation": "the [eo] ; and the conduit/tube(t)+[cheo] ; the base/hub(d) [1-unit] ; and the conduit/tube(t) [1-unit] ; the PLANT/DEG:otar[f88v.4/Pisces] [of-root] ; and the compound/treat ; base/hub(d) [in-fluid] ; and the compound/treat ; [cho]+conduit/tube(t) ; the fluid/stream(ol) [in-fluid] ; blend-in-liquid+base/hub(d) [1-unit] ; base/hub(d) [to-measure]"
+        },
+        {
+          "loc": "f114v.4",
+          "eva_clause": "qokedy . cheocthedy . qoted . qotedol . chedar . qotedy . okeedy . daiin . chedaiin . oky",
+          "functional_translation": "and the vessel/body(k)-treated ; [cheo]+press/extract(leaf) ; and the draw/channel ; and the draw/channel+base/hub(d) [in-fluid] ; infuse+base/hub(d) [of-root] ; and the ROSETTE/ZOD:otedy[fRos.72/Scorpio]-treated ; the vessel/body(k)-treated ; base/hub(d) [1-unit] ; infuse+base/hub(d) [1-unit] ; the vessel/body(k)"
+        },
+        {
+          "loc": "f114v.5",
+          "eva_clause": "chedy . qokeedy . okaly . cheedain . shedy ∎",
+          "functional_translation": "mix/prepare ; and the vessel/body(k)-treated ; the vessel/body(k) ; infuse+base/hub(d) [1-unit] ; heat/steep ∎"
+        },
+        {
+          "loc": "f114v.36",
+          "eva_clause": "[★L.] ¶ tshey . oidal . op . shoko . otchey",
+          "functional_translation": "[★L.] ¶ [tsh] ; the [i]+base/hub(d) [to-measure] ; the [ot] ; [sho]+star-node(ko) ; the compound/treat"
+        },
+        {
+          "loc": "f114v.36",
+          "eva_clause": "qopchol . qopaiin . qotar . alkal . ram",
+          "functional_translation": "and the compound/treat [in-fluid] ; and the conduit/tube(t) [1-unit] ; and the PLANT/DEG:otar[f88v.4/Pisces] [of-root] ; substance/degree(al)+vessel/body(k) [to-measure] ; portion(r) (to completion!)"
+        },
+        {
+          "loc": "f114v.37",
+          "eva_clause": "dcheey . ol . cheodaiiin . qokar . otaiin . otal . okaiin . chey . tar . arody",
+          "functional_translation": "**[2-WORD BOTANICAL CRIB: `otar . arody` (f88v.4 Plant #4)]** [dch] ; the fluid/stream(ol) [in-fluid] ; [cheo]+base/hub(d) ; and the vessel/body(k) [of-root] ; the conduit/tube(t) [1-unit] ; the conduit/tube(t) [to-measure] ; the vessel/body(k) [1-unit] ; mix/prepare ; conduit/tube(t) [of-root] ; ROOT:arody[f88v.4]-treated"
+        },
+        {
+          "loc": "f114v.38",
+          "eva_clause": "oteey . okedaiin . otaiin . qotchey",
+          "functional_translation": "the conduit/tube(t) ; the cook/simmer+base/hub(d) [1-unit] ; the conduit/tube(t) [1-unit] ; and the compound/treat"
+        },
+        {
+          "loc": "f114v.38",
+          "eva_clause": "qoteeody . otaiin . okal . dals",
+          "functional_translation": "and the draw/channel ; the conduit/tube(t) [1-unit] ; the vessel/body(k) [to-measure] ; base/hub(d)+substance/degree(al)"
+        }
+      ]
+    },
+    {
+      "folio": "f107r",
+      "title": "7. Starred Recipe `f107r:P4` (`Language B, Hand 3` — The 5-Nymph Water-Trigon Astrological Recipe: `20°–22° Pisces + 19° Cancer + 17° Virgo`)",
+      "clause_count": 9,
+      "clauses": [
+        {
+          "loc": "f107r.11",
+          "eva_clause": "cheeo . cheeol . qokaiin . ytain",
+          "functional_translation": "[cheo] ; infuse [in-fluid] ; and the vessel/body(k) [1-unit] ; thus conduit/tube(t) [1-unit]"
+        },
+        {
+          "loc": "f107r.11",
+          "eva_clause": "y . keeoll . oraiin . okaiin . okar . okaiin . otaram",
+          "functional_translation": "[y] ; cook/simmer+fluid/stream(ol) ; the jar-herb(or) [1-unit] ; the vessel/body(k) [1-unit] ; the vessel/body(k) [of-root] ; the vessel/body(k) [1-unit] ; the conduit/tube(t)+root-shoot(ar) (to completion!)"
+        },
+        {
+          "loc": "f107r.12",
+          "eva_clause": "ychol . chol . loraiir . aiinal ∎",
+          "functional_translation": "thus mix/prepare [in-fluid] ; mix/prepare [in-fluid] ; [lo]+[rai] ; unit-measure(ain) [to-measure] ∎"
+        },
+        {
+          "loc": "f107r.13",
+          "eva_clause": "[★L] ¶ polchlsaiin . sheky . qokaiin . opchal . shedy",
+          "functional_translation": "[★L] ¶ [RECIPE-HEADER] conduit/tube(t)+[olch]+[ls] [1-unit] ; decoct/boil+vessel/body(k) ; and the vessel/body(k) [1-unit] ; the compound/treat [to-measure] ; heat/steep"
+        },
+        {
+          "loc": "f107r.13",
+          "eva_clause": "pshedaiin . otodal . shedy . otaral",
+          "functional_translation": "conduit/tube(t)+[shed] [1-unit] ; the ray/spoke(to)+base/hub(d) [to-measure] ; heat/steep ; the ZODIAC:21°Pisces(otaral)[f70v2.23] [to-measure]"
+        },
+        {
+          "loc": "f107r.14",
+          "eva_clause": "cthedy . lshedy . cheolchear . oralam",
+          "functional_translation": "press/extract(leaf) ; [lsh]-treated ; [cheo]+[lche] [of-root] ; the jar-herb(or)+substance/degree(al) (to completion!)"
+        },
+        {
+          "loc": "f107r.14",
+          "eva_clause": "chtaiin . otarain . chey . qokaiin . otain",
+          "functional_translation": "[cht] [1-unit] ; the conduit/tube(t)+root-shoot(ar) [1-unit] ; mix/prepare ; and the vessel/body(k) [1-unit] ; the conduit/tube(t) [1-unit]"
+        },
+        {
+          "loc": "f107r.15",
+          "eva_clause": "ychol . oiin . chey . qockhal . al . otaraiin . sheky . okeeey . raiin . airal",
+          "functional_translation": "thus mix/prepare [in-fluid] ; the [in] ; mix/prepare ; and the bathe/wash(blue-herb) [to-measure] ; substance/degree(al) [to-measure] ; the conduit/tube(t)+root-shoot(ar) [1-unit] ; decoct/boil+vessel/body(k) ; the vessel/body(k) ; portion(r) [1-unit] ; ZODIAC:19°Cancer(airal)[f72r3.21] [to-measure]"
+        },
+        {
+          "loc": "f107r.16",
+          "eva_clause": "tolshoror . olkeedy . qotaiin . otalar . opcheol . qeeoy . shey . kair . otaiinam",
+          "functional_translation": "conduit/tube(t)+[olsh]+jar-herb(or) [from-source] ; the [olk]-treated ; and the conduit/tube(t) [1-unit] ; the ZODIAC:22°Pisces(otalar)[f70v2.24] [of-root] ; the conduit/tube(t)+infuse [in-fluid] ; and [eo] ; heat/steep ; [kai] ; the ZODIAC-HAPAX:17°Virgo(opaiinam)[f72v2.18] (to completion!)"
+        }
+      ]
+    },
+    {
+      "folio": "f113r",
+      "title": "8. Starred Recipe `f113r:P1` (`Language B, Hand 3` — Exact Partile Water-Trigon Trine: `12° Cancer ykolairol` + `12° Scorpio oteeosy`)",
+      "clause_count": 3,
+      "clauses": [
+        {
+          "loc": "f113r.1",
+          "eva_clause": "[★L] ¶ pcheschy . ypcheedy . fchdy . chetar . qopchedaiin . oteey . oty . lkchy . chodain . alar . chedy",
+          "functional_translation": "[★L] ¶ [RECIPE-HEADER] [tche]+[sch] ; thus compound/treat ; distill/align(star) ; infuse+conduit/tube(t) [of-root] ; and the conduit/tube(t)+[ched] [1-unit] ; the conduit/tube(t) ; the conduit/tube(t) ; decant-liquid+mix/prepare ; [cho]+base/hub(d) [1-unit] ; substance/degree(al) [of-root] ; mix/prepare"
+        },
+        {
+          "loc": "f113r.2",
+          "eva_clause": "dar . okeedy . oteeody . qokedy . otchechy . okeorl . alkeeos . ched . al . ar . chy . ykolairol",
+          "functional_translation": "base/hub(d) [of-root] ; the vessel/body(k)-treated ; the draw/channel ; and the vessel/body(k)-treated ; the [tche]+mix/prepare ; the cook/simmer+jar-herb(or) ; substance/degree(al)+boil-pharma ; infuse ; substance/degree(al) [to-measure] ; root-shoot(ar) [of-root] ; mix/prepare ; thus ZODIAC-HAPAX:12°Cancer(ykolairol)[f72r3.13] [in-fluid]"
+        },
+        {
+          "loc": "f113r.3",
+          "eva_clause": "shchs . oal . chsaiin . oteeosy ∎",
+          "functional_translation": "[shch] ; the substance/degree(al) [to-measure] ; [chs] [1-unit] ; the contain/measure+seed/part(s) ∎"
+        }
+      ]
+    }
+  ]
+}

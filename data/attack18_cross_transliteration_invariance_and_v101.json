@@ -1,0 +1,1654 @@
+{
+  "summary": {
+    "zl_it_aligned_tokens": 20395,
+    "zl_it_exact_raw_agreement_pct": 91.68,
+    "zl_it_disagreements": 1696,
+    "disagreements_resolved_by_stage3_fst": 97,
+    "disagreements_resolved_by_stage3_pct": 5.72,
+    "disagreements_resolved_by_core_root": 344,
+    "disagreements_resolved_by_core_root_pct": 20.28,
+    "it_word_splits_of_zl_unbroken_words": 239,
+    "it_word_splits_hitting_morpheme_or_radical_boundary": 205,
+    "it_word_splits_morpheme_or_radical_pct": 85.77,
+    "zl_gc_v101_aligned_tokens": 20466
+  },
+  "top_zl_it_disagreements_resolved_by_fst": [
+    {
+      "pair": "qokaiin <-> qokain => okain",
+      "count": 8
+    },
+    {
+      "pair": "okaiin <-> okain => okain",
+      "count": 4
+    },
+    {
+      "pair": "qokain <-> qokaiin => okain",
+      "count": 3
+    },
+    {
+      "pair": "dain <-> daiin => dain",
+      "count": 3
+    },
+    {
+      "pair": "otaiin <-> otain => otain",
+      "count": 2
+    },
+    {
+      "pair": "ain <-> aiin => ain",
+      "count": 2
+    },
+    {
+      "pair": "daiin <-> dain => dain",
+      "count": 2
+    },
+    {
+      "pair": "okaiiin <-> okaiin => okain",
+      "count": 2
+    },
+    {
+      "pair": "sain <-> saiin => sain",
+      "count": 2
+    },
+    {
+      "pair": "skeekyd <-> skekyd => skekyd",
+      "count": 1
+    },
+    {
+      "pair": "oeeor <-> oeor => oeor",
+      "count": 1
+    },
+    {
+      "pair": "rain <-> raiin => rain",
+      "count": 1
+    },
+    {
+      "pair": "shkaiin <-> shkain => shkain",
+      "count": 1
+    },
+    {
+      "pair": "dsheey <-> dshey => dshey",
+      "count": 1
+    },
+    {
+      "pair": "saiin <-> sain => sain",
+      "count": 1
+    },
+    {
+      "pair": "qoedy <-> qoeedy => oedy",
+      "count": 1
+    },
+    {
+      "pair": "shey <-> sheey => shey",
+      "count": 1
+    },
+    {
+      "pair": "osaiin <-> osaiiin => osain",
+      "count": 1
+    },
+    {
+      "pair": "cheeekan <-> cheekan => chekan",
+      "count": 1
+    },
+    {
+      "pair": "okcharain <-> okcharaiin => okcharain",
+      "count": 1
+    },
+    {
+      "pair": "polos <-> tolos => tolos",
+      "count": 1
+    },
+    {
+      "pair": "dcheoaiin <-> dcheoain => dcheoain",
+      "count": 1
+    },
+    {
+      "pair": "fairal <-> faiiral => kairal",
+      "count": 1
+    },
+    {
+      "pair": "ykeol <-> ykeeol => ykeol",
+      "count": 1
+    },
+    {
+      "pair": "olkeedy <-> olkeeedy => olkedy",
+      "count": 1
+    }
+  ],
+  "it_word_split_examples": [
+    {
+      "loc": "f100r.24",
+      "zl_unbroken": "cholsheody",
+      "it_split": "chol . sheody",
+      "boundary_type": "COMPOUND_ROOT_SPLIT",
+      "core_root": "cholshe",
+      "radicals": [
+        "chol",
+        "she"
+      ]
+    },
+    {
+      "loc": "f100v.5",
+      "zl_unbroken": "soleesos",
+      "it_split": "sol . eesos",
+      "boundary_type": "COMPOUND_ROOT_SPLIT",
+      "core_root": "soleso",
+      "radicals": [
+        "s",
+        "ol",
+        "e",
+        "so"
+      ]
+    },
+    {
+      "loc": "f101v.12",
+      "zl_unbroken": "oraram",
+      "it_split": "orar . am",
+      "boundary_type": "RADICAL2_OR_SUFFIX_SPLIT",
+      "core_root": "orar",
+      "radicals": [
+        "or",
+        "ar"
+      ]
+    },
+    {
+      "loc": "f102r1.15",
+      "zl_unbroken": "ykeeykam",
+      "it_split": "ykeey . kam",
+      "boundary_type": "COMPOUND_ROOT_SPLIT",
+      "core_root": "keyk",
+      "radicals": [
+        "ke",
+        "yk"
+      ]
+    },
+    {
+      "loc": "f102r1.4",
+      "zl_unbroken": "qokcheololain",
+      "it_split": "qokcheo . lolain",
+      "boundary_type": "OTHER",
+      "core_root": "kcheolol",
+      "radicals": [
+        "kche",
+        "ol",
+        "ol"
+      ]
+    },
+    {
+      "loc": "f102r2.4",
+      "zl_unbroken": "oldor",
+      "it_split": "ol . dor",
+      "boundary_type": "PREFIX_OR_RADICAL1_SPLIT",
+      "core_root": "old",
+      "radicals": [
+        "ol",
+        "d"
+      ]
+    },
+    {
+      "loc": "f102v1.7",
+      "zl_unbroken": "sheocthy",
+      "it_split": "sheo . cthy",
+      "boundary_type": "COMPOUND_ROOT_SPLIT",
+      "core_root": "sheocth",
+      "radicals": [
+        "sheo",
+        "cth"
+      ]
+    },
+    {
+      "loc": "f102v2.34",
+      "zl_unbroken": "sorshey",
+      "it_split": "sor . shey",
+      "boundary_type": "RADICAL2_OR_SUFFIX_SPLIT",
+      "core_root": "sorsh",
+      "radicals": [
+        "so",
+        "rsh"
+      ]
+    },
+    {
+      "loc": "f103r.1",
+      "zl_unbroken": "daldy",
+      "it_split": "dal . dy",
+      "boundary_type": "PREFIX_OR_RADICAL1_SPLIT",
+      "core_root": "dal",
+      "radicals": [
+        "d",
+        "al"
+      ]
+    },
+    {
+      "loc": "f103r.11",
+      "zl_unbroken": "lolshedy",
+      "it_split": "lol . shedy",
+      "boundary_type": "RADICAL2_OR_SUFFIX_SPLIT",
+      "core_root": "lolsh",
+      "radicals": [
+        "l",
+        "olsh"
+      ]
+    },
+    {
+      "loc": "f103r.18",
+      "zl_unbroken": "oteeylshedy",
+      "it_split": "oteey . lshedy",
+      "boundary_type": "OTHER",
+      "core_root": "teylsh",
+      "radicals": [
+        "t",
+        "ey",
+        "lsh"
+      ]
+    },
+    {
+      "loc": "f103r.4",
+      "zl_unbroken": "chedaraly",
+      "it_split": "chedar . aly",
+      "boundary_type": "COMPOUND_ROOT_SPLIT",
+      "core_root": "chedar",
+      "radicals": [
+        "ched",
+        "ar"
+      ]
+    },
+    {
+      "loc": "f103v.22",
+      "zl_unbroken": "qotalsheey",
+      "it_split": "qotal . sheey",
+      "boundary_type": "OTHER",
+      "core_root": "talsh",
+      "radicals": [
+        "tal",
+        "sh"
+      ]
+    },
+    {
+      "loc": "f103v.42",
+      "zl_unbroken": "sheykain",
+      "it_split": "shey . kain",
+      "boundary_type": "COMPOUND_ROOT_SPLIT",
+      "core_root": "sheyk",
+      "radicals": [
+        "she",
+        "yk"
+      ]
+    },
+    {
+      "loc": "f104r.1",
+      "zl_unbroken": "oteeochey",
+      "it_split": "oteeo . chey",
+      "boundary_type": "RADICAL2_OR_SUFFIX_SPLIT",
+      "core_root": "teoch",
+      "radicals": [
+        "teo",
+        "ch"
+      ]
+    },
+    {
+      "loc": "f104r.15",
+      "zl_unbroken": "otolkeechdy",
+      "it_split": "otol . keechdy",
+      "boundary_type": "OTHER",
+      "core_root": "tolkech",
+      "radicals": [
+        "tol",
+        "kech"
+      ]
+    },
+    {
+      "loc": "f104r.18",
+      "zl_unbroken": "otalkshedy",
+      "it_split": "otal . kshedy",
+      "boundary_type": "OTHER",
+      "core_root": "talksh",
+      "radicals": [
+        "tal",
+        "ksh"
+      ]
+    },
+    {
+      "loc": "f105r.35",
+      "zl_unbroken": "orolpchey",
+      "it_split": "orol . pchey",
+      "boundary_type": "OTHER",
+      "core_root": "oroltch",
+      "radicals": [
+        "or",
+        "ol",
+        "tch"
+      ]
+    },
+    {
+      "loc": "f105v.34",
+      "zl_unbroken": "lkldain",
+      "it_split": "lkl . dain",
+      "boundary_type": "RADICAL2_OR_SUFFIX_SPLIT",
+      "core_root": "lkld",
+      "radicals": [
+        "lk",
+        "ld"
+      ]
+    },
+    {
+      "loc": "f106r.17",
+      "zl_unbroken": "aiinchodar",
+      "it_split": "aiin . chodar",
+      "boundary_type": "OTHER",
+      "core_root": "ainchod",
+      "radicals": [
+        "ain",
+        "chod"
+      ]
+    },
+    {
+      "loc": "f106r.6",
+      "zl_unbroken": "qokeeolchedy",
+      "it_split": "qokeeo . lchedy",
+      "boundary_type": "OTHER",
+      "core_root": "keolch",
+      "radicals": [
+        "ke",
+        "olch"
+      ]
+    },
+    {
+      "loc": "f106v.1",
+      "zl_unbroken": "oteodaiin",
+      "it_split": "oteo . daiin",
+      "boundary_type": "RADICAL2_OR_SUFFIX_SPLIT",
+      "core_root": "teod",
+      "radicals": [
+        "teo",
+        "d"
+      ]
+    },
+    {
+      "loc": "f106v.12",
+      "zl_unbroken": "otalchdy",
+      "it_split": "otal . chdy",
+      "boundary_type": "COMPOUND_ROOT_SPLIT",
+      "core_root": "talch",
+      "radicals": [
+        "tal",
+        "ch"
+      ]
+    },
+    {
+      "loc": "f106v.13",
+      "zl_unbroken": "olkeealkchedy",
+      "it_split": "olkeeal . kchedy",
+      "boundary_type": "COMPOUND_ROOT_SPLIT",
+      "core_root": "olkealkch",
+      "radicals": [
+        "olk",
+        "ea",
+        "lkch"
+      ]
+    },
+    {
+      "loc": "f106v.19",
+      "zl_unbroken": "darshy",
+      "it_split": "dar . shy",
+      "boundary_type": "PREFIX_OR_RADICAL1_SPLIT",
+      "core_root": "darsh",
+      "radicals": [
+        "dar",
+        "sh"
+      ]
+    },
+    {
+      "loc": "f106v.22",
+      "zl_unbroken": "shdykairylam",
+      "it_split": "shdykairy . lam",
+      "boundary_type": "OTHER",
+      "core_root": "shdykairyl",
+      "radicals": [
+        "shd",
+        "yk",
+        "air",
+        "yl"
+      ]
+    },
+    {
+      "loc": "f106v.26",
+      "zl_unbroken": "aral",
+      "it_split": "ar . al",
+      "boundary_type": "PREFIX_OR_RADICAL1_SPLIT",
+      "core_root": "ar",
+      "radicals": [
+        "ar"
+      ]
+    },
+    {
+      "loc": "f106v.27",
+      "zl_unbroken": "oarar",
+      "it_split": "o . arar",
+      "boundary_type": "PREFIX_OR_RADICAL1_SPLIT",
+      "core_root": "ar",
+      "radicals": [
+        "ar"
+      ]
+    },
+    {
+      "loc": "f106v.28",
+      "zl_unbroken": "otydy",
+      "it_split": "oty . dy",
+      "boundary_type": "RADICAL2_OR_SUFFIX_SPLIT",
+      "core_root": "ty",
+      "radicals": [
+        "ty"
+      ]
+    },
+    {
+      "loc": "f106v.44",
+      "zl_unbroken": "keeyrain",
+      "it_split": "keey . rain",
+      "boundary_type": "COMPOUND_ROOT_SPLIT",
+      "core_root": "keyr",
+      "radicals": [
+        "k",
+        "ey",
+        "r"
+      ]
+    },
+    {
+      "loc": "f107r.11",
+      "zl_unbroken": "oraiin",
+      "it_split": "or . aiin",
+      "boundary_type": "PREFIX_OR_RADICAL1_SPLIT",
+      "core_root": "or",
+      "radicals": [
+        "or"
+      ]
+    },
+    {
+      "loc": "f107r.12",
+      "zl_unbroken": "loraiir",
+      "it_split": "lor . aiir",
+      "boundary_type": "COMPOUND_ROOT_SPLIT",
+      "core_root": "lorai",
+      "radicals": [
+        "lo",
+        "rai"
+      ]
+    },
+    {
+      "loc": "f107r.16",
+      "zl_unbroken": "otaiinam",
+      "it_split": "otaiin . am",
+      "boundary_type": "RADICAL2_OR_SUFFIX_SPLIT",
+      "core_root": "tain",
+      "radicals": [
+        "t",
+        "ain"
+      ]
+    },
+    {
+      "loc": "f107r.28",
+      "zl_unbroken": "ykalkal",
+      "it_split": "ykal . kal",
+      "boundary_type": "COMPOUND_ROOT_SPLIT",
+      "core_root": "kalk",
+      "radicals": [
+        "kal",
+        "k"
+      ]
+    },
+    {
+      "loc": "f107r.29",
+      "zl_unbroken": "olkeeolkeeo",
+      "it_split": "olkeeo . lkeeo",
+      "boundary_type": "OTHER",
+      "core_root": "olkeolkeo",
+      "radicals": [
+        "olk",
+        "eol",
+        "keo"
+      ]
+    }
+  ],
+  "v101_subglyph_analysis": {
+    "eva_y_initial_to_v101_onset": [
+      [
+        "9",
+        977
+      ],
+      [
+        "(",
+        34
+      ],
+      [
+        "A",
+        6
+      ],
+      [
+        "o",
+        5
+      ],
+      [
+        "s",
+        1
+      ],
+      [
+        "4",
+        1
+      ],
+      [
+        "g",
+        1
+      ]
+    ],
+    "eva_y_final_to_v101_coda": [
+      [
+        "9",
+        8322
+      ],
+      [
+        "(",
+        188
+      ],
+      [
+        "o",
+        13
+      ],
+      [
+        "A",
+        13
+      ],
+      [
+        "e",
+        10
+      ],
+      [
+        "y",
+        6
+      ],
+      [
+        "m",
+        4
+      ],
+      [
+        "n",
+        3
+      ]
+    ],
+    "eva_aiin_to_v101_by_currier_lang": {
+      "?": [
+        [
+          "am",
+          2114
+        ],
+        [
+          "an",
+          32
+        ],
+        [
+          "Am",
+          25
+        ],
+        [
+          "om",
+          8
+        ],
+        [
+          "cM",
+          4
+        ],
+        [
+          "az",
+          2
+        ]
+      ]
+    },
+    "eva_edy_to_v101_by_hand_sec": {
+      "Hand_1_Herbal (Botanical)": [
+        [
+          "c89",
+          4
+        ],
+        [
+          "C89",
+          1
+        ]
+      ],
+      "Hand_1_Pharmaceutical": [
+        [
+          "c89",
+          3
+        ],
+        [
+          "C89",
+          2
+        ],
+        [
+          "c79",
+          2
+        ],
+        [
+          "c69",
+          1
+        ],
+        [
+          "C79",
+          1
+        ]
+      ],
+      "Hand_2_Biological (Balneological)": [
+        [
+          "c89",
+          541
+        ],
+        [
+          "c79",
+          197
+        ],
+        [
+          "C89",
+          121
+        ],
+        [
+          "C79",
+          40
+        ],
+        [
+          "c8(",
+          22
+        ]
+      ],
+      "Hand_2_Cosmological": [
+        [
+          "c89",
+          19
+        ],
+        [
+          "c79",
+          11
+        ],
+        [
+          "C79",
+          1
+        ],
+        [
+          "c8(",
+          1
+        ],
+        [
+          "d79",
+          1
+        ]
+      ],
+      "Hand_2_Herbal (Botanical)": [
+        [
+          "c79",
+          95
+        ],
+        [
+          "c89",
+          77
+        ],
+        [
+          "C89",
+          8
+        ],
+        [
+          "C79",
+          4
+        ],
+        [
+          "189",
+          2
+        ]
+      ],
+      "Hand_2_Text-only": [
+        [
+          "c89",
+          68
+        ],
+        [
+          "c79",
+          26
+        ],
+        [
+          "C89",
+          9
+        ],
+        [
+          "C79",
+          2
+        ],
+        [
+          "c8(",
+          1
+        ]
+      ],
+      "Hand_3_Herbal (Botanical)": [
+        [
+          "c89",
+          11
+        ],
+        [
+          "c79",
+          9
+        ],
+        [
+          "C89",
+          2
+        ],
+        [
+          "C79",
+          1
+        ],
+        [
+          "c69",
+          1
+        ]
+      ],
+      "Hand_3_Starred Recipes": [
+        [
+          "c89",
+          454
+        ],
+        [
+          "c79",
+          186
+        ],
+        [
+          "C89",
+          114
+        ],
+        [
+          "C79",
+          43
+        ],
+        [
+          "c8(",
+          23
+        ]
+      ],
+      "Hand_4_Astronomical": [
+        [
+          "c89",
+          2
+        ],
+        [
+          "c79",
+          2
+        ]
+      ],
+      "Hand_4_Cosmological": [
+        [
+          "c89",
+          7
+        ],
+        [
+          "c79",
+          5
+        ],
+        [
+          "c69",
+          1
+        ],
+        [
+          "c8(",
+          1
+        ],
+        [
+          "C79",
+          1
+        ]
+      ],
+      "Hand_4_Zodiac (Astrological)": [
+        [
+          "c79",
+          4
+        ],
+        [
+          "C79",
+          2
+        ],
+        [
+          "C89",
+          2
+        ],
+        [
+          "c89",
+          1
+        ],
+        [
+          "c69",
+          1
+        ]
+      ],
+      "Hand_5_Herbal (Botanical)": [
+        [
+          "c89",
+          39
+        ],
+        [
+          "c79",
+          21
+        ],
+        [
+          "C89",
+          5
+        ],
+        [
+          "C79",
+          4
+        ],
+        [
+          "189",
+          3
+        ]
+      ],
+      "Hand_5_Text-only": [
+        [
+          "c89",
+          15
+        ],
+        [
+          "c79",
+          9
+        ],
+        [
+          "c69",
+          1
+        ],
+        [
+          "c8(",
+          1
+        ],
+        [
+          "C89",
+          1
+        ]
+      ],
+      "Hand_@_Starred Recipes": [
+        [
+          "c89",
+          22
+        ],
+        [
+          "c79",
+          5
+        ],
+        [
+          "C89",
+          3
+        ],
+        [
+          "C79",
+          1
+        ],
+        [
+          "C8(",
+          1
+        ]
+      ]
+    },
+    "eva_d_8_vs_7_by_internal_context": {
+      "1_word_initial_d-": {
+        "8": 1726,
+        "7": 259
+      },
+      "2_post_e_(-ed-)": {
+        "8": 1936,
+        "7": 815
+      },
+      "3_post_o_(-od-)": {
+        "8": 1128,
+        "7": 146
+      },
+      "4_post_ch/sh_(-chd-)": {
+        "8": 382,
+        "7": 159
+      },
+      "5_post_liquid_(-ld/-rd-)": {
+        "7": 66,
+        "8": 223
+      },
+      "6_post_a_(-ad-)": {
+        "8": 65,
+        "7": 6
+      }
+    },
+    "eva_d_8_vs_7_by_section": {
+      "Astronomical": {
+        "8": 97,
+        "7": 19
+      },
+      "Biological (Balneological)": {
+        "8": 1079,
+        "7": 322
+      },
+      "Cosmological": {
+        "8": 173,
+        "7": 63
+      },
+      "Herbal (Botanical)": {
+        "8": 2038,
+        "7": 465
+      },
+      "Pharmaceutical": {
+        "8": 287,
+        "7": 67
+      },
+      "Starred Recipes": {
+        "8": 1554,
+        "7": 424
+      },
+      "Text-only": {
+        "8": 316,
+        "7": 85
+      },
+      "Zodiac (Astrological)": {
+        "8": 48,
+        "7": 36
+      }
+    },
+    "eva_sh_2356_by_following_vowel": {
+      "sha-": {
+        "5": 2,
+        "2": 47,
+        "3": 4
+      },
+      "she-": {
+        "3": 117,
+        "2": 689,
+        "5": 95
+      },
+      "sho-": {
+        "2": 341,
+        "3": 46,
+        "5": 17
+      },
+      "shy-": {
+        "2": 49,
+        "3": 11,
+        "5": 4
+      }
+    },
+    "eva_ee_C_vs_cc_by_section": {
+      "Astronomical": {
+        "cc_double": 18,
+        "C_ligature": 19
+      },
+      "Biological (Balneological)": {
+        "C_ligature": 328,
+        "cc_double": 161
+      },
+      "Cosmological": {
+        "cc_double": 33,
+        "C_ligature": 34
+      },
+      "Herbal (Botanical)": {
+        "C_ligature": 208,
+        "cc_double": 183
+      },
+      "Pharmaceutical": {
+        "cc_double": 47,
+        "C_ligature": 97
+      },
+      "Starred Recipes": {
+        "cc_double": 317,
+        "C_ligature": 637
+      },
+      "Text-only": {
+        "C_ligature": 49,
+        "cc_double": 37
+      },
+      "Zodiac (Astrological)": {
+        "cc_double": 22,
+        "C_ligature": 25
+      }
+    },
+    "eva_homograph_splits_in_v101": [
+      {
+        "eva_word": "chedy",
+        "total_aligned": 270,
+        "v101_variants": [
+          {
+            "v101": "1c89",
+            "count": 168,
+            "pct": 62.2
+          },
+          {
+            "v101": "1c79",
+            "count": 88,
+            "pct": 32.6
+          },
+          {
+            "v101": "1c8(",
+            "count": 7,
+            "pct": 2.6
+          },
+          {
+            "v101": "1c69",
+            "count": 2,
+            "pct": 0.7
+          }
+        ]
+      },
+      {
+        "eva_word": "qokedy",
+        "total_aligned": 173,
+        "v101_variants": [
+          {
+            "v101": "4ohc89",
+            "count": 102,
+            "pct": 59.0
+          },
+          {
+            "v101": "4ohc79",
+            "count": 58,
+            "pct": 33.5
+          },
+          {
+            "v101": "4ohc8(",
+            "count": 4,
+            "pct": 2.3
+          },
+          {
+            "v101": "4okc89",
+            "count": 3,
+            "pct": 1.7
+          }
+        ]
+      },
+      {
+        "eva_word": "daiin",
+        "total_aligned": 502,
+        "v101_variants": [
+          {
+            "v101": "8am",
+            "count": 433,
+            "pct": 86.3
+          },
+          {
+            "v101": "7am",
+            "count": 54,
+            "pct": 10.8
+          },
+          {
+            "v101": "8an",
+            "count": 4,
+            "pct": 0.8
+          },
+          {
+            "v101": "8Am",
+            "count": 4,
+            "pct": 0.8
+          }
+        ]
+      },
+      {
+        "eva_word": "shedy",
+        "total_aligned": 233,
+        "v101_variants": [
+          {
+            "v101": "2c89",
+            "count": 101,
+            "pct": 43.3
+          },
+          {
+            "v101": "2c79",
+            "count": 50,
+            "pct": 21.5
+          },
+          {
+            "v101": "3c89",
+            "count": 25,
+            "pct": 10.7
+          },
+          {
+            "v101": "5c89",
+            "count": 18,
+            "pct": 7.7
+          }
+        ]
+      },
+      {
+        "eva_word": "qokeedy",
+        "total_aligned": 196,
+        "v101_variants": [
+          {
+            "v101": "4ohC89",
+            "count": 85,
+            "pct": 43.4
+          },
+          {
+            "v101": "4ohcc89",
+            "count": 44,
+            "pct": 22.4
+          },
+          {
+            "v101": "4ohC79",
+            "count": 34,
+            "pct": 17.3
+          },
+          {
+            "v101": "4ohcc79",
+            "count": 14,
+            "pct": 7.1
+          }
+        ]
+      },
+      {
+        "eva_word": "cheey",
+        "total_aligned": 80,
+        "v101_variants": [
+          {
+            "v101": "1C9",
+            "count": 43,
+            "pct": 53.8
+          },
+          {
+            "v101": "1cc9",
+            "count": 33,
+            "pct": 41.2
+          },
+          {
+            "v101": "1cc(",
+            "count": 2,
+            "pct": 2.5
+          },
+          {
+            "v101": "g1cc9",
+            "count": 1,
+            "pct": 1.2
+          }
+        ]
+      },
+      {
+        "eva_word": "otedy",
+        "total_aligned": 89,
+        "v101_variants": [
+          {
+            "v101": "okc89",
+            "count": 46,
+            "pct": 51.7
+          },
+          {
+            "v101": "okc79",
+            "count": 31,
+            "pct": 34.8
+          },
+          {
+            "v101": "ohc89",
+            "count": 3,
+            "pct": 3.4
+          },
+          {
+            "v101": "okc8(",
+            "count": 3,
+            "pct": 3.4
+          }
+        ]
+      },
+      {
+        "eva_word": "qokeey",
+        "total_aligned": 172,
+        "v101_variants": [
+          {
+            "v101": "4ohC9",
+            "count": 136,
+            "pct": 79.1
+          },
+          {
+            "v101": "4ohcc9",
+            "count": 28,
+            "pct": 16.3
+          },
+          {
+            "v101": "4ohC(",
+            "count": 5,
+            "pct": 2.9
+          },
+          {
+            "v101": "4ohcc(",
+            "count": 2,
+            "pct": 1.2
+          }
+        ]
+      },
+      {
+        "eva_word": "okedy",
+        "total_aligned": 67,
+        "v101_variants": [
+          {
+            "v101": "ohc89",
+            "count": 31,
+            "pct": 46.3
+          },
+          {
+            "v101": "ohc79",
+            "count": 26,
+            "pct": 38.8
+          },
+          {
+            "v101": "Ahc79",
+            "count": 2,
+            "pct": 3.0
+          },
+          {
+            "v101": "ohc69",
+            "count": 2,
+            "pct": 3.0
+          }
+        ]
+      },
+      {
+        "eva_word": "chdy",
+        "total_aligned": 77,
+        "v101_variants": [
+          {
+            "v101": "189",
+            "count": 49,
+            "pct": 63.6
+          },
+          {
+            "v101": "179",
+            "count": 25,
+            "pct": 32.5
+          },
+          {
+            "v101": "1R89",
+            "count": 1,
+            "pct": 1.3
+          },
+          {
+            "v101": "1o9",
+            "count": 1,
+            "pct": 1.3
+          }
+        ]
+      },
+      {
+        "eva_word": "okeey",
+        "total_aligned": 85,
+        "v101_variants": [
+          {
+            "v101": "ohC9",
+            "count": 52,
+            "pct": 61.2
+          },
+          {
+            "v101": "ohcc9",
+            "count": 22,
+            "pct": 25.9
+          },
+          {
+            "v101": "oh19",
+            "count": 2,
+            "pct": 2.4
+          },
+          {
+            "v101": "ahC9",
+            "count": 1,
+            "pct": 1.2
+          }
+        ]
+      },
+      {
+        "eva_word": "dal",
+        "total_aligned": 111,
+        "v101_variants": [
+          {
+            "v101": "8ae",
+            "count": 87,
+            "pct": 78.4
+          },
+          {
+            "v101": "7ae",
+            "count": 21,
+            "pct": 18.9
+          },
+          {
+            "v101": "8oe",
+            "count": 3,
+            "pct": 2.7
+          }
+        ]
+      },
+      {
+        "eva_word": "lchedy",
+        "total_aligned": 71,
+        "v101_variants": [
+          {
+            "v101": "e1c89",
+            "count": 44,
+            "pct": 62.0
+          },
+          {
+            "v101": "e1c79",
+            "count": 21,
+            "pct": 29.6
+          },
+          {
+            "v101": "e1c69",
+            "count": 2,
+            "pct": 2.8
+          },
+          {
+            "v101": "e1c8(",
+            "count": 2,
+            "pct": 2.8
+          }
+        ]
+      },
+      {
+        "eva_word": "sheey",
+        "total_aligned": 82,
+        "v101_variants": [
+          {
+            "v101": "2C9",
+            "count": 39,
+            "pct": 47.6
+          },
+          {
+            "v101": "2cc9",
+            "count": 17,
+            "pct": 20.7
+          },
+          {
+            "v101": "5C9",
+            "count": 5,
+            "pct": 6.1
+          },
+          {
+            "v101": "3C9",
+            "count": 5,
+            "pct": 6.1
+          }
+        ]
+      },
+      {
+        "eva_word": "dar",
+        "total_aligned": 159,
+        "v101_variants": [
+          {
+            "v101": "8ay",
+            "count": 131,
+            "pct": 82.4
+          },
+          {
+            "v101": "7ay",
+            "count": 17,
+            "pct": 10.7
+          },
+          {
+            "v101": "8oy",
+            "count": 3,
+            "pct": 1.9
+          },
+          {
+            "v101": "8Ay",
+            "count": 2,
+            "pct": 1.3
+          }
+        ]
+      },
+      {
+        "eva_word": "oteedy",
+        "total_aligned": 49,
+        "v101_variants": [
+          {
+            "v101": "okcc89",
+            "count": 20,
+            "pct": 40.8
+          },
+          {
+            "v101": "okC89",
+            "count": 17,
+            "pct": 34.7
+          },
+          {
+            "v101": "okC79",
+            "count": 4,
+            "pct": 8.2
+          },
+          {
+            "v101": "okcc79",
+            "count": 3,
+            "pct": 6.1
+          }
+        ]
+      },
+      {
+        "eva_word": "okeedy",
+        "total_aligned": 63,
+        "v101_variants": [
+          {
+            "v101": "ohC89",
+            "count": 20,
+            "pct": 31.7
+          },
+          {
+            "v101": "ohcc89",
+            "count": 16,
+            "pct": 25.4
+          },
+          {
+            "v101": "ohC79",
+            "count": 12,
+            "pct": 19.0
+          },
+          {
+            "v101": "ohcc79",
+            "count": 6,
+            "pct": 9.5
+          }
+        ]
+      },
+      {
+        "eva_word": "oteey",
+        "total_aligned": 64,
+        "v101_variants": [
+          {
+            "v101": "okC9",
+            "count": 39,
+            "pct": 60.9
+          },
+          {
+            "v101": "okcc9",
+            "count": 15,
+            "pct": 23.4
+          },
+          {
+            "v101": "okC(",
+            "count": 2,
+            "pct": 3.1
+          },
+          {
+            "v101": "akcc9",
+            "count": 1,
+            "pct": 1.6
+          }
+        ]
+      },
+      {
+        "eva_word": "qotedy",
+        "total_aligned": 52,
+        "v101_variants": [
+          {
+            "v101": "4okc89",
+            "count": 33,
+            "pct": 63.5
+          },
+          {
+            "v101": "4okc79",
+            "count": 15,
+            "pct": 28.8
+          },
+          {
+            "v101": "4okc7(",
+            "count": 1,
+            "pct": 1.9
+          },
+          {
+            "v101": "4okc6(",
+            "count": 1,
+            "pct": 1.9
+          }
+        ]
+      },
+      {
+        "eva_word": "shey",
+        "total_aligned": 121,
+        "v101_variants": [
+          {
+            "v101": "2c9",
+            "count": 79,
+            "pct": 65.3
+          },
+          {
+            "v101": "3c9",
+            "count": 14,
+            "pct": 11.6
+          },
+          {
+            "v101": "5c9",
+            "count": 14,
+            "pct": 11.6
+          },
+          {
+            "v101": "%c9",
+            "count": 8,
+            "pct": 6.6
+          }
+        ]
+      },
+      {
+        "eva_word": "dam",
+        "total_aligned": 46,
+        "v101_variants": [
+          {
+            "v101": "8ap",
+            "count": 27,
+            "pct": 58.7
+          },
+          {
+            "v101": "7ap",
+            "count": 14,
+            "pct": 30.4
+          },
+          {
+            "v101": "8a",
+            "count": 1,
+            "pct": 2.2
+          },
+          {
+            "v101": "7Ap",
+            "count": 1,
+            "pct": 2.2
+          }
+        ]
+      },
+      {
+        "eva_word": "dain",
+        "total_aligned": 125,
+        "v101_variants": [
+          {
+            "v101": "8an",
+            "count": 106,
+            "pct": 84.8
+          },
+          {
+            "v101": "7an",
+            "count": 12,
+            "pct": 9.6
+          },
+          {
+            "v101": "8An",
+            "count": 1,
+            "pct": 0.8
+          },
+          {
+            "v101": "8cm",
+            "count": 1,
+            "pct": 0.8
+          }
+        ]
+      },
+      {
+        "eva_word": "dy",
+        "total_aligned": 104,
+        "v101_variants": [
+          {
+            "v101": "89",
+            "count": 88,
+            "pct": 84.6
+          },
+          {
+            "v101": "79",
+            "count": 11,
+            "pct": 10.6
+          },
+          {
+            "v101": "cc89",
+            "count": 1,
+            "pct": 1.0
+          },
+          {
+            "v101": "8(",
+            "count": 1,
+            "pct": 1.0
+          }
+        ]
+      },
+      {
+        "eva_word": "qoteedy",
+        "total_aligned": 43,
+        "v101_variants": [
+          {
+            "v101": "4okcc89",
+            "count": 18,
+            "pct": 41.9
+          },
+          {
+            "v101": "4okC89",
+            "count": 11,
+            "pct": 25.6
+          },
+          {
+            "v101": "4okC79",
+            "count": 6,
+            "pct": 14.0
+          },
+          {
+            "v101": "4okcc79",
+            "count": 5,
+            "pct": 11.6
+          }
+        ]
+      },
+      {
+        "eva_word": "qokchdy",
+        "total_aligned": 33,
+        "v101_variants": [
+          {
+            "v101": "4oh189",
+            "count": 17,
+            "pct": 51.5
+          },
+          {
+            "v101": "4oh179",
+            "count": 10,
+            "pct": 30.3
+          },
+          {
+            "v101": "4ohC69",
+            "count": 1,
+            "pct": 3.0
+          },
+          {
+            "v101": "4o189",
+            "count": 1,
+            "pct": 3.0
+          }
+        ]
+      }
+    ],
+    "v101_words_split_by_eva": []
+  }
+}

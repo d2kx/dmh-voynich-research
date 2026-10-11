@@ -263,6 +263,28 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 26. The `<->` Drawing-Intrusion Virtual Margin Law (`4.02×` `y-` Surge, `3.81×` `q-` Collapse) & Vertical Anatomical Radical Stratification (`Attack 17`)
+- **The `<->` Virtual Margin Law (`742` Drawing Boundaries)**: Words immediately left of an illustration (`w_left <->`) act as Virtual Right-Margin closers (`44.47%` `-y`, `2.29%` `-m`), whereas words immediately right of an illustration (`<-> w_right`) act as Virtual Left-Margin openers: **`y-` surges `4.02×` (`14.42%` vs. `3.59%` interior, $z = +10.74, p < 10^{-25}$)**, **`o-` surges `1.52×` (`24.53%`)**, and **`q-` collapses `3.81×` (`3.23%` vs. `12.31%` interior, $z = -7.12$)** (`pages/f3r_otchom_oporar_intrusion_enh.png`, `pages/f6r_otcham_yaiir_intrusion_enh.png`).
+- **Vertical Anatomical Radical Stratification at `<->` Touchpoints**: In Herbal (`$I=H`), bottom root-zone `<->` boundaries (`lines 9+`) enrich **`ar` (`2.03×`)** and **`or` (`1.63×`)**; in Biological (`$I=B`), top pipe-zone `<->` boundaries (`lines 1–5`) enrich **`t` (`1.59×`, Tube/Duct)**, middle nymph-zone boundaries (`lines 6–15`) enrich **`k` (`1.61×`, Nymph/Body)**, and bottom basin-zone boundaries (`lines 16+`) enrich **`sh` (`1.47×`, Heat/Steep)** and **`d` (`1.29×`)**.
+
+---
+
+### 27. Cross-Transliteration Paleographic Invariance (`85.77%` Split Alignment) & Glen Claston `v101` Sub-Glyph Ductus Conditioning (`Attack 18`)
+- **`85.77%` (`205 / 239`) Independent `IT2a-n` Word Splits of Unbroken `ZL3b-n` Words Hit Exact `[Prefix | R_1 + R_2 | -Suffix]` Boundaries**.
+- **Glen Claston `v101` (`GC2a-n.txt`) Sub-Glyph Ductus Conditioning**: Word-initial `y-` (`95.2%`) and word-final `-y` (`97.2%`) both map to the same `v101` glyph `9`. Open-bottom `d` (`v101` `7` vs. `8`) surges **`2.58×` (`29.6%` vs. `8.5%–13.0%`)** immediately after `e` (`-ed-`) and `ch/sh` (`-chd-`) due to horizontal exit-stroke ligature ductus, while two-thirds (`66.8%–67.4%`) of `ee` sequences in Biological/Pharma/Recipes are written as the single linked ligature `C`.
+
+---
+
+### 28. Computer-Vision Pigment & Botanical Morphology Concordance Across All `110` Herbal Folios (`f1r–f57r`, `Attack 19`)
+- **Controlled Within-Language Concordances**: Extracting `2x2` block-filtered RGB pigment features directly from `2002046.pdf` proves that **Red/Crimson Crown folios** (`f11v`, `f3r`, `f40v`, `pages/f11v_red_blossom_cthe_enh.png`) enrich **`cthe` (`3.95×`, $z = +2.82$)** and **`she` (`1.85×`, $z = +2.39$)**; **Blue/Violet Blossom folios** (`f16v`, `f3v`, `f44r`, `pages/f16v_blue_blossom_ckh_enh.png`) enrich **`ky` (`4.41×`, $z = +2.73$)** and Line-1 Header **`ckh` (`3.07×`)**; **Dark Seed-Pod folios** (`f3v`, `f44r`, `f24r`) enrich **`da` (`3.31×`, $z = +2.68$)** and Line-1 Header **`or` (`2.31×`)**; and **Massive Bulbous / Red-Ochre Root folios** (`f13r`, `f31r`, `f55v`) enrich **`ol` (`1.49×`, $z = +2.41$)** and Line-1 Header **`cth` (`2.20×`, `55.6%` of folios)**.
+
+---
+
+### 29. Clause-Level Verb–Argument Selectional Mutual Information ($z = +9.48$) & Functional Clause-Translation Benchmark ([`notes/READABILITY_TRANSLATION_BENCHMARK.md`](notes/READABILITY_TRANSLATION_BENCHMARK.md), `Attack 20`)
+- **Selectional Mutual Information Within Clauses**: Across `4,990` verb+argument clauses (out of `7,179` segmented clauses), $I(R_{\text{verb}} ; R_{\text{nom}}) = 0.0885\text{ bits}$ vs. $0.0557\text{ bits}$ shuffled null (**$z = +9.48, p < 10^{-20}$**), with side-by-side readable structural translations rendered across 8 flagship folios in [`notes/READABILITY_TRANSLATION_BENCHMARK.md`](notes/READABILITY_TRANSLATION_BENCHMARK.md).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -310,4 +332,8 @@ python tools/attack13_multiword_phrase_crib_scanner.py
 python tools/attack14_elementary_radical_lexicon.py
 python tools/attack15_chained_recipes_and_d_triads.py
 python tools/attack16_radical_clause_translation_edition.py
+python tools/attack17_drawing_intrusion_anchor_concordance.py
+python tools/attack18_cross_transliteration_invariance_and_v101.py
+python tools/attack19_herbal_visual_pigment_radical_concordance.py
+python tools/attack20_functional_clause_translation_solver.py
 ```

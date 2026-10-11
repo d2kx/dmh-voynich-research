@@ -1,0 +1,2627 @@
+{
+  "summary": {
+    "total_herbal_folios_analyzed": 110,
+    "currier_A_folios": 85,
+    "currier_B_folios": 25
+  },
+  "visual_feature_radical_concordances": {
+    "RED_CRIMSON_BLOSSOM": {
+      "visual_metric": "top_red_blossom_pct",
+      "top_quartile_folio_count": 27,
+      "top_folios": [
+        {
+          "folio": "f11v",
+          "lang": "A",
+          "metric_val": 7.962,
+          "opener_3": [
+            "poldchody",
+            "shcphy",
+            "shordy"
+          ]
+        },
+        {
+          "folio": "f3r",
+          "lang": "A",
+          "metric_val": 4.293,
+          "opener_3": [
+            "tsheos",
+            "qopal",
+            "chol"
+          ]
+        },
+        {
+          "folio": "f40v",
+          "lang": "B",
+          "metric_val": 3.216,
+          "opener_3": [
+            "pchedain",
+            "chefaiin",
+            "oldy"
+          ]
+        },
+        {
+          "folio": "f55v",
+          "lang": "B",
+          "metric_val": 2.147,
+          "opener_3": [
+            "kcheedchdy",
+            "oedain",
+            "chckhy"
+          ]
+        },
+        {
+          "folio": "f17v",
+          "lang": "A",
+          "metric_val": 1.422,
+          "opener_3": [
+            "pchodol",
+            "chor",
+            "pchy"
+          ]
+        },
+        {
+          "folio": "f49r",
+          "lang": "A",
+          "metric_val": 0.969,
+          "opener_3": [
+            "pychol",
+            "dy",
+            "shor"
+          ]
+        },
+        {
+          "folio": "f18r",
+          "lang": "A",
+          "metric_val": 0.679,
+          "opener_3": [
+            "pdrairdy",
+            "darod",
+            "yoar"
+          ]
+        },
+        {
+          "folio": "f16v",
+          "lang": "A",
+          "metric_val": 0.67,
+          "opener_3": [
+            "pchroiin",
+            "otchor",
+            "chpchol"
+          ]
+        }
+      ],
+      "significantly_enriched_folio_radicals": [
+        {
+          "radical": "cthe",
+          "role": "",
+          "top_quartile_count": 12,
+          "enrichment_vs_rest": 3.95,
+          "z_score_within_lang": 2.82
+        },
+        {
+          "radical": "o",
+          "role": "ENTITY_CORE(o)",
+          "top_quartile_count": 34,
+          "enrichment_vs_rest": 1.83,
+          "z_score_within_lang": 2.67
+        },
+        {
+          "radical": "she",
+          "role": "ACT:decoct",
+          "top_quartile_count": 58,
+          "enrichment_vs_rest": 1.85,
+          "z_score_within_lang": 2.39
+        },
+        {
+          "radical": "yd",
+          "role": "",
+          "top_quartile_count": 18,
+          "enrichment_vs_rest": 1.84,
+          "z_score_within_lang": 1.85
+        },
+        {
+          "radical": "sheo",
+          "role": "",
+          "top_quartile_count": 15,
+          "enrichment_vs_rest": 1.85,
+          "z_score_within_lang": 1.81
+        },
+        {
+          "radical": "chy",
+          "role": "",
+          "top_quartile_count": 10,
+          "enrichment_vs_rest": 2.28,
+          "z_score_within_lang": 1.58
+        },
+        {
+          "radical": "chod",
+          "role": "",
+          "top_quartile_count": 14,
+          "enrichment_vs_rest": 1.98,
+          "z_score_within_lang": 1.52
+        }
+      ],
+      "enriched_line1_header_radicals": [
+        {
+          "radical": "dy",
+          "role": "DONE(dy)",
+          "line1_folio_hits_in_top_quartile": 6,
+          "enrichment_in_line1_header": 1.84
+        },
+        {
+          "radical": "ol",
+          "role": "FLUID/TUBE(ol)",
+          "line1_folio_hits_in_top_quartile": 11,
+          "enrichment_in_line1_header": 1.78
+        },
+        {
+          "radical": "che",
+          "role": "ACT:infuse",
+          "line1_folio_hits_in_top_quartile": 8,
+          "enrichment_in_line1_header": 1.64
+        },
+        {
+          "radical": "yd",
+          "role": "",
+          "line1_folio_hits_in_top_quartile": 4,
+          "enrichment_in_line1_header": 1.54
+        },
+        {
+          "radical": "o",
+          "role": "ENTITY_CORE(o)",
+          "line1_folio_hits_in_top_quartile": 4,
+          "enrichment_in_line1_header": 1.54
+        }
+      ],
+      "opener_gallows_distribution": {
+        "t": 5,
+        "k": 4,
+        "f": 1,
+        "NONE": 2,
+        "p": 15
+      }
+    },
+    "BLUE_VIOLET_BLOSSOM": {
+      "visual_metric": "top_blue_blossom_pct",
+      "top_quartile_folio_count": 27,
+      "top_folios": [
+        {
+          "folio": "f16v",
+          "lang": "A",
+          "metric_val": 12.464,
+          "opener_3": [
+            "pchroiin",
+            "otchor",
+            "chpchol"
+          ]
+        },
+        {
+          "folio": "f3v",
+          "lang": "A",
+          "metric_val": 10.788,
+          "opener_3": [
+            "koaiin",
+            "cphor",
+            "qotoy"
+          ]
+        },
+        {
+          "folio": "f44r",
+          "lang": "A",
+          "metric_val": 9.375,
+          "opener_3": [
+            "tshodpy",
+            "oray",
+            "koees"
+          ]
+        },
+        {
+          "folio": "f50v",
+          "lang": "B",
+          "metric_val": 9.321,
+          "opener_3": [
+            "tchy",
+            "do",
+            "ldar"
+          ]
+        },
+        {
+          "folio": "f51v",
+          "lang": "A",
+          "metric_val": 8.324,
+          "opener_3": [
+            "poshody",
+            "qokodar",
+            "shodaiin"
+          ]
+        },
+        {
+          "folio": "f22r",
+          "lang": "A",
+          "metric_val": 8.216,
+          "opener_3": [
+            "pol",
+            "olshy",
+            "fcholy"
+          ]
+        },
+        {
+          "folio": "f17r",
+          "lang": "A",
+          "metric_val": 8.007,
+          "opener_3": [
+            "fshody",
+            "daram",
+            "ydarchog"
+          ]
+        },
+        {
+          "folio": "f24r",
+          "lang": "A",
+          "metric_val": 7.971,
+          "opener_3": [
+            "porory",
+            "chor",
+            "opchar"
+          ]
+        }
+      ],
+      "significantly_enriched_folio_radicals": [
+        {
+          "radical": "ky",
+          "role": "",
+          "top_quartile_count": 9,
+          "enrichment_vs_rest": 4.41,
+          "z_score_within_lang": 2.73
+        },
+        {
+          "radical": "4",
+          "role": "",
+          "top_quartile_count": 8,
+          "enrichment_vs_rest": 3.36,
+          "z_score_within_lang": 2.01
+        },
+        {
+          "radical": "chy",
+          "role": "",
+          "top_quartile_count": 11,
+          "enrichment_vs_rest": 2.7,
+          "z_score_within_lang": 1.89
+        },
+        {
+          "radical": ";",
+          "role": "",
+          "top_quartile_count": 15,
+          "enrichment_vs_rest": 2.0,
+          "z_score_within_lang": 1.79
+        },
+        {
+          "radical": "da",
+          "role": "",
+          "top_quartile_count": 8,
+          "enrichment_vs_rest": 2.14,
+          "z_score_within_lang": 1.75
+        },
+        {
+          "radical": "sch",
+          "role": "",
+          "top_quartile_count": 11,
+          "enrichment_vs_rest": 1.9,
+          "z_score_within_lang": 1.61
+        }
+      ],
+      "enriched_line1_header_radicals": [
+        {
+          "radical": "ckh",
+          "role": "BALNEO_OP(ckh)",
+          "line1_folio_hits_in_top_quartile": 8,
+          "enrichment_in_line1_header": 3.07
+        },
+        {
+          "radical": "y",
+          "role": "STATE(y)",
+          "line1_folio_hits_in_top_quartile": 5,
+          "enrichment_in_line1_header": 2.56
+        },
+        {
+          "radical": "or",
+          "role": "JAR/HERB(or)",
+          "line1_folio_hits_in_top_quartile": 8,
+          "enrichment_in_line1_header": 1.89
+        }
+      ],
+      "opener_gallows_distribution": {
+        "k": 4,
+        "t": 8,
+        "f": 2,
+        "p": 12,
+        "NONE": 1
+      }
+    },
+    "DARK_SEED_POD_CROWN": {
+      "visual_metric": "top_dark_pod_pct",
+      "top_quartile_folio_count": 27,
+      "top_folios": [
+        {
+          "folio": "f3v",
+          "lang": "A",
+          "metric_val": 9.511,
+          "opener_3": [
+            "koaiin",
+            "cphor",
+            "qotoy"
+          ]
+        },
+        {
+          "folio": "f44r",
+          "lang": "A",
+          "metric_val": 8.759,
+          "opener_3": [
+            "tshodpy",
+            "oray",
+            "koees"
+          ]
+        },
+        {
+          "folio": "f24r",
+          "lang": "A",
+          "metric_val": 8.125,
+          "opener_3": [
+            "porory",
+            "chor",
+            "opchar"
+          ]
+        },
+        {
+          "folio": "f21r",
+          "lang": "A",
+          "metric_val": 8.089,
+          "opener_3": [
+            "pchor",
+            "oeeockhy",
+            "o"
+          ]
+        },
+        {
+          "folio": "f17r",
+          "lang": "A",
+          "metric_val": 8.034,
+          "opener_3": [
+            "fshody",
+            "daram",
+            "ydarchog"
+          ]
+        },
+        {
+          "folio": "f22r",
+          "lang": "A",
+          "metric_val": 7.826,
+          "opener_3": [
+            "pol",
+            "olshy",
+            "fcholy"
+          ]
+        },
+        {
+          "folio": "f27r",
+          "lang": "A",
+          "metric_val": 7.636,
+          "opener_3": [
+            "ksor",
+            "shey",
+            "shoteo"
+          ]
+        },
+        {
+          "folio": "f2r",
+          "lang": "A",
+          "metric_val": 7.609,
+          "opener_3": [
+            "kydainy",
+            "ypchol",
+            "daiin"
+          ]
+        }
+      ],
+      "significantly_enriched_folio_radicals": [
+        {
+          "radical": "da",
+          "role": "",
+          "top_quartile_count": 10,
+          "enrichment_vs_rest": 3.31,
+          "z_score_within_lang": 2.68
+        },
+        {
+          "radical": "o",
+          "role": "ENTITY_CORE(o)",
+          "top_quartile_count": 33,
+          "enrichment_vs_rest": 1.76,
+          "z_score_within_lang": 2.36
+        },
+        {
+          "radical": "dch",
+          "role": "",
+          "top_quartile_count": 44,
+          "enrichment_vs_rest": 1.62,
+          "z_score_within_lang": 1.85
+        },
+        {
+          "radical": "chy",
+          "role": "",
+          "top_quartile_count": 10,
+          "enrichment_vs_rest": 2.29,
+          "z_score_within_lang": 1.63
+        }
+      ],
+      "enriched_line1_header_radicals": [
+        {
+          "radical": "or",
+          "role": "JAR/HERB(or)",
+          "line1_folio_hits_in_top_quartile": 9,
+          "enrichment_in_line1_header": 2.31
+        },
+        {
+          "radical": "o",
+          "role": "ENTITY_CORE(o)",
+          "line1_folio_hits_in_top_quartile": 5,
+          "enrichment_in_line1_header": 2.2
+        },
+        {
+          "radical": "ckh",
+          "role": "BALNEO_OP(ckh)",
+          "line1_folio_hits_in_top_quartile": 6,
+          "enrichment_in_line1_header": 1.84
+        },
+        {
+          "radical": "y",
+          "role": "STATE(y)",
+          "line1_folio_hits_in_top_quartile": 4,
+          "enrichment_in_line1_header": 1.76
+        },
+        {
+          "radical": "che",
+          "role": "ACT:infuse",
+          "line1_folio_hits_in_top_quartile": 8,
+          "enrichment_in_line1_header": 1.64
+        },
+        {
+          "radical": "ain",
+          "role": "ESSENCE/UNIT(ain)",
+          "line1_folio_hits_in_top_quartile": 4,
+          "enrichment_in_line1_header": 1.54
+        }
+      ],
+      "opener_gallows_distribution": {
+        "k": 5,
+        "t": 6,
+        "p": 13,
+        "f": 3
+      }
+    },
+    "DENSE_GREEN_LEAF_CANOPY": {
+      "visual_metric": "total_green_leaf_pct",
+      "top_quartile_folio_count": 27,
+      "top_folios": [
+        {
+          "folio": "f47r",
+          "lang": "A",
+          "metric_val": 20.868,
+          "opener_3": [
+            "@159;chair",
+            "oly",
+            "sheaiin"
+          ]
+        },
+        {
+          "folio": "f25v",
+          "lang": "A",
+          "metric_val": 17.955,
+          "opener_3": [
+            "poeeaiin",
+            "qoky",
+            "shy"
+          ]
+        },
+        {
+          "folio": "f55v",
+          "lang": "B",
+          "metric_val": 16.242,
+          "opener_3": [
+            "kcheedchdy",
+            "oedain",
+            "chckhy"
+          ]
+        },
+        {
+          "folio": "f47v",
+          "lang": "A",
+          "metric_val": 16.092,
+          "opener_3": [
+            "psheot",
+            "cheor",
+            "cholsho"
+          ]
+        },
+        {
+          "folio": "f39r",
+          "lang": "B",
+          "metric_val": 15.685,
+          "opener_3": [
+            "tedochshd",
+            "cphhofy",
+            "chdain"
+          ]
+        },
+        {
+          "folio": "f2v",
+          "lang": "A",
+          "metric_val": 15.349,
+          "opener_3": [
+            "kooiin",
+            "cheopchor",
+            "otaiinodain"
+          ]
+        },
+        {
+          "folio": "f56v",
+          "lang": "A",
+          "metric_val": 14.8,
+          "opener_3": [
+            "kcheat",
+            "shol",
+            "chey"
+          ]
+        },
+        {
+          "folio": "f52r",
+          "lang": "A",
+          "metric_val": 13.536,
+          "opener_3": [
+            "tdokchcfhy",
+            "ycphko",
+            "ytair"
+          ]
+        }
+      ],
+      "significantly_enriched_folio_radicals": [
+        {
+          "radical": "dai",
+          "role": "",
+          "top_quartile_count": 31,
+          "enrichment_vs_rest": 1.68,
+          "z_score_within_lang": 2.47
+        },
+        {
+          "radical": "ain",
+          "role": "ESSENCE/UNIT(ain)",
+          "top_quartile_count": 48,
+          "enrichment_vs_rest": 1.71,
+          "z_score_within_lang": 2.3
+        },
+        {
+          "radical": "ai",
+          "role": "",
+          "top_quartile_count": 13,
+          "enrichment_vs_rest": 1.94,
+          "z_score_within_lang": 2.1
+        },
+        {
+          "radical": "dsh",
+          "role": "",
+          "top_quartile_count": 14,
+          "enrichment_vs_rest": 2.0,
+          "z_score_within_lang": 1.88
+        },
+        {
+          "radical": "ar",
+          "role": "BOTAN/ROOT(ar)",
+          "top_quartile_count": 42,
+          "enrichment_vs_rest": 1.52,
+          "z_score_within_lang": 1.83
+        },
+        {
+          "radical": "an",
+          "role": "",
+          "top_quartile_count": 22,
+          "enrichment_vs_rest": 1.92,
+          "z_score_within_lang": 1.69
+        },
+        {
+          "radical": "cheo",
+          "role": "",
+          "top_quartile_count": 25,
+          "enrichment_vs_rest": 1.67,
+          "z_score_within_lang": 1.66
+        },
+        {
+          "radical": "ol",
+          "role": "FLUID/TUBE(ol)",
+          "top_quartile_count": 93,
+          "enrichment_vs_rest": 1.34,
+          "z_score_within_lang": 1.64
+        }
+      ],
+      "enriched_line1_header_radicals": [
+        {
+          "radical": "y",
+          "role": "STATE(y)",
+          "line1_folio_hits_in_top_quartile": 6,
+          "enrichment_in_line1_header": 3.69
+        },
+        {
+          "radical": "ko",
+          "role": "STAR_NODE(ko)",
+          "line1_folio_hits_in_top_quartile": 6,
+          "enrichment_in_line1_header": 1.68
+        },
+        {
+          "radical": "kch",
+          "role": "STAR_OP(kch)",
+          "line1_folio_hits_in_top_quartile": 10,
+          "enrichment_in_line1_header": 1.54
+        },
+        {
+          "radical": "cho",
+          "role": "",
+          "line1_folio_hits_in_top_quartile": 9,
+          "enrichment_in_line1_header": 1.54
+        },
+        {
+          "radical": "yd",
+          "role": "",
+          "line1_folio_hits_in_top_quartile": 4,
+          "enrichment_in_line1_header": 1.54
+        },
+        {
+          "radical": "ain",
+          "role": "ESSENCE/UNIT(ain)",
+          "line1_folio_hits_in_top_quartile": 4,
+          "enrichment_in_line1_header": 1.54
+        }
+      ],
+      "opener_gallows_distribution": {
+        "k": 7,
+        "f": 2,
+        "NONE": 3,
+        "p": 11,
+        "t": 4
+      }
+    },
+    "MASSIVE_BULBOUS_ROOT": {
+      "visual_metric": "bot_root_mass_pct",
+      "top_quartile_folio_count": 27,
+      "top_folios": [
+        {
+          "folio": "f13r",
+          "lang": "A",
+          "metric_val": 18.988,
+          "opener_3": [
+            "torshor",
+            "opchy",
+            "shol"
+          ]
+        },
+        {
+          "folio": "f31r",
+          "lang": "B",
+          "metric_val": 17.526,
+          "opener_3": [
+            "keedey",
+            "qofchedy",
+            "shees"
+          ]
+        },
+        {
+          "folio": "f55v",
+          "lang": "B",
+          "metric_val": 15.881,
+          "opener_3": [
+            "kcheedchdy",
+            "oedain",
+            "chckhy"
+          ]
+        },
+        {
+          "folio": "f47v",
+          "lang": "A",
+          "metric_val": 14.296,
+          "opener_3": [
+            "psheot",
+            "cheor",
+            "cholsho"
+          ]
+        },
+        {
+          "folio": "f52r",
+          "lang": "A",
+          "metric_val": 14.075,
+          "opener_3": [
+            "tdokchcfhy",
+            "ycphko",
+            "ytair"
+          ]
+        },
+        {
+          "folio": "f43r",
+          "lang": "B",
+          "metric_val": 13.756,
+          "opener_3": [
+            "tarodaiin",
+            "ytedy",
+            "eeody"
+          ]
+        },
+        {
+          "folio": "f34v",
+          "lang": "B",
+          "metric_val": 11.975,
+          "opener_3": [
+            "ke'chdy",
+            "chdy",
+            "chefchy"
+          ]
+        },
+        {
+          "folio": "f35v",
+          "lang": "A",
+          "metric_val": 11.533,
+          "opener_3": [
+            "parchor",
+            "chocthy",
+            "roaiin"
+          ]
+        }
+      ],
+      "significantly_enriched_folio_radicals": [
+        {
+          "radical": "ol",
+          "role": "FLUID/TUBE(ol)",
+          "top_quartile_count": 102,
+          "enrichment_vs_rest": 1.49,
+          "z_score_within_lang": 2.41
+        },
+        {
+          "radical": "s",
+          "role": "SEED/PART(s)",
+          "top_quartile_count": 92,
+          "enrichment_vs_rest": 1.39,
+          "z_score_within_lang": 2.21
+        },
+        {
+          "radical": "dsh",
+          "role": "",
+          "top_quartile_count": 15,
+          "enrichment_vs_rest": 2.18,
+          "z_score_within_lang": 2.16
+        },
+        {
+          "radical": "do",
+          "role": "",
+          "top_quartile_count": 16,
+          "enrichment_vs_rest": 1.75,
+          "z_score_within_lang": 1.58
+        }
+      ],
+      "enriched_line1_header_radicals": [
+        {
+          "radical": "dch",
+          "role": "",
+          "line1_folio_hits_in_top_quartile": 4,
+          "enrichment_in_line1_header": 2.46
+        },
+        {
+          "radical": "cth",
+          "role": "HERB_LEAF_OP(cth)",
+          "line1_folio_hits_in_top_quartile": 13,
+          "enrichment_in_line1_header": 1.74
+        }
+      ],
+      "opener_gallows_distribution": {
+        "k": 6,
+        "t": 9,
+        "f": 1,
+        "p": 10,
+        "NONE": 1
+      }
+    },
+    "RED_OCHRE_ROOT": {
+      "visual_metric": "bot_red_ochre_root_pct",
+      "top_quartile_folio_count": 27,
+      "top_folios": [
+        {
+          "folio": "f31r",
+          "lang": "B",
+          "metric_val": 15.328,
+          "opener_3": [
+            "keedey",
+            "qofchedy",
+            "shees"
+          ]
+        },
+        {
+          "folio": "f13r",
+          "lang": "A",
+          "metric_val": 14.112,
+          "opener_3": [
+            "torshor",
+            "opchy",
+            "shol"
+          ]
+        },
+        {
+          "folio": "f55v",
+          "lang": "B",
+          "metric_val": 12.085,
+          "opener_3": [
+            "kcheedchdy",
+            "oedain",
+            "chckhy"
+          ]
+        },
+        {
+          "folio": "f52r",
+          "lang": "A",
+          "metric_val": 11.938,
+          "opener_3": [
+            "tdokchcfhy",
+            "ycphko",
+            "ytair"
+          ]
+        },
+        {
+          "folio": "f43r",
+          "lang": "B",
+          "metric_val": 9.248,
+          "opener_3": [
+            "tarodaiin",
+            "ytedy",
+            "eeody"
+          ]
+        },
+        {
+          "folio": "f34v",
+          "lang": "B",
+          "metric_val": 9.175,
+          "opener_3": [
+            "ke'chdy",
+            "chdy",
+            "chefchy"
+          ]
+        },
+        {
+          "folio": "f35v",
+          "lang": "A",
+          "metric_val": 8.106,
+          "opener_3": [
+            "parchor",
+            "chocthy",
+            "roaiin"
+          ]
+        },
+        {
+          "folio": "f51r",
+          "lang": "A",
+          "metric_val": 8.032,
+          "opener_3": [
+            "tsholdchy",
+            "qotchy",
+            "opchear"
+          ]
+        }
+      ],
+      "significantly_enriched_folio_radicals": [
+        {
+          "radical": "ol",
+          "role": "FLUID/TUBE(ol)",
+          "top_quartile_count": 102,
+          "enrichment_vs_rest": 1.45,
+          "z_score_within_lang": 2.28
+        },
+        {
+          "radical": "y",
+          "role": "STATE(y)",
+          "top_quartile_count": 36,
+          "enrichment_vs_rest": 1.43,
+          "z_score_within_lang": 1.51
+        }
+      ],
+      "enriched_line1_header_radicals": [
+        {
+          "radical": "chod",
+          "role": "",
+          "line1_folio_hits_in_top_quartile": 4,
+          "enrichment_in_line1_header": 6.15
+        },
+        {
+          "radical": "ty",
+          "role": "",
+          "line1_folio_hits_in_top_quartile": 4,
+          "enrichment_in_line1_header": 2.46
+        },
+        {
+          "radical": "cth",
+          "role": "HERB_LEAF_OP(cth)",
+          "line1_folio_hits_in_top_quartile": 15,
+          "enrichment_in_line1_header": 2.2
+        },
+        {
+          "radical": "ckh",
+          "role": "BALNEO_OP(ckh)",
+          "line1_folio_hits_in_top_quartile": 6,
+          "enrichment_in_line1_header": 1.84
+        },
+        {
+          "radical": "ko",
+          "role": "STAR_NODE(ko)",
+          "line1_folio_hits_in_top_quartile": 6,
+          "enrichment_in_line1_header": 1.68
+        },
+        {
+          "radical": "yd",
+          "role": "",
+          "line1_folio_hits_in_top_quartile": 4,
+          "enrichment_in_line1_header": 1.54
+        }
+      ],
+      "opener_gallows_distribution": {
+        "t": 9,
+        "k": 5,
+        "f": 1,
+        "p": 11,
+        "NONE": 1
+      }
+    }
+  },
+  "folio_visual_catalog": [
+    {
+      "folio": "f1v",
+      "lang": "A",
+      "opener_word": "kchsy",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.009,
+        "top_blue_blossom_pct": 4.23,
+        "top_dark_pod_pct": 3.995,
+        "mid_green_leaf_pct": 8.786,
+        "total_green_leaf_pct": 6.782,
+        "bot_root_mass_pct": 0.983,
+        "bot_red_ochre_root_pct": 0.012
+      }
+    },
+    {
+      "folio": "f2r",
+      "lang": "A",
+      "opener_word": "kydainy",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.118,
+        "top_blue_blossom_pct": 7.645,
+        "top_dark_pod_pct": 7.609,
+        "mid_green_leaf_pct": 24.694,
+        "total_green_leaf_pct": 10.363,
+        "bot_root_mass_pct": 8.487,
+        "bot_red_ochre_root_pct": 1.376
+      }
+    },
+    {
+      "folio": "f2v",
+      "lang": "A",
+      "opener_word": "kooiin",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 4.185,
+        "top_dark_pod_pct": 3.995,
+        "mid_green_leaf_pct": 34.352,
+        "total_green_leaf_pct": 15.349,
+        "bot_root_mass_pct": 0.725,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f3r",
+      "lang": "A",
+      "opener_word": "tsheos",
+      "opener_gallows": "t",
+      "visual": {
+        "top_red_blossom_pct": 4.293,
+        "top_blue_blossom_pct": 6.893,
+        "top_dark_pod_pct": 6.712,
+        "mid_green_leaf_pct": 17.063,
+        "total_green_leaf_pct": 8.539,
+        "bot_root_mass_pct": 10.44,
+        "bot_red_ochre_root_pct": 4.102
+      }
+    },
+    {
+      "folio": "f3v",
+      "lang": "A",
+      "opener_word": "koaiin",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 10.788,
+        "top_dark_pod_pct": 9.511,
+        "mid_green_leaf_pct": 23.109,
+        "total_green_leaf_pct": 9.749,
+        "bot_root_mass_pct": 5.515,
+        "bot_red_ochre_root_pct": 4.913
+      }
+    },
+    {
+      "folio": "f4r",
+      "lang": "A",
+      "opener_word": "kodalchy",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.553,
+        "top_blue_blossom_pct": 4.411,
+        "top_dark_pod_pct": 3.967,
+        "mid_green_leaf_pct": 5.684,
+        "total_green_leaf_pct": 2.417,
+        "bot_root_mass_pct": 5.588,
+        "bot_red_ochre_root_pct": 0.012
+      }
+    },
+    {
+      "folio": "f4v",
+      "lang": "A",
+      "opener_word": "pchooiin",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 6.005,
+        "top_dark_pod_pct": 4.656,
+        "mid_green_leaf_pct": 5.163,
+        "total_green_leaf_pct": 2.181,
+        "bot_root_mass_pct": 4.274,
+        "bot_red_ochre_root_pct": 0.946
+      }
+    },
+    {
+      "folio": "f5r",
+      "lang": "A",
+      "opener_word": "kchody",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.009,
+        "top_blue_blossom_pct": 4.312,
+        "top_dark_pod_pct": 3.958,
+        "mid_green_leaf_pct": 34.25,
+        "total_green_leaf_pct": 12.522,
+        "bot_root_mass_pct": 3.648,
+        "bot_red_ochre_root_pct": 0.049
+      }
+    },
+    {
+      "folio": "f5v",
+      "lang": "A",
+      "opener_word": "kocheor",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.245,
+        "top_blue_blossom_pct": 3.85,
+        "top_dark_pod_pct": 3.342,
+        "mid_green_leaf_pct": 12.726,
+        "total_green_leaf_pct": 6.936,
+        "bot_root_mass_pct": 1.265,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f6r",
+      "lang": "A",
+      "opener_word": "foar",
+      "opener_gallows": "f",
+      "visual": {
+        "top_red_blossom_pct": 0.245,
+        "top_blue_blossom_pct": 5.19,
+        "top_dark_pod_pct": 4.719,
+        "mid_green_leaf_pct": 26.766,
+        "total_green_leaf_pct": 13.065,
+        "bot_root_mass_pct": 3.034,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f6v",
+      "lang": "A",
+      "opener_word": "koarysar",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.009,
+        "top_blue_blossom_pct": 5.942,
+        "top_dark_pod_pct": 4.266,
+        "mid_green_leaf_pct": 18.478,
+        "total_green_leaf_pct": 7.543,
+        "bot_root_mass_pct": 0.209,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f7r",
+      "lang": "A",
+      "opener_word": "fchodaiin",
+      "opener_gallows": "f",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 5.471,
+        "top_dark_pod_pct": 4.918,
+        "mid_green_leaf_pct": 12.738,
+        "total_green_leaf_pct": 8.806,
+        "bot_root_mass_pct": 7.603,
+        "bot_red_ochre_root_pct": 5.441
+      }
+    },
+    {
+      "folio": "f7v",
+      "lang": "A",
+      "opener_word": "polyshy",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.009,
+        "top_blue_blossom_pct": 4.167,
+        "top_dark_pod_pct": 3.886,
+        "mid_green_leaf_pct": 14.232,
+        "total_green_leaf_pct": 7.632,
+        "bot_root_mass_pct": 0.897,
+        "bot_red_ochre_root_pct": 0.246
+      }
+    },
+    {
+      "folio": "f8r",
+      "lang": "A",
+      "opener_word": "pshol",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 5.399,
+        "top_dark_pod_pct": 5.045,
+        "mid_green_leaf_pct": 0.679,
+        "total_green_leaf_pct": 4.341,
+        "bot_root_mass_pct": 1.805,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f8v",
+      "lang": "A",
+      "opener_word": "od",
+      "opener_gallows": "NONE",
+      "visual": {
+        "top_red_blossom_pct": 0.19,
+        "top_blue_blossom_pct": 3.94,
+        "top_dark_pod_pct": 3.361,
+        "mid_green_leaf_pct": 28.555,
+        "total_green_leaf_pct": 11.644,
+        "bot_root_mass_pct": 4.225,
+        "bot_red_ochre_root_pct": 2.763
+      }
+    },
+    {
+      "folio": "f9r",
+      "lang": "A",
+      "opener_word": "tydlo",
+      "opener_gallows": "t",
+      "visual": {
+        "top_red_blossom_pct": 0.362,
+        "top_blue_blossom_pct": 4.891,
+        "top_dark_pod_pct": 4.828,
+        "mid_green_leaf_pct": 18.037,
+        "total_green_leaf_pct": 9.492,
+        "bot_root_mass_pct": 9.531,
+        "bot_red_ochre_root_pct": 7.332
+      }
+    },
+    {
+      "folio": "f9v",
+      "lang": "A",
+      "opener_word": "fochor",
+      "opener_gallows": "f",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 7.926,
+        "top_dark_pod_pct": 5.362,
+        "mid_green_leaf_pct": 4.665,
+        "total_green_leaf_pct": 3.823,
+        "bot_root_mass_pct": 1.326,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f10r",
+      "lang": "A",
+      "opener_word": "pchocthy",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 7.446,
+        "top_dark_pod_pct": 5.679,
+        "mid_green_leaf_pct": 13.904,
+        "total_green_leaf_pct": 7.414,
+        "bot_root_mass_pct": 7.996,
+        "bot_red_ochre_root_pct": 6.313
+      }
+    },
+    {
+      "folio": "f10v",
+      "lang": "A",
+      "opener_word": "paiindaiin",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 5.018,
+        "top_dark_pod_pct": 4.149,
+        "mid_green_leaf_pct": 16.825,
+        "total_green_leaf_pct": 7.439,
+        "bot_root_mass_pct": 1.769,
+        "bot_red_ochre_root_pct": 0.049
+      }
+    },
+    {
+      "folio": "f11r",
+      "lang": "A",
+      "opener_word": "tshol",
+      "opener_gallows": "t",
+      "visual": {
+        "top_red_blossom_pct": 0.009,
+        "top_blue_blossom_pct": 6.187,
+        "top_dark_pod_pct": 4.321,
+        "mid_green_leaf_pct": 8.016,
+        "total_green_leaf_pct": 3.459,
+        "bot_root_mass_pct": 4.323,
+        "bot_red_ochre_root_pct": 0.958
+      }
+    },
+    {
+      "folio": "f11v",
+      "lang": "A",
+      "opener_word": "poldchody",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 7.962,
+        "top_blue_blossom_pct": 5.072,
+        "top_dark_pod_pct": 4.62,
+        "mid_green_leaf_pct": 5.038,
+        "total_green_leaf_pct": 6.825,
+        "bot_root_mass_pct": 1.584,
+        "bot_red_ochre_root_pct": 0.049
+      }
+    },
+    {
+      "folio": "f13r",
+      "lang": "A",
+      "opener_word": "torshor",
+      "opener_gallows": "t",
+      "visual": {
+        "top_red_blossom_pct": 0.063,
+        "top_blue_blossom_pct": 5.571,
+        "top_dark_pod_pct": 5.163,
+        "mid_green_leaf_pct": 30.571,
+        "total_green_leaf_pct": 9.863,
+        "bot_root_mass_pct": 18.988,
+        "bot_red_ochre_root_pct": 14.112
+      }
+    },
+    {
+      "folio": "f13v",
+      "lang": "A",
+      "opener_word": "koair",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.109,
+        "top_blue_blossom_pct": 4.574,
+        "top_dark_pod_pct": 3.56,
+        "mid_green_leaf_pct": 14.81,
+        "total_green_leaf_pct": 5.854,
+        "bot_root_mass_pct": 2.027,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f14r",
+      "lang": "A",
+      "opener_word": "pchodaiin",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.371,
+        "top_blue_blossom_pct": 4.529,
+        "top_dark_pod_pct": 4.121,
+        "mid_green_leaf_pct": 19.361,
+        "total_green_leaf_pct": 9.649,
+        "bot_root_mass_pct": 5.195,
+        "bot_red_ochre_root_pct": 0.418
+      }
+    },
+    {
+      "folio": "f14v",
+      "lang": "A",
+      "opener_word": "pdychoiin",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 3.56,
+        "top_dark_pod_pct": 3.089,
+        "mid_green_leaf_pct": 36.073,
+        "total_green_leaf_pct": 12.669,
+        "bot_root_mass_pct": 8.082,
+        "bot_red_ochre_root_pct": 5.846
+      }
+    },
+    {
+      "folio": "f15r",
+      "lang": "A",
+      "opener_word": "tshor",
+      "opener_gallows": "t",
+      "visual": {
+        "top_red_blossom_pct": 0.027,
+        "top_blue_blossom_pct": 4.538,
+        "top_dark_pod_pct": 4.203,
+        "mid_green_leaf_pct": 10.224,
+        "total_green_leaf_pct": 3.877,
+        "bot_root_mass_pct": 7.332,
+        "bot_red_ochre_root_pct": 3.5
+      }
+    },
+    {
+      "folio": "f15v",
+      "lang": "A",
+      "opener_word": "poror",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 4.828,
+        "top_dark_pod_pct": 4.9,
+        "mid_green_leaf_pct": 24.909,
+        "total_green_leaf_pct": 9.138,
+        "bot_root_mass_pct": 2.137,
+        "bot_red_ochre_root_pct": 0.418
+      }
+    },
+    {
+      "folio": "f16r",
+      "lang": "A",
+      "opener_word": "pocheody",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.353,
+        "top_blue_blossom_pct": 6.458,
+        "top_dark_pod_pct": 6.386,
+        "mid_green_leaf_pct": 15.772,
+        "total_green_leaf_pct": 6.443,
+        "bot_root_mass_pct": 3.918,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f16v",
+      "lang": "A",
+      "opener_word": "pchroiin",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.67,
+        "top_blue_blossom_pct": 12.464,
+        "top_dark_pod_pct": 4.674,
+        "mid_green_leaf_pct": 2.91,
+        "total_green_leaf_pct": 1.103,
+        "bot_root_mass_pct": 3.021,
+        "bot_red_ochre_root_pct": 0.676
+      }
+    },
+    {
+      "folio": "f17r",
+      "lang": "A",
+      "opener_word": "fshody",
+      "opener_gallows": "f",
+      "visual": {
+        "top_red_blossom_pct": 0.009,
+        "top_blue_blossom_pct": 8.007,
+        "top_dark_pod_pct": 8.034,
+        "mid_green_leaf_pct": 14.493,
+        "total_green_leaf_pct": 5.158,
+        "bot_root_mass_pct": 3.783,
+        "bot_red_ochre_root_pct": 0.246
+      }
+    },
+    {
+      "folio": "f17v",
+      "lang": "A",
+      "opener_word": "pchodol",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 1.422,
+        "top_blue_blossom_pct": 4.284,
+        "top_dark_pod_pct": 4.23,
+        "mid_green_leaf_pct": 6.669,
+        "total_green_leaf_pct": 4.105,
+        "bot_root_mass_pct": 3.218,
+        "bot_red_ochre_root_pct": 1.634
+      }
+    },
+    {
+      "folio": "f18r",
+      "lang": "A",
+      "opener_word": "pdrairdy",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.679,
+        "top_blue_blossom_pct": 7.192,
+        "top_dark_pod_pct": 6.721,
+        "mid_green_leaf_pct": 25.079,
+        "total_green_leaf_pct": 10.759,
+        "bot_root_mass_pct": 3.39,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f18v",
+      "lang": "A",
+      "opener_word": "told",
+      "opener_gallows": "t",
+      "visual": {
+        "top_red_blossom_pct": 0.072,
+        "top_blue_blossom_pct": 3.832,
+        "top_dark_pod_pct": 3.587,
+        "mid_green_leaf_pct": 19.124,
+        "total_green_leaf_pct": 7.568,
+        "bot_root_mass_pct": 3.635,
+        "bot_red_ochre_root_pct": 1.855
+      }
+    },
+    {
+      "folio": "f19r",
+      "lang": "A",
+      "opener_word": "pchor",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.009,
+        "top_blue_blossom_pct": 7.6,
+        "top_dark_pod_pct": 7.563,
+        "mid_green_leaf_pct": 21.784,
+        "total_green_leaf_pct": 7.293,
+        "bot_root_mass_pct": 2.69,
+        "bot_red_ochre_root_pct": 0.074
+      }
+    },
+    {
+      "folio": "f19v",
+      "lang": "A",
+      "opener_word": "pochaiin",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 3.995,
+        "top_dark_pod_pct": 3.822,
+        "mid_green_leaf_pct": 14.64,
+        "total_green_leaf_pct": 9.145,
+        "bot_root_mass_pct": 6.915,
+        "bot_red_ochre_root_pct": 5.515
+      }
+    },
+    {
+      "folio": "f20r",
+      "lang": "A",
+      "opener_word": "kdchody",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.009,
+        "top_blue_blossom_pct": 5.679,
+        "top_dark_pod_pct": 5.996,
+        "mid_green_leaf_pct": 1.812,
+        "total_green_leaf_pct": 4.094,
+        "bot_root_mass_pct": 3.144,
+        "bot_red_ochre_root_pct": 0.393
+      }
+    },
+    {
+      "folio": "f20v",
+      "lang": "A",
+      "opener_word": "faiisar",
+      "opener_gallows": "f",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 4.475,
+        "top_dark_pod_pct": 3.94,
+        "mid_green_leaf_pct": 4.303,
+        "total_green_leaf_pct": 3.505,
+        "bot_root_mass_pct": 1.179,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f21r",
+      "lang": "A",
+      "opener_word": "pchor",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.018,
+        "top_blue_blossom_pct": 7.654,
+        "top_dark_pod_pct": 8.089,
+        "mid_green_leaf_pct": 3.533,
+        "total_green_leaf_pct": 3.538,
+        "bot_root_mass_pct": 3.292,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f21v",
+      "lang": "A",
+      "opener_word": "toldshy",
+      "opener_gallows": "t",
+      "visual": {
+        "top_red_blossom_pct": 0.109,
+        "top_blue_blossom_pct": 4.248,
+        "top_dark_pod_pct": 3.804,
+        "mid_green_leaf_pct": 4.189,
+        "total_green_leaf_pct": 2.57,
+        "bot_root_mass_pct": 1.597,
+        "bot_red_ochre_root_pct": 0.184
+      }
+    },
+    {
+      "folio": "f22r",
+      "lang": "A",
+      "opener_word": "pol",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.208,
+        "top_blue_blossom_pct": 8.216,
+        "top_dark_pod_pct": 7.826,
+        "mid_green_leaf_pct": 6.737,
+        "total_green_leaf_pct": 2.227,
+        "bot_root_mass_pct": 4.79,
+        "bot_red_ochre_root_pct": 1.965
+      }
+    },
+    {
+      "folio": "f22v",
+      "lang": "A",
+      "opener_word": "pysaiinor",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 4.728,
+        "top_dark_pod_pct": 4.466,
+        "mid_green_leaf_pct": 10.247,
+        "total_green_leaf_pct": 5.383,
+        "bot_root_mass_pct": 9.568,
+        "bot_red_ochre_root_pct": 7.959
+      }
+    },
+    {
+      "folio": "f23r",
+      "lang": "A",
+      "opener_word": "pydchdom",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.009,
+        "top_blue_blossom_pct": 7.264,
+        "top_dark_pod_pct": 5.951,
+        "mid_green_leaf_pct": 28.374,
+        "total_green_leaf_pct": 11.309,
+        "bot_root_mass_pct": 1.498,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f23v",
+      "lang": "A",
+      "opener_word": "podairol",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 4.746,
+        "top_dark_pod_pct": 3.804,
+        "mid_green_leaf_pct": 12.67,
+        "total_green_leaf_pct": 5.704,
+        "bot_root_mass_pct": 8.536,
+        "bot_red_ochre_root_pct": 6.03
+      }
+    },
+    {
+      "folio": "f24r",
+      "lang": "A",
+      "opener_word": "porory",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.045,
+        "top_blue_blossom_pct": 7.971,
+        "top_dark_pod_pct": 8.125,
+        "mid_green_leaf_pct": 9.239,
+        "total_green_leaf_pct": 4.723,
+        "bot_root_mass_pct": 2.358,
+        "bot_red_ochre_root_pct": 0.012
+      }
+    },
+    {
+      "folio": "f24v",
+      "lang": "A",
+      "opener_word": "tchodar",
+      "opener_gallows": "t",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 7.482,
+        "top_dark_pod_pct": 4.158,
+        "mid_green_leaf_pct": 6.85,
+        "total_green_leaf_pct": 2.72,
+        "bot_root_mass_pct": 5.994,
+        "bot_red_ochre_root_pct": 4.532
+      }
+    },
+    {
+      "folio": "f25r",
+      "lang": "A",
+      "opener_word": "fcholdy",
+      "opener_gallows": "f",
+      "visual": {
+        "top_red_blossom_pct": 0.018,
+        "top_blue_blossom_pct": 6.386,
+        "top_dark_pod_pct": 6.413,
+        "mid_green_leaf_pct": 17.957,
+        "total_green_leaf_pct": 11.162,
+        "bot_root_mass_pct": 3.292,
+        "bot_red_ochre_root_pct": 1.056
+      }
+    },
+    {
+      "folio": "f25v",
+      "lang": "A",
+      "opener_word": "poeeaiin",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 4.293,
+        "top_dark_pod_pct": 4.112,
+        "mid_green_leaf_pct": 39.934,
+        "total_green_leaf_pct": 17.955,
+        "bot_root_mass_pct": 1.707,
+        "bot_red_ochre_root_pct": 0.295
+      }
+    },
+    {
+      "folio": "f26r",
+      "lang": "B",
+      "opener_word": "psheoky",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.009,
+        "top_blue_blossom_pct": 6.558,
+        "top_dark_pod_pct": 6.504,
+        "mid_green_leaf_pct": 9.567,
+        "total_green_leaf_pct": 4.566,
+        "bot_root_mass_pct": 3.783,
+        "bot_red_ochre_root_pct": 1.855
+      }
+    },
+    {
+      "folio": "f26v",
+      "lang": "B",
+      "opener_word": "pchedar",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 5.688,
+        "top_dark_pod_pct": 4.556,
+        "mid_green_leaf_pct": 25.226,
+        "total_green_leaf_pct": 9.417,
+        "bot_root_mass_pct": 4.655,
+        "bot_red_ochre_root_pct": 3.414
+      }
+    },
+    {
+      "folio": "f27r",
+      "lang": "A",
+      "opener_word": "ksor",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.027,
+        "top_blue_blossom_pct": 7.264,
+        "top_dark_pod_pct": 7.636,
+        "mid_green_leaf_pct": 23.449,
+        "total_green_leaf_pct": 12.048,
+        "bot_root_mass_pct": 2.284,
+        "bot_red_ochre_root_pct": 0.086
+      }
+    },
+    {
+      "folio": "f27v",
+      "lang": "A",
+      "opener_word": "pochof",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.181,
+        "top_blue_blossom_pct": 4.991,
+        "top_dark_pod_pct": 4.728,
+        "mid_green_leaf_pct": 20.879,
+        "total_green_leaf_pct": 10.081,
+        "bot_root_mass_pct": 2.223,
+        "bot_red_ochre_root_pct": 0.614
+      }
+    },
+    {
+      "folio": "f28r",
+      "lang": "A",
+      "opener_word": "pchodar",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.217,
+        "top_blue_blossom_pct": 7.255,
+        "top_dark_pod_pct": 7.346,
+        "mid_green_leaf_pct": 1.087,
+        "total_green_leaf_pct": 0.414,
+        "bot_root_mass_pct": 5.33,
+        "bot_red_ochre_root_pct": 3.058
+      }
+    },
+    {
+      "folio": "f28v",
+      "lang": "A",
+      "opener_word": "kshol",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 4.13,
+        "top_dark_pod_pct": 3.922,
+        "mid_green_leaf_pct": 9.307,
+        "total_green_leaf_pct": 4.098,
+        "bot_root_mass_pct": 3.009,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f29r",
+      "lang": "A",
+      "opener_word": "posaiin",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.353,
+        "top_blue_blossom_pct": 6.06,
+        "top_dark_pod_pct": 6.467,
+        "mid_green_leaf_pct": 18.648,
+        "total_green_leaf_pct": 5.947,
+        "bot_root_mass_pct": 1.953,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f29v",
+      "lang": "A",
+      "opener_word": "kooiin",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 3.56,
+        "top_dark_pod_pct": 3.406,
+        "mid_green_leaf_pct": 12.387,
+        "total_green_leaf_pct": 4.712,
+        "bot_root_mass_pct": 3.623,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f30r",
+      "lang": "A",
+      "opener_word": "okeeesy",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.091,
+        "top_blue_blossom_pct": 6.286,
+        "top_dark_pod_pct": 6.033,
+        "mid_green_leaf_pct": 20.075,
+        "total_green_leaf_pct": 8.988,
+        "bot_root_mass_pct": 2.628,
+        "bot_red_ochre_root_pct": 0.086
+      }
+    },
+    {
+      "folio": "f30v",
+      "lang": "A",
+      "opener_word": "sain",
+      "opener_gallows": "NONE",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 4.275,
+        "top_dark_pod_pct": 4.221,
+        "mid_green_leaf_pct": 1.166,
+        "total_green_leaf_pct": 0.607,
+        "bot_root_mass_pct": 9.285,
+        "bot_red_ochre_root_pct": 6.46
+      }
+    },
+    {
+      "folio": "f31r",
+      "lang": "B",
+      "opener_word": "keedey",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 6.911,
+        "top_dark_pod_pct": 7.074,
+        "mid_green_leaf_pct": 23.256,
+        "total_green_leaf_pct": 11.073,
+        "bot_root_mass_pct": 17.526,
+        "bot_red_ochre_root_pct": 15.328
+      }
+    },
+    {
+      "folio": "f31v",
+      "lang": "B",
+      "opener_word": "podair",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 3.895,
+        "top_dark_pod_pct": 3.741,
+        "mid_green_leaf_pct": 19.373,
+        "total_green_leaf_pct": 6.147,
+        "bot_root_mass_pct": 2.235,
+        "bot_red_ochre_root_pct": 0.049
+      }
+    },
+    {
+      "folio": "f32r",
+      "lang": "A",
+      "opener_word": "fchaiin",
+      "opener_gallows": "f",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 6.857,
+        "top_dark_pod_pct": 6.893,
+        "mid_green_leaf_pct": 10.938,
+        "total_green_leaf_pct": 5.629,
+        "bot_root_mass_pct": 2.186,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f32v",
+      "lang": "A",
+      "opener_word": "kcheodaiin",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 6.422,
+        "top_dark_pod_pct": 5.245,
+        "mid_green_leaf_pct": 8.345,
+        "total_green_leaf_pct": 3.352,
+        "bot_root_mass_pct": 2.063,
+        "bot_red_ochre_root_pct": 0.086
+      }
+    },
+    {
+      "folio": "f33r",
+      "lang": "B",
+      "opener_word": "tshdar",
+      "opener_gallows": "t",
+      "visual": {
+        "top_red_blossom_pct": 0.027,
+        "top_blue_blossom_pct": 4.167,
+        "top_dark_pod_pct": 4.611,
+        "mid_green_leaf_pct": 11.594,
+        "total_green_leaf_pct": 9.838,
+        "bot_root_mass_pct": 3.979,
+        "bot_red_ochre_root_pct": 2.383
+      }
+    },
+    {
+      "folio": "f33v",
+      "lang": "B",
+      "opener_word": "tarar",
+      "opener_gallows": "t",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 7.5,
+        "top_dark_pod_pct": 4.656,
+        "mid_green_leaf_pct": 20.131,
+        "total_green_leaf_pct": 9.431,
+        "bot_root_mass_pct": 2.923,
+        "bot_red_ochre_root_pct": 0.049
+      }
+    },
+    {
+      "folio": "f34r",
+      "lang": "B",
+      "opener_word": "pcheoepchy",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 4.701,
+        "top_dark_pod_pct": 4.918,
+        "mid_green_leaf_pct": 28.453,
+        "total_green_leaf_pct": 10.43,
+        "bot_root_mass_pct": 7.271,
+        "bot_red_ochre_root_pct": 6.055
+      }
+    },
+    {
+      "folio": "f34v",
+      "lang": "B",
+      "opener_word": "ke'chdy",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 4.149,
+        "top_dark_pod_pct": 4.022,
+        "mid_green_leaf_pct": 14.697,
+        "total_green_leaf_pct": 4.658,
+        "bot_root_mass_pct": 11.975,
+        "bot_red_ochre_root_pct": 9.175
+      }
+    },
+    {
+      "folio": "f35r",
+      "lang": "A",
+      "opener_word": "oo",
+      "opener_gallows": "NONE",
+      "visual": {
+        "top_red_blossom_pct": 0.281,
+        "top_blue_blossom_pct": 5.199,
+        "top_dark_pod_pct": 4.384,
+        "mid_green_leaf_pct": 1.676,
+        "total_green_leaf_pct": 3.962,
+        "bot_root_mass_pct": 3.464,
+        "bot_red_ochre_root_pct": 0.946
+      }
+    },
+    {
+      "folio": "f35v",
+      "lang": "A",
+      "opener_word": "parchor",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 4.022,
+        "top_dark_pod_pct": 3.877,
+        "mid_green_leaf_pct": 11.356,
+        "total_green_leaf_pct": 11.498,
+        "bot_root_mass_pct": 11.533,
+        "bot_red_ochre_root_pct": 8.106
+      }
+    },
+    {
+      "folio": "f36r",
+      "lang": "A",
+      "opener_word": "pcha@151;dan",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.009,
+        "top_blue_blossom_pct": 5.299,
+        "top_dark_pod_pct": 5.19,
+        "mid_green_leaf_pct": 19.871,
+        "total_green_leaf_pct": 9.802,
+        "bot_root_mass_pct": 10.157,
+        "bot_red_ochre_root_pct": 5.392
+      }
+    },
+    {
+      "folio": "f36v",
+      "lang": "A",
+      "opener_word": "pcharasy",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 5.217,
+        "top_dark_pod_pct": 5.018,
+        "mid_green_leaf_pct": 15.002,
+        "total_green_leaf_pct": 8.071,
+        "bot_root_mass_pct": 5.269,
+        "bot_red_ochre_root_pct": 2.862
+      }
+    },
+    {
+      "folio": "f37r",
+      "lang": "A",
+      "opener_word": "tocphol",
+      "opener_gallows": "t",
+      "visual": {
+        "top_red_blossom_pct": 0.1,
+        "top_blue_blossom_pct": 5.806,
+        "top_dark_pod_pct": 5.471,
+        "mid_green_leaf_pct": 12.84,
+        "total_green_leaf_pct": 6.165,
+        "bot_root_mass_pct": 5.613,
+        "bot_red_ochre_root_pct": 1.891
+      }
+    },
+    {
+      "folio": "f37v",
+      "lang": "A",
+      "opener_word": "tshody",
+      "opener_gallows": "t",
+      "visual": {
+        "top_red_blossom_pct": 0.127,
+        "top_blue_blossom_pct": 5.462,
+        "top_dark_pod_pct": 4.955,
+        "mid_green_leaf_pct": 21.796,
+        "total_green_leaf_pct": 10.505,
+        "bot_root_mass_pct": 9.052,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f38r",
+      "lang": "A",
+      "opener_word": "tolor",
+      "opener_gallows": "t",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 6.92,
+        "top_dark_pod_pct": 6.486,
+        "mid_green_leaf_pct": 13.406,
+        "total_green_leaf_pct": 10.041,
+        "bot_root_mass_pct": 4.262,
+        "bot_red_ochre_root_pct": 0.749
+      }
+    },
+    {
+      "folio": "f38v",
+      "lang": "A",
+      "opener_word": "okchop",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.009,
+        "top_blue_blossom_pct": 5.797,
+        "top_dark_pod_pct": 5.254,
+        "mid_green_leaf_pct": 10.643,
+        "total_green_leaf_pct": 8.956,
+        "bot_root_mass_pct": 2.42,
+        "bot_red_ochre_root_pct": 0.049
+      }
+    },
+    {
+      "folio": "f39r",
+      "lang": "B",
+      "opener_word": "tedochshd",
+      "opener_gallows": "t",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 7.192,
+        "top_dark_pod_pct": 6.712,
+        "mid_green_leaf_pct": 44.407,
+        "total_green_leaf_pct": 15.685,
+        "bot_root_mass_pct": 9.383,
+        "bot_red_ochre_root_pct": 6.436
+      }
+    },
+    {
+      "folio": "f39v",
+      "lang": "B",
+      "opener_word": "pdair",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 5.091,
+        "top_dark_pod_pct": 3.732,
+        "mid_green_leaf_pct": 38.485,
+        "total_green_leaf_pct": 12.212,
+        "bot_root_mass_pct": 7.59,
+        "bot_red_ochre_root_pct": 5.453
+      }
+    },
+    {
+      "folio": "f40r",
+      "lang": "B",
+      "opener_word": "pchey",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.082,
+        "top_blue_blossom_pct": 7.31,
+        "top_dark_pod_pct": 6.069,
+        "mid_green_leaf_pct": 12.783,
+        "total_green_leaf_pct": 6.432,
+        "bot_root_mass_pct": 5.539,
+        "bot_red_ochre_root_pct": 1.916
+      }
+    },
+    {
+      "folio": "f40v",
+      "lang": "B",
+      "opener_word": "pchedain",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 3.216,
+        "top_blue_blossom_pct": 5.797,
+        "top_dark_pod_pct": 4.52,
+        "mid_green_leaf_pct": 21.626,
+        "total_green_leaf_pct": 9.717,
+        "bot_root_mass_pct": 7.689,
+        "bot_red_ochre_root_pct": 5.023
+      }
+    },
+    {
+      "folio": "f41r",
+      "lang": "B",
+      "opener_word": "psheykedaleey",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 5.009,
+        "top_dark_pod_pct": 5.018,
+        "mid_green_leaf_pct": 10.79,
+        "total_green_leaf_pct": 5.836,
+        "bot_root_mass_pct": 3.464,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f41v",
+      "lang": "B",
+      "opener_word": "pcheody",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 5.598,
+        "top_dark_pod_pct": 4.819,
+        "mid_green_leaf_pct": 13.655,
+        "total_green_leaf_pct": 8.232,
+        "bot_root_mass_pct": 10.477,
+        "bot_red_ochre_root_pct": 5.036
+      }
+    },
+    {
+      "folio": "f42r",
+      "lang": "A",
+      "opener_word": "o",
+      "opener_gallows": "NONE",
+      "visual": {
+        "top_red_blossom_pct": 0.045,
+        "top_blue_blossom_pct": 4.891,
+        "top_dark_pod_pct": 4.801,
+        "mid_green_leaf_pct": 0.023,
+        "total_green_leaf_pct": 6.697,
+        "bot_root_mass_pct": 3.979,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f42v",
+      "lang": "A",
+      "opener_word": "@156;cho",
+      "opener_gallows": "NONE",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 5.389,
+        "top_dark_pod_pct": 5.408,
+        "mid_green_leaf_pct": 23.279,
+        "total_green_leaf_pct": 10.848,
+        "bot_root_mass_pct": 4.667,
+        "bot_red_ochre_root_pct": 1.941
+      }
+    },
+    {
+      "folio": "f43r",
+      "lang": "B",
+      "opener_word": "tarodaiin",
+      "opener_gallows": "t",
+      "visual": {
+        "top_red_blossom_pct": 0.063,
+        "top_blue_blossom_pct": 3.986,
+        "top_dark_pod_pct": 3.768,
+        "mid_green_leaf_pct": 5.99,
+        "total_green_leaf_pct": 1.888,
+        "bot_root_mass_pct": 13.756,
+        "bot_red_ochre_root_pct": 9.248
+      }
+    },
+    {
+      "folio": "f43v",
+      "lang": "B",
+      "opener_word": "pdsairy",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 6.277,
+        "top_dark_pod_pct": 6.069,
+        "mid_green_leaf_pct": 12.206,
+        "total_green_leaf_pct": 4.473,
+        "bot_root_mass_pct": 2.714,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f44r",
+      "lang": "A",
+      "opener_word": "tshodpy",
+      "opener_gallows": "t",
+      "visual": {
+        "top_red_blossom_pct": 0.045,
+        "top_blue_blossom_pct": 9.375,
+        "top_dark_pod_pct": 8.759,
+        "mid_green_leaf_pct": 3.34,
+        "total_green_leaf_pct": 3.834,
+        "bot_root_mass_pct": 4.385,
+        "bot_red_ochre_root_pct": 0.786
+      }
+    },
+    {
+      "folio": "f44v",
+      "lang": "A",
+      "opener_word": "tsho",
+      "opener_gallows": "t",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 5.969,
+        "top_dark_pod_pct": 5.933,
+        "mid_green_leaf_pct": 20.279,
+        "total_green_leaf_pct": 6.515,
+        "bot_root_mass_pct": 2.948,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f45r",
+      "lang": "A",
+      "opener_word": "pykydal",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.154,
+        "top_blue_blossom_pct": 5.516,
+        "top_dark_pod_pct": 4.656,
+        "mid_green_leaf_pct": 11.515,
+        "total_green_leaf_pct": 3.72,
+        "bot_root_mass_pct": 6.608,
+        "bot_red_ochre_root_pct": 3.034
+      }
+    },
+    {
+      "folio": "f45v",
+      "lang": "A",
+      "opener_word": "korary",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 6.159,
+        "top_dark_pod_pct": 4.728,
+        "mid_green_leaf_pct": 2.344,
+        "total_green_leaf_pct": 0.878,
+        "bot_root_mass_pct": 8.045,
+        "bot_red_ochre_root_pct": 1.904
+      }
+    },
+    {
+      "folio": "f46r",
+      "lang": "B",
+      "opener_word": "pcheocphy",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.172,
+        "top_blue_blossom_pct": 5.607,
+        "top_dark_pod_pct": 5.181,
+        "mid_green_leaf_pct": 21.626,
+        "total_green_leaf_pct": 7.229,
+        "bot_root_mass_pct": 4.52,
+        "bot_red_ochre_root_pct": 0.307
+      }
+    },
+    {
+      "folio": "f46v",
+      "lang": "B",
+      "opener_word": "podylshed",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 6.214,
+        "top_dark_pod_pct": 4.891,
+        "mid_green_leaf_pct": 15.693,
+        "total_green_leaf_pct": 5.465,
+        "bot_root_mass_pct": 5.343,
+        "bot_red_ochre_root_pct": 0.233
+      }
+    },
+    {
+      "folio": "f47r",
+      "lang": "A",
+      "opener_word": "@159;chair",
+      "opener_gallows": "NONE",
+      "visual": {
+        "top_red_blossom_pct": 0.154,
+        "top_blue_blossom_pct": 5.181,
+        "top_dark_pod_pct": 4.864,
+        "mid_green_leaf_pct": 32.077,
+        "total_green_leaf_pct": 20.868,
+        "bot_root_mass_pct": 6.166,
+        "bot_red_ochre_root_pct": 1.376
+      }
+    },
+    {
+      "folio": "f47v",
+      "lang": "A",
+      "opener_word": "psheot",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 5.888,
+        "top_dark_pod_pct": 5.299,
+        "mid_green_leaf_pct": 38.678,
+        "total_green_leaf_pct": 16.092,
+        "bot_root_mass_pct": 14.296,
+        "bot_red_ochre_root_pct": 0.123
+      }
+    },
+    {
+      "folio": "f48r",
+      "lang": "B",
+      "opener_word": "pshdaiin",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.19,
+        "top_blue_blossom_pct": 4.891,
+        "top_dark_pod_pct": 4.719,
+        "mid_green_leaf_pct": 14.176,
+        "total_green_leaf_pct": 5.494,
+        "bot_root_mass_pct": 4.188,
+        "bot_red_ochre_root_pct": 0.319
+      }
+    },
+    {
+      "folio": "f48v",
+      "lang": "B",
+      "opener_word": "pcheodchy",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.018,
+        "top_blue_blossom_pct": 5.734,
+        "top_dark_pod_pct": 5.399,
+        "mid_green_leaf_pct": 17.527,
+        "total_green_leaf_pct": 7.892,
+        "bot_root_mass_pct": 3.218,
+        "bot_red_ochre_root_pct": 0.012
+      }
+    },
+    {
+      "folio": "f49r",
+      "lang": "A",
+      "opener_word": "pychol",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.969,
+        "top_blue_blossom_pct": 6.422,
+        "top_dark_pod_pct": 6.087,
+        "mid_green_leaf_pct": 4.88,
+        "total_green_leaf_pct": 7.989,
+        "bot_root_mass_pct": 5.76,
+        "bot_red_ochre_root_pct": 1.253
+      }
+    },
+    {
+      "folio": "f49v",
+      "lang": "A",
+      "opener_word": "kshor",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 5.743,
+        "top_dark_pod_pct": 5.408,
+        "mid_green_leaf_pct": 1.495,
+        "total_green_leaf_pct": 6.015,
+        "bot_root_mass_pct": 3.844,
+        "bot_red_ochre_root_pct": 0.037
+      }
+    },
+    {
+      "folio": "f50r",
+      "lang": "B",
+      "opener_word": "psheor",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 6.413,
+        "top_dark_pod_pct": 4.918,
+        "mid_green_leaf_pct": 10.394,
+        "total_green_leaf_pct": 3.852,
+        "bot_root_mass_pct": 4.028,
+        "bot_red_ochre_root_pct": 2.076
+      }
+    },
+    {
+      "folio": "f50v",
+      "lang": "B",
+      "opener_word": "tchy",
+      "opener_gallows": "t",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 9.321,
+        "top_dark_pod_pct": 6.096,
+        "mid_green_leaf_pct": 25.442,
+        "total_green_leaf_pct": 8.946,
+        "bot_root_mass_pct": 9.089,
+        "bot_red_ochre_root_pct": 5.281
+      }
+    },
+    {
+      "folio": "f51r",
+      "lang": "A",
+      "opener_word": "tsholdchy",
+      "opener_gallows": "t",
+      "visual": {
+        "top_red_blossom_pct": 0.507,
+        "top_blue_blossom_pct": 5.688,
+        "top_dark_pod_pct": 5.426,
+        "mid_green_leaf_pct": 15.014,
+        "total_green_leaf_pct": 5.008,
+        "bot_root_mass_pct": 9.801,
+        "bot_red_ochre_root_pct": 8.032
+      }
+    },
+    {
+      "folio": "f51v",
+      "lang": "A",
+      "opener_word": "poshody",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 8.324,
+        "top_dark_pod_pct": 6.866,
+        "mid_green_leaf_pct": 12.228,
+        "total_green_leaf_pct": 6.211,
+        "bot_root_mass_pct": 3.599,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f52r",
+      "lang": "A",
+      "opener_word": "tdokchcfhy",
+      "opener_gallows": "t",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 5.598,
+        "top_dark_pod_pct": 5.272,
+        "mid_green_leaf_pct": 30.299,
+        "total_green_leaf_pct": 13.536,
+        "bot_root_mass_pct": 14.075,
+        "bot_red_ochre_root_pct": 11.938
+      }
+    },
+    {
+      "folio": "f52v",
+      "lang": "A",
+      "opener_word": "pchor",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 5.562,
+        "top_dark_pod_pct": 5.507,
+        "mid_green_leaf_pct": 23.528,
+        "total_green_leaf_pct": 13.193,
+        "bot_root_mass_pct": 4.25,
+        "bot_red_ochre_root_pct": 0.295
+      }
+    },
+    {
+      "folio": "f53r",
+      "lang": "A",
+      "opener_word": "kodamchocthody",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.217,
+        "top_blue_blossom_pct": 4.058,
+        "top_dark_pod_pct": 3.922,
+        "mid_green_leaf_pct": 10.428,
+        "total_green_leaf_pct": 3.409,
+        "bot_root_mass_pct": 1.523,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f53v",
+      "lang": "A",
+      "opener_word": "tshorshey",
+      "opener_gallows": "t",
+      "visual": {
+        "top_red_blossom_pct": 0.598,
+        "top_blue_blossom_pct": 7.464,
+        "top_dark_pod_pct": 6.812,
+        "mid_green_leaf_pct": 15.172,
+        "total_green_leaf_pct": 5.019,
+        "bot_root_mass_pct": 3.169,
+        "bot_red_ochre_root_pct": 0.012
+      }
+    },
+    {
+      "folio": "f54r",
+      "lang": "A",
+      "opener_word": "podaiin",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.009,
+        "top_blue_blossom_pct": 3.895,
+        "top_dark_pod_pct": 3.841,
+        "mid_green_leaf_pct": 12.817,
+        "total_green_leaf_pct": 7.461,
+        "bot_root_mass_pct": 0.282,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f54v",
+      "lang": "A",
+      "opener_word": "pcheodar",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.263,
+        "top_blue_blossom_pct": 6.757,
+        "top_dark_pod_pct": 5.58,
+        "mid_green_leaf_pct": 15.002,
+        "total_green_leaf_pct": 5.954,
+        "bot_root_mass_pct": 8.683,
+        "bot_red_ochre_root_pct": 5.785
+      }
+    },
+    {
+      "folio": "f55r",
+      "lang": "B",
+      "opener_word": "podaiin",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.027,
+        "top_blue_blossom_pct": 5.118,
+        "top_dark_pod_pct": 4.973,
+        "mid_green_leaf_pct": 14.029,
+        "total_green_leaf_pct": 7.125,
+        "bot_root_mass_pct": 1.941,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f55v",
+      "lang": "B",
+      "opener_word": "kcheedchdy",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 2.147,
+        "top_blue_blossom_pct": 5.045,
+        "top_dark_pod_pct": 5.045,
+        "mid_green_leaf_pct": 30.65,
+        "total_green_leaf_pct": 16.242,
+        "bot_root_mass_pct": 15.881,
+        "bot_red_ochre_root_pct": 12.085
+      }
+    },
+    {
+      "folio": "f56r",
+      "lang": "A",
+      "opener_word": "o@167;chal",
+      "opener_gallows": "NONE",
+      "visual": {
+        "top_red_blossom_pct": 0.054,
+        "top_blue_blossom_pct": 7.672,
+        "top_dark_pod_pct": 5.371,
+        "mid_green_leaf_pct": 4.586,
+        "total_green_leaf_pct": 2.07,
+        "bot_root_mass_pct": 1.118,
+        "bot_red_ochre_root_pct": 0.0
+      }
+    },
+    {
+      "folio": "f56v",
+      "lang": "A",
+      "opener_word": "kcheat",
+      "opener_gallows": "k",
+      "visual": {
+        "top_red_blossom_pct": 0.0,
+        "top_blue_blossom_pct": 4.447,
+        "top_dark_pod_pct": 4.312,
+        "mid_green_leaf_pct": 24.072,
+        "total_green_leaf_pct": 14.8,
+        "bot_root_mass_pct": 7.775,
+        "bot_red_ochre_root_pct": 3.292
+      }
+    },
+    {
+      "folio": "f57r",
+      "lang": "B",
+      "opener_word": "poeeockhey",
+      "opener_gallows": "p",
+      "visual": {
+        "top_red_blossom_pct": 0.045,
+        "top_blue_blossom_pct": 4.112,
+        "top_dark_pod_pct": 3.406,
+        "mid_green_leaf_pct": 22.894,
+        "total_green_leaf_pct": 12.465,
+        "bot_root_mass_pct": 1.83,
+        "bot_red_ochre_root_pct": 0.295
+      }
+    }
+  ]
+}
