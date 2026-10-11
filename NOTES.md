@@ -432,8 +432,38 @@ Analyzing all `1,017` categorized figure labels across 8 semantic classes (`@Lz`
 
 ---
 
+### Discovery 17: Global Functional-Role Parser, `49.26%` Label-Stem Coverage in Running Prose & Full-Page Interlinear Structural Glosses (`Avenue D`)
+Building and running [`tools/generate_interlinear_gloss.py`](file:///c:/Users/denni/Documents/voynich/tools/generate_interlinear_gloss.py) ($\to$ [`data/interlinear_glosses.json`](file:///c:/Users/denni/Documents/voynich/data/interlinear_glosses.json) and [`notes/INTERLINEAR_GLOSSES.md`](file:///c:/Users/denni/Documents/voynich/notes/INTERLINEAR_GLOSSES.md)) across all `37,800` prose tokens and generating complete line-by-line interlinear structural glosses for `f5r`, `f17r`, `f82v`, `f84r`, `f99v`, and `f106v` synthesizes all 16 structural rules into a working page-level parser:
+1. **Nearly Half (`49.26%`) of All Running Prose Tokens Share a Canonical Stem with an Attested Figure Label (`@L`)**:
+   - Across all `37,800` non-label prose tokens in the manuscript, **`18,619` (`49.26%`) have a canonical stem that is directly attested as an isolated Figure Label (`@Lf`, `@Lc`, `@Ln`, `@Lt`, `@Ls`, `@Lz`, `@L0`)** next to a drawn plant, apothecary jar, star, nymph, or cosmological map locus!
+   - Furthermore, **`14,436` (`38.19%`)** of all prose tokens are actively modified by one of our four positional/orthographic rules (`PAR_START` gallows, `Line 0` `p/f` $\to$ `t/k` allography, `y-` line/break-initial proclitic, `-m` right-margin closer, or `q-` prose proclitic).
+2. **Ten-Class Functional Role Partition of Voynich Prose (`37,800` Tokens)**:
+
+| Functional Role Tag | Token Count | Share (`%`) | Empirical Role in Clause Skeleton |
+| :--- | :---: | :---: | :--- |
+| **`BARE_NOMINAL(oX)`** | `6,537` | `17.29%` | Bare `o-` nominal stem (`ok-`, `ot-`, `ol-`, `or-`)—the citation form used in `@L` figure labels |
+| **`STEM`** | `6,414` | `16.97%` | Other vocalic or `d-/s-/r-/l-` lexical stem |
+| **`VERB/STATE_MOD(-dy/-y)`** | `5,395` | `14.27%` | Bench (`ch-/sh-`) stem inflected with `-dy`/`-y` verbal/participial suffix (`chedy`, `shedy`) |
+| **`Q_NOMINAL(q+oX)`** | `5,268` | `13.94%` | Prose-only `q-` proclitic attached to an `oX` nominal stem (`qoX = q + oX`, e.g. `qokeedy`, `qokal`) |
+| **`GALLOWS_HEAD`** | `4,894` | `12.95%` | Gallows-initial (`k/t/p/f`, `cth/ckh`, `yk/yt`) paragraph/clause opener |
+| **`BENCH_STEM`** | `4,129` | `10.92%` | Bench (`ch-/sh-`) stem with liquid/nasal suffix (`cheol`, `chor`, `cheor`, `shedal`) |
+| **`LINK/PREP`** | `2,479` | `6.56%` | Short liquid/vowel relator (`ol`, `al`, `or`, `ar`, `dar`, `dal`, `dol`, `sol`) |
+| **`DET/CLOSER`** | `1,808` | `4.78%` | High-frequency demonstrative / clause-final particle (`daiin`, `aiin`, `dain`, `saiin`) |
+| **`FRAME_MOD`** | `580` | `1.53%` | Uninflected bench modifier (`chol`, `shol`), frequently paired with `daiin` (`chol daiin`) or `qoX` |
+| **`CLAUSE_CLOSER(-m)`** | `296` | `0.78%` | Non-nominal right-margin `-m` line/clause terminator (`dam`, `oldam`, `daram`, `lokam`) |
+
+3. **Full-Page Interlinear Structural Glosses ([`notes/INTERLINEAR_GLOSSES.md`](file:///c:/Users/denni/Documents/voynich/notes/INTERLINEAR_GLOSSES.md))**:
+   - In [`notes/INTERLINEAR_GLOSSES.md`](file:///c:/Users/denni/Documents/voynich/notes/INTERLINEAR_GLOSSES.md), every line of `f5r`, `f17r`, `f82v`, `f84r`, `f99v`, and `f106v` is rendered with its positional flags, active orthographic transformations, and exact same-page / cross-section label cribs:
+     - **`<f5r.1>` (`Herbal`, Line 1)**: `[GALLOWS_HEAD:kchody]` · `[GALLOWS_HEAD:kchoy] (TOP_LINE f->k)` · `[VERB/STATE_MOD:chkoy]` · `[STEM:oain]` · `[STEM:oar]` · **`[BARE_NOMINAL:olsy] <XREF PLANT: f99v.7 'olsy', MS_cnt=2>`** · `[VERB/STATE_MOD:chody]` · `[STEM:dkshy]` · `[STEM:dy]`
+     - **`<f17r.1>` & `<f17r.4>` (`Herbal`)**: Line 1 opens with `fshody` (`TOP_LINE f->k`) followed immediately by **`daram`** (**`<XREF PLANT: f99r.3 'darar', MS_cnt=11>`**), **`opydy`** (`TOP_LINE p->t`, **`<XREF STAR: f68r1.15 'otydy', MS_cnt=7>`**), and **`ypod`** (`TOP_LINE p->t`, **`<XREF PLANT: f102v2.16 'tod', MS_cnt=5>`**); Line 4 (`<%>` Paragraph 2 opener) places **`opydg`** (`TOP_LINE p->t`, **`<XREF STAR: f68r3.19 'otydg', MS_cnt=2>`**) immediately before the plant-stem drawing break (`<->`).
+     - **`<f84r.13>`, `<f84r.30>`, `<f84r.34>` (`Biological`)**: Line 13 (`<%>` Paragraph 1 opener) closes at the right margin with **`opoly`** (`TOP_LINE p->t`, **`<SAME-PAGE NYMPH: f84r.11 'otoly', MS_cnt=12>`**); Line 30 closes at the right margin with **`shekam`** (`RIGHT_MARGIN -m->-r`, **`<SAME-PAGE NYMPH: f84r.2 'shekar', MS_cnt=6>`**); Line 34 embeds **`daraldy`** (**`<XREF MAP/DIAG: fRos.19 'daraldy', MS_cnt=2>`**).
+     - **`<f99v.34>` (`Pharmaceutical`)**: Opens with `yoiin` (`INITIAL_Y_PROCLITIC`) and closes at the right margin with **`doldam`** (`RIGHT_MARGIN -m->-r`, **`<SAME-PAGE PLANT: f99v.31 'doldam', MS_cnt=2>`**).
+     - **`<f106v.2>` & `<f106v.6>` (`Starred Recipes`)**: Line 2 embeds **`keorain`** (**`<XREF JAR: f102v1.1 'keoraiiin', MS_cnt=2>`**); Line 6 embeds **`talshdy`** (**`<XREF ZODIAC: f72r1.6 'ytalshdy', MS_cnt=2>`**).
+
+---
+
 ## 4. Summary Checklist of Verified Deliverables & Continuing Research Continuity
-All scripts (`tools/*.py`), structured datasets (`data/*.json`), and 47 high-resolution visual evidence crops (`pages/*.png`) are version-controlled and pushed to `origin/main` so any future session or researcher can reproduce and extend these 16 quantitative and paleographic discoveries immediately.
+All 15 analysis scripts (`tools/*.py`), 13 structured datasets (`data/*.json`), full-page interlinear glosses ([`notes/INTERLINEAR_GLOSSES.md`](file:///c:/Users/denni/Documents/voynich/notes/INTERLINEAR_GLOSSES.md)), and 47 high-resolution visual evidence crops (`pages/*.png`) are version-controlled and pushed to `origin/main` so any future session or researcher can reproduce and extend these 17 quantitative and paleographic discoveries immediately.
 
 
 

@@ -39,7 +39,10 @@ Rather than rehashing historical decipherment speculations, this project focuses
 │   ├── analyze_bio_rosettes_and_keys.py # Marginal character keys (f49v, f57v, f66r, f76r) & Bio/Quire N analysis
 │   ├── analyze_cipher_wheel_f57v.py    # f57v 6-sector radial alignment & 4x17=68 key wheel analysis
 │   ├── test_syllable_and_entropy.py    # 5-slot Shannon entropy decomposition & 7.24-bit core root inventory
-│   └── analyze_cribs_and_taxonomy.py   # Pharma jar (@Lc) vs plant (@Lf) derivational morphology & Taurus/Rosette cribs
+│   ├── analyze_cribs_and_taxonomy.py   # Pharma jar (@Lc) vs plant (@Lf) derivational morphology & Taurus/Rosette cribs
+│   └── generate_interlinear_gloss.py   # Functional role parser & full-page interlinear structural gloss generator
+├── notes/
+│   └── INTERLINEAR_GLOSSES.md   # Full-page line-by-line structural interlinear glosses (f5r, f17r, f82v, f84r, f99v, f106v)
 └── pages/                       # Extracted, cropped, and contrast-enhanced folio images
 ```
 
@@ -47,7 +50,7 @@ Rather than rehashing historical decipherment speculations, this project focuses
 
 ## Highlights of Findings So Far
 
-*(See **[`NOTES.md`](NOTES.md)** for full tables, locus citations, and statistical proofs.)*
+*(See **[`NOTES.md`](NOTES.md)** for full tables, locus citations, and statistical proofs, and **[`notes/INTERLINEAR_GLOSSES.md`](notes/INTERLINEAR_GLOSSES.md)** for full-page line-by-line interlinear structural glosses.)*
 
 ### 1. Visual & Codicological Forensics Across Both PDFs
 - **Faded Marginalia & Multilingual Charm Enhancement**: Multi-channel contrast enhancement across `2002046.pdf` and `voynich-manuscript.pdf` brings out the right-margin Latin alphabetic sequence on **`f1r`**, the top-margin inscription on **`f17r`**, the Arabic numerals `1..5` + Voynich key column on **`f49v`**, the `den mus` / `del` corner annotations on **`f66r`**, and the mixed Latin / Middle High German / Voynich charm on **`f116v`**:
@@ -164,6 +167,12 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 12. Functional Role Parser, `49.26%` Label-Stem Coverage in Prose & Full-Page Interlinear Glosses ([`notes/INTERLINEAR_GLOSSES.md`](notes/INTERLINEAR_GLOSSES.md))
+- **`49.26%` of All Prose Tokens Share a Canonical Stem with an Attested Figure Label (`@L`)**: Across all `37,800` non-label prose tokens, `18,619` (`49.26%`) match the canonical stem of an isolated figure label (`@Lf`, `@Lc`, `@Ln`, `@Lt`, `@Ls`, `@Lz`, `@L0`), and `14,436` (`38.19%`) are actively governed by one of our positional/allographic/proclitic rules.
+- **Full-Page Interlinear Structural Glosses**: [`tools/generate_interlinear_gloss.py`](tools/generate_interlinear_gloss.py) generates complete line-by-line interlinear structural glosses in **[`notes/INTERLINEAR_GLOSSES.md`](notes/INTERLINEAR_GLOSSES.md)** for `f5r`, `f17r`, `f82v`, `f84r`, `f99v`, and `f106v`, tagging every word's syntactic slot role, positional allography, and exact same-page or cross-section figure-label cross-references.
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -178,7 +187,7 @@ python tools/build_index.py
 python tools/render_folio.py f99v --crop 0.05 0.28 0.98 0.72 --out pages/f99v_doldam_pair.png
 python tools/render_folio.py f116v --crop 0.05 0.02 0.85 0.45 --enhance --compare --out pages/f116v_text_cmp_enh.png
 
-# Run the structural and statistical test suite
+# Run the structural, cryptographic, and interlinear gloss suite
 python tools/analyze_structure.py
 python tools/test_q_prefix_and_labels.py
 python tools/deep_grammar_and_cipher_test.py
@@ -194,5 +203,6 @@ python tools/analyze_bio_rosettes_and_keys.py
 python tools/analyze_cipher_wheel_f57v.py
 python tools/test_syllable_and_entropy.py
 python tools/analyze_cribs_and_taxonomy.py
+python tools/generate_interlinear_gloss.py
 ```
 
