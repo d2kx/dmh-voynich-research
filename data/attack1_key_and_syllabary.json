@@ -1,0 +1,1166 @@
+{
+  "f49v_1_to_5_tuple_analysis": {
+    "cycle_1_with_arabic_1_to_5": [
+      "f",
+      "o",
+      "r",
+      "y",
+      "e"
+    ],
+    "cycle_2": [
+      "p",
+      "o",
+      "@192;(r)",
+      "y",
+      "e"
+    ],
+    "cycle_3": [
+      "p",
+      "o",
+      "@192;(r)",
+      "y",
+      "e"
+    ],
+    "cycle_4": [
+      "k",
+      "o",
+      "@192;(r)",
+      "o",
+      "@140;"
+    ],
+    "slot_interpretation": {
+      "1_f_p_k": "Slot 3 Core Gallows consonant (f on Line 0 / Cycle 1 -> p in Cycles 2-3 -> k in Cycle 4)",
+      "2_o": "Slot 2 Onset nominal vowel (o-)",
+      "3_r": "Slot 5a Liquid stem coda (-r)",
+      "4_y": "Slot 5b Inflectional suffix (-y)",
+      "5_e": "Slot 4 Medial vowel grade (e/ee)"
+    },
+    "corpus_char_coverage_fpktoryeds_pct": 57.87,
+    "corpus_char_coverage_with_bench_ch_sh_pct": 73.72,
+    "pure_fpktorye_word_tokens": 2959,
+    "pure_fpktorye_pct_of_corpus": 7.59,
+    "top_20_pure_fpktorye_words": [
+      [
+        "or",
+        394
+      ],
+      [
+        "y",
+        334
+      ],
+      [
+        "o",
+        211
+      ],
+      [
+        "okeey",
+        185
+      ],
+      [
+        "r",
+        169
+      ],
+      [
+        "oteey",
+        145
+      ],
+      [
+        "oty",
+        118
+      ],
+      [
+        "oky",
+        106
+      ],
+      [
+        "okey",
+        65
+      ],
+      [
+        "otey",
+        60
+      ],
+      [
+        "ykeey",
+        57
+      ],
+      [
+        "keey",
+        56
+      ],
+      [
+        "otor",
+        40
+      ],
+      [
+        "okor",
+        35
+      ],
+      [
+        "ky",
+        32
+      ],
+      [
+        "yteey",
+        31
+      ],
+      [
+        "okeeey",
+        27
+      ],
+      [
+        "kor",
+        26
+      ],
+      [
+        "yty",
+        23
+      ],
+      [
+        "tor",
+        22
+      ]
+    ],
+    "qd_plus_fpktorye_word_tokens": 7053,
+    "qd_plus_fpktorye_pct_of_corpus": 18.09,
+    "top_25_qd_fpktorye_words": [
+      [
+        "or",
+        394
+      ],
+      [
+        "y",
+        334
+      ],
+      [
+        "qokeey",
+        307
+      ],
+      [
+        "qokeedy",
+        307
+      ],
+      [
+        "dy",
+        279
+      ],
+      [
+        "qokedy",
+        276
+      ],
+      [
+        "o",
+        211
+      ],
+      [
+        "okeey",
+        185
+      ],
+      [
+        "r",
+        169
+      ],
+      [
+        "otedy",
+        165
+      ],
+      [
+        "qoky",
+        147
+      ],
+      [
+        "oteey",
+        145
+      ],
+      [
+        "okedy",
+        120
+      ],
+      [
+        "oty",
+        118
+      ],
+      [
+        "okeedy",
+        111
+      ],
+      [
+        "qokey",
+        109
+      ],
+      [
+        "oky",
+        106
+      ],
+      [
+        "oteedy",
+        106
+      ],
+      [
+        "qoty",
+        89
+      ],
+      [
+        "qotedy",
+        89
+      ],
+      [
+        "qoteedy",
+        77
+      ],
+      [
+        "d",
+        71
+      ],
+      [
+        "dor",
+        68
+      ],
+      [
+        "okey",
+        65
+      ],
+      [
+        "keedy",
+        62
+      ]
+    ],
+    "f49v_line_by_line_alignment": [
+      {
+        "row": 1,
+        "key_loc": "f49v.1",
+        "key_char": "f",
+        "prose_loc": "f49v.2",
+        "prose_first_word": "kshor",
+        "prose_last_word": "chy"
+      },
+      {
+        "row": 2,
+        "key_loc": "f49v.3",
+        "key_char": "o",
+        "prose_loc": "f49v.4",
+        "prose_first_word": "qokchy",
+        "prose_last_word": "ckhy"
+      },
+      {
+        "row": 3,
+        "key_loc": "f49v.5",
+        "key_char": "r",
+        "prose_loc": "f49v.6",
+        "prose_first_word": "chotchy",
+        "prose_last_word": "koddy"
+      },
+      {
+        "row": 4,
+        "key_loc": "f49v.7",
+        "key_char": "y",
+        "prose_loc": "f49v.8",
+        "prose_first_word": "okeodsho",
+        "prose_last_word": "dam"
+      },
+      {
+        "row": 5,
+        "key_loc": "f49v.9",
+        "key_char": "e",
+        "prose_loc": "f49v.10",
+        "prose_first_word": "shol",
+        "prose_last_word": "qotchar"
+      },
+      {
+        "row": 6,
+        "key_loc": "f49v.11",
+        "key_char": "@140;",
+        "prose_loc": "f49v.12",
+        "prose_first_word": "qotchy",
+        "prose_last_word": "choky"
+      },
+      {
+        "row": 7,
+        "key_loc": "f49v.13",
+        "key_char": "k",
+        "prose_loc": "f49v.14",
+        "prose_first_word": "chotchy",
+        "prose_last_word": "dan"
+      },
+      {
+        "row": 8,
+        "key_loc": "f49v.15",
+        "key_char": "s",
+        "prose_loc": "f49v.16",
+        "prose_first_word": "qoteees",
+        "prose_last_word": "dol"
+      },
+      {
+        "row": 9,
+        "key_loc": "f49v.17",
+        "key_char": "p",
+        "prose_loc": "f49v.18",
+        "prose_first_word": "ochor",
+        "prose_last_word": "dl"
+      },
+      {
+        "row": 10,
+        "key_loc": "f49v.19",
+        "key_char": "o",
+        "prose_loc": "f49v.20",
+        "prose_first_word": "qoksho",
+        "prose_last_word": "dar"
+      },
+      {
+        "row": 11,
+        "key_loc": "f49v.21",
+        "key_char": "@192;",
+        "prose_loc": "f49v.22",
+        "prose_first_word": "dchol",
+        "prose_last_word": "choky"
+      },
+      {
+        "row": 12,
+        "key_loc": "f49v.23",
+        "key_char": "y",
+        "prose_loc": "f49v.24",
+        "prose_first_word": "ochokeey",
+        "prose_last_word": "chokag"
+      },
+      {
+        "row": 13,
+        "key_loc": "f49v.25",
+        "key_char": "e",
+        "prose_loc": "f49v.26",
+        "prose_first_word": "qokeol",
+        "prose_last_word": "daiin"
+      },
+      {
+        "row": 14,
+        "key_loc": "f49v.27",
+        "key_char": "@140;",
+        "prose_loc": "f49v.28",
+        "prose_first_word": "fchochor",
+        "prose_last_word": "chotchy"
+      },
+      {
+        "row": 15,
+        "key_loc": "f49v.29",
+        "key_char": "@164;",
+        "prose_loc": "f49v.30",
+        "prose_first_word": "dcho",
+        "prose_last_word": "okchokol"
+      },
+      {
+        "row": 16,
+        "key_loc": "f49v.31",
+        "key_char": "p",
+        "prose_loc": "f49v.32",
+        "prose_first_word": "tchotchey",
+        "prose_last_word": "dchog"
+      },
+      {
+        "row": 17,
+        "key_loc": "f49v.33",
+        "key_char": "o",
+        "prose_loc": "f49v.34",
+        "prose_first_word": "shocho",
+        "prose_last_word": "choty"
+      },
+      {
+        "row": 18,
+        "key_loc": "f49v.35",
+        "key_char": "@192;",
+        "prose_loc": "f49v.36",
+        "prose_first_word": "qotcho",
+        "prose_last_word": "chotchody"
+      },
+      {
+        "row": 19,
+        "key_loc": "f49v.37",
+        "key_char": "y",
+        "prose_loc": "f49v.38",
+        "prose_first_word": "chokeo",
+        "prose_last_word": "qokg"
+      },
+      {
+        "row": 20,
+        "key_loc": "f49v.39",
+        "key_char": "e",
+        "prose_loc": "f49v.40",
+        "prose_first_word": "oaiin",
+        "prose_last_word": "chokchy"
+      },
+      {
+        "row": 21,
+        "key_loc": "f49v.41",
+        "key_char": "@140;",
+        "prose_loc": "f49v.42",
+        "prose_first_word": "qokeaiin",
+        "prose_last_word": "daisin"
+      },
+      {
+        "row": 22,
+        "key_loc": "f49v.43",
+        "key_char": "d",
+        "prose_loc": "f49v.44",
+        "prose_first_word": "chokaiin",
+        "prose_last_word": "dy"
+      },
+      {
+        "row": 23,
+        "key_loc": "f49v.45",
+        "key_char": "y",
+        "prose_loc": "f49v.46",
+        "prose_first_word": "oaiin",
+        "prose_last_word": "s"
+      },
+      {
+        "row": 24,
+        "key_loc": "f49v.47",
+        "key_char": "e",
+        "prose_loc": "f49v.48",
+        "prose_first_word": "qotcheol",
+        "prose_last_word": "d"
+      },
+      {
+        "row": 25,
+        "key_loc": "f49v.49",
+        "key_char": "k",
+        "prose_loc": "f49v.50",
+        "prose_first_word": "chol",
+        "prose_last_word": "chokoran"
+      },
+      {
+        "row": 26,
+        "key_loc": "f49v.51",
+        "key_char": "y",
+        "prose_loc": "f49v.52",
+        "prose_first_word": "ykchokeo",
+        "prose_last_word": "daiin"
+      }
+    ]
+  },
+  "f57v_4ring_volvelle_analysis": {
+    "ring_token_counts": {
+      "Ring1_f57v.2": 54,
+      "Ring2_f57v.3": 68,
+      "Ring3_f57v.4": 30,
+      "Ring4_f57v.5": 35
+    },
+    "ring4_segments": [
+      {
+        "type": "DELIMITER",
+        "items": [
+          "o",
+          "v",
+          "l",
+          "r",
+          "m"
+        ],
+        "count": 5,
+        "start_angle_deg": 0.0,
+        "center_angle_deg": 20.6
+      },
+      {
+        "type": "WORDS",
+        "items": [
+          "aiin"
+        ],
+        "count": 1,
+        "start_angle_deg": 51.4,
+        "center_angle_deg": 51.4
+      },
+      {
+        "type": "DELIMITER",
+        "items": [
+          "d",
+          "@170;",
+          "c",
+          "f",
+          "s",
+          "y",
+          "l",
+          "k",
+          "x",
+          "l",
+          "r",
+          "@171;"
+        ],
+        "count": 12,
+        "start_angle_deg": 61.7,
+        "center_angle_deg": 118.3
+      },
+      {
+        "type": "WORDS",
+        "items": [
+          "ar"
+        ],
+        "count": 1,
+        "start_angle_deg": 185.1,
+        "center_angle_deg": 185.1
+      },
+      {
+        "type": "DELIMITER",
+        "items": [
+          "o",
+          "r",
+          "a",
+          "t",
+          "l",
+          "s",
+          "d",
+          "y"
+        ],
+        "count": 8,
+        "start_angle_deg": 195.4,
+        "center_angle_deg": 231.4
+      },
+      {
+        "type": "WORDS",
+        "items": [
+          "dar",
+          "teodar",
+          "otodal",
+          "sheky",
+          "oteeody"
+        ],
+        "count": 5,
+        "start_angle_deg": 277.7,
+        "center_angle_deg": 298.3
+      },
+      {
+        "type": "DELIMITER",
+        "items": [
+          "x",
+          "s",
+          "l"
+        ],
+        "count": 3,
+        "start_angle_deg": 329.1,
+        "center_angle_deg": 339.4
+      }
+    ],
+    "six_synchronized_sectors": [
+      {
+        "sector": "Sector_1_10h_to_12h",
+        "angle_range_deg": [
+          0.0,
+          50.0
+        ],
+        "ring1_outer_tokens": [
+          "v",
+          "sal",
+          "y",
+          "soeos",
+          "vs",
+          "ar",
+          "okees",
+          "o"
+        ],
+        "ring2_key_tokens": [
+          "o",
+          "l",
+          "d",
+          "r",
+          "v",
+          "x",
+          "k",
+          "m",
+          "f",
+          "@169;v"
+        ],
+        "ring3_mid_tokens": [
+          "daiin",
+          "otey",
+          "ofchey",
+          "shes",
+          "o"
+        ],
+        "ring4_inner_tokens": [
+          "o",
+          "v",
+          "l",
+          "r",
+          "m"
+        ]
+      },
+      {
+        "sector": "Sector_2_12h_to_1h",
+        "angle_range_deg": [
+          50.0,
+          78.0
+        ],
+        "ring1_outer_tokens": [
+          "d",
+          "soefchees",
+          "l",
+          "g"
+        ],
+        "ring2_key_tokens": [
+          "t",
+          "r",
+          "@170;",
+          "@171;",
+          "y"
+        ],
+        "ring3_mid_tokens": [
+          "d",
+          "okeeod"
+        ],
+        "ring4_inner_tokens": [
+          "aiin",
+          "d",
+          "@170;"
+        ]
+      },
+      {
+        "sector": "Sector_3_1h_to_3h15",
+        "angle_range_deg": [
+          78.0,
+          156.5
+        ],
+        "ring1_outer_tokens": [
+          "sos",
+          "okey",
+          "defo",
+          "f",
+          "o",
+          "rkedam",
+          "sh",
+          "ofol",
+          "sar",
+          "ddal",
+          "yty",
+          "s"
+        ],
+        "ring2_key_tokens": [
+          "I",
+          "@172;",
+          "o",
+          "l",
+          "d",
+          "r",
+          "v",
+          "x",
+          "k",
+          "m",
+          "f",
+          "@169;v",
+          "t",
+          "r",
+          "@170;"
+        ],
+        "ring3_mid_tokens": [
+          "l",
+          "o",
+          "lkeeol",
+          "dkedar",
+          "yf",
+          "aros",
+          "s"
+        ],
+        "ring4_inner_tokens": [
+          "c",
+          "f",
+          "s",
+          "y",
+          "l",
+          "k",
+          "x",
+          "l"
+        ]
+      },
+      {
+        "sector": "Sector_4_3h15_to_5h",
+        "angle_range_deg": [
+          156.5,
+          208.5
+        ],
+        "ring1_outer_tokens": [
+          "y",
+          "daiir",
+          "otey",
+          "dshdy",
+          "dkals",
+          "oty",
+          "pchchy",
+          "a"
+        ],
+        "ring2_key_tokens": [
+          "@171;",
+          "y",
+          "c",
+          "@172;",
+          "o",
+          "l",
+          "d",
+          "r",
+          "v",
+          "x"
+        ],
+        "ring3_mid_tokens": [
+          "y",
+          "chedaiin",
+          "k",
+          "eeety"
+        ],
+        "ring4_inner_tokens": [
+          "r",
+          "@171;",
+          "ar",
+          "o",
+          "r"
+        ]
+      },
+      {
+        "sector": "Sector_5_5h_to_7h45",
+        "angle_range_deg": [
+          208.5,
+          290.0
+        ],
+        "ring1_outer_tokens": [
+          "r",
+          "opaiin",
+          "dal",
+          "karody",
+          "v",
+          "r",
+          "okeey",
+          "daram",
+          "qokar",
+          "okal",
+          "okal",
+          "d"
+        ],
+        "ring2_key_tokens": [
+          "k",
+          "m",
+          "p",
+          "@169;v",
+          "t",
+          "r",
+          "@170;",
+          "@171;",
+          "y",
+          "c",
+          "@172;",
+          "o",
+          "l",
+          "d",
+          "r"
+        ],
+        "ring3_mid_tokens": [
+          "x",
+          "deeodal",
+          "vo",
+          "tchor",
+          "kedar",
+          "dal",
+          "@172;"
+        ],
+        "ring4_inner_tokens": [
+          "a",
+          "t",
+          "l",
+          "s",
+          "d",
+          "y",
+          "dar",
+          "teodar"
+        ]
+      },
+      {
+        "sector": "Sector_6_7h45_to_10h",
+        "angle_range_deg": [
+          290.0,
+          360.0
+        ],
+        "ring1_outer_tokens": [
+          "o",
+          "l",
+          "shkeal",
+          "dy",
+          "das",
+          "o",
+          "k",
+          "sher",
+          "s",
+          "aiin"
+        ],
+        "ring2_key_tokens": [
+          "v",
+          "x",
+          "k",
+          "m",
+          "p",
+          "@169;v",
+          "t",
+          "r",
+          "@170;",
+          "@171;",
+          "y",
+          "c",
+          "@172;"
+        ],
+        "ring3_mid_tokens": [
+          "daiin",
+          "aiin",
+          "otal",
+          "daro",
+          "v"
+        ],
+        "ring4_inner_tokens": [
+          "otodal",
+          "sheky",
+          "oteeody",
+          "x",
+          "s",
+          "l"
+        ]
+      }
+    ]
+  },
+  "f66r_key_and_corner_crib": {
+    "margin_key_34_chars": [
+      "y",
+      "o",
+      "s",
+      "sh",
+      "y",
+      "d",
+      "o",
+      "f",
+      "@169;",
+      "x",
+      "air",
+      "d",
+      "sh",
+      "y",
+      "f",
+      "f",
+      "y",
+      "o",
+      "d",
+      "s",
+      "f",
+      "c",
+      "@172;",
+      "x",
+      "t",
+      "o",
+      "@195;",
+      "l",
+      "r",
+      "t",
+      "o",
+      "x",
+      "p",
+      "d"
+    ],
+    "outer_to_key_to_prose_alignment": [
+      {
+        "outer_loc": "f66r.1",
+        "outer_word": "rary",
+        "key_loc": "f66r.16",
+        "key_char": "y",
+        "match_type": "ends_with_y",
+        "prose_loc": "f66r.50 (<%>pdaiin...)"
+      },
+      {
+        "outer_loc": "f66r.2",
+        "outer_word": "rals",
+        "key_loc": "f66r.18",
+        "key_char": "s",
+        "match_type": "ends_with_s",
+        "prose_loc": "f66r.52"
+      },
+      {
+        "outer_loc": "f66r.3",
+        "outer_word": "qor",
+        "key_loc": "f66r.20",
+        "key_char": "y",
+        "match_type": "none",
+        "prose_loc": "f66r.54"
+      },
+      {
+        "outer_loc": "f66r.4",
+        "outer_word": "dary",
+        "key_loc": "f66r.23",
+        "key_char": "f",
+        "match_type": "par2_start_gallows",
+        "prose_loc": "f66r.57 (<%>tocpheey...)"
+      },
+      {
+        "outer_loc": "f66r.5",
+        "outer_word": "ykeol",
+        "key_loc": "f66r.25",
+        "key_char": "x",
+        "match_type": "none",
+        "prose_loc": "f66r.59"
+      },
+      {
+        "outer_loc": "f66r.6",
+        "outer_word": "saly",
+        "key_loc": "f66r.29",
+        "key_char": "y",
+        "match_type": "ends_with_y",
+        "prose_loc": "f66r.62"
+      },
+      {
+        "outer_loc": "f66r.7",
+        "outer_word": "salf",
+        "key_loc": "f66r.30",
+        "key_char": "f",
+        "match_type": "ends_with_f (ultra-rare -f!)",
+        "prose_loc": "f66r.63 (<%>pchof...)"
+      },
+      {
+        "outer_loc": "f66r.8",
+        "outer_word": "fary",
+        "key_loc": "f66r.31",
+        "key_char": "f",
+        "match_type": "starts_with_f",
+        "prose_loc": "f66r.64"
+      },
+      {
+        "outer_loc": "f66r.9",
+        "outer_word": "qotesy",
+        "key_loc": "f66r.35",
+        "key_char": "s",
+        "match_type": "contains_s",
+        "prose_loc": "f66r.67 (<%>psheody...)"
+      },
+      {
+        "outer_loc": "f66r.10",
+        "outer_word": "ykaly",
+        "key_loc": "f66r.37",
+        "key_char": "c",
+        "match_type": "f57v_f_c_@172_seq",
+        "prose_loc": "f66r.69"
+      },
+      {
+        "outer_loc": "f66r.11",
+        "outer_word": "doly",
+        "key_loc": "f66r.39",
+        "key_char": "x",
+        "match_type": "par5_start_t_o",
+        "prose_loc": "f66r.70 (<%>todeeey...)"
+      },
+      {
+        "outer_loc": "f66r.12",
+        "outer_word": "saiin",
+        "key_loc": "f66r.41",
+        "key_char": "o",
+        "match_type": "none",
+        "prose_loc": "f66r.72"
+      },
+      {
+        "outer_loc": "f66r.13",
+        "outer_word": "qokal",
+        "key_loc": "f66r.43",
+        "key_char": "l",
+        "match_type": "ends_with_l",
+        "prose_loc": "f66r.74"
+      },
+      {
+        "outer_loc": "f66r.14",
+        "outer_word": "qolsa",
+        "key_loc": "f66r.46",
+        "key_char": "o",
+        "match_type": "contains_o",
+        "prose_loc": "f66r.77"
+      },
+      {
+        "outer_loc": "f66r.15",
+        "outer_word": "raral",
+        "key_loc": "f66r.48",
+        "key_char": "p",
+        "match_type": "final_cycle_p_gallows",
+        "prose_loc": "f66r.79 (pchedy)"
+      }
+    ],
+    "corner_labels_and_lx": [
+      {
+        "loc": "f66r.1",
+        "loc_type": "@L0",
+        "raw_body": "rary",
+        "words": [
+          "rary"
+        ],
+        "canon": [
+          "rary"
+        ]
+      },
+      {
+        "loc": "f66r.2",
+        "loc_type": "+L0",
+        "raw_body": "[r:s]als",
+        "words": [
+          "rals"
+        ],
+        "canon": [
+          "rals"
+        ]
+      },
+      {
+        "loc": "f66r.3",
+        "loc_type": "+L0",
+        "raw_body": "qo[r:n]",
+        "words": [
+          "qor"
+        ],
+        "canon": [
+          "or"
+        ]
+      },
+      {
+        "loc": "f66r.4",
+        "loc_type": "+L0",
+        "raw_body": "dary",
+        "words": [
+          "dary"
+        ],
+        "canon": [
+          "dary"
+        ]
+      },
+      {
+        "loc": "f66r.5",
+        "loc_type": "+L0",
+        "raw_body": "ykeol",
+        "words": [
+          "ykeol"
+        ],
+        "canon": [
+          "keol"
+        ]
+      },
+      {
+        "loc": "f66r.6",
+        "loc_type": "+L0",
+        "raw_body": "saly",
+        "words": [
+          "saly"
+        ],
+        "canon": [
+          "saly"
+        ]
+      },
+      {
+        "loc": "f66r.7",
+        "loc_type": "+L0",
+        "raw_body": "salf",
+        "words": [
+          "salf"
+        ],
+        "canon": [
+          "salk"
+        ]
+      },
+      {
+        "loc": "f66r.8",
+        "loc_type": "+L0",
+        "raw_body": "fary",
+        "words": [
+          "fary"
+        ],
+        "canon": [
+          "kary"
+        ]
+      },
+      {
+        "loc": "f66r.9",
+        "loc_type": "+L0",
+        "raw_body": "qotesy",
+        "words": [
+          "qotesy"
+        ],
+        "canon": [
+          "otesy"
+        ]
+      },
+      {
+        "loc": "f66r.10",
+        "loc_type": "+L0",
+        "raw_body": "ykaly",
+        "words": [
+          "ykaly"
+        ],
+        "canon": [
+          "kaly"
+        ]
+      },
+      {
+        "loc": "f66r.11",
+        "loc_type": "+L0",
+        "raw_body": "doly",
+        "words": [
+          "doly"
+        ],
+        "canon": [
+          "doly"
+        ]
+      },
+      {
+        "loc": "f66r.12",
+        "loc_type": "+L0",
+        "raw_body": "saiin",
+        "words": [
+          "saiin"
+        ],
+        "canon": [
+          "sain"
+        ]
+      },
+      {
+        "loc": "f66r.13",
+        "loc_type": "+L0",
+        "raw_body": "qokal",
+        "words": [
+          "qokal"
+        ],
+        "canon": [
+          "okal"
+        ]
+      },
+      {
+        "loc": "f66r.14",
+        "loc_type": "+L0",
+        "raw_body": "qolsa",
+        "words": [
+          "qolsa"
+        ],
+        "canon": [
+          "olsa"
+        ]
+      },
+      {
+        "loc": "f66r.15",
+        "loc_type": "+L0",
+        "raw_body": "raral",
+        "words": [
+          "raral"
+        ],
+        "canon": [
+          "raral"
+        ]
+      },
+      {
+        "loc": "f66r.82",
+        "loc_type": "@Lx",
+        "raw_body": "otcheo,daiin.chty.ykees,cheg",
+        "words": [
+          "otcheo",
+          "daiin",
+          "chty",
+          "ykees",
+          "cheg"
+        ],
+        "canon": [
+          "otcheo",
+          "dain",
+          "chty",
+          "kes",
+          "cheg"
+        ]
+      }
+    ],
+    "prose_line_count": 32
+  }
+}

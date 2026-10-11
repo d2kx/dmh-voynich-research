@@ -40,7 +40,8 @@ Rather than rehashing historical decipherment speculations, this project focuses
 │   ├── analyze_cipher_wheel_f57v.py    # f57v 6-sector radial alignment & 4x17=68 key wheel analysis
 │   ├── test_syllable_and_entropy.py    # 5-slot Shannon entropy decomposition & 7.24-bit core root inventory
 │   ├── analyze_cribs_and_taxonomy.py   # Pharma jar (@Lc) vs plant (@Lf) derivational morphology & Taurus/Rosette cribs
-│   └── generate_interlinear_gloss.py   # Functional role parser & full-page interlinear structural gloss generator
+│   ├── generate_interlinear_gloss.py   # Functional role parser & full-page interlinear structural gloss generator
+│   └── attack1_key_and_syllabary.py    # f49v (1..5=f-o-r-y-e) generative tuple, f66r 3-column index & f57v 4-ring alignment
 ├── notes/
 │   └── INTERLINEAR_GLOSSES.md   # Full-page line-by-line structural interlinear glosses (f5r, f17r, f82v, f84r, f99v, f106v)
 └── pages/                       # Extracted, cropped, and contrast-enhanced folio images
@@ -145,10 +146,10 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
   2. **`f99r` $\leftrightarrow$ `f17r` (`darar` $\leftrightarrow$ `daram`, Global Count = 11, plus `dcheor` $\leftrightarrow$ `dcheor`, Count = 5)**: Miniature plant label `<f99r.3,@Lf> darar` $\to$ 2nd word of Line 1 on its full-page Herbal twin `<f17r.1,@P0> daram` (plus shared `<f99r.17> dcheor` $\leftrightarrow$ `<f17r.10> dcheor`).
   3. **`f88r` $\leftrightarrow$ `f22r` (`oldar` $\leftrightarrow$ `oldam`, Global Count = 12)**: Miniature plant label `<f88r.4,@Lf> oldar` $\to$ last word of Line 1 of Paragraph 3 on its full-page Herbal twin `<f22r.10,+P0> oldam`.
 - **Cross-Scribe `f` $\to$ `p` Substitution in Repeating Single-Character Keys (`f49v`, `f57v`, `f66r`)**: Across three different sections and three paleographic scribes (`Hand 1` on `f49v`, `Hand 4` on `f57v`, `Hand 5` on `f66r`), repeating single-character key sequences systematically replace **`f` in the initial/upper cycle** with **`p` in the lower/later cycles**:
-  - **`f49v` (`Hand 1`, `pages/f49v_margin_key_enh.png`)**: Cycle 1 (`lines 1–5`) = **`f` `- o - r - y - e`** $\to$ Cycles 2–3 (`lines 9–13, 16–20`) = **`p` `- o - @192; - y - e`**.
+  - **`f49v` (`Hand 1`, `pages/f49v_margin_key_enh.png`)**: Cycle 1 (`lines 1–5`, numbered `1..5`) = **`f` `- o - r - y - e`** $\to$ Cycles 2–3 (`lines 9–13, 16–20`) = **`p` `- o - @192; - y - e`** $\to$ Cycle 4 = **`k` `- o - @192; - o`**. Together with `{q, d}`, this 5-slot tuple (`[f/p/k/t], o, r, y, e`) generates **`18.09%` (`7,053` words)** of the entire manuscript!
   - **`f57v` (`Hand 4`, `pages/f57v_ring_enh.png`)**: Ring 2 (`<f57v.3>`) has **exactly `68 = 4 × 17` tokens**, repeating `o l d r v x k m [f/p] @169;v t r @170; @171; y [I/c] @172;` four times (`f` in Quadrants 1–2, `p` in Quadrants 3–4).
-  - **`f66r` (`Hand 5`, `pages/f66r_margin_labels.png`)**: Upper cycles = **`f` `- c - @172;` / `f - @169; - x - t - o`** (sharing the exact `f - c - @172;` sequence with `f57v.3`!) $\to$ Final bottom cycle = `t - o - x -` **`p`** `- d`.
-- **`f57v` 6-Sector Radial Synchronization (`Ring 1` $\leftrightarrow$ `Ring 3`)**: Converting the token positions of Ring 1 (`<f57v.2>`) and Ring 3 (`<f57v.4>`) to polar angles from the 10 o'clock radial bar (`0°`) proves that both word rings are divided into **6 synchronized radial sectors** bounded by matching embedded single-character delimiter pairs at the exact same angles: **`v`** (`0°`/`348.4°`), **`o . d`** (`50.0°` vs. `52.3°`, $\Delta\theta = 2.3^\circ$, followed by exactly **1 word** in both rings: `soefchees` above `okeeod`), **`l . g` / `l . o`** (`70.0°`/`87.1°`), **`s . y`** (`156.7°` vs. `156.8°`, $\Delta\theta = 0.1^\circ$), **`a . r` / `x`** (`210.0°` vs. `209.0°`, $\Delta\theta = 1.0^\circ$), and **`d . o . l` / `@172;`** (`293.3°` vs. `290.3°`, $\Delta\theta = 3.0^\circ`).
+  - **`f66r` (`Hand 5`, `pages/f66r_top_left_labels_enh.png`)**: Forms a **3-column horizontal index table** (`Outer Word` $\leftrightarrow$ `Middle Key Char` $\leftrightarrow$ `Paragraph Start`), where outer words explicitly echo the key letter beside them (`rary` $\leftrightarrow$ `y`, `rals` $\leftrightarrow$ `s`, `saly` $\leftrightarrow$ `y`, **`salf` $\leftrightarrow$ `f`**, **`fary` $\leftrightarrow$ `f`**, `qokal` $\leftrightarrow$ `l`) and gallows in the middle column mark the paragraph openings (`<%>`) of the prose!
+- **`f57v` 6-Sector Radial Synchronization (`Rings 1, 3, and 4`)**: Converting the token positions of Ring 1 (`<f57v.2>`), Ring 3 (`<f57v.4>`), and Ring 4 (`<f57v.5>`) to polar angles from the 10 o'clock radial bar (`0°`) proves that the word rings are divided into **6 synchronized radial sectors** bounded by matching embedded single-character delimiter pairs (`v`, `o d`, `l g`/`l o`, `s y`, `a r`/`x`, `d o l`/`@172;`).
 
 ---
 
@@ -204,5 +205,6 @@ python tools/analyze_cipher_wheel_f57v.py
 python tools/test_syllable_and_entropy.py
 python tools/analyze_cribs_and_taxonomy.py
 python tools/generate_interlinear_gloss.py
+python tools/attack1_key_and_syllabary.py
 ```
 
