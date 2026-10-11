@@ -23,6 +23,7 @@ This directory contains our ongoing computational, paleographic, and visual fore
 - [`tools/test_cross_section_links.py`](file:///c:/Users/denni/Documents/voynich/tools/test_cross_section_links.py): Tests horizontal ($x$-coordinate) alignment of label references, binary alternation pairing in Starred Recipes, and section-specific rare label enrichment ([`data/cross_section_and_alignment.json`](file:///c:/Users/denni/Documents/voynich/data/cross_section_and_alignment.json)).
 - [`tools/analyze_zodiac_and_hands.py`](file:///c:/Users/denni/Documents/voynich/tools/analyze_zodiac_and_hands.py): Tests invariance of our 4 morphological rules across all 5 paleographic Scribe Hands (`$H=1..5`) and analyzes Zodiac (`f70v2–f73v`) nymph ring sequences ([`data/zodiac_and_hands_analysis.json`](file:///c:/Users/denni/Documents/voynich/data/zodiac_and_hands_analysis.json)).
 - [`tools/inspect_zodiac_details.py`](file:///c:/Users/denni/Documents/voynich/tools/inspect_zodiac_details.py): Tests the `ot-/op-` vs. `ok-/of-` prefix split between barreled and unbarreled Zodiac nymphs and across label categories (`@Lc`, `@Lf`, `@Lt`, `@Ln`, `@Lz`) ([`data/zodiac_prefix_split.json`](file:///c:/Users/denni/Documents/voynich/data/zodiac_prefix_split.json)).
+- [`tools/analyze_collocations_and_quires.py`](file:///c:/Users/denni/Documents/voynich/tools/analyze_collocations_and_quires.py): Runs a within-line permutation test of adjacent-word reduplication, canonical twin adjacency, 1-char substitution, suffix concord, multi-word collocations, and quire structure ([`data/collocations_and_quires.json`](file:///c:/Users/denni/Documents/voynich/data/collocations_and_quires.json)).
 
 ---
 
@@ -65,9 +66,15 @@ This directory contains our ongoing computational, paleographic, and visual fore
   - [`pages/f72r3_cancer_jolh.png`](file:///c:/Users/denni/Documents/voynich/pages/f72r3_cancer_jolh.png) (`Cancer` / **`jolh`**): Two red/green crayfish in the center medallion surrounded by **unbarreled** nymphs.
   - [`pages/f72v3_leo_agost.png`](file:///c:/Users/denni/Documents/voynich/pages/f72v3_leo_agost.png) (`Leo` / **`agost`**), [`pages/f72v2_virgo_setembre.png`](file:///c:/Users/denni/Documents/voynich/pages/f72v2_virgo_setembre.png) (`Virgo` / **`septemb'`**), [`pages/f72v1_libra_octobre.png`](file:///c:/Users/denni/Documents/voynich/pages/f72v1_libra_octobre.png) (`Libra` / **`octobre`**), and [`pages/f73r_scorpio_novembre.png`](file:///c:/Users/denni/Documents/voynich/pages/f73r_scorpio_novembre.png) (`Scorpio` / **`novembre`**): All feature **unbarreled** full-body nymphs holding stars (and on `f72v2` Virgo, the rare label `<f72v2.10,@Lz> sheoeky` at 11 o'clock matches `<f72v2.4,@Cc> sheeoeky` at 6 o'clock of the inner ring, global canonical count = 3).
 
+### H. Physical Book-Edge & Binding Forensics (`p210–p213` in `2002046.pdf`)
+- Extracting the four physical book-edge photographs exclusive to `2002046.pdf` ([`pages/p210_head_edge.png`](file:///c:/Users/denni/Documents/voynich/pages/p210_head_edge.png) `[Head]`, [`pages/p211_tail_edge.png`](file:///c:/Users/denni/Documents/voynich/pages/p211_tail_edge.png) `[Tail]`, [`pages/p212_fore_edge.png`](file:///c:/Users/denni/Documents/voynich/pages/p212_fore_edge.png) `[Fore-edge]`, [`pages/p213_spine_edge.png`](file:///c:/Users/denni/Documents/voynich/pages/p213_spine_edge.png) `[Spine]`) and pairing them with the quire table in [`data/collocations_and_quires.json`](file:///c:/Users/denni/Documents/voynich/data/collocations_and_quires.json) shows:
+  - In the `[Head]` and `[Tail]` views (`p210`, `p211`), the 18 surviving sewn quire gatherings (`$Q=A..T`, with Quires `P` and `R` missing) are visible at the spine on the left, while the thick nested multi-panel foldouts (`f67–f72`, `f85–f86`, `f89–f90`, `f99–f102`) form loops at the right (`fore-edge`).
+  - In the `[Fore-edge]` view (`p212`), the left half (Quires `A–H`, single-bifolium Herbal pages) shows cut leaf edges, while the center-right (Quires `I–S`) shows smooth rounded fold edges where oversized foldouts tuck inward.
+  - Quire boundaries strictly segregate Scribe Hands (`$H`) and Currier Languages (`$L`) across most of the codex: Quires `A, B, C, O, S` are 100% Hand 1 (`$L=A`); Quires `I, J, K, L` are 100% Hand 4 (`Astro/Zodiac`); Quires `M, N` are 100% Hand 2 (`$L=B`); and Quire `T` (`f103r–f116v`) is 100% Hand 3 (`$L=B`, plus the final `@` page `f116v`), while only Herbal Quires `D, E, F, G, H, Q` mix bifolia from Hands 1, 2, 3, and 5.
+
 ---
 
-## 3. Eight Quantitative & Structural Discoveries
+## 3. Nine Quantitative & Structural Discoveries
 
 ### Discovery 1: The Physical Line & Drawing-Intrusion State Machine
 Voynich word morphology is governed not just by sentence syntax, but by **physical layout coordinates on the vellum** (left margin, line interior, plant-stem interruption `<->`, right margin, and top line of a paragraph):
@@ -210,9 +217,27 @@ Analyzing all 350 Zodiac degree-nymph labels (`@Lz`) across the 12 Zodiac pages 
 
 ---
 
+### Discovery 9: Within-Line Permutation Test of Adjacent-Word Harmony ($z = +8.65$ Suffix Concord & $z = +4.25$ Canonical Twin Adjacency vs. $z = +0.21$ Exact Reduplication)
+A central claim of "autoregressive word-copying / self-citation hoax" models (e.g., Timm & Schinner) is that adjacent Voynich words (`w_i, w_{i+1}`) are frequently identical (`w_1 == w_2`) or differ by a single character (`w_1 ~ w_2`) because a scribe was mechanically tweaking the immediately preceding word.
+
+To test this rigorously, [`tools/analyze_collocations_and_quires.py`](file:///c:/Users/denni/Documents/voynich/tools/analyze_collocations_and_quires.py) ([`data/collocations_and_quires.json`](file:///c:/Users/denni/Documents/voynich/data/collocations_and_quires.json)) compares all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-line permutation null baseline** (randomly shuffling the word order *inside each individual physical line* 200 times, which preserves exact line-level topical vocabulary while destroying word-to-word order):
+
+| Adjacent-Word Pattern (`w_i, w_{i+1}`) | Observed Count | Within-Line Shuffle Null ($\mu \pm \sigma$) | $z$-Score | Interpretation |
+| :--- | :---: | :---: | :---: | :--- |
+| **Exact Reduplication (`w_1 == w_2`)** | 286 | $283.19 \pm 13.05$ | **$+0.21$ (NS)** | **Explained entirely by line-level word frequency**, not immediate `w_i -> w_{i+1}` copying! |
+| **1-Char Substitution (`w_1 ~ w_2`, $\text{len} \ge 4$)** | 292 | $270.43 \pm 14.02$ | **$+1.54$ (NS)** | **Not statistically significant** once line-level vocabulary is controlled! |
+| **2-Char Prefix Match (`w_1[:2] == w_2[:2]`)** | 3,039 | $2,917.26 \pm 40.81$ | **$+2.98$** | Modest local prefix clustering. |
+| **Canonical Twin Adjacency (`w_1 != w_2`, `canon(w_1) == canon(w_2)`)** | **240** | $190.04 \pm 11.75$ | **$+4.25$ ($p = 10^{-5}$)** | Highly significant pairing of **`X` + `q-X` / `q-X` + `X`** (`okeey qokeey`, `qokeey okeey`, `okeedy qokeedy`, `qokar okar`, `qokain okain`) and `e/ee` grade shifts (`qokedy qokeedy`)! |
+| **2-Char Suffix Concord (`w_1[-2:] == w_2[-2:]`)** | **4,533** | $4,127.98 \pm 46.80$ | **$+8.65$ ($p < 10^{-16}$)** | Massive **grammatical suffix agreement / inflectional rhyme** between adjacent words (`-dy -dy`, `-in -in`, `-ol -ol`, `-ar -ar`)! |
+
+- **Rigid Syntactic Bigrams & Trigrams**: The top recurring multi-word phrases across the manuscript are **`s aiin`** (`58`), **`or aiin`** (`54`), **`chol daiin`** (`33`), **`ar aiin`** (`25`), **`ol shedy`** (`24`), **`r aiin`** (`22`), **`ol chedy`** (`22`), **`shedy qokedy`** (`21`), **`chedy qokeey`** (`19`), and **`chedy qokain`** (`18`), demonstrating productive **`[particle/root] + aiin`** and **`ol + [ch/sh]edy + qok[e]dy`** phrase templates.
+
+---
+
 ## 4. Open Questions & Next Avenues to Explore
-1. **Multi-Word Collocations, Repeated Phrases & Formulaic Templates**: What are the most frequent 2-word and 3-word collocations across the manuscript, and do specific multi-word formulas mark paragraph openings, endings, or transitions?
-2. **Glen Claston (`v101`, `GC2a-n.txt`) vs. EVA (`ZL3b-n.txt`) Plumed Gallows & Rare Glyph Forensics**: Do rare or compound glyphs distinguished in `GC2a-n.txt` / `IT2a-n.txt` clarify any of our canonical roots or label pairs?
-3. **Physical Book-Edge Scans (`p210–p213` in `2002046.pdf`) & Quire Structure**: What codicological details (quire signatures, foliation jumps, missing folios, edge markings) can we extract from the 4 physical book-edge scans and quire metadata?
+1. **Glen Claston (`v101`, `GC2a-n.txt`) & Takahashi (`IT2a-n.txt`) Cross-Transliteration Verification**: Do alternative transliterations (`GC2a-n.txt`, `RF1b-er.txt`, `IT2a-n.txt`) confirm our rare label-to-paragraph matches and preserve the 5-scribe invariance?
+2. **Cosmological (`f85r1–f86v6` Rosettes Foldout & `f67–f70`) Diagram Architecture**: How do the labels and ring texts on the 9-rosette foldout (`f85v2`) and cosmological wheels relate to the Herbal, Biological, and Starred Recipe vocabulary?
+3. **Positional Slot Grammar of Multi-Word Phrases (`X + aiin` and `ol + chedy/shedy`)**: Where inside lines and paragraphs do the top multi-word collocations (`or aiin`, `s aiin`, `chol daiin`, `ol shedy`) occur?
+
 
 

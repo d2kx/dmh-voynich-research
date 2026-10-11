@@ -1,0 +1,956 @@
+{
+  "harmony_stats": {
+    "total_adjacent_pairs": 30912,
+    "exact_reduplication": {
+      "observed": 286,
+      "expected_within_line_shuffle": 283.19,
+      "std": 13.05,
+      "z_score": 0.21
+    },
+    "canonical_twin_adjacent": {
+      "observed": 240,
+      "expected_within_line_shuffle": 190.04,
+      "std": 11.75,
+      "z_score": 4.25
+    },
+    "one_char_substitution_adjacent": {
+      "observed": 292,
+      "expected_within_line_shuffle": 270.43,
+      "std": 14.02,
+      "z_score": 1.54
+    },
+    "same_2char_prefix_adjacent": {
+      "observed": 3039,
+      "expected_within_line_shuffle": 2917.26,
+      "std": 40.81,
+      "z_score": 2.98
+    },
+    "same_2char_suffix_adjacent": {
+      "observed": 4533,
+      "expected_within_line_shuffle": 4127.98,
+      "std": 46.8,
+      "z_score": 8.65
+    },
+    "top_exact_reduplications": [
+      [
+        "chol",
+        24
+      ],
+      [
+        "qokeedy",
+        18
+      ],
+      [
+        "qokedy",
+        15
+      ],
+      [
+        "qokeey",
+        12
+      ],
+      [
+        "daiin",
+        11
+      ],
+      [
+        "ol",
+        9
+      ],
+      [
+        "shedy",
+        9
+      ],
+      [
+        "chedy",
+        9
+      ],
+      [
+        "dy",
+        8
+      ],
+      [
+        "chor",
+        7
+      ],
+      [
+        "ar",
+        7
+      ],
+      [
+        "shol",
+        6
+      ],
+      [
+        "okaiin",
+        6
+      ],
+      [
+        "or",
+        6
+      ],
+      [
+        "okeey",
+        5
+      ]
+    ],
+    "top_canonical_twin_pairs": [
+      [
+        "qokedy -> qokeedy (okedy)",
+        15
+      ],
+      [
+        "qokeedy -> qokedy (okedy)",
+        12
+      ],
+      [
+        "okeey -> qokeey (okey)",
+        9
+      ],
+      [
+        "daiin -> dain (dain)",
+        9
+      ],
+      [
+        "qokeey -> okeey (okey)",
+        7
+      ],
+      [
+        "okeedy -> qokeedy (okedy)",
+        7
+      ],
+      [
+        "dain -> daiin (dain)",
+        6
+      ],
+      [
+        "okedy -> qokedy (okedy)",
+        6
+      ],
+      [
+        "qokar -> okar (okar)",
+        6
+      ],
+      [
+        "qokaiin -> okain (okain)",
+        5
+      ],
+      [
+        "qokain -> okain (okain)",
+        5
+      ],
+      [
+        "qokain -> okaiin (okain)",
+        4
+      ],
+      [
+        "qokeedy -> okeedy (okedy)",
+        4
+      ],
+      [
+        "qokedy -> okedy (okedy)",
+        4
+      ],
+      [
+        "qokey -> qokeey (okey)",
+        4
+      ],
+      [
+        "qokeedy -> okedy (okedy)",
+        3
+      ],
+      [
+        "otedy -> qotedy (otedy)",
+        3
+      ],
+      [
+        "qotedy -> otedy (otedy)",
+        3
+      ],
+      [
+        "qokeey -> qokey (okey)",
+        3
+      ],
+      [
+        "otaiin -> otain (otain)",
+        3
+      ]
+    ],
+    "top_q_proclitic_adjacent_pairs": [
+      [
+        "okeey qokeey",
+        9
+      ],
+      [
+        "qokeey okeey",
+        7
+      ],
+      [
+        "okeedy qokeedy",
+        7
+      ],
+      [
+        "okedy qokedy",
+        6
+      ],
+      [
+        "qokar okar",
+        6
+      ],
+      [
+        "qokain okain",
+        5
+      ],
+      [
+        "qol ol",
+        4
+      ],
+      [
+        "qokeedy okeedy",
+        4
+      ],
+      [
+        "qokedy okedy",
+        4
+      ],
+      [
+        "otedy qotedy",
+        3
+      ],
+      [
+        "qotedy otedy",
+        3
+      ],
+      [
+        "okain qokain",
+        3
+      ],
+      [
+        "qotar otar",
+        2
+      ],
+      [
+        "oty qoty",
+        2
+      ],
+      [
+        "okaiin qokaiin",
+        2
+      ]
+    ],
+    "top_one_edit_adjacent_pairs": [
+      [
+        "qokeey qokedy",
+        9
+      ],
+      [
+        "chor chol",
+        8
+      ],
+      [
+        "shedy chedy",
+        8
+      ],
+      [
+        "chol chor",
+        7
+      ],
+      [
+        "chol shol",
+        7
+      ],
+      [
+        "okaiin otaiin",
+        7
+      ],
+      [
+        "shor shol",
+        5
+      ],
+      [
+        "qotchy qokchy",
+        5
+      ],
+      [
+        "otedy okedy",
+        5
+      ],
+      [
+        "okar otar",
+        5
+      ],
+      [
+        "ykeey okeey",
+        4
+      ],
+      [
+        "shol chol",
+        4
+      ],
+      [
+        "okedy otedy",
+        4
+      ],
+      [
+        "chaiin shaiin",
+        3
+      ],
+      [
+        "qokar qokal",
+        3
+      ],
+      [
+        "shor chor",
+        2
+      ],
+      [
+        "kaiin daiin",
+        2
+      ],
+      [
+        "okal otal",
+        2
+      ],
+      [
+        "chody chedy",
+        2
+      ],
+      [
+        "otain okain",
+        2
+      ]
+    ],
+    "top_raw_bigrams": [
+      [
+        "s aiin",
+        58
+      ],
+      [
+        "or aiin",
+        54
+      ],
+      [
+        "chol daiin",
+        33
+      ],
+      [
+        "ar aiin",
+        25
+      ],
+      [
+        "chol chol",
+        24
+      ],
+      [
+        "ol shedy",
+        24
+      ],
+      [
+        "r aiin",
+        22
+      ],
+      [
+        "ol chedy",
+        22
+      ],
+      [
+        "shedy qokedy",
+        21
+      ],
+      [
+        "o l",
+        20
+      ],
+      [
+        "chedy qokeey",
+        19
+      ],
+      [
+        "chedy qokain",
+        18
+      ],
+      [
+        "qokeedy qokeedy",
+        18
+      ],
+      [
+        "shedy qokaiin",
+        17
+      ],
+      [
+        "shey qokain",
+        17
+      ],
+      [
+        "s ar",
+        16
+      ],
+      [
+        "ar al",
+        16
+      ],
+      [
+        "shedy qokeedy",
+        15
+      ],
+      [
+        "qokedy qokeedy",
+        15
+      ],
+      [
+        "qokedy qokedy",
+        15
+      ],
+      [
+        "qol chedy",
+        15
+      ],
+      [
+        "chedy qokedy",
+        14
+      ],
+      [
+        "r ain",
+        13
+      ],
+      [
+        "qokain chedy",
+        13
+      ],
+      [
+        "qokain ol",
+        13
+      ]
+    ],
+    "top_canon_bigrams": [
+      [
+        "okedy okedy",
+        93
+      ],
+      [
+        "or ain",
+        75
+      ],
+      [
+        "s ain",
+        67
+      ],
+      [
+        "shedy okedy",
+        58
+      ],
+      [
+        "okey okey",
+        53
+      ],
+      [
+        "chol dain",
+        41
+      ],
+      [
+        "chedy okedy",
+        40
+      ],
+      [
+        "shey okain",
+        40
+      ],
+      [
+        "okedy otedy",
+        39
+      ],
+      [
+        "otedy okedy",
+        39
+      ],
+      [
+        "okain okain",
+        38
+      ],
+      [
+        "ar ain",
+        38
+      ],
+      [
+        "okain chedy",
+        38
+      ],
+      [
+        "r ain",
+        37
+      ],
+      [
+        "chedy okey",
+        37
+      ],
+      [
+        "okedy okey",
+        36
+      ],
+      [
+        "shedy okain",
+        36
+      ],
+      [
+        "okey okedy",
+        36
+      ],
+      [
+        "chedy okain",
+        34
+      ],
+      [
+        "dain dain",
+        33
+      ],
+      [
+        "okain ol",
+        32
+      ],
+      [
+        "okain chey",
+        32
+      ],
+      [
+        "okedy okain",
+        31
+      ],
+      [
+        "dain chey",
+        30
+      ],
+      [
+        "chey okain",
+        29
+      ]
+    ],
+    "top_raw_trigrams": [
+      [
+        "ol s aiin",
+        5
+      ],
+      [
+        "ol shedy qokedy",
+        5
+      ],
+      [
+        "or or aiin",
+        4
+      ],
+      [
+        "or aiin ol",
+        4
+      ],
+      [
+        "chey qol chedy",
+        4
+      ],
+      [
+        "s aiin chey",
+        4
+      ],
+      [
+        "qokedy qokedy qokedy",
+        3
+      ],
+      [
+        "shey qokain chedy",
+        3
+      ],
+      [
+        "ol chedy qol",
+        3
+      ],
+      [
+        "shedy qokedy qokeedy",
+        3
+      ],
+      [
+        "sheedy qokedy chedy",
+        3
+      ],
+      [
+        "l s aiin",
+        3
+      ],
+      [
+        "or aiin cheol",
+        3
+      ],
+      [
+        "chedy qokeey qokeey",
+        3
+      ],
+      [
+        "chol chol kor",
+        2
+      ],
+      [
+        "dar shey cthar",
+        2
+      ],
+      [
+        "chol daiin cthy",
+        2
+      ],
+      [
+        "chol chy chaiin",
+        2
+      ],
+      [
+        "cho s chol",
+        2
+      ],
+      [
+        "s ain ar",
+        2
+      ]
+    ],
+    "top_canon_trigrams": [
+      [
+        "okedy okedy okedy",
+        18
+      ],
+      [
+        "shedy okedy okedy",
+        8
+      ],
+      [
+        "ol shedy okedy",
+        7
+      ],
+      [
+        "okedy okedy okey",
+        7
+      ],
+      [
+        "otedy okedy okedy",
+        7
+      ],
+      [
+        "shey okain chedy",
+        6
+      ],
+      [
+        "chedy okey okedy",
+        6
+      ],
+      [
+        "or ain okain",
+        5
+      ],
+      [
+        "ol s ain",
+        5
+      ],
+      [
+        "okedy otedy okedy",
+        5
+      ],
+      [
+        "otedy shedy okedy",
+        5
+      ],
+      [
+        "okain shedy okain",
+        5
+      ],
+      [
+        "s ain chey",
+        5
+      ],
+      [
+        "chey or ain",
+        5
+      ],
+      [
+        "okey okey okey",
+        5
+      ],
+      [
+        "or or ain",
+        4
+      ],
+      [
+        "shedy qol shedy",
+        4
+      ],
+      [
+        "okedy okedy otedy",
+        4
+      ],
+      [
+        "shedy okedy okain",
+        4
+      ],
+      [
+        "okain shey okain",
+        4
+      ]
+    ]
+  },
+  "quire_summary": {
+    "A": {
+      "folio_range": "f1r..f8v",
+      "n_folios": 16,
+      "sections": {
+        "T": 1,
+        "H": 15
+      },
+      "languages": {
+        "A": 16
+      },
+      "hands": {
+        "1": 16
+      }
+    },
+    "B": {
+      "folio_range": "f9r..f16v",
+      "n_folios": 14,
+      "sections": {
+        "H": 14
+      },
+      "languages": {
+        "A": 14
+      },
+      "hands": {
+        "1": 14
+      }
+    },
+    "C": {
+      "folio_range": "f17r..f24v",
+      "n_folios": 16,
+      "sections": {
+        "H": 16
+      },
+      "languages": {
+        "A": 16
+      },
+      "hands": {
+        "1": 16
+      }
+    },
+    "D": {
+      "folio_range": "f25r..f32v",
+      "n_folios": 16,
+      "sections": {
+        "H": 16
+      },
+      "languages": {
+        "A": 12,
+        "B": 4
+      },
+      "hands": {
+        "1": 12,
+        "2": 4
+      }
+    },
+    "E": {
+      "folio_range": "f33r..f40v",
+      "n_folios": 16,
+      "sections": {
+        "H": 16
+      },
+      "languages": {
+        "B": 8,
+        "A": 8
+      },
+      "hands": {
+        "2": 8,
+        "1": 8
+      }
+    },
+    "F": {
+      "folio_range": "f41r..f48v",
+      "n_folios": 16,
+      "sections": {
+        "H": 16
+      },
+      "languages": {
+        "B": 8,
+        "A": 8
+      },
+      "hands": {
+        "5": 4,
+        "1": 8,
+        "2": 4
+      }
+    },
+    "G": {
+      "folio_range": "f49r..f56v",
+      "n_folios": 16,
+      "sections": {
+        "H": 16
+      },
+      "languages": {
+        "A": 12,
+        "B": 4
+      },
+      "hands": {
+        "1": 12,
+        "2": 4
+      }
+    },
+    "H": {
+      "folio_range": "f57r..f66v",
+      "n_folios": 8,
+      "sections": {
+        "H": 4,
+        "C": 1,
+        "S": 2,
+        "T": 1
+      },
+      "languages": {
+        "B": 3,
+        "?": 3,
+        "A": 2
+      },
+      "hands": {
+        "5": 3,
+        "1": 1,
+        "3": 4
+      }
+    },
+    "I": {
+      "folio_range": "f67r1..f68v1",
+      "n_folios": 10,
+      "sections": {
+        "A": 8,
+        "C": 2
+      },
+      "languages": {
+        "?": 10
+      },
+      "hands": {
+        "4": 10
+      }
+    },
+    "J": {
+      "folio_range": "f69r..f70v1",
+      "n_folios": 6,
+      "sections": {
+        "C": 4,
+        "Z": 2
+      },
+      "languages": {
+        "?": 6
+      },
+      "hands": {
+        "4": 6
+      }
+    },
+    "K": {
+      "folio_range": "f71r..f72v1",
+      "n_folios": 8,
+      "sections": {
+        "Z": 8
+      },
+      "languages": {
+        "?": 8
+      },
+      "hands": {
+        "4": 8
+      }
+    },
+    "L": {
+      "folio_range": "f73r..f73v",
+      "n_folios": 2,
+      "sections": {
+        "Z": 2
+      },
+      "languages": {
+        "?": 2
+      },
+      "hands": {
+        "4": 2
+      }
+    },
+    "M": {
+      "folio_range": "f75r..f84v",
+      "n_folios": 20,
+      "sections": {
+        "B": 19,
+        "T": 1
+      },
+      "languages": {
+        "B": 20
+      },
+      "hands": {
+        "2": 20
+      }
+    },
+    "N": {
+      "folio_range": "f85r1..f86v3",
+      "n_folios": 6,
+      "sections": {
+        "T": 3,
+        "C": 3
+      },
+      "languages": {
+        "B": 6
+      },
+      "hands": {
+        "2": 6
+      }
+    },
+    "O": {
+      "folio_range": "f87r..f90v1",
+      "n_folios": 12,
+      "sections": {
+        "H": 6,
+        "P": 6
+      },
+      "languages": {
+        "A": 12
+      },
+      "hands": {
+        "1": 12
+      }
+    },
+    "Q": {
+      "folio_range": "f93r..f96v",
+      "n_folios": 10,
+      "sections": {
+        "H": 10
+      },
+      "languages": {
+        "A": 4,
+        "B": 6
+      },
+      "hands": {
+        "1": 4,
+        "3": 6
+      }
+    },
+    "S": {
+      "folio_range": "f99r..f102v1",
+      "n_folios": 10,
+      "sections": {
+        "P": 10
+      },
+      "languages": {
+        "A": 10
+      },
+      "hands": {
+        "1": 10
+      }
+    },
+    "T": {
+      "folio_range": "f103r..f116v",
+      "n_folios": 24,
+      "sections": {
+        "S": 23,
+        "T": 1
+      },
+      "languages": {
+        "B": 23,
+        "?": 1
+      },
+      "hands": {
+        "3": 23,
+        "@": 1
+      }
+    }
+  },
+  "marginal_and_exotic_count": 0,
+  "marginal_and_exotic": []
+}
