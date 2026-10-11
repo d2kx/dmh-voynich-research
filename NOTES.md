@@ -19,6 +19,8 @@ This directory contains our ongoing computational, paleographic, and visual fore
 - [`tools/test_q_prefix_and_labels.py`](file:///c:/Users/denni/Documents/voynich/tools/test_q_prefix_and_labels.py): Tests the `q-` proclitic hypothesis (`qoX = q + oX`) and same-folio label-to-paragraph matching against shuffled null baselines ([`data/q_and_label_analysis.json`](file:///c:/Users/denni/Documents/voynich/data/q_and_label_analysis.json)).
 - [`tools/deep_grammar_and_cipher_test.py`](file:///c:/Users/denni/Documents/voynich/tools/deep_grammar_and_cipher_test.py): Tests top-line gallows allography (`p/f` vs `t/k`), 5-slot word automaton coverage, adjacent-word lockstep, and block-level label matches ([`data/deep_grammar_analysis.json`](file:///c:/Users/denni/Documents/voynich/data/deep_grammar_analysis.json)).
 - [`tools/test_unified_normalization.py`](file:///c:/Users/denni/Documents/voynich/tools/test_unified_normalization.py): Applies our 4-Rule Canonical Normalization across the corpus and runs a 1,000-trial permutation test on same-folio figure-label to paragraph matching ([`data/canonical_normalization_test.json`](file:///c:/Users/denni/Documents/voynich/data/canonical_normalization_test.json)).
+- [`tools/analyze_recipes_and_stars.py`](file:///c:/Users/denni/Documents/voynich/tools/analyze_recipes_and_stars.py): Analyzes Starred Recipes (`f103r–f116r`) margin star classifications, cross-section rare label concordances (`241` rare label roots), and right-justified `=Pt` titles ([`data/recipes_and_stars_analysis.json`](file:///c:/Users/denni/Documents/voynich/data/recipes_and_stars_analysis.json)).
+- [`tools/test_cross_section_links.py`](file:///c:/Users/denni/Documents/voynich/tools/test_cross_section_links.py): Tests horizontal ($x$-coordinate) alignment of label references, binary alternation pairing in Starred Recipes, and section-specific rare label enrichment ([`data/cross_section_and_alignment.json`](file:///c:/Users/denni/Documents/voynich/data/cross_section_and_alignment.json)).
 
 ---
 
@@ -44,9 +46,19 @@ This directory contains our ongoing computational, paleographic, and visual fore
 - **Forensic catch**: In [`pages/f102r1_bottom_right_zoom.png`](file:///c:/Users/denni/Documents/voynich/pages/f102r1_bottom_right_zoom.png), a two-word Voynich inscription is visible directly beneath the green scaly root of `f102r1[3,2]`, yet no transcription (`ZL`, `RF`, `IT`, `GC`) records a label for `f102r1[3,2]`.
 - By inspecting the verso scans [`pages/p182_102v.png`](file:///c:/Users/denni/Documents/voynich/pages/p182_102v.png) (`f102v2`) and [`pages/p183_102v_part.png`](file:///c:/Users/denni/Documents/voynich/pages/p183_102v_part.png) (`f102v1`), we proved why: the bottom margin of `f102r1` was torn and **folded upward onto the back (`f102v1`)** (where the red root tips of `f102r1[3,1]` can be seen sticking onto the folded flap at the bottom of `p183_102v_part.png`). That cutaway exposes the folded panel behind `f102r1` (`f102v2`), and the two words peeking out directly under the root of `f102r1[3,2]` are `cheekey.orain` — the end of line `<f102v2.39>`!
 
+### E. Starred Recipes Margin Forensics (`f103r–f116r`): Strict `1-to-1` Zebra Alternation ([`pages/f106r_stars_margin.png`](file:///c:/Users/denni/Documents/voynich/pages/f106r_stars_margin.png) & [`pages/f103r_stars_margin.png`](file:///c:/Users/denni/Documents/voynich/pages/f103r_stars_margin.png))
+- Extracting and enhancing the left margin of `f106r` ([`pages/f106r_stars_margin.png`](file:///c:/Users/denni/Documents/voynich/pages/f106r_stars_margin.png)) visually confirms a striking codicological rule discovered in [`data/recipes_and_stars_analysis.json`](file:///c:/Users/denni/Documents/voynich/data/recipes_and_stars_analysis.json): on **12 out of the 26 Starred Recipe pages** (`f103v`, `f104v`, `f105v`, `f106r`, `f106v`, `f107v`, `f108v`, `f112v`, `f113v`, `f114r`, `f114v`, `f115v`), the tailed left-margin stars **strictly alternate `1-to-1` (`L. L L. L L. L...`) between a central dark ink dot (`L.`) and a plain yellow wash (`L`) without a single exception** (e.g., 15 paragraphs in a row on `f106r` and 13 in a row on `f104v`).
+- On `f103r` ([`pages/f103r_stars_margin.png`](file:///c:/Users/denni/Documents/voynich/pages/f103r_stars_margin.png)), `f104r`, and `f108r`, the stars lack tails on `f103r` and instead alternate between solid **dark red/crimson painted stars (`D`)** and **unpainted/yellow stars (`L` / `L.`)**.
+
+### F. Right-Justified Paragraph Titles (`=Pt`) vs. Leaf-Tip Indentation (`f1r`, `f8r`, `f25r`, `f42v`, `f46v`)
+- In `ZL3b-n.txt`, 8 lines across the manuscript are tagged `=Pt` (right-justified title/catchword lines): 4 on `f1r` (`ydaraishy`, `dain.os.teody`, `otol.daiiin`, `dchaiin`) and 4 on Herbal folios (`f8r.21` `schol.saiin`, `f25r.6` `dan.okain.otody`, `f42v.7` `ockhodody`, `f46v.8` `tchodar`).
+- Visual inspection of [`pages/f8r_pt_title.png`](file:///c:/Users/denni/Documents/voynich/pages/f8r_pt_title.png), [`pages/f25r_pt_title.png`](file:///c:/Users/denni/Documents/voynich/pages/f25r_pt_title.png), [`pages/f42v_pt_title.png`](file:///c:/Users/denni/Documents/voynich/pages/f42v_pt_title.png), and [`pages/f46v_pt_title.png`](file:///c:/Users/denni/Documents/voynich/pages/f46v_pt_title.png) reveals an important physical distinction:
+  - On `f1r` and `f8r` ([`pages/f8r_pt_title.png`](file:///c:/Users/denni/Documents/voynich/pages/f8r_pt_title.png)), there is open blank vellum to the left of the `=Pt` words (`schol.saiin` on `f8r`), proving they are genuine **right-justified colophon/catchword lines** (and `schol` recurs in only two other Herbal paragraphs, `f14r.3` and `f56r.3`, while `dchaiin` from `f1r.28` recurs in only 4 Herbal paragraphs: `f20r`, `f25r`, `f35r`, `f35v`).
+  - By contrast, on `f25r` ([`pages/f25r_pt_title.png`](file:///c:/Users/denni/Documents/voynich/pages/f25r_pt_title.png)), `f42v` ([`pages/f42v_pt_title.png`](file:///c:/Users/denni/Documents/voynich/pages/f42v_pt_title.png)), and `f46v` ([`pages/f46v_pt_title.png`](file:///c:/Users/denni/Documents/voynich/pages/f46v_pt_title.png)), the final line of the paragraph appears right-indented **only because the tallest green leaf or flower head rises directly into the left half of that line**, forcing the scribe to indent the paragraph's final words to the right of the illustration!
+
 ---
 
-## 3. Four Quantitative & Structural Discoveries
+## 3. Six Quantitative & Structural Discoveries
 
 ### Discovery 1: The Physical Line & Drawing-Intrusion State Machine
 Voynich word morphology is governed not just by sentence syntax, but by **physical layout coordinates on the vellum** (left margin, line interior, plant-stem interruption `<->`, right margin, and top line of a paragraph):
@@ -113,18 +125,53 @@ the manuscript's raw vocabulary compresses by **26.5%** (`8,101` raw types $\to$
 
 ---
 
-### Discovery 4: Line-End Clustering of Referenced Figure Labels
+### Discovery 4: Line-End Clustering of Referenced Figure Labels (and Horizontal Position Analysis)
 When a rare figure label (`MS canonical count <= 30`) is referenced inside a paragraph on the same folio:
 - **Line-Initial (`line_start`)**: `0 / 830` (**0.00 per 1,000 words**)
 - **Line-Interior (`line_mid`)**: `10 / 5,545` (**1.80 per 1,000 words**)
 - **Line-Final (`line_end`)**: `6 / 825` (**7.27 per 1,000 words — 4.0× higher than line interior!**)
 
-Furthermore, several of the line-final matches (`doldam` on `f99v.34`, `opoly` on `f84r.13`, `qokoldy` on `f82v.13`) are **vertically aligned on the right side of the page** with the corresponding right-side figure label above or below them.
+Testing the horizontal ordinal position of the label in its row ($x_{\text{label}} \in [0, 1]$) against the word's ordinal position in its paragraph line ($x_{\text{word}} \in [0, 1]$) in [`tools/test_cross_section_links.py`](file:///c:/Users/denni/Documents/voynich/tools/test_cross_section_links.py) (`n=16`) reveals why:
+- **75% (`12 / 16`)** of referenced rare labels come from the **right half of their label group** ($x_{\text{label}} \ge 0.5$, including 4 that are the rightmost label in their row, $x_{\text{label}} = 1.0$: `okan` on `f80r`, `opcheor` on `f89r2`, `doldam` on `f99v`), AND
+- **62.5% (`10 / 16`)** of prose occurrences sit in the **rightmost 25% of the paragraph line** ($x_{\text{word}} \ge 0.75$, with 6 at the exact end of the line, $x_{\text{word}} = 1.0$), **even when the figure label itself sits on the far left of the page** (e.g., `shekar` at $x_{\text{label}} = 0.167$ on `f84r` is placed at the right end of line 30 as `shekam`, $x_{\text{word}} = 1.000$; `dary` at $x_{\text{label}} = 0.067$ on `f66r` is placed at $x_{\text{word}} = 0.750$). Thus, line-final position is a **syntactic/prosodic slot** for nominal label references rather than a mechanical vertical column drop.
+
+---
+
+### Discovery 5: Starred Recipes (`f103r–f116r`) Binary Alternation & Star-Type Morphology
+Analyzing all 308 paragraphs in the Starred Recipes section (`$I=S`, [`data/recipes_and_stars_analysis.json`](file:///c:/Users/denni/Documents/voynich/data/recipes_and_stars_analysis.json) & [`data/cross_section_and_alignment.json`](file:///c:/Users/denni/Documents/voynich/data/cross_section_and_alignment.json)) uncovers three systematic patterns:
+1. **Strict `1-to-1` Dotted vs. Plain Yellow Alternation (`L. L L. L...`)**:
+   - On 12 of the 26 pages (`f103v`, `f104v`, `f105v`, `f106r`, `f106v`, `f107v`, `f108v`, `f112v`, `f113v`, `f114r`, `f114v`, `f115v`), the margin stars strictly alternate between **Light Dotted (`L.`, ink dot in center)** and **Light Plain (`L`, yellow wash without dot)** ([`pages/f106r_stars_margin.png`](file:///c:/Users/denni/Documents/voynich/pages/f106r_stars_margin.png)).
+   - On those 12 strictly alternating pages, `L.` (odd-numbered) paragraphs average **37.2 words** (`n=80`) vs **32.7 words** (`n=72`) for `L` (even-numbered) paragraphs, while vocabulary Jaccard similarity between adjacent `(L., L)` pairs (`0.0855`) is nearly identical to `(L, L.)` (`0.0829`) and non-adjacent paragraphs on the same folio (`0.0809`). This indicates the binary star alternation functions as a **visual zebra-striping / rubrication aid** so a reader consulting a dense page of 12–15 unnumbered recipes does not lose their place.
+2. **Dark Red Stars (`D`) vs. Light Stars (`L` / `L.`) on `f103r`, `f104r`, `f108r`**:
+   - Paragraphs marked with solid dark red/crimson stars (`n=14`, [`pages/f103r_stars_margin.png`](file:///c:/Users/denni/Documents/voynich/pages/f103r_stars_margin.png)) are significantly shorter (**30.2 words** vs **40.0 words** for light-star paragraphs), have higher `-edy` verbal/participial endings (**20.8%** vs **14.0%**), lower `-aiin` nominal endings (**7.1%** vs **11.9%**), and **21.4%** of dark-star paragraphs begin directly with `q-` (`qokeey` / `qokeedy`) vs **0.0%** of dotted-star paragraphs!
+3. **Tailed vs. Tailless Stars**:
+   - Paragraphs with tailed stars (`n=264`) have **more than double the `-aiin` frequency (`12.84%`)** of paragraphs with tailless stars (`n=24`, `5.53%`), largely reflecting the shift between `f103r` (tailless, high `-edy`) and `f103v–f116r` (tailed, high `-aiin`).
+
+---
+
+### Discovery 6: Section-Specific Rare Label Enrichment & Pharmaceutical-to-Recipe Ingredient Links
+Testing all rare figure labels (`global canonical frequency 2..15`, length $\ge 4$) across manuscript sections ([`data/cross_section_and_alignment.json`](file:///c:/Users/denni/Documents/voynich/data/cross_section_and_alignment.json)) reveals strong section-specific and language-specific vocabulary bridges:
+
+| Label Section (`@L`) | Rare Label Roots (`freq 2..15`) | Recurrence in **Starred Recipes (`S`)** | Recurrence in **Herbal (`H`)** | Recurrence in **Biological (`B`)** | Recurrence in **Pharmaceutical (`P`)** |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Pharmaceutical (`P`)** | 63 | **58.7%** | 50.8% | 28.6% | **30.2%** |
+| **Biological (`B`)** | 34 | **58.8%** | 50.0% | **47.1%** | 11.8% |
+| **Zodiac (`Z`)** | 80 | **61.3%** | 45.0% | 20.0% | 17.5% |
+| **Astronomical (`A`)** | 37 | **62.2%** | **83.8%** | 18.9% | 27.0% |
+| **Cosmological (`C`)** | 15 | 53.3% | 46.7% | 6.7% | 0.0% |
+
+- **Self-Section Enrichment**: Rare Biological (`B`) labels recur in `B` prose at **47.1%** (over **2.3×** the rate of Zodiac/Astro/Cosmo labels in `B`), and rare Pharmaceutical (`P`) labels recur in `P` prose at **30.2%** (**2.5×** the rate of `B` labels in `P`).Meanwhile, rare Astronomical (`A`) labels recur in Herbal (`H`) prose at **83.8%** ( reflecting shared Currier Language A roots).
+- **Direct Pharmaceutical Container/Plant Label $\to$ Starred Recipe Matches**:
+  1. `<f102v1.1,@Lc> keoraiiin` (apothecary jar label on `f102v1`, global canonical count = **2**) $\to$ occurs only once more in the entire manuscript, in the opening line of the top Starred Recipe on `f106v`: `<f106v.2,@P0> ...keorain...` ([`pages/f106v_keorain_crop.png`](file:///c:/Users/denni/Documents/voynich/pages/f106v_keorain_crop.png))!
+  2. `<f102v2.24,@Lc> okolky` (jar label on `f102v2`, global canonical count = **2**) $\to$ occurs only once more in the entire manuscript, with the `q-` proclitic attached (`qokolky`), inside a Starred Recipe on `f105r`: `<f105r.30,+P0> ...qokolky...` ([`pages/f105r_qokolky_crop.png`](file:///c:/Users/denni/Documents/voynich/pages/f105r_qokolky_crop.png))!
+  3. `<f100r.6,@Lf> oraro` (plant label on `f100r`, global canonical count = **2**) $\to$ occurs only once more in the entire manuscript, in the opening line of the top Starred Recipe on `f115r`: `<f115r.1,@P0> pol.chdar.oraro...`!
+  4. `<f99v.9,@Lf> otoky` (plant label on `f99v`, global canonical count = **4**) $\to$ occurs with the `q-` proclitic (`qotoky`) in Starred Recipe `<f106r.10,+P0>`!
+  5. `<f99r.19,@Lc> oparal` (tall apothecary jar label on `f99r`, global canonical count = **3**) $\to$ recurs in two Starred Recipes (`<f107r.13,+P0> otaral` and `<f111r.36,+P0> otaral`) with the regular interior gallows `t` replacing the label's `p`!
 
 ---
 
 ## 4. Open Questions & Next Avenues to Explore
-1. **Vertical / Columnar Alignment Test**: On pages with horizontal rows of labels (Pharmaceutical `f88r–f102v` and Biological `f75r–f84v`), do words in the paragraph below a row of labels correlate with the **horizontal $x$-coordinate** of the label directly above/below them?
-2. **Starred Recipes (`f103r–f116r`) Ingredient Lookup**: Do the rare plant labels from the Pharmaceutical section (`f88r–f102v`) recur inside specific Starred Recipe paragraphs (`f103r–f116r`), allowing us to link individual recipes to specific illustrated plants?
-3. **Zodiac & Star Labels (`f67r–f73v`)**: Can we apply our 4-Rule Canonical Normalization to map the Zodiac nymph labels (`f70v–f73v`) against medieval astrological decan / degree lists or the Western month names written on those folios?
-4. **Scribe Hand Transitions (`$H=1..5`)**: How do the 4 morphological rules vary across Lisa Fagin Davis's 5 paleographic scribe hands?
+1. **Zodiac (`f70v–f73v`) & Astronomical (`f67r–f68v`) Ring Progression & Month Annotations**: How are the 300+ Zodiac nymph/star labels (`@Lz`, `@La`, `@Ls`) structured around the concentric rings, how do they relate to the Western (Occitan/French/Latin) month annotations (`mars`, `abril`, `may`...), and do adjacent nymphs along a ring share sequential prefix/suffix mutations?
+2. **Scribe Hand Transitions (`$H=1..5`) & Currier `A/B` Dialect Split**: How do our 4 morphological normalization rules and gallows allography vary across Lisa Fagin Davis's 5 paleographic scribe hands?
+3. **Multi-Word Collocations & Formulaic Templates**: Are there recurring 2-word and 3-word templates (e.g. `chol daiin`, `or aiin`, paragraph-opening formulas) that act as structural punctuation or headings across sections?
+

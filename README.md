@@ -28,7 +28,9 @@ Rather than rehashing historical decipherment speculations, this project focuses
 │   ├── analyze_structure.py     # Line/drawing boundary morphology & Herbal-Pharma cross-references
 │   ├── test_q_prefix_and_labels.py     # Tests the q- proclitic rule (qoX = q + oX) & label matches
 │   ├── deep_grammar_and_cipher_test.py # Tests top-line gallows allography (p/f vs t/k) & slot grammar
-│   └── test_unified_normalization.py   # 4-Rule Canonical Normalization & 1,000-trial permutation test
+│   ├── test_unified_normalization.py   # 4-Rule Canonical Normalization & 1,000-trial permutation test
+│   ├── analyze_recipes_and_stars.py    # Starred Recipes (f103r-f116r) star alternation & rare label lookup
+│   └── test_cross_section_links.py     # Horizontal x-alignment & cross-section label enrichment tests
 └── pages/                       # Extracted, cropped, and contrast-enhanced folio images
 ```
 
@@ -82,6 +84,16 @@ Notable rare same-folio label $\leftrightarrow$ paragraph matches verified direc
 
 ---
 
+### 5. Starred Recipes (`f103r–f116r`) Zebra Alternation & Cross-Section Ingredient Links
+- **Strict `1-to-1` Margin Star Alternation (`L. L L. L...`)**: On 12 of the 26 Starred Recipe pages (`f103v`, `f104v`, `f105v`, `f106r`, `f106v`, `f107v`, `f108v`, `f112v`, `f113v`, `f114r`, `f114v`, `f115v`), the tailed left-margin stars strictly alternate `1-to-1` between an **ink-dotted center (`L.`)** and a **plain yellow wash (`L`)** without a single exception (e.g., 15 paragraphs in a row on `f106r`), acting as a visual row-tracking / rubrication aid.
+- **Direct Pharmaceutical Label $\to$ Starred Recipe Matches**: Ultra-rare container and plant labels in the Pharmaceutical section (`f99r–f102v`) recur specifically inside individual Starred Recipes:
+  - `<f102v1.1,@Lc> keoraiiin` (apothecary jar label, global canonical count = **2**) $\to$ `<f106v.2,@P0> keorain` (Starred Recipe).
+  - `<f102v2.24,@Lc> okolky` (jar label, global canonical count = **2**) $\to$ `<f105r.30,+P0> qokolky` (`q-` + jar label in a Starred Recipe).
+  - `<f100r.6,@Lf> oraro` (plant label, global canonical count = **2**) $\to$ `<f115r.1,@P0> oraro` (Starred Recipe).
+  - `<f99r.19,@Lc> oparal` (jar label, global canonical count = **3**) $\to$ `<f107r.13>` & `<f111r.36> otaral` (Starred Recipes, with interior `t` replacing `p`).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -101,4 +113,6 @@ python tools/analyze_structure.py
 python tools/test_q_prefix_and_labels.py
 python tools/deep_grammar_and_cipher_test.py
 python tools/test_unified_normalization.py
+python tools/analyze_recipes_and_stars.py
+python tools/test_cross_section_links.py
 ```
