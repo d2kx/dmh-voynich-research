@@ -377,6 +377,30 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 46. The `f49v` `qo- -> ch- -> o-` Period-3 Vertical Acrostic ($z = -2.36$ Repulsion) & The Exclusive Quire H Outer-Bifolium Key Alphabet (`@169;..@172;`, `Attack 37`)
+- **Period-3 Vertical Acrostic on `f49v` (`0 / 25` Adjacent Prefix Repeats, $z = -2.36, p = 0.0066$)**: Across all `26` prose lines of `f49v` (paired 1-to-1 with the `26` vertical left-margin key glyphs), consecutive lines never repeat the same initial prefix class (`0 / 25`), and in Paragraph 3 (`<f49v.36..52>`), line-initial words `w_1` execute a strict Period-3 paradigm cycle (`qo- [qotcho] -> ch- [chokeo] -> o- [oaiin] -> qo- [qokeaiin] -> ch- [chokaiin] -> o- [oaiin] -> qo- [qotcheol] -> ch- [chol] -> y- [ykchokeo]`, $z_{\text{lag3}} = +3.75$), explaining why the marginal key cycle (`[f/p] - o - [r/@192;] - y - e - @140;`) has length `6` (`2 × 3`).
+- **`100%` Exclusive Quire H Outer-Bifolium Key Alphabet (`@169;..@172;`)**: `100%` (`21 / 21`) of all occurrences of the exotic key symbols `@169;`, `@170;`, `@171;`, and `@172;` in the entire manuscript occur exclusively on `f57v` and `f66r` (the conjugate halves of the outer bifolium of Quire H).
+
+---
+
+### 47. Corpus-Wide Vertical Line-Initial Prefix Repulsion ($z = -11.33, p < 10^{-29}$), Zero Cross-Line Enjambment ($z = +0.07$), and Period-2 (`f77r`) vs. Period-3 (`f49r/v`) Left-Margin Acrostics (`Attack 38`)
+- **Vertical Left-Margin Coordination ($z = -11.33$ Repulsion, $z = +11.56$ MI) vs. Zero Diagonal Enjambment ($z = +0.07$)**: Across `2,839` strictly continuation line pairs (`lines 2..m` inside single paragraphs, excluding every `<%>`/`@P` paragraph opener), consecutive lines share the same onset prefix in only **`13.67%` (`388 / 2,839`) of pairs vs. `20.01%` null ($z = -11.33, p < 10^{-29}$)** and exhibit $I(w_1[i] ; w_1[i+1]) = 0.13426\text{ bits}$ vs. $0.06747\text{ bits}$ null (**$z = +11.56$**), whereas diagonal cross-line enjambment $I(w_n[i] ; w_1[i+1])$ is **`0.02159` vs. `0.02129` null ($z = +0.07$)**!
+- **Period-2 (`Quire M` Balneological) vs. Period-3 (`Herbal`) Vertical Acrostics (`pages/f77r_p2_qo_s_alternating_margin_enh.png`, `pages/f49r_p2_period3_acrostic_enh.png`)**: Balneological paragraphs alternate `qo- <-> s-/d-` on every second line (`f77r:P2` $z_{\text{lag2}} = +3.08$, `f83r:P2` $z_{\text{lag2}} = +2.90$, `f77v:P3` $z_{\text{lag2}} = +2.84$, `f84v:P4` $z_{\text{lag2}} = +2.69$), whereas Herbal monographs (`f49v:P3` $z_{\text{lag3}} = +3.75$, `f49r:P2` $z_{\text{lag3}} = +3.15$, `f28r:P1` $z_{\text{lag3}} = +3.06$) cycle through Period-3 `qo- -> ch-/sh- -> o-` triads.
+
+---
+
+### 48. Exact Cross-Manuscript Identification of Both Voynich Expressions on `f116v` (`poldchody` = `<f11v.1,@P0>` Monograph Headword; `oror` = `<f102v2.3,@Lf>` Specimen Label, `Attack 39`)
+- **`poldchody` (`<f116v.1>`) = `<f11v.1,@P0>` Herbal Monograph Headword (`pages/f11v_poldchody_headword_and_plant_enh.png`)**: The 9-letter Voynich word `poldchody` at the end of Line 1 on `f116v` occurs only once (`hapax = 1`) in the manuscript body: as the Line-1, Word-1 Monograph Headword of Herbal Folio `f11v` (`<f11v.1,@P0> <%>poldchody . shcphy . shordy ...`).
+- **`oror` (`<f116v.1> oror . sheey`) = `<f102v2.3,@Lf>` Botanical Specimen Label (`pages/f102v2_oror_specimen_row1_enh.png`, `pages/f116v_poldchody_and_oror_sheey_enh.png`)**: `oror` occurs only once (`hapax = 1`) as an illustrated botanical specimen label across the manuscript (`<f102v2.3,@Lf> oror`, labeling the dark heart-shaped leaf/bud beside the blue-and-white jar `porshols` on `f102v2`), paired on `f116v` with the post-nominal thermal verb `sheey` (`57` `[LIQ_INGR] . sheey` bigrams across the corpus).
+
+---
+
+### 49. The 4-Cell Reduplicated Vocalic-Liquid Paradigm (`olol`, `arar`, `oror`, `alal` = `86.7%` of All `ABAB` Words, `3.94×` Lift) & Bilingual `f116v` Recipe Code-Switching (`Attack 40`)
+- **`86.7%` (`39 / 45`) of All 4-Character `ABAB` Reduplicated Words Are `{olol, arar, oror, alal}` (`3.94×` Lift)**: `olol` (`15`), `arar` (`10`), `oror` (`8`), and `alal` (`6`) account for `86.7%` of all `ABAB` 4-character words in the manuscript (vs. `22.0%` base half-word share), alongside `171` disyllabic `{ol, ar, or, al} × {ol, ar, or, al}` stems and prefixed derivatives (`okalal`, `otarar`, `dalal`, `choror`, `okarar`, `otalal`, `darar`, `polarar`).
+- **Bilingual Voynich–German Recipe Code-Switching on `f116v` (`oror . sheey || valsch vbren so nim gaf mich o`)**: Beneath the top-edge German ingredient note `poxleber` (*Bocksleber* = "goat's liver"), Line 3 of `f116v` opens in Voynich script with `oror . sheey` (`[Specimen <f102v2.3,@Lf> oror] + [simmer/decoct verb sheey]`) and switches mid-line into Early New High German `valsch vbren so nim gaf mich o` (`"boil/distill ..., then take goat's milk [Geissmilch] ..."`), directly mirroring the Voynich `CH_VERB -> Q_ACT` (`shedy/sheey -> qokaiin/qokeedy`, $z = +27.65$) procedural recipe loop.
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -444,4 +468,8 @@ python tools/attack33_quire20_star_color_and_tail_concordance.py
 python tools/attack34_small_plant_quire_p_q_bridge_analysis.py
 python tools/attack35_clause_word_order_transition_automaton.py
 python tools/attack36_decoded_monograph_and_formulary_compendium.py
+python tools/attack37_marginalia_numeral_and_key_alignment.py
+python tools/attack38_vertical_line_initial_acrostic_scanner.py
+python tools/attack39_f116v_and_f17r_multilingual_crib_forensics.py
+python tools/attack40_reduplicated_paradigm_and_bilingual_f116v_synthesis.py
 ```

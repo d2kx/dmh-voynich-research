@@ -1,0 +1,1775 @@
+{
+  "f49v_acrostic_and_key_analysis": {
+    "n_lines": 26,
+    "w1_onset_sequence": [
+      "G-",
+      "qo-",
+      "ch-",
+      "o-",
+      "sh-",
+      "qo-",
+      "ch-",
+      "qo-",
+      "o-",
+      "qo-",
+      "d-",
+      "o-",
+      "qo-",
+      "G-",
+      "d-",
+      "G-",
+      "sh-",
+      "qo-",
+      "ch-",
+      "o-",
+      "qo-",
+      "ch-",
+      "o-",
+      "qo-",
+      "ch-",
+      "y-"
+    ],
+    "observed_adjacent_same_onset": 0,
+    "null_adjacent_same_mean": 4.035,
+    "null_adjacent_same_std": 1.713,
+    "adjacent_repulsion_z_score": -2.36,
+    "adjacent_repulsion_p_value": 0.0066,
+    "observed_lag3_matches": 7,
+    "null_lag3_mean": 3.76,
+    "lag3_z_score": 1.93,
+    "lag3_p_value": 0.0562,
+    "paragraph3_period3_cycle": {
+      "lines": "18..26 (<f49v.36..52>)",
+      "w1_words": [
+        "qotcho",
+        "chokeo",
+        "oaiin",
+        "qokeaiin",
+        "chokaiin",
+        "oaiin",
+        "qotcheol",
+        "chol",
+        "ykchokeo"
+      ],
+      "w1_classes": [
+        "qo-",
+        "ch-",
+        "o-",
+        "qo-",
+        "ch-",
+        "o-",
+        "qo-",
+        "ch-",
+        "y-"
+      ],
+      "margin_glyphs": [
+        "@192;",
+        "y",
+        "e",
+        "@140;",
+        "d",
+        "y",
+        "e",
+        "k",
+        "y"
+      ],
+      "lag3_matches_in_p3": "5/6 (83.3%, 5/5 on lines 18..25)"
+    },
+    "pairs": [
+      {
+        "line_index": 1,
+        "margin_loc": "1",
+        "prose_loc": "2",
+        "margin_glyph": "f",
+        "has_para_start": true,
+        "has_para_end": false,
+        "has_intrusion": false,
+        "w1": "kshor",
+        "w1_class": "G-",
+        "wn": "ch{cfhh}y",
+        "prose_tokens": [
+          "kshor",
+          "shol",
+          "cphokchol",
+          "ch{cfhh}y"
+        ]
+      },
+      {
+        "line_index": 2,
+        "margin_loc": "3",
+        "prose_loc": "4",
+        "margin_glyph": "o",
+        "has_para_start": false,
+        "has_para_end": false,
+        "has_intrusion": false,
+        "w1": "qokchy",
+        "w1_class": "qo-",
+        "wn": "ckhy",
+        "prose_tokens": [
+          "qokchy",
+          "qokchod",
+          "sho",
+          "ckhy"
+        ]
+      },
+      {
+        "line_index": 3,
+        "margin_loc": "5",
+        "prose_loc": "6",
+        "margin_glyph": "r",
+        "has_para_start": false,
+        "has_para_end": false,
+        "has_intrusion": false,
+        "w1": "chotchy",
+        "w1_class": "ch-",
+        "wn": "koddy",
+        "prose_tokens": [
+          "chotchy",
+          "chcthy",
+          "cthey",
+          "koddy"
+        ]
+      },
+      {
+        "line_index": 4,
+        "margin_loc": "7",
+        "prose_loc": "8",
+        "margin_glyph": "y",
+        "has_para_start": false,
+        "has_para_end": false,
+        "has_intrusion": false,
+        "w1": "okeodsho",
+        "w1_class": "o-",
+        "wn": "dam",
+        "prose_tokens": [
+          "okeodsho",
+          "chotshol",
+          "dam"
+        ]
+      },
+      {
+        "line_index": 5,
+        "margin_loc": "9",
+        "prose_loc": "10",
+        "margin_glyph": "e",
+        "has_para_start": false,
+        "has_para_end": false,
+        "has_intrusion": false,
+        "w1": "shol",
+        "w1_class": "sh-",
+        "wn": "qotchar",
+        "prose_tokens": [
+          "shol",
+          "shodaiin",
+          "qotchar"
+        ]
+      },
+      {
+        "line_index": 6,
+        "margin_loc": "11",
+        "prose_loc": "12",
+        "margin_glyph": "@140;",
+        "has_para_start": false,
+        "has_para_end": false,
+        "has_intrusion": false,
+        "w1": "qotchy",
+        "w1_class": "qo-",
+        "wn": "choky",
+        "prose_tokens": [
+          "qotchy",
+          "chokchy",
+          "choky"
+        ]
+      },
+      {
+        "line_index": 7,
+        "margin_loc": "13",
+        "prose_loc": "14",
+        "margin_glyph": "k",
+        "has_para_start": false,
+        "has_para_end": false,
+        "has_intrusion": false,
+        "w1": "chotchy",
+        "w1_class": "ch-",
+        "wn": "dan",
+        "prose_tokens": [
+          "chotchy",
+          "chodaiin",
+          "dan"
+        ]
+      },
+      {
+        "line_index": 8,
+        "margin_loc": "15",
+        "prose_loc": "16",
+        "margin_glyph": "s",
+        "has_para_start": false,
+        "has_para_end": false,
+        "has_intrusion": false,
+        "w1": "qoteees",
+        "w1_class": "qo-",
+        "wn": "daiindol",
+        "prose_tokens": [
+          "qoteees",
+          "cheo",
+          "daiindol"
+        ]
+      },
+      {
+        "line_index": 9,
+        "margin_loc": "17",
+        "prose_loc": "18",
+        "margin_glyph": "p",
+        "has_para_start": false,
+        "has_para_end": false,
+        "has_intrusion": false,
+        "w1": "ochor",
+        "w1_class": "o-",
+        "wn": "ksheodl",
+        "prose_tokens": [
+          "ochor",
+          "sheeod",
+          "ksheodl"
+        ]
+      },
+      {
+        "line_index": 10,
+        "margin_loc": "19",
+        "prose_loc": "20",
+        "margin_glyph": "o",
+        "has_para_start": false,
+        "has_para_end": false,
+        "has_intrusion": false,
+        "w1": "qokshodaiin",
+        "w1_class": "qo-",
+        "wn": "shckhydar",
+        "prose_tokens": [
+          "qokshodaiin",
+          "shckhydar"
+        ]
+      },
+      {
+        "line_index": 11,
+        "margin_loc": "21",
+        "prose_loc": "22",
+        "margin_glyph": "@192;",
+        "has_para_start": false,
+        "has_para_end": false,
+        "has_intrusion": false,
+        "w1": "dchol",
+        "w1_class": "d-",
+        "wn": "choky",
+        "prose_tokens": [
+          "dchol",
+          "cthol",
+          "daiin",
+          "choky"
+        ]
+      },
+      {
+        "line_index": 12,
+        "margin_loc": "23",
+        "prose_loc": "24",
+        "margin_glyph": "y",
+        "has_para_start": false,
+        "has_para_end": false,
+        "has_intrusion": false,
+        "w1": "ochokeey",
+        "w1_class": "o-",
+        "wn": "chokag",
+        "prose_tokens": [
+          "ochokeey",
+          "ckhey",
+          "daiin",
+          "dain",
+          "chokag"
+        ]
+      },
+      {
+        "line_index": 13,
+        "margin_loc": "25",
+        "prose_loc": "26",
+        "margin_glyph": "e",
+        "has_para_start": false,
+        "has_para_end": true,
+        "has_intrusion": false,
+        "w1": "qokeolchokeeody",
+        "w1_class": "qo-",
+        "wn": "daiin",
+        "prose_tokens": [
+          "qokeolchokeeody",
+          "otol",
+          "kchos",
+          "chol",
+          "daiin"
+        ]
+      },
+      {
+        "line_index": 14,
+        "margin_loc": "27",
+        "prose_loc": "28",
+        "margin_glyph": "@140;",
+        "has_para_start": true,
+        "has_para_end": false,
+        "has_intrusion": true,
+        "w1": "fchochor",
+        "w1_class": "G-",
+        "wn": "dchsychotchy",
+        "prose_tokens": [
+          "fchochor",
+          "shol",
+          "tchol",
+          "opcheodal",
+          "dchsychotchy"
+        ]
+      },
+      {
+        "line_index": 15,
+        "margin_loc": "29",
+        "prose_loc": "30",
+        "margin_glyph": "@164;",
+        "has_para_start": false,
+        "has_para_end": false,
+        "has_intrusion": true,
+        "w1": "dcho",
+        "w1_class": "d-",
+        "wn": "tcholokchokol",
+        "prose_tokens": [
+          "dcho",
+          "d",
+          "chol",
+          "chokchodaiin",
+          "chokchy",
+          "tcholokchokol"
+        ]
+      },
+      {
+        "line_index": 16,
+        "margin_loc": "31",
+        "prose_loc": "32",
+        "margin_glyph": "p",
+        "has_para_start": false,
+        "has_para_end": false,
+        "has_intrusion": true,
+        "w1": "tchotchey",
+        "w1_class": "G-",
+        "wn": "dchog",
+        "prose_tokens": [
+          "tchotchey",
+          "chokeeodol",
+          "rcheey",
+          "otchodardcho",
+          "dchog"
+        ]
+      },
+      {
+        "line_index": 17,
+        "margin_loc": "33",
+        "prose_loc": "34",
+        "margin_glyph": "o",
+        "has_para_start": false,
+        "has_para_end": true,
+        "has_intrusion": false,
+        "w1": "shocho",
+        "w1_class": "sh-",
+        "wn": "choty",
+        "prose_tokens": [
+          "shocho",
+          "oaiin",
+          "sheo",
+          "choty"
+        ]
+      },
+      {
+        "line_index": 18,
+        "margin_loc": "35",
+        "prose_loc": "36",
+        "margin_glyph": "@192;",
+        "has_para_start": true,
+        "has_para_end": false,
+        "has_intrusion": true,
+        "w1": "qotcho",
+        "w1_class": "qo-",
+        "wn": "dcheolchotchody",
+        "prose_tokens": [
+          "qotcho",
+          "cheol",
+          "chols",
+          "chochcthey",
+          "dcheolchotchody"
+        ]
+      },
+      {
+        "line_index": 19,
+        "margin_loc": "37",
+        "prose_loc": "38",
+        "margin_glyph": "y",
+        "has_para_start": false,
+        "has_para_end": false,
+        "has_intrusion": true,
+        "w1": "chokeo",
+        "w1_class": "ch-",
+        "wn": "qokg",
+        "prose_tokens": [
+          "chokeo",
+          "sho",
+          "cheor",
+          "cheokchet",
+          "chor",
+          "daiindydaiin",
+          "qokg"
+        ]
+      },
+      {
+        "line_index": 20,
+        "margin_loc": "39",
+        "prose_loc": "40",
+        "margin_glyph": "e",
+        "has_para_start": false,
+        "has_para_end": false,
+        "has_intrusion": true,
+        "w1": "oaiin",
+        "w1_class": "o-",
+        "wn": "kshardychokchy",
+        "prose_tokens": [
+          "oaiin",
+          "chy",
+          "daiin",
+          "chol",
+          "chaiin",
+          "kshardychokchy"
+        ]
+      },
+      {
+        "line_index": 21,
+        "margin_loc": "41",
+        "prose_loc": "42",
+        "margin_glyph": "@140;",
+        "has_para_start": false,
+        "has_para_end": false,
+        "has_intrusion": true,
+        "w1": "qokeaiin",
+        "w1_class": "qo-",
+        "wn": "daisin",
+        "prose_tokens": [
+          "qokeaiin",
+          "cheo",
+          "chor",
+          "choteey",
+          "kcheol",
+          "daincho",
+          "daisin"
+        ]
+      },
+      {
+        "line_index": 22,
+        "margin_loc": "43",
+        "prose_loc": "44",
+        "margin_glyph": "d",
+        "has_para_start": false,
+        "has_para_end": false,
+        "has_intrusion": true,
+        "w1": "chokaiin",
+        "w1_class": "ch-",
+        "wn": "dy",
+        "prose_tokens": [
+          "chokaiin",
+          "cho",
+          "dls",
+          "chariin",
+          "daiin",
+          "chain",
+          "dychetcho",
+          "dy"
+        ]
+      },
+      {
+        "line_index": 23,
+        "margin_loc": "45",
+        "prose_loc": "46",
+        "margin_glyph": "y",
+        "has_para_start": false,
+        "has_para_end": false,
+        "has_intrusion": true,
+        "w1": "oaiin",
+        "w1_class": "o-",
+        "wn": "s",
+        "prose_tokens": [
+          "oaiin",
+          "cheky",
+          "@243;",
+          "cho",
+          "rchseesy",
+          "kchor",
+          "solchctho",
+          "s"
+        ]
+      },
+      {
+        "line_index": 24,
+        "margin_loc": "47",
+        "prose_loc": "48",
+        "margin_glyph": "e",
+        "has_para_start": false,
+        "has_para_end": false,
+        "has_intrusion": true,
+        "w1": "qotcheol",
+        "w1_class": "qo-",
+        "wn": "chordalchaiind",
+        "prose_tokens": [
+          "qotcheol",
+          "chey",
+          "chor",
+          "chokaly",
+          "chordalchaiind"
+        ]
+      },
+      {
+        "line_index": 25,
+        "margin_loc": "49",
+        "prose_loc": "50",
+        "margin_glyph": "k",
+        "has_para_start": false,
+        "has_para_end": false,
+        "has_intrusion": true,
+        "w1": "chol",
+        "w1_class": "ch-",
+        "wn": "chokeeokychokoran",
+        "prose_tokens": [
+          "chol",
+          "chor",
+          "ches",
+          "chkalchy",
+          "chokeeokychokoran"
+        ]
+      },
+      {
+        "line_index": 26,
+        "margin_loc": "51",
+        "prose_loc": "52",
+        "margin_glyph": "y",
+        "has_para_start": false,
+        "has_para_end": true,
+        "has_intrusion": false,
+        "w1": "ykchokeo",
+        "w1_class": "y-",
+        "wn": "daiin",
+        "prose_tokens": [
+          "ykchokeo",
+          "r",
+          "cheey",
+          "daiin"
+        ]
+      }
+    ]
+  },
+  "exclusive_quire_h_bifolium_alphabet": {
+    "@169;": {
+      "total_occurrences": 5,
+      "folios": [
+        "f57v",
+        "f66r"
+      ],
+      "exclusive_to_quire_h_bifolium_f57v_f66r": true,
+      "loci": [
+        "f57v.3:@169;",
+        "f57v.3:@169;",
+        "f57v.3:@169;",
+        "f57v.3:@169;",
+        "f66r.24:@169;"
+      ]
+    },
+    "@170;": {
+      "total_occurrences": 5,
+      "folios": [
+        "f57v"
+      ],
+      "exclusive_to_quire_h_bifolium_f57v_f66r": true,
+      "loci": [
+        "f57v.3:@170;",
+        "f57v.3:@170;",
+        "f57v.3:@170;",
+        "f57v.3:@170;",
+        "f57v.5:@170;"
+      ]
+    },
+    "@171;": {
+      "total_occurrences": 5,
+      "folios": [
+        "f57v"
+      ],
+      "exclusive_to_quire_h_bifolium_f57v_f66r": true,
+      "loci": [
+        "f57v.3:@171;",
+        "f57v.3:@171;",
+        "f57v.3:@171;",
+        "f57v.3:@171;",
+        "f57v.5:@171;"
+      ]
+    },
+    "@172;": {
+      "total_occurrences": 6,
+      "folios": [
+        "f57v",
+        "f66r"
+      ],
+      "exclusive_to_quire_h_bifolium_f57v_f66r": true,
+      "loci": [
+        "f57v.3:@172;",
+        "f57v.3:@172;",
+        "f57v.3:@172;",
+        "f57v.3:@172;",
+        "f57v.4:@172;",
+        "f66r.38:@172;"
+      ]
+    }
+  },
+  "topline_plume_codepoints": {
+    "@132;": {
+      "total_occurrences": 10,
+      "line1_occurrences": 3,
+      "line1_rate": 0.3,
+      "loci": [
+        "f8r.14:@132;",
+        "f30v.1:@132;",
+        "f35r.1:@132;",
+        "f80r.34:@132;",
+        "f86v6.13:@132;",
+        "f95v1.1:@132;",
+        "f99v.37:@132;",
+        "f100r.12:@132;",
+        "f100v.14:@132;",
+        "f102r2.16:@132;"
+      ]
+    },
+    "@133;": {
+      "total_occurrences": 11,
+      "line1_occurrences": 3,
+      "line1_rate": 0.2727,
+      "loci": [
+        "f30v.1:@133;",
+        "f68r2.7:@133;",
+        "f80r.34:@133;",
+        "fRos.33:@133;",
+        "f86v6.13:@133;",
+        "f90v2.1:@133;",
+        "f95v1.1:@133;",
+        "f99v.37:@133;",
+        "f100v.14:@133;",
+        "f101r.3:@133;",
+        "f102r2.16:@133;"
+      ]
+    },
+    "@196;": {
+      "total_occurrences": 5,
+      "line1_occurrences": 3,
+      "line1_rate": 0.6,
+      "loci": [
+        "f8r.14:@196;",
+        "f8v.1:@196;",
+        "f35r.1:@196;",
+        "f42r.1:@196;",
+        "f68r1.30:@196;"
+      ]
+    }
+  },
+  "exotic_codepoints_catalog": [
+    {
+      "codepoint": "@133;",
+      "total_count": 11,
+      "folios": [
+        "f100v",
+        "f101r",
+        "f102r2",
+        "f30v",
+        "f68r2",
+        "f80r",
+        "f86v6",
+        "f90v2",
+        "f95v1",
+        "f99v",
+        "fRos"
+      ],
+      "loci": [
+        "f30v.1:@133;",
+        "f68r2.7:@133;",
+        "f80r.34:@133;",
+        "fRos.33:@133;",
+        "f86v6.13:@133;",
+        "f90v2.1:@133;",
+        "f95v1.1:@133;",
+        "f99v.37:@133;",
+        "f100v.14:@133;",
+        "f101r.3:@133;",
+        "f102r2.16:@133;"
+      ]
+    },
+    {
+      "codepoint": "@132;",
+      "total_count": 10,
+      "folios": [
+        "f100r",
+        "f100v",
+        "f102r2",
+        "f30v",
+        "f35r",
+        "f80r",
+        "f86v6",
+        "f8r",
+        "f95v1",
+        "f99v"
+      ],
+      "loci": [
+        "f8r.14:@132;",
+        "f30v.1:@132;",
+        "f35r.1:@132;",
+        "f80r.34:@132;",
+        "f86v6.13:@132;",
+        "f95v1.1:@132;",
+        "f99v.37:@132;",
+        "f100r.12:@132;",
+        "f100v.14:@132;",
+        "f102r2.16:@132;"
+      ]
+    },
+    {
+      "codepoint": "@175;",
+      "total_count": 7,
+      "folios": [
+        "f111r",
+        "f112v",
+        "f52r",
+        "f76v",
+        "f86v3"
+      ],
+      "loci": [
+        "f52r.7:@175;",
+        "f76v.20:@175;",
+        "f86v3.30:@175;",
+        "f86v3.35:@175;",
+        "f111r.20:@175;",
+        "f111r.24:@175;",
+        "f112v.14:@175;"
+      ]
+    },
+    {
+      "codepoint": "@172;",
+      "total_count": 6,
+      "folios": [
+        "f57v",
+        "f66r"
+      ],
+      "loci": [
+        "f57v.3:@172;",
+        "f57v.3:@172;",
+        "f57v.3:@172;",
+        "f57v.3:@172;",
+        "f57v.4:@172;",
+        "f66r.38:@172;"
+      ]
+    },
+    {
+      "codepoint": "@246;",
+      "total_count": 5,
+      "folios": [
+        "f102v1",
+        "f18r",
+        "f45r",
+        "f58v",
+        "f6v"
+      ],
+      "loci": [
+        "f6v.1:@246;",
+        "f18r.3:@246;",
+        "f45r.8:@246;",
+        "f58v.3:@246;",
+        "f102v1.12:@246;"
+      ]
+    },
+    {
+      "codepoint": "@196;",
+      "total_count": 5,
+      "folios": [
+        "f35r",
+        "f42r",
+        "f68r1",
+        "f8r",
+        "f8v"
+      ],
+      "loci": [
+        "f8r.14:@196;",
+        "f8v.1:@196;",
+        "f35r.1:@196;",
+        "f42r.1:@196;",
+        "f68r1.30:@196;"
+      ]
+    },
+    {
+      "codepoint": "@169;",
+      "total_count": 5,
+      "folios": [
+        "f57v",
+        "f66r"
+      ],
+      "loci": [
+        "f57v.3:@169;",
+        "f57v.3:@169;",
+        "f57v.3:@169;",
+        "f57v.3:@169;",
+        "f66r.24:@169;"
+      ]
+    },
+    {
+      "codepoint": "@170;",
+      "total_count": 5,
+      "folios": [
+        "f57v"
+      ],
+      "loci": [
+        "f57v.3:@170;",
+        "f57v.3:@170;",
+        "f57v.3:@170;",
+        "f57v.3:@170;",
+        "f57v.5:@170;"
+      ]
+    },
+    {
+      "codepoint": "@171;",
+      "total_count": 5,
+      "folios": [
+        "f57v"
+      ],
+      "loci": [
+        "f57v.3:@171;",
+        "f57v.3:@171;",
+        "f57v.3:@171;",
+        "f57v.3:@171;",
+        "f57v.5:@171;"
+      ]
+    },
+    {
+      "codepoint": "@192;",
+      "total_count": 4,
+      "folios": [
+        "f1r",
+        "f49v",
+        "f72r3"
+      ],
+      "loci": [
+        "f1r.19:@192;",
+        "f49v.21:@192;",
+        "f49v.35:@192;",
+        "f72r3.6:@192;"
+      ]
+    },
+    {
+      "codepoint": "@140;",
+      "total_count": 4,
+      "folios": [
+        "f18v",
+        "f49v"
+      ],
+      "loci": [
+        "f18v.2:@140;",
+        "f49v.11:@140;",
+        "f49v.27:@140;",
+        "f49v.41:@140;"
+      ]
+    },
+    {
+      "codepoint": "@162;",
+      "total_count": 4,
+      "folios": [
+        "f115r",
+        "f22r",
+        "f48r",
+        "f70v2"
+      ],
+      "loci": [
+        "f22r.7:@162;",
+        "f48r.1:@162;",
+        "f70v2.1:@162;",
+        "f115r.22:@162;"
+      ]
+    },
+    {
+      "codepoint": "@191;",
+      "total_count": 4,
+      "folios": [
+        "f42r",
+        "f47r",
+        "f58v"
+      ],
+      "loci": [
+        "f42r.19:@191;",
+        "f47r.7:@191;",
+        "f58v.3:@191;",
+        "f58v.3:@191;"
+      ]
+    },
+    {
+      "codepoint": "@206;",
+      "total_count": 4,
+      "folios": [
+        "f104v",
+        "f113v",
+        "f78r"
+      ],
+      "loci": [
+        "f78r.40:@206;",
+        "f104v.39:@206;",
+        "f104v.39:@206;",
+        "f113v.15:@206;"
+      ]
+    },
+    {
+      "codepoint": "@152;",
+      "total_count": 3,
+      "folios": [
+        "f11v",
+        "f36r",
+        "f82v"
+      ],
+      "loci": [
+        "f11v.3:@152;",
+        "f36r.3:@152;",
+        "f82v.24:@152;"
+      ]
+    },
+    {
+      "codepoint": "@138;",
+      "total_count": 3,
+      "folios": [
+        "f101v",
+        "f15v",
+        "f26r"
+      ],
+      "loci": [
+        "f15v.2:@138;",
+        "f26r.2:@138;",
+        "f101v.23:@138;"
+      ]
+    },
+    {
+      "codepoint": "@243;",
+      "total_count": 3,
+      "folios": [
+        "f19r",
+        "f20r",
+        "f49v"
+      ],
+      "loci": [
+        "f19r.5:@243;",
+        "f20r.5:@243;",
+        "f49v.46:@243;"
+      ]
+    },
+    {
+      "codepoint": "@176;",
+      "total_count": 3,
+      "folios": [
+        "f26v",
+        "f78r"
+      ],
+      "loci": [
+        "f26v.3:@176;",
+        "f78r.7:@176;",
+        "f78r.28:@176;"
+      ]
+    },
+    {
+      "codepoint": "@167;",
+      "total_count": 3,
+      "folios": [
+        "f56r",
+        "f68r1",
+        "f68r2"
+      ],
+      "loci": [
+        "f56r.1:@167;",
+        "f68r1.30:@167;",
+        "f68r2.7:@167;"
+      ]
+    },
+    {
+      "codepoint": "@204;",
+      "total_count": 3,
+      "folios": [
+        "f68r3",
+        "f69v"
+      ],
+      "loci": [
+        "f68r3.1:@204;",
+        "f69v.1:@204;",
+        "f69v.2:@204;"
+      ]
+    },
+    {
+      "codepoint": "@194;",
+      "total_count": 2,
+      "folios": [
+        "f1r",
+        "f55v"
+      ],
+      "loci": [
+        "f1r.17:@194;",
+        "f55v.8:@194;"
+      ]
+    },
+    {
+      "codepoint": "@135;",
+      "total_count": 2,
+      "folios": [
+        "f10r"
+      ],
+      "loci": [
+        "f10r.11:@135;",
+        "f10r.12:@135;"
+      ]
+    },
+    {
+      "codepoint": "@148;",
+      "total_count": 2,
+      "folios": [
+        "f11r",
+        "f27r"
+      ],
+      "loci": [
+        "f11r.5:@148;",
+        "f27r.5:@148;"
+      ]
+    },
+    {
+      "codepoint": "@154;",
+      "total_count": 2,
+      "folios": [
+        "f17r",
+        "f40r"
+      ],
+      "loci": [
+        "f17r.4:@154;",
+        "f40r.10:@154;"
+      ]
+    },
+    {
+      "codepoint": "@136;",
+      "total_count": 2,
+      "folios": [
+        "f22r",
+        "f46r"
+      ],
+      "loci": [
+        "f22r.7:@136;",
+        "f46r.11:@136;"
+      ]
+    },
+    {
+      "codepoint": "@145;",
+      "total_count": 2,
+      "folios": [
+        "f105r",
+        "f24r"
+      ],
+      "loci": [
+        "f24r.7:@145;",
+        "f105r.17:@145;"
+      ]
+    },
+    {
+      "codepoint": "@146;",
+      "total_count": 2,
+      "folios": [
+        "f24v",
+        "f84r"
+      ],
+      "loci": [
+        "f24v.1:@146;",
+        "f84r.27:@146;"
+      ]
+    },
+    {
+      "codepoint": "@150;",
+      "total_count": 2,
+      "folios": [
+        "f32r",
+        "f68v2"
+      ],
+      "loci": [
+        "f32r.12:@150;",
+        "f68v2.6:@150;"
+      ]
+    },
+    {
+      "codepoint": "@164;",
+      "total_count": 2,
+      "folios": [
+        "f49v",
+        "f67r2"
+      ],
+      "loci": [
+        "f49v.29:@164;",
+        "f67r2.3:@164;"
+      ]
+    },
+    {
+      "codepoint": "@166;",
+      "total_count": 2,
+      "folios": [
+        "f55r",
+        "f78v"
+      ],
+      "loci": [
+        "f55r.6:@166;",
+        "f78v.10:@166;"
+      ]
+    },
+    {
+      "codepoint": "@168;",
+      "total_count": 2,
+      "folios": [
+        "f100r",
+        "f56r"
+      ],
+      "loci": [
+        "f56r.1:@168;",
+        "f100r.12:@168;"
+      ]
+    },
+    {
+      "codepoint": "@178;",
+      "total_count": 2,
+      "folios": [
+        "f69r",
+        "f85r1"
+      ],
+      "loci": [
+        "f69r.3:@178;",
+        "f85r1.9:@178;"
+      ]
+    },
+    {
+      "codepoint": "@240;",
+      "total_count": 2,
+      "folios": [
+        "f69v"
+      ],
+      "loci": [
+        "f69v.3:@240;",
+        "f69v.3:@240;"
+      ]
+    },
+    {
+      "codepoint": "@197;",
+      "total_count": 2,
+      "folios": [
+        "f70v2",
+        "f89r1"
+      ],
+      "loci": [
+        "f70v2.21:@197;",
+        "f89r1.20:@197;"
+      ]
+    },
+    {
+      "codepoint": "@208;",
+      "total_count": 2,
+      "folios": [
+        "f104v",
+        "f83r"
+      ],
+      "loci": [
+        "f83r.30:@208;",
+        "f104v.23:@208;"
+      ]
+    },
+    {
+      "codepoint": "@185;",
+      "total_count": 2,
+      "folios": [
+        "f112r",
+        "f86v6"
+      ],
+      "loci": [
+        "f86v6.10:@185;",
+        "f112r.1:@185;"
+      ]
+    },
+    {
+      "codepoint": "@254;",
+      "total_count": 1,
+      "folios": [
+        "f1r"
+      ],
+      "loci": [
+        "f1r.1:@254;"
+      ]
+    },
+    {
+      "codepoint": "@252;",
+      "total_count": 1,
+      "folios": [
+        "f1r"
+      ],
+      "loci": [
+        "f1r.7:@252;"
+      ]
+    },
+    {
+      "codepoint": "@253;",
+      "total_count": 1,
+      "folios": [
+        "f1r"
+      ],
+      "loci": [
+        "f1r.11:@253;"
+      ]
+    },
+    {
+      "codepoint": "@130;",
+      "total_count": 1,
+      "folios": [
+        "f1r"
+      ],
+      "loci": [
+        "f1r.19:@130;"
+      ]
+    },
+    {
+      "codepoint": "@209;",
+      "total_count": 1,
+      "folios": [
+        "f1v"
+      ],
+      "loci": [
+        "f1v.9:@209;"
+      ]
+    },
+    {
+      "codepoint": "@163;",
+      "total_count": 1,
+      "folios": [
+        "f4r"
+      ],
+      "loci": [
+        "f4r.2:@163;"
+      ]
+    },
+    {
+      "codepoint": "@131;",
+      "total_count": 1,
+      "folios": [
+        "f5r"
+      ],
+      "loci": [
+        "f5r.2:@131;"
+      ]
+    },
+    {
+      "codepoint": "@216;",
+      "total_count": 1,
+      "folios": [
+        "f8v"
+      ],
+      "loci": [
+        "f8v.1:@216;"
+      ]
+    },
+    {
+      "codepoint": "@134;",
+      "total_count": 1,
+      "folios": [
+        "f9r"
+      ],
+      "loci": [
+        "f9r.6:@134;"
+      ]
+    },
+    {
+      "codepoint": "@137;",
+      "total_count": 1,
+      "folios": [
+        "f14r"
+      ],
+      "loci": [
+        "f14r.8:@137;"
+      ]
+    },
+    {
+      "codepoint": "@139;",
+      "total_count": 1,
+      "folios": [
+        "f18r"
+      ],
+      "loci": [
+        "f18r.3:@139;"
+      ]
+    },
+    {
+      "codepoint": "@241;",
+      "total_count": 1,
+      "folios": [
+        "f19r"
+      ],
+      "loci": [
+        "f19r.2:@241;"
+      ]
+    },
+    {
+      "codepoint": "@242;",
+      "total_count": 1,
+      "folios": [
+        "f19r"
+      ],
+      "loci": [
+        "f19r.2:@242;"
+      ]
+    },
+    {
+      "codepoint": "@244;",
+      "total_count": 1,
+      "folios": [
+        "f20v"
+      ],
+      "loci": [
+        "f20v.9:@244;"
+      ]
+    },
+    {
+      "codepoint": "@200;",
+      "total_count": 1,
+      "folios": [
+        "f20v"
+      ],
+      "loci": [
+        "f20v.11:@200;"
+      ]
+    },
+    {
+      "codepoint": "@203;",
+      "total_count": 1,
+      "folios": [
+        "f22r"
+      ],
+      "loci": [
+        "f22r.8:@203;"
+      ]
+    },
+    {
+      "codepoint": "@147;",
+      "total_count": 1,
+      "folios": [
+        "f25v"
+      ],
+      "loci": [
+        "f25v.6:@147;"
+      ]
+    },
+    {
+      "codepoint": "@149;",
+      "total_count": 1,
+      "folios": [
+        "f31r"
+      ],
+      "loci": [
+        "f31r.1:@149;"
+      ]
+    },
+    {
+      "codepoint": "@151;",
+      "total_count": 1,
+      "folios": [
+        "f36r"
+      ],
+      "loci": [
+        "f36r.1:@151;"
+      ]
+    },
+    {
+      "codepoint": "@153;",
+      "total_count": 1,
+      "folios": [
+        "f38v"
+      ],
+      "loci": [
+        "f38v.7:@153;"
+      ]
+    },
+    {
+      "codepoint": "@155;",
+      "total_count": 1,
+      "folios": [
+        "f42r"
+      ],
+      "loci": [
+        "f42r.1:@155;"
+      ]
+    },
+    {
+      "codepoint": "@156;",
+      "total_count": 1,
+      "folios": [
+        "f42v"
+      ],
+      "loci": [
+        "f42v.1:@156;"
+      ]
+    },
+    {
+      "codepoint": "@245;",
+      "total_count": 1,
+      "folios": [
+        "f42v"
+      ],
+      "loci": [
+        "f42v.2:@245;"
+      ]
+    },
+    {
+      "codepoint": "@190;",
+      "total_count": 1,
+      "folios": [
+        "f44r"
+      ],
+      "loci": [
+        "f44r.6:@190;"
+      ]
+    },
+    {
+      "codepoint": "@201;",
+      "total_count": 1,
+      "folios": [
+        "f45r"
+      ],
+      "loci": [
+        "f45r.9:@201;"
+      ]
+    },
+    {
+      "codepoint": "@159;",
+      "total_count": 1,
+      "folios": [
+        "f47r"
+      ],
+      "loci": [
+        "f47r.1:@159;"
+      ]
+    },
+    {
+      "codepoint": "@161;",
+      "total_count": 1,
+      "folios": [
+        "f47r"
+      ],
+      "loci": [
+        "f47r.8:@161;"
+      ]
+    },
+    {
+      "codepoint": "@165;",
+      "total_count": 1,
+      "folios": [
+        "f54r"
+      ],
+      "loci": [
+        "f54r.11:@165;"
+      ]
+    },
+    {
+      "codepoint": "@193;",
+      "total_count": 1,
+      "folios": [
+        "f55r"
+      ],
+      "loci": [
+        "f55r.10:@193;"
+      ]
+    },
+    {
+      "codepoint": "@210;",
+      "total_count": 1,
+      "folios": [
+        "f58r"
+      ],
+      "loci": [
+        "f58r.4:@210;"
+      ]
+    },
+    {
+      "codepoint": "@195;",
+      "total_count": 1,
+      "folios": [
+        "f66r"
+      ],
+      "loci": [
+        "f66r.42:@195;"
+      ]
+    },
+    {
+      "codepoint": "@231;",
+      "total_count": 1,
+      "folios": [
+        "f68r2"
+      ],
+      "loci": [
+        "f68r2.31:@231;"
+      ]
+    },
+    {
+      "codepoint": "@232;",
+      "total_count": 1,
+      "folios": [
+        "f68r2"
+      ],
+      "loci": [
+        "f68r2.31:@232;"
+      ]
+    },
+    {
+      "codepoint": "@233;",
+      "total_count": 1,
+      "folios": [
+        "f68r2"
+      ],
+      "loci": [
+        "f68r2.31:@233;"
+      ]
+    },
+    {
+      "codepoint": "@234;",
+      "total_count": 1,
+      "folios": [
+        "f68r2"
+      ],
+      "loci": [
+        "f68r2.31:@234;"
+      ]
+    },
+    {
+      "codepoint": "@211;",
+      "total_count": 1,
+      "folios": [
+        "f72r2"
+      ],
+      "loci": [
+        "f72r2.32:@211;"
+      ]
+    },
+    {
+      "codepoint": "@212;",
+      "total_count": 1,
+      "folios": [
+        "f72r3"
+      ],
+      "loci": [
+        "f72r3.26:@212;"
+      ]
+    },
+    {
+      "codepoint": "@174;",
+      "total_count": 1,
+      "folios": [
+        "f76r"
+      ],
+      "loci": [
+        "f76r.50:@174;"
+      ]
+    },
+    {
+      "codepoint": "@177;",
+      "total_count": 1,
+      "folios": [
+        "f78v"
+      ],
+      "loci": [
+        "f78v.1:@177;"
+      ]
+    },
+    {
+      "codepoint": "@207;",
+      "total_count": 1,
+      "folios": [
+        "f80r"
+      ],
+      "loci": [
+        "f80r.11:@207;"
+      ]
+    },
+    {
+      "codepoint": "@213;",
+      "total_count": 1,
+      "folios": [
+        "fRos"
+      ],
+      "loci": [
+        "fRos.33:@213;"
+      ]
+    },
+    {
+      "codepoint": "@214;",
+      "total_count": 1,
+      "folios": [
+        "fRos"
+      ],
+      "loci": [
+        "fRos.134:@214;"
+      ]
+    },
+    {
+      "codepoint": "@179;",
+      "total_count": 1,
+      "folios": [
+        "f86v6"
+      ],
+      "loci": [
+        "f86v6.1:@179;"
+      ]
+    },
+    {
+      "codepoint": "@180;",
+      "total_count": 1,
+      "folios": [
+        "f87v"
+      ],
+      "loci": [
+        "f87v.1:@180;"
+      ]
+    },
+    {
+      "codepoint": "@181;",
+      "total_count": 1,
+      "folios": [
+        "f90v2"
+      ],
+      "loci": [
+        "f90v2.1:@181;"
+      ]
+    },
+    {
+      "codepoint": "@182;",
+      "total_count": 1,
+      "folios": [
+        "f90v1"
+      ],
+      "loci": [
+        "f90v1.7:@182;"
+      ]
+    },
+    {
+      "codepoint": "@183;",
+      "total_count": 1,
+      "folios": [
+        "f101r"
+      ],
+      "loci": [
+        "f101r.3:@183;"
+      ]
+    },
+    {
+      "codepoint": "@184;",
+      "total_count": 1,
+      "folios": [
+        "f101r"
+      ],
+      "loci": [
+        "f101r.7:@184;"
+      ]
+    },
+    {
+      "codepoint": "@199;",
+      "total_count": 1,
+      "folios": [
+        "f105r"
+      ],
+      "loci": [
+        "f105r.1:@199;"
+      ]
+    },
+    {
+      "codepoint": "@186;",
+      "total_count": 1,
+      "folios": [
+        "f113r"
+      ],
+      "loci": [
+        "f113r.1:@186;"
+      ]
+    },
+    {
+      "codepoint": "@187;",
+      "total_count": 1,
+      "folios": [
+        "f113v"
+      ],
+      "loci": [
+        "f113v.15:@187;"
+      ]
+    },
+    {
+      "codepoint": "@188;",
+      "total_count": 1,
+      "folios": [
+        "f114r"
+      ],
+      "loci": [
+        "f114r.1:@188;"
+      ]
+    },
+    {
+      "codepoint": "@189;",
+      "total_count": 1,
+      "folios": [
+        "f114v"
+      ],
+      "loci": [
+        "f114v.18:@189;"
+      ]
+    }
+  ],
+  "marginal_and_alphabetic_loci": [
+    {
+      "folio": "f17r",
+      "loc_id": "13",
+      "ltype": "@Lx",
+      "has_para_start": false,
+      "has_para_end": false,
+      "has_intrusion": false,
+      "comments": [],
+      "tokens": [
+        "oteeeon",
+        "oiil"
+      ],
+      "raw_body": "oteeeon.oiil"
+    },
+    {
+      "folio": "f66r",
+      "loc_id": "82",
+      "ltype": "@Lx",
+      "has_para_start": false,
+      "has_para_end": false,
+      "has_intrusion": false,
+      "comments": [],
+      "tokens": [
+        "otcheodaiin",
+        "chty",
+        "ykeescheg"
+      ],
+      "raw_body": "otcheo,daiin.chty.ykees,cheg"
+    },
+    {
+      "folio": "f116v",
+      "loc_id": "1",
+      "ltype": "@Lx",
+      "has_para_start": false,
+      "has_para_end": false,
+      "has_intrusion": false,
+      "comments": [
+        "valsch vbren so nim gaf mich o"
+      ],
+      "tokens": [
+        "oror",
+        "sheey"
+      ],
+      "raw_body": "oror.sheey<!valsch vbren so nim gaf mich o>"
+    }
+  ]
+}

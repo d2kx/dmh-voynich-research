@@ -410,3 +410,38 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Script, Data & Compendium**: [`tools/attack36_decoded_monograph_and_formulary_compendium.py`](../tools/attack36_decoded_monograph_and_formulary_compendium.py) $\to$ [`data/attack36_decoded_monograph_and_formulary_compendium.json`](../data/attack36_decoded_monograph_and_formulary_compendium.json), [`notes/DECODED_MONOGRAPH_AND_FORMULARY_COMPENDIUM.md`](DECODED_MONOGRAPH_AND_FORMULARY_COMPENDIUM.md)
 - **Key Breakthrough**: Compiles complete line-by-line compositional translations across `5` linked multi-folio manuscript chains (`15` folios, `2,929` tokens, `91.19%` T1–T3 structural coverage).
 
+---
+
+## 37. Attack 37 (`Phase 48`): The `f49v` `qo- -> ch- -> o-` Period-3 Vertical Acrostic ($z = -2.36$ Repulsion) & The Exclusive Quire H Outer-Bifolium Key Alphabet (`@169;..@172;`)
+- **Script & Data**: [`tools/attack37_marginalia_numeral_and_key_alignment.py`](../tools/attack37_marginalia_numeral_and_key_alignment.py) $\to$ [`data/attack37_marginalia_numeral_and_key_alignment.json`](../data/attack37_marginalia_numeral_and_key_alignment.json)
+- **Key Breakthroughs**:
+  1. **`0 / 25` (`0.0%`) Adjacent Line-Initial Prefix Repeats & `qo- -> ch- -> o-` Period-3 Acrostic on `f49v` ($z = -2.36, p = 0.0066$)**: Across all `26` prose lines of `f49v`, consecutive lines never repeat the same initial prefix class, and Paragraph 3 (`<f49v.36..52>`) executes a strict Period-3 cycle (`qo- -> ch- -> o- -> qo- -> ch- -> o- -> qo- -> ch- -> y-`, $z_{\text{lag3}} = +3.75$), matching the 6-glyph (`2 × 3`) marginal key cycle (`[f/p] - o - [r/@192;] - y - e - @140;`).
+  2. **`100%` Exclusive Quire H Outer-Bifolium Key Alphabet (`@169;..@172;`)**: `100%` (`21 / 21`) of all occurrences of `@169;`, `@170;`, `@171;`, and `@172;` in the entire manuscript occur exclusively on `f57v` and `f66r` (the conjugate halves of the outer bifolium of Quire H).
+
+---
+
+## 38. Attack 38 (`Phase 49`): Corpus-Wide Vertical Line-Initial Prefix Repulsion ($z = -11.33, p < 10^{-29}$), Zero Cross-Line Enjambment ($z = +0.07$), and Period-2 (`f77r`) vs. Period-3 (`f49r/v`) Left-Margin Acrostics
+- **Script & Data**: [`tools/attack38_vertical_line_initial_acrostic_scanner.py`](../tools/attack38_vertical_line_initial_acrostic_scanner.py) $\to$ [`data/attack38_vertical_line_initial_acrostic_scanner.json`](../data/attack38_vertical_line_initial_acrostic_scanner.json)
+- **Visual Forensics**: [`pages/f77r_p2_qo_s_alternating_margin_enh.png`](../pages/f77r_p2_qo_s_alternating_margin_enh.png), [`pages/f49r_p2_period3_acrostic_enh.png`](../pages/f49r_p2_period3_acrostic_enh.png)
+- **Key Breakthroughs**:
+  1. **Corpus-Wide Intra-Paragraph Vertical Repulsion ($z = -11.33$) & Vertical MI ($z = +11.56$) vs. Zero Diagonal Enjambment ($z = +0.07$)**: Across `2,839` strictly continuation line pairs (`lines 2..m` inside single paragraphs), consecutive lines share the same onset prefix in only `13.67%` vs. `20.01%` null ($z = -11.33$) with $I(w_1[i] ; w_1[i+1]) = 0.13426\text{ bits}$ ($z = +11.56$), whereas cross-line enjambment $I(w_n[i] ; w_1[i+1])$ is `0.02159` vs. `0.02129` null ($z = +0.07$).
+  2. **Period-2 (`Quire M` Balneological) vs. Period-3 (`Herbal`) Vertical Acrostics**: Balneological paragraphs alternate `qo- <-> s-/d-` (`f77r:P2` $z_{\text{lag2}} = +3.08$, `f83r:P2` $z_{\text{lag2}} = +2.90$, `f77v:P3` $z_{\text{lag2}} = +2.84$), whereas Herbal monographs (`f49v:P3` $z_{\text{lag3}} = +3.75$, `f49r:P2` $z_{\text{lag3}} = +3.15$, `f28r:P1` $z_{\text{lag3}} = +3.06$) cycle through Period-3 `qo- -> ch-/sh- -> o-` triads.
+
+---
+
+## 39. Attack 39 (`Phase 50`): Exact Cross-Manuscript Identification of Both Voynich Expressions on `f116v` (`poldchody` = `<f11v.1,@P0>` Monograph Headword; `oror` = `<f102v2.3,@Lf>` Specimen Label)
+- **Script & Data**: [`tools/attack39_f116v_and_f17r_multilingual_crib_forensics.py`](../tools/attack39_f116v_and_f17r_multilingual_crib_forensics.py) $\to$ [`data/attack39_f116v_and_f17r_multilingual_crib_forensics.json`](../data/attack39_f116v_and_f17r_multilingual_crib_forensics.json)
+- **Visual Forensics**: [`pages/f11v_poldchody_headword_and_plant_enh.png`](../pages/f11v_poldchody_headword_and_plant_enh.png), [`pages/f102v2_oror_specimen_row1_enh.png`](../pages/f102v2_oror_specimen_row1_enh.png), [`pages/f116v_poldchody_and_oror_sheey_enh.png`](../pages/f116v_poldchody_and_oror_sheey_enh.png)
+- **Key Breakthroughs**:
+  1. **`poldchody` (`<f116v.1>`) = `<f11v.1,@P0>` Herbal Monograph Headword (`hapax = 1`)**.
+  2. **`oror` (`<f116v.1> oror . sheey`) = `<f102v2.3,@Lf>` Illustrated Botanical Specimen Label (`hapax = 1` in `@Lf`)** beside the blue-and-white jar `porshols` on `f102v2`, paired with the post-nominal thermal verb `sheey` (`57` `[LIQ_INGR] . sheey` bigrams across the corpus).
+
+---
+
+## 40. Attack 40 (`Phase 51`): The 4-Cell Reduplicated Vocalic-Liquid Paradigm (`olol`, `arar`, `oror`, `alal` = `86.7%` of All `ABAB` Words, `3.94×` Lift) & Bilingual `f116v` Recipe Code-Switching
+- **Script & Data**: [`tools/attack40_reduplicated_paradigm_and_bilingual_f116v_synthesis.py`](../tools/attack40_reduplicated_paradigm_and_bilingual_f116v_synthesis.py) $\to$ [`data/attack40_reduplicated_paradigm_and_bilingual_f116v_synthesis.json`](../data/attack40_reduplicated_paradigm_and_bilingual_f116v_synthesis.json)
+- **Key Breakthroughs**:
+  1. **`86.7%` (`39 / 45`) of All 4-Character `ABAB` Reduplicated Words Belong to `{olol, arar, oror, alal}` (`3.94×` Lift)**: `olol` (`15`), `arar` (`10`), `oror` (`8`), and `alal` (`6`) account for `86.7%` of all `ABAB` 4-character tokens in the manuscript.
+  2. **Bilingual Voynich–German Recipe Code-Switching on `f116v` (`oror . sheey || valsch vbren so nim gaf mich o`)**: Beneath the top-edge German note `poxleber` (*Bocksleber* = "goat's liver"), Line 3 of `f116v` opens in Voynich script with `oror . sheey` (`[Specimen <f102v2.3,@Lf> oror] + [simmer/decoct verb sheey]`) and switches mid-line into Early New High German `valsch vbren so nim gaf mich o` (`"boil/distill ..., then take goat's milk [Geissmilch] ..."`), directly mirroring the Voynich `CH_VERB -> Q_ACT` ($z = +27.65$) procedural recipe loop.
+
+

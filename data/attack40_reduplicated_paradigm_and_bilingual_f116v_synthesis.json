@@ -1,0 +1,684 @@
+{
+  "four_cell_reduplication_statistics": {
+    "total_4char_tokens": 5652,
+    "total_abab_reduplicated_tokens": 45,
+    "four_cell_abab_tokens": 39,
+    "four_cell_share_of_all_abab_tokens": 0.8667,
+    "four_cell_share_of_all_2char_halves": 0.2197,
+    "enrichment_lift_of_four_cells_in_abab": 3.94,
+    "within_four_cell_4char_tokens": 171,
+    "observed_exact_reduplication_in_four_cell_4char": 39,
+    "null_mean_exact_reduplication": 42.41,
+    "null_std_exact_reduplication": 5.38,
+    "z_score_exact_reduplication": -0.63,
+    "p_value_exact_reduplication": 0.769,
+    "all_abab_breakdown": {
+      "olol": 15,
+      "arar": 10,
+      "oror": 8,
+      "alal": 6,
+      "dydy": 3,
+      "amam": 1,
+      "sasa": 1,
+      "osos": 1
+    }
+  },
+  "four_cell_reduplicated_profiles": {
+    "olol": {
+      "exact_count": 15,
+      "sections": {
+        "H": 4,
+        "A": 1,
+        "Z": 1,
+        "B": 9
+      },
+      "languages": {
+        "A": 4,
+        "?": 2,
+        "B": 9
+      },
+      "loci": [
+        {
+          "folio": "f14r",
+          "loc_id": "3",
+          "ltype": "+P0",
+          "section": "H",
+          "language": "A",
+          "prev_word": "daiin",
+          "next_word": "<END>",
+          "line": "ydaiin olchy kchor daiin olol"
+        },
+        {
+          "folio": "f17v",
+          "loc_id": "3",
+          "ltype": "+P0",
+          "section": "H",
+          "language": "A",
+          "prev_word": "chockhol",
+          "next_word": "<END>",
+          "line": "oldaig odaiin okal oldaiin chockhol olol"
+        },
+        {
+          "folio": "f23r",
+          "loc_id": "8",
+          "ltype": "+P0",
+          "section": "H",
+          "language": "A",
+          "prev_word": "qokaiin",
+          "next_word": "qoaiin",
+          "line": "qokshy char daiir qokaiin olol qoaiin ykchy sdal okchy"
+        },
+        {
+          "folio": "f23v",
+          "loc_id": "8",
+          "ltype": "+P0",
+          "section": "H",
+          "language": "A",
+          "prev_word": "damchor",
+          "next_word": "dam",
+          "line": "qokaiin dain qokor okalg damchor olol dam"
+        },
+        {
+          "folio": "f67r2",
+          "loc_id": "30",
+          "ltype": "+Pb",
+          "section": "A",
+          "language": "?",
+          "prev_word": "ochol",
+          "next_word": "<END>",
+          "line": "ochol olol"
+        },
+        {
+          "folio": "f72r3",
+          "loc_id": "26",
+          "ltype": "@Cc",
+          "section": "Z",
+          "language": "?",
+          "prev_word": "otedar",
+          "next_word": "choty",
+          "line": "oteey arary eeerche@212;shees opcholalaiin oteeor am sheal okaipchy oteeesar am olaiin otedar olol choty oteol sheshdy chedy chedy dy shes eedy sheol shyckhol"
+        },
+        {
+          "folio": "f75v",
+          "loc_id": "40",
+          "ltype": "+P0",
+          "section": "B",
+          "language": "B",
+          "prev_word": "qokain",
+          "next_word": "<END>",
+          "line": "dlshedy qokain dal qol qol ol sheedy cheey dol olsheey qokain olol"
+        },
+        {
+          "folio": "f75v",
+          "loc_id": "52",
+          "ltype": "=Lt",
+          "section": "B",
+          "language": "B",
+          "prev_word": "<START>",
+          "next_word": "<END>",
+          "line": "olol"
+        },
+        {
+          "folio": "f77v",
+          "loc_id": "17",
+          "ltype": "+P0",
+          "section": "B",
+          "language": "B",
+          "prev_word": "daiin",
+          "next_word": "<END>",
+          "line": "olchedy qolshedy qokchedy qokeey daiin olol"
+        },
+        {
+          "folio": "f78r",
+          "loc_id": "24",
+          "ltype": "+P0",
+          "section": "B",
+          "language": "B",
+          "prev_word": "qokedy",
+          "next_word": "<END>",
+          "line": "qokeedy kedy qokeey qokedy olol"
+        },
+        {
+          "folio": "f79r",
+          "loc_id": "17",
+          "ltype": "+P0",
+          "section": "B",
+          "language": "B",
+          "prev_word": "ches",
+          "next_word": "ol",
+          "line": "qokaiin shy lsheey lsair or aror otaiin ches olol ol"
+        },
+        {
+          "folio": "f80v",
+          "loc_id": "25",
+          "ltype": "+P0",
+          "section": "B",
+          "language": "B",
+          "prev_word": "qoty",
+          "next_word": "cheey",
+          "line": "lshedy qoty olol cheey qokain okalchy tal or checthysar"
+        },
+        {
+          "folio": "f83v",
+          "loc_id": "20",
+          "ltype": "+P0",
+          "section": "B",
+          "language": "B",
+          "prev_word": "cheor",
+          "next_word": "cheol",
+          "line": "tocthey cheor olol cheol tedy sheckhal sheeckhy cheal"
+        },
+        {
+          "folio": "f84v",
+          "loc_id": "25",
+          "ltype": "+P0",
+          "section": "B",
+          "language": "B",
+          "prev_word": "okain",
+          "next_word": "okalchedy",
+          "line": "qokain okain olol okalchedy chedy"
+        },
+        {
+          "folio": "f84v",
+          "loc_id": "38",
+          "ltype": "+P0",
+          "section": "B",
+          "language": "B",
+          "prev_word": "oteol",
+          "next_word": "<END>",
+          "line": "qokchey qokeedy okedy dolor ol chedy oteol olol"
+        }
+      ]
+    },
+    "arar": {
+      "exact_count": 10,
+      "sections": {
+        "H": 2,
+        "Z": 3,
+        "B": 1,
+        "C": 2,
+        "S": 2
+      },
+      "languages": {
+        "B": 7,
+        "?": 3
+      },
+      "loci": [
+        {
+          "folio": "f31v",
+          "loc_id": "1",
+          "ltype": "@P0",
+          "section": "H",
+          "language": "B",
+          "prev_word": "s",
+          "next_word": "oteey",
+          "line": "podair sheedy otedy oteedy qotolcheo s arar oteey dkchrar als"
+        },
+        {
+          "folio": "f43r",
+          "loc_id": "4",
+          "ltype": "+P0",
+          "section": "H",
+          "language": "B",
+          "prev_word": "yteytedykar",
+          "next_word": "she",
+          "line": "dasar yteytedykar arar she kalchdy cholky qotaly chedy oty otam"
+        },
+        {
+          "folio": "f70v2",
+          "loc_id": "16",
+          "ltype": "&Lz",
+          "section": "Z",
+          "language": "?",
+          "prev_word": "otal",
+          "next_word": "<END>",
+          "line": "otal arar"
+        },
+        {
+          "folio": "f70v2",
+          "loc_id": "21",
+          "ltype": "@Cc",
+          "section": "Z",
+          "language": "?",
+          "prev_word": "ykair",
+          "next_word": "alos",
+          "line": "daii@197;amdy otar am aral otairchedaiin oteey dair shchey daiin chalaly oteody chotol chedy oteotey oteeeorar alody daiir oteedar oteey teey dalal cheoltey oteedy sheeteey okeeol ykeeos shey ykair arar alos"
+        },
+        {
+          "folio": "f71r",
+          "loc_id": "2",
+          "ltype": "@Lz",
+          "section": "Z",
+          "language": "?",
+          "prev_word": "oteos",
+          "next_word": "<END>",
+          "line": "oteos arar"
+        },
+        {
+          "folio": "f84r",
+          "loc_id": "31",
+          "ltype": "+P0",
+          "section": "B",
+          "language": "B",
+          "prev_word": "or",
+          "next_word": "shedy",
+          "line": "ykchdar or arar shedy qokal daiin shedy olkedy qokedy qoky chedy daiin"
+        },
+        {
+          "folio": "fRos",
+          "loc_id": "71",
+          "ltype": "@L0",
+          "section": "C",
+          "language": "B",
+          "prev_word": "soshxor",
+          "next_word": "<END>",
+          "line": "soshxor arar"
+        },
+        {
+          "folio": "f86v4",
+          "loc_id": "1",
+          "ltype": "@Cc",
+          "section": "C",
+          "language": "B",
+          "prev_word": "ofor",
+          "next_word": "dl",
+          "line": "opos os sheody pchar odsheo qody cheepchdy lpchedy olkar shdar dchdor qopcherches oseeedar odaiin pcheodar chdair orarorchy shar opchsey otedy ch{cphh}y chedy sarshed odar sheey scheor al cheefar shetchy qoteol otor shar qoteshy do ofor arar dl"
+        },
+        {
+          "folio": "f103v",
+          "loc_id": "27",
+          "ltype": "+P0",
+          "section": "S",
+          "language": "B",
+          "prev_word": "fcheody",
+          "next_word": "okeey",
+          "line": "fcheody arar okeey okeey lchedy oteal lpar otedy qotar otaryly"
+        },
+        {
+          "folio": "f112v",
+          "loc_id": "31",
+          "ltype": "+P0",
+          "section": "S",
+          "language": "B",
+          "prev_word": "oteody",
+          "next_word": "<END>",
+          "line": "taraiin okeear oteody arar"
+        }
+      ]
+    },
+    "oror": {
+      "exact_count": 8,
+      "sections": {
+        "T": 2,
+        "B": 3,
+        "C": 1,
+        "P": 1,
+        "S": 1
+      },
+      "languages": {
+        "B": 6,
+        "A": 1,
+        "?": 1
+      },
+      "loci": [
+        {
+          "folio": "f76r",
+          "loc_id": "5",
+          "ltype": "=P0",
+          "section": "T",
+          "language": "B",
+          "prev_word": "qokeey",
+          "next_word": "or",
+          "line": "qokedy qokeey oror or chkorol otey qokedy lkedy chdy qokchdy qokal chdam"
+        },
+        {
+          "folio": "f81r",
+          "loc_id": "18",
+          "ltype": "+P0",
+          "section": "B",
+          "language": "B",
+          "prev_word": "okeedy",
+          "next_word": "<END>",
+          "line": "osheedy shedy ol shedy okeedy oror"
+        },
+        {
+          "folio": "f84r",
+          "loc_id": "46",
+          "ltype": "+P1",
+          "section": "B",
+          "language": "B",
+          "prev_word": "ar",
+          "next_word": "okedy",
+          "line": "dchedy qokedy ar oror okedy okedy"
+        },
+        {
+          "folio": "f84v",
+          "loc_id": "23",
+          "ltype": "+P0",
+          "section": "B",
+          "language": "B",
+          "prev_word": "cthykorol",
+          "next_word": "<END>",
+          "line": "qokeey olkaiin okol shedy cthykorol oror"
+        },
+        {
+          "folio": "fRos",
+          "loc_id": "133",
+          "ltype": "@Cc",
+          "section": "C",
+          "language": "B",
+          "prev_word": "okedaiin",
+          "next_word": "<END>",
+          "line": "okarar okary otodeed odar chekaiin oees oiin okees oiir odaiin okalol aiiin okalol otar chchdam chetey otodches oteesey chckhy otody otal chedal opal olkar okedaiin oror"
+        },
+        {
+          "folio": "f102v2",
+          "loc_id": "3",
+          "ltype": "@Lf",
+          "section": "P",
+          "language": "A",
+          "prev_word": "<START>",
+          "next_word": "<END>",
+          "line": "oror"
+        },
+        {
+          "folio": "f113v",
+          "loc_id": "12",
+          "ltype": "+P0",
+          "section": "S",
+          "language": "B",
+          "prev_word": "olchey",
+          "next_word": "<END>",
+          "line": "solchedy otsheody arl olchey oror"
+        },
+        {
+          "folio": "f116v",
+          "loc_id": "1",
+          "ltype": "@Lx",
+          "section": "T",
+          "language": "?",
+          "prev_word": "<START>",
+          "next_word": "sheey",
+          "line": "oror sheey"
+        }
+      ]
+    },
+    "alal": {
+      "exact_count": 6,
+      "sections": {
+        "S": 2,
+        "C": 3,
+        "Z": 1
+      },
+      "languages": {
+        "A": 1,
+        "?": 3,
+        "B": 2
+      },
+      "loci": [
+        {
+          "folio": "f58v",
+          "loc_id": "17",
+          "ltype": "+P0",
+          "section": "S",
+          "language": "A",
+          "prev_word": "daiin",
+          "next_word": "dal",
+          "line": "daiin alal dal qokar otal chodol qokeal cheol chos okeeam"
+        },
+        {
+          "folio": "f70r1",
+          "loc_id": "13",
+          "ltype": "@Cc",
+          "section": "C",
+          "language": "?",
+          "prev_word": "cheor",
+          "next_word": "otar",
+          "line": "tshey ol oteey chedar oteos cheor alal otar ary oteodchey keody oteosal oteeed"
+        },
+        {
+          "folio": "f70r2",
+          "loc_id": "8",
+          "ltype": "+P1",
+          "section": "C",
+          "language": "?",
+          "prev_word": "ytals",
+          "next_word": "dalam",
+          "line": "ytals alal dalam dal cthol oparam"
+        },
+        {
+          "folio": "f72v1",
+          "loc_id": "1",
+          "ltype": "@Cc",
+          "section": "Z",
+          "language": "?",
+          "prev_word": "oteos",
+          "next_word": "dalsalchol",
+          "line": "oteos alar otar air chpaly oteody okchesal otear alshey oleealy shtey oteos alal dalsalchol ytolaiin ydaiin chotar ytal oto shoty otey okchedaly chdary sarotedy otorar shedy opsheytey opairaly choshydy otar cheedy otaraiin cheeky okolar ychey otechety"
+        },
+        {
+          "folio": "fRos",
+          "loc_id": "20",
+          "ltype": "@Cc",
+          "section": "C",
+          "language": "B",
+          "prev_word": "or",
+          "next_word": "ykal",
+          "line": "saisodrar or okal okal or alal ykal ol ar ol al ol allor okan okod oked okeo ldy opashs otedy chedchs sheekedy odal shd olkeedy ykykaiir okchdy otolaryaiin aiir oeal okchdy olyokain olkaiin ody"
+        },
+        {
+          "folio": "f111r",
+          "loc_id": "25",
+          "ltype": "+P0",
+          "section": "S",
+          "language": "B",
+          "prev_word": "chedar",
+          "next_word": "o{ikh}y",
+          "line": "sosheor okeedy oteeey qokeey qokeeos chedar alal o{ikh}y oxar aiin odaiin chody"
+        }
+      ]
+    }
+  },
+  "prefixed_and_suffixed_reduplicated_derivatives": [
+    {
+      "word": "okalal",
+      "count": 6,
+      "loci": [
+        "f58r.14",
+        "f58r.19",
+        "f70v1.5",
+        "f72r1.12",
+        "f106r.36",
+        "f113r.51"
+      ]
+    },
+    {
+      "word": "otarar",
+      "count": 6,
+      "loci": [
+        "f72v1.22",
+        "f85r1.34",
+        "f101v.7",
+        "f104v.2",
+        "f108r.39",
+        "f116r.16"
+      ]
+    },
+    {
+      "word": "dalal",
+      "count": 5,
+      "loci": [
+        "f58r.28",
+        "f70v2.21",
+        "f72v1.33",
+        "f81v.3",
+        "f95r2.1"
+      ]
+    },
+    {
+      "word": "choror",
+      "count": 4,
+      "loci": [
+        "f37v.11",
+        "f42r.22",
+        "f56v.1",
+        "f101v.19"
+      ]
+    },
+    {
+      "word": "okarar",
+      "count": 4,
+      "loci": [
+        "f48v.10",
+        "f72r3.1",
+        "fRos.133",
+        "f95v1.4"
+      ]
+    },
+    {
+      "word": "otalal",
+      "count": 4,
+      "loci": [
+        "f58r.11",
+        "f70v2.1",
+        "f72v1.33",
+        "f107v.21"
+      ]
+    },
+    {
+      "word": "tarar",
+      "count": 3,
+      "loci": [
+        "f33v.1",
+        "f85r1.3",
+        "f113r.40"
+      ]
+    },
+    {
+      "word": "darar",
+      "count": 3,
+      "loci": [
+        "f33v.8",
+        "f58r.18",
+        "f99r.3"
+      ]
+    },
+    {
+      "word": "arary",
+      "count": 3,
+      "loci": [
+        "f58r.5",
+        "f58r.9",
+        "f72r3.26"
+      ]
+    },
+    {
+      "word": "polarar",
+      "count": 3,
+      "loci": [
+        "f76v.1",
+        "f103r.48",
+        "f111v.26"
+      ]
+    },
+    {
+      "word": "darary",
+      "count": 3,
+      "loci": [
+        "f80r.29",
+        "f82r.38",
+        "f99v.5"
+      ]
+    },
+    {
+      "word": "cholols",
+      "count": 2,
+      "loci": [
+        "f5r.5",
+        "f58r.37"
+      ]
+    },
+    {
+      "word": "toror",
+      "count": 2,
+      "loci": [
+        "f16r.10",
+        "f86v6.38"
+      ]
+    },
+    {
+      "word": "cholol",
+      "count": 2,
+      "loci": [
+        "f21r.6",
+        "f47r.6"
+      ]
+    },
+    {
+      "word": "ololdy",
+      "count": 2,
+      "loci": [
+        "f23r.1",
+        "f34r.1"
+      ]
+    },
+    {
+      "word": "salal",
+      "count": 2,
+      "loci": [
+        "f58v.9",
+        "f67v2.5"
+      ]
+    },
+    {
+      "word": "okeolol",
+      "count": 2,
+      "loci": [
+        "f70v1.12",
+        "f72v2.1"
+      ]
+    },
+    {
+      "word": "parar",
+      "count": 2,
+      "loci": [
+        "f71v.1",
+        "f94v.8"
+      ]
+    },
+    {
+      "word": "alaly",
+      "count": 2,
+      "loci": [
+        "f72r3.8",
+        "f73v.33"
+      ]
+    },
+    {
+      "word": "opalal",
+      "count": 2,
+      "loci": [
+        "f72r3.27",
+        "f108r.35"
+      ]
+    }
+  ],
+  "bilingual_f116v_clause_synthesis": {
+    "top_edge_header": {
+      "inscription": "poxleber umen ...",
+      "language": "Early New High German",
+      "meaning": "Bocksleber ('goat's liver')"
+    },
+    "line1_right_anchor": {
+      "inscription": "poldchody",
+      "script": "Voynich",
+      "exact_manuscript_match": "<f11v.1,@P0> <%>poldchody . shcphy . shordy ... (Herbal Monograph Headword of f11v, hapax=1)"
+    },
+    "line3_bilingual_recipe_clause": {
+      "voynich_opening": "oror . sheey",
+      "german_continuation": "valsch vbren so nim gaf mich o",
+      "voynich_structural_parse": "[Botanical Specimen Label <f102v2.3,@Lf> `oror` (reduplicated `-or` heart/flower extract, aligned with `<f33v.8> darar . sheey`)] + [Post-Nominal Thermal Verb `sheey` ('simmer/decoct', 57 `[LIQ_INGR] . sheey` bigrams across corpus; `LIQ_INGR -> CH_VERB` z = +10.71)]",
+      "german_structural_parse": "`valsch vbren` ('boil/distill ...') + `so nim gaf mich o` ('then take goat's milk [Geissmilch] ...'), mirroring the Voynich `CH_VERB -> Q_ACT` (`shedy/sheey -> qokaiin/qokeedy`, z = +27.65) recipe loop!"
+    }
+  }
+}
