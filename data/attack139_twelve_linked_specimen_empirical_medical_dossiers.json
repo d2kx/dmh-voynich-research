@@ -1,0 +1,1897 @@
+{
+  "attack": 139,
+  "phase": 150,
+  "discovery": 156,
+  "title": "End-to-End Empirical Medical Dossiers for the Top 12 Linked 4-Stage Botanical Specimens",
+  "overview": {
+    "n_dossiers_compiled": 12,
+    "mean_active_inflection_by_stage_pct": {
+      "STAGE1_ASTRO_ZODIAC": 14.03,
+      "STAGE2_HERBAL_BOTANY": 15.6,
+      "STAGE3_PHARM_APOTHECARY": 16.72,
+      "STAGE4_CLINICAL_BALNEO_STARRED": 29.24
+    },
+    "within_stem_4stage_activation_gradient_test": {
+      "supply_stage1_2_active_pct": 13.63,
+      "clinical_stage4_active_pct": 32.51,
+      "observed_delta_pct": 18.88,
+      "null_mean_delta_pct": 1.78,
+      "null_sd_delta_pct": 0.89,
+      "z_score": 19.24
+    }
+  },
+  "twelve_specimen_dossiers": [
+    {
+      "rank": 1,
+      "stem": "e",
+      "four_stage_geometric_mean": 309.47,
+      "total_4stage_tokens": 1346,
+      "anatomical_coordinate": "WHOLE_HERB_AXIS (BALANCED)",
+      "astrological_season": "SPRING_ARIES",
+      "clinical_route": "DUAL_APOTHECARY_AND_CLINICAL ($I=P+B+S)",
+      "collocational_verb_operators": [
+        "chey(148)",
+        "shedy(122)",
+        "chedy(122)",
+        "qokeey(116)"
+      ],
+      "collocational_dose_quantifiers": [
+        "aiin(255)",
+        "qokain(92)",
+        "qokaiin(74)",
+        "okaiin(66)"
+      ],
+      "english_empirical_dossier": "SPECIMEN *-e-* [WHOLE_HERB_AXIS (BALANCED)]: (1) Harvested/governed under SPRING_ARIES (f72r3(18), f68v3(13)); (2) Botanical monograph anchored on f17v(13), f90v1(13), f31v(12) as nominal forms cheol(34), cheor(32); (3) Compounded in Apothecary registers f101r(30), f89r2(23) (cheol(37), okeol(31)); (4) Administered via DUAL_APOTHECARY_AND_CLINICAL ($I=P+B+S) on f108v(31), f111v(28), f111r(24) as cheol(86), sheol(52) under operators [chey(148), shedy(122)] with dose quantifiers [aiin(255), qokain(92)].",
+      "stage_progression": {
+        "STAGE1_ASTRO_ZODIAC": {
+          "tokens": 194,
+          "active_clinical_inflection_pct": 0.5,
+          "nominal_identifying_pct": 88.7,
+          "top_surface_forms": [
+            "oteody(21)",
+            "okeody(12)",
+            "cheor(12)",
+            "cheody(11)"
+          ],
+          "top_folios": [
+            "f72r3(18)",
+            "f68v3(13)",
+            "f68v1(13)",
+            "f70r1(12)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f57v",
+              "line_id": "2",
+              "locus": "@Cc",
+              "word": "sher",
+              "clause_snippet": "v sal y soeos vs ar okees o d"
+            },
+            {
+              "folio": "f57v",
+              "line_id": "4",
+              "locus": "+Cc",
+              "word": "shes",
+              "clause_snippet": "daiin otey ofcheeeey shes o d okeeod l o"
+            }
+          ]
+        },
+        "STAGE2_HERBAL_BOTANY": {
+          "tokens": 356,
+          "active_clinical_inflection_pct": 4.2,
+          "nominal_identifying_pct": 87.1,
+          "top_surface_forms": [
+            "cheol(34)",
+            "cheor(32)",
+            "cheky(28)",
+            "cheody(22)"
+          ],
+          "top_folios": [
+            "f17v(13)",
+            "f90v1(13)",
+            "f31v(12)",
+            "f8v(9)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f1v",
+              "line_id": "7",
+              "locus": "+P0",
+              "word": "cheol",
+              "clause_snippet": "qo ol choees cheol dol cthey ykol dol dolo"
+            },
+            {
+              "folio": "f2r",
+              "line_id": "10",
+              "locus": "+P0",
+              "word": "sheky",
+              "clause_snippet": "qoky cholaiin shol sheky daiin cthey keol saiin eaiin"
+            }
+          ]
+        },
+        "STAGE3_PHARM_APOTHECARY": {
+          "tokens": 238,
+          "active_clinical_inflection_pct": 2.5,
+          "nominal_identifying_pct": 93.3,
+          "top_surface_forms": [
+            "cheol(37)",
+            "okeol(31)",
+            "cheor(21)",
+            "sheol(20)"
+          ],
+          "top_folios": [
+            "f101r(30)",
+            "f89r2(23)",
+            "f102v1(21)",
+            "f88r(20)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f88r",
+              "line_id": "7",
+              "locus": "@P0",
+              "word": "sheor",
+              "clause_snippet": "dorsheoy ctheol qockhey dory sheor sholfchor dal chcthol"
+            },
+            {
+              "folio": "f88r",
+              "line_id": "8",
+              "locus": "+P0",
+              "word": "sheom",
+              "clause_snippet": "rsal sheom keol chear shekor qokor daiin sar s"
+            }
+          ]
+        },
+        "STAGE4_CLINICAL_BALNEO_STARRED": {
+          "tokens": 558,
+          "active_clinical_inflection_pct": 3.9,
+          "nominal_identifying_pct": 91.6,
+          "top_surface_forms": [
+            "cheol(86)",
+            "sheol(52)",
+            "cheody(34)",
+            "cheor(25)"
+          ],
+          "top_folios": [
+            "f108v(31)",
+            "f111v(28)",
+            "f111r(24)",
+            "f113v(23)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f58r",
+              "line_id": "4",
+              "locus": "+P0",
+              "word": "oteom",
+              "clause_snippet": "dshor sholar aiin shalom shaly dalchy oteom dal sholala"
+            },
+            {
+              "folio": "f58r",
+              "line_id": "6",
+              "locus": "+P0",
+              "word": "oteor",
+              "clause_snippet": "torchey otaiin chary oteor y otal dalchor ykeey choltam"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "stem": "ch",
+      "four_stage_geometric_mean": 218.97,
+      "total_4stage_tokens": 1394,
+      "anatomical_coordinate": "WHOLE_HERB_AXIS (BALANCED)",
+      "astrological_season": "SPRING_ARIES",
+      "clinical_route": "DUAL_APOTHECARY_AND_CLINICAL ($I=P+B+S)",
+      "collocational_verb_operators": [
+        "chedy(149)",
+        "shedy(108)",
+        "chey(103)",
+        "qokeey(103)"
+      ],
+      "collocational_dose_quantifiers": [
+        "aiin(148)",
+        "qokaiin(89)",
+        "qokain(88)",
+        "otaiin(50)"
+      ],
+      "english_empirical_dossier": "SPECIMEN *-ch-* [WHOLE_HERB_AXIS (BALANCED)]: (1) Harvested/governed under SPRING_ARIES (f86v3(22), fRos(20)); (2) Botanical monograph anchored on f19v(11), f13r(10), f24v(10) as nominal forms otchol(25), dchor(22); (3) Compounded in Apothecary registers f99r(7), f88r(4) (okchol(4), ychey(3)); (4) Administered via DUAL_APOTHECARY_AND_CLINICAL ($I=P+B+S) on f106r(35), f115v(35), f113r(33) as lchedy(103), opchedy(39) under operators [chedy(149), shedy(108)] with dose quantifiers [aiin(148), qokaiin(89)].",
+      "stage_progression": {
+        "STAGE1_ASTRO_ZODIAC": {
+          "tokens": 134,
+          "active_clinical_inflection_pct": 22.4,
+          "nominal_identifying_pct": 76.1,
+          "top_surface_forms": [
+            "okchdy(9)",
+            "otchdy(8)",
+            "otchey(6)",
+            "otchedy(5)"
+          ],
+          "top_folios": [
+            "f86v3(22)",
+            "fRos(20)",
+            "f85r2(11)",
+            "f68r3(8)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f57v",
+              "line_id": "4",
+              "locus": "+Cc",
+              "word": "ofcheeeey",
+              "clause_snippet": "daiin otey ofcheeeey shes o d okeeod l o"
+            },
+            {
+              "folio": "f67r1",
+              "line_id": "6",
+              "locus": "+Cc",
+              "word": "shchey",
+              "clause_snippet": "dair al cheol dal oekaiin sol daiin eetees saiin"
+            }
+          ]
+        },
+        "STAGE2_HERBAL_BOTANY": {
+          "tokens": 477,
+          "active_clinical_inflection_pct": 16.8,
+          "nominal_identifying_pct": 83.2,
+          "top_surface_forms": [
+            "otchol(25)",
+            "dchor(22)",
+            "dchol(16)",
+            "otchor(14)"
+          ],
+          "top_folios": [
+            "f19v(11)",
+            "f13r(10)",
+            "f24v(10)",
+            "f22r(9)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f1v",
+              "line_id": "9",
+              "locus": "+P0",
+              "word": "dchor",
+              "clause_snippet": "shor okol chol dol ky dar shol dchor o"
+            },
+            {
+              "folio": "f1v",
+              "line_id": "10",
+              "locus": "+P0",
+              "word": "schody",
+              "clause_snippet": "taor chotchey dal chody schody pol chodar"
+            }
+          ]
+        },
+        "STAGE3_PHARM_APOTHECARY": {
+          "tokens": 49,
+          "active_clinical_inflection_pct": 16.3,
+          "nominal_identifying_pct": 85.7,
+          "top_surface_forms": [
+            "okchol(4)",
+            "ychey(3)",
+            "otchol(2)",
+            "lchey(2)"
+          ],
+          "top_folios": [
+            "f99r(7)",
+            "f88r(4)",
+            "f88v(4)",
+            "f100v(4)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f88r",
+              "line_id": "18",
+              "locus": "@P0",
+              "word": "orchor",
+              "clause_snippet": "koaiphhy cphol orchor pcheoly otchol oldy salsaly"
+            },
+            {
+              "folio": "f88r",
+              "line_id": "18",
+              "locus": "@P0",
+              "word": "otchol",
+              "clause_snippet": "koaiphhy cphol orchor pcheoly otchol oldy salsaly"
+            }
+          ]
+        },
+        "STAGE4_CLINICAL_BALNEO_STARRED": {
+          "tokens": 734,
+          "active_clinical_inflection_pct": 69.5,
+          "nominal_identifying_pct": 44.7,
+          "top_surface_forms": [
+            "lchedy(103)",
+            "opchedy(39)",
+            "lchey(38)",
+            "olchedy(32)"
+          ],
+          "top_folios": [
+            "f106r(35)",
+            "f115v(35)",
+            "f113r(33)",
+            "f113v(28)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f58r",
+              "line_id": "17",
+              "locus": "+P0",
+              "word": "ytchody",
+              "clause_snippet": "ysholshy qotoly daiin ykal dalchdy qoky dal ytchody s"
+            },
+            {
+              "folio": "f58r",
+              "line_id": "20",
+              "locus": "+P0",
+              "word": "olchey",
+              "clause_snippet": "ysheockhy olchey oleesey alaiin olkeal daldy otalar ar arodaim"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "stem": "eey",
+      "four_stage_geometric_mean": 173.99,
+      "total_4stage_tokens": 909,
+      "anatomical_coordinate": "WHOLE_HERB_AXIS (BALANCED)",
+      "astrological_season": "SPRING_ARIES",
+      "clinical_route": "DUAL_APOTHECARY_AND_CLINICAL ($I=P+B+S)",
+      "collocational_verb_operators": [
+        "qokeey(140)",
+        "chedy(130)",
+        "chey(127)",
+        "shey(97)"
+      ],
+      "collocational_dose_quantifiers": [
+        "aiin(188)",
+        "qokain(64)",
+        "qokaiin(57)",
+        "okaiin(41)"
+      ],
+      "english_empirical_dossier": "SPECIMEN *-eey-* [WHOLE_HERB_AXIS (BALANCED)]: (1) Harvested/governed under SPRING_ARIES (f86v3(17), f69v(9)); (2) Botanical monograph anchored on f90v2(7), f8r(4), f21r(4) as nominal forms sheey(26), cheey(25); (3) Compounded in Apothecary registers f102v2(13), f89r2(12) (okeey(23), cheey(18)); (4) Administered via DUAL_APOTHECARY_AND_CLINICAL ($I=P+B+S) on f108v(38), f111r(31), f103r(27) as cheey(122), okeey(111) under operators [qokeey(140), chedy(130)] with dose quantifiers [aiin(188), qokain(64)].",
+      "stage_progression": {
+        "STAGE1_ASTRO_ZODIAC": {
+          "tokens": 139,
+          "active_clinical_inflection_pct": 3.6,
+          "nominal_identifying_pct": 97.1,
+          "top_surface_forms": [
+            "oteey(43)",
+            "okeey(27)",
+            "cheey(14)",
+            "sheey(12)"
+          ],
+          "top_folios": [
+            "f86v3(17)",
+            "f69v(9)",
+            "f68v3(8)",
+            "f72r3(8)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f57v",
+              "line_id": "2",
+              "locus": "@Cc",
+              "word": "okeey",
+              "clause_snippet": "v sal y soeos vs ar okees o d"
+            },
+            {
+              "folio": "f67r1",
+              "line_id": "2",
+              "locus": "+P0",
+              "word": "oteey",
+              "clause_snippet": "daiir okeody qoekeey sar oeteody oteey keey keo keeodal"
+            }
+          ]
+        },
+        "STAGE2_HERBAL_BOTANY": {
+          "tokens": 128,
+          "active_clinical_inflection_pct": 2.3,
+          "nominal_identifying_pct": 99.2,
+          "top_surface_forms": [
+            "sheey(26)",
+            "cheey(25)",
+            "ykeey(18)",
+            "okeey(15)"
+          ],
+          "top_folios": [
+            "f90v2(7)",
+            "f8r(4)",
+            "f21r(4)",
+            "f31r(4)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f1v",
+              "line_id": "2",
+              "locus": "+P0",
+              "word": "yteey",
+              "clause_snippet": "yteey char or ochy dcho lkody okodar chody"
+            },
+            {
+              "folio": "f2r",
+              "line_id": "9",
+              "locus": "+P0",
+              "word": "sheey",
+              "clause_snippet": "dls sho kol sheey qokey ykody so chol yky"
+            }
+          ]
+        },
+        "STAGE3_PHARM_APOTHECARY": {
+          "tokens": 94,
+          "active_clinical_inflection_pct": 6.4,
+          "nominal_identifying_pct": 94.7,
+          "top_surface_forms": [
+            "okeey(23)",
+            "cheey(18)",
+            "sheey(18)",
+            "ykeey(9)"
+          ],
+          "top_folios": [
+            "f102v2(13)",
+            "f89r2(12)",
+            "f99r(10)",
+            "f101v(9)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f88r",
+              "line_id": "27",
+              "locus": "+P0",
+              "word": "cheey",
+              "clause_snippet": "qokol chol qokol qokol chol cheey or aiin oldal"
+            },
+            {
+              "folio": "f88r",
+              "line_id": "30",
+              "locus": "+P0",
+              "word": "ykeeey",
+              "clause_snippet": "ykeeey cheor cheotey cheol qokeor chetchy ofal"
+            }
+          ]
+        },
+        "STAGE4_CLINICAL_BALNEO_STARRED": {
+          "tokens": 548,
+          "active_clinical_inflection_pct": 11.3,
+          "nominal_identifying_pct": 97.8,
+          "top_surface_forms": [
+            "cheey(122)",
+            "okeey(111)",
+            "sheey(80)",
+            "oteey(79)"
+          ],
+          "top_folios": [
+            "f108v(38)",
+            "f111r(31)",
+            "f103r(27)",
+            "f103v(26)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f58r",
+              "line_id": "6",
+              "locus": "+P0",
+              "word": "ykeey",
+              "clause_snippet": "torchey otaiin chary oteor y otal dalchor ykeey choltam"
+            },
+            {
+              "folio": "f58r",
+              "line_id": "9",
+              "locus": "+P0",
+              "word": "cheey",
+              "clause_snippet": "sholaiin cheey yteodaiin qoar aiin arary sheey daiin e"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 4,
+      "stem": "ckh",
+      "four_stage_geometric_mean": 91.54,
+      "total_4stage_tokens": 577,
+      "anatomical_coordinate": "WHOLE_HERB_AXIS (BALANCED)",
+      "astrological_season": "SPRING_ARIES",
+      "clinical_route": "DUAL_APOTHECARY_AND_CLINICAL ($I=P+B+S)",
+      "collocational_verb_operators": [
+        "chedy(87)",
+        "shedy(71)",
+        "chey(50)",
+        "shey(43)"
+      ],
+      "collocational_dose_quantifiers": [
+        "aiin(81)",
+        "qokain(69)",
+        "qokaiin(51)",
+        "okain(33)"
+      ],
+      "english_empirical_dossier": "SPECIMEN *-ckh-* [WHOLE_HERB_AXIS (BALANCED)]: (1) Harvested/governed under SPRING_ARIES (f85r2(5), fRos(5)); (2) Botanical monograph anchored on f39r(6), f43v(6), f46r(6) as nominal forms chckhy(48), chcthy(25); (3) Compounded in Apothecary registers f102r2(5), f89r2(4) (qockhey(6), qockhol(6)); (4) Administered via DUAL_APOTHECARY_AND_CLINICAL ($I=P+B+S) on f111v(20), f84r(19), f116r(18) as chckhy(72), chcthy(48) under operators [chedy(87), shedy(71)] with dose quantifiers [aiin(81), qokain(69)].",
+      "stage_progression": {
+        "STAGE1_ASTRO_ZODIAC": {
+          "tokens": 30,
+          "active_clinical_inflection_pct": 16.7,
+          "nominal_identifying_pct": 83.3,
+          "top_surface_forms": [
+            "chckhy(6)",
+            "chcthy(4)",
+            "ockhy(3)",
+            "octhey(2)"
+          ],
+          "top_folios": [
+            "f85r2(5)",
+            "fRos(5)",
+            "f86v4(3)",
+            "f67r2(2)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f67r1",
+              "line_id": "5",
+              "locus": "@Cc",
+              "word": "octheey",
+              "clause_snippet": "soairol shdy chokeody ykeedal ol oteodaiin choikhedy ot chteokaiin"
+            },
+            {
+              "folio": "f67r2",
+              "line_id": "42",
+              "locus": "+Pb",
+              "word": "ockhy",
+              "clause_snippet": "sosho chos ockhy"
+            }
+          ]
+        },
+        "STAGE2_HERBAL_BOTANY": {
+          "tokens": 187,
+          "active_clinical_inflection_pct": 18.2,
+          "nominal_identifying_pct": 76.5,
+          "top_surface_forms": [
+            "chckhy(48)",
+            "chcthy(25)",
+            "shckhy(7)",
+            "shcthy(7)"
+          ],
+          "top_folios": [
+            "f39r(6)",
+            "f43v(6)",
+            "f46r(6)",
+            "f18r(5)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f2r",
+              "line_id": "13",
+              "locus": "+P0",
+              "word": "chcthy",
+              "clause_snippet": "sho ykeey chey daiin chcthy"
+            },
+            {
+              "folio": "f2v",
+              "line_id": "3",
+              "locus": "+P0",
+              "word": "chcthy",
+              "clause_snippet": "otchy chor lshy chol chody chodain chcthy daiin"
+            }
+          ]
+        },
+        "STAGE3_PHARM_APOTHECARY": {
+          "tokens": 39,
+          "active_clinical_inflection_pct": 56.4,
+          "nominal_identifying_pct": 43.6,
+          "top_surface_forms": [
+            "qockhey(6)",
+            "qockhol(6)",
+            "qockhy(6)",
+            "ockhey(4)"
+          ],
+          "top_folios": [
+            "f102r2(5)",
+            "f89r2(4)",
+            "f88r(3)",
+            "f89v2(3)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f88r",
+              "line_id": "7",
+              "locus": "@P0",
+              "word": "qockhey",
+              "clause_snippet": "dorsheoy ctheol qockhey dory sheor sholfchor dal chcthol"
+            },
+            {
+              "folio": "f88r",
+              "line_id": "7",
+              "locus": "@P0",
+              "word": "chcthol",
+              "clause_snippet": "dorsheoy ctheol qockhey dory sheor sholfchor dal chcthol"
+            }
+          ]
+        },
+        "STAGE4_CLINICAL_BALNEO_STARRED": {
+          "tokens": 321,
+          "active_clinical_inflection_pct": 16.5,
+          "nominal_identifying_pct": 82.6,
+          "top_surface_forms": [
+            "chckhy(72)",
+            "chcthy(48)",
+            "shckhy(43)",
+            "chckhey(20)"
+          ],
+          "top_folios": [
+            "f111v(20)",
+            "f84r(19)",
+            "f116r(18)",
+            "f103r(17)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f58r",
+              "line_id": "36",
+              "locus": "+P0",
+              "word": "chcthy",
+              "clause_snippet": "skaiin shokal chockhy qoky chcthy ykeeshy shoekar"
+            },
+            {
+              "folio": "f58r",
+              "line_id": "39",
+              "locus": "+P0",
+              "word": "qockhy",
+              "clause_snippet": "dtshol dytal okar olol sheol qockhy qokaly salol dalam"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 5,
+      "stem": "eo",
+      "four_stage_geometric_mean": 88.87,
+      "total_4stage_tokens": 371,
+      "anatomical_coordinate": "ROOT_RHIZOME_SPECIMEN (@Lf+P_BOT)",
+      "astrological_season": "SUMMER_CANCER",
+      "clinical_route": "ORAL_DECOCTION_DOSING_DOMINANT ($I=S)",
+      "collocational_verb_operators": [
+        "chey(32)",
+        "cheey(30)",
+        "chedy(29)",
+        "chy(27)"
+      ],
+      "collocational_dose_quantifiers": [
+        "aiin(107)",
+        "otaiin(32)",
+        "ain(14)",
+        "oiin(13)"
+      ],
+      "english_empirical_dossier": "SPECIMEN *-eo-* [ROOT_RHIZOME_SPECIMEN (@Lf+P_BOT)]: (1) Harvested/governed under SUMMER_CANCER (f72r3(7), f72v1(7)); (2) Botanical monograph anchored on f31v(5), f87v(5), f90v1(5) as nominal forms sheo(17), cheo(16); (3) Compounded in Apothecary registers f89r2(9), f89v2(9) (cheo(14), cheos(6)); (4) Administered via ORAL_DECOCTION_DOSING_DOMINANT ($I=S) on f114v(13), f115v(10), f104v(9) as cheo(38), sheo(18) under operators [chey(32), cheey(30)] with dose quantifiers [aiin(107), otaiin(32)].",
+      "stage_progression": {
+        "STAGE1_ASTRO_ZODIAC": {
+          "tokens": 106,
+          "active_clinical_inflection_pct": 0.0,
+          "nominal_identifying_pct": 71.7,
+          "top_surface_forms": [
+            "oteos(19)",
+            "okeo(13)",
+            "oteo(11)",
+            "cheo(8)"
+          ],
+          "top_folios": [
+            "f72r3(7)",
+            "f72v1(7)",
+            "f67r1(6)",
+            "f70r1(6)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f67r1",
+              "line_id": "3",
+              "locus": "+P0",
+              "word": "cheeeeos",
+              "clause_snippet": "ycheo s o iim cheeeeos aiin okesoe ar am"
+            },
+            {
+              "folio": "f67r1",
+              "line_id": "6",
+              "locus": "+Cc",
+              "word": "ykeos",
+              "clause_snippet": "dair al cheol dal oekaiin sol daiin eetees saiin"
+            }
+          ]
+        },
+        "STAGE2_HERBAL_BOTANY": {
+          "tokens": 87,
+          "active_clinical_inflection_pct": 2.3,
+          "nominal_identifying_pct": 26.4,
+          "top_surface_forms": [
+            "sheo(17)",
+            "cheo(16)",
+            "cheos(13)",
+            "oteos(4)"
+          ],
+          "top_folios": [
+            "f31v(5)",
+            "f87v(5)",
+            "f90v1(5)",
+            "f4v(4)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f2v",
+              "line_id": "1",
+              "locus": "@P0",
+              "word": "cheo",
+              "clause_snippet": "kooiin cheo pchor otaiin odain chor dair shty"
+            },
+            {
+              "folio": "f4v",
+              "line_id": "2",
+              "locus": "+P0",
+              "word": "sheo",
+              "clause_snippet": "ol chey chy cthy shkchor sheo cheory choldy"
+            }
+          ]
+        },
+        "STAGE3_PHARM_APOTHECARY": {
+          "tokens": 55,
+          "active_clinical_inflection_pct": 1.8,
+          "nominal_identifying_pct": 40.0,
+          "top_surface_forms": [
+            "cheo(14)",
+            "cheos(6)",
+            "sheo(6)",
+            "okeo(4)"
+          ],
+          "top_folios": [
+            "f89r2(9)",
+            "f89v2(9)",
+            "f102r2(6)",
+            "f102v2(6)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f88r",
+              "line_id": "10",
+              "locus": "+P0",
+              "word": "cheos",
+              "clause_snippet": "qokeol cheol saiin cheos cheol doleeey or cheom cheojmam"
+            },
+            {
+              "folio": "f88r",
+              "line_id": "26",
+              "locus": "@P0",
+              "word": "sheoky",
+              "clause_snippet": "poeear sheoky olkeey cthol poldy s okoldy"
+            }
+          ]
+        },
+        "STAGE4_CLINICAL_BALNEO_STARRED": {
+          "tokens": 123,
+          "active_clinical_inflection_pct": 2.4,
+          "nominal_identifying_pct": 30.1,
+          "top_surface_forms": [
+            "cheo(38)",
+            "sheo(18)",
+            "cheos(13)",
+            "keeo(5)"
+          ],
+          "top_folios": [
+            "f114v(13)",
+            "f115v(10)",
+            "f104v(9)",
+            "f113r(9)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f58r",
+              "line_id": "7",
+              "locus": "+P0",
+              "word": "cheoly",
+              "clause_snippet": "saiin cholkeey dal shom sholteol ytalody otey cheoly o"
+            },
+            {
+              "folio": "f58r",
+              "line_id": "8",
+              "locus": "+P0",
+              "word": "yteochy",
+              "clause_snippet": "toleeshal oleeam dalor chy oteodchy yteochy otey kal dy"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "stem": "h",
+      "four_stage_geometric_mean": 71.73,
+      "total_4stage_tokens": 554,
+      "anatomical_coordinate": "WHOLE_HERB_AXIS (BALANCED)",
+      "astrological_season": "SPRING_ARIES",
+      "clinical_route": "DUAL_APOTHECARY_AND_CLINICAL ($I=P+B+S)",
+      "collocational_verb_operators": [
+        "chy(35)",
+        "chey(34)",
+        "shy(22)",
+        "shey(22)"
+      ],
+      "collocational_dose_quantifiers": [
+        "aiin(41)",
+        "okaiin(26)",
+        "chaiin(17)",
+        "qokaiin(17)"
+      ],
+      "english_empirical_dossier": "SPECIMEN *-h-* [WHOLE_HERB_AXIS (BALANCED)]: (1) Harvested/governed under SPRING_ARIES (f70r2(3), f69r(2)); (2) Botanical monograph anchored on f44v(14), f6r(11), f6v(11) as nominal forms cthy(91), cthol(46); (3) Compounded in Apothecary registers f99r(12), f89v1(9) (ckhey(11), cthey(10)); (4) Administered via DUAL_APOTHECARY_AND_CLINICAL ($I=P+B+S) on f116r(7), f113v(4), f58r(3) as cthedy(8), cthey(6) under operators [chy(35), chey(34)] with dose quantifiers [aiin(41), okaiin(26)].",
+      "stage_progression": {
+        "STAGE1_ASTRO_ZODIAC": {
+          "tokens": 17,
+          "active_clinical_inflection_pct": 0.0,
+          "nominal_identifying_pct": 100.0,
+          "top_surface_forms": [
+            "cthey(3)",
+            "cthy(3)",
+            "cthody(2)",
+            "cpheey(1)"
+          ],
+          "top_folios": [
+            "f70r2(3)",
+            "f69r(2)",
+            "f67r1(1)",
+            "f67r2(1)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f67r1",
+              "line_id": "4",
+              "locus": "+P0",
+              "word": "cthey",
+              "clause_snippet": "cheodaiin chaekeey s ar air s o ar cheey"
+            },
+            {
+              "folio": "f67r2",
+              "line_id": "66",
+              "locus": "&L0",
+              "word": "cpheey",
+              "clause_snippet": "cpheey"
+            }
+          ]
+        },
+        "STAGE2_HERBAL_BOTANY": {
+          "tokens": 414,
+          "active_clinical_inflection_pct": 8.2,
+          "nominal_identifying_pct": 87.9,
+          "top_surface_forms": [
+            "cthy(91)",
+            "cthol(46)",
+            "cthor(39)",
+            "cthey(31)"
+          ],
+          "top_folios": [
+            "f44v(14)",
+            "f6r(11)",
+            "f6v(11)",
+            "f24r(10)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f1v",
+              "line_id": "1",
+              "locus": "@P0",
+              "word": "cfhar",
+              "clause_snippet": "kchsy chydaiin ol o l tchey char cfhar am"
+            },
+            {
+              "folio": "f1v",
+              "line_id": "3",
+              "locus": "+P0",
+              "word": "ckhy",
+              "clause_snippet": "da ckhy ckhockhy shy dksheey cthy kotchody dal"
+            }
+          ]
+        },
+        "STAGE3_PHARM_APOTHECARY": {
+          "tokens": 57,
+          "active_clinical_inflection_pct": 1.8,
+          "nominal_identifying_pct": 98.2,
+          "top_surface_forms": [
+            "ckhey(11)",
+            "cthey(10)",
+            "cthol(5)",
+            "ctheey(5)"
+          ],
+          "top_folios": [
+            "f99r(12)",
+            "f89v1(9)",
+            "f101v(9)",
+            "f102r2(5)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f88r",
+              "line_id": "18",
+              "locus": "@P0",
+              "word": "cphol",
+              "clause_snippet": "koaiphhy cphol orchor pcheoly otchol oldy salsaly"
+            },
+            {
+              "folio": "f88r",
+              "line_id": "26",
+              "locus": "@P0",
+              "word": "cthol",
+              "clause_snippet": "poeear sheoky olkeey cthol poldy s okoldy"
+            }
+          ]
+        },
+        "STAGE4_CLINICAL_BALNEO_STARRED": {
+          "tokens": 66,
+          "active_clinical_inflection_pct": 24.2,
+          "nominal_identifying_pct": 72.7,
+          "top_surface_forms": [
+            "cthedy(8)",
+            "cthey(6)",
+            "cphedy(4)",
+            "ckhy(3)"
+          ],
+          "top_folios": [
+            "f116r(7)",
+            "f113v(4)",
+            "f58r(3)",
+            "f58v(3)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f58r",
+              "line_id": "2",
+              "locus": "+P0",
+              "word": "ckhy",
+              "clause_snippet": "dshodal or ckhy olchear char tal ytal ytar olchokal"
+            },
+            {
+              "folio": "f58r",
+              "line_id": "35",
+              "locus": "+P0",
+              "word": "ckhol",
+              "clause_snippet": "dtosr sheol qokor sharal ckhol shol ar aiin sheoctham"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 7,
+      "stem": "ok",
+      "four_stage_geometric_mean": 65.48,
+      "total_4stage_tokens": 325,
+      "anatomical_coordinate": "ROOT_RHIZOME_SPECIMEN (@Lf+P_BOT)",
+      "astrological_season": "SPRING_TAURUS",
+      "clinical_route": "ORAL_DECOCTION_DOSING_DOMINANT ($I=S)",
+      "collocational_verb_operators": [
+        "chedy(28)",
+        "chey(23)",
+        "shedy(23)",
+        "qokeey(23)"
+      ],
+      "collocational_dose_quantifiers": [
+        "aiin(58)",
+        "otaiin(19)",
+        "okaiin(16)",
+        "qokaiin(12)"
+      ],
+      "english_empirical_dossier": "SPECIMEN *-ok-* [ROOT_RHIZOME_SPECIMEN (@Lf+P_BOT)]: (1) Harvested/governed under SPRING_TAURUS (f70r2(8), f67r1(4)); (2) Botanical monograph anchored on f42r(8), f49v(8), f56r(8) as nominal forms chotchy(12), chokchy(12); (3) Compounded in Apothecary registers f99v(4), f88v(3) (chokol(2), ok(2)); (4) Administered via ORAL_DECOCTION_DOSING_DOMINANT ($I=S) on f113r(10), f103r(9), f115v(8) as ot(8), chotar(7) under operators [chedy(28), chey(23)] with dose quantifiers [aiin(58), otaiin(19)].",
+      "stage_progression": {
+        "STAGE1_ASTRO_ZODIAC": {
+          "tokens": 63,
+          "active_clinical_inflection_pct": 14.3,
+          "nominal_identifying_pct": 81.0,
+          "top_surface_forms": [
+            "choteey(6)",
+            "chotey(5)",
+            "ot(4)",
+            "chotal(4)"
+          ],
+          "top_folios": [
+            "f70r2(8)",
+            "f67r1(4)",
+            "f68r3(4)",
+            "f68v1(4)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f67r1",
+              "line_id": "5",
+              "locus": "@Cc",
+              "word": "ot",
+              "clause_snippet": "soairol shdy chokeody ykeedal ol oteodaiin choikhedy ot chteokaiin"
+            },
+            {
+              "folio": "f67r1",
+              "line_id": "5",
+              "locus": "@Cc",
+              "word": "choteedy",
+              "clause_snippet": "soairol shdy chokeody ykeedal ol oteodaiin choikhedy ot chteokaiin"
+            }
+          ]
+        },
+        "STAGE2_HERBAL_BOTANY": {
+          "tokens": 128,
+          "active_clinical_inflection_pct": 16.4,
+          "nominal_identifying_pct": 68.0,
+          "top_surface_forms": [
+            "chotchy(12)",
+            "chokchy(12)",
+            "chokaiin(7)",
+            "chotaiin(6)"
+          ],
+          "top_folios": [
+            "f42r(8)",
+            "f49v(8)",
+            "f56r(8)",
+            "f93r(6)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f1v",
+              "line_id": "4",
+              "locus": "+P0",
+              "word": "chokody",
+              "clause_snippet": "dol chokeo dair dam sochey chokody"
+            },
+            {
+              "folio": "f2r",
+              "line_id": "4",
+              "locus": "+P0",
+              "word": "chokaiin",
+              "clause_snippet": "coaiidy chtod dy cphy dals chokaiin d"
+            }
+          ]
+        },
+        "STAGE3_PHARM_APOTHECARY": {
+          "tokens": 20,
+          "active_clinical_inflection_pct": 10.0,
+          "nominal_identifying_pct": 75.0,
+          "top_surface_forms": [
+            "chokol(2)",
+            "ok(2)",
+            "otokol(1)",
+            "choetam(1)"
+          ],
+          "top_folios": [
+            "f99v(4)",
+            "f88v(3)",
+            "f101r(3)",
+            "f89v2(2)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f88r",
+              "line_id": "19",
+              "locus": "+P0",
+              "word": "chokol",
+              "clause_snippet": "dchey chokol daiin qoekol qoekol qockhol okol cheol"
+            },
+            {
+              "folio": "f88v",
+              "line_id": "5",
+              "locus": "@Lf",
+              "word": "otokol",
+              "clause_snippet": "otokol"
+            }
+          ]
+        },
+        "STAGE4_CLINICAL_BALNEO_STARRED": {
+          "tokens": 114,
+          "active_clinical_inflection_pct": 37.7,
+          "nominal_identifying_pct": 57.9,
+          "top_surface_forms": [
+            "ot(8)",
+            "chotar(7)",
+            "chokaiin(6)",
+            "chokain(6)"
+          ],
+          "top_folios": [
+            "f113r(10)",
+            "f103r(9)",
+            "f115v(8)",
+            "f58r(6)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f58r",
+              "line_id": "22",
+              "locus": "+P0",
+              "word": "chotam",
+              "clause_snippet": "dcholy ytar chol dal qoaiir chalolky osal chotam chal"
+            },
+            {
+              "folio": "f58r",
+              "line_id": "23",
+              "locus": "+P0",
+              "word": "chotar",
+              "clause_snippet": "shol aoleedy chotar okeal sheody qokalchar otal choky sar"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 8,
+      "stem": "chy",
+      "four_stage_geometric_mean": 61.73,
+      "total_4stage_tokens": 400,
+      "anatomical_coordinate": "WHOLE_HERB_AXIS (BALANCED)",
+      "astrological_season": "SPRING_ARIES",
+      "clinical_route": "DUAL_APOTHECARY_AND_CLINICAL ($I=P+B+S)",
+      "collocational_verb_operators": [
+        "chey(37)",
+        "shy(26)",
+        "chedy(25)",
+        "chy(23)"
+      ],
+      "collocational_dose_quantifiers": [
+        "aiin(44)",
+        "qokain(12)",
+        "qokaiin(11)",
+        "chaiin(10)"
+      ],
+      "english_empirical_dossier": "SPECIMEN *-chy-* [WHOLE_HERB_AXIS (BALANCED)]: (1) Harvested/governed under SPRING_ARIES (f68v2(5), f67r2(4)); (2) Botanical monograph anchored on f13v(9), f27r(9), f16r(8) as nominal forms chy(108), otchy(31); (3) Compounded in Apothecary registers f101r(3), f89v2(2) (chy(5), chckhhhy(1)); (4) Administered via DUAL_APOTHECARY_AND_CLINICAL ($I=P+B+S) on f58r(4), f111r(4), f111v(4) as chy(24), lchy(8) under operators [chey(37), shy(26)] with dose quantifiers [aiin(44), qokain(12)].",
+      "stage_progression": {
+        "STAGE1_ASTRO_ZODIAC": {
+          "tokens": 49,
+          "active_clinical_inflection_pct": 0.0,
+          "nominal_identifying_pct": 95.9,
+          "top_surface_forms": [
+            "chy(18)",
+            "okchy(8)",
+            "dchy(4)",
+            "otchy(3)"
+          ],
+          "top_folios": [
+            "f68v2(5)",
+            "f67r2(4)",
+            "f69r(4)",
+            "f70r1(4)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f67r1",
+              "line_id": "6",
+              "locus": "+Cc",
+              "word": "chy",
+              "clause_snippet": "dair al cheol dal oekaiin sol daiin eetees saiin"
+            },
+            {
+              "folio": "f67r2",
+              "line_id": "5",
+              "locus": "&L0",
+              "word": "okchy",
+              "clause_snippet": "ykeody okchy"
+            }
+          ]
+        },
+        "STAGE2_HERBAL_BOTANY": {
+          "tokens": 260,
+          "active_clinical_inflection_pct": 1.9,
+          "nominal_identifying_pct": 98.5,
+          "top_surface_forms": [
+            "chy(108)",
+            "otchy(31)",
+            "dchy(24)",
+            "ykchy(19)"
+          ],
+          "top_folios": [
+            "f13v(9)",
+            "f27r(9)",
+            "f16r(8)",
+            "f16v(7)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f1v",
+              "line_id": "2",
+              "locus": "+P0",
+              "word": "ochy",
+              "clause_snippet": "yteey char or ochy dcho lkody okodar chody"
+            },
+            {
+              "folio": "f1v",
+              "line_id": "6",
+              "locus": "+P0",
+              "word": "chy",
+              "clause_snippet": "choky chol ctho l shol okal dolchey chodo lol"
+            }
+          ]
+        },
+        "STAGE3_PHARM_APOTHECARY": {
+          "tokens": 15,
+          "active_clinical_inflection_pct": 0.0,
+          "nominal_identifying_pct": 93.3,
+          "top_surface_forms": [
+            "chy(5)",
+            "chckhhhy(1)",
+            "ochy(1)",
+            "ykchy(1)"
+          ],
+          "top_folios": [
+            "f101r(3)",
+            "f89v2(2)",
+            "f102v2(2)",
+            "f88r(1)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f88r",
+              "line_id": "20",
+              "locus": "+P0",
+              "word": "chy",
+              "clause_snippet": "dsheol qokeey s chy s aiin chor oteor aiin"
+            },
+            {
+              "folio": "f89r1",
+              "line_id": "16",
+              "locus": "+P0",
+              "word": "chckhhhy",
+              "clause_snippet": "om sheey qokey l daiin dalchom chckhhhy chol cheos"
+            }
+          ]
+        },
+        "STAGE4_CLINICAL_BALNEO_STARRED": {
+          "tokens": 76,
+          "active_clinical_inflection_pct": 22.4,
+          "nominal_identifying_pct": 100.0,
+          "top_surface_forms": [
+            "chy(24)",
+            "lchy(8)",
+            "otchy(7)",
+            "olchy(6)"
+          ],
+          "top_folios": [
+            "f58r(4)",
+            "f111r(4)",
+            "f111v(4)",
+            "f113r(4)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f58r",
+              "line_id": "3",
+              "locus": "+P0",
+              "word": "otchy",
+              "clause_snippet": "ykechod dalaldam ytam choty otchy otaly shoty s"
+            },
+            {
+              "folio": "f58r",
+              "line_id": "8",
+              "locus": "+P0",
+              "word": "chy",
+              "clause_snippet": "toleeshal oleeam dalor chy oteodchy yteochy otey kal dy"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 9,
+      "stem": "kch",
+      "four_stage_geometric_mean": 61.59,
+      "total_4stage_tokens": 537,
+      "anatomical_coordinate": "LOWER_ROOT_STOCK (P_BOT)",
+      "astrological_season": "SPRING_ARIES",
+      "clinical_route": "ORAL_DECOCTION_DOSING_DOMINANT ($I=S)",
+      "collocational_verb_operators": [
+        "chedy(48)",
+        "shedy(43)",
+        "chey(35)",
+        "chy(33)"
+      ],
+      "collocational_dose_quantifiers": [
+        "aiin(48)",
+        "okaiin(21)",
+        "qokaiin(20)",
+        "qokain(19)"
+      ],
+      "english_empirical_dossier": "SPECIMEN *-kch-* [LOWER_ROOT_STOCK (P_BOT)]: (1) Harvested/governed under SPRING_ARIES (f86v3(13), f86v4(3)); (2) Botanical monograph anchored on f18r(8), f50r(8), f56r(8) as nominal forms kchol(21), kchor(18); (3) Compounded in Apothecary registers f101r(4), f88r(1) (kchor(1), qokchol(1)); (4) Administered via ORAL_DECOCTION_DOSING_DOMINANT ($I=S) on f115r(26), f104v(17), f113r(16) as qokchedy(36), qokchdy(25) under operators [chedy(48), shedy(43)] with dose quantifiers [aiin(48), okaiin(21)].",
+      "stage_progression": {
+        "STAGE1_ASTRO_ZODIAC": {
+          "tokens": 29,
+          "active_clinical_inflection_pct": 55.2,
+          "nominal_identifying_pct": 41.4,
+          "top_surface_forms": [
+            "tchedy(4)",
+            "qokchdy(3)",
+            "tchol(3)",
+            "qotchdy(3)"
+          ],
+          "top_folios": [
+            "f86v3(13)",
+            "f86v4(3)",
+            "f68r3(2)",
+            "f68v3(2)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f57v",
+              "line_id": "4",
+              "locus": "+Cc",
+              "word": "tchor",
+              "clause_snippet": "daiin otey ofcheeeey shes o d okeeod l o"
+            },
+            {
+              "folio": "f67r2",
+              "line_id": "7",
+              "locus": "&L0",
+              "word": "kchey",
+              "clause_snippet": "ykchy kchey ykchys"
+            }
+          ]
+        },
+        "STAGE2_HERBAL_BOTANY": {
+          "tokens": 272,
+          "active_clinical_inflection_pct": 44.9,
+          "nominal_identifying_pct": 52.9,
+          "top_surface_forms": [
+            "kchol(21)",
+            "kchor(18)",
+            "tchor(18)",
+            "qokchdy(15)"
+          ],
+          "top_folios": [
+            "f18r(8)",
+            "f50r(8)",
+            "f56r(8)",
+            "f56v(8)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f1v",
+              "line_id": "1",
+              "locus": "@P0",
+              "word": "tchey",
+              "clause_snippet": "kchsy chydaiin ol o l tchey char cfhar am"
+            },
+            {
+              "folio": "f1v",
+              "line_id": "3",
+              "locus": "+P0",
+              "word": "kotchody",
+              "clause_snippet": "da ckhy ckhockhy shy dksheey cthy kotchody dal"
+            }
+          ]
+        },
+        "STAGE3_PHARM_APOTHECARY": {
+          "tokens": 8,
+          "active_clinical_inflection_pct": 25.0,
+          "nominal_identifying_pct": 75.0,
+          "top_surface_forms": [
+            "kchor(1)",
+            "qokchol(1)",
+            "kchol(1)",
+            "tchey(1)"
+          ],
+          "top_folios": [
+            "f101r(4)",
+            "f88r(1)",
+            "f99v(1)",
+            "f101v(1)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f88r",
+              "line_id": "29",
+              "locus": "+P0",
+              "word": "kchor",
+              "clause_snippet": "kor chey qokol cheol chody qokol kchor chol dal"
+            },
+            {
+              "folio": "f99v",
+              "line_id": "11",
+              "locus": "+P0",
+              "word": "qokchol",
+              "clause_snippet": "okoiin choty qokchol qokeol okoldy qkholdy toly daiin"
+            }
+          ]
+        },
+        "STAGE4_CLINICAL_BALNEO_STARRED": {
+          "tokens": 228,
+          "active_clinical_inflection_pct": 80.3,
+          "nominal_identifying_pct": 22.4,
+          "top_surface_forms": [
+            "qokchedy(36)",
+            "qokchdy(25)",
+            "tchedy(21)",
+            "qotchedy(21)"
+          ],
+          "top_folios": [
+            "f115r(26)",
+            "f104v(17)",
+            "f113r(16)",
+            "f115v(14)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f58v",
+              "line_id": "11",
+              "locus": "+P0",
+              "word": "tchol",
+              "clause_snippet": "tchol shol tor qokair or y ykaiin dory okaiir"
+            },
+            {
+              "folio": "f58v",
+              "line_id": "27",
+              "locus": "+P0",
+              "word": "qokchedy",
+              "clause_snippet": "qokar s aiin al y qokchedy qoekaly odaiin qokar"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "stem": "ody",
+      "four_stage_geometric_mean": 54.78,
+      "total_4stage_tokens": 248,
+      "anatomical_coordinate": "WHOLE_HERB_AXIS (BALANCED)",
+      "astrological_season": "SPRING_ARIES",
+      "clinical_route": "DUAL_APOTHECARY_AND_CLINICAL ($I=P+B+S)",
+      "collocational_verb_operators": [
+        "chey(22)",
+        "chedy(16)",
+        "shedy(14)",
+        "cheey(11)"
+      ],
+      "collocational_dose_quantifiers": [
+        "aiin(43)",
+        "okaiin(15)",
+        "qokaiin(9)",
+        "odaiin(7)"
+      ],
+      "english_empirical_dossier": "SPECIMEN *-ody-* [WHOLE_HERB_AXIS (BALANCED)]: (1) Harvested/governed under SPRING_ARIES (fRos(13), f69v(4)); (2) Botanical monograph anchored on f93r(6), f1v(5), f39v(4) as nominal forms chody(46), shody(29); (3) Compounded in Apothecary registers f88v(3), f89r2(3) (chody(12), okody(4)); (4) Administered via DUAL_APOTHECARY_AND_CLINICAL ($I=P+B+S) on f106v(9), f112r(6), f107v(5) as chody(23), shody(12) under operators [chey(22), chedy(16)] with dose quantifiers [aiin(43), okaiin(15)].",
+      "stage_progression": {
+        "STAGE1_ASTRO_ZODIAC": {
+          "tokens": 46,
+          "active_clinical_inflection_pct": 8.7,
+          "nominal_identifying_pct": 97.8,
+          "top_surface_forms": [
+            "otody(13)",
+            "okody(11)",
+            "chody(6)",
+            "keody(3)"
+          ],
+          "top_folios": [
+            "fRos(13)",
+            "f69v(4)",
+            "f85r2(4)",
+            "f68v3(3)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f67r2",
+              "line_id": "29",
+              "locus": "@Pb",
+              "word": "ytody",
+              "clause_snippet": "ytody saiin"
+            },
+            {
+              "folio": "f68v3",
+              "line_id": "5",
+              "locus": "@Cc",
+              "word": "chody",
+              "clause_snippet": "oky otol ees choty chedasr otchdy s ar oekaiin"
+            }
+          ]
+        },
+        "STAGE2_HERBAL_BOTANY": {
+          "tokens": 111,
+          "active_clinical_inflection_pct": 2.7,
+          "nominal_identifying_pct": 99.1,
+          "top_surface_forms": [
+            "chody(46)",
+            "shody(29)",
+            "keody(9)",
+            "otody(6)"
+          ],
+          "top_folios": [
+            "f93r(6)",
+            "f1v(5)",
+            "f39v(4)",
+            "f66v(4)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f1v",
+              "line_id": "2",
+              "locus": "+P0",
+              "word": "lkody",
+              "clause_snippet": "yteey char or ochy dcho lkody okodar chody"
+            },
+            {
+              "folio": "f1v",
+              "line_id": "2",
+              "locus": "+P0",
+              "word": "chody",
+              "clause_snippet": "yteey char or ochy dcho lkody okodar chody"
+            }
+          ]
+        },
+        "STAGE3_PHARM_APOTHECARY": {
+          "tokens": 28,
+          "active_clinical_inflection_pct": 0.0,
+          "nominal_identifying_pct": 100.0,
+          "top_surface_forms": [
+            "chody(12)",
+            "okody(4)",
+            "shody(3)",
+            "arody(2)"
+          ],
+          "top_folios": [
+            "f88v(3)",
+            "f89r2(3)",
+            "f89v2(3)",
+            "f99r(3)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f88r",
+              "line_id": "29",
+              "locus": "+P0",
+              "word": "chody",
+              "clause_snippet": "kor chey qokol cheol chody qokol kchor chol dal"
+            },
+            {
+              "folio": "f88v",
+              "line_id": "4",
+              "locus": "@Lf",
+              "word": "arody",
+              "clause_snippet": "otar arody"
+            }
+          ]
+        },
+        "STAGE4_CLINICAL_BALNEO_STARRED": {
+          "tokens": 63,
+          "active_clinical_inflection_pct": 7.9,
+          "nominal_identifying_pct": 98.4,
+          "top_surface_forms": [
+            "chody(23)",
+            "shody(12)",
+            "arody(7)",
+            "otody(5)"
+          ],
+          "top_folios": [
+            "f106v(9)",
+            "f112r(6)",
+            "f107v(5)",
+            "f115r(5)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f58r",
+              "line_id": "30",
+              "locus": "+P0",
+              "word": "chody",
+              "clause_snippet": "ytor ar alom qokalor chdy dair chody cheol okolchy"
+            },
+            {
+              "folio": "f75r",
+              "line_id": "27",
+              "locus": "+P0",
+              "word": "otody",
+              "clause_snippet": "pdalshor shtol qoty pshar shedy okaldy dar otar otody"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 11,
+      "stem": "ek",
+      "four_stage_geometric_mean": 51.59,
+      "total_4stage_tokens": 234,
+      "anatomical_coordinate": "ROOT_RHIZOME_SPECIMEN (@Lf+P_BOT)",
+      "astrological_season": "SPRING_ARIES",
+      "clinical_route": "DUAL_APOTHECARY_AND_CLINICAL ($I=P+B+S)",
+      "collocational_verb_operators": [
+        "chedy(40)",
+        "shedy(31)",
+        "qokedy(25)",
+        "chey(20)"
+      ],
+      "collocational_dose_quantifiers": [
+        "aiin(43)",
+        "qokain(15)",
+        "otaiin(14)",
+        "okaiin(13)"
+      ],
+      "english_empirical_dossier": "SPECIMEN *-ek-* [ROOT_RHIZOME_SPECIMEN (@Lf+P_BOT)]: (1) Harvested/governed under SPRING_ARIES (f68v3(6), fRos(6)); (2) Botanical monograph anchored on f41r(6), f95r1(6), f33r(4) as nominal forms chekedy(5), chekaiin(5); (3) Compounded in Apothecary registers f88r(4), f89v1(4) (chekeey(3), qoekol(2)); (4) Administered via DUAL_APOTHECARY_AND_CLINICAL ($I=P+B+S) on f76v(6), f81v(6), f111v(6) as shek(8), chetain(5) under operators [chedy(40), shedy(31)] with dose quantifiers [aiin(43), qokain(15)].",
+      "stage_progression": {
+        "STAGE1_ASTRO_ZODIAC": {
+          "tokens": 53,
+          "active_clinical_inflection_pct": 28.3,
+          "nominal_identifying_pct": 77.4,
+          "top_surface_forms": [
+            "oekaiin(3)",
+            "chekchy(3)",
+            "chek(3)",
+            "chetey(3)"
+          ],
+          "top_folios": [
+            "f68v3(6)",
+            "fRos(6)",
+            "f67r1(5)",
+            "f68v2(5)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f67r1",
+              "line_id": "2",
+              "locus": "+P0",
+              "word": "qoekeey",
+              "clause_snippet": "daiir okeody qoekeey sar oeteody oteey keey keo keeodal"
+            },
+            {
+              "folio": "f67r1",
+              "line_id": "4",
+              "locus": "+P0",
+              "word": "chaekeey",
+              "clause_snippet": "cheodaiin chaekeey s ar air s o ar cheey"
+            }
+          ]
+        },
+        "STAGE2_HERBAL_BOTANY": {
+          "tokens": 74,
+          "active_clinical_inflection_pct": 35.1,
+          "nominal_identifying_pct": 50.0,
+          "top_surface_forms": [
+            "chekedy(5)",
+            "chekaiin(5)",
+            "chekal(5)",
+            "chekar(4)"
+          ],
+          "top_folios": [
+            "f41r(6)",
+            "f95r1(6)",
+            "f33r(4)",
+            "f34r(4)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f3r",
+              "line_id": "16",
+              "locus": "+P0",
+              "word": "ekshy",
+              "clause_snippet": "oteol chol s cheol ekshy qokeom qokol daiin soleeg"
+            },
+            {
+              "folio": "f8v",
+              "line_id": "5",
+              "locus": "+P0",
+              "word": "etaiin",
+              "clause_snippet": "chol chol dar otchar etaiin cthol dar"
+            }
+          ]
+        },
+        "STAGE3_PHARM_APOTHECARY": {
+          "tokens": 21,
+          "active_clinical_inflection_pct": 33.3,
+          "nominal_identifying_pct": 71.4,
+          "top_surface_forms": [
+            "chekeey(3)",
+            "qoekol(2)",
+            "chekal(2)",
+            "shekor(1)"
+          ],
+          "top_folios": [
+            "f88r(4)",
+            "f89v1(4)",
+            "f102v2(3)",
+            "f99v(2)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f88r",
+              "line_id": "8",
+              "locus": "+P0",
+              "word": "shekor",
+              "clause_snippet": "rsal sheom keol chear shekor qokor daiin sar s"
+            },
+            {
+              "folio": "f88r",
+              "line_id": "19",
+              "locus": "+P0",
+              "word": "qoekol",
+              "clause_snippet": "dchey chokol daiin qoekol qoekol qockhol okol cheol"
+            }
+          ]
+        },
+        "STAGE4_CLINICAL_BALNEO_STARRED": {
+          "tokens": 86,
+          "active_clinical_inflection_pct": 31.4,
+          "nominal_identifying_pct": 43.0,
+          "top_surface_forms": [
+            "shek(8)",
+            "chetain(5)",
+            "chekar(4)",
+            "chekal(4)"
+          ],
+          "top_folios": [
+            "f76v(6)",
+            "f81v(6)",
+            "f111v(6)",
+            "f84r(5)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f58r",
+              "line_id": "14",
+              "locus": "+P0",
+              "word": "chekaiin",
+              "clause_snippet": "sharam okair chekaiin ytchaly dalchal ykal okalal oly chal"
+            },
+            {
+              "folio": "f58r",
+              "line_id": "31",
+              "locus": "+P0",
+              "word": "ekar",
+              "clause_snippet": "odshchol taiin okal or chol ol ekar otarchol chol"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 12,
+      "stem": "od",
+      "four_stage_geometric_mean": 50.61,
+      "total_4stage_tokens": 252,
+      "anatomical_coordinate": "WHOLE_HERB_AXIS (BALANCED)",
+      "astrological_season": "SPRING_PISCES",
+      "clinical_route": "ORAL_DECOCTION_DOSING_DOMINANT ($I=S)",
+      "collocational_verb_operators": [
+        "chedy(19)",
+        "shedy(13)",
+        "chy(12)",
+        "chey(12)"
+      ],
+      "collocational_dose_quantifiers": [
+        "aiin(40)",
+        "qokaiin(14)",
+        "otaiin(11)",
+        "okaiin(8)"
+      ],
+      "english_empirical_dossier": "SPECIMEN *-od-* [WHOLE_HERB_AXIS (BALANCED)]: (1) Harvested/governed under SPRING_PISCES (fRos(15), f67r2(4)); (2) Botanical monograph anchored on f93r(9), f51v(4), f53r(4) as nominal forms chodaiin(24), shodaiin(15); (3) Compounded in Apothecary registers f89v2(3), f89r1(2) (chodaiin(5), teodal(1)); (4) Administered via ORAL_DECOCTION_DOSING_DOMINANT ($I=S) on f114r(9), f104v(7), f106v(6) as chodaiin(13), shod(5) under operators [chedy(19), shedy(13)] with dose quantifiers [aiin(40), qokaiin(14)].",
+      "stage_progression": {
+        "STAGE1_ASTRO_ZODIAC": {
+          "tokens": 48,
+          "active_clinical_inflection_pct": 18.8,
+          "nominal_identifying_pct": 75.0,
+          "top_surface_forms": [
+            "otodar(5)",
+            "okodar(4)",
+            "otodaiin(3)",
+            "shodaiin(3)"
+          ],
+          "top_folios": [
+            "fRos(15)",
+            "f67r2(4)",
+            "f85r2(4)",
+            "f86v3(3)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f57v",
+              "line_id": "5",
+              "locus": "+Cc",
+              "word": "teodar",
+              "clause_snippet": "o va l r m aiin d c f"
+            },
+            {
+              "folio": "f57v",
+              "line_id": "5",
+              "locus": "+Cc",
+              "word": "otodal",
+              "clause_snippet": "o va l r m aiin d c f"
+            }
+          ]
+        },
+        "STAGE2_HERBAL_BOTANY": {
+          "tokens": 120,
+          "active_clinical_inflection_pct": 34.2,
+          "nominal_identifying_pct": 35.0,
+          "top_surface_forms": [
+            "chodaiin(24)",
+            "shodaiin(15)",
+            "chodar(7)",
+            "chod(6)"
+          ],
+          "top_folios": [
+            "f93r(9)",
+            "f51v(4)",
+            "f53r(4)",
+            "f53v(4)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f1v",
+              "line_id": "2",
+              "locus": "+P0",
+              "word": "okodar",
+              "clause_snippet": "yteey char or ochy dcho lkody okodar chody"
+            },
+            {
+              "folio": "f1v",
+              "line_id": "10",
+              "locus": "+P0",
+              "word": "chodar",
+              "clause_snippet": "taor chotchey dal chody schody pol chodar"
+            }
+          ]
+        },
+        "STAGE3_PHARM_APOTHECARY": {
+          "tokens": 17,
+          "active_clinical_inflection_pct": 47.1,
+          "nominal_identifying_pct": 47.1,
+          "top_surface_forms": [
+            "chodaiin(5)",
+            "teodal(1)",
+            "sodar(1)",
+            "chodor(1)"
+          ],
+          "top_folios": [
+            "f89v2(3)",
+            "f89r1(2)",
+            "f89v1(2)",
+            "f101v(2)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f88v",
+              "line_id": "6",
+              "locus": "@P0",
+              "word": "teodal",
+              "clause_snippet": "teodal lkeo cheor roshckhy sorshy aiin cheokal saldaiin"
+            },
+            {
+              "folio": "f89r1",
+              "line_id": "7",
+              "locus": "+P0",
+              "word": "chodaiin",
+              "clause_snippet": "dshody qocthy chockhy dal chedy qokeody daldaiin chodaiin dal"
+            }
+          ]
+        },
+        "STAGE4_CLINICAL_BALNEO_STARRED": {
+          "tokens": 67,
+          "active_clinical_inflection_pct": 43.3,
+          "nominal_identifying_pct": 34.3,
+          "top_surface_forms": [
+            "chodaiin(13)",
+            "shod(5)",
+            "shodaiin(5)",
+            "chodain(4)"
+          ],
+          "top_folios": [
+            "f114r(9)",
+            "f104v(7)",
+            "f106v(6)",
+            "f115v(6)"
+          ],
+          "sample_attestations": [
+            {
+              "folio": "f58v",
+              "line_id": "11",
+              "locus": "+P0",
+              "word": "chodaiin",
+              "clause_snippet": "tchol shol tor qokair or y ykaiin dory okaiir"
+            },
+            {
+              "folio": "f58v",
+              "line_id": "17",
+              "locus": "+P0",
+              "word": "chodol",
+              "clause_snippet": "daiin alal dal qokar otal chodol qokeal cheol chos"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

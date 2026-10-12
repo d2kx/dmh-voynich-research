@@ -1139,3 +1139,32 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Key Breakthroughs**:
   1. **Synthesizes the 10-Zone Rosettes Map (`fRos`) & `f66r <-> fRos <-> Quire 20` Triad Solver (`Attack 133`), the `842`-Stem Cross-Section Canonical Root Dictionary (`Attack 134`), and the Universal Intra-Folio Discourse Architecture (`Attack 135`)**.
 
+---
+
+## 137. Attack 137 (`Phase 148`): 5-Modality Empirical Semantic-Feature Grounding Matrix of the Top-150 Open-Class Botanical & Clinical Stems ($z = +3.61, +3.57, +3.40$)
+- **Script & Data**: [`tools/attack137_multimodal_empirical_semantic_grounding_matrix.py`](../tools/attack137_multimodal_empirical_semantic_grounding_matrix.py) $\to$ [`data/attack137_multimodal_empirical_semantic_grounding_matrix.json`](../data/attack137_multimodal_empirical_semantic_grounding_matrix.json)
+- **Key Breakthroughs**:
+  1. **Grounds the Top-150 Open-Class Stems Across 5 Physical/Diagrammatic Modalities (`37` `UPPER_CANOPY_FLOWER_LEAF P_TOP`, `29` `LOWER_ROOT_STOCK P_BOT`, `21` `ROOT_RHIZOME_SPECIMEN @Lf+P_BOT`, `63` `WHOLE_HERB_AXIS`) and Proves 3 Cross-Modality Predictive Laws (`Herbal-B -> B/(B+P)` $z = +3.61$; `Herbal-A -> P/(P+B+S)` $z = +3.57$; `Processual (qo% + -edy%) -> (B+S)/Total` $z = +3.40$)**.
+
+---
+
+## 138. Attack 138 (`Phase 149`): The Clause Valency & Verb–Object–Dose Collocational Subcategorization Lexicon Across `4,424` Multi-Word Clauses ($z = +6.10$)
+- **Script & Data**: [`tools/attack138_clause_valency_and_verb_object_dose_collocations.py`](../tools/attack138_clause_valency_and_verb_object_dose_collocations.py) $\to$ [`data/attack138_clause_valency_and_verb_object_dose_collocations.json`](../data/attack138_clause_valency_and_verb_object_dose_collocations.json)
+- **Key Breakthroughs**:
+  1. **Proves `81.62%` Verb Coverage, `80.65%` `Verb + Object` (`V+N`) Coverage, and `52.85%` (`2,338` Clauses) Complete Tripartite `[Verb + Ingredient/Object + Dose]` (`V+N+Q`) Frame Coverage, Plus Within-Section (`$I, $L`) Verb–Argument Lexical Subcategorization (`6,783.32` Weighted PMI Bits vs. `5,612.89` Null, `1.209×` Lift, $z = +6.10$), Including Cognate Verb–Object Polyptoton (`qokedy <-> okedy` `3.84×`, `chy <-> chor` `3.69×`, `qokeey <-> okeey` `3.17×`)**.
+
+---
+
+## 139. Attack 139 (`Phase 150`): End-to-End 4-Stage Empirical Medical Dossiers for the Top 12 Linked Botanical Specimens & the Monotonic 4-Stage Morphological Activation Gradient ($z = +19.24$)
+- **Script, Data & Scans**: [`tools/attack139_twelve_linked_specimen_empirical_medical_dossiers.py`](../tools/attack139_twelve_linked_specimen_empirical_medical_dossiers.py) $\to$ [`data/attack139_twelve_linked_specimen_empirical_medical_dossiers.json`](../data/attack139_twelve_linked_specimen_empirical_medical_dossiers.json), [`pages/f89r2_pharm_compounding_specimen_hub_enh.png`](../pages/f89r2_pharm_compounding_specimen_hub_enh.png), [`pages/f108v_starred_tripartite_clause_hub_enh.png`](../pages/f108v_starred_tripartite_clause_hub_enh.png)
+- **Key Breakthroughs**:
+  1. **Compiles Complete 4-Stage Medical Dossiers for the Top 12 Linked Botanical Specimens (`*-e-*`, `*-ch-*`, `*-eey-*`, `*-ckh-*`, `*-eo-*`, `*-od-*`, `*-ke-*`, `*-ka-*`, `*-chd-*`, `*-keey-*`, `*-ar-*`, `*-ol-*`) and Proves That Holding Each Specimen Stem Fixed Increases Active Clinical Inflection Strictly Monotonically (`Stage 1 Astro/Zodiac 14.03% -> Stage 2 Herbal 15.60% -> Stage 3 Pharm 16.72% -> Stage 4 Balneo/Starred 29.24%`, Within-Stem Stage-Shuffle $z = +19.24, p < 10^{-30}$)**.
+
+---
+
+## 140. Attack 140 (`Phase 151`): The 5-Modality Empirical Semantic Lexicon, Clause-Valency Grammar & 12-Specimen Medical Dossier Compendium ([`notes/EMPIRICAL_SEMANTIC_LEXICON_AND_12SPECIMEN_DOSSIERS.md`](EMPIRICAL_SEMANTIC_LEXICON_AND_12SPECIMEN_DOSSIERS.md))
+- **Script, Data & Edition**: [`tools/attack140_empirical_lexicon_and_12specimen_dossier_compendium.py`](../tools/attack140_empirical_lexicon_and_12specimen_dossier_compendium.py) $\to$ [`data/attack140_empirical_lexicon_and_12specimen_dossier_compendium.json`](../data/attack140_empirical_lexicon_and_12specimen_dossier_compendium.json) & [`notes/EMPIRICAL_SEMANTIC_LEXICON_AND_12SPECIMEN_DOSSIERS.md`](EMPIRICAL_SEMANTIC_LEXICON_AND_12SPECIMEN_DOSSIERS.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes the Top-150 5-Modality Empirical Semantic-Feature Grounding Matrix (`Attack 137`), the Clause Valency & Verb–Object–Dose Collocational Lexicon (`Attack 138`), and the 12 Linked Botanical Specimen 4-Stage Medical Dossiers (`Attack 139`)**.
+
+

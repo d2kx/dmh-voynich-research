@@ -886,6 +886,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 146. 5-Modality Empirical Semantic-Feature Grounding Matrix of the Top-150 Open-Class Botanical & Clinical Stems ($z = +3.61, +3.57, +3.40$, `Attack 137`)
+- **5-Modality Grounding & Cross-Modality Predictive Coupling ($z = +3.61, +3.57, +3.40$)**: Grounds the Top-150 open-class botanical & clinical stems across 5 independent physical/diagrammatic coordinates (`37` `UPPER_CANOPY_FLOWER_LEAF P_TOP`, `29` `LOWER_ROOT_STOCK P_BOT`, `21` `ROOT_RHIZOME_SPECIMEN @Lf+P_BOT`, `63` `WHOLE_HERB_AXIS`). Proves three cross-modality predictive laws against `1,000`-trial permutation baselines: (1) Supply-side `Herbal-B Share H_B/(H_A+H_B)` predicts Clinical `Balneo vs. Pharm Route B/(B+P)` (`r = +0.3873`, $z = +3.61$); (2) Supply-side `Herbal-A Share` predicts `Pharm Compounding Share P/(P+B+S)` (`r = +0.3267`, $z = +3.57$); and (3) `Processual Morphology (qo% + -edy%)` predicts `Clinical Execution Share (B+S)/Total` (`r = +0.2906`, $z = +3.40$).
+
+---
+
+### 147. The Clause Valency & Verb–Object–Dose Collocational Subcategorization Lexicon Across `4,424` Multi-Word Clauses (`80.65%` `V+N`, `52.85%` `V+N+Q`, Within-Section PMI Lift $z = +6.10$, `Attack 138`)
+- **Universal Clause Valency (`80.65%` `V+N`, `52.85%` `V+N+Q`) & Within-Section Lexical Subcategorization ($z = +6.10$)**: Across all `4,424` multi-word clauses (`38,964` classified tokens), `81.62%` contain a Verbal Operator (`V_BOIL`, `V_PROC`, `V_APPL`), `80.65%` contain a Complete `Verb + Object` (`V+N`), and `52.85%` (`2,338` lines) form a Complete Tripartite `[Verb + Ingredient/Object + Dose]` (`V+N+Q`) Prescription Clause. Within-`(Section $I, Language $L)` Line-Shuffle Permutation proves that the `911` positive-PMI `[Verb <-> Object/Dose]` pairs achieve `6,783.32` weighted PMI bits vs. `5,612.89 ± 191.80` null (`1.209×` lift, $z = +6.10$), including Cognate Verb–Object Polyptoton (`qokedy <-> okedy` `3.84×`, `chy <-> chor` `3.69×`, `qokeey <-> okeey` `3.17×`) and Verb–Dose Subcategorization (`chedy <-> qotain` `3.22×`, `shey <-> qokain` `2.36×`).
+
+---
+
+### 148. End-to-End 4-Stage Empirical Medical Dossiers for the Top 12 Linked Botanical Specimens & the Monotonic 4-Stage Morphological Activation Gradient ($z = +19.24$, `Attack 139`)
+- **4-Stage Medical Dossiers (`pages/f89r2_pharm_compounding_specimen_hub_enh.png`, `pages/f108v_starred_tripartite_clause_hub_enh.png`) & Activation Gradient ($z = +19.24$)**: Across the Top 12 multi-stage botanical specimen stems (`*-e-*`, `*-ch-*`, `*-eey-*`, `*-ckh-*`, `*-eo-*`, `*-od-*`, `*-ke-*`, `*-ka-*`, `*-chd-*`, `*-keey-*`, `*-ar-*`, `*-ol-*`), holding each stem fixed across all 4 macro-stages increases Active Clinical Inflection (`qo- + -edy + l-/ol- + -aiin`) strictly monotonically: `Stage 1 Astro/Zodiac = 14.03%` $\to$ `Stage 2 Herbal = 15.60%` $\to$ `Stage 3 Pharm = 16.72%` $\to$ `Stage 4 Balneo/Starred = 29.24%` (`32.51%` pooled vs. `13.63%` supply = `+18.88%` vs. `+1.78% ± 0.89%` within-stem stage-shuffle null, $z = +19.24, p < 10^{-30}$).
+
+---
+
+### 149. The 5-Modality Empirical Semantic Lexicon, Clause-Valency Grammar & 12-Specimen Medical Dossier Compendium ([`notes/EMPIRICAL_SEMANTIC_LEXICON_AND_12SPECIMEN_DOSSIERS.md`](notes/EMPIRICAL_SEMANTIC_LEXICON_AND_12SPECIMEN_DOSSIERS.md), `Attack 140`)
+- **Empirical Semantic Lexicon & 12-Specimen Dossier Compendium ([`notes/EMPIRICAL_SEMANTIC_LEXICON_AND_12SPECIMEN_DOSSIERS.md`](notes/EMPIRICAL_SEMANTIC_LEXICON_AND_12SPECIMEN_DOSSIERS.md))**: Synthesizes the Top-150 5-Modality Empirical Semantic-Feature Grounding Matrix (`Attack 137`), the Clause Valency & Verb–Object–Dose Collocational Lexicon (`Attack 138`), and the 12 Linked Botanical Specimen 4-Stage Medical Dossiers (`Attack 139`).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -1053,6 +1073,10 @@ python tools/attack133_rosettes_9sphere_and_f66r_master_router.py
 python tools/attack134_complete_cross_section_stem_dictionary.py
 python tools/attack135_universal_folio_discourse_and_stem_introduction_law.py
 python tools/attack136_rosettes_stem_dict_and_discourse_compendium.py
+python tools/attack137_multimodal_empirical_semantic_grounding_matrix.py
+python tools/attack138_clause_valency_and_verb_object_dose_collocations.py
+python tools/attack139_twelve_linked_specimen_empirical_medical_dossiers.py
+python tools/attack140_empirical_lexicon_and_12specimen_dossier_compendium.py
 ```
 
 
