@@ -626,6 +626,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 94. Resolving the Final `2.85%` Residual (`1,027` Unexplained Types) via Multi-Transcriber Consensus (`RF1b-er` / `IT2a-n`) & 3-Morpheme Compound Segmentation (`99.51%` Full-Corpus Token Coverage, `Attack 85`)
+- **`36,051 / 36,229` (`99.51%`) Corpus Tokens & `8,876 / 9,053` (`98.03%`) Word Types Explained (`pages/f1v_transcriber_split_cfhar_am_enh.png`)**: Line-aligned comparison with `RF1b-er.txt` and `IT2a-n.txt` resolves `369` residual types (`36.07%` of the `TIER6` residual, e.g., `<f1v.1> cfhar,am -> cfhar . am`, `<f1r.4> oteos,roloty -> oteos . roloty`), and 3-morpheme compound segmentation (`M_1 + M_2 + M_3`) resolves `398` types (`38.68%`), leaving only `178` singleton hapax tokens (`0.491%` of the corpus) unexplained across `226` folios.
+
+---
+
+### 95. The 62-Core 5-Primitive Radical Decomposition (`C, K, T, E, O`) & 4-Domain Sectional Specialization Matrix ($I = 0.1385\text{ bits}$, $z = +70.64$, `Attack 86`)
+- **`[C1 + G + C2 + V_ext]` 5-Primitive Radical Decomposition & Sectional Specialization ($z = +70.64$)**: Preserving all gallows/bench consonants inside the core yields `62` canonical cores (`29,459` tokens) with `I(Core_62 ; Section_8) = 0.1385 bits` ($z = +70.64$): simplex `ch, k, l` specialize in Balneological Aqueous (`$I=B`); `t` (`1.71×` Zodiac) and `te` (`3.45×` Zodiac) specialize in Astronomical/Zodiac (`$I=Z, A, C, T`) and Herbal flower zones (`55.8%–56.0% P_top`); `tch` (`54.7% P_top`), `kch` (`55.1% P_bot`), and `cth` (`2.31×` Herbal) specialize in Herbal Botanical Monographs (`$I=H`); and `che, ke` specialize in Pharmaceutical Formularies (`$I=P, S`).
+
+---
+
+### 96. Full-Corpus 5-Archetype Paragraph Monograph Classifier ($I = 0.3873\text{ bits}$, $z = +48.43$), Intra-Folio Progression (`P_FIRST -> P_MID -> P_LAST`), and Same-Folio Stem Carryover ($z = +6.21$, `Attack 87`)
+- **Same-Folio Cross-Paragraph Stem Carryover ($z = +6.21$) & 5-Archetype Classifier ($z = +48.43$)**: Consecutive paragraphs on the same folio share `0.1115` open-class stem Jaccard vs. `0.0886` across same-`(I,L)` paragraphs on different folios (`+25.8%`, $z = +6.21$), while `P_FIRST_TOP` peaks in Compound Botanical Cores (`17.08%`), `P_MID_INT` surges `~2×` in Applicative `l-` (`8.93%` vs. `4.72%`) and Procedural `-dy` (`21.73%`), and `P_LAST_BOT` / `P_SINGLE` peak in `-am/-m` Colophon Closure (`10.8%–15.2%`).
+
+---
+
+### 97. Reconstructed Original-Order 4-Page Bifolio Pamphlet Reader & Multi-Paragraph Monograph Edition ([`notes/RECONSTRUCTED_BIFOLIO_PAMPHLET_READER.md`](notes/RECONSTRUCTED_BIFOLIO_PAMPHLET_READER.md), `Attack 88`)
+- **4 Complete Physical Parchment Bifolio Pamphlets in Original Scribal Drafting Order ([`notes/RECONSTRUCTED_BIFOLIO_PAMPHLET_READER.md`](notes/RECONSTRUCTED_BIFOLIO_PAMPHLET_READER.md))**: Presents `Quire F B=3 (f43r..f46v)`, `Quire E B=2 (f34r..f39v)`, `Quire D B=2 (f26r..f31v)`, and `Quire Q B=1 (f93r..f96v)` read continuously across the centerfold (`Page 1 -> Page 2 -> Page 3 -> Page 4`).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -741,5 +761,10 @@ python tools/attack81_global_codex_bifolio_pamphlet_solver.py
 python tools/attack82_hapax_and_rare_tail_derivational_solver.py
 python tools/attack83_predictive_clause_completion_benchmark.py
 python tools/attack84_master_100_discoveries_and_decoder.py
+python tools/attack85_residual_2pct_and_transcriber_consensus_solver.py
+python tools/attack86_46core_radical_and_domain_matrix.py
+python tools/attack87_paragraph_typology_and_monograph_classifier.py
+python tools/attack88_reconstructed_bifolio_pamphlet_reader.py
 ```
+
 

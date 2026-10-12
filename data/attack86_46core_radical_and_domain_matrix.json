@@ -1,0 +1,1921 @@
+{
+  "summary": {
+    "total_canonical_cores": 62,
+    "total_mapped_tokens": 29459,
+    "core_section_mutual_info_bits": 0.1385,
+    "null_paragraph_perm_mi_bits": 0.0177,
+    "z_score_section_specialization": 70.64,
+    "domain_cluster_counts": {
+      "DOMAIN_2_BALNEOLOGICAL_AQUEOUS": 12,
+      "DOMAIN_4_ASTRONOMICAL_COSMOLOGICAL": 19,
+      "DOMAIN_1_HERBAL_BOTANICAL": 21,
+      "DOMAIN_3_PHARMACEUTICAL_FORMULARY": 10
+    }
+  },
+  "core_profiles": [
+    {
+      "canonical_core": "ch",
+      "total_tokens": 5375,
+      "radical_formula": "[ch+0+0+0]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "0",
+      "currier_B_pct": 63.4,
+      "top_prefixes": [
+        "BARE(4041)",
+        "l(314)",
+        "d(279)"
+      ],
+      "top_suffixes": [
+        "edy(1226)",
+        "ey(782)",
+        "ol(566)"
+      ],
+      "enriched_section": "B (1.17x)",
+      "functional_domain": "DOMAIN_2_BALNEOLOGICAL_AQUEOUS",
+      "herbal_P_top_flower_pct": 51.0,
+      "section_pct": {
+        "A": 1.2,
+        "B": 20.9,
+        "C": 3.2,
+        "H": 34.0,
+        "P": 6.1,
+        "S": 27.0,
+        "T": 6.2,
+        "Z": 1.4
+      }
+    },
+    {
+      "canonical_core": "k",
+      "total_tokens": 4539,
+      "radical_formula": "[0+k+0+0]",
+      "G_gallows": "k",
+      "C_bench": "0+0",
+      "V_extension": "0",
+      "currier_B_pct": 80.9,
+      "top_prefixes": [
+        "qo(1971)",
+        "o(1380)",
+        "BARE(314)"
+      ],
+      "top_suffixes": [
+        "aiin(667)",
+        "eey(667)",
+        "ain(534)"
+      ],
+      "enriched_section": "B (1.45x)",
+      "functional_domain": "DOMAIN_2_BALNEOLOGICAL_AQUEOUS",
+      "herbal_P_top_flower_pct": 50.2,
+      "section_pct": {
+        "A": 1.3,
+        "B": 25.8,
+        "C": 3.7,
+        "H": 19.9,
+        "P": 6.4,
+        "S": 34.9,
+        "T": 6.7,
+        "Z": 1.4
+      }
+    },
+    {
+      "canonical_core": "t",
+      "total_tokens": 2548,
+      "radical_formula": "[0+t+0+0]",
+      "G_gallows": "t",
+      "C_bench": "0+0",
+      "V_extension": "0",
+      "currier_B_pct": 78.2,
+      "top_prefixes": [
+        "o(1288)",
+        "qo(649)",
+        "BARE(281)"
+      ],
+      "top_suffixes": [
+        "aiin(339)",
+        "edy(318)",
+        "ar(276)"
+      ],
+      "enriched_section": "Z (1.71x)",
+      "functional_domain": "DOMAIN_4_ASTRONOMICAL_COSMOLOGICAL",
+      "herbal_P_top_flower_pct": 55.8,
+      "section_pct": {
+        "A": 1.1,
+        "B": 17.9,
+        "C": 7.1,
+        "H": 24.3,
+        "P": 2.8,
+        "S": 34.3,
+        "T": 8.0,
+        "Z": 4.4
+      }
+    },
+    {
+      "canonical_core": "a",
+      "total_tokens": 1668,
+      "radical_formula": "[0+0+0+a]",
+      "G_gallows": "0",
+      "C_bench": "0+0",
+      "V_extension": "a",
+      "currier_B_pct": 82.8,
+      "top_prefixes": [
+        "BARE(968)",
+        "r(139)",
+        "or(129)"
+      ],
+      "top_suffixes": [
+        "iin(609)",
+        "r(372)",
+        "l(251)"
+      ],
+      "enriched_section": "Z (2.08x)",
+      "functional_domain": "DOMAIN_4_ASTRONOMICAL_COSMOLOGICAL",
+      "herbal_P_top_flower_pct": 49.3,
+      "section_pct": {
+        "A": 3.1,
+        "B": 8.2,
+        "C": 7.7,
+        "H": 17.6,
+        "P": 4.7,
+        "S": 45.6,
+        "T": 7.7,
+        "Z": 5.4
+      }
+    },
+    {
+      "canonical_core": "i",
+      "total_tokens": 1561,
+      "radical_formula": "[0+0+0+i]",
+      "G_gallows": "0",
+      "C_bench": "0+0",
+      "V_extension": "i",
+      "currier_B_pct": 48.7,
+      "top_prefixes": [
+        "da(1152)",
+        "sa(261)",
+        "o(63)"
+      ],
+      "top_suffixes": [
+        "in(1016)",
+        "n(276)",
+        "r(120)"
+      ],
+      "enriched_section": "P (1.61x)",
+      "functional_domain": "DOMAIN_1_HERBAL_BOTANICAL",
+      "herbal_P_top_flower_pct": 49.1,
+      "section_pct": {
+        "A": 2.5,
+        "B": 12.7,
+        "C": 3.7,
+        "H": 44.3,
+        "P": 10.1,
+        "S": 20.2,
+        "T": 5.3,
+        "Z": 1.2
+      }
+    },
+    {
+      "canonical_core": "ke",
+      "total_tokens": 1192,
+      "radical_formula": "[0+k+0+e]",
+      "G_gallows": "k",
+      "C_bench": "0+0",
+      "V_extension": "e",
+      "currier_B_pct": 85.0,
+      "top_prefixes": [
+        "qo(474)",
+        "o(309)",
+        "y(108)"
+      ],
+      "top_suffixes": [
+        "edy(607)",
+        "ody(189)",
+        "eey(88)"
+      ],
+      "enriched_section": "Z (1.49x)",
+      "functional_domain": "DOMAIN_3_PHARMACEUTICAL_FORMULARY",
+      "herbal_P_top_flower_pct": 49.6,
+      "section_pct": {
+        "A": 2.2,
+        "B": 21.8,
+        "C": 4.2,
+        "H": 14.1,
+        "P": 8.0,
+        "S": 41.2,
+        "T": 4.7,
+        "Z": 3.9
+      }
+    },
+    {
+      "canonical_core": "tch",
+      "total_tokens": 1159,
+      "radical_formula": "[0+t+ch+0]",
+      "G_gallows": "t",
+      "C_bench": "0+ch",
+      "V_extension": "0",
+      "currier_B_pct": 58.5,
+      "top_prefixes": [
+        "o(414)",
+        "BARE(295)",
+        "qo(289)"
+      ],
+      "top_suffixes": [
+        "edy(268)",
+        "y(191)",
+        "ey(159)"
+      ],
+      "enriched_section": "H (1.5x)",
+      "functional_domain": "DOMAIN_1_HERBAL_BOTANICAL",
+      "herbal_P_top_flower_pct": 54.7,
+      "section_pct": {
+        "A": 1.2,
+        "B": 11.2,
+        "C": 5.3,
+        "H": 44.8,
+        "P": 2.4,
+        "S": 27.2,
+        "T": 6.8,
+        "Z": 1.0
+      }
+    },
+    {
+      "canonical_core": "l",
+      "total_tokens": 1085,
+      "radical_formula": "[0+0+0+l]",
+      "G_gallows": "0",
+      "C_bench": "0+0",
+      "V_extension": "l",
+      "currier_B_pct": 74.5,
+      "top_prefixes": [
+        "o(392)",
+        "da(188)",
+        "do(112)"
+      ],
+      "top_suffixes": [
+        "BARE(1017)",
+        "y(20)",
+        "s(9)"
+      ],
+      "enriched_section": "B (2.12x)",
+      "functional_domain": "DOMAIN_2_BALNEOLOGICAL_AQUEOUS",
+      "herbal_P_top_flower_pct": 51.1,
+      "section_pct": {
+        "A": 1.5,
+        "B": 37.8,
+        "C": 6.5,
+        "H": 20.8,
+        "P": 7.8,
+        "S": 19.2,
+        "T": 5.4,
+        "Z": 0.9
+      }
+    },
+    {
+      "canonical_core": "r",
+      "total_tokens": 1061,
+      "radical_formula": "[0+0+0+r]",
+      "G_gallows": "0",
+      "C_bench": "0+0",
+      "V_extension": "r",
+      "currier_B_pct": 65.1,
+      "top_prefixes": [
+        "da(337)",
+        "o(280)",
+        "sa(105)"
+      ],
+      "top_suffixes": [
+        "BARE(903)",
+        "y(43)",
+        "aiin(30)"
+      ],
+      "enriched_section": "C (1.47x)",
+      "functional_domain": "DOMAIN_4_ASTRONOMICAL_COSMOLOGICAL",
+      "herbal_P_top_flower_pct": 49.3,
+      "section_pct": {
+        "A": 2.7,
+        "B": 17.9,
+        "C": 7.8,
+        "H": 34.9,
+        "P": 8.2,
+        "S": 19.0,
+        "T": 8.1,
+        "Z": 1.3
+      }
+    },
+    {
+      "canonical_core": "kch",
+      "total_tokens": 935,
+      "radical_formula": "[0+k+ch+0]",
+      "G_gallows": "k",
+      "C_bench": "0+ch",
+      "V_extension": "0",
+      "currier_B_pct": 59.9,
+      "top_prefixes": [
+        "qo(298)",
+        "o(250)",
+        "BARE(200)"
+      ],
+      "top_suffixes": [
+        "y(182)",
+        "edy(164)",
+        "dy(143)"
+      ],
+      "enriched_section": "H (1.56x)",
+      "functional_domain": "DOMAIN_1_HERBAL_BOTANICAL",
+      "herbal_P_top_flower_pct": 44.9,
+      "section_pct": {
+        "A": 2.1,
+        "B": 10.9,
+        "C": 4.5,
+        "H": 46.7,
+        "P": 2.7,
+        "S": 26.8,
+        "T": 5.9,
+        "Z": 0.3
+      }
+    },
+    {
+      "canonical_core": "che",
+      "total_tokens": 855,
+      "radical_formula": "[ch+0+0+e]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "e",
+      "currier_B_pct": 75.6,
+      "top_prefixes": [
+        "BARE(639)",
+        "y(55)",
+        "l(41)"
+      ],
+      "top_suffixes": [
+        "edy(192)",
+        "ody(172)",
+        "o(133)"
+      ],
+      "enriched_section": "P (1.55x)",
+      "functional_domain": "DOMAIN_3_PHARMACEUTICAL_FORMULARY",
+      "herbal_P_top_flower_pct": 48.1,
+      "section_pct": {
+        "A": 3.0,
+        "B": 17.4,
+        "C": 4.4,
+        "H": 20.4,
+        "P": 9.7,
+        "S": 37.2,
+        "T": 4.4,
+        "Z": 3.4
+      }
+    },
+    {
+      "canonical_core": "d",
+      "total_tokens": 605,
+      "radical_formula": "[0+0+0+d]",
+      "G_gallows": "0",
+      "C_bench": "0+0",
+      "V_extension": "d",
+      "currier_B_pct": 55.9,
+      "top_prefixes": [
+        "o(188)",
+        "qo(104)",
+        "ol(67)"
+      ],
+      "top_suffixes": [
+        "y(169)",
+        "aiin(161)",
+        "BARE(69)"
+      ],
+      "enriched_section": "P (1.71x)",
+      "functional_domain": "DOMAIN_1_HERBAL_BOTANICAL",
+      "herbal_P_top_flower_pct": 49.6,
+      "section_pct": {
+        "A": 2.3,
+        "B": 8.4,
+        "C": 9.1,
+        "H": 41.2,
+        "P": 10.7,
+        "S": 20.3,
+        "T": 6.4,
+        "Z": 1.5
+      }
+    },
+    {
+      "canonical_core": "y",
+      "total_tokens": 556,
+      "radical_formula": "[0+0+0+y]",
+      "G_gallows": "0",
+      "C_bench": "0+0",
+      "V_extension": "y",
+      "currier_B_pct": 58.7,
+      "top_prefixes": [
+        "d(189)",
+        "BARE(122)",
+        "ol(61)"
+      ],
+      "top_suffixes": [
+        "BARE(542)",
+        "dy(5)",
+        "s(4)"
+      ],
+      "enriched_section": "A (1.71x)",
+      "functional_domain": "DOMAIN_1_HERBAL_BOTANICAL",
+      "herbal_P_top_flower_pct": 54.0,
+      "section_pct": {
+        "A": 3.4,
+        "B": 20.7,
+        "C": 8.1,
+        "H": 40.1,
+        "P": 4.7,
+        "S": 14.2,
+        "T": 5.0,
+        "Z": 3.8
+      }
+    },
+    {
+      "canonical_core": "cth",
+      "total_tokens": 526,
+      "radical_formula": "[ch_lig+t+0+0]",
+      "G_gallows": "t",
+      "C_bench": "ch_lig+0",
+      "V_extension": "0",
+      "currier_B_pct": 21.4,
+      "top_prefixes": [
+        "BARE(442)",
+        "o(38)",
+        "qo(29)"
+      ],
+      "top_suffixes": [
+        "y(138)",
+        "ey(71)",
+        "ol(71)"
+      ],
+      "enriched_section": "H (2.31x)",
+      "functional_domain": "DOMAIN_1_HERBAL_BOTANICAL",
+      "herbal_P_top_flower_pct": 47.9,
+      "section_pct": {
+        "A": 1.9,
+        "B": 4.8,
+        "C": 1.9,
+        "H": 69.0,
+        "P": 8.9,
+        "S": 7.0,
+        "T": 5.7,
+        "Z": 0.8
+      }
+    },
+    {
+      "canonical_core": "te",
+      "total_tokens": 492,
+      "radical_formula": "[0+t+0+e]",
+      "G_gallows": "t",
+      "C_bench": "0+0",
+      "V_extension": "e",
+      "currier_B_pct": 89.1,
+      "top_prefixes": [
+        "o(235)",
+        "qo(130)",
+        "y(70)"
+      ],
+      "top_suffixes": [
+        "edy(243)",
+        "ody(107)",
+        "o(33)"
+      ],
+      "enriched_section": "Z (3.45x)",
+      "functional_domain": "DOMAIN_4_ASTRONOMICAL_COSMOLOGICAL",
+      "herbal_P_top_flower_pct": 56.0,
+      "section_pct": {
+        "A": 3.5,
+        "B": 17.1,
+        "C": 8.9,
+        "H": 11.0,
+        "P": 3.3,
+        "S": 42.9,
+        "T": 4.5,
+        "Z": 8.9
+      }
+    },
+    {
+      "canonical_core": "o",
+      "total_tokens": 378,
+      "radical_formula": "[0+0+0+o]",
+      "G_gallows": "0",
+      "C_bench": "0+0",
+      "V_extension": "o",
+      "currier_B_pct": 65.3,
+      "top_prefixes": [
+        "BARE(89)",
+        "ol(61)",
+        "or(34)"
+      ],
+      "top_suffixes": [
+        "BARE(172)",
+        "r(72)",
+        "l(55)"
+      ],
+      "enriched_section": "C (1.99x)",
+      "functional_domain": "DOMAIN_4_ASTRONOMICAL_COSMOLOGICAL",
+      "herbal_P_top_flower_pct": 54.2,
+      "section_pct": {
+        "A": 2.1,
+        "B": 18.8,
+        "C": 10.6,
+        "H": 28.0,
+        "P": 7.1,
+        "S": 22.5,
+        "T": 7.1,
+        "Z": 3.7
+      }
+    },
+    {
+      "canonical_core": "s",
+      "total_tokens": 361,
+      "radical_formula": "[0+0+0+s]",
+      "G_gallows": "0",
+      "C_bench": "0+0",
+      "V_extension": "s",
+      "currier_B_pct": 39.4,
+      "top_prefixes": [
+        "BARE(214)",
+        "o(47)",
+        "ol(27)"
+      ],
+      "top_suffixes": [
+        "BARE(292)",
+        "aiin(21)",
+        "ain(11)"
+      ],
+      "enriched_section": "A (2.78x)",
+      "functional_domain": "DOMAIN_1_HERBAL_BOTANICAL",
+      "herbal_P_top_flower_pct": 53.1,
+      "section_pct": {
+        "A": 5.5,
+        "B": 5.5,
+        "C": 8.6,
+        "H": 49.6,
+        "P": 11.4,
+        "S": 13.0,
+        "T": 4.4,
+        "Z": 1.9
+      }
+    },
+    {
+      "canonical_core": "e",
+      "total_tokens": 334,
+      "radical_formula": "[0+0+0+e]",
+      "G_gallows": "0",
+      "C_bench": "0+0",
+      "V_extension": "e",
+      "currier_B_pct": 62.5,
+      "top_prefixes": [
+        "BARE(82)",
+        "qo(78)",
+        "o(67)"
+      ],
+      "top_suffixes": [
+        "edy(59)",
+        "s(56)",
+        "ey(51)"
+      ],
+      "enriched_section": "A (2.25x)",
+      "functional_domain": "DOMAIN_4_ASTRONOMICAL_COSMOLOGICAL",
+      "herbal_P_top_flower_pct": 52.3,
+      "section_pct": {
+        "A": 4.5,
+        "B": 11.1,
+        "C": 9.6,
+        "H": 21.9,
+        "P": 13.5,
+        "S": 29.9,
+        "T": 4.5,
+        "Z": 5.1
+      }
+    },
+    {
+      "canonical_core": "ckh",
+      "total_tokens": 265,
+      "radical_formula": "[ch_lig+k+0+0]",
+      "G_gallows": "k",
+      "C_bench": "ch_lig+0",
+      "V_extension": "0",
+      "currier_B_pct": 28.4,
+      "top_prefixes": [
+        "BARE(153)",
+        "qo(60)",
+        "o(33)"
+      ],
+      "top_suffixes": [
+        "y(75)",
+        "ey(60)",
+        "ol(34)"
+      ],
+      "enriched_section": "P (3.55x)",
+      "functional_domain": "DOMAIN_1_HERBAL_BOTANICAL",
+      "herbal_P_top_flower_pct": 41.3,
+      "section_pct": {
+        "A": 1.9,
+        "B": 6.8,
+        "C": 1.1,
+        "H": 48.3,
+        "P": 22.3,
+        "S": 14.3,
+        "T": 4.5,
+        "Z": 0.8
+      }
+    },
+    {
+      "canonical_core": "ched",
+      "total_tokens": 240,
+      "radical_formula": "[ch+0+0+ed]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "ed",
+      "currier_B_pct": 98.7,
+      "top_prefixes": [
+        "BARE(197)",
+        "y(13)",
+        "l(8)"
+      ],
+      "top_suffixes": [
+        "aiin(61)",
+        "ar(57)",
+        "al(51)"
+      ],
+      "enriched_section": "S (2.08x)",
+      "functional_domain": "DOMAIN_3_PHARMACEUTICAL_FORMULARY",
+      "herbal_P_top_flower_pct": 59.7,
+      "section_pct": {
+        "A": 1.7,
+        "B": 16.2,
+        "C": 7.5,
+        "H": 7.9,
+        "P": 0.4,
+        "S": 62.1,
+        "T": 2.1,
+        "Z": 2.1
+      }
+    },
+    {
+      "canonical_core": "chckh",
+      "total_tokens": 233,
+      "radical_formula": "[ch+0+0+ckh]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "ckh",
+      "currier_B_pct": 86.1,
+      "top_prefixes": [
+        "BARE(220)",
+        "d(3)",
+        "y(2)"
+      ],
+      "top_suffixes": [
+        "y(147)",
+        "ey(31)",
+        "dy(14)"
+      ],
+      "enriched_section": "B (1.37x)",
+      "functional_domain": "DOMAIN_2_BALNEOLOGICAL_AQUEOUS",
+      "herbal_P_top_flower_pct": 57.4,
+      "section_pct": {
+        "B": 24.5,
+        "C": 3.0,
+        "H": 32.6,
+        "P": 2.1,
+        "S": 30.0,
+        "T": 7.3,
+        "Z": 0.4
+      }
+    },
+    {
+      "canonical_core": "chek",
+      "total_tokens": 199,
+      "radical_formula": "[ch+0+0+ek]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "ek",
+      "currier_B_pct": 82.8,
+      "top_prefixes": [
+        "BARE(183)",
+        "ol(3)",
+        "s(2)"
+      ],
+      "top_suffixes": [
+        "y(100)",
+        "aiin(14)",
+        "ain(13)"
+      ],
+      "enriched_section": "Z (2.91x)",
+      "functional_domain": "DOMAIN_4_ASTRONOMICAL_COSMOLOGICAL",
+      "herbal_P_top_flower_pct": 47.7,
+      "section_pct": {
+        "A": 4.0,
+        "B": 15.1,
+        "C": 7.0,
+        "H": 35.7,
+        "P": 5.5,
+        "S": 20.1,
+        "T": 5.0,
+        "Z": 7.5
+      }
+    },
+    {
+      "canonical_core": "ka",
+      "total_tokens": 190,
+      "radical_formula": "[0+k+0+a]",
+      "G_gallows": "k",
+      "C_bench": "0+0",
+      "V_extension": "a",
+      "currier_B_pct": 80.1,
+      "top_prefixes": [
+        "o(76)",
+        "qo(52)",
+        "BARE(24)"
+      ],
+      "top_suffixes": [
+        "ir(68)",
+        "ly(52)",
+        "ry(26)"
+      ],
+      "enriched_section": "Z (2.64x)",
+      "functional_domain": "DOMAIN_4_ASTRONOMICAL_COSMOLOGICAL",
+      "herbal_P_top_flower_pct": 60.9,
+      "section_pct": {
+        "A": 1.6,
+        "B": 16.8,
+        "C": 6.8,
+        "H": 21.1,
+        "P": 1.1,
+        "S": 41.1,
+        "T": 4.7,
+        "Z": 6.8
+      }
+    },
+    {
+      "canonical_core": "cho",
+      "total_tokens": 185,
+      "radical_formula": "[ch+0+0+o]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "o",
+      "currier_B_pct": 31.2,
+      "top_prefixes": [
+        "BARE(159)",
+        "y(6)",
+        "d(6)"
+      ],
+      "top_suffixes": [
+        "s(53)",
+        "y(32)",
+        "ly(23)"
+      ],
+      "enriched_section": "P (1.89x)",
+      "functional_domain": "DOMAIN_1_HERBAL_BOTANICAL",
+      "herbal_P_top_flower_pct": 40.4,
+      "section_pct": {
+        "A": 3.2,
+        "B": 0.5,
+        "C": 5.4,
+        "H": 50.3,
+        "P": 11.9,
+        "S": 22.2,
+        "T": 5.9,
+        "Z": 0.5
+      }
+    },
+    {
+      "canonical_core": "chcth",
+      "total_tokens": 151,
+      "radical_formula": "[ch+0+0+cth]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "cth",
+      "currier_B_pct": 73.2,
+      "top_prefixes": [
+        "BARE(139)",
+        "l(3)",
+        "ol(2)"
+      ],
+      "top_suffixes": [
+        "y(96)",
+        "edy(11)",
+        "dy(11)"
+      ],
+      "enriched_section": "T (1.71x)",
+      "functional_domain": "DOMAIN_2_BALNEOLOGICAL_AQUEOUS",
+      "herbal_P_top_flower_pct": 66.2,
+      "section_pct": {
+        "B": 22.5,
+        "C": 2.0,
+        "H": 31.8,
+        "P": 1.3,
+        "S": 31.1,
+        "T": 10.6,
+        "Z": 0.7
+      }
+    },
+    {
+      "canonical_core": "cheo",
+      "total_tokens": 151,
+      "radical_formula": "[ch+0+0+eo]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "eo",
+      "currier_B_pct": 68.6,
+      "top_prefixes": [
+        "BARE(115)",
+        "y(12)",
+        "d(11)"
+      ],
+      "top_suffixes": [
+        "s(70)",
+        "d(28)",
+        "y(15)"
+      ],
+      "enriched_section": "A (2.33x)",
+      "functional_domain": "DOMAIN_3_PHARMACEUTICAL_FORMULARY",
+      "herbal_P_top_flower_pct": 42.9,
+      "section_pct": {
+        "A": 4.6,
+        "B": 0.7,
+        "C": 3.3,
+        "H": 27.8,
+        "P": 11.3,
+        "S": 45.7,
+        "T": 2.0,
+        "Z": 4.6
+      }
+    },
+    {
+      "canonical_core": "chok",
+      "total_tokens": 145,
+      "radical_formula": "[ch+0+0+ok]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "ok",
+      "currier_B_pct": 35.4,
+      "top_prefixes": [
+        "BARE(138)",
+        "s(2)",
+        "d(2)"
+      ],
+      "top_suffixes": [
+        "y(40)",
+        "aiin(16)",
+        "eey(13)"
+      ],
+      "enriched_section": "P (1.76x)",
+      "functional_domain": "DOMAIN_1_HERBAL_BOTANICAL",
+      "herbal_P_top_flower_pct": 49.3,
+      "section_pct": {
+        "A": 2.8,
+        "B": 0.7,
+        "C": 6.2,
+        "H": 43.4,
+        "P": 11.0,
+        "S": 28.3,
+        "T": 4.1,
+        "Z": 3.4
+      }
+    },
+    {
+      "canonical_core": "chod",
+      "total_tokens": 132,
+      "radical_formula": "[ch+0+0+od]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "od",
+      "currier_B_pct": 34.1,
+      "top_prefixes": [
+        "BARE(122)",
+        "d(4)",
+        "s(2)"
+      ],
+      "top_suffixes": [
+        "aiin(74)",
+        "ar(15)",
+        "ain(14)"
+      ],
+      "enriched_section": "H (1.82x)",
+      "functional_domain": "DOMAIN_1_HERBAL_BOTANICAL",
+      "herbal_P_top_flower_pct": 54.9,
+      "section_pct": {
+        "A": 1.5,
+        "C": 3.8,
+        "H": 54.5,
+        "P": 6.8,
+        "S": 26.5,
+        "T": 5.3,
+        "Z": 1.5
+      }
+    },
+    {
+      "canonical_core": "chd",
+      "total_tokens": 130,
+      "radical_formula": "[ch+0+0+d]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "d",
+      "currier_B_pct": 96.8,
+      "top_prefixes": [
+        "BARE(109)",
+        "d(6)",
+        "l(6)"
+      ],
+      "top_suffixes": [
+        "ar(32)",
+        "aiin(26)",
+        "al(24)"
+      ],
+      "enriched_section": "T (2.24x)",
+      "functional_domain": "DOMAIN_4_ASTRONOMICAL_COSMOLOGICAL",
+      "herbal_P_top_flower_pct": 52.0,
+      "section_pct": {
+        "A": 2.3,
+        "B": 4.6,
+        "C": 6.9,
+        "H": 26.2,
+        "P": 0.8,
+        "S": 44.6,
+        "T": 13.8,
+        "Z": 0.8
+      }
+    },
+    {
+      "canonical_core": "m",
+      "total_tokens": 128,
+      "radical_formula": "[0+0+0+m]",
+      "G_gallows": "0",
+      "C_bench": "0+0",
+      "V_extension": "m",
+      "currier_B_pct": 43.0,
+      "top_prefixes": [
+        "da(77)",
+        "o(14)",
+        "sa(11)"
+      ],
+      "top_suffixes": [
+        "BARE(123)",
+        "o(1)",
+        "ol(1)"
+      ],
+      "enriched_section": "C (2.21x)",
+      "functional_domain": "DOMAIN_1_HERBAL_BOTANICAL",
+      "herbal_P_top_flower_pct": 58.6,
+      "section_pct": {
+        "A": 2.3,
+        "B": 7.0,
+        "C": 11.7,
+        "H": 50.8,
+        "P": 9.4,
+        "S": 14.1,
+        "T": 4.7
+      }
+    },
+    {
+      "canonical_core": "chot",
+      "total_tokens": 122,
+      "radical_formula": "[ch+0+0+ot]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "ot",
+      "currier_B_pct": 35.1,
+      "top_prefixes": [
+        "BARE(121)",
+        "d(1)"
+      ],
+      "top_suffixes": [
+        "y(44)",
+        "ar(11)",
+        "aiin(9)"
+      ],
+      "enriched_section": "Z (3.16x)",
+      "functional_domain": "DOMAIN_4_ASTRONOMICAL_COSMOLOGICAL",
+      "herbal_P_top_flower_pct": 46.3,
+      "section_pct": {
+        "A": 4.1,
+        "B": 0.8,
+        "C": 9.8,
+        "H": 45.9,
+        "P": 4.1,
+        "S": 22.1,
+        "T": 4.9,
+        "Z": 8.2
+      }
+    },
+    {
+      "canonical_core": "kech",
+      "total_tokens": 119,
+      "radical_formula": "[0+k+0+ech]",
+      "G_gallows": "k",
+      "C_bench": "0+0",
+      "V_extension": "ech",
+      "currier_B_pct": 91.7,
+      "top_prefixes": [
+        "qo(37)",
+        "o(30)",
+        "BARE(17)"
+      ],
+      "top_suffixes": [
+        "y(51)",
+        "dy(18)",
+        "edy(18)"
+      ],
+      "enriched_section": "A (2.53x)",
+      "functional_domain": "DOMAIN_3_PHARMACEUTICAL_FORMULARY",
+      "herbal_P_top_flower_pct": 53.7,
+      "section_pct": {
+        "A": 5.0,
+        "B": 11.8,
+        "C": 5.0,
+        "H": 9.2,
+        "P": 3.4,
+        "S": 56.3,
+        "T": 6.7,
+        "Z": 2.5
+      }
+    },
+    {
+      "canonical_core": "ta",
+      "total_tokens": 118,
+      "radical_formula": "[0+t+0+a]",
+      "G_gallows": "t",
+      "C_bench": "0+0",
+      "V_extension": "a",
+      "currier_B_pct": 81.4,
+      "top_prefixes": [
+        "o(60)",
+        "BARE(24)",
+        "qo(18)"
+      ],
+      "top_suffixes": [
+        "ir(45)",
+        "ly(32)",
+        "ry(14)"
+      ],
+      "enriched_section": "Z (3.27x)",
+      "functional_domain": "DOMAIN_4_ASTRONOMICAL_COSMOLOGICAL",
+      "herbal_P_top_flower_pct": 58.1,
+      "section_pct": {
+        "A": 2.5,
+        "B": 11.0,
+        "C": 5.9,
+        "H": 12.7,
+        "P": 3.4,
+        "S": 49.2,
+        "T": 6.8,
+        "Z": 8.5
+      }
+    },
+    {
+      "canonical_core": "chk",
+      "total_tokens": 110,
+      "radical_formula": "[ch+k+0+0]",
+      "G_gallows": "k",
+      "C_bench": "ch+0",
+      "V_extension": "0",
+      "currier_B_pct": 65.4,
+      "top_prefixes": [
+        "BARE(109)",
+        "y(1)"
+      ],
+      "top_suffixes": [
+        "aiin(18)",
+        "y(17)",
+        "eey(13)"
+      ],
+      "enriched_section": "H (1.52x)",
+      "functional_domain": "DOMAIN_1_HERBAL_BOTANICAL",
+      "herbal_P_top_flower_pct": 57.8,
+      "section_pct": {
+        "A": 2.7,
+        "B": 10.9,
+        "C": 5.5,
+        "H": 45.5,
+        "P": 6.4,
+        "S": 28.2,
+        "T": 0.9
+      }
+    },
+    {
+      "canonical_core": "hek",
+      "total_tokens": 107,
+      "radical_formula": "[0+0+0+hek]",
+      "G_gallows": "0",
+      "C_bench": "0+0",
+      "V_extension": "hek",
+      "currier_B_pct": 89.0,
+      "top_prefixes": [
+        "s(107)"
+      ],
+      "top_suffixes": [
+        "y(51)",
+        "BARE(13)",
+        "eey(9)"
+      ],
+      "enriched_section": "B (1.73x)",
+      "functional_domain": "DOMAIN_2_BALNEOLOGICAL_AQUEOUS",
+      "herbal_P_top_flower_pct": 70.5,
+      "section_pct": {
+        "A": 0.9,
+        "B": 30.8,
+        "C": 4.7,
+        "H": 23.4,
+        "P": 3.7,
+        "S": 28.0,
+        "T": 6.5,
+        "Z": 1.9
+      }
+    },
+    {
+      "canonical_core": "chet",
+      "total_tokens": 93,
+      "radical_formula": "[ch+0+0+et]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "et",
+      "currier_B_pct": 85.0,
+      "top_prefixes": [
+        "BARE(84)",
+        "l(3)",
+        "ol(2)"
+      ],
+      "top_suffixes": [
+        "y(38)",
+        "ar(9)",
+        "ey(8)"
+      ],
+      "enriched_section": "A (3.24x)",
+      "functional_domain": "DOMAIN_4_ASTRONOMICAL_COSMOLOGICAL",
+      "herbal_P_top_flower_pct": 62.2,
+      "section_pct": {
+        "A": 6.5,
+        "B": 19.4,
+        "C": 8.6,
+        "H": 32.3,
+        "S": 23.7,
+        "T": 6.5,
+        "Z": 3.2
+      }
+    },
+    {
+      "canonical_core": "ai",
+      "total_tokens": 92,
+      "radical_formula": "[0+0+0+ai]",
+      "G_gallows": "0",
+      "C_bench": "0+0",
+      "V_extension": "ai",
+      "currier_B_pct": 88.4,
+      "top_prefixes": [
+        "BARE(65)",
+        "or(6)",
+        "ol(5)"
+      ],
+      "top_suffixes": [
+        "iin(50)",
+        "ir(29)",
+        "y(3)"
+      ],
+      "enriched_section": "C (2.25x)",
+      "functional_domain": "DOMAIN_4_ASTRONOMICAL_COSMOLOGICAL",
+      "herbal_P_top_flower_pct": 45.9,
+      "section_pct": {
+        "A": 1.1,
+        "B": 7.6,
+        "C": 12.0,
+        "H": 19.6,
+        "P": 2.2,
+        "S": 45.7,
+        "T": 10.9,
+        "Z": 1.1
+      }
+    },
+    {
+      "canonical_core": "keo",
+      "total_tokens": 92,
+      "radical_formula": "[0+k+0+eo]",
+      "G_gallows": "k",
+      "C_bench": "0+0",
+      "V_extension": "eo",
+      "currier_B_pct": 51.6,
+      "top_prefixes": [
+        "o(39)",
+        "qo(25)",
+        "y(13)"
+      ],
+      "top_suffixes": [
+        "s(42)",
+        "d(21)",
+        "ly(13)"
+      ],
+      "enriched_section": "Z (5.45x)",
+      "functional_domain": "DOMAIN_4_ASTRONOMICAL_COSMOLOGICAL",
+      "herbal_P_top_flower_pct": 31.2,
+      "section_pct": {
+        "A": 4.3,
+        "B": 3.3,
+        "C": 15.2,
+        "H": 23.9,
+        "P": 17.4,
+        "S": 21.7,
+        "Z": 14.1
+      }
+    },
+    {
+      "canonical_core": "ted",
+      "total_tokens": 92,
+      "radical_formula": "[0+t+0+ed]",
+      "G_gallows": "t",
+      "C_bench": "0+0",
+      "V_extension": "ed",
+      "currier_B_pct": 100.0,
+      "top_prefixes": [
+        "o(46)",
+        "qo(22)",
+        "BARE(18)"
+      ],
+      "top_suffixes": [
+        "ar(30)",
+        "aiin(20)",
+        "al(13)"
+      ],
+      "enriched_section": "C (3.68x)",
+      "functional_domain": "DOMAIN_4_ASTRONOMICAL_COSMOLOGICAL",
+      "herbal_P_top_flower_pct": 76.0,
+      "section_pct": {
+        "B": 13.0,
+        "C": 19.6,
+        "H": 8.7,
+        "S": 52.2,
+        "T": 2.2,
+        "Z": 4.3
+      }
+    },
+    {
+      "canonical_core": "hckh",
+      "total_tokens": 85,
+      "radical_formula": "[0+0+0+hckh]",
+      "G_gallows": "0",
+      "C_bench": "0+0",
+      "V_extension": "hckh",
+      "currier_B_pct": 92.7,
+      "top_prefixes": [
+        "s(85)"
+      ],
+      "top_suffixes": [
+        "y(57)",
+        "ey(11)",
+        "edy(7)"
+      ],
+      "enriched_section": "B (2.17x)",
+      "functional_domain": "DOMAIN_2_BALNEOLOGICAL_AQUEOUS",
+      "herbal_P_top_flower_pct": 53.8,
+      "section_pct": {
+        "B": 38.8,
+        "C": 1.2,
+        "H": 11.8,
+        "P": 1.2,
+        "S": 32.9,
+        "T": 12.9,
+        "Z": 1.2
+      }
+    },
+    {
+      "canonical_core": "checkh",
+      "total_tokens": 83,
+      "radical_formula": "[ch+0+0+eckh]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "eckh",
+      "currier_B_pct": 91.6,
+      "top_prefixes": [
+        "BARE(66)",
+        "l(8)",
+        "d(2)"
+      ],
+      "top_suffixes": [
+        "y(59)",
+        "ey(16)",
+        "edy(3)"
+      ],
+      "enriched_section": "B (2.36x)",
+      "functional_domain": "DOMAIN_2_BALNEOLOGICAL_AQUEOUS",
+      "herbal_P_top_flower_pct": 61.3,
+      "section_pct": {
+        "B": 42.2,
+        "C": 1.2,
+        "H": 18.1,
+        "P": 4.8,
+        "S": 31.3,
+        "T": 2.4
+      }
+    },
+    {
+      "canonical_core": "kal",
+      "total_tokens": 81,
+      "radical_formula": "[0+k+0+al]",
+      "G_gallows": "k",
+      "C_bench": "0+0",
+      "V_extension": "al",
+      "currier_B_pct": 66.1,
+      "top_prefixes": [
+        "o(47)",
+        "qo(21)",
+        "BARE(3)"
+      ],
+      "top_suffixes": [
+        "dy(29)",
+        "ol(9)",
+        "or(7)"
+      ],
+      "enriched_section": "Z (6.66x)",
+      "functional_domain": "DOMAIN_4_ASTRONOMICAL_COSMOLOGICAL",
+      "herbal_P_top_flower_pct": 43.3,
+      "section_pct": {
+        "A": 1.2,
+        "B": 11.1,
+        "C": 12.3,
+        "H": 18.5,
+        "P": 1.2,
+        "S": 33.3,
+        "T": 4.9,
+        "Z": 17.3
+      }
+    },
+    {
+      "canonical_core": "cheod",
+      "total_tokens": 79,
+      "radical_formula": "[ch+0+0+eod]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "eod",
+      "currier_B_pct": 60.0,
+      "top_prefixes": [
+        "BARE(64)",
+        "y(6)",
+        "d(5)"
+      ],
+      "top_suffixes": [
+        "aiin(27)",
+        "ain(15)",
+        "al(13)"
+      ],
+      "enriched_section": "P (2.42x)",
+      "functional_domain": "DOMAIN_3_PHARMACEUTICAL_FORMULARY",
+      "herbal_P_top_flower_pct": 50.0,
+      "section_pct": {
+        "A": 3.8,
+        "C": 2.5,
+        "H": 26.6,
+        "P": 15.2,
+        "S": 46.8,
+        "T": 5.1
+      }
+    },
+    {
+      "canonical_core": "teo",
+      "total_tokens": 71,
+      "radical_formula": "[0+t+0+eo]",
+      "G_gallows": "t",
+      "C_bench": "0+0",
+      "V_extension": "eo",
+      "currier_B_pct": 66.7,
+      "top_prefixes": [
+        "o(53)",
+        "y(7)",
+        "BARE(6)"
+      ],
+      "top_suffixes": [
+        "s(43)",
+        "d(8)",
+        "ly(5)"
+      ],
+      "enriched_section": "Z (13.03x)",
+      "functional_domain": "DOMAIN_4_ASTRONOMICAL_COSMOLOGICAL",
+      "herbal_P_top_flower_pct": 45.0,
+      "section_pct": {
+        "A": 12.7,
+        "C": 11.3,
+        "H": 11.3,
+        "P": 8.5,
+        "S": 18.3,
+        "T": 4.2,
+        "Z": 33.8
+      }
+    },
+    {
+      "canonical_core": "chol",
+      "total_tokens": 68,
+      "radical_formula": "[ch+0+0+ol]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "ol",
+      "currier_B_pct": 25.0,
+      "top_prefixes": [
+        "BARE(63)",
+        "d(4)",
+        "s(1)"
+      ],
+      "top_suffixes": [
+        "dy(22)",
+        "aiin(7)",
+        "or(7)"
+      ],
+      "enriched_section": "Z (2.27x)",
+      "functional_domain": "DOMAIN_1_HERBAL_BOTANICAL",
+      "herbal_P_top_flower_pct": 48.5,
+      "section_pct": {
+        "A": 4.4,
+        "B": 7.4,
+        "C": 2.9,
+        "H": 48.5,
+        "P": 10.3,
+        "S": 16.2,
+        "T": 4.4,
+        "Z": 5.9
+      }
+    },
+    {
+      "canonical_core": "cht",
+      "total_tokens": 57,
+      "radical_formula": "[ch+t+0+0]",
+      "G_gallows": "t",
+      "C_bench": "ch+0",
+      "V_extension": "0",
+      "currier_B_pct": 62.7,
+      "top_prefixes": [
+        "BARE(53)",
+        "y(3)",
+        "ol(1)"
+      ],
+      "top_suffixes": [
+        "y(15)",
+        "al(7)",
+        "aiin(5)"
+      ],
+      "enriched_section": "A (3.52x)",
+      "functional_domain": "DOMAIN_1_HERBAL_BOTANICAL",
+      "herbal_P_top_flower_pct": 50.0,
+      "section_pct": {
+        "A": 7.0,
+        "B": 12.3,
+        "C": 1.8,
+        "H": 43.9,
+        "S": 29.8,
+        "T": 5.3
+      }
+    },
+    {
+      "canonical_core": "tched",
+      "total_tokens": 57,
+      "radical_formula": "[0+t+ch+ed]",
+      "G_gallows": "t",
+      "C_bench": "0+ch",
+      "V_extension": "ed",
+      "currier_B_pct": 98.2,
+      "top_prefixes": [
+        "BARE(38)",
+        "o(12)",
+        "qo(5)"
+      ],
+      "top_suffixes": [
+        "ar(19)",
+        "aiin(13)",
+        "al(11)"
+      ],
+      "enriched_section": "C (1.98x)",
+      "functional_domain": "DOMAIN_3_PHARMACEUTICAL_FORMULARY",
+      "herbal_P_top_flower_pct": 66.7,
+      "section_pct": {
+        "B": 14.0,
+        "C": 10.5,
+        "H": 19.3,
+        "P": 1.8,
+        "S": 54.4
+      }
+    },
+    {
+      "canonical_core": "tol",
+      "total_tokens": 54,
+      "radical_formula": "[0+t+0+ol]",
+      "G_gallows": "t",
+      "C_bench": "0+0",
+      "V_extension": "ol",
+      "currier_B_pct": 46.7,
+      "top_prefixes": [
+        "o(22)",
+        "BARE(22)",
+        "y(6)"
+      ],
+      "top_suffixes": [
+        "dy(19)",
+        "aiin(13)",
+        "or(5)"
+      ],
+      "enriched_section": "Z (3.57x)",
+      "functional_domain": "DOMAIN_3_PHARMACEUTICAL_FORMULARY",
+      "herbal_P_top_flower_pct": 54.5,
+      "section_pct": {
+        "A": 1.9,
+        "B": 7.4,
+        "C": 7.4,
+        "H": 31.5,
+        "P": 14.8,
+        "S": 27.8,
+        "Z": 9.3
+      }
+    },
+    {
+      "canonical_core": "teod",
+      "total_tokens": 51,
+      "radical_formula": "[0+t+0+eod]",
+      "G_gallows": "t",
+      "C_bench": "0+0",
+      "V_extension": "eod",
+      "currier_B_pct": 55.6,
+      "top_prefixes": [
+        "o(33)",
+        "BARE(13)",
+        "y(4)"
+      ],
+      "top_suffixes": [
+        "aiin(18)",
+        "ar(13)",
+        "al(10)"
+      ],
+      "enriched_section": "Z (9.83x)",
+      "functional_domain": "DOMAIN_4_ASTRONOMICAL_COSMOLOGICAL",
+      "herbal_P_top_flower_pct": 47.6,
+      "section_pct": {
+        "A": 13.7,
+        "C": 9.8,
+        "H": 27.5,
+        "P": 2.0,
+        "S": 21.6,
+        "Z": 25.5
+      }
+    },
+    {
+      "canonical_core": "heckh",
+      "total_tokens": 45,
+      "radical_formula": "[0+0+0+heckh]",
+      "G_gallows": "0",
+      "C_bench": "0+0",
+      "V_extension": "heckh",
+      "currier_B_pct": 100.0,
+      "top_prefixes": [
+        "s(45)"
+      ],
+      "top_suffixes": [
+        "y(33)",
+        "ey(4)",
+        "edy(4)"
+      ],
+      "enriched_section": "B (3.61x)",
+      "functional_domain": "DOMAIN_2_BALNEOLOGICAL_AQUEOUS",
+      "herbal_P_top_flower_pct": 64.3,
+      "section_pct": {
+        "B": 64.4,
+        "H": 4.4,
+        "S": 28.9,
+        "T": 2.2
+      }
+    },
+    {
+      "canonical_core": "hcth",
+      "total_tokens": 44,
+      "radical_formula": "[0+0+0+hcth]",
+      "G_gallows": "0",
+      "C_bench": "0+0",
+      "V_extension": "hcth",
+      "currier_B_pct": 78.6,
+      "top_prefixes": [
+        "s(44)"
+      ],
+      "top_suffixes": [
+        "y(34)",
+        "ey(6)",
+        "aiin(1)"
+      ],
+      "enriched_section": "T (2.57x)",
+      "functional_domain": "DOMAIN_2_BALNEOLOGICAL_AQUEOUS",
+      "herbal_P_top_flower_pct": 60.0,
+      "section_pct": {
+        "A": 2.3,
+        "B": 31.8,
+        "H": 27.3,
+        "S": 22.7,
+        "T": 15.9
+      }
+    },
+    {
+      "canonical_core": "chockh",
+      "total_tokens": 44,
+      "radical_formula": "[ch+0+0+ockh]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "ockh",
+      "currier_B_pct": 35.1,
+      "top_prefixes": [
+        "BARE(41)",
+        "o(1)",
+        "ol(1)"
+      ],
+      "top_suffixes": [
+        "y(29)",
+        "ey(7)",
+        "dy(2)"
+      ],
+      "enriched_section": "A (6.84x)",
+      "functional_domain": "DOMAIN_3_PHARMACEUTICAL_FORMULARY",
+      "herbal_P_top_flower_pct": 43.8,
+      "section_pct": {
+        "A": 13.6,
+        "H": 36.4,
+        "P": 18.2,
+        "S": 29.5,
+        "Z": 2.3
+      }
+    },
+    {
+      "canonical_core": "chotch",
+      "total_tokens": 43,
+      "radical_formula": "[ch+0+0+otch]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "otch",
+      "currier_B_pct": 25.0,
+      "top_prefixes": [
+        "BARE(42)",
+        "l(1)"
+      ],
+      "top_suffixes": [
+        "y(19)",
+        "ey(4)",
+        "ol(4)"
+      ],
+      "enriched_section": "Z (2.69x)",
+      "functional_domain": "DOMAIN_1_HERBAL_BOTANICAL",
+      "herbal_P_top_flower_pct": 42.9,
+      "section_pct": {
+        "B": 2.3,
+        "H": 67.4,
+        "P": 2.3,
+        "S": 20.9,
+        "Z": 7.0
+      }
+    },
+    {
+      "canonical_core": "checth",
+      "total_tokens": 42,
+      "radical_formula": "[ch+0+0+ecth]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "ecth",
+      "currier_B_pct": 92.9,
+      "top_prefixes": [
+        "BARE(39)",
+        "or(1)",
+        "y(1)"
+      ],
+      "top_suffixes": [
+        "y(30)",
+        "ey(6)",
+        "edy(3)"
+      ],
+      "enriched_section": "B (2.53x)",
+      "functional_domain": "DOMAIN_2_BALNEOLOGICAL_AQUEOUS",
+      "herbal_P_top_flower_pct": 72.7,
+      "section_pct": {
+        "B": 45.2,
+        "H": 16.7,
+        "S": 33.3,
+        "T": 4.8
+      }
+    },
+    {
+      "canonical_core": "chokch",
+      "total_tokens": 41,
+      "radical_formula": "[ch+0+0+okch]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "okch",
+      "currier_B_pct": 18.4,
+      "top_prefixes": [
+        "BARE(36)",
+        "d(4)",
+        "o(1)"
+      ],
+      "top_suffixes": [
+        "y(21)",
+        "ol(5)",
+        "or(3)"
+      ],
+      "enriched_section": "A (2.45x)",
+      "functional_domain": "DOMAIN_1_HERBAL_BOTANICAL",
+      "herbal_P_top_flower_pct": 43.5,
+      "section_pct": {
+        "A": 4.9,
+        "H": 70.7,
+        "P": 2.4,
+        "S": 17.1,
+        "T": 2.4,
+        "Z": 2.4
+      }
+    },
+    {
+      "canonical_core": "cha",
+      "total_tokens": 39,
+      "radical_formula": "[ch+0+0+a]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "a",
+      "currier_B_pct": 23.7,
+      "top_prefixes": [
+        "BARE(36)",
+        "y(1)",
+        "d(1)"
+      ],
+      "top_suffixes": [
+        "n(17)",
+        "ly(7)",
+        "ry(6)"
+      ],
+      "enriched_section": "H (1.89x)",
+      "functional_domain": "DOMAIN_1_HERBAL_BOTANICAL",
+      "herbal_P_top_flower_pct": 68.4,
+      "section_pct": {
+        "B": 2.6,
+        "H": 56.4,
+        "S": 35.9,
+        "T": 2.6,
+        "Z": 2.6
+      }
+    },
+    {
+      "canonical_core": "chocth",
+      "total_tokens": 38,
+      "radical_formula": "[ch+0+0+octh]",
+      "G_gallows": "0",
+      "C_bench": "ch+0",
+      "V_extension": "octh",
+      "currier_B_pct": 25.0,
+      "top_prefixes": [
+        "BARE(31)",
+        "y(3)",
+        "qo(2)"
+      ],
+      "top_suffixes": [
+        "y(29)",
+        "ey(4)",
+        "ar(2)"
+      ],
+      "enriched_section": "H (2.2x)",
+      "functional_domain": "DOMAIN_1_HERBAL_BOTANICAL",
+      "herbal_P_top_flower_pct": 55.6,
+      "section_pct": {
+        "A": 2.6,
+        "C": 2.6,
+        "H": 65.8,
+        "P": 5.3,
+        "S": 15.8,
+        "T": 5.3,
+        "Z": 2.6
+      }
+    },
+    {
+      "canonical_core": "hk",
+      "total_tokens": 32,
+      "radical_formula": "[0+0+0+hk]",
+      "G_gallows": "0",
+      "C_bench": "0+0",
+      "V_extension": "hk",
+      "currier_B_pct": 78.6,
+      "top_prefixes": [
+        "s(32)"
+      ],
+      "top_suffixes": [
+        "y(14)",
+        "aiin(5)",
+        "ol(2)"
+      ],
+      "enriched_section": "A (1.57x)",
+      "functional_domain": "DOMAIN_3_PHARMACEUTICAL_FORMULARY",
+      "herbal_P_top_flower_pct": 58.3,
+      "section_pct": {
+        "A": 3.1,
+        "B": 15.6,
+        "C": 6.2,
+        "H": 28.1,
+        "P": 3.1,
+        "S": 37.5,
+        "T": 6.2
+      }
+    },
+    {
+      "canonical_core": "hecth",
+      "total_tokens": 26,
+      "radical_formula": "[0+0+0+hecth]",
+      "G_gallows": "0",
+      "C_bench": "0+0",
+      "V_extension": "hecth",
+      "currier_B_pct": 95.8,
+      "top_prefixes": [
+        "s(26)"
+      ],
+      "top_suffixes": [
+        "y(22)",
+        "ey(2)",
+        "BARE(1)"
+      ],
+      "enriched_section": "B (3.23x)",
+      "functional_domain": "DOMAIN_2_BALNEOLOGICAL_AQUEOUS",
+      "herbal_P_top_flower_pct": 50.0,
+      "section_pct": {
+        "B": 57.7,
+        "H": 3.8,
+        "S": 19.2,
+        "T": 11.5,
+        "Z": 7.7
+      }
+    },
+    {
+      "canonical_core": "n",
+      "total_tokens": 22,
+      "radical_formula": "[0+0+0+n]",
+      "G_gallows": "0",
+      "C_bench": "0+0",
+      "V_extension": "n",
+      "currier_B_pct": 10.0,
+      "top_prefixes": [
+        "da(14)",
+        "BARE(3)",
+        "o(2)"
+      ],
+      "top_suffixes": [
+        "BARE(19)",
+        "y(1)",
+        "aiin(1)"
+      ],
+      "enriched_section": "Z (3.51x)",
+      "functional_domain": "DOMAIN_1_HERBAL_BOTANICAL",
+      "herbal_P_top_flower_pct": 33.3,
+      "section_pct": {
+        "C": 4.5,
+        "H": 77.3,
+        "S": 4.5,
+        "T": 4.5,
+        "Z": 9.1
+      }
+    },
+    {
+      "canonical_core": "hocth",
+      "total_tokens": 19,
+      "radical_formula": "[0+0+0+hocth]",
+      "G_gallows": "0",
+      "C_bench": "0+0",
+      "V_extension": "hocth",
+      "currier_B_pct": 11.8,
+      "top_prefixes": [
+        "s(19)"
+      ],
+      "top_suffixes": [
+        "y(13)",
+        "ody(2)",
+        "ol(1)"
+      ],
+      "enriched_section": "A (2.64x)",
+      "functional_domain": "DOMAIN_1_HERBAL_BOTANICAL",
+      "herbal_P_top_flower_pct": 50.0,
+      "section_pct": {
+        "A": 5.3,
+        "B": 5.3,
+        "H": 68.4,
+        "P": 10.5,
+        "S": 5.3,
+        "Z": 5.3
+      }
+    },
+    {
+      "canonical_core": "v",
+      "total_tokens": 14,
+      "radical_formula": "[0+0+0+v]",
+      "G_gallows": "0",
+      "C_bench": "0+0",
+      "V_extension": "v",
+      "currier_B_pct": 0.0,
+      "top_prefixes": [
+        "BARE(14)"
+      ],
+      "top_suffixes": [
+        "BARE(11)",
+        "or(1)",
+        "s(1)"
+      ],
+      "enriched_section": "C (17.48x)",
+      "functional_domain": "DOMAIN_4_ASTRONOMICAL_COSMOLOGICAL",
+      "herbal_P_top_flower_pct": 50.0,
+      "section_pct": {
+        "C": 92.9,
+        "H": 7.1
+      }
+    }
+  ]
+}

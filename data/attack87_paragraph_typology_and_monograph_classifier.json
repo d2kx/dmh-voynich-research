@@ -1,0 +1,249 @@
+{
+  "corpus_paragraph_summary": {
+    "total_multiline_paragraphs": 754,
+    "total_paragraph_tokens": 35678,
+    "mean_intra_paragraph_line_persist_rate": 0.6114,
+    "same_folio_consecutive_para_stem_jacc": 0.1115,
+    "same_folio_nonconsecutive_para_stem_jacc": 0.1046,
+    "diff_folio_same_IL_para_stem_jacc": 0.0886,
+    "z_score_same_folio_para_carryover": 6.21,
+    "archetype_section_mi_bits": 0.3873,
+    "null_archetype_section_mi_bits": 0.0284,
+    "z_score_archetype_section_mi": 48.43
+  },
+  "intra_folio_paragraph_progression": {
+    "P_FIRST_TOP": {
+      "n_paragraphs": 166,
+      "n_lines": 7.3554,
+      "n_words": 51.7711,
+      "has_top_pf_opener": 0.4578,
+      "has_am_colophon": 0.0964,
+      "line_persist_rate": 0.5823,
+      "qo_rate": 0.1325,
+      "l_appl_rate": 0.0472,
+      "compound_rate": 0.1708,
+      "t_class_rate": 0.257,
+      "k_class_rate": 0.2743,
+      "dy_rate": 0.1612,
+      "y_bare_rate": 0.2562,
+      "in_meas_rate": 0.1507,
+      "liq_l_rate": 0.1295,
+      "liq_r_rate": 0.1385,
+      "top_archetypes": {
+        "ARCH_1_BOTANICAL_TAXONOMIC_HEAD": 50.0,
+        "ARCH_5_COSMOLOGICAL_ASTRONOMICAL_SPEC": 15.1,
+        "ARCH_3_QUANTITATIVE_MEASURE_FORMULARY": 14.5
+      }
+    },
+    "P_MID_INT": {
+      "n_paragraphs": 363,
+      "n_lines": 4.5096,
+      "n_words": 37.427,
+      "has_top_pf_opener": 0.5702,
+      "has_am_colophon": 0.0771,
+      "line_persist_rate": 0.6369,
+      "qo_rate": 0.1818,
+      "l_appl_rate": 0.0893,
+      "compound_rate": 0.1396,
+      "t_class_rate": 0.2405,
+      "k_class_rate": 0.3321,
+      "dy_rate": 0.2173,
+      "y_bare_rate": 0.2168,
+      "in_meas_rate": 0.1869,
+      "liq_l_rate": 0.1279,
+      "liq_r_rate": 0.1156,
+      "top_archetypes": {
+        "ARCH_3_QUANTITATIVE_MEASURE_FORMULARY": 30.9,
+        "ARCH_2_AQUEOUS_BALNEOLOGICAL_PROCEDURE": 27.8,
+        "ARCH_1_BOTANICAL_TAXONOMIC_HEAD": 20.7
+      }
+    },
+    "P_LAST_BOT": {
+      "n_paragraphs": 166,
+      "n_lines": 7.6265,
+      "n_words": 52.4096,
+      "has_top_pf_opener": 0.4277,
+      "has_am_colophon": 0.1084,
+      "line_persist_rate": 0.631,
+      "qo_rate": 0.1272,
+      "l_appl_rate": 0.0533,
+      "compound_rate": 0.159,
+      "t_class_rate": 0.2147,
+      "k_class_rate": 0.3036,
+      "dy_rate": 0.1459,
+      "y_bare_rate": 0.2513,
+      "in_meas_rate": 0.1649,
+      "liq_l_rate": 0.1527,
+      "liq_r_rate": 0.1312,
+      "top_archetypes": {
+        "ARCH_1_BOTANICAL_TAXONOMIC_HEAD": 42.8,
+        "ARCH_3_QUANTITATIVE_MEASURE_FORMULARY": 21.7,
+        "ARCH_2_AQUEOUS_BALNEOLOGICAL_PROCEDURE": 13.3
+      }
+    },
+    "P_SINGLE": {
+      "n_paragraphs": 59,
+      "n_lines": 15.661,
+      "n_words": 81.322,
+      "has_top_pf_opener": 0.3898,
+      "has_am_colophon": 0.1525,
+      "line_persist_rate": 0.481,
+      "qo_rate": 0.0822,
+      "l_appl_rate": 0.025,
+      "compound_rate": 0.1715,
+      "t_class_rate": 0.2778,
+      "k_class_rate": 0.2896,
+      "dy_rate": 0.1219,
+      "y_bare_rate": 0.2459,
+      "in_meas_rate": 0.1424,
+      "liq_l_rate": 0.1338,
+      "liq_r_rate": 0.1417,
+      "top_archetypes": {
+        "ARCH_1_BOTANICAL_TAXONOMIC_HEAD": 45.8,
+        "ARCH_5_COSMOLOGICAL_ASTRONOMICAL_SPEC": 32.2,
+        "ARCH_3_QUANTITATIVE_MEASURE_FORMULARY": 20.3
+      }
+    }
+  },
+  "paragraph_archetypes": [
+    {
+      "archetype": "ARCH_1_BOTANICAL_TAXONOMIC_HEAD",
+      "n_paragraphs": 256,
+      "pct_of_paragraphs": 33.95,
+      "mean_words": 40.6,
+      "mean_lines": 6.57,
+      "mean_qo_rate": 0.1063,
+      "mean_l_appl_rate": 0.039,
+      "mean_compound_rate": 0.2254,
+      "mean_dy_rate": 0.0837,
+      "mean_in_meas_rate": 0.1718,
+      "am_colophon_pct": 12.9,
+      "section_distribution": {
+        "H": 164,
+        "S": 49,
+        "P": 18,
+        "T": 8,
+        "A": 8,
+        "C": 6,
+        "B": 3
+      },
+      "page_zone_distribution": {
+        "P_FIRST_TOP": 83,
+        "P_MID_INT": 75,
+        "P_LAST_BOT": 71,
+        "P_SINGLE": 27
+      }
+    },
+    {
+      "archetype": "ARCH_3_QUANTITATIVE_MEASURE_FORMULARY",
+      "n_paragraphs": 184,
+      "pct_of_paragraphs": 24.4,
+      "mean_words": 48.2,
+      "mean_lines": 5.58,
+      "mean_qo_rate": 0.1422,
+      "mean_l_appl_rate": 0.0775,
+      "mean_compound_rate": 0.1047,
+      "mean_dy_rate": 0.1624,
+      "mean_in_meas_rate": 0.2368,
+      "am_colophon_pct": 6.0,
+      "section_distribution": {
+        "S": 100,
+        "H": 35,
+        "B": 16,
+        "P": 16,
+        "T": 9,
+        "C": 5,
+        "Z": 2,
+        "A": 1
+      },
+      "page_zone_distribution": {
+        "P_MID_INT": 112,
+        "P_LAST_BOT": 36,
+        "P_FIRST_TOP": 24,
+        "P_SINGLE": 12
+      }
+    },
+    {
+      "archetype": "ARCH_2_AQUEOUS_BALNEOLOGICAL_PROCEDURE",
+      "n_paragraphs": 146,
+      "pct_of_paragraphs": 19.36,
+      "mean_words": 54.6,
+      "mean_lines": 6.82,
+      "mean_qo_rate": 0.2621,
+      "mean_l_appl_rate": 0.1181,
+      "mean_compound_rate": 0.1119,
+      "mean_dy_rate": 0.3267,
+      "mean_in_meas_rate": 0.1501,
+      "am_colophon_pct": 6.2,
+      "section_distribution": {
+        "S": 79,
+        "B": 57,
+        "T": 5,
+        "H": 2,
+        "P": 2,
+        "C": 1
+      },
+      "page_zone_distribution": {
+        "P_MID_INT": 101,
+        "P_FIRST_TOP": 23,
+        "P_LAST_BOT": 22
+      }
+    },
+    {
+      "archetype": "ARCH_5_COSMOLOGICAL_ASTRONOMICAL_SPEC",
+      "n_paragraphs": 96,
+      "pct_of_paragraphs": 12.73,
+      "mean_words": 61.4,
+      "mean_lines": 10.86,
+      "mean_qo_rate": 0.0895,
+      "mean_l_appl_rate": 0.0485,
+      "mean_compound_rate": 0.1128,
+      "mean_dy_rate": 0.1983,
+      "mean_in_meas_rate": 0.0927,
+      "am_colophon_pct": 10.4,
+      "section_distribution": {
+        "H": 26,
+        "S": 24,
+        "C": 11,
+        "Z": 10,
+        "P": 10,
+        "T": 7,
+        "A": 5,
+        "B": 3
+      },
+      "page_zone_distribution": {
+        "P_MID_INT": 31,
+        "P_FIRST_TOP": 25,
+        "P_LAST_BOT": 21,
+        "P_SINGLE": 19
+      }
+    },
+    {
+      "archetype": "ARCH_4_SHORT_STARRED_DECOCTION_RECIPE",
+      "n_paragraphs": 72,
+      "pct_of_paragraphs": 9.55,
+      "mean_words": 35.2,
+      "mean_lines": 4.15,
+      "mean_qo_rate": 0.1904,
+      "mean_l_appl_rate": 0.0616,
+      "mean_compound_rate": 0.1584,
+      "mean_dy_rate": 0.2639,
+      "mean_in_meas_rate": 0.1428,
+      "am_colophon_pct": 11.1,
+      "section_distribution": {
+        "S": 38,
+        "H": 19,
+        "B": 6,
+        "T": 3,
+        "C": 3,
+        "P": 3
+      },
+      "page_zone_distribution": {
+        "P_MID_INT": 44,
+        "P_LAST_BOT": 16,
+        "P_FIRST_TOP": 11,
+        "P_SINGLE": 1
+      }
+    }
+  ]
+}

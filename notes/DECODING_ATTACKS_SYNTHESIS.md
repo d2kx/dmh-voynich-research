@@ -775,3 +775,32 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Key Breakthroughs**:
   1. **Synthesizes All `101` Discoveries (`Attacks 1–84`) into the 10 Unified Laws of the Voynich Manuscript, the Complete 46-Core Canonical Root Inventory (`97.15%` Corpus Coverage), and Reconstructed 4-Page Bifolio Pamphlet Continuous Readings**.
 
+---
+
+## 85. Attack 85 (`Phase 96`): Resolving the Final `2.85%` Residual (`1,027` Unexplained Types) via Multi-Transcriber Consensus (`RF1b-er` / `IT2a-n`) & 3-Morpheme Compound Segmentation (`99.51%` Full-Corpus Token Coverage)
+- **Script, Data & Scan**: [`tools/attack85_residual_2pct_and_transcriber_consensus_solver.py`](../tools/attack85_residual_2pct_and_transcriber_consensus_solver.py) $\to$ [`data/attack85_residual_2pct_and_transcriber_consensus_solver.json`](../data/attack85_residual_2pct_and_transcriber_consensus_solver.json) & [`pages/f1v_transcriber_split_cfhar_am_enh.png`](../pages/f1v_transcriber_split_cfhar_am_enh.png)
+- **Key Breakthroughs**:
+  1. **Resolves `856 / 1,034` (`82.79%`) of the Final `TIER6` Residual Tokens via Line-Aligned `RF1b-er` / `IT2a-n` Splits (`36.07%`) and 3-Morpheme Compound Segmentation (`38.68%`), Raising Explained Full-Corpus Coverage to `36,051 / 36,229` Tokens (`99.51%`) and `8,876 / 9,053` Types (`98.03%`)**.
+
+---
+
+## 86. Attack 86 (`Phase 97`): The 62-Core 5-Primitive Radical Decomposition (`C, K, T, E, O`) & 4-Domain Sectional Specialization Matrix ($I = 0.1385\text{ bits}$, $z = +70.64$)
+- **Script & Data**: [`tools/attack86_46core_radical_and_domain_matrix.py`](../tools/attack86_46core_radical_and_domain_matrix.py) $\to$ [`data/attack86_46core_radical_and_domain_matrix.json`](../data/attack86_46core_radical_and_domain_matrix.json)
+- **Key Breakthroughs**:
+  1. **Decomposes All `62` Canonical Open-Class Root Cores (`29,459` Tokens) into `[C1 + G + C2 + V_ext]` (`5` Atomic Primitives `C, K, T, E, O`) and Proves `I(Core_62 ; Section_8) = 0.1385 bits` ($z = +70.64$ Across 4 Functional Domains)**.
+
+---
+
+## 87. Attack 87 (`Phase 98`): Full-Corpus 5-Archetype Paragraph Monograph Classifier ($I = 0.3873\text{ bits}$, $z = +48.43$), Intra-Folio Progression (`P_FIRST -> P_MID -> P_LAST`), and Same-Folio Stem Carryover ($z = +6.21$)
+- **Script & Data**: [`tools/attack87_paragraph_typology_and_monograph_classifier.py`](../tools/attack87_paragraph_typology_and_monograph_classifier.py) $\to$ [`data/attack87_paragraph_typology_and_monograph_classifier.json`](../data/attack87_paragraph_typology_and_monograph_classifier.json)
+- **Key Breakthroughs**:
+  1. **Proves Same-Folio Cross-Paragraph Anaphoric Stem Carryover (`0.1115` vs. `0.0886` Same-`(I,L)` Null, $+25.8\%$, $z = +6.21$), Partitions `754` Paragraphs into 5 Monograph Archetypes ($z = +48.43$), and Maps the `P_FIRST_TOP -> P_MID_INT -> P_LAST_BOT` Intra-Folio Progression**.
+
+---
+
+## 88. Attack 88 (`Phase 99`): Reconstructed Original-Order 4-Page Bifolio Pamphlet Reader & Multi-Paragraph Monograph Edition ([`notes/RECONSTRUCTED_BIFOLIO_PAMPHLET_READER.md`](RECONSTRUCTED_BIFOLIO_PAMPHLET_READER.md))
+- **Script, Data & Edition**: [`tools/attack88_reconstructed_bifolio_pamphlet_reader.py`](../tools/attack88_reconstructed_bifolio_pamphlet_reader.py) $\to$ [`data/attack88_reconstructed_bifolio_pamphlet_reader.json`](../data/attack88_reconstructed_bifolio_pamphlet_reader.json) & [`notes/RECONSTRUCTED_BIFOLIO_PAMPHLET_READER.md`](RECONSTRUCTED_BIFOLIO_PAMPHLET_READER.md)
+- **Key Breakthroughs**:
+  1. **Compiles Complete 4-Page Continuous Editions of Four Physical Parchment Bifolio Pamphlets (`Quire F B=3`, `Quire E B=2`, `Quire D B=2`, `Quire Q B=1`) Read in Original Scribal Drafting Order (`Page 1 -> Page 2 -> Page 3 -> Page 4`)**.
+
+

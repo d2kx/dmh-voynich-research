@@ -1,0 +1,278 @@
+{
+  "tier6_residual_input": {
+    "residual_types": 1027,
+    "residual_tokens": 1034,
+    "pct_of_corpus_tokens": 2.85
+  },
+  "resolved_summary": {
+    "newly_resolved_types": 849,
+    "newly_resolved_tokens": 856,
+    "pct_of_tier6_tokens_resolved": 82.79,
+    "remaining_irreducible_types": 178,
+    "remaining_irreducible_tokens": 178,
+    "total_corpus_explained_tokens": 36051,
+    "total_corpus_explained_token_pct": 99.51,
+    "total_corpus_explained_types": 8876,
+    "total_corpus_explained_type_pct": 98.03
+  },
+  "subtier_breakdown": [
+    {
+      "subtier": "SUBTIER_6A_TRANSCRIBER_SPLIT_OR_VARIANT",
+      "residual_types": 369,
+      "pct_of_tier6_types": 35.93,
+      "residual_tokens": 373,
+      "pct_of_tier6_tokens": 36.07,
+      "pct_of_full_corpus_tokens": 1.03,
+      "examples": [
+        {
+          "word": "dytydy",
+          "loc": "f4r.5",
+          "transcriber": "IT",
+          "resolution": "dy . tydy"
+        },
+        {
+          "word": "lg",
+          "loc": "f57v.2",
+          "transcriber": "RF",
+          "resolution": "l . g"
+        },
+        {
+          "word": "du",
+          "loc": "f89v1.9",
+          "transcriber": "RF",
+          "resolution": "du -> os"
+        },
+        {
+          "word": "oteosroloty",
+          "loc": "f1r.4",
+          "transcriber": "IT",
+          "resolution": "oteos . roloty"
+        },
+        {
+          "word": "cphodales",
+          "loc": "f1r.11",
+          "transcriber": "RF",
+          "resolution": "cphodal . es"
+        },
+        {
+          "word": "koeam",
+          "loc": "f1r.16",
+          "transcriber": "RF",
+          "resolution": "koeam -> keeam"
+        },
+        {
+          "word": "cfharam",
+          "loc": "f1v.1",
+          "transcriber": "RF",
+          "resolution": "cfhar . am"
+        },
+        {
+          "word": "olchoees",
+          "loc": "f1v.7",
+          "transcriber": "RF",
+          "resolution": "ol . choees"
+        }
+      ]
+    },
+    {
+      "subtier": "SUBTIER_6B_THREE_MORPHEME_COMPOUND",
+      "residual_types": 398,
+      "pct_of_tier6_types": 38.75,
+      "residual_tokens": 400,
+      "pct_of_tier6_tokens": 38.68,
+      "pct_of_full_corpus_tokens": 1.104,
+      "examples": [
+        {
+          "word": "chkorchy",
+          "count": 2,
+          "segmentation": "ch+kor+chy"
+        },
+        {
+          "word": "ykolairol",
+          "count": 2,
+          "segmentation": "ykol+ai+rol"
+        },
+        {
+          "word": "cphesaiin",
+          "count": 1,
+          "segmentation": "cph+e+saiin"
+        },
+        {
+          "word": "cphealy",
+          "count": 1,
+          "segmentation": "cph+e+aly"
+        },
+        {
+          "word": "ckhyds",
+          "count": 1,
+          "segmentation": "[0+ckh+y+d+s]"
+        },
+        {
+          "word": "dlssho",
+          "count": 1,
+          "segmentation": "d+ls+sho"
+        },
+        {
+          "word": "tsheoarom",
+          "count": 1,
+          "segmentation": "[0+tsh+eoa+r+om]"
+        },
+        {
+          "word": "cthodoaly",
+          "count": 1,
+          "segmentation": "ctho+do+aly"
+        }
+      ]
+    },
+    {
+      "subtier": "SUBTIER_6C_UNCERTAIN_DAMAGED_READING",
+      "residual_types": 23,
+      "pct_of_tier6_types": 2.24,
+      "residual_tokens": 23,
+      "pct_of_tier6_tokens": 2.22,
+      "pct_of_full_corpus_tokens": 0.063,
+      "examples": [
+        {
+          "word": "cthres",
+          "loc": "f1r.1",
+          "raw_zl": "[cth:oto]res"
+        },
+        {
+          "word": "soeeb",
+          "loc": "f30r.11",
+          "raw_zl": "so[eeb:een]"
+        },
+        {
+          "word": "amg",
+          "loc": "f34r.6",
+          "raw_zl": "a[m:d]g"
+        },
+        {
+          "word": "psheykedaleey",
+          "loc": "f41r.1",
+          "raw_zl": "pshey,kedal[ee:ch]y"
+        },
+        {
+          "word": "keeredal",
+          "loc": "f41v.1",
+          "raw_zl": "keer[e:o]dal"
+        },
+        {
+          "word": "chotais",
+          "loc": "f42r.4",
+          "raw_zl": "chotai[s:r]"
+        },
+        {
+          "word": "olseeg",
+          "loc": "f58r.22",
+          "raw_zl": "olsee[g:m]"
+        },
+        {
+          "word": "dotgolg",
+          "loc": "f68r3.7",
+          "raw_zl": "d,o,tgolg?"
+        }
+      ]
+    },
+    {
+      "subtier": "SUBTIER_6D_TWO_EDIT_PALEOGRAPHIC_GLIDE",
+      "residual_types": 59,
+      "pct_of_tier6_types": 5.74,
+      "residual_tokens": 60,
+      "pct_of_tier6_tokens": 5.8,
+      "pct_of_full_corpus_tokens": 0.166,
+      "examples": [
+        {
+          "word": "tosheo",
+          "closest_top1000": "sheo"
+        },
+        {
+          "word": "kodshey",
+          "closest_top1000": "dshey"
+        },
+        {
+          "word": "oleeeb",
+          "closest_top1000": "oeees"
+        },
+        {
+          "word": "oechockhy",
+          "closest_top1000": "chockhy"
+        },
+        {
+          "word": "tchtod",
+          "closest_top1000": "chod"
+        },
+        {
+          "word": "ctholdg",
+          "closest_top1000": "cthol"
+        },
+        {
+          "word": "dolchds",
+          "closest_top1000": "olchdy"
+        },
+        {
+          "word": "koshet",
+          "closest_top1000": "oshey"
+        }
+      ]
+    },
+    {
+      "subtier": "SUBTIER_6E_IRREDUCIBLE_RESIDUAL",
+      "residual_types": 178,
+      "pct_of_tier6_types": 17.33,
+      "residual_tokens": 178,
+      "pct_of_tier6_tokens": 17.21,
+      "pct_of_full_corpus_tokens": 0.491,
+      "examples": [
+        {
+          "word": "fachys",
+          "count": 1,
+          "loc": "f1r.1",
+          "raw_zl": "fachys"
+        },
+        {
+          "word": "cthiardaiin",
+          "count": 1,
+          "loc": "f1r.4",
+          "raw_zl": "cthiar,daiin"
+        },
+        {
+          "word": "ydaraishy",
+          "count": 1,
+          "loc": "f1r.6",
+          "raw_zl": "ydaraishy"
+        },
+        {
+          "word": "cphodaiils",
+          "count": 1,
+          "loc": "f1r.13",
+          "raw_zl": "cphodaiils"
+        },
+        {
+          "word": "tshodeesy",
+          "count": 1,
+          "loc": "f1r.22",
+          "raw_zl": "tshodeesy"
+        },
+        {
+          "word": "dolchiody",
+          "count": 1,
+          "loc": "f1v.7",
+          "raw_zl": "do,lchiody"
+        },
+        {
+          "word": "chokoishe",
+          "count": 1,
+          "loc": "f2v.8",
+          "raw_zl": "chokoishe"
+        },
+        {
+          "word": "soleeg",
+          "count": 1,
+          "loc": "f3r.16",
+          "raw_zl": "soleeg"
+        }
+      ]
+    }
+  ]
+}

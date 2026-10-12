@@ -1,0 +1,1945 @@
+{
+  "wave19_synthesis": {
+    "full_corpus_explained_tokens": 36051,
+    "full_corpus_explained_token_pct": 99.51,
+    "full_corpus_explained_types": 8876,
+    "full_corpus_explained_type_pct": 98.03,
+    "remaining_irreducible_hapax_tokens": 178,
+    "core_section_specialization_z": 70.64,
+    "paragraph_archetype_section_mi_z": 48.43,
+    "same_folio_para_carryover_z": 6.21
+  },
+  "reconstructed_pamphlets": [
+    {
+      "title": "Pamphlet I: Quire F, Bifolio B=3 (Herbal Currier B / Scribe Hand 2)",
+      "pages": [
+        {
+          "pamphlet_page_num": 1,
+          "folio": "f43r",
+          "meta": {
+            "Q": "F",
+            "B": "3",
+            "I": "H",
+            "L": "B",
+            "H": "2"
+          },
+          "n_paragraphs": 3,
+          "paragraphs": [
+            {
+              "para_index": 1,
+              "archetype": "ARCH_5_COSMOLOGICAL_ASTRONOMICAL_SPEC",
+              "n_lines": 6,
+              "n_words": 63,
+              "carried_over_sheet_stems": [],
+              "lines": [
+                {
+                  "loc": "<f43r.1>",
+                  "eva": "tarodaiin . ytedy . eeody . ofchtar . chcphedy . ypar . shol . folor . aiin . cphey . dar",
+                  "gloss": "[0+tarod(ROOT)+AIIN] [Y+t(ASTR)+EDY] PART(eeody) [O+kcht(ROOT)+AR] [0+chcth(AQUA)+EDY] [Y+t(ASTR)+AR] [0+ch(AQUA)+OL] [0+kol(ROOT)+OR] 1.UNIT(aiin) [0+cth(HERB)+EY] PART.CONJ(dar)"
+                },
+                {
+                  "loc": "<f43r.2>",
+                  "eva": "yteody . oteol . ytedy . ar . chety . dar . aiir . okaldy . daral . otchdy . daiin . dals",
+                  "gloss": "[Y+te(ASTR)+ODY] [O+t(ASTR)+EOL] [Y+t(ASTR)+EDY] PART.CONJ(ar) [0+chet(ASTR)+Y] PART.CONJ(dar) PART(aiir) [O+kal(ASTR)+DY] PART(daral) [O+tch(HERB)+DY] TAKE/FROM(daiin) PART(dals)"
+                },
+                {
+                  "loc": "<f43r.3>",
+                  "eva": "yty . yty . oty . she . ody . shy . olor . yteedy . kaiin . chky . qotydy . dar . aiin . ykam",
+                  "gloss": "[Y+t(ASTR)+Y] [Y+t(ASTR)+Y] [O+t(ASTR)+Y] [0+che(PHARM)+0] PART(ody) [0+ch(AQUA)+Y] PART(olor) [Y+te(ASTR)+EDY] [0+k(AQUA)+AIIN] [0+chk(HERB)+Y] [QO+ty(ROOT)+DY] PART.CONJ(dar) 1.UNIT(aiin) [Y+k(AQUA)+AM]"
+                },
+                {
+                  "loc": "<f43r.4>",
+                  "eva": "dasar . yteytedykar . arar . she . kalchdy . cholky . qotaly . chedy . oty . otam",
+                  "gloss": "PART(dasar) [Y+teytedyk(ROOT)+AR] PART(arar) [0+che(PHARM)+0] [0+kalch(ROOT)+DY] [0+cholk(ROOT)+Y] [QO+ta(ASTR)+LY] [0+ch(AQUA)+EDY] [O+t(ASTR)+Y] [O+t(ASTR)+AM]"
+                },
+                {
+                  "loc": "<f43r.5>",
+                  "eva": "ykar . chedy . shekody . qotody . qotar . okedy . dar . choetchy . dam . otain . ytam",
+                  "gloss": "[Y+k(AQUA)+AR] [0+ch(AQUA)+EDY] [S+hek(AQUA)+ODY] [QO+t(ASTR)+ODY] [QO+t(ASTR)+AR] [O+k(AQUA)+EDY] PART.CONJ(dar) [0+choetch(ROOT)+Y] PART(dam) [O+t(ASTR)+AIN] [Y+t(ASTR)+AM]"
+                },
+                {
+                  "loc": "<f43r.6>",
+                  "eva": "kchedy . chedy . daly . cheody . cheolkeepchy",
+                  "gloss": "[0+kch(HERB)+EDY] [0+ch(AQUA)+EDY] PART(daly) [0+che(PHARM)+ODY] [0+cheolketch(ROOT)+Y]"
+                }
+              ]
+            },
+            {
+              "para_index": 2,
+              "archetype": "ARCH_5_COSMOLOGICAL_ASTRONOMICAL_SPEC",
+              "n_lines": 3,
+              "n_words": 28,
+              "carried_over_sheet_stems": [
+                "chedy",
+                "cheody",
+                "kedy",
+                "kolor",
+                "shy",
+                "tain",
+                "tchdy",
+                "tedy"
+              ],
+              "lines": [
+                {
+                  "loc": "<f43r.7>",
+                  "eva": "pshesy . oteykshdy . opchdy . kedar . okedy . chdy . shoy . dytydy . pchdy . kedy . dam",
+                  "gloss": "[0+tche(ROOT)+SY] [O+teykch(ROOT)+DY] [O+tch(HERB)+DY] [0+ked(ROOT)+AR] [O+k(AQUA)+EDY] [0+ch(AQUA)+DY] [0+cho(HERB)+Y] [D+yty(ROOT)+DY] [0+tch(HERB)+DY] [0+k(AQUA)+EDY] PART(dam)"
+                },
+                {
+                  "loc": "<f43r.8>",
+                  "eva": "ytchedy . chedy . cheody . shy . qoiiin . sheeeky . chedy . dain . shy . ykolor . otaiin . old",
+                  "gloss": "[Y+tch(HERB)+EDY] [0+ch(AQUA)+EDY] [0+che(PHARM)+ODY] [0+ch(AQUA)+Y] PART(qoiiin) [S+hek(AQUA)+Y] [0+ch(AQUA)+EDY] TAKE/FROM(daiin) [0+ch(AQUA)+Y] [Y+kol(ROOT)+OR] [O+t(ASTR)+AIIN] PART(old)"
+                },
+                {
+                  "loc": "<f43r.9>",
+                  "eva": "dshedy . qotedy . dor . cheey . odain",
+                  "gloss": "[D+ch(AQUA)+EDY] [QO+t(ASTR)+EDY] PART(dor) [0+ch(AQUA)+EEY] PART(odain)"
+                }
+              ]
+            },
+            {
+              "para_index": 3,
+              "archetype": "ARCH_5_COSMOLOGICAL_ASTRONOMICAL_SPEC",
+              "n_lines": 5,
+              "n_words": 52,
+              "carried_over_sheet_stems": [
+                "kedy",
+                "shedy",
+                "shol",
+                "tar",
+                "tchdy",
+                "tchedy",
+                "tedy",
+                "ty"
+              ],
+              "lines": [
+                {
+                  "loc": "<f43r.10>",
+                  "eva": "pshdar . shed . ody . qotedy . yfchdy . qody . opchdy . daiin . qokedy . dydydy . qotar",
+                  "gloss": "[0+tchd(ROOT)+AR] [0+che(PHARM)+D] PART(ody) [QO+t(ASTR)+EDY] [Y+kch(HERB)+DY] PART(qody) [O+tch(HERB)+DY] TAKE/FROM(daiin) [QO+k(AQUA)+EDY] PART(dydydy) [QO+t(ASTR)+AR]"
+                },
+                {
+                  "loc": "<f43r.11>",
+                  "eva": "ytchedy . ty . shol . toldy . shody . oteedy . shdy . otolol . shd . olky . ytol . otary . chekydy",
+                  "gloss": "[Y+tch(HERB)+EDY] [0+t(ASTR)+Y] [0+ch(AQUA)+OL] [0+tol(PHARM)+DY] [0+ch(AQUA)+ODY] [O+te(ASTR)+EDY] [0+ch(AQUA)+DY] [O+tol(PHARM)+OL] [0+ch(AQUA)+D] [OL+k(AQUA)+Y] [Y+t(ASTR)+OL] [O+ta(ASTR)+RY] [0+cheky(ROOT)+DY]"
+                },
+                {
+                  "loc": "<f43r.12>",
+                  "eva": "dor . shol . qokolshedy . qotedy . qokeedy . qokody . okeedy . otedy . shedy . oty . ytydy . saiin",
+                  "gloss": "PART(dor) [0+ch(AQUA)+OL] [QO+kolch(ROOT)+EDY] [QO+t(ASTR)+EDY] [QO+ke(PHARM)+EDY] [QO+k(AQUA)+ODY] [O+ke(PHARM)+EDY] [O+t(ASTR)+EDY] [0+ch(AQUA)+EDY] [O+t(ASTR)+Y] [Y+ty(ROOT)+DY] PART(saiin)"
+                },
+                {
+                  "loc": "<f43r.13>",
+                  "eva": "tshed . qosheckhey . odeeedy . qeokeey . qotedy . daiin . shodody . shochol . chckhy . ykedydy",
+                  "gloss": "[0+tche(ROOT)+D] [QO+checkh(AQUA)+EY] PART(odeeedy) [Q+eok(ROOT)+EEY] [QO+t(ASTR)+EDY] TAKE/FROM(daiin) [0+chod(HERB)+ODY] [S+hoch(ROOT)+OL] [0+chckh(AQUA)+Y] [Y+kedy(ROOT)+DY]"
+                },
+                {
+                  "loc": "<f43r.14>",
+                  "eva": "ykeody . checkhy . choteey . odain . chy . chokoraiin",
+                  "gloss": "[Y+ke(PHARM)+ODY] [0+checkh(AQUA)+Y] [0+chot(ASTR)+EEY] PART(odain) [0+ch(AQUA)+Y] [0+chokor(ROOT)+AIIN]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pamphlet_page_num": 2,
+          "folio": "f43v",
+          "meta": {
+            "Q": "F",
+            "B": "3",
+            "I": "H",
+            "L": "B",
+            "H": "2"
+          },
+          "n_paragraphs": 3,
+          "paragraphs": [
+            {
+              "para_index": 1,
+              "archetype": "ARCH_5_COSMOLOGICAL_ASTRONOMICAL_SPEC",
+              "n_lines": 5,
+              "n_words": 48,
+              "carried_over_sheet_stems": [
+                "chdy",
+                "checkhy",
+                "chedy",
+                "chey",
+                "chky",
+                "kain",
+                "kaldy",
+                "kam"
+              ],
+              "lines": [
+                {
+                  "loc": "<f43v.1>",
+                  "eva": "pdsairy . dalteoshy . doly . sheet . or . arodl . lkeo . r . araiin . otedy . opolde",
+                  "gloss": "[0+tdsai(ROOT)+RY] [DAL+teoch(ROOT)+Y] PART(doly) [S+het(ROOT)+0] PART.CONJ(or) PART(arodl) [L+ke(PHARM)+O] PART(r) PART(araiin) [O+t(ASTR)+EDY] [O+tolde(ROOT)+0]"
+                },
+                {
+                  "loc": "<f43v.2>",
+                  "eva": "shedy . octhy . otedy . chedy . dar . chesy . okeody . oky . okaldy . kchdy . okar",
+                  "gloss": "[0+ch(AQUA)+EDY] [O+cth(HERB)+Y] [O+t(ASTR)+EDY] [0+ch(AQUA)+EDY] PART.CONJ(dar) [0+che(PHARM)+SY] [O+ke(PHARM)+ODY] [O+k(AQUA)+Y] [O+kal(ASTR)+DY] [0+kch(HERB)+DY] [O+k(AQUA)+AR]"
+                },
+                {
+                  "loc": "<f43v.3>",
+                  "eva": "tody . teedy . qot . chocthy . chky . oky . chdy . okedy . ykaiin . chey . ody . dary",
+                  "gloss": "[0+t(ASTR)+ODY] [0+te(ASTR)+EDY] [QO+t(ASTR)+0] [0+chocth(HERB)+Y] [0+chk(HERB)+Y] [O+k(AQUA)+Y] [0+ch(AQUA)+DY] [O+k(AQUA)+EDY] [Y+k(AQUA)+AIIN] [0+ch(AQUA)+EY] PART(ody) PART(dary)"
+                },
+                {
+                  "loc": "<f43v.4>",
+                  "eva": "deyykeedy . chees . ain . shy . qocthedy . chey . qokar . checkhy . okam",
+                  "gloss": "[D+eyyke(ROOT)+EDY] [0+che(PHARM)+S] 1.UNIT(aiin) [0+ch(AQUA)+Y] [QO+cth(HERB)+EDY] [0+ch(AQUA)+EY] [QO+k(AQUA)+AR] [0+checkh(AQUA)+Y] [O+k(AQUA)+AM]"
+                },
+                {
+                  "loc": "<f43v.5>",
+                  "eva": "qokchedy . oralody . otedol . chcthdy . chtey",
+                  "gloss": "[QO+kch(HERB)+EDY] PART(oralody) [O+ted(ASTR)+OL] [0+chcth(AQUA)+DY] [0+cht(HERB)+EY]"
+                }
+              ]
+            },
+            {
+              "para_index": 2,
+              "archetype": "ARCH_5_COSMOLOGICAL_ASTRONOMICAL_SPEC",
+              "n_lines": 4,
+              "n_words": 32,
+              "carried_over_sheet_stems": [
+                "chedy",
+                "kar",
+                "kedy",
+                "keody",
+                "ot",
+                "shedy",
+                "tain",
+                "tam"
+              ],
+              "lines": [
+                {
+                  "loc": "<f43v.6>",
+                  "eva": "tolkchdy . okedy . qokedal . shedy . okedal . shedy . pchdol . otey . dalorain",
+                  "gloss": "[0+tolkch(ROOT)+DY] [O+k(AQUA)+EDY] [QO+ked(ROOT)+AL] [0+ch(AQUA)+EDY] [O+ked(ROOT)+AL] [0+ch(AQUA)+EDY] [0+tchd(ROOT)+OL] [O+t(ASTR)+EY] PART(dalorain)"
+                },
+                {
+                  "loc": "<f43v.7>",
+                  "eva": "ytshedy . ykeody . oykeedy . chedy . tedy . chcthy . otam . ot . ytaiin . otas",
+                  "gloss": "[Y+tch(HERB)+EDY] [Y+ke(PHARM)+ODY] [O+yke(ROOT)+EDY] [0+ch(AQUA)+EDY] [0+t(ASTR)+EDY] [0+chcth(AQUA)+Y] [O+t(ASTR)+AM] [O+t(ASTR)+0] [Y+t(ASTR)+AIIN] [O+ta(ASTR)+S]"
+                },
+                {
+                  "loc": "<f43v.8>",
+                  "eva": "shetcheodchs . ochedy . oteody . chedy . chody . daiin . sheody . ykar . chef",
+                  "gloss": "[S+hetcheodch(ROOT)+S] [O+ch(AQUA)+EDY] [O+te(ASTR)+ODY] [0+ch(AQUA)+EDY] [0+ch(AQUA)+ODY] TAKE/FROM(daiin) [0+che(PHARM)+ODY] [Y+k(AQUA)+AR] [0+chek(ASTR)+0]"
+                },
+                {
+                  "loc": "<f43v.9>",
+                  "eva": "ytchdy . olos . aiin . ockhy",
+                  "gloss": "[Y+tch(HERB)+DY] PART(olos) 1.UNIT(aiin) [O+ckh(HERB)+Y]"
+                }
+              ]
+            },
+            {
+              "para_index": 3,
+              "archetype": "ARCH_5_COSMOLOGICAL_ASTRONOMICAL_SPEC",
+              "n_lines": 7,
+              "n_words": 64,
+              "carried_over_sheet_stems": [
+                "chckhy",
+                "chdy",
+                "chedy",
+                "cheody",
+                "chety",
+                "chey",
+                "chy",
+                "cthey"
+              ],
+              "lines": [
+                {
+                  "loc": "<f43v.10>",
+                  "eva": "tarchor . ar . aldar . chdy . daldar . chepy . yteedy . sypcheypchedy . yfor",
+                  "gloss": "[0+tarch(ROOT)+OR] PART.CONJ(ar) PART(aldar) [0+ch(AQUA)+DY] PART(daldar) [0+chet(ASTR)+Y] [Y+te(ASTR)+EDY] [S+ytcheytch(ROOT)+EDY] [Y+k(AQUA)+OR]"
+                },
+                {
+                  "loc": "<f43v.11>",
+                  "eva": "ysheey . orair . yteey . cheody . ar . sheo . qody . chckhy . chdy . choty . she",
+                  "gloss": "[Y+ch(AQUA)+EEY] PART(orair) [Y+t(ASTR)+EEY] [0+che(PHARM)+ODY] PART.CONJ(ar) [0+che(PHARM)+O] PART(qody) [0+chckh(AQUA)+Y] [0+ch(AQUA)+DY] [0+chot(ASTR)+Y] [0+che(PHARM)+0]"
+                },
+                {
+                  "loc": "<f43v.12>",
+                  "eva": "yshee . kedy . dar . chey . qotedy . etaiin . chedy . cthey . oteol . oraiin . odain",
+                  "gloss": "[Y+che(PHARM)+0] [0+k(AQUA)+EDY] PART.CONJ(dar) [0+ch(AQUA)+EY] [QO+t(ASTR)+EDY] [0+et(ROOT)+AIIN] [0+ch(AQUA)+EDY] [0+cth(HERB)+EY] [O+t(ASTR)+EOL] PART(oraiin) PART(odain)"
+                },
+                {
+                  "loc": "<f43v.13>",
+                  "eva": "dshedy . tedy . ckhedy . chekcheey . dykeody . otedy . cheetam . okedar . amam",
+                  "gloss": "[D+ch(AQUA)+EDY] [0+t(ASTR)+EDY] [0+ckh(HERB)+EDY] [0+chekch(ROOT)+EEY] [D+yke(ROOT)+ODY] [O+t(ASTR)+EDY] [0+chet(ASTR)+AM] [O+ked(ROOT)+AR] PART(amam)"
+                },
+                {
+                  "loc": "<f43v.14>",
+                  "eva": "dykeedain . chedy . okeedy . chedal . olkey . cheky . choalchedy . oteorom",
+                  "gloss": "[D+yked(ROOT)+AIN] [0+ch(AQUA)+EDY] [O+ke(PHARM)+EDY] [0+ched(PHARM)+AL] [OL+k(AQUA)+EY] [0+chek(ASTR)+Y] [0+choalch(ROOT)+EDY] [O+teor(ROOT)+OM]"
+                },
+                {
+                  "loc": "<f43v.15>",
+                  "eva": "oteod . qolkeey . kaldy . chy . darody . qokeey . kol . dary . taros",
+                  "gloss": "[O+teo(ASTR)+D] [QOL+k(AQUA)+EEY] [0+kal(ASTR)+DY] [0+ch(AQUA)+Y] PART(darody) [QO+k(AQUA)+EEY] [0+k(AQUA)+OL] PART(dary) [0+taro(ROOT)+S]"
+                },
+                {
+                  "loc": "<f43v.16>",
+                  "eva": "ol . eees . aiin . oloaiin . oteos . qoky . chey",
+                  "gloss": "LIQ.DET(ol) PART(eees) 1.UNIT(aiin) PART(oloaiin) [O+teo(ASTR)+S] [QO+k(AQUA)+Y] [0+ch(AQUA)+EY]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pamphlet_page_num": 3,
+          "folio": "f46r",
+          "meta": {
+            "Q": "F",
+            "B": "3",
+            "I": "H",
+            "L": "B",
+            "H": "2"
+          },
+          "n_paragraphs": 5,
+          "paragraphs": [
+            {
+              "para_index": 1,
+              "archetype": "ARCH_1_BOTANICAL_TAXONOMIC_HEAD",
+              "n_lines": 5,
+              "n_words": 58,
+              "carried_over_sheet_stems": [
+                "chckhy",
+                "chdy",
+                "chety",
+                "chey",
+                "heky",
+                "het",
+                "kaldy",
+                "kar"
+              ],
+              "lines": [
+                {
+                  "loc": "<f46r.1>",
+                  "eva": "pcheocphy . qotedy . chety . dy . chepchx . yfcheky . osaiin . shee . qoteol . daiin . shee . dy . daly",
+                  "gloss": "[0+tcheocth(ROOT)+Y] [QO+t(ASTR)+EDY] [0+chet(ASTR)+Y] PART(dy) [0+chetchx(ROOT)+0] [Y+kchek(ROOT)+Y] PART(osaiin) [0+che(PHARM)+0] [QO+t(ASTR)+EOL] TAKE/FROM(daiin) [0+che(PHARM)+0] PART(dy) PART(daly)"
+                },
+                {
+                  "loc": "<f46r.2>",
+                  "eva": "sodaiin . sheeoly . qoor . sheoteoly . chckhy . daiin . shek . sheet . shedy . xor . aiin . sheckhy",
+                  "gloss": "PART(sodaiin) [0+cheo(PHARM)+LY] PART(qoor) [S+heoteo(ROOT)+LY] [0+chckh(AQUA)+Y] TAKE/FROM(daiin) [S+hek(AQUA)+0] [S+het(ROOT)+0] [0+ch(AQUA)+EDY] PART(xor) 1.UNIT(aiin) [S+heckh(AQUA)+Y]"
+                },
+                {
+                  "loc": "<f46r.3>",
+                  "eva": "daiin . shor . ykal . chey . daiin . she . dalshedy . qokol . s . aiin . shee . ykar . daiin",
+                  "gloss": "TAKE/FROM(daiin) [0+ch(AQUA)+OR] [Y+k(AQUA)+AL] [0+ch(AQUA)+EY] TAKE/FROM(daiin) [0+che(PHARM)+0] [DAL+ch(AQUA)+EDY] [QO+k(AQUA)+OL] PART(s) 1.UNIT(aiin) [0+che(PHARM)+0] [Y+k(AQUA)+AR] TAKE/FROM(daiin)"
+                },
+                {
+                  "loc": "<f46r.4>",
+                  "eva": "tshedar . chol . kaldy . chckhy . qokaldy . chekal . chckhy . sheky . sheky . daloy",
+                  "gloss": "[0+tched(PHARM)+AR] [0+ch(AQUA)+OL] [0+kal(ASTR)+DY] [0+chckh(AQUA)+Y] [QO+kal(ASTR)+DY] [0+chek(ASTR)+AL] [0+chckh(AQUA)+Y] [S+hek(AQUA)+Y] [S+hek(AQUA)+Y] PART(daloy)"
+                },
+                {
+                  "loc": "<f46r.5>",
+                  "eva": "okeedy . shekeey . ykey . shedy . chdy . shky . qotsheod . ytedy . ytey . cheor",
+                  "gloss": "[O+ke(PHARM)+EDY] [S+hek(AQUA)+EEY] [Y+k(AQUA)+EY] [0+ch(AQUA)+EDY] [0+ch(AQUA)+DY] [S+hk(PHARM)+Y] [QO+tcheo(ROOT)+D] [Y+t(ASTR)+EDY] [Y+t(ASTR)+EY] [0+ch(AQUA)+EOR]"
+                }
+              ]
+            },
+            {
+              "para_index": 2,
+              "archetype": "ARCH_5_COSMOLOGICAL_ASTRONOMICAL_SPEC",
+              "n_lines": 3,
+              "n_words": 35,
+              "carried_over_sheet_stems": [
+                "chckhy",
+                "chcthy",
+                "chdy",
+                "chedy",
+                "chey",
+                "chky",
+                "chody",
+                "chy"
+              ],
+              "lines": [
+                {
+                  "loc": "<f46r.6>",
+                  "eva": "tedy . dytedy . shee . keedy . ypchedy . chdalor . sheedy . odosaiin . opchedy . dykedy . chdam",
+                  "gloss": "[0+t(ASTR)+EDY] [D+yt(ROOT)+EDY] [0+che(PHARM)+0] [0+ke(PHARM)+EDY] [Y+tch(HERB)+EDY] [0+chdal(ROOT)+OR] [0+che(PHARM)+EDY] PART(odosaiin) [O+tch(HERB)+EDY] [D+yk(ROOT)+EDY] [0+chd(ASTR)+AM]"
+                },
+                {
+                  "loc": "<f46r.7>",
+                  "eva": "xol . shol . qokaiin . ytchdy . qokchdy . sar . chdy . cthy . otedy . chedy . qokar . chcthy . m",
+                  "gloss": "PART(xol) [0+ch(AQUA)+OL] [QO+k(AQUA)+AIIN] [Y+tch(HERB)+DY] [QO+kch(HERB)+DY] PART.CONJ(sar) [0+ch(AQUA)+DY] [0+cth(HERB)+Y] [O+t(ASTR)+EDY] [0+ch(AQUA)+EDY] [QO+k(AQUA)+AR] [0+chcth(AQUA)+Y] PART(m)"
+                },
+                {
+                  "loc": "<f46r.8>",
+                  "eva": "dsheol . chy . chckhy . shy . shdy . chky . chody . cthdy . s . cheos . chey",
+                  "gloss": "[D+ch(AQUA)+EOL] [0+ch(AQUA)+Y] [0+chckh(AQUA)+Y] [0+ch(AQUA)+Y] [0+ch(AQUA)+DY] [0+chk(HERB)+Y] [0+ch(AQUA)+ODY] [0+cth(HERB)+DY] PART(s) [0+cheo(PHARM)+S] [0+ch(AQUA)+EY]"
+                }
+              ]
+            },
+            {
+              "para_index": 3,
+              "archetype": "ARCH_1_BOTANICAL_TAXONOMIC_HEAD",
+              "n_lines": 2,
+              "n_words": 21,
+              "carried_over_sheet_stems": [
+                "hky",
+                "kchdy",
+                "kchedy",
+                "shdy",
+                "sheol",
+                "shol",
+                "shy",
+                "ty"
+              ],
+              "lines": [
+                {
+                  "loc": "<f46r.9>",
+                  "eva": "tshdy . shdy . fchedy . dyfchdy . shol . keesytaly . fchdy . dy . karal . shky . yty . dardam",
+                  "gloss": "[0+tch(HERB)+DY] [0+ch(AQUA)+DY] [0+kch(HERB)+EDY] [D+ykch(ROOT)+DY] [0+ch(AQUA)+OL] [0+kesyta(ROOT)+LY] [0+kch(HERB)+DY] PART(dy) [0+kar(ROOT)+AL] [S+hk(PHARM)+Y] [Y+t(ASTR)+Y] PART(dardam)"
+                },
+                {
+                  "loc": "<f46r.10>",
+                  "eva": "tchey . shy . chkal . chd . qokdy . shdy . adoldy . olaiir . sheol",
+                  "gloss": "[0+tch(HERB)+EY] [0+ch(AQUA)+Y] [0+chk(HERB)+AL] [0+ch(AQUA)+D] [QO+k(AQUA)+DY] [0+ch(AQUA)+DY] PART(adoldy) PART(olaiir) [0+ch(AQUA)+EOL]"
+                }
+              ]
+            },
+            {
+              "para_index": 4,
+              "archetype": "ARCH_3_QUANTITATIVE_MEASURE_FORMULARY",
+              "n_lines": 3,
+              "n_words": 31,
+              "carried_over_sheet_stems": [
+                "chdy",
+                "ches",
+                "chol",
+                "heckhy",
+                "kar",
+                "kchedy",
+                "key",
+                "shd"
+              ],
+              "lines": [
+                {
+                  "loc": "<f46r.11>",
+                  "eva": "pchdair . shd . shepdaiin . shdy . oedy . qopchdy . ldy . shear . opdarshdy . s . yfchedy",
+                  "gloss": "[0+tchda(ROOT)+IR] [0+ch(AQUA)+D] [S+hetd(ROOT)+AIIN] [0+ch(AQUA)+DY] PART(oedy) [QO+tch(HERB)+DY] PART(ldy) [0+ch(AQUA)+EAR] [O+tdarch(ROOT)+DY] PART(s) [Y+kch(HERB)+EDY]"
+                },
+                {
+                  "loc": "<f46r.12>",
+                  "eva": "techy . daiin . sheockhy . choky . r . aiin . ches . shey . kar . sheckhy . chdy . chckham",
+                  "gloss": "[0+tech(ROOT)+Y] TAKE/FROM(daiin) [S+heockh(ROOT)+Y] [0+chok(HERB)+Y] PART(r) 1.UNIT(aiin) [0+che(PHARM)+S] [0+ch(AQUA)+EY] [0+k(AQUA)+AR] [S+heckh(AQUA)+Y] [0+ch(AQUA)+DY] [0+chckh(AQUA)+AM]"
+                },
+                {
+                  "loc": "<f46r.13>",
+                  "eva": "arakaiin . shol . okeey . chol . dar . ols . lain . y",
+                  "gloss": "[AR+ak(ROOT)+AIIN] [0+ch(AQUA)+OL] [O+k(AQUA)+EEY] [0+ch(AQUA)+OL] PART.CONJ(dar) PART(ols) PART(lain) PART(y)"
+                }
+              ]
+            },
+            {
+              "para_index": 5,
+              "archetype": "ARCH_5_COSMOLOGICAL_ASTRONOMICAL_SPEC",
+              "n_lines": 2,
+              "n_words": 11,
+              "carried_over_sheet_stems": [
+                "chdam",
+                "kal",
+                "kam",
+                "kar",
+                "keody"
+              ],
+              "lines": [
+                {
+                  "loc": "<f46r.14>",
+                  "eva": "otchealkar . sholkshy . qokar . cheol . okal . dam . chdam . qokam",
+                  "gloss": "[O+tchealk(ROOT)+AR] [S+holkch(ROOT)+Y] [QO+k(AQUA)+AR] [0+ch(AQUA)+EOL] [O+k(AQUA)+AL] PART(dam) [0+chd(ASTR)+AM] [QO+k(AQUA)+AM]"
+                },
+                {
+                  "loc": "<f46r.15>",
+                  "eva": "qokar . sholkal . alkeody",
+                  "gloss": "[QO+k(AQUA)+AR] [S+holk(ROOT)+AL] [AL+ke(PHARM)+ODY]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pamphlet_page_num": 4,
+          "folio": "f46v",
+          "meta": {
+            "Q": "F",
+            "B": "3",
+            "I": "H",
+            "L": "B",
+            "H": "2"
+          },
+          "n_paragraphs": 1,
+          "paragraphs": [
+            {
+              "para_index": 1,
+              "archetype": "ARCH_5_COSMOLOGICAL_ASTRONOMICAL_SPEC",
+              "n_lines": 13,
+              "n_words": 104,
+              "carried_over_sheet_stems": [
+                "chckhy",
+                "chcthy",
+                "chdam",
+                "chdy",
+                "chedy",
+                "cheky",
+                "chey",
+                "chody"
+              ],
+              "lines": [
+                {
+                  "loc": "<f46v.1>",
+                  "eva": "podylshed . ypdyshedy . opchedy . ytedy . oepchol . yfchey . tochsy . okas . ykchdy . daiin",
+                  "gloss": "[0+todylche(ROOT)+D] [Y+tdych(ROOT)+EDY] [O+tch(HERB)+EDY] [Y+t(ASTR)+EDY] [O+etch(ROOT)+OL] [Y+kch(HERB)+EY] [0+toch(ROOT)+SY] [O+ka(ASTR)+S] [Y+kch(HERB)+DY] TAKE/FROM(daiin)"
+                },
+                {
+                  "loc": "<f46v.2>",
+                  "eva": "ytairaiin . otchdy . okaly . daiin . qokedy . otar . ar . oldy . otedy . saim . okey . tody . daiin",
+                  "gloss": "[Y+tair(ROOT)+AIIN] [O+tch(HERB)+DY] [O+ka(ASTR)+LY] TAKE/FROM(daiin) [QO+k(AQUA)+EDY] [O+t(ASTR)+AR] PART.CONJ(ar) PART(oldy) [O+t(ASTR)+EDY] PART(saim) [O+k(AQUA)+EY] [0+t(ASTR)+ODY] TAKE/FROM(daiin)"
+                },
+                {
+                  "loc": "<f46v.3>",
+                  "eva": "ytchey . keody . chockhdy . chotal . okalshdy . shy . qokar . oty . qoty . shedy . chedy . dam",
+                  "gloss": "[Y+tch(HERB)+EY] [0+ke(PHARM)+ODY] [0+chockh(PHARM)+DY] [0+chot(ASTR)+AL] [O+kalch(ROOT)+DY] [0+ch(AQUA)+Y] [QO+k(AQUA)+AR] [O+t(ASTR)+Y] [QO+t(ASTR)+Y] [0+ch(AQUA)+EDY] [0+ch(AQUA)+EDY] PART(dam)"
+                },
+                {
+                  "loc": "<f46v.4>",
+                  "eva": "ydaiin . chckhy . chdal . olar . chckhdy . chdody . tar . cham . kedy . daiin . ykaiir . shckhefy",
+                  "gloss": "PART(ydaiin) [0+chckh(AQUA)+Y] [0+chd(ASTR)+AL] PART(olar) [0+chckh(AQUA)+DY] [0+chd(ASTR)+ODY] [0+t(ASTR)+AR] [0+ch(AQUA)+AM] [0+k(AQUA)+EDY] TAKE/FROM(daiin) [Y+kai(ROOT)+IR] [S+hckhek(ROOT)+Y]"
+                },
+                {
+                  "loc": "<f46v.5>",
+                  "eva": "lodaiin . shedy . qokedy . chdy . okedy . dykaly . daiin . chedy . okeedy . sarair . cthy",
+                  "gloss": "PART(lodaiin) [0+ch(AQUA)+EDY] [QO+k(AQUA)+EDY] [0+ch(AQUA)+DY] [O+k(AQUA)+EDY] [D+yka(ROOT)+LY] TAKE/FROM(daiin) [0+ch(AQUA)+EDY] [O+ke(PHARM)+EDY] PART(sarair) [0+cth(HERB)+Y]"
+                },
+                {
+                  "loc": "<f46v.6>",
+                  "eva": "tor . aiirchar . shedy . olaiin . qotedy . sheedy . qokaldy . qokedy . doir . chody . cthey . m",
+                  "gloss": "[0+t(ASTR)+OR] [0+airch(ROOT)+AR] [0+ch(AQUA)+EDY] PART(olaiin) [QO+t(ASTR)+EDY] [0+che(PHARM)+EDY] [QO+kal(ASTR)+DY] [QO+k(AQUA)+EDY] PART(doir) [0+ch(AQUA)+ODY] [0+cth(HERB)+EY] PART(m)"
+                },
+                {
+                  "loc": "<f46v.7>",
+                  "eva": "dchedy . cheeky . damched . lchedy . chedy",
+                  "gloss": "[D+ch(AQUA)+EDY] [0+chek(ASTR)+Y] [DA+mche(ROOT)+D] [L+ch(AQUA)+EDY] [0+ch(AQUA)+EDY]"
+                },
+                {
+                  "loc": "<f46v.8>",
+                  "eva": "okeedchsy . qokeedy . chetedar . or . aiy",
+                  "gloss": "[O+kedch(ROOT)+SY] [QO+ke(PHARM)+EDY] [0+cheted(ROOT)+AR] PART.CONJ(or) PART(aiy)"
+                },
+                {
+                  "loc": "<f46v.9>",
+                  "eva": "yteedy . shedy . cheedy . chtedy . daim",
+                  "gloss": "[Y+te(ASTR)+EDY] [0+ch(AQUA)+EDY] [0+che(PHARM)+EDY] [0+cht(HERB)+EDY] PART(daim)"
+                },
+                {
+                  "loc": "<f46v.10>",
+                  "eva": "sheol . ar . chey . okaiin . daim . oty . om",
+                  "gloss": "[0+ch(AQUA)+EOL] PART.CONJ(ar) [0+ch(AQUA)+EY] [O+k(AQUA)+AIIN] PART(daim) [O+t(ASTR)+Y] PART(om)"
+                },
+                {
+                  "loc": "<f46v.11>",
+                  "eva": "tolshey . otedy . chocpheod . oty . dam",
+                  "gloss": "[0+tolch(ROOT)+EY] [O+t(ASTR)+EDY] [0+choctheo(ROOT)+D] [O+t(ASTR)+Y] PART(dam)"
+                },
+                {
+                  "loc": "<f46v.12>",
+                  "eva": "dair . aly . chdam . chcthy . chdam",
+                  "gloss": "PART(dair) PART(aly) [0+chd(ASTR)+AM] [0+chcth(AQUA)+Y] [0+chd(ASTR)+AM]"
+                },
+                {
+                  "loc": "<f46v.13>",
+                  "eva": "ykar . chedy",
+                  "gloss": "[Y+k(AQUA)+AR] [0+ch(AQUA)+EDY]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Pamphlet II: Quire E, Bifolio B=2 (Herbal Currier B / Scribe Hand 2)",
+      "pages": [
+        {
+          "pamphlet_page_num": 1,
+          "folio": "f34r",
+          "meta": {
+            "Q": "E",
+            "B": "2",
+            "I": "H",
+            "L": "B",
+            "H": "2"
+          },
+          "n_paragraphs": 2,
+          "paragraphs": [
+            {
+              "para_index": 1,
+              "archetype": "ARCH_5_COSMOLOGICAL_ASTRONOMICAL_SPEC",
+              "n_lines": 9,
+              "n_words": 86,
+              "carried_over_sheet_stems": [],
+              "lines": [
+                {
+                  "loc": "<f34r.1>",
+                  "eva": "pcheoepchy . olar . yl . yfody . okedody . shod . ololdy . dar . ytey",
+                  "gloss": "[0+tcheoetch(ROOT)+Y] PART(olar) PART(yl) [Y+k(AQUA)+ODY] [O+ked(ROOT)+ODY] [0+cho(HERB)+D] PART(ololdy) PART.CONJ(dar) [Y+t(ASTR)+EY]"
+                },
+                {
+                  "loc": "<f34r.2>",
+                  "eva": "ytar . sheody . olam . octhedy . otedy . chdain . oltey . kchyty",
+                  "gloss": "[Y+t(ASTR)+AR] [0+che(PHARM)+ODY] PART(olam) [O+cth(HERB)+EDY] [O+t(ASTR)+EDY] [0+chd(ASTR)+AIN] [OL+t(ASTR)+EY] [0+kchyt(ROOT)+Y]"
+                },
+                {
+                  "loc": "<f34r.3>",
+                  "eva": "qotedy . chyty . chdaly . dar . chd . otedy . qotol . okedy . dody . ody . kam",
+                  "gloss": "[QO+t(ASTR)+EDY] [0+chyt(ROOT)+Y] [0+chda(ROOT)+LY] PART.CONJ(dar) [0+ch(AQUA)+D] [O+t(ASTR)+EDY] [QO+t(ASTR)+OL] [O+k(AQUA)+EDY] PART(dody) PART(ody) [0+k(AQUA)+AM]"
+                },
+                {
+                  "loc": "<f34r.4>",
+                  "eva": "ytedy . daiin . chey . aiin . shy . chckhy . oltchedy . otedy . dam . checthy",
+                  "gloss": "[Y+t(ASTR)+EDY] TAKE/FROM(daiin) [0+ch(AQUA)+EY] 1.UNIT(aiin) [0+ch(AQUA)+Y] [0+chckh(AQUA)+Y] [OL+tch(HERB)+EDY] [O+t(ASTR)+EDY] PART(dam) [0+checth(AQUA)+Y]"
+                },
+                {
+                  "loc": "<f34r.5>",
+                  "eva": "qoteedy . shedy . shedy . ol . okes . ar . ykeedl . chedy . otey . okaiin",
+                  "gloss": "[QO+te(ASTR)+EDY] [0+ch(AQUA)+EDY] [0+ch(AQUA)+EDY] LIQ.DET(ol) [O+ke(PHARM)+S] PART.CONJ(ar) [Y+ked(ROOT)+L] [0+ch(AQUA)+EDY] [O+t(ASTR)+EY] [O+k(AQUA)+AIIN]"
+                },
+                {
+                  "loc": "<f34r.6>",
+                  "eva": "oteol . chekey . chetey . oll . chesy . daiin . cheky . fas . aiir . amg",
+                  "gloss": "[O+t(ASTR)+EOL] [0+chek(ASTR)+EY] [0+chet(ASTR)+EY] PART(oll) [0+che(PHARM)+SY] TAKE/FROM(daiin) [0+chek(ASTR)+Y] [0+ka(ASTR)+S] PART(aiir) PART(amg)"
+                },
+                {
+                  "loc": "<f34r.7>",
+                  "eva": "qokedy . dal . chdy . olchy . ykchy . ykedy . qokchdy . s . as . oldam",
+                  "gloss": "[QO+k(AQUA)+EDY] LIQ.DET(dal) [0+ch(AQUA)+DY] [OL+ch(AQUA)+Y] [Y+kch(HERB)+Y] [Y+k(AQUA)+EDY] [QO+kch(HERB)+DY] PART(s) PART(as) PART(oldam)"
+                },
+                {
+                  "loc": "<f34r.8>",
+                  "eva": "otchy . qoky . olk . checkhy . ysair . air . chodar . tam",
+                  "gloss": "[O+tch(HERB)+Y] [QO+k(AQUA)+Y] [OL+k(AQUA)+0] [0+checkh(AQUA)+Y] PART(ysair) PART(air) [0+chod(HERB)+AR] [0+t(ASTR)+AM]"
+                },
+                {
+                  "loc": "<f34r.9>",
+                  "eva": "ykchdy . qod . ar . ch . ackhy . or . lchey . todaly . okaiin . dardy",
+                  "gloss": "[Y+kch(HERB)+DY] PART(qod) PART.CONJ(ar) [0+ch(AQUA)+0] [0+ackh(ROOT)+Y] PART.CONJ(or) [L+ch(AQUA)+EY] [0+toda(ROOT)+LY] [O+k(AQUA)+AIIN] PART(dardy)"
+                }
+              ]
+            },
+            {
+              "para_index": 2,
+              "archetype": "ARCH_1_BOTANICAL_TAXONOMIC_HEAD",
+              "n_lines": 6,
+              "n_words": 53,
+              "carried_over_sheet_stems": [
+                "chckhy",
+                "cheky",
+                "chey",
+                "kchdy",
+                "kedy",
+                "ky",
+                "tchedy",
+                "tol"
+              ],
+              "lines": [
+                {
+                  "loc": "<f34r.10>",
+                  "eva": "tcheo . olchckhy . oly . otchdy . chefalchhs",
+                  "gloss": "[0+tche(ROOT)+O] [OL+chckh(AQUA)+Y] PART(oly) [O+tch(HERB)+DY] [0+chekalchh(ROOT)+S]"
+                },
+                {
+                  "loc": "<f34r.11>",
+                  "eva": "qokeey . sh . kaldaiin . cheky . cthdaly . otchedy . chty . saiin",
+                  "gloss": "[QO+k(AQUA)+EEY] [0+ch(AQUA)+0] [0+kald(ROOT)+AIIN] [0+chek(ASTR)+Y] [0+cthda(ROOT)+LY] [O+tch(HERB)+EDY] [0+cht(HERB)+Y] PART(saiin)"
+                },
+                {
+                  "loc": "<f34r.12>",
+                  "eva": "char . aiin . okorar . tol . qokar . chckhy . chdal . ked . qokar . ar . daiin . dam",
+                  "gloss": "[0+ch(AQUA)+AR] 1.UNIT(aiin) [O+kor(ROOT)+AR] [0+t(ASTR)+OL] [QO+k(AQUA)+AR] [0+chckh(AQUA)+Y] [0+chd(ASTR)+AL] [0+ke(PHARM)+D] [QO+k(AQUA)+AR] PART.CONJ(ar) TAKE/FROM(daiin) PART(dam)"
+                },
+                {
+                  "loc": "<f34r.13>",
+                  "eva": "ykeo . lor . ochey . oly . okaly . kechdy . qokchdy . chor . ar . aiiin . daly",
+                  "gloss": "[Y+ke(PHARM)+O] PART(lor) [O+ch(AQUA)+EY] PART(oly) [O+ka(ASTR)+LY] [0+kech(PHARM)+DY] [QO+kch(HERB)+DY] [0+ch(AQUA)+OR] PART.CONJ(ar) PART(aiiin) PART(daly)"
+                },
+                {
+                  "loc": "<f34r.14>",
+                  "eva": "or . ar . ykar . olal . oky . chody . qokalchedy . chcthedy . cheky . daram",
+                  "gloss": "PART.CONJ(or) PART.CONJ(ar) [Y+k(AQUA)+AR] PART(olal) [O+k(AQUA)+Y] [0+ch(AQUA)+ODY] [QO+kalch(ROOT)+EDY] [0+chcth(AQUA)+EDY] [0+chek(ASTR)+Y] PART(daram)"
+                },
+                {
+                  "loc": "<f34r.15>",
+                  "eva": "sair . chekar . cheky . shek . cholchedy . qokedy . ykcheolchcthy",
+                  "gloss": "PART(sair) [0+chek(ASTR)+AR] [0+chek(ASTR)+Y] [S+hek(AQUA)+0] [0+cholch(ROOT)+EDY] [QO+k(AQUA)+EDY] [Y+kcheolchcth(ROOT)+Y]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pamphlet_page_num": 2,
+          "folio": "f34v",
+          "meta": {
+            "Q": "E",
+            "B": "2",
+            "I": "H",
+            "L": "B",
+            "H": "2"
+          },
+          "n_paragraphs": 2,
+          "paragraphs": [
+            {
+              "para_index": 1,
+              "archetype": "ARCH_1_BOTANICAL_TAXONOMIC_HEAD",
+              "n_lines": 5,
+              "n_words": 53,
+              "carried_over_sheet_stems": [
+                "char",
+                "chckhy",
+                "chdain",
+                "chdal",
+                "chdy",
+                "chedy",
+                "kar",
+                "kchdy"
+              ],
+              "lines": [
+                {
+                  "loc": "<f34v.1>",
+                  "eva": "kechdy . chdy . chefchy . shdy . qopchdy . shdydy . chdalchdy . ypchdy . chcthdy . spaiin",
+                  "gloss": "[0+kech(PHARM)+DY] [0+ch(AQUA)+DY] [0+chekch(ROOT)+Y] [0+ch(AQUA)+DY] [QO+tch(HERB)+DY] [0+chdy(ROOT)+DY] [0+chdalch(ROOT)+DY] [Y+tch(HERB)+DY] [0+chcth(AQUA)+DY] [S+t(ASTR)+AIIN]"
+                },
+                {
+                  "loc": "<f34v.2>",
+                  "eva": "tol . qokchy . dychedy . okchy . chckhdy . chdaiin . ckhy . loees . ykar . aiin . oldam",
+                  "gloss": "[0+t(ASTR)+OL] [QO+kch(HERB)+Y] [D+ych(ROOT)+EDY] [O+kch(HERB)+Y] [0+chckh(AQUA)+DY] [0+chd(ASTR)+AIIN] [0+ckh(HERB)+Y] PART(loees) [Y+k(AQUA)+AR] 1.UNIT(aiin) PART(oldam)"
+                },
+                {
+                  "loc": "<f34v.3>",
+                  "eva": "ytal . shor . chdal . olchdy . char . or . ol . kedaiiin . chcthy . okchdy . chckhy . dasam",
+                  "gloss": "[Y+t(ASTR)+AL] [0+ch(AQUA)+OR] [0+chd(ASTR)+AL] [OL+ch(AQUA)+DY] [0+ch(AQUA)+AR] PART.CONJ(or) LIQ.DET(ol) [0+kedai(ROOT)+IIN] [0+chcth(AQUA)+Y] [O+kch(HERB)+DY] [0+chckh(AQUA)+Y] PART(dasam)"
+                },
+                {
+                  "loc": "<f34v.4>",
+                  "eva": "tchdaiin . chekal . shedy . qokedar . chdaiin . oldar . qoldar . chedy . daiin . otam",
+                  "gloss": "[0+tchd(ROOT)+AIIN] [0+chek(ASTR)+AL] [0+ch(AQUA)+EDY] [QO+ked(ROOT)+AR] [0+chd(ASTR)+AIIN] PART(oldar) PART(qoldar) [0+ch(AQUA)+EDY] TAKE/FROM(daiin) [O+t(ASTR)+AM]"
+                },
+                {
+                  "loc": "<f34v.5>",
+                  "eva": "lshaiir . orair . shedy . chechey . dykey . kair . chedy . qokar . chekaly . chalky",
+                  "gloss": "[L+chai(ROOT)+IR] PART(orair) [0+ch(AQUA)+EDY] [0+chech(ROOT)+EY] [D+yk(ROOT)+EY] [0+ka(ASTR)+IR] [0+ch(AQUA)+EDY] [QO+k(AQUA)+AR] [0+cheka(ROOT)+LY] [0+chalk(ROOT)+Y]"
+                }
+              ]
+            },
+            {
+              "para_index": 2,
+              "archetype": "ARCH_3_QUANTITATIVE_MEASURE_FORMULARY",
+              "n_lines": 6,
+              "n_words": 58,
+              "carried_over_sheet_stems": [
+                "chdain",
+                "chdy",
+                "checkhy",
+                "chedy",
+                "cheky",
+                "chy",
+                "kain",
+                "kam"
+              ],
+              "lines": [
+                {
+                  "loc": "<f34v.6>",
+                  "eva": "pchedar . shear . qokchdy . qokees . cheol . ypchdaiin . chedy . lrar . chedain",
+                  "gloss": "[0+tched(PHARM)+AR] [0+ch(AQUA)+EAR] [QO+kch(HERB)+DY] [QO+ke(PHARM)+S] [0+ch(AQUA)+EOL] [Y+tchd(ROOT)+AIIN] [0+ch(AQUA)+EDY] PART(lrar) [0+ched(PHARM)+AIN]"
+                },
+                {
+                  "loc": "<f34v.7>",
+                  "eva": "olchdaiin . chedy . cheykeedy . chy . kedy . dy . qokedy . okey . sair . chkain . otain",
+                  "gloss": "[OL+chd(ASTR)+AIIN] [0+ch(AQUA)+EDY] [0+cheyke(ROOT)+EDY] [0+ch(AQUA)+Y] [0+k(AQUA)+EDY] PART(dy) [QO+k(AQUA)+EDY] [O+k(AQUA)+EY] PART(sair) [0+chk(HERB)+AIN] [O+t(ASTR)+AIN]"
+                },
+                {
+                  "loc": "<f34v.8>",
+                  "eva": "ysheos . otar . ar . choraiin . cheky . olchdaiin . or . oldar . chdar . okam",
+                  "gloss": "[Y+cheo(PHARM)+S] [O+t(ASTR)+AR] PART.CONJ(ar) [0+chor(ROOT)+AIIN] [0+chek(ASTR)+Y] [OL+chd(ASTR)+AIIN] PART.CONJ(or) PART(oldar) [0+chd(ASTR)+AR] [O+k(AQUA)+AM]"
+                },
+                {
+                  "loc": "<f34v.9>",
+                  "eva": "lsheody . cphy . qokeey . keedy . kchdy . chedy . qokedy . chdy . kalshs . oldaiin",
+                  "gloss": "[L+che(PHARM)+ODY] [0+cth(HERB)+Y] [QO+k(AQUA)+EEY] [0+ke(PHARM)+EDY] [0+kch(HERB)+DY] [0+ch(AQUA)+EDY] [QO+k(AQUA)+EDY] [0+ch(AQUA)+DY] [0+kalch(ROOT)+S] PART(oldaiin)"
+                },
+                {
+                  "loc": "<f34v.10>",
+                  "eva": "daiin . chdy . tedy . kchdy . okeedy . checkhy . chdy . kain . chear . or . okedy . okam",
+                  "gloss": "TAKE/FROM(daiin) [0+ch(AQUA)+DY] [0+t(ASTR)+EDY] [0+kch(HERB)+DY] [O+ke(PHARM)+EDY] [0+checkh(AQUA)+Y] [0+ch(AQUA)+DY] [0+k(AQUA)+AIN] [0+ch(AQUA)+EAR] PART.CONJ(or) [O+k(AQUA)+EDY] [O+k(AQUA)+AM]"
+                },
+                {
+                  "loc": "<f34v.11>",
+                  "eva": "yshos . ody . s . aiin . okey . okalshedy",
+                  "gloss": "[Y+cho(HERB)+S] PART(ody) PART(s) 1.UNIT(aiin) [O+k(AQUA)+EY] [O+kalch(ROOT)+EDY]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pamphlet_page_num": 3,
+          "folio": "f39r",
+          "meta": {
+            "Q": "E",
+            "B": "2",
+            "I": "H",
+            "L": "B",
+            "H": "2"
+          },
+          "n_paragraphs": 3,
+          "paragraphs": [
+            {
+              "para_index": 1,
+              "archetype": "ARCH_1_BOTANICAL_TAXONOMIC_HEAD",
+              "n_lines": 5,
+              "n_words": 45,
+              "carried_over_sheet_stems": [
+                "chdain",
+                "chdy",
+                "checkhy",
+                "chedy",
+                "cheky",
+                "chey",
+                "chy",
+                "kain"
+              ],
+              "lines": [
+                {
+                  "loc": "<f39r.1>",
+                  "eva": "tedochshd . cphhofy . chdain . shey . fshydy . orain . cheepaiin . ofy . shey . kaly . dy",
+                  "gloss": "[0+tedochch(ROOT)+D] [0+cthhok(ROOT)+Y] [0+chd(ASTR)+AIN] [0+ch(AQUA)+EY] [0+kchy(ROOT)+DY] PART(orain) [0+chet(ASTR)+AIIN] [O+k(AQUA)+Y] [0+ch(AQUA)+EY] [0+ka(ASTR)+LY] PART(dy)"
+                },
+                {
+                  "loc": "<f39r.2>",
+                  "eva": "olchey . cheky . qokedy . shekshey . qolain . chy . chdy . dair . shckhey . dold",
+                  "gloss": "[OL+ch(AQUA)+EY] [0+chek(ASTR)+Y] [QO+k(AQUA)+EDY] [S+hekch(ROOT)+EY] PART(qolain) [0+ch(AQUA)+Y] [0+ch(AQUA)+DY] PART(dair) [S+hckh(AQUA)+EY] PART(dold)"
+                },
+                {
+                  "loc": "<f39r.3>",
+                  "eva": "qokalchdy . chekaiin . checkhy . darshed . qokeedar . eeedy . dar . ar . cheey . dyckhy",
+                  "gloss": "[QO+kalch(ROOT)+DY] [0+chek(ASTR)+AIIN] [0+checkh(AQUA)+Y] [DA+rche(ROOT)+D] [QO+ked(ROOT)+AR] PART(eeedy) PART.CONJ(dar) PART.CONJ(ar) [0+ch(AQUA)+EEY] [D+yckh(ROOT)+Y]"
+                },
+                {
+                  "loc": "<f39r.4>",
+                  "eva": "tchedy . chdy . olaiin . chedy . shckhdchy . chol . or . ordy . chees . aly . okalcheg",
+                  "gloss": "[0+tch(HERB)+EDY] [0+ch(AQUA)+DY] PART(olaiin) [0+ch(AQUA)+EDY] [S+hckhdch(ROOT)+Y] [0+ch(AQUA)+OL] PART.CONJ(or) PART(ordy) [0+che(PHARM)+S] PART(aly) [O+kalcheg(ROOT)+0]"
+                },
+                {
+                  "loc": "<f39r.5>",
+                  "eva": "dchdy . chdy . ykaiin",
+                  "gloss": "[D+ch(AQUA)+DY] [0+ch(AQUA)+DY] [Y+k(AQUA)+AIIN]"
+                }
+              ]
+            },
+            {
+              "para_index": 2,
+              "archetype": "ARCH_3_QUANTITATIVE_MEASURE_FORMULARY",
+              "n_lines": 4,
+              "n_words": 37,
+              "carried_over_sheet_stems": [
+                "chckhdy",
+                "chckhy",
+                "chdar",
+                "chdy",
+                "chedy",
+                "chy",
+                "kain",
+                "kam"
+              ],
+              "lines": [
+                {
+                  "loc": "<f39r.6>",
+                  "eva": "pchdaiin . shedam . qofchedy . shedy . kchdy . dydy . opchekaiin . shoy . shdalo . ry",
+                  "gloss": "[0+tchd(ROOT)+AIIN] [0+ched(PHARM)+AM] [QO+kch(HERB)+EDY] [0+ch(AQUA)+EDY] [0+kch(HERB)+DY] PART(dydy) [O+tchek(ROOT)+AIIN] [0+cho(HERB)+Y] [0+chdal(ROOT)+O] PART(ry)"
+                },
+                {
+                  "loc": "<f39r.7>",
+                  "eva": "dchdar . chedy . cholal . qokedar . chdy . chckhdy . dar . ar . al . ydy . eees . aiiin",
+                  "gloss": "[D+chd(ASTR)+AR] [0+ch(AQUA)+EDY] [0+chol(HERB)+AL] [QO+ked(ROOT)+AR] [0+ch(AQUA)+DY] [0+chckh(AQUA)+DY] PART.CONJ(dar) PART.CONJ(ar) LIQ.DET(al) PART(ydy) PART(eees) PART(aiiin)"
+                },
+                {
+                  "loc": "<f39r.8>",
+                  "eva": "lchedy . shedy . qokaiin . chkeey . fchedy . okam . chy . saiin . chckhy . daisog",
+                  "gloss": "[L+ch(AQUA)+EDY] [0+ch(AQUA)+EDY] [QO+k(AQUA)+AIIN] [0+chk(HERB)+EEY] [0+kch(HERB)+EDY] [O+k(AQUA)+AM] [0+ch(AQUA)+Y] PART(saiin) [0+chckh(AQUA)+Y] PART(daisog)"
+                },
+                {
+                  "loc": "<f39r.9>",
+                  "eva": "tchedy . shol . odal . qokaiin . shdaiin",
+                  "gloss": "[0+tch(HERB)+EDY] [0+ch(AQUA)+OL] PART(odal) [QO+k(AQUA)+AIIN] [0+chd(ASTR)+AIIN]"
+                }
+              ]
+            },
+            {
+              "para_index": 3,
+              "archetype": "ARCH_3_QUANTITATIVE_MEASURE_FORMULARY",
+              "n_lines": 7,
+              "n_words": 67,
+              "carried_over_sheet_stems": [
+                "chckhy",
+                "chdar",
+                "chdy",
+                "chedy",
+                "cheol",
+                "ches",
+                "chor",
+                "kain"
+              ],
+              "lines": [
+                {
+                  "loc": "<f39r.10>",
+                  "eva": "pchdar . shedy . ar . aiir . okair . ykeols . shedy . qockhdy . laiin . ky",
+                  "gloss": "[0+tchd(ROOT)+AR] [0+ch(AQUA)+EDY] PART.CONJ(ar) PART(aiir) [O+ka(ASTR)+IR] [Y+keol(ROOT)+S] [0+ch(AQUA)+EDY] [QO+ckh(HERB)+DY] PART(laiin) [0+k(AQUA)+Y]"
+                },
+                {
+                  "loc": "<f39r.11>",
+                  "eva": "dshdy . ar . aiin . y . yken . chdy . ykal . olkaiin . qokaldar . cheol . dar . aiin",
+                  "gloss": "[D+ch(AQUA)+DY] PART.CONJ(ar) 1.UNIT(aiin) PART(y) [Y+ke(PHARM)+N] [0+ch(AQUA)+DY] [Y+k(AQUA)+AL] [OL+k(AQUA)+AIIN] [QO+kald(ROOT)+AR] [0+ch(AQUA)+EOL] PART.CONJ(dar) 1.UNIT(aiin)"
+                },
+                {
+                  "loc": "<f39r.12>",
+                  "eva": "tolchdaiin . chckhy . saiin . olor . chls . aiin . oky . ches . aiin . dal",
+                  "gloss": "[0+tolchd(ROOT)+AIIN] [0+chckh(AQUA)+Y] PART(saiin) PART(olor) [0+chl(ROOT)+S] 1.UNIT(aiin) [O+k(AQUA)+Y] [0+che(PHARM)+S] 1.UNIT(aiin) LIQ.DET(dal)"
+                },
+                {
+                  "loc": "<f39r.13>",
+                  "eva": "ytor . chdar . shey . qokaiin . chor . kar . sheolkedy . otedy . tedy . saiin",
+                  "gloss": "[Y+t(ASTR)+OR] [0+chd(ASTR)+AR] [0+ch(AQUA)+EY] [QO+k(AQUA)+AIIN] [0+ch(AQUA)+OR] [0+k(AQUA)+AR] [S+heolk(ROOT)+EDY] [O+t(ASTR)+EDY] [0+t(ASTR)+EDY] PART(saiin)"
+                },
+                {
+                  "loc": "<f39r.14>",
+                  "eva": "daiin . shckhy . chekl . oldaiin . chedy . ykeey . daiin . otal . chdam . qokam",
+                  "gloss": "TAKE/FROM(daiin) [S+hckh(AQUA)+Y] [0+chek(ASTR)+L] PART(oldaiin) [0+ch(AQUA)+EDY] [Y+k(AQUA)+EEY] TAKE/FROM(daiin) [O+t(ASTR)+AL] [0+chd(ASTR)+AM] [QO+k(AQUA)+AM]"
+                },
+                {
+                  "loc": "<f39r.15>",
+                  "eva": "qolkain . olcheol . daiin . dar . ol . dld . ar . ador . aiin . ofcheefar",
+                  "gloss": "[QOL+k(AQUA)+AIN] [OL+ch(AQUA)+EOL] TAKE/FROM(daiin) PART.CONJ(dar) LIQ.DET(ol) PART(dld) PART.CONJ(ar) PART(ador) 1.UNIT(aiin) [O+kchek(ROOT)+AR]"
+                },
+                {
+                  "loc": "<f39r.16>",
+                  "eva": "oteol . cholkal . qokal . dar . ykdy",
+                  "gloss": "[O+t(ASTR)+EOL] [0+cholk(ROOT)+AL] [QO+k(AQUA)+AL] PART.CONJ(dar) [Y+k(AQUA)+DY]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pamphlet_page_num": 4,
+          "folio": "f39v",
+          "meta": {
+            "Q": "E",
+            "B": "2",
+            "I": "H",
+            "L": "B",
+            "H": "2"
+          },
+          "n_paragraphs": 2,
+          "paragraphs": [
+            {
+              "para_index": 1,
+              "archetype": "ARCH_3_QUANTITATIVE_MEASURE_FORMULARY",
+              "n_lines": 6,
+              "n_words": 65,
+              "carried_over_sheet_stems": [
+                "chdy",
+                "chody",
+                "chol",
+                "chor",
+                "kain",
+                "kam",
+                "kar",
+                "kchdy"
+              ],
+              "lines": [
+                {
+                  "loc": "<f39v.1>",
+                  "eva": "pdair . chdy . fdykain . or . air . sheykaiiin . ofchy . kar . or . aiin . dolky . oshdy",
+                  "gloss": "[0+tda(ROOT)+IR] [0+ch(AQUA)+DY] [0+kdyk(ROOT)+AIN] PART.CONJ(or) PART(air) [S+heykai(ROOT)+IIN] [O+kch(HERB)+Y] [0+k(AQUA)+AR] PART.CONJ(or) 1.UNIT(aiin) [DO+lk(ROOT)+Y] [O+ch(AQUA)+DY]"
+                },
+                {
+                  "loc": "<f39v.2>",
+                  "eva": "sor . shy . kar . chol . qoty . kchdy . olky . dar . chdy . ykar . olkedaiin . ody . dy",
+                  "gloss": "PART(sor) [0+ch(AQUA)+Y] [0+k(AQUA)+AR] [0+ch(AQUA)+OL] [QO+t(ASTR)+Y] [0+kch(HERB)+DY] [OL+k(AQUA)+Y] PART.CONJ(dar) [0+ch(AQUA)+DY] [Y+k(AQUA)+AR] [OL+ked(ROOT)+AIIN] PART(ody) PART(dy)"
+                },
+                {
+                  "loc": "<f39v.3>",
+                  "eva": "daiin . chor . okain . okaiifchody . saiin . oraiin . qokaiin . ytodaiin . okam",
+                  "gloss": "TAKE/FROM(daiin) [0+ch(AQUA)+OR] [O+k(AQUA)+AIN] [O+kaikch(ROOT)+ODY] PART(saiin) PART(oraiin) [QO+k(AQUA)+AIIN] [Y+tod(ROOT)+AIIN] [O+k(AQUA)+AM]"
+                },
+                {
+                  "loc": "<f39v.4>",
+                  "eva": "yokeey . chody . cheor . aiin . okody . chodal . ykedy . qokedy . dalodaiin . shky",
+                  "gloss": "[YO+k(AQUA)+EEY] [0+ch(AQUA)+ODY] [0+ch(AQUA)+EOR] 1.UNIT(aiin) [O+k(AQUA)+ODY] [0+chod(HERB)+AL] [Y+k(AQUA)+EDY] [QO+k(AQUA)+EDY] PART(dalodaiin) [S+hk(PHARM)+Y]"
+                },
+                {
+                  "loc": "<f39v.5>",
+                  "eva": "ytedykor . or . sheky . kain . otar . or . aiin . okaiin . ckhol . ol . kor . otor . ofchy",
+                  "gloss": "[Y+tedyk(ROOT)+OR] PART.CONJ(or) [S+hek(AQUA)+Y] [0+k(AQUA)+AIN] [O+t(ASTR)+AR] PART.CONJ(or) 1.UNIT(aiin) [O+k(AQUA)+AIIN] [0+ckh(HERB)+OL] LIQ.DET(ol) [0+k(AQUA)+OR] [O+t(ASTR)+OR] [O+kch(HERB)+Y]"
+                },
+                {
+                  "loc": "<f39v.6>",
+                  "eva": "lkedy . okchey . shor . qoykam . chockhy . or . aly . shody",
+                  "gloss": "[L+k(AQUA)+EDY] [O+kch(HERB)+EY] [0+ch(AQUA)+OR] [QO+yk(ROOT)+AM] [0+chockh(PHARM)+Y] PART.CONJ(or) PART(aly) [0+ch(AQUA)+ODY]"
+                }
+              ]
+            },
+            {
+              "para_index": 2,
+              "archetype": "ARCH_3_QUANTITATIVE_MEASURE_FORMULARY",
+              "n_lines": 8,
+              "n_words": 69,
+              "carried_over_sheet_stems": [
+                "chckhy",
+                "chdy",
+                "chedy",
+                "cheor",
+                "ckhy",
+                "hek",
+                "kain",
+                "kal"
+              ],
+              "lines": [
+                {
+                  "loc": "<f39v.7>",
+                  "eva": "pardy . shedy . qokar . sheedy . oraly . olaiir . okar . ar",
+                  "gloss": "[0+tar(ROOT)+DY] [0+ch(AQUA)+EDY] [QO+k(AQUA)+AR] [0+che(PHARM)+EDY] PART(oraly) PART(olaiir) [O+k(AQUA)+AR] PART.CONJ(ar)"
+                },
+                {
+                  "loc": "<f39v.8>",
+                  "eva": "oar . aiin . olkaiin . olky . dar . ald . shek . chek . qokchy . dar . ain",
+                  "gloss": "PART(oar) 1.UNIT(aiin) [OL+k(AQUA)+AIIN] [OL+k(AQUA)+Y] PART.CONJ(dar) PART(ald) [S+hek(AQUA)+0] [0+chek(ASTR)+0] [QO+kch(HERB)+Y] PART.CONJ(dar) 1.UNIT(aiin)"
+                },
+                {
+                  "loc": "<f39v.9>",
+                  "eva": "tar . aiin . dal . ar . ain . cheor . ydam . shody . okal . shdy . kshy . or",
+                  "gloss": "[0+t(ASTR)+AR] 1.UNIT(aiin) LIQ.DET(dal) PART.CONJ(ar) 1.UNIT(aiin) [0+ch(AQUA)+EOR] PART(ydam) [0+ch(AQUA)+ODY] [O+k(AQUA)+AL] [0+ch(AQUA)+DY] [0+kch(HERB)+Y] PART.CONJ(or)"
+                },
+                {
+                  "loc": "<f39v.10>",
+                  "eva": "dar . ar . ykar . or . yky . chdy . fchor . qokain . ar . sheedy . olchef",
+                  "gloss": "PART.CONJ(dar) PART.CONJ(ar) [Y+k(AQUA)+AR] PART.CONJ(or) [Y+k(AQUA)+Y] [0+ch(AQUA)+DY] [0+kch(HERB)+OR] [QO+k(AQUA)+AIN] PART.CONJ(ar) [0+che(PHARM)+EDY] [OL+chek(ASTR)+0]"
+                },
+                {
+                  "loc": "<f39v.11>",
+                  "eva": "sarol . chedy . shekam . qokar . chl . ykeedy . chckhy . dalor . dy",
+                  "gloss": "PART(sarol) [0+ch(AQUA)+EDY] [S+hek(AQUA)+AM] [QO+k(AQUA)+AR] [0+ch(AQUA)+L] [Y+ke(PHARM)+EDY] [0+chckh(AQUA)+Y] PART(dalor) PART(dy)"
+                },
+                {
+                  "loc": "<f39v.12>",
+                  "eva": "paiin . alaiin . otalchd . okar . am . okar . cheodal . ockhy",
+                  "gloss": "[0+t(ASTR)+AIIN] PART(alaiin) [O+talch(ROOT)+D] [O+k(AQUA)+AR] PART(am) [O+k(AQUA)+AR] [0+cheod(PHARM)+AL] [O+ckh(HERB)+Y]"
+                },
+                {
+                  "loc": "<f39v.13>",
+                  "eva": "dain . ockhedy . otedy . okedy . lchdy . okaiin . daiiiny",
+                  "gloss": "TAKE/FROM(daiin) [O+ckh(HERB)+EDY] [O+t(ASTR)+EDY] [O+k(AQUA)+EDY] [L+ch(AQUA)+DY] [O+k(AQUA)+AIIN] PART(daiiiny)"
+                },
+                {
+                  "loc": "<f39v.14>",
+                  "eva": "taraiin . okaiin . cholody",
+                  "gloss": "[0+tar(ROOT)+AIIN] [O+k(AQUA)+AIIN] [0+chol(HERB)+ODY]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Pamphlet III: Quire D, Bifolio B=2 (Herbal Currier B / Scribe Hand 2)",
+      "pages": [
+        {
+          "pamphlet_page_num": 1,
+          "folio": "f26r",
+          "meta": {
+            "Q": "D",
+            "B": "2",
+            "I": "H",
+            "L": "B",
+            "H": "2"
+          },
+          "n_paragraphs": 2,
+          "paragraphs": [
+            {
+              "para_index": 1,
+              "archetype": "ARCH_4_SHORT_STARRED_DECOCTION_RECIPE",
+              "n_lines": 6,
+              "n_words": 49,
+              "carried_over_sheet_stems": [],
+              "lines": [
+                {
+                  "loc": "<f26r.1>",
+                  "eva": "psheoky . odaiir . qoy . ofshod . chypchey . ypchedy . ain . chofochedy",
+                  "gloss": "[0+tcheok(ROOT)+Y] PART(odaiir) PART(qoy) [O+kcho(ROOT)+D] [0+chytch(ROOT)+EY] [Y+tch(HERB)+EDY] 1.UNIT(aiin) [0+chokoch(ROOT)+EDY]"
+                },
+                {
+                  "loc": "<f26r.2>",
+                  "eva": "dchey . aiin . adeeody . ykecthey . chedy . ytedy . dy . checthedy . ls",
+                  "gloss": "[D+ch(AQUA)+EY] 1.UNIT(aiin) PART(adeeody) [Y+kecth(ROOT)+EY] [0+ch(AQUA)+EDY] [Y+t(ASTR)+EDY] PART(dy) [0+checth(AQUA)+EDY] PART(ls)"
+                },
+                {
+                  "loc": "<f26r.3>",
+                  "eva": "oaiin . shcthy . cthedy . oloy . ykeedy . olchedy . dal . y . sheey . saiin . s",
+                  "gloss": "PART(oaiin) [S+hcth(AQUA)+Y] [0+cth(HERB)+EDY] PART(oloy) [Y+ke(PHARM)+EDY] [OL+ch(AQUA)+EDY] LIQ.DET(dal) PART(y) [0+ch(AQUA)+EEY] PART(saiin) PART(s)"
+                },
+                {
+                  "loc": "<f26r.4>",
+                  "eva": "qokedy . cheos . ytedy . qokedy . ytedy . chekedy . daiin . odam . saldy",
+                  "gloss": "[QO+k(AQUA)+EDY] [0+cheo(PHARM)+S] [Y+t(ASTR)+EDY] [QO+k(AQUA)+EDY] [Y+t(ASTR)+EDY] [0+chek(ASTR)+EDY] TAKE/FROM(daiin) PART(odam) PART(saldy)"
+                },
+                {
+                  "loc": "<f26r.5>",
+                  "eva": "saiin . shedy . eedy . eedy . schy . daiin . cthedy . qokeedy . qokedy . cthey",
+                  "gloss": "PART(saiin) [0+ch(AQUA)+EDY] PART(eedy) PART(eedy) [S+ch(AQUA)+Y] TAKE/FROM(daiin) [0+cth(HERB)+EDY] [QO+ke(PHARM)+EDY] [QO+k(AQUA)+EDY] [0+cth(HERB)+EY]"
+                },
+                {
+                  "loc": "<f26r.6>",
+                  "eva": "rchedy . qokedy",
+                  "gloss": "[R+ch(AQUA)+EDY] [QO+k(AQUA)+EDY]"
+                }
+              ]
+            },
+            {
+              "para_index": 2,
+              "archetype": "ARCH_4_SHORT_STARRED_DECOCTION_RECIPE",
+              "n_lines": 4,
+              "n_words": 34,
+              "carried_over_sheet_stems": [
+                "chedy",
+                "kedy",
+                "shedy",
+                "tedy"
+              ],
+              "lines": [
+                {
+                  "loc": "<f26r.7>",
+                  "eva": "pcho . qokedy . darsheo . ypchseds . s . aiin . shapchedyfchy . dalchedy . sar",
+                  "gloss": "[0+tch(HERB)+O] [QO+k(AQUA)+EDY] [DA+rche(ROOT)+O] [Y+tchsed(ROOT)+S] PART(s) 1.UNIT(aiin) [S+hatchedykch(ROOT)+Y] [DAL+ch(AQUA)+EDY] PART.CONJ(sar)"
+                },
+                {
+                  "loc": "<f26r.8>",
+                  "eva": "daiin . shedy . qokeedy . qoteedar . s . ok . ol . ytedy . qokeedy . qokedy",
+                  "gloss": "TAKE/FROM(daiin) [0+ch(AQUA)+EDY] [QO+ke(PHARM)+EDY] [QO+ted(ASTR)+AR] PART(s) [O+k(AQUA)+0] LIQ.DET(ol) [Y+t(ASTR)+EDY] [QO+ke(PHARM)+EDY] [QO+k(AQUA)+EDY]"
+                },
+                {
+                  "loc": "<f26r.9>",
+                  "eva": "tcheoshy . dchdy . okedy . chckhy . s . dy . dy . ykeechy . okeedy . cheky",
+                  "gloss": "[0+tcheoch(ROOT)+Y] [D+ch(AQUA)+DY] [O+k(AQUA)+EDY] [0+chckh(AQUA)+Y] PART(s) PART(dy) PART(dy) [Y+kech(PHARM)+Y] [O+ke(PHARM)+EDY] [0+chek(ASTR)+Y]"
+                },
+                {
+                  "loc": "<f26r.10>",
+                  "eva": "shese . aiin . sheos . cheody . otal",
+                  "gloss": "[0+chese(ROOT)+0] 1.UNIT(aiin) [0+cheo(PHARM)+S] [0+che(PHARM)+ODY] [O+t(ASTR)+AL]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pamphlet_page_num": 2,
+          "folio": "f26v",
+          "meta": {
+            "Q": "D",
+            "B": "2",
+            "I": "H",
+            "L": "B",
+            "H": "2"
+          },
+          "n_paragraphs": 1,
+          "paragraphs": [
+            {
+              "para_index": 1,
+              "archetype": "ARCH_5_COSMOLOGICAL_ASTRONOMICAL_SPEC",
+              "n_lines": 9,
+              "n_words": 88,
+              "carried_over_sheet_stems": [
+                "chedy",
+                "chekedy",
+                "cheky",
+                "cheody",
+                "cheos",
+                "chey",
+                "chy",
+                "kedy"
+              ],
+              "lines": [
+                {
+                  "loc": "<f26v.1>",
+                  "eva": "pchedar . qodary . daiiin . pcheety . sair . shedy . ypchedy . ypchdy . qopy . shdy",
+                  "gloss": "[0+tched(PHARM)+AR] PART(qodary) PART(daiiin) [0+tchet(ROOT)+Y] PART(sair) [0+ch(AQUA)+EDY] [Y+tch(HERB)+EDY] [Y+tch(HERB)+DY] [QO+t(ASTR)+Y] [0+ch(AQUA)+DY]"
+                },
+                {
+                  "loc": "<f26v.2>",
+                  "eva": "saraiir . chekedy . qokedy . otedy . saryetedy . qokedy . or . ae . alys . chedy",
+                  "gloss": "PART(saraiir) [0+chek(ASTR)+EDY] [QO+k(AQUA)+EDY] [O+t(ASTR)+EDY] [SA+ryet(ROOT)+EDY] [QO+k(AQUA)+EDY] PART.CONJ(or) PART(ae) PART(alys) [0+ch(AQUA)+EDY]"
+                },
+                {
+                  "loc": "<f26v.3>",
+                  "eva": "pchdar . opar . dar . cheeol . ofchdy . otedy . dy . odar . chedy . ytedy . okchdy . g",
+                  "gloss": "[0+tchd(ROOT)+AR] [O+t(ASTR)+AR] PART.CONJ(dar) [0+che(PHARM)+EOL] [O+kch(HERB)+DY] [O+t(ASTR)+EDY] PART(dy) PART(odar) [0+ch(AQUA)+EDY] [Y+t(ASTR)+EDY] [O+kch(HERB)+DY] PART(g)"
+                },
+                {
+                  "loc": "<f26v.4>",
+                  "eva": "yckheody . qokedy . deey . saldy . okedor . or . cheos . oraiin . okeo . chekaiin",
+                  "gloss": "[Y+ckhe(ROOT)+ODY] [QO+k(AQUA)+EDY] PART(deey) PART(saldy) [O+ked(ROOT)+OR] PART.CONJ(or) [0+cheo(PHARM)+S] PART(oraiin) [O+ke(PHARM)+O] [0+chek(ASTR)+AIIN]"
+                },
+                {
+                  "loc": "<f26v.5>",
+                  "eva": "deeol . cheody . qoteedy . qokody . qotedy . qotedy . opchedy . ofchy . chs . ar",
+                  "gloss": "PART(deeol) [0+che(PHARM)+ODY] [QO+te(ASTR)+EDY] [QO+k(AQUA)+ODY] [QO+t(ASTR)+EDY] [QO+t(ASTR)+EDY] [O+tch(HERB)+EDY] [O+kch(HERB)+Y] [0+ch(AQUA)+S] PART.CONJ(ar)"
+                },
+                {
+                  "loc": "<f26v.6>",
+                  "eva": "toeedy . keody . shedy . dar . chedy . sches . orcheeky . dar . chey . cheky . yteedy",
+                  "gloss": "[0+toe(ROOT)+EDY] [0+ke(PHARM)+ODY] [0+ch(AQUA)+EDY] PART.CONJ(dar) [0+ch(AQUA)+EDY] [S+che(PHARM)+S] [OR+chek(ASTR)+Y] PART.CONJ(dar) [0+ch(AQUA)+EY] [0+chek(ASTR)+Y] [Y+te(ASTR)+EDY]"
+                },
+                {
+                  "loc": "<f26v.7>",
+                  "eva": "pchedy . dar . cheoet . chy . sair . chees . odaiiin . chkeeey . ykey . sheey",
+                  "gloss": "[0+tch(HERB)+EDY] PART.CONJ(dar) [0+cheoet(ROOT)+0] [0+ch(AQUA)+Y] PART(sair) [0+che(PHARM)+S] PART(odaiiin) [0+chke(ROOT)+EEY] [Y+k(AQUA)+EY] [0+ch(AQUA)+EEY]"
+                },
+                {
+                  "loc": "<f26v.8>",
+                  "eva": "tchedy . okeeos . cheeos . ysaiin . okcheey . keody . saiin . cheeos . qokes . ory",
+                  "gloss": "[0+tch(HERB)+EDY] [O+keo(ASTR)+S] [0+cheo(PHARM)+S] PART(ysaiin) [O+kch(HERB)+EEY] [0+ke(PHARM)+ODY] PART(saiin) [0+cheo(PHARM)+S] [QO+ke(PHARM)+S] PART(ory)"
+                },
+                {
+                  "loc": "<f26v.9>",
+                  "eva": "ysheey . okeshy . shody . peshy . todydy",
+                  "gloss": "[Y+ch(AQUA)+EEY] [O+kech(PHARM)+Y] [0+ch(AQUA)+ODY] [0+tech(ROOT)+Y] [0+tody(ROOT)+DY]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pamphlet_page_num": 3,
+          "folio": "f31r",
+          "meta": {
+            "Q": "D",
+            "B": "2",
+            "I": "H",
+            "L": "B",
+            "H": "2"
+          },
+          "n_paragraphs": 3,
+          "paragraphs": [
+            {
+              "para_index": 1,
+              "archetype": "ARCH_2_AQUEOUS_BALNEOLOGICAL_PROCEDURE",
+              "n_lines": 5,
+              "n_words": 32,
+              "carried_over_sheet_stems": [
+                "chey",
+                "chy",
+                "kedy",
+                "kes",
+                "key",
+                "tar"
+              ],
+              "lines": [
+                {
+                  "loc": "<f31r.1>",
+                  "eva": "keedey . qofchedy . shees . aiin . qokee . chepakeo",
+                  "gloss": "[0+ked(ROOT)+EY] [QO+kch(HERB)+EDY] [0+che(PHARM)+S] 1.UNIT(aiin) [QO+ke(PHARM)+0] [0+chetake(ROOT)+O]"
+                },
+                {
+                  "loc": "<f31r.2>",
+                  "eva": "dcheey . daiin . okeedy . qokees . s . aiin . shekeey . qef",
+                  "gloss": "[D+ch(AQUA)+EEY] TAKE/FROM(daiin) [O+ke(PHARM)+EDY] [QO+ke(PHARM)+S] PART(s) 1.UNIT(aiin) [S+hek(AQUA)+EEY] [Q+ek(ROOT)+0]"
+                },
+                {
+                  "loc": "<f31r.3>",
+                  "eva": "qokeey . chey . daiin . qokeey . sair . chekey . saiin . da",
+                  "gloss": "[QO+k(AQUA)+EEY] [0+ch(AQUA)+EY] TAKE/FROM(daiin) [QO+k(AQUA)+EEY] PART(sair) [0+chek(ASTR)+EY] PART(saiin) PART(da)"
+                },
+                {
+                  "loc": "<f31r.4>",
+                  "eva": "qotar . chy . dar . lorar . cheey . keeolchedy . qokey",
+                  "gloss": "[QO+t(ASTR)+AR] [0+ch(AQUA)+Y] PART.CONJ(dar) PART(lorar) [0+ch(AQUA)+EEY] [0+keolch(ROOT)+EDY] [QO+k(AQUA)+EY]"
+                },
+                {
+                  "loc": "<f31r.5>",
+                  "eva": "daiin . sheeody . qokeor",
+                  "gloss": "TAKE/FROM(daiin) [0+che(PHARM)+ODY] [QO+k(AQUA)+EOR]"
+                }
+              ]
+            },
+            {
+              "para_index": 2,
+              "archetype": "ARCH_4_SHORT_STARRED_DECOCTION_RECIPE",
+              "n_lines": 4,
+              "n_words": 26,
+              "carried_over_sheet_stems": [
+                "chedy",
+                "cheol",
+                "kedy",
+                "keody",
+                "shedy",
+                "tedy"
+              ],
+              "lines": [
+                {
+                  "loc": "<f31r.6>",
+                  "eva": "tshokeody . qokedy . qotedy . chepos . chedas . aiin . dal",
+                  "gloss": "[0+tchoke(ROOT)+ODY] [QO+k(AQUA)+EDY] [QO+t(ASTR)+EDY] [0+cheto(ROOT)+S] [0+cheda(ROOT)+S] 1.UNIT(aiin) LIQ.DET(dal)"
+                },
+                {
+                  "loc": "<f31r.7>",
+                  "eva": "ykeedar . saiin . checkhey . sheol . qokedy . ykeedy . chedy . ldy",
+                  "gloss": "[Y+ked(ROOT)+AR] PART(saiin) [0+checkh(AQUA)+EY] [0+ch(AQUA)+EOL] [QO+k(AQUA)+EDY] [Y+ke(PHARM)+EDY] [0+ch(AQUA)+EDY] PART(ldy)"
+                },
+                {
+                  "loc": "<f31r.8>",
+                  "eva": "shedy . qokedy . cheol . cheod . qokeody . cheol . checthy",
+                  "gloss": "[0+ch(AQUA)+EDY] [QO+k(AQUA)+EDY] [0+ch(AQUA)+EOL] [0+cheo(PHARM)+D] [QO+ke(PHARM)+ODY] [0+ch(AQUA)+EOL] [0+checth(AQUA)+Y]"
+                },
+                {
+                  "loc": "<f31r.9>",
+                  "eva": "daiir . sheeo . shcthey . okeol",
+                  "gloss": "PART(daiir) [0+che(PHARM)+O] [S+hcth(AQUA)+EY] [O+k(AQUA)+EOL]"
+                }
+              ]
+            },
+            {
+              "para_index": 3,
+              "archetype": "ARCH_4_SHORT_STARRED_DECOCTION_RECIPE",
+              "n_lines": 7,
+              "n_words": 36,
+              "carried_over_sheet_stems": [
+                "chedy",
+                "ches",
+                "chey",
+                "kchy",
+                "kedy",
+                "key",
+                "sheol",
+                "shey"
+              ],
+              "lines": [
+                {
+                  "loc": "<f31r.10>",
+                  "eva": "tolshso . okedy . okedy . qokedy . qokeedy . dar . shedshey",
+                  "gloss": "[0+tolchs(ROOT)+O] [O+k(AQUA)+EDY] [O+k(AQUA)+EDY] [QO+k(AQUA)+EDY] [QO+ke(PHARM)+EDY] PART.CONJ(dar) [S+hedch(ROOT)+EY]"
+                },
+                {
+                  "loc": "<f31r.11>",
+                  "eva": "olsheol . qokchy . dalchey . deey . kchy . keey . okaiiin . ykeey",
+                  "gloss": "[OL+ch(AQUA)+EOL] [QO+kch(HERB)+Y] [DAL+ch(AQUA)+EY] PART(deey) [0+kch(HERB)+Y] [0+k(AQUA)+EEY] [O+kai(ROOT)+IIN] [Y+k(AQUA)+EEY]"
+                },
+                {
+                  "loc": "<f31r.12>",
+                  "eva": "qoaiin . yches . okedy . sheey . chedaiin . dar",
+                  "gloss": "PART(qoaiin) [Y+che(PHARM)+S] [O+k(AQUA)+EDY] [0+ch(AQUA)+EEY] [0+ched(PHARM)+AIIN] PART.CONJ(dar)"
+                },
+                {
+                  "loc": "<f31r.13>",
+                  "eva": "olsheor . qoekedy . otedy . ykedy . dals",
+                  "gloss": "[OL+ch(AQUA)+EOR] [QO+ek(ROOT)+EDY] [O+t(ASTR)+EDY] [Y+k(AQUA)+EDY] PART(dals)"
+                },
+                {
+                  "loc": "<f31r.14>",
+                  "eva": "saiis . or . chedy . daiin . okeedy",
+                  "gloss": "PART(saiis) PART.CONJ(or) [0+ch(AQUA)+EDY] TAKE/FROM(daiin) [O+ke(PHARM)+EDY]"
+                },
+                {
+                  "loc": "<f31r.15>",
+                  "eva": "yshedair . sheolcheky . okedam",
+                  "gloss": "[Y+cheda(ROOT)+IR] [S+heolchek(ROOT)+Y] [O+ked(ROOT)+AM]"
+                },
+                {
+                  "loc": "<f31r.16>",
+                  "eva": "oteor . aiicthy",
+                  "gloss": "[O+t(ASTR)+EOR] [0+aicth(ROOT)+Y]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pamphlet_page_num": 4,
+          "folio": "f31v",
+          "meta": {
+            "Q": "D",
+            "B": "2",
+            "I": "H",
+            "L": "B",
+            "H": "2"
+          },
+          "n_paragraphs": 2,
+          "paragraphs": [
+            {
+              "para_index": 1,
+              "archetype": "ARCH_1_BOTANICAL_TAXONOMIC_HEAD",
+              "n_lines": 5,
+              "n_words": 42,
+              "carried_over_sheet_stems": [
+                "cheody",
+                "cthedy",
+                "kchey",
+                "kedy",
+                "keo",
+                "keody",
+                "keos",
+                "key"
+              ],
+              "lines": [
+                {
+                  "loc": "<f31v.1>",
+                  "eva": "podair . sheedy . otedy . oteedy . qotolcheo . s . arar . oteey . dkchrar . als",
+                  "gloss": "[0+toda(ROOT)+IR] [0+che(PHARM)+EDY] [O+t(ASTR)+EDY] [O+te(ASTR)+EDY] [QO+tolche(ROOT)+O] PART(s) PART(arar) [O+t(ASTR)+EEY] [D+kchr(ROOT)+AR] PART(als)"
+                },
+                {
+                  "loc": "<f31v.2>",
+                  "eva": "ytchos . ockhey . okeeos . cheody . okeey . keeody . daiin . cheody . keedy",
+                  "gloss": "[Y+tcho(ROOT)+S] [O+ckh(HERB)+EY] [O+keo(ASTR)+S] [0+che(PHARM)+ODY] [O+k(AQUA)+EEY] [0+ke(PHARM)+ODY] TAKE/FROM(daiin) [0+che(PHARM)+ODY] [0+ke(PHARM)+EDY]"
+                },
+                {
+                  "loc": "<f31v.3>",
+                  "eva": "ykeeo . daiin . shedal . okedy . okey . keody . okchey . sairokees . o . lkedy",
+                  "gloss": "[Y+ke(PHARM)+O] TAKE/FROM(daiin) [0+ched(PHARM)+AL] [O+k(AQUA)+EDY] [O+k(AQUA)+EY] [0+ke(PHARM)+ODY] [O+kch(HERB)+EY] [SA+iroke(ROOT)+S] PART(o) [L+k(AQUA)+EDY]"
+                },
+                {
+                  "loc": "<f31v.4>",
+                  "eva": "dair . cthedy . qokedy . okeody . chedar . oked . al . ockhedy . okeedy . otas",
+                  "gloss": "PART(dair) [0+cth(HERB)+EDY] [QO+k(AQUA)+EDY] [O+ke(PHARM)+ODY] [0+ched(PHARM)+AR] [O+ke(PHARM)+D] LIQ.DET(al) [O+ckh(HERB)+EDY] [O+ke(PHARM)+EDY] [O+ta(ASTR)+S]"
+                },
+                {
+                  "loc": "<f31v.5>",
+                  "eva": "ykeos . cheeoy . oraiin",
+                  "gloss": "[Y+keo(ASTR)+S] [0+cheo(PHARM)+Y] PART(oraiin)"
+                }
+              ]
+            },
+            {
+              "para_index": 2,
+              "archetype": "ARCH_1_BOTANICAL_TAXONOMIC_HEAD",
+              "n_lines": 6,
+              "n_words": 58,
+              "carried_over_sheet_stems": [
+                "chedy",
+                "cheos",
+                "ches",
+                "chey",
+                "ckhey",
+                "cthey",
+                "kain",
+                "kedam"
+              ],
+              "lines": [
+                {
+                  "loc": "<f31v.6>",
+                  "eva": "pcheeody . qop . chedal . checfhy . chefchol . or . cheefalaiin . opal . sheo . otar",
+                  "gloss": "[0+tche(ROOT)+ODY] [QO+t(ASTR)+0] [0+ched(PHARM)+AL] [0+checkh(AQUA)+Y] [0+chekch(ROOT)+OL] PART.CONJ(or) [0+chekal(ROOT)+AIIN] [O+t(ASTR)+AL] [0+che(PHARM)+O] [O+t(ASTR)+AR]"
+                },
+                {
+                  "loc": "<f31v.7>",
+                  "eva": "olkeedam . ches . cholkeeol . checkhy . okeol . okal . oky . cheokar . okor . ary",
+                  "gloss": "[OL+ked(ROOT)+AM] [0+che(PHARM)+S] [0+cholke(ROOT)+EOL] [0+checkh(AQUA)+Y] [O+k(AQUA)+EOL] [O+k(AQUA)+AL] [O+k(AQUA)+Y] [0+cheok(ROOT)+AR] [O+k(AQUA)+OR] PART(ary)"
+                },
+                {
+                  "loc": "<f31v.8>",
+                  "eva": "ykaiin . cheeksheey . ychekeeor . cheor . orchecthy . okechoked . lchey . okam",
+                  "gloss": "[Y+k(AQUA)+AIIN] [0+chekch(ROOT)+EEY] [Y+cheke(ROOT)+EOR] [0+ch(AQUA)+EOR] [OR+checth(AQUA)+Y] [O+kechoke(ROOT)+D] [L+ch(AQUA)+EY] [O+k(AQUA)+AM]"
+                },
+                {
+                  "loc": "<f31v.9>",
+                  "eva": "ytecheol . sheoeky . okeos . aiin . ackhedy . chkaiin . chetchey . ctheey . okear",
+                  "gloss": "[Y+tech(ROOT)+EOL] [S+heoek(ROOT)+Y] [O+keo(ASTR)+S] 1.UNIT(aiin) [0+ackh(ROOT)+EDY] [0+chk(HERB)+AIIN] [0+chetch(ROOT)+EY] [0+cth(HERB)+EEY] [O+k(AQUA)+EAR]"
+                },
+                {
+                  "loc": "<f31v.10>",
+                  "eva": "dar . choar . al . kar . oeeeos . cheos . aiin . o . ckhey . okeo . kor . okeol . ain",
+                  "gloss": "PART.CONJ(dar) [0+cho(HERB)+AR] LIQ.DET(al) [0+k(AQUA)+AR] PART(oeeeos) [0+cheo(PHARM)+S] 1.UNIT(aiin) PART(o) [0+ckh(HERB)+EY] [O+ke(PHARM)+O] [0+k(AQUA)+OR] [O+k(AQUA)+EOL] 1.UNIT(aiin)"
+                },
+                {
+                  "loc": "<f31v.11>",
+                  "eva": "saiin . ar . ckheos . chedy . okeey . qoear . oraiin . cheam",
+                  "gloss": "PART(saiin) PART.CONJ(ar) [0+ckheo(ROOT)+S] [0+ch(AQUA)+EDY] [O+k(AQUA)+EEY] PART(qoear) PART(oraiin) [0+che(PHARM)+AM]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Pamphlet IV: Quire Q, Bifolio B=1 (Pharmaceutical Currier A / Scribe Hand 1)",
+      "pages": [
+        {
+          "pamphlet_page_num": 1,
+          "folio": "f93r",
+          "meta": {
+            "Q": "Q",
+            "B": "1",
+            "I": "H",
+            "L": "A",
+            "H": "1"
+          },
+          "n_paragraphs": 1,
+          "paragraphs": [
+            {
+              "para_index": 1,
+              "archetype": "ARCH_1_BOTANICAL_TAXONOMIC_HEAD",
+              "n_lines": 32,
+              "n_words": 144,
+              "carried_over_sheet_stems": [],
+              "lines": [
+                {
+                  "loc": "<f93r.1>",
+                  "eva": "kodshol . otolsheeos . octhodaly . opalepam . oepchksheey . qotodain . s . oar",
+                  "gloss": "[0+kodch(ROOT)+OL] [O+tolcheo(ROOT)+S] [O+cthoda(ROOT)+LY] [O+talet(ROOT)+AM] [O+etchkch(ROOT)+EEY] [QO+tod(ROOT)+AIN] PART(s) PART(oar)"
+                },
+                {
+                  "loc": "<f93r.2>",
+                  "eva": "ycham . s . chol . chotom . cthodar . sheo . s . oteodal . s . ofchoshy . cthoshol",
+                  "gloss": "[Y+ch(AQUA)+AM] PART(s) [0+ch(AQUA)+OL] [0+chot(ASTR)+OM] [0+cthod(ROOT)+AR] [0+che(PHARM)+O] PART(s) [O+teod(ASTR)+AL] PART(s) [O+kchoch(ROOT)+Y] [0+cthoch(ROOT)+OL]"
+                },
+                {
+                  "loc": "<f93r.3>",
+                  "eva": "dsho . dal . dalody . ytchchy . dam . chody . dalol . schodchy . qotchd",
+                  "gloss": "[D+ch(AQUA)+O] LIQ.DET(dal) PART(dalody) [Y+tchch(ROOT)+Y] PART(dam) [0+ch(AQUA)+ODY] PART(dalol) [S+chodch(ROOT)+Y] [QO+tch(HERB)+D]"
+                },
+                {
+                  "loc": "<f93r.4>",
+                  "eva": "sol . shotol . qokchodal . shody . chotols . otol . ytchdg",
+                  "gloss": "PART(sol) [S+hot(ROOT)+OL] [QO+kchod(ROOT)+AL] [0+ch(AQUA)+ODY] [0+chotol(ROOT)+S] [O+t(ASTR)+OL] [Y+tchdg(ROOT)+0]"
+                },
+                {
+                  "loc": "<f93r.5>",
+                  "eva": "ol . chody . cfhol . dol . qokol . otodar . chodain",
+                  "gloss": "LIQ.DET(ol) [0+ch(AQUA)+ODY] [0+ckh(HERB)+OL] PART(dol) [QO+k(AQUA)+OL] [O+tod(ROOT)+AR] [0+chod(HERB)+AIN]"
+                },
+                {
+                  "loc": "<f93r.6>",
+                  "eva": "tarotor . s . cho . s . chol . sheoees",
+                  "gloss": "[0+tarot(ROOT)+OR] PART(s) [0+ch(AQUA)+O] PART(s) [0+ch(AQUA)+OL] [0+cheoe(ROOT)+S]"
+                },
+                {
+                  "loc": "<f93r.7>",
+                  "eva": "shor . shol . ody . cheodaiin . s",
+                  "gloss": "[0+ch(AQUA)+OR] [0+ch(AQUA)+OL] PART(ody) [0+cheod(PHARM)+AIIN] PART(s)"
+                },
+                {
+                  "loc": "<f93r.8>",
+                  "eva": "lorsheeody . chodaiin . s . odar",
+                  "gloss": "[LO+rche(ROOT)+ODY] [0+chod(HERB)+AIIN] PART(s) PART(odar)"
+                },
+                {
+                  "loc": "<f93r.9>",
+                  "eva": "shodam . okcheody . cthocthol",
+                  "gloss": "[0+chod(HERB)+AM] [O+kche(ROOT)+ODY] [0+cthocth(ROOT)+OL]"
+                },
+                {
+                  "loc": "<f93r.10>",
+                  "eva": "ychos . chey . keol . cheol . ckhody",
+                  "gloss": "[Y+cho(HERB)+S] [0+ch(AQUA)+EY] [0+k(AQUA)+EOL] [0+ch(AQUA)+EOL] [0+ckh(HERB)+ODY]"
+                },
+                {
+                  "loc": "<f93r.11>",
+                  "eva": "okeol . oteol . sodam . sheoal . sal",
+                  "gloss": "[O+k(AQUA)+EOL] [O+t(ASTR)+EOL] PART(sodam) [0+cheo(PHARM)+AL] LIQ.DET(sal)"
+                },
+                {
+                  "loc": "<f93r.12>",
+                  "eva": "qokor . shey . okcheor . sheodom",
+                  "gloss": "[QO+k(AQUA)+OR] [0+ch(AQUA)+EY] [O+kch(HERB)+EOR] [0+cheod(PHARM)+OM]"
+                },
+                {
+                  "loc": "<f93r.13>",
+                  "eva": "shodaiin . qotchy . kcholr",
+                  "gloss": "[0+chod(HERB)+AIIN] [QO+tch(HERB)+Y] [0+kchol(ROOT)+R]"
+                },
+                {
+                  "loc": "<f93r.14>",
+                  "eva": "ychey . ckhos . okcheod . chr",
+                  "gloss": "[Y+ch(AQUA)+EY] [0+ckho(ROOT)+S] [O+kcheo(ROOT)+D] [0+ch(AQUA)+R]"
+                },
+                {
+                  "loc": "<f93r.15>",
+                  "eva": "ochol . shodal . dol . cheodam",
+                  "gloss": "[O+ch(AQUA)+OL] [0+chod(HERB)+AL] PART(dol) [0+cheod(PHARM)+AM]"
+                },
+                {
+                  "loc": "<f93r.16>",
+                  "eva": "choshy . qokor . chckhs",
+                  "gloss": "[0+choch(ROOT)+Y] [QO+k(AQUA)+OR] [0+chckh(AQUA)+S]"
+                },
+                {
+                  "loc": "<f93r.17>",
+                  "eva": "tcheo . l . cholchecthody",
+                  "gloss": "[0+tche(ROOT)+O] PART(l) [0+cholchecth(ROOT)+ODY]"
+                },
+                {
+                  "loc": "<f93r.18>",
+                  "eva": "olkees . shodaiin . shody",
+                  "gloss": "[OL+ke(PHARM)+S] [0+chod(HERB)+AIIN] [0+ch(AQUA)+ODY]"
+                },
+                {
+                  "loc": "<f93r.19>",
+                  "eva": "tchor . shol . r . sheoky",
+                  "gloss": "[0+tch(HERB)+OR] [0+ch(AQUA)+OL] PART(r) [S+heok(ROOT)+Y]"
+                },
+                {
+                  "loc": "<f93r.20>",
+                  "eva": "ychockhy . cthol . osos",
+                  "gloss": "[Y+chockh(PHARM)+Y] [0+cth(HERB)+OL] PART(osos)"
+                },
+                {
+                  "loc": "<f93r.21>",
+                  "eva": "dol . shol . daiin . shcthy",
+                  "gloss": "PART(dol) [0+ch(AQUA)+OL] TAKE/FROM(daiin) [S+hcth(AQUA)+Y]"
+                },
+                {
+                  "loc": "<f93r.22>",
+                  "eva": "kchor . cthy . chakal . daiin",
+                  "gloss": "[0+kch(HERB)+OR] [0+cth(HERB)+Y] [0+chak(ROOT)+AL] TAKE/FROM(daiin)"
+                },
+                {
+                  "loc": "<f93r.23>",
+                  "eva": "oain . okor . shody . teols",
+                  "gloss": "PART(oain) [O+k(AQUA)+OR] [0+ch(AQUA)+ODY] [0+teol(ROOT)+S]"
+                },
+                {
+                  "loc": "<f93r.24>",
+                  "eva": "ychocthy . chotey . teeys",
+                  "gloss": "[Y+chocth(HERB)+Y] [0+chot(ASTR)+EY] [0+tey(ROOT)+S]"
+                },
+                {
+                  "loc": "<f93r.25>",
+                  "eva": "ysaiin . chotar . shody",
+                  "gloss": "PART(ysaiin) [0+chot(ASTR)+AR] [0+ch(AQUA)+ODY]"
+                },
+                {
+                  "loc": "<f93r.26>",
+                  "eva": "ocheodaiin . tchos . sor",
+                  "gloss": "[O+cheod(PHARM)+AIIN] [0+tcho(ROOT)+S] PART(sor)"
+                },
+                {
+                  "loc": "<f93r.27>",
+                  "eva": "qokor . cheo . los . ckheody",
+                  "gloss": "[QO+k(AQUA)+OR] [0+che(PHARM)+O] PART(los) [0+ckhe(ROOT)+ODY]"
+                },
+                {
+                  "loc": "<f93r.28>",
+                  "eva": "ychor . odol . chodaiin . s",
+                  "gloss": "[Y+ch(AQUA)+OR] PART(odol) [0+chod(HERB)+AIIN] PART(s)"
+                },
+                {
+                  "loc": "<f93r.29>",
+                  "eva": "dain . cho . ctho . cthosg",
+                  "gloss": "TAKE/FROM(daiin) [0+ch(AQUA)+O] [0+cth(HERB)+O] [0+cthosg(ROOT)+0]"
+                },
+                {
+                  "loc": "<f93r.30>",
+                  "eva": "shodaiin . qokcho . cthol",
+                  "gloss": "[0+chod(HERB)+AIIN] [QO+kch(HERB)+O] [0+cth(HERB)+OL]"
+                },
+                {
+                  "loc": "<f93r.31>",
+                  "eva": "ol . chol . cthol . olchod",
+                  "gloss": "LIQ.DET(ol) [0+ch(AQUA)+OL] [0+cth(HERB)+OL] [OL+cho(HERB)+D]"
+                },
+                {
+                  "loc": "<f93r.32>",
+                  "eva": "dol . chokal . schos",
+                  "gloss": "PART(dol) [0+chok(HERB)+AL] [S+cho(HERB)+S]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pamphlet_page_num": 2,
+          "folio": "f93v",
+          "meta": {
+            "Q": "Q",
+            "B": "1",
+            "I": "H",
+            "L": "A",
+            "H": "1"
+          },
+          "n_paragraphs": 1,
+          "paragraphs": [
+            {
+              "para_index": 1,
+              "archetype": "ARCH_5_COSMOLOGICAL_ASTRONOMICAL_SPEC",
+              "n_lines": 10,
+              "n_words": 87,
+              "carried_over_sheet_stems": [
+                "cheodain",
+                "cheol",
+                "cho",
+                "chocthy",
+                "chody",
+                "chol",
+                "chos",
+                "ckheody"
+              ],
+              "lines": [
+                {
+                  "loc": "<f93v.1>",
+                  "eva": "possheody . qoteeo . qoshocphy . opchody . opor . opchy . otchdal . or . shodaiin",
+                  "gloss": "[0+tosche(ROOT)+ODY] [QO+te(ASTR)+O] [QO+chocth(HERB)+Y] [O+tch(HERB)+ODY] [O+t(ASTR)+OR] [O+tch(HERB)+Y] [O+tchd(ROOT)+AL] PART.CONJ(or) [0+chod(HERB)+AIIN]"
+                },
+                {
+                  "loc": "<f93v.2>",
+                  "eva": "yteeody . qotody . qotchol . qocthody . ytey . oky . daiin . dar . cthog",
+                  "gloss": "[Y+te(ASTR)+ODY] [QO+t(ASTR)+ODY] [QO+tch(HERB)+OL] [QO+cth(HERB)+ODY] [Y+t(ASTR)+EY] [O+k(AQUA)+Y] TAKE/FROM(daiin) PART.CONJ(dar) [0+cthog(ROOT)+0]"
+                },
+                {
+                  "loc": "<f93v.3>",
+                  "eva": "dchos . chody . qockhol . oky . cheodaiin . oty . daiin . otal . dair . okol",
+                  "gloss": "[D+cho(HERB)+S] [0+ch(AQUA)+ODY] [QO+ckh(HERB)+OL] [O+k(AQUA)+Y] [0+cheod(PHARM)+AIIN] [O+t(ASTR)+Y] TAKE/FROM(daiin) [O+t(ASTR)+AL] PART(dair) [O+k(AQUA)+OL]"
+                },
+                {
+                  "loc": "<f93v.4>",
+                  "eva": "sol . shol . shdchy . qokchol . qokchody . chol . chol . ykchy . dar",
+                  "gloss": "PART(sol) [0+ch(AQUA)+OL] [S+hdch(ROOT)+Y] [QO+kch(HERB)+OL] [QO+kch(HERB)+ODY] [0+ch(AQUA)+OL] [0+ch(AQUA)+OL] [Y+kch(HERB)+Y] PART.CONJ(dar)"
+                },
+                {
+                  "loc": "<f93v.5>",
+                  "eva": "tshoky . cthody . qotchol . ckhol . dchog . s . olo . oteo . chodaiindy",
+                  "gloss": "[0+tchok(ROOT)+Y] [0+cth(HERB)+ODY] [QO+tch(HERB)+OL] [0+ckh(HERB)+OL] [D+chog(ROOT)+0] PART(s) PART(olo) [O+te(ASTR)+O] [0+chodain(ROOT)+DY]"
+                },
+                {
+                  "loc": "<f93v.6>",
+                  "eva": "ytchl . ckhol . qochocthy . ctho . chkeey . cthody . s . dar . sheyokam",
+                  "gloss": "[Y+tch(HERB)+L] [0+ckh(HERB)+OL] [QO+chocth(HERB)+Y] [0+cth(HERB)+O] [0+chk(HERB)+EEY] [0+cth(HERB)+ODY] PART(s) PART.CONJ(dar) [S+heyok(ROOT)+AM]"
+                },
+                {
+                  "loc": "<f93v.7>",
+                  "eva": "oees . ckheody . qkcheey . koldy . tchodaiin . ctheos . shodain . qokeeam",
+                  "gloss": "PART(oees) [0+ckhe(ROOT)+ODY] [Q+kch(HERB)+EEY] [0+kol(ROOT)+DY] [0+tchod(ROOT)+AIIN] [0+ctheo(ROOT)+S] [0+chod(HERB)+AIN] [QO+ke(PHARM)+AM]"
+                },
+                {
+                  "loc": "<f93v.8>",
+                  "eva": "dcho . chody . teol . sheol . cheeoldair . okchey . cthey . dsheog . okeey . dama",
+                  "gloss": "[D+ch(AQUA)+O] [0+ch(AQUA)+ODY] [0+t(ASTR)+EOL] [0+ch(AQUA)+EOL] [0+cheolda(ROOT)+IR] [O+kch(HERB)+EY] [0+cth(HERB)+EY] [D+cheog(ROOT)+0] [O+k(AQUA)+EEY] PART(dama)"
+                },
+                {
+                  "loc": "<f93v.9>",
+                  "eva": "odeeeodl . cheodar . oksho . chody . okchey . cthol . oly . ytchol . sar . dar",
+                  "gloss": "PART(odeeeodl) [0+cheod(PHARM)+AR] [O+kch(HERB)+O] [0+ch(AQUA)+ODY] [O+kch(HERB)+EY] [0+cth(HERB)+OL] PART(oly) [Y+tch(HERB)+OL] PART.CONJ(sar) PART.CONJ(dar)"
+                },
+                {
+                  "loc": "<f93v.10>",
+                  "eva": "ychol . chs . ckhy . scheeol",
+                  "gloss": "[Y+ch(AQUA)+OL] [0+ch(AQUA)+S] [0+ckh(HERB)+Y] [S+che(PHARM)+EOL]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pamphlet_page_num": 3,
+          "folio": "f96r",
+          "meta": {
+            "Q": "Q",
+            "B": "1",
+            "I": "H",
+            "L": "A",
+            "H": "1"
+          },
+          "n_paragraphs": 1,
+          "paragraphs": [
+            {
+              "para_index": 1,
+              "archetype": "ARCH_1_BOTANICAL_TAXONOMIC_HEAD",
+              "n_lines": 13,
+              "n_words": 84,
+              "carried_over_sheet_stems": [
+                "cheodain",
+                "cheol",
+                "chkey",
+                "cho",
+                "chockhy",
+                "chodain",
+                "chol",
+                "chor"
+              ],
+              "lines": [
+                {
+                  "loc": "<f96r.1>",
+                  "eva": "tor . cheeor . ckheos . olsheeosol . cpheol . cpheor . chodar",
+                  "gloss": "[0+t(ASTR)+OR] [0+che(PHARM)+EOR] [0+ckheo(ROOT)+S] [OL+cheos(ROOT)+OL] [0+cth(HERB)+EOL] [0+cth(HERB)+EOR] [0+chod(HERB)+AR]"
+                },
+                {
+                  "loc": "<f96r.2>",
+                  "eva": "ytol . oteeor . sheol . oteey . qokeody . qokeeody . cthey",
+                  "gloss": "[Y+t(ASTR)+OL] [O+te(ASTR)+EOR] [0+ch(AQUA)+EOL] [O+t(ASTR)+EEY] [QO+ke(PHARM)+ODY] [QO+ke(PHARM)+ODY] [0+cth(HERB)+EY]"
+                },
+                {
+                  "loc": "<f96r.3>",
+                  "eva": "toaiin . odal . chos . ckheody . keody . chodol . oty",
+                  "gloss": "[0+to(ROOT)+AIIN] PART(odal) [0+cho(HERB)+S] [0+ckhe(ROOT)+ODY] [0+ke(PHARM)+ODY] [0+chod(HERB)+OL] [O+t(ASTR)+Y]"
+                },
+                {
+                  "loc": "<f96r.4>",
+                  "eva": "or . chor . chkchol . chokchor . s . or . sheockhy . choly",
+                  "gloss": "PART.CONJ(or) [0+ch(AQUA)+OR] [0+chkch(ROOT)+OL] [0+chokch(HERB)+OR] PART(s) PART.CONJ(or) [S+heockh(ROOT)+Y] [0+cho(HERB)+LY]"
+                },
+                {
+                  "loc": "<f96r.5>",
+                  "eva": "daiin . chodaiin . cthey . tol . sheor . qokeol . okol",
+                  "gloss": "TAKE/FROM(daiin) [0+chod(HERB)+AIIN] [0+cth(HERB)+EY] [0+t(ASTR)+OL] [0+ch(AQUA)+EOR] [QO+k(AQUA)+EOL] [O+k(AQUA)+OL]"
+                },
+                {
+                  "loc": "<f96r.6>",
+                  "eva": "lor . ckheey . chol . cholody . cheol . ctheor . sor",
+                  "gloss": "PART(lor) [0+ckh(HERB)+EEY] [0+ch(AQUA)+OL] [0+chol(HERB)+ODY] [0+ch(AQUA)+EOL] [0+cth(HERB)+EOR] PART(sor)"
+                },
+                {
+                  "loc": "<f96r.7>",
+                  "eva": "oiir . or . ckhor . chkey . ckhocthy . or . chockhy",
+                  "gloss": "PART(oiir) PART.CONJ(or) [0+ckh(HERB)+OR] [0+chk(HERB)+EY] [0+ckhocth(ROOT)+Y] PART.CONJ(or) [0+chockh(PHARM)+Y]"
+                },
+                {
+                  "loc": "<f96r.8>",
+                  "eva": "ykeor . secheeol . sheol . qokeeey . chol . daiin",
+                  "gloss": "[Y+k(AQUA)+EOR] [S+eche(ROOT)+EOL] [0+ch(AQUA)+EOL] [QO+ke(PHARM)+EEY] [0+ch(AQUA)+OL] TAKE/FROM(daiin)"
+                },
+                {
+                  "loc": "<f96r.9>",
+                  "eva": "todar . sheo . cthody . shokocfhy . chopcho . dory",
+                  "gloss": "[0+tod(ROOT)+AR] [0+che(PHARM)+O] [0+cth(HERB)+ODY] [S+hokockh(ROOT)+Y] [0+chotch(HERB)+O] PART(dory)"
+                },
+                {
+                  "loc": "<f96r.10>",
+                  "eva": "otchodol . shocthody . shockhy . otchodor . cho",
+                  "gloss": "[O+tchod(ROOT)+OL] [S+hocth(HERB)+ODY] [S+hockh(ROOT)+Y] [O+tchod(ROOT)+OR] [0+ch(AQUA)+O]"
+                },
+                {
+                  "loc": "<f96r.11>",
+                  "eva": "teol . cheody . shodol . qokchod . s . aiin . chokey",
+                  "gloss": "[0+t(ASTR)+EOL] [0+che(PHARM)+ODY] [0+chod(HERB)+OL] [QO+kcho(ROOT)+D] PART(s) 1.UNIT(aiin) [0+chok(HERB)+EY]"
+                },
+                {
+                  "loc": "<f96r.12>",
+                  "eva": "dcheor . cheol . cheodaiin . ol . dy . d . chs . archeody",
+                  "gloss": "[D+ch(AQUA)+EOR] [0+ch(AQUA)+EOL] [0+cheod(PHARM)+AIIN] LIQ.DET(ol) PART(dy) PART(d) [0+ch(AQUA)+S] [AR+che(PHARM)+ODY]"
+                },
+                {
+                  "loc": "<f96r.13>",
+                  "eva": "oteodsho . qotchos",
+                  "gloss": "[O+teodch(ROOT)+O] [QO+tcho(ROOT)+S]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pamphlet_page_num": 4,
+          "folio": "f96v",
+          "meta": {
+            "Q": "Q",
+            "B": "1",
+            "I": "H",
+            "L": "A",
+            "H": "1"
+          },
+          "n_paragraphs": 1,
+          "paragraphs": [
+            {
+              "para_index": 1,
+              "archetype": "ARCH_1_BOTANICAL_TAXONOMIC_HEAD",
+              "n_lines": 13,
+              "n_words": 54,
+              "carried_over_sheet_stems": [
+                "cheor",
+                "chey",
+                "ckheody",
+                "ckhey",
+                "ctheor",
+                "ctheos",
+                "cthey",
+                "shey"
+              ],
+              "lines": [
+                {
+                  "loc": "<f96v.1>",
+                  "eva": "psheessheeor . qoepsheody . odar . ocpheeo . opar . ysar . osoj",
+                  "gloss": "[0+tchesche(ROOT)+EOR] [QO+etche(ROOT)+ODY] PART(odar) [O+cthe(ROOT)+O] [O+t(ASTR)+AR] PART(ysar) PART(osoj)"
+                },
+                {
+                  "loc": "<f96v.2>",
+                  "eva": "ytear . yteor . olcheey . dteodoiin . saro . qochesycheom",
+                  "gloss": "[Y+t(ASTR)+EAR] [Y+t(ASTR)+EOR] [OL+ch(AQUA)+EEY] [D+teod(ASTR)+OIIN] PART(saro) [QO+chesyche(ROOT)+OM]"
+                },
+                {
+                  "loc": "<f96v.3>",
+                  "eva": "dcheoteos . cpheos . sor . chcthory . cth . ytchey . daiin",
+                  "gloss": "[D+cheoteo(ROOT)+S] [0+ctheo(ROOT)+S] PART(sor) [0+chctho(ROOT)+RY] [0+cth(HERB)+0] [Y+tch(HERB)+EY] TAKE/FROM(daiin)"
+                },
+                {
+                  "loc": "<f96v.4>",
+                  "eva": "dsheos . sheey . teocthey . eeodody",
+                  "gloss": "[D+cheo(PHARM)+S] [0+ch(AQUA)+EEY] [0+teocth(ROOT)+EY] PART(eeodody)"
+                },
+                {
+                  "loc": "<f96v.5>",
+                  "eva": "tockhy . cthey . ckheeody . ar . eeeykey",
+                  "gloss": "[0+tockh(ROOT)+Y] [0+cth(HERB)+EY] [0+ckhe(ROOT)+ODY] PART.CONJ(ar) [0+eyk(ROOT)+EY]"
+                },
+                {
+                  "loc": "<f96v.6>",
+                  "eva": "yteeody . teodar . alchey . sy",
+                  "gloss": "[Y+te(ASTR)+ODY] [0+teod(ASTR)+AR] [AL+ch(AQUA)+EY] PART(sy)"
+                },
+                {
+                  "loc": "<f96v.7>",
+                  "eva": "sheodal . choraryl",
+                  "gloss": "[0+cheod(PHARM)+AL] [0+chorary(ROOT)+L]"
+                },
+                {
+                  "loc": "<f96v.8>",
+                  "eva": "ycheey . ckheal . daiins",
+                  "gloss": "[Y+ch(AQUA)+EEY] [0+ckh(HERB)+EAL] PART(daiins)"
+                },
+                {
+                  "loc": "<f96v.9>",
+                  "eva": "oeol . ckheor . cheoraiin",
+                  "gloss": "PART(oeol) [0+ckh(HERB)+EOR] [0+cheor(ROOT)+AIIN]"
+                },
+                {
+                  "loc": "<f96v.10>",
+                  "eva": "ctheor . oral . char . ckhey",
+                  "gloss": "[0+cth(HERB)+EOR] PART(oral) [0+ch(AQUA)+AR] [0+ckh(HERB)+EY]"
+                },
+                {
+                  "loc": "<f96v.11>",
+                  "eva": "sar . os . checkhey . so",
+                  "gloss": "PART.CONJ(sar) PART(os) [0+checkh(AQUA)+EY] PART(so)"
+                },
+                {
+                  "loc": "<f96v.12>",
+                  "eva": "sosar . cheekeo . dain",
+                  "gloss": "PART(sosar) [0+cheke(ROOT)+O] TAKE/FROM(daiin)"
+                },
+                {
+                  "loc": "<f96v.13>",
+                  "eva": "soysar . cheor",
+                  "gloss": "PART(soysar) [0+ch(AQUA)+EOR]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
