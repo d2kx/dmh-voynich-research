@@ -1,0 +1,112 @@
+{
+  "wave": 47,
+  "attacks": [
+    197,
+    198,
+    199,
+    200
+  ],
+  "discoveries": [
+    214,
+    215,
+    216,
+    217
+  ],
+  "milestone": "200th Decoding Attack Landmark",
+  "edition": "v13.0",
+  "attack197_summary": {
+    "f72r2_gemini": {
+      "sign": "Gemini (juny)",
+      "pdf_page": "p131",
+      "words": 113,
+      "cc_rings": 3,
+      "lz_loci": 29,
+      "nameless_nymph_anomaly": {
+        "transcribed_loci": 29,
+        "painted_nymph_count": 30,
+        "missing_caption_locus": "12:00 nymph in middle ring (uncaptioned)",
+        "barreled_bathers_count": 3,
+        "barrel_positions": [
+          "05:00 inner",
+          "06:30 inner",
+          "08:00 inner"
+        ]
+      }
+    },
+    "f72r3_cancer": {
+      "sign": "Cancer (jolh)",
+      "pdf_page": "p131",
+      "words": 164,
+      "cc_rings": 4,
+      "lz_loci": 30,
+      "decan_calibration": true,
+      "verbal_surge_z_score": 1.26,
+      "verbal_surge_p_value": 0.125
+    },
+    "p131_hinge": {
+      "shared_stems_across_three_panels": 18,
+      "hinge_shift": "Barreled ot-/op- (f72r1) -> Parity (f72r2) -> Active ch-/sh- surge (f72r3)"
+    }
+  },
+  "attack198_summary": {
+    "f67v1_sun_wheel": {
+      "words": 73,
+      "outer_labels": 12,
+      "spokes": 17,
+      "stars": 39,
+      "damamm_tail_stop": true
+    },
+    "f67v2_cosmology": {
+      "words": 62,
+      "corner_paragraphs_count": 4,
+      "corner_mean_length": 8.5,
+      "corner_std_length": 1.8,
+      "spoke_concordance_z": 0.12,
+      "spoke_concordance_p": 0.537
+    },
+    "velar_g_network": {
+      "f67_g_tokens": [
+        "olcheeg",
+        "ypcheg",
+        "g",
+        "daig",
+        "okydseog"
+      ],
+      "enrichment_lift_vs_corpus": 9.31,
+      "z_score_vs_corpus": 6.1,
+      "enrichment_lift_vs_scribe4": 4.07,
+      "z_score_vs_scribe4": 3.42
+    }
+  },
+  "attack199_summary": {
+    "f75r_words": 385,
+    "f75r_lines": 53,
+    "downstream_balneo_folios": 18,
+    "downstream_balneo_words": 5941,
+    "stem_coverage_rate": 0.8697,
+    "exact_coverage_rate": 0.5363,
+    "coverage_z_score": 0.68,
+    "coverage_p_value": 0.2244,
+    "split_lines_with_intrusions": 29,
+    "procedural_verb_density": 0.4831
+  },
+  "attack200_summary": {
+    "title": "Milestone 200th Decoding Attack Master Compendium",
+    "historical_scope": "200 Computational & Forensic Attacks (Attacks 1-200), 217 Verified Empirical Discoveries",
+    "primary_synthesized_domains": [
+      "Ecliptic Astronomy & Decan Geometry (f70v2-f73v, 299/300 degree invariant)",
+      "Cosmological Wheels & Cardinal Treatises (f67v1-f67v2, Quire 9 velar stop network)",
+      "Balneological Hydro-Architecture (f75r-f84v, f75r 86.97% lexical hub & f75v s-l-l-o-r-s acrostic)",
+      "Quire 20 Sequential Recipe Chaining & Step-Star Variance Collapse (32.12 words/unit)",
+      "Deterministic 8-State Morpho-Syntactic State Machine (39,001 tokens, chi2=2,545.0, z=+254.84)"
+    ]
+  },
+  "crops_rendered": [
+    "pages/f72r2_gemini_medallion_enh.png",
+    "pages/f72r3_cancer_medallion_enh.png",
+    "pages/f67v1_smiling_sun_wheel_enh.png",
+    "pages/f67v2_four_corner_cosmology_enh.png",
+    "pages/f75v_gastric_stream_conduits_enh.png",
+    "pages/f75v_gutter_acrostic_sllors_enh.png"
+  ]
+}

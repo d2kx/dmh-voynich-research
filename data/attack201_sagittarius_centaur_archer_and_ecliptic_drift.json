@@ -1,0 +1,970 @@
+{
+  "summary": {
+    "attack": 201,
+    "discovery": 218,
+    "title": "Sagittarius (f73v, 'novembre') Centaur Archer Medallion, 10+16+4 = 30\u00b0 Overflow Law Replication with Scorpio (f73r), and Ecliptic Seasonal Prefix Drift",
+    "key_findings": {
+      "degree_invariant": "f73v Sagittarius strictly replicates the 10+16+4 = 30\u00b0 layout established on f73r Scorpio (10 inner, 16 middle, 4 top overflow nymphs)",
+      "scorpio_sagittarius_comparison": {
+        "f73r": {
+          "total_lines": 33,
+          "total_words": 96,
+          "degree_loci": 30,
+          "top_overflow_labels": [
+            "otaly",
+            "chockhy",
+            "otedy",
+            "yteeody"
+          ]
+        },
+        "f73v": {
+          "total_lines": 33,
+          "total_words": 99,
+          "degree_loci": 30,
+          "top_overflow_labels": [
+            "okol",
+            "oteody",
+            "oteedy",
+            "eeeody"
+          ]
+        }
+      },
+      "seasonal_prefix_drift": {
+        "spring_ot_op_pct": 30.08,
+        "spring_ok_of_pct": 13.09,
+        "spring_ratio": 2.299,
+        "summer_ot_op_pct": 18.99,
+        "summer_ok_of_pct": 18.99,
+        "summer_ratio": 1.0,
+        "autumn_ot_op_pct": 21.87,
+        "autumn_ok_of_pct": 14.74,
+        "autumn_ratio": 1.483,
+        "spring_vs_summer_chi2": 14.653,
+        "permutation_z_score": 2.258,
+        "p_value": 0.023
+      },
+      "codicology": "f73v marks the physical terminal boundary of Quire 11, immediately preceding the missing folio 74 (lost Capricorn and Aquarius)"
+    }
+  },
+  "scorpio_sagittarius_architecture": {
+    "f73r": {
+      "sign": "Scorpio",
+      "total_lines": 33,
+      "total_words": 96,
+      "total_lz_words": 30,
+      "total_cc_words": 66,
+      "n_top_overflow_loci": 4,
+      "n_middle_ring_loci": 16,
+      "n_inner_ring_loci": 10,
+      "total_degree_loci": 30,
+      "architecture": "10 (inner) + 16 (middle) + 4 (top overflow) = 30\u00b0",
+      "top_overflow_loci": [
+        {
+          "locus": "f73r.1",
+          "clock": "11:15",
+          "words": [
+            "otaly"
+          ]
+        },
+        {
+          "locus": "f73r.2",
+          "clock": "11:45",
+          "words": [
+            "chockhy"
+          ]
+        },
+        {
+          "locus": "f73r.3",
+          "clock": "00:30",
+          "words": [
+            "otedy"
+          ]
+        },
+        {
+          "locus": "f73r.4",
+          "clock": "01:00",
+          "words": [
+            "yteeody"
+          ]
+        }
+      ],
+      "middle_ring_loci": [
+        {
+          "locus": "f73r.6",
+          "clock": "11:00",
+          "words": [
+            "otaly"
+          ]
+        },
+        {
+          "locus": "f73r.7",
+          "clock": "11:30",
+          "words": [
+            "okeody"
+          ]
+        },
+        {
+          "locus": "f73r.8",
+          "clock": "00:00",
+          "words": [
+            "oteedyl"
+          ]
+        },
+        {
+          "locus": "f73r.9",
+          "clock": "00:30",
+          "words": [
+            "ykeedy"
+          ]
+        },
+        {
+          "locus": "f73r.10",
+          "clock": "01:00",
+          "words": [
+            "okeey"
+          ]
+        },
+        {
+          "locus": "f73r.11",
+          "clock": "02:00",
+          "words": [
+            "okeedy"
+          ]
+        },
+        {
+          "locus": "f73r.12",
+          "clock": "02:30",
+          "words": [
+            "ykeeory"
+          ]
+        },
+        {
+          "locus": "f73r.13",
+          "clock": "03:30",
+          "words": [
+            "oteeosy"
+          ]
+        },
+        {
+          "locus": "f73r.14",
+          "clock": "04:30",
+          "words": [
+            "shekal"
+          ]
+        },
+        {
+          "locus": "f73r.15",
+          "clock": "05:30",
+          "words": [
+            "oteedyy"
+          ]
+        },
+        {
+          "locus": "f73r.16",
+          "clock": "06:30",
+          "words": [
+            "okedal"
+          ]
+        },
+        {
+          "locus": "f73r.17",
+          "clock": "07:00",
+          "words": [
+            "chdy"
+          ]
+        },
+        {
+          "locus": "f73r.18",
+          "clock": "08:00",
+          "words": [
+            "dalshey"
+          ]
+        },
+        {
+          "locus": "f73r.19",
+          "clock": "08:45",
+          "words": [
+            "opaiin"
+          ]
+        },
+        {
+          "locus": "f73r.20",
+          "clock": "09:30",
+          "words": [
+            "okeos"
+          ]
+        },
+        {
+          "locus": "f73r.21",
+          "clock": "10:00",
+          "words": [
+            "otey"
+          ]
+        }
+      ],
+      "inner_ring_loci": [
+        {
+          "locus": "f73r.23",
+          "clock": "11:30",
+          "words": [
+            "okary"
+          ]
+        },
+        {
+          "locus": "f73r.24",
+          "clock": "01:00",
+          "words": [
+            "okeeody"
+          ]
+        },
+        {
+          "locus": "f73r.25",
+          "clock": "02:00",
+          "words": [
+            "oyteedy"
+          ]
+        },
+        {
+          "locus": "f73r.26",
+          "clock": "03:00",
+          "words": [
+            "oky"
+          ]
+        },
+        {
+          "locus": "f73r.27",
+          "clock": "04:30",
+          "words": [
+            "chefy"
+          ]
+        },
+        {
+          "locus": "f73r.28",
+          "clock": "06:00",
+          "words": [
+            "otal"
+          ]
+        },
+        {
+          "locus": "f73r.29",
+          "clock": "07:00",
+          "words": [
+            "chek"
+          ]
+        },
+        {
+          "locus": "f73r.30",
+          "clock": "08:30",
+          "words": [
+            "ar"
+          ]
+        },
+        {
+          "locus": "f73r.31",
+          "clock": "09:30",
+          "words": [
+            "kar"
+          ]
+        },
+        {
+          "locus": "f73r.32",
+          "clock": "10:30",
+          "words": [
+            "okeeos"
+          ]
+        }
+      ],
+      "cc_rings": [
+        {
+          "locus": "f73r.5",
+          "n_words": 34,
+          "first_word": "ypolcheey",
+          "last_word": "alcheky"
+        },
+        {
+          "locus": "f73r.22",
+          "n_words": 25,
+          "first_word": "oteey",
+          "last_word": "cheesy"
+        },
+        {
+          "locus": "f73r.33",
+          "n_words": 7,
+          "first_word": "osaiin",
+          "last_word": "oteodal"
+        }
+      ],
+      "prefix_dist": {
+        "ch": 23,
+        "ot": 18,
+        "ok": 11,
+        "da": 5,
+        "al": 5,
+        "ai": 4,
+        "ar": 4,
+        "yk": 3
+      },
+      "suffix_dist": {
+        "ey": 18,
+        "dy": 11,
+        "ar": 10,
+        "al": 9,
+        "in": 7,
+        "ly": 6,
+        "es": 6,
+        "os": 5
+      }
+    },
+    "f73v": {
+      "sign": "Sagittarius",
+      "total_lines": 33,
+      "total_words": 99,
+      "total_lz_words": 31,
+      "total_cc_words": 68,
+      "n_top_overflow_loci": 4,
+      "n_middle_ring_loci": 16,
+      "n_inner_ring_loci": 10,
+      "total_degree_loci": 30,
+      "architecture": "10 (inner) + 16 (middle) + 4 (top overflow) = 30\u00b0",
+      "top_overflow_loci": [
+        {
+          "locus": "f73v.1",
+          "clock": "11:00",
+          "words": [
+            "okol"
+          ]
+        },
+        {
+          "locus": "f73v.2",
+          "clock": "11:45",
+          "words": [
+            "oteody"
+          ]
+        },
+        {
+          "locus": "f73v.3",
+          "clock": "00:30",
+          "words": [
+            "oteedy"
+          ]
+        },
+        {
+          "locus": "f73v.4",
+          "clock": "01:00",
+          "words": [
+            "eeeody"
+          ]
+        }
+      ],
+      "middle_ring_loci": [
+        {
+          "locus": "f73v.6",
+          "clock": "10:00",
+          "words": [
+            "okeody"
+          ]
+        },
+        {
+          "locus": "f73v.7",
+          "clock": "10:30",
+          "words": [
+            "sheol"
+          ]
+        },
+        {
+          "locus": "f73v.8",
+          "clock": "11:30",
+          "words": [
+            "odees"
+          ]
+        },
+        {
+          "locus": "f73v.9",
+          "clock": "00:00",
+          "words": [
+            "eery"
+          ]
+        },
+        {
+          "locus": "f73v.10",
+          "clock": "01:00",
+          "words": [
+            "okeor"
+          ]
+        },
+        {
+          "locus": "f73v.11",
+          "clock": "01:30",
+          "words": [
+            "ofals"
+          ]
+        },
+        {
+          "locus": "f73v.12",
+          "clock": "02:00",
+          "words": [
+            "ykeody"
+          ]
+        },
+        {
+          "locus": "f73v.13",
+          "clock": "03:00",
+          "words": [
+            "oteody"
+          ]
+        },
+        {
+          "locus": "f73v.14",
+          "clock": "03:30",
+          "words": [
+            "ypaiin"
+          ]
+        },
+        {
+          "locus": "f73v.15",
+          "clock": "04:00",
+          "words": [
+            "yfaiin",
+            "y"
+          ]
+        },
+        {
+          "locus": "f73v.16",
+          "clock": "05:00",
+          "words": [
+            "ofcheesy"
+          ]
+        },
+        {
+          "locus": "f73v.17",
+          "clock": "06:00",
+          "words": [
+            "oraiiny"
+          ]
+        },
+        {
+          "locus": "f73v.18",
+          "clock": "07:00",
+          "words": [
+            "ykeeody"
+          ]
+        },
+        {
+          "locus": "f73v.19",
+          "clock": "07:30",
+          "words": [
+            "okeos"
+          ]
+        },
+        {
+          "locus": "f73v.20",
+          "clock": "08:30",
+          "words": [
+            "ykeear"
+          ]
+        },
+        {
+          "locus": "f73v.21",
+          "clock": "09:00",
+          "words": [
+            "qokeoly"
+          ]
+        }
+      ],
+      "inner_ring_loci": [
+        {
+          "locus": "f73v.23",
+          "clock": "09:30",
+          "words": [
+            "otedy"
+          ]
+        },
+        {
+          "locus": "f73v.24",
+          "clock": "11:00",
+          "words": [
+            "eeed"
+          ]
+        },
+        {
+          "locus": "f73v.25",
+          "clock": "01:00",
+          "words": [
+            "oky"
+          ]
+        },
+        {
+          "locus": "f73v.26",
+          "clock": "02:00",
+          "words": [
+            "oia"
+          ]
+        },
+        {
+          "locus": "f73v.27",
+          "clock": "02:30",
+          "words": [
+            "okal"
+          ]
+        },
+        {
+          "locus": "f73v.28",
+          "clock": "03:30",
+          "words": [
+            "ykey"
+          ]
+        },
+        {
+          "locus": "f73v.29",
+          "clock": "05:00",
+          "words": [
+            "ykeee"
+          ]
+        },
+        {
+          "locus": "f73v.30",
+          "clock": "06:00",
+          "words": [
+            "okeod"
+          ]
+        },
+        {
+          "locus": "f73v.31",
+          "clock": "07:30",
+          "words": [
+            "ykey"
+          ]
+        },
+        {
+          "locus": "f73v.32",
+          "clock": "08:30",
+          "words": [
+            "ypal"
+          ]
+        }
+      ],
+      "cc_rings": [
+        {
+          "locus": "f73v.5",
+          "n_words": 35,
+          "first_word": "otoar",
+          "last_word": "orary"
+        },
+        {
+          "locus": "f73v.22",
+          "n_words": 22,
+          "first_word": "oteotos",
+          "last_word": "daly"
+        },
+        {
+          "locus": "f73v.33",
+          "n_words": 11,
+          "first_word": "otedchor",
+          "last_word": "otaram"
+        }
+      ],
+      "prefix_dist": {
+        "ot": 17,
+        "ok": 12,
+        "ch": 11,
+        "yk": 9,
+        "qo": 7,
+        "ee": 4,
+        "sh": 4,
+        "al": 4
+      },
+      "suffix_dist": {
+        "dy": 24,
+        "ey": 11,
+        "ly": 9,
+        "ar": 6,
+        "in": 6,
+        "al": 4,
+        "ol": 3,
+        "or": 3
+      }
+    }
+  },
+  "ecliptic_drift_analysis": {
+    "folio_stats": [
+      {
+        "folio": "f70v2",
+        "sign": "Pisces",
+        "season": "Spring",
+        "month": "mars",
+        "angle_deg": 345,
+        "pdf_page": 129,
+        "total_words": 131,
+        "lz_words": 35,
+        "cc_words": 96,
+        "ot_op_count": 46,
+        "ot_op_rate": 0.3511,
+        "ok_of_count": 11,
+        "ok_of_rate": 0.084,
+        "ratio_ot_to_ok": 4.182,
+        "ch_sh_count": 22,
+        "ch_sh_rate": 0.1679,
+        "qo_count": 1,
+        "qo_rate": 0.0076,
+        "dy_ey_count": 44,
+        "dy_ey_rate": 0.3359,
+        "aiin_count": 11,
+        "aiin_rate": 0.084,
+        "am_om_count": 7,
+        "am_om_rate": 0.0534
+      },
+      {
+        "folio": "f70v1",
+        "sign": "Aries I",
+        "season": "Spring",
+        "month": "abril",
+        "angle_deg": 7.5,
+        "pdf_page": 130,
+        "total_words": 86,
+        "lz_words": 25,
+        "cc_words": 61,
+        "ot_op_count": 25,
+        "ot_op_rate": 0.2907,
+        "ok_of_count": 10,
+        "ok_of_rate": 0.1163,
+        "ratio_ot_to_ok": 2.5,
+        "ch_sh_count": 18,
+        "ch_sh_rate": 0.2093,
+        "qo_count": 1,
+        "qo_rate": 0.0116,
+        "dy_ey_count": 31,
+        "dy_ey_rate": 0.3605,
+        "aiin_count": 9,
+        "aiin_rate": 0.1047,
+        "am_om_count": 1,
+        "am_om_rate": 0.0116
+      },
+      {
+        "folio": "f71r",
+        "sign": "Aries II",
+        "season": "Spring",
+        "month": "abril",
+        "angle_deg": 22.5,
+        "pdf_page": 130,
+        "total_words": 90,
+        "lz_words": 17,
+        "cc_words": 73,
+        "ot_op_count": 32,
+        "ot_op_rate": 0.3556,
+        "ok_of_count": 15,
+        "ok_of_rate": 0.1667,
+        "ratio_ot_to_ok": 2.133,
+        "ch_sh_count": 17,
+        "ch_sh_rate": 0.1889,
+        "qo_count": 0,
+        "qo_rate": 0.0,
+        "dy_ey_count": 39,
+        "dy_ey_rate": 0.4333,
+        "aiin_count": 4,
+        "aiin_rate": 0.0444,
+        "am_om_count": 2,
+        "am_om_rate": 0.0222
+      },
+      {
+        "folio": "f71v",
+        "sign": "Taurus I",
+        "season": "Spring",
+        "month": "may",
+        "angle_deg": 37.5,
+        "pdf_page": 131,
+        "total_words": 100,
+        "lz_words": 22,
+        "cc_words": 78,
+        "ot_op_count": 27,
+        "ot_op_rate": 0.27,
+        "ok_of_count": 15,
+        "ok_of_rate": 0.15,
+        "ratio_ot_to_ok": 1.8,
+        "ch_sh_count": 24,
+        "ch_sh_rate": 0.24,
+        "qo_count": 0,
+        "qo_rate": 0.0,
+        "dy_ey_count": 31,
+        "dy_ey_rate": 0.31,
+        "aiin_count": 10,
+        "aiin_rate": 0.1,
+        "am_om_count": 4,
+        "am_om_rate": 0.04
+      },
+      {
+        "folio": "f72r1",
+        "sign": "Taurus II",
+        "season": "Spring",
+        "month": "may",
+        "angle_deg": 52.5,
+        "pdf_page": 131,
+        "total_words": 105,
+        "lz_words": 23,
+        "cc_words": 82,
+        "ot_op_count": 24,
+        "ot_op_rate": 0.2286,
+        "ok_of_count": 16,
+        "ok_of_rate": 0.1524,
+        "ratio_ot_to_ok": 1.5,
+        "ch_sh_count": 28,
+        "ch_sh_rate": 0.2667,
+        "qo_count": 1,
+        "qo_rate": 0.0095,
+        "dy_ey_count": 28,
+        "dy_ey_rate": 0.2667,
+        "aiin_count": 15,
+        "aiin_rate": 0.1429,
+        "am_om_count": 6,
+        "am_om_rate": 0.0571
+      },
+      {
+        "folio": "f72r2",
+        "sign": "Gemini",
+        "season": "Summer",
+        "month": "juny",
+        "angle_deg": 75,
+        "pdf_page": 131,
+        "total_words": 113,
+        "lz_words": 31,
+        "cc_words": 82,
+        "ot_op_count": 24,
+        "ot_op_rate": 0.2124,
+        "ok_of_count": 27,
+        "ok_of_rate": 0.2389,
+        "ratio_ot_to_ok": 0.889,
+        "ch_sh_count": 17,
+        "ch_sh_rate": 0.1504,
+        "qo_count": 3,
+        "qo_rate": 0.0265,
+        "dy_ey_count": 39,
+        "dy_ey_rate": 0.3451,
+        "aiin_count": 17,
+        "aiin_rate": 0.1504,
+        "am_om_count": 6,
+        "am_om_rate": 0.0531
+      },
+      {
+        "folio": "f72r3",
+        "sign": "Cancer",
+        "season": "Summer",
+        "month": "jolh",
+        "angle_deg": 105,
+        "pdf_page": 131,
+        "total_words": 164,
+        "lz_words": 41,
+        "cc_words": 123,
+        "ot_op_count": 25,
+        "ot_op_rate": 0.1524,
+        "ok_of_count": 20,
+        "ok_of_rate": 0.122,
+        "ratio_ot_to_ok": 1.25,
+        "ch_sh_count": 41,
+        "ch_sh_rate": 0.25,
+        "qo_count": 0,
+        "qo_rate": 0.0,
+        "dy_ey_count": 56,
+        "dy_ey_rate": 0.3415,
+        "aiin_count": 22,
+        "aiin_rate": 0.1341,
+        "am_om_count": 4,
+        "am_om_rate": 0.0244
+      },
+      {
+        "folio": "f72v3",
+        "sign": "Leo",
+        "season": "Summer",
+        "month": "agost",
+        "angle_deg": 135,
+        "pdf_page": 132,
+        "total_words": 118,
+        "lz_words": 34,
+        "cc_words": 84,
+        "ot_op_count": 26,
+        "ot_op_rate": 0.2203,
+        "ok_of_count": 28,
+        "ok_of_rate": 0.2373,
+        "ratio_ot_to_ok": 0.929,
+        "ch_sh_count": 30,
+        "ch_sh_rate": 0.2542,
+        "qo_count": 0,
+        "qo_rate": 0.0,
+        "dy_ey_count": 65,
+        "dy_ey_rate": 0.5508,
+        "aiin_count": 8,
+        "aiin_rate": 0.0678,
+        "am_om_count": 2,
+        "am_om_rate": 0.0169
+      },
+      {
+        "folio": "f72v2",
+        "sign": "Virgo",
+        "season": "Autumn",
+        "month": "setembre",
+        "angle_deg": 165,
+        "pdf_page": 132,
+        "total_words": 108,
+        "lz_words": 31,
+        "cc_words": 77,
+        "ot_op_count": 20,
+        "ot_op_rate": 0.1852,
+        "ok_of_count": 19,
+        "ok_of_rate": 0.1759,
+        "ratio_ot_to_ok": 1.053,
+        "ch_sh_count": 29,
+        "ch_sh_rate": 0.2685,
+        "qo_count": 1,
+        "qo_rate": 0.0093,
+        "dy_ey_count": 47,
+        "dy_ey_rate": 0.4352,
+        "aiin_count": 8,
+        "aiin_rate": 0.0741,
+        "am_om_count": 4,
+        "am_om_rate": 0.037
+      },
+      {
+        "folio": "f72v1",
+        "sign": "Libra",
+        "season": "Autumn",
+        "month": "octobre",
+        "angle_deg": 195,
+        "pdf_page": 133,
+        "total_words": 104,
+        "lz_words": 30,
+        "cc_words": 74,
+        "ot_op_count": 29,
+        "ot_op_rate": 0.2788,
+        "ok_of_count": 16,
+        "ok_of_rate": 0.1538,
+        "ratio_ot_to_ok": 1.812,
+        "ch_sh_count": 14,
+        "ch_sh_rate": 0.1346,
+        "qo_count": 0,
+        "qo_rate": 0.0,
+        "dy_ey_count": 48,
+        "dy_ey_rate": 0.4615,
+        "aiin_count": 8,
+        "aiin_rate": 0.0769,
+        "am_om_count": 2,
+        "am_om_rate": 0.0192
+      },
+      {
+        "folio": "f73r",
+        "sign": "Scorpio",
+        "season": "Autumn",
+        "month": "octobre",
+        "angle_deg": 225,
+        "pdf_page": 134,
+        "total_words": 96,
+        "lz_words": 30,
+        "cc_words": 66,
+        "ot_op_count": 21,
+        "ot_op_rate": 0.2188,
+        "ok_of_count": 11,
+        "ok_of_rate": 0.1146,
+        "ratio_ot_to_ok": 1.909,
+        "ch_sh_count": 25,
+        "ch_sh_rate": 0.2604,
+        "qo_count": 1,
+        "qo_rate": 0.0104,
+        "dy_ey_count": 44,
+        "dy_ey_rate": 0.4583,
+        "aiin_count": 6,
+        "aiin_rate": 0.0625,
+        "am_om_count": 3,
+        "am_om_rate": 0.0312
+      },
+      {
+        "folio": "f73v",
+        "sign": "Sagittarius",
+        "season": "Autumn",
+        "month": "novembre",
+        "angle_deg": 255,
+        "pdf_page": 135,
+        "total_words": 99,
+        "lz_words": 31,
+        "cc_words": 68,
+        "ot_op_count": 19,
+        "ot_op_rate": 0.1919,
+        "ok_of_count": 14,
+        "ok_of_rate": 0.1414,
+        "ratio_ot_to_ok": 1.357,
+        "ch_sh_count": 15,
+        "ch_sh_rate": 0.1515,
+        "qo_count": 7,
+        "qo_rate": 0.0707,
+        "dy_ey_count": 60,
+        "dy_ey_rate": 0.6061,
+        "aiin_count": 5,
+        "aiin_rate": 0.0505,
+        "am_om_count": 3,
+        "am_om_rate": 0.0303
+      }
+    ],
+    "season_summary": {
+      "Spring": {
+        "total_words": 512,
+        "ot_op_count": 154,
+        "ot_op_pct": 30.08,
+        "ok_of_count": 67,
+        "ok_of_pct": 13.09,
+        "ratio_ot_to_ok": 2.299,
+        "ch_sh_count": 109,
+        "ch_sh_pct": 21.29,
+        "qo_count": 3,
+        "qo_pct": 0.59,
+        "dy_ey_count": 173,
+        "dy_ey_pct": 33.79,
+        "aiin_count": 49,
+        "aiin_pct": 9.57,
+        "am_om_count": 20,
+        "am_om_pct": 3.91
+      },
+      "Summer": {
+        "total_words": 395,
+        "ot_op_count": 75,
+        "ot_op_pct": 18.99,
+        "ok_of_count": 75,
+        "ok_of_pct": 18.99,
+        "ratio_ot_to_ok": 1.0,
+        "ch_sh_count": 88,
+        "ch_sh_pct": 22.28,
+        "qo_count": 3,
+        "qo_pct": 0.76,
+        "dy_ey_count": 160,
+        "dy_ey_pct": 40.51,
+        "aiin_count": 47,
+        "aiin_pct": 11.9,
+        "am_om_count": 12,
+        "am_om_pct": 3.04
+      },
+      "Autumn": {
+        "total_words": 407,
+        "ot_op_count": 89,
+        "ot_op_pct": 21.87,
+        "ok_of_count": 60,
+        "ok_of_pct": 14.74,
+        "ratio_ot_to_ok": 1.483,
+        "ch_sh_count": 83,
+        "ch_sh_pct": 20.39,
+        "qo_count": 9,
+        "qo_pct": 2.21,
+        "dy_ey_count": 199,
+        "dy_ey_pct": 48.89,
+        "aiin_count": 27,
+        "aiin_pct": 6.63,
+        "am_om_count": 12,
+        "am_om_pct": 2.95
+      }
+    },
+    "statistical_tests": {
+      "spring_vs_summer_chi2": 14.653,
+      "observed_ratio_diff_spring_minus_summer": 1.299,
+      "permutation_trials": 2000,
+      "permutation_null_mean": -0.0059,
+      "permutation_null_sd": 0.5779,
+      "z_score": 2.258,
+      "p_value": 0.023,
+      "ecliptic_angle_correlation": 0.3875
+    }
+  }
+}

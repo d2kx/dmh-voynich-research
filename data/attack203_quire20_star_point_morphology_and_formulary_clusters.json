@@ -1,0 +1,1213 @@
+{
+  "summary": {
+    "attack": 203,
+    "discovery": 220,
+    "title": "Quire 20 Star Point Morphology (7pt vs 8pt vs 9pt), Binary Star Parity Alternation (85.28%), and Thematic Formulary Clusters",
+    "key_findings": {
+      "star_point_grammar": {
+        "seven_point_pf_gallows_pct": 56.04,
+        "eight_point_pf_gallows_pct": 40.65,
+        "seven_point_ratio_pf_to_tk": 2.55,
+        "eight_point_ratio_pf_to_tk": 1.22,
+        "odds_ratio": 2.091,
+        "chi2": 6.9728,
+        "z_score": 2.6406,
+        "p_value": 0.008276,
+        "rule": "7-point stars double the probability of opening with a P/F gallows relative to 8-point stars (OR = 2.091, p = 0.0083)"
+      },
+      "star_parity_alternation": {
+        "overall_alternation_rate": 0.8528,
+        "alternation_rate_pct": 85.28,
+        "perfect_alternation_folios_count": 17,
+        "perfect_alternation_folios_pct": 73.91,
+        "z_score": 12.2024,
+        "p_value": "< 10^-33",
+        "law": "Strict binary alternation law: Quire 20 margin stars alternate 1-to-1 between Dotted and Plain across 85.28% of transitions (100% on 17/23 folios, z = +12.20)"
+      },
+      "thematic_recipe_clusters": {
+        "adjacent_jaccard": 0.2532,
+        "null_jaccard": 0.2268,
+        "lift": 1.12,
+        "z_score": 6.464,
+        "p_value": "< 10^-10"
+      }
+    }
+  },
+  "star_point_morphology": {
+    "total_units": 322,
+    "point_distribution": {
+      "7": 182,
+      "8": 123,
+      "6": 5,
+      "9": 6,
+      "None": 6
+    },
+    "dotting_distribution": {
+      "dotted": 148,
+      "plain": 174
+    },
+    "tail_distribution": {
+      "tailed": 267,
+      "tailless": 55
+    },
+    "points_summary": {
+      "7_points": {
+        "total_units": 182,
+        "mean_word_count": 33.56,
+        "pf_gallows_count": 102,
+        "pf_gallows_pct": 56.04,
+        "tk_gallows_count": 40,
+        "tk_gallows_pct": 21.98,
+        "ratio_pf_to_tk": 2.55,
+        "ds_particle_count": 18,
+        "qo_verb_count": 7
+      },
+      "8_points": {
+        "total_units": 123,
+        "mean_word_count": 33.7,
+        "pf_gallows_count": 50,
+        "pf_gallows_pct": 40.65,
+        "tk_gallows_count": 41,
+        "tk_gallows_pct": 33.33,
+        "ratio_pf_to_tk": 1.22,
+        "ds_particle_count": 17,
+        "qo_verb_count": 4
+      },
+      "9_points": {
+        "total_units": 6,
+        "mean_word_count": 38.33,
+        "pf_gallows_count": 2,
+        "pf_gallows_pct": 33.33,
+        "tk_gallows_count": 2,
+        "tk_gallows_pct": 33.33,
+        "ratio_pf_to_tk": 1.0,
+        "ds_particle_count": 0,
+        "qo_verb_count": 1
+      }
+    },
+    "statistical_test_7pt_vs_8pt": {
+      "contingency_table": {
+        "7pt": {
+          "PF": 102,
+          "TK": 40
+        },
+        "8pt": {
+          "PF": 50,
+          "TK": 41
+        }
+      },
+      "chi2": 6.9728,
+      "z_score": 2.6406,
+      "p_value": 0.008276,
+      "odds_ratio": 2.091
+    }
+  },
+  "star_parity_alternation": {
+    "total_transitions": 299,
+    "total_alternations": 255,
+    "overall_alternation_rate": 0.8528,
+    "perfect_alternation_folios_count": 17,
+    "total_folios_count": 23,
+    "perfect_alternation_folios_pct": 73.91,
+    "z_score_vs_random_null": 12.2024,
+    "p_value": "< 10^-33",
+    "folio_alternation_breakdown": [
+      {
+        "folio": "f103r",
+        "n_stars": 19,
+        "n_transitions": 18,
+        "n_alternations": 0,
+        "alternation_rate": 0.0,
+        "sequence_sample": "PPPPPPPPPPPPPPPPPPP",
+        "perfect_alternation": false
+      },
+      {
+        "folio": "f103v",
+        "n_stars": 14,
+        "n_transitions": 13,
+        "n_alternations": 13,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPDP",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f104r",
+        "n_stars": 13,
+        "n_transitions": 12,
+        "n_alternations": 4,
+        "alternation_rate": 0.3333,
+        "sequence_sample": "PPPPPPPPPDPDP",
+        "perfect_alternation": false
+      },
+      {
+        "folio": "f104v",
+        "n_stars": 13,
+        "n_transitions": 12,
+        "n_alternations": 12,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f105r",
+        "n_stars": 10,
+        "n_transitions": 9,
+        "n_alternations": 8,
+        "alternation_rate": 0.8889,
+        "sequence_sample": "DDPDPDPDPD",
+        "perfect_alternation": false
+      },
+      {
+        "folio": "f105v",
+        "n_stars": 10,
+        "n_transitions": 9,
+        "n_alternations": 9,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDP",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f106r",
+        "n_stars": 15,
+        "n_transitions": 14,
+        "n_alternations": 14,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f106v",
+        "n_stars": 14,
+        "n_transitions": 13,
+        "n_alternations": 13,
+        "alternation_rate": 1.0,
+        "sequence_sample": "PDPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f107r",
+        "n_stars": 15,
+        "n_transitions": 14,
+        "n_alternations": 14,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f107v",
+        "n_stars": 14,
+        "n_transitions": 13,
+        "n_alternations": 13,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPDP",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f108r",
+        "n_stars": 16,
+        "n_transitions": 15,
+        "n_alternations": 2,
+        "alternation_rate": 0.1333,
+        "sequence_sample": "PPPPPDPPPPPPPPPP",
+        "perfect_alternation": false
+      },
+      {
+        "folio": "f108v",
+        "n_stars": 16,
+        "n_transitions": 15,
+        "n_alternations": 12,
+        "alternation_rate": 0.8,
+        "sequence_sample": "DPDPDPDPDDPDDDPD",
+        "perfect_alternation": false
+      },
+      {
+        "folio": "f111r",
+        "n_stars": 17,
+        "n_transitions": 16,
+        "n_alternations": 16,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f111v",
+        "n_stars": 19,
+        "n_transitions": 18,
+        "n_alternations": 18,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f112r",
+        "n_stars": 12,
+        "n_transitions": 11,
+        "n_alternations": 11,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDP",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f112v",
+        "n_stars": 13,
+        "n_transitions": 12,
+        "n_alternations": 12,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f113r",
+        "n_stars": 16,
+        "n_transitions": 15,
+        "n_alternations": 15,
+        "alternation_rate": 1.0,
+        "sequence_sample": "PDPDPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f113v",
+        "n_stars": 15,
+        "n_transitions": 14,
+        "n_alternations": 14,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f114r",
+        "n_stars": 13,
+        "n_transitions": 12,
+        "n_alternations": 12,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f114v",
+        "n_stars": 12,
+        "n_transitions": 11,
+        "n_alternations": 11,
+        "alternation_rate": 1.0,
+        "sequence_sample": "PDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f115r",
+        "n_stars": 13,
+        "n_transitions": 12,
+        "n_alternations": 11,
+        "alternation_rate": 0.9167,
+        "sequence_sample": "DPDPDDPDPDPDP",
+        "perfect_alternation": false
+      },
+      {
+        "folio": "f115v",
+        "n_stars": 13,
+        "n_transitions": 12,
+        "n_alternations": 12,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f116r",
+        "n_stars": 10,
+        "n_transitions": 9,
+        "n_alternations": 9,
+        "alternation_rate": 1.0,
+        "sequence_sample": "PDPDPDPDPD",
+        "perfect_alternation": true
+      }
+    ]
+  },
+  "thematic_recipe_clusters": {
+    "adjacent_within_page_mean_jaccard": 0.2532,
+    "null_random_pairs_mean_jaccard": 0.2268,
+    "null_sd": 0.0704,
+    "lift": 1.12,
+    "z_score": 6.464,
+    "p_value": "< 10^-10",
+    "focus_folios": {
+      "f104r": {
+        "n_units": 13,
+        "units": [
+          {
+            "locus": "f104r.2",
+            "star": "Dark star, 7 points, tail",
+            "first_word": "o",
+            "opener_family": "Other",
+            "word_count": 35,
+            "sample_words": [
+              "o",
+              "ar",
+              "aiin",
+              "yteeody",
+              "cheedaiin"
+            ]
+          },
+          {
+            "locus": "f104r.5",
+            "star": "Light star, 7 points, tail",
+            "first_word": "kchdal",
+            "opener_family": "TK_gallows",
+            "word_count": 52,
+            "sample_words": [
+              "kchdal",
+              "qotaiin",
+              "qoshedy",
+              "ol",
+              "chl"
+            ]
+          },
+          {
+            "locus": "f104r.10",
+            "star": "Darkish star, 8 points, tail?",
+            "first_word": "tol",
+            "opener_family": "TK_gallows",
+            "word_count": 20,
+            "sample_words": [
+              "tol",
+              "chedal",
+              "cheoy",
+              "otyd",
+              "os"
+            ]
+          },
+          {
+            "locus": "f104r.12",
+            "star": "Lightish star, 7 points, tail",
+            "first_word": "tshdol",
+            "opener_family": "TK_gallows",
+            "word_count": 39,
+            "sample_words": [
+              "tshdol",
+              "qotchedy",
+              "qokoeey",
+              "qoteode",
+              "lo"
+            ]
+          },
+          {
+            "locus": "f104r.16",
+            "star": "Light star, 7 points, tail",
+            "first_word": "ocheoey",
+            "opener_family": "Other",
+            "word_count": 26,
+            "sample_words": [
+              "ocheoey",
+              "qoctheody",
+              "ykeeodey",
+              "qoepchy",
+              "opchey"
+            ]
+          },
+          {
+            "locus": "f104r.19",
+            "star": "Darkish star, 8 points, tail",
+            "first_word": "toaiin",
+            "opener_family": "TK_gallows",
+            "word_count": 29,
+            "sample_words": [
+              "toaiin",
+              "chdar",
+              "otar",
+              "shd",
+              "qotar"
+            ]
+          },
+          {
+            "locus": "f104r.22",
+            "star": "Light star, 8 points, tail",
+            "first_word": "tshedar",
+            "opener_family": "TK_gallows",
+            "word_count": 50,
+            "sample_words": [
+              "tshedar",
+              "chllo",
+              "rl",
+              "shed",
+              "kchedy"
+            ]
+          },
+          {
+            "locus": "f104r.27",
+            "star": "Darkish star, 7 points, tail",
+            "first_word": "pchedar",
+            "opener_family": "PF_gallows",
+            "word_count": 34,
+            "sample_words": [
+              "pchedar",
+              "qokaiin",
+              "qotaiin",
+              "dl",
+              "ral"
+            ]
+          },
+          {
+            "locus": "f104r.30",
+            "star": "Light star, 9 points, tail",
+            "first_word": "okeeo",
+            "opener_family": "Other",
+            "word_count": 42,
+            "sample_words": [
+              "okeeo",
+              "l",
+              "keeo",
+              "dain",
+              "lkeodaiin"
+            ]
+          },
+          {
+            "locus": "f104r.34",
+            "star": "Light star, dotted, [9|8] points, tail",
+            "first_word": "pchol",
+            "opener_family": "PF_gallows",
+            "word_count": 19,
+            "sample_words": [
+              "pchol",
+              "ksheody",
+              "qokeshedy",
+              "qokal",
+              "chedy"
+            ]
+          },
+          {
+            "locus": "f104r.36",
+            "star": "Light star, 7 points, tail",
+            "first_word": "psheody",
+            "opener_family": "PF_gallows",
+            "word_count": 25,
+            "sample_words": [
+              "psheody",
+              "qotar",
+              "chopar",
+              "qotaly",
+              "qotsheod"
+            ]
+          },
+          {
+            "locus": "f104r.39",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "pcholor",
+            "opener_family": "PF_gallows",
+            "word_count": 35,
+            "sample_words": [
+              "pcholor",
+              "ar",
+              "aiin",
+              "alkchdy",
+              "qotal"
+            ]
+          },
+          {
+            "locus": "f104r.43",
+            "star": "Light star, 8 points, tail",
+            "first_word": "tsheodl",
+            "opener_family": "TK_gallows",
+            "word_count": 32,
+            "sample_words": [
+              "tsheodl",
+              "qokaiin",
+              "qokchedy",
+              "ykchdy",
+              "pchedy"
+            ]
+          }
+        ]
+      },
+      "f105r": {
+        "n_units": 10,
+        "units": [
+          {
+            "locus": "f105r.1",
+            "star": "Light star, dotted, 8 points, tail",
+            "first_word": "@199;aiin",
+            "opener_family": "Other",
+            "word_count": 56,
+            "sample_words": [
+              "@199;aiin",
+              "dar",
+              "chcphy",
+              "qokeey",
+              "qopaiin"
+            ]
+          },
+          {
+            "locus": "f105r.6",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "par",
+            "opener_family": "PF_gallows",
+            "word_count": 35,
+            "sample_words": [
+              "par",
+              "arody",
+              "shedeeey",
+              "qopchedy",
+              "qody"
+            ]
+          },
+          {
+            "locus": "f105r.10",
+            "star": "Light star, 7 points, tail",
+            "first_word": "sairy",
+            "opener_family": "DS_particle",
+            "word_count": 38,
+            "sample_words": [
+              "sairy",
+              "ore",
+              "daiindy",
+              "ytam",
+              "pdar"
+            ]
+          },
+          {
+            "locus": "f105r.14",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "kesoar",
+            "opener_family": "TK_gallows",
+            "word_count": 31,
+            "sample_words": [
+              "kesoar",
+              "qoeeedy",
+              "keeody",
+              "dlls",
+              "air"
+            ]
+          },
+          {
+            "locus": "f105r.17",
+            "star": "Light star, 8 points, tail",
+            "first_word": "lteedy",
+            "opener_family": "Other",
+            "word_count": 75,
+            "sample_words": [
+              "lteedy",
+              "okeeddl",
+              "sheokedy",
+              "qokedy",
+              "shol"
+            ]
+          },
+          {
+            "locus": "f105r.24",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "pcheor",
+            "opener_family": "PF_gallows",
+            "word_count": 19,
+            "sample_words": [
+              "pcheor",
+              "ain",
+              "ckheey",
+              "okeeey",
+              "paiin"
+            ]
+          },
+          {
+            "locus": "f105r.26",
+            "star": "Light star, 7 points, tail",
+            "first_word": "pdal",
+            "opener_family": "PF_gallows",
+            "word_count": 19,
+            "sample_words": [
+              "pdal",
+              "sheey",
+              "yqopchy",
+              "airal",
+              "sheey"
+            ]
+          },
+          {
+            "locus": "f105r.28",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "pchsed",
+            "opener_family": "PF_gallows",
+            "word_count": 33,
+            "sample_words": [
+              "pchsed",
+              "sheefy",
+              "opchey",
+              "qoteedy",
+              "qoeey"
+            ]
+          },
+          {
+            "locus": "f105r.31",
+            "star": "Light star, 7 points, tail",
+            "first_word": "kodeey",
+            "opener_family": "TK_gallows",
+            "word_count": 35,
+            "sample_words": [
+              "kodeey",
+              "lchl",
+              "shx",
+              "ar",
+              "aiijy"
+            ]
+          },
+          {
+            "locus": "f105r.34",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "dor",
+            "opener_family": "DS_particle",
+            "word_count": 38,
+            "sample_words": [
+              "dor",
+              "ail",
+              "cheky",
+              "kar",
+              "odaiin"
+            ]
+          }
+        ]
+      },
+      "f106r": {
+        "n_units": 15,
+        "units": [
+          {
+            "locus": "f106r.1",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "pshdar",
+            "opener_family": "PF_gallows",
+            "word_count": 29,
+            "sample_words": [
+              "pshdar",
+              "shoefy",
+              "yteedy",
+              "shal",
+              "korchy"
+            ]
+          },
+          {
+            "locus": "f106r.4",
+            "star": "Light star, 8 points, tail",
+            "first_word": "pcheodair",
+            "opener_family": "PF_gallows",
+            "word_count": 39,
+            "sample_words": [
+              "pcheodair",
+              "okchedy",
+              "olkeeedy",
+              "or",
+              "arojy"
+            ]
+          },
+          {
+            "locus": "f106r.8",
+            "star": "Light star, dotted, 7 points, tail + small light companion with 6/6 points",
+            "first_word": "porarchy",
+            "opener_family": "PF_gallows",
+            "word_count": 18,
+            "sample_words": [
+              "porarchy",
+              "orar",
+              "ol",
+              "kaiin",
+              "shedy"
+            ]
+          },
+          {
+            "locus": "f106r.10",
+            "star": "Light star, 8 points, tail",
+            "first_word": "pshoair",
+            "opener_family": "PF_gallows",
+            "word_count": 26,
+            "sample_words": [
+              "pshoair",
+              "lkeeshedy",
+              "qokain",
+              "cheoly",
+              "qokedy"
+            ]
+          },
+          {
+            "locus": "f106r.13",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "pcheol",
+            "opener_family": "PF_gallows",
+            "word_count": 19,
+            "sample_words": [
+              "pcheol",
+              "sheokaiin",
+              "otey",
+              "qokeeor",
+              "sheo"
+            ]
+          },
+          {
+            "locus": "f106r.15",
+            "star": "Light star, 7 points, tail",
+            "first_word": "podaroar",
+            "opener_family": "PF_gallows",
+            "word_count": 28,
+            "sample_words": [
+              "podaroar",
+              "oteeo",
+              "lchor",
+              "shol",
+              "tchedy"
+            ]
+          },
+          {
+            "locus": "f106r.18",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "kshed",
+            "opener_family": "TK_gallows",
+            "word_count": 37,
+            "sample_words": [
+              "kshed",
+              "dsheol",
+              "qokeedy",
+              "otol",
+              "okeedy"
+            ]
+          },
+          {
+            "locus": "f106r.22",
+            "star": "Light star, 8 points, tail",
+            "first_word": "tshodair",
+            "opener_family": "TK_gallows",
+            "word_count": 20,
+            "sample_words": [
+              "tshodair",
+              "olkeees",
+              "odain",
+              "qokeedy",
+              "opchor"
+            ]
+          },
+          {
+            "locus": "f106r.24",
+            "star": "Light star, dotted, 8 points, tail",
+            "first_word": "podshedy",
+            "opener_family": "PF_gallows",
+            "word_count": 22,
+            "sample_words": [
+              "podshedy",
+              "qokchedy",
+              "lkechor",
+              "otchodar",
+              "cho"
+            ]
+          },
+          {
+            "locus": "f106r.27",
+            "star": "Light star, 7 points, tail",
+            "first_word": "tcheoky",
+            "opener_family": "TK_gallows",
+            "word_count": 52,
+            "sample_words": [
+              "tcheoky",
+              "lkshedy",
+              "qokaiin",
+              "lky",
+              "raiin"
+            ]
+          },
+          {
+            "locus": "f106r.32",
+            "star": "Light star, dotted, 8 points, tail",
+            "first_word": "poral",
+            "opener_family": "PF_gallows",
+            "word_count": 19,
+            "sample_words": [
+              "poral",
+              "sho",
+              "keeody",
+              "qokain",
+              "chckhy"
+            ]
+          },
+          {
+            "locus": "f106r.34",
+            "star": "Light star, 8 points, tail",
+            "first_word": "tcheorsho",
+            "opener_family": "TK_gallows",
+            "word_count": 14,
+            "sample_words": [
+              "tcheorsho",
+              "lkshey",
+              "lpcheo",
+              "ro",
+              "lpchey"
+            ]
+          },
+          {
+            "locus": "f106r.36",
+            "star": "Light star, dotted, 9/8 points, tail",
+            "first_word": "psheodalo",
+            "opener_family": "PF_gallows",
+            "word_count": 13,
+            "sample_words": [
+              "psheodalo",
+              "dar",
+              "sheodal",
+              "qotedy",
+              "qotes"
+            ]
+          },
+          {
+            "locus": "f106r.38",
+            "star": "Light star, 7 points, tail",
+            "first_word": "pshodaiin",
+            "opener_family": "PF_gallows",
+            "word_count": 39,
+            "sample_words": [
+              "pshodaiin",
+              "opchy",
+              "sh",
+              "o",
+              "teeody"
+            ]
+          },
+          {
+            "locus": "f106r.42",
+            "star": "Light star, dotted, 8 points, tail",
+            "first_word": "pcheodar",
+            "opener_family": "PF_gallows",
+            "word_count": 57,
+            "sample_words": [
+              "pcheodar",
+              "shol",
+              "kain",
+              "okchedy",
+              "qoteey"
+            ]
+          }
+        ]
+      },
+      "f114r": {
+        "n_units": 13,
+        "units": [
+          {
+            "locus": "f114r.1",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "tchedol",
+            "opener_family": "TK_gallows",
+            "word_count": 23,
+            "sample_words": [
+              "tchedol",
+              "dairor",
+              "pcheos",
+              "ytaiin",
+              "otody"
+            ]
+          },
+          {
+            "locus": "f114r.4",
+            "star": "Light star, 6/7 points, tail",
+            "first_word": "fdeechdy",
+            "opener_family": "PF_gallows",
+            "word_count": 41,
+            "sample_words": [
+              "fdeechdy",
+              "opchedaiin",
+              "ypchedy",
+              "odaly",
+              "chedy"
+            ]
+          },
+          {
+            "locus": "f114r.8",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "fchey",
+            "opener_family": "PF_gallows",
+            "word_count": 27,
+            "sample_words": [
+              "fchey",
+              "dam",
+              "okchedam",
+              "qokeedaiin",
+              "otairar"
+            ]
+          },
+          {
+            "locus": "f114r.11",
+            "star": "Light star, 8 points, tail",
+            "first_word": "dalchy",
+            "opener_family": "DS_particle",
+            "word_count": 26,
+            "sample_words": [
+              "dalchy",
+              "kolky",
+              "qoedaiin",
+              "dolor",
+              "shedy"
+            ]
+          },
+          {
+            "locus": "f114r.14",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "solpchd",
+            "opener_family": "DS_particle",
+            "word_count": 56,
+            "sample_words": [
+              "solpchd",
+              "oiin",
+              "chcthdy",
+              "qodair",
+              "ol"
+            ]
+          },
+          {
+            "locus": "f114r.19",
+            "star": "Light star, 7 points, tail",
+            "first_word": "pairody",
+            "opener_family": "PF_gallows",
+            "word_count": 29,
+            "sample_words": [
+              "pairody",
+              "shedar",
+              "qopchdy",
+              "dchedy",
+              "dol"
+            ]
+          },
+          {
+            "locus": "f114r.22",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "tchedair",
+            "opener_family": "TK_gallows",
+            "word_count": 34,
+            "sample_words": [
+              "tchedair",
+              "shodaiin",
+              "dair",
+              "kchedy",
+              "qopchdy"
+            ]
+          },
+          {
+            "locus": "f114r.25",
+            "star": "Light star, 8 points, tail",
+            "first_word": "oaiil",
+            "opener_family": "Other",
+            "word_count": 31,
+            "sample_words": [
+              "oaiil",
+              "chey",
+              "qokeedy",
+              "chedy",
+              "qoeey"
+            ]
+          },
+          {
+            "locus": "f114r.28",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "pchedairs",
+            "opener_family": "PF_gallows",
+            "word_count": 46,
+            "sample_words": [
+              "pchedairs",
+              "oeail",
+              "chotar",
+              "qokeedair",
+              "olkaiin"
+            ]
+          },
+          {
+            "locus": "f114r.32",
+            "star": "Light star, 7 points, tail",
+            "first_word": "tcheodaiin",
+            "opener_family": "TK_gallows",
+            "word_count": 32,
+            "sample_words": [
+              "tcheodaiin",
+              "chaiin",
+              "qokaiin",
+              "otaiin",
+              "otalkain"
+            ]
+          },
+          {
+            "locus": "f114r.35",
+            "star": "Light star, dotted, 8 points, tail",
+            "first_word": "pcheos",
+            "opener_family": "PF_gallows",
+            "word_count": 45,
+            "sample_words": [
+              "pcheos",
+              "air",
+              "oy",
+              "sheo",
+              "qokey"
+            ]
+          },
+          {
+            "locus": "f114r.39",
+            "star": "Light star, 7/8 points, tail",
+            "first_word": "todaiin",
+            "opener_family": "TK_gallows",
+            "word_count": 30,
+            "sample_words": [
+              "todaiin",
+              "cheoltchedaiin",
+              "daiin",
+              "okar",
+              "qoeedain"
+            ]
+          },
+          {
+            "locus": "f114r.42",
+            "star": "Light star, dotted, 8? points, tail",
+            "first_word": "poedair",
+            "opener_family": "PF_gallows",
+            "word_count": 40,
+            "sample_words": [
+              "poedair",
+              "qotol",
+              "qodaiin",
+              "otaiin",
+              "qotar"
+            ]
+          }
+        ]
+      },
+      "f116r": {
+        "n_units": 10,
+        "units": [
+          {
+            "locus": "f116r.1",
+            "star": "Light star, 7 points",
+            "first_word": "kchdpy",
+            "opener_family": "TK_gallows",
+            "word_count": 33,
+            "sample_words": [
+              "kchdpy",
+              "shey",
+              "qokain",
+              "otalshdy",
+              "qoteey"
+            ]
+          },
+          {
+            "locus": "f116r.4",
+            "star": "Light star, dotted, 7 points",
+            "first_word": "padar",
+            "opener_family": "PF_gallows",
+            "word_count": 34,
+            "sample_words": [
+              "padar",
+              "shey",
+              "osheeky",
+              "qol",
+              "laiin"
+            ]
+          },
+          {
+            "locus": "f116r.7",
+            "star": "Light star, 7 points",
+            "first_word": "pcholchdy",
+            "opener_family": "PF_gallows",
+            "word_count": 25,
+            "sample_words": [
+              "pcholchdy",
+              "teody",
+              "otey",
+              "qo",
+              "qokain"
+            ]
+          },
+          {
+            "locus": "f116r.10",
+            "star": "Light star, dotted, 6/7 points",
+            "first_word": "chdin",
+            "opener_family": "Other",
+            "word_count": 35,
+            "sample_words": [
+              "chdin",
+              "checkhy",
+              "dar",
+              "shedy",
+              "qokeedy"
+            ]
+          },
+          {
+            "locus": "f116r.13",
+            "star": "Light star, 7? points",
+            "first_word": "sar",
+            "opener_family": "DS_particle",
+            "word_count": 18,
+            "sample_words": [
+              "sar",
+              "ain",
+              "tey",
+              "chetain",
+              "shtey"
+            ]
+          },
+          {
+            "locus": "f116r.15",
+            "star": "Light star, dotted, 7 points",
+            "first_word": "pchoetal",
+            "opener_family": "PF_gallows",
+            "word_count": 32,
+            "sample_words": [
+              "pchoetal",
+              "otedal",
+              "otal",
+              "oteedy",
+              "olr"
+            ]
+          },
+          {
+            "locus": "f116r.18",
+            "star": "Light star, 8 points",
+            "first_word": "pcharalor",
+            "opener_family": "PF_gallows",
+            "word_count": 42,
+            "sample_words": [
+              "pcharalor",
+              "qokey",
+              "r",
+              "ain",
+              "otedy"
+            ]
+          },
+          {
+            "locus": "f116r.21",
+            "star": "Light star, dotted, 7 points",
+            "first_word": "sairol",
+            "opener_family": "DS_particle",
+            "word_count": 38,
+            "sample_words": [
+              "sairol",
+              "sheey",
+              "qokain",
+              "chal",
+              "qol"
+            ]
+          },
+          {
+            "locus": "f116r.24",
+            "star": "Light star, 8 points",
+            "first_word": "qokedy",
+            "opener_family": "QO_verb",
+            "word_count": 34,
+            "sample_words": [
+              "qokedy",
+              "okain",
+              "chcthy",
+              "oty",
+              "shedy"
+            ]
+          },
+          {
+            "locus": "f116r.27",
+            "star": "Light star, dotted, 7 points",
+            "first_word": "daiin",
+            "opener_family": "DS_particle",
+            "word_count": 270,
+            "sample_words": [
+              "daiin",
+              "chey",
+              "qokey",
+              "lshedy",
+              "orain"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

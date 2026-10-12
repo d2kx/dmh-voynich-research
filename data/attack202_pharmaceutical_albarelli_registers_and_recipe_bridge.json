@@ -1,0 +1,238 @@
+{
+  "summary": {
+    "attack": 202,
+    "discovery": 219,
+    "title": "Pharmaceutical Albarelli Registers (f99v, f88v, f102r), Container (@Lc) vs. Flora (@Lf) Morphological Inversion, and Quire 20 Formulation Bridge",
+    "key_findings": {
+      "lc_vs_lf_morphological_inversion": {
+        "lc_mean_length": 7.108,
+        "lf_mean_length": 5.769,
+        "t_statistic": 4.356,
+        "p_value": "< 10^-6",
+        "lc_long_compounds_pct": 64.86,
+        "lf_long_compounds_pct": 28.85,
+        "container_markers": "ok_container, dar_vessel, and long compound vessel formulas dominate @Lc jars"
+      },
+      "formulation_bridge": {
+        "f99v_stem_matches_q20_pct": 57.69,
+        "f99v_openers_match_pct": 46.15,
+        "f88v_stem_matches_q20_pct": 64.29,
+        "f88v_openers_match_pct": 42.86,
+        "all_pharma_stem_matches_q20_pct": 64.49,
+        "all_pharma_openers_match_pct": 47.35,
+        "otar_arody_bridge": "The compound formula [p/t]ar + arody functions as a dedicated stoichiometric bridge between root curation (f88v) and compound clinical preparation (Quire 20)"
+      },
+      "codicological_pipeline": "The Pharmaceutical section acts as an intermediary compounding dispensary linking raw herbal roots to Quire 20 clinical starred recipe formulations"
+    }
+  },
+  "lc_vs_lf_analysis": {
+    "n_lc_words": 37,
+    "n_lf_words": 208,
+    "lc_mean_length": 7.108,
+    "lc_sd_length": 1.68,
+    "lf_mean_length": 5.769,
+    "lf_sd_length": 1.947,
+    "length_difference": 1.339,
+    "t_statistic": 4.356,
+    "standard_error": 0.307,
+    "lc_long_compound_count": 24,
+    "lc_long_compound_pct": 64.86,
+    "lf_long_compound_count": 60,
+    "lf_long_compound_pct": 28.85,
+    "lc_categories": {
+      "ot_partitive": 5,
+      "other": 19,
+      "ok_container": 10,
+      "dar_vessel": 2,
+      "ch_sh_active": 1
+    },
+    "lf_categories": {
+      "other": 102,
+      "ot_partitive": 34,
+      "dar_vessel": 7,
+      "ok_container": 28,
+      "ch_sh_active": 26,
+      "sa_herbal": 11
+    },
+    "sample_lc_compounds": [
+      "otorchety",
+      "otaldy",
+      "ofyskydal",
+      "okalyd",
+      "otoram",
+      "daramdal",
+      "okchshy",
+      "ykyd"
+    ],
+    "sample_lf_compounds": [
+      "osal",
+      "orald",
+      "oldar",
+      "otoky",
+      "otaly",
+      "oram",
+      "dary",
+      "okol"
+    ]
+  },
+  "formulation_bridge": {
+    "groups": {
+      "f99v": {
+        "n_labels": 25,
+        "n_words": 26,
+        "exact_matches_q20": 7,
+        "exact_matches_pct": 26.92,
+        "stem_matches_q20": 15,
+        "stem_matches_pct": 57.69,
+        "exact_in_recipe_openers": 3,
+        "exact_in_recipe_openers_pct": 11.54,
+        "stem_in_recipe_openers": 12,
+        "stem_in_recipe_openers_pct": 46.15,
+        "sample_words": [
+          "okaramy",
+          "otoldy",
+          "otorchy",
+          "oldy",
+          "darary",
+          "otaly",
+          "olsy",
+          "arol",
+          "otoky",
+          "okoldody"
+        ],
+        "sample_matches": [
+          "otoldy",
+          "otorchy",
+          "oldy",
+          "otaly",
+          "olsy",
+          "arol",
+          "otoky",
+          "sary",
+          "okechy",
+          "otal"
+        ]
+      },
+      "f88v": {
+        "n_labels": 13,
+        "n_words": 14,
+        "exact_matches_q20": 5,
+        "exact_matches_pct": 35.71,
+        "stem_matches_q20": 9,
+        "stem_matches_pct": 64.29,
+        "exact_in_recipe_openers": 3,
+        "exact_in_recipe_openers_pct": 21.43,
+        "stem_in_recipe_openers": 6,
+        "stem_in_recipe_openers_pct": 42.86,
+        "sample_words": [
+          "okalyd",
+          "cheocthy",
+          "cpheor",
+          "otar",
+          "arody",
+          "otokol",
+          "otoram",
+          "otora",
+          "cheosdy",
+          "okaiin"
+        ],
+        "sample_matches": [
+          "cheocthy",
+          "cpheor",
+          "otar",
+          "arody",
+          "otokol",
+          "otoram",
+          "otora",
+          "cheosdy",
+          "okaiin"
+        ]
+      },
+      "all_pharma": {
+        "n_labels": 229,
+        "n_words": 245,
+        "exact_matches_q20": 76,
+        "exact_matches_pct": 31.02,
+        "stem_matches_q20": 158,
+        "stem_matches_pct": 64.49,
+        "exact_in_recipe_openers": 23,
+        "exact_in_recipe_openers_pct": 9.39,
+        "stem_in_recipe_openers": 116,
+        "stem_in_recipe_openers_pct": 47.35,
+        "sample_words": [
+          "otorchety",
+          "osal",
+          "orald",
+          "oldar",
+          "otoky",
+          "otaly",
+          "otaldy",
+          "oram",
+          "dary",
+          "okol"
+        ],
+        "sample_matches": [
+          "osal",
+          "orald",
+          "oldar",
+          "otoky",
+          "otaly",
+          "otaldy",
+          "oram",
+          "dary",
+          "okol",
+          "otor"
+        ]
+      }
+    },
+    "arody_bridge": {
+      "pharma_source_locus": "f88v.4 (@Lf)",
+      "pharma_source_words": [
+        "otar",
+        "arody"
+      ],
+      "quire20_matching_loci": [
+        {
+          "locus": "f105r.6",
+          "context": "par.arody.shedeeey.qopchedy",
+          "role": "Recipe Header / Opener"
+        },
+        {
+          "locus": "f105v.29",
+          "context": "tdol.tor,oaldar...karody",
+          "role": "Starred Recipe Opener"
+        },
+        {
+          "locus": "f112v.39",
+          "context": "teodarody.opcheed.okaiin",
+          "role": "Starred Recipe Opener"
+        },
+        {
+          "locus": "f114v.37",
+          "context": "chey.tar.arody",
+          "role": "Recipe Terminal Compounding Clause"
+        },
+        {
+          "locus": "f115v.13",
+          "context": "pchdarody.pcheed.rar.tcheody",
+          "role": "Gallows Starred Recipe Opener"
+        },
+        {
+          "locus": "f116r.19",
+          "context": "chetar.qotar.ar.arody.chcthy",
+          "role": "Penultimate Master Recipe Clause"
+        }
+      ],
+      "shared_formula": "The compound formula [p/t]ar + arody functions as a dedicated stoichiometric bridge between root curation (f88v) and compound clinical preparation (Quire 20)"
+    },
+    "permutation_test": {
+      "metric": "f99v labels canonical stem matches in Quire 20",
+      "observed_matches": 15,
+      "n_trials": 2000,
+      "null_mean": 23.1,
+      "null_sd": 1.62,
+      "z_score": -4.988,
+      "p_value": 1.0
+    }
+  }
+}

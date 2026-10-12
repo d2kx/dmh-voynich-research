@@ -1,0 +1,2448 @@
+{
+  "wave": 48,
+  "attacks": [
+    201,
+    202,
+    203,
+    204
+  ],
+  "discoveries": [
+    218,
+    219,
+    220,
+    221
+  ],
+  "edition": "v14.0",
+  "summary": {
+    "wave": 48,
+    "attacks": [
+      201,
+      202,
+      203,
+      204
+    ],
+    "discoveries": [
+      218,
+      219,
+      220,
+      221
+    ],
+    "edition": "v14.0",
+    "title": "Wave 48 Master Compendium: Sagittarius, Albarelli Registers & Star Parity Alternation"
+  },
+  "attack201_summary": {
+    "attack": 201,
+    "discovery": 218,
+    "title": "Sagittarius (f73v, 'novembre') Centaur Archer Medallion, 10+16+4 = 30\u00b0 Overflow Law Replication with Scorpio (f73r), and Ecliptic Seasonal Prefix Drift",
+    "key_findings": {
+      "degree_invariant": "f73v Sagittarius strictly replicates the 10+16+4 = 30\u00b0 layout established on f73r Scorpio (10 inner, 16 middle, 4 top overflow nymphs)",
+      "scorpio_sagittarius_comparison": {
+        "f73r": {
+          "total_lines": 33,
+          "total_words": 96,
+          "degree_loci": 30,
+          "top_overflow_labels": [
+            "otaly",
+            "chockhy",
+            "otedy",
+            "yteeody"
+          ]
+        },
+        "f73v": {
+          "total_lines": 33,
+          "total_words": 99,
+          "degree_loci": 30,
+          "top_overflow_labels": [
+            "okol",
+            "oteody",
+            "oteedy",
+            "eeeody"
+          ]
+        }
+      },
+      "seasonal_prefix_drift": {
+        "spring_ot_op_pct": 30.08,
+        "spring_ok_of_pct": 13.09,
+        "spring_ratio": 2.299,
+        "summer_ot_op_pct": 18.99,
+        "summer_ok_of_pct": 18.99,
+        "summer_ratio": 1.0,
+        "autumn_ot_op_pct": 21.87,
+        "autumn_ok_of_pct": 14.74,
+        "autumn_ratio": 1.483,
+        "spring_vs_summer_chi2": 14.653,
+        "permutation_z_score": 2.258,
+        "p_value": 0.023
+      },
+      "codicology": "f73v marks the physical terminal boundary of Quire 11, immediately preceding the missing folio 74 (lost Capricorn and Aquarius)"
+    }
+  },
+  "attack201_scorpio_sagittarius": {
+    "f73r": {
+      "sign": "Scorpio",
+      "total_lines": 33,
+      "total_words": 96,
+      "total_lz_words": 30,
+      "total_cc_words": 66,
+      "n_top_overflow_loci": 4,
+      "n_middle_ring_loci": 16,
+      "n_inner_ring_loci": 10,
+      "total_degree_loci": 30,
+      "architecture": "10 (inner) + 16 (middle) + 4 (top overflow) = 30\u00b0",
+      "top_overflow_loci": [
+        {
+          "locus": "f73r.1",
+          "clock": "11:15",
+          "words": [
+            "otaly"
+          ]
+        },
+        {
+          "locus": "f73r.2",
+          "clock": "11:45",
+          "words": [
+            "chockhy"
+          ]
+        },
+        {
+          "locus": "f73r.3",
+          "clock": "00:30",
+          "words": [
+            "otedy"
+          ]
+        },
+        {
+          "locus": "f73r.4",
+          "clock": "01:00",
+          "words": [
+            "yteeody"
+          ]
+        }
+      ],
+      "middle_ring_loci": [
+        {
+          "locus": "f73r.6",
+          "clock": "11:00",
+          "words": [
+            "otaly"
+          ]
+        },
+        {
+          "locus": "f73r.7",
+          "clock": "11:30",
+          "words": [
+            "okeody"
+          ]
+        },
+        {
+          "locus": "f73r.8",
+          "clock": "00:00",
+          "words": [
+            "oteedyl"
+          ]
+        },
+        {
+          "locus": "f73r.9",
+          "clock": "00:30",
+          "words": [
+            "ykeedy"
+          ]
+        },
+        {
+          "locus": "f73r.10",
+          "clock": "01:00",
+          "words": [
+            "okeey"
+          ]
+        },
+        {
+          "locus": "f73r.11",
+          "clock": "02:00",
+          "words": [
+            "okeedy"
+          ]
+        },
+        {
+          "locus": "f73r.12",
+          "clock": "02:30",
+          "words": [
+            "ykeeory"
+          ]
+        },
+        {
+          "locus": "f73r.13",
+          "clock": "03:30",
+          "words": [
+            "oteeosy"
+          ]
+        },
+        {
+          "locus": "f73r.14",
+          "clock": "04:30",
+          "words": [
+            "shekal"
+          ]
+        },
+        {
+          "locus": "f73r.15",
+          "clock": "05:30",
+          "words": [
+            "oteedyy"
+          ]
+        },
+        {
+          "locus": "f73r.16",
+          "clock": "06:30",
+          "words": [
+            "okedal"
+          ]
+        },
+        {
+          "locus": "f73r.17",
+          "clock": "07:00",
+          "words": [
+            "chdy"
+          ]
+        },
+        {
+          "locus": "f73r.18",
+          "clock": "08:00",
+          "words": [
+            "dalshey"
+          ]
+        },
+        {
+          "locus": "f73r.19",
+          "clock": "08:45",
+          "words": [
+            "opaiin"
+          ]
+        },
+        {
+          "locus": "f73r.20",
+          "clock": "09:30",
+          "words": [
+            "okeos"
+          ]
+        },
+        {
+          "locus": "f73r.21",
+          "clock": "10:00",
+          "words": [
+            "otey"
+          ]
+        }
+      ],
+      "inner_ring_loci": [
+        {
+          "locus": "f73r.23",
+          "clock": "11:30",
+          "words": [
+            "okary"
+          ]
+        },
+        {
+          "locus": "f73r.24",
+          "clock": "01:00",
+          "words": [
+            "okeeody"
+          ]
+        },
+        {
+          "locus": "f73r.25",
+          "clock": "02:00",
+          "words": [
+            "oyteedy"
+          ]
+        },
+        {
+          "locus": "f73r.26",
+          "clock": "03:00",
+          "words": [
+            "oky"
+          ]
+        },
+        {
+          "locus": "f73r.27",
+          "clock": "04:30",
+          "words": [
+            "chefy"
+          ]
+        },
+        {
+          "locus": "f73r.28",
+          "clock": "06:00",
+          "words": [
+            "otal"
+          ]
+        },
+        {
+          "locus": "f73r.29",
+          "clock": "07:00",
+          "words": [
+            "chek"
+          ]
+        },
+        {
+          "locus": "f73r.30",
+          "clock": "08:30",
+          "words": [
+            "ar"
+          ]
+        },
+        {
+          "locus": "f73r.31",
+          "clock": "09:30",
+          "words": [
+            "kar"
+          ]
+        },
+        {
+          "locus": "f73r.32",
+          "clock": "10:30",
+          "words": [
+            "okeeos"
+          ]
+        }
+      ],
+      "cc_rings": [
+        {
+          "locus": "f73r.5",
+          "n_words": 34,
+          "first_word": "ypolcheey",
+          "last_word": "alcheky"
+        },
+        {
+          "locus": "f73r.22",
+          "n_words": 25,
+          "first_word": "oteey",
+          "last_word": "cheesy"
+        },
+        {
+          "locus": "f73r.33",
+          "n_words": 7,
+          "first_word": "osaiin",
+          "last_word": "oteodal"
+        }
+      ],
+      "prefix_dist": {
+        "ch": 23,
+        "ot": 18,
+        "ok": 11,
+        "da": 5,
+        "al": 5,
+        "ai": 4,
+        "ar": 4,
+        "yk": 3
+      },
+      "suffix_dist": {
+        "ey": 18,
+        "dy": 11,
+        "ar": 10,
+        "al": 9,
+        "in": 7,
+        "ly": 6,
+        "es": 6,
+        "os": 5
+      }
+    },
+    "f73v": {
+      "sign": "Sagittarius",
+      "total_lines": 33,
+      "total_words": 99,
+      "total_lz_words": 31,
+      "total_cc_words": 68,
+      "n_top_overflow_loci": 4,
+      "n_middle_ring_loci": 16,
+      "n_inner_ring_loci": 10,
+      "total_degree_loci": 30,
+      "architecture": "10 (inner) + 16 (middle) + 4 (top overflow) = 30\u00b0",
+      "top_overflow_loci": [
+        {
+          "locus": "f73v.1",
+          "clock": "11:00",
+          "words": [
+            "okol"
+          ]
+        },
+        {
+          "locus": "f73v.2",
+          "clock": "11:45",
+          "words": [
+            "oteody"
+          ]
+        },
+        {
+          "locus": "f73v.3",
+          "clock": "00:30",
+          "words": [
+            "oteedy"
+          ]
+        },
+        {
+          "locus": "f73v.4",
+          "clock": "01:00",
+          "words": [
+            "eeeody"
+          ]
+        }
+      ],
+      "middle_ring_loci": [
+        {
+          "locus": "f73v.6",
+          "clock": "10:00",
+          "words": [
+            "okeody"
+          ]
+        },
+        {
+          "locus": "f73v.7",
+          "clock": "10:30",
+          "words": [
+            "sheol"
+          ]
+        },
+        {
+          "locus": "f73v.8",
+          "clock": "11:30",
+          "words": [
+            "odees"
+          ]
+        },
+        {
+          "locus": "f73v.9",
+          "clock": "00:00",
+          "words": [
+            "eery"
+          ]
+        },
+        {
+          "locus": "f73v.10",
+          "clock": "01:00",
+          "words": [
+            "okeor"
+          ]
+        },
+        {
+          "locus": "f73v.11",
+          "clock": "01:30",
+          "words": [
+            "ofals"
+          ]
+        },
+        {
+          "locus": "f73v.12",
+          "clock": "02:00",
+          "words": [
+            "ykeody"
+          ]
+        },
+        {
+          "locus": "f73v.13",
+          "clock": "03:00",
+          "words": [
+            "oteody"
+          ]
+        },
+        {
+          "locus": "f73v.14",
+          "clock": "03:30",
+          "words": [
+            "ypaiin"
+          ]
+        },
+        {
+          "locus": "f73v.15",
+          "clock": "04:00",
+          "words": [
+            "yfaiin",
+            "y"
+          ]
+        },
+        {
+          "locus": "f73v.16",
+          "clock": "05:00",
+          "words": [
+            "ofcheesy"
+          ]
+        },
+        {
+          "locus": "f73v.17",
+          "clock": "06:00",
+          "words": [
+            "oraiiny"
+          ]
+        },
+        {
+          "locus": "f73v.18",
+          "clock": "07:00",
+          "words": [
+            "ykeeody"
+          ]
+        },
+        {
+          "locus": "f73v.19",
+          "clock": "07:30",
+          "words": [
+            "okeos"
+          ]
+        },
+        {
+          "locus": "f73v.20",
+          "clock": "08:30",
+          "words": [
+            "ykeear"
+          ]
+        },
+        {
+          "locus": "f73v.21",
+          "clock": "09:00",
+          "words": [
+            "qokeoly"
+          ]
+        }
+      ],
+      "inner_ring_loci": [
+        {
+          "locus": "f73v.23",
+          "clock": "09:30",
+          "words": [
+            "otedy"
+          ]
+        },
+        {
+          "locus": "f73v.24",
+          "clock": "11:00",
+          "words": [
+            "eeed"
+          ]
+        },
+        {
+          "locus": "f73v.25",
+          "clock": "01:00",
+          "words": [
+            "oky"
+          ]
+        },
+        {
+          "locus": "f73v.26",
+          "clock": "02:00",
+          "words": [
+            "oia"
+          ]
+        },
+        {
+          "locus": "f73v.27",
+          "clock": "02:30",
+          "words": [
+            "okal"
+          ]
+        },
+        {
+          "locus": "f73v.28",
+          "clock": "03:30",
+          "words": [
+            "ykey"
+          ]
+        },
+        {
+          "locus": "f73v.29",
+          "clock": "05:00",
+          "words": [
+            "ykeee"
+          ]
+        },
+        {
+          "locus": "f73v.30",
+          "clock": "06:00",
+          "words": [
+            "okeod"
+          ]
+        },
+        {
+          "locus": "f73v.31",
+          "clock": "07:30",
+          "words": [
+            "ykey"
+          ]
+        },
+        {
+          "locus": "f73v.32",
+          "clock": "08:30",
+          "words": [
+            "ypal"
+          ]
+        }
+      ],
+      "cc_rings": [
+        {
+          "locus": "f73v.5",
+          "n_words": 35,
+          "first_word": "otoar",
+          "last_word": "orary"
+        },
+        {
+          "locus": "f73v.22",
+          "n_words": 22,
+          "first_word": "oteotos",
+          "last_word": "daly"
+        },
+        {
+          "locus": "f73v.33",
+          "n_words": 11,
+          "first_word": "otedchor",
+          "last_word": "otaram"
+        }
+      ],
+      "prefix_dist": {
+        "ot": 17,
+        "ok": 12,
+        "ch": 11,
+        "yk": 9,
+        "qo": 7,
+        "ee": 4,
+        "sh": 4,
+        "al": 4
+      },
+      "suffix_dist": {
+        "dy": 24,
+        "ey": 11,
+        "ly": 9,
+        "ar": 6,
+        "in": 6,
+        "al": 4,
+        "ol": 3,
+        "or": 3
+      }
+    }
+  },
+  "attack201_ecliptic_drift": {
+    "folio_stats": [
+      {
+        "folio": "f70v2",
+        "sign": "Pisces",
+        "season": "Spring",
+        "month": "mars",
+        "angle_deg": 345,
+        "pdf_page": 129,
+        "total_words": 131,
+        "lz_words": 35,
+        "cc_words": 96,
+        "ot_op_count": 46,
+        "ot_op_rate": 0.3511,
+        "ok_of_count": 11,
+        "ok_of_rate": 0.084,
+        "ratio_ot_to_ok": 4.182,
+        "ch_sh_count": 22,
+        "ch_sh_rate": 0.1679,
+        "qo_count": 1,
+        "qo_rate": 0.0076,
+        "dy_ey_count": 44,
+        "dy_ey_rate": 0.3359,
+        "aiin_count": 11,
+        "aiin_rate": 0.084,
+        "am_om_count": 7,
+        "am_om_rate": 0.0534
+      },
+      {
+        "folio": "f70v1",
+        "sign": "Aries I",
+        "season": "Spring",
+        "month": "abril",
+        "angle_deg": 7.5,
+        "pdf_page": 130,
+        "total_words": 86,
+        "lz_words": 25,
+        "cc_words": 61,
+        "ot_op_count": 25,
+        "ot_op_rate": 0.2907,
+        "ok_of_count": 10,
+        "ok_of_rate": 0.1163,
+        "ratio_ot_to_ok": 2.5,
+        "ch_sh_count": 18,
+        "ch_sh_rate": 0.2093,
+        "qo_count": 1,
+        "qo_rate": 0.0116,
+        "dy_ey_count": 31,
+        "dy_ey_rate": 0.3605,
+        "aiin_count": 9,
+        "aiin_rate": 0.1047,
+        "am_om_count": 1,
+        "am_om_rate": 0.0116
+      },
+      {
+        "folio": "f71r",
+        "sign": "Aries II",
+        "season": "Spring",
+        "month": "abril",
+        "angle_deg": 22.5,
+        "pdf_page": 130,
+        "total_words": 90,
+        "lz_words": 17,
+        "cc_words": 73,
+        "ot_op_count": 32,
+        "ot_op_rate": 0.3556,
+        "ok_of_count": 15,
+        "ok_of_rate": 0.1667,
+        "ratio_ot_to_ok": 2.133,
+        "ch_sh_count": 17,
+        "ch_sh_rate": 0.1889,
+        "qo_count": 0,
+        "qo_rate": 0.0,
+        "dy_ey_count": 39,
+        "dy_ey_rate": 0.4333,
+        "aiin_count": 4,
+        "aiin_rate": 0.0444,
+        "am_om_count": 2,
+        "am_om_rate": 0.0222
+      },
+      {
+        "folio": "f71v",
+        "sign": "Taurus I",
+        "season": "Spring",
+        "month": "may",
+        "angle_deg": 37.5,
+        "pdf_page": 131,
+        "total_words": 100,
+        "lz_words": 22,
+        "cc_words": 78,
+        "ot_op_count": 27,
+        "ot_op_rate": 0.27,
+        "ok_of_count": 15,
+        "ok_of_rate": 0.15,
+        "ratio_ot_to_ok": 1.8,
+        "ch_sh_count": 24,
+        "ch_sh_rate": 0.24,
+        "qo_count": 0,
+        "qo_rate": 0.0,
+        "dy_ey_count": 31,
+        "dy_ey_rate": 0.31,
+        "aiin_count": 10,
+        "aiin_rate": 0.1,
+        "am_om_count": 4,
+        "am_om_rate": 0.04
+      },
+      {
+        "folio": "f72r1",
+        "sign": "Taurus II",
+        "season": "Spring",
+        "month": "may",
+        "angle_deg": 52.5,
+        "pdf_page": 131,
+        "total_words": 105,
+        "lz_words": 23,
+        "cc_words": 82,
+        "ot_op_count": 24,
+        "ot_op_rate": 0.2286,
+        "ok_of_count": 16,
+        "ok_of_rate": 0.1524,
+        "ratio_ot_to_ok": 1.5,
+        "ch_sh_count": 28,
+        "ch_sh_rate": 0.2667,
+        "qo_count": 1,
+        "qo_rate": 0.0095,
+        "dy_ey_count": 28,
+        "dy_ey_rate": 0.2667,
+        "aiin_count": 15,
+        "aiin_rate": 0.1429,
+        "am_om_count": 6,
+        "am_om_rate": 0.0571
+      },
+      {
+        "folio": "f72r2",
+        "sign": "Gemini",
+        "season": "Summer",
+        "month": "juny",
+        "angle_deg": 75,
+        "pdf_page": 131,
+        "total_words": 113,
+        "lz_words": 31,
+        "cc_words": 82,
+        "ot_op_count": 24,
+        "ot_op_rate": 0.2124,
+        "ok_of_count": 27,
+        "ok_of_rate": 0.2389,
+        "ratio_ot_to_ok": 0.889,
+        "ch_sh_count": 17,
+        "ch_sh_rate": 0.1504,
+        "qo_count": 3,
+        "qo_rate": 0.0265,
+        "dy_ey_count": 39,
+        "dy_ey_rate": 0.3451,
+        "aiin_count": 17,
+        "aiin_rate": 0.1504,
+        "am_om_count": 6,
+        "am_om_rate": 0.0531
+      },
+      {
+        "folio": "f72r3",
+        "sign": "Cancer",
+        "season": "Summer",
+        "month": "jolh",
+        "angle_deg": 105,
+        "pdf_page": 131,
+        "total_words": 164,
+        "lz_words": 41,
+        "cc_words": 123,
+        "ot_op_count": 25,
+        "ot_op_rate": 0.1524,
+        "ok_of_count": 20,
+        "ok_of_rate": 0.122,
+        "ratio_ot_to_ok": 1.25,
+        "ch_sh_count": 41,
+        "ch_sh_rate": 0.25,
+        "qo_count": 0,
+        "qo_rate": 0.0,
+        "dy_ey_count": 56,
+        "dy_ey_rate": 0.3415,
+        "aiin_count": 22,
+        "aiin_rate": 0.1341,
+        "am_om_count": 4,
+        "am_om_rate": 0.0244
+      },
+      {
+        "folio": "f72v3",
+        "sign": "Leo",
+        "season": "Summer",
+        "month": "agost",
+        "angle_deg": 135,
+        "pdf_page": 132,
+        "total_words": 118,
+        "lz_words": 34,
+        "cc_words": 84,
+        "ot_op_count": 26,
+        "ot_op_rate": 0.2203,
+        "ok_of_count": 28,
+        "ok_of_rate": 0.2373,
+        "ratio_ot_to_ok": 0.929,
+        "ch_sh_count": 30,
+        "ch_sh_rate": 0.2542,
+        "qo_count": 0,
+        "qo_rate": 0.0,
+        "dy_ey_count": 65,
+        "dy_ey_rate": 0.5508,
+        "aiin_count": 8,
+        "aiin_rate": 0.0678,
+        "am_om_count": 2,
+        "am_om_rate": 0.0169
+      },
+      {
+        "folio": "f72v2",
+        "sign": "Virgo",
+        "season": "Autumn",
+        "month": "setembre",
+        "angle_deg": 165,
+        "pdf_page": 132,
+        "total_words": 108,
+        "lz_words": 31,
+        "cc_words": 77,
+        "ot_op_count": 20,
+        "ot_op_rate": 0.1852,
+        "ok_of_count": 19,
+        "ok_of_rate": 0.1759,
+        "ratio_ot_to_ok": 1.053,
+        "ch_sh_count": 29,
+        "ch_sh_rate": 0.2685,
+        "qo_count": 1,
+        "qo_rate": 0.0093,
+        "dy_ey_count": 47,
+        "dy_ey_rate": 0.4352,
+        "aiin_count": 8,
+        "aiin_rate": 0.0741,
+        "am_om_count": 4,
+        "am_om_rate": 0.037
+      },
+      {
+        "folio": "f72v1",
+        "sign": "Libra",
+        "season": "Autumn",
+        "month": "octobre",
+        "angle_deg": 195,
+        "pdf_page": 133,
+        "total_words": 104,
+        "lz_words": 30,
+        "cc_words": 74,
+        "ot_op_count": 29,
+        "ot_op_rate": 0.2788,
+        "ok_of_count": 16,
+        "ok_of_rate": 0.1538,
+        "ratio_ot_to_ok": 1.812,
+        "ch_sh_count": 14,
+        "ch_sh_rate": 0.1346,
+        "qo_count": 0,
+        "qo_rate": 0.0,
+        "dy_ey_count": 48,
+        "dy_ey_rate": 0.4615,
+        "aiin_count": 8,
+        "aiin_rate": 0.0769,
+        "am_om_count": 2,
+        "am_om_rate": 0.0192
+      },
+      {
+        "folio": "f73r",
+        "sign": "Scorpio",
+        "season": "Autumn",
+        "month": "octobre",
+        "angle_deg": 225,
+        "pdf_page": 134,
+        "total_words": 96,
+        "lz_words": 30,
+        "cc_words": 66,
+        "ot_op_count": 21,
+        "ot_op_rate": 0.2188,
+        "ok_of_count": 11,
+        "ok_of_rate": 0.1146,
+        "ratio_ot_to_ok": 1.909,
+        "ch_sh_count": 25,
+        "ch_sh_rate": 0.2604,
+        "qo_count": 1,
+        "qo_rate": 0.0104,
+        "dy_ey_count": 44,
+        "dy_ey_rate": 0.4583,
+        "aiin_count": 6,
+        "aiin_rate": 0.0625,
+        "am_om_count": 3,
+        "am_om_rate": 0.0312
+      },
+      {
+        "folio": "f73v",
+        "sign": "Sagittarius",
+        "season": "Autumn",
+        "month": "novembre",
+        "angle_deg": 255,
+        "pdf_page": 135,
+        "total_words": 99,
+        "lz_words": 31,
+        "cc_words": 68,
+        "ot_op_count": 19,
+        "ot_op_rate": 0.1919,
+        "ok_of_count": 14,
+        "ok_of_rate": 0.1414,
+        "ratio_ot_to_ok": 1.357,
+        "ch_sh_count": 15,
+        "ch_sh_rate": 0.1515,
+        "qo_count": 7,
+        "qo_rate": 0.0707,
+        "dy_ey_count": 60,
+        "dy_ey_rate": 0.6061,
+        "aiin_count": 5,
+        "aiin_rate": 0.0505,
+        "am_om_count": 3,
+        "am_om_rate": 0.0303
+      }
+    ],
+    "season_summary": {
+      "Spring": {
+        "total_words": 512,
+        "ot_op_count": 154,
+        "ot_op_pct": 30.08,
+        "ok_of_count": 67,
+        "ok_of_pct": 13.09,
+        "ratio_ot_to_ok": 2.299,
+        "ch_sh_count": 109,
+        "ch_sh_pct": 21.29,
+        "qo_count": 3,
+        "qo_pct": 0.59,
+        "dy_ey_count": 173,
+        "dy_ey_pct": 33.79,
+        "aiin_count": 49,
+        "aiin_pct": 9.57,
+        "am_om_count": 20,
+        "am_om_pct": 3.91
+      },
+      "Summer": {
+        "total_words": 395,
+        "ot_op_count": 75,
+        "ot_op_pct": 18.99,
+        "ok_of_count": 75,
+        "ok_of_pct": 18.99,
+        "ratio_ot_to_ok": 1.0,
+        "ch_sh_count": 88,
+        "ch_sh_pct": 22.28,
+        "qo_count": 3,
+        "qo_pct": 0.76,
+        "dy_ey_count": 160,
+        "dy_ey_pct": 40.51,
+        "aiin_count": 47,
+        "aiin_pct": 11.9,
+        "am_om_count": 12,
+        "am_om_pct": 3.04
+      },
+      "Autumn": {
+        "total_words": 407,
+        "ot_op_count": 89,
+        "ot_op_pct": 21.87,
+        "ok_of_count": 60,
+        "ok_of_pct": 14.74,
+        "ratio_ot_to_ok": 1.483,
+        "ch_sh_count": 83,
+        "ch_sh_pct": 20.39,
+        "qo_count": 9,
+        "qo_pct": 2.21,
+        "dy_ey_count": 199,
+        "dy_ey_pct": 48.89,
+        "aiin_count": 27,
+        "aiin_pct": 6.63,
+        "am_om_count": 12,
+        "am_om_pct": 2.95
+      }
+    },
+    "statistical_tests": {
+      "spring_vs_summer_chi2": 14.653,
+      "observed_ratio_diff_spring_minus_summer": 1.299,
+      "permutation_trials": 2000,
+      "permutation_null_mean": -0.0059,
+      "permutation_null_sd": 0.5779,
+      "z_score": 2.258,
+      "p_value": 0.023,
+      "ecliptic_angle_correlation": 0.3875
+    }
+  },
+  "attack202_summary": {
+    "attack": 202,
+    "discovery": 219,
+    "title": "Pharmaceutical Albarelli Registers (f99v, f88v, f102r), Container (@Lc) vs. Flora (@Lf) Morphological Inversion, and Quire 20 Formulation Bridge",
+    "key_findings": {
+      "lc_vs_lf_morphological_inversion": {
+        "lc_mean_length": 7.108,
+        "lf_mean_length": 5.769,
+        "t_statistic": 4.356,
+        "p_value": "< 10^-6",
+        "lc_long_compounds_pct": 64.86,
+        "lf_long_compounds_pct": 28.85,
+        "container_markers": "ok_container, dar_vessel, and long compound vessel formulas dominate @Lc jars"
+      },
+      "formulation_bridge": {
+        "f99v_stem_matches_q20_pct": 57.69,
+        "f99v_openers_match_pct": 46.15,
+        "f88v_stem_matches_q20_pct": 64.29,
+        "f88v_openers_match_pct": 42.86,
+        "all_pharma_stem_matches_q20_pct": 64.49,
+        "all_pharma_openers_match_pct": 47.35,
+        "otar_arody_bridge": "The compound formula [p/t]ar + arody functions as a dedicated stoichiometric bridge between root curation (f88v) and compound clinical preparation (Quire 20)"
+      },
+      "codicological_pipeline": "The Pharmaceutical section acts as an intermediary compounding dispensary linking raw herbal roots to Quire 20 clinical starred recipe formulations"
+    }
+  },
+  "attack202_lc_vs_lf": {
+    "n_lc_words": 37,
+    "n_lf_words": 208,
+    "lc_mean_length": 7.108,
+    "lc_sd_length": 1.68,
+    "lf_mean_length": 5.769,
+    "lf_sd_length": 1.947,
+    "length_difference": 1.339,
+    "t_statistic": 4.356,
+    "standard_error": 0.307,
+    "lc_long_compound_count": 24,
+    "lc_long_compound_pct": 64.86,
+    "lf_long_compound_count": 60,
+    "lf_long_compound_pct": 28.85,
+    "lc_categories": {
+      "ot_partitive": 5,
+      "other": 19,
+      "ok_container": 10,
+      "dar_vessel": 2,
+      "ch_sh_active": 1
+    },
+    "lf_categories": {
+      "other": 102,
+      "ot_partitive": 34,
+      "dar_vessel": 7,
+      "ok_container": 28,
+      "ch_sh_active": 26,
+      "sa_herbal": 11
+    },
+    "sample_lc_compounds": [
+      "otorchety",
+      "otaldy",
+      "ofyskydal",
+      "okalyd",
+      "otoram",
+      "daramdal",
+      "okchshy",
+      "ykyd"
+    ],
+    "sample_lf_compounds": [
+      "osal",
+      "orald",
+      "oldar",
+      "otoky",
+      "otaly",
+      "oram",
+      "dary",
+      "okol"
+    ]
+  },
+  "attack202_formulation_bridge": {
+    "groups": {
+      "f99v": {
+        "n_labels": 25,
+        "n_words": 26,
+        "exact_matches_q20": 7,
+        "exact_matches_pct": 26.92,
+        "stem_matches_q20": 15,
+        "stem_matches_pct": 57.69,
+        "exact_in_recipe_openers": 3,
+        "exact_in_recipe_openers_pct": 11.54,
+        "stem_in_recipe_openers": 12,
+        "stem_in_recipe_openers_pct": 46.15,
+        "sample_words": [
+          "okaramy",
+          "otoldy",
+          "otorchy",
+          "oldy",
+          "darary",
+          "otaly",
+          "olsy",
+          "arol",
+          "otoky",
+          "okoldody"
+        ],
+        "sample_matches": [
+          "otoldy",
+          "otorchy",
+          "oldy",
+          "otaly",
+          "olsy",
+          "arol",
+          "otoky",
+          "sary",
+          "okechy",
+          "otal"
+        ]
+      },
+      "f88v": {
+        "n_labels": 13,
+        "n_words": 14,
+        "exact_matches_q20": 5,
+        "exact_matches_pct": 35.71,
+        "stem_matches_q20": 9,
+        "stem_matches_pct": 64.29,
+        "exact_in_recipe_openers": 3,
+        "exact_in_recipe_openers_pct": 21.43,
+        "stem_in_recipe_openers": 6,
+        "stem_in_recipe_openers_pct": 42.86,
+        "sample_words": [
+          "okalyd",
+          "cheocthy",
+          "cpheor",
+          "otar",
+          "arody",
+          "otokol",
+          "otoram",
+          "otora",
+          "cheosdy",
+          "okaiin"
+        ],
+        "sample_matches": [
+          "cheocthy",
+          "cpheor",
+          "otar",
+          "arody",
+          "otokol",
+          "otoram",
+          "otora",
+          "cheosdy",
+          "okaiin"
+        ]
+      },
+      "all_pharma": {
+        "n_labels": 229,
+        "n_words": 245,
+        "exact_matches_q20": 76,
+        "exact_matches_pct": 31.02,
+        "stem_matches_q20": 158,
+        "stem_matches_pct": 64.49,
+        "exact_in_recipe_openers": 23,
+        "exact_in_recipe_openers_pct": 9.39,
+        "stem_in_recipe_openers": 116,
+        "stem_in_recipe_openers_pct": 47.35,
+        "sample_words": [
+          "otorchety",
+          "osal",
+          "orald",
+          "oldar",
+          "otoky",
+          "otaly",
+          "otaldy",
+          "oram",
+          "dary",
+          "okol"
+        ],
+        "sample_matches": [
+          "osal",
+          "orald",
+          "oldar",
+          "otoky",
+          "otaly",
+          "otaldy",
+          "oram",
+          "dary",
+          "okol",
+          "otor"
+        ]
+      }
+    },
+    "arody_bridge": {
+      "pharma_source_locus": "f88v.4 (@Lf)",
+      "pharma_source_words": [
+        "otar",
+        "arody"
+      ],
+      "quire20_matching_loci": [
+        {
+          "locus": "f105r.6",
+          "context": "par.arody.shedeeey.qopchedy",
+          "role": "Recipe Header / Opener"
+        },
+        {
+          "locus": "f105v.29",
+          "context": "tdol.tor,oaldar...karody",
+          "role": "Starred Recipe Opener"
+        },
+        {
+          "locus": "f112v.39",
+          "context": "teodarody.opcheed.okaiin",
+          "role": "Starred Recipe Opener"
+        },
+        {
+          "locus": "f114v.37",
+          "context": "chey.tar.arody",
+          "role": "Recipe Terminal Compounding Clause"
+        },
+        {
+          "locus": "f115v.13",
+          "context": "pchdarody.pcheed.rar.tcheody",
+          "role": "Gallows Starred Recipe Opener"
+        },
+        {
+          "locus": "f116r.19",
+          "context": "chetar.qotar.ar.arody.chcthy",
+          "role": "Penultimate Master Recipe Clause"
+        }
+      ],
+      "shared_formula": "The compound formula [p/t]ar + arody functions as a dedicated stoichiometric bridge between root curation (f88v) and compound clinical preparation (Quire 20)"
+    },
+    "permutation_test": {
+      "metric": "f99v labels canonical stem matches in Quire 20",
+      "observed_matches": 15,
+      "n_trials": 2000,
+      "null_mean": 23.1,
+      "null_sd": 1.62,
+      "z_score": -4.988,
+      "p_value": 1.0
+    }
+  },
+  "attack203_summary": {
+    "attack": 203,
+    "discovery": 220,
+    "title": "Quire 20 Star Point Morphology (7pt vs 8pt vs 9pt), Binary Star Parity Alternation (85.28%), and Thematic Formulary Clusters",
+    "key_findings": {
+      "star_point_grammar": {
+        "seven_point_pf_gallows_pct": 56.04,
+        "eight_point_pf_gallows_pct": 40.65,
+        "seven_point_ratio_pf_to_tk": 2.55,
+        "eight_point_ratio_pf_to_tk": 1.22,
+        "odds_ratio": 2.091,
+        "chi2": 6.9728,
+        "z_score": 2.6406,
+        "p_value": 0.008276,
+        "rule": "7-point stars double the probability of opening with a P/F gallows relative to 8-point stars (OR = 2.091, p = 0.0083)"
+      },
+      "star_parity_alternation": {
+        "overall_alternation_rate": 0.8528,
+        "alternation_rate_pct": 85.28,
+        "perfect_alternation_folios_count": 17,
+        "perfect_alternation_folios_pct": 73.91,
+        "z_score": 12.2024,
+        "p_value": "< 10^-33",
+        "law": "Strict binary alternation law: Quire 20 margin stars alternate 1-to-1 between Dotted and Plain across 85.28% of transitions (100% on 17/23 folios, z = +12.20)"
+      },
+      "thematic_recipe_clusters": {
+        "adjacent_jaccard": 0.2532,
+        "null_jaccard": 0.2268,
+        "lift": 1.12,
+        "z_score": 6.464,
+        "p_value": "< 10^-10"
+      }
+    }
+  },
+  "attack203_star_point_morphology": {
+    "total_units": 322,
+    "point_distribution": {
+      "7": 182,
+      "8": 123,
+      "6": 5,
+      "9": 6,
+      "None": 6
+    },
+    "dotting_distribution": {
+      "dotted": 148,
+      "plain": 174
+    },
+    "tail_distribution": {
+      "tailed": 267,
+      "tailless": 55
+    },
+    "points_summary": {
+      "7_points": {
+        "total_units": 182,
+        "mean_word_count": 33.56,
+        "pf_gallows_count": 102,
+        "pf_gallows_pct": 56.04,
+        "tk_gallows_count": 40,
+        "tk_gallows_pct": 21.98,
+        "ratio_pf_to_tk": 2.55,
+        "ds_particle_count": 18,
+        "qo_verb_count": 7
+      },
+      "8_points": {
+        "total_units": 123,
+        "mean_word_count": 33.7,
+        "pf_gallows_count": 50,
+        "pf_gallows_pct": 40.65,
+        "tk_gallows_count": 41,
+        "tk_gallows_pct": 33.33,
+        "ratio_pf_to_tk": 1.22,
+        "ds_particle_count": 17,
+        "qo_verb_count": 4
+      },
+      "9_points": {
+        "total_units": 6,
+        "mean_word_count": 38.33,
+        "pf_gallows_count": 2,
+        "pf_gallows_pct": 33.33,
+        "tk_gallows_count": 2,
+        "tk_gallows_pct": 33.33,
+        "ratio_pf_to_tk": 1.0,
+        "ds_particle_count": 0,
+        "qo_verb_count": 1
+      }
+    },
+    "statistical_test_7pt_vs_8pt": {
+      "contingency_table": {
+        "7pt": {
+          "PF": 102,
+          "TK": 40
+        },
+        "8pt": {
+          "PF": 50,
+          "TK": 41
+        }
+      },
+      "chi2": 6.9728,
+      "z_score": 2.6406,
+      "p_value": 0.008276,
+      "odds_ratio": 2.091
+    }
+  },
+  "attack203_star_parity": {
+    "total_transitions": 299,
+    "total_alternations": 255,
+    "overall_alternation_rate": 0.8528,
+    "perfect_alternation_folios_count": 17,
+    "total_folios_count": 23,
+    "perfect_alternation_folios_pct": 73.91,
+    "z_score_vs_random_null": 12.2024,
+    "p_value": "< 10^-33",
+    "folio_alternation_breakdown": [
+      {
+        "folio": "f103r",
+        "n_stars": 19,
+        "n_transitions": 18,
+        "n_alternations": 0,
+        "alternation_rate": 0.0,
+        "sequence_sample": "PPPPPPPPPPPPPPPPPPP",
+        "perfect_alternation": false
+      },
+      {
+        "folio": "f103v",
+        "n_stars": 14,
+        "n_transitions": 13,
+        "n_alternations": 13,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPDP",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f104r",
+        "n_stars": 13,
+        "n_transitions": 12,
+        "n_alternations": 4,
+        "alternation_rate": 0.3333,
+        "sequence_sample": "PPPPPPPPPDPDP",
+        "perfect_alternation": false
+      },
+      {
+        "folio": "f104v",
+        "n_stars": 13,
+        "n_transitions": 12,
+        "n_alternations": 12,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f105r",
+        "n_stars": 10,
+        "n_transitions": 9,
+        "n_alternations": 8,
+        "alternation_rate": 0.8889,
+        "sequence_sample": "DDPDPDPDPD",
+        "perfect_alternation": false
+      },
+      {
+        "folio": "f105v",
+        "n_stars": 10,
+        "n_transitions": 9,
+        "n_alternations": 9,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDP",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f106r",
+        "n_stars": 15,
+        "n_transitions": 14,
+        "n_alternations": 14,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f106v",
+        "n_stars": 14,
+        "n_transitions": 13,
+        "n_alternations": 13,
+        "alternation_rate": 1.0,
+        "sequence_sample": "PDPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f107r",
+        "n_stars": 15,
+        "n_transitions": 14,
+        "n_alternations": 14,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f107v",
+        "n_stars": 14,
+        "n_transitions": 13,
+        "n_alternations": 13,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPDP",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f108r",
+        "n_stars": 16,
+        "n_transitions": 15,
+        "n_alternations": 2,
+        "alternation_rate": 0.1333,
+        "sequence_sample": "PPPPPDPPPPPPPPPP",
+        "perfect_alternation": false
+      },
+      {
+        "folio": "f108v",
+        "n_stars": 16,
+        "n_transitions": 15,
+        "n_alternations": 12,
+        "alternation_rate": 0.8,
+        "sequence_sample": "DPDPDPDPDDPDDDPD",
+        "perfect_alternation": false
+      },
+      {
+        "folio": "f111r",
+        "n_stars": 17,
+        "n_transitions": 16,
+        "n_alternations": 16,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f111v",
+        "n_stars": 19,
+        "n_transitions": 18,
+        "n_alternations": 18,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f112r",
+        "n_stars": 12,
+        "n_transitions": 11,
+        "n_alternations": 11,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDP",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f112v",
+        "n_stars": 13,
+        "n_transitions": 12,
+        "n_alternations": 12,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f113r",
+        "n_stars": 16,
+        "n_transitions": 15,
+        "n_alternations": 15,
+        "alternation_rate": 1.0,
+        "sequence_sample": "PDPDPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f113v",
+        "n_stars": 15,
+        "n_transitions": 14,
+        "n_alternations": 14,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f114r",
+        "n_stars": 13,
+        "n_transitions": 12,
+        "n_alternations": 12,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f114v",
+        "n_stars": 12,
+        "n_transitions": 11,
+        "n_alternations": 11,
+        "alternation_rate": 1.0,
+        "sequence_sample": "PDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f115r",
+        "n_stars": 13,
+        "n_transitions": 12,
+        "n_alternations": 11,
+        "alternation_rate": 0.9167,
+        "sequence_sample": "DPDPDDPDPDPDP",
+        "perfect_alternation": false
+      },
+      {
+        "folio": "f115v",
+        "n_stars": 13,
+        "n_transitions": 12,
+        "n_alternations": 12,
+        "alternation_rate": 1.0,
+        "sequence_sample": "DPDPDPDPDPDPD",
+        "perfect_alternation": true
+      },
+      {
+        "folio": "f116r",
+        "n_stars": 10,
+        "n_transitions": 9,
+        "n_alternations": 9,
+        "alternation_rate": 1.0,
+        "sequence_sample": "PDPDPDPDPD",
+        "perfect_alternation": true
+      }
+    ]
+  },
+  "attack203_clusters": {
+    "adjacent_within_page_mean_jaccard": 0.2532,
+    "null_random_pairs_mean_jaccard": 0.2268,
+    "null_sd": 0.0704,
+    "lift": 1.12,
+    "z_score": 6.464,
+    "p_value": "< 10^-10",
+    "focus_folios": {
+      "f104r": {
+        "n_units": 13,
+        "units": [
+          {
+            "locus": "f104r.2",
+            "star": "Dark star, 7 points, tail",
+            "first_word": "o",
+            "opener_family": "Other",
+            "word_count": 35,
+            "sample_words": [
+              "o",
+              "ar",
+              "aiin",
+              "yteeody",
+              "cheedaiin"
+            ]
+          },
+          {
+            "locus": "f104r.5",
+            "star": "Light star, 7 points, tail",
+            "first_word": "kchdal",
+            "opener_family": "TK_gallows",
+            "word_count": 52,
+            "sample_words": [
+              "kchdal",
+              "qotaiin",
+              "qoshedy",
+              "ol",
+              "chl"
+            ]
+          },
+          {
+            "locus": "f104r.10",
+            "star": "Darkish star, 8 points, tail?",
+            "first_word": "tol",
+            "opener_family": "TK_gallows",
+            "word_count": 20,
+            "sample_words": [
+              "tol",
+              "chedal",
+              "cheoy",
+              "otyd",
+              "os"
+            ]
+          },
+          {
+            "locus": "f104r.12",
+            "star": "Lightish star, 7 points, tail",
+            "first_word": "tshdol",
+            "opener_family": "TK_gallows",
+            "word_count": 39,
+            "sample_words": [
+              "tshdol",
+              "qotchedy",
+              "qokoeey",
+              "qoteode",
+              "lo"
+            ]
+          },
+          {
+            "locus": "f104r.16",
+            "star": "Light star, 7 points, tail",
+            "first_word": "ocheoey",
+            "opener_family": "Other",
+            "word_count": 26,
+            "sample_words": [
+              "ocheoey",
+              "qoctheody",
+              "ykeeodey",
+              "qoepchy",
+              "opchey"
+            ]
+          },
+          {
+            "locus": "f104r.19",
+            "star": "Darkish star, 8 points, tail",
+            "first_word": "toaiin",
+            "opener_family": "TK_gallows",
+            "word_count": 29,
+            "sample_words": [
+              "toaiin",
+              "chdar",
+              "otar",
+              "shd",
+              "qotar"
+            ]
+          },
+          {
+            "locus": "f104r.22",
+            "star": "Light star, 8 points, tail",
+            "first_word": "tshedar",
+            "opener_family": "TK_gallows",
+            "word_count": 50,
+            "sample_words": [
+              "tshedar",
+              "chllo",
+              "rl",
+              "shed",
+              "kchedy"
+            ]
+          },
+          {
+            "locus": "f104r.27",
+            "star": "Darkish star, 7 points, tail",
+            "first_word": "pchedar",
+            "opener_family": "PF_gallows",
+            "word_count": 34,
+            "sample_words": [
+              "pchedar",
+              "qokaiin",
+              "qotaiin",
+              "dl",
+              "ral"
+            ]
+          },
+          {
+            "locus": "f104r.30",
+            "star": "Light star, 9 points, tail",
+            "first_word": "okeeo",
+            "opener_family": "Other",
+            "word_count": 42,
+            "sample_words": [
+              "okeeo",
+              "l",
+              "keeo",
+              "dain",
+              "lkeodaiin"
+            ]
+          },
+          {
+            "locus": "f104r.34",
+            "star": "Light star, dotted, [9|8] points, tail",
+            "first_word": "pchol",
+            "opener_family": "PF_gallows",
+            "word_count": 19,
+            "sample_words": [
+              "pchol",
+              "ksheody",
+              "qokeshedy",
+              "qokal",
+              "chedy"
+            ]
+          },
+          {
+            "locus": "f104r.36",
+            "star": "Light star, 7 points, tail",
+            "first_word": "psheody",
+            "opener_family": "PF_gallows",
+            "word_count": 25,
+            "sample_words": [
+              "psheody",
+              "qotar",
+              "chopar",
+              "qotaly",
+              "qotsheod"
+            ]
+          },
+          {
+            "locus": "f104r.39",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "pcholor",
+            "opener_family": "PF_gallows",
+            "word_count": 35,
+            "sample_words": [
+              "pcholor",
+              "ar",
+              "aiin",
+              "alkchdy",
+              "qotal"
+            ]
+          },
+          {
+            "locus": "f104r.43",
+            "star": "Light star, 8 points, tail",
+            "first_word": "tsheodl",
+            "opener_family": "TK_gallows",
+            "word_count": 32,
+            "sample_words": [
+              "tsheodl",
+              "qokaiin",
+              "qokchedy",
+              "ykchdy",
+              "pchedy"
+            ]
+          }
+        ]
+      },
+      "f105r": {
+        "n_units": 10,
+        "units": [
+          {
+            "locus": "f105r.1",
+            "star": "Light star, dotted, 8 points, tail",
+            "first_word": "@199;aiin",
+            "opener_family": "Other",
+            "word_count": 56,
+            "sample_words": [
+              "@199;aiin",
+              "dar",
+              "chcphy",
+              "qokeey",
+              "qopaiin"
+            ]
+          },
+          {
+            "locus": "f105r.6",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "par",
+            "opener_family": "PF_gallows",
+            "word_count": 35,
+            "sample_words": [
+              "par",
+              "arody",
+              "shedeeey",
+              "qopchedy",
+              "qody"
+            ]
+          },
+          {
+            "locus": "f105r.10",
+            "star": "Light star, 7 points, tail",
+            "first_word": "sairy",
+            "opener_family": "DS_particle",
+            "word_count": 38,
+            "sample_words": [
+              "sairy",
+              "ore",
+              "daiindy",
+              "ytam",
+              "pdar"
+            ]
+          },
+          {
+            "locus": "f105r.14",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "kesoar",
+            "opener_family": "TK_gallows",
+            "word_count": 31,
+            "sample_words": [
+              "kesoar",
+              "qoeeedy",
+              "keeody",
+              "dlls",
+              "air"
+            ]
+          },
+          {
+            "locus": "f105r.17",
+            "star": "Light star, 8 points, tail",
+            "first_word": "lteedy",
+            "opener_family": "Other",
+            "word_count": 75,
+            "sample_words": [
+              "lteedy",
+              "okeeddl",
+              "sheokedy",
+              "qokedy",
+              "shol"
+            ]
+          },
+          {
+            "locus": "f105r.24",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "pcheor",
+            "opener_family": "PF_gallows",
+            "word_count": 19,
+            "sample_words": [
+              "pcheor",
+              "ain",
+              "ckheey",
+              "okeeey",
+              "paiin"
+            ]
+          },
+          {
+            "locus": "f105r.26",
+            "star": "Light star, 7 points, tail",
+            "first_word": "pdal",
+            "opener_family": "PF_gallows",
+            "word_count": 19,
+            "sample_words": [
+              "pdal",
+              "sheey",
+              "yqopchy",
+              "airal",
+              "sheey"
+            ]
+          },
+          {
+            "locus": "f105r.28",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "pchsed",
+            "opener_family": "PF_gallows",
+            "word_count": 33,
+            "sample_words": [
+              "pchsed",
+              "sheefy",
+              "opchey",
+              "qoteedy",
+              "qoeey"
+            ]
+          },
+          {
+            "locus": "f105r.31",
+            "star": "Light star, 7 points, tail",
+            "first_word": "kodeey",
+            "opener_family": "TK_gallows",
+            "word_count": 35,
+            "sample_words": [
+              "kodeey",
+              "lchl",
+              "shx",
+              "ar",
+              "aiijy"
+            ]
+          },
+          {
+            "locus": "f105r.34",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "dor",
+            "opener_family": "DS_particle",
+            "word_count": 38,
+            "sample_words": [
+              "dor",
+              "ail",
+              "cheky",
+              "kar",
+              "odaiin"
+            ]
+          }
+        ]
+      },
+      "f106r": {
+        "n_units": 15,
+        "units": [
+          {
+            "locus": "f106r.1",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "pshdar",
+            "opener_family": "PF_gallows",
+            "word_count": 29,
+            "sample_words": [
+              "pshdar",
+              "shoefy",
+              "yteedy",
+              "shal",
+              "korchy"
+            ]
+          },
+          {
+            "locus": "f106r.4",
+            "star": "Light star, 8 points, tail",
+            "first_word": "pcheodair",
+            "opener_family": "PF_gallows",
+            "word_count": 39,
+            "sample_words": [
+              "pcheodair",
+              "okchedy",
+              "olkeeedy",
+              "or",
+              "arojy"
+            ]
+          },
+          {
+            "locus": "f106r.8",
+            "star": "Light star, dotted, 7 points, tail + small light companion with 6/6 points",
+            "first_word": "porarchy",
+            "opener_family": "PF_gallows",
+            "word_count": 18,
+            "sample_words": [
+              "porarchy",
+              "orar",
+              "ol",
+              "kaiin",
+              "shedy"
+            ]
+          },
+          {
+            "locus": "f106r.10",
+            "star": "Light star, 8 points, tail",
+            "first_word": "pshoair",
+            "opener_family": "PF_gallows",
+            "word_count": 26,
+            "sample_words": [
+              "pshoair",
+              "lkeeshedy",
+              "qokain",
+              "cheoly",
+              "qokedy"
+            ]
+          },
+          {
+            "locus": "f106r.13",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "pcheol",
+            "opener_family": "PF_gallows",
+            "word_count": 19,
+            "sample_words": [
+              "pcheol",
+              "sheokaiin",
+              "otey",
+              "qokeeor",
+              "sheo"
+            ]
+          },
+          {
+            "locus": "f106r.15",
+            "star": "Light star, 7 points, tail",
+            "first_word": "podaroar",
+            "opener_family": "PF_gallows",
+            "word_count": 28,
+            "sample_words": [
+              "podaroar",
+              "oteeo",
+              "lchor",
+              "shol",
+              "tchedy"
+            ]
+          },
+          {
+            "locus": "f106r.18",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "kshed",
+            "opener_family": "TK_gallows",
+            "word_count": 37,
+            "sample_words": [
+              "kshed",
+              "dsheol",
+              "qokeedy",
+              "otol",
+              "okeedy"
+            ]
+          },
+          {
+            "locus": "f106r.22",
+            "star": "Light star, 8 points, tail",
+            "first_word": "tshodair",
+            "opener_family": "TK_gallows",
+            "word_count": 20,
+            "sample_words": [
+              "tshodair",
+              "olkeees",
+              "odain",
+              "qokeedy",
+              "opchor"
+            ]
+          },
+          {
+            "locus": "f106r.24",
+            "star": "Light star, dotted, 8 points, tail",
+            "first_word": "podshedy",
+            "opener_family": "PF_gallows",
+            "word_count": 22,
+            "sample_words": [
+              "podshedy",
+              "qokchedy",
+              "lkechor",
+              "otchodar",
+              "cho"
+            ]
+          },
+          {
+            "locus": "f106r.27",
+            "star": "Light star, 7 points, tail",
+            "first_word": "tcheoky",
+            "opener_family": "TK_gallows",
+            "word_count": 52,
+            "sample_words": [
+              "tcheoky",
+              "lkshedy",
+              "qokaiin",
+              "lky",
+              "raiin"
+            ]
+          },
+          {
+            "locus": "f106r.32",
+            "star": "Light star, dotted, 8 points, tail",
+            "first_word": "poral",
+            "opener_family": "PF_gallows",
+            "word_count": 19,
+            "sample_words": [
+              "poral",
+              "sho",
+              "keeody",
+              "qokain",
+              "chckhy"
+            ]
+          },
+          {
+            "locus": "f106r.34",
+            "star": "Light star, 8 points, tail",
+            "first_word": "tcheorsho",
+            "opener_family": "TK_gallows",
+            "word_count": 14,
+            "sample_words": [
+              "tcheorsho",
+              "lkshey",
+              "lpcheo",
+              "ro",
+              "lpchey"
+            ]
+          },
+          {
+            "locus": "f106r.36",
+            "star": "Light star, dotted, 9/8 points, tail",
+            "first_word": "psheodalo",
+            "opener_family": "PF_gallows",
+            "word_count": 13,
+            "sample_words": [
+              "psheodalo",
+              "dar",
+              "sheodal",
+              "qotedy",
+              "qotes"
+            ]
+          },
+          {
+            "locus": "f106r.38",
+            "star": "Light star, 7 points, tail",
+            "first_word": "pshodaiin",
+            "opener_family": "PF_gallows",
+            "word_count": 39,
+            "sample_words": [
+              "pshodaiin",
+              "opchy",
+              "sh",
+              "o",
+              "teeody"
+            ]
+          },
+          {
+            "locus": "f106r.42",
+            "star": "Light star, dotted, 8 points, tail",
+            "first_word": "pcheodar",
+            "opener_family": "PF_gallows",
+            "word_count": 57,
+            "sample_words": [
+              "pcheodar",
+              "shol",
+              "kain",
+              "okchedy",
+              "qoteey"
+            ]
+          }
+        ]
+      },
+      "f114r": {
+        "n_units": 13,
+        "units": [
+          {
+            "locus": "f114r.1",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "tchedol",
+            "opener_family": "TK_gallows",
+            "word_count": 23,
+            "sample_words": [
+              "tchedol",
+              "dairor",
+              "pcheos",
+              "ytaiin",
+              "otody"
+            ]
+          },
+          {
+            "locus": "f114r.4",
+            "star": "Light star, 6/7 points, tail",
+            "first_word": "fdeechdy",
+            "opener_family": "PF_gallows",
+            "word_count": 41,
+            "sample_words": [
+              "fdeechdy",
+              "opchedaiin",
+              "ypchedy",
+              "odaly",
+              "chedy"
+            ]
+          },
+          {
+            "locus": "f114r.8",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "fchey",
+            "opener_family": "PF_gallows",
+            "word_count": 27,
+            "sample_words": [
+              "fchey",
+              "dam",
+              "okchedam",
+              "qokeedaiin",
+              "otairar"
+            ]
+          },
+          {
+            "locus": "f114r.11",
+            "star": "Light star, 8 points, tail",
+            "first_word": "dalchy",
+            "opener_family": "DS_particle",
+            "word_count": 26,
+            "sample_words": [
+              "dalchy",
+              "kolky",
+              "qoedaiin",
+              "dolor",
+              "shedy"
+            ]
+          },
+          {
+            "locus": "f114r.14",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "solpchd",
+            "opener_family": "DS_particle",
+            "word_count": 56,
+            "sample_words": [
+              "solpchd",
+              "oiin",
+              "chcthdy",
+              "qodair",
+              "ol"
+            ]
+          },
+          {
+            "locus": "f114r.19",
+            "star": "Light star, 7 points, tail",
+            "first_word": "pairody",
+            "opener_family": "PF_gallows",
+            "word_count": 29,
+            "sample_words": [
+              "pairody",
+              "shedar",
+              "qopchdy",
+              "dchedy",
+              "dol"
+            ]
+          },
+          {
+            "locus": "f114r.22",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "tchedair",
+            "opener_family": "TK_gallows",
+            "word_count": 34,
+            "sample_words": [
+              "tchedair",
+              "shodaiin",
+              "dair",
+              "kchedy",
+              "qopchdy"
+            ]
+          },
+          {
+            "locus": "f114r.25",
+            "star": "Light star, 8 points, tail",
+            "first_word": "oaiil",
+            "opener_family": "Other",
+            "word_count": 31,
+            "sample_words": [
+              "oaiil",
+              "chey",
+              "qokeedy",
+              "chedy",
+              "qoeey"
+            ]
+          },
+          {
+            "locus": "f114r.28",
+            "star": "Light star, dotted, 7 points, tail",
+            "first_word": "pchedairs",
+            "opener_family": "PF_gallows",
+            "word_count": 46,
+            "sample_words": [
+              "pchedairs",
+              "oeail",
+              "chotar",
+              "qokeedair",
+              "olkaiin"
+            ]
+          },
+          {
+            "locus": "f114r.32",
+            "star": "Light star, 7 points, tail",
+            "first_word": "tcheodaiin",
+            "opener_family": "TK_gallows",
+            "word_count": 32,
+            "sample_words": [
+              "tcheodaiin",
+              "chaiin",
+              "qokaiin",
+              "otaiin",
+              "otalkain"
+            ]
+          },
+          {
+            "locus": "f114r.35",
+            "star": "Light star, dotted, 8 points, tail",
+            "first_word": "pcheos",
+            "opener_family": "PF_gallows",
+            "word_count": 45,
+            "sample_words": [
+              "pcheos",
+              "air",
+              "oy",
+              "sheo",
+              "qokey"
+            ]
+          },
+          {
+            "locus": "f114r.39",
+            "star": "Light star, 7/8 points, tail",
+            "first_word": "todaiin",
+            "opener_family": "TK_gallows",
+            "word_count": 30,
+            "sample_words": [
+              "todaiin",
+              "cheoltchedaiin",
+              "daiin",
+              "okar",
+              "qoeedain"
+            ]
+          },
+          {
+            "locus": "f114r.42",
+            "star": "Light star, dotted, 8? points, tail",
+            "first_word": "poedair",
+            "opener_family": "PF_gallows",
+            "word_count": 40,
+            "sample_words": [
+              "poedair",
+              "qotol",
+              "qodaiin",
+              "otaiin",
+              "qotar"
+            ]
+          }
+        ]
+      },
+      "f116r": {
+        "n_units": 10,
+        "units": [
+          {
+            "locus": "f116r.1",
+            "star": "Light star, 7 points",
+            "first_word": "kchdpy",
+            "opener_family": "TK_gallows",
+            "word_count": 33,
+            "sample_words": [
+              "kchdpy",
+              "shey",
+              "qokain",
+              "otalshdy",
+              "qoteey"
+            ]
+          },
+          {
+            "locus": "f116r.4",
+            "star": "Light star, dotted, 7 points",
+            "first_word": "padar",
+            "opener_family": "PF_gallows",
+            "word_count": 34,
+            "sample_words": [
+              "padar",
+              "shey",
+              "osheeky",
+              "qol",
+              "laiin"
+            ]
+          },
+          {
+            "locus": "f116r.7",
+            "star": "Light star, 7 points",
+            "first_word": "pcholchdy",
+            "opener_family": "PF_gallows",
+            "word_count": 25,
+            "sample_words": [
+              "pcholchdy",
+              "teody",
+              "otey",
+              "qo",
+              "qokain"
+            ]
+          },
+          {
+            "locus": "f116r.10",
+            "star": "Light star, dotted, 6/7 points",
+            "first_word": "chdin",
+            "opener_family": "Other",
+            "word_count": 35,
+            "sample_words": [
+              "chdin",
+              "checkhy",
+              "dar",
+              "shedy",
+              "qokeedy"
+            ]
+          },
+          {
+            "locus": "f116r.13",
+            "star": "Light star, 7? points",
+            "first_word": "sar",
+            "opener_family": "DS_particle",
+            "word_count": 18,
+            "sample_words": [
+              "sar",
+              "ain",
+              "tey",
+              "chetain",
+              "shtey"
+            ]
+          },
+          {
+            "locus": "f116r.15",
+            "star": "Light star, dotted, 7 points",
+            "first_word": "pchoetal",
+            "opener_family": "PF_gallows",
+            "word_count": 32,
+            "sample_words": [
+              "pchoetal",
+              "otedal",
+              "otal",
+              "oteedy",
+              "olr"
+            ]
+          },
+          {
+            "locus": "f116r.18",
+            "star": "Light star, 8 points",
+            "first_word": "pcharalor",
+            "opener_family": "PF_gallows",
+            "word_count": 42,
+            "sample_words": [
+              "pcharalor",
+              "qokey",
+              "r",
+              "ain",
+              "otedy"
+            ]
+          },
+          {
+            "locus": "f116r.21",
+            "star": "Light star, dotted, 7 points",
+            "first_word": "sairol",
+            "opener_family": "DS_particle",
+            "word_count": 38,
+            "sample_words": [
+              "sairol",
+              "sheey",
+              "qokain",
+              "chal",
+              "qol"
+            ]
+          },
+          {
+            "locus": "f116r.24",
+            "star": "Light star, 8 points",
+            "first_word": "qokedy",
+            "opener_family": "QO_verb",
+            "word_count": 34,
+            "sample_words": [
+              "qokedy",
+              "okain",
+              "chcthy",
+              "oty",
+              "shedy"
+            ]
+          },
+          {
+            "locus": "f116r.27",
+            "star": "Light star, dotted, 7 points",
+            "first_word": "daiin",
+            "opener_family": "DS_particle",
+            "word_count": 270,
+            "sample_words": [
+              "daiin",
+              "chey",
+              "qokey",
+              "lshedy",
+              "orain"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

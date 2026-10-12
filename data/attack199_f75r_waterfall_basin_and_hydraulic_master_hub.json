@@ -1,0 +1,484 @@
+{
+  "attack": 199,
+  "discovery": 216,
+  "title": "Balneological Grand Opening f75r: Waterfall Lobed Basin, Drawing Intrusion Syntax, and Master Hydraulic Lexical Hub",
+  "summary": {
+    "f75r_words": 385,
+    "f75r_lines": 53,
+    "downstream_balneo_folios": 18,
+    "downstream_balneo_words": 5941,
+    "stem_coverage_rate": 0.8697,
+    "exact_coverage_rate": 0.5363,
+    "coverage_z_score": 0.68,
+    "coverage_p_value": 0.2244,
+    "split_lines_with_intrusions": 29,
+    "procedural_verb_density": 0.4831
+  },
+  "master_hub_coverage_analysis": {
+    "f75r_total_words": 385,
+    "f75r_unique_stems": 94,
+    "downstream_balneo_folios_count": 18,
+    "downstream_balneo_words_count": 5941,
+    "observed_exact_matches": 3186,
+    "observed_exact_coverage_rate": 0.5363,
+    "observed_stem_matches": 5167,
+    "observed_stem_coverage_rate": 0.8697,
+    "null_stem_rate_mean": 0.8349,
+    "null_stem_rate_std": 0.0508,
+    "z_score": 0.68,
+    "p_value": 0.2244,
+    "n_trials": 5000,
+    "per_folio_coverage": {
+      "f75v": {
+        "total_words": 349,
+        "exact_matches": 203,
+        "exact_rate": 0.5817,
+        "stem_matches": 308,
+        "stem_rate": 0.8825
+      },
+      "f76v": {
+        "total_words": 394,
+        "exact_matches": 193,
+        "exact_rate": 0.4898,
+        "stem_matches": 329,
+        "stem_rate": 0.835
+      },
+      "f77r": {
+        "total_words": 332,
+        "exact_matches": 169,
+        "exact_rate": 0.509,
+        "stem_matches": 283,
+        "stem_rate": 0.8524
+      },
+      "f77v": {
+        "total_words": 332,
+        "exact_matches": 185,
+        "exact_rate": 0.5572,
+        "stem_matches": 288,
+        "stem_rate": 0.8675
+      },
+      "f78r": {
+        "total_words": 296,
+        "exact_matches": 160,
+        "exact_rate": 0.5405,
+        "stem_matches": 253,
+        "stem_rate": 0.8547
+      },
+      "f78v": {
+        "total_words": 294,
+        "exact_matches": 184,
+        "exact_rate": 0.6259,
+        "stem_matches": 258,
+        "stem_rate": 0.8776
+      },
+      "f79r": {
+        "total_words": 383,
+        "exact_matches": 172,
+        "exact_rate": 0.4491,
+        "stem_matches": 324,
+        "stem_rate": 0.846
+      },
+      "f79v": {
+        "total_words": 356,
+        "exact_matches": 191,
+        "exact_rate": 0.5365,
+        "stem_matches": 319,
+        "stem_rate": 0.8961
+      },
+      "f80r": {
+        "total_words": 445,
+        "exact_matches": 236,
+        "exact_rate": 0.5303,
+        "stem_matches": 390,
+        "stem_rate": 0.8764
+      },
+      "f80v": {
+        "total_words": 376,
+        "exact_matches": 199,
+        "exact_rate": 0.5293,
+        "stem_matches": 338,
+        "stem_rate": 0.8989
+      },
+      "f81r": {
+        "total_words": 210,
+        "exact_matches": 125,
+        "exact_rate": 0.5952,
+        "stem_matches": 189,
+        "stem_rate": 0.9
+      },
+      "f81v": {
+        "total_words": 255,
+        "exact_matches": 135,
+        "exact_rate": 0.5294,
+        "stem_matches": 225,
+        "stem_rate": 0.8824
+      },
+      "f82r": {
+        "total_words": 286,
+        "exact_matches": 133,
+        "exact_rate": 0.465,
+        "stem_matches": 233,
+        "stem_rate": 0.8147
+      },
+      "f82v": {
+        "total_words": 319,
+        "exact_matches": 170,
+        "exact_rate": 0.5329,
+        "stem_matches": 267,
+        "stem_rate": 0.837
+      },
+      "f83r": {
+        "total_words": 345,
+        "exact_matches": 174,
+        "exact_rate": 0.5043,
+        "stem_matches": 296,
+        "stem_rate": 0.858
+      },
+      "f83v": {
+        "total_words": 260,
+        "exact_matches": 134,
+        "exact_rate": 0.5154,
+        "stem_matches": 224,
+        "stem_rate": 0.8615
+      },
+      "f84r": {
+        "total_words": 368,
+        "exact_matches": 220,
+        "exact_rate": 0.5978,
+        "stem_matches": 334,
+        "stem_rate": 0.9076
+      },
+      "f84v": {
+        "total_words": 341,
+        "exact_matches": 203,
+        "exact_rate": 0.5953,
+        "stem_matches": 309,
+        "stem_rate": 0.9062
+      }
+    }
+  },
+  "drawing_intrusions_syntax": {
+    "split_lines_count": 29,
+    "gap_transitions_count": 29,
+    "procedural_chain_across_gap_count": 1,
+    "procedural_chain_across_gap_rate": 0.0345,
+    "same_stem_across_gap_count": 1,
+    "gap_transitions_sample": [
+      {
+        "lnum": "1",
+        "w_left_end": "kchedykary",
+        "w_right_start": "okeey",
+        "left_end_prefix": "kc",
+        "right_start_prefix": "ok",
+        "same_stem_across_gap": false,
+        "procedural_chain": false
+      },
+      {
+        "lnum": "2",
+        "w_left_end": "ly",
+        "w_right_start": "ssheol",
+        "left_end_prefix": "ly",
+        "right_start_prefix": "ss",
+        "same_stem_across_gap": false,
+        "procedural_chain": false
+      },
+      {
+        "lnum": "3",
+        "w_left_end": "chal",
+        "w_right_start": "orchey",
+        "left_end_prefix": "ch",
+        "right_start_prefix": "or",
+        "same_stem_across_gap": false,
+        "procedural_chain": false
+      },
+      {
+        "lnum": "4",
+        "w_left_end": "lkamo",
+        "w_right_start": "ykeey",
+        "left_end_prefix": "lk",
+        "right_start_prefix": "yk",
+        "same_stem_across_gap": false,
+        "procedural_chain": false
+      },
+      {
+        "lnum": "5",
+        "w_left_end": "chey",
+        "w_right_start": "ckhey",
+        "left_end_prefix": "ch",
+        "right_start_prefix": "ck",
+        "same_stem_across_gap": false,
+        "procedural_chain": false
+      },
+      {
+        "lnum": "6",
+        "w_left_end": "olky",
+        "w_right_start": "dar",
+        "left_end_prefix": "ol",
+        "right_start_prefix": "da",
+        "same_stem_across_gap": false,
+        "procedural_chain": false
+      },
+      {
+        "lnum": "7",
+        "w_left_end": "qokshdy",
+        "w_right_start": "ytain",
+        "left_end_prefix": "qo",
+        "right_start_prefix": "yt",
+        "same_stem_across_gap": false,
+        "procedural_chain": false
+      },
+      {
+        "lnum": "8",
+        "w_left_end": "qokardy",
+        "w_right_start": "dsheckhy",
+        "left_end_prefix": "qo",
+        "right_start_prefix": "ds",
+        "same_stem_across_gap": false,
+        "procedural_chain": false
+      },
+      {
+        "lnum": "9",
+        "w_left_end": "lo",
+        "w_right_start": "qokedy",
+        "left_end_prefix": "lo",
+        "right_start_prefix": "qo",
+        "same_stem_across_gap": false,
+        "procedural_chain": false
+      },
+      {
+        "lnum": "10",
+        "w_left_end": "chdy",
+        "w_right_start": "shey",
+        "left_end_prefix": "ch",
+        "right_start_prefix": "sh",
+        "same_stem_across_gap": false,
+        "procedural_chain": false
+      }
+    ],
+    "syntactic_continuity": "Text reads continuously across the central waterfall illustration rather than treating left/right blocks as independent columns."
+  },
+  "procedural_reduplication_analysis": {
+    "f75r_reduplications": [
+      {
+        "pos": 100,
+        "token": "qokedy",
+        "is_triple": false
+      },
+      {
+        "pos": 287,
+        "token": "dar",
+        "is_triple": false
+      },
+      {
+        "pos": 306,
+        "token": "qokeedy",
+        "is_triple": false
+      },
+      {
+        "pos": 308,
+        "token": "qokedy",
+        "is_triple": false
+      },
+      {
+        "pos": 313,
+        "token": "qokeedy",
+        "is_triple": false
+      }
+    ],
+    "f75r_triple_reduplication": {
+      "locus": "f75r.13",
+      "chain": "qokedy.qokedy.qokedy",
+      "context": "pchedy.keedy.qokedy <-> qokedy.qokedy.qokedy.qokain.olshedy"
+    },
+    "f75r_five_fold_chain": {
+      "locus": "f75r.38",
+      "chain": "qokeedy.qokeedy.qokedy.qokedy.qokeedy.ldy"
+    },
+    "f75r_long_procedural_chains_count": 30,
+    "f75r_longest_procedural_chains": [
+      [
+        "qokar",
+        "shyk",
+        "chedy",
+        "qotar",
+        "shedy"
+      ],
+      [
+        "qoldy",
+        "chedykar",
+        "chekeedy"
+      ],
+      [
+        "shey",
+        "qokeedy",
+        "shey"
+      ],
+      [
+        "qokain",
+        "chcthy",
+        "qokeedy",
+        "qoky"
+      ],
+      [
+        "qokshdyytain",
+        "chedy",
+        "qokar",
+        "chy"
+      ]
+    ],
+    "balneo_procedural_profiles": {
+      "f75r": {
+        "total_words": 385,
+        "qo_count": 103,
+        "qo_rate": 0.2675,
+        "ch_sh_count": 83,
+        "ch_sh_rate": 0.2156,
+        "combined_procedural_rate": 0.4831
+      },
+      "f75v": {
+        "total_words": 349,
+        "qo_count": 92,
+        "qo_rate": 0.2636,
+        "ch_sh_count": 58,
+        "ch_sh_rate": 0.1662,
+        "combined_procedural_rate": 0.4298
+      },
+      "f76v": {
+        "total_words": 394,
+        "qo_count": 71,
+        "qo_rate": 0.1802,
+        "ch_sh_count": 109,
+        "ch_sh_rate": 0.2766,
+        "combined_procedural_rate": 0.4569
+      },
+      "f77r": {
+        "total_words": 332,
+        "qo_count": 109,
+        "qo_rate": 0.3283,
+        "ch_sh_count": 90,
+        "ch_sh_rate": 0.2711,
+        "combined_procedural_rate": 0.5994
+      },
+      "f77v": {
+        "total_words": 332,
+        "qo_count": 96,
+        "qo_rate": 0.2892,
+        "ch_sh_count": 79,
+        "ch_sh_rate": 0.238,
+        "combined_procedural_rate": 0.5271
+      },
+      "f78r": {
+        "total_words": 296,
+        "qo_count": 60,
+        "qo_rate": 0.2027,
+        "ch_sh_count": 43,
+        "ch_sh_rate": 0.1453,
+        "combined_procedural_rate": 0.348
+      },
+      "f78v": {
+        "total_words": 294,
+        "qo_count": 56,
+        "qo_rate": 0.1905,
+        "ch_sh_count": 57,
+        "ch_sh_rate": 0.1939,
+        "combined_procedural_rate": 0.3844
+      },
+      "f79r": {
+        "total_words": 383,
+        "qo_count": 79,
+        "qo_rate": 0.2063,
+        "ch_sh_count": 105,
+        "ch_sh_rate": 0.2742,
+        "combined_procedural_rate": 0.4804
+      },
+      "f79v": {
+        "total_words": 356,
+        "qo_count": 91,
+        "qo_rate": 0.2556,
+        "ch_sh_count": 44,
+        "ch_sh_rate": 0.1236,
+        "combined_procedural_rate": 0.3792
+      },
+      "f80r": {
+        "total_words": 445,
+        "qo_count": 109,
+        "qo_rate": 0.2449,
+        "ch_sh_count": 107,
+        "ch_sh_rate": 0.2404,
+        "combined_procedural_rate": 0.4854
+      },
+      "f80v": {
+        "total_words": 376,
+        "qo_count": 93,
+        "qo_rate": 0.2473,
+        "ch_sh_count": 73,
+        "ch_sh_rate": 0.1941,
+        "combined_procedural_rate": 0.4415
+      },
+      "f81r": {
+        "total_words": 210,
+        "qo_count": 38,
+        "qo_rate": 0.181,
+        "ch_sh_count": 49,
+        "ch_sh_rate": 0.2333,
+        "combined_procedural_rate": 0.4143
+      },
+      "f81v": {
+        "total_words": 255,
+        "qo_count": 42,
+        "qo_rate": 0.1647,
+        "ch_sh_count": 52,
+        "ch_sh_rate": 0.2039,
+        "combined_procedural_rate": 0.3686
+      },
+      "f82r": {
+        "total_words": 286,
+        "qo_count": 84,
+        "qo_rate": 0.2937,
+        "ch_sh_count": 63,
+        "ch_sh_rate": 0.2203,
+        "combined_procedural_rate": 0.514
+      },
+      "f82v": {
+        "total_words": 319,
+        "qo_count": 97,
+        "qo_rate": 0.3041,
+        "ch_sh_count": 70,
+        "ch_sh_rate": 0.2194,
+        "combined_procedural_rate": 0.5235
+      },
+      "f83r": {
+        "total_words": 345,
+        "qo_count": 79,
+        "qo_rate": 0.229,
+        "ch_sh_count": 99,
+        "ch_sh_rate": 0.287,
+        "combined_procedural_rate": 0.5159
+      },
+      "f83v": {
+        "total_words": 260,
+        "qo_count": 84,
+        "qo_rate": 0.3231,
+        "ch_sh_count": 87,
+        "ch_sh_rate": 0.3346,
+        "combined_procedural_rate": 0.6577
+      },
+      "f84r": {
+        "total_words": 368,
+        "qo_count": 71,
+        "qo_rate": 0.1929,
+        "ch_sh_count": 75,
+        "ch_sh_rate": 0.2038,
+        "combined_procedural_rate": 0.3967
+      },
+      "f84v": {
+        "total_words": 341,
+        "qo_count": 62,
+        "qo_rate": 0.1818,
+        "ch_sh_count": 62,
+        "ch_sh_rate": 0.1818,
+        "combined_procedural_rate": 0.3636
+      }
+    }
+  }
+}

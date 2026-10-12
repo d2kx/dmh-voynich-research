@@ -55,9 +55,9 @@ When you strip off the prefix and suffix, you are left with the **Root Stem**:
 
 ---
 
-## Part 2: Page-by-Page Visual Walkthroughs (42 Iconic Folios)
+## Part 2: Page-by-Page Visual Walkthroughs (50 Iconic Folios)
 
-Below are **42 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
+Below are **50 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
 
 ---
 
@@ -682,7 +682,116 @@ Why did the scribe write the Voynich word **`oror`** at the end of a European ch
 
 ---
 
+### 43. Folio `f72r2` — The Gemini (`juny`) Dual-Figures Medallion, 29 Nymphs (Nameless 12:00 Nymph Anomaly), 3 Barrel-Standing Nymphs & Concentric Text Rings
+* **Section:** Zodiac Medallions (`$I=Z`, `$Q=K`, Currier A, Scribe 4) | **Page in Yale Scan:** Page 131 (`p131`, Quadrant 3)
+
+![Folio f72r2 Gemini Dual-Figures Medallion and Concentric Text Rings](../pages/f72r2_gemini_medallion_enh.png)
+
+#### What to Look for on `f72r2`
+1. **Two Central Youths Embracing in a Wooden Tub (`juny`):** The central medallion of `f72r2` depicts two young naked figures (Castor and Pollux) standing waist-deep in an oval wooden tub, clasping hands across their chests. In medieval Catalan and Occitan calendars, June is glossed **`juny`**, inscribed clearly in cursive script beside the central youths.
+2. **The Nameless 12:00 Nymph Anomaly & the 29-Label Count:** For decades, transcribers noted that Gemini had only 29 transcribed nymph labels instead of the standard 30 degrees of the zodiac sign. High-resolution inspection reveals the answer: look directly at the **12:00 position in the middle concentric ring**: a star-holding nymph is clearly drawn, but the scribe omitted her caption label! Thus 30 physical nymphs are present on the vellum, confirming the universal 30-degree zodiac blueprint.
+3. **Three Nymphs Standing in Wooden Barrels:** At 05:00, 06:30, and 08:00, three nymphs stand inside vertical wooden staved tubs with hoops—visually linking the celestial zodiac directly to the balneological bathing apparatus of Quires 13–14.
+4. **Three Concentric Text Rings (`C1..C3`, 112 Words):** The medallion is encircled by 3 concentric rings of text. As established in Attack 197, `f72r2` marks the structural pivot from spring `ot-/op-` prefix dominance to summer prefix parity (`21.24%` `ot-/op-` vs `23.89%` `ok-/of-`).
+
+---
+
+### 44. Folio `f72r3` — The Cancer (`jolh`) 10-Legged Crayfish Medallion, 4 Concentric Text Bands & 30 Decan Degree-Nymphs (`12°` Decan System)
+* **Section:** Zodiac Medallions (`$I=Z`, `$Q=K`, Currier A, Scribe 4) | **Page in Yale Scan:** Page 131 (`p131`, Quadrant 4)
+
+![Folio f72r3 Cancer Crayfish Medallion and 30 Decan Degree Nymphs](../pages/f72r3_cancer_medallion_enh.png)
+
+#### What to Look for on `f72r3`
+1. **The 10-Legged Freshwater Crayfish (*Astacus astacus*, `jolh`):** The central roundel contains a meticulously drawn freshwater crayfish or river crab with two large forward pincers and eight walking legs (10 limbs total), tinted with green wash. Beside its pincer lies the Catalan/Occitan month gloss **`jolh`** (July).
+2. **Strict `12 + 11 + 7 = 30°` Decan Ring Architecture:** Surrounding the crayfish, 30 star-bearing nymphs are arranged in three concentric decan zones: 12 nymphs in the outer band, 11 in the middle band, and 7 in the innermost band (`12 + 11 + 7 = 30`). Every single nymph holds an 8-pointed golden star attached by an undulating cord, achieving 100% degree completeness (`30 / 30`).
+3. **The Active Verbal Surge (`41 / 164 = 25.0%` `ch-/sh-`):** In Attack 197, computational analysis revealed that Cancer exhibits the single highest concentration of active operational verbs (`ch-/sh-` stems) in the entire Zodiac section (`25.0%` vs `21.23%` null baseline), led by the cardinal cusp nymph at 12:00 labeled **`ykolairol`**.
+4. **Four Concentric Circular Text Bands (`C1..C4`):** Cancer is enveloped by 4 circular bands of running text enclosing 165 words, detailing the astronomical solar mansion of the summer solstice.
+
+---
+
+### 45. Folios `f67v1` & `f67v2` — The 12-Sector Smiling Sun Wheel (`f67v1`, 17 Text Spokes, 39 Stars) & Four-Corner Cosmological Medallion Diagram (`f67v2`, Dendritic Terminals & Corner Pipes)
+* **Section:** Astronomical (`f67v1`) & Cosmological (`f67v2`, Quire 9, Scribe 4, Currier A) | **Page in Yale Scan:** Page 123 (`p123`)
+
+![Folio f67v1 Smiling Sun Wheel with 17 Radiating Text Spokes and 39 Stars](../pages/f67v1_smiling_sun_wheel_enh.png)
+
+#### What to Look for on `f67v1` (Above) and `f67v2` (Below)
+1. **The Smiling Central Sun Face & 17 Radiating Text Spokes (`f67v1`, above):** Folio `f67v1` features a central smiling human Sun face with wavy solar rays, encircled by 12 equal sectors. Radiating outward are **17 spokes of Voynich text (`@Ro`)**, which alternate reading directions—some reading inside-out, others outside-in. In the outer ring shine **39 painted stars**: exactly 3 painted with dark cobalt-blue ink and 36 painted in golden yellow-ochre. The opening label at 12:00 (`<f67v1.1> damamm`) features an exaggerated flourishing tail on the final letter `m` acting as a visual terminus.
+2. **The Four-Corner Cardinal Diagram & Dendritic Terminals (`f67v2`, below):** On the facing quadrant `f67v2`, a central square-in-circle core is surrounded by 4 circular corner medallions containing human wind/face figures blowing into pipes. Radiating from the center are **8 branching dendritic ("broccoli") lines** ending in flared terminals. 
+3. **The Quire 9 Velar `-g` Epicenter ($z = +6.10, p < 10^{-9}$):** The diptych `f67v1/v2` concentrates 5 rare velar `-g` stops (`daig`, `okydseog`, `olcheeg`, `ypcheg`, `[g:m]`), producing a massive **`9.31×` enrichment over the global manuscript corpus rate** (`3.70%` vs `0.40%`). The four corner prose blocks maintain a rigid length control ($8.5 \pm 1.8$ words) alternating between `t-` dental openers (`tol`, `taol`) and `ok-` nominal openers (`okeey`, `okeal`).
+
+![Folio f67v2 Four-Corner Cosmological Diagram with Corner Wind Blowers and Dendritic Spoke Network](../pages/f67v2_four_corner_cosmology_enh.png)
+
+---
+
+### 46. Folio `f75v` — The Balneological Gastric/Organ Conduit System, Vertical `s-l-l-o-r-s` Gutter Key, 20 Nymph Labels (`@Ln`) & Explicit Hydro-Tube Nomenclature (`@Lt`)
+* **Section:** Balneological / Medical Bathing (`$I=B`, `$Q=M`, Currier B, Scribe 2) | **Page in Yale Scan:** Page 137 (`p137`)
+
+![Folio f75v Balneological Gastric Reservoir and Fluid Conduit System](../pages/f75v_gastric_stream_conduits_enh.png)
+
+#### What to Look for on `f75v`
+1. **The Central Descending Organ Conduit & Hydro-Mechanical Tubes (`@Lt`):** Down the center of `f75v` plunges an organic blue-green fluid channel resembling an oesophagus or gastrointestinal canal, emptying into an asymmetrical lobed reservoir. The drawing is annotated with **7 explicit mechanical pipe/tube callouts (`@Lt`)**: `otal opal`, `okeey lol`, `olol`, `ytedy`, `otedy`, `oteey`, and `qotedy`. In Attack 190 and 199, we showed that `@Lt` apparatus labels strictly favor `ot-/op-` nominal prefixes (`57.7%`).
+2. **Twenty Bather Nymphs with Two-Word Identification Labels (`@Ln`):** Flanking the central conduit across upper and lower terraces, **20 naked female bathers** interact with the fluid streams. Each nymph is captioned with a distinct two-word Voynich formula (`okshy saral`, `dokal darol`, `daldy dal shd`, `ytal sar`), exhibiting the characteristic bather prefix preference for `ok-/of-` (`65.4%`).
+3. **The Vertical Gutter Acrostic `s-l-l-o-r-s`:** Look closely at the upper-left margin along lines 2 through 11 (shown below): the scribe vertically aligned five line-final letters in the gutter to spell **`s-l-l-o-r-s`**, functioning as an acrostic organizational marker across the opening pages of the Quire 13 balneological gathering.
+
+![Folio f75v Upper-Left Gutter Acrostic Alignment s-l-l-o-r-s](../pages/f75v_gutter_acrostic_sllors_enh.png)
+
+---
+
+### 47. Folio `f73v` — The Sagittarius (`novembre`) Centaur-Archer Medallion, 30 Degree Nymphs, and the Physical Quire 11 Boundary / Missing Folio 74 Forensics
+* **Section:** Zodiac Medallions (`$I=Z`, `$Q=K`, Currier A, Scribe 4) | **Page in Yale Scan:** Page 135 (`p135`)
+
+![Folio f73v Sagittarius Centaur-Archer Medallion and Top Overflow Degree Nymphs](../pages/f73v_sagittarius_medallion_enh.png)
+
+#### What to Look for on `f73v`
+1. **The Centaur-Archer Drawing Bow Toward the Celestial Center (`novembre`):** The central medallion features a galloping centaur with equine body and human torso aiming a drawn composite bow toward a golden star in the center. The Catalan/Occitan month gloss **`novembre`** is written in the inner ring.
+2. **Replication of the `10 + 16 + 4 = 30°` Top Overflow Layout (Attack 201):** Sagittarius perfectly mirrors the layout discovered on Scorpio (`f73r`):
+   - **Inner concentric ring:** exactly **10 nymphs** (`lines 23..32`).
+   - **Middle concentric ring:** exactly **16 nymphs** (`lines 6..21`).
+   - **Top external overflow arc:** exactly **4 nymphs** standing in a row across the top outside the outer circular frame (`lines 1..4`: `okol`, `oteody`, `oteedy`, `eeeody`).
+   - Together, they form **`10 + 16 + 4 = 30` degree nymphs**, maintaining 100% geometric calibration with Scorpio!
+3. **The Quire 11 Codicological Boundary & The Missing Folio 74:** Folio `f73v` is the physical verso of the final leaf of Quire 11. Immediately following `f73v`, Folio 74—which contained Capricorn and Aquarius—was excised in antiquity before the manuscript was bound. The seasonal prefix drift analyzed in Attack 201 shows that Sagittarius marks the autumn return to `ot-/op-` preference (`21.87%` vs `14.74%`, ratio = `1.48`).
+
+---
+
+### 48. Folio `f99v` — The Three-Register Pharmaceutical Shelf Sheet, 25 Inscribed Albarello Jars & Root Cuttings Facing `f100r` Capsicum
+* **Section:** Pharmaceutical Storage (`$I=P`, Quire 17, Scribe 1/4, Currier A) | **Page in Yale Scan:** Page 177 (`p177`)
+
+![Folio f99v Three-Register Pharmaceutical Shelf Sheet with 15 Albarelli and 10 Root Cuttings](../pages/f99v_three_row_jars_and_roots_enh.png)
+
+#### What to Look for on `f99v`
+1. **Three Compounding Shelves of Decorated Albarelli & Plant Cuttings:** Folio `f99v` displays three horizontal apothecary storage shelves holding **15 painted maiolica albarello jars** alternating with **10 dissected botanical root specimens**, annotated with **25 callout labels**. The jars feature decorative fluted shoulders, chevron bands, and green-and-ochre pigment washes.
+2. **Container Labels (`@Lc`) vs. Flora Labels (`@Lf`) Morphological Inversion ($t = +4.356, p < 10^{-5}$):** In Attack 202, analysis of the pharmaceutical labels revealed that container jar inscriptions (`@Lc`, e.g., `doldam`, `olsy`) are long compound formulas (mean **`7.11`** characters, **`64.86%`** $\ge 7$ characters) enriched in nominal container prefixes (`okaramy`, `okoldody`), whereas root cutting labels (`@Lf`) are short simples (mean **`5.77`** characters) enriched in partitive/adjectival roots.
+3. **Facing Spread with `f100r` Red Pepper / Capsicum:** `f99v` faces Folio `f100r` (the famous red-pigmented jar and capsicum page), establishing that the pharmaceutical folios were curated as facing reference sheets linking raw botanical simples directly to processed storage vessels.
+
+---
+
+### 49. Folio `f88v` — The Three-Tier Apothecary Jar Compounding Sheet, Root-Cutting Curation & 13 Inscribed Vessel Formulas (`otar arody`)
+* **Section:** Pharmaceutical Formulary (`$I=P`, Quire 15, Scribe 1/4, Currier A) | **Page in Yale Scan:** Page 163 (`p163`)
+
+![Folio f88v Three-Tier Compounding Formulary Sheet with Inscribed Albarelli and Root Cuttings](../pages/f88v_three_register_pharma_enh.png)
+
+#### What to Look for on `f88v`
+1. **Three Compounding Registers Interspersed with Running Text:** Unlike purely cataloged jar sheets, `f88v` features three horizontal rows of painted albarelli and roots interspersed with **two complete running text paragraphs (`@P0`)**, functioning as a compounding formulary that explains how ingredients in the jars are prepared.
+2. **The `otar arody` Stoichiometric Formulation Bridge (Attack 202):** In Row 1, a branching dark-brown taproot is captioned with the label **`otar arody`** (`<f88v.4,@Lf>`). This exact root formula serves as the master bridge into the clinical recipes of Quire 20, where it recurs verbatim or as an inflected variant in the opening formulas of recipes across the entire formulary: `<f105r.6> par arody`, `<f114v.37> tar arody`, `<f116r.19> qotar ar arody`, `<f112v.39> teodarody`, and `<f115v.13> pchdarody`!
+3. **High Concordance with Quire 20 Recipes:** Over **`64.29%`** of the labels on `f88v` share their canonical root stem with Quire 20 recipes, demonstrating the direct pharmaceutical pipeline connecting raw roots to clinical preparations.
+
+---
+
+### 50. Folios `f105r` & `f116r` — Quire 20 Starred Recipe Architecture: Dotted vs. Plain Star Dyads (`f105r`), Penultimate Formulary Chaining (`f116r`) & Pre-Rosetta Synthesis
+* **Section:** Starred Master Recipes (`$I=S`, Quire 20, Scribe 3, Currier B) | **Pages in Yale Scan:** Pages 188 (`f105r`) & 206 (`f116r`)
+
+![Folio f105r Starred Recipe Margin with Dotted and Plain Star Dyads and par arody Header](../pages/f105r_dotted_star_dyads_enh.png)
+
+#### What to Look for on `f105r` (Above) and `f116r` (Below)
+1. **Binary Star Parity Alternation & Dotted vs. Plain Star Dyads (`f105r`, above):** Look down the left margin of `f105r`: 10 painted stars accompany 8 clinical recipes. Notice the deliberate paleographic contrast between **Dotted Stars (`D`, having a solid painted central pupil)** and **Plain Stars (`P`, having an open circular center)**. In Attack 203, we proved that Quire 20 margin stars alternate strictly between Dotted and Plain centers across **`85.28%` of all transitions ($z = +12.20, p < 10^{-33}$)**, hitting **100.0% perfect alternation across 17 out of 23 folios**! Line 6 displays the famous recipe opener **`par arody`**, completing the link to the `f88v` root monograph.
+2. **Penultimate Formulary Chaining & Variance Collapse on `f116r` (Below):** Folio `f116r` contains the penultimate 7 starred recipes of the manuscript (Recipes 279..285), featuring the rhyming incipit dyad **`cthan cphan`** on lines 47–48. The recipes strictly exhibit the **`32.12`-word canonical recipe invariant** ($\sigma = 14.02$).
+3. **The Threshold of the Final Page `f116v`:** Folio `f116r` forms the final starred recipe page before the famous unruled leaf `f116v`, where the multilingual physician wrote the German/Latin prescription (`michiton oladabas... valden...`) and cipher string, uniting the entire 226-folio codex into an integrated scientific compendium.
+
+![Folio f116r Penultimate Starred Recipes with cthan cphan Dyad and Canonical Recipe Invariant](../pages/f116r_penultimate_recipes_enh.png)
+
+---
+
 ## Where to Go Next
-* **Want to see all 65 real-world plants, constellations, wheels, bathing diagrams, and visual twins?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)** (`SPEC-01` through `SPEC-65`).
-* **Want to click through 58 pages, decode words interactively, and explore all 14 tabs in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now at **v12.0 — Wave 46 Zodiac `@Cc-@Lz` Split, `f80r/f82r` Balneo Galleries & `f108v` Megaparagraph Step-Star Collapse Edition**!).
-* **Want the deep grammatical tables, the Wave 46 Zodiac `@Cc-@Lz` / `-g` Suffix / Step-Star Variance Collapse proofs, the Wave 45 Zodiac `30°` / Balneo Absorption / Two-Tier Star proofs, the Milestone 200 8-State Syntactic State Machine, and full 213-discovery research log?** See **[`ZODIAC_RING_COUPLING_BALNEO_GALLERIES_AND_F108V_MEGAPARAGRAPH.md`](ZODIAC_RING_COUPLING_BALNEO_GALLERIES_AND_F108V_MEGAPARAGRAPH.md)**, **[`ZODIAC_30DEGREE_INVARIANT_BALNEO_ABSORPTION_AND_TWO_TIER_STARS.md`](ZODIAC_30DEGREE_INVARIANT_BALNEO_ABSORPTION_AND_TWO_TIER_STARS.md)**, **[`ASTRO_TRIFECTA_BALNEO_MINIMAL_PAIRS_AND_QUIRE20_CHAINING.md`](ASTRO_TRIFECTA_BALNEO_MINIMAL_PAIRS_AND_QUIRE20_CHAINING.md)**, **[`ROSETTES_ENVELOPE_F69R_WHEEL_AND_200_DISCOVERIES_STATE_MACHINE.md`](ROSETTES_ENVELOPE_F69R_WHEEL_AND_200_DISCOVERIES_STATE_MACHINE.md)**, and **[`NOTES.md`](../NOTES.md)**.
+* **Want to see all 75 real-world plants, constellations, wheels, bathing diagrams, and visual twins?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)** (`SPEC-01` through `SPEC-75`).
+* **Want to click through 66 pages, decode words interactively, and explore all 16 tabs in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now at **v14.0 — Wave 47 Milestone 200 & Wave 48 Grand Release**!).
+* **Want the deep grammatical tables, the Wave 47 Milestone 200th Attack proofs, the Wave 48 Sagittarius / Albarelli / Star Parity proofs, and full 221-discovery research log?** See **[`MILESTONE_200_ATTACKS_DECANS_QUADRANTS_AND_BALNEO_HUB.md`](MILESTONE_200_ATTACKS_DECANS_QUADRANTS_AND_BALNEO_HUB.md)**, **[`WAVE48_MASTER_COMPENDIUM.md`](WAVE48_MASTER_COMPENDIUM.md)**, and **[`NOTES.md`](../NOTES.md)**.
+

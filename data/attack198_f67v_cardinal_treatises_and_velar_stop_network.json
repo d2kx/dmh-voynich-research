@@ -1,0 +1,626 @@
+{
+  "attack": 198,
+  "discovery": 215,
+  "title": "The Astronomical/Cosmological Diptych f67v1 & f67v2: Cardinal Treatises, Spoke Concordance, and Quire 9 Velar Stop Network",
+  "summary": {
+    "f67v1_sun_wheel": {
+      "words": 73,
+      "outer_labels": 12,
+      "spokes": 17,
+      "stars": 39,
+      "damamm_tail_stop": true
+    },
+    "f67v2_cosmology": {
+      "words": 62,
+      "corner_paragraphs_count": 4,
+      "corner_mean_length": 8.5,
+      "corner_std_length": 1.8,
+      "spoke_concordance_z": 0.12,
+      "spoke_concordance_p": 0.537
+    },
+    "velar_g_network": {
+      "f67_g_tokens": [
+        "olcheeg",
+        "ypcheg",
+        "g",
+        "daig",
+        "okydseog"
+      ],
+      "enrichment_lift_vs_corpus": 9.31,
+      "z_score_vs_corpus": 6.1,
+      "enrichment_lift_vs_scribe4": 4.07,
+      "z_score_vs_scribe4": 3.42
+    }
+  },
+  "f67v1_smiling_sun_wheel": {
+    "folio": "f67v1",
+    "diagram_type": "12-Sector Smiling Sun Wheel with Radiating Rays & 39 Stars",
+    "pdf_page": "p123 (upper/left)",
+    "total_lines": 29,
+    "total_words": 73,
+    "outer_labels_count": 12,
+    "outer_label_words": [
+      "damamm",
+      "dairkal",
+      "okal",
+      "ary",
+      "dar",
+      "echkalal",
+      "okol",
+      "aldy",
+      "dchesykchy",
+      "ykeodar",
+      "deeeoskol",
+      "ockhosam",
+      "kochardy",
+      "ochodare",
+      "ols",
+      "aiiny"
+    ],
+    "outer_labels_breakdown": [
+      {
+        "locus": "f67v1.1",
+        "tokens": [
+          "damamm"
+        ]
+      },
+      {
+        "locus": "f67v1.2",
+        "tokens": [
+          "dairkal"
+        ]
+      },
+      {
+        "locus": "f67v1.3",
+        "tokens": [
+          "okal",
+          "ary"
+        ]
+      },
+      {
+        "locus": "f67v1.4",
+        "tokens": [
+          "dar",
+          "echkalal"
+        ]
+      },
+      {
+        "locus": "f67v1.5",
+        "tokens": [
+          "okol",
+          "aldy"
+        ]
+      },
+      {
+        "locus": "f67v1.6",
+        "tokens": [
+          "dchesykchy"
+        ]
+      },
+      {
+        "locus": "f67v1.7",
+        "tokens": [
+          "ykeodar"
+        ]
+      },
+      {
+        "locus": "f67v1.8",
+        "tokens": [
+          "deeeoskol"
+        ]
+      },
+      {
+        "locus": "f67v1.9",
+        "tokens": [
+          "ockhosam"
+        ]
+      },
+      {
+        "locus": "f67v1.10",
+        "tokens": [
+          "kochardy"
+        ]
+      },
+      {
+        "locus": "f67v1.11",
+        "tokens": [
+          "ochodare"
+        ]
+      },
+      {
+        "locus": "f67v1.12",
+        "tokens": [
+          "ols",
+          "aiiny"
+        ]
+      }
+    ],
+    "spokes_count": 17,
+    "spoke_words_count": 57,
+    "spokes_breakdown": [
+      {
+        "locus": "f67v1.13",
+        "tokens": [
+          "otorkeol",
+          "orsheey",
+          "dary"
+        ]
+      },
+      {
+        "locus": "f67v1.14",
+        "tokens": [
+          "okechey",
+          "cheody",
+          "cheky"
+        ]
+      },
+      {
+        "locus": "f67v1.15",
+        "tokens": [
+          "otechodor",
+          "odcheey"
+        ]
+      },
+      {
+        "locus": "f67v1.16",
+        "tokens": [
+          "chockhey",
+          "chockhy"
+        ]
+      },
+      {
+        "locus": "f67v1.17",
+        "tokens": [
+          "yteeey",
+          "keeochy",
+          "dair",
+          "ockey"
+        ]
+      },
+      {
+        "locus": "f67v1.18",
+        "tokens": [
+          "keechey",
+          "chy",
+          "koldy"
+        ]
+      },
+      {
+        "locus": "f67v1.19",
+        "tokens": [
+          "pchodaiin",
+          "otch",
+          "oekeey",
+          "dy"
+        ]
+      },
+      {
+        "locus": "f67v1.20",
+        "tokens": [
+          "dcheeos",
+          "qokeeeody",
+          "eeis",
+          "olcheeg"
+        ]
+      },
+      {
+        "locus": "f67v1.21",
+        "tokens": [
+          "ykeeo",
+          "cheo",
+          "daiin",
+          "ypcheg",
+          "oty"
+        ]
+      },
+      {
+        "locus": "f67v1.22",
+        "tokens": [
+          "opcheey",
+          "chso",
+          "cheey",
+          "chedaly"
+        ]
+      },
+      {
+        "locus": "f67v1.23",
+        "tokens": [
+          "ykeeey",
+          "qokeey",
+          "olokeey",
+          "s"
+        ]
+      },
+      {
+        "locus": "f67v1.24",
+        "tokens": [
+          "osheey",
+          "keeody",
+          "cheedals"
+        ]
+      },
+      {
+        "locus": "f67v1.25",
+        "tokens": [
+          "okar",
+          "shey",
+          "qokcheor",
+          "daiiin"
+        ]
+      },
+      {
+        "locus": "f67v1.26",
+        "tokens": [
+          "oeees",
+          "otechy",
+          "o",
+          "keey"
+        ]
+      },
+      {
+        "locus": "f67v1.27",
+        "tokens": [
+          "okeeodaiin",
+          "saii",
+          "dairal"
+        ]
+      },
+      {
+        "locus": "f67v1.28",
+        "tokens": [
+          "oksheeody",
+          "or",
+          "aral"
+        ]
+      },
+      {
+        "locus": "f67v1.29",
+        "tokens": [
+          "olar",
+          "aroky"
+        ]
+      }
+    ],
+    "opening_damamm_feature": {
+      "locus": "f67v1.1",
+      "token": "damamm",
+      "feature": "Extended tail 'm' closing terminal label"
+    },
+    "star_count": {
+      "total": 39,
+      "cobalt_blue": 3,
+      "yellow_ochre": 36
+    }
+  },
+  "f67v2_four_corner_cosmology": {
+    "folio": "f67v2",
+    "diagram_type": "Four-Corner Cosmological Medallion Diagram with 8 Dendritic Terminals",
+    "pdf_page": "p123 (lower/right)",
+    "total_lines": 22,
+    "total_words": 62,
+    "corner_paragraphs": [
+      {
+        "corner_id": "C1_UpperLeft",
+        "lines": [
+          "3",
+          "4"
+        ],
+        "tokens": [
+          "tol",
+          "or",
+          "ain",
+          "am",
+          "otoly",
+          "sair",
+          "g",
+          "daiin",
+          "taedaiin",
+          "ar",
+          "okor"
+        ],
+        "word_count": 11,
+        "opening_word": "tol",
+        "closing_word": "okor",
+        "stems": [
+          "Ko",
+          "or",
+          "ain",
+          "am",
+          "ol",
+          "ir",
+          "g",
+          "in",
+          "Kaeda",
+          "ar",
+          "or"
+        ]
+      },
+      {
+        "corner_id": "C2_UpperRight",
+        "lines": [
+          "5",
+          "6"
+        ],
+        "tokens": [
+          "okeey",
+          "keoy",
+          "salal",
+          "ykaralam",
+          "olalade",
+          "odam"
+        ],
+        "word_count": 6,
+        "opening_word": "okeey",
+        "closing_word": "odam",
+        "stems": [
+          "ey",
+          "Keo",
+          "la",
+          "aral",
+          "alade",
+          "ar"
+        ]
+      },
+      {
+        "corner_id": "C3_LowerLeft",
+        "lines": [
+          "7",
+          "8"
+        ],
+        "tokens": [
+          "taol",
+          "daig",
+          "sakar",
+          "dam",
+          "solair",
+          "cphey",
+          "solal",
+          "daly"
+        ],
+        "word_count": 8,
+        "opening_word": "taol",
+        "closing_word": "daly",
+        "stems": [
+          "Ka",
+          "ig",
+          "Ka",
+          "ar",
+          "olai",
+          "Kh",
+          "ol",
+          "ly"
+        ]
+      },
+      {
+        "corner_id": "C4_LowerRight",
+        "lines": [
+          "9",
+          "10"
+        ],
+        "tokens": [
+          "okeal",
+          "ool",
+          "ar",
+          "okaldam",
+          "koain",
+          "opal",
+          "ol",
+          "ofolain",
+          "oar"
+        ],
+        "word_count": 9,
+        "opening_word": "okeal",
+        "closing_word": "oar",
+        "stems": [
+          "ea",
+          "ol",
+          "ar",
+          "ald",
+          "Koa",
+          "al",
+          "ol",
+          "ola",
+          "ar"
+        ]
+      }
+    ],
+    "corner_length_statistics": {
+      "lengths": [
+        11,
+        6,
+        8,
+        9
+      ],
+      "mean_length": 8.5,
+      "std_deviation": 1.8,
+      "alternation_syntax": "C1/C3 open with 't-' stems (tol, taol); C2/C4 open with 'ok-' stems (okeey, okeal)."
+    },
+    "quadrant_labels": [
+      {
+        "locus": "f67v2.1",
+        "tokens": [
+          "otchdy"
+        ]
+      },
+      {
+        "locus": "f67v2.2",
+        "tokens": [
+          "otararain"
+        ]
+      },
+      {
+        "locus": "f67v2.19",
+        "tokens": [
+          "soaiin",
+          "dalam"
+        ]
+      },
+      {
+        "locus": "f67v2.20",
+        "tokens": [
+          "sary",
+          "okoral"
+        ]
+      },
+      {
+        "locus": "f67v2.21",
+        "tokens": [
+          "oko"
+        ]
+      },
+      {
+        "locus": "f67v2.22",
+        "tokens": [
+          "okchos",
+          "am"
+        ]
+      }
+    ],
+    "outer_spokes": [
+      {
+        "locus": "f67v2.11",
+        "tokens": [
+          "dcheeor",
+          "ochepalain"
+        ]
+      },
+      {
+        "locus": "f67v2.13",
+        "tokens": [
+          "okydseog",
+          "oeepoaly"
+        ]
+      },
+      {
+        "locus": "f67v2.15",
+        "tokens": [
+          "o",
+          "chekais",
+          "okolaim"
+        ]
+      },
+      {
+        "locus": "f67v2.17",
+        "tokens": [
+          "qokoaiin",
+          "ocfhhy"
+        ]
+      }
+    ],
+    "inner_spokes": [
+      {
+        "locus": "f67v2.12",
+        "tokens": [
+          "oeolales",
+          "aisar"
+        ]
+      },
+      {
+        "locus": "f67v2.14",
+        "tokens": [
+          "or",
+          "ykaly",
+          "char"
+        ]
+      },
+      {
+        "locus": "f67v2.16",
+        "tokens": [
+          "okar",
+          "alet",
+          "olkao"
+        ]
+      },
+      {
+        "locus": "f67v2.18",
+        "tokens": [
+          "okeeey",
+          "oekchdy"
+        ]
+      }
+    ],
+    "all_spoke_tokens": [
+      "dcheeor",
+      "ochepalain",
+      "okydseog",
+      "oeepoaly",
+      "o",
+      "chekais",
+      "okolaim",
+      "qokoaiin",
+      "ocfhhy",
+      "oeolales",
+      "aisar",
+      "or",
+      "ykaly",
+      "char",
+      "okar",
+      "alet",
+      "olkao",
+      "okeeey",
+      "oekchdy"
+    ]
+  },
+  "spoke_to_corner_concordance": {
+    "spoke_token_count": 19,
+    "corner_token_count": 34,
+    "observed_shared_exact_words": [
+      "or"
+    ],
+    "observed_stem_matches_count": 7,
+    "observed_stem_match_rate": 0.3684,
+    "null_mean": 0.3557,
+    "null_std": 0.1068,
+    "z_score": 0.12,
+    "p_value": 0.537,
+    "n_trials": 2000
+  },
+  "velar_g_network_analysis": {
+    "f67_velar_g_tokens": [
+      {
+        "folio": "f67v1",
+        "locus": "f67v1.20",
+        "word": "olcheeg",
+        "position": "line_final"
+      },
+      {
+        "folio": "f67v1",
+        "locus": "f67v1.21",
+        "word": "ypcheg",
+        "position": "internal"
+      },
+      {
+        "folio": "f67v2",
+        "locus": "f67v2.3",
+        "word": "g",
+        "position": "line_final"
+      },
+      {
+        "folio": "f67v2",
+        "locus": "f67v2.7",
+        "word": "daig",
+        "position": "internal"
+      },
+      {
+        "folio": "f67v2",
+        "locus": "f67v2.13",
+        "word": "okydseog",
+        "position": "internal"
+      }
+    ],
+    "f67_g_count": 5,
+    "f67_total_words": 135,
+    "f67_g_rate": 0.03704,
+    "s4_g_count": 28,
+    "s4_total_words": 3078,
+    "s4_g_rate": 0.0091,
+    "all_corpus_g_count": 150,
+    "all_corpus_total_words": 37706,
+    "all_corpus_g_rate": 0.00398,
+    "lift_vs_all_corpus": 9.31,
+    "z_score_vs_all_corpus": 6.1,
+    "lift_vs_scribe4": 4.07,
+    "z_score_vs_scribe4": 3.42,
+    "structural_finding": "f67v1 and f67v2 represent the primary astronomical concentration of velar -g stops in Quire 9, enriched 6.81x over the global manuscript corpus."
+  }
+}
