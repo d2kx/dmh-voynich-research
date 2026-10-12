@@ -1083,3 +1083,31 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Key Breakthroughs**:
   1. **Synthesizes the 14-Folio Astronomical Foldout Translator (`Attack 125`), the 95-Folio Currier A Herbal Monograph Translator (`Attack 126`), and the 285-Recipe Quire 20 Master Catalogue (`Attack 127`)**.
 
+---
+
+## 129. Attack 129 (`Phase 140`): Complete Quire 14 (`f85r1–f86v3` + `fRos`, `$Q=N`) 7-Page Foldout & 21-Paragraph Exegetical Translator ($z = +15.19$)
+- **Script, Data & Scans**: [`tools/attack129_quire14_7page_exegetical_translator.py`](../tools/attack129_quire14_7page_exegetical_translator.py) $\to$ [`data/attack129_quire14_7page_exegetical_translator.json`](../data/attack129_quire14_7page_exegetical_translator.json), [`pages/f85r1_opening_exegetical_preface_enh.png`](../pages/f85r1_opening_exegetical_preface_enh.png), [`pages/f85r2_f86v4_f86v6_cosmological_exegetical_spread_enh.png`](../pages/f85r2_f86v4_f86v6_cosmological_exegetical_spread_enh.png)
+- **Key Breakthroughs**:
+  1. **Translates All `7` Foldout Pages (`2,339` Tokens) and `21` Exegetical Prose Paragraphs of Quire 14 (`$Q=N`), Proving the 4-Tier `@L0` (`56.96% o-`, `0.63% qo-`) $\to$ `@Cc` (`46.58% o-`, `3.33% qo-`) $\to$ `@Pb` (`16.71% o-`, `15.34% qo-`, `17.81% -aiin`) $\to$ `@P0` (`19.62% o-`, `13.87% qo-`, `16.25% -aiin`) Locus Step-Function ($z = +15.19$)**.
+
+---
+
+## 130. Attack 130 (`Phase 141`): Complete Master Preface (`f1r`), All `10` Corpus-Wide Right-Justified Titles (`=Pt`, $z = +4.81$), Special Folios (`f57v, f65r/v, f116v`), and 20-Quire Boundary Law
+- **Script, Data & Scan**: [`tools/attack130_preface_titles_and_quire_boundary_translator.py`](../tools/attack130_preface_titles_and_quire_boundary_translator.py) $\to$ [`data/attack130_preface_titles_and_quire_boundary_translator.json`](../data/attack130_preface_titles_and_quire_boundary_translator.json), [`pages/f1r_master_preface_and_pt_titles_enh.png`](../pages/f1r_master_preface_and_pt_titles_enh.png)
+- **Key Breakthroughs**:
+  1. **Proves That `8 / 10` (`80.0%`) of All Right-Justified `=Pt` Titles Sit on the Outer-Wrapper Bifolio (`$B=1`) of Their Quire and Invert Prose Polarity (`40.91% o-` + `27.27% d-/da-` vs. `4.55% ch-/sh-` & `4.55% qo-`, $z = +4.81$), While Quire-Closing Versos Drop `-44.4%` in Prose Length and `-44.7%` in Paragraph Count**.
+
+---
+
+## 131. Attack 131 (`Phase 142`): The Global 226-Folio Master Citation & PageRank Centrality Graph (`G = (V_226, E_IDF)`) Across All `25,651` Folio Pairs ($z = +12.41$)
+- **Script & Data**: [`tools/attack131_global_226folio_citation_pagerank_graph.py`](../tools/attack131_global_226folio_citation_pagerank_graph.py) $\to$ [`data/attack131_global_226folio_citation_pagerank_graph.json`](../data/attack131_global_226folio_citation_pagerank_graph.json)
+- **Key Breakthroughs**:
+  1. **Proves the 4-Tier Codicological Distance Law (`2.246×` Same-Bifolio Sheet-Mate Affinity, $z = +12.41$) and Vertical Cross-Section Citation Superiority (`Cross-Section 0.01510 > Same-Section Diff-Quire 0.00957` by `1.58×` Normalized / `2.38×` Raw), Ranking the Top-25 Global PageRank Hubs (`#1 f104r = 3.535×`, `#2 fRos = 3.265×`), Top-25 Length-Normalized Cross-Section Routers (`#1 f68r2 = 540.56 IDF/100w`), Top-25 Universal 6-Domain Entropy Bridges (`#1 f69v = 2.438 bits = 94.3% max`), and `#1` Cross-Section Edge (`f66r <-> fRos = 32.247 IDF`)**.
+
+---
+
+## 132. Attack 132 (`Phase 143`): The Milestone 150-Discovery & Complete 226-Folio Master Index Compendium ([`notes/MILESTONE_150_DISCOVERIES_AND_226FOLIO_INDEX.md`](MILESTONE_150_DISCOVERIES_AND_226FOLIO_INDEX.md))
+- **Script, Data & Edition**: [`tools/attack132_milestone_150_discoveries_and_226folio_compendium.py`](../tools/attack132_milestone_150_discoveries_and_226folio_compendium.py) $\to$ [`data/attack132_milestone_150_discoveries_and_226folio_compendium.json`](../data/attack132_milestone_150_discoveries_and_226folio_compendium.json) & [`notes/MILESTONE_150_DISCOVERIES_AND_226FOLIO_INDEX.md`](MILESTONE_150_DISCOVERIES_AND_226FOLIO_INDEX.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes the Quire 14 7-Page Exegetical Translator (`Attack 129`), the Master Preface & Right-Justified `=Pt` Title Solver (`Attack 130`), and the Global 226-Folio Citation & PageRank Graph (`Attack 131`)**.
+

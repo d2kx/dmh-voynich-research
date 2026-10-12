@@ -846,6 +846,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 138. Complete Quire 14 (`f85r1–f86v3` + `fRos`, `$Q=N`) 7-Page Foldout & 21-Paragraph Exegetical Translator — The 4-Tier `@L0 -> @Cc -> @Pb -> @P0` Locus Step-Function ($z = +15.19$, `Attack 129`)
+- **4-Tier Locus Step-Function Inside Quire 14 (`pages/f85r1_opening_exegetical_preface_enh.png`, `pages/f85r2_f86v4_f86v6_cosmological_exegetical_spread_enh.png`, $z = +15.19$)**: Translates all `7` foldout pages (`2,339` tokens) and `21` Exegetical Prose paragraphs of Quire 14 (`$Q=N`, Scribe 2 `$H=2`), proving a sharp 4-tier morphological step-function from **`@L0` Sphere/Element Labels (`56.96% o-`, `0.63% qo-`, `4.43% -aiin`)** $\to$ **`@Cc` Circular Rings (`46.58% o-`, `3.33% qo-`, `13.11% -aiin`)** $\to$ **`@Pb` Bounded Seasonal/Sphere Wedges (`16.71% o-`, `15.34% qo-`, `19.18% ch-/sh-`, `13.97% -edy`, `17.81% -aiin`)** $\to$ **`@P0` Exegetical Prose (`19.62% o-`, `13.87% qo-`, `17.55% ch-/sh-`, `11.95% l-/ol-`, `16.25% -aiin`)**, achieving an `(o_nom - qo)` locus spread of `+0.4155` vs. `-0.0002 ± 0.0274` null ($z = +15.19$).
+
+---
+
+### 139. Complete Master Preface (`f1r`), All `10` Corpus-Wide Right-Justified Titles (`=Pt`, `80.0%` on `$B=1` Outer-Wrapper Bifolios, Nominal/Deictic Polarity Law $z = +4.81$), Special Folios (`f57v, f65r/v, f116v`), and the 20-Quire Boundary Law (`Attack 130`)
+- **`80.0%` (`8 / 10`) Outer-Wrapper (`$B=1`) Concentration & Nominal/Deictic Polarity Law ($z = +4.81$) of Right-Justified `=Pt` Titles (`pages/f1r_master_preface_and_pt_titles_enh.png`)**: Proves that `8 / 10` (`80.0%`) of all right-justified `=Pt` title/rubric lines in the Voynich Manuscript sit on the Outer-Wrapper Bifolio (`$B=1`) of their Quire (`f1r + f8r = Bifolio A1`, `f25r = Bifolio D1`) and invert prose morphology (`40.91% o-` nominal + `27.27% d-/da-` deictic vs. `4.55% ch-/sh-`, `4.55% qo-`, `0.00% l-/ol-`, polarity swing `+0.8031`, $z = +4.81$), while Quire-Closing Versos (`$P=max`) drop `-44.4%` in prose length (`75.06` vs. `134.94` words on Opening Rectos) and `-44.7%` in paragraph count (`1.78` vs. `3.22`).
+
+---
+
+### 140. The Global 226-Folio Master Citation & PageRank Centrality Graph (`G = (V_226, E_IDF)`) Across All `25,651` Folio Pairs — 4-Tier Codicological Distance Law ($z = +12.41$), Vertical Cross-Section Superiority (`1.58×`), and Top-25 Master Hub Folios (`Attack 131`)
+- **Global 226-Folio Citation Graph (`25,651` Pairs, $z = +12.41$) & Vertical Cross-Section Referentiality (`1.58×` Normalized / `2.38×` Raw)**: Proves that Same-Bifolio Sheet-Mates achieve a `2.246×` normalized rare-stem IDF lift ($z = +12.41$), while **Cross-Section Citation (`0.01510` norm IDF, `1.1335` raw IDF, `25.21%` edges) exceeds Same-Section Different-Quire Citation (`0.00957` norm IDF, `0.4763` raw IDF, `11.98%` edges) by `1.58×` (`2.38×` raw)**; identifies the #1 Global PageRank Hubs (`f104r = 3.535×`, `fRos = 3.265×`), the #1 Length-Normalized Cross-Section Routers (`f68r2 = 540.56 IDF/100w`, swept `10/10` by Scribe 4's Celestial Wheels), the #1 Universal 6-Domain Entropy Bridge (`f69v = 2.438 / 2.585 bits = 94.3% max`), and the #1 Cross-Section Edge (`f66r <-> fRos`, `IDF = 32.247`).
+
+---
+
+### 141. The Milestone 150-Discovery & Complete 226-Folio Master Index Compendium ([`notes/MILESTONE_150_DISCOVERIES_AND_226FOLIO_INDEX.md`](notes/MILESTONE_150_DISCOVERIES_AND_226FOLIO_INDEX.md), `Attack 132`)
+- **Milestone 150-Discovery & 226-Folio Master Index Compendium ([`notes/MILESTONE_150_DISCOVERIES_AND_226FOLIO_INDEX.md`](notes/MILESTONE_150_DISCOVERIES_AND_226FOLIO_INDEX.md))**: Synthesizes the Quire 14 7-Page Exegetical Translator (`Attack 129`), the Master Preface & Right-Justified `=Pt` Title Solver (`Attack 130`), and the Global 226-Folio Citation & PageRank Graph (`Attack 131`).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -1005,7 +1025,12 @@ python tools/attack125_astronomical_14folio_spoke_ring_and_star_translator.py
 python tools/attack126_currier_a_95herbal_monograph_translator.py
 python tools/attack127_quire20_292recipe_master_catalogue_and_bifolio_law.py
 python tools/attack128_astronomical_herbal_a_and_quire20_compendium.py
+python tools/attack129_quire14_7page_exegetical_translator.py
+python tools/attack130_preface_titles_and_quire_boundary_translator.py
+python tools/attack131_global_226folio_citation_pagerank_graph.py
+python tools/attack132_milestone_150_discoveries_and_226folio_compendium.py
 ```
+
 
 
 

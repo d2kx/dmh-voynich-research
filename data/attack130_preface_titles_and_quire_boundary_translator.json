@@ -1,0 +1,1071 @@
+{
+  "attack": 130,
+  "phase": 141,
+  "discovery": 147,
+  "title": "Master Preface (f1r), Corpus-Wide Right-Justified Titles (=Pt), Special Folios (f57v, f65r/v, f116v), and 20-Quire Boundary Translator",
+  "right_justified_pt_titles": {
+    "total_pt_lines": 10,
+    "outer_wrapper_b1_pt_lines": 8,
+    "outer_wrapper_b1_pct": 80.0,
+    "pt_metrics": {
+      "n_tokens": 22,
+      "n_unique_stems": 18,
+      "mean_len": 5.273,
+      "o_nom_pct": 40.91,
+      "qo_pct": 4.55,
+      "bench_pct": 4.55,
+      "d_top_pct": 27.27,
+      "l_appl_pct": 0.0,
+      "pf_gallows_pct": 0.0,
+      "edy_pct": 4.55,
+      "aiin_pct": 9.09,
+      "dy_pct": 4.55,
+      "am_pct": 4.55,
+      "liquid_coda_pct": 31.82
+    },
+    "general_prose_metrics": {
+      "n_tokens": 33217,
+      "n_unique_stems": 2660,
+      "mean_len": 5.209,
+      "o_nom_pct": 16.19,
+      "qo_pct": 15.58,
+      "bench_pct": 25.64,
+      "d_top_pct": 9.4,
+      "l_appl_pct": 9.49,
+      "pf_gallows_pct": 3.44,
+      "edy_pct": 12.05,
+      "aiin_pct": 11.82,
+      "dy_pct": 6.48,
+      "am_pct": 2.66,
+      "liquid_coda_pct": 30.7
+    },
+    "title_nominal_deictic_polarity_test": {
+      "observed_pt_polarity": 0.5909,
+      "observed_prose_polarity": -0.2122,
+      "polarity_swing": 0.8031,
+      "null_mean": -0.2107,
+      "null_sd": 0.1668,
+      "z_score": 4.81,
+      "p_value": 0.0
+    },
+    "all_pt_titles": [
+      {
+        "folio": "f1r",
+        "line_id": "6",
+        "loc": "=Pt",
+        "section": "T",
+        "hand": "1",
+        "language": "A",
+        "n_tokens": 1,
+        "eva": "ydaraishy",
+        "gloss": "NOM_SPEC[DARAISH]:STATE_Y",
+        "shared_stems_with_same_folio": []
+      },
+      {
+        "folio": "f1r",
+        "line_id": "10",
+        "loc": "=Pt",
+        "section": "T",
+        "hand": "1",
+        "language": "A",
+        "n_tokens": 3,
+        "eva": "dain os teody",
+        "gloss": "TOP_LOC[IN]:ROOT BARE[OS]:ROOT BARE[TE]:PERF_DONE",
+        "shared_stems_with_same_folio": [
+          "in",
+          "os"
+        ]
+      },
+      {
+        "folio": "f1r",
+        "line_id": "21",
+        "loc": "=Pt",
+        "section": "T",
+        "hand": "1",
+        "language": "A",
+        "n_tokens": 2,
+        "eva": "otol daiiin",
+        "gloss": "NOM_SPEC[OL]:FLUID_L TOP_LOC[II]:DOSE_AIIN",
+        "shared_stems_with_same_folio": [
+          "ii",
+          "ol"
+        ]
+      },
+      {
+        "folio": "f1r",
+        "line_id": "28",
+        "loc": "=Pt",
+        "section": "T",
+        "hand": "1",
+        "language": "A",
+        "n_tokens": 1,
+        "eva": "dchaiin",
+        "gloss": "TOP_LOC[CH]:DOSE_AIIN",
+        "shared_stems_with_same_folio": [
+          "ch"
+        ]
+      },
+      {
+        "folio": "f8r",
+        "line_id": "8",
+        "loc": "=Pt",
+        "section": "H",
+        "hand": "1",
+        "language": "A",
+        "n_tokens": 2,
+        "eva": "dcho dain",
+        "gloss": "TOP_LOC[CHO]:ROOT TOP_LOC[IN]:ROOT",
+        "shared_stems_with_same_folio": [
+          "cho",
+          "in"
+        ]
+      },
+      {
+        "folio": "f8r",
+        "line_id": "13",
+        "loc": "=Pt",
+        "section": "H",
+        "hand": "1",
+        "language": "A",
+        "n_tokens": 1,
+        "eva": "okokchodg",
+        "gloss": "NOM_SPEC[OKCHODG]:ROOT",
+        "shared_stems_with_same_folio": []
+      },
+      {
+        "folio": "f8r",
+        "line_id": "21",
+        "loc": "=Pt",
+        "section": "H",
+        "hand": "1",
+        "language": "A",
+        "n_tokens": 2,
+        "eva": "schol saim",
+        "gloss": "SEQ_CONT[CH]:FLUID_L SEQ_CONT[IM]:FINAL_M",
+        "shared_stems_with_same_folio": [
+          "ch"
+        ]
+      },
+      {
+        "folio": "f25r",
+        "line_id": "7",
+        "loc": "=Pt",
+        "section": "H",
+        "hand": "1",
+        "language": "A",
+        "n_tokens": 3,
+        "eva": "dair otaiir otosy",
+        "gloss": "TOP_LOC[IR]:SOURCE_R NOM_SPEC[AII]:SOURCE_R NOM_SPEC[OS]:STATE_Y",
+        "shared_stems_with_same_folio": []
+      },
+      {
+        "folio": "f42v",
+        "line_id": "16",
+        "loc": "=Pt",
+        "section": "H",
+        "hand": "1",
+        "language": "A",
+        "n_tokens": 2,
+        "eva": "okor odeey",
+        "gloss": "NOM_SPEC[OR]:SOURCE_R NOM_SPEC[DE]:STATE_Y",
+        "shared_stems_with_same_folio": [
+          "or"
+        ]
+      },
+      {
+        "folio": "f46v",
+        "line_id": "8",
+        "loc": "=Pt",
+        "section": "H",
+        "hand": "2",
+        "language": "B",
+        "n_tokens": 5,
+        "eva": "okeedchsy qokeedy chetedar or aiy",
+        "gloss": "NOM_SPEC[EEDCHS]:STATE_Y ACT_BOIL[EE]:PROC_SIMMER HERB_BENCH[ETED]:SOURCE_R BARE[OR]:SOURCE_R BARE[AI]:STATE_Y",
+        "shared_stems_with_same_folio": [
+          "ai",
+          "ee"
+        ]
+      }
+    ]
+  },
+  "f1r_master_preface_blocks": [
+    {
+      "block_id": "f1r.P1",
+      "type": "PROSE_PARAGRAPH",
+      "line_range": "1\u20135",
+      "metrics": {
+        "n_tokens": 42,
+        "n_unique_stems": 32,
+        "mean_len": 4.762,
+        "o_nom_pct": 16.67,
+        "qo_pct": 0.0,
+        "bench_pct": 19.05,
+        "d_top_pct": 7.14,
+        "l_appl_pct": 0.0,
+        "pf_gallows_pct": 7.14,
+        "edy_pct": 0.0,
+        "aiin_pct": 21.43,
+        "dy_pct": 2.38,
+        "am_pct": 0.0,
+        "liquid_coda_pct": 40.48
+      },
+      "section_routing_idf": {
+        "H": 4.039,
+        "A": 0,
+        "Z": 0,
+        "B": 0,
+        "P": 0,
+        "S": 4.039
+      },
+      "opening_eva": "fachys ykal ar ataiin shol shory cthres kor",
+      "opening_gloss": "BARE[FACHY]:ROOT NOM_SPEC[AL]:FLUID_L BARE[AR]:SOURCE_R BARE[AT]:DOSE_AIIN HERB_BENCH[OL]:FLUID_L HERB_BENCH[OR]:STATE_Y HERB_BENCH[CTHRE]:ROOT BARE[KO]:SOURCE_R",
+      "closing_eva": "sair chear cthaiin cphar cfhaiin",
+      "closing_gloss": "SEQ_CONT[IR]:SOURCE_R HERB_BENCH[EA]:SOURCE_R HERB_BENCH[CTH]:DOSE_AIIN HERB_BENCH[CPH]:SOURCE_R HERB_BENCH[CFH]:DOSE_AIIN"
+    },
+    {
+      "block_id": "f1r.Title_6",
+      "type": "RIGHT_JUSTIFIED_TITLE_Pt",
+      "line_range": "6",
+      "metrics": {
+        "n_tokens": 1,
+        "n_unique_stems": 1,
+        "mean_len": 9.0,
+        "o_nom_pct": 0.0,
+        "qo_pct": 0.0,
+        "bench_pct": 0.0,
+        "d_top_pct": 0.0,
+        "l_appl_pct": 0.0,
+        "pf_gallows_pct": 0.0,
+        "edy_pct": 0.0,
+        "aiin_pct": 0.0,
+        "dy_pct": 0.0,
+        "am_pct": 0.0,
+        "liquid_coda_pct": 0.0
+      },
+      "section_routing_idf": {
+        "H": 0,
+        "A": 0,
+        "Z": 0,
+        "B": 0,
+        "P": 0,
+        "S": 0
+      },
+      "opening_eva": "ydaraishy",
+      "opening_gloss": "NOM_SPEC[DARAISH]:STATE_Y",
+      "closing_eva": "ydaraishy",
+      "closing_gloss": "NOM_SPEC[DARAISH]:STATE_Y"
+    },
+    {
+      "block_id": "f1r.P2",
+      "type": "PROSE_PARAGRAPH",
+      "line_range": "7\u20139",
+      "metrics": {
+        "n_tokens": 21,
+        "n_unique_stems": 16,
+        "mean_len": 4.714,
+        "o_nom_pct": 23.81,
+        "qo_pct": 0.0,
+        "bench_pct": 42.86,
+        "d_top_pct": 9.52,
+        "l_appl_pct": 0.0,
+        "pf_gallows_pct": 14.29,
+        "edy_pct": 0.0,
+        "aiin_pct": 9.52,
+        "dy_pct": 9.52,
+        "am_pct": 0.0,
+        "liquid_coda_pct": 28.57
+      },
+      "section_routing_idf": {
+        "H": 4.732,
+        "A": 0,
+        "Z": 0,
+        "B": 0,
+        "P": 0,
+        "S": 0
+      },
+      "opening_eva": "odar shol cphoy oydar sh cfhoaiin shodary yshey",
+      "opening_gloss": "NOM_SPEC[DA]:SOURCE_R HERB_BENCH[OL]:FLUID_L HERB_BENCH[CPH]:STATE_Y NOM_SPEC[YD]:SOURCE_R BARE[SH]:ROOT HERB_BENCH[CFHO]:DOSE_AIIN HERB_BENCH[ODAR]:STATE_Y NOM_SPEC[SH]:STATE_Y",
+      "closing_eva": "kos daiin shos cfhol shody",
+      "closing_gloss": "BARE[KO]:ROOT TOP_LOC[II]:DOSE_AIIN HERB_BENCH[OS]:ROOT HERB_BENCH[CFH]:FLUID_L HERB_BENCH[OD]:PERF_DONE"
+    },
+    {
+      "block_id": "f1r.Title_10",
+      "type": "RIGHT_JUSTIFIED_TITLE_Pt",
+      "line_range": "10",
+      "metrics": {
+        "n_tokens": 3,
+        "n_unique_stems": 3,
+        "mean_len": 3.667,
+        "o_nom_pct": 33.33,
+        "qo_pct": 0.0,
+        "bench_pct": 0.0,
+        "d_top_pct": 33.33,
+        "l_appl_pct": 0.0,
+        "pf_gallows_pct": 0.0,
+        "edy_pct": 0.0,
+        "aiin_pct": 0.0,
+        "dy_pct": 33.33,
+        "am_pct": 0.0,
+        "liquid_coda_pct": 0.0
+      },
+      "section_routing_idf": {
+        "H": 0,
+        "A": 0,
+        "Z": 0,
+        "B": 0,
+        "P": 0,
+        "S": 0
+      },
+      "opening_eva": "dain os teody",
+      "opening_gloss": "TOP_LOC[IN]:ROOT BARE[OS]:ROOT BARE[TE]:PERF_DONE",
+      "closing_eva": "dain os teody",
+      "closing_gloss": "TOP_LOC[IN]:ROOT BARE[OS]:ROOT BARE[TE]:PERF_DONE"
+    },
+    {
+      "block_id": "f1r.P3",
+      "type": "PROSE_PARAGRAPH",
+      "line_range": "11\u201320",
+      "metrics": {
+        "n_tokens": 83,
+        "n_unique_stems": 49,
+        "mean_len": 4.711,
+        "o_nom_pct": 10.84,
+        "qo_pct": 0.0,
+        "bench_pct": 33.73,
+        "d_top_pct": 13.25,
+        "l_appl_pct": 2.41,
+        "pf_gallows_pct": 8.43,
+        "edy_pct": 0.0,
+        "aiin_pct": 9.64,
+        "dy_pct": 1.2,
+        "am_pct": 1.2,
+        "liquid_coda_pct": 21.69
+      },
+      "section_routing_idf": {
+        "H": 29.666,
+        "A": 13.31,
+        "Z": 7.768,
+        "B": 4.964,
+        "P": 13.425,
+        "S": 24.647
+      },
+      "opening_eva": "ydain cphesaiin ols cphey ytain shoshy cphodal es",
+      "opening_gloss": "NOM_SPEC[DA]:DOSE_AIIN HERB_BENCH[CPHES]:DOSE_AIIN NOM_SPEC[LS]:ROOT HERB_BENCH[CPH]:STATE_Y NOM_SPEC[AI]:DOSE_AIIN HERB_BENCH[OSH]:STATE_Y HERB_BENCH[CPHOD]:FLUID_L BARE[ES]:ROOT",
+      "closing_eva": "shok chor chey dain ckhey",
+      "closing_gloss": "HERB_BENCH[OK]:ROOT HERB_BENCH[OR]:SOURCE_R HERB_BENCH[EY]:STATE_Y TOP_LOC[IN]:ROOT HERB_BENCH[CKH]:STATE_Y"
+    },
+    {
+      "block_id": "f1r.Title_21",
+      "type": "RIGHT_JUSTIFIED_TITLE_Pt",
+      "line_range": "21",
+      "metrics": {
+        "n_tokens": 2,
+        "n_unique_stems": 2,
+        "mean_len": 5.0,
+        "o_nom_pct": 50.0,
+        "qo_pct": 0.0,
+        "bench_pct": 0.0,
+        "d_top_pct": 50.0,
+        "l_appl_pct": 0.0,
+        "pf_gallows_pct": 0.0,
+        "edy_pct": 0.0,
+        "aiin_pct": 50.0,
+        "dy_pct": 0.0,
+        "am_pct": 0.0,
+        "liquid_coda_pct": 50.0
+      },
+      "section_routing_idf": {
+        "H": 0,
+        "A": 0,
+        "Z": 0,
+        "B": 0,
+        "P": 0,
+        "S": 0
+      },
+      "opening_eva": "otol daiiin",
+      "opening_gloss": "NOM_SPEC[OL]:FLUID_L TOP_LOC[II]:DOSE_AIIN",
+      "closing_eva": "otol daiiin",
+      "closing_gloss": "NOM_SPEC[OL]:FLUID_L TOP_LOC[II]:DOSE_AIIN"
+    },
+    {
+      "block_id": "f1r.P4",
+      "type": "PROSE_PARAGRAPH",
+      "line_range": "22\u201327",
+      "metrics": {
+        "n_tokens": 53,
+        "n_unique_stems": 35,
+        "mean_len": 4.642,
+        "o_nom_pct": 11.32,
+        "qo_pct": 0.0,
+        "bench_pct": 32.08,
+        "d_top_pct": 18.87,
+        "l_appl_pct": 0.0,
+        "pf_gallows_pct": 5.66,
+        "edy_pct": 0.0,
+        "aiin_pct": 15.09,
+        "dy_pct": 1.89,
+        "am_pct": 0.0,
+        "liquid_coda_pct": 32.08
+      },
+      "section_routing_idf": {
+        "H": 22.125,
+        "A": 2.247,
+        "Z": 2.247,
+        "B": 11.305,
+        "P": 5.88,
+        "S": 13.066
+      },
+      "opening_eva": "cpho shaiin shokcheey chol tshodeesy shey pydeey cha",
+      "opening_gloss": "BARE[CPHO]:ROOT HERB_BENCH[AI]:DOSE_AIIN HERB_BENCH[OKCHE]:STATE_Y HERB_BENCH[OL]:FLUID_L BARE[TSHODEES]:STATE_Y HERB_BENCH[EY]:STATE_Y BARE[PYDE]:STATE_Y BARE[CHA]:ROOT",
+      "closing_eva": "eo chol chok choty chotey",
+      "closing_gloss": "BARE[EO]:ROOT HERB_BENCH[OL]:FLUID_L HERB_BENCH[OK]:ROOT HERB_BENCH[OT]:STATE_Y HERB_BENCH[OT]:STATE_Y"
+    },
+    {
+      "block_id": "f1r.Title_28",
+      "type": "RIGHT_JUSTIFIED_TITLE_Pt",
+      "line_range": "28",
+      "metrics": {
+        "n_tokens": 1,
+        "n_unique_stems": 1,
+        "mean_len": 7.0,
+        "o_nom_pct": 0.0,
+        "qo_pct": 0.0,
+        "bench_pct": 0.0,
+        "d_top_pct": 100.0,
+        "l_appl_pct": 0.0,
+        "pf_gallows_pct": 0.0,
+        "edy_pct": 0.0,
+        "aiin_pct": 100.0,
+        "dy_pct": 0.0,
+        "am_pct": 0.0,
+        "liquid_coda_pct": 0.0
+      },
+      "section_routing_idf": {
+        "H": 0,
+        "A": 0,
+        "Z": 0,
+        "B": 0,
+        "P": 0,
+        "S": 0
+      },
+      "opening_eva": "dchaiin",
+      "opening_gloss": "TOP_LOC[CH]:DOSE_AIIN",
+      "closing_eva": "dchaiin",
+      "closing_gloss": "TOP_LOC[CH]:DOSE_AIIN"
+    }
+  ],
+  "special_folios": {
+    "f1r": {
+      "folio": "f1r",
+      "meta": {
+        "folio": "f1r",
+        "quire": "A",
+        "section_code": "T",
+        "section": "Text-only",
+        "currier_lang": "A",
+        "hand": "1",
+        "lines": 28,
+        "words": 213,
+        "labels": [],
+        "drawing_intrusions": 0,
+        "pdf_pages": [
+          {
+            "pdf1_page": 4,
+            "pdf1_label": "1r",
+            "beinecke_image_id": "1006076",
+            "pdf1_size": [
+              1578,
+              2000
+            ],
+            "pdf2_page": 4,
+            "pdf2_label": "1r",
+            "pdf2_size": [
+              1090,
+              1500
+            ],
+            "folios": [
+              "f1r"
+            ]
+          }
+        ]
+      },
+      "metrics": {
+        "n_tokens": 206,
+        "n_unique_stems": 95,
+        "mean_len": 4.723,
+        "o_nom_pct": 14.08,
+        "qo_pct": 0.0,
+        "bench_pct": 30.1,
+        "d_top_pct": 14.08,
+        "l_appl_pct": 0.97,
+        "pf_gallows_pct": 7.77,
+        "edy_pct": 0.0,
+        "aiin_pct": 14.08,
+        "dy_pct": 2.91,
+        "am_pct": 0.49,
+        "liquid_coda_pct": 28.64
+      },
+      "n_lines": 28,
+      "sample_lines": [
+        {
+          "line_id": "1",
+          "loc": "@P0",
+          "eva": "fachys ykal ar ataiin shol shory cthres y kor sholdy",
+          "gloss": "BARE[FACHY]:ROOT NOM_SPEC[AL]:FLUID_L BARE[AR]:SOURCE_R BARE[AT]:DOSE_AIIN HERB_BENCH[OL]:FLUID_L HERB_BENCH[OR]:STATE_Y HERB_BENCH[CTHRE]:ROOT BARE[KO]:SOURCE_R HERB_BENCH[OL]:PERF_DONE"
+        },
+        {
+          "line_id": "2",
+          "loc": "+P0",
+          "eva": "sory ckhar or y kair chtaiin shar ase cthar cthar",
+          "gloss": "SEQ_CONT[OR]:STATE_Y HERB_BENCH[CKH]:SOURCE_R BARE[OR]:SOURCE_R BARE[KAI]:SOURCE_R HERB_BENCH[TA]:DOSE_AIIN HERB_BENCH[AR]:SOURCE_R BARE[ASE]:ROOT HERB_BENCH[CTH]:SOURCE_R HERB_BENCH[CTH]:SOURCE_R"
+        },
+        {
+          "line_id": "3",
+          "loc": "+P0",
+          "eva": "syaiir sheky or ykaiin shod cthoary cthes daraiin sy",
+          "gloss": "SEQ_CONT[YAII]:SOURCE_R HERB_BENCH[EK]:STATE_Y BARE[OR]:SOURCE_R NOM_SPEC[AI]:DOSE_AIIN HERB_BENCH[OD]:ROOT HERB_BENCH[CTHOAR]:STATE_Y HERB_BENCH[CTHE]:ROOT TOP_LOC[RA]:DOSE_AIIN BARE[SY]:STATE_Y"
+        },
+        {
+          "line_id": "4",
+          "loc": "+P0",
+          "eva": "soiin oteey oteos roloty cthiar daiin okaiin or okan",
+          "gloss": "SEQ_CONT[OI]:DOSE_AIIN NOM_SPEC[EE]:STATE_Y NOM_SPEC[EO]:ROOT FLOW_LIQ[ROLOT]:STATE_Y HERB_BENCH[CTHI]:SOURCE_R TOP_LOC[II]:DOSE_AIIN NOM_SPEC[AI]:DOSE_AIIN BARE[OR]:SOURCE_R NOM_SPEC[AN]:ROOT"
+        },
+        {
+          "line_id": "5",
+          "loc": "+P0",
+          "eva": "sair y chear cthaiin cphar cfhaiin",
+          "gloss": "SEQ_CONT[IR]:SOURCE_R HERB_BENCH[EA]:SOURCE_R HERB_BENCH[CTH]:DOSE_AIIN HERB_BENCH[CPH]:SOURCE_R HERB_BENCH[CFH]:DOSE_AIIN"
+        },
+        {
+          "line_id": "6",
+          "loc": "=Pt",
+          "eva": "ydaraishy",
+          "gloss": "NOM_SPEC[DARAISH]:STATE_Y"
+        }
+      ]
+    },
+    "f57v": {
+      "folio": "f57v",
+      "meta": {
+        "folio": "f57v",
+        "quire": "H",
+        "section_code": "C",
+        "section": "Cosmological",
+        "currier_lang": "",
+        "hand": "1",
+        "lines": 13,
+        "words": 179,
+        "labels": [
+          {
+            "locus": "f57v.1",
+            "type": "@L0",
+            "words": [
+              "dairal"
+            ]
+          },
+          {
+            "locus": "f57v.6",
+            "type": "@L0",
+            "words": [
+              "otodarag"
+            ]
+          },
+          {
+            "locus": "f57v.7",
+            "type": "@L0",
+            "words": [
+              "oparairdly"
+            ]
+          },
+          {
+            "locus": "f57v.8",
+            "type": "@L0",
+            "words": [
+              "olkeedal"
+            ]
+          },
+          {
+            "locus": "f57v.9",
+            "type": "@L0",
+            "words": [
+              "otardaly"
+            ]
+          }
+        ],
+        "drawing_intrusions": 0,
+        "pdf_pages": [
+          {
+            "pdf1_page": 115,
+            "pdf1_label": "57v",
+            "beinecke_image_id": "1006187",
+            "pdf1_size": [
+              1607,
+              2000
+            ],
+            "pdf2_page": 115,
+            "pdf2_label": "57v",
+            "pdf2_size": [
+              1175,
+              1500
+            ],
+            "folios": [
+              "f57v"
+            ]
+          }
+        ]
+      },
+      "metrics": {
+        "n_tokens": 71,
+        "n_unique_stems": 48,
+        "mean_len": 4.831,
+        "o_nom_pct": 29.58,
+        "qo_pct": 1.41,
+        "bench_pct": 8.45,
+        "d_top_pct": 23.94,
+        "l_appl_pct": 2.82,
+        "pf_gallows_pct": 7.04,
+        "edy_pct": 0.0,
+        "aiin_pct": 9.86,
+        "dy_pct": 7.04,
+        "am_pct": 2.82,
+        "liquid_coda_pct": 39.44
+      },
+      "n_lines": 13,
+      "sample_lines": [
+        {
+          "line_id": "1",
+          "loc": "@L0",
+          "eva": "dairal",
+          "gloss": "TOP_LOC[IR]:FLUID_L"
+        },
+        {
+          "line_id": "2",
+          "loc": "@Cc",
+          "eva": "v sal y soeos vs ar okees o d soefchees",
+          "gloss": "SEQ_CONT[AL]:FLUID_L SEQ_CONT[OEO]:ROOT BARE[VS]:ROOT BARE[AR]:SOURCE_R NOM_SPEC[EE]:ROOT SEQ_CONT[OEFCHEE]:ROOT"
+        },
+        {
+          "line_id": "3",
+          "loc": "+Cc",
+          "eva": "o l d r v x k m f v",
+          "gloss": ""
+        },
+        {
+          "line_id": "4",
+          "loc": "+Cc",
+          "eva": "daiin otey ofchey shes o d okeeod l o lkeeol",
+          "gloss": "TOP_LOC[II]:DOSE_AIIN NOM_SPEC[EY]:STATE_Y NOM_SPEC[FCH]:STATE_Y HERB_BENCH[ES]:ROOT NOM_SPEC[EEOD]:ROOT APPL_VESSEL[KEE]:FLUID_L"
+        },
+        {
+          "line_id": "5",
+          "loc": "+Cc",
+          "eva": "o v l r m aiin d c f s",
+          "gloss": "BARE[AI]:DOSE_AIIN"
+        },
+        {
+          "line_id": "6",
+          "loc": "@L0",
+          "eva": "otodarag",
+          "gloss": "NOM_SPEC[ODARAG]:ROOT"
+        }
+      ]
+    },
+    "f65r": {
+      "folio": "f65r",
+      "meta": {
+        "folio": "f65r",
+        "quire": "H",
+        "section_code": "H",
+        "section": "Herbal (Botanical)",
+        "currier_lang": "",
+        "hand": "3",
+        "lines": 1,
+        "words": 3,
+        "labels": [
+          {
+            "locus": "f65r.1",
+            "type": "@Lp",
+            "words": [
+              "otaim",
+              "dam",
+              "alam"
+            ]
+          }
+        ],
+        "drawing_intrusions": 0,
+        "pdf_pages": [
+          {
+            "pdf1_page": 118,
+            "pdf1_label": "65r",
+            "beinecke_image_id": "1006190",
+            "pdf1_size": [
+              1507,
+              2000
+            ],
+            "pdf2_page": 118,
+            "pdf2_label": "65r",
+            "pdf2_size": [
+              1138,
+              1500
+            ],
+            "folios": [
+              "f65r"
+            ]
+          }
+        ]
+      },
+      "metrics": {
+        "n_tokens": 3,
+        "n_unique_stems": 2,
+        "mean_len": 4.0,
+        "o_nom_pct": 33.33,
+        "qo_pct": 0.0,
+        "bench_pct": 0.0,
+        "d_top_pct": 33.33,
+        "l_appl_pct": 33.33,
+        "pf_gallows_pct": 0.0,
+        "edy_pct": 0.0,
+        "aiin_pct": 0.0,
+        "dy_pct": 0.0,
+        "am_pct": 100.0,
+        "liquid_coda_pct": 0.0
+      },
+      "n_lines": 1,
+      "sample_lines": [
+        {
+          "line_id": "1",
+          "loc": "@Lp",
+          "eva": "otaim dam alam",
+          "gloss": "NOM_SPEC[AI]:FINAL_M TOP_LOC[AM]:FINAL_M APPL_VESSEL[AM]:FINAL_M"
+        }
+      ]
+    },
+    "f65v": {
+      "folio": "f65v",
+      "meta": {
+        "folio": "f65v",
+        "quire": "H",
+        "section_code": "H",
+        "section": "Herbal (Botanical)",
+        "currier_lang": "",
+        "hand": "3",
+        "lines": 6,
+        "words": 45,
+        "labels": [],
+        "drawing_intrusions": 6,
+        "pdf_pages": [
+          {
+            "pdf1_page": 119,
+            "pdf1_label": "65v",
+            "beinecke_image_id": "1006191",
+            "pdf1_size": [
+              1597,
+              2000
+            ],
+            "pdf2_page": 119,
+            "pdf2_label": "65v",
+            "pdf2_size": [
+              1163,
+              1500
+            ],
+            "folios": [
+              "f65v"
+            ]
+          }
+        ]
+      },
+      "metrics": {
+        "n_tokens": 38,
+        "n_unique_stems": 35,
+        "mean_len": 5.553,
+        "o_nom_pct": 10.53,
+        "qo_pct": 13.16,
+        "bench_pct": 36.84,
+        "d_top_pct": 13.16,
+        "l_appl_pct": 0.0,
+        "pf_gallows_pct": 10.53,
+        "edy_pct": 10.53,
+        "aiin_pct": 2.63,
+        "dy_pct": 18.42,
+        "am_pct": 2.63,
+        "liquid_coda_pct": 10.53
+      },
+      "n_lines": 6,
+      "sample_lines": [
+        {
+          "line_id": "1",
+          "loc": "@P0",
+          "eva": "cphy fchecfhy dydchepain shety qopy fol chpdy",
+          "gloss": "BARE[CPH]:STATE_Y BARE[FCHECFH]:STATE_Y TOP_LOC[YDCHEPA]:DOSE_AIIN HERB_BENCH[ET]:STATE_Y ACT_BOIL[PY]:STATE_Y BARE[FO]:FLUID_L HERB_BENCH[PD]:PERF_DONE"
+        },
+        {
+          "line_id": "2",
+          "loc": "+P0",
+          "eva": "daiin sheek l odyyteo qops air cheoteey dalom",
+          "gloss": "TOP_LOC[II]:DOSE_AIIN HERB_BENCH[EEK]:ROOT NOM_SPEC[DYYTEO]:ROOT ACT_BOIL[PS]:ROOT BARE[AI]:SOURCE_R HERB_BENCH[EOTE]:STATE_Y TOP_LOC[LO]:FINAL_M"
+        },
+        {
+          "line_id": "3",
+          "loc": "+P0",
+          "eva": "ytal cheot shky ysas cheody",
+          "gloss": "NOM_SPEC[AL]:FLUID_L HERB_BENCH[EOT]:ROOT HERB_BENCH[KY]:STATE_Y NOM_SPEC[SA]:ROOT HERB_BENCH[EO]:PERF_DONE"
+        },
+        {
+          "line_id": "4",
+          "loc": "+P0",
+          "eva": "toeedy otar shedyyteey sheody qokesd yfchey",
+          "gloss": "BARE[TO]:PROC_SIMMER NOM_SPEC[AR]:SOURCE_R HERB_BENCH[EDYYTE]:STATE_Y HERB_BENCH[EO]:PERF_DONE ACT_BOIL[ESD]:ROOT BARE[FCH]:STATE_Y"
+        },
+        {
+          "line_id": "5",
+          "loc": "+P0",
+          "eva": "dshedy okeody qokdshckhy choky chokeody okey dy",
+          "gloss": "TOP_LOC[SH]:PROC_SIMMER NOM_SPEC[EO]:PERF_DONE ACT_BOIL[DSHCKH]:STATE_Y HERB_BENCH[OK]:STATE_Y HERB_BENCH[OKE]:PERF_DONE NOM_SPEC[EY]:STATE_Y BARE[DY]:STATE_Y"
+        },
+        {
+          "line_id": "6",
+          "loc": "+P0",
+          "eva": "qo ytchey sh cphyykchedy chedy shckhdy",
+          "gloss": "BARE[QO]:ROOT NOM_SPEC[CH]:STATE_Y BARE[SH]:ROOT HERB_BENCH[CPHYYKCH]:PROC_SIMMER HERB_BENCH[ED]:PERF_DONE HERB_BENCH[CKH]:PERF_DONE"
+        }
+      ]
+    },
+    "f116v": {
+      "folio": "f116v",
+      "meta": {
+        "folio": "f116v",
+        "quire": "T",
+        "section_code": "T",
+        "section": "Text-only",
+        "currier_lang": "",
+        "hand": "3",
+        "lines": 1,
+        "words": 2,
+        "labels": [
+          {
+            "locus": "f116v.1",
+            "type": "@Lx",
+            "words": [
+              "oror",
+              "sheey"
+            ]
+          }
+        ],
+        "drawing_intrusions": 0,
+        "pdf_pages": [
+          {
+            "pdf1_page": 207,
+            "pdf1_label": "116v",
+            "beinecke_image_id": "1006277",
+            "pdf1_size": [
+              1453,
+              2000
+            ],
+            "pdf2_page": 207,
+            "pdf2_label": "116v",
+            "pdf2_size": [
+              1127,
+              1500
+            ],
+            "folios": [
+              "f116v"
+            ]
+          }
+        ]
+      },
+      "metrics": {
+        "n_tokens": 7,
+        "n_unique_stems": 7,
+        "mean_len": 4.571,
+        "o_nom_pct": 14.29,
+        "qo_pct": 0.0,
+        "bench_pct": 14.29,
+        "d_top_pct": 0.0,
+        "l_appl_pct": 0.0,
+        "pf_gallows_pct": 0.0,
+        "edy_pct": 0.0,
+        "aiin_pct": 0.0,
+        "dy_pct": 0.0,
+        "am_pct": 14.29,
+        "liquid_coda_pct": 14.29
+      },
+      "n_lines": 1,
+      "sample_lines": [
+        {
+          "line_id": "1",
+          "loc": "@Lx",
+          "eva": "oror sheeyvalsch vbren so nim gaf mich o",
+          "gloss": "FLOW_LIQ[OR]:SOURCE_R HERB_BENCH[EEYVALSCH]:ROOT BARE[VBRE]:ROOT BARE[SO]:ROOT BARE[NI]:FINAL_M BARE[GAF]:ROOT BARE[MICH]:ROOT"
+        }
+      ]
+    }
+  },
+  "quire_boundary_summary": {
+    "ALL_LOCI": {
+      "QUIRE_OPENING_RECTO_FIRST": {
+        "n_tokens": 2893,
+        "n_unique_stems": 566,
+        "mean_len": 5.253,
+        "o_nom_pct": 19.43,
+        "qo_pct": 12.51,
+        "bench_pct": 26.69,
+        "d_top_pct": 10.02,
+        "l_appl_pct": 6.77,
+        "pf_gallows_pct": 3.53,
+        "edy_pct": 10.85,
+        "aiin_pct": 8.43,
+        "dy_pct": 7.74,
+        "am_pct": 2.73,
+        "liquid_coda_pct": 29.66,
+        "n_folios": 18,
+        "mean_tokens_per_folio": 160.72,
+        "mean_paras_per_folio": 3.22,
+        "total_pt_titles": 5
+      },
+      "QUIRE_INTERNAL_MIDDLE": {
+        "n_tokens": 31626,
+        "n_unique_stems": 2656,
+        "mean_len": 5.218,
+        "o_nom_pct": 17.71,
+        "qo_pct": 14.94,
+        "bench_pct": 24.94,
+        "d_top_pct": 9.36,
+        "l_appl_pct": 9.6,
+        "pf_gallows_pct": 3.41,
+        "edy_pct": 11.46,
+        "aiin_pct": 11.82,
+        "dy_pct": 6.6,
+        "am_pct": 2.71,
+        "liquid_coda_pct": 30.87,
+        "n_folios": 191,
+        "mean_tokens_per_folio": 165.58,
+        "mean_paras_per_folio": 3.4,
+        "total_pt_titles": 5
+      },
+      "QUIRE_CLOSING_VERSO_LAST": {
+        "n_tokens": 2368,
+        "n_unique_stems": 533,
+        "mean_len": 5.167,
+        "o_nom_pct": 30.53,
+        "qo_pct": 6.8,
+        "bench_pct": 21.96,
+        "d_top_pct": 8.95,
+        "l_appl_pct": 7.09,
+        "pf_gallows_pct": 4.31,
+        "edy_pct": 9.67,
+        "aiin_pct": 8.95,
+        "dy_pct": 8.45,
+        "am_pct": 2.74,
+        "liquid_coda_pct": 31.76,
+        "n_folios": 18,
+        "mean_tokens_per_folio": 131.56,
+        "mean_paras_per_folio": 1.78,
+        "total_pt_titles": 0
+      }
+    },
+    "PROSE_ONLY_P0": {
+      "QUIRE_OPENING_RECTO_FIRST": {
+        "n_tokens": 2429,
+        "n_unique_stems": 465,
+        "mean_len": 5.267,
+        "o_nom_pct": 16.63,
+        "qo_pct": 14.74,
+        "bench_pct": 27.91,
+        "d_top_pct": 9.67,
+        "l_appl_pct": 6.92,
+        "pf_gallows_pct": 4.08,
+        "edy_pct": 12.35,
+        "aiin_pct": 9.18,
+        "dy_pct": 7.66,
+        "am_pct": 2.63,
+        "liquid_coda_pct": 29.02,
+        "n_folios": 18,
+        "mean_tokens_per_folio": 134.94,
+        "mean_paras_per_folio": 3.22,
+        "total_pt_titles": 5
+      },
+      "QUIRE_INTERNAL_MIDDLE": {
+        "n_tokens": 28904,
+        "n_unique_stems": 2315,
+        "mean_len": 5.208,
+        "o_nom_pct": 16.05,
+        "qo_pct": 15.99,
+        "bench_pct": 25.51,
+        "d_top_pct": 9.33,
+        "l_appl_pct": 9.91,
+        "pf_gallows_pct": 3.4,
+        "edy_pct": 12.07,
+        "aiin_pct": 12.06,
+        "dy_pct": 6.35,
+        "am_pct": 2.64,
+        "liquid_coda_pct": 30.88,
+        "n_folios": 191,
+        "mean_tokens_per_folio": 151.33,
+        "mean_paras_per_folio": 3.4,
+        "total_pt_titles": 5
+      },
+      "QUIRE_CLOSING_VERSO_LAST": {
+        "n_tokens": 1351,
+        "n_unique_stems": 314,
+        "mean_len": 5.132,
+        "o_nom_pct": 17.76,
+        "qo_pct": 9.99,
+        "bench_pct": 28.28,
+        "d_top_pct": 11.18,
+        "l_appl_pct": 6.14,
+        "pf_gallows_pct": 3.4,
+        "edy_pct": 11.62,
+        "aiin_pct": 9.62,
+        "dy_pct": 6.59,
+        "am_pct": 2.37,
+        "liquid_coda_pct": 31.46,
+        "n_folios": 18,
+        "mean_tokens_per_folio": 75.06,
+        "mean_paras_per_folio": 1.78,
+        "total_pt_titles": 0
+      }
+    },
+    "opening_folios": [
+      "f1r",
+      "f9r",
+      "f17r",
+      "f25r",
+      "f33r",
+      "f41r",
+      "f49r",
+      "f57r",
+      "f67r1",
+      "f69r",
+      "f71r",
+      "f73r",
+      "f75r",
+      "f85r1",
+      "f87r",
+      "f93r",
+      "f99r",
+      "f103r"
+    ],
+    "closing_folios": [
+      "f8v",
+      "f16v",
+      "f24v",
+      "f32v",
+      "f40v",
+      "f48v",
+      "f56v",
+      "f66v",
+      "f68v3",
+      "f70v2",
+      "f72v3",
+      "f73v",
+      "f84v",
+      "fRos",
+      "f90v2",
+      "f96v",
+      "f102v2",
+      "f116v"
+    ]
+  }
+}

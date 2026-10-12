@@ -1,0 +1,1555 @@
+{
+  "attack": 129,
+  "phase": 140,
+  "discovery": 146,
+  "title": "Complete Quire 14 (f85r1-f86v3 + fRos, $Q=N) 7-Page Foldout Exegetical & Cosmological Translator",
+  "summary": {
+    "n_pages": 7,
+    "total_tokens": 2339,
+    "diagram_tokens": 1034,
+    "prose_tokens": 1305,
+    "n_exegetical_paragraphs": 21,
+    "locus_summary": {
+      "DIAGRAM_LABEL_L0": {
+        "n_tokens": 158,
+        "n_unique_stems": 97,
+        "mean_len": 5.614,
+        "o_nom_pct": 56.96,
+        "qo_pct": 0.63,
+        "bench_pct": 4.43,
+        "d_top_pct": 10.76,
+        "l_appl_pct": 3.8,
+        "edy_pct": 9.49,
+        "aiin_pct": 4.43,
+        "dy_pct": 18.35,
+        "am_pct": 5.7
+      },
+      "DIAGRAM_RING_Cc": {
+        "n_tokens": 511,
+        "n_unique_stems": 152,
+        "mean_len": 4.941,
+        "o_nom_pct": 46.58,
+        "qo_pct": 3.33,
+        "bench_pct": 13.89,
+        "d_top_pct": 5.09,
+        "l_appl_pct": 11.55,
+        "edy_pct": 11.15,
+        "aiin_pct": 13.11,
+        "dy_pct": 7.24,
+        "am_pct": 2.15
+      },
+      "DIAGRAM_WEDGE_Pb": {
+        "n_tokens": 365,
+        "n_unique_stems": 138,
+        "mean_len": 5.405,
+        "o_nom_pct": 16.71,
+        "qo_pct": 15.34,
+        "bench_pct": 19.18,
+        "d_top_pct": 4.11,
+        "l_appl_pct": 5.75,
+        "edy_pct": 13.97,
+        "aiin_pct": 17.81,
+        "dy_pct": 7.4,
+        "am_pct": 4.38
+      },
+      "EXEGETICAL_PROSE_P0": {
+        "n_tokens": 1305,
+        "n_unique_stems": 234,
+        "mean_len": 5.007,
+        "o_nom_pct": 19.62,
+        "qo_pct": 13.87,
+        "bench_pct": 17.55,
+        "d_top_pct": 7.82,
+        "l_appl_pct": 11.95,
+        "edy_pct": 8.43,
+        "aiin_pct": 16.25,
+        "dy_pct": 10.5,
+        "am_pct": 3.83
+      },
+      "f86v4_RING_AND_LABELS": {
+        "n_tokens": 140,
+        "n_unique_stems": 69,
+        "mean_len": 5.079,
+        "o_nom_pct": 31.43,
+        "qo_pct": 6.43,
+        "bench_pct": 26.43,
+        "d_top_pct": 13.57,
+        "l_appl_pct": 4.29,
+        "edy_pct": 15.0,
+        "aiin_pct": 10.71,
+        "dy_pct": 9.29,
+        "am_pct": 2.14
+      },
+      "f86v4_MARGINAL_PROSE": {
+        "n_tokens": 46,
+        "n_unique_stems": 23,
+        "mean_len": 4.413,
+        "o_nom_pct": 15.22,
+        "qo_pct": 13.04,
+        "bench_pct": 13.04,
+        "d_top_pct": 8.7,
+        "l_appl_pct": 26.09,
+        "edy_pct": 8.7,
+        "aiin_pct": 10.87,
+        "dy_pct": 4.35,
+        "am_pct": 2.17
+      }
+    },
+    "locus_split_permutation_test": {
+      "nominal_ring_label_tokens": 669,
+      "procedural_wedge_prose_tokens": 1670,
+      "observed_o_vs_qo_spread": 0.4155,
+      "null_mean": -0.0002,
+      "null_sd": 0.0274,
+      "z_score": 15.19
+    },
+    "universal_6domain_bridge_test": {
+      "six_domain_idf_breakdown": {
+        "H": 379.322,
+        "A": 109.265,
+        "Z": 113.789,
+        "B": 234.26,
+        "P": 146.97,
+        "S": 439.693
+      },
+      "observed_6domain_geometric_mean_idf": 203.678,
+      "null_mean_2339tok_window": 231.108,
+      "null_sd": 57.249,
+      "lift_ratio": 0.881,
+      "z_score": -0.48,
+      "p_value": 0.67,
+      "shared_diagram_prose_rare_stems": [
+        "fod",
+        "tedai",
+        "kshd",
+        "teo",
+        "se",
+        "odai",
+        "pcheod",
+        "por",
+        "alk",
+        "efch",
+        "keeod",
+        "kar",
+        "pd",
+        "kal",
+        "fo"
+      ]
+    }
+  },
+  "page_profiles": [
+    {
+      "folio": "f85r1",
+      "section": "Text-only",
+      "title": "Opening Exegetical Preface (4 Prose Paragraphs)",
+      "metrics": {
+        "n_tokens": 339,
+        "n_unique_stems": 112,
+        "mean_len": 5.277,
+        "o_nom_pct": 23.01,
+        "qo_pct": 12.68,
+        "bench_pct": 21.83,
+        "d_top_pct": 10.62,
+        "l_appl_pct": 8.55,
+        "edy_pct": 16.22,
+        "aiin_pct": 13.27,
+        "dy_pct": 14.45,
+        "am_pct": 3.83
+      },
+      "section_routing_idf": {
+        "H_A": 0,
+        "H_B": 0,
+        "H": 86.281,
+        "A": 19.707,
+        "Z": 6.35,
+        "B": 56.811,
+        "P": 34.793,
+        "S": 109.138
+      },
+      "top_external_folios": [
+        {
+          "folio": "f105v",
+          "section": "Starred Recipes",
+          "idf": 28.939,
+          "shared_stems": [
+            "pchsd",
+            "td",
+            "kchd",
+            "pcheo",
+            "kar"
+          ]
+        },
+        {
+          "folio": "f104r",
+          "section": "Starred Recipes",
+          "idf": 26.666,
+          "shared_stems": [
+            "pchdai",
+            "kchd",
+            "shd",
+            "kshe",
+            "kar"
+          ]
+        },
+        {
+          "folio": "f114r",
+          "section": "Starred Recipes",
+          "idf": 25.875,
+          "shared_stems": [
+            "tedai",
+            "ede",
+            "kchd",
+            "pcheo",
+            "pd"
+          ]
+        },
+        {
+          "folio": "f108v",
+          "section": "Starred Recipes",
+          "idf": 19.014,
+          "shared_stems": [
+            "ede",
+            "eeke",
+            "eolk",
+            "ked",
+            "esh"
+          ]
+        }
+      ],
+      "opening_line_eva": "pdsheody shdol shey otchdy dshedy soeeedy dchefoey sair",
+      "opening_line_gloss": "BARE[PDSHE]:PERF_DONE HERB_BENCH[DO]:FLUID_L HERB_BENCH[EY]:STATE_Y NOM_SPEC[CH]:PERF_DONE TOP_LOC[SH]:PROC_SIMMER SEQ_CONT[OE]:PROC_SIMMER TOP_LOC[CHEFO]:STATE_Y SEQ_CONT[IR]:SOURCE_R"
+    },
+    {
+      "folio": "f85r2",
+      "section": "Cosmological",
+      "title": "4-Season Bearded Sun Cosmological Wheel",
+      "metrics": {
+        "n_tokens": 156,
+        "n_unique_stems": 71,
+        "mean_len": 5.237,
+        "o_nom_pct": 24.36,
+        "qo_pct": 12.18,
+        "bench_pct": 18.59,
+        "d_top_pct": 3.21,
+        "l_appl_pct": 10.9,
+        "edy_pct": 15.38,
+        "aiin_pct": 16.67,
+        "dy_pct": 6.41,
+        "am_pct": 2.56
+      },
+      "section_routing_idf": {
+        "H_A": 0,
+        "H_B": 0,
+        "H": 27.656,
+        "A": 9.067,
+        "Z": 11.014,
+        "B": 29.488,
+        "P": 23.658,
+        "S": 36.714
+      },
+      "top_external_folios": [
+        {
+          "folio": "f76v",
+          "section": "Biological (Balneological)",
+          "idf": 10.052,
+          "shared_stems": [
+            "cphd",
+            "de",
+            "ote"
+          ]
+        },
+        {
+          "folio": "f114r",
+          "section": "Starred Recipes",
+          "idf": 9.647,
+          "shared_stems": [
+            "eedo",
+            "de",
+            "air"
+          ]
+        },
+        {
+          "folio": "f107r",
+          "section": "Starred Recipes",
+          "idf": 9.453,
+          "shared_stems": [
+            "eotch",
+            "fo",
+            "air"
+          ]
+        },
+        {
+          "folio": "f114v",
+          "section": "Starred Recipes",
+          "idf": 9.318,
+          "shared_stems": [
+            "og",
+            "de",
+            "fche"
+          ]
+        }
+      ],
+      "opening_line_eva": "odeedy otedy opaees ar chcthy otchdy otody otar",
+      "opening_line_gloss": "NOM_SPEC[DE]:PROC_SIMMER NOM_SPEC[ED]:PERF_DONE NOM_SPEC[PAEE]:ROOT BARE[AR]:SOURCE_R HERB_BENCH[CTH]:STATE_Y NOM_SPEC[CH]:PERF_DONE NOM_SPEC[OD]:PERF_DONE NOM_SPEC[AR]:SOURCE_R"
+    },
+    {
+      "folio": "fRos",
+      "section": "Cosmological",
+      "title": "9-Sphere Rosettes Cosmological-Botanical Map",
+      "metrics": {
+        "n_tokens": 518,
+        "n_unique_stems": 187,
+        "mean_len": 5.108,
+        "o_nom_pct": 52.12,
+        "qo_pct": 2.12,
+        "bench_pct": 8.49,
+        "d_top_pct": 4.44,
+        "l_appl_pct": 10.62,
+        "edy_pct": 9.27,
+        "aiin_pct": 10.23,
+        "dy_pct": 10.04,
+        "am_pct": 3.28
+      },
+      "section_routing_idf": {
+        "H_A": 0,
+        "H_B": 0,
+        "H": 115.181,
+        "A": 29.883,
+        "Z": 40.941,
+        "B": 81.126,
+        "P": 44.781,
+        "S": 143.309
+      },
+      "top_external_folios": [
+        {
+          "folio": "f114r",
+          "section": "Starred Recipes",
+          "idf": 33.631,
+          "shared_stems": [
+            "dod",
+            "pair",
+            "kaii",
+            "teo",
+            "fched"
+          ]
+        },
+        {
+          "folio": "f105v",
+          "section": "Starred Recipes",
+          "idf": 32.931,
+          "shared_stems": [
+            "fod",
+            "ae",
+            "pair",
+            "kaii",
+            "keeod"
+          ]
+        },
+        {
+          "folio": "f66r",
+          "section": "Text-only",
+          "idf": 32.247,
+          "shared_stems": [
+            "xa",
+            "fchd",
+            "far",
+            "pchee",
+            "efch"
+          ]
+        },
+        {
+          "folio": "f115v",
+          "section": "Starred Recipes",
+          "idf": 27.428,
+          "shared_stems": [
+            "pchda",
+            "chda",
+            "fched",
+            "tchd",
+            "tched"
+          ]
+        }
+      ],
+      "opening_line_eva": "saeeasa",
+      "opening_line_gloss": "SEQ_CONT[EEASA]:ROOT"
+    },
+    {
+      "folio": "f86v4",
+      "section": "Cosmological",
+      "title": "4-Winds Ring Diagram & Dual Marginal Commentary",
+      "metrics": {
+        "n_tokens": 186,
+        "n_unique_stems": 78,
+        "mean_len": 4.914,
+        "o_nom_pct": 27.42,
+        "qo_pct": 8.06,
+        "bench_pct": 23.12,
+        "d_top_pct": 12.37,
+        "l_appl_pct": 9.68,
+        "edy_pct": 13.44,
+        "aiin_pct": 10.75,
+        "dy_pct": 8.06,
+        "am_pct": 2.15
+      },
+      "section_routing_idf": {
+        "H_A": 0,
+        "H_B": 0,
+        "H": 47.657,
+        "A": 13.01,
+        "Z": 11.488,
+        "B": 29.046,
+        "P": 16.442,
+        "S": 49.449
+      },
+      "top_external_folios": [
+        {
+          "folio": "f104r",
+          "section": "Starred Recipes",
+          "idf": 14.033,
+          "shared_stems": [
+            "hd",
+            "keeod",
+            "pchd",
+            "eockh",
+            "esh"
+          ]
+        },
+        {
+          "folio": "f114r",
+          "section": "Starred Recipes",
+          "idf": 13.531,
+          "shared_stems": [
+            "tedai",
+            "eeed",
+            "etch",
+            "de"
+          ]
+        },
+        {
+          "folio": "f111r",
+          "section": "Starred Recipes",
+          "idf": 11.787,
+          "shared_stems": [
+            "eef",
+            "keeod",
+            "pchd",
+            "esh"
+          ]
+        },
+        {
+          "folio": "f114v",
+          "section": "Starred Recipes",
+          "idf": 11.574,
+          "shared_stems": [
+            "pcheod",
+            "de",
+            "fche",
+            "pchd"
+          ]
+        }
+      ],
+      "opening_line_eva": "opos os sheody pchar odsheo qody cheepchdy lpchedy",
+      "opening_line_gloss": "NOM_SPEC[PO]:ROOT BARE[OS]:ROOT HERB_BENCH[EO]:PERF_DONE BARE[PCH]:SOURCE_R NOM_SPEC[DSHEO]:ROOT ACT_BOIL[DY]:STATE_Y HERB_BENCH[EEPCH]:PERF_DONE BARE[PCH]:PROC_SIMMER"
+    },
+    {
+      "folio": "f86v6",
+      "section": "Text-only",
+      "title": "Central Exegetical Treatise I (4 Prose Paragraphs)",
+      "metrics": {
+        "n_tokens": 481,
+        "n_unique_stems": 119,
+        "mean_len": 5.006,
+        "o_nom_pct": 17.67,
+        "qo_pct": 18.3,
+        "bench_pct": 17.05,
+        "d_top_pct": 7.28,
+        "l_appl_pct": 14.76,
+        "edy_pct": 7.07,
+        "aiin_pct": 18.3,
+        "dy_pct": 7.07,
+        "am_pct": 3.12
+      },
+      "section_routing_idf": {
+        "H_A": 0,
+        "H_B": 0,
+        "H": 95.661,
+        "A": 16.913,
+        "Z": 34.276,
+        "B": 57.023,
+        "P": 30.31,
+        "S": 93.135
+      },
+      "top_external_folios": [
+        {
+          "folio": "f104r",
+          "section": "Starred Recipes",
+          "idf": 20.99,
+          "shared_stems": [
+            "tshed",
+            "keod",
+            "shd",
+            "par",
+            "pchd"
+          ]
+        },
+        {
+          "folio": "f58r",
+          "section": "Starred Recipes",
+          "idf": 20.724,
+          "shared_stems": [
+            "polke",
+            "pyd",
+            "dal",
+            "kal",
+            "air"
+          ]
+        },
+        {
+          "folio": "f106r",
+          "section": "Starred Recipes",
+          "idf": 18.936,
+          "shared_stems": [
+            "eopch",
+            "kshed",
+            "olfch",
+            "por",
+            "dal"
+          ]
+        },
+        {
+          "folio": "f107r",
+          "section": "Starred Recipes",
+          "idf": 17.972,
+          "shared_stems": [
+            "fy",
+            "pyd",
+            "alk",
+            "dal",
+            "air"
+          ]
+        }
+      ],
+      "opening_line_eva": "pcheypchdar opory ches aiin ofy chedy otedalol orairody",
+      "opening_line_gloss": "BARE[PCHEYPCHD]:SOURCE_R NOM_SPEC[POR]:STATE_Y HERB_BENCH[ES]:ROOT BARE[AI]:DOSE_AIIN NOM_SPEC[FY]:STATE_Y HERB_BENCH[ED]:PERF_DONE NOM_SPEC[EDAL]:FLUID_L FLOW_LIQ[AIR]:PERF_DONE"
+    },
+    {
+      "folio": "f86v5",
+      "section": "Text-only",
+      "title": "Central Exegetical Treatise II (3 Prose Paragraphs)",
+      "metrics": {
+        "n_tokens": 383,
+        "n_unique_stems": 89,
+        "mean_len": 4.739,
+        "o_nom_pct": 21.15,
+        "qo_pct": 9.66,
+        "bench_pct": 15.14,
+        "d_top_pct": 4.44,
+        "l_appl_pct": 10.18,
+        "edy_pct": 3.66,
+        "aiin_pct": 18.54,
+        "dy_pct": 9.66,
+        "am_pct": 4.7
+      },
+      "section_routing_idf": {
+        "H_A": 0,
+        "H_B": 0,
+        "H": 42.292,
+        "A": 9.524,
+        "Z": 15.547,
+        "B": 22.52,
+        "P": 10.71,
+        "S": 62.501
+      },
+      "top_external_folios": [
+        {
+          "folio": "f111v",
+          "section": "Starred Recipes",
+          "idf": 16.553,
+          "shared_stems": [
+            "alka",
+            "poch",
+            "tar",
+            "sheo",
+            "tai"
+          ]
+        },
+        {
+          "folio": "f105r",
+          "section": "Starred Recipes",
+          "idf": 15.298,
+          "shared_stems": [
+            "eeodai",
+            "pd",
+            "tai",
+            "chee",
+            "psh"
+          ]
+        },
+        {
+          "folio": "f111r",
+          "section": "Starred Recipes",
+          "idf": 15.224,
+          "shared_stems": [
+            "teo",
+            "eesh",
+            "sheo",
+            "tai",
+            "esh"
+          ]
+        },
+        {
+          "folio": "f107r",
+          "section": "Starred Recipes",
+          "idf": 12.135,
+          "shared_stems": [
+            "il",
+            "tar",
+            "tai",
+            "chee"
+          ]
+        }
+      ],
+      "opening_line_eva": "pshdal choky sheody lfchy fyshey qoty opy ypar",
+      "opening_line_gloss": "BARE[PSHD]:FLUID_L HERB_BENCH[OK]:STATE_Y HERB_BENCH[EO]:PERF_DONE BARE[FCH]:STATE_Y BARE[FYSH]:STATE_Y ACT_BOIL[TY]:STATE_Y NOM_SPEC[PY]:STATE_Y BARE[PA]:SOURCE_R"
+    },
+    {
+      "folio": "f86v3",
+      "section": "Cosmological",
+      "title": "Closing Exegetical Synthesis (2 Prose Paragraphs)",
+      "metrics": {
+        "n_tokens": 276,
+        "n_unique_stems": 106,
+        "mean_len": 5.543,
+        "o_nom_pct": 15.22,
+        "qo_pct": 15.22,
+        "bench_pct": 17.03,
+        "d_top_pct": 7.61,
+        "l_appl_pct": 4.71,
+        "edy_pct": 11.96,
+        "aiin_pct": 17.39,
+        "dy_pct": 11.96,
+        "am_pct": 5.43
+      },
+      "section_routing_idf": {
+        "H_A": 0,
+        "H_B": 0,
+        "H": 73.273,
+        "A": 22.667,
+        "Z": 26.822,
+        "B": 29.389,
+        "P": 33.184,
+        "S": 60.987
+      },
+      "top_external_folios": [
+        {
+          "folio": "f113r",
+          "section": "Starred Recipes",
+          "idf": 20.87,
+          "shared_stems": [
+            "yke",
+            "ocfh",
+            "cheod",
+            "oda",
+            "aiin"
+          ]
+        },
+        {
+          "folio": "f115v",
+          "section": "Starred Recipes",
+          "idf": 17.339,
+          "shared_stems": [
+            "pchee",
+            "cheod",
+            "oda",
+            "eoda",
+            "oee"
+          ]
+        },
+        {
+          "folio": "f104v",
+          "section": "Starred Recipes",
+          "idf": 14.954,
+          "shared_stems": [
+            "yke",
+            "cheod",
+            "oda",
+            "ad",
+            "tche"
+          ]
+        },
+        {
+          "folio": "f107r",
+          "section": "Starred Recipes",
+          "idf": 14.087,
+          "shared_stems": [
+            "alk",
+            "aiin",
+            "ad",
+            "tee",
+            "tche"
+          ]
+        }
+      ],
+      "opening_line_eva": "ntchedy qokeedy qoedy qopchy raiin olpchey qokaiin",
+      "opening_line_gloss": "BARE[NTCH]:PROC_SIMMER ACT_BOIL[EE]:PROC_SIMMER ACT_BOIL[ED]:PERF_DONE ACT_BOIL[PCH]:STATE_Y FLOW_LIQ[RA]:DOSE_AIIN APPL_VESSEL[PCH]:STATE_Y ACT_BOIL[AI]:DOSE_AIIN"
+    }
+  ],
+  "exegetical_paragraphs": [
+    {
+      "para_id": "f85r1.P1",
+      "folio": "f85r1",
+      "line_range": "1\u20136",
+      "metrics": {
+        "n_tokens": 61,
+        "n_unique_stems": 38,
+        "mean_len": 5.475,
+        "o_nom_pct": 24.59,
+        "qo_pct": 11.48,
+        "bench_pct": 19.67,
+        "d_top_pct": 8.2,
+        "l_appl_pct": 8.2,
+        "edy_pct": 29.51,
+        "aiin_pct": 13.11,
+        "dy_pct": 11.48,
+        "am_pct": 4.92
+      },
+      "diagram_shared_idf": 3.633,
+      "diagram_shared_stems": [
+        "odai"
+      ],
+      "celestial_clinical_bridge_idf": 8.597,
+      "bridge_stems": [
+        "odai",
+        "ekch",
+        "oe"
+      ],
+      "dominant_external_section": "S",
+      "section_routing_idf": {
+        "H": 18.986,
+        "A": 9.696,
+        "Z": 0,
+        "B": 11.719,
+        "P": 6.062,
+        "S": 22.619
+      },
+      "opening_eva": "pdsheody shdol shey otchdy dshedy soeeedy dchefoey",
+      "opening_gloss": "BARE[PDSHE]:PERF_DONE HERB_BENCH[DO]:FLUID_L HERB_BENCH[EY]:STATE_Y NOM_SPEC[CH]:PERF_DONE TOP_LOC[SH]:PROC_SIMMER SEQ_CONT[OE]:PROC_SIMMER TOP_LOC[CHEFO]:STATE_Y",
+      "closing_eva": "pchey qokeey chor ol shedy",
+      "closing_gloss": "BARE[PCH]:STATE_Y ACT_BOIL[EE]:STATE_Y HERB_BENCH[OR]:SOURCE_R BARE[OL]:FLUID_L HERB_BENCH[ED]:PERF_DONE"
+    },
+    {
+      "para_id": "f85r1.P2",
+      "folio": "f85r1",
+      "line_range": "7\u201310",
+      "metrics": {
+        "n_tokens": 36,
+        "n_unique_stems": 27,
+        "mean_len": 5.556,
+        "o_nom_pct": 13.89,
+        "qo_pct": 25.0,
+        "bench_pct": 27.78,
+        "d_top_pct": 13.89,
+        "l_appl_pct": 5.56,
+        "edy_pct": 13.89,
+        "aiin_pct": 11.11,
+        "dy_pct": 19.44,
+        "am_pct": 2.78
+      },
+      "diagram_shared_idf": 5.657,
+      "diagram_shared_stems": [
+        "efch",
+        "esh"
+      ],
+      "celestial_clinical_bridge_idf": 9.136,
+      "bridge_stems": [
+        "kchd",
+        "efch",
+        "esh"
+      ],
+      "dominant_external_section": "S",
+      "section_routing_idf": {
+        "H": 16.654,
+        "A": 3.479,
+        "Z": 2.535,
+        "B": 9.136,
+        "P": 0,
+        "S": 20.98
+      },
+      "opening_eva": "pchedy oraiin shefchdy qopar sheedy qokedy qotchedy",
+      "opening_gloss": "BARE[PCH]:PROC_SIMMER FLOW_LIQ[AI]:DOSE_AIIN HERB_BENCH[EFCH]:PERF_DONE ACT_BOIL[PA]:SOURCE_R HERB_BENCH[EE]:PROC_SIMMER ACT_BOIL[ED]:PERF_DONE ACT_BOIL[CH]:PROC_SIMMER",
+      "closing_eva": "ofar dair chotaiin cheod cheolkeedy",
+      "closing_gloss": "NOM_SPEC[FA]:SOURCE_R TOP_LOC[IR]:SOURCE_R HERB_BENCH[OT]:DOSE_AIIN HERB_BENCH[EOD]:ROOT HERB_BENCH[EOLK]:PROC_SIMMER"
+    },
+    {
+      "para_id": "f85r1.P3",
+      "folio": "f85r1",
+      "line_range": "11\u201316",
+      "metrics": {
+        "n_tokens": 61,
+        "n_unique_stems": 38,
+        "mean_len": 5.066,
+        "o_nom_pct": 18.03,
+        "qo_pct": 8.2,
+        "bench_pct": 21.31,
+        "d_top_pct": 16.39,
+        "l_appl_pct": 14.75,
+        "edy_pct": 4.92,
+        "aiin_pct": 21.31,
+        "dy_pct": 9.84,
+        "am_pct": 1.64
+      },
+      "diagram_shared_idf": 2.94,
+      "diagram_shared_stems": [
+        "pd"
+      ],
+      "celestial_clinical_bridge_idf": 2.94,
+      "bridge_stems": [
+        "pd"
+      ],
+      "dominant_external_section": "P",
+      "section_routing_idf": {
+        "H": 5.475,
+        "A": 0,
+        "Z": 0,
+        "B": 2.94,
+        "P": 10.206,
+        "S": 5.475
+      },
+      "opening_eva": "pdar ol shdair qopcheedy dal chdal chor",
+      "opening_gloss": "BARE[PD]:SOURCE_R BARE[OL]:FLUID_L HERB_BENCH[DAI]:SOURCE_R ACT_BOIL[PCH]:PROC_SIMMER TOP_LOC[AL]:FLUID_L HERB_BENCH[DA]:FLUID_L HERB_BENCH[OR]:SOURCE_R",
+      "closing_eva": "olky shoiin qokar okar cheey",
+      "closing_gloss": "APPL_VESSEL[KY]:STATE_Y HERB_BENCH[OI]:DOSE_AIIN ACT_BOIL[AR]:SOURCE_R NOM_SPEC[AR]:SOURCE_R HERB_BENCH[EE]:STATE_Y"
+    },
+    {
+      "para_id": "f85r1.P4",
+      "folio": "f85r1",
+      "line_range": "17\u201319",
+      "metrics": {
+        "n_tokens": 25,
+        "n_unique_stems": 17,
+        "mean_len": 5.4,
+        "o_nom_pct": 24.0,
+        "qo_pct": 12.0,
+        "bench_pct": 24.0,
+        "d_top_pct": 12.0,
+        "l_appl_pct": 12.0,
+        "edy_pct": 12.0,
+        "aiin_pct": 8.0,
+        "dy_pct": 8.0,
+        "am_pct": 16.0
+      },
+      "diagram_shared_idf": 0,
+      "diagram_shared_stems": [],
+      "celestial_clinical_bridge_idf": 2.717,
+      "bridge_stems": [
+        "ked"
+      ],
+      "dominant_external_section": "B",
+      "section_routing_idf": {
+        "H": 7.449,
+        "A": 2.717,
+        "Z": 0,
+        "B": 10.166,
+        "P": 0,
+        "S": 10.166
+      },
+      "opening_eva": "polky shey olkedaiin shor cphedy dair shy",
+      "opening_gloss": "BARE[POLK]:STATE_Y HERB_BENCH[EY]:STATE_Y APPL_VESSEL[KED]:DOSE_AIIN HERB_BENCH[OR]:SOURCE_R HERB_BENCH[CPH]:PERF_DONE TOP_LOC[IR]:SOURCE_R SEQ_CONT[HY]:STATE_Y",
+      "closing_eva": "okchy okchdy otchedy dam lam",
+      "closing_gloss": "NOM_SPEC[CH]:STATE_Y NOM_SPEC[CH]:PERF_DONE NOM_SPEC[CH]:PROC_SIMMER TOP_LOC[AM]:FINAL_M APPL_VESSEL[AM]:FINAL_M"
+    },
+    {
+      "para_id": "f85r1.P5",
+      "folio": "f85r1",
+      "line_range": "20\u201322",
+      "metrics": {
+        "n_tokens": 27,
+        "n_unique_stems": 18,
+        "mean_len": 5.519,
+        "o_nom_pct": 22.22,
+        "qo_pct": 14.81,
+        "bench_pct": 25.93,
+        "d_top_pct": 11.11,
+        "l_appl_pct": 7.41,
+        "edy_pct": 25.93,
+        "aiin_pct": 14.81,
+        "dy_pct": 18.52,
+        "am_pct": 0.0
+      },
+      "diagram_shared_idf": 2.592,
+      "diagram_shared_stems": [
+        "fo"
+      ],
+      "celestial_clinical_bridge_idf": 2.592,
+      "bridge_stems": [
+        "fo"
+      ],
+      "dominant_external_section": "S",
+      "section_routing_idf": {
+        "H": 11.659,
+        "A": 3.816,
+        "Z": 3.816,
+        "B": 5.309,
+        "P": 5.714,
+        "S": 15.474
+      },
+      "opening_eva": "pcheo kshedy qocphdy qofol shdaldy dairar cheeteey",
+      "opening_gloss": "BARE[PCHEO]:ROOT BARE[KSH]:PROC_SIMMER ACT_BOIL[CPH]:PERF_DONE ACT_BOIL[FO]:FLUID_L HERB_BENCH[DAL]:PERF_DONE TOP_LOC[IR]:SOURCE_R HERB_BENCH[EETE]:STATE_Y",
+      "closing_eva": "tar chedy oraiin ychedy okedy",
+      "closing_gloss": "BARE[TA]:SOURCE_R HERB_BENCH[ED]:PERF_DONE FLOW_LIQ[AI]:DOSE_AIIN NOM_SPEC[CH]:PROC_SIMMER NOM_SPEC[ED]:PERF_DONE"
+    },
+    {
+      "para_id": "f85r1.P6",
+      "folio": "f85r1",
+      "line_range": "23\u201325",
+      "metrics": {
+        "n_tokens": 26,
+        "n_unique_stems": 19,
+        "mean_len": 5.885,
+        "o_nom_pct": 7.69,
+        "qo_pct": 15.38,
+        "bench_pct": 34.62,
+        "d_top_pct": 7.69,
+        "l_appl_pct": 3.85,
+        "edy_pct": 26.92,
+        "aiin_pct": 15.38,
+        "dy_pct": 15.38,
+        "am_pct": 3.85
+      },
+      "diagram_shared_idf": 6.918,
+      "diagram_shared_stems": [
+        "tedai",
+        "pchd"
+      ],
+      "celestial_clinical_bridge_idf": 2.592,
+      "bridge_stems": [
+        "pchd"
+      ],
+      "dominant_external_section": "S",
+      "section_routing_idf": {
+        "H": 6.407,
+        "A": 0,
+        "Z": 0,
+        "B": 3.816,
+        "P": 0,
+        "S": 10.734
+      },
+      "opening_eva": "pchdaiin shodaiin shofshedy yteody ypar ches aiin",
+      "opening_gloss": "BARE[PCHD]:DOSE_AIIN HERB_BENCH[OD]:DOSE_AIIN HERB_BENCH[OFSH]:PROC_SIMMER NOM_SPEC[EO]:PERF_DONE BARE[PA]:SOURCE_R HERB_BENCH[ES]:ROOT BARE[AI]:DOSE_AIIN",
+      "closing_eva": "schedaiir oteody chcthdy qokaiin ykchedy",
+      "closing_gloss": "SEQ_CONT[CHEDAII]:SOURCE_R NOM_SPEC[EO]:PERF_DONE HERB_BENCH[CTH]:PERF_DONE ACT_BOIL[AI]:DOSE_AIIN NOM_SPEC[CH]:PROC_SIMMER"
+    },
+    {
+      "para_id": "f85r1.P7",
+      "folio": "f85r1",
+      "line_range": "26\u201327",
+      "metrics": {
+        "n_tokens": 21,
+        "n_unique_stems": 16,
+        "mean_len": 5.143,
+        "o_nom_pct": 23.81,
+        "qo_pct": 19.05,
+        "bench_pct": 14.29,
+        "d_top_pct": 14.29,
+        "l_appl_pct": 4.76,
+        "edy_pct": 14.29,
+        "aiin_pct": 14.29,
+        "dy_pct": 19.05,
+        "am_pct": 0.0
+      },
+      "diagram_shared_idf": 3.027,
+      "diagram_shared_stems": [
+        "kar"
+      ],
+      "celestial_clinical_bridge_idf": 3.027,
+      "bridge_stems": [
+        "kar"
+      ],
+      "dominant_external_section": "H",
+      "section_routing_idf": {
+        "H": 10.07,
+        "A": 0,
+        "Z": 0,
+        "B": 3.027,
+        "P": 0,
+        "S": 10.07
+      },
+      "opening_eva": "pchdair or shshdar qopchedy opchdy qofchdy dar",
+      "opening_gloss": "BARE[PCHDAI]:SOURCE_R BARE[OR]:SOURCE_R HERB_BENCH[SHD]:SOURCE_R ACT_BOIL[PCH]:PROC_SIMMER NOM_SPEC[PCH]:PERF_DONE ACT_BOIL[FCH]:PERF_DONE TOP_LOC[AR]:SOURCE_R",
+      "closing_eva": "qokal saiin ol karar odeeeg",
+      "closing_gloss": "ACT_BOIL[AL]:FLUID_L SEQ_CONT[II]:DOSE_AIIN BARE[OL]:FLUID_L BARE[KAR]:SOURCE_R NOM_SPEC[DEEEG]:ROOT"
+    },
+    {
+      "para_id": "f85r1.P8",
+      "folio": "f85r1",
+      "line_range": "28\u201330",
+      "metrics": {
+        "n_tokens": 33,
+        "n_unique_stems": 20,
+        "mean_len": 4.879,
+        "o_nom_pct": 48.48,
+        "qo_pct": 6.06,
+        "bench_pct": 15.15,
+        "d_top_pct": 6.06,
+        "l_appl_pct": 3.03,
+        "edy_pct": 12.12,
+        "aiin_pct": 6.06,
+        "dy_pct": 24.24,
+        "am_pct": 6.06
+      },
+      "diagram_shared_idf": 0,
+      "diagram_shared_stems": [],
+      "celestial_clinical_bridge_idf": 0,
+      "bridge_stems": [],
+      "dominant_external_section": "S",
+      "section_routing_idf": {
+        "H": 3.122,
+        "A": 0,
+        "Z": 0,
+        "B": 4.039,
+        "P": 3.122,
+        "S": 7.161
+      },
+      "opening_eva": "kchedar yteol okchdy qekedy otor odor ar",
+      "opening_gloss": "BARE[KCHED]:SOURCE_R NOM_SPEC[EO]:FLUID_L NOM_SPEC[CH]:PERF_DONE BARE[EK]:PROC_SIMMER NOM_SPEC[OR]:SOURCE_R NOM_SPEC[DO]:SOURCE_R BARE[AR]:SOURCE_R",
+      "closing_eva": "chdy chdy otal otchdy otalom",
+      "closing_gloss": "HERB_BENCH[DY]:STATE_Y HERB_BENCH[DY]:STATE_Y NOM_SPEC[AL]:FLUID_L NOM_SPEC[CH]:PERF_DONE NOM_SPEC[AL]:FINAL_M"
+    },
+    {
+      "para_id": "f85r1.P9",
+      "folio": "f85r1",
+      "line_range": "31\u201335",
+      "metrics": {
+        "n_tokens": 49,
+        "n_unique_stems": 28,
+        "mean_len": 4.898,
+        "o_nom_pct": 24.49,
+        "qo_pct": 10.2,
+        "bench_pct": 18.37,
+        "d_top_pct": 6.12,
+        "l_appl_pct": 10.2,
+        "edy_pct": 10.2,
+        "aiin_pct": 10.2,
+        "dy_pct": 12.24,
+        "am_pct": 2.04
+      },
+      "diagram_shared_idf": 2.592,
+      "diagram_shared_stems": [
+        "pchd"
+      ],
+      "celestial_clinical_bridge_idf": 2.592,
+      "bridge_stems": [
+        "pchd"
+      ],
+      "dominant_external_section": "H",
+      "section_routing_idf": {
+        "H": 12.279,
+        "A": 0,
+        "Z": 0,
+        "B": 6.66,
+        "P": 9.687,
+        "S": 12.279
+      },
+      "opening_eva": "podaiin shdar ypchdar dar ypchdy qopol dar",
+      "opening_gloss": "BARE[POD]:DOSE_AIIN HERB_BENCH[DA]:SOURCE_R BARE[PCHD]:SOURCE_R TOP_LOC[AR]:SOURCE_R BARE[PCH]:PERF_DONE ACT_BOIL[PO]:FLUID_L TOP_LOC[AR]:SOURCE_R",
+      "closing_eva": "ar chedar olpchdy otol otchedy",
+      "closing_gloss": "BARE[AR]:SOURCE_R HERB_BENCH[ED]:SOURCE_R APPL_VESSEL[PCH]:PERF_DONE NOM_SPEC[OL]:FLUID_L NOM_SPEC[CH]:PROC_SIMMER"
+    },
+    {
+      "para_id": "f86v4.P1",
+      "folio": "f86v4",
+      "line_range": "5\u20139",
+      "metrics": {
+        "n_tokens": 46,
+        "n_unique_stems": 23,
+        "mean_len": 4.413,
+        "o_nom_pct": 15.22,
+        "qo_pct": 13.04,
+        "bench_pct": 13.04,
+        "d_top_pct": 8.7,
+        "l_appl_pct": 26.09,
+        "edy_pct": 8.7,
+        "aiin_pct": 10.87,
+        "dy_pct": 4.35,
+        "am_pct": 2.17
+      },
+      "diagram_shared_idf": 6.506,
+      "diagram_shared_stems": [
+        "pcheod",
+        "keeod"
+      ],
+      "celestial_clinical_bridge_idf": 9.041,
+      "bridge_stems": [
+        "pcheod",
+        "keeod",
+        "eockh"
+      ],
+      "dominant_external_section": "H",
+      "section_routing_idf": {
+        "H": 13.367,
+        "A": 5.562,
+        "Z": 2.535,
+        "B": 4.326,
+        "P": 5.562,
+        "S": 9.041
+      },
+      "opening_eva": "pcheodar oedy qokeol qoeoloqokeol dar ol olair",
+      "opening_gloss": "BARE[PCHEOD]:SOURCE_R NOM_SPEC[ED]:PERF_DONE ACT_BOIL[EO]:FLUID_L ACT_BOIL[EOLOQOKE]:FLUID_L TOP_LOC[AR]:SOURCE_R BARE[OL]:FLUID_L APPL_VESSEL[AI]:SOURCE_R",
+      "closing_eva": "daiin dar oleey ol yy",
+      "closing_gloss": "TOP_LOC[II]:DOSE_AIIN TOP_LOC[AR]:SOURCE_R APPL_VESSEL[EE]:STATE_Y BARE[OL]:FLUID_L BARE[YY]:STATE_Y"
+    },
+    {
+      "para_id": "f86v6.P1",
+      "folio": "f86v6",
+      "line_range": "1\u201312",
+      "metrics": {
+        "n_tokens": 130,
+        "n_unique_stems": 51,
+        "mean_len": 4.969,
+        "o_nom_pct": 17.69,
+        "qo_pct": 16.92,
+        "bench_pct": 22.31,
+        "d_top_pct": 6.92,
+        "l_appl_pct": 13.08,
+        "edy_pct": 7.69,
+        "aiin_pct": 14.62,
+        "dy_pct": 7.69,
+        "am_pct": 1.54
+      },
+      "diagram_shared_idf": 10.952,
+      "diagram_shared_stems": [
+        "por",
+        "pchd",
+        "air",
+        "py"
+      ],
+      "celestial_clinical_bridge_idf": 18.065,
+      "bridge_stems": [
+        "edal",
+        "fy",
+        "por",
+        "pchd",
+        "air",
+        "py"
+      ],
+      "dominant_external_section": "H",
+      "section_routing_idf": {
+        "H": 24.415,
+        "A": 7.112,
+        "Z": 16.454,
+        "B": 17.533,
+        "P": 8.702,
+        "S": 23.316
+      },
+      "opening_eva": "pcheypchdar opory ches aiin ofy chedy otedalol",
+      "opening_gloss": "BARE[PCHEYPCHD]:SOURCE_R NOM_SPEC[POR]:STATE_Y HERB_BENCH[ES]:ROOT BARE[AI]:DOSE_AIIN NOM_SPEC[FY]:STATE_Y HERB_BENCH[ED]:PERF_DONE NOM_SPEC[EDAL]:FLUID_L",
+      "closing_eva": "ar ykeealor qokal otar ykairolky",
+      "closing_gloss": "BARE[AR]:SOURCE_R NOM_SPEC[EEAL]:SOURCE_R ACT_BOIL[AL]:FLUID_L NOM_SPEC[AR]:SOURCE_R NOM_SPEC[AIROLK]:STATE_Y"
+    },
+    {
+      "para_id": "f86v6.P2",
+      "folio": "f86v6",
+      "line_range": "13\u201319",
+      "metrics": {
+        "n_tokens": 73,
+        "n_unique_stems": 36,
+        "mean_len": 5.096,
+        "o_nom_pct": 19.18,
+        "qo_pct": 12.33,
+        "bench_pct": 20.55,
+        "d_top_pct": 5.48,
+        "l_appl_pct": 12.33,
+        "edy_pct": 4.11,
+        "aiin_pct": 24.66,
+        "dy_pct": 4.11,
+        "am_pct": 4.11
+      },
+      "diagram_shared_idf": 0,
+      "diagram_shared_stems": [],
+      "celestial_clinical_bridge_idf": 4.326,
+      "bridge_stems": [
+        "ard"
+      ],
+      "dominant_external_section": "S",
+      "section_routing_idf": {
+        "H": 4.326,
+        "A": 4.326,
+        "Z": 0,
+        "B": 6.532,
+        "P": 6.532,
+        "S": 11.264
+      },
+      "opening_eva": "oly qopaiin yfchdy cpholkaiin cholfchy qopar aroiiin",
+      "opening_gloss": "NOM_SPEC[LY]:STATE_Y ACT_BOIL[PA]:DOSE_AIIN BARE[FCH]:PERF_DONE HERB_BENCH[CPHOLK]:DOSE_AIIN HERB_BENCH[OLFCH]:STATE_Y ACT_BOIL[PA]:SOURCE_R FLOW_LIQ[OI]:DOSE_AIIN",
+      "closing_eva": "pchecfhey or aiiin qokaiin cholkar",
+      "closing_gloss": "BARE[PCHECFH]:STATE_Y BARE[OR]:SOURCE_R BARE[AI]:DOSE_AIIN ACT_BOIL[AI]:DOSE_AIIN HERB_BENCH[OLK]:SOURCE_R"
+    },
+    {
+      "para_id": "f86v6.P3",
+      "folio": "f86v6",
+      "line_range": "20\u201329",
+      "metrics": {
+        "n_tokens": 112,
+        "n_unique_stems": 49,
+        "mean_len": 5.107,
+        "o_nom_pct": 16.07,
+        "qo_pct": 16.96,
+        "bench_pct": 15.18,
+        "d_top_pct": 11.61,
+        "l_appl_pct": 11.61,
+        "edy_pct": 13.39,
+        "aiin_pct": 11.61,
+        "dy_pct": 10.71,
+        "am_pct": 3.57
+      },
+      "diagram_shared_idf": 11.593,
+      "diagram_shared_stems": [
+        "kshd",
+        "fod",
+        "pd"
+      ],
+      "celestial_clinical_bridge_idf": 10.612,
+      "bridge_stems": [
+        "kshd",
+        "keod",
+        "pd"
+      ],
+      "dominant_external_section": "H",
+      "section_routing_idf": {
+        "H": 29.74,
+        "A": 0,
+        "Z": 3.346,
+        "B": 6.756,
+        "P": 5.967,
+        "S": 25.009
+      },
+      "opening_eva": "pdaiiiycorr otol podaiin ocphey opchor olkshed qofod",
+      "opening_gloss": "BARE[PDAIIIYCOR]:SOURCE_R NOM_SPEC[OL]:FLUID_L BARE[POD]:DOSE_AIIN NOM_SPEC[CPH]:STATE_Y NOM_SPEC[PCH]:SOURCE_R APPL_VESSEL[KSHED]:ROOT ACT_BOIL[FOD]:ROOT",
+      "closing_eva": "ykaiin chedy dy dal shdaiin",
+      "closing_gloss": "NOM_SPEC[AI]:DOSE_AIIN HERB_BENCH[ED]:PERF_DONE BARE[DY]:STATE_Y TOP_LOC[AL]:FLUID_L HERB_BENCH[DA]:DOSE_AIIN"
+    },
+    {
+      "para_id": "f86v6.P4",
+      "folio": "f86v6",
+      "line_range": "30\u201345",
+      "metrics": {
+        "n_tokens": 166,
+        "n_unique_stems": 61,
+        "mean_len": 4.928,
+        "o_nom_pct": 18.07,
+        "qo_pct": 22.89,
+        "bench_pct": 12.65,
+        "d_top_pct": 5.42,
+        "l_appl_pct": 19.28,
+        "edy_pct": 3.61,
+        "aiin_pct": 22.89,
+        "dy_pct": 5.42,
+        "am_pct": 3.61
+      },
+      "diagram_shared_idf": 12.636,
+      "diagram_shared_stems": [
+        "se",
+        "alk",
+        "efch",
+        "kal"
+      ],
+      "celestial_clinical_bridge_idf": 21.233,
+      "bridge_stems": [
+        "se",
+        "alk",
+        "oka",
+        "efch",
+        "par",
+        "kal",
+        "eockh"
+      ],
+      "dominant_external_section": "H",
+      "section_routing_idf": {
+        "H": 37.18,
+        "A": 5.475,
+        "Z": 14.477,
+        "B": 26.202,
+        "P": 9.108,
+        "S": 33.547
+      },
+      "opening_eva": "polkeey tshed qopchey paroiin chefchy qopar qopchedy",
+      "opening_gloss": "BARE[POLKE]:STATE_Y BARE[TSHED]:ROOT ACT_BOIL[PCH]:STATE_Y BARE[PAR]:DOSE_AIIN HERB_BENCH[EFCH]:STATE_Y ACT_BOIL[PA]:SOURCE_R ACT_BOIL[PCH]:PROC_SIMMER",
+      "closing_eva": "qokshey ar otalky chear aiodam",
+      "closing_gloss": "ACT_BOIL[SH]:STATE_Y BARE[AR]:SOURCE_R NOM_SPEC[ALK]:STATE_Y HERB_BENCH[EA]:SOURCE_R BARE[AIOD]:FINAL_M"
+    },
+    {
+      "para_id": "f86v5.P1",
+      "folio": "f86v5",
+      "line_range": "1\u20136",
+      "metrics": {
+        "n_tokens": 62,
+        "n_unique_stems": 36,
+        "mean_len": 4.871,
+        "o_nom_pct": 22.58,
+        "qo_pct": 11.29,
+        "bench_pct": 20.97,
+        "d_top_pct": 4.84,
+        "l_appl_pct": 11.29,
+        "edy_pct": 4.84,
+        "aiin_pct": 14.52,
+        "dy_pct": 6.45,
+        "am_pct": 6.45
+      },
+      "diagram_shared_idf": 2.481,
+      "diagram_shared_stems": [
+        "py"
+      ],
+      "celestial_clinical_bridge_idf": 2.481,
+      "bridge_stems": [
+        "py"
+      ],
+      "dominant_external_section": "S",
+      "section_routing_idf": {
+        "H": 10.335,
+        "A": 0,
+        "Z": 2.481,
+        "B": 6.296,
+        "P": 0,
+        "S": 15.066
+      },
+      "opening_eva": "pshdal choky sheody lfchy fyshey qoty opy",
+      "opening_gloss": "BARE[PSHD]:FLUID_L HERB_BENCH[OK]:STATE_Y HERB_BENCH[EO]:PERF_DONE BARE[FCH]:STATE_Y BARE[FYSH]:STATE_Y ACT_BOIL[TY]:STATE_Y NOM_SPEC[PY]:STATE_Y",
+      "closing_eva": "ytar ytaiin shdam araiiin ytaiin",
+      "closing_gloss": "NOM_SPEC[AR]:SOURCE_R NOM_SPEC[AI]:DOSE_AIIN HERB_BENCH[DA]:FINAL_M FLOW_LIQ[AI]:DOSE_AIIN NOM_SPEC[AI]:DOSE_AIIN"
+    },
+    {
+      "para_id": "f86v5.P2",
+      "folio": "f86v5",
+      "line_range": "7\u201311",
+      "metrics": {
+        "n_tokens": 51,
+        "n_unique_stems": 26,
+        "mean_len": 4.706,
+        "o_nom_pct": 25.49,
+        "qo_pct": 7.84,
+        "bench_pct": 17.65,
+        "d_top_pct": 0.0,
+        "l_appl_pct": 9.8,
+        "edy_pct": 3.92,
+        "aiin_pct": 15.69,
+        "dy_pct": 3.92,
+        "am_pct": 7.84
+      },
+      "diagram_shared_idf": 2.94,
+      "diagram_shared_stems": [
+        "pd"
+      ],
+      "celestial_clinical_bridge_idf": 2.94,
+      "bridge_stems": [
+        "pd"
+      ],
+      "dominant_external_section": "H",
+      "section_routing_idf": {
+        "H": 6.062,
+        "A": 0,
+        "Z": 0,
+        "B": 6.062,
+        "P": 2.94,
+        "S": 6.062
+      },
+      "opening_eva": "pdaiin qoteedy opchey qopor otol kshdy qopcheey",
+      "opening_gloss": "BARE[PD]:DOSE_AIIN ACT_BOIL[EE]:PROC_SIMMER NOM_SPEC[PCH]:STATE_Y ACT_BOIL[PO]:SOURCE_R NOM_SPEC[OL]:FLUID_L BARE[KSH]:PERF_DONE ACT_BOIL[PCHE]:STATE_Y",
+      "closing_eva": "ytal chey otal aiiin olkam",
+      "closing_gloss": "NOM_SPEC[AL]:FLUID_L HERB_BENCH[EY]:STATE_Y NOM_SPEC[AL]:FLUID_L BARE[AI]:DOSE_AIIN APPL_VESSEL[KA]:FINAL_M"
+    },
+    {
+      "para_id": "f86v5.P3",
+      "folio": "f86v5",
+      "line_range": "12\u201317",
+      "metrics": {
+        "n_tokens": 61,
+        "n_unique_stems": 30,
+        "mean_len": 4.607,
+        "o_nom_pct": 16.39,
+        "qo_pct": 11.48,
+        "bench_pct": 9.84,
+        "d_top_pct": 6.56,
+        "l_appl_pct": 11.48,
+        "edy_pct": 1.64,
+        "aiin_pct": 22.95,
+        "dy_pct": 8.2,
+        "am_pct": 4.92
+      },
+      "diagram_shared_idf": 0,
+      "diagram_shared_stems": [],
+      "celestial_clinical_bridge_idf": 2.717,
+      "bridge_stems": [
+        "tai"
+      ],
+      "dominant_external_section": "S",
+      "section_routing_idf": {
+        "H": 7.043,
+        "A": 2.717,
+        "Z": 4.039,
+        "B": 2.717,
+        "P": 0,
+        "S": 11.082
+      },
+      "opening_eva": "poraiiidy otshs al ar shey tair sheody",
+      "opening_gloss": "BARE[PORAIII]:PERF_DONE NOM_SPEC[SH]:ROOT BARE[AL]:FLUID_L BARE[AR]:SOURCE_R HERB_BENCH[EY]:STATE_Y BARE[TAI]:SOURCE_R HERB_BENCH[EO]:PERF_DONE",
+      "closing_eva": "ykaiin qotal yshey otaiin olkam",
+      "closing_gloss": "NOM_SPEC[AI]:DOSE_AIIN ACT_BOIL[AL]:FLUID_L NOM_SPEC[SH]:STATE_Y NOM_SPEC[AI]:DOSE_AIIN APPL_VESSEL[KA]:FINAL_M"
+    },
+    {
+      "para_id": "f86v5.P4",
+      "folio": "f86v5",
+      "line_range": "18\u201325",
+      "metrics": {
+        "n_tokens": 76,
+        "n_unique_stems": 31,
+        "mean_len": 4.842,
+        "o_nom_pct": 27.63,
+        "qo_pct": 6.58,
+        "bench_pct": 11.84,
+        "d_top_pct": 1.32,
+        "l_appl_pct": 9.21,
+        "edy_pct": 1.32,
+        "aiin_pct": 30.26,
+        "dy_pct": 5.26,
+        "am_pct": 0.0
+      },
+      "diagram_shared_idf": 0,
+      "diagram_shared_stems": [],
+      "celestial_clinical_bridge_idf": 0,
+      "bridge_stems": [],
+      "dominant_external_section": "H",
+      "section_routing_idf": {
+        "H": 4.732,
+        "A": 0,
+        "Z": 0,
+        "B": 0,
+        "P": 0,
+        "S": 4.732
+      },
+      "opening_eva": "poldaiin shea teraiin otcho lkaiin os al",
+      "opening_gloss": "BARE[POLD]:DOSE_AIIN HERB_BENCH[EA]:ROOT BARE[TER]:DOSE_AIIN NOM_SPEC[CHO]:ROOT APPL_VESSEL[KA]:DOSE_AIIN BARE[OS]:ROOT BARE[AL]:FLUID_L",
+      "closing_eva": "kain ar alosheey qoeey lkesy",
+      "closing_gloss": "BARE[KA]:DOSE_AIIN BARE[AR]:SOURCE_R APPL_VESSEL[OSHE]:STATE_Y ACT_BOIL[EE]:STATE_Y APPL_VESSEL[KES]:STATE_Y"
+    },
+    {
+      "para_id": "f86v5.P5",
+      "folio": "f86v5",
+      "line_range": "26\u201339",
+      "metrics": {
+        "n_tokens": 133,
+        "n_unique_stems": 46,
+        "mean_len": 4.692,
+        "o_nom_pct": 17.29,
+        "qo_pct": 10.53,
+        "bench_pct": 15.79,
+        "d_top_pct": 6.77,
+        "l_appl_pct": 9.77,
+        "edy_pct": 5.26,
+        "aiin_pct": 12.78,
+        "dy_pct": 16.54,
+        "am_pct": 5.26
+      },
+      "diagram_shared_idf": 6.168,
+      "diagram_shared_stems": [
+        "teo",
+        "esh"
+      ],
+      "celestial_clinical_bridge_idf": 7.875,
+      "bridge_stems": [
+        "sheo",
+        "esh",
+        "chee"
+      ],
+      "dominant_external_section": "S",
+      "section_routing_idf": {
+        "H": 14.12,
+        "A": 6.807,
+        "Z": 9.028,
+        "B": 7.444,
+        "P": 7.77,
+        "S": 25.558
+      },
+      "opening_eva": "pochor aiir shoar pshody shody qopchy ocfhdy",
+      "opening_gloss": "BARE[POCH]:SOURCE_R BARE[AII]:SOURCE_R HERB_BENCH[OA]:SOURCE_R BARE[PSH]:PERF_DONE HERB_BENCH[OD]:PERF_DONE ACT_BOIL[PCH]:STATE_Y NOM_SPEC[CFH]:PERF_DONE",
+      "closing_eva": "yteody chedy qoteey octhy dy",
+      "closing_gloss": "NOM_SPEC[EO]:PERF_DONE HERB_BENCH[ED]:PERF_DONE ACT_BOIL[EE]:STATE_Y NOM_SPEC[CTH]:STATE_Y BARE[DY]:STATE_Y"
+    },
+    {
+      "para_id": "f86v3.P1",
+      "folio": "f86v3",
+      "line_range": "15\u201317",
+      "metrics": {
+        "n_tokens": 18,
+        "n_unique_stems": 17,
+        "mean_len": 6.167,
+        "o_nom_pct": 16.67,
+        "qo_pct": 11.11,
+        "bench_pct": 11.11,
+        "d_top_pct": 22.22,
+        "l_appl_pct": 5.56,
+        "edy_pct": 0.0,
+        "aiin_pct": 11.11,
+        "dy_pct": 27.78,
+        "am_pct": 0.0
+      },
+      "diagram_shared_idf": 0,
+      "diagram_shared_stems": [],
+      "celestial_clinical_bridge_idf": 6.088,
+      "bridge_stems": [
+        "ocfh",
+        "eoda"
+      ],
+      "dominant_external_section": "H",
+      "section_routing_idf": {
+        "H": 10.126,
+        "A": 6.088,
+        "Z": 0,
+        "B": 0,
+        "P": 6.088,
+        "S": 10.126
+      },
+      "opening_eva": "tshdey dalkshdy shocfhy saiin or airodychedaly dcheody",
+      "opening_gloss": "BARE[TSHD]:STATE_Y TOP_LOC[LKSH]:PERF_DONE HERB_BENCH[OCFH]:STATE_Y SEQ_CONT[II]:DOSE_AIIN BARE[OR]:SOURCE_R BARE[AIRODYCHEDAL]:STATE_Y TOP_LOC[CHE]:PERF_DONE",
+      "closing_eva": "qokchey dal or odaiin sar",
+      "closing_gloss": "ACT_BOIL[CH]:STATE_Y TOP_LOC[AL]:FLUID_L BARE[OR]:SOURCE_R NOM_SPEC[DA]:DOSE_AIIN SEQ_CONT[AR]:SOURCE_R"
+    },
+    {
+      "para_id": "f86v3.P2",
+      "folio": "f86v3",
+      "line_range": "18\u201322",
+      "metrics": {
+        "n_tokens": 38,
+        "n_unique_stems": 26,
+        "mean_len": 5.474,
+        "o_nom_pct": 5.26,
+        "qo_pct": 13.16,
+        "bench_pct": 18.42,
+        "d_top_pct": 15.79,
+        "l_appl_pct": 10.53,
+        "edy_pct": 7.89,
+        "aiin_pct": 2.63,
+        "dy_pct": 26.32,
+        "am_pct": 7.89
+      },
+      "diagram_shared_idf": 0,
+      "diagram_shared_stems": [],
+      "celestial_clinical_bridge_idf": 2.94,
+      "bridge_stems": [
+        "aiin"
+      ],
+      "dominant_external_section": "B",
+      "section_routing_idf": {
+        "H": 3.633,
+        "A": 2.94,
+        "Z": 2.94,
+        "B": 6.573,
+        "P": 3.633,
+        "S": 2.94
+      },
+      "opening_eva": "pchedaiin dchedy qokchdy qopchol sholsheody solkam dchey",
+      "opening_gloss": "BARE[PCHED]:DOSE_AIIN TOP_LOC[CH]:PROC_SIMMER ACT_BOIL[CH]:PERF_DONE ACT_BOIL[PCH]:FLUID_L HERB_BENCH[OLSHE]:PERF_DONE SEQ_CONT[OLK]:FINAL_M TOP_LOC[CH]:STATE_Y",
+      "closing_eva": "tam ytchdy dar sholor alor",
+      "closing_gloss": "BARE[TA]:FINAL_M NOM_SPEC[CH]:PERF_DONE TOP_LOC[AR]:SOURCE_R HERB_BENCH[OL]:SOURCE_R APPL_VESSEL[OR]:SOURCE_R"
+    }
+  ]
+}
