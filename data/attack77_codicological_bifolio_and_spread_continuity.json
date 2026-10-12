@@ -1,0 +1,447 @@
+{
+  "mixed_quire_bifolio_test": {
+    "mixed_quires": [
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "Q"
+    ],
+    "conjugate_leaf_pairs_tested": 78,
+    "conjugate_same_language_hits": 78,
+    "conjugate_same_language_pct": 100.0,
+    "nonconjugate_leaf_pairs_tested": 414,
+    "nonconjugate_same_language_hits": 160,
+    "nonconjugate_same_language_pct": 38.65,
+    "mixed_quire_bifolia": [
+      {
+        "quire": "D",
+        "bifolio_sheet": "1",
+        "folios": [
+          "f25r(F=a,L=A,H=1)",
+          "f25v(F=a,L=A,H=1)",
+          "f32r(F=z,L=A,H=1)",
+          "f32v(F=z,L=A,H=1)"
+        ],
+        "languages": [
+          "A"
+        ],
+        "is_uniform_language": true
+      },
+      {
+        "quire": "D",
+        "bifolio_sheet": "2",
+        "folios": [
+          "f26r(F=b,L=B,H=2)",
+          "f26v(F=b,L=B,H=2)",
+          "f31r(F=y,L=B,H=2)",
+          "f31v(F=y,L=B,H=2)"
+        ],
+        "languages": [
+          "B"
+        ],
+        "is_uniform_language": true
+      },
+      {
+        "quire": "D",
+        "bifolio_sheet": "3",
+        "folios": [
+          "f27r(F=c,L=A,H=1)",
+          "f27v(F=c,L=A,H=1)",
+          "f30r(F=x,L=A,H=1)",
+          "f30v(F=x,L=A,H=1)"
+        ],
+        "languages": [
+          "A"
+        ],
+        "is_uniform_language": true
+      },
+      {
+        "quire": "D",
+        "bifolio_sheet": "4",
+        "folios": [
+          "f28r(F=d,L=A,H=1)",
+          "f28v(F=d,L=A,H=1)",
+          "f29r(F=w,L=A,H=1)",
+          "f29v(F=w,L=A,H=1)"
+        ],
+        "languages": [
+          "A"
+        ],
+        "is_uniform_language": true
+      },
+      {
+        "quire": "E",
+        "bifolio_sheet": "1",
+        "folios": [
+          "f33r(F=a,L=B,H=2)",
+          "f33v(F=a,L=B,H=2)",
+          "f40r(F=z,L=B,H=2)",
+          "f40v(F=z,L=B,H=2)"
+        ],
+        "languages": [
+          "B"
+        ],
+        "is_uniform_language": true
+      },
+      {
+        "quire": "E",
+        "bifolio_sheet": "2",
+        "folios": [
+          "f34r(F=b,L=B,H=2)",
+          "f34v(F=b,L=B,H=2)",
+          "f39r(F=y,L=B,H=2)",
+          "f39v(F=y,L=B,H=2)"
+        ],
+        "languages": [
+          "B"
+        ],
+        "is_uniform_language": true
+      },
+      {
+        "quire": "E",
+        "bifolio_sheet": "3",
+        "folios": [
+          "f35r(F=c,L=A,H=1)",
+          "f35v(F=c,L=A,H=1)",
+          "f38r(F=x,L=A,H=1)",
+          "f38v(F=x,L=A,H=1)"
+        ],
+        "languages": [
+          "A"
+        ],
+        "is_uniform_language": true
+      },
+      {
+        "quire": "E",
+        "bifolio_sheet": "4",
+        "folios": [
+          "f36r(F=d,L=A,H=1)",
+          "f36v(F=d,L=A,H=1)",
+          "f37r(F=w,L=A,H=1)",
+          "f37v(F=w,L=A,H=1)"
+        ],
+        "languages": [
+          "A"
+        ],
+        "is_uniform_language": true
+      },
+      {
+        "quire": "F",
+        "bifolio_sheet": "1",
+        "folios": [
+          "f41r(F=a,L=B,H=5)",
+          "f41v(F=a,L=B,H=5)",
+          "f48r(F=z,L=B,H=5)",
+          "f48v(F=z,L=B,H=5)"
+        ],
+        "languages": [
+          "B"
+        ],
+        "is_uniform_language": true
+      },
+      {
+        "quire": "F",
+        "bifolio_sheet": "2",
+        "folios": [
+          "f42r(F=b,L=A,H=1)",
+          "f42v(F=b,L=A,H=1)",
+          "f47r(F=y,L=A,H=1)",
+          "f47v(F=y,L=A,H=1)"
+        ],
+        "languages": [
+          "A"
+        ],
+        "is_uniform_language": true
+      },
+      {
+        "quire": "F",
+        "bifolio_sheet": "3",
+        "folios": [
+          "f43r(F=c,L=B,H=2)",
+          "f43v(F=c,L=B,H=2)",
+          "f46r(F=x,L=B,H=2)",
+          "f46v(F=x,L=B,H=2)"
+        ],
+        "languages": [
+          "B"
+        ],
+        "is_uniform_language": true
+      },
+      {
+        "quire": "F",
+        "bifolio_sheet": "4",
+        "folios": [
+          "f44r(F=d,L=A,H=1)",
+          "f44v(F=d,L=A,H=1)",
+          "f45r(F=w,L=A,H=1)",
+          "f45v(F=w,L=A,H=1)"
+        ],
+        "languages": [
+          "A"
+        ],
+        "is_uniform_language": true
+      },
+      {
+        "quire": "G",
+        "bifolio_sheet": "1",
+        "folios": [
+          "f49r(F=a,L=A,H=1)",
+          "f49v(F=a,L=A,H=1)",
+          "f56r(F=z,L=A,H=1)",
+          "f56v(F=z,L=A,H=1)"
+        ],
+        "languages": [
+          "A"
+        ],
+        "is_uniform_language": true
+      },
+      {
+        "quire": "G",
+        "bifolio_sheet": "2",
+        "folios": [
+          "f50r(F=b,L=B,H=2)",
+          "f50v(F=b,L=B,H=2)",
+          "f55r(F=y,L=B,H=2)",
+          "f55v(F=y,L=B,H=2)"
+        ],
+        "languages": [
+          "B"
+        ],
+        "is_uniform_language": true
+      },
+      {
+        "quire": "G",
+        "bifolio_sheet": "3",
+        "folios": [
+          "f51r(F=c,L=A,H=1)",
+          "f51v(F=c,L=A,H=1)",
+          "f54r(F=x,L=A,H=1)",
+          "f54v(F=x,L=A,H=1)"
+        ],
+        "languages": [
+          "A"
+        ],
+        "is_uniform_language": true
+      },
+      {
+        "quire": "G",
+        "bifolio_sheet": "4",
+        "folios": [
+          "f52r(F=d,L=A,H=1)",
+          "f52v(F=d,L=A,H=1)",
+          "f53r(F=w,L=A,H=1)",
+          "f53v(F=w,L=A,H=1)"
+        ],
+        "languages": [
+          "A"
+        ],
+        "is_uniform_language": true
+      },
+      {
+        "quire": "H",
+        "bifolio_sheet": "1",
+        "folios": [
+          "f57r(F=a,L=B,H=5)",
+          "f66r(F=z,L=B,H=5)",
+          "f66v(F=z,L=B,H=5)"
+        ],
+        "languages": [
+          "B"
+        ],
+        "is_uniform_language": true
+      },
+      {
+        "quire": "H",
+        "bifolio_sheet": "2",
+        "folios": [
+          "f58r(F=b,L=A,H=3)",
+          "f58v(F=b,L=A,H=3)"
+        ],
+        "languages": [
+          "A"
+        ],
+        "is_uniform_language": true
+      },
+      {
+        "quire": "Q",
+        "bifolio_sheet": "1",
+        "folios": [
+          "f93r(F=a,L=A,H=1)",
+          "f93v(F=a,L=A,H=1)",
+          "f96r(F=z,L=A,H=1)",
+          "f96v(F=z,L=A,H=1)"
+        ],
+        "languages": [
+          "A"
+        ],
+        "is_uniform_language": true
+      },
+      {
+        "quire": "Q",
+        "bifolio_sheet": "2",
+        "folios": [
+          "f94r(F=b,L=B,H=3)",
+          "f94v(F=b,L=B,H=3)",
+          "f95r1(F=y,L=B,H=3)",
+          "f95r2(F=y,L=B,H=3)",
+          "f95v2(F=y,L=B,H=3)",
+          "f95v1(F=y,L=B,H=3)"
+        ],
+        "languages": [
+          "B"
+        ],
+        "is_uniform_language": true
+      }
+    ]
+  },
+  "within_quire_continuity": {
+    "1_SAME_LEAF_RV": {
+      "pair_count": 112,
+      "mean_stem_jaccard": 0.1491,
+      "mean_word_jaccard": 0.1008,
+      "mean_stem_cosine": 0.4497,
+      "z_vs_unrelated_same_quire": 1.02,
+      "top_pairs": [
+        {
+          "pair": "f103r<->f103v (Q=T,B=1)",
+          "stem_cosine": 0.9258
+        },
+        {
+          "pair": "f80r<->f80v (Q=M,B=5)",
+          "stem_cosine": 0.9187
+        },
+        {
+          "pair": "f84r<->f84v (Q=M,B=1)",
+          "stem_cosine": 0.9108
+        },
+        {
+          "pair": "f108r<->f108v (Q=T,B=6)",
+          "stem_cosine": 0.9002
+        },
+        {
+          "pair": "f107r<->f107v (Q=T,B=5)",
+          "stem_cosine": 0.8972
+        }
+      ]
+    },
+    "2_FACING_SPREAD_VR": {
+      "pair_count": 51,
+      "mean_stem_jaccard": 0.1461,
+      "mean_word_jaccard": 0.1058,
+      "mean_stem_cosine": 0.4829,
+      "z_vs_unrelated_same_quire": 0.25,
+      "top_pairs": [
+        {
+          "pair": "f108v<->f111r (Q=T,B=6)",
+          "stem_cosine": 0.9292
+        },
+        {
+          "pair": "f76v<->f77r (Q=M,B=2)",
+          "stem_cosine": 0.8967
+        },
+        {
+          "pair": "f81v<->f82r (Q=M,B=4)",
+          "stem_cosine": 0.8511
+        },
+        {
+          "pair": "f82v<->f83r (Q=M,B=3)",
+          "stem_cosine": 0.7956
+        },
+        {
+          "pair": "f106v<->f107r (Q=T,B=4)",
+          "stem_cosine": 0.7872
+        }
+      ]
+    },
+    "3_CONJUGATE_BIFOLIO": {
+      "pair_count": 188,
+      "mean_stem_jaccard": 0.1449,
+      "mean_word_jaccard": 0.0978,
+      "mean_stem_cosine": 0.4511,
+      "z_vs_unrelated_same_quire": 0.13,
+      "top_pairs": [
+        {
+          "pair": "f103v<->f116r (Q=T,B=1)",
+          "stem_cosine": 0.9204
+        },
+        {
+          "pair": "f103r<->f116r (Q=T,B=1)",
+          "stem_cosine": 0.9127
+        },
+        {
+          "pair": "f76v<->f83r (Q=M,B=2)",
+          "stem_cosine": 0.9121
+        },
+        {
+          "pair": "f75r<->f84v (Q=M,B=1)",
+          "stem_cosine": 0.9078
+        },
+        {
+          "pair": "f75r<->f84r (Q=M,B=1)",
+          "stem_cosine": 0.8952
+        }
+      ]
+    },
+    "4_UNRELATED_SAME_QUIRE": {
+      "pair_count": 723,
+      "mean_stem_jaccard": 0.1444,
+      "mean_word_jaccard": 0.107,
+      "mean_stem_cosine": 0.5001,
+      "z_vs_unrelated_same_quire": 0.0,
+      "top_pairs": [
+        {
+          "pair": "f78v<->f84r (Q=M,B=4)",
+          "stem_cosine": 0.9261
+        },
+        {
+          "pair": "f77v<->f83v (Q=M,B=3)",
+          "stem_cosine": 0.9206
+        },
+        {
+          "pair": "f76v<->f78v (Q=M,B=2)",
+          "stem_cosine": 0.9199
+        },
+        {
+          "pair": "f75v<->f82v (Q=M,B=1)",
+          "stem_cosine": 0.9119
+        },
+        {
+          "pair": "f107v<->f111v (Q=T,B=5)",
+          "stem_cosine": 0.9101
+        }
+      ]
+    }
+  },
+  "bifolio_sheet_depth": {
+    "B=1": {
+      "folios": 70,
+      "mean_words_per_folio": 135.7,
+      "mean_word_len": 5.214,
+      "qo_pct": 14.16,
+      "dy_pct": 18.05
+    },
+    "B=2": {
+      "folios": 55,
+      "mean_words_per_folio": 151.7,
+      "mean_word_len": 5.332,
+      "qo_pct": 15.93,
+      "dy_pct": 18.71
+    },
+    "B=3": {
+      "folios": 36,
+      "mean_words_per_folio": 140.1,
+      "mean_word_len": 5.348,
+      "qo_pct": 16.92,
+      "dy_pct": 20.17
+    },
+    "B=4": {
+      "folios": 46,
+      "mean_words_per_folio": 211.1,
+      "mean_word_len": 5.443,
+      "qo_pct": 17.95,
+      "dy_pct": 19.71
+    }
+  }
+}

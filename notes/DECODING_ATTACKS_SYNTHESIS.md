@@ -717,3 +717,32 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Script, Data & Edition**: [`tools/attack76_discourse_procedural_interpreter.py`](../tools/attack76_discourse_procedural_interpreter.py) $\to$ [`data/attack76_discourse_procedural_interpreter.json`](../data/attack76_discourse_procedural_interpreter.json) & [`notes/DISCOURSE_PROCEDURAL_INTERPRETER.md`](DISCOURSE_PROCEDURAL_INTERPRETER.md)
 - **Key Breakthroughs**:
   1. **Demonstrates That `691 / 739` (`93.50%`) of Multi-Line Paragraphs Track Recurring Open-Class Topic Stems Across Lines (`8,617` Anaphoric Links & `1,363` Moraic Harmony Links) and Compiles 10 Complete Step-by-Step Procedural Walkthroughs**.
+
+---
+
+## 77. Attack 77 (`Phase 88`): The `100.00%` (`78 / 78`) Physical Bifolio Sheet-Mate (`$B`) Language & Scribe-Hand Law in Mixed Quires (`$Q = D, E, F, G, H, Q`) & Bifolio Depth Progression
+- **Script & Data**: [`tools/attack77_codicological_bifolio_and_spread_continuity.py`](../tools/attack77_codicological_bifolio_and_spread_continuity.py) $\to$ [`data/attack77_codicological_bifolio_and_spread_continuity.json`](../data/attack77_codicological_bifolio_and_spread_continuity.json)
+- **Key Breakthroughs**:
+  1. **`100.00%` (`78 / 78`) Conjugate Bifolio Sheet-Mate (`$B`) Language & Hand Concordance Across All 6 Mixed Quires vs. `38.65%` (`160 / 414`) Across Non-Conjugate Leaves in the Same Quire**.
+  2. **Monotonic Bifolio Depth Progression (`$B=1 -> $B=4`): Mean Words/Folio (`135.7 -> 211.1`), Mean Word Length (`5.214 -> 5.443`), and `qo-` Active Operator Density (`14.16% -> 17.95%`) Rise Toward the Inner Centerfold Sheet**.
+
+---
+
+## 78. Attack 78 (`Phase 89`): The 4-Page Bifolio Pamphlet Compositional Order (`+52.47%` Cross-Fold Stem Continuity across `f_left_v -> f_right_r`)
+- **Script & Data**: [`tools/attack78_scribal_bifolio_compositional_order.py`](../tools/attack78_scribal_bifolio_compositional_order.py) $\to$ [`data/attack78_scribal_bifolio_compositional_order.json`](../data/attack78_scribal_bifolio_compositional_order.json)
+- **Key Breakthroughs**:
+  1. **`+52.47%` Open-Class Stem Jaccard Lift (`0.1453` vs. `0.0953`) & `0.9766` 10-Bit Feature Cosine Across the `17` Cross-Fold Bifolio Pamphlet Bridges (`f34v -> f39r`, `f26v -> f31r`, `f42v -> f47r`)**.
+
+---
+
+## 79. Attack 79 (`Phase 90`): Full-Manuscript Computer-Vision Pigment Extractor (`2002046.pdf`) $\leftrightarrow$ 10-Bit Grammar Concordance
+- **Script, Data & Scan**: [`tools/attack79_full_manuscript_pigment_grammar_concordance.py`](../tools/attack79_full_manuscript_pigment_grammar_concordance.py) $\to$ [`data/attack79_full_manuscript_pigment_grammar_concordance.json`](../data/attack79_full_manuscript_pigment_grammar_concordance.json) & [`pages/f16v_high_red_blossom_compounds_enh.png`](../pages/f16v_high_red_blossom_compounds_enh.png)
+- **Key Breakthroughs**:
+  1. **`($I,$L)`-Stratified Pigment Couplings Across `177` Folios: Verdigris Green Suppresses `F6_T_CLASS` ($z = -3.61$) & `F5_GALLOWS` ($z = -3.32$) and Enriches `F10_A_RHOTIC` ($z = +2.27$), While Crimson Red Enriches `F7_COMPOUND` (`chckhy` `3.09×`, `chocthy` `2.26×`, $z = +2.33$)**.
+
+---
+
+## 80. Attack 80 (`Phase 91`): The Top-1,000 Core Lexicon (`25,815 / 36,229` Tokens = `71.26%` of the Entire Manuscript) & Multi-Modal Codicological-Visual Atlas ([`notes/TOP1000_CODICOLOGICAL_VISUAL_ATLAS.md`](TOP1000_CODICOLOGICAL_VISUAL_ATLAS.md))
+- **Script, Data & Edition**: [`tools/attack80_top1000_codicological_visual_atlas.py`](../tools/attack80_top1000_codicological_visual_atlas.py) $\to$ [`data/attack80_top1000_codicological_visual_atlas.json`](../data/attack80_top1000_codicological_visual_atlas.json) & [`notes/TOP1000_CODICOLOGICAL_VISUAL_ATLAS.md`](TOP1000_CODICOLOGICAL_VISUAL_ATLAS.md)
+- **Key Breakthroughs**:
+  1. **Compiles the Complete Annotated Top-1,000 Lexicon (`25,815 / 36,229` Tokens = `71.26%` of the Book), Pairing Ranks `#1–#500` with Ranks `#501–#1,000` Across All Morphological, Syntactic, and Codicological Dimensions**.

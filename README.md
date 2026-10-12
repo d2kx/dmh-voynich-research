@@ -586,6 +586,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 86. The `100.00%` (`78 / 78`) Physical Bifolio Sheet-Mate (`$B`) Language & Scribe-Hand Law in Mixed Quires (`$Q = D, E, F, G, H, Q`, `Attack 77`)
+- **`100.00%` (`78 / 78`) Conjugate Bifolio Sheet-Mate (`$B`) Concordance vs. `38.65%` Non-Conjugate**: Across all `6` mixed-language quires (`$Q = D, E, F, G, H, Q`), conjugate leaves across the centerfold belonging to the same physical parchment bifolio sheet (`$B`) share the exact same Currier Language (`$L`) and Scribe Hand (`$H`) in `78 / 78` (`100.00%`) of pairs, proving that scribes wrote on independent unbound bifolio sheets (`$B`) before quire nesting.
+
+---
+
+### 87. The 4-Page Bifolio Pamphlet Compositional Order (`+52.47%` Cross-Fold Stem Continuity across `f_left_v -> f_right_r`, `Attack 78`)
+- **`+52.47%` Open-Class Stem Jaccard Lift Across Bifolio Pamphlet Bridges (`0.1453` vs. `0.0953` Bound Next Leaf)**: Connecting Page 2 (`f_left_v`) to Page 3 (`f_right_r`) of the same physical bifolio sheet (`f34v -> f39r`, `f26v -> f31r`, `f42v -> f47r`) raises stem Jaccard by `+52.47%` and 10-bit feature cosine from `0.9448` to `0.9766`.
+
+---
+
+### 88. Full-Manuscript Computer-Vision Pigment Extractor (`2002046.pdf`) $\leftrightarrow$ 10-Bit Grammar Concordance (`Attack 79`)
+- **Stratified Pigment $\leftrightarrow$ 10-Bit Couplings (`pages/f16v_high_red_blossom_compounds_enh.png`)**: Across `177` scanned folios (`300` `($I,$L)`-stratified permutations), Verdigris Green canopy suppresses `F6_T_CLASS` ($z = -3.61$) and `F5_GALLOWS` ($z = -3.32$) while enriching `F10_A_RHOTIC` ($z = +2.27$), whereas Vermilion/Crimson Red pigment enriches `F7_COMPOUND` (`chckhy` `3.09×`, `chocthy` `2.26×`, $z = +2.33$).
+
+---
+
+### 89. The Top-1,000 Core Lexicon (`25,815 / 36,229` Tokens = `71.26%` of the Entire Manuscript) & Multi-Modal Codicological-Visual Atlas ([`notes/TOP1000_CODICOLOGICAL_VISUAL_ATLAS.md`](notes/TOP1000_CODICOLOGICAL_VISUAL_ATLAS.md), `Attack 80`)
+- **Complete Top-1,000 Reference Lexicon ([`notes/TOP1000_CODICOLOGICAL_VISUAL_ATLAS.md`](notes/TOP1000_CODICOLOGICAL_VISUAL_ATLAS.md))**: Covers `25,815 / 36,229` tokens (`71.26%` of the manuscript), annotating Ranks `#501–#1,000` (complementing Ranks `#1–#500` in [`notes/TOP500_LEXICON_AND_6LEVEL_DECODER.md`](notes/TOP500_LEXICON_AND_6LEVEL_DECODER.md)) with Dual-Matrix cells, 10-bit codes, constituents, dominant quires, and bifolio sheet depths.
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -693,4 +713,8 @@ python tools/attack73_paragraph_anaphora_and_topic_persistence.py
 python tools/attack74_minim_and_loop_quantifier_solver.py
 python tools/attack75_visual_layout_and_intrusion_grammar.py
 python tools/attack76_discourse_procedural_interpreter.py
+python tools/attack77_codicological_bifolio_and_spread_continuity.py
+python tools/attack78_scribal_bifolio_compositional_order.py
+python tools/attack79_full_manuscript_pigment_grammar_concordance.py
+python tools/attack80_top1000_codicological_visual_atlas.py
 ```

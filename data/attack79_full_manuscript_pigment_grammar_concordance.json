@@ -1,0 +1,425 @@
+{
+  "summary": {
+    "folios_analyzed": 177,
+    "section_pigment_profiles": {
+      "B": {
+        "folios": 19,
+        "mean_green_pct": 3.243,
+        "mean_red_pct": 0.341,
+        "mean_blue_pct": 3.251,
+        "mean_dark_pct": 2.368,
+        "mean_painted_total_pct": 9.204,
+        "mean_bot_minus_top_pct": -2.925
+      },
+      "C": {
+        "folios": 2,
+        "mean_green_pct": 0.721,
+        "mean_red_pct": 0.053,
+        "mean_blue_pct": 4.641,
+        "mean_dark_pct": 2.921,
+        "mean_painted_total_pct": 8.336,
+        "mean_bot_minus_top_pct": -5.201
+      },
+      "H": {
+        "folios": 120,
+        "mean_green_pct": 7.497,
+        "mean_red_pct": 1.084,
+        "mean_blue_pct": 3.4,
+        "mean_dark_pct": 2.457,
+        "mean_painted_total_pct": 14.439,
+        "mean_bot_minus_top_pct": -4.456
+      },
+      "P": {
+        "folios": 8,
+        "mean_green_pct": 4.743,
+        "mean_red_pct": 1.697,
+        "mean_blue_pct": 3.095,
+        "mean_dark_pct": 2.206,
+        "mean_painted_total_pct": 11.742,
+        "mean_bot_minus_top_pct": -3.876
+      },
+      "S": {
+        "folios": 25,
+        "mean_green_pct": 0.011,
+        "mean_red_pct": 0.068,
+        "mean_blue_pct": 4.898,
+        "mean_dark_pct": 4.025,
+        "mean_painted_total_pct": 9.001,
+        "mean_bot_minus_top_pct": -5.086
+      },
+      "T": {
+        "folios": 3,
+        "mean_green_pct": 0.044,
+        "mean_red_pct": 0.264,
+        "mean_blue_pct": 2.78,
+        "mean_dark_pct": 2.185,
+        "mean_painted_total_pct": 5.274,
+        "mean_bot_minus_top_pct": -6.216
+      }
+    }
+  },
+  "stratified_pigment_feature_couplings": [
+    {
+      "pigment_metric": "green_pct",
+      "grammar_feature": "F6_T_CLASS",
+      "observed_r": -0.0792,
+      "stratified_null_r_mean": 0.1111,
+      "stratified_null_r_sd": 0.0527,
+      "stratified_z": -3.61
+    },
+    {
+      "pigment_metric": "green_pct",
+      "grammar_feature": "F5_GALLOWS",
+      "observed_r": -0.3044,
+      "stratified_null_r_mean": -0.1371,
+      "stratified_null_r_sd": 0.0504,
+      "stratified_z": -3.32
+    },
+    {
+      "pigment_metric": "painted_total_pct",
+      "grammar_feature": "F6_T_CLASS",
+      "observed_r": -0.0667,
+      "stratified_null_r_mean": 0.1286,
+      "stratified_null_r_sd": 0.0614,
+      "stratified_z": -3.18
+    },
+    {
+      "pigment_metric": "painted_total_pct",
+      "grammar_feature": "F5_GALLOWS",
+      "observed_r": -0.2581,
+      "stratified_null_r_mean": -0.1024,
+      "stratified_null_r_sd": 0.0569,
+      "stratified_z": -2.74
+    },
+    {
+      "pigment_metric": "red_pct",
+      "grammar_feature": "F7_COMPOUND",
+      "observed_r": 0.2228,
+      "stratified_null_r_mean": 0.1031,
+      "stratified_null_r_sd": 0.0514,
+      "stratified_z": 2.33
+    },
+    {
+      "pigment_metric": "painted_total_pct",
+      "grammar_feature": "F10_A_RHOTIC",
+      "observed_r": 0.0756,
+      "stratified_null_r_mean": -0.0477,
+      "stratified_null_r_sd": 0.0543,
+      "stratified_z": 2.27
+    },
+    {
+      "pigment_metric": "green_pct",
+      "grammar_feature": "F10_A_RHOTIC",
+      "observed_r": 0.0071,
+      "stratified_null_r_mean": -0.0954,
+      "stratified_null_r_sd": 0.0526,
+      "stratified_z": 1.95
+    },
+    {
+      "pigment_metric": "red_pct",
+      "grammar_feature": "F2_Q_ACT",
+      "observed_r": -0.0995,
+      "stratified_null_r_mean": -0.179,
+      "stratified_null_r_sd": 0.043,
+      "stratified_z": 1.85
+    }
+  ],
+  "herbal_a_pigment_lexicon": {
+    "HIGH_RED_CRIMSON": {
+      "top_folios": [
+        "f16v(5.79%)",
+        "f93v(5.79%)",
+        "f11v(4.80%)",
+        "f87v(4.51%)",
+        "f13r(4.24%)",
+        "f52r(3.49%)",
+        "f9r(3.42%)",
+        "f3r(3.25%)"
+      ],
+      "top_words": [
+        {
+          "word": "chckhy",
+          "hi_count": 6,
+          "lo_count": 6,
+          "lift": 3.087
+        },
+        {
+          "word": "chocthy",
+          "hi_count": 5,
+          "lo_count": 7,
+          "lift": 2.264
+        },
+        {
+          "word": "qotchol",
+          "hi_count": 5,
+          "lo_count": 7,
+          "lift": 2.264
+        },
+        {
+          "word": "ykchy",
+          "hi_count": 7,
+          "lo_count": 10,
+          "lift": 2.205
+        },
+        {
+          "word": "sor",
+          "hi_count": 6,
+          "lo_count": 9,
+          "lift": 2.112
+        },
+        {
+          "word": "oky",
+          "hi_count": 11,
+          "lo_count": 19,
+          "lift": 1.821
+        },
+        {
+          "word": "otchor",
+          "hi_count": 5,
+          "lo_count": 9,
+          "lift": 1.788
+        },
+        {
+          "word": "odaiin",
+          "hi_count": 7,
+          "lo_count": 13,
+          "lift": 1.715
+        },
+        {
+          "word": "chody",
+          "hi_count": 10,
+          "lo_count": 19,
+          "lift": 1.663
+        },
+        {
+          "word": "cheey",
+          "hi_count": 5,
+          "lo_count": 10,
+          "lift": 1.617
+        }
+      ]
+    },
+    "HIGH_BLUE_AZURE": {
+      "top_folios": [
+        "f22r(6.33%)",
+        "f21r(6.15%)",
+        "f3v(6.08%)",
+        "f56r(6.00%)",
+        "f24r(5.94%)",
+        "f3r(5.76%)",
+        "f17r(5.76%)",
+        "f2r(5.73%)"
+      ],
+      "top_words": [
+        {
+          "word": "qokchol",
+          "hi_count": 9,
+          "lo_count": 5,
+          "lift": 5.285
+        },
+        {
+          "word": "ytchy",
+          "hi_count": 7,
+          "lo_count": 5,
+          "lift": 4.172
+        },
+        {
+          "word": "okchy",
+          "hi_count": 7,
+          "lo_count": 6,
+          "lift": 3.531
+        },
+        {
+          "word": "qotchol",
+          "hi_count": 6,
+          "lo_count": 6,
+          "lift": 3.06
+        },
+        {
+          "word": "y",
+          "hi_count": 16,
+          "lo_count": 17,
+          "lift": 2.885
+        },
+        {
+          "word": "ykchy",
+          "hi_count": 8,
+          "lo_count": 9,
+          "lift": 2.738
+        },
+        {
+          "word": "tchor",
+          "hi_count": 6,
+          "lo_count": 7,
+          "lift": 2.652
+        },
+        {
+          "word": "dal",
+          "hi_count": 16,
+          "lo_count": 19,
+          "lift": 2.589
+        },
+        {
+          "word": "dchol",
+          "hi_count": 7,
+          "lo_count": 9,
+          "lift": 2.416
+        },
+        {
+          "word": "otchor",
+          "hi_count": 6,
+          "lo_count": 8,
+          "lift": 2.34
+        }
+      ]
+    },
+    "HIGH_GREEN_CANOPY": {
+      "top_folios": [
+        "f47r(19.99%)",
+        "f25v(17.41%)",
+        "f47v(15.75%)",
+        "f2v(14.73%)",
+        "f56v(14.67%)",
+        "f93r(13.97%)",
+        "f87v(13.23%)",
+        "f52r(13.05%)"
+      ],
+      "top_words": [
+        {
+          "word": "kchor",
+          "hi_count": 8,
+          "lo_count": 8,
+          "lift": 3.151
+        },
+        {
+          "word": "cthey",
+          "hi_count": 10,
+          "lo_count": 13,
+          "lift": 2.451
+        },
+        {
+          "word": "qokchol",
+          "hi_count": 6,
+          "lo_count": 8,
+          "lift": 2.41
+        },
+        {
+          "word": "shody",
+          "hi_count": 8,
+          "lo_count": 11,
+          "lift": 2.329
+        },
+        {
+          "word": "cthaiin",
+          "hi_count": 5,
+          "lo_count": 7,
+          "lift": 2.311
+        },
+        {
+          "word": "tchor",
+          "hi_count": 5,
+          "lo_count": 8,
+          "lift": 2.039
+        },
+        {
+          "word": "ar",
+          "hi_count": 6,
+          "lo_count": 10,
+          "lift": 1.951
+        },
+        {
+          "word": "dair",
+          "hi_count": 8,
+          "lo_count": 14,
+          "lift": 1.847
+        },
+        {
+          "word": "kol",
+          "hi_count": 5,
+          "lo_count": 9,
+          "lift": 1.824
+        },
+        {
+          "word": "cho",
+          "hi_count": 12,
+          "lo_count": 23,
+          "lift": 1.676
+        }
+      ]
+    },
+    "HIGH_DARK_ROOT": {
+      "top_folios": [
+        "f21r(5.63%)",
+        "f22r(5.57%)",
+        "f2r(5.45%)",
+        "f24r(5.26%)",
+        "f3r(5.07%)",
+        "f17r(4.85%)",
+        "f19r(4.84%)",
+        "f27r(4.63%)"
+      ],
+      "top_words": [
+        {
+          "word": "qokchol",
+          "hi_count": 8,
+          "lo_count": 6,
+          "lift": 3.992
+        },
+        {
+          "word": "okchy",
+          "hi_count": 7,
+          "lo_count": 6,
+          "lift": 3.523
+        },
+        {
+          "word": "tchor",
+          "hi_count": 7,
+          "lo_count": 6,
+          "lift": 3.523
+        },
+        {
+          "word": "ykchy",
+          "hi_count": 8,
+          "lo_count": 9,
+          "lift": 2.732
+        },
+        {
+          "word": "choky",
+          "hi_count": 8,
+          "lo_count": 10,
+          "lift": 2.471
+        },
+        {
+          "word": "sheey",
+          "hi_count": 8,
+          "lo_count": 10,
+          "lift": 2.471
+        },
+        {
+          "word": "dchor",
+          "hi_count": 10,
+          "lo_count": 13,
+          "lift": 2.375
+        },
+        {
+          "word": "chckhy",
+          "hi_count": 5,
+          "lo_count": 7,
+          "lift": 2.239
+        },
+        {
+          "word": "qotchol",
+          "hi_count": 5,
+          "lo_count": 7,
+          "lift": 2.239
+        },
+        {
+          "word": "tchy",
+          "hi_count": 6,
+          "lo_count": 9,
+          "lift": 2.089
+        }
+      ]
+    }
+  }
+}

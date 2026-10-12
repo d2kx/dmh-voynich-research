@@ -1,0 +1,729 @@
+{
+  "overall_comparison": {
+    "bound_codex_order": {
+      "total_transitions": 74,
+      "language_switches": 21,
+      "hand_switches": 20,
+      "mean_feature_cosine": 0.964,
+      "mean_stem_jaccard": 0.1228,
+      "mean_stem_cosine": 0.3105
+    },
+    "bifolio_pamphlet_order": {
+      "total_transitions": 74,
+      "language_switches": 11,
+      "hand_switches": 10,
+      "mean_feature_cosine": 0.9691,
+      "mean_stem_jaccard": 0.133,
+      "mean_stem_cosine": 0.348
+    },
+    "dialect_grouped_bifolio_order": {
+      "total_transitions": 74,
+      "language_switches": 7,
+      "hand_switches": 7,
+      "mean_feature_cosine": 0.9732,
+      "mean_stem_jaccard": 0.1351,
+      "mean_stem_cosine": 0.3645
+    },
+    "cross_fold_bridge_mean_feat_cos": 0.9766,
+    "bound_next_mean_feat_cos": 0.9448,
+    "cross_fold_bridge_mean_stem_jacc": 0.1453,
+    "bound_next_mean_stem_jacc": 0.0953
+  },
+  "quire_details": {
+    "D": {
+      "bound_order": [
+        "f25r(A1,B1)",
+        "f25v(A1,B1)",
+        "f26r(B2,B2)",
+        "f26v(B2,B2)",
+        "f27r(A1,B3)",
+        "f27v(A1,B3)",
+        "f28r(A1,B4)",
+        "f28v(A1,B4)",
+        "f29r(A1,B4)",
+        "f29v(A1,B4)",
+        "f30r(A1,B3)",
+        "f30v(A1,B3)",
+        "f31r(B2,B2)",
+        "f31v(B2,B2)",
+        "f32r(A1,B1)",
+        "f32v(A1,B1)"
+      ],
+      "pamphlet_order": [
+        "f25r(A1,B1)",
+        "f25v(A1,B1)",
+        "f32r(A1,B1)",
+        "f32v(A1,B1)",
+        "f26r(B2,B2)",
+        "f26v(B2,B2)",
+        "f31r(B2,B2)",
+        "f31v(B2,B2)",
+        "f27r(A1,B3)",
+        "f27v(A1,B3)",
+        "f30r(A1,B3)",
+        "f30v(A1,B3)",
+        "f28r(A1,B4)",
+        "f28v(A1,B4)",
+        "f29r(A1,B4)",
+        "f29v(A1,B4)"
+      ],
+      "dialect_grouped_bifolio_order": [
+        "f25r(A1,B1)",
+        "f25v(A1,B1)",
+        "f32r(A1,B1)",
+        "f32v(A1,B1)",
+        "f27r(A1,B3)",
+        "f27v(A1,B3)",
+        "f30r(A1,B3)",
+        "f30v(A1,B3)",
+        "f28r(A1,B4)",
+        "f28v(A1,B4)",
+        "f29r(A1,B4)",
+        "f29v(A1,B4)",
+        "f26r(B2,B2)",
+        "f26v(B2,B2)",
+        "f31r(B2,B2)",
+        "f31v(B2,B2)"
+      ],
+      "metrics_bound": {
+        "transitions": 15,
+        "lang_switches": 4,
+        "hand_switches": 4,
+        "mean_feat_cos": 0.9518,
+        "mean_stem_jacc": 0.0997,
+        "mean_stem_cos": 0.2754
+      },
+      "metrics_pamphlet": {
+        "transitions": 15,
+        "lang_switches": 2,
+        "hand_switches": 2,
+        "mean_feat_cos": 0.9625,
+        "mean_stem_jacc": 0.1124,
+        "mean_stem_cos": 0.3101
+      },
+      "metrics_grouped_bifolio": {
+        "transitions": 15,
+        "lang_switches": 1,
+        "hand_switches": 1,
+        "mean_feat_cos": 0.9667,
+        "mean_stem_jacc": 0.1161,
+        "mean_stem_cos": 0.329
+      }
+    },
+    "E": {
+      "bound_order": [
+        "f33r(B2,B1)",
+        "f33v(B2,B1)",
+        "f34r(B2,B2)",
+        "f34v(B2,B2)",
+        "f35r(A1,B3)",
+        "f35v(A1,B3)",
+        "f36r(A1,B4)",
+        "f36v(A1,B4)",
+        "f37r(A1,B4)",
+        "f37v(A1,B4)",
+        "f38r(A1,B3)",
+        "f38v(A1,B3)",
+        "f39r(B2,B2)",
+        "f39v(B2,B2)",
+        "f40r(B2,B1)",
+        "f40v(B2,B1)"
+      ],
+      "pamphlet_order": [
+        "f33r(B2,B1)",
+        "f33v(B2,B1)",
+        "f40r(B2,B1)",
+        "f40v(B2,B1)",
+        "f34r(B2,B2)",
+        "f34v(B2,B2)",
+        "f39r(B2,B2)",
+        "f39v(B2,B2)",
+        "f35r(A1,B3)",
+        "f35v(A1,B3)",
+        "f38r(A1,B3)",
+        "f38v(A1,B3)",
+        "f36r(A1,B4)",
+        "f36v(A1,B4)",
+        "f37r(A1,B4)",
+        "f37v(A1,B4)"
+      ],
+      "dialect_grouped_bifolio_order": [
+        "f35r(A1,B3)",
+        "f35v(A1,B3)",
+        "f38r(A1,B3)",
+        "f38v(A1,B3)",
+        "f36r(A1,B4)",
+        "f36v(A1,B4)",
+        "f37r(A1,B4)",
+        "f37v(A1,B4)",
+        "f33r(B2,B1)",
+        "f33v(B2,B1)",
+        "f40r(B2,B1)",
+        "f40v(B2,B1)",
+        "f34r(B2,B2)",
+        "f34v(B2,B2)",
+        "f39r(B2,B2)",
+        "f39v(B2,B2)"
+      ],
+      "metrics_bound": {
+        "transitions": 15,
+        "lang_switches": 2,
+        "hand_switches": 2,
+        "mean_feat_cos": 0.973,
+        "mean_stem_jacc": 0.1627,
+        "mean_stem_cos": 0.3851
+      },
+      "metrics_pamphlet": {
+        "transitions": 15,
+        "lang_switches": 1,
+        "hand_switches": 1,
+        "mean_feat_cos": 0.974,
+        "mean_stem_jacc": 0.1612,
+        "mean_stem_cos": 0.3739
+      },
+      "metrics_grouped_bifolio": {
+        "transitions": 15,
+        "lang_switches": 1,
+        "hand_switches": 1,
+        "mean_feat_cos": 0.9765,
+        "mean_stem_jacc": 0.1577,
+        "mean_stem_cos": 0.3751
+      }
+    },
+    "F": {
+      "bound_order": [
+        "f41r(B5,B1)",
+        "f41v(B5,B1)",
+        "f42r(A1,B2)",
+        "f42v(A1,B2)",
+        "f43r(B2,B3)",
+        "f43v(B2,B3)",
+        "f44r(A1,B4)",
+        "f44v(A1,B4)",
+        "f45r(A1,B4)",
+        "f45v(A1,B4)",
+        "f46r(B2,B3)",
+        "f46v(B2,B3)",
+        "f47r(A1,B2)",
+        "f47v(A1,B2)",
+        "f48r(B5,B1)",
+        "f48v(B5,B1)"
+      ],
+      "pamphlet_order": [
+        "f41r(B5,B1)",
+        "f41v(B5,B1)",
+        "f48r(B5,B1)",
+        "f48v(B5,B1)",
+        "f42r(A1,B2)",
+        "f42v(A1,B2)",
+        "f47r(A1,B2)",
+        "f47v(A1,B2)",
+        "f43r(B2,B3)",
+        "f43v(B2,B3)",
+        "f46r(B2,B3)",
+        "f46v(B2,B3)",
+        "f44r(A1,B4)",
+        "f44v(A1,B4)",
+        "f45r(A1,B4)",
+        "f45v(A1,B4)"
+      ],
+      "dialect_grouped_bifolio_order": [
+        "f42r(A1,B2)",
+        "f42v(A1,B2)",
+        "f47r(A1,B2)",
+        "f47v(A1,B2)",
+        "f44r(A1,B4)",
+        "f44v(A1,B4)",
+        "f45r(A1,B4)",
+        "f45v(A1,B4)",
+        "f43r(B2,B3)",
+        "f43v(B2,B3)",
+        "f46r(B2,B3)",
+        "f46v(B2,B3)",
+        "f41r(B5,B1)",
+        "f41v(B5,B1)",
+        "f48r(B5,B1)",
+        "f48v(B5,B1)"
+      ],
+      "metrics_bound": {
+        "transitions": 15,
+        "lang_switches": 6,
+        "hand_switches": 6,
+        "mean_feat_cos": 0.9559,
+        "mean_stem_jacc": 0.1249,
+        "mean_stem_cos": 0.2892
+      },
+      "metrics_pamphlet": {
+        "transitions": 15,
+        "lang_switches": 3,
+        "hand_switches": 3,
+        "mean_feat_cos": 0.9637,
+        "mean_stem_jacc": 0.1476,
+        "mean_stem_cos": 0.3874
+      },
+      "metrics_grouped_bifolio": {
+        "transitions": 15,
+        "lang_switches": 1,
+        "hand_switches": 2,
+        "mean_feat_cos": 0.9742,
+        "mean_stem_jacc": 0.1536,
+        "mean_stem_cos": 0.4329
+      }
+    },
+    "G": {
+      "bound_order": [
+        "f49r(A1,B1)",
+        "f49v(A1,B1)",
+        "f50r(B2,B2)",
+        "f50v(B2,B2)",
+        "f51r(A1,B3)",
+        "f51v(A1,B3)",
+        "f52r(A1,B4)",
+        "f52v(A1,B4)",
+        "f53r(A1,B4)",
+        "f53v(A1,B4)",
+        "f54r(A1,B3)",
+        "f54v(A1,B3)",
+        "f55r(B2,B2)",
+        "f55v(B2,B2)",
+        "f56r(A1,B1)",
+        "f56v(A1,B1)"
+      ],
+      "pamphlet_order": [
+        "f49r(A1,B1)",
+        "f49v(A1,B1)",
+        "f56r(A1,B1)",
+        "f56v(A1,B1)",
+        "f50r(B2,B2)",
+        "f50v(B2,B2)",
+        "f55r(B2,B2)",
+        "f55v(B2,B2)",
+        "f51r(A1,B3)",
+        "f51v(A1,B3)",
+        "f54r(A1,B3)",
+        "f54v(A1,B3)",
+        "f52r(A1,B4)",
+        "f52v(A1,B4)",
+        "f53r(A1,B4)",
+        "f53v(A1,B4)"
+      ],
+      "dialect_grouped_bifolio_order": [
+        "f49r(A1,B1)",
+        "f49v(A1,B1)",
+        "f56r(A1,B1)",
+        "f56v(A1,B1)",
+        "f51r(A1,B3)",
+        "f51v(A1,B3)",
+        "f54r(A1,B3)",
+        "f54v(A1,B3)",
+        "f52r(A1,B4)",
+        "f52v(A1,B4)",
+        "f53r(A1,B4)",
+        "f53v(A1,B4)",
+        "f50r(B2,B2)",
+        "f50v(B2,B2)",
+        "f55r(B2,B2)",
+        "f55v(B2,B2)"
+      ],
+      "metrics_bound": {
+        "transitions": 15,
+        "lang_switches": 4,
+        "hand_switches": 4,
+        "mean_feat_cos": 0.9717,
+        "mean_stem_jacc": 0.1167,
+        "mean_stem_cos": 0.2961
+      },
+      "metrics_pamphlet": {
+        "transitions": 15,
+        "lang_switches": 2,
+        "hand_switches": 2,
+        "mean_feat_cos": 0.9752,
+        "mean_stem_jacc": 0.1194,
+        "mean_stem_cos": 0.3233
+      },
+      "metrics_grouped_bifolio": {
+        "transitions": 15,
+        "lang_switches": 1,
+        "hand_switches": 1,
+        "mean_feat_cos": 0.9776,
+        "mean_stem_jacc": 0.1219,
+        "mean_stem_cos": 0.3315
+      }
+    },
+    "H": {
+      "bound_order": [
+        "f57r(B5,B1)",
+        "f58r(A3,B2)",
+        "f58v(A3,B2)",
+        "f65v(U3,B2)",
+        "f66r(B5,B1)",
+        "f66v(B5,B1)"
+      ],
+      "pamphlet_order": [
+        "f57r(B5,B1)",
+        "f66r(B5,B1)",
+        "f66v(B5,B1)",
+        "f58r(A3,B2)",
+        "f58v(A3,B2)",
+        "f65v(U3,B2)"
+      ],
+      "dialect_grouped_bifolio_order": [
+        "f58r(A3,B2)",
+        "f58v(A3,B2)",
+        "f65v(U3,B2)",
+        "f57r(B5,B1)",
+        "f66r(B5,B1)",
+        "f66v(B5,B1)"
+      ],
+      "metrics_bound": {
+        "transitions": 5,
+        "lang_switches": 3,
+        "hand_switches": 2,
+        "mean_feat_cos": 0.9631,
+        "mean_stem_jacc": 0.097,
+        "mean_stem_cos": 0.2818
+      },
+      "metrics_pamphlet": {
+        "transitions": 5,
+        "lang_switches": 2,
+        "hand_switches": 1,
+        "mean_feat_cos": 0.9715,
+        "mean_stem_jacc": 0.1059,
+        "mean_stem_cos": 0.3501
+      },
+      "metrics_grouped_bifolio": {
+        "transitions": 5,
+        "lang_switches": 2,
+        "hand_switches": 1,
+        "mean_feat_cos": 0.974,
+        "mean_stem_jacc": 0.1115,
+        "mean_stem_cos": 0.3738
+      }
+    },
+    "Q": {
+      "bound_order": [
+        "f93r(A1,B1)",
+        "f93v(A1,B1)",
+        "f94r(B3,B2)",
+        "f94v(B3,B2)",
+        "f95r1(B3,B2)",
+        "f95r2(B3,B2)",
+        "f95v2(B3,B2)",
+        "f95v1(B3,B2)",
+        "f96r(A1,B1)",
+        "f96v(A1,B1)"
+      ],
+      "pamphlet_order": [
+        "f93r(A1,B1)",
+        "f93v(A1,B1)",
+        "f96r(A1,B1)",
+        "f96v(A1,B1)",
+        "f94r(B3,B2)",
+        "f94v(B3,B2)",
+        "f95r1(B3,B2)",
+        "f95r2(B3,B2)",
+        "f95v2(B3,B2)",
+        "f95v1(B3,B2)"
+      ],
+      "dialect_grouped_bifolio_order": [
+        "f93r(A1,B1)",
+        "f93v(A1,B1)",
+        "f96r(A1,B1)",
+        "f96v(A1,B1)",
+        "f94r(B3,B2)",
+        "f94v(B3,B2)",
+        "f95r1(B3,B2)",
+        "f95r2(B3,B2)",
+        "f95v2(B3,B2)",
+        "f95v1(B3,B2)"
+      ],
+      "metrics_bound": {
+        "transitions": 9,
+        "lang_switches": 2,
+        "hand_switches": 2,
+        "mean_feat_cos": 0.9706,
+        "mean_stem_jacc": 0.1161,
+        "mean_stem_cos": 0.3203
+      },
+      "metrics_pamphlet": {
+        "transitions": 9,
+        "lang_switches": 1,
+        "hand_switches": 1,
+        "mean_feat_cos": 0.9694,
+        "mean_stem_jacc": 0.1334,
+        "mean_stem_cos": 0.3421
+      },
+      "metrics_grouped_bifolio": {
+        "transitions": 9,
+        "lang_switches": 1,
+        "hand_switches": 1,
+        "mean_feat_cos": 0.9694,
+        "mean_stem_jacc": 0.1334,
+        "mean_stem_cos": 0.3421
+      }
+    }
+  },
+  "cross_fold_bifolio_bridges": [
+    {
+      "quire": "D",
+      "bifolio": "1",
+      "lang": "A",
+      "hand": "1",
+      "bridge": "f25v -> f32r",
+      "bound_next_rejected": "f25v -> f26r (L=B,H=2)",
+      "bridge_feat_cos": 0.9719,
+      "bound_next_feat_cos": 0.8392,
+      "bridge_stem_jacc": 0.0984,
+      "bound_next_stem_jacc": 0.0154,
+      "shared_rare_stems": [
+        "kcho(n=22)"
+      ]
+    },
+    {
+      "quire": "D",
+      "bifolio": "2",
+      "lang": "B",
+      "hand": "2",
+      "bridge": "f26v -> f31r",
+      "bound_next_rejected": "f26v -> f27r (L=A,H=1)",
+      "bridge_feat_cos": 0.9734,
+      "bound_next_feat_cos": 0.8937,
+      "bridge_stem_jacc": 0.1842,
+      "bound_next_stem_jacc": 0.0909,
+      "shared_rare_stems": []
+    },
+    {
+      "quire": "D",
+      "bifolio": "3",
+      "lang": "A",
+      "hand": "1",
+      "bridge": "f27v -> f30r",
+      "bound_next_rejected": "f27v -> f28r (L=A,H=1)",
+      "bridge_feat_cos": 0.9646,
+      "bound_next_feat_cos": 0.9243,
+      "bridge_stem_jacc": 0.044,
+      "bound_next_stem_jacc": 0.0946,
+      "shared_rare_stems": [
+        "ksho(n=13)"
+      ]
+    },
+    {
+      "quire": "D",
+      "bifolio": "4",
+      "lang": "A",
+      "hand": "1",
+      "bridge": "f28v -> f29r",
+      "bound_next_rejected": "f28v -> f29r (L=A,H=1)",
+      "bridge_feat_cos": 0.9736,
+      "bound_next_feat_cos": 0.9736,
+      "bridge_stem_jacc": 0.1449,
+      "bound_next_stem_jacc": 0.1449,
+      "shared_rare_stems": [
+        "choly(n=16)"
+      ]
+    },
+    {
+      "quire": "E",
+      "bifolio": "1",
+      "lang": "B",
+      "hand": "2",
+      "bridge": "f33v -> f40r",
+      "bound_next_rejected": "f33v -> f34r (L=B,H=2)",
+      "bridge_feat_cos": 0.9724,
+      "bound_next_feat_cos": 0.9793,
+      "bridge_stem_jacc": 0.137,
+      "bound_next_stem_jacc": 0.2062,
+      "shared_rare_stems": [
+        "ckhdy(n=6)"
+      ]
+    },
+    {
+      "quire": "E",
+      "bifolio": "2",
+      "lang": "B",
+      "hand": "2",
+      "bridge": "f34v -> f39r",
+      "bound_next_rejected": "f34v -> f35r (L=A,H=1)",
+      "bridge_feat_cos": 0.9881,
+      "bound_next_feat_cos": 0.9119,
+      "bridge_stem_jacc": 0.215,
+      "bound_next_stem_jacc": 0.0619,
+      "shared_rare_stems": [
+        "tchdain(n=10)",
+        "chckhdy(n=14)",
+        "chdar(n=18)"
+      ]
+    },
+    {
+      "quire": "E",
+      "bifolio": "3",
+      "lang": "A",
+      "hand": "1",
+      "bridge": "f35v -> f38r",
+      "bound_next_rejected": "f35v -> f36r (L=A,H=1)",
+      "bridge_feat_cos": 0.9862,
+      "bound_next_feat_cos": 0.9741,
+      "bridge_stem_jacc": 0.0429,
+      "bound_next_stem_jacc": 0.1029,
+      "shared_rare_stems": []
+    },
+    {
+      "quire": "E",
+      "bifolio": "4",
+      "lang": "A",
+      "hand": "1",
+      "bridge": "f36v -> f37r",
+      "bound_next_rejected": "f36v -> f37r (L=A,H=1)",
+      "bridge_feat_cos": 0.9729,
+      "bound_next_feat_cos": 0.9729,
+      "bridge_stem_jacc": 0.2174,
+      "bound_next_stem_jacc": 0.2174,
+      "shared_rare_stems": [
+        "ckhor(n=10)",
+        "chory(n=12)"
+      ]
+    },
+    {
+      "quire": "F",
+      "bifolio": "1",
+      "lang": "B",
+      "hand": "5",
+      "bridge": "f41v -> f48r",
+      "bound_next_rejected": "f41v -> f42r (L=A,H=1)",
+      "bridge_feat_cos": 0.9818,
+      "bound_next_feat_cos": 0.9369,
+      "bridge_stem_jacc": 0.1,
+      "bound_next_stem_jacc": 0.0265,
+      "shared_rare_stems": []
+    },
+    {
+      "quire": "F",
+      "bifolio": "2",
+      "lang": "A",
+      "hand": "1",
+      "bridge": "f42v -> f47r",
+      "bound_next_rejected": "f42v -> f43r (L=B,H=2)",
+      "bridge_feat_cos": 0.9691,
+      "bound_next_feat_cos": 0.9132,
+      "bridge_stem_jacc": 0.1477,
+      "bound_next_stem_jacc": 0.0492,
+      "shared_rare_stems": [
+        "chtchy(n=6)"
+      ]
+    },
+    {
+      "quire": "F",
+      "bifolio": "3",
+      "lang": "B",
+      "hand": "2",
+      "bridge": "f43v -> f46r",
+      "bound_next_rejected": "f43v -> f44r (L=A,H=1)",
+      "bridge_feat_cos": 0.9726,
+      "bound_next_feat_cos": 0.9332,
+      "bridge_stem_jacc": 0.2422,
+      "bound_next_stem_jacc": 0.0783,
+      "shared_rare_stems": [
+        "ykedy(n=5)",
+        "het(n=7)",
+        "chky(n=15)",
+        "kaldy(n=24)"
+      ]
+    },
+    {
+      "quire": "F",
+      "bifolio": "4",
+      "lang": "A",
+      "hand": "1",
+      "bridge": "f44v -> f45r",
+      "bound_next_rejected": "f44v -> f45r (L=A,H=1)",
+      "bridge_feat_cos": 0.9792,
+      "bound_next_feat_cos": 0.9792,
+      "bridge_stem_jacc": 0.1711,
+      "bound_next_stem_jacc": 0.1711,
+      "shared_rare_stems": [
+        "tshy(n=16)"
+      ]
+    },
+    {
+      "quire": "G",
+      "bifolio": "1",
+      "lang": "A",
+      "hand": "1",
+      "bridge": "f49v -> f56r",
+      "bound_next_rejected": "f49v -> f50r (L=B,H=2)",
+      "bridge_feat_cos": 0.9807,
+      "bound_next_feat_cos": 0.9439,
+      "bridge_stem_jacc": 0.1102,
+      "bound_next_stem_jacc": 0.0081,
+      "shared_rare_stems": [
+        "chokchy(n=18)",
+        "chokey(n=21)"
+      ]
+    },
+    {
+      "quire": "G",
+      "bifolio": "2",
+      "lang": "B",
+      "hand": "2",
+      "bridge": "f50v -> f55r",
+      "bound_next_rejected": "f50v -> f51r (L=A,H=1)",
+      "bridge_feat_cos": 0.9874,
+      "bound_next_feat_cos": 0.9722,
+      "bridge_stem_jacc": 0.2195,
+      "bound_next_stem_jacc": 0.1304,
+      "shared_rare_stems": [
+        "ekain(n=8)",
+        "tchodain(n=14)"
+      ]
+    },
+    {
+      "quire": "G",
+      "bifolio": "3",
+      "lang": "A",
+      "hand": "1",
+      "bridge": "f51v -> f54r",
+      "bound_next_rejected": "f51v -> f52r (L=A,H=1)",
+      "bridge_feat_cos": 0.9635,
+      "bound_next_feat_cos": 0.974,
+      "bridge_stem_jacc": 0.1124,
+      "bound_next_stem_jacc": 0.0854,
+      "shared_rare_stems": [
+        "todain(n=25)"
+      ]
+    },
+    {
+      "quire": "G",
+      "bifolio": "4",
+      "lang": "A",
+      "hand": "1",
+      "bridge": "f52v -> f53r",
+      "bound_next_rejected": "f52v -> f53r (L=A,H=1)",
+      "bridge_feat_cos": 0.9799,
+      "bound_next_feat_cos": 0.9799,
+      "bridge_stem_jacc": 0.1053,
+      "bound_next_stem_jacc": 0.1053,
+      "shared_rare_stems": [
+        "kchody(n=13)",
+        "kody(n=22)"
+      ]
+    },
+    {
+      "quire": "Q",
+      "bifolio": "1",
+      "lang": "A",
+      "hand": "1",
+      "bridge": "f93v -> f96r",
+      "bound_next_rejected": "f93v -> f94r (L=B,H=3)",
+      "bridge_feat_cos": 0.9851,
+      "bound_next_feat_cos": 0.9609,
+      "bridge_stem_jacc": 0.1771,
+      "bound_next_stem_jacc": 0.0312,
+      "shared_rare_stems": [
+        "ckheody(n=9)",
+        "chs(n=14)",
+        "chkey(n=21)",
+        "cthody(n=21)"
+      ]
+    }
+  ]
+}
