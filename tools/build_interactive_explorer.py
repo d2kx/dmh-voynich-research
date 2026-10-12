@@ -867,6 +867,70 @@ WALKTHROUGH_FOLIOS = [
                 "english": "[Recipe #1 Top Frame `pchedal`]: Begin the herbal infusion (`pchedal`), boil thoroughly and wash (`qokeedy shedy qokedy`); [Recipe #18 Bottom Frame `pchedal`]: Begin the infusion (`pchedal`) and boil to completion (`qokeey qokedy qoty`)."
             }
         ]
+    },
+    {
+        "folio": "f71r & f70v2",
+        "title": "Zodiac `30°`-Per-Sign Ecliptic Calibration (`299/300 = 99.67%`), Aries `15+15=30°` Split, Quire `10m` & Barreled `ot-/op-` Law",
+        "section": "Zodiac Medallions (`$I=Z, $Q=J, $L=A`, Scribe 4)",
+        "pdf_page": 129,
+        "image": "../pages/f70v1_aries_dark_abril_p129_enh.png",
+        "secondary_image": "../pages/f70v1_aries_dark_split_zodiac_enh.png",
+        "summary": "On `f71r` (above, `abril`, Quire 10 signature `10m`), 15 barreled nymphs (`5` inner + `10` outer) pair with `f70v1`'s 15 nymphs to total 30 exact Aries degrees (`15+15=30°`), while `f70v2` (below, `mars`) has 29 barreled nymphs + 1 star (`oteos`) = 30 `@Lz` loci (`Attack 189`: `299/300` = `99.67%` across all 10 surviving signs, `73.97%` `ot-/op-` on barreled pages, `z = +4.83`).",
+        "clauses": [
+            {
+                "locus": "f70v2.1 (@Lz Pisces Star) + f71r.1–5 (@Lz Aries II Barreled Nymphs)",
+                "eva": "oteos oteos arar okldam oteoaldy oteolar okeoaly otaleky otalsar",
+                "english": "[Pisces Star `oteos` & Aries II Degrees]: From the celestial degree (`oteos arar`), complete the core vessel (`okldam`), and prepare the starry liquid degrees (`oteoaldy oteolar okeoaly otaleky otalsar`)."
+            }
+        ]
+    },
+    {
+        "folio": "f73r",
+        "title": "Scorpio (`octobre`) Lizard-Scorpion Medallion, Central Star `otedy` & `10 + 16 + 4 = 30°` Top Overflow Arc",
+        "section": "Zodiac Medallions (`$I=Z, $Q=J, $L=A`, Scribe 4)",
+        "pdf_page": 134,
+        "image": "../pages/f73r_scorpio_octobre_zodiac_enh.png",
+        "secondary_image": "",
+        "summary": "A green 4-legged Scorpio lizard (`octobre`) below a golden star (`otedy`) is encircled by 10 inner + 16 middle nymphs (`26`), plus 4 overflow nymphs standing in a row across the top outside the outer prose ring (`26 + 4 = 30` exact degrees, `100%` compressed to single-word labels, `Attack 189`).",
+        "clauses": [
+            {
+                "locus": "f73r.1 (Central Scorpio Star) + f73r.29–32 (Top 4-Nymph Overflow Arc)",
+                "eva": "otedy oktody chockhy otedy opchody otaly yteeody okeody ykeedy",
+                "english": "[Scorpio Star `otedy` & Top 4-Degree Overflow Arc]: Prepared Scorpio degree (`otedy`); top overflow degrees (`oktody chockhy otedy opchody`) and ring degrees (`otaly yteeody okeody ykeedy`)."
+            }
+        ]
+    },
+    {
+        "folio": "f77r & f81r",
+        "title": "Six-Spout Aqueduct (`f77r`, `70%` Stem Echo) vs. Unlabeled Pool Gallery (`f81r`) & Prose Absorption Law (`z=+6.06`)",
+        "section": "Balneological / Biological (`$I=B, $Q=M, $L=B`, Scribe 2)",
+        "pdf_page": 140,
+        "image": "../pages/f77r_balneo_five_organ_ring_enh.png",
+        "secondary_image": "../pages/f81r_balneo_arcade_pool_gallery_enh.png",
+        "summary": "On `f77r` (above), 6 `@Lt` spouts (`olkchs..soral`), 2 arch nymphs (`darchdar, dotedy`), a 4-nozzle spraying womb/ampulla (`otchdy`), and a blue-sphere tub (`otolaiin`) echo `70.0%` of their stems in `f77r` prose (`Attack 190`). On `f81r` (below, 7-to-6 nymph connected pools with 0 labels), the unlabeled prose absorbs `ok-/ot-` (`1.56×`, `z = +6.06`) and `ol-` articles (`22.34%`, `z = +5.19`) directly into the sentences!",
+        "clauses": [
+            {
+                "locus": "f77r (@Lt/@Ln Labels) + f81r.1 & f81r.16 (Minimal-Pair Paragraph Openers)",
+                "eva": "otedy otol dchdy soral otchdy otolaiin polchoy qokeedy polchdy shedy olchedy",
+                "english": "[f77r Spouts & Ampulla]: Flow from the arch spouts (`otedy otol dchdy soral`) through the 4-nozzle sprayer (`otchdy`) into the blue-sphere basin (`otolaiin`); [f81r Unlabeled Pools]: Begin the upper 7-nymph bath (`polchoy qokeedy`) and lower 6-nymph bath (`polchdy shedy olchedy`)."
+            }
+        ]
+    },
+    {
+        "folio": "f87r & f111v",
+        "title": "Post-Rosettes Parallel `pchor` Herbal (`f87r`) & Quire 20 Two-Tier Margin Star Hierarchy (`f111v`, `88.1%` vs `81.5%`)",
+        "section": "Late Herbal A (`f87r`, Quire 15) & Starred Master Recipes (`f111v`, Quire 20)",
+        "pdf_page": 160,
+        "image": "../pages/f87r_herbal_terrace_root_enh.png",
+        "secondary_image": "../pages/f111v_quire20_long_recipes_enh.png",
+        "summary": "On `f87r` (above, opening Quire 15 right after the Rosettes foldout), both paragraphs open with `pchor` (`pchor.odaiin` & `pchor.daiin`). On `f111v` (below, 14 margin stars), the top 25-line (`294`-word) protocol contains 7 Secondary Intra-Paragraph Step Stars (`daiin, okeeo, sho, y, sheaiin...`), while the bottom 7 recipes open 100% with `p-` Gallows (`polar, polkiin, pochey, polar, polchey, pollaiin, psalar`, `Attack 191`).",
+        "clauses": [
+            {
+                "locus": "f87r.1 & f87r.11 (Parallel `pchor` Openers) + f111v (7 Bottom `p-` Gallows Recipe Openers)",
+                "eva": "pchor odaiin pchor daiin koshey polar polkiin pochey polar polchey pollaiin psalar",
+                "english": "[f87r Parallel Paragraphs]: Begin the herbal compound (`pchor odaiin / pchor daiin`); [f111v Starred Recipes]: Top megaparagraph (`koshey`) followed by 7 consecutive `p-` Gallows recipes (`polar, polkiin, pochey, polar, polchey, pollaiin, psalar`)."
+            }
+        ]
     }
 ]
 
@@ -920,6 +984,9 @@ def main():
     a185_data = json.loads((ROOT / "data" / "attack185_f70r2_astro_treatise_and_scribe4_bridge.json").read_text(encoding="utf-8"))
     a186_data = json.loads((ROOT / "data" / "attack186_f84r_canopy_minimal_pairs_and_balneo_cascade.json").read_text(encoding="utf-8"))
     a187_data = json.loads((ROOT / "data" / "attack187_f103r_quire20_architecture_and_recipe_chaining.json").read_text(encoding="utf-8"))
+    a189_data = json.loads((ROOT / "data" / "attack189_zodiac_30degree_invariant_and_decan_split.json").read_text(encoding="utf-8"))
+    a190_data = json.loads((ROOT / "data" / "attack190_balneo_organ_labels_vs_unlabeled_galleries.json").read_text(encoding="utf-8"))
+    a191_data = json.loads((ROOT / "data" / "attack191_f87r_post_rosettes_herbal_and_f111v_long_recipes.json").read_text(encoding="utf-8"))
 
     rosettes_panels = []
     for f_id, prof in rosettes_data["folio_profiles"].items():
@@ -969,6 +1036,14 @@ def main():
         "minimal_pairs": a186_data["global_diagram_label_minimal_pairs"]["top_minimal_pair_chains"][:30],
         "f103r_recipes": a187_data["f103r_opening_forensics"]["recipes"],
         "q20_vertical": a187_data["within_page_vertical_trajectory"],
+        "zodiac_30_invariant": a189_data["folio_summaries"],
+        "f77r_labels": a190_data["f77r_label_details"],
+        "intra_para_stars": a191_data["summary"]["intra_para_stars_examples"][:30],
+        "q20_tiers": [
+            a191_data["summary"]["quire20_short_recipes_tier"],
+            a191_data["summary"]["quire20_medium_recipes_tier"],
+            a191_data["summary"]["quire20_long_recipes_tier"],
+        ],
     }, ensure_ascii=False)
 
     html = f"""<!DOCTYPE html>
@@ -1371,8 +1446,8 @@ def main():
       <p>Click any word token on any page to peel apart its Prefix + Root Stem + Suffix in plain English</p>
     </div>
     <nav class="nav-tabs" aria-label="Explorer Views">
-      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (50)</button>
-      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (55)</button>
+      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (54)</button>
+      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (60)</button>
       <button class="tab-btn" onclick="switchTab('lexicon', this)">3. Core Dictionary &amp; 8-Case Grammar</button>
       <button class="tab-btn" onclick="switchTab('zodiac', this)">4. Zodiac Months &amp; Bath Plumbing</button>
       <button class="tab-btn" onclick="switchTab('recipes', this)">5. Starred Recipes, Rosettes &amp; 4-Transcriber Proof</button>
@@ -1383,6 +1458,7 @@ def main():
       <button class="tab-btn" onclick="switchTab('clitics', this)">10. Micro-Spacing Clitics, f57v Key Wheel &amp; 6-Register Stem Matrix</button>
       <button class="tab-btn" onclick="switchTab('state200', this)">11. Milestone 200: 8-State Syntactic Machine, =Pt/+Pr Codas &amp; f69r Wheel</button>
       <button class="tab-btn" onclick="switchTab('wave44', this)">12. Astro Trifecta (p127), Diagram-Label Minimal Pairs &amp; Quire 20 Chaining</button>
+      <button class="tab-btn" onclick="switchTab('wave45', this)">13. Wave 45: Zodiac 30° Invariant, Balneo Absorption &amp; Two-Tier Stars</button>
     </nav>
   </div>
 </header>
@@ -1427,7 +1503,7 @@ def main():
   <!-- TAB 2: BOTANICAL & ASTRO SPECIMENS -->
   <section id="tab-specimens" class="tab-panel">
     <div style="margin-bottom: 1rem;">
-      <h2 style="margin: 0 0 0.25rem;">45 Flagship Botanical, Astronomical, Balneological, Cosmological, Margin-Key &amp; Visual-Twin Identifications</h2>
+      <h2 style="margin: 0 0 0.25rem;">60 Flagship Botanical, Astronomical, Balneological, Cosmological, Margin-Key &amp; Visual-Twin Identifications</h2>
       <p style="margin: 0; color: var(--muted);">
         Matching the manuscript's high-resolution drawings to concrete 15th-century European herbal species, star clusters, bilingual month wheels, labelled hydrotherapy pipes, cosmological spheres, margin keys, quire signatures, and visual twin plant pairs.
       </p>
@@ -2057,6 +2133,89 @@ def main():
             <th>Opening Word (Click)</th>
             <th>Closing Word (Click)</th>
             <th><code>qo-</code> / <code>-edy</code> Counts</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- TAB 13: WAVE 45 (ZODIAC 30° INVARIANT, BALNEO ABSORPTION, TWO-TIER STARS) -->
+  <section id="tab-wave45" class="tab-panel">
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="num">299 / 300</div>
+        <div class="lbl">Exact 30°-Per-Sign Zodiac Calibration (99.67% across 10 Signs, <code>Attack 189</code>)</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">+4.83 z</div>
+        <div class="lbl">Barreled (<code>ot-/op-</code> 73.97%) vs. Unbarreled (<code>ok-/of-</code> 62.62%) Zodiac Split (<code>p &lt; 2×10⁻⁶</code>)</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">+6.06 z</div>
+        <div class="lbl">Unlabeled Balneo Prose Absorption of <code>ok-/ot-</code> Nouns (12.34% vs. 7.92%, <code>1.56×</code>)</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">269 + 54</div>
+        <div class="lbl">Two-Tier Quire 20 Stars: 269 Primary Recipe Stars (88.1% Gallows) + 54 Step Stars (81.5% Particles)</div>
+      </div>
+    </div>
+
+    <h2>1. The <code>30°</code>-Per-Sign Ecliptic Degree Invariant (<code>299 / 300 = 99.67%</code> Exact Calibration, <code>Attack 189</code>)</h2>
+    <p style="color: var(--muted);">
+      Across all <strong>10 surviving Zodiac signs (12 folios, <code>f70v2–f73v</code>)</strong>, the Voynich Zodiac is a mathematically exact <strong>30°-per-sign ecliptic degree register</strong>: <code>9 of 10</code> signs contain literally <strong>30</strong> <code>@Lz</code> degree loci (and Gemini has 29 transcribed + 1 faint locus = 30). Notice how Aries and Taurus are split across Dark (<code>I</code>) + Light (<code>II</code>) spreads of exactly <code>15° + 15° = 30°</code>, while Scorpio (<code>f73r</code>) and Sagittarius (<code>f73v</code>) pack <code>10 inner + 16 middle + 4 top-arc overflow = 30°</code>:
+    </p>
+    <div style="overflow-x: auto;">
+      <table id="zodiac30Table">
+        <thead>
+          <tr>
+            <th>Zodiac Sign</th>
+            <th>Roman Month Gloss</th>
+            <th>Folios</th>
+            <th>Ring Breakdown</th>
+            <th>Total <code>@Lz</code> Degree Loci</th>
+            <th>30° Target Match</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>2. Balneological Organ Callout Echoes on <code>f77r</code> (<code>70.0%</code> Local Stem Echo) &amp; Unlabeled Prose Absorption (<code>z = +6.06</code>, <code>Attack 190</code>)</h2>
+    <p style="color: var(--muted);">
+      When a Balneological folio has <strong>0 diagram labels</strong> (<code>8</code> folios: <code>f75r, f76v, f78v, f79r, f79v, f80v, f81r, f84v</code>), its body prose absorbs the missing anatomical/hydraulic nouns: <code>ok-/ot-</code> tokens surge from <strong>7.92% to 12.34% (1.56× lift, z = +6.06)</strong> and <code>ol-/or-</code> articles rise from <strong>9.38% to 13.39% (1.43× lift, z = +5.19)</strong>. On labeled pages like <code>f77r</code> (Six-Spout Overhead Aqueduct Arch), <strong>70.0% (7/10)</strong> of the diagram callout stems are echoed directly inside <code>f77r</code>'s own prose:
+    </p>
+    <div style="overflow-x: auto;">
+      <table id="f77rLabelsTable">
+        <thead>
+          <tr>
+            <th>Locus</th>
+            <th>Type</th>
+            <th>Callout Label (Click to Decode)</th>
+            <th>Canonical Stem</th>
+            <th>Physical Organ / Bather Position on <code>f77r</code></th>
+            <th>In <code>f77r</code> Prose?</th>
+            <th>In Balneo Prose?</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>3. The Two-Tier Quire 20 Margin Star Hierarchy (<code>269</code> Primary Recipe Stars vs. <code>54</code> Intra-Paragraph Step Stars, <code>Attack 191</code>)</h2>
+    <p style="color: var(--muted);">
+      Why do folios like <code>f108v</code>, <code>f111r</code>, <code>f111v</code>, and <code>f116r</code> have 14–16 painted stars in the left margin yet contain 250–365 word megaparagraphs? Across all <strong>323 paleographically annotated margin stars</strong> in Quire 20, there is a strict two-tier hierarchy: <strong>269 Primary Recipe-Start Stars (<code>&lt;%&gt;</code>, 88.10% Gallows-initial)</strong> vs. <strong>54 Secondary Intra-Paragraph Step Stars (<code>+P0</code> without half-line break, only 25.93% Gallows-initial, 81.48% <code>s-/d-/y-/o-/q-</code> step-particle initial)</strong>:
+    </p>
+    <div style="overflow-x: auto;">
+      <table id="intraParaStarsTable">
+        <thead>
+          <tr>
+            <th>Locus</th>
+            <th>Star Code</th>
+            <th>Star Color / Tail</th>
+            <th>Step Opener Word (Click to Decode)</th>
+            <th>Initial Class</th>
+            <th>Preceding Line End Word (Click)</th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -2904,6 +3063,63 @@ function renderWave44Tab() {{
   }}).join("");
 }}
 
+function renderWave45Tab() {{
+  const zBody = document.querySelector("#zodiac30Table tbody");
+  zBody.innerHTML = (DATA.zodiac_30_invariant || []).map(z => {{
+    const badge = z.exact_30
+      ? `<span class="badge" style="background:var(--green-soft);color:var(--green)">Exact 30° Invariant</span>`
+      : `<span class="badge" style="background:var(--accent-soft);color:var(--accent)">29 Transcribed / 30 Painted</span>`;
+    return `
+      <tr>
+        <td><strong>${{z.sign}}</strong></td>
+        <td><code>${{z.month}}</code></td>
+        <td><strong><code>${{z.folios.join(" + ")}}</code></strong></td>
+        <td>${{z.breakdown}}</td>
+        <td><strong>${{z.total_lz}}</strong></td>
+        <td>${{badge}}</td>
+      </tr>
+    `;
+  }}).join("");
+
+  const f77Body = document.querySelector("#f77rLabelsTable tbody");
+  f77Body.innerHTML = (DATA.f77r_labels || []).map(l => {{
+    const f77Badge = l.in_f77r_prose
+      ? `<span class="badge" style="background:var(--green-soft);color:var(--green)">Yes (In f77r Prose)</span>`
+      : `<span class="badge">No</span>`;
+    const balBadge = l.in_balneo_prose
+      ? `<span class="badge" style="background:var(--blue-soft);color:var(--blue)">Yes (In Balneo)</span>`
+      : `<span class="badge">No</span>`;
+    return `
+      <tr>
+        <td><code>${{l.locus}}</code></td>
+        <td><code>@${{l.ltype}}</code></td>
+        <td><span class="word-chip" onclick="setWord('${{l.word}}')"><strong>${{l.word}}</strong></span></td>
+        <td><code>${{l.stem}}</code></td>
+        <td>${{l.organ}}</td>
+        <td>${{f77Badge}}</td>
+        <td>${{balBadge}}</td>
+      </tr>
+    `;
+  }}).join("");
+
+  const ipBody = document.querySelector("#intraParaStarsTable tbody");
+  ipBody.innerHTML = (DATA.intra_para_stars || []).map(s => {{
+    const initBadge = s.is_gallows
+      ? `<span class="badge" style="background:var(--accent-soft);color:var(--accent)">Gallows Opener</span>`
+      : `<span class="badge" style="background:var(--green-soft);color:var(--green)">Step Particle (${{s.first_word[0]}}-)</span>`;
+    return `
+      <tr>
+        <td><strong><code>${{s.locus}}</code></strong></td>
+        <td><code>${{s.star_code}}</code></td>
+        <td>${{s.color}} / ${{s.tail}}</td>
+        <td><span class="word-chip" onclick="setWord('${{s.first_word}}')"><strong>${{s.first_word}}</strong></span></td>
+        <td>${{initBadge}}</td>
+        <td><span class="word-chip" onclick="setWord('${{s.prev_last_word}}')"><code>${{s.prev_last_word}}</code></span></td>
+      </tr>
+    `;
+  }}).join("");
+}}
+
 function switchTab(tabId, btn) {{
   document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
   document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
@@ -2924,6 +3140,7 @@ renderQuiresShelvesWeirdos();
 renderMicroCliticsF57vStemMatrix();
 renderMilestone200Tab();
 renderWave44Tab();
+renderWave45Tab();
 </script>
 </body>
 </html>

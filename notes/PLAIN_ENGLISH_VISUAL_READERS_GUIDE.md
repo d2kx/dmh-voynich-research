@@ -55,9 +55,9 @@ When you strip off the prefix and suffix, you are left with the **Root Stem**:
 
 ---
 
-## Part 2: Page-by-Page Visual Walkthroughs (34 Iconic Folios)
+## Part 2: Page-by-Page Visual Walkthroughs (38 Iconic Folios)
 
-Below are **34 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
+Below are **38 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
 
 ---
 
@@ -579,7 +579,61 @@ Why did the scribe write the Voynich word **`oror`** at the end of a European ch
 
 ---
 
+### 35. Folios `f70v2` & `f71r` — The `30°`-Per-Sign Zodiac Calibration (`299/300 = 99.67%`), Aries `15 + 15 = 30°` Decan Split, Quire 10 Signature `10m` & the Barreled `ot-/op-` Law ($z = +4.83$)
+* **Section:** Zodiac Medallions (`$I=Z`, `$Q=J`, Currier A, Scribe 4) | **Pages in Yale Scan:** Pages 128 (`f70v2` Pisces) & 129 (`f71r` Aries II)
+
+![Folio f71r Aries II Light Medallion with 15 Barreled Nymphs, abril Gloss and Quire 10m Signature](../pages/f70v1_aries_dark_abril_p129_enh.png)
+
+#### What to Look for on `f71r` (Above) and `f70v2` (Below)
+1. **Why Are Aries (`f70v1 + f71r`) and Taurus (`f71v + f72r1`) Split Into Two Pages of 15 Nymphs (`15 + 15 = 30°`)?** Look at `f71r` (`pages/f70v1_aries_dark_abril_p129_enh.png`, above): in the center stands the horned **Aries** ram chewing a green branch above the Occitan/Catalan month gloss **`abril`**, surrounded by **5 inner barreled nymphs + 10 outer barreled nymphs = `15` nymphs** (and notice the medieval bookbinder's **Quire 10 signature `10m`** in the bottom-right corner!). When you add `f70v1`'s `15` nymphs (`5` inner + `10` outer), **Aries totals `15 + 15 = 30` exact degrees**—just as Taurus (`f71v + f72r1`) totals **`15 + 15 = 30` exact degrees**!
+2. **The `299 / 300` (`99.67%`) Ecliptic Degree Invariant (`Attack 189`, `Discovery 206`):** Across all `10` surviving Zodiac signs (`12` folios), **9 out of 10 signs have literally `30` `@Lz` degree loci** (`Pisces = 30` [`29` nymphs + `1` star `oteos` on `f70v2` below], `Aries = 30`, `Taurus = 30`, `Cancer = 30`, `Leo = 30`, `Virgo = 30`, `Libra = 30`, `Scorpio = 30`, `Sagittarius = 30`, plus `Gemini = 29` transcribed / `30` painted = **`299 / 300` total degrees**)! Every star-holding nymph represents **one exact degree (`1°`) of the `360°` zodiac**.
+3. **Barreled (`ot-/op-` `73.97%`) vs. Unbarreled (`ok-/of-` `62.62%`) Polarity ($z = +4.83$):** On all 5 pages where the nymphs stand inside cylindrical barrels (`f70v2, f70v1, f71r, f71v, f72r1`), **`ot-/op-` prefixes outnumber `ok-/of-` (`54` vs `19` = `73.97%`, peaking at `85.71%` on `f71r`)**, before inverting to **`62.62%` `ok-/of-`** on the unbarreled signs ($\chi^2 = 23.28, z = +4.83$).
+
+![Folio f70v2 Pisces Medallion with Two Fish, mars Gloss and 29 Barreled Nymphs](../pages/f70v1_aries_dark_split_zodiac_enh.png)
+
+---
+
+### 36. Folio `f73r` — The Scorpio (`octobre`) Lizard-Scorpion Medallion & the `10 + 16 + 4 = 30°` Top Overflow Arc
+* **Section:** Zodiac Medallions (`$I=Z`, `$Q=J`, Currier A, Scribe 4) | **Page in Yale Scan:** Page 134
+
+![Folio f73r Scorpio octobre Medallion with 10 Inner, 16 Middle and 4 Top Overflow Nymphs](../pages/f73r_scorpio_octobre_zodiac_enh.png)
+
+#### What to Look for on `f73r`
+1. **A Green Four-Legged Lizard-Scorpion (`octobre`) Holding a Golden Star (`otedy`):** In 15th-century Northern Italian and Alpine manuscripts, **Scorpio** was frequently drawn as a green 4-legged lizard or skink with a curled tail. Right between its legs sits the Occitan/Catalan month gloss **`octobre`**, and above its back shines a golden 8-pointed star labeled **`otedy`**.
+2. **The `10 + 16 + 4 = 30` Top Overflow Arc (`Attack 189`):** Count the nymphs in the two concentric rings on `f73r`: the inner ring holds **`10` nymphs** and the middle ring holds **`16` nymphs** (`10 + 16 = 26`). Because the two rings were full at 26 and the artist needed **4 more nymphs to reach `30°` (`26 + 4 = 30`)**, look at the very top of the diagram outside the outer text ring: **4 extra star-holding nymphs (`oktody, chockhy, otedy, opchody`) stand in a neat row across the top**! The exact same `10 + 16 + 4 = 30` overflow arc recurs on the facing page `f73v` (`Sagittarius`).
+
+---
+
+### 37. Folios `f77r` & `f81r` — The Six-Spout Aqueduct Arch (`70%` Stem Echo) vs. Unlabeled Bath Galleries & the Prose Absorption Law ($z = +6.06$)
+* **Section:** Balneological / Medical Bathing (`$I=B`, `$Q=M`, Currier B, Scribe 2) | **Pages in Yale Scan:** Pages 140 (`f77r`) & 148 (`f81r`)
+
+![Folio f77r Six-Spout Overhead Aqueduct Arch and Four-Nozzle Spraying Womb Ampulla](../pages/f77r_balneo_five_organ_ring_enh.png)
+
+#### What to Look for on `f77r` (Above) and `f81r` (Below)
+1. **The Six-Spout Overhead Aqueduct & Four-Nozzle Spraying Ampulla (`f77r`, above):** Across the top of `f77r` arches a yellow-green water pipe flanked by two bathers (`darchdar` on left, `dotedy` in a barrel on right) with **6 labeled downward spouts/organs (`olkchs, otedy, otork` [blue nozzles], `otol` [red fluted bladder], `dchdy, soral`)**. Down the left margin, a bather sits inside a curved womb/ampulla (`otchdy`) whose right tip branches into **4 horizontal spray nozzles** misting toward Paragraph 2, above a cylinder bather holding a **deep cobalt-blue sphere (`otolaiin`)**. In `Attack 190` (`Discovery 207`), we proved that **`70.0%` (`7/10`) of `f77r`'s labels echo their stems directly inside `f77r`'s own prose** (`80.0%` across Balneo), while across all `110` Balneological labels, **`@Lt` tube/organ labels favor `ot-/op-` (`57.69%`)** whereas **`@Ln` nymph labels invert to `ok-/of-` (`65.38%`)**!
+2. **Why Does `f81r` (Below) Have Zero Labels—and What Happens to Its Prose? (`Attack 190`, $z = +6.06$):** On `f81r` (below), **7 bathers link hands in an upper green pool** connected by a left-margin drainpipe to **6 linked bathers in a lower green tub**, with **zero `@Lt/@Ln` diagram callout labels** written on the drawing. Comparing all `2,779` prose words on the `8` Unlabeled Balneological pages (`f75r, f76v, f78v, f79r, f79v, f80v, f81r, f84v`) against all `4,040` prose words on the `12` Labeled Balneological pages reveals a remarkable grammatical law: **when a bath page has no diagram labels, the scribe absorbs the `ok-/ot-` vessel/nymph nouns (`12.34%` vs `7.92%`, `1.56×` lift, $z = +6.06, p < 10^{-9}$) and `ol-/or-` articles (`13.39%` vs `9.38%`, `1.43×` lift, $z = +5.19`, hitting `22.34%` on `f81r`!) directly into the running prose**! Notice too that `f81r`'s two main paragraphs open with the minimal pair **`polchoy`** (Para 1) and **`polchdy`** (Para 2).
+
+![Folio f81r Seven-to-Six Nymph Connected Pool Cascade with Minimal-Pair Paragraphs polchoy and polchdy](../pages/f81r_balneo_arcade_pool_gallery_enh.png)
+
+---
+
+### 38. Folios `f87r` & `f111v` — The Post-Rosettes Parallel `pchor` Herbal Monograph & the Two-Tier Quire 20 Margin Star Hierarchy (`88.1%` Gallows vs. `81.5%` Particle)
+* **Section:** Late Herbal A (`f87r`, Quire 15, Scribe 1) & Starred Master Recipes (`f111v`, Quire 20, Scribe 3) | **Pages in Yale Scan:** Pages 160 (`f87r`) & 197 (`f111v`)
+
+![Folio f87r Post-Rosettes Two-Tier Palmate Leaf Monograph with Parallel pchor Paragraphs](../pages/f87r_herbal_terrace_root_enh.png)
+
+#### What to Look for on `f87r` (Above) and `f111v` (Below)
+1. **The First Page After the Rosettes Foldout Opens With a Parallel `pchor` Paragraph Pair (`f87r`, above):** Immediately following the 6-panel Rosettes foldout (`f85r1–f86v6`), Folio `f87r` opens Quire 15 with a striking two-tiered palmate-leaf plant crowned by three scaly blue-and-black composite flower heads (*Centaurea / Carduus*) and a 4-pronged reddish taproot (with a faint red-chalk X-loop sketch on the lower-left vellum). Look at the first word of Paragraph 1 (`line 1`) and the first word of Paragraph 2 (`line 11`): **both paragraphs open with the exact same tall `p-` Gallows word `pchor` (`pchor.odaiin` and `pchor.daiin`)**! Across all `10` Currier A Late Herbal pages (`f87r–f96v`, bound inside Quires 15–17 alongside the Pharmaceutical pages), canonical stem Jaccard similarity with the Pharmaceutical section rises **`1.18×`** (`0.0726` vs `0.0615` in Early Herbal, `Attack 191`).
+2. **Eyewitness Solution to the `f111v` 25-Line Megaparagraph: The Two-Tier Margin Star Hierarchy (`Attack 191`, `Discovery 208`):** Look down the left margin of `f111v` (below): there are **14 painted stars** alternating dark and light down the page. Yet why did modern transliterators group the top 25 lines (`294` words, spanning `Stars #1–#7`) into one giant `<%>...<$>` paragraph while splitting the bottom 26 lines (`Stars #8–#14`) into 7 separate `<%>...<$>` recipes?
+   - Look at the bottom 7 stars (`Stars #8–#14`, lines `26, 29, 31, 34, 37, 45, 48`): every single one is preceded by a short half-line (`<$>`) and **opens with a tall `p-` Gallows (`polar, polkiin, pochey, polar, polchey, pollaiin, psalar` — `7 / 7 = 100.0%` `p-` Gallows!)**.
+   - Now look at `Stars #2–#7` inside the top 25-line block: there are no short half-lines, and the starred lines open with **short `s-/d-/y-/o-` step particles (`daiin, okeeo, sho, y, sheaiin, qokain, tais, sair`)**!
+   - Testing all **`323` margin stars across Quire 20** in `Attack 191` proved that Quire 20 uses a **Two-Tier Star System**: **`269` Primary `<%>` Recipe-Start Stars (`88.10%` Gallows-initial)** that open a brand-new recipe, and **`54` Secondary Intra-Paragraph `+P0` Step Stars (`81.48%` `s-/d-/y-/o-/q-` particle-initial, only `25.93%` Gallows)** that mark every `2–4` lines of sub-steps inside long multi-stage compound preparations!
+
+![Folio f111v Quire 20 Dual-Level Star Page with 7 Intra-Paragraph Step Stars and 7 Bottom p-Gallows Recipes](../pages/f111v_quire20_long_recipes_enh.png)
+
+---
+
 ## Where to Go Next
-* **Want to see all 55 real-world plants, constellations, wheels, bathing diagrams, and visual twins?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)** (`SPEC-01` through `SPEC-55`).
-* **Want to click through 50 pages, decode words interactively, and explore all 12 tabs in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now at **v10.0 — Wave 44 Astro Trifecta, Minimal Pairs & Quire 20 Chaining Edition**!).
-* **Want the deep grammatical tables, the Wave 44 Astro Trifecta / Minimal-Pair / Quire 20 Chaining proofs, the Milestone 200 8-State Syntactic State Machine, and full 205-discovery research log?** See **[`ASTRO_TRIFECTA_BALNEO_MINIMAL_PAIRS_AND_QUIRE20_CHAINING.md`](ASTRO_TRIFECTA_BALNEO_MINIMAL_PAIRS_AND_QUIRE20_CHAINING.md)**, **[`ROSETTES_ENVELOPE_F69R_WHEEL_AND_200_DISCOVERIES_STATE_MACHINE.md`](ROSETTES_ENVELOPE_F69R_WHEEL_AND_200_DISCOVERIES_STATE_MACHINE.md)**, and **[`NOTES.md`](../NOTES.md)**.
+* **Want to see all 60 real-world plants, constellations, wheels, bathing diagrams, and visual twins?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)** (`SPEC-01` through `SPEC-60`).
+* **Want to click through 54 pages, decode words interactively, and explore all 13 tabs in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now at **v11.0 — Wave 45 Zodiac 30° Invariant, Balneo Absorption & Two-Tier Stars Edition**!).
+* **Want the deep grammatical tables, the Wave 45 Zodiac `30°` / Balneo Absorption / Two-Tier Star proofs, the Milestone 200 8-State Syntactic State Machine, and full 209-discovery research log?** See **[`ZODIAC_30DEGREE_INVARIANT_BALNEO_ABSORPTION_AND_TWO_TIER_STARS.md`](ZODIAC_30DEGREE_INVARIANT_BALNEO_ABSORPTION_AND_TWO_TIER_STARS.md)**, **[`ASTRO_TRIFECTA_BALNEO_MINIMAL_PAIRS_AND_QUIRE20_CHAINING.md`](ASTRO_TRIFECTA_BALNEO_MINIMAL_PAIRS_AND_QUIRE20_CHAINING.md)**, **[`ROSETTES_ENVELOPE_F69R_WHEEL_AND_200_DISCOVERIES_STATE_MACHINE.md`](ROSETTES_ENVELOPE_F69R_WHEEL_AND_200_DISCOVERIES_STATE_MACHINE.md)**, and **[`NOTES.md`](../NOTES.md)**.

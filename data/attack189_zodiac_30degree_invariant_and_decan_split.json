@@ -1,0 +1,642 @@
+{
+  "attack": 189,
+  "discovery": 206,
+  "title": "Complete 12-Folio Zodiac Medallion Architecture (f70v2-f73v), the 30=15+15 Decan-Split Invariant, Multi-Word Nymph Labels (f71r), and Barreled vs. Unbarreled Prefix Polarity",
+  "summary": {
+    "total_zodiac_folios": 12,
+    "total_zodiac_signs_preserved": 10,
+    "total_nymph_loci": 299,
+    "total_ring_words": 964,
+    "barreled_ot_op": 54,
+    "barreled_ok_of": 19,
+    "barreled_ot_op_pct": 73.97,
+    "unbarreled_ot_op": 40,
+    "unbarreled_ok_of": 67,
+    "unbarreled_ok_of_pct": 62.62,
+    "barreled_vs_unbarreled_chi2": 23.28,
+    "barreled_vs_unbarreled_z": 4.83,
+    "aries_split_stem_jaccard": 0.2468,
+    "taurus_split_stem_jaccard": 0.2,
+    "mean_split_sign_jaccard": 0.2234,
+    "mean_other_zodiac_jaccard": 0.2186
+  },
+  "sign_30_degree_invariant_table": [
+    {
+      "sign": "Pisces (mars)",
+      "folios": [
+        "f70v2"
+      ],
+      "nymph_loci_total": 30,
+      "target_30": 30,
+      "notes": "29 barreled nymphs + 1 central star label = 30 @Lz loci"
+    },
+    {
+      "sign": "Aries (abril)",
+      "folios": [
+        "f70v1",
+        "f71r"
+      ],
+      "nymph_loci_total": 30,
+      "target_30": 30,
+      "notes": "15 (5+10) Dark + 15 (5+10) Light = 30 exact degrees"
+    },
+    {
+      "sign": "Taurus (may)",
+      "folios": [
+        "f71v",
+        "f72r1"
+      ],
+      "nymph_loci_total": 30,
+      "target_30": 30,
+      "notes": "15 (5+10) Light + 15 (5+10) Dark = 30 exact degrees"
+    },
+    {
+      "sign": "Gemini (juny)",
+      "folios": [
+        "f72r2"
+      ],
+      "nymph_loci_total": 29,
+      "target_30": 30,
+      "notes": "30 unbarreled nymphs in 1 page"
+    },
+    {
+      "sign": "Cancer (jolh)",
+      "folios": [
+        "f72r3"
+      ],
+      "nymph_loci_total": 30,
+      "target_30": 30,
+      "notes": "41 @Lz loci (30 degree-nymphs + extra inner/outer star labels)"
+    },
+    {
+      "sign": "Leo (agost)",
+      "folios": [
+        "f72v3"
+      ],
+      "nymph_loci_total": 30,
+      "target_30": 30,
+      "notes": "31 @Lz loci (30 degree-nymphs + 1 central emblem label)"
+    },
+    {
+      "sign": "Virgo (setembre)",
+      "folios": [
+        "f72v2"
+      ],
+      "nymph_loci_total": 30,
+      "target_30": 30,
+      "notes": "30 exact degree-nymphs"
+    },
+    {
+      "sign": "Libra (octobre)",
+      "folios": [
+        "f72v1"
+      ],
+      "nymph_loci_total": 30,
+      "target_30": 30,
+      "notes": "30 exact degree-nymphs"
+    },
+    {
+      "sign": "Scorpio (octobre)",
+      "folios": [
+        "f73r"
+      ],
+      "nymph_loci_total": 30,
+      "target_30": 30,
+      "notes": "31 @Lz loci (1 central star otedy + 10 inner + 16 middle + 4 top overflow = 30 degree-nymphs)"
+    },
+    {
+      "sign": "Sagittarius (novembre)",
+      "folios": [
+        "f73v"
+      ],
+      "nymph_loci_total": 30,
+      "target_30": 30,
+      "notes": "30 exact degree-nymphs (10 inner + 16 middle + 4 top overflow)"
+    }
+  ],
+  "folio_summaries": [
+    {
+      "folio": "f70v2",
+      "sign": "Pisces",
+      "month_gloss": "mars",
+      "split": "Single (Full Sign)",
+      "barreled": true,
+      "n_rings": 3,
+      "ring_words_count": 96,
+      "n_nymph_loci": 30,
+      "nymph_words_count": 35,
+      "multi_word_nymph_loci_count": 5,
+      "multi_word_nymph_examples": [
+        "oky.ody",
+        "oty.ar",
+        "otal.arar",
+        "otar.am",
+        "otar.al"
+      ],
+      "prefix_counts": {
+        "ot_op": 17,
+        "d_s_y": 4,
+        "ok_of": 8,
+        "ch_sh": 1
+      },
+      "ot_op_vs_ok_of_ratio": 68.0,
+      "shared_nymph_ring_exact_words": [
+        "al",
+        "am",
+        "ar",
+        "arar",
+        "ody",
+        "otal",
+        "otar"
+      ],
+      "shared_nymph_ring_stems_count": 11,
+      "nymph_stem_coverage_in_rings_pct": 57.89,
+      "sample_nymph_labels": [
+        "otalalg",
+        "ykary",
+        "otar",
+        "oty",
+        "oky.ody",
+        "oty.ar",
+        "okala",
+        "otody",
+        "otald",
+        "otaldar"
+      ]
+    },
+    {
+      "folio": "f70v1",
+      "sign": "Aries I (Dark)",
+      "month_gloss": "abril",
+      "split": "Split Part 1 (Decans 1-1.5)",
+      "barreled": true,
+      "n_rings": 2,
+      "ring_words_count": 61,
+      "n_nymph_loci": 15,
+      "nymph_words_count": 25,
+      "multi_word_nymph_loci_count": 6,
+      "multi_word_nymph_examples": [
+        "otalchy.tar.am.dy",
+        "opchey.sal",
+        "otal.ypsharal",
+        "oteo.alals.araly",
+        "oteoeey.otal.okealar",
+        "otear.araydy"
+      ],
+      "prefix_counts": {
+        "ot_op": 11,
+        "ok_of": 3,
+        "other": 1
+      },
+      "ot_op_vs_ok_of_ratio": 78.57,
+      "shared_nymph_ring_exact_words": [
+        "oteo"
+      ],
+      "shared_nymph_ring_stems_count": 5,
+      "nymph_stem_coverage_in_rings_pct": 31.25,
+      "sample_nymph_labels": [
+        "otalchy.tar.am.dy",
+        "opchey.sal",
+        "otakaizan",
+        "okalal",
+        "otaly",
+        "oalcheg",
+        "otchodals",
+        "okolshy",
+        "otshshdy",
+        "otal.ypsharal"
+      ]
+    },
+    {
+      "folio": "f71r",
+      "sign": "Aries II (Light)",
+      "month_gloss": "abril",
+      "split": "Split Part 2 (Decans 1.5-3)",
+      "barreled": true,
+      "n_rings": 3,
+      "ring_words_count": 73,
+      "n_nymph_loci": 15,
+      "nymph_words_count": 17,
+      "multi_word_nymph_loci_count": 2,
+      "multi_word_nymph_examples": [
+        "oteos.arar",
+        "oteotey.rary"
+      ],
+      "prefix_counts": {
+        "ot_op": 12,
+        "ok_of": 2,
+        "ch_sh": 1
+      },
+      "ot_op_vs_ok_of_ratio": 85.71,
+      "shared_nymph_ring_exact_words": [
+        "oteeol",
+        "oteos"
+      ],
+      "shared_nymph_ring_stems_count": 3,
+      "nymph_stem_coverage_in_rings_pct": 18.75,
+      "sample_nymph_labels": [
+        "oteos.arar",
+        "okldam",
+        "oteoaldy",
+        "oteolar",
+        "okeoaly",
+        "otaleky",
+        "otalsar",
+        "cheary",
+        "oteotey.rary",
+        "otalaly"
+      ]
+    },
+    {
+      "folio": "f71v",
+      "sign": "Taurus I (Light)",
+      "month_gloss": "may",
+      "split": "Split Part 1 (Decans 1-1.5)",
+      "barreled": true,
+      "n_rings": 3,
+      "ring_words_count": 78,
+      "n_nymph_loci": 15,
+      "nymph_words_count": 22,
+      "multi_word_nymph_loci_count": 5,
+      "multi_word_nymph_examples": [
+        "char.arom",
+        "otar.ar.aly",
+        "opalar.am.dan",
+        "opalor.ar",
+        "otar.shar"
+      ],
+      "prefix_counts": {
+        "ch_sh": 3,
+        "ok_of": 3,
+        "ot_op": 8,
+        "other": 1
+      },
+      "ot_op_vs_ok_of_ratio": 72.73,
+      "shared_nymph_ring_exact_words": [
+        "aly",
+        "ar",
+        "otaiin",
+        "otar"
+      ],
+      "shared_nymph_ring_stems_count": 5,
+      "nymph_stem_coverage_in_rings_pct": 55.56,
+      "sample_nymph_labels": [
+        "char.arom",
+        "chfaly",
+        "okolar",
+        "otchody",
+        "alcphy",
+        "otaiin",
+        "okaraiin",
+        "otar.ar.aly",
+        "opalar.am.dan",
+        "opalor.ar"
+      ]
+    },
+    {
+      "folio": "f72r1",
+      "sign": "Taurus II (Dark)",
+      "month_gloss": "may",
+      "split": "Split Part 2 (Decans 1.5-3)",
+      "barreled": true,
+      "n_rings": 3,
+      "ring_words_count": 82,
+      "n_nymph_loci": 15,
+      "nymph_words_count": 23,
+      "multi_word_nymph_loci_count": 6,
+      "multi_word_nymph_examples": [
+        "oaiin.ar.ary",
+        "char.alif",
+        "otaiin.otain",
+        "otalef.ys.ainam",
+        "ochol.sharam",
+        "okeey.ary"
+      ],
+      "prefix_counts": {
+        "other": 3,
+        "ch_sh": 2,
+        "ok_of": 3,
+        "d_s_y": 1,
+        "ot_op": 6
+      },
+      "ot_op_vs_ok_of_ratio": 66.67,
+      "shared_nymph_ring_exact_words": [
+        "ar",
+        "otaiin"
+      ],
+      "shared_nymph_ring_stems_count": 4,
+      "nymph_stem_coverage_in_rings_pct": 26.67,
+      "sample_nymph_labels": [
+        "oshodady",
+        "chdaiirdainy",
+        "oaiin.ar.ary",
+        "okalam",
+        "ytalshdy",
+        "char.alif",
+        "otaraldy",
+        "otaiin.otain",
+        "otalef.ys.ainam",
+        "ochol.sharam"
+      ]
+    },
+    {
+      "folio": "f72r2",
+      "sign": "Gemini",
+      "month_gloss": "juny",
+      "split": "Single (Full Sign)",
+      "barreled": false,
+      "n_rings": 3,
+      "ring_words_count": 82,
+      "n_nymph_loci": 29,
+      "nymph_words_count": 31,
+      "multi_word_nymph_loci_count": 2,
+      "multi_word_nymph_examples": [
+        "okeey.ary",
+        "otair.dy"
+      ],
+      "prefix_counts": {
+        "ok_of": 17,
+        "ot_op": 8,
+        "ol_or": 1,
+        "other": 2,
+        "ch_sh": 1
+      },
+      "ot_op_vs_ok_of_ratio": 32.0,
+      "shared_nymph_ring_exact_words": [
+        "okal",
+        "okaly",
+        "okeey",
+        "otar"
+      ],
+      "shared_nymph_ring_stems_count": 5,
+      "nymph_stem_coverage_in_rings_pct": 29.41,
+      "sample_nymph_labels": [
+        "ofchdamy",
+        "oklairdy",
+        "okaram",
+        "okairy",
+        "okealar",
+        "otaraldy",
+        "okalar",
+        "okal",
+        "okaly",
+        "okal"
+      ]
+    },
+    {
+      "folio": "f72r3",
+      "sign": "Cancer",
+      "month_gloss": "jolh",
+      "split": "Single (Full Sign)",
+      "barreled": false,
+      "n_rings": 4,
+      "ring_words_count": 123,
+      "n_nymph_loci": 30,
+      "nymph_words_count": 41,
+      "multi_word_nymph_loci_count": 9,
+      "multi_word_nymph_examples": [
+        "opoiiinoin.al.ches",
+        "ypaiin.alaly",
+        "oteey.daiin",
+        "opoeey.okaiin",
+        "ochey.fydy",
+        "of.o.eeesaly"
+      ],
+      "prefix_counts": {
+        "ol_or": 10,
+        "other": 6,
+        "ot_op": 5,
+        "d_s_y": 6,
+        "ok_of": 3
+      },
+      "ot_op_vs_ok_of_ratio": 62.5,
+      "shared_nymph_ring_exact_words": [
+        "al",
+        "ches",
+        "o",
+        "olaiin",
+        "oteey"
+      ],
+      "shared_nymph_ring_stems_count": 8,
+      "nymph_stem_coverage_in_rings_pct": 27.59,
+      "sample_nymph_labels": [
+        "olkalaiin",
+        "olalsy",
+        "oraiinam",
+        "osarsheeeo",
+        "oto192aiin",
+        "opoiiinoin.al.ches",
+        "ypaiin.alaly",
+        "oteey.daiin",
+        "oeeodaiin",
+        "ofsholdy"
+      ]
+    },
+    {
+      "folio": "f72v3",
+      "sign": "Leo",
+      "month_gloss": "agost",
+      "split": "Single (Full Sign)",
+      "barreled": false,
+      "n_rings": 3,
+      "ring_words_count": 84,
+      "n_nymph_loci": 30,
+      "nymph_words_count": 34,
+      "multi_word_nymph_loci_count": 4,
+      "multi_word_nymph_examples": [
+        "sheeos.oy",
+        "daiin.chepy",
+        "oteey.deeal",
+        "otaly.yty"
+      ],
+      "prefix_counts": {
+        "other": 6,
+        "ol_or": 1,
+        "ok_of": 11,
+        "ot_op": 7,
+        "ch_sh": 4,
+        "d_s_y": 1
+      },
+      "ot_op_vs_ok_of_ratio": 38.89,
+      "shared_nymph_ring_exact_words": [
+        "daiin",
+        "okeeol",
+        "oteey"
+      ],
+      "shared_nymph_ring_stems_count": 9,
+      "nymph_stem_coverage_in_rings_pct": 45.0,
+      "sample_nymph_labels": [
+        "ocham",
+        "orchey",
+        "okam",
+        "okey",
+        "otcheody",
+        "okyeeshy",
+        ":ofaiin",
+        "okaly",
+        "otoly",
+        "ofalals"
+      ]
+    },
+    {
+      "folio": "f72v2",
+      "sign": "Virgo",
+      "month_gloss": "setembre",
+      "split": "Single (Full Sign)",
+      "barreled": false,
+      "n_rings": 3,
+      "ring_words_count": 77,
+      "n_nymph_loci": 30,
+      "nymph_words_count": 31,
+      "multi_word_nymph_loci_count": 1,
+      "multi_word_nymph_examples": [
+        "air.aim"
+      ],
+      "prefix_counts": {
+        "other": 8,
+        "ok_of": 9,
+        "ch_sh": 5,
+        "ot_op": 4,
+        "d_s_y": 3,
+        "ol_or": 1
+      },
+      "ot_op_vs_ok_of_ratio": 30.77,
+      "shared_nymph_ring_exact_words": [
+        "air"
+      ],
+      "shared_nymph_ring_stems_count": 6,
+      "nymph_stem_coverage_in_rings_pct": 26.09,
+      "sample_nymph_labels": [
+        "oeedey",
+        "oeeodaiin",
+        "okeoram",
+        "air.aim",
+        "oshesy",
+        "okeary",
+        "cheoetey",
+        "cheoldy",
+        "sheoeky",
+        "oteodar"
+      ]
+    },
+    {
+      "folio": "f72v1",
+      "sign": "Libra",
+      "month_gloss": "octobre",
+      "split": "Single (Full Sign)",
+      "barreled": false,
+      "n_rings": 3,
+      "ring_words_count": 74,
+      "n_nymph_loci": 30,
+      "nymph_words_count": 30,
+      "multi_word_nymph_loci_count": 0,
+      "multi_word_nymph_examples": [],
+      "prefix_counts": {
+        "other": 13,
+        "ot_op": 3,
+        "ok_of": 9,
+        "d_s_y": 4,
+        "ch_sh": 1
+      },
+      "ot_op_vs_ok_of_ratio": 25.0,
+      "shared_nymph_ring_exact_words": [],
+      "shared_nymph_ring_stems_count": 8,
+      "nymph_stem_coverage_in_rings_pct": 44.44,
+      "sample_nymph_labels": [
+        "oeeoty",
+        "octhy",
+        "oteoly",
+        "okeoly",
+        "oeees",
+        "oy",
+        "oees",
+        "okeeoly",
+        "odal",
+        "aiinod"
+      ]
+    },
+    {
+      "folio": "f73r",
+      "sign": "Scorpio",
+      "month_gloss": "octobre/novembre",
+      "split": "Single (Full Sign)",
+      "barreled": false,
+      "n_rings": 3,
+      "ring_words_count": 66,
+      "n_nymph_loci": 30,
+      "nymph_words_count": 30,
+      "multi_word_nymph_loci_count": 0,
+      "multi_word_nymph_examples": [],
+      "prefix_counts": {
+        "ot_op": 9,
+        "ch_sh": 5,
+        "d_s_y": 4,
+        "ok_of": 9,
+        "other": 3
+      },
+      "ot_op_vs_ok_of_ratio": 50.0,
+      "shared_nymph_ring_exact_words": [
+        "ar",
+        "opaiin"
+      ],
+      "shared_nymph_ring_stems_count": 5,
+      "nymph_stem_coverage_in_rings_pct": 35.71,
+      "sample_nymph_labels": [
+        "otaly",
+        "chockhy",
+        "otedy",
+        "yteeody",
+        "otaly",
+        "okeody",
+        "oteedyl",
+        "ykeedy",
+        "okeey",
+        "okeedy"
+      ]
+    },
+    {
+      "folio": "f73v",
+      "sign": "Sagittarius",
+      "month_gloss": "novembre/decembre",
+      "split": "Single (Full Sign)",
+      "barreled": false,
+      "n_rings": 3,
+      "ring_words_count": 68,
+      "n_nymph_loci": 30,
+      "nymph_words_count": 31,
+      "multi_word_nymph_loci_count": 1,
+      "multi_word_nymph_examples": [
+        "yfaiin.y"
+      ],
+      "prefix_counts": {
+        "ok_of": 9,
+        "ot_op": 4,
+        "other": 6,
+        "ch_sh": 1,
+        "d_s_y": 9,
+        "ol_or": 1
+      },
+      "ot_op_vs_ok_of_ratio": 30.77,
+      "shared_nymph_ring_exact_words": [
+        "otedy",
+        "oteody",
+        "y",
+        "ykeody"
+      ],
+      "shared_nymph_ring_stems_count": 5,
+      "nymph_stem_coverage_in_rings_pct": 31.25,
+      "sample_nymph_labels": [
+        "okol",
+        "oteody",
+        "oteedy",
+        "eeeody",
+        "okeody",
+        "sheol",
+        "odees",
+        "eery",
+        "okeor",
+        "ofals"
+      ]
+    }
+  ]
+}

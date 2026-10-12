@@ -1,0 +1,497 @@
+{
+  "attack": 192,
+  "discovery": 209,
+  "wave": 45,
+  "version": "v11.0",
+  "title": "Wave 45 Master Compendium: The Zodiac 30-Degree Ecliptic Invariant (299/300), Balneological Unlabeled Prose Absorption Law (z=+6.06), Post-Rosettes Late Herbal Bridge & Quire 20 Two-Tier Star Hierarchy",
+  "highlights": {
+    "attack_189_discovery_206": {
+      "total_zodiac_folios": 12,
+      "total_zodiac_signs_preserved": 10,
+      "total_nymph_loci": 299,
+      "total_ring_words": 964,
+      "barreled_ot_op": 54,
+      "barreled_ok_of": 19,
+      "barreled_ot_op_pct": 73.97,
+      "unbarreled_ot_op": 40,
+      "unbarreled_ok_of": 67,
+      "unbarreled_ok_of_pct": 62.62,
+      "barreled_vs_unbarreled_chi2": 23.28,
+      "barreled_vs_unbarreled_z": 4.83,
+      "aries_split_stem_jaccard": 0.2468,
+      "taurus_split_stem_jaccard": 0.2,
+      "mean_split_sign_jaccard": 0.2234,
+      "mean_other_zodiac_jaccard": 0.2186
+    },
+    "attack_190_discovery_207": {
+      "total_balneo_folios": 20,
+      "labeled_folios_count": 12,
+      "labeled_folios": [
+        "f75v",
+        "f76r",
+        "f77r",
+        "f77v",
+        "f78r",
+        "f80r",
+        "f81v",
+        "f82r",
+        "f82v",
+        "f83r",
+        "f83v",
+        "f84r"
+      ],
+      "unlabeled_folios_count": 8,
+      "unlabeled_folios": [
+        "f75r",
+        "f76v",
+        "f78v",
+        "f79r",
+        "f79v",
+        "f80v",
+        "f81r",
+        "f84v"
+      ],
+      "total_lt_tube_organ_labels": 47,
+      "total_ln_nymph_labels": 63,
+      "lt_ot_op_vs_ok_of": {
+        "ot_op": 15,
+        "ok_of": 11,
+        "ot_op_pct": 57.69
+      },
+      "ln_ot_op_vs_ok_of": {
+        "ot_op": 9,
+        "ok_of": 17,
+        "ok_of_pct": 65.38
+      },
+      "lt_profile": {
+        "n_words": 47,
+        "qo_pct": 2.13,
+        "chsh_pct": 2.13,
+        "okot_pct": 55.32,
+        "ol_article_pct": 19.15,
+        "edy_pct": 14.89,
+        "dy_pct": 6.38,
+        "aiin_pct": 10.64,
+        "nom_lr_pct": 38.3
+      },
+      "ln_profile": {
+        "n_words": 63,
+        "qo_pct": 3.17,
+        "chsh_pct": 0.0,
+        "okot_pct": 41.27,
+        "ol_article_pct": 14.29,
+        "edy_pct": 12.7,
+        "dy_pct": 14.29,
+        "aiin_pct": 3.17,
+        "nom_lr_pct": 30.16
+      },
+      "lt_same_folio_stem_echo_pct": 53.19,
+      "ln_same_folio_stem_echo_pct": 66.67,
+      "labeled_folios_prose_profile": {
+        "n_words": 4040,
+        "qo_pct": 25.52,
+        "chsh_pct": 24.48,
+        "okot_pct": 7.92,
+        "ol_article_pct": 9.38,
+        "edy_pct": 36.76,
+        "dy_pct": 3.99,
+        "aiin_pct": 14.26,
+        "nom_lr_pct": 26.09
+      },
+      "unlabeled_folios_prose_profile": {
+        "n_words": 2779,
+        "qo_pct": 21.48,
+        "chsh_pct": 21.23,
+        "okot_pct": 12.34,
+        "ol_article_pct": 13.39,
+        "edy_pct": 39.04,
+        "dy_pct": 4.53,
+        "aiin_pct": 12.56,
+        "nom_lr_pct": 26.88
+      },
+      "unlabeled_okot_absorption_lift": 1.56,
+      "unlabeled_okot_absorption_z": 6.06,
+      "unlabeled_ol_article_absorption_lift": 1.43,
+      "unlabeled_ol_article_absorption_z": 5.19,
+      "f77r_same_folio_stem_echo_count": 7,
+      "f77r_same_folio_stem_echo_pct": 70.0,
+      "f77r_balneo_wide_stem_echo_pct": 80.0
+    },
+    "attack_191_discovery_208": {
+      "late_herbal_folios_count": 16,
+      "early_herbal_folios_count": 110,
+      "late_herbal_pharma_overlap": {
+        "n_folios": 16,
+        "mean_pharma_exact_token_cov_pct": 57.39,
+        "mean_pharma_stem_token_cov_pct": 87.94,
+        "mean_pharma_stem_jaccard": 0.068
+      },
+      "early_herbal_pharma_overlap": {
+        "n_folios": 110,
+        "mean_pharma_exact_token_cov_pct": 60.81,
+        "mean_pharma_stem_token_cov_pct": 90.31,
+        "mean_pharma_stem_jaccard": 0.0634
+      },
+      "late_herbal_A_pharma_overlap": {
+        "n_folios": 10,
+        "mean_pharma_exact_token_cov_pct": 59.29,
+        "mean_pharma_stem_token_cov_pct": 86.25,
+        "mean_pharma_stem_jaccard": 0.0726
+      },
+      "early_herbal_A_pharma_overlap": {
+        "n_folios": 85,
+        "mean_pharma_exact_token_cov_pct": 61.57,
+        "mean_pharma_stem_token_cov_pct": 90.53,
+        "mean_pharma_stem_jaccard": 0.0615
+      },
+      "late_vs_early_A_pharma_jaccard_lift": 1.18,
+      "f87r_shared_exact_words": [
+        "daiin",
+        "s",
+        "saiin"
+      ],
+      "f87r_shared_stems": [
+        "a",
+        "d",
+        "e",
+        "ee",
+        "eod",
+        "eos",
+        "i",
+        "ii",
+        "o",
+        "os",
+        "s"
+      ],
+      "quire20_short_recipes_tier": {
+        "tier": "Short (<=25 words)",
+        "n_recipes": 70,
+        "mean_words": 19.94,
+        "mean_lines": 2.26,
+        "mean_internal_gallows_init": 4.16,
+        "mean_internal_top_gallows_pf": 0.76,
+        "mean_internal_am_dy_subclause_stops": 1.84,
+        "mean_participle_to_qo_chains": 0.44,
+        "mean_qo_pct": 17.36,
+        "mean_edy_pct": 26.62
+      },
+      "quire20_medium_recipes_tier": {
+        "tier": "Medium (26-59 words)",
+        "n_recipes": 196,
+        "mean_words": 36.8,
+        "mean_lines": 3.67,
+        "mean_internal_gallows_init": 7.95,
+        "mean_internal_top_gallows_pf": 0.85,
+        "mean_internal_am_dy_subclause_stops": 2.83,
+        "mean_participle_to_qo_chains": 1.07,
+        "mean_qo_pct": 16.95,
+        "mean_edy_pct": 26.01
+      },
+      "quire20_long_recipes_tier": {
+        "tier": "Long (>=60 words)",
+        "n_recipes": 19,
+        "mean_words": 120.11,
+        "mean_lines": 10.84,
+        "mean_internal_gallows_init": 25.79,
+        "mean_internal_top_gallows_pf": 1.53,
+        "mean_internal_am_dy_subclause_stops": 7.05,
+        "mean_participle_to_qo_chains": 4.37,
+        "mean_qo_pct": 14.64,
+        "mean_edy_pct": 30.27
+      },
+      "quire20_para_start_stars_count": 269,
+      "quire20_para_start_stars_gallows_pct": 88.1,
+      "quire20_intra_para_stars_count": 54,
+      "quire20_intra_para_stars_gallows_pct": 25.93,
+      "quire20_intra_para_stars_sd_particle_pct": 81.48,
+      "intra_para_stars_examples": [
+        {
+          "folio": "f103r",
+          "line": 9,
+          "first_word": "oteeos"
+        },
+        {
+          "folio": "f103r",
+          "line": 42,
+          "first_word": "tshey"
+        },
+        {
+          "folio": "f103r",
+          "line": 44,
+          "first_word": "odeeey"
+        },
+        {
+          "folio": "f103v",
+          "line": 21,
+          "first_word": "tokain"
+        },
+        {
+          "folio": "f104r",
+          "line": 2,
+          "first_word": "o"
+        },
+        {
+          "folio": "f104v",
+          "line": 11,
+          "first_word": "ycheedy"
+        },
+        {
+          "folio": "f105r",
+          "line": 10,
+          "first_word": "sairy"
+        },
+        {
+          "folio": "f105r",
+          "line": 34,
+          "first_word": "dor"
+        },
+        {
+          "folio": "f105v",
+          "line": 4,
+          "first_word": "olkeeol"
+        },
+        {
+          "folio": "f105v",
+          "line": 13,
+          "first_word": "saiin"
+        },
+        {
+          "folio": "f107r",
+          "line": 16,
+          "first_word": "tolshoror"
+        },
+        {
+          "folio": "f108r",
+          "line": 11,
+          "first_word": "teodeey"
+        },
+        {
+          "folio": "f108r",
+          "line": 42,
+          "first_word": "okeey"
+        },
+        {
+          "folio": "f108v",
+          "line": 23,
+          "first_word": "qokeeor"
+        },
+        {
+          "folio": "f108v",
+          "line": 26,
+          "first_word": "sair"
+        },
+        {
+          "folio": "f108v",
+          "line": 34,
+          "first_word": "tolshey"
+        },
+        {
+          "folio": "f108v",
+          "line": 37,
+          "first_word": "sain"
+        },
+        {
+          "folio": "f108v",
+          "line": 40,
+          "first_word": "daiin"
+        },
+        {
+          "folio": "f108v",
+          "line": 43,
+          "first_word": "shodain"
+        },
+        {
+          "folio": "f108v",
+          "line": 46,
+          "first_word": "saiin"
+        },
+        {
+          "folio": "f108v",
+          "line": 48,
+          "first_word": "dair"
+        },
+        {
+          "folio": "f108v",
+          "line": 50,
+          "first_word": "dsheey"
+        },
+        {
+          "folio": "f111r",
+          "line": 8,
+          "first_word": "daiin"
+        },
+        {
+          "folio": "f111r",
+          "line": 10,
+          "first_word": "ykeedaiin"
+        },
+        {
+          "folio": "f111r",
+          "line": 13,
+          "first_word": "qosheo"
+        },
+        {
+          "folio": "f111r",
+          "line": 17,
+          "first_word": "otes"
+        },
+        {
+          "folio": "f111r",
+          "line": 20,
+          "first_word": "qokeey"
+        },
+        {
+          "folio": "f111r",
+          "line": 23,
+          "first_word": "dshey"
+        },
+        {
+          "folio": "f111r",
+          "line": 26,
+          "first_word": "soaiin"
+        },
+        {
+          "folio": "f111r",
+          "line": 29,
+          "first_word": "salkeedy"
+        },
+        {
+          "folio": "f111r",
+          "line": 32,
+          "first_word": "dsheeoteey"
+        },
+        {
+          "folio": "f111r",
+          "line": 34,
+          "first_word": "teo"
+        },
+        {
+          "folio": "f111r",
+          "line": 39,
+          "first_word": "saiin"
+        },
+        {
+          "folio": "f111v",
+          "line": 4,
+          "first_word": "daiin"
+        },
+        {
+          "folio": "f111v",
+          "line": 6,
+          "first_word": "okeeo"
+        },
+        {
+          "folio": "f111v",
+          "line": 8,
+          "first_word": "sho"
+        },
+        {
+          "folio": "f111v",
+          "line": 11,
+          "first_word": "y"
+        },
+        {
+          "folio": "f111v",
+          "line": 13,
+          "first_word": "sheaiin"
+        },
+        {
+          "folio": "f111v",
+          "line": 16,
+          "first_word": "qokain"
+        },
+        {
+          "folio": "f111v",
+          "line": 18,
+          "first_word": "tais"
+        },
+        {
+          "folio": "f111v",
+          "line": 21,
+          "first_word": "sair"
+        },
+        {
+          "folio": "f111v",
+          "line": 24,
+          "first_word": "cheodain"
+        },
+        {
+          "folio": "f111v",
+          "line": 32,
+          "first_word": "tar"
+        },
+        {
+          "folio": "f111v",
+          "line": 40,
+          "first_word": "ykeeey"
+        },
+        {
+          "folio": "f112r",
+          "line": 5,
+          "first_word": "otair"
+        },
+        {
+          "folio": "f112r",
+          "line": 33,
+          "first_word": "sarol"
+        },
+        {
+          "folio": "f113r",
+          "line": 23,
+          "first_word": "ykeoeshy"
+        },
+        {
+          "folio": "f113r",
+          "line": 48,
+          "first_word": "tcho"
+        },
+        {
+          "folio": "f114r",
+          "line": 25,
+          "first_word": "oaiil"
+        },
+        {
+          "folio": "f115v",
+          "line": 28,
+          "first_word": "y"
+        },
+        {
+          "folio": "f116r",
+          "line": 13,
+          "first_word": "sar"
+        },
+        {
+          "folio": "f116r",
+          "line": 21,
+          "first_word": "sairol"
+        },
+        {
+          "folio": "f116r",
+          "line": 24,
+          "first_word": "qokedy"
+        },
+        {
+          "folio": "f116r",
+          "line": 27,
+          "first_word": "daiin"
+        }
+      ],
+      "f111v_p_gallows_bottom_7_recipes": [
+        "polar",
+        "polkiin",
+        "pochey",
+        "polar",
+        "polchey",
+        "pollaiin",
+        "psalar"
+      ]
+    },
+    "human_readable_sync": {
+      "plain_english_guide_walkthroughs": 38,
+      "visual_specimens_count": 60,
+      "explorer_tabs": 13,
+      "explorer_walkthroughs": 54,
+      "total_discoveries": 209
+    }
+  }
+}

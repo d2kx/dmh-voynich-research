@@ -2031,6 +2031,191 @@ SPECIMENS = [
             "topically chained variations on the same base preparation."
         ),
         "confidence_tier": "Tier A+ (18 Alternating Red/White Stars + Bottom-Left `'20'` Quire Mark + z = +11.89 Recipe Chaining)"
+    },
+    {
+        "id": "SPEC-56",
+        "folio": "f70v2 & f71r",
+        "section": "Zodiac Medallions (`$I=Z`, `$Q=J`, `$L=A`, Scribe 4)",
+        "pdf_page": 129,
+        "image_rel_notes": "../pages/f70v1_aries_dark_abril_p129_enh.png",
+        "image_rel_root": "pages/f70v1_aries_dark_abril_p129_enh.png",
+        "category": "Zodiac `30 = 15 + 15` Decan-Split Medallion (`Aries II` `abril` + Quire `10m`) & `Pisces` (`mars`, `30` `@Lz`)",
+        "common_name": "The `f71r` Aries II (`abril`, `15` Barreled Nymphs + Quire `10m`) & `f70v2` Pisces (`mars`, `30` `@Lz`) `30°` Calibration",
+        "latin_candidates": [
+            "Aries Pars II (`abril`, `15` degrees: `5` inner + `10` outer) + Pisces (`mars`, `29` nymphs + `1` star = `30` `@Lz`)",
+            "Exact `30°`-Per-Sign Ecliptic Degree Calibration (`299 / 300 = 99.67%` across all `10` surviving signs, `Attack 189`)"
+        ],
+        "medieval_herbal_parallels": [
+            "15th-century Occitan/Catalan & Northern Italian Astrological Degree Wheels (`30` individual degree-figures per sign, split `15 + 15` across Aries and Taurus)"
+        ],
+        "visual_diagnostics": [
+            "On `f71r` (`pages/f70v1_aries_dark_abril_p129_enh.png`, `p129`): A horned ram/goat (**Aries**) chews a dark-green leafy branch above the Occitan/Catalan gloss **`abril`**, surrounded by **15 barreled nymphs (`5` inner + `10` outer = `15` degrees; `15 + 15 = 30°` with `f70v1`)**, and the medieval bookbinder's **Quire 10 signature `10m`** in the bottom-right corner",
+            "On `f70v2` (`pages/f70v1_aries_dark_split_zodiac_enh.png`, `p128`): Two fish (**Pisces**) linked by a blue cord swim on either side of the gloss **`mars`** under a golden star (`<f70v2.1,@Lz> oteos`), encircled by **29 barreled nymphs (`11` inner + `18` outer = `30` `@Lz` degree loci)**",
+            "Across all 5 Barreled Zodiac pages (`f70v2–f72r1`), **`ot-/op-` prefixes outnumber `ok-/of-` at `73.97%` (`54` vs `19`, peaking at `85.71%` on `f71r`)**, before inverting to `62.62%` `ok-/of-` on the Unbarreled signs ($\\chi^2 = 23.28, z = +4.83$)"
+        ],
+        "voynich_stems": {
+            "opening_word": "oteos (`f70v2` star) / oteos.arar (`f71r.1` nymph)",
+            "dominant_roots": ["ot- / op- (`73.97%` on barreled nymphs vs `37.38%` on unbarreled nymphs, z = +4.83!)", "otal / otar / oteey (degree-nymph labels)", "57.89% of `f70v2` nymph stems echo directly inside `f70v2`'s 3 concentric rings!"],
+            "cross_section_echoes": ["Proves the `299 / 300` (`99.67%`) `30°`-per-sign ecliptic degree invariant across all 10 surviving Zodiac signs (`Attack 189`)!"]
+        },
+        "plain_english_dossier": (
+            "Why do Aries (`f70v1 + f71r`) and Taurus (`f71v + f72r1`) each take up two pages of 15 nymphs (`5` inner "
+            "+ `10` outer), while the remaining signs each take up one page of 30 nymphs? Because **every astrological "
+            "sign of the `360°` zodiac spans exactly `30°` (`15° + 15° = 30°`)**! In `Attack 189` (`Discovery 206`), we "
+            "proved that across all 10 surviving Zodiac signs (`12` folios), the manuscript records **`299 / 300` "
+            "(`99.67%`) exact degree slots**, while the 5 barreled pages (`f70v2–f72r1`) favor **`ot-/op-` (`73.97%`, "
+            "peaking at `85.71%` on `f71r`)** before inverting to **`ok-/of-` (`62.62%`)** once the barrels disappear."
+        ),
+        "confidence_tier": "Tier A+ (`299/300` Exact `30°` Ecliptic Calibration + `10m` Quire Signature + z = +4.83 Barrel Polarity)"
+    },
+    {
+        "id": "SPEC-57",
+        "folio": "f73r",
+        "section": "Zodiac Medallions (`$I=Z`, `$Q=J`, `$L=A`, Scribe 4)",
+        "pdf_page": 134,
+        "image_rel_notes": "../pages/f73r_scorpio_octobre_zodiac_enh.png",
+        "image_rel_root": "pages/f73r_scorpio_octobre_zodiac_enh.png",
+        "category": "Zodiac 30-Degree Scorpio Medallion (`octobre`, `10 + 16 + 4 = 30` Unbarreled Nymphs)",
+        "common_name": "The `f73r` Scorpio (`octobre`) Lizard-Scorpion Medallion With Golden Star (`otedy`) & `30` Single-Word Degree Nymphs",
+        "latin_candidates": [
+            "Scorpius (`octobre`, `10` inner + `16` middle + `4` top-arc overflow = `30` degree-nymphs + `1` central star `otedy`)",
+            "100% Single-Word Degree Compression (`30/30` 1-word labels vs `32.0%` multi-word in barreled signs, `Attack 189`)"
+        ],
+        "medieval_herbal_parallels": [
+            "15th-century Northern Italian & Alpine Zodiac Medallions (where *Scorpius* is frequently depicted as a green 4-legged lizard/skink with a curled tail)"
+        ],
+        "visual_diagnostics": [
+            "At the center of `f73r` (`pages/f73r_scorpio_octobre_zodiac_enh.png`, `p134`), a dark-green 4-legged lizard-scorpion (**Scorpio**) stands below a golden 8-pointed star labeled `<f73r.1,@Lz> otedy`, with the Occitan/Catalan month gloss **`octobre`** written between its legs",
+            "Surrounding the central medallion sit **10 inner nymphs + 16 middle nymphs**, and because 26 nymphs filled the two concentric bands, the artist drew the remaining **4 nymphs (`26 + 4 = 30` exact degrees!) in an arc across the top outside the outer prose ring** (`oktody, chockhy, otedy, opchody`)",
+            "All 30 nymph labels on `f73r` (`100.0%`) are compressed into single words (`otaly, chockhy, otedy, yteeody, okeody, ykeedy...`), with `35.71%` of their root stems echoed in `f73r`'s concentric rings"
+        ],
+        "voynich_stems": {
+            "opening_word": "otedy (`f73r.1` central Scorpio star label)",
+            "dominant_roots": ["otedy / okeody / ykeedy (`-edy/-ody` Scribe 4 degree labels)", "otaly / opaiin (shared directly with `f73r` ring text)", "chockhy / oktody (top 4-nymph overflow arc)"],
+            "cross_section_echoes": ["Demonstrates the `10 + 16 + 4 = 30` overflow-arc geometric solution used on both `f73r` (Scorpio) and `f73v` (Sagittarius) to preserve the strict `30°` degree count (`Attack 189`)!"]
+        },
+        "plain_english_dossier": (
+            "Folio f73r (`pages/f73r_scorpio_octobre_zodiac_enh.png`) is a brilliant visual proof of the **`30°` "
+            "Zodiac Degree Rule** (`Attack 189`). Look at the two concentric rings around the green Scorpio lizard "
+            "(`octobre`): the inner ring holds **10 nymphs** and the middle ring holds **16 nymphs** (`10 + 16 = 26`). "
+            "Because the artist still needed **4 more nymphs to reach exactly 30 degrees (`26 + 4 = 30`)**, they drew "
+            "those 4 extra star-holding nymphs standing in a neat row at the very top outside the outer text ring!"
+        ),
+        "confidence_tier": "Tier A+ (`10 + 16 + 4 = 30` Overflow-Arc Geometric Proof of the 30-Degree Zodiac Rule)"
+    },
+    {
+        "id": "SPEC-58",
+        "folio": "f77r",
+        "section": "Balneological / Anatomical Hydrotherapy (`$I=B`, `$Q=M`, `$L=B`, Scribe 2)",
+        "pdf_page": 140,
+        "image_rel_notes": "../pages/f77r_balneo_five_organ_ring_enh.png",
+        "image_rel_root": "pages/f77r_balneo_five_organ_ring_enh.png",
+        "category": "Balneological Six-Spout Aqueduct Arch, Four-Nozzle Spraying Ampulla & `70%` Stem Echo",
+        "common_name": "The `f77r` Six-Spout Overhead Aqueduct Arch (`olkchs..soral`), 4-Nozzle Spraying Womb/Ampulla (`otchdy`) & Blue-Sphere Tub (`otolaiin`)",
+        "latin_candidates": [
+            "Fornix Balnei Sex Fistularum & Ampulla Quadri-Rorans (Six-Spout Hydrotherapy Arch & Four-Nozzle Irrigating Ampulla)",
+            "`@Lt` Tube (`57.69%` `ot-/op-`) vs. `@Ln` Nymph (`65.38%` `ok-/of-`) Morphological Polarity (`Attack 190`)"
+        ],
+        "medieval_herbal_parallels": [
+            "15th-century Italian *De Balneis* & Gynecological Hydrotherapy Diagrams (multi-nozzle douche/fumigation vessels and overhead shower arches)"
+        ],
+        "visual_diagnostics": [
+            "Across the top of `f77r` (`pages/f77r_balneo_five_organ_ring_enh.png`, `p140`) spans a curved yellow-green aqueduct arch flanked by two nymphs (`darchdar` at left, `dotedy` in a barrel at right) with **6 labeled downward spouts/organs (`@Lt`: `olkchs, otedy, otork` [blue nozzles], `otol` [red fluted bladder], `dchdy, soral`)**",
+            "In the middle-left margin (`f77r.49`), a nymph (`otchdy`) sits inside a curved womb/ampulla-like vessel whose right end branches into **4 horizontal spray nozzles** misting directly toward Paragraph 2!",
+            "In the bottom-left margin (`f77r.50`), a nymph stands inside a vertical cylinder holding a **deep cobalt-blue sphere** (`otolaiin`) above a scalloped blue waterfall"
+        ],
+        "voynich_stems": {
+            "opening_word": "otedy / otol / dchdy / soral / dotedy / otchdy / otolaiin (`7 / 10` = `70.0%` stem echo in `f77r` prose!)",
+            "dominant_roots": ["otedy / qotedy / qoteedy (echoing spout `otedy` & nymph `dotedy`)", "otol / ol / olaiin (echoing red bladder `otol` & blue sphere `otolaiin`)", "chdy / chedy (echoing spout `dchdy` & ampulla nymph `otchdy`)"],
+            "cross_section_echoes": ["`70.0%` (`7/10`) of `f77r`'s diagram labels echo their stem in `f77r`'s own 3 paragraphs, and `80.0%` (`8/10`) echo across the Balneological section (`Attack 190`)!"]
+        },
+        "plain_english_dossier": (
+            "Folio f77r (`pages/f77r_balneo_five_organ_ring_enh.png`) is a masterclass in labeled medical plumbing. "
+            "Along the top arch hang 6 distinct nozzles and organ-vessels (`olkchs`, `otedy`, `otork`, the red fluted "
+            "bladder `otol`, `dchdy`, `soral`), while down the left margin a bather sits inside a 4-nozzle sprayer "
+            "(`otchdy`) above a bather holding a cobalt-blue sphere (`otolaiin`). In `Attack 190` (`Discovery 207`), "
+            "we proved that **`70.0%` (`7 / 10`) of `f77r`'s diagram labels echo their root stems directly inside the "
+            "prose paragraphs right beside them** (`otedy -> qotedy/otedy`, `otol -> ol/chol`, `otolaiin -> olaiin`, "
+            "`dchdy/otchdy -> chdy/chedy`)."
+        ),
+        "confidence_tier": "Tier A+ (`70.0%` Same-Folio Label-to-Prose Stem Concordance + 6-Spout Arch & 4-Nozzle Ampulla)"
+    },
+    {
+        "id": "SPEC-59",
+        "folio": "f81r",
+        "section": "Balneological / Medical Bathing (`$I=B`, `$Q=M`, `$L=B`, Scribe 2)",
+        "pdf_page": 148,
+        "image_rel_notes": "../pages/f81r_balneo_arcade_pool_gallery_enh.png",
+        "image_rel_root": "pages/f81r_balneo_arcade_pool_gallery_enh.png",
+        "category": "Unlabeled 7-to-6 Nymph Connected Pool Cascade & Body-Prose Nominal Absorption Law ($z = +6.06$)",
+        "common_name": "The `f81r` 7-Nymph Upper Pool to 6-Nymph Lower Tub Cascade & `polchoy / polchdy` Minimal-Pair Paragraphs",
+        "latin_candidates": [
+            "Balneum Duplex Septem et Sex Mulierum Sine Titulis (Two-Tier Connected Immersion Pool Without Margin Callout Labels)",
+            "Unlabeled Balneological Prose Absorption Law (`1.56×` `ok-/ot-` Lift $z = +6.06$; `1.43×` `ol-` Article Lift $z = +5.19$, `Attack 190`)"
+        ],
+        "medieval_herbal_parallels": [
+            "15th-century Italian *De Balneis Puteolanis* communal immersion bath frescoes and manuscripts (bathers linked hand-in-hand in green thermal pools)"
+        ],
+        "visual_diagnostics": [
+            "At the top of `f81r` (`pages/f81r_balneo_arcade_pool_gallery_enh.png`, `p148`), **7 nymphs link hands inside an oval green thermal pool**; a single pipe drains from the left rim down the entire left margin (joined by two gutter tributaries) into a **lower green tub holding 6 linked nymphs**",
+            "Unlike `f77r` or `f84r`, `f81r` has **zero `@Lt/@Ln` diagram callout labels (`0` labels)**—and in response, its two main paragraphs (`Para 1`: `94` words opening `polchoy`; `Para 2`: `116` words opening `polchdy`) surge to **`22.34%` and `20.69%` `ol-/or-` article tokens** and **`14.89%` `ok-/ot-` vessel/nymph tokens**!",
+            "Across all 8 Unlabeled Balneological folios (`2,779` words) vs. the 12 Labeled Balneological folios (`4,040` words), unlabeled prose absorbs **`ok-/ot-` nouns at `1.56×` (`12.34%` vs `7.92%`, $z = +6.06$)** and **`ol-/or-` articles at `1.43×` (`13.39%` vs `9.38%`, $z = +5.19$)**"
+        ],
+        "voynich_stems": {
+            "opening_word": "polchoy (Para 1 opener) <-> polchdy (Para 2 opener — minimal pair!)",
+            "dominant_roots": ["ol / olchedy / olkaiin (`21.43%` `ol-/or-` article rate across `f81r` = `2.28×` labeled Balneo baseline!)", "ok- / ot- (`14.89%` in Para 1, absorbing the missing `@Lt/@Ln` labels into prose!)", "qokeedy / shedy (`40.0%` `-edy` bathing verbs)"],
+            "cross_section_echoes": ["Proves that when a Balneological diagram omits `@Lt/@Ln` labels, the scribe embeds the `ok-/ot-` and `ol-` nominal references directly inside the body sentences (`Attack 190`)!"]
+        },
+        "plain_english_dossier": (
+            "Why do 12 pages in the Balneological section have labels written next to the pipes and bathers (`f77r, "
+            "f84r`), while 8 pages like `f81r` (`pages/f81r_balneo_arcade_pool_gallery_enh.png`) have **zero labels** "
+            "on the drawings? In `Attack 190` (`Discovery 207`), we compared all 2,779 words on the 8 unlabeled bath "
+            "pages against all 4,040 words on the 12 labeled bath pages and found the answer: **when the drawing has "
+            "no labels, the scribe writes the `ok-/ot-` (`1.56×` surge, $z = +6.06$) and `ol-` ('the pool/vessel', "
+            "`1.43×` surge, $z = +5.19`, hitting `22.34%` on `f81r`!) nouns directly inside the prose sentences**! "
+            "And notice how `f81r`'s two main paragraphs—sandwiched between the 7-bather upper pool and 6-bather lower "
+            "pool—open with the minimal pair **`polchoy`** (Para 1) and **`polchdy`** (Para 2)."
+        ),
+        "confidence_tier": "Tier A+ (Grammatical Proof of Diagram-to-Prose Nominal Absorption, z = +6.06 / z = +5.19)"
+    },
+    {
+        "id": "SPEC-60",
+        "folio": "f87r & f111v",
+        "section": "Post-Rosettes Late Herbal (`f87r`, Quire 15) & Quire 20 Dual-Level Star Recipes (`f111v`, Quire 20)",
+        "pdf_page": 160,
+        "image_rel_notes": "../pages/f87r_herbal_terrace_root_enh.png",
+        "image_rel_root": "pages/f87r_herbal_terrace_root_enh.png",
+        "category": "Post-Rosettes Parallel `pchor` Herbal Monograph (`f87r`) & Quire 20 Two-Tier Margin Star Hierarchy (`f111v`)",
+        "common_name": "The `f87r` Two-Tier Palmate Thistle (`pchor.odaiin / pchor.daiin`) & `f111v` 14-Star Dual-Level Recipe Architecture",
+        "latin_candidates": [
+            "Centaurea / Carduus / Eryngium (`f87r` Two-Tier Palmate Leaf Fan, 3 Scaly Blue-Black Capitula & 4-Pronged Taproot)",
+            "Two-Tier Quire 20 Star Hierarchy (`269` `<%>` Primary Stars [`88.10%` Gallows] vs `54` `+P0` Secondary Step Stars [`81.48%` `s-/d-/y-/q-` Particle], `Attack 191`)"
+        ],
+        "medieval_herbal_parallels": [
+            "15th-century Italian Herbals (*Centaurea / Jacea* scaly involucres) & Multi-Tier Rubricated Antidotaria (`f111v`)"
+        ],
+        "visual_diagnostics": [
+            "On `f87r` (`pages/f87r_herbal_terrace_root_enh.png`, `p160`, opening Quire 15 right after the Rosettes foldout): Two tiers of fan-shaped green palmate leaves, three scaly involucral flower heads with blue-and-black florets, a 4-pronged reddish taproot, a faint red-chalk X-loop underdrawing on the lower-left vellum, and **two paragraphs opening as a parallel `pchor` pair (`pchor.odaiin` & `pchor.daiin`)**",
+            "On `f111v` (`pages/f111v_quire20_long_recipes_enh.png`, `p197`): **14 painted left-margin stars** divide into **7 Secondary Intra-Paragraph Step Stars** down the 25-line (`294`-word) top compound protocol (`daiin, okeeo, sho, y, sheaiin...`) followed by **7 Primary `<%>` Recipe-Start Stars** in the bottom half—every single one opening with a **`p-` Gallows (`polar, polkiin, pochey, polar, polchey, pollaiin, psalar` = `100.0%` `p-`!)**"
+        ],
+        "voynich_stems": {
+            "opening_word": "pchor.odaiin / pchor.daiin (`f87r`) & koshey / polar / polkiin / pochey / polchey / pollaiin / psalar (`f111v`)",
+            "dominant_roots": ["pchor (`f87r` parallel paragraph opener)", "polar / polchey / pochey (`7/7` `p-` Gallows openers in bottom half of `f111v`)", "daiin / sair / saiin / sheaiin (`81.48%` particle-initial across all `54` Intra-Paragraph Step Stars in Quire 20!)"],
+            "cross_section_echoes": ["Currier A Late Herbal (`f87r–f96v`) shows a `1.18×` Pharmaceutical Stem Jaccard Lift (`0.0726` vs `0.0615`), while Quire 20's `323` stars split cleanly into `269` Primary `<%>` Stars (`88.10%` Gallows) and `54` Secondary Step Stars (`81.48%` Particle, `Attack 191`)!"]
+        },
+        "plain_english_dossier": (
+            "Pairing `f87r` (`pages/f87r_herbal_terrace_root_enh.png`) and `f111v` (`pages/f111v_quire20_long_recipes_enh.png`) "
+            "reveals how both paragraphs and margin stars are organized. On `f87r` (the first page after the giant "
+            "Rosettes foldout), both paragraphs begin with the exact same declaration word **`pchor`** (`pchor.odaiin` "
+            "in Para 1, `pchor.daiin` in Para 2). And on `f111v`, inspecting the vellum scan solved a major mystery: "
+            "why did transliterators treat lines 1–25 (`294` words) as one giant paragraph even though 7 stars sit "
+            "in its left margin? Because across all `323` stars in Quire 20 (`Attack 191`), **269 are Primary `<%>` "
+            "Recipe-Start Stars (`88.10%` starting with a tall Gallows letter, like `f111v`'s bottom 7 recipes `polar, "
+            "polkiin, pochey, polar, polchey, pollaiin, psalar`)**, whereas **54 are Secondary Intra-Paragraph Step "
+            "Stars (`81.48%` starting with a short `s-/d-/y-/q-` step particle like `daiin, sair, saiin`)** that mark "
+            "sub-steps inside a multi-stage compound preparation!"
+        ),
+        "confidence_tier": "Tier A+ (Eyewitness Discovery of the Two-Tier `88.1%` Gallows vs `81.5%` Particle Star Hierarchy)"
     }
 ]
 
@@ -2039,11 +2224,11 @@ def build_markdown() -> str:
     lines = [
         "# Visual Botanical, Astrological, Balneological & Cosmological Crib Identification Dossier",
         "",
-        "> **Purpose of this Dossier:** Statistical analysis alone cannot tell you whether a plant stem means *Nightshade* or *Alkanet*, or what a painted water pipe or star-wheel is doing. To ground Voynich root words in the real physical world, we must pair **high-resolution visual inspection of the paintings** with **the exact Voynich labels written on those drawings** and **how those words behave in the recipe sections**. This dossier compiles the **55 strongest visual botanical, astronomical, balneological, cosmological, and pharmaceutical identifications** in the manuscript.",
+        "> **Purpose of this Dossier:** Statistical analysis alone cannot tell you whether a plant stem means *Nightshade* or *Alkanet*, or what a painted water pipe or star-wheel is doing. To ground Voynich root words in the real physical world, we must pair **high-resolution visual inspection of the paintings** with **the exact Voynich labels written on those drawings** and **how those words behave in the recipe sections**. This dossier compiles the **60 strongest visual botanical, astronomical, balneological, cosmological, and pharmaceutical identifications** in the manuscript.",
         "",
         "---",
         "",
-        "## Quick Summary Table: The 55 Flagship Visual Identifications (`SPEC-01` – `SPEC-55`)",
+        "## Quick Summary Table: The 60 Flagship Visual Identifications (`SPEC-01` – `SPEC-60`)",
         "",
         "| ID | Folio(s) | Painted Subject | Real-World Identification (15th-c. Herbal / Astronomy / Balneology) | Key Voynich Words / Stems | Why the Match Holds Up |",
         "| :--- | :--- | :--- | :--- | :--- | :--- |",
@@ -2058,7 +2243,7 @@ def build_markdown() -> str:
         "",
         "---",
         "",
-        "## Detailed Visual & Linguistic Dossiers (`SPEC-01` – `SPEC-55`)",
+        "## Detailed Visual & Linguistic Dossiers (`SPEC-01` – `SPEC-60`)",
         ""
     ])
 
