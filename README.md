@@ -566,6 +566,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 82. Intra-Paragraph Topic Persistence ($z = +11.61$ Stem / $z = +22.69$ Exact Word) & The Anaphoric Prefix-Shift Trajectory (`PFX_L_APPL` `+39.7%` on Re-Mentions, `Attack 73`)
+- **`64.29%` Intra-Paragraph Stem Overlap ($z = +11.61$) & `22.31%` Exact Open-Class Word Overlap ($z = +22.69$)**: Across `739` multi-line paragraphs (`14,750` intra-paragraph line pairs), first mentions (`M_1`) concentrate Top-Gallows `p-/f-` (`3.24×`), `s-`, and `o-`, whereas subsequent re-mentions (`M_2+`) surge in Applicative/Resultative `l-/ol-/qol-` (`7.37% -> 10.29%`, `+39.7%`) and Active `qo-` (`20.83% -> 22.83%`).
+
+---
+
+### 83. Skeleton-Stratified Cross-Word Moraic Harmony (`i`-Minims $z = +4.39$, `e`-Loops $z = +5.30$) & Horizontal Line-Final Loop Compression ($z = -3.98$, `Attack 74`)
+- **Cross-Word Moraic Assimilation & Line-Final Compression**: Holding exact consonantal skeletons fixed across `4,211` `-in` tokens and `6,705` `-e-` tokens, `-aiin` after `-aiin` rises `+17.84%` (`68.30%` vs. `50.46%`, $z = +4.39$), `-ee-` after `-ee-` rises `+12.13%` (`51.78%` vs. `39.65%`, $z = +5.30$), and geminate `-ee-` compresses across the line (`W_INIT = 52.42% -> W_INTERIOR = 39.77% -> W_FINAL = 26.69%`, $z = -3.98$).
+
+---
+
+### 84. Drawing-Intrusion (`<->`) Mid-Constituent Bridging (`15.57%` Direct Phrase Splits) & Multi-Paragraph Herbal Vertical Plant-Zone Polarity (`Attack 75`)
+- **Mid-Constituent `<->` Stem Bridges (`pages/f2r_intrusion_bridge_s_shor_y_chor_enh.png`) & Vertical Plant Zones**: Across `732` `<->` drawing intrusions, `15.57%` (`114 / 732`) split a 2-word constituent right across the painted stem (`<f2r.2> s <-> shor`, `<f2r.3> y <-> chor`), while across `87` multi-paragraph Herbal folios, `T_CLASS` (`qoty, otol`) and `shy/cheey` enrich in `P_top` (Flower/Leaf Zone) whereas `K_CLASS` (`okal, kchy, okedy, qokchy`) and `-ol/-al` liquids enrich in `P_bot` (Root Zone).
+
+---
+
+### 85. Complete Discourse-Anaphoric & Multi-Step Procedural Recipe Interpreter (`93.50%` Multi-Line Paragraph Coverage, [`notes/DISCOURSE_PROCEDURAL_INTERPRETER.md`](notes/DISCOURSE_PROCEDURAL_INTERPRETER.md), `Attack 76`)
+- **`691 / 739` (`93.50%`) Multi-Line Paragraphs with Explicit Anaphoric Topic Chains ([`notes/DISCOURSE_PROCEDURAL_INTERPRETER.md`](notes/DISCOURSE_PROCEDURAL_INTERPRETER.md))**: Tracks `8,617` cross-line anaphoric links and `1,363` moraic harmony links across the manuscript, with 10 complete step-by-step procedural paragraph walkthroughs.
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -669,4 +689,8 @@ python tools/attack69_phrase_univerbation_constituent_solver.py
 python tools/attack70_constituent_phrase_treebank_parser.py
 python tools/attack71_parallel_clause_tree_aligner.py
 python tools/attack72_constituent_treebank_reader.py
+python tools/attack73_paragraph_anaphora_and_topic_persistence.py
+python tools/attack74_minim_and_loop_quantifier_solver.py
+python tools/attack75_visual_layout_and_intrusion_grammar.py
+python tools/attack76_discourse_procedural_interpreter.py
 ```

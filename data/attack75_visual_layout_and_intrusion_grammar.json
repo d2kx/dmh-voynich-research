@@ -1,0 +1,606 @@
+{
+  "summary": {
+    "total_drawing_intrusions": 732,
+    "paired_folios_with_canopy_and_split": 106,
+    "role_transition_cosine_intrusion_vs_normal": 0.7583,
+    "multiword_constituent_bridges_across_drawing": 114,
+    "multiword_constituent_bridge_pct": 15.57,
+    "canopy_mean_word_len": 5.3,
+    "split_line_mean_word_len": 4.996,
+    "multi_para_herbal_folios": 87
+  },
+  "position_profiles": {
+    "true_interior": {
+      "count": 24190,
+      "mean_len": 5.267,
+      "fin_m_pct": 0.99,
+      "fin_y_dy_pct": 44.47,
+      "fin_in_pct": 16.75,
+      "fin_liq_pct": 27.36,
+      "init_y_s_pct": 16.16,
+      "init_o_pct": 22.27,
+      "init_qo_pct": 17.92,
+      "init_ch_sh_pct": 28.94,
+      "init_pf_pct": 1.24
+    },
+    "pre_drawing_w_pre": {
+      "count": 732,
+      "mean_len": 4.522,
+      "fin_m_pct": 2.46,
+      "fin_y_dy_pct": 44.26,
+      "fin_in_pct": 11.61,
+      "fin_liq_pct": 17.9,
+      "init_y_s_pct": 18.99,
+      "init_o_pct": 16.26,
+      "init_qo_pct": 10.79,
+      "init_ch_sh_pct": 21.04,
+      "init_pf_pct": 1.64
+    },
+    "true_line_final": {
+      "count": 4084,
+      "mean_len": 5.247,
+      "fin_m_pct": 15.48,
+      "fin_y_dy_pct": 38.93,
+      "fin_in_pct": 14.35,
+      "fin_liq_pct": 17.83,
+      "init_y_s_pct": 12.41,
+      "init_o_pct": 24.56,
+      "init_qo_pct": 9.3,
+      "init_ch_sh_pct": 18.95,
+      "init_pf_pct": 1.05
+    },
+    "post_drawing_w_post": {
+      "count": 732,
+      "mean_len": 5.146,
+      "fin_m_pct": 2.32,
+      "fin_y_dy_pct": 36.07,
+      "fin_in_pct": 17.76,
+      "fin_liq_pct": 27.32,
+      "init_y_s_pct": 33.33,
+      "init_o_pct": 24.73,
+      "init_qo_pct": 3.28,
+      "init_ch_sh_pct": 24.18,
+      "init_pf_pct": 0.41
+    },
+    "true_line_initial": {
+      "count": 4084,
+      "mean_len": 5.806,
+      "fin_m_pct": 0.54,
+      "fin_y_dy_pct": 33.72,
+      "fin_in_pct": 21.38,
+      "fin_liq_pct": 30.51,
+      "init_y_s_pct": 29.85,
+      "init_o_pct": 13.74,
+      "init_qo_pct": 12.71,
+      "init_ch_sh_pct": 7.79,
+      "init_pf_pct": 10.14
+    }
+  },
+  "herbal_vertical_plant_zones": {
+    "p_top_flower_leaf": {
+      "count": 3335,
+      "mean_len": 5.07,
+      "fin_m_pct": 3.09,
+      "fin_y_dy_pct": 40.93,
+      "fin_in_pct": 15.68,
+      "fin_liq_pct": 25.88,
+      "init_y_s_pct": 20.15,
+      "init_o_pct": 18.71,
+      "init_qo_pct": 9.42,
+      "init_ch_sh_pct": 28.64,
+      "init_pf_pct": 2.79
+    },
+    "p_mid_stem": {
+      "count": 800,
+      "mean_len": 5.18,
+      "fin_m_pct": 3.38,
+      "fin_y_dy_pct": 39.12,
+      "fin_in_pct": 17.25,
+      "fin_liq_pct": 26.5,
+      "init_y_s_pct": 23.25,
+      "init_o_pct": 14.0,
+      "init_qo_pct": 11.0,
+      "init_ch_sh_pct": 34.25,
+      "init_pf_pct": 3.12
+    },
+    "p_bot_root": {
+      "count": 3568,
+      "mean_len": 5.008,
+      "fin_m_pct": 2.89,
+      "fin_y_dy_pct": 35.79,
+      "fin_in_pct": 16.4,
+      "fin_liq_pct": 30.02,
+      "init_y_s_pct": 19.31,
+      "init_o_pct": 17.68,
+      "init_qo_pct": 9.14,
+      "init_ch_sh_pct": 28.67,
+      "init_pf_pct": 2.41
+    },
+    "top_enriched_words": [
+      {
+        "word": "qoty",
+        "top_count": 14,
+        "bot_count": 6,
+        "top_to_bot_ratio": 2.387
+      },
+      {
+        "word": "shy",
+        "top_count": 27,
+        "bot_count": 12,
+        "top_to_bot_ratio": 2.354
+      },
+      {
+        "word": "cheey",
+        "top_count": 9,
+        "bot_count": 4,
+        "top_to_bot_ratio": 2.259
+      },
+      {
+        "word": "cheody",
+        "top_count": 9,
+        "bot_count": 4,
+        "top_to_bot_ratio": 2.259
+      },
+      {
+        "word": "ody",
+        "top_count": 11,
+        "bot_count": 5,
+        "top_to_bot_ratio": 2.237
+      },
+      {
+        "word": "otol",
+        "top_count": 12,
+        "bot_count": 6,
+        "top_to_bot_ratio": 2.057
+      },
+      {
+        "word": "kaiin",
+        "top_count": 8,
+        "bot_count": 4,
+        "top_to_bot_ratio": 2.021
+      },
+      {
+        "word": "odaiin",
+        "top_count": 8,
+        "bot_count": 4,
+        "top_to_bot_ratio": 2.021
+      },
+      {
+        "word": "sy",
+        "top_count": 11,
+        "bot_count": 6,
+        "top_to_bot_ratio": 1.893
+      },
+      {
+        "word": "oty",
+        "top_count": 19,
+        "bot_count": 11,
+        "top_to_bot_ratio": 1.814
+      },
+      {
+        "word": "otchy",
+        "top_count": 13,
+        "bot_count": 8,
+        "top_to_bot_ratio": 1.699
+      },
+      {
+        "word": "char",
+        "top_count": 16,
+        "bot_count": 10,
+        "top_to_bot_ratio": 1.681
+      },
+      {
+        "word": "qokaiin",
+        "top_count": 14,
+        "bot_count": 9,
+        "top_to_bot_ratio": 1.633
+      },
+      {
+        "word": "y",
+        "top_count": 18,
+        "bot_count": 12,
+        "top_to_bot_ratio": 1.583
+      },
+      {
+        "word": "ykchy",
+        "top_count": 9,
+        "bot_count": 6,
+        "top_to_bot_ratio": 1.564
+      }
+    ],
+    "bot_enriched_words": [
+      {
+        "word": "okal",
+        "top_count": 5,
+        "bot_count": 16,
+        "top_to_bot_ratio": 0.357
+      },
+      {
+        "word": "cheol",
+        "top_count": 4,
+        "bot_count": 13,
+        "top_to_bot_ratio": 0.357
+      },
+      {
+        "word": "kchy",
+        "top_count": 3,
+        "bot_count": 9,
+        "top_to_bot_ratio": 0.394
+      },
+      {
+        "word": "okedy",
+        "top_count": 5,
+        "bot_count": 12,
+        "top_to_bot_ratio": 0.471
+      },
+      {
+        "word": "shody",
+        "top_count": 6,
+        "bot_count": 13,
+        "top_to_bot_ratio": 0.515
+      },
+      {
+        "word": "qokchy",
+        "top_count": 9,
+        "bot_count": 18,
+        "top_to_bot_ratio": 0.549
+      },
+      {
+        "word": "cthol",
+        "top_count": 9,
+        "bot_count": 17,
+        "top_to_bot_ratio": 0.581
+      },
+      {
+        "word": "chcthy",
+        "top_count": 7,
+        "bot_count": 13,
+        "top_to_bot_ratio": 0.594
+      },
+      {
+        "word": "r",
+        "top_count": 5,
+        "bot_count": 9,
+        "top_to_bot_ratio": 0.619
+      },
+      {
+        "word": "dol",
+        "top_count": 8,
+        "bot_count": 14,
+        "top_to_bot_ratio": 0.627
+      },
+      {
+        "word": "cheky",
+        "top_count": 7,
+        "bot_count": 12,
+        "top_to_bot_ratio": 0.642
+      },
+      {
+        "word": "okchy",
+        "top_count": 6,
+        "bot_count": 10,
+        "top_to_bot_ratio": 0.662
+      },
+      {
+        "word": "ar",
+        "top_count": 15,
+        "bot_count": 24,
+        "top_to_bot_ratio": 0.677
+      },
+      {
+        "word": "dal",
+        "top_count": 14,
+        "bot_count": 22,
+        "top_to_bot_ratio": 0.689
+      },
+      {
+        "word": "okeedy",
+        "top_count": 5,
+        "bot_count": 8,
+        "top_to_bot_ratio": 0.692
+      }
+    ]
+  },
+  "sample_constituent_bridges_across_drawing": [
+    {
+      "folio": "f1v",
+      "lnum": "1",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "ol",
+      "w_post": "oltchey",
+      "role_pre": "NOM_LIQ",
+      "role_post": "NOM_OK"
+    },
+    {
+      "folio": "f2r",
+      "lnum": "2",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "s",
+      "w_post": "shor",
+      "role_pre": "PREP_DSY",
+      "role_post": "PREP_DSY"
+    },
+    {
+      "folio": "f2r",
+      "lnum": "3",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "y",
+      "w_post": "chor",
+      "role_pre": "PREP_DSY",
+      "role_post": "NOM_LIQ"
+    },
+    {
+      "folio": "f2v",
+      "lnum": "6",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "chty",
+      "w_post": "daiin",
+      "role_pre": "VERB_CH",
+      "role_post": "MEAS_IN"
+    },
+    {
+      "folio": "f4r",
+      "lnum": "2",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "s",
+      "w_post": "choraiin",
+      "role_pre": "PREP_DSY",
+      "role_post": "NOM_OTHER"
+    },
+    {
+      "folio": "f4r",
+      "lnum": "3",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "qotaiin",
+      "w_post": "daiin",
+      "role_pre": "ACT_QO",
+      "role_post": "MEAS_IN"
+    },
+    {
+      "folio": "f8r",
+      "lnum": "17",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "chl",
+      "w_post": "aiin",
+      "role_pre": "NOM_OTHER",
+      "role_post": "MEAS_IN"
+    },
+    {
+      "folio": "f8r",
+      "lnum": "18",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "chaiin",
+      "w_post": "daiin",
+      "role_pre": "NOM_OTHER",
+      "role_post": "MEAS_IN"
+    },
+    {
+      "folio": "f8v",
+      "lnum": "4",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "shol",
+      "w_post": "dol",
+      "role_pre": "PREP_DSY",
+      "role_post": "PREP_DSY"
+    },
+    {
+      "folio": "f8v",
+      "lnum": "12",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "dal",
+      "w_post": "shear",
+      "role_pre": "PREP_DSY",
+      "role_post": "PREP_DSY"
+    },
+    {
+      "folio": "f9r",
+      "lnum": "8",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "d",
+      "w_post": "dal",
+      "role_pre": "PREP_DSY",
+      "role_post": "PREP_DSY"
+    },
+    {
+      "folio": "f9r",
+      "lnum": "8",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "dal",
+      "w_post": "s",
+      "role_pre": "PREP_DSY",
+      "role_post": "PREP_DSY"
+    },
+    {
+      "folio": "f9r",
+      "lnum": "9",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "saiindchy",
+      "w_post": "daiin",
+      "role_pre": "NOM_OTHER",
+      "role_post": "MEAS_IN"
+    },
+    {
+      "folio": "f9v",
+      "lnum": "5",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "ar",
+      "w_post": "chty",
+      "role_pre": "NOM_LIQ",
+      "role_post": "VERB_CH"
+    },
+    {
+      "folio": "f9v",
+      "lnum": "6",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "chody",
+      "w_post": "dain",
+      "role_pre": "VERB_CH",
+      "role_post": "MEAS_IN"
+    },
+    {
+      "folio": "f10r",
+      "lnum": "7",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "cth",
+      "w_post": "dain",
+      "role_pre": "NOM_OTHER",
+      "role_post": "MEAS_IN"
+    },
+    {
+      "folio": "f15r",
+      "lnum": "3",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "qotchytydy",
+      "w_post": "daiin",
+      "role_pre": "ACT_QO",
+      "role_post": "MEAS_IN"
+    },
+    {
+      "folio": "f15r",
+      "lnum": "5",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "cthy",
+      "w_post": "daiin",
+      "role_pre": "NOM_OTHER",
+      "role_post": "MEAS_IN"
+    },
+    {
+      "folio": "f15r",
+      "lnum": "8",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "tolkaiins",
+      "w_post": "dain",
+      "role_pre": "NOM_OTHER",
+      "role_post": "MEAS_IN"
+    },
+    {
+      "folio": "f15r",
+      "lnum": "14",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "ar",
+      "w_post": "ytol",
+      "role_pre": "NOM_LIQ",
+      "role_post": "PREP_DSY"
+    },
+    {
+      "folio": "f16r",
+      "lnum": "1",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "ychy",
+      "w_post": "daiin",
+      "role_pre": "PREP_DSY",
+      "role_post": "MEAS_IN"
+    },
+    {
+      "folio": "f17r",
+      "lnum": "7",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "d",
+      "w_post": "opchordy",
+      "role_pre": "PREP_DSY",
+      "role_post": "NOM_OK"
+    },
+    {
+      "folio": "f20v",
+      "lnum": "7",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "s",
+      "w_post": "soaiin",
+      "role_pre": "PREP_DSY",
+      "role_post": "NOM_OTHER"
+    },
+    {
+      "folio": "f22r",
+      "lnum": "7",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "ol",
+      "w_post": "otchy",
+      "role_pre": "NOM_LIQ",
+      "role_post": "NOM_OK"
+    },
+    {
+      "folio": "f22r",
+      "lnum": "11",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "or",
+      "w_post": "dchchy",
+      "role_pre": "NOM_LIQ",
+      "role_post": "NOM_OTHER"
+    },
+    {
+      "folio": "f22v",
+      "lnum": "10",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "s",
+      "w_post": "or",
+      "role_pre": "PREP_DSY",
+      "role_post": "NOM_LIQ"
+    },
+    {
+      "folio": "f23r",
+      "lnum": "8",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "s",
+      "w_post": "dal",
+      "role_pre": "PREP_DSY",
+      "role_post": "PREP_DSY"
+    },
+    {
+      "folio": "f23r",
+      "lnum": "9",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "oly",
+      "w_post": "daiin",
+      "role_pre": "NOM_OTHER",
+      "role_post": "MEAS_IN"
+    },
+    {
+      "folio": "f23v",
+      "lnum": "3",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "okeeor",
+      "w_post": "daiin",
+      "role_pre": "NOM_OK",
+      "role_post": "MEAS_IN"
+    },
+    {
+      "folio": "f23v",
+      "lnum": "9",
+      "sec": "H",
+      "lang": "A",
+      "w_pre": "or",
+      "w_post": "qoto",
+      "role_pre": "NOM_LIQ",
+      "role_post": "ACT_QO"
+    }
+  ]
+}

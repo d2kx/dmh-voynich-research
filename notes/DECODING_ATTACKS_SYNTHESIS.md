@@ -688,3 +688,32 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Script, Data & Edition**: [`tools/attack72_constituent_treebank_reader.py`](../tools/attack72_constituent_treebank_reader.py) $\to$ [`data/attack72_constituent_treebank_reader.json`](../data/attack72_constituent_treebank_reader.json) & [`notes/CONSTITUENT_TREEBANK_READER.md`](CONSTITUENT_TREEBANK_READER.md)
 - **Key Breakthroughs**:
   1. **Synthesizes the Phrase-Univerbation Dictionary, `29,461`-Constituent Treebank Parser, and `Currier A <-> Currier B` Translation Bridge into a Complete Bracketed Reader for `f20v`, `f1r`, `f78r`, `f85r2`, `f99r`, and `f107r`**.
+
+---
+
+## 73. Attack 73 (`Phase 84`): Intra-Paragraph Topic Persistence ($z = +11.61$ Stem / $z = +22.69$ Exact Word) & The Anaphoric Prefix-Shift Trajectory (`PFX_L_APPL` `+39.7%` on Re-Mentions)
+- **Script & Data**: [`tools/attack73_paragraph_anaphora_and_topic_persistence.py`](../tools/attack73_paragraph_anaphora_and_topic_persistence.py) $\to$ [`data/attack73_paragraph_anaphora_and_topic_persistence.json`](../data/attack73_paragraph_anaphora_and_topic_persistence.json)
+- **Key Breakthroughs**:
+  1. **Intra-Paragraph Stem Overlap (`64.29%` vs. `57.71%` Null, $z = +11.61$) & Exact Open-Class Word Overlap (`22.31%` vs. `14.51%` Null, $z = +22.69$)**.
+  2. **Anaphoric Prefix Shift (`M_1 -> M_2+`): First Mentions Enrich Top-Gallows `PFX_TOP_PF` (`3.24×`), `s-`, and `o-`, While Subsequent Re-Mentions Surge in Applicative `PFX_L_APPL` (`l-/ol-/qol-`: `7.37% -> 10.29%`, `+39.7%`) and Active `PFX_QO_ACT` (`20.83% -> 22.83%`)**.
+
+---
+
+## 74. Attack 74 (`Phase 85`): Skeleton-Stratified Cross-Word Moraic Harmony (`i`-Minims $z = +4.39$, `e`-Loops $z = +5.30$) & Horizontal Line-Final Loop Compression ($z = -3.98$)
+- **Script & Data**: [`tools/attack74_minim_and_loop_quantifier_solver.py`](../tools/attack74_minim_and_loop_quantifier_solver.py) $\to$ [`data/attack74_minim_and_loop_quantifier_solver.json`](../data/attack74_minim_and_loop_quantifier_solver.json)
+- **Key Breakthroughs**:
+  1. **Holding Consonantal Skeletons Fixed, Adjacent Words Exhibit Cross-Word Moraic Harmony in Both `i`-Minims (`68.30%` vs. `50.46%`, `+17.84%`, $z = +4.39$) and `e`-Loops (`51.78%` vs. `39.65%`, `+12.13%`, $z = +5.30$), While Geminate `-ee-` Compresses Across the Line (`W_INIT = 52.42% -> W_INTERIOR = 39.77% -> W_FINAL = 26.69%`, $z = -3.98$)**.
+
+---
+
+## 75. Attack 75 (`Phase 86`): Drawing-Intrusion (`<->`) Mid-Constituent Bridging (`15.57%` Direct Phrase Splits) & Multi-Paragraph Herbal Vertical Plant-Zone Polarity
+- **Script, Data & Scan**: [`tools/attack75_visual_layout_and_intrusion_grammar.py`](../tools/attack75_visual_layout_and_intrusion_grammar.py) $\to$ [`data/attack75_visual_layout_and_intrusion_grammar.json`](../data/attack75_visual_layout_and_intrusion_grammar.json) & [`pages/f2r_intrusion_bridge_s_shor_y_chor_enh.png`](../pages/f2r_intrusion_bridge_s_shor_y_chor_enh.png)
+- **Key Breakthroughs**:
+  1. **`15.57%` (`114 / 732`) of `<->` Drawing Intrusions Split a Single 2-Word Constituent Across the Painted Stem (`<f2r.2> s <-> shor`, `<f2r.3> y <-> chor`, `Role-Transition Cosine = 0.7583`), While on `87` Multi-Paragraph Herbal Folios, `T_CLASS` (`qoty, otol`) & `shy/cheey` Enrich in `P_top` (Flower/Leaf Zone) vs. `K_CLASS` (`okal, kchy, okedy, qokchy`) & `-ol/-al` Liquids in `P_bot` (Root Zone)**.
+
+---
+
+## 76. Attack 76 (`Phase 87`): Complete Discourse-Anaphoric & Multi-Step Procedural Recipe Interpreter (`93.50%` Multi-Line Paragraph Coverage, [`notes/DISCOURSE_PROCEDURAL_INTERPRETER.md`](DISCOURSE_PROCEDURAL_INTERPRETER.md))
+- **Script, Data & Edition**: [`tools/attack76_discourse_procedural_interpreter.py`](../tools/attack76_discourse_procedural_interpreter.py) $\to$ [`data/attack76_discourse_procedural_interpreter.json`](../data/attack76_discourse_procedural_interpreter.json) & [`notes/DISCOURSE_PROCEDURAL_INTERPRETER.md`](DISCOURSE_PROCEDURAL_INTERPRETER.md)
+- **Key Breakthroughs**:
+  1. **Demonstrates That `691 / 739` (`93.50%`) of Multi-Line Paragraphs Track Recurring Open-Class Topic Stems Across Lines (`8,617` Anaphoric Links & `1,363` Moraic Harmony Links) and Compiles 10 Complete Step-by-Step Procedural Walkthroughs**.

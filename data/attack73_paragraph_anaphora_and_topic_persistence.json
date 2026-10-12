@@ -1,0 +1,540 @@
+{
+  "summary": {
+    "multi_line_paragraphs": 739,
+    "intra_paragraph_line_pairs": 14750,
+    "stem_overlap_rate_pct": 64.29,
+    "null_stem_overlap_mean_pct": 57.71,
+    "null_stem_overlap_sd_pct": 0.57,
+    "stem_persistence_z": 11.61,
+    "exact_open_word_overlap_rate_pct": 22.31,
+    "null_word_overlap_mean_pct": 14.51,
+    "null_word_overlap_sd_pct": 0.34,
+    "exact_word_persistence_z": 22.69,
+    "cross_line_boundary_mi_bits": 0.01237,
+    "exact_boundary_stem_echoes": 42
+  },
+  "anaphoric_prefix_shift": {
+    "PFX_D_CONT": {
+      "first_mention_count": 70,
+      "first_mention_pct": 2.14,
+      "remention_count": 185,
+      "remention_pct": 2.15,
+      "remention_to_first_ratio": 1.003
+    },
+    "PFX_L_APPL": {
+      "first_mention_count": 241,
+      "first_mention_pct": 7.37,
+      "remention_count": 887,
+      "remention_pct": 10.29,
+      "remention_to_first_ratio": 1.397
+    },
+    "PFX_O_NOM": {
+      "first_mention_count": 617,
+      "first_mention_pct": 18.87,
+      "remention_count": 1501,
+      "remention_pct": 17.42,
+      "remention_to_first_ratio": 0.923
+    },
+    "PFX_QO_ACT": {
+      "first_mention_count": 681,
+      "first_mention_pct": 20.83,
+      "remention_count": 1967,
+      "remention_pct": 22.83,
+      "remention_to_first_ratio": 1.096
+    },
+    "PFX_S_CONT": {
+      "first_mention_count": 83,
+      "first_mention_pct": 2.54,
+      "remention_count": 141,
+      "remention_pct": 1.64,
+      "remention_to_first_ratio": 0.645
+    },
+    "PFX_TOP_PF": {
+      "first_mention_count": 70,
+      "first_mention_pct": 2.14,
+      "remention_count": 57,
+      "remention_pct": 0.66,
+      "remention_to_first_ratio": 0.309
+    },
+    "PFX_Y_CONT": {
+      "first_mention_count": 207,
+      "first_mention_pct": 6.33,
+      "remention_count": 533,
+      "remention_pct": 6.19,
+      "remention_to_first_ratio": 0.977
+    },
+    "PFX_ZERO": {
+      "first_mention_count": 1301,
+      "first_mention_pct": 39.79,
+      "remention_count": 3346,
+      "remention_pct": 38.83,
+      "remention_to_first_ratio": 0.976
+    }
+  },
+  "top_prefix_shift_transitions": [
+    {
+      "transition": "PFX_ZERO -> PFX_ZERO",
+      "count": 2359
+    },
+    {
+      "transition": "PFX_QO_ACT -> PFX_QO_ACT",
+      "count": 976
+    },
+    {
+      "transition": "PFX_O_NOM -> PFX_O_NOM",
+      "count": 532
+    },
+    {
+      "transition": "PFX_O_NOM -> PFX_QO_ACT",
+      "count": 492
+    },
+    {
+      "transition": "PFX_QO_ACT -> PFX_O_NOM",
+      "count": 464
+    },
+    {
+      "transition": "PFX_ZERO -> PFX_L_APPL",
+      "count": 354
+    },
+    {
+      "transition": "PFX_L_APPL -> PFX_ZERO",
+      "count": 298
+    },
+    {
+      "transition": "PFX_L_APPL -> PFX_QO_ACT",
+      "count": 204
+    },
+    {
+      "transition": "PFX_ZERO -> PFX_O_NOM",
+      "count": 202
+    },
+    {
+      "transition": "PFX_QO_ACT -> PFX_L_APPL",
+      "count": 191
+    },
+    {
+      "transition": "PFX_O_NOM -> PFX_ZERO",
+      "count": 173
+    },
+    {
+      "transition": "PFX_QO_ACT -> PFX_ZERO",
+      "count": 164
+    },
+    {
+      "transition": "PFX_ZERO -> PFX_QO_ACT",
+      "count": 155
+    },
+    {
+      "transition": "PFX_L_APPL -> PFX_L_APPL",
+      "count": 151
+    },
+    {
+      "transition": "PFX_Y_CONT -> PFX_O_NOM",
+      "count": 148
+    },
+    {
+      "transition": "PFX_ZERO -> PFX_D_CONT",
+      "count": 139
+    },
+    {
+      "transition": "PFX_Y_CONT -> PFX_ZERO",
+      "count": 139
+    },
+    {
+      "transition": "PFX_D_CONT -> PFX_ZERO",
+      "count": 139
+    },
+    {
+      "transition": "PFX_ZERO -> PFX_Y_CONT",
+      "count": 136
+    },
+    {
+      "transition": "PFX_O_NOM -> PFX_Y_CONT",
+      "count": 130
+    }
+  ],
+  "top_cross_line_boundary_lifts": [
+    {
+      "line_k_final": "FIN_R_RHO",
+      "line_k1_initial": "INIT_O_NOM",
+      "count": 47,
+      "expected": 38.1,
+      "lift": 1.234
+    },
+    {
+      "line_k_final": "FIN_OTHER",
+      "line_k1_initial": "INIT_O_NOM",
+      "count": 93,
+      "expected": 76.0,
+      "lift": 1.223
+    },
+    {
+      "line_k_final": "FIN_M_NASAL",
+      "line_k1_initial": "INIT_OTHER",
+      "count": 72,
+      "expected": 59.5,
+      "lift": 1.211
+    },
+    {
+      "line_k_final": "FIN_DY_DENTAL",
+      "line_k1_initial": "INIT_CH_BENCH",
+      "count": 23,
+      "expected": 19.2,
+      "lift": 1.2
+    },
+    {
+      "line_k_final": "FIN_Y_BARE",
+      "line_k1_initial": "INIT_CH_BENCH",
+      "count": 33,
+      "expected": 28.0,
+      "lift": 1.179
+    },
+    {
+      "line_k_final": "FIN_DY_DENTAL",
+      "line_k1_initial": "INIT_QO_ACT",
+      "count": 88,
+      "expected": 75.2,
+      "lift": 1.171
+    },
+    {
+      "line_k_final": "FIN_M_NASAL",
+      "line_k1_initial": "INIT_Y_CONT",
+      "count": 114,
+      "expected": 100.2,
+      "lift": 1.138
+    },
+    {
+      "line_k_final": "FIN_OTHER",
+      "line_k1_initial": "INIT_QO_ACT",
+      "count": 80,
+      "expected": 72.2,
+      "lift": 1.108
+    },
+    {
+      "line_k_final": "FIN_IN_MINIM",
+      "line_k1_initial": "INIT_CH_BENCH",
+      "count": 18,
+      "expected": 16.4,
+      "lift": 1.099
+    },
+    {
+      "line_k_final": "FIN_L_LAT",
+      "line_k1_initial": "INIT_QO_ACT",
+      "count": 58,
+      "expected": 53.0,
+      "lift": 1.094
+    },
+    {
+      "line_k_final": "FIN_Y_BARE",
+      "line_k1_initial": "INIT_D_DEICTIC",
+      "count": 150,
+      "expected": 137.3,
+      "lift": 1.093
+    },
+    {
+      "line_k_final": "FIN_IN_MINIM",
+      "line_k1_initial": "INIT_QO_ACT",
+      "count": 70,
+      "expected": 64.2,
+      "lift": 1.09
+    },
+    {
+      "line_k_final": "FIN_OTHER",
+      "line_k1_initial": "INIT_Y_CONT",
+      "count": 94,
+      "expected": 86.7,
+      "lift": 1.084
+    },
+    {
+      "line_k_final": "FIN_M_NASAL",
+      "line_k1_initial": "INIT_S_CONT",
+      "count": 109,
+      "expected": 100.7,
+      "lift": 1.083
+    },
+    {
+      "line_k_final": "FIN_M_NASAL",
+      "line_k1_initial": "INIT_D_DEICTIC",
+      "count": 112,
+      "expected": 104.4,
+      "lift": 1.073
+    },
+    {
+      "line_k_final": "FIN_IN_MINIM",
+      "line_k1_initial": "INIT_S_CONT",
+      "count": 83,
+      "expected": 77.5,
+      "lift": 1.071
+    },
+    {
+      "line_k_final": "FIN_L_LAT",
+      "line_k1_initial": "INIT_S_CONT",
+      "count": 68,
+      "expected": 64.0,
+      "lift": 1.063
+    },
+    {
+      "line_k_final": "FIN_L_LAT",
+      "line_k1_initial": "INIT_OTHER",
+      "count": 40,
+      "expected": 37.8,
+      "lift": 1.059
+    },
+    {
+      "line_k_final": "FIN_Y_BARE",
+      "line_k1_initial": "INIT_S_CONT",
+      "count": 139,
+      "expected": 132.4,
+      "lift": 1.05
+    },
+    {
+      "line_k_final": "FIN_L_LAT",
+      "line_k1_initial": "INIT_D_DEICTIC",
+      "count": 69,
+      "expected": 66.3,
+      "lift": 1.04
+    }
+  ],
+  "sample_multi_line_anaphoric_chains": [
+    {
+      "folio": "f111r",
+      "sec": "S",
+      "lang": "B",
+      "stem": "ke",
+      "lines_spanned": 26,
+      "chain": "L1:qokeedy(PFX_QO_ACT) -> L1:keedy(PFX_ZERO) -> L2:qokeey(PFX_QO_ACT) -> L2:qokeody(PFX_QO_ACT) -> L3:qokeey(PFX_QO_ACT) -> L3:qokedy(PFX_QO_ACT)"
+    },
+    {
+      "folio": "f108v",
+      "sec": "S",
+      "lang": "B",
+      "stem": "ke",
+      "lines_spanned": 22,
+      "chain": "L1:qokeoy(PFX_QO_ACT) -> L1:keol(PFX_ZERO) -> L2:qokedy(PFX_QO_ACT) -> L2:okeear(PFX_O_NOM) -> L3:olkeedy(PFX_L_APPL) -> L3:qokeedy(PFX_QO_ACT)"
+    },
+    {
+      "folio": "f111r",
+      "sec": "S",
+      "lang": "B",
+      "stem": "ch",
+      "lines_spanned": 21,
+      "chain": "L1:chedy(PFX_ZERO) -> L1:olchedy(PFX_L_APPL) -> L1:chdy(PFX_ZERO) -> L2:lchedy(PFX_L_APPL) -> L2:chol(PFX_ZERO) -> L3:cheedy(PFX_ZERO)"
+    },
+    {
+      "folio": "f111v",
+      "sec": "S",
+      "lang": "B",
+      "stem": "kain",
+      "lines_spanned": 19,
+      "chain": "L1:alkain(PFX_L_APPL) -> L6:kaiin(PFX_ZERO) -> L7:qokaiin(PFX_QO_ACT) -> L7:kain(PFX_ZERO) -> L8:okain(PFX_O_NOM) -> L8:qokain(PFX_QO_ACT)"
+    },
+    {
+      "folio": "f75r",
+      "sec": "B",
+      "lang": "B",
+      "stem": "sh",
+      "lines_spanned": 18,
+      "chain": "L1:shedy(PFX_ZERO) -> L2:shey(PFX_ZERO) -> L4:lshey(PFX_L_APPL) -> L4:shey(PFX_ZERO) -> L5:olsheedy(PFX_L_APPL) -> L8:lshedy(PFX_L_APPL)"
+    },
+    {
+      "folio": "f84v",
+      "sec": "B",
+      "lang": "B",
+      "stem": "ke",
+      "lines_spanned": 17,
+      "chain": "L1:okedy(PFX_O_NOM) -> L2:qokedy(PFX_QO_ACT) -> L2:okedy(PFX_O_NOM) -> L2:okey(PFX_O_NOM) -> L2:okedy(PFX_O_NOM) -> L3:qokeey(PFX_QO_ACT)"
+    },
+    {
+      "folio": "f78r",
+      "sec": "B",
+      "lang": "B",
+      "stem": "ke",
+      "lines_spanned": 16,
+      "chain": "L1:qokedy(PFX_QO_ACT) -> L2:qokeedy(PFX_QO_ACT) -> L2:qokedy(PFX_QO_ACT) -> L2:olkedy(PFX_L_APPL) -> L3:qokedy(PFX_QO_ACT) -> L3:olkedy(PFX_L_APPL)"
+    },
+    {
+      "folio": "f78v",
+      "sec": "B",
+      "lang": "B",
+      "stem": "ke",
+      "lines_spanned": 16,
+      "chain": "L1:ykedy(PFX_Y_CONT) -> L1:qokedy(PFX_QO_ACT) -> L2:kedy(PFX_ZERO) -> L3:qokedy(PFX_QO_ACT) -> L3:okedy(PFX_O_NOM) -> L4:keedy(PFX_ZERO)"
+    },
+    {
+      "folio": "f108v",
+      "sec": "S",
+      "lang": "B",
+      "stem": "ch",
+      "lines_spanned": 16,
+      "chain": "L3:chedy(PFX_ZERO) -> L4:chey(PFX_ZERO) -> L4:cheedy(PFX_ZERO) -> L5:ochey(PFX_O_NOM) -> L5:lchedy(PFX_L_APPL) -> L6:chedy(PFX_ZERO)"
+    },
+    {
+      "folio": "f75r",
+      "sec": "B",
+      "lang": "B",
+      "stem": "ch",
+      "lines_spanned": 14,
+      "chain": "L3:chal(PFX_ZERO) -> L5:chey(PFX_ZERO) -> L7:chedy(PFX_ZERO) -> L7:chy(PFX_ZERO) -> L7:chedy(PFX_ZERO) -> L8:chey(PFX_ZERO)"
+    },
+    {
+      "folio": "f76r",
+      "sec": "T",
+      "lang": "B",
+      "stem": "sh",
+      "lines_spanned": 14,
+      "chain": "L2:dshedy(PFX_D_CONT) -> L2:shedy(PFX_ZERO) -> L3:yshey(PFX_Y_CONT) -> L4:shedy(PFX_ZERO) -> L4:sheey(PFX_ZERO) -> L6:shdy(PFX_ZERO)"
+    },
+    {
+      "folio": "f76r",
+      "sec": "T",
+      "lang": "B",
+      "stem": "ke",
+      "lines_spanned": 14,
+      "chain": "L2:qokeor(PFX_QO_ACT) -> L3:qokeey(PFX_QO_ACT) -> L3:qokey(PFX_QO_ACT) -> L3:okedy(PFX_O_NOM) -> L4:qokeedy(PFX_QO_ACT) -> L4:qokedy(PFX_QO_ACT)"
+    },
+    {
+      "folio": "f111r",
+      "sec": "S",
+      "lang": "B",
+      "stem": "te",
+      "lines_spanned": 14,
+      "chain": "L1:teedy(PFX_ZERO) -> L2:oteedy(PFX_O_NOM) -> L7:oteey(PFX_O_NOM) -> L8:teey(PFX_ZERO) -> L9:oteey(PFX_O_NOM) -> L9:oteedy(PFX_O_NOM)"
+    },
+    {
+      "folio": "f77r",
+      "sec": "B",
+      "lang": "B",
+      "stem": "ch",
+      "lines_spanned": 13,
+      "chain": "L1:chey(PFX_ZERO) -> L2:chdy(PFX_ZERO) -> L3:chol(PFX_ZERO) -> L3:cham(PFX_ZERO) -> L4:chedy(PFX_ZERO) -> L8:qolcheedy(PFX_L_APPL)"
+    },
+    {
+      "folio": "f80r",
+      "sec": "B",
+      "lang": "B",
+      "stem": "kain",
+      "lines_spanned": 13,
+      "chain": "L2:qokain(PFX_QO_ACT) -> L3:qokaiin(PFX_QO_ACT) -> L3:qokain(PFX_QO_ACT) -> L7:okain(PFX_O_NOM) -> L8:qokain(PFX_QO_ACT) -> L9:okain(PFX_O_NOM)"
+    },
+    {
+      "folio": "f81v",
+      "sec": "B",
+      "lang": "B",
+      "stem": "ch",
+      "lines_spanned": 13,
+      "chain": "L2:olchy(PFX_L_APPL) -> L3:chdy(PFX_ZERO) -> L6:chedy(PFX_ZERO) -> L7:chy(PFX_ZERO) -> L7:chdy(PFX_ZERO) -> L8:chedy(PFX_ZERO)"
+    },
+    {
+      "folio": "f84v",
+      "sec": "B",
+      "lang": "B",
+      "stem": "ke",
+      "lines_spanned": 13,
+      "chain": "L1:olkedy(PFX_L_APPL) -> L1:okedy(PFX_O_NOM) -> L1:qokey(PFX_QO_ACT) -> L2:qokedy(PFX_QO_ACT) -> L2:okedy(PFX_O_NOM) -> L2:qokeedy(PFX_QO_ACT)"
+    },
+    {
+      "folio": "f108v",
+      "sec": "S",
+      "lang": "B",
+      "stem": "te",
+      "lines_spanned": 13,
+      "chain": "L1:qotedy(PFX_QO_ACT) -> L1:qoteedy(PFX_QO_ACT) -> L1:oteedy(PFX_O_NOM) -> L2:qoteedy(PFX_QO_ACT) -> L3:oteedy(PFX_O_NOM) -> L4:oteey(PFX_O_NOM)"
+    },
+    {
+      "folio": "f111v",
+      "sec": "S",
+      "lang": "B",
+      "stem": "ch",
+      "lines_spanned": 13,
+      "chain": "L3:chedy(PFX_ZERO) -> L4:chey(PFX_ZERO) -> L4:chedy(PFX_ZERO) -> L6:chol(PFX_ZERO) -> L12:lchal(PFX_L_APPL) -> L15:chedy(PFX_ZERO)"
+    },
+    {
+      "folio": "f111v",
+      "sec": "S",
+      "lang": "B",
+      "stem": "sh",
+      "lines_spanned": 13,
+      "chain": "L5:shedy(PFX_ZERO) -> L9:lshey(PFX_L_APPL) -> L10:shey(PFX_ZERO) -> L12:sheey(PFX_ZERO) -> L13:shal(PFX_ZERO) -> L14:shedy(PFX_ZERO)"
+    },
+    {
+      "folio": "f6v",
+      "sec": "H",
+      "lang": "A",
+      "stem": "ch",
+      "lines_spanned": 12,
+      "chain": "L1:choy(PFX_ZERO) -> L2:ychol(PFX_Y_CONT) -> L3:ychor(PFX_Y_CONT) -> L3:chor(PFX_ZERO) -> L6:char(PFX_ZERO) -> L8:chor(PFX_ZERO)"
+    },
+    {
+      "folio": "f17v",
+      "sec": "H",
+      "lang": "A",
+      "stem": "ch",
+      "lines_spanned": 12,
+      "chain": "L1:chor(PFX_ZERO) -> L2:ycheey(PFX_Y_CONT) -> L5:ychol(PFX_Y_CONT) -> L5:chol(PFX_ZERO) -> L12:choy(PFX_ZERO) -> L12:chor(PFX_ZERO)"
+    },
+    {
+      "folio": "f75r",
+      "sec": "B",
+      "lang": "B",
+      "stem": "kain",
+      "lines_spanned": 12,
+      "chain": "L3:qokain(PFX_QO_ACT) -> L3:kain(PFX_ZERO) -> L6:qokain(PFX_QO_ACT) -> L14:qokaindy(PFX_QO_ACT) -> L14:qokain(PFX_QO_ACT)"
+    },
+    {
+      "folio": "f77r",
+      "sec": "B",
+      "lang": "B",
+      "stem": "ke",
+      "lines_spanned": 12,
+      "chain": "L1:olkedy(PFX_L_APPL) -> L3:qokeedy(PFX_QO_ACT) -> L5:qokedy(PFX_QO_ACT) -> L6:qokeedy(PFX_QO_ACT) -> L9:qokedy(PFX_QO_ACT) -> L11:qokeedy(PFX_QO_ACT)"
+    },
+    {
+      "folio": "f81v",
+      "sec": "B",
+      "lang": "B",
+      "stem": "sh",
+      "lines_spanned": 12,
+      "chain": "L2:yshey(PFX_Y_CONT) -> L3:shedy(PFX_ZERO) -> L5:dshedy(PFX_D_CONT) -> L6:sheey(PFX_ZERO) -> L7:shedy(PFX_ZERO) -> L7:lshedy(PFX_L_APPL)"
+    },
+    {
+      "folio": "f84v",
+      "sec": "B",
+      "lang": "B",
+      "stem": "sh",
+      "lines_spanned": 12,
+      "chain": "L2:oshey(PFX_O_NOM) -> L2:shey(PFX_ZERO) -> L2:olshdy(PFX_L_APPL) -> L3:shedy(PFX_ZERO) -> L6:shdy(PFX_ZERO) -> L7:shedy(PFX_ZERO)"
+    },
+    {
+      "folio": "f84v",
+      "sec": "B",
+      "lang": "B",
+      "stem": "ch",
+      "lines_spanned": 12,
+      "chain": "L4:ycheey(PFX_Y_CONT) -> L4:olchey(PFX_L_APPL) -> L5:chedy(PFX_ZERO) -> L6:olchedy(PFX_L_APPL) -> L11:chal(PFX_ZERO) -> L11:chdy(PFX_ZERO)"
+    },
+    {
+      "folio": "f86v6",
+      "sec": "T",
+      "lang": "B",
+      "stem": "kain",
+      "lines_spanned": 12,
+      "chain": "L2:qokaiin(PFX_QO_ACT) -> L4:olkaiin(PFX_L_APPL) -> L5:olkaiiin(PFX_L_APPL) -> L6:qokaiin(PFX_QO_ACT) -> L7:lkaiin(PFX_L_APPL) -> L7:olkaiin(PFX_L_APPL)"
+    },
+    {
+      "folio": "f111v",
+      "sec": "S",
+      "lang": "B",
+      "stem": "ke",
+      "lines_spanned": 12,
+      "chain": "L2:keedy(PFX_ZERO) -> L2:qokeol(PFX_QO_ACT) -> L2:qokedy(PFX_QO_ACT) -> L3:qokeey(PFX_QO_ACT) -> L4:okedy(PFX_O_NOM) -> L5:qokedy(PFX_QO_ACT)"
+    },
+    {
+      "folio": "f116r",
+      "sec": "S",
+      "lang": "B",
+      "stem": "sh",
+      "lines_spanned": 12,
+      "chain": "L2:shey(PFX_ZERO) -> L3:sheey(PFX_ZERO) -> L5:shedy(PFX_ZERO) -> L6:shey(PFX_ZERO) -> L7:lshedy(PFX_L_APPL) -> L7:sham(PFX_ZERO)"
+    }
+  ]
+}

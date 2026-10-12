@@ -1,0 +1,456 @@
+{
+  "minim_i_system": {
+    "system": "MINIM_I_SYSTEM (-ain vs -aiin vs -aiiin)",
+    "polymorphic_skeletons": 38,
+    "polymorphic_tokens": 4211,
+    "word_zone_multi_pct": {
+      "W_INTERIOR": 67.09,
+      "W_INIT": 67.28,
+      "W_FINAL": 71.07
+    },
+    "w_final_vs_nonfinal_diff_pct": 3.95,
+    "w_final_permutation_z": -0.33,
+    "line_zone_multi_pct": {
+      "MID_LINE": 67.93,
+      "BOT_LINE": 66.35,
+      "TOP_LINE": 66.35
+    },
+    "top_line_vs_other_diff_pct": -1.3,
+    "top_line_permutation_z": 0.37,
+    "cross_word_harmony": {
+      "after_multi_pct": 68.3,
+      "after_single_pct": 50.46,
+      "diff_pct": 17.84,
+      "harmony_permutation_z": 4.39
+    },
+    "by_currier_lang": {
+      "A": {
+        "n": 1164,
+        "multi_pct": 82.13
+      },
+      "B": {
+        "n": 3000,
+        "multi_pct": 61.7
+      },
+      "U": {
+        "n": 47,
+        "multi_pct": 74.47
+      }
+    },
+    "by_scribe_hand": {
+      "1": {
+        "n": 1102,
+        "multi_pct": 82.58
+      },
+      "2": {
+        "n": 1307,
+        "multi_pct": 59.6
+      },
+      "3": {
+        "n": 1664,
+        "multi_pct": 63.1
+      },
+      "4": {
+        "n": 49,
+        "multi_pct": 77.55
+      },
+      "5": {
+        "n": 44,
+        "multi_pct": 77.27
+      },
+      "U": {
+        "n": 45,
+        "multi_pct": 68.89
+      }
+    }
+  },
+  "loop_e_system": {
+    "system": "LOOP_E_SYSTEM (-e- vs -ee- vs -eee-)",
+    "polymorphic_skeletons": 86,
+    "polymorphic_tokens": 6705,
+    "word_zone_multi_pct": {
+      "W_INTERIOR": 39.77,
+      "W_INIT": 52.42,
+      "W_FINAL": 26.69
+    },
+    "w_final_vs_nonfinal_diff_pct": -14.15,
+    "w_final_permutation_z": -3.98,
+    "line_zone_multi_pct": {
+      "MID_LINE": 40.36,
+      "BOT_LINE": 39.96,
+      "TOP_LINE": 39.29
+    },
+    "top_line_vs_other_diff_pct": -1.01,
+    "top_line_permutation_z": -0.75,
+    "cross_word_harmony": {
+      "after_multi_pct": 51.78,
+      "after_single_pct": 39.65,
+      "diff_pct": 12.13,
+      "harmony_permutation_z": 5.3
+    },
+    "by_currier_lang": {
+      "A": {
+        "n": 1181,
+        "multi_pct": 34.21
+      },
+      "B": {
+        "n": 5448,
+        "multi_pct": 41.56
+      },
+      "U": {
+        "n": 76,
+        "multi_pct": 31.58
+      }
+    },
+    "by_scribe_hand": {
+      "1": {
+        "n": 1119,
+        "multi_pct": 34.14
+      },
+      "2": {
+        "n": 2657,
+        "multi_pct": 33.46
+      },
+      "3": {
+        "n": 2553,
+        "multi_pct": 50.49
+      },
+      "4": {
+        "n": 75,
+        "multi_pct": 34.67
+      },
+      "5": {
+        "n": 208,
+        "multi_pct": 31.25
+      },
+      "U": {
+        "n": 93,
+        "multi_pct": 44.09
+      }
+    }
+  },
+  "top_polymorphic_i_skeletons": [
+    {
+      "skeleton": "daIn",
+      "total": 961,
+      "1_i": 186,
+      "2_ii": 758,
+      "3_iii": 17,
+      "multi_ii_pct": 80.65
+    },
+    {
+      "skeleton": "qokaIn",
+      "total": 540,
+      "1_i": 277,
+      "2_ii": 261,
+      "3_iii": 2,
+      "multi_ii_pct": 48.7
+    },
+    {
+      "skeleton": "aIn",
+      "total": 390,
+      "1_i": 67,
+      "2_ii": 289,
+      "3_iii": 34,
+      "multi_ii_pct": 82.82
+    },
+    {
+      "skeleton": "okaIn",
+      "total": 342,
+      "1_i": 133,
+      "2_ii": 202,
+      "3_iii": 7,
+      "multi_ii_pct": 61.11
+    },
+    {
+      "skeleton": "otaIn",
+      "total": 231,
+      "1_i": 93,
+      "2_ii": 137,
+      "3_iii": 1,
+      "multi_ii_pct": 59.74
+    },
+    {
+      "skeleton": "saIn",
+      "total": 211,
+      "1_i": 67,
+      "2_ii": 143,
+      "3_iii": 1,
+      "multi_ii_pct": 68.25
+    },
+    {
+      "skeleton": "qotaIn",
+      "total": 138,
+      "1_i": 59,
+      "2_ii": 78,
+      "3_iii": 1,
+      "multi_ii_pct": 57.25
+    },
+    {
+      "skeleton": "daIr",
+      "total": 88,
+      "1_i": 76,
+      "2_ii": 12,
+      "3_iii": 0,
+      "multi_ii_pct": 13.64
+    },
+    {
+      "skeleton": "oraIn",
+      "total": 85,
+      "1_i": 24,
+      "2_ii": 57,
+      "3_iii": 4,
+      "multi_ii_pct": 71.76
+    },
+    {
+      "skeleton": "raIn",
+      "total": 82,
+      "1_i": 21,
+      "2_ii": 61,
+      "3_iii": 0,
+      "multi_ii_pct": 74.39
+    },
+    {
+      "skeleton": "odaIn",
+      "total": 76,
+      "1_i": 16,
+      "2_ii": 55,
+      "3_iii": 5,
+      "multi_ii_pct": 78.95
+    },
+    {
+      "skeleton": "lkaIn",
+      "total": 73,
+      "1_i": 29,
+      "2_ii": 43,
+      "3_iii": 1,
+      "multi_ii_pct": 60.27
+    },
+    {
+      "skeleton": "olkaIn",
+      "total": 71,
+      "1_i": 35,
+      "2_ii": 35,
+      "3_iii": 1,
+      "multi_ii_pct": 50.7
+    },
+    {
+      "skeleton": "kaIn",
+      "total": 68,
+      "1_i": 24,
+      "2_ii": 42,
+      "3_iii": 2,
+      "multi_ii_pct": 64.71
+    },
+    {
+      "skeleton": "olaIn",
+      "total": 61,
+      "1_i": 13,
+      "2_ii": 47,
+      "3_iii": 1,
+      "multi_ii_pct": 78.69
+    },
+    {
+      "skeleton": "chaIn",
+      "total": 59,
+      "1_i": 17,
+      "2_ii": 41,
+      "3_iii": 1,
+      "multi_ii_pct": 71.19
+    },
+    {
+      "skeleton": "ykaIn",
+      "total": 57,
+      "1_i": 11,
+      "2_ii": 45,
+      "3_iii": 1,
+      "multi_ii_pct": 80.7
+    },
+    {
+      "skeleton": "qodaIn",
+      "total": 55,
+      "1_i": 11,
+      "2_ii": 43,
+      "3_iii": 1,
+      "multi_ii_pct": 80.0
+    },
+    {
+      "skeleton": "ytaIn",
+      "total": 52,
+      "1_i": 13,
+      "2_ii": 39,
+      "3_iii": 0,
+      "multi_ii_pct": 75.0
+    },
+    {
+      "skeleton": "aIr",
+      "total": 50,
+      "1_i": 36,
+      "2_ii": 14,
+      "3_iii": 0,
+      "multi_ii_pct": 28.0
+    }
+  ],
+  "top_polymorphic_e_skeletons": [
+    {
+      "skeleton": "qokEdy",
+      "total": 577,
+      "1_e": 269,
+      "2_ee": 303,
+      "3_eee": 5,
+      "multi_ee_pct": 53.38
+    },
+    {
+      "skeleton": "chEdy",
+      "total": 486,
+      "1_e": 431,
+      "2_ee": 55,
+      "3_eee": 0,
+      "multi_ee_pct": 11.32
+    },
+    {
+      "skeleton": "shEdy",
+      "total": 441,
+      "1_e": 368,
+      "2_ee": 73,
+      "3_eee": 0,
+      "multi_ee_pct": 16.55
+    },
+    {
+      "skeleton": "chEy",
+      "total": 435,
+      "1_e": 281,
+      "2_ee": 147,
+      "3_eee": 7,
+      "multi_ee_pct": 35.4
+    },
+    {
+      "skeleton": "qokEy",
+      "total": 423,
+      "1_e": 102,
+      "2_ee": 294,
+      "3_eee": 27,
+      "multi_ee_pct": 75.89
+    },
+    {
+      "skeleton": "shEy",
+      "total": 359,
+      "1_e": 231,
+      "2_ee": 123,
+      "3_eee": 5,
+      "multi_ee_pct": 35.65
+    },
+    {
+      "skeleton": "okEy",
+      "total": 231,
+      "1_e": 53,
+      "2_ee": 155,
+      "3_eee": 23,
+      "multi_ee_pct": 77.06
+    },
+    {
+      "skeleton": "otEdy",
+      "total": 227,
+      "1_e": 137,
+      "2_ee": 88,
+      "3_eee": 2,
+      "multi_ee_pct": 39.65
+    },
+    {
+      "skeleton": "okEdy",
+      "total": 216,
+      "1_e": 108,
+      "2_ee": 100,
+      "3_eee": 8,
+      "multi_ee_pct": 50.0
+    },
+    {
+      "skeleton": "qotEdy",
+      "total": 163,
+      "1_e": 86,
+      "2_ee": 74,
+      "3_eee": 3,
+      "multi_ee_pct": 47.24
+    },
+    {
+      "skeleton": "chEol",
+      "total": 147,
+      "1_e": 139,
+      "2_ee": 8,
+      "3_eee": 0,
+      "multi_ee_pct": 5.44
+    },
+    {
+      "skeleton": "otEy",
+      "total": 147,
+      "1_e": 38,
+      "2_ee": 102,
+      "3_eee": 7,
+      "multi_ee_pct": 74.15
+    },
+    {
+      "skeleton": "lchEdy",
+      "total": 118,
+      "1_e": 110,
+      "2_ee": 8,
+      "3_eee": 0,
+      "multi_ee_pct": 6.78
+    },
+    {
+      "skeleton": "shEol",
+      "total": 111,
+      "1_e": 98,
+      "2_ee": 13,
+      "3_eee": 0,
+      "multi_ee_pct": 11.71
+    },
+    {
+      "skeleton": "chEody",
+      "total": 89,
+      "1_e": 78,
+      "2_ee": 11,
+      "3_eee": 0,
+      "multi_ee_pct": 12.36
+    },
+    {
+      "skeleton": "chEor",
+      "total": 87,
+      "1_e": 73,
+      "2_ee": 14,
+      "3_eee": 0,
+      "multi_ee_pct": 16.09
+    },
+    {
+      "skeleton": "chEky",
+      "total": 76,
+      "1_e": 54,
+      "2_ee": 22,
+      "3_eee": 0,
+      "multi_ee_pct": 28.95
+    },
+    {
+      "skeleton": "olkEdy",
+      "total": 73,
+      "1_e": 28,
+      "2_ee": 43,
+      "3_eee": 2,
+      "multi_ee_pct": 61.64
+    },
+    {
+      "skeleton": "okEol",
+      "total": 69,
+      "1_e": 57,
+      "2_ee": 11,
+      "3_eee": 1,
+      "multi_ee_pct": 17.39
+    },
+    {
+      "skeleton": "lkEdy",
+      "total": 69,
+      "1_e": 27,
+      "2_ee": 38,
+      "3_eee": 4,
+      "multi_ee_pct": 60.87
+    }
+  ]
+}
