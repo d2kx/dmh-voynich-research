@@ -1,0 +1,1458 @@
+{
+  "strata_profiles": {
+    "BALNEOLOGICAL": {
+      "n_tokens": 5810,
+      "qo_rate": 0.2571,
+      "ch_sh_rate": 0.3926,
+      "edy_dy_rate": 0.3165,
+      "aiin_rate": 0.1434,
+      "liquid_suffix_rate": 0.2429,
+      "am_om_rate": 0.01,
+      "daiin_rate": 0.0193,
+      "noun_functor_rate": 0.0601,
+      "mean_word_len": 5.438,
+      "n_folios": 19,
+      "n_labels": 83,
+      "n_paragraphs": 86,
+      "n_intrusions": 56,
+      "intrusions_per_folio": 2.95
+    },
+    "EARLY_HERBAL_A": {
+      "n_tokens": 6237,
+      "qo_rate": 0.0996,
+      "ch_sh_rate": 0.5355,
+      "edy_dy_rate": 0.054,
+      "aiin_rate": 0.1756,
+      "liquid_suffix_rate": 0.3173,
+      "am_om_rate": 0.029,
+      "daiin_rate": 0.0588,
+      "noun_functor_rate": 0.0686,
+      "mean_word_len": 5.461,
+      "n_folios": 85,
+      "n_labels": 33,
+      "n_paragraphs": 165,
+      "n_intrusions": 354,
+      "intrusions_per_folio": 4.16
+    },
+    "EARLY_HERBAL_B": {
+      "n_tokens": 2513,
+      "qo_rate": 0.0979,
+      "ch_sh_rate": 0.3983,
+      "edy_dy_rate": 0.2853,
+      "aiin_rate": 0.1464,
+      "liquid_suffix_rate": 0.2193,
+      "am_om_rate": 0.0358,
+      "daiin_rate": 0.0231,
+      "noun_functor_rate": 0.0661,
+      "mean_word_len": 5.467,
+      "n_folios": 25,
+      "n_labels": 1,
+      "n_paragraphs": 50,
+      "n_intrusions": 101,
+      "intrusions_per_folio": 4.04
+    },
+    "LATE_HERBAL_A": {
+      "n_tokens": 737,
+      "qo_rate": 0.1072,
+      "ch_sh_rate": 0.4681,
+      "edy_dy_rate": 0.0963,
+      "aiin_rate": 0.095,
+      "liquid_suffix_rate": 0.3528,
+      "am_om_rate": 0.0299,
+      "daiin_rate": 0.0244,
+      "noun_functor_rate": 0.0488,
+      "mean_word_len": 6.09,
+      "n_folios": 10,
+      "n_labels": 0,
+      "n_paragraphs": 14,
+      "n_intrusions": 53,
+      "intrusions_per_folio": 5.3
+    },
+    "LATE_HERBAL_B": {
+      "n_tokens": 484,
+      "qo_rate": 0.1446,
+      "ch_sh_rate": 0.436,
+      "edy_dy_rate": 0.2376,
+      "aiin_rate": 0.2397,
+      "liquid_suffix_rate": 0.2521,
+      "am_om_rate": 0.0248,
+      "daiin_rate": 0.0248,
+      "noun_functor_rate": 0.0558,
+      "mean_word_len": 5.628,
+      "n_folios": 6,
+      "n_labels": 0,
+      "n_paragraphs": 13,
+      "n_intrusions": 16,
+      "intrusions_per_folio": 2.67
+    },
+    "OTHER_A": {
+      "n_tokens": 761,
+      "qo_rate": 0.0434,
+      "ch_sh_rate": 0.3876,
+      "edy_dy_rate": 0.117,
+      "aiin_rate": 0.0986,
+      "liquid_suffix_rate": 0.2234,
+      "am_om_rate": 0.0171,
+      "daiin_rate": 0.0197,
+      "noun_functor_rate": 0.0526,
+      "mean_word_len": 5.447,
+      "n_folios": 8,
+      "n_labels": 83,
+      "n_paragraphs": 17,
+      "n_intrusions": 7,
+      "intrusions_per_folio": 0.88
+    },
+    "OTHER_C": {
+      "n_tokens": 1907,
+      "qo_rate": 0.0593,
+      "ch_sh_rate": 0.3225,
+      "edy_dy_rate": 0.1542,
+      "aiin_rate": 0.108,
+      "liquid_suffix_rate": 0.2795,
+      "am_om_rate": 0.0315,
+      "daiin_rate": 0.0136,
+      "noun_functor_rate": 0.0808,
+      "mean_word_len": 5.079,
+      "n_folios": 10,
+      "n_labels": 169,
+      "n_paragraphs": 23,
+      "n_intrusions": 8,
+      "intrusions_per_folio": 0.8
+    },
+    "OTHER_S": {
+      "n_tokens": 691,
+      "qo_rate": 0.1433,
+      "ch_sh_rate": 0.3473,
+      "edy_dy_rate": 0.0637,
+      "aiin_rate": 0.1071,
+      "liquid_suffix_rate": 0.3922,
+      "am_om_rate": 0.0651,
+      "daiin_rate": 0.013,
+      "noun_functor_rate": 0.0666,
+      "mean_word_len": 5.433,
+      "n_folios": 2,
+      "n_labels": 0,
+      "n_paragraphs": 7,
+      "n_intrusions": 0,
+      "intrusions_per_folio": 0.0
+    },
+    "OTHER_T": {
+      "n_tokens": 1860,
+      "qo_rate": 0.1457,
+      "ch_sh_rate": 0.3806,
+      "edy_dy_rate": 0.1978,
+      "aiin_rate": 0.193,
+      "liquid_suffix_rate": 0.2823,
+      "am_om_rate": 0.0263,
+      "daiin_rate": 0.021,
+      "noun_functor_rate": 0.0737,
+      "mean_word_len": 5.272,
+      "n_folios": 5,
+      "n_labels": 9,
+      "n_paragraphs": 26,
+      "n_intrusions": 0,
+      "intrusions_per_folio": 0.0
+    },
+    "OTHER_Z": {
+      "n_tokens": 1159,
+      "qo_rate": 0.0121,
+      "ch_sh_rate": 0.3244,
+      "edy_dy_rate": 0.132,
+      "aiin_rate": 0.1104,
+      "liquid_suffix_rate": 0.2657,
+      "am_om_rate": 0.0345,
+      "daiin_rate": 0.0069,
+      "noun_functor_rate": 0.0449,
+      "mean_word_len": 5.896,
+      "n_folios": 12,
+      "n_labels": 35,
+      "n_paragraphs": 0,
+      "n_intrusions": 0,
+      "intrusions_per_folio": 0.0
+    },
+    "PHARMA_FORMULARY": {
+      "n_tokens": 2137,
+      "qo_rate": 0.131,
+      "ch_sh_rate": 0.3692,
+      "edy_dy_rate": 0.0936,
+      "aiin_rate": 0.1488,
+      "liquid_suffix_rate": 0.3701,
+      "am_om_rate": 0.0253,
+      "daiin_rate": 0.0468,
+      "noun_functor_rate": 0.0767,
+      "mean_word_len": 5.49,
+      "n_folios": 16,
+      "n_labels": 240,
+      "n_paragraphs": 44,
+      "n_intrusions": 25,
+      "intrusions_per_folio": 1.56
+    },
+    "QUIRE_H_HYBRID_65_66": {
+      "n_tokens": 412,
+      "qo_rate": 0.1359,
+      "ch_sh_rate": 0.517,
+      "edy_dy_rate": 0.3058,
+      "aiin_rate": 0.068,
+      "liquid_suffix_rate": 0.2379,
+      "am_om_rate": 0.0146,
+      "daiin_rate": 0.0218,
+      "noun_functor_rate": 0.0558,
+      "mean_word_len": 5.757,
+      "n_folios": 4,
+      "n_labels": 54,
+      "n_paragraphs": 10,
+      "n_intrusions": 7,
+      "intrusions_per_folio": 1.75
+    },
+    "STARRED_RECIPES_Q20": {
+      "n_tokens": 10090,
+      "qo_rate": 0.1796,
+      "ch_sh_rate": 0.4146,
+      "edy_dy_rate": 0.2092,
+      "aiin_rate": 0.2043,
+      "liquid_suffix_rate": 0.2264,
+      "am_om_rate": 0.029,
+      "daiin_rate": 0.0154,
+      "noun_functor_rate": 0.0442,
+      "mean_word_len": 5.666,
+      "n_folios": 24,
+      "n_labels": 2,
+      "n_paragraphs": 285,
+      "n_intrusions": 0,
+      "intrusions_per_folio": 0.0
+    }
+  },
+  "herbal_to_pharma_bridge_summary": {
+    "group_summaries": {
+      "EARLY_HERBAL_A": {
+        "n_folios": 85,
+        "total_tokens": 6237,
+        "mean_tokens_per_folio": 73.38,
+        "total_rare_herbal_stems": 1897,
+        "total_rare_shared_pharma": 160,
+        "rare_shared_fraction": 0.0843,
+        "mean_folio_rare_shared_rate": 0.0816,
+        "shared_pharma_labels_per_100_toks": 0.481
+      },
+      "LATE_HERBAL_A": {
+        "n_folios": 10,
+        "total_tokens": 737,
+        "mean_tokens_per_folio": 73.7,
+        "total_rare_herbal_stems": 304,
+        "total_rare_shared_pharma": 40,
+        "rare_shared_fraction": 0.1316,
+        "mean_folio_rare_shared_rate": 0.1319,
+        "shared_pharma_labels_per_100_toks": 0.814
+      },
+      "EARLY_HERBAL_B": {
+        "n_folios": 25,
+        "total_tokens": 2513,
+        "mean_tokens_per_folio": 100.52,
+        "total_rare_herbal_stems": 780,
+        "total_rare_shared_pharma": 71,
+        "rare_shared_fraction": 0.091,
+        "mean_folio_rare_shared_rate": 0.0941,
+        "shared_pharma_labels_per_100_toks": 0.637
+      },
+      "LATE_HERBAL_B": {
+        "n_folios": 6,
+        "total_tokens": 484,
+        "mean_tokens_per_folio": 80.67,
+        "total_rare_herbal_stems": 144,
+        "total_rare_shared_pharma": 13,
+        "rare_shared_fraction": 0.0903,
+        "mean_folio_rare_shared_rate": 0.0971,
+        "shared_pharma_labels_per_100_toks": 1.446
+      }
+    },
+    "observed_late_mean_rare_shared_rate": 0.1188,
+    "observed_early_mean_rare_shared_rate": 0.0845,
+    "observed_diff": 0.0344,
+    "null_mean_diff": 0.0011,
+    "null_std_diff": 0.0166,
+    "z_score": 2.0,
+    "p_value": 0.03
+  },
+  "late_herbal_folio_reports": [
+    {
+      "folio": "f87r",
+      "stratum": "LATE_HERBAL_A",
+      "language": "A",
+      "hand": "1",
+      "quire": "O",
+      "n_tokens": 96,
+      "n_unique_stems": 76,
+      "n_rare_herbal_stems": 33,
+      "n_rare_shared_pharma_prose": 5,
+      "rare_shared_rate": 0.1515,
+      "n_shared_pharma_labels": 0,
+      "shared_pharma_label_rate_per_100": 0.0,
+      "rare_shared_stems": [
+        {
+          "stem": "cheodor",
+          "herbal_df": 1,
+          "pharma_folios": [
+            "f102r2"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "tos",
+          "herbal_df": 1,
+          "pharma_folios": [
+            "f88v",
+            "f89r2"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "cheodal",
+          "herbal_df": 2,
+          "pharma_folios": [
+            "f89r2",
+            "f99r"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "teodal",
+          "herbal_df": 2,
+          "pharma_folios": [
+            "f88v"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "chetchy",
+          "herbal_df": 3,
+          "pharma_folios": [
+            "f88r"
+          ],
+          "pharma_label_folios": []
+        }
+      ],
+      "headword": "poalshsal",
+      "head_base": "alshsal",
+      "head_in_pharma": false
+    },
+    {
+      "folio": "f87v",
+      "stratum": "LATE_HERBAL_A",
+      "language": "A",
+      "hand": "1",
+      "quire": "O",
+      "n_tokens": 70,
+      "n_unique_stems": 61,
+      "n_rare_herbal_stems": 41,
+      "n_rare_shared_pharma_prose": 5,
+      "rare_shared_rate": 0.122,
+      "n_shared_pharma_labels": 0,
+      "shared_pharma_label_rate_per_100": 0.0,
+      "rare_shared_stems": [
+        {
+          "stem": "cheom",
+          "herbal_df": 1,
+          "pharma_folios": [
+            "f88r",
+            "f89r1",
+            "f99r"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "aiim",
+          "herbal_df": 2,
+          "pharma_folios": [
+            "f102v1"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "pheodar",
+          "herbal_df": 2,
+          "pharma_folios": [
+            "f102r1"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "cheockhy",
+          "herbal_df": 3,
+          "pharma_folios": [
+            "f100r",
+            "f88v"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "oral",
+          "herbal_df": 3,
+          "pharma_folios": [
+            "f100v"
+          ],
+          "pharma_label_folios": []
+        }
+      ],
+      "headword": "@180;cheey",
+      "head_base": "@180;chey",
+      "head_in_pharma": false
+    },
+    {
+      "folio": "f90r1",
+      "stratum": "LATE_HERBAL_A",
+      "language": "A",
+      "hand": "1",
+      "quire": "O",
+      "n_tokens": 67,
+      "n_unique_stems": 57,
+      "n_rare_herbal_stems": 28,
+      "n_rare_shared_pharma_prose": 1,
+      "rare_shared_rate": 0.0357,
+      "n_shared_pharma_labels": 1,
+      "shared_pharma_label_rate_per_100": 1.493,
+      "rare_shared_stems": [
+        {
+          "stem": "kod",
+          "herbal_df": 2,
+          "pharma_folios": [
+            "f102r1",
+            "f89r1"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "sary",
+          "herbal_df": 2,
+          "pharma_folios": [],
+          "pharma_label_folios": [
+            "f99v"
+          ]
+        }
+      ],
+      "headword": "poleeol",
+      "head_base": "leol",
+      "head_in_pharma": true
+    },
+    {
+      "folio": "f90r2",
+      "stratum": "LATE_HERBAL_A",
+      "language": "A",
+      "hand": "1",
+      "quire": "O",
+      "n_tokens": 39,
+      "n_unique_stems": 31,
+      "n_rare_herbal_stems": 12,
+      "n_rare_shared_pharma_prose": 1,
+      "rare_shared_rate": 0.0833,
+      "n_shared_pharma_labels": 0,
+      "shared_pharma_label_rate_per_100": 0.0,
+      "rare_shared_stems": [
+        {
+          "stem": "kheo",
+          "herbal_df": 1,
+          "pharma_folios": [
+            "f101v"
+          ],
+          "pharma_label_folios": []
+        }
+      ],
+      "headword": "toealchs",
+      "head_base": "ealchs",
+      "head_in_pharma": false
+    },
+    {
+      "folio": "f90v1",
+      "stratum": "LATE_HERBAL_A",
+      "language": "A",
+      "hand": "1",
+      "quire": "O",
+      "n_tokens": 70,
+      "n_unique_stems": 56,
+      "n_rare_herbal_stems": 35,
+      "n_rare_shared_pharma_prose": 5,
+      "rare_shared_rate": 0.1429,
+      "n_shared_pharma_labels": 1,
+      "shared_pharma_label_rate_per_100": 1.429,
+      "rare_shared_stems": [
+        {
+          "stem": "kos",
+          "herbal_df": 1,
+          "pharma_folios": [
+            "f89v2"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "les",
+          "herbal_df": 1,
+          "pharma_folios": [
+            "f99v"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "pcheor",
+          "herbal_df": 1,
+          "pharma_folios": [
+            "f89r2"
+          ],
+          "pharma_label_folios": [
+            "f89r2"
+          ]
+        },
+        {
+          "stem": "cheokey",
+          "herbal_df": 2,
+          "pharma_folios": [
+            "f99r"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "keam",
+          "herbal_df": 3,
+          "pharma_folios": [
+            "f100r"
+          ],
+          "pharma_label_folios": []
+        }
+      ],
+      "headword": "pcheor",
+      "head_base": "eor",
+      "head_in_pharma": true
+    },
+    {
+      "folio": "f90v2",
+      "stratum": "LATE_HERBAL_A",
+      "language": "A",
+      "hand": "1",
+      "quire": "O",
+      "n_tokens": 58,
+      "n_unique_stems": 45,
+      "n_rare_herbal_stems": 23,
+      "n_rare_shared_pharma_prose": 4,
+      "rare_shared_rate": 0.1739,
+      "n_shared_pharma_labels": 0,
+      "shared_pharma_label_rate_per_100": 0.0,
+      "rare_shared_stems": [
+        {
+          "stem": "fhey",
+          "herbal_df": 1,
+          "pharma_folios": [
+            "f102r2",
+            "f89v1"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "qkeody",
+          "herbal_df": 1,
+          "pharma_folios": [
+            "f100r"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "soin",
+          "herbal_df": 2,
+          "pharma_folios": [
+            "f102v2"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "sam",
+          "herbal_df": 3,
+          "pharma_folios": [
+            "f88r"
+          ],
+          "pharma_label_folios": []
+        }
+      ],
+      "headword": "{c@181;h}da{i@133;h}y",
+      "head_base": "{c@181;h}da{i@133;h}y",
+      "head_in_pharma": false
+    },
+    {
+      "folio": "f93r",
+      "stratum": "LATE_HERBAL_A",
+      "language": "A",
+      "hand": "1",
+      "quire": "Q",
+      "n_tokens": 140,
+      "n_unique_stems": 104,
+      "n_rare_herbal_stems": 52,
+      "n_rare_shared_pharma_prose": 6,
+      "rare_shared_rate": 0.1154,
+      "n_shared_pharma_labels": 1,
+      "shared_pharma_label_rate_per_100": 0.714,
+      "rare_shared_stems": [
+        {
+          "stem": "sheoky",
+          "herbal_df": 1,
+          "pharma_folios": [
+            "f88r"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "teodal",
+          "herbal_df": 2,
+          "pharma_folios": [
+            "f88v"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "cheodam",
+          "herbal_df": 3,
+          "pharma_folios": [
+            "f101v"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "chr",
+          "herbal_df": 3,
+          "pharma_folios": [
+            "f99r"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "kcheody",
+          "herbal_df": 3,
+          "pharma_folios": [
+            "f89r2"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "odam",
+          "herbal_df": 3,
+          "pharma_folios": [
+            "f101v"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "kcheor",
+          "herbal_df": 4,
+          "pharma_folios": [],
+          "pharma_label_folios": [
+            "f100v"
+          ]
+        }
+      ],
+      "headword": "kodshol",
+      "head_base": "dshol",
+      "head_in_pharma": false
+    },
+    {
+      "folio": "f93v",
+      "stratum": "LATE_HERBAL_A",
+      "language": "A",
+      "hand": "1",
+      "quire": "Q",
+      "n_tokens": 70,
+      "n_unique_stems": 60,
+      "n_rare_herbal_stems": 27,
+      "n_rare_shared_pharma_prose": 3,
+      "rare_shared_rate": 0.1111,
+      "n_shared_pharma_labels": 0,
+      "shared_pharma_label_rate_per_100": 0.0,
+      "rare_shared_stems": [
+        {
+          "stem": "oteo",
+          "herbal_df": 1,
+          "pharma_folios": [
+            "f102v2"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "keam",
+          "herbal_df": 3,
+          "pharma_folios": [
+            "f100r"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "teo",
+          "herbal_df": 3,
+          "pharma_folios": [
+            "f88v"
+          ],
+          "pharma_label_folios": []
+        }
+      ],
+      "headword": "possheody",
+      "head_base": "ssheody",
+      "head_in_pharma": false
+    },
+    {
+      "folio": "f94r",
+      "stratum": "LATE_HERBAL_B",
+      "language": "B",
+      "hand": "3",
+      "quire": "Q",
+      "n_tokens": 72,
+      "n_unique_stems": 60,
+      "n_rare_herbal_stems": 23,
+      "n_rare_shared_pharma_prose": 2,
+      "rare_shared_rate": 0.087,
+      "n_shared_pharma_labels": 2,
+      "shared_pharma_label_rate_per_100": 2.778,
+      "rare_shared_stems": [
+        {
+          "stem": "pary",
+          "herbal_df": 1,
+          "pharma_folios": [],
+          "pharma_label_folios": [
+            "f102v1"
+          ]
+        },
+        {
+          "stem": "kolchey",
+          "herbal_df": 2,
+          "pharma_folios": [
+            "f102v1"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "odor",
+          "herbal_df": 3,
+          "pharma_folios": [
+            "f101r",
+            "f89v2"
+          ],
+          "pharma_label_folios": [
+            "f101v"
+          ]
+        }
+      ],
+      "headword": "tchedy",
+      "head_base": "edy",
+      "head_in_pharma": false
+    },
+    {
+      "folio": "f94v",
+      "stratum": "LATE_HERBAL_B",
+      "language": "B",
+      "hand": "3",
+      "quire": "Q",
+      "n_tokens": 79,
+      "n_unique_stems": 66,
+      "n_rare_herbal_stems": 29,
+      "n_rare_shared_pharma_prose": 2,
+      "rare_shared_rate": 0.069,
+      "n_shared_pharma_labels": 1,
+      "shared_pharma_label_rate_per_100": 1.266,
+      "rare_shared_stems": [
+        {
+          "stem": "lkeol",
+          "herbal_df": 1,
+          "pharma_folios": [
+            "f99v"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "sheocthy",
+          "herbal_df": 1,
+          "pharma_folios": [
+            "f102v1"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "toky",
+          "herbal_df": 1,
+          "pharma_folios": [],
+          "pharma_label_folios": [
+            "f88r",
+            "f99v"
+          ]
+        }
+      ],
+      "headword": "tshedy",
+      "head_base": "shedy",
+      "head_in_pharma": true
+    },
+    {
+      "folio": "f95r1",
+      "stratum": "LATE_HERBAL_B",
+      "language": "B",
+      "hand": "3",
+      "quire": "Q",
+      "n_tokens": 95,
+      "n_unique_stems": 62,
+      "n_rare_herbal_stems": 24,
+      "n_rare_shared_pharma_prose": 6,
+      "rare_shared_rate": 0.25,
+      "n_shared_pharma_labels": 3,
+      "shared_pharma_label_rate_per_100": 3.158,
+      "rare_shared_stems": [
+        {
+          "stem": "chkam",
+          "herbal_df": 1,
+          "pharma_folios": [
+            "f89v2"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "ekey",
+          "herbal_df": 1,
+          "pharma_folios": [
+            "f102r1",
+            "f102v2"
+          ],
+          "pharma_label_folios": [
+            "f99r"
+          ]
+        },
+        {
+          "stem": "karain",
+          "herbal_df": 1,
+          "pharma_folios": [
+            "f102v2"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "lkor",
+          "herbal_df": 2,
+          "pharma_folios": [],
+          "pharma_label_folios": [
+            "f101v"
+          ]
+        },
+        {
+          "stem": "pshol",
+          "herbal_df": 2,
+          "pharma_folios": [
+            "f89r1"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "chekal",
+          "herbal_df": 3,
+          "pharma_folios": [
+            "f89v1"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "fain",
+          "herbal_df": 3,
+          "pharma_folios": [
+            "f89v2"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "ldar",
+          "herbal_df": 5,
+          "pharma_folios": [
+            "f101r"
+          ],
+          "pharma_label_folios": [
+            "f88r"
+          ]
+        }
+      ],
+      "headword": "kshdor",
+      "head_base": "shdor",
+      "head_in_pharma": false
+    },
+    {
+      "folio": "f95r2",
+      "stratum": "LATE_HERBAL_B",
+      "language": "B",
+      "hand": "3",
+      "quire": "Q",
+      "n_tokens": 76,
+      "n_unique_stems": 57,
+      "n_rare_herbal_stems": 17,
+      "n_rare_shared_pharma_prose": 1,
+      "rare_shared_rate": 0.0588,
+      "n_shared_pharma_labels": 0,
+      "shared_pharma_label_rate_per_100": 0.0,
+      "rare_shared_stems": [
+        {
+          "stem": "alshdy",
+          "herbal_df": 2,
+          "pharma_folios": [
+            "f89v1"
+          ],
+          "pharma_label_folios": []
+        }
+      ],
+      "headword": "kshedy",
+      "head_base": "shedy",
+      "head_in_pharma": true
+    },
+    {
+      "folio": "f95v1",
+      "stratum": "LATE_HERBAL_B",
+      "language": "B",
+      "hand": "3",
+      "quire": "Q",
+      "n_tokens": 109,
+      "n_unique_stems": 75,
+      "n_rare_herbal_stems": 34,
+      "n_rare_shared_pharma_prose": 0,
+      "rare_shared_rate": 0.0,
+      "n_shared_pharma_labels": 1,
+      "shared_pharma_label_rate_per_100": 0.917,
+      "rare_shared_stems": [
+        {
+          "stem": "taldy",
+          "herbal_df": 1,
+          "pharma_folios": [],
+          "pharma_label_folios": [
+            "f101v",
+            "f88r"
+          ]
+        }
+      ],
+      "headword": "{c@132;h}olteedy{c@133;h}oepaiin",
+      "head_base": "{c@132;h}oltedy{c@133;h}oepain",
+      "head_in_pharma": false
+    },
+    {
+      "folio": "f95v2",
+      "stratum": "LATE_HERBAL_B",
+      "language": "B",
+      "hand": "3",
+      "quire": "Q",
+      "n_tokens": 53,
+      "n_unique_stems": 43,
+      "n_rare_herbal_stems": 17,
+      "n_rare_shared_pharma_prose": 2,
+      "rare_shared_rate": 0.1176,
+      "n_shared_pharma_labels": 0,
+      "shared_pharma_label_rate_per_100": 0.0,
+      "rare_shared_stems": [
+        {
+          "stem": "lsain",
+          "herbal_df": 1,
+          "pharma_folios": [
+            "f99v"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "fain",
+          "herbal_df": 3,
+          "pharma_folios": [
+            "f89v2"
+          ],
+          "pharma_label_folios": []
+        }
+      ],
+      "headword": "tchodypodar",
+      "head_base": "dypodar",
+      "head_in_pharma": false
+    },
+    {
+      "folio": "f96r",
+      "stratum": "LATE_HERBAL_A",
+      "language": "A",
+      "hand": "1",
+      "quire": "Q",
+      "n_tokens": 78,
+      "n_unique_stems": 64,
+      "n_rare_herbal_stems": 25,
+      "n_rare_shared_pharma_prose": 6,
+      "rare_shared_rate": 0.24,
+      "n_shared_pharma_labels": 2,
+      "shared_pharma_label_rate_per_100": 2.564,
+      "rare_shared_stems": [
+        {
+          "stem": "chkchol",
+          "herbal_df": 1,
+          "pharma_folios": [
+            "f101r"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "pheol",
+          "herbal_df": 1,
+          "pharma_folios": [
+            "f99r"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "tchodol",
+          "herbal_df": 1,
+          "pharma_folios": [
+            "f89r2"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "pheor",
+          "herbal_df": 2,
+          "pharma_folios": [],
+          "pharma_label_folios": [
+            "f88v"
+          ]
+        },
+        {
+          "stem": "shockhy",
+          "herbal_df": 2,
+          "pharma_folios": [
+            "f102r2"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "shodol",
+          "herbal_df": 2,
+          "pharma_folios": [
+            "f100r"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "dory",
+          "herbal_df": 3,
+          "pharma_folios": [
+            "f88r"
+          ],
+          "pharma_label_folios": [
+            "f89r2"
+          ]
+        }
+      ],
+      "headword": "tor",
+      "head_base": "or",
+      "head_in_pharma": false
+    },
+    {
+      "folio": "f96v",
+      "stratum": "LATE_HERBAL_A",
+      "language": "A",
+      "hand": "1",
+      "quire": "Q",
+      "n_tokens": 49,
+      "n_unique_stems": 44,
+      "n_rare_herbal_stems": 28,
+      "n_rare_shared_pharma_prose": 4,
+      "rare_shared_rate": 0.1429,
+      "n_shared_pharma_labels": 1,
+      "shared_pharma_label_rate_per_100": 2.041,
+      "rare_shared_stems": [
+        {
+          "stem": "sheodal",
+          "herbal_df": 1,
+          "pharma_folios": [
+            "f89r2"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "tear",
+          "herbal_df": 1,
+          "pharma_folios": [],
+          "pharma_label_folios": [
+            "f100r"
+          ]
+        },
+        {
+          "stem": "checkhey",
+          "herbal_df": 2,
+          "pharma_folios": [
+            "f101r",
+            "f99r"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "alchey",
+          "herbal_df": 3,
+          "pharma_folios": [
+            "f99r"
+          ],
+          "pharma_label_folios": []
+        },
+        {
+          "stem": "oral",
+          "herbal_df": 3,
+          "pharma_folios": [
+            "f100v"
+          ],
+          "pharma_label_folios": []
+        }
+      ],
+      "headword": "psheessheeor",
+      "head_base": "shessheor",
+      "head_in_pharma": false
+    }
+  ],
+  "key_sequence_analysis": {
+    "f49v_vertical_margin_key": {
+      "folio": "f49v",
+      "quire": "G",
+      "hand": "1",
+      "n_glyphs": 26,
+      "sequence": [
+        "f",
+        "o",
+        "r",
+        "y",
+        "e",
+        "@140;",
+        "k",
+        "s",
+        "p",
+        "o",
+        "@192;",
+        "y",
+        "e",
+        "@140;",
+        "@164;",
+        "p",
+        "o",
+        "@192;",
+        "y",
+        "e",
+        "@140;",
+        "d",
+        "y",
+        "e",
+        "k",
+        "y"
+      ],
+      "repeating_6glyph_cycles": [
+        {
+          "lines": "1..11 (odd)",
+          "glyphs": [
+            "f",
+            "o",
+            "r",
+            "y",
+            "e",
+            "@140;"
+          ]
+        },
+        {
+          "lines": "13..15 (odd, bridge)",
+          "glyphs": [
+            "k",
+            "s"
+          ]
+        },
+        {
+          "lines": "17..27 (odd)",
+          "glyphs": [
+            "p",
+            "o",
+            "@192;",
+            "y",
+            "e",
+            "@140;"
+          ]
+        },
+        {
+          "lines": "29..41 (odd)",
+          "glyphs": [
+            "@164;",
+            "p",
+            "o",
+            "@192;",
+            "y",
+            "e",
+            "@140;"
+          ]
+        },
+        {
+          "lines": "43..51 (odd, coda)",
+          "glyphs": [
+            "d",
+            "y",
+            "e",
+            "k",
+            "y"
+          ]
+        }
+      ]
+    },
+    "f57v_circular_ring3_key": {
+      "folio": "f57v",
+      "quire": "H (outer bifolium with f66)",
+      "hand": "1",
+      "n_glyphs": 68,
+      "four_17glyph_quadrants": [
+        [
+          "o",
+          "l",
+          "d",
+          "r",
+          "v",
+          "x",
+          "k",
+          "m",
+          "f",
+          "@169;v",
+          "t",
+          "r",
+          "@170;",
+          "@171;",
+          "y",
+          "I",
+          "@172;"
+        ],
+        [
+          "o",
+          "l",
+          "d",
+          "r",
+          "v",
+          "x",
+          "k",
+          "m",
+          "f",
+          "@169;v",
+          "t",
+          "r",
+          "@170;",
+          "@171;",
+          "y",
+          "c",
+          "@172;"
+        ],
+        [
+          "o",
+          "l",
+          "d",
+          "r",
+          "v",
+          "x",
+          "k",
+          "m",
+          "p",
+          "@169;v",
+          "t",
+          "r",
+          "@170;",
+          "@171;",
+          "y",
+          "c",
+          "@172;"
+        ],
+        [
+          "o",
+          "l",
+          "d",
+          "r",
+          "v",
+          "x",
+          "k",
+          "m",
+          "p",
+          "@169;v",
+          "t",
+          "r",
+          "@170;",
+          "@171;",
+          "y",
+          "c",
+          "@172;"
+        ]
+      ],
+      "top_label_dairal_in_f66r_prose": true
+    },
+    "f66r_dual_margin_key_and_index": {
+      "folio": "f66r",
+      "quire": "H (outer bifolium conjugate leaf with f57)",
+      "hand": "5",
+      "word_index_column_15": [
+        {
+          "margin_word": "rary",
+          "canonical_stem": "rary",
+          "stripped_stem": "rary",
+          "matches_in_f66r_prose": [],
+          "match_count": 0
+        },
+        {
+          "margin_word": "rals",
+          "canonical_stem": "rals",
+          "stripped_stem": "rals",
+          "matches_in_f66r_prose": [],
+          "match_count": 0
+        },
+        {
+          "margin_word": "qor",
+          "canonical_stem": "qor",
+          "stripped_stem": "qor",
+          "matches_in_f66r_prose": [],
+          "match_count": 0
+        },
+        {
+          "margin_word": "dary",
+          "canonical_stem": "dary",
+          "stripped_stem": "dary",
+          "matches_in_f66r_prose": [
+            "dary",
+            "kodary"
+          ],
+          "match_count": 2
+        },
+        {
+          "margin_word": "ykeol",
+          "canonical_stem": "keol",
+          "stripped_stem": "oeol",
+          "matches_in_f66r_prose": [],
+          "match_count": 0
+        },
+        {
+          "margin_word": "saly",
+          "canonical_stem": "saly",
+          "stripped_stem": "saly",
+          "matches_in_f66r_prose": [],
+          "match_count": 0
+        },
+        {
+          "margin_word": "salf",
+          "canonical_stem": "salf",
+          "stripped_stem": "salf",
+          "matches_in_f66r_prose": [],
+          "match_count": 0
+        },
+        {
+          "margin_word": "fary",
+          "canonical_stem": "fary",
+          "stripped_stem": "ary",
+          "matches_in_f66r_prose": [],
+          "match_count": 0
+        },
+        {
+          "margin_word": "qotesy",
+          "canonical_stem": "tesy",
+          "stripped_stem": "tesy",
+          "matches_in_f66r_prose": [],
+          "match_count": 0
+        },
+        {
+          "margin_word": "ykaly",
+          "canonical_stem": "kaly",
+          "stripped_stem": "oaly",
+          "matches_in_f66r_prose": [
+            "qokaly"
+          ],
+          "match_count": 1
+        },
+        {
+          "margin_word": "doly",
+          "canonical_stem": "doly",
+          "stripped_stem": "doly",
+          "matches_in_f66r_prose": [],
+          "match_count": 0
+        },
+        {
+          "margin_word": "saiin",
+          "canonical_stem": "ain",
+          "stripped_stem": "ain",
+          "matches_in_f66r_prose": [
+            "aiin",
+            "daiin",
+            "okaiin",
+            "pdaiin"
+          ],
+          "match_count": 9
+        },
+        {
+          "margin_word": "qokal",
+          "canonical_stem": "kal",
+          "stripped_stem": "kal",
+          "matches_in_f66r_prose": [
+            "kal",
+            "qokal"
+          ],
+          "match_count": 3
+        },
+        {
+          "margin_word": "qolsa",
+          "canonical_stem": "lsa",
+          "stripped_stem": "lsa",
+          "matches_in_f66r_prose": [],
+          "match_count": 0
+        },
+        {
+          "margin_word": "raral",
+          "canonical_stem": "raral",
+          "stripped_stem": "raral",
+          "matches_in_f66r_prose": [],
+          "match_count": 0
+        }
+      ],
+      "word_index_same_folio_matches": 4,
+      "word_index_null_mean_across_B_folios": 3.177,
+      "word_index_z_score": 0.73,
+      "single_glyph_column_34": [
+        "y",
+        "o",
+        "s",
+        "sh",
+        "y",
+        "d",
+        "o",
+        "f",
+        "@169;",
+        "x",
+        "air",
+        "d",
+        "sh",
+        "y",
+        "f",
+        "f",
+        "y",
+        "o",
+        "d",
+        "s",
+        "f",
+        "c",
+        "@172;",
+        "x",
+        "t",
+        "o",
+        "@195;",
+        "l",
+        "r",
+        "t",
+        "o",
+        "x",
+        "p",
+        "d"
+      ],
+      "bottom_corner_labels_3": [
+        "otcheodaiin",
+        "chty",
+        "ykeescheg"
+      ],
+      "shared_glyphs_with_f57v_ring3": [
+        "@169;",
+        "@172;",
+        "c",
+        "d",
+        "f",
+        "l",
+        "o",
+        "p",
+        "r",
+        "t",
+        "x",
+        "y"
+      ],
+      "shared_glyph_count": 12
+    }
+  }
+}

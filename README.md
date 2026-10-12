@@ -356,6 +356,27 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 42. The `92.76%` Strict Dyadic `LIGHT_DOTTED <-> LIGHT_PLAIN` Marginal Star Alternation Law in Quire 20 ($z = +12.45, p < 10^{-34}$, `Attack 33`)
+- **`92.76%` (`205 / 221`) Strict `LIGHT_DOTTED <-> LIGHT_PLAIN` Alternation (`pages/f105r_dotted_plain_star_dyads_enh.png`)**: Across the `21` dyadic folios of Quire 20 (`f103v–f116r`), adjacent marginal stars alternate between crimson-center `LIGHT_DOTTED` (`Slot A`: `0.00%` `qok-/qot-` openers, `92.12%` gallows topic headers) and unpainted-center `LIGHT_PLAIN` (`Slot B`: licenses `qok-/qot-` and `d-/s-` continuation openers and enriches `-am/-om` finished-product closers `1.45×`) in **`92.76%` of pairs vs. `53.37% ± 3.16%` within-folio permutation null ($z = +12.45, p < 10^{-34}$)**, with `13` entire folios achieving `100.0%` 1:1 alternation!
+
+---
+
+### 43. Late Interleaved Herbal Bridge (`f87r–v`, `f90r1–f96v`, $z = +2.00, p = 0.030$) & The Three Marginal/Circular Single-Glyph Key Systems (`f49v` with Arabic Numerals `1..5`, `f57v`, and `f66r` with `den mus del`, `Attack 34`)
+- **Late Interleaved Herbal Bridge (`f87r–v`, `f90r1–f96v`)**: Physically sandwiched between Pharmaceutical Quires P (`f88r–f89v2`) and T (`f99r–f102v2`), the Late Herbal folios share **`11.88%` (`13.16%` in Currier A)** of their rare herbal stems (`1 <= herbal_df <= 3`) with Pharmaceutical prose vs. **`8.45%`** on Early Herbals (`f1r–f57r`, **$z = +2.00, p = 0.030$**), while `@Lf/@Lc` label density increases **`1.76×–2.41×`** and `-edy/-dy` verbal rate doubles in `LATE_HERBAL_A` (`9.62%` vs. `5.37%`).
+- **The Three Single-Glyph Marginal/Circular Key Systems (`pages/f49v_vertical_margin_key_enh.png`, `pages/f66r_margin_columns_and_figure_enh.png`)**: `f49v` features a `26`-glyph vertical key sequence with **Western Arabic numerals `1, 2, 3, 4, 5`** numbering its repeating `[f/p] - o - [r/@192;] - y - e - @140;` cycle; `f57v` (`4×` `17-glyph` ring) and its conjugate Quire H outer-bifolium leaf `f66r` (`15` outer index words + `34` inner key glyphs) share `12` key symbols (`{@169;, @172;, c, d, f, l, o, p, r, t, x, y}`) plus the rare top label `dairal`, above `f66r`'s reclining patient, apothecary jar, two dose spheres, and alphabetic inscription **`den mus del`**.
+
+---
+
+### 44. Exact 9-State Clause-Internal Word-Order & Bigram Transition Automaton ($z = +49.22$ Full-Line, $z = +45.91$ Interior-Only, `Attack 35`)
+- **Post-Nominal Verbal Licensing Law (`[NOMINAL / PREP / DAIIN] -> CH_VERB -> Q_ACT`)**: Across `4,329` prose lines (`34,404` tokens), directed bigram Mutual Information $I(C_t ; C_{t+1})$ is **`0.05528 bits` vs. `0.01251` full-line shuffle null ($z = +49.22$)** and **`0.05597 bits` vs. `0.01541` interior-only shuffle null ($z = +45.91$)** when line boundaries $w_1, w_n$ are fixed. `Q_ACT` (`qok-/qot-`) is strictly forbidden directly after prepositions ($z = -12.47$), nominals ($z = -11.18$), quantifiers ($z = -10.61$), and `daiin` ($z = -6.17$), which instead must first license `CH_VERB` (`chedy/shedy`, $z = +5.43\text{ to }+10.85$) before triggering `Q_ACT` (`CH_VERB -> Q_ACT`: **$z = +27.65, 1.74\times$**).
+
+---
+
+### 45. Five-Chain Full-Text Decoded Monograph & Formulary Compendium (`91.19%` T1–T3 Coverage Across `15` Linked Folios, [`notes/DECODED_MONOGRAPH_AND_FORMULARY_COMPENDIUM.md`](notes/DECODED_MONOGRAPH_AND_FORMULARY_COMPENDIUM.md), `Attack 36`)
+- **Complete Multi-Folio Translations ([`notes/DECODED_MONOGRAPH_AND_FORMULARY_COMPENDIUM.md`](notes/DECODED_MONOGRAPH_AND_FORMULARY_COMPENDIUM.md))**: Compiles line-by-line compositional translations across `5` linked chains (`15` folios, `2,929` tokens, `91.19%` T1–T3 structural coverage): **Chain I** (`f39v -> f102v2` Botanical Part Dissection), **Chain II** (`f17r -> f11r -> f22r/v -> f19r` `=Pt` Cross-Reference Chain), **Chain III** (`f49v`, `f57v`, `f66r` Key & Case Sheet), **Chain IV** (`f75r`, `f78r` Balneological Cascade & `@Pb` Index), and **Chain V** (`f103r`, `f105r`, `f107v` Quire 20 Starred Dyads).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -419,4 +440,8 @@ python tools/attack29_herbal_to_recipe_plant_identity_graph.py
 python tools/attack30_minim_numeral_and_vowel_harmony_grammar.py
 python tools/attack31_starred_recipe_formulary_compiler.py
 python tools/attack32_full_manuscript_translation_atlas.py
+python tools/attack33_quire20_star_color_and_tail_concordance.py
+python tools/attack34_small_plant_quire_p_q_bridge_analysis.py
+python tools/attack35_clause_word_order_transition_automaton.py
+python tools/attack36_decoded_monograph_and_formulary_compendium.py
 ```

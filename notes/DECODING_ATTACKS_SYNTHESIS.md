@@ -377,3 +377,36 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 ## 32. Attack 32 (`Phase 43`): Full-Manuscript `227`-Folio Translation & Structural Atlas ([`notes/FULL_MANUSCRIPT_TRANSLATION_ATLAS.md`](FULL_MANUSCRIPT_TRANSLATION_ATLAS.md))
 - **Script, Data & Edition**: [`tools/attack32_full_manuscript_translation_atlas.py`](../tools/attack32_full_manuscript_translation_atlas.py) $\to$ [`data/attack32_full_manuscript_translation_atlas.json`](../data/attack32_full_manuscript_translation_atlas.json), [`notes/FULL_MANUSCRIPT_TRANSLATION_ATLAS.md`](FULL_MANUSCRIPT_TRANSLATION_ATLAS.md)
 - **Key Breakthrough**: Compiles **all `227` folio entries (`100%` folio coverage, `38,206` words, `1,186` labels)** into a unified reference atlas with complete morpheme/grammar tables, per-folio genre classifications, Line-1 opening EVA + structural translations, and rare cross-section links.
+
+---
+
+## 33. Attack 33 (`Phase 44`): The `92.76%` Strict Dyadic `LIGHT_DOTTED <-> LIGHT_PLAIN` Marginal Star Alternation Law in Quire 20 ($z = +12.45, p < 10^{-34}$)
+- **Script & Data**: [`tools/attack33_quire20_star_color_and_tail_concordance.py`](../tools/attack33_quire20_star_color_and_tail_concordance.py) $\to$ [`data/attack33_quire20_star_color_and_tail_concordance.json`](../data/attack33_quire20_star_color_and_tail_concordance.json)
+- **Visual Forensics**: [`pages/f105r_dotted_plain_star_dyads_enh.png`](../pages/f105r_dotted_plain_star_dyads_enh.png)
+- **Key Breakthroughs**:
+  1. **`92.76%` (`205 / 221`) Strict `LIGHT_DOTTED <-> LIGHT_PLAIN` Alternation ($z = +12.45, p < 10^{-34}$)**: Across the `21` dyadic folios of Quire 20 (`f103v–f116r`), adjacent marginal stars alternate between crimson-center `LIGHT_DOTTED` (`Slot A`: `0.00%` `qok-/qot-` openers, `92.12%` gallows topic headers) and unpainted-center `LIGHT_PLAIN` (`Slot B`: licenses `qok-/qot-` and `d-/s-` continuation openers and enriches `-am/-om` finished-product closers `1.45×`), with `13` folios achieving `100.0%` 1:1 alternation.
+  2. **`UNTAILED` (`f103r–f104r`) vs. `TAILED` Stars**: `UNTAILED` stars enrich `sh` thermal decoctions **`2.02×` (`17.55%` vs. `8.70%`)**, whereas `TAILED` stars enrich `-am/-om` finished-product closers **`4.00×` (`9.75%` vs. `2.44%`)**.
+
+---
+
+## 34. Attack 34 (`Phase 45`): Late Interleaved Herbal Bridge (`f87r–v`, `f90r1–f96v`, $z = +2.00, p = 0.030$) & The Three Marginal/Circular Single-Glyph Key Systems (`f49v`, `f57v`, `f66r`)
+- **Script & Data**: [`tools/attack34_small_plant_quire_p_q_bridge_analysis.py`](../tools/attack34_small_plant_quire_p_q_bridge_analysis.py) $\to$ [`data/attack34_small_plant_quire_p_q_bridge_analysis.json`](../data/attack34_small_plant_quire_p_q_bridge_analysis.json)
+- **Visual Forensics**: [`pages/f49v_vertical_margin_key_enh.png`](../pages/f49v_vertical_margin_key_enh.png), [`pages/f66r_margin_columns_and_figure_enh.png`](../pages/f66r_margin_columns_and_figure_enh.png)
+- **Key Breakthroughs**:
+  1. **Late Interleaved Herbal Bridge ($z = +2.00, p = 0.030$)**: Late Herbals (`f87r–v`, `f90r1–f96v`) share `11.88%` (`13.16%` in Currier A) of their rare herbal stems (`1 <= herbal_df <= 3`) with Pharmaceutical prose vs. `8.45%` on Early Herbals (`f1r–f57r`), with `1.76×–2.41×` higher `@Lf/@Lc` label density and `9.62%` `-edy/-dy` verbal rate in `LATE_HERBAL_A`.
+  2. **The Three Single-Glyph Key Systems**: `f49v` has Western Arabic numerals `1..5` beside its repeating 5-step vertical key `[f/p] - o - [r/@192;] - y - e - @140;`; `f57v` (`4×` `17-glyph` ring) and its conjugate Quire H outer-bifolium leaf `f66r` (`15` outer index words + `34` inner key glyphs) share `12` key symbols (`{@169;, @172;, c, d, f, l, o, p, r, t, x, y}`) plus `dairal`, above `f66r`'s reclining patient, jar, two dose spheres, and alphabetic inscription `den mus del`.
+
+---
+
+## 35. Attack 35 (`Phase 46`): Exact 9-State Clause-Internal Word-Order & Bigram Transition Automaton ($z = +49.22$ Full-Line, $z = +45.91$ Interior-Only)
+- **Script & Data**: [`tools/attack35_clause_word_order_transition_automaton.py`](../tools/attack35_clause_word_order_transition_automaton.py) $\to$ [`data/attack35_clause_word_order_transition_automaton.json`](../data/attack35_clause_word_order_transition_automaton.json)
+- **Key Breakthroughs**:
+  1. **Interior Word-Order Non-Randomness ($z = +45.91$)**: Across `4,329` prose lines (`34,404` tokens), directed bigram Mutual Information $I(C_t ; C_{t+1})$ is `0.05528 bits` vs. `0.01251` full-line shuffle null ($z = +49.22$) and `0.05597 bits` vs. `0.01541` interior-only shuffle null ($z = +45.91$) when line boundaries $w_1, w_n$ are fixed.
+  2. **Post-Nominal Verbal Licensing Law (`[NOMINAL / PREP / DAIIN] -> CH_VERB -> Q_ACT`)**: `Q_ACT` (`qok-/qot-`) is strictly forbidden directly after prepositions ($z = -12.47$), nominals ($z = -11.18$), quantifiers ($z = -10.61$), and `daiin` ($z = -6.17$), which instead first license `CH_VERB` (`chedy/shedy`, $z = +5.43\text{ to }+10.85$) before triggering `Q_ACT` (`CH_VERB -> Q_ACT`: **$z = +27.65, 1.74\times$**).
+
+---
+
+## 36. Attack 36 (`Phase 47`): Five-Chain Full-Text Decoded Monograph & Formulary Compendium (`91.19%` T1–T3 Coverage Across `15` Linked Folios, [`notes/DECODED_MONOGRAPH_AND_FORMULARY_COMPENDIUM.md`](DECODED_MONOGRAPH_AND_FORMULARY_COMPENDIUM.md))
+- **Script, Data & Compendium**: [`tools/attack36_decoded_monograph_and_formulary_compendium.py`](../tools/attack36_decoded_monograph_and_formulary_compendium.py) $\to$ [`data/attack36_decoded_monograph_and_formulary_compendium.json`](../data/attack36_decoded_monograph_and_formulary_compendium.json), [`notes/DECODED_MONOGRAPH_AND_FORMULARY_COMPENDIUM.md`](DECODED_MONOGRAPH_AND_FORMULARY_COMPENDIUM.md)
+- **Key Breakthrough**: Compiles complete line-by-line compositional translations across `5` linked multi-folio manuscript chains (`15` folios, `2,929` tokens, `91.19%` T1–T3 structural coverage).
+

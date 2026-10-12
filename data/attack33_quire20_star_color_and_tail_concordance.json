@@ -1,0 +1,1502 @@
+{
+  "phase": "Phase 44 / Attack 33",
+  "title": "Quire 20 (f103r-f116r) Marginal Star Fill, Central-Dot, Point-Count, and Tail-Geometry Rubrication Concordance",
+  "overall_star_counts": {
+    "total_paragraphs": 285,
+    "fill_type_counts": {
+      "DARK_SOLID": 14,
+      "LIGHT_PLAIN": 136,
+      "LIGHT_DOTTED": 127,
+      "UNMARKED": 8
+    },
+    "tail_counts": {
+      "UNTAILED": 41,
+      "TAILED": 236
+    },
+    "point_counts": {
+      "6": 3,
+      "7": 161,
+      "8": 103,
+      "9": 5
+    },
+    "mid_paragraph_extra_stars_count": 54
+  },
+  "dyadic_dotted_plain_alternation_law": {
+    "evaluated_dyad_folios": [
+      "f103v",
+      "f104r",
+      "f104v",
+      "f105r",
+      "f105v",
+      "f106r",
+      "f106v",
+      "f107r",
+      "f107v",
+      "f108v",
+      "f111r",
+      "f111v",
+      "f112r",
+      "f112v",
+      "f113r",
+      "f113v",
+      "f114r",
+      "f114v",
+      "f115r",
+      "f115v",
+      "f116r"
+    ],
+    "adjacent_dotted_plain_pairs": 221,
+    "observed_alternating_pairs": 205,
+    "observed_alternation_rate": 0.9276,
+    "null_within_folio_mean": 117.94,
+    "null_within_folio_rate": 0.5337,
+    "null_within_folio_std": 6.99,
+    "z_score": 12.45,
+    "p_value": 0.0
+  },
+  "grammatical_profile_by_fill_type": {
+    "DARK_SOLID": {
+      "paragraph_count": 14,
+      "mean_words_per_paragraph": 30.21,
+      "mean_lines_per_paragraph": 3.07,
+      "opener_p_f_top_gallows_rate": 0.3571,
+      "opener_k_t_gallows_rate": 0.3571,
+      "opener_qok_qot_rate": 0.2143,
+      "opener_d_s_deictic_rate": 0.0714,
+      "closer_am_om_product_rate": 0.0714,
+      "body_edy_dy_verbal_rate": 0.253,
+      "body_aiin_unit_rate": 0.1253,
+      "body_sh_decoction_rate": 0.1277,
+      "body_ch_mixture_rate": 0.2388,
+      "body_k_vessel_rate": 0.3783,
+      "body_t_conduit_rate": 0.1631
+    },
+    "LIGHT_DOTTED": {
+      "paragraph_count": 127,
+      "mean_words_per_paragraph": 39.07,
+      "mean_lines_per_paragraph": 3.91,
+      "opener_p_f_top_gallows_rate": 0.6299,
+      "opener_k_t_gallows_rate": 0.2913,
+      "opener_qok_qot_rate": 0.0,
+      "opener_d_s_deictic_rate": 0.0236,
+      "closer_am_om_product_rate": 0.0709,
+      "body_edy_dy_verbal_rate": 0.1896,
+      "body_aiin_unit_rate": 0.2005,
+      "body_sh_decoction_rate": 0.0959,
+      "body_ch_mixture_rate": 0.2811,
+      "body_k_vessel_rate": 0.3039,
+      "body_t_conduit_rate": 0.1792
+    },
+    "LIGHT_PLAIN": {
+      "paragraph_count": 136,
+      "mean_words_per_paragraph": 37.24,
+      "mean_lines_per_paragraph": 3.69,
+      "opener_p_f_top_gallows_rate": 0.5956,
+      "opener_k_t_gallows_rate": 0.2647,
+      "opener_qok_qot_rate": 0.0368,
+      "opener_d_s_deictic_rate": 0.0588,
+      "closer_am_om_product_rate": 0.1029,
+      "body_edy_dy_verbal_rate": 0.2056,
+      "body_aiin_unit_rate": 0.1898,
+      "body_sh_decoction_rate": 0.1013,
+      "body_ch_mixture_rate": 0.3061,
+      "body_k_vessel_rate": 0.3132,
+      "body_t_conduit_rate": 0.1631
+    },
+    "UNMARKED": {
+      "paragraph_count": 8,
+      "mean_words_per_paragraph": 55.0,
+      "mean_lines_per_paragraph": 5.25,
+      "opener_p_f_top_gallows_rate": 0.5,
+      "opener_k_t_gallows_rate": 0.375,
+      "opener_qok_qot_rate": 0.0,
+      "opener_d_s_deictic_rate": 0.0,
+      "closer_am_om_product_rate": 0.0,
+      "body_edy_dy_verbal_rate": 0.1227,
+      "body_aiin_unit_rate": 0.2068,
+      "body_sh_decoction_rate": 0.1432,
+      "body_ch_mixture_rate": 0.2659,
+      "body_k_vessel_rate": 0.3182,
+      "body_t_conduit_rate": 0.0841
+    }
+  },
+  "grammatical_profile_by_tail_geometry": {
+    "TAILED": {
+      "paragraph_count": 236,
+      "mean_words_per_paragraph": 37.85,
+      "mean_lines_per_paragraph": 3.79,
+      "opener_p_f_top_gallows_rate": 0.6017,
+      "opener_k_t_gallows_rate": 0.3136,
+      "opener_qok_qot_rate": 0.0085,
+      "opener_d_s_deictic_rate": 0.0381,
+      "closer_am_om_product_rate": 0.0975,
+      "body_edy_dy_verbal_rate": 0.2017,
+      "body_aiin_unit_rate": 0.1952,
+      "body_sh_decoction_rate": 0.087,
+      "body_ch_mixture_rate": 0.3016,
+      "body_k_vessel_rate": 0.312,
+      "body_t_conduit_rate": 0.1698
+    },
+    "UNTAILED": {
+      "paragraph_count": 41,
+      "mean_words_per_paragraph": 36.98,
+      "mean_lines_per_paragraph": 3.61,
+      "opener_p_f_top_gallows_rate": 0.5854,
+      "opener_k_t_gallows_rate": 0.0976,
+      "opener_qok_qot_rate": 0.1463,
+      "opener_d_s_deictic_rate": 0.0732,
+      "closer_am_om_product_rate": 0.0244,
+      "body_edy_dy_verbal_rate": 0.1893,
+      "body_aiin_unit_rate": 0.1748,
+      "body_sh_decoction_rate": 0.1755,
+      "body_ch_mixture_rate": 0.2322,
+      "body_k_vessel_rate": 0.308,
+      "body_t_conduit_rate": 0.1761
+    }
+  },
+  "mid_paragraph_extra_stars": [
+    {
+      "folio": "f103r",
+      "para_start_loc": "8",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "9",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Dark star, 6 points",
+      "fill_type": "DARK_SOLID",
+      "has_tail": false,
+      "points": 6
+    },
+    {
+      "folio": "f103r",
+      "para_start_loc": "40",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "42",
+      "loc_type": "+P0",
+      "is_closing_line": true,
+      "raw_comment": "Light star, 7 points",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": false,
+      "points": 7
+    },
+    {
+      "folio": "f103r",
+      "para_start_loc": "43",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "44",
+      "loc_type": "+P0",
+      "is_closing_line": true,
+      "raw_comment": "Dark star, 7 points",
+      "fill_type": "DARK_SOLID",
+      "has_tail": false,
+      "points": 7
+    },
+    {
+      "folio": "f103v",
+      "para_start_loc": "20",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "21",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 6 points",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": false,
+      "points": 6
+    },
+    {
+      "folio": "f104r",
+      "para_start_loc": "1",
+      "para_opening_star": "UNMARKED",
+      "loc_id": "2",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Dark star, 7 points, tail",
+      "fill_type": "DARK_SOLID",
+      "has_tail": true,
+      "points": 7
+    },
+    {
+      "folio": "f104v",
+      "para_start_loc": "8",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "11",
+      "loc_type": "+P0",
+      "is_closing_line": true,
+      "raw_comment": "Light star, 7 points, tail",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": true,
+      "points": 7
+    },
+    {
+      "folio": "f105r",
+      "para_start_loc": "6",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "10",
+      "loc_type": "+Pr",
+      "is_closing_line": true,
+      "raw_comment": "Light star, 7 points, tail",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": true,
+      "points": 7
+    },
+    {
+      "folio": "f105r",
+      "para_start_loc": "31",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "34",
+      "loc_type": "+P0",
+      "is_closing_line": true,
+      "raw_comment": "Light star, dotted, 7 points, tail",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": true,
+      "points": 7
+    },
+    {
+      "folio": "f105v",
+      "para_start_loc": "1",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "4",
+      "loc_type": "+P0",
+      "is_closing_line": true,
+      "raw_comment": "Light star, 7 points, tail",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": true,
+      "points": 7
+    },
+    {
+      "folio": "f105v",
+      "para_start_loc": "8",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "13",
+      "loc_type": "+P0",
+      "is_closing_line": true,
+      "raw_comment": "Light star, 7 points, tail",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": true,
+      "points": 7
+    },
+    {
+      "folio": "f107r",
+      "para_start_loc": "13",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "16",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, dotted, 7 points, tail",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": true,
+      "points": 7
+    },
+    {
+      "folio": "f108r",
+      "para_start_loc": "8",
+      "para_opening_star": "DARK_SOLID",
+      "loc_id": "11",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 7 points, tail",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": true,
+      "points": 7
+    },
+    {
+      "folio": "f108r",
+      "para_start_loc": "39",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "42",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 7 points, tail",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": true,
+      "points": 7
+    },
+    {
+      "folio": "f108v",
+      "para_start_loc": "20",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "23",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, dotted, 8 points, tail",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": true,
+      "points": 8
+    },
+    {
+      "folio": "f108v",
+      "para_start_loc": "20",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "26",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 7 points, tail",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": true,
+      "points": 7
+    },
+    {
+      "folio": "f108v",
+      "para_start_loc": "30",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "34",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, dotted, 8 points, tail",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": true,
+      "points": 8
+    },
+    {
+      "folio": "f108v",
+      "para_start_loc": "30",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "37",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 8 points, tail",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": true,
+      "points": 8
+    },
+    {
+      "folio": "f108v",
+      "para_start_loc": "30",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "40",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, dotted, 7 points, tail",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": true,
+      "points": 7
+    },
+    {
+      "folio": "f108v",
+      "para_start_loc": "30",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "43",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, dotted?, 8 points, tail",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": true,
+      "points": 8
+    },
+    {
+      "folio": "f108v",
+      "para_start_loc": "30",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "46",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, dotted, 7 points, tail",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": true,
+      "points": 7
+    },
+    {
+      "folio": "f108v",
+      "para_start_loc": "30",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "48",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 7 points, tail",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": true,
+      "points": 7
+    },
+    {
+      "folio": "f108v",
+      "para_start_loc": "30",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "50",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, dotted, 7 points, tail",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": true,
+      "points": 7
+    },
+    {
+      "folio": "f111r",
+      "para_start_loc": "6",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "8",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, dotted, 8 points, tail",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": true,
+      "points": 8
+    },
+    {
+      "folio": "f111r",
+      "para_start_loc": "6",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "10",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 8 points, tail",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": true,
+      "points": 8
+    },
+    {
+      "folio": "f111r",
+      "para_start_loc": "6",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "13",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, dotted, 8 points, tail",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": true,
+      "points": 8
+    },
+    {
+      "folio": "f111r",
+      "para_start_loc": "6",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "17",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 8 points, tail",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": true,
+      "points": 8
+    },
+    {
+      "folio": "f111r",
+      "para_start_loc": "6",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "20",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, dotted, 9 points, tail",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": true,
+      "points": 9
+    },
+    {
+      "folio": "f111r",
+      "para_start_loc": "6",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "23",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 8 points, tail",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": true,
+      "points": 8
+    },
+    {
+      "folio": "f111r",
+      "para_start_loc": "6",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "26",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, dotted, 8 points, tail",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": true,
+      "points": 8
+    },
+    {
+      "folio": "f111r",
+      "para_start_loc": "6",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "29",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 8 points, tail",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": true,
+      "points": 8
+    },
+    {
+      "folio": "f111r",
+      "para_start_loc": "6",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "32",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, dotted, 8 points, tail",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": true,
+      "points": 8
+    },
+    {
+      "folio": "f111r",
+      "para_start_loc": "6",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "34",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 8 points, tail",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": true,
+      "points": 8
+    },
+    {
+      "folio": "f111r",
+      "para_start_loc": "36",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "39",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 8 points, tail",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": true,
+      "points": 8
+    },
+    {
+      "folio": "f111v",
+      "para_start_loc": "1",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "4",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 7 points",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": false,
+      "points": 7
+    },
+    {
+      "folio": "f111v",
+      "para_start_loc": "1",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "6",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, dotted, 7 points, tail",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": true,
+      "points": 7
+    },
+    {
+      "folio": "f111v",
+      "para_start_loc": "1",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "8",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 7 points, tail",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": true,
+      "points": 7
+    },
+    {
+      "folio": "f111v",
+      "para_start_loc": "1",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "11",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, dotted, 7 points",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": false,
+      "points": 7
+    },
+    {
+      "folio": "f111v",
+      "para_start_loc": "1",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "13",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 8 points",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": false,
+      "points": 8
+    },
+    {
+      "folio": "f111v",
+      "para_start_loc": "1",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "16",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, dotted, 7 points",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": false,
+      "points": 7
+    },
+    {
+      "folio": "f111v",
+      "para_start_loc": "1",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "18",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 7 points",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": false,
+      "points": 7
+    },
+    {
+      "folio": "f111v",
+      "para_start_loc": "1",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "21",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, dotted, 7 points, tail",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": true,
+      "points": 7
+    },
+    {
+      "folio": "f111v",
+      "para_start_loc": "1",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "24",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 8 points",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": false,
+      "points": 8
+    },
+    {
+      "folio": "f111v",
+      "para_start_loc": "31",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "32",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 7 points",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": false,
+      "points": 7
+    },
+    {
+      "folio": "f111v",
+      "para_start_loc": "37",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "40",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, dotted, 7 points",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": false,
+      "points": 7
+    },
+    {
+      "folio": "f112r",
+      "para_start_loc": "1",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "5",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 7 points, tail",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": true,
+      "points": 7
+    },
+    {
+      "folio": "f112r",
+      "para_start_loc": "31",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "33",
+      "loc_type": "+P0",
+      "is_closing_line": true,
+      "raw_comment": "Light star, dotted, 7 points, tail",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": true,
+      "points": 7
+    },
+    {
+      "folio": "f113r",
+      "para_start_loc": "22",
+      "para_opening_star": "UNMARKED",
+      "loc_id": "23",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, dotted, 8 points, tail",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": true,
+      "points": 8
+    },
+    {
+      "folio": "f113r",
+      "para_start_loc": "45",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "48",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, dotted, 8 points, tail",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": true,
+      "points": 8
+    },
+    {
+      "folio": "f114r",
+      "para_start_loc": "24",
+      "para_opening_star": "UNMARKED",
+      "loc_id": "25",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 8 points, tail",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": true,
+      "points": 8
+    },
+    {
+      "folio": "f115v",
+      "para_start_loc": "24",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "28",
+      "loc_type": "+P0",
+      "is_closing_line": true,
+      "raw_comment": "Light star, dotted, 7 points, tail",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": true,
+      "points": 7
+    },
+    {
+      "folio": "f116r",
+      "para_start_loc": "10",
+      "para_opening_star": "LIGHT_DOTTED",
+      "loc_id": "13",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 7? points",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": false,
+      "points": 0
+    },
+    {
+      "folio": "f116r",
+      "para_start_loc": "18",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "21",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, dotted, 7 points",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": false,
+      "points": 7
+    },
+    {
+      "folio": "f116r",
+      "para_start_loc": "18",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "24",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, 8 points",
+      "fill_type": "LIGHT_PLAIN",
+      "has_tail": false,
+      "points": 8
+    },
+    {
+      "folio": "f116r",
+      "para_start_loc": "18",
+      "para_opening_star": "LIGHT_PLAIN",
+      "loc_id": "27",
+      "loc_type": "+P0",
+      "is_closing_line": false,
+      "raw_comment": "Light star, dotted, 7 points",
+      "fill_type": "LIGHT_DOTTED",
+      "has_tail": false,
+      "points": 7
+    }
+  ],
+  "folio_star_table": [
+    {
+      "folio": "f103r",
+      "paragraph_count": 18,
+      "fill_counts": {
+        "DARK_SOLID": 6,
+        "LIGHT_PLAIN": 12
+      },
+      "tail_counts": {
+        "UNTAILED": 17,
+        "TAILED": 1
+      },
+      "point_counts": {
+        "7": 10,
+        "8": 8
+      },
+      "star_sequence": [
+        "DARK_SOLID",
+        "LIGHT_PLAIN",
+        "LIGHT_PLAIN",
+        "LIGHT_PLAIN",
+        "DARK_SOLID",
+        "LIGHT_PLAIN",
+        "LIGHT_PLAIN",
+        "DARK_SOLID",
+        "LIGHT_PLAIN",
+        "LIGHT_PLAIN",
+        "DARK_SOLID",
+        "LIGHT_PLAIN",
+        "DARK_SOLID",
+        "LIGHT_PLAIN",
+        "LIGHT_PLAIN",
+        "DARK_SOLID",
+        "LIGHT_PLAIN",
+        "LIGHT_PLAIN"
+      ]
+    },
+    {
+      "folio": "f103v",
+      "paragraph_count": 13,
+      "fill_counts": {
+        "LIGHT_DOTTED": 7,
+        "LIGHT_PLAIN": 6
+      },
+      "tail_counts": {
+        "UNTAILED": 13
+      },
+      "point_counts": {
+        "6": 1,
+        "7": 8,
+        "8": 4
+      },
+      "star_sequence": [
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN"
+      ]
+    },
+    {
+      "folio": "f104r",
+      "paragraph_count": 13,
+      "fill_counts": {
+        "UNMARKED": 1,
+        "LIGHT_PLAIN": 7,
+        "DARK_SOLID": 3,
+        "LIGHT_DOTTED": 2
+      },
+      "tail_counts": {
+        "TAILED": 12
+      },
+      "point_counts": {
+        "7": 6,
+        "8": 4,
+        "9": 1
+      },
+      "star_sequence": [
+        "UNMARKED",
+        "LIGHT_PLAIN",
+        "DARK_SOLID",
+        "LIGHT_PLAIN",
+        "LIGHT_PLAIN",
+        "DARK_SOLID",
+        "LIGHT_PLAIN",
+        "DARK_SOLID",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN"
+      ]
+    },
+    {
+      "folio": "f104v",
+      "paragraph_count": 13,
+      "fill_counts": {
+        "LIGHT_DOTTED": 7,
+        "LIGHT_PLAIN": 6
+      },
+      "tail_counts": {
+        "TAILED": 13
+      },
+      "point_counts": {
+        "7": 1,
+        "8": 11
+      },
+      "star_sequence": [
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED"
+      ]
+    },
+    {
+      "folio": "f105r",
+      "paragraph_count": 10,
+      "fill_counts": {
+        "LIGHT_DOTTED": 6,
+        "LIGHT_PLAIN": 4
+      },
+      "tail_counts": {
+        "TAILED": 10
+      },
+      "point_counts": {
+        "7": 8,
+        "8": 2
+      },
+      "star_sequence": [
+        "LIGHT_DOTTED",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED"
+      ]
+    },
+    {
+      "folio": "f105v",
+      "paragraph_count": 10,
+      "fill_counts": {
+        "LIGHT_DOTTED": 5,
+        "LIGHT_PLAIN": 5
+      },
+      "tail_counts": {
+        "TAILED": 10
+      },
+      "point_counts": {
+        "7": 9,
+        "8": 1
+      },
+      "star_sequence": [
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN"
+      ]
+    },
+    {
+      "folio": "f106r",
+      "paragraph_count": 15,
+      "fill_counts": {
+        "LIGHT_DOTTED": 8,
+        "LIGHT_PLAIN": 7
+      },
+      "tail_counts": {
+        "TAILED": 15
+      },
+      "point_counts": {
+        "7": 7,
+        "8": 8
+      },
+      "star_sequence": [
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED"
+      ]
+    },
+    {
+      "folio": "f106v",
+      "paragraph_count": 15,
+      "fill_counts": {
+        "LIGHT_PLAIN": 7,
+        "LIGHT_DOTTED": 7,
+        "UNMARKED": 1
+      },
+      "tail_counts": {
+        "TAILED": 14
+      },
+      "point_counts": {
+        "7": 3,
+        "8": 9,
+        "9": 1
+      },
+      "star_sequence": [
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "UNMARKED",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED"
+      ]
+    },
+    {
+      "folio": "f107r",
+      "paragraph_count": 14,
+      "fill_counts": {
+        "LIGHT_DOTTED": 7,
+        "LIGHT_PLAIN": 7
+      },
+      "tail_counts": {
+        "TAILED": 14
+      },
+      "point_counts": {
+        "7": 11,
+        "8": 3
+      },
+      "star_sequence": [
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED"
+      ]
+    },
+    {
+      "folio": "f107v",
+      "paragraph_count": 15,
+      "fill_counts": {
+        "LIGHT_DOTTED": 7,
+        "LIGHT_PLAIN": 7,
+        "UNMARKED": 1
+      },
+      "tail_counts": {
+        "TAILED": 14
+      },
+      "point_counts": {
+        "6": 1,
+        "7": 6,
+        "8": 6,
+        "9": 1
+      },
+      "star_sequence": [
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "UNMARKED"
+      ]
+    },
+    {
+      "folio": "f108r",
+      "paragraph_count": 14,
+      "fill_counts": {
+        "LIGHT_PLAIN": 8,
+        "DARK_SOLID": 5,
+        "LIGHT_DOTTED": 1
+      },
+      "tail_counts": {
+        "TAILED": 14
+      },
+      "point_counts": {
+        "7": 14
+      },
+      "star_sequence": [
+        "LIGHT_PLAIN",
+        "LIGHT_PLAIN",
+        "DARK_SOLID",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "DARK_SOLID",
+        "LIGHT_PLAIN",
+        "LIGHT_PLAIN",
+        "DARK_SOLID",
+        "LIGHT_PLAIN",
+        "DARK_SOLID",
+        "LIGHT_PLAIN",
+        "LIGHT_PLAIN",
+        "DARK_SOLID"
+      ]
+    },
+    {
+      "folio": "f108v",
+      "paragraph_count": 7,
+      "fill_counts": {
+        "LIGHT_DOTTED": 4,
+        "LIGHT_PLAIN": 3
+      },
+      "tail_counts": {
+        "TAILED": 7
+      },
+      "point_counts": {
+        "7": 4,
+        "8": 3
+      },
+      "star_sequence": [
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED"
+      ]
+    },
+    {
+      "folio": "f111r",
+      "paragraph_count": 6,
+      "fill_counts": {
+        "LIGHT_DOTTED": 4,
+        "LIGHT_PLAIN": 2
+      },
+      "tail_counts": {
+        "TAILED": 6
+      },
+      "point_counts": {
+        "7": 4,
+        "8": 2
+      },
+      "star_sequence": [
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED"
+      ]
+    },
+    {
+      "folio": "f111v",
+      "paragraph_count": 8,
+      "fill_counts": {
+        "LIGHT_DOTTED": 5,
+        "LIGHT_PLAIN": 3
+      },
+      "tail_counts": {
+        "TAILED": 3,
+        "UNTAILED": 5
+      },
+      "point_counts": {
+        "7": 4,
+        "8": 4
+      },
+      "star_sequence": [
+        "LIGHT_DOTTED",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED"
+      ]
+    },
+    {
+      "folio": "f112r",
+      "paragraph_count": 11,
+      "fill_counts": {
+        "LIGHT_DOTTED": 6,
+        "LIGHT_PLAIN": 5
+      },
+      "tail_counts": {
+        "TAILED": 11
+      },
+      "point_counts": {
+        "7": 10,
+        "8": 1
+      },
+      "star_sequence": [
+        "LIGHT_DOTTED",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN"
+      ]
+    },
+    {
+      "folio": "f112v",
+      "paragraph_count": 13,
+      "fill_counts": {
+        "LIGHT_DOTTED": 7,
+        "LIGHT_PLAIN": 6
+      },
+      "tail_counts": {
+        "TAILED": 13
+      },
+      "point_counts": {
+        "6": 1,
+        "7": 9,
+        "8": 3
+      },
+      "star_sequence": [
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED"
+      ]
+    },
+    {
+      "folio": "f113r",
+      "paragraph_count": 16,
+      "fill_counts": {
+        "LIGHT_PLAIN": 8,
+        "LIGHT_DOTTED": 6,
+        "UNMARKED": 2
+      },
+      "tail_counts": {
+        "TAILED": 14
+      },
+      "point_counts": {
+        "7": 9,
+        "8": 4
+      },
+      "star_sequence": [
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "UNMARKED",
+        "UNMARKED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN"
+      ]
+    },
+    {
+      "folio": "f113v",
+      "paragraph_count": 15,
+      "fill_counts": {
+        "LIGHT_DOTTED": 8,
+        "LIGHT_PLAIN": 7
+      },
+      "tail_counts": {
+        "TAILED": 15
+      },
+      "point_counts": {
+        "7": 11,
+        "8": 4
+      },
+      "star_sequence": [
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED"
+      ]
+    },
+    {
+      "folio": "f114r",
+      "paragraph_count": 13,
+      "fill_counts": {
+        "LIGHT_DOTTED": 7,
+        "LIGHT_PLAIN": 5,
+        "UNMARKED": 1
+      },
+      "tail_counts": {
+        "TAILED": 12
+      },
+      "point_counts": {
+        "7": 8,
+        "8": 3
+      },
+      "star_sequence": [
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "UNMARKED",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED"
+      ]
+    },
+    {
+      "folio": "f114v",
+      "paragraph_count": 12,
+      "fill_counts": {
+        "LIGHT_PLAIN": 6,
+        "LIGHT_DOTTED": 6
+      },
+      "tail_counts": {
+        "TAILED": 12
+      },
+      "point_counts": {
+        "7": 10,
+        "8": 2
+      },
+      "star_sequence": [
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED"
+      ]
+    },
+    {
+      "folio": "f115r",
+      "paragraph_count": 13,
+      "fill_counts": {
+        "LIGHT_DOTTED": 7,
+        "LIGHT_PLAIN": 6
+      },
+      "tail_counts": {
+        "TAILED": 13
+      },
+      "point_counts": {
+        "7": 2,
+        "8": 10,
+        "9": 1
+      },
+      "star_sequence": [
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN"
+      ]
+    },
+    {
+      "folio": "f115v",
+      "paragraph_count": 13,
+      "fill_counts": {
+        "LIGHT_DOTTED": 7,
+        "LIGHT_PLAIN": 6
+      },
+      "tail_counts": {
+        "TAILED": 13
+      },
+      "point_counts": {
+        "7": 2,
+        "8": 10,
+        "9": 1
+      },
+      "star_sequence": [
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED"
+      ]
+    },
+    {
+      "folio": "f116r",
+      "paragraph_count": 8,
+      "fill_counts": {
+        "LIGHT_PLAIN": 3,
+        "LIGHT_DOTTED": 3,
+        "UNMARKED": 2
+      },
+      "tail_counts": {
+        "UNTAILED": 6
+      },
+      "point_counts": {
+        "7": 5,
+        "8": 1
+      },
+      "star_sequence": [
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "LIGHT_DOTTED",
+        "LIGHT_DOTTED",
+        "LIGHT_PLAIN",
+        "UNMARKED",
+        "UNMARKED"
+      ]
+    }
+  ]
+}
