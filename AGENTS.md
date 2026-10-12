@@ -4,7 +4,7 @@
 This repository (`voynich-research`) is an active, long-running research workspace dedicated to investigating the **Voynich Manuscript (Beinecke MS 408)**.
 
 Our objective is to gain any genuine understanding—whether paleographic, codicological, visual, statistical, grammatical, or cryptographic— directly from:
-1. **The two full manuscript PDF scans** in the root directory (`2002046.pdf` and `voynich-manuscript.pdf`), which can be cross-checked against each other for resolution, contrast, and physical fold-out details.
+1. **The two full manuscript PDF scans** in `books/` (`books/voynich-yale-beinecke-2026-highres-214p.pdf` and `books/voynich-tcpdf-2014-bookmarked-210p.pdf`), which can be cross-checked against each other for resolution, contrast, and physical fold-out details.
 2. **Machine-readable EVA transliterations** in `data/` (`ZL3b-n.txt`, `RF1b-er.txt`, `IT2a-n.txt`, `GC2a-n.txt`), paired with our master cross-reference index `data/folio_index.json`.
 
 While you are free to consult external literature or the web for context, **do not make summarizing past failed decipherment attempts your main objective**. Prioritize direct empirical observation, visual inspection of the scans, reproducible computational tests, and original hypothesis testing.
@@ -22,11 +22,11 @@ While you are free to consult external literature or the web for context, **do n
 
 ## 3. Workspace Architecture & Existing Toolkit
 
-### Root Assets
-- `2002046.pdf`: 214-page Yale Digital Collections export (Aug 2026, ~1500×2000 px per folio, includes Beinecke Image IDs and 4 physical book-edge scans `p210–p213`).
-- `voynich-manuscript.pdf`: 210-page TCPDF export (Feb 2014, ~1082×1500 px per folio, includes a 210-entry bookmark TOC; pages `1..209` align 1-to-1 with `2002046.pdf`).
+### Manuscript Scans (`books/`) & Root Docs
+- `books/voynich-yale-beinecke-2026-highres-214p.pdf` (formerly `2002046.pdf`): 214-page Yale Beinecke Digital Collections export (~1500×2000 px per folio, includes Beinecke Image IDs and 4 physical book-edge scans `p210–p213`).
+- `books/voynich-tcpdf-2014-bookmarked-210p.pdf` (formerly `voynich-manuscript.pdf`): 210-page TCPDF export (Feb 2014, ~1082×1500 px per folio, includes an interactive 210-entry bookmark TOC; pages `1..209` align 1-to-1 with the Yale high-res PDF).
 - `NOTES.md`: Living research log of all findings, visual forensics, statistical experiments, and open avenues.
-- `README.md`: Overview of the repository, toolkit, and key findings for GitHub.
+- `README.md`: Concise, human-readable overview of the repository, toolkit, visual reader's guides, interactive explorer, and key findings.
 
 ### Data (`data/`)
 - `data/folio_index.json`: Master index linking all 226 transcribed folios (`38,409` words, `892` figure labels, `754` drawing intrusions) to exact PDF page numbers, Beinecke Image IDs, manuscript sections (`$I`), Currier languages (`$L=A/B`), and Lisa Fagin Davis scribe hands (`$H=1..5`).
@@ -35,9 +35,9 @@ While you are free to consult external literature or the web for context, **do n
 - `data/structural_analysis.json`, `data/q_and_label_analysis.json`, `data/deep_grammar_analysis.json`, `data/canonical_normalization_test.json`: Reproducible JSON outputs from our quantitative experiments.
 
 ### Tools (`tools/`)
-- `python tools/build_index.py`: Rebuilds `data/folio_index.json` from both PDFs and `data/ZL3b-n.txt`.
+- `python tools/build_index.py`: Rebuilds `data/folio_index.json` from both PDFs in `books/` and `data/ZL3b-n.txt`.
 - `python tools/render_folio.py <folio_or_page> [--crop x0 y0 x1 y1] [--enhance] [--compare] [--out pages/name.png]`:
-  - Extracts the native embedded scan for any folio (e.g. `f1r`, `f99v`, `p181`), crops normalized `[0..1]` coordinates, applies multi-channel ink contrast enhancement (`--enhance`), or renders side-by-side comparisons between `2002046.pdf` and `voynich-manuscript.pdf` (`--compare`).
+  - Extracts the native embedded scan for any folio (e.g. `f1r`, `f99v`, `p181`), crops normalized `[0..1]` coordinates, applies multi-channel ink contrast enhancement (`--enhance`), or renders side-by-side comparisons between `books/voynich-yale-beinecke-2026-highres-214p.pdf` and `books/voynich-tcpdf-2014-bookmarked-210p.pdf` (`--compare`).
 - `python tools/analyze_structure.py`: Runs positional morphology & Herbal-to-Pharmaceutical cross-reference analysis.
 - `python tools/test_q_prefix_and_labels.py`: Tests the `q-` proclitic rule (`qoX = q + oX`) and label-to-paragraph matching.
 - `python tools/deep_grammar_and_cipher_test.py`: Tests top-line gallows allography (`p/f` vs `t/k`), slot-grammar coverage, and block-level label matches.

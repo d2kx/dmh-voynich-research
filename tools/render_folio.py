@@ -31,10 +31,26 @@ def enhance_faded_ink(img: Image.Image) -> Image.Image:
     merged = ImageEnhance.Sharpness(merged).enhance(1.5)
     return merged
 
+DEFAULT_PDF1 = "books/voynich-yale-beinecke-2026-highres-214p.pdf"
+DEFAULT_PDF2 = "books/voynich-tcpdf-2014-bookmarked-210p.pdf"
+
+def resolve_pdf_path(p: str) -> str:
+    path = Path(p)
+    if path.exists():
+        return str(path)
+    if p in ("2002046.pdf", "yale"):
+        return DEFAULT_PDF1
+    if p in ("voynich-manuscript.pdf", "tcpdf"):
+        return DEFAULT_PDF2
+    alt = Path("books") / path.name
+    if alt.exists():
+        return str(alt)
+    return p
+
 def main():
     parser = argparse.ArgumentParser(description="Extract and optionally crop/enhance Voynich folio scans.")
     parser.add_argument("folio", help="Folio ID (e.g. f1r, 116v) or PDF page number (e.g. p4)")
-    parser.add_argument("--pdf", default="2002046.pdf", help="PDF filename (default: 2002046.pdf)")
+    parser.add_argument("--pdf", default=DEFAULT_PDF1, help=f"PDF filename (default: {DEFAULT_PDF1})")
     parser.add_argument("--crop", type=float, nargs=4, metavar=("X0", "Y0", "X1", "Y1"),
                         help="Normalized crop coordinates [0..1]: x0 y0 x1 y1")
     parser.add_argument("--enhance", action="store_true", help="Apply contrast/channel enhancement for faded ink")
@@ -67,7 +83,7 @@ def main():
     if not pno1:
         raise ValueError(f"Could not resolve folio/page: {args.folio}")
 
-    doc1 = pymupdf.open(args.pdf)
+    doc1 = pymupdf.open(resolve_pdf_path(args.pdf))
     img1 = extract_embedded_image(doc1, pno1)
 
     if args.crop:
@@ -76,7 +92,7 @@ def main():
         img1 = img1.crop((int(x0 * w), int(y0 * h), int(x1 * w), int(y1 * h)))
 
     if args.compare and pno2:
-        doc2 = pymupdf.open("voynich-manuscript.pdf")
+        doc2 = pymupdf.open(resolve_pdf_path(DEFAULT_PDF2))
         img2 = extract_embedded_image(doc2, pno2)
         if args.crop:
             x0, y0, x1, y1 = args.crop

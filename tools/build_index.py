@@ -77,8 +77,10 @@ def parse_zl_metadata(zl_path: Path):
     return folio_data
 
 def main():
-    doc1 = pymupdf.open('2002046.pdf')
-    doc2 = pymupdf.open('voynich-manuscript.pdf')
+    pdf1_path = 'books/voynich-yale-beinecke-2026-highres-214p.pdf'
+    pdf2_path = 'books/voynich-tcpdf-2014-bookmarked-210p.pdf'
+    doc1 = pymupdf.open(pdf1_path)
+    doc2 = pymupdf.open(pdf2_path)
     toc2 = {entry[2]: entry[1] for entry in doc2.get_toc() if entry[0] == 2}
 
     pdf_pages = []
@@ -92,7 +94,7 @@ def main():
         imgs1 = page.get_images()
         w1, h1 = (imgs1[0][2], imgs1[0][3]) if imgs1 else (0, 0)
 
-        # Match with voynich-manuscript.pdf
+        # Match with voynich-tcpdf-2014-bookmarked-210p.pdf
         pno2 = pno if pno <= 209 else (210 if label1 == '[Back cover]' else None)
         label2 = toc2.get(pno2, '') if pno2 else ''
         w2, h2 = (0, 0)
@@ -126,9 +128,9 @@ def main():
 
     out = {
         'summary': {
-            'pdf1_file': '2002046.pdf',
+            'pdf1_file': pdf1_path,
             'pdf1_pages': len(doc1),
-            'pdf2_file': 'voynich-manuscript.pdf',
+            'pdf2_file': pdf2_path,
             'pdf2_pages': len(doc2),
             'transcribed_folios': len(zl_data),
             'total_words': sum(v['words'] for v in zl_data.values()),
