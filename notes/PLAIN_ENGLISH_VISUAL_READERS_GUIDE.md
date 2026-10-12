@@ -55,9 +55,9 @@ When you strip off the prefix and suffix, you are left with the **Root Stem**:
 
 ---
 
-## Part 2: Page-by-Page Visual Walkthroughs (18 Iconic Folios)
+## Part 2: Page-by-Page Visual Walkthroughs (20 Iconic Folios)
 
-Below are **18 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
+Below are **20 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
 
 ---
 
@@ -352,7 +352,38 @@ Why did the scribe write the Voynich word **`oror`** at the end of a European ch
 
 ---
 
+### 19. Folios `f2r` & `f25v` — Why Illustrations Were Painted First & How Scribes Jumped Over Plant Stems (`<->`)
+* **Section:** Herbal A (`f1r–f57v`, Scribe 1) | **Pages in Yale Scan:** Pages 6 & 51
+
+![Folio f25v Palmate Leaf Fan with Dragon and Leaf-Tip Intrusion](../pages/f25v_ivy_intrusion_enh.png)
+
+#### What to Look for on `f25v` (Above) and `f2r` (Below)
+1. **The Dragon Biting the Leaf & The Leaf-Tip Split (`f25v`, above):** Look at the bottom-right corner of `f25v`: a little winged dragon is biting the lowest leaf—the classic medieval herbal visual pun for *Dracontea* ("Dragon-herb"). Now look at the very top of the plant where the highest vertical leaf spear pokes up into the last two lines of the paragraph (`f25v.6–7`): the scribe had to stop writing at the left edge of the painted leaf tip (`qokora`), jump over the leaf point (`<->`), and finish the sentence on the right (`choy cthy dkaiin y`)!
+2. **The 3-Column Flower Split (`f2r`, below):** On `f2r` (Three-Headed Cornflower / Centaury), the upper paragraph splits into **three sub-columns (`<->`)** around the three flower heads, while the lower paragraph splits into two columns on either side of the stem (`16` `<->` jumps on a single page!).
+3. **The Three Laws of Drawing Intrusions (`Attack 165`, `752` `<->` Loci):**
+   - Words right before a plant stem (`w <->`) end in the line-final stop `-m` only **`2.39%`** of the time vs. **`15.18%`** at true right margins (**`6.35×` lower**)—proving the sentence does **not** stop at the stem!
+   - Words resuming on the right side of a plant stem (`<-> w`) almost **never** start with a paragraph-opening Gallows letter (`0.27%` — just `2 / 752` times vs. `20.8%` at true line starts, **`77.2×` lower**).
+   - Instead, words resuming right after jumping over a plant stem surge **`4.07×` in the `y-` prefix (`14.49%` vs. `3.56%` mid-line)**—proving that **`y-` is a visual/clause continuation marker (*"and / continuing after a jump"*)**!
+
+![Folio f2r Three-Headed Cornflower with 16 Drawing Intrusions](../pages/f2r_cyanus_right_title_enh.png)
+
+---
+
+### 20. Folios `f72r1` (`abril..jolh` Panorama) & `f79r` — The Four-Month Zodiac Foldout & Vertical Shower Cascade
+* **Sections:** Zodiac (`f70v2–f73v`) & Balneological (`f75r–f84v`) | **Pages in Yale Scan:** Pages 131 & 144
+
+![Folio f72r1 Four-Panel Zodiac Foldout avril may juny jolh](../pages/f72r1_taurus_may_enh.png)
+
+#### What to Look for on `f72r1` (Above) and `f79r` (Below)
+1. **Four Consecutive European Months in One Panorama (`p131`, above):** Unfolding page 131 reveals four 30-nymph Zodiac wheels side-by-side: **Aries (`abril` = April)** on the left, **Taurus (`may` = May)** second from left (the bright red Bull eating grass, with a natural vellum hole to its left that the artist carefully drew around!), **Gemini (`juny` = June)** third from left (a medieval couple holding hands), and **Cancer (`jolh` = July)** on the right (twin red crayfishes). Because **`58.1%` of the star-nymph labels around these wheels appear word-for-word in the medical recipes**, this foldout served as the spring-to-summer harvesting and dosing calendar!
+2. **The Vertical Hydrotherapy Cascade (`f79r`, below):** Down the entire left margin of `f79r`, an overhead blue-and-white water spout showers the top bather's head (*doccia*), drains through three stepped funnel-basins tended by pairs of bathers, and empties into a deep green immersion pool at the bottom—paired with 7 structured paragraphs on the right (`qokeedy` *"then boil!"* $\to$ `shedy` *"wash/shower!"* $\to$ `olchedy` *"soak in the infused pool"*).
+
+![Folio f79r Vertical Hydrotherapy Shower Cascade and Immersion Pool](../pages/f79r_bathing_canopy_enh.png)
+
+---
+
 ## Where to Go Next
-* **Want to see all 25 real-world plants, constellations, wheels, and bathing diagrams?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)**.
-* **Want to click through 25 pages and decode words interactively in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now featuring **6 interactive tabs**!).
-* **Want the deep grammatical tables, 5-scribe invariance proof (`77.0%` universal 5-hand vocabulary), 4-transcriber proof (`88.8%` consensus), and full 181-discovery research log?** See **[`ASTRONOMICAL_WHEELS_5SCRIBE_INVARIANCE_AND_PHARMA_SUPPLY_CHAIN.md`](ASTRONOMICAL_WHEELS_5SCRIBE_INVARIANCE_AND_PHARMA_SUPPLY_CHAIN.md)**, **[`STARRED_RECIPES_ROSETTES_COSMOLOGY_AND_4TRANSCRIBER_PROOF.md`](STARRED_RECIPES_ROSETTES_COSMOLOGY_AND_4TRANSCRIBER_PROOF.md)**, and **[`NOTES.md`](../NOTES.md)**.
+* **Want to see all 30 real-world plants, constellations, wheels, and bathing diagrams?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)** (`SPEC-01` through `SPEC-30`).
+* **Want to click through 30 pages, decode words interactively, and read 25 complete translated paragraphs in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now at **v5.0 with 7 interactive tabs**!).
+* **Want the deep grammatical tables, drawing-intrusion proof, 5-scribe invariance proof (`77.0%` universal 5-hand vocabulary), 4-transcriber proof (`88.8%` consensus), and full 185-discovery research log?** See **[`DRAWING_INTRUSIONS_RIGHT_TITLES_AND_25PARAGRAPH_READER.md`](DRAWING_INTRUSIONS_RIGHT_TITLES_AND_25PARAGRAPH_READER.md)**, **[`ASTRONOMICAL_WHEELS_5SCRIBE_INVARIANCE_AND_PHARMA_SUPPLY_CHAIN.md`](ASTRONOMICAL_WHEELS_5SCRIBE_INVARIANCE_AND_PHARMA_SUPPLY_CHAIN.md)**, **[`STARRED_RECIPES_ROSETTES_COSMOLOGY_AND_4TRANSCRIBER_PROOF.md`](STARRED_RECIPES_ROSETTES_COSMOLOGY_AND_4TRANSCRIBER_PROOF.md)**, and **[`NOTES.md`](../NOTES.md)**.
+

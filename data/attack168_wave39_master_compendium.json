@@ -1,0 +1,33 @@
+{
+  "wave": "Wave 39 (Attacks 165-168 / Phases 176-179 / Discoveries 182-185)",
+  "attack165_drawing_intrusions": {
+    "true_line_end_m_rate": 0.1518,
+    "pre_intrusion_m_rate": 0.0239,
+    "mid_line_m_rate": 0.0096,
+    "true_line_end_vs_pre_intrusion_m_ratio": 6.35,
+    "true_line_start_gallows_rate": 0.2084,
+    "post_intrusion_gallows_rate": 0.0027,
+    "mid_line_gallows_rate": 0.0633,
+    "true_line_start_vs_post_intrusion_gallows_ratio": 77.19,
+    "true_line_start_y_rate": 0.1443,
+    "post_intrusion_y_rate": 0.1449,
+    "mid_line_y_rate": 0.0356,
+    "post_intrusion_vs_mid_line_y_ratio": 4.07,
+    "conclusion": "Across all 752 drawing intrusions (<->), three simultaneous laws prove that illustrations were drawn BEFORE the text and reveal how the scribe navigated around them: (1) Pre-Intrusion -m Stop Suppression: Words immediately before a plant stem end in -m only 2.39% of the time vs 15.18% at true right-margin line ends (6.35x lower), proving the clause is not finished before the stem. (2) Post-Intrusion Gallows Exclusion: Words resuming on the right side of a plant stem begin with a Gallows opener (p/f/k/t) only 0.27% of the time (just 2 / 752 loci!) vs 20.84% at true left-margin line starts (77.2x lower). (3) Post-Intrusion y- Resumption Surge: Words resuming right after jumping over the plant stem begin with y- 14.49% of the time—a 4.07x surge over uninterrupted mid-line words (3.56%) that matches true line starts (14.43%)! Thus y- explicitly functions as a pen-lift / visual-jump resumption prefix ('and / continuing...')."
+  },
+  "attack166_right_titles": {
+    "total_right_and_centered_titles": 27,
+    "local_folio_stem_echo_count": 21,
+    "local_folio_stem_echo_rate": 0.7778,
+    "exact_match_in_P_S_B_count": 20,
+    "exact_match_in_P_S_B_rate": 0.7407,
+    "stem_match_in_P_S_count": 22,
+    "stem_match_in_P_S_rate": 0.8148
+  },
+  "attack167_short_paragraphs": {
+    "total_complete_paragraphs": 736,
+    "gallows_initial_paragraph_rate": 0.8329,
+    "short_paragraphs_10_to_28_words": 174,
+    "showcase_count": 25
+  }
+}

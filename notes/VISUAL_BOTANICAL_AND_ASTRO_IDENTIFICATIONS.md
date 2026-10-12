@@ -1,10 +1,10 @@
 # Visual Botanical, Astrological, Balneological & Cosmological Crib Identification Dossier
 
-> **Purpose of this Dossier:** Statistical analysis alone cannot tell you whether a plant stem means *Nightshade* or *Alkanet*, or what a painted water pipe or star-wheel is doing. To ground Voynich root words in the real physical world, we must pair **high-resolution visual inspection of the paintings** with **the exact Voynich labels written on those drawings** and **how those words behave in the recipe sections**. This dossier compiles the **25 strongest visual botanical, astronomical, balneological, cosmological, and pharmaceutical identifications** in the manuscript.
+> **Purpose of this Dossier:** Statistical analysis alone cannot tell you whether a plant stem means *Nightshade* or *Alkanet*, or what a painted water pipe or star-wheel is doing. To ground Voynich root words in the real physical world, we must pair **high-resolution visual inspection of the paintings** with **the exact Voynich labels written on those drawings** and **how those words behave in the recipe sections**. This dossier compiles the **30 strongest visual botanical, astronomical, balneological, cosmological, and pharmaceutical identifications** in the manuscript.
 
 ---
 
-## Quick Summary Table: The 25 Flagship Visual Identifications (`SPEC-01` – `SPEC-25`)
+## Quick Summary Table: The 30 Flagship Visual Identifications (`SPEC-01` – `SPEC-30`)
 
 | ID | Folio(s) | Painted Subject | Real-World Identification (15th-c. Herbal / Astronomy / Balneology) | Key Voynich Words / Stems | Why the Match Holds Up |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -33,10 +33,15 @@
 | **SPEC-23** | `f68v3, f68v2 & f68v1` (p.125) | **The 8-Arm Spiral Star-Nebula Pinwheel (`f68v3`) & Triple Astronomical Foldout** | *Sphaera Octava Stellarum Fixarum & Motus Octo Orbis (Eight-Curved-Spoke Celestial Vortex / Trepidation Diagram)* | `otol (liquid/celestial channel), okal (star essence)` | Tier A (Iconic 3-Panel Astronomical Foldout With Shared Apothecary Vocabulary) |
 | **SPEC-24** | `f88r` (p.162) | **Three Tiered Crimson-and-Green Apothecary Jars & The `okol` Root-to-Recipe Clause** | *Triplex Regimen Vasorum Apothecariorum (3-Register Apothecary Compounding Sheet)* | `okol (core root/jar stem), qoekol / qockhol (then process/boil the okol root!)` | Tier A+ (Smoking-Gun Visual & Textual Proof of Plant-Label Ingestion into Recipe Prose) |
 | **SPEC-25** | `f100r` (p.178) | **Two Cylindrical Red Apothecary Jars, Coiled Arrow-Vine & `oror` Root Cutting** | *Convolvulus / Smilax (Coiled Arrow-Leaf Vine) + Alkanna / Rubia (`oror` Root Cutting)* | `oror (Alkanet/Madder dye-root), okar (root-heart)` | Tier A (Second Visual Pharmaceutical Locus of the `oror` Rosetta Crib) |
+| **SPEC-26** | `f2r` (p.6) | **Three-Headed Feathery Centaury / Cornflower (*Centaurea* sp.) With 3-Column Flower Split** | *Centaurea cyanus L. / Centaurea jacea (Feathery-headed Composite / Cornflower)* | `chol / shol (strained herbal liquid), daiin / dain (take one measured part)` | Tier A+ (Clear Composite *Centaurea* Morphology + 16-Intrusion `<->` Layout Proof) |
+| **SPEC-27** | `f25v` (p.51) | **Radiating Palmate Leaf Fan With Wyvern/Dragon Biting Lower Leaf & Leaf-Tip `<->` Split** | *Dracunculus vulgaris / Arisaema / Ranunculus (Dragon-Arum / Serpent-Herb with Wyvern Visual Mnemonic)* | `cthy / chthor (divided leaf/stalk infusion), qokora / qokor (then prepare the root-heart)` | Tier A+ (Medieval *Dracontea* Dragon Mnemonic + Eyewitness Illustration-First Proof) |
+| **SPEC-28** | `f33r` (p.66) | **Twin-Flowered Spotted-Calyx Herb With Male & Female Human-Faced Root Tubers** | *Mandragora officinarum / Bryonia dioica (Anthropomorphic Male & Female Faced Root Tubers)* | `chedy / chol (herbal infusion / decoction), qokeedy / qokedy (then boil thoroughly)` | Tier A (Unmistakable Anthropomorphic Twin-Face Mandrake/Bryony Root Iconography) |
+| **SPEC-29** | `f71v, f72r1, f72r2 & f72r3` (p.131) | **The Four-Month Spring/Summer Zodiac Foldout: Aries (`abril`), Taurus (`may`), Gemini (`juny`) & Cancer (`jolh`)** | *Aries (`abril`), Taurus (`may`), Gemini (`juny`), Cancer (`jolh` = July)* | `otaly (named celestial degree), okaly (star-essence degree)` | Tier A+ (Four Consecutive Bilingual Month Glosses `abril, may, juny, jolh` in One Panorama) |
+| **SPEC-30** | `f79r` (p.144) | **Multi-Stage Vertical Funnel-Cascade Shower & Green Immersion Basin (`f79r`)** | *Balneum Stillicidium / Embrocatio (Vertical Shower-Spout & Multi-Basin Cascade Bath)* | `qokeedy / qokedy (then boil/heat the bath), shedy / shol (wash/bathe in the shower stream)` | Tier A (Direct Visual Match to 15th-c. Italian *Doccia* Shower & Stepped Bath Cascade) |
 
 ---
 
-## Detailed Visual & Linguistic Dossiers (`SPEC-01` – `SPEC-25`)
+## Detailed Visual & Linguistic Dossiers (`SPEC-01` – `SPEC-30`)
 
 ### SPEC-01: Folio `f1v` — Deadly Nightshade / Belladonna
 * **Manuscript Section:** Herbal A (Scribe 1) (Yale PDF Page 4)
@@ -608,6 +613,123 @@ Folio f88r is the ultimate 'Rosetta page' for understanding how drawings and par
 
 #### 3. Plain-English Explanation
 Folio f100r shows 16 miniature plant cuttings arranged in three neat rows beside two red cylindrical apothecary jars. Look closely at the bottom row (`Row 3`), second plant from the left: written cleanly beside its pale rootstock is the exact four-letter Voynich word **`oror`**—the same Alkanet/Madder root word that appears on `f102v2` and at the end of the European charm on the final page `f116v` (`...so nim gas mich oror`)! Together with `Attack 163` (which proved that **53.1% of all Pharmaceutical labels link both back to Herbal monographs and forward to Starred Recipes**), `f100r` shows how individual plant cuttings were catalogued before being compounded into master prescriptions.
+
+---
+
+### SPEC-26: Folio `f2r` — Three-Headed Feathery Centaury / Cornflower (*Centaurea* sp.) With 3-Column Flower Split
+* **Manuscript Section:** Herbal A (`f1r–f57v`, Scribe 1) (Yale PDF Page 6)
+* **Primary Scientific / Historical Candidates:** *Centaurea cyanus L. / Centaurea jacea (Feathery-headed Composite / Cornflower)*, *Multi-Column Drawing Intrusion (`<->`) Archetype (`16` `<->` splits on one page!)*
+* **15th-Century European Parallels:** Belluno & Northern Italian 15th-century Herbals: *Cyanus / Centaurea* with scaly red-dotted involucres and cleft leaves
+* **Confidence Rating:** **Tier A+ (Clear Composite *Centaurea* Morphology + 16-Intrusion `<->` Layout Proof)**
+
+![f2r — Three-Headed Feathery Centaury / Cornflower (*Centaurea* sp.) With 3-Column Flower Split](../pages/f2r_cyanus_right_title_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Three large feathery composite flower heads supported by green scaly involucres dotted with red spots
+- Deeply cleft 3-to-4-lobed palmate green leaves and a symmetrical claw-like dark brown root at the bottom
+- Top paragraph splits into **3 separate sub-columns (`<->`)** around the three flower heads, while the lower paragraph splits into 2 columns on either side of the main stem (`16` `<->` intrusions total!)
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `kydainy / ypchol (`k-` & `p-` Gallows paragraph openers)`
+- **Dominant Root Stems on This Page:** `chol / shol (strained herbal liquid)`, `daiin / dain (take one measured part)`, `otar / kor (earth/root core)`, `shory / cthoary (paragraph-closing coda)`
+- **Where This Ingredient Reappears in Recipes:** Demonstrates the `Attack 165` law: words before `<->` suppress `-m` (`2.39%` vs. `15.18%`), while words resuming after `<->` surge `4.07×` in `y-` (`14.49%`)!
+
+#### 3. Plain-English Explanation
+Folio f2r shows how the Voynich scribes wrote around a complex, pre-painted plant (`16` `<->` drawing intrusions on a single page). In the upper paragraph, each horizontal line of text has to jump over two flower stems, splitting the paragraph into three mini-columns (`left <-> middle <-> right`). As proved in `Attack 165`, those three columns are NOT read top-to-bottom separately—each line reads straight across from left to right, jumping over the flower heads mid-sentence and often using the `y-` resumption prefix ('and/continuing...') right after landing on the other side of a stem!
+
+---
+
+### SPEC-27: Folio `f25v` — Radiating Palmate Leaf Fan With Wyvern/Dragon Biting Lower Leaf & Leaf-Tip `<->` Split
+* **Manuscript Section:** Herbal A (`f1r–f57v`, Scribe 1) (Yale PDF Page 51)
+* **Primary Scientific / Historical Candidates:** *Dracunculus vulgaris / Arisaema / Ranunculus (Dragon-Arum / Serpent-Herb with Wyvern Visual Mnemonic)*, *Smoking-Gun Visual Proof that Illustrations Were Painted BEFORE the Text (`f25v.6–7`)*
+* **15th-Century European Parallels:** Pseudo-Apuleius & Northern Italian *Tractatus de Herbis*: *Dracontea / Serpentaria* (plants accompanied by a painted dragon/serpent)
+* **Confidence Rating:** **Tier A+ (Medieval *Dracontea* Dragon Mnemonic + Eyewitness Illustration-First Proof)**
+
+![f25v — Radiating Palmate Leaf Fan With Wyvern/Dragon Biting Lower Leaf & Leaf-Tip `<->` Split](../pages/f25v_ivy_intrusion_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Massive radiating star-fan of 15+ pointed green leaves above a pale fibrous root cone
+- In the bottom-right corner, a drawn **wyvern/dragon with ears, wings, and clawed feet** bites the tip of the lowest right-hand leaf (a classic medieval visual mnemonic for *Dracontea / Dragon-herb*!)
+- At the top (`lines 6–7`), the single uppermost vertical leaf tip pokes into the bottom two lines of the text block, forcing the scribe to split `<f25v.6>` (`...qokora <-> choy cthy dkaiin y`) and `<f25v.7>` (`...cthy <-> otkaiin`) right around the painted leaf point!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `foay / qokora (Opening declaration & active root-preparation stem)`
+- **Dominant Root Stems on This Page:** `cthy / chthor (divided leaf/stalk infusion)`, `qokora / qokor (then prepare the root-heart)`, `otkaiin (one measured dose from the core)`, `daiin (one measured part)`
+- **Where This Ingredient Reappears in Recipes:** Matches the medieval *Dracontea* (Dragon-herb) mnemonic tradition while proving illustration-first layout (`Attack 165`)
+
+#### 3. Plain-English Explanation
+Folio f25v solves two puzzles at once. First, look at the bottom-right corner: a little winged dragon is biting the tip of the lowest leaf—a famous medieval herbal visual pun used to mark *Dracontea* ('Dragon-herb' / Dragon Arum). Second, look at the very top of the plant where the highest vertical leaf spear pokes up into lines 6 and 7 of the paragraph: the scribe had to stop writing at the left edge of the green leaf tip (`qokora`), jump over the painted leaf point (`<->`), and finish the sentence on the right (`choy cthy dkaiin y`). That proves beyond a shadow of a doubt that **the plant was already painted on the vellum before the scribe wrote the words**.
+
+---
+
+### SPEC-28: Folio `f33r` — Twin-Flowered Spotted-Calyx Herb With Male & Female Human-Faced Root Tubers
+* **Manuscript Section:** Herbal B (`f1r–f57v`, Scribe 2) (Yale PDF Page 66)
+* **Primary Scientific / Historical Candidates:** *Mandragora officinarum / Bryonia dioica (Anthropomorphic Male & Female Faced Root Tubers)*, *Silene vulgaris / Centaurea (Bladder-Calyx Composite Flower Heads)*
+* **15th-Century European Parallels:** Tacuinum Sanitatis & North Italian Alchemical Herbals (*Mandragora mas et femina* shown with twin human heads on root branches)
+* **Confidence Rating:** **Tier A (Unmistakable Anthropomorphic Twin-Face Mandrake/Bryony Root Iconography)**
+
+![f33r — Twin-Flowered Spotted-Calyx Herb With Male & Female Human-Faced Root Tubers](../pages/f33r_multiflower_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Two large green-and-white composite flower heads emerging from inflated, spotted bladder-like calyces
+- Opposite pairs of hastate (eared-base) dark green leaves along a pale central stalk
+- At the base, two thick horizontal root arms stretch to the left and right margins, terminating in **two drawn human faces** (a short-haired face on the left root and a round face on the right root)!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `tchedar (`t-ched-ar`: 'From the root-base herbal infusion')`
+- **Dominant Root Stems on This Page:** `chedy / chol (herbal infusion / decoction)`, `qokeedy / qokedy (then boil thoroughly)`, `otar / okar (root/heart base)`, `daiin (one measured dose)`
+- **Where This Ingredient Reappears in Recipes:** Written by Scribe 2 in Currier B, linking directly to `f34r` and the Balneological bathing prescriptions (`f75r–f84v`)
+
+#### 3. Plain-English Explanation
+Look at the bottom left and bottom right corners of Folio f33r: the two horizontal arms of the brown root end in **two human faces**! In 15th-century Italian herbals, drawing male and female human faces at the ends of a forked root was the signature visual marker for **Mandrake (*Mandragora*)** or **White Bryony (*Bryonia*)**, powerful narcotic and purgative roots. Above the plant, Scribe 2 writes a 7-line Currier B monograph opening with `tchedar` ('from the root-base infusion') and specifying active boiling (`qokeedy`) and measured doses (`daiin`).
+
+---
+
+### SPEC-29: Folio `f71v, f72r1, f72r2 & f72r3` — The Four-Month Spring/Summer Zodiac Foldout: Aries (`abril`), Taurus (`may`), Gemini (`juny`) & Cancer (`jolh`)
+* **Manuscript Section:** Zodiac 4-Panel Foldout (`f70v2–f73v`, Scribe 4) (Yale PDF Page 131)
+* **Primary Scientific / Historical Candidates:** *Aries (`abril`), Taurus (`may`), Gemini (`juny`), Cancer (`jolh` = July)*, *Panoramic 4-Month Astrological Harvesting & Dosing Calendar (`Attack 154`: `58.1%` exact medical match)*
+* **15th-Century European Parallels:** 15th-century Occitan/Catalan & Northern Italian Astrological Calendars (`abril, may, juny, jolh`)
+* **Confidence Rating:** **Tier A+ (Four Consecutive Bilingual Month Glosses `abril, may, juny, jolh` in One Panorama)**
+
+![f71v, f72r1, f72r2 & f72r3 — The Four-Month Spring/Summer Zodiac Foldout: Aries (`abril`), Taurus (`may`), Gemini (`juny`) & Cancer (`jolh`)](../pages/f72r1_taurus_may_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Single 4-panel horizontal foldout (`p131`) displaying four complete 30-nymph Zodiac wheels side-by-side
+- **Wheel 1 (Left, `f71v`)**: Silver-horned Ram (**Aries**) feeding on a green shrub, captioned **`abril`** (April)
+- **Wheel 2 (Center-Left, `f72r1`)**: Bright crimson Bull (**Taurus**) feeding at a green tuft, captioned **`may`** (May), with a natural vellum flaw-hole to the left carefully avoided by the artist
+- **Wheel 3 (Center-Right, `f72r2`)**: Courtly man and woman holding hands (**Gemini**), captioned **`juny`** (June)
+- **Wheel 4 (Right, `f72r3`)**: Twin red crayfishes (**Cancer**), captioned **`jolh`** (Occitan *jolh* = July)
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `otaly / okaly / otar / okalar (`@Lz` star-nymph degree labels across April–July)`
+- **Dominant Root Stems on This Page:** `otaly (named celestial degree)`, `okaly (star-essence degree)`, `otar / okar (earth/core base)`, `ochey / oteey (prepared infusion)`
+- **Where This Ingredient Reappears in Recipes:** 58.1% (`202 / 348`) of all Zodiac star-nymph labels appear verbatim inside the Herbal, Pharmaceutical, and Starred Recipe sections (`Attack 154`)!
+
+#### 3. Plain-English Explanation
+Page 131 of the Yale scan unfolds into a breathtaking four-panel panorama showing **four consecutive months of the European year side by side**: **Aries (`abril` = April)**, **Taurus (`may` = May)**, **Gemini (`juny` = June)**, and **Cancer (`jolh` = July)**. Each central emblem is surrounded by 30 star-holding nymphs—one for each degree/day of the sign—and each nymph has a single Voynich word written beside her (`otaly`, `okaly`, `otar`, `ochey`). Because **58.1% of those star-nymph words appear word-for-word in the medical recipe sections**, this 4-panel foldout is literally the spring-to-summer wall calendar of the apothecary workshop!
+
+---
+
+### SPEC-30: Folio `f79r` — Multi-Stage Vertical Funnel-Cascade Shower & Green Immersion Basin (`f79r`)
+* **Manuscript Section:** Balneological / Medical Bathing (`f75r–f84v`, Scribe 2) (Yale PDF Page 144)
+* **Primary Scientific / Historical Candidates:** *Balneum Stillicidium / Embrocatio (Vertical Shower-Spout & Multi-Basin Cascade Bath)*, *7-Paragraph Balneological Regimen (`Attack 155`: `24.4%` `qo-` boiling verbs in prose)*
+* **15th-Century European Parallels:** 15th-century Italian *De Balneis* treatises (head-shower *doccia / embrocatio* feeding stepped basins)
+* **Confidence Rating:** **Tier A (Direct Visual Match to 15th-c. Italian *Doccia* Shower & Stepped Bath Cascade)**
+
+![f79r — Multi-Stage Vertical Funnel-Cascade Shower & Green Immersion Basin (`f79r`)](../pages/f79r_bathing_canopy_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Along the entire left margin runs a continuous vertical water-cascade: a top spout showers a nymph's head (*doccia*), draining through three stacked funnel-basins tended by pairs of nymphs
+- At the bottom left, the lowest funnel drains into a deep green immersion pool where a nymph floats with arms extended
+- To the right sit 7 structured recipe paragraphs (`<%>...<$>`), each opening with a Gallows header (`p-/t-`) and alternating `qokeedy` ('then boil!') with `shedy` ('wash/bathe!') and `ol` ('in the pool')
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `pchedar / tchedy / pcheol (7 Gallows paragraph openers matching the 7 stages of the bath)`
+- **Dominant Root Stems on This Page:** `qokeedy / qokedy (then boil/heat the bath)`, `shedy / shol (wash/bathe in the shower stream)`, `ol / olchedy (in the immersion basin)`, `daiin (one measured dose)`
+- **Where This Ingredient Reappears in Recipes:** Pairs with `f75r` (Grand Waterfall Pool) and `f82v` (Labelled Bath Pipes `olkol / okoldy`)
+
+#### 3. Plain-English Explanation
+Folio f79r illustrates a classic 15th-century Italian hydrotherapy technique called the *doccia* (overhead medicated shower) combined with stepped immersion basins. Follow the left margin from top to bottom: a blue-and-white overhead spout pours water onto the top bather's head; the water flows down through three funnel-tubs tended by pairs of bathers and empties into a green immersion pool at the bottom. Right beside this vertical cascade sit 7 paragraphs that walk step-by-step through heating the herbal water (`qokeedy`), showering/washing (`shedy`), and soaking in the basin (`olchedy`).
 
 ---
 

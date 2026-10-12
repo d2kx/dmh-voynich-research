@@ -1,0 +1,397 @@
+{
+  "attack": "Attack 165 (Phase 176 / Discovery 182)",
+  "total_intrusion_markers_parsed": 750,
+  "section_intrusion_counts": {
+    "H": 654,
+    "A": 7,
+    "C": 5,
+    "B": 60,
+    "P": 28
+  },
+  "top_intrusion_folios": [
+    [
+      "f75r",
+      33
+    ],
+    [
+      "f2r",
+      21
+    ],
+    [
+      "f29v",
+      21
+    ],
+    [
+      "f33v",
+      21
+    ],
+    [
+      "f34r",
+      20
+    ],
+    [
+      "f90v1",
+      20
+    ],
+    [
+      "f26r",
+      19
+    ],
+    [
+      "f93v",
+      18
+    ],
+    [
+      "f8r",
+      17
+    ],
+    [
+      "f8v",
+      17
+    ],
+    [
+      "f15r",
+      16
+    ],
+    [
+      "f42v",
+      16
+    ],
+    [
+      "f87v",
+      15
+    ],
+    [
+      "f48v",
+      14
+    ],
+    [
+      "f99v",
+      13
+    ]
+  ],
+  "positional_envelope_comparison": {
+    "true_line_start": {
+      "count": 4381,
+      "init_gallows_rate": 0.2084,
+      "init_y_rate": 0.1443,
+      "init_o_rate": 0.1641,
+      "init_qo_rate": 0.1194,
+      "init_ch_sh_rate": 0.079,
+      "final_m_rate": 0.0046,
+      "final_y_rate": 0.3221,
+      "final_aiin_rate": 0.1888,
+      "mean_length": 5.4,
+      "top_words": [
+        "daiin",
+        "y",
+        "saiin",
+        "dain",
+        "dar",
+        "sol",
+        "sain",
+        "or",
+        "ol",
+        "qokeey",
+        "qokeedy",
+        "sho"
+      ]
+    },
+    "post_intrusion_resume": {
+      "count": 752,
+      "init_gallows_rate": 0.0027,
+      "init_y_rate": 0.1449,
+      "init_o_rate": 0.2447,
+      "init_qo_rate": 0.0319,
+      "init_ch_sh_rate": 0.2487,
+      "final_m_rate": 0.0186,
+      "final_y_rate": 0.3324,
+      "final_aiin_rate": 0.1676,
+      "mean_length": 4.86,
+      "top_words": [
+        "daiin",
+        "dar",
+        "chol",
+        "s",
+        "dain",
+        "chor",
+        "chy",
+        "o",
+        "shol",
+        "saiin",
+        "shy",
+        "sho"
+      ]
+    },
+    "uninterrupted_mid_line": {
+      "count": 27548,
+      "init_gallows_rate": 0.0633,
+      "init_y_rate": 0.0356,
+      "init_o_rate": 0.2221,
+      "init_qo_rate": 0.1562,
+      "init_ch_sh_rate": 0.2851,
+      "final_m_rate": 0.0096,
+      "final_y_rate": 0.419,
+      "final_aiin_rate": 0.1531,
+      "mean_length": 4.94,
+      "top_words": [
+        "daiin",
+        "ol",
+        "chedy",
+        "aiin",
+        "shedy",
+        "chol",
+        "ar",
+        "chey",
+        "or",
+        "qokeedy",
+        "qokeey",
+        "shey"
+      ]
+    },
+    "pre_intrusion_pause": {
+      "count": 752,
+      "init_gallows_rate": 0.0691,
+      "init_y_rate": 0.0439,
+      "init_o_rate": 0.1636,
+      "init_qo_rate": 0.0957,
+      "init_ch_sh_rate": 0.1981,
+      "final_m_rate": 0.0239,
+      "final_y_rate": 0.4428,
+      "final_aiin_rate": 0.1144,
+      "mean_length": 4.28,
+      "top_words": [
+        "dy",
+        "s",
+        "daiin",
+        "sy",
+        "dar",
+        "dain",
+        "oky",
+        "chy",
+        "dal",
+        "ol",
+        "oly",
+        "qoky"
+      ]
+    },
+    "true_line_end": {
+      "count": 4381,
+      "init_gallows_rate": 0.0486,
+      "init_y_rate": 0.0399,
+      "init_o_rate": 0.2333,
+      "init_qo_rate": 0.0772,
+      "init_ch_sh_rate": 0.1767,
+      "final_m_rate": 0.1518,
+      "final_y_rate": 0.3906,
+      "final_aiin_rate": 0.136,
+      "mean_length": 4.73,
+      "top_words": [
+        "daiin",
+        "dy",
+        "am",
+        "dam",
+        "dal",
+        "dar",
+        "oly",
+        "aiin",
+        "ol",
+        "y",
+        "chedy",
+        "s"
+      ]
+    }
+  },
+  "key_paleographic_proof": {
+    "true_line_end_m_rate": 0.1518,
+    "pre_intrusion_m_rate": 0.0239,
+    "mid_line_m_rate": 0.0096,
+    "true_line_end_vs_pre_intrusion_m_ratio": 6.35,
+    "true_line_start_gallows_rate": 0.2084,
+    "post_intrusion_gallows_rate": 0.0027,
+    "mid_line_gallows_rate": 0.0633,
+    "true_line_start_vs_post_intrusion_gallows_ratio": 77.19,
+    "true_line_start_y_rate": 0.1443,
+    "post_intrusion_y_rate": 0.1449,
+    "mid_line_y_rate": 0.0356,
+    "post_intrusion_vs_mid_line_y_ratio": 4.07,
+    "conclusion": "Across all 752 drawing intrusions (<->), three simultaneous laws prove that illustrations were drawn BEFORE the text and reveal how the scribe navigated around them: (1) Pre-Intrusion -m Stop Suppression: Words immediately before a plant stem end in -m only 2.39% of the time vs 15.18% at true right-margin line ends (6.35x lower), proving the clause is not finished before the stem. (2) Post-Intrusion Gallows Exclusion: Words resuming on the right side of a plant stem begin with a Gallows opener (p/f/k/t) only 0.27% of the time (just 2 / 752 loci!) vs 20.84% at true left-margin line starts (77.2x lower). (3) Post-Intrusion y- Resumption Surge: Words resuming right after jumping over the plant stem begin with y- 14.49% of the time—a 4.07x surge over uninterrupted mid-line words (3.56%) that matches true line starts (14.43%)! Thus y- explicitly functions as a pen-lift / visual-jump resumption prefix ('and / continuing...')."
+  },
+  "herbal_vertical_zone_split": {
+    "upper_flower_leaf_zone": {
+      "count": 1978,
+      "init_gallows_rate": 0.091,
+      "init_y_rate": 0.0703,
+      "init_o_rate": 0.1739,
+      "init_qo_rate": 0.0849,
+      "init_ch_sh_rate": 0.2588,
+      "final_m_rate": 0.0329,
+      "final_y_rate": 0.3888,
+      "final_aiin_rate": 0.1355,
+      "mean_length": 4.7,
+      "top_words": [
+        "daiin",
+        "chol",
+        "s",
+        "dy",
+        "chor",
+        "cthy",
+        "y",
+        "shy",
+        "dar",
+        "chy",
+        "dain",
+        "ol"
+      ]
+    },
+    "lower_stalk_root_zone": {
+      "count": 2470,
+      "init_gallows_rate": 0.0947,
+      "init_y_rate": 0.0628,
+      "init_o_rate": 0.1765,
+      "init_qo_rate": 0.0814,
+      "init_ch_sh_rate": 0.2753,
+      "final_m_rate": 0.0287,
+      "final_y_rate": 0.3336,
+      "final_aiin_rate": 0.1543,
+      "mean_length": 4.59,
+      "top_words": [
+        "daiin",
+        "chol",
+        "s",
+        "chy",
+        "or",
+        "dy",
+        "chor",
+        "dar",
+        "shol",
+        "dain",
+        "aiin",
+        "sho"
+      ]
+    }
+  },
+  "showcase_folios": [
+    {
+      "folio": "f2r",
+      "title": "Three-Headed Cornflower / Centaury (Centaurea sp.)",
+      "intrusions": 21,
+      "visual_finding": "Top paragraph splits into 3 columns (<->) around the 3 feathery flower heads; bottom paragraph splits into 2 columns around the central stem above the claw root.",
+      "sample_loci": [
+        {
+          "folio": "f2r",
+          "line": "1",
+          "section": "H",
+          "left_word": "otchal",
+          "right_word": "ypchaiin",
+          "left_segment": "kydainy ypchol daiin otchal",
+          "right_segment": "ypchaiin ckholsy"
+        },
+        {
+          "folio": "f2r",
+          "line": "2",
+          "section": "H",
+          "left_word": "dorchory",
+          "right_word": "chkar",
+          "left_segment": "dorchory",
+          "right_segment": "chkar s"
+        },
+        {
+          "folio": "f2r",
+          "line": "2",
+          "section": "H",
+          "left_word": "s",
+          "right_word": "shor",
+          "left_segment": "chkar s",
+          "right_segment": "shor cthy"
+        },
+        {
+          "folio": "f2r",
+          "line": "3",
+          "section": "H",
+          "left_word": "qotaiin",
+          "right_word": "cthey",
+          "left_segment": "qotaiin",
+          "right_segment": "cthey y"
+        }
+      ]
+    },
+    {
+      "folio": "f25v",
+      "title": "Palmate Leaf Fan with Dragon Biting Leaf Tip",
+      "intrusions": 2,
+      "visual_finding": "Lines 6 and 7 stop at the exact left edge of the uppermost vertical leaf spear (<->) and resume immediately on the right side (`qokora <-> choy`, `cthy <-> otkaiin`), proving the leaf was painted BEFORE the text was written.",
+      "sample_loci": [
+        {
+          "folio": "f25v",
+          "line": "6",
+          "section": "H",
+          "left_word": "qotoral",
+          "right_word": "cho",
+          "left_segment": "qokcho r ochy qotchy qotoral",
+          "right_segment": "cho 147 chain deeaiir s"
+        },
+        {
+          "folio": "f25v",
+          "line": "7",
+          "section": "H",
+          "left_word": "shckh",
+          "right_word": "orchaiin",
+          "left_segment": "o chkey daiiol daiin shckh",
+          "right_segment": "orchaiin"
+        }
+      ]
+    },
+    {
+      "folio": "f33r",
+      "title": "Spotted-Calyx Composite Herb with Twin Human-Face Mandrake Roots",
+      "intrusions": 0,
+      "visual_finding": "Prose sits above the two green-and-white composite flower heads while the forked root terminates in male and female anthropomorphic faces in the bottom corners.",
+      "sample_loci": []
+    },
+    {
+      "folio": "f17r",
+      "title": "Tall Purple-Flowered Borage/Comfrey Shoot",
+      "intrusions": 4,
+      "visual_finding": "11 consecutive lines split (<->) across the tall central flower shoot, with mid-sentence words jumping seamlessly across the stem.",
+      "sample_loci": [
+        {
+          "folio": "f17r",
+          "line": "4",
+          "section": "H",
+          "left_word": "opydg",
+          "right_word": "som",
+          "left_segment": "tcho154 shol qokol qor olaiin opydg",
+          "right_segment": "som ypchy ypaim"
+        },
+        {
+          "folio": "f17r",
+          "line": "5",
+          "section": "H",
+          "left_word": "cphaldy",
+          "right_word": "dair",
+          "left_segment": "ychekchy cthy chor shor cphor cphaldy",
+          "right_segment": "dair cthey qody"
+        },
+        {
+          "folio": "f17r",
+          "line": "7",
+          "section": "H",
+          "left_word": "zepchy",
+          "right_word": "d",
+          "left_segment": "ksheo qokchy choldshy zepchy",
+          "right_segment": "d"
+        },
+        {
+          "folio": "f17r",
+          "line": "7",
+          "section": "H",
+          "left_word": "d",
+          "right_word": "opchordy",
+          "left_segment": "d",
+          "right_segment": "opchordy"
+        }
+      ]
+    }
+  ]
+}

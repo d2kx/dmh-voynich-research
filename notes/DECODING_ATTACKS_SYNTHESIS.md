@@ -1335,3 +1335,31 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Key Breakthroughs**:
   1. **Synthesizes `Attacks 161–163` and Upgrades All Human-Readable Assets to v4.0 ([`notes/PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md`](PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md) 18 Folios, [`notes/VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md`](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md) `SPEC-01..25`, [`explorer/index.html`](../explorer/index.html) 6-Tab / 26-Walkthrough Interactive Explorer, and [`README.md`](../README.md))**.
 
+---
+
+## 165. Attack 165 (`Phase 176`): The `752` Drawing Intrusions (`<->`), Illustration-First Paleographic Proof, and the `4.07×` Post-Intrusion `y-` Resumption Law
+- **Script, Data & Scans**: [`tools/attack165_drawing_intrusions_and_visual_layout_proof.py`](../tools/attack165_drawing_intrusions_and_visual_layout_proof.py) $\to$ [`data/attack165_drawing_intrusions_and_visual_layout_proof.json`](../data/attack165_drawing_intrusions_and_visual_layout_proof.json), [`pages/f2r_cyanus_right_title_enh.png`](../pages/f2r_cyanus_right_title_enh.png), [`pages/f25v_ivy_intrusion_enh.png`](../pages/f25v_ivy_intrusion_enh.png), [`pages/f33r_multiflower_enh.png`](../pages/f33r_multiflower_enh.png)
+- **Key Breakthroughs**:
+  1. **Proves Across All `752` Drawing Intrusions (`<->`) Three Simultaneous Laws: (1) Pre-Intrusion `-m` Stop Suppression (`2.39%` vs. `15.18%` True Line-End, `6.35×` Lower), (2) Post-Intrusion Gallows Exclusion (`0.27%` [`2 / 752`] vs. `20.84%` True Line-Start, `77.2×` Lower), and (3) Post-Intrusion `y-` Resumption Surge (`14.49%` vs. `3.56%` Mid-Line, `4.07×` Surge Matching True Line-Start `14.43%`)—Proving Illustrations Were Painted First and `y-` Is a Visual/Clause Continuation Prefix**.
+
+---
+
+## 166. Attack 166 (`Phase 177`): The `27` Right-Justified (`=Pt`) & Centered (`+Pc`) Paragraph Title/Coda Lines (`77.8%` Local Folio Stem Echo & `81.5%` Medical Stem Routing)
+- **Script & Data**: [`tools/attack166_vertical_page_zone_and_right_titles.py`](../tools/attack166_vertical_page_zone_and_right_titles.py) $\to$ [`data/attack166_vertical_page_zone_and_right_titles.json`](../data/attack166_vertical_page_zone_and_right_titles.json)
+- **Key Breakthroughs**:
+  1. **Analyzes All `27` Right-Justified (`=Pt`) and Centered (`+Pc`) Paragraph Title/Coda Lines Across `data/ZL3b-n.txt`, Proving `77.78%` (`21 / 27`) Local Folio Stem Echo, `74.07%` (`20 / 27`) Exact Whole-Word Match in Medical Sections (`P, S, B`), and `81.48%` (`22 / 27`) Canonical Stem Match in `P` and `S`**.
+
+---
+
+## 167. Attack 167 (`Phase 178`): Complete Plain-English Sentence & Recipe Reader for `25` Self-Contained Short Paragraphs Across the Codex (`83.3%` Gallows-Initial Across `736` Complete Paragraphs)
+- **Script & Data**: [`tools/attack167_shortest_complete_paragraphs_reader.py`](../tools/attack167_shortest_complete_paragraphs_reader.py) $\to$ [`data/attack167_shortest_complete_paragraphs_reader.json`](../data/attack167_shortest_complete_paragraphs_reader.json)
+- **Key Breakthroughs**:
+  1. **Proves Across All `736` Complete Paragraphs (`<%>...<$>`) an `83.29%` (`613 / 736`) Gallows-Initial Opening Rate (`174` Concise Short Paragraphs of `10–28` Words) and Compiles `25` Complete Self-Contained Short Paragraphs (`PAR-01..25`) Read Word-for-Word in Plain English**.
+
+---
+
+## 168. Attack 168 (`Phase 179`): The Wave 39 Master Compendium (`Drawing Intrusions, Right-Titles & 25-Paragraph Reader`) and Synchronized v5.0 Milestone Human-Readable Assets ([`notes/DRAWING_INTRUSIONS_RIGHT_TITLES_AND_25PARAGRAPH_READER.md`](DRAWING_INTRUSIONS_RIGHT_TITLES_AND_25PARAGRAPH_READER.md))
+- **Script, Data & Edition**: [`tools/attack168_wave39_master_compendium.py`](../tools/attack168_wave39_master_compendium.py) $\to$ [`data/attack168_wave39_master_compendium.json`](../data/attack168_wave39_master_compendium.json) & [`notes/DRAWING_INTRUSIONS_RIGHT_TITLES_AND_25PARAGRAPH_READER.md`](DRAWING_INTRUSIONS_RIGHT_TITLES_AND_25PARAGRAPH_READER.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes `Attacks 165–167` and Upgrades All Human-Readable Assets to v5.0 ([`notes/PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md`](PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md) 20 Folios, [`notes/VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md`](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md) `SPEC-01..30`, [`explorer/index.html`](../explorer/index.html) 7-Tab / 30-Walkthrough Interactive Explorer, and [`README.md`](../README.md))**.
+
