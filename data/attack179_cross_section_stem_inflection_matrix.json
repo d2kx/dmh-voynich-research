@@ -1,0 +1,1532 @@
+{
+  "summary": {
+    "total_distinct_stems": 2435,
+    "universal_6_register_stems_count": 76,
+    "universal_5plus_register_stems_count": 132,
+    "universal_stems_total_token_coverage": 28473,
+    "monotonic_inflection_shift_on_identical_stems": {
+      "1_Diagram_Labels_@L": {
+        "total_tokens_of_universal_stems": 327,
+        "nominal_citation_pct": 84.4,
+        "procedural_verbal_pct": 15.6,
+        "edy_suffix_pct": 4.59,
+        "qo_prefix_pct": 2.14
+      },
+      "2_Herbal_A_Prose": {
+        "total_tokens_of_universal_stems": 5821,
+        "nominal_citation_pct": 62.86,
+        "procedural_verbal_pct": 37.14,
+        "edy_suffix_pct": 0.05,
+        "qo_prefix_pct": 10.27
+      },
+      "3_Astro_Zodiac_Prose_Rings": {
+        "total_tokens_of_universal_stems": 2557,
+        "nominal_citation_pct": 68.52,
+        "procedural_verbal_pct": 31.48,
+        "edy_suffix_pct": 5.36,
+        "qo_prefix_pct": 4.97
+      },
+      "4_Pharmaceutical_Prose": {
+        "total_tokens_of_universal_stems": 1845,
+        "nominal_citation_pct": 55.93,
+        "procedural_verbal_pct": 44.07,
+        "edy_suffix_pct": 0.6,
+        "qo_prefix_pct": 13.93
+      },
+      "5_Herbal_B_Prose": {
+        "total_tokens_of_universal_stems": 2641,
+        "nominal_citation_pct": 55.96,
+        "procedural_verbal_pct": 44.04,
+        "edy_suffix_pct": 15.15,
+        "qo_prefix_pct": 11.09
+      },
+      "6_Balneo_and_Starred_Recipes": {
+        "total_tokens_of_universal_stems": 15282,
+        "nominal_citation_pct": 44.77,
+        "procedural_verbal_pct": 55.23,
+        "edy_suffix_pct": 19.02,
+        "qo_prefix_pct": 22.04
+      }
+    }
+  },
+  "top_25_universal_stem_6register_paradigms": [
+    {
+      "stem": "s_ee",
+      "total_occurrences": 2631,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 7,
+          "verbal_pct": 71.4,
+          "top_forms": [
+            "sheey(2)",
+            "ykees(1)",
+            "okeey(1)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 183,
+          "verbal_pct": 83.1,
+          "top_forms": [
+            "sheey(20)",
+            "cheey(20)",
+            "qokeey(13)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 281,
+          "verbal_pct": 73.0,
+          "top_forms": [
+            "oteey(40)",
+            "okeey(28)",
+            "cheey(14)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 196,
+          "verbal_pct": 84.2,
+          "top_forms": [
+            "okeey(23)",
+            "qokeey(21)",
+            "cheey(18)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 156,
+          "verbal_pct": 91.0,
+          "top_forms": [
+            "okeedy(16)",
+            "qokeedy(12)",
+            "yteedy(9)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 1808,
+          "verbal_pct": 95.9,
+          "top_forms": [
+            "qokeedy(294)",
+            "qokeey(257)",
+            "cheey(128)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_ol",
+      "total_occurrences": 1993,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 37,
+          "verbal_pct": 16.2,
+          "top_forms": [
+            "okol(5)",
+            "otol(4)",
+            "otoly(3)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 700,
+          "verbal_pct": 56.7,
+          "top_forms": [
+            "chol(218)",
+            "shol(102)",
+            "ol(61)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 137,
+          "verbal_pct": 34.3,
+          "top_forms": [
+            "ol(28)",
+            "chol(23)",
+            "okol(12)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 204,
+          "verbal_pct": 42.6,
+          "top_forms": [
+            "ol(44)",
+            "chol(43)",
+            "qokol(22)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 101,
+          "verbal_pct": 37.6,
+          "top_forms": [
+            "ol(36)",
+            "shol(13)",
+            "chol(10)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 814,
+          "verbal_pct": 29.0,
+          "top_forms": [
+            "ol(380)",
+            "chol(101)",
+            "shol(50)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_ed",
+      "total_occurrences": 1957,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 14,
+          "verbal_pct": 78.6,
+          "top_forms": [
+            "otedy(5)",
+            "ed(1)",
+            "qoted(1)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 1,
+          "verbal_pct": 100.0,
+          "top_forms": [
+            "shedaiin(1)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 89,
+          "verbal_pct": 89.9,
+          "top_forms": [
+            "chedy(17)",
+            "shedy(17)",
+            "otedy(13)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 5,
+          "verbal_pct": 100.0,
+          "top_forms": [
+            "shedy(1)",
+            "chedy(1)",
+            "edy(1)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 264,
+          "verbal_pct": 96.2,
+          "top_forms": [
+            "chedy(66)",
+            "qokedy(41)",
+            "shedy(36)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 1584,
+          "verbal_pct": 97.5,
+          "top_forms": [
+            "chedy(421)",
+            "shedy(379)",
+            "qokedy(230)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_ai",
+      "total_occurrences": 1835,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 8,
+          "verbal_pct": 0.0,
+          "top_forms": [
+            "okaiin(3)",
+            "air(2)",
+            "olaiin(2)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 248,
+          "verbal_pct": 34.7,
+          "top_forms": [
+            "aiin(39)",
+            "chaiin(37)",
+            "okaiin(28)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 166,
+          "verbal_pct": 4.8,
+          "top_forms": [
+            "aiin(63)",
+            "air(20)",
+            "otaiin(18)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 74,
+          "verbal_pct": 8.1,
+          "top_forms": [
+            "aiin(35)",
+            "olaiin(9)",
+            "oraiin(5)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 196,
+          "verbal_pct": 13.8,
+          "top_forms": [
+            "aiin(71)",
+            "okaiin(31)",
+            "qokaiin(19)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 1143,
+          "verbal_pct": 30.4,
+          "top_forms": [
+            "aiin(292)",
+            "qokaiin(226)",
+            "okaiin(139)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_ch",
+      "total_occurrences": 1814,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 21,
+          "verbal_pct": 0.0,
+          "top_forms": [
+            "otchdy(3)",
+            "ykchdy(2)",
+            "dchol(2)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 704,
+          "verbal_pct": 25.9,
+          "top_forms": [
+            "chy(108)",
+            "qotchy(47)",
+            "qokchy(39)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 151,
+          "verbal_pct": 25.2,
+          "top_forms": [
+            "chy(24)",
+            "okchy(6)",
+            "otchey(6)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 50,
+          "verbal_pct": 18.0,
+          "top_forms": [
+            "chy(6)",
+            "okchol(4)",
+            "ychey(3)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 153,
+          "verbal_pct": 40.5,
+          "top_forms": [
+            "qokchdy(15)",
+            "chy(13)",
+            "otchdy(7)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 735,
+          "verbal_pct": 57.3,
+          "top_forms": [
+            "opchedy(43)",
+            "chy(38)",
+            "qokchedy(37)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_ar",
+      "total_occurrences": 1701,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 24,
+          "verbal_pct": 8.3,
+          "top_forms": [
+            "okary(3)",
+            "dar(3)",
+            "otar(2)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 179,
+          "verbal_pct": 24.0,
+          "top_forms": [
+            "dar(68)",
+            "char(28)",
+            "ar(22)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 238,
+          "verbal_pct": 7.1,
+          "top_forms": [
+            "ar(82)",
+            "dar(43)",
+            "otar(22)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 51,
+          "verbal_pct": 13.7,
+          "top_forms": [
+            "dar(22)",
+            "ar(6)",
+            "sar(5)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 245,
+          "verbal_pct": 17.6,
+          "top_forms": [
+            "ar(61)",
+            "dar(49)",
+            "okar(33)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 964,
+          "verbal_pct": 26.6,
+          "top_forms": [
+            "ar(225)",
+            "dar(137)",
+            "qokar(120)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_al",
+      "total_occurrences": 1507,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 24,
+          "verbal_pct": 8.3,
+          "top_forms": [
+            "otaly(5)",
+            "otal(3)",
+            "qokal(2)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 126,
+          "verbal_pct": 11.9,
+          "top_forms": [
+            "dal(43)",
+            "okal(16)",
+            "al(12)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 209,
+          "verbal_pct": 11.0,
+          "top_forms": [
+            "al(45)",
+            "dal(33)",
+            "okal(15)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 54,
+          "verbal_pct": 11.1,
+          "top_forms": [
+            "dal(24)",
+            "al(7)",
+            "okal(5)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 125,
+          "verbal_pct": 15.2,
+          "top_forms": [
+            "okal(23)",
+            "dal(22)",
+            "otal(15)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 969,
+          "verbal_pct": 33.2,
+          "top_forms": [
+            "al(180)",
+            "qokal(166)",
+            "dal(117)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_eo",
+      "total_occurrences": 1393,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 13,
+          "verbal_pct": 23.1,
+          "top_forms": [
+            "okeody(3)",
+            "oteos(2)",
+            "ykeol(1)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 237,
+          "verbal_pct": 67.5,
+          "top_forms": [
+            "cheor(28)",
+            "cheol(26)",
+            "sheol(18)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 207,
+          "verbal_pct": 37.7,
+          "top_forms": [
+            "oteody(21)",
+            "oteos(17)",
+            "cheor(12)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 316,
+          "verbal_pct": 67.4,
+          "top_forms": [
+            "cheol(37)",
+            "okeol(31)",
+            "qokeol(25)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 109,
+          "verbal_pct": 65.1,
+          "top_forms": [
+            "cheody(14)",
+            "cheol(9)",
+            "sheody(9)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 511,
+          "verbal_pct": 81.8,
+          "top_forms": [
+            "cheol(92)",
+            "sheol(62)",
+            "cheo(40)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_or",
+      "total_occurrences": 1173,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 18,
+          "verbal_pct": 11.1,
+          "top_forms": [
+            "otor(3)",
+            "okor(2)",
+            "otory(2)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 481,
+          "verbal_pct": 55.1,
+          "top_forms": [
+            "chor(149)",
+            "shor(62)",
+            "or(60)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 60,
+          "verbal_pct": 16.7,
+          "top_forms": [
+            "or(29)",
+            "otor(5)",
+            "chor(5)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 115,
+          "verbal_pct": 38.3,
+          "top_forms": [
+            "or(35)",
+            "chor(23)",
+            "dor(9)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 106,
+          "verbal_pct": 14.2,
+          "top_forms": [
+            "or(69)",
+            "dor(6)",
+            "chor(6)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 393,
+          "verbal_pct": 19.6,
+          "top_forms": [
+            "or(186)",
+            "chor(26)",
+            "sor(25)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_iin",
+      "total_occurrences": 1035,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 5,
+          "verbal_pct": 0.0,
+          "top_forms": [
+            "saiin(1)",
+            "daiin(1)",
+            "oiinar(1)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 427,
+          "verbal_pct": 0.2,
+          "top_forms": [
+            "daiin(387)",
+            "saiin(25)",
+            "oiin(8)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 60,
+          "verbal_pct": 0.0,
+          "top_forms": [
+            "daiin(48)",
+            "saiin(6)",
+            "oiin(5)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 114,
+          "verbal_pct": 0.0,
+          "top_forms": [
+            "daiin(96)",
+            "saiin(9)",
+            "oiin(7)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 87,
+          "verbal_pct": 0.0,
+          "top_forms": [
+            "daiin(73)",
+            "saiin(12)",
+            "ariin(1)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 342,
+          "verbal_pct": 1.2,
+          "top_forms": [
+            "daiin(240)",
+            "saiin(74)",
+            "oiin(16)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_ey",
+      "total_occurrences": 1035,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 1,
+          "verbal_pct": 100.0,
+          "top_forms": [
+            "cheys(1)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 164,
+          "verbal_pct": 63.4,
+          "top_forms": [
+            "chey(61)",
+            "shey(35)",
+            "cthey(26)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 86,
+          "verbal_pct": 46.5,
+          "top_forms": [
+            "chey(20)",
+            "otey(18)",
+            "shey(18)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 104,
+          "verbal_pct": 55.8,
+          "top_forms": [
+            "chey(23)",
+            "shey(20)",
+            "okey(12)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 54,
+          "verbal_pct": 57.4,
+          "top_forms": [
+            "chey(20)",
+            "shey(8)",
+            "okey(6)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 626,
+          "verbal_pct": 86.1,
+          "top_forms": [
+            "chey(230)",
+            "shey(198)",
+            "qokey(87)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_ain",
+      "total_occurrences": 809,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 6,
+          "verbal_pct": 0.0,
+          "top_forms": [
+            "okain(4)",
+            "otain(1)",
+            "ain(1)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 36,
+          "verbal_pct": 47.2,
+          "top_forms": [
+            "chain(11)",
+            "shain(4)",
+            "ain(4)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 19,
+          "verbal_pct": 10.5,
+          "top_forms": [
+            "ain(8)",
+            "otain(3)",
+            "ytain(2)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 10,
+          "verbal_pct": 10.0,
+          "top_forms": [
+            "ain(6)",
+            "orain(2)",
+            "oain(1)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 52,
+          "verbal_pct": 13.5,
+          "top_forms": [
+            "okain(15)",
+            "ain(12)",
+            "otain(9)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 686,
+          "verbal_pct": 50.6,
+          "top_forms": [
+            "qokain(270)",
+            "okain(117)",
+            "ain(85)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_dy",
+      "total_occurrences": 612,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 4,
+          "verbal_pct": 0.0,
+          "top_forms": [
+            "dy(2)",
+            "ydy(1)",
+            "oldy(1)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 139,
+          "verbal_pct": 8.6,
+          "top_forms": [
+            "dy(106)",
+            "ody(9)",
+            "chdy(6)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 65,
+          "verbal_pct": 27.7,
+          "top_forms": [
+            "dy(34)",
+            "chdy(13)",
+            "aldy(5)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 29,
+          "verbal_pct": 10.3,
+          "top_forms": [
+            "dy(15)",
+            "oldy(5)",
+            "ody(5)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 143,
+          "verbal_pct": 51.0,
+          "top_forms": [
+            "chdy(52)",
+            "dy(40)",
+            "shdy(15)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 232,
+          "verbal_pct": 47.0,
+          "top_forms": [
+            "dy(78)",
+            "chdy(74)",
+            "shdy(23)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_od",
+      "total_occurrences": 482,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 6,
+          "verbal_pct": 33.3,
+          "top_forms": [
+            "chodar(1)",
+            "otodol(1)",
+            "arody(1)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 197,
+          "verbal_pct": 64.5,
+          "top_forms": [
+            "chody(31)",
+            "chodaiin(23)",
+            "shody(19)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 49,
+          "verbal_pct": 26.5,
+          "top_forms": [
+            "okody(8)",
+            "chody(6)",
+            "otody(6)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 42,
+          "verbal_pct": 64.3,
+          "top_forms": [
+            "chody(11)",
+            "chodaiin(5)",
+            "shody(3)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 50,
+          "verbal_pct": 68.0,
+          "top_forms": [
+            "chody(15)",
+            "shody(10)",
+            "otody(4)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 138,
+          "verbal_pct": 74.6,
+          "top_forms": [
+            "chody(28)",
+            "shody(20)",
+            "chodaiin(16)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_ke",
+      "total_occurrences": 443,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 1,
+          "verbal_pct": 100.0,
+          "top_forms": [
+            "olkeedy(1)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 50,
+          "verbal_pct": 48.0,
+          "top_forms": [
+            "keey(12)",
+            "keol(10)",
+            "key(5)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 26,
+          "verbal_pct": 57.7,
+          "top_forms": [
+            "keey(7)",
+            "keody(3)",
+            "keol(2)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 24,
+          "verbal_pct": 58.3,
+          "top_forms": [
+            "keey(7)",
+            "keol(2)",
+            "olkey(2)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 51,
+          "verbal_pct": 74.5,
+          "top_forms": [
+            "kedy(13)",
+            "keedy(9)",
+            "keody(7)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 291,
+          "verbal_pct": 86.9,
+          "top_forms": [
+            "keedy(52)",
+            "olkeedy(40)",
+            "olkeey(36)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_ckh",
+      "total_occurrences": 432,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 1,
+          "verbal_pct": 0.0,
+          "top_forms": [
+            "ockhy(1)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 70,
+          "verbal_pct": 60.0,
+          "top_forms": [
+            "ckhy(23)",
+            "chckhy(12)",
+            "qockhy(6)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 13,
+          "verbal_pct": 76.9,
+          "top_forms": [
+            "chckhy(4)",
+            "ockhy(2)",
+            "chckhey(2)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 36,
+          "verbal_pct": 66.7,
+          "top_forms": [
+            "qockhey(6)",
+            "qockhol(6)",
+            "qockhy(6)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 67,
+          "verbal_pct": 82.1,
+          "top_forms": [
+            "chckhy(36)",
+            "ckhy(7)",
+            "chckhdy(4)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 245,
+          "verbal_pct": 94.3,
+          "top_forms": [
+            "chckhy(82)",
+            "shckhy(52)",
+            "chckhey(21)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_ka",
+      "total_occurrences": 400,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 2,
+          "verbal_pct": 0.0,
+          "top_forms": [
+            "kal(1)",
+            "olkal(1)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 37,
+          "verbal_pct": 35.1,
+          "top_forms": [
+            "kaiin(16)",
+            "chkaiin(7)",
+            "chkar(3)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 16,
+          "verbal_pct": 18.8,
+          "top_forms": [
+            "olkar(4)",
+            "kaiin(3)",
+            "chkal(2)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 2,
+          "verbal_pct": 50.0,
+          "top_forms": [
+            "chkaiin(1)",
+            "kar(1)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 52,
+          "verbal_pct": 11.5,
+          "top_forms": [
+            "kar(18)",
+            "kaiin(8)",
+            "kal(5)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 291,
+          "verbal_pct": 14.1,
+          "top_forms": [
+            "kaiin(52)",
+            "kain(38)",
+            "kar(35)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_am",
+      "total_occurrences": 396,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 11,
+          "verbal_pct": 0.0,
+          "top_forms": [
+            "am(5)",
+            "dam(2)",
+            "alam(1)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 73,
+          "verbal_pct": 17.8,
+          "top_forms": [
+            "dam(30)",
+            "am(10)",
+            "cham(7)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 49,
+          "verbal_pct": 8.2,
+          "top_forms": [
+            "am(20)",
+            "dam(7)",
+            "sam(4)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 16,
+          "verbal_pct": 6.2,
+          "top_forms": [
+            "dam(9)",
+            "sam(2)",
+            "am(2)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 60,
+          "verbal_pct": 10.0,
+          "top_forms": [
+            "dam(15)",
+            "okam(13)",
+            "am(10)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 187,
+          "verbal_pct": 19.8,
+          "top_forms": [
+            "am(39)",
+            "otam(28)",
+            "dam(25)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_sh",
+      "total_occurrences": 379,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 8,
+          "verbal_pct": 12.5,
+          "top_forms": [
+            "sh(2)",
+            "ykshy(1)",
+            "otshey(1)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 88,
+          "verbal_pct": 19.3,
+          "top_forms": [
+            "dshor(9)",
+            "sh(8)",
+            "dshy(7)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 28,
+          "verbal_pct": 46.4,
+          "top_forms": [
+            "sh(3)",
+            "sshey(2)",
+            "orsheey(2)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 11,
+          "verbal_pct": 27.3,
+          "top_forms": [
+            "dshor(1)",
+            "dshody(1)",
+            "yshor(1)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 31,
+          "verbal_pct": 58.1,
+          "top_forms": [
+            "dshedy(6)",
+            "ysheey(2)",
+            "sh(2)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 213,
+          "verbal_pct": 60.1,
+          "top_forms": [
+            "dshedy(24)",
+            "olshedy(21)",
+            "yshey(12)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_da",
+      "total_occurrences": 356,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 4,
+          "verbal_pct": 25.0,
+          "top_forms": [
+            "odaiin(1)",
+            "shdar(1)",
+            "oldar(1)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 82,
+          "verbal_pct": 31.7,
+          "top_forms": [
+            "odaiin(20)",
+            "qodaiin(12)",
+            "ydaiin(9)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 35,
+          "verbal_pct": 42.9,
+          "top_forms": [
+            "chdar(5)",
+            "qodaiin(5)",
+            "ydaiin(3)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 26,
+          "verbal_pct": 11.5,
+          "top_forms": [
+            "oldaiin(6)",
+            "odaiin(5)",
+            "da(3)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 49,
+          "verbal_pct": 49.0,
+          "top_forms": [
+            "chdal(6)",
+            "chdaiin(6)",
+            "odain(5)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 160,
+          "verbal_pct": 54.4,
+          "top_forms": [
+            "odaiin(27)",
+            "qodaiin(21)",
+            "odar(14)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_ky",
+      "total_occurrences": 355,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 5,
+          "verbal_pct": 20.0,
+          "top_forms": [
+            "oky(3)",
+            "chky(1)",
+            "olky(1)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 91,
+          "verbal_pct": 29.7,
+          "top_forms": [
+            "oky(35)",
+            "qoky(23)",
+            "ky(16)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 14,
+          "verbal_pct": 14.3,
+          "top_forms": [
+            "oky(9)",
+            "yky(2)",
+            "chky(1)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 13,
+          "verbal_pct": 46.2,
+          "top_forms": [
+            "qoky(6)",
+            "oky(5)",
+            "ky(2)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 48,
+          "verbal_pct": 43.8,
+          "top_forms": [
+            "oky(19)",
+            "qoky(11)",
+            "chky(7)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 184,
+          "verbal_pct": 63.6,
+          "top_forms": [
+            "qoky(104)",
+            "oky(34)",
+            "olky(17)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_cth",
+      "total_occurrences": 321,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 1,
+          "verbal_pct": 0.0,
+          "top_forms": [
+            "octhey(1)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 148,
+          "verbal_pct": 28.4,
+          "top_forms": [
+            "cthy(88)",
+            "chcthy(18)",
+            "qocthy(5)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 13,
+          "verbal_pct": 61.5,
+          "top_forms": [
+            "chcthy(4)",
+            "cthy(3)",
+            "octheey(1)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 8,
+          "verbal_pct": 50.0,
+          "top_forms": [
+            "cthy(2)",
+            "chcthol(1)",
+            "qocthy(1)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 23,
+          "verbal_pct": 73.9,
+          "top_forms": [
+            "chcthy(7)",
+            "cthy(3)",
+            "shcthy(2)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 128,
+          "verbal_pct": 85.2,
+          "top_forms": [
+            "chcthy(51)",
+            "shcthy(25)",
+            "cthy(6)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_in",
+      "total_occurrences": 295,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 1,
+          "verbal_pct": 0.0,
+          "top_forms": [
+            "dindy(1)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 89,
+          "verbal_pct": 0.0,
+          "top_forms": [
+            "dain(81)",
+            "sain(5)",
+            "oin(2)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 8,
+          "verbal_pct": 0.0,
+          "top_forms": [
+            "dain(4)",
+            "sain(4)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 14,
+          "verbal_pct": 0.0,
+          "top_forms": [
+            "dain(12)",
+            "sain(2)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 12,
+          "verbal_pct": 0.0,
+          "top_forms": [
+            "dain(11)",
+            "sain(1)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 171,
+          "verbal_pct": 1.8,
+          "top_forms": [
+            "dain(106)",
+            "sain(53)",
+            "oin(7)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_lch",
+      "total_occurrences": 289,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 1,
+          "verbal_pct": 0.0,
+          "top_forms": [
+            "lchy(1)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 5,
+          "verbal_pct": 0.0,
+          "top_forms": [
+            "dalchy(1)",
+            "lchol(1)",
+            "lchal(1)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 1,
+          "verbal_pct": 0.0,
+          "top_forms": [
+            "dalchdy(1)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 7,
+          "verbal_pct": 0.0,
+          "top_forms": [
+            "lchey(2)",
+            "lchdy(1)",
+            "dalchom(1)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 10,
+          "verbal_pct": 40.0,
+          "top_forms": [
+            "lchey(4)",
+            "lchedy(3)",
+            "lchdy(2)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 265,
+          "verbal_pct": 61.1,
+          "top_forms": [
+            "lchedy(113)",
+            "lchey(43)",
+            "lchdy(15)"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "s_ty",
+      "total_occurrences": 271,
+      "registers": {
+        "1_Diagram_Labels_@L": {
+          "count": 2,
+          "verbal_pct": 50.0,
+          "top_forms": [
+            "chty(1)",
+            "oty(1)"
+          ]
+        },
+        "2_Herbal_A_Prose": {
+          "count": 100,
+          "verbal_pct": 36.0,
+          "top_forms": [
+            "oty(39)",
+            "qoty(29)",
+            "ty(12)"
+          ]
+        },
+        "3_Astro_Zodiac_Prose_Rings": {
+          "count": 23,
+          "verbal_pct": 17.4,
+          "top_forms": [
+            "oty(15)",
+            "yty(4)",
+            "qoty(4)"
+          ]
+        },
+        "4_Pharmaceutical_Prose": {
+          "count": 3,
+          "verbal_pct": 33.3,
+          "top_forms": [
+            "yty(1)",
+            "chty(1)",
+            "oty(1)"
+          ]
+        },
+        "5_Herbal_B_Prose": {
+          "count": 26,
+          "verbal_pct": 15.4,
+          "top_forms": [
+            "oty(12)",
+            "yty(6)",
+            "ty(4)"
+          ]
+        },
+        "6_Balneo_and_Starred_Recipes": {
+          "count": 117,
+          "verbal_pct": 51.3,
+          "top_forms": [
+            "qoty(53)",
+            "oty(48)",
+            "ty(4)"
+          ]
+        }
+      }
+    }
+  ]
+}

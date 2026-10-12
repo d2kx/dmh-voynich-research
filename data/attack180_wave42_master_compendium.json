@@ -1,0 +1,169 @@
+{
+  "wave": 42,
+  "attacks_covered": [
+    177,
+    178,
+    179,
+    180
+  ],
+  "discoveries_covered": [
+    194,
+    195,
+    196,
+    197
+  ],
+  "explorer_version": "8.0",
+  "new_visual_crops": [
+    "pages/f57v_four_ring_key_wheel_enh.png",
+    "pages/f68r3_pleiades_moon_wheel_enh.png",
+    "pages/f78r_balneo_twin_arches_pool_enh.png",
+    "pages/f95r2_foldout_thistle_herbal_enh.png",
+    "pages/f100r_pharma_jars_shelves_enh.png",
+    "pages/p211_physical_fore_edge_quiresscan.png"
+  ],
+  "attack177_summary": {
+    "total_adjacent_word_boundaries": 32963,
+    "comma_micro_spaces": 2669,
+    "standard_dot_spaces": 30294,
+    "overall_comma_rate_pct": 8.1,
+    "lexical_fusion_all_vocab": {
+      "comma_fused_count": 1145,
+      "comma_fusion_rate_pct": 42.9,
+      "dot_fused_count": 1933,
+      "dot_fusion_rate_pct": 6.38,
+      "enrichment_ratio": 6.72,
+      "z_score": 62.16
+    },
+    "lexical_fusion_freq_ge2": {
+      "comma_fused_count": 914,
+      "comma_fusion_rate_pct": 34.25,
+      "dot_fused_count": 1269,
+      "dot_fusion_rate_pct": 4.19,
+      "enrichment_ratio": 8.18,
+      "z_score": 59.86
+    },
+    "lexical_fusion_freq_ge5": {
+      "comma_fused_count": 649,
+      "comma_fusion_rate_pct": 24.32,
+      "dot_fused_count": 721,
+      "dot_fusion_rate_pct": 2.38,
+      "enrichment_ratio": 10.22,
+      "z_score": 54.43
+    },
+    "morphological_clitic_structure": {
+      "mean_len_a_comma": 3.25,
+      "mean_len_b_comma": 3.77,
+      "mean_len_a_dot": 5.13,
+      "mean_len_b_dot": 4.99,
+      "short_1to2char_member_comma_pct": 58.56,
+      "short_1to2char_member_dot_pct": 15.55,
+      "z_short_member": 54.27,
+      "known_clitic_member_comma_pct": 57.92,
+      "known_clitic_member_dot_pct": 14.29,
+      "z_clitic_member": 56.47
+    },
+    "cross_transcriber_single_word_fusion": {
+      "it_checked_comma_pairs": 2669,
+      "it_fused_as_single_word": 762,
+      "it_comma_single_word_pct": 28.55,
+      "it_dot_single_word_pct": 0.5,
+      "it_enrichment_ratio": 57.65,
+      "z_it_fusion": 30.79,
+      "rf_checked_comma_pairs": 2669,
+      "rf_fused_as_single_word": 805,
+      "rf_comma_single_word_pct": 30.16
+    },
+    "line_position_and_intrusions": {
+      "mean_norm_pos_comma": 0.5358,
+      "mean_norm_pos_dot": 0.4967,
+      "intrusion_line_comma_rate_pct": 7.31,
+      "normal_line_comma_rate_pct": 8.22
+    }
+  },
+  "attack178_summary": {
+    "total_circular_ring_loci_at_C": 72,
+    "total_radial_spoke_loci_at_R": 142,
+    "type1_single_glyph_key_rings_count": 2,
+    "type1_single_glyph_key_rings_list": [
+      "f57v.3",
+      "f57v.5"
+    ],
+    "type2_nominal_catalog_rings_count": 11,
+    "type3_continuous_prose_rings_count": 59,
+    "radial_single_label_spokes_count": 85,
+    "radial_multi_token_spokes_count": 57,
+    "f57v_ring2_f57v3_exact_slot_identity_pct": 94.67,
+    "f57v_ring2_f57v3_allographic_fp_slot_identity_pct": 100.0,
+    "f57v_f58_shared_multi_char_words": [
+      "aiin",
+      "ar",
+      "daiin",
+      "daiir",
+      "dal",
+      "dar",
+      "dy",
+      "okal",
+      "okeey",
+      "okey",
+      "opaiin",
+      "otal",
+      "otey",
+      "oty",
+      "qokar",
+      "sar",
+      "sheky"
+    ],
+    "f57v_f58_shared_stems_count": 23,
+    "f57v_f58_stem_overlap_pct": 41.82
+  },
+  "attack179_summary": {
+    "total_distinct_stems": 2435,
+    "universal_6_register_stems_count": 76,
+    "universal_5plus_register_stems_count": 132,
+    "universal_stems_total_token_coverage": 28473,
+    "monotonic_inflection_shift_on_identical_stems": {
+      "1_Diagram_Labels_@L": {
+        "total_tokens_of_universal_stems": 327,
+        "nominal_citation_pct": 84.4,
+        "procedural_verbal_pct": 15.6,
+        "edy_suffix_pct": 4.59,
+        "qo_prefix_pct": 2.14
+      },
+      "2_Herbal_A_Prose": {
+        "total_tokens_of_universal_stems": 5821,
+        "nominal_citation_pct": 62.86,
+        "procedural_verbal_pct": 37.14,
+        "edy_suffix_pct": 0.05,
+        "qo_prefix_pct": 10.27
+      },
+      "3_Astro_Zodiac_Prose_Rings": {
+        "total_tokens_of_universal_stems": 2557,
+        "nominal_citation_pct": 68.52,
+        "procedural_verbal_pct": 31.48,
+        "edy_suffix_pct": 5.36,
+        "qo_prefix_pct": 4.97
+      },
+      "4_Pharmaceutical_Prose": {
+        "total_tokens_of_universal_stems": 1845,
+        "nominal_citation_pct": 55.93,
+        "procedural_verbal_pct": 44.07,
+        "edy_suffix_pct": 0.6,
+        "qo_prefix_pct": 13.93
+      },
+      "5_Herbal_B_Prose": {
+        "total_tokens_of_universal_stems": 2641,
+        "nominal_citation_pct": 55.96,
+        "procedural_verbal_pct": 44.04,
+        "edy_suffix_pct": 15.15,
+        "qo_prefix_pct": 11.09
+      },
+      "6_Balneo_and_Starred_Recipes": {
+        "total_tokens_of_universal_stems": 15282,
+        "nominal_citation_pct": 44.77,
+        "procedural_verbal_pct": 55.23,
+        "edy_suffix_pct": 19.02,
+        "qo_prefix_pct": 22.04
+      }
+    }
+  }
+}

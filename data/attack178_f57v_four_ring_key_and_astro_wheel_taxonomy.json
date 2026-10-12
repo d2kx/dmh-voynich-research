@@ -1,0 +1,427 @@
+{
+  "summary": {
+    "total_circular_ring_loci_at_C": 72,
+    "total_radial_spoke_loci_at_R": 142,
+    "type1_single_glyph_key_rings_count": 2,
+    "type1_single_glyph_key_rings_list": [
+      "f57v.3",
+      "f57v.5"
+    ],
+    "type2_nominal_catalog_rings_count": 11,
+    "type3_continuous_prose_rings_count": 59,
+    "radial_single_label_spokes_count": 85,
+    "radial_multi_token_spokes_count": 57,
+    "f57v_ring2_f57v3_exact_slot_identity_pct": 94.67,
+    "f57v_ring2_f57v3_allographic_fp_slot_identity_pct": 100.0,
+    "f57v_f58_shared_multi_char_words": [
+      "aiin",
+      "ar",
+      "daiin",
+      "daiir",
+      "dal",
+      "dar",
+      "dy",
+      "okal",
+      "okeey",
+      "okey",
+      "opaiin",
+      "otal",
+      "otey",
+      "oty",
+      "qokar",
+      "sar",
+      "sheky"
+    ],
+    "f57v_f58_shared_stems_count": 23,
+    "f57v_f58_stem_overlap_pct": 41.82
+  },
+  "f57v_ring3_13glyph_4quadrant_table": [
+    {
+      "slot": 1,
+      "Q1": "o",
+      "Q2": "o",
+      "Q3": "o",
+      "Q4": "o",
+      "note": "100% identical"
+    },
+    {
+      "slot": 2,
+      "Q1": "l",
+      "Q2": "l",
+      "Q3": "l",
+      "Q4": "l",
+      "note": "100% identical"
+    },
+    {
+      "slot": 3,
+      "Q1": "d",
+      "Q2": "d",
+      "Q3": "d",
+      "Q4": "d",
+      "note": "100% identical"
+    },
+    {
+      "slot": 4,
+      "Q1": "r",
+      "Q2": "r",
+      "Q3": "r",
+      "Q4": "r",
+      "note": "100% identical"
+    },
+    {
+      "slot": 5,
+      "Q1": "v",
+      "Q2": "v",
+      "Q3": "v",
+      "Q4": "v",
+      "note": "100% identical"
+    },
+    {
+      "slot": 6,
+      "Q1": "x",
+      "Q2": "x",
+      "Q3": "x",
+      "Q4": "x",
+      "note": "100% identical"
+    },
+    {
+      "slot": 7,
+      "Q1": "k",
+      "Q2": "k",
+      "Q3": "k",
+      "Q4": "k",
+      "note": "100% identical"
+    },
+    {
+      "slot": 8,
+      "Q1": "m",
+      "Q2": "m",
+      "Q3": "m",
+      "Q4": "m",
+      "note": "100% identical"
+    },
+    {
+      "slot": 9,
+      "Q1": "f",
+      "Q2": "f",
+      "Q3": "p",
+      "Q4": "p",
+      "note": "f <-> p gallows allograph swap!"
+    },
+    {
+      "slot": 10,
+      "Q1": "t",
+      "Q2": "t",
+      "Q3": "t",
+      "Q4": "t",
+      "note": "100% identical"
+    },
+    {
+      "slot": 11,
+      "Q1": "r",
+      "Q2": "r",
+      "Q3": "r",
+      "Q4": "r",
+      "note": "100% identical"
+    },
+    {
+      "slot": 12,
+      "Q1": "y",
+      "Q2": "y",
+      "Q3": "y",
+      "Q4": "y",
+      "note": "100% identical"
+    },
+    {
+      "slot": 13,
+      "Q1": "-",
+      "Q2": "c",
+      "Q3": "c",
+      "Q4": "c",
+      "note": "omitted at Q1 seam"
+    }
+  ],
+  "f57v_ring_analysis": [
+    {
+      "loc_id": "f57v.1",
+      "loc_tag": "L0",
+      "n_tokens": 1,
+      "mean_token_len": 6.0,
+      "single_char_rate_pct": 0.0,
+      "best_token_period_k": null,
+      "best_token_period_match_pct": 0.0,
+      "full_string": "dairal"
+    },
+    {
+      "loc_id": "f57v.2",
+      "loc_tag": "Cc",
+      "n_tokens": 54,
+      "mean_token_len": 3.04,
+      "single_char_rate_pct": 37.04,
+      "best_token_period_k": 22,
+      "best_token_period_match_pct": 3.12,
+      "full_string": "v sal y soeos vs ar okees o d soefchees l g sos okey defo f o rkedam sh ofol sar ddal yty s y daiir otey dshdy dkals oty pchchy a r opaiin dal karody v r okeey daram qokar okal okal d o l shkeal dy das o k sher s aiin"
+    },
+    {
+      "loc_id": "f57v.3",
+      "loc_tag": "Cc",
+      "n_tokens": 51,
+      "mean_token_len": 1.0,
+      "single_char_rate_pct": 100.0,
+      "best_token_period_k": 13,
+      "best_token_period_match_pct": 65.79,
+      "full_string": "o l d r v x k m f t r y o l d r v x k m f t r y c o l d r v x k m p t r y c o l d r v x k m p t r y c"
+    },
+    {
+      "loc_id": "f57v.4",
+      "loc_tag": "Cc",
+      "n_tokens": 29,
+      "mean_token_len": 3.59,
+      "single_char_rate_pct": 31.03,
+      "best_token_period_k": null,
+      "best_token_period_match_pct": 0.0,
+      "full_string": "daiin otey ofchey shes o d okeeod l o lkeeol dkedar yf aros s y chedaiin k eeety x deeodal vo tchor kedar dal daiin aiin otal daro v"
+    },
+    {
+      "loc_id": "f57v.5",
+      "loc_tag": "Cc",
+      "n_tokens": 33,
+      "mean_token_len": 1.79,
+      "single_char_rate_pct": 78.79,
+      "best_token_period_k": 12,
+      "best_token_period_match_pct": 9.52,
+      "full_string": "o v l r m aiin d c f s y l k x l r ar o r a t l s d y dar teodar otodal sheky oteeody x s l"
+    },
+    {
+      "loc_id": "f57v.6",
+      "loc_tag": "L0",
+      "n_tokens": 1,
+      "mean_token_len": 8.0,
+      "single_char_rate_pct": 0.0,
+      "best_token_period_k": null,
+      "best_token_period_match_pct": 0.0,
+      "full_string": "otodarag"
+    },
+    {
+      "loc_id": "f57v.7",
+      "loc_tag": "L0",
+      "n_tokens": 1,
+      "mean_token_len": 10.0,
+      "single_char_rate_pct": 0.0,
+      "best_token_period_k": null,
+      "best_token_period_match_pct": 0.0,
+      "full_string": "oparairdly"
+    },
+    {
+      "loc_id": "f57v.8",
+      "loc_tag": "L0",
+      "n_tokens": 1,
+      "mean_token_len": 8.0,
+      "single_char_rate_pct": 0.0,
+      "best_token_period_k": null,
+      "best_token_period_match_pct": 0.0,
+      "full_string": "olkeedal"
+    },
+    {
+      "loc_id": "f57v.9",
+      "loc_tag": "L0",
+      "n_tokens": 1,
+      "mean_token_len": 8.0,
+      "single_char_rate_pct": 0.0,
+      "best_token_period_k": null,
+      "best_token_period_match_pct": 0.0,
+      "full_string": "otardaly"
+    },
+    {
+      "loc_id": "f57v.10",
+      "loc_tag": "Ro",
+      "n_tokens": 1,
+      "mean_token_len": 7.0,
+      "single_char_rate_pct": 0.0,
+      "best_token_period_k": null,
+      "best_token_period_match_pct": 0.0,
+      "full_string": "arkaldy"
+    },
+    {
+      "loc_id": "f57v.11",
+      "loc_tag": "Ro",
+      "n_tokens": 1,
+      "mean_token_len": 7.0,
+      "single_char_rate_pct": 0.0,
+      "best_token_period_k": null,
+      "best_token_period_match_pct": 0.0,
+      "full_string": "araarar"
+    },
+    {
+      "loc_id": "f57v.12",
+      "loc_tag": "Ro",
+      "n_tokens": 1,
+      "mean_token_len": 6.0,
+      "single_char_rate_pct": 0.0,
+      "best_token_period_k": null,
+      "best_token_period_match_pct": 0.0,
+      "full_string": "okeely"
+    },
+    {
+      "loc_id": "f57v.13",
+      "loc_tag": "Ro",
+      "n_tokens": 2,
+      "mean_token_len": 5.5,
+      "single_char_rate_pct": 0.0,
+      "best_token_period_k": null,
+      "best_token_period_match_pct": 0.0,
+      "full_string": "ocfhor okear"
+    }
+  ],
+  "f68r_three_panel_foldout_summary": {
+    "f68r1": {
+      "total_loci": 37,
+      "prose_tokens": 31,
+      "ring_or_radial_tokens": 5,
+      "star_and_moon_label_tokens": 28,
+      "sample_labels": [
+        "okodaly",
+        "odchecthy",
+        "otcheody",
+        "okoaly",
+        "chocfhy",
+        "octhey",
+        "otshey",
+        "otydy",
+        "okear",
+        "cphocthy",
+        "ytchody",
+        "otys",
+        "olor",
+        "ockhy",
+        "ofcheor"
+      ]
+    },
+    "f68r2": {
+      "total_loci": 31,
+      "prose_tokens": 37,
+      "ring_or_radial_tokens": 19,
+      "star_and_moon_label_tokens": 24,
+      "sample_labels": [
+        "cheorol",
+        "odaiin",
+        "ochory",
+        "shdar",
+        "dchol",
+        "todaraiily",
+        "olcheesey",
+        "okchor",
+        "oteool",
+        "oydchy",
+        "okeeeody",
+        "cholar",
+        "dcheoldy",
+        "oteeear",
+        "otoeeo"
+      ]
+    },
+    "f68r3": {
+      "total_loci": 22,
+      "prose_tokens": 0,
+      "ring_or_radial_tokens": 90,
+      "star_and_moon_label_tokens": 16,
+      "sample_labels": [
+        "dchol",
+        "day",
+        "doaro",
+        "oalcheol",
+        "okos",
+        "otary",
+        "chky",
+        "oky",
+        "e",
+        "cphy",
+        "okolchy",
+        "o",
+        "cthyd",
+        "otydg",
+        "darall"
+      ]
+    }
+  },
+  "ring_taxonomy": {
+    "Type_I_Single_Glyph_Key_Rings": [
+      "f57v.3",
+      "f57v.5"
+    ],
+    "Type_II_Nominal_Catalog_Rings": [
+      "f68r1.37",
+      "f68r2.6",
+      "f68r2.31",
+      "f70r1.1",
+      "f70r1.3",
+      "f70r2.19",
+      "f71v.12",
+      "f72r2.32",
+      "f73r.33",
+      "f73v.33",
+      "f85r2.24"
+    ],
+    "Type_III_Continuous_Prose_Rings": [
+      "f57v.2",
+      "f57v.4",
+      "f67r1.5",
+      "f67r1.6",
+      "f67r1.7",
+      "f68r3.1",
+      "f68r3.22",
+      "f68v3.5",
+      "f68v3.14",
+      "f68v2.6",
+      "f68v1.1",
+      "f68v1.2",
+      "f69r.43",
+      "f69v.1",
+      "f69v.2",
+      "f69v.3",
+      "f70r1.2",
+      "f70r1.13",
+      "f70r2.15",
+      "f70r2.16",
+      "f70r2.17",
+      "f70r2.18",
+      "f70v2.1",
+      "f70v2.21",
+      "f70v2.32",
+      "f70v1.1",
+      "f70v1.12",
+      "f71r.1",
+      "f71r.12",
+      "f71r.18",
+      "f71v.1",
+      "f71v.18",
+      "f72r1.1",
+      "f72r1.12",
+      "f72r1.18",
+      "f72r2.6",
+      "f72r2.22",
+      "f72r3.1",
+      "f72r3.14",
+      "f72r3.26",
+      "f72r3.34",
+      "f72v3.1",
+      "f72v3.20",
+      "f72v3.33",
+      "f72v2.1",
+      "f72v2.20",
+      "f72v2.33",
+      "f72v1.1",
+      "f72v1.22",
+      "f72v1.33",
+      "f73r.5",
+      "f73r.22",
+      "f73v.5",
+      "f73v.22",
+      "f85r2.1",
+      "f86v4.1",
+      "f86v4.2",
+      "f86v4.3",
+      "f86v4.4"
+    ]
+  }
+}

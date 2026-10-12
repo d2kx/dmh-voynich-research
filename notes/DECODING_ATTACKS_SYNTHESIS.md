@@ -1418,3 +1418,32 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Script, Data & Edition**: [`tools/attack176_wave41_master_compendium.py`](../tools/attack176_wave41_master_compendium.py) $\to$ [`data/attack176_wave41_master_compendium.json`](../data/attack176_wave41_master_compendium.json) & [`notes/QUIRE_SIGNATURES_PHARMA_SHELVES_AND_WEIRDO_GLYPH_ATLAS.md`](QUIRE_SIGNATURES_PHARMA_SHELVES_AND_WEIRDO_GLYPH_ATLAS.md)
 - **Key Breakthroughs**:
   1. **Synthesizes `Attacks 173–175` (`Discoveries 190–192`) and Upgrades All Human-Readable Assets to v7.0 ([`notes/PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md`](PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md) 24 Folios, [`notes/VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md`](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md) `SPEC-01..40`, [`explorer/index.html`](../explorer/index.html) 9-Tab / 38-Walkthrough Interactive Explorer, and [`README.md`](../README.md))**.
+
+---
+
+## 177. Attack 177 (`Phase 188`): The Paleographic Micro-Spacing Clitic-Host Lexical Fusion Law (`6.72×` Overall / `10.22×` Core-Word Enrichment, $z = +62.16$) Across All 5 Scribe Hands (`$H=1..5`)
+- **Script & Data**: [`tools/attack177_micro_spacing_and_clitic_fusion_law.py`](../tools/attack177_micro_spacing_and_clitic_fusion_law.py) $\to$ [`data/attack177_micro_spacing_and_clitic_fusion_law.json`](../data/attack177_micro_spacing_and_clitic_fusion_law.json)
+- **Key Breakthroughs**:
+  1. **Proves Across All `32,963` Adjacent Word Boundaries in `ZL3b-n.txt` (`2,669` [`8.10%`] Narrow Micro-Spaces `A,B` vs. `30,294` [`91.90%`] Standard Wide Spaces `A.B`) That Concatenating `A + B` Across a Narrow Micro-Space Yields an Attested Single Voynich Word `AB` `42.90%` of the Time (`1,145 / 2,669`) vs. Only `6.38%` (`1,933 / 30,294`) Across Standard Wide Spaces (`6.72×` Enrichment, $z = +62.16, p < 10^{-300}$; `8.18×` [$z = +59.86$] on Frequent Words $\ge 2$x; and `10.22×` [$z = +54.43$] on Core Words $\ge 5$x), While `58.56%` Involve a `1–2` Character Proclitic or Enclitic (`s,aiin -> saiin`, `or,aiin -> oraiin`, `ol,shedy -> olshedy`) and `28.55%–30.16%` Are Transcribed Directly as a Single Fused Word in `IT2a-n` and `RF1b-er` (`57.65×` Enrichment, $z = +30.79$)**.
+
+---
+
+## 178. Attack 178 (`Phase 189`): The `f57v.3` 13-Glyph 4-Quadrant Key Wheel (`94.67%` Exact / `100.0%` `f <-> p` Allographic Slot Identity), the `f68r1–f68r3` Pleiades/Lunar Triad, and the Complete Taxonomy of All `72` Circular Ring (`@C`) and `142` Radial Spoke (`@R`) Loci
+- **Script, Data & Scans**: [`tools/attack178_f57v_four_ring_key_and_astro_wheel_taxonomy.py`](../tools/attack178_f57v_four_ring_key_and_astro_wheel_taxonomy.py) $\to$ [`data/attack178_f57v_four_ring_key_and_astro_wheel_taxonomy.json`](../data/attack178_f57v_four_ring_key_and_astro_wheel_taxonomy.json), [`pages/f57v_four_ring_key_wheel_enh.png`](../pages/f57v_four_ring_key_wheel_enh.png), [`pages/f68r3_pleiades_moon_wheel_enh.png`](../pages/f68r3_pleiades_moon_wheel_enh.png)
+- **Key Breakthroughs**:
+  1. **Classifies All `72` Circular Ring Loci (`@C`) and `142` Radial Spoke Loci (`@R`) in the Codex (`2` Type I Single-Glyph Key Rings `f57v.3, f57v.5`; `11` Type II Short Nominal Sector Rings; `59` Type III Continuous Circular Prose Rings), and Proves That on `f57v.3` the Scribe Repeated the Exact Same 13-Glyph Key Sequence `4` Times Around the `4` Quadrants (`o l d r v x k m [f/p] t r y [c]`), Writing `f` in Slot 9 of Quadrants 1–2 and `p` in Slot 9 of Quadrants 3–4—Achieving `94.67%` (`71 / 75`) Exact Slot Identity and `100.0%` (`75 / 75`) Slot Identity Under `f <-> p` Gallows Allography (`Rule 2` of the 4-Rule Canonical Normalization)**.
+
+---
+
+## 179. Attack 179 (`Phase 190`): The 6-Register Universal Stem Inflection Shift Matrix (`84.40%` Nominal Citation in `@L` Labels $\to$ `55.23%` Procedural Verbal in Balneo & Starred Recipes Across the Exact Same `76` Core Stems)
+- **Script, Data & Scans**: [`tools/attack179_cross_section_stem_inflection_matrix.py`](../tools/attack179_cross_section_stem_inflection_matrix.py) $\to$ [`data/attack179_cross_section_stem_inflection_matrix.json`](../data/attack179_cross_section_stem_inflection_matrix.json), [`pages/f78r_balneo_twin_arches_pool_enh.png`](../pages/f78r_balneo_twin_arches_pool_enh.png), [`pages/f95r2_foldout_thistle_herbal_enh.png`](../pages/f95r2_foldout_thistle_herbal_enh.png), [`pages/f100r_pharma_jars_shelves_enh.png`](../pages/f100r_pharma_jars_shelves_enh.png)
+- **Key Breakthroughs**:
+  1. **Identifies `76` Universal 6-Register Core Stems (`132` 5-Register Stems) Covering `28,473` Tokens (`77.2%` of the Multi-Character Corpus), and Proves That Holding Those Exact `76` Stems Completely Fixed Across All `6` Functional Registers Produces a Monotonic Grammatical Shift From Nominal Citation (`84.40%` in `@L` Diagram Labels $\to$ `68.52%` in Astro/Zodiac $\to$ `62.86%` in Herbal A $\to$ `55.93%` in Pharma $\to$ `55.96%` in Herbal B) to Active Procedural Verbal Inflection (`55.23%` in Balneo & Starred Recipes, With `qo-` Prefixation Surging `10.30×` From `2.14%` to `22.04%` and `-edy` Suffixation Surging `4.14×` From `4.59%` to `19.02%`)**.
+
+---
+
+## 180. Attack 180 (`Phase 191`): The Wave 42 Master Compendium (`Micro-Spacing Clitic Fusion, f57v Key Wheel & 6-Register Stem Inflection Matrix`) and Synchronized v8.0 Milestone Human-Readable Assets ([`notes/MICRO_SPACING_F57V_KEY_WHEEL_AND_STEM_INFLECTION_MATRIX.md`](MICRO_SPACING_F57V_KEY_WHEEL_AND_STEM_INFLECTION_MATRIX.md))
+- **Script, Data & Edition**: [`tools/attack180_wave42_master_compendium.py`](../tools/attack180_wave42_master_compendium.py) $\to$ [`data/attack180_wave42_master_compendium.json`](../data/attack180_wave42_master_compendium.json) & [`notes/MICRO_SPACING_F57V_KEY_WHEEL_AND_STEM_INFLECTION_MATRIX.md`](MICRO_SPACING_F57V_KEY_WHEEL_AND_STEM_INFLECTION_MATRIX.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes `Attacks 177–179` (`Discoveries 194–196`) and Upgrades All Human-Readable Assets to v8.0 ([`notes/PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md`](PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md) 26 Folios, [`notes/VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md`](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md) `SPEC-01..45`, [`explorer/index.html`](../explorer/index.html) 10-Tab / 42-Walkthrough Interactive Explorer, and [`README.md`](../README.md))**.
+

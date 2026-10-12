@@ -1,0 +1,436 @@
+{
+  "summary": {
+    "total_adjacent_word_boundaries": 32963,
+    "comma_micro_spaces": 2669,
+    "standard_dot_spaces": 30294,
+    "overall_comma_rate_pct": 8.1,
+    "lexical_fusion_all_vocab": {
+      "comma_fused_count": 1145,
+      "comma_fusion_rate_pct": 42.9,
+      "dot_fused_count": 1933,
+      "dot_fusion_rate_pct": 6.38,
+      "enrichment_ratio": 6.72,
+      "z_score": 62.16
+    },
+    "lexical_fusion_freq_ge2": {
+      "comma_fused_count": 914,
+      "comma_fusion_rate_pct": 34.25,
+      "dot_fused_count": 1269,
+      "dot_fusion_rate_pct": 4.19,
+      "enrichment_ratio": 8.18,
+      "z_score": 59.86
+    },
+    "lexical_fusion_freq_ge5": {
+      "comma_fused_count": 649,
+      "comma_fusion_rate_pct": 24.32,
+      "dot_fused_count": 721,
+      "dot_fusion_rate_pct": 2.38,
+      "enrichment_ratio": 10.22,
+      "z_score": 54.43
+    },
+    "morphological_clitic_structure": {
+      "mean_len_a_comma": 3.25,
+      "mean_len_b_comma": 3.77,
+      "mean_len_a_dot": 5.13,
+      "mean_len_b_dot": 4.99,
+      "short_1to2char_member_comma_pct": 58.56,
+      "short_1to2char_member_dot_pct": 15.55,
+      "z_short_member": 54.27,
+      "known_clitic_member_comma_pct": 57.92,
+      "known_clitic_member_dot_pct": 14.29,
+      "z_clitic_member": 56.47
+    },
+    "cross_transcriber_single_word_fusion": {
+      "it_checked_comma_pairs": 2669,
+      "it_fused_as_single_word": 762,
+      "it_comma_single_word_pct": 28.55,
+      "it_dot_single_word_pct": 0.5,
+      "it_enrichment_ratio": 57.65,
+      "z_it_fusion": 30.79,
+      "rf_checked_comma_pairs": 2669,
+      "rf_fused_as_single_word": 805,
+      "rf_comma_single_word_pct": 30.16
+    },
+    "line_position_and_intrusions": {
+      "mean_norm_pos_comma": 0.5358,
+      "mean_norm_pos_dot": 0.4967,
+      "intrusion_line_comma_rate_pct": 7.31,
+      "normal_line_comma_rate_pct": 8.22
+    }
+  },
+  "by_scribe_hand": {
+    "1": {
+      "comma_spaces": 752,
+      "dot_spaces": 8393,
+      "total_spaces": 9145,
+      "comma_rate_pct": 8.22,
+      "comma_fusion_rate_pct": 41.76,
+      "dot_fusion_rate_pct": 7.43
+    },
+    "2": {
+      "comma_spaces": 742,
+      "dot_spaces": 9002,
+      "total_spaces": 9744,
+      "comma_rate_pct": 7.61,
+      "comma_fusion_rate_pct": 48.92,
+      "dot_fusion_rate_pct": 7.14
+    },
+    "3": {
+      "comma_spaces": 866,
+      "dot_spaces": 9683,
+      "total_spaces": 10549,
+      "comma_rate_pct": 8.21,
+      "comma_fusion_rate_pct": 41.69,
+      "dot_fusion_rate_pct": 4.63
+    },
+    "4": {
+      "comma_spaces": 221,
+      "dot_spaces": 2111,
+      "total_spaces": 2332,
+      "comma_rate_pct": 9.48,
+      "comma_fusion_rate_pct": 32.58,
+      "dot_fusion_rate_pct": 7.58
+    },
+    "5": {
+      "comma_spaces": 59,
+      "dot_spaces": 720,
+      "total_spaces": 779,
+      "comma_rate_pct": 7.57,
+      "comma_fusion_rate_pct": 32.2,
+      "dot_fusion_rate_pct": 4.31
+    },
+    "U": {
+      "comma_spaces": 29,
+      "dot_spaces": 385,
+      "total_spaces": 414,
+      "comma_rate_pct": 7.0,
+      "comma_fusion_rate_pct": 55.17,
+      "dot_fusion_rate_pct": 7.01
+    }
+  },
+  "by_locus_type": {
+    "Other": {
+      "comma": 2669,
+      "dot": 30294,
+      "total": 32963,
+      "comma_rate_pct": 8.1
+    }
+  },
+  "top_35_comma_micro_spaced_pairs": [
+    {
+      "pair": "s,aiin",
+      "fused_word": "saiin",
+      "comma_count": 29,
+      "fused_word_corpus_freq": 127,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": true
+    },
+    {
+      "pair": "or,aiin",
+      "fused_word": "oraiin",
+      "comma_count": 26,
+      "fused_word_corpus_freq": 33,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": true
+    },
+    {
+      "pair": "o,l",
+      "fused_word": "ol",
+      "comma_count": 15,
+      "fused_word_corpus_freq": 549,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": true
+    },
+    {
+      "pair": "r,aiin",
+      "fused_word": "raiin",
+      "comma_count": 12,
+      "fused_word_corpus_freq": 64,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": true
+    },
+    {
+      "pair": "s,ar",
+      "fused_word": "sar",
+      "comma_count": 10,
+      "fused_word_corpus_freq": 80,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": true
+    },
+    {
+      "pair": "ar,aiin",
+      "fused_word": "araiin",
+      "comma_count": 10,
+      "fused_word_corpus_freq": 9,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": true
+    },
+    {
+      "pair": "or,ain",
+      "fused_word": "orain",
+      "comma_count": 8,
+      "fused_word_corpus_freq": 15,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": false
+    },
+    {
+      "pair": "ol,shedy",
+      "fused_word": "olshedy",
+      "comma_count": 8,
+      "fused_word_corpus_freq": 22,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": false
+    },
+    {
+      "pair": "ol,aiin",
+      "fused_word": "olaiin",
+      "comma_count": 7,
+      "fused_word_corpus_freq": 51,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": true
+    },
+    {
+      "pair": "y,cheey",
+      "fused_word": "ycheey",
+      "comma_count": 7,
+      "fused_word_corpus_freq": 19,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": false
+    },
+    {
+      "pair": "chol,daiin",
+      "fused_word": "choldaiin",
+      "comma_count": 6,
+      "fused_word_corpus_freq": 3,
+      "is_attested_word": true,
+      "a_is_proclitic": false,
+      "b_is_enclitic": false
+    },
+    {
+      "pair": "ol,chedy",
+      "fused_word": "olchedy",
+      "comma_count": 6,
+      "fused_word_corpus_freq": 37,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": false
+    },
+    {
+      "pair": "r,ain",
+      "fused_word": "rain",
+      "comma_count": 6,
+      "fused_word_corpus_freq": 22,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": false
+    },
+    {
+      "pair": "l,keedy",
+      "fused_word": "lkeedy",
+      "comma_count": 6,
+      "fused_word_corpus_freq": 37,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": false
+    },
+    {
+      "pair": "ol,kaiin",
+      "fused_word": "olkaiin",
+      "comma_count": 6,
+      "fused_word_corpus_freq": 29,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": false
+    },
+    {
+      "pair": "ar,y",
+      "fused_word": "ary",
+      "comma_count": 5,
+      "fused_word_corpus_freq": 25,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": true
+    },
+    {
+      "pair": "or,air",
+      "fused_word": "orair",
+      "comma_count": 5,
+      "fused_word_corpus_freq": 3,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": false
+    },
+    {
+      "pair": "d,aiin",
+      "fused_word": "daiin",
+      "comma_count": 5,
+      "fused_word_corpus_freq": 846,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": true
+    },
+    {
+      "pair": "s,al",
+      "fused_word": "sal",
+      "comma_count": 5,
+      "fused_word_corpus_freq": 49,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": true
+    },
+    {
+      "pair": "aiin,y",
+      "fused_word": "aiiny",
+      "comma_count": 5,
+      "fused_word_corpus_freq": 3,
+      "is_attested_word": true,
+      "a_is_proclitic": false,
+      "b_is_enclitic": true
+    },
+    {
+      "pair": "cheo,r",
+      "fused_word": "cheor",
+      "comma_count": 5,
+      "fused_word_corpus_freq": 93,
+      "is_attested_word": true,
+      "a_is_proclitic": false,
+      "b_is_enclitic": true
+    },
+    {
+      "pair": "y,shedy",
+      "fused_word": "yshedy",
+      "comma_count": 5,
+      "fused_word_corpus_freq": 7,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": false
+    },
+    {
+      "pair": "ol,kedy",
+      "fused_word": "olkedy",
+      "comma_count": 5,
+      "fused_word_corpus_freq": 26,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": false
+    },
+    {
+      "pair": "l,keey",
+      "fused_word": "lkeey",
+      "comma_count": 5,
+      "fused_word_corpus_freq": 39,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": false
+    },
+    {
+      "pair": "ol,sheey",
+      "fused_word": "olsheey",
+      "comma_count": 4,
+      "fused_word_corpus_freq": 7,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": false
+    },
+    {
+      "pair": "y,taiin",
+      "fused_word": "ytaiin",
+      "comma_count": 4,
+      "fused_word_corpus_freq": 39,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": false
+    },
+    {
+      "pair": "s,ain",
+      "fused_word": "sain",
+      "comma_count": 4,
+      "fused_word_corpus_freq": 65,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": false
+    },
+    {
+      "pair": "l,s",
+      "fused_word": "ls",
+      "comma_count": 4,
+      "fused_word_corpus_freq": 13,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": true
+    },
+    {
+      "pair": "ty,dy",
+      "fused_word": "tydy",
+      "comma_count": 4,
+      "fused_word_corpus_freq": 3,
+      "is_attested_word": true,
+      "a_is_proclitic": false,
+      "b_is_enclitic": true
+    },
+    {
+      "pair": "s,air",
+      "fused_word": "sair",
+      "comma_count": 4,
+      "fused_word_corpus_freq": 29,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": false
+    },
+    {
+      "pair": "o,r",
+      "fused_word": "or",
+      "comma_count": 4,
+      "fused_word_corpus_freq": 380,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": true
+    },
+    {
+      "pair": "chol,dy",
+      "fused_word": "choldy",
+      "comma_count": 4,
+      "fused_word_corpus_freq": 11,
+      "is_attested_word": true,
+      "a_is_proclitic": false,
+      "b_is_enclitic": true
+    },
+    {
+      "pair": "ol,or",
+      "fused_word": "olor",
+      "comma_count": 4,
+      "fused_word_corpus_freq": 28,
+      "is_attested_word": true,
+      "a_is_proclitic": true,
+      "b_is_enclitic": true
+    },
+    {
+      "pair": "sar,aiin",
+      "fused_word": "saraiin",
+      "comma_count": 4,
+      "fused_word_corpus_freq": 3,
+      "is_attested_word": true,
+      "a_is_proclitic": false,
+      "b_is_enclitic": true
+    },
+    {
+      "pair": "dair,al",
+      "fused_word": "dairal",
+      "comma_count": 4,
+      "fused_word_corpus_freq": 5,
+      "is_attested_word": true,
+      "a_is_proclitic": false,
+      "b_is_enclitic": true
+    }
+  ]
+}
