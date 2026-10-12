@@ -1,0 +1,472 @@
+{
+  "calendar_wheel_continuity": {
+    "aries_split_pair_f70v1_f71r_jaccard": 0.0448,
+    "taurus_split_pair_f71v_f72r1_jaccard": 0.1304,
+    "split_pair_mean_jaccard": 0.0876,
+    "calendar_adjacent_11pairs_mean_jaccard": 0.0771,
+    "non_adjacent_pairs_mean_jaccard": 0.0806,
+    "adjacent_vs_non_adjacent_lift_pct": -4.34,
+    "null_permuted_wheel_mean_jaccard": 0.0802,
+    "null_permuted_wheel_std": 0.0051,
+    "z_calendar_adjacency": -0.59
+  },
+  "split_medallion_light_vs_dark_contrast": {
+    "dark_medallions_f70v1_f72r1": {
+      "n_tokens": 178,
+      "o_onset_pct": 47.75,
+      "y_onset_pct": 2.81,
+      "ch_sh_onset_pct": 24.72,
+      "dy_coda_pct": 10.11,
+      "aiin_coda_pct": 13.48
+    },
+    "light_medallions_f71r_f71v": {
+      "n_tokens": 176,
+      "o_onset_pct": 54.55,
+      "y_onset_pct": 1.14,
+      "ch_sh_onset_pct": 21.02,
+      "dy_coda_pct": 10.8,
+      "aiin_coda_pct": 7.95
+    }
+  },
+  "astro_botanical_validation": {
+    "observed_mean_max_idf_across_12_medallions": 15.496,
+    "null_mean_max_idf": 13.323,
+    "null_std_max_idf": 0.65,
+    "z_score": 3.34
+  },
+  "twelve_medallion_profiles": [
+    {
+      "folio": "f70v2",
+      "zodiac_sign": "01_PISCES_MAR",
+      "medallion_type": "FULL_30",
+      "total_tokens": 125,
+      "nymph_label_tokens": 4,
+      "ring_tokens": 91,
+      "distinct_stems": 98,
+      "o_onset_pct": 49.6,
+      "y_onset_pct": 4.8,
+      "d_onset_pct": 8.8,
+      "dy_coda_pct": 12.8,
+      "liquid_coda_pct": 28.0,
+      "aiin_coda_pct": 10.4
+    },
+    {
+      "folio": "f70v1",
+      "zodiac_sign": "02A_ARIES_DARK_APR1",
+      "medallion_type": "SPLIT_DARK_15",
+      "total_tokens": 81,
+      "nymph_label_tokens": 5,
+      "ring_tokens": 56,
+      "distinct_stems": 72,
+      "o_onset_pct": 49.38,
+      "y_onset_pct": 2.47,
+      "d_onset_pct": 11.11,
+      "dy_coda_pct": 13.58,
+      "liquid_coda_pct": 25.93,
+      "aiin_coda_pct": 11.11
+    },
+    {
+      "folio": "f71r",
+      "zodiac_sign": "02B_ARIES_LIGHT_APR2",
+      "medallion_type": "SPLIT_LIGHT_15",
+      "total_tokens": 82,
+      "nymph_label_tokens": 3,
+      "ring_tokens": 65,
+      "distinct_stems": 68,
+      "o_onset_pct": 63.41,
+      "y_onset_pct": 2.44,
+      "d_onset_pct": 1.22,
+      "dy_coda_pct": 15.85,
+      "liquid_coda_pct": 30.49,
+      "aiin_coda_pct": 4.88
+    },
+    {
+      "folio": "f71v",
+      "zodiac_sign": "03A_TAURUS_LIGHT_MAY1",
+      "medallion_type": "SPLIT_LIGHT_15",
+      "total_tokens": 94,
+      "nymph_label_tokens": 3,
+      "ring_tokens": 73,
+      "distinct_stems": 78,
+      "o_onset_pct": 46.81,
+      "y_onset_pct": 0.0,
+      "d_onset_pct": 4.26,
+      "dy_coda_pct": 6.38,
+      "liquid_coda_pct": 41.49,
+      "aiin_coda_pct": 10.64
+    },
+    {
+      "folio": "f72r1",
+      "zodiac_sign": "03B_TAURUS_DARK_MAY2",
+      "medallion_type": "SPLIT_DARK_15",
+      "total_tokens": 97,
+      "nymph_label_tokens": 2,
+      "ring_tokens": 78,
+      "distinct_stems": 78,
+      "o_onset_pct": 46.39,
+      "y_onset_pct": 3.09,
+      "d_onset_pct": 2.06,
+      "dy_coda_pct": 7.22,
+      "liquid_coda_pct": 36.08,
+      "aiin_coda_pct": 15.46
+    },
+    {
+      "folio": "f72r2",
+      "zodiac_sign": "04_GEMINI_JUN",
+      "medallion_type": "FULL_30",
+      "total_tokens": 104,
+      "nymph_label_tokens": 3,
+      "ring_tokens": 74,
+      "distinct_stems": 79,
+      "o_onset_pct": 55.77,
+      "y_onset_pct": 1.92,
+      "d_onset_pct": 3.85,
+      "dy_coda_pct": 5.77,
+      "liquid_coda_pct": 27.88,
+      "aiin_coda_pct": 16.35
+    },
+    {
+      "folio": "f72r3",
+      "zodiac_sign": "05_CANCER_JUL",
+      "medallion_type": "FULL_30",
+      "total_tokens": 144,
+      "nymph_label_tokens": 3,
+      "ring_tokens": 106,
+      "distinct_stems": 119,
+      "o_onset_pct": 50.69,
+      "y_onset_pct": 8.33,
+      "d_onset_pct": 0.69,
+      "dy_coda_pct": 11.81,
+      "liquid_coda_pct": 28.47,
+      "aiin_coda_pct": 15.97
+    },
+    {
+      "folio": "f72v3",
+      "zodiac_sign": "06_LEO_AUG",
+      "medallion_type": "FULL_30",
+      "total_tokens": 107,
+      "nymph_label_tokens": 2,
+      "ring_tokens": 75,
+      "distinct_stems": 88,
+      "o_onset_pct": 59.81,
+      "y_onset_pct": 3.74,
+      "d_onset_pct": 2.8,
+      "dy_coda_pct": 18.69,
+      "liquid_coda_pct": 20.56,
+      "aiin_coda_pct": 6.54
+    },
+    {
+      "folio": "f72v2",
+      "zodiac_sign": "07_VIRGO_SEP",
+      "medallion_type": "FULL_30",
+      "total_tokens": 91,
+      "nymph_label_tokens": 2,
+      "ring_tokens": 61,
+      "distinct_stems": 85,
+      "o_onset_pct": 54.95,
+      "y_onset_pct": 4.4,
+      "d_onset_pct": 2.2,
+      "dy_coda_pct": 16.48,
+      "liquid_coda_pct": 18.68,
+      "aiin_coda_pct": 10.99
+    },
+    {
+      "folio": "f72v1",
+      "zodiac_sign": "08_LIBRA_OCT",
+      "medallion_type": "FULL_30",
+      "total_tokens": 93,
+      "nymph_label_tokens": 2,
+      "ring_tokens": 63,
+      "distinct_stems": 84,
+      "o_onset_pct": 61.29,
+      "y_onset_pct": 11.83,
+      "d_onset_pct": 2.15,
+      "dy_coda_pct": 15.05,
+      "liquid_coda_pct": 22.58,
+      "aiin_coda_pct": 8.6
+    },
+    {
+      "folio": "f73r",
+      "zodiac_sign": "09_SCORPIO_NOV",
+      "medallion_type": "FULL_30",
+      "total_tokens": 86,
+      "nymph_label_tokens": 3,
+      "ring_tokens": 56,
+      "distinct_stems": 76,
+      "o_onset_pct": 43.02,
+      "y_onset_pct": 6.98,
+      "d_onset_pct": 5.81,
+      "dy_coda_pct": 12.79,
+      "liquid_coda_pct": 22.09,
+      "aiin_coda_pct": 8.14
+    },
+    {
+      "folio": "f73v",
+      "zodiac_sign": "10_SAGITTARIUS_DEC",
+      "medallion_type": "FULL_30",
+      "total_tokens": 90,
+      "nymph_label_tokens": 3,
+      "ring_tokens": 60,
+      "distinct_stems": 75,
+      "o_onset_pct": 43.33,
+      "y_onset_pct": 17.78,
+      "d_onset_pct": 3.33,
+      "dy_coda_pct": 25.56,
+      "liquid_coda_pct": 15.56,
+      "aiin_coda_pct": 5.56
+    }
+  ],
+  "twelve_medallion_astro_botanical_correspondences": [
+    {
+      "zodiac_folio": "f70v2",
+      "zodiac_sign": "01_PISCES_MAR",
+      "top_herbal_folio": "f87r",
+      "herbal_lang": "A",
+      "runner_up_herbal_folios": [
+        "f34r(13.5)",
+        "f43r(13.4)",
+        "f20v(13.1)"
+      ],
+      "shared_open_stems_count": 6,
+      "nymph_label_anchored_count": 0,
+      "idf_overlap_score": 13.53,
+      "shared_stems_with_surface_forms": [
+        "aldy: Z(alody) <-> H(aldy)",
+        "sal: Z(sal) <-> H(sal)",
+        "otedy: Z(oteody) <-> H(oteody)",
+        "cheos: Z(sheeos) <-> H(cheos)",
+        "ykey: Z(ykeey) <-> H(ykeey)"
+      ]
+    },
+    {
+      "zodiac_folio": "f70v1",
+      "zodiac_sign": "02A_ARIES_DARK_APR1",
+      "top_herbal_folio": "f40r",
+      "herbal_lang": "B",
+      "runner_up_herbal_folios": [
+        "f48r(12.6)",
+        "f43r(10.9)",
+        "f57r(10.7)"
+      ],
+      "shared_open_stems_count": 5,
+      "nymph_label_anchored_count": 0,
+      "idf_overlap_score": 14.57,
+      "shared_stems_with_surface_forms": [
+        "okolchy: Z(okolshy) <-> H(okolchy)",
+        "toar: Z(toar) <-> H(toar)",
+        "air: Z(air) <-> H(aiir)",
+        "olain: Z(olaiin) <-> H(olaiin)",
+        "otor: Z(otor) <-> H(otor)"
+      ]
+    },
+    {
+      "zodiac_folio": "f71r",
+      "zodiac_sign": "02B_ARIES_LIGHT_APR2",
+      "top_herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "runner_up_herbal_folios": [
+        "f43r(10.9)",
+        "f41v(9.3)",
+        "f90v1(9.3)"
+      ],
+      "shared_open_stems_count": 5,
+      "nymph_label_anchored_count": 1,
+      "idf_overlap_score": 11.12,
+      "shared_stems_with_surface_forms": [
+        "okaldy: Z(okalody) <-> H(okaldy)",
+        "oteos: Z(oteos*Lz) <-> H(oteos)",
+        "otedy: Z(oteody) <-> H(oteody)",
+        "okedy: Z(okeeody) <-> H(okeody)",
+        "oteol: Z(oteeol) <-> H(oteol)"
+      ]
+    },
+    {
+      "zodiac_folio": "f71v",
+      "zodiac_sign": "03A_TAURUS_LIGHT_MAY1",
+      "top_herbal_folio": "f48r",
+      "herbal_lang": "B",
+      "runner_up_herbal_folios": [
+        "f17v(9.8)",
+        "f8r(9.2)",
+        "f42r(9.2)"
+      ],
+      "shared_open_stems_count": 4,
+      "nymph_label_anchored_count": 0,
+      "idf_overlap_score": 10.44,
+      "shared_stems_with_surface_forms": [
+        "otaldy: Z(otalody) <-> H(opaldy)",
+        "oteodain: Z(oteeodaiin) <-> H(oteodaiin)",
+        "che: Z(she) <-> H(she)",
+        "okam: Z(okam) <-> H(okam)"
+      ]
+    },
+    {
+      "zodiac_folio": "f72r1",
+      "zodiac_sign": "03B_TAURUS_DARK_MAY2",
+      "top_herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "runner_up_herbal_folios": [
+        "f31v(11.4)",
+        "f93v(10.2)",
+        "f8v(10.1)"
+      ],
+      "shared_open_stems_count": 6,
+      "nymph_label_anchored_count": 0,
+      "idf_overlap_score": 13.74,
+      "shared_stems_with_surface_forms": [
+        "chedal: Z(chedal) <-> H(chedal)",
+        "oteos: Z(oteos) <-> H(oteos)",
+        "otam: Z(otam) <-> H(otam)",
+        "ytey: Z(ytey) <-> H(yteey)",
+        "kol: Z(kol) <-> H(kol)"
+      ]
+    },
+    {
+      "zodiac_folio": "f72r2",
+      "zodiac_sign": "04_GEMINI_JUN",
+      "top_herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "runner_up_herbal_folios": [
+        "f48v(13.0)",
+        "f66v(12.7)",
+        "f24r(11.8)"
+      ],
+      "shared_open_stems_count": 7,
+      "nymph_label_anchored_count": 0,
+      "idf_overlap_score": 16.28,
+      "shared_stems_with_surface_forms": [
+        "okedal: Z(okedal) <-> H(qokedal)",
+        "okaldy: Z(okaldy) <-> H(okaldy)",
+        "oteos: Z(oteos) <-> H(oteos)",
+        "otedy: Z(qoteeody) <-> H(oteody)",
+        "otam: Z(otam) <-> H(otam)"
+      ]
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "05_CANCER_JUL",
+      "top_herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "runner_up_herbal_folios": [
+        "f50r(16.9)",
+        "f31r(15.5)",
+        "f26v(14.9)"
+      ],
+      "shared_open_stems_count": 9,
+      "nymph_label_anchored_count": 0,
+      "idf_overlap_score": 18.47,
+      "shared_stems_with_surface_forms": [
+        "oteos: Z(oteos) <-> H(oteos)",
+        "ytain: Z(ypaiin) <-> H(ytaiin)",
+        "otedy: Z(oteody) <-> H(oteody)",
+        "orain: Z(oraiin) <-> H(oraiin)",
+        "okedy: Z(okeody) <-> H(okeody)"
+      ]
+    },
+    {
+      "zodiac_folio": "f72v3",
+      "zodiac_sign": "06_LEO_AUG",
+      "top_herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "runner_up_herbal_folios": [
+        "f34r(13.1)",
+        "f33v(12.8)",
+        "f87r(12.6)"
+      ],
+      "shared_open_stems_count": 7,
+      "nymph_label_anchored_count": 0,
+      "idf_overlap_score": 15.81,
+      "shared_stems_with_surface_forms": [
+        "chesy: Z(cheesy) <-> H(chesy)",
+        "okaldy: Z(okaldy) <-> H(okaldy)",
+        "oteos: Z(oteos) <-> H(oteos)",
+        "otedy: Z(oteody) <-> H(oteody)",
+        "okam: Z(okam) <-> H(okam)"
+      ]
+    },
+    {
+      "zodiac_folio": "f72v2",
+      "zodiac_sign": "07_VIRGO_SEP",
+      "top_herbal_folio": "f90v1",
+      "herbal_lang": "A",
+      "runner_up_herbal_folios": [
+        "f49r(12.4)",
+        "f48r(12.4)",
+        "f43r(11.6)"
+      ],
+      "shared_open_stems_count": 7,
+      "nymph_label_anchored_count": 0,
+      "idf_overlap_score": 16.73,
+      "shared_stems_with_surface_forms": [
+        "cheokey: Z(sheokey) <-> H(cheokeey)",
+        "ykeor: Z(ykeeor) <-> H(ykeeor)",
+        "ytedy: Z(yteody) <-> H(yteody)",
+        "okeor: Z(okeeor) <-> H(qokeor)",
+        "cheos: Z(sheos) <-> H(cheos)"
+      ]
+    },
+    {
+      "zodiac_folio": "f72v1",
+      "zodiac_sign": "08_LIBRA_OCT",
+      "top_herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "runner_up_herbal_folios": [
+        "f48v(11.4)",
+        "f39r(11.1)",
+        "f54v(10.2)"
+      ],
+      "shared_open_stems_count": 7,
+      "nymph_label_anchored_count": 0,
+      "idf_overlap_score": 18.8,
+      "shared_stems_with_surface_forms": [
+        "chtey: Z(shtey) <-> H(chtey)",
+        "oteod: Z(oteod) <-> H(oteod)",
+        "octhy: Z(octhy) <-> H(octhy)",
+        "oteos: Z(oteos) <-> H(oteos)",
+        "ychey: Z(ychey) <-> H(ysheey)"
+      ]
+    },
+    {
+      "zodiac_folio": "f73r",
+      "zodiac_sign": "09_SCORPIO_NOV",
+      "top_herbal_folio": "f34r",
+      "herbal_lang": "B",
+      "runner_up_herbal_folios": [
+        "f46r(18.9)",
+        "f43v(18.1)",
+        "f31v(16.4)"
+      ],
+      "shared_open_stems_count": 8,
+      "nymph_label_anchored_count": 0,
+      "idf_overlap_score": 23.42,
+      "shared_stems_with_surface_forms": [
+        "oltey: Z(olteey) <-> H(oltey)",
+        "chesy: Z(cheesy) <-> H(chesy)",
+        "chetey: Z(cheteey) <-> H(chetey)",
+        "ochey: Z(qocheey) <-> H(ochey)",
+        "chek: Z(chek) <-> H(shek)"
+      ]
+    },
+    {
+      "zodiac_folio": "f73v",
+      "zodiac_sign": "10_SAGITTARIUS_DEC",
+      "top_herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "runner_up_herbal_folios": [
+        "f90v1(12.0)",
+        "f54v(11.6)",
+        "f41v(11.0)"
+      ],
+      "shared_open_stems_count": 6,
+      "nymph_label_anchored_count": 1,
+      "idf_overlap_score": 13.04,
+      "shared_stems_with_surface_forms": [
+        "ykedy: Z(ykeody) <-> H(ykeody)",
+        "ytain: Z(ypaiin) <-> H(ytaiin)",
+        "otedy: Z(oteody) <-> H(oteody)",
+        "ytdy: Z(yteedy) <-> H(yteedy)",
+        "okedy: Z(qokeody*Lz) <-> H(okeody)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "edition": "ASTRO_BOTANICAL_AND_306RECIPE_HANDBOOK",
+  "discoveries_covered": [
+    118,
+    119,
+    120,
+    121
+  ],
+  "attacks_covered": [
+    101,
+    102,
+    103,
+    104
+  ],
+  "zodiac_astro_botanical_validation": {
+    "observed_mean_max_idf_across_12_medallions": 15.496,
+    "null_mean_max_idf": 13.323,
+    "null_std_max_idf": 0.65,
+    "z_score": 3.34
+  },
+  "zodiac_calendar_wheel_continuity": {
+    "aries_split_pair_f70v1_f71r_jaccard": 0.0448,
+    "taurus_split_pair_f71v_f72r1_jaccard": 0.1304,
+    "split_pair_mean_jaccard": 0.0876,
+    "calendar_adjacent_11pairs_mean_jaccard": 0.0771,
+    "non_adjacent_pairs_mean_jaccard": 0.0806,
+    "adjacent_vs_non_adjacent_lift_pct": -4.34,
+    "null_permuted_wheel_mean_jaccard": 0.0802,
+    "null_permuted_wheel_std": 0.0051,
+    "z_calendar_adjacency": -0.59
+  },
+  "quire14_exegetical_cohesion": {
+    "observed_4x4_mean_jaccard": 0.071,
+    "other_currier_b_folios_mean_jaccard": 0.0496,
+    "jaccard_lift_vs_other_currier_b_pct": 43.2,
+    "null_sampled_currier_b_mean_jaccard": 0.051,
+    "null_std": 0.0064,
+    "z_score": 3.11,
+    "observed_4x4_mean_idf_score": 41.33
+  },
+  "quire20_corpus_summary": {
+    "total_starred_recipes": 292,
+    "multi_line_recipes_ge3": 239,
+    "total_tokens": 10781,
+    "mean_tokens_per_recipe": 36.92,
+    "mean_lines_per_recipe": 3.99,
+    "mean_procedural_steps_per_recipe": 4.27
+  },
+  "quire20_stoichiometric_dosing_law": {
+    "mean_measured_doses_per_recipe": 16.03,
+    "mean_active_verbs_per_recipe": 12.28,
+    "mean_verb_to_dose_ratio": 0.964,
+    "pearson_r_dose_vs_verb": 0.7476
+  }
+}

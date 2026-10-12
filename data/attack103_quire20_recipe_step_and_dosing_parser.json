@@ -1,0 +1,171 @@
+{
+  "quire20_corpus_summary": {
+    "total_starred_recipes": 292,
+    "multi_line_recipes_ge3": 239,
+    "total_tokens": 10781,
+    "mean_tokens_per_recipe": 36.92,
+    "mean_lines_per_recipe": 3.99,
+    "mean_procedural_steps_per_recipe": 4.27
+  },
+  "three_phase_recipe_trajectory": {
+    "phase_profiles": {
+      "PHASE_1_OPENING_LINE": {
+        "n_tokens": 2358,
+        "gallows_header_p_f_t_k_onset_pct": 16.62,
+        "o_nominal_onset_pct": 24.0,
+        "qo_active_verb_pct": 20.02,
+        "l_liquid_applicative_pct": 8.57,
+        "edy_processual_verb_pct": 17.43,
+        "aiin_measured_dose_pct": 14.84,
+        "ol_or_container_pct": 24.34,
+        "am_terminal_closer_pct": 3.14
+      },
+      "PHASE_2_MIDDLE_PROCESSING_LINES": {
+        "n_tokens": 6046,
+        "gallows_header_p_f_t_k_onset_pct": 4.27,
+        "o_nominal_onset_pct": 24.03,
+        "qo_active_verb_pct": 17.93,
+        "l_liquid_applicative_pct": 11.18,
+        "edy_processual_verb_pct": 13.51,
+        "aiin_measured_dose_pct": 20.91,
+        "ol_or_container_pct": 24.2,
+        "am_terminal_closer_pct": 3.66
+      },
+      "PHASE_3_FINAL_CLOSING_LINE": {
+        "n_tokens": 1469,
+        "gallows_header_p_f_t_k_onset_pct": 2.93,
+        "o_nominal_onset_pct": 23.35,
+        "qo_active_verb_pct": 13.55,
+        "l_liquid_applicative_pct": 12.12,
+        "edy_processual_verb_pct": 12.53,
+        "aiin_measured_dose_pct": 23.83,
+        "ol_or_container_pct": 21.58,
+        "am_terminal_closer_pct": 2.25
+      }
+    },
+    "opening_gallows_header_vs_mid_diff_pct": 12.35,
+    "z_opening_gallows_header": 15.21,
+    "middle_qo_active_verb_vs_opening_diff_pct": -2.09,
+    "z_middle_qo_active_verb": -2.17,
+    "closing_am_terminator_vs_mid_diff_pct": -1.41,
+    "z_closing_am_terminator": -2.37
+  },
+  "stoichiometric_dosing_law": {
+    "mean_measured_doses_per_recipe": 16.03,
+    "mean_active_verbs_per_recipe": 12.28,
+    "mean_verb_to_dose_ratio": 0.964,
+    "pearson_r_dose_vs_verb": 0.7476
+  },
+  "sample_structured_recipes": [
+    {
+      "recipe_id": "f58v.29",
+      "n_lines": 5,
+      "n_steps": 5,
+      "n_tokens": 39,
+      "n_measured_doses": 21,
+      "n_active_verbs": 11,
+      "verb_to_dose_ratio": 0.52,
+      "step_1_opening": "polal . keeo . oleeckhey . dalar . ykeeody . choar . ckhar . yfairalam",
+      "step_last_closing": "qoair . cholar . chey"
+    },
+    {
+      "recipe_id": "f103r.1",
+      "n_lines": 4,
+      "n_steps": 4,
+      "n_tokens": 49,
+      "n_measured_doses": 21,
+      "n_active_verbs": 13,
+      "verb_to_dose_ratio": 0.62,
+      "step_1_opening": "pchedal . shdy . ytechypchy . otey . lshey . qoteey . qotal . shedy",
+      "step_last_closing": "okedy . qokeey . okey . chdarol . loty . chedaraly"
+    },
+    {
+      "recipe_id": "f103r.5",
+      "n_lines": 3,
+      "n_steps": 3,
+      "n_tokens": 33,
+      "n_measured_doses": 7,
+      "n_active_verbs": 14,
+      "verb_to_dose_ratio": 2.0,
+      "step_1_opening": "pocharal . okedar . shedy . oteey . qokey . lkar . sheeky . okalor",
+      "step_last_closing": "shs . olshedy . qokeey . okeeody . qoedy . olshedy"
+    },
+    {
+      "recipe_id": "f103r.8",
+      "n_lines": 5,
+      "n_steps": 5,
+      "n_tokens": 57,
+      "n_measured_doses": 22,
+      "n_active_verbs": 14,
+      "verb_to_dose_ratio": 0.64,
+      "step_1_opening": "daroal . okey . chedy . okey . rain . okechy . qoisal . qotaradchey",
+      "step_last_closing": "shey . shckhy . oteey . qokeolkeedy . sharaiin . otedy"
+    },
+    {
+      "recipe_id": "f103r.13",
+      "n_lines": 3,
+      "n_steps": 3,
+      "n_tokens": 27,
+      "n_measured_doses": 11,
+      "n_active_verbs": 13,
+      "verb_to_dose_ratio": 1.18,
+      "step_1_opening": "podarsheor . qotedy . okeey . qokar . checkhy . qokain . chedy . pchdy",
+      "step_last_closing": "qotedy . qokeey . shol . qotey . shkaiin"
+    },
+    {
+      "recipe_id": "f103r.18",
+      "n_lines": 3,
+      "n_steps": 3,
+      "n_tokens": 28,
+      "n_measured_doses": 14,
+      "n_active_verbs": 13,
+      "verb_to_dose_ratio": 0.93,
+      "step_1_opening": "polchedy . qokeol . okain . checthy . oteeylshedy . okain . qokain . qokalshedy",
+      "step_last_closing": "shckhy . qokaiin . shey . qokaiin . shedy . olor"
+    },
+    {
+      "recipe_id": "f103r.21",
+      "n_lines": 3,
+      "n_steps": 3,
+      "n_tokens": 29,
+      "n_measured_doses": 11,
+      "n_active_verbs": 11,
+      "verb_to_dose_ratio": 1.0,
+      "step_1_opening": "pcheam . sokedy . dalkar . otal . qokal . chepy . okedy . qoky",
+      "step_last_closing": "daiin . sheckhy . lchedy . chckhy . shol"
+    },
+    {
+      "recipe_id": "f103r.24",
+      "n_lines": 3,
+      "n_steps": 3,
+      "n_tokens": 29,
+      "n_measured_doses": 12,
+      "n_active_verbs": 8,
+      "verb_to_dose_ratio": 0.67,
+      "step_1_opening": "tchoky . okeal . shedy . qokal . oty . opchedy . qotain . shcthy",
+      "step_last_closing": "okeey . qotchy . shey . olcheedar . shey . lotor"
+    },
+    {
+      "recipe_id": "f103r.27",
+      "n_lines": 3,
+      "n_steps": 3,
+      "n_tokens": 26,
+      "n_measured_doses": 7,
+      "n_active_verbs": 14,
+      "verb_to_dose_ratio": 2.0,
+      "step_1_opening": "qokechy . okeey . qokeey . lkeeody . sheey . qokeeylkeol . tcheyqokeey . okeey",
+      "step_last_closing": "qokeeechy . shokeey . qochey . qokeey . chal . chedy"
+    },
+    {
+      "recipe_id": "f103r.30",
+      "n_lines": 3,
+      "n_steps": 3,
+      "n_tokens": 28,
+      "n_measured_doses": 11,
+      "n_active_verbs": 10,
+      "verb_to_dose_ratio": 0.91,
+      "step_1_opening": "pcholkchdy . sheckhy . qokey . okaiin . shedy . chpchy . opchedy . oteeykshy",
+      "step_last_closing": "qokedy . qokal . shety . otedy . shcthy . oraiin"
+    }
+  ]
+}

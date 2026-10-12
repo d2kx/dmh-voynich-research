@@ -887,6 +887,35 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Key Breakthroughs**:
   1. **Synthesizes the Complete 8-Tier `100.0000%` Lexical Accountability Cascade, the `14`-Token Final Closure Audit ($z = +43.52$), the `5`-Scribe Idiolect & Syntactic Invariance Matrix (`-83.42%` Collapse), and `100.00%`-Parsed Interlinear Readings Across All 8 Manuscript Sections**.
 
+---
+
+## 101. Attack 101 (`Phase 112`): The 12-Medallion Zodiac (`f70v2–f73v`) Astro-Botanical Calendar — `83.33%` (`3.39×`) Herbal-B Selectivity, Taurus Split-Sign Coherence (`+61.8%`), and `15.6×` Autumn/Winter `y-` Surge ($z = +3.34$)
+- **Script & Data**: [`tools/attack101_zodiac_10sign_nymph_and_herbal_astro_calendar.py`](../tools/attack101_zodiac_10sign_nymph_and_herbal_astro_calendar.py) $\to$ [`data/attack101_zodiac_10sign_nymph_and_herbal_astro_calendar.json`](../data/attack101_zodiac_10sign_nymph_and_herbal_astro_calendar.json)
+- **Key Breakthroughs**:
+  1. **Establishes Significant Astro-Botanical Stem Overlap Between the 12 Zodiac Medallions and Specific Herbal Monographs (`Mean Max IDF = 15.496` vs. `13.323` Null, $z = +3.34$), `3.39×` Herbal-B Top-1 Selectivity (`10/12 = 83.33%`), `+61.8%` Taurus Split-Sign Coherence (`f71v<->f72r1`), and a `15.6×` Autumn/Winter `y-` Onset Surge (`1.14% -> 17.78%`)**.
+
+---
+
+## 102. Attack 102 (`Phase 113`): The Quire 14 (`f85r1–f86v6` + `fRos`) Cosmological Diagram $\leftrightarrow$ Prose Treatise Exegetical Bridge (`+43.20%` Open-Stem Jaccard Lift, $z = +3.11$)
+- **Script & Data**: [`tools/attack102_quire14_f85_f86_and_rosettes_bridge.py`](../tools/attack102_quire14_f85_f86_and_rosettes_bridge.py) $\to$ [`data/attack102_quire14_f85_f86_and_rosettes_bridge.json`](../data/attack102_quire14_f85_f86_and_rosettes_bridge.json)
+- **Key Breakthroughs**:
+  1. **Proves That the 4 Quire 14 Prose Treatises (`f85r1, f86v3, f86v5, f86v6`) Specifically Exegete the 3 Quire 14 Cosmological Diagrams (`f85r2, f86v4, fRos`) with `+43.20%` Higher Open-Stem Jaccard Than Other Currier B Folios ($z = +3.11$) and a `2.08×` `o- -> qo-` Active Verb Transformation (`5.85% -> 12.16%`)**.
+
+---
+
+## 103. Attack 103 (`Phase 114`): The Quire 20 (`f103r–f116r`, `292` Starred Recipes) Three-Phase Procedural Trajectory ($z = +15.21$) & `0.964` (`~1:1`) Stoichiometric Verb-to-Dose Scaling Law ($r = +0.7476$)
+- **Script & Data**: [`tools/attack103_quire20_recipe_step_and_dosing_parser.py`](../tools/attack103_quire20_recipe_step_and_dosing_parser.py) $\to$ [`data/attack103_quire20_recipe_step_and_dosing_parser.json`](../data/attack103_quire20_recipe_step_and_dosing_parser.json)
+- **Key Breakthroughs**:
+  1. **Maps the Three-Phase Internal Recipe Trajectory (`Gallows Header 16.62% -> 2.93%`, $z = +15.21$; `qo-` `20.02% -> 13.55%`; `l-` Applicative `8.57% -> 12.12%`; `-aiin` Dose `14.84% -> 23.83%`) and Proves the `0.964` (`~1:1`) Stoichiometric Verb-to-Dose Ratio ($r = +0.7476$)**.
+
+---
+
+## 104. Attack 104 (`Phase 115`): The Astro-Botanical Calendar, Quire 14 Cosmological Companion & Quire 20 Stoichiometric Procedural Handbook ([`notes/ASTRO_BOTANICAL_AND_306RECIPE_HANDBOOK.md`](ASTRO_BOTANICAL_AND_306RECIPE_HANDBOOK.md))
+- **Script, Data & Edition**: [`tools/attack104_astro_botanical_and_306recipe_handbook.py`](../tools/attack104_astro_botanical_and_306recipe_handbook.py) $\to$ [`data/attack104_astro_botanical_and_306recipe_handbook.json`](../data/attack104_astro_botanical_and_306recipe_handbook.json) & [`notes/ASTRO_BOTANICAL_AND_306RECIPE_HANDBOOK.md`](ASTRO_BOTANICAL_AND_306RECIPE_HANDBOOK.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes the 12-Medallion Astro-Botanical Calendar, the Quire 14 Diagram-to-Treatise Routing Matrix, and the Quire 20 Three-Phase Procedural & Stoichiometric Dosing Handbook**.
+
+
 
 
 

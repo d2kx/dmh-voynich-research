@@ -706,6 +706,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 110. The 12-Medallion Zodiac (`f70v2–f73v`) Astro-Botanical Calendar — `83.33%` (`3.39×`) Herbal-B Selectivity, Taurus Split-Sign Coherence (`+61.8%`), and `15.6×` Autumn/Winter `y-` Surge ($z = +3.34$, `Attack 101`)
+- **Astro-Botanical Herbal Correspondence ($z = +3.34$) & `3.39×` Herbal-B Selectivity (`10 / 12 = 83.33%`)**: Across the `12` Zodiac medallions, `10 / 12` (`83.33%`) match a Currier B Herbal Monograph as their `#1` botanical partner (vs. `24.60%` Herbal-B folio share, led by `f43v`, `f34r <-> f73r Scorpio IDF=23.42`, `f40r`, `f48r`). Facing halves of Taurus (`f71v` Light and `f72r1` Dark) share `+61.8%` higher stem Jaccard (`0.1304` vs. `0.0806`), Dark-Star split medallions enrich `-aiin` by `1.70×` (`13.48%` vs. `7.95%`), and `y-` onset surges `15.6×` from Spring (`1.14%`) to Autumn/Winter (`17.78%` on `f73v` Sagittarius).
+
+---
+
+### 111. The Quire 14 (`f85r1–f86v6` + `fRos`) Cosmological Diagram $\leftrightarrow$ Prose Treatise Exegetical Bridge (`+43.20%` Open-Stem Jaccard Lift, $z = +3.11$, `Attack 102`)
+- **`+43.20%` Within-Quire Exegetical Stem Cohesion ($z = +3.11$) & `2.08×` `o- -> qo-` Transformation**: The `4` Quire 14 Prose Treatises (`f85r1, f86v3, f86v5, f86v6`) share `95` open-class canonical stems (`23.57%` of all Diagram open stems; `mean Jaccard = 0.0710` vs. `0.0496` other Currier B folios) with the `3` Quire 14 Cosmological Diagrams (`fRos -> f86v6` `35` stems `IDF=83.41`; `f86v4 -> f85r1` `22` stems `IDF=44.36`; `f85r2 -> f86v3` `15` stems `IDF=30.30`), while Active `qo-` on those exact `95` shared stems doubles from `5.85%` (Diagrams) to `12.16%` (Treatises).
+
+---
+
+### 112. The Quire 20 (`f103r–f116r`, `292` Starred Recipes) Three-Phase Procedural Trajectory ($z = +15.21$) & `0.964` (`~1:1`) Stoichiometric Verb-to-Dose Scaling Law ($r = +0.7476$, `Attack 103`)
+- **Three-Phase Recipe Trajectory & `0.964` (`~1:1`) Verb-to-Dose Stoichiometry ($r = +0.7476$)**: Across `239` multi-line Starred Recipes, moving from Opening Line to Middle Processing Lines to Final Closing Line drops Gallows Headers `5.67×` (`16.62% -> 4.27% -> 2.93%`, $z = +15.21$) and steps down Imperative `qo-` (`20.02% -> 17.93% -> 13.55%`) while surging Liquid Applicatives `l-/ol-` by `+41.4%` (`8.57% -> 11.18% -> 12.12%`) and Measured Doses `-aiin` by `+60.6%` (`14.84% -> 20.91% -> 23.83%`), with a `0.964` (`~1:1`) per-recipe `Verb : Dose` ratio ($r = +0.7476$).
+
+---
+
+### 113. The Astro-Botanical Calendar, Quire 14 Cosmological Companion & Quire 20 Stoichiometric Procedural Handbook ([`notes/ASTRO_BOTANICAL_AND_306RECIPE_HANDBOOK.md`](notes/ASTRO_BOTANICAL_AND_306RECIPE_HANDBOOK.md), `Attack 104`)
+- **Unified Astro-Botanical, Cosmological & Stoichiometric Recipe Handbook ([`notes/ASTRO_BOTANICAL_AND_306RECIPE_HANDBOOK.md`](notes/ASTRO_BOTANICAL_AND_306RECIPE_HANDBOOK.md))**: Synthesizes the 12-Medallion Zodiac-to-Herbal Calendar, the Quire 14 Diagram-to-Treatise Routing Matrix, and the Quire 20 Three-Phase Procedural & Stoichiometric Dosing Handbook.
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -837,6 +857,10 @@ python tools/attack97_final_14_tokens_100pct_closure.py
 python tools/attack98_five_scribe_idiolect_and_invariance_matrix.py
 python tools/attack99_100pct_full_corpus_interlinear_decoder.py
 python tools/attack100_landmark_100attack_complete_compendium.py
+python tools/attack101_zodiac_10sign_nymph_and_herbal_astro_calendar.py
+python tools/attack102_quire14_f85_f86_and_rosettes_bridge.py
+python tools/attack103_quire20_recipe_step_and_dosing_parser.py
+python tools/attack104_astro_botanical_and_306recipe_handbook.py
 ```
 
 

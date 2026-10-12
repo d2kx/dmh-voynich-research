@@ -1,0 +1,262 @@
+{
+  "quire14_exegetical_cohesion": {
+    "observed_4x4_mean_jaccard": 0.071,
+    "other_currier_b_folios_mean_jaccard": 0.0496,
+    "jaccard_lift_vs_other_currier_b_pct": 43.2,
+    "null_sampled_currier_b_mean_jaccard": 0.051,
+    "null_std": 0.0064,
+    "z_score": 3.11,
+    "observed_4x4_mean_idf_score": 41.33
+  },
+  "quire14_shared_stem_transformation": {
+    "total_diagram_open_stems": 403,
+    "total_treatise_open_stems": 470,
+    "shared_open_stems_count": 95,
+    "pct_of_diagram_stems_in_treatises": 23.57,
+    "diagram_surface_profile": {
+      "n_tokens": 171,
+      "o_nominal_pct": 53.8,
+      "qo_active_pct": 5.85,
+      "l_applicative_pct": 14.04,
+      "edy_processual_pct": 9.36,
+      "aiin_quantifier_pct": 21.64
+    },
+    "treatise_surface_profile": {
+      "n_tokens": 255,
+      "o_nominal_pct": 40.0,
+      "qo_active_pct": 12.16,
+      "l_applicative_pct": 17.65,
+      "edy_processual_pct": 10.2,
+      "aiin_quantifier_pct": 18.04
+    }
+  },
+  "best_treatise_per_diagram": [
+    {
+      "diagram_folio": "f85r2",
+      "treatise_folio": "f86v3",
+      "shared_open_stems": 15,
+      "jaccard": 0.0857,
+      "idf_score": 30.3,
+      "top_shared_bridges": [
+        "otodar: Diag(otodar) -> Treat(otodar)",
+        "otodain: Diag(otodaiin) -> Treat(otodaiin)",
+        "oram: Diag(oram) -> Treat(oram)",
+        "olkar: Diag(olkar) -> Treat(olkar)",
+        "kchey: Diag(fcheey) -> Treat(kshey)",
+        "chckhey: Diag(chckhey) -> Treat(chckhey)"
+      ]
+    },
+    {
+      "diagram_folio": "f86v4",
+      "treatise_folio": "f85r1",
+      "shared_open_stems": 22,
+      "jaccard": 0.0969,
+      "idf_score": 44.36,
+      "top_shared_bridges": [
+        "chdair: Diag(chdair) -> Treat(shdair)",
+        "chetchdy: Diag(cheepchdy) -> Treat(shetshdy)",
+        "chotain: Diag(chotaiin) -> Treat(chotaiin)",
+        "octhdy: Diag(octhedy) -> Treat(qocthdy)",
+        "ytedy: Diag(yteeody) -> Treat(yteody)",
+        "osain: Diag(osain) -> Treat(osaiin)"
+      ]
+    },
+    {
+      "diagram_folio": "fRos",
+      "treatise_folio": "f86v6",
+      "shared_open_stems": 35,
+      "jaccard": 0.0794,
+      "idf_score": 83.41,
+      "top_shared_bridges": [
+        "oro: Diag(oro) -> Treat(oro)",
+        "otchdain: Diag(otchdaiin) -> Treat(qotchdaiin)",
+        "dairdy: Diag(dairdy) -> Treat(dairody)",
+        "otydain: Diag(otydaiin) -> Treat(qopydaiin)",
+        "tched: Diag(tched) -> Treat(tshed)",
+        "okod: Diag(okod) -> Treat(qofod)"
+      ]
+    }
+  ],
+  "full_4x4_routing_matrix": [
+    {
+      "diagram_folio": "fRos",
+      "treatise_folio": "f86v6",
+      "shared_open_stems": 35,
+      "jaccard": 0.0794,
+      "idf_score": 83.41,
+      "top_shared_bridges": [
+        "oro: Diag(oro) -> Treat(oro)",
+        "otchdain: Diag(otchdaiin) -> Treat(qotchdaiin)",
+        "dairdy: Diag(dairdy) -> Treat(dairody)",
+        "otydain: Diag(otydaiin) -> Treat(qopydaiin)",
+        "tched: Diag(tched) -> Treat(tshed)",
+        "okod: Diag(okod) -> Treat(qofod)"
+      ]
+    },
+    {
+      "diagram_folio": "fRos",
+      "treatise_folio": "f85r1",
+      "shared_open_stems": 33,
+      "jaccard": 0.0819,
+      "idf_score": 71.15,
+      "top_shared_bridges": [
+        "otedam: Diag(otedam) -> Treat(otedam)",
+        "tched: Diag(tched) -> Treat(tsheed)",
+        "tchdain: Diag(tchdaiin) -> Treat(pchdaiin)",
+        "oto: Diag(oto) -> Treat(oto)",
+        "olar: Diag(olar) -> Treat(olar)",
+        "chetey: Diag(chetey) -> Treat(cheeteey)"
+      ]
+    },
+    {
+      "diagram_folio": "fRos",
+      "treatise_folio": "f86v5",
+      "shared_open_stems": 27,
+      "jaccard": 0.0678,
+      "idf_score": 59.13,
+      "top_shared_bridges": [
+        "otches: Diag(opchees) -> Treat(otchees)",
+        "oal: Diag(oal) -> Treat(oal)",
+        "okary: Diag(okary) -> Treat(okary)",
+        "octhey: Diag(octhey) -> Treat(octhey)",
+        "ykal: Diag(ykal) -> Treat(ykal)",
+        "olkar: Diag(olkar) -> Treat(olkar)"
+      ]
+    },
+    {
+      "diagram_folio": "f86v4",
+      "treatise_folio": "f85r1",
+      "shared_open_stems": 22,
+      "jaccard": 0.0969,
+      "idf_score": 44.36,
+      "top_shared_bridges": [
+        "chdair: Diag(chdair) -> Treat(shdair)",
+        "chetchdy: Diag(cheepchdy) -> Treat(shetshdy)",
+        "chotain: Diag(chotaiin) -> Treat(chotaiin)",
+        "octhdy: Diag(octhedy) -> Treat(qocthdy)",
+        "ytedy: Diag(yteeody) -> Treat(yteody)",
+        "osain: Diag(osain) -> Treat(osaiin)"
+      ]
+    },
+    {
+      "diagram_folio": "fRos",
+      "treatise_folio": "f86v3",
+      "shared_open_stems": 16,
+      "jaccard": 0.042,
+      "idf_score": 36.71,
+      "top_shared_bridges": [
+        "otodar: Diag(otodar) -> Treat(otodar)",
+        "okady: Diag(okady) -> Treat(qokady)",
+        "odey: Diag(odeey) -> Treat(odeeey)",
+        "olkar: Diag(olkar) -> Treat(olkar)",
+        "arain: Diag(araiin) -> Treat(araiin)",
+        "ols: Diag(ols) -> Treat(ols)"
+      ]
+    },
+    {
+      "diagram_folio": "f86v4",
+      "treatise_folio": "f86v6",
+      "shared_open_stems": 17,
+      "jaccard": 0.0625,
+      "idf_score": 32.58,
+      "top_shared_bridges": [
+        "ltchdy: Diag(lpchedy) -> Treat(ltchedy)",
+        "chotain: Diag(chotaiin) -> Treat(shotaiin)",
+        "olkar: Diag(olkar) -> Treat(olkar)",
+        "chdar: Diag(shdar) -> Treat(chdar)",
+        "odar: Diag(odar) -> Treat(qodar)",
+        "oey: Diag(oeeey) -> Treat(oeey)"
+      ]
+    },
+    {
+      "diagram_folio": "f86v4",
+      "treatise_folio": "f86v5",
+      "shared_open_stems": 17,
+      "jaccard": 0.0769,
+      "idf_score": 30.9,
+      "top_shared_bridges": [
+        "olkar: Diag(olkar) -> Treat(olkar)",
+        "ytedy: Diag(yteeody) -> Treat(yteody)",
+        "otcho: Diag(opcho) -> Treat(otcho)",
+        "oes: Diag(oes) -> Treat(oeees)",
+        "odar: Diag(odar) -> Treat(odar)",
+        "oey: Diag(oeeey) -> Treat(oeey)"
+      ]
+    },
+    {
+      "diagram_folio": "f85r2",
+      "treatise_folio": "f86v3",
+      "shared_open_stems": 15,
+      "jaccard": 0.0857,
+      "idf_score": 30.3,
+      "top_shared_bridges": [
+        "otodar: Diag(otodar) -> Treat(otodar)",
+        "otodain: Diag(otodaiin) -> Treat(otodaiin)",
+        "oram: Diag(oram) -> Treat(oram)",
+        "olkar: Diag(olkar) -> Treat(olkar)",
+        "kchey: Diag(fcheey) -> Treat(kshey)",
+        "chckhey: Diag(chckhey) -> Treat(chckhey)"
+      ]
+    },
+    {
+      "diagram_folio": "f85r2",
+      "treatise_folio": "f86v6",
+      "shared_open_stems": 15,
+      "jaccard": 0.0591,
+      "idf_score": 29.45,
+      "top_shared_bridges": [
+        "otchd: Diag(qotchd) -> Treat(qopchd)",
+        "ardy: Diag(arody) -> Treat(arody)",
+        "octhey: Diag(qocthey) -> Treat(ocphey)",
+        "olkar: Diag(olkar) -> Treat(olkar)",
+        "ochdy: Diag(ochedy) -> Treat(ochody)",
+        "odar: Diag(odar) -> Treat(qodar)"
+      ]
+    },
+    {
+      "diagram_folio": "f85r2",
+      "treatise_folio": "f86v5",
+      "shared_open_stems": 13,
+      "jaccard": 0.0634,
+      "idf_score": 27.59,
+      "top_shared_bridges": [
+        "otchs: Diag(otchs) -> Treat(otshs)",
+        "otodain: Diag(otodaiin) -> Treat(otodaiin)",
+        "octhey: Diag(qocthey) -> Treat(octhey)",
+        "olkar: Diag(olkar) -> Treat(olkar)",
+        "odar: Diag(odar) -> Treat(odar)",
+        "okes: Diag(okees) -> Treat(qokees)"
+      ]
+    },
+    {
+      "diagram_folio": "f85r2",
+      "treatise_folio": "f85r1",
+      "shared_open_stems": 15,
+      "jaccard": 0.0701,
+      "idf_score": 25.31,
+      "top_shared_bridges": [
+        "oram: Diag(oram) -> Treat(oram)",
+        "octhdy: Diag(octhody) -> Treat(qocthdy)",
+        "kchey: Diag(fcheey) -> Treat(ksheey)",
+        "ytchdy: Diag(ypshedy) -> Treat(ypchdy)",
+        "chedain: Diag(shedaiin) -> Treat(shedaiin)",
+        "olkey: Diag(olkey) -> Treat(olkeey)"
+      ]
+    },
+    {
+      "diagram_folio": "f86v4",
+      "treatise_folio": "f86v3",
+      "shared_open_stems": 13,
+      "jaccard": 0.066,
+      "idf_score": 25.05,
+      "top_shared_bridges": [
+        "olkar: Diag(olkar) -> Treat(olkar)",
+        "ytedy: Diag(yteeody) -> Treat(yteeody)",
+        "chdar: Diag(shdar) -> Treat(chdar)",
+        "oes: Diag(oes) -> Treat(oees)",
+        "oey: Diag(oeeey) -> Treat(qoeeey)",
+        "ytey: Diag(yteey) -> Treat(yteeey)"
+      ]
+    }
+  ]
+}
