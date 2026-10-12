@@ -1,0 +1,1945 @@
+{
+  "summary": {
+    "total_g_tokens": 150,
+    "total_g_end_tokens": 137,
+    "total_adag_tokens": 2,
+    "g_in_labels": 18,
+    "g_in_prose": 132,
+    "g_label_rate": 0.01297,
+    "g_prose_rate": 0.00363,
+    "g_label_enrichment_lift": 3.57,
+    "g_label_enrichment_z": 5.42,
+    "g_line_or_label_final_rate": 0.7533,
+    "f80r_same_folio_stem_echo_rate": 0.7,
+    "f80r_balneo_stem_echo_rate": 1.0,
+    "f82r_same_folio_stem_echo_rate": 0.4615,
+    "f82r_balneo_stem_echo_rate": 0.6154,
+    "n_shared_exact_balneo_labels": 9
+  },
+  "adag_cross_section_bridge": [
+    {
+      "folio": "f99r",
+      "locus": "f99r.1",
+      "ltype": "@Lc",
+      "sec": "Pharmaceutical",
+      "is_label": true,
+      "is_line_final": true,
+      "word": "okaradag",
+      "stem": "arad"
+    },
+    {
+      "folio": "f102r2",
+      "locus": "f102r2.13",
+      "ltype": "@Lc",
+      "sec": "Pharmaceutical",
+      "is_label": true,
+      "is_line_final": true,
+      "word": "loeekadag",
+      "stem": "oekad"
+    }
+  ],
+  "all_g_tokens": [
+    {
+      "folio": "f3r",
+      "locus": "f3r.1",
+      "ltype": "@P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "daimg",
+      "stem": "im"
+    },
+    {
+      "folio": "f3r",
+      "locus": "f3r.4",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "chag",
+      "stem": "ar"
+    },
+    {
+      "folio": "f3r",
+      "locus": "f3r.8",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "dago",
+      "stem": "go"
+    },
+    {
+      "folio": "f3r",
+      "locus": "f3r.16",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "daiinsoleeg",
+      "stem": "insole"
+    },
+    {
+      "folio": "f4v",
+      "locus": "f4v.9",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "cheog",
+      "stem": "eo"
+    },
+    {
+      "folio": "f5v",
+      "locus": "f5v.2",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "ychopordg",
+      "stem": "chopord"
+    },
+    {
+      "folio": "f5v",
+      "locus": "f5v.6",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "dairodg",
+      "stem": "irod"
+    },
+    {
+      "folio": "f8r",
+      "locus": "f8r.10",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "dairg",
+      "stem": "ir"
+    },
+    {
+      "folio": "f8r",
+      "locus": "f8r.13",
+      "ltype": "=Pt",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "okokchodg",
+      "stem": "okchod"
+    },
+    {
+      "folio": "f11v",
+      "locus": "f11v.6",
+      "ltype": "=P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "arg",
+      "stem": "ar"
+    },
+    {
+      "folio": "f13r",
+      "locus": "f13r.1",
+      "ltype": "@P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "dchg",
+      "stem": "ch"
+    },
+    {
+      "folio": "f14r",
+      "locus": "f14r.12",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "tchykychodalg",
+      "stem": "Kchykychodal"
+    },
+    {
+      "folio": "f14v",
+      "locus": "f14v.9",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "ctholdgdchckhy",
+      "stem": "Kholdgdchkh"
+    },
+    {
+      "folio": "f17r",
+      "locus": "f17r.1",
+      "ltype": "@P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "chog",
+      "stem": "or"
+    },
+    {
+      "folio": "f17r",
+      "locus": "f17r.4",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "opydgsom",
+      "stem": "ydgs"
+    },
+    {
+      "folio": "f17r",
+      "locus": "f17r.6",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "cheteg",
+      "stem": "ete"
+    },
+    {
+      "folio": "f17v",
+      "locus": "f17v.3",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "oldaig",
+      "stem": "dai"
+    },
+    {
+      "folio": "f18r",
+      "locus": "f18r.3",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "dyytcharg",
+      "stem": "yytchar"
+    },
+    {
+      "folio": "f18r",
+      "locus": "f18r.11",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "g",
+      "stem": "g"
+    },
+    {
+      "folio": "f18v",
+      "locus": "f18v.1",
+      "ltype": "@P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "ytdg",
+      "stem": "dr"
+    },
+    {
+      "folio": "f18v",
+      "locus": "f18v.2",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "g",
+      "stem": "g"
+    },
+    {
+      "folio": "f23r",
+      "locus": "f23r.2",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "g",
+      "stem": "g"
+    },
+    {
+      "folio": "f23r",
+      "locus": "f23r.3",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "g",
+      "stem": "g"
+    },
+    {
+      "folio": "f23r",
+      "locus": "f23r.4",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "g",
+      "stem": "g"
+    },
+    {
+      "folio": "f23r",
+      "locus": "f23r.7",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "alg",
+      "stem": "al"
+    },
+    {
+      "folio": "f23v",
+      "locus": "f23v.2",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "otchg",
+      "stem": "ch"
+    },
+    {
+      "folio": "f23v",
+      "locus": "f23v.3",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "qotcholg",
+      "stem": "Kchol"
+    },
+    {
+      "folio": "f23v",
+      "locus": "f23v.7",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "ylg",
+      "stem": "lr"
+    },
+    {
+      "folio": "f23v",
+      "locus": "f23v.8",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "g",
+      "stem": "g"
+    },
+    {
+      "folio": "f23v",
+      "locus": "f23v.9",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "g",
+      "stem": "g"
+    },
+    {
+      "folio": "f26v",
+      "locus": "f26v.3",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "g",
+      "stem": "g"
+    },
+    {
+      "folio": "f27r",
+      "locus": "f27r.9",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "tolg",
+      "stem": "Kol"
+    },
+    {
+      "folio": "f27v",
+      "locus": "f27v.4",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "cheesg",
+      "stem": "es"
+    },
+    {
+      "folio": "f32v",
+      "locus": "f32v.5",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "dosg",
+      "stem": "os"
+    },
+    {
+      "folio": "f34r",
+      "locus": "f34r.6",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "amg",
+      "stem": "am"
+    },
+    {
+      "folio": "f39r",
+      "locus": "f39r.4",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "okalcheg",
+      "stem": "alche"
+    },
+    {
+      "folio": "f39r",
+      "locus": "f39r.8",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "daisog",
+      "stem": "is"
+    },
+    {
+      "folio": "f40r",
+      "locus": "f40r.5",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "dag",
+      "stem": "ar"
+    },
+    {
+      "folio": "f40r",
+      "locus": "f40r.8",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "aigkcheo",
+      "stem": "aigkcheo"
+    },
+    {
+      "folio": "f40r",
+      "locus": "f40r.8",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "dg",
+      "stem": "dg"
+    },
+    {
+      "folio": "f40v",
+      "locus": "f40v.2",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "arag",
+      "stem": "ar"
+    },
+    {
+      "folio": "f41r",
+      "locus": "f41r.8",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "ag",
+      "stem": "ag"
+    },
+    {
+      "folio": "f41r",
+      "locus": "f41r.10",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "qokeg",
+      "stem": "Ke"
+    },
+    {
+      "folio": "f42v",
+      "locus": "f42v.4",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "dg",
+      "stem": "dg"
+    },
+    {
+      "folio": "f45r",
+      "locus": "f45r.8",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "g",
+      "stem": "g"
+    },
+    {
+      "folio": "f45v",
+      "locus": "f45v.6",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "cheg",
+      "stem": "er"
+    },
+    {
+      "folio": "f47r",
+      "locus": "f47r.5",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "chokolg",
+      "stem": "okol"
+    },
+    {
+      "folio": "f48v",
+      "locus": "f48v.7",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "cpheeg",
+      "stem": "Khe"
+    },
+    {
+      "folio": "f49v",
+      "locus": "f49v.24",
+      "ltype": "=P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "chokag",
+      "stem": "ok"
+    },
+    {
+      "folio": "f49v",
+      "locus": "f49v.32",
+      "ltype": "=P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "dchog",
+      "stem": "ch"
+    },
+    {
+      "folio": "f49v",
+      "locus": "f49v.38",
+      "ltype": "=P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "qokg",
+      "stem": "Kr"
+    },
+    {
+      "folio": "f51r",
+      "locus": "f51r.11",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "otag",
+      "stem": "ar"
+    },
+    {
+      "folio": "f51v",
+      "locus": "f51v.4",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "shokog",
+      "stem": "ok"
+    },
+    {
+      "folio": "f52r",
+      "locus": "f52r.7",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "daig",
+      "stem": "ir"
+    },
+    {
+      "folio": "f52v",
+      "locus": "f52v.5",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "dysarg",
+      "stem": "ysar"
+    },
+    {
+      "folio": "f52v",
+      "locus": "f52v.13",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "daiig",
+      "stem": "ir"
+    },
+    {
+      "folio": "f55r",
+      "locus": "f55r.9",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "kag",
+      "stem": "Ka"
+    },
+    {
+      "folio": "f56r",
+      "locus": "f56r.16",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "kcharg",
+      "stem": "Kchar"
+    },
+    {
+      "folio": "f57r",
+      "locus": "f57r.7",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "okaldg",
+      "stem": "ald"
+    },
+    {
+      "folio": "f57v",
+      "locus": "f57v.2",
+      "ltype": "@Cc",
+      "sec": "Cosmological",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "g",
+      "stem": "g"
+    },
+    {
+      "folio": "f57v",
+      "locus": "f57v.6",
+      "ltype": "@L0",
+      "sec": "Cosmological",
+      "is_label": true,
+      "is_line_final": true,
+      "word": "otodarag",
+      "stem": "odar"
+    },
+    {
+      "folio": "f58r",
+      "locus": "f58r.22",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "olseeg",
+      "stem": "se"
+    },
+    {
+      "folio": "f58v",
+      "locus": "f58v.6",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "org",
+      "stem": "rr"
+    },
+    {
+      "folio": "f58v",
+      "locus": "f58v.31",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "oetalchg",
+      "stem": "etalch"
+    },
+    {
+      "folio": "f66r",
+      "locus": "f66r.82",
+      "ltype": "@Lx",
+      "sec": "Text-only",
+      "is_label": true,
+      "is_line_final": true,
+      "word": "cheg",
+      "stem": "er"
+    },
+    {
+      "folio": "f66v",
+      "locus": "f66v.10",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "okag",
+      "stem": "ar"
+    },
+    {
+      "folio": "f67r2",
+      "locus": "f67r2.35",
+      "ltype": "@Pb",
+      "sec": "Astronomical",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "giin",
+      "stem": "gin"
+    },
+    {
+      "folio": "f67r2",
+      "locus": "f67r2.40",
+      "ltype": "+Pb",
+      "sec": "Astronomical",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "og",
+      "stem": "og"
+    },
+    {
+      "folio": "f67r2",
+      "locus": "f67r2.43",
+      "ltype": "+Pb",
+      "sec": "Astronomical",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "qsg",
+      "stem": "qs"
+    },
+    {
+      "folio": "f67r2",
+      "locus": "f67r2.58",
+      "ltype": "&Ls",
+      "sec": "Astronomical",
+      "is_label": true,
+      "is_line_final": true,
+      "word": "g",
+      "stem": "g"
+    },
+    {
+      "folio": "f67v2",
+      "locus": "f67v2.3",
+      "ltype": "@Pb",
+      "sec": "Cosmological",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "g",
+      "stem": "g"
+    },
+    {
+      "folio": "f67v2",
+      "locus": "f67v2.7",
+      "ltype": "@Pb",
+      "sec": "Cosmological",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "daig",
+      "stem": "ir"
+    },
+    {
+      "folio": "f67v2",
+      "locus": "f67v2.13",
+      "ltype": "@Ro",
+      "sec": "Cosmological",
+      "is_label": true,
+      "is_line_final": false,
+      "word": "okydseog",
+      "stem": "ydse"
+    },
+    {
+      "folio": "f67v1",
+      "locus": "f67v1.20",
+      "ltype": "@Ro",
+      "sec": "Astronomical",
+      "is_label": true,
+      "is_line_final": true,
+      "word": "olcheeg",
+      "stem": "che"
+    },
+    {
+      "folio": "f67v1",
+      "locus": "f67v1.21",
+      "ltype": "@Ro",
+      "sec": "Astronomical",
+      "is_label": true,
+      "is_line_final": false,
+      "word": "ypcheg",
+      "stem": "Kche"
+    },
+    {
+      "folio": "f68r1",
+      "locus": "f68r1.37",
+      "ltype": "@Cc",
+      "sec": "Astronomical",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "oygy",
+      "stem": "yg"
+    },
+    {
+      "folio": "f68r3",
+      "locus": "f68r3.1",
+      "ltype": "@Cc",
+      "sec": "Astronomical",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "qoeeeg",
+      "stem": "er"
+    },
+    {
+      "folio": "f68r3",
+      "locus": "f68r3.7",
+      "ltype": "@Ri",
+      "sec": "Astronomical",
+      "is_label": true,
+      "is_line_final": true,
+      "word": "tgolg",
+      "stem": "Kgol"
+    },
+    {
+      "folio": "f68r3",
+      "locus": "f68r3.19",
+      "ltype": "+Ls",
+      "sec": "Astronomical",
+      "is_label": true,
+      "is_line_final": true,
+      "word": "otydg",
+      "stem": "yd"
+    },
+    {
+      "folio": "f68v3",
+      "locus": "f68v3.5",
+      "ltype": "@Cc",
+      "sec": "Cosmological",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "yakeg",
+      "stem": "ake"
+    },
+    {
+      "folio": "f68v3",
+      "locus": "f68v3.11",
+      "ltype": "@Ri",
+      "sec": "Cosmological",
+      "is_label": true,
+      "is_line_final": true,
+      "word": "okeeg",
+      "stem": "er"
+    },
+    {
+      "folio": "f68v3",
+      "locus": "f68v3.12",
+      "ltype": "@Ri",
+      "sec": "Cosmological",
+      "is_label": true,
+      "is_line_final": false,
+      "word": "dkeeeg",
+      "stem": "Ke"
+    },
+    {
+      "folio": "f68v3",
+      "locus": "f68v3.16",
+      "ltype": "=L0",
+      "sec": "Cosmological",
+      "is_label": true,
+      "is_line_final": true,
+      "word": "opcholdg",
+      "stem": "chold"
+    },
+    {
+      "folio": "f68v1",
+      "locus": "f68v1.1",
+      "ltype": "@Cc",
+      "sec": "Astronomical",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "yeeg",
+      "stem": "er"
+    },
+    {
+      "folio": "f70r2",
+      "locus": "f70r2.3",
+      "ltype": "+P1",
+      "sec": "Cosmological",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "oteog",
+      "stem": "eo"
+    },
+    {
+      "folio": "f70r2",
+      "locus": "f70r2.5",
+      "ltype": "+P1",
+      "sec": "Cosmological",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "cheeog",
+      "stem": "eo"
+    },
+    {
+      "folio": "f70r2",
+      "locus": "f70r2.15",
+      "ltype": "@Cc",
+      "sec": "Cosmological",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "dgr",
+      "stem": "gr"
+    },
+    {
+      "folio": "f70r2",
+      "locus": "f70r2.15",
+      "ltype": "@Cc",
+      "sec": "Cosmological",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "kchg",
+      "stem": "Kch"
+    },
+    {
+      "folio": "f70v2",
+      "locus": "f70v2.2",
+      "ltype": "@Lz",
+      "sec": "Zodiac (Astrological)",
+      "is_label": true,
+      "is_line_final": true,
+      "word": "otalalg",
+      "stem": "alal"
+    },
+    {
+      "folio": "f70v1",
+      "locus": "f70v1.7",
+      "ltype": "&Lz",
+      "sec": "Zodiac (Astrological)",
+      "is_label": true,
+      "is_line_final": true,
+      "word": "oalcheg",
+      "stem": "alche"
+    },
+    {
+      "folio": "f72r3",
+      "locus": "f72r3.14",
+      "ltype": "@Cc",
+      "sec": "Zodiac (Astrological)",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "cheeg",
+      "stem": "er"
+    },
+    {
+      "folio": "f72v2",
+      "locus": "f72v2.20",
+      "ltype": "@Cc",
+      "sec": "Zodiac (Astrological)",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "yteeg",
+      "stem": "er"
+    },
+    {
+      "folio": "f72v2",
+      "locus": "f72v2.24",
+      "ltype": "&Lz",
+      "sec": "Zodiac (Astrological)",
+      "is_label": true,
+      "is_line_final": true,
+      "word": "opalg",
+      "stem": "al"
+    },
+    {
+      "folio": "f73v",
+      "locus": "f73v.5",
+      "ltype": "@Cc",
+      "sec": "Zodiac (Astrological)",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "okegal",
+      "stem": "eg"
+    },
+    {
+      "folio": "f76v",
+      "locus": "f76v.5",
+      "ltype": "+P0",
+      "sec": "Biological (Balneological)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "teyteg",
+      "stem": "Keyte"
+    },
+    {
+      "folio": "f77r",
+      "locus": "f77r.46",
+      "ltype": "+P0",
+      "sec": "Biological (Balneological)",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "dag",
+      "stem": "ar"
+    },
+    {
+      "folio": "f79r",
+      "locus": "f79r.43",
+      "ltype": "+P0",
+      "sec": "Biological (Balneological)",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "chkag",
+      "stem": "Ka"
+    },
+    {
+      "folio": "f79v",
+      "locus": "f79v.38",
+      "ltype": "+P0",
+      "sec": "Biological (Balneological)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "dag",
+      "stem": "ar"
+    },
+    {
+      "folio": "f82r",
+      "locus": "f82r.30",
+      "ltype": "+P0",
+      "sec": "Biological (Balneological)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "rag",
+      "stem": "ar"
+    },
+    {
+      "folio": "f83r",
+      "locus": "f83r.5",
+      "ltype": "+P0",
+      "sec": "Biological (Balneological)",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "cheg",
+      "stem": "er"
+    },
+    {
+      "folio": "f83v",
+      "locus": "f83v.11",
+      "ltype": "@P0",
+      "sec": "Biological (Balneological)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "lsheg",
+      "stem": "she"
+    },
+    {
+      "folio": "f85r1",
+      "locus": "f85r1.27",
+      "ltype": "+P0",
+      "sec": "Text-only",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "odeeeg",
+      "stem": "er"
+    },
+    {
+      "folio": "f85r2",
+      "locus": "f85r2.22",
+      "ltype": "+Pb",
+      "sec": "Cosmological",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "og",
+      "stem": "og"
+    },
+    {
+      "folio": "f86v6",
+      "locus": "f86v6.26",
+      "ltype": "+P0",
+      "sec": "Text-only",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "cholkeog",
+      "stem": "olke"
+    },
+    {
+      "folio": "f86v6",
+      "locus": "f86v6.33",
+      "ltype": "+P0",
+      "sec": "Text-only",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "g",
+      "stem": "g"
+    },
+    {
+      "folio": "f86v5",
+      "locus": "f86v5.8",
+      "ltype": "+P0",
+      "sec": "Text-only",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "tarcheeg",
+      "stem": "Karche"
+    },
+    {
+      "folio": "f86v5",
+      "locus": "f86v5.37",
+      "ltype": "+P0",
+      "sec": "Text-only",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "oreeeg",
+      "stem": "er"
+    },
+    {
+      "folio": "f87v",
+      "locus": "f87v.7",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "qokeog",
+      "stem": "Ke"
+    },
+    {
+      "folio": "f87v",
+      "locus": "f87v.14",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "atolg",
+      "stem": "atol"
+    },
+    {
+      "folio": "f87v",
+      "locus": "f87v.15",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "daraiing",
+      "stem": "rain"
+    },
+    {
+      "folio": "f88r",
+      "locus": "f88r.21",
+      "ltype": "+P0",
+      "sec": "Pharmaceutical",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "sheoldg",
+      "stem": "eold"
+    },
+    {
+      "folio": "f89r1",
+      "locus": "f89r1.15",
+      "ltype": "@P0",
+      "sec": "Pharmaceutical",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "darolg",
+      "stem": "rol"
+    },
+    {
+      "folio": "f89r2",
+      "locus": "f89r2.7",
+      "ltype": "+P0",
+      "sec": "Pharmaceutical",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "okcheeg",
+      "stem": "che"
+    },
+    {
+      "folio": "f89r2",
+      "locus": "f89r2.25",
+      "ltype": "+P0",
+      "sec": "Pharmaceutical",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "doigom",
+      "stem": "oig"
+    },
+    {
+      "folio": "f89v1",
+      "locus": "f89v1.16",
+      "ltype": "+P0",
+      "sec": "Pharmaceutical",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "dalg",
+      "stem": "lr"
+    },
+    {
+      "folio": "f90r1",
+      "locus": "f90r1.1",
+      "ltype": "@P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "cthog",
+      "stem": "Kh"
+    },
+    {
+      "folio": "f90v2",
+      "locus": "f90v2.7",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "chog",
+      "stem": "or"
+    },
+    {
+      "folio": "f93r",
+      "locus": "f93r.4",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "ytchdg",
+      "stem": "chd"
+    },
+    {
+      "folio": "f93r",
+      "locus": "f93r.29",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "cthosg",
+      "stem": "Khos"
+    },
+    {
+      "folio": "f93v",
+      "locus": "f93v.2",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "cthog",
+      "stem": "Kh"
+    },
+    {
+      "folio": "f93v",
+      "locus": "f93v.5",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "dchog",
+      "stem": "ch"
+    },
+    {
+      "folio": "f93v",
+      "locus": "f93v.8",
+      "ltype": "+P0",
+      "sec": "Herbal (Botanical)",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "ctheydsheog",
+      "stem": "Kheydshe"
+    },
+    {
+      "folio": "f99r",
+      "locus": "f99r.1",
+      "ltype": "@Lc",
+      "sec": "Pharmaceutical",
+      "is_label": true,
+      "is_line_final": true,
+      "word": "okaradag",
+      "stem": "arad"
+    },
+    {
+      "folio": "f99r",
+      "locus": "f99r.48",
+      "ltype": "+P0",
+      "sec": "Pharmaceutical",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "alcheeg",
+      "stem": "alche"
+    },
+    {
+      "folio": "f99r",
+      "locus": "f99r.52",
+      "ltype": "+P0",
+      "sec": "Pharmaceutical",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "agairom",
+      "stem": "agair"
+    },
+    {
+      "folio": "f101v",
+      "locus": "f101v.14",
+      "ltype": "@Lf",
+      "sec": "Pharmaceutical",
+      "is_label": true,
+      "is_line_final": true,
+      "word": "dytolg",
+      "stem": "ytol"
+    },
+    {
+      "folio": "f102r2",
+      "locus": "f102r2.1",
+      "ltype": "@Lc",
+      "sec": "Pharmaceutical",
+      "is_label": true,
+      "is_line_final": true,
+      "word": "kodaiig",
+      "stem": "Kodai"
+    },
+    {
+      "folio": "f102r2",
+      "locus": "f102r2.2",
+      "ltype": "@P0",
+      "sec": "Pharmaceutical",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "azg",
+      "stem": "az"
+    },
+    {
+      "folio": "f102r2",
+      "locus": "f102r2.13",
+      "ltype": "@Lc",
+      "sec": "Pharmaceutical",
+      "is_label": true,
+      "is_line_final": true,
+      "word": "loeekadag",
+      "stem": "oekad"
+    },
+    {
+      "folio": "f103r",
+      "locus": "f103r.35",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "lcheg",
+      "stem": "che"
+    },
+    {
+      "folio": "f105v",
+      "locus": "f105v.6",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "g",
+      "stem": "g"
+    },
+    {
+      "folio": "f106r",
+      "locus": "f106r.11",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "lchg",
+      "stem": "ch"
+    },
+    {
+      "folio": "f106v",
+      "locus": "f106v.29",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "cheog",
+      "stem": "eo"
+    },
+    {
+      "folio": "f107v",
+      "locus": "f107v.25",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "rag",
+      "stem": "ar"
+    },
+    {
+      "folio": "f108v",
+      "locus": "f108v.22",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "cheeegaiin",
+      "stem": "ega"
+    },
+    {
+      "folio": "f108v",
+      "locus": "f108v.44",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "lchg",
+      "stem": "ch"
+    },
+    {
+      "folio": "f111r",
+      "locus": "f111r.42",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "kag",
+      "stem": "Ka"
+    },
+    {
+      "folio": "f111v",
+      "locus": "f111v.11",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "shalg",
+      "stem": "al"
+    },
+    {
+      "folio": "f111v",
+      "locus": "f111v.14",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "gm",
+      "stem": "gm"
+    },
+    {
+      "folio": "f111v",
+      "locus": "f111v.43",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "chotag",
+      "stem": "ot"
+    },
+    {
+      "folio": "f112r",
+      "locus": "f112r.16",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "amchg",
+      "stem": "amch"
+    },
+    {
+      "folio": "f112r",
+      "locus": "f112r.39",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "ogom",
+      "stem": "go"
+    },
+    {
+      "folio": "f112r",
+      "locus": "f112r.43",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "oteeg",
+      "stem": "er"
+    },
+    {
+      "folio": "f112v",
+      "locus": "f112v.24",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "eeedeeg",
+      "stem": "ede"
+    },
+    {
+      "folio": "f112v",
+      "locus": "f112v.47",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": false,
+      "word": "aig",
+      "stem": "ai"
+    },
+    {
+      "folio": "f113v",
+      "locus": "f113v.29",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "aralg",
+      "stem": "aral"
+    },
+    {
+      "folio": "f114v",
+      "locus": "f114v.12",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "yog",
+      "stem": "or"
+    },
+    {
+      "folio": "f116r",
+      "locus": "f116r.22",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "lg",
+      "stem": "lg"
+    },
+    {
+      "folio": "f116r",
+      "locus": "f116r.24",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "lag",
+      "stem": "ar"
+    },
+    {
+      "folio": "f116r",
+      "locus": "f116r.33",
+      "ltype": "+P0",
+      "sec": "Starred Recipes",
+      "is_label": false,
+      "is_line_final": true,
+      "word": "rsheg",
+      "stem": "she"
+    }
+  ],
+  "f80r_profile": {
+    "folio": "f80r",
+    "n_labels": 10,
+    "n_prose_words": 435,
+    "same_folio_exact_hits": 2,
+    "same_folio_stem_hits": 7,
+    "balneo_prose_stem_hits": 10,
+    "labels": [
+      {
+        "locus": "f80r.1",
+        "ltype": "@Ln",
+        "label": "toroly",
+        "stem": "Korol",
+        "position": "Upper gallery Nymph #1 (far left, arms raised)",
+        "in_same_folio_prose_exact": false,
+        "in_same_folio_prose_stem": false,
+        "in_balneo_prose_exact": false,
+        "in_balneo_prose_stem": true
+      },
+      {
+        "locus": "f80r.2",
+        "ltype": "=Ln",
+        "label": "olchdy",
+        "stem": "ch",
+        "position": "Upper gallery Nymph #2 (hands on waist)",
+        "in_same_folio_prose_exact": false,
+        "in_same_folio_prose_stem": true,
+        "in_balneo_prose_exact": true,
+        "in_balneo_prose_stem": true
+      },
+      {
+        "locus": "f80r.3",
+        "ltype": "=Ln",
+        "label": "okaly",
+        "stem": "al",
+        "position": "Upper gallery Nymph #3 (stepping right)",
+        "in_same_folio_prose_exact": true,
+        "in_same_folio_prose_stem": true,
+        "in_balneo_prose_exact": true,
+        "in_balneo_prose_stem": true
+      },
+      {
+        "locus": "f80r.4",
+        "ltype": "=Ln",
+        "label": "okolo",
+        "stem": "olo",
+        "position": "Upper gallery Nymph #4 (standing center-left)",
+        "in_same_folio_prose_exact": false,
+        "in_same_folio_prose_stem": false,
+        "in_balneo_prose_exact": false,
+        "in_balneo_prose_stem": true
+      },
+      {
+        "locus": "f80r.5",
+        "ltype": "=Ln",
+        "label": "okary",
+        "stem": "ar",
+        "position": "Upper gallery Nymph #5 (standing inside tiered blue pedestal basin!)",
+        "in_same_folio_prose_exact": false,
+        "in_same_folio_prose_stem": true,
+        "in_balneo_prose_exact": false,
+        "in_balneo_prose_stem": true
+      },
+      {
+        "locus": "f80r.6",
+        "ltype": "=Ln",
+        "label": "opor",
+        "stem": "or",
+        "position": "Upper gallery Nymph #6 (seated/kneeling beside blue basin)",
+        "in_same_folio_prose_exact": false,
+        "in_same_folio_prose_stem": true,
+        "in_balneo_prose_exact": true,
+        "in_balneo_prose_stem": true
+      },
+      {
+        "locus": "f80r.7",
+        "ltype": "~Ln",
+        "label": "olky",
+        "stem": "Ky",
+        "position": "Upper gallery Nymph #7 (embracing Nymph #8 below folio '80')",
+        "in_same_folio_prose_exact": true,
+        "in_same_folio_prose_stem": true,
+        "in_balneo_prose_exact": true,
+        "in_balneo_prose_stem": true
+      },
+      {
+        "locus": "f80r.8",
+        "ltype": "=Ln",
+        "label": "otalshedy",
+        "stem": "al",
+        "position": "Upper gallery Nymph #8 (embracing Nymph #7 above right pipe)",
+        "in_same_folio_prose_exact": false,
+        "in_same_folio_prose_stem": true,
+        "in_balneo_prose_exact": true,
+        "in_balneo_prose_stem": true
+      },
+      {
+        "locus": "f80r.9",
+        "ltype": "~Ln",
+        "label": "okar",
+        "stem": "ar",
+        "position": "Sinuous right-margin water conduit below '80' feeding spouted pitcher",
+        "in_same_folio_prose_exact": false,
+        "in_same_folio_prose_stem": true,
+        "in_balneo_prose_exact": true,
+        "in_balneo_prose_stem": true
+      },
+      {
+        "locus": "f80r.10",
+        "ltype": "+Ln",
+        "label": "okan",
+        "stem": "an",
+        "position": "Bath nymph / stream",
+        "in_same_folio_prose_exact": false,
+        "in_same_folio_prose_stem": false,
+        "in_balneo_prose_exact": false,
+        "in_balneo_prose_stem": true
+      }
+    ]
+  },
+  "f82r_profile": {
+    "folio": "f82r",
+    "n_labels": 13,
+    "n_prose_words": 273,
+    "same_folio_exact_hits": 1,
+    "same_folio_stem_hits": 6,
+    "balneo_prose_stem_hits": 8,
+    "labels": [
+      {
+        "locus": "f82r.10",
+        "ltype": "@Lt",
+        "label": "oroldair",
+        "stem": "oldai",
+        "position": "Middle-left nymph in blue goblet firing horizontal multi-stream water jet",
+        "in_same_folio_prose_exact": false,
+        "in_same_folio_prose_stem": false,
+        "in_balneo_prose_exact": false,
+        "in_balneo_prose_stem": false
+      },
+      {
+        "locus": "f82r.34",
+        "ltype": "@Ln",
+        "label": "okor",
+        "stem": "or",
+        "position": "Lower-left shower plume above Nymph #1 in green scalloped pool",
+        "in_same_folio_prose_exact": false,
+        "in_same_folio_prose_stem": true,
+        "in_balneo_prose_exact": true,
+        "in_balneo_prose_stem": true
+      },
+      {
+        "locus": "f82r.35",
+        "ltype": "@Lt",
+        "label": "darol",
+        "stem": "ro",
+        "position": "Bottom-left Nymph #1 standing in cup at left edge of green pool",
+        "in_same_folio_prose_exact": false,
+        "in_same_folio_prose_stem": false,
+        "in_balneo_prose_exact": false,
+        "in_balneo_prose_stem": true
+      },
+      {
+        "locus": "f82r.36",
+        "ltype": "@Ln",
+        "label": "okal",
+        "stem": "al",
+        "position": "Bottom Nymph #2 standing under left vertical shower plume",
+        "in_same_folio_prose_exact": true,
+        "in_same_folio_prose_stem": true,
+        "in_balneo_prose_exact": true,
+        "in_balneo_prose_stem": true
+      },
+      {
+        "locus": "f82r.37",
+        "ltype": "@Ln",
+        "label": "okaldy",
+        "stem": "al",
+        "position": "Bottom Nymph #3 standing center-left in green pool",
+        "in_same_folio_prose_exact": false,
+        "in_same_folio_prose_stem": true,
+        "in_balneo_prose_exact": false,
+        "in_balneo_prose_stem": true
+      },
+      {
+        "locus": "f82r.38",
+        "ltype": "@Lt",
+        "label": "darary",
+        "stem": "rar",
+        "position": "Bottom Nymph #4 (crowned/braided) beside right vertical geyser plume (-adag suffix!)",
+        "in_same_folio_prose_exact": false,
+        "in_same_folio_prose_stem": false,
+        "in_balneo_prose_exact": false,
+        "in_balneo_prose_stem": false
+      },
+      {
+        "locus": "f82r.39",
+        "ltype": "+Ln",
+        "label": "okairady",
+        "stem": "aira",
+        "position": "Bottom-right Nymph #5 standing in blue cup at right of green pool",
+        "in_same_folio_prose_exact": false,
+        "in_same_folio_prose_stem": false,
+        "in_balneo_prose_exact": false,
+        "in_balneo_prose_stem": false
+      },
+      {
+        "locus": "f82r.40",
+        "ltype": "*Ln",
+        "label": "sororl",
+        "stem": "oror",
+        "position": "Lower-left submerged Nymph #6 in green pool scallop",
+        "in_same_folio_prose_exact": false,
+        "in_same_folio_prose_stem": false,
+        "in_balneo_prose_exact": false,
+        "in_balneo_prose_stem": false
+      },
+      {
+        "locus": "f82r.41",
+        "ltype": "=Ln",
+        "label": "olkoky",
+        "stem": "Kok",
+        "position": "Lower-left submerged Nymph #7 (wearing conical cap) in green pool",
+        "in_same_folio_prose_exact": false,
+        "in_same_folio_prose_stem": false,
+        "in_balneo_prose_exact": false,
+        "in_balneo_prose_stem": true
+      },
+      {
+        "locus": "f82r.42",
+        "ltype": "=Ln",
+        "label": "sokoly",
+        "stem": "okol",
+        "position": "Lower-center submerged Nymph #8 (crowned) in green pool",
+        "in_same_folio_prose_exact": false,
+        "in_same_folio_prose_stem": false,
+        "in_balneo_prose_exact": false,
+        "in_balneo_prose_stem": false
+      },
+      {
+        "locus": "f82r.43",
+        "ltype": "=Ln",
+        "label": "dolol",
+        "stem": "ol",
+        "position": "Lower-center submerged Nymph #9 in green pool",
+        "in_same_folio_prose_exact": false,
+        "in_same_folio_prose_stem": true,
+        "in_balneo_prose_exact": false,
+        "in_balneo_prose_stem": true
+      },
+      {
+        "locus": "f82r.44",
+        "ltype": "=Ln",
+        "label": "olaiin",
+        "stem": "ain",
+        "position": "Lower-right submerged Nymph #10 in green pool",
+        "in_same_folio_prose_exact": false,
+        "in_same_folio_prose_stem": true,
+        "in_balneo_prose_exact": true,
+        "in_balneo_prose_stem": true
+      },
+      {
+        "locus": "f82r.45",
+        "ltype": "=Ln",
+        "label": "okeear",
+        "stem": "ea",
+        "position": "Lower-right submerged Nymph #11 at right scallop of green pool",
+        "in_same_folio_prose_exact": false,
+        "in_same_folio_prose_stem": true,
+        "in_balneo_prose_exact": false,
+        "in_balneo_prose_stem": true
+      }
+    ]
+  },
+  "shared_exact_balneo_labels": {
+    "s": [
+      "f75v.2 (=L0)",
+      "f75v.11 (=L0)",
+      "f76r.4 (*L0)",
+      "f76r.14 (*L0)",
+      "f76r.37 (*L0)"
+    ],
+    "otedy": [
+      "f75v.54 (+Lt)",
+      "f77r.3 (=Lt)",
+      "f82v.2 (=Ln)",
+      "f84r.8 (@Ln)"
+    ],
+    "l": [
+      "f75v.4 (=L0)",
+      "f75v.6 (=L0)",
+      "f76r.22 (*L0)"
+    ],
+    "o": [
+      "f75v.8 (~L0)",
+      "f76r.18 (*L0)"
+    ],
+    "r": [
+      "f75v.9 (+L0)",
+      "f76r.31 (*L0)"
+    ],
+    "darol": [
+      "f75v.21 (+Ln)",
+      "f82r.35 (@Lt)"
+    ],
+    "daldy": [
+      "f75v.22 (@Ln)",
+      "f75v.32 (@Ln)"
+    ],
+    "otoly": [
+      "f75v.37 (+Ln)",
+      "f84r.11 (@Ln)"
+    ],
+    "okchdy": [
+      "f78r.2 (@Lt)",
+      "f83v.34 (@Ln)"
+    ]
+  },
+  "shared_balneo_label_stems": {
+    "ol": [
+      "f75v.37 (otoly)",
+      "f75v.52 (olol)",
+      "f77r.5 (otol)",
+      "f77v.2 (otol.shedy)",
+      "f77v.4 (otolor)",
+      "f82r.43 (dolol)",
+      "f82v.44 (okol)",
+      "f82v.45 (okoldy)",
+      "f84r.1 (ololal)",
+      "f84r.5 (loly)",
+      "f84r.10 (okolshy)",
+      "f84r.11 (otoly)"
+    ],
+    "ed": [
+      "f75v.35 (ykedy)",
+      "f75v.53 (ytedy)",
+      "f75v.54 (otedy)",
+      "f77r.3 (otedy)",
+      "f82v.2 (otedy)",
+      "f82v.4 (otedal)",
+      "f82v.43 (okedor)",
+      "f82v.47 (otedol)",
+      "f82v.48 (oteedy)",
+      "f84r.4 (okedy)",
+      "f84r.8 (otedy)"
+    ],
+    "al": [
+      "f75v.23 (dal.shd)",
+      "f75v.31 (dal)",
+      "f75v.50 (otal.opal)",
+      "f80r.3 (okaly)",
+      "f80r.8 (otalshedy)",
+      "f82r.36 (okal)",
+      "f82r.37 (okaldy)",
+      "f82v.40 (okalchy)",
+      "f84r.47 (otaly)"
+    ],
+    "ch": [
+      "f75v.29 (lchy)",
+      "f77r.6 (dchdy)",
+      "f77r.49 (otchdy)",
+      "f78r.2 (okchdy)",
+      "f80r.2 (olchdy)",
+      "f83v.34 (okchdy)"
+    ],
+    "s": [
+      "f75v.2 (s)",
+      "f75v.11 (s)",
+      "f76r.4 (s)",
+      "f76r.14 (s)",
+      "f76r.37 (s)"
+    ],
+    "ain": [
+      "f77v.1 (okain.y.kal)",
+      "f81v.28 (otain.olkal)",
+      "f82r.44 (olaiin)",
+      "f82v.41 (okain)",
+      "f83v.35 (okaiin)"
+    ],
+    "ar": [
+      "f78r.44 (dar.aloy)",
+      "f78r.47 (okaral)",
+      "f80r.5 (okary)",
+      "f80r.9 (okar)",
+      "f83v.10 (okarchy)"
+    ],
+    "or": [
+      "f77r.7 (soral)",
+      "f80r.6 (opor)",
+      "f82r.34 (okor)",
+      "f84r.2 (or.shekar)"
+    ],
+    "l": [
+      "f75v.4 (l)",
+      "f75v.6 (l)",
+      "f76r.22 (l)"
+    ],
+    "sh": [
+      "f75v.18 (okshy)",
+      "f84r.7 (olshy)",
+      "f84r.12 (dshedy)"
+    ]
+  }
+}

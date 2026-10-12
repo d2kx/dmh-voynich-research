@@ -931,6 +931,70 @@ WALKTHROUGH_FOLIOS = [
                 "english": "[f87r Parallel Paragraphs]: Begin the herbal compound (`pchor odaiin / pchor daiin`); [f111v Starred Recipes]: Top megaparagraph (`koshey`) followed by 7 consecutive `p-` Gallows recipes (`polar, polkiin, pochey, polar, polchey, pollaiin, psalar`)."
             }
         ]
+    },
+    {
+        "folio": "f72v3–v2 & f72v1",
+        "title": "Unfolded Leo (`agost`) & Virgo (`setembre`) Sheet (`p132`), Libra (`octobre`) Scale (`p133`), Crowned Nymphs, Vellum Hole, Quire `11m` & `@Cc` vs `@Lz` Split",
+        "section": "Zodiac Medallions (`$I=Z, $Q=K, $L=A`, Scribe 4)",
+        "pdf_page": 132,
+        "image": "../pages/f72v3_leo_agost_zodiac_enh.png",
+        "secondary_image": "../pages/f72v1_libra_octobre_p133_enh.png",
+        "summary": "On `p132` (above), Leo (`agost`, `30°`) and Virgo (`setembre`, `30°` with stemmed stars) sit side by side; on `p133` (below), Libra (`octobre`, `30°`) displays a blue-and-gold balance scale, a pre-existing vellum hole at 03:00 avoided by the ring text, and Quire 11 signature `11m`. Both Leo and Libra feature a 3-crowned leader-nymph at 12:00 (`or.aiin/otedy` & `okchey/otedy`), while `@Lz` labels use `68.0%` `o-` nominal citation (`z = +8.81`) vs `@Cc` rings surging `3.14×` in `ch-/sh-` participles (`26.04%`, `z = +7.00`, `Attack 193`).",
+        "clauses": [
+            {
+                "locus": "f72v3.13–14 (Leo 12:00 Crowned Nymph) + f72v1.12–13 (Libra 12:30 Crowned Nymph) + f72v1 (@Cc Ring)",
+                "eva": "or aiin otedy okchey otedy oteey chody chokody otal dar choty",
+                "english": "[Crowned 12:00 Cusp Leaders]: Primary degree measure (`or aiin otedy / okchey otedy`); [`@Cc` Seasonal Ring Clause]: Steep the celestial degree (`oteey chody chokody`) and draw from the sector (`otal dar choty`)."
+            }
+        ]
+    },
+    {
+        "folio": "f80r & f82r",
+        "title": "Blue-Basin Gallery (`f80r`, `100%` Balneo Stem Echo), Dual-Arc Fountain & `darol / darary` Shower Plumes (`f82r`) & `3.57×` `-g` Label Suffix Law",
+        "section": "Balneological / Biological (`$I=B, $Q=M, $L=B`, Scribe 2)",
+        "pdf_page": 146,
+        "image": "../pages/f80r_balneo_eleven_nymph_gallery_enh.png",
+        "secondary_image": "../pages/f82r_balneo_rainbow_shower_pool_enh.png",
+        "summary": "On `f80r` (above), 8 upper bathers (`toroly, olchdy, okaly, okolo, okary, opor, olky, otalshedy`) + right conduit (`okar`) achieve `100.0%` (`10/10`) Balneo stem echo (`70.0%` on `f80r`). On `f82r` (below), a dual-arc fountain rises above a horizontal jet bather (`oroldair`) and a green pool fed by two `dar-` shower plumes (`darol` & `darary`) beside minimal pair `okal -> okaldy` (`Attack 194`, `-g` enriched `3.57×` in labels, `z = +5.42`).",
+        "clauses": [
+            {
+                "locus": "f80r.3–5 (`okaly -> okolo -> okary` Gradation) + f82r.35–38 (`darol / okal / okaldy / darary` Shower Pool)",
+                "eva": "okaly okolo okary okar darol okal okaldy darary olaiin",
+                "english": "[f80r Upper Gallery]: Volatile essence (`okaly`), liquid vessel (`okolo`), core basin (`okary`) fed by the conduit (`okar`); [f82r Green Pool]: Left shower plume (`darol`), adjacent bathers (`okal -> okaldy`), right geyser plume (`darary`), and measured pool (`olaiin`)."
+            }
+        ]
+    },
+    {
+        "folio": "f94r",
+        "title": "Opposite-Leaflet Maidenhair Fern / Spleenwort Monograph (`Asplenium / Adiantum`) & `92.21%` Recipe Stem Bridge",
+        "section": "Post-Rosettes Late Herbal (`$I=H, $Q=R, $L=A`, Scribe 1)",
+        "pdf_page": 170,
+        "image": "../pages/f94r_late_herbal_monograph_enh.png",
+        "secondary_image": "",
+        "summary": "Four arching fronds with opposite pairs of fan-shaped, white-scalloped leaflets (*Capillus Veneris / Asplenium*) and 6 dark-blue sporangia/berries rise from a 5-pronged brown rhizome below a 9-line (`66`-word) paragraph (`koaiin.cheo.pchor.qooldy...`) whose stems recur `87.01%` in Pharmaceutical and `92.21%` (`77.92%` exact words!) in Quire 20 Starred Recipes (`Attack 195`).",
+        "clauses": [
+            {
+                "locus": "f94r.1–2 (Maidenhair Fern Monograph Opener) + f94r.9 (Terminal Closure)",
+                "eva": "koaiin cheo pchor qooldy sory choldy qokchor chol daiin",
+                "english": "[f94r Opener]: Take one measure of the fern infusion (`koaiin cheo pchor`), decoct in liquid (`qooldy sory choldy`), boil the core (`qokchor`), and draw one strained dose (`chol daiin`)."
+            }
+        ]
+    },
+    {
+        "folio": "f108v",
+        "title": "The `581`-Word Starred Recipe Folio (`16` Stars), `261`-Word 8-Sub-Clause Megaparagraph & `2.36×` Step-Star Variance Collapse (`32.12` Words/Star Unit)",
+        "section": "Starred Master Recipes (`$I=S, $Q=T, $L=B`, Scribe 3)",
+        "pdf_page": 195,
+        "image": "../pages/f108v_quire20_megaparagraph_recipes_enh.png",
+        "secondary_image": "",
+        "summary": "`f108v` carries 16 left-margin stars (`7` Primary `<%>` Recipe-Start Stars + `9` Intra-Paragraph `+P0` Step Stars). Across Quire 20, lines right before a Step Star end at the full right margin (`33.33%` `-m` stop vs `8.40%` at `<$>` half-lines = `3.97×` surge!), explaining why transcribers merged them; splitting at the 54 Step Stars (`339` star units) collapses Quire 20 SD by `2.36×` (`33.14 -> 14.02` words) onto the `32.12`-word canonical recipe length (`32.6` words/sub-clause on `f108v.30–53`, `Attack 195`)!",
+        "clauses": [
+            {
+                "locus": "f108v.30 (`261`-Word Megaparagraph Opener) + Step-Star Sub-Clause Openers (`f108v.34..51`)",
+                "eva": "polshedaiin qokeedy shedy dchedy qokedy saiin qokeey daiin otedy",
+                "english": "[Megaparagraph Opener `f108v.30`]: Begin by washing one measure (`polshedaiin`), boil and bathe (`qokeedy shedy`); [Step-Star Sub-Clauses]: Take the infused mixture (`dchedy qokedy`), add one measure (`saiin qokeey daiin`), and complete (`otedy`)."
+            }
+        ]
     }
 ]
 
@@ -987,6 +1051,9 @@ def main():
     a189_data = json.loads((ROOT / "data" / "attack189_zodiac_30degree_invariant_and_decan_split.json").read_text(encoding="utf-8"))
     a190_data = json.loads((ROOT / "data" / "attack190_balneo_organ_labels_vs_unlabeled_galleries.json").read_text(encoding="utf-8"))
     a191_data = json.loads((ROOT / "data" / "attack191_f87r_post_rosettes_herbal_and_f111v_long_recipes.json").read_text(encoding="utf-8"))
+    a193_data = json.loads((ROOT / "data" / "attack193_zodiac_ring_to_nymph_coupling_and_crowned_loci.json").read_text(encoding="utf-8"))
+    a194_data = json.loads((ROOT / "data" / "attack194_balneo_f80r_f82r_and_rare_velar_suffixes.json").read_text(encoding="utf-8"))
+    a195_data = json.loads((ROOT / "data" / "attack195_f108v_megaparagraph_compiler_and_f94r_fern.json").read_text(encoding="utf-8"))
 
     rosettes_panels = []
     for f_id, prof in rosettes_data["folio_profiles"].items():
@@ -1044,6 +1111,10 @@ def main():
             a191_data["summary"]["quire20_medium_recipes_tier"],
             a191_data["summary"]["quire20_long_recipes_tier"],
         ],
+        "zodiac_cc_lz_rows": a193_data["folio_breakdown"],
+        "f80r_f82r_labels": a194_data["f80r_profile"]["labels"] + a194_data["f82r_profile"]["labels"],
+        "megaparagraph_table": a195_data["quire20_step_star_megaparagraphs"][:12],
+        "f108v_subclauses": a195_data["f108v_megaparagraph_10_subclauses"],
     }, ensure_ascii=False)
 
     html = f"""<!DOCTYPE html>
@@ -1446,8 +1517,8 @@ def main():
       <p>Click any word token on any page to peel apart its Prefix + Root Stem + Suffix in plain English</p>
     </div>
     <nav class="nav-tabs" aria-label="Explorer Views">
-      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (54)</button>
-      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (60)</button>
+      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (58)</button>
+      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (65)</button>
       <button class="tab-btn" onclick="switchTab('lexicon', this)">3. Core Dictionary &amp; 8-Case Grammar</button>
       <button class="tab-btn" onclick="switchTab('zodiac', this)">4. Zodiac Months &amp; Bath Plumbing</button>
       <button class="tab-btn" onclick="switchTab('recipes', this)">5. Starred Recipes, Rosettes &amp; 4-Transcriber Proof</button>
@@ -1459,6 +1530,7 @@ def main():
       <button class="tab-btn" onclick="switchTab('state200', this)">11. Milestone 200: 8-State Syntactic Machine, =Pt/+Pr Codas &amp; f69r Wheel</button>
       <button class="tab-btn" onclick="switchTab('wave44', this)">12. Astro Trifecta (p127), Diagram-Label Minimal Pairs &amp; Quire 20 Chaining</button>
       <button class="tab-btn" onclick="switchTab('wave45', this)">13. Wave 45: Zodiac 30° Invariant, Balneo Absorption &amp; Two-Tier Stars</button>
+      <button class="tab-btn" onclick="switchTab('wave46', this)">14. Wave 46: Zodiac @Cc-@Lz Split, f80r/f82r Galleries &amp; 32-Word Star Invariant</button>
     </nav>
   </div>
 </header>
@@ -1503,7 +1575,7 @@ def main():
   <!-- TAB 2: BOTANICAL & ASTRO SPECIMENS -->
   <section id="tab-specimens" class="tab-panel">
     <div style="margin-bottom: 1rem;">
-      <h2 style="margin: 0 0 0.25rem;">60 Flagship Botanical, Astronomical, Balneological, Cosmological, Margin-Key &amp; Visual-Twin Identifications</h2>
+      <h2 style="margin: 0 0 0.25rem;">65 Flagship Botanical, Astronomical, Balneological, Cosmological, Margin-Key &amp; Visual-Twin Identifications</h2>
       <p style="margin: 0; color: var(--muted);">
         Matching the manuscript's high-resolution drawings to concrete 15th-century European herbal species, star clusters, bilingual month wheels, labelled hydrotherapy pipes, cosmological spheres, margin keys, quire signatures, and visual twin plant pairs.
       </p>
@@ -2216,6 +2288,110 @@ def main():
             <th>Step Opener Word (Click to Decode)</th>
             <th>Initial Class</th>
             <th>Preceding Line End Word (Click)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- TAB 14: WAVE 46 (ZODIAC @CC-@LZ SPLIT, F80R/F82R GALLERIES & 32.12-WORD STAR INVARIANT) -->
+  <section id="tab-wave46" class="tab-panel">
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="num">+8.81 z</div>
+        <div class="lbl">Zodiac <code>@Lz</code> Degree Labels Surge <code>1.68×</code> in <code>o-</code> Nominal Prefixes (68.00% vs. 40.56%, <code>Attack 193</code>)</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">+7.00 z</div>
+        <div class="lbl">Zodiac <code>@Cc</code> Concentric Rings Surge <code>3.14×</code> in <code>ch-/sh-</code> Verbal Stems (26.04% vs. 8.29%, <code>Attack 193</code>)</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">+5.42 z</div>
+        <div class="lbl">Rare Velar <code>-g</code> Label Stop Enriched <code>3.57×</code> in Diagram Labels (91.33% Word-Final, <code>Attack 194</code>)</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">2.36× SD Drop</div>
+        <div class="lbl">Splitting Quire 20 at 54 Step Stars Collapses SD from <code>33.14 &rarr; 14.02</code> Words onto <code>32.12</code>-Word Invariant (<code>Attack 195</code>)</div>
+      </div>
+    </div>
+
+    <h2>1. The Zodiac <code>@Cc</code> Ring vs. <code>@Lz</code> Degree-Label Syntactic Split (<code>z = +8.81 / +7.00</code>) &amp; <code>75.14%</code> Root Stem Sharing (<code>Attack 193</code>)</h2>
+    <p style="color: var(--muted);">
+      Across all <strong>12 Zodiac folios (<code>964</code> <code>@Cc</code> ring words + <code>350</code> <code>@Lz</code> degree-label words)</strong>, <strong>75.14% (<code>263/350</code>) of <code>@Lz</code> degree tokens share their canonical root stem with the <code>@Cc</code> concentric rings</strong> (<code>35.71%</code> exact words across the Zodiac, <code>53.43%</code> stem match on the exact same medallion). Yet the two registers divide into complementary grammatical roles: <code>@Lz</code> degree labels surge <strong>1.68× in <code>o-</code> nominal citation prefixes (68.00% vs. 40.56%, z = +8.81)</strong>, while <code>@Cc</code> concentric rings surge <strong>3.14× in <code>ch-/sh-</code> verbal participles (26.04% vs. 8.29%, z = +7.00)</strong>:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="zodiacCcLzTable">
+        <thead>
+          <tr>
+            <th>Folio</th>
+            <th>Sign &amp; Month</th>
+            <th><code>@Cc</code> Ring Words</th>
+            <th><code>@Lz</code> Degree Words</th>
+            <th>Same-Wheel Exact Match</th>
+            <th>Same-Wheel Stem Match</th>
+            <th>Shared Exact Words (Click to Decode)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>2. Balneological Galleries on <code>f80r</code> (<code>100.0%</code> Balneo Stem Echo) &amp; <code>f82r</code> Dual-Arc Fountain + Rare <code>-g</code> Label Stop (<code>z = +5.42</code>, <code>Attack 194</code>)</h2>
+    <p style="color: var(--muted);">
+      On <code>f80r</code> (Upper 8-Nymph Gallery with Nymph #5 <code>okary</code> inside a tiered blue pedestal basin + right-margin water conduit <code>okar</code> feeding a pitcher), <strong>100.0% (<code>10/10</code>) of diagram callout stems are echoed across Balneological prose (<code>70.0%</code> on <code>f80r</code> itself)</strong>, forming the 3-step vowel-liquid gradation <code>okaly &rarr; okolo &rarr; okary</code>. On <code>f82r</code> (Dual-Arc Central Fountain), two vertical shower plumes labeled with <code>dar-</code> ablative stems (<code>darol</code> &amp; <code>darary</code>, with rare <code>-adag</code> in <code>RF1b/IT2a</code>) flank the minimal pair <code>okal &rarr; okaldy</code>:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="f80rF82rLabelsTable">
+        <thead>
+          <tr>
+            <th>Locus</th>
+            <th>Type</th>
+            <th>Callout Label (Click to Decode)</th>
+            <th>Stem</th>
+            <th>Physical Position on <code>f80r</code> / <code>f82r</code></th>
+            <th>Same-Folio Stem Echo?</th>
+            <th>Balneo Prose Stem Echo?</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>3. The Quire 20 Megaparagraph Step-Star Variance Collapse (<code>33.14 &rarr; 14.02</code> Words SD, <code>2.36×</code> Reduction) &amp; <code>32.12</code>-Word Recipe Invariant (<code>Attack 195</code>)</h2>
+    <p style="color: var(--muted);">
+      Why did EVA transcribers encode <code>f111r.6–35</code> (365 words), <code>f111v.1–25</code> (294 words), and <code>f108v.30–53</code> (261 words) as giant megaparagraphs? Because on the line immediately preceding an Intra-Paragraph Step Star (<code>Line L-1</code>), the scribe finished writing right at the <strong>full right margin</strong> (<strong>33.33% [<code>18/54</code>] right-margin <code>-m</code> stop vs. 8.40% at <code>&lt;$&gt;</code> half-line breaks = 3.97× surge!</strong>), leaving no blank half-line gap on the vellum. Splitting Quire 20's <code>285</code> paragraphs at the <code>54</code> Intra-Paragraph Step Stars (<code>339</code> total star-marked units) collapses the standard deviation by <strong>2.36× (from 33.14 down to 14.02 words)</strong> and brings every megaparagraph into exact alignment with the <strong>32.12-word canonical recipe length</strong>:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="megaparagraphsTable">
+        <thead>
+          <tr>
+            <th>Folio</th>
+            <th>Locus Range</th>
+            <th>Lines</th>
+            <th>Raw Megaparagraph Words</th>
+            <th>Step Stars Inside</th>
+            <th>Total Star Units</th>
+            <th>Mean Words / Star Unit</th>
+            <th>First &rarr; Last Word (Click)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>4. Inside the <code>f108v.30–53</code> Megaparagraph: All <code>8</code> Star-Marked Sub-Clauses (<code>261</code> Words = <code>32.62</code> Words/Unit, <code>Attack 195</code>)</h2>
+    <div style="overflow-x: auto;">
+      <table id="f108vSubclausesTable">
+        <thead>
+          <tr>
+            <th>Unit #</th>
+            <th>Star Tier</th>
+            <th>Locus Range</th>
+            <th>Words</th>
+            <th>First &rarr; Last Word (Click)</th>
+            <th><code>qo-</code> / <code>-edy</code></th>
+            <th>Shared Exact Words with Previous Unit (Click to Decode)</th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -3120,6 +3296,91 @@ function renderWave45Tab() {{
   }}).join("");
 }}
 
+function renderWave46Tab() {{
+  const zBody = document.querySelector("#zodiacCcLzTable tbody");
+  zBody.innerHTML = (DATA.zodiac_cc_lz_rows || []).map(z => {{
+    const sharedChips = (z.shared_exact_words || []).length
+      ? z.shared_exact_words.map(w => `<span class="word-chip" onclick="setWord('${{w}}')"><strong>${{w}}</strong></span>`).join(" ")
+      : `<span style="color:var(--muted)">— (Stem overlap only)</span>`;
+    return `
+      <tr>
+        <td><strong><code>${{z.folio}}</code></strong> (${{z.pdf_page}})</td>
+        <td><strong>${{z.sign}}</strong> (<code>${{z.month}}</code>)</td>
+        <td>${{z.n_cc_words}} words (${{z.n_cc_rings}} rings)</td>
+        <td>${{z.n_lz_words}} words (${{z.n_lz_loci}} loci)</td>
+        <td><strong>${{z.lz_in_same_cc_exact_count}} / ${{z.n_lz_words}}</strong> (${{(z.lz_in_same_cc_exact_rate * 100).toFixed(1)}}%)</td>
+        <td><strong>${{z.lz_in_same_cc_stem_count}} / ${{z.n_lz_words}}</strong> (${{(z.lz_in_same_cc_stem_rate * 100).toFixed(1)}}%)</td>
+        <td>${{sharedChips}}</td>
+      </tr>
+    `;
+  }}).join("");
+
+  const bBody = document.querySelector("#f80rF82rLabelsTable tbody");
+  bBody.innerHTML = (DATA.f80r_f82r_labels || []).map(l => {{
+    const sameBadge = l.in_same_folio_prose_stem
+      ? `<span class="badge" style="background:var(--green-soft);color:var(--green)">Yes (Same Folio)</span>`
+      : `<span class="badge">No</span>`;
+    const balBadge = l.in_balneo_prose_stem
+      ? `<span class="badge" style="background:var(--blue-soft);color:var(--blue)">Yes (In Balneo)</span>`
+      : `<span class="badge">No</span>`;
+    return `
+      <tr>
+        <td><strong><code>${{l.locus}}</code></strong></td>
+        <td><code>${{l.ltype}}</code></td>
+        <td><span class="word-chip" onclick="setWord('${{l.label}}')"><strong>${{l.label}}</strong></span></td>
+        <td><code>${{l.stem}}</code></td>
+        <td>${{l.position}}</td>
+        <td>${{sameBadge}}</td>
+        <td>${{balBadge}}</td>
+      </tr>
+    `;
+  }}).join("");
+
+  const mBody = document.querySelector("#megaparagraphsTable tbody");
+  mBody.innerHTML = (DATA.megaparagraph_table || []).map(m => {{
+    const hl = m.n_step_stars >= 7 ? 'style="background:var(--gold-soft);"' : '';
+    return `
+      <tr ${{hl}}>
+        <td><strong><code>${{m.folio}}</code></strong></td>
+        <td><code>${{m.start_locus}}–${{m.end_locus.split('.')[1]}}</code></td>
+        <td>${{m.n_lines}} lines</td>
+        <td><strong>${{m.n_words}} words</strong></td>
+        <td><span class="badge" style="background:var(--accent-soft);color:var(--accent)">+${{m.n_step_stars}} Step Stars</span></td>
+        <td><strong>${{m.total_subclauses}} Star Units</strong></td>
+        <td><span class="badge" style="background:var(--green-soft);color:var(--green)">${{m.mean_words_per_subclause}} words/unit</span></td>
+        <td>
+          <span class="word-chip" onclick="setWord('${{m.first_word}}')">${{m.first_word}}</span> &rarr;
+          <span class="word-chip" onclick="setWord('${{m.last_word}}')">${{m.last_word}}</span>
+        </td>
+      </tr>
+    `;
+  }}).join("");
+
+  const scBody = document.querySelector("#f108vSubclausesTable tbody");
+  scBody.innerHTML = (DATA.f108v_subclauses || []).map(sc => {{
+    const tierBadge = sc.subclause_num === 1
+      ? `<span class="badge" style="background:var(--accent-soft);color:var(--accent)">Primary &lt;%&gt; Start</span>`
+      : `<span class="badge" style="background:var(--blue-soft);color:var(--blue)">+P0 Step Star</span>`;
+    const sharedChips = (sc.shared_exact_with_prev || []).length
+      ? sc.shared_exact_with_prev.map(w => `<span class="word-chip" onclick="setWord('${{w}}')">${{w}}</span>`).join(" ")
+      : `<span style="color:var(--muted)">Opening sub-clause</span>`;
+    return `
+      <tr>
+        <td><strong>Unit #${{sc.subclause_num}}</strong></td>
+        <td>${{tierBadge}}</td>
+        <td><code>${{sc.start_locus}}–${{sc.end_locus.split('.')[1]}}</code> (${{sc.n_lines}}L)</td>
+        <td><strong>${{sc.n_words}} words</strong></td>
+        <td>
+          <span class="word-chip" onclick="setWord('${{sc.first_word}}')"><strong>${{sc.first_word}}</strong></span> &rarr;
+          <span class="word-chip" onclick="setWord('${{sc.last_word}}')"><code>${{sc.last_word}}</code></span>
+        </td>
+        <td><code>qo-</code>: ${{sc.qo_count}} | <code>-edy</code>: ${{sc.edy_count}}</td>
+        <td>${{sharedChips}}</td>
+      </tr>
+    `;
+  }}).join("");
+}}
+
 function switchTab(tabId, btn) {{
   document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
   document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
@@ -3141,6 +3402,7 @@ renderMicroCliticsF57vStemMatrix();
 renderMilestone200Tab();
 renderWave44Tab();
 renderWave45Tab();
+renderWave46Tab();
 </script>
 </body>
 </html>

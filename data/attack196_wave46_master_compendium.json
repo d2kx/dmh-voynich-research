@@ -1,0 +1,231 @@
+{
+  "wave": 46,
+  "attacks": [
+    193,
+    194,
+    195,
+    196
+  ],
+  "discoveries": [
+    210,
+    211,
+    212,
+    213
+  ],
+  "edition": "v12.0",
+  "attack193_summary": {
+    "n_zodiac_folios": 12,
+    "total_cc_words": 964,
+    "total_lz_words": 350,
+    "same_medallion_lz_in_cc_exact_count": 42,
+    "same_medallion_lz_in_cc_exact_rate": 0.12,
+    "null_lz_in_cc_exact_rate": 0.1028,
+    "same_medallion_exact_lift": 1.17,
+    "same_medallion_exact_z": 1.25,
+    "same_medallion_lz_in_cc_stem_count": 187,
+    "same_medallion_lz_in_cc_stem_rate": 0.5343,
+    "null_lz_in_cc_stem_rate": 0.5552,
+    "same_medallion_stem_lift": 0.96,
+    "same_medallion_stem_z": -1.42,
+    "mean_exact_jaccard": 0.0302,
+    "null_exact_jaccard": 0.0276,
+    "exact_jaccard_z": 0.7,
+    "mean_stem_jaccard": 0.1222,
+    "null_stem_jaccard": 0.1351,
+    "stem_jaccard_z": -2.03,
+    "lz_in_any_zodiac_cc_exact_count": 125,
+    "lz_in_any_zodiac_cc_exact_rate": 0.3571,
+    "lz_in_any_zodiac_cc_stem_count": 263,
+    "lz_in_any_zodiac_cc_stem_rate": 0.7514
+  },
+  "attack193_cc_vs_lz": {
+    "cc_rings": {
+      "n_words": 964,
+      "mean_len": 5.162,
+      "ok_ot_rate": 0.3475,
+      "ot_op_rate": 0.2303,
+      "ok_of_rate": 0.1172,
+      "ch_sh_rate": 0.2604,
+      "o_init_rate": 0.4056,
+      "y_dy_ey_rate": 0.3849,
+      "al_ar_ol_or_rate": 0.2842,
+      "aiin_rate": 0.1048
+    },
+    "lz_labels": {
+      "n_words": 350,
+      "mean_len": 5.583,
+      "ok_ot_rate": 0.5286,
+      "ot_op_rate": 0.2743,
+      "ok_of_rate": 0.2543,
+      "ch_sh_rate": 0.0829,
+      "o_init_rate": 0.68,
+      "y_dy_ey_rate": 0.46,
+      "al_ar_ol_or_rate": 0.2343,
+      "aiin_rate": 0.0686
+    }
+  },
+  "attack194_summary": {
+    "total_g_tokens": 150,
+    "total_g_end_tokens": 137,
+    "total_adag_tokens": 2,
+    "g_in_labels": 18,
+    "g_in_prose": 132,
+    "g_label_rate": 0.01297,
+    "g_prose_rate": 0.00363,
+    "g_label_enrichment_lift": 3.57,
+    "g_label_enrichment_z": 5.42,
+    "g_line_or_label_final_rate": 0.7533,
+    "f80r_same_folio_stem_echo_rate": 0.7,
+    "f80r_balneo_stem_echo_rate": 1.0,
+    "f82r_same_folio_stem_echo_rate": 0.4615,
+    "f82r_balneo_stem_echo_rate": 0.6154,
+    "n_shared_exact_balneo_labels": 9
+  },
+  "attack195_summary": {
+    "total_q20_paragraphs": 285,
+    "total_q20_star_subclauses": 339,
+    "mean_words_per_paragraph": 38.21,
+    "sd_words_before_step_star_split": 33.14,
+    "cv_before_step_star_split": 0.867,
+    "mean_words_per_star_unit": 32.12,
+    "sd_words_after_step_star_split": 14.02,
+    "cv_after_step_star_split": 0.436,
+    "sd_reduction_factor": 2.36,
+    "max_words_before_step_star_split": 365,
+    "max_words_after_step_star_split": 167,
+    "f108v_total_words": 581,
+    "f108v_total_paragraphs": 7,
+    "f108v_total_step_stars": 9,
+    "f108v_megaparagraph_words": 261,
+    "f108v_megaparagraph_subclauses": 8,
+    "f108v_mean_words_per_subclause": 32.62,
+    "f94r_pharma_exact_echo_rate": 0.4805,
+    "f94r_pharma_stem_echo_rate": 0.8701,
+    "f94r_recipes_exact_echo_rate": 0.7792,
+    "f94r_recipes_stem_echo_rate": 0.9221
+  },
+  "attack195_pre_star_cadence": {
+    "before_primary_recipe_start": {
+      "n_lines": 262,
+      "m_stop_rate": 0.084,
+      "dy_ey_y_rate": 0.4237,
+      "al_ar_ol_or_rate": 0.1679,
+      "aiin_rate": 0.1527,
+      "am_dy_y_al_ar_cadence_rate": 0.8206
+    },
+    "before_intra_paragraph_step_star": {
+      "n_lines": 54,
+      "m_stop_rate": 0.3333,
+      "dy_ey_y_rate": 0.2593,
+      "al_ar_ol_or_rate": 0.1667,
+      "aiin_rate": 0.037,
+      "am_dy_y_al_ar_cadence_rate": 0.7963
+    },
+    "before_ordinary_continuation_line": {
+      "n_lines": 745,
+      "m_stop_rate": 0.2805,
+      "dy_ey_y_rate": 0.3517,
+      "al_ar_ol_or_rate": 0.1651,
+      "aiin_rate": 0.0349,
+      "am_dy_y_al_ar_cadence_rate": 0.8282
+    }
+  },
+  "attack195_megaparagraph_table": [
+    {
+      "folio": "f111r",
+      "start_locus": "f111r.6",
+      "end_locus": "f111r.35",
+      "n_lines": 30,
+      "n_words": 365,
+      "n_step_stars": 10,
+      "total_subclauses": 11,
+      "mean_words_per_subclause": 33.2,
+      "first_word": "dain",
+      "last_word": "dam"
+    },
+    {
+      "folio": "f111v",
+      "start_locus": "f111v.1",
+      "end_locus": "f111v.25",
+      "n_lines": 25,
+      "n_words": 294,
+      "n_step_stars": 9,
+      "total_subclauses": 10,
+      "mean_words_per_subclause": 29.4,
+      "first_word": "koshey",
+      "last_word": "chd"
+    },
+    {
+      "folio": "f108v",
+      "start_locus": "f108v.30",
+      "end_locus": "f108v.53",
+      "n_lines": 24,
+      "n_words": 261,
+      "n_step_stars": 7,
+      "total_subclauses": 8,
+      "mean_words_per_subclause": 32.6,
+      "first_word": "polshedaiin",
+      "last_word": "otedy"
+    },
+    {
+      "folio": "f116r",
+      "start_locus": "f116r.31",
+      "end_locus": "f116r.45",
+      "n_lines": 15,
+      "n_words": 167,
+      "n_step_stars": 0,
+      "total_subclauses": 1,
+      "mean_words_per_subclause": 167.0,
+      "first_word": "pchallarar",
+      "last_word": "chy"
+    },
+    {
+      "folio": "f116r",
+      "start_locus": "f116r.18",
+      "end_locus": "f116r.30",
+      "n_lines": 13,
+      "n_words": 160,
+      "n_step_stars": 3,
+      "total_subclauses": 4,
+      "mean_words_per_subclause": 40.0,
+      "first_word": "pcharalor",
+      "last_word": "okaly"
+    },
+    {
+      "folio": "f108v",
+      "start_locus": "f108v.20",
+      "end_locus": "f108v.29",
+      "n_lines": 10,
+      "n_words": 119,
+      "n_step_stars": 2,
+      "total_subclauses": 3,
+      "mean_words_per_subclause": 39.7,
+      "first_word": "polkeedal",
+      "last_word": "chea"
+    },
+    {
+      "folio": "f111r",
+      "start_locus": "f111r.36",
+      "end_locus": "f111r.43",
+      "n_lines": 8,
+      "n_words": 86,
+      "n_step_stars": 1,
+      "total_subclauses": 2,
+      "mean_words_per_subclause": 43.0,
+      "first_word": "polal",
+      "last_word": "chedy"
+    },
+    {
+      "folio": "f111v",
+      "start_locus": "f111v.37",
+      "end_locus": "f111v.44",
+      "n_lines": 8,
+      "n_words": 82,
+      "n_step_stars": 1,
+      "total_subclauses": 2,
+      "mean_words_per_subclause": 41.0,
+      "first_word": "polchey",
+      "last_word": "or"
+    }
+  ]
+}

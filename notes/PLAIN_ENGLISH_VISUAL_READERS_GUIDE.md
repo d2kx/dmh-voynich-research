@@ -55,9 +55,9 @@ When you strip off the prefix and suffix, you are left with the **Root Stem**:
 
 ---
 
-## Part 2: Page-by-Page Visual Walkthroughs (38 Iconic Folios)
+## Part 2: Page-by-Page Visual Walkthroughs (42 Iconic Folios)
 
-Below are **38 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
+Below are **42 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
 
 ---
 
@@ -633,7 +633,56 @@ Why did the scribe write the Voynich word **`oror`** at the end of a European ch
 
 ---
 
+### 39. Folios `f72v3`, `f72v2` & `f72v1` — The Unfolded Leo (`agost`) & Virgo (`setembre`) Sheet (`p132`), Libra (`octobre`) Balance Scale (`p133`), Crowned 12:00 Leader-Nymphs, Vellum Hole Avoidance, Quire 11 Signature `11m` & the `@Cc` vs. `@Lz` Register Split ($z = +8.81$)
+* **Section:** Zodiac Medallions (`$I=Z`, `$Q=K`, Currier A, Scribe 4) | **Pages in Yale Scan:** Pages 132 (`f72v3 | f72v2`) & 133 (`f72v1`)
+
+![Unfolded Zodiac Sheet p132: f72v3 Leo agost and f72v2 Virgo setembre](../pages/f72v3_leo_agost_zodiac_enh.png)
+
+#### What to Look for on `p132` (`f72v3 | f72v2`, Above) and `p133` (`f72v1` Libra, Below)
+1. **Crowned 12:00 Leader-Nymphs on Leo (`f72v3`) and Libra (`f72v1`):** On `f72v3` (left panel above, **Leo** with red-painted genitalia above **`agost`**) and on `f72v1` (below, **Libra** blue-and-gold balance scale above **`octobre`**), look at the **12:00 top-center nymph in the outer 30-nymph ring**: on both wheels, **that top-center nymph wears a 3-pointed crown** (`or.aiin / otedy` on `f72v3`, `okchey / otedy` on `f72v1`), visually marking the **0° / 30° cardinal cusp** of the sign! Meanwhile, on `f72v2` (right panel above, **Virgo** in a pleated blue-and-white medieval gown above **`setembre`**), all 30 nymphs hold their stars on **vertical floral stems**.
+2. **Pre-Existing Vellum Defect Hole & Quire 11 Signature `11m` on `f72v1` (Below):** Look at the right side (03:00) of the inner ring of `f72v1` (below): there is a **round natural vellum hole** in the calfskin! Notice how the circular ring line and the Voynich letters curve smoothly around the hole without losing a single character—proving the hole existed before the diagram or text was drawn. And in the **bottom-right corner of `f72v1`** sits the medieval bookbinder's **Quire 11 signature `11m`** (following `10m` on `f71r`)!
+3. **The `@Cc` Concentric Ring vs. `@Lz` Degree-Label Register Split (`Attack 193`, `Discovery 210`):** Across all 12 Zodiac wheels, **`75.14%` (`263/350`) of `@Lz` degree tokens share their canonical root stem with the `@Cc` concentric rings**—yet `@Lz` labels use **`o-` nominal citation prefixes `68.00%` of the time ($z = +8.81$)** while `@Cc` rings surge **`3.14×` in `ch-/sh-` verbal participles (`26.04%` vs `8.29%`, $z = +7.00$)**!
+
+![Folio f72v1 Libra octobre Medallion with Crowned Nymph, Vellum Defect Hole and Quire 11m Signature](../pages/f72v1_libra_octobre_p133_enh.png)
+
+---
+
+### 40. Folios `f80r` & `f82r` — The `f80r` Blue-Basin Gallery (`100%` Balneo Stem Echo), `f82r` Dual-Arc Fountain & `darol / darary` Shower Plumes, and the `3.57×` `-g` Label Suffix Law ($z = +5.42$)
+* **Section:** Balneological / Medical Bathing (`$I=B`, `$Q=M`, Currier B, Scribe 2) | **Pages in Yale Scan:** Pages 146 (`f80r`) & 150 (`f82r`)
+
+![Folio f80r Balneological Upper 8-Nymph Gallery, Blue Pedestal Basin and Spouted Pitcher](../pages/f80r_balneo_eleven_nymph_gallery_enh.png)
+
+#### What to Look for on `f80r` (Above) and `f82r` (Below)
+1. **The `okaly -> okolo -> okary` Gallery & `okar` Spouted Pitcher on `f80r` (Above):** Along the top of `f80r` stand **8 labeled bathers**: bathers #3, #4, and #5 form the 3-step liquid gradation **`okaly -> okolo -> okary`** (with bather #5 `okary` standing inside a **tiered blue pedestal basin**), while right below the page number `80`, a sinuous water pipe labeled **`okar`** pours into a yellow-and-red **spouted pitcher/funnel** feeding the middle pool. **`100.0%` (`10/10`) of `f80r`'s callout label stems echo in Balneological prose (`70.0%` inside `f80r`'s own prose, `Attack 194`)**!
+2. **The Dual-Arc Fountain, `oroldair` Horizontal Jet & `darol / darary` Shower Plumes on `f82r` (Below):** At the top center of `f82r` (below), a red-and-blue column splits into **two symmetrical overhead water arcs**, above a middle-left bather (`oroldair`) firing a **horizontal multi-stream water jet** across the page toward a reclining bather under a blue-and-gold star. At the bottom, **two vertical shower/geyser plumes carry `dar-` source labels (`darol` on the left plume, `darary` on the right plume)** flanking the adjacent minimal pair **`okal -> okaldy`**! Across the entire manuscript (`Attack 194`), **`EVA g` (`150` tokens, `91.33%` word-final `-g`) is enriched `3.57×` in Diagram Labels (`1.30%` vs `0.36%` prose, $z = +5.42$)**.
+
+![Folio f82r Dual-Arc Fountain, Horizontal Jet and Green Scalloped Pool with darol and darary Shower Plumes](../pages/f82r_balneo_rainbow_shower_pool_enh.png)
+
+---
+
+### 41. Folio `f94r` — The Opposite-Leaflet Maidenhair Fern / Spleenwort Monograph (`Asplenium / Adiantum`) & `92.21%` Recipe Stem Bridge
+* **Section:** Post-Rosettes Late Herbal (`$I=H`, `$Q=R`, Currier A, Scribe 1) | **Page in Yale Scan:** Page 170
+
+![Folio f94r Maidenhair Fern or Spleenwort Monograph with Four Opposite-Leaflet Fronds](../pages/f94r_late_herbal_monograph_enh.png)
+
+#### What to Look for on `f94r`
+1. **Four Arching Fronds With Opposite Pairs of Fan-Shaped Scalloped Leaflets (*Capillus Veneris / Politricum*):** Four long green fronds rise from a 5-pronged brown rhizome, each lined with **opposite pairs of fan-shaped, white-scalloped leaflets (`pinnae`)** and topped by a central stem of **6 dark-blue globular bodies** (sporangia/seed-bodies)—matching 15th-century Northern Italian herbal illustrations of **Maidenhair Fern (*Adiantum capillus-veneris*)** and **Maidenhair Spleenwort (*Asplenium trichomanes*)**.
+2. **`87.01%` Pharmaceutical & `92.21%` Starred-Recipe Stem Coverage (`Attack 195`, `Discovery 212`):** Tracing all `66` words of `f94r`'s compact 9-line paragraph (`koaiin.cheo.pchor.qooldy...`) across the manuscript proves that **`87.01%` of `f94r`'s token stems (`48.05%` exact words) recur in the Pharmaceutical section** and **`92.21%` (`77.92%` exact words!) recur in the Quire 20 Starred Master Recipes**!
+
+---
+
+### 42. Folio `f108v` — The `581`-Word Starred Recipe Folio, the `261`-Word 8-Sub-Clause Megaparagraph & the Quire 20 Step-Star Variance Collapse (`2.36×` SD Reduction to `32.12` Words/Star Unit)
+* **Section:** Starred Master Recipes (`$I=S`, `$Q=T` [Quire 20], Currier B, Scribe 3) | **Page in Yale Scan:** Page 195
+
+![Folio f108v Quire 20 Recipe Folio with 16 Painted Margin Stars and 261-Word Megaparagraph](../pages/f108v_quire20_megaparagraph_recipes_enh.png)
+
+#### What to Look for on `f108v`
+1. **Why Did Modern Transliterators Merge `f108v.30–53` (`261` Words, `8` Stars) Into One Giant Paragraph? (`Attack 195`, `Discovery 212`):** Count the painted stars down the left margin of `f108v`: there are **16 stars** (`7` Primary `<%>` Recipe-Start Stars + `9` Secondary Intra-Paragraph `+P0` Step Stars). Why did modern transcribers (`ZL3b-n`) fail to break those `9` step-star lines into separate paragraphs? Because across all `54` Intra-Paragraph Step Stars in Quire 20, **on the preceding line (`Line L-1`), the scribe finished writing right at the far-right margin (`33.33%` right-margin `-m` stop vs. only `8.40%` at `<$>` half-line breaks — a `3.97×` surge!)**, leaving no blank half-line gap on the vellum!
+2. **The `2.36×` Variance Collapse onto the `32.12`-Word Canonical Recipe Length (`Attack 195`):** Before splitting at the `54` Intra-Paragraph Step Stars, Quire 20's `285` `<%>` paragraphs have a huge standard deviation of **$\sigma = 33.14$ words ($CV = 0.867$)** because of `f111r.6–35` (`365` words), `f111v.1–25` (`294` words), and `f108v.30–53` (`261` words). **The instant you split at the `54` Step Stars (`285 + 54 = 339` Star Units), standard deviation collapses by `2.36×` down to $\sigma = 14.02$ words ($CV = 0.436$), and every single megaparagraph converges onto the ~`32`-word canonical recipe length (`33.2` words on `f111r`, `29.4` words on `f111v`, `32.6` words on `f108v.30–53`, matching the `32.12`-word global mean across all `339` star units!)**!
+
+---
+
 ## Where to Go Next
-* **Want to see all 60 real-world plants, constellations, wheels, bathing diagrams, and visual twins?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)** (`SPEC-01` through `SPEC-60`).
-* **Want to click through 54 pages, decode words interactively, and explore all 13 tabs in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now at **v11.0 — Wave 45 Zodiac 30° Invariant, Balneo Absorption & Two-Tier Stars Edition**!).
-* **Want the deep grammatical tables, the Wave 45 Zodiac `30°` / Balneo Absorption / Two-Tier Star proofs, the Milestone 200 8-State Syntactic State Machine, and full 209-discovery research log?** See **[`ZODIAC_30DEGREE_INVARIANT_BALNEO_ABSORPTION_AND_TWO_TIER_STARS.md`](ZODIAC_30DEGREE_INVARIANT_BALNEO_ABSORPTION_AND_TWO_TIER_STARS.md)**, **[`ASTRO_TRIFECTA_BALNEO_MINIMAL_PAIRS_AND_QUIRE20_CHAINING.md`](ASTRO_TRIFECTA_BALNEO_MINIMAL_PAIRS_AND_QUIRE20_CHAINING.md)**, **[`ROSETTES_ENVELOPE_F69R_WHEEL_AND_200_DISCOVERIES_STATE_MACHINE.md`](ROSETTES_ENVELOPE_F69R_WHEEL_AND_200_DISCOVERIES_STATE_MACHINE.md)**, and **[`NOTES.md`](../NOTES.md)**.
+* **Want to see all 65 real-world plants, constellations, wheels, bathing diagrams, and visual twins?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)** (`SPEC-01` through `SPEC-65`).
+* **Want to click through 58 pages, decode words interactively, and explore all 14 tabs in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now at **v12.0 — Wave 46 Zodiac `@Cc-@Lz` Split, `f80r/f82r` Balneo Galleries & `f108v` Megaparagraph Step-Star Collapse Edition**!).
+* **Want the deep grammatical tables, the Wave 46 Zodiac `@Cc-@Lz` / `-g` Suffix / Step-Star Variance Collapse proofs, the Wave 45 Zodiac `30°` / Balneo Absorption / Two-Tier Star proofs, the Milestone 200 8-State Syntactic State Machine, and full 213-discovery research log?** See **[`ZODIAC_RING_COUPLING_BALNEO_GALLERIES_AND_F108V_MEGAPARAGRAPH.md`](ZODIAC_RING_COUPLING_BALNEO_GALLERIES_AND_F108V_MEGAPARAGRAPH.md)**, **[`ZODIAC_30DEGREE_INVARIANT_BALNEO_ABSORPTION_AND_TWO_TIER_STARS.md`](ZODIAC_30DEGREE_INVARIANT_BALNEO_ABSORPTION_AND_TWO_TIER_STARS.md)**, **[`ASTRO_TRIFECTA_BALNEO_MINIMAL_PAIRS_AND_QUIRE20_CHAINING.md`](ASTRO_TRIFECTA_BALNEO_MINIMAL_PAIRS_AND_QUIRE20_CHAINING.md)**, **[`ROSETTES_ENVELOPE_F69R_WHEEL_AND_200_DISCOVERIES_STATE_MACHINE.md`](ROSETTES_ENVELOPE_F69R_WHEEL_AND_200_DISCOVERIES_STATE_MACHINE.md)**, and **[`NOTES.md`](../NOTES.md)**.
