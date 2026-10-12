@@ -1167,4 +1167,33 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Key Breakthroughs**:
   1. **Synthesizes the Top-150 5-Modality Empirical Semantic-Feature Grounding Matrix (`Attack 137`), the Clause Valency & Verb–Object–Dose Collocational Lexicon (`Attack 138`), and the 12 Linked Botanical Specimen 4-Stage Medical Dossiers (`Attack 139`)**.
 
+---
+
+## 141. Attack 141 (`Phase 152`): Five-Tier Macro-Locus & Marginalia Architecture ($z = +30.12$), the `f76r` `100.0%` Dual-Matrix Primitive Key Column & `p163 / f86v4` Gutter Forensics
+- **Script, Data & Scans**: [`tools/attack141_complete_marginalia_and_vertical_gutter_solver.py`](../tools/attack141_complete_marginalia_and_vertical_gutter_solver.py) $\to$ [`data/attack141_complete_marginalia_and_vertical_gutter_solver.json`](../data/attack141_complete_marginalia_and_vertical_gutter_solver.json), [`pages/f76r_vertical_9glyph_margin_key_enh.png`](../pages/f76r_vertical_9glyph_margin_key_enh.png), [`pages/p163_left_gutter_vertical_strip_enh.png`](../pages/p163_left_gutter_vertical_strip_enh.png)
+- **Key Breakthroughs**:
+  1. **Classifies All `5,385` Lines into 5 Macro-Locus Tiers (`Apparatus - Prose Polarity Delta = +0.3879`, $z = +30.12$), Proves That `9 / 9` (`100.0%`) of `f76r`'s Vertical Margin Keys (`s, d, q, s, o, l, k, r, s`) Are Exact Dual-Matrix Onset/Core Primitives Partitioning `f76r:P1` into 9 Intervals, and Identifies the Rotated 90° Vertical Text & Wheel at the Left Gutter of `p163` (`f89r1`) as `f86v4` (`Quire 14`) Resting Beneath `Quire 15`**.
+
+---
+
+## 142. Attack 142 (`Phase 153`): The Cognate Polyptoton (`Figura Etymologica`) & Intra-Clause Topic-to-Comment Progression Law Across `4,424` Multi-Word Clauses ($z = +23.14$, Progression $z = +4.57$)
+- **Script & Data**: [`tools/attack142_cognate_polyptoton_and_intraclause_stem_agreement.py`](../tools/attack142_cognate_polyptoton_and_intraclause_stem_agreement.py) $\to$ [`data/attack142_cognate_polyptoton_and_intraclause_stem_agreement.json`](../data/attack142_cognate_polyptoton_and_intraclause_stem_agreement.json)
+- **Key Breakthroughs**:
+  1. **Proves `42.45%` (`1,878 / 4,424`) Intra-Clause Cognate Polyptoton Coverage (`3,954` Cognate Pairs vs. `1,047` Exact Repeats = `3.78×` Preference, Within-Section Line-Shuffle Lift `1.445×`, $z = +23.14$) and Left-to-Right Topic-to-Comment Progression (`Left w_i = 28.00% -ol/-or/-al/-ar` $\to$ `Right w_j = 10.27% l-/ol-, 28.45% -edy, 1.80% -am/-m`, $z = +4.57$)**.
+
+---
+
+## 143. Attack 143 (`Phase 154`): Complete English-Style Structural & Empirical Clause Reader of the Top 20 Master Hub Folios Across All 8 Sections (`95.24%` Root-Dictionary Coverage, `89.81%` 5-Modality Grounded + Valency Coverage)
+- **Script & Data**: [`tools/attack143_top20_hub_folios_empirical_clause_reader.py`](../tools/attack143_top20_hub_folios_empirical_clause_reader.py) $\to$ [`data/attack143_top20_hub_folios_empirical_clause_reader.json`](../data/attack143_top20_hub_folios_empirical_clause_reader.json)
+- **Key Breakthroughs**:
+  1. **Generates Side-by-Side EVA, Interlinear Gloss, and English-Style Empirical Medical Clause Translations Across 20 Flagship Hub Folios (`f1r..f108v`, `842` Clauses, `5,290` Tokens, `95.24%` Root-Dictionary Coverage, `89.81%` 5-Modality Grounded + Closed-Class Valency Coverage, `29.45%` Cognate Polyptoton Clauses)**.
+
+---
+
+## 144. Attack 144 (`Phase 155`): The Five-Tier Macro-Locus & Marginalia Architecture, Intra-Clause Cognate Polyptoton Grammar & 20-Hub-Folio Empirical Clause Reader Compendium ([`notes/MARGINALIA_POLYPTOTON_AND_20HUB_EMPIRICAL_READER.md`](MARGINALIA_POLYPTOTON_AND_20HUB_EMPIRICAL_READER.md))
+- **Script, Data & Edition**: [`tools/attack144_marginalia_polyptoton_and_20hub_reader_compendium.py`](../tools/attack144_marginalia_polyptoton_and_20hub_reader_compendium.py) $\to$ [`data/attack144_marginalia_polyptoton_and_20hub_reader_compendium.json`](../data/attack144_marginalia_polyptoton_and_20hub_reader_compendium.json) & [`notes/MARGINALIA_POLYPTOTON_AND_20HUB_EMPIRICAL_READER.md`](MARGINALIA_POLYPTOTON_AND_20HUB_EMPIRICAL_READER.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes the Five-Tier Macro-Locus & Marginalia Architecture (`Attack 141`), the Intra-Clause Cognate Polyptoton Grammar (`Attack 142`), and the 20-Hub-Folio Empirical Clause Reader (`Attack 143`)**.
+
+
 

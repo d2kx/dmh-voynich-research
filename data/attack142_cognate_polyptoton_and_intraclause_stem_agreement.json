@@ -1,0 +1,494 @@
+{
+  "attack": 142,
+  "phase": 153,
+  "discovery": 159,
+  "title": "The Cognate Polyptoton (Figura Etymologica) & Intra-Clause Stem-Agreement Law",
+  "overview": {
+    "total_multiword_clauses": 4424,
+    "clauses_with_cognate_polyptoton": 1878,
+    "clauses_with_cognate_polyptoton_pct": 42.45,
+    "observed_cognate_polyptoton_pairs": 3954,
+    "observed_exact_reduplication_pairs": 1047,
+    "polyptoton_to_exact_repeat_ratio": 3.78,
+    "within_section_line_shuffle_permutation_test": {
+      "observed_pairs": 3954,
+      "null_mean_pairs": 2736.32,
+      "null_sd_pairs": 52.62,
+      "lift_ratio": 1.445,
+      "z_score": 23.14
+    },
+    "left_to_right_topic_to_comment_progression_test": {
+      "n_pairs": 3954,
+      "left_wi_profile_pct": {
+        "ds_deic": 7.08,
+        "o_nom": 26.61,
+        "liq": 28.0,
+        "qo": 24.28,
+        "l_appl": 7.26,
+        "chsh": 20.89,
+        "edy": 23.62,
+        "aiin": 9.96,
+        "am": 0.46
+      },
+      "right_wj_profile_pct": {
+        "ds_deic": 6.2,
+        "o_nom": 28.07,
+        "liq": 22.26,
+        "qo": 21.85,
+        "l_appl": 10.27,
+        "chsh": 21.93,
+        "edy": 28.45,
+        "aiin": 10.29,
+        "am": 1.8
+      },
+      "observed_progression_delta": 0.0946,
+      "null_mean_delta": 0.0007,
+      "null_sd_delta": 0.0206,
+      "z_score": 4.57
+    }
+  },
+  "section_polyptoton_rates": {
+    "A": {
+      "clauses": 138,
+      "polyptoton_clauses": 15,
+      "rate_pct": 10.87
+    },
+    "B": {
+      "clauses": 742,
+      "polyptoton_clauses": 381,
+      "rate_pct": 51.35
+    },
+    "C": {
+      "clauses": 233,
+      "polyptoton_clauses": 55,
+      "rate_pct": 23.61
+    },
+    "H": {
+      "clauses": 1607,
+      "polyptoton_clauses": 524,
+      "rate_pct": 32.61
+    },
+    "P": {
+      "clauses": 238,
+      "polyptoton_clauses": 103,
+      "rate_pct": 43.28
+    },
+    "S": {
+      "clauses": 1163,
+      "polyptoton_clauses": 651,
+      "rate_pct": 55.98
+    },
+    "T": {
+      "clauses": 226,
+      "polyptoton_clauses": 119,
+      "rate_pct": 52.65
+    },
+    "Z": {
+      "clauses": 77,
+      "polyptoton_clauses": 30,
+      "rate_pct": 38.96
+    }
+  },
+  "top50_ordered_cognate_polyptoton_pairs": [
+    {
+      "root_core": "che",
+      "left_word_wi": "chey",
+      "right_word_wj": "chedy",
+      "ordered_count": 38,
+      "reverse_count": 15,
+      "forward_asymmetry_pct": 71.7
+    },
+    {
+      "root_core": "kee",
+      "left_word_wi": "qokeedy",
+      "right_word_wj": "qokeey",
+      "ordered_count": 35,
+      "reverse_count": 31,
+      "forward_asymmetry_pct": 53.0
+    },
+    {
+      "root_core": "he",
+      "left_word_wi": "shey",
+      "right_word_wj": "shedy",
+      "ordered_count": 33,
+      "reverse_count": 27,
+      "forward_asymmetry_pct": 55.0
+    },
+    {
+      "root_core": "kee",
+      "left_word_wi": "qokeey",
+      "right_word_wj": "qokeedy",
+      "ordered_count": 31,
+      "reverse_count": 35,
+      "forward_asymmetry_pct": 47.0
+    },
+    {
+      "root_core": "he",
+      "left_word_wi": "shedy",
+      "right_word_wj": "shey",
+      "ordered_count": 27,
+      "reverse_count": 33,
+      "forward_asymmetry_pct": 45.0
+    },
+    {
+      "root_core": "ch",
+      "left_word_wi": "chor",
+      "right_word_wj": "chol",
+      "ordered_count": 26,
+      "reverse_count": 20,
+      "forward_asymmetry_pct": 56.5
+    },
+    {
+      "root_core": "kee",
+      "left_word_wi": "okeey",
+      "right_word_wj": "qokeey",
+      "ordered_count": 25,
+      "reverse_count": 25,
+      "forward_asymmetry_pct": 50.0
+    },
+    {
+      "root_core": "kee",
+      "left_word_wi": "qokeey",
+      "right_word_wj": "okeey",
+      "ordered_count": 25,
+      "reverse_count": 25,
+      "forward_asymmetry_pct": 50.0
+    },
+    {
+      "root_core": "ch",
+      "left_word_wi": "chol",
+      "right_word_wj": "chy",
+      "ordered_count": 21,
+      "reverse_count": 9,
+      "forward_asymmetry_pct": 70.0
+    },
+    {
+      "root_core": "ch",
+      "left_word_wi": "chol",
+      "right_word_wj": "chor",
+      "ordered_count": 20,
+      "reverse_count": 26,
+      "forward_asymmetry_pct": 43.5
+    },
+    {
+      "root_core": "ke",
+      "left_word_wi": "qokedy",
+      "right_word_wj": "okedy",
+      "ordered_count": 19,
+      "reverse_count": 13,
+      "forward_asymmetry_pct": 59.4
+    },
+    {
+      "root_core": "che",
+      "left_word_wi": "lchedy",
+      "right_word_wj": "chedy",
+      "ordered_count": 19,
+      "reverse_count": 14,
+      "forward_asymmetry_pct": 57.6
+    },
+    {
+      "root_core": "che",
+      "left_word_wi": "chey",
+      "right_word_wj": "lchedy",
+      "ordered_count": 19,
+      "reverse_count": 9,
+      "forward_asymmetry_pct": 67.9
+    },
+    {
+      "root_core": "ke",
+      "left_word_wi": "otedy",
+      "right_word_wj": "qokedy",
+      "ordered_count": 18,
+      "reverse_count": 17,
+      "forward_asymmetry_pct": 51.4
+    },
+    {
+      "root_core": "ke",
+      "left_word_wi": "qokedy",
+      "right_word_wj": "otedy",
+      "ordered_count": 17,
+      "reverse_count": 18,
+      "forward_asymmetry_pct": 48.6
+    },
+    {
+      "root_core": "ch",
+      "left_word_wi": "chor",
+      "right_word_wj": "chy",
+      "ordered_count": 15,
+      "reverse_count": 8,
+      "forward_asymmetry_pct": 65.2
+    },
+    {
+      "root_core": "che",
+      "left_word_wi": "chedy",
+      "right_word_wj": "chey",
+      "ordered_count": 15,
+      "reverse_count": 38,
+      "forward_asymmetry_pct": 28.3
+    },
+    {
+      "root_core": "kar",
+      "left_word_wi": "qokar",
+      "right_word_wj": "okar",
+      "ordered_count": 15,
+      "reverse_count": 2,
+      "forward_asymmetry_pct": 88.2
+    },
+    {
+      "root_core": "kee",
+      "left_word_wi": "qokeedy",
+      "right_word_wj": "oteedy",
+      "ordered_count": 15,
+      "reverse_count": 11,
+      "forward_asymmetry_pct": 57.7
+    },
+    {
+      "root_core": "kaiin",
+      "left_word_wi": "qokaiin",
+      "right_word_wj": "okaiin",
+      "ordered_count": 15,
+      "reverse_count": 12,
+      "forward_asymmetry_pct": 55.6
+    },
+    {
+      "root_core": "che",
+      "left_word_wi": "cheol",
+      "right_word_wj": "chedy",
+      "ordered_count": 14,
+      "reverse_count": 4,
+      "forward_asymmetry_pct": 77.8
+    },
+    {
+      "root_core": "che",
+      "left_word_wi": "chedy",
+      "right_word_wj": "lchedy",
+      "ordered_count": 14,
+      "reverse_count": 19,
+      "forward_asymmetry_pct": 42.4
+    },
+    {
+      "root_core": "kaiin",
+      "left_word_wi": "okaiin",
+      "right_word_wj": "otaiin",
+      "ordered_count": 13,
+      "reverse_count": 5,
+      "forward_asymmetry_pct": 72.2
+    },
+    {
+      "root_core": "ke",
+      "left_word_wi": "okedy",
+      "right_word_wj": "qokedy",
+      "ordered_count": 13,
+      "reverse_count": 19,
+      "forward_asymmetry_pct": 40.6
+    },
+    {
+      "root_core": "ke",
+      "left_word_wi": "okedy",
+      "right_word_wj": "otedy",
+      "ordered_count": 13,
+      "reverse_count": 10,
+      "forward_asymmetry_pct": 56.5
+    },
+    {
+      "root_core": "kee",
+      "left_word_wi": "qokeedy",
+      "right_word_wj": "okeedy",
+      "ordered_count": 13,
+      "reverse_count": 10,
+      "forward_asymmetry_pct": 56.5
+    },
+    {
+      "root_core": "kee",
+      "left_word_wi": "qokeedy",
+      "right_word_wj": "qoteedy",
+      "ordered_count": 13,
+      "reverse_count": 9,
+      "forward_asymmetry_pct": 59.1
+    },
+    {
+      "root_core": "kain",
+      "left_word_wi": "qokain",
+      "right_word_wj": "okain",
+      "ordered_count": 13,
+      "reverse_count": 7,
+      "forward_asymmetry_pct": 65.0
+    },
+    {
+      "root_core": "kaiin",
+      "left_word_wi": "okaiin",
+      "right_word_wj": "qokaiin",
+      "ordered_count": 12,
+      "reverse_count": 15,
+      "forward_asymmetry_pct": 44.4
+    },
+    {
+      "root_core": "kee",
+      "left_word_wi": "okeey",
+      "right_word_wj": "qokeedy",
+      "ordered_count": 12,
+      "reverse_count": 11,
+      "forward_asymmetry_pct": 52.2
+    },
+    {
+      "root_core": "che",
+      "left_word_wi": "cheor",
+      "right_word_wj": "chey",
+      "ordered_count": 11,
+      "reverse_count": 5,
+      "forward_asymmetry_pct": 68.8
+    },
+    {
+      "root_core": "kee",
+      "left_word_wi": "qokeedy",
+      "right_word_wj": "okeey",
+      "ordered_count": 11,
+      "reverse_count": 12,
+      "forward_asymmetry_pct": 47.8
+    },
+    {
+      "root_core": "he",
+      "left_word_wi": "sheol",
+      "right_word_wj": "shedy",
+      "ordered_count": 11,
+      "reverse_count": 8,
+      "forward_asymmetry_pct": 57.9
+    },
+    {
+      "root_core": "kee",
+      "left_word_wi": "oteedy",
+      "right_word_wj": "qokeedy",
+      "ordered_count": 11,
+      "reverse_count": 15,
+      "forward_asymmetry_pct": 42.3
+    },
+    {
+      "root_core": "kee",
+      "left_word_wi": "qokeey",
+      "right_word_wj": "oteey",
+      "ordered_count": 11,
+      "reverse_count": 7,
+      "forward_asymmetry_pct": 61.1
+    },
+    {
+      "root_core": "che",
+      "left_word_wi": "cheol",
+      "right_word_wj": "chey",
+      "ordered_count": 11,
+      "reverse_count": 8,
+      "forward_asymmetry_pct": 57.9
+    },
+    {
+      "root_core": "ch",
+      "left_word_wi": "chol",
+      "right_word_wj": "chaiin",
+      "ordered_count": 10,
+      "reverse_count": 2,
+      "forward_asymmetry_pct": 83.3
+    },
+    {
+      "root_core": "ke",
+      "left_word_wi": "otedy",
+      "right_word_wj": "okedy",
+      "ordered_count": 10,
+      "reverse_count": 13,
+      "forward_asymmetry_pct": 43.5
+    },
+    {
+      "root_core": "ke",
+      "left_word_wi": "qokey",
+      "right_word_wj": "qokedy",
+      "ordered_count": 10,
+      "reverse_count": 5,
+      "forward_asymmetry_pct": 66.7
+    },
+    {
+      "root_core": "kee",
+      "left_word_wi": "okeedy",
+      "right_word_wj": "qokeey",
+      "ordered_count": 10,
+      "reverse_count": 8,
+      "forward_asymmetry_pct": 55.6
+    },
+    {
+      "root_core": "kain",
+      "left_word_wi": "qokain",
+      "right_word_wj": "otain",
+      "ordered_count": 10,
+      "reverse_count": 6,
+      "forward_asymmetry_pct": 62.5
+    },
+    {
+      "root_core": "kee",
+      "left_word_wi": "okeedy",
+      "right_word_wj": "qokeedy",
+      "ordered_count": 10,
+      "reverse_count": 13,
+      "forward_asymmetry_pct": 43.5
+    },
+    {
+      "root_core": "ch",
+      "left_word_wi": "chy",
+      "right_word_wj": "chol",
+      "ordered_count": 9,
+      "reverse_count": 21,
+      "forward_asymmetry_pct": 30.0
+    },
+    {
+      "root_core": "kal",
+      "left_word_wi": "okal",
+      "right_word_wj": "qokal",
+      "ordered_count": 9,
+      "reverse_count": 8,
+      "forward_asymmetry_pct": 52.9
+    },
+    {
+      "root_core": "kee",
+      "left_word_wi": "okeey",
+      "right_word_wj": "oteey",
+      "ordered_count": 9,
+      "reverse_count": 9,
+      "forward_asymmetry_pct": 50.0
+    },
+    {
+      "root_core": "kee",
+      "left_word_wi": "oteey",
+      "right_word_wj": "okeey",
+      "ordered_count": 9,
+      "reverse_count": 9,
+      "forward_asymmetry_pct": 50.0
+    },
+    {
+      "root_core": "che",
+      "left_word_wi": "lchedy",
+      "right_word_wj": "chey",
+      "ordered_count": 9,
+      "reverse_count": 19,
+      "forward_asymmetry_pct": 32.1
+    },
+    {
+      "root_core": "kee",
+      "left_word_wi": "qoteedy",
+      "right_word_wj": "qokeedy",
+      "ordered_count": 9,
+      "reverse_count": 13,
+      "forward_asymmetry_pct": 40.9
+    },
+    {
+      "root_core": "kaiin",
+      "left_word_wi": "qokaiin",
+      "right_word_wj": "otaiin",
+      "ordered_count": 9,
+      "reverse_count": 5,
+      "forward_asymmetry_pct": 64.3
+    },
+    {
+      "root_core": "kee",
+      "left_word_wi": "qokeedy",
+      "right_word_wj": "oteey",
+      "ordered_count": 9,
+      "reverse_count": 7,
+      "forward_asymmetry_pct": 56.2
+    }
+  ]
+}

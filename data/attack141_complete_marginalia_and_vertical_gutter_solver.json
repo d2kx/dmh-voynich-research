@@ -1,0 +1,363 @@
+{
+  "attack": 141,
+  "phase": 152,
+  "discovery": 158,
+  "title": "Complete Corpus-Wide Marginalia, Vertical Gutter Inscriptions & Five-Tier Locus Architecture Solver",
+  "overview": {
+    "total_lines_analyzed": 5385,
+    "total_tokens_analyzed": 39021,
+    "apparatus_vs_prose_polarity_test": {
+      "apparatus_tokens": 3597,
+      "prose_tokens": 35355,
+      "observed_polarity_delta": 0.3879,
+      "null_mean_delta": -0.0003,
+      "null_sd_delta": 0.0129,
+      "z_score": 30.12
+    },
+    "f76r_9key_dual_matrix_primitive_coverage_pct": 100.0
+  },
+  "five_tier_macro_locus_architecture": {
+    "1_VERTICAL_SINGLE_GLYPH_KEY": {
+      "lines": 69,
+      "tokens": 69,
+      "mean_word_len": 1.58,
+      "o_nom_pct": 13.04,
+      "d_s_deic_pct": 20.29,
+      "qo_boil_pct": 0.0,
+      "edy_proc_pct": 0.0,
+      "aiin_dose_pct": 0.0,
+      "am_term_pct": 0.0,
+      "nominal_minus_processual_polarity": 0.3333
+    },
+    "2_DIAGRAM_ENTITY_LABELS": {
+      "lines": 616,
+      "tokens": 688,
+      "mean_word_len": 5.68,
+      "o_nom_pct": 52.33,
+      "d_s_deic_pct": 20.49,
+      "qo_boil_pct": 0.73,
+      "edy_proc_pct": 5.09,
+      "aiin_dose_pct": 6.25,
+      "am_term_pct": 5.38,
+      "nominal_minus_processual_polarity": 0.6701
+    },
+    "3_CIRCULAR_AND_RADIAL_RINGS": {
+      "lines": 226,
+      "tokens": 2749,
+      "mean_word_len": 4.89,
+      "o_nom_pct": 35.76,
+      "d_s_deic_pct": 18.22,
+      "qo_boil_pct": 2.22,
+      "edy_proc_pct": 4.37,
+      "aiin_dose_pct": 8.55,
+      "am_term_pct": 1.49,
+      "nominal_minus_processual_polarity": 0.474
+    },
+    "4_MARGINAL_INDEX_RUBRIC_COLOPHON": {
+      "lines": 57,
+      "tokens": 160,
+      "mean_word_len": 5.06,
+      "o_nom_pct": 26.25,
+      "d_s_deic_pct": 23.12,
+      "qo_boil_pct": 5.62,
+      "edy_proc_pct": 5.0,
+      "aiin_dose_pct": 12.5,
+      "am_term_pct": 5.62,
+      "nominal_minus_processual_polarity": 0.3875
+    },
+    "5_MAIN_BODY_PROSE": {
+      "lines": 4417,
+      "tokens": 35355,
+      "mean_word_len": 5.03,
+      "o_nom_pct": 16.66,
+      "d_s_deic_pct": 21.41,
+      "qo_boil_pct": 14.71,
+      "edy_proc_pct": 11.38,
+      "aiin_dose_pct": 15.9,
+      "am_term_pct": 2.35,
+      "nominal_minus_processual_polarity": 0.1197
+    }
+  },
+  "three_vertical_left_margin_key_columns": {
+    "f49v_herbal_26key_column": {
+      "folio": "f49v",
+      "section": "H (Currier A, Scribe 1, Quire G $B=1)",
+      "n_keys": 26,
+      "keys": [
+        "f",
+        "o",
+        "r",
+        "y",
+        "e",
+        "@140;",
+        "k",
+        "s",
+        "p",
+        "o",
+        "@192;",
+        "y",
+        "e",
+        "@140;",
+        "@164;",
+        "p",
+        "o",
+        "@192;",
+        "y",
+        "e",
+        "@140;",
+        "d",
+        "y",
+        "e",
+        "k",
+        "y"
+      ],
+      "exotic_non_eva_pct": 23.1
+    },
+    "f66r_therapeutic_dual_margin_column": {
+      "folio": "f66r",
+      "section": "T (Currier B, Scribe 5, Quire H $B=1)",
+      "n_outer_index_words": 15,
+      "outer_index_words": [
+        "rary",
+        "rsals",
+        "qorn",
+        "dary",
+        "ykeol",
+        "saly",
+        "salf",
+        "fary",
+        "qotesy",
+        "ykaly",
+        "doly",
+        "saiin",
+        "qokal",
+        "qolsa",
+        "raral"
+      ],
+      "n_inner_keys": 34,
+      "inner_keys": [
+        "y",
+        "o",
+        "s",
+        "sh",
+        "y",
+        "d",
+        "o",
+        "f",
+        "@169;",
+        "x",
+        "air",
+        "d",
+        "sh",
+        "y",
+        "f",
+        "f",
+        "y",
+        "o",
+        "d",
+        "s",
+        "f",
+        "c",
+        "@172;",
+        "x",
+        "t",
+        "o",
+        "@195;",
+        "l",
+        "r",
+        "t",
+        "o",
+        "x",
+        "p",
+        "d"
+      ],
+      "exotic_non_eva_pct": 8.8
+    },
+    "f76r_balneological_9key_column": {
+      "folio": "f76r",
+      "section": "B (Currier B, Scribe 2, Quire M $B=2)",
+      "n_keys": 9,
+      "keys": [
+        "s",
+        "d",
+        "q",
+        "s",
+        "o",
+        "l",
+        "k",
+        "r",
+        "s"
+      ],
+      "unique_primitives": [
+        "d",
+        "k",
+        "l",
+        "o",
+        "q",
+        "r",
+        "s"
+      ],
+      "exotic_non_eva_pct": 0.0,
+      "aligned_paragraph1_subdivision_table": [
+        {
+          "key_index": 1,
+          "margin_key_glyph": "s",
+          "dual_matrix_series": "S_SIBILANT_CONTINUATION",
+          "aligned_prose_line": 4,
+          "line_initial_word_w1": "qokedy",
+          "line_final_word_wn": "chdam",
+          "line_preview": "qokedy qokeey or or or chkorol"
+        },
+        {
+          "key_index": 2,
+          "margin_key_glyph": "d",
+          "dual_matrix_series": "D_DEICTIC_PROXIMAL",
+          "aligned_prose_line": 6,
+          "line_initial_word_w1": "qoaiin",
+          "line_final_word_wn": "oldy",
+          "line_preview": "qoaiin ches okeedal qoked qokeey shedy"
+        },
+        {
+          "key_index": 3,
+          "margin_key_glyph": "q",
+          "dual_matrix_series": "Q_ACTIVE_THERMAL",
+          "aligned_prose_line": 8,
+          "line_initial_word_w1": "qotedshedy",
+          "line_final_word_wn": "oty",
+          "line_preview": "qotedshedy qorain oteedy chedy ol chdy"
+        },
+        {
+          "key_index": 4,
+          "margin_key_glyph": "s",
+          "dual_matrix_series": "S_SIBILANT_CONTINUATION",
+          "aligned_prose_line": 11,
+          "line_initial_word_w1": "chorshedy",
+          "line_final_word_wn": "chedy",
+          "line_preview": "chorshedy qoked okees al ar aiin"
+        },
+        {
+          "key_index": 5,
+          "margin_key_glyph": "o",
+          "dual_matrix_series": "O_NOMINAL_HEAD",
+          "aligned_prose_line": 14,
+          "line_initial_word_w1": "dcheedy",
+          "line_final_word_wn": "otedyl",
+          "line_preview": "dcheedy qolchey qokeey qokeey chedy qokar"
+        },
+        {
+          "key_index": 6,
+          "margin_key_glyph": "l",
+          "dual_matrix_series": "L_LIQUID_APPLICATIVE",
+          "aligned_prose_line": 17,
+          "line_initial_word_w1": "sheedy",
+          "line_final_word_wn": "qokey",
+          "line_preview": "sheedy qokedy chedy chedy qokain chckhy"
+        },
+        {
+          "key_index": 7,
+          "margin_key_glyph": "k",
+          "dual_matrix_series": "K_GALLOWS_VESSEL_CORE",
+          "aligned_prose_line": 20,
+          "line_initial_word_w1": "shedal",
+          "line_final_word_wn": "dy",
+          "line_preview": "shedal shey qokey qolchedy qolain ain"
+        },
+        {
+          "key_index": 8,
+          "margin_key_glyph": "r",
+          "dual_matrix_series": "R_PORTION_MEASURE",
+          "aligned_prose_line": 23,
+          "line_initial_word_w1": "darchey",
+          "line_final_word_wn": "chy",
+          "line_preview": "darchey cheolchey shcthy chedy qo qokey"
+        },
+        {
+          "key_index": 9,
+          "margin_key_glyph": "s",
+          "dual_matrix_series": "S_SIBILANT_CONTINUATION",
+          "aligned_prose_line": 27,
+          "line_initial_word_w1": "sain",
+          "line_final_word_wn": "chckhy",
+          "line_preview": "sain shedy lshey qokal chcthy okeolor"
+        }
+      ]
+    }
+  },
+  "p163_left_gutter_visual_forensic_identification": {
+    "pdf_page": 163,
+    "primary_folio": "f89r1 + f89r2 + f90v2 (Quire 15 Pharmaceutical Foldout)",
+    "exposed_left_gutter_folio": "f86v4 (Quire 14 Cosmological Foldout, bound immediately before Quire 15)",
+    "visual_features_matched": [
+      "Bottom-left circular medallion edge with scalloped petal border = f86v4 cosmological wheel",
+      "Rotated 90-degree counterclockwise paragraph starting with gallows <%>p... = <f86v4.1..6,@P0> written vertically along the right edge of f86v4"
+    ],
+    "f86v4_matching_prose_lines": [
+      {
+        "line_id": "5",
+        "locus": "@P0",
+        "tokens": [
+          "pcheodar",
+          "oedy",
+          "qokeol",
+          "qoeol",
+          "oqokeol",
+          "dar",
+          "ol",
+          "olair"
+        ]
+      },
+      {
+        "line_id": "6",
+        "locus": "+P0",
+        "tokens": [
+          "ycheoltar",
+          "ol",
+          "ol",
+          "sheey",
+          "qokey",
+          "or",
+          "aiin",
+          "sheeor"
+        ]
+      },
+      {
+        "line_id": "7",
+        "locus": "+P0",
+        "tokens": [
+          "tol",
+          "sh",
+          "s",
+          "or",
+          "aiin",
+          "ol",
+          "keeod",
+          "lcheody"
+        ]
+      },
+      {
+        "line_id": "8",
+        "locus": "+P0",
+        "tokens": [
+          "daiin",
+          "ol",
+          "keedy",
+          "otar",
+          "olshedy",
+          "okol",
+          "aiin",
+          "okal"
+        ]
+      },
+      {
+        "line_id": "9",
+        "locus": "+Pc",
+        "tokens": [
+          "dar",
+          "oleey",
+          "ol",
+          "yy"
+        ]
+      }
+    ]
+  }
+}

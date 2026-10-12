@@ -906,6 +906,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 150. Five-Tier Macro-Locus & Marginalia Architecture (`5,385` Lines, `39,021` Tokens, Polarity $z = +30.12$), the `f76r` `100.0%` Dual-Matrix Primitive Key Column (`s, d, q, s, o, l, k, r, s`), and `p163 / f86v4` Gutter Forensics (`Attack 141`)
+- **Five-Tier Macro-Locus Hierarchy ($z = +30.12$), `f76r` 9-Key Column (`pages/f76r_vertical_9glyph_margin_key_enh.png`) & `p163 / f86v4` Gutter Forensics (`pages/p163_left_gutter_vertical_strip_enh.png`)**: Classifies all `5,385` lines into 5 Macro-Locus Tiers (`1_VERTICAL_SINGLE_GLYPH_KEY n=69`, `2_DIAGRAM_ENTITY_LABELS n=688`, `3_CIRCULAR_AND_RADIAL_RINGS n=2,749`, `4_MARGINAL_INDEX_RUBRIC_COLOPHON n=160`, `5_MAIN_BODY_PROSE n=35,355`), separating Apparatus (`Tiers 2–4`) from Main Body Prose (`Tier 5`) by `+0.3879` Nominal-minus-Processual Polarity ($z = +30.12$). Proves that `9 / 9` (`100.0%`) of `f76r`'s vertical left-margin keys (`{s, d, q, o, l, k, r}`) are exact Dual-Matrix Onset/Core Primitives partitioning `f76r:P1` (`27` lines) into 9 intervals (`Lines 4, 6, 8, 11, 14, 17, 20, 23, 27`), and visually identifies the rotated 90° vertical text & wheel at the left gutter of `p163` (`f89r1`) as `f86v4` (`Quire 14`) resting beneath `Quire 15`.
+
+---
+
+### 151. The Cognate Polyptoton (`Figura Etymologica`) & Intra-Clause Topic-to-Comment Progression Law Across `4,424` Multi-Word Clauses (`42.45%` Clause Coverage, Within-Section Lift $z = +23.14$, Directional Progression $z = +4.57$, `Attack 142`)
+- **`42.45%` (`1,878 / 4,424`) Intra-Clause Cognate Polyptoton Coverage ($z = +23.14$) & Left-to-Right Topic-to-Comment Progression ($z = +4.57$)**: Open-class root cores recur within the same clause line in distinct surface inflections (`w_i != w_j`, `3,954` pairs) `3.78×` more often than as exact lexical repeats (`1,047` pairs), exceeding the Within-`(Section $I, Language $L)` Line-Shuffle Null (`2,736.32 ± 52.62`) by `1.445×` ($z = +23.14$). Within cognate pairs (`w_i -> w_j`), the Left slot (`w_i`) enriches `-ol/-or/-al/-ar` liquid nominals (`28.00% -> 22.26%`) and `d-/s-` deictics (`7.08% -> 6.20%`), while the Right slot (`w_j`) surges in `l-/ol-` applicatives (`7.26% -> 10.27%`, `+41.5%`), `-edy` processuals (`23.62% -> 28.45%`, `+20.4%`), and `-am/-m` terminal closure (`0.46% -> 1.80%`, `3.91×`, sign-flip $z = +4.57$).
+
+---
+
+### 152. Complete English-Style Structural & Empirical Clause Reader of the Top 20 Master Hub Folios Across All 8 Sections (`95.24%` Root-Dictionary Coverage, `89.81%` 5-Modality Grounded + Valency Coverage, `Attack 143`)
+- **20-Hub-Folio Empirical Clause Reader (`842` Clauses, `5,290` Tokens)**: Integrates the `842`-Stem Dictionary (`95.24%` coverage), the Top-150 5-Modality Empirical Semantic Matrix + Closed-Class Valency Slots (`89.81%` coverage), and Intra-Clause Cognate Polyptoton (`29.45%` of all lines) to generate side-by-side EVA, Interlinear Gloss, and English-Style Empirical Medical Clause Translations across 20 Flagship Hub Folios spanning all 8 sections (`f1r..f108v`).
+
+---
+
+### 153. The Five-Tier Macro-Locus & Marginalia Architecture, Intra-Clause Cognate Polyptoton Grammar & 20-Hub-Folio Empirical Clause Reader Compendium ([`notes/MARGINALIA_POLYPTOTON_AND_20HUB_EMPIRICAL_READER.md`](notes/MARGINALIA_POLYPTOTON_AND_20HUB_EMPIRICAL_READER.md), `Attack 144`)
+- **Marginalia, Cognate Polyptoton & 20-Hub-Folio Empirical Reader Compendium ([`notes/MARGINALIA_POLYPTOTON_AND_20HUB_EMPIRICAL_READER.md`](notes/MARGINALIA_POLYPTOTON_AND_20HUB_EMPIRICAL_READER.md))**: Synthesizes the Five-Tier Macro-Locus & Marginalia Architecture (`Attack 141`), the Intra-Clause Cognate Polyptoton Grammar (`Attack 142`), and the 20-Hub-Folio Empirical Clause Reader (`Attack 143`).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -1077,6 +1097,10 @@ python tools/attack137_multimodal_empirical_semantic_grounding_matrix.py
 python tools/attack138_clause_valency_and_verb_object_dose_collocations.py
 python tools/attack139_twelve_linked_specimen_empirical_medical_dossiers.py
 python tools/attack140_empirical_lexicon_and_12specimen_dossier_compendium.py
+python tools/attack141_complete_marginalia_and_vertical_gutter_solver.py
+python tools/attack142_cognate_polyptoton_and_intraclause_stem_agreement.py
+python tools/attack143_top20_hub_folios_empirical_clause_reader.py
+python tools/attack144_marginalia_polyptoton_and_20hub_reader_compendium.py
 ```
 
 

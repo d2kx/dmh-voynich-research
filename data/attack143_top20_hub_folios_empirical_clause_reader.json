@@ -1,0 +1,1033 @@
+{
+  "attack": 143,
+  "phase": 154,
+  "discovery": 160,
+  "title": "Complete English-Style Structural & Empirical Clause Reader of the Top 20 Master Hub Folios Across All 8 Sections",
+  "overview": {
+    "n_hub_folios_translated": 20,
+    "total_clauses_parsed": 842,
+    "total_tokens_parsed": 5290,
+    "dict842_stem_coverage_pct": 95.24,
+    "grounded150_plus_closed_coverage_pct": 89.81,
+    "clauses_with_cognate_polyptoton": 248,
+    "clauses_with_cognate_polyptoton_pct": 29.45
+  },
+  "twenty_hub_folio_editions": [
+    {
+      "folio": "f1r",
+      "description": "Master Preface & =Pt Rubric Folio (Quire A $B=1)",
+      "section": "T",
+      "lang": "A",
+      "hand": "1",
+      "n_lines": 28,
+      "n_tokens": 215,
+      "dict842_coverage_pct": 91.63,
+      "grounded150_and_closed_coverage_pct": 86.51,
+      "cognate_polyptoton_clauses": 13,
+      "sample_translated_clauses": [
+        {
+          "line_id": "1",
+          "locus": "@P0",
+          "signature": "V+N+Q",
+          "eva": "fachys ykal ar ataiin shol shory cthotores y kor sholdy",
+          "interlinear_gloss": "spec(*pachy*:fachys) . spec(*al*:ykal) . dose-measure[ar] . dose-measure[ataiin] . spec(*ol*:shol) . steep-vapor(*or*:shory) . spec(*ckhokore*:cthotores) . spec(*y*:y) . canopy/flower-herb(*ko*:kor) . steep-vapor(*ol*:sholdy)",
+          "english_translation": "[Clinical Index Treatise] Execute steep-vapor(*or*:shory) & steep-vapor(*ol*:sholdy) upon spec(*pachy*:fachys) + spec(*al*:ykal) + spec(*ol*:shol) measured at dose-measure[ar] + dose-measure[ataiin] [Cognate Polyptoton: shol->sholdy(*hol*)].",
+          "cognate_polyptoton": [
+            "shol->sholdy(*hol*)"
+          ]
+        },
+        {
+          "line_id": "2",
+          "locus": "+P0",
+          "signature": "-+N+Q",
+          "eva": "sory ckhar or y kair chtaiin shar ase cthar cthar dan",
+          "interlinear_gloss": "spec(*or*:sory) . whole-herb(*ckh*:ckhar) . dose-measure[or] . spec(*y*:y) . lower-rootstock(*kai*:kair) . dose-measure[chtaiin] . spec(*ar*:shar) . spec(*ase*:ase) . whole-herb(*cth*:cthar) . whole-herb(*cth*:cthar) . this-portion[dan]",
+          "english_translation": "[Clinical Index Treatise] Identify/Select upon spec(*or*:sory) + whole-herb(*ckh*:ckhar) + spec(*y*:y) measured at dose-measure[or] + dose-measure[chtaiin] [Cognate Polyptoton: sory->or(*or*), ckhar->cthar(*ckh*)].",
+          "cognate_polyptoton": [
+            "sory->or(*or*)",
+            "ckhar->cthar(*ckh*)",
+            "ckhar->cthar(*ckh*)"
+          ]
+        },
+        {
+          "line_id": "27",
+          "locus": "+P0",
+          "signature": "V+N+-",
+          "eva": "eo chol chok choty chotey",
+          "interlinear_gloss": "rhizome-root(@Lf)(*eo*:eo) . spec(*ol*:chol) . rhizome-root(@Lf)(*ok*:chok) . mix-simmer(*ot*:choty) . mix-simmer(*ot*:chotey)",
+          "english_translation": "[Clinical Index Treatise] Execute mix-simmer(*ot*:choty) & mix-simmer(*ot*:chotey) upon rhizome-root(@Lf)(*eo*:eo) + spec(*ol*:chol) + rhizome-root(@Lf)(*ok*:chok) [Cognate Polyptoton: chok->choty(*chok*)].",
+          "cognate_polyptoton": [
+            "chok->choty(*chok*)"
+          ]
+        }
+      ]
+    },
+    {
+      "folio": "f11v",
+      "description": "Red-Blossom poldchody Monograph Cited on f116v (Quire B)",
+      "section": "H",
+      "lang": "A",
+      "hand": "1",
+      "n_lines": 7,
+      "n_tokens": 50,
+      "dict842_coverage_pct": 94.0,
+      "grounded150_and_closed_coverage_pct": 92.0,
+      "cognate_polyptoton_clauses": 1,
+      "sample_translated_clauses": [
+        {
+          "line_id": "1",
+          "locus": "@P0",
+          "signature": "V+N+-",
+          "eva": "poldchody shcphy shordy qoty shol cphar dan y",
+          "interlinear_gloss": "spec(*poldch*:poldchody) . steep-vapor(*cph*:shcphy) . steep-vapor(*or*:shordy) . boil-extract(*ty*:qoty) . spec(*ol*:shol) . canopy/flower-herb(*cph*:cphar) . this-portion[dan] . spec(*y*:y)",
+          "english_translation": "[Botanical Monograph] Execute steep-vapor(*cph*:shcphy) & steep-vapor(*or*:shordy) upon spec(*poldch*:poldchody) + spec(*ol*:shol) + canopy/flower-herb(*cph*:cphar).",
+          "cognate_polyptoton": []
+        },
+        {
+          "line_id": "2",
+          "locus": "+P0",
+          "signature": "V+N+-",
+          "eva": "shol dy chckhy shcthy daiin dam ykchy dain dchy",
+          "interlinear_gloss": "spec(*ol*:shol) . this-portion[dy] . mix-simmer(*ckh*:chckhy) . steep-vapor(*cth*:shcthy) . this-portion[daiin] . seal-product(*am*:dam) . spec(*ch*:ykchy) . this-portion[dain] . spec(*ch*:dchy)",
+          "english_translation": "[Botanical Monograph] Execute mix-simmer(*ckh*:chckhy) & steep-vapor(*cth*:shcthy) upon spec(*ol*:shol) + this-portion[dy] + this-portion[daiin] to finish seal-product(*am*:dam).",
+          "cognate_polyptoton": []
+        },
+        {
+          "line_id": "7",
+          "locus": "+P0",
+          "signature": "-+N+-",
+          "eva": "ycheor ksho dor cthey s chold",
+          "interlinear_gloss": "rhizome-root(@Lf)(*che*:ycheor) . spec(*ksho*:ksho) . spec(*or*:dor) . whole-herb(*cth*:cthey) . spec(*s*:s) . rhizome-root(@Lf)(*old*:chold)",
+          "english_translation": "[Botanical Monograph] Identify/Select upon rhizome-root(@Lf)(*che*:ycheor) + spec(*ksho*:ksho) + spec(*or*:dor).",
+          "cognate_polyptoton": []
+        }
+      ]
+    },
+    {
+      "folio": "f31v",
+      "description": "Currier B Master Hub Herbal Monograph (Quire D $B=2)",
+      "section": "H",
+      "lang": "B",
+      "hand": "2",
+      "n_lines": 11,
+      "n_tokens": 110,
+      "dict842_coverage_pct": 96.36,
+      "grounded150_and_closed_coverage_pct": 85.45,
+      "cognate_polyptoton_clauses": 6,
+      "sample_translated_clauses": [
+        {
+          "line_id": "1",
+          "locus": "@P0",
+          "signature": "V+N+Q",
+          "eva": "podair sheedy otedy oteedy qotolcheo s ar ar oteey dkcharar als",
+          "interlinear_gloss": "spec(*podai*:podair) . steep-vapor(*ee*:sheedy) . whole-herb(*ed*:otedy) . whole-herb(*ee*:oteedy) . boil-extract(*olcheo*:qotolcheo) . spec(*s*:s) . dose-measure[ar] . dose-measure[ar] . whole-herb(*ee*:oteey) . spec(*kchar*:dkcharar) . spec(*al*:als)",
+          "english_translation": "[Botanical Monograph] Execute steep-vapor(*ee*:sheedy) & boil-extract(*olcheo*:qotolcheo) upon spec(*podai*:podair) + whole-herb(*ed*:otedy) + whole-herb(*ee*:oteedy) measured at dose-measure[ar] + dose-measure[ar] [Cognate Polyptoton: oteedy->oteey(*kee*)].",
+          "cognate_polyptoton": [
+            "oteedy->oteey(*kee*)"
+          ]
+        },
+        {
+          "line_id": "2",
+          "locus": "+P0",
+          "signature": "V+N+-",
+          "eva": "ytchos oackhey okeeo s cheody okeey keeody daiin cheody keedy",
+          "interlinear_gloss": "whole-herb(*cho*:ytchos) . spec(*ackh*:oackhey) . canopy/flower-herb(*eeo*:okeeo) . spec(*s*:s) . mix-simmer(*eo*:cheody) . whole-herb(*ee*:okeey) . canopy/flower-herb(*kee*:keeody) . this-portion[daiin] . mix-simmer(*eo*:cheody) . lower-rootstock(*ke*:keedy)",
+          "english_translation": "[Botanical Monograph] Execute mix-simmer(*eo*:cheody) & mix-simmer(*eo*:cheody) upon whole-herb(*cho*:ytchos) + spec(*ackh*:oackhey) + canopy/flower-herb(*eeo*:okeeo) [Cognate Polyptoton: okeeo->keeody(*keeo*), okeey->keedy(*kee*)].",
+          "cognate_polyptoton": [
+            "okeeo->keeody(*keeo*)",
+            "okeey->keedy(*kee*)"
+          ]
+        },
+        {
+          "line_id": "11",
+          "locus": "+P0",
+          "signature": "V+N+Q",
+          "eva": "saiin ar ckheos chedy okeey qoear oraiin cheam",
+          "interlinear_gloss": "next-thereof[saiin] . dose-measure[ar] . spec(*ckheo*:ckheos) . mix-simmer(*ed*:chedy) . whole-herb(*ee*:okeey) . boil-extract(*ea*:qoear) . dose-measure[oraiin] . seal-product(*ea*:cheam)",
+          "english_translation": "[Botanical Monograph] Execute mix-simmer(*ed*:chedy) & boil-extract(*ea*:qoear) upon next-thereof[saiin] + spec(*ckheo*:ckheos) + whole-herb(*ee*:okeey) measured at dose-measure[ar] + dose-measure[oraiin] to finish seal-product(*ea*:cheam) [Cognate Polyptoton: chedy->cheam(*che*)].",
+          "cognate_polyptoton": [
+            "chedy->cheam(*che*)"
+          ]
+        }
+      ]
+    },
+    {
+      "folio": "f43v",
+      "description": "#1 Global Z\u2229P\u2229S Master Hub Herbal Monograph (Quire F $B=3)",
+      "section": "H",
+      "lang": "B",
+      "hand": "2",
+      "n_lines": 16,
+      "n_tokens": 151,
+      "dict842_coverage_pct": 93.38,
+      "grounded150_and_closed_coverage_pct": 90.73,
+      "cognate_polyptoton_clauses": 5,
+      "sample_translated_clauses": [
+        {
+          "line_id": "1",
+          "locus": "@P0",
+          "signature": "V+N+Q",
+          "eva": "pdsairy dalteoshy doaly sheet or arodl lkeo r araiin otedy opolde",
+          "interlinear_gloss": "spec(*pdsair*:pdsairy) . spec(*lkeosh*:dalteoshy) . spec(*oal*:doaly) . whole-herb(*eet*:sheet) . dose-measure[or] . whole-herb(*od*:arodl) . bathe/infuse-in-vessel(*keo*:lkeo) . spec(*r*:r) . dose-measure[araiin] . whole-herb(*ed*:otedy) . spec(*polde*:opolde)",
+          "english_translation": "[Botanical Monograph] Execute bathe/infuse-in-vessel(*keo*:lkeo) upon spec(*pdsair*:pdsairy) + spec(*lkeosh*:dalteoshy) + spec(*oal*:doaly) measured at dose-measure[or] + dose-measure[araiin].",
+          "cognate_polyptoton": []
+        },
+        {
+          "line_id": "2",
+          "locus": "+P0",
+          "signature": "V+N+-",
+          "eva": "shedy octhy otedy chedy dar cheskhy okeody oky okaldy kchdy okar",
+          "interlinear_gloss": "steep-vapor(*ed*:shedy) . whole-herb(*cth*:octhy) . whole-herb(*ed*:otedy) . mix-simmer(*ed*:chedy) . this-portion[dar] . mix-simmer(*eskh*:cheskhy) . rhizome-root(@Lf)(*eo*:okeody) . rhizome-root(@Lf)(*ky*:oky) . spec(*al*:okaldy) . lower-rootstock(*kch*:kchdy) . spec(*ar*:okar)",
+          "english_translation": "[Botanical Monograph] Execute steep-vapor(*ed*:shedy) & mix-simmer(*ed*:chedy) upon whole-herb(*cth*:octhy) + whole-herb(*ed*:otedy) + this-portion[dar].",
+          "cognate_polyptoton": []
+        },
+        {
+          "line_id": "16",
+          "locus": "+P0",
+          "signature": "V+N+Q",
+          "eva": "ol eees aiin oloaiin oteos qoky chey",
+          "interlinear_gloss": "dose-measure[ol] . canopy/flower-herb(*eee*:eees) . dose-measure[aiin] . dose-measure[oloaiin] . rhizome-root(@Lf)(*eo*:oteos) . boil-extract(*ky*:qoky) . mix-simmer(*ey*:chey)",
+          "english_translation": "[Botanical Monograph] Execute boil-extract(*ky*:qoky) & mix-simmer(*ey*:chey) upon canopy/flower-herb(*eee*:eees) + rhizome-root(@Lf)(*eo*:oteos) measured at dose-measure[ol] + dose-measure[aiin].",
+          "cognate_polyptoton": []
+        }
+      ]
+    },
+    {
+      "folio": "f46r",
+      "description": "#2 Global Z\u2229P\u2229S Master Hub Herbal Monograph (Quire F $B=3)",
+      "section": "H",
+      "lang": "B",
+      "hand": "2",
+      "n_lines": 15,
+      "n_tokens": 163,
+      "dict842_coverage_pct": 93.25,
+      "grounded150_and_closed_coverage_pct": 85.89,
+      "cognate_polyptoton_clauses": 5,
+      "sample_translated_clauses": [
+        {
+          "line_id": "1",
+          "locus": "@P0",
+          "signature": "V+N+Q",
+          "eva": "pcheocphy qotedy chety dy chepchx yfcheky osraiin shee qoteol daiin shee dy daly",
+          "interlinear_gloss": "spec(*pcheocph*:pcheocphy) . boil-extract(*ed*:qotedy) . mix-simmer(*et*:chety) . this-portion[dy] . spec(*epchx*:chepchx) . spec(*pchek*:yfcheky) . dose-measure[osraiin] . whole-herb(*ee*:shee) . boil-extract(*eo*:qoteol) . this-portion[daiin] . whole-herb(*ee*:shee) . this-portion[dy] . canopy/flower-herb(*ly*:daly)",
+          "english_translation": "[Botanical Monograph] Execute boil-extract(*ed*:qotedy) & mix-simmer(*et*:chety) upon spec(*pcheocph*:pcheocphy) + this-portion[dy] + spec(*epchx*:chepchx) measured at dose-measure[osraiin] [Cognate Polyptoton: qotedy->qoteol(*ke*)].",
+          "cognate_polyptoton": [
+            "qotedy->qoteol(*ke*)"
+          ]
+        },
+        {
+          "line_id": "2",
+          "locus": "+P0",
+          "signature": "V+N+Q",
+          "eva": "sodaiin sheeoly qoor sheo teoly chckhy daiin shckek sheet shedy xors aiin sheckhy",
+          "interlinear_gloss": "next-thereof[sodaiin] . steep-vapor(*eeol*:sheeoly) . boil-extract(*or*:qoor) . rhizome-root(@Lf)(*eo*:sheo) . spec(*keol*:teoly) . mix-simmer(*ckh*:chckhy) . this-portion[daiin] . spec(*ckek*:shckek) . whole-herb(*eet*:sheet) . steep-vapor(*ed*:shedy) . spec(*xor*:xors) . dose-measure[aiin] . steep-vapor(*eckh*:sheckhy)",
+          "english_translation": "[Botanical Monograph] Execute steep-vapor(*eeol*:sheeoly) & boil-extract(*or*:qoor) upon next-thereof[sodaiin] + rhizome-root(@Lf)(*eo*:sheo) + spec(*keol*:teoly) measured at dose-measure[aiin].",
+          "cognate_polyptoton": []
+        },
+        {
+          "line_id": "15",
+          "locus": "+P0",
+          "signature": "V+N+-",
+          "eva": "qokar shol kal aolkeody",
+          "interlinear_gloss": "boil-extract(*ar*:qokar) . spec(*ol*:shol) . whole-herb(*ka*:kal) . spec(*aolke*:aolkeody)",
+          "english_translation": "[Botanical Monograph] Execute boil-extract(*ar*:qokar) upon spec(*ol*:shol) + whole-herb(*ka*:kal) + spec(*aolke*:aolkeody).",
+          "cognate_polyptoton": []
+        }
+      ]
+    },
+    {
+      "folio": "f58r",
+      "description": "Quire H Starred Botanical-Apothecary Master Index (Quire H $B=2)",
+      "section": "S",
+      "lang": "A",
+      "hand": "3",
+      "n_lines": 41,
+      "n_tokens": 378,
+      "dict842_coverage_pct": 93.65,
+      "grounded150_and_closed_coverage_pct": 83.86,
+      "cognate_polyptoton_clauses": 19,
+      "sample_translated_clauses": [
+        {
+          "line_id": "1",
+          "locus": "@P0",
+          "signature": "V+N+-",
+          "eva": "kor cholfy shofchy otoralchy chofchol sholy otaly dal m",
+          "interlinear_gloss": "canopy/flower-herb(*ko*:kor) . mix-simmer(*olp*:cholfy) . steep-vapor(*opch*:shofchy) . spec(*oralch*:otoralchy) . spec(*opch*:chofchol) . steep-vapor(*ol*:sholy) . spec(*al*:otaly) . this-portion[dal] . spec(*m*:m)",
+          "english_translation": "[Starred Decoction Recipe] Execute mix-simmer(*olp*:cholfy) & steep-vapor(*opch*:shofchy) upon canopy/flower-herb(*ko*:kor) + spec(*oralch*:otoralchy) + spec(*opch*:chofchol).",
+          "cognate_polyptoton": []
+        },
+        {
+          "line_id": "2",
+          "locus": "+P0",
+          "signature": "V+N+Q",
+          "eva": "dshodal or ckhy olchear char tal ytal ytar olchokal",
+          "interlinear_gloss": "spec(*shod*:dshodal) . dose-measure[or] . whole-herb(*ckh*:ckhy) . bathe/infuse-in-vessel(*che*:olchear) . spec(*ar*:char) . lower-rootstock(*ta*:tal) . spec(*al*:ytal) . spec(*ar*:ytar) . bathe/infuse-in-vessel(*chok*:olchokal)",
+          "english_translation": "[Starred Decoction Recipe] Execute bathe/infuse-in-vessel(*che*:olchear) & bathe/infuse-in-vessel(*chok*:olchokal) upon spec(*shod*:dshodal) + whole-herb(*ckh*:ckhy) + spec(*ar*:char) measured at dose-measure[or] [Cognate Polyptoton: tal->ytal(*kal*)].",
+          "cognate_polyptoton": [
+            "tal->ytal(*kal*)"
+          ]
+        },
+        {
+          "line_id": "41",
+          "locus": "+P0",
+          "signature": "V+N+-",
+          "eva": "dchol chokal saiin dal okal s alchey",
+          "interlinear_gloss": "spec(*ch*:dchol) . rhizome-root(@Lf)(*ok*:chokal) . next-thereof[saiin] . this-portion[dal] . spec(*al*:okal) . spec(*s*:s) . bathe/infuse-in-vessel(*ch*:alchey)",
+          "english_translation": "[Starred Decoction Recipe] Execute bathe/infuse-in-vessel(*ch*:alchey) upon spec(*ch*:dchol) + rhizome-root(@Lf)(*ok*:chokal) + next-thereof[saiin].",
+          "cognate_polyptoton": []
+        }
+      ]
+    },
+    {
+      "folio": "f66r",
+      "description": "Scribe 5 Margin-Indexed Clinical Treatise & #1 fRos Partner (Quire H $B=1)",
+      "section": "T",
+      "lang": "B",
+      "hand": "5",
+      "n_lines": 79,
+      "n_tokens": 345,
+      "dict842_coverage_pct": 95.94,
+      "grounded150_and_closed_coverage_pct": 89.57,
+      "cognate_polyptoton_clauses": 12,
+      "sample_translated_clauses": [
+        {
+          "line_id": "50",
+          "locus": "@P0",
+          "signature": "V+N+Q",
+          "eva": "pdaiin oteedy opchedy chap chefchy shddy ypches cholpchd okedals",
+          "interlinear_gloss": "dose-measure[pdaiin] . whole-herb(*ee*:oteedy) . canopy/flower-herb(*pch*:opchedy) . spec(*ap*:chap) . mix-simmer(*epch*:chefchy) . steep-vapor(*dd*:shddy) . canopy/flower-herb(*pche*:ypches) . spec(*olpchd*:cholpchd) . spec(*edal*:okedals)",
+          "english_translation": "[Clinical Index Treatise] Execute mix-simmer(*epch*:chefchy) & steep-vapor(*dd*:shddy) upon whole-herb(*ee*:oteedy) + canopy/flower-herb(*pch*:opchedy) + spec(*ap*:chap) measured at dose-measure[pdaiin] [Cognate Polyptoton: opchedy->ypches(*pche*)].",
+          "cognate_polyptoton": [
+            "opchedy->ypches(*pche*)"
+          ]
+        },
+        {
+          "line_id": "51",
+          "locus": "+P0",
+          "signature": "V+N+-",
+          "eva": "sair shekey qokeedar okal okedy qokeedy qokal okedy qokshd",
+          "interlinear_gloss": "whole-herb(*ir*:sair) . steep-vapor(*ek*:shekey) . boil-extract(*eed*:qokeedar) . spec(*al*:okal) . whole-herb(*ed*:okedy) . boil-extract(*ee*:qokeedy) . boil-extract(*al*:qokal) . whole-herb(*ed*:okedy) . boil-extract(*shd*:qokshd)",
+          "english_translation": "[Clinical Index Treatise] Execute steep-vapor(*ek*:shekey) & boil-extract(*eed*:qokeedar) upon whole-herb(*ir*:sair) + spec(*al*:okal) + whole-herb(*ed*:okedy) [Cognate Polyptoton: okal->qokal(*kal*)].",
+          "cognate_polyptoton": [
+            "okal->qokal(*kal*)"
+          ]
+        },
+        {
+          "line_id": "82",
+          "locus": "@Lx",
+          "signature": "V+N+-",
+          "eva": "otcheo daiin chty ykees cheg",
+          "interlinear_gloss": "whole-herb(*cheo*:otcheo) . this-portion[daiin] . mix-simmer(*ty*:chty) . whole-herb(*ee*:ykees) . spec(*eg*:cheg)",
+          "english_translation": "[Clinical Index Treatise] Execute mix-simmer(*ty*:chty) upon whole-herb(*cheo*:otcheo) + this-portion[daiin] + whole-herb(*ee*:ykees).",
+          "cognate_polyptoton": []
+        }
+      ]
+    },
+    {
+      "folio": "f68r3",
+      "description": "Pleiades & Four-Quadrant Moon Astronomical Diagram (Quire I $B=1)",
+      "section": "A",
+      "lang": "",
+      "hand": "4",
+      "n_lines": 22,
+      "n_tokens": 106,
+      "dict842_coverage_pct": 89.62,
+      "grounded150_and_closed_coverage_pct": 77.36,
+      "cognate_polyptoton_clauses": 2,
+      "sample_translated_clauses": [
+        {
+          "line_id": "1",
+          "locus": "@Cc",
+          "signature": "V+N+Q",
+          "eva": "odeed oteedy cheoteey oshchey chokol cheody chedy oteodaiin otchodal sol cheor oteo choteey oeteody opcheody dchedy daiin oteeody dascheedy oteeody qoeeectcg dcheeo okeodly do ls oschaiin cheockhedchy chodal cheoday chol al oteodched okedy qokeey shoky dol daleeed okeoeiiir",
+          "interlinear_gloss": "spec(*deed*:odeed) . whole-herb(*ee*:oteedy) . mix-simmer(*eoke*:cheoteey) . spec(*shch*:oshchey) . rhizome-root(@Lf)(*ok*:chokol) . mix-simmer(*eo*:cheody) . mix-simmer(*ed*:chedy) . dose-measure[oteodaiin] . lower-rootstock(*chod*:otchodal) . next-thereof[sol] . rhizome-root(@Lf)(*eo*:cheor) . rhizome-root(@Lf)(*eo*:oteo) . mix-simmer(*ote*:choteey) . canopy/flower-herb(*eke*:oeteody) . canopy/flower-herb(*pche*:opcheody) . this-portion[dchedy] . this-portion[daiin] . whole-herb(*ee*:oteeody) . spec(*sch*:dascheedy) . whole-herb(*ee*:oteeody) . boil-extract(*eeckcg*:qoeeectcg) . spec(*cheeo*:dcheeo) . spec(*eodl*:okeodly) . rhizome-root(@Lf)(*do*:do) . rhizome-root(@Lf)(*ls*:ls) . dose-measure[oschaiin] . mix-simmer(*eockhedch*:cheockhedchy) . whole-herb(*od*:chodal) . mix-simmer(*eoda*:cheoday) . spec(*ol*:chol) . dose-measure[al] . spec(*eodched*:oteodched) . whole-herb(*ed*:okedy) . boil-extract(*ee*:qokeey) . steep-vapor(*ok*:shoky) . spec(*ol*:dol) . spec(*leed*:daleeed) . spec(*eoeii*:okeoeiiir)",
+          "english_translation": "[Astronomical Wheel] Execute mix-simmer(*eoke*:cheoteey) & mix-simmer(*eo*:cheody) upon spec(*deed*:odeed) + whole-herb(*ee*:oteedy) + spec(*shch*:oshchey) measured at dose-measure[oteodaiin] + dose-measure[oschaiin] [Cognate Polyptoton: oteedy->qokeey(*kee*), chedy->cheor(*che*)].",
+          "cognate_polyptoton": [
+            "oteedy->qokeey(*kee*)",
+            "chedy->cheor(*che*)",
+            "chedy->dchedy(*che*)",
+            "cheor->dchedy(*che*)"
+          ]
+        },
+        {
+          "line_id": "2",
+          "locus": "@Ri",
+          "signature": "V+N+-",
+          "eva": "toees ykeo she qokolchey qokchdy",
+          "interlinear_gloss": "spec(*koee*:toees) . rhizome-root(@Lf)(*eo*:ykeo) . canopy/flower-herb(*he*:she) . boil-extract(*olch*:qokolchey) . boil-extract(*ch*:qokchdy)",
+          "english_translation": "[Astronomical Wheel] Execute boil-extract(*olch*:qokolchey) & boil-extract(*ch*:qokchdy) upon spec(*koee*:toees) + rhizome-root(@Lf)(*eo*:ykeo) + canopy/flower-herb(*he*:she).",
+          "cognate_polyptoton": []
+        },
+        {
+          "line_id": "22",
+          "locus": "@Cc",
+          "signature": "V+N+-",
+          "eva": "otcheody chokchy okol cheol dar cho keol dolaiin okeol oly",
+          "interlinear_gloss": "rhizome-root(@Lf)(*che*:otcheody) . mix-simmer(*okch*:chokchy) . spec(*ol*:okol) . rhizome-root(@Lf)(*eo*:cheol) . this-portion[dar] . whole-herb(*cho*:cho) . lower-rootstock(*ke*:keol) . this-portion[dolaiin] . rhizome-root(@Lf)(*eo*:okeol) . canopy/flower-herb(*ly*:oly)",
+          "english_translation": "[Astronomical Wheel] Execute mix-simmer(*okch*:chokchy) upon rhizome-root(@Lf)(*che*:otcheody) + spec(*ol*:okol) + rhizome-root(@Lf)(*eo*:cheol) [Cognate Polyptoton: keol->okeol(*ke*), dolaiin->oly(*ol*)].",
+          "cognate_polyptoton": [
+            "keol->okeol(*ke*)",
+            "dolaiin->oly(*ol*)"
+          ]
+        }
+      ]
+    },
+    {
+      "folio": "f69v",
+      "description": "#1 Universal 6-Domain Entropy Bridge Celestial Wheel (Quire J $B=1)",
+      "section": "C",
+      "lang": "",
+      "hand": "4",
+      "n_lines": 31,
+      "n_tokens": 140,
+      "dict842_coverage_pct": 94.29,
+      "grounded150_and_closed_coverage_pct": 89.29,
+      "cognate_polyptoton_clauses": 3,
+      "sample_translated_clauses": [
+        {
+          "line_id": "1",
+          "locus": "@Cc",
+          "signature": "V+N+Q",
+          "eva": "dair cheyky otaza sar ar chykar okoirsh ar chetody okeeos o tey otokeeey okeeody okeey doiir cteeo y chey ot y okedy chsdy okeod y dy choaiin okar okar chol chees yto odair oty oteeo dar o eykeody dchor char",
+          "interlinear_gloss": "whole-herb(*ir*:dair) . mix-simmer(*eyk*:cheyky) . spec(*aza*:otaza) . next-thereof[sar] . dose-measure[ar] . canopy/flower-herb(*yk*:chykar) . spec(*oirsh*:okoirsh) . dose-measure[ar] . mix-simmer(*et*:chetody) . canopy/flower-herb(*eeo*:okeeos) . spec(*o*:o) . whole-herb(*te*:tey) . lower-rootstock(*oke*:otokeeey) . whole-herb(*ee*:okeeody) . whole-herb(*ee*:okeey) . lower-rootstock(*oii*:doiir) . spec(*ckeeo*:cteeo) . spec(*y*:y) . mix-simmer(*ey*:chey) . whole-herb(*ot*:ot) . spec(*y*:y) . whole-herb(*ed*:okedy) . mix-simmer(*sd*:chsdy) . canopy/flower-herb(*eod*:okeod) . spec(*y*:y) . this-portion[dy] . dose-measure[choaiin] . spec(*ar*:okar) . spec(*ar*:okar) . spec(*ol*:chol) . whole-herb(*ee*:chees) . whole-herb(*to*:yto) . whole-herb(*dai*:odair) . canopy/flower-herb(*ty*:oty) . canopy/flower-herb(*eeo*:oteeo) . this-portion[dar] . spec(*o*:o) . spec(*eyke*:eykeody) . spec(*ch*:dchor) . spec(*ar*:char)",
+          "english_translation": "[Cosmological Exegesis] Execute mix-simmer(*eyk*:cheyky) & mix-simmer(*et*:chetody) upon whole-herb(*ir*:dair) + spec(*aza*:otaza) + next-thereof[sar] measured at dose-measure[ar] + dose-measure[ar] [Cognate Polyptoton: dair->odair(*dair*), okeeos->okeeody(*keeo*)].",
+          "cognate_polyptoton": [
+            "dair->odair(*dair*)",
+            "okeeos->okeeody(*keeo*)",
+            "okeeos->oteeo(*keeo*)",
+            "tey->okedy(*ke*)",
+            "okeeody->oteeo(*keeo*)",
+            "ot->oty(*ok*)",
+            "chol->dchor(*ch*)",
+            "chol->char(*ch*)",
+            "dchor->char(*ch*)"
+          ]
+        },
+        {
+          "line_id": "2",
+          "locus": "@Cc",
+          "signature": "V+N+Q",
+          "eva": "ykac chol ykar dal ykady iokeeor cheey choly ykeeal cheos oaram ockhy sheey aiin y daiial cheody cheal yetey chear y dy ykey ch y dy chol ykar ol y ykeeody chey dal ody airchy choky ychey chey",
+          "interlinear_gloss": "spec(*ac*:ykac) . spec(*ol*:chol) . spec(*ar*:ykar) . this-portion[dal] . whole-herb(*ad*:ykady) . spec(*iokee*:iokeeor) . mix-simmer(*ee*:cheey) . mix-simmer(*ol*:choly) . whole-herb(*ee*:ykeeal) . rhizome-root(@Lf)(*eo*:cheos) . seal-product(*ar*:oaram) . whole-herb(*ckh*:ockhy) . steep-vapor(*ee*:sheey) . dose-measure[aiin] . spec(*y*:y) . spec(*ii*:daiial) . mix-simmer(*eo*:cheody) . rhizome-root(@Lf)(*ea*:cheal) . canopy/flower-herb(*et*:yetey) . rhizome-root(@Lf)(*ea*:chear) . spec(*y*:y) . this-portion[dy] . spec(*ey*:ykey) . spec(*ch*:ch) . spec(*y*:y) . this-portion[dy] . spec(*ol*:chol) . spec(*ar*:ykar) . dose-measure[ol] . spec(*y*:y) . whole-herb(*ee*:ykeeody) . mix-simmer(*ey*:chey) . this-portion[dal] . spec(*dy*:ody) . spec(*airch*:airchy) . mix-simmer(*ok*:choky) . spec(*ch*:ychey) . mix-simmer(*ey*:chey)",
+          "english_translation": "[Cosmological Exegesis] Execute mix-simmer(*ee*:cheey) & mix-simmer(*ol*:choly) upon spec(*ac*:ykac) + spec(*ol*:chol) + spec(*ar*:ykar) measured at dose-measure[aiin] + dose-measure[ol] to finish seal-product(*ar*:oaram) [Cognate Polyptoton: chol->ch(*ch*), cheos->cheody(*cheo*)].",
+          "cognate_polyptoton": [
+            "chol->ch(*ch*)",
+            "cheos->cheody(*cheo*)",
+            "cheal->chear(*che*)",
+            "cheal->chey(*che*)",
+            "cheal->ychey(*che*)",
+            "cheal->chey(*che*)",
+            "chear->chey(*che*)",
+            "chear->ychey(*che*)",
+            "chear->chey(*che*)",
+            "ch->chol(*ch*)",
+            "chey->ychey(*che*)",
+            "ychey->chey(*che*)"
+          ]
+        },
+        {
+          "line_id": "3",
+          "locus": "@Cc",
+          "signature": "V+N+Q",
+          "eva": "doair otaldal dair chdy otoar ar chy qoteor cho qotair chda oteeal cheor ar air oteody ytyd a dchy otoly okeodal oteoarar cheteeser dair chey okody dal oteey oteey",
+          "interlinear_gloss": "spec(*oai*:doair) . rhizome-root(@Lf)(*ald*:otaldal) . whole-herb(*ir*:dair) . mix-simmer(*dy*:chdy) . lower-rootstock(*oa*:otoar) . dose-measure[ar] . mix-simmer(*ch*:chy) . boil-extract(*eo*:qoteor) . whole-herb(*cho*:cho) . boil-extract(*ai*:qotair) . spec(*da*:chda) . whole-herb(*ee*:oteeal) . rhizome-root(@Lf)(*eo*:cheor) . dose-measure[ar] . spec(*ai*:air) . rhizome-root(@Lf)(*eo*:oteody) . lower-rootstock(*yd*:ytyd) . spec(*a*:a) . spec(*ch*:dchy) . spec(*ol*:otoly) . canopy/flower-herb(*eod*:okeodal) . spec(*eoar*:oteoarar) . spec(*ekeese*:cheteeser) . whole-herb(*ir*:dair) . mix-simmer(*ey*:chey) . whole-herb(*od*:okody) . this-portion[dal] . whole-herb(*ee*:oteey) . whole-herb(*ee*:oteey)",
+          "english_translation": "[Cosmological Exegesis] Execute mix-simmer(*dy*:chdy) & mix-simmer(*ch*:chy) upon spec(*oai*:doair) + rhizome-root(@Lf)(*ald*:otaldal) + whole-herb(*ir*:dair) measured at dose-measure[ar] + dose-measure[ar] [Cognate Polyptoton: chdy->chy(*ch*), chdy->dchy(*ch*)].",
+          "cognate_polyptoton": [
+            "chdy->chy(*ch*)",
+            "chdy->dchy(*ch*)",
+            "otoar->okody(*ko*)",
+            "chy->dchy(*ch*)",
+            "oteeal->oteey(*kee*)",
+            "oteeal->oteey(*kee*)",
+            "cheor->chey(*che*)"
+          ]
+        }
+      ]
+    },
+    {
+      "folio": "f70v2",
+      "description": "Opening Pisces Medallion with Barrel-Bathing Star-Nymphs (Quire K $B=1)",
+      "section": "Z",
+      "lang": "",
+      "hand": "4",
+      "n_lines": 33,
+      "n_tokens": 131,
+      "dict842_coverage_pct": 96.18,
+      "grounded150_and_closed_coverage_pct": 87.79,
+      "cognate_polyptoton_clauses": 3,
+      "sample_translated_clauses": [
+        {
+          "line_id": "1",
+          "locus": "@Cc",
+          "signature": "V+N+Q",
+          "eva": "okcheo dar otey ykeey tchy otsheo oteotey sheyo shecth opcheoldair dateey sal ody choteey choeteedy oteoteotsho yteos alain sheodaly cho aiin cholkal chokear oteody cholaiin oteeoal al sheeos okey chol dy otees cho s olarn otoaiin oteeody sos todaiin chokain otalal oteeam",
+          "interlinear_gloss": "whole-herb(*cheo*:okcheo) . this-portion[dar] . spec(*ey*:otey) . whole-herb(*ee*:ykeey) . rhizome-root(@Lf)(*tch*:tchy) . whole-herb(*sheo*:otsheo) . whole-herb(*eot*:oteotey) . spec(*eyo*:sheyo) . whole-herb(*ecth*:shecth) . spec(*pcheoldai*:opcheoldair) . whole-herb(*te*:dateey) . next-thereof[sal] . spec(*dy*:ody) . mix-simmer(*ote*:choteey) . mix-simmer(*oek*:choeteedy) . spec(*eokeoksho*:oteoteotsho) . rhizome-root(@Lf)(*eo*:yteos) . dose-measure[alain] . steep-vapor(*eodal*:sheodaly) . whole-herb(*cho*:cho) . dose-measure[aiin] . canopy/flower-herb(*olk*:cholkal) . lower-rootstock(*oke*:chokear) . rhizome-root(@Lf)(*eo*:oteody) . dose-measure[cholaiin] . canopy/flower-herb(*eeo*:oteeoal) . dose-measure[al] . canopy/flower-herb(*eeo*:sheeos) . spec(*ey*:okey) . spec(*ol*:chol) . this-portion[dy] . whole-herb(*ee*:otees) . whole-herb(*cho*:cho) . spec(*s*:s) . spec(*ar*:olarn) . dose-measure[otoaiin] . whole-herb(*ee*:oteeody) . whole-herb(*os*:sos) . dose-measure[todaiin] . dose-measure[chokain] . spec(*al*:otalal) . seal-product(*ee*:oteeam)",
+          "english_translation": "[Zodiac Astro-Calendar] Execute mix-simmer(*ote*:choteey) & mix-simmer(*oek*:choeteedy) upon whole-herb(*cheo*:okcheo) + this-portion[dar] + spec(*ey*:otey) measured at dose-measure[alain] + dose-measure[aiin] to finish seal-product(*ee*:oteeam) [Cognate Polyptoton: otey->okey(*ke*), ykeey->dateey(*kee*)].",
+          "cognate_polyptoton": [
+            "otey->okey(*ke*)",
+            "ykeey->dateey(*kee*)",
+            "ykeey->otees(*kee*)",
+            "ykeey->oteeam(*kee*)",
+            "dateey->otees(*kee*)",
+            "dateey->oteeam(*kee*)",
+            "yteos->oteody(*keo*)",
+            "oteeoal->oteeody(*keeo*)",
+            "otees->oteeam(*kee*)"
+          ]
+        },
+        {
+          "line_id": "21",
+          "locus": "@Cc",
+          "signature": "V+N+Q",
+          "eva": "daiiamdy otar am aral otair chedaiin oteey dair shchey daiin chalaly oteody chotol chedy oteotey oteeeor ar alody daiir oteedar oteey teey dalal cheoltey oteedy sheeteey okeeol ykeeos shey ykair arar alos",
+          "interlinear_gloss": "spec(*iiam*:daiiamdy) . spec(*ar*:otar) . spec(*am*:am) . spec(*al*:aral) . spec(*ai*:otair) . dose-measure[chedaiin] . whole-herb(*ee*:oteey) . whole-herb(*ir*:dair) . steep-vapor(*ch*:shchey) . this-portion[daiin] . mix-simmer(*alal*:chalaly) . rhizome-root(@Lf)(*eo*:oteody) . whole-herb(*ot*:chotol) . mix-simmer(*ed*:chedy) . whole-herb(*eot*:oteotey) . canopy/flower-herb(*eee*:oteeeor) . dose-measure[ar] . whole-herb(*od*:alody) . spec(*ii*:daiir) . canopy/flower-herb(*eed*:oteedar) . whole-herb(*ee*:oteey) . whole-herb(*te*:teey) . whole-herb(*la*:dalal) . mix-simmer(*eolk*:cheoltey) . whole-herb(*ee*:oteedy) . steep-vapor(*eeke*:sheeteey) . whole-herb(*ee*:okeeol) . canopy/flower-herb(*eeo*:ykeeos) . steep-vapor(*ey*:shey) . spec(*ai*:ykair) . spec(*ar*:arar) . whole-herb(*os*:alos)",
+          "english_translation": "[Zodiac Astro-Calendar] Execute steep-vapor(*ch*:shchey) & mix-simmer(*alal*:chalaly) upon spec(*iiam*:daiiamdy) + spec(*ar*:otar) + spec(*am*:am) measured at dose-measure[chedaiin] + dose-measure[ar] [Cognate Polyptoton: aral->ar(*ar*), aral->arar(*ar*)].",
+          "cognate_polyptoton": [
+            "aral->ar(*ar*)",
+            "aral->arar(*ar*)",
+            "otair->ykair(*kair*)",
+            "oteey->oteeeor(*kee*)",
+            "oteey->teey(*kee*)",
+            "oteey->oteedy(*kee*)",
+            "oteey->okeeol(*kee*)",
+            "oteeeor->oteey(*kee*)",
+            "oteeeor->teey(*kee*)",
+            "oteeeor->oteedy(*kee*)",
+            "oteeeor->okeeol(*kee*)",
+            "ar->arar(*ar*)",
+            "oteey->teey(*kee*)",
+            "oteey->oteedy(*kee*)",
+            "oteey->okeeol(*kee*)",
+            "teey->oteedy(*kee*)",
+            "teey->okeeol(*kee*)",
+            "oteedy->okeeol(*kee*)"
+          ]
+        },
+        {
+          "line_id": "32",
+          "locus": "@Cc",
+          "signature": "V+N+Q",
+          "eva": "otal daly oteoal dal aildy otaiin ar oteey shal o qoteeal ar al otaiin al teodaiin oteeo cthey oteeos oteos aiin daim",
+          "interlinear_gloss": "spec(*al*:otal) . canopy/flower-herb(*ly*:daly) . rhizome-root(@Lf)(*eo*:oteoal) . this-portion[dal] . spec(*ail*:aildy) . dose-measure[otaiin] . dose-measure[ar] . whole-herb(*ee*:oteey) . spec(*al*:shal) . spec(*o*:o) . boil-extract(*ee*:qoteeal) . dose-measure[ar] . dose-measure[al] . dose-measure[otaiin] . dose-measure[al] . dose-measure[teodaiin] . canopy/flower-herb(*eeo*:oteeo) . whole-herb(*cth*:cthey) . canopy/flower-herb(*eeo*:oteeos) . rhizome-root(@Lf)(*eo*:oteos) . dose-measure[aiin] . seal-product(*im*:daim)",
+          "english_translation": "[Zodiac Astro-Calendar] Execute boil-extract(*ee*:qoteeal) upon spec(*al*:otal) + canopy/flower-herb(*ly*:daly) + rhizome-root(@Lf)(*eo*:oteoal) measured at dose-measure[otaiin] + dose-measure[ar] to finish seal-product(*im*:daim) [Cognate Polyptoton: daly->dal(*dal*), oteoal->oteos(*keo*)].",
+          "cognate_polyptoton": [
+            "daly->dal(*dal*)",
+            "oteoal->oteos(*keo*)",
+            "oteey->qoteeal(*kee*)",
+            "oteeo->oteeos(*keeo*)"
+          ]
+        }
+      ]
+    },
+    {
+      "folio": "f72r3",
+      "description": "Summer Solstice Cancer Medallion Botanical Hub (Quire L $B=1)",
+      "section": "Z",
+      "lang": "",
+      "hand": "4",
+      "n_lines": 34,
+      "n_tokens": 164,
+      "dict842_coverage_pct": 93.9,
+      "grounded150_and_closed_coverage_pct": 81.71,
+      "cognate_polyptoton_clauses": 4,
+      "sample_translated_clauses": [
+        {
+          "line_id": "1",
+          "locus": "@Cc",
+          "signature": "V+N+Q",
+          "eva": "okeey chekoy oteo ykeey chedaiin okeeol cheeor chocthar ar oteody oteedy okeolaiin oteey okarar teo sheol al alaiiin okeos alaiin okor o keodar okee s ar aiin chekackhy chokees oteedy chekar okar choly ches os oiin okeeey cheey ches okeody chealdy shocthy choteey sheoly oheol sheey chorain",
+          "interlinear_gloss": "whole-herb(*ee*:okeey) . mix-simmer(*ek*:chekoy) . rhizome-root(@Lf)(*eo*:oteo) . whole-herb(*ee*:ykeey) . dose-measure[chedaiin] . whole-herb(*ee*:okeeol) . whole-herb(*ee*:cheeor) . canopy/flower-herb(*octh*:chocthar) . dose-measure[ar] . rhizome-root(@Lf)(*eo*:oteody) . whole-herb(*ee*:oteedy) . dose-measure[okeolaiin] . whole-herb(*ee*:oteey) . spec(*ar*:okarar) . spec(*keo*:teo) . rhizome-root(@Lf)(*eo*:sheol) . dose-measure[al] . dose-measure[alaiiin] . rhizome-root(@Lf)(*eo*:okeos) . dose-measure[alaiin] . spec(*or*:okor) . spec(*o*:o) . spec(*keod*:keodar) . whole-herb(*ee*:okee) . spec(*s*:s) . dose-measure[ar] . dose-measure[aiin] . mix-simmer(*ekackh*:chekackhy) . spec(*okee*:chokees) . whole-herb(*ee*:oteedy) . rhizome-root(@Lf)(*ek*:chekar) . spec(*ar*:okar) . mix-simmer(*ol*:choly) . rhizome-root(@Lf)(*es*:ches) . whole-herb(*os*:os) . dose-measure[oiin] . whole-herb(*ee*:okeeey) . mix-simmer(*ee*:cheey) . rhizome-root(@Lf)(*es*:ches) . rhizome-root(@Lf)(*eo*:okeody) . mix-simmer(*eal*:chealdy) . steep-vapor(*octh*:shocthy) . mix-simmer(*ote*:choteey) . steep-vapor(*eol*:sheoly) . canopy/flower-herb(*he*:oheol) . steep-vapor(*ee*:sheey) . dose-measure[chorain]",
+          "english_translation": "[Zodiac Astro-Calendar] Execute mix-simmer(*ek*:chekoy) & mix-simmer(*ekackh*:chekackhy) upon whole-herb(*ee*:okeey) + rhizome-root(@Lf)(*eo*:oteo) + whole-herb(*ee*:ykeey) measured at dose-measure[chedaiin] + dose-measure[ar] [Cognate Polyptoton: okeey->ykeey(*kee*), okeey->okeeol(*kee*)].",
+          "cognate_polyptoton": [
+            "okeey->ykeey(*kee*)",
+            "okeey->okeeol(*kee*)",
+            "okeey->oteedy(*kee*)",
+            "okeey->oteey(*kee*)",
+            "okeey->okee(*kee*)",
+            "okeey->oteedy(*kee*)",
+            "okeey->okeeey(*kee*)",
+            "oteo->oteody(*keo*)",
+            "oteo->teo(*keo*)",
+            "oteo->okeos(*keo*)",
+            "oteo->okeody(*keo*)",
+            "ykeey->okeeol(*kee*)",
+            "ykeey->oteedy(*kee*)",
+            "ykeey->oteey(*kee*)",
+            "ykeey->okee(*kee*)",
+            "ykeey->oteedy(*kee*)",
+            "ykeey->okeeey(*kee*)",
+            "okeeol->oteedy(*kee*)",
+            "okeeol->oteey(*kee*)",
+            "okeeol->okee(*kee*)",
+            "okeeol->oteedy(*kee*)",
+            "okeeol->okeeey(*kee*)",
+            "cheeor->cheey(*chee*)",
+            "oteody->teo(*keo*)",
+            "oteody->okeos(*keo*)",
+            "oteody->okeody(*keo*)",
+            "oteedy->oteey(*kee*)",
+            "oteedy->okee(*kee*)",
+            "oteedy->okeeey(*kee*)",
+            "oteey->okee(*kee*)",
+            "oteey->oteedy(*kee*)",
+            "oteey->okeeey(*kee*)",
+            "okarar->okar(*kar*)",
+            "teo->okeos(*keo*)",
+            "teo->okeody(*keo*)",
+            "sheol->oheol(*he*)",
+            "alaiiin->alaiin(*aiin*)",
+            "alaiiin->aiin(*aiin*)",
+            "okeos->okeody(*keo*)",
+            "alaiin->aiin(*aiin*)",
+            "okee->oteedy(*kee*)",
+            "okee->okeeey(*kee*)",
+            "chokees->choteey(*chokee*)",
+            "oteedy->okeeey(*kee*)"
+          ]
+        },
+        {
+          "line_id": "14",
+          "locus": "@Cc",
+          "signature": "V+N+Q",
+          "eva": "otochedy otey o koey sheedy oteodar ykeolol y air oteos cheo l aiin ykeeoly otaiin shear oiiin oral o tealy cheokeor oteody ockes otees chteos doteey sosor oteol shol cheeg okeody cheol shey sheysy shoteey cheor yoeteey okeeol chy okeeo ykoly",
+          "interlinear_gloss": "whole-herb(*och*:otochedy) . spec(*ey*:otey) . spec(*o*:o) . canopy/flower-herb(*ko*:koey) . steep-vapor(*ee*:sheedy) . canopy/flower-herb(*eod*:oteodar) . rhizome-root(@Lf)(*eol*:ykeolol) . spec(*y*:y) . spec(*ai*:air) . rhizome-root(@Lf)(*eo*:oteos) . rhizome-root(@Lf)(*eo*:cheo) . spec(*l*:l) . dose-measure[aiin] . spec(*eeol*:ykeeoly) . dose-measure[otaiin] . rhizome-root(@Lf)(*ea*:shear) . dose-measure[oiiin] . spec(*al*:oral) . spec(*o*:o) . spec(*keal*:tealy) . whole-herb(*eoke*:cheokeor) . rhizome-root(@Lf)(*eo*:oteody) . spec(*cke*:ockes) . whole-herb(*ee*:otees) . spec(*keo*:chteos) . whole-herb(*ote*:doteey) . whole-herb(*os*:sosor) . rhizome-root(@Lf)(*eo*:oteol) . spec(*ol*:shol) . spec(*eeg*:cheeg) . rhizome-root(@Lf)(*eo*:okeody) . rhizome-root(@Lf)(*eo*:cheol) . steep-vapor(*ey*:shey) . steep-vapor(*eys*:sheysy) . steep-vapor(*ote*:shoteey) . rhizome-root(@Lf)(*eo*:cheor) . spec(*oeke*:yoeteey) . whole-herb(*ee*:okeeol) . mix-simmer(*ch*:chy) . canopy/flower-herb(*eeo*:okeeo) . spec(*ol*:ykoly)",
+          "english_translation": "[Zodiac Astro-Calendar] Execute steep-vapor(*ee*:sheedy) & steep-vapor(*ey*:shey) upon whole-herb(*och*:otochedy) + spec(*ey*:otey) + spec(*o*:o) measured at dose-measure[aiin] + dose-measure[otaiin] [Cognate Polyptoton: otey->oteol(*ke*), oteos->oteody(*keo*)].",
+          "cognate_polyptoton": [
+            "otey->oteol(*ke*)",
+            "oteos->oteody(*keo*)",
+            "oteos->okeody(*keo*)",
+            "shear->shey(*he*)",
+            "oteody->okeody(*keo*)",
+            "otees->okeeol(*kee*)",
+            "cheol->cheor(*che*)"
+          ]
+        },
+        {
+          "line_id": "34",
+          "locus": "@Cc",
+          "signature": "-+N+Q",
+          "eva": "okeos aiin olaiin oraiin octheolarl okeeody oteos aiin koly",
+          "interlinear_gloss": "rhizome-root(@Lf)(*eo*:okeos) . dose-measure[aiin] . dose-measure[olaiin] . dose-measure[oraiin] . spec(*ckheolar*:octheolarl) . whole-herb(*ee*:okeeody) . rhizome-root(@Lf)(*eo*:oteos) . dose-measure[aiin] . spec(*kol*:koly)",
+          "english_translation": "[Zodiac Astro-Calendar] Identify/Select upon rhizome-root(@Lf)(*eo*:okeos) + spec(*ckheolar*:octheolarl) + whole-herb(*ee*:okeeody) measured at dose-measure[aiin] + dose-measure[olaiin] [Cognate Polyptoton: okeos->oteos(*keo*), aiin->olaiin(*aiin*)].",
+          "cognate_polyptoton": [
+            "okeos->oteos(*keo*)",
+            "aiin->olaiin(*aiin*)",
+            "olaiin->aiin(*aiin*)"
+          ]
+        }
+      ]
+    },
+    {
+      "folio": "f75v",
+      "description": "Balneological 9-Spout Canopy & 10-Nymph Pool (Quire M $B=1)",
+      "section": "B",
+      "lang": "B",
+      "hand": "2",
+      "n_lines": 70,
+      "n_tokens": 359,
+      "dict842_coverage_pct": 98.89,
+      "grounded150_and_closed_coverage_pct": 94.99,
+      "cognate_polyptoton_clauses": 16,
+      "sample_translated_clauses": [
+        {
+          "line_id": "1",
+          "locus": "@P0",
+          "signature": "V+N+-",
+          "eva": "pchedar opchedy qokedy opchedy qopdy dain chetas chcphhy qotam",
+          "interlinear_gloss": "lower-rootstock(*pched*:pchedar) . canopy/flower-herb(*pch*:opchedy) . boil-extract(*ed*:qokedy) . canopy/flower-herb(*pch*:opchedy) . boil-extract(*pd*:qopdy) . this-portion[dain] . spec(*eka*:chetas) . mix-simmer(*cphh*:chcphhy) . seal-product(*am*:qotam)",
+          "english_translation": "[Balneological Hydrotherapy] Execute boil-extract(*ed*:qokedy) & boil-extract(*pd*:qopdy) upon lower-rootstock(*pched*:pchedar) + canopy/flower-herb(*pch*:opchedy) + canopy/flower-herb(*pch*:opchedy) to finish seal-product(*am*:qotam).",
+          "cognate_polyptoton": []
+        },
+        {
+          "line_id": "3",
+          "locus": "*P0",
+          "signature": "V+N+Q",
+          "eva": "sor sheky qokain okal dal olchedy daiin chckhy lkar chckhy rom",
+          "interlinear_gloss": "next-thereof[sor] . steep-vapor(*ek*:sheky) . dose-measure[qokain] . spec(*al*:okal) . this-portion[dal] . bathe/infuse-in-vessel(*ch*:olchedy) . this-portion[daiin] . mix-simmer(*ckh*:chckhy) . bathe/infuse-in-vessel(*ka*:lkar) . mix-simmer(*ckh*:chckhy) . seal-product(*ro*:rom)",
+          "english_translation": "[Balneological Hydrotherapy] Execute steep-vapor(*ek*:sheky) & bathe/infuse-in-vessel(*ch*:olchedy) upon next-thereof[sor] + spec(*al*:okal) + this-portion[dal] measured at dose-measure[qokain] to finish seal-product(*ro*:rom).",
+          "cognate_polyptoton": []
+        },
+        {
+          "line_id": "70",
+          "locus": "+P1",
+          "signature": "V+N+-",
+          "eva": "qokey olchedy otey orol",
+          "interlinear_gloss": "boil-extract(*ey*:qokey) . bathe/infuse-in-vessel(*ch*:olchedy) . spec(*ey*:otey) . spec(*ol*:orol)",
+          "english_translation": "[Balneological Hydrotherapy] Execute boil-extract(*ey*:qokey) & bathe/infuse-in-vessel(*ch*:olchedy) upon spec(*ey*:otey) + spec(*ol*:orol) [Cognate Polyptoton: qokey->otey(*ke*)].",
+          "cognate_polyptoton": [
+            "qokey->otey(*ke*)"
+          ]
+        }
+      ]
+    },
+    {
+      "folio": "f76r",
+      "description": "Balneological 9-Key Margin-Indexed Master Treatise (Quire M $B=2)",
+      "section": "T",
+      "lang": "B",
+      "hand": "2",
+      "n_lines": 56,
+      "n_tokens": 569,
+      "dict842_coverage_pct": 97.54,
+      "grounded150_and_closed_coverage_pct": 94.2,
+      "cognate_polyptoton_clauses": 35,
+      "sample_translated_clauses": [
+        {
+          "line_id": "1",
+          "locus": "@P0",
+          "signature": "V+N+-",
+          "eva": "potchokor chcfhdy opshdy qolp chcphy chcphdy opshey qofshy opchdy sain as y",
+          "interlinear_gloss": "spec(*pokchok*:potchokor) . mix-simmer(*cfh*:chcfhdy) . canopy/flower-herb(*psh*:opshdy) . boil-extract(*lp*:qolp) . mix-simmer(*cph*:chcphy) . mix-simmer(*cph*:chcphdy) . canopy/flower-herb(*psh*:opshey) . boil-extract(*psh*:qofshy) . canopy/flower-herb(*pch*:opchdy) . next-thereof[sain] . canopy/flower-herb(*as*:as) . spec(*y*:y)",
+          "english_translation": "[Clinical Index Treatise] Execute mix-simmer(*cfh*:chcfhdy) & boil-extract(*lp*:qolp) upon spec(*pokchok*:potchokor) + canopy/flower-herb(*psh*:opshdy) + canopy/flower-herb(*psh*:opshey) [Cognate Polyptoton: chcfhdy->chcphy(*chcph*), chcfhdy->chcphdy(*chcph*)].",
+          "cognate_polyptoton": [
+            "chcfhdy->chcphy(*chcph*)",
+            "chcfhdy->chcphdy(*chcph*)",
+            "opshdy->qofshy(*psh*)",
+            "chcphy->chcphdy(*chcph*)"
+          ]
+        },
+        {
+          "line_id": "2",
+          "locus": "+P0",
+          "signature": "V+N+Q",
+          "eva": "dshedy qotddyar cthar chep dain okain qokeor shedy qol ain sheals qokeey",
+          "interlinear_gloss": "spec(*sh*:dshedy) . boil-extract(*ddy*:qotddyar) . whole-herb(*cth*:cthar) . canopy/flower-herb(*ep*:chep) . this-portion[dain] . dose-measure[okain] . boil-extract(*eo*:qokeor) . steep-vapor(*ed*:shedy) . boil-extract(*ol*:qol) . dose-measure[ain] . spec(*eal*:sheals) . boil-extract(*ee*:qokeey)",
+          "english_translation": "[Clinical Index Treatise] Execute boil-extract(*ddy*:qotddyar) & boil-extract(*eo*:qokeor) upon spec(*sh*:dshedy) + whole-herb(*cth*:cthar) + canopy/flower-herb(*ep*:chep) measured at dose-measure[okain] + dose-measure[ain].",
+          "cognate_polyptoton": []
+        },
+        {
+          "line_id": "56",
+          "locus": "+P0",
+          "signature": "V+-+Q",
+          "eva": "qokaiin ol shedy qokeey or shdy",
+          "interlinear_gloss": "dose-measure[qokaiin] . dose-measure[ol] . steep-vapor(*ed*:shedy) . boil-extract(*ee*:qokeey) . dose-measure[or] . steep-vapor(*dy*:shdy)",
+          "english_translation": "[Clinical Index Treatise] Execute steep-vapor(*ed*:shedy) & boil-extract(*ee*:qokeey) measured at dose-measure[qokaiin] + dose-measure[ol].",
+          "cognate_polyptoton": []
+        }
+      ]
+    },
+    {
+      "folio": "f84r",
+      "description": "Balneological Hydrotherapy Closing-Bifolio Hub (Quire M $B=1)",
+      "section": "B",
+      "lang": "B",
+      "hand": "2",
+      "n_lines": 47,
+      "n_tokens": 368,
+      "dict842_coverage_pct": 98.64,
+      "grounded150_and_closed_coverage_pct": 95.65,
+      "cognate_polyptoton_clauses": 24,
+      "sample_translated_clauses": [
+        {
+          "line_id": "13",
+          "locus": "@P0",
+          "signature": "V+N+-",
+          "eva": "kol chedy qokeey otedy dytedy okeedy olshed opshed ykshedy qotedy opoly",
+          "interlinear_gloss": "canopy/flower-herb(*ko*:kol) . mix-simmer(*ed*:chedy) . boil-extract(*ee*:qokeey) . whole-herb(*ed*:otedy) . canopy/flower-herb(*yt*:dytedy) . whole-herb(*ee*:okeedy) . bathe/infuse-in-vessel(*shed*:olshed) . spec(*pshed*:opshed) . spec(*sh*:ykshedy) . boil-extract(*ed*:qotedy) . whole-herb(*pol*:opoly)",
+          "english_translation": "[Balneological Hydrotherapy] Execute mix-simmer(*ed*:chedy) & boil-extract(*ee*:qokeey) upon canopy/flower-herb(*ko*:kol) + whole-herb(*ed*:otedy) + canopy/flower-herb(*yt*:dytedy) [Cognate Polyptoton: qokeey->okeedy(*kee*), otedy->qotedy(*ke*)].",
+          "cognate_polyptoton": [
+            "qokeey->okeedy(*kee*)",
+            "otedy->qotedy(*ke*)"
+          ]
+        },
+        {
+          "line_id": "14",
+          "locus": "+P0",
+          "signature": "V+N+Q",
+          "eva": "tol or sheey chckhdy schckhy dal y shedy otedy qol or ol eedy qokeey or oly",
+          "interlinear_gloss": "whole-herb(*to*:tol) . dose-measure[or] . steep-vapor(*ee*:sheey) . mix-simmer(*ckh*:chckhdy) . spec(*chckh*:schckhy) . this-portion[dal] . spec(*y*:y) . steep-vapor(*ed*:shedy) . whole-herb(*ed*:otedy) . boil-extract(*ol*:qol) . dose-measure[or] . dose-measure[ol] . whole-herb(*ee*:eedy) . boil-extract(*ee*:qokeey) . dose-measure[or] . canopy/flower-herb(*ly*:oly)",
+          "english_translation": "[Balneological Hydrotherapy] Execute steep-vapor(*ee*:sheey) & mix-simmer(*ckh*:chckhdy) upon whole-herb(*to*:tol) + spec(*chckh*:schckhy) + this-portion[dal] measured at dose-measure[or] + dose-measure[or] [Cognate Polyptoton: chckhdy->schckhy(*chckh*), ol->oly(*ol*)].",
+          "cognate_polyptoton": [
+            "chckhdy->schckhy(*chckh*)",
+            "ol->oly(*ol*)"
+          ]
+        },
+        {
+          "line_id": "46",
+          "locus": "+P1",
+          "signature": "V+N+Q",
+          "eva": "dchedy qokedy ar oror okedy okedy",
+          "interlinear_gloss": "this-portion[dchedy] . boil-extract(*ed*:qokedy) . dose-measure[ar] . spec(*or*:oror) . whole-herb(*ed*:okedy) . whole-herb(*ed*:okedy)",
+          "english_translation": "[Balneological Hydrotherapy] Execute boil-extract(*ed*:qokedy) upon this-portion[dchedy] + spec(*or*:oror) + whole-herb(*ed*:okedy) measured at dose-measure[ar] [Cognate Polyptoton: qokedy->okedy(*ke*), qokedy->okedy(*ke*)].",
+          "cognate_polyptoton": [
+            "qokedy->okedy(*ke*)",
+            "qokedy->okedy(*ke*)"
+          ]
+        }
+      ]
+    },
+    {
+      "folio": "f85r1",
+      "description": "Quire 14 Opening Cosmological-Medical Exegetical Preface (Quire N $B=1)",
+      "section": "T",
+      "lang": "B",
+      "hand": "2",
+      "n_lines": 35,
+      "n_tokens": 347,
+      "dict842_coverage_pct": 96.25,
+      "grounded150_and_closed_coverage_pct": 89.91,
+      "cognate_polyptoton_clauses": 21,
+      "sample_translated_clauses": [
+        {
+          "line_id": "1",
+          "locus": "@P0",
+          "signature": "V+N+-",
+          "eva": "pdsheody shdol shey otchdy dshedy soeeedy dchefoey sair shedy sodair shey",
+          "interlinear_gloss": "spec(*pdshe*:pdsheody) . rhizome-root(@Lf)(*do*:shdol) . steep-vapor(*ey*:shey) . spec(*ch*:otchdy) . spec(*sh*:dshedy) . whole-herb(*oe*:soeeedy) . spec(*chepo*:dchefoey) . whole-herb(*ir*:sair) . steep-vapor(*ed*:shedy) . spec(*odai*:sodair) . steep-vapor(*ey*:shey)",
+          "english_translation": "[Clinical Index Treatise] Execute steep-vapor(*ey*:shey) & steep-vapor(*ed*:shedy) upon spec(*pdshe*:pdsheody) + rhizome-root(@Lf)(*do*:shdol) + spec(*ch*:otchdy) [Cognate Polyptoton: shey->shedy(*he*), shedy->shey(*he*)].",
+          "cognate_polyptoton": [
+            "shey->shedy(*he*)",
+            "shedy->shey(*he*)"
+          ]
+        },
+        {
+          "line_id": "2",
+          "locus": "+P0",
+          "signature": "V+N+Q",
+          "eva": "yoiin cheey qocthdy otedy dol ar aiin okshd okchedy otedy chckhdy otam",
+          "interlinear_gloss": "dose-measure[yoiin] . mix-simmer(*ee*:cheey) . boil-extract(*cth*:qocthdy) . whole-herb(*ed*:otedy) . spec(*ol*:dol) . dose-measure[ar] . dose-measure[aiin] . spec(*shd*:okshd) . spec(*ch*:okchedy) . whole-herb(*ed*:otedy) . mix-simmer(*ckh*:chckhdy) . seal-product(*am*:otam)",
+          "english_translation": "[Clinical Index Treatise] Execute mix-simmer(*ee*:cheey) & boil-extract(*cth*:qocthdy) upon whole-herb(*ed*:otedy) + spec(*ol*:dol) + spec(*shd*:okshd) measured at dose-measure[yoiin] + dose-measure[ar] to finish seal-product(*am*:otam).",
+          "cognate_polyptoton": []
+        },
+        {
+          "line_id": "35",
+          "locus": "+Pc",
+          "signature": "V+N+Q",
+          "eva": "s ar chedar olpchdy otol otchedy",
+          "interlinear_gloss": "spec(*s*:s) . dose-measure[ar] . whole-herb(*ed*:chedar) . bathe/infuse-in-vessel(*pch*:olpchdy) . spec(*ol*:otol) . spec(*ch*:otchedy)",
+          "english_translation": "[Clinical Index Treatise] Execute bathe/infuse-in-vessel(*pch*:olpchdy) upon spec(*s*:s) + whole-herb(*ed*:chedar) + spec(*ol*:otol) measured at dose-measure[ar].",
+          "cognate_polyptoton": []
+        }
+      ]
+    },
+    {
+      "folio": "fRos",
+      "description": "9-Sphere Rosettes Cosmological-Apothecary Routing Map (Quire N $B=1)",
+      "section": "C",
+      "lang": "B",
+      "hand": "4",
+      "n_lines": 160,
+      "n_tokens": 539,
+      "dict842_coverage_pct": 90.91,
+      "grounded150_and_closed_coverage_pct": 86.27,
+      "cognate_polyptoton_clauses": 9,
+      "sample_translated_clauses": [
+        {
+          "line_id": "2",
+          "locus": "@Cc",
+          "signature": "V+N+Q",
+          "eva": "oto tosaes adar otar otes okaiin dal al chdar otdar chefchs okor ol om olkeeodaiin shol okal orshees qoeey okalol otodr ochs ar ol oqokam oteed oteedy okedy lraiin or aiin okor okeedy",
+          "interlinear_gloss": "whole-herb(*to*:oto) . spec(*kosae*:tosaes) . whole-herb(*ad*:adar) . spec(*ar*:otar) . rhizome-root(@Lf)(*es*:otes) . dose-measure[okaiin] . this-portion[dal] . dose-measure[al] . spec(*da*:chdar) . spec(*da*:otdar) . whole-herb(*epch*:chefchs) . spec(*or*:okor) . dose-measure[ol] . canopy/flower-herb(*om*:om) . bathe/infuse-in-vessel(*keeod*:olkeeodaiin) . spec(*ol*:shol) . spec(*al*:okal) . spec(*shee*:orshees) . boil-extract(*ee*:qoeey) . spec(*al*:okalol) . whole-herb(*od*:otodr) . spec(*ch*:ochs) . dose-measure[ar] . dose-measure[ol] . seal-product(*qok*:oqokam) . canopy/flower-herb(*eed*:oteed) . whole-herb(*ee*:oteedy) . whole-herb(*ed*:okedy) . dose-measure[lraiin] . dose-measure[or] . dose-measure[aiin] . spec(*or*:okor) . whole-herb(*ee*:okeedy)",
+          "english_translation": "[Cosmological Exegesis] Execute bathe/infuse-in-vessel(*keeod*:olkeeodaiin) & boil-extract(*ee*:qoeey) upon whole-herb(*to*:oto) + spec(*kosae*:tosaes) + whole-herb(*ad*:adar) measured at dose-measure[okaiin] + dose-measure[al] to finish seal-product(*qok*:oqokam) [Cognate Polyptoton: otes->okedy(*ke*), okal->okalol(*kal*)].",
+          "cognate_polyptoton": [
+            "otes->okedy(*ke*)",
+            "okal->okalol(*kal*)",
+            "oteedy->okeedy(*kee*)"
+          ]
+        },
+        {
+          "line_id": "20",
+          "locus": "@Cc",
+          "signature": "V+N+Q",
+          "eva": "sais od r ar or okal okal or alal ykal ol ar ol al ol al lor okan okod oked okeo ldy opashs otedy chedchs sheekedy odal shd olkeedy yky kaiir okchdy otol ar y aiin aiir oeal okchdy oly okain olkaiin ody",
+          "interlinear_gloss": "spec(*is*:sais) . whole-herb(*od*:od) . spec(*r*:r) . dose-measure[ar] . dose-measure[or] . spec(*al*:okal) . spec(*al*:okal) . dose-measure[or] . spec(*al*:alal) . spec(*al*:ykal) . dose-measure[ol] . dose-measure[ar] . dose-measure[ol] . dose-measure[al] . dose-measure[ol] . dose-measure[al] . spec(*or*:lor) . whole-herb(*an*:okan) . whole-herb(*od*:okod) . whole-herb(*ed*:oked) . rhizome-root(@Lf)(*eo*:okeo) . spec(*dy*:ldy) . spec(*pash*:opashs) . whole-herb(*ed*:otedy) . spec(*edch*:chedchs) . steep-vapor(*eek*:sheekedy) . spec(*da*:odal) . spec(*hd*:shd) . bathe/infuse-in-vessel(*ke*:olkeedy) . rhizome-root(@Lf)(*ky*:yky) . spec(*kaii*:kaiir) . spec(*ch*:okchdy) . spec(*ol*:otol) . dose-measure[ar] . spec(*y*:y) . dose-measure[aiin] . whole-herb(*aii*:aiir) . rhizome-root(@Lf)(*ea*:oeal) . spec(*ch*:okchdy) . canopy/flower-herb(*ly*:oly) . dose-measure[okain] . bathe/infuse-in-vessel(*ka*:olkaiin) . spec(*dy*:ody)",
+          "english_translation": "[Cosmological Exegesis] Execute steep-vapor(*eek*:sheekedy) & bathe/infuse-in-vessel(*ke*:olkeedy) upon spec(*is*:sais) + whole-herb(*od*:od) + spec(*r*:r) measured at dose-measure[ar] + dose-measure[or] [Cognate Polyptoton: okal->ykal(*kal*), okal->ykal(*kal*)].",
+          "cognate_polyptoton": [
+            "okal->ykal(*kal*)",
+            "okal->ykal(*kal*)",
+            "alal->al(*al*)",
+            "alal->al(*al*)",
+            "ol->oly(*ol*)",
+            "ol->oly(*ol*)",
+            "ol->oly(*ol*)"
+          ]
+        },
+        {
+          "line_id": "144",
+          "locus": "+Pb",
+          "signature": "V+N+-",
+          "eva": "okeechy okol sheeoy tolfchad",
+          "interlinear_gloss": "whole-herb(*eech*:okeechy) . spec(*ol*:okol) . steep-vapor(*ee*:sheeoy) . spec(*kolpchad*:tolfchad)",
+          "english_translation": "[Cosmological Exegesis] Execute steep-vapor(*ee*:sheeoy) upon whole-herb(*eech*:okeechy) + spec(*ol*:okol) + spec(*kolpchad*:tolfchad).",
+          "cognate_polyptoton": []
+        }
+      ]
+    },
+    {
+      "folio": "f88r",
+      "description": "3-Register Pharmaceutical Jar & Rhizome Formulary (Quire P $B=1)",
+      "section": "P",
+      "lang": "A",
+      "hand": "1",
+      "n_lines": 31,
+      "n_tokens": 150,
+      "dict842_coverage_pct": 92.67,
+      "grounded150_and_closed_coverage_pct": 88.67,
+      "cognate_polyptoton_clauses": 10,
+      "sample_translated_clauses": [
+        {
+          "line_id": "7",
+          "locus": "@P0",
+          "signature": "V+N+-",
+          "eva": "dorsheoy ctheol qockhey dory sheor sholfchor dal chcthol",
+          "interlinear_gloss": "spec(*orshe*:dorsheoy) . canopy/flower-herb(*cthe*:ctheol) . boil-extract(*ckh*:qockhey) . spec(*or*:dory) . rhizome-root(@Lf)(*eo*:sheor) . spec(*olpch*:sholfchor) . this-portion[dal] . whole-herb(*cth*:chcthol)",
+          "english_translation": "[Apothecary Compounding] Execute boil-extract(*ckh*:qockhey) upon spec(*orshe*:dorsheoy) + canopy/flower-herb(*cthe*:ctheol) + spec(*or*:dory) [Cognate Polyptoton: ctheol->qockhey(*ckhe*)].",
+          "cognate_polyptoton": [
+            "ctheol->qockhey(*ckhe*)"
+          ]
+        },
+        {
+          "line_id": "8",
+          "locus": "+P0",
+          "signature": "V+N+Q",
+          "eva": "rsal sheom keol chear shekor qokor daiin sar s aiin oky sam",
+          "interlinear_gloss": "spec(*rs*:rsal) . seal-product(*eo*:sheom) . lower-rootstock(*ke*:keol) . rhizome-root(@Lf)(*ea*:chear) . rhizome-root(@Lf)(*ek*:shekor) . boil-extract(*or*:qokor) . this-portion[daiin] . next-thereof[sar] . spec(*s*:s) . dose-measure[aiin] . rhizome-root(@Lf)(*ky*:oky) . seal-product(*am*:sam)",
+          "english_translation": "[Apothecary Compounding] Execute boil-extract(*or*:qokor) upon spec(*rs*:rsal) + lower-rootstock(*ke*:keol) + rhizome-root(@Lf)(*ea*:chear) measured at dose-measure[aiin] to finish seal-product(*eo*:sheom).",
+          "cognate_polyptoton": []
+        },
+        {
+          "line_id": "31",
+          "locus": "+P0",
+          "signature": "V+N+-",
+          "eva": "dar chear chol dol qoekeor cheom",
+          "interlinear_gloss": "this-portion[dar] . rhizome-root(@Lf)(*ea*:chear) . spec(*ol*:chol) . spec(*ol*:dol) . boil-extract(*eke*:qoekeor) . seal-product(*eo*:cheom)",
+          "english_translation": "[Apothecary Compounding] Execute boil-extract(*eke*:qoekeor) upon this-portion[dar] + rhizome-root(@Lf)(*ea*:chear) + spec(*ol*:chol) to finish seal-product(*eo*:cheom) [Cognate Polyptoton: chear->cheom(*che*)].",
+          "cognate_polyptoton": [
+            "chear->cheom(*che*)"
+          ]
+        }
+      ]
+    },
+    {
+      "folio": "f89r2",
+      "description": "3-Panel Pharmaceutical Compounding Specimen Hub (Quire P $B=1)",
+      "section": "P",
+      "lang": "A",
+      "hand": "1",
+      "n_lines": 34,
+      "n_tokens": 234,
+      "dict842_coverage_pct": 94.02,
+      "grounded150_and_closed_coverage_pct": 89.32,
+      "cognate_polyptoton_clauses": 11,
+      "sample_translated_clauses": [
+        {
+          "line_id": "6",
+          "locus": "@P0",
+          "signature": "V+N+-",
+          "eva": "qokcheody cheodal dair cholkeedy qokedy cheal cheo dal qoaiisr shey cpheeedol deey qockhey chaldy daim",
+          "interlinear_gloss": "boil-extract(*che*:qokcheody) . canopy/flower-herb(*eod*:cheodal) . whole-herb(*ir*:dair) . mix-simmer(*olk*:cholkeedy) . boil-extract(*ed*:qokedy) . rhizome-root(@Lf)(*ea*:cheal) . rhizome-root(@Lf)(*eo*:cheo) . this-portion[dal] . boil-extract(*aiis*:qoaiisr) . steep-vapor(*ey*:shey) . spec(*cpheed*:cpheeedol) . whole-herb(*ee*:deey) . boil-extract(*ckh*:qockhey) . mix-simmer(*al*:chaldy) . seal-product(*im*:daim)",
+          "english_translation": "[Apothecary Compounding] Execute boil-extract(*che*:qokcheody) & mix-simmer(*olk*:cholkeedy) upon canopy/flower-herb(*eod*:cheodal) + whole-herb(*ir*:dair) + rhizome-root(@Lf)(*ea*:cheal) to finish seal-product(*im*:daim).",
+          "cognate_polyptoton": []
+        },
+        {
+          "line_id": "7",
+          "locus": "+P0",
+          "signature": "V+N+Q",
+          "eva": "chos aiin cheodal daiin chy chedain dolchsyckheol daiin chody cheedy tchodol chor choldy chos dol okcheeg",
+          "interlinear_gloss": "whole-herb(*os*:chos) . dose-measure[aiin] . canopy/flower-herb(*eod*:cheodal) . this-portion[daiin] . mix-simmer(*ch*:chy) . dose-measure[chedain] . spec(*olchsyckhe*:dolchsyckheol) . this-portion[daiin] . mix-simmer(*od*:chody) . mix-simmer(*ee*:cheedy) . spec(*kchod*:tchodol) . spec(*or*:chor) . mix-simmer(*ol*:choldy) . whole-herb(*os*:chos) . spec(*ol*:dol) . spec(*cheeg*:okcheeg)",
+          "english_translation": "[Apothecary Compounding] Execute mix-simmer(*ch*:chy) & mix-simmer(*od*:chody) upon whole-herb(*os*:chos) + canopy/flower-herb(*eod*:cheodal) + this-portion[daiin] measured at dose-measure[aiin] + dose-measure[chedain] [Cognate Polyptoton: chos->chody(*cho*), chy->chor(*ch*)].",
+          "cognate_polyptoton": [
+            "chos->chody(*cho*)",
+            "chy->chor(*ch*)",
+            "chody->chos(*cho*)"
+          ]
+        },
+        {
+          "line_id": "28",
+          "locus": "+P0",
+          "signature": "-+N+Q",
+          "eva": "o r ain ar ain ol daiin qoaiin ol chkaiin daiin okar dair ydair",
+          "interlinear_gloss": "spec(*o*:o) . spec(*r*:r) . dose-measure[ain] . dose-measure[ar] . dose-measure[ain] . dose-measure[ol] . this-portion[daiin] . dose-measure[qoaiin] . dose-measure[ol] . dose-measure[chkaiin] . this-portion[daiin] . spec(*ar*:okar) . whole-herb(*ir*:dair) . whole-herb(*dai*:ydair)",
+          "english_translation": "[Apothecary Compounding] Identify/Select upon spec(*o*:o) + spec(*r*:r) + this-portion[daiin] measured at dose-measure[ain] + dose-measure[ar] [Cognate Polyptoton: dair->ydair(*dair*)].",
+          "cognate_polyptoton": [
+            "dair->ydair(*dair*)"
+          ]
+        }
+      ]
+    },
+    {
+      "folio": "f102v2",
+      "description": "Inscribed-Vessel Pharmaceutical Formulary (oror/okody/sarol, Quire S $B=1)",
+      "section": "P",
+      "lang": "A",
+      "hand": "1",
+      "n_lines": 39,
+      "n_tokens": 190,
+      "dict842_coverage_pct": 94.74,
+      "grounded150_and_closed_coverage_pct": 90.0,
+      "cognate_polyptoton_clauses": 6,
+      "sample_translated_clauses": [
+        {
+          "line_id": "17",
+          "locus": "@P0",
+          "signature": "V+N+-",
+          "eva": "podeesho oteeos sheor qotkeeo ch ckhhy shkeey chekeod",
+          "interlinear_gloss": "spec(*podeesho*:podeesho) . canopy/flower-herb(*eeo*:oteeos) . rhizome-root(@Lf)(*eo*:sheor) . boil-extract(*keeo*:qotkeeo) . spec(*ch*:ch) . spec(*ckhh*:ckhhy) . steep-vapor(*ke*:shkeey) . spec(*ekeod*:chekeod)",
+          "english_translation": "[Apothecary Compounding] Execute boil-extract(*keeo*:qotkeeo) & steep-vapor(*ke*:shkeey) upon spec(*podeesho*:podeesho) + canopy/flower-herb(*eeo*:oteeos) + rhizome-root(@Lf)(*eo*:sheor).",
+          "cognate_polyptoton": []
+        },
+        {
+          "line_id": "18",
+          "locus": "+P0",
+          "signature": "V+N+-",
+          "eva": "ocheos chyokeor okeol okeol shy y",
+          "interlinear_gloss": "whole-herb(*cheo*:ocheos) . spec(*yoke*:chyokeor) . rhizome-root(@Lf)(*eo*:okeol) . rhizome-root(@Lf)(*eo*:okeol) . steep-vapor(*hy*:shy) . spec(*y*:y)",
+          "english_translation": "[Apothecary Compounding] Execute steep-vapor(*hy*:shy) upon whole-herb(*cheo*:ocheos) + spec(*yoke*:chyokeor) + rhizome-root(@Lf)(*eo*:okeol).",
+          "cognate_polyptoton": []
+        },
+        {
+          "line_id": "39",
+          "locus": "+P0",
+          "signature": "V+N+Q",
+          "eva": "yotaiin cheor cheekey orain",
+          "interlinear_gloss": "dose-measure[yotaiin] . rhizome-root(@Lf)(*eo*:cheor) . mix-simmer(*eek*:cheekey) . dose-measure[orain]",
+          "english_translation": "[Apothecary Compounding] Execute mix-simmer(*eek*:cheekey) upon rhizome-root(@Lf)(*eo*:cheor) measured at dose-measure[yotaiin] + dose-measure[orain].",
+          "cognate_polyptoton": []
+        }
+      ]
+    },
+    {
+      "folio": "f108v",
+      "description": "Quire 20 $B=6 Centerfold Long Polypharmacy Decoction Hub (Quire T $B=6)",
+      "section": "S",
+      "lang": "B",
+      "hand": "3",
+      "n_lines": 53,
+      "n_tokens": 581,
+      "dict842_coverage_pct": 97.59,
+      "grounded150_and_closed_coverage_pct": 94.15,
+      "cognate_polyptoton_clauses": 43,
+      "sample_translated_clauses": [
+        {
+          "line_id": "1",
+          "locus": "@P0",
+          "signature": "V+N+Q",
+          "eva": "pchedal qokeedar otedy qokeedy lky ltal aiin oteo fcheey otedar am ol",
+          "interlinear_gloss": "lower-rootstock(*pched*:pchedal) . boil-extract(*eed*:qokeedar) . whole-herb(*ed*:otedy) . boil-extract(*ee*:qokeedy) . bathe/infuse-in-vessel(*ky*:lky) . bathe/infuse-in-vessel(*ta*:ltal) . dose-measure[aiin] . rhizome-root(@Lf)(*eo*:oteo) . whole-herb(*fche*:fcheey) . whole-herb(*ed*:otedar) . spec(*am*:am) . dose-measure[ol]",
+          "english_translation": "[Starred Decoction Recipe] Execute boil-extract(*eed*:qokeedar) & boil-extract(*ee*:qokeedy) upon lower-rootstock(*pched*:pchedal) + whole-herb(*ed*:otedy) + rhizome-root(@Lf)(*eo*:oteo) measured at dose-measure[aiin] + dose-measure[ol].",
+          "cognate_polyptoton": []
+        },
+        {
+          "line_id": "2",
+          "locus": "+P0",
+          "signature": "V+N+Q",
+          "eva": "daiin shal qokedy qoeechy okain oteey checkhy lkeedy qokeedar araiin okam",
+          "interlinear_gloss": "this-portion[daiin] . spec(*al*:shal) . boil-extract(*ed*:qokedy) . boil-extract(*eech*:qoeechy) . dose-measure[okain] . whole-herb(*ee*:oteey) . mix-simmer(*eckh*:checkhy) . bathe/infuse-in-vessel(*ke*:lkeedy) . boil-extract(*eed*:qokeedar) . dose-measure[araiin] . seal-product(*am*:okam)",
+          "english_translation": "[Starred Decoction Recipe] Execute boil-extract(*ed*:qokedy) & boil-extract(*eech*:qoeechy) upon this-portion[daiin] + spec(*al*:shal) + whole-herb(*ee*:oteey) measured at dose-measure[okain] + dose-measure[araiin] to finish seal-product(*am*:okam) [Cognate Polyptoton: oteey->lkeedy(*kee*)].",
+          "cognate_polyptoton": [
+            "oteey->lkeedy(*kee*)"
+          ]
+        },
+        {
+          "line_id": "53",
+          "locus": "+Pr",
+          "signature": "V+N+Q",
+          "eva": "olchar ol chedy lshy otedy",
+          "interlinear_gloss": "bathe/infuse-in-vessel(*ch*:olchar) . dose-measure[ol] . mix-simmer(*ed*:chedy) . bathe/infuse-in-vessel(*sh*:lshy) . whole-herb(*ed*:otedy)",
+          "english_translation": "[Starred Decoction Recipe] Execute bathe/infuse-in-vessel(*ch*:olchar) & mix-simmer(*ed*:chedy) upon whole-herb(*ed*:otedy) measured at dose-measure[ol].",
+          "cognate_polyptoton": []
+        }
+      ]
+    }
+  ]
+}
