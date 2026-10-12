@@ -1,0 +1,627 @@
+{
+  "attack": 160,
+  "phase": 171,
+  "discovery": 177,
+  "wave": 37,
+  "title": "Quire 20 Starred Master Recipes (f103r-f116r), Quire 14 Rosettes & Cosmological Wheels (f85r1-f86v6/fRos), and Four-Transcriber Paleographic Consensus Proof",
+  "highlights": {
+    "starred_recipes_count": 285,
+    "starred_frame_z": 18.93,
+    "quire14_polarity_z": 12.45,
+    "fros_starred_recipe_match_rate": 0.6399,
+    "shared_aligned_loci": 5132,
+    "four_way_canonical_consensus_rate": 0.8875,
+    "core_cribs_in_all_4_editions": 21
+  },
+  "attack157": {
+    "attack": 157,
+    "phase": 168,
+    "discovery": 174,
+    "title": "Quire 20 Starred Master Recipes (f103r-f116r): 4-Regimen Classifier & 3-Zone Procedural Frame Law",
+    "summary": {
+      "total_starred_recipes": 285,
+      "total_starred_tokens": 10587,
+      "regimen_distribution": {
+        "AQUEOUS_INFUSION": 183,
+        "BALNEO_WASH": 64,
+        "THERMAL_DECOCTION": 29,
+        "COMPOUND_ESSENCE_SALVE": 9
+      },
+      "observed_frame_score": 0.2345,
+      "null_frame_mean": 0.1121,
+      "frame_z_score": 18.93
+    },
+    "three_zone_trajectory": {
+      "OPENING_20PCT": {
+        "tokens": 1996,
+        "gallows_initial_rate": 0.1954,
+        "qo_active_rate": 0.1839,
+        "aiin_dose_rate": 0.1558,
+        "am_terminal_rate": 0.01
+      },
+      "MIDDLE_60PCT": {
+        "tokens": 6595,
+        "gallows_initial_rate": 0.0628,
+        "qo_active_rate": 0.1795,
+        "aiin_dose_rate": 0.2041,
+        "am_terminal_rate": 0.0315
+      },
+      "CLOSING_20PCT": {
+        "tokens": 1996,
+        "gallows_initial_rate": 0.0406,
+        "qo_active_rate": 0.1423,
+        "aiin_dose_rate": 0.2164,
+        "am_terminal_rate": 0.0391
+      }
+    },
+    "showcase_recipes": [
+      {
+        "recipe_id": "f103r.P1",
+        "folio": "f103r",
+        "word_count": 50,
+        "regimen_class": "AQUEOUS_INFUSION",
+        "opening_word": "pchedal",
+        "closing_word": "chedaraly",
+        "boil_step_count": 2,
+        "measured_dose_count": 5,
+        "opening_clause_eva": "pchedal shdy ytechypchy otey lshey qoteey qotal shedy",
+        "closing_clause_eva": "qokeey okey chdar ol loty chedaraly"
+      },
+      {
+        "recipe_id": "f103r.P2",
+        "folio": "f103r",
+        "word_count": 35,
+        "regimen_class": "BALNEO_WASH",
+        "opening_word": "pocharal",
+        "closing_word": "shedy",
+        "boil_step_count": 2,
+        "measured_dose_count": 2,
+        "opening_clause_eva": "pocharal okedar shedy oteey qokey lkar sheeky okalor",
+        "closing_clause_eva": "olshedy qokeey okeeody qoedy ol shedy"
+      },
+      {
+        "recipe_id": "f103r.P4",
+        "folio": "f103r",
+        "word_count": 29,
+        "regimen_class": "BALNEO_WASH",
+        "opening_word": "podar",
+        "closing_word": "shkaiin",
+        "boil_step_count": 0,
+        "measured_dose_count": 6,
+        "opening_clause_eva": "podar sheor qotedy okeey qokar checkhy qokain chedy",
+        "closing_clause_eva": "qoky qotedy qokeey shol qotey shkaiin"
+      },
+      {
+        "recipe_id": "f103r.P5",
+        "folio": "f103r",
+        "word_count": 21,
+        "regimen_class": "BALNEO_WASH",
+        "opening_word": "dshol",
+        "closing_word": "aiin",
+        "boil_step_count": 1,
+        "measured_dose_count": 2,
+        "opening_clause_eva": "dshol sholkar shdaiin cheey rar okeey shcfhedy opcheol",
+        "closing_clause_eva": "qokeey chckhy qokal oty or aiin"
+      },
+      {
+        "recipe_id": "f103r.P6",
+        "folio": "f103r",
+        "word_count": 28,
+        "regimen_class": "BALNEO_WASH",
+        "opening_word": "polchedy",
+        "closing_word": "olor",
+        "boil_step_count": 0,
+        "measured_dose_count": 9,
+        "opening_clause_eva": "polchedy qokeol okain checthy oteeylshedy okain qokain qokalshedy",
+        "closing_clause_eva": "shckhy qokaiin shey qokaiin shedy olor"
+      },
+      {
+        "recipe_id": "f103r.P7",
+        "folio": "f103r",
+        "word_count": 29,
+        "regimen_class": "BALNEO_WASH",
+        "opening_word": "pcheam",
+        "closing_word": "shol",
+        "boil_step_count": 4,
+        "measured_dose_count": 2,
+        "opening_clause_eva": "pcheam sokedy dalkar otal qokal chepy okedy qoky",
+        "closing_clause_eva": "opchy daiin sheckhy lchedy chckhy shol"
+      },
+      {
+        "recipe_id": "f103r.P8",
+        "folio": "f103r",
+        "word_count": 31,
+        "regimen_class": "BALNEO_WASH",
+        "opening_word": "tchoky",
+        "closing_word": "lotor",
+        "boil_step_count": 0,
+        "measured_dose_count": 6,
+        "opening_clause_eva": "tchoky okeal shedy qokal oty opchedy qotain shcthy",
+        "closing_clause_eva": "okeey qotchy shey olcheedar shey lotor"
+      },
+      {
+        "recipe_id": "f103r.P9",
+        "folio": "f103r",
+        "word_count": 28,
+        "regimen_class": "BALNEO_WASH",
+        "opening_word": "qokechy",
+        "closing_word": "chedy",
+        "boil_step_count": 1,
+        "measured_dose_count": 4,
+        "opening_clause_eva": "qokechy okeey qokeey lkeeody sheey qokeey lkeol tchey",
+        "closing_clause_eva": "qokeeechy shokeey qochey qokeey chal chedy"
+      },
+      {
+        "recipe_id": "f103r.P10",
+        "folio": "f103r",
+        "word_count": 28,
+        "regimen_class": "BALNEO_WASH",
+        "opening_word": "pcholkchdy",
+        "closing_word": "oraiin",
+        "boil_step_count": 1,
+        "measured_dose_count": 5,
+        "opening_clause_eva": "pcholkchdy sheckhy qokey okaiin shedy chpchy opchedy oteeykshy",
+        "closing_clause_eva": "qokedy qokal shety otedy shcthy oraiin"
+      },
+      {
+        "recipe_id": "f103r.P13",
+        "folio": "f103r",
+        "word_count": 24,
+        "regimen_class": "BALNEO_WASH",
+        "opening_word": "pchedy",
+        "closing_word": "oteey",
+        "boil_step_count": 3,
+        "measured_dose_count": 2,
+        "opening_clause_eva": "pchedy qokeey qokeodair qokshy qokeedy qokchdy chsky eeey",
+        "closing_clause_eva": "ykeedy qokeey lsheey qotal shedy oteey"
+      },
+      {
+        "recipe_id": "f103r.P14",
+        "folio": "f103r",
+        "word_count": 26,
+        "regimen_class": "BALNEO_WASH",
+        "opening_word": "qokeey",
+        "closing_word": "chalal",
+        "boil_step_count": 1,
+        "measured_dose_count": 1,
+        "opening_clause_eva": "qokeey sheeol shckhy sheol shodyol aiin otedy qoteey",
+        "closing_clause_eva": "qokal dal tshey sheol cheolshy chalal"
+      },
+      {
+        "recipe_id": "f103r.P16",
+        "folio": "f103r",
+        "word_count": 26,
+        "regimen_class": "AQUEOUS_INFUSION",
+        "opening_word": "qokeedy",
+        "closing_word": "oloraiin",
+        "boil_step_count": 2,
+        "measured_dose_count": 1,
+        "opening_clause_eva": "qokeedy qokeedy shol shedar chedy qoteedy oteedy olkeol",
+        "closing_clause_eva": "ssheey okeeo lchey qokaly lcheedy oloraiin"
+      }
+    ]
+  },
+  "attack158": {
+    "attack": 158,
+    "phase": 169,
+    "discovery": 175,
+    "title": "Quire 14 Cosmological Wheels (f85r2, f86v4) & 9-Sphere Rosettes Map (fRos) Routing Architecture",
+    "summary": {
+      "total_quire14_tokens": 2336,
+      "diagram_tokens": 817,
+      "prose_treatise_tokens": 1519,
+      "diagram_o_rate": 0.5214,
+      "prose_o_rate": 0.262,
+      "diagram_qo_rate": 0.0539,
+      "prose_qo_rate": 0.1415,
+      "polarity_z_score": 12.45
+    },
+    "diagram_profile": {
+      "tokens": 817,
+      "o_prefix_rate": 0.5214,
+      "qo_prefix_rate": 0.0539,
+      "edy_dy_rate": 0.2044,
+      "ol_or_al_ar_rate": 0.3341,
+      "top_words": [
+        "or",
+        "ol",
+        "ar",
+        "otedy",
+        "aiin",
+        "otody",
+        "daiin",
+        "okal"
+      ]
+    },
+    "prose_treatise_profile": {
+      "tokens": 1519,
+      "o_prefix_rate": 0.262,
+      "qo_prefix_rate": 0.1415,
+      "edy_dy_rate": 0.1962,
+      "ol_or_al_ar_rate": 0.3114,
+      "top_words": [
+        "aiin",
+        "or",
+        "ar",
+        "ol",
+        "dar",
+        "daiin",
+        "qokar",
+        "qokaiin"
+      ]
+    },
+    "fros_domain_routing": {
+      "Herbal": {
+        "token_coverage_rate": 0.6321,
+        "shared_types": 170
+      },
+      "Pharmaceutical": {
+        "token_coverage_rate": 0.3699,
+        "shared_types": 85
+      },
+      "Balneological": {
+        "token_coverage_rate": 0.5166,
+        "shared_types": 121
+      },
+      "Starred_Recipes": {
+        "token_coverage_rate": 0.6399,
+        "shared_types": 176
+      },
+      "Zodiac": {
+        "token_coverage_rate": 0.407,
+        "shared_types": 82
+      },
+      "Astronomical": {
+        "token_coverage_rate": 0.3483,
+        "shared_types": 67
+      }
+    },
+    "folio_profiles": {
+      "f85r1": {
+        "tokens": 339,
+        "o_prefix_rate": 0.292,
+        "qo_prefix_rate": 0.1268,
+        "edy_dy_rate": 0.3097,
+        "ol_or_al_ar_rate": 0.2979,
+        "top_words": [
+          "aiin",
+          "ol",
+          "or",
+          "otedy",
+          "dar",
+          "shey",
+          "ar",
+          "daiin"
+        ]
+      },
+      "f85r2": {
+        "tokens": 156,
+        "o_prefix_rate": 0.391,
+        "qo_prefix_rate": 0.141,
+        "edy_dy_rate": 0.2179,
+        "ol_or_al_ar_rate": 0.2821,
+        "top_words": [
+          "or",
+          "aiin",
+          "ar",
+          "ol",
+          "shedy",
+          "otchedy",
+          "daiin",
+          "otedy"
+        ]
+      },
+      "f86v4": {
+        "tokens": 187,
+        "o_prefix_rate": 0.3476,
+        "qo_prefix_rate": 0.0802,
+        "edy_dy_rate": 0.2139,
+        "ol_or_al_ar_rate": 0.3155,
+        "top_words": [
+          "ol",
+          "otedy",
+          "daiin",
+          "or",
+          "dar",
+          "chedy",
+          "os",
+          "sheey"
+        ]
+      },
+      "f86v3": {
+        "tokens": 279,
+        "o_prefix_rate": 0.1864,
+        "qo_prefix_rate": 0.1541,
+        "edy_dy_rate": 0.2401,
+        "ol_or_al_ar_rate": 0.1828,
+        "top_words": [
+          "aiin",
+          "or",
+          "am",
+          "ytaiin",
+          "ar",
+          "ykaiin",
+          "yteey",
+          "chdy"
+        ]
+      },
+      "f86v5": {
+        "tokens": 383,
+        "o_prefix_rate": 0.2663,
+        "qo_prefix_rate": 0.0966,
+        "edy_dy_rate": 0.1332,
+        "ol_or_al_ar_rate": 0.3238,
+        "top_words": [
+          "aiin",
+          "ar",
+          "or",
+          "ol",
+          "otal",
+          "qokar",
+          "otam",
+          "otaiin"
+        ]
+      },
+      "f86v6": {
+        "tokens": 481,
+        "o_prefix_rate": 0.264,
+        "qo_prefix_rate": 0.183,
+        "edy_dy_rate": 0.1414,
+        "ol_or_al_ar_rate": 0.3867,
+        "top_words": [
+          "or",
+          "qokaiin",
+          "ar",
+          "ol",
+          "qokar",
+          "dar",
+          "aiin",
+          "chedy"
+        ]
+      },
+      "fRos": {
+        "tokens": 511,
+        "o_prefix_rate": 0.6223,
+        "qo_prefix_rate": 0.0215,
+        "edy_dy_rate": 0.1957,
+        "ol_or_al_ar_rate": 0.3542,
+        "top_words": [
+          "ol",
+          "or",
+          "ar",
+          "otedy",
+          "okal",
+          "otody",
+          "aiin",
+          "otar"
+        ]
+      }
+    }
+  },
+  "attack159": {
+    "attack": 159,
+    "phase": 170,
+    "discovery": 176,
+    "title": "Four-Transcriber Paleographic Consensus Audit (ZL3b-n, RF1b-er, IT2a-n, GC2a-n)",
+    "summary": {
+      "shared_aligned_loci": 5132,
+      "total_aligned_tokens": 36103,
+      "line_word_count_exact_3eva_rate": 0.7364,
+      "exact_3eva_word_identity_rate": 0.7158,
+      "canonical_4way_consensus_rate": 0.8875,
+      "core_cribs_tested": 26,
+      "core_cribs_attested_in_all_3_eva": 24,
+      "core_cribs_attested_in_all_4_editions": 21
+    },
+    "crib_verification_table": [
+      {
+        "word": "fachys",
+        "ZL3b_hits": 1,
+        "RF1b_hits": 1,
+        "IT2a_hits": 1,
+        "GC2a_v101_mapped_hits": 1,
+        "transcribers_attesting": 4
+      },
+      {
+        "word": "poldchody",
+        "ZL3b_hits": 1,
+        "RF1b_hits": 1,
+        "IT2a_hits": 1,
+        "GC2a_v101_mapped_hits": 1,
+        "transcribers_attesting": 4
+      },
+      {
+        "word": "oror",
+        "ZL3b_hits": 8,
+        "RF1b_hits": 3,
+        "IT2a_hits": 5,
+        "GC2a_v101_mapped_hits": 2,
+        "transcribers_attesting": 4
+      },
+      {
+        "word": "doaro",
+        "ZL3b_hits": 1,
+        "RF1b_hits": 0,
+        "IT2a_hits": 1,
+        "GC2a_v101_mapped_hits": 0,
+        "transcribers_attesting": 2
+      },
+      {
+        "word": "darary",
+        "ZL3b_hits": 1,
+        "RF1b_hits": 0,
+        "IT2a_hits": 0,
+        "GC2a_v101_mapped_hits": 0,
+        "transcribers_attesting": 1
+      },
+      {
+        "word": "olkol",
+        "ZL3b_hits": 3,
+        "RF1b_hits": 4,
+        "IT2a_hits": 5,
+        "GC2a_v101_mapped_hits": 4,
+        "transcribers_attesting": 4
+      },
+      {
+        "word": "okoldy",
+        "ZL3b_hits": 8,
+        "RF1b_hits": 8,
+        "IT2a_hits": 8,
+        "GC2a_v101_mapped_hits": 7,
+        "transcribers_attesting": 4
+      },
+      {
+        "word": "qokeedy",
+        "ZL3b_hits": 307,
+        "RF1b_hits": 305,
+        "IT2a_hits": 305,
+        "GC2a_v101_mapped_hits": 284,
+        "transcribers_attesting": 4
+      },
+      {
+        "word": "qokedy",
+        "ZL3b_hits": 277,
+        "RF1b_hits": 270,
+        "IT2a_hits": 272,
+        "GC2a_v101_mapped_hits": 252,
+        "transcribers_attesting": 4
+      },
+      {
+        "word": "shedy",
+        "ZL3b_hits": 435,
+        "RF1b_hits": 430,
+        "IT2a_hits": 427,
+        "GC2a_v101_mapped_hits": 426,
+        "transcribers_attesting": 4
+      },
+      {
+        "word": "chedy",
+        "ZL3b_hits": 508,
+        "RF1b_hits": 517,
+        "IT2a_hits": 501,
+        "GC2a_v101_mapped_hits": 540,
+        "transcribers_attesting": 4
+      },
+      {
+        "word": "daiin",
+        "ZL3b_hits": 850,
+        "RF1b_hits": 835,
+        "IT2a_hits": 864,
+        "GC2a_v101_mapped_hits": 869,
+        "transcribers_attesting": 4
+      },
+      {
+        "word": "chol",
+        "ZL3b_hits": 398,
+        "RF1b_hits": 364,
+        "IT2a_hits": 397,
+        "GC2a_v101_mapped_hits": 400,
+        "transcribers_attesting": 4
+      },
+      {
+        "word": "shol",
+        "ZL3b_hits": 186,
+        "RF1b_hits": 183,
+        "IT2a_hits": 187,
+        "GC2a_v101_mapped_hits": 166,
+        "transcribers_attesting": 4
+      },
+      {
+        "word": "otar",
+        "ZL3b_hits": 154,
+        "RF1b_hits": 157,
+        "IT2a_hits": 141,
+        "GC2a_v101_mapped_hits": 159,
+        "transcribers_attesting": 4
+      },
+      {
+        "word": "okar",
+        "ZL3b_hits": 140,
+        "RF1b_hits": 139,
+        "IT2a_hits": 129,
+        "GC2a_v101_mapped_hits": 136,
+        "transcribers_attesting": 4
+      },
+      {
+        "word": "okal",
+        "ZL3b_hits": 156,
+        "RF1b_hits": 152,
+        "IT2a_hits": 138,
+        "GC2a_v101_mapped_hits": 160,
+        "transcribers_attesting": 4
+      },
+      {
+        "word": "otol",
+        "ZL3b_hits": 82,
+        "RF1b_hits": 82,
+        "IT2a_hits": 86,
+        "GC2a_v101_mapped_hits": 85,
+        "transcribers_attesting": 4
+      },
+      {
+        "word": "okol",
+        "ZL3b_hits": 78,
+        "RF1b_hits": 72,
+        "IT2a_hits": 83,
+        "GC2a_v101_mapped_hits": 73,
+        "transcribers_attesting": 4
+      },
+      {
+        "word": "otam",
+        "ZL3b_hits": 48,
+        "RF1b_hits": 44,
+        "IT2a_hits": 47,
+        "GC2a_v101_mapped_hits": 0,
+        "transcribers_attesting": 3
+      },
+      {
+        "word": "okam",
+        "ZL3b_hits": 33,
+        "RF1b_hits": 24,
+        "IT2a_hits": 26,
+        "GC2a_v101_mapped_hits": 0,
+        "transcribers_attesting": 3
+      },
+      {
+        "word": "daram",
+        "ZL3b_hits": 9,
+        "RF1b_hits": 8,
+        "IT2a_hits": 7,
+        "GC2a_v101_mapped_hits": 0,
+        "transcribers_attesting": 3
+      },
+      {
+        "word": "opchor",
+        "ZL3b_hits": 5,
+        "RF1b_hits": 5,
+        "IT2a_hits": 6,
+        "GC2a_v101_mapped_hits": 2,
+        "transcribers_attesting": 4
+      },
+      {
+        "word": "pchor",
+        "ZL3b_hits": 12,
+        "RF1b_hits": 10,
+        "IT2a_hits": 12,
+        "GC2a_v101_mapped_hits": 9,
+        "transcribers_attesting": 4
+      },
+      {
+        "word": "otaly",
+        "ZL3b_hits": 21,
+        "RF1b_hits": 22,
+        "IT2a_hits": 19,
+        "GC2a_v101_mapped_hits": 23,
+        "transcribers_attesting": 4
+      },
+      {
+        "word": "okaly",
+        "ZL3b_hits": 23,
+        "RF1b_hits": 24,
+        "IT2a_hits": 24,
+        "GC2a_v101_mapped_hits": 21,
+        "transcribers_attesting": 4
+      }
+    ]
+  }
+}

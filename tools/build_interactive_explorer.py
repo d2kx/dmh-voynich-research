@@ -5,11 +5,12 @@ tools/build_interactive_explorer.py
 Builds `explorer/index.html` — a self-contained, zero-server interactive local HTML
 explorer for the Voynich Manuscript research repository.
 
-Includes 4 synchronized interactive views:
-  1. Page-by-Page Visual Reader (16 iconic folios with high-res scans & clickable clauses)
-  2. Botanical, Astrological & Balneological Identifications (15 flagship specimens `SPEC-01..15`)
+Includes 5 synchronized interactive views:
+  1. Page-by-Page Visual Reader (21 iconic folios with high-res scans & clickable clauses)
+  2. Botanical, Astrological, Balneological & Cosmological Identifications (20 flagship specimens `SPEC-01..20`)
   3. Core Root Dictionary & 8-Case Inflectional Grammar Matrix
   4. Zodiac Month Calendar (`mars..decembre`) & 20-Page Bathing Plumbing Tracker (`Wave 36`)
+  5. Starred Recipes (`f103r–f116r`), 9-Rosettes Map (`fRos`) & 4-Transcriber Consensus Proof (`Wave 37`)
 """
 
 import json
@@ -170,6 +171,22 @@ WALKTHROUGH_FOLIOS = [
         ]
     },
     {
+        "folio": "f34r",
+        "title": "Divided-Root / Twin-Flower Herb (`fchody`Currier B Herbal)",
+        "section": "Herbal B (Scribe 2)",
+        "pdf_page": 69,
+        "image": "../pages/f34r_full_enh.png",
+        "secondary_image": "",
+        "summary": "A landmark Currier B Herbal page (`$L=B`, Scribe 2): shows two distinct floral crowns (golden-ochre vs. indigo-blue) and a split root system, blending Herbal nouns (`chol`, `dar`) with active `qo-` boiling verbs (`qokeedy`, `shedy`).",
+        "clauses": [
+            {
+                "locus": "f34r.1",
+                "eva": "fchody dain shol qokeedy shedy dar chol",
+                "english": "Begin the divided-plant infusion (`fchody`): take one measure (`dain`) of the washed liquid (`shol`), boil thoroughly (`qokeedy`), wash/bathe (`shedy`), and take the root (`dar`) in the strained decoction (`chol`)."
+            }
+        ]
+    },
+    {
         "folio": "f49v",
         "title": "Vertical 25-Letter Marginal Acrostic & Spiny Root Monograph",
         "section": "Herbal A (Scribe 1)",
@@ -202,6 +219,22 @@ WALKTHROUGH_FOLIOS = [
         ]
     },
     {
+        "folio": "f66r",
+        "title": "Bilingual Corner Tub (`den mus` / `del`) & 3-Column Margin Key",
+        "section": "Astronomical / Biological Index (Scribe 4/2)",
+        "pdf_page": 120,
+        "image": "../pages/f66r_margin_labels.png",
+        "secondary_image": "../pages/f66r_corner_crib_enh.png",
+        "summary": "Bottom-left corner shows a reclining bather beside two round pouches (`den mus` = 'the mush/poultice') and a tub (`del`), while a 3-column margin table pairs outer words (`rary, rals, salf`) with single index letters (`y, s, f`).",
+        "clauses": [
+            {
+                "locus": "f66r (3-Column Margin Key + Corner Crib)",
+                "eva": "rary rals saly salf fary qotesy qokal",
+                "english": "[Margin Index Key (`y, s, y, f, f, s, l`)]: Root-part (`rary`), star-liquid (`rals`), seed-essence (`saly`), terminal f-grade (`salf`), flower-root (`fary`), boiled extract (`qotesy`), and boiled core (`qokal`) [for the poultice `den mus`]."
+            }
+        ]
+    },
+    {
         "folio": "f68r3",
         "title": "Four-Quadrant Moon Astrolabe & The Pleiades (`doaro`) Crib",
         "section": "Astronomical (`f67r–f73v`)",
@@ -228,8 +261,8 @@ WALKTHROUGH_FOLIOS = [
         "clauses": [
             {
                 "locus": "f70v2 (Center Gloss + Star-Nymph Degree Labels)",
-                "eva": "otaly okaly otaram otaral okal ar al",
-                "english": "[Month of March (`mars` — Pisces)]: Prepare the liquid essence (`otaly`), core star-essence (`okaly`), completed root balm (`otaram`), and root-star extract (`otaral`)."
+                "eva": "otaly okaly otaram otaral otalar okalar",
+                "english": "[Month of March (`mars` — Pisces)]: Prepare the liquid essence (`otaly`), core star-essence (`okaly`), completed root balm (`otaram`), root-star extract (`otaral`), and degree essence (`otalar`, `okalar`)."
             }
         ]
     },
@@ -287,6 +320,38 @@ WALKTHROUGH_FOLIOS = [
         ]
     },
     {
+        "folio": "f85r2",
+        "title": "Four-Winds / Four-Seasons Solar Cosmology Wheel (`f85r2` & `f86v4`)",
+        "section": "Cosmological Foldout (Quire 14, Scribe 2)",
+        "pdf_page": 158,
+        "image": "../pages/p158_rosettes_full.png",
+        "secondary_image": "../pages/p158_rosettes_top_left.png",
+        "summary": "Reverse panels of the Rosettes foldout: `f85r2` shows a central blazing face ringed by 12 directional figures and 4 cardinal wind-heads (`54.7%` `o-` nominal rate, `0.9%` `qo-` rate).",
+        "clauses": [
+            {
+                "locus": "f85r2 (Cardinal Spoke & Ring Labels)",
+                "eva": "otalar okalar otol daiin okal dar",
+                "english": "From the celestial sector (`otalar`) and primary star-essence (`okalar`), measure one portion (`daiin`) into the liquid vessel (`otol`) from the core source (`okal dar`)."
+            }
+        ]
+    },
+    {
+        "folio": "fRos",
+        "title": "The 9-Sphere Rosettes Foldout Map (`fRos` / `f85v2`)",
+        "section": "Cosmological 6-Panel Foldout (Quire 14, Scribe 2)",
+        "pdf_page": 159,
+        "image": "../pages/p159_rosettes_map.png",
+        "secondary_image": "../pages/p159_rosettes_center_enh.png",
+        "summary": "A 6-panel foldout map of 9 interconnected spheres (`536` tokens) linked by hydrological causeways and pipes. `64.0%` of its words appear verbatim in Starred Recipes (`S`) and `63.2%` in Herbal (`H`)!",
+        "clauses": [
+            {
+                "locus": "fRos (Causeway & Central Sphere Labels)",
+                "eva": "otol daiin qokeedy shedy daraldy otedaiin okalar",
+                "english": "In the central reservoir (`otol`), take one measure (`daiin`), boil (`qokeedy`), wash through the causeway (`shedy`), and draw the root-decoction (`daraldy`) and measured extract (`otedaiin`) of the star-essence (`okalar`)."
+            }
+        ]
+    },
+    {
         "folio": "f89r2",
         "title": "Apothecary Jar With Labeled Cut Roots (`darary` & `okar`)",
         "section": "Pharmaceutical (`f88r–f102v`)",
@@ -299,6 +364,22 @@ WALKTHROUGH_FOLIOS = [
                 "locus": "f89r2 (Root Labels + Recipe Opening)",
                 "eva": "darary okar otar okol chol daiin otam",
                 "english": "Take the main root (`darary`), the root-heart (`okar`), and the root base (`otar`): place in the storage jar (`okol`), steep in one measure of strained liquid (`chol daiin`), and seal the finished compound (`otam`)."
+            }
+        ]
+    },
+    {
+        "folio": "f107r",
+        "title": "Starred Master Recipes & Pisces (`mars`) Triple Sequential Crib",
+        "section": "Starred Master Recipes (`f103r–f116r`, Quire 20)",
+        "pdf_page": 191,
+        "image": "../pages/f107r_starred_recipes_enh.png",
+        "secondary_image": "../pages/f106r_stars_margin.png",
+        "summary": "Shows how the `285` Starred Master Recipes (`10,587` words) work: paragraphs `3–4` (`f107r.11..16`) ingest 3 clockwise-adjacent Pisces (`mars`) star-nymph labels (`otaram -> otaral -> otalar`, `p = 6.7e-6`) in exact `1 -> 2 -> 3` order!",
+        "clauses": [
+            {
+                "locus": "f107r.11–16 (Pisces `mars` Sequential Crib)",
+                "eva": "pchody qokeedy otaram shedy otaral daiin otalar otaiinam",
+                "english": "Begin the compound infusion (`pchody`): boil thoroughly (`qokeedy`) with the Pisces 10:00 root-balm (`otaram`), wash (`shedy`) with the 11:00 star-extract (`otaral`), take one measure (`daiin`) of the 12:00 degree essence (`otalar`), and seal the final dose (`otaiinam`)."
             }
         ]
     },
@@ -351,6 +432,22 @@ def main():
 
     zodiac_data = json.loads((ROOT / "data" / "attack154_zodiac_months_and_300nymph_calendar.json").read_text(encoding="utf-8"))
     balneo_data = json.loads((ROOT / "data" / "attack155_balneological_plumbing_and_nymph_labels.json").read_text(encoding="utf-8"))
+    recipes_data = json.loads((ROOT / "data" / "attack157_starred_recipes_classifier_and_herbal_router.json").read_text(encoding="utf-8"))
+    rosettes_data = json.loads((ROOT / "data" / "attack158_rosettes_9sphere_and_cosmological_wheels.json").read_text(encoding="utf-8"))
+    consensus_data = json.loads((ROOT / "data" / "attack159_four_transcriber_consensus_verifier.json").read_text(encoding="utf-8"))
+
+    rosettes_panels = []
+    for f_id, prof in rosettes_data["folio_profiles"].items():
+        rosettes_panels.append({
+            "folio": f_id,
+            "panel_type": "DIAGRAM_WHEEL_OR_MAP" if f_id in ("f85r2", "f86v4", "fRos") else "PROSE_TREATISE",
+            "token_count": prof["tokens"],
+            "o_nominal_rate": prof["o_prefix_rate"],
+            "qo_active_rate": prof["qo_prefix_rate"],
+            "edy_dy_rate": prof["edy_dy_rate"],
+            "ol_or_al_ar_rate": prof["ol_or_al_ar_rate"],
+            "top_words": prof["top_words"],
+        })
 
     embedded_json = json.dumps({
         "folios": WALKTHROUGH_FOLIOS,
@@ -359,6 +456,9 @@ def main():
         "paradigms": paradigm_matrix,
         "zodiac": zodiac_data["medallions"],
         "balneo": balneo_data["folios"],
+        "recipes_showcase": recipes_data["showcase_recipes"],
+        "rosettes_panels": rosettes_panels,
+        "consensus_cribs": consensus_data["crib_verification_table"],
     }, ensure_ascii=False)
 
     html = f"""<!DOCTYPE html>
@@ -411,7 +511,7 @@ def main():
     }}
 
     .header-top {{
-      max-width: 1400px;
+      max-width: 1440px;
       margin: 0 auto;
       display: flex;
       flex-wrap: wrap;
@@ -422,30 +522,30 @@ def main():
 
     .brand h1 {{
       margin: 0;
-      font-size: 1.35rem;
+      font-size: 1.32rem;
       letter-spacing: -0.01em;
     }}
 
     .brand p {{
       margin: 0.2rem 0 0;
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       color: var(--muted);
     }}
 
     .nav-tabs {{
       display: flex;
       flex-wrap: wrap;
-      gap: 0.5rem;
+      gap: 0.45rem;
     }}
 
     .tab-btn {{
       background: var(--surface-alt);
       color: var(--text);
       border: 1px solid var(--border);
-      padding: 0.55rem 1rem;
+      padding: 0.52rem 0.9rem;
       border-radius: 999px;
       font-weight: 600;
-      font-size: 0.86rem;
+      font-size: 0.83rem;
       cursor: pointer;
       transition: all 0.15s ease;
     }}
@@ -461,7 +561,7 @@ def main():
     }}
 
     main {{
-      max-width: 1400px;
+      max-width: 1440px;
       margin: 1.5rem auto 4rem;
       padding: 0 1.5rem;
     }}
@@ -732,10 +832,10 @@ def main():
     }}
 
     th, td {{
-      padding: 0.75rem 0.9rem;
+      padding: 0.72rem 0.85rem;
       border-bottom: 1px solid var(--border);
       text-align: left;
-      font-size: 0.9rem;
+      font-size: 0.89rem;
     }}
 
     th {{
@@ -761,10 +861,11 @@ def main():
       <p>Click any word token on any page to peel apart its Prefix + Root Stem + Suffix in plain English</p>
     </div>
     <nav class="nav-tabs" aria-label="Explorer Views">
-      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (16)</button>
-      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Botanical, Star &amp; Bath Cribs (15)</button>
+      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (21)</button>
+      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (20)</button>
       <button class="tab-btn" onclick="switchTab('lexicon', this)">3. Core Dictionary &amp; 8-Case Grammar</button>
       <button class="tab-btn" onclick="switchTab('zodiac', this)">4. Zodiac Months &amp; Bath Plumbing</button>
+      <button class="tab-btn" onclick="switchTab('recipes', this)">5. Starred Recipes, Rosettes &amp; 4-Transcriber Proof</button>
     </nav>
   </div>
 </header>
@@ -777,7 +878,7 @@ def main():
       Type any Voynich word (or click any word chip below) to see its Prefix, Root Stem, Suffix, and plain-English reading:
     </span>
     <div class="decoder-row">
-      <input id="wordInput" class="decoder-input" type="text" value="qokeedy" placeholder="Type EVA word, e.g. qokeedy, okar, darary, oror, doaro, olkol, daiin..." oninput="analyzeWord(this.value)" />
+      <input id="wordInput" class="decoder-input" type="text" value="qokeedy" placeholder="Type EVA word, e.g. qokeedy, okar, darary, oror, doaro, olkol, otaram, daiin..." oninput="analyzeWord(this.value)" />
       <div class="sample-chips">
         Try:
         <span class="word-chip" onclick="setWord('qokeedy')">qokeedy</span>
@@ -788,7 +889,8 @@ def main():
         <span class="word-chip" onclick="setWord('darary')">darary</span>
         <span class="word-chip" onclick="setWord('oror')">oror</span>
         <span class="word-chip" onclick="setWord('doaro')">doaro</span>
-        <span class="word-chip" onclick="setWord('otaly')">otaly</span>
+        <span class="word-chip" onclick="setWord('otaram')">otaram</span>
+        <span class="word-chip" onclick="setWord('otaral')">otaral</span>
         <span class="word-chip" onclick="setWord('poldchody')">poldchody</span>
         <span class="word-chip" onclick="setWord('daiin')">daiin</span>
         <span class="word-chip" onclick="setWord('otam')">otam</span>
@@ -808,9 +910,9 @@ def main():
   <!-- TAB 2: BOTANICAL & ASTRO SPECIMENS -->
   <section id="tab-specimens" class="tab-panel">
     <div style="margin-bottom: 1rem;">
-      <h2 style="margin: 0 0 0.25rem;">15 Flagship Botanical, Astronomical, Balneological &amp; Apothecary Identifications</h2>
+      <h2 style="margin: 0 0 0.25rem;">20 Flagship Botanical, Astronomical, Balneological, Cosmological &amp; Recipe Identifications</h2>
       <p style="margin: 0; color: var(--muted);">
-        Matching the manuscript's high-resolution drawings to concrete 15th-century European herbal species, star clusters, bilingual month wheels, and labelled hydrotherapy pipes.
+        Matching the manuscript's high-resolution drawings to concrete 15th-century European herbal species, star clusters, bilingual month wheels, labelled hydrotherapy pipes, cosmological spheres, and starred master prescriptions.
       </p>
     </div>
     <div class="cards-grid" id="specimensGrid"></div>
@@ -904,6 +1006,72 @@ def main():
       </table>
     </div>
   </section>
+
+  <!-- TAB 5: STARRED RECIPES, ROSETTES MAP & 4-TRANSCRIBER PROOF -->
+  <section id="tab-recipes" class="tab-panel">
+    <h2>1. The 285 Starred Master Recipes (`f103r–f116r`, 10,587 Words) &amp; 3-Zone Procedural Frame (`z = +18.93`)</h2>
+    <p style="color: var(--muted);">
+      Every star-bulleted paragraph (`183` Aqueous Infusions, `64` Balneo Washes, `29` Thermal Decoctions, `9` Compound Essence Salves) follows the <strong>3-Zone Procedural Frame Law</strong>: Gallows openers surge <strong>3.10×</strong> in the Opening 20% (`19.5%` vs. `6.3%` Middle), while Terminal <code>-am/-m</code> stops surge <strong>3.90×</strong> in the Closing 20% (`3.9%` vs. `1.0%` Opening). Below are 12 showcase Starred Recipes with their clickable opening and closing clauses:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="recipesTable">
+        <thead>
+          <tr>
+            <th>Recipe ID</th>
+            <th>Regimen Class</th>
+            <th>Words</th>
+            <th>Boil Steps</th>
+            <th>Measured Doses</th>
+            <th>Opening Clause (Click Any Word to Decode)</th>
+            <th>Closing Clause (Click Any Word to Decode)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>2. Quire 14 Cosmological &amp; 9-Rosettes Foldout Map (`f85r1–f86v6`, `fRos` — Polarity `z = +12.45`)</h2>
+    <p style="color: var(--muted);">
+      On the 3 Diagram Panels (<code>f85r2</code>, <code>f86v4</code>, <code>fRos</code>), <code>o-</code> nominal forms surge <strong>1.99×</strong> (<code>52.1%</code> vs. <code>26.2%</code>), whereas on the 4 Prose Treatise Panels (<code>f85r1</code>, <code>f86v3</code>, <code>f86v5</code>, <code>f86v6</code>), <code>qo-</code> active verbs surge <strong>2.61×</strong> (<code>14.1%</code> vs. <code>5.4%</code>). Furthermore, <strong>64.0%</strong> of <code>fRos</code> words appear verbatim in Starred Recipes!
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="rosettesTable">
+        <thead>
+          <tr>
+            <th>Panel</th>
+            <th>Panel Type</th>
+            <th>Tokens</th>
+            <th><code>o-</code> Nominal Rate</th>
+            <th><code>qo-</code> Active Rate</th>
+            <th><code>-edy/-dy</code> Process Rate</th>
+            <th><code>-ol/-or/-al/-ar</code> Medium Rate</th>
+            <th>Top Tokens (Click to Decode)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>3. Four-Transcriber Consensus Verification (`ZL3b-n`, `RF1b-er`, `IT2a-n`, `GC2a-n` Across 36,103 Words)</h2>
+    <p style="color: var(--muted);">
+      Across <strong>5,132 aligned lines (36,103 words)</strong>, all 4 independent human transcription traditions agree on the canonical word skeleton <strong>88.8%</strong> of the time, and <strong>24 / 26</strong> of our core visual cribs and grammatical words are attested across all three EVA editions:
+    </p>
+    <div style="overflow-x: auto;">
+      <table id="consensusTable">
+        <thead>
+          <tr>
+            <th>Core Crib / Word (Click to Decode)</th>
+            <th>Zandbergen (<code>ZL3b</code> Hits)</th>
+            <th>Rene / Friedman (<code>RF1b</code> Hits)</th>
+            <th>Takahashi (<code>IT2a</code> Hits)</th>
+            <th>Glen Claston (<code>GC2a v101</code> Mapped Hits)</th>
+            <th>Independent Editions Attesting</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
 </main>
 
 <script>
@@ -925,6 +1093,7 @@ const PREFIX_RULES = [
   {{ match: "pc", label: "p- (Gallows Opener)", desc: "Paragraph / Protocol Opener ('Begin...')" }},
   {{ match: "po", label: "po- (Gallows Opener)", desc: "Paragraph Opener ('Begin from the vessel...')" }},
   {{ match: "fs", label: "f- (Gallows Opener)", desc: "Paragraph Opener ('Begin by washing...')" }},
+  {{ match: "fc", label: "f- (Gallows Opener)", desc: "Paragraph Opener ('Begin the divided-plant infusion...')" }},
   {{ match: "yk", label: "y- / yk-", desc: "Conjunction / Relative ('And the core...')" }},
   {{ match: "yd", label: "yd-", desc: "Conjunction + Source ('And from the...')" }},
   {{ match: "o",  label: "o-", desc: "Nominal / Ingredient Article ('The [ingredient]')" }},
@@ -963,6 +1132,9 @@ const STEM_GLOSSES = {{
   "olkol": "The core water-pipe / bath conduit liquid (labeled on f82v)",
   "okoldy": "Infused in the storage jar / water conduit (labeled on f82v & f89r2)",
   "poldchody": "Begin by steeping in the liquid vessel (Red-Blossom headword on f11v & f116v)",
+  "otaram": "Completed Pisces (`mars`) 10:00 root-balm degree (`f70v2.22` & `f107r.11`)",
+  "otaral": "Pisces (`mars`) 11:00 root-star extract degree (`f70v2.23` & `f107r.13`)",
+  "otalar": "Pisces (`mars`) 12:00 celestial sector essence (`f70v2.24` & `f107r.15`)",
   "fachys": "Opening declaration ('Here begins the book/manifesto')",
   "ke": "Boil / decoct / simmer with heat",
   "kee": "Boil / cook thoroughly in liquid",
@@ -1263,6 +1435,65 @@ function renderZodiacAndBalneo() {{
   }}).join("");
 }}
 
+function renderRecipesRosettesConsensus() {{
+  const rBody = document.querySelector("#recipesTable tbody");
+  rBody.innerHTML = (DATA.recipes_showcase || []).map(r => {{
+    const openChips = (r.opening_clause_eva || "").split(/\\s+/).slice(0, 6).map(w =>
+      `<span class="word-chip" onclick="setWord('${{w}}')">${{w}}</span>`
+    ).join(" ");
+    const closeChips = (r.closing_clause_eva || "").split(/\\s+/).slice(-6).map(w =>
+      `<span class="word-chip" onclick="setWord('${{w}}')">${{w}}</span>`
+    ).join(" ");
+    return `
+      <tr>
+        <td><strong><code>${{r.recipe_id}}</code></strong></td>
+        <td><span class="badge">${{r.regimen_class}}</span></td>
+        <td>${{r.word_count}}</td>
+        <td>${{r.boil_step_count}}</td>
+        <td>${{r.measured_dose_count}}</td>
+        <td>${{openChips}}</td>
+        <td>${{closeChips}}</td>
+      </tr>
+    `;
+  }}).join("");
+
+  const rosBody = document.querySelector("#rosettesTable tbody");
+  rosBody.innerHTML = (DATA.rosettes_panels || []).map(p => {{
+    const chips = (p.top_words || []).slice(0, 6).map(w =>
+      `<span class="word-chip" onclick="setWord('${{w}}')">${{w}}</span>`
+    ).join(" ");
+    return `
+      <tr>
+        <td><strong><code>${{p.folio}}</code></strong></td>
+        <td><span class="badge">${{p.panel_type === 'DIAGRAM_WHEEL_OR_MAP' ? 'Cosmological Diagram / Map' : 'Prose Treatise'}}</span></td>
+        <td>${{p.token_count}}</td>
+        <td><strong>${{(p.o_nominal_rate * 100).toFixed(1)}}%</strong></td>
+        <td><strong>${{(p.qo_active_rate * 100).toFixed(1)}}%</strong></td>
+        <td>${{(p.edy_dy_rate * 100).toFixed(1)}}%</td>
+        <td>${{(p.ol_or_al_ar_rate * 100).toFixed(1)}}%</td>
+        <td>${{chips}}</td>
+      </tr>
+    `;
+  }}).join("");
+
+  const cBody = document.querySelector("#consensusTable tbody");
+  cBody.innerHTML = (DATA.consensus_cribs || []).map(c => {{
+    const statusBadge = c.transcribers_attesting === 4
+      ? `<span class="badge" style="background:var(--green-soft);color:var(--green)">4 / 4 Editions</span>`
+      : `<span class="badge" style="background:var(--blue-soft);color:var(--blue)">${{c.transcribers_attesting}} / 4 Editions</span>`;
+    return `
+      <tr>
+        <td><span class="word-chip" onclick="setWord('${{c.word}}')"><strong>${{c.word}}</strong></span></td>
+        <td><code>${{c.ZL3b_hits}}</code></td>
+        <td><code>${{c.RF1b_hits}}</code></td>
+        <td><code>${{c.IT2a_hits}}</code></td>
+        <td><code>${{c.GC2a_v101_mapped_hits}}</code></td>
+        <td>${{statusBadge}}</td>
+      </tr>
+    `;
+  }}).join("");
+}}
+
 function switchTab(tabId, btn) {{
   document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
   document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
@@ -1275,6 +1506,7 @@ renderWalkthroughList();
 renderSpecimens();
 renderLexiconAndParadigms();
 renderZodiacAndBalneo();
+renderRecipesRosettesConsensus();
 </script>
 </body>
 </html>

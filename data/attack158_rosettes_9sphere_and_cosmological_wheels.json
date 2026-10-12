@@ -1,0 +1,197 @@
+{
+  "attack": 158,
+  "phase": 169,
+  "discovery": 175,
+  "title": "Quire 14 Cosmological Wheels (f85r2, f86v4) & 9-Sphere Rosettes Map (fRos) Routing Architecture",
+  "summary": {
+    "total_quire14_tokens": 2336,
+    "diagram_tokens": 817,
+    "prose_treatise_tokens": 1519,
+    "diagram_o_rate": 0.5214,
+    "prose_o_rate": 0.262,
+    "diagram_qo_rate": 0.0539,
+    "prose_qo_rate": 0.1415,
+    "polarity_z_score": 12.45
+  },
+  "diagram_profile": {
+    "tokens": 817,
+    "o_prefix_rate": 0.5214,
+    "qo_prefix_rate": 0.0539,
+    "edy_dy_rate": 0.2044,
+    "ol_or_al_ar_rate": 0.3341,
+    "top_words": [
+      "or",
+      "ol",
+      "ar",
+      "otedy",
+      "aiin",
+      "otody",
+      "daiin",
+      "okal"
+    ]
+  },
+  "prose_treatise_profile": {
+    "tokens": 1519,
+    "o_prefix_rate": 0.262,
+    "qo_prefix_rate": 0.1415,
+    "edy_dy_rate": 0.1962,
+    "ol_or_al_ar_rate": 0.3114,
+    "top_words": [
+      "aiin",
+      "or",
+      "ar",
+      "ol",
+      "dar",
+      "daiin",
+      "qokar",
+      "qokaiin"
+    ]
+  },
+  "fros_domain_routing": {
+    "Herbal": {
+      "token_coverage_rate": 0.6321,
+      "shared_types": 170
+    },
+    "Pharmaceutical": {
+      "token_coverage_rate": 0.3699,
+      "shared_types": 85
+    },
+    "Balneological": {
+      "token_coverage_rate": 0.5166,
+      "shared_types": 121
+    },
+    "Starred_Recipes": {
+      "token_coverage_rate": 0.6399,
+      "shared_types": 176
+    },
+    "Zodiac": {
+      "token_coverage_rate": 0.407,
+      "shared_types": 82
+    },
+    "Astronomical": {
+      "token_coverage_rate": 0.3483,
+      "shared_types": 67
+    }
+  },
+  "folio_profiles": {
+    "f85r1": {
+      "tokens": 339,
+      "o_prefix_rate": 0.292,
+      "qo_prefix_rate": 0.1268,
+      "edy_dy_rate": 0.3097,
+      "ol_or_al_ar_rate": 0.2979,
+      "top_words": [
+        "aiin",
+        "ol",
+        "or",
+        "otedy",
+        "dar",
+        "shey",
+        "ar",
+        "daiin"
+      ]
+    },
+    "f85r2": {
+      "tokens": 156,
+      "o_prefix_rate": 0.391,
+      "qo_prefix_rate": 0.141,
+      "edy_dy_rate": 0.2179,
+      "ol_or_al_ar_rate": 0.2821,
+      "top_words": [
+        "or",
+        "aiin",
+        "ar",
+        "ol",
+        "shedy",
+        "otchedy",
+        "daiin",
+        "otedy"
+      ]
+    },
+    "f86v4": {
+      "tokens": 187,
+      "o_prefix_rate": 0.3476,
+      "qo_prefix_rate": 0.0802,
+      "edy_dy_rate": 0.2139,
+      "ol_or_al_ar_rate": 0.3155,
+      "top_words": [
+        "ol",
+        "otedy",
+        "daiin",
+        "or",
+        "dar",
+        "chedy",
+        "os",
+        "sheey"
+      ]
+    },
+    "f86v3": {
+      "tokens": 279,
+      "o_prefix_rate": 0.1864,
+      "qo_prefix_rate": 0.1541,
+      "edy_dy_rate": 0.2401,
+      "ol_or_al_ar_rate": 0.1828,
+      "top_words": [
+        "aiin",
+        "or",
+        "am",
+        "ytaiin",
+        "ar",
+        "ykaiin",
+        "yteey",
+        "chdy"
+      ]
+    },
+    "f86v5": {
+      "tokens": 383,
+      "o_prefix_rate": 0.2663,
+      "qo_prefix_rate": 0.0966,
+      "edy_dy_rate": 0.1332,
+      "ol_or_al_ar_rate": 0.3238,
+      "top_words": [
+        "aiin",
+        "ar",
+        "or",
+        "ol",
+        "otal",
+        "qokar",
+        "otam",
+        "otaiin"
+      ]
+    },
+    "f86v6": {
+      "tokens": 481,
+      "o_prefix_rate": 0.264,
+      "qo_prefix_rate": 0.183,
+      "edy_dy_rate": 0.1414,
+      "ol_or_al_ar_rate": 0.3867,
+      "top_words": [
+        "or",
+        "qokaiin",
+        "ar",
+        "ol",
+        "qokar",
+        "dar",
+        "aiin",
+        "chedy"
+      ]
+    },
+    "fRos": {
+      "tokens": 511,
+      "o_prefix_rate": 0.6223,
+      "qo_prefix_rate": 0.0215,
+      "edy_dy_rate": 0.1957,
+      "ol_or_al_ar_rate": 0.3542,
+      "top_words": [
+        "ol",
+        "or",
+        "ar",
+        "otedy",
+        "okal",
+        "otody",
+        "aiin",
+        "otar"
+      ]
+    }
+  }
+}

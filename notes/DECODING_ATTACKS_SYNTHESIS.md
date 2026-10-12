@@ -1279,3 +1279,31 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Key Breakthroughs**:
   1. **Synthesizes `Attacks 153–155` and Synchronizes All Human-Readable Assets ([`notes/PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md`](PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md), [`notes/VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md`](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md) `SPEC-01..15`, [`explorer/index.html`](../explorer/index.html) 4-Tab Interactive Explorer, and [`README.md`](../README.md))**.
 
+---
+
+## 157. Attack 157 (`Phase 168`): The `285` Starred Master Recipes (`f103r–f116r`, `10,587` Tokens), 4-Regimen Clinical Classifier, and 3-Zone Procedural Frame Law ($z = +18.93$)
+- **Script, Data & Scan**: [`tools/attack157_starred_recipes_classifier_and_herbal_router.py`](../tools/attack157_starred_recipes_classifier_and_herbal_router.py) $\to$ [`data/attack157_starred_recipes_classifier_and_herbal_router.json`](../data/attack157_starred_recipes_classifier_and_herbal_router.json) & [`pages/f107r_starred_recipes_enh.png`](../pages/f107r_starred_recipes_enh.png)
+- **Key Breakthroughs**:
+  1. **Classifies All `285` Star-Bulleted Master Recipes (`10,587` Tokens Across `f103r–f116r`) into Four Clinical Regimens (`183` Aqueous Infusions, `64` Balneo Washes, `29` Intensive Thermal Decoctions, `9` Compound Essence Salves) and Proves the 3-Zone Procedural Frame Law ($z = +18.93$): Gallows Openers Surge `3.10×` in the Opening 20% (`19.54%` vs. `6.28%` Middle), While Terminal `-am/-m` Stops Surge `3.90×` in the Closing 20% (`3.91%` vs. `1.00%` Opening)**.
+
+---
+
+## 158. Attack 158 (`Phase 169`): Quire 14 Cosmological Wheels (`f85r2, f86v4`) & 9-Sphere Rosettes Map (`fRos`) Diagram-vs-Prose Polarity Law ($z = +12.45$) and `64.0%` Recipe / `63.2%` Herbal Lexical Routing
+- **Script, Data & Scan**: [`tools/attack158_rosettes_9sphere_and_cosmological_wheels.py`](../tools/attack158_rosettes_9sphere_and_cosmological_wheels.py) $\to$ [`data/attack158_rosettes_9sphere_and_cosmological_wheels.json`](../data/attack158_rosettes_9sphere_and_cosmological_wheels.json) & [`pages/p159_rosettes_map.png`](../pages/p159_rosettes_map.png)
+- **Key Breakthroughs**:
+  1. **Proves Across All `2,336` Tokens of Quire 14 (`817` Diagram Tokens on `f85r2, f86v4, fRos` vs. `1,519` Prose Treatise Tokens on `f85r1, f86v3, f86v5, f86v6`) a `1.99×` `o-` Nominal Surge on Diagrams (`52.14%` vs. `26.20%`) and a `2.61×` `qo-` Active Verb Surge in Prose (`14.15%` vs. `5.39%`, Polarity $z = +12.45$), with `63.99%` of `fRos` Tokens Matching Starred Recipes (`S`) and `63.21%` Matching Herbal (`H`)**.
+
+---
+
+## 159. Attack 159 (`Phase 170`): Four-Transcriber Paleographic Consensus Audit (`ZL3b-n`, `RF1b-er`, `IT2a-n`, `GC2a-n` `v101` Across `5,132` Shared Lines / `36,103` Tokens: `88.75%` 4-Way Canonical Consensus & `24 / 26` Core Crib Identity)
+- **Script & Data**: [`tools/attack159_four_transcriber_consensus_verifier.py`](../tools/attack159_four_transcriber_consensus_verifier.py) $\to$ [`data/attack159_four_transcriber_consensus_verifier.json`](../data/attack159_four_transcriber_consensus_verifier.json)
+- **Key Breakthroughs**:
+  1. **Aligns `5,132` Shared Lines (`36,103` Tokens) Across All Four Independent Human Transliterations (`ZL3b-n`, `RF1b-er`, `IT2a-n`, `GC2a-n` `v101`), Proving `88.75%` Four-Way Canonical Skeleton Consensus (`71.58%` Exact Character Identity Across All 3 EVA Editions) and Confirming `24 / 26` Core Cribs & Structural Stems Across All 3 EVA Editions (`21 / 26` Across All 4 Including `v101`)**.
+
+---
+
+## 160. Attack 160 (`Phase 171`): The Wave 37 Master Compendium (`Starred Recipes, 9-Rosettes Cosmology & 4-Transcriber Consensus Proof`) and Synchronized v3.0 Human-Readable Assets ([`notes/STARRED_RECIPES_ROSETTES_COSMOLOGY_AND_4TRANSCRIBER_PROOF.md`](STARRED_RECIPES_ROSETTES_COSMOLOGY_AND_4TRANSCRIBER_PROOF.md))
+- **Script, Data & Edition**: [`tools/attack160_wave37_master_compendium.py`](../tools/attack160_wave37_master_compendium.py) $\to$ [`data/attack160_wave37_master_compendium.json`](../data/attack160_wave37_master_compendium.json) & [`notes/STARRED_RECIPES_ROSETTES_COSMOLOGY_AND_4TRANSCRIBER_PROOF.md`](STARRED_RECIPES_ROSETTES_COSMOLOGY_AND_4TRANSCRIBER_PROOF.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes `Attacks 157–159` and Upgrades All Human-Readable Assets to v3.0 ([`notes/PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md`](PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md) 15 Folios, [`notes/VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md`](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md) `SPEC-01..20`, [`explorer/index.html`](../explorer/index.html) 5-Tab Interactive Explorer, and [`README.md`](../README.md))**.
+

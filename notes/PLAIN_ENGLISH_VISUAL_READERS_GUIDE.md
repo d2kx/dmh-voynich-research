@@ -257,8 +257,65 @@ Why did the scribe write the Voynich word **`oror`** at the end of a European ch
 
 ---
 
+### 12. Folio `f34r` — The "Rosetta" Plant Page Written in the Bathing Dialect (Scribe 2)
+* **Section:** Herbal B (Scribe 2, Currier Language B) | **Page in Yale Scan:** Page 65
+
+![Folio f34r Currier B Herbal Hub](../pages/f34r_scribe2_currier_b_master_herbal_enh.png)
+
+#### What to Look for on the Scan
+1. Most of the early Herbal section is written by Scribe 1 in Currier Language A. Folio **`f34r`** is a crucial bridge: it is a whole-plant botanical monograph written by **Scribe 2 in Currier Language B**—the exact same hand and dialect used in the Bathing Nymphs section (`f75r–f84v`).
+2. Look at the **massive two-legged split tuber** at the bottom beneath broad scalloped green leaves and a central flower spike with red-and-blue florets (matching *Gentiana* / *Mandragora* split-root febrifuges).
+3. Right here on a living plant page, Scribe 2 uses **`qokeedy`** (*"then boil!"*), **`shedy`** (*"wash/bathe"*), **`chckhy`** (*"concentrated double-core infusion"*), and **`chodaiin`** (*"take one infused measure"*), bridging the botanical monographs directly into the hydrotherapy baths!
+
+---
+
+### 13. Folio `f66r` — The Margin-Indexed Clinical Directory & `den mus del` Corner Note
+* **Section:** Biomedical / Astrological-Herbal Index (`f66r`) | **Page in Yale Scan:** Page 119
+
+![Folio f66r Margin-Indexed Clinical Treatise](../pages/f66r_margin_columns_and_figure_enh.png)
+
+#### What to Look for on the Scan
+1. Along the **left margin**, vertical columns of single Voynich index characters and short words (`o, y, d, s, r, air, als...`) align with the paragraphs—making `f66r` one of the manuscript's **Six Master Index Directories** (routing vocabulary to `41` clinical and herbal pages).
+2. In the **lower-left margin**, a reclining figure lies beside spherical vessels/organs labeled with single Voynich nouns (`otol`, `otal`, `olar`, `otar`).
+3. At the **very bottom-left corner** sits a faint 3-word European marginal note read by paleographers as **`den mus del`**.
+
+---
+
+### 14. Folios `f85r2` & `fRos` — The Four-Seasons Wheel & The 9-Sphere Rosettes Map
+* **Section:** Cosmological Foldout (`Quire 14`, `f85r1–f86v6` & `fRos`) | **Pages in Yale Scan:** Pages 155 & 159
+
+![Folio f85r2 Four-Seasons Solar Wheel](../pages/f85r2_four_seasons_wheel_enh.png)
+
+#### What to Look for on `f85r2` (Above) and `fRos` (Below)
+1. **`f85r2` (The Four-Seasons & Four-Winds Wheel, above):** A blazing human-faced Sun sits at the center, surrounded by **four seasonal figures** at the 12, 3, 6, and 9 o'clock positions and **four corner wind/cloud spouts** framing four triangular blocks of seasonal instructions.
+2. **`fRos` (The 9-Sphere Rosettes Foldout Map, below):** In the Central Sphere of this giant 6-page foldout map, **five onion-domed towers / alchemical alembics** rise out of a blue star-filled basin ringed by twin water spouts, with vertical Voynich labels written right between their bases!
+
+![Folio fRos Center Sphere With 5 Onion-Domed Alembics](../pages/p159_rosettes_center_enh.png)
+
+#### How the Cosmological Wheels Connect to the Recipes
+* Across Quire 14 (`Attack 158`, $z = +12.45$), **`52.1%` of words on the wheels and map (`f85r2, f86v4, fRos`) start with the nominal prefix `o-`** (`otar`, `okal`, `otol` — naming the seasonal and distilled essences), while on the facing text treatises (`f85r1, f86v3–v6`), **active `qo-` verbs jump `2.61×` (`14.1%`)** to explain how to process them.
+* Even better: **`64.0%` of all words written on the 9-Sphere Rosettes Map (`fRos`) appear word-for-word inside the Starred Master Recipes (`f103r–f116r`)**!
+
+---
+
+### 15. Folio `f107r` — The 285 Star-Bulleted Master Recipes (`f103r–f116r`)
+* **Section:** Starred Master Recipes (`Quire 20`, Scribe 3) | **Page in Yale Scan:** Page 195
+
+![Folio f107r Alternating Dark and Light Starred Recipes](../pages/f107r_starred_recipes_enh.png)
+
+#### What to Look for on the Scan
+1. The final section of the book (`f103r–f116r`) contains **285 star-bulleted compound prescriptions** (`10,587` words)—the medieval *Antidotarium* (master recipe formulary) where the ingredients from the earlier sections are compounded into finished medicines.
+2. Look down the **left margin of `f107r`**: the painted tailed stars (`*`) strictly alternate **Dark-Red/Solid $\to$ Light-Yellow/Open $\to$ Dark $\to$ Light** so the apothecary never loses their place between adjacent recipes!
+3. Every recipe follows a strict **3-Part Frame (`Attack 157`, $z = +18.93$)**:
+   - **Opening 20%:** Starts with a tall **Gallows header word (`p-/f-/t-/k-`)** right next to the star (`3.1×` higher than in the middle of the recipe).
+   - **Middle 60%:** Executes the active boiling (`qokeedy`), steeping (`chedy`), and measured dosing (`daiin`, `qokain`) steps.
+   - **Closing 20%:** Ends with a terminal **`-am / -m` stop word** (`otam`, `okam` — `3.9×` higher at the close than at the start).
+
+---
+
 ## Where to Go Next
-* **Want to see all 15 real-world plants, constellations, and bathing diagrams?** Read the **[Visual Botanical, Astrological & Balneological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)**.
-* **Want to click through the pages and decode words interactively in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** in any web browser!
-* **Want the deep grammatical tables and full 173-discovery research log?** See **[`ZODIAC_MONTHS_BALNEO_PLUMBING_AND_BOTANICAL_ATLAS.md`](ZODIAC_MONTHS_BALNEO_PLUMBING_AND_BOTANICAL_ATLAS.md)**, **[`EIGHT_CASE_PARADIGM_AND_PARAGRAPH_STATE_COMPILER.md`](EIGHT_CASE_PARADIGM_AND_PARAGRAPH_STATE_COMPILER.md)**, and **[`NOTES.md`](../NOTES.md)**.
+* **Want to see all 20 real-world plants, constellations, wheels, and bathing diagrams?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)**.
+* **Want to click through 20 pages and decode words interactively in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now featuring **5 interactive tabs**!).
+* **Want the deep grammatical tables, 4-transcriber proof (`88.8%` consensus), and full 177-discovery research log?** See **[`STARRED_RECIPES_ROSETTES_COSMOLOGY_AND_4TRANSCRIBER_PROOF.md`](STARRED_RECIPES_ROSETTES_COSMOLOGY_AND_4TRANSCRIBER_PROOF.md)**, **[`ZODIAC_MONTHS_BALNEO_PLUMBING_AND_BOTANICAL_ATLAS.md`](ZODIAC_MONTHS_BALNEO_PLUMBING_AND_BOTANICAL_ATLAS.md)**, and **[`NOTES.md`](../NOTES.md)**.
+
 

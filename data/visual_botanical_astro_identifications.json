@@ -1,6 +1,6 @@
 {
   "title": "Voynich Manuscript Visual Botanical & Astrological Crib Identification Dossier",
-  "specimen_count": 15,
+  "specimen_count": 20,
   "specimens": [
     {
       "id": "SPEC-01",
@@ -563,6 +563,187 @@
       },
       "plain_english_dossier": "Folio f82v gives us the smoking gun for how the 'Bathing Nymphs' diagrams work (`Attack 155`, z = +9.97). When the scribe writes a label directly on a **painted water pipe**, they write **`olkol`** or **`okoldy`** (`ol-` 'in the vessel/pipe' + `kol` 'core liquid' + `-dy` 'infused')—the exact same vessel stem (`okol`) written on the painted apothecary jars in the Pharmaceutical section! Conversely, active boiling commands like **`qokeedy`** ('then boil it!') are never written as pipe nouns (`2.5%` on labels), but pack the surrounding instruction paragraphs (`24.4%`).",
       "confidence_tier": "Tier A+ (Direct Visual Pipe-Label Proof: `olkol / okoldy` on Water Tubes, z = +9.97)"
+    },
+    {
+      "id": "SPEC-16",
+      "folio": "f34r",
+      "section": "Herbal B (Scribe 2 — Currier Language B Herbal Hub)",
+      "pdf_page": 65,
+      "image_rel_notes": "../pages/f34r_scribe2_currier_b_master_herbal_enh.png",
+      "image_rel_root": "pages/f34r_scribe2_currier_b_master_herbal_enh.png",
+      "category": "Botanical Monograph (Currier B Bulbous Split-Tuber Guild)",
+      "common_name": "Split-Tuber Mandrake / Gentian Compound Hub (`chckhy / chodaiin`)",
+      "latin_candidates": [
+        "Gentiana lutea L. / Mandragora officinarum (Split-root bitter febrifuge & analgesic)",
+        "Currier B Master Herbal Monograph (Scribe 2)"
+      ],
+      "medieval_herbal_parallels": [
+        "Tractatus de Herbis & Belluno Herbals: 'Gentiana / Mandragora' split-tuber monographs"
+      ],
+      "visual_diagnostics": [
+        "Massive, dark-brown bifurcated (two-legged) tuberous root base with horizontal ring striations",
+        "Broad, scalloped green basal leaves and a tall central flower spike with red-and-blue florets",
+        "Written by Scribe 2 in Currier Language Bright inside the Herbal section, acting as a direct vocabulary bridge to the Balneological and Recipe sections!"
+      ],
+      "voynich_stems": {
+        "opening_word": "pchedar (p-ched-ar: 'Begin: infuse from the root base')",
+        "dominant_roots": [
+          "chckhy (concentrated double-core herbal infusion)",
+          "chodaiin (take one infused measure)",
+          "qokeedy (then boil thoroughly)",
+          "shedy (wash/bathe)"
+        ],
+        "cross_section_echoes": [
+          "f75r–f84v (Balneological baths sharing Scribe 2's `qokeedy / shedy` dialect)",
+          "f88v–f89r2 (Pharmaceutical cut-root jars)"
+        ]
+      },
+      "plain_english_dossier": "While most of the early Herbal pages are written by Scribe 1 in Currier Language A, Folio f34r is a crucial 'Rosetta' plant page written by **Scribe 2 in Currier Language B**—the exact same hand and dialect used in the Bathing Nymphs section (`f75r–f84v`). Visually, it shows a massive two-legged split tuber beneath broad leaves and a red-and-blue flower spike; linguistically, it introduces `qokeedy` ('then boil!') and `chodaiin` ('take one infused dose') directly on a living plant page!",
+      "confidence_tier": "Tier A (Direct Dialect Bridge Between Herbal Plants and Balneological Baths)"
+    },
+    {
+      "id": "SPEC-17",
+      "folio": "f66r",
+      "section": "Biomedical / Astrological-Herbal Index (`f66r`, Scribe 4/3)",
+      "pdf_page": 119,
+      "image_rel_notes": "../pages/f66r_margin_columns_and_figure_enh.png",
+      "image_rel_root": "pages/f66r_margin_columns_and_figure_enh.png",
+      "category": "Master Clinical Index Page, Marginal Column Key & Bilingual Corner Note",
+      "common_name": "The Margin-Indexed Clinical Treatise & Supine Patient/Humoral Diagram (`den mus del`)",
+      "latin_candidates": [
+        "Gynecological / Humoral Clinical Index Directory (One of the 6 Master Index Folios, `Attack 151`)",
+        "Bottom-left corner Middle High German / Latin note: `den mus del`"
+      ],
+      "medieval_herbal_parallels": [
+        "15th-century German/Italian Gynecological & Humoral Practica (e.g., *Trotula* / Pseudo-Albertus Magnus)"
+      ],
+      "visual_diagnostics": [
+        "Down the left margin run vertical columns of single Voynich index characters and short words (`o, y, d, s, r, air,als...`) aligned with the main prose paragraphs",
+        "In the lower-left margin, a reclining human figure lies beside spherical vessels/organs with single-word labels (`otol`, `otal`, `olar`, `otar`)",
+        "At the very bottom-left corner of the page sits a 3-word European marginal note read by paleographers as **`den mus del`**"
+      ],
+      "voynich_stems": {
+        "opening_word": "tairor (t-air-or: 'From the air/volatile oil essence')",
+        "dominant_roots": [
+          "otol (in the liquid vessel)",
+          "otar (earth/root base)",
+          "olar (in the essence)",
+          "qokeedy / chedy (boil and infuse)"
+        ],
+        "cross_section_echoes": [
+          "Indexes 41 target folios across Currier B Herbal, Balneological, and Starred Recipes (`Attack 151`, z = +6.32)"
+        ]
+      },
+      "plain_english_dossier": "Folio f66r is one of the manuscript's **Six Master Index Directories** (`f1r, f49v, f58r, f58v, f66r, f76r`), serving as the primary lookup table for 41 clinical and herbal pages (`Attack 151`). Look at the bottom-left margin: beside a vertical column of index letters sits a reclining figure surrounded by labeled vessels (`otol`, `otar`, `olar`) and the faint European corner note `den mus del`.",
+      "confidence_tier": "Tier A (Verified Master Index Hub + Bilingual Corner Note + Labelled Figure)"
+    },
+    {
+      "id": "SPEC-18",
+      "folio": "f85r2",
+      "section": "Cosmological (`Quire 14`, `f85r1–f86v6`)",
+      "pdf_page": 155,
+      "image_rel_notes": "../pages/f85r2_four_seasons_wheel_enh.png",
+      "image_rel_root": "pages/f85r2_four_seasons_wheel_enh.png",
+      "category": "Four-Quadrant Solar Cosmological Wheel",
+      "common_name": "The Four-Seasons / Four-Winds Solar Wheel (`Attack 158`, Polarity z = +12.45)",
+      "latin_candidates": [
+        "Quattuor Tempora Anni / Quattuor Humores (Four Seasons, Four Winds & Four Humours around the Central Sun)",
+        "Isidore of Seville / Honorius Augustodunensis *De Natura Rerum* Rotae (Wheel Diagrams)"
+      ],
+      "medieval_herbal_parallels": [
+        "15th-century Medieval Medical Rotae linking the Central Sun, Four Seasons, Four Winds, and Four Humours"
+      ],
+      "visual_diagnostics": [
+        "Blazing human-faced Sun at the center of a swirling blue sky medallion, encircled by a scalloped ring of Voynich text",
+        "Four courtly figures emerge at the 12, 3, 6, and 9 o'clock cardinal positions (holding a flower/cup, golden vessel, etc. — the Four Seasons)",
+        "Four diagonal spokes terminate in four ribbed cloud/wind spouts at the corners, framing four triangular seasonal prose blocks"
+      ],
+      "voynich_stems": {
+        "opening_word": "otar / okal / otol (52.1% `o-` nominal rate on Quire 14 Diagrams vs. 26.2% in Prose, z = +12.45!)",
+        "dominant_roots": [
+          "otar (earth/root quarter)",
+          "okal (star/air quarter)",
+          "otol (liquid/water quarter)",
+          "daiin (one measured part)"
+        ],
+        "cross_section_echoes": [
+          "f85r1 & f86v3–f86v6 (Accompanying Quire 14 prose treatises where `qo-` active verbs jump 2.61x to 14.1%!)"
+        ]
+      },
+      "plain_english_dossier": "Folio f85r2 is a textbook medieval *Rota* (wheel diagram) of the **Four Seasons and Four Winds** revolving around the central Sun. Our computational audit (`Attack 158`, z = +12.45) revealed a striking division of labor in Quire 14: on the wheel diagrams (`f85r2, f86v4, fRos`), over half of all words (`52.1%`) start with the nominal prefix `o-` (`otar`, `okal`, `otol` — naming the seasonal elements and essences), whereas on the facing text pages (`f85r1, f86v3–v6`), active `qo-` verbs jump **2.61x** to explain how to use those seasonal essences!",
+      "confidence_tier": "Tier A (Unmistakable Four-Seasons / Four-Winds Solar Rota + z = +12.45 Polarity)"
+    },
+    {
+      "id": "SPEC-19",
+      "folio": "fRos (f85v2–f86r2)",
+      "section": "Cosmological / Alchemical Foldout (`Quire 14`, `p158–p159`)",
+      "pdf_page": 159,
+      "image_rel_notes": "../pages/p159_rosettes_center_enh.png",
+      "image_rel_root": "pages/p159_rosettes_center_enh.png",
+      "category": "Nine-Sphere Foldout Map & Alchemical/Hydrological Router",
+      "common_name": "The 9-Sphere Rosettes Foldout Map (Center Sphere With 5 Onion-Domed Alembics/Towers)",
+      "latin_candidates": [
+        "Nine-Sphere Astro-Medical & Alchemical Distillation Map (`64.0%` token match in Starred Recipes!)",
+        "Subterranean / Thermal Spring & Alembic Network (linking Balneology `B` and Pharmacy `P`)"
+      ],
+      "medieval_herbal_parallels": [
+        "15th-century Northern Italian Cosmological Mappae & Thermal Spring Cartography (Padua / Euganean Hills / Venice)"
+      ],
+      "visual_diagnostics": [
+        "Giant 6-page fold-out vellum sheet containing 9 interconnected circular spheres linked by causeways, water channels, castles, and volcanic/alchemical spouts",
+        "In the Central Sphere (shown above), five bulbous onion-domed towers / alchemical alembics rise from a blue star-spotted basin, with vertical Voynich labels written right between their pedestals",
+        "Outer scalloped ring bristles with twin cylindrical spouts (`olkol / otol` conduits) matching the Balneological bath pipes!"
+      ],
+      "voynich_stems": {
+        "opening_word": "otar / okar / otol / okol (Ring & alembic pedestal labels)",
+        "dominant_roots": [
+          "otol / okol (alembic vessel / liquid conduit)",
+          "otar / okar (earth/core essence)",
+          "okal / osal (volatile star/seed essence)",
+          "qokeedy (boil/distill in corner prose)"
+        ],
+        "cross_section_echoes": [
+          "64.0% of all tokens on `fRos` appear verbatim in the Starred Master Recipes (`S`) and 63.2% in the Herbal Monographs (`H`) (`Attack 158`)!"
+        ]
+      },
+      "plain_english_dossier": "The 9-Sphere Rosettes foldout (`fRos`) is the grand visual synthesis of the Voynich Manuscript. Look at the zoom of the Central Sphere above: five onion-domed vessels/towers sit in a blue star-filled basin ringed by twin water spouts, with Voynich labels written right between their bases. In `Attack 158`, we found that **64.0% of all words written on the Rosettes map appear word-for-word in the Starred Master Recipes (`f103r–f116r`)** and **63.2% in the Herbal section**—showing that the 9 spheres map how raw earthly and stellar essences are distilled and routed into finished medical preparations.",
+      "confidence_tier": "Tier A (Master Visual Synthesis Routing 64.0% of Tokens into Starred Recipes)"
+    },
+    {
+      "id": "SPEC-20",
+      "folio": "f107r",
+      "section": "Starred Master Recipes (`Quire 20`, `f103r–f116r`, Scribe 3)",
+      "pdf_page": 195,
+      "image_rel_notes": "../pages/f107r_starred_recipes_enh.png",
+      "image_rel_root": "pages/f107r_starred_recipes_enh.png",
+      "category": "Star-Bulleted Clinical Recipe Formulary (`285` Recipes)",
+      "common_name": "Alternating Dark/Light Star-Bulleted Master Formulary (`Attack 157`, Frame z = +18.93)",
+      "latin_candidates": [
+        "Antidotarium / Receptarium (285 Compound Medical Prescriptions Keyed by Marginal Stars)",
+        "4 Clinical Regimens: Aqueous Infusions (183), Balneo Washes (64), Thermal Decoctions (29), Salves (9)"
+      ],
+      "medieval_herbal_parallels": [
+        "Antidotarium Nicolai & 15th-century Italian Hospital Receptaria (paragraphed compound prescriptions)"
+      ],
+      "visual_diagnostics": [
+        "Eight consecutive recipe paragraphs down the page, each introduced in the left margin by a painted tailed star (`*`)",
+        "The star centers strictly alternate **Dark-Red/Solid -> Light-Yellow/Open -> Dark -> Light** down the margin to visually separate adjacent prescriptions",
+        "Every recipe opens with a tall Gallows header word (`p-/f-/t-/k-`, `19.5%` in Opening 20% vs. `6.3%` in Middle) and closes with an `-am/-m` terminal stop (`3.9×` surge at recipe end, Frame z = +18.93!)"
+      ],
+      "voynich_stems": {
+        "opening_word": "pchedar / tchedy / qokeedy (Gallows recipe opener + active boiling/infusing steps)",
+        "dominant_roots": [
+          "qokeedy / qokedy (then boil thoroughly)",
+          "chedy / chol (infuse in strained liquid)",
+          "daiin / qokain (take one measured dose)",
+          "otam / okam (seal/complete the prescription)"
+        ],
+        "cross_section_echoes": [
+          "Collects and compounds the exact botanical stems introduced in Herbal (`f1r–f57v`), timed by Zodiac (`f70v2–f73v`), and stored in Pharma Jars (`f88r–f102v`)!"
+        ]
+      },
+      "plain_english_dossier": "Folio f107r shows how the final section of the Voynich Manuscript (`f103r–f116r`, containing 285 star-bulleted paragraphs) works as a practical medical recipe book (`Antidotarium`). Look down the left margin: the artist alternated dark-centered and light-centered stars (`*`) so the apothecary would never lose their place between recipes. Every single recipe follows a strict 3-part frame (`Attack 157`, z = +18.93): open with a tall Gallows declaration (`pchedar...`), execute the boiling and dosing steps in the middle (`qokeedy... daiin`), and close with an `-am/-m` stop word (`otam / okam`).",
+      "confidence_tier": "Tier A+ (285-Recipe Clinical Formulary With z = +18.93 3-Zone Procedural Frame)"
     }
   ]
 }

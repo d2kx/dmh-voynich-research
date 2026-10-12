@@ -1,0 +1,188 @@
+{
+  "attack": 157,
+  "phase": 168,
+  "discovery": 174,
+  "title": "Quire 20 Starred Master Recipes (f103r-f116r): 4-Regimen Classifier & 3-Zone Procedural Frame Law",
+  "summary": {
+    "total_starred_recipes": 285,
+    "total_starred_tokens": 10587,
+    "regimen_distribution": {
+      "AQUEOUS_INFUSION": 183,
+      "BALNEO_WASH": 64,
+      "THERMAL_DECOCTION": 29,
+      "COMPOUND_ESSENCE_SALVE": 9
+    },
+    "observed_frame_score": 0.2345,
+    "null_frame_mean": 0.1121,
+    "frame_z_score": 18.93
+  },
+  "three_zone_trajectory": {
+    "OPENING_20PCT": {
+      "tokens": 1996,
+      "gallows_initial_rate": 0.1954,
+      "qo_active_rate": 0.1839,
+      "aiin_dose_rate": 0.1558,
+      "am_terminal_rate": 0.01
+    },
+    "MIDDLE_60PCT": {
+      "tokens": 6595,
+      "gallows_initial_rate": 0.0628,
+      "qo_active_rate": 0.1795,
+      "aiin_dose_rate": 0.2041,
+      "am_terminal_rate": 0.0315
+    },
+    "CLOSING_20PCT": {
+      "tokens": 1996,
+      "gallows_initial_rate": 0.0406,
+      "qo_active_rate": 0.1423,
+      "aiin_dose_rate": 0.2164,
+      "am_terminal_rate": 0.0391
+    }
+  },
+  "showcase_recipes": [
+    {
+      "recipe_id": "f103r.P1",
+      "folio": "f103r",
+      "word_count": 50,
+      "regimen_class": "AQUEOUS_INFUSION",
+      "opening_word": "pchedal",
+      "closing_word": "chedaraly",
+      "boil_step_count": 2,
+      "measured_dose_count": 5,
+      "opening_clause_eva": "pchedal shdy ytechypchy otey lshey qoteey qotal shedy",
+      "closing_clause_eva": "qokeey okey chdar ol loty chedaraly"
+    },
+    {
+      "recipe_id": "f103r.P2",
+      "folio": "f103r",
+      "word_count": 35,
+      "regimen_class": "BALNEO_WASH",
+      "opening_word": "pocharal",
+      "closing_word": "shedy",
+      "boil_step_count": 2,
+      "measured_dose_count": 2,
+      "opening_clause_eva": "pocharal okedar shedy oteey qokey lkar sheeky okalor",
+      "closing_clause_eva": "olshedy qokeey okeeody qoedy ol shedy"
+    },
+    {
+      "recipe_id": "f103r.P4",
+      "folio": "f103r",
+      "word_count": 29,
+      "regimen_class": "BALNEO_WASH",
+      "opening_word": "podar",
+      "closing_word": "shkaiin",
+      "boil_step_count": 0,
+      "measured_dose_count": 6,
+      "opening_clause_eva": "podar sheor qotedy okeey qokar checkhy qokain chedy",
+      "closing_clause_eva": "qoky qotedy qokeey shol qotey shkaiin"
+    },
+    {
+      "recipe_id": "f103r.P5",
+      "folio": "f103r",
+      "word_count": 21,
+      "regimen_class": "BALNEO_WASH",
+      "opening_word": "dshol",
+      "closing_word": "aiin",
+      "boil_step_count": 1,
+      "measured_dose_count": 2,
+      "opening_clause_eva": "dshol sholkar shdaiin cheey rar okeey shcfhedy opcheol",
+      "closing_clause_eva": "qokeey chckhy qokal oty or aiin"
+    },
+    {
+      "recipe_id": "f103r.P6",
+      "folio": "f103r",
+      "word_count": 28,
+      "regimen_class": "BALNEO_WASH",
+      "opening_word": "polchedy",
+      "closing_word": "olor",
+      "boil_step_count": 0,
+      "measured_dose_count": 9,
+      "opening_clause_eva": "polchedy qokeol okain checthy oteeylshedy okain qokain qokalshedy",
+      "closing_clause_eva": "shckhy qokaiin shey qokaiin shedy olor"
+    },
+    {
+      "recipe_id": "f103r.P7",
+      "folio": "f103r",
+      "word_count": 29,
+      "regimen_class": "BALNEO_WASH",
+      "opening_word": "pcheam",
+      "closing_word": "shol",
+      "boil_step_count": 4,
+      "measured_dose_count": 2,
+      "opening_clause_eva": "pcheam sokedy dalkar otal qokal chepy okedy qoky",
+      "closing_clause_eva": "opchy daiin sheckhy lchedy chckhy shol"
+    },
+    {
+      "recipe_id": "f103r.P8",
+      "folio": "f103r",
+      "word_count": 31,
+      "regimen_class": "BALNEO_WASH",
+      "opening_word": "tchoky",
+      "closing_word": "lotor",
+      "boil_step_count": 0,
+      "measured_dose_count": 6,
+      "opening_clause_eva": "tchoky okeal shedy qokal oty opchedy qotain shcthy",
+      "closing_clause_eva": "okeey qotchy shey olcheedar shey lotor"
+    },
+    {
+      "recipe_id": "f103r.P9",
+      "folio": "f103r",
+      "word_count": 28,
+      "regimen_class": "BALNEO_WASH",
+      "opening_word": "qokechy",
+      "closing_word": "chedy",
+      "boil_step_count": 1,
+      "measured_dose_count": 4,
+      "opening_clause_eva": "qokechy okeey qokeey lkeeody sheey qokeey lkeol tchey",
+      "closing_clause_eva": "qokeeechy shokeey qochey qokeey chal chedy"
+    },
+    {
+      "recipe_id": "f103r.P10",
+      "folio": "f103r",
+      "word_count": 28,
+      "regimen_class": "BALNEO_WASH",
+      "opening_word": "pcholkchdy",
+      "closing_word": "oraiin",
+      "boil_step_count": 1,
+      "measured_dose_count": 5,
+      "opening_clause_eva": "pcholkchdy sheckhy qokey okaiin shedy chpchy opchedy oteeykshy",
+      "closing_clause_eva": "qokedy qokal shety otedy shcthy oraiin"
+    },
+    {
+      "recipe_id": "f103r.P13",
+      "folio": "f103r",
+      "word_count": 24,
+      "regimen_class": "BALNEO_WASH",
+      "opening_word": "pchedy",
+      "closing_word": "oteey",
+      "boil_step_count": 3,
+      "measured_dose_count": 2,
+      "opening_clause_eva": "pchedy qokeey qokeodair qokshy qokeedy qokchdy chsky eeey",
+      "closing_clause_eva": "ykeedy qokeey lsheey qotal shedy oteey"
+    },
+    {
+      "recipe_id": "f103r.P14",
+      "folio": "f103r",
+      "word_count": 26,
+      "regimen_class": "BALNEO_WASH",
+      "opening_word": "qokeey",
+      "closing_word": "chalal",
+      "boil_step_count": 1,
+      "measured_dose_count": 1,
+      "opening_clause_eva": "qokeey sheeol shckhy sheol shodyol aiin otedy qoteey",
+      "closing_clause_eva": "qokal dal tshey sheol cheolshy chalal"
+    },
+    {
+      "recipe_id": "f103r.P16",
+      "folio": "f103r",
+      "word_count": 26,
+      "regimen_class": "AQUEOUS_INFUSION",
+      "opening_word": "qokeedy",
+      "closing_word": "oloraiin",
+      "boil_step_count": 2,
+      "measured_dose_count": 1,
+      "opening_clause_eva": "qokeedy qokeedy shol shedar chedy qoteedy oteedy olkeol",
+      "closing_clause_eva": "ssheey okeeo lchey qokaly lcheedy oloraiin"
+    }
+  ]
+}
