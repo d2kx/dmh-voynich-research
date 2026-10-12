@@ -55,9 +55,9 @@ When you strip off the prefix and suffix, you are left with the **Root Stem**:
 
 ---
 
-## Part 2: Page-by-Page Visual Walkthroughs (30 Iconic Folios)
+## Part 2: Page-by-Page Visual Walkthroughs (34 Iconic Folios)
 
-Below are **30 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
+Below are **34 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
 
 ---
 
@@ -518,9 +518,68 @@ Why did the scribe write the Voynich word **`oror`** at the end of a European ch
 
 ---
 
+### 31. Folios `f69v`, `f70r1` & `f70r2` — The Unfolded 3-Wheel Astronomical Trifecta, `f70r2`'s 16-Line Operating Manual ($z = +2.62$) & Scribe 4's Personal Spelling Habits
+* **Section:** Astronomical Unfolded 3-Panel Sheet (`$I=A`, `$Q=J`, Currier B, Scribe 4) | **Page in Yale Scan:** Page 127
+
+![Folio f69v, f70r1 and f70r2 Unfolded Three-Wheel Astronomical Sheet with 16-Line Treatise](../pages/f70r2_astro_concentric_prose_wheel_enh.png)
+
+#### What to Look for on `p127` (`f69v | f70r1 | f70r2`)
+1. **Three Astronomical Wheels Unfolded Side-by-Side:** When page 127 is unfolded flat, you see three distinct circular diagrams in a row:
+   - **Left (`f69v`):** A 28-spoke blue-and-green "organ-pipe" wheel around an 8-pointed star (`121` words).
+   - **Center (`f70r1`):** A 6-pointed star surrounded by a scalloped 6-lobe blue-stippled nebula/cloud ring (`98` words, opening its outer ring with the unmistakable 9-`o` call-sign **`ooooooooolar.sasa`**!).
+   - **Right (`f70r2`):** A human-faced Sun inside a 10-pointed blue-and-white rayed star (`131` ring words).
+2. **The 16-Line Right-Margin Operating Manual (`Attack 185`, `Discovery 202`):** Look to the right of the `f70r2` Sun wheel: written on the outer flap is a **16-line continuous paragraph (`94` words)**—the longest continuous prose block in the Astronomical wheel section! While the `350` words inside the three wheels are almost purely nominal (`qo-` = `1.14%`), that 16-line right-margin paragraph surges **`6.54×` in active `qo-` procedural verbs (`7.45%`)** and repeats **`38.30%` of its exact words (`69.15%` of its root stems)** directly from the three wheels on the same unfolded sheet (`1.59×` lift, $z = +2.62$)!
+3. **Scribe 4's Personal Spelling Fingerprint (`2.46×` `ok-/ot-` & `1.91×` `-ody/-ady`):** Across all `3,343` words written by **Scribe 4** (`f67r1–f73v` wheels + `f95r1–f95v2` herbal foldout), Scribe 4 begins **`30.36%` of all words with `ok-` or `ot-`** (`2.46×` higher than Scribes 1, 2, 3, and 5!) and ends **`5.77%` of all words (`14.29%` on `f70r1`!) with `-ody` or `-ady`** (`1.91×` higher than the other scribes).
+
+---
+
+### 32. Folio `f84r` — The Three-Pool Vertical Hydro-Cascade & How Neighboring Diagram Labels Form Minimal Pairs ($z = +7.74$)
+* **Section:** Balneological / Medical Bathing (`$I=B`, `$Q=M`, Currier B, Scribe 2) | **Page in Yale Scan:** Page 154
+
+![Folio f84r Three-Pool Vertical Hydro-Cascade with Overhead Canopy Labels](../pages/f84r_balneo_canopy_pool_enh.png)
+
+#### What to Look for on `f84r`
+1. **A Three-Story Bath Cascade Fed by One Left-Margin Pipe:** Follow the blue-and-white water pipe down the left edge of `f84r`:
+   - **Top Pool:** A scalloped blue-and-white overhead vapor canopy drips onto 8 waist-deep bathers in a green pool.
+   - **Middle Pool:** The left-margin pipe (labeled **`otaly`** at the junction) feeds an oval green pool of 7 bathers, where the **2nd bather from the left holds a bright blue sphere/sponge** and the **7th bather on the right dips her hand into a red-and-blue cylindrical apothecary jar**!
+   - **Bottom-Left Pool:** The pipe continues down into a clear, unpainted basin of 7 bathers beside the lower recipe paragraph.
+2. **Neighboring Diagram Labels Form Deliberate Minimal Pairs (`Attack 186`, `Discovery 203`):** Look at the labels written across `f84r` (`ololal`, `or.shekar`, `ydy`, `okedy`, `loly`, `doiir`, `olshy`, `otedy`, `lkol`, `okolshy`, `otoly`, `dshedy`, `otaly`): **`64.29%` (`9/14`) of their root stems (`28.57%` exact words)** reappear inside `f84r`'s own `312` prose words, and notice how pairs of labels toggle just **one letter** (`okedy <-> otedy`, `olshy <-> okolshy`, `otoly <-> otaly`, `ololal <-> loly`)! Across all **`1,071` adjacent diagram-label pairs** in the entire manuscript, neighboring labels have a **1-or-2 letter edit distance (`Levenshtein <= 2`) at `1.98×` the random rate (`9.15%` vs `4.62%`, $z = +7.74$)** and **share the exact same canonical root stem at `2.48×` the random rate ($z = +6.40$)**!
+
+---
+
+### 33. Folios `f90r1–f90r2` & `f96r` — Giant Blue Cup-Poppies, 31-Leaf Button Navelwort & the 11-Tuber Palmate Monograph Before the Missing Quire Gap
+* **Section:** Herbal A Unfolded Sheet (`f90r1–f90r2`, Scribe 1) & Late Herbal A (`f96r`, Scribe 1/4) | **Pages in Yale Scan:** Pages 165 & 174
+
+![Folio f90r1 and f90r2 Unfolded Herbal Sheet Facing Pharmaceutical Folio f89v1](../pages/f90r1_f90r2_unfolded_herbal_enh.png)
+
+#### What to Look for on `f90r1–f90r2` (Above) and `f96r` (Below)
+1. **A Physical Spread Bridging Pharmacy Jars (`f89v1`) and Full-Page Plants (`f90r1–f90r2`, above):** Unfolding page 165 reveals Pharmaceutical page `f89v1` on the left (two painted jars and 7 labeled roots) facing two dramatic full-page plants:
+   - **Center (`f90r1`):** Two huge nodding **cobalt-blue cup-shaped flower heads / seed capsules** with pale stippled mouths (*Papaver / Glaucium*), whose 11-line paragraph surges to **`25.00%` `qo-` processing verbs** (the highest `qo-` rate in Currier A Herbal!).
+   - **Right (`f90r2`):** A fan-shaped bush of **31 round green coin/button leaves** radiating from a bulbous collar with a 6-flower raceme (*Cotyledon umbilicus-veneris* / Navelwort or *Lunaria*), whose paragraph surges **`12.37×` in `-aiin` measured dose markers (`18.18%` vs `1.47%` on `f90r1`)**!
+2. **The Final Surviving Herbal Monograph Before the `f97–f98` Gap (`f96r`, below):** Folio `f96r` combines a giant nodding blue-green bell flower head at the top right, **7 claw-fingered palmate leaves**, a swollen white stem ring, and **11 horizontally splayed banana-like brown root tubers** (*Paeonia / Asphodelus / Helleborus*). Look at lines 11 and 12 of the text block at upper left: the upward-pointing green fingers of the top-center leaf poke right into the paragraph, forcing the scribe to split both lines around the leaf tips (`<->`)!
+
+![Folio f96r Drooping Bell-Flower Monograph with 7 Palmate Claw-Leaves and 11 Banana-Tuber Roots](../pages/f96r_herbal_monograph_gap_enh.png)
+
+---
+
+### 34. Folio `f103r` & Page `p213` — The Grand Opening of Quire 20 (`18` Alternating Red/White Stars + `'20'` Quire Mark), Consecutive Recipe Chaining ($z = +11.89$) & the Limp-Vellum Spine
+* **Section:** Starred Master Recipes Opening (`f103r`, `$I=S`, Scribe 3) & Physical Spine (`p213`) | **Pages in Yale Scan:** Pages 184 & 213
+
+![Folio f103r Opening Page of Quire 20 with 18 Alternating Red and White Stars and Bottom-Left 20 Quire Mark](../pages/f103r_quire20_opening_recipes_enh.png)
+
+#### What to Look for on `f103r` (Above) and `p213` (Below)
+1. **Eighteen Strictly Alternating Red & White Stars + the Bottom-Left `'20'` Quire Mark (`f103r`, above):** Look down the left margin of `f103r`, the opening page of the final Starred Master Recipe section:
+   - The **18 tailed stars (`*`)** strictly alternate **Odd (`#1, 3, 5...`) = Solid Red Star** vs. **Even (`#2, 4, 6...`) = Outlined White Star with central dot** down the entire page!
+   - Look at the **bottom-left corner of `f103r`**: written in brown ink is the Hindu-Arabic number **`20`**, explicitly marking the **20th Quire**!
+   - Even more remarkably, both **Recipe #1 at the very top of `f103r`** and **Recipe #18 at the very bottom of `f103r`** open with the exact same framing word **`pchedal`**!
+2. **Consecutive Recipes in Quire 20 Are Topically Chained (`Attack 187`, `Discovery 204`, $z = +11.89$):** Across all `292` starred recipes (`267` adjacent within-page pairs) in Quire 20 (`f103r–f116r`), consecutive recipes $(R_i, R_{i+1})$ on the same page share **`3.105` exact words per pair** vs `2.101` under random recipe permutation (**`1.50×` Jaccard lift, $z = +11.89, p < 10^{-31}$**) and **`6.071` canonical root stems per pair** ($z = +9.03$), while following a U-shaped vertical page trajectory (**Top First Recipe = `59.64` words $\to$ Middle Recipes = `32.97` words $\to$ Bottom Final Recipe = `52.48` words with `80.0%` terminal closure**).
+3. **The Physical Limp-Vellum Spine (`p213`, below):** Together with our fore-edge (`p210–p211`) and tail-edge (`p212`) scans, `p213` completes our 4-edge physical binding inspection of Beinecke MS 408, clearly showing the **3 horizontal raised sewing-station ridges (bands)** where the alum-tawed sewing supports pass through the spine, the head and tail endband tackets at the corners, and the hair-follicle parchment grain of the limp vellum cover.
+
+![Page p213 Physical Limp-Vellum Spine of Beinecke MS 408 with Three Raised Sewing Bands](../pages/p213_physical_spine_head_edge_scan.png)
+
+---
+
 ## Where to Go Next
-* **Want to see all 50 real-world plants, constellations, wheels, bathing diagrams, and visual twins?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)** (`SPEC-01` through `SPEC-50`).
-* **Want to click through 46 pages, decode words interactively, and explore all 10 tabs in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now at **v9.0 — Milestone 200 Discoveries Edition**!).
-* **Want the deep grammatical tables, the Milestone 200 8-State Syntactic State Machine, `=Pt / +Pr` colophon proofs, `f69r` star-numeral forensics, and full 201-discovery research log?** See **[`ROSETTES_ENVELOPE_F69R_WHEEL_AND_200_DISCOVERIES_STATE_MACHINE.md`](ROSETTES_ENVELOPE_F69R_WHEEL_AND_200_DISCOVERIES_STATE_MACHINE.md)**, **[`MICRO_SPACING_F57V_KEY_WHEEL_AND_STEM_INFLECTION_MATRIX.md`](MICRO_SPACING_F57V_KEY_WHEEL_AND_STEM_INFLECTION_MATRIX.md)**, and **[`NOTES.md`](../NOTES.md)**.
-
-
+* **Want to see all 55 real-world plants, constellations, wheels, bathing diagrams, and visual twins?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)** (`SPEC-01` through `SPEC-55`).
+* **Want to click through 50 pages, decode words interactively, and explore all 12 tabs in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now at **v10.0 — Wave 44 Astro Trifecta, Minimal Pairs & Quire 20 Chaining Edition**!).
+* **Want the deep grammatical tables, the Wave 44 Astro Trifecta / Minimal-Pair / Quire 20 Chaining proofs, the Milestone 200 8-State Syntactic State Machine, and full 205-discovery research log?** See **[`ASTRO_TRIFECTA_BALNEO_MINIMAL_PAIRS_AND_QUIRE20_CHAINING.md`](ASTRO_TRIFECTA_BALNEO_MINIMAL_PAIRS_AND_QUIRE20_CHAINING.md)**, **[`ROSETTES_ENVELOPE_F69R_WHEEL_AND_200_DISCOVERIES_STATE_MACHINE.md`](ROSETTES_ENVELOPE_F69R_WHEEL_AND_200_DISCOVERIES_STATE_MACHINE.md)**, and **[`NOTES.md`](../NOTES.md)**.

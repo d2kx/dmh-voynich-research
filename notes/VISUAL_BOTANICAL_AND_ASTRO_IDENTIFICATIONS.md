@@ -1,10 +1,10 @@
 # Visual Botanical, Astrological, Balneological & Cosmological Crib Identification Dossier
 
-> **Purpose of this Dossier:** Statistical analysis alone cannot tell you whether a plant stem means *Nightshade* or *Alkanet*, or what a painted water pipe or star-wheel is doing. To ground Voynich root words in the real physical world, we must pair **high-resolution visual inspection of the paintings** with **the exact Voynich labels written on those drawings** and **how those words behave in the recipe sections**. This dossier compiles the **50 strongest visual botanical, astronomical, balneological, cosmological, and pharmaceutical identifications** in the manuscript.
+> **Purpose of this Dossier:** Statistical analysis alone cannot tell you whether a plant stem means *Nightshade* or *Alkanet*, or what a painted water pipe or star-wheel is doing. To ground Voynich root words in the real physical world, we must pair **high-resolution visual inspection of the paintings** with **the exact Voynich labels written on those drawings** and **how those words behave in the recipe sections**. This dossier compiles the **55 strongest visual botanical, astronomical, balneological, cosmological, and pharmaceutical identifications** in the manuscript.
 
 ---
 
-## Quick Summary Table: The 50 Flagship Visual Identifications (`SPEC-01` – `SPEC-50`)
+## Quick Summary Table: The 55 Flagship Visual Identifications (`SPEC-01` – `SPEC-55`)
 
 | ID | Folio(s) | Painted Subject | Real-World Identification (15th-c. Herbal / Astronomy / Balneology) | Key Voynich Words / Stems | Why the Match Holds Up |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -58,10 +58,15 @@
 | **SPEC-48** | `f83r` (p.152) | **The Rainbow Arch Tube (`otedy / okain`), Conical Nymph Chalice & Blue Rosette Bladder (`f83r`)** | *Canalis Arcuatus et Vesica Balnearia (Curved Arch Conduit Feeding a Conical Bath Funnel & Spoked Reservoir)* | `otedy / qotedy (`s_ted` active/participial flow stem), okain / qokain (`s_ka` vessel/measure stem)` | Tier A+ (4 Labeled Hydraulic Components `otedy, okain, roldal, dalchedy` + Inset Prose) |
 | **SPEC-49** | `f93r` (p.168) | **The Giant Stippled Elecampane / Sunflower Receptacle (*Inula helenium / Helianthus* Debate, `f93r`)** | *Inula helenium L. (Elecampane / Enula Campana) or Cynara / Carlina (Giant Stippled Composite Receptacle)* | `chol / chokaiin (`s_ch` dominant leaf/flower stem in Currier A), kodar / qokcho (`s_kod / s_kch` root/flower head preparation)` | Tier A+ (Iconic Full-Page Stippled Composite Blossom + 3-Line Right-Rim Flower Caption) |
 | **SPEC-50** | `f100v, f101r & f101v` (p.180) | **The `f101v` Folded/Unfolded Pharmaceutical Master Sheet With Human-Faced Mandrake Root & 3 Jars** | *Mandragora officinarum (Anthropomorphic Human-Faced Root in Row 3, 4th from left on `p180`) + Stellaria / Aster (6-Pointed Star Shrub in Row 2)* | `otol / okol (`s_tol / s_kol` shelf & jar labels), odar / orar (`s_d / s_r` root labels above Row 2)` | Tier A+ (Eyewitness Human-Faced *Mandragora* Root on Pharma Shelf + Complete Quire 19 Foldout Geometry) |
+| **SPEC-51** | `f69v, f70r1 & f70r2` (p.127) | **The `f69v | f70r1 | f70r2` Unfolded 3-Wheel Trifecta & `f70r2` 16-Line Right-Margin Treatise (`38.30%` Exact Echo, $z = +2.62$)** | *Tractatus Trium Rotarum Coelestium (28-Spoke Wheel `f69v` + 6-Lobe Nebula Wheel `f70r1` + 10-Ray Sun Wheel & Treatise `f70r2`)* | `otaldal / chotal (`s_tal` shared wheel-to-treatise compound stem), qokal / okal (`s_tal` stellar essence + `qo-` verbalization)` | Tier A+ (3-Wheel Unfolded Panorama + 16-Line Treatise Echoing 38.30% Exact Wheel Words, z = +2.62) |
+| **SPEC-52** | `f84r` (p.154) | **The `f84r` Three-Pool Vertical Bath Cascade & Canopy Minimal Pairs (`okedy <-> otedy`, `olshy <-> okolshy`, `otoly <-> otaly`)** | *Triplex Balneum per Canalem Sinistrum (3-Tiered Immersion Pools Fed by a Single Left-Margin Conduit)* | `okedy / otedy (`k <-> t` minimal-pair bath states echoed verbatim in `f84r` prose!), olshy / okolshy (`ol-` vs `okol-` minimal pair)` | Tier A+ (3-Pool Left-Pipe Hydro-Cascade + Global Minimal-Pair Label Proof, z = +7.74) |
+| **SPEC-53** | `f90r1 & f90r2` (p.165) | **The `f90r1–f90r2` Unfolded Herbal Spread: Giant Blue Cup-Poppy (`f90r1`) & 31-Leaf Button Navelwort (`f90r2`)** | *f90r1: Papaver somniferum / Glaucium (Nodding Cobalt-Blue Cup-Capsules with Stippled Mouths & Jagged Holly Leaves)* | `qokchol / qokchy (`25.00%` `qo-` active processing surge on `f90r1`), chodaiin / daiin (`18.18%` `-aiin` nominal dosing surge on `f90r2`)` | Tier A+ (Unfolded Pharma-to-Herbal Bridge Spread + Sharp 25% `qo-` vs 18.2% `-aiin` Contrast) |
+| **SPEC-54** | `f96r` (p.174) | **The `f96r` Drooping Trumpet-Bell, 7 Palmate Claw-Leaves & 11 Fasciculated Banana-Tuber Roots (`20.24%` `cth/ckh`)** | *Paeonia officinalis / Asphodelus / Helleborus (11 Fasciculated Spindle/Banana Root Tubers + 7 Deeply Digitate Claw-Leaves + Nodding Bell-Head)* | `ctho / cthy / ckhy (`20.24%` split-gallows `cth/ckh` rate = `2.08×` Scribe 1 mean!), cheody / archeody (`10.71%` `-ody/-ady` C-4 dialect suffix)` | Tier A (Distinctive 11-Spindle-Tuber Root & 7-Digitate Leaf Morphology + `<->` Leaf-Tip Split) |
+| **SPEC-55** | `f103r & p213` (p.184) | **The `f103r` Opening Page of Quire 20 (`18` Red/White Alternating Stars, Bottom-Left `'20'` Mark & $z = +11.89$ Recipe Chaining)** | *Incipit Antidotarium Quaternio XX (`f103r` Grand Opening of the 292-Recipe Starred Master Formulary with bottom-left Arabic numeral `20`)* | `qokeedy / qokedy (`26.29%` `qo-` in Even White-Star recipes vs `19.55%` in Odd Red-Star recipes on `f103r`), chedy / shedy (`31.1%` `-edy` across `f103r`)` | Tier A+ (18 Alternating Red/White Stars + Bottom-Left `'20'` Quire Mark + z = +11.89 Recipe Chaining) |
 
 ---
 
-## Detailed Visual & Linguistic Dossiers (`SPEC-01` – `SPEC-50`)
+## Detailed Visual & Linguistic Dossiers (`SPEC-01` – `SPEC-55`)
 
 ### SPEC-01: Folio `f1v` — Deadly Nightshade / Belladonna
 * **Manuscript Section:** Herbal A (Scribe 1) (Yale PDF Page 4)
@@ -1210,6 +1215,121 @@ Folio f93r is one of the most famous and visually striking plant paintings in th
 
 #### 3. Plain-English Explanation
 Look closely at Row 3, 4th plant from the left on `pages/f101v_pharma_five_rows_roots_enh.png` (`p180`): the round, bulbous root has **two eyes, a nose, and a mouth drawn right inside the tuber**! Just like the twin human-faced roots on Herbal page `f33r` (`SPEC-28`), this is the classic medieval visual marker for **Mandrake (*Mandragora*)**, placed right on the apothecary shelf beside three painted storage jars and two compounding recipes below. Pairing `p179`, `p180`, and `p181` shows how the Quire 19 foldout panels open like an accordion to display dozens of labeled roots across contiguous recipe columns.
+
+---
+
+### SPEC-51: Folio `f69v, f70r1 & f70r2` — The `f69v | f70r1 | f70r2` Unfolded 3-Wheel Trifecta & `f70r2` 16-Line Right-Margin Treatise (`38.30%` Exact Echo, $z = +2.62$)
+* **Manuscript Section:** Astronomical Unfolded 3-Wheel Trifecta (`$I=A`, `$Q=J`, `$L=B`, Scribe 4) (Yale PDF Page 127)
+* **Primary Scientific / Historical Candidates:** *Tractatus Trium Rotarum Coelestium (28-Spoke Wheel `f69v` + 6-Lobe Nebula Wheel `f70r1` + 10-Ray Sun Wheel & Treatise `f70r2`)*, *Scribe 4 (`$H=4`) Personal Orthographic Signature (`30.36%` `ok-/ot-` prefixes = `2.46×` lift; `5.77%` `-ody/-ady` = `1.91×` lift, `Attack 185`)*
+* **15th-Century European Parallels:** 15th-century Northern Italian Planetary/Nebular Rotae with right-margin explanatory canons (*Canones in Motibus Coelestibus*)
+* **Confidence Rating:** **Tier A+ (3-Wheel Unfolded Panorama + 16-Line Treatise Echoing 38.30% Exact Wheel Words, z = +2.62)**
+
+![f69v, f70r1 & f70r2 — The `f69v | f70r1 | f70r2` Unfolded 3-Wheel Trifecta & `f70r2` 16-Line Right-Margin Treatise (`38.30%` Exact Echo, $z = +2.62$)](../pages/f70r2_astro_concentric_prose_wheel_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Unfolding `p127` (`pages/f70r2_astro_concentric_prose_wheel_enh.png`) reveals three distinct circular wheels side-by-side: `f69v` (left, 28 blue/green spokes), `f70r1` (center, 6-lobe blue-stippled nebula/cloud ring opening with `<f70r1.1,@Cc> ooooooooolar.sasa`), and `f70r2` (right, 10-pointed blue/white Sun wheel)
+- To the right of the `f70r2` Sun wheel sits a **16-line continuous prose treatise (`<f70r2.1,@P1>`–`<f70r2.16,+P1>`, `94` words)**—the longest continuous paragraph block in the Astronomical wheel section
+- While the `350` wheel words across `f69v | f70r1 | f70r2` are almost purely nominal (`qo-` = `1.14%`), `f70r2`'s right-margin treatise surges **`6.54×` in `qo-` procedural verbs (`7.45%`)** and repeats **`38.30%` of its exact tokens (`69.15%` root stems)** directly from the 3 wheels on the same unfolded sheet (`1.59×` lift, $z = +2.62$)!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `otchey.sheol.chkey (`f70r2.1` treatise opener) / ooooooooolar.sasa (`f70r1.1` ring call-sign)`
+- **Dominant Root Stems on This Page:** `otaldal / chotal (`s_tal` shared wheel-to-treatise compound stem)`, `qokal / okal (`s_tal` stellar essence + `qo-` verbalization)`, `okeey / cheey (`s_te / s_che` prepared extract)`
+- **Where This Ingredient Reappears in Recipes:** Demonstrates Scribe 4's `2.46×` `ok-/ot-` prefix surge (`30.36%`) and `1.91×` `-ody/-ady` surge (`5.77%`) across `3,343` words (`Attack 185`)!
+
+#### 3. Plain-English Explanation
+When you unfold page 127 of the Yale scan (`pages/f70r2_astro_concentric_prose_wheel_enh.png`), you see three astronomical wheels side by side (`f69v`, `f70r1`, and `f70r2`) plus a 16-line block of continuous paragraph prose written on the far right flap of `f70r2`. What is that 16-line paragraph doing beside three star wheels? In `Attack 185`, we proved that **`38.30%` of the words (`69.15%` of the root stems)** in that right-margin paragraph repeat words written inside the three wheels on the exact same unfolded sheet ($z = +2.62$), while adding a **`6.54×` surge in `qo-` action verbs**—acting as the explicit operating manual (*Canon*) for reading the three wheels!
+
+---
+
+### SPEC-52: Folio `f84r` — The `f84r` Three-Pool Vertical Bath Cascade & Canopy Minimal Pairs (`okedy <-> otedy`, `olshy <-> okolshy`, `otoly <-> otaly`)
+* **Manuscript Section:** Balneological / Biological (`$I=B`, `$Q=M`, `$L=B`, Scribe 2) (Yale PDF Page 154)
+* **Primary Scientific / Historical Candidates:** *Triplex Balneum per Canalem Sinistrum (3-Tiered Immersion Pools Fed by a Single Left-Margin Conduit)*, *Global Diagram-Label Minimal-Pair Chaining Proof (`9.15%` `Lev <= 2` vs `4.62%` null, $z = +7.74$, `Attack 186`)*
+* **15th-Century European Parallels:** 15th-century Italian *De Balneis* multi-pool thermal cascades with graded temperature/mineral stages
+* **Confidence Rating:** **Tier A+ (3-Pool Left-Pipe Hydro-Cascade + Global Minimal-Pair Label Proof, z = +7.74)**
+
+![f84r — The `f84r` Three-Pool Vertical Bath Cascade & Canopy Minimal Pairs (`okedy <-> otedy`, `olshy <-> okolshy`, `otoly <-> otaly`)](../pages/f84r_balneo_canopy_pool_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Three stacked immersion pools connected down the entire left margin by a single continuous blue-and-white water conduit (`pages/f84r_balneo_canopy_pool_enh.png`)
+- **Top Pool**: A scalloped blue-and-white overhead shower canopy drips onto 8 waist-deep nymphs in a green pool, labeled with 12 canopy/nymph words (`ololal, or.shekar, ydy, okedy, loly, doiir, olshy, otedy, lkol, okolshy, otoly, dshedy`)
+- **Middle & Bottom Pools**: In the middle green oval pool (marked `otaly` at the left pipe junction), the 2nd nymph holds a blue sphere/sponge and the 7th nymph dips her hand into a red-and-blue cylindrical jar, while the pipe continues down to 7 nymphs in the bottom-left clear basin
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `kol.chedy.qokeey.otedy (`f84r` Para 1 opener) / qoteedy.qokol.otedy (`f84r` Para 2 opener)`
+- **Dominant Root Stems on This Page:** `okedy / otedy (`k <-> t` minimal-pair bath states echoed verbatim in `f84r` prose!)`, `olshy / okolshy (`ol-` vs `okol-` minimal pair)`, `otoly / otaly (`-ol` vs `-al` vowel-grade minimal pair)`
+- **Where This Ingredient Reappears in Recipes:** 64.29% (`9/14`) of `f84r`'s label stems (`28.57%` exact words) appear inside `f84r`'s own `312` prose words (`Attack 186`)!
+
+#### 3. Plain-English Explanation
+Folio f84r (`pages/f84r_balneo_canopy_pool_enh.png`) shows a three-story hydrotherapy cascade where a single water pipe runs down the left margin from a top canopy-shower pool (`8` nymphs), through a middle medicated pool (`7` nymphs with a blue sponge and a red-and-blue jar), into a bottom clear-water pool (`7` nymphs). Look at the labels written under the top canopy (`okedy, otedy, olshy, okolshy, otoly, otaly`): they form **deliberate minimal pairs** that toggle a single consonant (`k <-> t`) or vowel (`o <-> a`). In `Attack 186`, we proved across all `1,071` adjacent diagram-label pairs in the manuscript that neighboring labels form minimal pairs (`edit distance <= 2`) at **nearly double the random rate (`9.15%` vs `4.62%`, $z = +7.74$)**!
+
+---
+
+### SPEC-53: Folio `f90r1 & f90r2` — The `f90r1–f90r2` Unfolded Herbal Spread: Giant Blue Cup-Poppy (`f90r1`) & 31-Leaf Button Navelwort (`f90r2`)
+* **Manuscript Section:** Herbal Unfolded 2-Panel Sheet (`$I=H`, `$Q=P`, `$L=A`, Scribe 1) (Yale PDF Page 165)
+* **Primary Scientific / Historical Candidates:** *f90r1: Papaver somniferum / Glaucium (Nodding Cobalt-Blue Cup-Capsules with Stippled Mouths & Jagged Holly Leaves)*, *f90r2: Cotyledon umbilicus-veneris / Lunaria (31 Round Button-Leaves Radiating from a Striated Bulbous Collar + 6-Flower Raceme)*
+* **15th-Century European Parallels:** 15th-century Northern Italian Herbals (*Papaver / Glaucium* cup-capsules and *Umbilicus Veneris / Lunaria* round coin-leaf fans)
+* **Confidence Rating:** **Tier A+ (Unfolded Pharma-to-Herbal Bridge Spread + Sharp 25% `qo-` vs 18.2% `-aiin` Contrast)**
+
+![f90r1 & f90r2 — The `f90r1–f90r2` Unfolded Herbal Spread: Giant Blue Cup-Poppy (`f90r1`) & 31-Leaf Button Navelwort (`f90r2`)](../pages/f90r1_f90r2_unfolded_herbal_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Unfolding `p165` (`pages/f90r1_f90r2_unfolded_herbal_enh.png`) shows Pharmaceutical `f89v1` on the left (2 jars + 7 labeled roots) facing the 2-panel Herbal foldout `f90r1` (center) and `f90r2` (right)
+- **Center Panel (`f90r1`)**: Two enormous nodding cobalt-blue cup-shaped flower heads / seed capsules with pale stippled mouths, jagged dark-green basal leaves, splayed pale roots, and an 11-line paragraph (`25.00%` `qo-` rate!) tucked between the two blue heads
+- **Right Panel (`f90r2`)**: A fan-shaped bush of `31` round green coin/button leaves radiating from a white bulbous collar, topped by an arching raceme of `6` tubular flowers at upper left and a twisting brown rhizome with two side tubers below (`18.18%` `-aiin` nominal rate = `12.37×` higher than `f90r1`!)
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `pchodar.qokchol (`f90r1.1` opener) / kodar.chody (`f90r2.1` opener)`
+- **Dominant Root Stems on This Page:** `qokchol / qokchy (`25.00%` `qo-` active processing surge on `f90r1`)`, `chodaiin / daiin (`18.18%` `-aiin` nominal dosing surge on `f90r2`)`, `cthol / cthy (`7.35%–11.36%` split-gallows botanical stems)`
+- **Where This Ingredient Reappears in Recipes:** Directly faces `f89v1` on the unfolded `p165` spread, visually linking full-plant Herbal monographs (`f90r1–r2`) to dissected Pharmaceutical root shelves (`f89v1`)!
+
+#### 3. Plain-English Explanation
+Page 165 of the Yale scan (`pages/f90r1_f90r2_unfolded_herbal_enh.png`) is a physical bridge between the Pharmaceutical and Herbal sections: on the left sits `f89v1` with two apothecary jars and 7 cut roots, while unfolding the right side reveals two extraordinary full-page plants side by side (`f90r1` with two giant cobalt-blue cup-shaped seed capsules, and `f90r2` with a fan of 31 round green coin-leaves and a 6-flower raceme). In `Attack 185`, we found that `f90r1` surges to **`25.00%` `qo-` processing verbs** (describing how to process the blue capsules), while `f90r2` surges **`12.37×` in `-aiin` nominal dosing markers (`18.18%`)**!
+
+---
+
+### SPEC-54: Folio `f96r` — The `f96r` Drooping Trumpet-Bell, 7 Palmate Claw-Leaves & 11 Fasciculated Banana-Tuber Roots (`20.24%` `cth/ckh`)
+* **Manuscript Section:** Herbal Monograph Before Quire 17–18 Gap (`$I=H`, `$Q=Q`, `$L=A`, Scribe 1/4) (Yale PDF Page 174)
+* **Primary Scientific / Historical Candidates:** *Paeonia officinalis / Asphodelus / Helleborus (11 Fasciculated Spindle/Banana Root Tubers + 7 Deeply Digitate Claw-Leaves + Nodding Bell-Head)*, *Final Surviving Currier A Herbal Folio (`f96r/v`) Before the Missing `f97–f98` Gap (`Attack 185`)*
+* **15th-Century European Parallels:** 15th-century Northern Italian Herbals (*Paeonia / Asphodelus* fasciculated spindle-tuber roots and *Helleborus* digitate leaves)
+* **Confidence Rating:** **Tier A (Distinctive 11-Spindle-Tuber Root & 7-Digitate Leaf Morphology + `<->` Leaf-Tip Split)**
+
+![f96r — The `f96r` Drooping Trumpet-Bell, 7 Palmate Claw-Leaves & 11 Fasciculated Banana-Tuber Roots (`20.24%` `cth/ckh`)](../pages/f96r_herbal_monograph_gap_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Single giant drooping/nodding blue-green trumpet/bell flower head at top right with a pale yellow stippled, fringed mouth (`pages/f96r_herbal_monograph_gap_enh.png`)
+- Seven deeply digitate/palmately-lobed dark green leaves with claw-like fingers arranged around a central stem with a swollen white lower node
+- At the base, **11 thick, horizontally splayed brown spindle/banana-shaped root tubers** with vertical stipple-hatching fan out across the bottom margin, while at upper left lines `f96r.11–12` split right around the top-center palmate leaf spikes (`<->`)
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `tol.shol.opchol (`f96r.1` Gallows opener)`
+- **Dominant Root Stems on This Page:** `ctho / cthy / ckhy (`20.24%` split-gallows `cth/ckh` rate = `2.08×` Scribe 1 mean!)`, `cheody / archeody (`10.71%` `-ody/-ady` C-4 dialect suffix)`, `shol / chol / teol (`47.62%` liquid suffixes `-al/-ar/-or/-ol`)`
+- **Where This Ingredient Reappears in Recipes:** Exhibits Currier A's `C=4` late-quire dialect with `20.24%` `cth/ckh` split gallows and `10.71%` `-ody/-ady` (`Attack 185`)!
+
+#### 3. Plain-English Explanation
+Folio f96r (`pages/f96r_herbal_monograph_gap_enh.png`) is the last surviving Herbal monograph before the missing pages `f97–f98` and the start of the Pharmaceutical section (`f99r`). Its painting combines a huge nodding blue-green bell flower head at the top right, seven claw-fingered green leaves in the middle, and 11 banana-shaped brown root tubers at the bottom. Look at lines 11 and 12 of the text block at the upper left: the upward-pointing green spikes of the top center leaf poke right into the paragraph, forcing the scribe to split both lines around the leaf tips (`teol.cheody.shodol.qokchod <-> s.aiin.chokey`).
+
+---
+
+### SPEC-55: Folio `f103r & p213` — The `f103r` Opening Page of Quire 20 (`18` Red/White Alternating Stars, Bottom-Left `'20'` Mark & $z = +11.89$ Recipe Chaining)
+* **Manuscript Section:** Quire 20 Starred Master Recipes Opening (`$I=S`, `$Q=T`, `$L=B`, Scribe 3) & Limp-Vellum Spine (`p213`) (Yale PDF Page 184)
+* **Primary Scientific / Historical Candidates:** *Incipit Antidotarium Quaternio XX (`f103r` Grand Opening of the 292-Recipe Starred Master Formulary with bottom-left Arabic numeral `20`)*, *Consecutive Recipe Lexical & Stem Chaining (`3.105` shared exact words, $z = +11.89$; `6.071` shared stems, $z = +9.03$, `Attack 187`)*
+* **15th-Century European Parallels:** 15th-century Italian *Antidotarium / Receptarium* quire openings with alternating red/unpainted paragraph rubrication and limp-vellum 3-band sewing (`p213`)
+* **Confidence Rating:** **Tier A+ (18 Alternating Red/White Stars + Bottom-Left `'20'` Quire Mark + z = +11.89 Recipe Chaining)**
+
+![f103r & p213 — The `f103r` Opening Page of Quire 20 (`18` Red/White Alternating Stars, Bottom-Left `'20'` Mark & $z = +11.89$ Recipe Chaining)](../pages/f103r_quire20_opening_recipes_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- On `f103r` (`pages/f103r_quire20_opening_recipes_enh.png`, `p184`), **18 left-margin stars (`*`)** mark 18 consecutive recipes (`52` lines) in a **strict alternating color code: Odd (`#1, 3, 5...`) = Solid Red Star vs. Even (`#2, 4, 6...`) = Outlined White Star with central dot**
+- At the **bottom-left corner of `f103r`**, the Hindu-Arabic numeral **`20`** is written in brown ink—explicitly numbering **Quire 20** (where the final Starred Recipe section begins)!
+- Paired with `pages/p213_physical_spine_head_edge_scan.png` (`p213`), which shows the physical **limp-vellum spine of Beinecke MS 408** with its **3 horizontal raised sewing-station ridges (bands)** and head/tail endband tackets
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `pchedal (`f103r` Recipe #1 & Recipe #18 framing opener!)`
+- **Dominant Root Stems on This Page:** `qokeedy / qokedy (`26.29%` `qo-` in Even White-Star recipes vs `19.55%` in Odd Red-Star recipes on `f103r`)`, `chedy / shedy (`31.1%` `-edy` across `f103r`)`, `pchedal (frames both the 1st and 18th recipe on `f103r`!)`
+- **Where This Ingredient Reappears in Recipes:** Across all `292` Quire 20 recipes (`267` adjacent pairs), consecutive recipes share `3.105` exact words ($z = +11.89$) and `6.071` root stems ($z = +9.03$, `Attack 187`)!
+
+#### 3. Plain-English Explanation
+Folio f103r (`pages/f103r_quire20_opening_recipes_enh.png`) is the grand opening page of Quire 20—the final 292-recipe master formulary of the Voynich Manuscript. Look down the left margin: 18 tailed stars strictly alternate **Solid Red (`#1, 3, 5...`) and Outlined White (`#2, 4, 6...`)**, and at the bottom-left corner sits the Arabic number **`20`** (`Quire 20`). Notice too that both Recipe #1 at the very top of `f103r` and Recipe #18 at the very bottom open with the exact same word **`pchedal`**! In `Attack 187`, we proved across all 292 recipes in Quire 20 that consecutive recipes on the same page share **`3.11` exact words ($z = +11.89$) and `6.07` root stems ($z = +9.03$)**—proving that adjacent recipes are topically chained variations on the same base preparation.
 
 ---
 

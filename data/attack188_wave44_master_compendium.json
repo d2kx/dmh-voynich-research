@@ -1,0 +1,37 @@
+{
+  "attack": "Attack 188",
+  "discovery": "Discovery 205",
+  "wave": "Wave 44",
+  "explorer_version": "v10.0",
+  "title": "Wave 44 Master Compendium: Astro Trifecta (p127), Diagram-Label Minimal Pairs (z=+7.74), Quire 20 Recipe Chaining (z=+11.89), and Complete 4-Edge Physical Binding Forensics",
+  "summary_metrics": {
+    "f70r2_prose_to_trifecta_exact_cov": 0.383,
+    "f70r2_prose_to_trifecta_z_exact": 2.62,
+    "f70r2_prose_to_trifecta_stem_cov": 0.6915,
+    "scribe4_ok_ot_lift": 2.46,
+    "scribe4_ody_ady_lift": 1.91,
+    "global_label_minimal_pair_rate": 0.0915,
+    "global_label_minimal_pair_lift": 1.98,
+    "global_label_minimal_pair_z": 7.74,
+    "global_label_same_stem_z": 6.4,
+    "global_label_edit_dist_z": -10.43,
+    "quire20_consecutive_exact_jaccard_z": 11.89,
+    "quire20_consecutive_stem_jaccard_z": 9.03,
+    "quire20_consecutive_shared_exact_words": 3.105,
+    "quire20_consecutive_shared_stems": 6.071
+  },
+  "physical_4_edge_forensics": {
+    "p210": "Fore-edge & board interior view showing limp vellum turn-ins",
+    "p211": "Physical fore-edge of the 18 surviving quires showing multi-panel foldout fore-edge creases (f67-f73, f85-f86, f89-f90, f99-f102)",
+    "p212": "Physical tail-edge of the bound vellum block showing nested quire gatherings and folded sheet bottom edges",
+    "p213": "Physical limp-vellum spine showing 3 horizontal raised sewing-station ridges (bands), head/tail endband tackets, hair-follicle parchment grain, and lower-right fibrous abrasion patch"
+  },
+  "deliverables_synced": {
+    "plain_english_guide_walkthroughs": 34,
+    "visual_identifications_specimens": 55,
+    "interactive_explorer_tabs": 12,
+    "interactive_explorer_walkthroughs": 50,
+    "total_discoveries": 205,
+    "total_attacks": 188
+  }
+}

@@ -1,0 +1,979 @@
+{
+  "attack": "Attack 186",
+  "discovery": "Discovery 203",
+  "title": "f84r Three-Pool Vertical Hydro-Cascade, Canopy Minimal-Pair Alternation, and Global Diagram-Label Minimal-Pair Chaining",
+  "f84r_hydro_cascade": {
+    "n_labels": 14,
+    "n_prose_paragraphs": 2,
+    "n_prose_words": 312,
+    "labels": [
+      {
+        "line_id": "f84r.1",
+        "loc": "@Lt",
+        "words": [
+          "ololal"
+        ],
+        "stems": [
+          "lol"
+        ],
+        "in_f84r_prose_exact": [
+          false
+        ],
+        "in_f84r_prose_stem": [
+          false
+        ]
+      },
+      {
+        "line_id": "f84r.2",
+        "loc": "@Ln",
+        "words": [
+          "or",
+          "shekar"
+        ],
+        "stems": [
+          "or",
+          "het"
+        ],
+        "in_f84r_prose_exact": [
+          true,
+          false
+        ],
+        "in_f84r_prose_stem": [
+          true,
+          true
+        ]
+      },
+      {
+        "line_id": "f84r.3",
+        "loc": "+Ln",
+        "words": [
+          "ydy"
+        ],
+        "stems": [
+          "yd"
+        ],
+        "in_f84r_prose_exact": [
+          false
+        ],
+        "in_f84r_prose_stem": [
+          false
+        ]
+      },
+      {
+        "line_id": "f84r.4",
+        "loc": "@Ln",
+        "words": [
+          "okedy"
+        ],
+        "stems": [
+          "te"
+        ],
+        "in_f84r_prose_exact": [
+          true
+        ],
+        "in_f84r_prose_stem": [
+          true
+        ]
+      },
+      {
+        "line_id": "f84r.5",
+        "loc": "=Ln",
+        "words": [
+          "loly"
+        ],
+        "stems": [
+          "lol"
+        ],
+        "in_f84r_prose_exact": [
+          false
+        ],
+        "in_f84r_prose_stem": [
+          false
+        ]
+      },
+      {
+        "line_id": "f84r.6",
+        "loc": "@Ln",
+        "words": [
+          "doiir"
+        ],
+        "stems": [
+          "oir"
+        ],
+        "in_f84r_prose_exact": [
+          false
+        ],
+        "in_f84r_prose_stem": [
+          false
+        ]
+      },
+      {
+        "line_id": "f84r.7",
+        "loc": "=Ln",
+        "words": [
+          "olshy"
+        ],
+        "stems": [
+          "lsh"
+        ],
+        "in_f84r_prose_exact": [
+          false
+        ],
+        "in_f84r_prose_stem": [
+          true
+        ]
+      },
+      {
+        "line_id": "f84r.8",
+        "loc": "@Ln",
+        "words": [
+          "otedy"
+        ],
+        "stems": [
+          "te"
+        ],
+        "in_f84r_prose_exact": [
+          true
+        ],
+        "in_f84r_prose_stem": [
+          true
+        ]
+      },
+      {
+        "line_id": "f84r.9",
+        "loc": "=Ln",
+        "words": [
+          "lkol"
+        ],
+        "stems": [
+          "lt"
+        ],
+        "in_f84r_prose_exact": [
+          false
+        ],
+        "in_f84r_prose_stem": [
+          true
+        ]
+      },
+      {
+        "line_id": "f84r.10",
+        "loc": "@Ln",
+        "words": [
+          "okolshy"
+        ],
+        "stems": [
+          "tolsh"
+        ],
+        "in_f84r_prose_exact": [
+          false
+        ],
+        "in_f84r_prose_stem": [
+          false
+        ]
+      },
+      {
+        "line_id": "f84r.11",
+        "loc": "@Ln",
+        "words": [
+          "otoly"
+        ],
+        "stems": [
+          "tol"
+        ],
+        "in_f84r_prose_exact": [
+          false
+        ],
+        "in_f84r_prose_stem": [
+          true
+        ]
+      },
+      {
+        "line_id": "f84r.12",
+        "loc": "@Ln",
+        "words": [
+          "dshedy"
+        ],
+        "stems": [
+          "sh"
+        ],
+        "in_f84r_prose_exact": [
+          true
+        ],
+        "in_f84r_prose_stem": [
+          true
+        ]
+      },
+      {
+        "line_id": "f84r.47",
+        "loc": "@Lt",
+        "words": [
+          "otaly"
+        ],
+        "stems": [
+          "tal"
+        ],
+        "in_f84r_prose_exact": [
+          false
+        ],
+        "in_f84r_prose_stem": [
+          true
+        ]
+      }
+    ],
+    "adjacent_label_pairs": [
+      {
+        "pair": "ololal -> or",
+        "edit_distance": 5,
+        "same_canonical_stem": false,
+        "stem_1": "lol",
+        "stem_2": "or"
+      },
+      {
+        "pair": "or -> shekar",
+        "edit_distance": 5,
+        "same_canonical_stem": false,
+        "stem_1": "or",
+        "stem_2": "het"
+      },
+      {
+        "pair": "shekar -> ydy",
+        "edit_distance": 6,
+        "same_canonical_stem": false,
+        "stem_1": "het",
+        "stem_2": "yd"
+      },
+      {
+        "pair": "ydy -> okedy",
+        "edit_distance": 3,
+        "same_canonical_stem": false,
+        "stem_1": "yd",
+        "stem_2": "te"
+      },
+      {
+        "pair": "okedy -> loly",
+        "edit_distance": 4,
+        "same_canonical_stem": false,
+        "stem_1": "te",
+        "stem_2": "lol"
+      },
+      {
+        "pair": "loly -> doiir",
+        "edit_distance": 4,
+        "same_canonical_stem": false,
+        "stem_1": "lol",
+        "stem_2": "oir"
+      },
+      {
+        "pair": "doiir -> olshy",
+        "edit_distance": 5,
+        "same_canonical_stem": false,
+        "stem_1": "oir",
+        "stem_2": "lsh"
+      },
+      {
+        "pair": "olshy -> otedy",
+        "edit_distance": 3,
+        "same_canonical_stem": false,
+        "stem_1": "lsh",
+        "stem_2": "te"
+      },
+      {
+        "pair": "otedy -> lkol",
+        "edit_distance": 5,
+        "same_canonical_stem": false,
+        "stem_1": "te",
+        "stem_2": "lt"
+      },
+      {
+        "pair": "lkol -> okolshy",
+        "edit_distance": 4,
+        "same_canonical_stem": false,
+        "stem_1": "lt",
+        "stem_2": "tolsh"
+      },
+      {
+        "pair": "okolshy -> otoly",
+        "edit_distance": 3,
+        "same_canonical_stem": false,
+        "stem_1": "tolsh",
+        "stem_2": "tol"
+      },
+      {
+        "pair": "otoly -> dshedy",
+        "edit_distance": 5,
+        "same_canonical_stem": false,
+        "stem_1": "tol",
+        "stem_2": "sh"
+      },
+      {
+        "pair": "dshedy -> otaly",
+        "edit_distance": 5,
+        "same_canonical_stem": false,
+        "stem_1": "sh",
+        "stem_2": "tal"
+      }
+    ],
+    "exact_echo_in_f84r_prose": 0.2857,
+    "stem_echo_in_f84r_prose": 0.6429,
+    "paragraph_summaries": [
+      {
+        "paragraph_index": 1,
+        "n_lines": 24,
+        "n_words": 252,
+        "first_line": "kol.chedy.qokeey.otedy.dytedy.okeedy.olshed.opshed",
+        "last_line": "shedy.orolykar.okedy.qoky.chedy.okedar.chey.alol"
+      },
+      {
+        "paragraph_index": 2,
+        "n_lines": 10,
+        "n_words": 60,
+        "first_line": "qoteedy.qokol.otedy.shedy.qokeedy.daloldam",
+        "last_line": "dchedy.qokedy.ar.oror.okedy.okedy"
+      }
+    ]
+  },
+  "global_diagram_label_minimal_pairs": {
+    "n_folios_with_label_chains": 52,
+    "n_adjacent_label_pairs": 1071,
+    "obs_lev_le2_count": 98,
+    "obs_lev_le2_rate": 0.0915,
+    "null_lev_le2_rate": 0.0462,
+    "lev_le2_lift": 1.98,
+    "z_lev_le2": 7.74,
+    "obs_same_stem_count": 41,
+    "obs_same_stem_rate": 0.0383,
+    "null_same_stem_rate": 0.0154,
+    "same_stem_lift": 2.48,
+    "z_same_stem": 6.4,
+    "obs_mean_edit_distance": 4.9113,
+    "null_mean_edit_distance": 5.2788,
+    "z_mean_edit_distance": -10.43,
+    "top_minimal_pair_chains": [
+      {
+        "folio": "f66r",
+        "sec": "T",
+        "w1": "rary",
+        "w2": "rals",
+        "edit_distance": 2,
+        "same_stem": false,
+        "stem": "rar/rals"
+      },
+      {
+        "folio": "f66r",
+        "sec": "T",
+        "w1": "saly",
+        "w2": "salf",
+        "edit_distance": 1,
+        "same_stem": false,
+        "stem": "al/alp"
+      },
+      {
+        "folio": "f67r1",
+        "sec": "A",
+        "w1": "ykeeody",
+        "w2": "okeol",
+        "edit_distance": 4,
+        "same_stem": true,
+        "stem": "te"
+      },
+      {
+        "folio": "f67r2",
+        "sec": "A",
+        "w1": "ykar",
+        "w2": "ykaly",
+        "edit_distance": 2,
+        "same_stem": false,
+        "stem": "tar/tal"
+      },
+      {
+        "folio": "f67r2",
+        "sec": "A",
+        "w1": "okal",
+        "w2": "okain",
+        "edit_distance": 2,
+        "same_stem": false,
+        "stem": "tal/tain"
+      },
+      {
+        "folio": "f67r2",
+        "sec": "A",
+        "w1": "osar",
+        "w2": "oran",
+        "edit_distance": 2,
+        "same_stem": false,
+        "stem": "sar/ran"
+      },
+      {
+        "folio": "f67v1",
+        "sec": "A",
+        "w1": "ary",
+        "w2": "dar",
+        "edit_distance": 2,
+        "same_stem": false,
+        "stem": "ar/dar"
+      },
+      {
+        "folio": "f67v1",
+        "sec": "A",
+        "w1": "chockhey",
+        "w2": "chockhy",
+        "edit_distance": 1,
+        "same_stem": true,
+        "stem": "chocth"
+      },
+      {
+        "folio": "f68r1",
+        "sec": "A",
+        "w1": "octhey",
+        "w2": "otshey",
+        "edit_distance": 2,
+        "same_stem": false,
+        "stem": "cth/tsh"
+      },
+      {
+        "folio": "f68r1",
+        "sec": "A",
+        "w1": "otol",
+        "w2": "otor",
+        "edit_distance": 1,
+        "same_stem": false,
+        "stem": "tol/tor"
+      },
+      {
+        "folio": "f68r3",
+        "sec": "A",
+        "w1": "chky",
+        "w2": "oky",
+        "edit_distance": 2,
+        "same_stem": false,
+        "stem": "cht/ot"
+      },
+      {
+        "folio": "f69r",
+        "sec": "C",
+        "w1": "okair",
+        "w2": "osair",
+        "edit_distance": 1,
+        "same_stem": false,
+        "stem": "tair/sair"
+      },
+      {
+        "folio": "f69v",
+        "sec": "C",
+        "w1": "ytody",
+        "w2": "okody",
+        "edit_distance": 2,
+        "same_stem": true,
+        "stem": "to"
+      },
+      {
+        "folio": "f69v",
+        "sec": "C",
+        "w1": "okody",
+        "w2": "otody",
+        "edit_distance": 1,
+        "same_stem": true,
+        "stem": "to"
+      },
+      {
+        "folio": "f69v",
+        "sec": "C",
+        "w1": "okeal",
+        "w2": "okeod",
+        "edit_distance": 2,
+        "same_stem": false,
+        "stem": "te/teod"
+      },
+      {
+        "folio": "f69v",
+        "sec": "C",
+        "w1": "okeeydy",
+        "w2": "okeyd",
+        "edit_distance": 2,
+        "same_stem": false,
+        "stem": "tey/teyd"
+      },
+      {
+        "folio": "f69v",
+        "sec": "C",
+        "w1": "okeyd",
+        "w2": "okeod",
+        "edit_distance": 1,
+        "same_stem": false,
+        "stem": "teyd/teod"
+      },
+      {
+        "folio": "f70r1",
+        "sec": "C",
+        "w1": "ykeal",
+        "w2": "okeody",
+        "edit_distance": 4,
+        "same_stem": true,
+        "stem": "te"
+      },
+      {
+        "folio": "f70r1",
+        "sec": "C",
+        "w1": "okeody",
+        "w2": "otody",
+        "edit_distance": 2,
+        "same_stem": false,
+        "stem": "te/to"
+      },
+      {
+        "folio": "f70v2",
+        "sec": "Z",
+        "w1": "ykary",
+        "w2": "otar",
+        "edit_distance": 3,
+        "same_stem": true,
+        "stem": "tar"
+      },
+      {
+        "folio": "f70v2",
+        "sec": "Z",
+        "w1": "otar",
+        "w2": "oty",
+        "edit_distance": 2,
+        "same_stem": false,
+        "stem": "tar/ot"
+      },
+      {
+        "folio": "f70v2",
+        "sec": "Z",
+        "w1": "oty",
+        "w2": "oky",
+        "edit_distance": 1,
+        "same_stem": true,
+        "stem": "ot"
+      },
+      {
+        "folio": "f70v2",
+        "sec": "Z",
+        "w1": "oky",
+        "w2": "ody",
+        "edit_distance": 1,
+        "same_stem": false,
+        "stem": "ot/od"
+      },
+      {
+        "folio": "f70v2",
+        "sec": "Z",
+        "w1": "ody",
+        "w2": "oty",
+        "edit_distance": 1,
+        "same_stem": false,
+        "stem": "od/ot"
+      },
+      {
+        "folio": "f70v2",
+        "sec": "Z",
+        "w1": "otald",
+        "w2": "otaldar",
+        "edit_distance": 2,
+        "same_stem": true,
+        "stem": "tald"
+      },
+      {
+        "folio": "f70v2",
+        "sec": "Z",
+        "w1": "otaly",
+        "w2": "otal",
+        "edit_distance": 1,
+        "same_stem": true,
+        "stem": "tal"
+      },
+      {
+        "folio": "f70v2",
+        "sec": "Z",
+        "w1": "otaral",
+        "w2": "otalar",
+        "edit_distance": 2,
+        "same_stem": false,
+        "stem": "tar/tal"
+      },
+      {
+        "folio": "f70v2",
+        "sec": "Z",
+        "w1": "otalar",
+        "w2": "otalam",
+        "edit_distance": 1,
+        "same_stem": true,
+        "stem": "tal"
+      },
+      {
+        "folio": "f70v2",
+        "sec": "Z",
+        "w1": "dolaram",
+        "w2": "okaram",
+        "edit_distance": 2,
+        "same_stem": false,
+        "stem": "olar/tar"
+      },
+      {
+        "folio": "f70v2",
+        "sec": "Z",
+        "w1": "ykolaiin",
+        "w2": "otolal",
+        "edit_distance": 5,
+        "same_stem": true,
+        "stem": "tol"
+      },
+      {
+        "folio": "f70v1",
+        "sec": "Z",
+        "w1": "okalal",
+        "w2": "otaly",
+        "edit_distance": 3,
+        "same_stem": true,
+        "stem": "tal"
+      },
+      {
+        "folio": "f71v",
+        "sec": "Z",
+        "w1": "okaraiin",
+        "w2": "otar",
+        "edit_distance": 5,
+        "same_stem": true,
+        "stem": "tar"
+      },
+      {
+        "folio": "f71v",
+        "sec": "Z",
+        "w1": "otalody",
+        "w2": "otalaiin",
+        "edit_distance": 4,
+        "same_stem": true,
+        "stem": "tal"
+      },
+      {
+        "folio": "f71v",
+        "sec": "Z",
+        "w1": "otar",
+        "w2": "shar",
+        "edit_distance": 2,
+        "same_stem": false,
+        "stem": "tar/har"
+      },
+      {
+        "folio": "f72r1",
+        "sec": "Z",
+        "w1": "otaiin",
+        "w2": "otain",
+        "edit_distance": 1,
+        "same_stem": true,
+        "stem": "tain"
+      },
+      {
+        "folio": "f72r2",
+        "sec": "Z",
+        "w1": "okalar",
+        "w2": "okal",
+        "edit_distance": 2,
+        "same_stem": true,
+        "stem": "tal"
+      },
+      {
+        "folio": "f72r2",
+        "sec": "Z",
+        "w1": "okal",
+        "w2": "okaly",
+        "edit_distance": 1,
+        "same_stem": true,
+        "stem": "tal"
+      },
+      {
+        "folio": "f72r2",
+        "sec": "Z",
+        "w1": "okaly",
+        "w2": "okal",
+        "edit_distance": 1,
+        "same_stem": true,
+        "stem": "tal"
+      },
+      {
+        "folio": "f72r2",
+        "sec": "Z",
+        "w1": "okaly",
+        "w2": "orary",
+        "edit_distance": 2,
+        "same_stem": false,
+        "stem": "tal/rar"
+      },
+      {
+        "folio": "f72r3",
+        "sec": "Z",
+        "w1": "oteeydaiin",
+        "w2": "oeeodaiin",
+        "edit_distance": 2,
+        "same_stem": false,
+        "stem": "teyd/eod"
+      },
+      {
+        "folio": "f72v3",
+        "sec": "Z",
+        "w1": "okam",
+        "w2": "okey",
+        "edit_distance": 2,
+        "same_stem": false,
+        "stem": "tam/te"
+      },
+      {
+        "folio": "f72v3",
+        "sec": "Z",
+        "w1": "okaly",
+        "w2": "otoly",
+        "edit_distance": 2,
+        "same_stem": false,
+        "stem": "tal/tol"
+      },
+      {
+        "folio": "f72v3",
+        "sec": "Z",
+        "w1": "okaly",
+        "w2": "okaldy",
+        "edit_distance": 1,
+        "same_stem": true,
+        "stem": "tal"
+      },
+      {
+        "folio": "f72v3",
+        "sec": "Z",
+        "w1": "opal",
+        "w2": "otaly",
+        "edit_distance": 2,
+        "same_stem": false,
+        "stem": "pal/tal"
+      },
+      {
+        "folio": "f72v2",
+        "sec": "Z",
+        "w1": "yteody",
+        "w2": "okeody",
+        "edit_distance": 2,
+        "same_stem": true,
+        "stem": "te"
+      }
+    ]
+  },
+  "balneological_label_to_host_echo": {
+    "total_balneo_labels": 123,
+    "exact_in_host_count": 23,
+    "exact_in_host_rate": 0.187,
+    "stem_in_host_count": 68,
+    "stem_in_host_rate": 0.5528,
+    "by_folio": {
+      "f75v": {
+        "n_labels": 35,
+        "n_prose_words": 297,
+        "exact_in_host_rate": 0.2,
+        "stem_in_host_rate": 0.6,
+        "labels": [
+          "s",
+          "l",
+          "l",
+          "o",
+          "r",
+          "s",
+          "okshy",
+          "saral",
+          "dokal",
+          "darol",
+          "daldy",
+          "dalshd",
+          "dalkar",
+          "qokal",
+          "dly",
+          "ory",
+          "oty",
+          "lchy",
+          "dary",
+          "dal",
+          "daldy",
+          "qoted",
+          "rkal",
+          "ykedy",
+          "olkchy",
+          "otoly",
+          "otal",
+          "opal",
+          "okeey",
+          "lol",
+          "olol",
+          "ytedy",
+          "otedy",
+          "oteey",
+          "qotedy"
+        ]
+      },
+      "f77r": {
+        "n_labels": 10,
+        "n_prose_words": 298,
+        "exact_in_host_rate": 0.1,
+        "stem_in_host_rate": 0.3,
+        "labels": [
+          "darchdar",
+          "olkchs",
+          "otedy",
+          "otork",
+          "otol",
+          "dchdy",
+          "soral",
+          "dotedy",
+          "otchdy",
+          "otolaiino"
+        ]
+      },
+      "f77v": {
+        "n_labels": 10,
+        "n_prose_words": 306,
+        "exact_in_host_rate": 0.1,
+        "stem_in_host_rate": 0.7,
+        "labels": [
+          "okain",
+          "ykal",
+          "otol",
+          "shedy",
+          "olkeedal",
+          "otolor",
+          "orchedal",
+          "saroral",
+          "okalo",
+          "oeoedu"
+        ]
+      },
+      "f78r": {
+        "n_labels": 7,
+        "n_prose_words": 265,
+        "exact_in_host_rate": 0.0,
+        "stem_in_host_rate": 0.2857,
+        "labels": [
+          "okchdldlo",
+          "okchdy",
+          "daraloifhy",
+          "dchedaly",
+          "otarodlay",
+          "orory",
+          "okaral"
+        ]
+      },
+      "f80r": {
+        "n_labels": 10,
+        "n_prose_words": 411,
+        "exact_in_host_rate": 0.2,
+        "stem_in_host_rate": 0.7,
+        "labels": [
+          "toroly",
+          "olchdy",
+          "okaly",
+          "okolo",
+          "okary",
+          "opor",
+          "olky",
+          "otalshedy",
+          "okar",
+          "okan"
+        ]
+      },
+      "f81v": {
+        "n_labels": 2,
+        "n_prose_words": 239,
+        "exact_in_host_rate": 0.5,
+        "stem_in_host_rate": 1.0,
+        "labels": [
+          "otain",
+          "olkal"
+        ]
+      },
+      "f82r": {
+        "n_labels": 13,
+        "n_prose_words": 264,
+        "exact_in_host_rate": 0.0769,
+        "stem_in_host_rate": 0.3077,
+        "labels": [
+          "oroldair",
+          "okor",
+          "darol",
+          "okal",
+          "okaldy",
+          "darary",
+          "okairady",
+          "sororl",
+          "olkoky",
+          "sokoly",
+          "dolol",
+          "olaiin",
+          "okeear"
+        ]
+      },
+      "f82v": {
+        "n_labels": 14,
+        "n_prose_words": 285,
+        "exact_in_host_rate": 0.2857,
+        "stem_in_host_rate": 0.7857,
+        "labels": [
+          "otechdy",
+          "otedy",
+          "daiinoty",
+          "otedal",
+          "olkeedy",
+          "okalchy",
+          "okain",
+          "okaoky",
+          "okedor",
+          "okol",
+          "okoldy",
+          "olkol",
+          "otedol",
+          "oteedy"
+        ]
+      },
+      "f83r": {
+        "n_labels": 4,
+        "n_prose_words": 329,
+        "exact_in_host_rate": 0.0,
+        "stem_in_host_rate": 0.0,
+        "labels": [
+          "chtorol",
+          "olsaiin",
+          "sasoldal",
+          "darolsy"
+        ]
+      },
+      "f83v": {
+        "n_labels": 4,
+        "n_prose_words": 243,
+        "exact_in_host_rate": 0.5,
+        "stem_in_host_rate": 0.5,
+        "labels": [
+          "ololary",
+          "okarchy",
+          "okchdy",
+          "okaiin"
+        ]
+      },
+      "f84r": {
+        "n_labels": 14,
+        "n_prose_words": 312,
+        "exact_in_host_rate": 0.2857,
+        "stem_in_host_rate": 0.6429,
+        "labels": [
+          "ololal",
+          "or",
+          "shekar",
+          "ydy",
+          "okedy",
+          "loly",
+          "doiir",
+          "olshy",
+          "otedy",
+          "lkol",
+          "okolshy",
+          "otoly",
+          "dshedy",
+          "otaly"
+        ]
+      }
+    }
+  }
+}

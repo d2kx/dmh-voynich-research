@@ -803,6 +803,70 @@ WALKTHROUGH_FOLIOS = [
                 "english": "[8-State Syntax Chain `S1 -> S5 -> S6 -> S7 -> S3 -> S4 -> S8`]: Begin (`pchor`) with one measure from the storage jars (`odaiin otol okol`), take one dose of strained liquid (`chol daiin`), boil and wash (`qokeedy shedy`), and seal to completion (`dam`)."
             }
         ]
+    },
+    {
+        "folio": "f69v–f70r2",
+        "title": "Unfolded 3-Wheel Astronomical Trifecta (`p127`), `f70r2`'s 16-Line Treatise (`z=+2.62`) & Scribe 4 Signature",
+        "section": "Astronomical Unfolded 3-Panel Sheet (`$I=A, $Q=J, $L=B`, Scribe 4)",
+        "pdf_page": 127,
+        "image": "../pages/f70r2_astro_concentric_prose_wheel_enh.png",
+        "secondary_image": "",
+        "summary": "Unfolding `p127` displays three circular wheels (`f69v` 28-spoke wheel, `f70r1` 6-lobe nebula wheel opening with `ooooooooolar.sasa`, and `f70r2` 10-ray Sun wheel) plus a 16-line right-margin treatise on `f70r2` (`94` words) that surges `6.54×` in `qo-` verbs (`7.45%`) and repeats `38.30%` exact words (`69.15%` root stems) from the 3 wheels (`Attack 185`, z = +2.62).",
+        "clauses": [
+            {
+                "locus": "f70r1.1 (@Cc Ring Call-Sign) + f70r2.3–5 (@P1 Right-Margin Treatise)",
+                "eva": "ooooooooolar sasa daiin okeey shoaiin ckhhey otal shshy tal dam",
+                "english": "[Ring Call-Sign]: 9-measure cycle (`ooooooooolar sasa`); [Right-Margin Canon `f70r2`]: Take one measure of prepared extract (`daiin okeey`), infuse with the divided core (`shoaiin ckhhey`), and complete the celestial sector (`otal shshy tal dam`)."
+            }
+        ]
+    },
+    {
+        "folio": "f84r",
+        "title": "Three-Pool Vertical Hydro-Cascade & Overhead Canopy Minimal-Pair Sequence (`z=+7.74`)",
+        "section": "Balneological / Biological (`$I=B, $Q=M, $L=B`, Scribe 2)",
+        "pdf_page": 154,
+        "image": "../pages/f84r_balneo_canopy_pool_enh.png",
+        "secondary_image": "",
+        "summary": "A single left-margin conduit feeds 3 stacked pools (`Top`: 8 nymphs under a scalloped canopy; `Middle`: 7 nymphs with a blue sponge and red/blue jar labeled `otaly`; `Bottom`: 7 nymphs in a clear basin). `64.29%` of label stems echo in `f84r` prose (`Attack 186`), and adjacent diagram labels globally form minimal pairs (`Lev <= 2`) at `1.98×` null (`z = +7.74`).",
+        "clauses": [
+            {
+                "locus": "f84r Canopy Minimal Pairs (@Ln) + f84r.13 (@P0 Bath Protocol Opener)",
+                "eva": "okedy otedy olshy okolshy otoly otaly kol chedy qokeey otedy",
+                "english": "[Canopy Minimal Pairs]: Core bath (`okedy`) vs source bath (`otedy`), surface wash (`olshy`) vs vessel wash (`okolshy`), liquid sector (`otoly`) vs essence sector (`otaly`); [Bath Opener]: In the core basin infuse, boil, and bathe (`kol chedy qokeey otedy`)."
+            }
+        ]
+    },
+    {
+        "folio": "f90r1–r2 & f96r",
+        "title": "Unfolded Blue Cup-Poppy & 31-Leaf Navelwort (`f90r1–r2`) + 11-Tuber Palmate Monograph (`f96r`)",
+        "section": "Herbal A Unfolded Sheet (`f90r1–r2`, Scribe 1) & Late Herbal A (`f96r`, Scribe 1/4)",
+        "pdf_page": 165,
+        "image": "../pages/f90r1_f90r2_unfolded_herbal_enh.png",
+        "secondary_image": "../pages/f96r_herbal_monograph_gap_enh.png",
+        "summary": "On `p165` (above), Pharmaceutical `f89v1` faces unfolded Herbal `f90r1` (giant blue cup-capsules, `25.00%` `qo-` verbs) and `f90r2` (31-leaf button Navelwort, `18.18%` `-aiin` doses). On `f96r` (below), a drooping bell-flower with 7 palmate claw-leaves and 11 banana-tuber roots splits lines 11–12 (`<->`) with `20.24%` `cth/ckh` (`Attack 185`).",
+        "clauses": [
+            {
+                "locus": "f90r1.1 (Blue Cup-Poppy Opener) + f96r.11 (Palmate Leaf `<->` Intrusion Line)",
+                "eva": "pchodar qokchol chckhy teol cheody shodol qokchod s aiin chokey",
+                "english": "[f90r1 Opener]: Begin from the flower stem and boil the strained liquid (`pchodar qokchol chckhy`); [f96r.11 Leaf Split]: Steep the root-tubers in liquid (`teol cheody shodol`), boil the core (`qokchod`), and take one measured dose (`s aiin chokey`)."
+            }
+        ]
+    },
+    {
+        "folio": "f103r & p213",
+        "title": "Quire 20 Grand Opening (`18` Alternating Red/White Stars, `'20'` Quire Mark & `z=+11.89` Chaining) + Spine",
+        "section": "Starred Master Recipes Opening (`$I=S, $Q=T, $L=B`, Scribe 3) & Limp-Vellum Spine (`p213`)",
+        "pdf_page": 184,
+        "image": "../pages/f103r_quire20_opening_recipes_enh.png",
+        "secondary_image": "../pages/p213_physical_spine_head_edge_scan.png",
+        "summary": "On `f103r` (above), 18 left-margin stars strictly alternate Odd = Solid Red vs Even = Outlined White above the bottom-left Arabic numeral `20` (Quire 20), with both Recipe #1 and Recipe #18 opening with `pchedal`. Consecutive recipes across Quire 20 share `3.105` exact words (`z = +11.89`, `Attack 187`). Below (`p213`) is the physical limp-vellum spine with 3 raised sewing bands.",
+        "clauses": [
+            {
+                "locus": "f103r.1 (Recipe #1 Red Star Opener) + f103r.52 (Recipe #18 White Star Framing Closer)",
+                "eva": "pchedal oees earal qokeedy shedy qokedy pchedal qokeey qokedy qoty",
+                "english": "[Recipe #1 Top Frame `pchedal`]: Begin the herbal infusion (`pchedal`), boil thoroughly and wash (`qokeedy shedy qokedy`); [Recipe #18 Bottom Frame `pchedal`]: Begin the infusion (`pchedal`) and boil to completion (`qokeey qokedy qoty`)."
+            }
+        ]
     }
 ]
 
@@ -853,6 +917,9 @@ def main():
     pt_pr_data = json.loads((ROOT / "data" / "attack181_rosettes_treatise_envelope_and_pt_titles.json").read_text(encoding="utf-8"))
     f69r_data = json.loads((ROOT / "data" / "attack182_f69r_star_numerals_and_spoke_ring_coupling.json").read_text(encoding="utf-8"))
     state_machine_data = json.loads((ROOT / "data" / "attack183_milestone200_syntactic_state_machine.json").read_text(encoding="utf-8"))
+    a185_data = json.loads((ROOT / "data" / "attack185_f70r2_astro_treatise_and_scribe4_bridge.json").read_text(encoding="utf-8"))
+    a186_data = json.loads((ROOT / "data" / "attack186_f84r_canopy_minimal_pairs_and_balneo_cascade.json").read_text(encoding="utf-8"))
+    a187_data = json.loads((ROOT / "data" / "attack187_f103r_quire20_architecture_and_recipe_chaining.json").read_text(encoding="utf-8"))
 
     rosettes_panels = []
     for f_id, prof in rosettes_data["folio_profiles"].items():
@@ -898,6 +965,10 @@ def main():
         "state_profiles": state_machine_data["state_profiles"],
         "state_attractions": state_machine_data["top_syntactic_attractions"][:10],
         "state_prohibitions": state_machine_data["top_syntactic_prohibitions"][:10],
+        "scribe4_profiles": a185_data["scribe_4_forensics"]["scribe_profiles_all_5_hands"],
+        "minimal_pairs": a186_data["global_diagram_label_minimal_pairs"]["top_minimal_pair_chains"][:30],
+        "f103r_recipes": a187_data["f103r_opening_forensics"]["recipes"],
+        "q20_vertical": a187_data["within_page_vertical_trajectory"],
     }, ensure_ascii=False)
 
     html = f"""<!DOCTYPE html>
@@ -1300,8 +1371,8 @@ def main():
       <p>Click any word token on any page to peel apart its Prefix + Root Stem + Suffix in plain English</p>
     </div>
     <nav class="nav-tabs" aria-label="Explorer Views">
-      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (46)</button>
-      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (50)</button>
+      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (50)</button>
+      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (55)</button>
       <button class="tab-btn" onclick="switchTab('lexicon', this)">3. Core Dictionary &amp; 8-Case Grammar</button>
       <button class="tab-btn" onclick="switchTab('zodiac', this)">4. Zodiac Months &amp; Bath Plumbing</button>
       <button class="tab-btn" onclick="switchTab('recipes', this)">5. Starred Recipes, Rosettes &amp; 4-Transcriber Proof</button>
@@ -1311,6 +1382,7 @@ def main():
       <button class="tab-btn" onclick="switchTab('quires', this)">9. Quire Signatures, Pharma Shelves &amp; Weirdo-Glyph Atlas</button>
       <button class="tab-btn" onclick="switchTab('clitics', this)">10. Micro-Spacing Clitics, f57v Key Wheel &amp; 6-Register Stem Matrix</button>
       <button class="tab-btn" onclick="switchTab('state200', this)">11. Milestone 200: 8-State Syntactic Machine, =Pt/+Pr Codas &amp; f69r Wheel</button>
+      <button class="tab-btn" onclick="switchTab('wave44', this)">12. Astro Trifecta (p127), Diagram-Label Minimal Pairs &amp; Quire 20 Chaining</button>
     </nav>
   </div>
 </header>
@@ -1920,6 +1992,71 @@ def main():
             <th>Mean Words / Locus</th>
             <th>Nominal (<code>-aiin/-ar/-al/-ol/-or</code>)</th>
             <th>Verbal (<code>-edy/-dy/-eey/-ey</code>)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- TAB 12: WAVE 44 ASTRO TRIFECTA, DIAGRAM-LABEL MINIMAL PAIRS & QUIRE 20 RECIPE CHAINING -->
+  <section id="tab-wave44" class="tab-panel">
+    <h2>1. Scribe 4 (`$H=4`) Orthographic Signature (`2.46×` `ok-/ot-` Prefix Surge &amp; `1.91×` `-ody/-ady` Surge, `Attack 185`)</h2>
+    <p style="color: var(--muted);">
+      On the unfolded 3-wheel sheet <code>f69v | f70r1 | f70r2</code> (<code>p127</code>), the 16-line right-margin treatise on <code>f70r2</code> (<code>94</code> words) surges <strong>6.54× in <code>qo-</code> verbs (7.45% vs 1.14%)</strong> and echoes <strong>38.30% exact words / 69.15% root stems</strong> from the 3 wheels (<code>z = +2.62</code>). Across all 5 Scribe Hands, Scribe 4 exhibits a distinct personal spelling signature:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2rem;">
+      <table id="scribe4Table">
+        <thead>
+          <tr>
+            <th>Scribe Hand</th>
+            <th>Total Words</th>
+            <th>Unique Types (TTR)</th>
+            <th><code>ok-/ot-</code> Prefix Rate</th>
+            <th><code>-ody/-ady</code> Suffix Rate</th>
+            <th><code>qo-</code> Verb Rate</th>
+            <th><code>-edy/-eey</code> Rate</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>2. Global Adjacent Diagram-Label Minimal-Pair Chains (`Lev &lt;= 2` `1.98×` Lift, `z = +7.74`; Same Stem `2.48×` Lift, `z = +6.40`, `Attack 186`)</h2>
+    <p style="color: var(--muted);">
+      Inspired by the overhead canopy labels on <code>f84r</code> (<code>okedy &lt;-&gt; otedy</code>, <code>olshy &lt;-&gt; okolshy</code>, <code>otoly &lt;-&gt; otaly</code>), testing all <strong>1,071 adjacent diagram-label pairs</strong> across 52 folios proves that neighboring labels form minimal pairs (<code>edit distance &lt;= 2</code>) at <strong>9.15% vs 4.62% null (z = +7.74)</strong> and share the exact same root stem at <strong>3.83% vs 1.54% null (z = +6.40)</strong>:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2rem;">
+      <table id="minimalPairsTable">
+        <thead>
+          <tr>
+            <th>Folio (Section)</th>
+            <th>Label 1 (Click to Decode)</th>
+            <th>Label 2 (Click to Decode)</th>
+            <th>Edit Distance</th>
+            <th>Same Canonical Stem?</th>
+            <th>Stem(s)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>3. Folio `f103r` Opening Quire 20 Architecture (`18` Alternating Red/White Stars + Bottom-Left `'20'` Mark) &amp; Consecutive Recipe Chaining (`z = +11.89`, `Attack 187`)</h2>
+    <p style="color: var(--muted);">
+      Across all <strong>292 starred recipes (267 adjacent within-page pairs)</strong> in Quire 20 (<code>f103r–f116r</code>), consecutive recipes share <strong>3.105 exact words (1.50× Jaccard lift, z = +11.89)</strong> and <strong>6.071 canonical stems (z = +9.03)</strong>. Below are the 18 opening recipes on <code>f103r</code> showing the strict Red / White-Outline star alternation and the <code>pchedal</code> top/bottom framing opener:
+    </p>
+    <div style="overflow-x: auto;">
+      <table id="f103rRecipesTable">
+        <thead>
+          <tr>
+            <th>Recipe #</th>
+            <th>Left-Margin Star Type</th>
+            <th>Start Line</th>
+            <th>Lines / Words</th>
+            <th>Opening Word (Click)</th>
+            <th>Closing Word (Click)</th>
+            <th><code>qo-</code> / <code>-edy</code> Counts</th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -2713,6 +2850,60 @@ function renderMilestone200Tab() {{
   `).join("");
 }}
 
+function renderWave44Tab() {{
+  const s4Body = document.querySelector("#scribe4Table tbody");
+  const s4 = DATA.scribe4_profiles || {{}};
+  s4Body.innerHTML = Object.entries(s4).map(([hand, p]) => {{
+    const hl = hand === "Scribe_4" ? 'style="background:var(--gold-soft);font-weight:700;"' : '';
+    return `
+      <tr ${{hl}}>
+        <td><strong>${{hand.replace("_", " ")}}</strong></td>
+        <td>${{p.n_words}}</td>
+        <td>${{p.n_types}} (${{(p.ttr * 100).toFixed(1)}}%)</td>
+        <td><strong>${{(p.ok_ot_rate * 100).toFixed(2)}}%</strong></td>
+        <td><strong>${{(p.ody_ady_rate * 100).toFixed(2)}}%</strong></td>
+        <td>${{(p.qo_rate * 100).toFixed(2)}}%</td>
+        <td>${{(p.edy_rate * 100).toFixed(2)}}%</td>
+      </tr>
+    `;
+  }}).join("");
+
+  const mpBody = document.querySelector("#minimalPairsTable tbody");
+  mpBody.innerHTML = (DATA.minimal_pairs || []).map(m => {{
+    const badge = m.same_stem
+      ? `<span class="badge" style="background:var(--green-soft);color:var(--green)">Yes (Same Stem)</span>`
+      : `<span class="badge">Minimal Pair</span>`;
+    return `
+      <tr>
+        <td><strong><code>${{m.folio}}</code></strong> (<code>$I=${{m.sec}}</code>)</td>
+        <td><span class="word-chip" onclick="setWord('${{m.w1}}')"><strong>${{m.w1}}</strong></span></td>
+        <td><span class="word-chip" onclick="setWord('${{m.w2}}')"><strong>${{m.w2}}</strong></span></td>
+        <td><strong>${{m.edit_distance}}</strong></td>
+        <td>${{badge}}</td>
+        <td><code>${{m.stem}}</code></td>
+      </tr>
+    `;
+  }}).join("");
+
+  const f103Body = document.querySelector("#f103rRecipesTable tbody");
+  f103Body.innerHTML = (DATA.f103r_recipes || []).map(r => {{
+    const starBadge = r.star_visual_type === "Solid_Red"
+      ? `<span class="badge" style="background:var(--accent-soft);color:var(--accent)">Solid Red Star (Odd)</span>`
+      : `<span class="badge" style="background:var(--blue-soft);color:var(--blue)">Outlined White Star (Even)</span>`;
+    return `
+      <tr>
+        <td><strong>Recipe #${{r.recipe_num}}</strong></td>
+        <td>${{starBadge}}</td>
+        <td><code>${{r.start_line}}</code></td>
+        <td>${{r.n_lines}} lines (${{r.n_words}} words)</td>
+        <td><span class="word-chip" onclick="setWord('${{r.first_word}}')"><strong>${{r.first_word}}</strong></span></td>
+        <td><span class="word-chip" onclick="setWord('${{r.last_word}}')"><strong>${{r.last_word}}</strong></span></td>
+        <td><code>qo-</code>: ${{r.qo_count}} | <code>-edy</code>: ${{r.edy_count}}</td>
+      </tr>
+    `;
+  }}).join("");
+}}
+
 function switchTab(tabId, btn) {{
   document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
   document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
@@ -2732,6 +2923,7 @@ renderVisualTwinsAndStarParity();
 renderQuiresShelvesWeirdos();
 renderMicroCliticsF57vStemMatrix();
 renderMilestone200Tab();
+renderWave44Tab();
 </script>
 </body>
 </html>
