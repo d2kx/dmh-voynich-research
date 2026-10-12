@@ -311,6 +311,29 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 34. Scribe Hands (`$H=1..5`), the `-84.26%` Currier `A <-> B` Divergence Collapse & Root-Conditioned Dialect Translation Matrix (`Attack 25`)
+- **`83.1%–92.4%` Core Root Lexicon Overlap Across All 5 Scribe Hands**: `91.1%` (Hand 1), `92.4%` (Hand 2), `90.1%` (Hand 3), `83.1%` (Hand 4), and `89.0%` (Hand 5) of all word tokens map into the shared Core Root lexicon attested across `3+` hands.
+- **Currier `A <-> B` Divergence Collapse (`-84.26%`) & Register Translation Law**: Jensen-Shannon Divergence between Currier A and B collapses from $0.4675\text{ bits}$ (raw words) to $0.2126\text{ bits}$ (`-54.52%`, Core Roots) and **$0.0736\text{ bits}$ (`-84.26%`, Elementary Radicals, `cosine = 0.9037`)**. Nominal/deictic roots (`d`: `daiin/dar`, `s`: `s/saiin`, `ol`: `ol`, `ain`: `aiin`) remain invariant, while verbal/operator roots (`ch`, `sh`, `k`, `t`, `kch`, `tch`) shift inflectionally from **`-ol / -or / -y` in Currier A (`chol`, `chor`, `shol`, `qokol`: `2%–7%` `-edy`)** to **`-edy / -dy / -ey` in Currier B (`chedy`, `shedy`, `qokeedy`, `qokchdy`: `27%–65%` `-edy`)** (`pages/f42v_hand1_currierA_pt_enh.png`, `pages/f46v_hand2_currierB_pt_enh.png`).
+
+---
+
+### 35. Continuous Pharmacopoeia & Balneological Reader (`97.49%` Corpus-Wide Readability Coverage, [`notes/CONTINUOUS_READER_EDITION.md`](notes/CONTINUOUS_READER_EDITION.md)) & Intra-Paragraph Discourse Chaining ($z = +8.95, p < 10^{-18}$, `Attack 26`)
+- **`97.49%` (`38,000 / 38,977`) Corpus-Wide Readability Coverage**: Produces a 3-column continuous reader ([`notes/CONTINUOUS_READER_EDITION.md`](notes/CONTINUOUS_READER_EDITION.md)) across `10` flagship folios (`f1r`, `f8r`, `f11v`, `f42v`, `f46v`, `f75r`, `f75v`, `f88r`, `f99r`, `f107r`).
+- **Intra-Paragraph Discourse Chaining ($z = +8.95, p < 10^{-18}$)**: Consecutive lines within paragraphs share a content radical argument in **`86.60%` (`2,843 / 3,283`)** of pairs vs. **`81.83% ± 0.53%`** under section- and language-stratified line shuffling.
+
+---
+
+### 36. Pharmaceutical (`f88r–f102v2`) Container-to-Plant Recipe Compiler, `@Lc` vs. `@Lf` Morphological Split & Quantitative Ingredient-to-Clause Scaling Law (`Attack 27`)
+- **`@Lc` Container vs. `@Lf` Botanical Specimen Morphology (`pages/f88r_three_jars_and_plants_enh.png`)**: Apothecary jar labels (`@Lc`, `n=40`) are longer (`6.85` vs. `5.67` chars) and enrich gallows (`75.0%` vs. `58.0%`) and `-y` endings (`50.0%` vs. `36.7%`), whereas botanical specimen labels (`@Lf`, `n=207`) enrich `-r / -l` liquid endings **`2.90×` (`29.0%` vs. `10.0%`)**.
+- **Jar-to-Paragraph Scaling ($r = +0.5528$) & Same-Quire Recipe Compilation ($z = +1.91, p = 0.041$)**: Across the `12` `@Lc` jar folios (`40` jars, `35` paragraphs), `@Lc` jar count correlates with recipe paragraph count ($r = +0.5528$) and prose word count correlates with `-aiin` unit count ($r = +0.7542$), while informative `@Lc/@Lf` labels recur in same-folio ($z = +1.78$) and same-quire ($z = +1.91, p = 0.041$) recipe prose.
+
+---
+
+### 37. The 9-Rosettes Foldout (`fRos` / `f85v2`) 9-Sphere Cosmological Routing Map & Tripartite Rim / Interior / Causeway Division (`Attack 28`)
+- **Tripartite Layer Division (`pages/fRos_center_and_causeways_enh.png`, `pages/fRos_circle7_NE_spiral_enh.png`)**: Across the `535` tokens (`160` loci) of `<fRos>`: (a) **Sphere Rim Circular Texts (`@Cc`, `339` tokens)** are dominated by `o-` (`61.65%`) and `-ar/-al/-or/-ol` (`40.12%`); (b) **Sphere Interior Labels (`@L0`, `147` tokens)** enrich labial container gallows `op-/of-` **`5.44×` (`22.45%` vs. `4.13%`)** and `-edy/-dy` **`1.98×` (`28.57%`)**, matching the 6 bulbous alembic/fountain vessels inside Center Sphere `Circle 5`; and (c) **Inter-Sphere Causeways (`<!I>..<!VIII>`, `49` tokens)** enrich `qok-/qot-` active operators **`4.61×` over rims and `12.0×` over sphere interiors (`8.16%`)**, encoding the active routing operations between spheres.
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -366,4 +389,8 @@ python tools/attack21_right_justified_titles_and_f1r_toc.py
 python tools/attack22_biological_hydraulic_label_ingestion.py
 python tools/attack23_distributional_minimal_pair_matrix.py
 python tools/attack24_syllabic_pharmacopoeia_alignment_solver.py
+python tools/attack25_scribe_hand_dialect_translation_matrix.py
+python tools/attack26_continuous_pharmacopoeia_reader.py
+python tools/attack27_pharmaceutical_jar_plant_compiler.py
+python tools/attack28_rosettes_9sphere_routing_decoder.py
 ```

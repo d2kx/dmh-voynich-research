@@ -1,0 +1,58 @@
+{
+  "summary": {
+    "total_corpus_tokens": 38977,
+    "grounded_pharmacopoeia_tokens": 38000,
+    "corpus_coverage_rate": 0.9749,
+    "paragraph_discourse_chaining_test": {
+      "adjacent_line_pairs": 3283,
+      "observed_chained_pairs": 2843,
+      "observed_chain_rate": 0.866,
+      "null_mean_rate": 0.8183,
+      "null_std_rate": 0.0053,
+      "z_score": 8.95
+    },
+    "folios_rendered_in_edition": 10
+  },
+  "section_coverage_breakdown": {
+    "Text-only": {
+      "total_tokens": 2358,
+      "grounded_tokens": 2301,
+      "coverage_rate": 0.9758
+    },
+    "Herbal (Botanical)": {
+      "total_tokens": 11569,
+      "grounded_tokens": 11302,
+      "coverage_rate": 0.9769
+    },
+    "Cosmological": {
+      "total_tokens": 2237,
+      "grounded_tokens": 2134,
+      "coverage_rate": 0.954
+    },
+    "Starred Recipes": {
+      "total_tokens": 11642,
+      "grounded_tokens": 11338,
+      "coverage_rate": 0.9739
+    },
+    "Astronomical": {
+      "total_tokens": 882,
+      "grounded_tokens": 855,
+      "coverage_rate": 0.9694
+    },
+    "Zodiac (Astrological)": {
+      "total_tokens": 1314,
+      "grounded_tokens": 1277,
+      "coverage_rate": 0.9718
+    },
+    "Biological (Balneological)": {
+      "total_tokens": 6386,
+      "grounded_tokens": 6286,
+      "coverage_rate": 0.9843
+    },
+    "Pharmaceutical": {
+      "total_tokens": 2589,
+      "grounded_tokens": 2507,
+      "coverage_rate": 0.9683
+    }
+  }
+}

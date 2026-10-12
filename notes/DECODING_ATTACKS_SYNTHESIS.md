@@ -309,3 +309,38 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
   1. **`97.46%` Token-Weighted Monotonic CV(C) Sonority Sequencing Compliance ($z = +2.48$ vs. `85.12%` random tier-assignment null)**.
   2. **Medieval Pharmacopoeia Bipartite Domain Isomorphism ($0.8663$ vs. $0.6255 \pm 0.0373$ Null, $z = +6.45, p < 10^{-9}$)**: Aligns the 20 core Voynich radicals with the 20 functional slots of Medieval Apothecary/Herbal/Balneological manuals (`sh <-> coque/bullire` `0.9943`, `ch <-> misce/terere` `0.9921`, `dar <-> in pixide/de radice` `0.9596`, `che <-> infunde/macera` `0.9458`, `she <-> decoque/elixa` `0.9264`, `k <-> cola/in vase` `0.9231`).
 
+---
+
+## 25. Attack 25 (`Phase 36`): Scribe Hands (`$H=1..5`), the `-84.26%` Currier `A <-> B` Divergence Collapse & Root-Conditioned Dialect Translation Matrix
+- **Script & Data**: [`tools/attack25_scribe_hand_dialect_translation_matrix.py`](../tools/attack25_scribe_hand_dialect_translation_matrix.py) $\to$ [`data/attack25_scribe_hand_dialect_translation_matrix.json`](../data/attack25_scribe_hand_dialect_translation_matrix.json)
+- **Visual Forensics**: [`pages/f42v_hand1_currierA_pt_enh.png`](../pages/f42v_hand1_currierA_pt_enh.png), [`pages/f46v_hand2_currierB_pt_enh.png`](../pages/f46v_hand2_currierB_pt_enh.png)
+- **Key Breakthroughs**:
+  1. **`83.1%–92.4%` Core Root Lexicon Overlap Across All 5 Scribe Hands (`$H=1..5`)**.
+  2. **Currier `A <-> B` Divergence Collapse (`-84.26%`)**: $JSD(A, B)$ drops from $0.4675\text{ bits}$ (raw words) to $0.2126\text{ bits}$ (`-54.52%`, Core Roots) and **$0.0736\text{ bits}$ (`-84.26%`, Elementary Radicals, `cosine = 0.9037`)**.
+  3. **Root-Conditioned Register Translation**: Nominal/deictic roots (`d`, `s`, `ol`, `ain`) are invariant across A and B, whereas verbal/operator roots (`ch`, `sh`, `k`, `t`, `kch`, `tch`) shift inflectionally from `-ol/-or/-y` in Descriptive Botanical A (`chol`, `chor`, `shol`, `qokol`) to `-edy/-dy/-ey` in Procedural Balneological/Recipe B (`chedy`, `shedy`, `qokeedy`, `qokchdy`).
+
+---
+
+## 26. Attack 26 (`Phase 37`): Continuous Pharmacopoeia & Balneological Reader (`97.49%` Corpus-Wide Readability Coverage) & Intra-Paragraph Discourse Chaining ($z = +8.95, p < 10^{-18}$)
+- **Script, Data & Edition**: [`tools/attack26_continuous_pharmacopoeia_reader.py`](../tools/attack26_continuous_pharmacopoeia_reader.py) $\to$ [`data/attack26_continuous_pharmacopoeia_reader.json`](../data/attack26_continuous_pharmacopoeia_reader.json), [`notes/CONTINUOUS_READER_EDITION.md`](CONTINUOUS_READER_EDITION.md)
+- **Key Breakthroughs**:
+  1. **`97.49%` (`38,000 / 38,977`) Corpus-Wide Pharmacopoeia Readability Coverage** across all sections, rendered in a 3-column continuous reader edition across `10` flagship folios.
+  2. **Intra-Paragraph Discourse Chaining ($z = +8.95, p < 10^{-18}$)**: Adjacent lines within paragraphs share a content radical argument in **`86.60%` (`2,843 / 3,283`)** of pairs vs. **`81.83% ± 0.53%`** under section- and language-stratified line shuffling.
+
+---
+
+## 27. Attack 27 (`Phase 38`): Pharmaceutical (`f88r–f102v2`) Container-to-Plant Recipe Compiler, `@Lc` vs. `@Lf` Morphological Split & Quantitative Ingredient-to-Clause Scaling Law
+- **Script & Data**: [`tools/attack27_pharmaceutical_jar_plant_compiler.py`](../tools/attack27_pharmaceutical_jar_plant_compiler.py) $\to$ [`data/attack27_pharmaceutical_jar_plant_compiler.json`](../data/attack27_pharmaceutical_jar_plant_compiler.json)
+- **Visual Forensics**: [`pages/f88r_three_jars_and_plants_enh.png`](../pages/f88r_three_jars_and_plants_enh.png)
+- **Key Breakthroughs**:
+  1. **`@Lc` Container vs. `@Lf` Botanical Specimen Morphology**: `@Lc` jar labels (`n=40`) are longer (`6.85` vs. `5.67` chars) and enrich gallows (`75.0%` vs. `58.0%`) and `-y` endings (`50.0%` vs. `36.7%`), while `@Lf` botanical labels (`n=207`) enrich `-r/-l` liquid endings **`2.90×` (`29.0%` vs. `10.0%`)**.
+  2. **Jar-to-Paragraph Scaling ($r = +0.5528$) & Same-Quire Recipe Compilation ($z = +1.91, p = 0.041$)**: `@Lc` jar count correlates with recipe paragraph count ($r = +0.5528$), prose word count correlates with `-aiin` unit count ($r = +0.7542$), and informative `@Lc/@Lf` labels recur in same-folio ($z = +1.78$) and same-quire ($z = +1.91, p = 0.041$) recipe prose.
+
+---
+
+## 28. Attack 28 (`Phase 39`): The 9-Rosettes Foldout (`fRos` / `f85v2`) 9-Sphere Cosmological Routing Map & Tripartite Rim / Interior / Causeway Division
+- **Script & Data**: [`tools/attack28_rosettes_9sphere_routing_decoder.py`](../tools/attack28_rosettes_9sphere_routing_decoder.py) $\to$ [`data/attack28_rosettes_9sphere_routing_decoder.json`](../data/attack28_rosettes_9sphere_routing_decoder.json)
+- **Visual Forensics**: [`pages/fRos_center_and_causeways_enh.png`](../pages/fRos_center_and_causeways_enh.png), [`pages/fRos_circle7_NE_spiral_enh.png`](../pages/fRos_circle7_NE_spiral_enh.png)
+- **Key Breakthroughs**:
+  1. **Tripartite Morphological Division Across `fRos` (`535` tokens, `160` loci)**: Sphere Rim Circular Texts (`@Cc`, `339` tokens) select `o-` (`61.65%`) and `-ar/-al/-or/-ol` (`40.12%`); Sphere Interior Labels (`@L0`, `147` tokens) enrich labial container gallows `op-/of-` **`5.44×` (`22.45%` vs. `4.13%`)** and `-edy/-dy` **`1.98×` (`28.57%`)**; and Inter-Sphere Causeways (`<!I>..<!VIII>`, `49` tokens) enrich `qok-/qot-` active operators **`4.61×` over rims and `12.0×` over sphere interiors (`8.16%`)**.
+  2. **Section Routing Density (`2 <= df <= 10`, `102` types)**: Routes most densely per folio into Starred Recipes (`$I=S`, `2.440`), Cosmological Text (`$I=T`, `2.429`), Cosmological Diagrams (`$I=C`, `2.000`), Biological (`$I=B`, `1.579`), and Zodiac (`$I=Z`, `1.417`).

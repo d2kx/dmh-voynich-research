@@ -1,0 +1,2414 @@
+{
+  "phase": "Phase 39 / Attack 28",
+  "title": "The 9-Rosettes Foldout (fRos / f85v2) 9-Sphere Cosmological Routing Map & Causeway/Rim Decoder",
+  "overall_fRos_counts": {
+    "total_loci": 160,
+    "rim_token_count": 339,
+    "interior_label_token_count": 147,
+    "causeway_token_count": 49,
+    "total_fRos_tokens": 535,
+    "rare_canonical_types_df2_10": 102
+  },
+  "layer_morphological_comparison": {
+    "rim_Cc_profile": {
+      "token_count": 339,
+      "unique_types": 217,
+      "mean_length": 4.549,
+      "qok_qot_rate": 0.0177,
+      "op_of_labial_rate": 0.0413,
+      "ok_ot_gallows_rate": 0.3422,
+      "o_initial_rate": 0.6165,
+      "d_s_initial_rate": 0.0649,
+      "edy_dy_verbal_rate": 0.1445,
+      "ar_al_or_ol_liquid_rate": 0.4012,
+      "aiin_unit_rate": 0.1268
+    },
+    "sphere_interior_L0_profile": {
+      "token_count": 147,
+      "unique_types": 132,
+      "mean_length": 5.558,
+      "qok_qot_rate": 0.0068,
+      "op_of_labial_rate": 0.2245,
+      "ok_ot_gallows_rate": 0.3333,
+      "o_initial_rate": 0.6327,
+      "d_s_initial_rate": 0.1837,
+      "edy_dy_verbal_rate": 0.2857,
+      "ar_al_or_ol_liquid_rate": 0.2109,
+      "aiin_unit_rate": 0.102
+    },
+    "causeway_I_VIII_profile": {
+      "token_count": 49,
+      "unique_types": 46,
+      "mean_length": 4.857,
+      "qok_qot_rate": 0.0816,
+      "op_of_labial_rate": 0.2245,
+      "ok_ot_gallows_rate": 0.2041,
+      "o_initial_rate": 0.4694,
+      "d_s_initial_rate": 0.1429,
+      "edy_dy_verbal_rate": 0.1837,
+      "ar_al_or_ol_liquid_rate": 0.2449,
+      "aiin_unit_rate": 0.0816
+    }
+  },
+  "quire_N_foldout_cohesion_test": {
+    "quire_N_companion_folios": [
+      "f85r1",
+      "f85r2",
+      "f86v4",
+      "f86v6",
+      "f86v5",
+      "f86v3"
+    ],
+    "fRos_rare_tokens_df2_10_count": 102,
+    "observed_shared_with_quire_N": 20,
+    "null_currierB_6folio_mean": 15.927,
+    "null_currierB_6folio_std": 3.993,
+    "z_score": 1.02,
+    "p_value": 0.177,
+    "shared_examples": [
+      "ytedar",
+      "odey",
+      "osain",
+      "otodar",
+      "arar",
+      "opy",
+      "oted",
+      "shd",
+      "ykal",
+      "okan",
+      "okshy",
+      "okhedy",
+      "otedam",
+      "othey",
+      "oro",
+      "opor",
+      "sedy",
+      "tchdain",
+      "ofar",
+      "otedain"
+    ]
+  },
+  "section_routing_summary_df2_10": {
+    "A": {
+      "folio_count": 8,
+      "shared_rare_fRos_tokens_df2_10": 10,
+      "shared_rate_per_folio": 1.25,
+      "examples": [
+        "oekain",
+        "okodar",
+        "osain",
+        "odair",
+        "otch",
+        "othey",
+        "okos",
+        "otochedy",
+        "ofar",
+        "osar"
+      ]
+    },
+    "B": {
+      "folio_count": 19,
+      "shared_rare_fRos_tokens_df2_10": 30,
+      "shared_rate_per_folio": 1.579,
+      "examples": [
+        "ytedar",
+        "otedal",
+        "chkedy",
+        "olkair",
+        "chkar",
+        "shekedy",
+        "okedar",
+        "arar",
+        "kary",
+        "opal",
+        "dainy",
+        "daraldy"
+      ]
+    },
+    "C": {
+      "folio_count": 10,
+      "shared_rare_fRos_tokens_df2_10": 20,
+      "shared_rate_per_folio": 2.0,
+      "examples": [
+        "ytedar",
+        "odey",
+        "oekain",
+        "okodar",
+        "otodar",
+        "arar",
+        "odair",
+        "opal",
+        "oted",
+        "shd",
+        "okshy",
+        "doy"
+      ]
+    },
+    "H": {
+      "folio_count": 129,
+      "shared_rare_fRos_tokens_df2_10": 58,
+      "shared_rate_per_folio": 0.45,
+      "examples": [
+        "yain",
+        "olchety",
+        "chkedy",
+        "odey",
+        "okas",
+        "oal",
+        "olkair",
+        "okodar",
+        "chkar",
+        "otchdain",
+        "todar",
+        "chepar"
+      ]
+    },
+    "P": {
+      "folio_count": 16,
+      "shared_rare_fRos_tokens_df2_10": 17,
+      "shared_rate_per_folio": 1.062,
+      "examples": [
+        "yain",
+        "daldal",
+        "osain",
+        "ofain",
+        "ais",
+        "othey",
+        "doy",
+        "okechy",
+        "oir",
+        "otoldy",
+        "opor",
+        "orarol"
+      ]
+    },
+    "S": {
+      "folio_count": 25,
+      "shared_rare_fRos_tokens_df2_10": 61,
+      "shared_rate_per_folio": 2.44,
+      "examples": [
+        "oeal",
+        "yain",
+        "ytedar",
+        "otedal",
+        "odey",
+        "opchdar",
+        "okas",
+        "oal",
+        "otl",
+        "olkair",
+        "chepchey",
+        "chkar"
+      ]
+    },
+    "T": {
+      "folio_count": 7,
+      "shared_rare_fRos_tokens_df2_10": 17,
+      "shared_rate_per_folio": 2.429,
+      "examples": [
+        "osain",
+        "odair",
+        "kary",
+        "opy",
+        "ykal",
+        "okan",
+        "okhedy",
+        "otedam",
+        "othey",
+        "oro",
+        "opor",
+        "oror"
+      ]
+    },
+    "Z": {
+      "folio_count": 12,
+      "shared_rare_fRos_tokens_df2_10": 17,
+      "shared_rate_per_folio": 1.417,
+      "examples": [
+        "ytedar",
+        "chepchey",
+        "ypal",
+        "osain",
+        "arar",
+        "opal",
+        "ofain",
+        "oteoly",
+        "otos",
+        "okolar",
+        "otochedy",
+        "yke"
+      ]
+    }
+  },
+  "nine_spheres": [
+    {
+      "circle_id": "1",
+      "name": "Circle 1 (NW Corner)",
+      "rim_profile": {
+        "token_count": 33,
+        "unique_types": 31,
+        "mean_length": 4.576,
+        "qok_qot_rate": 0.0303,
+        "op_of_labial_rate": 0.0303,
+        "ok_ot_gallows_rate": 0.4242,
+        "o_initial_rate": 0.6667,
+        "d_s_initial_rate": 0.0606,
+        "edy_dy_verbal_rate": 0.0909,
+        "ar_al_or_ol_liquid_rate": 0.4545,
+        "aiin_unit_rate": 0.1212
+      },
+      "interior_profile": {
+        "token_count": 16,
+        "unique_types": 16,
+        "mean_length": 5.562,
+        "qok_qot_rate": 0.0,
+        "op_of_labial_rate": 0.0625,
+        "ok_ot_gallows_rate": 0.125,
+        "o_initial_rate": 0.375,
+        "d_s_initial_rate": 0.375,
+        "edy_dy_verbal_rate": 0.125,
+        "ar_al_or_ol_liquid_rate": 0.25,
+        "aiin_unit_rate": 0.125
+      },
+      "sample_rim_tokens": [
+        "oto",
+        "tosaes",
+        "adar",
+        "otar",
+        "otes",
+        "okaiin",
+        "dal",
+        "al",
+        "chdar",
+        "otdar",
+        "chefchs",
+        "okor",
+        "ol",
+        "om",
+        "olkeeodaiin"
+      ],
+      "sample_interior_tokens": [
+        "saeeasa",
+        "ofain",
+        "ain",
+        "ych",
+        "ais",
+        "ydekam",
+        "darchedy",
+        "otochedy",
+        "sy",
+        "soeedoy",
+        "olal",
+        "dchor",
+        "orary",
+        "sairojam",
+        "okchdarar"
+      ],
+      "section_routing_counts_df2_12": {
+        "P": 4,
+        "S": 10,
+        "H": 4,
+        "Z": 7,
+        "B": 4,
+        "C": 4,
+        "A": 2,
+        "T": 1
+      },
+      "quire_N_links": [
+        {
+          "canonical": "oted",
+          "target_folio": "f86v4",
+          "global_df": 9
+        },
+        {
+          "canonical": "oto",
+          "target_folio": "f85r1",
+          "global_df": 11
+        }
+      ],
+      "rare_manuscript_links": [
+        {
+          "canonical": "ais",
+          "global_df": 3,
+          "target_folios": [
+            "f89r2",
+            "f104v"
+          ]
+        },
+        {
+          "canonical": "darchedy",
+          "global_df": 2,
+          "target_folios": [
+            "f103r"
+          ]
+        },
+        {
+          "canonical": "ofain",
+          "global_df": 5,
+          "target_folios": [
+            "f42r",
+            "f72v3",
+            "f89v2",
+            "f95r1"
+          ]
+        },
+        {
+          "canonical": "okalol",
+          "global_df": 2,
+          "target_folios": [
+            "f80r"
+          ]
+        },
+        {
+          "canonical": "olal",
+          "global_df": 6,
+          "target_folios": [
+            "f80v",
+            "f83v",
+            "f107r",
+            "f108r",
+            "f113v"
+          ]
+        },
+        {
+          "canonical": "orarol",
+          "global_df": 2,
+          "target_folios": [
+            "f89v1"
+          ]
+        },
+        {
+          "canonical": "orary",
+          "global_df": 3,
+          "target_folios": [
+            "f72r2",
+            "f73v"
+          ]
+        },
+        {
+          "canonical": "oted",
+          "global_df": 9,
+          "target_folios": [
+            "f48v",
+            "f70r1",
+            "f78r",
+            "f86v4",
+            "f107r",
+            "f111r",
+            "f114r",
+            "f115v"
+          ]
+        },
+        {
+          "canonical": "oto",
+          "global_df": 11,
+          "target_folios": [
+            "f39v",
+            "f67r1",
+            "f68v3",
+            "f69r",
+            "f71r",
+            "f71v",
+            "f72v1",
+            "f85r1"
+          ]
+        },
+        {
+          "canonical": "otochedy",
+          "global_df": 3,
+          "target_folios": [
+            "f68r1",
+            "f72r3"
+          ]
+        }
+      ]
+    },
+    {
+      "circle_id": "2",
+      "name": "Circle 2 (W Middle)",
+      "rim_profile": {
+        "token_count": 32,
+        "unique_types": 32,
+        "mean_length": 4.938,
+        "qok_qot_rate": 0.0625,
+        "op_of_labial_rate": 0.0312,
+        "ok_ot_gallows_rate": 0.3438,
+        "o_initial_rate": 0.625,
+        "d_s_initial_rate": 0.0625,
+        "edy_dy_verbal_rate": 0.0938,
+        "ar_al_or_ol_liquid_rate": 0.4062,
+        "aiin_unit_rate": 0.2188
+      },
+      "interior_profile": {
+        "token_count": 14,
+        "unique_types": 14,
+        "mean_length": 5.714,
+        "qok_qot_rate": 0.0,
+        "op_of_labial_rate": 0.2143,
+        "ok_ot_gallows_rate": 0.3571,
+        "o_initial_rate": 0.6429,
+        "d_s_initial_rate": 0.2143,
+        "edy_dy_verbal_rate": 0.3571,
+        "ar_al_or_ol_liquid_rate": 0.2857,
+        "aiin_unit_rate": 0.0714
+      },
+      "sample_rim_tokens": [
+        "osar",
+        "otar",
+        "otodeedy",
+        "oty",
+        "daiin",
+        "sheor",
+        "oar",
+        "otedy",
+        "qotedy",
+        "oteey",
+        "otoraiin",
+        "chekadr",
+        "ol",
+        "aiin",
+        "okedal"
+      ],
+      "sample_interior_tokens": [
+        "soiindy",
+        "ytedar",
+        "ddsschx",
+        "daldar",
+        "ofardy",
+        "otedal",
+        "opaiin",
+        "o",
+        "otchdy",
+        "okchy",
+        "chkeedy",
+        "opairar",
+        "odeey",
+        "okody"
+      ],
+      "section_routing_counts_df2_12": {
+        "H": 7,
+        "B": 7,
+        "C": 5,
+        "S": 23,
+        "Z": 6,
+        "T": 1,
+        "P": 6,
+        "A": 1
+      },
+      "quire_N_links": [
+        {
+          "canonical": "odey",
+          "target_folio": "f86v3",
+          "global_df": 5
+        },
+        {
+          "canonical": "otedain",
+          "target_folio": "f86v4",
+          "global_df": 8
+        },
+        {
+          "canonical": "ytedar",
+          "target_folio": "f85r2",
+          "global_df": 5
+        }
+      ],
+      "rare_manuscript_links": [
+        {
+          "canonical": "chkedy",
+          "global_df": 7,
+          "target_folios": [
+            "f41r",
+            "f50v",
+            "f82r",
+            "f83r",
+            "f84r",
+            "f84v"
+          ]
+        },
+        {
+          "canonical": "daldar",
+          "global_df": 2,
+          "target_folios": [
+            "f43v"
+          ]
+        },
+        {
+          "canonical": "odey",
+          "global_df": 5,
+          "target_folios": [
+            "f42v",
+            "f86v3",
+            "f103r",
+            "f105r"
+          ]
+        },
+        {
+          "canonical": "okedal",
+          "global_df": 11,
+          "target_folios": [
+            "f43v",
+            "f66v",
+            "f72r2",
+            "f73r",
+            "f76r",
+            "f104r",
+            "f108r",
+            "f108v"
+          ]
+        },
+        {
+          "canonical": "okody",
+          "global_df": 11,
+          "target_folios": [
+            "f39v",
+            "f69r",
+            "f69v",
+            "f70v2",
+            "f71r",
+            "f72v1",
+            "f101v",
+            "f102r2"
+          ]
+        },
+        {
+          "canonical": "osar",
+          "global_df": 2,
+          "target_folios": [
+            "f67r2"
+          ]
+        },
+        {
+          "canonical": "otedain",
+          "global_df": 8,
+          "target_folios": [
+            "f84r",
+            "f86v4",
+            "f105r",
+            "f108v",
+            "f111r",
+            "f111v",
+            "f115v"
+          ]
+        },
+        {
+          "canonical": "otedal",
+          "global_df": 7,
+          "target_folios": [
+            "f82v",
+            "f108v",
+            "f112r",
+            "f114v",
+            "f115v",
+            "f116r"
+          ]
+        },
+        {
+          "canonical": "otorain",
+          "global_df": 3,
+          "target_folios": [
+            "f89r1",
+            "f99v"
+          ]
+        },
+        {
+          "canonical": "tched",
+          "global_df": 6,
+          "target_folios": [
+            "f104v",
+            "f111r",
+            "f112v",
+            "f114v",
+            "f115v"
+          ]
+        },
+        {
+          "canonical": "ytedar",
+          "global_df": 5,
+          "target_folios": [
+            "f73v",
+            "f84v",
+            "f85r2",
+            "f104v"
+          ]
+        }
+      ]
+    },
+    {
+      "circle_id": "3",
+      "name": "Circle 3 (SW Corner / Clock)",
+      "rim_profile": {
+        "token_count": 42,
+        "unique_types": 35,
+        "mean_length": 4.262,
+        "qok_qot_rate": 0.0,
+        "op_of_labial_rate": 0.0952,
+        "ok_ot_gallows_rate": 0.2143,
+        "o_initial_rate": 0.5476,
+        "d_s_initial_rate": 0.0952,
+        "edy_dy_verbal_rate": 0.119,
+        "ar_al_or_ol_liquid_rate": 0.4286,
+        "aiin_unit_rate": 0.1429
+      },
+      "interior_profile": {
+        "token_count": 31,
+        "unique_types": 30,
+        "mean_length": 5.742,
+        "qok_qot_rate": 0.0,
+        "op_of_labial_rate": 0.2903,
+        "ok_ot_gallows_rate": 0.4516,
+        "o_initial_rate": 0.8065,
+        "d_s_initial_rate": 0.0968,
+        "edy_dy_verbal_rate": 0.3871,
+        "ar_al_or_ol_liquid_rate": 0.0968,
+        "aiin_unit_rate": 0.0645
+      },
+      "sample_rim_tokens": [
+        "otchdaiin",
+        "otodar",
+        "otedar",
+        "otar",
+        "odaiin",
+        "olkaiin",
+        "otl",
+        "xasashe",
+        "ol",
+        "ar",
+        "ae",
+        "chedaiin",
+        "ockhedy",
+        "sheda",
+        "otody"
+      ],
+      "sample_interior_tokens": [
+        "depcheky",
+        "otch",
+        "osy",
+        "odl",
+        "d",
+        "dy",
+        "oteey",
+        "okaramal",
+        "opchdy",
+        "ofdoram",
+        "oda",
+        "ofchdar",
+        "otedam",
+        "lokedshs",
+        "otodar"
+      ],
+      "section_routing_counts_df2_12": {
+        "H": 10,
+        "S": 28,
+        "Z": 7,
+        "T": 4,
+        "B": 4,
+        "P": 1,
+        "A": 1,
+        "C": 3
+      },
+      "quire_N_links": [
+        {
+          "canonical": "okhedy",
+          "target_folio": "f86v5",
+          "global_df": 7
+        },
+        {
+          "canonical": "opor",
+          "target_folio": "f86v5",
+          "global_df": 6
+        },
+        {
+          "canonical": "otedain",
+          "target_folio": "f86v4",
+          "global_df": 8
+        },
+        {
+          "canonical": "otedam",
+          "target_folio": "f85r1",
+          "global_df": 4
+        },
+        {
+          "canonical": "otodar",
+          "target_folio": "f85r2",
+          "global_df": 3
+        },
+        {
+          "canonical": "otodar",
+          "target_folio": "f86v3",
+          "global_df": 3
+        }
+      ],
+      "rare_manuscript_links": [
+        {
+          "canonical": "chepar",
+          "global_df": 3,
+          "target_folios": [
+            "f66v",
+            "f106v"
+          ]
+        },
+        {
+          "canonical": "odl",
+          "global_df": 4,
+          "target_folios": [
+            "f11r",
+            "f104v",
+            "f106v"
+          ]
+        },
+        {
+          "canonical": "okedal",
+          "global_df": 11,
+          "target_folios": [
+            "f43v",
+            "f66v",
+            "f72r2",
+            "f73r",
+            "f76r",
+            "f104r",
+            "f108r",
+            "f108v"
+          ]
+        },
+        {
+          "canonical": "okhedy",
+          "global_df": 7,
+          "target_folios": [
+            "f31v",
+            "f39v",
+            "f86v5",
+            "f104r",
+            "f105v",
+            "f108r"
+          ]
+        },
+        {
+          "canonical": "opchdar",
+          "global_df": 2,
+          "target_folios": [
+            "f112v"
+          ]
+        },
+        {
+          "canonical": "opor",
+          "global_df": 6,
+          "target_folios": [
+            "f80r",
+            "f80v",
+            "f86v5",
+            "f102r2",
+            "f112r"
+          ]
+        },
+        {
+          "canonical": "otch",
+          "global_df": 3,
+          "target_folios": [
+            "f19v",
+            "f67v1"
+          ]
+        },
+        {
+          "canonical": "otchdain",
+          "global_df": 2,
+          "target_folios": [
+            "f48r"
+          ]
+        },
+        {
+          "canonical": "otedain",
+          "global_df": 8,
+          "target_folios": [
+            "f84r",
+            "f86v4",
+            "f105r",
+            "f108v",
+            "f111r",
+            "f111v",
+            "f115v"
+          ]
+        },
+        {
+          "canonical": "otedam",
+          "global_df": 4,
+          "target_folios": [
+            "f85r1",
+            "f107v",
+            "f108r"
+          ]
+        },
+        {
+          "canonical": "otedar",
+          "global_df": 12,
+          "target_folios": [
+            "f70v2",
+            "f72r3",
+            "f72v3",
+            "f84v",
+            "f106v",
+            "f108r",
+            "f108v",
+            "f111r"
+          ]
+        },
+        {
+          "canonical": "oteoly",
+          "global_df": 4,
+          "target_folios": [
+            "f48r",
+            "f72v3",
+            "f72v1"
+          ]
+        }
+      ]
+    },
+    {
+      "circle_id": "4",
+      "name": "Circle 4 (N Middle)",
+      "rim_profile": {
+        "token_count": 41,
+        "unique_types": 33,
+        "mean_length": 3.902,
+        "qok_qot_rate": 0.0,
+        "op_of_labial_rate": 0.0244,
+        "ok_ot_gallows_rate": 0.2927,
+        "o_initial_rate": 0.561,
+        "d_s_initial_rate": 0.0732,
+        "edy_dy_verbal_rate": 0.1707,
+        "ar_al_or_ol_liquid_rate": 0.439,
+        "aiin_unit_rate": 0.0732
+      },
+      "interior_profile": {
+        "token_count": 13,
+        "unique_types": 13,
+        "mean_length": 5.385,
+        "qok_qot_rate": 0.0,
+        "op_of_labial_rate": 0.2308,
+        "ok_ot_gallows_rate": 0.3077,
+        "o_initial_rate": 0.5385,
+        "d_s_initial_rate": 0.3846,
+        "edy_dy_verbal_rate": 0.2308,
+        "ar_al_or_ol_liquid_rate": 0.2308,
+        "aiin_unit_rate": 0.0769
+      },
+      "sample_rim_tokens": [
+        "sais",
+        "od",
+        "r",
+        "ar",
+        "or",
+        "okal",
+        "okal",
+        "or",
+        "alal",
+        "ykal",
+        "ol",
+        "ar",
+        "ol",
+        "al",
+        "ol"
+      ],
+      "sample_interior_tokens": [
+        "daldal",
+        "daraldy",
+        "oko",
+        "daiiny",
+        "doy",
+        "okedy",
+        "okary",
+        "opain",
+        "opar",
+        "adairy",
+        "dxar",
+        "okory",
+        "opokchosody"
+      ],
+      "section_routing_counts_df2_12": {
+        "S": 19,
+        "C": 7,
+        "Z": 4,
+        "H": 21,
+        "B": 10,
+        "P": 6,
+        "T": 7
+      },
+      "quire_N_links": [
+        {
+          "canonical": "okan",
+          "target_folio": "f86v6",
+          "global_df": 6
+        },
+        {
+          "canonical": "okary",
+          "target_folio": "f86v5",
+          "global_df": 11
+        },
+        {
+          "canonical": "shd",
+          "target_folio": "f86v4",
+          "global_df": 8
+        },
+        {
+          "canonical": "ykal",
+          "target_folio": "f86v5",
+          "global_df": 9
+        }
+      ],
+      "rare_manuscript_links": [
+        {
+          "canonical": "alal",
+          "global_df": 7,
+          "target_folios": [
+            "f58v",
+            "f70r1",
+            "f70r2",
+            "f72v1",
+            "f108v",
+            "f111r"
+          ]
+        },
+        {
+          "canonical": "dainy",
+          "global_df": 4,
+          "target_folios": [
+            "f47r",
+            "f55v",
+            "f75r"
+          ]
+        },
+        {
+          "canonical": "daldal",
+          "global_df": 2,
+          "target_folios": [
+            "f89r1"
+          ]
+        },
+        {
+          "canonical": "daraldy",
+          "global_df": 2,
+          "target_folios": [
+            "f84r"
+          ]
+        },
+        {
+          "canonical": "doy",
+          "global_df": 4,
+          "target_folios": [
+            "f8r",
+            "f70r2",
+            "f88v"
+          ]
+        },
+        {
+          "canonical": "oeal",
+          "global_df": 3,
+          "target_folios": [
+            "f104r",
+            "f112v"
+          ]
+        },
+        {
+          "canonical": "okan",
+          "global_df": 6,
+          "target_folios": [
+            "f1r",
+            "f80r",
+            "f86v6",
+            "f103v",
+            "f111v"
+          ]
+        },
+        {
+          "canonical": "okary",
+          "global_df": 11,
+          "target_folios": [
+            "f3v",
+            "f33v",
+            "f40v",
+            "f72v3",
+            "f73r",
+            "f80r",
+            "f86v5",
+            "f99r"
+          ]
+        },
+        {
+          "canonical": "oked",
+          "global_df": 6,
+          "target_folios": [
+            "f31v",
+            "f41r",
+            "f76r",
+            "f78r",
+            "f105v"
+          ]
+        },
+        {
+          "canonical": "oko",
+          "global_df": 7,
+          "target_folios": [
+            "f4v",
+            "f13v",
+            "f67v2",
+            "f68v3",
+            "f90r1",
+            "f113v"
+          ]
+        },
+        {
+          "canonical": "okod",
+          "global_df": 2,
+          "target_folios": [
+            "f114r"
+          ]
+        },
+        {
+          "canonical": "opar",
+          "global_df": 9,
+          "target_folios": [
+            "f26v",
+            "f70r1",
+            "f72v1",
+            "f76r",
+            "f79v",
+            "f99v",
+            "f103v",
+            "f108r"
+          ]
+        }
+      ]
+    },
+    {
+      "circle_id": "5",
+      "name": "Circle 5 (Center Hub)",
+      "rim_profile": {
+        "token_count": 46,
+        "unique_types": 43,
+        "mean_length": 4.087,
+        "qok_qot_rate": 0.0217,
+        "op_of_labial_rate": 0.0217,
+        "ok_ot_gallows_rate": 0.3043,
+        "o_initial_rate": 0.6957,
+        "d_s_initial_rate": 0.0652,
+        "edy_dy_verbal_rate": 0.1522,
+        "ar_al_or_ol_liquid_rate": 0.3043,
+        "aiin_unit_rate": 0.1304
+      },
+      "interior_profile": {
+        "token_count": 28,
+        "unique_types": 27,
+        "mean_length": 4.964,
+        "qok_qot_rate": 0.0,
+        "op_of_labial_rate": 0.2857,
+        "ok_ot_gallows_rate": 0.2143,
+        "o_initial_rate": 0.5714,
+        "d_s_initial_rate": 0.2143,
+        "edy_dy_verbal_rate": 0.25,
+        "ar_al_or_ol_liquid_rate": 0.2857,
+        "aiin_unit_rate": 0.0714
+      },
+      "sample_rim_tokens": [
+        "otor",
+        "os",
+        "om",
+        "araiin",
+        "okeody",
+        "okar",
+        "odsheedy",
+        "odaiin",
+        "okchdy",
+        "okar",
+        "shor",
+        "okaiin",
+        "daiin",
+        "ofair",
+        "oly"
+      ],
+      "sample_interior_tokens": [
+        "oteedy",
+        "opy",
+        "odal",
+        "shdy",
+        "opchees",
+        "opar",
+        "daral",
+        "otdodar",
+        "oedy",
+        "soshxor",
+        "arar",
+        "otedain",
+        "otedy",
+        "ytedar",
+        "ary"
+      ],
+      "section_routing_counts_df2_12": {
+        "H": 15,
+        "Z": 10,
+        "B": 10,
+        "C": 9,
+        "S": 29,
+        "P": 7,
+        "A": 1,
+        "T": 2
+      },
+      "quire_N_links": [
+        {
+          "canonical": "arar",
+          "target_folio": "f86v4",
+          "global_df": 8
+        },
+        {
+          "canonical": "oedy",
+          "target_folio": "f86v4",
+          "global_df": 12
+        },
+        {
+          "canonical": "oedy",
+          "target_folio": "f86v3",
+          "global_df": 12
+        },
+        {
+          "canonical": "opy",
+          "target_folio": "f86v5",
+          "global_df": 7
+        },
+        {
+          "canonical": "otedain",
+          "target_folio": "f86v4",
+          "global_df": 8
+        },
+        {
+          "canonical": "ytedar",
+          "target_folio": "f85r2",
+          "global_df": 5
+        }
+      ],
+      "rare_manuscript_links": [
+        {
+          "canonical": "arar",
+          "global_df": 8,
+          "target_folios": [
+            "f43r",
+            "f70v2",
+            "f71r",
+            "f84r",
+            "f86v4",
+            "f103v",
+            "f112v"
+          ]
+        },
+        {
+          "canonical": "daral",
+          "global_df": 4,
+          "target_folios": [
+            "f20r",
+            "f43r",
+            "f79v"
+          ]
+        },
+        {
+          "canonical": "oedy",
+          "global_df": 12,
+          "target_folios": [
+            "f46r",
+            "f72v3",
+            "f72v2",
+            "f79v",
+            "f81r",
+            "f86v4",
+            "f86v3",
+            "f106v"
+          ]
+        },
+        {
+          "canonical": "ofair",
+          "global_df": 2,
+          "target_folios": [
+            "f40v"
+          ]
+        },
+        {
+          "canonical": "oir",
+          "global_df": 8,
+          "target_folios": [
+            "f14r",
+            "f28v",
+            "f89v1",
+            "f96r",
+            "f102v2",
+            "f105r",
+            "f113r"
+          ]
+        },
+        {
+          "canonical": "okodar",
+          "global_df": 4,
+          "target_folios": [
+            "f1v",
+            "f67r2",
+            "f70r2"
+          ]
+        },
+        {
+          "canonical": "okody",
+          "global_df": 11,
+          "target_folios": [
+            "f39v",
+            "f69r",
+            "f69v",
+            "f70v2",
+            "f71r",
+            "f72v1",
+            "f101v",
+            "f102r2"
+          ]
+        },
+        {
+          "canonical": "olkair",
+          "global_df": 6,
+          "target_folios": [
+            "f50r",
+            "f79v",
+            "f82v",
+            "f104r",
+            "f114r"
+          ]
+        },
+        {
+          "canonical": "opar",
+          "global_df": 9,
+          "target_folios": [
+            "f26v",
+            "f70r1",
+            "f72v1",
+            "f76r",
+            "f79v",
+            "f99v",
+            "f103v",
+            "f108r"
+          ]
+        },
+        {
+          "canonical": "opchedain",
+          "global_df": 4,
+          "target_folios": [
+            "f105v",
+            "f108v",
+            "f114r"
+          ]
+        },
+        {
+          "canonical": "opches",
+          "global_df": 4,
+          "target_folios": [
+            "f40r",
+            "f106r",
+            "f115v"
+          ]
+        },
+        {
+          "canonical": "opy",
+          "global_df": 7,
+          "target_folios": [
+            "f9v",
+            "f44v",
+            "f58r",
+            "f80v",
+            "f86v5",
+            "f113r"
+          ]
+        }
+      ]
+    },
+    {
+      "circle_id": "6",
+      "name": "Circle 6 (S Middle)",
+      "rim_profile": {
+        "token_count": 34,
+        "unique_types": 30,
+        "mean_length": 4.5,
+        "qok_qot_rate": 0.0,
+        "op_of_labial_rate": 0.0294,
+        "ok_ot_gallows_rate": 0.3529,
+        "o_initial_rate": 0.6765,
+        "d_s_initial_rate": 0.0588,
+        "edy_dy_verbal_rate": 0.2059,
+        "ar_al_or_ol_liquid_rate": 0.3824,
+        "aiin_unit_rate": 0.2353
+      },
+      "interior_profile": {
+        "token_count": 13,
+        "unique_types": 13,
+        "mean_length": 6.077,
+        "qok_qot_rate": 0.0,
+        "op_of_labial_rate": 0.1538,
+        "ok_ot_gallows_rate": 0.6923,
+        "o_initial_rate": 0.7692,
+        "d_s_initial_rate": 0.0769,
+        "edy_dy_verbal_rate": 0.3077,
+        "ar_al_or_ol_liquid_rate": 0.2308,
+        "aiin_unit_rate": 0.2308
+      },
+      "sample_rim_tokens": [
+        "okedar",
+        "okody",
+        "okair",
+        "chedy",
+        "opar",
+        "ol",
+        "keeedy",
+        "s",
+        "ar",
+        "olkchedy",
+        "otedaiin",
+        "olky",
+        "or",
+        "aiin",
+        "ody"
+      ],
+      "sample_interior_tokens": [
+        "opchdain",
+        "otdar",
+        "shed",
+        "ofaraiin",
+        "okolar",
+        "okchdy",
+        "ykedy",
+        "oteedy",
+        "otosaiin",
+        "otchdam",
+        "otedy",
+        "okar",
+        "lashalg"
+      ],
+      "section_routing_counts_df2_12": {
+        "A": 3,
+        "C": 6,
+        "Z": 12,
+        "H": 7,
+        "T": 3,
+        "S": 24,
+        "B": 4,
+        "P": 6
+      },
+      "quire_N_links": [
+        {
+          "canonical": "osain",
+          "target_folio": "f85r1",
+          "global_df": 10
+        },
+        {
+          "canonical": "otedain",
+          "target_folio": "f86v4",
+          "global_df": 8
+        }
+      ],
+      "rare_manuscript_links": [
+        {
+          "canonical": "oekain",
+          "global_df": 4,
+          "target_folios": [
+            "f67r1",
+            "f67r2",
+            "f68v3"
+          ]
+        },
+        {
+          "canonical": "okalar",
+          "global_df": 4,
+          "target_folios": [
+            "f71v",
+            "f72r2",
+            "f72r3"
+          ]
+        },
+        {
+          "canonical": "okedal",
+          "global_df": 11,
+          "target_folios": [
+            "f43v",
+            "f66v",
+            "f72r2",
+            "f73r",
+            "f76r",
+            "f104r",
+            "f108r",
+            "f108v"
+          ]
+        },
+        {
+          "canonical": "okedar",
+          "global_df": 8,
+          "target_folios": [
+            "f43v",
+            "f76v",
+            "f84r",
+            "f103r",
+            "f103v",
+            "f108r",
+            "f108v"
+          ]
+        },
+        {
+          "canonical": "okody",
+          "global_df": 11,
+          "target_folios": [
+            "f39v",
+            "f69r",
+            "f69v",
+            "f70v2",
+            "f71r",
+            "f72v1",
+            "f101v",
+            "f102r2"
+          ]
+        },
+        {
+          "canonical": "okolar",
+          "global_df": 4,
+          "target_folios": [
+            "f69v",
+            "f71v",
+            "f72v1"
+          ]
+        },
+        {
+          "canonical": "olkchedy",
+          "global_df": 4,
+          "target_folios": [
+            "f104r",
+            "f107r",
+            "f115v"
+          ]
+        },
+        {
+          "canonical": "opar",
+          "global_df": 9,
+          "target_folios": [
+            "f26v",
+            "f70r1",
+            "f72v1",
+            "f76r",
+            "f79v",
+            "f99v",
+            "f103v",
+            "f108r"
+          ]
+        },
+        {
+          "canonical": "opchdain",
+          "global_df": 2,
+          "target_folios": [
+            "f115r"
+          ]
+        },
+        {
+          "canonical": "osain",
+          "global_df": 10,
+          "target_folios": [
+            "f46r",
+            "f67r1",
+            "f73r",
+            "f85r1",
+            "f102v2",
+            "f103v",
+            "f106v",
+            "f113r"
+          ]
+        },
+        {
+          "canonical": "otchdain",
+          "global_df": 2,
+          "target_folios": [
+            "f48r"
+          ]
+        },
+        {
+          "canonical": "otedain",
+          "global_df": 8,
+          "target_folios": [
+            "f84r",
+            "f86v4",
+            "f105r",
+            "f108v",
+            "f111r",
+            "f111v",
+            "f115v"
+          ]
+        }
+      ]
+    },
+    {
+      "circle_id": "7",
+      "name": "Circle 7 (NE Corner / Spiral)",
+      "rim_profile": {
+        "token_count": 51,
+        "unique_types": 45,
+        "mean_length": 4.882,
+        "qok_qot_rate": 0.0,
+        "op_of_labial_rate": 0.0392,
+        "ok_ot_gallows_rate": 0.3137,
+        "o_initial_rate": 0.549,
+        "d_s_initial_rate": 0.0588,
+        "edy_dy_verbal_rate": 0.1373,
+        "ar_al_or_ol_liquid_rate": 0.3725,
+        "aiin_unit_rate": 0.0784
+      },
+      "interior_profile": {
+        "token_count": 21,
+        "unique_types": 21,
+        "mean_length": 5.619,
+        "qok_qot_rate": 0.0476,
+        "op_of_labial_rate": 0.1905,
+        "ok_ot_gallows_rate": 0.3333,
+        "o_initial_rate": 0.5714,
+        "d_s_initial_rate": 0.0952,
+        "edy_dy_verbal_rate": 0.2857,
+        "ar_al_or_ol_liquid_rate": 0.2381,
+        "aiin_unit_rate": 0.1429
+      },
+      "sample_rim_tokens": [
+        "okos",
+        "or",
+        "air",
+        "u",
+        "oteoteedy",
+        "otos",
+        "otedar",
+        "ches",
+        "okodainol",
+        "ykedy",
+        "eedor",
+        "tchdaiin",
+        "sy",
+        "sarald",
+        "todar"
+      ],
+      "sample_interior_tokens": [
+        "adashgasain",
+        "cfair",
+        "ooly",
+        "okody",
+        "opoor",
+        "daly",
+        "okas",
+        "oedady",
+        "kechy",
+        "qolchedar",
+        "ar",
+        "otedy",
+        "chdaiin",
+        "oty",
+        "osal"
+      ],
+      "section_routing_counts_df2_12": {
+        "H": 28,
+        "S": 26,
+        "A": 7,
+        "C": 8,
+        "B": 5,
+        "T": 5,
+        "Z": 9,
+        "P": 11
+      },
+      "quire_N_links": [
+        {
+          "canonical": "aram",
+          "target_folio": "f85r2",
+          "global_df": 11
+        },
+        {
+          "canonical": "othey",
+          "target_folio": "f86v5",
+          "global_df": 6
+        },
+        {
+          "canonical": "sedy",
+          "target_folio": "f86v4",
+          "global_df": 2
+        },
+        {
+          "canonical": "tchdain",
+          "target_folio": "f85r1",
+          "global_df": 7
+        },
+        {
+          "canonical": "tchdain",
+          "target_folio": "f86v6",
+          "global_df": 7
+        }
+      ],
+      "rare_manuscript_links": [
+        {
+          "canonical": "aram",
+          "global_df": 11,
+          "target_folios": [
+            "f4v",
+            "f58r",
+            "f67r2",
+            "f70r2",
+            "f85r2",
+            "f95r2",
+            "f103v",
+            "f107r"
+          ]
+        },
+        {
+          "canonical": "chkar",
+          "global_df": 10,
+          "target_folios": [
+            "f16v",
+            "f27v",
+            "f75r",
+            "f95r2",
+            "f105v",
+            "f106r",
+            "f111v",
+            "f115r"
+          ]
+        },
+        {
+          "canonical": "lchedar",
+          "global_df": 3,
+          "target_folios": [
+            "f82r",
+            "f115r"
+          ]
+        },
+        {
+          "canonical": "lodain",
+          "global_df": 4,
+          "target_folios": [
+            "f33v",
+            "f46v",
+            "f66r"
+          ]
+        },
+        {
+          "canonical": "oal",
+          "global_df": 3,
+          "target_folios": [
+            "f17v",
+            "f113r"
+          ]
+        },
+        {
+          "canonical": "odair",
+          "global_df": 7,
+          "target_folios": [
+            "f20r",
+            "f26r",
+            "f66r",
+            "f68r2",
+            "f69r",
+            "f69v"
+          ]
+        },
+        {
+          "canonical": "ofchedain",
+          "global_df": 2,
+          "target_folios": [
+            "f114r"
+          ]
+        },
+        {
+          "canonical": "okas",
+          "global_df": 5,
+          "target_folios": [
+            "f5r",
+            "f40r",
+            "f46v",
+            "f115v"
+          ]
+        },
+        {
+          "canonical": "okody",
+          "global_df": 11,
+          "target_folios": [
+            "f39v",
+            "f69r",
+            "f69v",
+            "f70v2",
+            "f71r",
+            "f72v1",
+            "f101v",
+            "f102r2"
+          ]
+        },
+        {
+          "canonical": "okos",
+          "global_df": 7,
+          "target_folios": [
+            "f13v",
+            "f58v",
+            "f68r3",
+            "f68v3",
+            "f68v2",
+            "f99r"
+          ]
+        },
+        {
+          "canonical": "osal",
+          "global_df": 4,
+          "target_folios": [
+            "f58r",
+            "f78r",
+            "f88r"
+          ]
+        },
+        {
+          "canonical": "osar",
+          "global_df": 2,
+          "target_folios": [
+            "f67r2"
+          ]
+        }
+      ]
+    },
+    {
+      "circle_id": "8",
+      "name": "Circle 8 (E Middle)",
+      "rim_profile": {
+        "token_count": 31,
+        "unique_types": 28,
+        "mean_length": 5.161,
+        "qok_qot_rate": 0.0645,
+        "op_of_labial_rate": 0.0645,
+        "ok_ot_gallows_rate": 0.5161,
+        "o_initial_rate": 0.5484,
+        "d_s_initial_rate": 0.0968,
+        "edy_dy_verbal_rate": 0.2903,
+        "ar_al_or_ol_liquid_rate": 0.4516,
+        "aiin_unit_rate": 0.0
+      },
+      "interior_profile": {
+        "token_count": 6,
+        "unique_types": 6,
+        "mean_length": 4.833,
+        "qok_qot_rate": 0.0,
+        "op_of_labial_rate": 0.1667,
+        "ok_ot_gallows_rate": 0.3333,
+        "o_initial_rate": 0.6667,
+        "d_s_initial_rate": 0.0,
+        "edy_dy_verbal_rate": 0.3333,
+        "ar_al_or_ol_liquid_rate": 0.0,
+        "aiin_unit_rate": 0.1667
+      },
+      "sample_rim_tokens": [
+        "yke",
+        "okees",
+        "olchedy",
+        "okal",
+        "y",
+        "dol",
+        "otodar",
+        "shekalolkar",
+        "cheykar",
+        "shal",
+        "qokal",
+        "okchr",
+        "otar",
+        "otody",
+        "otody"
+      ],
+      "sample_interior_tokens": [
+        "ofary",
+        "okady",
+        "okchdy",
+        "kary",
+        "oraiin",
+        "eey"
+      ],
+      "section_routing_counts_df2_12": {
+        "H": 11,
+        "T": 1,
+        "B": 2,
+        "S": 2,
+        "C": 3,
+        "Z": 1
+      },
+      "quire_N_links": [
+        {
+          "canonical": "okshy",
+          "target_folio": "f86v3",
+          "global_df": 9
+        },
+        {
+          "canonical": "otodar",
+          "target_folio": "f85r2",
+          "global_df": 3
+        },
+        {
+          "canonical": "otodar",
+          "target_folio": "f86v3",
+          "global_df": 3
+        }
+      ],
+      "rare_manuscript_links": [
+        {
+          "canonical": "kary",
+          "global_df": 6,
+          "target_folios": [
+            "f42r",
+            "f66r",
+            "f78r",
+            "f95r2",
+            "f104r"
+          ]
+        },
+        {
+          "canonical": "okady",
+          "global_df": 2,
+          "target_folios": [
+            "f95v2"
+          ]
+        },
+        {
+          "canonical": "okem",
+          "global_df": 2,
+          "target_folios": [
+            "f24r"
+          ]
+        },
+        {
+          "canonical": "okshy",
+          "global_df": 9,
+          "target_folios": [
+            "f13v",
+            "f14v",
+            "f17r",
+            "f18v",
+            "f75v",
+            "f86v3",
+            "f95v1",
+            "f106v"
+          ]
+        },
+        {
+          "canonical": "otas",
+          "global_df": 3,
+          "target_folios": [
+            "f31v",
+            "f43v"
+          ]
+        },
+        {
+          "canonical": "otodar",
+          "global_df": 3,
+          "target_folios": [
+            "f85r2",
+            "f86v3"
+          ]
+        },
+        {
+          "canonical": "yke",
+          "global_df": 2,
+          "target_folios": [
+            "f73v"
+          ]
+        }
+      ]
+    },
+    {
+      "circle_id": "9",
+      "name": "Circle 9 (SE Corner)",
+      "rim_profile": {
+        "token_count": 29,
+        "unique_types": 28,
+        "mean_length": 4.966,
+        "qok_qot_rate": 0.0,
+        "op_of_labial_rate": 0.0345,
+        "ok_ot_gallows_rate": 0.4138,
+        "o_initial_rate": 0.7241,
+        "d_s_initial_rate": 0.0,
+        "edy_dy_verbal_rate": 0.0345,
+        "ar_al_or_ol_liquid_rate": 0.4138,
+        "aiin_unit_rate": 0.1724
+      },
+      "interior_profile": {
+        "token_count": 5,
+        "unique_types": 5,
+        "mean_length": 7.0,
+        "qok_qot_rate": 0.0,
+        "op_of_labial_rate": 0.4,
+        "ok_ot_gallows_rate": 0.0,
+        "o_initial_rate": 0.8,
+        "d_s_initial_rate": 0.2,
+        "edy_dy_verbal_rate": 0.2,
+        "ar_al_or_ol_liquid_rate": 0.2,
+        "aiin_unit_rate": 0.0
+      },
+      "sample_rim_tokens": [
+        "ok",
+        "ar",
+        "ar",
+        "okary",
+        "otodeed",
+        "odar",
+        "chekaiin",
+        "oees",
+        "oiin",
+        "okees",
+        "oiir",
+        "odaiin",
+        "okalol",
+        "aiiin",
+        "okal"
+      ],
+      "sample_interior_tokens": [
+        "opodchdal",
+        "darchdy",
+        "oalda",
+        "osaram",
+        "oparodam"
+      ],
+      "section_routing_counts_df2_12": {
+        "H": 9,
+        "A": 2,
+        "Z": 5,
+        "B": 8,
+        "T": 3,
+        "S": 19,
+        "P": 4,
+        "C": 1
+      },
+      "quire_N_links": [
+        {
+          "canonical": "chetey",
+          "target_folio": "f85r1",
+          "global_df": 12
+        },
+        {
+          "canonical": "okary",
+          "target_folio": "f86v5",
+          "global_df": 11
+        }
+      ],
+      "rare_manuscript_links": [
+        {
+          "canonical": "chetey",
+          "global_df": 12,
+          "target_folios": [
+            "f34r",
+            "f68r1",
+            "f68v2",
+            "f72r1",
+            "f73r",
+            "f77r",
+            "f84r",
+            "f85r1"
+          ]
+        },
+        {
+          "canonical": "oir",
+          "global_df": 8,
+          "target_folios": [
+            "f14r",
+            "f28v",
+            "f89v1",
+            "f96r",
+            "f102v2",
+            "f105r",
+            "f113r"
+          ]
+        },
+        {
+          "canonical": "okalol",
+          "global_df": 2,
+          "target_folios": [
+            "f80r"
+          ]
+        },
+        {
+          "canonical": "okary",
+          "global_df": 11,
+          "target_folios": [
+            "f3v",
+            "f33v",
+            "f40v",
+            "f72v3",
+            "f73r",
+            "f80r",
+            "f86v5",
+            "f99r"
+          ]
+        },
+        {
+          "canonical": "okedain",
+          "global_df": 7,
+          "target_folios": [
+            "f106v",
+            "f108r",
+            "f108v",
+            "f111r",
+            "f114v",
+            "f115r"
+          ]
+        },
+        {
+          "canonical": "opal",
+          "global_df": 9,
+          "target_folios": [
+            "f31v",
+            "f58v",
+            "f67v2",
+            "f72v3",
+            "f75v",
+            "f107r",
+            "f112r",
+            "f112v"
+          ]
+        },
+        {
+          "canonical": "oror",
+          "global_df": 9,
+          "target_folios": [
+            "f55v",
+            "f81r",
+            "f84r",
+            "f84v",
+            "f102v2",
+            "f112v",
+            "f113v",
+            "f116v"
+          ]
+        }
+      ]
+    }
+  ],
+  "eight_causeways": [
+    {
+      "causeway_id": "I",
+      "profile": {
+        "token_count": 3,
+        "unique_types": 3,
+        "mean_length": 3.0,
+        "qok_qot_rate": 0.0,
+        "op_of_labial_rate": 0.0,
+        "ok_ot_gallows_rate": 0.3333,
+        "o_initial_rate": 0.3333,
+        "d_s_initial_rate": 0.3333,
+        "edy_dy_verbal_rate": 0.0,
+        "ar_al_or_ol_liquid_rate": 0.3333,
+        "aiin_unit_rate": 0.0
+      },
+      "tokens": [
+        "dor",
+        "oky",
+        "roo"
+      ],
+      "rare_manuscript_links": []
+    },
+    {
+      "causeway_id": "II",
+      "profile": {
+        "token_count": 4,
+        "unique_types": 4,
+        "mean_length": 3.5,
+        "qok_qot_rate": 0.0,
+        "op_of_labial_rate": 0.0,
+        "ok_ot_gallows_rate": 0.25,
+        "o_initial_rate": 0.25,
+        "d_s_initial_rate": 0.0,
+        "edy_dy_verbal_rate": 0.25,
+        "ar_al_or_ol_liquid_rate": 0.25,
+        "aiin_unit_rate": 0.0
+      },
+      "tokens": [
+        "otol",
+        "ardas",
+        "l",
+        "chdy"
+      ],
+      "rare_manuscript_links": []
+    },
+    {
+      "causeway_id": "III",
+      "profile": {
+        "token_count": 3,
+        "unique_types": 3,
+        "mean_length": 6.0,
+        "qok_qot_rate": 0.0,
+        "op_of_labial_rate": 0.3333,
+        "ok_ot_gallows_rate": 0.0,
+        "o_initial_rate": 0.3333,
+        "d_s_initial_rate": 0.3333,
+        "edy_dy_verbal_rate": 0.3333,
+        "ar_al_or_ol_liquid_rate": 0.0,
+        "aiin_unit_rate": 0.0
+      },
+      "tokens": [
+        "oparod",
+        "shckhdy",
+        "tshda"
+      ],
+      "rare_manuscript_links": [
+        {
+          "canonical": "shkhdy",
+          "global_df": 3,
+          "target_folios": [
+            "f33v",
+            "f65v"
+          ]
+        }
+      ]
+    },
+    {
+      "causeway_id": "IV",
+      "profile": {
+        "token_count": 3,
+        "unique_types": 3,
+        "mean_length": 5.333,
+        "qok_qot_rate": 0.3333,
+        "op_of_labial_rate": 0.6667,
+        "ok_ot_gallows_rate": 0.0,
+        "o_initial_rate": 0.6667,
+        "d_s_initial_rate": 0.0,
+        "edy_dy_verbal_rate": 0.3333,
+        "ar_al_or_ol_liquid_rate": 0.3333,
+        "aiin_unit_rate": 0.0
+      },
+      "tokens": [
+        "opchd",
+        "opchdy",
+        "qokal"
+      ],
+      "rare_manuscript_links": [
+        {
+          "canonical": "opchd",
+          "global_df": 2,
+          "target_folios": [
+            "f41r"
+          ]
+        },
+        {
+          "canonical": "opchdy",
+          "global_df": 15,
+          "target_folios": [
+            "f43r",
+            "f76r",
+            "f85r1",
+            "f85r2",
+            "f86v6",
+            "f86v3",
+            "f94v",
+            "f104r"
+          ]
+        }
+      ]
+    },
+    {
+      "causeway_id": "V",
+      "profile": {
+        "token_count": 3,
+        "unique_types": 3,
+        "mean_length": 5.0,
+        "qok_qot_rate": 0.0,
+        "op_of_labial_rate": 0.3333,
+        "ok_ot_gallows_rate": 0.0,
+        "o_initial_rate": 0.3333,
+        "d_s_initial_rate": 0.3333,
+        "edy_dy_verbal_rate": 0.0,
+        "ar_al_or_ol_liquid_rate": 0.0,
+        "aiin_unit_rate": 0.0
+      },
+      "tokens": [
+        "shet",
+        "opchsy",
+        "cheky"
+      ],
+      "rare_manuscript_links": [
+        {
+          "canonical": "shet",
+          "global_df": 7,
+          "target_folios": [
+            "f35r",
+            "f43v",
+            "f46r",
+            "f103r",
+            "f111r",
+            "f115v"
+          ]
+        }
+      ]
+    },
+    {
+      "causeway_id": "VI",
+      "profile": {
+        "token_count": 8,
+        "unique_types": 8,
+        "mean_length": 5.625,
+        "qok_qot_rate": 0.0,
+        "op_of_labial_rate": 0.375,
+        "ok_ot_gallows_rate": 0.375,
+        "o_initial_rate": 0.875,
+        "d_s_initial_rate": 0.0,
+        "edy_dy_verbal_rate": 0.25,
+        "ar_al_or_ol_liquid_rate": 0.125,
+        "aiin_unit_rate": 0.125
+      },
+      "tokens": [
+        "otam",
+        "opchody",
+        "oteey",
+        "opar",
+        "chepchey",
+        "oteedy",
+        "olaiin",
+        "osshy"
+      ],
+      "rare_manuscript_links": [
+        {
+          "canonical": "chepchey",
+          "global_df": 3,
+          "target_folios": [
+            "f58r",
+            "f73r"
+          ]
+        },
+        {
+          "canonical": "opar",
+          "global_df": 9,
+          "target_folios": [
+            "f26v",
+            "f70r1",
+            "f72v1",
+            "f76r",
+            "f79v",
+            "f99v",
+            "f103v",
+            "f108r"
+          ]
+        },
+        {
+          "canonical": "opchody",
+          "global_df": 3,
+          "target_folios": [
+            "f93v",
+            "f106r"
+          ]
+        }
+      ]
+    },
+    {
+      "causeway_id": "VII",
+      "profile": {
+        "token_count": 12,
+        "unique_types": 10,
+        "mean_length": 4.167,
+        "qok_qot_rate": 0.1667,
+        "op_of_labial_rate": 0.1667,
+        "ok_ot_gallows_rate": 0.0833,
+        "o_initial_rate": 0.3333,
+        "d_s_initial_rate": 0.0,
+        "edy_dy_verbal_rate": 0.1667,
+        "ar_al_or_ol_liquid_rate": 0.5,
+        "aiin_unit_rate": 0.0833
+      },
+      "tokens": [
+        "tol",
+        "ofar",
+        "chefaiin",
+        "ol",
+        "okchy",
+        "qokedy",
+        "qokedy",
+        "tol",
+        "teoor",
+        "o",
+        "l",
+        "chekor"
+      ],
+      "rare_manuscript_links": [
+        {
+          "canonical": "chefain",
+          "global_df": 2,
+          "target_folios": [
+            "f40v"
+          ]
+        },
+        {
+          "canonical": "ofar",
+          "global_df": 6,
+          "target_folios": [
+            "f50v",
+            "f67r2",
+            "f85r1",
+            "f95r2",
+            "f108r"
+          ]
+        }
+      ]
+    },
+    {
+      "causeway_id": "VIII",
+      "profile": {
+        "token_count": 13,
+        "unique_types": 13,
+        "mean_length": 5.462,
+        "qok_qot_rate": 0.0769,
+        "op_of_labial_rate": 0.1538,
+        "ok_ot_gallows_rate": 0.3077,
+        "o_initial_rate": 0.4615,
+        "d_s_initial_rate": 0.3077,
+        "edy_dy_verbal_rate": 0.1538,
+        "ar_al_or_ol_liquid_rate": 0.1538,
+        "aiin_unit_rate": 0.1538
+      },
+      "tokens": [
+        "okar",
+        "olchety",
+        "daiin",
+        "okdy",
+        "qokcho",
+        "chfady",
+        "oro",
+        "okeechy",
+        "okol",
+        "sheeo",
+        "tolfchd",
+        "saiir",
+        "shodaiin"
+      ],
+      "rare_manuscript_links": [
+        {
+          "canonical": "okdy",
+          "global_df": 2,
+          "target_folios": [
+            "f103r"
+          ]
+        },
+        {
+          "canonical": "okechy",
+          "global_df": 7,
+          "target_folios": [
+            "f70r2",
+            "f99v",
+            "f103r",
+            "f107v",
+            "f108r",
+            "f112r"
+          ]
+        },
+        {
+          "canonical": "olchety",
+          "global_df": 2,
+          "target_folios": [
+            "f51v"
+          ]
+        },
+        {
+          "canonical": "oro",
+          "global_df": 6,
+          "target_folios": [
+            "f15v",
+            "f24v",
+            "f84r",
+            "f86v6",
+            "f107r"
+          ]
+        }
+      ]
+    }
+  ]
+}

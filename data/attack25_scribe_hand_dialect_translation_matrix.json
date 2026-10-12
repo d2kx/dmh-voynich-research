@@ -1,0 +1,900 @@
+{
+  "summary": {
+    "hands_analyzed": 5,
+    "currier_A_vs_B_divergence_collapse": {
+      "stage0_raw_word_jsd_bits": 0.4675,
+      "stage1_canonical_stem_jsd_bits": 0.4273,
+      "stage2_core_root_jsd_bits": 0.2126,
+      "stage3_elementary_radical_jsd_bits": 0.0736,
+      "core_root_jsd_reduction_pct": 54.53,
+      "elementary_radical_jsd_reduction_pct": 84.25
+    }
+  },
+  "scribe_hand_profiles": {
+    "Hand_1": {
+      "folio_count": 113,
+      "token_count": 11037,
+      "sections": {
+        "Herbal (Botanical)": 8050,
+        "Pharmaceutical": 2589,
+        "Text-only": 215,
+        "Cosmological": 183
+      },
+      "shared_A_B_root_token_coverage": 0.911,
+      "prefix_distribution": {
+        "NEUTRAL-": 0.799,
+        "qo-": 0.088,
+        "P:y-": 0.0442,
+        "G:p/f-": 0.0416,
+        "M:-m-": 0.0211,
+        "G:p/f|P:y-": 0.0029,
+        "P:y-|M:-m-": 0.0014,
+        "G:p/f|M:-m-": 0.0013,
+        "P:q-": 0.0005,
+        "G:p/f|P:y-|M:-m-": 0.0001
+      },
+      "ending_distribution": {
+        "OTHER": 0.1933,
+        "-ol/-al": 0.1726,
+        "-or/-ar": 0.1678,
+        "-y": 0.1675,
+        "-aiin/-in": 0.1488,
+        "-ey": 0.0838,
+        "-dy": 0.0646,
+        "-edy": 0.0015
+      },
+      "top_10_roots": {
+        "d": 1097,
+        "ch": 969,
+        "k": 670,
+        "t": 465,
+        "sh": 432,
+        "tch": 389,
+        "cth": 374,
+        "s": 366,
+        "kch": 296,
+        "ke": 252
+      },
+      "top_10_radicals": {
+        "ch": 2201,
+        "d": 1665,
+        "sh": 1098,
+        "o": 1010,
+        "k": 955,
+        "t": 779,
+        "cth": 663,
+        "tch": 595,
+        "s": 588,
+        "che": 474
+      }
+    },
+    "Hand_2": {
+      "folio_count": 46,
+      "token_count": 11171,
+      "sections": {
+        "Biological (Balneological)": 6386,
+        "Herbal (Botanical)": 2361,
+        "Text-only": 1796,
+        "Cosmological": 628
+      },
+      "shared_A_B_root_token_coverage": 0.9244,
+      "prefix_distribution": {
+        "NEUTRAL-": 0.7206,
+        "qo-": 0.1855,
+        "G:p/f-": 0.0391,
+        "P:y-": 0.0337,
+        "M:-m-": 0.0144,
+        "G:p/f|P:y-": 0.003,
+        "P:q-": 0.0023,
+        "P:y-|M:-m-": 0.0007,
+        "G:p/f|M:-m-": 0.0004,
+        "G:p/f|P:q-": 0.0002
+      },
+      "ending_distribution": {
+        "-edy": 0.2021,
+        "-aiin/-in": 0.146,
+        "-ol/-al": 0.1397,
+        "-or/-ar": 0.1394,
+        "-y": 0.1132,
+        "-ey": 0.1025,
+        "OTHER": 0.0883,
+        "-dy": 0.0687
+      },
+      "top_10_roots": {
+        "k": 1909,
+        "t": 989,
+        "ch": 698,
+        "sh": 661,
+        "d": 615,
+        "ol": 506,
+        "s": 278,
+        "tch": 247,
+        "or": 231,
+        "ain": 225
+      },
+      "top_10_radicals": {
+        "k": 2154,
+        "ch": 1357,
+        "t": 1325,
+        "sh": 1280,
+        "d": 948,
+        "ol": 797,
+        "o": 502,
+        "s": 438,
+        "che": 365,
+        "tch": 350
+      }
+    },
+    "Hand_3": {
+      "folio_count": 33,
+      "token_count": 11766,
+      "sections": {
+        "Starred Recipes": 11181,
+        "Herbal (Botanical)": 583,
+        "Text-only": 2
+      },
+      "shared_A_B_root_token_coverage": 0.901,
+      "prefix_distribution": {
+        "NEUTRAL-": 0.7332,
+        "qo-": 0.1601,
+        "G:p/f-": 0.0512,
+        "P:y-": 0.028,
+        "M:-m-": 0.0215,
+        "P:q-": 0.0019,
+        "G:p/f|M:-m-": 0.0018,
+        "G:p/f|P:y-": 0.0014,
+        "P:y-|M:-m-": 0.0005,
+        "G:p/f|P:y-|M:-m-": 0.0001,
+        "P:q-|M:-m-": 0.0001,
+        "G:p/f|P:q-": 0.0001
+      },
+      "ending_distribution": {
+        "-aiin/-in": 0.1904,
+        "-or/-ar": 0.1483,
+        "OTHER": 0.1336,
+        "-edy": 0.1334,
+        "-ol/-al": 0.1252,
+        "-ey": 0.1232,
+        "-y": 0.0907,
+        "-dy": 0.0552
+      },
+      "top_10_roots": {
+        "k": 1703,
+        "t": 1051,
+        "ch": 758,
+        "sh": 431,
+        "d": 408,
+        "ain": 331,
+        "tch": 282,
+        "che": 222,
+        "ar": 221,
+        "ol": 215
+      },
+      "top_10_radicals": {
+        "k": 2065,
+        "ch": 1811,
+        "t": 1508,
+        "sh": 1011,
+        "d": 729,
+        "che": 544,
+        "o": 484,
+        "tch": 472,
+        "a": 459,
+        "lk": 448
+      }
+    },
+    "Hand_4": {
+      "folio_count": 27,
+      "token_count": 3622,
+      "sections": {
+        "Cosmological": 1426,
+        "Zodiac (Astrological)": 1314,
+        "Astronomical": 882
+      },
+      "shared_A_B_root_token_coverage": 0.8313,
+      "prefix_distribution": {
+        "NEUTRAL-": 0.8459,
+        "P:y-": 0.0508,
+        "G:p/f-": 0.0483,
+        "qo-": 0.0232,
+        "M:-m-": 0.0226,
+        "G:p/f|P:y-": 0.0047,
+        "G:p/f|M:-m-": 0.0025,
+        "P:q-": 0.0008,
+        "P:y-|M:-m-": 0.0008,
+        "G:p/f|P:y-|M:-m-": 0.0003
+      },
+      "ending_distribution": {
+        "OTHER": 0.2187,
+        "-or/-ar": 0.1659,
+        "-y": 0.1461,
+        "-ol/-al": 0.1436,
+        "-ey": 0.1093,
+        "-dy": 0.0933,
+        "-aiin/-in": 0.0875,
+        "-edy": 0.0356
+      },
+      "top_10_roots": {
+        "t": 278,
+        "k": 249,
+        "d": 156,
+        "ch": 136,
+        "ke": 108,
+        "ar": 102,
+        "s": 88,
+        "te": 84,
+        "al": 73,
+        "sh": 65
+      },
+      "top_10_radicals": {
+        "ch": 543,
+        "t": 447,
+        "k": 358,
+        "d": 349,
+        "s": 211,
+        "sh": 210,
+        "ke": 209,
+        "o": 200,
+        "a": 194,
+        "che": 175
+      }
+    },
+    "Hand_5": {
+      "folio_count": 7,
+      "token_count": 926,
+      "sections": {
+        "Herbal (Botanical)": 581,
+        "Text-only": 345
+      },
+      "shared_A_B_root_token_coverage": 0.8898,
+      "prefix_distribution": {
+        "NEUTRAL-": 0.7322,
+        "qo-": 0.1091,
+        "G:p/f-": 0.0637,
+        "P:y-": 0.0605,
+        "M:-m-": 0.014,
+        "G:p/f|P:y-": 0.0108,
+        "G:p/f|M:-m-": 0.0054,
+        "P:q-": 0.0022,
+        "P:y-|M:-m-": 0.0022
+      },
+      "ending_distribution": {
+        "OTHER": 0.1782,
+        "-edy": 0.1555,
+        "-dy": 0.1447,
+        "-y": 0.1393,
+        "-ol/-al": 0.1253,
+        "-or/-ar": 0.1037,
+        "-ey": 0.0832,
+        "-aiin/-in": 0.0702
+      },
+      "top_10_roots": {
+        "k": 105,
+        "d": 68,
+        "t": 67,
+        "ke": 34,
+        "sh": 34,
+        "ch": 33,
+        "tch": 26,
+        "she": 19,
+        "chek": 18,
+        "kch": 15
+      },
+      "top_10_radicals": {
+        "k": 135,
+        "ch": 127,
+        "d": 117,
+        "t": 111,
+        "sh": 101,
+        "ke": 56,
+        "che": 52,
+        "ek": 41,
+        "tch": 39,
+        "she": 33
+      }
+    }
+  },
+  "pairwise_hand_jsd_matrix": {
+    "Hand_1_vs_Hand_2": {
+      "raw_word_jsd_bits": 0.5114,
+      "elementary_radical_jsd_bits": 0.0876,
+      "divergence_reduction_pct": 82.88
+    },
+    "Hand_1_vs_Hand_3": {
+      "raw_word_jsd_bits": 0.5066,
+      "elementary_radical_jsd_bits": 0.0948,
+      "divergence_reduction_pct": 81.29
+    },
+    "Hand_1_vs_Hand_4": {
+      "raw_word_jsd_bits": 0.5305,
+      "elementary_radical_jsd_bits": 0.0778,
+      "divergence_reduction_pct": 85.34
+    },
+    "Hand_1_vs_Hand_5": {
+      "raw_word_jsd_bits": 0.6105,
+      "elementary_radical_jsd_bits": 0.0754,
+      "divergence_reduction_pct": 87.66
+    },
+    "Hand_2_vs_Hand_3": {
+      "raw_word_jsd_bits": 0.2735,
+      "elementary_radical_jsd_bits": 0.0327,
+      "divergence_reduction_pct": 88.06
+    },
+    "Hand_2_vs_Hand_4": {
+      "raw_word_jsd_bits": 0.5204,
+      "elementary_radical_jsd_bits": 0.102,
+      "divergence_reduction_pct": 80.39
+    },
+    "Hand_2_vs_Hand_5": {
+      "raw_word_jsd_bits": 0.4564,
+      "elementary_radical_jsd_bits": 0.0592,
+      "divergence_reduction_pct": 87.03
+    },
+    "Hand_3_vs_Hand_4": {
+      "raw_word_jsd_bits": 0.4978,
+      "elementary_radical_jsd_bits": 0.0661,
+      "divergence_reduction_pct": 86.72
+    },
+    "Hand_3_vs_Hand_5": {
+      "raw_word_jsd_bits": 0.512,
+      "elementary_radical_jsd_bits": 0.0471,
+      "divergence_reduction_pct": 90.81
+    },
+    "Hand_4_vs_Hand_5": {
+      "raw_word_jsd_bits": 0.5933,
+      "elementary_radical_jsd_bits": 0.0642,
+      "divergence_reduction_pct": 89.17
+    }
+  },
+  "root_conditioned_dialect_translation_table": [
+    {
+      "core_root": "k",
+      "gloss": "VESSEL/BODY(k)",
+      "count_currier_A": 761,
+      "count_currier_B": 3693,
+      "currier_A_top_words": [
+        "qokol(46)",
+        "okol(44)",
+        "oky(44)"
+      ],
+      "currier_B_top_words": [
+        "qokeedy(307)",
+        "qokedy(276)",
+        "qokain(275)"
+      ],
+      "currier_A_top_ending": "-ol/-al",
+      "currier_A_edy_rate": 0.021,
+      "currier_B_top_ending": "-edy",
+      "currier_B_edy_rate": 0.272,
+      "currier_A_qo_rate": 0.307,
+      "currier_B_qo_rate": 0.549
+    },
+    {
+      "core_root": "t",
+      "gloss": "TUBE/DUCT(t)",
+      "count_currier_A": 514,
+      "count_currier_B": 2121,
+      "currier_A_top_words": [
+        "oty(42)",
+        "otol(39)",
+        "otaiin(31)"
+      ],
+      "currier_B_top_words": [
+        "otedy(160)",
+        "otar(122)",
+        "otaiin(110)"
+      ],
+      "currier_A_top_ending": "-ol/-al",
+      "currier_A_edy_rate": 0.027,
+      "currier_B_top_ending": "-edy",
+      "currier_B_edy_rate": 0.274,
+      "currier_A_qo_rate": 0.226,
+      "currier_B_qo_rate": 0.284
+    },
+    {
+      "core_root": "ch",
+      "gloss": "ACT:mix/proc",
+      "count_currier_A": 1006,
+      "count_currier_B": 1505,
+      "currier_A_top_words": [
+        "chol(278)",
+        "chor(180)",
+        "chy(114)"
+      ],
+      "currier_B_top_words": [
+        "chedy(498)",
+        "chey(247)",
+        "cheey(134)"
+      ],
+      "currier_A_top_ending": "-ol/-al",
+      "currier_A_edy_rate": 0.06,
+      "currier_B_top_ending": "-edy",
+      "currier_B_edy_rate": 0.504,
+      "currier_A_qo_rate": 0.005,
+      "currier_B_qo_rate": 0.006
+    },
+    {
+      "core_root": "d",
+      "gloss": "BASE/HUB(d)",
+      "count_currier_A": 1118,
+      "count_currier_B": 1100,
+      "currier_A_top_words": [
+        "daiin(499)",
+        "dar(100)",
+        "dain(99)"
+      ],
+      "currier_B_top_words": [
+        "daiin(313)",
+        "dar(190)",
+        "dal(131)"
+      ],
+      "currier_A_top_ending": "-aiin/-in",
+      "currier_A_edy_rate": 0.004,
+      "currier_B_top_ending": "-aiin/-in",
+      "currier_B_edy_rate": 0.016,
+      "currier_A_qo_rate": 0.029,
+      "currier_B_qo_rate": 0.051
+    },
+    {
+      "core_root": "sh",
+      "gloss": "ACT:heat/steep",
+      "count_currier_A": 452,
+      "count_currier_B": 1116,
+      "currier_A_top_words": [
+        "shol(118)",
+        "shor(69)",
+        "shy(64)"
+      ],
+      "currier_B_top_words": [
+        "shedy(425)",
+        "shey(201)",
+        "sheey(99)"
+      ],
+      "currier_A_top_ending": "-ol/-al",
+      "currier_A_edy_rate": 0.069,
+      "currier_B_top_ending": "-edy",
+      "currier_B_edy_rate": 0.53,
+      "currier_A_qo_rate": 0.0,
+      "currier_B_qo_rate": 0.002
+    },
+    {
+      "core_root": "tch",
+      "gloss": "PROC_OP(tch)",
+      "count_currier_A": 398,
+      "count_currier_B": 578,
+      "currier_A_top_words": [
+        "qotchy(49)",
+        "otchy(30)",
+        "otchol(28)"
+      ],
+      "currier_B_top_words": [
+        "opchedy(50)",
+        "pchedy(36)",
+        "otchedy(35)"
+      ],
+      "currier_A_top_ending": "-y",
+      "currier_A_edy_rate": 0.053,
+      "currier_B_top_ending": "-edy",
+      "currier_B_edy_rate": 0.649,
+      "currier_A_qo_rate": 0.264,
+      "currier_B_qo_rate": 0.268
+    },
+    {
+      "core_root": "ol",
+      "gloss": "FLUID/TUBE(ol)",
+      "count_currier_A": 162,
+      "count_currier_B": 753,
+      "currier_A_top_words": [
+        "ol(106)",
+        "olaiin(11)",
+        "oldy(8)"
+      ],
+      "currier_B_top_words": [
+        "ol(441)",
+        "qol(136)",
+        "olaiin(35)"
+      ],
+      "currier_A_top_ending": "-ol/-al",
+      "currier_A_edy_rate": 0.068,
+      "currier_B_top_ending": "-ol/-al",
+      "currier_B_edy_rate": 0.033,
+      "currier_A_qo_rate": 0.062,
+      "currier_B_qo_rate": 0.201
+    },
+    {
+      "core_root": "s",
+      "gloss": "SEED/PART(s)",
+      "count_currier_A": 372,
+      "count_currier_B": 449,
+      "currier_A_top_words": [
+        "s(203)",
+        "saiin(36)",
+        "sy(26)"
+      ],
+      "currier_B_top_words": [
+        "s(112)",
+        "saiin(86)",
+        "sain(56)"
+      ],
+      "currier_A_top_ending": "OTHER",
+      "currier_A_edy_rate": 0.011,
+      "currier_B_top_ending": "-aiin/-in",
+      "currier_B_edy_rate": 0.004,
+      "currier_A_qo_rate": 0.003,
+      "currier_B_qo_rate": 0.007
+    },
+    {
+      "core_root": "ain",
+      "gloss": "ESSENCE/UNIT(ain)",
+      "count_currier_A": 131,
+      "count_currier_B": 568,
+      "currier_A_top_words": [
+        "aiin(85)",
+        "oaiin(13)",
+        "ain(12)"
+      ],
+      "currier_B_top_words": [
+        "aiin(379)",
+        "ain(100)",
+        "aiiin(42)"
+      ],
+      "currier_A_top_ending": "-aiin/-in",
+      "currier_A_edy_rate": 0.0,
+      "currier_B_top_ending": "-aiin/-in",
+      "currier_B_edy_rate": 0.002,
+      "currier_A_qo_rate": 0.084,
+      "currier_B_qo_rate": 0.03
+    },
+    {
+      "core_root": "kch",
+      "gloss": "STAR_OP(kch)",
+      "count_currier_A": 297,
+      "count_currier_B": 384,
+      "currier_A_top_words": [
+        "qokchy(41)",
+        "kchy(30)",
+        "kchol(22)"
+      ],
+      "currier_B_top_words": [
+        "qokchdy(49)",
+        "qokchedy(39)",
+        "qokchy(26)"
+      ],
+      "currier_A_top_ending": "-y",
+      "currier_A_edy_rate": 0.051,
+      "currier_B_top_ending": "-edy",
+      "currier_B_edy_rate": 0.607,
+      "currier_A_qo_rate": 0.273,
+      "currier_B_qo_rate": 0.422
+    },
+    {
+      "core_root": "che",
+      "gloss": "ACT:infuse",
+      "count_currier_A": 250,
+      "count_currier_B": 371,
+      "currier_A_top_words": [
+        "cheol(66)",
+        "cheor(51)",
+        "cheody(28)"
+      ],
+      "currier_B_top_words": [
+        "cheol(99)",
+        "cheody(53)",
+        "cheor(31)"
+      ],
+      "currier_A_top_ending": "-or/-ar",
+      "currier_A_edy_rate": 0.128,
+      "currier_B_top_ending": "-ol/-al",
+      "currier_B_edy_rate": 0.175,
+      "currier_A_qo_rate": 0.008,
+      "currier_B_qo_rate": 0.005
+    },
+    {
+      "core_root": "ke",
+      "gloss": "EXTRACT/COOK(ke)",
+      "count_currier_A": 264,
+      "count_currier_B": 291,
+      "currier_A_top_words": [
+        "okeol(38)",
+        "qokeol(34)",
+        "qokeody(17)"
+      ],
+      "currier_B_top_words": [
+        "okeol(19)",
+        "qokeed(17)",
+        "okeody(16)"
+      ],
+      "currier_A_top_ending": "-ol/-al",
+      "currier_A_edy_rate": 0.193,
+      "currier_B_top_ending": "-dy",
+      "currier_B_edy_rate": 0.275,
+      "currier_A_qo_rate": 0.311,
+      "currier_B_qo_rate": 0.402
+    },
+    {
+      "core_root": "or",
+      "gloss": "JAR/HERB(or)",
+      "count_currier_A": 150,
+      "count_currier_B": 385,
+      "currier_A_top_words": [
+        "or(105)",
+        "qoor(8)",
+        "oraiin(8)"
+      ],
+      "currier_B_top_words": [
+        "or(278)",
+        "oraiin(25)",
+        "orain(14)"
+      ],
+      "currier_A_top_ending": "-or/-ar",
+      "currier_A_edy_rate": 0.0,
+      "currier_B_top_ending": "-or/-ar",
+      "currier_B_edy_rate": 0.003,
+      "currier_A_qo_rate": 0.12,
+      "currier_B_qo_rate": 0.055
+    },
+    {
+      "core_root": "ar",
+      "gloss": "BOTAN/ROOT(ar)",
+      "count_currier_A": 75,
+      "count_currier_B": 367,
+      "currier_A_top_words": [
+        "ar(54)",
+        "aral(5)",
+        "qoar(4)"
+      ],
+      "currier_B_top_words": [
+        "ar(284)",
+        "aral(11)",
+        "arody(10)"
+      ],
+      "currier_A_top_ending": "-or/-ar",
+      "currier_A_edy_rate": 0.027,
+      "currier_B_top_ending": "-or/-ar",
+      "currier_B_edy_rate": 0.027,
+      "currier_A_qo_rate": 0.053,
+      "currier_B_qo_rate": 0.011
+    },
+    {
+      "core_root": "cth",
+      "gloss": "HERB_LEAF_OP(cth)",
+      "count_currier_A": 377,
+      "count_currier_B": 103,
+      "currier_A_top_words": [
+        "cthy(94)",
+        "cthol(52)",
+        "cthor(41)"
+      ],
+      "currier_B_top_words": [
+        "cthedy(12)",
+        "cthey(11)",
+        "cphedy(8)"
+      ],
+      "currier_A_top_ending": "-y",
+      "currier_A_edy_rate": 0.053,
+      "currier_B_top_ending": "-edy",
+      "currier_B_edy_rate": 0.398,
+      "currier_A_qo_rate": 0.042,
+      "currier_B_qo_rate": 0.117
+    },
+    {
+      "core_root": "she",
+      "gloss": "ACT:decoct",
+      "count_currier_A": 135,
+      "count_currier_B": 231,
+      "currier_A_top_words": [
+        "sheol(39)",
+        "sheor(23)",
+        "she(14)"
+      ],
+      "currier_B_top_words": [
+        "sheol(64)",
+        "sheody(30)",
+        "sheor(24)"
+      ],
+      "currier_A_top_ending": "-ol/-al",
+      "currier_A_edy_rate": 0.119,
+      "currier_B_top_ending": "-ol/-al",
+      "currier_B_edy_rate": 0.147,
+      "currier_A_qo_rate": 0.0,
+      "currier_B_qo_rate": 0.0
+    },
+    {
+      "core_root": "l",
+      "gloss": "LIQUID_PREF(l)",
+      "count_currier_A": 40,
+      "count_currier_B": 313,
+      "currier_A_top_words": [
+        "l(28)",
+        "lor(4)",
+        "ls(3)"
+      ],
+      "currier_B_top_words": [
+        "l(143)",
+        "lol(36)",
+        "lor(35)"
+      ],
+      "currier_A_top_ending": "OTHER",
+      "currier_A_edy_rate": 0.075,
+      "currier_B_top_ending": "OTHER",
+      "currier_B_edy_rate": 0.08,
+      "currier_A_qo_rate": 0.0,
+      "currier_B_qo_rate": 0.0
+    },
+    {
+      "core_root": "al",
+      "gloss": "SUBST/STAR(al)",
+      "count_currier_A": 48,
+      "count_currier_B": 248,
+      "currier_A_top_words": [
+        "al(27)",
+        "aldy(4)",
+        "alam(4)"
+      ],
+      "currier_B_top_words": [
+        "al(191)",
+        "alol(7)",
+        "aldy(6)"
+      ],
+      "currier_A_top_ending": "-ol/-al",
+      "currier_A_edy_rate": 0.104,
+      "currier_B_top_ending": "-ol/-al",
+      "currier_B_edy_rate": 0.04,
+      "currier_A_qo_rate": 0.021,
+      "currier_B_qo_rate": 0.016
+    },
+    {
+      "core_root": "dy",
+      "gloss": "DONE(dy)",
+      "count_currier_A": 146,
+      "count_currier_B": 163,
+      "currier_A_top_words": [
+        "dy(125)",
+        "ody(11)",
+        "qody(5)"
+      ],
+      "currier_B_top_words": [
+        "dy(115)",
+        "ody(30)",
+        "qody(12)"
+      ],
+      "currier_A_top_ending": "-dy",
+      "currier_A_edy_rate": 0.986,
+      "currier_B_top_ending": "-dy",
+      "currier_B_edy_rate": 0.975,
+      "currier_A_qo_rate": 0.034,
+      "currier_B_qo_rate": 0.08
+    },
+    {
+      "core_root": "r",
+      "gloss": "STREAM/PART(r)",
+      "count_currier_A": 68,
+      "count_currier_B": 258,
+      "currier_A_top_words": [
+        "r(56)",
+        "raiin(4)",
+        "rol(2)"
+      ],
+      "currier_B_top_words": [
+        "r(90)",
+        "raiin(59)",
+        "rain(21)"
+      ],
+      "currier_A_top_ending": "OTHER",
+      "currier_A_edy_rate": 0.0,
+      "currier_B_top_ending": "OTHER",
+      "currier_B_edy_rate": 0.012,
+      "currier_A_qo_rate": 0.0,
+      "currier_B_qo_rate": 0.0
+    },
+    {
+      "core_root": "te",
+      "gloss": "DRAW/CONDUIT(te)",
+      "count_currier_A": 79,
+      "count_currier_B": 172,
+      "currier_A_top_words": [
+        "oteol(13)",
+        "qoteol(6)",
+        "teol(6)"
+      ],
+      "currier_B_top_words": [
+        "oteol(18)",
+        "oteody(15)",
+        "teol(10)"
+      ],
+      "currier_A_top_ending": "-ol/-al",
+      "currier_A_edy_rate": 0.228,
+      "currier_B_top_ending": "-ol/-al",
+      "currier_B_edy_rate": 0.302,
+      "currier_A_qo_rate": 0.203,
+      "currier_B_qo_rate": 0.238
+    },
+    {
+      "core_root": "y",
+      "gloss": "STATE(y)",
+      "count_currier_A": 102,
+      "count_currier_B": 182,
+      "currier_A_top_words": [
+        "y(95)",
+        "ydy(3)",
+        "yd(3)"
+      ],
+      "currier_B_top_words": [
+        "y(173)",
+        "ydy(4)",
+        "yl(2)"
+      ],
+      "currier_A_top_ending": "-y",
+      "currier_A_edy_rate": 0.029,
+      "currier_B_top_ending": "-y",
+      "currier_B_edy_rate": 0.022,
+      "currier_A_qo_rate": 0.0,
+      "currier_B_qo_rate": 0.0
+    },
+    {
+      "core_root": "olk",
+      "gloss": "olk",
+      "count_currier_A": 10,
+      "count_currier_B": 303,
+      "currier_A_top_words": [
+        "olkeey(2)",
+        "olkey(2)",
+        "yolkol(1)"
+      ],
+      "currier_B_top_words": [
+        "olkeedy(45)",
+        "olkeey(36)",
+        "olkain(34)"
+      ],
+      "currier_A_top_ending": "-ey",
+      "currier_A_edy_rate": 0.0,
+      "currier_B_top_ending": "-edy",
+      "currier_B_edy_rate": 0.274,
+      "currier_A_qo_rate": 0.1,
+      "currier_B_qo_rate": 0.096
+    },
+    {
+      "core_root": "lk",
+      "gloss": "LIQ_VESSEL(lk)",
+      "count_currier_A": 2,
+      "count_currier_B": 281,
+      "currier_A_top_words": [
+        "lkody(1)",
+        "lkeey(1)"
+      ],
+      "currier_B_top_words": [
+        "lkaiin(48)",
+        "lkeey(38)",
+        "lkeedy(37)"
+      ],
+      "currier_A_top_ending": "-dy",
+      "currier_A_edy_rate": 0.5,
+      "currier_B_top_ending": "-aiin/-in",
+      "currier_B_edy_rate": 0.242,
+      "currier_A_qo_rate": 0.0,
+      "currier_B_qo_rate": 0.0
+    },
+    {
+      "core_root": "o",
+      "gloss": "ENTITY_CORE(o)",
+      "count_currier_A": 105,
+      "count_currier_B": 126,
+      "currier_A_top_words": [
+        "o(69)",
+        "os(15)",
+        "qoy(5)"
+      ],
+      "currier_B_top_words": [
+        "o(95)",
+        "os(13)",
+        "oy(5)"
+      ],
+      "currier_A_top_ending": "OTHER",
+      "currier_A_edy_rate": 0.0,
+      "currier_B_top_ending": "OTHER",
+      "currier_B_edy_rate": 0.0,
+      "currier_A_qo_rate": 0.124,
+      "currier_B_qo_rate": 0.071
+    }
+  ]
+}

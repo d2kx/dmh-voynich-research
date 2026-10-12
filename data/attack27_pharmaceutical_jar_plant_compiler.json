@@ -1,0 +1,1633 @@
+{
+  "phase": "Phase 38 / Attack 27",
+  "title": "Pharmaceutical (f88r-f102v2) Container-to-Plant Recipe Compiler & Quantitative Ingredient-to-Clause Scaling Law",
+  "summary_counts": {
+    "pharmaceutical_folios": 16,
+    "labeled_pharmaceutical_folios": 15,
+    "total_Lc_jar_labels": 40,
+    "total_Lf_plant_labels": 207,
+    "total_Ln_other_labels": 0,
+    "total_pharmaceutical_labels": 247,
+    "total_pharmaceutical_prose_tokens": 2314,
+    "total_pharmaceutical_paragraphs": 44
+  },
+  "container_Lc_vs_plant_Lf_morphology": {
+    "Lc_container_profile": {
+      "count": 40,
+      "mean_length": 6.85,
+      "has_labial_gallows_p_f_rate": 0.125,
+      "has_dental_velar_gallows_k_t_rate": 0.625,
+      "starts_with_o_rate": 0.525,
+      "starts_with_d_s_rate": 0.175,
+      "ends_with_liquid_r_l_rate": 0.1,
+      "ends_with_y_rate": 0.5,
+      "ends_with_nasal_m_n_rate": 0.125,
+      "examples": [
+        "otorchety",
+        "otaldy",
+        "ofyskydal",
+        "okalyd",
+        "otoram",
+        "daramdal",
+        "okchshy",
+        "ykyd",
+        "ykocfhy",
+        "odory",
+        "otoldy",
+        "korainy",
+        "okain",
+        "yorain",
+        "choeesy",
+        "otory",
+        "opaloiiry",
+        "okoraldy",
+        "koeeorain",
+        "okaradag"
+      ]
+    },
+    "Lf_plant_profile": {
+      "count": 207,
+      "mean_length": 5.671,
+      "has_labial_gallows_p_f_rate": 0.0966,
+      "has_dental_velar_gallows_k_t_rate": 0.4831,
+      "starts_with_o_rate": 0.5024,
+      "starts_with_d_s_rate": 0.2367,
+      "ends_with_liquid_r_l_rate": 0.2899,
+      "ends_with_y_rate": 0.3671,
+      "ends_with_nasal_m_n_rate": 0.1546,
+      "examples": [
+        "osal",
+        "orald",
+        "oldar",
+        "otoky",
+        "otaly",
+        "oram",
+        "dary",
+        "okol",
+        "sorory",
+        "otyda",
+        "otor",
+        "am",
+        "ofaldo",
+        "cheocthy",
+        "cpheor",
+        "otar",
+        "arody",
+        "otokol",
+        "otora",
+        "cheosdy"
+      ]
+    },
+    "labial_gallows_p_f_enrichment_Lc_over_Lf": 1.29
+  },
+  "label_to_recipe_compilation_permutation_test": {
+    "same_folio_exact_or_ed1_hits": 44,
+    "null_folio_mean": 36.566,
+    "null_folio_std": 4.17,
+    "same_folio_z_score": 1.78,
+    "same_folio_p_value": 0.051,
+    "same_quire_exact_or_ed1_hits": 89,
+    "null_quire_mean": 84.672,
+    "null_quire_std": 2.268,
+    "same_quire_z_score": 1.91,
+    "same_quire_p_value": 0.041
+  },
+  "quantitative_scaling_laws": {
+    "jar_folios_count": 12,
+    "total_Lc_jars_on_jar_folios": 40,
+    "total_paragraphs_on_jar_folios": 35,
+    "mean_jars_per_jar_folio": 3.33,
+    "mean_paragraphs_per_jar_folio": 2.92,
+    "pearson_r_jars_vs_paragraphs": 0.5528,
+    "pearson_r_labels_vs_prose_words": 0.4256,
+    "pearson_r_prose_words_vs_aiin_units": 0.7542,
+    "pearson_r_prose_words_vs_qok_operators": 0.2589
+  },
+  "folio_compilations": [
+    {
+      "folio": "f88r",
+      "quire": "O",
+      "language": "A",
+      "hand": "1",
+      "jar_count_Lc": 3,
+      "plant_count_Lf": 13,
+      "other_label_count_Ln": 0,
+      "total_labels": 16,
+      "paragraph_count": 3,
+      "prose_word_count": 133,
+      "aiin_unit_count": 9,
+      "dar_dal_ablative_count": 4,
+      "qok_qot_operator_count": 17,
+      "edy_verbal_count": 8,
+      "ol_or_fluid_count": 16,
+      "lc_labels": [
+        "otorchety",
+        "otaldy",
+        "ofyskydal"
+      ],
+      "lf_labels": [
+        "osal",
+        "orald",
+        "oldar",
+        "otoky",
+        "otaly",
+        "oram",
+        "dary",
+        "okol",
+        "sorory",
+        "otyda",
+        "otor",
+        "am",
+        "ofaldo"
+      ],
+      "same_folio_exact_hits": [
+        {
+          "label": "okol",
+          "canonical": "okol",
+          "global_df": 59
+        }
+      ],
+      "same_folio_ed1_hits": [
+        {
+          "label": "osal",
+          "prose_token": "ofal",
+          "canonical_label": "osal",
+          "canonical_prose": "ofal",
+          "global_df_label": 4
+        },
+        {
+          "label": "oldar",
+          "prose_token": "oldal",
+          "canonical_label": "oldar",
+          "canonical_prose": "oldal",
+          "global_df_label": 5
+        },
+        {
+          "label": "oram",
+          "prose_token": "otam",
+          "canonical_label": "oram",
+          "canonical_prose": "otam",
+          "global_df_label": 11
+        },
+        {
+          "label": "dary",
+          "prose_token": "dory",
+          "canonical_label": "dary",
+          "canonical_prose": "dory",
+          "global_df_label": 19
+        },
+        {
+          "label": "otor",
+          "prose_token": "oteor",
+          "canonical_label": "otor",
+          "canonical_prose": "oteor",
+          "global_df_label": 32
+        }
+      ],
+      "rare_herbal_source_links": [
+        {
+          "label": "otaldy",
+          "canonical": "otaldy",
+          "herbal_folios": [
+            "f95v1"
+          ],
+          "herbal_df": 1
+        },
+        {
+          "label": "oldar",
+          "canonical": "oldar",
+          "herbal_folios": [
+            "f23v",
+            "f33r",
+            "f34v"
+          ],
+          "herbal_df": 3
+        },
+        {
+          "label": "otaly",
+          "canonical": "otaly",
+          "herbal_folios": [
+            "f94r"
+          ],
+          "herbal_df": 1
+        },
+        {
+          "label": "oram",
+          "canonical": "oram",
+          "herbal_folios": [
+            "f33v"
+          ],
+          "herbal_df": 1
+        }
+      ]
+    },
+    {
+      "folio": "f88v",
+      "quire": "O",
+      "language": "A",
+      "hand": "1",
+      "jar_count_Lc": 3,
+      "plant_count_Lf": 11,
+      "other_label_count_Ln": 0,
+      "total_labels": 14,
+      "paragraph_count": 3,
+      "prose_word_count": 130,
+      "aiin_unit_count": 23,
+      "dar_dal_ablative_count": 4,
+      "qok_qot_operator_count": 22,
+      "edy_verbal_count": 28,
+      "ol_or_fluid_count": 2,
+      "lc_labels": [
+        "okalyd",
+        "otoram",
+        "daramdal"
+      ],
+      "lf_labels": [
+        "cheocthy",
+        "cpheor",
+        "otar",
+        "arody",
+        "otokol",
+        "otora",
+        "cheosdy",
+        "okaiin",
+        "otydary",
+        "otdordy",
+        "dararda"
+      ],
+      "same_folio_exact_hits": [],
+      "same_folio_ed1_hits": [
+        {
+          "label": "cheocthy",
+          "prose_token": "cheockhy",
+          "canonical_label": "cheothy",
+          "canonical_prose": "cheokhy",
+          "global_df_label": 3
+        },
+        {
+          "label": "cpheor",
+          "prose_token": "cheor",
+          "canonical_label": "theor",
+          "canonical_prose": "cheor",
+          "global_df_label": 7
+        },
+        {
+          "label": "cheosdy",
+          "prose_token": "cheody",
+          "canonical_label": "cheosdy",
+          "canonical_prose": "cheody",
+          "global_df_label": 1
+        },
+        {
+          "label": "okaiin",
+          "prose_token": "oraiin",
+          "canonical_label": "okain",
+          "canonical_prose": "orain",
+          "global_df_label": 109
+        }
+      ],
+      "rare_herbal_source_links": [
+        {
+          "label": "cheocthy",
+          "canonical": "cheothy",
+          "herbal_folios": [
+            "f57r"
+          ],
+          "herbal_df": 1
+        },
+        {
+          "label": "cpheor",
+          "canonical": "theor",
+          "herbal_folios": [
+            "f17v",
+            "f52v",
+            "f96r",
+            "f96v"
+          ],
+          "herbal_df": 4
+        },
+        {
+          "label": "arody",
+          "canonical": "arody",
+          "herbal_folios": [
+            "f40v"
+          ],
+          "herbal_df": 1
+        }
+      ]
+    },
+    {
+      "folio": "f89r1",
+      "quire": "O",
+      "language": "A",
+      "hand": "1",
+      "jar_count_Lc": 3,
+      "plant_count_Lf": 12,
+      "other_label_count_Ln": 0,
+      "total_labels": 15,
+      "paragraph_count": 3,
+      "prose_word_count": 124,
+      "aiin_unit_count": 24,
+      "dar_dal_ablative_count": 13,
+      "qok_qot_operator_count": 22,
+      "edy_verbal_count": 15,
+      "ol_or_fluid_count": 7,
+      "lc_labels": [
+        "okchshy",
+        "ykyd",
+        "ykocfhy"
+      ],
+      "lf_labels": [
+        "qkol",
+        "oldam",
+        "otoldy",
+        "ararchodaiin",
+        "chol",
+        "ches",
+        "otorain",
+        "okaiin",
+        "dan",
+        "saldam",
+        "sydarary",
+        "yddy"
+      ],
+      "same_folio_exact_hits": [
+        {
+          "label": "chol",
+          "canonical": "chol",
+          "global_df": 148
+        }
+      ],
+      "same_folio_ed1_hits": [
+        {
+          "label": "ches",
+          "prose_token": "cheos",
+          "canonical_label": "ches",
+          "canonical_prose": "cheos",
+          "global_df_label": 54
+        },
+        {
+          "label": "okaiin",
+          "prose_token": "qokain",
+          "canonical_label": "okain",
+          "canonical_prose": "kain",
+          "global_df_label": 109
+        }
+      ],
+      "rare_herbal_source_links": [
+        {
+          "label": "oldam",
+          "canonical": "oldam",
+          "herbal_folios": [
+            "f22r",
+            "f34r",
+            "f34v"
+          ],
+          "herbal_df": 3
+        },
+        {
+          "label": "otoldy",
+          "canonical": "otoldy",
+          "herbal_folios": [
+            "f22r",
+            "f44v",
+            "f48v",
+            "f53v"
+          ],
+          "herbal_df": 4
+        }
+      ]
+    },
+    {
+      "folio": "f89r2",
+      "quire": "O",
+      "language": "A",
+      "hand": "1",
+      "jar_count_Lc": 5,
+      "plant_count_Lf": 17,
+      "other_label_count_Ln": 0,
+      "total_labels": 22,
+      "paragraph_count": 3,
+      "prose_word_count": 212,
+      "aiin_unit_count": 38,
+      "dar_dal_ablative_count": 9,
+      "qok_qot_operator_count": 27,
+      "edy_verbal_count": 20,
+      "ol_or_fluid_count": 12,
+      "lc_labels": [
+        "odory",
+        "otoldy",
+        "korainy",
+        "okain",
+        "yorain"
+      ],
+      "lf_labels": [
+        "doly",
+        "opchosam",
+        "saloiinsheol",
+        "opcheor",
+        "okol",
+        "shol",
+        "dy",
+        "opchoroiin",
+        "sodar",
+        "cheys",
+        "cheody",
+        "oporain",
+        "okshdchos",
+        "ofakal",
+        "otalsy",
+        "ytarem",
+        "otolarol"
+      ],
+      "same_folio_exact_hits": [
+        {
+          "label": "opcheor",
+          "canonical": "opcheor",
+          "global_df": 1
+        },
+        {
+          "label": "dy",
+          "canonical": "dy",
+          "global_df": 138
+        },
+        {
+          "label": "cheody",
+          "canonical": "cheody",
+          "global_df": 57
+        }
+      ],
+      "same_folio_ed1_hits": [
+        {
+          "label": "otoldy",
+          "prose_token": "ytoldy",
+          "canonical_label": "otoldy",
+          "canonical_prose": "ytoldy",
+          "global_df_label": 10
+        },
+        {
+          "label": "okain",
+          "prose_token": "okoiin",
+          "canonical_label": "okain",
+          "canonical_prose": "okoin",
+          "global_df_label": 109
+        },
+        {
+          "label": "okol",
+          "prose_token": "otol",
+          "canonical_label": "okol",
+          "canonical_prose": "otol",
+          "global_df_label": 59
+        },
+        {
+          "label": "shol",
+          "prose_token": "shor",
+          "canonical_label": "shol",
+          "canonical_prose": "shor",
+          "global_df_label": 100
+        },
+        {
+          "label": "cheys",
+          "prose_token": "chey",
+          "canonical_label": "cheys",
+          "canonical_prose": "chey",
+          "global_df_label": 1
+        }
+      ],
+      "rare_herbal_source_links": [
+        {
+          "label": "otoldy",
+          "canonical": "otoldy",
+          "herbal_folios": [
+            "f22r",
+            "f44v",
+            "f48v",
+            "f53v"
+          ],
+          "herbal_df": 4
+        },
+        {
+          "label": "doly",
+          "canonical": "doly",
+          "herbal_folios": [
+            "f43v"
+          ],
+          "herbal_df": 1
+        },
+        {
+          "label": "sodar",
+          "canonical": "sodar",
+          "herbal_folios": [
+            "f53r"
+          ],
+          "herbal_df": 1
+        }
+      ]
+    },
+    {
+      "folio": "f89v2",
+      "quire": "O",
+      "language": "A",
+      "hand": "1",
+      "jar_count_Lc": 3,
+      "plant_count_Lf": 13,
+      "other_label_count_Ln": 0,
+      "total_labels": 16,
+      "paragraph_count": 3,
+      "prose_word_count": 165,
+      "aiin_unit_count": 31,
+      "dar_dal_ablative_count": 16,
+      "qok_qot_operator_count": 14,
+      "edy_verbal_count": 11,
+      "ol_or_fluid_count": 7,
+      "lc_labels": [
+        "choeesy",
+        "otory",
+        "opaloiiry"
+      ],
+      "lf_labels": [
+        "okam",
+        "darcheor",
+        "chokaro",
+        "sheol",
+        "chokam",
+        "otair",
+        "chody",
+        "dykaran",
+        "opcheedey",
+        "otaram",
+        "chtchy",
+        "sada",
+        "daseky"
+      ],
+      "same_folio_exact_hits": [
+        {
+          "label": "sheol",
+          "canonical": "sheol",
+          "global_df": 66
+        },
+        {
+          "label": "chody",
+          "canonical": "chody",
+          "global_df": 62
+        }
+      ],
+      "same_folio_ed1_hits": [
+        {
+          "label": "okam",
+          "prose_token": "okar",
+          "canonical_label": "okam",
+          "canonical_prose": "okar",
+          "global_df_label": 30
+        },
+        {
+          "label": "chokam",
+          "prose_token": "chkam",
+          "canonical_label": "chokam",
+          "canonical_prose": "chkam",
+          "global_df_label": 3
+        },
+        {
+          "label": "otair",
+          "prose_token": "otaiin",
+          "canonical_label": "otair",
+          "canonical_prose": "otain",
+          "global_df_label": 17
+        },
+        {
+          "label": "chtchy",
+          "prose_token": "chcthy",
+          "canonical_label": "chtchy",
+          "canonical_prose": "chthy",
+          "global_df_label": 4
+        }
+      ],
+      "rare_herbal_source_links": [
+        {
+          "label": "chokam",
+          "canonical": "chokam",
+          "herbal_folios": [
+            "f52r"
+          ],
+          "herbal_df": 1
+        },
+        {
+          "label": "otair",
+          "canonical": "otair",
+          "herbal_folios": [
+            "f25r"
+          ],
+          "herbal_df": 1
+        },
+        {
+          "label": "chtchy",
+          "canonical": "chtchy",
+          "herbal_folios": [
+            "f42v",
+            "f47r"
+          ],
+          "herbal_df": 2
+        }
+      ]
+    },
+    {
+      "folio": "f89v1",
+      "quire": "O",
+      "language": "A",
+      "hand": "1",
+      "jar_count_Lc": 2,
+      "plant_count_Lf": 7,
+      "other_label_count_Ln": 0,
+      "total_labels": 9,
+      "paragraph_count": 2,
+      "prose_word_count": 145,
+      "aiin_unit_count": 24,
+      "dar_dal_ablative_count": 5,
+      "qok_qot_operator_count": 18,
+      "edy_verbal_count": 15,
+      "ol_or_fluid_count": 7,
+      "lc_labels": [
+        "okoraldy",
+        "koeeorain"
+      ],
+      "lf_labels": [
+        "otoy",
+        "otchar",
+        "darshody",
+        "otorshos",
+        "opol",
+        "olaiin",
+        "opaldaiin"
+      ],
+      "same_folio_exact_hits": [],
+      "same_folio_ed1_hits": [
+        {
+          "label": "opol",
+          "prose_token": "okol",
+          "canonical_label": "opol",
+          "canonical_prose": "okol",
+          "global_df_label": 3
+        },
+        {
+          "label": "olaiin",
+          "prose_token": "oldaiin",
+          "canonical_label": "olain",
+          "canonical_prose": "oldain",
+          "global_df_label": 45
+        }
+      ],
+      "rare_herbal_source_links": [
+        {
+          "label": "otoy",
+          "canonical": "otoy",
+          "herbal_folios": [
+            "f42v"
+          ],
+          "herbal_df": 1
+        },
+        {
+          "label": "otchar",
+          "canonical": "otchar",
+          "herbal_folios": [
+            "f8v",
+            "f45r"
+          ],
+          "herbal_df": 2
+        }
+      ]
+    },
+    {
+      "folio": "f99r",
+      "quire": "S",
+      "language": "A",
+      "hand": "1",
+      "jar_count_Lc": 4,
+      "plant_count_Lf": 32,
+      "other_label_count_Ln": 0,
+      "total_labels": 36,
+      "paragraph_count": 4,
+      "prose_word_count": 158,
+      "aiin_unit_count": 15,
+      "dar_dal_ablative_count": 2,
+      "qok_qot_operator_count": 17,
+      "edy_verbal_count": 9,
+      "ol_or_fluid_count": 8,
+      "lc_labels": [
+        "okaradag",
+        "oparal",
+        "tsholdy",
+        "yteoldy"
+      ],
+      "lf_labels": [
+        "okar",
+        "y",
+        "darar",
+        "oky",
+        "salo",
+        "aro",
+        "ain",
+        "okor",
+        "ralol",
+        "skeeal",
+        "okary",
+        "okolo",
+        "otalam",
+        "otoldy",
+        "oaro",
+        "aloly",
+        "aora",
+        "choky",
+        "oky",
+        "okeoly",
+        "yteold",
+        "cheotchy",
+        "okos",
+        "oekey",
+        "dar"
+      ],
+      "same_folio_exact_hits": [
+        {
+          "label": "ain",
+          "canonical": "ain",
+          "global_df": 142
+        },
+        {
+          "label": "okor",
+          "canonical": "okor",
+          "global_df": 28
+        },
+        {
+          "label": "okeoly",
+          "canonical": "okeoly",
+          "global_df": 6
+        },
+        {
+          "label": "dar",
+          "canonical": "dar",
+          "global_df": 140
+        }
+      ],
+      "same_folio_ed1_hits": [
+        {
+          "label": "okar",
+          "prose_token": "orar",
+          "canonical_label": "okar",
+          "canonical_prose": "orar",
+          "global_df_label": 66
+        },
+        {
+          "label": "okolo",
+          "prose_token": "okoly",
+          "canonical_label": "okolo",
+          "canonical_prose": "okoly",
+          "global_df_label": 2
+        },
+        {
+          "label": "otoldy",
+          "prose_token": "okoldy",
+          "canonical_label": "otoldy",
+          "canonical_prose": "okoldy",
+          "global_df_label": 10
+        },
+        {
+          "label": "choky",
+          "prose_token": "chory",
+          "canonical_label": "choky",
+          "canonical_prose": "chory",
+          "global_df_label": 34
+        },
+        {
+          "label": "okos",
+          "prose_token": "okor",
+          "canonical_label": "okos",
+          "canonical_prose": "okor",
+          "global_df_label": 7
+        },
+        {
+          "label": "oekey",
+          "prose_token": "okeey",
+          "canonical_label": "oekey",
+          "canonical_prose": "okey",
+          "global_df_label": 5
+        },
+        {
+          "label": "sory",
+          "prose_token": "qkory",
+          "canonical_label": "sory",
+          "canonical_prose": "kory",
+          "global_df_label": 2
+        }
+      ],
+      "rare_herbal_source_links": [
+        {
+          "label": "okary",
+          "canonical": "okary",
+          "herbal_folios": [
+            "f3v",
+            "f33v",
+            "f40v"
+          ],
+          "herbal_df": 3
+        },
+        {
+          "label": "otoldy",
+          "canonical": "otoldy",
+          "herbal_folios": [
+            "f22r",
+            "f44v",
+            "f48v",
+            "f53v"
+          ],
+          "herbal_df": 4
+        },
+        {
+          "label": "okos",
+          "canonical": "okos",
+          "herbal_folios": [
+            "f13v"
+          ],
+          "herbal_df": 1
+        },
+        {
+          "label": "oekey",
+          "canonical": "oekey",
+          "herbal_folios": [
+            "f95r1"
+          ],
+          "herbal_df": 1
+        }
+      ]
+    },
+    {
+      "folio": "f99v",
+      "quire": "S",
+      "language": "A",
+      "hand": "1",
+      "jar_count_Lc": 4,
+      "plant_count_Lf": 22,
+      "other_label_count_Ln": 0,
+      "total_labels": 26,
+      "paragraph_count": 4,
+      "prose_word_count": 137,
+      "aiin_unit_count": 22,
+      "dar_dal_ablative_count": 1,
+      "qok_qot_operator_count": 26,
+      "edy_verbal_count": 13,
+      "ol_or_fluid_count": 11,
+      "lc_labels": [
+        "okaramy",
+        "okoldody",
+        "darolaly",
+        "oralas"
+      ],
+      "lf_labels": [
+        "otoldy",
+        "otorchy",
+        "oldy",
+        "darary",
+        "otaly",
+        "olsy",
+        "arol",
+        "otoky",
+        "oeeesary",
+        "daiiinc",
+        "sary",
+        "saiino",
+        "otolsar",
+        "osary",
+        "okechy",
+        "otal",
+        "chor",
+        "olekor",
+        "okeodor",
+        "olky",
+        "doldam",
+        "koleearol"
+      ],
+      "same_folio_exact_hits": [
+        {
+          "label": "oldy",
+          "canonical": "oldy",
+          "global_df": 20
+        },
+        {
+          "label": "chor",
+          "canonical": "chor",
+          "global_df": 104
+        },
+        {
+          "label": "doldam",
+          "canonical": "doldam",
+          "global_df": 1
+        }
+      ],
+      "same_folio_ed1_hits": [
+        {
+          "label": "olsy",
+          "prose_token": "oldy",
+          "canonical_label": "olsy",
+          "canonical_prose": "oldy",
+          "global_df_label": 2
+        },
+        {
+          "label": "daiiinc",
+          "prose_token": "dain",
+          "canonical_label": "dainc",
+          "canonical_prose": "dain",
+          "global_df_label": 1
+        },
+        {
+          "label": "otal",
+          "prose_token": "otol",
+          "canonical_label": "otal",
+          "canonical_prose": "otol",
+          "global_df_label": 64
+        },
+        {
+          "label": "olky",
+          "prose_token": "oldy",
+          "canonical_label": "olky",
+          "canonical_prose": "oldy",
+          "global_df_label": 15
+        }
+      ],
+      "rare_herbal_source_links": [
+        {
+          "label": "otoldy",
+          "canonical": "otoldy",
+          "herbal_folios": [
+            "f22r",
+            "f44v",
+            "f48v",
+            "f53v"
+          ],
+          "herbal_df": 4
+        },
+        {
+          "label": "otorchy",
+          "canonical": "otorchy",
+          "herbal_folios": [
+            "f8v",
+            "f28r"
+          ],
+          "herbal_df": 2
+        },
+        {
+          "label": "oldy",
+          "canonical": "oldy",
+          "herbal_folios": [
+            "f13r",
+            "f36r",
+            "f40v",
+            "f46v"
+          ],
+          "herbal_df": 4
+        },
+        {
+          "label": "otaly",
+          "canonical": "otaly",
+          "herbal_folios": [
+            "f94r"
+          ],
+          "herbal_df": 1
+        },
+        {
+          "label": "olsy",
+          "canonical": "olsy",
+          "herbal_folios": [
+            "f5r"
+          ],
+          "herbal_df": 1
+        },
+        {
+          "label": "sary",
+          "canonical": "sary",
+          "herbal_folios": [
+            "f48v",
+            "f90r1"
+          ],
+          "herbal_df": 2
+        },
+        {
+          "label": "olky",
+          "canonical": "olky",
+          "herbal_folios": [
+            "f39v",
+            "f43r",
+            "f95r2"
+          ],
+          "herbal_df": 3
+        }
+      ]
+    },
+    {
+      "folio": "f100r",
+      "quire": "S",
+      "language": "A",
+      "hand": "1",
+      "jar_count_Lc": 0,
+      "plant_count_Lf": 18,
+      "other_label_count_Ln": 0,
+      "total_labels": 18,
+      "paragraph_count": 2,
+      "prose_word_count": 91,
+      "aiin_unit_count": 9,
+      "dar_dal_ablative_count": 0,
+      "qok_qot_operator_count": 12,
+      "edy_verbal_count": 8,
+      "ol_or_fluid_count": 12,
+      "lc_labels": [],
+      "lf_labels": [
+        "chosaroshol",
+        "sochorcfhy",
+        "otear",
+        "chofary",
+        "sar",
+        "chardaiindy",
+        "oraro",
+        "chalsain",
+        "soity",
+        "sosam",
+        "dakocth",
+        "sofam",
+        "okeeos",
+        "shockhey",
+        "orol",
+        "olcheom",
+        "oteol",
+        "okols"
+      ],
+      "same_folio_exact_hits": [],
+      "same_folio_ed1_hits": [
+        {
+          "label": "okeeos",
+          "prose_token": "okeol",
+          "canonical_label": "okeos",
+          "canonical_prose": "okeol",
+          "global_df_label": 14
+        },
+        {
+          "label": "olcheom",
+          "prose_token": "olcheol",
+          "canonical_label": "olcheom",
+          "canonical_prose": "olcheol",
+          "global_df_label": 1
+        },
+        {
+          "label": "oteol",
+          "prose_token": "okeol",
+          "canonical_label": "oteol",
+          "canonical_prose": "okeol",
+          "global_df_label": 36
+        }
+      ],
+      "rare_herbal_source_links": [
+        {
+          "label": "okeeos",
+          "canonical": "okeos",
+          "herbal_folios": [
+            "f26v",
+            "f31v",
+            "f40v"
+          ],
+          "herbal_df": 3
+        },
+        {
+          "label": "orol",
+          "canonical": "orol",
+          "herbal_folios": [
+            "f53r",
+            "f55r"
+          ],
+          "herbal_df": 2
+        }
+      ]
+    },
+    {
+      "folio": "f100v",
+      "quire": "S",
+      "language": "A",
+      "hand": "1",
+      "jar_count_Lc": 0,
+      "plant_count_Lf": 14,
+      "other_label_count_Ln": 0,
+      "total_labels": 14,
+      "paragraph_count": 1,
+      "prose_word_count": 79,
+      "aiin_unit_count": 3,
+      "dar_dal_ablative_count": 1,
+      "qok_qot_operator_count": 7,
+      "edy_verbal_count": 4,
+      "ol_or_fluid_count": 9,
+      "lc_labels": [],
+      "lf_labels": [
+        "tolchd",
+        "chols",
+        "opchor",
+        "solsy",
+        "soleesos",
+        "ykchochdy",
+        "ykchdy",
+        "dchdy",
+        "dalsy",
+        "okcheor",
+        "ytchol",
+        "dykchal",
+        "chos",
+        "ctharal"
+      ],
+      "same_folio_exact_hits": [],
+      "same_folio_ed1_hits": [
+        {
+          "label": "chols",
+          "prose_token": "chol",
+          "canonical_label": "chols",
+          "canonical_prose": "chol",
+          "global_df_label": 4
+        },
+        {
+          "label": "chos",
+          "prose_token": "chor",
+          "canonical_label": "chos",
+          "canonical_prose": "chor",
+          "global_df_label": 27
+        }
+      ],
+      "rare_herbal_source_links": [
+        {
+          "label": "chols",
+          "canonical": "chols",
+          "herbal_folios": [
+            "f5v",
+            "f27r"
+          ],
+          "herbal_df": 2
+        },
+        {
+          "label": "opchor",
+          "canonical": "opchor",
+          "herbal_folios": [
+            "f13r",
+            "f49r"
+          ],
+          "herbal_df": 2
+        },
+        {
+          "label": "ykchdy",
+          "canonical": "ykchdy",
+          "herbal_folios": [
+            "f34r",
+            "f46v"
+          ],
+          "herbal_df": 2
+        },
+        {
+          "label": "dchdy",
+          "canonical": "dchdy",
+          "herbal_folios": [
+            "f26r",
+            "f39r",
+            "f94v",
+            "f95v1"
+          ],
+          "herbal_df": 4
+        },
+        {
+          "label": "okcheor",
+          "canonical": "okcheor",
+          "herbal_folios": [
+            "f93r"
+          ],
+          "herbal_df": 1
+        },
+        {
+          "label": "ytchol",
+          "canonical": "ytchol",
+          "herbal_folios": [
+            "f28r"
+          ],
+          "herbal_df": 1
+        }
+      ]
+    },
+    {
+      "folio": "f101r",
+      "quire": "S",
+      "language": "A",
+      "hand": "1",
+      "jar_count_Lc": 0,
+      "plant_count_Lf": 0,
+      "other_label_count_Ln": 0,
+      "total_labels": 0,
+      "paragraph_count": 3,
+      "prose_word_count": 227,
+      "aiin_unit_count": 31,
+      "dar_dal_ablative_count": 4,
+      "qok_qot_operator_count": 11,
+      "edy_verbal_count": 7,
+      "ol_or_fluid_count": 27,
+      "lc_labels": [],
+      "lf_labels": [],
+      "same_folio_exact_hits": [],
+      "same_folio_ed1_hits": [],
+      "rare_herbal_source_links": []
+    },
+    {
+      "folio": "f101v",
+      "quire": "S",
+      "language": "A",
+      "hand": "1",
+      "jar_count_Lc": 0,
+      "plant_count_Lf": 18,
+      "other_label_count_Ln": 0,
+      "total_labels": 18,
+      "paragraph_count": 3,
+      "prose_word_count": 193,
+      "aiin_unit_count": 33,
+      "dar_dal_ablative_count": 4,
+      "qok_qot_operator_count": 19,
+      "edy_verbal_count": 15,
+      "ol_or_fluid_count": 18,
+      "lc_labels": [],
+      "lf_labels": [
+        "sairaly",
+        "otaldy",
+        "otol",
+        "ytal",
+        "dokor",
+        "orar",
+        "otarar",
+        "otoly",
+        "soraly",
+        "okol",
+        "arom",
+        "oraram",
+        "oraeep",
+        "dytolg",
+        "olkor",
+        "dolary",
+        "odor",
+        "olaran"
+      ],
+      "same_folio_exact_hits": [],
+      "same_folio_ed1_hits": [
+        {
+          "label": "otol",
+          "prose_token": "etol",
+          "canonical_label": "otol",
+          "canonical_prose": "etol",
+          "global_df_label": 64
+        },
+        {
+          "label": "ytal",
+          "prose_token": "otal",
+          "canonical_label": "ytal",
+          "canonical_prose": "otal",
+          "global_df_label": 12
+        },
+        {
+          "label": "dokor",
+          "prose_token": "okor",
+          "canonical_label": "dokor",
+          "canonical_prose": "okor",
+          "global_df_label": 1
+        },
+        {
+          "label": "okol",
+          "prose_token": "okor",
+          "canonical_label": "okol",
+          "canonical_prose": "okor",
+          "global_df_label": 59
+        },
+        {
+          "label": "olkor",
+          "prose_token": "okor",
+          "canonical_label": "olkor",
+          "canonical_prose": "okor",
+          "global_df_label": 3
+        },
+        {
+          "label": "odor",
+          "prose_token": "okor",
+          "canonical_label": "odor",
+          "canonical_prose": "okor",
+          "global_df_label": 8
+        }
+      ],
+      "rare_herbal_source_links": [
+        {
+          "label": "otaldy",
+          "canonical": "otaldy",
+          "herbal_folios": [
+            "f95v1"
+          ],
+          "herbal_df": 1
+        },
+        {
+          "label": "ytal",
+          "canonical": "ytal",
+          "herbal_folios": [
+            "f22v",
+            "f34v",
+            "f54v",
+            "f65v"
+          ],
+          "herbal_df": 4
+        },
+        {
+          "label": "otoly",
+          "canonical": "otoly",
+          "herbal_folios": [
+            "f37r"
+          ],
+          "herbal_df": 1
+        },
+        {
+          "label": "olkor",
+          "canonical": "olkor",
+          "herbal_folios": [
+            "f95r1",
+            "f95r2"
+          ],
+          "herbal_df": 2
+        },
+        {
+          "label": "odor",
+          "canonical": "odor",
+          "herbal_folios": [
+            "f24v",
+            "f53r",
+            "f94r"
+          ],
+          "herbal_df": 3
+        }
+      ]
+    },
+    {
+      "folio": "f102r1",
+      "quire": "S",
+      "language": "A",
+      "hand": "1",
+      "jar_count_Lc": 3,
+      "plant_count_Lf": 1,
+      "other_label_count_Ln": 0,
+      "total_labels": 4,
+      "paragraph_count": 3,
+      "prose_word_count": 98,
+      "aiin_unit_count": 18,
+      "dar_dal_ablative_count": 1,
+      "qok_qot_operator_count": 15,
+      "edy_verbal_count": 13,
+      "ol_or_fluid_count": 6,
+      "lc_labels": [
+        "daarod",
+        "okolaly",
+        "ddardsh"
+      ],
+      "lf_labels": [
+        "otodeeodor"
+      ],
+      "same_folio_exact_hits": [],
+      "same_folio_ed1_hits": [],
+      "rare_herbal_source_links": []
+    },
+    {
+      "folio": "f102r2",
+      "quire": "S",
+      "language": "A",
+      "hand": "1",
+      "jar_count_Lc": 5,
+      "plant_count_Lf": 2,
+      "other_label_count_Ln": 0,
+      "total_labels": 7,
+      "paragraph_count": 3,
+      "prose_word_count": 137,
+      "aiin_unit_count": 11,
+      "dar_dal_ablative_count": 0,
+      "qok_qot_operator_count": 17,
+      "edy_verbal_count": 13,
+      "ol_or_fluid_count": 4,
+      "lc_labels": [
+        "kodaiig",
+        "okrolda",
+        "loeekadag",
+        "osheal",
+        "sodch"
+      ],
+      "lf_labels": [
+        "koldarod",
+        "odalydary"
+      ],
+      "same_folio_exact_hits": [],
+      "same_folio_ed1_hits": [],
+      "rare_herbal_source_links": []
+    },
+    {
+      "folio": "f102v2",
+      "quire": "S",
+      "language": "A",
+      "hand": "1",
+      "jar_count_Lc": 3,
+      "plant_count_Lf": 19,
+      "other_label_count_Ln": 0,
+      "total_labels": 22,
+      "paragraph_count": 2,
+      "prose_word_count": 168,
+      "aiin_unit_count": 13,
+      "dar_dal_ablative_count": 2,
+      "qok_qot_operator_count": 16,
+      "edy_verbal_count": 6,
+      "ol_or_fluid_count": 10,
+      "lc_labels": [
+        "porshols",
+        "soaimy",
+        "okolky"
+      ],
+      "lf_labels": [
+        "oror",
+        "chor",
+        "sachy",
+        "okeos",
+        "okol",
+        "otory",
+        "ok",
+        "okody",
+        "cheor",
+        "okoroeey",
+        "opchy",
+        "sarol",
+        "olrodar",
+        "tod",
+        "osain",
+        "aiky",
+        "okeeoraiin",
+        "okockhy",
+        "os"
+      ],
+      "same_folio_exact_hits": [
+        {
+          "label": "okeos",
+          "canonical": "okeos",
+          "global_df": 14
+        },
+        {
+          "label": "cheor",
+          "canonical": "cheor",
+          "global_df": 71
+        },
+        {
+          "label": "os",
+          "canonical": "os",
+          "global_df": 29
+        }
+      ],
+      "same_folio_ed1_hits": [
+        {
+          "label": "oror",
+          "prose_token": "oeeor",
+          "canonical_label": "oror",
+          "canonical_prose": "oeor",
+          "global_df_label": 9
+        },
+        {
+          "label": "chor",
+          "prose_token": "chol",
+          "canonical_label": "chor",
+          "canonical_prose": "chol",
+          "global_df_label": 104
+        },
+        {
+          "label": "okol",
+          "prose_token": "okeol",
+          "canonical_label": "okol",
+          "canonical_prose": "okeol",
+          "global_df_label": 59
+        },
+        {
+          "label": "okody",
+          "prose_token": "okeody",
+          "canonical_label": "okody",
+          "canonical_prose": "okeody",
+          "global_df_label": 11
+        },
+        {
+          "label": "osain",
+          "prose_token": "saiin",
+          "canonical_label": "osain",
+          "canonical_prose": "sain",
+          "global_df_label": 10
+        }
+      ],
+      "rare_herbal_source_links": [
+        {
+          "label": "oror",
+          "canonical": "oror",
+          "herbal_folios": [
+            "f55v"
+          ],
+          "herbal_df": 1
+        },
+        {
+          "label": "okeos",
+          "canonical": "okeos",
+          "herbal_folios": [
+            "f26v",
+            "f31v",
+            "f40v"
+          ],
+          "herbal_df": 3
+        },
+        {
+          "label": "okody",
+          "canonical": "okody",
+          "herbal_folios": [
+            "f39v"
+          ],
+          "herbal_df": 1
+        },
+        {
+          "label": "opchy",
+          "canonical": "opchy",
+          "herbal_folios": [
+            "f13r",
+            "f16r",
+            "f20v",
+            "f22r"
+          ],
+          "herbal_df": 4
+        },
+        {
+          "label": "sarol",
+          "canonical": "sarol",
+          "herbal_folios": [
+            "f39v"
+          ],
+          "herbal_df": 1
+        },
+        {
+          "label": "tod",
+          "canonical": "tod",
+          "herbal_folios": [
+            "f9r",
+            "f24r",
+            "f53v"
+          ],
+          "herbal_df": 3
+        },
+        {
+          "label": "osain",
+          "canonical": "osain",
+          "herbal_folios": [
+            "f46r"
+          ],
+          "herbal_df": 1
+        }
+      ]
+    },
+    {
+      "folio": "f102v1",
+      "quire": "S",
+      "language": "A",
+      "hand": "1",
+      "jar_count_Lc": 2,
+      "plant_count_Lf": 8,
+      "other_label_count_Ln": 0,
+      "total_labels": 10,
+      "paragraph_count": 2,
+      "prose_word_count": 117,
+      "aiin_unit_count": 18,
+      "dar_dal_ablative_count": 3,
+      "qok_qot_operator_count": 21,
+      "edy_verbal_count": 17,
+      "ol_or_fluid_count": 8,
+      "lc_labels": [
+        "keoraiiin",
+        "dindy"
+      ],
+      "lf_labels": [
+        "okeody",
+        "okeody",
+        "daiisaly",
+        "ypary",
+        "opchyt",
+        "ypcholdy",
+        "loralody",
+        "opchdard"
+      ],
+      "same_folio_exact_hits": [
+        {
+          "label": "okeody",
+          "canonical": "okeody",
+          "global_df": 38
+        },
+        {
+          "label": "okeody",
+          "canonical": "okeody",
+          "global_df": 38
+        }
+      ],
+      "same_folio_ed1_hits": [],
+      "rare_herbal_source_links": []
+    }
+  ]
+}
