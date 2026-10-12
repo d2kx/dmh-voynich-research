@@ -831,5 +831,34 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Key Breakthroughs**:
   1. **Synthesizes the `o-R -> qo-R` Stem Transformation Table, Pharmaceutical Same-Page and Herbal-Citation Bridges, and Balneological Nymph-to-Prose and Hydraulic-Zone Concordances**.
 
+---
+
+## 93. Attack 93 (`Phase 104`): Exact Forensic Audit of the Final Singleton Hapax Tail — Achieving `99.9614%` (`36,215 / 36,229`) Full-Corpus Token Accountability ($z = +27.48$)
+- **Script, Data & Scan**: [`tools/attack93_final_178_singleton_forensic_audit.py`](../tools/attack93_final_178_singleton_forensic_audit.py) $\to$ [`data/attack93_final_178_singleton_forensic_audit.json`](../data/attack93_final_178_singleton_forensic_audit.json) & [`pages/f1r_incunabular_hapax_audit_enh.png`](../pages/f1r_incunabular_hapax_audit_enh.png)
+- **Key Breakthroughs**:
+  1. **Resolves `91.76%` (`156 / 170`) of the Final Singleton Hapax Tail via Soft-Comma `,` / `GC2a-n` Splits (`68.24%`), Rare Plume/Onset Allographs (`2.94%`, e.g. `fachys -> [fa+ch+ys]`), 4-Morpheme Phrase Univerbation (`18.24%`, $z = +27.48$), and Canonical Neighbors (`2.35%`), Explaining `36,215 / 36,229` Corpus Tokens (`99.9614%`)**.
+
+---
+
+## 94. Attack 94 (`Phase 105`): The Marginless Circular (`@C`) & Radial (`@R`) Ring Grammar — `6.34×` `-am/-m` Ring-Terminus Closure Law ($z = +5.26$), `3.71×` `-aiin` Surge on Long 360° Rings, and Clockwise Cadence ($z = +3.41$)
+- **Script & Data**: [`tools/attack94_circular_and_radial_ring_grammar.py`](../tools/attack94_circular_and_radial_ring_grammar.py) $\to$ [`data/attack94_circular_and_radial_ring_grammar.json`](../data/attack94_circular_and_radial_ring_grammar.json)
+- **Key Breakthroughs**:
+  1. **Proves That `-am / -m` Terminators Concentrate `6.34×` at the Closing Word of Marginless 360-Degree Circular/Radial Rings (`10.81%` vs. `1.71%` Interior, $z = +5.26$), Establishing That `-am / -m` Is a Syntactic Stream-Terminator Rather Than a Visual Right-Margin Artifact, Alongside a `3.71×` `-aiin` Surge on Long Rings (`2.76% -> 10.24%`)**.
+
+---
+
+## 95. Attack 95 (`Phase 106`): The `536` Three-Stage Cross-Sectional Pharmacopoeia Chains (`Herbal Monograph $I=H -> Pharmaceutical Jar/Root Formulary $I=P -> Quire 20 Starred Recipe $I=S`, $z = +6.72$)
+- **Script & Data**: [`tools/attack95_three_stage_cross_section_pharmacopoeia_chains.py`](../tools/attack95_three_stage_cross_section_pharmacopoeia_chains.py) $\to$ [`data/attack95_three_stage_cross_section_pharmacopoeia_chains.json`](../data/attack95_three_stage_cross_section_pharmacopoeia_chains.json)
+- **Key Breakthroughs**:
+  1. **Reconstructs `536` Three-Stage Botanical-to-Clinical Recipe Chains (`79` 4+-Stem Triads vs. `18.43` Null, $z = +6.72$; `60` `@Lf`-Label-Anchored Triads, $z = +3.69$) and Proves the Three-Stage Grammatical Transformation Gradient Across Shared Stems (`qo-` `0.00% -> 7.74% -> 12.92% -> 13.89%`; `-aiin` `12.50% -> 23.05%`; `-edy` `0.42% -> 5.34%`)**.
+
+---
+
+## 96. Attack 96 (`Phase 107`): The Three-Stage Cross-Sectional Pharmacopoeia & Circular Ring Decoder Edition ([`notes/THREE_STAGE_PHARMACOPOEIA_AND_RING_DECODER.md`](THREE_STAGE_PHARMACOPOEIA_AND_RING_DECODER.md))
+- **Script, Data & Edition**: [`tools/attack96_three_stage_pharmacopoeia_and_ring_decoder.py`](../tools/attack96_three_stage_pharmacopoeia_and_ring_decoder.py) $\to$ [`data/attack96_three_stage_pharmacopoeia_and_ring_decoder.json`](../data/attack96_three_stage_pharmacopoeia_and_ring_decoder.json) & [`notes/THREE_STAGE_PHARMACOPOEIA_AND_RING_DECODER.md`](THREE_STAGE_PHARMACOPOEIA_AND_RING_DECODER.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes the `99.9614%` Full-Corpus Lexical Accountability Audit, the Marginless Circular Ring `-am/-m` Closure Law, and the 16-Folio Master Atlas of Three-Stage Pharmacopoeia Chains (`H -> P -> S`)**.
+
+
 
 

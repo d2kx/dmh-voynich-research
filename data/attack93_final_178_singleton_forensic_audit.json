@@ -1,0 +1,1684 @@
+{
+  "input_singleton_pool": {
+    "total_singleton_tokens": 170,
+    "pct_of_corpus_tokens": 0.469
+  },
+  "forensic_resolution_summary": {
+    "resolved_of_178": 156,
+    "pct_of_178_resolved": 91.76,
+    "remaining_unexplained_tokens": 14,
+    "final_corpus_explained_tokens": 36215,
+    "final_corpus_explained_token_pct": 99.9614,
+    "final_corpus_explained_types": 9040,
+    "final_corpus_explained_type_pct": 99.845
+  },
+  "morphological_null_validation": {
+    "observed_7b_7c_rate": 0.6118,
+    "null_mean_rate": 0.0857,
+    "null_std": 0.0191,
+    "z_score": 27.48
+  },
+  "mechanism_breakdown": [
+    {
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "count": 116,
+      "pct_of_178": 68.24,
+      "examples": [
+        {
+          "word": "cthiardaiin",
+          "loc": "f1r.4",
+          "token_index": 3,
+          "raw_zl": "cthiar,daiin",
+          "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+          "detail": "raw_zl='cthiar,daiin' -> cthiar . daiin"
+        },
+        {
+          "word": "tshodeesy",
+          "loc": "f1r.22",
+          "token_index": 4,
+          "raw_zl": "tshodeesy",
+          "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+          "detail": "gc_v101 splits line f1r.22 (9 -> 10 words)"
+        },
+        {
+          "word": "dolchiody",
+          "loc": "f1v.7",
+          "token_index": 9,
+          "raw_zl": "do,lchiody",
+          "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+          "detail": "raw_zl='do,lchiody' -> do . lchiody"
+        },
+        {
+          "word": "soleeg",
+          "loc": "f3r.16",
+          "token_index": 8,
+          "raw_zl": "soleeg",
+          "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+          "detail": "gc_v101='soeC*' at f3r.16"
+        },
+        {
+          "word": "kodalchy",
+          "loc": "f4r.1",
+          "token_index": 0,
+          "raw_zl": "kodalchy",
+          "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+          "detail": "gc_v101 splits line f4r.1 (8 -> 9 words)"
+        },
+        {
+          "word": "qookoiiincheog",
+          "loc": "f4v.9",
+          "token_index": 0,
+          "raw_zl": "qooko,iiin,cheog",
+          "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+          "detail": "raw_zl='qooko,iiin,cheog' -> qooko . iiin . cheog"
+        },
+        {
+          "word": "ychopordg",
+          "loc": "f5v.2",
+          "token_index": 6,
+          "raw_zl": "ychopordg",
+          "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+          "detail": "gc_v101 splits line f5v.2 (7 -> 8 words)"
+        },
+        {
+          "word": "dairodg",
+          "loc": "f5v.6",
+          "token_index": 2,
+          "raw_zl": "dairodg",
+          "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+          "detail": "gc_v101='8azo8*' at f5v.6"
+        }
+      ]
+    },
+    {
+      "mechanism": "MECH_7B_RARE_ALLOGRAPH_OR_GALLOWS_A_ONSET",
+      "count": 5,
+      "pct_of_178": 2.94,
+      "examples": [
+        {
+          "word": "teyteg",
+          "loc": "f76v.5",
+          "token_index": 10,
+          "raw_zl": "teyteg",
+          "mechanism": "MECH_7B_RARE_ALLOGRAPH_OR_GALLOWS_A_ONSET",
+          "detail": "teyteg -> teytem"
+        },
+        {
+          "word": "soshxor",
+          "loc": "fRos.71",
+          "token_index": 0,
+          "raw_zl": "soshxor",
+          "mechanism": "MECH_7B_RARE_ALLOGRAPH_OR_GALLOWS_A_ONSET",
+          "detail": "soshxor -> soshror"
+        },
+        {
+          "word": "osoj",
+          "loc": "f96v.1",
+          "token_index": 6,
+          "raw_zl": "osoj",
+          "mechanism": "MECH_7B_RARE_ALLOGRAPH_OR_GALLOWS_A_ONSET",
+          "detail": "osoj -> osod"
+        },
+        {
+          "word": "loeekadag",
+          "loc": "f102r2.13",
+          "token_index": 0,
+          "raw_zl": "loeekadag",
+          "mechanism": "MECH_7B_RARE_ALLOGRAPH_OR_GALLOWS_A_ONSET",
+          "detail": "loeekadag -> loeekadam"
+        },
+        {
+          "word": "kedarxy",
+          "loc": "f108v.6",
+          "token_index": 9,
+          "raw_zl": "kedarxy",
+          "mechanism": "MECH_7B_RARE_ALLOGRAPH_OR_GALLOWS_A_ONSET",
+          "detail": "kedarxy -> kedarry"
+        }
+      ]
+    },
+    {
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "count": 31,
+      "pct_of_178": 18.24,
+      "examples": [
+        {
+          "word": "ydaraishy",
+          "loc": "f1r.6",
+          "token_index": 0,
+          "raw_zl": "ydaraishy",
+          "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+          "detail": "y+dar+ai+shy"
+        },
+        {
+          "word": "chokoishe",
+          "loc": "f2v.8",
+          "token_index": 0,
+          "raw_zl": "chokoishe",
+          "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+          "detail": "ch+oko+i+she"
+        },
+        {
+          "word": "oschotshl",
+          "loc": "f28r.8",
+          "token_index": 0,
+          "raw_zl": "oschotshl",
+          "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+          "detail": "o+sch+ot+shl"
+        },
+        {
+          "word": "shetcheodchs",
+          "loc": "f43v.8",
+          "token_index": 0,
+          "raw_zl": "shetcheodchs",
+          "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+          "detail": "she+tch+eod+chs"
+        },
+        {
+          "word": "ychcthod",
+          "loc": "f52r.4",
+          "token_index": 7,
+          "raw_zl": "ychcthod",
+          "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+          "detail": "y+ch+cth+od"
+        },
+        {
+          "word": "oparairdly",
+          "loc": "f57v.7",
+          "token_index": 0,
+          "raw_zl": "oparairdly",
+          "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+          "detail": "opar+air+d+ly"
+        },
+        {
+          "word": "keedais",
+          "loc": "f67r1.7",
+          "token_index": 23,
+          "raw_zl": "keedais",
+          "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+          "detail": "ke+ed+ai+s"
+        },
+        {
+          "word": "oeepoaly",
+          "loc": "f67v2.13",
+          "token_index": 1,
+          "raw_zl": "oeepoaly",
+          "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+          "detail": "o+ee+po+aly"
+        }
+      ]
+    },
+    {
+      "mechanism": "MECH_7D_CANONICAL_SKELETON_NEIGHBOR_LE2",
+      "count": 4,
+      "pct_of_178": 2.35,
+      "examples": [
+        {
+          "word": "cphhofy",
+          "loc": "f39r.1",
+          "token_index": 1,
+          "raw_zl": "cphhofy",
+          "mechanism": "MECH_7D_CANONICAL_SKELETON_NEIGHBOR_LE2",
+          "detail": "canon(cphhofy)=cthhoky ~ canon(choky)=choky"
+        },
+        {
+          "word": "tochso",
+          "loc": "f68r1.2",
+          "token_index": 0,
+          "raw_zl": "tochso",
+          "mechanism": "MECH_7D_CANONICAL_SKELETON_NEIGHBOR_LE2",
+          "detail": "canon(tochso)=tochso ~ canon(tsho)=tcho"
+        },
+        {
+          "word": "kodshol",
+          "loc": "f93r.1",
+          "token_index": 0,
+          "raw_zl": "kodshol",
+          "mechanism": "MECH_7D_CANONICAL_SKELETON_NEIGHBOR_LE2",
+          "detail": "canon(kodshol)=kodchol ~ canon(dchol)=dchol"
+        },
+        {
+          "word": "fdeechdy",
+          "loc": "f114r.4",
+          "token_index": 0,
+          "raw_zl": "fdeechdy",
+          "mechanism": "MECH_7D_CANONICAL_SKELETON_NEIGHBOR_LE2",
+          "detail": "canon(fdeechdy)=kdechdy ~ canon(kchdy)=kchdy"
+        }
+      ]
+    },
+    {
+      "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+      "count": 14,
+      "pct_of_178": 8.24,
+      "examples": [
+        {
+          "word": "pdychoiin",
+          "loc": "f14v.1",
+          "token_index": 0,
+          "raw_zl": "pdychoiin",
+          "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+          "detail": "raw='pdychoiin' at f14v.1"
+        },
+        {
+          "word": "pdrairdy",
+          "loc": "f18r.1",
+          "token_index": 0,
+          "raw_zl": "pdrairdy",
+          "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+          "detail": "raw='pdrairdy' at f18r.1"
+        },
+        {
+          "word": "chepchefy",
+          "loc": "f41v.2",
+          "token_index": 5,
+          "raw_zl": "chepchefy",
+          "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+          "detail": "raw='chepchefy' at f41v.2"
+        },
+        {
+          "word": "tdokchcfhy",
+          "loc": "f52r.1",
+          "token_index": 0,
+          "raw_zl": "tdokchcfhy",
+          "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+          "detail": "raw='tdokchcfhy' at f52r.1"
+        },
+        {
+          "word": "ochepalain",
+          "loc": "f67v2.11",
+          "token_index": 1,
+          "raw_zl": "ochepalain",
+          "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+          "detail": "raw='ochepalain' at f67v2.11"
+        },
+        {
+          "word": "kochardy",
+          "loc": "f67v1.10",
+          "token_index": 0,
+          "raw_zl": "kochardy",
+          "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+          "detail": "raw='kochardy' at f67v1.10"
+        },
+        {
+          "word": "todaraiily",
+          "loc": "f68r2.13",
+          "token_index": 0,
+          "raw_zl": "todaraiily",
+          "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+          "detail": "raw='todaraiily' at f68r2.13"
+        },
+        {
+          "word": "pdalshor",
+          "loc": "f75r.27",
+          "token_index": 0,
+          "raw_zl": "pdalshor",
+          "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+          "detail": "raw='pdalshor' at f75r.27"
+        }
+      ]
+    }
+  ],
+  "full_178_audit_table": [
+    {
+      "word": "cthiardaiin",
+      "loc": "f1r.4",
+      "token_index": 3,
+      "raw_zl": "cthiar,daiin",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='cthiar,daiin' -> cthiar . daiin"
+    },
+    {
+      "word": "ydaraishy",
+      "loc": "f1r.6",
+      "token_index": 0,
+      "raw_zl": "ydaraishy",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "y+dar+ai+shy"
+    },
+    {
+      "word": "tshodeesy",
+      "loc": "f1r.22",
+      "token_index": 4,
+      "raw_zl": "tshodeesy",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f1r.22 (9 -> 10 words)"
+    },
+    {
+      "word": "dolchiody",
+      "loc": "f1v.7",
+      "token_index": 9,
+      "raw_zl": "do,lchiody",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='do,lchiody' -> do . lchiody"
+    },
+    {
+      "word": "chokoishe",
+      "loc": "f2v.8",
+      "token_index": 0,
+      "raw_zl": "chokoishe",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "ch+oko+i+she"
+    },
+    {
+      "word": "soleeg",
+      "loc": "f3r.16",
+      "token_index": 8,
+      "raw_zl": "soleeg",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='soeC*' at f3r.16"
+    },
+    {
+      "word": "kodalchy",
+      "loc": "f4r.1",
+      "token_index": 0,
+      "raw_zl": "kodalchy",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f4r.1 (8 -> 9 words)"
+    },
+    {
+      "word": "qookoiiincheog",
+      "loc": "f4v.9",
+      "token_index": 0,
+      "raw_zl": "qooko,iiin,cheog",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='qooko,iiin,cheog' -> qooko . iiin . cheog"
+    },
+    {
+      "word": "ychopordg",
+      "loc": "f5v.2",
+      "token_index": 6,
+      "raw_zl": "ychopordg",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f5v.2 (7 -> 8 words)"
+    },
+    {
+      "word": "dairodg",
+      "loc": "f5v.6",
+      "token_index": 2,
+      "raw_zl": "dairodg",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='8azo8*' at f5v.6"
+    },
+    {
+      "word": "koarysar",
+      "loc": "f6v.1",
+      "token_index": 0,
+      "raw_zl": "koary,sar",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='koary,sar' -> koary . sar"
+    },
+    {
+      "word": "okshodeeeb",
+      "loc": "f7v.7",
+      "token_index": 0,
+      "raw_zl": "okshodeeeb",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='oh2o8d@207;' at f7v.7"
+    },
+    {
+      "word": "okokchodg",
+      "loc": "f8r.13",
+      "token_index": 0,
+      "raw_zl": "okokchodg",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='ohoh1o8*' at f8r.13"
+    },
+    {
+      "word": "pdychoiin",
+      "loc": "f14v.1",
+      "token_index": 0,
+      "raw_zl": "pdychoiin",
+      "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+      "detail": "raw='pdychoiin' at f14v.1"
+    },
+    {
+      "word": "ydarchog",
+      "loc": "f17r.1",
+      "token_index": 2,
+      "raw_zl": "ydar,chog",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='ydar,chog' -> ydar . chog"
+    },
+    {
+      "word": "pdrairdy",
+      "loc": "f18r.1",
+      "token_index": 0,
+      "raw_zl": "pdrairdy",
+      "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+      "detail": "raw='pdrairdy' at f18r.1"
+    },
+    {
+      "word": "ytdg",
+      "loc": "f18v.1",
+      "token_index": 6,
+      "raw_zl": "ytdg",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='9k8*' at f18v.1"
+    },
+    {
+      "word": "shypofochey",
+      "loc": "f20v.1",
+      "token_index": 2,
+      "raw_zl": "shy,pofochey",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='shy,pofochey' -> shy . pofochey"
+    },
+    {
+      "word": "ylg",
+      "loc": "f23v.7",
+      "token_index": 8,
+      "raw_zl": "ylg",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='9e*' at f23v.7"
+    },
+    {
+      "word": "shapchedyfchy",
+      "loc": "f26r.7",
+      "token_index": 6,
+      "raw_zl": "sha,p,chedyfchy",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='sha,p,chedyfchy' -> sha . p . chedyfchy"
+    },
+    {
+      "word": "docheesg",
+      "loc": "f27v.4",
+      "token_index": 8,
+      "raw_zl": "do,cheesg",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='do,cheesg' -> do . cheesg"
+    },
+    {
+      "word": "oschotshl",
+      "loc": "f28r.8",
+      "token_index": 0,
+      "raw_zl": "oschotshl",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "o+sch+ot+shl"
+    },
+    {
+      "word": "chepakeo",
+      "loc": "f31r.1",
+      "token_index": 5,
+      "raw_zl": "chepakeo",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "rf_variant='chefakeo' at f31r.1"
+    },
+    {
+      "word": "okechoked",
+      "loc": "f31v.8",
+      "token_index": 5,
+      "raw_zl": "okechoked",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f31v.8 (8 -> 9 words)"
+    },
+    {
+      "word": "chefalchhs",
+      "loc": "f34r.10",
+      "token_index": 4,
+      "raw_zl": "chefalchhs",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "rf_variant='chefalas' at f34r.10"
+    },
+    {
+      "word": "chkcheeu",
+      "loc": "f35v.6",
+      "token_index": 2,
+      "raw_zl": "chkcheeu",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='1h1C@193;' at f35v.6"
+    },
+    {
+      "word": "cphhofy",
+      "loc": "f39r.1",
+      "token_index": 1,
+      "raw_zl": "cphhofy",
+      "mechanism": "MECH_7D_CANONICAL_SKELETON_NEIGHBOR_LE2",
+      "detail": "canon(cphhofy)=cthhoky ~ canon(choky)=choky"
+    },
+    {
+      "word": "okalcheg",
+      "loc": "f39r.4",
+      "token_index": 10,
+      "raw_zl": "okalcheg",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='ohae1c*' at f39r.4"
+    },
+    {
+      "word": "chepchefy",
+      "loc": "f41v.2",
+      "token_index": 5,
+      "raw_zl": "chepchefy",
+      "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+      "detail": "raw='chepchefy' at f41v.2"
+    },
+    {
+      "word": "shetcheodchs",
+      "loc": "f43v.8",
+      "token_index": 0,
+      "raw_zl": "shetcheodchs",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "she+tch+eod+chs"
+    },
+    {
+      "word": "cheokchet",
+      "loc": "f49v.38",
+      "token_index": 3,
+      "raw_zl": "cheokchet",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f49v.38 (8 -> 9 words)"
+    },
+    {
+      "word": "tdokchcfhy",
+      "loc": "f52r.1",
+      "token_index": 0,
+      "raw_zl": "tdokchcfhy",
+      "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+      "detail": "raw='tdokchcfhy' at f52r.1"
+    },
+    {
+      "word": "ychcthod",
+      "loc": "f52r.4",
+      "token_index": 7,
+      "raw_zl": "ychcthod",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "y+ch+cth+od"
+    },
+    {
+      "word": "xaloeees",
+      "loc": "f55r.8",
+      "token_index": 5,
+      "raw_zl": "xaloeees",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f55r.8 (8 -> 9 words)"
+    },
+    {
+      "word": "oparairdly",
+      "loc": "f57v.7",
+      "token_index": 0,
+      "raw_zl": "oparairdly",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "opar+air+d+ly"
+    },
+    {
+      "word": "oetalchg",
+      "loc": "f58v.31",
+      "token_index": 9,
+      "raw_zl": "oetalchg",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='ockae1*' at f58v.31"
+    },
+    {
+      "word": "dolarshydor",
+      "loc": "f66r.68",
+      "token_index": 8,
+      "raw_zl": "dolarshy,dor",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='dolarshy,dor' -> dolarshy . dor"
+    },
+    {
+      "word": "lpcheesolar",
+      "loc": "f66r.75",
+      "token_index": 3,
+      "raw_zl": "lpchees,ol,ar",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='lpchees,ol,ar' -> lpchees . ol . ar"
+    },
+    {
+      "word": "ykeescheg",
+      "loc": "f66r.82",
+      "token_index": 2,
+      "raw_zl": "ykees,cheg",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='ykees,cheg' -> ykees . cheg"
+    },
+    {
+      "word": "keedais",
+      "loc": "f67r1.7",
+      "token_index": 23,
+      "raw_zl": "keedais",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "ke+ed+ai+s"
+    },
+    {
+      "word": "ochepalain",
+      "loc": "f67v2.11",
+      "token_index": 1,
+      "raw_zl": "ochepalain",
+      "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+      "detail": "raw='ochepalain' at f67v2.11"
+    },
+    {
+      "word": "okydseog",
+      "loc": "f67v2.13",
+      "token_index": 0,
+      "raw_zl": "okydseog",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='oh982o*' at f67v2.13"
+    },
+    {
+      "word": "oeepoaly",
+      "loc": "f67v2.13",
+      "token_index": 1,
+      "raw_zl": "oeepoaly",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "o+ee+po+aly"
+    },
+    {
+      "word": "deeeoskol",
+      "loc": "f67v1.8",
+      "token_index": 0,
+      "raw_zl": "deeeoskol",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "d+eee+os+kol"
+    },
+    {
+      "word": "kochardy",
+      "loc": "f67v1.10",
+      "token_index": 0,
+      "raw_zl": "kochardy",
+      "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+      "detail": "raw='kochardy' at f67v1.10"
+    },
+    {
+      "word": "otechodor",
+      "loc": "f67v1.15",
+      "token_index": 0,
+      "raw_zl": "otechodor",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='okc1o8,oy' at f67v1.15"
+    },
+    {
+      "word": "tochso",
+      "loc": "f68r1.2",
+      "token_index": 0,
+      "raw_zl": "tochso",
+      "mechanism": "MECH_7D_CANONICAL_SKELETON_NEIGHBOR_LE2",
+      "detail": "canon(tochso)=tochso ~ canon(tsho)=tcho"
+    },
+    {
+      "word": "todaraiily",
+      "loc": "f68r2.13",
+      "token_index": 0,
+      "raw_zl": "todaraiily",
+      "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+      "detail": "raw='todaraiily' at f68r2.13"
+    },
+    {
+      "word": "cheockhedchy",
+      "loc": "f68r3.1",
+      "token_index": 25,
+      "raw_zl": "cheockhedchy",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f68r3.1 (36 -> 37 words)"
+    },
+    {
+      "word": "teokechey",
+      "loc": "f68v3.12",
+      "token_index": 4,
+      "raw_zl": "teokechey",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "te+o+ke+chey"
+    },
+    {
+      "word": "opcholdg",
+      "loc": "f68v3.16",
+      "token_index": 0,
+      "raw_zl": "opcholdg",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='oj1oe8*' at f68v3.16"
+    },
+    {
+      "word": "ctheepoey",
+      "loc": "f68v3.19",
+      "token_index": 1,
+      "raw_zl": "ctheepoey",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "cth+ee+po+ey"
+    },
+    {
+      "word": "oallchdm",
+      "loc": "f68v2.5",
+      "token_index": 7,
+      "raw_zl": "oallchdm",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='o,ae16*' at f68v2.5"
+    },
+    {
+      "word": "okechdaral",
+      "loc": "f68v1.6",
+      "token_index": 0,
+      "raw_zl": "okechdaral",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "o+ke+chdar+al"
+    },
+    {
+      "word": "cheteeser",
+      "loc": "f69v.3",
+      "token_index": 18,
+      "raw_zl": "oteoarar",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f69v.3 (25 -> 28 words)"
+    },
+    {
+      "word": "choekeeos",
+      "loc": "f70r1.2",
+      "token_index": 1,
+      "raw_zl": "choekeeos",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "cho+e+kee+os"
+    },
+    {
+      "word": "chopcheopchy",
+      "loc": "f70r1.2",
+      "token_index": 15,
+      "raw_zl": "chopcheopchy",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "ch+op+cheo+pchy"
+    },
+    {
+      "word": "choetchaldy",
+      "loc": "f70r2.17",
+      "token_index": 15,
+      "raw_zl": "choetchaldy",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='1ock1ae,89' at f70r2.17"
+    },
+    {
+      "word": "otakaizan",
+      "loc": "f70v1.4",
+      "token_index": 0,
+      "raw_zl": "otakaizan",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "rf_variant='otakaiman' at f70v1.4"
+    },
+    {
+      "word": "okaikaly",
+      "loc": "f71v.1",
+      "token_index": 35,
+      "raw_zl": "okaikaly",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f71v.1 (36 -> 37 words)"
+    },
+    {
+      "word": "okalararokeodar",
+      "loc": "f71v.12",
+      "token_index": 4,
+      "raw_zl": "okalar,ar,okeo,dar",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='okalar,ar,okeo,dar' -> okalar . ar . okeo . dar"
+    },
+    {
+      "word": "chdaiirdainy",
+      "loc": "f72r1.3",
+      "token_index": 0,
+      "raw_zl": "chdaiirdainy",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "ch+daiir+dain+y"
+    },
+    {
+      "word": "oteeschteosdoteey",
+      "loc": "f72r3.14",
+      "token_index": 18,
+      "raw_zl": "otees,chteos,doteey",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='otees,chteos,doteey' -> otees . chteos . doteey"
+    },
+    {
+      "word": "chlyiintee",
+      "loc": "f72v3.20",
+      "token_index": 2,
+      "raw_zl": "chlyiintee",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f72v3.20 (29 -> 33 words)"
+    },
+    {
+      "word": "otesalalar",
+      "loc": "f72v2.33",
+      "token_index": 3,
+      "raw_zl": "otes,al,al,ar",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='otes,al,al,ar' -> otes . al . al . ar"
+    },
+    {
+      "word": "otoltopar",
+      "loc": "f72v1.22",
+      "token_index": 1,
+      "raw_zl": "otol,topar",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='otol,topar' -> otol . topar"
+    },
+    {
+      "word": "cheteeeosaiin",
+      "loc": "f73r.5",
+      "token_index": 14,
+      "raw_zl": "cheteeeos,aiin",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='cheteeeos,aiin' -> cheteeeos . aiin"
+    },
+    {
+      "word": "chepcheesaly",
+      "loc": "f73r.33",
+      "token_index": 5,
+      "raw_zl": "chepcheesaly",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='1cj1Cs,ae9' at f73r.33"
+    },
+    {
+      "word": "otesalod",
+      "loc": "f73v.5",
+      "token_index": 13,
+      "raw_zl": "otesalod",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "o+te+sal+od"
+    },
+    {
+      "word": "pdalshor",
+      "loc": "f75r.27",
+      "token_index": 0,
+      "raw_zl": "pdalshor",
+      "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+      "detail": "raw='pdalshor' at f75r.27"
+    },
+    {
+      "word": "qotddyar",
+      "loc": "f76r.2",
+      "token_index": 1,
+      "raw_zl": "qotddyar",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='4ok8,89,ay' at f76r.2"
+    },
+    {
+      "word": "poleedaran",
+      "loc": "f76r.44",
+      "token_index": 0,
+      "raw_zl": "poleedaran",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "pol+ee+dar+an"
+    },
+    {
+      "word": "teyteg",
+      "loc": "f76v.5",
+      "token_index": 10,
+      "raw_zl": "teyteg",
+      "mechanism": "MECH_7B_RARE_ALLOGRAPH_OR_GALLOWS_A_ONSET",
+      "detail": "teyteg -> teytem"
+    },
+    {
+      "word": "oshepols",
+      "loc": "f76v.16",
+      "token_index": 7,
+      "raw_zl": "oshepols",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "o+she+po+ls"
+    },
+    {
+      "word": "poldaraisol",
+      "loc": "f77r.9",
+      "token_index": 0,
+      "raw_zl": "poldarais,ol",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='poldarais,ol' -> poldarais . ol"
+    },
+    {
+      "word": "okchdldlo",
+      "loc": "f78r.1",
+      "token_index": 0,
+      "raw_zl": "okchdldlo",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "okchd+l+d+lo"
+    },
+    {
+      "word": "tchdoltdy",
+      "loc": "f78r.17",
+      "token_index": 4,
+      "raw_zl": "tchdoltdy",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f78r.17 (5 -> 6 words)"
+    },
+    {
+      "word": "otarodlay",
+      "loc": "f78r.46",
+      "token_index": 0,
+      "raw_zl": "otarodla'y",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='okayo8e@206;9' at f78r.46"
+    },
+    {
+      "word": "lolkedykainol",
+      "loc": "f78v.4",
+      "token_index": 6,
+      "raw_zl": "l,olkedykain,ol",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='l,olkedykain,ol' -> l . olkedykain . ol"
+    },
+    {
+      "word": "torolshsdy",
+      "loc": "f80r.40",
+      "token_index": 0,
+      "raw_zl": "torolshsdy",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "tor+ol+shs+dy"
+    },
+    {
+      "word": "efaloir",
+      "loc": "f80r.47",
+      "token_index": 1,
+      "raw_zl": "efaloir",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f80r.47 (8 -> 9 words)"
+    },
+    {
+      "word": "yarolcheykaiin",
+      "loc": "f81v.9",
+      "token_index": 0,
+      "raw_zl": "yar,olchey,kaiin",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='yar,olchey,kaiin' -> yar . olchey . kaiin"
+    },
+    {
+      "word": "salchtedytar",
+      "loc": "f81v.22",
+      "token_index": 7,
+      "raw_zl": "salchtedytar",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='s,ae,1kc89kay' at f81v.22"
+    },
+    {
+      "word": "shecthedchy",
+      "loc": "f83r.8",
+      "token_index": 2,
+      "raw_zl": "shecthedchy",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "she+cth+e+dchy"
+    },
+    {
+      "word": "olkeedolary",
+      "loc": "f84r.33",
+      "token_index": 7,
+      "raw_zl": "ol,keed,ol,ary",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='ol,keed,ol,ary' -> ol . keed . ol . ary"
+    },
+    {
+      "word": "tosaes",
+      "loc": "fRos.2",
+      "token_index": 1,
+      "raw_zl": "tosaes",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line fRos.2 (28 -> 35 words)"
+    },
+    {
+      "word": "adashgasain",
+      "loc": "fRos.32",
+      "token_index": 0,
+      "raw_zl": "adashgasain",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='a8a2*asan' at fRos.32"
+    },
+    {
+      "word": "depcheky",
+      "loc": "fRos.56",
+      "token_index": 0,
+      "raw_zl": "depcheky",
+      "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+      "detail": "raw='depcheky' at fRos.56"
+    },
+    {
+      "word": "soshxor",
+      "loc": "fRos.71",
+      "token_index": 0,
+      "raw_zl": "soshxor",
+      "mechanism": "MECH_7B_RARE_ALLOGRAPH_OR_GALLOWS_A_ONSET",
+      "detail": "soshxor -> soshror"
+    },
+    {
+      "word": "chdarchekolko",
+      "loc": "fRos.87",
+      "token_index": 29,
+      "raw_zl": "chdar,chekolko",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='chdar,chekolko' -> chdar . chekolko"
+    },
+    {
+      "word": "xasashe",
+      "loc": "fRos.94",
+      "token_index": 6,
+      "raw_zl": "xasashe",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line fRos.94 (31 -> 35 words)"
+    },
+    {
+      "word": "afalairidy",
+      "loc": "fRos.94",
+      "token_index": 30,
+      "raw_zl": "afalairidy",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line fRos.94 (31 -> 35 words)"
+    },
+    {
+      "word": "lokedshs",
+      "loc": "fRos.101",
+      "token_index": 0,
+      "raw_zl": "lokedshs",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "l+ok+ed+shs"
+    },
+    {
+      "word": "lashalg",
+      "loc": "fRos.132",
+      "token_index": 0,
+      "raw_zl": "lashalg",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='ea!ae*' at fRos.132"
+    },
+    {
+      "word": "cholkeog",
+      "loc": "f86v6.26",
+      "token_index": 4,
+      "raw_zl": "cholkeog",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='1oehco*' at f86v6.26"
+    },
+    {
+      "word": "toeeedchy",
+      "loc": "f86v3.29",
+      "token_index": 0,
+      "raw_zl": "toeeedchy",
+      "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+      "detail": "raw='toeeedchy' at f86v3.29"
+    },
+    {
+      "word": "poalshsal",
+      "loc": "f87r.1",
+      "token_index": 0,
+      "raw_zl": "poalshsal",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "po+a+lsh+sal"
+    },
+    {
+      "word": "solchiyd",
+      "loc": "f87v.6",
+      "token_index": 2,
+      "raw_zl": "solchiyd",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "rf_variant='solchiod' at f87v.6"
+    },
+    {
+      "word": "qotechoep",
+      "loc": "f87v.7",
+      "token_index": 0,
+      "raw_zl": "qotechoep",
+      "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+      "detail": "raw='qotechoep' at f87v.7"
+    },
+    {
+      "word": "ofyskydal",
+      "loc": "f88r.23",
+      "token_index": 0,
+      "raw_zl": "ofyskydal",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "of+ys+ky+dal"
+    },
+    {
+      "word": "daldarolg",
+      "loc": "f89r1.15",
+      "token_index": 6,
+      "raw_zl": "dal,darolg",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='dal,darolg' -> dal . darolg"
+    },
+    {
+      "word": "dolchsyckheol",
+      "loc": "f89r2.7",
+      "token_index": 5,
+      "raw_zl": "dolchsyckheol",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f89r2.7 (15 -> 16 words)"
+    },
+    {
+      "word": "ycheokeeockho",
+      "loc": "f89r2.15",
+      "token_index": 0,
+      "raw_zl": "ycheo,keeo,ckho",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='ycheo,keeo,ckho' -> ycheo . keeo . ckho"
+    },
+    {
+      "word": "cheokokeoldaiin",
+      "loc": "f89r2.23",
+      "token_index": 1,
+      "raw_zl": "cheok,o,keol,daiin",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='cheok,o,keol,daiin' -> cheok . o . keol . daiin"
+    },
+    {
+      "word": "psheoepoain",
+      "loc": "f89v2.19",
+      "token_index": 6,
+      "raw_zl": "psheoepoain",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f89v2.19 (12 -> 14 words)"
+    },
+    {
+      "word": "koeeorain",
+      "loc": "f89v1.21",
+      "token_index": 0,
+      "raw_zl": "koeeorain",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='hoCoy,an' at f89v1.21"
+    },
+    {
+      "word": "toealchs",
+      "loc": "f90r2.1",
+      "token_index": 0,
+      "raw_zl": "toealchs",
+      "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+      "detail": "raw='toealchs' at f90r2.1"
+    },
+    {
+      "word": "shctheororsheolol",
+      "loc": "f90v1.6",
+      "token_index": 0,
+      "raw_zl": "shctheo,ror,sheol,ol",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='shctheo,ror,sheol,ol' -> shctheo . ror . sheol . ol"
+    },
+    {
+      "word": "kodshol",
+      "loc": "f93r.1",
+      "token_index": 0,
+      "raw_zl": "kodshol",
+      "mechanism": "MECH_7D_CANONICAL_SKELETON_NEIGHBOR_LE2",
+      "detail": "canon(kodshol)=kodchol ~ canon(dchol)=dchol"
+    },
+    {
+      "word": "oepchksheey",
+      "loc": "f93r.1",
+      "token_index": 4,
+      "raw_zl": "oepchksheey",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "o+e+pch+ksheey"
+    },
+    {
+      "word": "cholchecthody",
+      "loc": "f93r.17",
+      "token_index": 2,
+      "raw_zl": "cholchecthody",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f93r.17 (3 -> 5 words)"
+    },
+    {
+      "word": "chykaidy",
+      "loc": "f94r.8",
+      "token_index": 6,
+      "raw_zl": "chykaidy",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f94r.8 (8 -> 9 words)"
+    },
+    {
+      "word": "sdaltamdy",
+      "loc": "f94v.3",
+      "token_index": 3,
+      "raw_zl": "sdal,tamdy",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='sdal,tamdy' -> sdal . tamdy"
+    },
+    {
+      "word": "olteedyoepaiin",
+      "loc": "f95v1.1",
+      "token_index": 0,
+      "raw_zl": "olteedy,oepaiin",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='olteedy,oepaiin' -> olteedy . oepaiin"
+    },
+    {
+      "word": "olksholkshed",
+      "loc": "f95v1.9",
+      "token_index": 1,
+      "raw_zl": "ol,k,shol,kshed",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='ol,k,shol,kshed' -> ol . k . shol . kshed"
+    },
+    {
+      "word": "osoj",
+      "loc": "f96v.1",
+      "token_index": 6,
+      "raw_zl": "osoj",
+      "mechanism": "MECH_7B_RARE_ALLOGRAPH_OR_GALLOWS_A_ONSET",
+      "detail": "osoj -> osod"
+    },
+    {
+      "word": "okaradag",
+      "loc": "f99r.1",
+      "token_index": 0,
+      "raw_zl": "okaradag",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='ohAya7o*' at f99r.1"
+    },
+    {
+      "word": "okeoralcheeg",
+      "loc": "f99r.48",
+      "token_index": 5,
+      "raw_zl": "okeo,r,alcheeg",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='okeo,r,alcheeg' -> okeo . r . alcheeg"
+    },
+    {
+      "word": "oragairom",
+      "loc": "f99r.52",
+      "token_index": 2,
+      "raw_zl": "or,agairom",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='or,agairom' -> or . agairom"
+    },
+    {
+      "word": "deeomchol",
+      "loc": "f100r.13",
+      "token_index": 7,
+      "raw_zl": "deeomchol",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "d+ee+om+chol"
+    },
+    {
+      "word": "oraroekeol",
+      "loc": "f102r1.5",
+      "token_index": 5,
+      "raw_zl": "oraroekeol",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "orar+o+e+keol"
+    },
+    {
+      "word": "azg",
+      "loc": "f102r2.2",
+      "token_index": 1,
+      "raw_zl": "azg",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='ap*' at f102r2.2"
+    },
+    {
+      "word": "opolkod",
+      "loc": "f102r2.8",
+      "token_index": 4,
+      "raw_zl": "opolkod",
+      "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+      "detail": "raw='opolkod' at f102r2.8"
+    },
+    {
+      "word": "kockhas",
+      "loc": "f102r2.11",
+      "token_index": 0,
+      "raw_zl": "kockhas",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f102r2.11 (10 -> 12 words)"
+    },
+    {
+      "word": "loeekadag",
+      "loc": "f102r2.13",
+      "token_index": 0,
+      "raw_zl": "loeekadag",
+      "mechanism": "MECH_7B_RARE_ALLOGRAPH_OR_GALLOWS_A_ONSET",
+      "detail": "loeekadag -> loeekadam"
+    },
+    {
+      "word": "ykeeadolchey",
+      "loc": "f102r2.20",
+      "token_index": 5,
+      "raw_zl": "ykeea,d,o,lchey",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='ykeea,d,o,lchey' -> ykeea . d . o . lchey"
+    },
+    {
+      "word": "ytechypchy",
+      "loc": "f103r.1",
+      "token_index": 2,
+      "raw_zl": "ytechypchy",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f103r.1 (12 -> 13 words)"
+    },
+    {
+      "word": "cheeeylchealainor",
+      "loc": "f103v.19",
+      "token_index": 4,
+      "raw_zl": "cheeey,l,chealainor",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='cheeey,l,chealainor' -> cheeey . l . chealainor"
+    },
+    {
+      "word": "shoefcheeykechy",
+      "loc": "f104v.37",
+      "token_index": 2,
+      "raw_zl": "shoefcheey,kechy",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='shoefcheey,kechy' -> shoefcheey . kechy"
+    },
+    {
+      "word": "aiiroekey",
+      "loc": "f105r.5",
+      "token_index": 6,
+      "raw_zl": "aiiroekey",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "aii+ro+e+key"
+    },
+    {
+      "word": "kairodllpaim",
+      "loc": "f105v.20",
+      "token_index": 9,
+      "raw_zl": "kairodl,lpaim",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='kairodl,lpaim' -> kairodl . lpaim"
+    },
+    {
+      "word": "aporairapy",
+      "loc": "f105v.32",
+      "token_index": 8,
+      "raw_zl": "apo,rairapy",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='apo,rairapy' -> apo . rairapy"
+    },
+    {
+      "word": "chkchedaram",
+      "loc": "f106r.24",
+      "token_index": 8,
+      "raw_zl": "chkchedaram",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f106r.24 (9 -> 10 words)"
+    },
+    {
+      "word": "lpcheorolpchey",
+      "loc": "f106r.34",
+      "token_index": 2,
+      "raw_zl": "lpcheo,ro,lpchey",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='lpcheo,ro,lpchey' -> lpcheo . ro . lpchey"
+    },
+    {
+      "word": "sheokeorainamchy",
+      "loc": "f106v.2",
+      "token_index": 8,
+      "raw_zl": "sheo,keorain,amchy",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='sheo,keorain,amchy' -> sheo . keorain . amchy"
+    },
+    {
+      "word": "shdykairylam",
+      "loc": "f106v.22",
+      "token_index": 8,
+      "raw_zl": "shdykairylam",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='289haz,9e,ap' at f106v.22"
+    },
+    {
+      "word": "okiroley",
+      "loc": "f107r.8",
+      "token_index": 8,
+      "raw_zl": "okiroley",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f107r.8 (9 -> 10 words)"
+    },
+    {
+      "word": "okilcheolkair",
+      "loc": "f107r.24",
+      "token_index": 1,
+      "raw_zl": "okil,cheol,kair",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='okil,cheol,kair' -> okil . cheol . kair"
+    },
+    {
+      "word": "daraiinpchodlkaiiin",
+      "loc": "f107r.24",
+      "token_index": 4,
+      "raw_zl": "dar,aiinpchod,lkaiiin",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='dar,aiinpchod,lkaiiin' -> dar . aiinpchod . lkaiiin"
+    },
+    {
+      "word": "salxarshy",
+      "loc": "f107r.32",
+      "token_index": 0,
+      "raw_zl": "salxar,shy",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='salxar,shy' -> salxar . shy"
+    },
+    {
+      "word": "lkaltaraty",
+      "loc": "f107v.9",
+      "token_index": 7,
+      "raw_zl": "lkal,tar,aty",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='lkal,tar,aty' -> lkal . tar . aty"
+    },
+    {
+      "word": "arakaiiky",
+      "loc": "f107v.23",
+      "token_index": 1,
+      "raw_zl": "ar,akaiiky",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='ar,akaiiky' -> ar . akaiiky"
+    },
+    {
+      "word": "oparyolpairody",
+      "loc": "f108r.1",
+      "token_index": 5,
+      "raw_zl": "opar,yo,lpair,ody",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='opar,yo,lpair,ody' -> opar . yo . lpair . ody"
+    },
+    {
+      "word": "okalchdaralcharaiin",
+      "loc": "f108r.24",
+      "token_index": 7,
+      "raw_zl": "okal,chdar,al,char,aiin",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='okal,chdar,al,char,aiin' -> okal . chdar . al . char . aiin"
+    },
+    {
+      "word": "kedarxy",
+      "loc": "f108v.6",
+      "token_index": 9,
+      "raw_zl": "kedarxy",
+      "mechanism": "MECH_7B_RARE_ALLOGRAPH_OR_GALLOWS_A_ONSET",
+      "detail": "kedarxy -> kedarry"
+    },
+    {
+      "word": "chetalshy",
+      "loc": "f111r.1",
+      "token_index": 4,
+      "raw_zl": "chetalshy",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "ch+e+ta+lshy"
+    },
+    {
+      "word": "cheykydeedy",
+      "loc": "f111r.21",
+      "token_index": 6,
+      "raw_zl": "chey,ky,deedy",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='chey,ky,deedy' -> chey . ky . deedy"
+    },
+    {
+      "word": "shkeyqokeaiin",
+      "loc": "f111r.31",
+      "token_index": 2,
+      "raw_zl": "shkeyqokeaiin",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f111r.31 (8 -> 9 words)"
+    },
+    {
+      "word": "lkedlkey",
+      "loc": "f111r.34",
+      "token_index": 10,
+      "raw_zl": "lkedlkey",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f111r.34 (12 -> 13 words)"
+    },
+    {
+      "word": "asalkeedym",
+      "loc": "f111v.6",
+      "token_index": 10,
+      "raw_zl": "as,alkeedym",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='as,alkeedym' -> as . alkeedym"
+    },
+    {
+      "word": "aramchg",
+      "loc": "f112r.16",
+      "token_index": 7,
+      "raw_zl": "ar,amchg",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='ar,amchg' -> ar . amchg"
+    },
+    {
+      "word": "ogom",
+      "loc": "f112r.39",
+      "token_index": 8,
+      "raw_zl": "ogom",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='o*op' at f112r.39"
+    },
+    {
+      "word": "araryteop",
+      "loc": "f112r.42",
+      "token_index": 8,
+      "raw_zl": "araryteop",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f112r.42 (9 -> 10 words)"
+    },
+    {
+      "word": "kamdam",
+      "loc": "f112v.45",
+      "token_index": 9,
+      "raw_zl": "kamdam",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f112v.45 (10 -> 11 words)"
+    },
+    {
+      "word": "yshssheeolkeeos",
+      "loc": "f113r.35",
+      "token_index": 0,
+      "raw_zl": "y,sh,s,sheeo,lkeeos",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='y,sh,s,sheeo,lkeeos' -> y . sh . s . sheeo . lkeeos"
+    },
+    {
+      "word": "porshedqopoeey",
+      "loc": "f113r.39",
+      "token_index": 5,
+      "raw_zl": "por,shed,qopoeey",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='por,shed,qopoeey' -> por . shed . qopoeey"
+    },
+    {
+      "word": "tchoarorshy",
+      "loc": "f113r.48",
+      "token_index": 0,
+      "raw_zl": "tcho,arorshy",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='tcho,arorshy' -> tcho . arorshy"
+    },
+    {
+      "word": "fcheshdteody",
+      "loc": "f113v.7",
+      "token_index": 0,
+      "raw_zl": "fcheshd,teody",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='fcheshd,teody' -> fcheshd . teody"
+    },
+    {
+      "word": "lchealaim",
+      "loc": "f113v.7",
+      "token_index": 3,
+      "raw_zl": "lchealaim",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f113v.7 (9 -> 12 words)"
+    },
+    {
+      "word": "chpkcheos",
+      "loc": "f113v.21",
+      "token_index": 7,
+      "raw_zl": "chp,kcheos",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='chp,kcheos' -> chp . kcheos"
+    },
+    {
+      "word": "fdeechdy",
+      "loc": "f114r.4",
+      "token_index": 0,
+      "raw_zl": "fdeechdy",
+      "mechanism": "MECH_7D_CANONICAL_SKELETON_NEIGHBOR_LE2",
+      "detail": "canon(fdeechdy)=kdechdy ~ canon(kchdy)=kchdy"
+    },
+    {
+      "word": "opdaildo",
+      "loc": "f114r.14",
+      "token_index": 9,
+      "raw_zl": "opdaildo",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "op+da+il+do"
+    },
+    {
+      "word": "chdypdaiin",
+      "loc": "f114r.22",
+      "token_index": 5,
+      "raw_zl": "chdy,pdaiin",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='chdy,pdaiin' -> chdy . pdaiin"
+    },
+    {
+      "word": "qepoepy",
+      "loc": "f114v.6",
+      "token_index": 7,
+      "raw_zl": "qepoepy",
+      "mechanism": "MECH_7E_RESIDUAL_LONG_COMPOUND",
+      "detail": "raw='qepoepy' at f114v.6"
+    },
+    {
+      "word": "dorkcheky",
+      "loc": "f114v.18",
+      "token_index": 0,
+      "raw_zl": "dorkcheky",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f114v.18 (8 -> 9 words)"
+    },
+    {
+      "word": "kecheokeo",
+      "loc": "f114v.39",
+      "token_index": 2,
+      "raw_zl": "kecheokeo",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101 splits line f114v.39 (8 -> 10 words)"
+    },
+    {
+      "word": "cholkchedshedy",
+      "loc": "f115r.27",
+      "token_index": 5,
+      "raw_zl": "chol,kchedshedy",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='chol,kchedshedy' -> chol . kchedshedy"
+    },
+    {
+      "word": "arorochees",
+      "loc": "f115r.28",
+      "token_index": 6,
+      "raw_zl": "arorochees",
+      "mechanism": "MECH_7C_FOUR_MORPHEME_PHRASE_UNIVERBATION",
+      "detail": "a+ro+ro+chees"
+    },
+    {
+      "word": "chkaidararal",
+      "loc": "f115v.37",
+      "token_index": 6,
+      "raw_zl": "chkaidararal",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "gc_v101='1hai8ay,ay,ae' at f115v.37"
+    },
+    {
+      "word": "opchekandlr",
+      "loc": "f116r.31",
+      "token_index": 9,
+      "raw_zl": "opchekan,dlr",
+      "mechanism": "MECH_7A_SOFT_COMMA_OR_WEIRDO_LOCUS",
+      "detail": "raw_zl='opchekan,dlr' -> opchekan . dlr"
+    }
+  ]
+}

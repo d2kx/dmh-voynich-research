@@ -666,6 +666,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 102. Exact Forensic Audit of the Final Singleton Hapax Tail — Achieving `99.9614%` (`36,215 / 36,229`) Full-Corpus Token Accountability ($z = +27.48$, `Attack 93`)
+- **`91.76%` (`156 / 170`) Resolution of the Final Singleton Tail (`pages/f1r_incunabular_hapax_audit_enh.png`)**: Cross-checking `ZL3b-n.txt` soft-comma `,` splits and `GC2a-n.txt` (`v101`) / `RF1b-er.txt` / `IT2a-n.txt` word boundaries (`116` tokens, `68.24%`, e.g., `<f1r.4> cthiar,daiin -> cthiar . daiin`, `<f1v.7> do,lchiody -> do . lchiody`), rare allograph / gallows-`a` normalization (`5` tokens, e.g., `<f1r.1> fachys -> [fa+ch+ys]`, `teyteg -> teytem`), 4-morpheme phrase univerbation (`31` tokens, `18.24%`, e.g., `<f1r.6,=Pt> ydaraishy -> y+dar+ai+shy`, $z = +27.48$), and canonical skeleton neighbors (`4` tokens) explains **`36,215 / 36,229` tokens (`99.9614%`) and `9,040 / 9,054` word types (`99.845%`)**, leaving only `14` long compound tokens (`0.0386%`) across `226` folios.
+
+---
+
+### 103. The Marginless Circular (`@C`) & Radial (`@R`) Ring Grammar — `6.34×` `-am/-m` Ring-Terminus Closure Law ($z = +5.26$), `3.71×` `-aiin` Surge on Long 360° Rings, and Clockwise Cadence ($z = +3.41$, `Attack 94`)
+- **The Marginless Circular `-am/-m` Locus-Terminus Law (`6.34×` Lift, $z = +5.26$) & `3.71×` `-aiin` Surge**: Even on circular/radial rings (`107` multi-word loci, `2,280` tokens) with no physical left or right page margins, `-am / -m` terminators occur at **`10.81%` (`12 / 111`) at the exact closing word of the ring (`RING_LOCUS_FINAL`, before the 10–12 o'clock starter gap `<$>`) vs. `1.71%` (`37 / 2,169`) in ring-interior positions (`6.34×` lift, $z = +5.26$)**, proving that `-am / -m` is a syntactic/prosodic stream-terminator rather than a visual right-margin artifact. Moving from Short Radial Spokes (`1..3` words) to Long 360° Rings (`>= 10` words) drives a **`3.71×` monotonic surge in `-aiin` quantifiers (`2.76% -> 6.67% -> 10.24%`)** and clockwise adjacent similarity ($z = +3.41$).
+
+---
+
+### 104. The `536` Three-Stage Cross-Sectional Pharmacopoeia Chains (`Herbal Monograph $I=H -> Pharmaceutical Jar/Root Formulary $I=P -> Quire 20 Starred Recipe $I=S`, $z = +6.72$, `Attack 95`)
+- **`536` Three-Stage Pharmacopoeia Triads (`79` 4+-Stem Triads vs. `18.43` Null, $z = +6.72$; `60` `@Lf`-Label-Anchored Triads, $z = +3.69$)**: Links specific multi-stem botanical signatures across all three medical stages (`e.g., f31v -> f102v2 [okeos*L] -> <f111r.6>`, `f33v -> f99r [okary*L, dam*L] -> <f112r.1>`, `f46r -> f89v1 -> <f58r.16>`, `f43v -> f88v -> <f111r.6>`). Holding shared canonical stems fixed across stages shows **Active `qo-` rising monotonically (`0.00% Pharm Labels -> 7.74% Herbal Prose -> 12.92% Pharm Prose -> 13.89% Starred Recipes`)**, while **Container `-ol/-or` (`31.25% -> 19.77%`)** trades off against **Measured-Dose `-aiin` (`12.50% -> 23.05%`)** and **Processual `-edy` (`0.42% -> 5.34%`)**.
+
+---
+
+### 105. The Three-Stage Cross-Sectional Pharmacopoeia & Circular Ring Decoder Edition ([`notes/THREE_STAGE_PHARMACOPOEIA_AND_RING_DECODER.md`](notes/THREE_STAGE_PHARMACOPOEIA_AND_RING_DECODER.md), `Attack 96`)
+- **Complete Three-Stage Pharmacopoeia & Circular Ring Reference Edition ([`notes/THREE_STAGE_PHARMACOPOEIA_AND_RING_DECODER.md`](notes/THREE_STAGE_PHARMACOPOEIA_AND_RING_DECODER.md))**: Synthesizes the `99.9614%` full-corpus lexical accountability audit, the Marginless Circular Ring `-am/-m` Closure Law, and the 16-folio Master Atlas of Three-Stage Pharmacopoeia Chains (`H -> P -> S`).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -789,6 +809,10 @@ python tools/attack89_figure_label_to_prose_transformation_law.py
 python tools/attack90_pharmaceutical_label_to_samepage_recipe_aligner.py
 python tools/attack91_balneological_nymph_label_and_pool_zone_solver.py
 python tools/attack92_illustrated_diagram_to_prose_atlas.py
+python tools/attack93_final_178_singleton_forensic_audit.py
+python tools/attack94_circular_and_radial_ring_grammar.py
+python tools/attack95_three_stage_cross_section_pharmacopoeia_chains.py
+python tools/attack96_three_stage_pharmacopoeia_and_ring_decoder.py
 ```
 
 

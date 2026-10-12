@@ -1,0 +1,760 @@
+{
+  "stage_inventory": {
+    "stage1_herbal_folios": 128,
+    "stage2_pharm_folios": 16,
+    "stage3_starred_recipes": 292,
+    "distinct_open_canonical_stems": 4723
+  },
+  "triad_discovery_summary": {
+    "total_3way_triads_ge3_stems": 536,
+    "total_3way_triads_ge4_stems": 79,
+    "null_ge4_mean": 18.43,
+    "null_ge4_std": 9.02,
+    "z_ge4_triads": 6.72,
+    "pharm_label_anchored_triads": 60,
+    "observed_mean_max_idf_across_16_pharm_folios": 11.431,
+    "null_mean_max_idf": 9.292,
+    "null_std_max_idf": 0.58,
+    "z_max_idf": 3.69
+  },
+  "three_stage_grammatical_gradient": {
+    "STAGE_1_HERBAL_MONOGRAPH_PROSE": {
+      "n_tokens": 1627,
+      "o_nominal_pct": 16.59,
+      "qo_active_pct": 7.74,
+      "edy_processual_pct": 3.13,
+      "dy_stative_pct": 6.88,
+      "ol_or_container_pct": 30.55,
+      "aiin_quantifier_pct": 12.97
+    },
+    "STAGE_2A_PHARM_INGREDIENT_LABELS": {
+      "n_tokens": 21,
+      "o_nominal_pct": 52.38,
+      "qo_active_pct": 0.0,
+      "edy_processual_pct": 0.0,
+      "dy_stative_pct": 19.05,
+      "ol_or_container_pct": 23.81,
+      "aiin_quantifier_pct": 4.76
+    },
+    "STAGE_2B_PHARM_FORMULARY_PROSE": {
+      "n_tokens": 480,
+      "o_nominal_pct": 20.21,
+      "qo_active_pct": 12.92,
+      "edy_processual_pct": 0.42,
+      "dy_stative_pct": 8.54,
+      "ol_or_container_pct": 31.25,
+      "aiin_quantifier_pct": 12.5
+    },
+    "STAGE_3_QUIRE20_STARRED_RECIPES": {
+      "n_tokens": 1462,
+      "o_nominal_pct": 22.3,
+      "qo_active_pct": 13.89,
+      "edy_processual_pct": 5.34,
+      "dy_stative_pct": 4.51,
+      "ol_or_container_pct": 19.77,
+      "aiin_quantifier_pct": 23.05
+    }
+  },
+  "best_triad_per_pharmaceutical_folio": [
+    {
+      "h_folio": "f46r",
+      "h_lang": "B",
+      "p_folio": "f89v1",
+      "s_recipe": "f58r.16",
+      "n_shared_3way_stems": 5,
+      "n_pharm_label_anchored": 0,
+      "idf_3way_score": 15.393,
+      "shared_stems": [
+        "dalchdy",
+        "okaldy",
+        "chekey",
+        "choky",
+        "sar"
+      ],
+      "pharm_label_stems_in_triad": [],
+      "surface_transformation_chains": [
+        "dalchdy: H(dalshedy) -> P(dalchdy) -> S(dalchdy)",
+        "okaldy: H(qokaldy) -> P(okaldy) -> S(qokaldy)",
+        "chekey: H(shekeey) -> P(shekey) -> S(cheekey)",
+        "choky: H(choky) -> P(choky) -> S(choky)",
+        "sar: H(sar) -> P(sar) -> S(sar)"
+      ]
+    },
+    {
+      "h_folio": "f31v",
+      "h_lang": "B",
+      "p_folio": "f102v2",
+      "s_recipe": "f111r.6",
+      "n_shared_3way_stems": 5,
+      "n_pharm_label_anchored": 1,
+      "idf_3way_score": 14.135,
+      "shared_stems": [
+        "okear",
+        "okeos",
+        "okeo",
+        "cheos",
+        "orain"
+      ],
+      "pharm_label_stems_in_triad": [
+        "okeos"
+      ],
+      "surface_transformation_chains": [
+        "okear: H(okear) -> P(okear) -> S(qokear)",
+        "okeos: H(okeeos) -> P(okeos*L) -> S(qokeeos)",
+        "okeo: H(okeo) -> P(okeeo) -> S(okeeo)",
+        "cheos: H(cheos) -> P(cheos) -> S(cheos)",
+        "orain: H(oraiin) -> P(orain) -> S(oraiin)"
+      ]
+    },
+    {
+      "h_folio": "f43v",
+      "h_lang": "B",
+      "p_folio": "f88v",
+      "s_recipe": "f111r.6",
+      "n_shared_3way_stems": 6,
+      "n_pharm_label_anchored": 0,
+      "idf_3way_score": 13.812,
+      "shared_stems": [
+        "otedy",
+        "checkhy",
+        "oteol",
+        "kedy",
+        "orain",
+        "cheo"
+      ],
+      "pharm_label_stems_in_triad": [],
+      "surface_transformation_chains": [
+        "otedy: H(oteody) -> P(qoteody) -> S(oteody)",
+        "checkhy: H(checkhy) -> P(checkhy) -> S(sheeckhy)",
+        "oteol: H(oteol) -> P(oteol) -> S(oteol)",
+        "kedy: H(kedy) -> P(keeody) -> S(keedy)",
+        "orain: H(oraiin) -> P(oraiin) -> S(oraiin)",
+        "cheo: H(sheo) -> P(sheo) -> S(cheo)"
+      ]
+    },
+    {
+      "h_folio": "f40r",
+      "h_lang": "B",
+      "p_folio": "f101r",
+      "s_recipe": "f58v.1",
+      "n_shared_3way_stems": 5,
+      "n_pharm_label_anchored": 0,
+      "idf_3way_score": 13.473,
+      "shared_stems": [
+        "ory",
+        "kar",
+        "key",
+        "olain",
+        "orain"
+      ],
+      "pharm_label_stems_in_triad": [],
+      "surface_transformation_chains": [
+        "ory: H(ory) -> P(ory) -> S(ory)",
+        "kar: H(kar) -> P(kar) -> S(kar)",
+        "key: H(keeey) -> P(qkeey) -> S(key)",
+        "olain: H(olaiin) -> P(olaiin) -> S(qolaiin)",
+        "orain: H(oraiin) -> P(oraiin) -> S(oraiin)"
+      ]
+    },
+    {
+      "h_folio": "f31v",
+      "h_lang": "B",
+      "p_folio": "f89v2",
+      "s_recipe": "f111r.6",
+      "n_shared_3way_stems": 5,
+      "n_pharm_label_anchored": 0,
+      "idf_3way_score": 13.332,
+      "shared_stems": [
+        "ockhdy",
+        "okeos",
+        "cheos",
+        "kedy",
+        "cheo"
+      ],
+      "pharm_label_stems_in_triad": [],
+      "surface_transformation_chains": [
+        "ockhdy: H(ockhedy) -> P(ockhody) -> S(qockhedy)",
+        "okeos: H(okeeos) -> P(okeos) -> S(qokeeos)",
+        "cheos: H(cheos) -> P(cheos) -> S(cheos)",
+        "kedy: H(keeody) -> P(keeody) -> S(keedy)",
+        "cheo: H(sheo) -> P(cheo) -> S(cheo)"
+      ]
+    },
+    {
+      "h_folio": "f33v",
+      "h_lang": "B",
+      "p_folio": "f99r",
+      "s_recipe": "f112r.1",
+      "n_shared_3way_stems": 5,
+      "n_pharm_label_anchored": 2,
+      "idf_3way_score": 13.081,
+      "shared_stems": [
+        "okary",
+        "key",
+        "olain",
+        "dam",
+        "orain"
+      ],
+      "pharm_label_stems_in_triad": [
+        "dam",
+        "okary"
+      ],
+      "surface_transformation_chains": [
+        "okary: H(okary) -> P(okary*L) -> S(qokary)",
+        "key: H(keey) -> P(keey) -> S(keey)",
+        "olain: H(olaiin) -> P(olaiin) -> S(olaiin)",
+        "dam: H(dam) -> P(dam*L) -> S(dam)",
+        "orain: H(orain) -> P(oraiin) -> S(oraiin)"
+      ]
+    },
+    {
+      "h_folio": "f56r",
+      "h_lang": "A",
+      "p_folio": "f101v",
+      "s_recipe": "f58v.1",
+      "n_shared_3way_stems": 4,
+      "n_pharm_label_anchored": 0,
+      "idf_3way_score": 12.273,
+      "shared_stems": [
+        "choly",
+        "chokey",
+        "choy",
+        "kchey"
+      ],
+      "pharm_label_stems_in_triad": [],
+      "surface_transformation_chains": [
+        "choly: H(choly) -> P(choly) -> S(sholy)",
+        "chokey: H(chokeey) -> P(chokey) -> S(chokeey)",
+        "choy: H(choy) -> P(choy) -> S(shoy)",
+        "kchey: H(kchey) -> P(kchey) -> S(fchey)"
+      ]
+    },
+    {
+      "h_folio": "f90r2",
+      "h_lang": "A",
+      "p_folio": "f102r2",
+      "s_recipe": "f106r.4",
+      "n_shared_3way_stems": 4,
+      "n_pharm_label_anchored": 0,
+      "idf_3way_score": 11.604,
+      "shared_stems": [
+        "okeod",
+        "okeo",
+        "oin",
+        "okor"
+      ],
+      "pharm_label_stems_in_triad": [],
+      "surface_transformation_chains": [
+        "okeod: H(qokeod) -> P(qokeod) -> S(qokeod)",
+        "okeo: H(qokeo) -> P(qokeeo) -> S(qokeo)",
+        "oin: H(oin) -> P(oiin) -> S(qoiin)",
+        "okor: H(qokor) -> P(okor) -> S(qokor)"
+      ]
+    },
+    {
+      "h_folio": "f43v",
+      "h_lang": "B",
+      "p_folio": "f89r2",
+      "s_recipe": "f58v.34",
+      "n_shared_3way_stems": 4,
+      "n_pharm_label_anchored": 0,
+      "idf_3way_score": 11.033,
+      "shared_stems": [
+        "ykedy",
+        "ockhy",
+        "olkey",
+        "cheo"
+      ],
+      "pharm_label_stems_in_triad": [],
+      "surface_transformation_chains": [
+        "ykedy: H(ykeody) -> P(ykeody) -> S(ykeeody)",
+        "ockhy: H(ockhy) -> P(ockhy) -> S(ockhy)",
+        "olkey: H(olkey) -> P(olkey) -> S(olkeey)",
+        "cheo: H(sheo) -> P(cheo) -> S(sheo)"
+      ]
+    },
+    {
+      "h_folio": "f96r",
+      "h_lang": "A",
+      "p_folio": "f88r",
+      "s_recipe": "f58v.1",
+      "n_shared_3way_stems": 3,
+      "n_pharm_label_anchored": 0,
+      "idf_3way_score": 10.934,
+      "shared_stems": [
+        "dory",
+        "oteor",
+        "ckhey"
+      ],
+      "pharm_label_stems_in_triad": [],
+      "surface_transformation_chains": [
+        "dory: H(dory) -> P(dory) -> S(dory)",
+        "oteor: H(oteeor) -> P(oteor) -> S(oteor)",
+        "ckhey: H(ckheey) -> P(ckhey) -> S(ckhey)"
+      ]
+    },
+    {
+      "h_folio": "f48v",
+      "h_lang": "B",
+      "p_folio": "f102v1",
+      "s_recipe": "f111r.6",
+      "n_shared_3way_stems": 4,
+      "n_pharm_label_anchored": 0,
+      "idf_3way_score": 10.812,
+      "shared_stems": [
+        "tedy",
+        "olkey",
+        "otedy",
+        "okeor"
+      ],
+      "pharm_label_stems_in_triad": [],
+      "surface_transformation_chains": [
+        "tedy: H(teedy) -> P(teody) -> S(teedy)",
+        "olkey: H(olkeeey) -> P(olkey) -> S(olkeey)",
+        "otedy: H(oteody) -> P(oteody) -> S(oteody)",
+        "okeor: H(okeeor) -> P(qokeor) -> S(qokeor)"
+      ]
+    },
+    {
+      "h_folio": "f31v",
+      "h_lang": "B",
+      "p_folio": "f100r",
+      "s_recipe": "f108r.8",
+      "n_shared_3way_stems": 3,
+      "n_pharm_label_anchored": 0,
+      "idf_3way_score": 9.72,
+      "shared_stems": [
+        "ykeo",
+        "ockhdy",
+        "cthey"
+      ],
+      "pharm_label_stems_in_triad": [],
+      "surface_transformation_chains": [
+        "ykeo: H(ykeeo) -> P(ykeeeo) -> S(ykeeo)",
+        "ockhdy: H(ockhedy) -> P(qockhody) -> S(ockhedy)",
+        "cthey: H(ctheey) -> P(cthey) -> S(cthey)"
+      ]
+    },
+    {
+      "h_folio": "f39v",
+      "h_lang": "B",
+      "p_folio": "f89r1",
+      "s_recipe": "f58r.26",
+      "n_shared_3way_stems": 3,
+      "n_pharm_label_anchored": 0,
+      "idf_3way_score": 8.658,
+      "shared_stems": [
+        "ckhol",
+        "chockhy",
+        "tain"
+      ],
+      "pharm_label_stems_in_triad": [],
+      "surface_transformation_chains": [
+        "ckhol: H(ckhol) -> P(ckhol) -> S(ckhol)",
+        "chockhy: H(chockhy) -> P(chockhy) -> S(chockhy)",
+        "tain: H(paiin) -> P(taiin) -> S(taiin)"
+      ]
+    },
+    {
+      "h_folio": "f31v",
+      "h_lang": "B",
+      "p_folio": "f99v",
+      "s_recipe": "f58v.1",
+      "n_shared_3way_stems": 3,
+      "n_pharm_label_anchored": 0,
+      "idf_3way_score": 8.319,
+      "shared_stems": [
+        "ockhey",
+        "ckhey",
+        "okor"
+      ],
+      "pharm_label_stems_in_triad": [],
+      "surface_transformation_chains": [
+        "ockhey: H(ockhey) -> P(ockhey) -> S(ockhey)",
+        "ckhey: H(ckhey) -> P(ckhey) -> S(ckhey)",
+        "okor: H(okor) -> P(qokor) -> S(qokor)"
+      ]
+    },
+    {
+      "h_folio": "f51v",
+      "h_lang": "A",
+      "p_folio": "f100v",
+      "s_recipe": "f115r.29",
+      "n_shared_3way_stems": 3,
+      "n_pharm_label_anchored": 0,
+      "idf_3way_score": 8.192,
+      "shared_stems": [
+        "chod",
+        "chckhey",
+        "cheo"
+      ],
+      "pharm_label_stems_in_triad": [],
+      "surface_transformation_chains": [
+        "chod: H(chod) -> P(chod) -> S(shod)",
+        "chckhey: H(chckhey) -> P(chckhey) -> S(chckhey)",
+        "cheo: H(sheo) -> P(sheeo) -> S(sheo)"
+      ]
+    },
+    {
+      "h_folio": "f94v",
+      "h_lang": "B",
+      "p_folio": "f102r1",
+      "s_recipe": "f112r.31",
+      "n_shared_3way_stems": 3,
+      "n_pharm_label_anchored": 0,
+      "idf_3way_score": 8.13,
+      "shared_stems": [
+        "aral",
+        "cthdy",
+        "okchey"
+      ],
+      "pharm_label_stems_in_triad": [],
+      "surface_transformation_chains": [
+        "aral: H(aral) -> P(aral) -> S(aral)",
+        "cthdy: H(cphedy) -> P(cthedy) -> S(cphedy)",
+        "okchey: H(qokshey) -> P(okshey) -> S(okcheey)"
+      ]
+    }
+  ],
+  "top_15_label_anchored_triads": [
+    {
+      "h_folio": "f43v",
+      "h_lang": "B",
+      "p_folio": "f88r",
+      "s_recipe": "f111r.6",
+      "n_shared_3way_stems": 3,
+      "n_pharm_label_anchored": 1,
+      "idf_3way_score": 8.591,
+      "shared_stems": [
+        "dary",
+        "olkey",
+        "otam"
+      ],
+      "pharm_label_stems_in_triad": [
+        "dary"
+      ],
+      "surface_transformation_chains": [
+        "dary: H(dary) -> P(dary*L) -> S(dary)",
+        "olkey: H(olkey) -> P(olkeey) -> S(olkeey)",
+        "otam: H(otam) -> P(otam) -> S(otam)"
+      ]
+    },
+    {
+      "h_folio": "f55v",
+      "h_lang": "B",
+      "p_folio": "f88r",
+      "s_recipe": "f111r.6",
+      "n_shared_3way_stems": 3,
+      "n_pharm_label_anchored": 1,
+      "idf_3way_score": 7.962,
+      "shared_stems": [
+        "dary",
+        "otam",
+        "oain"
+      ],
+      "pharm_label_stems_in_triad": [
+        "dary"
+      ],
+      "surface_transformation_chains": [
+        "dary: H(dary) -> P(dary*L) -> S(dary)",
+        "otam: H(otam) -> P(otam) -> S(otam)",
+        "oain: H(qoaiin) -> P(oain) -> S(oaiin)"
+      ]
+    },
+    {
+      "h_folio": "f40v",
+      "h_lang": "B",
+      "p_folio": "f88v",
+      "s_recipe": "f116r.18",
+      "n_shared_3way_stems": 3,
+      "n_pharm_label_anchored": 1,
+      "idf_3way_score": 7.975,
+      "shared_stems": [
+        "ardy",
+        "kedy",
+        "orain"
+      ],
+      "pharm_label_stems_in_triad": [
+        "ardy"
+      ],
+      "surface_transformation_chains": [
+        "ardy: H(arody) -> P(arody*L) -> S(arody)",
+        "kedy: H(kedy) -> P(keeody) -> S(keedy)",
+        "orain: H(oraiin) -> P(oraiin) -> S(orain)"
+      ]
+    },
+    {
+      "h_folio": "f94r",
+      "h_lang": "B",
+      "p_folio": "f89v2",
+      "s_recipe": "f58v.1",
+      "n_shared_3way_stems": 3,
+      "n_pharm_label_anchored": 1,
+      "idf_3way_score": 7.951,
+      "shared_stems": [
+        "otair",
+        "okair",
+        "dam"
+      ],
+      "pharm_label_stems_in_triad": [
+        "otair"
+      ],
+      "surface_transformation_chains": [
+        "otair: H(opaiir) -> P(otair*L) -> S(qotair)",
+        "okair: H(okair) -> P(okaiir) -> S(qokair)",
+        "dam: H(dam) -> P(dam) -> S(dam)"
+      ]
+    },
+    {
+      "h_folio": "f6v",
+      "h_lang": "A",
+      "p_folio": "f89v2",
+      "s_recipe": "f58v.34",
+      "n_shared_3way_stems": 4,
+      "n_pharm_label_anchored": 1,
+      "idf_3way_score": 10.053,
+      "shared_stems": [
+        "chockhy",
+        "chear",
+        "okam",
+        "okor"
+      ],
+      "pharm_label_stems_in_triad": [
+        "okam"
+      ],
+      "surface_transformation_chains": [
+        "chockhy: H(chockhy) -> P(chockhy) -> S(shockhy)",
+        "chear: H(chear) -> P(chear) -> S(shear)",
+        "okam: H(qokam) -> P(okam*L) -> S(okam)",
+        "okor: H(okor) -> P(okor) -> S(okor)"
+      ]
+    },
+    {
+      "h_folio": "f24v",
+      "h_lang": "A",
+      "p_folio": "f89v2",
+      "s_recipe": "f58v.34",
+      "n_shared_3way_stems": 3,
+      "n_pharm_label_anchored": 2,
+      "idf_3way_score": 7.756,
+      "shared_stems": [
+        "otair",
+        "chear",
+        "okam"
+      ],
+      "pharm_label_stems_in_triad": [
+        "okam",
+        "otair"
+      ],
+      "surface_transformation_chains": [
+        "otair: H(otaiir) -> P(otair*L) -> S(otair)",
+        "chear: H(chear) -> P(chear) -> S(shear)",
+        "okam: H(okam) -> P(okam*L) -> S(okam)"
+      ]
+    },
+    {
+      "h_folio": "f31v",
+      "h_lang": "B",
+      "p_folio": "f89v2",
+      "s_recipe": "f58v.34",
+      "n_shared_3way_stems": 4,
+      "n_pharm_label_anchored": 1,
+      "idf_3way_score": 10.133,
+      "shared_stems": [
+        "okeos",
+        "okam",
+        "okor",
+        "cheo"
+      ],
+      "pharm_label_stems_in_triad": [
+        "okam"
+      ],
+      "surface_transformation_chains": [
+        "okeos: H(okeeos) -> P(okeos) -> S(qokeeos)",
+        "okam: H(okam) -> P(okam*L) -> S(okam)",
+        "okor: H(okor) -> P(okor) -> S(okor)",
+        "cheo: H(sheo) -> P(cheo) -> S(sheo)"
+      ]
+    },
+    {
+      "h_folio": "f39v",
+      "h_lang": "B",
+      "p_folio": "f89v2",
+      "s_recipe": "f58v.34",
+      "n_shared_3way_stems": 3,
+      "n_pharm_label_anchored": 1,
+      "idf_3way_score": 8.126,
+      "shared_stems": [
+        "ockhy",
+        "chockhy",
+        "okam"
+      ],
+      "pharm_label_stems_in_triad": [
+        "okam"
+      ],
+      "surface_transformation_chains": [
+        "ockhy: H(ockhy) -> P(qockhy) -> S(ockhy)",
+        "chockhy: H(chockhy) -> P(chockhy) -> S(shockhy)",
+        "okam: H(okam) -> P(okam*L) -> S(okam)"
+      ]
+    },
+    {
+      "h_folio": "f40v",
+      "h_lang": "B",
+      "p_folio": "f89v2",
+      "s_recipe": "f58v.34",
+      "n_shared_3way_stems": 3,
+      "n_pharm_label_anchored": 1,
+      "idf_3way_score": 8.691,
+      "shared_stems": [
+        "okeos",
+        "ockhy",
+        "okam"
+      ],
+      "pharm_label_stems_in_triad": [
+        "okam"
+      ],
+      "surface_transformation_chains": [
+        "okeos: H(okeos) -> P(okeos) -> S(qokeeos)",
+        "ockhy: H(ockhy) -> P(qockhy) -> S(ockhy)",
+        "okam: H(okam) -> P(okam*L) -> S(okam)"
+      ]
+    },
+    {
+      "h_folio": "f43v",
+      "h_lang": "B",
+      "p_folio": "f89v2",
+      "s_recipe": "f58v.34",
+      "n_shared_3way_stems": 4,
+      "n_pharm_label_anchored": 1,
+      "idf_3way_score": 10.707,
+      "shared_stems": [
+        "ykedy",
+        "ockhy",
+        "okam",
+        "cheo"
+      ],
+      "pharm_label_stems_in_triad": [
+        "okam"
+      ],
+      "surface_transformation_chains": [
+        "ykedy: H(ykeody) -> P(ykeody) -> S(ykeeody)",
+        "ockhy: H(ockhy) -> P(qockhy) -> S(ockhy)",
+        "okam: H(okam) -> P(okam*L) -> S(okam)",
+        "cheo: H(sheo) -> P(cheo) -> S(sheo)"
+      ]
+    },
+    {
+      "h_folio": "f90r1",
+      "h_lang": "A",
+      "p_folio": "f89v2",
+      "s_recipe": "f58v.34",
+      "n_shared_3way_stems": 4,
+      "n_pharm_label_anchored": 1,
+      "idf_3way_score": 12.128,
+      "shared_stems": [
+        "ykedy",
+        "okeos",
+        "chockhy",
+        "okam"
+      ],
+      "pharm_label_stems_in_triad": [
+        "okam"
+      ],
+      "surface_transformation_chains": [
+        "ykedy: H(ykeody) -> P(ykeody) -> S(ykeeody)",
+        "okeos: H(qokeos) -> P(okeos) -> S(qokeeos)",
+        "chockhy: H(chockhy) -> P(chockhy) -> S(shockhy)",
+        "okam: H(okam) -> P(okam*L) -> S(okam)"
+      ]
+    },
+    {
+      "h_folio": "f43v",
+      "h_lang": "B",
+      "p_folio": "f89v2",
+      "s_recipe": "f104v.37",
+      "n_shared_3way_stems": 3,
+      "n_pharm_label_anchored": 1,
+      "idf_3way_score": 6.703,
+      "shared_stems": [
+        "okam",
+        "ychey",
+        "cheo"
+      ],
+      "pharm_label_stems_in_triad": [
+        "okam"
+      ],
+      "surface_transformation_chains": [
+        "okam: H(okam) -> P(okam*L) -> S(okam)",
+        "ychey: H(ysheey) -> P(ychey) -> S(yshey)",
+        "cheo: H(sheo) -> P(cheo) -> S(cheo)"
+      ]
+    },
+    {
+      "h_folio": "f34v",
+      "h_lang": "B",
+      "p_folio": "f89v2",
+      "s_recipe": "f108v.30",
+      "n_shared_3way_stems": 3,
+      "n_pharm_label_anchored": 1,
+      "idf_3way_score": 6.933,
+      "shared_stems": [
+        "chear",
+        "okam",
+        "kedy"
+      ],
+      "pharm_label_stems_in_triad": [
+        "okam"
+      ],
+      "surface_transformation_chains": [
+        "chear: H(shear) -> P(chear) -> S(chear)",
+        "okam: H(okam) -> P(okam*L) -> S(qokam)",
+        "kedy: H(kedy) -> P(keeody) -> S(keedy)"
+      ]
+    },
+    {
+      "h_folio": "f43v",
+      "h_lang": "B",
+      "p_folio": "f89v2",
+      "s_recipe": "f108v.30",
+      "n_shared_3way_stems": 3,
+      "n_pharm_label_anchored": 1,
+      "idf_3way_score": 6.858,
+      "shared_stems": [
+        "okam",
+        "ychey",
+        "kedy"
+      ],
+      "pharm_label_stems_in_triad": [
+        "okam"
+      ],
+      "surface_transformation_chains": [
+        "okam: H(okam) -> P(okam*L) -> S(qokam)",
+        "ychey: H(ysheey) -> P(ychey) -> S(yshey)",
+        "kedy: H(kedy) -> P(keeody) -> S(keedy)"
+      ]
+    },
+    {
+      "h_folio": "f46r",
+      "h_lang": "B",
+      "p_folio": "f89v2",
+      "s_recipe": "f108v.30",
+      "n_shared_3way_stems": 3,
+      "n_pharm_label_anchored": 1,
+      "idf_3way_score": 6.933,
+      "shared_stems": [
+        "chear",
+        "okam",
+        "kedy"
+      ],
+      "pharm_label_stems_in_triad": [
+        "okam"
+      ],
+      "surface_transformation_chains": [
+        "chear: H(shear) -> P(chear) -> S(chear)",
+        "okam: H(qokam) -> P(okam*L) -> S(qokam)",
+        "kedy: H(keedy) -> P(keeody) -> S(keedy)"
+      ]
+    }
+  ]
+}

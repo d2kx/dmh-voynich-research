@@ -1,0 +1,448 @@
+{
+  "corpus_overview": {
+    "total_cr_loci": 226,
+    "total_cr_tokens": 2497,
+    "by_code": {
+      "C_CIRCULAR": {
+        "n_loci": 84,
+        "n_tokens": 2164,
+        "o_nominal_pct": 42.51,
+        "qo_active_pct": 1.94,
+        "da_linker_pct": 7.99,
+        "ch_sh_bench_pct": 22.23,
+        "am_closer_pct": 1.99,
+        "dy_suffix_pct": 13.22,
+        "aiin_suffix_pct": 10.26
+      },
+      "R_RADIAL": {
+        "n_loci": 142,
+        "n_tokens": 333,
+        "o_nominal_pct": 36.34,
+        "qo_active_pct": 5.11,
+        "da_linker_pct": 13.81,
+        "ch_sh_bench_pct": 15.32,
+        "am_closer_pct": 4.8,
+        "dy_suffix_pct": 15.92,
+        "aiin_suffix_pct": 3.0
+      }
+    },
+    "by_ring_length_stratum": {
+      "SHORT_RADIAL_SPOKES_1_TO_3": {
+        "n_loci": 119,
+        "n_tokens": 217,
+        "o_nominal_pct": 40.55,
+        "qo_active_pct": 1.38,
+        "da_linker_pct": 11.52,
+        "ch_sh_bench_pct": 12.9,
+        "am_closer_pct": 4.61,
+        "dy_suffix_pct": 16.13,
+        "aiin_suffix_pct": 2.76
+      },
+      "MEDIUM_RING_ARCS_4_TO_9": {
+        "n_loci": 37,
+        "n_tokens": 210,
+        "o_nominal_pct": 40.95,
+        "qo_active_pct": 7.62,
+        "da_linker_pct": 11.43,
+        "ch_sh_bench_pct": 19.05,
+        "am_closer_pct": 4.76,
+        "dy_suffix_pct": 12.38,
+        "aiin_suffix_pct": 6.67
+      },
+      "LONG_CONTINUOUS_RINGS_GE_10": {
+        "n_loci": 70,
+        "n_tokens": 2070,
+        "o_nominal_pct": 41.88,
+        "qo_active_pct": 1.93,
+        "da_linker_pct": 8.21,
+        "ch_sh_bench_pct": 22.42,
+        "am_closer_pct": 1.88,
+        "dy_suffix_pct": 13.43,
+        "aiin_suffix_pct": 10.24
+      }
+    },
+    "linear_prose_baseline": {
+      "n_loci": 4130,
+      "n_tokens": 32592,
+      "o_nominal_pct": 21.43,
+      "qo_active_pct": 15.81,
+      "da_linker_pct": 9.43,
+      "ch_sh_bench_pct": 25.14,
+      "am_closer_pct": 2.91,
+      "dy_suffix_pct": 19.04,
+      "aiin_suffix_pct": 16.97
+    }
+  },
+  "marginless_ring_am_boundary_law": {
+    "multi_word_ring_loci": 107,
+    "total_tokens": 2280,
+    "boundary_positions_end_or_spoke_gap": 111,
+    "interior_positions": 2169,
+    "am_at_boundary": 12,
+    "am_at_boundary_rate": 0.1081,
+    "am_at_interior": 37,
+    "am_at_interior_rate": 0.0171,
+    "boundary_vs_interior_lift": 6.34,
+    "am_at_locus_final": 12,
+    "locus_final_total": 107,
+    "am_at_internal_spoke_gap": 0,
+    "internal_spoke_gap_total": 4,
+    "null_mean_boundary_hits": 3.21,
+    "null_std": 1.67,
+    "z_score": 5.26,
+    "examples": [
+      {
+        "loc": "f67r1.7",
+        "ltype": "+Cc",
+        "word": "chparam",
+        "position": "RING_LOCUS_FINAL",
+        "context": "dair . [chparam] . <END>"
+      },
+      {
+        "loc": "f67v1.20",
+        "ltype": "@Ro",
+        "word": "olcheeg",
+        "position": "RING_LOCUS_FINAL",
+        "context": "eeis . [olcheeg] . <END>"
+      },
+      {
+        "loc": "f68v3.6",
+        "ltype": "@Ri",
+        "word": "otem",
+        "position": "RING_LOCUS_FINAL",
+        "context": "dy . [otem] . <END>"
+      },
+      {
+        "loc": "f68v3.9",
+        "ltype": "@Ri",
+        "word": "okolmom",
+        "position": "RING_LOCUS_FINAL",
+        "context": "okolchey . [okolmom] . <END>"
+      },
+      {
+        "loc": "f68v3.11",
+        "ltype": "@Ri",
+        "word": "okeeg",
+        "position": "RING_LOCUS_FINAL",
+        "context": "qokal . [okeeg] . <END>"
+      },
+      {
+        "loc": "f70v2.1",
+        "ltype": "@Cc",
+        "word": "oteeam",
+        "position": "RING_LOCUS_FINAL",
+        "context": "otalal . [oteeam] . <END>"
+      },
+      {
+        "loc": "f70v2.32",
+        "ltype": "@Cc",
+        "word": "daim",
+        "position": "RING_LOCUS_FINAL",
+        "context": "aiin . [daim] . <END>"
+      },
+      {
+        "loc": "f72v1.33",
+        "ltype": "@Cc",
+        "word": "oteeosam",
+        "position": "RING_LOCUS_FINAL",
+        "context": "saiin . [oteeosam] . <END>"
+      },
+      {
+        "loc": "f73v.33",
+        "ltype": "@Cc",
+        "word": "otaram",
+        "position": "RING_LOCUS_FINAL",
+        "context": "alaly . [otaram] . <END>"
+      },
+      {
+        "loc": "f85r2.24",
+        "ltype": "@Cc",
+        "word": "aram",
+        "position": "RING_LOCUS_FINAL",
+        "context": "ar . [aram] . <END>"
+      },
+      {
+        "loc": "f86v4.2",
+        "ltype": "@Cc",
+        "word": "sam",
+        "position": "RING_LOCUS_FINAL",
+        "context": "yteey . [sam] . <END>"
+      },
+      {
+        "loc": "f86v4.3",
+        "ltype": "@Cc",
+        "word": "fcheom",
+        "position": "RING_LOCUS_FINAL",
+        "context": "opcho . [fcheom] . <END>"
+      }
+    ]
+  },
+  "clockwise_adjacent_cadence": {
+    "ring_adjacent_pairs": 2018,
+    "ring_adjacent_edit_le2_count": 189,
+    "ring_adjacent_edit_le2_rate": 0.0937,
+    "within_ring_shuffled_null_rate": 0.076,
+    "within_ring_shuffled_z": 3.41,
+    "linear_prose_adjacent_edit_le2_rate": 0.1131,
+    "ring_vs_prose_cadence_ratio": 0.83,
+    "examples": [
+      {
+        "loc": "f57v.2",
+        "pair": "vs -> ar",
+        "edit_dist": 2
+      },
+      {
+        "loc": "f57v.2",
+        "pair": "qokar -> okal",
+        "edit_dist": 2
+      },
+      {
+        "loc": "f57v.4",
+        "pair": "okeeod -> lkeeol",
+        "edit_dist": 2
+      },
+      {
+        "loc": "f57v.4",
+        "pair": "daiin -> aiin",
+        "edit_dist": 1
+      },
+      {
+        "loc": "f57v.5",
+        "pair": "ar -> dar",
+        "edit_dist": 1
+      },
+      {
+        "loc": "f67r1.5",
+        "pair": "chdar -> dar",
+        "edit_dist": 2
+      },
+      {
+        "loc": "f67r1.5",
+        "pair": "dar -> ar",
+        "edit_dist": 1
+      },
+      {
+        "loc": "f67r1.6",
+        "pair": "dair -> ar",
+        "edit_dist": 2
+      },
+      {
+        "loc": "f67r1.6",
+        "pair": "ot -> dol",
+        "edit_dist": 2
+      },
+      {
+        "loc": "f67r1.6",
+        "pair": "dol -> al",
+        "edit_dist": 2
+      },
+      {
+        "loc": "f67r1.6",
+        "pair": "cheor -> okeor",
+        "edit_dist": 2
+      },
+      {
+        "loc": "f67r1.6",
+        "pair": "dair -> dain",
+        "edit_dist": 1
+      },
+      {
+        "loc": "f67v1.23",
+        "pair": "qokeey -> olokeey",
+        "edit_dist": 2
+      },
+      {
+        "loc": "f68r1.37",
+        "pair": "okchdy -> okardy",
+        "edit_dist": 2
+      },
+      {
+        "loc": "f68r2.6",
+        "pair": "okeo -> okar",
+        "edit_dist": 2
+      }
+    ]
+  },
+  "top_15_longest_continuous_rings": [
+    {
+      "loc": "f57v.3",
+      "ltype": "+Cc",
+      "section": "C",
+      "n_words": 56,
+      "o_nominal_pct": 7.14,
+      "qo_active_pct": 0.0,
+      "da_linker_pct": 7.14,
+      "am_closer_pct": 0.0,
+      "opening_3_words": "o . l . d",
+      "closing_3_words": "r . y . c"
+    },
+    {
+      "loc": "f68v3.5",
+      "ltype": "@Cc",
+      "section": "C",
+      "n_words": 52,
+      "o_nominal_pct": 34.62,
+      "qo_active_pct": 5.77,
+      "da_linker_pct": 17.31,
+      "am_closer_pct": 1.92,
+      "opening_3_words": "oky . otol . ees",
+      "closing_3_words": "qokchshy . dchol . chshek"
+    },
+    {
+      "loc": "f57v.2",
+      "ltype": "@Cc",
+      "section": "C",
+      "n_words": 47,
+      "o_nominal_pct": 25.53,
+      "qo_active_pct": 2.13,
+      "da_linker_pct": 21.28,
+      "am_closer_pct": 4.26,
+      "opening_3_words": "v . saly . soeos",
+      "closing_3_words": "k . sher . saiin"
+    },
+    {
+      "loc": "fRos.62",
+      "ltype": "@Cc",
+      "section": "C",
+      "n_words": 44,
+      "o_nominal_pct": 70.45,
+      "qo_active_pct": 2.27,
+      "da_linker_pct": 4.55,
+      "am_closer_pct": 2.27,
+      "opening_3_words": "otor . os . om",
+      "closing_3_words": "otedy . chdar . o"
+    },
+    {
+      "loc": "f72r1.1",
+      "ltype": "@Cc",
+      "section": "Z",
+      "n_words": 42,
+      "o_nominal_pct": 38.1,
+      "qo_active_pct": 0.0,
+      "da_linker_pct": 4.76,
+      "am_closer_pct": 7.14,
+      "opening_3_words": "oteeo . cthey . chlol",
+      "closing_3_words": "aiin . oteey . okaiin"
+    },
+    {
+      "loc": "f72r3.1",
+      "ltype": "@Cc",
+      "section": "Z",
+      "n_words": 42,
+      "o_nominal_pct": 40.48,
+      "qo_active_pct": 0.0,
+      "da_linker_pct": 0.0,
+      "am_closer_pct": 0.0,
+      "opening_3_words": "okeey . chekoy . oteo",
+      "closing_3_words": "eol . sheey . chorain"
+    },
+    {
+      "loc": "f70v2.1",
+      "ltype": "@Cc",
+      "section": "Z",
+      "n_words": 41,
+      "o_nominal_pct": 41.46,
+      "qo_active_pct": 0.0,
+      "da_linker_pct": 4.88,
+      "am_closer_pct": 2.44,
+      "opening_3_words": "okcheo . dar . otey",
+      "closing_3_words": "chokain . otalal . oteeam"
+    },
+    {
+      "loc": "f67r1.6",
+      "ltype": "+Cc",
+      "section": "A",
+      "n_words": 39,
+      "o_nominal_pct": 25.64,
+      "qo_active_pct": 0.0,
+      "da_linker_pct": 20.51,
+      "am_closer_pct": 0.0,
+      "opening_3_words": "dair . al . cheol",
+      "closing_3_words": "cho . dar . aldy"
+    },
+    {
+      "loc": "f68v1.1",
+      "ltype": "@Cc",
+      "section": "A",
+      "n_words": 38,
+      "o_nominal_pct": 15.79,
+      "qo_active_pct": 0.0,
+      "da_linker_pct": 15.79,
+      "am_closer_pct": 2.63,
+      "opening_3_words": "shes . ol . keey",
+      "closing_3_words": "dal . daiin . dokeey"
+    },
+    {
+      "loc": "f72r2.6",
+      "ltype": "@Cc",
+      "section": "Z",
+      "n_words": 38,
+      "o_nominal_pct": 42.11,
+      "qo_active_pct": 5.26,
+      "da_linker_pct": 5.26,
+      "am_closer_pct": 0.0,
+      "opening_3_words": "oteos . aiin . okeodaiin",
+      "closing_3_words": "saiin . otois . otees"
+    },
+    {
+      "loc": "f67r1.5",
+      "ltype": "@Cc",
+      "section": "A",
+      "n_words": 37,
+      "o_nominal_pct": 21.62,
+      "qo_active_pct": 0.0,
+      "da_linker_pct": 16.22,
+      "am_closer_pct": 2.7,
+      "opening_3_words": "soairol . shdy . chokeody",
+      "closing_3_words": "ar . otardar . ykaros"
+    },
+    {
+      "loc": "f68v1.2",
+      "ltype": "@Cc",
+      "section": "A",
+      "n_words": 37,
+      "o_nominal_pct": 40.54,
+      "qo_active_pct": 0.0,
+      "da_linker_pct": 8.11,
+      "am_closer_pct": 0.0,
+      "opening_3_words": "chear . s . oteey",
+      "closing_3_words": "oteotey . otechs . opain"
+    },
+    {
+      "loc": "f72v3.1",
+      "ltype": "@Cc",
+      "section": "Z",
+      "n_words": 37,
+      "o_nominal_pct": 45.95,
+      "qo_active_pct": 0.0,
+      "da_linker_pct": 2.7,
+      "am_closer_pct": 0.0,
+      "opening_3_words": "soeesotchs . otedar . oteody",
+      "closing_3_words": "otycheedy . oteeoly . chokary"
+    },
+    {
+      "loc": "f86v4.1",
+      "ltype": "@Cc",
+      "section": "C",
+      "n_words": 37,
+      "o_nominal_pct": 32.43,
+      "qo_active_pct": 10.81,
+      "da_linker_pct": 8.11,
+      "am_closer_pct": 0.0,
+      "opening_3_words": "opos . os . sheody",
+      "closing_3_words": "ofor . arar . dl"
+    },
+    {
+      "loc": "f68r3.1",
+      "ltype": "@Cc",
+      "section": "A",
+      "n_words": 36,
+      "o_nominal_pct": 41.67,
+      "qo_active_pct": 5.56,
+      "da_linker_pct": 19.44,
+      "am_closer_pct": 2.78,
+      "opening_3_words": "odeed . oteedycheoteey . oshchey",
+      "closing_3_words": "dol . daleeed . okeoeiiir"
+    }
+  ]
+}

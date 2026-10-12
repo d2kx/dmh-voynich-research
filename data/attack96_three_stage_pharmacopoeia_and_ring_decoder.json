@@ -1,0 +1,81 @@
+{
+  "edition": "THREE_STAGE_PHARMACOPOEIA_AND_RING_DECODER",
+  "discoveries_covered": [
+    110,
+    111,
+    112,
+    113
+  ],
+  "attacks_covered": [
+    93,
+    94,
+    95,
+    96
+  ],
+  "corpus_accountability": {
+    "resolved_of_178": 156,
+    "pct_of_178_resolved": 91.76,
+    "remaining_unexplained_tokens": 14,
+    "final_corpus_explained_tokens": 36215,
+    "final_corpus_explained_token_pct": 99.9614,
+    "final_corpus_explained_types": 9040,
+    "final_corpus_explained_type_pct": 99.845
+  },
+  "morphological_null_validation_z": 27.48,
+  "circular_ring_am_boundary_law": {
+    "lift": 6.34,
+    "z_score": 5.26,
+    "am_at_boundary_rate": 0.1081,
+    "am_at_interior_rate": 0.0171
+  },
+  "three_stage_pharmacopoeia": {
+    "total_3way_triads_ge3_stems": 536,
+    "total_3way_triads_ge4_stems": 79,
+    "null_ge4_mean": 18.43,
+    "null_ge4_std": 9.02,
+    "z_ge4_triads": 6.72,
+    "pharm_label_anchored_triads": 60,
+    "observed_mean_max_idf_across_16_pharm_folios": 11.431,
+    "null_mean_max_idf": 9.292,
+    "null_std_max_idf": 0.58,
+    "z_max_idf": 3.69
+  },
+  "three_stage_grammatical_gradient": {
+    "STAGE_1_HERBAL_MONOGRAPH_PROSE": {
+      "n_tokens": 1627,
+      "o_nominal_pct": 16.59,
+      "qo_active_pct": 7.74,
+      "edy_processual_pct": 3.13,
+      "dy_stative_pct": 6.88,
+      "ol_or_container_pct": 30.55,
+      "aiin_quantifier_pct": 12.97
+    },
+    "STAGE_2A_PHARM_INGREDIENT_LABELS": {
+      "n_tokens": 21,
+      "o_nominal_pct": 52.38,
+      "qo_active_pct": 0.0,
+      "edy_processual_pct": 0.0,
+      "dy_stative_pct": 19.05,
+      "ol_or_container_pct": 23.81,
+      "aiin_quantifier_pct": 4.76
+    },
+    "STAGE_2B_PHARM_FORMULARY_PROSE": {
+      "n_tokens": 480,
+      "o_nominal_pct": 20.21,
+      "qo_active_pct": 12.92,
+      "edy_processual_pct": 0.42,
+      "dy_stative_pct": 8.54,
+      "ol_or_container_pct": 31.25,
+      "aiin_quantifier_pct": 12.5
+    },
+    "STAGE_3_QUIRE20_STARRED_RECIPES": {
+      "n_tokens": 1462,
+      "o_nominal_pct": 22.3,
+      "qo_active_pct": 13.89,
+      "edy_processual_pct": 5.34,
+      "dy_stative_pct": 4.51,
+      "ol_or_container_pct": 19.77,
+      "aiin_quantifier_pct": 23.05
+    }
+  }
+}
