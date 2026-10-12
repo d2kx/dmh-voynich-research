@@ -1,0 +1,828 @@
+{
+  "attack_id": 109,
+  "discovery_id": 126,
+  "title": "The f58r / f58v (Quire H, Bifolio $B=1) Starred Botanical Master Index Solver",
+  "comparison_f58_vs_quire20": {
+    "F58R_F58V_QUIRE_H_STARRED_INDEX": {
+      "paragraph_count": 7,
+      "total_tokens": 753,
+      "mean_tokens_per_para": 107.57,
+      "mean_lines_per_para": 11.43,
+      "mean_hp_shared_stems": 21.43,
+      "mean_p_lbl_shared_stems": 5.14,
+      "mean_hp_idf_per_100_toks": 44.94,
+      "mean_p_lbl_per_100_toks": 5.67,
+      "o_nominal_pct": 23.51,
+      "qo_active_pct": 13.15,
+      "d_s_y_deictic_pct": 27.49,
+      "l_ol_applicative_pct": 4.25,
+      "edy_process_pct": 0.8,
+      "aiin_measure_pct": 10.23,
+      "ol_or_al_ar_liquid_pct": 41.3
+    },
+    "QUIRE_20_F103_F116_CLINICAL_RECIPES": {
+      "paragraph_count": 285,
+      "total_tokens": 10889,
+      "mean_tokens_per_para": 38.21,
+      "mean_lines_per_para": 3.8,
+      "mean_hp_shared_stems": 6.22,
+      "mean_p_lbl_shared_stems": 1.2,
+      "mean_hp_idf_per_100_toks": 33.75,
+      "mean_p_lbl_per_100_toks": 3.4,
+      "o_nominal_pct": 22.66,
+      "qo_active_pct": 16.85,
+      "d_s_y_deictic_pct": 17.19,
+      "l_ol_applicative_pct": 11.3,
+      "edy_process_pct": 14.52,
+      "aiin_measure_pct": 19.18,
+      "ol_or_al_ar_liquid_pct": 23.44
+    },
+    "pharm_label_density_z_score": 1.78
+  },
+  "quire_h_codicological_network": [
+    {
+      "folio": "f57r",
+      "section": "H",
+      "bifolio": "1",
+      "lang": "B",
+      "hand": "5",
+      "tokens": 87,
+      "open_stems": 38,
+      "shared_with_f58": [
+        "chockhey",
+        "tair",
+        "octhdy",
+        "chekey",
+        "chockhy",
+        "kchey",
+        "ckhy",
+        "okam",
+        "cheos",
+        "sar",
+        "okedy",
+        "air",
+        "otchey"
+      ]
+    },
+    {
+      "folio": "f57v",
+      "section": "C",
+      "bifolio": "1",
+      "lang": "U",
+      "hand": "1",
+      "tokens": 182,
+      "open_stems": 27,
+      "shared_with_f58": [
+        "tchchy",
+        "cher",
+        "sar"
+      ]
+    },
+    {
+      "folio": "f58r",
+      "section": "S",
+      "bifolio": "2",
+      "lang": "A",
+      "hand": "3",
+      "tokens": 378,
+      "open_stems": 146,
+      "shared_with_f58": []
+    },
+    {
+      "folio": "f58v",
+      "section": "S",
+      "bifolio": "2",
+      "lang": "A",
+      "hand": "3",
+      "tokens": 375,
+      "open_stems": 126,
+      "shared_with_f58": []
+    },
+    {
+      "folio": "f65r",
+      "section": "H",
+      "bifolio": "2",
+      "lang": "U",
+      "hand": "3",
+      "tokens": 3,
+      "open_stems": 3,
+      "shared_with_f58": [
+        "otaim",
+        "alam",
+        "dam"
+      ]
+    },
+    {
+      "folio": "f65v",
+      "section": "H",
+      "bifolio": "2",
+      "lang": "U",
+      "hand": "3",
+      "tokens": 45,
+      "open_stems": 22,
+      "shared_with_f58": [
+        "ytal",
+        "choky",
+        "kol",
+        "okedy",
+        "air"
+      ]
+    },
+    {
+      "folio": "f66r",
+      "section": "T",
+      "bifolio": "1",
+      "lang": "B",
+      "hand": "5",
+      "tokens": 344,
+      "open_stems": 113,
+      "shared_with_f58": [
+        "ykaly",
+        "dalol",
+        "otalor",
+        "olkeol",
+        "octhdy",
+        "tchedy",
+        "okaldy",
+        "ykeol",
+        "ckhol",
+        "choldy",
+        "aly",
+        "ykedy",
+        "kal",
+        "okaly",
+        "chokey",
+        "daly",
+        "cheal",
+        "chekey",
+        "okair",
+        "choty",
+        "oly",
+        "kol",
+        "otam",
+        "okor",
+        "okedy",
+        "air"
+      ]
+    },
+    {
+      "folio": "f66v",
+      "section": "H",
+      "bifolio": "1",
+      "lang": "B",
+      "hand": "5",
+      "tokens": 114,
+      "open_stems": 36,
+      "shared_with_f58": [
+        "ekar",
+        "chokal",
+        "daldy",
+        "okeos",
+        "kal",
+        "ytchdy",
+        "chos",
+        "cheos"
+      ]
+    }
+  ],
+  "f58_eight_starred_blocks_catalog": [
+    {
+      "recipe_id": "<f58r.1>",
+      "folio": "f58r",
+      "n_tokens": 140,
+      "n_lines": 15,
+      "hp_shared_count": 27,
+      "p_lbl_shared_count": 4,
+      "hp_idf_per_100_toks": 45.058,
+      "p_lbl_per_100_toks": 2.857,
+      "top_herbal_matches": [
+        {
+          "folio": "f48v",
+          "lang": "B",
+          "quire": "F",
+          "idf": 17.26,
+          "stems": [
+            "ytam",
+            "ykal",
+            "octhdy",
+            "ykeol",
+            "ary",
+            "kor",
+            "oly"
+          ]
+        },
+        {
+          "folio": "f8v",
+          "lang": "A",
+          "quire": "A",
+          "idf": 16.631,
+          "stems": [
+            "chary",
+            "chokchy",
+            "cheal",
+            "tchy",
+            "dchor",
+            "chal",
+            "chear",
+            "chain"
+          ]
+        },
+        {
+          "folio": "f40v",
+          "lang": "B",
+          "quire": "E",
+          "idf": 15.221,
+          "stems": [
+            "dalor",
+            "chekain",
+            "kor",
+            "tchy",
+            "okair",
+            "oly",
+            "ckhy"
+          ]
+        }
+      ],
+      "top_pharm_matches": [
+        {
+          "folio": "f101v",
+          "idf": 18.827,
+          "stems": [
+            "cholain",
+            "orar",
+            "ytal",
+            "ykeol",
+            "choly",
+            "ary",
+            "choldy"
+          ],
+          "label_hits": [
+            "orar",
+            "ytal"
+          ]
+        },
+        {
+          "folio": "f99v",
+          "idf": 13.191,
+          "stems": [
+            "cheoldy",
+            "ykeol",
+            "ary",
+            "otaly",
+            "choty",
+            "ykey"
+          ],
+          "label_hits": [
+            "ary",
+            "otaly"
+          ]
+        }
+      ],
+      "opening_line_eva": "kor . cholfy . shofchy . otoralchy . chofchol . sholy . otaly . dal . m"
+    },
+    {
+      "recipe_id": "<f58r.16>",
+      "folio": "f58r",
+      "n_tokens": 94,
+      "n_lines": 10,
+      "hp_shared_count": 15,
+      "p_lbl_shared_count": 5,
+      "hp_idf_per_100_toks": 36.242,
+      "p_lbl_per_100_toks": 5.319,
+      "top_herbal_matches": [
+        {
+          "folio": "f94r",
+          "lang": "B",
+          "quire": "Q",
+          "idf": 14.218,
+          "stems": [
+            "todal",
+            "ykal",
+            "otary",
+            "oar",
+            "choky"
+          ]
+        },
+        {
+          "folio": "f46r",
+          "lang": "B",
+          "quire": "F",
+          "idf": 13.935,
+          "stems": [
+            "ykal",
+            "dalchdy",
+            "okaldy",
+            "chekey",
+            "ytchdy",
+            "choky"
+          ]
+        },
+        {
+          "folio": "f43v",
+          "lang": "B",
+          "quire": "F",
+          "idf": 11.968,
+          "stems": [
+            "aldar",
+            "okaldy",
+            "oteos",
+            "ytchdy",
+            "air"
+          ]
+        }
+      ],
+      "top_pharm_matches": [
+        {
+          "folio": "f99r",
+          "idf": 8.787,
+          "stems": [
+            "darar",
+            "choky",
+            "sar",
+            "air"
+          ],
+          "label_hits": [
+            "choky",
+            "darar"
+          ]
+        },
+        {
+          "folio": "f101v",
+          "idf": 9.613,
+          "stems": [
+            "cholain",
+            "ycheor",
+            "otoly"
+          ],
+          "label_hits": [
+            "otoly"
+          ]
+        }
+      ],
+      "opening_line_eva": "typchey . ar . air . ytashy . qotyshey . pchdy . dshaly . pydaly . choky . opy"
+    },
+    {
+      "recipe_id": "<f58r.26>",
+      "folio": "f58r",
+      "n_tokens": 144,
+      "n_lines": 16,
+      "hp_shared_count": 23,
+      "p_lbl_shared_count": 4,
+      "hp_idf_per_100_toks": 32.679,
+      "p_lbl_per_100_toks": 2.778,
+      "top_herbal_matches": [
+        {
+          "folio": "f46r",
+          "lang": "B",
+          "quire": "F",
+          "idf": 17.208,
+          "stems": [
+            "kaldy",
+            "okaldy",
+            "daly",
+            "ykar",
+            "choky",
+            "cheos",
+            "chear",
+            "kar"
+          ]
+        },
+        {
+          "folio": "f8v",
+          "lang": "A",
+          "quire": "A",
+          "idf": 14.262,
+          "stems": [
+            "otydain",
+            "dchol",
+            "cheal",
+            "chal",
+            "chear",
+            "cthol",
+            "sar"
+          ]
+        },
+        {
+          "folio": "f17v",
+          "lang": "A",
+          "quire": "C",
+          "idf": 13.401,
+          "stems": [
+            "kchar",
+            "otydain",
+            "olol",
+            "cthol",
+            "sar"
+          ]
+        }
+      ],
+      "top_pharm_matches": [
+        {
+          "folio": "f99r",
+          "idf": 11.427,
+          "stems": [
+            "cheom",
+            "ckhol",
+            "choky",
+            "okor",
+            "sar",
+            "air"
+          ],
+          "label_hits": [
+            "choky",
+            "okor"
+          ]
+        },
+        {
+          "folio": "f88r",
+          "idf": 18.376,
+          "stems": [
+            "cheom",
+            "otaldy",
+            "chetchy",
+            "ykar",
+            "cheos",
+            "chear",
+            "cthol",
+            "okor",
+            "sar"
+          ],
+          "label_hits": [
+            "otaldy"
+          ]
+        }
+      ],
+      "opening_line_eva": "kshar . shoky . opcheear . ofadain . opsheolaiin . opydaiin . podaiir"
+    },
+    {
+      "recipe_id": "<f58v.1>",
+      "folio": "f58v",
+      "n_tokens": 219,
+      "n_lines": 22,
+      "hp_shared_count": 46,
+      "p_lbl_shared_count": 10,
+      "hp_idf_per_100_toks": 45.477,
+      "p_lbl_per_100_toks": 4.566,
+      "top_herbal_matches": [
+        {
+          "folio": "f96r",
+          "lang": "A",
+          "quire": "Q",
+          "idf": 24.846,
+          "stems": [
+            "chodol",
+            "dory",
+            "choly",
+            "oteor",
+            "chokey",
+            "tor",
+            "ckhey",
+            "chos",
+            "tol",
+            "chodain",
+            "okedy"
+          ]
+        },
+        {
+          "folio": "f46v",
+          "lang": "B",
+          "quire": "F",
+          "idf": 20.896,
+          "stems": [
+            "okas",
+            "kair",
+            "okaldy",
+            "aly",
+            "okaly",
+            "tor",
+            "tar",
+            "olain",
+            "air",
+            "dam"
+          ]
+        },
+        {
+          "folio": "f54v",
+          "lang": "A",
+          "quire": "G",
+          "idf": 20.117,
+          "stems": [
+            "aim",
+            "ytam",
+            "ytal",
+            "ockhey",
+            "ockhy",
+            "ckhey",
+            "tar",
+            "oain",
+            "tol"
+          ]
+        }
+      ],
+      "top_pharm_matches": [
+        {
+          "folio": "f101v",
+          "idf": 34.861,
+          "stems": [
+            "tcholy",
+            "otaldy",
+            "ory",
+            "ytal",
+            "choly",
+            "chokey",
+            "ockhy",
+            "choy",
+            "ckhey",
+            "kchey",
+            "olain",
+            "oin",
+            "kar",
+            "okor",
+            "chodain",
+            "okedy",
+            "otchey"
+          ],
+          "label_hits": [
+            "otaldy",
+            "ytal"
+          ]
+        },
+        {
+          "folio": "f89v1",
+          "idf": 31.256,
+          "stems": [
+            "otaldain",
+            "chockhey",
+            "okaldy",
+            "daldy",
+            "ockhy",
+            "tor",
+            "ckhey",
+            "chekey",
+            "chos",
+            "ckhy",
+            "otam",
+            "olain",
+            "chodain",
+            "okedy",
+            "dam"
+          ],
+          "label_hits": [
+            "olain",
+            "otaldain"
+          ]
+        }
+      ],
+      "opening_line_eva": "tol . shokchy . opaiin . opaiin . chofaly . ypar . ypal . opal . opaldaiin"
+    },
+    {
+      "recipe_id": "<f58v.23>",
+      "folio": "f58v",
+      "n_tokens": 60,
+      "n_lines": 6,
+      "hp_shared_count": 10,
+      "p_lbl_shared_count": 6,
+      "hp_idf_per_100_toks": 33.798,
+      "p_lbl_per_100_toks": 10.0,
+      "top_herbal_matches": [
+        {
+          "folio": "f94r",
+          "lang": "B",
+          "quire": "Q",
+          "idf": 13.408,
+          "stems": [
+            "als",
+            "ykal",
+            "chekar",
+            "otaly",
+            "okair"
+          ]
+        },
+        {
+          "folio": "f34r",
+          "lang": "B",
+          "quire": "E",
+          "idf": 9.726,
+          "stems": [
+            "chekar",
+            "okaly",
+            "daly",
+            "okor",
+            "air"
+          ]
+        },
+        {
+          "folio": "f46r",
+          "lang": "B",
+          "quire": "F",
+          "idf": 9.251,
+          "stems": [
+            "ykal",
+            "okaldy",
+            "daly",
+            "okam"
+          ]
+        }
+      ],
+      "top_pharm_matches": [
+        {
+          "folio": "f99r",
+          "idf": 10.81,
+          "stems": [
+            "okeoly",
+            "okos",
+            "okeor",
+            "okor",
+            "air"
+          ],
+          "label_hits": [
+            "okeoly",
+            "okor",
+            "okos"
+          ]
+        },
+        {
+          "folio": "f89v2",
+          "idf": 13.45,
+          "stems": [
+            "okos",
+            "okeos",
+            "okair",
+            "okeor",
+            "okam",
+            "okor",
+            "air"
+          ],
+          "label_hits": [
+            "okam"
+          ]
+        }
+      ],
+      "opening_line_eva": "pchshy . sheoltey . shopalchedy . sheolkeal . qokar . aldaiin . qokalar . dal"
+    },
+    {
+      "recipe_id": "<f58v.29>",
+      "folio": "f58v",
+      "n_tokens": 44,
+      "n_lines": 5,
+      "hp_shared_count": 12,
+      "p_lbl_shared_count": 2,
+      "hp_idf_per_100_toks": 57.862,
+      "p_lbl_per_100_toks": 4.545,
+      "top_herbal_matches": [
+        {
+          "folio": "f31v",
+          "lang": "B",
+          "quire": "D",
+          "idf": 10.166,
+          "stems": [
+            "choar",
+            "cheoy",
+            "keo",
+            "kar"
+          ]
+        },
+        {
+          "folio": "f55v",
+          "lang": "B",
+          "quire": "G",
+          "idf": 10.044,
+          "stems": [
+            "choar",
+            "ykair",
+            "ykar",
+            "kar"
+          ]
+        },
+        {
+          "folio": "f1v",
+          "lang": "A",
+          "quire": "A",
+          "idf": 8.276,
+          "stems": [
+            "ckhar",
+            "kol",
+            "tchey",
+            "dam"
+          ]
+        }
+      ],
+      "top_pharm_matches": [
+        {
+          "folio": "f99r",
+          "idf": 5.534,
+          "stems": [
+            "tcheor",
+            "ykey",
+            "dam"
+          ],
+          "label_hits": [
+            "dam"
+          ]
+        },
+        {
+          "folio": "f89r1",
+          "idf": 2.971,
+          "stems": [
+            "kol",
+            "dam"
+          ],
+          "label_hits": [
+            "kol"
+          ]
+        }
+      ],
+      "opening_line_eva": "polal . keeo . o . leeckhey . dalar . ykeeody . choar . ckhar . yfair . alam"
+    },
+    {
+      "recipe_id": "<f58v.34>",
+      "folio": "f58v",
+      "n_tokens": 52,
+      "n_lines": 6,
+      "hp_shared_count": 17,
+      "p_lbl_shared_count": 5,
+      "hp_idf_per_100_toks": 63.449,
+      "p_lbl_per_100_toks": 9.615,
+      "top_herbal_matches": [
+        {
+          "folio": "f90r1",
+          "lang": "A",
+          "quire": "O",
+          "idf": 11.457,
+          "stems": [
+            "okeos",
+            "ykedy",
+            "chockhy",
+            "choky",
+            "okam",
+            "tol"
+          ]
+        },
+        {
+          "folio": "f31v",
+          "lang": "B",
+          "quire": "D",
+          "idf": 10.322,
+          "stems": [
+            "tchedy",
+            "keo",
+            "okeos",
+            "okam",
+            "okor"
+          ]
+        },
+        {
+          "folio": "f34r",
+          "lang": "B",
+          "quire": "E",
+          "idf": 10.038,
+          "stems": [
+            "olar",
+            "okaly",
+            "daly",
+            "tol",
+            "okor"
+          ]
+        }
+      ],
+      "top_pharm_matches": [
+        {
+          "folio": "f89v2",
+          "idf": 17.242,
+          "stems": [
+            "okeos",
+            "otair",
+            "ykedy",
+            "ockhy",
+            "chockhy",
+            "okeor",
+            "chear",
+            "okam",
+            "okor"
+          ],
+          "label_hits": [
+            "okam",
+            "otair"
+          ]
+        },
+        {
+          "folio": "f99r",
+          "idf": 10.342,
+          "stems": [
+            "tchedy",
+            "choky",
+            "okeor",
+            "tol",
+            "okor",
+            "key"
+          ],
+          "label_hits": [
+            "choky",
+            "okor"
+          ]
+        }
+      ],
+      "opening_line_eva": "tol . sheo . keo . ar . qofcheal . dar . aey . opchal . shockhy . okaly"
+    }
+  ]
+}

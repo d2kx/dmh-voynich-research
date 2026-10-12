@@ -1,0 +1,1135 @@
+{
+  "attack_id": 111,
+  "discovery_id": 128,
+  "title": "The 14-Folio Astronomical Foldout (f67r1-f70r2) & Zodiac (f70v2-f73v) Sector-by-Sector Star & Calendar Concordance",
+  "astro_to_zodiac_permutation_test": {
+    "astro_folios_count": 14,
+    "observed_mean_max_zodiac_idf": 18.026,
+    "null_mean_max_zodiac_idf": 8.976,
+    "null_std_max_zodiac_idf": 0.959,
+    "z_score": 9.43
+  },
+  "herbal_b_selectivity": {
+    "herbal_b_top1_matches": 10,
+    "herbal_b_top1_pct": 71.43,
+    "herbal_b_baseline_pct": 25.0,
+    "enrichment_ratio": 2.86
+  },
+  "four_tier_astro_locus_gradient": {
+    "ASTRO_STAR_LABELS_L": {
+      "tokens": 106,
+      "o_nominal_pct": 59.43,
+      "qo_active_pct": 0.94,
+      "d_s_y_clause_pct": 22.64,
+      "l_ol_applicative_pct": 2.83,
+      "edy_process_pct": 1.89,
+      "dy_state_pct": 13.21,
+      "aiin_measure_pct": 6.6,
+      "ol_or_al_ar_liquid_pct": 26.42,
+      "am_m_terminus_pct": 4.72
+    },
+    "ASTRO_RADIAL_SPOKES_R": {
+      "tokens": 349,
+      "o_nominal_pct": 34.96,
+      "qo_active_pct": 4.87,
+      "d_s_y_clause_pct": 34.1,
+      "l_ol_applicative_pct": 1.43,
+      "edy_process_pct": 0.86,
+      "dy_state_pct": 14.04,
+      "aiin_measure_pct": 2.87,
+      "ol_or_al_ar_liquid_pct": 21.78,
+      "am_m_terminus_pct": 3.15
+    },
+    "ASTRO_CONCENTRIC_RINGS_C": {
+      "tokens": 707,
+      "o_nominal_pct": 32.96,
+      "qo_active_pct": 1.7,
+      "d_s_y_clause_pct": 28.43,
+      "l_ol_applicative_pct": 2.55,
+      "edy_process_pct": 2.83,
+      "dy_state_pct": 9.48,
+      "aiin_measure_pct": 5.52,
+      "ol_or_al_ar_liquid_pct": 27.72,
+      "am_m_terminus_pct": 1.13
+    },
+    "ASTRO_MARGINAL_PROSE_P": {
+      "tokens": 505,
+      "o_nominal_pct": 19.41,
+      "qo_active_pct": 5.54,
+      "d_s_y_clause_pct": 39.6,
+      "l_ol_applicative_pct": 1.58,
+      "edy_process_pct": 0.79,
+      "dy_state_pct": 7.72,
+      "aiin_measure_pct": 12.48,
+      "ol_or_al_ar_liquid_pct": 29.31,
+      "am_m_terminus_pct": 4.75
+    }
+  },
+  "astronomical_14folio_atlas": [
+    {
+      "astro_folio": "f67r1",
+      "quire": "I",
+      "hand": "4",
+      "total_tokens": 167,
+      "l_star_tokens": 0,
+      "r_spoke_tokens": 17,
+      "c_ring_tokens": 109,
+      "p_prose_tokens": 41,
+      "open_stems": 64,
+      "top_zodiac": {
+        "folio": "f70v2",
+        "sign": "Pisces",
+        "month": "March",
+        "season": "SPRING",
+        "idf": 28.93,
+        "stems": [
+          "chchey",
+          "teodain",
+          "ykeos",
+          "otaldy",
+          "aldy",
+          "otes",
+          "oteo",
+          "okes",
+          "oteos",
+          "sal",
+          "cheos",
+          "cthey"
+        ]
+      },
+      "second_zodiac": {
+        "folio": "f73r",
+        "sign": "Scorpio",
+        "month": "November",
+        "idf": 26.523,
+        "stems": [
+          "oteodal",
+          "osain",
+          "ochey",
+          "chdar",
+          "otes",
+          "chedar",
+          "okes",
+          "chockhy",
+          "oteos",
+          "ytey",
+          "okedy",
+          "air",
+          "ches"
+        ]
+      },
+      "top_herbal": {
+        "folio": "f48r",
+        "lang": "B",
+        "quire": "F",
+        "idf": 25.605,
+        "stems": [
+          "oekain",
+          "oteodain",
+          "octhey",
+          "otaldy",
+          "ykedy",
+          "cheodain",
+          "oteo",
+          "ytey",
+          "key",
+          "okedy",
+          "dam",
+          "dol"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f102v2",
+        "idf": 32.656,
+        "stems": [
+          "cheockhey",
+          "oekey",
+          "osain",
+          "keo",
+          "oteo",
+          "chekey",
+          "oteos",
+          "sal",
+          "okeo",
+          "sor",
+          "cheos",
+          "oin",
+          "key",
+          "sar",
+          "okedy",
+          "cthey",
+          "dol"
+        ]
+      }
+    },
+    {
+      "astro_folio": "f67r2",
+      "quire": "I",
+      "hand": "4",
+      "total_tokens": 190,
+      "l_star_tokens": 15,
+      "r_spoke_tokens": 0,
+      "c_ring_tokens": 0,
+      "p_prose_tokens": 126,
+      "open_stems": 75,
+      "top_zodiac": {
+        "folio": "f70v2",
+        "sign": "Pisces",
+        "month": "March",
+        "season": "SPRING",
+        "idf": 24.457,
+        "stems": [
+          "yteos",
+          "okydy",
+          "alain",
+          "todain",
+          "olar",
+          "aldy",
+          "sal",
+          "chedain",
+          "cheos",
+          "cthey"
+        ]
+      },
+      "second_zodiac": {
+        "folio": "f72v1",
+        "sign": "Libra",
+        "month": "October",
+        "idf": 14.532,
+        "stems": [
+          "oeos",
+          "okydy",
+          "ydain",
+          "odal",
+          "ychey",
+          "air"
+        ]
+      },
+      "top_herbal": {
+        "folio": "f55r",
+        "lang": "B",
+        "quire": "G",
+        "idf": 25.743,
+        "stems": [
+          "odas",
+          "oekain",
+          "todain",
+          "chekchy",
+          "chky",
+          "ockhy",
+          "ykar",
+          "okair",
+          "oain",
+          "oin",
+          "okedy"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f89v2",
+        "idf": 31.73,
+        "stems": [
+          "choer",
+          "yteos",
+          "oear",
+          "ykedy",
+          "ockhy",
+          "chockhy",
+          "okair",
+          "chos",
+          "sor",
+          "cheos",
+          "ychey",
+          "oain",
+          "okedy",
+          "air",
+          "cthey"
+        ]
+      }
+    },
+    {
+      "astro_folio": "f67v1",
+      "quire": "I",
+      "hand": "4",
+      "total_tokens": 73,
+      "l_star_tokens": 1,
+      "r_spoke_tokens": 57,
+      "c_ring_tokens": 0,
+      "p_prose_tokens": 0,
+      "open_stems": 36,
+      "top_zodiac": {
+        "folio": "f73r",
+        "sign": "Scorpio",
+        "month": "November",
+        "season": "AUTUMN",
+        "idf": 11.401,
+        "stems": [
+          "chedaly",
+          "ochey",
+          "chockhy",
+          "ytey",
+          "okedy"
+        ]
+      },
+      "second_zodiac": {
+        "folio": "f72r3",
+        "sign": "Cancer",
+        "month": "July",
+        "idf": 9.649,
+        "stems": [
+          "aral",
+          "ochey",
+          "oes",
+          "ykey",
+          "okedy"
+        ]
+      },
+      "top_herbal": {
+        "folio": "f93v",
+        "lang": "A",
+        "quire": "Q",
+        "idf": 10.114,
+        "stems": [
+          "koldy",
+          "tchodain",
+          "oes",
+          "ytey"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f99r",
+        "idf": 13.045,
+        "stems": [
+          "kechey",
+          "oekey",
+          "ols",
+          "key",
+          "ykey",
+          "otchey"
+        ]
+      }
+    },
+    {
+      "astro_folio": "f67v2",
+      "quire": "I",
+      "hand": "4",
+      "total_tokens": 62,
+      "l_star_tokens": 9,
+      "r_spoke_tokens": 19,
+      "c_ring_tokens": 0,
+      "p_prose_tokens": 34,
+      "open_stems": 24,
+      "top_zodiac": {
+        "folio": "f70v2",
+        "sign": "Pisces",
+        "month": "March",
+        "season": "SPRING",
+        "idf": 3.42,
+        "stems": [
+          "daly",
+          "cthey"
+        ]
+      },
+      "second_zodiac": {
+        "folio": "f72v3",
+        "sign": "Leo",
+        "month": "August",
+        "idf": 2.944,
+        "stems": [
+          "otoly"
+        ]
+      },
+      "top_herbal": {
+        "folio": "f48v",
+        "lang": "B",
+        "quire": "F",
+        "idf": 11.134,
+        "stems": [
+          "sary",
+          "otoly",
+          "daly",
+          "tol",
+          "cthey"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f89v2",
+        "idf": 12.03,
+        "stems": [
+          "odam",
+          "oko",
+          "sair",
+          "okor",
+          "cthey",
+          "dam"
+        ]
+      }
+    },
+    {
+      "astro_folio": "f68r1",
+      "quire": "I",
+      "hand": "4",
+      "total_tokens": 65,
+      "l_star_tokens": 29,
+      "r_spoke_tokens": 0,
+      "c_ring_tokens": 5,
+      "p_prose_tokens": 31,
+      "open_stems": 39,
+      "top_zodiac": {
+        "folio": "f73r",
+        "sign": "Scorpio",
+        "month": "November",
+        "season": "AUTUMN",
+        "idf": 11.833,
+        "stems": [
+          "chetey",
+          "ytedy",
+          "chotey",
+          "ochey",
+          "chockhy"
+        ]
+      },
+      "second_zodiac": {
+        "folio": "f72v2",
+        "sign": "Virgo",
+        "month": "September",
+        "idf": 10.366,
+        "stems": [
+          "okeodal",
+          "ytedy",
+          "chotey",
+          "oedy"
+        ]
+      },
+      "top_herbal": {
+        "folio": "f43v",
+        "lang": "B",
+        "quire": "F",
+        "idf": 15.388,
+        "stems": [
+          "chtey",
+          "ykor",
+          "dary",
+          "octhy",
+          "ockhy",
+          "ytchdy"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f100v",
+        "idf": 13.863,
+        "stems": [
+          "okcheor",
+          "chocthey",
+          "chod",
+          "ykchdy",
+          "chockhy"
+        ]
+      }
+    },
+    {
+      "astro_folio": "f68r2",
+      "quire": "I",
+      "hand": "4",
+      "total_tokens": 81,
+      "l_star_tokens": 25,
+      "r_spoke_tokens": 0,
+      "c_ring_tokens": 19,
+      "p_prose_tokens": 37,
+      "open_stems": 32,
+      "top_zodiac": {
+        "folio": "f70v1",
+        "sign": "Aries (Dark)",
+        "month": "April",
+        "season": "SPRING",
+        "idf": 12.591,
+        "stems": [
+          "otear",
+          "ykedy",
+          "chokey",
+          "cheal",
+          "okeo",
+          "otchey"
+        ]
+      },
+      "second_zodiac": {
+        "folio": "f73r",
+        "sign": "Scorpio",
+        "month": "November",
+        "idf": 10.014,
+        "stems": [
+          "chesy",
+          "oram",
+          "chdar",
+          "okedy"
+        ]
+      },
+      "top_herbal": {
+        "folio": "f20r",
+        "lang": "A",
+        "quire": "C",
+        "idf": 12.18,
+        "stems": [
+          "chodchy",
+          "odair",
+          "okchor",
+          "dchy",
+          "otchey"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f89r2",
+        "idf": 14.997,
+        "stems": [
+          "oeckhy",
+          "okchedy",
+          "ykedy",
+          "cheal",
+          "okeo",
+          "okedy"
+        ]
+      }
+    },
+    {
+      "astro_folio": "f68r3",
+      "quire": "I",
+      "hand": "4",
+      "total_tokens": 106,
+      "l_star_tokens": 16,
+      "r_spoke_tokens": 42,
+      "c_ring_tokens": 48,
+      "p_prose_tokens": 0,
+      "open_stems": 40,
+      "top_zodiac": {
+        "folio": "f70v1",
+        "sign": "Aries (Dark)",
+        "month": "April",
+        "season": "SPRING",
+        "idf": 12.134,
+        "stems": [
+          "okolchy",
+          "oteodain",
+          "oteo",
+          "oly",
+          "otedy"
+        ]
+      },
+      "second_zodiac": {
+        "folio": "f72v3",
+        "sign": "Leo",
+        "month": "August",
+        "idf": 10.329,
+        "stems": [
+          "okolchey",
+          "otchedy",
+          "oteos",
+          "otedy"
+        ]
+      },
+      "top_herbal": {
+        "folio": "f8r",
+        "lang": "A",
+        "quire": "A",
+        "idf": 21.343,
+        "stems": [
+          "otchal",
+          "chok",
+          "chokchy",
+          "chky",
+          "dchol",
+          "dchy",
+          "kchy",
+          "dchey",
+          "sol",
+          "dol"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f102r1",
+        "idf": 21.745,
+        "stems": [
+          "dchedy",
+          "chokol",
+          "dcheo",
+          "chocthy",
+          "keol",
+          "che",
+          "oly",
+          "sol",
+          "otedy",
+          "dol"
+        ]
+      }
+    },
+    {
+      "astro_folio": "f68v1",
+      "quire": "I",
+      "hand": "4",
+      "total_tokens": 97,
+      "l_star_tokens": 0,
+      "r_spoke_tokens": 19,
+      "c_ring_tokens": 78,
+      "p_prose_tokens": 0,
+      "open_stems": 35,
+      "top_zodiac": {
+        "folio": "f72r3",
+        "sign": "Cancer",
+        "month": "July",
+        "season": "SUMMER",
+        "idf": 17.435,
+        "stems": [
+          "chotey",
+          "oteor",
+          "okeos",
+          "oteos",
+          "chear",
+          "oteol",
+          "ykey",
+          "okedy",
+          "air",
+          "ches"
+        ]
+      },
+      "second_zodiac": {
+        "folio": "f73r",
+        "sign": "Scorpio",
+        "month": "November",
+        "idf": 17.189,
+        "stems": [
+          "chotey",
+          "chek",
+          "okeos",
+          "otaly",
+          "chockhy",
+          "oteos",
+          "okedy",
+          "air",
+          "ches"
+        ]
+      },
+      "top_herbal": {
+        "folio": "f43v",
+        "lang": "B",
+        "quire": "F",
+        "idf": 19.989,
+        "stems": [
+          "chekchey",
+          "chtey",
+          "chek",
+          "oteos",
+          "chety",
+          "oteol",
+          "tedy",
+          "okedy",
+          "air",
+          "ches"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f89v2",
+        "idf": 17.418,
+        "stems": [
+          "okeos",
+          "sair",
+          "chockhy",
+          "chos",
+          "chety",
+          "chear",
+          "cheos",
+          "okeor",
+          "okedy",
+          "air"
+        ]
+      }
+    },
+    {
+      "astro_folio": "f68v2",
+      "quire": "I",
+      "hand": "4",
+      "total_tokens": 103,
+      "l_star_tokens": 0,
+      "r_spoke_tokens": 25,
+      "c_ring_tokens": 34,
+      "p_prose_tokens": 44,
+      "open_stems": 46,
+      "top_zodiac": {
+        "folio": "f73r",
+        "sign": "Scorpio",
+        "month": "November",
+        "season": "AUTUMN",
+        "idf": 18.367,
+        "stems": [
+          "alchey",
+          "chetey",
+          "ytedy",
+          "chotey",
+          "okeos",
+          "otes",
+          "oteos",
+          "okedy"
+        ]
+      },
+      "second_zodiac": {
+        "folio": "f72v2",
+        "sign": "Virgo",
+        "month": "September",
+        "idf": 14.863,
+        "stems": [
+          "ctheo",
+          "ytedy",
+          "chotey",
+          "otes",
+          "oteos",
+          "sar",
+          "okedy"
+        ]
+      },
+      "top_herbal": {
+        "folio": "f57r",
+        "lang": "B",
+        "quire": "H",
+        "idf": 17.977,
+        "stems": [
+          "chtedy",
+          "chetey",
+          "chekey",
+          "chety",
+          "otedy",
+          "tedy",
+          "dchdy",
+          "sar",
+          "okedy"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f102v2",
+        "idf": 21.594,
+        "stems": [
+          "cheoy",
+          "okeos",
+          "chkey",
+          "oey",
+          "chekey",
+          "oteos",
+          "keol",
+          "sal",
+          "tedy",
+          "sar",
+          "okedy"
+        ]
+      }
+    },
+    {
+      "astro_folio": "f68v3",
+      "quire": "I",
+      "hand": "4",
+      "total_tokens": 169,
+      "l_star_tokens": 2,
+      "r_spoke_tokens": 46,
+      "c_ring_tokens": 66,
+      "p_prose_tokens": 55,
+      "open_stems": 62,
+      "top_zodiac": {
+        "folio": "f73r",
+        "sign": "Scorpio",
+        "month": "November",
+        "season": "AUTUMN",
+        "idf": 13.466,
+        "stems": [
+          "chetchdy",
+          "chek",
+          "ochey",
+          "ytey",
+          "okedy",
+          "air",
+          "ches"
+        ]
+      },
+      "second_zodiac": {
+        "folio": "f73v",
+        "sign": "Sagittarius",
+        "month": "December",
+        "idf": 11.976,
+        "stems": [
+          "eody",
+          "daly",
+          "choty",
+          "chodain",
+          "okedy",
+          "air"
+        ]
+      },
+      "top_herbal": {
+        "folio": "f34r",
+        "lang": "B",
+        "quire": "E",
+        "idf": 18.709,
+        "stems": [
+          "chek",
+          "ochey",
+          "sair",
+          "daly",
+          "chekey",
+          "ytey",
+          "oteol",
+          "tol",
+          "ody",
+          "air"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f89r1",
+        "idf": 23.547,
+        "stems": [
+          "sey",
+          "okchchy",
+          "cheoky",
+          "ycheo",
+          "yty",
+          "daly",
+          "chodain",
+          "okedy",
+          "air",
+          "ches"
+        ]
+      }
+    },
+    {
+      "astro_folio": "f69r",
+      "quire": "J",
+      "hand": "4",
+      "total_tokens": 158,
+      "l_star_tokens": 9,
+      "r_spoke_tokens": 66,
+      "c_ring_tokens": 9,
+      "p_prose_tokens": 36,
+      "open_stems": 55,
+      "top_zodiac": {
+        "folio": "f70v2",
+        "sign": "Pisces",
+        "month": "March",
+        "season": "SPRING",
+        "idf": 23.053,
+        "stems": [
+          "otalam",
+          "ykeos",
+          "alain",
+          "aldy",
+          "tey",
+          "daly",
+          "oteos",
+          "cheos",
+          "otedy",
+          "ykey"
+        ]
+      },
+      "second_zodiac": {
+        "folio": "f72r3",
+        "sign": "Cancer",
+        "month": "July",
+        "idf": 20.035,
+        "stems": [
+          "oteodar",
+          "alain",
+          "okeos",
+          "oes",
+          "oteos",
+          "okeo",
+          "chear",
+          "otedy",
+          "ykey",
+          "air"
+        ]
+      },
+      "top_herbal": {
+        "folio": "f43v",
+        "lang": "B",
+        "quire": "F",
+        "idf": 20.287,
+        "stems": [
+          "doly",
+          "ytchey",
+          "dary",
+          "ykar",
+          "oteos",
+          "ytey",
+          "otam",
+          "otedy",
+          "ychey",
+          "air"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f99r",
+        "idf": 18.997,
+        "stems": [
+          "aloly",
+          "otalam",
+          "okchol",
+          "okeo",
+          "sol",
+          "otedy",
+          "sar",
+          "ykey",
+          "air"
+        ]
+      }
+    },
+    {
+      "astro_folio": "f69v",
+      "quire": "J",
+      "hand": "4",
+      "total_tokens": 140,
+      "l_star_tokens": 0,
+      "r_spoke_tokens": 33,
+      "c_ring_tokens": 107,
+      "p_prose_tokens": 0,
+      "open_stems": 51,
+      "top_zodiac": {
+        "folio": "f72r3",
+        "sign": "Cancer",
+        "month": "July",
+        "season": "SUMMER",
+        "idf": 26.265,
+        "stems": [
+          "teo",
+          "choly",
+          "oteor",
+          "okeos",
+          "cheal",
+          "oteo",
+          "okeo",
+          "chear",
+          "otedy",
+          "oteol",
+          "ykey",
+          "okedy",
+          "air",
+          "ches"
+        ]
+      },
+      "second_zodiac": {
+        "folio": "f72r2",
+        "sign": "Gemini",
+        "month": "June",
+        "idf": 21.0,
+        "stems": [
+          "otoar",
+          "okeodal",
+          "okeal",
+          "otair",
+          "tey",
+          "oteo",
+          "okeo",
+          "otedy",
+          "air"
+        ]
+      },
+      "top_herbal": {
+        "folio": "f26v",
+        "lang": "B",
+        "quire": "D",
+        "idf": 19.066,
+        "stems": [
+          "alys",
+          "okeos",
+          "sair",
+          "ytdy",
+          "okeo",
+          "ychey",
+          "sar",
+          "ykey",
+          "air",
+          "ches"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f89v2",
+        "idf": 20.184,
+        "stems": [
+          "doir",
+          "okeos",
+          "otair",
+          "ykedy",
+          "sair",
+          "ockhy",
+          "chear",
+          "ychey",
+          "okedy",
+          "air"
+        ]
+      }
+    },
+    {
+      "astro_folio": "f70r1",
+      "quire": "J",
+      "hand": "4",
+      "total_tokens": 112,
+      "l_star_tokens": 0,
+      "r_spoke_tokens": 25,
+      "c_ring_tokens": 87,
+      "p_prose_tokens": 0,
+      "open_stems": 48,
+      "top_zodiac": {
+        "folio": "f72r3",
+        "sign": "Cancer",
+        "month": "July",
+        "season": "SUMMER",
+        "idf": 18.697,
+        "stems": [
+          "chotey",
+          "choly",
+          "okeos",
+          "cheal",
+          "oteos",
+          "chedain",
+          "chear",
+          "otedy",
+          "okedy",
+          "air"
+        ]
+      },
+      "second_zodiac": {
+        "folio": "f72v2",
+        "sign": "Virgo",
+        "month": "September",
+        "idf": 16.449,
+        "stems": [
+          "cheokey",
+          "ytedy",
+          "chotey",
+          "aly",
+          "okes",
+          "oteos",
+          "okedy",
+          "air"
+        ]
+      },
+      "top_herbal": {
+        "folio": "f43r",
+        "lang": "B",
+        "quire": "F",
+        "idf": 15.693,
+        "stems": [
+          "ytedy",
+          "chotey",
+          "ytar",
+          "ykedy",
+          "ched",
+          "chety",
+          "air",
+          "dam"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f89v2",
+        "idf": 14.101,
+        "stems": [
+          "okeos",
+          "otair",
+          "ykedy",
+          "chety",
+          "chear",
+          "okedy",
+          "air",
+          "dam"
+        ]
+      }
+    },
+    {
+      "astro_folio": "f70r2",
+      "quire": "J",
+      "hand": "4",
+      "total_tokens": 246,
+      "l_star_tokens": 0,
+      "r_spoke_tokens": 0,
+      "c_ring_tokens": 145,
+      "p_prose_tokens": 101,
+      "open_stems": 88,
+      "top_zodiac": {
+        "folio": "f70v2",
+        "sign": "Pisces",
+        "month": "March",
+        "season": "SPRING",
+        "idf": 30.317,
+        "stems": [
+          "dalal",
+          "chotol",
+          "chotey",
+          "aral",
+          "otair",
+          "oteo",
+          "okes",
+          "oteos",
+          "sal",
+          "chal",
+          "cheos",
+          "otedy",
+          "ody",
+          "ykey",
+          "cthey"
+        ]
+      },
+      "second_zodiac": {
+        "folio": "f72r3",
+        "sign": "Cancer",
+        "month": "July",
+        "idf": 25.127,
+        "stems": [
+          "oteodar",
+          "chotey",
+          "aral",
+          "choly",
+          "cheal",
+          "oteo",
+          "oteos",
+          "okeo",
+          "otedy",
+          "oteol",
+          "ykey",
+          "air",
+          "ches"
+        ]
+      },
+      "top_herbal": {
+        "folio": "f42r",
+        "lang": "A",
+        "quire": "F",
+        "idf": 22.814,
+        "stems": [
+          "choeky",
+          "chotol",
+          "cham",
+          "choly",
+          "choky",
+          "chal",
+          "cthol",
+          "ody",
+          "cthey",
+          "dam",
+          "ches",
+          "otchey"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f102v2",
+        "idf": 26.769,
+        "stems": [
+          "choar",
+          "okear",
+          "chkey",
+          "choy",
+          "oteo",
+          "chekey",
+          "oteos",
+          "sal",
+          "okeo",
+          "cheos",
+          "tedy",
+          "key",
+          "ykey",
+          "cthey"
+        ]
+      }
+    }
+  ]
+}

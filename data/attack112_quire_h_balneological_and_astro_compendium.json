@@ -1,0 +1,160 @@
+{
+  "attack_id": 112,
+  "discovery_id": 129,
+  "title": "The Quire H Starred Master Index, Balneological Hydrotherapy & Astronomical Foldout Compendium",
+  "markdown_edition": "notes/QUIRE_H_INDEX_BALNEOLOGICAL_AND_ASTRO_COMPENDIUM.md",
+  "attack109_summary": {
+    "F58R_F58V_QUIRE_H_STARRED_INDEX": {
+      "paragraph_count": 7,
+      "total_tokens": 753,
+      "mean_tokens_per_para": 107.57,
+      "mean_lines_per_para": 11.43,
+      "mean_hp_shared_stems": 21.43,
+      "mean_p_lbl_shared_stems": 5.14,
+      "mean_hp_idf_per_100_toks": 44.94,
+      "mean_p_lbl_per_100_toks": 5.67,
+      "o_nominal_pct": 23.51,
+      "qo_active_pct": 13.15,
+      "d_s_y_deictic_pct": 27.49,
+      "l_ol_applicative_pct": 4.25,
+      "edy_process_pct": 0.8,
+      "aiin_measure_pct": 10.23,
+      "ol_or_al_ar_liquid_pct": 41.3
+    },
+    "QUIRE_20_F103_F116_CLINICAL_RECIPES": {
+      "paragraph_count": 285,
+      "total_tokens": 10889,
+      "mean_tokens_per_para": 38.21,
+      "mean_lines_per_para": 3.8,
+      "mean_hp_shared_stems": 6.22,
+      "mean_p_lbl_shared_stems": 1.2,
+      "mean_hp_idf_per_100_toks": 33.75,
+      "mean_p_lbl_per_100_toks": 3.4,
+      "o_nominal_pct": 22.66,
+      "qo_active_pct": 16.85,
+      "d_s_y_deictic_pct": 17.19,
+      "l_ol_applicative_pct": 11.3,
+      "edy_process_pct": 14.52,
+      "aiin_measure_pct": 19.18,
+      "ol_or_al_ar_liquid_pct": 23.44
+    },
+    "pharm_label_density_z_score": 1.78
+  },
+  "attack110_herbal_b_selectivity": {
+    "balneo_folios_count": 19,
+    "herbal_b_top1_matches": 18,
+    "herbal_b_top1_pct": 94.74,
+    "herbal_b_folio_baseline_pct": 25.0,
+    "enrichment_ratio": 3.79
+  },
+  "attack110_permutation_tests": {
+    "hpb_3plus_triads_obs": 1939,
+    "hpb_3plus_triads_null_mean": 609.28,
+    "hpb_3plus_triads_null_std": 79.7,
+    "hpb_3plus_triads_z": 16.68,
+    "zhpb_2plus_tetrads_obs": 1148,
+    "zhpb_2plus_tetrads_null_mean": 389.37,
+    "zhpb_2plus_tetrads_null_std": 84.95,
+    "zhpb_2plus_tetrads_z": 8.93
+  },
+  "attack110_hydro_transformation": {
+    "shared_hpb_stems_count": 135,
+    "STAGE_1_HERBAL_PROSE": {
+      "matched_tokens": 1758,
+      "o_nominal_pct": 18.83,
+      "qo_active_pct": 8.19,
+      "l_ol_applicative_pct": 3.98,
+      "edy_process_pct": 2.5,
+      "dy_state_pct": 6.71,
+      "aiin_measure_pct": 7.34,
+      "ol_or_al_ar_liquid_pct": 41.07
+    },
+    "STAGE_2_PHARM_FORMULARY": {
+      "matched_tokens": 498,
+      "o_nominal_pct": 26.1,
+      "qo_active_pct": 11.45,
+      "l_ol_applicative_pct": 7.23,
+      "edy_process_pct": 0.6,
+      "dy_state_pct": 10.64,
+      "aiin_measure_pct": 9.44,
+      "ol_or_al_ar_liquid_pct": 38.96
+    },
+    "STAGE_3A_BALNEO_NYMPH_LABELS": {
+      "matched_tokens": 16,
+      "o_nominal_pct": 56.25,
+      "qo_active_pct": 0.0,
+      "l_ol_applicative_pct": 18.75,
+      "edy_process_pct": 6.25,
+      "dy_state_pct": 25.0,
+      "aiin_measure_pct": 6.25,
+      "ol_or_al_ar_liquid_pct": 18.75
+    },
+    "STAGE_3B_BALNEO_POOL_PROSE": {
+      "matched_tokens": 928,
+      "o_nominal_pct": 22.31,
+      "qo_active_pct": 9.38,
+      "l_ol_applicative_pct": 22.74,
+      "edy_process_pct": 8.84,
+      "dy_state_pct": 5.39,
+      "aiin_measure_pct": 8.62,
+      "ol_or_al_ar_liquid_pct": 31.79
+    }
+  },
+  "attack111_astro_zodiac_permutation": {
+    "astro_folios_count": 14,
+    "observed_mean_max_zodiac_idf": 18.026,
+    "null_mean_max_zodiac_idf": 8.976,
+    "null_std_max_zodiac_idf": 0.959,
+    "z_score": 9.43
+  },
+  "attack111_locus_gradient": {
+    "ASTRO_STAR_LABELS_L": {
+      "tokens": 106,
+      "o_nominal_pct": 59.43,
+      "qo_active_pct": 0.94,
+      "d_s_y_clause_pct": 22.64,
+      "l_ol_applicative_pct": 2.83,
+      "edy_process_pct": 1.89,
+      "dy_state_pct": 13.21,
+      "aiin_measure_pct": 6.6,
+      "ol_or_al_ar_liquid_pct": 26.42,
+      "am_m_terminus_pct": 4.72
+    },
+    "ASTRO_RADIAL_SPOKES_R": {
+      "tokens": 349,
+      "o_nominal_pct": 34.96,
+      "qo_active_pct": 4.87,
+      "d_s_y_clause_pct": 34.1,
+      "l_ol_applicative_pct": 1.43,
+      "edy_process_pct": 0.86,
+      "dy_state_pct": 14.04,
+      "aiin_measure_pct": 2.87,
+      "ol_or_al_ar_liquid_pct": 21.78,
+      "am_m_terminus_pct": 3.15
+    },
+    "ASTRO_CONCENTRIC_RINGS_C": {
+      "tokens": 707,
+      "o_nominal_pct": 32.96,
+      "qo_active_pct": 1.7,
+      "d_s_y_clause_pct": 28.43,
+      "l_ol_applicative_pct": 2.55,
+      "edy_process_pct": 2.83,
+      "dy_state_pct": 9.48,
+      "aiin_measure_pct": 5.52,
+      "ol_or_al_ar_liquid_pct": 27.72,
+      "am_m_terminus_pct": 1.13
+    },
+    "ASTRO_MARGINAL_PROSE_P": {
+      "tokens": 505,
+      "o_nominal_pct": 19.41,
+      "qo_active_pct": 5.54,
+      "d_s_y_clause_pct": 39.6,
+      "l_ol_applicative_pct": 1.58,
+      "edy_process_pct": 0.79,
+      "dy_state_pct": 7.72,
+      "aiin_measure_pct": 12.48,
+      "ol_or_al_ar_liquid_pct": 29.31,
+      "am_m_terminus_pct": 4.75
+    }
+  }
+}

@@ -1,0 +1,2404 @@
+{
+  "attack_id": 110,
+  "discovery_id": 127,
+  "title": "The Balneological (Quire M, f75r-f84v) Hydrotherapy-to-Zodiac & Herbal-Infusion Network",
+  "herbal_b_selectivity": {
+    "balneo_folios_count": 19,
+    "herbal_b_top1_matches": 18,
+    "herbal_b_top1_pct": 94.74,
+    "herbal_b_folio_baseline_pct": 25.0,
+    "enrichment_ratio": 3.79
+  },
+  "permutation_tests": {
+    "hpb_3plus_triads_obs": 1939,
+    "hpb_3plus_triads_null_mean": 609.28,
+    "hpb_3plus_triads_null_std": 79.7,
+    "hpb_3plus_triads_z": 16.68,
+    "zhpb_2plus_tetrads_obs": 1148,
+    "zhpb_2plus_tetrads_null_mean": 389.37,
+    "zhpb_2plus_tetrads_null_std": 84.95,
+    "zhpb_2plus_tetrads_z": 8.93
+  },
+  "hydrotherapy_morphological_transformation": {
+    "shared_hpb_stems_count": 135,
+    "STAGE_1_HERBAL_PROSE": {
+      "matched_tokens": 1758,
+      "o_nominal_pct": 18.83,
+      "qo_active_pct": 8.19,
+      "l_ol_applicative_pct": 3.98,
+      "edy_process_pct": 2.5,
+      "dy_state_pct": 6.71,
+      "aiin_measure_pct": 7.34,
+      "ol_or_al_ar_liquid_pct": 41.07
+    },
+    "STAGE_2_PHARM_FORMULARY": {
+      "matched_tokens": 498,
+      "o_nominal_pct": 26.1,
+      "qo_active_pct": 11.45,
+      "l_ol_applicative_pct": 7.23,
+      "edy_process_pct": 0.6,
+      "dy_state_pct": 10.64,
+      "aiin_measure_pct": 9.44,
+      "ol_or_al_ar_liquid_pct": 38.96
+    },
+    "STAGE_3A_BALNEO_NYMPH_LABELS": {
+      "matched_tokens": 16,
+      "o_nominal_pct": 56.25,
+      "qo_active_pct": 0.0,
+      "l_ol_applicative_pct": 18.75,
+      "edy_process_pct": 6.25,
+      "dy_state_pct": 25.0,
+      "aiin_measure_pct": 6.25,
+      "ol_or_al_ar_liquid_pct": 18.75
+    },
+    "STAGE_3B_BALNEO_POOL_PROSE": {
+      "matched_tokens": 928,
+      "o_nominal_pct": 22.31,
+      "qo_active_pct": 9.38,
+      "l_ol_applicative_pct": 22.74,
+      "edy_process_pct": 8.84,
+      "dy_state_pct": 5.39,
+      "aiin_measure_pct": 8.62,
+      "ol_or_al_ar_liquid_pct": 31.79
+    }
+  },
+  "balneological_20folio_atlas": [
+    {
+      "balneo_folio": "f75r",
+      "bifolio": "1",
+      "tokens": 418,
+      "nymph_labels": 0,
+      "open_stems": 90,
+      "top_herbal": {
+        "folio": "f46r",
+        "lang": "B",
+        "quire": "F",
+        "idf": 25.822,
+        "stems": [
+          "chkal",
+          "tchedar",
+          "okaldy",
+          "ldy",
+          "kal",
+          "daly",
+          "chety",
+          "checkhy",
+          "tchey",
+          "okam",
+          "kar",
+          "tedy",
+          "ykey"
+        ]
+      },
+      "second_herbal": {
+        "folio": "f43r",
+        "lang": "B",
+        "idf": 25.631,
+        "stems": [
+          "chekdy",
+          "okaldy",
+          "olky",
+          "chcthdy",
+          "olor",
+          "daly",
+          "chety",
+          "checkhy",
+          "otam",
+          "dor",
+          "kar",
+          "tedy",
+          "dchdy"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f99v",
+        "idf": 21.453,
+        "stems": [
+          "saino",
+          "koldy",
+          "okoldy",
+          "olky",
+          "ckhey",
+          "oldy",
+          "sol",
+          "olain",
+          "ykey"
+        ],
+        "label_hits": [
+          "oldy",
+          "olky",
+          "saino"
+        ]
+      },
+      "top_zodiac": {
+        "folio": "f72v3",
+        "sign": "Leo",
+        "month": "August",
+        "idf": 19.083,
+        "stems": [
+          "orchey",
+          "okechdy",
+          "okaldy",
+          "checthy",
+          "oldy",
+          "chety",
+          "okam",
+          "olain",
+          "tedy"
+        ]
+      }
+    },
+    {
+      "balneo_folio": "f75v",
+      "bifolio": "1",
+      "tokens": 359,
+      "nymph_labels": 35,
+      "open_stems": 86,
+      "top_herbal": {
+        "folio": "f48v",
+        "lang": "B",
+        "quire": "F",
+        "idf": 39.116,
+        "stems": [
+          "alchdy",
+          "otoly",
+          "oted",
+          "tchedar",
+          "tor",
+          "lol",
+          "oldy",
+          "ched",
+          "ytdy",
+          "oly",
+          "olkey",
+          "chety",
+          "cthdy",
+          "ykdy",
+          "otam",
+          "okeor",
+          "tol",
+          "tedy",
+          "dchdy",
+          "cthey"
+        ]
+      },
+      "second_herbal": {
+        "folio": "f43v",
+        "lang": "B",
+        "idf": 25.13,
+        "stems": [
+          "chesy",
+          "dary",
+          "ykain",
+          "ytdy",
+          "chety",
+          "olkey",
+          "checkhy",
+          "ykdy",
+          "otam",
+          "ychey",
+          "ody",
+          "tedy",
+          "dchdy",
+          "cthey"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f101v",
+        "idf": 24.881,
+        "stems": [
+          "otoly",
+          "olcheol",
+          "ory",
+          "soin",
+          "lol",
+          "kchey",
+          "sal",
+          "okeor",
+          "olain",
+          "oin",
+          "ody",
+          "cthey",
+          "dol"
+        ],
+        "label_hits": [
+          "otoly"
+        ]
+      },
+      "top_zodiac": {
+        "folio": "f72v1",
+        "sign": "Libra",
+        "month": "October",
+        "idf": 14.794,
+        "stems": [
+          "okydy",
+          "alchdy",
+          "tal",
+          "okaly",
+          "ykdy",
+          "ychey"
+        ]
+      }
+    },
+    {
+      "balneo_folio": "f76v",
+      "bifolio": "2",
+      "tokens": 400,
+      "nymph_labels": 0,
+      "open_stems": 103,
+      "top_herbal": {
+        "folio": "f48v",
+        "lang": "B",
+        "quire": "F",
+        "idf": 32.249,
+        "stems": [
+          "alchdy",
+          "oted",
+          "edy",
+          "chek",
+          "otes",
+          "lol",
+          "chckhdy",
+          "oldy",
+          "oly",
+          "chety",
+          "olkey",
+          "tain",
+          "cthdy",
+          "tedy",
+          "dchdy",
+          "cthey"
+        ]
+      },
+      "second_herbal": {
+        "folio": "f39r",
+        "lang": "B",
+        "idf": 29.839,
+        "stems": [
+          "okedar",
+          "ockhdy",
+          "edy",
+          "olor",
+          "aly",
+          "chdar",
+          "chekain",
+          "chckhdy",
+          "chckhey",
+          "checkhy",
+          "olchey",
+          "oteol",
+          "tedy",
+          "dchdy",
+          "ches"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f89r2",
+        "idf": 20.258,
+        "stems": [
+          "chchky",
+          "dey",
+          "oldy",
+          "chkain",
+          "olkey",
+          "chedain",
+          "oteol",
+          "oin",
+          "cthey",
+          "dol"
+        ],
+        "label_hits": []
+      },
+      "top_zodiac": {
+        "folio": "f72r3",
+        "sign": "Cancer",
+        "month": "July",
+        "idf": 16.518,
+        "stems": [
+          "dotey",
+          "edy",
+          "otes",
+          "chedain",
+          "oteol",
+          "oin",
+          "okor",
+          "ches"
+        ]
+      }
+    },
+    {
+      "balneo_folio": "f77r",
+      "bifolio": "3",
+      "tokens": 332,
+      "nymph_labels": 7,
+      "open_stems": 70,
+      "top_herbal": {
+        "folio": "f39r",
+        "lang": "B",
+        "quire": "E",
+        "idf": 21.387,
+        "stems": [
+          "lain",
+          "edy",
+          "chckhey",
+          "che",
+          "ykain",
+          "olkain",
+          "checkhy",
+          "olchey",
+          "olain",
+          "tedy",
+          "dchdy",
+          "ches"
+        ]
+      },
+      "second_herbal": {
+        "folio": "f43r",
+        "lang": "B",
+        "idf": 19.153,
+        "stems": [
+          "oddy",
+          "otary",
+          "ched",
+          "che",
+          "chety",
+          "checkhy",
+          "oin",
+          "tedy",
+          "dchdy",
+          "cthey"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f100v",
+        "idf": 16.726,
+        "stems": [
+          "tolchd",
+          "soral",
+          "cheal",
+          "chckhey",
+          "sal",
+          "dchdy",
+          "ches"
+        ],
+        "label_hits": [
+          "dchdy",
+          "tolchd"
+        ]
+      },
+      "top_zodiac": {
+        "folio": "f72r3",
+        "sign": "Cancer",
+        "month": "July",
+        "idf": 12.16,
+        "stems": [
+          "edy",
+          "cheal",
+          "chedain",
+          "chear",
+          "olain",
+          "oin",
+          "ches"
+        ]
+      }
+    },
+    {
+      "balneo_folio": "f77v",
+      "bifolio": "3",
+      "tokens": 332,
+      "nymph_labels": 11,
+      "open_stems": 86,
+      "top_herbal": {
+        "folio": "f34v",
+        "lang": "B",
+        "quire": "E",
+        "idf": 27.292,
+        "stems": [
+          "dychdy",
+          "ytal",
+          "tchedar",
+          "chs",
+          "chdal",
+          "chdain",
+          "kal",
+          "olchdy",
+          "checkhy",
+          "okam",
+          "kchdy",
+          "tedy"
+        ]
+      },
+      "second_herbal": {
+        "folio": "f39r",
+        "lang": "B",
+        "idf": 24.377,
+        "stems": [
+          "okalchdy",
+          "edy",
+          "chdain",
+          "odal",
+          "olkain",
+          "checkhy",
+          "olchey",
+          "okam",
+          "orain",
+          "kchdy",
+          "tedy",
+          "dchdy",
+          "ches"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f101v",
+        "idf": 20.804,
+        "stems": [
+          "ytal",
+          "chs",
+          "choldy",
+          "ockhy",
+          "lol",
+          "kchey",
+          "sal",
+          "orain",
+          "oin",
+          "ches",
+          "dol"
+        ],
+        "label_hits": [
+          "ytal"
+        ]
+      },
+      "top_zodiac": {
+        "folio": "f72r3",
+        "sign": "Cancer",
+        "month": "July",
+        "idf": 12.308,
+        "stems": [
+          "alain",
+          "olol",
+          "edy",
+          "orain",
+          "oin",
+          "ches"
+        ]
+      }
+    },
+    {
+      "balneo_folio": "f78r",
+      "bifolio": "4",
+      "tokens": 298,
+      "nymph_labels": 8,
+      "open_stems": 77,
+      "top_herbal": {
+        "folio": "f39r",
+        "lang": "B",
+        "quire": "E",
+        "idf": 25.807,
+        "stems": [
+          "okedar",
+          "chdar",
+          "chckhdy",
+          "che",
+          "ykain",
+          "olkain",
+          "checkhy",
+          "ykdy",
+          "olchey",
+          "orain",
+          "kar",
+          "tedy",
+          "dchdy",
+          "dam",
+          "ches"
+        ]
+      },
+      "second_herbal": {
+        "folio": "f40r",
+        "lang": "B",
+        "idf": 25.511,
+        "stems": [
+          "chckhd",
+          "ykchey",
+          "ckhdy",
+          "chekdy",
+          "ykain",
+          "olkdy",
+          "tchey",
+          "ykdy",
+          "olchey",
+          "orain",
+          "kar",
+          "otor"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f101r",
+        "idf": 18.275,
+        "stems": [
+          "chl",
+          "soin",
+          "kchol",
+          "tchey",
+          "olchey",
+          "tol",
+          "dor",
+          "kar",
+          "okor",
+          "ches",
+          "dol"
+        ],
+        "label_hits": []
+      },
+      "top_zodiac": {
+        "folio": "f72r2",
+        "sign": "Gemini",
+        "month": "June",
+        "idf": 17.297,
+        "stems": [
+          "aloy",
+          "taly",
+          "dalchdy",
+          "okaly",
+          "otaly",
+          "oly"
+        ]
+      }
+    },
+    {
+      "balneo_folio": "f78v",
+      "bifolio": "4",
+      "tokens": 295,
+      "nymph_labels": 0,
+      "open_stems": 67,
+      "top_herbal": {
+        "folio": "f48v",
+        "lang": "B",
+        "quire": "F",
+        "idf": 28.277,
+        "stems": [
+          "los",
+          "ykal",
+          "chek",
+          "ary",
+          "lol",
+          "ytdy",
+          "oly",
+          "chety",
+          "olkey",
+          "cthdy",
+          "ykdy",
+          "kchdy",
+          "tedy",
+          "dchdy"
+        ]
+      },
+      "second_herbal": {
+        "folio": "f39r",
+        "lang": "B",
+        "idf": 23.943,
+        "stems": [
+          "cholkal",
+          "ykal",
+          "chckhey",
+          "olkain",
+          "ykdy",
+          "olchey",
+          "orain",
+          "kchdy",
+          "kar",
+          "tedy",
+          "dchdy",
+          "ykey",
+          "dam"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f101v",
+        "idf": 21.282,
+        "stems": [
+          "otaldy",
+          "olcheol",
+          "teol",
+          "ary",
+          "lol",
+          "sal",
+          "orain",
+          "oin",
+          "kar",
+          "otchey",
+          "dol"
+        ],
+        "label_hits": [
+          "otaldy"
+        ]
+      },
+      "top_zodiac": {
+        "folio": "f70v2",
+        "sign": "Pisces",
+        "month": "March",
+        "idf": 11.97,
+        "stems": [
+          "cholkal",
+          "otaldy",
+          "otaly",
+          "sal",
+          "ykey"
+        ]
+      }
+    },
+    {
+      "balneo_folio": "f79r",
+      "bifolio": "5",
+      "tokens": 383,
+      "nymph_labels": 0,
+      "open_stems": 90,
+      "top_herbal": {
+        "folio": "f43r",
+        "lang": "B",
+        "quire": "F",
+        "idf": 31.916,
+        "stems": [
+          "dyty",
+          "das",
+          "okaldy",
+          "olky",
+          "olor",
+          "ykchdy",
+          "choy",
+          "ched",
+          "ytey",
+          "checkhy",
+          "kchdy",
+          "ody",
+          "dchdy",
+          "air",
+          "dam"
+        ]
+      },
+      "second_herbal": {
+        "folio": "f34r",
+        "lang": "B",
+        "idf": 31.621,
+        "stems": [
+          "kas",
+          "oltchdy",
+          "olchy",
+          "chek",
+          "ochey",
+          "ykchdy",
+          "chekey",
+          "lchey",
+          "ytey",
+          "oly",
+          "checkhy",
+          "tol",
+          "ody",
+          "air",
+          "dam"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f99v",
+        "idf": 22.59,
+        "stems": [
+          "cholchey",
+          "oltchey",
+          "otoldy",
+          "olchy",
+          "olky",
+          "choty",
+          "sol",
+          "olain",
+          "okchey",
+          "ykey"
+        ],
+        "label_hits": [
+          "olky",
+          "otoldy"
+        ]
+      },
+      "top_zodiac": {
+        "folio": "f72r3",
+        "sign": "Cancer",
+        "month": "July",
+        "idf": 19.288,
+        "stems": [
+          "oral",
+          "ory",
+          "olol",
+          "ochey",
+          "choty",
+          "chear",
+          "olain",
+          "ykey",
+          "air",
+          "ches"
+        ]
+      }
+    },
+    {
+      "balneo_folio": "f79v",
+      "bifolio": "5",
+      "tokens": 356,
+      "nymph_labels": 0,
+      "open_stems": 93,
+      "top_herbal": {
+        "folio": "f43r",
+        "lang": "B",
+        "quire": "F",
+        "idf": 25.646,
+        "stems": [
+          "otolol",
+          "daral",
+          "olky",
+          "yty",
+          "ytdy",
+          "ytey",
+          "checkhy",
+          "oin",
+          "dor",
+          "kar",
+          "tedy",
+          "dchdy"
+        ]
+      },
+      "second_herbal": {
+        "folio": "f34r",
+        "lang": "B",
+        "idf": 24.575,
+        "stems": [
+          "olar",
+          "ochey",
+          "checthy",
+          "chekey",
+          "okes",
+          "lchey",
+          "ytdy",
+          "ytey",
+          "oly",
+          "checkhy",
+          "ykdy",
+          "tol",
+          "kar"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f101r",
+        "idf": 22.004,
+        "stems": [
+          "ory",
+          "chl",
+          "chekey",
+          "chal",
+          "tchey",
+          "olchey",
+          "tol",
+          "oin",
+          "dor",
+          "kar",
+          "key",
+          "okchey",
+          "dol"
+        ],
+        "label_hits": []
+      },
+      "top_zodiac": {
+        "folio": "f73r",
+        "sign": "Scorpio",
+        "month": "November",
+        "idf": 15.799,
+        "stems": [
+          "chetchey",
+          "oram",
+          "ochey",
+          "okes",
+          "ytey",
+          "ykdy",
+          "kar"
+        ]
+      }
+    },
+    {
+      "balneo_folio": "f80r",
+      "bifolio": "5",
+      "tokens": 446,
+      "nymph_labels": 8,
+      "open_stems": 108,
+      "top_herbal": {
+        "folio": "f39r",
+        "lang": "B",
+        "quire": "E",
+        "idf": 26.722,
+        "stems": [
+          "chetain",
+          "olor",
+          "chekain",
+          "okair",
+          "chckhey",
+          "olkain",
+          "checkhy",
+          "olchey",
+          "okam",
+          "orain",
+          "kchdy",
+          "kar",
+          "dchdy",
+          "ykey",
+          "ches"
+        ]
+      },
+      "second_herbal": {
+        "folio": "f48v",
+        "lang": "B",
+        "idf": 24.617,
+        "stems": [
+          "tolkain",
+          "ary",
+          "tor",
+          "daly",
+          "lol",
+          "oly",
+          "chety",
+          "olkey",
+          "tar",
+          "tain",
+          "kchdy",
+          "dchdy"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f101v",
+        "idf": 26.967,
+        "stems": [
+          "octhor",
+          "otcheol",
+          "ory",
+          "teol",
+          "olor",
+          "ary",
+          "lol",
+          "sal",
+          "orain",
+          "kar",
+          "ches",
+          "otchey",
+          "dol"
+        ],
+        "label_hits": []
+      },
+      "top_zodiac": {
+        "folio": "f72v3",
+        "sign": "Leo",
+        "month": "August",
+        "idf": 21.824,
+        "stems": [
+          "chkeol",
+          "orchey",
+          "okary",
+          "okaly",
+          "otaly",
+          "checthy",
+          "chety",
+          "okam",
+          "ches"
+        ]
+      }
+    },
+    {
+      "balneo_folio": "f80v",
+      "bifolio": "5",
+      "tokens": 376,
+      "nymph_labels": 0,
+      "open_stems": 86,
+      "top_herbal": {
+        "folio": "f17v",
+        "lang": "A",
+        "quire": "C",
+        "idf": 19.685,
+        "stems": [
+          "ycheol",
+          "olcheol",
+          "olol",
+          "checthy",
+          "tchol",
+          "cthor",
+          "sor",
+          "sar",
+          "otor",
+          "dol"
+        ]
+      },
+      "second_herbal": {
+        "folio": "f48v",
+        "lang": "B",
+        "idf": 16.636,
+        "stems": [
+          "loldy",
+          "tor",
+          "daly",
+          "oly",
+          "tar",
+          "otam",
+          "tol",
+          "dchdy"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f101r",
+        "idf": 21.05,
+        "stems": [
+          "olcheol",
+          "tcheol",
+          "soin",
+          "chal",
+          "tchey",
+          "olchey",
+          "tol",
+          "oin",
+          "key",
+          "okchey",
+          "ches",
+          "dol"
+        ],
+        "label_hits": []
+      },
+      "top_zodiac": {
+        "folio": "f71v",
+        "sign": "Taurus (Light)",
+        "month": "May",
+        "idf": 15.755,
+        "stems": [
+          "otalor",
+          "arol",
+          "tal",
+          "aly",
+          "chal",
+          "key",
+          "otor"
+        ]
+      }
+    },
+    {
+      "balneo_folio": "f81r",
+      "bifolio": "4",
+      "tokens": 210,
+      "nymph_labels": 0,
+      "open_stems": 56,
+      "top_herbal": {
+        "folio": "f34r",
+        "lang": "B",
+        "quire": "E",
+        "idf": 21.525,
+        "stems": [
+          "oltchdy",
+          "ytar",
+          "checthy",
+          "daly",
+          "lchey",
+          "oly",
+          "checkhy",
+          "ykdy",
+          "oteol",
+          "ody",
+          "okor"
+        ]
+      },
+      "second_herbal": {
+        "folio": "f95v1",
+        "lang": "B",
+        "idf": 20.149,
+        "stems": [
+          "oltdy",
+          "olkchdy",
+          "olkar",
+          "chedar",
+          "dchey",
+          "tar",
+          "rain",
+          "tain",
+          "ody",
+          "dchdy"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f101v",
+        "idf": 15.608,
+        "stems": [
+          "olcheol",
+          "soin",
+          "lol",
+          "orain",
+          "olain",
+          "ody",
+          "okor",
+          "ches",
+          "dol"
+        ],
+        "label_hits": []
+      },
+      "top_zodiac": {
+        "folio": "f72v3",
+        "sign": "Leo",
+        "month": "August",
+        "idf": 12.812,
+        "stems": [
+          "okechdy",
+          "checthy",
+          "oedy",
+          "ykdy",
+          "olain",
+          "tedy",
+          "ches"
+        ]
+      }
+    },
+    {
+      "balneo_folio": "f81v",
+      "bifolio": "4",
+      "tokens": 255,
+      "nymph_labels": 2,
+      "open_stems": 63,
+      "top_herbal": {
+        "folio": "f48r",
+        "lang": "B",
+        "quire": "F",
+        "idf": 23.544,
+        "stems": [
+          "chetdy",
+          "octhey",
+          "teol",
+          "daldy",
+          "ytdy",
+          "ytey",
+          "ckhy",
+          "ykdy",
+          "olchey",
+          "tedy",
+          "ykey",
+          "dol"
+        ]
+      },
+      "second_herbal": {
+        "folio": "f46r",
+        "lang": "B",
+        "idf": 20.973,
+        "stems": [
+          "chekal",
+          "dcheol",
+          "chek",
+          "oedy",
+          "ytdy",
+          "ytey",
+          "cthdy",
+          "checkhy",
+          "kar",
+          "tedy",
+          "ykey"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f89v1",
+        "idf": 17.424,
+        "stems": [
+          "ykol",
+          "chekal",
+          "daldy",
+          "ytey",
+          "sal",
+          "cthdy",
+          "ckhy",
+          "sar",
+          "ykey"
+        ],
+        "label_hits": []
+      },
+      "top_zodiac": {
+        "folio": "f73r",
+        "sign": "Scorpio",
+        "month": "November",
+        "idf": 12.554,
+        "stems": [
+          "chekal",
+          "okedal",
+          "chek",
+          "ytey",
+          "ykdy",
+          "kar"
+        ]
+      }
+    },
+    {
+      "balneo_folio": "f82r",
+      "bifolio": "3",
+      "tokens": 291,
+      "nymph_labels": 13,
+      "open_stems": 75,
+      "top_herbal": {
+        "folio": "f50v",
+        "lang": "B",
+        "quire": "G",
+        "idf": 22.569,
+        "stems": [
+          "chotchdy",
+          "chkdy",
+          "chkey",
+          "okaly",
+          "chckhey",
+          "olchdy",
+          "lchey",
+          "checkhy",
+          "olain",
+          "dchdy",
+          "ykey"
+        ]
+      },
+      "second_herbal": {
+        "folio": "f39r",
+        "lang": "B",
+        "idf": 17.612,
+        "stems": [
+          "ydy",
+          "chkey",
+          "chckhey",
+          "checkhy",
+          "oteol",
+          "olain",
+          "dchdy",
+          "ykey",
+          "dam",
+          "ches"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f89v1",
+        "idf": 23.323,
+        "stems": [
+          "cheoky",
+          "okoin",
+          "okaldy",
+          "daldy",
+          "sal",
+          "okeor",
+          "sol",
+          "olain",
+          "cthol",
+          "sar",
+          "ykey",
+          "cthey",
+          "dam"
+        ],
+        "label_hits": [
+          "olain"
+        ]
+      },
+      "top_zodiac": {
+        "folio": "f72r3",
+        "sign": "Cancer",
+        "month": "July",
+        "idf": 15.905,
+        "stems": [
+          "ory",
+          "oteor",
+          "cheal",
+          "chedain",
+          "oteol",
+          "olain",
+          "okor",
+          "ykey",
+          "ches"
+        ]
+      }
+    },
+    {
+      "balneo_folio": "f82v",
+      "bifolio": "3",
+      "tokens": 319,
+      "nymph_labels": 11,
+      "open_stems": 77,
+      "top_herbal": {
+        "folio": "f48r",
+        "lang": "B",
+        "quire": "F",
+        "idf": 21.493,
+        "stems": [
+          "chetdy",
+          "alchey",
+          "teol",
+          "lkdy",
+          "olkey",
+          "ykdy",
+          "olchey",
+          "olain",
+          "ody",
+          "tedy",
+          "dol"
+        ]
+      },
+      "second_herbal": {
+        "folio": "f39r",
+        "lang": "B",
+        "idf": 21.146,
+        "stems": [
+          "olor",
+          "aly",
+          "chckhdy",
+          "okair",
+          "olkain",
+          "checkhy",
+          "ykdy",
+          "olchey",
+          "olain",
+          "tedy",
+          "dchdy",
+          "ches"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f101r",
+        "idf": 19.189,
+        "stems": [
+          "tcheol",
+          "teol",
+          "chl",
+          "kol",
+          "olchey",
+          "olain",
+          "tol",
+          "ody",
+          "okchey",
+          "ches",
+          "dol"
+        ],
+        "label_hits": []
+      },
+      "top_zodiac": {
+        "folio": "f72r2",
+        "sign": "Gemini",
+        "month": "June",
+        "idf": 11.38,
+        "stems": [
+          "dalchdy",
+          "okedal",
+          "aly",
+          "otaly",
+          "olain"
+        ]
+      }
+    },
+    {
+      "balneo_folio": "f83r",
+      "bifolio": "2",
+      "tokens": 345,
+      "nymph_labels": 4,
+      "open_stems": 81,
+      "top_herbal": {
+        "folio": "f50v",
+        "lang": "B",
+        "quire": "G",
+        "idf": 27.292,
+        "stems": [
+          "ekain",
+          "chechy",
+          "ldar",
+          "chkdy",
+          "ols",
+          "okair",
+          "chckhey",
+          "olkain",
+          "olchdy",
+          "checkhy",
+          "otor"
+        ]
+      },
+      "second_herbal": {
+        "folio": "f34v",
+        "lang": "B",
+        "idf": 22.466,
+        "stems": [
+          "chekchy",
+          "tchedar",
+          "chdal",
+          "chcthdy",
+          "chckhdy",
+          "chkain",
+          "olchdy",
+          "checkhy",
+          "chedain",
+          "tol",
+          "ody"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f88r",
+        "idf": 18.349,
+        "stems": [
+          "cheb",
+          "ockhol",
+          "sam",
+          "ockhey",
+          "oldy",
+          "olkey",
+          "sar",
+          "otor"
+        ],
+        "label_hits": [
+          "otor"
+        ]
+      },
+      "top_zodiac": {
+        "folio": "f72r3",
+        "sign": "Cancer",
+        "month": "July",
+        "idf": 9.929,
+        "stems": [
+          "cheg",
+          "edy",
+          "ytain",
+          "chedain"
+        ]
+      }
+    },
+    {
+      "balneo_folio": "f83v",
+      "bifolio": "2",
+      "tokens": 261,
+      "nymph_labels": 4,
+      "open_stems": 72,
+      "top_herbal": {
+        "folio": "f50v",
+        "lang": "B",
+        "quire": "G",
+        "idf": 17.976,
+        "stems": [
+          "dalol",
+          "ols",
+          "okaly",
+          "chckhey",
+          "olchdy",
+          "lchey",
+          "checkhy",
+          "olain",
+          "okchey"
+        ]
+      },
+      "second_herbal": {
+        "folio": "f26r",
+        "lang": "B",
+        "idf": 16.193,
+        "stems": [
+          "checthdy",
+          "dalchdy",
+          "rchdy",
+          "otedar",
+          "olchdy",
+          "sar",
+          "cthey"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f89v1",
+        "idf": 18.144,
+        "stems": [
+          "dalchdy",
+          "ols",
+          "choldy",
+          "sal",
+          "okeor",
+          "sol",
+          "chear",
+          "olain",
+          "sar",
+          "cthey"
+        ],
+        "label_hits": [
+          "olain"
+        ]
+      },
+      "top_zodiac": {
+        "folio": "f72r2",
+        "sign": "Gemini",
+        "month": "June",
+        "idf": 14.271,
+        "stems": [
+          "oeo",
+          "dalchdy",
+          "okaly",
+          "oly",
+          "otedy",
+          "olain",
+          "otchey"
+        ]
+      }
+    },
+    {
+      "balneo_folio": "f84r",
+      "bifolio": "1",
+      "tokens": 368,
+      "nymph_labels": 14,
+      "open_stems": 83,
+      "top_herbal": {
+        "folio": "f48v",
+        "lang": "B",
+        "quire": "F",
+        "idf": 31.217,
+        "stems": [
+          "chtol",
+          "otoly",
+          "edy",
+          "ary",
+          "tor",
+          "chckhdy",
+          "ytdy",
+          "oly",
+          "olkey",
+          "tar",
+          "ykdy",
+          "okeor",
+          "tol",
+          "tedy",
+          "dchdy",
+          "air"
+        ]
+      },
+      "second_herbal": {
+        "folio": "f34r",
+        "lang": "B",
+        "idf": 30.095,
+        "stems": [
+          "ked",
+          "chetey",
+          "chekar",
+          "olchy",
+          "ykchdy",
+          "checthy",
+          "lor",
+          "ytdy",
+          "oly",
+          "checkhy",
+          "ykdy",
+          "tol",
+          "okor",
+          "air",
+          "dam"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f101v",
+        "idf": 23.92,
+        "stems": [
+          "ydy",
+          "otoly",
+          "ory",
+          "teol",
+          "ary",
+          "kol",
+          "okeor",
+          "olain",
+          "cthol",
+          "okor",
+          "otchey",
+          "dol"
+        ],
+        "label_hits": [
+          "otoly"
+        ]
+      },
+      "top_zodiac": {
+        "folio": "f70v1",
+        "sign": "Aries (Dark)",
+        "month": "April",
+        "idf": 19.987,
+        "stems": [
+          "okolchy",
+          "okoly",
+          "otaly",
+          "oly",
+          "tar",
+          "rain",
+          "olain",
+          "otor",
+          "air",
+          "otchey"
+        ]
+      }
+    },
+    {
+      "balneo_folio": "f84v",
+      "bifolio": "1",
+      "tokens": 341,
+      "nymph_labels": 0,
+      "open_stems": 82,
+      "top_herbal": {
+        "folio": "f48v",
+        "lang": "B",
+        "quire": "F",
+        "idf": 35.268,
+        "stems": [
+          "chtol",
+          "alchey",
+          "oted",
+          "edy",
+          "otes",
+          "kor",
+          "lkey",
+          "lol",
+          "chckhdy",
+          "oldy",
+          "oly",
+          "olkey",
+          "ykdy",
+          "tol",
+          "kchdy",
+          "tedy",
+          "dchdy"
+        ]
+      },
+      "second_herbal": {
+        "folio": "f34r",
+        "lang": "B",
+        "idf": 27.956,
+        "stems": [
+          "ked",
+          "olchy",
+          "ochey",
+          "ykchdy",
+          "okaly",
+          "checthy",
+          "okes",
+          "lchey",
+          "oly",
+          "ykdy",
+          "oteol",
+          "tol",
+          "okor",
+          "dam"
+        ]
+      },
+      "top_pharm": {
+        "folio": "f99v",
+        "idf": 23.553,
+        "stems": [
+          "eol",
+          "koldy",
+          "olchy",
+          "ols",
+          "okechy",
+          "ckhey",
+          "oldy",
+          "sol",
+          "okor",
+          "okchey",
+          "dol"
+        ],
+        "label_hits": [
+          "okechy",
+          "oldy"
+        ]
+      },
+      "top_zodiac": {
+        "folio": "f72r3",
+        "sign": "Cancer",
+        "month": "July",
+        "idf": 20.025,
+        "stems": [
+          "eol",
+          "olol",
+          "otedar",
+          "edy",
+          "ochey",
+          "otes",
+          "oteol",
+          "okor",
+          "ches"
+        ]
+      }
+    }
+  ],
+  "top_20_hpb_3stage_triads": [
+    {
+      "herbal_folio": "f93r",
+      "herbal_lang": "A",
+      "pharm_folio": "f89v1",
+      "balneo_folio": "f82r",
+      "balneo_bifolio": "3",
+      "shared_count": 6,
+      "shared_stems": [
+        "cheoky",
+        "daldy",
+        "sal",
+        "sol",
+        "cthol",
+        "dam"
+      ],
+      "label_anchored_stems": [],
+      "idf_score": 11.115
+    },
+    {
+      "herbal_folio": "f46r",
+      "herbal_lang": "B",
+      "pharm_folio": "f89v1",
+      "balneo_folio": "f79r",
+      "balneo_bifolio": "5",
+      "shared_count": 6,
+      "shared_stems": [
+        "okaldy",
+        "chekey",
+        "ytey",
+        "chear",
+        "ykey",
+        "dam"
+      ],
+      "label_anchored_stems": [],
+      "idf_score": 10.47
+    },
+    {
+      "herbal_folio": "f31v",
+      "herbal_lang": "B",
+      "pharm_folio": "f101v",
+      "balneo_folio": "f78r",
+      "balneo_bifolio": "4",
+      "shared_count": 6,
+      "shared_stems": [
+        "keol",
+        "che",
+        "orain",
+        "kar",
+        "okor",
+        "ches"
+      ],
+      "label_anchored_stems": [],
+      "idf_score": 9.523
+    },
+    {
+      "herbal_folio": "f23v",
+      "herbal_lang": "A",
+      "pharm_folio": "f99v",
+      "balneo_folio": "f78v",
+      "balneo_bifolio": "4",
+      "shared_count": 6,
+      "shared_stems": [
+        "ols",
+        "sol",
+        "oin",
+        "okchey",
+        "otor",
+        "dol"
+      ],
+      "label_anchored_stems": [
+        "otor"
+      ],
+      "idf_score": 9.299
+    },
+    {
+      "herbal_folio": "f39r",
+      "herbal_lang": "B",
+      "pharm_folio": "f88v",
+      "balneo_folio": "f79r",
+      "balneo_bifolio": "5",
+      "shared_count": 6,
+      "shared_stems": [
+        "choy",
+        "checkhy",
+        "olain",
+        "ykey",
+        "dam",
+        "ches"
+      ],
+      "label_anchored_stems": [],
+      "idf_score": 9.162
+    },
+    {
+      "herbal_folio": "f17v",
+      "herbal_lang": "A",
+      "pharm_folio": "f102v2",
+      "balneo_folio": "f82r",
+      "balneo_bifolio": "3",
+      "shared_count": 6,
+      "shared_stems": [
+        "chkey",
+        "okeor",
+        "sar",
+        "ykey",
+        "cthey",
+        "dol"
+      ],
+      "label_anchored_stems": [],
+      "idf_score": 9.072
+    },
+    {
+      "herbal_folio": "f93r",
+      "herbal_lang": "A",
+      "pharm_folio": "f102r2",
+      "balneo_folio": "f78r",
+      "balneo_bifolio": "4",
+      "shared_count": 6,
+      "shared_stems": [
+        "keol",
+        "sol",
+        "sor",
+        "okor",
+        "otor",
+        "dol"
+      ],
+      "label_anchored_stems": [],
+      "idf_score": 9.035
+    },
+    {
+      "herbal_folio": "f17v",
+      "herbal_lang": "A",
+      "pharm_folio": "f102v2",
+      "balneo_folio": "f75v",
+      "balneo_bifolio": "1",
+      "shared_count": 6,
+      "shared_stems": [
+        "ckhy",
+        "okeor",
+        "sor",
+        "ychey",
+        "cthey",
+        "dol"
+      ],
+      "label_anchored_stems": [],
+      "idf_score": 8.911
+    },
+    {
+      "herbal_folio": "f93r",
+      "herbal_lang": "A",
+      "pharm_folio": "f102r2",
+      "balneo_folio": "f84r",
+      "balneo_bifolio": "1",
+      "shared_count": 6,
+      "shared_stems": [
+        "sol",
+        "sor",
+        "cthol",
+        "okor",
+        "otor",
+        "dol"
+      ],
+      "label_anchored_stems": [],
+      "idf_score": 8.669
+    },
+    {
+      "herbal_folio": "f39r",
+      "herbal_lang": "B",
+      "pharm_folio": "f88v",
+      "balneo_folio": "f82r",
+      "balneo_bifolio": "3",
+      "shared_count": 6,
+      "shared_stems": [
+        "checkhy",
+        "oteol",
+        "olain",
+        "ykey",
+        "dam",
+        "ches"
+      ],
+      "label_anchored_stems": [
+        "olain"
+      ],
+      "idf_score": 8.644
+    },
+    {
+      "herbal_folio": "f54r",
+      "herbal_lang": "A",
+      "pharm_folio": "f99r",
+      "balneo_folio": "f84r",
+      "balneo_bifolio": "1",
+      "shared_count": 6,
+      "shared_stems": [
+        "sol",
+        "okor",
+        "sar",
+        "air",
+        "dam",
+        "otchey"
+      ],
+      "label_anchored_stems": [
+        "dam",
+        "okor"
+      ],
+      "idf_score": 8.172
+    },
+    {
+      "herbal_folio": "f37r",
+      "herbal_lang": "A",
+      "pharm_folio": "f101v",
+      "balneo_folio": "f84r",
+      "balneo_bifolio": "1",
+      "shared_count": 5,
+      "shared_stems": [
+        "otoly",
+        "ory",
+        "kol",
+        "cthol",
+        "okor"
+      ],
+      "label_anchored_stems": [
+        "otoly"
+      ],
+      "idf_score": 10.314
+    },
+    {
+      "herbal_folio": "f48r",
+      "herbal_lang": "B",
+      "pharm_folio": "f88r",
+      "balneo_folio": "f78v",
+      "balneo_bifolio": "4",
+      "shared_count": 5,
+      "shared_stems": [
+        "otaldy",
+        "teol",
+        "olkey",
+        "ykey",
+        "dol"
+      ],
+      "label_anchored_stems": [
+        "otaldy"
+      ],
+      "idf_score": 9.577
+    },
+    {
+      "herbal_folio": "f40r",
+      "herbal_lang": "B",
+      "pharm_folio": "f101r",
+      "balneo_folio": "f79r",
+      "balneo_bifolio": "5",
+      "shared_count": 5,
+      "shared_stems": [
+        "ory",
+        "tchey",
+        "olchey",
+        "olain",
+        "ody"
+      ],
+      "label_anchored_stems": [],
+      "idf_score": 9.046
+    },
+    {
+      "herbal_folio": "f40r",
+      "herbal_lang": "B",
+      "pharm_folio": "f101r",
+      "balneo_folio": "f79v",
+      "balneo_bifolio": "5",
+      "shared_count": 5,
+      "shared_stems": [
+        "ory",
+        "tchey",
+        "olchey",
+        "kar",
+        "key"
+      ],
+      "label_anchored_stems": [],
+      "idf_score": 8.928
+    },
+    {
+      "herbal_folio": "f40r",
+      "herbal_lang": "B",
+      "pharm_folio": "f101r",
+      "balneo_folio": "f80r",
+      "balneo_bifolio": "5",
+      "shared_count": 5,
+      "shared_stems": [
+        "ory",
+        "tchey",
+        "olchey",
+        "kar",
+        "key"
+      ],
+      "label_anchored_stems": [],
+      "idf_score": 8.928
+    },
+    {
+      "herbal_folio": "f40r",
+      "herbal_lang": "B",
+      "pharm_folio": "f101r",
+      "balneo_folio": "f75v",
+      "balneo_bifolio": "1",
+      "shared_count": 5,
+      "shared_stems": [
+        "ory",
+        "olchey",
+        "olain",
+        "ody",
+        "key"
+      ],
+      "label_anchored_stems": [
+        "ory"
+      ],
+      "idf_score": 8.818
+    },
+    {
+      "herbal_folio": "f52v",
+      "herbal_lang": "A",
+      "pharm_folio": "f102v1",
+      "balneo_folio": "f84v",
+      "balneo_bifolio": "1",
+      "shared_count": 5,
+      "shared_stems": [
+        "kor",
+        "ckhey",
+        "kol",
+        "sol",
+        "dam"
+      ],
+      "label_anchored_stems": [],
+      "idf_score": 8.767
+    },
+    {
+      "herbal_folio": "f48v",
+      "herbal_lang": "B",
+      "pharm_folio": "f89v1",
+      "balneo_folio": "f75v",
+      "balneo_bifolio": "1",
+      "shared_count": 5,
+      "shared_stems": [
+        "tor",
+        "cthdy",
+        "otam",
+        "okeor",
+        "cthey"
+      ],
+      "label_anchored_stems": [],
+      "idf_score": 8.359
+    },
+    {
+      "herbal_folio": "f48r",
+      "herbal_lang": "B",
+      "pharm_folio": "f101r",
+      "balneo_folio": "f82v",
+      "balneo_bifolio": "3",
+      "shared_count": 5,
+      "shared_stems": [
+        "teol",
+        "olchey",
+        "olain",
+        "ody",
+        "dol"
+      ],
+      "label_anchored_stems": [],
+      "idf_score": 8.358
+    }
+  ],
+  "top_20_zhpb_4stage_tetrads": [
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "herbal_folio": "f39r",
+      "herbal_lang": "B",
+      "pharm_folio": "f88v",
+      "balneo_folio": "f81r",
+      "shared_4stage_count": 4,
+      "shared_4stage_stems": [
+        "orain",
+        "oteol",
+        "olain",
+        "ches"
+      ],
+      "hpb_shared_stems": [
+        "checkhy",
+        "orain",
+        "oteol",
+        "olain",
+        "ches"
+      ],
+      "idf_4stage": 5.963
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "herbal_folio": "f39r",
+      "herbal_lang": "B",
+      "pharm_folio": "f88v",
+      "balneo_folio": "f82r",
+      "shared_4stage_count": 4,
+      "shared_4stage_stems": [
+        "oteol",
+        "olain",
+        "ykey",
+        "ches"
+      ],
+      "hpb_shared_stems": [
+        "checkhy",
+        "oteol",
+        "olain",
+        "ykey",
+        "dam",
+        "ches"
+      ],
+      "idf_4stage": 5.697
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "herbal_folio": "f39r",
+      "herbal_lang": "B",
+      "pharm_folio": "f99r",
+      "balneo_folio": "f79r",
+      "shared_4stage_count": 4,
+      "shared_4stage_stems": [
+        "olain",
+        "ykey",
+        "air",
+        "ches"
+      ],
+      "hpb_shared_stems": [
+        "olain",
+        "ykey",
+        "air",
+        "dam",
+        "ches"
+      ],
+      "idf_4stage": 5.404
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "herbal_folio": "f26v",
+      "herbal_lang": "B",
+      "pharm_folio": "f101v",
+      "balneo_folio": "f80r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "ory",
+        "orain",
+        "ches"
+      ],
+      "hpb_shared_stems": [
+        "ory",
+        "orain",
+        "ches"
+      ],
+      "idf_4stage": 5.482
+    },
+    {
+      "zodiac_folio": "f70v2",
+      "zodiac_sign": "Pisces",
+      "herbal_folio": "f2r",
+      "herbal_lang": "A",
+      "pharm_folio": "f89v1",
+      "balneo_folio": "f75r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "chokain",
+        "sal",
+        "ykey"
+      ],
+      "hpb_shared_stems": [
+        "chokain",
+        "sal",
+        "ykey"
+      ],
+      "idf_4stage": 5.173
+    },
+    {
+      "zodiac_folio": "f72v2",
+      "zodiac_sign": "Virgo",
+      "herbal_folio": "f17v",
+      "herbal_lang": "A",
+      "pharm_folio": "f99r",
+      "balneo_folio": "f84r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "tchol",
+        "okeor",
+        "sar"
+      ],
+      "hpb_shared_stems": [
+        "tchol",
+        "okeor",
+        "sar"
+      ],
+      "idf_4stage": 5.0
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "herbal_folio": "f39r",
+      "herbal_lang": "B",
+      "pharm_folio": "f102r1",
+      "balneo_folio": "f81r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "orain",
+        "oteol",
+        "olain"
+      ],
+      "hpb_shared_stems": [
+        "orain",
+        "oteol",
+        "olain"
+      ],
+      "idf_4stage": 4.738
+    },
+    {
+      "zodiac_folio": "f72v1",
+      "zodiac_sign": "Libra",
+      "herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "pharm_folio": "f89v2",
+      "balneo_folio": "f79r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "choty",
+        "ychey",
+        "air"
+      ],
+      "hpb_shared_stems": [
+        "choty",
+        "okam",
+        "ychey",
+        "air"
+      ],
+      "idf_4stage": 4.657
+    },
+    {
+      "zodiac_folio": "f72r1",
+      "zodiac_sign": "Taurus (Dark)",
+      "herbal_folio": "f48v",
+      "herbal_lang": "B",
+      "pharm_folio": "f89v1",
+      "balneo_folio": "f75v",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "otam",
+        "okeor",
+        "cthey"
+      ],
+      "hpb_shared_stems": [
+        "tor",
+        "cthdy",
+        "otam",
+        "okeor",
+        "cthey"
+      ],
+      "idf_4stage": 4.51
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "herbal_folio": "f39r",
+      "herbal_lang": "B",
+      "pharm_folio": "f102r1",
+      "balneo_folio": "f82r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "oteol",
+        "olain",
+        "ykey"
+      ],
+      "hpb_shared_stems": [
+        "oteol",
+        "olain",
+        "ykey"
+      ],
+      "idf_4stage": 4.472
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "herbal_folio": "f48r",
+      "herbal_lang": "B",
+      "pharm_folio": "f102r1",
+      "balneo_folio": "f82r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "oteol",
+        "olain",
+        "ykey"
+      ],
+      "hpb_shared_stems": [
+        "oteol",
+        "olain",
+        "ykey",
+        "dol"
+      ],
+      "idf_4stage": 4.472
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "herbal_folio": "f48r",
+      "herbal_lang": "B",
+      "pharm_folio": "f88v",
+      "balneo_folio": "f82r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "oteol",
+        "olain",
+        "ykey"
+      ],
+      "hpb_shared_stems": [
+        "oteol",
+        "olain",
+        "ykey",
+        "dam"
+      ],
+      "idf_4stage": 4.472
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "herbal_folio": "f39r",
+      "herbal_lang": "B",
+      "pharm_folio": "f101v",
+      "balneo_folio": "f81r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "orain",
+        "olain",
+        "ches"
+      ],
+      "hpb_shared_stems": [
+        "orain",
+        "olain",
+        "ches"
+      ],
+      "idf_4stage": 4.384
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "herbal_folio": "f39r",
+      "herbal_lang": "B",
+      "pharm_folio": "f99r",
+      "balneo_folio": "f81r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "orain",
+        "olain",
+        "ches"
+      ],
+      "hpb_shared_stems": [
+        "orain",
+        "olain",
+        "ches"
+      ],
+      "idf_4stage": 4.384
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "herbal_folio": "f23v",
+      "herbal_lang": "A",
+      "pharm_folio": "f101r",
+      "balneo_folio": "f77r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "chear",
+        "oin",
+        "ches"
+      ],
+      "hpb_shared_stems": [
+        "chear",
+        "oin",
+        "ches",
+        "dol"
+      ],
+      "idf_4stage": 4.363
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "herbal_folio": "f39r",
+      "herbal_lang": "B",
+      "pharm_folio": "f101r",
+      "balneo_folio": "f81r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "oteol",
+        "olain",
+        "ches"
+      ],
+      "hpb_shared_stems": [
+        "olchey",
+        "oteol",
+        "olain",
+        "ches"
+      ],
+      "idf_4stage": 4.362
+    },
+    {
+      "zodiac_folio": "f70v2",
+      "zodiac_sign": "Pisces",
+      "herbal_folio": "f2r",
+      "herbal_lang": "A",
+      "pharm_folio": "f102v2",
+      "balneo_folio": "f82r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "sal",
+        "ykey",
+        "cthey"
+      ],
+      "hpb_shared_stems": [
+        "sal",
+        "ykey",
+        "cthey"
+      ],
+      "idf_4stage": 4.362
+    },
+    {
+      "zodiac_folio": "f70v2",
+      "zodiac_sign": "Pisces",
+      "herbal_folio": "f2r",
+      "herbal_lang": "A",
+      "pharm_folio": "f89v1",
+      "balneo_folio": "f82r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "sal",
+        "ykey",
+        "cthey"
+      ],
+      "hpb_shared_stems": [
+        "sal",
+        "ykey",
+        "cthey"
+      ],
+      "idf_4stage": 4.362
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "herbal_folio": "f39r",
+      "herbal_lang": "B",
+      "pharm_folio": "f101r",
+      "balneo_folio": "f82r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "oteol",
+        "olain",
+        "ches"
+      ],
+      "hpb_shared_stems": [
+        "chkey",
+        "oteol",
+        "olain",
+        "ches"
+      ],
+      "idf_4stage": 4.362
+    },
+    {
+      "zodiac_folio": "f72r1",
+      "zodiac_sign": "Taurus (Dark)",
+      "herbal_folio": "f48v",
+      "herbal_lang": "B",
+      "pharm_folio": "f102v2",
+      "balneo_folio": "f75v",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "okeor",
+        "tedy",
+        "cthey"
+      ],
+      "hpb_shared_stems": [
+        "tor",
+        "okeor",
+        "tedy",
+        "cthey"
+      ],
+      "idf_4stage": 4.346
+    }
+  ]
+}

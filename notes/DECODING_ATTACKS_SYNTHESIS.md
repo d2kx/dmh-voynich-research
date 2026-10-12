@@ -942,3 +942,31 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Script, Data & Edition**: [`tools/attack108_four_stage_astro_medical_compendium.py`](../tools/attack108_four_stage_astro_medical_compendium.py) $\to$ [`data/attack108_four_stage_astro_medical_compendium.json`](../data/attack108_four_stage_astro_medical_compendium.json) & [`notes/FOUR_STAGE_ASTRO_MEDICAL_MASTER_COMPENDIUM.md`](FOUR_STAGE_ASTRO_MEDICAL_MASTER_COMPENDIUM.md)
 - **Key Breakthroughs**:
   1. **Synthesizes the Four-Stage Master Astro-Medical Pipeline (`Attack 105`), the Master Hub Herbal Visual & Lexical Atlas (`Attack 106`), and the Top-25 Chained Starred Clinical Recipe Translation Edition (`Attack 107`)**.
+
+---
+
+## 109. Attack 109 (`Phase 120`): The `f58r / f58v` (`Quire H, Bifolio $B=1`) Starred Botanical Master Index Solver
+- **Script, Data & Scans**: [`tools/attack109_f58_starred_botanical_index_solver.py`](../tools/attack109_f58_starred_botanical_index_solver.py) $\to$ [`data/attack109_f58_starred_botanical_index_solver.json`](../data/attack109_f58_starred_botanical_index_solver.json), [`pages/f58r_starred_botanical_index_enh.png`](../pages/f58r_starred_botanical_index_enh.png), [`pages/f58v_starred_botanical_index_enh.png`](../pages/f58v_starred_botanical_index_enh.png)
+- **Key Breakthroughs**:
+  1. **Proves That `f58r / f58v` (`Quire H, $B=1`) Is a Botanical-Apothecary Master Index (`18.2×` Processual `-edy` Suppression, `+76.2%` `-ol/-or` Container Surge, and `4.21×` More `@Lf` Root-Label Matches per Block Than Quire 20 Recipes)**.
+
+---
+
+## 110. Attack 110 (`Phase 121`): The Balneological (`Quire M`, `f75r–f84v`, `$I=B`) Hydrotherapy-to-Zodiac & Herbal-Infusion Network ($z = +16.68$)
+- **Script & Data**: [`tools/attack110_balneological_to_zodiac_and_herbal_infusion_network.py`](../tools/attack110_balneological_to_zodiac_and_herbal_infusion_network.py) $\to$ [`data/attack110_balneological_to_zodiac_and_herbal_infusion_network.json`](../data/attack110_balneological_to_zodiac_and_herbal_infusion_network.json)
+- **Key Breakthroughs**:
+  1. **Proves `94.74%` (`18 / 19`, `3.79×`) Currier B Herbal Infusion Selectivity, `1,939` `H∩P∩B` Hydrotherapy Triads ($z = +16.68$), `1,148` `Z∩H∩P∩B` Tetrads ($z = +8.93$), and a `5.71×` `l-/ol-/qol-` Aqueous Applicative Surge on Identical Shared Stems (`3.98% -> 22.74%`)**.
+
+---
+
+## 111. Attack 111 (`Phase 122`): The 14-Folio Astronomical Foldout (`f67r1–f70r2`) $\leftrightarrow$ Zodiac (`f70v2–f73v`) Star & Calendar Concordance ($z = +9.43$)
+- **Script & Data**: [`tools/attack111_astronomical_foldout_and_zodiac_star_concordance.py`](../tools/attack111_astronomical_foldout_and_zodiac_star_concordance.py) $\to$ [`data/attack111_astronomical_foldout_and_zodiac_star_concordance.json`](../data/attack111_astronomical_foldout_and_zodiac_star_concordance.json)
+- **Key Breakthroughs**:
+  1. **Proves Astronomical Foldout $\leftrightarrow$ Zodiac Medallion Stem Cohesion ($z = +9.43$), `71.43%` (`2.86×`) Currier B Herbal Selectivity, and the 4-Tier `@L -> @R -> @C -> @P` Nominal-to-Active Gradient (`59.43% -> 19.41% o-`, `0.94% -> 5.54% qo-`)**.
+
+---
+
+## 112. Attack 112 (`Phase 123`): The Quire H Starred Master Index, Balneological Hydrotherapy & Astronomical Foldout Compendium ([`notes/QUIRE_H_INDEX_BALNEOLOGICAL_AND_ASTRO_COMPENDIUM.md`](QUIRE_H_INDEX_BALNEOLOGICAL_AND_ASTRO_COMPENDIUM.md))
+- **Script, Data & Edition**: [`tools/attack112_quire_h_balneological_and_astro_compendium.py`](../tools/attack112_quire_h_balneological_and_astro_compendium.py) $\to$ [`data/attack112_quire_h_balneological_and_astro_compendium.json`](../data/attack112_quire_h_balneological_and_astro_compendium.json) & [`notes/QUIRE_H_INDEX_BALNEOLOGICAL_AND_ASTRO_COMPENDIUM.md`](QUIRE_H_INDEX_BALNEOLOGICAL_AND_ASTRO_COMPENDIUM.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes the `f58r/f58v` Starred Botanical Master Index (`Attack 109`), the Balneological Hydrotherapy Network (`Attack 110`), and the 14-Folio Astronomical Foldout Concordance (`Attack 111`)**.

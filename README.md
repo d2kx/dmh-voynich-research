@@ -746,6 +746,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 118. The `f58r / f58v` (`Quire H, Bifolio $B=1`) Starred Botanical Master Index Solver — `18.2×` Processual `-edy` Suppression, `+76.2%` `-ol/-or` Container Surge, and `4.21×` Per-Block `@Lf` Root-Label Density (`Attack 109`)
+- **`f58r / f58v` Starred Botanical Master Index (`pages/f58r_starred_botanical_index_enh.png`, `pages/f58v_starred_botanical_index_enh.png`)**: Proves that the `7` compilation blocks on `f58r` and `f58v` (`753` tokens, `mean = 107.57` tokens/block vs. `38.21` in Quire 20) form a **Botanical-Apothecary Master Index** inside Herbal Quire H (`$B=1`) rather than a decoction recipe folio: they **suppress Processual `-edy` by `18.2×` (`0.80%` vs. `14.52%`)**, **surge in `-ol/-or/-al/-ar` container/botanical codas by `+76.2%` (`41.30%` vs. `23.44%`)**, and carry **`4.21×` more Pharmaceutical `@Lf` root/leaf label matches per block (`5.14` vs. `1.22`, led by `<f58v.1>` with `46` `H∩P` stems and `10` `@Lf` label matches)**. Visually, `f58r` has `3` multi-rayed stars with central dots, whereas `f58v` has only `1` top-left 7-pointed tailed star (`<f58v.1>`) followed by `3` unstarred Gallows-headed blocks.
+
+---
+
+### 119. The Balneological (`Quire M`, `f75r–f84v`, `$I=B`) Hydrotherapy-to-Zodiac & Herbal-Infusion Network — `94.74%` (`3.79×`) Currier B Herbal Selectivity, `1,939` `H∩P∩B` Triads ($z = +16.68$), and `5.71×` `l-/ol-` Aqueous Applicative Surge (`Attack 110`)
+- **`94.74%` (`18 / 19`, `3.79×`) Currier B Herbal Selectivity, `1,939` `H∩P∩B` Triads ($z = +16.68$), & `5.71×` `l-/ol-` Aqueous Applicative Surge**: Across the `19` transcribed Balneological folios (`f75r–f84v`), `18 / 19` (`94.74%`) select a Currier B Herbal Monograph as their `#1` botanical infusion partner (`3.79×` over `25.0%` baseline), forming `1,939` 3-stage `H∩P∩B` triads ($z = +16.68$) and `1,148` 4-stage `Z∩H∩P∩B` tetrads ($z = +8.93$). Holding the `209` shared `H∩P∩B` canonical stems fixed shows **Liquid Applicative `l-/ol-/qol-` surging `5.71×` (`3.98%` Herbal Prose $\to$ `7.23%` Pharm $\to$ `18.75%` Balneo Nymph Labels $\to$ `22.74%` Balneo Immersion-Pool Prose)**.
+
+---
+
+### 120. The 14-Folio Astronomical Foldout (`f67r1–f70r2`) $\leftrightarrow$ Zodiac (`f70v2–f73v`) Star & Calendar Concordance ($z = +9.43$), `71.43%` Herbal-B Selectivity, and 4-Tier Locus Gradient (`Attack 111`)
+- **Astronomical Foldout $\leftrightarrow$ Zodiac Concordance ($z = +9.43$) & 4-Tier Internal Locus Gradient**: Across all `14` Astronomical/Cosmological foldout pages (`f67r1–f70r2`), the mean `#1` Zodiac Medallion IDF is `18.026` vs. `8.976` null ($z = +9.43$) with `71.43%` (`2.86×`) Currier B Herbal selectivity. Moving from `@L` Star Labels (`59.43% o-`, `0.94% qo-`) through `@R` Spokes and `@C` Rings to `@P` Marginal Prose (`19.41% o-`, `5.54% qo-`, `12.48% -aiin`), Nominal `o-` drops `3.06×` while Active `qo-` rises `5.89×` and `-aiin` rises `4.35×`.
+
+---
+
+### 121. The Quire H Starred Master Index, Balneological Hydrotherapy & Astronomical Foldout Compendium ([`notes/QUIRE_H_INDEX_BALNEOLOGICAL_AND_ASTRO_COMPENDIUM.md`](notes/QUIRE_H_INDEX_BALNEOLOGICAL_AND_ASTRO_COMPENDIUM.md), `Attack 112`)
+- **Quire H Master Index, Balneological Hydrotherapy & Astronomical Foldout Compendium ([`notes/QUIRE_H_INDEX_BALNEOLOGICAL_AND_ASTRO_COMPENDIUM.md`](notes/QUIRE_H_INDEX_BALNEOLOGICAL_AND_ASTRO_COMPENDIUM.md))**: Synthesizes the `f58r/f58v` Starred Botanical Master Index (`Attack 109`), the Balneological Hydrotherapy Network (`Attack 110`), and the 14-Folio Astronomical Foldout Concordance (`Attack 111`).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -885,6 +905,10 @@ python tools/attack105_four_stage_astro_medical_pipeline.py
 python tools/attack106_hub_herbal_monograph_visual_and_lexical_audit.py
 python tools/attack107_top25_chained_starred_recipe_translator.py
 python tools/attack108_four_stage_astro_medical_compendium.py
+python tools/attack109_f58_starred_botanical_index_solver.py
+python tools/attack110_balneological_to_zodiac_and_herbal_infusion_network.py
+python tools/attack111_astronomical_foldout_and_zodiac_star_concordance.py
+python tools/attack112_quire_h_balneological_and_astro_compendium.py
 ```
 
 
