@@ -1,0 +1,1274 @@
+{
+  "phase": "Phase 42 / Attack 31",
+  "title": "Quire 20 (f103r-f116r) Starred Recipe Formulary Compiler, Opening-Header-to-Body Operator Concordance & Genre Clustering",
+  "overall_quire20_counts": {
+    "total_folios": 25,
+    "total_starred_recipes": 292,
+    "total_recipe_words": 11642,
+    "global_operator_shares": {
+      "MECHANICAL_MIXTURE_ch": 0.3226,
+      "THERMAL_DECOCTION_sh": 0.13,
+      "CONDUIT_DISTILLATION_t": 0.2125,
+      "VESSEL_INFUSION_k": 0.3349
+    },
+    "enriched_genre_distribution": {
+      "THERMAL_DECOCTION_sh": 81,
+      "CONDUIT_DISTILLATION_t": 78,
+      "VESSEL_INFUSION_k": 63,
+      "MECHANICAL_MIXTURE_ch": 70
+    }
+  },
+  "opening_header_to_body_concordance": {
+    "evaluated_recipes_with_operator_header": 278,
+    "observed_matches": 85,
+    "observed_match_rate": 0.3058,
+    "null_mean": 72.06,
+    "null_std": 6.22,
+    "z_score": 2.08,
+    "p_value": 0.021
+  },
+  "adjacent_recipe_genre_clustering": {
+    "adjacent_same_folio_pairs": 267,
+    "observed_same_genre_pairs": 108,
+    "observed_same_genre_rate": 0.4045,
+    "null_hand_stratified_mean": 72.75,
+    "null_hand_stratified_std": 6.56,
+    "z_score": 5.37,
+    "p_value": 0.0
+  },
+  "closing_am_om_by_genre": {
+    "CONDUIT_DISTILLATION_t": {
+      "recipe_count": 78,
+      "am_om_closer_count": 9,
+      "am_om_closer_rate": 0.1154
+    },
+    "MECHANICAL_MIXTURE_ch": {
+      "recipe_count": 70,
+      "am_om_closer_count": 4,
+      "am_om_closer_rate": 0.0571
+    },
+    "THERMAL_DECOCTION_sh": {
+      "recipe_count": 81,
+      "am_om_closer_count": 5,
+      "am_om_closer_rate": 0.0617
+    },
+    "VESSEL_INFUSION_k": {
+      "recipe_count": 63,
+      "am_om_closer_count": 6,
+      "am_om_closer_rate": 0.0952
+    }
+  },
+  "folio_summaries": [
+    {
+      "folio": "f58r",
+      "hand": "3",
+      "recipe_count": 3,
+      "total_words": 378,
+      "am_om_closer_count": 0,
+      "dominant_folio_genre": "THERMAL_DECOCTION_sh",
+      "genre_counts": {
+        "THERMAL_DECOCTION_sh": 2,
+        "CONDUIT_DISTILLATION_t": 1
+      }
+    },
+    {
+      "folio": "f58v",
+      "hand": "3",
+      "recipe_count": 4,
+      "total_words": 375,
+      "am_om_closer_count": 0,
+      "dominant_folio_genre": "VESSEL_INFUSION_k",
+      "genre_counts": {
+        "CONDUIT_DISTILLATION_t": 1,
+        "VESSEL_INFUSION_k": 3
+      }
+    },
+    {
+      "folio": "f103r",
+      "hand": "3",
+      "recipe_count": 18,
+      "total_words": 531,
+      "am_om_closer_count": 0,
+      "dominant_folio_genre": "THERMAL_DECOCTION_sh",
+      "genre_counts": {
+        "THERMAL_DECOCTION_sh": 15,
+        "VESSEL_INFUSION_k": 3
+      }
+    },
+    {
+      "folio": "f103v",
+      "hand": "3",
+      "recipe_count": 13,
+      "total_words": 454,
+      "am_om_closer_count": 1,
+      "dominant_folio_genre": "THERMAL_DECOCTION_sh",
+      "genre_counts": {
+        "VESSEL_INFUSION_k": 1,
+        "THERMAL_DECOCTION_sh": 8,
+        "MECHANICAL_MIXTURE_ch": 2,
+        "CONDUIT_DISTILLATION_t": 2
+      }
+    },
+    {
+      "folio": "f104r",
+      "hand": "3",
+      "recipe_count": 13,
+      "total_words": 448,
+      "am_om_closer_count": 1,
+      "dominant_folio_genre": "CONDUIT_DISTILLATION_t",
+      "genre_counts": {
+        "CONDUIT_DISTILLATION_t": 5,
+        "VESSEL_INFUSION_k": 2,
+        "MECHANICAL_MIXTURE_ch": 3,
+        "THERMAL_DECOCTION_sh": 3
+      }
+    },
+    {
+      "folio": "f104v",
+      "hand": "3",
+      "recipe_count": 13,
+      "total_words": 476,
+      "am_om_closer_count": 0,
+      "dominant_folio_genre": "MECHANICAL_MIXTURE_ch",
+      "genre_counts": {
+        "MECHANICAL_MIXTURE_ch": 8,
+        "CONDUIT_DISTILLATION_t": 2,
+        "THERMAL_DECOCTION_sh": 3
+      }
+    },
+    {
+      "folio": "f105r",
+      "hand": "3",
+      "recipe_count": 10,
+      "total_words": 379,
+      "am_om_closer_count": 2,
+      "dominant_folio_genre": "CONDUIT_DISTILLATION_t",
+      "genre_counts": {
+        "CONDUIT_DISTILLATION_t": 6,
+        "THERMAL_DECOCTION_sh": 2,
+        "VESSEL_INFUSION_k": 2
+      }
+    },
+    {
+      "folio": "f105v",
+      "hand": "3",
+      "recipe_count": 10,
+      "total_words": 399,
+      "am_om_closer_count": 1,
+      "dominant_folio_genre": "CONDUIT_DISTILLATION_t",
+      "genre_counts": {
+        "CONDUIT_DISTILLATION_t": 7,
+        "VESSEL_INFUSION_k": 1,
+        "MECHANICAL_MIXTURE_ch": 2
+      }
+    },
+    {
+      "folio": "f106r",
+      "hand": "3",
+      "recipe_count": 15,
+      "total_words": 432,
+      "am_om_closer_count": 1,
+      "dominant_folio_genre": "CONDUIT_DISTILLATION_t",
+      "genre_counts": {
+        "THERMAL_DECOCTION_sh": 4,
+        "CONDUIT_DISTILLATION_t": 6,
+        "MECHANICAL_MIXTURE_ch": 5
+      }
+    },
+    {
+      "folio": "f106v",
+      "hand": "3",
+      "recipe_count": 15,
+      "total_words": 444,
+      "am_om_closer_count": 3,
+      "dominant_folio_genre": "THERMAL_DECOCTION_sh",
+      "genre_counts": {
+        "THERMAL_DECOCTION_sh": 9,
+        "CONDUIT_DISTILLATION_t": 3,
+        "MECHANICAL_MIXTURE_ch": 2,
+        "VESSEL_INFUSION_k": 1
+      }
+    },
+    {
+      "folio": "f107r",
+      "hand": "3",
+      "recipe_count": 14,
+      "total_words": 487,
+      "am_om_closer_count": 1,
+      "dominant_folio_genre": "CONDUIT_DISTILLATION_t",
+      "genre_counts": {
+        "CONDUIT_DISTILLATION_t": 6,
+        "VESSEL_INFUSION_k": 4,
+        "THERMAL_DECOCTION_sh": 3,
+        "MECHANICAL_MIXTURE_ch": 1
+      }
+    },
+    {
+      "folio": "f107v",
+      "hand": "3",
+      "recipe_count": 15,
+      "total_words": 462,
+      "am_om_closer_count": 0,
+      "dominant_folio_genre": "VESSEL_INFUSION_k",
+      "genre_counts": {
+        "CONDUIT_DISTILLATION_t": 4,
+        "VESSEL_INFUSION_k": 11
+      }
+    },
+    {
+      "folio": "f108r",
+      "hand": "3",
+      "recipe_count": 14,
+      "total_words": 494,
+      "am_om_closer_count": 3,
+      "dominant_folio_genre": "VESSEL_INFUSION_k",
+      "genre_counts": {
+        "CONDUIT_DISTILLATION_t": 2,
+        "MECHANICAL_MIXTURE_ch": 3,
+        "VESSEL_INFUSION_k": 7,
+        "THERMAL_DECOCTION_sh": 2
+      }
+    },
+    {
+      "folio": "f108v",
+      "hand": "3",
+      "recipe_count": 7,
+      "total_words": 581,
+      "am_om_closer_count": 1,
+      "dominant_folio_genre": "VESSEL_INFUSION_k",
+      "genre_counts": {
+        "CONDUIT_DISTILLATION_t": 1,
+        "VESSEL_INFUSION_k": 4,
+        "THERMAL_DECOCTION_sh": 2
+      }
+    },
+    {
+      "folio": "f111r",
+      "hand": "3",
+      "recipe_count": 6,
+      "total_words": 624,
+      "am_om_closer_count": 1,
+      "dominant_folio_genre": "THERMAL_DECOCTION_sh",
+      "genre_counts": {
+        "THERMAL_DECOCTION_sh": 3,
+        "VESSEL_INFUSION_k": 3
+      }
+    },
+    {
+      "folio": "f111v",
+      "hand": "3",
+      "recipe_count": 8,
+      "total_words": 567,
+      "am_om_closer_count": 0,
+      "dominant_folio_genre": "MECHANICAL_MIXTURE_ch",
+      "genre_counts": {
+        "THERMAL_DECOCTION_sh": 3,
+        "MECHANICAL_MIXTURE_ch": 4,
+        "CONDUIT_DISTILLATION_t": 1
+      }
+    },
+    {
+      "folio": "f112r",
+      "hand": "3",
+      "recipe_count": 11,
+      "total_words": 401,
+      "am_om_closer_count": 5,
+      "dominant_folio_genre": "CONDUIT_DISTILLATION_t",
+      "genre_counts": {
+        "CONDUIT_DISTILLATION_t": 4,
+        "MECHANICAL_MIXTURE_ch": 1,
+        "VESSEL_INFUSION_k": 4,
+        "THERMAL_DECOCTION_sh": 2
+      }
+    },
+    {
+      "folio": "f112v",
+      "hand": "3",
+      "recipe_count": 13,
+      "total_words": 419,
+      "am_om_closer_count": 0,
+      "dominant_folio_genre": "MECHANICAL_MIXTURE_ch",
+      "genre_counts": {
+        "VESSEL_INFUSION_k": 5,
+        "CONDUIT_DISTILLATION_t": 1,
+        "MECHANICAL_MIXTURE_ch": 6,
+        "THERMAL_DECOCTION_sh": 1
+      }
+    },
+    {
+      "folio": "f113r",
+      "hand": "3",
+      "recipe_count": 16,
+      "total_words": 529,
+      "am_om_closer_count": 0,
+      "dominant_folio_genre": "MECHANICAL_MIXTURE_ch",
+      "genre_counts": {
+        "CONDUIT_DISTILLATION_t": 1,
+        "MECHANICAL_MIXTURE_ch": 7,
+        "THERMAL_DECOCTION_sh": 7,
+        "VESSEL_INFUSION_k": 1
+      }
+    },
+    {
+      "folio": "f113v",
+      "hand": "3",
+      "recipe_count": 15,
+      "total_words": 502,
+      "am_om_closer_count": 1,
+      "dominant_folio_genre": "CONDUIT_DISTILLATION_t",
+      "genre_counts": {
+        "CONDUIT_DISTILLATION_t": 9,
+        "VESSEL_INFUSION_k": 5,
+        "THERMAL_DECOCTION_sh": 1
+      }
+    },
+    {
+      "folio": "f114r",
+      "hand": "3",
+      "recipe_count": 13,
+      "total_words": 460,
+      "am_om_closer_count": 1,
+      "dominant_folio_genre": "CONDUIT_DISTILLATION_t",
+      "genre_counts": {
+        "CONDUIT_DISTILLATION_t": 6,
+        "MECHANICAL_MIXTURE_ch": 5,
+        "VESSEL_INFUSION_k": 2
+      }
+    },
+    {
+      "folio": "f114v",
+      "hand": "3",
+      "recipe_count": 12,
+      "total_words": 376,
+      "am_om_closer_count": 1,
+      "dominant_folio_genre": "CONDUIT_DISTILLATION_t",
+      "genre_counts": {
+        "CONDUIT_DISTILLATION_t": 6,
+        "MECHANICAL_MIXTURE_ch": 4,
+        "THERMAL_DECOCTION_sh": 2
+      }
+    },
+    {
+      "folio": "f115r",
+      "hand": "",
+      "recipe_count": 13,
+      "total_words": 461,
+      "am_om_closer_count": 0,
+      "dominant_folio_genre": "MECHANICAL_MIXTURE_ch",
+      "genre_counts": {
+        "MECHANICAL_MIXTURE_ch": 11,
+        "THERMAL_DECOCTION_sh": 1,
+        "VESSEL_INFUSION_k": 1
+      }
+    },
+    {
+      "folio": "f115v",
+      "hand": "3",
+      "recipe_count": 13,
+      "total_words": 410,
+      "am_om_closer_count": 1,
+      "dominant_folio_genre": "MECHANICAL_MIXTURE_ch",
+      "genre_counts": {
+        "CONDUIT_DISTILLATION_t": 1,
+        "MECHANICAL_MIXTURE_ch": 6,
+        "VESSEL_INFUSION_k": 2,
+        "THERMAL_DECOCTION_sh": 4
+      }
+    },
+    {
+      "folio": "f116r",
+      "hand": "3",
+      "recipe_count": 8,
+      "total_words": 553,
+      "am_om_closer_count": 0,
+      "dominant_folio_genre": "THERMAL_DECOCTION_sh",
+      "genre_counts": {
+        "THERMAL_DECOCTION_sh": 4,
+        "CONDUIT_DISTILLATION_t": 3,
+        "VESSEL_INFUSION_k": 1
+      }
+    }
+  ],
+  "sample_compiled_recipes": [
+    {
+      "recipe_id": "f58r:P1",
+      "folio": "f58r",
+      "hand": "3",
+      "line_count": 15,
+      "word_count": 140,
+      "opening_word": "kor",
+      "opening_class": "VESSEL_INFUSION_k",
+      "closing_word": "shedy",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 11,
+      "dar_dal_count": 4,
+      "op_counts": {
+        "MECHANICAL_MIXTURE_ch": 28,
+        "THERMAL_DECOCTION_sh": 20,
+        "CONDUIT_DISTILLATION_t": 32,
+        "VESSEL_INFUSION_k": 10
+      },
+      "raw_dominant_genre": "CONDUIT_DISTILLATION_t",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f58r:P2",
+      "folio": "f58r",
+      "hand": "3",
+      "line_count": 10,
+      "word_count": 94,
+      "opening_word": "typchey",
+      "opening_class": "MECHANICAL_MIXTURE_ch",
+      "closing_word": "aldar",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": false,
+      "aiin_unit_count": 8,
+      "dar_dal_count": 3,
+      "op_counts": {
+        "CONDUIT_DISTILLATION_t": 22,
+        "THERMAL_DECOCTION_sh": 8,
+        "MECHANICAL_MIXTURE_ch": 21,
+        "VESSEL_INFUSION_k": 9
+      },
+      "raw_dominant_genre": "CONDUIT_DISTILLATION_t",
+      "enriched_genre": "CONDUIT_DISTILLATION_t"
+    },
+    {
+      "recipe_id": "f58r:P3",
+      "folio": "f58r",
+      "hand": "3",
+      "line_count": 16,
+      "word_count": 144,
+      "opening_word": "kshar",
+      "opening_class": "VESSEL_INFUSION_k",
+      "closing_word": "alchey",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 11,
+      "dar_dal_count": 3,
+      "op_counts": {
+        "THERMAL_DECOCTION_sh": 13,
+        "CONDUIT_DISTILLATION_t": 18,
+        "VESSEL_INFUSION_k": 26,
+        "MECHANICAL_MIXTURE_ch": 28
+      },
+      "raw_dominant_genre": "MECHANICAL_MIXTURE_ch",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f58v:P1",
+      "folio": "f58v",
+      "hand": "3",
+      "line_count": 22,
+      "word_count": 219,
+      "opening_word": "tol",
+      "opening_class": "CONDUIT_DISTILLATION_t",
+      "closing_word": "shekealy",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 34,
+      "dar_dal_count": 9,
+      "op_counts": {
+        "THERMAL_DECOCTION_sh": 13,
+        "CONDUIT_DISTILLATION_t": 38,
+        "MECHANICAL_MIXTURE_ch": 27,
+        "VESSEL_INFUSION_k": 57
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "CONDUIT_DISTILLATION_t"
+    },
+    {
+      "recipe_id": "f58v:P2",
+      "folio": "f58v",
+      "hand": "3",
+      "line_count": 6,
+      "word_count": 60,
+      "opening_word": "pchshy",
+      "opening_class": "CONDUIT_DISTILLATION_t",
+      "closing_word": "sheey",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 6,
+      "dar_dal_count": 1,
+      "op_counts": {
+        "THERMAL_DECOCTION_sh": 6,
+        "VESSEL_INFUSION_k": 25,
+        "MECHANICAL_MIXTURE_ch": 4,
+        "CONDUIT_DISTILLATION_t": 3
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "VESSEL_INFUSION_k"
+    },
+    {
+      "recipe_id": "f58v:P3",
+      "folio": "f58v",
+      "hand": "3",
+      "line_count": 5,
+      "word_count": 44,
+      "opening_word": "polal",
+      "opening_class": "CONDUIT_DISTILLATION_t",
+      "closing_word": "chey",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 3,
+      "dar_dal_count": 1,
+      "op_counts": {
+        "VESSEL_INFUSION_k": 17,
+        "MECHANICAL_MIXTURE_ch": 6,
+        "THERMAL_DECOCTION_sh": 3,
+        "CONDUIT_DISTILLATION_t": 4
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "VESSEL_INFUSION_k"
+    },
+    {
+      "recipe_id": "f58v:P4",
+      "folio": "f58v",
+      "hand": "3",
+      "line_count": 6,
+      "word_count": 52,
+      "opening_word": "tol",
+      "opening_class": "CONDUIT_DISTILLATION_t",
+      "closing_word": "sarols",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": false,
+      "aiin_unit_count": 4,
+      "dar_dal_count": 1,
+      "op_counts": {
+        "THERMAL_DECOCTION_sh": 6,
+        "VESSEL_INFUSION_k": 21,
+        "CONDUIT_DISTILLATION_t": 5,
+        "MECHANICAL_MIXTURE_ch": 6
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "VESSEL_INFUSION_k"
+    },
+    {
+      "recipe_id": "f103r:P1",
+      "folio": "f103r",
+      "hand": "3",
+      "line_count": 4,
+      "word_count": 50,
+      "opening_word": "pchedal",
+      "opening_class": "MECHANICAL_MIXTURE_ch",
+      "closing_word": "chedaraly",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 5,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "THERMAL_DECOCTION_sh": 7,
+        "CONDUIT_DISTILLATION_t": 8,
+        "VESSEL_INFUSION_k": 9,
+        "MECHANICAL_MIXTURE_ch": 11
+      },
+      "raw_dominant_genre": "MECHANICAL_MIXTURE_ch",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103r:P2",
+      "folio": "f103r",
+      "hand": "3",
+      "line_count": 3,
+      "word_count": 35,
+      "opening_word": "pocharal",
+      "opening_class": "CONDUIT_DISTILLATION_t",
+      "closing_word": "shedy",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 2,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "VESSEL_INFUSION_k": 10,
+        "THERMAL_DECOCTION_sh": 9,
+        "CONDUIT_DISTILLATION_t": 6,
+        "MECHANICAL_MIXTURE_ch": 2
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103r:P3",
+      "folio": "f103r",
+      "hand": "3",
+      "line_count": 5,
+      "word_count": 62,
+      "opening_word": "daroal",
+      "opening_class": "NOMINAL_OTHER",
+      "closing_word": "otedy",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 12,
+      "dar_dal_count": 1,
+      "op_counts": {
+        "VESSEL_INFUSION_k": 15,
+        "MECHANICAL_MIXTURE_ch": 6,
+        "CONDUIT_DISTILLATION_t": 13,
+        "THERMAL_DECOCTION_sh": 10
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103r:P4",
+      "folio": "f103r",
+      "hand": "3",
+      "line_count": 3,
+      "word_count": 30,
+      "opening_word": "podar",
+      "opening_class": "CONDUIT_DISTILLATION_t",
+      "closing_word": "shkaiin",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": false,
+      "aiin_unit_count": 6,
+      "dar_dal_count": 1,
+      "op_counts": {
+        "THERMAL_DECOCTION_sh": 5,
+        "CONDUIT_DISTILLATION_t": 5,
+        "VESSEL_INFUSION_k": 9,
+        "MECHANICAL_MIXTURE_ch": 5
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103r:P5",
+      "folio": "f103r",
+      "hand": "3",
+      "line_count": 2,
+      "word_count": 21,
+      "opening_word": "dshol",
+      "opening_class": "THERMAL_DECOCTION_sh",
+      "closing_word": "aiin",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": false,
+      "aiin_unit_count": 2,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "THERMAL_DECOCTION_sh": 5,
+        "MECHANICAL_MIXTURE_ch": 3,
+        "VESSEL_INFUSION_k": 5,
+        "CONDUIT_DISTILLATION_t": 3
+      },
+      "raw_dominant_genre": "THERMAL_DECOCTION_sh",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103r:P6",
+      "folio": "f103r",
+      "hand": "3",
+      "line_count": 3,
+      "word_count": 28,
+      "opening_word": "polchedy",
+      "opening_class": "MECHANICAL_MIXTURE_ch",
+      "closing_word": "olor",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": false,
+      "aiin_unit_count": 9,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "VESSEL_INFUSION_k": 12,
+        "MECHANICAL_MIXTURE_ch": 4,
+        "THERMAL_DECOCTION_sh": 6,
+        "CONDUIT_DISTILLATION_t": 2
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103r:P7",
+      "folio": "f103r",
+      "hand": "3",
+      "line_count": 3,
+      "word_count": 29,
+      "opening_word": "pcheam",
+      "opening_class": "CONDUIT_DISTILLATION_t",
+      "closing_word": "shol",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": false,
+      "aiin_unit_count": 2,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "VESSEL_INFUSION_k": 8,
+        "CONDUIT_DISTILLATION_t": 4,
+        "MECHANICAL_MIXTURE_ch": 6,
+        "THERMAL_DECOCTION_sh": 5
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103r:P8",
+      "folio": "f103r",
+      "hand": "3",
+      "line_count": 3,
+      "word_count": 31,
+      "opening_word": "tchoky",
+      "opening_class": "CONDUIT_DISTILLATION_t",
+      "closing_word": "lotor",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": false,
+      "aiin_unit_count": 6,
+      "dar_dal_count": 1,
+      "op_counts": {
+        "VESSEL_INFUSION_k": 8,
+        "THERMAL_DECOCTION_sh": 5,
+        "CONDUIT_DISTILLATION_t": 7,
+        "MECHANICAL_MIXTURE_ch": 4
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103r:P9",
+      "folio": "f103r",
+      "hand": "3",
+      "line_count": 3,
+      "word_count": 28,
+      "opening_word": "qokechy",
+      "opening_class": "VESSEL_INFUSION_k",
+      "closing_word": "chedy",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 4,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "VESSEL_INFUSION_k": 14,
+        "THERMAL_DECOCTION_sh": 3,
+        "MECHANICAL_MIXTURE_ch": 6,
+        "CONDUIT_DISTILLATION_t": 1
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "VESSEL_INFUSION_k"
+    },
+    {
+      "recipe_id": "f103r:P10",
+      "folio": "f103r",
+      "hand": "3",
+      "line_count": 3,
+      "word_count": 28,
+      "opening_word": "pcholkchdy",
+      "opening_class": "CONDUIT_DISTILLATION_t",
+      "closing_word": "oraiin",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": false,
+      "aiin_unit_count": 6,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "THERMAL_DECOCTION_sh": 8,
+        "VESSEL_INFUSION_k": 9,
+        "MECHANICAL_MIXTURE_ch": 6,
+        "CONDUIT_DISTILLATION_t": 2
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103r:P11",
+      "folio": "f103r",
+      "hand": "3",
+      "line_count": 2,
+      "word_count": 14,
+      "opening_word": "qokeey",
+      "opening_class": "VESSEL_INFUSION_k",
+      "closing_word": "cheedalaiin",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": false,
+      "aiin_unit_count": 1,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "MECHANICAL_MIXTURE_ch": 3,
+        "VESSEL_INFUSION_k": 2,
+        "THERMAL_DECOCTION_sh": 5,
+        "CONDUIT_DISTILLATION_t": 2
+      },
+      "raw_dominant_genre": "THERMAL_DECOCTION_sh",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103r:P12",
+      "folio": "f103r",
+      "hand": "3",
+      "line_count": 2,
+      "word_count": 18,
+      "opening_word": "qoker",
+      "opening_class": "VESSEL_INFUSION_k",
+      "closing_word": "qokeey",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 4,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "MECHANICAL_MIXTURE_ch": 4,
+        "VESSEL_INFUSION_k": 8,
+        "THERMAL_DECOCTION_sh": 3,
+        "CONDUIT_DISTILLATION_t": 1
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "VESSEL_INFUSION_k"
+    },
+    {
+      "recipe_id": "f103r:P13",
+      "folio": "f103r",
+      "hand": "3",
+      "line_count": 3,
+      "word_count": 24,
+      "opening_word": "pchedy",
+      "opening_class": "MECHANICAL_MIXTURE_ch",
+      "closing_word": "oteey",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 2,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "VESSEL_INFUSION_k": 9,
+        "MECHANICAL_MIXTURE_ch": 4,
+        "THERMAL_DECOCTION_sh": 5,
+        "CONDUIT_DISTILLATION_t": 2
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103r:P14",
+      "folio": "f103r",
+      "hand": "3",
+      "line_count": 3,
+      "word_count": 27,
+      "opening_word": "qokeey",
+      "opening_class": "VESSEL_INFUSION_k",
+      "closing_word": "chalal",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": false,
+      "aiin_unit_count": 1,
+      "dar_dal_count": 1,
+      "op_counts": {
+        "THERMAL_DECOCTION_sh": 10,
+        "CONDUIT_DISTILLATION_t": 6,
+        "MECHANICAL_MIXTURE_ch": 3,
+        "VESSEL_INFUSION_k": 3
+      },
+      "raw_dominant_genre": "THERMAL_DECOCTION_sh",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103r:P15",
+      "folio": "f103r",
+      "hand": "3",
+      "line_count": 2,
+      "word_count": 16,
+      "opening_word": "tar",
+      "opening_class": "CONDUIT_DISTILLATION_t",
+      "closing_word": "otshedy",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 1,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "MECHANICAL_MIXTURE_ch": 1,
+        "THERMAL_DECOCTION_sh": 8,
+        "CONDUIT_DISTILLATION_t": 1,
+        "VESSEL_INFUSION_k": 3
+      },
+      "raw_dominant_genre": "THERMAL_DECOCTION_sh",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103r:P16",
+      "folio": "f103r",
+      "hand": "3",
+      "line_count": 3,
+      "word_count": 28,
+      "opening_word": "qokeedy",
+      "opening_class": "VESSEL_INFUSION_k",
+      "closing_word": "oloraiin",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": false,
+      "aiin_unit_count": 2,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "VESSEL_INFUSION_k": 7,
+        "THERMAL_DECOCTION_sh": 3,
+        "MECHANICAL_MIXTURE_ch": 7,
+        "CONDUIT_DISTILLATION_t": 3
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103r:P17",
+      "folio": "f103r",
+      "hand": "3",
+      "line_count": 4,
+      "word_count": 37,
+      "opening_word": "polarar",
+      "opening_class": "CONDUIT_DISTILLATION_t",
+      "closing_word": "cheosaiin",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": false,
+      "aiin_unit_count": 7,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "THERMAL_DECOCTION_sh": 7,
+        "CONDUIT_DISTILLATION_t": 3,
+        "VESSEL_INFUSION_k": 10,
+        "MECHANICAL_MIXTURE_ch": 5
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103r:P18",
+      "folio": "f103r",
+      "hand": "3",
+      "line_count": 3,
+      "word_count": 25,
+      "opening_word": "pchedal",
+      "opening_class": "MECHANICAL_MIXTURE_ch",
+      "closing_word": "qoty",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 2,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "CONDUIT_DISTILLATION_t": 5,
+        "VESSEL_INFUSION_k": 9,
+        "MECHANICAL_MIXTURE_ch": 5,
+        "THERMAL_DECOCTION_sh": 3
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "VESSEL_INFUSION_k"
+    },
+    {
+      "recipe_id": "f103v:P1",
+      "folio": "f103v",
+      "hand": "3",
+      "line_count": 4,
+      "word_count": 43,
+      "opening_word": "pol",
+      "opening_class": "CONDUIT_DISTILLATION_t",
+      "closing_word": "ykeedy",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 4,
+      "dar_dal_count": 3,
+      "op_counts": {
+        "MECHANICAL_MIXTURE_ch": 7,
+        "VESSEL_INFUSION_k": 15,
+        "CONDUIT_DISTILLATION_t": 6,
+        "THERMAL_DECOCTION_sh": 5
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "VESSEL_INFUSION_k"
+    },
+    {
+      "recipe_id": "f103v:P2",
+      "folio": "f103v",
+      "hand": "3",
+      "line_count": 4,
+      "word_count": 39,
+      "opening_word": "pcheor",
+      "opening_class": "CONDUIT_DISTILLATION_t",
+      "closing_word": "okeey",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 8,
+      "dar_dal_count": 1,
+      "op_counts": {
+        "VESSEL_INFUSION_k": 13,
+        "MECHANICAL_MIXTURE_ch": 7,
+        "CONDUIT_DISTILLATION_t": 3,
+        "THERMAL_DECOCTION_sh": 7
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103v:P3",
+      "folio": "f103v",
+      "hand": "3",
+      "line_count": 3,
+      "word_count": 28,
+      "opening_word": "pchal",
+      "opening_class": "CONDUIT_DISTILLATION_t",
+      "closing_word": "shed",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": false,
+      "aiin_unit_count": 4,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "THERMAL_DECOCTION_sh": 5,
+        "VESSEL_INFUSION_k": 8,
+        "MECHANICAL_MIXTURE_ch": 3,
+        "CONDUIT_DISTILLATION_t": 3
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103v:P4",
+      "folio": "f103v",
+      "hand": "3",
+      "line_count": 2,
+      "word_count": 24,
+      "opening_word": "sal",
+      "opening_class": "NOMINAL_OTHER",
+      "closing_word": "olshey",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 2,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "THERMAL_DECOCTION_sh": 6,
+        "VESSEL_INFUSION_k": 4,
+        "CONDUIT_DISTILLATION_t": 5,
+        "MECHANICAL_MIXTURE_ch": 1
+      },
+      "raw_dominant_genre": "THERMAL_DECOCTION_sh",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103v:P5",
+      "folio": "f103v",
+      "hand": "3",
+      "line_count": 3,
+      "word_count": 32,
+      "opening_word": "teeol",
+      "opening_class": "CONDUIT_DISTILLATION_t",
+      "closing_word": "kedy",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 6,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "THERMAL_DECOCTION_sh": 7,
+        "VESSEL_INFUSION_k": 5,
+        "CONDUIT_DISTILLATION_t": 8,
+        "MECHANICAL_MIXTURE_ch": 6
+      },
+      "raw_dominant_genre": "CONDUIT_DISTILLATION_t",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103v:P6",
+      "folio": "f103v",
+      "hand": "3",
+      "line_count": 3,
+      "word_count": 28,
+      "opening_word": "qokeedy",
+      "opening_class": "VESSEL_INFUSION_k",
+      "closing_word": "chealainor",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": false,
+      "aiin_unit_count": 3,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "MECHANICAL_MIXTURE_ch": 10,
+        "CONDUIT_DISTILLATION_t": 4,
+        "VESSEL_INFUSION_k": 4,
+        "THERMAL_DECOCTION_sh": 2
+      },
+      "raw_dominant_genre": "MECHANICAL_MIXTURE_ch",
+      "enriched_genre": "MECHANICAL_MIXTURE_ch"
+    },
+    {
+      "recipe_id": "f103v:P7",
+      "folio": "f103v",
+      "hand": "3",
+      "line_count": 7,
+      "word_count": 70,
+      "opening_word": "pol",
+      "opening_class": "CONDUIT_DISTILLATION_t",
+      "closing_word": "oteaiin",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": false,
+      "aiin_unit_count": 14,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "MECHANICAL_MIXTURE_ch": 4,
+        "CONDUIT_DISTILLATION_t": 25,
+        "VESSEL_INFUSION_k": 13,
+        "THERMAL_DECOCTION_sh": 9
+      },
+      "raw_dominant_genre": "CONDUIT_DISTILLATION_t",
+      "enriched_genre": "CONDUIT_DISTILLATION_t"
+    },
+    {
+      "recipe_id": "f103v:P8",
+      "folio": "f103v",
+      "hand": "3",
+      "line_count": 3,
+      "word_count": 29,
+      "opening_word": "fcheody",
+      "opening_class": "VESSEL_INFUSION_k",
+      "closing_word": "qokeey",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 4,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "VESSEL_INFUSION_k": 6,
+        "MECHANICAL_MIXTURE_ch": 5,
+        "CONDUIT_DISTILLATION_t": 6,
+        "THERMAL_DECOCTION_sh": 3
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "CONDUIT_DISTILLATION_t"
+    },
+    {
+      "recipe_id": "f103v:P9",
+      "folio": "f103v",
+      "hand": "3",
+      "line_count": 3,
+      "word_count": 29,
+      "opening_word": "pchear",
+      "opening_class": "CONDUIT_DISTILLATION_t",
+      "closing_word": "olkam",
+      "closes_with_am_om": true,
+      "closes_with_dy_y": false,
+      "aiin_unit_count": 3,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "VESSEL_INFUSION_k": 5,
+        "MECHANICAL_MIXTURE_ch": 10,
+        "CONDUIT_DISTILLATION_t": 4,
+        "THERMAL_DECOCTION_sh": 1
+      },
+      "raw_dominant_genre": "MECHANICAL_MIXTURE_ch",
+      "enriched_genre": "MECHANICAL_MIXTURE_ch"
+    },
+    {
+      "recipe_id": "f103v:P10",
+      "folio": "f103v",
+      "hand": "3",
+      "line_count": 4,
+      "word_count": 36,
+      "opening_word": "yshey",
+      "opening_class": "THERMAL_DECOCTION_sh",
+      "closing_word": "olshedy",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 6,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "VESSEL_INFUSION_k": 10,
+        "MECHANICAL_MIXTURE_ch": 6,
+        "CONDUIT_DISTILLATION_t": 4,
+        "THERMAL_DECOCTION_sh": 10
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103v:P11",
+      "folio": "f103v",
+      "hand": "3",
+      "line_count": 2,
+      "word_count": 17,
+      "opening_word": "olshey",
+      "opening_class": "THERMAL_DECOCTION_sh",
+      "closing_word": "keechy",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 1,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "VESSEL_INFUSION_k": 3,
+        "THERMAL_DECOCTION_sh": 3,
+        "MECHANICAL_MIXTURE_ch": 5,
+        "CONDUIT_DISTILLATION_t": 1
+      },
+      "raw_dominant_genre": "MECHANICAL_MIXTURE_ch",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103v:P12",
+      "folio": "f103v",
+      "hand": "3",
+      "line_count": 4,
+      "word_count": 39,
+      "opening_word": "polshor",
+      "opening_class": "CONDUIT_DISTILLATION_t",
+      "closing_word": "chsaly",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 6,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "THERMAL_DECOCTION_sh": 13,
+        "VESSEL_INFUSION_k": 4,
+        "MECHANICAL_MIXTURE_ch": 6,
+        "CONDUIT_DISTILLATION_t": 3
+      },
+      "raw_dominant_genre": "THERMAL_DECOCTION_sh",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f103v:P13",
+      "folio": "f103v",
+      "hand": "3",
+      "line_count": 4,
+      "word_count": 40,
+      "opening_word": "orain",
+      "opening_class": "NOMINAL_OTHER",
+      "closing_word": "chary",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 9,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "MECHANICAL_MIXTURE_ch": 9,
+        "VESSEL_INFUSION_k": 7,
+        "THERMAL_DECOCTION_sh": 7,
+        "CONDUIT_DISTILLATION_t": 4
+      },
+      "raw_dominant_genre": "MECHANICAL_MIXTURE_ch",
+      "enriched_genre": "THERMAL_DECOCTION_sh"
+    },
+    {
+      "recipe_id": "f104r:P1",
+      "folio": "f104r",
+      "hand": "3",
+      "line_count": 4,
+      "word_count": 45,
+      "opening_word": "pchdar",
+      "opening_class": "CONDUIT_DISTILLATION_t",
+      "closing_word": "chry",
+      "closes_with_am_om": false,
+      "closes_with_dy_y": true,
+      "aiin_unit_count": 8,
+      "dar_dal_count": 0,
+      "op_counts": {
+        "MECHANICAL_MIXTURE_ch": 12,
+        "THERMAL_DECOCTION_sh": 2,
+        "CONDUIT_DISTILLATION_t": 9,
+        "VESSEL_INFUSION_k": 3
+      },
+      "raw_dominant_genre": "MECHANICAL_MIXTURE_ch",
+      "enriched_genre": "CONDUIT_DISTILLATION_t"
+    },
+    {
+      "recipe_id": "f104r:P2",
+      "folio": "f104r",
+      "hand": "3",
+      "line_count": 5,
+      "word_count": 52,
+      "opening_word": "kchdal",
+      "opening_class": "VESSEL_INFUSION_k",
+      "closing_word": "dam",
+      "closes_with_am_om": true,
+      "closes_with_dy_y": false,
+      "aiin_unit_count": 9,
+      "dar_dal_count": 1,
+      "op_counts": {
+        "CONDUIT_DISTILLATION_t": 7,
+        "THERMAL_DECOCTION_sh": 4,
+        "MECHANICAL_MIXTURE_ch": 11,
+        "VESSEL_INFUSION_k": 12
+      },
+      "raw_dominant_genre": "VESSEL_INFUSION_k",
+      "enriched_genre": "VESSEL_INFUSION_k"
+    }
+  ]
+}

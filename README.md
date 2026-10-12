@@ -334,6 +334,28 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 38. Herbal-to-Pharmaceutical & Herbal-to-Starred-Recipe Exact Plant-Identity Citation Graph & the Dual `f39v -> f102v2` (`okody + sarol`) Visual Match (`Attack 29`)
+- **`96.90%` (`125 / 129`) Herbal Formulary Citation Rate & Line-1 Self-Echo ($z = +1.90, p = 0.050$)**: `34` Herbal folios have rare signature stems (`1 <= herbal_df <= 2`) or Line-1 headwords cited directly as `@Lf/@Lc` Pharmaceutical specimen labels (`44` exact citations), `98` are cited in Pharmaceutical prose, and `123` in Quire 20 Starred Recipes.
+- **The Dual `f39v -> f102v2` (`okody + sarol`) Botanical Part Dissection (`pages/f39v_okody_sarol_plant_enh.png`, `pages/f102v2_okody_opchy_sarol_row_enh.png`)**: Two unique `herbal_df = 1` stems on `f39v` (`okody` and `sarol`) both appear in the top specimen row of `f102v2` right beside a blue-and-white jar matching `f39v`'s blue-and-white flower umbels: `<f102v2.10,@Lf> okody` labels the **fibrous brown root**, `<f102v2.14,@Lf> sarol` labels the **deep green scalloped leaf**, and `okody` is immediately processed in `<f102v2.20,22,+P0> qokeody ... okeody`.
+
+---
+
+### 39. Moraic Minim-Weight Compensation (`-in` vs. `-iin` vs. `-iiin`), Loop-Count Conditioning (`-e-` vs. `-ee-` vs. `-eee-`) & Root-to-Suffix Vowel Harmony ($z = +14.37, p < 10^{-45}$, `Attack 30`)
+- **Moraic Minim-Weight Compensation**: Light monosyllabic stems (`o-`, `a-`, `da-`, `ta-`) expand to `2–3` minims (`81.1%–85.0%`, with `oiiin` reaching `23.3%` `3-minims`), whereas heavy prefixed gallows stems (`olkain`, `qokain`, `qotain`) compress the suffix to `1` minim (`44.1%–52.3%`).
+- **Loop-Count Conditioning & Root-to-Suffix Vowel Harmony ($z = +14.37, p < 10^{-45}$)**: Horizontal bench stems (`chedy`, `shedy`) select `1-loop` `-e-` (`83.7%–94.9%`), whereas gallows `-y` stems (`qokeey`, `okeey`) select `2–3` loops (`75.8%–76.4%`) and `2-loop` surges `2.48×` at line-initial (`7.21%` vs. `2.91%`). Stratified within Currier Language A/B, root and suffix vowels harmonize in **`47.22%` vs. `40.76%` null ($z = +14.37, p < 10^{-45}$)**.
+
+---
+
+### 40. Thematic Preparation Chapters of Quire 20 (`f103r–f116r`, Adjacent-Recipe Genre Clustering $z = +5.37, p < 10^{-7}$ & Header-to-Body Concordance $z = +2.08, p = 0.021$, `Attack 31`)
+- **Six Sequential Preparation Chapters in Quire 20 (`pages/f103r_decoction_chapter_sh_enh.png`, `pages/f107v_infusion_chapter_k_enh.png`)**: Across `292` starred recipes (`11,642` words), the opening imperative word `<%>w_1` predicts the recipe body's procedural genre ($z = +2.08, p = 0.021$), and consecutive recipes on the same folio share the same genre in **`40.45%` (`108 / 267`) of pairs vs. `27.25%` hand-stratified null ($z = +5.37, p < 10^{-7}$)**: **Chapter I (`f103r–v`)** Thermal Decoctions (`sh`, `83.3%` on `f103r`), **Chapter II (`f104v`)** Mechanical Mixtures (`ch`, `61.5%`), **Chapter III (`f105r–f107r`)** Conduit Distillations I (`t`, `60%–70%`), **Chapter IV (`f107v–f108v`)** Vessel Infusions (`k`, `73.3%` on `f107v`), **Chapter V (`f113v–f114v`)** Conduit Distillations II (`t`, `50%–60%`), and **Chapter VI (`f115r–v`)** Compound Mixtures II (`ch`, `84.6%` on `f115r`).
+
+---
+
+### 41. Full-Manuscript `227`-Folio Translation & Structural Atlas ([`notes/FULL_MANUSCRIPT_TRANSLATION_ATLAS.md`](notes/FULL_MANUSCRIPT_TRANSLATION_ATLAS.md), `Attack 32`)
+- **`100%` Folio Coverage (`227 / 227` Folios, `38,206` Words, `1,186` Labels)**: Indexes every folio's codicological metadata, functional preparation genre, Line-1 opening EVA + structural translation, and rare cross-section links in [`notes/FULL_MANUSCRIPT_TRANSLATION_ATLAS.md`](notes/FULL_MANUSCRIPT_TRANSLATION_ATLAS.md).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -393,4 +415,8 @@ python tools/attack25_scribe_hand_dialect_translation_matrix.py
 python tools/attack26_continuous_pharmacopoeia_reader.py
 python tools/attack27_pharmaceutical_jar_plant_compiler.py
 python tools/attack28_rosettes_9sphere_routing_decoder.py
+python tools/attack29_herbal_to_recipe_plant_identity_graph.py
+python tools/attack30_minim_numeral_and_vowel_harmony_grammar.py
+python tools/attack31_starred_recipe_formulary_compiler.py
+python tools/attack32_full_manuscript_translation_atlas.py
 ```

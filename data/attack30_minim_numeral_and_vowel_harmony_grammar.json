@@ -1,0 +1,827 @@
+{
+  "phase": "Phase 41 / Attack 30",
+  "title": "Word-Internal Minim-Count (-in / -iin / -iiin), Loop-Count (-e- / -ee- / -eee-), and Root-to-Affix Vowel Harmony Grammar",
+  "minim_count_grammar": {
+    "overall_counts": {
+      "2_minims": 4036,
+      "1_minim": 1675,
+      "3_minims": 161
+    },
+    "overall_rates": {
+      "1_minim": 0.2853,
+      "2_minims": 0.6873,
+      "3_minims": 0.0274
+    },
+    "by_scribe_hand": {
+      "Hand_1": {
+        "total": 1577,
+        "rates": {
+          "1_minim": 0.1458,
+          "2_minims": 0.8288,
+          "3_minims": 0.0254
+        },
+        "counts": {
+          "2_minims": 1307,
+          "1_minim": 230,
+          "3_minims": 40
+        }
+      },
+      "Hand_2": {
+        "total": 1620,
+        "rates": {
+          "1_minim": 0.371,
+          "2_minims": 0.5926,
+          "3_minims": 0.0364
+        },
+        "counts": {
+          "2_minims": 960,
+          "3_minims": 59,
+          "1_minim": 601
+        }
+      },
+      "Hand_3": {
+        "total": 2236,
+        "rates": {
+          "1_minim": 0.3457,
+          "2_minims": 0.6306,
+          "3_minims": 0.0237
+        },
+        "counts": {
+          "2_minims": 1410,
+          "1_minim": 773,
+          "3_minims": 53
+        }
+      },
+      "Hand_4": {
+        "total": 316,
+        "rates": {
+          "1_minim": 0.1234,
+          "2_minims": 0.8513,
+          "3_minims": 0.0253
+        },
+        "counts": {
+          "2_minims": 269,
+          "1_minim": 39,
+          "3_minims": 8
+        }
+      },
+      "Hand_5": {
+        "total": 62,
+        "rates": {
+          "1_minim": 0.1774,
+          "2_minims": 0.8226
+        },
+        "counts": {
+          "1_minim": 11,
+          "2_minims": 51
+        }
+      }
+    },
+    "by_currier_language": {
+      "Currier_A": {
+        "total": 1647,
+        "rates": {
+          "1_minim": 0.1494,
+          "2_minims": 0.8264,
+          "3_minims": 0.0243
+        },
+        "counts": {
+          "2_minims": 1361,
+          "1_minim": 246,
+          "3_minims": 40
+        }
+      },
+      "Currier_B": {
+        "total": 3962,
+        "rates": {
+          "1_minim": 0.3529,
+          "2_minims": 0.6179,
+          "3_minims": 0.0293
+        },
+        "counts": {
+          "2_minims": 2448,
+          "3_minims": 116,
+          "1_minim": 1398
+        }
+      }
+    },
+    "by_line_position": {
+      "line_final": {
+        "total": 605,
+        "rates": {
+          "1_minim": 0.281,
+          "2_minims": 0.6826,
+          "3_minims": 0.0364
+        },
+        "counts": {
+          "2_minims": 413,
+          "3_minims": 22,
+          "1_minim": 170
+        }
+      },
+      "line_initial": {
+        "total": 838,
+        "rates": {
+          "1_minim": 0.2745,
+          "2_minims": 0.7136,
+          "3_minims": 0.0119
+        },
+        "counts": {
+          "2_minims": 598,
+          "1_minim": 230,
+          "3_minims": 10
+        }
+      },
+      "line_interior": {
+        "total": 4376,
+        "rates": {
+          "1_minim": 0.2877,
+          "2_minims": 0.6833,
+          "3_minims": 0.029
+        },
+        "counts": {
+          "2_minims": 2990,
+          "1_minim": 1259,
+          "3_minims": 127
+        }
+      },
+      "single_label": {
+        "total": 53,
+        "rates": {
+          "1_minim": 0.3019,
+          "2_minims": 0.6604,
+          "3_minims": 0.0377
+        },
+        "counts": {
+          "2_minims": 35,
+          "1_minim": 16,
+          "3_minims": 2
+        }
+      }
+    },
+    "by_locus_type": {
+      "=Pt_title": {
+        "total": 4,
+        "rates": {
+          "1_minim": 0.5,
+          "2_minims": 0.25,
+          "3_minims": 0.25
+        },
+        "counts": {
+          "1_minim": 2,
+          "3_minims": 1,
+          "2_minims": 1
+        }
+      },
+      "@L_label": {
+        "total": 74,
+        "rates": {
+          "1_minim": 0.3108,
+          "2_minims": 0.6757,
+          "3_minims": 0.0135
+        },
+        "counts": {
+          "2_minims": 50,
+          "1_minim": 23,
+          "3_minims": 1
+        }
+      },
+      "prose": {
+        "total": 5794,
+        "rates": {
+          "1_minim": 0.2848,
+          "2_minims": 0.6878,
+          "3_minims": 0.0274
+        },
+        "counts": {
+          "2_minims": 3985,
+          "1_minim": 1650,
+          "3_minims": 159
+        }
+      }
+    },
+    "by_top_stems": {
+      "yka": {
+        "total": 57,
+        "rates": {
+          "1_minim": 0.2105,
+          "2_minims": 0.7895
+        },
+        "counts": {
+          "2_minims": 45,
+          "1_minim": 12
+        }
+      },
+      "da": {
+        "total": 1011,
+        "rates": {
+          "1_minim": 0.1889,
+          "2_minims": 0.7913,
+          "3_minims": 0.0198
+        },
+        "counts": {
+          "2_minims": 800,
+          "1_minim": 191,
+          "3_minims": 20
+        }
+      },
+      "oka": {
+        "total": 356,
+        "rates": {
+          "1_minim": 0.3848,
+          "2_minims": 0.5955,
+          "3_minims": 0.0197
+        },
+        "counts": {
+          "2_minims": 212,
+          "1_minim": 137,
+          "3_minims": 7
+        }
+      },
+      "yta": {
+        "total": 50,
+        "rates": {
+          "1_minim": 0.24,
+          "2_minims": 0.76
+        },
+        "counts": {
+          "1_minim": 12,
+          "2_minims": 38
+        }
+      },
+      "o": {
+        "total": 60,
+        "rates": {
+          "1_minim": 0.15,
+          "2_minims": 0.6167,
+          "3_minims": 0.2333
+        },
+        "counts": {
+          "2_minims": 37,
+          "3_minims": 14,
+          "1_minim": 9
+        }
+      },
+      "oda": {
+        "total": 87,
+        "rates": {
+          "1_minim": 0.1954,
+          "2_minims": 0.7471,
+          "3_minims": 0.0575
+        },
+        "counts": {
+          "2_minims": 65,
+          "1_minim": 17,
+          "3_minims": 5
+        }
+      },
+      "choda": {
+        "total": 47,
+        "rates": {
+          "1_minim": 0.1064,
+          "2_minims": 0.8936
+        },
+        "counts": {
+          "1_minim": 5,
+          "2_minims": 42
+        }
+      },
+      "a": {
+        "total": 662,
+        "rates": {
+          "1_minim": 0.1707,
+          "2_minims": 0.7598,
+          "3_minims": 0.0695
+        },
+        "counts": {
+          "1_minim": 113,
+          "2_minims": 503,
+          "3_minims": 46
+        }
+      },
+      "ka": {
+        "total": 125,
+        "rates": {
+          "1_minim": 0.336,
+          "2_minims": 0.632,
+          "3_minims": 0.032
+        },
+        "counts": {
+          "2_minims": 79,
+          "3_minims": 4,
+          "1_minim": 42
+        }
+      },
+      "sa": {
+        "total": 183,
+        "rates": {
+          "1_minim": 0.3443,
+          "2_minims": 0.6503,
+          "3_minims": 0.0055
+        },
+        "counts": {
+          "2_minims": 119,
+          "1_minim": 63,
+          "3_minims": 1
+        }
+      },
+      "ota": {
+        "total": 247,
+        "rates": {
+          "1_minim": 0.3846,
+          "2_minims": 0.6113,
+          "3_minims": 0.004
+        },
+        "counts": {
+          "2_minims": 151,
+          "1_minim": 95,
+          "3_minims": 1
+        }
+      },
+      "qoda": {
+        "total": 53,
+        "rates": {
+          "1_minim": 0.1887,
+          "2_minims": 0.7925,
+          "3_minims": 0.0189
+        },
+        "counts": {
+          "2_minims": 42,
+          "1_minim": 10,
+          "3_minims": 1
+        }
+      },
+      "cha": {
+        "total": 65,
+        "rates": {
+          "1_minim": 0.2923,
+          "2_minims": 0.6923,
+          "3_minims": 0.0154
+        },
+        "counts": {
+          "2_minims": 45,
+          "1_minim": 19,
+          "3_minims": 1
+        }
+      },
+      "qota": {
+        "total": 136,
+        "rates": {
+          "1_minim": 0.4412,
+          "2_minims": 0.5515,
+          "3_minims": 0.0074
+        },
+        "counts": {
+          "2_minims": 75,
+          "1_minim": 60,
+          "3_minims": 1
+        }
+      },
+      "qoka": {
+        "total": 544,
+        "rates": {
+          "1_minim": 0.511,
+          "2_minims": 0.4871,
+          "3_minims": 0.0018
+        },
+        "counts": {
+          "2_minims": 265,
+          "1_minim": 278,
+          "3_minims": 1
+        }
+      },
+      "ta": {
+        "total": 54,
+        "rates": {
+          "1_minim": 0.1667,
+          "2_minims": 0.8148,
+          "3_minims": 0.0185
+        },
+        "counts": {
+          "2_minims": 44,
+          "1_minim": 9,
+          "3_minims": 1
+        }
+      },
+      "ra": {
+        "total": 87,
+        "rates": {
+          "1_minim": 0.2529,
+          "2_minims": 0.7356,
+          "3_minims": 0.0115
+        },
+        "counts": {
+          "2_minims": 64,
+          "3_minims": 1,
+          "1_minim": 22
+        }
+      },
+      "ora": {
+        "total": 49,
+        "rates": {
+          "1_minim": 0.3061,
+          "2_minims": 0.6735,
+          "3_minims": 0.0204
+        },
+        "counts": {
+          "2_minims": 33,
+          "1_minim": 15,
+          "3_minims": 1
+        }
+      },
+      "ola": {
+        "total": 66,
+        "rates": {
+          "1_minim": 0.1818,
+          "2_minims": 0.7879,
+          "3_minims": 0.0303
+        },
+        "counts": {
+          "2_minims": 52,
+          "1_minim": 12,
+          "3_minims": 2
+        }
+      },
+      "cheda": {
+        "total": 59,
+        "rates": {
+          "1_minim": 0.322,
+          "2_minims": 0.661,
+          "3_minims": 0.0169
+        },
+        "counts": {
+          "2_minims": 39,
+          "1_minim": 19,
+          "3_minims": 1
+        }
+      },
+      "olka": {
+        "total": 65,
+        "rates": {
+          "1_minim": 0.5231,
+          "2_minims": 0.4769
+        },
+        "counts": {
+          "2_minims": 31,
+          "1_minim": 34
+        }
+      },
+      "lka": {
+        "total": 84,
+        "rates": {
+          "1_minim": 0.4048,
+          "2_minims": 0.5714,
+          "3_minims": 0.0238
+        },
+        "counts": {
+          "2_minims": 48,
+          "1_minim": 34,
+          "3_minims": 2
+        }
+      }
+    }
+  },
+  "loop_count_grammar": {
+    "overall_counts": {
+      "1_loop_e": 9763,
+      "2_loop_ee": 4295,
+      "3_loop_eee": 413
+    },
+    "overall_rates": {
+      "1_loop_e": 0.6747,
+      "2_loop_ee": 0.2968,
+      "3_loop_eee": 0.0285
+    },
+    "by_scribe_hand": {
+      "Hand_1": {
+        "total": 2568,
+        "rates": {
+          "1_loop_e": 0.7076,
+          "2_loop_ee": 0.2562,
+          "3_loop_eee": 0.0362
+        },
+        "counts": {
+          "1_loop_e": 1817,
+          "2_loop_ee": 658,
+          "3_loop_eee": 93
+        }
+      },
+      "Hand_2": {
+        "total": 4652,
+        "rates": {
+          "1_loop_e": 0.7266,
+          "2_loop_ee": 0.2577,
+          "3_loop_eee": 0.0157
+        },
+        "counts": {
+          "1_loop_e": 3380,
+          "2_loop_ee": 1199,
+          "3_loop_eee": 73
+        }
+      },
+      "Hand_3": {
+        "total": 5089,
+        "rates": {
+          "1_loop_e": 0.6105,
+          "2_loop_ee": 0.3557,
+          "3_loop_eee": 0.0338
+        },
+        "counts": {
+          "1_loop_e": 3107,
+          "2_loop_ee": 1810,
+          "3_loop_eee": 172
+        }
+      },
+      "Hand_4": {
+        "total": 1501,
+        "rates": {
+          "1_loop_e": 0.6449,
+          "2_loop_ee": 0.3151,
+          "3_loop_eee": 0.04
+        },
+        "counts": {
+          "2_loop_ee": 473,
+          "1_loop_e": 968,
+          "3_loop_eee": 60
+        }
+      },
+      "Hand_5": {
+        "total": 448,
+        "rates": {
+          "1_loop_e": 0.7679,
+          "2_loop_ee": 0.221,
+          "3_loop_eee": 0.0112
+        },
+        "counts": {
+          "1_loop_e": 344,
+          "2_loop_ee": 99,
+          "3_loop_eee": 5
+        }
+      }
+    },
+    "by_currier_language": {
+      "Currier_A": {
+        "total": 2710,
+        "rates": {
+          "1_loop_e": 0.71,
+          "2_loop_ee": 0.255,
+          "3_loop_eee": 0.0351
+        },
+        "counts": {
+          "1_loop_e": 1924,
+          "2_loop_ee": 691,
+          "3_loop_eee": 95
+        }
+      },
+      "Currier_B": {
+        "total": 10357,
+        "rates": {
+          "1_loop_e": 0.6698,
+          "2_loop_ee": 0.305,
+          "3_loop_eee": 0.0252
+        },
+        "counts": {
+          "1_loop_e": 6937,
+          "2_loop_ee": 3159,
+          "3_loop_eee": 261
+        }
+      }
+    },
+    "by_minimal_pair_family": {
+      "ch_dy": {
+        "total": 561,
+        "rates": {
+          "1_loop_e": 0.8948,
+          "2_loop_ee": 0.1052
+        },
+        "counts": {
+          "1_loop_e": 502,
+          "2_loop_ee": 59
+        }
+      },
+      "ch_ol": {
+        "total": 178,
+        "rates": {
+          "1_loop_e": 0.9494,
+          "2_loop_ee": 0.0506
+        },
+        "counts": {
+          "1_loop_e": 169,
+          "2_loop_ee": 9
+        }
+      },
+      "ch_y": {
+        "total": 546,
+        "rates": {
+          "1_loop_e": 0.6429,
+          "2_loop_ee": 0.3407,
+          "3_loop_eee": 0.0165
+        },
+        "counts": {
+          "1_loop_e": 351,
+          "2_loop_ee": 186,
+          "3_loop_eee": 9
+        }
+      },
+      "ok_dy": {
+        "total": 234,
+        "rates": {
+          "1_loop_e": 0.5,
+          "2_loop_ee": 0.4658,
+          "3_loop_eee": 0.0342
+        },
+        "counts": {
+          "1_loop_e": 117,
+          "2_loop_ee": 109,
+          "3_loop_eee": 8
+        }
+      },
+      "ok_y": {
+        "total": 276,
+        "rates": {
+          "1_loop_e": 0.2355,
+          "2_loop_ee": 0.663,
+          "3_loop_eee": 0.1014
+        },
+        "counts": {
+          "2_loop_ee": 183,
+          "1_loop_e": 65,
+          "3_loop_eee": 28
+        }
+      },
+      "ot_dy": {
+        "total": 271,
+        "rates": {
+          "1_loop_e": 0.6052,
+          "2_loop_ee": 0.3838,
+          "3_loop_eee": 0.0111
+        },
+        "counts": {
+          "1_loop_e": 164,
+          "2_loop_ee": 104,
+          "3_loop_eee": 3
+        }
+      },
+      "qok_dy": {
+        "total": 578,
+        "rates": {
+          "1_loop_e": 0.4671,
+          "2_loop_ee": 0.5242,
+          "3_loop_eee": 0.0087
+        },
+        "counts": {
+          "1_loop_e": 270,
+          "2_loop_ee": 303,
+          "3_loop_eee": 5
+        }
+      },
+      "qok_y": {
+        "total": 442,
+        "rates": {
+          "1_loop_e": 0.2421,
+          "2_loop_ee": 0.6946,
+          "3_loop_eee": 0.0633
+        },
+        "counts": {
+          "1_loop_e": 107,
+          "2_loop_ee": 307,
+          "3_loop_eee": 28
+        }
+      },
+      "qot_dy": {
+        "total": 169,
+        "rates": {
+          "1_loop_e": 0.5266,
+          "2_loop_ee": 0.4556,
+          "3_loop_eee": 0.0178
+        },
+        "counts": {
+          "2_loop_ee": 77,
+          "1_loop_e": 89,
+          "3_loop_eee": 3
+        }
+      },
+      "sh_dy": {
+        "total": 516,
+        "rates": {
+          "1_loop_e": 0.8372,
+          "2_loop_ee": 0.1628
+        },
+        "counts": {
+          "1_loop_e": 432,
+          "2_loop_ee": 84
+        }
+      },
+      "sh_ol": {
+        "total": 122,
+        "rates": {
+          "1_loop_e": 0.8934,
+          "2_loop_ee": 0.1066
+        },
+        "counts": {
+          "1_loop_e": 109,
+          "2_loop_ee": 13
+        }
+      },
+      "sh_y": {
+        "total": 425,
+        "rates": {
+          "1_loop_e": 0.64,
+          "2_loop_ee": 0.3459,
+          "3_loop_eee": 0.0141
+        },
+        "counts": {
+          "1_loop_e": 272,
+          "2_loop_ee": 147,
+          "3_loop_eee": 6
+        }
+      }
+    },
+    "syntactic_context_by_loop_count": {
+      "1_loop_e": {
+        "count": 2647,
+        "followed_by_daiin_or_ol": 150,
+        "followed_by_dar_or_ar": 64,
+        "line_final": 139,
+        "line_initial": 77,
+        "followed_by_daiin_or_ol_rate": 0.0567,
+        "followed_by_dar_or_ar_rate": 0.0242,
+        "line_final_rate": 0.0525,
+        "line_initial_rate": 0.0291
+      },
+      "2_loop_ee": {
+        "count": 1581,
+        "followed_by_daiin_or_ol": 74,
+        "followed_by_dar_or_ar": 35,
+        "line_final": 54,
+        "line_initial": 114,
+        "followed_by_daiin_or_ol_rate": 0.0468,
+        "followed_by_dar_or_ar_rate": 0.0221,
+        "line_final_rate": 0.0342,
+        "line_initial_rate": 0.0721
+      },
+      "3_loop_eee": {
+        "count": 90,
+        "followed_by_daiin_or_ol": 4,
+        "followed_by_dar_or_ar": 1,
+        "line_final": 5,
+        "line_initial": 6,
+        "followed_by_daiin_or_ol_rate": 0.0444,
+        "followed_by_dar_or_ar_rate": 0.0111,
+        "line_final_rate": 0.0556,
+        "line_initial_rate": 0.0667
+      }
+    }
+  },
+  "root_to_suffix_vowel_harmony": {
+    "evaluated_tokens": 6881,
+    "observed_harmonic_matches": 3249,
+    "observed_harmonic_rate": 0.4722,
+    "null_language_stratified_mean": 2804.89,
+    "null_language_stratified_rate": 0.4076,
+    "null_language_stratified_std": 30.91,
+    "z_score": 14.37,
+    "p_value": 0.0,
+    "contingency_table": {
+      "a_low": {
+        "total": 643,
+        "suffix_vowel_rates": {
+          "a_low": 0.6423,
+          "e_front": 0.1229,
+          "o_back": 0.2348
+        },
+        "counts": {
+          "a_low": 413,
+          "o_back": 151,
+          "e_front": 79
+        }
+      },
+      "e_front": {
+        "total": 4887,
+        "suffix_vowel_rates": {
+          "a_low": 0.2142,
+          "e_front": 0.5273,
+          "o_back": 0.2584
+        },
+        "counts": {
+          "e_front": 2577,
+          "a_low": 1047,
+          "o_back": 1263
+        }
+      },
+      "o_back": {
+        "total": 1351,
+        "suffix_vowel_rates": {
+          "a_low": 0.5477,
+          "e_front": 0.2605,
+          "o_back": 0.1917
+        },
+        "counts": {
+          "a_low": 740,
+          "e_front": 352,
+          "o_back": 259
+        }
+      }
+    }
+  }
+}

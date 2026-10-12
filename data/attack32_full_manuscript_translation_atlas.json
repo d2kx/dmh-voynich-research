@@ -1,0 +1,4457 @@
+{
+  "phase": "Phase 43 / Attack 32",
+  "title": "Full-Manuscript 226-Folio Translation & Structural Atlas",
+  "total_folios_indexed": 227,
+  "total_words_indexed": 38206,
+  "total_labels_indexed": 1186,
+  "section_folio_counts": {
+    "T": 7,
+    "H": 129,
+    "C": 11,
+    "S": 25,
+    "A": 8,
+    "Z": 12,
+    "B": 19,
+    "P": 16
+  },
+  "atlas_entries": [
+    {
+      "folio": "f1r",
+      "quire": "A",
+      "section": "T",
+      "language": "A",
+      "hand": "1",
+      "word_count": 214,
+      "paragraph_count": 4,
+      "label_count": 0,
+      "genre": "Continuous Text \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "fachys . ykal . ar . ataiin . shol",
+      "opening_translation": "PARA-VESSEL:mix/grind . then-vessel:a[LIQ] . root-dose . at[2-MEAS] . heat:the/herb[LIQ]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "sory->f99r"
+      ]
+    },
+    {
+      "folio": "f1v",
+      "quire": "A",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 82,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "kchsy . chydaiin . olo . l . tchey",
+      "opening_translation": "VESSEL:mix/grind+this/seed[ATTR] . mix:and/then+this/from[2-MEAS] . the:liquid+the/herb . liquid . DUCT:mix/grind[PTCP]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "chydaiin->f26r,f27r",
+        "okodar->f67r2,f70r2"
+      ]
+    },
+    {
+      "folio": "f2r",
+      "quire": "A",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 83,
+      "paragraph_count": 2,
+      "label_count": 4,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "kydainy . ypchol . daiin . otchalypchaiin . ckholsy",
+      "opening_translation": "VESSEL:one-measure[ATTR] . then:mix/grind[FLUID] . from-this[2-MEAS] . duct:mix/grind[2-MEAS] . blue-petal/extract[ATTR]",
+      "sample_labels": [
+        "ytoail",
+        "ios",
+        "an",
+        "on"
+      ],
+      "rare_cross_references": [
+        "ypchol->f22r,f36r"
+      ]
+    },
+    {
+      "folio": "f2v",
+      "quire": "A",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 55,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "kooiin . cheo . pchor . otaiin . odain",
+      "opening_translation": "VESSEL:the/herb[2-FLUID-MEAS] . mix:eo . PARA-DUCT:mix/grind[EXTRACT] . duct[2-MEAS] . the:this/from[1-MEAS]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "kooiin->f29v",
+        "shty->f82v,f85r1",
+        "loeees->f34v,f111v"
+      ]
+    },
+    {
+      "folio": "f3r",
+      "quire": "A",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 110,
+      "paragraph_count": 4,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "tsheos . qopal . chol . cthol . daimg",
+      "opening_translation": "DUCT:decoct/simmer . with/in:p[WASH] . mix:the/herb[LIQ] . red-calyx/press[FLUID] . from:aim[RIM/TITLE]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "qotcham->f52r,f115v"
+      ]
+    },
+    {
+      "folio": "f3v",
+      "quire": "A",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 85,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "koaiin . cphor . qotoy . sha . ckhol",
+      "opening_translation": "VESSEL:the/herb[2-MEAS] . jar-press[EXTRACT] . via-duct:the/herb[ATTR] . this:ha . blue-petal/extract[FLUID]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "koaiin->f67r2,f67v2",
+        "ykoaiin->f67r2",
+        "okom->f6r"
+      ]
+    },
+    {
+      "folio": "f4r",
+      "quire": "A",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 61,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "kodalchy . chpady . sheol . ol . sheey",
+      "opening_translation": "VESSEL:in-basin/pool[ATTR] . mix:pa[DONE] . heat:e[FLUID] . fluid/water . heat:e[PTCP]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "shtchy->f49r,f106v"
+      ]
+    },
+    {
+      "folio": "f4v",
+      "quire": "A",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 78,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "pchooiin . ksheo . kchoy . chopchy . doldsdlod",
+      "opening_translation": "PARA-DUCT:mix/grind+the/herb[2-FLUID-MEAS] . VESSEL:decoct/simmer+the/herb . VESSEL:mix/grind+the/herb[ATTR] . mix:mix/grind[ATTR] . from:fluid/water",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "kchoy->f5r,f55r",
+        "chopchy->f47v,f72v2",
+        "qodaiino->f54v"
+      ]
+    },
+    {
+      "folio": "f5r",
+      "quire": "A",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 54,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "kchody . fchoy . chkoy . oaiin . oar",
+      "opening_translation": "VESSEL:mix/grind+the/herb[DONE] . PARA-VESSEL:mix/grind+the/herb[ATTR] . mix:vessel/strain+the/herb[ATTR] . the:a[2-UNIT] . the:a[FLOW]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "fchoy->f4v,f55r",
+        "olsy->f99v",
+        "otan->f103v,f116r"
+      ]
+    },
+    {
+      "folio": "f5v",
+      "quire": "A",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 47,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "k . o . cheor . chor . ytchey",
+      "opening_translation": "vessel/strain . the/herb . mix:e[EXTRACT] . mix:the/herb[FLOW] . then-duct:mix/grind[PTCP]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "pshod->f95r2,f106v",
+        "chols->f27r,f100v",
+        "ytoiiin->f37v,f105v"
+      ]
+    },
+    {
+      "folio": "f6r",
+      "quire": "A",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 80,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "foar . y . shol . cholor . cphol",
+      "opening_translation": "PARA-VESSEL:the/herb[DOSE] . and/then . heat:the/herb[LIQ] . mix:fluid/water[EXTRACT] . jar-press[FLUID]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "foar->f24v",
+        "cholor->f79r,f107r",
+        "otcham->f3v,f89r1"
+      ]
+    },
+    {
+      "folio": "f6v",
+      "quire": "A",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 112,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "koary . sar . cheekar . qoor . shor",
+      "opening_translation": "VESSEL:the/herb+root-dose[ATTR] . salt-dose . mix:eek[DOSE] . with/in:the/herb[FLOW] . heat:the/herb[FLOW]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "cheas->f101r"
+      ]
+    },
+    {
+      "folio": "f7r",
+      "quire": "A",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 57,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "fchodaiin . shopchey . qkoshey . qoos . sheey",
+      "opening_translation": "PARA-VESSEL:mix/grind[2-MEAS] . heat:mix/grind[PTCP] . boil/heat[PTCP] . with/in:the/herb+this/seed . heat:e[PTCP]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "fchodaiin->f95v1",
+        "qkoshey->f1r,f111v",
+        "daiinychey->f37r"
+      ]
+    },
+    {
+      "folio": "f7v",
+      "quire": "A",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 75,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "polyshy . shey . tchody . qopchy . otshol",
+      "opening_translation": "PARA-DUCT:boil/heat[ATTR] . heat:e[ATTR] . DUCT:mix/grind+the/herb[DONE] . with/in:mix/grind[ATTR] . duct:boil/heat[FLUID]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "otshol->f18r",
+        "chochy->f7r,f35r",
+        "dykchy->f14v"
+      ]
+    },
+    {
+      "folio": "f8r",
+      "quire": "A",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 134,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "pshol . chor . otshal . chopycphol . chody",
+      "opening_translation": "PARA-DUCT:boil/heat[FLUID] . mix:the/herb[FLOW] . duct:boil/heat[WASH] . mix:jar-press[FLUID] . mix:the/herb[DONE]",
+      "sample_labels": [],
+      "rare_cross_references": []
+    },
+    {
+      "folio": "f8v",
+      "quire": "A",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 101,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "od . soosol . shol . otol . chol",
+      "opening_translation": "the/herb+this/from . this:oos[FLUID] . heat:the/herb[LIQ] . duct:the/herb[LIQ] . mix:the/herb[LIQ]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "opydaiin->f17v,f58r",
+        "chykchy->f18r,f68r2",
+        "dshol->f68r3,f76v"
+      ]
+    },
+    {
+      "folio": "f9r",
+      "quire": "B",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 74,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "tydlo . choly . cthor . orchey . s",
+      "opening_translation": "DUCT:ydlo . mix:fluid/water[ATTR] . red-calyx/press[EXTRACT] . the:flow+mix/grind[PTCP] . this/seed",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "orchey->f58v,f72v3",
+        "oykeey->f49r"
+      ]
+    },
+    {
+      "folio": "f9v",
+      "quire": "B",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 74,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "fochor . oporody . opy . shor . daiin",
+      "opening_translation": "PARA-VESSEL:the/herb+mix/grind[EXTRACT] . jar-top:golden-extract+the/herb[DONE] . the:p[ATTR] . heat:the/herb[FLOW] . from-this[2-MEAS]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "fochor->f102v1",
+        "dyoty->f13v,f14v"
+      ]
+    },
+    {
+      "folio": "f10r",
+      "quire": "B",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 86,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "pchocthy . shor . octhody . chorchy . pchodol",
+      "opening_translation": "PARA-DUCT:red-calyx/press[ATTR] . heat:the/herb[FLOW] . the:red-calyx/press+the/herb[DONE] . mix:golden-extract+mix/grind[ATTR] . PARA-DUCT:mix/grind[FLUID]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "pchocthy->f16v,f20r",
+        "octhody->f57r,f85r2",
+        "chorchy->f56r"
+      ]
+    },
+    {
+      "folio": "f10v",
+      "quire": "B",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 57,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "paiin . daiin . sheo . pcheey . qoty",
+      "opening_translation": "PARA-DUCT:a[2-UNIT] . from-this[2-MEAS] . heat:eo . PARA-DUCT:mix/grind[INTENS-PTCP] . with/in:duct/distill[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "otydy->f51r,f68r1"
+      ]
+    },
+    {
+      "folio": "f11r",
+      "quire": "B",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 59,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "tshol . schoal . cfhy . shfydaiin . cphy",
+      "opening_translation": "DUCT:boil/heat[FLUID] . this:mix/grind+the/herb[WASH] . jar-strain[ATTR] . heat:fyd[2-MEAS] . jar-press[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": []
+    },
+    {
+      "folio": "f11v",
+      "quire": "B",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 45,
+      "paragraph_count": 1,
+      "label_count": 1,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "poldchody . shcphy . shordy . qotyshol . cphar",
+      "opening_translation": "PARA-DUCT:mix/grind[DONE] . heat:jar-press[ATTR] . heat:golden-extract[DONE] . via-duct:and/then+boil/heat[FLUID] . jar-press[DOSE]",
+      "sample_labels": [
+        "dd"
+      ],
+      "rare_cross_references": [
+        "cholol->f47r"
+      ]
+    },
+    {
+      "folio": "f13r",
+      "quire": "B",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 74,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "torshor . opchy . shol . dy . qopchy",
+      "opening_translation": "DUCT:golden-extract+boil/heat[EXTRACT] . jar-top:mix/grind[ATTR] . heat:the/herb[LIQ] . this/from[ATTR] . with/in:mix/grind[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "torshor->f107r",
+        "shkchy->f103r",
+        "ydal->f24v,f72r1"
+      ]
+    },
+    {
+      "folio": "f13v",
+      "quire": "B",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 61,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "koair . chtoiin . otchy . kchod . otol",
+      "opening_translation": "VESSEL:oai[FLOW] . mix:duct/distill[2-FLUID-MEAS] . duct:mix/grind[ATTR] . VESSEL:mix/grind . duct:the/herb[LIQ]",
+      "sample_labels": [],
+      "rare_cross_references": []
+    },
+    {
+      "folio": "f14r",
+      "quire": "B",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 72,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "pcho . daiin . chopol . shoiin . daiin",
+      "opening_translation": "PARA-DUCT:mix/grind+the/herb . from-this[2-MEAS] . mix:op[FLUID] . heat:the/herb[2-UNIT] . from-this[2-MEAS]",
+      "sample_labels": [],
+      "rare_cross_references": []
+    },
+    {
+      "folio": "f14v",
+      "quire": "B",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 72,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "pdychoiin . yfodain . otyshy . dy . ypchor",
+      "opening_translation": "PARA-DUCT:mix/grind[2-FLUID-MEAS] . then:fod[1-MEAS] . duct:and/then+boil/heat[ATTR] . this/from[ATTR] . then:mix/grind[EXTRACT]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "ypchor->f45r,f86v5",
+        "ychy->f18r,f22v",
+        "dytchy->f19r"
+      ]
+    },
+    {
+      "folio": "f15r",
+      "quire": "B",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 78,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "tshor . shey . tchalyshy . chtols . shey",
+      "opening_translation": "DUCT:boil/heat[EXTRACT] . heat:e[ATTR] . DUCT:boil/heat[ATTR] . mix:shoot-liquid+this/seed . heat:e[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "tshor->f53v,f90v1",
+        "koly->f72r3,f99r"
+      ]
+    },
+    {
+      "folio": "f15v",
+      "quire": "B",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 71,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "poror . orshy . choiin . dtchan . opchordy",
+      "opening_translation": "PARA-DUCT:golden-extract[EXTRACT] . the:flow+boil/heat[ATTR] . mix:the/herb[2-UNIT] . from:mix/grind . jar-top:mix/grind+golden-extract[DONE]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "poror->f16r,f86v6",
+        "orshy->f18v",
+        "qotchod->f30v,f47r"
+      ]
+    },
+    {
+      "folio": "f16r",
+      "quire": "B",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 81,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "pocheody . qopchey . sykaiin . opchy . dor",
+      "opening_translation": "PARA-DUCT:steep/infuse[DONE] . with/in:mix/grind[PTCP] . this:and/then+vessel/strain[2-MEAS] . jar-top:mix/grind[ATTR] . from:the/herb[FLOW]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "orom->f86v6,f104v"
+      ]
+    },
+    {
+      "folio": "f16v",
+      "quire": "B",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 76,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "pchroiin . otchor . chpchol . chpchey . s",
+      "opening_translation": "PARA-DUCT:mix/grind+flow[2-FLUID-MEAS] . duct:mix/grind[EXTRACT] . mix:mix/grind[FLUID] . mix:mix/grind[PTCP] . this/seed",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "chpchey->f114r",
+        "qokchocthor->f113v",
+        "chcthody->f86v5,f87r"
+      ]
+    },
+    {
+      "folio": "f17r",
+      "quire": "C",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 76,
+      "paragraph_count": 3,
+      "label_count": 2,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "fshody . daram . ydar . chog . opydy",
+      "opening_translation": "PARA-VESSEL:boil/heat+the/herb[DONE] . from:root-dose[FINAL-PROD] . then:this/from[DOSE] . mix:the/herb[RIM/TITLE] . jar-top:and/then[DONE]",
+      "sample_labels": [
+        "oteeeon",
+        "oiil"
+      ],
+      "rare_cross_references": [
+        "fshody->f53v,f70r2",
+        "chog->f90v2",
+        "opydy->f20v"
+      ]
+    },
+    {
+      "folio": "f17v",
+      "quire": "C",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 135,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "pchodol . chor . pchy . opydaiin . odal",
+      "opening_translation": "PARA-DUCT:mix/grind[FLUID] . mix:the/herb[FLOW] . PARA-DUCT:mix/grind[ATTR] . jar-top:and/then+this/from[2-MEAS] . the:this/from[WASH]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "pchodol->f10r,f89r2",
+        "opydaiin->f8v,f58r",
+        "cthodal->f1r,f87r"
+      ]
+    },
+    {
+      "folio": "f18r",
+      "quire": "C",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 79,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "pdrairdy . darod . yoar . ykchol . dar",
+      "opening_translation": "PARA-DUCT:drair[DONE] . from:root-dose . then:the/herb[DOSE] . then-vessel:mix/grind[FLUID] . in-jar/from-root",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "otshol->f7v",
+        "chykchy->f8v,f68r2",
+        "okchal->f24v,f52r"
+      ]
+    },
+    {
+      "folio": "f18v",
+      "quire": "C",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 69,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "told . shor . ytshy . otchdal . dchal",
+      "opening_translation": "DUCT:fluid/water+this/from . heat:the/herb[FLOW] . then-duct:boil/heat[ATTR] . duct:mix/grind+this/from[WASH] . from:mix/grind[WASH]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "ytshy->f13r,f86v6",
+        "otchdal->f72r1",
+        "dchal->f24v,f70r1"
+      ]
+    },
+    {
+      "folio": "f19r",
+      "quire": "C",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 76,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "pchor . qodchy . qotshy . dy . tchy",
+      "opening_translation": "PARA-DUCT:mix/grind[EXTRACT] . with/in:this/from+mix/grind[ATTR] . via-duct:boil/heat[ATTR] . this/from[ATTR] . DUCT:mix/grind[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "dytchy->f14v",
+        "dyty->f43r,f79r"
+      ]
+    },
+    {
+      "folio": "f19v",
+      "quire": "C",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 78,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "pochaiin . cthor . chpcheos . opchey . py",
+      "opening_translation": "PARA-DUCT:the/herb+mix/grind[2-MEAS] . red-calyx/press[EXTRACT] . mix:steep/infuse . jar-top:mix/grind[PTCP] . p[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "qokchos->f6v,f7r",
+        "darom->f75r,f115r"
+      ]
+    },
+    {
+      "folio": "f20r",
+      "quire": "C",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 88,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "kdchody . chopy . cheey . qotchol . qotoeey",
+      "opening_translation": "VESSEL:mix/grind[DONE] . mix:op[ATTR] . mix:e[PTCP] . via-duct:mix/grind[FLUID] . via-duct:the/herb[INTENS-PTCP]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "qotoeey->f5r,f113r",
+        "chodchy->f27v,f68r2",
+        "tcheodal->f57r,f114v"
+      ]
+    },
+    {
+      "folio": "f20v",
+      "quire": "C",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 85,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "faiis . ar . okoy . shy . pofochey",
+      "opening_translation": "PARA-VESSEL:aiis . root-dose . vessel:the/herb[ATTR] . this:h[ATTR] . PARA-DUCT:mix/grind[PTCP]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "faiis->f114r",
+        "okoy->f28r,f38r",
+        "opydy->f17r"
+      ]
+    },
+    {
+      "folio": "f21r",
+      "quire": "C",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 104,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "pchor . o . eeockhy . o . fychey",
+      "opening_translation": "PARA-DUCT:mix/grind[EXTRACT] . the/herb . blue-petal/extract[ATTR] . the/herb . PARA-VESSEL:and/then+mix/grind[PTCP]",
+      "sample_labels": [],
+      "rare_cross_references": []
+    },
+    {
+      "folio": "f21v",
+      "quire": "C",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 57,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "toldshy . chofchy . qofshey . shckhol . odaiin",
+      "opening_translation": "DUCT:boil/heat[ATTR] . mix:mix/grind[ATTR] . with/in:boil/heat[PTCP] . heat:blue-petal/extract[FLUID] . the:this/from[2-MEAS]",
+      "sample_labels": [],
+      "rare_cross_references": []
+    },
+    {
+      "folio": "f22r",
+      "quire": "C",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 103,
+      "paragraph_count": 4,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "pol . olshy . fcholy . shol . dpchy",
+      "opening_translation": "PARA-DUCT:the/herb[LIQ] . the:liquid+boil/heat[ATTR] . PARA-VESSEL:mix/grind+fluid/water[ATTR] . heat:the/herb[LIQ] . from:mix/grind[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "olshy->f84r,f99v",
+        "fcholy->f52v",
+        "dpchy->f13r"
+      ]
+    },
+    {
+      "folio": "f22v",
+      "quire": "C",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 71,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "pysaiinor . ofchar . oky . tchy . otdysor",
+      "opening_translation": "PARA-DUCT:two-measures[EXTRACT] . jar-strain:mix/grind[DOSE] . the:vessel/strain[ATTR] . DUCT:mix/grind[ATTR] . duct:dys[EXTRACT]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "ofchar->f45r",
+        "ychy->f14v,f18r",
+        "otchaiin->f36v"
+      ]
+    },
+    {
+      "folio": "f23r",
+      "quire": "C",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 105,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "pydchdom . chy . fcholdy . oty . otchol",
+      "opening_translation": "PARA-DUCT:mix/grind[FINAL-FLUID] . mix/grind[ATTR] . PARA-VESSEL:mix/grind+fluid/water[DONE] . the:duct/distill[ATTR] . duct:mix/grind[FLUID]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "fcholdy->f25r",
+        "ololdy->f34r"
+      ]
+    },
+    {
+      "folio": "f23v",
+      "quire": "C",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 86,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Balanced Botanical/Procedural",
+      "opening_eva": "podairol . odaiiily . sho . al . dy",
+      "opening_translation": "PARA-DUCT:odair[FLUID] . the:daiiil[ATTR] . this:ho . wash/liquid . this/from[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "ycho->f1r,f19v"
+      ]
+    },
+    {
+      "folio": "f24r",
+      "quire": "C",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 110,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Balanced Botanical/Procedural",
+      "opening_eva": "por . or . y . chor . opchar",
+      "opening_translation": "PARA-DUCT:the/herb[FLOW] . golden-extract . and/then . mix:the/herb[FLOW] . jar-top:mix/grind[DOSE]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "opchar->f104r"
+      ]
+    },
+    {
+      "folio": "f24v",
+      "quire": "C",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 84,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "tchodar . chocfhey . opom . shod . chcphy",
+      "opening_translation": "DUCT:mix/grind[DOSE] . mix:the/herb+jar-strain[PTCP] . jar-top:the/herb[TERM] . heat:the/herb+this/from . mix:jar-press[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "tchodar->f28r,f115r",
+        "okchom->f17r",
+        "chcth->f24r"
+      ]
+    },
+    {
+      "folio": "f25r",
+      "quire": "D",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 47,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "fcholdy . soshy . daiin . y . shody",
+      "opening_translation": "PARA-VESSEL:mix/grind+fluid/water[DONE] . this:the/herb+boil/heat[ATTR] . from-this[2-MEAS] . and/then . heat:the/herb[DONE]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "fcholdy->f23r",
+        "soshy->f14r",
+        "cpholdy->f4r,f30v"
+      ]
+    },
+    {
+      "folio": "f25v",
+      "quire": "D",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 57,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "poeeaiin . qo . ky . shy . daiin",
+      "opening_translation": "PARA-DUCT:oee[2-MEAS] . qo . vessel/strain[ATTR] . this:h[ATTR] . from-this[2-MEAS]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "okeeaiin->f108v"
+      ]
+    },
+    {
+      "folio": "f26r",
+      "quire": "D",
+      "section": "H",
+      "language": "B",
+      "hand": "2",
+      "word_count": 71,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "psheoky . odaiir . qoyofshod . chypchey . ypchedy",
+      "opening_translation": "PARA-DUCT:decoct/simmer[ATTR] . the:daii[FLOW] . with/in:boil/heat . mix:mix/grind[PTCP] . then:mix/grind[PROC]",
+      "sample_labels": [],
+      "rare_cross_references": []
+    },
+    {
+      "folio": "f26v",
+      "quire": "D",
+      "section": "H",
+      "language": "B",
+      "hand": "2",
+      "word_count": 93,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "pchedar . qodary . daiiin . pcheety . s",
+      "opening_translation": "PARA-DUCT:steep/infuse+this/from[DOSE] . with/in:in-jar/from-root[ATTR] . from-this[3-MEAS] . PARA-DUCT:steep/infuse[ATTR] . this/seed",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "pcheety->f108r",
+        "ypchdy->f34v,f48r",
+        "etedy->f77v"
+      ]
+    },
+    {
+      "folio": "f27r",
+      "quire": "D",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 85,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "ksor . shey . shoteo . chforaiin . shyshod",
+      "opening_translation": "VESSEL:this/seed[EXTRACT] . heat:e[ATTR] . heat:duct-draw . mix:golden-extract[2-MEAS] . heat:boil/heat",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "chydaiin->f1v,f26r"
+      ]
+    },
+    {
+      "folio": "f27v",
+      "quire": "D",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 54,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "pochof . chof . cho . sho . soly",
+      "opening_translation": "PARA-DUCT:mix/grind . mix:of . mix/grind+the/herb . this:ho . this:fluid/water[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "chof->f8r",
+        "soly->f70r1,f84v",
+        "dchokchy->f14r,f35v"
+      ]
+    },
+    {
+      "folio": "f28r",
+      "quire": "D",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 60,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "pchodar . shod . chocphy . opchol . daiinotchol",
+      "opening_translation": "PARA-DUCT:mix/grind[DOSE] . heat:the/herb+this/from . mix:the/herb+jar-press[ATTR] . jar-top:mix/grind[FLUID] . from:two-measures[FLUID]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "pchodar->f24v,f115r",
+        "chocphy->f54r,f68r3",
+        "chtol->f48v,f84r"
+      ]
+    },
+    {
+      "folio": "f28v",
+      "quire": "D",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 62,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "kshol . qooiiin . shor . pshoiiin . shepchy",
+      "opening_translation": "VESSEL:boil/heat[FLUID] . with/in:the/herb[3-UNIT] . heat:the/herb[FLOW] . PARA-DUCT:boil/heat+the/herb[3-UNIT] . heat:mix/grind[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "kshol->f3v,f23v",
+        "shepchy->f75r,f80r"
+      ]
+    },
+    {
+      "folio": "f29r",
+      "quire": "D",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 60,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "posaiin . she . aiin . chep . oty",
+      "opening_translation": "PARA-DUCT:the/herb+this/seed[2-MEAS] . decoct/simmer . two-measures . mix:ep . the:duct/distill[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "chep->f76r,f103r",
+        "dshe->f23r"
+      ]
+    },
+    {
+      "folio": "f29v",
+      "quire": "D",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 73,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "kooiin . shor . chetchy . ol . ls",
+      "opening_translation": "VESSEL:the/herb[2-FLUID-MEAS] . heat:the/herb[FLOW] . mix:mix/grind[ATTR] . fluid/water . liquid+this/seed",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "kooiin->f2v",
+        "chetchy->f37v,f87r",
+        "shytchy->f4r"
+      ]
+    },
+    {
+      "folio": "f30r",
+      "quire": "D",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 92,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "okeeesy . chey . shorchey . fcheody . shey",
+      "opening_translation": "vessel:eees[ATTR] . mix:e[ATTR] . heat:golden-extract+mix/grind[PTCP] . PARA-VESSEL:steep/infuse+the/herb[DONE] . heat:e[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "okeeesy->f99r",
+        "keeodol->f102r1"
+      ]
+    },
+    {
+      "folio": "f30v",
+      "quire": "D",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 63,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "sain . shosaiin . chocthey . sho . chepchy",
+      "opening_translation": "this-seed[1-MEAS] . heat:the/herb+this/seed[2-MEAS] . mix:the/herb+red-calyx/press[PTCP] . this:ho . mix:mix/grind[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "shosaiin->f20r,f35r",
+        "chepchy->f68v3,f72v1",
+        "ctholdy->f4r,f25r"
+      ]
+    },
+    {
+      "folio": "f31r",
+      "quire": "D",
+      "section": "H",
+      "language": "B",
+      "hand": "2",
+      "word_count": 103,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "keedey . qofchedy . shee . s . aiin",
+      "opening_translation": "VESSEL:eed[PTCP] . with/in:mix/grind[PROC] . heat:ee . this/seed . two-measures",
+      "sample_labels": [],
+      "rare_cross_references": []
+    },
+    {
+      "folio": "f31v",
+      "quire": "D",
+      "section": "H",
+      "language": "B",
+      "hand": "2",
+      "word_count": 110,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "podair . sheedy . otedy . oteedy . qotolcheo",
+      "opening_translation": "PARA-DUCT:odai[FLOW] . heat:e[PROC] . duct:e[DONE] . duct:e[PROC] . via-duct:steep/infuse",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "podair->f36r,f58r",
+        "ytchos->f6v"
+      ]
+    },
+    {
+      "folio": "f32r",
+      "quire": "D",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 72,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "fchaiin . shykeody . daiiody . dainsho . tchy",
+      "opening_translation": "PARA-VESSEL:mix/grind[2-MEAS] . heat:vessel-heat[DONE] . from:aiio[DONE] . from:one-measure . DUCT:mix/grind[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "schor->f38v,f42v",
+        "ytsho->f44r",
+        "daindaiin->f38v,f101v"
+      ]
+    },
+    {
+      "folio": "f32v",
+      "quire": "D",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 79,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "kcheodaiin . chol . kechy . qotaiin . daiioamo",
+      "opening_translation": "VESSEL:steep/infuse[2-MEAS] . mix:the/herb[LIQ] . VESSEL:mix/grind[ATTR] . via-duct[2-MEAS] . from:aiioamo",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "kcheodaiin->f104v,f113r",
+        "dydain->f36v,f48v"
+      ]
+    },
+    {
+      "folio": "f33r",
+      "quire": "E",
+      "section": "H",
+      "language": "B",
+      "hand": "2",
+      "word_count": 74,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "tshdar . shdor . shepchdy . cphody . yfoldy",
+      "opening_translation": "DUCT:boil/heat+this/from[DOSE] . heat:this/from[EXTRACT] . heat:mix/grind[DONE] . jar-press+the/herb[DONE] . then:fluid/water[DONE]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "tshdar->f43r,f106r"
+      ]
+    },
+    {
+      "folio": "f33v",
+      "quire": "E",
+      "section": "H",
+      "language": "B",
+      "hand": "2",
+      "word_count": 92,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "tar . ar . daiinydain . cthey . dolssheky",
+      "opening_translation": "duct-root . root-dose . from:two-measures[1-MEAS] . red-calyx/press[PTCP] . from:decoct/simmer[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "daiinydain->f22r",
+        "tokar->f48v,f107v"
+      ]
+    },
+    {
+      "folio": "f34r",
+      "quire": "E",
+      "section": "H",
+      "language": "B",
+      "hand": "2",
+      "word_count": 123,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "pcheoepchy . olar . ylyfody . okedody . shod",
+      "opening_translation": "PARA-DUCT:steep/infuse[ATTR] . the:liquid[DOSE] . then:lyfo[DONE] . vessel:edo[DONE] . heat:the/herb+this/from",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "ololdy->f23r",
+        "oltey->f73r,f86v3",
+        "chyty->f9v,f16v"
+      ]
+    },
+    {
+      "folio": "f34v",
+      "quire": "E",
+      "section": "H",
+      "language": "B",
+      "hand": "2",
+      "word_count": 117,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "kechdy . chdy . chefchy . shdy . qopchdy",
+      "opening_translation": "VESSEL:mix/grind[DONE] . mix:this/from[ATTR] . mix:mix/grind[ATTR] . heat:this/from[ATTR] . with/in:mix/grind[DONE]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "chefchy->f66r,f86v6",
+        "ypchdy->f26v,f48r",
+        "dychedy->f77v"
+      ]
+    },
+    {
+      "folio": "f35r",
+      "quire": "E",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 90,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "oo . r . choly . y . choty",
+      "opening_translation": "the/herb+the/herb . flow . mix:fluid/water[ATTR] . and/then . mix:the/herb+duct/distill[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "cthory->f4v"
+      ]
+    },
+    {
+      "folio": "f35v",
+      "quire": "E",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 90,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "parchor . chocthy . roaiin . ar",
+      "opening_translation": "PARA-DUCT:root-dose+mix/grind[EXTRACT] . mix:the/herb+red-calyx/press[ATTR] . flow+the/herb[2-MEAS] . root-dose",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "parchor->f43v",
+        "chyty->f9v,f16v",
+        "dchokchy->f14r,f27v"
+      ]
+    },
+    {
+      "folio": "f36r",
+      "quire": "E",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 53,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "pchadan . qorain . chcfhal . soiin . cphor",
+      "opening_translation": "PARA-DUCT:mix/grind . with/in:flow[1-MEAS] . mix:jar-strain[WASH] . this:the/herb[2-UNIT] . jar-press[EXTRACT]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "podaiir->f31v,f58r",
+        "qoypchol->f2r,f22r"
+      ]
+    },
+    {
+      "folio": "f36v",
+      "quire": "E",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 74,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "pchar . asy . qoforom . shoaiin . tchey",
+      "opening_translation": "PARA-DUCT:mix/grind[DOSE] . as[ATTR] . with/in:golden-extract[FINAL-FLUID] . heat:the/herb[2-MEAS] . DUCT:mix/grind[PTCP]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "shoaiin->f1r,f70r2",
+        "sotaiin->f82r",
+        "otchaiin->f22v"
+      ]
+    },
+    {
+      "folio": "f37r",
+      "quire": "E",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 73,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "tocphol . shaiin . qotor . ofchor . oty",
+      "opening_translation": "DUCT:the/herb+jar-press[FLUID] . heat:a[2-UNIT] . via-duct:the/herb[FLOW] . jar-strain:mix/grind[EXTRACT] . the:duct/distill[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "otod->f53r",
+        "ykoiin->f5v,f20v"
+      ]
+    },
+    {
+      "folio": "f37v",
+      "quire": "E",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 89,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "tshody . qocthy . qotoldy . chopdain . sol",
+      "opening_translation": "DUCT:boil/heat+the/herb[DONE] . with/in:red-calyx/press[ATTR] . via-duct:fluid/water[DONE] . mix:opd[1-MEAS] . this:the/herb[LIQ]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "tshody->f86v5",
+        "qotoldy->f9v,f43r",
+        "yokor->f89v2"
+      ]
+    },
+    {
+      "folio": "f38r",
+      "quire": "E",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 38,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "tolor . chockhyoky . choiin . okshol . oly",
+      "opening_translation": "DUCT:fluid/water[EXTRACT] . mix:blue-petal/extract[ATTR] . mix:the/herb[2-UNIT] . vessel:boil/heat[FLUID] . the:liquid[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "tolor->f112v,f115v",
+        "chko->f45v"
+      ]
+    },
+    {
+      "folio": "f38v",
+      "quire": "E",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 60,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Balanced Botanical/Procedural",
+      "opening_eva": "okchop . chol . shotol . oteol . okeea",
+      "opening_translation": "vessel:mix/grind . mix:the/herb[LIQ] . heat:the/herb+duct/distill[FLUID] . duct:e[FLUID] . vessel:eea",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "shotol->f42r,f93r",
+        "okeea->f72v3,f108v",
+        "schor->f32r,f42v"
+      ]
+    },
+    {
+      "folio": "f39r",
+      "quire": "E",
+      "section": "H",
+      "language": "B",
+      "hand": "2",
+      "word_count": 157,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "tedo . chshd . cphhofy . chdain . shey",
+      "opening_translation": "DUCT:edo . mix:boil/heat+this/from . jar-press[ATTR] . mix:this/from[1-MEAS] . heat:e[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "tedo->f106r,f108r",
+        "cheepaiin->f85r2",
+        "shekshey->f95v1"
+      ]
+    },
+    {
+      "folio": "f39v",
+      "quire": "E",
+      "section": "H",
+      "language": "B",
+      "hand": "2",
+      "word_count": 139,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "pdair . chdy . fdykain . or . air",
+      "opening_translation": "PARA-DUCT:dai[FLOW] . mix:this/from[ATTR] . PARA-VESSEL:dyk[1-MEAS] . golden-extract . ai[FLOW]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "sheykaiiin->f103v",
+        "ofchy->f22r,f26v",
+        "olkedaiin->f85r1,f112v"
+      ]
+    },
+    {
+      "folio": "f40r",
+      "quire": "E",
+      "section": "H",
+      "language": "B",
+      "hand": "2",
+      "word_count": 93,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "pchey . k . eodar . aldydyqoky . okal",
+      "opening_translation": "PARA-DUCT:mix/grind[PTCP] . vessel/strain . eod[DOSE] . wash/liquid[ATTR] . vessel:a[LIQ]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "opches->fRos,f106r"
+      ]
+    },
+    {
+      "folio": "f40v",
+      "quire": "E",
+      "section": "H",
+      "language": "B",
+      "hand": "2",
+      "word_count": 99,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "pchedain . chefaiin . oldy",
+      "opening_translation": "PARA-DUCT:steep/infuse+this/from[1-MEAS] . mix:ef[2-MEAS] . the:liquid[DONE]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "chefaiin->fRos",
+        "solaiin->f68v3,f107v"
+      ]
+    },
+    {
+      "folio": "f41r",
+      "quire": "F",
+      "section": "H",
+      "language": "B",
+      "hand": "5",
+      "word_count": 86,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "pshey . kedaleey . oked . seekeeeyopshes . opchd",
+      "opening_translation": "PARA-DUCT:boil/heat[PTCP] . VESSEL:in-basin/pool[INTENS-PTCP] . vessel:ed . this:decoct/simmer . jar-top:mix/grind+this/from",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "opchd->fRos",
+        "alshey->f48r,f72v1",
+        "ycheoky->f51v,f100v"
+      ]
+    },
+    {
+      "folio": "f41v",
+      "quire": "F",
+      "section": "H",
+      "language": "B",
+      "hand": "5",
+      "word_count": 60,
+      "paragraph_count": 1,
+      "label_count": 1,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "pcheody . qofcheepy . ofchdy . cfhekchdyypchedy . chepchefy",
+      "opening_translation": "PARA-DUCT:steep/infuse+the/herb[DONE] . with/in:steep/infuse[ATTR] . jar-strain:mix/grind[DONE] . jar-strain[PROC] . mix:steep/infuse[ATTR]",
+      "sample_labels": [
+        "keeredal"
+      ],
+      "rare_cross_references": [
+        "oleeol->f101r,f102r1"
+      ]
+    },
+    {
+      "folio": "f42r",
+      "quire": "F",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 135,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "o . ofaiin . cthay . otcheey . pchear",
+      "opening_translation": "the/herb . jar-strain:a[2-UNIT] . red-calyx/press[ATTR] . duct:mix/grind[INTENS-PTCP] . PARA-DUCT:steep/infuse[DOSE]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "pchear->f103v,f113r",
+        "solkaiin->f80r,f111v",
+        "daiiry->f8r,f106v"
+      ]
+    },
+    {
+      "folio": "f42v",
+      "quire": "F",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 99,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "cho . sheey . qocho . taiin . sholschol",
+      "opening_translation": "mix/grind+the/herb . heat:e[PTCP] . with/in:mix/grind+the/herb . DUCT:a[2-UNIT] . heat:mix/grind[FLUID]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "chtchy->f47r,f89v2"
+      ]
+    },
+    {
+      "folio": "f43r",
+      "quire": "F",
+      "section": "H",
+      "language": "B",
+      "hand": "2",
+      "word_count": 153,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "tarodaiin . ytedy . eeody . ofchtar . chcphedy",
+      "opening_translation": "DUCT:root-dose[2-MEAS] . then-duct:e[DONE] . eeo[DONE] . jar-strain:mix/grind+duct/distill[DOSE] . mix:jar-press[PROC]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "chcphedy->f76r,f114v",
+        "folor->f102r2",
+        "daral->f20r,f79v"
+      ]
+    },
+    {
+      "folio": "f43v",
+      "quire": "F",
+      "section": "H",
+      "language": "B",
+      "hand": "2",
+      "word_count": 151,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "pdsairy . dalteoshy . doly . sheet . or",
+      "opening_translation": "PARA-DUCT:dsair[ATTR] . from:boil/heat[ATTR] . from:fluid/water[ATTR] . heat:eet . golden-extract",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "arodl->f107r"
+      ]
+    },
+    {
+      "folio": "f44r",
+      "quire": "F",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 74,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "tshodpy . oray . koees . ypsholy . shy",
+      "opening_translation": "DUCT:boil/heat[ATTR] . the:ra[ATTR] . VESSEL:oees . then:boil/heat[ATTR] . this:h[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "qykchey->f67r2,f88v"
+      ]
+    },
+    {
+      "folio": "f44v",
+      "quire": "F",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 98,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "tsho . qotshy . cthol . d . chor",
+      "opening_translation": "DUCT:boil/heat+the/herb . via-duct:boil/heat[ATTR] . red-calyx/press[FLUID] . this/from . mix:the/herb[FLOW]",
+      "sample_labels": [],
+      "rare_cross_references": []
+    },
+    {
+      "folio": "f45r",
+      "quire": "F",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 89,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "pykydal . shay . oty . shey . qop",
+      "opening_translation": "PARA-DUCT:ykyd[WASH] . heat:a[ATTR] . the:duct/distill[ATTR] . heat:e[ATTR] . qop",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "shay->f103v",
+        "opchal->f58v,f107r",
+        "ypchor->f14v,f86v5"
+      ]
+    },
+    {
+      "folio": "f45v",
+      "quire": "F",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 75,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "korary . chko . kol . chey . fsholom",
+      "opening_translation": "VESSEL:golden-extract+root-dose[ATTR] . mix:vessel/strain+the/herb . vessel-liquid . mix:e[ATTR] . PARA-VESSEL:boil/heat+fluid/water[FINAL-FLUID]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "chko->f38r",
+        "opchaiin->f107v"
+      ]
+    },
+    {
+      "folio": "f46r",
+      "quire": "F",
+      "section": "H",
+      "language": "B",
+      "hand": "2",
+      "word_count": 163,
+      "paragraph_count": 5,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "pcheocphy . qotedy . chety . dy . chepchx",
+      "opening_translation": "PARA-DUCT:steep/infuse[ATTR] . via-duct:e[DONE] . mix:et[ATTR] . this/from[ATTR] . mix:mix/grind",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "sheeoly->f72r3,f85r2",
+        "teoly->f66r"
+      ]
+    },
+    {
+      "folio": "f46v",
+      "quire": "F",
+      "section": "H",
+      "language": "B",
+      "hand": "2",
+      "word_count": 111,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "pody . lshed . ypdy . shedy . opchedy",
+      "opening_translation": "PARA-DUCT:the/herb[DONE] . decoct/simmer . then:p[DONE] . heat:e[DONE] . jar-top:mix/grind[PROC]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "lshed->f76r,f82r",
+        "yfchey->f65v,f78r",
+        "saim->f8r,f102v1"
+      ]
+    },
+    {
+      "folio": "f47r",
+      "quire": "F",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 76,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "chair . oly . sheaiin . shol . daiin",
+      "opening_translation": "mix:ai[FLOW] . the:liquid[ATTR] . heat:e[2-MEAS] . heat:the/herb[LIQ] . from-this[2-MEAS]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "chair->f10r",
+        "chokchol->f49r,f56r"
+      ]
+    },
+    {
+      "folio": "f47v",
+      "quire": "F",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 75,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "psheot . cheor . cholsho . chopchy . salsary",
+      "opening_translation": "PARA-DUCT:decoct/simmer . mix:e[EXTRACT] . mix:boil/heat . mix:mix/grind[ATTR] . this:wash/liquid+salt-dose[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "chopchy->f4v,f72v2"
+      ]
+    },
+    {
+      "folio": "f48r",
+      "quire": "F",
+      "section": "H",
+      "language": "B",
+      "hand": "5",
+      "word_count": 89,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "pshdaiin . ypchdy . opchey . y . dal",
+      "opening_translation": "PARA-DUCT:boil/heat+this/from[2-MEAS] . then:mix/grind[DONE] . jar-top:mix/grind[PTCP] . and/then . in-basin/pool",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "ypchdy->f26v,f34v"
+      ]
+    },
+    {
+      "folio": "f48v",
+      "quire": "F",
+      "section": "H",
+      "language": "B",
+      "hand": "5",
+      "word_count": 114,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "pcheodchy . dshedy . fchedy . los . aiin",
+      "opening_translation": "PARA-DUCT:steep/infuse[ATTR] . from:boil/heat[PROC] . PARA-VESSEL:mix/grind[PROC] . los . two-measures",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "ypair->f67r2,f105r",
+        "otchody->f3r,f14r"
+      ]
+    },
+    {
+      "folio": "f49r",
+      "quire": "G",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 113,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "pychol . dy . shor . shol . shtchy",
+      "opening_translation": "PARA-DUCT:and/then+mix/grind[FLUID] . this/from[ATTR] . heat:the/herb[FLOW] . heat:the/herb[LIQ] . heat:duct/distill+mix/grind[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "shtchy->f4r,f106v",
+        "choshy->f93r",
+        "cheoraiin->f96v,f104v"
+      ]
+    },
+    {
+      "folio": "f49v",
+      "quire": "G",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 151,
+      "paragraph_count": 3,
+      "label_count": 20,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "kshor . shol . cphokchol . chy",
+      "opening_translation": "VESSEL:boil/heat[EXTRACT] . heat:the/herb[LIQ] . jar-press[FLUID] . mix/grind[ATTR]",
+      "sample_labels": [
+        "f",
+        "o",
+        "r",
+        "y",
+        "e"
+      ],
+      "rare_cross_references": [
+        "kshor->f6r,f22v",
+        "chotshol->f21v"
+      ]
+    },
+    {
+      "folio": "f50r",
+      "quire": "G",
+      "section": "H",
+      "language": "B",
+      "hand": "2",
+      "word_count": 91,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "psheor . olkair . olfchedy . qopeeedar . opchey",
+      "opening_translation": "PARA-DUCT:decoct/simmer[EXTRACT] . the:lkai[FLOW] . the:mix/grind[PROC] . with/in:peeed[DOSE] . jar-top:mix/grind[PTCP]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "psheor->f68r2,f99r",
+        "olfchedy->f40v,f78v",
+        "ockhody->f89v2"
+      ]
+    },
+    {
+      "folio": "f50v",
+      "quire": "G",
+      "section": "H",
+      "language": "B",
+      "hand": "2",
+      "word_count": 98,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "tchy . do . ldar . shotchdy . qokchdy",
+      "opening_translation": "DUCT:mix/grind[ATTR] . this/from+the/herb . liquid+this/from[DOSE] . heat:mix/grind[DONE] . in-vessel:mix/grind[DONE]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "pochedy->f68r3,f108r"
+      ]
+    },
+    {
+      "folio": "f51r",
+      "quire": "G",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 86,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "tsholdchy . qotchy . opchear . ypchedy",
+      "opening_translation": "DUCT:boil/heat[ATTR] . via-duct:mix/grind[ATTR] . jar-top:steep/infuse[DOSE] . then:mix/grind[PROC]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "opchear->f58r,f113r",
+        "ycho->f1r,f19v"
+      ]
+    },
+    {
+      "folio": "f51v",
+      "quire": "G",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 75,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "poshody . qokodar . shodaiin . qotaldscheey . saiin",
+      "opening_translation": "PARA-DUCT:boil/heat[DONE] . in-vessel:the/herb+this/from[DOSE] . heat:the/herb+this/from[2-MEAS] . via-duct:mix/grind[INTENS-PTCP] . this-seed[2-MEAS]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "qokodar->f68v3",
+        "dshody->f89r1",
+        "dykaiin->f22r,f79v"
+      ]
+    },
+    {
+      "folio": "f52r",
+      "quire": "G",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 63,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "tdokchcfhy . ycphko . ytair . shar . qofy",
+      "opening_translation": "DUCT:jar-strain[ATTR] . then:jar-press . then-duct:ai[FLOW] . heat:a[FLOW] . with/in:f[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "ypchy->f9v,f17r",
+        "ykoldy->f95r1",
+        "koldal->f89v1"
+      ]
+    },
+    {
+      "folio": "f52v",
+      "quire": "G",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 77,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "pchor . chcphol . cphaiiin . otcheor . ytor",
+      "opening_translation": "PARA-DUCT:mix/grind[EXTRACT] . mix:jar-press[FLUID] . jar-press[3-MEAS] . duct:steep/infuse[EXTRACT] . then-duct:the/herb[FLOW]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "otcheor->f30v",
+        "chteeor->f29v"
+      ]
+    },
+    {
+      "folio": "f53r",
+      "quire": "G",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 57,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "kodam . chocthody . oty",
+      "opening_translation": "VESSEL:the/herb+this/from[FINAL-PROD] . mix:red-calyx/press[DONE] . the:duct/distill[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "chokan->f49r",
+        "otod->f37r",
+        "ykody->f2r"
+      ]
+    },
+    {
+      "folio": "f53v",
+      "quire": "G",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 72,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "tshor . shey . qodckhy . eo . oltshey",
+      "opening_translation": "DUCT:boil/heat[EXTRACT] . heat:e[ATTR] . with/in:this/from+blue-petal/extract[ATTR] . eo . the:boil/heat[PTCP]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "tshor->f15r,f90v1",
+        "qodckhy->f107v",
+        "sheekol->f66r"
+      ]
+    },
+    {
+      "folio": "f54r",
+      "quire": "G",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 99,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "podaiin . shodal . qopchol . cfheodyopcheol . chocphy",
+      "opening_translation": "PARA-DUCT:the/herb+this/from[2-MEAS] . heat:the/herb+this/from[WASH] . with/in:mix/grind[FLUID] . steep/infuse[FLUID] . mix:the/herb+jar-press[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "shodal->f93r",
+        "chocphy->f28r,f68r3",
+        "ytodaiin->f39v,f89v2"
+      ]
+    },
+    {
+      "folio": "f54v",
+      "quire": "G",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 93,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Balanced Botanical/Procedural",
+      "opening_eva": "pcheodar . chpal . oloiin . ckhey . dar",
+      "opening_translation": "PARA-DUCT:steep/infuse[DOSE] . mix:p[WASH] . the:liquid[2-FLUID-MEAS] . blue-petal/extract[PTCP] . in-jar/from-root",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "pcheodar->f86v4,f106r",
+        "chpal->f107v",
+        "oloiin->f78r,f103v"
+      ]
+    },
+    {
+      "folio": "f55r",
+      "quire": "G",
+      "section": "H",
+      "language": "B",
+      "hand": "2",
+      "word_count": 124,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "podaiin . shekchy . qofair . okar . yk",
+      "opening_translation": "PARA-DUCT:the/herb+this/from[2-MEAS] . heat:mix/grind[ATTR] . with/in:fai[FLOW] . vessel:a[FLOW] . and/then+vessel/strain",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "epaiin->f67r1"
+      ]
+    },
+    {
+      "folio": "f55v",
+      "quire": "G",
+      "section": "H",
+      "language": "B",
+      "hand": "2",
+      "word_count": 94,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "kcheedchdy . oedain . chckhyotoldaiin . dodyd",
+      "opening_translation": "VESSEL:steep/infuse[DONE] . the:ed[1-MEAS] . mix:blue-petal/extract[2-MEAS] . from:odyd",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "oedain->f104v,f108v"
+      ]
+    },
+    {
+      "folio": "f56r",
+      "quire": "G",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 101,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "ochal . chchsy . oty . esedy . chy",
+      "opening_translation": "the:mix/grind[WASH] . mix:mix/grind+this/seed[ATTR] . the:duct/distill[ATTR] . es[PROC] . mix/grind[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "esedy->f82r",
+        "chorchy->f10r",
+        "chokchey->f30v,f101r"
+      ]
+    },
+    {
+      "folio": "f56v",
+      "quire": "G",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 90,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "kcheat . shol . chey . qokoiin . shor",
+      "opening_translation": "VESSEL:steep/infuse . heat:the/herb[LIQ] . mix:e[ATTR] . in-vessel:the/herb[2-UNIT] . heat:the/herb[FLOW]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "choror->f37v,f101v",
+        "schy->f16r"
+      ]
+    },
+    {
+      "folio": "f57r",
+      "quire": "H",
+      "section": "H",
+      "language": "B",
+      "hand": "5",
+      "word_count": 83,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "poeeockhey . odain . cheop . sheody . shocfhey",
+      "opening_translation": "PARA-DUCT:blue-petal/extract[PTCP] . the:this/from[1-MEAS] . mix:eop . heat:eo[DONE] . heat:the/herb+jar-strain[PTCP]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "cheop->f115r",
+        "sheep->f46r,f70r2"
+      ]
+    },
+    {
+      "folio": "f57v",
+      "quire": "H",
+      "section": "C",
+      "language": "A",
+      "hand": "1",
+      "word_count": 182,
+      "paragraph_count": 1,
+      "label_count": 5,
+      "genre": "Cosmological Sphere \u2014 Balanced Botanical/Procedural",
+      "opening_eva": "v . sal . y . soeos . vs",
+      "opening_translation": "v . salt-water . and/then . this:oeos . vs",
+      "sample_labels": [
+        "dairal",
+        "otodarag",
+        "oparairdly",
+        "olkeedal",
+        "otardaly"
+      ],
+      "rare_cross_references": [
+        "olkeedal->f77v"
+      ]
+    },
+    {
+      "folio": "f58r",
+      "quire": "H",
+      "section": "S",
+      "language": "A",
+      "hand": "3",
+      "word_count": 378,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "kor . cholfy . shofchy . otoralchy . chofchol",
+      "opening_translation": "VESSEL:the/herb[FLOW] . mix:fluid/water[ATTR] . heat:mix/grind[ATTR] . duct:mix/grind[ATTR] . mix:mix/grind[FLUID]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "sholy->f42r,f58v",
+        "olchear->f104r"
+      ]
+    },
+    {
+      "folio": "f58v",
+      "quire": "H",
+      "section": "S",
+      "language": "A",
+      "hand": "3",
+      "word_count": 375,
+      "paragraph_count": 4,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "tol . shokchy . opaiin . opaiin . chofaly",
+      "opening_translation": "shoot-liquid . heat:mix/grind[ATTR] . jar-top:a[2-UNIT] . jar-top:a[2-UNIT] . mix:wash/liquid[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "ypal->f73v,fRos",
+        "opaldaiin->f89v1",
+        "qotalody->f55v"
+      ]
+    },
+    {
+      "folio": "f65r",
+      "quire": "H",
+      "section": "H",
+      "language": "A",
+      "hand": "3",
+      "word_count": 3,
+      "paragraph_count": 0,
+      "label_count": 3,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "otaim . dam . alam",
+      "opening_translation": "duct:ai[TERM] . from:a[TERM] . wash/liquid[FINAL-PROD]",
+      "sample_labels": [
+        "otaim",
+        "dam",
+        "alam"
+      ],
+      "rare_cross_references": [
+        "otaim->f111v"
+      ]
+    },
+    {
+      "folio": "f65v",
+      "quire": "H",
+      "section": "H",
+      "language": "A",
+      "hand": "3",
+      "word_count": 39,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "cphy . fchecfhy . dydchepain . shety . qopy",
+      "opening_translation": "jar-press[ATTR] . PARA-VESSEL:steep/infuse+jar-strain[ATTR] . from:steep/infuse[1-MEAS] . heat:et[ATTR] . with/in:p[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "dalom->f80r,f115r",
+        "cheot->f105v",
+        "toeedy->f26v"
+      ]
+    },
+    {
+      "folio": "f66r",
+      "quire": "H",
+      "section": "T",
+      "language": "B",
+      "hand": "5",
+      "word_count": 344,
+      "paragraph_count": 5,
+      "label_count": 51,
+      "genre": "Continuous Text \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "pdaiin . oteedy . opchedy . chap . chefchy",
+      "opening_translation": "PARA-DUCT:this/from[2-MEAS] . duct:e[PROC] . jar-top:mix/grind[PROC] . mix:ap . mix:mix/grind[ATTR]",
+      "sample_labels": [
+        "rary",
+        "rals",
+        "qor",
+        "dary",
+        "ykeol"
+      ],
+      "rare_cross_references": [
+        "saly->f73v,f80v",
+        "qotesy->f81r",
+        "otcheo->f104v"
+      ]
+    },
+    {
+      "folio": "f66v",
+      "quire": "H",
+      "section": "H",
+      "language": "B",
+      "hand": "5",
+      "word_count": 113,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "okeodof . sheod . ychoopy . opch . dal",
+      "opening_translation": "vessel:eodof . heat:eod . then:mix/grind[ATTR] . jar-top:mix/grind . in-basin/pool",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "sheefy->f105r",
+        "teodal->f72r2,f87r",
+        "okshedy->f81v,f113r"
+      ]
+    },
+    {
+      "folio": "f67r1",
+      "quire": "I",
+      "section": "A",
+      "language": "A",
+      "hand": "4",
+      "word_count": 167,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Astronomical Diagram \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "teeodaiin . shey . epairody . osaiin . yteeoey",
+      "opening_translation": "DUCT:eeod[2-MEAS] . heat:e[ATTR] . epairo[DONE] . the:this/seed[2-MEAS] . then-duct:eeo[PTCP]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "epaiin->f55r",
+        "oeteody->f68r3"
+      ]
+    },
+    {
+      "folio": "f67r2",
+      "quire": "I",
+      "section": "A",
+      "language": "A",
+      "hand": "4",
+      "word_count": 190,
+      "paragraph_count": 13,
+      "label_count": 64,
+      "genre": "Astronomical Diagram \u2014 Balanced Botanical/Procedural",
+      "opening_eva": "opodchol . s . ain . aldy",
+      "opening_translation": "jar-top:mix/grind[FLUID] . this/seed . one-measure . wash/liquid[DONE]",
+      "sample_labels": [
+        "ykshy",
+        "s",
+        "aram",
+        "ykecho",
+        "ols"
+      ],
+      "rare_cross_references": [
+        "ykshy->f14v,f36v",
+        "yfain->f73v",
+        "qotoear->f88r"
+      ]
+    },
+    {
+      "folio": "f67v2",
+      "quire": "I",
+      "section": "C",
+      "language": "A",
+      "hand": "4",
+      "word_count": 62,
+      "paragraph_count": 4,
+      "label_count": 9,
+      "genre": "Cosmological Sphere \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "tol . or . ain . am . otoly",
+      "opening_translation": "shoot-liquid . golden-extract . one-measure . a[TERM] . duct:fluid/water[ATTR]",
+      "sample_labels": [
+        "otchdy",
+        "otararain",
+        "soaiin",
+        "dalam",
+        "sary"
+      ],
+      "rare_cross_references": [
+        "soaiin->f107v,f111r",
+        "salal->f58v",
+        "daig->f52r,f52v"
+      ]
+    },
+    {
+      "folio": "f67v1",
+      "quire": "I",
+      "section": "A",
+      "language": "A",
+      "hand": "4",
+      "word_count": 73,
+      "paragraph_count": 1,
+      "label_count": 16,
+      "genre": "Astronomical Diagram \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "damamm . dairkal . okal . ary . dar",
+      "opening_translation": "from:amam[TERM] . from:airk[WASH] . vessel:a[LIQ] . root-dose[ATTR] . in-jar/from-root",
+      "sample_labels": [
+        "damamm",
+        "dairkal",
+        "okal",
+        "ary",
+        "dar"
+      ],
+      "rare_cross_references": [
+        "ykeodar->f53r",
+        "aiiny->f76r,f87v",
+        "orsheey->f86v3"
+      ]
+    },
+    {
+      "folio": "f68r1",
+      "quire": "I",
+      "section": "A",
+      "language": "A",
+      "hand": "4",
+      "word_count": 64,
+      "paragraph_count": 2,
+      "label_count": 29,
+      "genre": "Astronomical Diagram \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "shokchy . chteey . choteey . cphol . cheor",
+      "opening_translation": "heat:mix/grind[ATTR] . mix:duct/distill[INTENS-PTCP] . mix:the/herb+duct/distill[INTENS-PTCP] . jar-press[FLUID] . mix:e[EXTRACT]",
+      "sample_labels": [
+        "okodaly",
+        "odchecthy",
+        "otcheody",
+        "okoaly",
+        "chocfhy"
+      ],
+      "rare_cross_references": [
+        "otcheody->f68r3,f72v3",
+        "chocfhy->f67r2",
+        "otydy->f10v,f51r"
+      ]
+    },
+    {
+      "folio": "f68r2",
+      "quire": "I",
+      "section": "A",
+      "language": "A",
+      "hand": "4",
+      "word_count": 80,
+      "paragraph_count": 1,
+      "label_count": 25,
+      "genre": "Astronomical Diagram \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "tsheeor . chor . sheal . dar . opchey",
+      "opening_translation": "DUCT:decoct/simmer[EXTRACT] . mix:the/herb[FLOW] . heat:e[WASH] . in-jar/from-root . jar-top:mix/grind[PTCP]",
+      "sample_labels": [
+        "oolchy",
+        "cheorol",
+        "odaiin",
+        "ochory",
+        "shdar"
+      ],
+      "rare_cross_references": [
+        "cheorol->f88v",
+        "tsheeor->f50r,f99r",
+        "ykeechy->f75v"
+      ]
+    },
+    {
+      "folio": "f68r3",
+      "quire": "I",
+      "section": "A",
+      "language": "A",
+      "hand": "4",
+      "word_count": 106,
+      "paragraph_count": 1,
+      "label_count": 16,
+      "genre": "Astronomical Diagram \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "odeed . oteedy . cheoteey . oshchey . chokol",
+      "opening_translation": "the:deed . duct:e[PROC] . mix:eot[INTENS-PTCP] . the:boil/heat+mix/grind[PTCP] . mix:the/herb+vessel/strain[FLUID]",
+      "sample_labels": [
+        "dchol",
+        "day",
+        "doaro",
+        "oalcheol",
+        "okos"
+      ],
+      "rare_cross_references": [
+        "okolchy->f40r,f58r",
+        "cthyd->f19r",
+        "chokol->f30v,f88r"
+      ]
+    },
+    {
+      "folio": "f68v3",
+      "quire": "I",
+      "section": "C",
+      "language": "A",
+      "hand": "4",
+      "word_count": 168,
+      "paragraph_count": 2,
+      "label_count": 2,
+      "genre": "Cosmological Sphere \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "tchedy . chepchy . daiidy . shol . kcheoly",
+      "opening_translation": "DUCT:mix/grind[PROC] . mix:mix/grind[ATTR] . from:aii[DONE] . heat:the/herb[LIQ] . VESSEL:steep/infuse+fluid/water[ATTR]",
+      "sample_labels": [
+        "otodol",
+        "opcholdg"
+      ],
+      "rare_cross_references": [
+        "chepchy->f30v,f72v1",
+        "choteol->f4v,f20r",
+        "otsho->f53v"
+      ]
+    },
+    {
+      "folio": "f68v2",
+      "quire": "I",
+      "section": "A",
+      "language": "A",
+      "hand": "4",
+      "word_count": 98,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Astronomical Diagram \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "teeody . shcthey . psheody . shocthy . ykeody",
+      "opening_translation": "DUCT:eeo[DONE] . heat:red-calyx/press[PTCP] . PARA-DUCT:decoct/simmer+the/herb[DONE] . heat:the/herb+red-calyx/press[ATTR] . then-vessel:eo[DONE]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "shot->f42r",
+        "sheetey->f70v2,f72r1",
+        "shkeey->f102v2,f111r"
+      ]
+    },
+    {
+      "folio": "f68v1",
+      "quire": "I",
+      "section": "A",
+      "language": "A",
+      "hand": "4",
+      "word_count": 97,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Astronomical Diagram \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "shes . ol . keey . shes . chteey",
+      "opening_translation": "heat:es . fluid/water . VESSEL:e[PTCP] . heat:es . mix:duct/distill[INTENS-PTCP]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "chteey->f43v,f68r1"
+      ]
+    },
+    {
+      "folio": "f69r",
+      "quire": "J",
+      "section": "C",
+      "language": "A",
+      "hand": "4",
+      "word_count": 158,
+      "paragraph_count": 1,
+      "label_count": 47,
+      "genre": "Cosmological Sphere \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "tcheeos . shey . opaiin . chey . shey",
+      "opening_translation": "DUCT:steep/infuse . heat:e[ATTR] . jar-top:a[2-UNIT] . mix:e[ATTR] . heat:e[ATTR]",
+      "sample_labels": [
+        "oteos",
+        "chop",
+        "otaike",
+        "ar",
+        "odair"
+      ],
+      "rare_cross_references": [
+        "chop->f17r",
+        "dcho->f8r,f49v",
+        "araly->f70v1"
+      ]
+    },
+    {
+      "folio": "f69v",
+      "quire": "J",
+      "section": "C",
+      "language": "A",
+      "hand": "4",
+      "word_count": 140,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Cosmological Sphere \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "dair . cheyky . otaza . sar . ar",
+      "opening_translation": "from:ai[FLOW] . mix:eyk[ATTR] . duct:aza . salt-dose . root-dose",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "cheyky->f106v",
+        "chetody->f20r",
+        "chsdy->f75r,f82v"
+      ]
+    },
+    {
+      "folio": "f70r1",
+      "quire": "J",
+      "section": "C",
+      "language": "A",
+      "hand": "4",
+      "word_count": 112,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Cosmological Sphere \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "ooooooooolar . sasa",
+      "opening_translation": "the:fluid/water[DOSE] . this:asa",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "alair->f112r",
+        "dasy->f77v",
+        "opcheody->f68r3,f113v"
+      ]
+    },
+    {
+      "folio": "f70r2",
+      "quire": "J",
+      "section": "C",
+      "language": "A",
+      "hand": "4",
+      "word_count": 246,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Cosmological Sphere \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "otchey . sheol . chkey . shep . al",
+      "opening_translation": "duct:mix/grind[PTCP] . heat:e[FLUID] . mix:vessel/strain[PTCP] . heat:ep . wash/liquid",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "shep->f46r,f57r"
+      ]
+    },
+    {
+      "folio": "f70v2",
+      "quire": "J",
+      "section": "Z",
+      "language": "A",
+      "hand": "4",
+      "word_count": 131,
+      "paragraph_count": 1,
+      "label_count": 35,
+      "genre": "Zodiac Calendar \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "okcheo . dar . otey . ykeey . tchy",
+      "opening_translation": "vessel:steep/infuse+the/herb . in-jar/from-root . duct:e[ATTR] . then-vessel:e[PTCP] . DUCT:mix/grind[ATTR]",
+      "sample_labels": [
+        "otalalg",
+        "ykary",
+        "otar",
+        "oty",
+        "oky"
+      ],
+      "rare_cross_references": [
+        "ykary->fRos",
+        "otald->f47v",
+        "otaldar->f71r"
+      ]
+    },
+    {
+      "folio": "f70v1",
+      "quire": "J",
+      "section": "Z",
+      "language": "A",
+      "hand": "4",
+      "word_count": 86,
+      "paragraph_count": 1,
+      "label_count": 25,
+      "genre": "Zodiac Calendar \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "dalalody . oteoshey . okoksheo . shokey . raiin",
+      "opening_translation": "from:wash/liquid[DONE] . duct:boil/heat[PTCP] . vessel:decoct/simmer . heat:the/herb+vessel/strain[PTCP] . flow[2-MEAS]",
+      "sample_labels": [
+        "otalchy",
+        "tar",
+        "am",
+        "dy",
+        "opchey"
+      ],
+      "rare_cross_references": [
+        "okolshy->f68r3,f84r",
+        "okoly->f22r,f99r",
+        "otalaiin->f71v,f94r"
+      ]
+    },
+    {
+      "folio": "f71r",
+      "quire": "K",
+      "section": "Z",
+      "language": "A",
+      "hand": "4",
+      "word_count": 90,
+      "paragraph_count": 1,
+      "label_count": 17,
+      "genre": "Zodiac Calendar \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "olkeeody . okody . okeeedy . oky . chy",
+      "opening_translation": "the:vessel-heat[DONE] . vessel:the/herb[DONE] . vessel:e[INTENS-PROC] . the:vessel/strain[ATTR] . mix/grind[ATTR]",
+      "sample_labels": [
+        "oteos",
+        "arar",
+        "okldam",
+        "oteoaldy",
+        "oteolar"
+      ],
+      "rare_cross_references": [
+        "cheary->f107v",
+        "oteotey->f68v1,f70v2",
+        "otaldar->f70v2"
+      ]
+    },
+    {
+      "folio": "f71v",
+      "quire": "K",
+      "section": "Z",
+      "language": "A",
+      "hand": "4",
+      "word_count": 100,
+      "paragraph_count": 1,
+      "label_count": 22,
+      "genre": "Zodiac Calendar \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "osheo . parar . oteeodaiin . she . ateey",
+      "opening_translation": "the:decoct/simmer+the/herb . PARA-DUCT:root-dose[DOSE] . duct:eeod[2-MEAS] . decoct/simmer . at[INTENS-PTCP]",
+      "sample_labels": [
+        "char",
+        "arom",
+        "chfaly",
+        "okolar",
+        "otchody"
+      ],
+      "rare_cross_references": [
+        "arom->f101v,f116r",
+        "okolar->f69v,f72v1",
+        "otchody->f3r,f14r"
+      ]
+    },
+    {
+      "folio": "f72r1",
+      "quire": "K",
+      "section": "Z",
+      "language": "A",
+      "hand": "4",
+      "word_count": 105,
+      "paragraph_count": 1,
+      "label_count": 23,
+      "genre": "Zodiac Calendar \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "oteeo . cthey . chlol . cheol . olcheor",
+      "opening_translation": "duct:eeo . red-calyx/press[PTCP] . mix:liquid[FLUID] . mix:e[FLUID] . the:liquid+steep/infuse[EXTRACT]",
+      "sample_labels": [
+        "oshodady",
+        "chdaiirdainy",
+        "oaiin",
+        "ar",
+        "ary"
+      ],
+      "rare_cross_references": [
+        "okalam->f108v",
+        "otaraldy->f72r2",
+        "sharam->f58r,f112r"
+      ]
+    },
+    {
+      "folio": "f72r2",
+      "quire": "K",
+      "section": "Z",
+      "language": "A",
+      "hand": "4",
+      "word_count": 113,
+      "paragraph_count": 1,
+      "label_count": 31,
+      "genre": "Zodiac Calendar \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "oteos . aiin . okeo . daiin . okeey",
+      "opening_translation": "duct:eos . two-measures . vessel:eo . from-this[2-MEAS] . vessel:e[PTCP]",
+      "sample_labels": [
+        "ofchdamy",
+        "oklairdy",
+        "okaram",
+        "okairy",
+        "okealar"
+      ],
+      "rare_cross_references": [
+        "okaram->f70v2,f108r",
+        "okairy->f105v",
+        "okealar->f70v1"
+      ]
+    },
+    {
+      "folio": "f72r3",
+      "quire": "K",
+      "section": "Z",
+      "language": "A",
+      "hand": "4",
+      "word_count": 164,
+      "paragraph_count": 1,
+      "label_count": 41,
+      "genre": "Zodiac Calendar \u2014 Balanced Botanical/Procedural",
+      "opening_eva": "okeey . chekoy . oteo . ykeey . chedaiin",
+      "opening_translation": "vessel:e[PTCP] . mix:eko[ATTR] . duct:eo . then-vessel:e[PTCP] . mix:ed[2-MEAS]",
+      "sample_labels": [
+        "olkalaiin",
+        "olalsy",
+        "oraiinam",
+        "osarsheeeo",
+        "otoaiin"
+      ],
+      "rare_cross_references": [
+        "otoaiin->f1v,f70v2",
+        "ypaiin->f73v",
+        "alaly->f73v"
+      ]
+    },
+    {
+      "folio": "f72v3",
+      "quire": "K",
+      "section": "Z",
+      "language": "A",
+      "hand": "4",
+      "word_count": 118,
+      "paragraph_count": 1,
+      "label_count": 34,
+      "genre": "Zodiac Calendar \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "soees . otchs . otedar . oteody . oteodal",
+      "opening_translation": "this:oees . duct:mix/grind+this/seed . duct:ed[DOSE] . duct:eo[DONE] . duct:eod[WASH]",
+      "sample_labels": [
+        "ocham",
+        "orchey",
+        "okam",
+        "okey",
+        "otcheody"
+      ],
+      "rare_cross_references": [
+        "orchey->f9r,f58v",
+        "otcheody->f68r1,f68r3",
+        "oeesaiin->f72r3"
+      ]
+    },
+    {
+      "folio": "f72v2",
+      "quire": "K",
+      "section": "Z",
+      "language": "A",
+      "hand": "4",
+      "word_count": 108,
+      "paragraph_count": 1,
+      "label_count": 31,
+      "genre": "Zodiac Calendar \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "otos . chs . oty . oteos . oty",
+      "opening_translation": "duct:the/herb+this/seed . mix/grind+this/seed . the:duct/distill[ATTR] . duct:eos . the:duct/distill[ATTR]",
+      "sample_labels": [
+        "oeedey",
+        "oeeodaiin",
+        "okeoram",
+        "air",
+        "aim"
+      ],
+      "rare_cross_references": [
+        "oeeodaiin->f72r3,f104v",
+        "sheoeky->f31v",
+        "okeoldy->f99v"
+      ]
+    },
+    {
+      "folio": "f72v1",
+      "quire": "K",
+      "section": "Z",
+      "language": "A",
+      "hand": "4",
+      "word_count": 104,
+      "paragraph_count": 1,
+      "label_count": 30,
+      "genre": "Zodiac Calendar \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "oteos . alar . otar . air . chpaly",
+      "opening_translation": "duct:eos . wash/liquid[DOSE] . duct:a[FLOW] . ai[FLOW] . mix:wash/liquid[ATTR]",
+      "sample_labels": [
+        "oeeoty",
+        "octhy",
+        "oteoly",
+        "okeoly",
+        "oeees"
+      ],
+      "rare_cross_references": [
+        "oteoly->f48r,f72v3",
+        "oteod->f43v,f101r",
+        "yteod->f66v"
+      ]
+    },
+    {
+      "folio": "f73r",
+      "quire": "L",
+      "section": "Z",
+      "language": "A",
+      "hand": "4",
+      "word_count": 96,
+      "paragraph_count": 1,
+      "label_count": 30,
+      "genre": "Zodiac Calendar \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "ypolcheey . salchedal . chepchey . daraly . oteos",
+      "opening_translation": "then:mix/grind[INTENS-PTCP] . this:steep/infuse[WASH] . mix:mix/grind[PTCP] . from:root-dose+wash/liquid[ATTR] . duct:eos",
+      "sample_labels": [
+        "otaly",
+        "chockhy",
+        "otedy",
+        "yteeody",
+        "otaly"
+      ],
+      "rare_cross_references": [
+        "oteedyl->f76r",
+        "oteeosy->f113r",
+        "chefy->f111r"
+      ]
+    },
+    {
+      "folio": "f73v",
+      "quire": "L",
+      "section": "Z",
+      "language": "A",
+      "hand": "4",
+      "word_count": 99,
+      "paragraph_count": 1,
+      "label_count": 31,
+      "genre": "Zodiac Calendar \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "otoar . ykeody . okodeey . qopchey . opaiin",
+      "opening_translation": "duct:the/herb[DOSE] . then-vessel:eo[DONE] . vessel:the/herb+this/from[INTENS-PTCP] . with/in:mix/grind[PTCP] . jar-top:a[2-UNIT]",
+      "sample_labels": [
+        "okol",
+        "oteody",
+        "oteedy",
+        "eeeody",
+        "okeody"
+      ],
+      "rare_cross_references": [
+        "ypaiin->f72r3",
+        "yfaiin->f67r2",
+        "ykeear->f102v2,f107v"
+      ]
+    },
+    {
+      "folio": "f75r",
+      "quire": "M",
+      "section": "B",
+      "language": "B",
+      "hand": "2",
+      "word_count": 385,
+      "paragraph_count": 4,
+      "label_count": 0,
+      "genre": "Biological / Balneological \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "kchedykaryokeey . qokar . shyk . chedy . qotar",
+      "opening_translation": "VESSEL:steep/infuse[INTENS-PTCP] . in-vessel:a[FLOW] . heat:and/then+vessel/strain . mix:e[DONE] . via-duct:a[FLOW]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "ltain->f77r,f111r"
+      ]
+    },
+    {
+      "folio": "f75v",
+      "quire": "M",
+      "section": "B",
+      "language": "B",
+      "hand": "2",
+      "word_count": 349,
+      "paragraph_count": 5,
+      "label_count": 36,
+      "genre": "Biological / Balneological \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "pchedar . opchedy . qokedy . opchedy . qopdydain",
+      "opening_translation": "PARA-DUCT:steep/infuse+this/from[DOSE] . jar-top:mix/grind[PROC] . in-vessel:e[DONE] . jar-top:mix/grind[PROC] . with/in:pdyd[1-MEAS]",
+      "sample_labels": [
+        "s",
+        "l",
+        "l",
+        "o",
+        "r"
+      ],
+      "rare_cross_references": [
+        "saral->f67r2,f69v",
+        "dokal->f66v",
+        "darol->f68v3,f82r"
+      ]
+    },
+    {
+      "folio": "f76r",
+      "quire": "M",
+      "section": "T",
+      "language": "B",
+      "hand": "2",
+      "word_count": 569,
+      "paragraph_count": 4,
+      "label_count": 9,
+      "genre": "Continuous Text \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "potchokor . chcfhdy . opshdy . qolp . chcphy",
+      "opening_translation": "PARA-DUCT:mix/grind[EXTRACT] . mix:jar-strain[DONE] . jar-top:boil/heat[DONE] . with/in:lp . mix:jar-press[ATTR]",
+      "sample_labels": [
+        "s",
+        "d",
+        "q",
+        "s",
+        "o"
+      ],
+      "rare_cross_references": [
+        "chcphdy->f85r1",
+        "chep->f29r,f103r"
+      ]
+    },
+    {
+      "folio": "f76v",
+      "quire": "M",
+      "section": "B",
+      "language": "B",
+      "hand": "2",
+      "word_count": 394,
+      "paragraph_count": 6,
+      "label_count": 0,
+      "genre": "Biological / Balneological \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "polarar . okor . opcheey . yteey . opchaly",
+      "opening_translation": "PARA-DUCT:fluid/water+root-dose[DOSE] . vessel:the/herb[FLOW] . jar-top:mix/grind[INTENS-PTCP] . then-duct:e[PTCP] . jar-top:mix/grind+wash/liquid[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "polarar->f103r",
+        "qofchdal->f47r,f104r",
+        "cholkeeey->f58r,f106r"
+      ]
+    },
+    {
+      "folio": "f77r",
+      "quire": "M",
+      "section": "B",
+      "language": "B",
+      "hand": "2",
+      "word_count": 332,
+      "paragraph_count": 3,
+      "label_count": 11,
+      "genre": "Biological / Balneological \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "poldarais . ol . qokol . chey . qopchedy",
+      "opening_translation": "PARA-DUCT:in-jar/from-root . fluid/water . in-vessel:the/herb[LIQ] . mix:e[ATTR] . with/in:mix/grind[PROC]",
+      "sample_labels": [
+        "darchdar",
+        "olkchs",
+        "otedy",
+        "otork",
+        "otol"
+      ],
+      "rare_cross_references": [
+        "soral->f100v,f107v",
+        "tolchd->f100v,f115r"
+      ]
+    },
+    {
+      "folio": "f77v",
+      "quire": "M",
+      "section": "B",
+      "language": "B",
+      "hand": "2",
+      "word_count": 332,
+      "paragraph_count": 3,
+      "label_count": 11,
+      "genre": "Biological / Balneological \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "qetedy . shedy . qotol . odal . chal",
+      "opening_translation": "qet[PROC] . heat:e[DONE] . via-duct:the/herb[LIQ] . the:this/from[WASH] . mix:a[LIQ]",
+      "sample_labels": [
+        "okain",
+        "y",
+        "kal",
+        "otol",
+        "shedy"
+      ],
+      "rare_cross_references": [
+        "olkeedal->f57v",
+        "otolor->f67r2",
+        "okalo->f108r"
+      ]
+    },
+    {
+      "folio": "f78r",
+      "quire": "M",
+      "section": "B",
+      "language": "B",
+      "hand": "2",
+      "word_count": 296,
+      "paragraph_count": 2,
+      "label_count": 7,
+      "genre": "Biological / Balneological \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "tshedor . shedy . qopchedy . qokedy . dy",
+      "opening_translation": "DUCT:decoct/simmer+this/from[EXTRACT] . heat:e[DONE] . with/in:mix/grind[PROC] . in-vessel:e[DONE] . this/from[ATTR]",
+      "sample_labels": [
+        "okchdldlo",
+        "okchdy",
+        "dar",
+        "aloy",
+        "dchedaly"
+      ],
+      "rare_cross_references": [
+        "aloy->f72r2",
+        "okaral->f103r,f107r"
+      ]
+    },
+    {
+      "folio": "f78v",
+      "quire": "M",
+      "section": "B",
+      "language": "B",
+      "hand": "2",
+      "word_count": 294,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Biological / Balneological \u2014 Balanced Botanical/Procedural",
+      "opening_eva": "ykedy . olfchedy . qokedy . spchy . chedy",
+      "opening_translation": "then-vessel:e[DONE] . the:mix/grind[PROC] . in-vessel:e[DONE] . this:mix/grind[ATTR] . mix:e[DONE]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "olfchedy->f40v,f50r"
+      ]
+    },
+    {
+      "folio": "f79r",
+      "quire": "M",
+      "section": "B",
+      "language": "B",
+      "hand": "2",
+      "word_count": 383,
+      "paragraph_count": 8,
+      "label_count": 0,
+      "genre": "Biological / Balneological \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "torain . shedy . pchor . or . shek",
+      "opening_translation": "DUCT:golden-extract[1-MEAS] . heat:e[DONE] . PARA-DUCT:mix/grind[EXTRACT] . golden-extract . heat:ek",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "torain->f107v,f113v",
+        "opcholor->f84v",
+        "lshdy->f75v,f78v"
+      ]
+    },
+    {
+      "folio": "f79v",
+      "quire": "M",
+      "section": "B",
+      "language": "B",
+      "hand": "2",
+      "word_count": 356,
+      "paragraph_count": 7,
+      "label_count": 0,
+      "genre": "Biological / Balneological \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "poldshedy . olkory . qotolol . otaldy . ytedol",
+      "opening_translation": "PARA-DUCT:boil/heat[PROC] . the:golden-extract[ATTR] . via-duct:fluid/water[FLUID] . duct:wash/liquid[DONE] . then-duct:ed[FLUID]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "qotolol->f18v",
+        "otaram->f73v,f89v2"
+      ]
+    },
+    {
+      "folio": "f80r",
+      "quire": "M",
+      "section": "B",
+      "language": "B",
+      "hand": "2",
+      "word_count": 445,
+      "paragraph_count": 5,
+      "label_count": 10,
+      "genre": "Biological / Balneological \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "pdol . fshedy . polkain . octhor . okchdy",
+      "opening_translation": "PARA-DUCT:this/from[FLUID] . PARA-VESSEL:boil/heat[PROC] . PARA-DUCT:fluid/water+vessel/strain[1-MEAS] . the:red-calyx/press[EXTRACT] . vessel:mix/grind[DONE]",
+      "sample_labels": [
+        "toroly",
+        "olchdy",
+        "okaly",
+        "okolo",
+        "okary"
+      ],
+      "rare_cross_references": [
+        "okolo->f99r",
+        "otalshedy->f83v",
+        "pdol->f105v"
+      ]
+    },
+    {
+      "folio": "f80v",
+      "quire": "M",
+      "section": "B",
+      "language": "B",
+      "hand": "2",
+      "word_count": 376,
+      "paragraph_count": 8,
+      "label_count": 0,
+      "genre": "Biological / Balneological \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "pchedy . dolfchedy . qokeedy . qotedy . qotolfchedy",
+      "opening_translation": "PARA-DUCT:mix/grind[PROC] . from:mix/grind[PROC] . in-vessel:e[PROC] . via-duct:e[DONE] . via-duct:mix/grind[PROC]",
+      "sample_labels": [],
+      "rare_cross_references": []
+    },
+    {
+      "folio": "f81r",
+      "quire": "M",
+      "section": "B",
+      "language": "B",
+      "hand": "2",
+      "word_count": 210,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Biological / Balneological \u2014 Balanced Botanical/Procedural",
+      "opening_eva": "polchoy . qokedy . shol . opchedy . olpchedy",
+      "opening_translation": "PARA-DUCT:mix/grind[ATTR] . in-vessel:e[DONE] . heat:the/herb[LIQ] . jar-top:mix/grind[PROC] . the:mix/grind[PROC]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "olpchedy->f105v",
+        "alched->f104v"
+      ]
+    },
+    {
+      "folio": "f81v",
+      "quire": "M",
+      "section": "B",
+      "language": "B",
+      "hand": "2",
+      "word_count": 255,
+      "paragraph_count": 2,
+      "label_count": 2,
+      "genre": "Biological / Balneological \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "par . shey . keedy . shekal . dal",
+      "opening_translation": "PARA-DUCT:a[FLOW] . heat:e[ATTR] . VESSEL:e[PROC] . heat:ek[WASH] . in-basin/pool",
+      "sample_labels": [
+        "otain",
+        "olkal"
+      ],
+      "rare_cross_references": []
+    },
+    {
+      "folio": "f82r",
+      "quire": "M",
+      "section": "B",
+      "language": "B",
+      "hand": "2",
+      "word_count": 286,
+      "paragraph_count": 3,
+      "label_count": 13,
+      "genre": "Biological / Balneological \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "qosheedy . qokeol . daiin . shckhyokeeor . cheey",
+      "opening_translation": "with/in:boil/heat[INTENS-PROC] . in-vessel:e[FLUID] . from-this[2-MEAS] . heat:blue-petal/extract[EXTRACT] . mix:e[PTCP]",
+      "sample_labels": [
+        "oroldair",
+        "okor",
+        "darol",
+        "okal",
+        "okaldy"
+      ],
+      "rare_cross_references": [
+        "darol->f68v3,f75v",
+        "darary->f99v",
+        "dyqokeedy->f75r"
+      ]
+    },
+    {
+      "folio": "f82v",
+      "quire": "M",
+      "section": "B",
+      "language": "B",
+      "hand": "2",
+      "word_count": 319,
+      "paragraph_count": 6,
+      "label_count": 14,
+      "genre": "Biological / Balneological \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "tokol . olfchedy . qokeedy . qokedal . shol",
+      "opening_translation": "DUCT:the/herb+vessel/strain[FLUID] . the:mix/grind[PROC] . in-vessel:e[PROC] . in-vessel:ed[WASH] . heat:the/herb[LIQ]",
+      "sample_labels": [
+        "otechdy",
+        "otedy",
+        "daiinoty",
+        "otedal",
+        "olkeedy"
+      ],
+      "rare_cross_references": [
+        "okalchy->f58v,f80v",
+        "okedor->f26v,f76r",
+        "olkol->f75v"
+      ]
+    },
+    {
+      "folio": "f83r",
+      "quire": "M",
+      "section": "B",
+      "language": "B",
+      "hand": "2",
+      "word_count": 345,
+      "paragraph_count": 7,
+      "label_count": 4,
+      "genre": "Biological / Balneological \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "tchedy . lpchedy . opedy . chepol . pchedar",
+      "opening_translation": "DUCT:mix/grind[PROC] . mix/grind[PROC] . jar-top:e[DONE] . mix:ep[FLUID] . PARA-DUCT:steep/infuse+this/from[DOSE]",
+      "sample_labels": [
+        "chtorol",
+        "olsaiin",
+        "sasoldal",
+        "darolsy"
+      ],
+      "rare_cross_references": [
+        "olsaiin->f95v2",
+        "lchs->f108v",
+        "rches->f82v,f115v"
+      ]
+    },
+    {
+      "folio": "f83v",
+      "quire": "M",
+      "section": "B",
+      "language": "B",
+      "hand": "2",
+      "word_count": 260,
+      "paragraph_count": 3,
+      "label_count": 4,
+      "genre": "Biological / Balneological \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "poldaky . dalol . otedy . chtair . opchedy",
+      "opening_translation": "PARA-DUCT:fluid/water[ATTR] . from:wash/liquid[FLUID] . duct:e[DONE] . mix:tai[FLOW] . jar-top:mix/grind[PROC]",
+      "sample_labels": [
+        "ololary",
+        "okarchy",
+        "okchdy",
+        "okaiin"
+      ],
+      "rare_cross_references": [
+        "chtair->f113r",
+        "chepchedy->f111r"
+      ]
+    },
+    {
+      "folio": "f84r",
+      "quire": "M",
+      "section": "B",
+      "language": "B",
+      "hand": "2",
+      "word_count": 368,
+      "paragraph_count": 7,
+      "label_count": 14,
+      "genre": "Biological / Balneological \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "kol . chedy . qokeey . otedy . dytedy",
+      "opening_translation": "vessel-liquid . mix:e[DONE] . in-vessel:e[PTCP] . duct:e[DONE] . from:and/then+duct/distill[PROC]",
+      "sample_labels": [
+        "ololal",
+        "or",
+        "shekar",
+        "ydy",
+        "okedy"
+      ],
+      "rare_cross_references": [
+        "shekar->f50r,f58v",
+        "olshy->f22r,f99v",
+        "lkol->f41v,f80v"
+      ]
+    },
+    {
+      "folio": "f84v",
+      "quire": "M",
+      "section": "B",
+      "language": "B",
+      "hand": "2",
+      "word_count": 341,
+      "paragraph_count": 6,
+      "label_count": 0,
+      "genre": "Biological / Balneological \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "otdy . dar . chdy . dar . oram",
+      "opening_translation": "duct:this/from[ATTR] . in-jar/from-root . mix:this/from[ATTR] . in-jar/from-root . the:flow[FINAL-PROD]",
+      "sample_labels": [],
+      "rare_cross_references": []
+    },
+    {
+      "folio": "f85r1",
+      "quire": "N",
+      "section": "T",
+      "language": "B",
+      "hand": "2",
+      "word_count": 347,
+      "paragraph_count": 9,
+      "label_count": 0,
+      "genre": "Continuous Text \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "pdsheody . shdol . shey . otchdy . dshedy",
+      "opening_translation": "PARA-DUCT:decoct/simmer[DONE] . heat:this/from[FLUID] . heat:e[ATTR] . duct:mix/grind[DONE] . from:boil/heat[PROC]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "yoiin->f99v",
+        "tarar->f71v,f113r"
+      ]
+    },
+    {
+      "folio": "f85r2",
+      "quire": "N",
+      "section": "C",
+      "language": "B",
+      "hand": "2",
+      "word_count": 156,
+      "paragraph_count": 4,
+      "label_count": 0,
+      "genre": "Cosmological Sphere \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "odeedy . otedy . opaees . ar . chcthy",
+      "opening_translation": "the:this/from[INTENS-PROC] . duct:e[DONE] . jar-top:aees . root-dose . mix:red-calyx/press[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "odeedy->f43r,f112v",
+        "chepaiin->f39r",
+        "otodar->fRos,f86v3"
+      ]
+    },
+    {
+      "folio": "fRos",
+      "quire": "N",
+      "section": "C",
+      "language": "B",
+      "hand": "4",
+      "word_count": 535,
+      "paragraph_count": 4,
+      "label_count": 157,
+      "genre": "Cosmological Sphere \u2014 Balanced Botanical/Procedural",
+      "opening_eva": "oto . tosaes . adar . otar . otes",
+      "opening_translation": "the:duct/distill+the/herb . DUCT:osaes . ad[DOSE] . duct:a[FLOW] . duct:es",
+      "sample_labels": [
+        "saeeasa",
+        "ofain",
+        "ain",
+        "ych",
+        "ais"
+      ],
+      "rare_cross_references": [
+        "darchedy->f103r",
+        "otochedy->f68r1,f72r3",
+        "orary->f72r2,f73v"
+      ]
+    },
+    {
+      "folio": "f86v4",
+      "quire": "N",
+      "section": "C",
+      "language": "B",
+      "hand": "2",
+      "word_count": 190,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Cosmological Sphere \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "opos . os . sheody . pchar . odsheo",
+      "opening_translation": "jar-top:the/herb+this/seed . the/herb+this/seed . heat:eo[DONE] . PARA-DUCT:mix/grind[DOSE] . the:decoct/simmer",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "cheepchdy->f95r1",
+        "qopcher->f106r",
+        "eeedar->f78r,f112r"
+      ]
+    },
+    {
+      "folio": "f86v6",
+      "quire": "N",
+      "section": "T",
+      "language": "B",
+      "hand": "2",
+      "word_count": 490,
+      "paragraph_count": 4,
+      "label_count": 0,
+      "genre": "Continuous Text \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "pcheypchdar . opory . ches . aiin . ofy",
+      "opening_translation": "PARA-DUCT:steep/infuse[DOSE] . jar-top:golden-extract[ATTR] . mix:es . two-measures . the:f[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "ochody->f4v",
+        "chpchy->f71v,f103r"
+      ]
+    },
+    {
+      "folio": "f86v5",
+      "quire": "N",
+      "section": "T",
+      "language": "B",
+      "hand": "2",
+      "word_count": 390,
+      "paragraph_count": 5,
+      "label_count": 0,
+      "genre": "Continuous Text \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "pshdal . choky . sheody . lfchy . fyshey",
+      "opening_translation": "PARA-DUCT:boil/heat+this/from[WASH] . mix:the/herb+vessel/strain[ATTR] . heat:eo[DONE] . mix/grind[ATTR] . PARA-VESSEL:and/then+boil/heat[PTCP]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "pshdal->f95v1",
+        "lfchy->f111r",
+        "fyshey->f75r"
+      ]
+    },
+    {
+      "folio": "f86v3",
+      "quire": "N",
+      "section": "C",
+      "language": "B",
+      "hand": "2",
+      "word_count": 278,
+      "paragraph_count": 6,
+      "label_count": 0,
+      "genre": "Cosmological Sphere \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "tchedy . qokeedy . qoedy . qopchy . raiin",
+      "opening_translation": "DUCT:mix/grind[PROC] . in-vessel:e[PROC] . with/in:e[DONE] . with/in:mix/grind[ATTR] . flow[2-MEAS]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "olpchey->f99v,f105v"
+      ]
+    },
+    {
+      "folio": "f87r",
+      "quire": "O",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 102,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "poalshsal . shocphor . ypcho . cpheo . saiin",
+      "opening_translation": "PARA-DUCT:boil/heat[WASH] . heat:the/herb+jar-press[EXTRACT] . then:mix/grind . jar-press . this-seed[2-MEAS]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "ypcho->f16r",
+        "cthodal->f1r,f17v",
+        "qockhos->f54r,f56v"
+      ]
+    },
+    {
+      "folio": "f87v",
+      "quire": "O",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 77,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "cheey . daiin . cpheodar . shody . dcheody",
+      "opening_translation": "mix:e[PTCP] . from-this[2-MEAS] . jar-press[DOSE] . heat:the/herb[DONE] . from:steep/infuse+the/herb[DONE]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "cpheodar->f52v,f102r1",
+        "dcheody->f68r3,f86v3"
+      ]
+    },
+    {
+      "folio": "f88r",
+      "quire": "O",
+      "section": "P",
+      "language": "A",
+      "hand": "1",
+      "word_count": 149,
+      "paragraph_count": 3,
+      "label_count": 16,
+      "genre": "Pharmaceutical Formulary \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "dorsheoy . ctheol . qockhey . dory . sheor",
+      "opening_translation": "from:decoct/simmer[ATTR] . red-calyx/press[FLUID] . with/in:blue-petal/extract[PTCP] . from:golden-extract[ATTR] . heat:e[EXTRACT]",
+      "sample_labels": [
+        "otorchety",
+        "osal",
+        "orald",
+        "oldar",
+        "otoky"
+      ],
+      "rare_cross_references": [
+        "osal->f58r,f78r",
+        "otoky->f67r1,f99v",
+        "dory->f22v,f58v"
+      ]
+    },
+    {
+      "folio": "f88v",
+      "quire": "O",
+      "section": "P",
+      "language": "A",
+      "hand": "1",
+      "word_count": 144,
+      "paragraph_count": 3,
+      "label_count": 14,
+      "genre": "Pharmaceutical Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "teodal . lkeo . cheor . roshckhy . sorshyaiin",
+      "opening_translation": "DUCT:eod[WASH] . vessel-heat . mix:e[EXTRACT] . blue-petal/extract[ATTR] . this:boil/heat[2-MEAS]",
+      "sample_labels": [
+        "okalyd",
+        "cheocthy",
+        "cpheor",
+        "otar",
+        "arody"
+      ],
+      "rare_cross_references": [
+        "cheocthy->f57r,f115r",
+        "teodal->f66v,f72r2",
+        "cheokal->f101v"
+      ]
+    },
+    {
+      "folio": "f89r1",
+      "quire": "O",
+      "section": "P",
+      "language": "A",
+      "hand": "1",
+      "word_count": 139,
+      "paragraph_count": 3,
+      "label_count": 15,
+      "genre": "Pharmaceutical Formulary \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "qoar . shar . qopcholy . qokod . chepy",
+      "opening_translation": "with/in:a[FLOW] . heat:a[FLOW] . with/in:mix/grind[ATTR] . in-vessel:the/herb+this/from . mix:ep[ATTR]",
+      "sample_labels": [
+        "okchshy",
+        "qkol",
+        "oldam",
+        "otoldy",
+        "ararchodaiin"
+      ],
+      "rare_cross_references": [
+        "otorain->fRos,f99v",
+        "qopcholy->f58v,f101v",
+        "dshody->f51v"
+      ]
+    },
+    {
+      "folio": "f89r2",
+      "quire": "O",
+      "section": "P",
+      "language": "A",
+      "hand": "1",
+      "word_count": 234,
+      "paragraph_count": 3,
+      "label_count": 22,
+      "genre": "Pharmaceutical Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "qokcheody . cheodal . dair . cholkeedy . qokedy",
+      "opening_translation": "in-vessel:steep/infuse+the/herb[DONE] . mix:eod[WASH] . from:ai[FLOW] . mix:fluid/water+vessel/strain[INTENS-PROC] . in-vessel:e[DONE]",
+      "sample_labels": [
+        "odory",
+        "doly",
+        "opchosam",
+        "saloiinsheol",
+        "opcheor"
+      ],
+      "rare_cross_references": [
+        "sodar->f53r,f67r2",
+        "oporain->f106r",
+        "otalsy->f103r"
+      ]
+    },
+    {
+      "folio": "f89v2",
+      "quire": "O",
+      "section": "P",
+      "language": "A",
+      "hand": "1",
+      "word_count": 181,
+      "paragraph_count": 3,
+      "label_count": 16,
+      "genre": "Pharmaceutical Formulary \u2014 Balanced Botanical/Procedural",
+      "opening_eva": "kosar . sheol . s . aiin . koiin",
+      "opening_translation": "VESSEL:the/herb+this/seed[DOSE] . heat:e[FLUID] . this/seed . two-measures . VESSEL:the/herb[2-UNIT]",
+      "sample_labels": [
+        "choeesy",
+        "okam",
+        "darcheor",
+        "chokaro",
+        "sheol"
+      ],
+      "rare_cross_references": [
+        "chokam->f52r,f113v",
+        "otory->f79r,f102v2",
+        "otaram->f73v,f79v"
+      ]
+    },
+    {
+      "folio": "f89v1",
+      "quire": "O",
+      "section": "P",
+      "language": "A",
+      "hand": "1",
+      "word_count": 154,
+      "paragraph_count": 2,
+      "label_count": 9,
+      "genre": "Pharmaceutical Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "koldal . sfal . cfhey . ofcheol . opolsy",
+      "opening_translation": "VESSEL:fluid/water+this/from[WASH] . this:f[WASH] . jar-strain[PTCP] . jar-strain:steep/infuse[FLUID] . jar-top:fluid/water+this/seed[ATTR]",
+      "sample_labels": [
+        "okoraldy",
+        "otoy",
+        "otchar",
+        "darshody",
+        "koeeorain"
+      ],
+      "rare_cross_references": [
+        "opol->f81r,f106v",
+        "opaldaiin->f58v",
+        "koldal->f52r"
+      ]
+    },
+    {
+      "folio": "f90r1",
+      "quire": "O",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 68,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "poleeol . qokeol . qokchod . choly . cthog",
+      "opening_translation": "PARA-DUCT:fluid/water[FLUID] . in-vessel:e[FLUID] . in-vessel:mix/grind . mix:fluid/water[ATTR] . red-calyx/press+the/herb[RIM/TITLE]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "cthog->f93v",
+        "yshol->f42r"
+      ]
+    },
+    {
+      "folio": "f90r2",
+      "quire": "O",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 42,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "toealchs . shakol . sheo . qoekeeysoeeol . qoteody",
+      "opening_translation": "DUCT:mix/grind . heat:ak[FLUID] . heat:eo . with/in:vessel-heat[FLUID] . via-duct:eo[DONE]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "ckheo->f87r,f101v",
+        "dsheeos->f96v"
+      ]
+    },
+    {
+      "folio": "f90v2",
+      "quire": "O",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 62,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "day . qocfhey . opolraiin . ofchedal . sshese",
+      "opening_translation": "from:a[ATTR] . with/in:jar-strain[PTCP] . jar-top:fluid/water+flow[2-MEAS] . jar-strain:steep/infuse+this/from[WASH] . this:decoct/simmer",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "ctheod->f6r,f24v",
+        "sheom->f88r,f90r1"
+      ]
+    },
+    {
+      "folio": "f90v1",
+      "quire": "O",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 76,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "pcheor . chodar . oleees . chepy . sholshckheootol",
+      "opening_translation": "PARA-DUCT:steep/infuse[EXTRACT] . mix:the/herb+this/from[DOSE] . the:leees . mix:ep[ATTR] . heat:blue-petal/extract[FLUID]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "oleees->f99v",
+        "tshor->f15r,f53v"
+      ]
+    },
+    {
+      "folio": "f93r",
+      "quire": "Q",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 148,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "kodshol . otolsheeos . octhodaly . opalepam . oepchksheey",
+      "opening_translation": "VESSEL:boil/heat[FLUID] . duct:decoct/simmer . the:red-calyx/press[ATTR] . jar-top:wash/liquid[FINAL-PROD] . the:boil/heat[INTENS-PTCP]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "chotom->f17r"
+      ]
+    },
+    {
+      "folio": "f93v",
+      "quire": "Q",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 71,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "possheody . qoteeo . qoshocphy . opchody . oporopchyotchdal",
+      "opening_translation": "PARA-DUCT:decoct/simmer[DONE] . via-duct:eeo . with/in:jar-press[ATTR] . jar-top:mix/grind+the/herb[DONE] . jar-top:mix/grind[WASH]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "opchody->fRos,f106r",
+        "cthog->f90r1",
+        "dchos->f57r,f113r"
+      ]
+    },
+    {
+      "folio": "f94r",
+      "quire": "Q",
+      "section": "H",
+      "language": "B",
+      "hand": "3",
+      "word_count": 77,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "tchedy . opaiir . chedaiin . dsheedy . qopchedal",
+      "opening_translation": "DUCT:mix/grind[PROC] . jar-top:aii[FLOW] . mix:ed[2-MEAS] . from:boil/heat[INTENS-PROC] . with/in:steep/infuse[WASH]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "otalaiin->f70v1,f71v",
+        "todal->f58r,f58v",
+        "cholky->f43r,f95r1"
+      ]
+    },
+    {
+      "folio": "f94v",
+      "quire": "Q",
+      "section": "H",
+      "language": "B",
+      "hand": "3",
+      "word_count": 87,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "tshedy . chedar . char . qokchedy . okal",
+      "opening_translation": "DUCT:boil/heat[PROC] . mix:ed[DOSE] . mix:a[FLOW] . in-vessel:mix/grind[PROC] . vessel:a[LIQ]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "sdal->f23r"
+      ]
+    },
+    {
+      "folio": "f95r1",
+      "quire": "Q",
+      "section": "H",
+      "language": "B",
+      "hand": "3",
+      "word_count": 102,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "kshdor . chepchdy . ofaiin . ol . oldaiin",
+      "opening_translation": "VESSEL:boil/heat+this/from[EXTRACT] . mix:mix/grind[DONE] . jar-strain:a[2-UNIT] . fluid/water . the:liquid+this/from[2-MEAS]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "chepchdy->f86v4"
+      ]
+    },
+    {
+      "folio": "f95r2",
+      "quire": "Q",
+      "section": "H",
+      "language": "B",
+      "hand": "3",
+      "word_count": 79,
+      "paragraph_count": 2,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "kshedy . or . chdy . dalfchy . qodaiin",
+      "opening_translation": "VESSEL:boil/heat[PROC] . golden-extract . mix:this/from[ATTR] . from:mix/grind[ATTR] . with/in:this/from[2-MEAS]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "daraiin->f1r,f102r1"
+      ]
+    },
+    {
+      "folio": "f95v2",
+      "quire": "Q",
+      "section": "H",
+      "language": "B",
+      "hand": "3",
+      "word_count": 55,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "tchody . podar . shody . qofaiin . ofchdy",
+      "opening_translation": "DUCT:mix/grind+the/herb[DONE] . PARA-DUCT:the/herb+this/from[DOSE] . heat:the/herb[DONE] . with/in:f[2-MEAS] . jar-strain:mix/grind[DONE]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "olsain->f83r",
+        "okady->fRos"
+      ]
+    },
+    {
+      "folio": "f95v1",
+      "quire": "Q",
+      "section": "H",
+      "language": "B",
+      "hand": "3",
+      "word_count": 118,
+      "paragraph_count": 4,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "olteedy . oepaiin . oekshy . qofchdaiin . shoyfar",
+      "opening_translation": "the:liquid+duct/distill[INTENS-PROC] . the:ep[2-MEAS] . the:boil/heat[ATTR] . with/in:mix/grind[2-MEAS] . heat:oyf[DOSE]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "qofchdaiin->f113r,f115v",
+        "tshor->f15r,f53v"
+      ]
+    },
+    {
+      "folio": "f96r",
+      "quire": "Q",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 78,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "tor . cheeor . ckheos . olsheeosol . cpheol",
+      "opening_translation": "DUCT:the/herb[FLOW] . mix:ee[EXTRACT] . blue-petal/extract . the:decoct/simmer[FLUID] . jar-press[FLUID]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "toaiin->f16r,f102v1",
+        "chodol->f58v",
+        "chkchol->f101r,f115v"
+      ]
+    },
+    {
+      "folio": "f96v",
+      "quire": "Q",
+      "section": "H",
+      "language": "A",
+      "hand": "1",
+      "word_count": 51,
+      "paragraph_count": 1,
+      "label_count": 0,
+      "genre": "Herbal Monograph \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "psheessheeor . qoepsheody . odar . ocpheeoopar . ysar",
+      "opening_translation": "PARA-DUCT:decoct/simmer[EXTRACT] . with/in:decoct/simmer[DONE] . the:this/from[DOSE] . the:jar-press[DOSE] . then:this/seed[DOSE]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "dsheos->f90r2",
+        "tockhy->f87r,f112r"
+      ]
+    },
+    {
+      "folio": "f99r",
+      "quire": "S",
+      "section": "P",
+      "language": "A",
+      "hand": "1",
+      "word_count": 194,
+      "paragraph_count": 4,
+      "label_count": 36,
+      "genre": "Pharmaceutical Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "pcheody . oteody . daiin . cpheey . tshol",
+      "opening_translation": "PARA-DUCT:steep/infuse+the/herb[DONE] . duct:eo[DONE] . from-this[2-MEAS] . jar-press[INTENS-PTCP] . DUCT:boil/heat[FLUID]",
+      "sample_labels": [
+        "okaradag",
+        "okar",
+        "y",
+        "darar",
+        "oky"
+      ],
+      "rare_cross_references": [
+        "darar->f58r",
+        "salo->f116r",
+        "okolo->f80r"
+      ]
+    },
+    {
+      "folio": "f99v",
+      "quire": "S",
+      "section": "P",
+      "language": "A",
+      "hand": "1",
+      "word_count": 163,
+      "paragraph_count": 4,
+      "label_count": 26,
+      "genre": "Pharmaceutical Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "sol . cheols . ockhey . qoy . qkoldy",
+      "opening_translation": "this:the/herb[LIQ] . mix:fluid/water . the:blue-petal/extract[PTCP] . qo[ATTR] . vessel-liquid[DONE]",
+      "sample_labels": [
+        "okaramy",
+        "otoldy",
+        "otorchy",
+        "oldy",
+        "darary"
+      ],
+      "rare_cross_references": [
+        "otorchy->f8v,f28r",
+        "darary->f82r",
+        "olsy->f5r"
+      ]
+    },
+    {
+      "folio": "f100r",
+      "quire": "S",
+      "section": "P",
+      "language": "A",
+      "hand": "1",
+      "word_count": 109,
+      "paragraph_count": 2,
+      "label_count": 18,
+      "genre": "Pharmaceutical Formulary \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "pcheol . sheod . qocpheeckhy . shodol . da",
+      "opening_translation": "PARA-DUCT:steep/infuse[FLUID] . heat:eod . with/in:blue-petal/extract[ATTR] . heat:the/herb+this/from[FLUID] . da",
+      "sample_labels": [
+        "chosaroshol",
+        "sochorcfhy",
+        "otear",
+        "chofary",
+        "sar"
+      ],
+      "rare_cross_references": [
+        "oraro->f115r",
+        "shockhey->f89v1,f102r1",
+        "okols->f89v2"
+      ]
+    },
+    {
+      "folio": "f100v",
+      "quire": "S",
+      "section": "P",
+      "language": "A",
+      "hand": "1",
+      "word_count": 93,
+      "paragraph_count": 1,
+      "label_count": 14,
+      "genre": "Pharmaceutical Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "deey . sheocphy . qoteody . ckhoor . ar",
+      "opening_translation": "from:e[PTCP] . heat:jar-press[ATTR] . via-duct:eo[DONE] . blue-petal/extract+the/herb[EXTRACT] . root-dose",
+      "sample_labels": [
+        "tolchd",
+        "chols",
+        "opchor",
+        "solsy",
+        "soleesos"
+      ],
+      "rare_cross_references": [
+        "tolchd->f77r,f115r",
+        "chols->f5v,f27r",
+        "okcheor->f93r"
+      ]
+    },
+    {
+      "folio": "f101r",
+      "quire": "S",
+      "section": "P",
+      "language": "A",
+      "hand": "1",
+      "word_count": 227,
+      "paragraph_count": 3,
+      "label_count": 0,
+      "genre": "Pharmaceutical Formulary \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "pcheol . sheol . ol . shey . qockhol",
+      "opening_translation": "PARA-DUCT:steep/infuse[FLUID] . heat:e[FLUID] . fluid/water . heat:e[ATTR] . with/in:blue-petal/extract[FLUID]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "sheockhey->f102v2,f104r",
+        "chopcheey->f113r"
+      ]
+    },
+    {
+      "folio": "f101v",
+      "quire": "S",
+      "section": "P",
+      "language": "A",
+      "hand": "1",
+      "word_count": 211,
+      "paragraph_count": 3,
+      "label_count": 18,
+      "genre": "Pharmaceutical Formulary \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "tolchor . cheopor . or . ody . cphey",
+      "opening_translation": "DUCT:fluid/water+mix/grind[EXTRACT] . mix:eop[EXTRACT] . golden-extract . the:this/from[ATTR] . jar-press[PTCP]",
+      "sample_labels": [
+        "sairaly",
+        "otaldy",
+        "otol",
+        "ytal",
+        "dokor"
+      ],
+      "rare_cross_references": [
+        "arom->f71v,f116r",
+        "olkor->f95r1,f95r2",
+        "tolchor->f113r"
+      ]
+    },
+    {
+      "folio": "f102r1",
+      "quire": "S",
+      "section": "P",
+      "language": "A",
+      "hand": "1",
+      "word_count": 102,
+      "paragraph_count": 3,
+      "label_count": 4,
+      "genre": "Pharmaceutical Formulary \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "polaiin . shocthy . qoteol . loiiin . oteeor",
+      "opening_translation": "PARA-DUCT:fluid/water[2-MEAS] . heat:the/herb+red-calyx/press[ATTR] . via-duct:e[FLUID] . liquid+the/herb[3-UNIT] . duct:ee[EXTRACT]",
+      "sample_labels": [
+        "daarod",
+        "otodeeodor",
+        "okolaly",
+        "ddardsh"
+      ],
+      "rare_cross_references": [
+        "cpheodar->f52v,f87v",
+        "sholdaiin->f8r",
+        "dsheody->f86v3"
+      ]
+    },
+    {
+      "folio": "f102r2",
+      "quire": "S",
+      "section": "P",
+      "language": "A",
+      "hand": "1",
+      "word_count": 144,
+      "paragraph_count": 3,
+      "label_count": 7,
+      "genre": "Pharmaceutical Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "lsais . azg . cheey . cfhey . por",
+      "opening_translation": "lsais . az[RIM/TITLE] . mix:e[PTCP] . jar-strain[PTCP] . PARA-DUCT:the/herb[FLOW]",
+      "sample_labels": [
+        "kodaiig",
+        "okrolda",
+        "loeekadag",
+        "osheal",
+        "sodch"
+      ],
+      "rare_cross_references": [
+        "olsho->f104v",
+        "oldor->f22r",
+        "cheodor->f87r"
+      ]
+    },
+    {
+      "folio": "f102v2",
+      "quire": "S",
+      "section": "P",
+      "language": "A",
+      "hand": "1",
+      "word_count": 190,
+      "paragraph_count": 2,
+      "label_count": 22,
+      "genre": "Pharmaceutical Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "podeesho . oteeos . sheor . qoteeo . ch",
+      "opening_translation": "PARA-DUCT:boil/heat . duct:eeos . heat:e[EXTRACT] . via-duct:eeo . mix/grind",
+      "sample_labels": [
+        "porshols",
+        "soaimy",
+        "oror",
+        "chor",
+        "sachy"
+      ],
+      "rare_cross_references": [
+        "otory->f79r,f89v2",
+        "sarol->f39v,f75r",
+        "aiky->f106r"
+      ]
+    },
+    {
+      "folio": "f102v1",
+      "quire": "S",
+      "section": "P",
+      "language": "A",
+      "hand": "1",
+      "word_count": 127,
+      "paragraph_count": 2,
+      "label_count": 10,
+      "genre": "Pharmaceutical Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "poaiin . ockhey . pchol . doiin . shey",
+      "opening_translation": "PARA-DUCT:the/herb[2-MEAS] . the:blue-petal/extract[PTCP] . PARA-DUCT:mix/grind[FLUID] . from:the/herb[2-UNIT] . heat:e[ATTR]",
+      "sample_labels": [
+        "keoraiiin",
+        "okeody",
+        "okeody",
+        "daiisaly",
+        "ypary"
+      ],
+      "rare_cross_references": [
+        "keoraiiin->f106v",
+        "poaiin->f16r,f96r",
+        "sheocthy->f66r,f94v"
+      ]
+    },
+    {
+      "folio": "f103r",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 531,
+      "paragraph_count": 18,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "pchedal . shdy . ytechypchy . otey . lshey",
+      "opening_translation": "PARA-DUCT:steep/infuse+this/from[WASH] . heat:this/from[ATTR] . then-duct:mix/grind[ATTR] . duct:e[ATTR] . liquid+boil/heat[PTCP]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "chep->f29r,f76r"
+      ]
+    },
+    {
+      "folio": "f103v",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 454,
+      "paragraph_count": 13,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "pol . dar . olfchey . qoky . dy",
+      "opening_translation": "PARA-DUCT:the/herb[LIQ] . in-jar/from-root . the:mix/grind[PTCP] . with/in:vessel/strain[ATTR] . this/from[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "olfchey->f86v3"
+      ]
+    },
+    {
+      "folio": "f104r",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 448,
+      "paragraph_count": 13,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "pchdar . chedy . char . qopchedy . ocphedy",
+      "opening_translation": "PARA-DUCT:mix/grind+this/from[DOSE] . mix:e[DONE] . mix:a[FLOW] . with/in:mix/grind[PROC] . the:jar-press[PROC]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "oteeochey->f66r",
+        "cheodar->f51v,f93v"
+      ]
+    },
+    {
+      "folio": "f104v",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 476,
+      "paragraph_count": 13,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "pchdoiin . opcheedy . orar . oltcheey . opchedy",
+      "opening_translation": "PARA-DUCT:mix/grind+this/from[2-FLUID-MEAS] . jar-top:mix/grind[INTENS-PROC] . the:flow[DOSE] . the:mix/grind[INTENS-PTCP] . jar-top:mix/grind[PROC]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "oltcheey->f79r,f86v6",
+        "ychedaiin->f108r,f115v",
+        "alched->f81r"
+      ]
+    },
+    {
+      "folio": "f105r",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 379,
+      "paragraph_count": 10,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Balanced Botanical/Procedural",
+      "opening_eva": "aiin . dar . chcphy . qokeey . qopaiin",
+      "opening_translation": "two-measures . in-jar/from-root . mix:jar-press[ATTR] . in-vessel:e[PTCP] . with/in:p[2-MEAS]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "dshees->f81r,f106r"
+      ]
+    },
+    {
+      "folio": "f105v",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 399,
+      "paragraph_count": 10,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Balanced Botanical/Procedural",
+      "opening_eva": "polairy . oair . olpcheey . ykaiin . olpchedy",
+      "opening_translation": "PARA-DUCT:fluid/water[ATTR] . the:ai[FLOW] . the:mix/grind[INTENS-PTCP] . then-vessel:a[2-UNIT] . the:mix/grind[PROC]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "olpcheey->f86v3,f99v",
+        "olpchedy->f81r",
+        "opchedaiin->fRos,f108v"
+      ]
+    },
+    {
+      "folio": "f106r",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 432,
+      "paragraph_count": 15,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "pshdar . shoefy . yteedy . shal . korchy",
+      "opening_translation": "PARA-DUCT:boil/heat+this/from[DOSE] . heat:oef[ATTR] . then-duct:e[PROC] . heat:a[LIQ] . VESSEL:golden-extract+mix/grind[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "pshdar->f33r,f43r",
+        "korchy->f56r,f80r",
+        "dshes->f81r,f105r"
+      ]
+    },
+    {
+      "folio": "f106v",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 444,
+      "paragraph_count": 15,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "fsheda . looin . opaiiral . oteodaiin . chopchy",
+      "opening_translation": "PARA-VESSEL:decoct/simmer . loo[1-UNIT] . jar-top:aiir[WASH] . duct:eod[2-MEAS] . mix:mix/grind[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "chopchy->f4v,f47v",
+        "sheeodar->f111r",
+        "keorain->f102v1"
+      ]
+    },
+    {
+      "folio": "f107r",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 487,
+      "paragraph_count": 14,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "pchdlar . sheolor . ykeeol . qokchy . otor",
+      "opening_translation": "PARA-DUCT:mix/grind[DOSE] . heat:fluid/water[EXTRACT] . then-vessel:ee[FLUID] . in-vessel:mix/grind[ATTR] . duct:the/herb[FLOW]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "tarair->f107v"
+      ]
+    },
+    {
+      "folio": "f107v",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 462,
+      "paragraph_count": 15,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "kaisar . olkeeey . otalkchy . lkaiin . otody",
+      "opening_translation": "VESSEL:ais[DOSE] . the:liquid+vessel-heat[INTENS-PTCP] . duct:mix/grind[ATTR] . liquid+vessel/strain[2-MEAS] . duct:the/herb[DONE]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "lkal->f108r,f111r",
+        "dckhy->f53v"
+      ]
+    },
+    {
+      "folio": "f108r",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 494,
+      "paragraph_count": 14,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "teodeeor . qopchety . okeeoly . okchdpchy . todax",
+      "opening_translation": "DUCT:eodee[EXTRACT] . with/in:steep/infuse[ATTR] . vessel:fluid/water[ATTR] . vessel:mix/grind[ATTR] . DUCT:odax",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "qopchety->f26v",
+        "kedydy->f43r",
+        "chokedy->f72v2,f107v"
+      ]
+    },
+    {
+      "folio": "f108v",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 581,
+      "paragraph_count": 7,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "pchedal . qokeedar . otedy . qokeedy . lky",
+      "opening_translation": "PARA-DUCT:steep/infuse+this/from[WASH] . in-vessel:eed[DOSE] . duct:e[DONE] . in-vessel:e[PROC] . liquid+vessel/strain[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "ltal->f106r,f113v",
+        "qoeechy->f57r"
+      ]
+    },
+    {
+      "folio": "f111r",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 624,
+      "paragraph_count": 6,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "kcholchdar . shar . aiip . chepchedy . chetalshy",
+      "opening_translation": "VESSEL:mix/grind[DOSE] . heat:a[FLOW] . aiip . mix:mix/grind[PROC] . mix:boil/heat[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "chepchedy->f83v",
+        "oteeam->f70v2,f103v"
+      ]
+    },
+    {
+      "folio": "f111v",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 567,
+      "paragraph_count": 8,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "koshey . qokal . chckheal . opcheodair . alkain",
+      "opening_translation": "VESSEL:the/herb+boil/heat[PTCP] . in-vessel:a[LIQ] . mix:blue-petal/extract[WASH] . jar-top:steep/infuse[FLOW] . wash/liquid+vessel/strain[1-MEAS]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "koshey->f1r,f7r",
+        "sheokain->f86v5,f106r",
+        "cheok->f89r2"
+      ]
+    },
+    {
+      "folio": "f112r",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 401,
+      "paragraph_count": 11,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "folchey . qokeey . ykair . arally . oteedal",
+      "opening_translation": "PARA-VESSEL:fluid/water+mix/grind[PTCP] . in-vessel:e[PTCP] . then-vessel:ai[FLOW] . wash/liquid[ATTR] . duct:eed[WASH]",
+      "sample_labels": [],
+      "rare_cross_references": []
+    },
+    {
+      "folio": "f112v",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 419,
+      "paragraph_count": 13,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "keeoal . chool . opal . otalair . y",
+      "opening_translation": "VESSEL:eeo[WASH] . mix:the/herb[FLUID] . jar-top:a[LIQ] . duct:wash/liquid[FLOW] . and/then",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "chool->f89v2"
+      ]
+    },
+    {
+      "folio": "f113r",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 529,
+      "paragraph_count": 16,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "pcheschy . ypcheedy . fchdy . chetar . qopchedaiin",
+      "opening_translation": "PARA-DUCT:steep/infuse[ATTR] . then:mix/grind[INTENS-PROC] . PARA-VESSEL:mix/grind[DONE] . mix:et[DOSE] . with/in:steep/infuse[2-MEAS]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "lkchy->f107v",
+        "ykolairol->f72r3"
+      ]
+    },
+    {
+      "folio": "f113v",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 502,
+      "paragraph_count": 15,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "folorarom . otchey . qotar . air . otair",
+      "opening_translation": "PARA-VESSEL:fluid/water[FINAL-FLUID] . duct:mix/grind[PTCP] . via-duct:a[FLOW] . ai[FLOW] . duct:ai[FLOW]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "teoar->f113r",
+        "lkchdy->f103v,f115v"
+      ]
+    },
+    {
+      "folio": "f114r",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 460,
+      "paragraph_count": 13,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "tchedol . dairor . pcheos . ytaiin . otody",
+      "opening_translation": "DUCT:steep/infuse+this/from[FLUID] . from:air[EXTRACT] . PARA-DUCT:steep/infuse . then-duct:a[2-UNIT] . duct:the/herb[DONE]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "oteeodl->f105r",
+        "okarol->f106v",
+        "ycheod->f113r"
+      ]
+    },
+    {
+      "folio": "f114v",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 376,
+      "paragraph_count": 12,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Conduit Distillation (t-enriched)",
+      "opening_eva": "pchdol . dar . chedain . chodalr . fcheey",
+      "opening_translation": "PARA-DUCT:mix/grind+this/from[FLUID] . in-jar/from-root . mix:ed[1-MEAS] . mix:the/herb+in-basin/pool[FLOW] . PARA-VESSEL:mix/grind[INTENS-PTCP]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "pchdol->f43v",
+        "dshedal->f77v"
+      ]
+    },
+    {
+      "folio": "f115r",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "",
+      "word_count": 461,
+      "paragraph_count": 13,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Compound Mixture (ch-enriched)",
+      "opening_eva": "fdar . qopchol . qochedain . otedy . cheop",
+      "opening_translation": "PARA-VESSEL:this/from[DOSE] . with/in:mix/grind[FLUID] . with/in:steep/infuse+this/from[1-MEAS] . duct:e[DONE] . mix:eop",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "cheop->f57r",
+        "dcheeos->f67v1,f87v",
+        "rorol->f76r,f103v"
+      ]
+    },
+    {
+      "folio": "f115v",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 410,
+      "paragraph_count": 13,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Vessel Infusion (k-enriched)",
+      "opening_eva": "tchedor . otchedy . qotees . ytain . qoty",
+      "opening_translation": "DUCT:steep/infuse+this/from[EXTRACT] . duct:mix/grind[PROC] . via-duct:ees . then-duct:a[1-UNIT] . with/in:duct/distill[ATTR]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "tchedor->f112v",
+        "opolaiin->f70r1"
+      ]
+    },
+    {
+      "folio": "f116r",
+      "quire": "T",
+      "section": "S",
+      "language": "B",
+      "hand": "3",
+      "word_count": 553,
+      "paragraph_count": 8,
+      "label_count": 0,
+      "genre": "Starred Recipe Formulary \u2014 Balanced Botanical/Procedural",
+      "opening_eva": "kchdpy . shey . qokain . otalshdy . qoteey",
+      "opening_translation": "VESSEL:mix/grind[ATTR] . heat:e[ATTR] . in-vessel[1-MEAS] . duct:wash/liquid+boil/heat[DONE] . via-duct:e[PTCP]",
+      "sample_labels": [],
+      "rare_cross_references": [
+        "otalshdy->f79v"
+      ]
+    },
+    {
+      "folio": "f116v",
+      "quire": "T",
+      "section": "T",
+      "language": "A",
+      "hand": "3",
+      "word_count": 2,
+      "paragraph_count": 0,
+      "label_count": 2,
+      "genre": "Continuous Text \u2014 Thermal Decoction (sh-enriched)",
+      "opening_eva": "oror . sheey",
+      "opening_translation": "the:flow[EXTRACT] . heat:e[PTCP]",
+      "sample_labels": [
+        "oror",
+        "sheey"
+      ],
+      "rare_cross_references": []
+    }
+  ]
+}

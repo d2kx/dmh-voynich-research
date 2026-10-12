@@ -1,0 +1,3912 @@
+{
+  "phase": "Phase 40 / Attack 29",
+  "title": "Herbal-to-Pharmaceutical & Herbal-to-Starred-Recipe Exact Plant-Identity & Line-1 Topical Headword Citation Graph",
+  "line1_topical_headword_law": {
+    "evaluated_herbal_folios": 128,
+    "observed_same_folio_body_hits": 15,
+    "observed_folios_with_line1_self_echo": 15,
+    "null_stratified_mean": 11.026,
+    "null_stratified_std": 3.016,
+    "enrichment_ratio": 1.36,
+    "z_score": 1.32,
+    "p_value": 0.122,
+    "gallows_stripped_observed_hits": 26,
+    "gallows_stripped_folios_with_hit": 23,
+    "gallows_stripped_null_mean": 19.508,
+    "gallows_stripped_null_std": 3.414,
+    "gallows_stripped_z_score": 1.9,
+    "gallows_stripped_p_value": 0.05,
+    "multi_paragraph_folios_count": 87,
+    "multi_paragraph_header_shared_roots": 20,
+    "multi_paragraph_null_mean": 17.5,
+    "multi_paragraph_null_std": 3.081,
+    "multi_paragraph_z_score": 0.81,
+    "multi_paragraph_p_value": 0.265,
+    "self_echo_examples": [
+      {
+        "folio": "f13v",
+        "language": "A",
+        "line1_word": "otchy",
+        "canonical_stem": "otchy",
+        "herbal_df": 23,
+        "same_page_body_occurrences": 2
+      },
+      {
+        "folio": "f15v",
+        "language": "A",
+        "line1_word": "choiin",
+        "canonical_stem": "choin",
+        "herbal_df": 12,
+        "same_page_body_occurrences": 1
+      },
+      {
+        "folio": "f28r",
+        "language": "A",
+        "line1_word": "pchodar",
+        "canonical_stem": "tchodar",
+        "herbal_df": 2,
+        "same_page_body_occurrences": 1
+      },
+      {
+        "folio": "f33v",
+        "language": "B",
+        "line1_word": "tar",
+        "canonical_stem": "tar",
+        "herbal_df": 20,
+        "same_page_body_occurrences": 1
+      },
+      {
+        "folio": "f34v",
+        "language": "B",
+        "line1_word": "chdy",
+        "canonical_stem": "chdy",
+        "herbal_df": 22,
+        "same_page_body_occurrences": 3
+      },
+      {
+        "folio": "f35v",
+        "language": "A",
+        "line1_word": "chocthy",
+        "canonical_stem": "chothy",
+        "herbal_df": 10,
+        "same_page_body_occurrences": 1
+      },
+      {
+        "folio": "f39v",
+        "language": "B",
+        "line1_word": "chdy",
+        "canonical_stem": "chdy",
+        "herbal_df": 22,
+        "same_page_body_occurrences": 2
+      },
+      {
+        "folio": "f40v",
+        "language": "B",
+        "line1_word": "chefaiin",
+        "canonical_stem": "chefain",
+        "herbal_df": 1,
+        "same_page_body_occurrences": 1
+      },
+      {
+        "folio": "f43r",
+        "language": "B",
+        "line1_word": "ytedy",
+        "canonical_stem": "ytedy",
+        "herbal_df": 10,
+        "same_page_body_occurrences": 2
+      },
+      {
+        "folio": "f44v",
+        "language": "A",
+        "line1_word": "qotshy",
+        "canonical_stem": "tshy",
+        "herbal_df": 5,
+        "same_page_body_occurrences": 1
+      },
+      {
+        "folio": "f46r",
+        "language": "B",
+        "line1_word": "qotedy",
+        "canonical_stem": "tedy",
+        "herbal_df": 13,
+        "same_page_body_occurrences": 1
+      },
+      {
+        "folio": "f46v",
+        "language": "B",
+        "line1_word": "pody",
+        "canonical_stem": "tody",
+        "herbal_df": 9,
+        "same_page_body_occurrences": 1
+      },
+      {
+        "folio": "f54r",
+        "language": "A",
+        "line1_word": "shodal",
+        "canonical_stem": "shodal",
+        "herbal_df": 2,
+        "same_page_body_occurrences": 1
+      },
+      {
+        "folio": "f94r",
+        "language": "B",
+        "line1_word": "chedaiin",
+        "canonical_stem": "chedain",
+        "herbal_df": 4,
+        "same_page_body_occurrences": 1
+      },
+      {
+        "folio": "f95r2",
+        "language": "B",
+        "line1_word": "chdy",
+        "canonical_stem": "chdy",
+        "herbal_df": 22,
+        "same_page_body_occurrences": 2
+      }
+    ]
+  },
+  "herbal_to_formulary_citation_summary": {
+    "total_herbal_folios": 129,
+    "herbal_folios_linked_to_pharma_labels": 34,
+    "herbal_folios_linked_to_pharma_prose": 98,
+    "herbal_folios_linked_to_starred_recipes": 123,
+    "herbal_folios_linked_to_any_formulary": 125,
+    "formulary_coverage_rate": 0.969,
+    "total_pharma_label_citations": 44
+  },
+  "high_confidence_herbal_to_pharma_label_citations": [
+    {
+      "herbal_folio": "f5r",
+      "herbal_language": "A",
+      "stem": "olsy",
+      "role": "Signature Rare Stem",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f99v",
+      "target_loc": "7",
+      "target_token": "olsy"
+    },
+    {
+      "herbal_folio": "f5v",
+      "herbal_language": "A",
+      "stem": "chols",
+      "role": "Signature Rare Stem",
+      "herbal_df": 2,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f100v",
+      "target_loc": "2",
+      "target_token": "chols"
+    },
+    {
+      "herbal_folio": "f6v",
+      "herbal_language": "A",
+      "stem": "sar",
+      "role": "Line-1 Headword (sar)",
+      "herbal_df": 10,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f100r",
+      "target_loc": "5",
+      "target_token": "sar"
+    },
+    {
+      "herbal_folio": "f8v",
+      "herbal_language": "A",
+      "stem": "otchar",
+      "role": "Signature Rare Stem",
+      "herbal_df": 2,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f89v1",
+      "target_loc": "3",
+      "target_token": "otchar"
+    },
+    {
+      "herbal_folio": "f8v",
+      "herbal_language": "A",
+      "stem": "otorchy",
+      "role": "Signature Rare Stem",
+      "herbal_df": 2,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f99v",
+      "target_loc": "3",
+      "target_token": "otorchy"
+    },
+    {
+      "herbal_folio": "f13r",
+      "herbal_language": "A",
+      "stem": "opchy",
+      "role": "Line-1 Headword (opchy)",
+      "herbal_df": 4,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f102v2",
+      "target_loc": "13",
+      "target_token": "opchy"
+    },
+    {
+      "herbal_folio": "f13r",
+      "herbal_language": "A",
+      "stem": "opchor",
+      "role": "Signature Rare Stem",
+      "herbal_df": 2,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f100v",
+      "target_loc": "3",
+      "target_token": "opchor"
+    },
+    {
+      "herbal_folio": "f13v",
+      "herbal_language": "A",
+      "stem": "okos",
+      "role": "Signature Rare Stem",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f99r",
+      "target_loc": "33",
+      "target_token": "okos"
+    },
+    {
+      "herbal_folio": "f25r",
+      "herbal_language": "A",
+      "stem": "otair",
+      "role": "Signature Rare Stem",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f89v2",
+      "target_loc": "12",
+      "target_token": "otair"
+    },
+    {
+      "herbal_folio": "f26v",
+      "herbal_language": "B",
+      "stem": "dary",
+      "role": "Line-1 Headword (qodary)",
+      "herbal_df": 6,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f88r",
+      "target_loc": "14",
+      "target_token": "dary"
+    },
+    {
+      "herbal_folio": "f27r",
+      "herbal_language": "A",
+      "stem": "chols",
+      "role": "Signature Rare Stem",
+      "herbal_df": 2,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f100v",
+      "target_loc": "2",
+      "target_token": "chols"
+    },
+    {
+      "herbal_folio": "f28r",
+      "herbal_language": "A",
+      "stem": "otorchy",
+      "role": "Signature Rare Stem",
+      "herbal_df": 2,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f99v",
+      "target_loc": "3",
+      "target_token": "otorchy"
+    },
+    {
+      "herbal_folio": "f28r",
+      "herbal_language": "A",
+      "stem": "ytchol",
+      "role": "Signature Rare Stem",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f100v",
+      "target_loc": "11",
+      "target_token": "ytchol"
+    },
+    {
+      "herbal_folio": "f33v",
+      "herbal_language": "B",
+      "stem": "oram",
+      "role": "Signature Rare Stem",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f88r",
+      "target_loc": "13",
+      "target_token": "oram"
+    },
+    {
+      "herbal_folio": "f34r",
+      "herbal_language": "B",
+      "stem": "ykchdy",
+      "role": "Signature Rare Stem",
+      "herbal_df": 2,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f100v",
+      "target_loc": "7",
+      "target_token": "ykchdy"
+    },
+    {
+      "herbal_folio": "f37r",
+      "herbal_language": "A",
+      "stem": "otoly",
+      "role": "Signature Rare Stem",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f101v",
+      "target_loc": "8",
+      "target_token": "otoly"
+    },
+    {
+      "herbal_folio": "f39v",
+      "herbal_language": "B",
+      "stem": "okody",
+      "role": "Signature Rare Stem",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f102v2",
+      "target_loc": "10",
+      "target_token": "okody"
+    },
+    {
+      "herbal_folio": "f39v",
+      "herbal_language": "B",
+      "stem": "sarol",
+      "role": "Signature Rare Stem",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f102v2",
+      "target_loc": "14",
+      "target_token": "sarol"
+    },
+    {
+      "herbal_folio": "f40v",
+      "herbal_language": "B",
+      "stem": "oldy",
+      "role": "Line-1 Headword (oldy)",
+      "herbal_df": 4,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f99v",
+      "target_loc": "4",
+      "target_token": "oldy"
+    },
+    {
+      "herbal_folio": "f40v",
+      "herbal_language": "B",
+      "stem": "arody",
+      "role": "Signature Rare Stem",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f88v",
+      "target_loc": "4",
+      "target_token": "arody"
+    },
+    {
+      "herbal_folio": "f42v",
+      "herbal_language": "A",
+      "stem": "chtchy",
+      "role": "Signature Rare Stem",
+      "herbal_df": 2,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f89v2",
+      "target_loc": "25",
+      "target_token": "chtchy"
+    },
+    {
+      "herbal_folio": "f42v",
+      "herbal_language": "A",
+      "stem": "otoy",
+      "role": "Signature Rare Stem",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f89v1",
+      "target_loc": "2",
+      "target_token": "otoy"
+    },
+    {
+      "herbal_folio": "f43v",
+      "herbal_language": "B",
+      "stem": "doly",
+      "role": "Line-1 Headword (doly)",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f89r2",
+      "target_loc": "2",
+      "target_token": "doly"
+    },
+    {
+      "herbal_folio": "f45r",
+      "herbal_language": "A",
+      "stem": "otchar",
+      "role": "Signature Rare Stem",
+      "herbal_df": 2,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f89v1",
+      "target_loc": "3",
+      "target_token": "otchar"
+    },
+    {
+      "herbal_folio": "f46r",
+      "herbal_language": "B",
+      "stem": "osain",
+      "role": "Signature Rare Stem",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f102v2",
+      "target_loc": "25",
+      "target_token": "osain"
+    },
+    {
+      "herbal_folio": "f46v",
+      "herbal_language": "B",
+      "stem": "ykchdy",
+      "role": "Signature Rare Stem",
+      "herbal_df": 2,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f100v",
+      "target_loc": "7",
+      "target_token": "ykchdy"
+    },
+    {
+      "herbal_folio": "f47r",
+      "herbal_language": "A",
+      "stem": "chtchy",
+      "role": "Signature Rare Stem",
+      "herbal_df": 2,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f89v2",
+      "target_loc": "25",
+      "target_token": "chtchy"
+    },
+    {
+      "herbal_folio": "f48v",
+      "herbal_language": "B",
+      "stem": "sary",
+      "role": "Signature Rare Stem",
+      "herbal_df": 2,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f99v",
+      "target_loc": "17",
+      "target_token": "sary"
+    },
+    {
+      "herbal_folio": "f49r",
+      "herbal_language": "A",
+      "stem": "opchor",
+      "role": "Signature Rare Stem",
+      "herbal_df": 2,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f100v",
+      "target_loc": "3",
+      "target_token": "opchor"
+    },
+    {
+      "herbal_folio": "f52r",
+      "herbal_language": "A",
+      "stem": "chokam",
+      "role": "Signature Rare Stem",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f89v2",
+      "target_loc": "6",
+      "target_token": "chokam"
+    },
+    {
+      "herbal_folio": "f53r",
+      "herbal_language": "A",
+      "stem": "sodar",
+      "role": "Signature Rare Stem",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f89r2",
+      "target_loc": "17",
+      "target_token": "sodar"
+    },
+    {
+      "herbal_folio": "f53r",
+      "herbal_language": "A",
+      "stem": "orol",
+      "role": "Signature Rare Stem",
+      "herbal_df": 2,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f100r",
+      "target_loc": "18",
+      "target_token": "orol"
+    },
+    {
+      "herbal_folio": "f55r",
+      "herbal_language": "B",
+      "stem": "orol",
+      "role": "Signature Rare Stem",
+      "herbal_df": 2,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f100r",
+      "target_loc": "18",
+      "target_token": "orol"
+    },
+    {
+      "herbal_folio": "f55v",
+      "herbal_language": "B",
+      "stem": "oror",
+      "role": "Signature Rare Stem",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f102v2",
+      "target_loc": "3",
+      "target_token": "oror"
+    },
+    {
+      "herbal_folio": "f57r",
+      "herbal_language": "B",
+      "stem": "cheothy",
+      "role": "Signature Rare Stem",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f88v",
+      "target_loc": "2",
+      "target_token": "cheocthy"
+    },
+    {
+      "herbal_folio": "f90r1",
+      "herbal_language": "A",
+      "stem": "sary",
+      "role": "Signature Rare Stem",
+      "herbal_df": 2,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f99v",
+      "target_loc": "17",
+      "target_token": "sary"
+    },
+    {
+      "herbal_folio": "f93r",
+      "herbal_language": "A",
+      "stem": "okcheor",
+      "role": "Signature Rare Stem",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f100v",
+      "target_loc": "10",
+      "target_token": "okcheor"
+    },
+    {
+      "herbal_folio": "f94r",
+      "herbal_language": "B",
+      "stem": "otaly",
+      "role": "Signature Rare Stem",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f88r",
+      "target_loc": "6",
+      "target_token": "otaly"
+    },
+    {
+      "herbal_folio": "f94r",
+      "herbal_language": "B",
+      "stem": "otaly",
+      "role": "Signature Rare Stem",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f99v",
+      "target_loc": "6",
+      "target_token": "otaly"
+    },
+    {
+      "herbal_folio": "f95r1",
+      "herbal_language": "B",
+      "stem": "oekey",
+      "role": "Signature Rare Stem",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f99r",
+      "target_loc": "34",
+      "target_token": "oekey"
+    },
+    {
+      "herbal_folio": "f95r1",
+      "herbal_language": "B",
+      "stem": "olkor",
+      "role": "Signature Rare Stem",
+      "herbal_df": 2,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f101v",
+      "target_loc": "15",
+      "target_token": "olkor"
+    },
+    {
+      "herbal_folio": "f95r2",
+      "herbal_language": "B",
+      "stem": "olkor",
+      "role": "Signature Rare Stem",
+      "herbal_df": 2,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f101v",
+      "target_loc": "15",
+      "target_token": "olkor"
+    },
+    {
+      "herbal_folio": "f95v1",
+      "herbal_language": "B",
+      "stem": "otaldy",
+      "role": "Signature Rare Stem",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lc)",
+      "target_folio": "f88r",
+      "target_loc": "12",
+      "target_token": "otaldy"
+    },
+    {
+      "herbal_folio": "f95v1",
+      "herbal_language": "B",
+      "stem": "otaldy",
+      "role": "Signature Rare Stem",
+      "herbal_df": 1,
+      "target_type": "Pharma Label (@Lf)",
+      "target_folio": "f101v",
+      "target_loc": "2",
+      "target_token": "otaldy"
+    }
+  ],
+  "sample_herbal_plant_cards": [
+    {
+      "folio": "f5r",
+      "language": "A",
+      "hand": "1",
+      "line1_opening_words": [
+        "kchody",
+        "fchoy",
+        "chkoy"
+      ],
+      "line1_canonical_stems": [
+        "kchody",
+        "kchoy",
+        "chkoy"
+      ],
+      "signature_rare_stem_count": 9,
+      "pharma_label_citations": [
+        {
+          "stem": "olsy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f99v",
+          "loc_id": "7",
+          "loc_type": "@Lf",
+          "token": "olsy"
+        }
+      ],
+      "pharma_prose_citations": [],
+      "starred_recipe_citations": [
+        {
+          "stem": "otan",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f103v",
+          "para": "P7",
+          "loc_id": "24",
+          "token": "otan"
+        },
+        {
+          "stem": "otan",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f116r",
+          "para": "P8",
+          "loc_id": "48",
+          "token": "otan"
+        },
+        {
+          "stem": "cholols",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f58r",
+          "para": "P3",
+          "loc_id": "37",
+          "token": "cholols"
+        },
+        {
+          "stem": "toey",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f113r",
+          "para": "P14",
+          "loc_id": "39",
+          "token": "qopoeey"
+        }
+      ]
+    },
+    {
+      "folio": "f5v",
+      "language": "A",
+      "hand": "1",
+      "line1_opening_words": [
+        "k",
+        "o",
+        "cheor"
+      ],
+      "line1_canonical_stems": [
+        "cheor"
+      ],
+      "signature_rare_stem_count": 10,
+      "pharma_label_citations": [
+        {
+          "stem": "chols",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f100v",
+          "loc_id": "2",
+          "loc_type": "@Lf",
+          "token": "chols"
+        }
+      ],
+      "pharma_prose_citations": [],
+      "starred_recipe_citations": [
+        {
+          "stem": "tshod",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f106v",
+          "para": "P8",
+          "loc_id": "22",
+          "token": "tshod"
+        },
+        {
+          "stem": "chols",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f115r",
+          "para": "P13",
+          "loc_id": "45",
+          "token": "chols"
+        },
+        {
+          "stem": "ytoin",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f105v",
+          "para": "P1",
+          "loc_id": "3",
+          "token": "ytoiin"
+        }
+      ]
+    },
+    {
+      "folio": "f6v",
+      "language": "A",
+      "hand": "1",
+      "line1_opening_words": [
+        "koary",
+        "sar",
+        "cheekar"
+      ],
+      "line1_canonical_stems": [
+        "koary",
+        "sar",
+        "chekar"
+      ],
+      "signature_rare_stem_count": 25,
+      "pharma_label_citations": [
+        {
+          "stem": "sar",
+          "role": "Line-1 Headword (sar)",
+          "herbal_df": 10,
+          "folio": "f100r",
+          "loc_id": "5",
+          "loc_type": "@Lf",
+          "token": "sar"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "sar",
+          "role": "Line-1 Headword (sar)",
+          "herbal_df": 10,
+          "folio": "f88r",
+          "loc_id": "8",
+          "token": "sar"
+        },
+        {
+          "stem": "sar",
+          "role": "Line-1 Headword (sar)",
+          "herbal_df": 10,
+          "folio": "f89v1",
+          "loc_id": "19",
+          "token": "sar"
+        },
+        {
+          "stem": "sar",
+          "role": "Line-1 Headword (sar)",
+          "herbal_df": 10,
+          "folio": "f99r",
+          "loc_id": "15",
+          "token": "sar"
+        },
+        {
+          "stem": "cheas",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f101r",
+          "loc_id": "6",
+          "token": "cheas"
+        },
+        {
+          "stem": "ochy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f89v1",
+          "loc_id": "15",
+          "token": "ochy"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "sar",
+          "role": "Line-1 Headword (sar)",
+          "herbal_df": 10,
+          "folio": "f58r",
+          "para": "P2",
+          "loc_id": "23",
+          "token": "sar"
+        },
+        {
+          "stem": "sar",
+          "role": "Line-1 Headword (sar)",
+          "herbal_df": 10,
+          "folio": "f58r",
+          "para": "P3",
+          "loc_id": "29",
+          "token": "sar"
+        },
+        {
+          "stem": "sar",
+          "role": "Line-1 Headword (sar)",
+          "herbal_df": 10,
+          "folio": "f103r",
+          "para": "P1",
+          "loc_id": "2",
+          "token": "sar"
+        },
+        {
+          "stem": "chekar",
+          "role": "Line-1 Headword (cheekar)",
+          "herbal_df": 5,
+          "folio": "f108r",
+          "para": "P3",
+          "loc_id": "10",
+          "token": "chekar"
+        },
+        {
+          "stem": "chekar",
+          "role": "Line-1 Headword (cheekar)",
+          "herbal_df": 5,
+          "folio": "f114r",
+          "para": "P5",
+          "loc_id": "16",
+          "token": "chekar"
+        },
+        {
+          "stem": "ychear",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f111v",
+          "para": "P1",
+          "loc_id": "22",
+          "token": "ychear"
+        },
+        {
+          "stem": "khal",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f107r",
+          "para": "P4",
+          "loc_id": "15",
+          "token": "qockhal"
+        },
+        {
+          "stem": "khal",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f116r",
+          "para": "P7",
+          "loc_id": "31",
+          "token": "ckhal"
+        }
+      ]
+    },
+    {
+      "folio": "f8v",
+      "language": "A",
+      "hand": "1",
+      "line1_opening_words": [
+        "od",
+        "soosol",
+        "shol"
+      ],
+      "line1_canonical_stems": [
+        "soosol",
+        "shol"
+      ],
+      "signature_rare_stem_count": 32,
+      "pharma_label_citations": [
+        {
+          "stem": "otchar",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f89v1",
+          "loc_id": "3",
+          "loc_type": "@Lf",
+          "token": "otchar"
+        },
+        {
+          "stem": "otorchy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f99v",
+          "loc_id": "3",
+          "loc_type": "@Lf",
+          "token": "otorchy"
+        }
+      ],
+      "pharma_prose_citations": [],
+      "starred_recipe_citations": [
+        {
+          "stem": "opydain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f58r",
+          "para": "P3",
+          "loc_id": "26",
+          "token": "opydaiin"
+        },
+        {
+          "stem": "dshol",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f103r",
+          "para": "P5",
+          "loc_id": "16",
+          "token": "dshol"
+        },
+        {
+          "stem": "chary",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f58r",
+          "para": "P1",
+          "loc_id": "6",
+          "token": "chary"
+        },
+        {
+          "stem": "chary",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f103v",
+          "para": "P13",
+          "loc_id": "46",
+          "token": "chary"
+        },
+        {
+          "stem": "etain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f111v",
+          "para": "P3",
+          "loc_id": "30",
+          "token": "qetain"
+        },
+        {
+          "stem": "sorain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f106r",
+          "para": "P9",
+          "loc_id": "25",
+          "token": "soraiin"
+        },
+        {
+          "stem": "sorain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f106v",
+          "para": "P8",
+          "loc_id": "24",
+          "token": "soraiin"
+        },
+        {
+          "stem": "sorain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f115v",
+          "para": "P4",
+          "loc_id": "12",
+          "token": "soraiin"
+        }
+      ]
+    },
+    {
+      "folio": "f13r",
+      "language": "A",
+      "hand": "1",
+      "line1_opening_words": [
+        "torshor",
+        "opchy",
+        "shol"
+      ],
+      "line1_canonical_stems": [
+        "torshor",
+        "opchy",
+        "shol"
+      ],
+      "signature_rare_stem_count": 17,
+      "pharma_label_citations": [
+        {
+          "stem": "opchy",
+          "role": "Line-1 Headword (opchy)",
+          "herbal_df": 4,
+          "folio": "f102v2",
+          "loc_id": "13",
+          "loc_type": "@Lf",
+          "token": "opchy"
+        },
+        {
+          "stem": "opchor",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f100v",
+          "loc_id": "3",
+          "loc_type": "@Lf",
+          "token": "opchor"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "doain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f102r2",
+          "loc_id": "10",
+          "token": "doaiin"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "torshor",
+          "role": "Line-1 Headword (torshor)",
+          "herbal_df": 1,
+          "folio": "f107r",
+          "para": "P3",
+          "loc_id": "8",
+          "token": "torshor"
+        },
+        {
+          "stem": "opchy",
+          "role": "Line-1 Headword (opchy)",
+          "herbal_df": 4,
+          "folio": "f103r",
+          "para": "P7",
+          "loc_id": "22",
+          "token": "opchy"
+        },
+        {
+          "stem": "opchy",
+          "role": "Line-1 Headword (opchy)",
+          "herbal_df": 4,
+          "folio": "f103v",
+          "para": "P13",
+          "loc_id": "43",
+          "token": "opchy"
+        },
+        {
+          "stem": "opchy",
+          "role": "Line-1 Headword (opchy)",
+          "herbal_df": 4,
+          "folio": "f106r",
+          "para": "P14",
+          "loc_id": "38",
+          "token": "opchy"
+        },
+        {
+          "stem": "opchor",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f106r",
+          "para": "P8",
+          "loc_id": "22",
+          "token": "opchor"
+        },
+        {
+          "stem": "shkchy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f103r",
+          "para": "P17",
+          "loc_id": "48",
+          "token": "shkchy"
+        }
+      ]
+    },
+    {
+      "folio": "f13v",
+      "language": "A",
+      "hand": "1",
+      "line1_opening_words": [
+        "koair",
+        "chtoiin",
+        "otchy"
+      ],
+      "line1_canonical_stems": [
+        "koair",
+        "chtoin",
+        "otchy"
+      ],
+      "signature_rare_stem_count": 13,
+      "pharma_label_citations": [
+        {
+          "stem": "okos",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f99r",
+          "loc_id": "33",
+          "loc_type": "@Lf",
+          "token": "okos"
+        }
+      ],
+      "pharma_prose_citations": [],
+      "starred_recipe_citations": [
+        {
+          "stem": "okos",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f58v",
+          "para": "P2",
+          "loc_id": "26",
+          "token": "okos"
+        }
+      ]
+    },
+    {
+      "folio": "f25r",
+      "language": "A",
+      "hand": "1",
+      "line1_opening_words": [
+        "fcholdy",
+        "soshy",
+        "daiin"
+      ],
+      "line1_canonical_stems": [
+        "kcholdy",
+        "soshy",
+        "dain"
+      ],
+      "signature_rare_stem_count": 10,
+      "pharma_label_citations": [
+        {
+          "stem": "otair",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f89v2",
+          "loc_id": "12",
+          "loc_type": "@Lf",
+          "token": "otair"
+        }
+      ],
+      "pharma_prose_citations": [],
+      "starred_recipe_citations": [
+        {
+          "stem": "chsky",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f103r",
+          "para": "P13",
+          "loc_id": "37",
+          "token": "chsky"
+        },
+        {
+          "stem": "otair",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f58v",
+          "para": "P4",
+          "loc_id": "37",
+          "token": "otair"
+        },
+        {
+          "stem": "otair",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f104v",
+          "para": "P1",
+          "loc_id": "2",
+          "token": "otair"
+        },
+        {
+          "stem": "otair",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f104v",
+          "para": "P9",
+          "loc_id": "30",
+          "token": "otair"
+        }
+      ]
+    },
+    {
+      "folio": "f26v",
+      "language": "B",
+      "hand": "2",
+      "line1_opening_words": [
+        "pchedar",
+        "qodary",
+        "daiiin"
+      ],
+      "line1_canonical_stems": [
+        "tchedar",
+        "dary",
+        "dain"
+      ],
+      "signature_rare_stem_count": 16,
+      "pharma_label_citations": [
+        {
+          "stem": "dary",
+          "role": "Line-1 Headword (qodary)",
+          "herbal_df": 6,
+          "folio": "f88r",
+          "loc_id": "14",
+          "loc_type": "@Lf",
+          "token": "dary"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "opar",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f99v",
+          "loc_id": "21",
+          "token": "opar"
+        },
+        {
+          "stem": "saldy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f88v",
+          "loc_id": "25",
+          "token": "saldy"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "tchedar",
+          "role": "Line-1 Headword (pchedar)",
+          "herbal_df": 5,
+          "folio": "f104r",
+          "para": "P8",
+          "loc_id": "27",
+          "token": "pchedar"
+        },
+        {
+          "stem": "tchedar",
+          "role": "Line-1 Headword (pchedar)",
+          "herbal_df": 5,
+          "folio": "f104v",
+          "para": "P11",
+          "loc_id": "35",
+          "token": "qotchedar"
+        },
+        {
+          "stem": "tchedar",
+          "role": "Line-1 Headword (pchedar)",
+          "herbal_df": 5,
+          "folio": "f111r",
+          "para": "P4",
+          "loc_id": "44",
+          "token": "pchedar"
+        },
+        {
+          "stem": "dary",
+          "role": "Line-1 Headword (qodary)",
+          "herbal_df": 6,
+          "folio": "f111r",
+          "para": "P2",
+          "loc_id": "6",
+          "token": "dary"
+        },
+        {
+          "stem": "dary",
+          "role": "Line-1 Headword (qodary)",
+          "herbal_df": 6,
+          "folio": "f114r",
+          "para": "P2",
+          "loc_id": "6",
+          "token": "dary"
+        },
+        {
+          "stem": "dary",
+          "role": "Line-1 Headword (qodary)",
+          "herbal_df": 6,
+          "folio": "f114v",
+          "para": "P7",
+          "loc_id": "20",
+          "token": "dary"
+        },
+        {
+          "stem": "tchety",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f108r",
+          "para": "P1",
+          "loc_id": "1",
+          "token": "qopchety"
+        },
+        {
+          "stem": "tchdar",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f104r",
+          "para": "P1",
+          "loc_id": "1",
+          "token": "pchdar"
+        }
+      ]
+    },
+    {
+      "folio": "f27r",
+      "language": "A",
+      "hand": "1",
+      "line1_opening_words": [
+        "ksor",
+        "shey",
+        "shoteo"
+      ],
+      "line1_canonical_stems": [
+        "ksor",
+        "shey",
+        "shoteo"
+      ],
+      "signature_rare_stem_count": 16,
+      "pharma_label_citations": [
+        {
+          "stem": "chols",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f100v",
+          "loc_id": "2",
+          "loc_type": "@Lf",
+          "token": "chols"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "cheokey",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f99r",
+          "loc_id": "43",
+          "token": "cheeokeey"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "chary",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f58r",
+          "para": "P1",
+          "loc_id": "6",
+          "token": "chary"
+        },
+        {
+          "stem": "chary",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f103v",
+          "para": "P13",
+          "loc_id": "46",
+          "token": "chary"
+        },
+        {
+          "stem": "chols",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f115r",
+          "para": "P13",
+          "loc_id": "45",
+          "token": "chols"
+        },
+        {
+          "stem": "shotchey",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f106r",
+          "para": "P14",
+          "loc_id": "38",
+          "token": "shotchey"
+        },
+        {
+          "stem": "cheokey",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f104r",
+          "para": "P6",
+          "loc_id": "19",
+          "token": "cheokeey"
+        },
+        {
+          "stem": "cheokey",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f106r",
+          "para": "P4",
+          "loc_id": "11",
+          "token": "cheokey"
+        },
+        {
+          "stem": "cheokey",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f108r",
+          "para": "P11",
+          "loc_id": "37",
+          "token": "cheokeey"
+        }
+      ]
+    },
+    {
+      "folio": "f28r",
+      "language": "A",
+      "hand": "1",
+      "line1_opening_words": [
+        "pchodar",
+        "shod",
+        "chocphy"
+      ],
+      "line1_canonical_stems": [
+        "tchodar",
+        "shod",
+        "chophy"
+      ],
+      "signature_rare_stem_count": 19,
+      "pharma_label_citations": [
+        {
+          "stem": "otorchy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f99v",
+          "loc_id": "3",
+          "loc_type": "@Lf",
+          "token": "otorchy"
+        },
+        {
+          "stem": "ytchol",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f100v",
+          "loc_id": "11",
+          "loc_type": "@Lf",
+          "token": "ytchol"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "shokhy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f102r2",
+          "loc_id": "10",
+          "token": "shockhy"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "tchodar",
+          "role": "Line-1 Headword (pchodar)",
+          "herbal_df": 2,
+          "folio": "f115r",
+          "para": "P9",
+          "loc_id": "29",
+          "token": "pchodar"
+        },
+        {
+          "stem": "shod",
+          "role": "Line-1 Headword (shod)",
+          "herbal_df": 3,
+          "folio": "f104v",
+          "para": "P1",
+          "loc_id": "3",
+          "token": "shod"
+        },
+        {
+          "stem": "shod",
+          "role": "Line-1 Headword (shod)",
+          "herbal_df": 3,
+          "folio": "f105r",
+          "para": "P4",
+          "loc_id": "15",
+          "token": "shod"
+        },
+        {
+          "stem": "shod",
+          "role": "Line-1 Headword (shod)",
+          "herbal_df": 3,
+          "folio": "f114v",
+          "para": "P2",
+          "loc_id": "7",
+          "token": "shod"
+        },
+        {
+          "stem": "chtol",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f113v",
+          "para": "P7",
+          "loc_id": "21",
+          "token": "chtol"
+        },
+        {
+          "stem": "shokhy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f58v",
+          "para": "P4",
+          "loc_id": "34",
+          "token": "shockhy"
+        },
+        {
+          "stem": "shokhy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f106v",
+          "para": "P12",
+          "loc_id": "35",
+          "token": "shockhy"
+        }
+      ]
+    },
+    {
+      "folio": "f33v",
+      "language": "B",
+      "hand": "2",
+      "line1_opening_words": [
+        "tar",
+        "ar",
+        "daiinydain"
+      ],
+      "line1_canonical_stems": [
+        "tar",
+        "dainydain"
+      ],
+      "signature_rare_stem_count": 30,
+      "pharma_label_citations": [
+        {
+          "stem": "oram",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f88r",
+          "loc_id": "13",
+          "loc_type": "@Lf",
+          "token": "oram"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "ycheo",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f89r1",
+          "loc_id": "22",
+          "token": "ycheeo"
+        },
+        {
+          "stem": "ycheo",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f89r2",
+          "loc_id": "15",
+          "token": "ycheo"
+        },
+        {
+          "stem": "ycheo",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f89v1",
+          "loc_id": "19",
+          "token": "ycheo"
+        },
+        {
+          "stem": "lcho",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f89v2",
+          "loc_id": "10",
+          "token": "lcho"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "tokar",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f107v",
+          "para": "P13",
+          "loc_id": "41",
+          "token": "pokar"
+        },
+        {
+          "stem": "ycheo",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f104v",
+          "para": "P3",
+          "loc_id": "9",
+          "token": "ycheo"
+        },
+        {
+          "stem": "ycheo",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f104v",
+          "para": "P10",
+          "loc_id": "34",
+          "token": "ycheo"
+        },
+        {
+          "stem": "ycheo",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f105r",
+          "para": "P5",
+          "loc_id": "21",
+          "token": "ycheo"
+        },
+        {
+          "stem": "oltedy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f104v",
+          "para": "P4",
+          "loc_id": "12",
+          "token": "oltedy"
+        },
+        {
+          "stem": "oltedy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f106r",
+          "para": "P11",
+          "loc_id": "32",
+          "token": "olteeedy"
+        },
+        {
+          "stem": "oltedy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f115r",
+          "para": "P5",
+          "loc_id": "16",
+          "token": "oltedy"
+        },
+        {
+          "stem": "shkair",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f113r",
+          "para": "P12",
+          "loc_id": "34",
+          "token": "shkair"
+        }
+      ]
+    },
+    {
+      "folio": "f34r",
+      "language": "B",
+      "hand": "2",
+      "line1_opening_words": [
+        "pcheoepchy",
+        "olar",
+        "ylyfody"
+      ],
+      "line1_canonical_stems": [
+        "tcheoepchy",
+        "olar",
+        "ylyfody"
+      ],
+      "signature_rare_stem_count": 33,
+      "pharma_label_citations": [
+        {
+          "stem": "ykchdy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f100v",
+          "loc_id": "7",
+          "loc_type": "@Lf",
+          "token": "ykchdy"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "dody",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f102r2",
+          "loc_id": "16",
+          "token": "dody"
+        },
+        {
+          "stem": "ykchdy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f89r1",
+          "loc_id": "21",
+          "token": "ykchdy"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "olar",
+          "role": "Line-1 Headword (olar)",
+          "herbal_df": 2,
+          "folio": "f58r",
+          "para": "P2",
+          "loc_id": "17",
+          "token": "olar"
+        },
+        {
+          "stem": "olar",
+          "role": "Line-1 Headword (olar)",
+          "herbal_df": 2,
+          "folio": "f58v",
+          "para": "P4",
+          "loc_id": "35",
+          "token": "olar"
+        },
+        {
+          "stem": "olar",
+          "role": "Line-1 Headword (olar)",
+          "herbal_df": 2,
+          "folio": "f105v",
+          "para": "P1",
+          "loc_id": "4",
+          "token": "olar"
+        },
+        {
+          "stem": "dody",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f112r",
+          "para": "P1",
+          "loc_id": "8",
+          "token": "dody"
+        },
+        {
+          "stem": "dody",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f114r",
+          "para": "P3",
+          "loc_id": "9",
+          "token": "dody"
+        },
+        {
+          "stem": "chetey",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f103r",
+          "para": "P17",
+          "loc_id": "51",
+          "token": "cheteey"
+        },
+        {
+          "stem": "chetey",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f112r",
+          "para": "P5",
+          "loc_id": "24",
+          "token": "cheeteey"
+        },
+        {
+          "stem": "chetey",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f116r",
+          "para": "P6",
+          "loc_id": "23",
+          "token": "cheeteey"
+        }
+      ]
+    },
+    {
+      "folio": "f37r",
+      "language": "A",
+      "hand": "1",
+      "line1_opening_words": [
+        "tocphol",
+        "shaiin",
+        "qotor"
+      ],
+      "line1_canonical_stems": [
+        "tophol",
+        "shain",
+        "tor"
+      ],
+      "signature_rare_stem_count": 17,
+      "pharma_label_citations": [
+        {
+          "stem": "otoly",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f101v",
+          "loc_id": "8",
+          "loc_type": "@Lf",
+          "token": "otoly"
+        }
+      ],
+      "pharma_prose_citations": [],
+      "starred_recipe_citations": [
+        {
+          "stem": "chkol",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f115v",
+          "para": "P4",
+          "loc_id": "11",
+          "token": "chkol"
+        },
+        {
+          "stem": "otoly",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f104r",
+          "para": "P3",
+          "loc_id": "11",
+          "token": "otoly"
+        }
+      ]
+    },
+    {
+      "folio": "f39v",
+      "language": "B",
+      "hand": "2",
+      "line1_opening_words": [
+        "pdair",
+        "chdy",
+        "fdykain"
+      ],
+      "line1_canonical_stems": [
+        "tdair",
+        "chdy",
+        "kdykain"
+      ],
+      "signature_rare_stem_count": 25,
+      "pharma_label_citations": [
+        {
+          "stem": "okody",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f102v2",
+          "loc_id": "10",
+          "loc_type": "@Lf",
+          "token": "okody"
+        },
+        {
+          "stem": "sarol",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f102v2",
+          "loc_id": "14",
+          "loc_type": "@Lf",
+          "token": "sarol"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "ytodain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f89v2",
+          "loc_id": "15",
+          "token": "ytodaiin"
+        },
+        {
+          "stem": "okody",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f101v",
+          "loc_id": "20",
+          "token": "okody"
+        },
+        {
+          "stem": "okody",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f102r2",
+          "loc_id": "6",
+          "token": "okody"
+        },
+        {
+          "stem": "okody",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f102v1",
+          "loc_id": "21",
+          "token": "okody"
+        },
+        {
+          "stem": "cheodal",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f89r2",
+          "loc_id": "6",
+          "token": "cheodal"
+        },
+        {
+          "stem": "cheodal",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f89r2",
+          "loc_id": "7",
+          "token": "cheodal"
+        },
+        {
+          "stem": "cheodal",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f99r",
+          "loc_id": "48",
+          "token": "cheodal"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "sheykain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f103v",
+          "para": "P12",
+          "loc_id": "42",
+          "token": "sheykain"
+        },
+        {
+          "stem": "olkedain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f112v",
+          "para": "P3",
+          "loc_id": "12",
+          "token": "olkeedain"
+        },
+        {
+          "stem": "okai",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f115v",
+          "para": "P5",
+          "loc_id": "17",
+          "token": "okai"
+        },
+        {
+          "stem": "sarol",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f112r",
+          "para": "P7",
+          "loc_id": "33",
+          "token": "sarol"
+        },
+        {
+          "stem": "alain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f58r",
+          "para": "P2",
+          "loc_id": "20",
+          "token": "alaiin"
+        },
+        {
+          "stem": "alain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f107r",
+          "para": "P14",
+          "loc_id": "49",
+          "token": "alain"
+        },
+        {
+          "stem": "alain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f112r",
+          "para": "P10",
+          "loc_id": "41",
+          "token": "alain"
+        },
+        {
+          "stem": "cheodal",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f104r",
+          "para": "P11",
+          "loc_id": "37",
+          "token": "cheodal"
+        }
+      ]
+    },
+    {
+      "folio": "f40v",
+      "language": "B",
+      "hand": "2",
+      "line1_opening_words": [
+        "pchedain",
+        "chefaiin",
+        "oldy"
+      ],
+      "line1_canonical_stems": [
+        "tchedain",
+        "chefain",
+        "oldy"
+      ],
+      "signature_rare_stem_count": 23,
+      "pharma_label_citations": [
+        {
+          "stem": "oldy",
+          "role": "Line-1 Headword (oldy)",
+          "herbal_df": 4,
+          "folio": "f99v",
+          "loc_id": "4",
+          "loc_type": "@Lf",
+          "token": "oldy"
+        },
+        {
+          "stem": "arody",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f88v",
+          "loc_id": "4",
+          "loc_type": "@Lf",
+          "token": "arody"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "oldy",
+          "role": "Line-1 Headword (oldy)",
+          "herbal_df": 4,
+          "folio": "f88r",
+          "loc_id": "18",
+          "token": "oldy"
+        },
+        {
+          "stem": "oldy",
+          "role": "Line-1 Headword (oldy)",
+          "herbal_df": 4,
+          "folio": "f89r2",
+          "loc_id": "22",
+          "token": "oldy"
+        },
+        {
+          "stem": "oldy",
+          "role": "Line-1 Headword (oldy)",
+          "herbal_df": 4,
+          "folio": "f99r",
+          "loc_id": "43",
+          "token": "oldy"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "tchedain",
+          "role": "Line-1 Headword (pchedain)",
+          "herbal_df": 2,
+          "folio": "f105v",
+          "para": "P4",
+          "loc_id": "14",
+          "token": "pchedaiin"
+        },
+        {
+          "stem": "tchedain",
+          "role": "Line-1 Headword (pchedain)",
+          "herbal_df": 2,
+          "folio": "f108v",
+          "para": "P3",
+          "loc_id": "7",
+          "token": "pchedaiin"
+        },
+        {
+          "stem": "tchedain",
+          "role": "Line-1 Headword (pchedain)",
+          "herbal_df": 2,
+          "folio": "f111v",
+          "para": "P7",
+          "loc_id": "45",
+          "token": "pchedain"
+        },
+        {
+          "stem": "oldy",
+          "role": "Line-1 Headword (oldy)",
+          "herbal_df": 4,
+          "folio": "f107v",
+          "para": "P8",
+          "loc_id": "26",
+          "token": "oldy"
+        },
+        {
+          "stem": "oldy",
+          "role": "Line-1 Headword (oldy)",
+          "herbal_df": 4,
+          "folio": "f108v",
+          "para": "P7",
+          "loc_id": "33",
+          "token": "oldy"
+        },
+        {
+          "stem": "tarain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f104r",
+          "para": "P8",
+          "loc_id": "27",
+          "token": "qoparaiin"
+        },
+        {
+          "stem": "tarain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f106r",
+          "para": "P12",
+          "loc_id": "34",
+          "token": "qotarain"
+        },
+        {
+          "stem": "tarain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f107v",
+          "para": "P8",
+          "loc_id": "27",
+          "token": "taraiin"
+        }
+      ]
+    },
+    {
+      "folio": "f42v",
+      "language": "A",
+      "hand": "1",
+      "line1_opening_words": [
+        "cho",
+        "sheey",
+        "qocho"
+      ],
+      "line1_canonical_stems": [
+        "cho",
+        "shey",
+        "cho"
+      ],
+      "signature_rare_stem_count": 28,
+      "pharma_label_citations": [
+        {
+          "stem": "chtchy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f89v2",
+          "loc_id": "25",
+          "loc_type": "@Lf",
+          "token": "chtchy"
+        },
+        {
+          "stem": "otoy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f89v1",
+          "loc_id": "2",
+          "loc_type": "@Lf",
+          "token": "otoy"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "teor",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f102v1",
+          "loc_id": "9",
+          "token": "qoteor"
+        },
+        {
+          "stem": "aral",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f102r1",
+          "loc_id": "16",
+          "token": "aral"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "chtchy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f105v",
+          "para": "P4",
+          "loc_id": "14",
+          "token": "chtchy"
+        },
+        {
+          "stem": "otoy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f103r",
+          "para": "P3",
+          "loc_id": "11",
+          "token": "otoy"
+        },
+        {
+          "stem": "chetain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f111v",
+          "para": "P1",
+          "loc_id": "22",
+          "token": "chetain"
+        },
+        {
+          "stem": "chetain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f112v",
+          "para": "P5",
+          "loc_id": "22",
+          "token": "chetain"
+        },
+        {
+          "stem": "chetain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f114v",
+          "para": "P10",
+          "loc_id": "32",
+          "token": "chetaiin"
+        },
+        {
+          "stem": "sodal",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f116r",
+          "para": "P8",
+          "loc_id": "50",
+          "token": "sodal"
+        },
+        {
+          "stem": "teor",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f103v",
+          "para": "P1",
+          "loc_id": "2",
+          "token": "qoteor"
+        },
+        {
+          "stem": "teor",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f103v",
+          "para": "P7",
+          "loc_id": "21",
+          "token": "teor"
+        }
+      ]
+    },
+    {
+      "folio": "f43v",
+      "language": "B",
+      "hand": "2",
+      "line1_opening_words": [
+        "pdsairy",
+        "dalteoshy",
+        "doly"
+      ],
+      "line1_canonical_stems": [
+        "tdsairy",
+        "dalteoshy",
+        "doly"
+      ],
+      "signature_rare_stem_count": 46,
+      "pharma_label_citations": [
+        {
+          "stem": "doly",
+          "role": "Line-1 Headword (doly)",
+          "herbal_df": 1,
+          "folio": "f89r2",
+          "loc_id": "2",
+          "loc_type": "@Lf",
+          "token": "doly"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "doly",
+          "role": "Line-1 Headword (doly)",
+          "herbal_df": 1,
+          "folio": "f102r1",
+          "loc_id": "8",
+          "token": "doly"
+        },
+        {
+          "stem": "lkeo",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f88v",
+          "loc_id": "6",
+          "token": "lkeo"
+        },
+        {
+          "stem": "chepy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f89r1",
+          "loc_id": "6",
+          "token": "chepy"
+        },
+        {
+          "stem": "khedy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f89r1",
+          "loc_id": "22",
+          "token": "qockhedy"
+        },
+        {
+          "stem": "oteod",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f101r",
+          "loc_id": "5",
+          "token": "oteeod"
+        },
+        {
+          "stem": "oteod",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f102r2",
+          "loc_id": "6",
+          "token": "oteod"
+        },
+        {
+          "stem": "oteos",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f89r1",
+          "loc_id": "23",
+          "token": "oteos"
+        },
+        {
+          "stem": "oteos",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f89r2",
+          "loc_id": "24",
+          "token": "oteos"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "arodl",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f107r",
+          "para": "P12",
+          "loc_id": "42",
+          "token": "arodl"
+        },
+        {
+          "stem": "lkeo",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f106r",
+          "para": "P2",
+          "loc_id": "5",
+          "token": "lkeo"
+        },
+        {
+          "stem": "lkeo",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f107v",
+          "para": "P13",
+          "loc_id": "41",
+          "token": "lkeeo"
+        },
+        {
+          "stem": "lkeo",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f113r",
+          "para": "P6",
+          "loc_id": "18",
+          "token": "lkeeo"
+        },
+        {
+          "stem": "arain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f103v",
+          "para": "P8",
+          "loc_id": "29",
+          "token": "araiin"
+        },
+        {
+          "stem": "arain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f105v",
+          "para": "P3",
+          "loc_id": "8",
+          "token": "araiin"
+        },
+        {
+          "stem": "arain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f108v",
+          "para": "P1",
+          "loc_id": "2",
+          "token": "araiin"
+        },
+        {
+          "stem": "othy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f104r",
+          "para": "P4",
+          "loc_id": "12",
+          "token": "octhy"
+        }
+      ]
+    },
+    {
+      "folio": "f45r",
+      "language": "A",
+      "hand": "1",
+      "line1_opening_words": [
+        "pykydal",
+        "shay",
+        "oty"
+      ],
+      "line1_canonical_stems": [
+        "tykydal",
+        "shay",
+        "oty"
+      ],
+      "signature_rare_stem_count": 14,
+      "pharma_label_citations": [
+        {
+          "stem": "otchar",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f89v1",
+          "loc_id": "3",
+          "loc_type": "@Lf",
+          "token": "otchar"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "daldain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f89r1",
+          "loc_id": "7",
+          "token": "daldaiin"
+        },
+        {
+          "stem": "daldain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f89v2",
+          "loc_id": "19",
+          "token": "daldaiin"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "shay",
+          "role": "Line-1 Headword (shay)",
+          "herbal_df": 1,
+          "folio": "f103v",
+          "para": "P7",
+          "loc_id": "20",
+          "token": "shay"
+        },
+        {
+          "stem": "shay",
+          "role": "Line-1 Headword (shay)",
+          "herbal_df": 1,
+          "folio": "f103v",
+          "para": "P7",
+          "loc_id": "21",
+          "token": "shay"
+        },
+        {
+          "stem": "opchal",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f58v",
+          "para": "P4",
+          "loc_id": "34",
+          "token": "opchal"
+        },
+        {
+          "stem": "opchal",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f107r",
+          "para": "P4",
+          "loc_id": "13",
+          "token": "opchal"
+        },
+        {
+          "stem": "otchar",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f113v",
+          "para": "P6",
+          "loc_id": "20",
+          "token": "otchar"
+        },
+        {
+          "stem": "ytchody",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f58r",
+          "para": "P2",
+          "loc_id": "17",
+          "token": "ytchody"
+        },
+        {
+          "stem": "lchar",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f111v",
+          "para": "P7",
+          "loc_id": "47",
+          "token": "lchar"
+        }
+      ]
+    },
+    {
+      "folio": "f46r",
+      "language": "B",
+      "hand": "2",
+      "line1_opening_words": [
+        "pcheocphy",
+        "qotedy",
+        "chety"
+      ],
+      "line1_canonical_stems": [
+        "tcheophy",
+        "tedy",
+        "chety"
+      ],
+      "signature_rare_stem_count": 35,
+      "pharma_label_citations": [
+        {
+          "stem": "osain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f102v2",
+          "loc_id": "25",
+          "loc_type": "@Lf",
+          "token": "osain"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "dsheol",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f88r",
+          "loc_id": "20",
+          "token": "dsheol"
+        },
+        {
+          "stem": "dsheol",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f99r",
+          "loc_id": "29",
+          "token": "dsheol"
+        },
+        {
+          "stem": "olair",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f99r",
+          "loc_id": "49",
+          "token": "olaiir"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "chety",
+          "role": "Line-1 Headword (chety)",
+          "herbal_df": 10,
+          "folio": "f103r",
+          "para": "P3",
+          "loc_id": "10",
+          "token": "chety"
+        },
+        {
+          "stem": "chety",
+          "role": "Line-1 Headword (chety)",
+          "herbal_df": 10,
+          "folio": "f112r",
+          "para": "P5",
+          "loc_id": "25",
+          "token": "cheety"
+        },
+        {
+          "stem": "chety",
+          "role": "Line-1 Headword (chety)",
+          "herbal_df": 10,
+          "folio": "f115r",
+          "para": "P9",
+          "loc_id": "32",
+          "token": "chety"
+        },
+        {
+          "stem": "osain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f103v",
+          "para": "P13",
+          "loc_id": "46",
+          "token": "osaiin"
+        },
+        {
+          "stem": "osain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f106v",
+          "para": "P7",
+          "loc_id": "21",
+          "token": "osaiin"
+        },
+        {
+          "stem": "osain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f113r",
+          "para": "P2",
+          "loc_id": "5",
+          "token": "osaiin"
+        },
+        {
+          "stem": "shekhy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f103r",
+          "para": "P7",
+          "loc_id": "23",
+          "token": "sheckhy"
+        },
+        {
+          "stem": "shekhy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f103r",
+          "para": "P10",
+          "loc_id": "30",
+          "token": "sheckhy"
+        }
+      ]
+    },
+    {
+      "folio": "f46v",
+      "language": "B",
+      "hand": "2",
+      "line1_opening_words": [
+        "pody",
+        "lshed",
+        "ypdy"
+      ],
+      "line1_canonical_stems": [
+        "tody",
+        "lshed",
+        "ypdy"
+      ],
+      "signature_rare_stem_count": 24,
+      "pharma_label_citations": [
+        {
+          "stem": "ykchdy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f100v",
+          "loc_id": "7",
+          "loc_type": "@Lf",
+          "token": "ykchdy"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "tody",
+          "role": "Line-1 Headword (pody)",
+          "herbal_df": 9,
+          "folio": "f88v",
+          "loc_id": "15",
+          "token": "qotody"
+        },
+        {
+          "stem": "tody",
+          "role": "Line-1 Headword (pody)",
+          "herbal_df": 9,
+          "folio": "f88v",
+          "loc_id": "18",
+          "token": "qotody"
+        },
+        {
+          "stem": "tody",
+          "role": "Line-1 Headword (pody)",
+          "herbal_df": 9,
+          "folio": "f102v2",
+          "loc_id": "20",
+          "token": "tody"
+        },
+        {
+          "stem": "ykchdy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f89r1",
+          "loc_id": "21",
+          "token": "ykchdy"
+        },
+        {
+          "stem": "saim",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f102v1",
+          "loc_id": "13",
+          "token": "saiim"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "tody",
+          "role": "Line-1 Headword (pody)",
+          "herbal_df": 9,
+          "folio": "f107v",
+          "para": "P8",
+          "loc_id": "25",
+          "token": "tody"
+        },
+        {
+          "stem": "tody",
+          "role": "Line-1 Headword (pody)",
+          "herbal_df": 9,
+          "folio": "f113r",
+          "para": "P16",
+          "loc_id": "45",
+          "token": "qotody"
+        },
+        {
+          "stem": "tody",
+          "role": "Line-1 Headword (pody)",
+          "herbal_df": 9,
+          "folio": "f113v",
+          "para": "P8",
+          "loc_id": "26",
+          "token": "qotody"
+        },
+        {
+          "stem": "ykchdy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f104r",
+          "para": "P13",
+          "loc_id": "43",
+          "token": "ykchdy"
+        },
+        {
+          "stem": "okaly",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f58r",
+          "para": "P3",
+          "loc_id": "38",
+          "token": "okaly"
+        },
+        {
+          "stem": "okaly",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f58v",
+          "para": "P1",
+          "loc_id": "5",
+          "token": "okaly"
+        },
+        {
+          "stem": "okaly",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f58v",
+          "para": "P1",
+          "loc_id": "6",
+          "token": "okaly"
+        },
+        {
+          "stem": "chotal",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f106v",
+          "para": "P5",
+          "loc_id": "16",
+          "token": "chotal"
+        }
+      ]
+    },
+    {
+      "folio": "f47r",
+      "language": "A",
+      "hand": "1",
+      "line1_opening_words": [
+        "chair",
+        "oly",
+        "sheaiin"
+      ],
+      "line1_canonical_stems": [
+        "chair",
+        "oly",
+        "sheain"
+      ],
+      "signature_rare_stem_count": 13,
+      "pharma_label_citations": [
+        {
+          "stem": "chtchy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f89v2",
+          "loc_id": "25",
+          "loc_type": "@Lf",
+          "token": "chtchy"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "oly",
+          "role": "Line-1 Headword (oly)",
+          "herbal_df": 7,
+          "folio": "f102r1",
+          "loc_id": "17",
+          "token": "oly"
+        },
+        {
+          "stem": "shokey",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f99v",
+          "loc_id": "24",
+          "token": "shokeeey"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "oly",
+          "role": "Line-1 Headword (oly)",
+          "herbal_df": 7,
+          "folio": "f58r",
+          "para": "P1",
+          "loc_id": "13",
+          "token": "oly"
+        },
+        {
+          "stem": "oly",
+          "role": "Line-1 Headword (oly)",
+          "herbal_df": 7,
+          "folio": "f58r",
+          "para": "P1",
+          "loc_id": "14",
+          "token": "oly"
+        },
+        {
+          "stem": "oly",
+          "role": "Line-1 Headword (oly)",
+          "herbal_df": 7,
+          "folio": "f103v",
+          "para": "P2",
+          "loc_id": "5",
+          "token": "oly"
+        },
+        {
+          "stem": "sheain",
+          "role": "Line-1 Headword (sheaiin)",
+          "herbal_df": 8,
+          "folio": "f58r",
+          "para": "P2",
+          "loc_id": "21",
+          "token": "sheain"
+        },
+        {
+          "stem": "sheain",
+          "role": "Line-1 Headword (sheaiin)",
+          "herbal_df": 8,
+          "folio": "f108v",
+          "para": "P7",
+          "loc_id": "46",
+          "token": "sheeain"
+        },
+        {
+          "stem": "sheain",
+          "role": "Line-1 Headword (sheaiin)",
+          "herbal_df": 8,
+          "folio": "f111v",
+          "para": "P1",
+          "loc_id": "13",
+          "token": "sheaiin"
+        },
+        {
+          "stem": "kcheo",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f107r",
+          "para": "P10",
+          "loc_id": "36",
+          "token": "kcheo"
+        },
+        {
+          "stem": "kcheo",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f111v",
+          "para": "P1",
+          "loc_id": "7",
+          "token": "fcheeo"
+        }
+      ]
+    },
+    {
+      "folio": "f48v",
+      "language": "B",
+      "hand": "5",
+      "line1_opening_words": [
+        "pcheodchy",
+        "dshedy",
+        "fchedy"
+      ],
+      "line1_canonical_stems": [
+        "tcheodchy",
+        "dshedy",
+        "kchedy"
+      ],
+      "signature_rare_stem_count": 36,
+      "pharma_label_citations": [
+        {
+          "stem": "sary",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f99v",
+          "loc_id": "17",
+          "loc_type": "@Lf",
+          "token": "sary"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "otes",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f89v2",
+          "loc_id": "8",
+          "token": "otees"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "dshedy",
+          "role": "Line-1 Headword (dshedy)",
+          "herbal_df": 8,
+          "folio": "f104r",
+          "para": "P6",
+          "loc_id": "21",
+          "token": "dsheedy"
+        },
+        {
+          "stem": "dshedy",
+          "role": "Line-1 Headword (dshedy)",
+          "herbal_df": 8,
+          "folio": "f105v",
+          "para": "P1",
+          "loc_id": "3",
+          "token": "dshedy"
+        },
+        {
+          "stem": "dshedy",
+          "role": "Line-1 Headword (dshedy)",
+          "herbal_df": 8,
+          "folio": "f106r",
+          "para": "P15",
+          "loc_id": "44",
+          "token": "dshedy"
+        },
+        {
+          "stem": "kchedy",
+          "role": "Line-1 Headword (fchedy)",
+          "herbal_df": 10,
+          "folio": "f58v",
+          "para": "P2",
+          "loc_id": "27",
+          "token": "qokchedy"
+        },
+        {
+          "stem": "kchedy",
+          "role": "Line-1 Headword (fchedy)",
+          "herbal_df": 10,
+          "folio": "f103v",
+          "para": "P9",
+          "loc_id": "30",
+          "token": "fchedy"
+        },
+        {
+          "stem": "kchedy",
+          "role": "Line-1 Headword (fchedy)",
+          "herbal_df": 10,
+          "folio": "f104r",
+          "para": "P7",
+          "loc_id": "22",
+          "token": "kchedy"
+        },
+        {
+          "stem": "ypair",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f105r",
+          "para": "P5",
+          "loc_id": "22",
+          "token": "ypair"
+        },
+        {
+          "stem": "alchey",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f58r",
+          "para": "P3",
+          "loc_id": "41",
+          "token": "alchey"
+        }
+      ]
+    },
+    {
+      "folio": "f49r",
+      "language": "A",
+      "hand": "1",
+      "line1_opening_words": [
+        "pychol",
+        "dy",
+        "shor"
+      ],
+      "line1_canonical_stems": [
+        "tychol",
+        "shor"
+      ],
+      "signature_rare_stem_count": 26,
+      "pharma_label_citations": [
+        {
+          "stem": "opchor",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f100v",
+          "loc_id": "3",
+          "loc_type": "@Lf",
+          "token": "opchor"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "choldain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f100r",
+          "loc_id": "22",
+          "token": "choldaiin"
+        },
+        {
+          "stem": "dcheo",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f89v1",
+          "loc_id": "15",
+          "token": "dcheo"
+        },
+        {
+          "stem": "dcheo",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f102r1",
+          "loc_id": "11",
+          "token": "dcheo"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "shtchy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f106v",
+          "para": "P3",
+          "loc_id": "9",
+          "token": "shtchy"
+        },
+        {
+          "stem": "opchor",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f106r",
+          "para": "P8",
+          "loc_id": "22",
+          "token": "opchor"
+        },
+        {
+          "stem": "cheorain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f104v",
+          "para": "P9",
+          "loc_id": "31",
+          "token": "cheoraiin"
+        },
+        {
+          "stem": "dcheo",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f105v",
+          "para": "P2",
+          "loc_id": "6",
+          "token": "dcheo"
+        },
+        {
+          "stem": "dcheo",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f115r",
+          "para": "P13",
+          "loc_id": "43",
+          "token": "dcheo"
+        },
+        {
+          "stem": "keolchey",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f108v",
+          "para": "P7",
+          "loc_id": "51",
+          "token": "qokeeolchey"
+        },
+        {
+          "stem": "chods",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f105v",
+          "para": "P7",
+          "loc_id": "23",
+          "token": "chods"
+        }
+      ]
+    },
+    {
+      "folio": "f52r",
+      "language": "A",
+      "hand": "1",
+      "line1_opening_words": [
+        "tdokchcfhy",
+        "ycphko",
+        "ytair"
+      ],
+      "line1_canonical_stems": [
+        "tdokchfhy",
+        "yphko",
+        "ytair"
+      ],
+      "signature_rare_stem_count": 21,
+      "pharma_label_citations": [
+        {
+          "stem": "chokam",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f89v2",
+          "loc_id": "6",
+          "loc_type": "@Lf",
+          "token": "chokam"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "koldal",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f89v1",
+          "loc_id": "5",
+          "token": "koldal"
+        },
+        {
+          "stem": "otes",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f89v2",
+          "loc_id": "8",
+          "token": "otees"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "otes",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f111r",
+          "para": "P2",
+          "loc_id": "17",
+          "token": "otes"
+        },
+        {
+          "stem": "otes",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f113v",
+          "para": "P2",
+          "loc_id": "5",
+          "token": "otees"
+        },
+        {
+          "stem": "otes",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f114r",
+          "para": "P12",
+          "loc_id": "40",
+          "token": "otees"
+        },
+        {
+          "stem": "shedain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f103r",
+          "para": "P12",
+          "loc_id": "35",
+          "token": "shedain"
+        },
+        {
+          "stem": "shedain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f104r",
+          "para": "P1",
+          "loc_id": "1",
+          "token": "shedaiin"
+        },
+        {
+          "stem": "shedain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f108r",
+          "para": "P12",
+          "loc_id": "41",
+          "token": "sheedain"
+        },
+        {
+          "stem": "chokam",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f113v",
+          "para": "P3",
+          "loc_id": "8",
+          "token": "chokam"
+        },
+        {
+          "stem": "tcham",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f115v",
+          "para": "P8",
+          "loc_id": "24",
+          "token": "qopcham"
+        }
+      ]
+    },
+    {
+      "folio": "f53r",
+      "language": "A",
+      "hand": "1",
+      "line1_opening_words": [
+        "kodam",
+        "chocthody",
+        "oty"
+      ],
+      "line1_canonical_stems": [
+        "kodam",
+        "chothody",
+        "oty"
+      ],
+      "signature_rare_stem_count": 21,
+      "pharma_label_citations": [
+        {
+          "stem": "sodar",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f89r2",
+          "loc_id": "17",
+          "loc_type": "@Lf",
+          "token": "sodar"
+        },
+        {
+          "stem": "orol",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f100r",
+          "loc_id": "18",
+          "loc_type": "@Lf",
+          "token": "orol"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "ykeod",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f101v",
+          "loc_id": "20",
+          "token": "qykeod"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "otos",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f106v",
+          "para": "P12",
+          "loc_id": "34",
+          "token": "otos"
+        },
+        {
+          "stem": "thes",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f113r",
+          "para": "P14",
+          "loc_id": "40",
+          "token": "cthes"
+        },
+        {
+          "stem": "orol",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f103r",
+          "para": "P1",
+          "loc_id": "3",
+          "token": "orol"
+        },
+        {
+          "stem": "orol",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f107r",
+          "para": "P8",
+          "loc_id": "27",
+          "token": "orol"
+        }
+      ]
+    },
+    {
+      "folio": "f55r",
+      "language": "B",
+      "hand": "2",
+      "line1_opening_words": [
+        "podaiin",
+        "shekchy",
+        "qofair"
+      ],
+      "line1_canonical_stems": [
+        "todain",
+        "shekchy",
+        "kair"
+      ],
+      "signature_rare_stem_count": 19,
+      "pharma_label_citations": [
+        {
+          "stem": "orol",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f100r",
+          "loc_id": "18",
+          "loc_type": "@Lf",
+          "token": "orol"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "kair",
+          "role": "Line-1 Headword (qofair)",
+          "herbal_df": 5,
+          "folio": "f89r1",
+          "loc_id": "19",
+          "token": "qokair"
+        },
+        {
+          "stem": "kshdy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f102r1",
+          "loc_id": "9",
+          "token": "qokshdy"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "shekchy",
+          "role": "Line-1 Headword (shekchy)",
+          "herbal_df": 2,
+          "folio": "f103v",
+          "para": "P5",
+          "loc_id": "16",
+          "token": "sheekchy"
+        },
+        {
+          "stem": "shekchy",
+          "role": "Line-1 Headword (shekchy)",
+          "herbal_df": 2,
+          "folio": "f116r",
+          "para": "P6",
+          "loc_id": "22",
+          "token": "shekchy"
+        },
+        {
+          "stem": "kair",
+          "role": "Line-1 Headword (qofair)",
+          "herbal_df": 5,
+          "folio": "f58v",
+          "para": "P1",
+          "loc_id": "5",
+          "token": "faiir"
+        },
+        {
+          "stem": "kair",
+          "role": "Line-1 Headword (qofair)",
+          "herbal_df": 5,
+          "folio": "f58v",
+          "para": "P1",
+          "loc_id": "6",
+          "token": "qokair"
+        },
+        {
+          "stem": "kair",
+          "role": "Line-1 Headword (qofair)",
+          "herbal_df": 5,
+          "folio": "f58v",
+          "para": "P1",
+          "loc_id": "8",
+          "token": "qokair"
+        },
+        {
+          "stem": "orol",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f103r",
+          "para": "P1",
+          "loc_id": "3",
+          "token": "orol"
+        },
+        {
+          "stem": "orol",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f107r",
+          "para": "P8",
+          "loc_id": "27",
+          "token": "orol"
+        },
+        {
+          "stem": "okchd",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f105v",
+          "para": "P9",
+          "loc_id": "31",
+          "token": "okchd"
+        }
+      ]
+    },
+    {
+      "folio": "f55v",
+      "language": "B",
+      "hand": "2",
+      "line1_opening_words": [
+        "kcheedchdy",
+        "oedain",
+        "chckhyotoldaiin"
+      ],
+      "line1_canonical_stems": [
+        "kchedchdy",
+        "oedain",
+        "chkhyotoldain"
+      ],
+      "signature_rare_stem_count": 29,
+      "pharma_label_citations": [
+        {
+          "stem": "oror",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f102v2",
+          "loc_id": "3",
+          "loc_type": "@Lf",
+          "token": "oror"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "sheokey",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f101r",
+          "loc_id": "6",
+          "token": "sheokeey"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "oedain",
+          "role": "Line-1 Headword (oedain)",
+          "herbal_df": 1,
+          "folio": "f104v",
+          "para": "P1",
+          "loc_id": "3",
+          "token": "oeedaiin"
+        },
+        {
+          "stem": "oedain",
+          "role": "Line-1 Headword (oedain)",
+          "herbal_df": 1,
+          "folio": "f108v",
+          "para": "P2",
+          "loc_id": "6",
+          "token": "oeeedain"
+        },
+        {
+          "stem": "oedain",
+          "role": "Line-1 Headword (oedain)",
+          "herbal_df": 1,
+          "folio": "f114r",
+          "para": "P9",
+          "loc_id": "30",
+          "token": "oeedaiin"
+        },
+        {
+          "stem": "okchd",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f105v",
+          "para": "P9",
+          "loc_id": "31",
+          "token": "okchd"
+        },
+        {
+          "stem": "okchd",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f108r",
+          "para": "P9",
+          "loc_id": "33",
+          "token": "okchd"
+        },
+        {
+          "stem": "okchd",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f112r",
+          "para": "P5",
+          "loc_id": "25",
+          "token": "okchd"
+        },
+        {
+          "stem": "tchal",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f103v",
+          "para": "P3",
+          "loc_id": "9",
+          "token": "pchal"
+        },
+        {
+          "stem": "tchal",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f111r",
+          "para": "P3",
+          "loc_id": "36",
+          "token": "pchal"
+        }
+      ]
+    },
+    {
+      "folio": "f57r",
+      "language": "B",
+      "hand": "5",
+      "line1_opening_words": [
+        "poeeockhey",
+        "odain",
+        "cheop"
+      ],
+      "line1_canonical_stems": [
+        "toeokhey",
+        "odain",
+        "cheop"
+      ],
+      "signature_rare_stem_count": 30,
+      "pharma_label_citations": [
+        {
+          "stem": "cheothy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f88v",
+          "loc_id": "2",
+          "loc_type": "@Lf",
+          "token": "cheocthy"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "cheotey",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f88r",
+          "loc_id": "30",
+          "token": "cheotey"
+        },
+        {
+          "stem": "othody",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f89v1",
+          "loc_id": "5",
+          "token": "octhody"
+        },
+        {
+          "stem": "etchey",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f101v",
+          "loc_id": "28",
+          "token": "etchey"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "cheop",
+          "role": "Line-1 Headword (cheop)",
+          "herbal_df": 1,
+          "folio": "f115r",
+          "para": "P1",
+          "loc_id": "1",
+          "token": "cheop"
+        },
+        {
+          "stem": "dchos",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f113r",
+          "para": "P3",
+          "loc_id": "9",
+          "token": "dchos"
+        },
+        {
+          "stem": "cheothy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f115r",
+          "para": "P5",
+          "loc_id": "16",
+          "token": "cheocthy"
+        },
+        {
+          "stem": "cheothy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f115r",
+          "para": "P5",
+          "loc_id": "17",
+          "token": "cheocthy"
+        },
+        {
+          "stem": "tcheodal",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f114v",
+          "para": "P9",
+          "loc_id": "26",
+          "token": "pcheodal"
+        },
+        {
+          "stem": "kedain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f104v",
+          "para": "P7",
+          "loc_id": "25",
+          "token": "qokedaiin"
+        },
+        {
+          "stem": "kedain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f106r",
+          "para": "P6",
+          "loc_id": "17",
+          "token": "qokedain"
+        },
+        {
+          "stem": "kedain",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f108v",
+          "para": "P7",
+          "loc_id": "31",
+          "token": "qokedain"
+        }
+      ]
+    },
+    {
+      "folio": "f90r1",
+      "language": "A",
+      "hand": "1",
+      "line1_opening_words": [
+        "poleeol",
+        "qokeol",
+        "qokchod"
+      ],
+      "line1_canonical_stems": [
+        "toleol",
+        "keol",
+        "kchod"
+      ],
+      "signature_rare_stem_count": 25,
+      "pharma_label_citations": [
+        {
+          "stem": "sary",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f99v",
+          "loc_id": "17",
+          "loc_type": "@Lf",
+          "token": "sary"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "kchod",
+          "role": "Line-1 Headword (qokchod)",
+          "herbal_df": 6,
+          "folio": "f100r",
+          "loc_id": "22",
+          "token": "fchod"
+        },
+        {
+          "stem": "sheom",
+          "role": "Signature Rare Stem",
+          "herbal_df": 2,
+          "folio": "f88r",
+          "loc_id": "8",
+          "token": "sheom"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "ekchy",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f103v",
+          "para": "P9",
+          "loc_id": "31",
+          "token": "qekchy"
+        }
+      ]
+    },
+    {
+      "folio": "f93r",
+      "language": "A",
+      "hand": "1",
+      "line1_opening_words": [
+        "kodshol",
+        "otolsheeos",
+        "octhodaly"
+      ],
+      "line1_canonical_stems": [
+        "kodshol",
+        "otolsheos",
+        "othodaly"
+      ],
+      "signature_rare_stem_count": 44,
+      "pharma_label_citations": [
+        {
+          "stem": "okcheor",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f100v",
+          "loc_id": "10",
+          "loc_type": "@Lf",
+          "token": "okcheor"
+        }
+      ],
+      "pharma_prose_citations": [
+        {
+          "stem": "sheoky",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f88r",
+          "loc_id": "26",
+          "token": "sheoky"
+        }
+      ],
+      "starred_recipe_citations": [
+        {
+          "stem": "tchd",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f114v",
+          "para": "P1",
+          "loc_id": "3",
+          "token": "qotchd"
+        },
+        {
+          "stem": "tchd",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f115r",
+          "para": "P5",
+          "loc_id": "13",
+          "token": "qotchd"
+        },
+        {
+          "stem": "okcheody",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f106v",
+          "para": "P13",
+          "loc_id": "38",
+          "token": "okcheody"
+        },
+        {
+          "stem": "olkes",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f106r",
+          "para": "P8",
+          "loc_id": "22",
+          "token": "olkeees"
+        },
+        {
+          "stem": "olkes",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f114v",
+          "para": "P3",
+          "loc_id": "10",
+          "token": "olkees"
+        },
+        {
+          "stem": "olkes",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f115r",
+          "para": "P2",
+          "loc_id": "5",
+          "token": "olkees"
+        },
+        {
+          "stem": "sheoky",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f103v",
+          "para": "P7",
+          "loc_id": "21",
+          "token": "sheoky"
+        },
+        {
+          "stem": "sheoky",
+          "role": "Signature Rare Stem",
+          "herbal_df": 1,
+          "folio": "f108r",
+          "para": "P2",
+          "loc_id": "6",
+          "token": "sheoky"
+        }
+      ]
+    }
+  ]
+}

@@ -344,3 +344,36 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Key Breakthroughs**:
   1. **Tripartite Morphological Division Across `fRos` (`535` tokens, `160` loci)**: Sphere Rim Circular Texts (`@Cc`, `339` tokens) select `o-` (`61.65%`) and `-ar/-al/-or/-ol` (`40.12%`); Sphere Interior Labels (`@L0`, `147` tokens) enrich labial container gallows `op-/of-` **`5.44×` (`22.45%` vs. `4.13%`)** and `-edy/-dy` **`1.98×` (`28.57%`)**; and Inter-Sphere Causeways (`<!I>..<!VIII>`, `49` tokens) enrich `qok-/qot-` active operators **`4.61×` over rims and `12.0×` over sphere interiors (`8.16%`)**.
   2. **Section Routing Density (`2 <= df <= 10`, `102` types)**: Routes most densely per folio into Starred Recipes (`$I=S`, `2.440`), Cosmological Text (`$I=T`, `2.429`), Cosmological Diagrams (`$I=C`, `2.000`), Biological (`$I=B`, `1.579`), and Zodiac (`$I=Z`, `1.417`).
+
+---
+
+## 29. Attack 29 (`Phase 40`): Herbal-to-Pharmaceutical & Herbal-to-Starred-Recipe Exact Plant-Identity Citation Graph & the Dual `f39v -> f102v2` (`okody + sarol`) Visual Match
+- **Script & Data**: [`tools/attack29_herbal_to_recipe_plant_identity_graph.py`](../tools/attack29_herbal_to_recipe_plant_identity_graph.py) $\to$ [`data/attack29_herbal_to_recipe_plant_identity_graph.json`](../data/attack29_herbal_to_recipe_plant_identity_graph.json)
+- **Visual Forensics**: [`pages/f39v_okody_sarol_plant_enh.png`](../pages/f39v_okody_sarol_plant_enh.png), [`pages/f102v2_okody_opchy_sarol_row_enh.png`](../pages/f102v2_okody_opchy_sarol_row_enh.png)
+- **Key Breakthroughs**:
+  1. **`96.90%` (`125 / 129`) Herbal Formulary Citation Coverage & Gallows-Stripped Line-1 Self-Echo ($z = +1.90, p = 0.050$)**: `34` Herbal folios have rare signature stems (`1 <= herbal_df <= 2`) or Line-1 headwords cited directly as `@Lf/@Lc` Pharmaceutical specimen labels (`44` exact citations).
+  2. **The Dual `f39v -> f102v2` (`okody + sarol`) Botanical Part Dissection**: Both unique `herbal_df = 1` stems on `f39v` (`okody` and `sarol`) recur in the top specimen row of `f102v2` beside a blue-and-white jar matching `f39v`'s blue-and-white flower umbels: `<f102v2.10,@Lf> okody` labels the **fibrous brown root**, `<f102v2.14,@Lf> sarol` labels the **deep green scalloped leaf**, and `okody` is immediately processed in `<f102v2.20,22,+P0> qokeody ... okeody`.
+
+---
+
+## 30. Attack 30 (`Phase 41`): Moraic Minim-Weight Compensation (`-in` vs. `-iin` vs. `-iiin`), Loop-Count Conditioning (`-e-` vs. `-ee-` vs. `-eee-`) & Root-to-Suffix Vowel Harmony ($z = +14.37, p < 10^{-45}$)
+- **Script & Data**: [`tools/attack30_minim_numeral_and_vowel_harmony_grammar.py`](../tools/attack30_minim_numeral_and_vowel_harmony_grammar.py) $\to$ [`data/attack30_minim_numeral_and_vowel_harmony_grammar.json`](../data/attack30_minim_numeral_and_vowel_harmony_grammar.json)
+- **Key Breakthroughs**:
+  1. **Moraic Minim-Weight Compensation**: Light monosyllabic stems (`o-`, `a-`, `da-`, `ta-`) expand to `2–3` minims (`81.1%–85.0%`), whereas heavy prefixed gallows stems (`olkain`, `qokain`, `qotain`) compress the suffix to `1` minim (`44.1%–52.3%`).
+  2. **Loop-Count Conditioning**: Horizontal bench stems (`chedy`, `shedy`) select `1-loop` `-e-` (`83.7%–94.9%`), whereas gallows `-y` stems (`qokeey`, `okeey`) select `2–3` loops (`75.8%–76.4%`) and `2-loop` surges `2.48×` at line-initial (`7.21%` vs. `2.91%`).
+  3. **Root-to-Suffix Vowel Harmony ($z = +14.37, p < 10^{-45}$)**: Stratified within Currier Language A/B, root and suffix vowels harmonize in **`47.22%` (`3,249 / 6,881`) vs. `40.76%` null**.
+
+---
+
+## 31. Attack 31 (`Phase 42`): Thematic Preparation Chapters of Quire 20 (`f103r–f116r`, Adjacent-Recipe Genre Clustering $z = +5.37, p < 10^{-7}$ & Header-to-Body Concordance $z = +2.08, p = 0.021$)
+- **Script & Data**: [`tools/attack31_starred_recipe_formulary_compiler.py`](../tools/attack31_starred_recipe_formulary_compiler.py) $\to$ [`data/attack31_starred_recipe_formulary_compiler.json`](../data/attack31_starred_recipe_formulary_compiler.json)
+- **Visual Forensics**: [`pages/f103r_decoction_chapter_sh_enh.png`](../pages/f103r_decoction_chapter_sh_enh.png), [`pages/f107v_infusion_chapter_k_enh.png`](../pages/f107v_infusion_chapter_k_enh.png)
+- **Key Breakthroughs**:
+  1. **Opening Imperative Header (`<%>w_1`) Predicts Recipe Body Genre ($z = +2.08, p = 0.021$)**.
+  2. **Six Sequential Thematic Preparation Chapters ($40.45\%$ Adjacent Same-Genre Rate vs. $27.25\%$ Null, $z = +5.37, p < 10^{-7}$)**: **Chapter I (`f103r–v`)** Thermal Decoctions (`sh`, `83.3%` on `f103r`), **Chapter II (`f104v`)** Mechanical Mixtures (`ch`, `61.5%`), **Chapter III (`f105r–f107r`)** Conduit Distillations I (`t`, `60%–70%`), **Chapter IV (`f107v–f108v`)** Vessel Infusions (`k`, `73.3%` on `f107v`), **Chapter V (`f113v–f114v`)** Conduit Distillations II (`t`, `50%–60%`), and **Chapter VI (`f115r–v`)** Compound Mixtures II (`ch`, `84.6%` on `f115r`).
+
+---
+
+## 32. Attack 32 (`Phase 43`): Full-Manuscript `227`-Folio Translation & Structural Atlas ([`notes/FULL_MANUSCRIPT_TRANSLATION_ATLAS.md`](FULL_MANUSCRIPT_TRANSLATION_ATLAS.md))
+- **Script, Data & Edition**: [`tools/attack32_full_manuscript_translation_atlas.py`](../tools/attack32_full_manuscript_translation_atlas.py) $\to$ [`data/attack32_full_manuscript_translation_atlas.json`](../data/attack32_full_manuscript_translation_atlas.json), [`notes/FULL_MANUSCRIPT_TRANSLATION_ATLAS.md`](FULL_MANUSCRIPT_TRANSLATION_ATLAS.md)
+- **Key Breakthrough**: Compiles **all `227` folio entries (`100%` folio coverage, `38,206` words, `1,186` labels)** into a unified reference atlas with complete morpheme/grammar tables, per-folio genre classifications, Line-1 opening EVA + structural translations, and rare cross-section links.
