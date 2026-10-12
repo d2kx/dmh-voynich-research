@@ -1307,3 +1307,31 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Key Breakthroughs**:
   1. **Synthesizes `Attacks 157–159` and Upgrades All Human-Readable Assets to v3.0 ([`notes/PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md`](PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md) 15 Folios, [`notes/VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md`](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md) `SPEC-01..20`, [`explorer/index.html`](../explorer/index.html) 5-Tab Interactive Explorer, and [`README.md`](../README.md))**.
 
+---
+
+## 161. Attack 161 (`Phase 172`): The 14-Folio Astronomical Star-Wheel & Solar/Lunar Sector Atlas (`f67r1–f70r2`, Radial `o-` Surge $z = +3.83$ & `64.4%` Herbal / `62.4%` Recipe Lexical Match)
+- **Script, Data & Scans**: [`tools/attack161_astronomical_wheels_and_lunar_mansions.py`](../tools/attack161_astronomical_wheels_and_lunar_mansions.py) $\to$ [`data/attack161_astronomical_wheels_and_lunar_mansions.json`](../data/attack161_astronomical_wheels_and_lunar_mansions.json), [`pages/f67r1_sun_sectors_enh.png`](../pages/f67r1_sun_sectors_enh.png), [`pages/f68v3_spiral_star_wheel_enh.png`](../pages/f68v3_spiral_star_wheel_enh.png)
+- **Key Breakthroughs**:
+  1. **Maps All `14` Astronomical Folios (`f67r1–f70r2`, `1,690` Tokens: `518` Radial Star/Sector Labels vs. `1,172` Circular Ring/Prose Tokens), Proving a `+9.64%` Radial `o-` Nominal Prefix Surge (`37.64%` vs. `28.00%`, $z = +3.83$) and `64.44%` (`1,089 / 1,690`) Exact Whole-Word Lexical Match in Herbal (`H`) (`62.43%` in Starred Recipes `S`)**.
+
+---
+
+## 162. Attack 162 (`Phase 173`): The 5 Paleographic Scribe Hands (`$H=1..5`, `36,439` Tokens), Universal Positional Envelope Invariance, and `77.0%` Shared Core Vocabulary (`120` Universal Root Stems)
+- **Script & Data**: [`tools/attack162_five_scribe_hands_and_dialect_bridge.py`](../tools/attack162_five_scribe_hands_and_dialect_bridge.py) $\to$ [`data/attack162_five_scribe_hands_and_dialect_bridge.json`](../data/attack162_five_scribe_hands_and_dialect_bridge.json)
+- **Key Breakthroughs**:
+  1. **Proves Across All `5` Paleographic Scribe Hands (`$H=1..5`, `36,439` Tokens) That Every Single Scribe Obeys the Same Positional Line & Paragraph Grammar (Paragraph-Start Gallows `65.5%–93.8%`, Line-Start `y-` Surge `2.5×–10.0×`, Line-End `-m` Stop Surge `6.2×–29.0×`), and That Just `120` Universal Root Stems Attested Across All `5 / 5` Hands Account for `76.96%` (`28,044 / 36,439`) of the Entire Manuscript (`516` Canonical Root Stems Shared Between Currier A and B)**.
+
+---
+
+## 163. Attack 163 (`Phase 174`): The 16-Folio Pharmaceutical Apothecary Jar (`@Lc`) vs. Plant-Part (`@Lf`) Atlas, `53.1%` 3-Stage Supply Chain Bridges (`f88r–f102v`), and Second `oror` Alkanet Locus on `f100r`
+- **Script, Data & Scans**: [`tools/attack163_pharmaceutical_jar_and_herbal_supply_chain.py`](../tools/attack163_pharmaceutical_jar_and_herbal_supply_chain.py) $\to$ [`data/attack163_pharmaceutical_jar_and_herbal_supply_chain.json`](../data/attack163_pharmaceutical_jar_and_herbal_supply_chain.json), [`pages/f88r_full_enh.png`](../pages/f88r_full_enh.png), [`pages/f100r_jars_and_seeds_enh.png`](../pages/f100r_jars_and_seeds_enh.png)
+- **Key Breakthroughs**:
+  1. **Maps All `16` Pharmaceutical Folios (`f88r–f102v`, `243` Figure Labels: `37` `@Lc` Storage Jars Averaging `7.41` Chars vs. `206` `@Lf` Plant Parts Averaging `5.85` Chars), Visually Confirms a Second Independent `oror` Alkanet Root Locus on `<f100r.4,@Lf>`, and Proves `31.28%` (`76 / 243`) Exact Match in Herbal (`H`), `29.22%` (`71 / 243`) Exact Match in Starred Recipes (`S`), and `53.09%` (`129 / 243`) Complete 3-Stage Supply Chain Stem Bridges (`Herbal Monograph -> Pharma Label -> Starred Recipe`)**.
+
+---
+
+## 164. Attack 164 (`Phase 175`): The Wave 38 Master Compendium (`Astronomical Star-Wheels, 5-Scribe Hand Invariance & 3-Stage Pharmaceutical Supply Chain`) and Synchronized v4.0 Human-Readable Assets ([`notes/ASTRONOMICAL_WHEELS_5SCRIBE_INVARIANCE_AND_PHARMA_SUPPLY_CHAIN.md`](ASTRONOMICAL_WHEELS_5SCRIBE_INVARIANCE_AND_PHARMA_SUPPLY_CHAIN.md))
+- **Script, Data & Edition**: [`tools/attack164_wave38_master_compendium.py`](../tools/attack164_wave38_master_compendium.py) $\to$ [`data/attack164_wave38_master_compendium.json`](../data/attack164_wave38_master_compendium.json) & [`notes/ASTRONOMICAL_WHEELS_5SCRIBE_INVARIANCE_AND_PHARMA_SUPPLY_CHAIN.md`](ASTRONOMICAL_WHEELS_5SCRIBE_INVARIANCE_AND_PHARMA_SUPPLY_CHAIN.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes `Attacks 161–163` and Upgrades All Human-Readable Assets to v4.0 ([`notes/PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md`](PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md) 18 Folios, [`notes/VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md`](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md) `SPEC-01..25`, [`explorer/index.html`](../explorer/index.html) 6-Tab / 26-Walkthrough Interactive Explorer, and [`README.md`](../README.md))**.
+

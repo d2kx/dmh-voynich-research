@@ -1,0 +1,397 @@
+{
+  "attack": 162,
+  "phase": 173,
+  "discovery": 179,
+  "title": "5-Scribe Paleographic Hand ($H=1..5) Invariance & Currier A/B Inflectional Bridge",
+  "summary": {
+    "total_tokens_across_5_hands": 36439,
+    "universal_5hand_stems_count": 120,
+    "universal_5hand_token_coverage": 0.7696,
+    "shared_currier_ab_stems_count": 516,
+    "all_5_hands_obey_gallows_opener_law": false,
+    "all_5_hands_obey_line_end_m_law": true
+  },
+  "hands_table": [
+    {
+      "hand": "Hand 1",
+      "description": "Scribe 1 (Currier A: 96 Herbal A Monographs & Pharmaceutical Jars)",
+      "folio_count": 113,
+      "total_tokens": 9936,
+      "par_start_gallows_rate": 0.8855,
+      "line_start_y_rate": 0.1628,
+      "line_mid_y_rate": 0.0364,
+      "line_end_m_rate": 0.1034,
+      "line_mid_m_rate": 0.0167,
+      "label_o_rate": 0.4324,
+      "prose_qo_rate": 0.1017,
+      "prose_edy_rate": 0.0647,
+      "prose_aiin_rate": 0.1605,
+      "top_words": [
+        "daiin",
+        "chol",
+        "chor",
+        "shol",
+        "chy",
+        "ol",
+        "or",
+        "dy"
+      ]
+    },
+    {
+      "hand": "Hand 2",
+      "description": "Scribe 2 (Currier B: 20 Balneological Baths, Quire 14 Rosettes & Herbal B)",
+      "folio_count": 46,
+      "total_tokens": 10724,
+      "par_start_gallows_rate": 0.9379,
+      "line_start_y_rate": 0.1075,
+      "line_mid_y_rate": 0.03,
+      "line_end_m_rate": 0.1356,
+      "line_mid_m_rate": 0.0049,
+      "label_o_rate": 0.629,
+      "prose_qo_rate": 0.1942,
+      "prose_edy_rate": 0.2785,
+      "prose_aiin_rate": 0.1506,
+      "top_words": [
+        "shedy",
+        "ol",
+        "chedy",
+        "qokedy",
+        "qokain",
+        "or",
+        "qokeedy",
+        "daiin"
+      ]
+    },
+    {
+      "hand": "Hand 3",
+      "description": "Scribe 3 (Currier B: 26 Starred Master Recipe Folios f103r-f116r & Herbal B)",
+      "folio_count": 33,
+      "total_tokens": 11439,
+      "par_start_gallows_rate": 0.9286,
+      "line_start_y_rate": 0.1872,
+      "line_mid_y_rate": 0.0188,
+      "line_end_m_rate": 0.2345,
+      "line_mid_m_rate": 0.0081,
+      "label_o_rate": 0.2,
+      "prose_qo_rate": 0.166,
+      "prose_edy_rate": 0.1936,
+      "prose_aiin_rate": 0.1947,
+      "top_words": [
+        "aiin",
+        "chedy",
+        "ar",
+        "qokeey",
+        "al",
+        "daiin",
+        "qokeedy",
+        "qokaiin"
+      ]
+    },
+    {
+      "hand": "Hand 4",
+      "description": "Scribe 4 (Astronomical Star Wheels f67r1-f70r2 & 12 Zodiac Month Wheels f70v2-f73v)",
+      "folio_count": 27,
+      "total_tokens": 3493,
+      "par_start_gallows_rate": 0.6552,
+      "line_start_y_rate": 0.1215,
+      "line_mid_y_rate": 0.0481,
+      "line_end_m_rate": 0.1321,
+      "line_mid_m_rate": 0.0165,
+      "label_o_rate": 0.5155,
+      "prose_qo_rate": 0.0261,
+      "prose_edy_rate": 0.1213,
+      "prose_aiin_rate": 0.1048,
+      "top_words": [
+        "ar",
+        "aiin",
+        "al",
+        "oteey",
+        "daiin",
+        "dy",
+        "dar",
+        "ol"
+      ]
+    },
+    {
+      "hand": "Hand 5",
+      "description": "Scribe 5 (Specialized Quire G/H Folios: f41v, f48r/v, f57v Key Ring, f66r Margin Table)",
+      "folio_count": 7,
+      "total_tokens": 847,
+      "par_start_gallows_rate": 0.9375,
+      "line_start_y_rate": 0.1649,
+      "line_mid_y_rate": 0.0633,
+      "line_end_m_rate": 0.1789,
+      "line_mid_m_rate": 0.0095,
+      "label_o_rate": 0.1429,
+      "prose_qo_rate": 0.119,
+      "prose_edy_rate": 0.3107,
+      "prose_aiin_rate": 0.0726,
+      "top_words": [
+        "daiin",
+        "chedy",
+        "dal",
+        "shedy",
+        "qokedy",
+        "okedy",
+        "ol",
+        "cheky"
+      ]
+    }
+  ],
+  "dialect_bridge_table": [
+    {
+      "canonical_stem": "ch",
+      "currier_a_hits": 1046,
+      "currier_b_hits": 1532,
+      "currier_a_top_forms": [
+        "chol",
+        "chor",
+        "chy",
+        "chody"
+      ],
+      "currier_b_top_forms": [
+        "chedy",
+        "chdy",
+        "lchedy",
+        "chol"
+      ]
+    },
+    {
+      "canonical_stem": "ke",
+      "currier_a_hits": 226,
+      "currier_b_hits": 1515,
+      "currier_a_top_forms": [
+        "qokeey",
+        "qokeol",
+        "keey",
+        "qokey"
+      ],
+      "currier_b_top_forms": [
+        "qokeedy",
+        "qokedy",
+        "qokeey",
+        "qokey"
+      ]
+    },
+    {
+      "canonical_stem": "ain",
+      "currier_a_hits": 282,
+      "currier_b_hits": 1235,
+      "currier_a_top_forms": [
+        "aiin",
+        "okaiin",
+        "odaiin",
+        "otaiin"
+      ],
+      "currier_b_top_forms": [
+        "aiin",
+        "okaiin",
+        "okain",
+        "otaiin"
+      ]
+    },
+    {
+      "canonical_stem": "che",
+      "currier_a_hits": 466,
+      "currier_b_hits": 882,
+      "currier_a_top_forms": [
+        "chey",
+        "cheol",
+        "cheor",
+        "cheey"
+      ],
+      "currier_b_top_forms": [
+        "chey",
+        "cheey",
+        "cheol",
+        "cheody"
+      ]
+    },
+    {
+      "canonical_stem": "in",
+      "currier_a_hits": 618,
+      "currier_b_hits": 608,
+      "currier_a_top_forms": [
+        "daiin",
+        "dain",
+        "saiin",
+        "oiin"
+      ],
+      "currier_b_top_forms": [
+        "daiin",
+        "dain",
+        "saiin",
+        "sain"
+      ]
+    },
+    {
+      "canonical_stem": "he",
+      "currier_a_hits": 223,
+      "currier_b_hits": 984,
+      "currier_a_top_forms": [
+        "shey",
+        "sheey",
+        "sheol",
+        "sheor"
+      ],
+      "currier_b_top_forms": [
+        "shedy",
+        "shey",
+        "sheey",
+        "sheedy"
+      ]
+    },
+    {
+      "canonical_stem": "ar",
+      "currier_a_hits": 224,
+      "currier_b_hits": 936,
+      "currier_a_top_forms": [
+        "dar",
+        "ar",
+        "sar",
+        "okar"
+      ],
+      "currier_b_top_forms": [
+        "ar",
+        "dar",
+        "otar",
+        "okar"
+      ]
+    },
+    {
+      "canonical_stem": "ol",
+      "currier_a_hits": 296,
+      "currier_b_hits": 671,
+      "currier_a_top_forms": [
+        "ol",
+        "dol",
+        "okol",
+        "otol"
+      ],
+      "currier_b_top_forms": [
+        "ol",
+        "dol",
+        "sol",
+        "lol"
+      ]
+    },
+    {
+      "canonical_stem": "al",
+      "currier_a_hits": 231,
+      "currier_b_hits": 704,
+      "currier_a_top_forms": [
+        "dal",
+        "okal",
+        "al",
+        "otal"
+      ],
+      "currier_b_top_forms": [
+        "al",
+        "dal",
+        "okal",
+        "otal"
+      ]
+    },
+    {
+      "canonical_stem": "kain",
+      "currier_a_hits": 47,
+      "currier_b_hits": 771,
+      "currier_a_top_forms": [
+        "qokaiin",
+        "kaiin",
+        "qokain",
+        "kaiiin"
+      ],
+      "currier_b_top_forms": [
+        "qokain",
+        "qokaiin",
+        "kaiin",
+        "lkaiin"
+      ]
+    },
+    {
+      "canonical_stem": "ed",
+      "currier_a_hits": 3,
+      "currier_b_hits": 717,
+      "currier_a_top_forms": [
+        "ed",
+        "oteedy",
+        "edy"
+      ],
+      "currier_b_top_forms": [
+        "otedy",
+        "okedy",
+        "okeedy",
+        "oteedy"
+      ]
+    },
+    {
+      "canonical_stem": "or",
+      "currier_a_hits": 253,
+      "currier_b_hits": 436,
+      "currier_a_top_forms": [
+        "or",
+        "dor",
+        "okor",
+        "sor"
+      ],
+      "currier_b_top_forms": [
+        "or",
+        "lor",
+        "sor",
+        "olor"
+      ]
+    },
+    {
+      "canonical_stem": "te",
+      "currier_a_hits": 69,
+      "currier_b_hits": 469,
+      "currier_a_top_forms": [
+        "qoteey",
+        "teol",
+        "qoteol",
+        "ytey"
+      ],
+      "currier_b_top_forms": [
+        "qotedy",
+        "qoteedy",
+        "tedy",
+        "qoteey"
+      ]
+    },
+    {
+      "canonical_stem": "ey",
+      "currier_a_hits": 137,
+      "currier_b_hits": 397,
+      "currier_a_top_forms": [
+        "okeey",
+        "ykeey",
+        "okey",
+        "ey"
+      ],
+      "currier_b_top_forms": [
+        "okeey",
+        "oteey",
+        "otey",
+        "okey"
+      ]
+    },
+    {
+      "canonical_stem": "tch",
+      "currier_a_hits": 214,
+      "currier_b_hits": 290,
+      "currier_a_top_forms": [
+        "qotchy",
+        "tchy",
+        "tchor",
+        "qotchol"
+      ],
+      "currier_b_top_forms": [
+        "pchedy",
+        "qopchedy",
+        "tchedy",
+        "qotchdy"
+      ]
+    }
+  ]
+}

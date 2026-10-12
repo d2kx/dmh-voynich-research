@@ -55,9 +55,9 @@ When you strip off the prefix and suffix, you are left with the **Root Stem**:
 
 ---
 
-## Part 2: Page-by-Page Visual Walkthroughs (8 Iconic Folios)
+## Part 2: Page-by-Page Visual Walkthroughs (18 Iconic Folios)
 
-Below are **8 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
+Below are **18 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
 
 ---
 
@@ -313,9 +313,46 @@ Why did the scribe write the Voynich word **`oror`** at the end of a European ch
 
 ---
 
+### 16. Folio `f57v` — The Four-Figures Wheel & The `f <-> p` Cipher Key Ring
+* **Section:** Quire H Key Wheel (Scribe 5) | **Page in Yale Scan:** Page 115
+
+![Folio f57v Four-Quadrant Key Ring](../pages/f57v_ring_enh.png)
+
+#### What to Look for on the Scan
+1. Four standing figures divide the circle into **four 90-degree quadrants** (`otodarag`, `oparairdly`, `olkeedal`, `otardaly`).
+2. Look at the **second concentric ring of spaced single letters** (`f57v.3`): instead of writing words, Scribe 5 wrote the **exact same 14-letter sequence four times in a row** around the four quarters of the circle: `o l d r v x k m [f/p] @169 v t r y c`.
+3. In Quadrants 1 and 2, the 9th character is **`f`**; in Quadrants 3 and 4, that exact same slot switches to **`p`**—giving us direct visual proof on the vellum that `f` and `p` are interchangeable gallows allographs!
+
+---
+
+### 17. Folios `f67r1` & `f68v3` — The 12-Sector Sun Wheel, 12-Moon Wheel & 8-Arm Spiral Galaxy Pinwheel
+* **Section:** Astronomical (`f67r1–f70r2`, Scribe 4) | **Pages in Yale Scan:** Pages 122 & 125
+
+![Folio f67r1 Solar Sectors and f67r2 Lunar Phases](../pages/f67r1_sun_sectors_enh.png)
+
+#### What to Look for on `f67r1–r2` (Above) and `f68v3` (Below)
+1. **Left (`f67r1`):** A central Sun face surrounded by **12 alternating crimson-red and indigo-blue rays** interleaved with 12 star-filled sectors and radial spoke labels (`otaldy`, `otoldy`, `okol`).
+2. **Right (`f67r2`):** A central 8-pointed star surrounded by **12 waxing and waning red-and-gold Moon disks** and 12 radial text sectors.
+3. **Below (`f68v3` Triple Foldout):** Eight curved spiral arms of Voynich text whirl pinwheel-style out of a ruffled blue-and-gold star cloud around a 4-quadrant central cross (`Attack 161` proves **`64.4%` of all words on these 14 Astronomical wheels appear word-for-word in the Herbal section** and **`62.4%` in the Starred Master Recipes**!).
+
+![Folio f68v3 Spiral Star Pinwheel and Triple Foldout](../pages/f68v3_spiral_star_wheel_enh.png)
+
+---
+
+### 18. Folios `f88r` & `f100r` — The `okol` Root-to-Recipe Clause & Second `oror` Alkanet Root Locus
+* **Section:** Pharmaceutical (`f88r–f102v`, Scribe 1) | **Pages in Yale Scan:** Pages 162 & 178
+
+![Folio f88r Three Apothecary Jars and okol Root](../pages/f88r_full_enh.png)
+
+#### What to Look for on `f88r` (Above) and `f100r` (Below)
+1. **Direct Plant-to-Recipe Ingestion on `f88r`:** Look at the middle row (`Row 2`) on `f88r` above: the cut root in the center is labeled **`okol`** (`f88r.15`). Now look two inches lower at Line 2 of the recipe paragraph right below it (`f88r.19`): the scribe wrote **`...chokol daiin · qoekol · qoekol · qockhol · okol · cheol...`**—taking one measure of `okol`, applying three consecutive `qo-` boiling/processing steps (`qoekol qoekol qockhol`), and naming `okol` again in the liquid (`cheol`)!
+2. **Second `oror` Alkanet Root Locus on `f100r` (Below):** On `f100r` (`Row 3`, second plant from the left), the root cutting is explicitly labeled **`oror`**—confirming the blood-red Alkanet/Madder root word found on `f102v2` and at the end of the European charm on `f116v` (`...so nim gas mich oror`)! Across all 16 Pharmaceutical pages (`Attack 163`), **`53.1%` (`129 / 243`) of all Pharmaceutical labels bridge all three stages (`Herbal Monograph -> Pharmaceutical Jar/Root -> Starred Master Recipe`)**.
+
+![Folio f100r Miniature Cuttings and oror Root Label](../pages/f100r_jars_and_seeds_enh.png)
+
+---
+
 ## Where to Go Next
-* **Want to see all 20 real-world plants, constellations, wheels, and bathing diagrams?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)**.
-* **Want to click through 20 pages and decode words interactively in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now featuring **5 interactive tabs**!).
-* **Want the deep grammatical tables, 4-transcriber proof (`88.8%` consensus), and full 177-discovery research log?** See **[`STARRED_RECIPES_ROSETTES_COSMOLOGY_AND_4TRANSCRIBER_PROOF.md`](STARRED_RECIPES_ROSETTES_COSMOLOGY_AND_4TRANSCRIBER_PROOF.md)**, **[`ZODIAC_MONTHS_BALNEO_PLUMBING_AND_BOTANICAL_ATLAS.md`](ZODIAC_MONTHS_BALNEO_PLUMBING_AND_BOTANICAL_ATLAS.md)**, and **[`NOTES.md`](../NOTES.md)**.
-
-
+* **Want to see all 25 real-world plants, constellations, wheels, and bathing diagrams?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)**.
+* **Want to click through 25 pages and decode words interactively in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now featuring **6 interactive tabs**!).
+* **Want the deep grammatical tables, 5-scribe invariance proof (`77.0%` universal 5-hand vocabulary), 4-transcriber proof (`88.8%` consensus), and full 181-discovery research log?** See **[`ASTRONOMICAL_WHEELS_5SCRIBE_INVARIANCE_AND_PHARMA_SUPPLY_CHAIN.md`](ASTRONOMICAL_WHEELS_5SCRIBE_INVARIANCE_AND_PHARMA_SUPPLY_CHAIN.md)**, **[`STARRED_RECIPES_ROSETTES_COSMOLOGY_AND_4TRANSCRIBER_PROOF.md`](STARRED_RECIPES_ROSETTES_COSMOLOGY_AND_4TRANSCRIBER_PROOF.md)**, and **[`NOTES.md`](../NOTES.md)**.

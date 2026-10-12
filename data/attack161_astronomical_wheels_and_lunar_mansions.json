@@ -1,0 +1,541 @@
+{
+  "attack": 161,
+  "phase": 172,
+  "discovery": 178,
+  "title": "14-Folio Astronomical Star-Wheel & Solar/Lunar Sector Atlas (f67r1-f70r2)",
+  "summary": {
+    "total_astro_folios": 14,
+    "total_astro_tokens": 1690,
+    "radial_label_tokens": 518,
+    "ring_prose_tokens": 1172,
+    "radial_o_prefix_rate": 0.3764,
+    "ring_o_prefix_rate": 0.2799,
+    "radial_o_surge_z": 3.83,
+    "herbal_token_match_rate": 0.6438,
+    "recipes_token_match_rate": 0.6243
+  },
+  "radial_profile": {
+    "tokens": 518,
+    "unique_types": 409,
+    "o_prefix_rate": 0.3764,
+    "qo_prefix_rate": 0.0347,
+    "d_s_prefix_rate": 0.2239,
+    "y_suffix_rate": 0.4421,
+    "al_ar_ol_or_rate": 0.2606,
+    "top_words": [
+      "dar",
+      "okeey",
+      "dy",
+      "ar",
+      "okar",
+      "daiin",
+      "dal",
+      "dair",
+      "al",
+      "sar"
+    ]
+  },
+  "ring_prose_profile": {
+    "tokens": 1172,
+    "unique_types": 701,
+    "o_prefix_rate": 0.2799,
+    "qo_prefix_rate": 0.0341,
+    "d_s_prefix_rate": 0.2432,
+    "y_suffix_rate": 0.3763,
+    "al_ar_ol_or_rate": 0.2944,
+    "top_words": [
+      "ar",
+      "dy",
+      "dar",
+      "dal",
+      "daiin",
+      "aiin",
+      "chol",
+      "dair",
+      "ol",
+      "al"
+    ]
+  },
+  "cross_section_routing": {
+    "Zodiac": {
+      "token_match_rate": 0.4515,
+      "matched_tokens": 763,
+      "shared_types_count": 209,
+      "top_shared_words": [
+        "ar",
+        "dy",
+        "dar",
+        "dal",
+        "daiin",
+        "al",
+        "dair",
+        "aiin",
+        "chol",
+        "okeey",
+        "ol",
+        "oteey"
+      ]
+    },
+    "Herbal": {
+      "token_match_rate": 0.6438,
+      "matched_tokens": 1088,
+      "shared_types_count": 414,
+      "top_shared_words": [
+        "ar",
+        "dy",
+        "dar",
+        "daiin",
+        "dal",
+        "al",
+        "dair",
+        "aiin",
+        "okeey",
+        "chol",
+        "ol",
+        "oteey"
+      ]
+    },
+    "Pharmaceutical": {
+      "token_match_rate": 0.4982,
+      "matched_tokens": 842,
+      "shared_types_count": 252,
+      "top_shared_words": [
+        "ar",
+        "dy",
+        "dar",
+        "dal",
+        "daiin",
+        "al",
+        "dair",
+        "aiin",
+        "okeey",
+        "chol",
+        "ol",
+        "oteey"
+      ]
+    },
+    "Balneological": {
+      "token_match_rate": 0.4479,
+      "matched_tokens": 757,
+      "shared_types_count": 229,
+      "top_shared_words": [
+        "ar",
+        "dy",
+        "dar",
+        "dal",
+        "daiin",
+        "al",
+        "dair",
+        "aiin",
+        "chol",
+        "okeey",
+        "ol",
+        "oteey"
+      ]
+    },
+    "Starred_Recipes": {
+      "token_match_rate": 0.6243,
+      "matched_tokens": 1055,
+      "shared_types_count": 399,
+      "top_shared_words": [
+        "ar",
+        "dy",
+        "dar",
+        "daiin",
+        "dal",
+        "al",
+        "dair",
+        "aiin",
+        "okeey",
+        "chol",
+        "ol",
+        "oteey"
+      ]
+    },
+    "Cosmological_Rosettes": {
+      "token_match_rate": 0.7379,
+      "matched_tokens": 1247,
+      "shared_types_count": 556,
+      "top_shared_words": [
+        "ar",
+        "dy",
+        "dar",
+        "daiin",
+        "dal",
+        "al",
+        "dair",
+        "aiin",
+        "okeey",
+        "chol",
+        "ol",
+        "oteey"
+      ]
+    }
+  },
+  "wheels": [
+    {
+      "folio": "f67r1",
+      "pdf_page": 122,
+      "visual_type": "12-Point Red/Blue Sun Face & Star-Count Sectors",
+      "total_tokens": 154,
+      "radial_tokens": 17,
+      "ring_prose_tokens": 137,
+      "o_prefix_rate": 0.2468,
+      "match_rate_in_herbal": 0.6169,
+      "match_rate_in_recipes": 0.6299,
+      "top_radial_labels": [
+        "otaldy",
+        "otoky",
+        "seeaiir",
+        "ykees",
+        "ary",
+        "sosaiir"
+      ],
+      "top_ring_words": [
+        "ar",
+        "dair",
+        "dar",
+        "aiin",
+        "shey",
+        "sar"
+      ]
+    },
+    {
+      "folio": "f67r2",
+      "pdf_page": 122,
+      "visual_type": "8-Point Star & 12 Lunar Phase Disks with Corner Inscriptions",
+      "total_tokens": 182,
+      "radial_tokens": 50,
+      "ring_prose_tokens": 132,
+      "o_prefix_rate": 0.2802,
+      "match_rate_in_herbal": 0.6319,
+      "match_rate_in_recipes": 0.5604,
+      "top_radial_labels": [
+        "okar",
+        "okodar",
+        "ykshy",
+        "aram",
+        "ykecho",
+        "ols"
+      ],
+      "top_ring_words": [
+        "ar",
+        "aiin",
+        "dy",
+        "daiin",
+        "am",
+        "ain"
+      ]
+    },
+    {
+      "folio": "f67v1",
+      "pdf_page": 124,
+      "visual_type": "4-Quadrant Moon & Star Sector Wheel",
+      "total_tokens": 72,
+      "radial_tokens": 72,
+      "ring_prose_tokens": 0,
+      "o_prefix_rate": 0.3472,
+      "match_rate_in_herbal": 0.5139,
+      "match_rate_in_recipes": 0.5278,
+      "top_radial_labels": [
+        "damammlong",
+        "tail",
+        "dairkal",
+        "okal",
+        "ary",
+        "dar"
+      ],
+      "top_ring_words": []
+    },
+    {
+      "folio": "f67v2",
+      "pdf_page": 123,
+      "visual_type": "8-Spoke Squared Sun & Cardinal Emblem Diagram",
+      "total_tokens": 60,
+      "radial_tokens": 25,
+      "ring_prose_tokens": 35,
+      "o_prefix_rate": 0.4833,
+      "match_rate_in_herbal": 0.4833,
+      "match_rate_in_recipes": 0.4667,
+      "top_radial_labels": [
+        "otchdy",
+        "otararain",
+        "dcheeor",
+        "ochepalain",
+        "oeolales",
+        "aisar"
+      ],
+      "top_ring_words": [
+        "ar",
+        "tol",
+        "or",
+        "ain",
+        "am",
+        "otoly"
+      ]
+    },
+    {
+      "folio": "f68r1",
+      "pdf_page": 125,
+      "visual_type": "Blazing Crimson Sun Face & 36-Star Ring",
+      "total_tokens": 64,
+      "radial_tokens": 29,
+      "ring_prose_tokens": 35,
+      "o_prefix_rate": 0.5156,
+      "match_rate_in_herbal": 0.5,
+      "match_rate_in_recipes": 0.5312,
+      "top_radial_labels": [
+        "okodaly",
+        "odchecthy",
+        "otcheody",
+        "okoaly",
+        "chocfhy",
+        "octhey"
+      ],
+      "top_ring_words": [
+        "shokchy",
+        "chteey",
+        "choteey",
+        "cphol",
+        "cheor",
+        "opcheeol"
+      ]
+    },
+    {
+      "folio": "f68r2",
+      "pdf_page": 125,
+      "visual_type": "Divided Half-Shaded Moon Face & Star Ring",
+      "total_tokens": 77,
+      "radial_tokens": 25,
+      "ring_prose_tokens": 52,
+      "o_prefix_rate": 0.4675,
+      "match_rate_in_herbal": 0.4416,
+      "match_rate_in_recipes": 0.3896,
+      "top_radial_labels": [
+        "oolchy",
+        "cheorol",
+        "odaiin",
+        "ochory",
+        "shdar",
+        "dchol"
+      ],
+      "top_ring_words": [
+        "chor",
+        "okol",
+        "okey",
+        "tsheeor",
+        "sheal",
+        "dar"
+      ]
+    },
+    {
+      "folio": "f68r3",
+      "pdf_page": 126,
+      "visual_type": "4-Quadrant Crescent Moon Astrolabe & 7-Star Pleiades (`doaro`)",
+      "total_tokens": 101,
+      "radial_tokens": 47,
+      "ring_prose_tokens": 54,
+      "o_prefix_rate": 0.3465,
+      "match_rate_in_herbal": 0.6733,
+      "match_rate_in_recipes": 0.604,
+      "top_radial_labels": [
+        "qokchdy",
+        "daiir",
+        "oteey",
+        "toees",
+        "ykeo",
+        "she"
+      ],
+      "top_ring_words": [
+        "oteeody",
+        "odeed",
+        "oteedy",
+        "cheoteey",
+        "oshchey",
+        "chokol"
+      ]
+    },
+    {
+      "folio": "f68v1",
+      "pdf_page": 125,
+      "visual_type": "16-Point Indigo/White Sun Ray & Star-Wedge Wheel",
+      "total_tokens": 96,
+      "radial_tokens": 22,
+      "ring_prose_tokens": 74,
+      "o_prefix_rate": 0.2917,
+      "match_rate_in_herbal": 0.6354,
+      "match_rate_in_recipes": 0.6458,
+      "top_radial_labels": [
+        "dair",
+        "apeeety",
+        "dy",
+        "sair",
+        "aroyser",
+        "oteeor"
+      ],
+      "top_ring_words": [
+        "shes",
+        "aiin",
+        "ol",
+        "keey",
+        "dy",
+        "oteey"
+      ]
+    },
+    {
+      "folio": "f68v2",
+      "pdf_page": 125,
+      "visual_type": "6-Petal Indigo Flower-Star & 12-Sector Star Wheel",
+      "total_tokens": 97,
+      "radial_tokens": 21,
+      "ring_prose_tokens": 76,
+      "o_prefix_rate": 0.2062,
+      "match_rate_in_herbal": 0.6289,
+      "match_rate_in_recipes": 0.6289,
+      "top_radial_labels": [
+        "otey",
+        "dalar",
+        "otoseystarsary",
+        "yshesas",
+        "ar",
+        "shy"
+      ],
+      "top_ring_words": [
+        "shey",
+        "dal",
+        "dy",
+        "chy",
+        "teeody",
+        "shcthey"
+      ]
+    },
+    {
+      "folio": "f68v3",
+      "pdf_page": 125,
+      "visual_type": "8-Arm Spiral Galaxy / Pinwheel Star-Nebula Wheel",
+      "total_tokens": 163,
+      "radial_tokens": 46,
+      "ring_prose_tokens": 117,
+      "o_prefix_rate": 0.3129,
+      "match_rate_in_herbal": 0.6626,
+      "match_rate_in_recipes": 0.6503,
+      "top_radial_labels": [
+        "okeey",
+        "chekchy",
+        "ocheal",
+        "qoeey",
+        "keody",
+        "cheoky"
+      ],
+      "top_ring_words": [
+        "dar",
+        "ol",
+        "sheey",
+        "daiin",
+        "dy",
+        "shol"
+      ]
+    },
+    {
+      "folio": "f69r",
+      "pdf_page": 127,
+      "visual_type": "16-Spoke Droplet/Channel Wheel & Concentric Rings",
+      "total_tokens": 153,
+      "radial_tokens": 108,
+      "ring_prose_tokens": 45,
+      "o_prefix_rate": 0.2549,
+      "match_rate_in_herbal": 0.7582,
+      "match_rate_in_recipes": 0.6993,
+      "top_radial_labels": [
+        "ar",
+        "dar",
+        "al",
+        "dal",
+        "dair",
+        "okeey"
+      ],
+      "top_ring_words": [
+        "shey",
+        "chy",
+        "tcheeos",
+        "opaiin",
+        "chey",
+        "qokeeyshdy"
+      ]
+    },
+    {
+      "folio": "f69v",
+      "pdf_page": 128,
+      "visual_type": "28-Spoke Lunar Mansion Star-Tip Wheel",
+      "total_tokens": 129,
+      "radial_tokens": 32,
+      "ring_prose_tokens": 97,
+      "o_prefix_rate": 0.3721,
+      "match_rate_in_herbal": 0.6589,
+      "match_rate_in_recipes": 0.6202,
+      "top_radial_labels": [
+        "okeod",
+        "okeey",
+        "dy",
+        "sar",
+        "okeo",
+        "ochoyk"
+      ],
+      "top_ring_words": [
+        "ar",
+        "chey",
+        "dair",
+        "dy",
+        "chol",
+        "dal"
+      ]
+    },
+    {
+      "folio": "f70r1",
+      "pdf_page": 129,
+      "visual_type": "Concentric 3-Ring Star & Spoke Wheel",
+      "total_tokens": 108,
+      "radial_tokens": 24,
+      "ring_prose_tokens": 84,
+      "o_prefix_rate": 0.3981,
+      "match_rate_in_herbal": 0.7037,
+      "match_rate_in_recipes": 0.6667,
+      "top_radial_labels": [
+        "yfcheodly",
+        "ytcheos",
+        "aly",
+        "otchy",
+        "dar",
+        "yky"
+      ],
+      "top_ring_words": [
+        "oteos",
+        "ar",
+        "al",
+        "oteody",
+        "dy",
+        "okchody"
+      ]
+    },
+    {
+      "folio": "f70r2",
+      "pdf_page": 129,
+      "visual_type": "Outer/Inner Concentric Astronomical Text Rings",
+      "total_tokens": 234,
+      "radial_tokens": 0,
+      "ring_prose_tokens": 234,
+      "o_prefix_rate": 0.2009,
+      "match_rate_in_herbal": 0.7308,
+      "match_rate_in_recipes": 0.7564,
+      "top_radial_labels": [],
+      "top_ring_words": [
+        "al",
+        "ar",
+        "dal",
+        "qokal",
+        "daiin",
+        "chol"
+      ]
+    }
+  ]
+}

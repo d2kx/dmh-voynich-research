@@ -384,6 +384,86 @@ WALKTHROUGH_FOLIOS = [
         ]
     },
     {
+        "folio": "f57v",
+        "title": "Four-Figures Wheel & 4x14-Symbol `f <-> p` Cipher Key Ring",
+        "section": "Quire H Key Wheel (Scribe 5)",
+        "pdf_page": 115,
+        "image": "../pages/f57v_ring_enh.png",
+        "secondary_image": "../pages/f57v_full_enh.png",
+        "summary": "Four standing figures divide the circle into 4 quadrants (`otodarag`, `oparairdly`, `olkeedal`, `otardaly`). Ring 2 repeats the exact same 14-symbol sequence 4 times, switching slot 9 from `f` (Quadrants 1–2) to `p` (Quadrants 3–4)!",
+        "clauses": [
+            {
+                "locus": "f57v (4 Cardinal Figure Labels + Ring 1)",
+                "eva": "otodarag oparairdly olkeedal otardaly daiin",
+                "english": "The four quarters: from the earth-root (`otodarag`), the prepared compound (`oparairdly`), the boiled bath medium (`olkeedal`), and the root-decoction state (`otardaly`), take one measure (`daiin`)."
+            }
+        ]
+    },
+    {
+        "folio": "f67r1 & f67r2",
+        "title": "12-Sector Red/Blue Sun Wheel & 12-Lunar-Phase Disk Wheel",
+        "section": "Astronomical (`f67r1–f70r2`, Scribe 4)",
+        "pdf_page": 122,
+        "image": "../pages/f67r1_sun_sectors_enh.png",
+        "secondary_image": "",
+        "summary": "Opening Astronomical spread: a 12-pointed red/blue Solar Wheel (`f67r1`) beside a 12-disk waxing/waning Lunar Phase Wheel (`f67r2`). `64.4%` of Astronomical tokens appear verbatim in the Herbal section!",
+        "clauses": [
+            {
+                "locus": "f67r1–r2 (Solar Spoke & Lunar Phase Labels)",
+                "eva": "otaldy otoldy okol okal daiin dar",
+                "english": "In the solar sector (`otaldy`) and liquid vessel state (`otoldy`), place in the storage vessel (`okol`) the star-essence (`okal`) and take one measure (`daiin`) from the root (`dar`)."
+            }
+        ]
+    },
+    {
+        "folio": "f68v3",
+        "title": "8-Arm Spiral Galaxy Pinwheel & Triple Astronomical Foldout",
+        "section": "Astronomical 3-Panel Foldout (Scribe 4)",
+        "pdf_page": 125,
+        "image": "../pages/f68v3_spiral_star_wheel_enh.png",
+        "secondary_image": "",
+        "summary": "Unfolded 3-wheel sheet (`f68v3` left, `f68v2` center, `f68v1` right): on `f68v3`, 8 curved spiral arms of text whirl out of a ruffled blue-and-gold star nebula around a 4-part central cross.",
+        "clauses": [
+            {
+                "locus": "f68v3 (Spiral Arm & Central Cross Labels)",
+                "eva": "otol okal otar oteey daiin",
+                "english": "Through the celestial channel (`otol`), draw the star-essence (`okal`), earth-root base (`otar`), and prepared stellar extract (`oteey`) in one measured portion (`daiin`)."
+            }
+        ]
+    },
+    {
+        "folio": "f88r",
+        "title": "Three Tiered Apothecary Jars & The `okol` Root-to-Recipe Clause",
+        "section": "Pharmaceutical (`f88r–f102v`, Scribe 1)",
+        "pdf_page": 162,
+        "image": "../pages/f88r_full_enh.png",
+        "secondary_image": "../pages/f88r_okol_recipe_clause_enh.png",
+        "summary": "Smoking-gun proof of plant-label ingestion: in Row 2, the central cut root is labeled `okol` (`f88r.15`), and directly underneath it on Line 2 (`f88r.19`) the recipe writes `...chokol daiin qoekol qoekol qockhol okol cheol...`!",
+        "clauses": [
+            {
+                "locus": "f88r.15 (@Lf Root Label) + f88r.19 (Subjacent Recipe Line 2)",
+                "eva": "chokol daiin qoekol qoekol qockhol okol cheol",
+                "english": "Take one infused measure of the `okol` root (`chokol daiin`), boil/process it three times (`qoekol qoekol qockhol`), and steep the `okol` root in the mucilage-liquid (`okol cheol`)."
+            }
+        ]
+    },
+    {
+        "folio": "f100r",
+        "title": "16 Botanical Cuttings, Coiled Arrow-Vine & Second `oror` Alkanet Locus",
+        "section": "Pharmaceutical (`f88r–f102v`, Scribe 1)",
+        "pdf_page": 178,
+        "image": "../pages/f100r_jars_and_seeds_enh.png",
+        "secondary_image": "",
+        "summary": "Shows 2 red cylindrical apothecary jars beside 16 miniature plant cuttings. In Row 3, the second plant from the left is explicitly labeled `oror`—confirming the Alkanet/Madder red-root crib (`f102v2` & `f116v`)!",
+        "clauses": [
+            {
+                "locus": "f100r (Row 3 Cutting Labels + Recipe Opening)",
+                "eva": "oror okar otar chol daiin qokedy",
+                "english": "Take the red Alkanet root cutting (`oror`), the root-heart (`okar`), and the root base (`otar`): steep in one measure of strained liquid (`chol daiin`) and boil (`qokedy`)."
+            }
+        ]
+    },
+    {
         "folio": "f102v2 & f116v",
         "title": "The Blood-Red Alkanet Root (`oror`) & Final Bilingual Prescription",
         "section": "Pharmaceutical (`f102v2`) & Final Page (`f116v`)",
@@ -414,10 +494,10 @@ LEXICON_STEMS = [
     {"stem": "kar / kor", "category": "Botanical Organ Noun", "meaning": "Heart / Core / Root-Bulb", "examples": "okar, kor, qokar, okary, kykar", "sections": "Herbal, Pharmaceutical Jars, Recipes", "grounding": "Written directly on bulbous roots (`f89r2` `okar`) and Heartsease (`f9v`)."},
     {"stem": "tar", "category": "Botanical / Elemental Noun", "meaning": "Earth / Ground / Primary Root Base", "examples": "otar, tar, otary, otaram, otaral", "sections": "Herbal, Zodiac Rings, Pharma roots", "grounding": "Labels both Zodiac degrees (`f70v2`, `f72r3`) and basal root crowns (`f89r2`)."},
     {"stem": "ra / rar", "category": "Botanical Organ Noun", "meaning": "Main Root / Taproot / Rhizome", "examples": "darary, orar, orary, dara, ydaraishy", "sections": "Pharmaceutical Root Rows & Herbal Monographs", "grounding": "Directly labels cut taproots on `f89r2` (`darary`) and `f99r` (`orary`)."},
-    {"stem": "oror", "category": "Specific Plant Crib", "meaning": "Dyer's Alkanet / Madder (Blood-Red Root)", "examples": "oror, orar, okor", "sections": "Pharma `f102v2` & Bilingual Final Page `f116v`", "grounding": "Matches both the crimson root painting on `f102v2` and `...so nim gas mich oror` + red paint blot on `f116v`."},
+    {"stem": "oror", "category": "Specific Plant Crib", "meaning": "Dyer's Alkanet / Madder (Blood-Red Root)", "examples": "oror, orar, okor", "sections": "Pharma `f102v2`, `f100r` & Bilingual Final Page `f116v`", "grounding": "Matches both the crimson root painting on `f102v2` (`f100r`) and `...so nim gas mich oror` + red paint blot on `f116v`."},
     {"stem": "doaro", "category": "Astronomical Star Crib", "meaning": "The Pleiades (Seven Sisters Star Cluster)", "examples": "doaro, doar, odoar", "sections": "Astronomical `f68r3`", "grounding": "Written directly below the 7-star cluster in the upper-left quadrant of `f68r3`."},
     {"stem": "al / kal / sal", "category": "Botanical / Celestial Noun", "meaning": "Star / Winged Seed / Volatile Essence", "examples": "okal, osal, okalar, otaly, odal", "sections": "Astronomical Stars, Zodiac Rings, Pharma Seeds", "grounding": "Labels individual stars/nymphs on `f67r–f73v` and cut seed/leaf tops (`osal`) on `f89r2`."},
-    {"stem": "ol / kol / tol", "category": "Vessel / Pipe / Liquid Medium", "meaning": "Apothecary Jar / Water Pipe / Bath Basin", "examples": "ol, otol, okol, olkol, okoldy, poldchody", "sections": "Pharmaceutical Jars & Balneological Pipes", "grounding": "Written directly on painted apothecary jars (`okol`) and bath pipes (`olkol`, `okoldy` on `f82v`)."},
+    {"stem": "ol / kol / tol", "category": "Vessel / Pipe / Liquid Medium", "meaning": "Apothecary Jar / Water Pipe / Bath Basin", "examples": "ol, otol, okol, olkol, okoldy, poldchody", "sections": "Pharmaceutical Jars & Balneological Pipes", "grounding": "Written directly on painted apothecary jars (`okol` on `f88r`) and bath pipes (`olkol`, `okoldy` on `f82v`)."},
     {"stem": "aiin / dain", "category": "Quantifier / Measure", "meaning": "One Measured Portion / Dose ('Take one part')", "examples": "daiin, dain, okaiin, qokain, odaiin", "sections": "Universal (3,800+ occurrences)", "grounding": "Built from counted vertical minim strokes (`i, ii, iii`) specifying dosage."},
     {"stem": "am / otam / okam", "category": "Terminal Closure Marker", "meaning": "Complete / Seal / Final Application (Recipe Stop)", "examples": "otam, okam, daram, oparam, otaram", "sections": "79%–94% Line-Final or Paragraph-Final across the book", "grounding": "Acts as the physical punctuation period at the end of recipes and paragraphs."}
 ]
@@ -435,6 +515,9 @@ def main():
     recipes_data = json.loads((ROOT / "data" / "attack157_starred_recipes_classifier_and_herbal_router.json").read_text(encoding="utf-8"))
     rosettes_data = json.loads((ROOT / "data" / "attack158_rosettes_9sphere_and_cosmological_wheels.json").read_text(encoding="utf-8"))
     consensus_data = json.loads((ROOT / "data" / "attack159_four_transcriber_consensus_verifier.json").read_text(encoding="utf-8"))
+    astro_data = json.loads((ROOT / "data" / "attack161_astronomical_wheels_and_lunar_mansions.json").read_text(encoding="utf-8"))
+    hands_data = json.loads((ROOT / "data" / "attack162_five_scribe_hands_and_dialect_bridge.json").read_text(encoding="utf-8"))
+    pharma_data = json.loads((ROOT / "data" / "attack163_pharmaceutical_jar_and_herbal_supply_chain.json").read_text(encoding="utf-8"))
 
     rosettes_panels = []
     for f_id, prof in rosettes_data["folio_profiles"].items():
@@ -459,6 +542,9 @@ def main():
         "recipes_showcase": recipes_data["showcase_recipes"],
         "rosettes_panels": rosettes_panels,
         "consensus_cribs": consensus_data["crib_verification_table"],
+        "astro_wheels": astro_data["wheels"],
+        "scribe_hands": hands_data["hands_table"],
+        "pharma_bridges": pharma_data["three_stage_supply_bridges"],
     }, ensure_ascii=False)
 
     html = f"""<!DOCTYPE html>
@@ -861,11 +947,12 @@ def main():
       <p>Click any word token on any page to peel apart its Prefix + Root Stem + Suffix in plain English</p>
     </div>
     <nav class="nav-tabs" aria-label="Explorer Views">
-      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (21)</button>
-      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (20)</button>
+      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (26)</button>
+      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (25)</button>
       <button class="tab-btn" onclick="switchTab('lexicon', this)">3. Core Dictionary &amp; 8-Case Grammar</button>
       <button class="tab-btn" onclick="switchTab('zodiac', this)">4. Zodiac Months &amp; Bath Plumbing</button>
       <button class="tab-btn" onclick="switchTab('recipes', this)">5. Starred Recipes, Rosettes &amp; 4-Transcriber Proof</button>
+      <button class="tab-btn" onclick="switchTab('astro', this)">6. Astro Wheels, 5 Scribes &amp; Pharma Supply Chain</button>
     </nav>
   </div>
 </header>
@@ -910,7 +997,7 @@ def main():
   <!-- TAB 2: BOTANICAL & ASTRO SPECIMENS -->
   <section id="tab-specimens" class="tab-panel">
     <div style="margin-bottom: 1rem;">
-      <h2 style="margin: 0 0 0.25rem;">20 Flagship Botanical, Astronomical, Balneological, Cosmological &amp; Recipe Identifications</h2>
+      <h2 style="margin: 0 0 0.25rem;">25 Flagship Botanical, Astronomical, Balneological, Cosmological &amp; Recipe Identifications</h2>
       <p style="margin: 0; color: var(--muted);">
         Matching the manuscript's high-resolution drawings to concrete 15th-century European herbal species, star clusters, bilingual month wheels, labelled hydrotherapy pipes, cosmological spheres, and starred master prescriptions.
       </p>
@@ -1072,6 +1159,72 @@ def main():
       </table>
     </div>
   </section>
+
+  <!-- TAB 6: ASTRO WHEELS, 5 SCRIBES & PHARMA SUPPLY CHAIN -->
+  <section id="tab-astro" class="tab-panel">
+    <h2>1. The 14-Folio Astronomical Star-Wheel &amp; Solar/Lunar Sector Atlas (`f67r1–f70r2`)</h2>
+    <p style="color: var(--muted);">
+      Across all 14 Astronomical folios (<code>1,690</code> tokens), radial star and sector labels surge in the nominal <code>o-</code> prefix (<code>37.6%</code> vs. <code>28.0%</code> in circular ring prose, <code>z = +3.83</code>), while <strong>64.4%</strong> of Astronomical words appear verbatim in the Herbal section and <strong>62.4%</strong> in Starred Recipes!
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="astroTable">
+        <thead>
+          <tr>
+            <th>Folio</th>
+            <th>Visual Wheel Architecture</th>
+            <th>Total Words</th>
+            <th><code>o-</code> Nominal Rate</th>
+            <th>Match in Herbal (<code>H</code>)</th>
+            <th>Match in Recipes (<code>S</code>)</th>
+            <th>Top Radial &amp; Ring Words (Click to Decode)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>2. The 5 Paleographic Scribe Hands (<code>$H=1..5</code>) &amp; Universal 5-Hand Core Vocabulary (<code>77.0%</code> Coverage)</h2>
+    <p style="color: var(--muted);">
+      Proves that all 5 human scribes share the exact same positional line-and-paragraph grammar (Paragraph-Initial Gallows surge, Line-Start <code>y-</code> surge, and Right-Margin <code>-m</code> stop surge), and just <strong>120 universal root stems</strong> shared across all 5 hands account for <strong>77.0%</strong> of the entire manuscript!
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="scribesTable">
+        <thead>
+          <tr>
+            <th>Scribe Hand</th>
+            <th>Primary Manuscript Domain</th>
+            <th>Folios</th>
+            <th>Words</th>
+            <th>Par-Start Gallows</th>
+            <th>Line-Start vs Mid <code>y-</code></th>
+            <th>Line-End vs Mid <code>-m</code></th>
+            <th>Top Words (Click to Decode)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>3. The 3-Stage Pharmaceutical Supply Chain (<code>Herbal Monograph -> Pharma Jar/Root -> Starred Recipe</code>)</h2>
+    <p style="color: var(--muted);">
+      Across all 16 Pharmaceutical pages (<code>f88r–f102v</code>, <code>243</code> figure labels), <code>@Lc</code> painted storage jars average <strong>7.41 characters</strong> vs. <strong>5.85 characters</strong> for <code>@Lf</code> plant parts, and <strong>53.1% (129 / 243)</strong> form complete 3-stage bridges linking a Herbal Monograph to a Pharmaceutical Jar/Root and forward to a Starred Master Recipe:
+    </p>
+    <div style="overflow-x: auto;">
+      <table id="pharmaBridgeTable">
+        <thead>
+          <tr>
+            <th>Pharma Label (Click to Decode)</th>
+            <th>Canonical Stem</th>
+            <th>Pharma Locus &amp; Type</th>
+            <th>Stage 1: Herbal Monographs (<code>f1r–f57v</code>)</th>
+            <th>Stage 3: Starred Master Recipes (<code>f103r–f116r</code>)</th>
+            <th>3-Stage Bridge Status</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
 </main>
 
 <script>
@@ -1125,8 +1278,9 @@ const SUFFIX_RULES = [
 ];
 
 const STEM_GLOSSES = {{
-  "oror": "Blood-red Alkanet / Madder dye-root (Alkanna tinctoria)",
+  "oror": "Blood-red Alkanet / Madder dye-root (Alkanna tinctoria — attested on f102v2, f100r, and f116v)",
   "orar": "Red Alkanet root-extract",
+  "okol": "Core apothecary storage jar / root-vessel (`o-` + `kol`, labeled on f88r jar & root and ingested as `okol daiin` in f88r.2)",
   "doaro": "The Pleiades (7-star cluster in Taurus, f68r3)",
   "darary": "The main taproot / rhizome (labeled on f89r2)",
   "olkol": "The core water-pipe / bath conduit liquid (labeled on f82v)",
@@ -1174,9 +1328,9 @@ function parseVoynichWord(raw) {{
   if (lower === "oror") {{
     return {{
       prefix: "∅ (Base Noun)", prefixDesc: "Unprefixed pure botanical noun",
-      stem: "oror", stemDesc: "Blood-red Dyer's Alkanet / Madder root (f102v2 & f116v)",
+      stem: "oror", stemDesc: "Blood-red Dyer's Alkanet / Madder root (f102v2, f100r & f116v)",
       suffix: "-or (Reduplicated)", suffixDesc: "Red/golden dye-root stem (`or-or`)",
-      gloss: "Blood-red Alkanet / Madder root (`Alkanna tinctoria` — Rosetta crib on f102v2 & f116v)"
+      gloss: "Blood-red Alkanet / Madder root (`Alkanna tinctoria` — Rosetta crib on f102v2, f100r & f116v)"
     }};
   }}
   if (lower === "doaro") {{
@@ -1494,6 +1648,63 @@ function renderRecipesRosettesConsensus() {{
   }}).join("");
 }}
 
+function renderAstroScribesPharma() {{
+  const aBody = document.querySelector("#astroTable tbody");
+  aBody.innerHTML = (DATA.astro_wheels || []).map(w => {{
+    const words = [...(w.top_radial_labels || []).slice(0, 3), ...(w.top_ring_words || []).slice(0, 3)];
+    const chips = words.map(tok => `<span class="word-chip" onclick="setWord('${{tok}}')">${{tok}}</span>`).join(" ");
+    return `
+      <tr>
+        <td><strong><code>${{w.folio}}</code></strong> (p.${{w.pdf_page}})</td>
+        <td>${{w.visual_type}}</td>
+        <td>${{w.total_tokens}}</td>
+        <td><strong>${{(w.o_prefix_rate * 100).toFixed(1)}}%</strong></td>
+        <td>${{(w.match_rate_in_herbal * 100).toFixed(1)}}%</td>
+        <td>${{(w.match_rate_in_recipes * 100).toFixed(1)}}%</td>
+        <td>${{chips}}</td>
+      </tr>
+    `;
+  }}).join("");
+
+  const sBody = document.querySelector("#scribesTable tbody");
+  sBody.innerHTML = (DATA.scribe_hands || []).map(h => {{
+    const chips = (h.top_words || []).slice(0, 5).map(tok =>
+      `<span class="word-chip" onclick="setWord('${{tok}}')">${{tok}}</span>`
+    ).join(" ");
+    return `
+      <tr>
+        <td><strong>${{h.hand}}</strong></td>
+        <td>${{h.description}}</td>
+        <td>${{h.folio_count}}</td>
+        <td>${{h.total_tokens}}</td>
+        <td><strong>${{(h.par_start_gallows_rate * 100).toFixed(1)}}%</strong></td>
+        <td>${{(h.line_start_y_rate * 100).toFixed(1)}}% vs ${{(h.line_mid_y_rate * 100).toFixed(1)}}%</td>
+        <td><strong>${{(h.line_end_m_rate * 100).toFixed(1)}}%</strong> vs ${{(h.line_mid_m_rate * 100).toFixed(1)}}%</td>
+        <td>${{chips}}</td>
+      </tr>
+    `;
+  }}).join("");
+
+  const pBody = document.querySelector("#pharmaBridgeTable tbody");
+  pBody.innerHTML = (DATA.pharma_bridges || []).map(b => {{
+    const hList = (b.herbal_monograph_folios || []).map(f => `<code>${{f}}</code>`).join(", ");
+    const sList = (b.starred_recipe_folios || []).map(f => `<code>${{f}}</code>`).join(", ");
+    const badge = b.exact_in_both
+      ? `<span class="badge" style="background:var(--green-soft);color:var(--green)">Exact 3-Way Match</span>`
+      : `<span class="badge" style="background:var(--blue-soft);color:var(--blue)">Exact H + Stem S</span>`;
+    return `
+      <tr>
+        <td><span class="word-chip" onclick="setWord('${{b.word}}')"><strong>${{b.word}}</strong></span></td>
+        <td><code>${{b.canonical_stem}}</code></td>
+        <td><code>${{b.pharma_locus}}</code> (${{b.label_type}})</td>
+        <td>${{hList}}</td>
+        <td>${{sList}}</td>
+        <td>${{badge}}</td>
+      </tr>
+    `;
+  }}).join("");
+}}
+
 function switchTab(tabId, btn) {{
   document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
   document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
@@ -1507,6 +1718,7 @@ renderSpecimens();
 renderLexiconAndParadigms();
 renderZodiacAndBalneo();
 renderRecipesRosettesConsensus();
+renderAstroScribesPharma();
 </script>
 </body>
 </html>

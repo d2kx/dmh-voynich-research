@@ -1,0 +1,891 @@
+{
+  "attack": 163,
+  "phase": 174,
+  "discovery": 180,
+  "title": "Complete Pharmaceutical Workbench (f88r-f102v) & 3-Stage Herbal-Pharma-Recipe Supply Chain",
+  "summary": {
+    "total_pharma_folios": 16,
+    "total_pharma_labels": 243,
+    "jar_labels_lc_count": 37,
+    "plant_labels_lf_count": 206,
+    "avg_jar_label_len": 7.41,
+    "avg_plant_label_len": 5.85,
+    "exact_herbal_match_rate": 0.3128,
+    "exact_recipe_match_rate": 0.2922,
+    "exact_3stage_bridge_rate": 0.2387,
+    "stem_3stage_bridge_rate": 0.5309
+  },
+  "pharma_folios": [
+    {
+      "folio": "f88r",
+      "jar_labels_count": 3,
+      "plant_labels_count": 13,
+      "prose_tokens_count": 129,
+      "same_page_stem_echo_count": 3,
+      "jar_labels": [
+        "otorchety",
+        "otaldy",
+        "ofyskydal"
+      ],
+      "top_plant_labels": [
+        "osal",
+        "orald",
+        "oldar",
+        "otoky",
+        "otaly",
+        "oram",
+        "dary",
+        "okol"
+      ],
+      "top_prose_words": [
+        "cheol",
+        "chol",
+        "or",
+        "qokol",
+        "aiin",
+        "cheom"
+      ]
+    },
+    {
+      "folio": "f88v",
+      "jar_labels_count": 3,
+      "plant_labels_count": 11,
+      "prose_tokens_count": 127,
+      "same_page_stem_echo_count": 5,
+      "jar_labels": [
+        "okalyd",
+        "otoram",
+        "daramdal"
+      ],
+      "top_plant_labels": [
+        "cheocthy",
+        "cpheor",
+        "otar",
+        "arody",
+        "otokol",
+        "otora",
+        "cheosdy",
+        "okaiin"
+      ],
+      "top_prose_words": [
+        "qokeody",
+        "daiin",
+        "cheody",
+        "cheor",
+        "qokeey",
+        "qokeo"
+      ]
+    },
+    {
+      "folio": "f89r1",
+      "jar_labels_count": 3,
+      "plant_labels_count": 12,
+      "prose_tokens_count": 120,
+      "same_page_stem_echo_count": 2,
+      "jar_labels": [
+        "okchshy",
+        "ykyd",
+        "ykocfhy"
+      ],
+      "top_plant_labels": [
+        "qkol",
+        "oldam",
+        "otoldy",
+        "ararchodaiin",
+        "chol",
+        "ches",
+        "otorain",
+        "okaiin"
+      ],
+      "top_prose_words": [
+        "dal",
+        "daiin",
+        "cheody",
+        "chol",
+        "dam",
+        "sheey"
+      ]
+    },
+    {
+      "folio": "f89r2",
+      "jar_labels_count": 4,
+      "plant_labels_count": 17,
+      "prose_tokens_count": 209,
+      "same_page_stem_echo_count": 9,
+      "jar_labels": [
+        "odory",
+        "otoldy",
+        "korainy",
+        "okain"
+      ],
+      "top_plant_labels": [
+        "doly",
+        "opchosam",
+        "saloiinsheol",
+        "opcheor",
+        "okol",
+        "shol",
+        "dy",
+        "opchoroiin"
+      ],
+      "top_prose_words": [
+        "daiin",
+        "qokeey",
+        "cheol",
+        "dair",
+        "dal",
+        "cheor"
+      ]
+    },
+    {
+      "folio": "f89v2",
+      "jar_labels_count": 3,
+      "plant_labels_count": 13,
+      "prose_tokens_count": 157,
+      "same_page_stem_echo_count": 4,
+      "jar_labels": [
+        "choeesy",
+        "otory",
+        "aopaloiiry"
+      ],
+      "top_plant_labels": [
+        "okam",
+        "darcheor",
+        "chokaro",
+        "sheol",
+        "chokam",
+        "otair",
+        "chody",
+        "dykaran"
+      ],
+      "top_prose_words": [
+        "daiin",
+        "dar",
+        "aiin",
+        "dair",
+        "chey",
+        "dam"
+      ]
+    },
+    {
+      "folio": "f89v1",
+      "jar_labels_count": 2,
+      "plant_labels_count": 7,
+      "prose_tokens_count": 142,
+      "same_page_stem_echo_count": 1,
+      "jar_labels": [
+        "okoraldy",
+        "koeeorain"
+      ],
+      "top_plant_labels": [
+        "otoy",
+        "otchar",
+        "darshody",
+        "otorshos",
+        "opol",
+        "olaiin",
+        "opaldaiin"
+      ],
+      "top_prose_words": [
+        "daiin",
+        "qokol",
+        "okol",
+        "ol",
+        "dal",
+        "cthody"
+      ]
+    },
+    {
+      "folio": "f99r",
+      "jar_labels_count": 4,
+      "plant_labels_count": 29,
+      "prose_tokens_count": 155,
+      "same_page_stem_echo_count": 4,
+      "jar_labels": [
+        "aokaradag",
+        "aoparal",
+        "atsholdy",
+        "ayteoldy"
+      ],
+      "top_plant_labels": [
+        "bokar",
+        "darar",
+        "oky",
+        "salo",
+        "aro",
+        "okor",
+        "ralol",
+        "skeeal"
+      ],
+      "top_prose_words": [
+        "okeol",
+        "daiin",
+        "okeey",
+        "sheol",
+        "ckhey",
+        "ckhol"
+      ]
+    },
+    {
+      "folio": "f99v",
+      "jar_labels_count": 4,
+      "plant_labels_count": 22,
+      "prose_tokens_count": 135,
+      "same_page_stem_echo_count": 6,
+      "jar_labels": [
+        "aokaramy",
+        "aokoldody",
+        "adarolaly",
+        "aoralas"
+      ],
+      "top_plant_labels": [
+        "botoldy",
+        "otorchy",
+        "oldy",
+        "darary",
+        "otaly",
+        "olsy",
+        "arol",
+        "otoky"
+      ],
+      "top_prose_words": [
+        "qokeol",
+        "ol",
+        "aiin",
+        "okol",
+        "okeol",
+        "qokol"
+      ]
+    },
+    {
+      "folio": "f100r",
+      "jar_labels_count": 0,
+      "plant_labels_count": 20,
+      "prose_tokens_count": 89,
+      "same_page_stem_echo_count": 2,
+      "jar_labels": [],
+      "top_plant_labels": [
+        "chosaroshol",
+        "sochorcfhy",
+        "otear",
+        "chofary",
+        "sar",
+        "chardaiindy",
+        "oraro",
+        "chalsain"
+      ],
+      "top_prose_words": [
+        "chol",
+        "shol",
+        "cheol",
+        "sheey",
+        "cho",
+        "daiin"
+      ]
+    },
+    {
+      "folio": "f100v",
+      "jar_labels_count": 0,
+      "plant_labels_count": 14,
+      "prose_tokens_count": 76,
+      "same_page_stem_echo_count": 1,
+      "jar_labels": [],
+      "top_plant_labels": [
+        "tolchd",
+        "chols",
+        "opchor",
+        "solsy",
+        "soleesos",
+        "ykchochdy",
+        "ykchdy",
+        "dchdy"
+      ],
+      "top_prose_words": [
+        "ol",
+        "chol",
+        "qokeol",
+        "daiin",
+        "cheey",
+        "okeol"
+      ]
+    },
+    {
+      "folio": "f101r",
+      "jar_labels_count": 0,
+      "plant_labels_count": 0,
+      "prose_tokens_count": 217,
+      "same_page_stem_echo_count": 0,
+      "jar_labels": [],
+      "top_plant_labels": [],
+      "top_prose_words": [
+        "daiin",
+        "ol",
+        "or",
+        "chol",
+        "shey",
+        "okeol"
+      ]
+    },
+    {
+      "folio": "f101v",
+      "jar_labels_count": 0,
+      "plant_labels_count": 18,
+      "prose_tokens_count": 184,
+      "same_page_stem_echo_count": 1,
+      "jar_labels": [],
+      "top_plant_labels": [
+        "sairaly",
+        "otaldy",
+        "otol",
+        "ytal",
+        "dokor",
+        "orar",
+        "otarar",
+        "otoly"
+      ],
+      "top_prose_words": [
+        "daiin",
+        "or",
+        "cheol",
+        "chor",
+        "ol",
+        "okeey"
+      ]
+    },
+    {
+      "folio": "f102r1",
+      "jar_labels_count": 3,
+      "plant_labels_count": 1,
+      "prose_tokens_count": 97,
+      "same_page_stem_echo_count": 0,
+      "jar_labels": [
+        "adaarod",
+        "aokolaly",
+        "addardsh"
+      ],
+      "top_plant_labels": [
+        "botodeeodor"
+      ],
+      "top_prose_words": [
+        "chol",
+        "daiin",
+        "qoteol",
+        "ykeeol",
+        "sheey",
+        "or"
+      ]
+    },
+    {
+      "folio": "f102r2",
+      "jar_labels_count": 4,
+      "plant_labels_count": 2,
+      "prose_tokens_count": 131,
+      "same_page_stem_echo_count": 1,
+      "jar_labels": [
+        "kodaiig",
+        "okrolda",
+        "loeekadagtop",
+        "word"
+      ],
+      "top_plant_labels": [
+        "koldarod",
+        "odalydary"
+      ],
+      "top_prose_words": [
+        "dol",
+        "shey",
+        "olaiin",
+        "daiin",
+        "qokol",
+        "sheo"
+      ]
+    },
+    {
+      "folio": "f102v2",
+      "jar_labels_count": 2,
+      "plant_labels_count": 19,
+      "prose_tokens_count": 153,
+      "same_page_stem_echo_count": 4,
+      "jar_labels": [
+        "aporshols",
+        "aokolky"
+      ],
+      "top_plant_labels": [
+        "coror",
+        "chor",
+        "sachy",
+        "okeos",
+        "okol",
+        "otory",
+        "ok",
+        "okody"
+      ],
+      "top_prose_words": [
+        "okey",
+        "qokeor",
+        "okeol",
+        "ol",
+        "okeeor",
+        "or"
+      ]
+    },
+    {
+      "folio": "f102v1",
+      "jar_labels_count": 2,
+      "plant_labels_count": 8,
+      "prose_tokens_count": 115,
+      "same_page_stem_echo_count": 2,
+      "jar_labels": [
+        "akeoraiiin",
+        "adindy"
+      ],
+      "top_plant_labels": [
+        "bokeody",
+        "okeody",
+        "daiisaly",
+        "ypary",
+        "opchyt",
+        "bypcholdy",
+        "loralody",
+        "opchdard"
+      ],
+      "top_prose_words": [
+        "cheol",
+        "shey",
+        "ol",
+        "cheor",
+        "qokey",
+        "daiin"
+      ]
+    }
+  ],
+  "three_stage_supply_bridges": [
+    {
+      "pharma_folio": "f88r",
+      "pharma_locus": "f88r.6,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "otaly",
+      "canonical_stem": "al",
+      "herbal_monograph_folios": [
+        "f94r"
+      ],
+      "starred_recipe_folios": [
+        "f103v",
+        "f105r",
+        "f58r",
+        "f58v"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f88r",
+      "pharma_locus": "f88r.12,@Lc",
+      "label_type": "@Lc (Apothecary Jar)",
+      "word": "otaldy",
+      "canonical_stem": "al",
+      "herbal_monograph_folios": [
+        "f95v1"
+      ],
+      "starred_recipe_folios": [
+        "f58r"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f88r",
+      "pharma_locus": "f88r.13,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "oram",
+      "canonical_stem": "ram",
+      "herbal_monograph_folios": [
+        "f33v"
+      ],
+      "starred_recipe_folios": [
+        "f104v",
+        "f108v",
+        "f112r",
+        "f113r"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f88v",
+      "pharma_locus": "f88v.2,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "cheocthy",
+      "canonical_stem": "cheocth",
+      "herbal_monograph_folios": [
+        "f57r"
+      ],
+      "starred_recipe_folios": [
+        "f115r"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f88v",
+      "pharma_locus": "f88v.4,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "arody",
+      "canonical_stem": "ar",
+      "herbal_monograph_folios": [
+        "f40v"
+      ],
+      "starred_recipe_folios": [
+        "f105r",
+        "f107v",
+        "f112r",
+        "f113r",
+        "f114v",
+        "f116r"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f89v2",
+      "pharma_locus": "f89v2.6,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "chokam",
+      "canonical_stem": "chok",
+      "herbal_monograph_folios": [
+        "f52r"
+      ],
+      "starred_recipe_folios": [
+        "f113v"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f89v1",
+      "pharma_locus": "f89v1.2,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "otoy",
+      "canonical_stem": "oy",
+      "herbal_monograph_folios": [
+        "f42v"
+      ],
+      "starred_recipe_folios": [
+        "f103r"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f101v",
+      "pharma_locus": "f101v.8,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "otoly",
+      "canonical_stem": "ol",
+      "herbal_monograph_folios": [
+        "f37r"
+      ],
+      "starred_recipe_folios": [
+        "f104r"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f102v2",
+      "pharma_locus": "f102v2.14,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "sarol",
+      "canonical_stem": "rol",
+      "herbal_monograph_folios": [
+        "f39v"
+      ],
+      "starred_recipe_folios": [
+        "f112r"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f88v",
+      "pharma_locus": "f88v.3,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "cpheor",
+      "canonical_stem": "cthe",
+      "herbal_monograph_folios": [
+        "f17v",
+        "f96r"
+      ],
+      "starred_recipe_folios": [
+        "f105v"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f89v1",
+      "pharma_locus": "f89v1.3,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "otchar",
+      "canonical_stem": "ch",
+      "herbal_monograph_folios": [
+        "f45r",
+        "f8v"
+      ],
+      "starred_recipe_folios": [
+        "f113v"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f100v",
+      "pharma_locus": "f100v.2,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "chols",
+      "canonical_stem": "chols",
+      "herbal_monograph_folios": [
+        "f27r",
+        "f5v"
+      ],
+      "starred_recipe_folios": [
+        "f115r"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f100v",
+      "pharma_locus": "f100v.3,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "opchor",
+      "canonical_stem": "ch",
+      "herbal_monograph_folios": [
+        "f13r",
+        "f49r"
+      ],
+      "starred_recipe_folios": [
+        "f106r"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f100v",
+      "pharma_locus": "f100v.7,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "ykchdy",
+      "canonical_stem": "ch",
+      "herbal_monograph_folios": [
+        "f34r",
+        "f46v"
+      ],
+      "starred_recipe_folios": [
+        "f104r"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f99r",
+      "pharma_locus": "f99r.11,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "okary",
+      "canonical_stem": "ar",
+      "herbal_monograph_folios": [
+        "f33v",
+        "f3v",
+        "f40v"
+      ],
+      "starred_recipe_folios": [
+        "f112r",
+        "f114v"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f99v",
+      "pharma_locus": "f99v.4,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "oldy",
+      "canonical_stem": "dy",
+      "herbal_monograph_folios": [
+        "f13r",
+        "f40v",
+        "f46v"
+      ],
+      "starred_recipe_folios": [
+        "f107v",
+        "f108v"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f99v",
+      "pharma_locus": "f99v.30,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "olky",
+      "canonical_stem": "ky",
+      "herbal_monograph_folios": [
+        "f39v",
+        "f43r",
+        "f95r2"
+      ],
+      "starred_recipe_folios": [
+        "f112v"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f101v",
+      "pharma_locus": "f101v.17,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "odor",
+      "canonical_stem": "or",
+      "herbal_monograph_folios": [
+        "f24v",
+        "f53r",
+        "f94r"
+      ],
+      "starred_recipe_folios": [
+        "f105v"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f102v2",
+      "pharma_locus": "f102v2.9,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "ok",
+      "canonical_stem": "ok",
+      "herbal_monograph_folios": [
+        "f23r",
+        "f24v",
+        "f48v"
+      ],
+      "starred_recipe_folios": [
+        "f103r"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f101v",
+      "pharma_locus": "f101v.4,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "ytal",
+      "canonical_stem": "tal",
+      "herbal_monograph_folios": [
+        "f22v",
+        "f34v",
+        "f54v",
+        "f65v"
+      ],
+      "starred_recipe_folios": [
+        "f58r",
+        "f58v"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f102v2",
+      "pharma_locus": "f102v2.13,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "opchy",
+      "canonical_stem": "ch",
+      "herbal_monograph_folios": [
+        "f13r",
+        "f16r",
+        "f20v",
+        "f22r"
+      ],
+      "starred_recipe_folios": [
+        "f103r",
+        "f103v",
+        "f106r",
+        "f106v",
+        "f111v",
+        "f112v"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f88r",
+      "pharma_locus": "f88r.14,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "dary",
+      "canonical_stem": "ry",
+      "herbal_monograph_folios": [
+        "f29v",
+        "f32r",
+        "f43v",
+        "f45r",
+        "f55v"
+      ],
+      "starred_recipe_folios": [
+        "f111r",
+        "f114r",
+        "f114v",
+        "f115v"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f88r",
+      "pharma_locus": "f88r.15,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "okol",
+      "canonical_stem": "ol",
+      "herbal_monograph_folios": [
+        "f14r",
+        "f17v",
+        "f1v",
+        "f23r",
+        "f23v",
+        "f24r"
+      ],
+      "starred_recipe_folios": [
+        "f105v",
+        "f106r",
+        "f107v",
+        "f108r",
+        "f113r",
+        "f113v"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f88r",
+      "pharma_locus": "f88r.24,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "otor",
+      "canonical_stem": "or",
+      "herbal_monograph_folios": [
+        "f10r",
+        "f16v",
+        "f17v",
+        "f20v",
+        "f21r",
+        "f23v"
+      ],
+      "starred_recipe_folios": [
+        "f104r",
+        "f104v",
+        "f105v",
+        "f106v",
+        "f107r",
+        "f113v"
+      ],
+      "exact_in_both": true
+    },
+    {
+      "pharma_folio": "f88r",
+      "pharma_locus": "f88r.24,@Lf",
+      "label_type": "@Lf (Plant Organ)",
+      "word": "am",
+      "canonical_stem": "am",
+      "herbal_monograph_folios": [
+        "f10r",
+        "f1v",
+        "f24r",
+        "f28v",
+        "f3r",
+        "f40v"
+      ],
+      "starred_recipe_folios": [
+        "f103r",
+        "f104v",
+        "f105r",
+        "f105v",
+        "f106v",
+        "f107r"
+      ],
+      "exact_in_both": true
+    }
+  ]
+}

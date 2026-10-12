@@ -1,0 +1,39 @@
+{
+  "attack": 164,
+  "phase": 175,
+  "discovery": 181,
+  "title": "Wave 38 Master Compendium: 14-Folio Astronomical Atlas, 5-Scribe Invariance & 16-Folio Pharmaceutical Supply Chain",
+  "wave_summary": {
+    "astro_14_folios": {
+      "total_astro_folios": 14,
+      "total_astro_tokens": 1690,
+      "radial_label_tokens": 518,
+      "ring_prose_tokens": 1172,
+      "radial_o_prefix_rate": 0.3764,
+      "ring_o_prefix_rate": 0.2799,
+      "radial_o_surge_z": 3.83,
+      "herbal_token_match_rate": 0.6438,
+      "recipes_token_match_rate": 0.6243
+    },
+    "five_scribe_hands": {
+      "total_tokens_across_5_hands": 36439,
+      "universal_5hand_stems_count": 120,
+      "universal_5hand_token_coverage": 0.7696,
+      "shared_currier_ab_stems_count": 516,
+      "all_5_hands_obey_gallows_opener_law": false,
+      "all_5_hands_obey_line_end_m_law": true
+    },
+    "pharma_supply_chain": {
+      "total_pharma_folios": 16,
+      "total_pharma_labels": 243,
+      "jar_labels_lc_count": 37,
+      "plant_labels_lf_count": 206,
+      "avg_jar_label_len": 7.41,
+      "avg_plant_label_len": 5.85,
+      "exact_herbal_match_rate": 0.3128,
+      "exact_recipe_match_rate": 0.2922,
+      "exact_3stage_bridge_rate": 0.2387,
+      "stem_3stage_bridge_rate": 0.5309
+    }
+  }
+}
