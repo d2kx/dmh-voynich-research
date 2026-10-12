@@ -1,0 +1,5570 @@
+{
+  "attack": "Attack 126 (Phase 137 / Discovery 143)",
+  "title": "Complete 95-Folio Currier A Herbal ($I=H, $L=A) Monograph Translator & Three-Stratum Botanical-to-Apothecary Progression Law",
+  "stratum_progression": {
+    "STRATUM_I_EARLY_PURE_A (Quires A-C)": {
+      "n_folios": 45,
+      "mean_tokens": 84.87,
+      "mean_paras": 1.98,
+      "mean_unique_stems": 26.11,
+      "mean_qo_pct": 8.9,
+      "mean_cth_ckh_pct": 12.66,
+      "mean_ol_or_al_ar_pct": 30.62,
+      "mean_aiin_pct": 13.82,
+      "mean_idf_P": 24.329,
+      "mean_idf_f58": 9.031,
+      "mean_idf_B": 19.211,
+      "mean_idf_S": 32.517,
+      "mean_idf_PBS": 41.19,
+      "mean_P_per_100w": 28.099,
+      "mean_PBS_per_100w": 48.418
+    },
+    "STRATUM_II_CENTRAL_MIXED (Quires D-G)": {
+      "n_folios": 40,
+      "mean_tokens": 84.4,
+      "mean_paras": 1.9,
+      "mean_unique_stems": 26.93,
+      "mean_qo_pct": 9.32,
+      "mean_cth_ckh_pct": 12.84,
+      "mean_ol_or_al_ar_pct": 27.75,
+      "mean_aiin_pct": 14.92,
+      "mean_idf_P": 24.52,
+      "mean_idf_f58": 8.413,
+      "mean_idf_B": 17.549,
+      "mean_idf_S": 34.74,
+      "mean_idf_PBS": 42.799,
+      "mean_P_per_100w": 29.797,
+      "mean_PBS_per_100w": 51.307
+    },
+    "STRATUM_III_APOTHECARY_ADJACENT (Quires O, Q)": {
+      "n_folios": 10,
+      "mean_tokens": 85.5,
+      "mean_paras": 1.4,
+      "mean_unique_stems": 40.5,
+      "mean_qo_pct": 10.4,
+      "mean_cth_ckh_pct": 6.13,
+      "mean_ol_or_al_ar_pct": 33.52,
+      "mean_aiin_pct": 7.81,
+      "mean_idf_P": 43.055,
+      "mean_idf_f58": 13.653,
+      "mean_idf_B": 21.982,
+      "mean_idf_S": 47.066,
+      "mean_idf_PBS": 65.268,
+      "mean_P_per_100w": 51.328,
+      "mean_PBS_per_100w": 77.452
+    }
+  },
+  "stratum_iii_pharm_permutation_test": {
+    "n_stratum_iii_folios": 10,
+    "observed_mean_idf_P": 43.055,
+    "null_mean_idf_P": 26.248,
+    "null_std_idf_P": 4.047,
+    "lift": 1.64,
+    "z_score": 4.15
+  },
+  "scribe1_fixed_sheet_tier_comparison_quires_A_to_G": {
+    "OUTER_WRAPPER_B1": {
+      "n_folios": 19,
+      "mean_tokens": 97.0,
+      "mean_paras": 2.05,
+      "mean_unique_stems": 32.11,
+      "mean_qo_pct": 7.58,
+      "mean_cth_ckh_pct": 12.44,
+      "mean_ol_or_al_ar_pct": 31.55,
+      "mean_aiin_pct": 12.74,
+      "mean_idf_P": 28.352,
+      "mean_idf_f58": 10.745,
+      "mean_idf_B": 21.042,
+      "mean_idf_S": 41.222,
+      "mean_idf_PBS": 49.66,
+      "mean_P_per_100w": 29.547,
+      "mean_PBS_per_100w": 52.458
+    },
+    "INTERMEDIATE_B2_B3": {
+      "n_folios": 40,
+      "mean_tokens": 84.75,
+      "mean_paras": 1.77,
+      "mean_unique_stems": 25.73,
+      "mean_qo_pct": 8.64,
+      "mean_cth_ckh_pct": 12.62,
+      "mean_ol_or_al_ar_pct": 29.34,
+      "mean_aiin_pct": 14.33,
+      "mean_idf_P": 24.543,
+      "mean_idf_f58": 8.676,
+      "mean_idf_B": 19.505,
+      "mean_idf_S": 33.276,
+      "mean_idf_PBS": 42.363,
+      "mean_P_per_100w": 28.849,
+      "mean_PBS_per_100w": 49.74
+    },
+    "INNER_CENTERFOLD_B4": {
+      "n_folios": 26,
+      "mean_tokens": 75.46,
+      "mean_paras": 2.12,
+      "mean_unique_stems": 23.58,
+      "mean_qo_pct": 10.91,
+      "mean_cth_ckh_pct": 13.16,
+      "mean_ol_or_al_ar_pct": 27.48,
+      "mean_aiin_pct": 15.51,
+      "mean_idf_P": 21.354,
+      "mean_idf_f58": 7.373,
+      "mean_idf_B": 14.863,
+      "mean_idf_S": 28.407,
+      "mean_idf_PBS": 35.672,
+      "mean_P_per_100w": 28.498,
+      "mean_PBS_per_100w": 47.878
+    }
+  },
+  "monograph_records": [
+    {
+      "rank": 1,
+      "folio": "f1v",
+      "quire": "A",
+      "bifolio_B": 1,
+      "page_P": "B",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 92,
+      "n_paras": 2,
+      "n_unique_stems": 30,
+      "morph": {
+        "n": 92,
+        "qo_pct": 1.09,
+        "cth_ckh_pct": 5.43,
+        "ol_or_al_ar_pct": 42.39,
+        "aiin_pct": 3.26,
+        "d_s_onset_pct": 30.43
+      },
+      "routing": {
+        "P": 38.423,
+        "B": 16.683,
+        "S": 31.335,
+        "Z": 9.205,
+        "f58": 5.369,
+        "PBS": 54.056,
+        "P_per_100w": 41.764,
+        "PBS_per_100w": 58.757
+      },
+      "best_pharm": {
+        "folio": "f89v1",
+        "idf": 13.268,
+        "shared_stems": [
+          "dolC",
+          "cfh",
+          "ytEE"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 9.891,
+        "shared_stems": [
+          "Cokeo",
+          "cpho",
+          "t_Co"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79v",
+        "idf": 5.99,
+        "shared_stems": [
+          "keC",
+          "ytEE",
+          "po"
+        ]
+      },
+      "line1_eva": "kchsy . chydaiin . ol . o . l . tchey . char",
+      "line1_gloss": "kchsy <BOT:stem[k_Cs]:STAT[-y]> | chydaiin <BOT:stem[Cyd]:DOSE[-aiin]> | ol <NOM:herb+BOT:stem[ol]:FLUID[-ol/al]> | o <NOM:herb+BOT:stem[o]> | l <LOC:in-fluid+LIQ:lotion[l]> | tchey <CMPD:stalk-bench[tch]:INF[-ey]> | char <BOT:stem[Ca]:RESIN[-or/ar]>"
+    },
+    {
+      "rank": 2,
+      "folio": "f2r",
+      "quire": "A",
+      "bifolio_B": 2,
+      "page_P": "C",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 105,
+      "n_paras": 2,
+      "n_unique_stems": 34,
+      "morph": {
+        "n": 105,
+        "qo_pct": 3.81,
+        "cth_ckh_pct": 3.81,
+        "ol_or_al_ar_pct": 25.71,
+        "aiin_pct": 15.24,
+        "d_s_onset_pct": 40.95
+      },
+      "routing": {
+        "P": 32.145,
+        "B": 23.048,
+        "S": 43.838,
+        "Z": 25.058,
+        "f58": 3.449,
+        "PBS": 58.489,
+        "P_per_100w": 30.614,
+        "PBS_per_100w": 55.704
+      },
+      "best_pharm": {
+        "folio": "f89r2",
+        "idf": 10.183,
+        "shared_stems": [
+          "ytol",
+          "yo",
+          "Col"
+        ]
+      },
+      "best_starred": {
+        "folio": "f107r",
+        "idf": 13.55,
+        "shared_stems": [
+          "an",
+          "daIIN",
+          "Cyk"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f84r",
+        "idf": 12.061,
+        "shared_stems": [
+          "dk",
+          "yk_S",
+          "Cet"
+        ]
+      },
+      "line1_eva": "kydainy . ypchol . daiin . otchal . ypchaiin . ckholsy",
+      "line1_gloss": "kydainy <BOT:stem[kydain]:STAT[-y]> | ypchol <CONJ:and+BOT:stem[yp_C]:FLUID[-ol/al]> | daiin <ABL:from-root+BOT:stem[da]:DOSE[-aiin]> | otchal <NOM:herb+BOT:stem[ot_C]:FLUID[-ol/al]> | ypchaiin <CONJ:and+BOT:stem[yp_C]:DOSE[-aiin]> | ckholsy <BOT:stem[ckhols]:STAT[-y]>"
+    },
+    {
+      "rank": 3,
+      "folio": "f2v",
+      "quire": "A",
+      "bifolio_B": 2,
+      "page_P": "D",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 61,
+      "n_paras": 2,
+      "n_unique_stems": 17,
+      "morph": {
+        "n": 61,
+        "qo_pct": 4.92,
+        "cth_ckh_pct": 13.11,
+        "ol_or_al_ar_pct": 31.15,
+        "aiin_pct": 16.39,
+        "d_s_onset_pct": 27.87
+      },
+      "routing": {
+        "P": 18.041,
+        "B": 15.232,
+        "S": 27.879,
+        "Z": 4.81,
+        "f58": 1.87,
+        "PBS": 31.358,
+        "P_per_100w": 29.575,
+        "PBS_per_100w": 51.407
+      },
+      "best_pharm": {
+        "folio": "f99r",
+        "idf": 5.097,
+        "shared_stems": [
+          "Cr",
+          "CEEs"
+        ]
+      },
+      "best_starred": {
+        "folio": "f111r",
+        "idf": 9.884,
+        "shared_stems": [
+          "Cr",
+          "St",
+          "Ct"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f77r",
+        "idf": 6.885,
+        "shared_stems": [
+          "Cr",
+          "CEEs",
+          "lS"
+        ]
+      },
+      "line1_eva": "kooiin . cheo . pchor . otaiin . odain . chor . dair",
+      "line1_gloss": "kooiin <BOT:stem[koo]:DOSE[-aiin]> | cheo <BOT:stem[Ceo]> | pchor <CMPD:cup-bench[pch]:RESIN[-or/ar]> | otaiin <NOM:herb+NOM:vessel-stalk[ot]:DOSE[-aiin]> | odain <NOM:herb+BOT:stem[odai]> | chor <BOT:stem[Co]:RESIN[-or/ar]> | dair <ABL:from-root+BOT:stem[dai]>"
+    },
+    {
+      "rank": 4,
+      "folio": "f3r",
+      "quire": "A",
+      "bifolio_B": 3,
+      "page_P": "E",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 114,
+      "n_paras": 4,
+      "n_unique_stems": 41,
+      "morph": {
+        "n": 114,
+        "qo_pct": 19.3,
+        "cth_ckh_pct": 6.14,
+        "ol_or_al_ar_pct": 42.11,
+        "aiin_pct": 7.89,
+        "d_s_onset_pct": 21.93
+      },
+      "routing": {
+        "P": 30.636,
+        "B": 31.67,
+        "S": 42.922,
+        "Z": 17.934,
+        "f58": 9.877,
+        "PBS": 55.974,
+        "P_per_100w": 26.874,
+        "PBS_per_100w": 49.1
+      },
+      "best_pharm": {
+        "folio": "f102r1",
+        "idf": 11.975,
+        "shared_stems": [
+          "eo",
+          "yCe",
+          "yd"
+        ]
+      },
+      "best_starred": {
+        "folio": "f106r",
+        "idf": 16.17,
+        "shared_stems": [
+          "opor",
+          "ySe",
+          "p_Ce"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f75r",
+        "idf": 13.062,
+        "shared_stems": [
+          "yCt",
+          "sols",
+          "ySe"
+        ]
+      },
+      "line1_eva": "tsheos . qopal . chol . cthol . daimg",
+      "line1_gloss": "tsheos <BOT:stem[t_Seos]> | qopal <ACT:extract+BOT:stem[pa]:FLUID[-ol/al]> | chol <BOT:stem[Co]:FLUID[-ol/al]> | cthol <BOT:stem[cth]:FLUID[-ol/al]> | daimg <ABL:from-root+BOT:stem[daimg]>"
+    },
+    {
+      "rank": 5,
+      "folio": "f3v",
+      "quire": "A",
+      "bifolio_B": 3,
+      "page_P": "F",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 85,
+      "n_paras": 2,
+      "n_unique_stems": 25,
+      "morph": {
+        "n": 85,
+        "qo_pct": 5.88,
+        "cth_ckh_pct": 15.29,
+        "ol_or_al_ar_pct": 38.82,
+        "aiin_pct": 5.88,
+        "d_s_onset_pct": 21.18
+      },
+      "routing": {
+        "P": 23.464,
+        "B": 22.095,
+        "S": 39.854,
+        "Z": 13.749,
+        "f58": 12.573,
+        "PBS": 42.283,
+        "P_per_100w": 27.605,
+        "PBS_per_100w": 49.745
+      },
+      "best_pharm": {
+        "folio": "f101v",
+        "idf": 10.755,
+        "shared_stems": [
+          "k_Ce",
+          "yCe",
+          "k_Co"
+        ]
+      },
+      "best_starred": {
+        "folio": "f106v",
+        "idf": 12.832,
+        "shared_stems": [
+          "Codai",
+          "Sk",
+          "okar"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f80r",
+        "idf": 9.483,
+        "shared_stems": [
+          "oka",
+          "EEs",
+          "okar"
+        ]
+      },
+      "line1_eva": "koaiin . cphor . qotoy . sha . ckhol . ykoaiin . s",
+      "line1_gloss": "koaiin <BOT:stem[ko]:DOSE[-aiin]> | cphor <BOT:stem[cph]:RESIN[-or/ar]> | qotoy <ACT:extract+BOT:stem[to]:STAT[-y]> | sha <BOT:stem[Sa]> | ckhol <BOT:stem[ckh]:FLUID[-ol/al]> | ykoaiin <CONJ:and+BOT:stem[yko]:DOSE[-aiin]> | s <SEQ:next+SEQ:tendril[s]>"
+    },
+    {
+      "rank": 6,
+      "folio": "f4r",
+      "quire": "A",
+      "bifolio_B": 4,
+      "page_P": "G",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 64,
+      "n_paras": 2,
+      "n_unique_stems": 14,
+      "morph": {
+        "n": 64,
+        "qo_pct": 10.94,
+        "cth_ckh_pct": 12.5,
+        "ol_or_al_ar_pct": 31.25,
+        "aiin_pct": 29.69,
+        "d_s_onset_pct": 35.94
+      },
+      "routing": {
+        "P": 4.077,
+        "B": 3.122,
+        "S": 17.594,
+        "Z": 4.881,
+        "f58": 0,
+        "PBS": 19.381,
+        "P_per_100w": 6.37,
+        "PBS_per_100w": 30.283
+      },
+      "best_pharm": {
+        "folio": "f99r",
+        "idf": 2.289,
+        "shared_stems": [
+          "Cor"
+        ]
+      },
+      "best_starred": {
+        "folio": "f116r",
+        "idf": 6.938,
+        "shared_stems": [
+          "St_C",
+          "Sai"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79r",
+        "idf": 3.122,
+        "shared_stems": [
+          "Sai"
+        ]
+      },
+      "line1_eva": "kodalchy . chpady . sheol . ol . sheey . qotey . doiin",
+      "line1_gloss": "kodalchy <BOT:stem[kodalC]:STAT[-y]> | chpady <BOT:stem[Cpa]:STATE[-dy]> | sheol <STEM:infused-spray[she]:FLUID[-ol/al]> | ol <NOM:herb+BOT:stem[ol]:FLUID[-ol/al]> | sheey <BOT:stem[SEE]:STAT[-y]> | qotey <ACT:extract+STEM:boiled-stalk[te]:INF[-ey]> | doiin <ABL:from-root+BOT:stem[do]:DOSE[-aiin]>"
+    },
+    {
+      "rank": 7,
+      "folio": "f4v",
+      "quire": "A",
+      "bifolio_B": 4,
+      "page_P": "H",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 84,
+      "n_paras": 2,
+      "n_unique_stems": 35,
+      "morph": {
+        "n": 84,
+        "qo_pct": 9.52,
+        "cth_ckh_pct": 9.52,
+        "ol_or_al_ar_pct": 19.05,
+        "aiin_pct": 17.86,
+        "d_s_onset_pct": 33.33
+      },
+      "routing": {
+        "P": 38.578,
+        "B": 19.619,
+        "S": 57.111,
+        "Z": 15.134,
+        "f58": 20.21,
+        "PBS": 63.936,
+        "P_per_100w": 45.926,
+        "PBS_per_100w": 76.114
+      },
+      "best_pharm": {
+        "folio": "f101r",
+        "idf": 16.655,
+        "shared_stems": [
+          "Coko",
+          "cto",
+          "cpho"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 29.42,
+        "shared_stems": [
+          "Sk_C",
+          "Sok_C",
+          "Cokeo"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79r",
+        "idf": 6.564,
+        "shared_stems": [
+          "Ceor",
+          "Col",
+          "k_S"
+        ]
+      },
+      "line1_eva": "pchooiin . ksheo . kchoy . chopchy . dolds . dlod",
+      "line1_gloss": "pchooiin <BOT:stem[p_Coo]:DOSE[-aiin]> | ksheo <BOT:stem[k_Seo]> | kchoy <BOT:stem[k_Co]:STAT[-y]> | chopchy <BOT:stem[Cop_C]:STAT[-y]> | dolds <ABL:from-root+BOT:stem[dolds]> | dlod <ABL:from-root+BOT:stem[dlod]>"
+    },
+    {
+      "rank": 8,
+      "folio": "f5r",
+      "quire": "A",
+      "bifolio_B": 4,
+      "page_P": "I",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 54,
+      "n_paras": 2,
+      "n_unique_stems": 20,
+      "morph": {
+        "n": 54,
+        "qo_pct": 16.67,
+        "cth_ckh_pct": 12.96,
+        "ol_or_al_ar_pct": 9.26,
+        "aiin_pct": 12.96,
+        "d_s_onset_pct": 25.93
+      },
+      "routing": {
+        "P": 19.708,
+        "B": 13.877,
+        "S": 25.993,
+        "Z": 7.341,
+        "f58": 10.467,
+        "PBS": 40.421,
+        "P_per_100w": 36.496,
+        "PBS_per_100w": 74.854
+      },
+      "best_pharm": {
+        "folio": "f102r2",
+        "idf": 6.387,
+        "shared_stems": [
+          "eo",
+          "oC",
+          "EE"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114v",
+        "idf": 13.945,
+        "shared_stems": [
+          "t_Ceo",
+          "Cocth",
+          "t_Co"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f84v",
+        "idf": 5.512,
+        "shared_stems": [
+          "ols",
+          "oC",
+          "EE"
+        ]
+      },
+      "line1_eva": "kchody . fchoy . chkoy . oaiin . oar . olsy . chody",
+      "line1_gloss": "kchody <BOT:stem[k_Co]:STATE[-dy]> | fchoy <BOT:stem[f_Co]:STAT[-y]> | chkoy <BOT:stem[Cko]:STAT[-y]> | oaiin <NOM:herb+BOT:stem[oa]:DOSE[-aiin]> | oar <NOM:herb+BOT:stem[oa]:RESIN[-or/ar]> | olsy <NOM:herb+BOT:stem[ols]:STAT[-y]> | chody <BOT:stem[Co]:STATE[-dy]>"
+    },
+    {
+      "rank": 9,
+      "folio": "f5v",
+      "quire": "A",
+      "bifolio_B": 4,
+      "page_P": "J",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 48,
+      "n_paras": 1,
+      "n_unique_stems": 13,
+      "morph": {
+        "n": 48,
+        "qo_pct": 6.25,
+        "cth_ckh_pct": 10.42,
+        "ol_or_al_ar_pct": 41.67,
+        "aiin_pct": 25.0,
+        "d_s_onset_pct": 31.25
+      },
+      "routing": {
+        "P": 14.14,
+        "B": 6.756,
+        "S": 25.446,
+        "Z": 5.532,
+        "f58": 0,
+        "PBS": 25.446,
+        "P_per_100w": 29.458,
+        "PBS_per_100w": 53.013
+      },
+      "best_pharm": {
+        "folio": "f102r1",
+        "idf": 4.039,
+        "shared_stems": [
+          "p_Sod"
+        ]
+      },
+      "best_starred": {
+        "folio": "f103r",
+        "idf": 10.101,
+        "shared_stems": [
+          "darC",
+          "SokEE",
+          "Ceot"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f84v",
+        "idf": 3.816,
+        "shared_stems": [
+          "darC"
+        ]
+      },
+      "line1_eva": "k . o . cheor . chor . ytchey . pshod . chols",
+      "line1_gloss": "k <HERB:calyx-root[k]> | o <NOM:herb+BOT:stem[o]> | cheor <STEM:infused-bench[che]:RESIN[-or/ar]> | chor <BOT:stem[Co]:RESIN[-or/ar]> | ytchey <CONJ:and+BOT:stem[yt_C]:INF[-ey]> | pshod <BOT:stem[p_Sod]> | chols <BOT:stem[Cols]>"
+    },
+    {
+      "rank": 10,
+      "folio": "f6r",
+      "quire": "A",
+      "bifolio_B": 3,
+      "page_P": "K",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 86,
+      "n_paras": 1,
+      "n_unique_stems": 24,
+      "morph": {
+        "n": 86,
+        "qo_pct": 2.33,
+        "cth_ckh_pct": 3.49,
+        "ol_or_al_ar_pct": 38.37,
+        "aiin_pct": 17.44,
+        "d_s_onset_pct": 20.93
+      },
+      "routing": {
+        "P": 22.348,
+        "B": 16.485,
+        "S": 34.487,
+        "Z": 16.097,
+        "f58": 11.137,
+        "PBS": 36.275,
+        "P_per_100w": 25.986,
+        "PBS_per_100w": 42.18
+      },
+      "best_pharm": {
+        "folio": "f101v",
+        "idf": 13.565,
+        "shared_stems": [
+          "fo",
+          "yke",
+          "Cor"
+        ]
+      },
+      "best_starred": {
+        "folio": "f105v",
+        "idf": 11.388,
+        "shared_stems": [
+          "kaii",
+          "Cop_C",
+          "SEEs"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79r",
+        "idf": 5.124,
+        "shared_stems": [
+          "os",
+          "Col",
+          "k_S"
+        ]
+      },
+      "line1_eva": "foar . y . shol . cholor . cphol . chor . ch{ck}",
+      "line1_gloss": "foar <BOT:stem[fo]:RESIN[-or/ar]> | y <CONJ:and+BOT:stem[y]:STAT[-y]> | shol <BOT:stem[So]:FLUID[-ol/al]> | cholor <BOT:stem[Col]:RESIN[-or/ar]> | cphol <BOT:stem[cph]:FLUID[-ol/al]> | chor <BOT:stem[Co]:RESIN[-or/ar]> | ch{ck} <BOT:stem[Cck]>"
+    },
+    {
+      "rank": 11,
+      "folio": "f6v",
+      "quire": "A",
+      "bifolio_B": 3,
+      "page_P": "L",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 116,
+      "n_paras": 2,
+      "n_unique_stems": 39,
+      "morph": {
+        "n": 116,
+        "qo_pct": 6.03,
+        "cth_ckh_pct": 11.21,
+        "ol_or_al_ar_pct": 35.34,
+        "aiin_pct": 4.31,
+        "d_s_onset_pct": 21.55
+      },
+      "routing": {
+        "P": 34.012,
+        "B": 20.668,
+        "S": 37.794,
+        "Z": 29.772,
+        "f58": 14.677,
+        "PBS": 47.253,
+        "P_per_100w": 29.321,
+        "PBS_per_100w": 40.735
+      },
+      "best_pharm": {
+        "folio": "f102v2",
+        "idf": 10.095,
+        "shared_stems": [
+          "oEEs",
+          "oko",
+          "Cockh"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 11.133,
+        "shared_stems": [
+          "t_Co",
+          "Cockh",
+          "CEEk"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f76v",
+        "idf": 8.556,
+        "shared_stems": [
+          "de",
+          "Ces",
+          "Sckh"
+        ]
+      },
+      "line1_eva": "koary . sar . [ch:{oh}]eekar . qoor . shor . chapchy . s",
+      "line1_gloss": "koary <BOT:stem[koar]:STAT[-y]> | sar <SEQ:next+BOT:stem[sa]:RESIN[-or/ar]> | [ch:{oh}]eekar <BOT:stem[CEEk]:RESIN[-or/ar]> | qoor <ACT:extract+BOT:stem[or]:RESIN[-or/ar]> | shor <BOT:stem[So]:RESIN[-or/ar]> | chapchy <BOT:stem[Cap_C]:STAT[-y]> | s <SEQ:next+SEQ:tendril[s]>"
+    },
+    {
+      "rank": 12,
+      "folio": "f7r",
+      "quire": "A",
+      "bifolio_B": 2,
+      "page_P": "M",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 66,
+      "n_paras": 2,
+      "n_unique_stems": 26,
+      "morph": {
+        "n": 66,
+        "qo_pct": 9.09,
+        "cth_ckh_pct": 19.7,
+        "ol_or_al_ar_pct": 15.15,
+        "aiin_pct": 12.12,
+        "d_s_onset_pct": 28.79
+      },
+      "routing": {
+        "P": 21.414,
+        "B": 14.926,
+        "S": 23.441,
+        "Z": 5.928,
+        "f58": 1.787,
+        "PBS": 38.648,
+        "P_per_100w": 32.445,
+        "PBS_per_100w": 58.558
+      },
+      "best_pharm": {
+        "folio": "f89r1",
+        "idf": 5.156,
+        "shared_stems": [
+          "dSo",
+          "keC"
+        ]
+      },
+      "best_starred": {
+        "folio": "f111r",
+        "idf": 8.49,
+        "shared_stems": [
+          "dCEE",
+          "keC",
+          "Ceod"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f82r",
+        "idf": 6.038,
+        "shared_stems": [
+          "loC",
+          "Sckh"
+        ]
+      },
+      "line1_eva": "fchodaiin . shopchey . qko . shey . qoos . sheey . charochy",
+      "line1_gloss": "fchodaiin <BOT:stem[f_Cod]:DOSE[-aiin]> | shopchey <BOT:stem[Sop_C]:INF[-ey]> | qko <BOT:stem[qko]> | shey <STEM:infused-spray[she]:INF[-ey]> | qoos <ACT:extract+BOT:stem[os]> | sheey <BOT:stem[SEE]:STAT[-y]> | charochy <BOT:stem[CaroC]:STAT[-y]>"
+    },
+    {
+      "rank": 13,
+      "folio": "f7v",
+      "quire": "A",
+      "bifolio_B": 2,
+      "page_P": "N",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 78,
+      "n_paras": 2,
+      "n_unique_stems": 30,
+      "morph": {
+        "n": 78,
+        "qo_pct": 8.97,
+        "cth_ckh_pct": 14.1,
+        "ol_or_al_ar_pct": 20.51,
+        "aiin_pct": 12.82,
+        "d_s_onset_pct": 39.74
+      },
+      "routing": {
+        "P": 25.677,
+        "B": 22.544,
+        "S": 38.491,
+        "Z": 14.612,
+        "f58": 7.256,
+        "PBS": 45.875,
+        "P_per_100w": 32.919,
+        "PBS_per_100w": 58.814
+      },
+      "best_pharm": {
+        "folio": "f89r2",
+        "idf": 8.574,
+        "shared_stems": [
+          "Seod",
+          "CEEo",
+          "oEE"
+        ]
+      },
+      "best_starred": {
+        "folio": "f115r",
+        "idf": 19.293,
+        "shared_stems": [
+          "q-s",
+          "tEEo",
+          "Seod"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f75v",
+        "idf": 8.948,
+        "shared_stems": [
+          "Ccphh",
+          "de",
+          "lS"
+        ]
+      },
+      "line1_eva": "polyshy . shey . tchody . qopchy . otshol . dy . daiin",
+      "line1_gloss": "polyshy <BOT:stem[polyS]:STAT[-y]> | shey <STEM:infused-spray[she]:INF[-ey]> | tchody <BOT:stem[t_Co]:STATE[-dy]> | qopchy <ACT:extract+CMPD:cup-bench[pch]:STAT[-y]> | otshol <NOM:herb+BOT:stem[ot_S]:FLUID[-ol/al]> | dy <ABL:from-root+BOT:stem[dy]:STATE[-dy]> | daiin <ABL:from-root+BOT:stem[da]:DOSE[-aiin]>"
+    },
+    {
+      "rank": 14,
+      "folio": "f8r",
+      "quire": "A",
+      "bifolio_B": 1,
+      "page_P": "O",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 151,
+      "n_paras": 3,
+      "n_unique_stems": 54,
+      "morph": {
+        "n": 151,
+        "qo_pct": 1.99,
+        "cth_ckh_pct": 8.61,
+        "ol_or_al_ar_pct": 25.83,
+        "aiin_pct": 11.92,
+        "d_s_onset_pct": 34.44
+      },
+      "routing": {
+        "P": 50.303,
+        "B": 31.839,
+        "S": 55.095,
+        "Z": 17.927,
+        "f58": 13.216,
+        "PBS": 80.363,
+        "P_per_100w": 33.313,
+        "PBS_per_100w": 53.221
+      },
+      "best_pharm": {
+        "folio": "f102r1",
+        "idf": 14.961,
+        "shared_stems": [
+          "Sold",
+          "Cof",
+          "Cop"
+        ]
+      },
+      "best_starred": {
+        "folio": "f104v",
+        "idf": 19.878,
+        "shared_stems": [
+          "p_CEE",
+          "ck",
+          "dSEE"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f83r",
+        "idf": 13.689,
+        "shared_stems": [
+          "ck",
+          "p_S",
+          "sC"
+        ]
+      },
+      "line1_eva": "pshol . chor . otshal . chopy . cph[o:a]l . chody . shy",
+      "line1_gloss": "pshol <BOT:stem[p_S]:FLUID[-ol/al]> | chor <BOT:stem[Co]:RESIN[-or/ar]> | otshal <NOM:herb+BOT:stem[ot_S]:FLUID[-ol/al]> | chopy <BOT:stem[Cop]:STAT[-y]> | cph[o:a]l <BOT:stem[cph]:FLUID[-ol/al]> | chody <BOT:stem[Co]:STATE[-dy]> | shy <BOT:stem[Sy]:STAT[-y]>"
+    },
+    {
+      "rank": 15,
+      "folio": "f8v",
+      "quire": "A",
+      "bifolio_B": 1,
+      "page_P": "P",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 118,
+      "n_paras": 2,
+      "n_unique_stems": 34,
+      "morph": {
+        "n": 118,
+        "qo_pct": 0.85,
+        "cth_ckh_pct": 8.47,
+        "ol_or_al_ar_pct": 45.76,
+        "aiin_pct": 15.25,
+        "d_s_onset_pct": 31.36
+      },
+      "routing": {
+        "P": 18.743,
+        "B": 29.075,
+        "S": 51.941,
+        "Z": 11.976,
+        "f58": 14.372,
+        "PBS": 56.268,
+        "P_per_100w": 15.884,
+        "PBS_per_100w": 47.685
+      },
+      "best_pharm": {
+        "folio": "f101v",
+        "idf": 9.932,
+        "shared_stems": [
+          "op_Ce",
+          "et",
+          "Cor"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 16.424,
+        "shared_stems": [
+          "Cokai",
+          "op_Ce",
+          "et"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f75r",
+        "idf": 13.359,
+        "shared_stems": [
+          "orC",
+          "ry",
+          "CEEk"
+        ]
+      },
+      "line1_eva": "{c@216;h}od . soo{c@196;h} . sol . shol . otol . chol . opcheaiin",
+      "line1_gloss": "{c@216;h}od <BOT:stem[Cod]> | soo{c@196;h} <SEQ:next+BOT:stem[sooC]> | sol <SEQ:next+BOT:stem[so]:FLUID[-ol/al]> | shol <BOT:stem[So]:FLUID[-ol/al]> | otol <NOM:herb+NOM:vessel-stalk[ot]:FLUID[-ol/al]> | chol <BOT:stem[Co]:FLUID[-ol/al]> | opcheaiin <NOM:herb+BOT:stem[op_Ce]:DOSE[-aiin]>"
+    },
+    {
+      "rank": 16,
+      "folio": "f9r",
+      "quire": "B",
+      "bifolio_B": 1,
+      "page_P": "A",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 85,
+      "n_paras": 2,
+      "n_unique_stems": 30,
+      "morph": {
+        "n": 85,
+        "qo_pct": 4.71,
+        "cth_ckh_pct": 11.76,
+        "ol_or_al_ar_pct": 28.24,
+        "aiin_pct": 17.65,
+        "d_s_onset_pct": 28.24
+      },
+      "routing": {
+        "P": 31.728,
+        "B": 16.375,
+        "S": 32.054,
+        "Z": 16.155,
+        "f58": 9.222,
+        "PBS": 41.136,
+        "P_per_100w": 37.327,
+        "PBS_per_100w": 48.395
+      },
+      "best_pharm": {
+        "folio": "f102v2",
+        "idf": 8.43,
+        "shared_stems": [
+          "tod",
+          "sar",
+          "oko"
+        ]
+      },
+      "best_starred": {
+        "folio": "f106r",
+        "idf": 10.431,
+        "shared_stems": [
+          "p_Soai",
+          "ok_Co",
+          "yS"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f75r",
+        "idf": 10.798,
+        "shared_stems": [
+          "orC",
+          "sar",
+          "yS"
+        ]
+      },
+      "line1_eva": "tydlo . choly . cthor . orchey . s . shy . odaiin",
+      "line1_gloss": "tydlo <BOT:stem[tydlo]> | choly <BOT:stem[Col]:STAT[-y]> | cthor <BOT:stem[cth]:RESIN[-or/ar]> | orchey <NOM:herb+BOT:stem[orC]:INF[-ey]> | s <SEQ:next+SEQ:tendril[s]> | shy <BOT:stem[Sy]:STAT[-y]> | odaiin <NOM:herb+BOT:stem[od]:DOSE[-aiin]>"
+    },
+    {
+      "rank": 17,
+      "folio": "f9v",
+      "quire": "B",
+      "bifolio_B": 1,
+      "page_P": "B",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 86,
+      "n_paras": 2,
+      "n_unique_stems": 23,
+      "morph": {
+        "n": 86,
+        "qo_pct": 8.14,
+        "cth_ckh_pct": 9.3,
+        "ol_or_al_ar_pct": 30.23,
+        "aiin_pct": 19.77,
+        "d_s_onset_pct": 22.09
+      },
+      "routing": {
+        "P": 26.905,
+        "B": 8.238,
+        "S": 25.169,
+        "Z": 13.648,
+        "f58": 8.738,
+        "PBS": 31.232,
+        "P_per_100w": 31.285,
+        "PBS_per_100w": 36.316
+      },
+      "best_pharm": {
+        "folio": "f89v1",
+        "idf": 5.711,
+        "shared_stems": [
+          "cfh",
+          "dar",
+          "op"
+        ]
+      },
+      "best_starred": {
+        "folio": "f105r",
+        "idf": 10.333,
+        "shared_stems": [
+          "yp_CEE",
+          "oEEs",
+          "yp_C"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79v",
+        "idf": 6.309,
+        "shared_stems": [
+          "tol",
+          "dar",
+          "op"
+        ]
+      },
+      "line1_eva": "fochor . oporody . opy . shor . daiin . qopchypcho . qofol",
+      "line1_gloss": "fochor <BOT:stem[foC]:RESIN[-or/ar]> | oporody <NOM:herb+BOT:stem[oporo]:STATE[-dy]> | opy <NOM:herb+BOT:stem[op]:STAT[-y]> | shor <BOT:stem[So]:RESIN[-or/ar]> | daiin <ABL:from-root+BOT:stem[da]:DOSE[-aiin]> | qopchypcho <ACT:extract+BOT:stem[p_Cyp_Co]> | qofol <ACT:extract+BOT:stem[fo]:FLUID[-ol/al]>"
+    },
+    {
+      "rank": 18,
+      "folio": "f10r",
+      "quire": "B",
+      "bifolio_B": 2,
+      "page_P": "C",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 92,
+      "n_paras": 2,
+      "n_unique_stems": 25,
+      "morph": {
+        "n": 92,
+        "qo_pct": 11.96,
+        "cth_ckh_pct": 14.13,
+        "ol_or_al_ar_pct": 36.96,
+        "aiin_pct": 15.22,
+        "d_s_onset_pct": 20.65
+      },
+      "routing": {
+        "P": 33.455,
+        "B": 16.659,
+        "S": 34.298,
+        "Z": 19.333,
+        "f58": 11.886,
+        "PBS": 45.493,
+        "P_per_100w": 36.364,
+        "PBS_per_100w": 49.449
+      },
+      "best_pharm": {
+        "folio": "f89v1",
+        "idf": 11.399,
+        "shared_stems": [
+          "octho",
+          "cfh",
+          "ctho"
+        ]
+      },
+      "best_starred": {
+        "folio": "f106v",
+        "idf": 14.261,
+        "shared_stems": [
+          "oqot",
+          "Cop_C",
+          "p_Cod"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f80v",
+        "idf": 6.738,
+        "shared_stems": [
+          "yCe",
+          "Cai",
+          "Ct"
+        ]
+      },
+      "line1_eva": "pchocthy . shor . octhody . chorchy . pchodol . chopchal . ypch",
+      "line1_gloss": "pchocthy <BOT:stem[p_Cocth]:STAT[-y]> | shor <BOT:stem[So]:RESIN[-or/ar]> | octhody <NOM:herb+BOT:stem[octho]:STATE[-dy]> | chorchy <BOT:stem[CorC]:STAT[-y]> | pchodol <BOT:stem[p_Cod]:FLUID[-ol/al]> | chopchal <BOT:stem[Cop_C]:FLUID[-ol/al]> | ypch <CONJ:and+BOT:stem[yp_C]>"
+    },
+    {
+      "rank": 19,
+      "folio": "f10v",
+      "quire": "B",
+      "bifolio_B": 2,
+      "page_P": "D",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 57,
+      "n_paras": 2,
+      "n_unique_stems": 9,
+      "morph": {
+        "n": 57,
+        "qo_pct": 19.3,
+        "cth_ckh_pct": 8.77,
+        "ol_or_al_ar_pct": 24.56,
+        "aiin_pct": 26.32,
+        "d_s_onset_pct": 35.09
+      },
+      "routing": {
+        "P": 3.027,
+        "B": 8.316,
+        "S": 14.581,
+        "Z": 0,
+        "f58": 2.786,
+        "PBS": 21.424,
+        "P_per_100w": 5.311,
+        "PBS_per_100w": 37.586
+      },
+      "best_pharm": {
+        "folio": "f89r1",
+        "idf": 3.027,
+        "shared_stems": [
+          "dSo"
+        ]
+      },
+      "best_starred": {
+        "folio": "f106v",
+        "idf": 5.982,
+        "shared_stems": [
+          "oty",
+          "Scth"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f80v",
+        "idf": 5.982,
+        "shared_stems": [
+          "Scthh",
+          "Scth"
+        ]
+      },
+      "line1_eva": "paiin . daiin . sheo . pcheey . qoty . daiin . cthor",
+      "line1_gloss": "paiin <BOT:stem[pa]:DOSE[-aiin]> | daiin <ABL:from-root+BOT:stem[da]:DOSE[-aiin]> | sheo <BOT:stem[Seo]> | pcheey <BOT:stem[p_CEE]:STAT[-y]> | qoty <ACT:extract+BOT:stem[ty]:STAT[-y]> | daiin <ABL:from-root+BOT:stem[da]:DOSE[-aiin]> | cthor <BOT:stem[cth]:RESIN[-or/ar]>"
+    },
+    {
+      "rank": 20,
+      "folio": "f11r",
+      "quire": "B",
+      "bifolio_B": 3,
+      "page_P": "E",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 59,
+      "n_paras": 2,
+      "n_unique_stems": 14,
+      "morph": {
+        "n": 59,
+        "qo_pct": 5.08,
+        "cth_ckh_pct": 15.25,
+        "ol_or_al_ar_pct": 22.03,
+        "aiin_pct": 16.95,
+        "d_s_onset_pct": 44.07
+      },
+      "routing": {
+        "P": 7.332,
+        "B": 8.382,
+        "S": 14.157,
+        "Z": 0,
+        "f58": 7.82,
+        "PBS": 16.586,
+        "P_per_100w": 12.427,
+        "PBS_per_100w": 28.112
+      },
+      "best_pharm": {
+        "folio": "f89v1",
+        "idf": 4.07,
+        "shared_stems": [
+          "cfh",
+          "yk_C"
+        ]
+      },
+      "best_starred": {
+        "folio": "f106v",
+        "idf": 6.741,
+        "shared_stems": [
+          "dk",
+          "t_S",
+          "k_S"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f78v",
+        "idf": 5.054,
+        "shared_stems": [
+          "dk",
+          "k_S"
+        ]
+      },
+      "line1_eva": "tshol . schoal . cfhy . shfydaiin . cphy . shey . tchody",
+      "line1_gloss": "tshol <BOT:stem[t_S]:FLUID[-ol/al]> | schoal <SEQ:next+BOT:stem[sCo]:FLUID[-ol/al]> | cfhy <BOT:stem[cfh]:STAT[-y]> | shfydaiin <BOT:stem[Sfyd]:DOSE[-aiin]> | cphy <BOT:stem[cph]:STAT[-y]> | shey <STEM:infused-spray[she]:INF[-ey]> | tchody <BOT:stem[t_Co]:STATE[-dy]>"
+    },
+    {
+      "rank": 21,
+      "folio": "f11v",
+      "quire": "B",
+      "bifolio_B": 3,
+      "page_P": "F",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 50,
+      "n_paras": 1,
+      "n_unique_stems": 18,
+      "morph": {
+        "n": 50,
+        "qo_pct": 12.0,
+        "cth_ckh_pct": 14.0,
+        "ol_or_al_ar_pct": 20.0,
+        "aiin_pct": 2.0,
+        "d_s_onset_pct": 42.0
+      },
+      "routing": {
+        "P": 14.597,
+        "B": 7.998,
+        "S": 20.374,
+        "Z": 1.761,
+        "f58": 10.322,
+        "PBS": 29.14,
+        "P_per_100w": 29.194,
+        "PBS_per_100w": 58.28
+      },
+      "best_pharm": {
+        "folio": "f102r1",
+        "idf": 6.062,
+        "shared_stems": [
+          "dd",
+          "yCe"
+        ]
+      },
+      "best_starred": {
+        "folio": "f107r",
+        "idf": 6.525,
+        "shared_stems": [
+          "Cyk",
+          "Col",
+          "yk_C"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f80v",
+        "idf": 4.596,
+        "shared_stems": [
+          "yCe",
+          "Scth"
+        ]
+      },
+      "line1_eva": "poldchody . shcphy . shordy . qoty . shol . cphar . dan",
+      "line1_gloss": "poldchody <BOT:stem[poldCo]:STATE[-dy]> | shcphy <BOT:stem[Scph]:STAT[-y]> | shordy <BOT:stem[Sor]:STATE[-dy]> | qoty <ACT:extract+BOT:stem[ty]:STAT[-y]> | shol <BOT:stem[So]:FLUID[-ol/al]> | cphar <BOT:stem[cph]:RESIN[-or/ar]> | dan <ABL:from-root+BOT:stem[da]>"
+    },
+    {
+      "rank": 22,
+      "folio": "f13r",
+      "quire": "B",
+      "bifolio_B": 4,
+      "page_P": "I",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 77,
+      "n_paras": 2,
+      "n_unique_stems": 20,
+      "morph": {
+        "n": 77,
+        "qo_pct": 10.39,
+        "cth_ckh_pct": 24.68,
+        "ol_or_al_ar_pct": 29.87,
+        "aiin_pct": 9.09,
+        "d_s_onset_pct": 41.56
+      },
+      "routing": {
+        "P": 13.198,
+        "B": 6.73,
+        "S": 25.196,
+        "Z": 9.31,
+        "f58": 5.679,
+        "PBS": 25.196,
+        "P_per_100w": 17.14,
+        "PBS_per_100w": 32.722
+      },
+      "best_pharm": {
+        "folio": "f102v1",
+        "idf": 7.441,
+        "shared_stems": [
+          "kh",
+          "yd",
+          "oIIN"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 11.0,
+        "shared_stems": [
+          "kh",
+          "Sk_C",
+          "t_S"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f82r",
+        "idf": 3.449,
+        "shared_stems": [
+          "yd",
+          "t_S"
+        ]
+      },
+      "line1_eva": "torshor . opchy . shol . dy . qopchy . shol . opchor",
+      "line1_gloss": "torshor <BOT:stem[torS]:RESIN[-or/ar]> | opchy <NOM:herb+BOT:stem[op_C]:STAT[-y]> | shol <BOT:stem[So]:FLUID[-ol/al]> | dy <ABL:from-root+BOT:stem[dy]:STATE[-dy]> | qopchy <ACT:extract+CMPD:cup-bench[pch]:STAT[-y]> | shol <BOT:stem[So]:FLUID[-ol/al]> | opchor <NOM:herb+BOT:stem[op_C]:RESIN[-or/ar]>"
+    },
+    {
+      "rank": 23,
+      "folio": "f13v",
+      "quire": "B",
+      "bifolio_B": 4,
+      "page_P": "J",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 69,
+      "n_paras": 2,
+      "n_unique_stems": 19,
+      "morph": {
+        "n": 69,
+        "qo_pct": 11.59,
+        "cth_ckh_pct": 18.84,
+        "ol_or_al_ar_pct": 23.19,
+        "aiin_pct": 10.14,
+        "d_s_onset_pct": 20.29
+      },
+      "routing": {
+        "P": 17.113,
+        "B": 5.395,
+        "S": 11.847,
+        "Z": 3.861,
+        "f58": 5.349,
+        "PBS": 17.113,
+        "P_per_100w": 24.801,
+        "PBS_per_100w": 24.801
+      },
+      "best_pharm": {
+        "folio": "f99r",
+        "idf": 9.299,
+        "shared_stems": [
+          "okos",
+          "ck",
+          "kod"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 7.264,
+        "shared_stems": [
+          "ck",
+          "ok_S",
+          "oa"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f83r",
+        "idf": 3.228,
+        "shared_stems": [
+          "ck"
+        ]
+      },
+      "line1_eva": "koair . chtoiin . otchy . kchod . otol . otchy . octhos",
+      "line1_gloss": "koair <BOT:stem[koai]> | chtoiin <BOT:stem[Cto]:DOSE[-aiin]> | otchy <NOM:herb+BOT:stem[ot_C]:STAT[-y]> | kchod <BOT:stem[k_Cod]> | otol <NOM:herb+NOM:vessel-stalk[ot]:FLUID[-ol/al]> | otchy <NOM:herb+BOT:stem[ot_C]:STAT[-y]> | octhos <NOM:herb+BOT:stem[octhos]>"
+    },
+    {
+      "rank": 24,
+      "folio": "f14r",
+      "quire": "B",
+      "bifolio_B": 3,
+      "page_P": "K",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 76,
+      "n_paras": 2,
+      "n_unique_stems": 24,
+      "morph": {
+        "n": 76,
+        "qo_pct": 7.89,
+        "cth_ckh_pct": 17.11,
+        "ol_or_al_ar_pct": 23.68,
+        "aiin_pct": 13.16,
+        "d_s_onset_pct": 39.47
+      },
+      "routing": {
+        "P": 25.167,
+        "B": 21.744,
+        "S": 29.871,
+        "Z": 14.087,
+        "f58": 16.139,
+        "PBS": 36.732,
+        "P_per_100w": 33.114,
+        "PBS_per_100w": 48.332
+      },
+      "best_pharm": {
+        "folio": "f89r2",
+        "idf": 11.341,
+        "shared_stems": [
+          "sod",
+          "ykeo",
+          "ockh"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 10.803,
+        "shared_stems": [
+          "p_Co",
+          "oi",
+          "Sot"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f77r",
+        "idf": 10.955,
+        "shared_stems": [
+          "dalo",
+          "oi",
+          "sod"
+        ]
+      },
+      "line1_eva": "pcho . daiin . chopol . shoiin . daiin . dain",
+      "line1_gloss": "pcho <BOT:stem[p_Co]> | daiin <ABL:from-root+BOT:stem[da]:DOSE[-aiin]> | chopol <BOT:stem[Cop]:FLUID[-ol/al]> | shoiin <BOT:stem[So]:DOSE[-aiin]> | daiin <ABL:from-root+BOT:stem[da]:DOSE[-aiin]> | dain <ABL:from-root+BOT:stem[dai]>"
+    },
+    {
+      "rank": 25,
+      "folio": "f14v",
+      "quire": "B",
+      "bifolio_B": 3,
+      "page_P": "L",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 75,
+      "n_paras": 1,
+      "n_unique_stems": 27,
+      "morph": {
+        "n": 75,
+        "qo_pct": 2.67,
+        "cth_ckh_pct": 13.33,
+        "ol_or_al_ar_pct": 12.0,
+        "aiin_pct": 12.0,
+        "d_s_onset_pct": 37.33
+      },
+      "routing": {
+        "P": 16.878,
+        "B": 23.466,
+        "S": 16.185,
+        "Z": 4.039,
+        "f58": 3.239,
+        "PBS": 34.938,
+        "P_per_100w": 22.504,
+        "PBS_per_100w": 46.584
+      },
+      "best_pharm": {
+        "folio": "f102r1",
+        "idf": 5.405,
+        "shared_stems": [
+          "ok_S",
+          "dar",
+          "k_S"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114r",
+        "idf": 6.851,
+        "shared_stems": [
+          "oy",
+          "yp_C",
+          "dar"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f75r",
+        "idf": 10.315,
+        "shared_stems": [
+          "daro",
+          "ydai",
+          "ok_S"
+        ]
+      },
+      "line1_eva": "pdychoiin . yfodain . otyshy . dy . ypchor . daiin . kol",
+      "line1_gloss": "pdychoiin <BOT:stem[pdyCo]:DOSE[-aiin]> | yfodain <CONJ:and+BOT:stem[yfodai]> | otyshy <NOM:herb+BOT:stem[otyS]:STAT[-y]> | dy <ABL:from-root+BOT:stem[dy]:STATE[-dy]> | ypchor <CONJ:and+BOT:stem[yp_C]:RESIN[-or/ar]> | daiin <ABL:from-root+BOT:stem[da]:DOSE[-aiin]> | kol <BOT:stem[ko]:FLUID[-ol/al]>"
+    },
+    {
+      "rank": 26,
+      "folio": "f15r",
+      "quire": "B",
+      "bifolio_B": 2,
+      "page_P": "M",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 94,
+      "n_paras": 1,
+      "n_unique_stems": 25,
+      "morph": {
+        "n": 94,
+        "qo_pct": 7.45,
+        "cth_ckh_pct": 10.64,
+        "ol_or_al_ar_pct": 24.47,
+        "aiin_pct": 21.28,
+        "d_s_onset_pct": 38.3
+      },
+      "routing": {
+        "P": 24.526,
+        "B": 28.903,
+        "S": 34.578,
+        "Z": 18.544,
+        "f58": 16.288,
+        "PBS": 44.525,
+        "P_per_100w": 26.091,
+        "PBS_per_100w": 47.367
+      },
+      "best_pharm": {
+        "folio": "f102r1",
+        "idf": 8.711,
+        "shared_stems": [
+          "Socth",
+          "ok_S",
+          "Cos"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 17.011,
+        "shared_stems": [
+          "Cckhh",
+          "t_Ce",
+          "Sot"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f80v",
+        "idf": 11.806,
+        "shared_stems": [
+          "kol",
+          "t_Ce",
+          "Sk"
+        ]
+      },
+      "line1_eva": "tshor . shey . tchaly . shy . chtols . shey . daiin",
+      "line1_gloss": "tshor <BOT:stem[t_S]:RESIN[-or/ar]> | shey <STEM:infused-spray[she]:INF[-ey]> | tchaly <BOT:stem[t_Cal]:STAT[-y]> | shy <BOT:stem[Sy]:STAT[-y]> | chtols <BOT:stem[Ctols]> | shey <STEM:infused-spray[she]:INF[-ey]> | daiin <ABL:from-root+BOT:stem[da]:DOSE[-aiin]>"
+    },
+    {
+      "rank": 27,
+      "folio": "f15v",
+      "quire": "B",
+      "bifolio_B": 2,
+      "page_P": "N",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 71,
+      "n_paras": 1,
+      "n_unique_stems": 11,
+      "morph": {
+        "n": 71,
+        "qo_pct": 7.04,
+        "cth_ckh_pct": 11.27,
+        "ol_or_al_ar_pct": 40.85,
+        "aiin_pct": 21.13,
+        "d_s_onset_pct": 19.72
+      },
+      "routing": {
+        "P": 11.036,
+        "B": 13.265,
+        "S": 16.11,
+        "Z": 3.975,
+        "f58": 1.641,
+        "PBS": 21.712,
+        "P_per_100w": 15.544,
+        "PBS_per_100w": 30.58
+      },
+      "best_pharm": {
+        "folio": "f99r",
+        "idf": 6.222,
+        "shared_stems": [
+          "octh",
+          "ols",
+          "oIIN"
+        ]
+      },
+      "best_starred": {
+        "folio": "f106r",
+        "idf": 6.66,
+        "shared_stems": [
+          "por",
+          "t_Cod"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79v",
+        "idf": 8.684,
+        "shared_stems": [
+          "orS",
+          "oro",
+          "oIIN"
+        ]
+      },
+      "line1_eva": "poror . orshy . choiin . dtchan . opchordy",
+      "line1_gloss": "poror <BOT:stem[por]:RESIN[-or/ar]> | orshy <NOM:herb+BOT:stem[orS]:STAT[-y]> | choiin <BOT:stem[Co]:DOSE[-aiin]> | dtchan <ABL:from-root+BOT:stem[dt_Ca]> | opchordy <NOM:herb+BOT:stem[op_Cor]:STATE[-dy]>"
+    },
+    {
+      "rank": 28,
+      "folio": "f16r",
+      "quire": "B",
+      "bifolio_B": 1,
+      "page_P": "O",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 84,
+      "n_paras": 3,
+      "n_unique_stems": 29,
+      "morph": {
+        "n": 84,
+        "qo_pct": 7.14,
+        "cth_ckh_pct": 11.9,
+        "ol_or_al_ar_pct": 19.05,
+        "aiin_pct": 13.1,
+        "d_s_onset_pct": 36.9
+      },
+      "routing": {
+        "P": 17.154,
+        "B": 32.093,
+        "S": 43.358,
+        "Z": 18.795,
+        "f58": 10.071,
+        "PBS": 49.525,
+        "P_per_100w": 20.421,
+        "PBS_per_100w": 58.958
+      },
+      "best_pharm": {
+        "folio": "f99r",
+        "idf": 5.149,
+        "shared_stems": [
+          "dalC",
+          "Cs"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114r",
+        "idf": 15.493,
+        "shared_stems": [
+          "koh",
+          "dalC",
+          "oS"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f77v",
+        "idf": 14.422,
+        "shared_stems": [
+          "dyk",
+          "dalC",
+          "Cs"
+        ]
+      },
+      "line1_eva": "pocheody . qopchey . sykaiin . opchy . dor . ychy . daiin",
+      "line1_gloss": "pocheody <BOT:stem[poCeo]:STATE[-dy]> | qopchey <ACT:extract+CMPD:cup-bench[pch]:INF[-ey]> | sykaiin <SEQ:next+BOT:stem[syk]:DOSE[-aiin]> | opchy <NOM:herb+BOT:stem[op_C]:STAT[-y]> | dor <ABL:from-root+BOT:stem[do]:RESIN[-or/ar]> | ychy <CONJ:and+BOT:stem[yC]:STAT[-y]> | daiin <ABL:from-root+BOT:stem[da]:DOSE[-aiin]>"
+    },
+    {
+      "rank": 29,
+      "folio": "f16v",
+      "quire": "B",
+      "bifolio_B": 1,
+      "page_P": "P",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 76,
+      "n_paras": 2,
+      "n_unique_stems": 22,
+      "morph": {
+        "n": 76,
+        "qo_pct": 6.58,
+        "cth_ckh_pct": 17.11,
+        "ol_or_al_ar_pct": 30.26,
+        "aiin_pct": 10.53,
+        "d_s_onset_pct": 22.37
+      },
+      "routing": {
+        "P": 13.053,
+        "B": 10.364,
+        "S": 26.009,
+        "Z": 3.346,
+        "f58": 4.684,
+        "PBS": 26.009,
+        "P_per_100w": 17.175,
+        "PBS_per_100w": 34.222
+      },
+      "best_pharm": {
+        "folio": "f101r",
+        "idf": 11.154,
+        "shared_stems": [
+          "dairi",
+          "Ck_C",
+          "Cok_C"
+        ]
+      },
+      "best_starred": {
+        "folio": "f115v",
+        "idf": 7.654,
+        "shared_stems": [
+          "Ck_C",
+          "q-t",
+          "yk_C"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f75r",
+        "idf": 5.378,
+        "shared_stems": [
+          "sok",
+          "sy"
+        ]
+      },
+      "line1_eva": "pchroiin . otchor . chpchol . chpchey . s . pcho{ct}y",
+      "line1_gloss": "pchroiin <BOT:stem[p_Cro]:DOSE[-aiin]> | otchor <NOM:herb+BOT:stem[ot_C]:RESIN[-or/ar]> | chpchol <BOT:stem[Cp_C]:FLUID[-ol/al]> | chpchey <BOT:stem[Cp_C]:INF[-ey]> | s <SEQ:next+SEQ:tendril[s]> | pcho{ct}y <BOT:stem[p_Coct]:STAT[-y]>"
+    },
+    {
+      "rank": 30,
+      "folio": "f17r",
+      "quire": "C",
+      "bifolio_B": 1,
+      "page_P": "A",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 80,
+      "n_paras": 3,
+      "n_unique_stems": 42,
+      "morph": {
+        "n": 80,
+        "qo_pct": 11.25,
+        "cth_ckh_pct": 11.25,
+        "ol_or_al_ar_pct": 28.75,
+        "aiin_pct": 3.75,
+        "d_s_onset_pct": 20.0
+      },
+      "routing": {
+        "P": 35.418,
+        "B": 21.333,
+        "S": 52.238,
+        "Z": 11.254,
+        "f58": 1.664,
+        "PBS": 61.752,
+        "P_per_100w": 44.272,
+        "PBS_per_100w": 77.19
+      },
+      "best_pharm": {
+        "folio": "f102r1",
+        "idf": 11.318,
+        "shared_stems": [
+          "Cop",
+          "otEEo",
+          "ok_S"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 18.71,
+        "shared_stems": [
+          "Cckho",
+          "oii",
+          "k_Seo"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f77v",
+        "idf": 10.155,
+        "shared_stems": [
+          "das",
+          "dCe",
+          "sC"
+        ]
+      },
+      "line1_eva": "fshody . daram . ydar . chog . opydy . ypod . chop",
+      "line1_gloss": "fshody <BOT:stem[f_So]:STATE[-dy]> | daram <ABL:from-root+BOT:stem[dar]:SEAL[-am]> | ydar <CONJ:and+BOT:stem[yd]:RESIN[-or/ar]> | chog <BOT:stem[Cog]> | opydy <NOM:herb+BOT:stem[opy]:STATE[-dy]> | ypod <CONJ:and+BOT:stem[ypod]> | chop <BOT:stem[Cop]>"
+    },
+    {
+      "rank": 31,
+      "folio": "f17v",
+      "quire": "C",
+      "bifolio_B": 1,
+      "page_P": "B",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 135,
+      "n_paras": 1,
+      "n_unique_stems": 40,
+      "morph": {
+        "n": 135,
+        "qo_pct": 5.19,
+        "cth_ckh_pct": 8.15,
+        "ol_or_al_ar_pct": 55.56,
+        "aiin_pct": 11.11,
+        "d_s_onset_pct": 16.3
+      },
+      "routing": {
+        "P": 60.593,
+        "B": 41.1,
+        "S": 69.49,
+        "Z": 24.838,
+        "f58": 38.099,
+        "PBS": 81.959,
+        "P_per_100w": 44.884,
+        "PBS_per_100w": 60.71
+      },
+      "best_pharm": {
+        "folio": "f99r",
+        "idf": 22.053,
+        "shared_stems": [
+          "cphe",
+          "Cr",
+          "oek"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113v",
+        "idf": 22.055,
+        "shared_stems": [
+          "Colt",
+          "oek",
+          "olo"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f80r",
+        "idf": 11.864,
+        "shared_stems": [
+          "Secth",
+          "olo",
+          "EEs"
+        ]
+      },
+      "line1_eva": "pchodol . chor . pchy . opydaiin . odal . dy",
+      "line1_gloss": "pchodol <BOT:stem[p_Cod]:FLUID[-ol/al]> | chor <BOT:stem[Co]:RESIN[-or/ar]> | pchy <CMPD:cup-bench[pch]:STAT[-y]> | opydaiin <NOM:herb+BOT:stem[opyd]:DOSE[-aiin]> | odal <NOM:herb+BOT:stem[od]:FLUID[-ol/al]> | dy <ABL:from-root+BOT:stem[dy]:STATE[-dy]>"
+    },
+    {
+      "rank": 32,
+      "folio": "f18r",
+      "quire": "C",
+      "bifolio_B": 2,
+      "page_P": "C",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 84,
+      "n_paras": 2,
+      "n_unique_stems": 23,
+      "morph": {
+        "n": 84,
+        "qo_pct": 7.14,
+        "cth_ckh_pct": 21.43,
+        "ol_or_al_ar_pct": 53.57,
+        "aiin_pct": 10.71,
+        "d_s_onset_pct": 28.57
+      },
+      "routing": {
+        "P": 28.612,
+        "B": 24.656,
+        "S": 33.458,
+        "Z": 8.248,
+        "f58": 9.527,
+        "PBS": 39.99,
+        "P_per_100w": 34.062,
+        "PBS_per_100w": 47.607
+      },
+      "best_pharm": {
+        "folio": "f102r1",
+        "idf": 11.095,
+        "shared_stems": [
+          "dol",
+          "Sol",
+          "ok_S"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114r",
+        "idf": 13.391,
+        "shared_stems": [
+          "dol",
+          "oS",
+          "octh"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79v",
+        "idf": 8.534,
+        "shared_stems": [
+          "oS",
+          "ot_S",
+          "Cl"
+        ]
+      },
+      "line1_eva": "pdrairdy . darod{cf} . yoar . ykchol . dar . om . chckhy",
+      "line1_gloss": "pdrairdy <BOT:stem[pdrair]:STATE[-dy]> | darod{cf} <ABL:from-root+BOT:stem[darodcf]> | yoar <CONJ:and+BOT:stem[yo]:RESIN[-or/ar]> | ykchol <CONJ:and+BOT:stem[yk_C]:FLUID[-ol/al]> | dar <ABL:from-root+BOT:stem[da]:RESIN[-or/ar]> | om <NOM:herb+BOT:stem[om]:SEAL[-am]> | chckhy <BOT:stem[Cckh]:STAT[-y]>"
+    },
+    {
+      "rank": 33,
+      "folio": "f18v",
+      "quire": "C",
+      "bifolio_B": 2,
+      "page_P": "D",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 69,
+      "n_paras": 1,
+      "n_unique_stems": 23,
+      "morph": {
+        "n": 69,
+        "qo_pct": 26.09,
+        "cth_ckh_pct": 20.29,
+        "ol_or_al_ar_pct": 30.43,
+        "aiin_pct": 2.9,
+        "d_s_onset_pct": 28.99
+      },
+      "routing": {
+        "P": 31.437,
+        "B": 30.666,
+        "S": 33.173,
+        "Z": 17.936,
+        "f58": 15.374,
+        "PBS": 48.581,
+        "P_per_100w": 45.561,
+        "PBS_per_100w": 70.407
+      },
+      "best_pharm": {
+        "folio": "f101r",
+        "idf": 11.44,
+        "shared_stems": [
+          "Ck_C",
+          "cpho",
+          "oa"
+        ]
+      },
+      "best_starred": {
+        "folio": "f115v",
+        "idf": 16.886,
+        "shared_stems": [
+          "ot_Cd",
+          "Ck_C",
+          "EEs"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79v",
+        "idf": 12.733,
+        "shared_stems": [
+          "orS",
+          "tol",
+          "kEEs"
+        ]
+      },
+      "line1_eva": "told . shor . ytshy . otchdal . dchal . dchy . ytdg",
+      "line1_gloss": "told <BOT:stem[told]> | shor <BOT:stem[So]:RESIN[-or/ar]> | ytshy <CONJ:and+BOT:stem[yt_S]:STAT[-y]> | otchdal <NOM:herb+BOT:stem[ot_Cd]:FLUID[-ol/al]> | dchal <ABL:from-root+BOT:stem[dC]:FLUID[-ol/al]> | dchy <ABL:from-root+BOT:stem[dC]:STAT[-y]> | ytdg <CONJ:and+BOT:stem[ytdg]>"
+    },
+    {
+      "rank": 34,
+      "folio": "f19r",
+      "quire": "C",
+      "bifolio_B": 3,
+      "page_P": "E",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 76,
+      "n_paras": 1,
+      "n_unique_stems": 20,
+      "morph": {
+        "n": 76,
+        "qo_pct": 13.16,
+        "cth_ckh_pct": 19.74,
+        "ol_or_al_ar_pct": 34.21,
+        "aiin_pct": 13.16,
+        "d_s_onset_pct": 35.53
+      },
+      "routing": {
+        "P": 26.807,
+        "B": 26.063,
+        "S": 25.466,
+        "Z": 8.172,
+        "f58": 10.004,
+        "PBS": 35.737,
+        "P_per_100w": 35.272,
+        "PBS_per_100w": 47.022
+      },
+      "best_pharm": {
+        "folio": "f101v",
+        "idf": 10.139,
+        "shared_stems": [
+          "dor",
+          "q-k",
+          "Cor"
+        ]
+      },
+      "best_starred": {
+        "folio": "f103v",
+        "idf": 10.056,
+        "shared_stems": [
+          "q-k",
+          "yS",
+          "os"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79r",
+        "idf": 10.105,
+        "shared_stems": [
+          "dyt",
+          "os",
+          "Col"
+        ]
+      },
+      "line1_eva": "pchor . qodchy . qotshy . dy . tchy . qotchy . qoky",
+      "line1_gloss": "pchor <CMPD:cup-bench[pch]:RESIN[-or/ar]> | qodchy <ACT:extract+BOT:stem[dC]:STAT[-y]> | qotshy <ACT:extract+BOT:stem[t_S]:STAT[-y]> | dy <ABL:from-root+BOT:stem[dy]:STATE[-dy]> | tchy <CMPD:stalk-bench[tch]:STAT[-y]> | qotchy <ACT:extract+CMPD:stalk-bench[tch]:STAT[-y]> | qoky <ACT:extract+BOT:stem[ky]:STAT[-y]>"
+    },
+    {
+      "rank": 35,
+      "folio": "f19v",
+      "quire": "C",
+      "bifolio_B": 3,
+      "page_P": "F",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 78,
+      "n_paras": 2,
+      "n_unique_stems": 16,
+      "morph": {
+        "n": 78,
+        "qo_pct": 14.1,
+        "cth_ckh_pct": 23.08,
+        "ol_or_al_ar_pct": 37.18,
+        "aiin_pct": 17.95,
+        "d_s_onset_pct": 23.08
+      },
+      "routing": {
+        "P": 7.48,
+        "B": 12.435,
+        "S": 16.734,
+        "Z": 2.206,
+        "f58": 2.786,
+        "PBS": 24.693,
+        "P_per_100w": 9.59,
+        "PBS_per_100w": 31.658
+      },
+      "best_pharm": {
+        "folio": "f88v",
+        "idf": 3.847,
+        "shared_stems": [
+          "Cocth",
+          "yk_C"
+        ]
+      },
+      "best_starred": {
+        "folio": "f108r",
+        "idf": 5.274,
+        "shared_stems": [
+          "poC",
+          "yk_C"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f77r",
+        "idf": 4.326,
+        "shared_stems": [
+          "dot"
+        ]
+      },
+      "line1_eva": "pochaiin . cthor . chpcheos . opchey . py . kchy",
+      "line1_gloss": "pochaiin <BOT:stem[poC]:DOSE[-aiin]> | cthor <BOT:stem[cth]:RESIN[-or/ar]> | chpcheos <BOT:stem[Cp_Ceos]> | opchey <NOM:herb+BOT:stem[op_C]:INF[-ey]> | py <BOT:stem[py]:STAT[-y]> | kchy <CMPD:calyx-bench[kch]:STAT[-y]>"
+    },
+    {
+      "rank": 36,
+      "folio": "f20r",
+      "quire": "C",
+      "bifolio_B": 4,
+      "page_P": "G",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 88,
+      "n_paras": 3,
+      "n_unique_stems": 28,
+      "morph": {
+        "n": 88,
+        "qo_pct": 13.64,
+        "cth_ckh_pct": 12.5,
+        "ol_or_al_ar_pct": 20.45,
+        "aiin_pct": 17.05,
+        "d_s_onset_pct": 20.45
+      },
+      "routing": {
+        "P": 33.903,
+        "B": 8.878,
+        "S": 24.261,
+        "Z": 12.668,
+        "f58": 1.664,
+        "PBS": 41.421,
+        "P_per_100w": 38.526,
+        "PBS_per_100w": 47.069
+      },
+      "best_pharm": {
+        "folio": "f89v1",
+        "idf": 7.879,
+        "shared_stems": [
+          "Sos",
+          "ctho",
+          "oC"
+        ]
+      },
+      "best_starred": {
+        "folio": "f115r",
+        "idf": 10.785,
+        "shared_stems": [
+          "t_Ceod",
+          "p_Cod",
+          "tEEo"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f83r",
+        "idf": 3.816,
+        "shared_stems": [
+          "CEEb"
+        ]
+      },
+      "line1_eva": "kdchody . chopy . cheey . qotchol . qotoeey . dchor . chaiin",
+      "line1_gloss": "kdchody <BOT:stem[kdCo]:STATE[-dy]> | chopy <BOT:stem[Cop]:STAT[-y]> | cheey <BOT:stem[CEE]:STAT[-y]> | qotchol <ACT:extract+CMPD:stalk-bench[tch]:FLUID[-ol/al]> | qotoeey <ACT:extract+BOT:stem[toEE]:STAT[-y]> | dchor <ABL:from-root+BOT:stem[dC]:RESIN[-or/ar]> | chaiin <BOT:stem[Ca]:DOSE[-aiin]>"
+    },
+    {
+      "rank": 37,
+      "folio": "f20v",
+      "quire": "C",
+      "bifolio_B": 4,
+      "page_P": "H",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 86,
+      "n_paras": 2,
+      "n_unique_stems": 29,
+      "morph": {
+        "n": 86,
+        "qo_pct": 4.65,
+        "cth_ckh_pct": 5.81,
+        "ol_or_al_ar_pct": 23.26,
+        "aiin_pct": 15.12,
+        "d_s_onset_pct": 32.56
+      },
+      "routing": {
+        "P": 28.746,
+        "B": 29.882,
+        "S": 49.929,
+        "Z": 22.924,
+        "f58": 7.553,
+        "PBS": 53.157,
+        "P_per_100w": 33.426,
+        "PBS_per_100w": 61.81
+      },
+      "best_pharm": {
+        "folio": "f99v",
+        "idf": 11.375,
+        "shared_stems": [
+          "Socth",
+          "et",
+          "Sok"
+        ]
+      },
+      "best_starred": {
+        "folio": "f115r",
+        "idf": 16.983,
+        "shared_stems": [
+          "et",
+          "Ccph",
+          "Cor"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79r",
+        "idf": 8.212,
+        "shared_stems": [
+          "Sai",
+          "Col",
+          "t_S"
+        ]
+      },
+      "line1_eva": "faiis . ar . okoy . shy . pofochey . opchy . qopy",
+      "line1_gloss": "faiis <BOT:stem[faiis]> | ar <BOT:stem[ar]:RESIN[-or/ar]> | okoy <NOM:herb+BOT:stem[oko]:STAT[-y]> | shy <BOT:stem[Sy]:STAT[-y]> | pofochey <BOT:stem[pofoC]:INF[-ey]> | opchy <NOM:herb+BOT:stem[op_C]:STAT[-y]> | qopy <ACT:extract+BOT:stem[py]:STAT[-y]>"
+    },
+    {
+      "rank": 38,
+      "folio": "f21r",
+      "quire": "C",
+      "bifolio_B": 4,
+      "page_P": "I",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 104,
+      "n_paras": 3,
+      "n_unique_stems": 27,
+      "morph": {
+        "n": 104,
+        "qo_pct": 10.58,
+        "cth_ckh_pct": 7.69,
+        "ol_or_al_ar_pct": 30.77,
+        "aiin_pct": 15.38,
+        "d_s_onset_pct": 21.15
+      },
+      "routing": {
+        "P": 24.592,
+        "B": 11.874,
+        "S": 32.11,
+        "Z": 5.863,
+        "f58": 10.965,
+        "PBS": 37.02,
+        "P_per_100w": 23.646,
+        "PBS_per_100w": 35.596
+      },
+      "best_pharm": {
+        "folio": "f99r",
+        "idf": 11.013,
+        "shared_stems": [
+          "p_Ceo",
+          "cthEE",
+          "yp_C"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 18.85,
+        "shared_stems": [
+          "Cokeo",
+          "p_Ceo",
+          "cthEE"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f75r",
+        "idf": 4.92,
+        "shared_stems": [
+          "ySe",
+          "k_S"
+        ]
+      },
+      "line1_eva": "pchor . o . eeockhy . o . fychey . ypchey . qopcheody",
+      "line1_gloss": "pchor <CMPD:cup-bench[pch]:RESIN[-or/ar]> | o <NOM:herb+BOT:stem[o]> | eeockhy <BOT:stem[EEockh]:STAT[-y]> | o <NOM:herb+BOT:stem[o]> | fychey <BOT:stem[fyC]:INF[-ey]> | ypchey <CONJ:and+BOT:stem[yp_C]:INF[-ey]> | qopcheody <ACT:extract+BOT:stem[p_Ceo]:STATE[-dy]>"
+    },
+    {
+      "rank": 39,
+      "folio": "f21v",
+      "quire": "C",
+      "bifolio_B": 4,
+      "page_P": "J",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 58,
+      "n_paras": 1,
+      "n_unique_stems": 19,
+      "morph": {
+        "n": 58,
+        "qo_pct": 10.34,
+        "cth_ckh_pct": 18.97,
+        "ol_or_al_ar_pct": 18.97,
+        "aiin_pct": 20.69,
+        "d_s_onset_pct": 27.59
+      },
+      "routing": {
+        "P": 8.479,
+        "B": 12.2,
+        "S": 22.431,
+        "Z": 12.942,
+        "f58": 6.373,
+        "PBS": 24.218,
+        "P_per_100w": 14.619,
+        "PBS_per_100w": 41.755
+      },
+      "best_pharm": {
+        "folio": "f102v2",
+        "idf": 4.763,
+        "shared_stems": [
+          "dEE",
+          "tod"
+        ]
+      },
+      "best_starred": {
+        "folio": "f115r",
+        "idf": 9.958,
+        "shared_stems": [
+          "f_S",
+          "Cot_C",
+          "t_Co"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f80r",
+        "idf": 7.119,
+        "shared_stems": [
+          "f_S",
+          "Ct",
+          "Sckh"
+        ]
+      },
+      "line1_eva": "toldshy . chofchy . qofshey . shckhol . odaiin . shey . ckholy",
+      "line1_gloss": "toldshy <BOT:stem[toldS]:STAT[-y]> | chofchy <BOT:stem[Cof_C]:STAT[-y]> | qofshey <ACT:extract+BOT:stem[f_S]:INF[-ey]> | shckhol <BOT:stem[Sckh]:FLUID[-ol/al]> | odaiin <NOM:herb+BOT:stem[od]:DOSE[-aiin]> | shey <STEM:infused-spray[she]:INF[-ey]> | ckholy <BOT:stem[ckhol]:STAT[-y]>"
+    },
+    {
+      "rank": 40,
+      "folio": "f22r",
+      "quire": "C",
+      "bifolio_B": 3,
+      "page_P": "K",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 111,
+      "n_paras": 4,
+      "n_unique_stems": 32,
+      "morph": {
+        "n": 111,
+        "qo_pct": 6.31,
+        "cth_ckh_pct": 8.11,
+        "ol_or_al_ar_pct": 29.73,
+        "aiin_pct": 21.62,
+        "d_s_onset_pct": 35.14
+      },
+      "routing": {
+        "P": 30.872,
+        "B": 31.817,
+        "S": 41.882,
+        "Z": 13.519,
+        "f58": 9.448,
+        "PBS": 53.078,
+        "P_per_100w": 27.813,
+        "PBS_per_100w": 47.818
+      },
+      "best_pharm": {
+        "folio": "f101v",
+        "idf": 12.829,
+        "shared_stems": [
+          "ctheo",
+          "old",
+          "otol"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114r",
+        "idf": 15.761,
+        "shared_stems": [
+          "ocph",
+          "of_C",
+          "old"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79v",
+        "idf": 15.159,
+        "shared_stems": [
+          "odC",
+          "dyk",
+          "of_C"
+        ]
+      },
+      "line1_eva": "pol . olshy . fcholy . shol . dpchy . oty . okoly",
+      "line1_gloss": "pol <BOT:stem[po]:FLUID[-ol/al]> | olshy <NOM:herb+BOT:stem[olS]:STAT[-y]> | fcholy <BOT:stem[f_Col]:STAT[-y]> | shol <BOT:stem[So]:FLUID[-ol/al]> | dpchy <ABL:from-root+BOT:stem[dp_C]:STAT[-y]> | oty <NOM:herb+NOM:vessel-stalk[ot]:STAT[-y]> | okoly <NOM:herb+BOT:stem[okol]:STAT[-y]>"
+    },
+    {
+      "rank": 41,
+      "folio": "f22v",
+      "quire": "C",
+      "bifolio_B": 3,
+      "page_P": "L",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 77,
+      "n_paras": 2,
+      "n_unique_stems": 21,
+      "morph": {
+        "n": 77,
+        "qo_pct": 12.99,
+        "cth_ckh_pct": 25.97,
+        "ol_or_al_ar_pct": 25.97,
+        "aiin_pct": 19.48,
+        "d_s_onset_pct": 32.47
+      },
+      "routing": {
+        "P": 19.586,
+        "B": 17.45,
+        "S": 24.598,
+        "Z": 11.539,
+        "f58": 5.945,
+        "PBS": 32.152,
+        "P_per_100w": 25.436,
+        "PBS_per_100w": 41.756
+      },
+      "best_pharm": {
+        "folio": "f101v",
+        "idf": 8.17,
+        "shared_stems": [
+          "dor",
+          "k_Ce",
+          "Cor"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 10.569,
+        "shared_stems": [
+          "sok",
+          "Sot",
+          "Cocth"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f78r",
+        "idf": 5.859,
+        "shared_stems": [
+          "sok",
+          "of_C"
+        ]
+      },
+      "line1_eva": "pysaiinor . ofchar . oky . tchy . otdy . sor . shy",
+      "line1_gloss": "pysaiinor <BOT:stem[pysaIIN]:RESIN[-or/ar]> | ofchar <NOM:herb+BOT:stem[of_C]:RESIN[-or/ar]> | oky <NOM:herb+NOM:vessel-calyx[ok]:STAT[-y]> | tchy <CMPD:stalk-bench[tch]:STAT[-y]> | otdy <NOM:herb+NOM:vessel-stalk[ot]:STATE[-dy]> | sor <SEQ:next+BOT:stem[so]:RESIN[-or/ar]> | shy <BOT:stem[Sy]:STAT[-y]>"
+    },
+    {
+      "rank": 42,
+      "folio": "f23r",
+      "quire": "C",
+      "bifolio_B": 2,
+      "page_P": "M",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 110,
+      "n_paras": 3,
+      "n_unique_stems": 31,
+      "morph": {
+        "n": 110,
+        "qo_pct": 10.91,
+        "cth_ckh_pct": 10.91,
+        "ol_or_al_ar_pct": 36.36,
+        "aiin_pct": 11.82,
+        "d_s_onset_pct": 30.91
+      },
+      "routing": {
+        "P": 23.256,
+        "B": 38.965,
+        "S": 35.081,
+        "Z": 13.07,
+        "f58": 17.258,
+        "PBS": 49.236,
+        "P_per_100w": 21.142,
+        "PBS_per_100w": 44.76
+      },
+      "best_pharm": {
+        "folio": "f101r",
+        "idf": 9.325,
+        "shared_stems": [
+          "Ck_C",
+          "q-k",
+          "yk_C"
+        ]
+      },
+      "best_starred": {
+        "folio": "f103v",
+        "idf": 10.946,
+        "shared_stems": [
+          "olf_C",
+          "q-k",
+          "t_S"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f82v",
+        "idf": 12.157,
+        "shared_stems": [
+          "olf_C",
+          "q-k",
+          "kol"
+        ]
+      },
+      "line1_eva": "pydchdom . chy . fcholdy . oty . otchol . shy . opyaiin",
+      "line1_gloss": "pydchdom <BOT:stem[pydCdo]:SEAL[-am]> | chy <BOT:stem[Cy]:STAT[-y]> | fcholdy <BOT:stem[f_Col]:STATE[-dy]> | oty <NOM:herb+NOM:vessel-stalk[ot]:STAT[-y]> | otchol <NOM:herb+BOT:stem[ot_C]:FLUID[-ol/al]> | shy <BOT:stem[Sy]:STAT[-y]> | opyaiin <NOM:herb+BOT:stem[opy]:DOSE[-aiin]>"
+    },
+    {
+      "rank": 43,
+      "folio": "f23v",
+      "quire": "C",
+      "bifolio_B": 2,
+      "page_P": "N",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 95,
+      "n_paras": 2,
+      "n_unique_stems": 28,
+      "morph": {
+        "n": 95,
+        "qo_pct": 8.42,
+        "cth_ckh_pct": 8.42,
+        "ol_or_al_ar_pct": 47.37,
+        "aiin_pct": 11.58,
+        "d_s_onset_pct": 28.42
+      },
+      "routing": {
+        "P": 19.673,
+        "B": 22.696,
+        "S": 18.497,
+        "Z": 5.639,
+        "f58": 7.802,
+        "PBS": 26.817,
+        "P_per_100w": 20.708,
+        "PBS_per_100w": 28.228
+      },
+      "best_pharm": {
+        "folio": "f99r",
+        "idf": 7.445,
+        "shared_stems": [
+          "ols",
+          "CEEs",
+          "t_S"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114r",
+        "idf": 12.701,
+        "shared_stems": [
+          "Ccph",
+          "old",
+          "ols"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f83r",
+        "idf": 9.766,
+        "shared_stems": [
+          "CEEb",
+          "ols",
+          "ot_S"
+        ]
+      },
+      "line1_eva": "podairol . odaiiily . sho . al . dy . opchol . otol",
+      "line1_gloss": "podairol <BOT:stem[podair]:FLUID[-ol/al]> | odaiiily <NOM:herb+BOT:stem[odaiiil]:STAT[-y]> | sho <BOT:stem[So]> | al <BOT:stem[al]:FLUID[-ol/al]> | dy <ABL:from-root+BOT:stem[dy]:STATE[-dy]> | opchol <NOM:herb+BOT:stem[op_C]:FLUID[-ol/al]> | otol <NOM:herb+NOM:vessel-stalk[ot]:FLUID[-ol/al]>"
+    },
+    {
+      "rank": 44,
+      "folio": "f24r",
+      "quire": "C",
+      "bifolio_B": 1,
+      "page_P": "O",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 110,
+      "n_paras": 1,
+      "n_unique_stems": 25,
+      "morph": {
+        "n": 110,
+        "qo_pct": 13.64,
+        "cth_ckh_pct": 2.73,
+        "ol_or_al_ar_pct": 44.55,
+        "aiin_pct": 6.36,
+        "d_s_onset_pct": 22.73
+      },
+      "routing": {
+        "P": 31.177,
+        "B": 19.221,
+        "S": 36.832,
+        "Z": 11.82,
+        "f58": 13.045,
+        "PBS": 45.892,
+        "P_per_100w": 28.343,
+        "PBS_per_100w": 41.72
+      },
+      "best_pharm": {
+        "folio": "f102v2",
+        "idf": 10.778,
+        "shared_stems": [
+          "cthe",
+          "oEEs",
+          "tod"
+        ]
+      },
+      "best_starred": {
+        "folio": "f108r",
+        "idf": 11.368,
+        "shared_stems": [
+          "yo",
+          "yCe",
+          "om"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f77r",
+        "idf": 8.233,
+        "shared_stems": [
+          "sS",
+          "CEEs",
+          "po"
+        ]
+      },
+      "line1_eva": "por . or . y . chor . opchar . she . cheol",
+      "line1_gloss": "por <BOT:stem[po]:RESIN[-or/ar]> | or <NOM:herb+BOT:stem[or]:RESIN[-or/ar]> | y <CONJ:and+BOT:stem[y]:STAT[-y]> | chor <BOT:stem[Co]:RESIN[-or/ar]> | opchar <NOM:herb+BOT:stem[op_C]:RESIN[-or/ar]> | she <STEM:infused-spray[she]> | cheol <STEM:infused-bench[che]:FLUID[-ol/al]>"
+    },
+    {
+      "rank": 45,
+      "folio": "f24v",
+      "quire": "C",
+      "bifolio_B": 1,
+      "page_P": "P",
+      "stratum": "STRATUM_I_EARLY_PURE_A (Quires A-C)",
+      "n_tokens": 85,
+      "n_paras": 2,
+      "n_unique_stems": 39,
+      "morph": {
+        "n": 85,
+        "qo_pct": 2.35,
+        "cth_ckh_pct": 11.76,
+        "ol_or_al_ar_pct": 32.94,
+        "aiin_pct": 7.06,
+        "d_s_onset_pct": 21.18
+      },
+      "routing": {
+        "P": 37.305,
+        "B": 19.696,
+        "S": 50.057,
+        "Z": 7.366,
+        "f58": 8.752,
+        "PBS": 61.074,
+        "P_per_100w": 43.888,
+        "PBS_per_100w": 71.852
+      },
+      "best_pharm": {
+        "folio": "f102r1",
+        "idf": 9.56,
+        "shared_stems": [
+          "okod",
+          "yCe",
+          "oEE"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114r",
+        "idf": 17.042,
+        "shared_stems": [
+          "Cocfh",
+          "okod",
+          "Ccph"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f84r",
+        "idf": 8.335,
+        "shared_stems": [
+          "doii",
+          "oro",
+          "yd"
+        ]
+      },
+      "line1_eva": "tchodar . chocfhey . opom . shod . chcphy . opshody . ocphoraiin",
+      "line1_gloss": "tchodar <BOT:stem[t_Cod]:RESIN[-or/ar]> | chocfhey <BOT:stem[Cocfh]:INF[-ey]> | opom <NOM:herb+BOT:stem[opo]:SEAL[-am]> | shod <BOT:stem[Sod]> | chcphy <BOT:stem[Ccph]:STAT[-y]> | opshody <NOM:herb+BOT:stem[op_So]:STATE[-dy]> | ocphoraiin <NOM:herb+BOT:stem[ocphor]:DOSE[-aiin]>"
+    },
+    {
+      "rank": 46,
+      "folio": "f25r",
+      "quire": "D",
+      "bifolio_B": 1,
+      "page_P": "A",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 47,
+      "n_paras": 1,
+      "n_unique_stems": 23,
+      "morph": {
+        "n": 47,
+        "qo_pct": 12.77,
+        "cth_ckh_pct": 14.89,
+        "ol_or_al_ar_pct": 10.64,
+        "aiin_pct": 19.15,
+        "d_s_onset_pct": 38.3
+      },
+      "routing": {
+        "P": 12.316,
+        "B": 21.778,
+        "S": 38.055,
+        "Z": 6.196,
+        "f58": 9.011,
+        "PBS": 41.871,
+        "P_per_100w": 26.204,
+        "PBS_per_100w": 89.087
+      },
+      "best_pharm": {
+        "folio": "f99r",
+        "idf": 4.915,
+        "shared_stems": [
+          "ck",
+          "t_S"
+        ]
+      },
+      "best_starred": {
+        "folio": "f107r",
+        "idf": 10.618,
+        "shared_stems": [
+          "Ckai",
+          "t_Ce",
+          "Cot_C"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f83r",
+        "idf": 7.986,
+        "shared_stems": [
+          "ck",
+          "Ckai",
+          "sy"
+        ]
+      },
+      "line1_eva": "fcholdy . soshy . daiin . {ck}y . shody . daiin . ocholdy",
+      "line1_gloss": "fcholdy <BOT:stem[f_Col]:STATE[-dy]> | soshy <SEQ:next+BOT:stem[soS]:STAT[-y]> | daiin <ABL:from-root+BOT:stem[da]:DOSE[-aiin]> | {ck}y <BOT:stem[ck]:STAT[-y]> | shody <BOT:stem[So]:STATE[-dy]> | daiin <ABL:from-root+BOT:stem[da]:DOSE[-aiin]> | ocholdy <NOM:herb+BOT:stem[oCol]:STATE[-dy]>"
+    },
+    {
+      "rank": 47,
+      "folio": "f25v",
+      "quire": "D",
+      "bifolio_B": 1,
+      "page_P": "B",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 59,
+      "n_paras": 1,
+      "n_unique_stems": 18,
+      "morph": {
+        "n": 59,
+        "qo_pct": 15.25,
+        "cth_ckh_pct": 11.86,
+        "ol_or_al_ar_pct": 27.12,
+        "aiin_pct": 25.42,
+        "d_s_onset_pct": 45.76
+      },
+      "routing": {
+        "P": 25.95,
+        "B": 12.754,
+        "S": 24.735,
+        "Z": 11.642,
+        "f58": 6.615,
+        "PBS": 32.001,
+        "P_per_100w": 43.983,
+        "PBS_per_100w": 54.239
+      },
+      "best_pharm": {
+        "folio": "f88r",
+        "idf": 7.161,
+        "shared_stems": [
+          "poEE",
+          "orC"
+        ]
+      },
+      "best_starred": {
+        "folio": "f106v",
+        "idf": 8.18,
+        "shared_stems": [
+          "Cai",
+          "k_Co",
+          "f_C"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f81v",
+        "idf": 5.54,
+        "shared_stems": [
+          "f_C",
+          "daii",
+          "Sckh"
+        ]
+      },
+      "line1_eva": "poeeaiin . qo . ky . shy . daiin . qopchey . otchey",
+      "line1_gloss": "poeeaiin <BOT:stem[poEE]:DOSE[-aiin]> | qo <ACT:extract+BOT:stem[q-]> | ky <BOT:stem[ky]:STAT[-y]> | shy <BOT:stem[Sy]:STAT[-y]> | daiin <ABL:from-root+BOT:stem[da]:DOSE[-aiin]> | qopchey <ACT:extract+CMPD:cup-bench[pch]:INF[-ey]> | otchey <NOM:herb+BOT:stem[ot_C]:INF[-ey]>"
+    },
+    {
+      "rank": 48,
+      "folio": "f27r",
+      "quire": "D",
+      "bifolio_B": 3,
+      "page_P": "E",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 94,
+      "n_paras": 2,
+      "n_unique_stems": 25,
+      "morph": {
+        "n": 94,
+        "qo_pct": 2.13,
+        "cth_ckh_pct": 8.51,
+        "ol_or_al_ar_pct": 22.34,
+        "aiin_pct": 5.32,
+        "d_s_onset_pct": 36.17
+      },
+      "routing": {
+        "P": 19.485,
+        "B": 12.847,
+        "S": 40.336,
+        "Z": 6.825,
+        "f58": 13.244,
+        "PBS": 42.123,
+        "P_per_100w": 20.729,
+        "PBS_per_100w": 44.812
+      },
+      "best_pharm": {
+        "folio": "f100v",
+        "idf": 8.461,
+        "shared_stems": [
+          "Cols",
+          "ly",
+          "Cos"
+        ]
+      },
+      "best_starred": {
+        "folio": "f115r",
+        "idf": 13.265,
+        "shared_stems": [
+          "Cols",
+          "p_Co",
+          "k_Ce"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f75v",
+        "idf": 5.744,
+        "shared_stems": [
+          "Car",
+          "ly"
+        ]
+      },
+      "line1_eva": "ksor . shey . shoteo . chforaiin . shy . shod . chary",
+      "line1_gloss": "ksor <BOT:stem[ks]:RESIN[-or/ar]> | shey <STEM:infused-spray[she]:INF[-ey]> | shoteo <BOT:stem[Soteo]> | chforaiin <BOT:stem[Cfor]:DOSE[-aiin]> | shy <BOT:stem[Sy]:STAT[-y]> | shod <BOT:stem[Sod]> | chary <BOT:stem[Car]:STAT[-y]>"
+    },
+    {
+      "rank": 49,
+      "folio": "f27v",
+      "quire": "D",
+      "bifolio_B": 3,
+      "page_P": "F",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 61,
+      "n_paras": 1,
+      "n_unique_stems": 30,
+      "morph": {
+        "n": 61,
+        "qo_pct": 1.64,
+        "cth_ckh_pct": 27.87,
+        "ol_or_al_ar_pct": 16.39,
+        "aiin_pct": 0.0,
+        "d_s_onset_pct": 42.62
+      },
+      "routing": {
+        "P": 17.567,
+        "B": 9.095,
+        "S": 22.079,
+        "Z": 5.051,
+        "f58": 1.787,
+        "PBS": 30.709,
+        "P_per_100w": 28.798,
+        "PBS_per_100w": 50.343
+      },
+      "best_pharm": {
+        "folio": "f102r1",
+        "idf": 6.407,
+        "shared_stems": [
+          "Cof",
+          "kod"
+        ]
+      },
+      "best_starred": {
+        "folio": "f112r",
+        "idf": 9.606,
+        "shared_stems": [
+          "sol",
+          "ok_Co",
+          "Sk"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f83r",
+        "idf": 7.071,
+        "shared_stems": [
+          "sol",
+          "Sk",
+          "Sd"
+        ]
+      },
+      "line1_eva": "pochof . chof . cho . sho . soly . shol . ytchar",
+      "line1_gloss": "pochof <BOT:stem[poCof]> | chof <BOT:stem[Cof]> | cho <BOT:stem[Co]> | sho <BOT:stem[So]> | soly <SEQ:next+BOT:stem[sol]:STAT[-y]> | shol <BOT:stem[So]:FLUID[-ol/al]> | ytchar <CONJ:and+BOT:stem[yt_C]:RESIN[-or/ar]>"
+    },
+    {
+      "rank": 50,
+      "folio": "f28r",
+      "quire": "D",
+      "bifolio_B": 4,
+      "page_P": "G",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 68,
+      "n_paras": 1,
+      "n_unique_stems": 25,
+      "morph": {
+        "n": 68,
+        "qo_pct": 8.82,
+        "cth_ckh_pct": 19.12,
+        "ol_or_al_ar_pct": 41.18,
+        "aiin_pct": 13.24,
+        "d_s_onset_pct": 30.88
+      },
+      "routing": {
+        "P": 32.866,
+        "B": 16.787,
+        "S": 36.233,
+        "Z": 14.983,
+        "f58": 9.724,
+        "PBS": 46.761,
+        "P_per_100w": 48.332,
+        "PBS_per_100w": 68.766
+      },
+      "best_pharm": {
+        "folio": "f101v",
+        "idf": 12.301,
+        "shared_stems": [
+          "yte",
+          "cthe",
+          "dEE"
+        ]
+      },
+      "best_starred": {
+        "folio": "f115r",
+        "idf": 11.467,
+        "shared_stems": [
+          "p_Cod",
+          "Cot_C",
+          "ld"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f75v",
+        "idf": 9.837,
+        "shared_stems": [
+          "de",
+          "dl",
+          "otol"
+        ]
+      },
+      "line1_eva": "pchodar . shod . chocphy . opchol . daiin . otchol . chy",
+      "line1_gloss": "pchodar <BOT:stem[p_Cod]:RESIN[-or/ar]> | shod <BOT:stem[Sod]> | chocphy <BOT:stem[Cocph]:STAT[-y]> | opchol <NOM:herb+BOT:stem[op_C]:FLUID[-ol/al]> | daiin <ABL:from-root+BOT:stem[da]:DOSE[-aiin]> | otchol <NOM:herb+BOT:stem[ot_C]:FLUID[-ol/al]> | chy <BOT:stem[Cy]:STAT[-y]>"
+    },
+    {
+      "rank": 51,
+      "folio": "f28v",
+      "quire": "D",
+      "bifolio_B": 4,
+      "page_P": "H",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 68,
+      "n_paras": 3,
+      "n_unique_stems": 16,
+      "morph": {
+        "n": 68,
+        "qo_pct": 13.24,
+        "cth_ckh_pct": 13.24,
+        "ol_or_al_ar_pct": 30.88,
+        "aiin_pct": 19.12,
+        "d_s_onset_pct": 27.94
+      },
+      "routing": {
+        "P": 16.091,
+        "B": 16.63,
+        "S": 25.162,
+        "Z": 9.059,
+        "f58": 4.977,
+        "PBS": 28.796,
+        "P_per_100w": 23.663,
+        "PBS_per_100w": 42.347
+      },
+      "best_pharm": {
+        "folio": "f101v",
+        "idf": 5.531,
+        "shared_stems": [
+          "k_Co",
+          "Col",
+          "oIIN"
+        ]
+      },
+      "best_starred": {
+        "folio": "f115r",
+        "idf": 11.171,
+        "shared_stems": [
+          "k_Co",
+          "Cl",
+          "Ct"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f80v",
+        "idf": 7.637,
+        "shared_stems": [
+          "Cai",
+          "Ct",
+          "t_S"
+        ]
+      },
+      "line1_eva": "kshol . qooiiin . shor . pshoiiin . shepchy . qoty . dy",
+      "line1_gloss": "kshol <BOT:stem[k_S]:FLUID[-ol/al]> | qooiiin <ACT:extract+BOT:stem[oIIN]:DOSE[-aiin]> | shor <BOT:stem[So]:RESIN[-or/ar]> | pshoiiin <BOT:stem[p_So]:DOSE[-aiin]> | shepchy <BOT:stem[Sep_C]:STAT[-y]> | qoty <ACT:extract+BOT:stem[ty]:STAT[-y]> | dy <ABL:from-root+BOT:stem[dy]:STATE[-dy]>"
+    },
+    {
+      "rank": 52,
+      "folio": "f29r",
+      "quire": "D",
+      "bifolio_B": 4,
+      "page_P": "I",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 65,
+      "n_paras": 2,
+      "n_unique_stems": 22,
+      "morph": {
+        "n": 65,
+        "qo_pct": 16.92,
+        "cth_ckh_pct": 10.77,
+        "ol_or_al_ar_pct": 16.92,
+        "aiin_pct": 12.31,
+        "d_s_onset_pct": 27.69
+      },
+      "routing": {
+        "P": 27.688,
+        "B": 14.731,
+        "S": 30.81,
+        "Z": 23.688,
+        "f58": 8.6,
+        "PBS": 34.849,
+        "P_per_100w": 42.597,
+        "PBS_per_100w": 53.614
+      },
+      "best_pharm": {
+        "folio": "f89v1",
+        "idf": 7.906,
+        "shared_stems": [
+          "Sos",
+          "os",
+          "Col"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 16.536,
+        "shared_stems": [
+          "Sok_C",
+          "Seos",
+          "Sos"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79r",
+        "idf": 5.19,
+        "shared_stems": [
+          "os",
+          "Col",
+          "yk_C"
+        ]
+      },
+      "line1_eva": "posaiin . she . aiin . chep . oty . chy . qotchy",
+      "line1_gloss": "posaiin <BOT:stem[pos]:DOSE[-aiin]> | she <STEM:infused-spray[she]> | aiin <BOT:stem[aIIN]:DOSE[-aiin]> | chep <BOT:stem[Cep]> | oty <NOM:herb+NOM:vessel-stalk[ot]:STAT[-y]> | chy <BOT:stem[Cy]:STAT[-y]> | qotchy <ACT:extract+CMPD:stalk-bench[tch]:STAT[-y]>"
+    },
+    {
+      "rank": 53,
+      "folio": "f29v",
+      "quire": "D",
+      "bifolio_B": 4,
+      "page_P": "J",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 94,
+      "n_paras": 3,
+      "n_unique_stems": 37,
+      "morph": {
+        "n": 94,
+        "qo_pct": 4.26,
+        "cth_ckh_pct": 11.7,
+        "ol_or_al_ar_pct": 22.34,
+        "aiin_pct": 17.02,
+        "d_s_onset_pct": 32.98
+      },
+      "routing": {
+        "P": 35.328,
+        "B": 34.924,
+        "S": 47.869,
+        "Z": 18.863,
+        "f58": 15.408,
+        "PBS": 56.481,
+        "P_per_100w": 37.583,
+        "PBS_per_100w": 60.086
+      },
+      "best_pharm": {
+        "folio": "f101r",
+        "idf": 9.981,
+        "shared_stems": [
+          "ySo",
+          "Sot",
+          "oa"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114r",
+        "idf": 18.173,
+        "shared_stems": [
+          "Cai",
+          "octh",
+          "Cocth"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79r",
+        "idf": 16.277,
+        "shared_stems": [
+          "olt_C",
+          "Colo",
+          "ls"
+        ]
+      },
+      "line1_eva": "kooiin . shor . chetchy . ol . ls . shytchy . cthy",
+      "line1_gloss": "kooiin <BOT:stem[koo]:DOSE[-aiin]> | shor <BOT:stem[So]:RESIN[-or/ar]> | chetchy <BOT:stem[Cet_C]:STAT[-y]> | ol <NOM:herb+BOT:stem[ol]:FLUID[-ol/al]> | ls <LOC:in-fluid+BOT:stem[ls]> | shytchy <BOT:stem[Syt_C]:STAT[-y]> | cthy <BOT:stem[cth]:STAT[-y]>"
+    },
+    {
+      "rank": 54,
+      "folio": "f30r",
+      "quire": "D",
+      "bifolio_B": 3,
+      "page_P": "K",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 99,
+      "n_paras": 2,
+      "n_unique_stems": 40,
+      "morph": {
+        "n": 99,
+        "qo_pct": 9.09,
+        "cth_ckh_pct": 8.08,
+        "ol_or_al_ar_pct": 23.23,
+        "aiin_pct": 10.1,
+        "d_s_onset_pct": 27.27
+      },
+      "routing": {
+        "P": 46.155,
+        "B": 38.167,
+        "S": 64.79,
+        "Z": 18.952,
+        "f58": 4.684,
+        "PBS": 80.96,
+        "P_per_100w": 46.621,
+        "PBS_per_100w": 81.778
+      },
+      "best_pharm": {
+        "folio": "f101v",
+        "idf": 12.701,
+        "shared_stems": [
+          "rC",
+          "dEE",
+          "Cor"
+        ]
+      },
+      "best_starred": {
+        "folio": "f115v",
+        "idf": 18.633,
+        "shared_stems": [
+          "soi",
+          "q-t",
+          "rC"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f82r",
+        "idf": 15.705,
+        "shared_stems": [
+          "ry",
+          "CkEE",
+          "rC"
+        ]
+      },
+      "line1_eva": "okeeesy . chey . shorchey . fcheody . shey . tchy . che[s:r]",
+      "line1_gloss": "okeeesy <NOM:herb+BOT:stem[okEEs]:STAT[-y]> | chey <STEM:infused-bench[che]:INF[-ey]> | shorchey <BOT:stem[SorC]:INF[-ey]> | fcheody <BOT:stem[f_Ceo]:STATE[-dy]> | shey <STEM:infused-spray[she]:INF[-ey]> | tchy <CMPD:stalk-bench[tch]:STAT[-y]> | che[s:r] <BOT:stem[Ces]>"
+    },
+    {
+      "rank": 55,
+      "folio": "f30v",
+      "quire": "D",
+      "bifolio_B": 3,
+      "page_P": "L",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 63,
+      "n_paras": 1,
+      "n_unique_stems": 26,
+      "morph": {
+        "n": 63,
+        "qo_pct": 6.35,
+        "cth_ckh_pct": 22.22,
+        "ol_or_al_ar_pct": 30.16,
+        "aiin_pct": 17.46,
+        "d_s_onset_pct": 34.92
+      },
+      "routing": {
+        "P": 30.998,
+        "B": 10.931,
+        "S": 43.726,
+        "Z": 20.264,
+        "f58": 15.614,
+        "PBS": 48.741,
+        "P_per_100w": 49.203,
+        "PBS_per_100w": 77.367
+      },
+      "best_pharm": {
+        "folio": "f100v",
+        "idf": 7.841,
+        "shared_stems": [
+          "Coke",
+          "Cor",
+          "Cocth"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 17.708,
+        "shared_stems": [
+          "Cokeo",
+          "Cep_C",
+          "cpho"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f83v",
+        "idf": 7.991,
+        "shared_stems": [
+          "Seol",
+          "Cep_C",
+          "Ceckh"
+        ]
+      },
+      "line1_eva": "{c@132;h}s{c@133;h}ain . shosaiin . chocthey . sho . chepchy . shor . sheaiin",
+      "line1_gloss": "{c@132;h}s{c@133;h}ain <BOT:stem[CsCai]> | shosaiin <BOT:stem[Sos]:DOSE[-aiin]> | chocthey <BOT:stem[Cocth]:INF[-ey]> | sho <BOT:stem[So]> | chepchy <BOT:stem[Cep_C]:STAT[-y]> | shor <BOT:stem[So]:RESIN[-or/ar]> | sheaiin <STEM:infused-spray[she]:DOSE[-aiin]>"
+    },
+    {
+      "rank": 56,
+      "folio": "f32r",
+      "quire": "D",
+      "bifolio_B": 1,
+      "page_P": "O",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 76,
+      "n_paras": 2,
+      "n_unique_stems": 24,
+      "morph": {
+        "n": 76,
+        "qo_pct": 11.84,
+        "cth_ckh_pct": 14.47,
+        "ol_or_al_ar_pct": 38.16,
+        "aiin_pct": 13.16,
+        "d_s_onset_pct": 51.32
+      },
+      "routing": {
+        "P": 14.787,
+        "B": 17.982,
+        "S": 25.413,
+        "Z": 6.373,
+        "f58": 10.735,
+        "PBS": 30.546,
+        "P_per_100w": 19.457,
+        "PBS_per_100w": 40.192
+      },
+      "best_pharm": {
+        "folio": "f89v1",
+        "idf": 6.168,
+        "shared_stems": [
+          "Sos",
+          "ctho",
+          "dar"
+        ]
+      },
+      "best_starred": {
+        "folio": "f106v",
+        "idf": 9.157,
+        "shared_stems": [
+          "py",
+          "sC",
+          "f_C"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f77v",
+        "idf": 7.699,
+        "shared_stems": [
+          "sC",
+          "f_C",
+          "ro"
+        ]
+      },
+      "line1_eva": "fchaiin . shykeody . daiiody . dain . sho . tchy . oty",
+      "line1_gloss": "fchaiin <CMPD:plume-bench[fch]:DOSE[-aiin]> | shykeody <BOT:stem[Sykeo]:STATE[-dy]> | daiiody <ABL:from-root+BOT:stem[daiio]:STATE[-dy]> | dain <ABL:from-root+BOT:stem[dai]> | sho <BOT:stem[So]> | tchy <CMPD:stalk-bench[tch]:STAT[-y]> | oty <NOM:herb+NOM:vessel-stalk[ot]:STAT[-y]>"
+    },
+    {
+      "rank": 57,
+      "folio": "f32v",
+      "quire": "D",
+      "bifolio_B": 1,
+      "page_P": "P",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 89,
+      "n_paras": 2,
+      "n_unique_stems": 23,
+      "morph": {
+        "n": 89,
+        "qo_pct": 5.62,
+        "cth_ckh_pct": 8.99,
+        "ol_or_al_ar_pct": 20.22,
+        "aiin_pct": 21.35,
+        "d_s_onset_pct": 43.82
+      },
+      "routing": {
+        "P": 25.012,
+        "B": 12.538,
+        "S": 25.706,
+        "Z": 5.908,
+        "f58": 10.839,
+        "PBS": 35.977,
+        "P_per_100w": 28.103,
+        "PBS_per_100w": 40.424
+      },
+      "best_pharm": {
+        "folio": "f101r",
+        "idf": 7.178,
+        "shared_stems": [
+          "cpho",
+          "Cok_C",
+          "Sok"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 14.879,
+        "shared_stems": [
+          "k_Ceod",
+          "cpho",
+          "Cok_C"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f83r",
+        "idf": 5.19,
+        "shared_stems": [
+          "sk",
+          "Sckh"
+        ]
+      },
+      "line1_eva": "kcheodaiin . chol . kechy . qotaiin . daiioam . o . chofchody",
+      "line1_gloss": "kcheodaiin <BOT:stem[k_Ceod]:DOSE[-aiin]> | chol <BOT:stem[Co]:FLUID[-ol/al]> | kechy <BOT:stem[keC]:STAT[-y]> | qotaiin <ACT:extract+BOT:stem[ta]:DOSE[-aiin]> | daiioam <ABL:from-root+BOT:stem[daiio]:SEAL[-am]> | o <NOM:herb+BOT:stem[o]> | chofchody <BOT:stem[Cof_Co]:STATE[-dy]>"
+    },
+    {
+      "rank": 58,
+      "folio": "f35r",
+      "quire": "E",
+      "bifolio_B": 3,
+      "page_P": "E",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 94,
+      "n_paras": 2,
+      "n_unique_stems": 21,
+      "morph": {
+        "n": 94,
+        "qo_pct": 9.57,
+        "cth_ckh_pct": 11.7,
+        "ol_or_al_ar_pct": 18.09,
+        "aiin_pct": 35.11,
+        "d_s_onset_pct": 25.53
+      },
+      "routing": {
+        "P": 14.345,
+        "B": 27.566,
+        "S": 24.151,
+        "Z": 11.068,
+        "f58": 1.761,
+        "PBS": 37.667,
+        "P_per_100w": 15.261,
+        "PBS_per_100w": 40.071
+      },
+      "best_pharm": {
+        "folio": "f89v1",
+        "idf": 6.19,
+        "shared_stems": [
+          "Sos",
+          "Col",
+          "oC"
+        ]
+      },
+      "best_starred": {
+        "folio": "f107r",
+        "idf": 10.692,
+        "shared_stems": [
+          "ytai",
+          "pa",
+          "Cl"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f75r",
+        "idf": 11.398,
+        "shared_stems": [
+          "dain",
+          "ytai",
+          "kol"
+        ]
+      },
+      "line1_eva": "{c@132;h}oo . r . choly . {c@196;h}y . choty . char . dy",
+      "line1_gloss": "{c@132;h}oo <BOT:stem[Coo]> | r <SOL:resin[r]> | choly <BOT:stem[Col]:STAT[-y]> | {c@196;h}y <BOT:stem[Cy]:STAT[-y]> | choty <BOT:stem[Cot]:STAT[-y]> | char <BOT:stem[Ca]:RESIN[-or/ar]> | dy <ABL:from-root+BOT:stem[dy]:STATE[-dy]>"
+    },
+    {
+      "rank": 59,
+      "folio": "f35v",
+      "quire": "E",
+      "bifolio_B": 3,
+      "page_P": "F",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 91,
+      "n_paras": 1,
+      "n_unique_stems": 24,
+      "morph": {
+        "n": 91,
+        "qo_pct": 5.49,
+        "cth_ckh_pct": 20.88,
+        "ol_or_al_ar_pct": 25.27,
+        "aiin_pct": 20.88,
+        "d_s_onset_pct": 30.77
+      },
+      "routing": {
+        "P": 12.467,
+        "B": 11.678,
+        "S": 30.038,
+        "Z": 9.527,
+        "f58": 5.559,
+        "PBS": 33.384,
+        "P_per_100w": 13.7,
+        "PBS_per_100w": 36.686
+      },
+      "best_pharm": {
+        "folio": "f89r2",
+        "idf": 8.391,
+        "shared_stems": [
+          "sod",
+          "Cos",
+          "Col"
+        ]
+      },
+      "best_starred": {
+        "folio": "f115r",
+        "idf": 11.98,
+        "shared_stems": [
+          "Cot_C",
+          "t_Co",
+          "Cos"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f77v",
+        "idf": 5.215,
+        "shared_stems": [
+          "t_CEE",
+          "ro"
+        ]
+      },
+      "line1_eva": "parchor . chocthy . roaiin . ar",
+      "line1_gloss": "parchor <BOT:stem[parC]:RESIN[-or/ar]> | chocthy <BOT:stem[Cocth]:STAT[-y]> | roaiin <BOT:stem[ro]:DOSE[-aiin]> | ar <BOT:stem[ar]:RESIN[-or/ar]>"
+    },
+    {
+      "rank": 60,
+      "folio": "f36r",
+      "quire": "E",
+      "bifolio_B": 4,
+      "page_P": "G",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 63,
+      "n_paras": 2,
+      "n_unique_stems": 18,
+      "morph": {
+        "n": 63,
+        "qo_pct": 11.11,
+        "cth_ckh_pct": 7.94,
+        "ol_or_al_ar_pct": 23.81,
+        "aiin_pct": 19.05,
+        "d_s_onset_pct": 30.16
+      },
+      "routing": {
+        "P": 10.028,
+        "B": 11.702,
+        "S": 17.007,
+        "Z": 1.761,
+        "f58": 9.704,
+        "PBS": 17.007,
+        "P_per_100w": 15.917,
+        "PBS_per_100w": 26.995
+      },
+      "best_pharm": {
+        "folio": "f102v2",
+        "idf": 4.379,
+        "shared_stems": [
+          "rai",
+          "sy"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 7.785,
+        "shared_stems": [
+          "Ccfh",
+          "rai",
+          "yp_C"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f84r",
+        "idf": 6.17,
+        "shared_stems": [
+          "rai",
+          "Ct",
+          "yd"
+        ]
+      },
+      "line1_eva": "pcha@151;dan . qorain . chcfhal . soiin . cphor . shaiin . cthy",
+      "line1_gloss": "pcha@151;dan <BOT:stem[p_Cada]> | qorain <ACT:extract+BOT:stem[rai]> | chcfhal <BOT:stem[Ccfh]:FLUID[-ol/al]> | soiin <SEQ:next+BOT:stem[so]:DOSE[-aiin]> | cphor <BOT:stem[cph]:RESIN[-or/ar]> | shaiin <BOT:stem[Sa]:DOSE[-aiin]> | cthy <BOT:stem[cth]:STAT[-y]>"
+    },
+    {
+      "rank": 61,
+      "folio": "f36v",
+      "quire": "E",
+      "bifolio_B": 4,
+      "page_P": "H",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 76,
+      "n_paras": 2,
+      "n_unique_stems": 16,
+      "morph": {
+        "n": 76,
+        "qo_pct": 7.89,
+        "cth_ckh_pct": 14.47,
+        "ol_or_al_ar_pct": 28.95,
+        "aiin_pct": 19.74,
+        "d_s_onset_pct": 27.63
+      },
+      "routing": {
+        "P": 9.658,
+        "B": 17.233,
+        "S": 12.138,
+        "Z": 9.827,
+        "f58": 0,
+        "PBS": 22.462,
+        "P_per_100w": 12.708,
+        "PBS_per_100w": 29.555
+      },
+      "best_pharm": {
+        "folio": "f89r2",
+        "idf": 5.657,
+        "shared_stems": [
+          "ckho",
+          "as"
+        ]
+      },
+      "best_starred": {
+        "folio": "f116r",
+        "idf": 8.137,
+        "shared_stems": [
+          "Ctai",
+          "as",
+          "Cet"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f84v",
+        "idf": 5.75,
+        "shared_stems": [
+          "dys",
+          "oC"
+        ]
+      },
+      "line1_eva": "pchar . asy . qoforom . shoaiin . tchey . ch[{ckoh}:{ckhh}]y . otaiin",
+      "line1_gloss": "pchar <CMPD:cup-bench[pch]:RESIN[-or/ar]> | asy <BOT:stem[as]:STAT[-y]> | qoforom <ACT:extract+BOT:stem[foro]:SEAL[-am]> | shoaiin <BOT:stem[So]:DOSE[-aiin]> | tchey <CMPD:stalk-bench[tch]:INF[-ey]> | ch[{ckoh}:{ckhh}]y <BOT:stem[Cckoh]:STAT[-y]> | otaiin <NOM:herb+NOM:vessel-stalk[ot]:DOSE[-aiin]>"
+    },
+    {
+      "rank": 62,
+      "folio": "f37r",
+      "quire": "E",
+      "bifolio_B": 4,
+      "page_P": "I",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 78,
+      "n_paras": 3,
+      "n_unique_stems": 19,
+      "morph": {
+        "n": 78,
+        "qo_pct": 17.95,
+        "cth_ckh_pct": 14.1,
+        "ol_or_al_ar_pct": 32.05,
+        "aiin_pct": 23.08,
+        "d_s_onset_pct": 30.77
+      },
+      "routing": {
+        "P": 8.087,
+        "B": 8.178,
+        "S": 15.919,
+        "Z": 19.506,
+        "f58": 1.87,
+        "PBS": 15.919,
+        "P_per_100w": 10.368,
+        "PBS_per_100w": 20.409
+      },
+      "best_pharm": {
+        "folio": "f101v",
+        "idf": 6.218,
+        "shared_stems": [
+          "Cor",
+          "otol",
+          "yd"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114r",
+        "idf": 6.011,
+        "shared_stems": [
+          "of_C",
+          "daii",
+          "yd"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f78r",
+        "idf": 4.25,
+        "shared_stems": [
+          "of_C",
+          "daii"
+        ]
+      },
+      "line1_eva": "tocphol . shaiin . qotor . ofchor . oty . chory . daiin",
+      "line1_gloss": "tocphol <BOT:stem[tocph]:FLUID[-ol/al]> | shaiin <BOT:stem[Sa]:DOSE[-aiin]> | qotor <ACT:extract+BOT:stem[to]:RESIN[-or/ar]> | ofchor <NOM:herb+BOT:stem[of_C]:RESIN[-or/ar]> | oty <NOM:herb+NOM:vessel-stalk[ot]:STAT[-y]> | chory <BOT:stem[Cor]:STAT[-y]> | daiin <ABL:from-root+BOT:stem[da]:DOSE[-aiin]>"
+    },
+    {
+      "rank": 63,
+      "folio": "f37v",
+      "quire": "E",
+      "bifolio_B": 4,
+      "page_P": "J",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 89,
+      "n_paras": 3,
+      "n_unique_stems": 25,
+      "morph": {
+        "n": 89,
+        "qo_pct": 12.36,
+        "cth_ckh_pct": 6.74,
+        "ol_or_al_ar_pct": 26.97,
+        "aiin_pct": 32.58,
+        "d_s_onset_pct": 43.82
+      },
+      "routing": {
+        "P": 24.503,
+        "B": 9.355,
+        "S": 19.018,
+        "Z": 10.198,
+        "f58": 3.027,
+        "PBS": 30.441,
+        "P_per_100w": 27.531,
+        "PBS_per_100w": 34.203
+      },
+      "best_pharm": {
+        "folio": "f101v",
+        "idf": 10.054,
+        "shared_stems": [
+          "qk",
+          "Ceok",
+          "Cor"
+        ]
+      },
+      "best_starred": {
+        "folio": "f106v",
+        "idf": 7.764,
+        "shared_stems": [
+          "t_So",
+          "Ceok",
+          "k_Co"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79r",
+        "idf": 4.039,
+        "shared_stems": [
+          "yok"
+        ]
+      },
+      "line1_eva": "[t:k]shody . qocthy . qotoldy . chopdain . sol",
+      "line1_gloss": "[t:k]shody <BOT:stem[t_So]:STATE[-dy]> | qocthy <ACT:extract+BOT:stem[cth]:STAT[-y]> | qotoldy <ACT:extract+BOT:stem[tol]:STATE[-dy]> | chopdain <BOT:stem[Copdai]> | sol <SEQ:next+BOT:stem[so]:FLUID[-ol/al]>"
+    },
+    {
+      "rank": 64,
+      "folio": "f38r",
+      "quire": "E",
+      "bifolio_B": 3,
+      "page_P": "K",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 44,
+      "n_paras": 1,
+      "n_unique_stems": 15,
+      "morph": {
+        "n": 44,
+        "qo_pct": 4.55,
+        "cth_ckh_pct": 4.55,
+        "ol_or_al_ar_pct": 20.45,
+        "aiin_pct": 22.73,
+        "d_s_onset_pct": 13.64
+      },
+      "routing": {
+        "P": 20.279,
+        "B": 7.092,
+        "S": 17.268,
+        "Z": 9.569,
+        "f58": 6.885,
+        "PBS": 22.87,
+        "P_per_100w": 46.089,
+        "PBS_per_100w": 51.977
+      },
+      "best_pharm": {
+        "folio": "f99v",
+        "idf": 6.977,
+        "shared_stems": [
+          "tol",
+          "oko",
+          "Cockh"
+        ]
+      },
+      "best_starred": {
+        "folio": "f104r",
+        "idf": 7.759,
+        "shared_stems": [
+          "ySo",
+          "ok_S",
+          "Cockh"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f75r",
+        "idf": 4.065,
+        "shared_stems": [
+          "ok_S",
+          "sy"
+        ]
+      },
+      "line1_eva": "tolor . chockhy . oky . choiin . okshol . oly . oky",
+      "line1_gloss": "tolor <BOT:stem[tol]:RESIN[-or/ar]> | chockhy <BOT:stem[Cockh]:STAT[-y]> | oky <NOM:herb+NOM:vessel-calyx[ok]:STAT[-y]> | choiin <BOT:stem[Co]:DOSE[-aiin]> | okshol <NOM:herb+BOT:stem[ok_S]:FLUID[-ol/al]> | oly <NOM:herb+BOT:stem[ol]:STAT[-y]> | oky <NOM:herb+NOM:vessel-calyx[ok]:STAT[-y]>"
+    },
+    {
+      "rank": 65,
+      "folio": "f38v",
+      "quire": "E",
+      "bifolio_B": 3,
+      "page_P": "L",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 67,
+      "n_paras": 1,
+      "n_unique_stems": 8,
+      "morph": {
+        "n": 67,
+        "qo_pct": 5.97,
+        "cth_ckh_pct": 1.49,
+        "ol_or_al_ar_pct": 16.42,
+        "aiin_pct": 23.88,
+        "d_s_onset_pct": 38.81
+      },
+      "routing": {
+        "P": 7.948,
+        "B": 7.882,
+        "S": 14.266,
+        "Z": 5.891,
+        "f58": 5.891,
+        "PBS": 14.266,
+        "P_per_100w": 11.863,
+        "PBS_per_100w": 21.293
+      },
+      "best_pharm": {
+        "folio": "f101r",
+        "idf": 5.891,
+        "shared_stems": [
+          "Sot",
+          "oIIN",
+          "ote"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 9.939,
+        "shared_stems": [
+          "Sot",
+          "Ceod",
+          "ld"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79r",
+        "idf": 4.708,
+        "shared_stems": [
+          "Sot",
+          "ld"
+        ]
+      },
+      "line1_eva": "okchop . chol . shotol . oteol . okee[a:y] . s . chor",
+      "line1_gloss": "okchop <NOM:herb+BOT:stem[ok_Cop]> | chol <BOT:stem[Co]:FLUID[-ol/al]> | shotol <BOT:stem[Sot]:FLUID[-ol/al]> | oteol <NOM:herb+BOT:stem[ote]:FLUID[-ol/al]> | okee[a:y] <NOM:herb+BOT:stem[okEEa]> | s <SEQ:next+SEQ:tendril[s]> | chor <BOT:stem[Co]:RESIN[-or/ar]>"
+    },
+    {
+      "rank": 66,
+      "folio": "f42r",
+      "quire": "F",
+      "bifolio_B": 2,
+      "page_P": "C",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 141,
+      "n_paras": 3,
+      "n_unique_stems": 52,
+      "morph": {
+        "n": 141,
+        "qo_pct": 3.55,
+        "cth_ckh_pct": 7.8,
+        "ol_or_al_ar_pct": 34.75,
+        "aiin_pct": 15.6,
+        "d_s_onset_pct": 35.46
+      },
+      "routing": {
+        "P": 46.449,
+        "B": 53.131,
+        "S": 71.315,
+        "Z": 28.363,
+        "f58": 26.429,
+        "PBS": 87.529,
+        "P_per_100w": 32.943,
+        "PBS_per_100w": 62.077
+      },
+      "best_pharm": {
+        "folio": "f101r",
+        "idf": 20.91,
+        "shared_stems": [
+          "cto",
+          "cthEE",
+          "Sot"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 35.247,
+        "shared_stems": [
+          "p_Co",
+          "Cdai",
+          "k_Seo"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f82v",
+        "idf": 22.303,
+        "shared_stems": [
+          "ih",
+          "Sol",
+          "p_Ce"
+        ]
+      },
+      "line1_eva": "{c@155;h}o . ofaiin . ctha{ih}{c@196;h}y . otcheey . pchear",
+      "line1_gloss": "{c@155;h}o <BOT:stem[Co]> | ofaiin <NOM:herb+BOT:stem[of]:DOSE[-aiin]> | ctha{ih}{c@196;h}y <BOT:stem[cthaihC]:STAT[-y]> | otcheey <NOM:herb+BOT:stem[ot_CEE]:STAT[-y]> | pchear <BOT:stem[p_Ce]:RESIN[-or/ar]>"
+    },
+    {
+      "rank": 67,
+      "folio": "f42v",
+      "quire": "F",
+      "bifolio_B": 2,
+      "page_P": "D",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 116,
+      "n_paras": 2,
+      "n_unique_stems": 35,
+      "morph": {
+        "n": 116,
+        "qo_pct": 5.17,
+        "cth_ckh_pct": 12.93,
+        "ol_or_al_ar_pct": 23.28,
+        "aiin_pct": 11.21,
+        "d_s_onset_pct": 26.72
+      },
+      "routing": {
+        "P": 37.665,
+        "B": 21.178,
+        "S": 47.941,
+        "Z": 13.437,
+        "f58": 6.446,
+        "PBS": 51.287,
+        "P_per_100w": 32.47,
+        "PBS_per_100w": 44.213
+      },
+      "best_pharm": {
+        "folio": "f101r",
+        "idf": 11.0,
+        "shared_stems": [
+          "cto",
+          "Ck_C",
+          "CokEE"
+        ]
+      },
+      "best_starred": {
+        "folio": "f115v",
+        "idf": 12.669,
+        "shared_stems": [
+          "Coto",
+          "Ck_C",
+          "rC"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f83r",
+        "idf": 8.427,
+        "shared_stems": [
+          "rC",
+          "sC",
+          "sy"
+        ]
+      },
+      "line1_eva": "@156;cho . {cto} . sheey . qocho . taiin . shols . chol",
+      "line1_gloss": "@156;cho <BOT:stem[Co]> | {cto} <BOT:stem[cto]> | sheey <BOT:stem[SEE]:STAT[-y]> | qocho <ACT:extract+BOT:stem[Co]> | taiin <BOT:stem[ta]:DOSE[-aiin]> | shols <BOT:stem[Sols]> | chol <BOT:stem[Co]:FLUID[-ol/al]>"
+    },
+    {
+      "rank": 68,
+      "folio": "f44r",
+      "quire": "F",
+      "bifolio_B": 4,
+      "page_P": "G",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 74,
+      "n_paras": 3,
+      "n_unique_stems": 27,
+      "morph": {
+        "n": 74,
+        "qo_pct": 16.22,
+        "cth_ckh_pct": 21.62,
+        "ol_or_al_ar_pct": 18.92,
+        "aiin_pct": 4.05,
+        "d_s_onset_pct": 21.62
+      },
+      "routing": {
+        "P": 13.229,
+        "B": 14.105,
+        "S": 15.61,
+        "Z": 5.967,
+        "f58": 1.928,
+        "PBS": 19.425,
+        "P_per_100w": 17.877,
+        "PBS_per_100w": 26.25
+      },
+      "best_pharm": {
+        "folio": "f89r1",
+        "idf": 4.293,
+        "shared_stems": [
+          "p_S",
+          "yk_C"
+        ]
+      },
+      "best_starred": {
+        "folio": "f104r",
+        "idf": 6.961,
+        "shared_stems": [
+          "oai",
+          "ok_Co",
+          "yk_C"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79v",
+        "idf": 8.649,
+        "shared_stems": [
+          "p_S",
+          "of_C",
+          "CEEk"
+        ]
+      },
+      "line1_eva": "tshodpy . ora{iph}y . koees . ypsholy . shy . otoloaiin",
+      "line1_gloss": "tshodpy <BOT:stem[t_Sodp]:STAT[-y]> | ora{iph}y <NOM:herb+BOT:stem[oraiph]:STAT[-y]> | koees <BOT:stem[koEEs]> | ypsholy <CONJ:and+BOT:stem[yp_Sol]:STAT[-y]> | shy <BOT:stem[Sy]:STAT[-y]> | otoloaiin <NOM:herb+BOT:stem[otolo]:DOSE[-aiin]>"
+    },
+    {
+      "rank": 69,
+      "folio": "f44v",
+      "quire": "F",
+      "bifolio_B": 4,
+      "page_P": "H",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 100,
+      "n_paras": 3,
+      "n_unique_stems": 23,
+      "morph": {
+        "n": 100,
+        "qo_pct": 6.0,
+        "cth_ckh_pct": 11.0,
+        "ol_or_al_ar_pct": 37.0,
+        "aiin_pct": 12.0,
+        "d_s_onset_pct": 22.0
+      },
+      "routing": {
+        "P": 14.278,
+        "B": 22.394,
+        "S": 24.422,
+        "Z": 3.785,
+        "f58": 1.618,
+        "PBS": 34.351,
+        "P_per_100w": 14.278,
+        "PBS_per_100w": 34.351
+      },
+      "best_pharm": {
+        "folio": "f89v1",
+        "idf": 5.046,
+        "shared_stems": [
+          "ctho",
+          "yk_C",
+          "op"
+        ]
+      },
+      "best_starred": {
+        "folio": "f106v",
+        "idf": 13.79,
+        "shared_stems": [
+          "t_So",
+          "dair",
+          "Sk"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f77v",
+        "idf": 8.613,
+        "shared_stems": [
+          "dair",
+          "otol",
+          "Scth"
+        ]
+      },
+      "line1_eva": "tsho . qotshy . cthol . d . chor . otol . shol",
+      "line1_gloss": "tsho <BOT:stem[t_So]> | qotshy <ACT:extract+BOT:stem[t_S]:STAT[-y]> | cthol <BOT:stem[cth]:FLUID[-ol/al]> | d <ABL:from-root+ROOT:base[d]> | chor <BOT:stem[Co]:RESIN[-or/ar]> | otol <NOM:herb+NOM:vessel-stalk[ot]:FLUID[-ol/al]> | shol <BOT:stem[So]:FLUID[-ol/al]>"
+    },
+    {
+      "rank": 70,
+      "folio": "f45r",
+      "quire": "F",
+      "bifolio_B": 4,
+      "page_P": "I",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 89,
+      "n_paras": 3,
+      "n_unique_stems": 20,
+      "morph": {
+        "n": 89,
+        "qo_pct": 11.24,
+        "cth_ckh_pct": 11.24,
+        "ol_or_al_ar_pct": 39.33,
+        "aiin_pct": 15.73,
+        "d_s_onset_pct": 23.6
+      },
+      "routing": {
+        "P": 16.542,
+        "B": 16.513,
+        "S": 30.297,
+        "Z": 2.129,
+        "f58": 14.182,
+        "PBS": 40.044,
+        "P_per_100w": 18.587,
+        "PBS_per_100w": 44.993
+      },
+      "best_pharm": {
+        "folio": "f99r",
+        "idf": 9.791,
+        "shared_stems": [
+          "dald",
+          "yke",
+          "yp_C"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114r",
+        "idf": 14.146,
+        "shared_stems": [
+          "q-p",
+          "Cai",
+          "of_C"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79v",
+        "idf": 6.173,
+        "shared_stems": [
+          "of_C",
+          "ot_S",
+          "dar"
+        ]
+      },
+      "line1_eva": "pykydal . sha{ikh}y . oty . shey . qop . char . opchal",
+      "line1_gloss": "pykydal <BOT:stem[pykyd]:FLUID[-ol/al]> | sha{ikh}y <BOT:stem[Saikh]:STAT[-y]> | oty <NOM:herb+NOM:vessel-stalk[ot]:STAT[-y]> | shey <STEM:infused-spray[she]:INF[-ey]> | qop <ACT:extract+BOT:stem[q-p]> | char <BOT:stem[Ca]:RESIN[-or/ar]> | opchal <NOM:herb+BOT:stem[op_C]:FLUID[-ol/al]>"
+    },
+    {
+      "rank": 71,
+      "folio": "f45v",
+      "quire": "F",
+      "bifolio_B": 4,
+      "page_P": "J",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 85,
+      "n_paras": 2,
+      "n_unique_stems": 26,
+      "morph": {
+        "n": 85,
+        "qo_pct": 8.24,
+        "cth_ckh_pct": 16.47,
+        "ol_or_al_ar_pct": 32.94,
+        "aiin_pct": 5.88,
+        "d_s_onset_pct": 25.88
+      },
+      "routing": {
+        "P": 14.678,
+        "B": 17.308,
+        "S": 26.215,
+        "Z": 8.941,
+        "f58": 14.439,
+        "PBS": 34.58,
+        "P_per_100w": 17.268,
+        "PBS_per_100w": 40.682
+      },
+      "best_pharm": {
+        "folio": "f99r",
+        "idf": 7.043,
+        "shared_stems": [
+          "t_Sol",
+          "okol"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114r",
+        "idf": 9.858,
+        "shared_stems": [
+          "oaii",
+          "tod",
+          "ot_S"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f83r",
+        "idf": 11.189,
+        "shared_stems": [
+          "Ceg",
+          "py",
+          "ot_S"
+        ]
+      },
+      "line1_eva": "ko[r:s]ary . chko . kol . chey . fsholom . shor . ykchy",
+      "line1_gloss": "ko[r:s]ary <BOT:stem[korar]:STAT[-y]> | chko <BOT:stem[Cko]> | kol <BOT:stem[ko]:FLUID[-ol/al]> | chey <STEM:infused-bench[che]:INF[-ey]> | fsholom <BOT:stem[f_Solo]:SEAL[-am]> | shor <BOT:stem[So]:RESIN[-or/ar]> | ykchy <CONJ:and+BOT:stem[yk_C]:STAT[-y]>"
+    },
+    {
+      "rank": 72,
+      "folio": "f47r",
+      "quire": "F",
+      "bifolio_B": 2,
+      "page_P": "M",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 76,
+      "n_paras": 2,
+      "n_unique_stems": 19,
+      "morph": {
+        "n": 76,
+        "qo_pct": 2.63,
+        "cth_ckh_pct": 14.47,
+        "ol_or_al_ar_pct": 31.58,
+        "aiin_pct": 14.47,
+        "d_s_onset_pct": 28.95
+      },
+      "routing": {
+        "P": 27.997,
+        "B": 6.431,
+        "S": 37.633,
+        "Z": 7.911,
+        "f58": 1.761,
+        "PBS": 40.66,
+        "P_per_100w": 36.838,
+        "PBS_per_100w": 53.5
+      },
+      "best_pharm": {
+        "folio": "f89r2",
+        "idf": 7.574,
+        "shared_stems": [
+          "t_Cod",
+          "k_Ceo",
+          "Col"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 14.623,
+        "shared_stems": [
+          "Ct_C",
+          "Cokai",
+          "k_Cd"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f80v",
+        "idf": 4.67,
+        "shared_stems": [
+          "Cai",
+          "olS"
+        ]
+      },
+      "line1_eva": "@159;chair . oly . sheaiin . shol . daiin . chdy",
+      "line1_gloss": "@159;chair <BOT:stem[Cai]> | oly <NOM:herb+BOT:stem[ol]:STAT[-y]> | sheaiin <STEM:infused-spray[she]:DOSE[-aiin]> | shol <BOT:stem[So]:FLUID[-ol/al]> | daiin <ABL:from-root+BOT:stem[da]:DOSE[-aiin]> | chdy <BOT:stem[Cd]:STATE[-dy]>"
+    },
+    {
+      "rank": 73,
+      "folio": "f47v",
+      "quire": "F",
+      "bifolio_B": 2,
+      "page_P": "N",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 85,
+      "n_paras": 2,
+      "n_unique_stems": 30,
+      "morph": {
+        "n": 85,
+        "qo_pct": 3.53,
+        "cth_ckh_pct": 10.59,
+        "ol_or_al_ar_pct": 22.35,
+        "aiin_pct": 9.41,
+        "d_s_onset_pct": 36.47
+      },
+      "routing": {
+        "P": 18.704,
+        "B": 27.079,
+        "S": 53.851,
+        "Z": 18.593,
+        "f58": 5.301,
+        "PBS": 57.197,
+        "P_per_100w": 22.005,
+        "PBS_per_100w": 67.291
+      },
+      "best_pharm": {
+        "folio": "f102v1",
+        "idf": 6.85,
+        "shared_stems": [
+          "p_Cod",
+          "Cor",
+          "ote"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 16.491,
+        "shared_stems": [
+          "Cop_C",
+          "kEEC",
+          "kEEs"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f84v",
+        "idf": 7.413,
+        "shared_stems": [
+          "dSEE",
+          "kEEs",
+          "ote"
+        ]
+      },
+      "line1_eva": "psheot . cheor . cholsho . chopchy . sal . sary",
+      "line1_gloss": "psheot <BOT:stem[p_Seot]> | cheor <STEM:infused-bench[che]:RESIN[-or/ar]> | cholsho <BOT:stem[ColSo]> | chopchy <BOT:stem[Cop_C]:STAT[-y]> | sal <SEQ:next+BOT:stem[sa]:FLUID[-ol/al]> | sary <SEQ:next+BOT:stem[sar]:STAT[-y]>"
+    },
+    {
+      "rank": 74,
+      "folio": "f49r",
+      "quire": "G",
+      "bifolio_B": 1,
+      "page_P": "A",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 114,
+      "n_paras": 3,
+      "n_unique_stems": 40,
+      "morph": {
+        "n": 114,
+        "qo_pct": 13.16,
+        "cth_ckh_pct": 11.4,
+        "ol_or_al_ar_pct": 34.21,
+        "aiin_pct": 11.4,
+        "d_s_onset_pct": 30.7
+      },
+      "routing": {
+        "P": 28.177,
+        "B": 25.969,
+        "S": 56.107,
+        "Z": 11.632,
+        "f58": 13.278,
+        "PBS": 62.48,
+        "P_per_100w": 24.717,
+        "PBS_per_100w": 54.807
+      },
+      "best_pharm": {
+        "folio": "f101v",
+        "idf": 7.135,
+        "shared_stems": [
+          "et",
+          "Cs",
+          "k_Co"
+        ]
+      },
+      "best_starred": {
+        "folio": "f115r",
+        "idf": 14.766,
+        "shared_stems": [
+          "dCeo",
+          "et",
+          "Cot_C"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f78v",
+        "idf": 9.367,
+        "shared_stems": [
+          "ls",
+          "et",
+          "Cs"
+        ]
+      },
+      "line1_eva": "pychol . dy . [sh:ch]or . shol . shtchy . shorpchor . opchor",
+      "line1_gloss": "pychol <BOT:stem[pyC]:FLUID[-ol/al]> | dy <ABL:from-root+BOT:stem[dy]:STATE[-dy]> | [sh:ch]or <BOT:stem[So]:RESIN[-or/ar]> | shol <BOT:stem[So]:FLUID[-ol/al]> | shtchy <BOT:stem[St_C]:STAT[-y]> | shorpchor <BOT:stem[Sorp_C]:RESIN[-or/ar]> | opchor <NOM:herb+BOT:stem[op_C]:RESIN[-or/ar]>"
+    },
+    {
+      "rank": 75,
+      "folio": "f49v",
+      "quire": "G",
+      "bifolio_B": 1,
+      "page_P": "B",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 162,
+      "n_paras": 3,
+      "n_unique_stems": 57,
+      "morph": {
+        "n": 162,
+        "qo_pct": 6.79,
+        "cth_ckh_pct": 16.67,
+        "ol_or_al_ar_pct": 24.07,
+        "aiin_pct": 12.96,
+        "d_s_onset_pct": 29.01
+      },
+      "routing": {
+        "P": 33.332,
+        "B": 27.295,
+        "S": 61.569,
+        "Z": 29.235,
+        "f58": 9.257,
+        "PBS": 64.596,
+        "P_per_100w": 20.575,
+        "PBS_per_100w": 39.874
+      },
+      "best_pharm": {
+        "folio": "f100r",
+        "idf": 8.096,
+        "shared_stems": [
+          "tEEs",
+          "dCe",
+          "Sod"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 27.566,
+        "shared_stems": [
+          "SEEod",
+          "ot_Cod",
+          "Cokeo"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f76v",
+        "idf": 12.347,
+        "shared_stems": [
+          "tEEs",
+          "dl",
+          "Ces"
+        ]
+      },
+      "line1_eva": "f",
+      "line1_gloss": "f <HERB:plume-blossom[f]>"
+    },
+    {
+      "rank": 76,
+      "folio": "f51r",
+      "quire": "G",
+      "bifolio_B": 3,
+      "page_P": "E",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 89,
+      "n_paras": 1,
+      "n_unique_stems": 35,
+      "morph": {
+        "n": 89,
+        "qo_pct": 15.73,
+        "cth_ckh_pct": 10.11,
+        "ol_or_al_ar_pct": 32.58,
+        "aiin_pct": 15.73,
+        "d_s_onset_pct": 14.61
+      },
+      "routing": {
+        "P": 38.275,
+        "B": 7.075,
+        "S": 41.239,
+        "Z": 8.485,
+        "f58": 7.303,
+        "PBS": 51.563,
+        "P_per_100w": 43.006,
+        "PBS_per_100w": 57.936
+      },
+      "best_pharm": {
+        "folio": "f101v",
+        "idf": 14.004,
+        "shared_stems": [
+          "ckheo",
+          "op_Ce",
+          "ckhEE"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114r",
+        "idf": 13.611,
+        "shared_stems": [
+          "dCeod",
+          "op_Ce",
+          "oS"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f78v",
+        "idf": 2.717,
+        "shared_stems": [
+          "et"
+        ]
+      },
+      "line1_eva": "tsholdchy . qotchy . opchear . ypchedy",
+      "line1_gloss": "tsholdchy <BOT:stem[t_SoldC]:STAT[-y]> | qotchy <ACT:extract+CMPD:stalk-bench[tch]:STAT[-y]> | opchear <NOM:herb+BOT:stem[op_Ce]:RESIN[-or/ar]> | ypchedy <CONJ:and+BOT:stem[yp_C]:STATE[-dy]>"
+    },
+    {
+      "rank": 77,
+      "folio": "f51v",
+      "quire": "G",
+      "bifolio_B": 3,
+      "page_P": "F",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 82,
+      "n_paras": 1,
+      "n_unique_stems": 30,
+      "morph": {
+        "n": 82,
+        "qo_pct": 19.51,
+        "cth_ckh_pct": 4.88,
+        "ol_or_al_ar_pct": 29.27,
+        "aiin_pct": 19.51,
+        "d_s_onset_pct": 26.83
+      },
+      "routing": {
+        "P": 38.49,
+        "B": 10.101,
+        "S": 36.282,
+        "Z": 12.847,
+        "f58": 9.808,
+        "PBS": 56.9,
+        "P_per_100w": 46.939,
+        "PBS_per_100w": 69.39
+      },
+      "best_pharm": {
+        "folio": "f89r1",
+        "idf": 15.507,
+        "shared_stems": [
+          "ykh",
+          "Ceodai",
+          "ctheo"
+        ]
+      },
+      "best_starred": {
+        "folio": "f104r",
+        "idf": 21.088,
+        "shared_stems": [
+          "Ceodai",
+          "q-d",
+          "olkEEo"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79r",
+        "idf": 6.062,
+        "shared_stems": [
+          "Sai",
+          "dyk"
+        ]
+      },
+      "line1_eva": "poshody . qokodar . shodaiin . qotal . dscheey . saiin . dy",
+      "line1_gloss": "poshody <BOT:stem[poSo]:STATE[-dy]> | qokodar <ACT:extract+BOT:stem[kod]:RESIN[-or/ar]> | shodaiin <BOT:stem[Sod]:DOSE[-aiin]> | qotal <ACT:extract+BOT:stem[ta]:FLUID[-ol/al]> | dscheey <ABL:from-root+BOT:stem[dsCEE]:STAT[-y]> | saiin <SEQ:next+BOT:stem[sa]:DOSE[-aiin]> | dy <ABL:from-root+BOT:stem[dy]:STATE[-dy]>"
+    },
+    {
+      "rank": 78,
+      "folio": "f52r",
+      "quire": "G",
+      "bifolio_B": 4,
+      "page_P": "G",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 69,
+      "n_paras": 1,
+      "n_unique_stems": 23,
+      "morph": {
+        "n": 69,
+        "qo_pct": 13.04,
+        "cth_ckh_pct": 18.84,
+        "ol_or_al_ar_pct": 24.64,
+        "aiin_pct": 5.8,
+        "d_s_onset_pct": 33.33
+      },
+      "routing": {
+        "P": 24.762,
+        "B": 9.468,
+        "S": 22.774,
+        "Z": 22.215,
+        "f58": 2.535,
+        "PBS": 36.19,
+        "P_per_100w": 35.887,
+        "PBS_per_100w": 52.449
+      },
+      "best_pharm": {
+        "folio": "f89v1",
+        "idf": 10.417,
+        "shared_stems": [
+          "kold",
+          "Sodai",
+          "dals"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114r",
+        "idf": 11.304,
+        "shared_stems": [
+          "ytai",
+          "otEEs",
+          "yp_C"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f75v",
+        "idf": 6.683,
+        "shared_stems": [
+          "ykai",
+          "dl",
+          "Sed"
+        ]
+      },
+      "line1_eva": "tdokchcfhy . ycphko . ytair . shar . qofy . daiin . ypchy",
+      "line1_gloss": "tdokchcfhy <BOT:stem[tdok_Ccfh]:STAT[-y]> | ycphko <CONJ:and+BOT:stem[ycphko]> | ytair <CONJ:and+BOT:stem[ytai]> | shar <BOT:stem[Sa]:RESIN[-or/ar]> | qofy <ACT:extract+BOT:stem[fy]:STAT[-y]> | daiin <ABL:from-root+BOT:stem[da]:DOSE[-aiin]> | ypchy <CONJ:and+BOT:stem[yp_C]:STAT[-y]>"
+    },
+    {
+      "rank": 79,
+      "folio": "f52v",
+      "quire": "G",
+      "bifolio_B": 4,
+      "page_P": "H",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 78,
+      "n_paras": 2,
+      "n_unique_stems": 29,
+      "morph": {
+        "n": 78,
+        "qo_pct": 7.69,
+        "cth_ckh_pct": 7.69,
+        "ol_or_al_ar_pct": 47.44,
+        "aiin_pct": 14.1,
+        "d_s_onset_pct": 21.79
+      },
+      "routing": {
+        "P": 40.397,
+        "B": 19.297,
+        "S": 44.183,
+        "Z": 10.325,
+        "f58": 11.691,
+        "PBS": 56.927,
+        "P_per_100w": 51.791,
+        "PBS_per_100w": 72.983
+      },
+      "best_pharm": {
+        "folio": "f101v",
+        "idf": 11.3,
+        "shared_stems": [
+          "oo",
+          "ckhEE",
+          "cthe"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114r",
+        "idf": 17.189,
+        "shared_stems": [
+          "oo",
+          "kod",
+          "Ccph"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f77v",
+        "idf": 5.289,
+        "shared_stems": [
+          "ek",
+          "p_Ce"
+        ]
+      },
+      "line1_eva": "pchor . chcphol . cphaiiin . otcheor . ytor . kol . chocph[a:o]r",
+      "line1_gloss": "pchor <CMPD:cup-bench[pch]:RESIN[-or/ar]> | chcphol <BOT:stem[Ccph]:FLUID[-ol/al]> | cphaiiin <BOT:stem[cph]:DOSE[-aiin]> | otcheor <NOM:herb+BOT:stem[ot_Ce]:RESIN[-or/ar]> | ytor <CONJ:and+MOD:init-stalk[yt]:RESIN[-or/ar]> | kol <BOT:stem[ko]:FLUID[-ol/al]> | chocph[a:o]r <BOT:stem[Cocph]:RESIN[-or/ar]>"
+    },
+    {
+      "rank": 80,
+      "folio": "f53r",
+      "quire": "G",
+      "bifolio_B": 4,
+      "page_P": "I",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 61,
+      "n_paras": 1,
+      "n_unique_stems": 31,
+      "morph": {
+        "n": 61,
+        "qo_pct": 13.11,
+        "cth_ckh_pct": 16.39,
+        "ol_or_al_ar_pct": 22.95,
+        "aiin_pct": 1.64,
+        "d_s_onset_pct": 13.11
+      },
+      "routing": {
+        "P": 28.69,
+        "B": 21.757,
+        "S": 41.87,
+        "Z": 17.892,
+        "f58": 10.801,
+        "PBS": 51.971,
+        "P_per_100w": 47.033,
+        "PBS_per_100w": 85.198
+      },
+      "best_pharm": {
+        "folio": "f102r1",
+        "idf": 11.82,
+        "shared_stems": [
+          "okod",
+          "kod",
+          "ok_S"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114r",
+        "idf": 17.677,
+        "shared_stems": [
+          "ykeod",
+          "okod",
+          "kod"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f77r",
+        "idf": 7.527,
+        "shared_stems": [
+          "sod",
+          "as",
+          "CEEs"
+        ]
+      },
+      "line1_eva": "k[o:a]dam . chocthody . oty",
+      "line1_gloss": "k[o:a]dam <BOT:stem[kod]:SEAL[-am]> | chocthody <BOT:stem[Coctho]:STATE[-dy]> | oty <NOM:herb+NOM:vessel-stalk[ot]:STAT[-y]>"
+    },
+    {
+      "rank": 81,
+      "folio": "f53v",
+      "quire": "G",
+      "bifolio_B": 4,
+      "page_P": "J",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 73,
+      "n_paras": 1,
+      "n_unique_stems": 32,
+      "morph": {
+        "n": 73,
+        "qo_pct": 10.96,
+        "cth_ckh_pct": 6.85,
+        "ol_or_al_ar_pct": 20.55,
+        "aiin_pct": 15.07,
+        "d_s_onset_pct": 35.62
+      },
+      "routing": {
+        "P": 35.858,
+        "B": 17.734,
+        "S": 37.148,
+        "Z": 16.332,
+        "f58": 12.946,
+        "PBS": 53.961,
+        "P_per_100w": 49.121,
+        "PBS_per_100w": 73.919
+      },
+      "best_pharm": {
+        "folio": "f100r",
+        "idf": 7.703,
+        "shared_stems": [
+          "Cold",
+          "Seod",
+          "Sod"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 13.991,
+        "shared_stems": [
+          "cpho",
+          "Seos",
+          "Seod"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79r",
+        "idf": 11.303,
+        "shared_stems": [
+          "olt_S",
+          "ySEE",
+          "otol"
+        ]
+      },
+      "line1_eva": "tshor . shey . qodckhy . e{ph}o . oltshey . daiin . qopchy",
+      "line1_gloss": "tshor <BOT:stem[t_S]:RESIN[-or/ar]> | shey <STEM:infused-spray[she]:INF[-ey]> | qodckhy <ACT:extract+BOT:stem[dckh]:STAT[-y]> | e{ph}o <BOT:stem[epho]> | oltshey <NOM:herb+BOT:stem[olt_S]:INF[-ey]> | daiin <ABL:from-root+BOT:stem[da]:DOSE[-aiin]> | qopchy <ACT:extract+CMPD:cup-bench[pch]:STAT[-y]>"
+    },
+    {
+      "rank": 82,
+      "folio": "f54r",
+      "quire": "G",
+      "bifolio_B": 3,
+      "page_P": "K",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 110,
+      "n_paras": 2,
+      "n_unique_stems": 33,
+      "morph": {
+        "n": 110,
+        "qo_pct": 2.73,
+        "cth_ckh_pct": 8.18,
+        "ol_or_al_ar_pct": 44.55,
+        "aiin_pct": 6.36,
+        "d_s_onset_pct": 31.82
+      },
+      "routing": {
+        "P": 41.543,
+        "B": 12.929,
+        "S": 51.18,
+        "Z": 14.152,
+        "f58": 9.068,
+        "PBS": 70.691,
+        "P_per_100w": 37.766,
+        "PBS_per_100w": 64.265
+      },
+      "best_pharm": {
+        "folio": "f89r2",
+        "idf": 11.2,
+        "shared_stems": [
+          "yo",
+          "op_Ce",
+          "ckho"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 21.081,
+        "shared_stems": [
+          "Sok_C",
+          "op_Ce",
+          "k_Seo"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f81v",
+        "idf": 7.937,
+        "shared_stems": [
+          "SEEk",
+          "ld",
+          "daii"
+        ]
+      },
+      "line1_eva": "podaiin . shodal . qopchol . cfhe[o:a]dy . opcheol . chocphy",
+      "line1_gloss": "podaiin <BOT:stem[pod]:DOSE[-aiin]> | shodal <BOT:stem[Sod]:FLUID[-ol/al]> | qopchol <ACT:extract+CMPD:cup-bench[pch]:FLUID[-ol/al]> | cfhe[o:a]dy <BOT:stem[cfheo]:STATE[-dy]> | opcheol <NOM:herb+BOT:stem[op_Ce]:FLUID[-ol/al]> | chocphy <BOT:stem[Cocph]:STAT[-y]>"
+    },
+    {
+      "rank": 83,
+      "folio": "f54v",
+      "quire": "G",
+      "bifolio_B": 3,
+      "page_P": "L",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 93,
+      "n_paras": 1,
+      "n_unique_stems": 23,
+      "morph": {
+        "n": 93,
+        "qo_pct": 15.05,
+        "cth_ckh_pct": 1.08,
+        "ol_or_al_ar_pct": 36.56,
+        "aiin_pct": 16.13,
+        "d_s_onset_pct": 19.35
+      },
+      "routing": {
+        "P": 31.877,
+        "B": 16.871,
+        "S": 37.183,
+        "Z": 11.91,
+        "f58": 14.603,
+        "PBS": 50.975,
+        "P_per_100w": 34.276,
+        "PBS_per_100w": 54.812
+      },
+      "best_pharm": {
+        "folio": "f99r",
+        "idf": 13.605,
+        "shared_stems": [
+          "yckh",
+          "ck",
+          "cthe"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 17.441,
+        "shared_stems": [
+          "p_Ceod",
+          "ck",
+          "alC"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f82v",
+        "idf": 6.573,
+        "shared_stems": [
+          "yckh",
+          "alC"
+        ]
+      },
+      "line1_eva": "pcheodar . chpal . oloiin . ckhey . dar . qokeey . cpheeain",
+      "line1_gloss": "pcheodar <BOT:stem[p_Ceod]:RESIN[-or/ar]> | chpal <BOT:stem[Cp]:FLUID[-ol/al]> | oloiin <NOM:herb+BOT:stem[olo]:DOSE[-aiin]> | ckhey <BOT:stem[ckh]:INF[-ey]> | dar <ABL:from-root+BOT:stem[da]:RESIN[-or/ar]> | qokeey <ACT:extract+BOT:stem[kEE]:STAT[-y]> | cpheeain <BOT:stem[cphEEai]>"
+    },
+    {
+      "rank": 84,
+      "folio": "f56r",
+      "quire": "G",
+      "bifolio_B": 1,
+      "page_P": "O",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 103,
+      "n_paras": 2,
+      "n_unique_stems": 30,
+      "morph": {
+        "n": 103,
+        "qo_pct": 5.83,
+        "cth_ckh_pct": 25.24,
+        "ol_or_al_ar_pct": 25.24,
+        "aiin_pct": 6.8,
+        "d_s_onset_pct": 18.45
+      },
+      "routing": {
+        "P": 17.938,
+        "B": 16.938,
+        "S": 44.159,
+        "Z": 11.719,
+        "f58": 12.849,
+        "PBS": 49.58,
+        "P_per_100w": 17.416,
+        "PBS_per_100w": 48.136
+      },
+      "best_pharm": {
+        "folio": "f101r",
+        "idf": 10.549,
+        "shared_stems": [
+          "CokEE",
+          "Cok_C",
+          "Sok"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114v",
+        "idf": 17.898,
+        "shared_stems": [
+          "k_CEE",
+          "Codal",
+          "CokEE"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f80v",
+        "idf": 5.793,
+        "shared_stems": [
+          "sC",
+          "Sok",
+          "olC"
+        ]
+      },
+      "line1_eva": "o@167;chal . chchs@168;y . oty . esedy . chy . ychocphy . chorchy",
+      "line1_gloss": "o@167;chal <NOM:herb+BOT:stem[oC]:FLUID[-ol/al]> | chchs@168;y <BOT:stem[CCs]:STAT[-y]> | oty <NOM:herb+NOM:vessel-stalk[ot]:STAT[-y]> | esedy <BOT:stem[es]:STATE[-dy]> | chy <BOT:stem[Cy]:STAT[-y]> | ychocphy <CONJ:and+BOT:stem[yCocph]:STAT[-y]> | chorchy <BOT:stem[CorC]:STAT[-y]>"
+    },
+    {
+      "rank": 85,
+      "folio": "f56v",
+      "quire": "G",
+      "bifolio_B": 1,
+      "page_P": "P",
+      "stratum": "STRATUM_II_CENTRAL_MIXED (Quires D-G)",
+      "n_tokens": 91,
+      "n_paras": 2,
+      "n_unique_stems": 27,
+      "morph": {
+        "n": 91,
+        "qo_pct": 9.89,
+        "cth_ckh_pct": 26.37,
+        "ol_or_al_ar_pct": 36.26,
+        "aiin_pct": 12.09,
+        "d_s_onset_pct": 24.18
+      },
+      "routing": {
+        "P": 20.371,
+        "B": 18.529,
+        "S": 33.887,
+        "Z": 8.582,
+        "f58": 4.34,
+        "PBS": 37.232,
+        "P_per_100w": 22.386,
+        "PBS_per_100w": 40.914
+      },
+      "best_pharm": {
+        "folio": "f101v",
+        "idf": 8.758,
+        "shared_stems": [
+          "cthEE",
+          "Cor",
+          "k_Co"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 15.063,
+        "shared_stems": [
+          "k_CEE",
+          "cthEE",
+          "t_Ce"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f76v",
+        "idf": 6.493,
+        "shared_stems": [
+          "tEEs",
+          "oC",
+          "EE"
+        ]
+      },
+      "line1_eva": "kche[a:o]t . shol . chey . qokoiin . shor . qotcheol . choror",
+      "line1_gloss": "kche[a:o]t <BOT:stem[k_Ceat]> | shol <BOT:stem[So]:FLUID[-ol/al]> | chey <STEM:infused-bench[che]:INF[-ey]> | qokoiin <ACT:extract+BOT:stem[ko]:DOSE[-aiin]> | shor <BOT:stem[So]:RESIN[-or/ar]> | qotcheol <ACT:extract+BOT:stem[t_Ce]:FLUID[-ol/al]> | choror <BOT:stem[Cor]:RESIN[-or/ar]>"
+    },
+    {
+      "rank": 86,
+      "folio": "f87r",
+      "quire": "O",
+      "bifolio_B": 1,
+      "page_P": "A",
+      "stratum": "STRATUM_III_APOTHECARY_ADJACENT (Quires O, Q)",
+      "n_tokens": 102,
+      "n_paras": 2,
+      "n_unique_stems": 57,
+      "morph": {
+        "n": 102,
+        "qo_pct": 3.92,
+        "cth_ckh_pct": 4.9,
+        "ol_or_al_ar_pct": 30.39,
+        "aiin_pct": 11.76,
+        "d_s_onset_pct": 37.25
+      },
+      "routing": {
+        "P": 83.589,
+        "B": 41.211,
+        "S": 79.57,
+        "Z": 34.351,
+        "f58": 14.504,
+        "PBS": 125.52,
+        "P_per_100w": 81.95,
+        "PBS_per_100w": 123.059
+      },
+      "best_pharm": {
+        "folio": "f88v",
+        "idf": 21.341,
+        "shared_stems": [
+          "tos",
+          "sald",
+          "cpheo"
+        ]
+      },
+      "best_starred": {
+        "folio": "f115v",
+        "idf": 23.503,
+        "shared_stems": [
+          "tEEod",
+          "ySEE",
+          "sor"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f83r",
+        "idf": 17.793,
+        "shared_stems": [
+          "SEEk_C",
+          "Socph",
+          "saii"
+        ]
+      },
+      "line1_eva": "poalshsal . shocphor . ypcho . cpheo . saiin . oteodal . saiin",
+      "line1_gloss": "poalshsal <BOT:stem[poalSs]:FLUID[-ol/al]> | shocphor <BOT:stem[Socph]:RESIN[-or/ar]> | ypcho <CONJ:and+BOT:stem[yp_Co]> | cpheo <BOT:stem[cpheo]> | saiin <SEQ:next+BOT:stem[sa]:DOSE[-aiin]> | oteodal <NOM:herb+BOT:stem[oteod]:FLUID[-ol/al]> | saiin <SEQ:next+BOT:stem[sa]:DOSE[-aiin]>"
+    },
+    {
+      "rank": 87,
+      "folio": "f87v",
+      "quire": "O",
+      "bifolio_B": 1,
+      "page_P": "B",
+      "stratum": "STRATUM_III_APOTHECARY_ADJACENT (Quires O, Q)",
+      "n_tokens": 92,
+      "n_paras": 2,
+      "n_unique_stems": 50,
+      "morph": {
+        "n": 92,
+        "qo_pct": 9.78,
+        "cth_ckh_pct": 2.17,
+        "ol_or_al_ar_pct": 25.0,
+        "aiin_pct": 5.43,
+        "d_s_onset_pct": 25.0
+      },
+      "routing": {
+        "P": 44.743,
+        "B": 34.793,
+        "S": 61.058,
+        "Z": 30.742,
+        "f58": 20.46,
+        "PBS": 88.141,
+        "P_per_100w": 48.634,
+        "PBS_per_100w": 95.805
+      },
+      "best_pharm": {
+        "folio": "f102r1",
+        "idf": 17.198,
+        "shared_stems": [
+          "cpheod",
+          "eo",
+          "dCeo"
+        ]
+      },
+      "best_starred": {
+        "folio": "f115r",
+        "idf": 28.276,
+        "shared_stems": [
+          "dCeos",
+          "ckheos",
+          "q-s"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f83r",
+        "idf": 9.878,
+        "shared_stems": [
+          "dCeok",
+          "teC",
+          "sC"
+        ]
+      },
+      "line1_eva": "@180;cheey . daiin . cpheodar . shody . dcheody . todor . oeeepchody",
+      "line1_gloss": "@180;cheey <BOT:stem[CEE]:STAT[-y]> | daiin <ABL:from-root+BOT:stem[da]:DOSE[-aiin]> | cpheodar <BOT:stem[cpheod]:RESIN[-or/ar]> | shody <BOT:stem[So]:STATE[-dy]> | dcheody <ABL:from-root+BOT:stem[dCeo]:STATE[-dy]> | todor <BOT:stem[tod]:RESIN[-or/ar]> | oeeepchody <NOM:herb+BOT:stem[oEEp_Co]:STATE[-dy]>"
+    },
+    {
+      "rank": 88,
+      "folio": "f90r1",
+      "quire": "O",
+      "bifolio_B": 1,
+      "page_P": "L",
+      "stratum": "STRATUM_III_APOTHECARY_ADJACENT (Quires O, Q)",
+      "n_tokens": 69,
+      "n_paras": 1,
+      "n_unique_stems": 34,
+      "morph": {
+        "n": 69,
+        "qo_pct": 24.64,
+        "cth_ckh_pct": 11.59,
+        "ol_or_al_ar_pct": 39.13,
+        "aiin_pct": 1.45,
+        "d_s_onset_pct": 24.64
+      },
+      "routing": {
+        "P": 29.949,
+        "B": 20.323,
+        "S": 24.285,
+        "Z": 14.372,
+        "f58": 13.078,
+        "PBS": 45.889,
+        "P_per_100w": 43.404,
+        "PBS_per_100w": 66.506
+      },
+      "best_pharm": {
+        "folio": "f102v2",
+        "idf": 11.564,
+        "shared_stems": [
+          "keos",
+          "sar",
+          "oko"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114r",
+        "idf": 12.319,
+        "shared_stems": [
+          "Cocfh",
+          "kod",
+          "kEEd"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f82v",
+        "idf": 12.19,
+        "shared_stems": [
+          "talC",
+          "dolS",
+          "yS"
+        ]
+      },
+      "line1_eva": "poleeol . qokeol . qokchod . choly . ctho[g:m]",
+      "line1_gloss": "poleeol <BOT:stem[polEE]:FLUID[-ol/al]> | qokeol <ACT:extract+STEM:boiled-calyx[ke]:FLUID[-ol/al]> | qokchod <ACT:extract+BOT:stem[k_Cod]> | choly <BOT:stem[Col]:STAT[-y]> | ctho[g:m] <BOT:stem[cthog]>"
+    },
+    {
+      "rank": 89,
+      "folio": "f90r2",
+      "quire": "O",
+      "bifolio_B": 1,
+      "page_P": "M",
+      "stratum": "STRATUM_III_APOTHECARY_ADJACENT (Quires O, Q)",
+      "n_tokens": 47,
+      "n_paras": 1,
+      "n_unique_stems": 21,
+      "morph": {
+        "n": 47,
+        "qo_pct": 17.02,
+        "cth_ckh_pct": 0.0,
+        "ol_or_al_ar_pct": 27.66,
+        "aiin_pct": 17.02,
+        "d_s_onset_pct": 31.91
+      },
+      "routing": {
+        "P": 26.379,
+        "B": 6.363,
+        "S": 35.215,
+        "Z": 15.739,
+        "f58": 8.803,
+        "PBS": 42.376,
+        "P_per_100w": 56.126,
+        "PBS_per_100w": 90.162
+      },
+      "best_pharm": {
+        "folio": "f102v2",
+        "idf": 14.147,
+        "shared_stems": [
+          "ekEE",
+          "keod",
+          "teo"
+        ]
+      },
+      "best_starred": {
+        "folio": "f115r",
+        "idf": 12.29,
+        "shared_stems": [
+          "rod",
+          "keod",
+          "teo"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f77r",
+        "idf": 4.494,
+        "shared_stems": [
+          "oi",
+          "EE"
+        ]
+      },
+      "line1_eva": "toealchs . shakol . sheo . qoekeey . soeeol . qoteody",
+      "line1_gloss": "toealchs <BOT:stem[toealCs]> | shakol <BOT:stem[Sak]:FLUID[-ol/al]> | sheo <BOT:stem[Seo]> | qoekeey <ACT:extract+BOT:stem[ekEE]:STAT[-y]> | soeeol <SEQ:next+BOT:stem[soEE]:FLUID[-ol/al]> | qoteody <ACT:extract+BOT:stem[teo]:STATE[-dy]>"
+    },
+    {
+      "rank": 90,
+      "folio": "f90v2",
+      "quire": "O",
+      "bifolio_B": 1,
+      "page_P": "O",
+      "stratum": "STRATUM_III_APOTHECARY_ADJACENT (Quires O, Q)",
+      "n_tokens": 68,
+      "n_paras": 2,
+      "n_unique_stems": 27,
+      "morph": {
+        "n": 68,
+        "qo_pct": 10.29,
+        "cth_ckh_pct": 7.35,
+        "ol_or_al_ar_pct": 26.47,
+        "aiin_pct": 7.35,
+        "d_s_onset_pct": 38.24
+      },
+      "routing": {
+        "P": 14.98,
+        "B": 6.979,
+        "S": 24.206,
+        "Z": 3.798,
+        "f58": 13.36,
+        "PBS": 26.635,
+        "P_per_100w": 22.029,
+        "PBS_per_100w": 39.169
+      },
+      "best_pharm": {
+        "folio": "f102v2",
+        "idf": 7.144,
+        "shared_stems": [
+          "kEEos",
+          "Cos",
+          "okEEo"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 16.688,
+        "shared_stems": [
+          "kEEos",
+          "oi",
+          "t_Ceo"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f84v",
+        "idf": 4.039,
+        "shared_stems": [
+          "of_Ced"
+        ]
+      },
+      "line1_eva": "{c@181;h}da{i@133;h}y . qocfhey . opolraiin . ofchedal . s? . shese . shodaiin",
+      "line1_gloss": "{c@181;h}da{i@133;h}y <BOT:stem[Cdaih]:STAT[-y]> | qocfhey <ACT:extract+BOT:stem[cfh]:INF[-ey]> | opolraiin <NOM:herb+BOT:stem[opolr]:DOSE[-aiin]> | ofchedal <NOM:herb+BOT:stem[of_Ced]:FLUID[-ol/al]> | s? <SEQ:next+SEQ:tendril[s]> | shese <BOT:stem[Sese]> | shodaiin <BOT:stem[Sod]:DOSE[-aiin]>"
+    },
+    {
+      "rank": 91,
+      "folio": "f90v1",
+      "quire": "O",
+      "bifolio_B": 1,
+      "page_P": "P",
+      "stratum": "STRATUM_III_APOTHECARY_ADJACENT (Quires O, Q)",
+      "n_tokens": 96,
+      "n_paras": 2,
+      "n_unique_stems": 42,
+      "morph": {
+        "n": 96,
+        "qo_pct": 9.38,
+        "cth_ckh_pct": 0.0,
+        "ol_or_al_ar_pct": 32.29,
+        "aiin_pct": 10.42,
+        "d_s_onset_pct": 26.04
+      },
+      "routing": {
+        "P": 42.97,
+        "B": 29.868,
+        "S": 52.821,
+        "Z": 18.712,
+        "f58": 18.631,
+        "PBS": 65.001,
+        "P_per_100w": 44.76,
+        "PBS_per_100w": 67.709
+      },
+      "best_pharm": {
+        "folio": "f102v2",
+        "idf": 12.938,
+        "shared_stems": [
+          "kEEos",
+          "oEE",
+          "Cockh"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113v",
+        "idf": 20.837,
+        "shared_stems": [
+          "okEEod",
+          "p_Ce",
+          "oEE"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f76v",
+        "idf": 12.0,
+        "shared_stems": [
+          "as",
+          "ytEE",
+          "Sok"
+        ]
+      },
+      "line1_eva": "pcheor . chodar . oleees . chepy . shol . shckheo . otol",
+      "line1_gloss": "pcheor <BOT:stem[p_Ce]:RESIN[-or/ar]> | chodar <BOT:stem[Cod]:RESIN[-or/ar]> | oleees <NOM:herb+BOT:stem[olEEs]> | chepy <BOT:stem[Cep]:STAT[-y]> | shol <BOT:stem[So]:FLUID[-ol/al]> | shckheo <BOT:stem[Sckheo]> | otol <NOM:herb+NOM:vessel-stalk[ot]:FLUID[-ol/al]>"
+    },
+    {
+      "rank": 92,
+      "folio": "f93r",
+      "quire": "Q",
+      "bifolio_B": 1,
+      "page_P": "A",
+      "stratum": "STRATUM_III_APOTHECARY_ADJACENT (Quires O, Q)",
+      "n_tokens": 152,
+      "n_paras": 1,
+      "n_unique_stems": 62,
+      "morph": {
+        "n": 152,
+        "qo_pct": 5.92,
+        "cth_ckh_pct": 10.53,
+        "ol_or_al_ar_pct": 38.82,
+        "aiin_pct": 6.58,
+        "d_s_onset_pct": 33.55
+      },
+      "routing": {
+        "P": 51.405,
+        "B": 23.906,
+        "S": 59.69,
+        "Z": 29.282,
+        "f58": 11.266,
+        "PBS": 80.38,
+        "P_per_100w": 33.819,
+        "PBS_per_100w": 52.882
+      },
+      "best_pharm": {
+        "folio": "f100v",
+        "idf": 9.541,
+        "shared_stems": [
+          "ok_Ce",
+          "ckho",
+          "SEEo"
+        ]
+      },
+      "best_starred": {
+        "folio": "f115r",
+        "idf": 22.358,
+        "shared_stems": [
+          "olkEEs",
+          "dalo",
+          "los"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f77r",
+        "idf": 11.526,
+        "shared_stems": [
+          "dalo",
+          "Cr",
+          "Seok"
+        ]
+      },
+      "line1_eva": "kodshol . otolsheeos . octhodaly . opalepam . oepchksheey . qotodain . s",
+      "line1_gloss": "kodshol <BOT:stem[kodS]:FLUID[-ol/al]> | otolsheeos <NOM:herb+BOT:stem[otolSEEos]> | octhodaly <NOM:herb+BOT:stem[octhodal]:STAT[-y]> | opalepam <NOM:herb+BOT:stem[opalep]:SEAL[-am]> | oepchksheey <NOM:herb+BOT:stem[oep_Ck_SEE]:STAT[-y]> | qotodain <ACT:extract+BOT:stem[todai]> | s <SEQ:next+SEQ:tendril[s]>"
+    },
+    {
+      "rank": 93,
+      "folio": "f93v",
+      "quire": "Q",
+      "bifolio_B": 1,
+      "page_P": "B",
+      "stratum": "STRATUM_III_APOTHECARY_ADJACENT (Quires O, Q)",
+      "n_tokens": 89,
+      "n_paras": 1,
+      "n_unique_stems": 38,
+      "morph": {
+        "n": 89,
+        "qo_pct": 12.36,
+        "cth_ckh_pct": 14.61,
+        "ol_or_al_ar_pct": 30.34,
+        "aiin_pct": 5.62,
+        "d_s_onset_pct": 25.84
+      },
+      "routing": {
+        "P": 40.706,
+        "B": 17.742,
+        "S": 47.397,
+        "Z": 25.127,
+        "f58": 6.809,
+        "PBS": 62.382,
+        "P_per_100w": 45.737,
+        "PBS_per_100w": 70.092
+      },
+      "best_pharm": {
+        "folio": "f99r",
+        "idf": 11.497,
+        "shared_stems": [
+          "kol",
+          "CkEE",
+          "Cs"
+        ]
+      },
+      "best_starred": {
+        "folio": "f106r",
+        "idf": 16.671,
+        "shared_stems": [
+          "op_Co",
+          "t_Cod",
+          "ytEEo"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f75r",
+        "idf": 7.792,
+        "shared_stems": [
+          "kol",
+          "olo",
+          "Cs"
+        ]
+      },
+      "line1_eva": "possheody . qoteeo . qoshocphy . opchody . opor . opchy . otchdal",
+      "line1_gloss": "possheody <BOT:stem[posSeo]:STATE[-dy]> | qoteeo <ACT:extract+BOT:stem[tEEo]> | qoshocphy <ACT:extract+BOT:stem[Socph]:STAT[-y]> | opchody <NOM:herb+BOT:stem[op_Co]:STATE[-dy]> | opor <NOM:herb+BOT:stem[op]:RESIN[-or/ar]> | opchy <NOM:herb+BOT:stem[op_C]:STAT[-y]> | otchdal <NOM:herb+BOT:stem[ot_Cd]:FLUID[-ol/al]>"
+    },
+    {
+      "rank": 94,
+      "folio": "f96r",
+      "quire": "Q",
+      "bifolio_B": 1,
+      "page_P": "K",
+      "stratum": "STRATUM_III_APOTHECARY_ADJACENT (Quires O, Q)",
+      "n_tokens": 84,
+      "n_paras": 1,
+      "n_unique_stems": 36,
+      "morph": {
+        "n": 84,
+        "qo_pct": 7.14,
+        "cth_ckh_pct": 8.33,
+        "ol_or_al_ar_pct": 47.62,
+        "aiin_pct": 7.14,
+        "d_s_onset_pct": 21.43
+      },
+      "routing": {
+        "P": 57.638,
+        "B": 16.289,
+        "S": 50.502,
+        "Z": 10.272,
+        "f58": 18.655,
+        "PBS": 64.933,
+        "P_per_100w": 68.617,
+        "PBS_per_100w": 77.301
+      },
+      "best_pharm": {
+        "folio": "f101v",
+        "idf": 20.594,
+        "shared_stems": [
+          "ckheo",
+          "dor",
+          "ckhEE"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r",
+        "idf": 21.022,
+        "shared_stems": [
+          "ot_Cod",
+          "oii",
+          "Cs"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f77v",
+        "idf": 8.457,
+        "shared_stems": [
+          "dor",
+          "dCe",
+          "Cs"
+        ]
+      },
+      "line1_eva": "tor . cheeor . ckheos . olsheeosol . cpheol . cpheor . chodar",
+      "line1_gloss": "tor <BOT:stem[to]:RESIN[-or/ar]> | cheeor <BOT:stem[CEE]:RESIN[-or/ar]> | ckheos <BOT:stem[ckheos]> | olsheeosol <NOM:herb+BOT:stem[olSEEos]:FLUID[-ol/al]> | cpheol <BOT:stem[cphe]:FLUID[-ol/al]> | cpheor <BOT:stem[cphe]:RESIN[-or/ar]> | chodar <BOT:stem[Cod]:RESIN[-or/ar]>"
+    },
+    {
+      "rank": 95,
+      "folio": "f96v",
+      "quire": "Q",
+      "bifolio_B": 1,
+      "page_P": "L",
+      "stratum": "STRATUM_III_APOTHECARY_ADJACENT (Quires O, Q)",
+      "n_tokens": 56,
+      "n_paras": 1,
+      "n_unique_stems": 38,
+      "morph": {
+        "n": 56,
+        "qo_pct": 3.57,
+        "cth_ckh_pct": 1.79,
+        "ol_or_al_ar_pct": 37.5,
+        "aiin_pct": 5.36,
+        "d_s_onset_pct": 26.79
+      },
+      "routing": {
+        "P": 38.193,
+        "B": 22.348,
+        "S": 35.911,
+        "Z": 20.556,
+        "f58": 10.961,
+        "PBS": 51.427,
+        "P_per_100w": 68.202,
+        "PBS_per_100w": 91.834
+      },
+      "best_pharm": {
+        "folio": "f101r",
+        "idf": 13.263,
+        "shared_stems": [
+          "yte",
+          "ckhe",
+          "olCEE"
+        ]
+      },
+      "best_starred": {
+        "folio": "f112r",
+        "idf": 16.641,
+        "shared_stems": [
+          "tockh",
+          "ytEEo",
+          "alC"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79r",
+        "idf": 11.324,
+        "shared_stems": [
+          "Ceor",
+          "olCEE",
+          "Ces"
+        ]
+      },
+      "line1_eva": "psheessheeor . qoepsheody . odar . ocpheeo . opar . ysar . osoj",
+      "line1_gloss": "psheessheeor <BOT:stem[p_SEEsSEE]:RESIN[-or/ar]> | qoepsheody <ACT:extract+BOT:stem[ep_Seo]:STATE[-dy]> | odar <NOM:herb+BOT:stem[od]:RESIN[-or/ar]> | ocpheeo <NOM:herb+BOT:stem[ocphEEo]> | opar <NOM:herb+BOT:stem[op]:RESIN[-or/ar]> | ysar <CONJ:and+BOT:stem[ys]:RESIN[-or/ar]> | osoj <NOM:herb+BOT:stem[osoj]>"
+    }
+  ]
+}

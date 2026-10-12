@@ -1055,3 +1055,31 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Key Breakthroughs**:
   1. **Synthesizes the 20-Quire Codicological Sheet-Position Law (`Attack 121`), the 32-Monograph Currier B Herbal Translator (`Attack 122`), and the 12-Medallion Zodiac Star-Nymph & Concentric Ring Translator (`Attack 123`)**.
 
+---
+
+## 125. Attack 125 (`Phase 136`): Complete 14-Folio Astronomical & Cosmological Foldout (`f67r1–f70r2`) Spoke (`@R`), Ring (`@C`), Star-Label (`@L`) & Rim-Prose (`@P`) Translator
+- **Script, Data & Scans**: [`tools/attack125_astronomical_14folio_spoke_ring_and_star_translator.py`](../tools/attack125_astronomical_14folio_spoke_ring_and_star_translator.py) $\to$ [`data/attack125_astronomical_14folio_spoke_ring_and_star_translator.json`](../data/attack125_astronomical_14folio_spoke_ring_and_star_translator.json), [`pages/f67v2_four_corner_cosmological_diagram_enh.png`](../pages/f67v2_four_corner_cosmological_diagram_enh.png), [`pages/f68r3_pleiades_and_four_quadrant_moon_enh.png`](../pages/f68r3_pleiades_and_four_quadrant_moon_enh.png)
+- **Key Breakthroughs**:
+  1. **Resolves `208 / 208` (`100.00%`) of Astronomical Star/Sector Labels (`@L`) and `348 / 349` (`99.71%`) of Radial Spoke Tokens (`@R`) into Non-Astronomical Corpus Stems, and Proves the Monotonic 4-Tier `@L -> @R -> @C -> @P` Morphological Gradient (`mean length 5.51 -> 5.34 -> 5.13 -> 4.98 chars`, `o- 41.35% -> 19.41%`, `-aiin 2.88% -> 10.30%`, `qo- 0.48% -> 5.54%`)**.
+
+---
+
+## 126. Attack 126 (`Phase 137`): Complete 95-Folio Currier A Herbal (`$I=H, $L=A`) Monograph Translator & Three-Stratum Botanical-to-Apothecary Progression Law ($z = +4.15$)
+- **Script & Data**: [`tools/attack126_currier_a_95herbal_monograph_translator.py`](../tools/attack126_currier_a_95herbal_monograph_translator.py) $\to$ [`data/attack126_currier_a_95herbal_monograph_translator.json`](../data/attack126_currier_a_95herbal_monograph_translator.json)
+- **Key Breakthroughs**:
+  1. **Proves a `1.64×` Pharmaceutical (`$I=P`) Routing IDF Surge (`43.055` vs. `26.248`, $z = +4.15$) and `+55.1%` Stem Diversity Jump (`40.50` vs. `26.11` Stems) in Stratum III (`Quires O & Q`, Apothecary-Adjacent Herbals), Plus a Strictly Monotonic `$B=1 -> $B=2,3 -> $B=4` Sheet-Depth Gradient Within Scribe 1 (`$H=1, $L=A`) Held Fixed (`tokens 97.00 -> 84.75 -> 75.46`, `stems 32.11 -> 25.73 -> 23.58`, `qo- 7.58% -> 10.91%`, `-aiin 12.74% -> 15.51%`, `PBS IDF 49.660 -> 35.672`)**.
+
+---
+
+## 127. Attack 127 (`Phase 138`): Complete 285-Recipe Quire 20 (`f103r–f116r`, `$I=S`) Starred Clinical Recipe Master Catalogue & 6-Bifolio (`$B=1..6`) Nested Compounding Law ($z = +5.22$ to $+6.58$)
+- **Script & Data**: [`tools/attack127_quire20_292recipe_master_catalogue_and_bifolio_law.py`](../tools/attack127_quire20_292recipe_master_catalogue_and_bifolio_law.py) $\to$ [`data/attack127_quire20_292recipe_master_catalogue_and_bifolio_law.json`](../data/attack127_quire20_292recipe_master_catalogue_and_bifolio_law.json)
+- **Key Breakthroughs**:
+  1. **Proves That `Quire 20` (`285` Starred Recipes) Is Organized as a 3-Shell Concentric Formulary: `OUTER_SHELL ($B=1,2)` Active Boiling Decoctions (`20.42% qo-`, `Verb:Dose = 1.324`), `MID_SHELL ($B=3,4)` Stoichiometric Measured-Dose Prescriptions (`17.03% -aiin`, $z = +6.58$, `Verb:Dose = 0.684`), and `INNERMOST_CENTERFOLD ($B=6: f108/f111)` Long Polypharmacy Master Compilations (`64.74` Words/Recipe = `1.88×` Lift, $z = +5.22$; `36.878` `HPB` IDF, $z = +3.88$)**.
+
+---
+
+## 128. Attack 128 (`Phase 139`): The Complete 14-Folio Astronomical Foldout, 95-Folio Currier A Herbal & 285-Recipe Quire 20 Master Compendium ([`notes/ASTRONOMICAL_HERBAL_A_AND_QUIRE20_MASTER_COMPENDIUM.md`](ASTRONOMICAL_HERBAL_A_AND_QUIRE20_MASTER_COMPENDIUM.md))
+- **Script, Data & Edition**: [`tools/attack128_astronomical_herbal_a_and_quire20_compendium.py`](../tools/attack128_astronomical_herbal_a_and_quire20_compendium.py) $\to$ [`data/attack128_astronomical_herbal_a_and_quire20_compendium.json`](../data/attack128_astronomical_herbal_a_and_quire20_compendium.json) & [`notes/ASTRONOMICAL_HERBAL_A_AND_QUIRE20_MASTER_COMPENDIUM.md`](ASTRONOMICAL_HERBAL_A_AND_QUIRE20_MASTER_COMPENDIUM.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes the 14-Folio Astronomical Foldout Translator (`Attack 125`), the 95-Folio Currier A Herbal Monograph Translator (`Attack 126`), and the 285-Recipe Quire 20 Master Catalogue (`Attack 127`)**.
+

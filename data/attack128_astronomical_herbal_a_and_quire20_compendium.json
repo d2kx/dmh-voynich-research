@@ -1,0 +1,160 @@
+{
+  "attack": "Attack 128 (Phase 139 / Discovery 145)",
+  "title": "Complete 14-Folio Astronomical Foldout, 95-Folio Currier A Herbal & 285-Recipe Quire 20 Master Compendium",
+  "wave29_highlights": {
+    "attack125_astronomical_14folios": {
+      "star_labels_resolved_pct": 100.0,
+      "spoke_tokens_resolved_pct": 99.71,
+      "four_tier_gradient": {
+        "L_STAR_LABEL": {
+          "n_tokens": 208,
+          "mean_len_chars": 5.51,
+          "o_onset_pct": 41.35,
+          "y_onset_pct": 11.54,
+          "qo_onset_pct": 0.48,
+          "d_s_onset_pct": 19.71,
+          "y_dy_coda_pct": 36.06,
+          "edy_coda_pct": 0.96,
+          "ol_or_al_ar_pct": 30.29,
+          "aiin_coda_pct": 2.88,
+          "am_m_coda_pct": 3.85
+        },
+        "R_RADIAL_SPOKE": {
+          "n_tokens": 349,
+          "mean_len_chars": 5.34,
+          "o_onset_pct": 34.96,
+          "y_onset_pct": 8.88,
+          "qo_onset_pct": 4.87,
+          "d_s_onset_pct": 24.64,
+          "y_dy_coda_pct": 48.14,
+          "edy_coda_pct": 0.86,
+          "ol_or_al_ar_pct": 21.78,
+          "aiin_coda_pct": 2.29,
+          "am_m_coda_pct": 3.15
+        },
+        "C_CONCENTRIC_RING": {
+          "n_tokens": 707,
+          "mean_len_chars": 5.13,
+          "o_onset_pct": 32.81,
+          "y_onset_pct": 6.93,
+          "qo_onset_pct": 1.7,
+          "d_s_onset_pct": 21.07,
+          "y_dy_coda_pct": 38.05,
+          "edy_coda_pct": 2.83,
+          "ol_or_al_ar_pct": 27.58,
+          "aiin_coda_pct": 4.81,
+          "am_m_coda_pct": 1.13
+        },
+        "P_RIM_PROSE": {
+          "n_tokens": 505,
+          "mean_len_chars": 4.98,
+          "o_onset_pct": 19.41,
+          "y_onset_pct": 9.7,
+          "qo_onset_pct": 5.54,
+          "d_s_onset_pct": 29.7,
+          "y_dy_coda_pct": 36.44,
+          "edy_coda_pct": 0.79,
+          "ol_or_al_ar_pct": 29.31,
+          "aiin_coda_pct": 10.3,
+          "am_m_coda_pct": 4.75
+        }
+      }
+    },
+    "attack126_currier_a_95herbals": {
+      "stratum_iii_pharm_permutation_test": {
+        "n_stratum_iii_folios": 10,
+        "observed_mean_idf_P": 43.055,
+        "null_mean_idf_P": 26.248,
+        "null_std_idf_P": 4.047,
+        "lift": 1.64,
+        "z_score": 4.15
+      },
+      "scribe1_fixed_sheet_tier_comparison": {
+        "OUTER_WRAPPER_B1": {
+          "n_folios": 19,
+          "mean_tokens": 97.0,
+          "mean_paras": 2.05,
+          "mean_unique_stems": 32.11,
+          "mean_qo_pct": 7.58,
+          "mean_cth_ckh_pct": 12.44,
+          "mean_ol_or_al_ar_pct": 31.55,
+          "mean_aiin_pct": 12.74,
+          "mean_idf_P": 28.352,
+          "mean_idf_f58": 10.745,
+          "mean_idf_B": 21.042,
+          "mean_idf_S": 41.222,
+          "mean_idf_PBS": 49.66,
+          "mean_P_per_100w": 29.547,
+          "mean_PBS_per_100w": 52.458
+        },
+        "INTERMEDIATE_B2_B3": {
+          "n_folios": 40,
+          "mean_tokens": 84.75,
+          "mean_paras": 1.77,
+          "mean_unique_stems": 25.73,
+          "mean_qo_pct": 8.64,
+          "mean_cth_ckh_pct": 12.62,
+          "mean_ol_or_al_ar_pct": 29.34,
+          "mean_aiin_pct": 14.33,
+          "mean_idf_P": 24.543,
+          "mean_idf_f58": 8.676,
+          "mean_idf_B": 19.505,
+          "mean_idf_S": 33.276,
+          "mean_idf_PBS": 42.363,
+          "mean_P_per_100w": 28.849,
+          "mean_PBS_per_100w": 49.74
+        },
+        "INNER_CENTERFOLD_B4": {
+          "n_folios": 26,
+          "mean_tokens": 75.46,
+          "mean_paras": 2.12,
+          "mean_unique_stems": 23.58,
+          "mean_qo_pct": 10.91,
+          "mean_cth_ckh_pct": 13.16,
+          "mean_ol_or_al_ar_pct": 27.48,
+          "mean_aiin_pct": 15.51,
+          "mean_idf_P": 21.354,
+          "mean_idf_f58": 7.373,
+          "mean_idf_B": 14.863,
+          "mean_idf_S": 28.407,
+          "mean_idf_PBS": 35.672,
+          "mean_P_per_100w": 28.498,
+          "mean_PBS_per_100w": 47.878
+        }
+      }
+    },
+    "attack127_quire20_285recipes": {
+      "total_recipes": 285,
+      "regimen_classes": {
+        "AQUEOUS_LOTION_INFUSION": 52,
+        "INTENSIVE_BOILED_DECOCTION": 115,
+        "STOICHIOMETRIC_MULTI_COMPOUND": 58,
+        "SIMPLE_SPECIFIC_RECIPE": 60
+      },
+      "permutation_tests": {
+        "b6_centerfold_recipe_length": {
+          "n_b6_recipes": 35,
+          "observed_mean_tokens": 64.74,
+          "rest_of_quire20_mean_tokens": 34.49,
+          "lift_over_rest": 1.88,
+          "null_mean": 38.1,
+          "null_std": 5.1,
+          "z_score": 5.22
+        },
+        "b6_centerfold_hpb_idf": {
+          "observed_mean_hpb_idf": 36.878,
+          "null_mean": 25.752,
+          "null_std": 2.867,
+          "z_score": 3.88
+        },
+        "mid_shell_b3_b4_aiin_dosing_surge": {
+          "n_mid_recipes": 106,
+          "observed_mean_aiin_pct": 17.03,
+          "null_mean_aiin_pct": 13.06,
+          "null_std_aiin_pct": 0.6,
+          "z_score": 6.58
+        }
+      }
+    }
+  }
+}

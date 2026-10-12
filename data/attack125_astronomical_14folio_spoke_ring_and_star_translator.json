@@ -1,0 +1,5537 @@
+{
+  "attack": "Attack 125 (Phase 136 / Discovery 142)",
+  "title": "Complete 14-Folio Astronomical & Cosmological Foldout (f67r1-f70r2) Spoke, Ring, Star-Label & Rim-Prose Translator",
+  "global_summary": {
+    "n_folios": 14,
+    "total_star_labels": 208,
+    "star_labels_resolved_count": 208,
+    "star_labels_resolved_pct": 100.0,
+    "star_label_resolution_breakdown": {
+      "DIRECT_STEM": 154,
+      "PREFIX_STRIPPED": 19,
+      "COMPOUND_2STEM": 31,
+      "COMPOUND_3STEM": 4
+    },
+    "total_spoke_tokens": 349,
+    "spoke_tokens_resolved_count": 348,
+    "spoke_tokens_resolved_pct": 99.71,
+    "spoke_resolution_breakdown": {
+      "DIRECT_STEM": 284,
+      "COMPOUND_2STEM": 39,
+      "PREFIX_STRIPPED": 16,
+      "COMPOUND_3STEM": 9,
+      "UNRESOLVED": 1
+    },
+    "four_tier_morph_gradient": {
+      "L_STAR_LABEL": {
+        "n_tokens": 208,
+        "mean_len_chars": 5.51,
+        "o_onset_pct": 41.35,
+        "y_onset_pct": 11.54,
+        "qo_onset_pct": 0.48,
+        "d_s_onset_pct": 19.71,
+        "y_dy_coda_pct": 36.06,
+        "edy_coda_pct": 0.96,
+        "ol_or_al_ar_pct": 30.29,
+        "aiin_coda_pct": 2.88,
+        "am_m_coda_pct": 3.85
+      },
+      "R_RADIAL_SPOKE": {
+        "n_tokens": 349,
+        "mean_len_chars": 5.34,
+        "o_onset_pct": 34.96,
+        "y_onset_pct": 8.88,
+        "qo_onset_pct": 4.87,
+        "d_s_onset_pct": 24.64,
+        "y_dy_coda_pct": 48.14,
+        "edy_coda_pct": 0.86,
+        "ol_or_al_ar_pct": 21.78,
+        "aiin_coda_pct": 2.29,
+        "am_m_coda_pct": 3.15
+      },
+      "C_CONCENTRIC_RING": {
+        "n_tokens": 707,
+        "mean_len_chars": 5.13,
+        "o_onset_pct": 32.81,
+        "y_onset_pct": 6.93,
+        "qo_onset_pct": 1.7,
+        "d_s_onset_pct": 21.07,
+        "y_dy_coda_pct": 38.05,
+        "edy_coda_pct": 2.83,
+        "ol_or_al_ar_pct": 27.58,
+        "aiin_coda_pct": 4.81,
+        "am_m_coda_pct": 1.13
+      },
+      "P_RIM_PROSE": {
+        "n_tokens": 505,
+        "mean_len_chars": 4.98,
+        "o_onset_pct": 19.41,
+        "y_onset_pct": 9.7,
+        "qo_onset_pct": 5.54,
+        "d_s_onset_pct": 29.7,
+        "y_dy_coda_pct": 36.44,
+        "edy_coda_pct": 0.79,
+        "ol_or_al_ar_pct": 29.31,
+        "aiin_coda_pct": 10.3,
+        "am_m_coda_pct": 4.75
+      }
+    }
+  },
+  "folio_records": [
+    {
+      "folio": "f67r1",
+      "quire": "Quire I",
+      "diagram_architecture": "12-Sector Radial Sun & Star-Ray Wheel",
+      "n_total_tokens": 167,
+      "counts_by_tier": {
+        "L_STAR_LABEL": {
+          "n_loci": 0,
+          "n_tokens": 0
+        },
+        "R_RADIAL_SPOKE": {
+          "n_loci": 12,
+          "n_tokens": 17
+        },
+        "C_CONCENTRIC_RING": {
+          "n_loci": 3,
+          "n_tokens": 109
+        },
+        "P_RIM_PROSE": {
+          "n_loci": 4,
+          "n_tokens": 41
+        }
+      },
+      "best_zodiac": {
+        "folio": "f70v2(L=?)",
+        "idf": 23.042,
+        "shared_stems": [
+          "SC",
+          "otEEs",
+          "otEEos",
+          "okEEs"
+        ]
+      },
+      "best_herbal": {
+        "folio": "f87r(L=A)",
+        "idf": 15.576,
+        "shared_stems": [
+          "tEEod",
+          "oteod",
+          "Ceod",
+          "ytEE"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f102v2(L=A)",
+        "idf": 26.407,
+        "shared_stems": [
+          "ekEE",
+          "CekEE",
+          "otEEos",
+          "dEE"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79v(L=B)",
+        "idf": 20.989,
+        "shared_stems": [
+          "dalar",
+          "ykEEs",
+          "oS",
+          "ytEE"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r(L=B)",
+        "idf": 32.179,
+        "shared_stems": [
+          "okeor",
+          "Cokeo",
+          "yCeo",
+          "Seos"
+        ]
+      },
+      "star_labels": [],
+      "radial_spokes": [
+        {
+          "line": "8",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "otaldy",
+          "gloss": "otaldy <STAR-NOM[o-]+ASTRO-STEM[otal]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "9",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "otoky",
+          "gloss": "otoky <STAR-NOM[o-]+ASTRO-STEM[otok]:STAR-POS[-y]>"
+        },
+        {
+          "line": "10",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "seeaiir",
+          "gloss": "seeaiir <NEXT-RAY[s-]+ASTRO-STEM[sEEaii]>"
+        },
+        {
+          "line": "11",
+          "loc": "@Ri",
+          "n_tokens": 2,
+          "eva": "ykees . ary",
+          "gloss": "ykees <INIT-NODE[y-]+ASTRO-STEM[ykEEs]> | ary <ASTRO-STEM[ar]:STAR-POS[-y]>"
+        },
+        {
+          "line": "12",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "sosaiir",
+          "gloss": "sosaiir <NEXT-RAY[s-]+ASTRO-STEM[sosaii]>"
+        },
+        {
+          "line": "13",
+          "loc": "@Ri",
+          "n_tokens": 2,
+          "eva": "oteey . dar",
+          "gloss": "oteey <STAR-NOM[o-]+ASTRO-STEM[otEE]:STAR-POS[-y]> | dar <FROM-DEG[d-]+ASTRO-STEM[da]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "14",
+          "loc": "@Ri",
+          "n_tokens": 2,
+          "eva": "yto . daiir",
+          "gloss": "yto <INIT-NODE[y-]+ASTRO-STEM[yto]> | daiir <FROM-DEG[d-]+ASTRO-STEM[daii]>"
+        },
+        {
+          "line": "15",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "sheosam",
+          "gloss": "sheosam <ASTRO-STEM[Seos]:RING-SEAL[-am]>"
+        },
+        {
+          "line": "16",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "ykeeody",
+          "gloss": "ykeeody <INIT-NODE[y-]+ASTRO-STEM[ykEEo]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "17",
+          "loc": "@Ri",
+          "n_tokens": 2,
+          "eva": "okeol . sal",
+          "gloss": "okeol <STAR-NOM[o-]+ASTRO-STEM[oke]:FLUID-HOUSE[-ol/al]> | sal <NEXT-RAY[s-]+ASTRO-STEM[sa]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "18",
+          "loc": "@Ri",
+          "n_tokens": 2,
+          "eva": "okeey . sar",
+          "gloss": "okeey <STAR-NOM[o-]+ASTRO-STEM[okEE]:STAR-POS[-y]> | sar <NEXT-RAY[s-]+ASTRO-STEM[sa]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "19",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "dalary",
+          "gloss": "dalary <FROM-DEG[d-]+ASTRO-STEM[dalar]:STAR-POS[-y]>"
+        }
+      ],
+      "concentric_rings": [
+        {
+          "line": "5",
+          "loc": "@Cc",
+          "n_tokens": 37,
+          "terminal_token": "ykaros",
+          "eva_preview": "soairol . shdy . chokeody . ykeedal . ol . oteodaiin . cho{ikh}edy . ot",
+          "gloss_preview": "soairol <NEXT-RAY[s-]+ASTRO-STEM[soair]:FLUID-HOUSE[-ol/al]> | shdy <ASTRO-STEM[Sd]:FIXED-STATE[-dy]> | chokeody <ASTRO-STEM[Cokeo]:FIXED-STATE[-dy]> | ykeedal <INIT-NODE[y-]+ASTRO-STEM[ykEEd]:FLUID-HOUSE[-ol/al]> | ol <STAR-NOM[o-]+ASTRO-STEM[ol]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "6",
+          "loc": "+Cc",
+          "n_tokens": 41,
+          "terminal_token": "aldy",
+          "eva_preview": "dair . al . cheol . dal . oekaiin . sol . daiin . eetees",
+          "gloss_preview": "dair <FROM-DEG[d-]+ASTRO-STEM[dai]> | al <ASTRO-STEM[al]:FLUID-HOUSE[-ol/al]> | cheol <BENCH-DEGREE[che]:FLUID-HOUSE[-ol/al]> | dal <FROM-DEG[d-]+ASTRO-STEM[da]:FLUID-HOUSE[-ol/al]> | oekaiin <STAR-NOM[o-]+ASTRO-STEM[oek]:DEGREE-COUNT[-aiin]>"
+        },
+        {
+          "line": "7",
+          "loc": "+Cc",
+          "n_tokens": 31,
+          "terminal_token": "chparam",
+          "eva_preview": "archeo . r . qoikeey . oteeos . cheockhey . oteochedy . okechdar . dararal",
+          "gloss_preview": "archeo <ASTRO-STEM[arCeo]> | r <RAY-POINT[r]> | qoikeey <ACT-RISE[qo-]+ASTRO-STEM[ikEE]:STAR-POS[-y]> | oteeos <STAR-NOM[o-]+ASTRO-STEM[otEEos]> | cheockhey <ASTRO-STEM[Ceockh]:RISEN[-ey]>"
+        }
+      ],
+      "rim_prose": [
+        {
+          "line": "1",
+          "loc": "@P0",
+          "n_tokens": 9,
+          "eva_preview": "teeodaiin . shey . epairody . osaiin . yteeoey . shey . epaiin . o",
+          "gloss_preview": "teeodaiin <ASTRO-STEM[tEEod]:DEGREE-COUNT[-aiin]> | shey <PLUME-DEGREE[she]:RISEN[-ey]> | epairody <ASTRO-STEM[epairo]:FIXED-STATE[-dy]> | osaiin <STAR-NOM[o-]+ASTRO-STEM[os]:DEGREE-COUNT[-aiin]> | yteeoey <INIT-NODE[y-]+ASTRO-STEM[ytEEo]:RISEN[-ey]>"
+        },
+        {
+          "line": "2",
+          "loc": "+P0",
+          "n_tokens": 9,
+          "eva_preview": "daiir . okeody . qoekeey . sar . oeteody . oteey . keey . keo",
+          "gloss_preview": "daiir <FROM-DEG[d-]+ASTRO-STEM[daii]> | okeody <STAR-NOM[o-]+ASTRO-STEM[okeo]:FIXED-STATE[-dy]> | qoekeey <ACT-RISE[qo-]+ASTRO-STEM[ekEE]:STAR-POS[-y]> | sar <NEXT-RAY[s-]+ASTRO-STEM[sa]:RAY-ESSENCE[-or/ar]> | oeteody <STAR-NOM[o-]+ASTRO-STEM[oeteo]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "3",
+          "loc": "+P0",
+          "n_tokens": 12,
+          "eva_preview": "ycheo . s . o . iim . [che:eee]os . aiin . okesoe . ar",
+          "gloss_preview": "ycheo <INIT-NODE[y-]+ASTRO-STEM[yCeo]> | s <NEXT-RAY[s-]+SEQ-ARC[s]> | o <STAR-NOM[o-]+ASTRO-STEM[o]> | iim <ASTRO-STEM[ii]:RING-SEAL[-am]> | [che:eee]os <ASTRO-STEM[Ceos]>"
+        },
+        {
+          "line": "4",
+          "loc": "+P0",
+          "n_tokens": 11,
+          "eva_preview": "cheodaiin . [ch:a]ekeey . s . ar . air . s . o . ar",
+          "gloss_preview": "cheodaiin <ASTRO-STEM[Ceod]:DEGREE-COUNT[-aiin]> | [ch:a]ekeey <ASTRO-STEM[CekEE]:STAR-POS[-y]> | s <NEXT-RAY[s-]+SEQ-ARC[s]> | ar <ASTRO-STEM[ar]:RAY-ESSENCE[-or/ar]> | air <ASTRO-STEM[ai]>"
+        }
+      ]
+    },
+    {
+      "folio": "f67r2",
+      "quire": "Quire I",
+      "diagram_architecture": "12-Sector Corner-Emblem & Red-Star Wheel",
+      "n_total_tokens": 190,
+      "counts_by_tier": {
+        "L_STAR_LABEL": {
+          "n_loci": 39,
+          "n_tokens": 64
+        },
+        "R_RADIAL_SPOKE": {
+          "n_loci": 0,
+          "n_tokens": 0
+        },
+        "C_CONCENTRIC_RING": {
+          "n_loci": 0,
+          "n_tokens": 0
+        },
+        "P_RIM_PROSE": {
+          "n_loci": 35,
+          "n_tokens": 126
+        }
+      },
+      "best_zodiac": {
+        "folio": "f72r3(L=?)",
+        "idf": 20.257,
+        "shared_stems": [
+          "Ceko",
+          "of",
+          "yto",
+          "okEEo"
+        ]
+      },
+      "best_herbal": {
+        "folio": "f55r(L=B)",
+        "idf": 19.42,
+        "shared_stems": [
+          "odas",
+          "fai",
+          "Sek_C",
+          "ockh"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f89v2(L=A)",
+        "idf": 25.696,
+        "shared_stems": [
+          "dos",
+          "yteos",
+          "ytod",
+          "of"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79r(L=B)",
+        "idf": 13.257,
+        "shared_stems": [
+          "op_Col",
+          "sar",
+          "otol",
+          "os"
+        ]
+      },
+      "best_starred": {
+        "folio": "f104v(L=B)",
+        "idf": 34.35,
+        "shared_stems": [
+          "keoC",
+          "dad",
+          "dCd",
+          "yCeo"
+        ]
+      },
+      "star_labels": [
+        {
+          "line": "1",
+          "loc": "@L0",
+          "raw": "ykshy",
+          "stem": "yk_S",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yk_S"
+          ],
+          "in_sections": "HB",
+          "gloss": "ykshy <INIT-NODE[y-]+ASTRO-STEM[yk_S]:STAR-POS[-y]>"
+        },
+        {
+          "line": "1",
+          "loc": "@L0",
+          "raw": "s",
+          "stem": "s",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "s"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "s <NEXT-RAY[s-]+SEQ-ARC[s]>"
+        },
+        {
+          "line": "1",
+          "loc": "@L0",
+          "raw": "aram",
+          "stem": "ar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ar"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "aram <ASTRO-STEM[ar]:RING-SEAL[-am]>"
+        },
+        {
+          "line": "2",
+          "loc": "&L0",
+          "raw": "ykecho",
+          "stem": "ykeCo",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "keCo"
+          ],
+          "in_sections": "S",
+          "gloss": "ykecho <INIT-NODE[y-]+ASTRO-STEM[ykeCo]>"
+        },
+        {
+          "line": "2",
+          "loc": "&L0",
+          "raw": "ols",
+          "stem": "ols",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ols"
+          ],
+          "in_sections": "HPBS",
+          "gloss": "ols <STAR-NOM[o-]+ASTRO-STEM[ols]>"
+        },
+        {
+          "line": "2",
+          "loc": "&L0",
+          "raw": "eesydy",
+          "stem": "EEsy",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "EE",
+            "sy"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "eesydy <ASTRO-STEM[EEsy]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "3",
+          "loc": "&L0",
+          "raw": "[{c'}:@164;]ey",
+          "stem": "ce",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ce"
+          ],
+          "in_sections": "P",
+          "gloss": "[{c'}:@164;]ey <ASTRO-STEM[ce]:RISEN[-ey]>"
+        },
+        {
+          "line": "3",
+          "loc": "&L0",
+          "raw": "shs",
+          "stem": "Ss",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Ss"
+          ],
+          "in_sections": "ZHS",
+          "gloss": "shs <ASTRO-STEM[Ss]>"
+        },
+        {
+          "line": "3",
+          "loc": "&L0",
+          "raw": "okar",
+          "stem": "ok",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "okar <STAR-NOM[o-]+NOM-CALYX[ok]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "4",
+          "loc": "&L0",
+          "raw": "shekchy",
+          "stem": "Sek_C",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Sek_C"
+          ],
+          "in_sections": "HS",
+          "gloss": "shekchy <ASTRO-STEM[Sek_C]:STAR-POS[-y]>"
+        },
+        {
+          "line": "4",
+          "loc": "&L0",
+          "raw": "sykos",
+          "stem": "sykos",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "kos"
+          ],
+          "in_sections": "HP",
+          "gloss": "sykos <NEXT-RAY[s-]+ASTRO-STEM[sykos]>"
+        },
+        {
+          "line": "5",
+          "loc": "&L0",
+          "raw": "ykeody",
+          "stem": "ykeo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ykeo"
+          ],
+          "in_sections": "ZHP",
+          "gloss": "ykeody <INIT-NODE[y-]+ASTRO-STEM[ykeo]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "5",
+          "loc": "&L0",
+          "raw": "okchy",
+          "stem": "ok_C",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok_C"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "okchy <STAR-NOM[o-]+ASTRO-STEM[ok_C]:STAR-POS[-y]>"
+        },
+        {
+          "line": "6",
+          "loc": "&L0",
+          "raw": "dchetay",
+          "stem": "dCeta",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "Ceta"
+          ],
+          "in_sections": "H",
+          "gloss": "dchetay <FROM-DEG[d-]+ASTRO-STEM[dCeta]:STAR-POS[-y]>"
+        },
+        {
+          "line": "7",
+          "loc": "&L0",
+          "raw": "ykchy",
+          "stem": "yk_C",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yk_C"
+          ],
+          "in_sections": "HPBS",
+          "gloss": "ykchy <INIT-NODE[y-]+ASTRO-STEM[yk_C]:STAR-POS[-y]>"
+        },
+        {
+          "line": "7",
+          "loc": "&L0",
+          "raw": "kchey",
+          "stem": "k_C",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "k_C"
+          ],
+          "in_sections": "HPBS",
+          "gloss": "kchey <ASTRO-STEM[k_C]:RISEN[-ey]>"
+        },
+        {
+          "line": "7",
+          "loc": "&L0",
+          "raw": "ykchys",
+          "stem": "yk_Cys",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "yk_C",
+            "ys"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "ykchys <INIT-NODE[y-]+ASTRO-STEM[yk_Cys]>"
+        },
+        {
+          "line": "8",
+          "loc": "&L0",
+          "raw": "chkchdar",
+          "stem": "Ck_Cd",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "C",
+            "k_Cd"
+          ],
+          "in_sections": "HPBS",
+          "gloss": "chkchdar <ASTRO-STEM[Ck_Cd]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "9",
+          "loc": "&L0",
+          "raw": "ykar",
+          "stem": "yk",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yk"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "ykar <INIT-NODE[y-]+INIT-CALYX[yk]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "9",
+          "loc": "&L0",
+          "raw": "ykaly",
+          "stem": "ykal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ykal"
+          ],
+          "in_sections": "HS",
+          "gloss": "ykaly <INIT-NODE[y-]+ASTRO-STEM[ykal]:STAR-POS[-y]>"
+        },
+        {
+          "line": "10",
+          "loc": "&L0",
+          "raw": "lkshy",
+          "stem": "lk_S",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "lk_S"
+          ],
+          "in_sections": "BS",
+          "gloss": "lkshy <ARC-FLOW[l-]+ASTRO-STEM[lk_S]:STAR-POS[-y]>"
+        },
+        {
+          "line": "10",
+          "loc": "&L0",
+          "raw": "kchy",
+          "stem": "k_C",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "k_C"
+          ],
+          "in_sections": "HPBS",
+          "gloss": "kchy <ASTRO-STEM[k_C]:STAR-POS[-y]>"
+        },
+        {
+          "line": "10",
+          "loc": "&L0",
+          "raw": "okar",
+          "stem": "ok",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "okar <STAR-NOM[o-]+NOM-CALYX[ok]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "11",
+          "loc": "&L0",
+          "raw": "chky",
+          "stem": "Ck",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Ck"
+          ],
+          "in_sections": "HPBS",
+          "gloss": "chky <ASTRO-STEM[Ck]:STAR-POS[-y]>"
+        },
+        {
+          "line": "11",
+          "loc": "&L0",
+          "raw": "chykchs",
+          "stem": "Cyk_Cs",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "Cy",
+            "k_Cs"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "chykchs <ASTRO-STEM[Cyk_Cs]>"
+        },
+        {
+          "line": "11",
+          "loc": "&L0",
+          "raw": "chy",
+          "stem": "Cy",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Cy"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "chy <ASTRO-STEM[Cy]:STAR-POS[-y]>"
+        },
+        {
+          "line": "12",
+          "loc": "&L0",
+          "raw": "ykees",
+          "stem": "ykEEs",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ykEEs"
+          ],
+          "in_sections": "ZBS",
+          "gloss": "ykees <INIT-NODE[y-]+ASTRO-STEM[ykEEs]>"
+        },
+        {
+          "line": "12",
+          "loc": "&L0",
+          "raw": "ykchos",
+          "stem": "yk_Cos",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "k_Cos"
+          ],
+          "in_sections": "H",
+          "gloss": "ykchos <INIT-NODE[y-]+ASTRO-STEM[yk_Cos]>"
+        },
+        {
+          "line": "15",
+          "loc": "+L0",
+          "raw": "dolchsody",
+          "stem": "dolCso",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "Cso"
+          ],
+          "in_sections": "PS",
+          "gloss": "dolchsody <FROM-DEG[d-]+ASTRO-STEM[dolCso]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "22",
+          "loc": "+L0",
+          "raw": "okal",
+          "stem": "ok",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "okal <STAR-NOM[o-]+NOM-CALYX[ok]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "28",
+          "loc": "+L0",
+          "raw": "okain",
+          "stem": "okai",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okai"
+          ],
+          "in_sections": "HPBS",
+          "gloss": "okain <STAR-NOM[o-]+ASTRO-STEM[okai]>"
+        },
+        {
+          "line": "28",
+          "loc": "+L0",
+          "raw": "a[m:g]",
+          "stem": "am",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "am"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "a[m:g] <ASTRO-STEM[am]:RING-SEAL[-am]>"
+        },
+        {
+          "line": "31",
+          "loc": "+L0",
+          "raw": "opcholdy",
+          "stem": "op_Col",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "op_Col"
+          ],
+          "in_sections": "B",
+          "gloss": "opcholdy <STAR-NOM[o-]+ASTRO-STEM[op_Col]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "34",
+          "loc": "+L0",
+          "raw": "ofar",
+          "stem": "of",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "of"
+          ],
+          "in_sections": "ZHPS",
+          "gloss": "ofar <STAR-NOM[o-]+NOM-PLUME[of]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "34",
+          "loc": "+L0",
+          "raw": "oeoldan",
+          "stem": "oeolda",
+          "resolution": "COMPOUND_3STEM",
+          "parts": [
+            "o",
+            "eold",
+            "a"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "oeoldan <STAR-NOM[o-]+ASTRO-STEM[oeolda]>"
+        },
+        {
+          "line": "37",
+          "loc": "+L0",
+          "raw": "ytoaiin",
+          "stem": "yto",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yto"
+          ],
+          "in_sections": "ZHS",
+          "gloss": "ytoaiin <INIT-NODE[y-]+ASTRO-STEM[yto]:DEGREE-COUNT[-aiin]>"
+        },
+        {
+          "line": "47",
+          "loc": "+L0",
+          "raw": "yfain",
+          "stem": "yfai",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yfai"
+          ],
+          "in_sections": "",
+          "gloss": "yfain <INIT-NODE[y-]+ASTRO-STEM[yfai]>"
+        },
+        {
+          "line": "52",
+          "loc": "@Ls",
+          "raw": "qotoear",
+          "stem": "toe",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "t",
+            "oe"
+          ],
+          "in_sections": "HBS",
+          "gloss": "qotoear <ACT-RISE[qo-]+ASTRO-STEM[toe]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "53",
+          "loc": "&Ls",
+          "raw": "dchdar",
+          "stem": "dCd",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "dCd"
+          ],
+          "in_sections": "HS",
+          "gloss": "dchdar <FROM-DEG[d-]+ASTRO-STEM[dCd]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "54",
+          "loc": "&Ls",
+          "raw": "y",
+          "stem": "y",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "y"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "y <INIT-NODE[y-]+ASTRO-STEM[y]:STAR-POS[-y]>"
+        },
+        {
+          "line": "54",
+          "loc": "&Ls",
+          "raw": "saldal",
+          "stem": "sald",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "sald"
+          ],
+          "in_sections": "HP",
+          "gloss": "saldal <NEXT-RAY[s-]+ASTRO-STEM[sald]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "55",
+          "loc": "&Ls",
+          "raw": "ytodal",
+          "stem": "ytod",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ytod"
+          ],
+          "in_sections": "HP",
+          "gloss": "ytodal <INIT-NODE[y-]+ASTRO-STEM[ytod]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "56",
+          "loc": "&Ls",
+          "raw": "tol",
+          "stem": "to",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "to"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "tol <ASTRO-STEM[to]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "56",
+          "loc": "&Ls",
+          "raw": "daiin",
+          "stem": "da",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "da"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "daiin <FROM-DEG[d-]+ASTRO-STEM[da]:DEGREE-COUNT[-aiin]>"
+        },
+        {
+          "line": "57",
+          "loc": "&Ls",
+          "raw": "otar",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "otar <STAR-NOM[o-]+NOM-SPOKE[ot]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "57",
+          "loc": "&Ls",
+          "raw": "dy",
+          "stem": "dy",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "dy"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "dy <FROM-DEG[d-]+ASTRO-STEM[dy]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "58",
+          "loc": "&Ls",
+          "raw": "cho",
+          "stem": "Co",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Co"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "cho <ASTRO-STEM[Co]>"
+        },
+        {
+          "line": "58",
+          "loc": "&Ls",
+          "raw": "dal",
+          "stem": "da",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "da"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "dal <FROM-DEG[d-]+ASTRO-STEM[da]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "58",
+          "loc": "&Ls",
+          "raw": "g",
+          "stem": "g",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "g"
+          ],
+          "in_sections": "HS",
+          "gloss": "g <ASTRO-STEM[g]>"
+        },
+        {
+          "line": "59",
+          "loc": "&Ls",
+          "raw": "ytchodly",
+          "stem": "yt_Codl",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "yt_Co",
+            "dl"
+          ],
+          "in_sections": "ZHBS",
+          "gloss": "ytchodly <INIT-NODE[y-]+ASTRO-STEM[yt_Codl]:STAR-POS[-y]>"
+        },
+        {
+          "line": "60",
+          "loc": "&Ls",
+          "raw": "octhys",
+          "stem": "octhys",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "octh",
+            "ys"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "octhys <STAR-NOM[o-]+ASTRO-STEM[octhys]>"
+        },
+        {
+          "line": "61",
+          "loc": "&Ls",
+          "raw": "ytokar",
+          "stem": "ytok",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "tok"
+          ],
+          "in_sections": "HBS",
+          "gloss": "ytokar <INIT-NODE[y-]+ASTRO-STEM[ytok]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "62",
+          "loc": "&Ls",
+          "raw": "otolor",
+          "stem": "otol",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otol"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "otolor <STAR-NOM[o-]+ASTRO-STEM[otol]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "63",
+          "loc": "&Ls",
+          "raw": "okodar",
+          "stem": "okod",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okod"
+          ],
+          "in_sections": "HPS",
+          "gloss": "okodar <STAR-NOM[o-]+ASTRO-STEM[okod]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "64",
+          "loc": "@L0",
+          "raw": "s",
+          "stem": "s",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "s"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "s <NEXT-RAY[s-]+SEQ-ARC[s]>"
+        },
+        {
+          "line": "64",
+          "loc": "@L0",
+          "raw": "air",
+          "stem": "ai",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ai"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "air <ASTRO-STEM[ai]>"
+        },
+        {
+          "line": "65",
+          "loc": "&L0",
+          "raw": "soe[a:o]r",
+          "stem": "soe",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "e"
+          ],
+          "in_sections": "HP",
+          "gloss": "soe[a:o]r <NEXT-RAY[s-]+ASTRO-STEM[soe]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "66",
+          "loc": "&L0",
+          "raw": "cpheey",
+          "stem": "cphEE",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "cphEE"
+          ],
+          "in_sections": "P",
+          "gloss": "cpheey <ASTRO-STEM[cphEE]:STAR-POS[-y]>"
+        },
+        {
+          "line": "67",
+          "loc": "&L0",
+          "raw": "okodar",
+          "stem": "okod",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okod"
+          ],
+          "in_sections": "HPS",
+          "gloss": "okodar <STAR-NOM[o-]+ASTRO-STEM[okod]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "68",
+          "loc": "&L0",
+          "raw": "oepchod",
+          "stem": "oep_Cod",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "oe",
+            "p_Cod"
+          ],
+          "in_sections": "HPS",
+          "gloss": "oepchod <STAR-NOM[o-]+ASTRO-STEM[oep_Cod]>"
+        },
+        {
+          "line": "69",
+          "loc": "&L0",
+          "raw": "s",
+          "stem": "s",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "s"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "s <NEXT-RAY[s-]+SEQ-ARC[s]>"
+        },
+        {
+          "line": "69",
+          "loc": "&L0",
+          "raw": "a{cthh}y",
+          "stem": "acthh",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "a",
+            "cthh"
+          ],
+          "in_sections": "HPBS",
+          "gloss": "a{cthh}y <ASTRO-STEM[acthh]:STAR-POS[-y]>"
+        },
+        {
+          "line": "70",
+          "loc": "&L0",
+          "raw": "osar",
+          "stem": "os",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "os"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "osar <STAR-NOM[o-]+ASTRO-STEM[os]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "71",
+          "loc": "&L0",
+          "raw": "oran",
+          "stem": "ora",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "a"
+          ],
+          "in_sections": "HPS",
+          "gloss": "oran <STAR-NOM[o-]+ASTRO-STEM[ora]>"
+        }
+      ],
+      "radial_spokes": [],
+      "concentric_rings": [],
+      "rim_prose": [
+        {
+          "line": "13",
+          "loc": "@Pb",
+          "n_tokens": 4,
+          "eva_preview": "opodchol . s . ain . aldy",
+          "gloss_preview": "opodchol <STAR-NOM[o-]+ASTRO-STEM[opodC]:FLUID-HOUSE[-ol/al]> | s <NEXT-RAY[s-]+SEQ-ARC[s]> | ain <ASTRO-STEM[ai]> | aldy <ASTRO-STEM[al]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "14",
+          "loc": "+Pb",
+          "n_tokens": 3,
+          "eva_preview": "soeey . doiin . oldy",
+          "gloss_preview": "soeey <NEXT-RAY[s-]+ASTRO-STEM[soEE]:STAR-POS[-y]> | doiin <FROM-DEG[d-]+ASTRO-STEM[do]:DEGREE-COUNT[-aiin]> | oldy <STAR-NOM[o-]+ASTRO-STEM[ol]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "16",
+          "loc": "@Pb",
+          "n_tokens": 4,
+          "eva_preview": "oda[eiin:iiin] . okoes . oekain . y",
+          "gloss_preview": "oda[eiin:iiin] <STAR-NOM[o-]+ASTRO-STEM[odae]:DEGREE-COUNT[-aiin]> | okoes <STAR-NOM[o-]+ASTRO-STEM[okoes]> | oekain <STAR-NOM[o-]+ASTRO-STEM[oekai]> | y <INIT-NODE[y-]+ASTRO-STEM[y]:STAR-POS[-y]>"
+        },
+        {
+          "line": "17",
+          "loc": "+Pb",
+          "n_tokens": 3,
+          "eva_preview": "otchey . soraiir . dy",
+          "gloss_preview": "otchey <STAR-NOM[o-]+ASTRO-STEM[ot_C]:RISEN[-ey]> | soraiir <NEXT-RAY[s-]+ASTRO-STEM[soraii]> | dy <FROM-DEG[d-]+ASTRO-STEM[dy]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "18",
+          "loc": "+Pb",
+          "n_tokens": 3,
+          "eva_preview": "qopchy . daiin . dal",
+          "gloss_preview": "qopchy <ACT-RISE[qo-]+ASTRO-STEM[p_C]:STAR-POS[-y]> | daiin <FROM-DEG[d-]+ASTRO-STEM[da]:DEGREE-COUNT[-aiin]> | dal <FROM-DEG[d-]+ASTRO-STEM[da]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "19",
+          "loc": "@Pb",
+          "n_tokens": 4,
+          "eva_preview": "ydchos . ain . ar . amy",
+          "gloss_preview": "ydchos <INIT-NODE[y-]+ASTRO-STEM[ydCos]> | ain <ASTRO-STEM[ai]> | ar <ASTRO-STEM[ar]:RAY-ESSENCE[-or/ar]> | amy <ASTRO-STEM[am]:STAR-POS[-y]>"
+        },
+        {
+          "line": "20",
+          "loc": "+Pb",
+          "n_tokens": 2,
+          "eva_preview": "chocfhy . saral",
+          "gloss_preview": "chocfhy <ASTRO-STEM[Cocfh]:STAR-POS[-y]> | saral <NEXT-RAY[s-]+ASTRO-STEM[sar]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "21",
+          "loc": "+Pb",
+          "n_tokens": 3,
+          "eva_preview": "sain . am . ar",
+          "gloss_preview": "sain <NEXT-RAY[s-]+ASTRO-STEM[sai]> | am <ASTRO-STEM[am]:RING-SEAL[-am]> | ar <ASTRO-STEM[ar]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "23",
+          "loc": "@Pb",
+          "n_tokens": 2,
+          "eva_preview": "oparchy . salsain",
+          "gloss_preview": "oparchy <STAR-NOM[o-]+ASTRO-STEM[oparC]:STAR-POS[-y]> | salsain <NEXT-RAY[s-]+ASTRO-STEM[salsai]>"
+        },
+        {
+          "line": "24",
+          "loc": "+Pb",
+          "n_tokens": 3,
+          "eva_preview": "sodar . ofar . ar",
+          "gloss_preview": "sodar <NEXT-RAY[s-]+ASTRO-STEM[sod]:RAY-ESSENCE[-or/ar]> | ofar <STAR-NOM[o-]+NOM-PLUME[of]:RAY-ESSENCE[-or/ar]> | ar <ASTRO-STEM[ar]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "25",
+          "loc": "+Pb",
+          "n_tokens": 1,
+          "eva_preview": "ydam",
+          "gloss_preview": "ydam <INIT-NODE[y-]+ASTRO-STEM[yd]:RING-SEAL[-am]>"
+        },
+        {
+          "line": "26",
+          "loc": "@Pb",
+          "n_tokens": 3,
+          "eva_preview": "yteoor . yto . ykor",
+          "gloss_preview": "yteoor <INIT-NODE[y-]+ASTRO-STEM[yteo]:RAY-ESSENCE[-or/ar]> | yto <INIT-NODE[y-]+ASTRO-STEM[yto]> | ykor <INIT-NODE[y-]+INIT-CALYX[yk]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "27",
+          "loc": "+Pb",
+          "n_tokens": 4,
+          "eva_preview": "okeo . r . aiin . am",
+          "gloss_preview": "okeo <STAR-NOM[o-]+ASTRO-STEM[okeo]> | r <RAY-POINT[r]> | aiin <ASTRO-STEM[aIIN]:DEGREE-COUNT[-aiin]> | am <ASTRO-STEM[am]:RING-SEAL[-am]>"
+        },
+        {
+          "line": "29",
+          "loc": "@Pb",
+          "n_tokens": 2,
+          "eva_preview": "ytody . saiin",
+          "gloss_preview": "ytody <INIT-NODE[y-]+ASTRO-STEM[yto]:FIXED-STATE[-dy]> | saiin <NEXT-RAY[s-]+ASTRO-STEM[sa]:DEGREE-COUNT[-aiin]>"
+        },
+        {
+          "line": "30",
+          "loc": "+Pb",
+          "n_tokens": 2,
+          "eva_preview": "ochol . olol",
+          "gloss_preview": "ochol <STAR-NOM[o-]+ASTRO-STEM[oC]:FLUID-HOUSE[-ol/al]> | olol <STAR-NOM[o-]+ASTRO-STEM[ol]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "32",
+          "loc": "@Pb",
+          "n_tokens": 4,
+          "eva_preview": "dosar . odas . air . alaiin",
+          "gloss_preview": "dosar <FROM-DEG[d-]+ASTRO-STEM[dos]:RAY-ESSENCE[-or/ar]> | odas <STAR-NOM[o-]+ASTRO-STEM[odas]> | air <ASTRO-STEM[ai]> | alaiin <ASTRO-STEM[al]:DEGREE-COUNT[-aiin]>"
+        },
+        {
+          "line": "33",
+          "loc": "+Pb",
+          "n_tokens": 3,
+          "eva_preview": "dokan . oear . odal",
+          "gloss_preview": "dokan <FROM-DEG[d-]+ASTRO-STEM[doka]> | oear <STAR-NOM[o-]+ASTRO-STEM[oe]:RAY-ESSENCE[-or/ar]> | odal <STAR-NOM[o-]+ASTRO-STEM[od]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "35",
+          "loc": "@Pb",
+          "n_tokens": 3,
+          "eva_preview": "chol . [g:d]iin . okol",
+          "gloss_preview": "chol <ASTRO-STEM[Co]:FLUID-HOUSE[-ol/al]> | [g:d]iin <ASTRO-STEM[gIIN]:DEGREE-COUNT[-aiin]> | okol <STAR-NOM[o-]+NOM-CALYX[ok]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "36",
+          "loc": "+Pb",
+          "n_tokens": 3,
+          "eva_preview": "ytor . daiin . or",
+          "gloss_preview": "ytor <INIT-NODE[y-]+INIT-SPOKE[yt]:RAY-ESSENCE[-or/ar]> | daiin <FROM-DEG[d-]+ASTRO-STEM[da]:DEGREE-COUNT[-aiin]> | or <STAR-NOM[o-]+ASTRO-STEM[or]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "38",
+          "loc": "@Pb",
+          "n_tokens": 2,
+          "eva_preview": "otoldos . octhole",
+          "gloss_preview": "otoldos <STAR-NOM[o-]+ASTRO-STEM[otoldos]> | octhole <STAR-NOM[o-]+ASTRO-STEM[octhole]>"
+        },
+        {
+          "line": "39",
+          "loc": "+Pb",
+          "n_tokens": 3,
+          "eva_preview": "sor . chedaiin . dy",
+          "gloss_preview": "sor <NEXT-RAY[s-]+ASTRO-STEM[so]:RAY-ESSENCE[-or/ar]> | chedaiin <ASTRO-STEM[Ced]:DEGREE-COUNT[-aiin]> | dy <FROM-DEG[d-]+ASTRO-STEM[dy]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "40",
+          "loc": "+Pb",
+          "n_tokens": 3,
+          "eva_preview": "yteos . oiin . og",
+          "gloss_preview": "yteos <INIT-NODE[y-]+ASTRO-STEM[yteos]> | oiin <STAR-NOM[o-]+ASTRO-STEM[oIIN]:DEGREE-COUNT[-aiin]> | og <STAR-NOM[o-]+ASTRO-STEM[og]>"
+        },
+        {
+          "line": "41",
+          "loc": "@Pb",
+          "n_tokens": 2,
+          "eva_preview": "ytoeopchey . chekody",
+          "gloss_preview": "ytoeopchey <INIT-NODE[y-]+ASTRO-STEM[ytoeop_C]:RISEN[-ey]> | chekody <ASTRO-STEM[Ceko]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "42",
+          "loc": "+Pb",
+          "n_tokens": 3,
+          "eva_preview": "sosho . chos . ockhy",
+          "gloss_preview": "sosho <NEXT-RAY[s-]+ASTRO-STEM[soSo]> | chos <ASTRO-STEM[Cos]> | ockhy <STAR-NOM[o-]+ASTRO-STEM[ockh]:STAR-POS[-y]>"
+        },
+        {
+          "line": "43",
+          "loc": "+Pb",
+          "n_tokens": 4,
+          "eva_preview": "daiin . aiin . os . qsg",
+          "gloss_preview": "daiin <FROM-DEG[d-]+ASTRO-STEM[da]:DEGREE-COUNT[-aiin]> | aiin <ASTRO-STEM[aIIN]:DEGREE-COUNT[-aiin]> | os <STAR-NOM[o-]+ASTRO-STEM[os]> | qsg <ASTRO-STEM[qsg]>"
+        },
+        {
+          "line": "44",
+          "loc": "@Pb",
+          "n_tokens": 3,
+          "eva_preview": "ofydy . sheody . aiin",
+          "gloss_preview": "ofydy <STAR-NOM[o-]+ASTRO-STEM[ofy]:FIXED-STATE[-dy]> | sheody <ASTRO-STEM[Seo]:FIXED-STATE[-dy]> | aiin <ASTRO-STEM[aIIN]:DEGREE-COUNT[-aiin]>"
+        },
+        {
+          "line": "45",
+          "loc": "+Pb",
+          "n_tokens": 3,
+          "eva_preview": "ycheody . es . odaiiin",
+          "gloss_preview": "ycheody <INIT-NODE[y-]+ASTRO-STEM[yCeo]:FIXED-STATE[-dy]> | es <ASTRO-STEM[es]> | odaiiin <STAR-NOM[o-]+ASTRO-STEM[od]:DEGREE-COUNT[-aiin]>"
+        },
+        {
+          "line": "46",
+          "loc": "+Pb",
+          "n_tokens": 2,
+          "eva_preview": "yekees . oraly",
+          "gloss_preview": "yekees <INIT-NODE[y-]+ASTRO-STEM[yekEEs]> | oraly <STAR-NOM[o-]+ASTRO-STEM[oral]:STAR-POS[-y]>"
+        },
+        {
+          "line": "48",
+          "loc": "@Pb",
+          "n_tokens": 3,
+          "eva_preview": "todaiin . dain . dy",
+          "gloss_preview": "todaiin <ASTRO-STEM[tod]:DEGREE-COUNT[-aiin]> | dain <FROM-DEG[d-]+ASTRO-STEM[dai]> | dy <FROM-DEG[d-]+ASTRO-STEM[dy]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "49",
+          "loc": "+Pb",
+          "n_tokens": 3,
+          "eva_preview": "os . choer . aiin",
+          "gloss_preview": "os <STAR-NOM[o-]+ASTRO-STEM[os]> | choer <ASTRO-STEM[Coe]> | aiin <ASTRO-STEM[aIIN]:DEGREE-COUNT[-aiin]>"
+        },
+        {
+          "line": "50",
+          "loc": "+Pb",
+          "n_tokens": 2,
+          "eva_preview": "choee[a:y] . sal",
+          "gloss_preview": "choee[a:y] <ASTRO-STEM[CoEEa]> | sal <NEXT-RAY[s-]+ASTRO-STEM[sa]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "51",
+          "loc": "+Pb",
+          "n_tokens": 1,
+          "eva_preview": "da[d:g]aiin",
+          "gloss_preview": "da[d:g]aiin <FROM-DEG[d-]+ASTRO-STEM[dad]:DEGREE-COUNT[-aiin]>"
+        },
+        {
+          "line": "72",
+          "loc": "@P0",
+          "n_tokens": 12,
+          "eva_preview": "dar . aldaiin . ydaiin . qkoy . ydaiin . qofair . ypair . ykoaiin",
+          "gloss_preview": "dar <FROM-DEG[d-]+ASTRO-STEM[da]:RAY-ESSENCE[-or/ar]> | aldaiin <ASTRO-STEM[ald]:DEGREE-COUNT[-aiin]> | ydaiin <INIT-NODE[y-]+ASTRO-STEM[yd]:DEGREE-COUNT[-aiin]> | qkoy <ASTRO-STEM[qko]:STAR-POS[-y]> | ydaiin <INIT-NODE[y-]+ASTRO-STEM[yd]:DEGREE-COUNT[-aiin]>"
+        },
+        {
+          "line": "73",
+          "loc": "+P0",
+          "n_tokens": 11,
+          "eva_preview": "sshey . sy . shees . qeykeey . ykchey . ykchey . qokeochy . oaiin",
+          "gloss_preview": "sshey <NEXT-RAY[s-]+ASTRO-STEM[sS]:RISEN[-ey]> | sy <NEXT-RAY[s-]+ASTRO-STEM[sy]:STAR-POS[-y]> | shees <ASTRO-STEM[SEEs]> | qeykeey <ASTRO-STEM[qeykEE]:STAR-POS[-y]> | ykchey <INIT-NODE[y-]+ASTRO-STEM[yk_C]:RISEN[-ey]>"
+        },
+        {
+          "line": "74",
+          "loc": "+P0",
+          "n_tokens": 13,
+          "eva_preview": "yshey . qokeeody . cheos . oeeos . qockhy . chos . aiin . okeeody",
+          "gloss_preview": "yshey <INIT-NODE[y-]+ASTRO-STEM[yS]:RISEN[-ey]> | qokeeody <ACT-RISE[qo-]+ASTRO-STEM[kEEo]:FIXED-STATE[-dy]> | cheos <ASTRO-STEM[Ceos]> | oeeos <STAR-NOM[o-]+ASTRO-STEM[oEEos]> | qockhy <ACT-RISE[qo-]+ASTRO-STEM[ckh]:STAR-POS[-y]>"
+        }
+      ]
+    },
+    {
+      "folio": "f67v2",
+      "quire": "Quire I",
+      "diagram_architecture": "Square-in-Circle Four-Corner Cosmological Diagram",
+      "n_total_tokens": 62,
+      "counts_by_tier": {
+        "L_STAR_LABEL": {
+          "n_loci": 6,
+          "n_tokens": 9
+        },
+        "R_RADIAL_SPOKE": {
+          "n_loci": 8,
+          "n_tokens": 19
+        },
+        "C_CONCENTRIC_RING": {
+          "n_loci": 0,
+          "n_tokens": 0
+        },
+        "P_RIM_PROSE": {
+          "n_loci": 8,
+          "n_tokens": 34
+        }
+      },
+      "best_zodiac": {
+        "folio": "f70v2(L=?)",
+        "idf": 11.014,
+        "shared_stems": [
+          "okald",
+          "otol",
+          "oko",
+          "dal"
+        ]
+      },
+      "best_herbal": {
+        "folio": "f48v(L=B)",
+        "idf": 8.645,
+        "shared_stems": [
+          "sar",
+          "otol",
+          "keo",
+          "dal"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f99v(L=A)",
+        "idf": 13.475,
+        "shared_stems": [
+          "okor",
+          "sar",
+          "otol",
+          "oko"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f75r(L=B)",
+        "idf": 7.963,
+        "shared_stems": [
+          "sal",
+          "sar",
+          "dal",
+          "am"
+        ]
+      },
+      "best_starred": {
+        "folio": "f107v(L=B)",
+        "idf": 12.677,
+        "shared_stems": [
+          "solai",
+          "oko",
+          "oa",
+          "op"
+        ]
+      },
+      "star_labels": [
+        {
+          "line": "1",
+          "loc": "@La",
+          "raw": "otchdy",
+          "stem": "ot_C",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot_C"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "otchdy <STAR-NOM[o-]+ASTRO-STEM[ot_C]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "2",
+          "loc": "@La",
+          "raw": "otararain",
+          "stem": "otararai",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "tararai"
+          ],
+          "in_sections": "H",
+          "gloss": "otararain <STAR-NOM[o-]+ASTRO-STEM[otararai]>"
+        },
+        {
+          "line": "19",
+          "loc": "@La",
+          "raw": "soaiin",
+          "stem": "so",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "so"
+          ],
+          "in_sections": "HPBS",
+          "gloss": "soaiin <NEXT-RAY[s-]+ASTRO-STEM[so]:DEGREE-COUNT[-aiin]>"
+        },
+        {
+          "line": "19",
+          "loc": "@La",
+          "raw": "dalam",
+          "stem": "dal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "dal"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "dalam <FROM-DEG[d-]+ASTRO-STEM[dal]:RING-SEAL[-am]>"
+        },
+        {
+          "line": "20",
+          "loc": "+La",
+          "raw": "sary",
+          "stem": "sar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "sar"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "sary <NEXT-RAY[s-]+ASTRO-STEM[sar]:STAR-POS[-y]>"
+        },
+        {
+          "line": "20",
+          "loc": "+La",
+          "raw": "okora[l:n]",
+          "stem": "okor",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okor"
+          ],
+          "in_sections": "P",
+          "gloss": "okora[l:n] <STAR-NOM[o-]+ASTRO-STEM[okor]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "21",
+          "loc": "@La",
+          "raw": "oko???",
+          "stem": "oko",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oko"
+          ],
+          "in_sections": "ZHPS",
+          "gloss": "oko??? <STAR-NOM[o-]+ASTRO-STEM[oko]>"
+        },
+        {
+          "line": "22",
+          "loc": "@La",
+          "raw": "okchos",
+          "stem": "ok_Cos",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "k_Cos"
+          ],
+          "in_sections": "H",
+          "gloss": "okchos <STAR-NOM[o-]+ASTRO-STEM[ok_Cos]>"
+        },
+        {
+          "line": "22",
+          "loc": "@La",
+          "raw": "am",
+          "stem": "am",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "am"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "am <ASTRO-STEM[am]:RING-SEAL[-am]>"
+        }
+      ],
+      "radial_spokes": [
+        {
+          "line": "11",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "dcheeor . ochepalain",
+          "gloss": "dcheeor <FROM-DEG[d-]+ASTRO-STEM[dCEE]:RAY-ESSENCE[-or/ar]> | ochepalain <STAR-NOM[o-]+ASTRO-STEM[oCepalai]>"
+        },
+        {
+          "line": "12",
+          "loc": "@Ri",
+          "n_tokens": 2,
+          "eva": "oeolales . ai[s:r]ar",
+          "gloss": "oeolales <STAR-NOM[o-]+ASTRO-STEM[oeolales]> | ai[s:r]ar <ASTRO-STEM[ais]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "13",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "okydseog . oeepoaly",
+          "gloss": "okydseog <STAR-NOM[o-]+ASTRO-STEM[okydseog]> | oeepoaly <STAR-NOM[o-]+ASTRO-STEM[oEEpoal]:STAR-POS[-y]>"
+        },
+        {
+          "line": "14",
+          "loc": "@Ri",
+          "n_tokens": 3,
+          "eva": "o?r . ykaly . char",
+          "gloss": "o?r <STAR-NOM[o-]+ASTRO-STEM[or]:RAY-ESSENCE[-or/ar]> | ykaly <INIT-NODE[y-]+ASTRO-STEM[ykal]:STAR-POS[-y]> | char <ASTRO-STEM[Ca]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "15",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "o . chekais . okolaim",
+          "gloss": "o <STAR-NOM[o-]+ASTRO-STEM[o]> | chekais <ASTRO-STEM[Cekais]> | okolaim <STAR-NOM[o-]+ASTRO-STEM[okolai]:RING-SEAL[-am]>"
+        },
+        {
+          "line": "16",
+          "loc": "@Ri",
+          "n_tokens": 3,
+          "eva": "okar . alet . olkao",
+          "gloss": "okar <STAR-NOM[o-]+NOM-CALYX[ok]:RAY-ESSENCE[-or/ar]> | alet <ASTRO-STEM[alet]> | olkao <STAR-NOM[o-]+ASTRO-STEM[olkao]>"
+        },
+        {
+          "line": "17",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "qokoaiin . ocfhhy",
+          "gloss": "qokoaiin <ACT-RISE[qo-]+ASTRO-STEM[ko]:DEGREE-COUNT[-aiin]> | ocfhhy <STAR-NOM[o-]+ASTRO-STEM[ocfhh]:STAR-POS[-y]>"
+        },
+        {
+          "line": "18",
+          "loc": "@Ri",
+          "n_tokens": 2,
+          "eva": "okeeey . oekchdy",
+          "gloss": "okeeey <STAR-NOM[o-]+ASTRO-STEM[okEE]:STAR-POS[-y]> | oekchdy <STAR-NOM[o-]+ASTRO-STEM[oek_C]:FIXED-STATE[-dy]>"
+        }
+      ],
+      "concentric_rings": [],
+      "rim_prose": [
+        {
+          "line": "3",
+          "loc": "@Pb",
+          "n_tokens": 7,
+          "eva_preview": "tol . or . ain . am . otoly . sair . [g:m]",
+          "gloss_preview": "tol <ASTRO-STEM[to]:FLUID-HOUSE[-ol/al]> | or <STAR-NOM[o-]+ASTRO-STEM[or]:RAY-ESSENCE[-or/ar]> | ain <ASTRO-STEM[ai]> | am <ASTRO-STEM[am]:RING-SEAL[-am]> | otoly <STAR-NOM[o-]+ASTRO-STEM[otol]:STAR-POS[-y]>"
+        },
+        {
+          "line": "4",
+          "loc": "+Pb",
+          "n_tokens": 4,
+          "eva_preview": "daiin . [t:k]aedaiin . ar . okor",
+          "gloss_preview": "daiin <FROM-DEG[d-]+ASTRO-STEM[da]:DEGREE-COUNT[-aiin]> | [t:k]aedaiin <ASTRO-STEM[taed]:DEGREE-COUNT[-aiin]> | ar <ASTRO-STEM[ar]:RAY-ESSENCE[-or/ar]> | okor <STAR-NOM[o-]+NOM-CALYX[ok]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "5",
+          "loc": "@Pb",
+          "n_tokens": 3,
+          "eva_preview": "okeey . keoy . salal",
+          "gloss_preview": "okeey <STAR-NOM[o-]+ASTRO-STEM[okEE]:STAR-POS[-y]> | keoy <ASTRO-STEM[keo]:STAR-POS[-y]> | salal <NEXT-RAY[s-]+ASTRO-STEM[sal]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "6",
+          "loc": "+Pb",
+          "n_tokens": 3,
+          "eva_preview": "ykaralam . olalade . odam",
+          "gloss_preview": "ykaralam <INIT-NODE[y-]+ASTRO-STEM[ykaral]:RING-SEAL[-am]> | olalade <STAR-NOM[o-]+ASTRO-STEM[olalade]> | odam <STAR-NOM[o-]+ASTRO-STEM[od]:RING-SEAL[-am]>"
+        },
+        {
+          "line": "7",
+          "loc": "@Pb",
+          "n_tokens": 4,
+          "eva_preview": "taol . daig . sakar . dam",
+          "gloss_preview": "taol <ASTRO-STEM[ta]:FLUID-HOUSE[-ol/al]> | daig <FROM-DEG[d-]+ASTRO-STEM[daig]> | sakar <NEXT-RAY[s-]+ASTRO-STEM[sak]:RAY-ESSENCE[-or/ar]> | dam <FROM-DEG[d-]+ASTRO-STEM[da]:RING-SEAL[-am]>"
+        },
+        {
+          "line": "8",
+          "loc": "+Pb",
+          "n_tokens": 4,
+          "eva_preview": "solair . cphey . solal . daly",
+          "gloss_preview": "solair <NEXT-RAY[s-]+ASTRO-STEM[solai]> | cphey <ASTRO-STEM[cph]:RISEN[-ey]> | solal <NEXT-RAY[s-]+ASTRO-STEM[sol]:FLUID-HOUSE[-ol/al]> | daly <FROM-DEG[d-]+ASTRO-STEM[dal]:STAR-POS[-y]>"
+        },
+        {
+          "line": "9",
+          "loc": "@Pb",
+          "n_tokens": 4,
+          "eva_preview": "okeal . o?ol . ar . okaldam",
+          "gloss_preview": "okeal <STAR-NOM[o-]+ASTRO-STEM[oke]:FLUID-HOUSE[-ol/al]> | o?ol <STAR-NOM[o-]+ASTRO-STEM[oo]:FLUID-HOUSE[-ol/al]> | ar <ASTRO-STEM[ar]:RAY-ESSENCE[-or/ar]> | okaldam <STAR-NOM[o-]+ASTRO-STEM[okald]:RING-SEAL[-am]>"
+        },
+        {
+          "line": "10",
+          "loc": "+Pb",
+          "n_tokens": 5,
+          "eva_preview": "koain . opal . ol . of[o:y]lain . oar",
+          "gloss_preview": "koain <ASTRO-STEM[koai]> | opal <STAR-NOM[o-]+NOM-CUP[op]:FLUID-HOUSE[-ol/al]> | ol <STAR-NOM[o-]+ASTRO-STEM[ol]:FLUID-HOUSE[-ol/al]> | of[o:y]lain <STAR-NOM[o-]+ASTRO-STEM[ofolai]> | oar <STAR-NOM[o-]+ASTRO-STEM[oa]:RAY-ESSENCE[-or/ar]>"
+        }
+      ]
+    },
+    {
+      "folio": "f67v1",
+      "quire": "Quire I",
+      "diagram_architecture": "8-Spoke Star-Sector & Central Sun Wheel",
+      "n_total_tokens": 73,
+      "counts_by_tier": {
+        "L_STAR_LABEL": {
+          "n_loci": 12,
+          "n_tokens": 16
+        },
+        "R_RADIAL_SPOKE": {
+          "n_loci": 17,
+          "n_tokens": 57
+        },
+        "C_CONCENTRIC_RING": {
+          "n_loci": 0,
+          "n_tokens": 0
+        },
+        "P_RIM_PROSE": {
+          "n_loci": 0,
+          "n_tokens": 0
+        }
+      },
+      "best_zodiac": {
+        "folio": "f73r(L=?)",
+        "idf": 7.989,
+        "shared_stems": [
+          "Cedal",
+          "ytEE",
+          "Cockh"
+        ]
+      },
+      "best_herbal": {
+        "folio": "f90v1(L=A)",
+        "idf": 7.583,
+        "shared_stems": [
+          "okEEod",
+          "ytEE",
+          "Cockh"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f102v1(L=A)",
+        "idf": 11.345,
+        "shared_stems": [
+          "saii",
+          "p_Cod",
+          "dair",
+          "ykEEo"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f83r(L=B)",
+        "idf": 5.592,
+        "shared_stems": [
+          "saii",
+          "ols"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113v(L=B)",
+        "idf": 21.565,
+        "shared_stems": [
+          "Cso",
+          "okEEod",
+          "kEEC",
+          "oteC"
+        ]
+      },
+      "star_labels": [
+        {
+          "line": "1",
+          "loc": "@L0",
+          "raw": "damamm",
+          "stem": "damam",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "dama",
+            "m"
+          ],
+          "in_sections": "HS",
+          "gloss": "damamm <FROM-DEG[d-]+ASTRO-STEM[damam]:RING-SEAL[-am]>"
+        },
+        {
+          "line": "2",
+          "loc": "&L0",
+          "raw": "dairkal",
+          "stem": "dairk",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "dai",
+            "rk"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "dairkal <FROM-DEG[d-]+ASTRO-STEM[dairk]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "3",
+          "loc": "&L0",
+          "raw": "okal",
+          "stem": "ok",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "okal <STAR-NOM[o-]+NOM-CALYX[ok]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "3",
+          "loc": "&L0",
+          "raw": "ary",
+          "stem": "ar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ar"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "ary <ASTRO-STEM[ar]:STAR-POS[-y]>"
+        },
+        {
+          "line": "4",
+          "loc": "&L0",
+          "raw": "dar",
+          "stem": "da",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "da"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "dar <FROM-DEG[d-]+ASTRO-STEM[da]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "4",
+          "loc": "&L0",
+          "raw": "echkalal",
+          "stem": "eCkal",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "e",
+            "Ckal"
+          ],
+          "in_sections": "HPS",
+          "gloss": "echkalal <ASTRO-STEM[eCkal]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "5",
+          "loc": "&L0",
+          "raw": "okol",
+          "stem": "ok",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "okol <STAR-NOM[o-]+NOM-CALYX[ok]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "5",
+          "loc": "&L0",
+          "raw": "aldy",
+          "stem": "al",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "al"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "aldy <ASTRO-STEM[al]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "6",
+          "loc": "&L0",
+          "raw": "dchesykchy",
+          "stem": "dCesyk_C",
+          "resolution": "COMPOUND_3STEM",
+          "parts": [
+            "d",
+            "Ces",
+            "yk_C"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "dchesykchy <FROM-DEG[d-]+ASTRO-STEM[dCesyk_C]:STAR-POS[-y]>"
+        },
+        {
+          "line": "7",
+          "loc": "&L0",
+          "raw": "ykeodar",
+          "stem": "ykeod",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ykeod"
+          ],
+          "in_sections": "HS",
+          "gloss": "ykeodar <INIT-NODE[y-]+ASTRO-STEM[ykeod]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "8",
+          "loc": "&L0",
+          "raw": "deeeoskol",
+          "stem": "dEEosk",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "dEEo",
+            "sk"
+          ],
+          "in_sections": "HPBS",
+          "gloss": "deeeoskol <FROM-DEG[d-]+ASTRO-STEM[dEEosk]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "9",
+          "loc": "&L0",
+          "raw": "ockhosam",
+          "stem": "ockhos",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "ckhos"
+          ],
+          "in_sections": "H",
+          "gloss": "ockhosam <STAR-NOM[o-]+ASTRO-STEM[ockhos]:RING-SEAL[-am]>"
+        },
+        {
+          "line": "10",
+          "loc": "&L0",
+          "raw": "kochardy",
+          "stem": "koCar",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "ko",
+            "Car"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "kochardy <ASTRO-STEM[koCar]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "11",
+          "loc": "&L0",
+          "raw": "ochodare",
+          "stem": "oCodare",
+          "resolution": "COMPOUND_3STEM",
+          "parts": [
+            "oC",
+            "odar",
+            "e"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "ochodare <STAR-NOM[o-]+ASTRO-STEM[oCodare]>"
+        },
+        {
+          "line": "12",
+          "loc": "&L0",
+          "raw": "ols",
+          "stem": "ols",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ols"
+          ],
+          "in_sections": "HPBS",
+          "gloss": "ols <STAR-NOM[o-]+ASTRO-STEM[ols]>"
+        },
+        {
+          "line": "12",
+          "loc": "&L0",
+          "raw": "aiiny",
+          "stem": "aIIN",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "aIIN"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "aiiny <ASTRO-STEM[aIIN]:STAR-POS[-y]>"
+        }
+      ],
+      "radial_spokes": [
+        {
+          "line": "13",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "otorkeol . orsheey . dary",
+          "gloss": "otorkeol <STAR-NOM[o-]+ASTRO-STEM[otorke]:FLUID-HOUSE[-ol/al]> | orsheey <STAR-NOM[o-]+ASTRO-STEM[orSEE]:STAR-POS[-y]> | dary <FROM-DEG[d-]+ASTRO-STEM[dar]:STAR-POS[-y]>"
+        },
+        {
+          "line": "14",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "okechey . cheody . cheky",
+          "gloss": "okechey <STAR-NOM[o-]+ASTRO-STEM[okeC]:RISEN[-ey]> | cheody <ASTRO-STEM[Ceo]:FIXED-STATE[-dy]> | cheky <ASTRO-STEM[Cek]:STAR-POS[-y]>"
+        },
+        {
+          "line": "15",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "otechodor . odcheey",
+          "gloss": "otechodor <STAR-NOM[o-]+ASTRO-STEM[oteCod]:RAY-ESSENCE[-or/ar]> | odcheey <STAR-NOM[o-]+ASTRO-STEM[odCEE]:STAR-POS[-y]>"
+        },
+        {
+          "line": "16",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "chockhey . chockhy",
+          "gloss": "chockhey <ASTRO-STEM[Cockh]:RISEN[-ey]> | chockhy <ASTRO-STEM[Cockh]:STAR-POS[-y]>"
+        },
+        {
+          "line": "17",
+          "loc": "@Ro",
+          "n_tokens": 4,
+          "eva": "yteeey . keeochy . dair . ockey",
+          "gloss": "yteeey <INIT-NODE[y-]+ASTRO-STEM[ytEE]:STAR-POS[-y]> | keeochy <ASTRO-STEM[kEEoC]:STAR-POS[-y]> | dair <FROM-DEG[d-]+ASTRO-STEM[dai]> | ockey <STAR-NOM[o-]+ASTRO-STEM[ock]:RISEN[-ey]>"
+        },
+        {
+          "line": "18",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "keechey . chy . koldy",
+          "gloss": "keechey <ASTRO-STEM[kEEC]:RISEN[-ey]> | chy <ASTRO-STEM[Cy]:STAR-POS[-y]> | koldy <ASTRO-STEM[kol]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "19",
+          "loc": "@Ro",
+          "n_tokens": 4,
+          "eva": "pchodaiin . otch . oekeey . dy",
+          "gloss": "pchodaiin <ASTRO-STEM[p_Cod]:DEGREE-COUNT[-aiin]> | otch <STAR-NOM[o-]+ASTRO-STEM[ot_C]> | oekeey <STAR-NOM[o-]+ASTRO-STEM[oekEE]:STAR-POS[-y]> | dy <FROM-DEG[d-]+ASTRO-STEM[dy]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "20",
+          "loc": "@Ro",
+          "n_tokens": 4,
+          "eva": "dcheeos . qokeeeody . eeis . olcheeg",
+          "gloss": "dcheeos <FROM-DEG[d-]+ASTRO-STEM[dCEEos]> | qokeeeody <ACT-RISE[qo-]+ASTRO-STEM[kEEo]:FIXED-STATE[-dy]> | eeis <ASTRO-STEM[EEis]> | olcheeg <STAR-NOM[o-]+ASTRO-STEM[olCEEg]>"
+        },
+        {
+          "line": "21",
+          "loc": "@Ro",
+          "n_tokens": 5,
+          "eva": "ykeeo . cheo . daiin . ypcheg . oty",
+          "gloss": "ykeeo <INIT-NODE[y-]+ASTRO-STEM[ykEEo]> | cheo <ASTRO-STEM[Ceo]> | daiin <FROM-DEG[d-]+ASTRO-STEM[da]:DEGREE-COUNT[-aiin]> | ypcheg <INIT-NODE[y-]+ASTRO-STEM[yp_Ceg]> | oty <STAR-NOM[o-]+NOM-SPOKE[ot]:STAR-POS[-y]>"
+        },
+        {
+          "line": "22",
+          "loc": "@Ro",
+          "n_tokens": 4,
+          "eva": "opcheey . chso . cheey . chedaly",
+          "gloss": "opcheey <STAR-NOM[o-]+ASTRO-STEM[op_CEE]:STAR-POS[-y]> | chso <ASTRO-STEM[Cso]> | cheey <ASTRO-STEM[CEE]:STAR-POS[-y]> | chedaly <ASTRO-STEM[Cedal]:STAR-POS[-y]>"
+        },
+        {
+          "line": "23",
+          "loc": "@Ro",
+          "n_tokens": 4,
+          "eva": "ykeeey . qokeey . olokeey . s",
+          "gloss": "ykeeey <INIT-NODE[y-]+ASTRO-STEM[ykEE]:STAR-POS[-y]> | qokeey <ACT-RISE[qo-]+ASTRO-STEM[kEE]:STAR-POS[-y]> | olokeey <STAR-NOM[o-]+ASTRO-STEM[olokEE]:STAR-POS[-y]> | s <NEXT-RAY[s-]+SEQ-ARC[s]>"
+        },
+        {
+          "line": "24",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "osheey . keeody . cheedals",
+          "gloss": "osheey <STAR-NOM[o-]+ASTRO-STEM[oSEE]:STAR-POS[-y]> | keeody <ASTRO-STEM[kEEo]:FIXED-STATE[-dy]> | cheedals <ASTRO-STEM[CEEdals]>"
+        },
+        {
+          "line": "25",
+          "loc": "@Ro",
+          "n_tokens": 4,
+          "eva": "okar . shey . qokche[o:a]r . daiiin",
+          "gloss": "okar <STAR-NOM[o-]+NOM-CALYX[ok]:RAY-ESSENCE[-or/ar]> | shey <PLUME-DEGREE[she]:RISEN[-ey]> | qokche[o:a]r <ACT-RISE[qo-]+ASTRO-STEM[k_Ce]:RAY-ESSENCE[-or/ar]> | daiiin <FROM-DEG[d-]+ASTRO-STEM[da]:DEGREE-COUNT[-aiin]>"
+        },
+        {
+          "line": "26",
+          "loc": "@Ro",
+          "n_tokens": 4,
+          "eva": "oeees . ote[ch:ee]y . o . keey",
+          "gloss": "oeees <STAR-NOM[o-]+ASTRO-STEM[oEEs]> | ote[ch:ee]y <STAR-NOM[o-]+ASTRO-STEM[oteC]:STAR-POS[-y]> | o <STAR-NOM[o-]+ASTRO-STEM[o]> | keey <ASTRO-STEM[kEE]:STAR-POS[-y]>"
+        },
+        {
+          "line": "27",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "okeeodaiin . saii . dairal",
+          "gloss": "okeeodaiin <STAR-NOM[o-]+ASTRO-STEM[okEEod]:DEGREE-COUNT[-aiin]> | saii <NEXT-RAY[s-]+ASTRO-STEM[saii]> | dairal <FROM-DEG[d-]+ASTRO-STEM[dair]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "28",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "oksheeody . or . aral",
+          "gloss": "oksheeody <STAR-NOM[o-]+ASTRO-STEM[ok_SEEo]:FIXED-STATE[-dy]> | or <STAR-NOM[o-]+ASTRO-STEM[or]:RAY-ESSENCE[-or/ar]> | aral <ASTRO-STEM[ar]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "29",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "olar . aroky",
+          "gloss": "olar <STAR-NOM[o-]+ASTRO-STEM[ol]:RAY-ESSENCE[-or/ar]> | aroky <ASTRO-STEM[arok]:STAR-POS[-y]>"
+        }
+      ],
+      "concentric_rings": [],
+      "rim_prose": []
+    },
+    {
+      "folio": "f68r1",
+      "quire": "Quire I",
+      "diagram_architecture": "Crescent Moon & Star-Cluster Medallion I",
+      "n_total_tokens": 65,
+      "counts_by_tier": {
+        "L_STAR_LABEL": {
+          "n_loci": 29,
+          "n_tokens": 29
+        },
+        "R_RADIAL_SPOKE": {
+          "n_loci": 0,
+          "n_tokens": 0
+        },
+        "C_CONCENTRIC_RING": {
+          "n_loci": 1,
+          "n_tokens": 5
+        },
+        "P_RIM_PROSE": {
+          "n_loci": 7,
+          "n_tokens": 31
+        }
+      },
+      "best_zodiac": {
+        "folio": "f72v1(L=?)",
+        "idf": 11.848,
+        "shared_stems": [
+          "Cp",
+          "okol",
+          "octh",
+          "ot_S"
+        ]
+      },
+      "best_herbal": {
+        "folio": "f18r(L=A)",
+        "idf": 9.934,
+        "shared_stems": [
+          "octh",
+          "ok_S",
+          "ot_S",
+          "dar"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f99r(L=A)",
+        "idf": 12.728,
+        "shared_stems": [
+          "okol",
+          "octh",
+          "ockh",
+          "okar"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f77v(L=B)",
+        "idf": 11.999,
+        "shared_stems": [
+          "dolC",
+          "qe",
+          "ro",
+          "dar"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114r(L=B)",
+        "idf": 18.916,
+        "shared_stems": [
+          "Cocfh",
+          "ocph",
+          "octh",
+          "okar"
+        ]
+      },
+      "star_labels": [
+        {
+          "line": "8",
+          "loc": "@Ls",
+          "raw": "okodaly",
+          "stem": "okodal",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "ok",
+            "odal"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "okodaly <STAR-NOM[o-]+ASTRO-STEM[okodal]:STAR-POS[-y]>"
+        },
+        {
+          "line": "9",
+          "loc": "@Ls",
+          "raw": "odchecthy",
+          "stem": "odCecth",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "Cecth"
+          ],
+          "in_sections": "HBS",
+          "gloss": "odchecthy <STAR-NOM[o-]+ASTRO-STEM[odCecth]:STAR-POS[-y]>"
+        },
+        {
+          "line": "10",
+          "loc": "@Ls",
+          "raw": "otcheody",
+          "stem": "ot_Ceo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot_Ceo"
+          ],
+          "in_sections": "ZS",
+          "gloss": "otcheody <STAR-NOM[o-]+ASTRO-STEM[ot_Ceo]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "11",
+          "loc": "@Ls",
+          "raw": "okoaly",
+          "stem": "okoal",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "oko",
+            "al"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "okoaly <STAR-NOM[o-]+ASTRO-STEM[okoal]:STAR-POS[-y]>"
+        },
+        {
+          "line": "12",
+          "loc": "@Ls",
+          "raw": "chocfhy",
+          "stem": "Cocfh",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Cocfh"
+          ],
+          "in_sections": "HS",
+          "gloss": "chocfhy <ASTRO-STEM[Cocfh]:STAR-POS[-y]>"
+        },
+        {
+          "line": "13",
+          "loc": "@Ls",
+          "raw": "octhey",
+          "stem": "octh",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "octh"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "octhey <STAR-NOM[o-]+ASTRO-STEM[octh]:RISEN[-ey]>"
+        },
+        {
+          "line": "14",
+          "loc": "@Ls",
+          "raw": "otshey",
+          "stem": "ot_S",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot_S"
+          ],
+          "in_sections": "ZHBS",
+          "gloss": "otshey <STAR-NOM[o-]+ASTRO-STEM[ot_S]:RISEN[-ey]>"
+        },
+        {
+          "line": "15",
+          "loc": "@Ls",
+          "raw": "otydy",
+          "stem": "oty",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oty"
+          ],
+          "in_sections": "HS",
+          "gloss": "otydy <STAR-NOM[o-]+ASTRO-STEM[oty]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "16",
+          "loc": "@Ls",
+          "raw": "okear",
+          "stem": "oke",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oke"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "okear <STAR-NOM[o-]+ASTRO-STEM[oke]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "17",
+          "loc": "@Ls",
+          "raw": "cphocthy",
+          "stem": "cphocth",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "cph",
+            "octh"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "cphocthy <ASTRO-STEM[cphocth]:STAR-POS[-y]>"
+        },
+        {
+          "line": "18",
+          "loc": "@Ls",
+          "raw": "ytchody",
+          "stem": "yt_Co",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yt_Co"
+          ],
+          "in_sections": "H",
+          "gloss": "ytchody <INIT-NODE[y-]+ASTRO-STEM[yt_Co]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "19",
+          "loc": "@Ls",
+          "raw": "otys",
+          "stem": "otys",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "ot",
+            "ys"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "otys <STAR-NOM[o-]+ASTRO-STEM[otys]>"
+        },
+        {
+          "line": "20",
+          "loc": "@Ls",
+          "raw": "olor",
+          "stem": "ol",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ol"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "olor <STAR-NOM[o-]+ASTRO-STEM[ol]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "21",
+          "loc": "@Ls",
+          "raw": "ockhy",
+          "stem": "ockh",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ockh"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "ockhy <STAR-NOM[o-]+ASTRO-STEM[ockh]:STAR-POS[-y]>"
+        },
+        {
+          "line": "22",
+          "loc": "@Ls",
+          "raw": "ofcheor",
+          "stem": "of_Ce",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "of_Ce"
+          ],
+          "in_sections": "P",
+          "gloss": "ofcheor <STAR-NOM[o-]+ASTRO-STEM[of_Ce]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "23",
+          "loc": "@Ls",
+          "raw": "otchdy",
+          "stem": "ot_C",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot_C"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "otchdy <STAR-NOM[o-]+ASTRO-STEM[ot_C]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "24",
+          "loc": "@Ls",
+          "raw": "otykchs",
+          "stem": "otyk_Cs",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "oty",
+            "k_Cs"
+          ],
+          "in_sections": "HS",
+          "gloss": "otykchs <STAR-NOM[o-]+ASTRO-STEM[otyk_Cs]>"
+        },
+        {
+          "line": "25",
+          "loc": "@Ls",
+          "raw": "otol",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "otol <STAR-NOM[o-]+NOM-SPOKE[ot]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "26",
+          "loc": "@Ls",
+          "raw": "otor",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "otor <STAR-NOM[o-]+NOM-SPOKE[ot]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "27",
+          "loc": "@Ls",
+          "raw": "oiinar",
+          "stem": "oIIN",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oIIN"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "oiinar <STAR-NOM[o-]+ASTRO-STEM[oIIN]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "28",
+          "loc": "@Ls",
+          "raw": "okoldy",
+          "stem": "okol",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okol"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "okoldy <STAR-NOM[o-]+ASTRO-STEM[okol]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "29",
+          "loc": "@Ls",
+          "raw": "ykchdy",
+          "stem": "yk_C",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yk_C"
+          ],
+          "in_sections": "HPBS",
+          "gloss": "ykchdy <INIT-NODE[y-]+ASTRO-STEM[yk_C]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "30",
+          "loc": "@Ls",
+          "raw": "@167;oeeod{c@196;h}y",
+          "stem": "oEEodC",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "oEE",
+            "odC"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "@167;oeeod{c@196;h}y <STAR-NOM[o-]+ASTRO-STEM[oEEodC]:STAR-POS[-y]>"
+        },
+        {
+          "line": "31",
+          "loc": "@Ls",
+          "raw": "ocphy",
+          "stem": "ocph",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ocph"
+          ],
+          "in_sections": "HS",
+          "gloss": "ocphy <STAR-NOM[o-]+ASTRO-STEM[ocph]:STAR-POS[-y]>"
+        },
+        {
+          "line": "32",
+          "loc": "@Ls",
+          "raw": "okeeodal",
+          "stem": "okEEod",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okEEod"
+          ],
+          "in_sections": "HS",
+          "gloss": "okeeodal <STAR-NOM[o-]+ASTRO-STEM[okEEod]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "33",
+          "loc": "@Ls",
+          "raw": "okshor",
+          "stem": "ok_S",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok_S"
+          ],
+          "in_sections": "HPBS",
+          "gloss": "okshor <STAR-NOM[o-]+ASTRO-STEM[ok_S]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "34",
+          "loc": "@Ls",
+          "raw": "osdaiin",
+          "stem": "osd",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "o",
+            "sd"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "osdaiin <STAR-NOM[o-]+ASTRO-STEM[osd]:DEGREE-COUNT[-aiin]>"
+        },
+        {
+          "line": "35",
+          "loc": "@Ls",
+          "raw": "otochedy",
+          "stem": "otoC",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otoC"
+          ],
+          "in_sections": "ZH",
+          "gloss": "otochedy <STAR-NOM[o-]+ASTRO-STEM[otoC]:TRANSIT[-edy]>"
+        },
+        {
+          "line": "36",
+          "loc": "@Ls",
+          "raw": "dolchedy",
+          "stem": "dolC",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "dolC"
+          ],
+          "in_sections": "HPBS",
+          "gloss": "dolchedy <FROM-DEG[d-]+ASTRO-STEM[dolC]:TRANSIT[-edy]>"
+        }
+      ],
+      "radial_spokes": [],
+      "concentric_rings": [
+        {
+          "line": "37",
+          "loc": "@Cc",
+          "n_tokens": 5,
+          "terminal_token": "oygy",
+          "eva_preview": "oky . okchdy . okardy . q[?:k]ear . oygy",
+          "gloss_preview": "oky <STAR-NOM[o-]+NOM-CALYX[ok]:STAR-POS[-y]> | okchdy <STAR-NOM[o-]+ASTRO-STEM[ok_C]:FIXED-STATE[-dy]> | okardy <STAR-NOM[o-]+ASTRO-STEM[okar]:FIXED-STATE[-dy]> | q[?:k]ear <ASTRO-STEM[qe]:RAY-ESSENCE[-or/ar]> | oygy <STAR-NOM[o-]+ASTRO-STEM[oyg]:STAR-POS[-y]>"
+        }
+      ],
+      "rim_prose": [
+        {
+          "line": "1",
+          "loc": "@P0",
+          "n_tokens": 9,
+          "eva_preview": "shokchy . chteey . choteey . cphol . cheor . opcheeol . otor . choctheeey",
+          "gloss_preview": "shokchy <ASTRO-STEM[Sok_C]:STAR-POS[-y]> | chteey <ASTRO-STEM[CtEE]:STAR-POS[-y]> | choteey <ASTRO-STEM[CotEE]:STAR-POS[-y]> | cphol <ASTRO-STEM[cph]:FLUID-HOUSE[-ol/al]> | cheor <BENCH-DEGREE[che]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "2",
+          "loc": "+P0",
+          "n_tokens": 9,
+          "eva_preview": "tochso . otchl . qokeeedy . cheey . cheeteey . yteody . chpor . cheokorchey",
+          "gloss_preview": "tochso <ASTRO-STEM[toCso]> | otchl <STAR-NOM[o-]+ASTRO-STEM[ot_C]> | qokeeedy <ACT-RISE[qo-]+ASTRO-STEM[kEE]:TRANSIT[-edy]> | cheey <ASTRO-STEM[CEE]:STAR-POS[-y]> | cheeteey <ASTRO-STEM[CEEtEE]:STAR-POS[-y]>"
+        },
+        {
+          "line": "3",
+          "loc": "+P0",
+          "n_tokens": 8,
+          "eva_preview": "ykor . shey . qocheey . chokal . okeey . ror . eckhear . daram",
+          "gloss_preview": "ykor <INIT-NODE[y-]+INIT-CALYX[yk]:RAY-ESSENCE[-or/ar]> | shey <PLUME-DEGREE[she]:RISEN[-ey]> | qocheey <ACT-RISE[qo-]+ASTRO-STEM[CEE]:STAR-POS[-y]> | chokal <ASTRO-STEM[Cok]:FLUID-HOUSE[-ol/al]> | okeey <STAR-NOM[o-]+ASTRO-STEM[okEE]:STAR-POS[-y]>"
+        },
+        {
+          "line": "4",
+          "loc": "+P0",
+          "n_tokens": 2,
+          "eva_preview": "dchor . okaiiin",
+          "gloss_preview": "dchor <FROM-DEG[d-]+ASTRO-STEM[dC]:RAY-ESSENCE[-or/ar]> | okaiiin <STAR-NOM[o-]+NOM-CALYX[ok]:DEGREE-COUNT[-aiin]>"
+        },
+        {
+          "line": "5",
+          "loc": "@Pb",
+          "n_tokens": 1,
+          "eva_preview": "yky",
+          "gloss_preview": "yky <INIT-NODE[y-]+INIT-CALYX[yk]:STAR-POS[-y]>"
+        },
+        {
+          "line": "6",
+          "loc": "+Pb",
+          "n_tokens": 1,
+          "eva_preview": "dary",
+          "gloss_preview": "dary <FROM-DEG[d-]+ASTRO-STEM[dar]:STAR-POS[-y]>"
+        },
+        {
+          "line": "7",
+          "loc": "+Pb",
+          "n_tokens": 1,
+          "eva_preview": "chkchykoly",
+          "gloss_preview": "chkchykoly <ASTRO-STEM[Ck_Cykol]:STAR-POS[-y]>"
+        }
+      ]
+    },
+    {
+      "folio": "f68r2",
+      "quire": "Quire I",
+      "diagram_architecture": "Dual Sun/Moon Star-Sector Medallion II",
+      "n_total_tokens": 81,
+      "counts_by_tier": {
+        "L_STAR_LABEL": {
+          "n_loci": 24,
+          "n_tokens": 25
+        },
+        "R_RADIAL_SPOKE": {
+          "n_loci": 0,
+          "n_tokens": 0
+        },
+        "C_CONCENTRIC_RING": {
+          "n_loci": 2,
+          "n_tokens": 19
+        },
+        "P_RIM_PROSE": {
+          "n_loci": 5,
+          "n_tokens": 37
+        }
+      },
+      "best_zodiac": {
+        "folio": "f71r(L=?)",
+        "idf": 8.887,
+        "shared_stems": [
+          "oko",
+          "okEEo",
+          "Col",
+          "oteo"
+        ]
+      },
+      "best_herbal": {
+        "folio": "f4v(L=A)",
+        "idf": 8.534,
+        "shared_stems": [
+          "Ceor",
+          "oko",
+          "Col",
+          "okeo"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f101v(L=A)",
+        "idf": 12.442,
+        "shared_stems": [
+          "oEEo",
+          "oko",
+          "okEEo",
+          "Ces"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f75v(L=B)",
+        "idf": 7.49,
+        "shared_stems": [
+          "ykEEC",
+          "Ces",
+          "Sd"
+        ]
+      },
+      "best_starred": {
+        "folio": "f115v(L=B)",
+        "idf": 13.857,
+        "shared_stems": [
+          "olCEEs",
+          "k_Ceo",
+          "okEEo",
+          "Ces"
+        ]
+      },
+      "star_labels": [
+        {
+          "line": "7",
+          "loc": "@Ls",
+          "raw": "o@167;olch{c@133;h}y",
+          "stem": "oolCC",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "CC"
+          ],
+          "in_sections": "PBS",
+          "gloss": "o@167;olch{c@133;h}y <STAR-NOM[o-]+ASTRO-STEM[oolCC]:STAR-POS[-y]>"
+        },
+        {
+          "line": "8",
+          "loc": "@Ls",
+          "raw": "cheorol",
+          "stem": "Ceor",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Ceor"
+          ],
+          "in_sections": "HPBS",
+          "gloss": "cheorol <ASTRO-STEM[Ceor]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "9",
+          "loc": "@Ls",
+          "raw": "odaiin",
+          "stem": "od",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "od"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "odaiin <STAR-NOM[o-]+ASTRO-STEM[od]:DEGREE-COUNT[-aiin]>"
+        },
+        {
+          "line": "10",
+          "loc": "@Ls",
+          "raw": "ochory",
+          "stem": "oCor",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "Cor"
+          ],
+          "in_sections": "ZHPS",
+          "gloss": "ochory <STAR-NOM[o-]+ASTRO-STEM[oCor]:STAR-POS[-y]>"
+        },
+        {
+          "line": "11",
+          "loc": "@Ls",
+          "raw": "shdar",
+          "stem": "Sd",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Sd"
+          ],
+          "in_sections": "HBS",
+          "gloss": "shdar <ASTRO-STEM[Sd]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "12",
+          "loc": "@Ls",
+          "raw": "dchol",
+          "stem": "dC",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "dC"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "dchol <FROM-DEG[d-]+ASTRO-STEM[dC]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "13",
+          "loc": "@Ls",
+          "raw": "todaraiily",
+          "stem": "todaraiil",
+          "resolution": "COMPOUND_3STEM",
+          "parts": [
+            "t",
+            "odar",
+            "aiil"
+          ],
+          "in_sections": "HPBS",
+          "gloss": "todaraiily <ASTRO-STEM[todaraiil]:STAR-POS[-y]>"
+        },
+        {
+          "line": "14",
+          "loc": "@Ls",
+          "raw": "olcheesey",
+          "stem": "olCEEs",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "olCEEs"
+          ],
+          "in_sections": "S",
+          "gloss": "olcheesey <STAR-NOM[o-]+ASTRO-STEM[olCEEs]:RISEN[-ey]>"
+        },
+        {
+          "line": "15",
+          "loc": "@Ls",
+          "raw": "okchor",
+          "stem": "ok_C",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok_C"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "okchor <STAR-NOM[o-]+ASTRO-STEM[ok_C]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "16",
+          "loc": "@Ls",
+          "raw": "oteool",
+          "stem": "oteo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oteo"
+          ],
+          "in_sections": "ZHPS",
+          "gloss": "oteool <STAR-NOM[o-]+ASTRO-STEM[oteo]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "17",
+          "loc": "@Ls",
+          "raw": "oydchy",
+          "stem": "oydC",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "C"
+          ],
+          "in_sections": "HPBS",
+          "gloss": "oydchy <STAR-NOM[o-]+ASTRO-STEM[oydC]:STAR-POS[-y]>"
+        },
+        {
+          "line": "18",
+          "loc": "@Ls",
+          "raw": "okeeeody",
+          "stem": "okEEo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okEEo"
+          ],
+          "in_sections": "ZHPS",
+          "gloss": "okeeeody <STAR-NOM[o-]+ASTRO-STEM[okEEo]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "19",
+          "loc": "@Ls",
+          "raw": "cholar",
+          "stem": "Col",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Col"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "cholar <ASTRO-STEM[Col]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "20",
+          "loc": "@Ls",
+          "raw": "dcheoldy",
+          "stem": "dCeol",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "Ceol"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "dcheoldy <FROM-DEG[d-]+ASTRO-STEM[dCeol]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "21",
+          "loc": "@Ls",
+          "raw": "oteeear",
+          "stem": "otEE",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otEE"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "oteeear <STAR-NOM[o-]+ASTRO-STEM[otEE]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "22",
+          "loc": "@Ls",
+          "raw": "otoeeo",
+          "stem": "otoEEo",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "ot",
+            "oEEo"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "otoeeo <STAR-NOM[o-]+ASTRO-STEM[otoEEo]>"
+        },
+        {
+          "line": "23",
+          "loc": "@Ls",
+          "raw": "ofcheody",
+          "stem": "of_Ceo",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "f_Ceo"
+          ],
+          "in_sections": "HPS",
+          "gloss": "ofcheody <STAR-NOM[o-]+ASTRO-STEM[of_Ceo]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "24",
+          "loc": "@Ls",
+          "raw": "otcheodar",
+          "stem": "ot_Ceod",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot_Ceod"
+          ],
+          "in_sections": "ZS",
+          "gloss": "otcheodar <STAR-NOM[o-]+ASTRO-STEM[ot_Ceod]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "25",
+          "loc": "@Ls",
+          "raw": "odair",
+          "stem": "odai",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "odai"
+          ],
+          "in_sections": "HPS",
+          "gloss": "odair <STAR-NOM[o-]+ASTRO-STEM[odai]>"
+        },
+        {
+          "line": "25",
+          "loc": "@Ls",
+          "raw": "chol",
+          "stem": "Co",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Co"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "chol <ASTRO-STEM[Co]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "26",
+          "loc": "@Ls",
+          "raw": "opocphor",
+          "stem": "opocph",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "op",
+            "ocph"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "opocphor <STAR-NOM[o-]+ASTRO-STEM[opocph]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "27",
+          "loc": "@Ls",
+          "raw": "otoshol",
+          "stem": "otoS",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "toS"
+          ],
+          "in_sections": "H",
+          "gloss": "otoshol <STAR-NOM[o-]+ASTRO-STEM[otoS]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "28",
+          "loc": "@Ls",
+          "raw": "chodar",
+          "stem": "Cod",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Cod"
+          ],
+          "in_sections": "ZHPS",
+          "gloss": "chodar <ASTRO-STEM[Cod]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "29",
+          "loc": "@Ls",
+          "raw": "sheey",
+          "stem": "SEE",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "SEE"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "sheey <ASTRO-STEM[SEE]:STAR-POS[-y]>"
+        },
+        {
+          "line": "30",
+          "loc": "@Ls",
+          "raw": "ok[eeee:eech]or",
+          "stem": "okEE",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okEE"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "ok[eeee:eech]or <STAR-NOM[o-]+ASTRO-STEM[okEE]:RAY-ESSENCE[-or/ar]>"
+        }
+      ],
+      "radial_spokes": [],
+      "concentric_rings": [
+        {
+          "line": "6",
+          "loc": "@Cc",
+          "n_tokens": 8,
+          "terminal_token": "qoiol",
+          "eva_preview": "okeo . ok[a:?]r . ok[y:o] . okozy . okaesy . qokool . chio . qoiol",
+          "gloss_preview": "okeo <STAR-NOM[o-]+ASTRO-STEM[okeo]> | ok[a:?]r <STAR-NOM[o-]+NOM-CALYX[ok]:RAY-ESSENCE[-or/ar]> | ok[y:o] <STAR-NOM[o-]+NOM-CALYX[ok]:STAR-POS[-y]> | okozy <STAR-NOM[o-]+ASTRO-STEM[okoz]:STAR-POS[-y]> | okaesy <STAR-NOM[o-]+ASTRO-STEM[okaes]:STAR-POS[-y]>"
+        },
+        {
+          "line": "31",
+          "loc": "@Cc",
+          "n_tokens": 11,
+          "terminal_token": "o",
+          "eva_preview": "okey . okoaiin . okol . o . ky . oeeeo . r . okey",
+          "gloss_preview": "okey <STAR-NOM[o-]+NOM-CALYX[ok]:RISEN[-ey]> | okoaiin <STAR-NOM[o-]+ASTRO-STEM[oko]:DEGREE-COUNT[-aiin]> | okol <STAR-NOM[o-]+NOM-CALYX[ok]:FLUID-HOUSE[-ol/al]> | o <STAR-NOM[o-]+ASTRO-STEM[o]> | ky <ASTRO-STEM[ky]:STAR-POS[-y]>"
+        }
+      ],
+      "rim_prose": [
+        {
+          "line": "1",
+          "loc": "@P0",
+          "n_tokens": 9,
+          "eva_preview": "tsheeor . chor . sheal . dar . opchey . oeecthy . sheol . dokechy",
+          "gloss_preview": "tsheeor <ASTRO-STEM[t_SEE]:RAY-ESSENCE[-or/ar]> | chor <ASTRO-STEM[Co]:RAY-ESSENCE[-or/ar]> | sheal <PLUME-DEGREE[she]:FLUID-HOUSE[-ol/al]> | dar <FROM-DEG[d-]+ASTRO-STEM[da]:RAY-ESSENCE[-or/ar]> | opchey <STAR-NOM[o-]+ASTRO-STEM[op_C]:RISEN[-ey]>"
+        },
+        {
+          "line": "2",
+          "loc": "+P0",
+          "n_tokens": 8,
+          "eva_preview": "dchy . ykeechy . dchyky . okeeody . rcheodal . chokeey . cheor . oram",
+          "gloss_preview": "dchy <FROM-DEG[d-]+ASTRO-STEM[dC]:STAR-POS[-y]> | ykeechy <INIT-NODE[y-]+ASTRO-STEM[ykEEC]:STAR-POS[-y]> | dchyky <FROM-DEG[d-]+ASTRO-STEM[dCyk]:STAR-POS[-y]> | okeeody <STAR-NOM[o-]+ASTRO-STEM[okEEo]:FIXED-STATE[-dy]> | rcheodal <ASTRO-STEM[rCeod]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "3",
+          "loc": "+P0",
+          "n_tokens": 7,
+          "eva_preview": "tcheos . otchoky . okchol . okol . sheeor . chodchy . qokchdar",
+          "gloss_preview": "tcheos <ASTRO-STEM[t_Ceos]> | otchoky <STAR-NOM[o-]+ASTRO-STEM[ot_Cok]:STAR-POS[-y]> | okchol <STAR-NOM[o-]+ASTRO-STEM[ok_C]:FLUID-HOUSE[-ol/al]> | okol <STAR-NOM[o-]+NOM-CALYX[ok]:FLUID-HOUSE[-ol/al]> | sheeor <ASTRO-STEM[SEE]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "4",
+          "loc": "+P0",
+          "n_tokens": 8,
+          "eva_preview": "chor . chesy . or[ee:a]d . qoeeckhy . qockheol . qokeol . cheoal . dcholal",
+          "gloss_preview": "chor <ASTRO-STEM[Co]:RAY-ESSENCE[-or/ar]> | chesy <ASTRO-STEM[Ces]:STAR-POS[-y]> | or[ee:a]d <STAR-NOM[o-]+ASTRO-STEM[orEEd]> | qoeeckhy <ACT-RISE[qo-]+ASTRO-STEM[EEckh]:STAR-POS[-y]> | qockheol <ACT-RISE[qo-]+ASTRO-STEM[ckhe]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "5",
+          "loc": "+P0",
+          "n_tokens": 5,
+          "eva_preview": "kcheoey . cheody . sain . ykeody . chykchy",
+          "gloss_preview": "kcheoey <ASTRO-STEM[k_Ceo]:RISEN[-ey]> | cheody <ASTRO-STEM[Ceo]:FIXED-STATE[-dy]> | sain <NEXT-RAY[s-]+ASTRO-STEM[sai]> | ykeody <INIT-NODE[y-]+ASTRO-STEM[ykeo]:FIXED-STATE[-dy]> | chykchy <ASTRO-STEM[Cyk_C]:STAR-POS[-y]>"
+        }
+      ]
+    },
+    {
+      "folio": "f68r3",
+      "quire": "Quire I",
+      "diagram_architecture": "Pleiades 7-Star Cluster & 4-Quadrant Moon Wheel",
+      "n_total_tokens": 106,
+      "counts_by_tier": {
+        "L_STAR_LABEL": {
+          "n_loci": 12,
+          "n_tokens": 16
+        },
+        "R_RADIAL_SPOKE": {
+          "n_loci": 8,
+          "n_tokens": 42
+        },
+        "C_CONCENTRIC_RING": {
+          "n_loci": 2,
+          "n_tokens": 48
+        },
+        "P_RIM_PROSE": {
+          "n_loci": 0,
+          "n_tokens": 0
+        }
+      },
+      "best_zodiac": {
+        "folio": "f70v1(L=?)",
+        "idf": 18.79,
+        "shared_stems": [
+          "okolS",
+          "ykeo",
+          "otEEo",
+          "oteos"
+        ]
+      },
+      "best_herbal": {
+        "folio": "f43v(L=B)",
+        "idf": 11.702,
+        "shared_stems": [
+          "dol",
+          "ykeo",
+          "oteos",
+          "oteod"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f88v(L=A)",
+        "idf": 7.907,
+        "shared_stems": [
+          "daral",
+          "otEEo",
+          "oteo"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f84r(L=B)",
+        "idf": 10.794,
+        "shared_stems": [
+          "daral",
+          "okolS",
+          "kolC"
+        ]
+      },
+      "best_starred": {
+        "folio": "f111r(L=B)",
+        "idf": 15.389,
+        "shared_stems": [
+          "dCEE",
+          "otar",
+          "oteod",
+          "Cok_C"
+        ]
+      },
+      "star_labels": [
+        {
+          "line": "10",
+          "loc": "@Ls",
+          "raw": "dchol",
+          "stem": "dC",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "dC"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "dchol <FROM-DEG[d-]+ASTRO-STEM[dC]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "10",
+          "loc": "@Ls",
+          "raw": "day",
+          "stem": "da",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "da"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "day <FROM-DEG[d-]+ASTRO-STEM[da]:STAR-POS[-y]>"
+        },
+        {
+          "line": "11",
+          "loc": "@Ls",
+          "raw": "doaro",
+          "stem": "doaro",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "aro"
+          ],
+          "in_sections": "ZHPS",
+          "gloss": "doaro <FROM-DEG[d-]+ASTRO-STEM[doaro]>"
+        },
+        {
+          "line": "12",
+          "loc": "@La",
+          "raw": "oalcheol",
+          "stem": "oalCe",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "oa",
+            "lCe"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "oalcheol <STAR-NOM[o-]+ASTRO-STEM[oalCe]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "13",
+          "loc": "@Ls",
+          "raw": "okos",
+          "stem": "okos",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okos"
+          ],
+          "in_sections": "HP",
+          "gloss": "okos <STAR-NOM[o-]+ASTRO-STEM[okos]>"
+        },
+        {
+          "line": "14",
+          "loc": "=Ls",
+          "raw": "otary",
+          "stem": "otar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otar"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "otary <STAR-NOM[o-]+ASTRO-STEM[otar]:STAR-POS[-y]>"
+        },
+        {
+          "line": "15",
+          "loc": "@Ls",
+          "raw": "chky",
+          "stem": "Ck",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Ck"
+          ],
+          "in_sections": "HPBS",
+          "gloss": "chky <ASTRO-STEM[Ck]:STAR-POS[-y]>"
+        },
+        {
+          "line": "15",
+          "loc": "@Ls",
+          "raw": "oky",
+          "stem": "ok",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "oky <STAR-NOM[o-]+NOM-CALYX[ok]:STAR-POS[-y]>"
+        },
+        {
+          "line": "16",
+          "loc": "+Ls",
+          "raw": "e",
+          "stem": "e",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "e"
+          ],
+          "in_sections": "HP",
+          "gloss": "e <ASTRO-STEM[e]>"
+        },
+        {
+          "line": "16",
+          "loc": "+Ls",
+          "raw": "cphy",
+          "stem": "cph",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "cph"
+          ],
+          "in_sections": "HPBS",
+          "gloss": "cphy <ASTRO-STEM[cph]:STAR-POS[-y]>"
+        },
+        {
+          "line": "17",
+          "loc": "+Ls",
+          "raw": "okolchy",
+          "stem": "okolC",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okolC"
+          ],
+          "in_sections": "HS",
+          "gloss": "okolchy <STAR-NOM[o-]+ASTRO-STEM[okolC]:STAR-POS[-y]>"
+        },
+        {
+          "line": "18",
+          "loc": "@Ls",
+          "raw": "o",
+          "stem": "o",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "o"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "o <STAR-NOM[o-]+ASTRO-STEM[o]>"
+        },
+        {
+          "line": "18",
+          "loc": "@Ls",
+          "raw": "cthyd",
+          "stem": "cthyd",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "cthyd"
+          ],
+          "in_sections": "H",
+          "gloss": "cthyd <ASTRO-STEM[cthyd]>"
+        },
+        {
+          "line": "19",
+          "loc": "+Ls",
+          "raw": "otydg",
+          "stem": "otydg",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "oty",
+            "dg"
+          ],
+          "in_sections": "HS",
+          "gloss": "otydg <STAR-NOM[o-]+ASTRO-STEM[otydg]>"
+        },
+        {
+          "line": "20",
+          "loc": "=Ls",
+          "raw": "darall",
+          "stem": "daral",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "daral"
+          ],
+          "in_sections": "ZPB",
+          "gloss": "darall <FROM-DEG[d-]+ASTRO-STEM[daral]>"
+        },
+        {
+          "line": "21",
+          "loc": "*Ls",
+          "raw": "okchody",
+          "stem": "ok_Co",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok_Co"
+          ],
+          "in_sections": "HPS",
+          "gloss": "okchody <STAR-NOM[o-]+ASTRO-STEM[ok_Co]:FIXED-STATE[-dy]>"
+        }
+      ],
+      "radial_spokes": [
+        {
+          "line": "2",
+          "loc": "@Ri",
+          "n_tokens": 5,
+          "eva": "toees . ykeo . she . qokolchey . qokchdy",
+          "gloss": "toees <ASTRO-STEM[toEEs]> | ykeo <INIT-NODE[y-]+ASTRO-STEM[ykeo]> | she <PLUME-DEGREE[she]> | qokolchey <ACT-RISE[qo-]+ASTRO-STEM[kolC]:RISEN[-ey]> | qokchdy <ACT-RISE[qo-]+ASTRO-STEM[k_C]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "3",
+          "loc": "@Ri",
+          "n_tokens": 5,
+          "eva": "tochedy . chocphy . qokchdy . dyl . okald",
+          "gloss": "tochedy <ASTRO-STEM[toC]:TRANSIT[-edy]> | chocphy <ASTRO-STEM[Cocph]:STAR-POS[-y]> | qokchdy <ACT-RISE[qo-]+ASTRO-STEM[k_C]:FIXED-STATE[-dy]> | dyl <FROM-DEG[d-]+ASTRO-STEM[dy]> | okald <STAR-NOM[o-]+ASTRO-STEM[okald]>"
+        },
+        {
+          "line": "4",
+          "loc": "@Ri",
+          "n_tokens": 5,
+          "eva": "dchy . kchy . daiir . chok . ockhydar",
+          "gloss": "dchy <FROM-DEG[d-]+ASTRO-STEM[dC]:STAR-POS[-y]> | kchy <ASTRO-STEM[k_C]:STAR-POS[-y]> | daiir <FROM-DEG[d-]+ASTRO-STEM[daii]> | chok <ASTRO-STEM[Cok]> | ockhydar <STAR-NOM[o-]+ASTRO-STEM[ockhyd]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "5",
+          "loc": "@Ri",
+          "n_tokens": 6,
+          "eva": "qokol . chdchol . qoteey . che . kechy . okchdy",
+          "gloss": "qokol <ACT-RISE[qo-]+ASTRO-STEM[ko]:FLUID-HOUSE[-ol/al]> | chdchol <ASTRO-STEM[CdC]:FLUID-HOUSE[-ol/al]> | qoteey <ACT-RISE[qo-]+ASTRO-STEM[tEE]:STAR-POS[-y]> | che <BENCH-DEGREE[che]> | kechy <ASTRO-STEM[keC]:STAR-POS[-y]> | okchdy <STAR-NOM[o-]+ASTRO-STEM[ok_C]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "6",
+          "loc": "@Ri",
+          "n_tokens": 5,
+          "eva": "dchokchy . {c'hh}y . okey . oteos . okolshy",
+          "gloss": "dchokchy <FROM-DEG[d-]+ASTRO-STEM[dCok_C]:STAR-POS[-y]> | {c'hh}y <ASTRO-STEM[Ch]:STAR-POS[-y]> | okey <STAR-NOM[o-]+NOM-CALYX[ok]:RISEN[-ey]> | oteos <STAR-NOM[o-]+ASTRO-STEM[oteos]> | okolshy <STAR-NOM[o-]+ASTRO-STEM[okolS]:STAR-POS[-y]>"
+        },
+        {
+          "line": "7",
+          "loc": "@Ri",
+          "n_tokens": 6,
+          "eva": "pchody . qokchy . dshol . d{c'y} . o . tgolg?",
+          "gloss": "pchody <ASTRO-STEM[p_Co]:FIXED-STATE[-dy]> | qokchy <ACT-RISE[qo-]+ASTRO-STEM[k_C]:STAR-POS[-y]> | dshol <FROM-DEG[d-]+ASTRO-STEM[dS]:FLUID-HOUSE[-ol/al]> | d{c'y} <FROM-DEG[d-]+ASTRO-STEM[dc]:STAR-POS[-y]> | o <STAR-NOM[o-]+ASTRO-STEM[o]> | tgolg? <ASTRO-STEM[tgolg]>"
+        },
+        {
+          "line": "8",
+          "loc": "@Ri",
+          "n_tokens": 5,
+          "eva": "keeoty . oteey . daiin . dcheeody . oteey",
+          "gloss": "keeoty <ASTRO-STEM[kEEot]:STAR-POS[-y]> | oteey <STAR-NOM[o-]+ASTRO-STEM[otEE]:STAR-POS[-y]> | daiin <FROM-DEG[d-]+ASTRO-STEM[da]:DEGREE-COUNT[-aiin]> | dcheeody <FROM-DEG[d-]+ASTRO-STEM[dCEEo]:FIXED-STATE[-dy]> | oteey <STAR-NOM[o-]+ASTRO-STEM[otEE]:STAR-POS[-y]>"
+        },
+        {
+          "line": "9",
+          "loc": "@Ri",
+          "n_tokens": 5,
+          "eva": "dchey . qokeey . dcheey . daiir . otchal",
+          "gloss": "dchey <FROM-DEG[d-]+ASTRO-STEM[dC]:RISEN[-ey]> | qokeey <ACT-RISE[qo-]+ASTRO-STEM[kEE]:STAR-POS[-y]> | dcheey <FROM-DEG[d-]+ASTRO-STEM[dCEE]:STAR-POS[-y]> | daiir <FROM-DEG[d-]+ASTRO-STEM[daii]> | otchal <STAR-NOM[o-]+ASTRO-STEM[ot_C]:FLUID-HOUSE[-ol/al]>"
+        }
+      ],
+      "concentric_rings": [
+        {
+          "line": "1",
+          "loc": "@Cc",
+          "n_tokens": 38,
+          "terminal_token": "okeoeiiir",
+          "eva_preview": "odeed . oteedy . cheoteey . oshchey . chokol . cheody . chedy . oteodaiin",
+          "gloss_preview": "odeed <STAR-NOM[o-]+ASTRO-STEM[odEEd]> | oteedy <STAR-NOM[o-]+NOM-SPOKE[ot]:TRANSIT[-edy]> | cheoteey <ASTRO-STEM[CeotEE]:STAR-POS[-y]> | oshchey <STAR-NOM[o-]+ASTRO-STEM[oSC]:RISEN[-ey]> | chokol <ASTRO-STEM[Cok]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "22",
+          "loc": "@Cc",
+          "n_tokens": 10,
+          "terminal_token": "oly",
+          "eva_preview": "otcheody . chokchy . okol . cheol . dar . cho . keol . dolaiin",
+          "gloss_preview": "otcheody <STAR-NOM[o-]+ASTRO-STEM[ot_Ceo]:FIXED-STATE[-dy]> | chokchy <ASTRO-STEM[Cok_C]:STAR-POS[-y]> | okol <STAR-NOM[o-]+NOM-CALYX[ok]:FLUID-HOUSE[-ol/al]> | cheol <BENCH-DEGREE[che]:FLUID-HOUSE[-ol/al]> | dar <FROM-DEG[d-]+ASTRO-STEM[da]:RAY-ESSENCE[-or/ar]>"
+        }
+      ],
+      "rim_prose": []
+    },
+    {
+      "folio": "f68v3",
+      "quire": "Quire I",
+      "diagram_architecture": "8-Spoke Spiral Star-Stream Cosmology",
+      "n_total_tokens": 169,
+      "counts_by_tier": {
+        "L_STAR_LABEL": {
+          "n_loci": 2,
+          "n_tokens": 2
+        },
+        "R_RADIAL_SPOKE": {
+          "n_loci": 8,
+          "n_tokens": 46
+        },
+        "C_CONCENTRIC_RING": {
+          "n_loci": 2,
+          "n_tokens": 66
+        },
+        "P_RIM_PROSE": {
+          "n_loci": 7,
+          "n_tokens": 55
+        }
+      },
+      "best_zodiac": {
+        "folio": "f71r(L=?)",
+        "idf": 14.996,
+        "shared_stems": [
+          "Coek",
+          "yko",
+          "oko",
+          "oto"
+        ]
+      },
+      "best_herbal": {
+        "folio": "f34r(L=B)",
+        "idf": 15.216,
+        "shared_stems": [
+          "Cdai",
+          "aii",
+          "Sod",
+          "oC"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f89r1(L=A)",
+        "idf": 21.082,
+        "shared_stems": [
+          "sEE",
+          "ckhh",
+          "yCEEo",
+          "sS"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f76v(L=B)",
+        "idf": 17.463,
+        "shared_stems": [
+          "oek",
+          "SEEs",
+          "sS",
+          "ro"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114r(L=B)",
+        "idf": 30.167,
+        "shared_stems": [
+          "EEo",
+          "Cdai",
+          "Ceot",
+          "kod"
+        ]
+      },
+      "star_labels": [
+        {
+          "line": "15",
+          "loc": "@L0",
+          "raw": "otodol",
+          "stem": "otod",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otod"
+          ],
+          "in_sections": "ZHS",
+          "gloss": "otodol <STAR-NOM[o-]+ASTRO-STEM[otod]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "16",
+          "loc": "=L0",
+          "raw": "opcholdg",
+          "stem": "op_Coldg",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "op_Col",
+            "dg"
+          ],
+          "in_sections": "HB",
+          "gloss": "opcholdg <STAR-NOM[o-]+ASTRO-STEM[op_Coldg]>"
+        }
+      ],
+      "radial_spokes": [
+        {
+          "line": "6",
+          "loc": "@Ri",
+          "n_tokens": 8,
+          "eva": "ocheal . qoeey . keody . cheoky . okeey . chody . dy . ote?m",
+          "gloss": "ocheal <STAR-NOM[o-]+ASTRO-STEM[oCe]:FLUID-HOUSE[-ol/al]> | qoeey <ACT-RISE[qo-]+ASTRO-STEM[EE]:STAR-POS[-y]> | keody <ASTRO-STEM[keo]:FIXED-STATE[-dy]> | cheoky <ASTRO-STEM[Ceok]:STAR-POS[-y]> | okeey <STAR-NOM[o-]+ASTRO-STEM[okEE]:STAR-POS[-y]> | chody <ASTRO-STEM[Co]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "7",
+          "loc": "@Ri",
+          "n_tokens": 5,
+          "eva": "r . al . chdail . schekol . okeody",
+          "gloss": "r <RAY-POINT[r]> | al <ASTRO-STEM[al]:FLUID-HOUSE[-ol/al]> | chdail <ASTRO-STEM[Cdai]> | schekol <NEXT-RAY[s-]+ASTRO-STEM[sCek]:FLUID-HOUSE[-ol/al]> | okeody <STAR-NOM[o-]+ASTRO-STEM[okeo]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "8",
+          "loc": "@Ri",
+          "n_tokens": 8,
+          "eva": "okeol . cheody . qoekeey . ocheky . eeody . okchdy . oko . okos",
+          "gloss": "okeol <STAR-NOM[o-]+ASTRO-STEM[oke]:FLUID-HOUSE[-ol/al]> | cheody <ASTRO-STEM[Ceo]:FIXED-STATE[-dy]> | qoekeey <ACT-RISE[qo-]+ASTRO-STEM[ekEE]:STAR-POS[-y]> | ocheky <STAR-NOM[o-]+ASTRO-STEM[oCek]:STAR-POS[-y]> | eeody <ASTRO-STEM[EEo]:FIXED-STATE[-dy]> | okchdy <STAR-NOM[o-]+ASTRO-STEM[ok_C]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "9",
+          "loc": "@Ri",
+          "n_tokens": 4,
+          "eva": "shoekechy . sheky . okolchey . okol[m:k]om",
+          "gloss": "shoekechy <ASTRO-STEM[SoekeC]:STAR-POS[-y]> | sheky <ASTRO-STEM[Sek]:STAR-POS[-y]> | okolchey <STAR-NOM[o-]+ASTRO-STEM[okolC]:RISEN[-ey]> | okol[m:k]om <STAR-NOM[o-]+ASTRO-STEM[okolmo]:RING-SEAL[-am]>"
+        },
+        {
+          "line": "10",
+          "loc": "@Ri",
+          "n_tokens": 7,
+          "eva": "qokeody . okeey . chekchy . chckhy . okal . ody . chedy",
+          "gloss": "qokeody <ACT-RISE[qo-]+ASTRO-STEM[keo]:FIXED-STATE[-dy]> | okeey <STAR-NOM[o-]+ASTRO-STEM[okEE]:STAR-POS[-y]> | chekchy <ASTRO-STEM[Cek_C]:STAR-POS[-y]> | chckhy <ASTRO-STEM[Cckh]:STAR-POS[-y]> | okal <STAR-NOM[o-]+NOM-CALYX[ok]:FLUID-HOUSE[-ol/al]> | ody <STAR-NOM[o-]+ASTRO-STEM[od]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "11",
+          "loc": "@Ri",
+          "n_tokens": 4,
+          "eva": "ycheeo . key . qokal . okeeg",
+          "gloss": "ycheeo <INIT-NODE[y-]+ASTRO-STEM[yCEEo]> | key <HEATED-RAY[ke]:RISEN[-ey]> | qokal <ACT-RISE[qo-]+ASTRO-STEM[ka]:FLUID-HOUSE[-ol/al]> | okeeg <STAR-NOM[o-]+ASTRO-STEM[okEEg]>"
+        },
+        {
+          "line": "12",
+          "loc": "@Ri",
+          "n_tokens": 6,
+          "eva": "ochey . chekchy . dkeeeg . cheekey . teokechey . saiir",
+          "gloss": "ochey <STAR-NOM[o-]+ASTRO-STEM[oC]:RISEN[-ey]> | chekchy <ASTRO-STEM[Cek_C]:STAR-POS[-y]> | dkeeeg <FROM-DEG[d-]+ASTRO-STEM[dkEEg]> | cheekey <ASTRO-STEM[CEEk]:RISEN[-ey]> | teokechey <ASTRO-STEM[teokeC]:RISEN[-ey]> | saiir <NEXT-RAY[s-]+ASTRO-STEM[saii]>"
+        },
+        {
+          "line": "13",
+          "loc": "@Ri",
+          "n_tokens": 4,
+          "eva": "ydaiil . ol . chek . okchyd",
+          "gloss": "ydaiil <INIT-NODE[y-]+ASTRO-STEM[ydaii]> | ol <STAR-NOM[o-]+ASTRO-STEM[ol]:FLUID-HOUSE[-ol/al]> | chek <ASTRO-STEM[Cek]> | okchyd <STAR-NOM[o-]+ASTRO-STEM[ok_Cyd]>"
+        }
+      ],
+      "concentric_rings": [
+        {
+          "line": "5",
+          "loc": "@Cc",
+          "n_tokens": 54,
+          "terminal_token": "chshek",
+          "eva_preview": "oky . otol . ees . choty . cheda[s:r] . otchdy . s . ar",
+          "gloss_preview": "oky <STAR-NOM[o-]+NOM-CALYX[ok]:STAR-POS[-y]> | otol <STAR-NOM[o-]+NOM-SPOKE[ot]:FLUID-HOUSE[-ol/al]> | ees <ASTRO-STEM[EEs]> | choty <ASTRO-STEM[Cot]:STAR-POS[-y]> | cheda[s:r] <ASTRO-STEM[Cedas]>"
+        },
+        {
+          "line": "14",
+          "loc": "@Cc",
+          "n_tokens": 12,
+          "terminal_token": "ykeeol",
+          "eva_preview": "okosy . okchy . okol . choekey . okeoeeey . ol . yko[?n:in] . otairo[s:r]",
+          "gloss_preview": "okosy <STAR-NOM[o-]+ASTRO-STEM[okos]:STAR-POS[-y]> | okchy <STAR-NOM[o-]+ASTRO-STEM[ok_C]:STAR-POS[-y]> | okol <STAR-NOM[o-]+NOM-CALYX[ok]:FLUID-HOUSE[-ol/al]> | choekey <ASTRO-STEM[Coek]:RISEN[-ey]> | okeoeeey <STAR-NOM[o-]+ASTRO-STEM[okeoEE]:STAR-POS[-y]>"
+        }
+      ],
+      "rim_prose": [
+        {
+          "line": "1",
+          "loc": "@P0",
+          "n_tokens": 14,
+          "eva_preview": "tchedy . chepchy . daiidy . shol . kcheoly . choteol . shol . s",
+          "gloss_preview": "tchedy <ASTRO-STEM[t_C]:TRANSIT[-edy]> | chepchy <ASTRO-STEM[Cep_C]:STAR-POS[-y]> | daiidy <FROM-DEG[d-]+ASTRO-STEM[daii]:FIXED-STATE[-dy]> | shol <ASTRO-STEM[So]:FLUID-HOUSE[-ol/al]> | kcheoly <ASTRO-STEM[k_Ceol]:STAR-POS[-y]>"
+        },
+        {
+          "line": "2",
+          "loc": "+P0",
+          "n_tokens": 15,
+          "eva_preview": "sshey . kcheol . sheey . qety . sheey . otchol . chal . sheey",
+          "gloss_preview": "sshey <NEXT-RAY[s-]+ASTRO-STEM[sS]:RISEN[-ey]> | kcheol <ASTRO-STEM[k_Ce]:FLUID-HOUSE[-ol/al]> | sheey <ASTRO-STEM[SEE]:STAR-POS[-y]> | qety <ASTRO-STEM[qet]:STAR-POS[-y]> | sheey <ASTRO-STEM[SEE]:STAR-POS[-y]>"
+        },
+        {
+          "line": "3",
+          "loc": "+P0",
+          "n_tokens": 12,
+          "eva_preview": "sho . chokar . sor . chor . cheky . daiin . dar . aiiin",
+          "gloss_preview": "sho <ASTRO-STEM[So]> | chokar <ASTRO-STEM[Cok]:RAY-ESSENCE[-or/ar]> | sor <NEXT-RAY[s-]+ASTRO-STEM[so]:RAY-ESSENCE[-or/ar]> | chor <ASTRO-STEM[Co]:RAY-ESSENCE[-or/ar]> | cheky <ASTRO-STEM[Cek]:STAR-POS[-y]>"
+        },
+        {
+          "line": "4",
+          "loc": "+P0",
+          "n_tokens": 3,
+          "eva_preview": "dcheey . qo{ckhh}y . chydy",
+          "gloss_preview": "dcheey <FROM-DEG[d-]+ASTRO-STEM[dCEE]:STAR-POS[-y]> | qo{ckhh}y <ACT-RISE[qo-]+ASTRO-STEM[ckhh]:STAR-POS[-y]> | chydy <ASTRO-STEM[Cy]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "17",
+          "loc": "@Pb",
+          "n_tokens": 4,
+          "eva_preview": "roar . ykeol . darol . daly",
+          "gloss_preview": "roar <ASTRO-STEM[ro]:RAY-ESSENCE[-or/ar]> | ykeol <INIT-NODE[y-]+ASTRO-STEM[yke]:FLUID-HOUSE[-ol/al]> | darol <FROM-DEG[d-]+ASTRO-STEM[dar]:FLUID-HOUSE[-ol/al]> | daly <FROM-DEG[d-]+ASTRO-STEM[dal]:STAR-POS[-y]>"
+        },
+        {
+          "line": "18",
+          "loc": "+Pb",
+          "n_tokens": 4,
+          "eva_preview": "solaiin . {ckhh}y . olekeey . dy",
+          "gloss_preview": "solaiin <NEXT-RAY[s-]+ASTRO-STEM[sol]:DEGREE-COUNT[-aiin]> | {ckhh}y <ASTRO-STEM[ckhh]:STAR-POS[-y]> | olekeey <STAR-NOM[o-]+ASTRO-STEM[olekEE]:STAR-POS[-y]> | dy <FROM-DEG[d-]+ASTRO-STEM[dy]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "19",
+          "loc": "+Pb",
+          "n_tokens": 3,
+          "eva_preview": "ykeol . ctheepoey . dar",
+          "gloss_preview": "ykeol <INIT-NODE[y-]+ASTRO-STEM[yke]:FLUID-HOUSE[-ol/al]> | ctheepoey <ASTRO-STEM[cthEEpo]:RISEN[-ey]> | dar <FROM-DEG[d-]+ASTRO-STEM[da]:RAY-ESSENCE[-or/ar]>"
+        }
+      ]
+    },
+    {
+      "folio": "f68v2",
+      "quire": "Quire I",
+      "diagram_architecture": "16-Spoke Gear-Toothed Star Wheel",
+      "n_total_tokens": 103,
+      "counts_by_tier": {
+        "L_STAR_LABEL": {
+          "n_loci": 0,
+          "n_tokens": 0
+        },
+        "R_RADIAL_SPOKE": {
+          "n_loci": 12,
+          "n_tokens": 25
+        },
+        "C_CONCENTRIC_RING": {
+          "n_loci": 1,
+          "n_tokens": 34
+        },
+        "P_RIM_PROSE": {
+          "n_loci": 5,
+          "n_tokens": 44
+        }
+      },
+      "best_zodiac": {
+        "folio": "f72r3(L=?)",
+        "idf": 18.131,
+        "shared_stems": [
+          "Ceko",
+          "CotEE",
+          "okeos",
+          "otEEs"
+        ]
+      },
+      "best_herbal": {
+        "folio": "f43r(L=B)",
+        "idf": 16.354,
+        "shared_stems": [
+          "CotEE",
+          "yteo",
+          "ykeo",
+          "Cet"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f102v2(L=A)",
+        "idf": 20.935,
+        "shared_stems": [
+          "SkEE",
+          "SekEE",
+          "okeos",
+          "otEEos"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f76v(L=B)",
+        "idf": 12.594,
+        "shared_stems": [
+          "SekEE",
+          "SEEt",
+          "alC",
+          "Scth"
+        ]
+      },
+      "best_starred": {
+        "folio": "f111r(L=B)",
+        "idf": 22.613,
+        "shared_stems": [
+          "SkEE",
+          "dCed",
+          "Ceda",
+          "SekEE"
+        ]
+      },
+      "star_labels": [],
+      "radial_spokes": [
+        {
+          "line": "7",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "otey . dalar",
+          "gloss": "otey <STAR-NOM[o-]+NOM-SPOKE[ot]:RISEN[-ey]> | dalar <FROM-DEG[d-]+ASTRO-STEM[dal]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "8",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "otosey . sary",
+          "gloss": "otosey <STAR-NOM[o-]+ASTRO-STEM[otos]:RISEN[-ey]> | sary <NEXT-RAY[s-]+ASTRO-STEM[sar]:STAR-POS[-y]>"
+        },
+        {
+          "line": "9",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "yshesas . ar . shy",
+          "gloss": "yshesas <INIT-NODE[y-]+ASTRO-STEM[ySesas]> | ar <ASTRO-STEM[ar]:RAY-ESSENCE[-or/ar]> | shy <ASTRO-STEM[Sy]:STAR-POS[-y]>"
+        },
+        {
+          "line": "10",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "socths . chety",
+          "gloss": "socths <NEXT-RAY[s-]+ASTRO-STEM[socths]> | chety <ASTRO-STEM[Cet]:STAR-POS[-y]>"
+        },
+        {
+          "line": "11",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "oteoys . orasaly",
+          "gloss": "oteoys <STAR-NOM[o-]+ASTRO-STEM[oteoys]> | orasaly <STAR-NOM[o-]+ASTRO-STEM[orasal]:STAR-POS[-y]>"
+        },
+        {
+          "line": "12",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "yteody . chetey",
+          "gloss": "yteody <INIT-NODE[y-]+ASTRO-STEM[yteo]:FIXED-STATE[-dy]> | chetey <ASTRO-STEM[Cet]:RISEN[-ey]>"
+        },
+        {
+          "line": "13",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "oteeos . alamchy",
+          "gloss": "oteeos <STAR-NOM[o-]+ASTRO-STEM[otEEos]> | alamchy <ASTRO-STEM[alamC]:STAR-POS[-y]>"
+        },
+        {
+          "line": "14",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "otchdy . chetal",
+          "gloss": "otchdy <STAR-NOM[o-]+ASTRO-STEM[ot_C]:FIXED-STATE[-dy]> | chetal <ASTRO-STEM[Cet]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "15",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "adairchdy . aiin",
+          "gloss": "adairchdy <ASTRO-STEM[adairC]:FIXED-STATE[-dy]> | aiin <ASTRO-STEM[aIIN]:DEGREE-COUNT[-aiin]>"
+        },
+        {
+          "line": "16",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "dchedal . daiin",
+          "gloss": "dchedal <FROM-DEG[d-]+ASTRO-STEM[dCed]:FLUID-HOUSE[-ol/al]> | daiin <FROM-DEG[d-]+ASTRO-STEM[da]:DEGREE-COUNT[-aiin]>"
+        },
+        {
+          "line": "17",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "ykeeepol . ypchy",
+          "gloss": "ykeeepol <INIT-NODE[y-]+ASTRO-STEM[ykEEp]:FLUID-HOUSE[-ol/al]> | ypchy <INIT-NODE[y-]+ASTRO-STEM[yp_C]:STAR-POS[-y]>"
+        },
+        {
+          "line": "18",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "choteey . dary",
+          "gloss": "choteey <ASTRO-STEM[CotEE]:STAR-POS[-y]> | dary <FROM-DEG[d-]+ASTRO-STEM[dar]:STAR-POS[-y]>"
+        }
+      ],
+      "concentric_rings": [
+        {
+          "line": "6",
+          "loc": "@Cc",
+          "n_tokens": 34,
+          "terminal_token": "sary",
+          "eva_preview": "okeadaiin . ykeeody . shsdy . shyokeey . dalches . oko[s:r] . cheky . otees",
+          "gloss_preview": "okeadaiin <STAR-NOM[o-]+ASTRO-STEM[okead]:DEGREE-COUNT[-aiin]> | ykeeody <INIT-NODE[y-]+ASTRO-STEM[ykEEo]:FIXED-STATE[-dy]> | shsdy <ASTRO-STEM[Ss]:FIXED-STATE[-dy]> | shyokeey <ASTRO-STEM[SyokEE]:STAR-POS[-y]> | dalches <FROM-DEG[d-]+ASTRO-STEM[dalCes]>"
+        }
+      ],
+      "rim_prose": [
+        {
+          "line": "1",
+          "loc": "@P0",
+          "n_tokens": 8,
+          "eva_preview": "teeody . shcthey . psheody . shocthy . ykeody . shdy . shot . ytchy",
+          "gloss_preview": "teeody <ASTRO-STEM[tEEo]:FIXED-STATE[-dy]> | shcthey <ASTRO-STEM[Scth]:RISEN[-ey]> | psheody <ASTRO-STEM[p_Seo]:FIXED-STATE[-dy]> | shocthy <ASTRO-STEM[Socth]:STAR-POS[-y]> | ykeody <INIT-NODE[y-]+ASTRO-STEM[ykeo]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "2",
+          "loc": "+P0",
+          "n_tokens": 9,
+          "eva_preview": "dchaiin . shey . dcheedy . qokeey . shckeey . dal . dy . sheetey",
+          "gloss_preview": "dchaiin <FROM-DEG[d-]+ASTRO-STEM[dC]:DEGREE-COUNT[-aiin]> | shey <PLUME-DEGREE[she]:RISEN[-ey]> | dcheedy <FROM-DEG[d-]+ASTRO-STEM[dC]:TRANSIT[-edy]> | qokeey <ACT-RISE[qo-]+ASTRO-STEM[kEE]:STAR-POS[-y]> | shckeey <ASTRO-STEM[SckEE]:STAR-POS[-y]>"
+        },
+        {
+          "line": "3",
+          "loc": "+P0",
+          "n_tokens": 9,
+          "eva_preview": "qoeeey . shekeey . shkeey . s . alchey . cthy . shteody . qoteeody",
+          "gloss_preview": "qoeeey <ACT-RISE[qo-]+ASTRO-STEM[EE]:STAR-POS[-y]> | shekeey <ASTRO-STEM[SekEE]:STAR-POS[-y]> | shkeey <ASTRO-STEM[SkEE]:STAR-POS[-y]> | s <NEXT-RAY[s-]+SEQ-ARC[s]> | alchey <ASTRO-STEM[alC]:RISEN[-ey]>"
+        },
+        {
+          "line": "4",
+          "loc": "+P0",
+          "n_tokens": 9,
+          "eva_preview": "okeey . sheoy . keol . ycheety . okeody . shey . qokey . chol",
+          "gloss_preview": "okeey <STAR-NOM[o-]+ASTRO-STEM[okEE]:STAR-POS[-y]> | sheoy <ASTRO-STEM[Seo]:STAR-POS[-y]> | keol <HEATED-RAY[ke]:FLUID-HOUSE[-ol/al]> | ycheety <INIT-NODE[y-]+ASTRO-STEM[yCEEt]:STAR-POS[-y]> | okeody <STAR-NOM[o-]+ASTRO-STEM[okeo]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "5",
+          "loc": "+P0",
+          "n_tokens": 9,
+          "eva_preview": "scheos . seekey . okey . chody . okeos . cheo . sal . ar",
+          "gloss_preview": "scheos <NEXT-RAY[s-]+ASTRO-STEM[sCeos]> | seekey <NEXT-RAY[s-]+ASTRO-STEM[sEEk]:RISEN[-ey]> | okey <STAR-NOM[o-]+NOM-CALYX[ok]:RISEN[-ey]> | chody <ASTRO-STEM[Co]:FIXED-STATE[-dy]> | okeos <STAR-NOM[o-]+ASTRO-STEM[okeos]>"
+        }
+      ]
+    },
+    {
+      "folio": "f68v1",
+      "quire": "Quire I",
+      "diagram_architecture": "4-Quadrant Divided Star-Field Medallion",
+      "n_total_tokens": 97,
+      "counts_by_tier": {
+        "L_STAR_LABEL": {
+          "n_loci": 0,
+          "n_tokens": 0
+        },
+        "R_RADIAL_SPOKE": {
+          "n_loci": 8,
+          "n_tokens": 19
+        },
+        "C_CONCENTRIC_RING": {
+          "n_loci": 2,
+          "n_tokens": 78
+        },
+        "P_RIM_PROSE": {
+          "n_loci": 0,
+          "n_tokens": 0
+        }
+      },
+      "best_zodiac": {
+        "folio": "f72v2(L=?)",
+        "idf": 13.266,
+        "shared_stems": [
+          "oteot",
+          "otEEos",
+          "okEEo",
+          "Ceos"
+        ]
+      },
+      "best_herbal": {
+        "folio": "f52v(L=A)",
+        "idf": 10.304,
+        "shared_stems": [
+          "CtEE",
+          "ek",
+          "Ceos",
+          "ctho"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f102v2(L=A)",
+        "idf": 17.239,
+        "shared_stems": [
+          "okEEos",
+          "otEEos",
+          "teo",
+          "Cockh"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f76v(L=B)",
+        "idf": 8.097,
+        "shared_stems": [
+          "Set",
+          "Sok",
+          "Ces",
+          "ote"
+        ]
+      },
+      "best_starred": {
+        "folio": "f111r(L=B)",
+        "idf": 18.8,
+        "shared_stems": [
+          "oteodai",
+          "Set",
+          "EEs",
+          "teo"
+        ]
+      },
+      "star_labels": [],
+      "radial_spokes": [
+        {
+          "line": "3",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "dair . apeeety . dy",
+          "gloss": "dair <FROM-DEG[d-]+ASTRO-STEM[dai]> | apeeety <ASTRO-STEM[apEEt]:STAR-POS[-y]> | dy <FROM-DEG[d-]+ASTRO-STEM[dy]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "4",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "sair . aroy[s:r]er",
+          "gloss": "sair <NEXT-RAY[s-]+ASTRO-STEM[sai]> | aroy[s:r]er <ASTRO-STEM[aroyse]>"
+        },
+        {
+          "line": "5",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "oteeor . ara[n:?]y",
+          "gloss": "oteeor <STAR-NOM[o-]+ASTRO-STEM[otEE]:RAY-ESSENCE[-or/ar]> | ara[n:?]y <ASTRO-STEM[aran]:STAR-POS[-y]>"
+        },
+        {
+          "line": "6",
+          "loc": "@Ro",
+          "n_tokens": 1,
+          "eva": "okechdaral",
+          "gloss": "okechdaral <STAR-NOM[o-]+ASTRO-STEM[okeCdar]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "7",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "otol . ches . otaly",
+          "gloss": "otol <STAR-NOM[o-]+NOM-SPOKE[ot]:FLUID-HOUSE[-ol/al]> | ches <ASTRO-STEM[Ces]> | otaly <STAR-NOM[o-]+ASTRO-STEM[otal]:STAR-POS[-y]>"
+        },
+        {
+          "line": "8",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "okeey . chek . chekeys",
+          "gloss": "okeey <STAR-NOM[o-]+ASTRO-STEM[okEE]:STAR-POS[-y]> | chek <ASTRO-STEM[Cek]> | chekeys <ASTRO-STEM[Cekeys]>"
+        },
+        {
+          "line": "9",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "dar . shes . shokey",
+          "gloss": "dar <FROM-DEG[d-]+ASTRO-STEM[da]:RAY-ESSENCE[-or/ar]> | shes <ASTRO-STEM[Ses]> | shokey <ASTRO-STEM[Sok]:RISEN[-ey]>"
+        },
+        {
+          "line": "10",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "oteodain . sam",
+          "gloss": "oteodain <STAR-NOM[o-]+ASTRO-STEM[oteodai]> | sam <NEXT-RAY[s-]+ASTRO-STEM[sa]:RING-SEAL[-am]>"
+        }
+      ],
+      "concentric_rings": [
+        {
+          "line": "1",
+          "loc": "@Cc",
+          "n_tokens": 40,
+          "terminal_token": "dokeey",
+          "eva_preview": "shes . ol . keey . shes . chteey . sheely . shes . yee[g:j]",
+          "gloss_preview": "shes <ASTRO-STEM[Ses]> | ol <STAR-NOM[o-]+ASTRO-STEM[ol]:FLUID-HOUSE[-ol/al]> | keey <ASTRO-STEM[kEE]:STAR-POS[-y]> | shes <ASTRO-STEM[Ses]> | chteey <ASTRO-STEM[CtEE]:STAR-POS[-y]>"
+        },
+        {
+          "line": "2",
+          "loc": "@Cc",
+          "n_tokens": 38,
+          "terminal_token": "opain",
+          "eva_preview": "chear . s . oteey . dain . dycheckhy . oteeos . oteol . okeo[r:s]",
+          "gloss_preview": "chear <BENCH-DEGREE[che]:RAY-ESSENCE[-or/ar]> | s <NEXT-RAY[s-]+SEQ-ARC[s]> | oteey <STAR-NOM[o-]+ASTRO-STEM[otEE]:STAR-POS[-y]> | dain <FROM-DEG[d-]+ASTRO-STEM[dai]> | dycheckhy <FROM-DEG[d-]+ASTRO-STEM[dyCeckh]:STAR-POS[-y]>"
+        }
+      ],
+      "rim_prose": []
+    },
+    {
+      "folio": "f69r",
+      "quire": "Quire J",
+      "diagram_architecture": "17-Spoke Botanical-Pod / Trefoil Hub Wheel",
+      "n_total_tokens": 158,
+      "counts_by_tier": {
+        "L_STAR_LABEL": {
+          "n_loci": 22,
+          "n_tokens": 47
+        },
+        "R_RADIAL_SPOKE": {
+          "n_loci": 22,
+          "n_tokens": 66
+        },
+        "C_CONCENTRIC_RING": {
+          "n_loci": 1,
+          "n_tokens": 9
+        },
+        "P_RIM_PROSE": {
+          "n_loci": 4,
+          "n_tokens": 36
+        }
+      },
+      "best_zodiac": {
+        "folio": "f70v2(L=?)",
+        "idf": 23.256,
+        "shared_stems": [
+          "ykEEos",
+          "Coet",
+          "alo",
+          "oteos"
+        ]
+      },
+      "best_herbal": {
+        "folio": "f43v(L=B)",
+        "idf": 18.8,
+        "shared_stems": [
+          "ald",
+          "dol",
+          "odai",
+          "oteos"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f102v2(L=A)",
+        "idf": 20.522,
+        "shared_stems": [
+          "okEEos",
+          "okeos",
+          "oEEs",
+          "oko"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79v(L=B)",
+        "idf": 11.636,
+        "shared_stems": [
+          "ytEE",
+          "otal",
+          "dar",
+          "op"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114r(L=B)",
+        "idf": 28.886,
+        "shared_stems": [
+          "ed",
+          "otEEod",
+          "ald",
+          "dol"
+        ]
+      },
+      "star_labels": [
+        {
+          "line": "5",
+          "loc": "@L0",
+          "raw": "oteos",
+          "stem": "oteos",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oteos"
+          ],
+          "in_sections": "ZHPS",
+          "gloss": "oteos <STAR-NOM[o-]+ASTRO-STEM[oteos]>"
+        },
+        {
+          "line": "5",
+          "loc": "@L0",
+          "raw": "ch[o:?]p",
+          "stem": "Cop",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Cop"
+          ],
+          "in_sections": "HPS",
+          "gloss": "ch[o:?]p <ASTRO-STEM[Cop]>"
+        },
+        {
+          "line": "5",
+          "loc": "@L0",
+          "raw": "otaike",
+          "stem": "otaike",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "otai",
+            "ke"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "otaike <STAR-NOM[o-]+ASTRO-STEM[otaike]>"
+        },
+        {
+          "line": "6",
+          "loc": "&L0",
+          "raw": "ar",
+          "stem": "ar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ar"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "ar <ASTRO-STEM[ar]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "6",
+          "loc": "&L0",
+          "raw": "odair",
+          "stem": "odai",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "odai"
+          ],
+          "in_sections": "HPS",
+          "gloss": "odair <STAR-NOM[o-]+ASTRO-STEM[odai]>"
+        },
+        {
+          "line": "6",
+          "loc": "&L0",
+          "raw": "chtaly",
+          "stem": "Ctal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Ctal"
+          ],
+          "in_sections": "",
+          "gloss": "chtaly <ASTRO-STEM[Ctal]:STAR-POS[-y]>"
+        },
+        {
+          "line": "7",
+          "loc": "&L0",
+          "raw": "oto",
+          "stem": "oto",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oto"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "oto <STAR-NOM[o-]+ASTRO-STEM[oto]>"
+        },
+        {
+          "line": "7",
+          "loc": "&L0",
+          "raw": "dar",
+          "stem": "da",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "da"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "dar <FROM-DEG[d-]+ASTRO-STEM[da]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "7",
+          "loc": "&L0",
+          "raw": "archol",
+          "stem": "arC",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "arC"
+          ],
+          "in_sections": "",
+          "gloss": "archol <ASTRO-STEM[arC]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "8",
+          "loc": "&L0",
+          "raw": "okeey",
+          "stem": "okEE",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okEE"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "okeey <STAR-NOM[o-]+ASTRO-STEM[okEE]:STAR-POS[-y]>"
+        },
+        {
+          "line": "8",
+          "loc": "&L0",
+          "raw": "chey",
+          "stem": "Ce",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Ce"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "chey <BENCH-DEGREE[che]:RISEN[-ey]>"
+        },
+        {
+          "line": "8",
+          "loc": "&L0",
+          "raw": "dy",
+          "stem": "dy",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "dy"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "dy <FROM-DEG[d-]+ASTRO-STEM[dy]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "9",
+          "loc": "&L0",
+          "raw": "dcho",
+          "stem": "dCo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "dCo"
+          ],
+          "in_sections": "HP",
+          "gloss": "dcho <FROM-DEG[d-]+ASTRO-STEM[dCo]>"
+        },
+        {
+          "line": "9",
+          "loc": "&L0",
+          "raw": "char",
+          "stem": "Ca",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Ca"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "char <ASTRO-STEM[Ca]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "9",
+          "loc": "&L0",
+          "raw": "ar",
+          "stem": "ar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ar"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "ar <ASTRO-STEM[ar]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "10",
+          "loc": "&L0",
+          "raw": "ytal",
+          "stem": "yt",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yt"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "ytal <INIT-NODE[y-]+INIT-SPOKE[yt]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "10",
+          "loc": "&L0",
+          "raw": "air",
+          "stem": "ai",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ai"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "air <ASTRO-STEM[ai]>"
+        },
+        {
+          "line": "10",
+          "loc": "&L0",
+          "raw": "al",
+          "stem": "al",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "al"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "al <ASTRO-STEM[al]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "11",
+          "loc": "&L0",
+          "raw": "shy",
+          "stem": "Sy",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Sy"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "shy <ASTRO-STEM[Sy]:STAR-POS[-y]>"
+        },
+        {
+          "line": "11",
+          "loc": "&L0",
+          "raw": "chtairy",
+          "stem": "Ctair",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "Ct",
+            "air"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "chtairy <ASTRO-STEM[Ctair]:STAR-POS[-y]>"
+        },
+        {
+          "line": "12",
+          "loc": "&L0",
+          "raw": "yt",
+          "stem": "yt",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yt"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "yt <INIT-NODE[y-]+INIT-SPOKE[yt]>"
+        },
+        {
+          "line": "12",
+          "loc": "&L0",
+          "raw": "oetear",
+          "stem": "oete",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "oe",
+            "te"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "oetear <STAR-NOM[o-]+ASTRO-STEM[oete]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "13",
+          "loc": "&L0",
+          "raw": "ytey",
+          "stem": "yt",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yt"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "ytey <INIT-NODE[y-]+INIT-SPOKE[yt]:RISEN[-ey]>"
+        },
+        {
+          "line": "13",
+          "loc": "&L0",
+          "raw": "cholam",
+          "stem": "Col",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Col"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "cholam <ASTRO-STEM[Col]:RING-SEAL[-am]>"
+        },
+        {
+          "line": "14",
+          "loc": "&L0",
+          "raw": "dair",
+          "stem": "dai",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "dai"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "dair <FROM-DEG[d-]+ASTRO-STEM[dai]>"
+        },
+        {
+          "line": "14",
+          "loc": "&L0",
+          "raw": "ar",
+          "stem": "ar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ar"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "ar <ASTRO-STEM[ar]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "14",
+          "loc": "&L0",
+          "raw": "yteey",
+          "stem": "ytEE",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ytEE"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "yteey <INIT-NODE[y-]+ASTRO-STEM[ytEE]:STAR-POS[-y]>"
+        },
+        {
+          "line": "14",
+          "loc": "&L0",
+          "raw": "chdy",
+          "stem": "Cd",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Cd"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "chdy <ASTRO-STEM[Cd]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "15",
+          "loc": "&L0",
+          "raw": "okair",
+          "stem": "okai",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okai"
+          ],
+          "in_sections": "HPBS",
+          "gloss": "okair <STAR-NOM[o-]+ASTRO-STEM[okai]>"
+        },
+        {
+          "line": "15",
+          "loc": "&L0",
+          "raw": "os",
+          "stem": "os",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "os"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "os <STAR-NOM[o-]+ASTRO-STEM[os]>"
+        },
+        {
+          "line": "15",
+          "loc": "&L0",
+          "raw": "air",
+          "stem": "ai",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ai"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "air <ASTRO-STEM[ai]>"
+        },
+        {
+          "line": "16",
+          "loc": "&L0",
+          "raw": "chytos",
+          "stem": "Cytos",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "C",
+            "ytos"
+          ],
+          "in_sections": "HPBS",
+          "gloss": "chytos <ASTRO-STEM[Cytos]>"
+        },
+        {
+          "line": "16",
+          "loc": "&L0",
+          "raw": "[o:a]ly",
+          "stem": "ol",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ol"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "[o:a]ly <STAR-NOM[o-]+ASTRO-STEM[ol]:STAR-POS[-y]>"
+        },
+        {
+          "line": "17",
+          "loc": "&L0",
+          "raw": "chetar",
+          "stem": "Cet",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Cet"
+          ],
+          "in_sections": "ZHBS",
+          "gloss": "chetar <ASTRO-STEM[Cet]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "17",
+          "loc": "&L0",
+          "raw": "araly",
+          "stem": "aral",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "aral"
+          ],
+          "in_sections": "ZS",
+          "gloss": "araly <ASTRO-STEM[aral]:STAR-POS[-y]>"
+        },
+        {
+          "line": "18",
+          "loc": "&L0",
+          "raw": "dair",
+          "stem": "dai",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "dai"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "dair <FROM-DEG[d-]+ASTRO-STEM[dai]>"
+        },
+        {
+          "line": "18",
+          "loc": "&L0",
+          "raw": "alody",
+          "stem": "alo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "alo"
+          ],
+          "in_sections": "ZBS",
+          "gloss": "alody <ASTRO-STEM[alo]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "19",
+          "loc": "&L0",
+          "raw": "dal",
+          "stem": "da",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "da"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "dal <FROM-DEG[d-]+ASTRO-STEM[da]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "19",
+          "loc": "&L0",
+          "raw": "daiin",
+          "stem": "da",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "da"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "daiin <FROM-DEG[d-]+ASTRO-STEM[da]:DEGREE-COUNT[-aiin]>"
+        },
+        {
+          "line": "19",
+          "loc": "&L0",
+          "raw": "otalam",
+          "stem": "otal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otal"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "otalam <STAR-NOM[o-]+ASTRO-STEM[otal]:RING-SEAL[-am]>"
+        },
+        {
+          "line": "20",
+          "loc": "&L0",
+          "raw": "ytcheodytor",
+          "stem": "yt_Ceodyt",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "yt_Ceod",
+            "yt"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "ytcheodytor <INIT-NODE[y-]+ASTRO-STEM[yt_Ceodyt]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "44",
+          "loc": "@L0",
+          "raw": "y",
+          "stem": "y",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "y"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "y <INIT-NODE[y-]+ASTRO-STEM[y]:STAR-POS[-y]>"
+        },
+        {
+          "line": "45",
+          "loc": "@L0",
+          "raw": "d",
+          "stem": "d",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "d"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "d <FROM-DEG[d-]+BASE-NODE[d]>"
+        },
+        {
+          "line": "46",
+          "loc": "@L0",
+          "raw": "o",
+          "stem": "o",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "o"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "o <STAR-NOM[o-]+ASTRO-STEM[o]>"
+        },
+        {
+          "line": "47",
+          "loc": "@L0",
+          "raw": "l",
+          "stem": "l",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "l"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "l <ARC-FLOW[l-]+STREAM-ARC[l]>"
+        },
+        {
+          "line": "48",
+          "loc": "@L0",
+          "raw": "s",
+          "stem": "s",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "s"
+          ],
+          "in_sections": "ZHPBS",
+          "gloss": "s <NEXT-RAY[s-]+SEQ-ARC[s]>"
+        },
+        {
+          "line": "49",
+          "loc": "@L0",
+          "raw": "e[d:g]",
+          "stem": "ed",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ed"
+          ],
+          "in_sections": "S",
+          "gloss": "e[d:g] <ASTRO-STEM[ed]>"
+        }
+      ],
+      "radial_spokes": [
+        {
+          "line": "21",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "chodchy . chotal",
+          "gloss": "chodchy <ASTRO-STEM[CodC]:STAR-POS[-y]> | chotal <ASTRO-STEM[Cot]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "22",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "okeo . sho . qotam",
+          "gloss": "okeo <STAR-NOM[o-]+ASTRO-STEM[okeo]> | sho <ASTRO-STEM[So]> | qotam <ACT-RISE[qo-]+ASTRO-STEM[ta]:RING-SEAL[-am]>"
+        },
+        {
+          "line": "23",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "okeodar . oteody",
+          "gloss": "okeodar <STAR-NOM[o-]+ASTRO-STEM[okeod]:RAY-ESSENCE[-or/ar]> | oteody <STAR-NOM[o-]+ASTRO-STEM[oteo]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "24",
+          "loc": "@Ro",
+          "n_tokens": 4,
+          "eva": "ykeeos . al . dair . dar",
+          "gloss": "ykeeos <INIT-NODE[y-]+ASTRO-STEM[ykEEos]> | al <ASTRO-STEM[al]:FLUID-HOUSE[-ol/al]> | dair <FROM-DEG[d-]+ASTRO-STEM[dai]> | dar <FROM-DEG[d-]+ASTRO-STEM[da]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "25",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "ykeey . dal . oky",
+          "gloss": "ykeey <INIT-NODE[y-]+ASTRO-STEM[ykEE]:STAR-POS[-y]> | dal <FROM-DEG[d-]+ASTRO-STEM[da]:FLUID-HOUSE[-ol/al]> | oky <STAR-NOM[o-]+NOM-CALYX[ok]:STAR-POS[-y]>"
+        },
+        {
+          "line": "26",
+          "loc": "@Ro",
+          "n_tokens": 4,
+          "eva": "doly . dal . dar . chyky",
+          "gloss": "doly <FROM-DEG[d-]+ASTRO-STEM[dol]:STAR-POS[-y]> | dal <FROM-DEG[d-]+ASTRO-STEM[da]:FLUID-HOUSE[-ol/al]> | dar <FROM-DEG[d-]+ASTRO-STEM[da]:RAY-ESSENCE[-or/ar]> | chyky <ASTRO-STEM[Cyk]:STAR-POS[-y]>"
+        },
+        {
+          "line": "27",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "okchol . qokol . daly",
+          "gloss": "okchol <STAR-NOM[o-]+ASTRO-STEM[ok_C]:FLUID-HOUSE[-ol/al]> | qokol <ACT-RISE[qo-]+ASTRO-STEM[ko]:FLUID-HOUSE[-ol/al]> | daly <FROM-DEG[d-]+ASTRO-STEM[dal]:STAR-POS[-y]>"
+        },
+        {
+          "line": "28",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "ykechody . otar",
+          "gloss": "ykechody <INIT-NODE[y-]+ASTRO-STEM[ykeCo]:FIXED-STATE[-dy]> | otar <STAR-NOM[o-]+NOM-SPOKE[ot]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "29",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "dary . dar . aloly",
+          "gloss": "dary <FROM-DEG[d-]+ASTRO-STEM[dar]:STAR-POS[-y]> | dar <FROM-DEG[d-]+ASTRO-STEM[da]:RAY-ESSENCE[-or/ar]> | aloly <ASTRO-STEM[alol]:STAR-POS[-y]>"
+        },
+        {
+          "line": "30",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "okeeocthy . okar . ar",
+          "gloss": "okeeocthy <STAR-NOM[o-]+ASTRO-STEM[okEEocth]:STAR-POS[-y]> | okar <STAR-NOM[o-]+NOM-CALYX[ok]:RAY-ESSENCE[-or/ar]> | ar <ASTRO-STEM[ar]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "31",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "chey . ar . cthorary",
+          "gloss": "chey <BENCH-DEGREE[che]:RISEN[-ey]> | ar <ASTRO-STEM[ar]:RAY-ESSENCE[-or/ar]> | cthorary <ASTRO-STEM[cthorar]:STAR-POS[-y]>"
+        },
+        {
+          "line": "32",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "sair . chekey . sairam",
+          "gloss": "sair <NEXT-RAY[s-]+ASTRO-STEM[sai]> | chekey <ASTRO-STEM[Cek]:RISEN[-ey]> | sairam <NEXT-RAY[s-]+ASTRO-STEM[sair]:RING-SEAL[-am]>"
+        },
+        {
+          "line": "33",
+          "loc": "@Ro",
+          "n_tokens": 4,
+          "eva": "okeeo . dal . okar . a[r:s]",
+          "gloss": "okeeo <STAR-NOM[o-]+ASTRO-STEM[okEEo]> | dal <FROM-DEG[d-]+ASTRO-STEM[da]:FLUID-HOUSE[-ol/al]> | okar <STAR-NOM[o-]+NOM-CALYX[ok]:RAY-ESSENCE[-or/ar]> | a[r:s] <ASTRO-STEM[ar]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "34",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "sol . aiir . okeytam",
+          "gloss": "sol <NEXT-RAY[s-]+ASTRO-STEM[so]:FLUID-HOUSE[-ol/al]> | aiir <ASTRO-STEM[aii]> | okeytam <STAR-NOM[o-]+ASTRO-STEM[okeyt]:RING-SEAL[-am]>"
+        },
+        {
+          "line": "35",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "okeos . ar . ald",
+          "gloss": "okeos <STAR-NOM[o-]+ASTRO-STEM[okeos]> | ar <ASTRO-STEM[ar]:RAY-ESSENCE[-or/ar]> | ald <ASTRO-STEM[ald]>"
+        },
+        {
+          "line": "36",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "docheeo . kody . sar",
+          "gloss": "docheeo <FROM-DEG[d-]+ASTRO-STEM[doCEEo]> | kody <ASTRO-STEM[ko]:FIXED-STATE[-dy]> | sar <NEXT-RAY[s-]+ASTRO-STEM[sa]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "37",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "dchokey . shkchodyal",
+          "gloss": "dchokey <FROM-DEG[d-]+ASTRO-STEM[dCok]:RISEN[-ey]> | shkchodyal <ASTRO-STEM[Sk_Cody]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "38",
+          "loc": "@Ro",
+          "n_tokens": 4,
+          "eva": "chor . al . [a:y]lchy . ral",
+          "gloss": "chor <ASTRO-STEM[Co]:RAY-ESSENCE[-or/ar]> | al <ASTRO-STEM[al]:FLUID-HOUSE[-ol/al]> | [a:y]lchy <ASTRO-STEM[alC]:STAR-POS[-y]> | ral <ASTRO-STEM[ra]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "39",
+          "loc": "@Ro",
+          "n_tokens": 4,
+          "eva": "sair . al . okody . otedy",
+          "gloss": "sair <NEXT-RAY[s-]+ASTRO-STEM[sai]> | al <ASTRO-STEM[al]:FLUID-HOUSE[-ol/al]> | okody <STAR-NOM[o-]+ASTRO-STEM[oko]:FIXED-STATE[-dy]> | otedy <STAR-NOM[o-]+NOM-SPOKE[ot]:TRANSIT[-edy]>"
+        },
+        {
+          "line": "40",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "okody . cheody . sar",
+          "gloss": "okody <STAR-NOM[o-]+ASTRO-STEM[oko]:FIXED-STATE[-dy]> | cheody <ASTRO-STEM[Ceo]:FIXED-STATE[-dy]> | sar <NEXT-RAY[s-]+ASTRO-STEM[sa]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "41",
+          "loc": "@Ro",
+          "n_tokens": 2,
+          "eva": "chokeod . okeey",
+          "gloss": "chokeod <ASTRO-STEM[Cokeod]> | okeey <STAR-NOM[o-]+ASTRO-STEM[okEE]:STAR-POS[-y]>"
+        },
+        {
+          "line": "42",
+          "loc": "@Ro",
+          "n_tokens": 3,
+          "eva": "dkochy . cthody . dy",
+          "gloss": "dkochy <FROM-DEG[d-]+ASTRO-STEM[dkoC]:STAR-POS[-y]> | cthody <ASTRO-STEM[ctho]:FIXED-STATE[-dy]> | dy <FROM-DEG[d-]+ASTRO-STEM[dy]:FIXED-STATE[-dy]>"
+        }
+      ],
+      "concentric_rings": [
+        {
+          "line": "43",
+          "loc": "@Cc",
+          "n_tokens": 9,
+          "terminal_token": "alaiin",
+          "eva_preview": "okoeese . daiikey . oees . chear . yteey . oteeodar . ch[y:o] . okeeos",
+          "gloss_preview": "okoeese <STAR-NOM[o-]+ASTRO-STEM[okoEEse]> | daiikey <FROM-DEG[d-]+ASTRO-STEM[daiik]:RISEN[-ey]> | oees <STAR-NOM[o-]+ASTRO-STEM[oEEs]> | chear <BENCH-DEGREE[che]:RAY-ESSENCE[-or/ar]> | yteey <INIT-NODE[y-]+ASTRO-STEM[ytEE]:STAR-POS[-y]>"
+        }
+      ],
+      "rim_prose": [
+        {
+          "line": "1",
+          "loc": "@P0",
+          "n_tokens": 10,
+          "eva_preview": "tcheeos . shey . opaiin . chey . shey . qokeeyshdy . ol . ot",
+          "gloss_preview": "tcheeos <ASTRO-STEM[t_CEEos]> | shey <PLUME-DEGREE[she]:RISEN[-ey]> | opaiin <STAR-NOM[o-]+NOM-CUP[op]:DEGREE-COUNT[-aiin]> | chey <BENCH-DEGREE[che]:RISEN[-ey]> | shey <PLUME-DEGREE[she]:RISEN[-ey]>"
+        },
+        {
+          "line": "2",
+          "loc": "+P0",
+          "n_tokens": 10,
+          "eva_preview": "daiin . shey . okaiin . shkechy . sheey . tey . chy . cthy",
+          "gloss_preview": "daiin <FROM-DEG[d-]+ASTRO-STEM[da]:DEGREE-COUNT[-aiin]> | shey <PLUME-DEGREE[she]:RISEN[-ey]> | okaiin <STAR-NOM[o-]+NOM-CALYX[ok]:DEGREE-COUNT[-aiin]> | shkechy <ASTRO-STEM[SkeC]:STAR-POS[-y]> | sheey <ASTRO-STEM[SEE]:STAR-POS[-y]>"
+        },
+        {
+          "line": "3",
+          "loc": "+P0",
+          "n_tokens": 9,
+          "eva_preview": "sheos . aiin . {c@178;}ar . choetey . okal . chy . ykar . ytchey",
+          "gloss_preview": "sheos <ASTRO-STEM[Seos]> | aiin <ASTRO-STEM[aIIN]:DEGREE-COUNT[-aiin]> | {c@178;}ar <ASTRO-STEM[ca]:RAY-ESSENCE[-or/ar]> | choetey <ASTRO-STEM[Coet]:RISEN[-ey]> | okal <STAR-NOM[o-]+NOM-CALYX[ok]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "4",
+          "loc": "+P0",
+          "n_tokens": 7,
+          "eva_preview": "ycheoraiin . ychey . otaiin . okchor . yty . chkal . shol",
+          "gloss_preview": "ycheoraiin <INIT-NODE[y-]+ASTRO-STEM[yCeor]:DEGREE-COUNT[-aiin]> | ychey <INIT-NODE[y-]+ASTRO-STEM[yC]:RISEN[-ey]> | otaiin <STAR-NOM[o-]+NOM-SPOKE[ot]:DEGREE-COUNT[-aiin]> | okchor <STAR-NOM[o-]+ASTRO-STEM[ok_C]:RAY-ESSENCE[-or/ar]> | yty <INIT-NODE[y-]+INIT-SPOKE[yt]:STAR-POS[-y]>"
+        }
+      ]
+    },
+    {
+      "folio": "f69v",
+      "quire": "Quire J",
+      "diagram_architecture": "28-Spoke Lunar Mansion & Star-Ray Wheel",
+      "n_total_tokens": 140,
+      "counts_by_tier": {
+        "L_STAR_LABEL": {
+          "n_loci": 0,
+          "n_tokens": 0
+        },
+        "R_RADIAL_SPOKE": {
+          "n_loci": 28,
+          "n_tokens": 33
+        },
+        "C_CONCENTRIC_RING": {
+          "n_loci": 3,
+          "n_tokens": 107
+        },
+        "P_RIM_PROSE": {
+          "n_loci": 0,
+          "n_tokens": 0
+        }
+      },
+      "best_zodiac": {
+        "folio": "f71r(L=?)",
+        "idf": 21.371,
+        "shared_stems": [
+          "otald",
+          "okeod",
+          "Cs",
+          "oko"
+        ]
+      },
+      "best_herbal": {
+        "folio": "f43v(L=B)",
+        "idf": 13.789,
+        "shared_stems": [
+          "ykeo",
+          "odai",
+          "ockh",
+          "CEEs"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f102v1(L=A)",
+        "idf": 26.08,
+        "shared_stems": [
+          "saii",
+          "doii",
+          "ykEEo",
+          "odai"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f75r(L=B)",
+        "idf": 10.556,
+        "shared_stems": [
+          "okol",
+          "Cs",
+          "sar",
+          "oto"
+        ]
+      },
+      "best_starred": {
+        "folio": "f105v(L=B)",
+        "idf": 25.596,
+        "shared_stems": [
+          "okol",
+          "yto",
+          "ykEEo",
+          "otEEo"
+        ]
+      },
+      "star_labels": [],
+      "radial_spokes": [
+        {
+          "line": "4",
+          "loc": "@Ri",
+          "n_tokens": 2,
+          "eva": "okeey . sar",
+          "gloss": "okeey <STAR-NOM[o-]+ASTRO-STEM[okEE]:STAR-POS[-y]> | sar <NEXT-RAY[s-]+ASTRO-STEM[sa]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "5",
+          "loc": "@Ri",
+          "n_tokens": 2,
+          "eva": "okeo . dy",
+          "gloss": "okeo <STAR-NOM[o-]+ASTRO-STEM[okeo]> | dy <FROM-DEG[d-]+ASTRO-STEM[dy]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "6",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "ochoyk",
+          "gloss": "ochoyk <STAR-NOM[o-]+ASTRO-STEM[oCoyk]>"
+        },
+        {
+          "line": "7",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "ykeey",
+          "gloss": "ykeey <INIT-NODE[y-]+ASTRO-STEM[ykEE]:STAR-POS[-y]>"
+        },
+        {
+          "line": "8",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "ytory",
+          "gloss": "ytory <INIT-NODE[y-]+ASTRO-STEM[ytor]:STAR-POS[-y]>"
+        },
+        {
+          "line": "9",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "oeesy",
+          "gloss": "oeesy <STAR-NOM[o-]+ASTRO-STEM[oEEs]:STAR-POS[-y]>"
+        },
+        {
+          "line": "10",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "ytody",
+          "gloss": "ytody <INIT-NODE[y-]+ASTRO-STEM[yto]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "11",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "okody",
+          "gloss": "okody <STAR-NOM[o-]+ASTRO-STEM[oko]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "12",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "otody",
+          "gloss": "otody <STAR-NOM[o-]+ASTRO-STEM[oto]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "13",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "oke[a:o]l",
+          "gloss": "oke[a:o]l <STAR-NOM[o-]+ASTRO-STEM[oke]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "14",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "okeod",
+          "gloss": "okeod <STAR-NOM[o-]+ASTRO-STEM[okeod]>"
+        },
+        {
+          "line": "15",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "oteeys",
+          "gloss": "oteeys <STAR-NOM[o-]+ASTRO-STEM[otEEys]>"
+        },
+        {
+          "line": "16",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "oteol",
+          "gloss": "oteol <STAR-NOM[o-]+ASTRO-STEM[ote]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "17",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "ykeydy",
+          "gloss": "ykeydy <INIT-NODE[y-]+ASTRO-STEM[ykey]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "18",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "okeod",
+          "gloss": "okeod <STAR-NOM[o-]+ASTRO-STEM[okeod]>"
+        },
+        {
+          "line": "19",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "saral",
+          "gloss": "saral <NEXT-RAY[s-]+ASTRO-STEM[sar]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "20",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "saiir",
+          "gloss": "saiir <NEXT-RAY[s-]+ASTRO-STEM[saii]>"
+        },
+        {
+          "line": "21",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "okolar",
+          "gloss": "okolar <STAR-NOM[o-]+ASTRO-STEM[okol]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "22",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "ykeody",
+          "gloss": "ykeody <INIT-NODE[y-]+ASTRO-STEM[ykeo]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "23",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "sarydy",
+          "gloss": "sarydy <NEXT-RAY[s-]+ASTRO-STEM[sary]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "24",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "otchy",
+          "gloss": "otchy <STAR-NOM[o-]+ASTRO-STEM[ot_C]:STAR-POS[-y]>"
+        },
+        {
+          "line": "25",
+          "loc": "@Ri",
+          "n_tokens": 2,
+          "eva": "okeey . dy",
+          "gloss": "okeey <STAR-NOM[o-]+ASTRO-STEM[okEE]:STAR-POS[-y]> | dy <FROM-DEG[d-]+ASTRO-STEM[dy]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "26",
+          "loc": "@Ri",
+          "n_tokens": 2,
+          "eva": "okey . [d:g]",
+          "gloss": "okey <STAR-NOM[o-]+NOM-CALYX[ok]:RISEN[-ey]> | [d:g] <FROM-DEG[d-]+BASE-NODE[d]>"
+        },
+        {
+          "line": "27",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "okeod",
+          "gloss": "okeod <STAR-NOM[o-]+ASTRO-STEM[okeod]>"
+        },
+        {
+          "line": "28",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "okodchy",
+          "gloss": "okodchy <STAR-NOM[o-]+ASTRO-STEM[okodC]:STAR-POS[-y]>"
+        },
+        {
+          "line": "29",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "okeody",
+          "gloss": "okeody <STAR-NOM[o-]+ASTRO-STEM[okeo]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "30",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "okchey[s:r]",
+          "gloss": "okchey[s:r] <STAR-NOM[o-]+ASTRO-STEM[ok_Ceys]>"
+        },
+        {
+          "line": "31",
+          "loc": "@Ri",
+          "n_tokens": 2,
+          "eva": "oar . alys",
+          "gloss": "oar <STAR-NOM[o-]+ASTRO-STEM[oa]:RAY-ESSENCE[-or/ar]> | alys <ASTRO-STEM[alys]>"
+        }
+      ],
+      "concentric_rings": [
+        {
+          "line": "1",
+          "loc": "@Cc",
+          "n_tokens": 40,
+          "terminal_token": "char",
+          "eva_preview": "dair . cheyky . otaza . sar . ar . chykar . okoirsh . ar",
+          "gloss_preview": "dair <FROM-DEG[d-]+ASTRO-STEM[dai]> | cheyky <ASTRO-STEM[Ceyk]:STAR-POS[-y]> | otaza <STAR-NOM[o-]+ASTRO-STEM[otaza]> | sar <NEXT-RAY[s-]+ASTRO-STEM[sa]:RAY-ESSENCE[-or/ar]> | ar <ASTRO-STEM[ar]:RAY-ESSENCE[-or/ar]>"
+        },
+        {
+          "line": "2",
+          "loc": "@Cc",
+          "n_tokens": 38,
+          "terminal_token": "chey",
+          "eva_preview": "yka{c@204;} . chol . ykar . dal . ykady . [i:?]okeeor . cheey . choly",
+          "gloss_preview": "yka{c@204;} <INIT-NODE[y-]+ASTRO-STEM[ykac]> | chol <ASTRO-STEM[Co]:FLUID-HOUSE[-ol/al]> | ykar <INIT-NODE[y-]+INIT-CALYX[yk]:RAY-ESSENCE[-or/ar]> | dal <FROM-DEG[d-]+ASTRO-STEM[da]:FLUID-HOUSE[-ol/al]> | ykady <INIT-NODE[y-]+ASTRO-STEM[yka]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "3",
+          "loc": "@Cc",
+          "n_tokens": 29,
+          "terminal_token": "oteey",
+          "eva_preview": "doair . otaldal . dair . chdy . otoar . ar . chy . qoteor",
+          "gloss_preview": "doair <FROM-DEG[d-]+ASTRO-STEM[doai]> | otaldal <STAR-NOM[o-]+ASTRO-STEM[otald]:FLUID-HOUSE[-ol/al]> | dair <FROM-DEG[d-]+ASTRO-STEM[dai]> | chdy <ASTRO-STEM[Cd]:FIXED-STATE[-dy]> | otoar <STAR-NOM[o-]+ASTRO-STEM[oto]:RAY-ESSENCE[-or/ar]>"
+        }
+      ],
+      "rim_prose": []
+    },
+    {
+      "folio": "f70r1",
+      "quire": "Quire J",
+      "diagram_architecture": "Concentric 5-Ring Astro-Calendar Wheel",
+      "n_total_tokens": 112,
+      "counts_by_tier": {
+        "L_STAR_LABEL": {
+          "n_loci": 0,
+          "n_tokens": 0
+        },
+        "R_RADIAL_SPOKE": {
+          "n_loci": 15,
+          "n_tokens": 25
+        },
+        "C_CONCENTRIC_RING": {
+          "n_loci": 4,
+          "n_tokens": 87
+        },
+        "P_RIM_PROSE": {
+          "n_loci": 0,
+          "n_tokens": 0
+        }
+      },
+      "best_zodiac": {
+        "folio": "f73v(L=?)",
+        "idf": 20.009,
+        "shared_stems": [
+          "okeod",
+          "okeos",
+          "ykeo",
+          "oto"
+        ]
+      },
+      "best_herbal": {
+        "folio": "f43r(L=B)",
+        "idf": 13.307,
+        "shared_stems": [
+          "das",
+          "yteo",
+          "ykeo",
+          "Cet"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f99r(L=A)",
+        "idf": 14.742,
+        "shared_stems": [
+          "okes",
+          "yke",
+          "Col",
+          "oteo"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79r(L=B)",
+        "idf": 16.103,
+        "shared_stems": [
+          "das",
+          "sol",
+          "os",
+          "Col"
+        ]
+      },
+      "best_starred": {
+        "folio": "f112r(L=B)",
+        "idf": 27.235,
+        "shared_stems": [
+          "sairo",
+          "alai",
+          "sol",
+          "otEEd"
+        ]
+      },
+      "star_labels": [],
+      "radial_spokes": [
+        {
+          "line": "4",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "yfcheodly",
+          "gloss": "yfcheodly <INIT-NODE[y-]+ASTRO-STEM[yf_Ceodl]:STAR-POS[-y]>"
+        },
+        {
+          "line": "5",
+          "loc": "@Ri",
+          "n_tokens": 2,
+          "eva": "ytcheos . aly",
+          "gloss": "ytcheos <INIT-NODE[y-]+ASTRO-STEM[yt_Ceos]> | aly <ASTRO-STEM[al]:STAR-POS[-y]>"
+        },
+        {
+          "line": "6",
+          "loc": "@Ri",
+          "n_tokens": 3,
+          "eva": "otchy . dar . yky",
+          "gloss": "otchy <STAR-NOM[o-]+ASTRO-STEM[ot_C]:STAR-POS[-y]> | dar <FROM-DEG[d-]+ASTRO-STEM[da]:RAY-ESSENCE[-or/ar]> | yky <INIT-NODE[y-]+INIT-CALYX[yk]:STAR-POS[-y]>"
+        },
+        {
+          "line": "7",
+          "loc": "@Ri",
+          "n_tokens": 2,
+          "eva": "opar . ykchy",
+          "gloss": "opar <STAR-NOM[o-]+NOM-CUP[op]:RAY-ESSENCE[-or/ar]> | ykchy <INIT-NODE[y-]+ASTRO-STEM[yk_C]:STAR-POS[-y]>"
+        },
+        {
+          "line": "8",
+          "loc": "@Ri",
+          "n_tokens": 3,
+          "eva": "y . saikchy . dam",
+          "gloss": "y <INIT-NODE[y-]+ASTRO-STEM[y]:STAR-POS[-y]> | saikchy <NEXT-RAY[s-]+ASTRO-STEM[saik_C]:STAR-POS[-y]> | dam <FROM-DEG[d-]+ASTRO-STEM[da]:RING-SEAL[-am]>"
+        },
+        {
+          "line": "9",
+          "loc": "@Ri",
+          "n_tokens": 2,
+          "eva": "otair . oroldy",
+          "gloss": "otair <STAR-NOM[o-]+ASTRO-STEM[otai]> | oroldy <STAR-NOM[o-]+ASTRO-STEM[orol]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "10",
+          "loc": "@Ri",
+          "n_tokens": 2,
+          "eva": "dchal . daim",
+          "gloss": "dchal <FROM-DEG[d-]+ASTRO-STEM[dC]:FLUID-HOUSE[-ol/al]> | daim <FROM-DEG[d-]+ASTRO-STEM[dai]:RING-SEAL[-am]>"
+        },
+        {
+          "line": "11",
+          "loc": "@Ri",
+          "n_tokens": 2,
+          "eva": "yteody . sam",
+          "gloss": "yteody <INIT-NODE[y-]+ASTRO-STEM[yteo]:FIXED-STATE[-dy]> | sam <NEXT-RAY[s-]+ASTRO-STEM[sa]:RING-SEAL[-am]>"
+        },
+        {
+          "line": "12",
+          "loc": "@Ri",
+          "n_tokens": 2,
+          "eva": "okchy . daldy",
+          "gloss": "okchy <STAR-NOM[o-]+ASTRO-STEM[ok_C]:STAR-POS[-y]> | daldy <FROM-DEG[d-]+ASTRO-STEM[dal]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "14",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "ykeal",
+          "gloss": "ykeal <INIT-NODE[y-]+ASTRO-STEM[yke]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "15",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "okeody",
+          "gloss": "okeody <STAR-NOM[o-]+ASTRO-STEM[okeo]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "16",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "otody",
+          "gloss": "otody <STAR-NOM[o-]+ASTRO-STEM[oto]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "17",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "ypolol",
+          "gloss": "ypolol <INIT-NODE[y-]+ASTRO-STEM[ypol]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "18",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "chodal",
+          "gloss": "chodal <ASTRO-STEM[Cod]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "19",
+          "loc": "@Ri",
+          "n_tokens": 1,
+          "eva": "okasd",
+          "gloss": "okasd <STAR-NOM[o-]+ASTRO-STEM[okasd]>"
+        }
+      ],
+      "concentric_rings": [
+        {
+          "line": "1",
+          "loc": "@Cc",
+          "n_tokens": 2,
+          "terminal_token": "sasa",
+          "eva_preview": "???ooooooooolar . sasa",
+          "gloss_preview": "???ooooooooolar <STAR-NOM[o-]+ASTRO-STEM[oooooooool]:RAY-ESSENCE[-or/ar]> | sasa <NEXT-RAY[s-]+ASTRO-STEM[sasa]>"
+        },
+        {
+          "line": "2",
+          "loc": "@Cc",
+          "n_tokens": 34,
+          "terminal_token": "soly",
+          "eva_preview": "oteody . choekeeos . alair . dy . okol . okeey . dasy . ot[a:o]rsheod",
+          "gloss_preview": "oteody <STAR-NOM[o-]+ASTRO-STEM[oteo]:FIXED-STATE[-dy]> | choekeeos <ASTRO-STEM[CoekEEos]> | alair <ASTRO-STEM[alai]> | dy <FROM-DEG[d-]+ASTRO-STEM[dy]:FIXED-STATE[-dy]> | okol <STAR-NOM[o-]+NOM-CALYX[ok]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "3",
+          "loc": "+Cc",
+          "n_tokens": 35,
+          "terminal_token": "dy",
+          "eva_preview": "okeodar . chy . oteody . tochady . okchody . ytar . ytory . okeol",
+          "gloss_preview": "okeodar <STAR-NOM[o-]+ASTRO-STEM[okeod]:RAY-ESSENCE[-or/ar]> | chy <ASTRO-STEM[Cy]:STAR-POS[-y]> | oteody <STAR-NOM[o-]+ASTRO-STEM[oteo]:FIXED-STATE[-dy]> | tochady <ASTRO-STEM[toCa]:FIXED-STATE[-dy]> | okchody <STAR-NOM[o-]+ASTRO-STEM[ok_Co]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "13",
+          "loc": "@Cc",
+          "n_tokens": 16,
+          "terminal_token": "oteeed",
+          "eva_preview": "tshey . ol . oteey . ched . ar . oteos . cheor . alal",
+          "gloss_preview": "tshey <ASTRO-STEM[t_S]:RISEN[-ey]> | ol <STAR-NOM[o-]+ASTRO-STEM[ol]:FLUID-HOUSE[-ol/al]> | oteey <STAR-NOM[o-]+ASTRO-STEM[otEE]:STAR-POS[-y]> | ched <ASTRO-STEM[Ced]> | ar <ASTRO-STEM[ar]:RAY-ESSENCE[-or/ar]>"
+        }
+      ],
+      "rim_prose": []
+    },
+    {
+      "folio": "f70r2",
+      "quire": "Quire J",
+      "diagram_architecture": "Continuous Circular Rim & 10-Line Prose Companion",
+      "n_total_tokens": 246,
+      "counts_by_tier": {
+        "L_STAR_LABEL": {
+          "n_loci": 0,
+          "n_tokens": 0
+        },
+        "R_RADIAL_SPOKE": {
+          "n_loci": 0,
+          "n_tokens": 0
+        },
+        "C_CONCENTRIC_RING": {
+          "n_loci": 5,
+          "n_tokens": 145
+        },
+        "P_RIM_PROSE": {
+          "n_loci": 14,
+          "n_tokens": 101
+        }
+      },
+      "best_zodiac": {
+        "folio": "f71r(L=?)",
+        "idf": 27.693,
+        "shared_stems": [
+          "ockhh",
+          "Coek",
+          "ykEEs",
+          "otald"
+        ]
+      },
+      "best_herbal": {
+        "folio": "f43v(L=B)",
+        "idf": 15.674,
+        "shared_stems": [
+          "ald",
+          "EEs",
+          "oteod",
+          "Ct"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f99v(L=A)",
+        "idf": 20.764,
+        "shared_stems": [
+          "SokEE",
+          "ckhh",
+          "yo",
+          "okeC"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f76v(L=B)",
+        "idf": 16.234,
+        "shared_stems": [
+          "dl",
+          "la",
+          "Cl",
+          "Sok"
+        ]
+      },
+      "best_starred": {
+        "folio": "f105v(L=B)",
+        "idf": 46.009,
+        "shared_stems": [
+          "opaii",
+          "ockhh",
+          "SEEo",
+          "Ceot"
+        ]
+      },
+      "star_labels": [],
+      "radial_spokes": [],
+      "concentric_rings": [
+        {
+          "line": "15",
+          "loc": "@Cc",
+          "n_tokens": 38,
+          "terminal_token": "dar",
+          "eva_preview": "sal . air . am . shedy . chokal . cho{ikh}y . shokeey . choky",
+          "gloss_preview": "sal <NEXT-RAY[s-]+ASTRO-STEM[sa]:FLUID-HOUSE[-ol/al]> | air <ASTRO-STEM[ai]> | am <ASTRO-STEM[am]:RING-SEAL[-am]> | shedy <PLUME-DEGREE[she]:TRANSIT[-edy]> | chokal <ASTRO-STEM[Cok]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "16",
+          "loc": "+Cc",
+          "n_tokens": 32,
+          "terminal_token": "o{ckhh}",
+          "eva_preview": "otar . ar . chedal . oaral . aldaiin . ykeeedaiis . sheo . l",
+          "gloss_preview": "otar <STAR-NOM[o-]+NOM-SPOKE[ot]:RAY-ESSENCE[-or/ar]> | ar <ASTRO-STEM[ar]:RAY-ESSENCE[-or/ar]> | chedal <ASTRO-STEM[Ced]:FLUID-HOUSE[-ol/al]> | oaral <STAR-NOM[o-]+ASTRO-STEM[oar]:FLUID-HOUSE[-ol/al]> | aldaiin <ASTRO-STEM[ald]:DEGREE-COUNT[-aiin]>"
+        },
+        {
+          "line": "17",
+          "loc": "+Cc",
+          "n_tokens": 32,
+          "terminal_token": "dl",
+          "eva_preview": "oches . air . chese . ctheey . sheeody . shopcho . yteody . ykaldy",
+          "gloss_preview": "oches <STAR-NOM[o-]+ASTRO-STEM[oCes]> | air <ASTRO-STEM[ai]> | chese <ASTRO-STEM[Cese]> | ctheey <ASTRO-STEM[cthEE]:STAR-POS[-y]> | sheeody <ASTRO-STEM[SEEo]:FIXED-STATE[-dy]>"
+        },
+        {
+          "line": "18",
+          "loc": "+Cc",
+          "n_tokens": 33,
+          "terminal_token": "dy",
+          "eva_preview": "otoy . ar . arodchedy . cheocphey . oteeos . ees . cheal . sheeey",
+          "gloss_preview": "otoy <STAR-NOM[o-]+ASTRO-STEM[oto]:STAR-POS[-y]> | ar <ASTRO-STEM[ar]:RAY-ESSENCE[-or/ar]> | arodchedy <ASTRO-STEM[arodC]:TRANSIT[-edy]> | cheocphey <ASTRO-STEM[Ceocph]:RISEN[-ey]> | oteeos <STAR-NOM[o-]+ASTRO-STEM[otEEos]>"
+        },
+        {
+          "line": "19",
+          "loc": "@Cc",
+          "n_tokens": 10,
+          "terminal_token": "otcho[sh:ch]a",
+          "eva_preview": "oteesy . ol . chy . oteo . sal . ol . keey . oteol",
+          "gloss_preview": "oteesy <STAR-NOM[o-]+ASTRO-STEM[otEEs]:STAR-POS[-y]> | ol <STAR-NOM[o-]+ASTRO-STEM[ol]:FLUID-HOUSE[-ol/al]> | chy <ASTRO-STEM[Cy]:STAR-POS[-y]> | oteo <STAR-NOM[o-]+ASTRO-STEM[oteo]> | sal <NEXT-RAY[s-]+ASTRO-STEM[sa]:FLUID-HOUSE[-ol/al]>"
+        }
+      ],
+      "rim_prose": [
+        {
+          "line": "1",
+          "loc": "@P1",
+          "n_tokens": 10,
+          "eva_preview": "otchey . sheol . chkey . shep . al . r . ar . chly",
+          "gloss_preview": "otchey <STAR-NOM[o-]+ASTRO-STEM[ot_C]:RISEN[-ey]> | sheol <PLUME-DEGREE[she]:FLUID-HOUSE[-ol/al]> | chkey <ASTRO-STEM[Ck]:RISEN[-ey]> | shep <ASTRO-STEM[Sep]> | al <ASTRO-STEM[al]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "2",
+          "loc": "+P1",
+          "n_tokens": 9,
+          "eva_preview": "dair . cheey . s . cheotey . dshy . dam . chchet . al",
+          "gloss_preview": "dair <FROM-DEG[d-]+ASTRO-STEM[dai]> | cheey <ASTRO-STEM[CEE]:STAR-POS[-y]> | s <NEXT-RAY[s-]+SEQ-ARC[s]> | cheotey <ASTRO-STEM[Ceot]:RISEN[-ey]> | dshy <FROM-DEG[d-]+ASTRO-STEM[dS]:STAR-POS[-y]>"
+        },
+        {
+          "line": "3",
+          "loc": "+P1",
+          "n_tokens": 10,
+          "eva_preview": "ykeeo . y . s . ald . shey . cthy . shekey . qokal",
+          "gloss_preview": "ykeeo <INIT-NODE[y-]+ASTRO-STEM[ykEEo]> | y <INIT-NODE[y-]+ASTRO-STEM[y]:STAR-POS[-y]> | s <NEXT-RAY[s-]+SEQ-ARC[s]> | ald <ASTRO-STEM[ald]> | shey <PLUME-DEGREE[she]:RISEN[-ey]>"
+        },
+        {
+          "line": "4",
+          "loc": "+P1",
+          "n_tokens": 8,
+          "eva_preview": "daiin . okeey . shoaiin . {ckhh}ey . otal . shshy . tal . dam",
+          "gloss_preview": "daiin <FROM-DEG[d-]+ASTRO-STEM[da]:DEGREE-COUNT[-aiin]> | okeey <STAR-NOM[o-]+ASTRO-STEM[okEE]:STAR-POS[-y]> | shoaiin <ASTRO-STEM[So]:DEGREE-COUNT[-aiin]> | {ckhh}ey <ASTRO-STEM[ckhh]:RISEN[-ey]> | otal <STAR-NOM[o-]+NOM-SPOKE[ot]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "5",
+          "loc": "+P1",
+          "n_tokens": 8,
+          "eva_preview": "tal . cheeog . dal . chcthy . qotal . ddl[a:o]r . chal . dal",
+          "gloss_preview": "tal <ASTRO-STEM[ta]:FLUID-HOUSE[-ol/al]> | cheeog <ASTRO-STEM[CEEog]> | dal <FROM-DEG[d-]+ASTRO-STEM[da]:FLUID-HOUSE[-ol/al]> | chcthy <ASTRO-STEM[Ccth]:STAR-POS[-y]> | qotal <ACT-RISE[qo-]+ASTRO-STEM[ta]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "6",
+          "loc": "+P1",
+          "n_tokens": 8,
+          "eva_preview": "ytar . ar . al . yol . al . aloees . ytaiir . otaldal",
+          "gloss_preview": "ytar <INIT-NODE[y-]+INIT-SPOKE[yt]:RAY-ESSENCE[-or/ar]> | ar <ASTRO-STEM[ar]:RAY-ESSENCE[-or/ar]> | al <ASTRO-STEM[al]:FLUID-HOUSE[-ol/al]> | yol <INIT-NODE[y-]+ASTRO-STEM[yo]:FLUID-HOUSE[-ol/al]> | al <ASTRO-STEM[al]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "7",
+          "loc": "+P1",
+          "n_tokens": 7,
+          "eva_preview": "daiin . daiin . she . tal . qokal . chol{ckhh}y . dy",
+          "gloss_preview": "daiin <FROM-DEG[d-]+ASTRO-STEM[da]:DEGREE-COUNT[-aiin]> | daiin <FROM-DEG[d-]+ASTRO-STEM[da]:DEGREE-COUNT[-aiin]> | she <PLUME-DEGREE[she]> | tal <ASTRO-STEM[ta]:FLUID-HOUSE[-ol/al]> | qokal <ACT-RISE[qo-]+ASTRO-STEM[ka]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "8",
+          "loc": "+P1",
+          "n_tokens": 6,
+          "eva_preview": "ytals . alal . dalam . dal . cthol . oparam",
+          "gloss_preview": "ytals <INIT-NODE[y-]+ASTRO-STEM[ytals]> | alal <ASTRO-STEM[al]:FLUID-HOUSE[-ol/al]> | dalam <FROM-DEG[d-]+ASTRO-STEM[dal]:RING-SEAL[-am]> | dal <FROM-DEG[d-]+ASTRO-STEM[da]:FLUID-HOUSE[-ol/al]> | cthol <ASTRO-STEM[cth]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "9",
+          "loc": "+P1",
+          "n_tokens": 6,
+          "eva_preview": "dolshol . shol . shol . sho{cthh}y . dalal . y",
+          "gloss_preview": "dolshol <FROM-DEG[d-]+ASTRO-STEM[dolS]:FLUID-HOUSE[-ol/al]> | shol <ASTRO-STEM[So]:FLUID-HOUSE[-ol/al]> | shol <ASTRO-STEM[So]:FLUID-HOUSE[-ol/al]> | sho{cthh}y <ASTRO-STEM[Socthh]:STAR-POS[-y]> | dalal <FROM-DEG[d-]+ASTRO-STEM[dal]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "10",
+          "loc": "+P1",
+          "n_tokens": 6,
+          "eva_preview": "shokal . chol . kshody . tol . cheey . okal",
+          "gloss_preview": "shokal <ASTRO-STEM[Sok]:FLUID-HOUSE[-ol/al]> | chol <ASTRO-STEM[Co]:FLUID-HOUSE[-ol/al]> | kshody <ASTRO-STEM[k_So]:FIXED-STATE[-dy]> | tol <ASTRO-STEM[to]:FLUID-HOUSE[-ol/al]> | cheey <ASTRO-STEM[CEE]:STAR-POS[-y]>"
+        },
+        {
+          "line": "11",
+          "loc": "+P1",
+          "n_tokens": 5,
+          "eva_preview": "daiin . chotal . qokal . chol . chotals",
+          "gloss_preview": "daiin <FROM-DEG[d-]+ASTRO-STEM[da]:DEGREE-COUNT[-aiin]> | chotal <ASTRO-STEM[Cot]:FLUID-HOUSE[-ol/al]> | qokal <ACT-RISE[qo-]+ASTRO-STEM[ka]:FLUID-HOUSE[-ol/al]> | chol <ASTRO-STEM[Co]:FLUID-HOUSE[-ol/al]> | chotals <ASTRO-STEM[Cotals]>"
+        },
+        {
+          "line": "12",
+          "loc": "+P1",
+          "n_tokens": 6,
+          "eva_preview": "qokal . shkal . dal . shy . qokal . chdy",
+          "gloss_preview": "qokal <ACT-RISE[qo-]+ASTRO-STEM[ka]:FLUID-HOUSE[-ol/al]> | shkal <ASTRO-STEM[Sk]:FLUID-HOUSE[-ol/al]> | dal <FROM-DEG[d-]+ASTRO-STEM[da]:FLUID-HOUSE[-ol/al]> | shy <ASTRO-STEM[Sy]:STAR-POS[-y]> | qokal <ACT-RISE[qo-]+ASTRO-STEM[ka]:FLUID-HOUSE[-ol/al]>"
+        },
+        {
+          "line": "13",
+          "loc": "+P1",
+          "n_tokens": 7,
+          "eva_preview": "qotal . che . y . key . okechy . chdy . cham",
+          "gloss_preview": "qotal <ACT-RISE[qo-]+ASTRO-STEM[ta]:FLUID-HOUSE[-ol/al]> | che <BENCH-DEGREE[che]> | y <INIT-NODE[y-]+ASTRO-STEM[y]:STAR-POS[-y]> | key <HEATED-RAY[ke]:RISEN[-ey]> | okechy <STAR-NOM[o-]+ASTRO-STEM[okeC]:STAR-POS[-y]>"
+        },
+        {
+          "line": "14",
+          "loc": "+P1",
+          "n_tokens": 5,
+          "eva_preview": "okaiin . ch{cthh}y . s . or . ary",
+          "gloss_preview": "okaiin <STAR-NOM[o-]+NOM-CALYX[ok]:DEGREE-COUNT[-aiin]> | ch{cthh}y <ASTRO-STEM[Ccthh]:STAR-POS[-y]> | s <NEXT-RAY[s-]+SEQ-ARC[s]> | or <STAR-NOM[o-]+ASTRO-STEM[or]:RAY-ESSENCE[-or/ar]> | ary <ASTRO-STEM[ar]:STAR-POS[-y]>"
+        }
+      ]
+    }
+  ]
+}

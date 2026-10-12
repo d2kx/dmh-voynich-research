@@ -826,6 +826,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 134. Complete 14-Folio Astronomical & Cosmological Foldout (`f67r1–f70r2`, `Quires I & J`, Scribe 4 `$H=4`) Translator — `100.00%` (`208 / 208`) Star-Label & `99.71%` (`348 / 349`) Radial-Spoke Stem Resolution and the 4-Tier `@L -> @R -> @C -> @P` Gradient (`Attack 125`)
+- **`100.00%` (`208 / 208`) Star-Label & `99.71%` (`348 / 349`) Radial-Spoke Stem Resolution (`pages/f67v2_four_corner_cosmological_diagram_enh.png`, `pages/f68r3_pleiades_and_four_quadrant_moon_enh.png`)**: Resolves `208 / 208` (`100.00%`) `@L` star/sector labels and `348 / 349` (`99.71%`) `@R` radial spoke tokens across `f67r1–f70r2` into Non-Astronomical Corpus Stems, and proves the strict 4-tier `@L -> @R -> @C -> @P` morphological gradient (`mean length 5.51 -> 5.34 -> 5.13 -> 4.98 chars`, `o- 41.35% -> 34.96% -> 32.81% -> 19.41%`, `-aiin 2.88% -> 4.81% -> 10.30%`, `qo- 0.48% -> 5.54%`).
+
+---
+
+### 135. Complete 95-Folio Currier A Herbal (`$I=H, $L=A`) Monograph Translator, the Three-Stratum Botanical-to-Apothecary Progression (`1.64×` Pharmaceutical IDF Surge in `Quires O & Q`, $z = +4.15$), and the Fixed-Scribe Sheet-Tier Law (`Attack 126`)
+- **`1.64×` Apothecary-Adjacent (`Quires O & Q`) Pharmaceutical IDF Surge ($z = +4.15$) & Fixed-Scribe Sheet-Depth Gradient**: Translates all `95` Currier A Herbal Monographs (`f1v–f96v`), proving that Stratum III (`Quires O & Q`) surges `+55.1%` in unique botanical stems (`40.50` vs. `26.11`), `1.64×` in Pharmaceutical Routing IDF (`43.055` vs. `26.248`, $z = +4.15$), and `1.58×` in Total Clinical `PBS` IDF (`65.268` vs. `41.190`), while even holding Scribe 1 (`$H=1, $L=A`) fixed across `Quires A–G` (`n=85`), every variable grades monotonically from `$B=1` Outer Wrapper to `$B=4` Inner Centerfold (`tokens 97.00 -> 84.75 -> 75.46`, `stems 32.11 -> 25.73 -> 23.58`, `qo- 7.58% -> 8.64% -> 10.91%`, `-aiin 12.74% -> 14.33% -> 15.51%`, `PBS IDF 49.660 -> 42.363 -> 35.672`).
+
+---
+
+### 136. Complete 285-Recipe Quire 20 (`f103r–f116r`, `$I=S`) Starred Clinical Recipe Master Catalogue & the Three-Shell (`$B=1..6`) Nested Compounding Law ($z = +5.22$ Centerfold Length, $z = +3.88$ `HPB` Hub IDF, $z = +6.58$ Mid-Shell `-aiin` Dosing Surge, `Attack 127`)
+- **Three-Shell Concentric Formulary Architecture of `Quire 20` (`285` Starred Recipes)**: Proves that `Quire 20` (`f103r–f116r`) partitions into **`OUTER_SHELL ($B=1,2)` Active Boiling Decoctions (`20.42% qo-`, `Verb:Dose = 1.324`)**, **`MID_SHELL ($B=3,4)` Stoichiometric Measured-Dose Prescriptions (`17.03% -aiin` vs. `13.06%` null, $z = +6.58$, `Verb:Dose = 0.684`)**, and **`INNERMOST_CENTERFOLD ($B=6: f108/f111)` Long Polypharmacy Master Compilations (`64.74` words/recipe vs. `34.49` rest = `1.88×` lift, $z = +5.22$; `36.878` `HPB` IDF, $z = +3.88$; `22.02% -edy/-eedy`)**.
+
+---
+
+### 137. The Complete 14-Folio Astronomical Foldout, 95-Folio Currier A Herbal & 285-Recipe Quire 20 Master Compendium ([`notes/ASTRONOMICAL_HERBAL_A_AND_QUIRE20_MASTER_COMPENDIUM.md`](notes/ASTRONOMICAL_HERBAL_A_AND_QUIRE20_MASTER_COMPENDIUM.md), `Attack 128`)
+- **Complete 14-Folio Astronomical, 95-Folio Currier A Herbal & 285-Recipe Quire 20 Master Compendium ([`notes/ASTRONOMICAL_HERBAL_A_AND_QUIRE20_MASTER_COMPENDIUM.md`](notes/ASTRONOMICAL_HERBAL_A_AND_QUIRE20_MASTER_COMPENDIUM.md))**: Synthesizes the 14-Folio Astronomical Foldout Translator (`Attack 125`), the 95-Folio Currier A Herbal Monograph Translator (`Attack 126`), and the 285-Recipe Quire 20 Master Catalogue (`Attack 127`).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -981,6 +1001,11 @@ python tools/attack121_twenty_quire_codicological_sheet_position_law.py
 python tools/attack122_currier_b_32herbal_monograph_translator.py
 python tools/attack123_zodiac_12medallion_nymph_and_ring_translator.py
 python tools/attack124_currier_b_herbal_and_zodiac_nymph_compendium.py
+python tools/attack125_astronomical_14folio_spoke_ring_and_star_translator.py
+python tools/attack126_currier_a_95herbal_monograph_translator.py
+python tools/attack127_quire20_292recipe_master_catalogue_and_bifolio_law.py
+python tools/attack128_astronomical_herbal_a_and_quire20_compendium.py
 ```
+
 
 
