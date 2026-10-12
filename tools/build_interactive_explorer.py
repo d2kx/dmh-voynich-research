@@ -1107,6 +1107,70 @@ WALKTHROUGH_FOLIOS = [
                 "english": "[f105r Header Formula]: Begin the prepared root compound (`par arody`), bathe thoroughly (`shedeeey`), and decoct (`qopchedy`); [f116r Penultimate Rhyming Dyad]: Clinical compound pair (`cthan cphan`), then boil thoroughly in the infused process (`qokeedy otchedey`)."
             }
         ]
+    },
+    {
+        "folio": "f71v & f72r1",
+        "title": "Split-Sign Taurus Medallions (`may`): `(10° + 5°) + (10° + 5°) = 30°` Decan Law (`4/4 = 100%`), Barrel-to-Naked Hinge ($z = +15.98$) & `09:00` Vellum Hole",
+        "section": "Zodiac Medallions (`$I=Z, $Q=K, $L=A`, Scribe 4)",
+        "pdf_page": 131,
+        "image": "../pages/f71v_taurus_manger_medallion_enh.png",
+        "secondary_image": "../pages/f72r1_taurus_dark_bull_hole_enh.png",
+        "summary": "On `p131`, Taurus I (`f71v`, white bull at woven manger) and Taurus II (`f72r1`, dark bull beside foliage) divide their 15 `@Lz` degree-nymphs into `10` Inner Full-Circle Nymphs (`1` full `10°` Decan) + `5` Outer Top-Arc Nymphs (`1/2` Decan = `5°`), reconciling two 15° half-signs with three 10° Decans (`10° + [5°+5°] + 10° = 30°`, `4/4 = 100%` across Aries & Taurus, `Attack 205`). On `f72r1`, `5/10` inner nymphs are barreled vs `0/5` (`0%`) outer top-arc nymphs (`100%` naked, `z = +15.98`), while a circular vellum hole at `09:00` (mirroring `f72v1` Libra's `03:00` hole) forces `<f72r1.6,@Lz> otal.kshy` below the defect.",
+        "clauses": [
+            {
+                "locus": "f71v.7 & f71v.15 (`12:00` Inner/Outer Cusp Leaders) + f72r1.6 (`09:00` Hole Label) + f72r1.15 (`12:00` Naked Cusp)",
+                "eva": "otar ar aly char aiin otal kshy otaiin okal otedy",
+                "english": "[f71v Taurus I Cusp Leaders]: Primary decan root-star degree (`otar ar aly`) and measured outer-arc cusp (`char aiin`); [f72r1 Taurus II Hole & Naked Cusp]: Guarded sector degree below the vellum hole (`otal kshy`), outer-arc cusp measure (`otaiin`), and prepared degree (`okal otedy`)."
+            }
+        ]
+    },
+    {
+        "folio": "f68v3, f68v2 & f68v1",
+        "title": "Unfolded 3-Panel Astronomical Verso (`p125`): 8-Spoke & 6-Spoke Star Wheels, 4-Quadrant Moon Wheel, `71.13%` Header Echo & `66.12%` Recto-Verso Continuity",
+        "section": "Astronomical Unfolded Sheet (`$I=A, $Q=I, $L=A`, Scribe 4)",
+        "pdf_page": 125,
+        "image": "../pages/f68v1_f68v2_astro_sectors_moon_enh.png",
+        "secondary_image": "",
+        "summary": "Unfolding `p125` reveals the 3-panel reverse of the `f68r` Pleiades sheet (`425` words): `f68v3` (left, 8 spiral spokes & 8 star sectors), `f68v2` (center, 6 radial spokes & 6 star sectors), and `f68v1` (right, 4-quadrant Moon phase wheel). Across `p125`, `71.13%` (`69/97`) of top `@P` paragraph tokens share their root stem with the wheel rings/spokes/star-labels below (`3.38×` `qo-` verb surge in `@P`), and `66.12%` of token stems echo `f68r1–r3` on the recto (`44` shared stems, `1.16×` lift, `Attack 205`).",
+        "clauses": [
+            {
+                "locus": "f68v3.1, f68v2.1 & f68v1.1 (`@P0` Header Openers) + Wheel Sector Labels (`@Ls`)",
+                "eva": "tchoep cheor pchodar opafal tchodar shecthedy dary okoldy octholey okeodar",
+                "english": "[3-Panel `@P0` Header Openers]: Infused oil canon (`tchoep cheor`), compounded root header (`pchodar opafal`), and lunar phase canon (`tchodar shecthedy`); [Sector Star Labels]: Root-star degree (`dary okoldy`), divided ring star (`octholey`), and lunar quadrant (`okeodar`)."
+            }
+        ]
+    },
+    {
+        "folio": "f77v & f83v",
+        "title": "5-Loop Intestinal/Condenser Coil (`okalo`, `f77v` `81.82%` Local Echo), Crossed Bladder Retorts (`f83v` `100%` Echo) & Same-Leaf ($z=+6.31$) / Facing ($z=+5.18$) Continuity",
+        "section": "Balneological / Biological (`$I=B, $Q=M, $L=B`, Scribe 2)",
+        "pdf_page": 141,
+        "image": "../pages/f77v_balneo_four_organ_tubes_enh.png",
+        "secondary_image": "../pages/f83v_balneo_two_tier_nymph_gallery_enh.png",
+        "summary": "On `f77v` (above), 4 vertical organ/condenser conduits—including the 5-loop serpentine coil `<f77v.13,@Lt> okalo` and a bather holding a fluted goblet (`okol, dar, chdy`)—echo `81.82%` (`9/11`) of their stems inside `f77v`'s own prose (`90.91%` in Balneo). On `f83v` (below), crossed green kidney/bladder retorts (`okyd, otal, sheol, okal, qokl`) and a central Y-tube (`otedy, dchedy`) achieve `100.0%` (`7/7`) Balneo stem echo (`84.13%` across all `126` Balneo callouts, alongside codex-wide Same-Leaf `z = +6.31` & Facing-Opening `z = +5.18` continuity, `Attack 206`).",
+        "clauses": [
+            {
+                "locus": "f77v.1–16 (4 Vertical Organ/Condenser Conduits) + f83v.1–7 (Crossed Bladder Retorts & Y-Tube)",
+                "eva": "otedar okedy qokedy olol otaldy olkedy okalo okol dar chdy sheol okal otedy dchedy",
+                "english": "[f77v 4 Conduits]: Floral calyx tube (`otedar okedy qokedy`), bulbous ampulla (`olol otaldy olkedy`), 5-loop serpentine coil (`okalo`), and goblet bath (`okol dar chdy`); [f83v Retorts & Y-Tube]: Crossed bladder retorts (`sheol okal`) and central Y-tube (`otedy dchedy`)."
+            }
+        ]
+    },
+    {
+        "folio": "f89r1–r2, f100v–101r & f34r/f39r",
+        "title": "Unfolded Pharma Sheets `p163` (Numeral `'48'`) & `p179` (`6.00×` Cross-Fold Echo, Nominal Absorption $z=-3.54$) + Currier B Herbal Clinical Bridge (`f34r/f39r`, $z=+4.75$)",
+        "section": "Pharmaceutical (`$I=P`, Quires 15 & 19) & Currier B Herbal (`$I=H`, Quires 5 & 6)",
+        "pdf_page": 179,
+        "image": "../pages/f101r_unfolded_pharma_compendium_enh.png",
+        "secondary_image": "../pages/f34r_currier_b_polychrome_herbal_enh.png",
+        "summary": "On `p179` (above, `f100v | f101r`), `42.86%` (`6/14`) of `f100v`'s left-column plant labels (`okam, sory, choldy, opakam, opor, otar`) echo across the vertical fold inside `f101r`'s wide prose (`6.00×` jump over `7.14%` self-echo!), while `f101r`'s 28 unlabeled plants drive `55.07%` `o-/d-/s-` nominal absorption (`qo-` suppressed `2.67×`, `z = -3.54`, `Attack 207`). Below (`f34r`, 3-headed polychrome thistle with `20` `<->` intrusions), the `32` Currier B Herbal folios surge `5.82×` in `-edy/-eey` (`16.18%` vs `2.78%` in Currier A), bridging directly into Balneological (`z = +4.75`) and Quire 20 Recipes (`z = +3.68`, `89.81%` on `f39r`, `Attack 208`).",
+        "clauses": [
+            {
+                "locus": "f100v -> f101r (Cross-Fold Echoes) + f89r1.15 (`'48'` + `korary`) + f34r.1 & f39r.1 (Currier B Herbal Bridge)",
+                "eva": "okam sory choldy opakam opor otar korary fataiin okor qokeedy tedcheo pchedar",
+                "english": "[p179 Cross-Fold Pharma Echoes]: Left-column shelf roots echoed in wide right prose (`okam sory choldy opakam opor otar`) and numeral `'48'` paragraph (`korary`); [Currier B Herbal Bridge]: Polychrome thistle opener (`fataiin okor qokeedy`) and stolon monograph (`tedcheo pchedar`)."
+            }
+        ]
     }
 ]
 
@@ -1174,6 +1238,10 @@ def main():
     a202_data = json.loads((ROOT / "data" / "attack202_pharmaceutical_albarelli_registers_and_recipe_bridge.json").read_text(encoding="utf-8"))
     a203_data = json.loads((ROOT / "data" / "attack203_quire20_star_point_morphology_and_formulary_clusters.json").read_text(encoding="utf-8"))
     a204_data = json.loads((ROOT / "data" / "attack204_wave48_master_compendium.json").read_text(encoding="utf-8"))
+    a205_data = json.loads((ROOT / "data" / "attack205_taurus_split_barrel_transition_and_f68v_sectors.json").read_text(encoding="utf-8"))
+    a206_data = json.loads((ROOT / "data" / "attack206_balneo_f77v_f83v_conduits_and_recto_verso_flow.json").read_text(encoding="utf-8"))
+    a207_data = json.loads((ROOT / "data" / "attack207_pharma_unfolded_sheets_f89_f101_and_shelf_row_alignment.json").read_text(encoding="utf-8"))
+    a208_data = json.loads((ROOT / "data" / "attack208_currier_b_herbal_clinical_bridge_and_wave49_compendium.json").read_text(encoding="utf-8"))
 
     rosettes_panels = []
     for f_id, prof in rosettes_data["folio_profiles"].items():
@@ -1246,7 +1314,7 @@ def main():
                 "degree_loci": 15,
                 "degree_words": 23,
                 "decan_calibration": "15° (Half-Sign)",
-                "barreled_bathers": "15 / 15 (100%)",
+                "barreled_bathers": "5 / 15 (10 Inner / 5 Outer Hinge)",
                 "ch_sh_rate": "26.67% (28/105)",
                 "ot_bias": "1.50×"
             },
@@ -1286,6 +1354,11 @@ def main():
         "wave48_lc_vs_lf": a202_data["lc_vs_lf_analysis"],
         "wave48_star_morphology": a203_data["star_point_morphology"]["points_summary"],
         "wave48_star_parity": a203_data["star_parity_alternation"]["folio_alternation_breakdown"],
+        "wave49_split_signs": a205_data["split_zodiac_analysis"]["split_sign_profiles"],
+        "wave49_barrel_census": a205_data["split_zodiac_analysis"]["barrel_transition_table"],
+        "wave49_balneo_callouts": a206_data["balneo_label_and_f77v_f83v_analysis"]["f77v_label_details"] + a206_data["balneo_label_and_f77v_f83v_analysis"]["f83v_label_details"],
+        "wave49_pharma_folios": a207_data["pharma_sheets_analysis"]["folio_profiles"],
+        "wave49_currier_b_herbal": a208_data["currier_b_herbal_analysis"]["all_32_currier_b_herbal_folios"],
     }, ensure_ascii=False)
 
     html = f"""<!DOCTYPE html>
@@ -1688,8 +1761,8 @@ def main():
       <p>Click any word token on any page to peel apart its Prefix + Root Stem + Suffix in plain English</p>
     </div>
     <nav class="nav-tabs" aria-label="Explorer Views">
-      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (66)</button>
-      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (75)</button>
+      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (70)</button>
+      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (80)</button>
       <button class="tab-btn" onclick="switchTab('lexicon', this)">3. Core Dictionary &amp; 8-Case Grammar</button>
       <button class="tab-btn" onclick="switchTab('zodiac', this)">4. Zodiac Months &amp; Bath Plumbing</button>
       <button class="tab-btn" onclick="switchTab('recipes', this)">5. Starred Recipes, Rosettes &amp; 4-Transcriber Proof</button>
@@ -1703,7 +1776,8 @@ def main():
       <button class="tab-btn" onclick="switchTab('wave45', this)">13. Wave 45: Zodiac 30° Invariant, Balneo Absorption &amp; Two-Tier Stars</button>
       <button class="tab-btn" onclick="switchTab('wave46', this)">14. Wave 46: Zodiac @Cc-@Lz Split, f80r/f82r Galleries &amp; 32-Word Star Invariant</button>
       <button class="tab-btn" onclick="switchTab('wave47', this)">15. Wave 47: Milestone 200 Attacks — Gemini/Cancer Decans, f67v Diptych &amp; f75r Balneo Hub</button>
-      <button class="tab-btn" onclick="switchTab('wave48', this)">16. Wave 48: Sagittarius Centaur, Albarelli Registers &amp; Binary Star Parity (v14.0)</button>
+      <button class="tab-btn" onclick="switchTab('wave48', this)">16. Wave 48: Sagittarius Centaur, Albarelli Registers &amp; Binary Star Parity</button>
+      <button class="tab-btn" onclick="switchTab('wave49', this)">17. Wave 49: 10°+5° Decan Law, Barrel Hinge, Unfolded Sheets &amp; Currier B Herbal Bridge (v15.0)</button>
     </nav>
   </div>
 </header>
@@ -1748,7 +1822,7 @@ def main():
   <!-- TAB 2: BOTANICAL & ASTRO SPECIMENS -->
   <section id="tab-specimens" class="tab-panel">
     <div style="margin-bottom: 1rem;">
-      <h2 style="margin: 0 0 0.25rem;">75 Flagship Botanical, Astronomical, Balneological, Cosmological, Margin-Key &amp; Visual-Twin Identifications</h2>
+      <h2 style="margin: 0 0 0.25rem;">80 Flagship Botanical, Astronomical, Balneological, Cosmological, Margin-Key &amp; Visual-Twin Identifications</h2>
       <p style="margin: 0; color: var(--muted);">
         Matching the manuscript's high-resolution drawings to concrete 15th-century European herbal species, star clusters, bilingual month wheels, labelled hydrotherapy pipes, cosmological spheres, margin keys, quire signatures, and visual twin plant pairs.
       </p>
@@ -2790,6 +2864,112 @@ def main():
             <td>Penultimate Formulary Clause: Active Root Compound</td>
           </tr>
         </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- TAB 17: WAVE 49 (10°+5° DECAN LAW, BARREL HINGE, UNFOLDED SHEETS & CURRIER B HERBAL BRIDGE V15.0) -->
+  <section id="tab-wave49" class="tab-panel">
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="num">(10°+5°)×2 = 30°</div>
+        <div class="lbl">4/4 Split Aries &amp; Taurus Medallions Reconcile 15° Half-Signs With Three 10° Decans + <code>f72r1</code> Barrel-to-Naked Hinge (z = +15.98, <code>Attack 205</code>)</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">84.13% / +6.31 z</div>
+        <div class="lbl">Global Balneo Callout Stem Echo (<code>106/126</code>; <code>okalo</code> 5-Loop Coil &amp; Crossed Retorts) + Codex-Wide Same-Leaf (z = +6.31) &amp; Facing (z = +5.18) Continuity (<code>Attack 206</code>)</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">6.00× / -3.54 z</div>
+        <div class="lbl">Unfolded <code>p179</code> (<code>f100v | f101r</code>) Cross-Fold Label Echo Jump (<code>7.14% &rarr; 42.86%</code>) &amp; Unlabeled <code>f101r</code> Nominal Absorption (<code>Attack 207</code>)</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">+4.75 z / +3.68 z</div>
+        <div class="lbl">The 32-Folio Currier B Herbal Clinical Bridge (<code>5.82×</code> <code>-edy/-eey</code> Surge) Into Balneological (z = +4.75) &amp; Quire 20 Recipes (z = +3.68, <code>Attack 208</code>)</div>
+      </div>
+    </div>
+
+    <h2>1. The <code>(10° + 5°) + (10° + 5°) = 30°</code> Decan Reconciliation Law &amp; <code>f72r1</code> Barrel-to-Naked Hinge (<code>Attack 205</code>)</h2>
+    <p style="color: var(--muted);">
+      All 4 split-sign Zodiac medallions (<code>f70v1</code> Aries I, <code>f71r</code> Aries II, <code>f71v</code> Taurus I Manger, <code>f72r1</code> Taurus II Dark Bull) divide their 15 <code>@Lz</code> degree-nymphs into <strong>10 Inner Full-Circle Nymphs (1 full 10° Decan) + 5 Outer Top-Arc Nymphs (1/2 Decan = 5°)</strong>, so combining Medallion I + Medallion II reconciles two 15° half-signs with three 10° classical Decans (<code>10° + [5°+5°] + 10° = 30°</code>). Furthermore, <code>f72r1</code> (Taurus II) is the exact mid-medallion hinge (<strong>&chi;² = 255.28, z = +15.98</strong>) where the artist transitioned from barreled nymphs (<code>5/10</code> inner) to full-body naked nymphs (<code>0/5</code> outer top arc):
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="wave49BarrelTable">
+        <thead>
+          <tr>
+            <th>Folio</th>
+            <th>Sign &amp; Month</th>
+            <th>Painted Nymphs</th>
+            <th>Barreled Nymphs</th>
+            <th>Naked Full-Body Nymphs</th>
+            <th>Barreled Rate (%)</th>
+            <th>Decan &amp; Visual Architecture</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>2. Balneological Organ/Condenser Conduits on <code>f77v</code> (5-Loop Coil <code>okalo</code>) &amp; <code>f83v</code> (Crossed Bladder Retorts, <code>Attack 206</code>)</h2>
+    <p style="color: var(--muted);">
+      Across all 126 Balneological callout words on 11 bath folios, <strong>84.13% (106 / 126) share their canonical root stem with Balneological prose (68.25% on the exact same folio)</strong>. Below are the 18 callout labels across <code>f77v</code> (<code>81.82%</code> local stem echo, featuring the 5-loop intestinal/condenser coil <code>&lt;f77v.13,@Lt&gt; okalo</code>) and <code>f83v</code> (<code>100.0%</code> Balneo stem echo, featuring crossed green kidney/bladder retorts and bifurcated Y-tube):
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="wave49BalneoCalloutsTable">
+        <thead>
+          <tr>
+            <th>Locus</th>
+            <th>Type</th>
+            <th>Callout Word(s) (Click to Decode)</th>
+            <th>Canonical Stem(s)</th>
+            <th>Echo in Same-Folio Prose</th>
+            <th>Echo in Balneo Prose</th>
+            <th>Echo in Quire 20 Recipes</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>3. The 16-Folio Pharmaceutical Supply Chain &amp; Unfolded Sheets <code>p163</code> (<code>f88v–f89r2</code>) and <code>p179</code> (<code>f100v | f101r</code>, <code>Attack 207</code>)</h2>
+    <p style="color: var(--muted);">
+      On unfolded sheet <code>p179</code> (<code>f100v | f101r</code>), left-column <code>f100v</code> echoes only <code>7.14%</code> (<code>1/14</code>) of its plant labels in its own short paragraph, but <strong>42.86% (6 / 14: <code>okam, sory, choldy, opakam, opor, otar</code>) echo across the vertical fold inside <code>f101r</code>'s ultra-wide prose (6.00× jump!)</strong>, while <code>f101r</code>'s 28 unlabeled plants drive <strong>55.07% <code>o-/d-/s-</code> nominal absorption (<code>qo-</code> suppressed 2.67×, z = -3.54)</strong>:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="wave49PharmaTable">
+        <thead>
+          <tr>
+            <th>Folio (PDF Page)</th>
+            <th>Labels (<code>@Lc / @Lf</code>)</th>
+            <th>Prose Lines (Words/Line)</th>
+            <th><code>qo-</code> Rate (%)</th>
+            <th>Same-Folio Stem Echo</th>
+            <th>Same-Sheet Stem Echo</th>
+            <th>3-Stage Supply Chain Bridge</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>4. Top 12 Currier B Herbal Clinical Bridge Folios Into Balneology (z = +4.75) &amp; Quire 20 Recipes (z = +3.68, <code>Attack 208</code>)</h2>
+    <p style="color: var(--muted);">
+      Compared to the 94 Currier A Herbal folios (<code>2.78%</code> <code>-edy/-eey</code>), the 32 Currier B Herbal folios (<code>3,365</code> words by Scribes 2 &amp; 3, including <code>f34r</code> and <code>f39r</code>) surge <strong>5.82× in <code>-edy/-eey</code> active decoction suffixes (16.18%)</strong>, achieving a <strong>1.26× Stem Jaccard Lift with Balneological (z = +4.75, 79.68% token coverage)</strong> and a <strong>1.20× Lift with Quire 20 Starred Recipes (z = +3.68, 82.61% token coverage)</strong>:
+    </p>
+    <div style="overflow-x: auto;">
+      <table id="wave49CurrierBHerbalTable">
+        <thead>
+          <tr>
+            <th>Folio (PDF Page)</th>
+            <th>Scribe Hand</th>
+            <th>Words (<code>&lt;-&gt;</code> Intrusions)</th>
+            <th><code>qo-</code> Rate (%)</th>
+            <th><code>-edy/-eey</code> Rate (%)</th>
+            <th>Balneo Token Stem Match</th>
+            <th>Quire 20 Recipe Token Stem Match</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
       </table>
     </div>
   </section>
@@ -3885,6 +4065,87 @@ function renderWave48Tab() {{
   }}
 }}
 
+function renderWave49Tab() {{
+  const bBody = document.querySelector("#wave49BarrelTable tbody");
+  if (bBody) {{
+    bBody.innerHTML = (DATA.wave49_barrel_census || []).map(r => {{
+      const isHinge = r.folio === "f72r1";
+      const hl = isHinge ? 'style="background:var(--gold-soft);font-weight:700;"' : '';
+      const arch = ["f70v1", "f71r", "f71v", "f72r1"].includes(r.folio)
+        ? (isHinge ? "10 Inner (5 Barreled) + 5 Outer Top Arc (0% Barreled = HINGE!)" : "10 Inner Full-Circle + 5 Outer Top Arc = 15°")
+        : "30° Full-Sign Medallion";
+      return `
+        <tr ${{hl}}>
+          <td><strong><code>${{r.folio}}</code></strong></td>
+          <td><strong>${{r.sign}}</strong></td>
+          <td>${{r.inner_band}}</td>
+          <td>${{r.outer_band}}</td>
+          <td colspan="2"><span class="badge" style="background:var(--blue-soft);color:var(--blue)">${{r.total_barreled}}</span></td>
+          <td>${{arch}}</td>
+        </tr>
+      `;
+    }}).join("");
+  }}
+
+  const cBody = document.querySelector("#wave49BalneoCalloutsTable tbody");
+  if (cBody) {{
+    cBody.innerHTML = (DATA.wave49_balneo_callouts || []).map(l => {{
+      const words = (l.text || "").split(".").filter(Boolean);
+      const chips = words.map(w => `<span class="word-chip" onclick="setWord('${{w}}')"><strong>${{w}}</strong></span>`).join(" ");
+      const b1 = l.in_same_folio_stem ? `<span class="badge" style="background:var(--green-soft);color:var(--green)">Yes (Same Folio)</span>` : `—`;
+      const b2 = l.in_balneo_prose_stem ? `<span class="badge" style="background:var(--blue-soft);color:var(--blue)">Yes (In Balneo)</span>` : `—`;
+      const b3 = l.in_same_folio_exact ? `<span class="badge" style="background:var(--gold-soft);color:var(--gold)">Exact Match</span>` : `Stem Match`;
+      return `
+        <tr>
+          <td><strong><code>${{l.locus}}</code></strong></td>
+          <td><code>${{l.ltype}}</code></td>
+          <td>${{chips}}</td>
+          <td><code>${{(l.stems || []).join(", ")}}</code></td>
+          <td>${{b1}}</td>
+          <td>${{b2}}</td>
+          <td>${{b3}}</td>
+        </tr>
+      `;
+    }}).join("");
+  }}
+
+  const pBody = document.querySelector("#wave49PharmaTable tbody");
+  if (pBody) {{
+    pBody.innerHTML = (DATA.wave49_pharma_folios || []).map(f => {{
+      const hl = (f.folio === "f100v" || f.folio === "f101r" || f.folio === "f89r1") ? 'style="background:var(--gold-soft);"' : '';
+      return `
+        <tr ${{hl}}>
+          <td><strong><code>${{f.folio}}</code></strong></td>
+          <td>${{f.total_label_words}} words (${{f.lc_loci}} <code>@Lc</code> / ${{f.lf_loci}} <code>@Lf</code>)</td>
+          <td>${{f.prose_lines}}L (<strong>${{f.mean_words_per_line}}</strong> w/L)</td>
+          <td><strong>${{((f.herbal_stem_rate || 0) * 100).toFixed(1)}}%</strong> Herbal</td>
+          <td>${{((f.same_folio_stem_rate || 0) * 100).toFixed(1)}}%</td>
+          <td><strong>${{((f.pharma_prose_stem_rate || 0) * 100).toFixed(1)}}%</strong></td>
+          <td><span class="badge" style="background:var(--green-soft);color:var(--green)">${{((f.three_stage_supply_chain_rate || 0) * 100).toFixed(1)}}%</span></td>
+        </tr>
+      `;
+    }}).join("");
+  }}
+
+  const hBody = document.querySelector("#wave49CurrierBHerbalTable tbody");
+  if (hBody) {{
+    hBody.innerHTML = (DATA.wave49_currier_b_herbal || []).slice(0, 16).map(h => {{
+      const hl = (h.folio === "f34r" || h.folio === "f39r") ? 'style="background:var(--gold-soft);"' : '';
+      return `
+        <tr ${{hl}}>
+          <td><strong><code>${{h.folio}}</code></strong> (Quire ${{h.quire}})</td>
+          <td>Scribe ${{h.hand}}</td>
+          <td>${{h.words}} words (${{h.drawing_intrusions}} <code>&lt;-&gt;</code>)</td>
+          <td>${{((h.qo_rate || 0) * 100).toFixed(1)}}%</td>
+          <td><strong>${{((h.edy_eey_rate || 0) * 100).toFixed(1)}}%</strong></td>
+          <td><span class="badge" style="background:var(--blue-soft);color:var(--blue)">${{((h.balneo_stem_rate || 0) * 100).toFixed(1)}}%</span></td>
+          <td><span class="badge" style="background:var(--green-soft);color:var(--green)">${{((h.quire20_stem_rate || 0) * 100).toFixed(1)}}%</span></td>
+        </tr>
+      `;
+    }}).join("");
+  }}
+}}
+
 function switchTab(tabId, btn) {{
   document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
   document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
@@ -3909,6 +4170,7 @@ renderWave45Tab();
 renderWave46Tab();
 renderWave47Tab();
 renderWave48Tab();
+renderWave49Tab();
 </script>
 </body>
 </html>

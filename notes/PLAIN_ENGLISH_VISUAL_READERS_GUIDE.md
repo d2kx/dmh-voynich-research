@@ -55,9 +55,9 @@ When you strip off the prefix and suffix, you are left with the **Root Stem**:
 
 ---
 
-## Part 2: Page-by-Page Visual Walkthroughs (50 Iconic Folios)
+## Part 2: Page-by-Page Visual Walkthroughs (54 Iconic Folios)
 
-Below are **50 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
+Below are **54 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
 
 ---
 
@@ -790,8 +790,65 @@ Why did the scribe write the Voynich word **`oror`** at the end of a European ch
 
 ---
 
+### 51. Folios `f71v`, `f72r1` & `f68v3–f68v1` — The `(10° + 5°) + (10° + 5°) = 30°` Decan-to-Half-Sign Reconciliation Law (`4/4 = 100%`), `f72r1` Barrel-to-Naked Nymph Hinge ($z = +15.98$), `09:00` Vellum-Hole Mirror Proof, and Unfolded `f68v3–f68v1` Astronomical Verso Sheet (`71.13%` Stem Echo)
+* **Section:** Zodiac Medallions (`f71v–f72r1`, Quire 10/11, Scribe 4) & Astronomical Wheels (`f68v3–f68v1`, Quire 9, Scribe 4) | **Pages in Yale Scan:** Pages 131 (`f71v–f72r1`) & 125 (`f68v3–f68v1`)
+
+![Folio f71v Taurus I Light Manger Bull with 10 Inner + 5 Outer Barreled Nymphs](../pages/f71v_taurus_manger_medallion_enh.png)
+
+#### What to Look for on `f71v` (Above), `f72r1` (Middle), and `f68v3–f68v1` (Below)
+1. **How the Scribe Reconciled Three `10°` Decans (`3 × 10° = 30°`) With Two `15°` Split Medallions (`2 × 15° = 30°`) (`Attack 205`, `Discovery 222`):** Across all **4 split-sign Zodiac medallions** (`f70v1` Aries I Dark, `f71r` Aries II Light, `f71v` Taurus I Light Manger, and `f72r1` Taurus II Dark Bull), **`4 / 4 = 100.0%` divide their 15 degree-nymphs into `10` Inner Full-Circle Nymphs (`1` full `10°` Decan) + `5` Outer Top-Arc Nymphs (`1/2` Decan = `5°`)**! Combining Medallion I (`10° + 5° = 15°`) and Medallion II (`10° + 5° = 15°`) yields **two `10°` inner rings (`20°`) plus two `5°` outer top arcs that sum to the third `10°` Decan (`5° + 5° = 10°`)**!
+2. **The Exact Barrel-to-Naked Nymph Transition Hinge on `f72r1` (`Taurus II`, $\chi^2 = 255.28, z = +15.98$) & the `09:00 <-> 03:00` Vellum-Hole Mirror Proof:** On `f71v` (above), a light reddish bull munches green leaves from a **tall woven-wicker manger trough (`may`)**, and all **15 nymphs (`10` inner + `5` outer) emerge from cylindrical barrels (`100%`)**. On **`f72r1` (`Taurus II` Dark Bull, below)**, the barrel-to-naked transition occurs **mid-medallion**: `5` of the `10` inner-ring nymphs stand in barrels, whereas **`0 / 5` (`0%`) of the outer top-arc nymphs have barrels (`100%` stand full-body naked)**! And look at **09:00 (left of the dark bull)** on `f72r1`: a circular calfskin hole forces the 09:00 inner nymph (`otal.kshy`) to be drawn horizontally beneath the hole—and when you flip that exact physical panel over to its verso (`f72v1` Libra), the hole mirrors across the vertical axis to **03:00 (right of center)**!
+3. **The Unfolded 3-Panel Astronomical Verso Sheet `p125` (`f68v3 | f68v2 | f68v1`, bottom):** Across the 4-Arm Pinwheel Spiral (`f68v3`), 6-Sector Blue-Star Wheel (`f68v2`, `29` stars), and 16-Ray Moon-Face 4-Quadrant Wheel (`f68v1`), **`71.13%` (`69/97`) of the top header paragraph words share their canonical root stem with the wheel spokes, rings, and star labels on `p125`**!
+
+![Folio f72r1 Taurus II Dark Bull, 09:00 Vellum Hole and Barrel-to-Naked Nymph Transition](../pages/f72r1_taurus_dark_bull_hole_enh.png)
+
+![Unfolded 3-Panel Astronomical Verso Sheet f68v3 f68v2 f68v1](../pages/f68v1_f68v2_astro_sectors_moon_enh.png)
+
+---
+
+### 52. Folios `f77v` & `f83v` — The Balneological 5-Loop Intestinal/Condenser Coil (`okalo`), Fluted Goblet Bather (`f77v`, `81.82%` Local Stem Echo), Crossed Green Bladder/Kidney Retorts & Bifurcated Y-Tube (`f83v`, `100%` Balneo Stem Echo)
+* **Section:** Balneological / Medical Bathing (`$I=B`, `$Q=M`, Currier B, Scribe 2) | **Pages in Yale Scan:** Pages 141 (`f77v`) & 153 (`f83v`)
+
+![Folio f77v Balneological Four-Organ Tube Cascade, 5-Loop Intestinal Coil and Fluted Goblet Bather](../pages/f77v_balneo_four_organ_tubes_enh.png)
+
+#### What to Look for on `f77v` (Above) and `f83v` (Below)
+1. **The 3-Basin Overhead Pipe, 5-Loop Intestinal/Condenser Coil (`okalo`) & Fluted Goblet Bather on `f77v` (Above):** Across the top of `f77v`, three bathers stand in scalloped tubs connected by a horizontal pipe (`okain.y.kal, otol.shedy, olkeedal, otolor, orchedal`). At middle-right, a bather grasps a **5-loop serpentine coiled tube (`<f77v.44,@Lt> okalo`)** lined with tiny fringes (resembling either the small intestine or an alchemical condenser coil), while at lower-left a crowned bather stands inside a **tall fluted pedestal goblet/chalice**! **`81.82%` (`9 / 11`) of `f77v`'s callout words share their canonical root stem with `f77v`'s own prose (`45.45%` exact words, `Attack 206`)**!
+2. **The Crossed Green Bladder/Kidney Retorts (`ololary / okarchy`) & Bifurcated Y-Tube (`okchdy / okaiin`) on `f83v` (Below):** Across the upper middle of `f83v` (below), **two giant dark-green bulbous organs/retorts** cross their scaly braided necks in an **`X`** and discharge droplets into the middle paragraph between two flanking bathers (`ololary` and `okarchy`). At bottom-right, a bather (`okchdy / okaiin`) sits inside a **bifurcated green Y-tube** whose two lower legs spray left and right (`100.0%` [`4/4`] Balneo prose stem echo, `75.0%` on `f83v` itself!). Across all `126` Balneological callout words on `11` labeled bath folios (`Attack 206`), **`84.13%` (`106 / 126`) share their canonical root stem with Balneological prose (`68.25%` on the exact same folio)**!
+
+![Folio f83v Crossed Green Bladder/Kidney Retorts and Bifurcated Y-Tube](../pages/f83v_balneo_two_tier_nymph_gallery_enh.png)
+
+---
+
+### 53. Unfolded Pharmaceutical Master Sheets `p163` (`f88v | f89r1 | f89r2`, Numeral `'48'`) & `p179` (`f100v | f101r`) — The `f100v -> f101r` Cross-Column Sheet Echo (`7.14% -> 42.86%` = `6.00×` Jump!) & Unlabeled `f101r` Nominal Absorption Law ($z = -3.54$)
+* **Section:** Pharmaceutical Compounding & Storage (`$I=P`, Quires 15 & 19, Currier A, Scribe 1) | **Pages in Yale Scan:** Pages 163 (`f88v–f89r2`) & 179 (`f100v–f101r`)
+
+![Unfolded 3-Panel Pharmaceutical Sheet p163 f88v f89r1 f89r2](../pages/f89r1_pharma_three_row_jars_enh.png)
+
+#### What to Look for on `p163` (Above) and `p179` (Below)
+1. **Nine Tiered Albarelli Jars, `51` Callout Words & the Arabic Numeral `'48'` on Unfolded Sheet `p163` (`f88v | f89r1 | f89r2`, above):** Unfolding page 163 reveals three complete 3-row apothecary panels side by side (`f88v` on the left, `f89r1` in the center, `f89r2` on the right), with **9 tall painted albarelli jars** down the left margins of the three panels. Look closely just above the left start of Paragraph 2 on the center panel (`<f89r1.15,@P0> tcheol.qoeair...`): written in dark ink is the medieval Hindu-Arabic numeral **`48`**!
+2. **Solving the `f100v` (`7.14%` Self-Echo) & `f101r` (`28` Unlabeled Plants) Mystery on Unfolded Sheet `p179` (`f100v | f101r`, below, `Attack 207`):** On `p179` (below), the narrow left column is **`f100v`** (`13` labeled plants, `14` label words, and `1` short 79-word paragraph where only `1/14 = 7.14%` of the labels echo), while the wide two-panel right side is **`f101r`** (`28` **unlabeled** plant cuttings, `4` cylindrical jars, and `10` ultra-wide prose lines of `227` words = **`22.70` words/line**, **`2.33×` wider** than normal `9.75`-word Pharmaceutical lines!). Why did `f100v`'s labels barely echo in its own short bottom-left paragraph (`7.14%`)? Because **when you look right across the vertical fold into the wide prose lines of `f101r` on the exact same unfolded sheet (`p179`), `42.86%` (`6 / 14`) of `f100v`'s plant labels echo directly inside `f101r`'s wide prose (`6.00×` jump, matching the `42.51%` global Pharmaceutical same-folio echo rate!)**! And because `f101r`'s `28` painted plants have `0` `@Lf` labels, `f101r`'s wide prose absorbs the nominal/partitive plant citations (`o-/d-/s-` rises from `46.81%` to `55.07%`) while suppressing `qo-` procedural verbs by **`2.67×` (`4.85%` vs `12.94%`, $z = -3.54, p = 0.0004$)**!
+
+![Unfolded Pharmaceutical Sheet p179 f100v Left Column and f101r Wide Unlabeled Compendium](../pages/f101r_unfolded_pharma_compendium_enh.png)
+
+---
+
+### 54. Folios `f34r` & `f39r` — The Currier B Herbal Decoction Sub-Corpus (`32` Folios): Polychrome 3-Headed Thistle (`f34r`, `20` `<->` Intrusions) & Bilobed Stolon Monograph (`f39r`, `89.81%` Recipe Stem Echo)
+* **Section:** Currier B Herbal Monographs (`$I=H, $L=B`, Quires 5 & 6, Scribes 2 & 3) | **Pages in Yale Scan:** Pages 68 (`f34r`) & 78 (`f39r`)
+
+![Folio f34r Currier B Polychrome 3-Headed Thistle Monograph with 20 Drawing Intrusions](../pages/f34r_currier_b_polychrome_herbal_enh.png)
+
+#### What to Look for on `f34r` (Above) and `f39r` (Below)
+1. **Why Are `32` Herbal Folios Written in Currier Language B (`-edy` `5.82×` Surge)? (`Attack 208`, `Discovery 225`):** While `94` Herbal folios were written by Scribe 1 in nominal Currier Language A (`2.78%` `-edy/-eey`), **`32` Herbal folios** (`3,365` words, written by Scribes 2 and 3) were written in procedural **Currier Language B**, where **`-edy/-eey` active decoction suffixes surge `5.82×` to `16.18%`**, turning the plant page directly into a boiling/steeping protocol! Even at the stripped canonical root-stem level, the `32` Currier B Herbal folios achieve a **`1.26×` Stem Jaccard Lift with Balneological ($z = +4.75, p = 2.0 \times 10^{-6}$, `79.68%` token stem coverage)** and a **`1.20×` Stem Jaccard Lift with Quire 20 Starred Recipes ($z = +3.68, p = 0.00023$, `82.61%` token stem coverage)**!
+2. **Folio `f34r` (`20` `<->` Drawing Intrusions Splitting Both Top & Bottom Paragraphs, above):** On `f34r` (above, `123` words across `16` lines), three blue-and-white flower heads and toothed green palmate leaves split the lines **20 times (`<->`)**—including a **6-line bottom paragraph (`Lines 11–16`) split cleanly into left and right halves across the central stalk right above the orange-red fibrous roots**! **`78.05%` of `f34r`'s token stems recur in Balneological and `79.67%` (`70.73%` exact words!) recur in Quire 20 Starred Recipes**.
+3. **Folio `f39r` (8 Bilobed Leaf Stalks on a 13-Rootlet Horizontal Stolon Bench, below):** On `f39r` (below, `157` words across `3` paragraphs), 8 upright stalks of dark-spotted bilobed green leaves and a single tall blue-calyx flower rise from a horizontal brown stolon/rhizome bench. **`86.62%` of `f39r`'s token stems (`69.43%` exact words) recur in Balneological and `89.81%` (`77.71%` exact words!) recur in Quire 20 Starred Recipes**!
+
+![Folio f39r Currier B Bilobed Leaf and Stolon Herbal Monograph](../pages/f39r_currier_b_herbal_monograph_enh.png)
+
+---
+
 ## Where to Go Next
-* **Want to see all 75 real-world plants, constellations, wheels, bathing diagrams, and visual twins?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)** (`SPEC-01` through `SPEC-75`).
-* **Want to click through 66 pages, decode words interactively, and explore all 16 tabs in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now at **v14.0 — Wave 47 Milestone 200 & Wave 48 Grand Release**!).
-* **Want the deep grammatical tables, the Wave 47 Milestone 200th Attack proofs, the Wave 48 Sagittarius / Albarelli / Star Parity proofs, and full 221-discovery research log?** See **[`MILESTONE_200_ATTACKS_DECANS_QUADRANTS_AND_BALNEO_HUB.md`](MILESTONE_200_ATTACKS_DECANS_QUADRANTS_AND_BALNEO_HUB.md)**, **[`WAVE48_MASTER_COMPENDIUM.md`](WAVE48_MASTER_COMPENDIUM.md)**, and **[`NOTES.md`](../NOTES.md)**.
+* **Want to see all 80 real-world plants, constellations, wheels, bathing diagrams, and visual twins?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)** (`SPEC-01` through `SPEC-80`).
+* **Want to click through 70 pages, decode words interactively, and explore all 17 tabs in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now at **v15.0 — Wave 49 Edition**!).
+* **Want the deep grammatical tables, the Wave 49 Taurus Decan Hinge / Balneo Conduits / `p179` Pharma Sheet / Currier B Herbal Bridge proofs, and full 225-discovery research log?** See **[`WAVE49_MASTER_COMPENDIUM.md`](WAVE49_MASTER_COMPENDIUM.md)**, **[`WAVE48_MASTER_COMPENDIUM.md`](WAVE48_MASTER_COMPENDIUM.md)**, **[`MILESTONE_200_ATTACKS_DECANS_QUADRANTS_AND_BALNEO_HUB.md`](MILESTONE_200_ATTACKS_DECANS_QUADRANTS_AND_BALNEO_HUB.md)**, and **[`NOTES.md`](../NOTES.md)**.
+
 

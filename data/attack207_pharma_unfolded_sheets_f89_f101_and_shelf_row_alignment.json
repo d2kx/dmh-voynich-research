@@ -1,0 +1,1756 @@
+{
+  "attack": 207,
+  "discovery": 224,
+  "title": "Unfolded Pharmaceutical Master Sheets p163 (f88v | f89r1 | f89r2, '48' Marginalia) and p179 (f100v | f101r Cross-Column Sheet Echo 7.14% -> 42.86% = 6.00x Lift & 22.70-Word/Line Wide Treatise), and the 16-Folio 3-Stage Supply Chain Census",
+  "pharma_sheets_analysis": {
+    "global_pharma_totals": {
+      "total_pharma_folios": 16,
+      "total_label_words": 247,
+      "same_folio_stem_hits": 105,
+      "same_folio_stem_rate": 0.4251,
+      "pharma_prose_stem_hits": 150,
+      "pharma_prose_stem_rate": 0.6073,
+      "herbal_stem_hits": 180,
+      "herbal_stem_rate": 0.7287,
+      "quire20_stem_hits": 172,
+      "quire20_stem_rate": 0.6964,
+      "three_stage_supply_chain_hits": 144,
+      "three_stage_supply_chain_rate": 0.583
+    },
+    "p163_unfolded_sheet_trifecta": {
+      "folios": [
+        "f88v",
+        "f89r1",
+        "f89r2"
+      ],
+      "total_label_words": 51,
+      "total_prose_words": 466,
+      "same_panel_stem_hits": 23,
+      "same_panel_stem_rate": 0.451,
+      "unfolded_sheet_stem_hits": 24,
+      "unfolded_sheet_stem_rate": 0.4706,
+      "unfolded_sheet_exact_hits": 5,
+      "unfolded_sheet_exact_rate": 0.098,
+      "sheet_vs_panel_lift": 1.04,
+      "f89r1_arabic_numeral_48_note": "Directly above Line 15 (Paragraph 2 opener <f89r1.15,@P0> tcheol.qoeair.sheol.qocphey...) on the center panel f89r1 of p163 sits the medieval Hindu-Arabic numeral '48' written in dark ink."
+    },
+    "p179_f100v_f101r_unfolded_sheet_discovery": {
+      "pdf_page": 179,
+      "left_column_folio": "f100v (13 labeled cuttings, 14 label words, 1 9-line paragraph = 79 words)",
+      "right_wide_panel_folio": "f101r (28 UNLABELED cuttings, 4 cylindrical jars, 3 wide paragraphs across 10 lines = 227 words, 22.70 words/line!)",
+      "f100v_labels_in_f100v_prose_hits": 1,
+      "f100v_labels_in_f100v_prose_rate": 0.0714,
+      "f100v_labels_in_f101r_wide_prose_hits": 6,
+      "f100v_labels_in_f101r_wide_prose_rate": 0.4286,
+      "f100v_labels_in_combined_p179_sheet_hits": 6,
+      "f100v_labels_in_combined_p179_sheet_rate": 0.4286,
+      "cross_column_echo_lift": 6.0,
+      "f100v_matched_in_f101r_details": [
+        {
+          "label": "chols",
+          "stem": "ol",
+          "f101r_matches": [
+            "ol",
+            "dol",
+            "ol",
+            "okol",
+            "ol",
+            "chol",
+            "dol",
+            "ol",
+            "ol",
+            "otol",
+            "ol",
+            "chol",
+            "okol",
+            "chol",
+            "ol",
+            "shol",
+            "chol",
+            "chol",
+            "ol",
+            "okol",
+            "ol",
+            "chol",
+            "chol",
+            "dol",
+            "ol"
+          ]
+        },
+        {
+          "label": "opchor",
+          "stem": "ch",
+          "f101r_matches": [
+            "ykchy",
+            "olchey",
+            "chy",
+            "chchy",
+            "chl",
+            "okchol"
+          ]
+        },
+        {
+          "label": "ykchdy",
+          "stem": "ch",
+          "f101r_matches": [
+            "ykchy",
+            "olchey",
+            "chy",
+            "chchy",
+            "chl",
+            "okchol"
+          ]
+        },
+        {
+          "label": "dchdy",
+          "stem": "ch",
+          "f101r_matches": [
+            "ykchy",
+            "olchey",
+            "chy",
+            "chchy",
+            "chl",
+            "okchol"
+          ]
+        },
+        {
+          "label": "okcheor",
+          "stem": "che",
+          "f101r_matches": [
+            "olcheeol"
+          ]
+        },
+        {
+          "label": "ytchol",
+          "stem": "ch",
+          "f101r_matches": [
+            "ykchy",
+            "olchey",
+            "chy",
+            "chchy",
+            "chl",
+            "okchol"
+          ]
+        }
+      ],
+      "f101r_mean_words_per_line": 22.7,
+      "labeled_pharma_mean_words_per_line": 9.75,
+      "f101r_line_width_lift": 2.33,
+      "f101r_qo_verb_rate": 0.0485,
+      "labeled_pharma_qo_verb_rate": 0.1294,
+      "f101r_qo_suppression_z": -3.54,
+      "f101r_nominal_ods_prefix_rate": 0.5507,
+      "labeled_pharma_nominal_ods_prefix_rate": 0.4681
+    },
+    "folio_profiles": [
+      {
+        "folio": "f88r",
+        "lc_loci": 3,
+        "lf_loci": 12,
+        "total_label_words": 16,
+        "paragraphs_count": 3,
+        "prose_lines": 16,
+        "prose_words": 133,
+        "mean_words_per_line": 8.31,
+        "same_folio_exact_hits": 1,
+        "same_folio_stem_hits": 7,
+        "same_folio_stem_rate": 0.4375,
+        "pharma_prose_stem_hits": 10,
+        "pharma_prose_stem_rate": 0.625,
+        "herbal_stem_hits": 13,
+        "herbal_stem_rate": 0.8125,
+        "quire20_stem_hits": 12,
+        "quire20_stem_rate": 0.75,
+        "three_stage_supply_chain_hits": 10,
+        "three_stage_supply_chain_rate": 0.625,
+        "labels_detail": [],
+        "paragraph_openers": [
+          {
+            "para_idx": 1,
+            "start_locus": "f88r.7",
+            "lines": 5,
+            "words": 47,
+            "opening_words": "dorsheoy.ctheol.qockhey.dory"
+          },
+          {
+            "para_idx": 2,
+            "start_locus": "f88r.18",
+            "lines": 5,
+            "words": 39,
+            "opening_words": "koay.cphol.orchor.pcheoly"
+          },
+          {
+            "para_idx": 3,
+            "start_locus": "f88r.26",
+            "lines": 6,
+            "words": 47,
+            "opening_words": "poeear.sheoky.olkeey.cthol"
+          }
+        ]
+      },
+      {
+        "folio": "f88v",
+        "lc_loci": 3,
+        "lf_loci": 10,
+        "total_label_words": 14,
+        "paragraphs_count": 3,
+        "prose_lines": 17,
+        "prose_words": 130,
+        "mean_words_per_line": 7.65,
+        "same_folio_exact_hits": 0,
+        "same_folio_stem_hits": 6,
+        "same_folio_stem_rate": 0.4286,
+        "pharma_prose_stem_hits": 8,
+        "pharma_prose_stem_rate": 0.5714,
+        "herbal_stem_hits": 9,
+        "herbal_stem_rate": 0.6429,
+        "quire20_stem_hits": 9,
+        "quire20_stem_rate": 0.6429,
+        "three_stage_supply_chain_hits": 8,
+        "three_stage_supply_chain_rate": 0.5714,
+        "labels_detail": [
+          {
+            "locus": "f88v.1",
+            "ltype": "@Lc",
+            "text": "okalyd",
+            "stems": [
+              "alyd"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f88v.11",
+            "ltype": "@Lc",
+            "text": "otoram",
+            "stems": [
+              "or"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f88v.27",
+            "ltype": "@Lc",
+            "text": "daramdal",
+            "stems": [
+              "ramd"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f88v.2",
+            "ltype": "@Lf",
+            "text": "cheocthy",
+            "stems": [
+              "eoth"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f88v.3",
+            "ltype": "@Lf",
+            "text": "cpheor",
+            "stems": [
+              "Khe"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f88v.4",
+            "ltype": "@Lf",
+            "text": "otar.arody",
+            "stems": [
+              "ar",
+              "ar"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f88v.5",
+            "ltype": "@Lf",
+            "text": "otokol",
+            "stems": [
+              "ok"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f88v.12",
+            "ltype": "@Lf",
+            "text": "otora",
+            "stems": [
+              "ora"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f88v.13",
+            "ltype": "@Lf",
+            "text": "cheosdy",
+            "stems": [
+              "eos"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f88v.14",
+            "ltype": "@Lf",
+            "text": "okaiin",
+            "stems": [
+              "ain"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f88v.28",
+            "ltype": "@Lf",
+            "text": "otydary",
+            "stems": [
+              "ydar"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f88v.29",
+            "ltype": "@Lf",
+            "text": "otdordy",
+            "stems": [
+              "dor"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f88v.30",
+            "ltype": "@Lf",
+            "text": "dararda[:]",
+            "stems": [
+              "rarda[:]"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          }
+        ],
+        "paragraph_openers": [
+          {
+            "para_idx": 1,
+            "start_locus": "f88v.6",
+            "lines": 5,
+            "words": 38,
+            "opening_words": "teodal.lkeo.cheor.roshckhy"
+          },
+          {
+            "para_idx": 2,
+            "start_locus": "f88v.15",
+            "lines": 6,
+            "words": 46,
+            "opening_words": "kosholdy.qotody.opykey.oldaiin"
+          },
+          {
+            "para_idx": 3,
+            "start_locus": "f88v.21",
+            "lines": 6,
+            "words": 46,
+            "opening_words": "toairy.oteeody.cpheody.ykchey"
+          }
+        ]
+      },
+      {
+        "folio": "f89r1",
+        "lc_loci": 3,
+        "lf_loci": 10,
+        "total_label_words": 15,
+        "paragraphs_count": 3,
+        "prose_lines": 14,
+        "prose_words": 124,
+        "mean_words_per_line": 8.86,
+        "same_folio_exact_hits": 1,
+        "same_folio_stem_hits": 7,
+        "same_folio_stem_rate": 0.4667,
+        "pharma_prose_stem_hits": 11,
+        "pharma_prose_stem_rate": 0.7333,
+        "herbal_stem_hits": 12,
+        "herbal_stem_rate": 0.8,
+        "quire20_stem_hits": 12,
+        "quire20_stem_rate": 0.8,
+        "three_stage_supply_chain_hits": 10,
+        "three_stage_supply_chain_rate": 0.6667,
+        "labels_detail": [
+          {
+            "locus": "f89r1.1",
+            "ltype": "@Lc",
+            "text": "okchshy",
+            "stems": [
+              "ch"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89r1.11",
+            "ltype": "@Lc",
+            "text": "ykyd",
+            "stems": [
+              "yd"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89r1.24",
+            "ltype": "@Lc",
+            "text": "ykocfhy",
+            "stems": [
+              "ofh"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89r1.2",
+            "ltype": "@Lf",
+            "text": "qkol",
+            "stems": [
+              "qk"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f89r1.3",
+            "ltype": "@Lf",
+            "text": "oldam",
+            "stems": [
+              "da"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89r1.4",
+            "ltype": "@Lf",
+            "text": "otoldy",
+            "stems": [
+              "ol"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89r1.5",
+            "ltype": "@Lf",
+            "text": "ararchodaiin",
+            "stems": [
+              "ararchoda"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f89r1.12",
+            "ltype": "@Lf",
+            "text": "chol.ches",
+            "stems": [
+              "ol",
+              "es"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89r1.13",
+            "ltype": "@Lf",
+            "text": "otorain",
+            "stems": [
+              "ora"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89r1.14",
+            "ltype": "@Lf",
+            "text": "okaiin.dan",
+            "stems": [
+              "ain",
+              "an"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89r1.25",
+            "ltype": "@Lf",
+            "text": "saldam",
+            "stems": [
+              "ld"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89r1.26",
+            "ltype": "@Lf",
+            "text": "sydarary",
+            "stems": [
+              "ydarar"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f89r1.27",
+            "ltype": "@Lf",
+            "text": "yddy",
+            "stems": [
+              "dy"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          }
+        ],
+        "paragraph_openers": [
+          {
+            "para_idx": 1,
+            "start_locus": "f89r1.6",
+            "lines": 5,
+            "words": 45,
+            "opening_words": "qoar.shar.qopcholy.qokod"
+          },
+          {
+            "para_idx": 2,
+            "start_locus": "f89r1.15",
+            "lines": 4,
+            "words": 35,
+            "opening_words": "tcheol.qoeair.sheol.qocphey"
+          },
+          {
+            "para_idx": 3,
+            "start_locus": "f89r1.19",
+            "lines": 5,
+            "words": 44,
+            "opening_words": "pshol.sheo.qoay.cheocphy"
+          }
+        ]
+      },
+      {
+        "folio": "f89r2",
+        "lc_loci": 5,
+        "lf_loci": 15,
+        "total_label_words": 22,
+        "paragraphs_count": 3,
+        "prose_lines": 14,
+        "prose_words": 212,
+        "mean_words_per_line": 15.14,
+        "same_folio_exact_hits": 3,
+        "same_folio_stem_hits": 10,
+        "same_folio_stem_rate": 0.4545,
+        "pharma_prose_stem_hits": 13,
+        "pharma_prose_stem_rate": 0.5909,
+        "herbal_stem_hits": 13,
+        "herbal_stem_rate": 0.5909,
+        "quire20_stem_hits": 14,
+        "quire20_stem_rate": 0.6364,
+        "three_stage_supply_chain_hits": 12,
+        "three_stage_supply_chain_rate": 0.5455,
+        "labels_detail": [
+          {
+            "locus": "f89r2.1",
+            "ltype": "@Lc",
+            "text": "odory",
+            "stems": [
+              "or"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89r2.9",
+            "ltype": "@Lc",
+            "text": "otold[:y]",
+            "stems": [
+              "old[:y]"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f89r2.16",
+            "ltype": "@Lc",
+            "text": "korainy",
+            "stems": [
+              "Korain"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f89r2.29",
+            "ltype": "@Lc",
+            "text": "okain",
+            "stems": [
+              "ain"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89r2.30",
+            "ltype": "+Lc",
+            "text": "yorain",
+            "stems": [
+              "ora"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89r2.2",
+            "ltype": "@Lf",
+            "text": "doly",
+            "stems": [
+              "ol"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89r2.3",
+            "ltype": "@Lf",
+            "text": "opchosam",
+            "stems": [
+              "chos"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f89r2.4",
+            "ltype": "@Lf",
+            "text": "saloiinsheol",
+            "stems": [
+              "loinshe"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f89r2.5",
+            "ltype": "@Lf",
+            "text": "opcheor",
+            "stems": [
+              "che"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89r2.10",
+            "ltype": "@Lf",
+            "text": "okol.shol.dy",
+            "stems": [
+              "ol",
+              "ol",
+              "dy"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89r2.11",
+            "ltype": "@Lf",
+            "text": "opchoroiin",
+            "stems": [
+              "choro"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f89r2.17",
+            "ltype": "@Lf",
+            "text": "sodar",
+            "stems": [
+              "od"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89r2.18",
+            "ltype": "@Lf",
+            "text": "cheys",
+            "stems": [
+              "ey"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89r2.19",
+            "ltype": "@Lf",
+            "text": "cheody",
+            "stems": [
+              "eo"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89r2.20",
+            "ltype": "@Lf",
+            "text": "oporain",
+            "stems": [
+              "ora"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89r2.21",
+            "ltype": "@Lf",
+            "text": "okshdchos",
+            "stems": [
+              "shdcho"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f89r2.31",
+            "ltype": "@Lf",
+            "text": "ofakal",
+            "stems": [
+              "ak"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89r2.32",
+            "ltype": "@Lf",
+            "text": "otalsy",
+            "stems": [
+              "als"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89r2.33",
+            "ltype": "@Lf",
+            "text": "ytarem",
+            "stems": [
+              "are"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f89r2.34",
+            "ltype": "@Lf",
+            "text": "otolarol",
+            "stems": [
+              "olar"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          }
+        ],
+        "paragraph_openers": [
+          {
+            "para_idx": 1,
+            "start_locus": "f89r2.6",
+            "lines": 3,
+            "words": 44,
+            "opening_words": "qokcheody.cheodal.dair.cholkeedy"
+          },
+          {
+            "para_idx": 2,
+            "start_locus": "f89r2.12",
+            "lines": 4,
+            "words": 62,
+            "opening_words": "porachol.yody.qoteol.oldaiin"
+          },
+          {
+            "para_idx": 3,
+            "start_locus": "f89r2.22",
+            "lines": 7,
+            "words": 106,
+            "opening_words": "kolches.sheol.qokeoefy.sheey"
+          }
+        ]
+      },
+      {
+        "folio": "f89v2",
+        "lc_loci": 3,
+        "lf_loci": 12,
+        "total_label_words": 16,
+        "paragraphs_count": 3,
+        "prose_lines": 12,
+        "prose_words": 165,
+        "mean_words_per_line": 13.75,
+        "same_folio_exact_hits": 2,
+        "same_folio_stem_hits": 8,
+        "same_folio_stem_rate": 0.5,
+        "pharma_prose_stem_hits": 9,
+        "pharma_prose_stem_rate": 0.5625,
+        "herbal_stem_hits": 10,
+        "herbal_stem_rate": 0.625,
+        "quire20_stem_hits": 10,
+        "quire20_stem_rate": 0.625,
+        "three_stage_supply_chain_hits": 9,
+        "three_stage_supply_chain_rate": 0.5625,
+        "labels_detail": [
+          {
+            "locus": "f89v2.1",
+            "ltype": "@Lc",
+            "text": "choeesy",
+            "stems": [
+              "oes"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f89v2.11",
+            "ltype": "@Lc",
+            "text": "otory",
+            "stems": [
+              "or"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89v2.23",
+            "ltype": "@Lc",
+            "text": "opaloiiry",
+            "stems": [
+              "aloir"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f89v2.2",
+            "ltype": "@Lf",
+            "text": "okam",
+            "stems": [
+              "ar"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89v2.3",
+            "ltype": "@Lf",
+            "text": "darcheor",
+            "stems": [
+              "rche"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f89v2.4",
+            "ltype": "@Lf",
+            "text": "chokaro",
+            "stems": [
+              "okaro"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f89v2.5",
+            "ltype": "@Lf",
+            "text": "sheol",
+            "stems": [
+              "eo"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89v2.6",
+            "ltype": "@Lf",
+            "text": "chokam",
+            "stems": [
+              "ok"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89v2.12",
+            "ltype": "@Lf",
+            "text": "otair.chody",
+            "stems": [
+              "ai",
+              "od"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89v2.13",
+            "ltype": "@Lf",
+            "text": "dykaran",
+            "stems": [
+              "ykar"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f89v2.14",
+            "ltype": "@Lf",
+            "text": "opcheedey",
+            "stems": [
+              "ched"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89v2.24",
+            "ltype": "@Lf",
+            "text": "otaram",
+            "stems": [
+              "ar"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89v2.25",
+            "ltype": "@Lf",
+            "text": "chtchy",
+            "stems": [
+              "Kch"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89v2.27",
+            "ltype": "@Lf",
+            "text": "sada",
+            "stems": [
+              "da"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89v2.28",
+            "ltype": "@Lf",
+            "text": "daseky",
+            "stems": [
+              "sek"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          }
+        ],
+        "paragraph_openers": [
+          {
+            "para_idx": 1,
+            "start_locus": "f89v2.7",
+            "lines": 4,
+            "words": 60,
+            "opening_words": "kosar.sheol.s.aiin"
+          },
+          {
+            "para_idx": 2,
+            "start_locus": "f89v2.15",
+            "lines": 4,
+            "words": 49,
+            "opening_words": "sor.oairar.sheety.chodor"
+          },
+          {
+            "para_idx": 3,
+            "start_locus": "f89v2.19",
+            "lines": 4,
+            "words": 56,
+            "opening_words": "toar.qokeeody.doef.shey"
+          }
+        ]
+      },
+      {
+        "folio": "f89v1",
+        "lc_loci": 2,
+        "lf_loci": 6,
+        "total_label_words": 9,
+        "paragraphs_count": 2,
+        "prose_lines": 16,
+        "prose_words": 145,
+        "mean_words_per_line": 9.06,
+        "same_folio_exact_hits": 0,
+        "same_folio_stem_hits": 3,
+        "same_folio_stem_rate": 0.3333,
+        "pharma_prose_stem_hits": 4,
+        "pharma_prose_stem_rate": 0.4444,
+        "herbal_stem_hits": 6,
+        "herbal_stem_rate": 0.6667,
+        "quire20_stem_hits": 7,
+        "quire20_stem_rate": 0.7778,
+        "three_stage_supply_chain_hits": 4,
+        "three_stage_supply_chain_rate": 0.4444,
+        "labels_detail": [
+          {
+            "locus": "f89v1.1",
+            "ltype": "@Lc",
+            "text": "okoraldy",
+            "stems": [
+              "oral"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89v1.21",
+            "ltype": "@Lc",
+            "text": "koeeorain",
+            "stems": [
+              "Koeora"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f89v1.2",
+            "ltype": "@Lf",
+            "text": "otoy",
+            "stems": [
+              "oy"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89v1.3",
+            "ltype": "@Lf",
+            "text": "otchar",
+            "stems": [
+              "ch"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89v1.4",
+            "ltype": "@Lf",
+            "text": "darshody",
+            "stems": [
+              "rsh"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89v1.22",
+            "ltype": "@Lf",
+            "text": "otorshos",
+            "stems": [
+              "orsho"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f89v1.23",
+            "ltype": "@Lf",
+            "text": "opol.olaiin",
+            "stems": [
+              "ol",
+              "ain"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f89v1.24",
+            "ltype": "@Lf",
+            "text": "opaldaiin",
+            "stems": [
+              "alda"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": true
+          }
+        ],
+        "paragraph_openers": [
+          {
+            "para_idx": 1,
+            "start_locus": "f89v1.5",
+            "lines": 8,
+            "words": 70,
+            "opening_words": "koldal.sfal.cfhey.ofcheol"
+          },
+          {
+            "para_idx": 2,
+            "start_locus": "f89v1.13",
+            "lines": 8,
+            "words": 75,
+            "opening_words": "tosheo.fcheody.shekey.or"
+          }
+        ]
+      },
+      {
+        "folio": "f99r",
+        "lc_loci": 4,
+        "lf_loci": 30,
+        "total_label_words": 36,
+        "paragraphs_count": 4,
+        "prose_lines": 18,
+        "prose_words": 158,
+        "mean_words_per_line": 8.78,
+        "same_folio_exact_hits": 4,
+        "same_folio_stem_hits": 18,
+        "same_folio_stem_rate": 0.5,
+        "pharma_prose_stem_hits": 25,
+        "pharma_prose_stem_rate": 0.6944,
+        "herbal_stem_hits": 30,
+        "herbal_stem_rate": 0.8333,
+        "quire20_stem_hits": 28,
+        "quire20_stem_rate": 0.7778,
+        "three_stage_supply_chain_hits": 24,
+        "three_stage_supply_chain_rate": 0.6667,
+        "labels_detail": [],
+        "paragraph_openers": [
+          {
+            "para_idx": 1,
+            "start_locus": "f99r.15",
+            "lines": 4,
+            "words": 39,
+            "opening_words": "pcheody.oteody.daiin.cpheey"
+          },
+          {
+            "para_idx": 2,
+            "start_locus": "f99r.28",
+            "lines": 4,
+            "words": 35,
+            "opening_words": "kodaiin.opchey.qoky.dar"
+          },
+          {
+            "para_idx": 3,
+            "start_locus": "f99r.41",
+            "lines": 4,
+            "words": 41,
+            "opening_words": "tsheeor.cpheol.ey.pchol"
+          },
+          {
+            "para_idx": 4,
+            "start_locus": "f99r.47",
+            "lines": 6,
+            "words": 43,
+            "opening_words": "tol.keey.ctheey"
+          }
+        ]
+      },
+      {
+        "folio": "f99v",
+        "lc_loci": 4,
+        "lf_loci": 21,
+        "total_label_words": 26,
+        "paragraphs_count": 4,
+        "prose_lines": 19,
+        "prose_words": 137,
+        "mean_words_per_line": 7.21,
+        "same_folio_exact_hits": 3,
+        "same_folio_stem_hits": 11,
+        "same_folio_stem_rate": 0.4231,
+        "pharma_prose_stem_hits": 17,
+        "pharma_prose_stem_rate": 0.6538,
+        "herbal_stem_hits": 19,
+        "herbal_stem_rate": 0.7308,
+        "quire20_stem_hits": 17,
+        "quire20_stem_rate": 0.6538,
+        "three_stage_supply_chain_hits": 16,
+        "three_stage_supply_chain_rate": 0.6154,
+        "labels_detail": [],
+        "paragraph_openers": [
+          {
+            "para_idx": 1,
+            "start_locus": "f99v.10",
+            "lines": 4,
+            "words": 29,
+            "opening_words": "sol.cheols.ockhey.qoy"
+          },
+          {
+            "para_idx": 2,
+            "start_locus": "f99v.21",
+            "lines": 4,
+            "words": 37,
+            "opening_words": "doror.okeeody.opar.okor"
+          },
+          {
+            "para_idx": 3,
+            "start_locus": "f99v.32",
+            "lines": 4,
+            "words": 34,
+            "opening_words": "qokeeoy.chokol.qokeeo.dy"
+          },
+          {
+            "para_idx": 4,
+            "start_locus": "f99v.37",
+            "lines": 7,
+            "words": 37,
+            "opening_words": "eol.soey.qokol.olkeol"
+          }
+        ]
+      },
+      {
+        "folio": "f100r",
+        "lc_loci": 0,
+        "lf_loci": 17,
+        "total_label_words": 18,
+        "paragraphs_count": 2,
+        "prose_lines": 10,
+        "prose_words": 91,
+        "mean_words_per_line": 9.1,
+        "same_folio_exact_hits": 0,
+        "same_folio_stem_hits": 7,
+        "same_folio_stem_rate": 0.3889,
+        "pharma_prose_stem_hits": 10,
+        "pharma_prose_stem_rate": 0.5556,
+        "herbal_stem_hits": 13,
+        "herbal_stem_rate": 0.7222,
+        "quire20_stem_hits": 11,
+        "quire20_stem_rate": 0.6111,
+        "three_stage_supply_chain_hits": 9,
+        "three_stage_supply_chain_rate": 0.5,
+        "labels_detail": [],
+        "paragraph_openers": [
+          {
+            "para_idx": 1,
+            "start_locus": "f100r.12",
+            "lines": 4,
+            "words": 35,
+            "opening_words": "pcheol.sheod.qocpheeckhy.shodol"
+          },
+          {
+            "para_idx": 2,
+            "start_locus": "f100r.22",
+            "lines": 6,
+            "words": 56,
+            "opening_words": "folshody.choldaiin.fchod.ycheol"
+          }
+        ]
+      },
+      {
+        "folio": "f100v",
+        "lc_loci": 0,
+        "lf_loci": 13,
+        "total_label_words": 14,
+        "paragraphs_count": 1,
+        "prose_lines": 9,
+        "prose_words": 79,
+        "mean_words_per_line": 8.78,
+        "same_folio_exact_hits": 0,
+        "same_folio_stem_hits": 1,
+        "same_folio_stem_rate": 0.0714,
+        "pharma_prose_stem_hits": 9,
+        "pharma_prose_stem_rate": 0.6429,
+        "herbal_stem_hits": 12,
+        "herbal_stem_rate": 0.8571,
+        "quire20_stem_hits": 9,
+        "quire20_stem_rate": 0.6429,
+        "three_stage_supply_chain_hits": 8,
+        "three_stage_supply_chain_rate": 0.5714,
+        "labels_detail": [
+          {
+            "locus": "f100v.1",
+            "ltype": "@Lf",
+            "text": "tolchd",
+            "stems": [
+              "Kolchd"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f100v.2",
+            "ltype": "@Lf",
+            "text": "chols",
+            "stems": [
+              "ol"
+            ],
+            "in_same_folio_stem": true,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f100v.3",
+            "ltype": "@Lf",
+            "text": "opchor",
+            "stems": [
+              "ch"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f100v.4",
+            "ltype": "@Lf",
+            "text": "solsy",
+            "stems": [
+              "ols"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f100v.5",
+            "ltype": "@Lf",
+            "text": "soleesos",
+            "stems": [
+              "oleso"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": false,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f100v.6",
+            "ltype": "@Lf",
+            "text": "ykchochdy",
+            "stems": [
+              "choch"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f100v.7",
+            "ltype": "@Lf",
+            "text": "ykchdy",
+            "stems": [
+              "ch"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f100v.8",
+            "ltype": "@Lf",
+            "text": "dchdy",
+            "stems": [
+              "ch"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f100v.9",
+            "ltype": "@Lf",
+            "text": "dalsy",
+            "stems": [
+              "ls"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f100v.10",
+            "ltype": "@Lf",
+            "text": "okcheor",
+            "stems": [
+              "che"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f100v.11",
+            "ltype": "@Lf",
+            "text": "ytchol",
+            "stems": [
+              "ch"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          },
+          {
+            "locus": "f100v.12",
+            "ltype": "@Lf",
+            "text": "dykchal",
+            "stems": [
+              "ykch"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": false
+          },
+          {
+            "locus": "f100v.13",
+            "ltype": "@Lf",
+            "text": "chos.ctharal",
+            "stems": [
+              "os",
+              "Khar"
+            ],
+            "in_same_folio_stem": false,
+            "in_herbal_stem": true,
+            "in_quire20_stem": true
+          }
+        ],
+        "paragraph_openers": [
+          {
+            "para_idx": 1,
+            "start_locus": "f100v.14",
+            "lines": 9,
+            "words": 79,
+            "opening_words": "deey.sheocphy.qoteody.ckhoor"
+          }
+        ]
+      },
+      {
+        "folio": "f101r",
+        "lc_loci": 0,
+        "lf_loci": 0,
+        "total_label_words": 0,
+        "paragraphs_count": 3,
+        "prose_lines": 10,
+        "prose_words": 227,
+        "mean_words_per_line": 22.7,
+        "same_folio_exact_hits": 0,
+        "same_folio_stem_hits": 0,
+        "same_folio_stem_rate": 0.0,
+        "pharma_prose_stem_hits": 0,
+        "pharma_prose_stem_rate": 0.0,
+        "herbal_stem_hits": 0,
+        "herbal_stem_rate": 0.0,
+        "quire20_stem_hits": 0,
+        "quire20_stem_rate": 0.0,
+        "three_stage_supply_chain_hits": 0,
+        "three_stage_supply_chain_rate": 0.0,
+        "labels_detail": [],
+        "paragraph_openers": [
+          {
+            "para_idx": 1,
+            "start_locus": "f101r.1",
+            "lines": 2,
+            "words": 47,
+            "opening_words": "pcheol.sheol.ol.shey"
+          },
+          {
+            "para_idx": 2,
+            "start_locus": "f101r.3",
+            "lines": 4,
+            "words": 90,
+            "opening_words": "@183;oleol.okeor.r.sheol"
+          },
+          {
+            "para_idx": 3,
+            "start_locus": "f101r.7",
+            "lines": 4,
+            "words": 90,
+            "opening_words": "cphoar.oaiin.ypcholy.daiin"
+          }
+        ]
+      },
+      {
+        "folio": "f101v",
+        "lc_loci": 0,
+        "lf_loci": 18,
+        "total_label_words": 18,
+        "paragraphs_count": 3,
+        "prose_lines": 10,
+        "prose_words": 193,
+        "mean_words_per_line": 19.3,
+        "same_folio_exact_hits": 0,
+        "same_folio_stem_hits": 13,
+        "same_folio_stem_rate": 0.7222,
+        "pharma_prose_stem_hits": 13,
+        "pharma_prose_stem_rate": 0.7222,
+        "herbal_stem_hits": 14,
+        "herbal_stem_rate": 0.7778,
+        "quire20_stem_hits": 14,
+        "quire20_stem_rate": 0.7778,
+        "three_stage_supply_chain_hits": 13,
+        "three_stage_supply_chain_rate": 0.7222,
+        "labels_detail": [],
+        "paragraph_openers": [
+          {
+            "para_idx": 1,
+            "start_locus": "f101v.19",
+            "lines": 3,
+            "words": 56,
+            "opening_words": "tolchor.cheopor.or.ody"
+          },
+          {
+            "para_idx": 2,
+            "start_locus": "f101v.22",
+            "lines": 3,
+            "words": 62,
+            "opening_words": "ksear.lol.keeol.otal"
+          },
+          {
+            "para_idx": 3,
+            "start_locus": "f101v.25",
+            "lines": 4,
+            "words": 75,
+            "opening_words": "daiin.dair.yteol.chor"
+          }
+        ]
+      },
+      {
+        "folio": "f102r1",
+        "lc_loci": 3,
+        "lf_loci": 1,
+        "total_label_words": 4,
+        "paragraphs_count": 3,
+        "prose_lines": 13,
+        "prose_words": 98,
+        "mean_words_per_line": 7.54,
+        "same_folio_exact_hits": 0,
+        "same_folio_stem_hits": 0,
+        "same_folio_stem_rate": 0.0,
+        "pharma_prose_stem_hits": 0,
+        "pharma_prose_stem_rate": 0.0,
+        "herbal_stem_hits": 1,
+        "herbal_stem_rate": 0.25,
+        "quire20_stem_hits": 2,
+        "quire20_stem_rate": 0.5,
+        "three_stage_supply_chain_hits": 0,
+        "three_stage_supply_chain_rate": 0.0,
+        "labels_detail": [],
+        "paragraph_openers": [
+          {
+            "para_idx": 1,
+            "start_locus": "f102r1.3",
+            "lines": 4,
+            "words": 28,
+            "opening_words": "polaiin.shocthy.qoteol.loiiin"
+          },
+          {
+            "para_idx": 2,
+            "start_locus": "f102r1.8",
+            "lines": 4,
+            "words": 30,
+            "opening_words": "pshodaiin.qoorar.chopychofol.daiin"
+          },
+          {
+            "para_idx": 3,
+            "start_locus": "f102r1.13",
+            "lines": 5,
+            "words": 40,
+            "opening_words": "teesody.qoeol.olcheor.qokey"
+          }
+        ]
+      },
+      {
+        "folio": "f102r2",
+        "lc_loci": 5,
+        "lf_loci": 2,
+        "total_label_words": 7,
+        "paragraphs_count": 3,
+        "prose_lines": 15,
+        "prose_words": 137,
+        "mean_words_per_line": 9.13,
+        "same_folio_exact_hits": 0,
+        "same_folio_stem_hits": 0,
+        "same_folio_stem_rate": 0.0,
+        "pharma_prose_stem_hits": 1,
+        "pharma_prose_stem_rate": 0.1429,
+        "herbal_stem_hits": 2,
+        "herbal_stem_rate": 0.2857,
+        "quire20_stem_hits": 2,
+        "quire20_stem_rate": 0.2857,
+        "three_stage_supply_chain_hits": 1,
+        "three_stage_supply_chain_rate": 0.1429,
+        "labels_detail": [],
+        "paragraph_openers": [
+          {
+            "para_idx": 1,
+            "start_locus": "f102r2.2",
+            "lines": 5,
+            "words": 38,
+            "opening_words": "lsais.azg.cheey.cfhey"
+          },
+          {
+            "para_idx": 2,
+            "start_locus": "f102r2.8",
+            "lines": 5,
+            "words": 49,
+            "opening_words": "kolor.olaiin.opor.shey"
+          },
+          {
+            "para_idx": 3,
+            "start_locus": "f102r2.16",
+            "lines": 5,
+            "words": 50,
+            "opening_words": "ol.dody.cthol.soeees"
+          }
+        ]
+      },
+      {
+        "folio": "f102v2",
+        "lc_loci": 3,
+        "lf_loci": 19,
+        "total_label_words": 22,
+        "paragraphs_count": 2,
+        "prose_lines": 17,
+        "prose_words": 168,
+        "mean_words_per_line": 9.88,
+        "same_folio_exact_hits": 2,
+        "same_folio_stem_hits": 11,
+        "same_folio_stem_rate": 0.5,
+        "pharma_prose_stem_hits": 16,
+        "pharma_prose_stem_rate": 0.7273,
+        "herbal_stem_hits": 19,
+        "herbal_stem_rate": 0.8636,
+        "quire20_stem_hits": 18,
+        "quire20_stem_rate": 0.8182,
+        "three_stage_supply_chain_hits": 16,
+        "three_stage_supply_chain_rate": 0.7273,
+        "labels_detail": [],
+        "paragraph_openers": [
+          {
+            "para_idx": 1,
+            "start_locus": "f102v2.17",
+            "lines": 7,
+            "words": 75,
+            "opening_words": "podeesho.oteeos.sheor.qoteeo"
+          },
+          {
+            "para_idx": 2,
+            "start_locus": "f102v2.30",
+            "lines": 10,
+            "words": 93,
+            "opening_words": "pydchy.odiy.pcheady.qoekeey"
+          }
+        ]
+      },
+      {
+        "folio": "f102v1",
+        "lc_loci": 2,
+        "lf_loci": 8,
+        "total_label_words": 10,
+        "paragraphs_count": 2,
+        "prose_lines": 14,
+        "prose_words": 117,
+        "mean_words_per_line": 8.36,
+        "same_folio_exact_hits": 2,
+        "same_folio_stem_hits": 3,
+        "same_folio_stem_rate": 0.3,
+        "pharma_prose_stem_hits": 4,
+        "pharma_prose_stem_rate": 0.4,
+        "herbal_stem_hits": 7,
+        "herbal_stem_rate": 0.7,
+        "quire20_stem_hits": 7,
+        "quire20_stem_rate": 0.7,
+        "three_stage_supply_chain_hits": 4,
+        "three_stage_supply_chain_rate": 0.4,
+        "labels_detail": [],
+        "paragraph_openers": [
+          {
+            "para_idx": 1,
+            "start_locus": "f102v1.7",
+            "lines": 8,
+            "words": 73,
+            "opening_words": "poaiin.ockhey.pchol.doiin"
+          },
+          {
+            "para_idx": 2,
+            "start_locus": "f102v1.19",
+            "lines": 6,
+            "words": 44,
+            "opening_words": "foidaiin.dair.or.sheol"
+          }
+        ]
+      }
+    ]
+  }
+}

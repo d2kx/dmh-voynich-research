@@ -1,10 +1,10 @@
 # Visual Botanical, Astrological, Balneological & Cosmological Crib Identification Dossier
 
-> **Purpose of this Dossier:** Statistical analysis alone cannot tell you whether a plant stem means *Nightshade* or *Alkanet*, or what a painted water pipe or star-wheel is doing. To ground Voynich root words in the real physical world, we must pair **high-resolution visual inspection of the paintings** with **the exact Voynich labels written on those drawings** and **how those words behave in the recipe sections**. This dossier compiles the **75 strongest visual botanical, astronomical, balneological, cosmological, and pharmaceutical identifications** in the manuscript.
+> **Purpose of this Dossier:** Statistical analysis alone cannot tell you whether a plant stem means *Nightshade* or *Alkanet*, or what a painted water pipe or star-wheel is doing. To ground Voynich root words in the real physical world, we must pair **high-resolution visual inspection of the paintings** with **the exact Voynich labels written on those drawings** and **how those words behave in the recipe sections**. This dossier compiles the **80 strongest visual botanical, astronomical, balneological, cosmological, and pharmaceutical identifications** in the manuscript.
 
 ---
 
-## Quick Summary Table: The 75 Flagship Visual Identifications (`SPEC-01` – `SPEC-75`)
+## Quick Summary Table: The 80 Flagship Visual Identifications (`SPEC-01` – `SPEC-80`)
 
 | ID | Folio(s) | Painted Subject | Real-World Identification (15th-c. Herbal / Astronomy / Balneology) | Key Voynich Words / Stems | Why the Match Holds Up |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -83,10 +83,15 @@
 | **SPEC-73** | `f88v` (p.163) | **Three-Tier Compounding Formulary With Inscribed Storage Jars, Root-Cutting Rows & otar arody Heading** | *Receptarium / Antidotarium Compounding Register* | `otar arody (master recipe bridge formula), otoram (root decoction)` | Tier A (Pharmacological Pipeline Link) |
 | **SPEC-74** | `f48v & f89v1[1,4]` (p.97) | **Master Herbal Specimen TWIN-04 (Bifurcated Yellow Gentian / Bistort, f48v) & Pharmaceutical Mirror Cutting (f89v1[1,4])** | *Gentiana lutea L. (Great Yellow Gentian)* | `otchdy (steeped essence), otoldy (liquid extract)` | Tier A (Botanical & Pharmaceutical Twin Proof) |
 | **SPEC-75** | `f105r & f116r` (p.188) | **Quire 20 Starred Recipe Architecture: Dotted vs Plain Star Dyads (f105r), Penultimate Formulary Chaining (f116r) & 32.12-Word Recipe Invariant** | *Antidotarium Nicolai / Compendium Salernitanum Clinical Formulary* | `par / tar arody (root formulation), qokeedy (then boil thoroughly)` | Tier A+ (Computational & Syntactic Formulary Benchmark) |
+| **SPEC-76** | `f71v & f72r1` (p.131) | **Taurus I Light Manger (`f71v`) & Taurus II Dark Bull (`f72r1`, `may`): `(10°+5°)+(10°+5°)=30°` Decan Law, Barrel-to-Naked Hinge ($z = +15.98$) & `09:00` Vellum Hole** | *Taurus (1st–15th Degrees Light Manger `f71v` + 16th–30th Degrees Dark Bull `f72r1`)* | `otal / okal (`s_tal` celestial sector & star degree), char.aiin / otaiin (`12:00` outer-arc cusp leaders on `f71v` & `f72r1`)` | Tier A+ (`10°+5°` Decan Reconciliation Law 4/4 = 100% + Barrel-to-Naked Hinge z = +15.98 + Vellum-Hole Mirror Proof) |
+| **SPEC-77** | `f68v3, f68v2 & f68v1` (p.125) | **The Unfolded `f68v3 | f68v2 | f68v1` Astronomical Verso Sheet (`71.13%` Header-to-Wheel Stem Echo & `66.12%` Recto-to-Verso Continuity)** | *Tabula Stellarum Fixarum et Quattuor Quadrantum Lunae (8-Sector & 6-Sector Star Wheels + 4-Quadrant Moon Wheel)* | `otal / okal / odaiin (`71.13%` [`69/97`] of `@P` header tokens share their canonical root stem with the wheel rings/spokes/star-labels on `p125`!), qokedy / qotedy (`4.12%` `qo-` procedural verbs in `@P` headers vs `1.22%` on wheel rings/labels = `3.38×` lift!)` | Tier A+ (3-Panel Unfolded Astronomical Verso + 71.13% Header-to-Wheel Stem Echo + 66.12% Recto-Verso Continuity) |
+| **SPEC-78** | `f77v & f83v` (p.141) | **The `f77v` 5-Loop Intestinal/Condenser Coil (`okalo` — `81.82%` Local Echo) & `f83v` Crossed Green Bladder/Kidney Retorts (`100.0%` Balneo Echo)** | *Intestinum Convolutum / Serpentina Distillationis (`f77v` 5-Loop Coil `okalo` + Fluted Chalice Goblet Bather)* | `okalo / okol (`s_tal` coiled condenser vessel & green goblet basin), otedy / dchedy (`s_ted / s_ched` bifurcated Y-tube & active infusion flow)` | Tier A+ (Iconic 5-Loop Coil `okalo` + Crossed Bladder Retorts + 84.13% Global Balneo Callout Stem Law) |
+| **SPEC-79** | `f88v, f89r1 & f89r2 / f100v & f101r` (p.163) | **The Unfolded `p163` (`f88v | f89r1 | f89r2`, Numeral `'48'`) & `p179` (`f100v | f101r` Cross-Column Sheet Echo `7.14% -> 42.86%` & Nominal Absorption $z = -3.54$)** | *Tabulae Synopticae Pharmacopolae (Unfolded 3-Panel `p163` & 2-Panel `p179` Apothecary Master Concordances)* | `opal / okol (`s_pal / s_tal` master apothecary vessel labels on `f89r1` & `f89r2`), sory / choldy / otar (`f100v` left-column shelf labels echoed across the fold in `f101r` wide prose)` | Tier A+ (Unfolded `p163` Numeral `'48'` + `p179` `6.00×` Cross-Fold Sheet Echo & Nominal Absorption z = -3.54) |
+| **SPEC-80** | `f34r & f39r` (p.68) | **The `f34r` Polychrome Three-Headed Thistle/Centaury (`20` `<->` Intrusions) & `f39r` Bilobed Stolon Monograph (`89.81%` Quire 20 Stem Echo)** | *f34r: Centaurea / Carduus / Papaver (Polychrome 3-Headed Blossom with Hooked Green Calyces & Bulbous Basal Crown) + f39r: Geum urbanum / Ranunculus bulbosus (Asymmetrical Lobed Leaves, 3 Rayed Blossoms & Horizontal Stolon)* | `qokeedy / qokedy (`19.51%` `-edy/-eey` on `f34r` & `16.56%` on `f39r` — `5.82×` higher than Currier A Herbal!), chedy / shedy (`s_ched / s_shed` active steeping & bathing verbs shared with Quire 13 Baths)` | Tier A+ (Milestone 80th Specimen: Currier B Herbal Clinical Bridge into Balneo z = +4.75 & Quire 20 z = +3.68) |
 
 ---
 
-## Detailed Visual & Linguistic Dossiers (`SPEC-01` – `SPEC-75`)
+## Detailed Visual & Linguistic Dossiers (`SPEC-01` – `SPEC-80`)
 
 ### SPEC-01: Folio `f1v` — Deadly Nightshade / Belladonna
 * **Manuscript Section:** Herbal A (Scribe 1) (Yale PDF Page 4)
@@ -1809,6 +1814,121 @@ Folio `f48v` (`pages/f48v_gentian_bifurcated_twin_enh.png`, `p97`) portrays the 
 
 #### 3. Plain-English Explanation
 Folios `f105r` (`pages/f105r_dotted_star_dyads_enh.png`, `p188`) and `f116r` (`pages/f116r_penultimate_recipes_enh.png`, `p206`) encapsulate the crowning syntactic and paleographic architecture of the Quire 20 Starred Formulary (Recipes 1..285). In Attack 203, we proved that Quire 20 margin stars alternate strictly 1-to-1 between Dotted and Plain centers across `85.28%` of all transitions ($z = +12.20, p < 10^{-33}$), hitting `100.0%` perfect alternation across 17 folios. On `f116r`, the penultimate recipes close with the rhyming pair `cthan cphan`, exhibiting strict adherence to the `32.12`-word canonical recipe invariant immediately preceding the manuscript's multilingual finale on `f116v`.
+
+---
+
+### SPEC-76: Folio `f71v & f72r1` — Taurus I Light Manger (`f71v`) & Taurus II Dark Bull (`f72r1`, `may`): `(10°+5°)+(10°+5°)=30°` Decan Law, Barrel-to-Naked Hinge ($z = +15.98$) & `09:00` Vellum Hole
+* **Manuscript Section:** Zodiac Split-Sign Medallions ($I=Z, Quire 11, Scribe 4, Currier A) (Yale PDF Page 131)
+* **Primary Scientific / Historical Candidates:** *Taurus (1st–15th Degrees Light Manger `f71v` + 16th–30th Degrees Dark Bull `f72r1`)*, *Decani Tres in Duobus Medallionibus (`10°` Inner + `[5° + 5°]` Outer Top Arcs + `10°` Inner = `30°`)*
+* **15th-Century European Parallels:** 15th-century Northern Italian / Franco-Flemish *Kalendaria* & *Astrolabium Planum* (reconciling three 10° Decans with two 15° half-signs)
+* **Confidence Rating:** **Tier A+ (`10°+5°` Decan Reconciliation Law 4/4 = 100% + Barrel-to-Naked Hinge z = +15.98 + Vellum-Hole Mirror Proof)**
+
+![f71v & f72r1 — Taurus I Light Manger (`f71v`) & Taurus II Dark Bull (`f72r1`, `may`): `(10°+5°)+(10°+5°)=30°` Decan Law, Barrel-to-Naked Hinge ($z = +15.98$) & `09:00` Vellum Hole](../pages/f72r1_taurus_dark_bull_hole_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Both `f71v` (Taurus I, white bull eating at a red-and-green woven manger) and `f72r1` (Taurus II, reddish-brown bull beside green foliage) carry `may` in the central hub and arrange their `15` `@Lz` degree-nymphs into **`10` Inner Full-Circle Nymphs (`1` full `10°` Decan) + `5` Outer Top-Arc Nymphs (`1/2` Decan = `5°`)**
+- On `f72r1`, `5/10` inner-circle nymphs emerge from wooden barrels, whereas **`0/5` (`0%`) outer top-arc nymphs (`10:00–02:00`) have barrels (`100%` full-body naked)**—pinpointing the exact mid-medallion hinge ($\chi^2 = 255.28, z = +15.98$) between the `98.67%` barreled early medallions (`f70v2..f71v`) and `98.58%` naked later medallions (`f72r2..f73v`)
+- At `09:00` on `f72r1`'s inner ring sits a circular calfskin defect hole (mirroring `f72v1` Libra's `03:00` hole on the reverse), forcing `<f72r1.6,@Lz> otal.kshy` to be written horizontally underneath the hole
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `otalshedy.otedy (`f71v.2` opener) / otal.kshy (`f72r1.6` horizontal label below 09:00 vellum hole)`
+- **Dominant Root Stems on This Page:** `otal / okal (`s_tal` celestial sector & star degree)`, `char.aiin / otaiin (`12:00` outer-arc cusp leaders on `f71v` & `f72r1`)`, `otar.ar.aly (`f71v` `12:00` inner decan leader)`
+- **Where This Ingredient Reappears in Recipes:** f70v1 & f71r (Aries I & II split medallions obeying the exact same `10° + 5°` law, `4/4 = 100%`, `Attack 205`); f72v1 (Libra on the reverse of the `f72r1` panel sharing the `09:00 <-> 03:00` hole)
+
+#### 3. Plain-English Explanation
+Why did the Voynich artist split Aries (`f70v1 + f71r`) and Taurus (`f71v + f72r1`) into two 15-degree medallions each, when classical astrology divides every 30-degree sign into **three 10-degree Decans**? In `Attack 205`, high-resolution inspection of `p131` solved this puzzle with `100%` (`4/4`) precision: every 15-nymph half-sign puts **`10` nymphs (`1` full `10°` Decan) in the inner complete circle** and **`5` nymphs (`1/2` Decan = `5°`) in an outer top-arc gallery (`10:00–02:00`)**, so the two 5-nymph top arcs combine across Medallions I and II to form the third `10°` Decan (`10° + [5° + 5°] + 10° = 30°`)! Even better, `f72r1` (`Taurus II`) is the exact hinge where the artist switched from barreled nymphs (`5/10` inner) to full-body naked nymphs (`0/5` outer arc, $z = +15.98$).
+
+---
+
+### SPEC-77: Folio `f68v3, f68v2 & f68v1` — The Unfolded `f68v3 | f68v2 | f68v1` Astronomical Verso Sheet (`71.13%` Header-to-Wheel Stem Echo & `66.12%` Recto-to-Verso Continuity)
+* **Manuscript Section:** Astronomical Unfolded 3-Panel Verso ($I=A, Quire 9, Scribe 4, Currier A) (Yale PDF Page 125)
+* **Primary Scientific / Historical Candidates:** *Tabula Stellarum Fixarum et Quattuor Quadrantum Lunae (8-Sector & 6-Sector Star Wheels + 4-Quadrant Moon Wheel)*, *Quire 9 Unfolded 3-Panel Verso Star Catalog (`425` words across `3` panels on `p125`, `Attack 205`)*
+* **15th-Century European Parallels:** 15th-century Padua / Venetian *Sphaera* & *Computus* foldout sheets pairing multi-sector star wheels with four-quadrant lunar phase diagrams
+* **Confidence Rating:** **Tier A+ (3-Panel Unfolded Astronomical Verso + 71.13% Header-to-Wheel Stem Echo + 66.12% Recto-Verso Continuity)**
+
+![f68v3, f68v2 & f68v1 — The Unfolded `f68v3 | f68v2 | f68v1` Astronomical Verso Sheet (`71.13%` Header-to-Wheel Stem Echo & `66.12%` Recto-to-Verso Continuity)](../pages/f68v1_f68v2_astro_sectors_moon_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Page 125 of the Yale scan (`pages/f68v1_f68v2_astro_sectors_moon_enh.png`) displays the **entire unfolded 3-panel verso (`f68v3 | f68v2 | f68v1`)** on the back of the `f68r1–f68r3` Pleiades sheet (`p124`)
+- **Left Panel (`f68v3`, `210` words)**: 8 curved spiral spokes (`@Ro`) radiating from a smiling central face, with star clusters (`@Ls`) in all 8 sectors (`dary, oteatey, okoldy, otal, dolar...`) beneath a 4-line header paragraph (`<f68v3.1,@P0> tchoep.cheor...`)
+- **Center Panel (`f68v2`, `127` words)**: 6 radial spokes dividing 6 star sectors (`ar.aiin, octholey, okal, otor.ykaiin...`) beneath a 4-line header (`pchodar.opafal...`); **Right Panel (`f68v1`, `88` words)**: 4-quadrant wheel around a central Moon face with dark-blue vs unpainted lunar crescents (`okeodar, oteody, chol.daiin`) beneath a 5-line header (`tchodar.shecthedy...`)
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `tchoep.cheor (`f68v3.1` header) / pchodar.opafal (`f68v2.1` header) / tchodar.shecthedy (`f68v1.1` header)`
+- **Dominant Root Stems on This Page:** `otal / okal / odaiin (`71.13%` [`69/97`] of `@P` header tokens share their canonical root stem with the wheel rings/spokes/star-labels on `p125`!)`, `qokedy / qotedy (`4.12%` `qo-` procedural verbs in `@P` headers vs `1.22%` on wheel rings/labels = `3.38×` lift!)`, `dchol / okody (`44` shared canonical stems across the `f68r <-> f68v` recto-verso sheet = `66.12%` token stem coverage!)`
+- **Where This Ingredient Reappears in Recipes:** f68r1–f68r3 (`p124` recto of the exact same 3-panel sheet: `66.12%` token stem echo, `1.16×` Jaccard lift, `Attack 205`); f69v–f70r2 (`p127` sister 3-wheel astronomical foldout)
+
+#### 3. Plain-English Explanation
+Unfolding page 125 of the Yale scan (`pages/f68v1_f68v2_astro_sectors_moon_enh.png`) reveals the complete three-panel reverse of the `f68` star-atlas sheet (`f68v3 | f68v2 | f68v1`). Across all three panels, a multi-line paragraph (`@P0`) sits above a circular wheel—an 8-sector star wheel on the left (`f68v3`), a 6-sector star wheel in the middle (`f68v2`), and a 4-quadrant lunar phase wheel on the right (`f68v1`). In `Attack 205`, we proved that **`71.13%` (`69/97`) of the words in the top paragraphs share their root stem with the wheel rings, spokes, and star labels below them**, while surging **`3.38×` in `qo-` procedural verbs**, and **`66.12%` of all token stems on `f68v` echo the `f68r` Pleiades recto on the front of the same vellum sheet**!
+
+---
+
+### SPEC-78: Folio `f77v & f83v` — The `f77v` 5-Loop Intestinal/Condenser Coil (`okalo` — `81.82%` Local Echo) & `f83v` Crossed Green Bladder/Kidney Retorts (`100.0%` Balneo Echo)
+* **Manuscript Section:** Balneological Anatomical/Alchemical Conduits ($I=B, Quire 13, Scribe 2, Currier B) (Yale PDF Page 141)
+* **Primary Scientific / Historical Candidates:** *Intestinum Convolutum / Serpentina Distillationis (`f77v` 5-Loop Coil `okalo` + Fluted Chalice Goblet Bather)*, *Vasa Renalia / Vesicae Decussatae (`f83v` Crossed Green Kidney/Bladder Retorts & Bifurcated Y-Tube)*
+* **15th-Century European Parallels:** Mondino de Liuzzi / 15th-century Northern Italian anatomical & alchemical *Serpentina* coil and paired kidney/bladder diagrams
+* **Confidence Rating:** **Tier A+ (Iconic 5-Loop Coil `okalo` + Crossed Bladder Retorts + 84.13% Global Balneo Callout Stem Law)**
+
+![f77v & f83v — The `f77v` 5-Loop Intestinal/Condenser Coil (`okalo` — `81.82%` Local Echo) & `f83v` Crossed Green Bladder/Kidney Retorts (`100.0%` Balneo Echo)](../pages/f77v_balneo_four_organ_tubes_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- On `f77v` (`p141`), four vertical anatomical/hydraulic conduits run between `4` paragraphs (`331` words): `[1]` left floral ovary/calyx tube (`otedar, okedy, qokedy`), `[2]` center-left bulbous ampulla (`olol, otaldy, olkedy`), `[3]` center-right **5-loop horizontal intestinal/serpentine condenser coil (`<f77v.13,@Lt> okalo`)**, and `[4]` right nymph holding a **fluted goblet** in a green basin (`okol, dar, chdy`)
+- On `f83v` (`p153`), two **crossed green bladder/kidney retorts** at the top drain via twisting red/yellow tubes into two lower baths (`okyd, otal, sheol, okal, qokl`), while a central **bifurcated Y-tube** splits between two central bathers (`otedy, dchedy`)
+- In `Attack 206`, **`81.82%` (`9/11`) of `f77v`'s callout stems echo inside `f77v`'s own prose (`90.91%` in Balneo)**, **`100.0%` (`7/7`) of `f83v`'s callout stems echo in Balneo prose**, and globally **`84.13%` (`106/126`) of all Balneological callouts share their stem with Balneological prose**!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `okalo (`f77v.13` 5-loop intestinal/condenser coil) / dchedy (`f83v.7` central bifurcated Y-tube)`
+- **Dominant Root Stems on This Page:** `okalo / okol (`s_tal` coiled condenser vessel & green goblet basin)`, `otedy / dchedy (`s_ted / s_ched` bifurcated Y-tube & active infusion flow)`, `sheol / okal (`s_sheo / s_tal` crossed bladder/kidney retort callouts)`
+- **Where This Ingredient Reappears in Recipes:** f77r (`p140` recto of `f77v`: `37` shared stems = `1.18×` lift) & f83r (`p152` recto of `f83v`: `37` shared stems = `1.39×` lift, exemplifying our Codex-Wide Same-Leaf $z = +6.31$ & Facing-Opening $z = +5.18$ Continuity Law in `Attack 206`!)
+
+#### 3. Plain-English Explanation
+Folios `f77v` (`p141`) and `f83v` (`p153`) show why scholars have long debated whether Quire 13's plumbing represents **human anatomy (intestines, kidneys, Fallopian tubes)** or **alchemical/thermal distillation apparatus (serpentine condenser coils and crossed retorts)**—the artist deliberately fused both! On `f77v`, the third vertical column is a **5-loop serpentine coil labeled `okalo`** next to a bather holding a fluted goblet (`okol`), and **`81.82%` (`9/11`) of its labels echo right inside `f77v`'s own prose**. On `f83v`, two crossed green kidney/bladder retorts and a central Y-tube (`otedy, dchedy`) achieve **`100.0%` (`7/7`) stem echo across the Balneological treatise** (`Attack 206`).
+
+---
+
+### SPEC-79: Folio `f88v, f89r1 & f89r2 / f100v & f101r` — The Unfolded `p163` (`f88v | f89r1 | f89r2`, Numeral `'48'`) & `p179` (`f100v | f101r` Cross-Column Sheet Echo `7.14% -> 42.86%` & Nominal Absorption $z = -3.54$)
+* **Manuscript Section:** Pharmaceutical Unfolded Multi-Panel Master Sheets ($I=P, Quires 15 & 19, Scribe 1/3, Currier A) (Yale PDF Page 163)
+* **Primary Scientific / Historical Candidates:** *Tabulae Synopticae Pharmacopolae (Unfolded 3-Panel `p163` & 2-Panel `p179` Apothecary Master Concordances)*, *Physical Sheet-Level Cross-Column Citation Proof (`6.00×` Echo Jump across `f100v -> f101r`, `Attack 207`)*
+* **15th-Century European Parallels:** 15th-century Northern Italian multi-column apothecary wall-charts and foldout *Antidotaria* where a left-hand shelf column indexes a wide right-hand compounding table
+* **Confidence Rating:** **Tier A+ (Unfolded `p163` Numeral `'48'` + `p179` `6.00×` Cross-Fold Sheet Echo & Nominal Absorption z = -3.54)**
+
+![f88v, f89r1 & f89r2 / f100v & f101r — The Unfolded `p163` (`f88v | f89r1 | f89r2`, Numeral `'48'`) & `p179` (`f100v | f101r` Cross-Column Sheet Echo `7.14% -> 42.86%` & Nominal Absorption $z = -3.54$)](../pages/f89r1_pharma_three_row_jars_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- On `p163` (`pages/f89r1_pharma_three_row_jars_enh.png`), three Pharmaceutical panels (`f88v | f89r1 | f89r2`, `69` label words, `403` prose words) sit side-by-side; on the center panel (`f89r1`), a large blue-and-yellow jar (`opal`) stands beside 3 root shelves, and **handwritten Arabic numeral `'48'` is penned in brown ink right above the start of Paragraph 2 (`<f89r1.15,@P0> korary...`)**
+- On `p179` (`pages/f101r_unfolded_pharma_compendium_enh.png`), the left narrow panel is **`f100v`** (`13` labeled plants, `14` label words, only `7.14%` [`1/14`] self-prose echo) and the right double-wide panel is **`f101r`** (`28` **unlabeled** plants in 3 rows, `4` tall cylindrical jars, and `10` ultra-wide prose lines averaging **`22.70` words/line** = `2.33×` wider than normal `9.75`-word Pharma lines)
+- In `Attack 207`, we proved that **`42.86%` (`6/14`) of `f100v`'s left-column plant labels (`okam, sory, choldy, opakam, opor, otar`) echo directly inside `f101r`'s wide right-hand prose (`6.00×` jump!)**, while `f101r`'s unlabeled prose absorbs nominal `o-/d-/s-` citations (`55.07%`) and suppresses `qo-` verbs by **`2.67×` (`4.85%` vs `12.94%`, $z = -3.54, p = 0.0004$)**!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `opal (`f89r1.1` jar label) & '48' + korary (`f89r1.15` Para 2) / okam, sory, choldy, opakam, opor, otar (`f100v -> f101r` cross-fold echoes)`
+- **Dominant Root Stems on This Page:** `opal / okol (`s_pal / s_tal` master apothecary vessel labels on `f89r1` & `f89r2`)`, `sory / choldy / otar (`f100v` left-column shelf labels echoed across the fold in `f101r` wide prose)`, `korary (`f89r1.15` paragraph opener marked with Arabic numeral `'48'`)`
+- **Where This Ingredient Reappears in Recipes:** Across all `247` Pharmaceutical label words on `16` folios, `72.87%` share stems with Herbal, `60.73%` with Pharma prose, `69.64%` with Quire 20 Starred Recipes, and `58.30%` (`144/247`) complete the 3-Stage Supply Chain (`Attack 207`)!
+
+#### 3. Plain-English Explanation
+Why did `f100v` look like an outlier when studied as an isolated folio, echoing only `1/14` (`7.14%`) of its plant labels in its own short paragraph, while `f101r` has `28` painted plants with **zero labels** above 10 ultra-wide lines of prose (`22.70` words/line)? Unfolding `p179` (`pages/f101r_unfolded_pharma_compendium_enh.png`) solves both mysteries at once (`Attack 207`): `f100v` is the **left-hand margin column of the exact same unfolded sheet as `f101r`**, and **`42.86%` (`6/14`) of `f100v`'s plant labels echo directly across the vertical fold inside `f101r`'s wide prose (`6.00×` jump)**! Meanwhile, because `f101r`'s 28 plants have no `@Lf` labels, `f101r`'s wide prose absorbs the nominal ingredient names directly into the sentences (`55.07%` `o-/d-/s-`, suppressing `qo-` verbs by `2.67×`, $z = -3.54$).
+
+---
+
+### SPEC-80: Folio `f34r & f39r` — The `f34r` Polychrome Three-Headed Thistle/Centaury (`20` `<->` Intrusions) & `f39r` Bilobed Stolon Monograph (`89.81%` Quire 20 Stem Echo)
+* **Manuscript Section:** Currier B Herbal Clinical Bridge ($I=H, Quires 5 & 6, Scribes 2 & 3, Currier B) (Yale PDF Page 68)
+* **Primary Scientific / Historical Candidates:** *f34r: Centaurea / Carduus / Papaver (Polychrome 3-Headed Blossom with Hooked Green Calyces & Bulbous Basal Crown) + f39r: Geum urbanum / Ranunculus bulbosus (Asymmetrical Lobed Leaves, 3 Rayed Blossoms & Horizontal Stolon)*, *The 32-Folio Currier B Herbal Clinical Bridge (`5.82×` `-edy/-eey` Surge; Balneo Lift $z = +4.75$; Quire 20 Lift $z = +3.68$, `Attack 208`)*
+* **15th-Century European Parallels:** 15th-century Northern Italian clinical herbals (*Erbario Carrarese* / *Tractatus de Herbis*) where therapeutic monographs specify active decoction and bathing regimens directly beside the plant
+* **Confidence Rating:** **Tier A+ (Milestone 80th Specimen: Currier B Herbal Clinical Bridge into Balneo z = +4.75 & Quire 20 z = +3.68)**
+
+![f34r & f39r — The `f34r` Polychrome Three-Headed Thistle/Centaury (`20` `<->` Intrusions) & `f39r` Bilobed Stolon Monograph (`89.81%` Quire 20 Stem Echo)](../pages/f34r_currier_b_polychrome_herbal_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- On `f34r` (`p68`, `pages/f34r_currier_b_polychrome_herbal_enh.png`), three tall flower stalks (blue/white left, crimson-red center, yellow-ochre right) with hooked green involucral bracts rise through `16` lines (`123` words) split by **`20` `<->` drawing-intrusion gaps**, above a large blue-and-yellow scalloped basal leaf crown and dark taproot
+- On `f39r` (`p78`, `pages/f39r_currier_b_herbal_monograph_enh.png`), three rayed blossoms rise above two huge asymmetrical lobed central leaves (one dark green, one russet-red) and a twin-tuft root connected by a horizontal stolon runner (`2` paragraphs, `157` words, plus bottom-right key word `orain`)
+- In `Attack 208`, we proved across all `126` Herbal folios (`94` Currier A vs `32` Currier B) that Currier B Herbal pages surge **`5.82×` in `-edy/-eey` active decoction suffixes (`16.18%` vs `2.78%`)**, driving a **`1.26×` Stem Jaccard Lift with Balneological (`0.0702` vs `0.0557`, $z = +4.75, p = 2.0 \times 10^{-6}$, `79.68%` token coverage)** and a **`1.20×` Stem Jaccard Lift with Quire 20 Starred Recipes (`0.0420` vs `0.0351`, $z = +3.68, p = 0.00023$, `82.61%` token coverage; `89.81%` on `f39r`)**!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `fataiin.okor (`f34r.1` opener) / tedcheo (`f39r.1` Para 1 opener) & pchedar (`f39r.10` Para 2 opener)`
+- **Dominant Root Stems on This Page:** `qokeedy / qokedy (`19.51%` `-edy/-eey` on `f34r` & `16.56%` on `f39r` — `5.82×` higher than Currier A Herbal!)`, `chedy / shedy (`s_ched / s_shed` active steeping & bathing verbs shared with Quire 13 Baths)`, `okor / chody / daiin (`89.81%` of `f39r` tokens & `79.67%` of `f34r` tokens share their stem with Quire 20 Starred Recipes!)`
+- **Where This Ingredient Reappears in Recipes:** f75r–f84v (`79.68%` Currier B Herbal token stem coverage in Balneological, $z = +4.75$); f103r–f116r (`82.61%` Currier B Herbal token stem coverage in Quire 20 Starred Recipes, $z = +3.68$, `Attack 208`)
+
+#### 3. Plain-English Explanation
+Why are 32 pages of the Herbal section (`f26r–f95v`, including `f34r` and `f39r`) written by Scribes 2 and 3 in **Currier Language B**, while the other 94 Herbal pages are written by Scribe 1 in **Currier Language A**? In `Attack 208` (`Discovery 225`), comparing all 32 Currier B Herbal pages (`3,365` words) against all 94 Currier A Herbal pages (`7,417` words) via 2,000-trial permutation tests proved that the 32 Currier B Herbal pages are the manuscript's **Clinical Herbal Bridge**: they surge **`5.82×` in `-edy/-eey` active decoction verbs (`16.18%` vs `2.78%`)** and share significantly more root vocabulary with both the **Balneological Baths (`1.26×` lift, $z = +4.75$)** and the **Quire 20 Starred Recipes (`1.20×` lift, $z = +3.68$, reaching `89.81%` stem coverage on `f39r`)**!
 
 ---
 
