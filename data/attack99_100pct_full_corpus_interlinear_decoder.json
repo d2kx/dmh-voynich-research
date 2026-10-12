@@ -1,0 +1,507 @@
+{
+  "corpus_totals": {
+    "total_folios": 226,
+    "total_loci_lines": 5376,
+    "total_prose_tokens": 32995,
+    "total_prose_parsed_tokens": 32995,
+    "prose_parse_coverage_pct": 100.0,
+    "total_all_manuscript_tokens_including_labels_and_rings": 36229,
+    "all_manuscript_parse_coverage_pct": 100.0,
+    "unparsed_tokens": 0
+  },
+  "eight_tier_accountability_cascade": [
+    {
+      "tier": "T1_TOP1000_EXACT",
+      "prose_tokens": 24014,
+      "pct_of_prose": 72.7807,
+      "cumulative_prose_tokens": 24014,
+      "cumulative_pct_of_prose": 72.7807,
+      "all_manuscript_tokens": 25685,
+      "pct_of_all_manuscript": 70.8962
+    },
+    {
+      "tier": "T2_CANONICAL_ALLOGRAPH_OF_TOP1000",
+      "prose_tokens": 1268,
+      "pct_of_prose": 3.843,
+      "cumulative_prose_tokens": 25282,
+      "cumulative_pct_of_prose": 76.6237,
+      "all_manuscript_tokens": 1421,
+      "pct_of_all_manuscript": 3.9223
+    },
+    {
+      "tier": "T3_PRODUCTIVE_DERIVATION_62CORE",
+      "prose_tokens": 3219,
+      "pct_of_prose": 9.756,
+      "cumulative_prose_tokens": 28501,
+      "cumulative_pct_of_prose": 86.3798,
+      "all_manuscript_tokens": 3785,
+      "pct_of_all_manuscript": 10.4474
+    },
+    {
+      "tier": "T4_COMPOUND_OR_UNIVERBATED_PAIR",
+      "prose_tokens": 3691,
+      "pct_of_prose": 11.1865,
+      "cumulative_prose_tokens": 32192,
+      "cumulative_pct_of_prose": 97.5663,
+      "all_manuscript_tokens": 4302,
+      "pct_of_all_manuscript": 11.8745
+    },
+    {
+      "tier": "T5_VOWEL_LIQUID_PARTICLE_OR_1ED_GLIDE",
+      "prose_tokens": 134,
+      "pct_of_prose": 0.4061,
+      "cumulative_prose_tokens": 32326,
+      "cumulative_pct_of_prose": 97.9724,
+      "all_manuscript_tokens": 173,
+      "pct_of_all_manuscript": 0.4775
+    },
+    {
+      "tier": "T6_MULTI_TRANSCRIBER_SPLIT_OR_3MORPHEME",
+      "prose_tokens": 541,
+      "pct_of_prose": 1.6396,
+      "cumulative_prose_tokens": 32867,
+      "cumulative_pct_of_prose": 99.6121,
+      "all_manuscript_tokens": 695,
+      "pct_of_all_manuscript": 1.9184
+    },
+    {
+      "tier": "T7_SOFT_COMMA_ALLOGRAPH_OR_4MORPHEME",
+      "prose_tokens": 117,
+      "pct_of_prose": 0.3546,
+      "cumulative_prose_tokens": 32984,
+      "cumulative_pct_of_prose": 99.9667,
+      "all_manuscript_tokens": 154,
+      "pct_of_all_manuscript": 0.4251
+    },
+    {
+      "tier": "T8_GALLOWS_HEADER_OR_5SEGMENT_COMPOUND",
+      "prose_tokens": 11,
+      "pct_of_prose": 0.0333,
+      "cumulative_prose_tokens": 32995,
+      "cumulative_pct_of_prose": 100.0,
+      "all_manuscript_tokens": 14,
+      "pct_of_all_manuscript": 0.0386
+    }
+  ],
+  "section_interlinear_samples": {
+    "T": {
+      "loc": "f1r.1",
+      "section": "T",
+      "lang": "A",
+      "scribe": "1",
+      "eva_line": "fachys . ykal . ar . ataiin . shol . shory . cthres . y . kor . sholdy",
+      "bracket_parse_line": "[fa+ch+ys] [yk+a+l] [0+a+r] [0+a+t+aiin] [sh+o+l] [sh+o+ry] [0+cth+r+es] [0+y+0] [ko+r+0] [sh+ol+dy]",
+      "gloss_line": "HDR.INIT:mix/herb.ys INIT.VESSEL:one/unit.IN one/unit.FROM STEM(at).DOSE(2m) HEAT:entity.IN HEAT:entity.SRC STEM(cthr).es state HDR.VESSEL:from.source HEAT:fluid.DONE",
+      "tokens": [
+        {
+          "word": "fachys",
+          "tier": "T3_PRODUCTIVE_DERIVATION_62CORE",
+          "parse": "[fa+ch+ys]",
+          "gloss": "HDR.INIT:mix/herb.ys"
+        },
+        {
+          "word": "ykal",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[yk+a+l]",
+          "gloss": "INIT.VESSEL:one/unit.IN"
+        },
+        {
+          "word": "ar",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[0+a+r]",
+          "gloss": "one/unit.FROM"
+        },
+        {
+          "word": "ataiin",
+          "tier": "T4_COMPOUND_OR_UNIVERBATED_PAIR",
+          "parse": "[0+a+t+aiin]",
+          "gloss": "STEM(at).DOSE(2m)"
+        },
+        {
+          "word": "shol",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[sh+o+l]",
+          "gloss": "HEAT:entity.IN"
+        },
+        {
+          "word": "shory",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[sh+o+ry]",
+          "gloss": "HEAT:entity.SRC"
+        },
+        {
+          "word": "cthres",
+          "tier": "T4_COMPOUND_OR_UNIVERBATED_PAIR",
+          "parse": "[0+cth+r+es]",
+          "gloss": "STEM(cthr).es"
+        },
+        {
+          "word": "y",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[0+y+0]",
+          "gloss": "state"
+        },
+        {
+          "word": "kor",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[ko+r+0]",
+          "gloss": "HDR.VESSEL:from.source"
+        },
+        {
+          "word": "sholdy",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[sh+ol+dy]",
+          "gloss": "HEAT:fluid.DONE"
+        }
+      ]
+    },
+    "H": {
+      "loc": "f1v.2",
+      "section": "H",
+      "lang": "A",
+      "scribe": "1",
+      "eva_line": "yteey . char . or . ochy . dcho . lkody . okodar . chody",
+      "bracket_parse_line": "[yt+e+ey] [ch+a+r] [o+r+0] [o+c+hy] [d+ch+o] [l+k+ody] [ok+od+ar] [ch+o+dy]",
+      "gloss_line": "INIT.DUCT:grade.PART BENCH:one/unit.FROM NOM:from.source NOM:STEM(c).QUAL DEIC:mix/herb.NOM APPL.LIQ:vessel/body.STAT.A NOM.VESSEL:STEM(od).ROOT BENCH:entity.DONE",
+      "tokens": [
+        {
+          "word": "yteey",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[yt+e+ey]",
+          "gloss": "INIT.DUCT:grade.PART"
+        },
+        {
+          "word": "char",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[ch+a+r]",
+          "gloss": "BENCH:one/unit.FROM"
+        },
+        {
+          "word": "or",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[o+r+0]",
+          "gloss": "NOM:from.source"
+        },
+        {
+          "word": "ochy",
+          "tier": "T3_PRODUCTIVE_DERIVATION_62CORE",
+          "parse": "[o+c+hy]",
+          "gloss": "NOM:STEM(c).QUAL"
+        },
+        {
+          "word": "dcho",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[d+ch+o]",
+          "gloss": "DEIC:mix/herb.NOM"
+        },
+        {
+          "word": "lkody",
+          "tier": "T3_PRODUCTIVE_DERIVATION_62CORE",
+          "parse": "[l+k+ody]",
+          "gloss": "APPL.LIQ:vessel/body.STAT.A"
+        },
+        {
+          "word": "okodar",
+          "tier": "T3_PRODUCTIVE_DERIVATION_62CORE",
+          "parse": "[ok+od+ar]",
+          "gloss": "NOM.VESSEL:STEM(od).ROOT"
+        },
+        {
+          "word": "chody",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[ch+o+dy]",
+          "gloss": "BENCH:entity.DONE"
+        }
+      ]
+    },
+    "S": {
+      "loc": "f58r.1",
+      "section": "S",
+      "lang": "A",
+      "scribe": "3",
+      "eva_line": "korcholfy . shofchy . otoralchy . chofchol . sholy . otaly . dalm",
+      "bracket_parse_line": "[kor+cholfy] [sh+ofc+hy] [ot+oralc+hy] [ch+ofch+ol] [sh+o+ly] [ot+a+ly] [da+l+m]",
+      "gloss_line": "HDR.VESSEL:STEM(rchol).SPLIT HEAT:STEM(ofc).QUAL NOM.DUCT:STEM(oralc).QUAL BENCH:STEM(ofch).FLUID HEAT:entity.LIQ NOM.DUCT:one/unit.LIQ DEIC.FROM:in.liquid.STOP",
+      "tokens": [
+        {
+          "word": "korcholfy",
+          "tier": "T4_COMPOUND_OR_UNIVERBATED_PAIR",
+          "parse": "[kor+cholfy]",
+          "gloss": "HDR.VESSEL:STEM(rchol).SPLIT"
+        },
+        {
+          "word": "shofchy",
+          "tier": "T2_CANONICAL_ALLOGRAPH_OF_TOP1000",
+          "parse": "[sh+ofc+hy]",
+          "gloss": "HEAT:STEM(ofc).QUAL"
+        },
+        {
+          "word": "otoralchy",
+          "tier": "T6_MULTI_TRANSCRIBER_SPLIT_OR_3MORPHEME",
+          "parse": "[ot+oralc+hy]",
+          "gloss": "NOM.DUCT:STEM(oralc).QUAL"
+        },
+        {
+          "word": "chofchol",
+          "tier": "T2_CANONICAL_ALLOGRAPH_OF_TOP1000",
+          "parse": "[ch+ofch+ol]",
+          "gloss": "BENCH:STEM(ofch).FLUID"
+        },
+        {
+          "word": "sholy",
+          "tier": "T2_CANONICAL_ALLOGRAPH_OF_TOP1000",
+          "parse": "[sh+o+ly]",
+          "gloss": "HEAT:entity.LIQ"
+        },
+        {
+          "word": "otaly",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[ot+a+ly]",
+          "gloss": "NOM.DUCT:one/unit.LIQ"
+        },
+        {
+          "word": "dalm",
+          "tier": "T3_PRODUCTIVE_DERIVATION_62CORE",
+          "parse": "[da+l+m]",
+          "gloss": "DEIC.FROM:in.liquid.STOP"
+        }
+      ]
+    },
+    "A": {
+      "loc": "f67r1.1",
+      "section": "A",
+      "lang": "U",
+      "scribe": "4",
+      "eva_line": "teeodaiin . shey . epairody . osaiin . yteeoey . shey . epaiin . o . aiin",
+      "bracket_parse_line": "[t+eeod+aiin] [sh+e+y] [0+epair+ody] [o+s+aiin] [yt+eeo+ey] [sh+e+y] [0+e+p+aiin] [0+o+0] [0+a+iin]",
+      "gloss_line": "PARA.HDR:STEM(eeod).DOSE(2m) HEAT:grade.NOM STEM(epair).STAT.A NOM:next.DOSE(2m) INIT.DUCT:flow.PART HEAT:grade.NOM STEM(ep).DOSE(2m) entity one/unit.COUNT(2m)",
+      "tokens": [
+        {
+          "word": "teeodaiin",
+          "tier": "T3_PRODUCTIVE_DERIVATION_62CORE",
+          "parse": "[t+eeod+aiin]",
+          "gloss": "PARA.HDR:STEM(eeod).DOSE(2m)"
+        },
+        {
+          "word": "shey",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[sh+e+y]",
+          "gloss": "HEAT:grade.NOM"
+        },
+        {
+          "word": "epairody",
+          "tier": "T6_MULTI_TRANSCRIBER_SPLIT_OR_3MORPHEME",
+          "parse": "[0+epair+ody]",
+          "gloss": "STEM(epair).STAT.A"
+        },
+        {
+          "word": "osaiin",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[o+s+aiin]",
+          "gloss": "NOM:next.DOSE(2m)"
+        },
+        {
+          "word": "yteeoey",
+          "tier": "T3_PRODUCTIVE_DERIVATION_62CORE",
+          "parse": "[yt+eeo+ey]",
+          "gloss": "INIT.DUCT:flow.PART"
+        },
+        {
+          "word": "shey",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[sh+e+y]",
+          "gloss": "HEAT:grade.NOM"
+        },
+        {
+          "word": "epaiin",
+          "tier": "T4_COMPOUND_OR_UNIVERBATED_PAIR",
+          "parse": "[0+e+p+aiin]",
+          "gloss": "STEM(ep).DOSE(2m)"
+        },
+        {
+          "word": "o",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[0+o+0]",
+          "gloss": "entity"
+        },
+        {
+          "word": "aiin",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[0+a+iin]",
+          "gloss": "one/unit.COUNT(2m)"
+        }
+      ]
+    },
+    "C": {
+      "loc": "f67v2.3",
+      "section": "C",
+      "lang": "U",
+      "scribe": "4",
+      "eva_line": "tol . or . ain . am . otoly . sair . g",
+      "bracket_parse_line": "[to+l+0] [o+r+0] [0+a+in] [0+a+m] [ot+o+ly] [sa+i+r] [0+m+0]",
+      "gloss_line": "HDR.DUCT:in.liquid NOM:from.source one/unit.COUNT(1m) one/unit.STOP NOM.DUCT:entity.LIQ SEQ.AND:STEM(i).FROM STEM(m)",
+      "tokens": [
+        {
+          "word": "tol",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[to+l+0]",
+          "gloss": "HDR.DUCT:in.liquid"
+        },
+        {
+          "word": "or",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[o+r+0]",
+          "gloss": "NOM:from.source"
+        },
+        {
+          "word": "ain",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[0+a+in]",
+          "gloss": "one/unit.COUNT(1m)"
+        },
+        {
+          "word": "am",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[0+a+m]",
+          "gloss": "one/unit.STOP"
+        },
+        {
+          "word": "otoly",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[ot+o+ly]",
+          "gloss": "NOM.DUCT:entity.LIQ"
+        },
+        {
+          "word": "sair",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[sa+i+r]",
+          "gloss": "SEQ.AND:STEM(i).FROM"
+        },
+        {
+          "word": "g",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[0+m+0]",
+          "gloss": "STEM(m)"
+        }
+      ]
+    },
+    "B": {
+      "loc": "f75r.2",
+      "section": "B",
+      "lang": "B",
+      "scribe": "2",
+      "eva_line": "dain . shey . ly . ssheol . qoldy . chedykar . chekeedy . ror",
+      "bracket_parse_line": "[da+i+n] [sh+e+y] [l+y+0] [s+sh+eol] [qol+d+y] [ched+ykar] [ch+eke+edy] [ro+r+0]",
+      "gloss_line": "DEIC.FROM:STEM(i).ACC HEAT:grade.NOM APPL.LIQ:state SEQ:heat/steep.FLUID.FLOW ACT.LIQ:this.NOM BENCH:STEM(edyk).ROOT BENCH:STEM(eke).PROC SRC.OF:from.source",
+      "tokens": [
+        {
+          "word": "dain",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[da+i+n]",
+          "gloss": "DEIC.FROM:STEM(i).ACC"
+        },
+        {
+          "word": "shey",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[sh+e+y]",
+          "gloss": "HEAT:grade.NOM"
+        },
+        {
+          "word": "ly",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[l+y+0]",
+          "gloss": "APPL.LIQ:state"
+        },
+        {
+          "word": "ssheol",
+          "tier": "T3_PRODUCTIVE_DERIVATION_62CORE",
+          "parse": "[s+sh+eol]",
+          "gloss": "SEQ:heat/steep.FLUID.FLOW"
+        },
+        {
+          "word": "qoldy",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[qol+d+y]",
+          "gloss": "ACT.LIQ:this.NOM"
+        },
+        {
+          "word": "chedykar",
+          "tier": "T4_COMPOUND_OR_UNIVERBATED_PAIR",
+          "parse": "[ched+ykar]",
+          "gloss": "BENCH:STEM(edyk).ROOT"
+        },
+        {
+          "word": "chekeedy",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[ch+eke+edy]",
+          "gloss": "BENCH:STEM(eke).PROC"
+        },
+        {
+          "word": "ror",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[ro+r+0]",
+          "gloss": "SRC.OF:from.source"
+        }
+      ]
+    },
+    "P": {
+      "loc": "f88r.7",
+      "section": "P",
+      "lang": "A",
+      "scribe": "1",
+      "eva_line": "dorsheoy . ctheol . qockhey . dory . sheor . sholfchor . dal . chcthol",
+      "bracket_parse_line": "[dor+sheoy] [0+cth+eol] [qo+ckh+ey] [do+r+y] [sh+e+or] [shol+fchor] [da+l+0] [ch+cth+ol]",
+      "gloss_line": "DEIC.OBJ:STEM(rsheo).NOM press.herb.FLUID.FLOW ACT:extract.pot.PART DEIC.OBJ:from.source.NOM HEAT:grade.SAP HEAT:STEM(olfch).SAP DEIC.FROM:in.liquid BENCH:press.herb.FLUID",
+      "tokens": [
+        {
+          "word": "dorsheoy",
+          "tier": "T4_COMPOUND_OR_UNIVERBATED_PAIR",
+          "parse": "[dor+sheoy]",
+          "gloss": "DEIC.OBJ:STEM(rsheo).NOM"
+        },
+        {
+          "word": "ctheol",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[0+cth+eol]",
+          "gloss": "press.herb.FLUID.FLOW"
+        },
+        {
+          "word": "qockhey",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[qo+ckh+ey]",
+          "gloss": "ACT:extract.pot.PART"
+        },
+        {
+          "word": "dory",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[do+r+y]",
+          "gloss": "DEIC.OBJ:from.source.NOM"
+        },
+        {
+          "word": "sheor",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[sh+e+or]",
+          "gloss": "HEAT:grade.SAP"
+        },
+        {
+          "word": "sholfchor",
+          "tier": "T4_COMPOUND_OR_UNIVERBATED_PAIR",
+          "parse": "[shol+fchor]",
+          "gloss": "HEAT:STEM(olfch).SAP"
+        },
+        {
+          "word": "dal",
+          "tier": "T1_TOP1000_EXACT",
+          "parse": "[da+l+0]",
+          "gloss": "DEIC.FROM:in.liquid"
+        },
+        {
+          "word": "chcthol",
+          "tier": "T3_PRODUCTIVE_DERIVATION_62CORE",
+          "parse": "[ch+cth+ol]",
+          "gloss": "BENCH:press.herb.FLUID"
+        }
+      ]
+    }
+  }
+}

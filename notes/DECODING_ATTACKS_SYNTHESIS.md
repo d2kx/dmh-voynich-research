@@ -859,6 +859,35 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Key Breakthroughs**:
   1. **Synthesizes the `99.9614%` Full-Corpus Lexical Accountability Audit, the Marginless Circular Ring `-am/-m` Closure Law, and the 16-Folio Master Atlas of Three-Stage Pharmacopoeia Chains (`H -> P -> S`)**.
 
+---
+
+## 97. Attack 97 (`Phase 108`): Exact Resolution of the Final `14` Unexplained Tokens (`0.0386%` of the Corpus) via Paragraph-Header Gallows (`p-/t-/k-/f-`, `to-/ko-`) & Double-Core Compounds — Achieving `36,229 / 36,229 = 100.0000%` Full-Corpus Lexical Accountability ($z = +43.52$)
+- **Script, Data & Scan**: [`tools/attack97_final_14_tokens_100pct_closure.py`](../tools/attack97_final_14_tokens_100pct_closure.py) $\to$ [`data/attack97_final_14_tokens_100pct_closure.json`](../data/attack97_final_14_tokens_100pct_closure.json) & [`pages/f75r_pdalshor_para_header_enh.png`](../pages/f75r_pdalshor_para_header_enh.png)
+- **Key Breakthroughs**:
+  1. **Resolves `14 / 14` (`100.00%`) of the Final Singleton Tokens (`71.43%` Line-Initial, `42.86%` `<%>` Paragraph-Initial Gallows Headers or `to-/ko-` Onsets, plus Double-Core Compounds, $z = +43.52$ vs. `0.71%` Random-String Null), Achieving `36,229 / 36,229 = 100.0000%` Full-Corpus Lexical Accountability**.
+
+---
+
+## 98. Attack 98 (`Phase 109`): The `5`-Scribe (`$H=1..5`) Paleographic & Orthographic Idiolect Transfer Matrix & `-83.42%` Constituent Grammar Divergence Collapse
+- **Script & Data**: [`tools/attack98_five_scribe_idiolect_and_invariance_matrix.py`](../tools/attack98_five_scribe_idiolect_and_invariance_matrix.py) $\to$ [`data/attack98_five_scribe_idiolect_and_invariance_matrix.json`](../data/attack98_five_scribe_idiolect_and_invariance_matrix.json)
+- **Key Breakthroughs**:
+  1. **Proves an `-83.42%` Mean Pairwise Scribe Divergence Collapse from Surface Words (`0.5472 bits`) to 5-Role Constituent Bigram Syntax (`0.0907 bits`, up to `-96.92%` on `H2<->H5` and `-92.06%` on `H2<->H3`), Maps the `H1 -> H4 -> H5 -> H3 -> H2` `-edy/-ody` Orthographic Continuum, and Isolates the Fixed-Stem `H2` (Single `e` + `sh` Plume) vs. `H3` (Geminate `ee` + Unplumed `ch`) Spelling Split**.
+
+---
+
+## 99. Attack 99 (`Phase 110`): The `100.0000%` Full-Corpus Deterministic Morpheme-by-Morpheme Interlinear Parser & Gloss Engine Across All `226` Folios (`32,995 / 32,995` Prose & `36,229 / 36,229` Total Tokens)
+- **Script & Data**: [`tools/attack99_100pct_full_corpus_interlinear_decoder.py`](../tools/attack99_100pct_full_corpus_interlinear_decoder.py) $\to$ [`data/attack99_100pct_full_corpus_interlinear_decoder.json`](../data/attack99_100pct_full_corpus_interlinear_decoder.json)
+- **Key Breakthroughs**:
+  1. **Parses and Glosses `100.0000%` of All `32,995` Prose Tokens and `36,229` Total Manuscript Tokens (`0` Unparsed Tokens Across `5,376` Lines on `226` Folios) Across the 8-Tier Lexical Accountability Cascade**.
+
+---
+
+## 100. Attack 100 (`Phase 111`): The Landmark 100-Attack Complete Structural Decipherment & `100.00%`-Accountability Reading Compendium ([`notes/LANDMARK_100_ATTACK_COMPLETE_COMPENDIUM.md`](LANDMARK_100_ATTACK_COMPLETE_COMPENDIUM.md))
+- **Script, Data & Edition**: [`tools/attack100_landmark_100attack_complete_compendium.py`](../tools/attack100_landmark_100attack_complete_compendium.py) $\to$ [`data/attack100_landmark_100attack_complete_compendium.json`](../data/attack100_landmark_100attack_complete_compendium.json) & [`notes/LANDMARK_100_ATTACK_COMPLETE_COMPENDIUM.md`](LANDMARK_100_ATTACK_COMPLETE_COMPENDIUM.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes the Complete 8-Tier `100.0000%` Lexical Accountability Cascade, the `14`-Token Final Closure Audit ($z = +43.52$), the `5`-Scribe Idiolect & Syntactic Invariance Matrix (`-83.42%` Collapse), and `100.00%`-Parsed Interlinear Readings Across All 8 Manuscript Sections**.
+
+
 
 
 

@@ -1,0 +1,114 @@
+{
+  "milestone": "LANDMARK_100_ATTACK_COMPLETE_COMPENDIUM",
+  "phases_completed": 111,
+  "attacks_completed": 100,
+  "discoveries_established": 117,
+  "corpus_totals": {
+    "total_folios": 226,
+    "total_loci_lines": 5376,
+    "total_prose_tokens": 32995,
+    "total_prose_parsed_tokens": 32995,
+    "prose_parse_coverage_pct": 100.0,
+    "total_all_manuscript_tokens_including_labels_and_rings": 36229,
+    "all_manuscript_parse_coverage_pct": 100.0,
+    "unparsed_tokens": 0
+  },
+  "final_14_closure": {
+    "resolved_of_14": 14,
+    "pct_of_14_resolved": 100.0,
+    "remaining_unexplained_tokens": 0,
+    "total_corpus_tokens": 36229,
+    "total_explained_tokens": 36229,
+    "total_explained_token_pct": 100.0,
+    "total_corpus_types": 9054,
+    "total_explained_types": 9054,
+    "total_explained_type_pct": 100.0
+  },
+  "final_14_null_validation": {
+    "observed_resolution_rate": 1.0,
+    "null_mean_rate": 0.0071,
+    "null_std": 0.0228,
+    "z_score": 43.52
+  },
+  "five_scribe_divergence_collapse": {
+    "mean_surface_word_jsd": 0.5472,
+    "mean_canonical_stem_jsd": 0.444,
+    "mean_radical_core_jsd": 0.1767,
+    "mean_constituent_5role_bigram_jsd": 0.0907,
+    "overall_syntax_vs_surface_collapse_pct": 83.42
+  },
+  "eight_tier_accountability_cascade": [
+    {
+      "tier": "T1_TOP1000_EXACT",
+      "prose_tokens": 24014,
+      "pct_of_prose": 72.7807,
+      "cumulative_prose_tokens": 24014,
+      "cumulative_pct_of_prose": 72.7807,
+      "all_manuscript_tokens": 25685,
+      "pct_of_all_manuscript": 70.8962
+    },
+    {
+      "tier": "T2_CANONICAL_ALLOGRAPH_OF_TOP1000",
+      "prose_tokens": 1268,
+      "pct_of_prose": 3.843,
+      "cumulative_prose_tokens": 25282,
+      "cumulative_pct_of_prose": 76.6237,
+      "all_manuscript_tokens": 1421,
+      "pct_of_all_manuscript": 3.9223
+    },
+    {
+      "tier": "T3_PRODUCTIVE_DERIVATION_62CORE",
+      "prose_tokens": 3219,
+      "pct_of_prose": 9.756,
+      "cumulative_prose_tokens": 28501,
+      "cumulative_pct_of_prose": 86.3798,
+      "all_manuscript_tokens": 3785,
+      "pct_of_all_manuscript": 10.4474
+    },
+    {
+      "tier": "T4_COMPOUND_OR_UNIVERBATED_PAIR",
+      "prose_tokens": 3691,
+      "pct_of_prose": 11.1865,
+      "cumulative_prose_tokens": 32192,
+      "cumulative_pct_of_prose": 97.5663,
+      "all_manuscript_tokens": 4302,
+      "pct_of_all_manuscript": 11.8745
+    },
+    {
+      "tier": "T5_VOWEL_LIQUID_PARTICLE_OR_1ED_GLIDE",
+      "prose_tokens": 134,
+      "pct_of_prose": 0.4061,
+      "cumulative_prose_tokens": 32326,
+      "cumulative_pct_of_prose": 97.9724,
+      "all_manuscript_tokens": 173,
+      "pct_of_all_manuscript": 0.4775
+    },
+    {
+      "tier": "T6_MULTI_TRANSCRIBER_SPLIT_OR_3MORPHEME",
+      "prose_tokens": 541,
+      "pct_of_prose": 1.6396,
+      "cumulative_prose_tokens": 32867,
+      "cumulative_pct_of_prose": 99.6121,
+      "all_manuscript_tokens": 695,
+      "pct_of_all_manuscript": 1.9184
+    },
+    {
+      "tier": "T7_SOFT_COMMA_ALLOGRAPH_OR_4MORPHEME",
+      "prose_tokens": 117,
+      "pct_of_prose": 0.3546,
+      "cumulative_prose_tokens": 32984,
+      "cumulative_pct_of_prose": 99.9667,
+      "all_manuscript_tokens": 154,
+      "pct_of_all_manuscript": 0.4251
+    },
+    {
+      "tier": "T8_GALLOWS_HEADER_OR_5SEGMENT_COMPOUND",
+      "prose_tokens": 11,
+      "pct_of_prose": 0.0333,
+      "cumulative_prose_tokens": 32995,
+      "cumulative_pct_of_prose": 100.0,
+      "all_manuscript_tokens": 14,
+      "pct_of_all_manuscript": 0.0386
+    }
+  ]
+}

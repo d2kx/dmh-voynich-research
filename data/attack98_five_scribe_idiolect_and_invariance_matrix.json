@@ -1,0 +1,565 @@
+{
+  "four_level_divergence_collapse": {
+    "mean_surface_word_jsd": 0.5472,
+    "mean_canonical_stem_jsd": 0.444,
+    "mean_radical_core_jsd": 0.1767,
+    "mean_constituent_5role_bigram_jsd": 0.0907,
+    "overall_syntax_vs_surface_collapse_pct": 83.42,
+    "pairwise_scribe_table": [
+      {
+        "pair": "H1<->H2",
+        "surface_word_jsd": 0.551,
+        "canonical_stem_jsd": 0.4674,
+        "radical_core_jsd": 0.1676,
+        "constituent_5role_bigram_jsd": 0.1505,
+        "syntax_vs_surface_collapse_pct": 72.69
+      },
+      {
+        "pair": "H1<->H3",
+        "surface_word_jsd": 0.5514,
+        "canonical_stem_jsd": 0.4654,
+        "radical_core_jsd": 0.1702,
+        "constituent_5role_bigram_jsd": 0.1154,
+        "syntax_vs_surface_collapse_pct": 79.08
+      },
+      {
+        "pair": "H1<->H4",
+        "surface_word_jsd": 0.5717,
+        "canonical_stem_jsd": 0.4843,
+        "radical_core_jsd": 0.2172,
+        "constituent_5role_bigram_jsd": 0.0329,
+        "syntax_vs_surface_collapse_pct": 94.25
+      },
+      {
+        "pair": "H1<->H5",
+        "surface_word_jsd": 0.654,
+        "canonical_stem_jsd": 0.5599,
+        "radical_core_jsd": 0.2148,
+        "constituent_5role_bigram_jsd": 0.1145,
+        "syntax_vs_surface_collapse_pct": 82.5
+      },
+      {
+        "pair": "H2<->H3",
+        "surface_word_jsd": 0.3125,
+        "canonical_stem_jsd": 0.2323,
+        "radical_core_jsd": 0.0839,
+        "constituent_5role_bigram_jsd": 0.0248,
+        "syntax_vs_surface_collapse_pct": 92.06
+      },
+      {
+        "pair": "H2<->H4",
+        "surface_word_jsd": 0.5691,
+        "canonical_stem_jsd": 0.444,
+        "radical_core_jsd": 0.2083,
+        "constituent_5role_bigram_jsd": 0.1719,
+        "syntax_vs_surface_collapse_pct": 69.79
+      },
+      {
+        "pair": "H2<->H5",
+        "surface_word_jsd": 0.5065,
+        "canonical_stem_jsd": 0.3996,
+        "radical_core_jsd": 0.1476,
+        "constituent_5role_bigram_jsd": 0.0156,
+        "syntax_vs_surface_collapse_pct": 96.92
+      },
+      {
+        "pair": "H3<->H4",
+        "surface_word_jsd": 0.5527,
+        "canonical_stem_jsd": 0.4235,
+        "radical_core_jsd": 0.1781,
+        "constituent_5role_bigram_jsd": 0.1045,
+        "syntax_vs_surface_collapse_pct": 81.09
+      },
+      {
+        "pair": "H3<->H5",
+        "surface_word_jsd": 0.5616,
+        "canonical_stem_jsd": 0.4453,
+        "radical_core_jsd": 0.1488,
+        "constituent_5role_bigram_jsd": 0.027,
+        "syntax_vs_surface_collapse_pct": 95.2
+      },
+      {
+        "pair": "H4<->H5",
+        "surface_word_jsd": 0.6413,
+        "canonical_stem_jsd": 0.5186,
+        "radical_core_jsd": 0.2306,
+        "constituent_5role_bigram_jsd": 0.1501,
+        "syntax_vs_surface_collapse_pct": 76.6
+      }
+    ]
+  },
+  "scribe_idiolect_profiles": {
+    "H1": {
+      "n_folios": 113,
+      "n_tokens": 10266,
+      "dominant_currier_lang": [
+        [
+          "A",
+          10092
+        ],
+        [
+          "U",
+          174
+        ]
+      ],
+      "dominant_sections": [
+        [
+          "H",
+          7485
+        ],
+        [
+          "P",
+          2405
+        ],
+        [
+          "T",
+          202
+        ]
+      ],
+      "edy_share_of_dy_pct": 2.36,
+      "ody_share_of_dy_pct": 57.36,
+      "bare_dy_share_of_dy_pct": 40.28,
+      "ee_geminate_share_of_e_words_pct": 30.31,
+      "ii_double_minim_share_of_in_coda_pct": 85.14,
+      "sh_plume_share_of_bench_pct": 26.87,
+      "pf_looped_share_of_gallows_pct": 10.96,
+      "qo_active_token_pct": 9.64,
+      "o_nominal_token_pct": 17.81,
+      "soft_comma_gap_pct": 6.66
+    },
+    "H2": {
+      "n_folios": 46,
+      "n_tokens": 10422,
+      "dominant_currier_lang": [
+        [
+          "B",
+          10422
+        ]
+      ],
+      "dominant_sections": [
+        [
+          "B",
+          5953
+        ],
+        [
+          "H",
+          2213
+        ],
+        [
+          "T",
+          1665
+        ]
+      ],
+      "edy_share_of_dy_pct": 74.82,
+      "ody_share_of_dy_pct": 6.14,
+      "bare_dy_share_of_dy_pct": 19.03,
+      "ee_geminate_share_of_e_words_pct": 27.98,
+      "ii_double_minim_share_of_in_coda_pct": 62.86,
+      "sh_plume_share_of_bench_pct": 38.54,
+      "pf_looped_share_of_gallows_pct": 9.54,
+      "qo_active_token_pct": 19.79,
+      "o_nominal_token_pct": 23.83,
+      "soft_comma_gap_pct": 6.47
+    },
+    "H3": {
+      "n_folios": 33,
+      "n_tokens": 10896,
+      "dominant_currier_lang": [
+        [
+          "B",
+          10159
+        ],
+        [
+          "A",
+          691
+        ]
+      ],
+      "dominant_sections": [
+        [
+          "S",
+          10349
+        ],
+        [
+          "H",
+          545
+        ],
+        [
+          "T",
+          2
+        ]
+      ],
+      "edy_share_of_dy_pct": 70.89,
+      "ody_share_of_dy_pct": 13.5,
+      "bare_dy_share_of_dy_pct": 15.61,
+      "ee_geminate_share_of_e_words_pct": 39.97,
+      "ii_double_minim_share_of_in_coda_pct": 65.35,
+      "sh_plume_share_of_bench_pct": 27.77,
+      "pf_looped_share_of_gallows_pct": 11.48,
+      "qo_active_token_pct": 17.22,
+      "o_nominal_token_pct": 24.55,
+      "soft_comma_gap_pct": 7.09
+    },
+    "H4": {
+      "n_folios": 27,
+      "n_tokens": 3348,
+      "dominant_currier_lang": [
+        [
+          "U",
+          2860
+        ],
+        [
+          "B",
+          488
+        ]
+      ],
+      "dominant_sections": [
+        [
+          "C",
+          1304
+        ],
+        [
+          "Z",
+          1194
+        ],
+        [
+          "A",
+          850
+        ]
+      ],
+      "edy_share_of_dy_pct": 26.96,
+      "ody_share_of_dy_pct": 40.22,
+      "bare_dy_share_of_dy_pct": 32.83,
+      "ee_geminate_share_of_e_words_pct": 38.39,
+      "ii_double_minim_share_of_in_coda_pct": 87.62,
+      "sh_plume_share_of_bench_pct": 25.04,
+      "pf_looped_share_of_gallows_pct": 10.1,
+      "qo_active_token_pct": 2.45,
+      "o_nominal_token_pct": 43.94,
+      "soft_comma_gap_pct": 7.11
+    },
+    "H5": {
+      "n_folios": 7,
+      "n_tokens": 865,
+      "dominant_currier_lang": [
+        [
+          "B",
+          865
+        ]
+      ],
+      "dominant_sections": [
+        [
+          "H",
+          550
+        ],
+        [
+          "T",
+          315
+        ]
+      ],
+      "edy_share_of_dy_pct": 51.64,
+      "ody_share_of_dy_pct": 26.18,
+      "bare_dy_share_of_dy_pct": 22.18,
+      "ee_geminate_share_of_e_words_pct": 25.44,
+      "ii_double_minim_share_of_in_coda_pct": 81.54,
+      "sh_plume_share_of_bench_pct": 35.85,
+      "pf_looped_share_of_gallows_pct": 14.55,
+      "qo_active_token_pct": 11.68,
+      "o_nominal_token_pct": 18.38,
+      "soft_comma_gap_pct": 6.24
+    }
+  },
+  "fixed_canonical_stem_surface_spellings": {
+    "chdy": {
+      "H1": {
+        "total": 82,
+        "top_surface_forms": [
+          "chody (50.0%)",
+          "shody (31.7%)",
+          "chdy (8.5%)"
+        ]
+      },
+      "H2": {
+        "total": 673,
+        "top_surface_forms": [
+          "shedy (37.4%)",
+          "chedy (35.7%)",
+          "chdy (9.4%)"
+        ]
+      },
+      "H3": {
+        "total": 435,
+        "top_surface_forms": [
+          "chedy (41.1%)",
+          "shedy (25.7%)",
+          "chdy (11.3%)"
+        ]
+      },
+      "H4": {
+        "total": 29,
+        "top_surface_forms": [
+          "chedy (27.6%)",
+          "chdy (20.7%)",
+          "shedy (17.2%)"
+        ]
+      },
+      "H5": {
+        "total": 42,
+        "top_surface_forms": [
+          "chedy (31.0%)",
+          "shedy (21.4%)",
+          "chdy (14.3%)"
+        ]
+      }
+    },
+    "kdy": {
+      "H1": {
+        "total": 1,
+        "top_surface_forms": [
+          "kody (100.0%)"
+        ]
+      },
+      "H2": {
+        "total": 33,
+        "top_surface_forms": [
+          "kedy (60.6%)",
+          "keedy (39.4%)"
+        ]
+      },
+      "H3": {
+        "total": 24,
+        "top_surface_forms": [
+          "keedy (79.2%)",
+          "kedy (20.8%)"
+        ]
+      },
+      "H4": {
+        "total": 2,
+        "top_surface_forms": [
+          "kody (50.0%)",
+          "keeedy (50.0%)"
+        ]
+      },
+      "H5": {
+        "total": 8,
+        "top_surface_forms": [
+          "keedy (37.5%)",
+          "kedy (37.5%)",
+          "kody (25.0%)"
+        ]
+      }
+    },
+    "tdy": {
+      "H1": {
+        "total": 4,
+        "top_surface_forms": [
+          "tody (100.0%)"
+        ]
+      },
+      "H2": {
+        "total": 32,
+        "top_surface_forms": [
+          "tedy (81.2%)",
+          "teedy (12.5%)",
+          "tody (6.2%)"
+        ]
+      },
+      "H3": {
+        "total": 17,
+        "top_surface_forms": [
+          "teedy (47.1%)",
+          "tedy (29.4%)",
+          "tody (11.8%)"
+        ]
+      },
+      "H4": {
+        "total": 0,
+        "top_surface_forms": []
+      },
+      "H5": {
+        "total": 4,
+        "top_surface_forms": [
+          "tedy (50.0%)",
+          "teedy (25.0%)",
+          "pody (25.0%)"
+        ]
+      }
+    },
+    "okdy": {
+      "H1": {
+        "total": 12,
+        "top_surface_forms": [
+          "okody (41.7%)",
+          "qokody (33.3%)",
+          "okeedy (16.7%)"
+        ]
+      },
+      "H2": {
+        "total": 483,
+        "top_surface_forms": [
+          "qokedy (40.6%)",
+          "qokeedy (34.2%)",
+          "okedy (13.3%)"
+        ]
+      },
+      "H3": {
+        "total": 285,
+        "top_surface_forms": [
+          "qokeedy (45.6%)",
+          "qokedy (20.7%)",
+          "okeedy (17.2%)"
+        ]
+      },
+      "H4": {
+        "total": 33,
+        "top_surface_forms": [
+          "okody (36.4%)",
+          "okedy (30.3%)",
+          "okeedy (18.2%)"
+        ]
+      },
+      "H5": {
+        "total": 29,
+        "top_surface_forms": [
+          "qokedy (37.9%)",
+          "okedy (37.9%)",
+          "qokeedy (17.2%)"
+        ]
+      }
+    },
+    "otdy": {
+      "H1": {
+        "total": 8,
+        "top_surface_forms": [
+          "qotody (50.0%)",
+          "otody (25.0%)",
+          "otdy (12.5%)"
+        ]
+      },
+      "H2": {
+        "total": 229,
+        "top_surface_forms": [
+          "otedy (36.7%)",
+          "qotedy (26.6%)",
+          "qoteedy (18.8%)"
+        ]
+      },
+      "H3": {
+        "total": 182,
+        "top_surface_forms": [
+          "otedy (31.9%)",
+          "oteedy (31.3%)",
+          "qoteedy (15.9%)"
+        ]
+      },
+      "H4": {
+        "total": 39,
+        "top_surface_forms": [
+          "oteedy (35.9%)",
+          "otody (30.8%)",
+          "otedy (25.6%)"
+        ]
+      },
+      "H5": {
+        "total": 10,
+        "top_surface_forms": [
+          "otedy (50.0%)",
+          "oteedy (30.0%)",
+          "qotedy (20.0%)"
+        ]
+      }
+    },
+    "ol": {
+      "H1": {
+        "total": 77,
+        "top_surface_forms": [
+          "ol (93.5%)",
+          "qol (6.5%)"
+        ]
+      },
+      "H2": {
+        "total": 284,
+        "top_surface_forms": [
+          "ol (70.8%)",
+          "qol (29.2%)"
+        ]
+      },
+      "H3": {
+        "total": 107,
+        "top_surface_forms": [
+          "ol (82.2%)",
+          "qol (17.8%)"
+        ]
+      },
+      "H4": {
+        "total": 25,
+        "top_surface_forms": [
+          "ol (100.0%)"
+        ]
+      },
+      "H5": {
+        "total": 5,
+        "top_surface_forms": [
+          "ol (100.0%)"
+        ]
+      }
+    },
+    "daiin": {
+      "H1": {
+        "total": 0,
+        "top_surface_forms": []
+      },
+      "H2": {
+        "total": 0,
+        "top_surface_forms": []
+      },
+      "H3": {
+        "total": 0,
+        "top_surface_forms": []
+      },
+      "H4": {
+        "total": 0,
+        "top_surface_forms": []
+      },
+      "H5": {
+        "total": 0,
+        "top_surface_forms": []
+      }
+    },
+    "chol": {
+      "H1": {
+        "total": 342,
+        "top_surface_forms": [
+          "chol (69.0%)",
+          "shol (31.0%)"
+        ]
+      },
+      "H2": {
+        "total": 54,
+        "top_surface_forms": [
+          "shol (51.9%)",
+          "chol (48.1%)"
+        ]
+      },
+      "H3": {
+        "total": 79,
+        "top_surface_forms": [
+          "chol (68.4%)",
+          "shol (31.6%)"
+        ]
+      },
+      "H4": {
+        "total": 27,
+        "top_surface_forms": [
+          "chol (59.3%)",
+          "shol (40.7%)"
+        ]
+      },
+      "H5": {
+        "total": 3,
+        "top_surface_forms": [
+          "shol (100.0%)"
+        ]
+      }
+    }
+  }
+}

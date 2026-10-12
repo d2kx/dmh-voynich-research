@@ -1,0 +1,158 @@
+{
+  "final_14_input": {
+    "count": 14,
+    "line_initial_count": 10,
+    "line_initial_pct": 71.43,
+    "paragraph_initial_count": 6,
+    "paragraph_initial_pct": 42.86
+  },
+  "closure_summary": {
+    "resolved_of_14": 14,
+    "pct_of_14_resolved": 100.0,
+    "remaining_unexplained_tokens": 0,
+    "total_corpus_tokens": 36229,
+    "total_explained_tokens": 36229,
+    "total_explained_token_pct": 100.0,
+    "total_corpus_types": 9054,
+    "total_explained_types": 9054,
+    "total_explained_type_pct": 100.0
+  },
+  "permutation_null_validation": {
+    "observed_resolution_rate": 1.0,
+    "null_mean_rate": 0.0071,
+    "null_std": 0.0228,
+    "z_score": 43.52
+  },
+  "mechanism_counts": {
+    "MECH_8A_GALLOWS_HEADER_OR_TO_KO_PREFIX": 8,
+    "MECH_8B_DOUBLE_CORE_COMPOUND": 6
+  },
+  "all_14_resolved_table": [
+    {
+      "word": "pdychoiin",
+      "loc": "f14v.1",
+      "token_index": 0,
+      "is_line_initial": true,
+      "is_paragraph_initial": true,
+      "mechanism": "MECH_8A_GALLOWS_HEADER_OR_TO_KO_PREFIX",
+      "decomposition": "[p+d+y+ch+oiin]"
+    },
+    {
+      "word": "pdrairdy",
+      "loc": "f18r.1",
+      "token_index": 0,
+      "is_line_initial": true,
+      "is_paragraph_initial": true,
+      "mechanism": "MECH_8A_GALLOWS_HEADER_OR_TO_KO_PREFIX",
+      "decomposition": "[p+d+r+air+dy]"
+    },
+    {
+      "word": "chepchefy",
+      "loc": "f41v.2",
+      "token_index": 5,
+      "is_line_initial": false,
+      "is_paragraph_initial": false,
+      "mechanism": "MECH_8B_DOUBLE_CORE_COMPOUND",
+      "decomposition": "[ch+e+p+che+fy]"
+    },
+    {
+      "word": "tdokchcfhy",
+      "loc": "f52r.1",
+      "token_index": 0,
+      "is_line_initial": true,
+      "is_paragraph_initial": true,
+      "mechanism": "MECH_8A_GALLOWS_HEADER_OR_TO_KO_PREFIX",
+      "decomposition": "[t+do+kch+cf+hy]"
+    },
+    {
+      "word": "ochepalain",
+      "loc": "f67v2.11",
+      "token_index": 1,
+      "is_line_initial": false,
+      "is_paragraph_initial": false,
+      "mechanism": "MECH_8B_DOUBLE_CORE_COMPOUND",
+      "decomposition": "[o+ch+e+pal+ain]"
+    },
+    {
+      "word": "kochardy",
+      "loc": "f67v1.10",
+      "token_index": 0,
+      "is_line_initial": true,
+      "is_paragraph_initial": false,
+      "mechanism": "MECH_8A_GALLOWS_HEADER_OR_TO_KO_PREFIX",
+      "decomposition": "[ko+c+h+ar+dy]"
+    },
+    {
+      "word": "todaraiily",
+      "loc": "f68r2.13",
+      "token_index": 0,
+      "is_line_initial": true,
+      "is_paragraph_initial": false,
+      "mechanism": "MECH_8A_GALLOWS_HEADER_OR_TO_KO_PREFIX",
+      "decomposition": "[to+d+ar+aii+ly]"
+    },
+    {
+      "word": "pdalshor",
+      "loc": "f75r.27",
+      "token_index": 0,
+      "is_line_initial": true,
+      "is_paragraph_initial": true,
+      "mechanism": "MECH_8A_GALLOWS_HEADER_OR_TO_KO_PREFIX",
+      "decomposition": "[p+d+al+sh+or]"
+    },
+    {
+      "word": "depcheky",
+      "loc": "fRos.56",
+      "token_index": 0,
+      "is_line_initial": true,
+      "is_paragraph_initial": false,
+      "mechanism": "MECH_8B_DOUBLE_CORE_COMPOUND",
+      "decomposition": "[d+e+p+che+ky]"
+    },
+    {
+      "word": "toeeedchy",
+      "loc": "f86v3.29",
+      "token_index": 0,
+      "is_line_initial": true,
+      "is_paragraph_initial": true,
+      "mechanism": "MECH_8A_GALLOWS_HEADER_OR_TO_KO_PREFIX",
+      "decomposition": "[to+e+eed+c+hy]"
+    },
+    {
+      "word": "qotechoep",
+      "loc": "f87v.7",
+      "token_index": 0,
+      "is_line_initial": true,
+      "is_paragraph_initial": false,
+      "mechanism": "MECH_8B_DOUBLE_CORE_COMPOUND",
+      "decomposition": "[qot+e+cho+em]"
+    },
+    {
+      "word": "toealchs",
+      "loc": "f90r2.1",
+      "token_index": 0,
+      "is_line_initial": true,
+      "is_paragraph_initial": true,
+      "mechanism": "MECH_8A_GALLOWS_HEADER_OR_TO_KO_PREFIX",
+      "decomposition": "[to+e+al+ch+s]"
+    },
+    {
+      "word": "opolkod",
+      "loc": "f102r2.8",
+      "token_index": 4,
+      "is_line_initial": false,
+      "is_paragraph_initial": false,
+      "mechanism": "MECH_8B_DOUBLE_CORE_COMPOUND",
+      "decomposition": "[op+o+l+ko+d]"
+    },
+    {
+      "word": "qepoepy",
+      "loc": "f114v.6",
+      "token_index": 7,
+      "is_line_initial": false,
+      "is_paragraph_initial": false,
+      "mechanism": "MECH_8B_DOUBLE_CORE_COMPOUND",
+      "decomposition": "[q+e+po+e+py]"
+    }
+  ]
+}
