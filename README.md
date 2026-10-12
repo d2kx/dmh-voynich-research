@@ -646,6 +646,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 98. The Nominal-to-Active (`o-R -> qo-R`) Figure-Label (`@L`) vs. Running-Prose (`@P`) Morphological Transformation Law ($z = +16.92$ / $z = -9.66$, `Attack 89`)
+- **`+30.93%` (`2.64×`) Nominal `o-` Surge ($z = +16.92$) & `-14.20%` (`11.4×`) Active `qo-` Suppression ($z = -9.66$) in Figure Labels**: Standalone figure labels (`@L`) take Nominal `o-` in `49.80%` of tokens vs. `18.87%` in `@P` prose while suppressing Active `qo-` to `1.36%` vs. `15.56%`, transforming shared stems via `o + R (Label Citation) -> qo + R (Active Prose Verb)` (`okedy -> qokedy`, `otchdy -> qotchy`, `okchdy -> qokchy`, `okol -> qokol`).
+
+---
+
+### 99. The Pharmaceutical (`f88r–f102v`) `90.95%` Deictic-Omission Law, Same-Page `o-R -> qo-R` Bridges, and `2.29×` Per-Token Herbal-B Citation Selectivity ($z = -3.41$, `Attack 90`)
+- **`90.95%` Deictic Omission (`+67.0%` `ol/al/dal` Container Pronouns), `20` Same-Page `o- -> qo-` Bridges (`pages/f102v1_okeody_qokeody_bridge_enh.png`), & `2.29×` Per-Token Herbal-B Citation Density ($z = -3.41$)**: Proves that Pharmaceutical formularies compile botanical specimens from both Currier A and Currier B Herbal quires while replacing explicit repetition of `90.95%` of individual `@Lf` root labels with deictic/container pronouns (`ol/dal/dar`) in the recipe below.
+
+---
+
+### 100. Balneological (`Quire M`, `f75r–f84v`) Nymph-Label Concordance (`30.56%` Same-Page, `46.30%` Same-Bifolio, `59.26%` Same-Section) & Vertical Hydraulic Flow Gradient ($z = +3.36$, `Attack 91`)
+- **`46.30%` Same-Bifolio Nymph-Label Concordance & Vertical Gravitational Flow Gradient ($z = +3.36$)**: Moving from upper inflow paragraphs (`P_TOP_INFLOW`) through middle pipe/stream paragraphs (`P_MID`) to lower immersion pool paragraphs (`P_BOT_POOL`), Active `qo-` drops monotonically (`29.94% -> 26.20% -> 22.00%`, $z = +3.36$) and Procedural `-dy` drops (`36.43% -> 28.05% -> 27.77%`, $z = +2.34$), while Liquid Applicatives `l-/ol-` (`11.52% -> 13.11%`) and Measure `-aiin/-in` (`11.23% -> 16.36%`) rise into the bottom pool.
+
+---
+
+### 101. The Complete Illustrated Diagram-to-Prose Concordance Atlas ([`notes/ILLUSTRATED_DIAGRAM_TO_PROSE_ATLAS.md`](notes/ILLUSTRATED_DIAGRAM_TO_PROSE_ATLAS.md), `Attack 92`)
+- **Complete Diagram-Label $\leftrightarrow$ Prose Concordance Atlas ([`notes/ILLUSTRATED_DIAGRAM_TO_PROSE_ATLAS.md`](notes/ILLUSTRATED_DIAGRAM_TO_PROSE_ATLAS.md))**: Synthesizes the `o-R -> qo-R` stem transformation table, Pharmaceutical same-page and Herbal-citation bridges, and Balneological nymph-to-prose and hydraulic-zone concordances.
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -765,6 +785,11 @@ python tools/attack85_residual_2pct_and_transcriber_consensus_solver.py
 python tools/attack86_46core_radical_and_domain_matrix.py
 python tools/attack87_paragraph_typology_and_monograph_classifier.py
 python tools/attack88_reconstructed_bifolio_pamphlet_reader.py
+python tools/attack89_figure_label_to_prose_transformation_law.py
+python tools/attack90_pharmaceutical_label_to_samepage_recipe_aligner.py
+python tools/attack91_balneological_nymph_label_and_pool_zone_solver.py
+python tools/attack92_illustrated_diagram_to_prose_atlas.py
 ```
+
 
 

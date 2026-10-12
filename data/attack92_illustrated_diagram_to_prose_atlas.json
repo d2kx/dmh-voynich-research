@@ -1,0 +1,1003 @@
+{
+  "wave20_summary": {
+    "label_o_nom_enrichment_z": 16.92,
+    "label_qo_act_suppression_z": -9.66,
+    "label_subtype_affix_mi_z": 8.5,
+    "pharm_deictic_omission_pct": 90.95,
+    "pharm_herbal_B_per_token_selectivity_z": -3.41,
+    "balneo_same_page_label_match_pct": 30.56,
+    "balneo_same_bifolio_label_match_pct": 46.3,
+    "balneo_vertical_qo_drop_z": 3.36,
+    "balneo_vertical_dy_drop_z": 2.34
+  },
+  "shared_radical_transformations": [
+    {
+      "radical": "ka",
+      "n_label_tokens": 21,
+      "n_prose_tokens": 1391,
+      "label_o_nom_pct": 61.9,
+      "prose_o_nom_pct": 35.2,
+      "label_qo_act_pct": 14.3,
+      "prose_qo_act_pct": 46.6,
+      "top_label_forms": [
+        "okain(4)",
+        "qokal(3)",
+        "okal(2)",
+        "ofar(1)"
+      ],
+      "top_prose_forms": [
+        "qokain(278)",
+        "qokal(182)",
+        "qokar(147)",
+        "okain(133)"
+      ]
+    },
+    {
+      "radical": "ar",
+      "n_label_tokens": 20,
+      "n_prose_tokens": 413,
+      "label_o_nom_pct": 0.0,
+      "prose_o_nom_pct": 1.2,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 0.0,
+      "top_label_forms": [
+        "dary(3)",
+        "sary(2)",
+        "arar(2)",
+        "arom(2)"
+      ],
+      "top_prose_forms": [
+        "ar(242)",
+        "aral(19)",
+        "dary(17)",
+        "araiin(17)"
+      ]
+    },
+    {
+      "radical": "te",
+      "n_label_tokens": 18,
+      "n_prose_tokens": 1024,
+      "label_o_nom_pct": 88.9,
+      "prose_o_nom_pct": 48.0,
+      "label_qo_act_pct": 5.6,
+      "prose_qo_act_pct": 27.1,
+      "top_label_forms": [
+        "otedy(8)",
+        "oteedy(3)",
+        "oteey(2)",
+        "oteeear(1)"
+      ],
+      "top_prose_forms": [
+        "otedy(138)",
+        "oteey(104)",
+        "oteedy(90)",
+        "qotedy(86)"
+      ]
+    },
+    {
+      "radical": "ko",
+      "n_label_tokens": 18,
+      "n_prose_tokens": 342,
+      "label_o_nom_pct": 83.3,
+      "prose_o_nom_pct": 31.3,
+      "label_qo_act_pct": 5.6,
+      "prose_qo_act_pct": 41.5,
+      "top_label_forms": [
+        "okol(5)",
+        "okor(3)",
+        "okody(3)",
+        "okos(2)"
+      ],
+      "top_prose_forms": [
+        "qokol(89)",
+        "okol(58)",
+        "qokor(31)",
+        "okor(26)"
+      ]
+    },
+    {
+      "radical": "ch",
+      "n_label_tokens": 17,
+      "n_prose_tokens": 3152,
+      "label_o_nom_pct": 17.6,
+      "prose_o_nom_pct": 6.9,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 2.1,
+      "top_label_forms": [
+        "sh(2)",
+        "chor(2)",
+        "dchol(1)",
+        "chol(1)"
+      ],
+      "top_prose_forms": [
+        "chedy(438)",
+        "chol(323)",
+        "chey(286)",
+        "chor(193)"
+      ]
+    },
+    {
+      "radical": "ke",
+      "n_label_tokens": 16,
+      "n_prose_tokens": 2551,
+      "label_o_nom_pct": 75.0,
+      "prose_o_nom_pct": 31.6,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 47.1,
+      "top_label_forms": [
+        "okeody(3)",
+        "okedy(3)",
+        "ykedy(2)",
+        "ykeol(1)"
+      ],
+      "top_prose_forms": [
+        "qokeedy(304)",
+        "qokeey(298)",
+        "qokedy(272)",
+        "okeey(160)"
+      ]
+    },
+    {
+      "radical": "tch",
+      "n_label_tokens": 15,
+      "n_prose_tokens": 1020,
+      "label_o_nom_pct": 86.7,
+      "prose_o_nom_pct": 36.7,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 26.4,
+      "top_label_forms": [
+        "otchdy(6)",
+        "opchdy(2)",
+        "otshey(1)",
+        "ytchody(1)"
+      ],
+      "top_prose_forms": [
+        "qotchy(62)",
+        "opchedy(46)",
+        "otchy(41)",
+        "tchedy(32)"
+      ]
+    },
+    {
+      "radical": "kch",
+      "n_label_tokens": 14,
+      "n_prose_tokens": 803,
+      "label_o_nom_pct": 78.6,
+      "prose_o_nom_pct": 28.0,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 34.0,
+      "top_label_forms": [
+        "okchdy(4)",
+        "ykchdy(2)",
+        "ykshy(1)",
+        "okshor(1)"
+      ],
+      "top_prose_forms": [
+        "qokchy(63)",
+        "qokchdy(49)",
+        "qokchedy(40)",
+        "okchey(33)"
+      ]
+    },
+    {
+      "radical": "ta",
+      "n_label_tokens": 13,
+      "n_prose_tokens": 726,
+      "label_o_nom_pct": 76.9,
+      "prose_o_nom_pct": 53.4,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 27.1,
+      "top_label_forms": [
+        "otal(3)",
+        "otar(2)",
+        "opar(2)",
+        "tar(1)"
+      ],
+      "top_prose_forms": [
+        "otal(112)",
+        "otar(110)",
+        "otain(94)",
+        "qotar(61)"
+      ]
+    },
+    {
+      "radical": "to",
+      "n_label_tokens": 12,
+      "n_prose_tokens": 343,
+      "label_o_nom_pct": 91.7,
+      "prose_o_nom_pct": 35.9,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 26.2,
+      "top_label_forms": [
+        "otol(5)",
+        "otor(2)",
+        "otody(2)",
+        "ytoaiin(1)"
+      ],
+      "top_prose_forms": [
+        "otol(61)",
+        "qotol(40)",
+        "tol(32)",
+        "otor(32)"
+      ]
+    },
+    {
+      "radical": "kar",
+      "n_label_tokens": 11,
+      "n_prose_tokens": 49,
+      "label_o_nom_pct": 81.8,
+      "prose_o_nom_pct": 57.1,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 16.3,
+      "top_label_forms": [
+        "okary(5)",
+        "fary(1)",
+        "okaral(1)",
+        "ofardy(1)"
+      ],
+      "top_prose_forms": [
+        "okary(8)",
+        "okaral(5)",
+        "kary(4)",
+        "okaram(3)"
+      ]
+    },
+    {
+      "radical": "tol",
+      "n_label_tokens": 10,
+      "n_prose_tokens": 34,
+      "label_o_nom_pct": 100.0,
+      "prose_o_nom_pct": 50.0,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 11.8,
+      "top_label_forms": [
+        "otoldy(5)",
+        "otoly(3)",
+        "otolal(1)",
+        "otolor(1)"
+      ],
+      "top_prose_forms": [
+        "otoldy(5)",
+        "otoly(5)",
+        "ytoldy(4)",
+        "toldy(3)"
+      ]
+    },
+    {
+      "radical": "da",
+      "n_label_tokens": 10,
+      "n_prose_tokens": 646,
+      "label_o_nom_pct": 30.0,
+      "prose_o_nom_pct": 11.8,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 5.0,
+      "top_label_forms": [
+        "dar(2)",
+        "dal(1)",
+        "daldar(1)",
+        "daldal(1)"
+      ],
+      "top_prose_forms": [
+        "dar(248)",
+        "dal(171)",
+        "dam(71)",
+        "odar(19)"
+      ]
+    },
+    {
+      "radical": "tal",
+      "n_label_tokens": 9,
+      "n_prose_tokens": 73,
+      "label_o_nom_pct": 100.0,
+      "prose_o_nom_pct": 63.0,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 15.1,
+      "top_label_forms": [
+        "otaly(5)",
+        "otaldy(2)",
+        "opalal(1)",
+        "otalam(1)"
+      ],
+      "top_prose_forms": [
+        "otaly(12)",
+        "qotaly(5)",
+        "otaldy(5)",
+        "otalor(4)"
+      ]
+    },
+    {
+      "radical": "ted",
+      "n_label_tokens": 9,
+      "n_prose_tokens": 81,
+      "label_o_nom_pct": 66.7,
+      "prose_o_nom_pct": 43.2,
+      "label_qo_act_pct": 11.1,
+      "prose_qo_act_pct": 29.6,
+      "top_label_forms": [
+        "otedal(2)",
+        "ytedar(2)",
+        "qoted(1)",
+        "otedol(1)"
+      ],
+      "top_prose_forms": [
+        "otedar(9)",
+        "oteed(5)",
+        "tedain(4)",
+        "qoteedar(3)"
+      ]
+    },
+    {
+      "radical": "ol",
+      "n_label_tokens": 7,
+      "n_prose_tokens": 492,
+      "label_o_nom_pct": 42.9,
+      "prose_o_nom_pct": 92.3,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 2.0,
+      "top_label_forms": [
+        "doly(2)",
+        "ololal(1)",
+        "loly(1)",
+        "ooly(1)"
+      ],
+      "top_prose_forms": [
+        "ol(368)",
+        "oly(54)",
+        "ols(19)",
+        "qoly(7)"
+      ]
+    },
+    {
+      "radical": "kol",
+      "n_label_tokens": 6,
+      "n_prose_tokens": 45,
+      "label_o_nom_pct": 83.3,
+      "prose_o_nom_pct": 46.7,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 13.3,
+      "top_label_forms": [
+        "okoldy(2)",
+        "okoly(1)",
+        "sokoly(1)",
+        "okolar(1)"
+      ],
+      "top_prose_forms": [
+        "okoldy(7)",
+        "koldy(6)",
+        "qokoldy(4)",
+        "okoly(3)"
+      ]
+    }
+  ],
+  "pharm_same_page_bridges": [
+    {
+      "folio": "f101v",
+      "label_locus": "<f101v.10>",
+      "label_word": "okol",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qokol"
+      ]
+    },
+    {
+      "folio": "f102v1",
+      "label_locus": "<f102v1.2>",
+      "label_word": "okeody",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okeody",
+        "qokeody"
+      ]
+    },
+    {
+      "folio": "f102v1",
+      "label_locus": "<f102v1.3>",
+      "label_word": "okeody",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okeody",
+        "qokeody"
+      ]
+    },
+    {
+      "folio": "f102v2",
+      "label_locus": "<f102v2.6>",
+      "label_word": "okeos",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okeeos",
+        "qokeos"
+      ]
+    },
+    {
+      "folio": "f102v2",
+      "label_locus": "<f102v2.11>",
+      "label_word": "cheor",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "cheeor",
+        "cheor",
+        "sheeor",
+        "sheor"
+      ]
+    },
+    {
+      "folio": "f88r",
+      "label_locus": "<f88r.15>",
+      "label_word": "okol",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okol",
+        "qokol"
+      ]
+    },
+    {
+      "folio": "f89r2",
+      "label_locus": "<f89r2.5>",
+      "label_word": "opcheor",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "opcheor"
+      ]
+    },
+    {
+      "folio": "f89r2",
+      "label_locus": "<f89r2.10>",
+      "label_word": "okol",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qokol"
+      ]
+    },
+    {
+      "folio": "f89r2",
+      "label_locus": "<f89r2.10>",
+      "label_word": "shol",
+      "match_type": "CANONICAL_STEM",
+      "same_page_prose_forms": [
+        "chol"
+      ]
+    },
+    {
+      "folio": "f89r2",
+      "label_locus": "<f89r2.10>",
+      "label_word": "dy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "dy",
+        "qody"
+      ]
+    },
+    {
+      "folio": "f89r2",
+      "label_locus": "<f89r2.19>",
+      "label_word": "cheody",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "cheeody",
+        "cheody"
+      ]
+    },
+    {
+      "folio": "f89v2",
+      "label_locus": "<f89v2.5>",
+      "label_word": "sheol",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "cheol",
+        "sheol"
+      ]
+    },
+    {
+      "folio": "f89v2",
+      "label_locus": "<f89v2.12>",
+      "label_word": "chody",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "chody"
+      ]
+    },
+    {
+      "folio": "f99r",
+      "label_locus": "<f99r.4>",
+      "label_word": "oky",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qoky"
+      ]
+    },
+    {
+      "folio": "f99r",
+      "label_locus": "<f99r.7>",
+      "label_word": "ain",
+      "match_type": "CANONICAL_STEM",
+      "same_page_prose_forms": [
+        "aiin"
+      ]
+    },
+    {
+      "folio": "f99r",
+      "label_locus": "<f99r.8>",
+      "label_word": "okor",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okor"
+      ]
+    },
+    {
+      "folio": "f99r",
+      "label_locus": "<f99r.24>",
+      "label_word": "oky",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qoky"
+      ]
+    },
+    {
+      "folio": "f99r",
+      "label_locus": "<f99r.25>",
+      "label_word": "okeoly",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okeoly"
+      ]
+    },
+    {
+      "folio": "f99r",
+      "label_locus": "<f99r.35>",
+      "label_word": "dar",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "dar"
+      ]
+    },
+    {
+      "folio": "f99v",
+      "label_locus": "<f99v.4>",
+      "label_word": "oldy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qoldy"
+      ]
+    }
+  ],
+  "pharm_top_herbal_citations": [
+    {
+      "pharm_folio": "f100r",
+      "label_locus": "<f100r.5>",
+      "label_word": "daiindy",
+      "best_herbal_folio": "f49v",
+      "herbal_quire_L_H": "Q=G/B=1/A/H1",
+      "specificity_score": 0.3495
+    },
+    {
+      "pharm_folio": "f100r",
+      "label_locus": "<f100r.16>",
+      "label_word": "okeeos",
+      "best_herbal_folio": "f31v",
+      "herbal_quire_L_H": "Q=D/B=2/B/H2",
+      "specificity_score": 0.2236
+    },
+    {
+      "pharm_folio": "f100r",
+      "label_locus": "<f100r.17>",
+      "label_word": "shockhey",
+      "best_herbal_folio": "f51v",
+      "herbal_quire_L_H": "Q=G/B=3/A/H1",
+      "specificity_score": 0.0662
+    },
+    {
+      "pharm_folio": "f100r",
+      "label_locus": "<f100r.18>",
+      "label_word": "orol",
+      "best_herbal_folio": "f53r",
+      "herbal_quire_L_H": "Q=G/B=4/A/H1",
+      "specificity_score": 0.3814
+    },
+    {
+      "pharm_folio": "f100r",
+      "label_locus": "<f100r.20>",
+      "label_word": "oteol",
+      "best_herbal_folio": "f38v",
+      "herbal_quire_L_H": "Q=E/B=3/A/H1",
+      "specificity_score": 0.1588
+    },
+    {
+      "pharm_folio": "f100v",
+      "label_locus": "<f100v.2>",
+      "label_word": "chols",
+      "best_herbal_folio": "f5v",
+      "herbal_quire_L_H": "Q=A/B=4/A/H1",
+      "specificity_score": 0.3607
+    },
+    {
+      "pharm_folio": "f100v",
+      "label_locus": "<f100v.3>",
+      "label_word": "opchor",
+      "best_herbal_folio": "f13r",
+      "herbal_quire_L_H": "Q=B/B=4/A/H1",
+      "specificity_score": 0.122
+    },
+    {
+      "pharm_folio": "f100v",
+      "label_locus": "<f100v.7>",
+      "label_word": "ykchdy",
+      "best_herbal_folio": "f53r",
+      "herbal_quire_L_H": "Q=G/B=4/A/H1",
+      "specificity_score": 0.2697
+    },
+    {
+      "pharm_folio": "f100v",
+      "label_locus": "<f100v.8>",
+      "label_word": "dchdy",
+      "best_herbal_folio": "f26r",
+      "herbal_quire_L_H": "Q=D/B=2/B/H2",
+      "specificity_score": 0.2195
+    },
+    {
+      "pharm_folio": "f100v",
+      "label_locus": "<f100v.10>",
+      "label_word": "okcheor",
+      "best_herbal_folio": "f93r",
+      "herbal_quire_L_H": "Q=Q/B=1/A/H1",
+      "specificity_score": 0.2357
+    },
+    {
+      "pharm_folio": "f100v",
+      "label_locus": "<f100v.11>",
+      "label_word": "ytchol",
+      "best_herbal_folio": "f28r",
+      "herbal_quire_L_H": "Q=D/B=4/A/H1",
+      "specificity_score": 0.2025
+    },
+    {
+      "pharm_folio": "f100v",
+      "label_locus": "<f100v.13>",
+      "label_word": "chos",
+      "best_herbal_folio": "f27r",
+      "herbal_quire_L_H": "Q=D/B=3/A/H1",
+      "specificity_score": 0.2033
+    },
+    {
+      "pharm_folio": "f101v",
+      "label_locus": "<f101v.2>",
+      "label_word": "otaldy",
+      "best_herbal_folio": "f95v1",
+      "herbal_quire_L_H": "Q=Q/B=2/B/H3",
+      "specificity_score": 0.2709
+    },
+    {
+      "pharm_folio": "f101v",
+      "label_locus": "<f101v.3>",
+      "label_word": "otol",
+      "best_herbal_folio": "f5v",
+      "herbal_quire_L_H": "Q=A/B=4/A/H1",
+      "specificity_score": 0.2027
+    },
+    {
+      "pharm_folio": "f101v",
+      "label_locus": "<f101v.4>",
+      "label_word": "ytal",
+      "best_herbal_folio": "f65v",
+      "herbal_quire_L_H": "Q=H/B=2/U/H3",
+      "specificity_score": 0.276
+    },
+    {
+      "pharm_folio": "f101v",
+      "label_locus": "<f101v.8>",
+      "label_word": "otoly",
+      "best_herbal_folio": "f37r",
+      "herbal_quire_L_H": "Q=E/B=4/A/H1",
+      "specificity_score": 0.3357
+    },
+    {
+      "pharm_folio": "f101v",
+      "label_locus": "<f101v.10>",
+      "label_word": "okol",
+      "best_herbal_folio": "f6v",
+      "herbal_quire_L_H": "Q=A/B=3/A/H1",
+      "specificity_score": 0.1223
+    },
+    {
+      "pharm_folio": "f101v",
+      "label_locus": "<f101v.15>",
+      "label_word": "olkor",
+      "best_herbal_folio": "f33r",
+      "herbal_quire_L_H": "Q=E/B=1/B/H2",
+      "specificity_score": 0.3357
+    },
+    {
+      "pharm_folio": "f101v",
+      "label_locus": "<f101v.17>",
+      "label_word": "odor",
+      "best_herbal_folio": "f53r",
+      "herbal_quire_L_H": "Q=G/B=4/A/H1",
+      "specificity_score": 0.3114
+    },
+    {
+      "pharm_folio": "f102v1",
+      "label_locus": "<f102v1.2>",
+      "label_word": "okeody",
+      "best_herbal_folio": "f57r",
+      "herbal_quire_L_H": "Q=H/B=1/B/H5",
+      "specificity_score": 0.2144
+    }
+  ],
+  "balneo_same_page_bridges": [
+    {
+      "folio": "f75v",
+      "bifolio": "1",
+      "locus": "<f75v.25,+Ln>",
+      "nymph_label": "qokal",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okal",
+        "qokal"
+      ]
+    },
+    {
+      "folio": "f75v",
+      "bifolio": "1",
+      "locus": "<f75v.31,+Ln>",
+      "nymph_label": "dal",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "dal"
+      ]
+    },
+    {
+      "folio": "f75v",
+      "bifolio": "1",
+      "locus": "<f75v.35,+Ln>",
+      "nymph_label": "ykedy",
+      "match_type": "CANONICAL_STEM",
+      "same_page_prose_forms": [
+        "ykeedy"
+      ]
+    },
+    {
+      "folio": "f75v",
+      "bifolio": "1",
+      "locus": "<f75v.51,=Lt>",
+      "nymph_label": "okeey",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qokeey",
+        "qokey"
+      ]
+    },
+    {
+      "folio": "f75v",
+      "bifolio": "1",
+      "locus": "<f75v.51,=Lt>",
+      "nymph_label": "lol",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "lol"
+      ]
+    },
+    {
+      "folio": "f75v",
+      "bifolio": "1",
+      "locus": "<f75v.52,=Lt>",
+      "nymph_label": "olol",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "olol"
+      ]
+    },
+    {
+      "folio": "f75v",
+      "bifolio": "1",
+      "locus": "<f75v.54,+Lt>",
+      "nymph_label": "otedy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "otedy",
+        "qotedy",
+        "qoteedy"
+      ]
+    },
+    {
+      "folio": "f75v",
+      "bifolio": "1",
+      "locus": "<f75v.55,+Lt>",
+      "nymph_label": "oteey",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "oteey",
+        "otey"
+      ]
+    },
+    {
+      "folio": "f75v",
+      "bifolio": "1",
+      "locus": "<f75v.56,+Lt>",
+      "nymph_label": "qotedy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "otedy",
+        "qotedy",
+        "qoteedy"
+      ]
+    },
+    {
+      "folio": "f77r",
+      "bifolio": "3",
+      "locus": "<f77r.3,=Lt>",
+      "nymph_label": "otedy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "otedy",
+        "oteedy",
+        "qotedy",
+        "qoteedy",
+        "qoteeedy"
+      ]
+    },
+    {
+      "folio": "f77r",
+      "bifolio": "3",
+      "locus": "<f77r.5,=Lt>",
+      "nymph_label": "otol",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qotol"
+      ]
+    },
+    {
+      "folio": "f77v",
+      "bifolio": "3",
+      "locus": "<f77v.1,@Lt>",
+      "nymph_label": "okain",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okaiin",
+        "qokaiin",
+        "qokain"
+      ]
+    },
+    {
+      "folio": "f77v",
+      "bifolio": "3",
+      "locus": "<f77v.2,=Lt>",
+      "nymph_label": "otol",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qotol"
+      ]
+    },
+    {
+      "folio": "f77v",
+      "bifolio": "3",
+      "locus": "<f77v.2,=Lt>",
+      "nymph_label": "shedy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "chedy",
+        "shedy",
+        "sheedy"
+      ]
+    },
+    {
+      "folio": "f78r",
+      "bifolio": "4",
+      "locus": "<f78r.2,@Lt>",
+      "nymph_label": "okchdy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qokchdy"
+      ]
+    },
+    {
+      "folio": "f80r",
+      "bifolio": "5",
+      "locus": "<f80r.3,=Ln>",
+      "nymph_label": "okaly",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okaly"
+      ]
+    },
+    {
+      "folio": "f80r",
+      "bifolio": "5",
+      "locus": "<f80r.10,+Ln>",
+      "nymph_label": "okan",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qokan"
+      ]
+    },
+    {
+      "folio": "f81v",
+      "bifolio": "4",
+      "locus": "<f81v.28,@Lt>",
+      "nymph_label": "otain",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "otain",
+        "qotain"
+      ]
+    },
+    {
+      "folio": "f82r",
+      "bifolio": "3",
+      "locus": "<f82r.36,@Ln>",
+      "nymph_label": "okal",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okal",
+        "qokal"
+      ]
+    },
+    {
+      "folio": "f82v",
+      "bifolio": "3",
+      "locus": "<f82v.2,=Ln>",
+      "nymph_label": "otedy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "oteedy",
+        "qotedy",
+        "qoteedy"
+      ]
+    },
+    {
+      "folio": "f82v",
+      "bifolio": "3",
+      "locus": "<f82v.39,@Ln>",
+      "nymph_label": "olkeedy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "olkeedy",
+        "qolkedy"
+      ]
+    },
+    {
+      "folio": "f82v",
+      "bifolio": "3",
+      "locus": "<f82v.41,@Ln>",
+      "nymph_label": "okain",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okaiin",
+        "okain",
+        "qokaiin",
+        "qokain"
+      ]
+    },
+    {
+      "folio": "f82v",
+      "bifolio": "3",
+      "locus": "<f82v.45,@Lt>",
+      "nymph_label": "okoldy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qokoldy"
+      ]
+    },
+    {
+      "folio": "f82v",
+      "bifolio": "3",
+      "locus": "<f82v.46,@Lt>",
+      "nymph_label": "olkol",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "olkol"
+      ]
+    },
+    {
+      "folio": "f82v",
+      "bifolio": "3",
+      "locus": "<f82v.48,+Lt>",
+      "nymph_label": "oteedy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "oteedy",
+        "qotedy",
+        "qoteedy"
+      ]
+    }
+  ]
+}

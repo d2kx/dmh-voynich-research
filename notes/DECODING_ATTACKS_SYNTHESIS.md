@@ -803,4 +803,33 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Key Breakthroughs**:
   1. **Compiles Complete 4-Page Continuous Editions of Four Physical Parchment Bifolio Pamphlets (`Quire F B=3`, `Quire E B=2`, `Quire D B=2`, `Quire Q B=1`) Read in Original Scribal Drafting Order (`Page 1 -> Page 2 -> Page 3 -> Page 4`)**.
 
+---
+
+## 89. Attack 89 (`Phase 100`): The Nominal-to-Active (`o-R -> qo-R`) Figure-Label (`@L`) vs. Running-Prose (`@P`) Morphological Transformation Law ($z = +16.92$ / $z = -9.66$)
+- **Script & Data**: [`tools/attack89_figure_label_to_prose_transformation_law.py`](../tools/attack89_figure_label_to_prose_transformation_law.py) $\to$ [`data/attack89_figure_label_to_prose_transformation_law.json`](../data/attack89_figure_label_to_prose_transformation_law.json)
+- **Key Breakthroughs**:
+  1. **Proves That Standalone Figure Labels (`@L`) Enrich Nominal `o-` by `+30.93%` (`49.80%` vs. `18.87%` in `@P`, $z = +16.92$) and Suppress Active `qo-` by `11.4×` (`1.36%` vs. `15.56%`, $z = -9.66$), Transforming Shared Radicals via `o + R (Citation Label) -> qo + R (Active Prose Verb)` (`okedy -> qokedy`, `otchdy -> qotchy`, `okchdy -> qokchy`, `okol -> qokol`)**.
+
+---
+
+## 90. Attack 90 (`Phase 101`): The Pharmaceutical (`f88r–f102v`) `90.95%` Deictic-Omission Law, Same-Page `o-R -> qo-R` Bridges, and `2.29×` Per-Token Herbal-B Citation Selectivity ($z = -3.41$)
+- **Script, Data & Scan**: [`tools/attack90_pharmaceutical_label_to_samepage_recipe_aligner.py`](../tools/attack90_pharmaceutical_label_to_samepage_recipe_aligner.py) $\to$ [`data/attack90_pharmaceutical_label_to_samepage_recipe_aligner.json`](../data/attack90_pharmaceutical_label_to_samepage_recipe_aligner.json) & [`pages/f102v1_okeody_qokeody_bridge_enh.png`](../pages/f102v1_okeody_qokeody_bridge_enh.png)
+- **Key Breakthroughs**:
+  1. **Proves `90.95%` Same-Page Deictic Omission of Individual `@Lf` Root Labels (`Compensated by +67.0% Surge in ol/al/dal Container Determiners`), Identifies `20` Direct `o- -> qo-` Same-Page Bridges (`<f102v1.2> okeody -> qokeody`, `<f102v2.6> okeos -> qokeos`), and Demonstrates `2.29×` Per-Token Herbal-B Citation Enrichment ($z = -3.41$)**.
+
+---
+
+## 91. Attack 91 (`Phase 102`): Balneological (`Quire M`, `f75r–f84v`) Nymph-Label Concordance (`30.56%` Same-Page, `46.30%` Same-Bifolio, `59.26%` Same-Section) & Vertical Hydraulic Flow Gradient ($z = +3.36$)
+- **Script & Data**: [`tools/attack91_balneological_nymph_label_and_pool_zone_solver.py`](../tools/attack91_balneological_nymph_label_and_pool_zone_solver.py) $\to$ [`data/attack91_balneological_nymph_label_and_pool_zone_solver.json`](../data/attack91_balneological_nymph_label_and_pool_zone_solver.json)
+- **Key Breakthroughs**:
+  1. **Proves `30.56%` Same-Page and `46.30%` Same-Bifolio Concordance for `@Ln/@Lt` Nymph/Tube Labels, Plus a Monotonic Top-to-Bottom Hydraulic Flow Gradient (`P_TOP_INFLOW 29.94% qo- -> P_MID 26.20% -> P_BOT_POOL 22.00%`, $z = +3.36$; `-dy` `36.43% -> 27.77%`, $z = +2.34$)**.
+
+---
+
+## 92. Attack 92 (`Phase 103`): The Complete Illustrated Diagram-to-Prose Concordance Atlas ([`notes/ILLUSTRATED_DIAGRAM_TO_PROSE_ATLAS.md`](ILLUSTRATED_DIAGRAM_TO_PROSE_ATLAS.md))
+- **Script, Data & Edition**: [`tools/attack92_illustrated_diagram_to_prose_atlas.py`](../tools/attack92_illustrated_diagram_to_prose_atlas.py) $\to$ [`data/attack92_illustrated_diagram_to_prose_atlas.json`](../data/attack92_illustrated_diagram_to_prose_atlas.json) & [`notes/ILLUSTRATED_DIAGRAM_TO_PROSE_ATLAS.md`](ILLUSTRATED_DIAGRAM_TO_PROSE_ATLAS.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes the `o-R -> qo-R` Stem Transformation Table, Pharmaceutical Same-Page and Herbal-Citation Bridges, and Balneological Nymph-to-Prose and Hydraulic-Zone Concordances**.
+
+
 

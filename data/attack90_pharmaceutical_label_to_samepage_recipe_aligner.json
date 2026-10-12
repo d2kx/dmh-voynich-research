@@ -1,0 +1,394 @@
+{
+  "pharmaceutical_label_summary": {
+    "n_pharm_folios": 15,
+    "total_pharm_labels": 243,
+    "same_page_exact_or_q_matches": 20,
+    "same_page_exact_or_q_pct": 8.23,
+    "same_page_canonical_matches": 22,
+    "same_page_canonical_pct": 9.05,
+    "same_page_deictic_omission_rate_pct": 90.95
+  },
+  "pharm_vs_herbal_A_deictic_comparison": {
+    "pharmaceutical_prose": {
+      "n_tokens": 1954,
+      "ol_al_dal_sal_container_pct": 3.74,
+      "or_ar_dar_sar_partitive_pct": 3.28,
+      "qok_qot_active_pct": 9.93,
+      "o_nom_prefix_pct": 19.04
+    },
+    "herbal_A_prose": {
+      "n_tokens": 7458,
+      "ol_al_dal_sal_container_pct": 2.24,
+      "or_ar_dar_sar_partitive_pct": 2.64,
+      "qok_qot_active_pct": 7.44,
+      "o_nom_prefix_pct": 13.57
+    }
+  },
+  "herbal_dialect_citation_selectivity": {
+    "herbal_A_folios": 95,
+    "herbal_B_folios": 32,
+    "herbal_A_tokens": 7458,
+    "herbal_B_tokens": 3263,
+    "pharm_labels_in_herbal_A_exact_pct": 28.4,
+    "pharm_labels_in_herbal_B_exact_pct": 28.4,
+    "pharm_labels_in_herbal_A_canon_pct": 32.1,
+    "pharm_labels_in_herbal_B_canon_pct": 30.86,
+    "z_score_herbal_A_selectivity": -3.41,
+    "same_pharm_page_herbal_quire_concordance_pct": 9.35,
+    "diff_pharm_page_herbal_quire_concordance_pct": 11.12
+  },
+  "same_page_o_to_qo_bridges": [
+    {
+      "folio": "f101v",
+      "label_locus": "<f101v.10>",
+      "label_word": "okol",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qokol"
+      ]
+    },
+    {
+      "folio": "f102v1",
+      "label_locus": "<f102v1.2>",
+      "label_word": "okeody",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okeody",
+        "qokeody"
+      ]
+    },
+    {
+      "folio": "f102v1",
+      "label_locus": "<f102v1.3>",
+      "label_word": "okeody",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okeody",
+        "qokeody"
+      ]
+    },
+    {
+      "folio": "f102v2",
+      "label_locus": "<f102v2.6>",
+      "label_word": "okeos",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okeeos",
+        "qokeos"
+      ]
+    },
+    {
+      "folio": "f102v2",
+      "label_locus": "<f102v2.11>",
+      "label_word": "cheor",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "cheeor",
+        "cheor",
+        "sheeor",
+        "sheor"
+      ]
+    },
+    {
+      "folio": "f88r",
+      "label_locus": "<f88r.15>",
+      "label_word": "okol",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okol",
+        "qokol"
+      ]
+    },
+    {
+      "folio": "f89r2",
+      "label_locus": "<f89r2.5>",
+      "label_word": "opcheor",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "opcheor"
+      ]
+    },
+    {
+      "folio": "f89r2",
+      "label_locus": "<f89r2.10>",
+      "label_word": "okol",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qokol"
+      ]
+    },
+    {
+      "folio": "f89r2",
+      "label_locus": "<f89r2.10>",
+      "label_word": "shol",
+      "match_type": "CANONICAL_STEM",
+      "same_page_prose_forms": [
+        "chol"
+      ]
+    },
+    {
+      "folio": "f89r2",
+      "label_locus": "<f89r2.10>",
+      "label_word": "dy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "dy",
+        "qody"
+      ]
+    },
+    {
+      "folio": "f89r2",
+      "label_locus": "<f89r2.19>",
+      "label_word": "cheody",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "cheeody",
+        "cheody"
+      ]
+    },
+    {
+      "folio": "f89v2",
+      "label_locus": "<f89v2.5>",
+      "label_word": "sheol",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "cheol",
+        "sheol"
+      ]
+    },
+    {
+      "folio": "f89v2",
+      "label_locus": "<f89v2.12>",
+      "label_word": "chody",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "chody"
+      ]
+    },
+    {
+      "folio": "f99r",
+      "label_locus": "<f99r.4>",
+      "label_word": "oky",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qoky"
+      ]
+    },
+    {
+      "folio": "f99r",
+      "label_locus": "<f99r.7>",
+      "label_word": "ain",
+      "match_type": "CANONICAL_STEM",
+      "same_page_prose_forms": [
+        "aiin"
+      ]
+    },
+    {
+      "folio": "f99r",
+      "label_locus": "<f99r.8>",
+      "label_word": "okor",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okor"
+      ]
+    },
+    {
+      "folio": "f99r",
+      "label_locus": "<f99r.24>",
+      "label_word": "oky",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qoky"
+      ]
+    },
+    {
+      "folio": "f99r",
+      "label_locus": "<f99r.25>",
+      "label_word": "okeoly",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okeoly"
+      ]
+    },
+    {
+      "folio": "f99r",
+      "label_locus": "<f99r.35>",
+      "label_word": "dar",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "dar"
+      ]
+    },
+    {
+      "folio": "f99v",
+      "label_locus": "<f99v.4>",
+      "label_word": "oldy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qoldy"
+      ]
+    }
+  ],
+  "top_herbal_citation_links": [
+    {
+      "pharm_folio": "f100r",
+      "label_locus": "<f100r.5>",
+      "label_word": "daiindy",
+      "best_herbal_folio": "f49v",
+      "herbal_quire_L_H": "Q=G/B=1/A/H1",
+      "specificity_score": 0.3495
+    },
+    {
+      "pharm_folio": "f100r",
+      "label_locus": "<f100r.16>",
+      "label_word": "okeeos",
+      "best_herbal_folio": "f31v",
+      "herbal_quire_L_H": "Q=D/B=2/B/H2",
+      "specificity_score": 0.2236
+    },
+    {
+      "pharm_folio": "f100r",
+      "label_locus": "<f100r.17>",
+      "label_word": "shockhey",
+      "best_herbal_folio": "f51v",
+      "herbal_quire_L_H": "Q=G/B=3/A/H1",
+      "specificity_score": 0.0662
+    },
+    {
+      "pharm_folio": "f100r",
+      "label_locus": "<f100r.18>",
+      "label_word": "orol",
+      "best_herbal_folio": "f53r",
+      "herbal_quire_L_H": "Q=G/B=4/A/H1",
+      "specificity_score": 0.3814
+    },
+    {
+      "pharm_folio": "f100r",
+      "label_locus": "<f100r.20>",
+      "label_word": "oteol",
+      "best_herbal_folio": "f38v",
+      "herbal_quire_L_H": "Q=E/B=3/A/H1",
+      "specificity_score": 0.1588
+    },
+    {
+      "pharm_folio": "f100v",
+      "label_locus": "<f100v.2>",
+      "label_word": "chols",
+      "best_herbal_folio": "f5v",
+      "herbal_quire_L_H": "Q=A/B=4/A/H1",
+      "specificity_score": 0.3607
+    },
+    {
+      "pharm_folio": "f100v",
+      "label_locus": "<f100v.3>",
+      "label_word": "opchor",
+      "best_herbal_folio": "f13r",
+      "herbal_quire_L_H": "Q=B/B=4/A/H1",
+      "specificity_score": 0.122
+    },
+    {
+      "pharm_folio": "f100v",
+      "label_locus": "<f100v.7>",
+      "label_word": "ykchdy",
+      "best_herbal_folio": "f53r",
+      "herbal_quire_L_H": "Q=G/B=4/A/H1",
+      "specificity_score": 0.2697
+    },
+    {
+      "pharm_folio": "f100v",
+      "label_locus": "<f100v.8>",
+      "label_word": "dchdy",
+      "best_herbal_folio": "f26r",
+      "herbal_quire_L_H": "Q=D/B=2/B/H2",
+      "specificity_score": 0.2195
+    },
+    {
+      "pharm_folio": "f100v",
+      "label_locus": "<f100v.10>",
+      "label_word": "okcheor",
+      "best_herbal_folio": "f93r",
+      "herbal_quire_L_H": "Q=Q/B=1/A/H1",
+      "specificity_score": 0.2357
+    },
+    {
+      "pharm_folio": "f100v",
+      "label_locus": "<f100v.11>",
+      "label_word": "ytchol",
+      "best_herbal_folio": "f28r",
+      "herbal_quire_L_H": "Q=D/B=4/A/H1",
+      "specificity_score": 0.2025
+    },
+    {
+      "pharm_folio": "f100v",
+      "label_locus": "<f100v.13>",
+      "label_word": "chos",
+      "best_herbal_folio": "f27r",
+      "herbal_quire_L_H": "Q=D/B=3/A/H1",
+      "specificity_score": 0.2033
+    },
+    {
+      "pharm_folio": "f101v",
+      "label_locus": "<f101v.2>",
+      "label_word": "otaldy",
+      "best_herbal_folio": "f95v1",
+      "herbal_quire_L_H": "Q=Q/B=2/B/H3",
+      "specificity_score": 0.2709
+    },
+    {
+      "pharm_folio": "f101v",
+      "label_locus": "<f101v.3>",
+      "label_word": "otol",
+      "best_herbal_folio": "f5v",
+      "herbal_quire_L_H": "Q=A/B=4/A/H1",
+      "specificity_score": 0.2027
+    },
+    {
+      "pharm_folio": "f101v",
+      "label_locus": "<f101v.4>",
+      "label_word": "ytal",
+      "best_herbal_folio": "f65v",
+      "herbal_quire_L_H": "Q=H/B=2/U/H3",
+      "specificity_score": 0.276
+    },
+    {
+      "pharm_folio": "f101v",
+      "label_locus": "<f101v.8>",
+      "label_word": "otoly",
+      "best_herbal_folio": "f37r",
+      "herbal_quire_L_H": "Q=E/B=4/A/H1",
+      "specificity_score": 0.3357
+    },
+    {
+      "pharm_folio": "f101v",
+      "label_locus": "<f101v.10>",
+      "label_word": "okol",
+      "best_herbal_folio": "f6v",
+      "herbal_quire_L_H": "Q=A/B=3/A/H1",
+      "specificity_score": 0.1223
+    },
+    {
+      "pharm_folio": "f101v",
+      "label_locus": "<f101v.15>",
+      "label_word": "olkor",
+      "best_herbal_folio": "f33r",
+      "herbal_quire_L_H": "Q=E/B=1/B/H2",
+      "specificity_score": 0.3357
+    },
+    {
+      "pharm_folio": "f101v",
+      "label_locus": "<f101v.17>",
+      "label_word": "odor",
+      "best_herbal_folio": "f53r",
+      "herbal_quire_L_H": "Q=G/B=4/A/H1",
+      "specificity_score": 0.3114
+    },
+    {
+      "pharm_folio": "f102v1",
+      "label_locus": "<f102v1.2>",
+      "label_word": "okeody",
+      "best_herbal_folio": "f57r",
+      "herbal_quire_L_H": "Q=H/B=1/B/H5",
+      "specificity_score": 0.2144
+    }
+  ]
+}

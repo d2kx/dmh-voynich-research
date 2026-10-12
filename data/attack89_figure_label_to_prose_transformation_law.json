@@ -1,0 +1,642 @@
+{
+  "macro_locus_profiles": {
+    "LOC_PROSE_P": {
+      "n_tokens": 32995,
+      "n_types": 8072,
+      "mean_len": 5.337,
+      "open_class_pct": 76.53,
+      "t_class_share_of_gallows_pct": 42.39,
+      "prefix_pct": {
+        "PFX_BARE": 34.93,
+        "PFX_D_S": 21.0,
+        "PFX_L_APPL": 4.5,
+        "PFX_O_NOM": 18.87,
+        "PFX_QO_ACT": 15.56,
+        "PFX_Y_INIT": 5.14
+      },
+      "suffix_pct": {
+        "SFX_CONSONANT_OTHER": 9.79,
+        "SFX_DY": 18.98,
+        "SFX_IN": 16.91,
+        "SFX_LIQ_L": 14.04,
+        "SFX_LIQ_R": 14.07,
+        "SFX_M_CLOSE": 2.79,
+        "SFX_Y_BARE": 23.4
+      },
+      "top_words": [
+        "daiin(766)",
+        "chedy(438)",
+        "shedy(373)",
+        "ol(368)",
+        "chol(323)",
+        "qokeedy(304)",
+        "qokeey(298)",
+        "aiin(291)"
+      ]
+    },
+    "LOC_LABEL_L": {
+      "n_tokens": 737,
+      "n_types": 581,
+      "mean_len": 5.332,
+      "open_class_pct": 67.71,
+      "t_class_share_of_gallows_pct": 53.04,
+      "prefix_pct": {
+        "PFX_BARE": 18.32,
+        "PFX_D_S": 19.4,
+        "PFX_L_APPL": 5.43,
+        "PFX_O_NOM": 49.8,
+        "PFX_QO_ACT": 1.36,
+        "PFX_Y_INIT": 5.7
+      },
+      "suffix_pct": {
+        "SFX_CONSONANT_OTHER": 24.15,
+        "SFX_DY": 15.88,
+        "SFX_IN": 5.56,
+        "SFX_LIQ_L": 12.62,
+        "SFX_LIQ_R": 11.8,
+        "SFX_M_CLOSE": 5.43,
+        "SFX_Y_BARE": 24.56
+      },
+      "top_words": [
+        "o(11)",
+        "s(11)",
+        "y(10)",
+        "otedy(8)",
+        "d(7)",
+        "otchdy(6)",
+        "f(5)",
+        "e(5)"
+      ]
+    },
+    "LOC_RING_RADIAL_CR": {
+      "n_tokens": 2497,
+      "n_types": 1351,
+      "mean_len": 5.247,
+      "open_class_pct": 71.21,
+      "t_class_share_of_gallows_pct": 52.3,
+      "prefix_pct": {
+        "PFX_BARE": 30.52,
+        "PFX_D_S": 17.62,
+        "PFX_L_APPL": 4.0,
+        "PFX_O_NOM": 39.77,
+        "PFX_QO_ACT": 2.44,
+        "PFX_Y_INIT": 5.65
+      },
+      "suffix_pct": {
+        "SFX_CONSONANT_OTHER": 20.78,
+        "SFX_DY": 13.58,
+        "SFX_IN": 9.29,
+        "SFX_LIQ_L": 13.34,
+        "SFX_LIQ_R": 16.62,
+        "SFX_M_CLOSE": 2.16,
+        "SFX_Y_BARE": 24.23
+      },
+      "top_words": [
+        "oteey(33)",
+        "ar(32)",
+        "aiin(30)",
+        "o(29)",
+        "dar(27)",
+        "al(27)",
+        "daiin(24)",
+        "ol(24)"
+      ]
+    }
+  },
+  "label_vs_prose_permutation_tests": {
+    "obs_o_nom_delta_pct": 30.93,
+    "z_score_o_nom_enrichment_in_labels": 16.92,
+    "obs_qo_act_delta_pct": -14.2,
+    "z_score_qo_act_suppression_in_labels": -9.66,
+    "obs_sfx_r_delta_pct": -2.27,
+    "z_score_sfx_r_enrichment_in_labels": -2.22,
+    "label_subtype_affix_mi_bits": 0.292,
+    "z_score_label_subtype_affix_mi": 8.5
+  },
+  "label_subtype_profiles": {
+    "LBL_ASTRO_ZODIAC_STAR": {
+      "n_tokens": 188,
+      "n_types": 154,
+      "mean_len": 4.697,
+      "open_class_pct": 64.36,
+      "t_class_share_of_gallows_pct": 51.02,
+      "prefix_pct": {
+        "PFX_BARE": 22.87,
+        "PFX_D_S": 17.55,
+        "PFX_L_APPL": 2.66,
+        "PFX_O_NOM": 47.87,
+        "PFX_QO_ACT": 2.66,
+        "PFX_Y_INIT": 6.38
+      },
+      "suffix_pct": {
+        "SFX_CONSONANT_OTHER": 29.26,
+        "SFX_DY": 11.7,
+        "SFX_IN": 5.32,
+        "SFX_LIQ_L": 9.04,
+        "SFX_LIQ_R": 13.83,
+        "SFX_M_CLOSE": 5.85,
+        "SFX_Y_BARE": 25.0
+      },
+      "top_words": [
+        "o(7)",
+        "s(7)",
+        "d(5)",
+        "y(4)",
+        "f(4)",
+        "x(3)",
+        "am(3)",
+        "sh(2)"
+      ]
+    },
+    "LBL_BALNEO_NYMPH": {
+      "n_tokens": 113,
+      "n_types": 102,
+      "mean_len": 5.354,
+      "open_class_pct": 69.91,
+      "t_class_share_of_gallows_pct": 42.86,
+      "prefix_pct": {
+        "PFX_BARE": 8.85,
+        "PFX_D_S": 21.24,
+        "PFX_L_APPL": 15.93,
+        "PFX_O_NOM": 47.79,
+        "PFX_QO_ACT": 2.65,
+        "PFX_Y_INIT": 3.54
+      },
+      "suffix_pct": {
+        "SFX_CONSONANT_OTHER": 13.27,
+        "SFX_DY": 21.24,
+        "SFX_IN": 5.31,
+        "SFX_LIQ_L": 24.78,
+        "SFX_LIQ_R": 8.85,
+        "SFX_Y_BARE": 26.55
+      },
+      "top_words": [
+        "otedy(4)",
+        "s(2)",
+        "l(2)",
+        "darol(2)",
+        "daldy(2)",
+        "otoly(2)",
+        "otol(2)",
+        "okain(2)"
+      ]
+    },
+    "LBL_COSMO_DIAGRAM": {
+      "n_tokens": 163,
+      "n_types": 150,
+      "mean_len": 5.693,
+      "open_class_pct": 71.78,
+      "t_class_share_of_gallows_pct": 64.76,
+      "prefix_pct": {
+        "PFX_BARE": 12.88,
+        "PFX_D_S": 17.18,
+        "PFX_L_APPL": 2.45,
+        "PFX_O_NOM": 62.58,
+        "PFX_QO_ACT": 0.61,
+        "PFX_Y_INIT": 4.29
+      },
+      "suffix_pct": {
+        "SFX_CONSONANT_OTHER": 21.47,
+        "SFX_DY": 25.77,
+        "SFX_IN": 6.13,
+        "SFX_LIQ_L": 9.2,
+        "SFX_LIQ_R": 12.27,
+        "SFX_M_CLOSE": 5.52,
+        "SFX_Y_BARE": 19.63
+      },
+      "top_words": [
+        "otchdy(3)",
+        "otedy(3)",
+        "ytedar(2)",
+        "okedy(2)",
+        "opar(2)",
+        "okody(2)",
+        "oteedy(2)",
+        "opy(2)"
+      ]
+    },
+    "LBL_HERBAL_MARGINAL": {
+      "n_tokens": 30,
+      "n_types": 19,
+      "mean_len": 2.2,
+      "open_class_pct": 30.0,
+      "t_class_share_of_gallows_pct": 55.56,
+      "prefix_pct": {
+        "PFX_BARE": 43.33,
+        "PFX_D_S": 10.0,
+        "PFX_L_APPL": 3.33,
+        "PFX_O_NOM": 23.33,
+        "PFX_Y_INIT": 20.0
+      },
+      "suffix_pct": {
+        "SFX_CONSONANT_OTHER": 66.67,
+        "SFX_LIQ_L": 10.0,
+        "SFX_M_CLOSE": 6.67,
+        "SFX_Y_BARE": 16.67
+      },
+      "top_words": [
+        "y(5)",
+        "e(4)",
+        "o(3)",
+        "k(2)",
+        "p(2)",
+        "ytoail(1)",
+        "ios(1)",
+        "an(1)"
+      ]
+    },
+    "LBL_PHARM_JAR_ROOT": {
+      "n_tokens": 243,
+      "n_types": 227,
+      "mean_len": 5.959,
+      "open_class_pct": 71.19,
+      "t_class_share_of_gallows_pct": 50.68,
+      "prefix_pct": {
+        "PFX_BARE": 19.75,
+        "PFX_D_S": 22.63,
+        "PFX_L_APPL": 4.94,
+        "PFX_O_NOM": 46.91,
+        "PFX_QO_ACT": 0.41,
+        "PFX_Y_INIT": 5.35
+      },
+      "suffix_pct": {
+        "SFX_CONSONANT_OTHER": 21.81,
+        "SFX_DY": 11.93,
+        "SFX_IN": 6.17,
+        "SFX_LIQ_L": 12.35,
+        "SFX_LIQ_R": 12.76,
+        "SFX_M_CLOSE": 7.41,
+        "SFX_Y_BARE": 27.57
+      },
+      "top_words": [
+        "okol(4)",
+        "otoldy(4)",
+        "otoky(2)",
+        "otaly(2)",
+        "otaldy(2)",
+        "otoram(2)",
+        "otory(2)",
+        "okary(2)"
+      ]
+    }
+  },
+  "shared_radical_label_to_prose_transformations": [
+    {
+      "radical": "ka",
+      "n_label_tokens": 21,
+      "n_prose_tokens": 1391,
+      "label_o_nom_pct": 61.9,
+      "prose_o_nom_pct": 35.2,
+      "label_qo_act_pct": 14.3,
+      "prose_qo_act_pct": 46.6,
+      "top_label_forms": [
+        "okain(4)",
+        "qokal(3)",
+        "okal(2)",
+        "ofar(1)"
+      ],
+      "top_prose_forms": [
+        "qokain(278)",
+        "qokal(182)",
+        "qokar(147)",
+        "okain(133)"
+      ]
+    },
+    {
+      "radical": "ar",
+      "n_label_tokens": 20,
+      "n_prose_tokens": 413,
+      "label_o_nom_pct": 0.0,
+      "prose_o_nom_pct": 1.2,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 0.0,
+      "top_label_forms": [
+        "dary(3)",
+        "sary(2)",
+        "arar(2)",
+        "arom(2)"
+      ],
+      "top_prose_forms": [
+        "ar(242)",
+        "aral(19)",
+        "dary(17)",
+        "araiin(17)"
+      ]
+    },
+    {
+      "radical": "te",
+      "n_label_tokens": 18,
+      "n_prose_tokens": 1024,
+      "label_o_nom_pct": 88.9,
+      "prose_o_nom_pct": 48.0,
+      "label_qo_act_pct": 5.6,
+      "prose_qo_act_pct": 27.1,
+      "top_label_forms": [
+        "otedy(8)",
+        "oteedy(3)",
+        "oteey(2)",
+        "oteeear(1)"
+      ],
+      "top_prose_forms": [
+        "otedy(138)",
+        "oteey(104)",
+        "oteedy(90)",
+        "qotedy(86)"
+      ]
+    },
+    {
+      "radical": "ko",
+      "n_label_tokens": 18,
+      "n_prose_tokens": 342,
+      "label_o_nom_pct": 83.3,
+      "prose_o_nom_pct": 31.3,
+      "label_qo_act_pct": 5.6,
+      "prose_qo_act_pct": 41.5,
+      "top_label_forms": [
+        "okol(5)",
+        "okor(3)",
+        "okody(3)",
+        "okos(2)"
+      ],
+      "top_prose_forms": [
+        "qokol(89)",
+        "okol(58)",
+        "qokor(31)",
+        "okor(26)"
+      ]
+    },
+    {
+      "radical": "ch",
+      "n_label_tokens": 17,
+      "n_prose_tokens": 3152,
+      "label_o_nom_pct": 17.6,
+      "prose_o_nom_pct": 6.9,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 2.1,
+      "top_label_forms": [
+        "sh(2)",
+        "chor(2)",
+        "dchol(1)",
+        "chol(1)"
+      ],
+      "top_prose_forms": [
+        "chedy(438)",
+        "chol(323)",
+        "chey(286)",
+        "chor(193)"
+      ]
+    },
+    {
+      "radical": "ke",
+      "n_label_tokens": 16,
+      "n_prose_tokens": 2551,
+      "label_o_nom_pct": 75.0,
+      "prose_o_nom_pct": 31.6,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 47.1,
+      "top_label_forms": [
+        "okeody(3)",
+        "okedy(3)",
+        "ykedy(2)",
+        "ykeol(1)"
+      ],
+      "top_prose_forms": [
+        "qokeedy(304)",
+        "qokeey(298)",
+        "qokedy(272)",
+        "okeey(160)"
+      ]
+    },
+    {
+      "radical": "tch",
+      "n_label_tokens": 15,
+      "n_prose_tokens": 1020,
+      "label_o_nom_pct": 86.7,
+      "prose_o_nom_pct": 36.7,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 26.4,
+      "top_label_forms": [
+        "otchdy(6)",
+        "opchdy(2)",
+        "otshey(1)",
+        "ytchody(1)"
+      ],
+      "top_prose_forms": [
+        "qotchy(62)",
+        "opchedy(46)",
+        "otchy(41)",
+        "tchedy(32)"
+      ]
+    },
+    {
+      "radical": "kch",
+      "n_label_tokens": 14,
+      "n_prose_tokens": 803,
+      "label_o_nom_pct": 78.6,
+      "prose_o_nom_pct": 28.0,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 34.0,
+      "top_label_forms": [
+        "okchdy(4)",
+        "ykchdy(2)",
+        "ykshy(1)",
+        "okshor(1)"
+      ],
+      "top_prose_forms": [
+        "qokchy(63)",
+        "qokchdy(49)",
+        "qokchedy(40)",
+        "okchey(33)"
+      ]
+    },
+    {
+      "radical": "ta",
+      "n_label_tokens": 13,
+      "n_prose_tokens": 726,
+      "label_o_nom_pct": 76.9,
+      "prose_o_nom_pct": 53.4,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 27.1,
+      "top_label_forms": [
+        "otal(3)",
+        "otar(2)",
+        "opar(2)",
+        "tar(1)"
+      ],
+      "top_prose_forms": [
+        "otal(112)",
+        "otar(110)",
+        "otain(94)",
+        "qotar(61)"
+      ]
+    },
+    {
+      "radical": "to",
+      "n_label_tokens": 12,
+      "n_prose_tokens": 343,
+      "label_o_nom_pct": 91.7,
+      "prose_o_nom_pct": 35.9,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 26.2,
+      "top_label_forms": [
+        "otol(5)",
+        "otor(2)",
+        "otody(2)",
+        "ytoaiin(1)"
+      ],
+      "top_prose_forms": [
+        "otol(61)",
+        "qotol(40)",
+        "tol(32)",
+        "otor(32)"
+      ]
+    },
+    {
+      "radical": "kar",
+      "n_label_tokens": 11,
+      "n_prose_tokens": 49,
+      "label_o_nom_pct": 81.8,
+      "prose_o_nom_pct": 57.1,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 16.3,
+      "top_label_forms": [
+        "okary(5)",
+        "fary(1)",
+        "okaral(1)",
+        "ofardy(1)"
+      ],
+      "top_prose_forms": [
+        "okary(8)",
+        "okaral(5)",
+        "kary(4)",
+        "okaram(3)"
+      ]
+    },
+    {
+      "radical": "tol",
+      "n_label_tokens": 10,
+      "n_prose_tokens": 34,
+      "label_o_nom_pct": 100.0,
+      "prose_o_nom_pct": 50.0,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 11.8,
+      "top_label_forms": [
+        "otoldy(5)",
+        "otoly(3)",
+        "otolal(1)",
+        "otolor(1)"
+      ],
+      "top_prose_forms": [
+        "otoldy(5)",
+        "otoly(5)",
+        "ytoldy(4)",
+        "toldy(3)"
+      ]
+    },
+    {
+      "radical": "da",
+      "n_label_tokens": 10,
+      "n_prose_tokens": 646,
+      "label_o_nom_pct": 30.0,
+      "prose_o_nom_pct": 11.8,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 5.0,
+      "top_label_forms": [
+        "dar(2)",
+        "dal(1)",
+        "daldar(1)",
+        "daldal(1)"
+      ],
+      "top_prose_forms": [
+        "dar(248)",
+        "dal(171)",
+        "dam(71)",
+        "odar(19)"
+      ]
+    },
+    {
+      "radical": "tal",
+      "n_label_tokens": 9,
+      "n_prose_tokens": 73,
+      "label_o_nom_pct": 100.0,
+      "prose_o_nom_pct": 63.0,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 15.1,
+      "top_label_forms": [
+        "otaly(5)",
+        "otaldy(2)",
+        "opalal(1)",
+        "otalam(1)"
+      ],
+      "top_prose_forms": [
+        "otaly(12)",
+        "qotaly(5)",
+        "otaldy(5)",
+        "otalor(4)"
+      ]
+    },
+    {
+      "radical": "ted",
+      "n_label_tokens": 9,
+      "n_prose_tokens": 81,
+      "label_o_nom_pct": 66.7,
+      "prose_o_nom_pct": 43.2,
+      "label_qo_act_pct": 11.1,
+      "prose_qo_act_pct": 29.6,
+      "top_label_forms": [
+        "otedal(2)",
+        "ytedar(2)",
+        "qoted(1)",
+        "otedol(1)"
+      ],
+      "top_prose_forms": [
+        "otedar(9)",
+        "oteed(5)",
+        "tedain(4)",
+        "qoteedar(3)"
+      ]
+    },
+    {
+      "radical": "ol",
+      "n_label_tokens": 7,
+      "n_prose_tokens": 492,
+      "label_o_nom_pct": 42.9,
+      "prose_o_nom_pct": 92.3,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 2.0,
+      "top_label_forms": [
+        "doly(2)",
+        "ololal(1)",
+        "loly(1)",
+        "ooly(1)"
+      ],
+      "top_prose_forms": [
+        "ol(368)",
+        "oly(54)",
+        "ols(19)",
+        "qoly(7)"
+      ]
+    },
+    {
+      "radical": "kol",
+      "n_label_tokens": 6,
+      "n_prose_tokens": 45,
+      "label_o_nom_pct": 83.3,
+      "prose_o_nom_pct": 46.7,
+      "label_qo_act_pct": 0.0,
+      "prose_qo_act_pct": 13.3,
+      "top_label_forms": [
+        "okoldy(2)",
+        "okoly(1)",
+        "sokoly(1)",
+        "okolar(1)"
+      ],
+      "top_prose_forms": [
+        "okoldy(7)",
+        "koldy(6)",
+        "qokoldy(4)",
+        "okoly(3)"
+      ]
+    }
+  ]
+}

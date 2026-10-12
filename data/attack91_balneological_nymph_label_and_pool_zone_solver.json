@@ -1,0 +1,531 @@
+{
+  "nymph_label_vs_prose_summary": {
+    "n_nymph_labels": 108,
+    "n_bio_prose_tokens": 5830,
+    "nymph_label_profile": {
+      "n_words": 108,
+      "top_pf_init": 0.0,
+      "am_colophon": 0.0,
+      "qo_rate": 0.027777777777777776,
+      "l_appl_rate": 0.19444444444444445,
+      "o_nom_rate": 0.6203703703703703,
+      "s_y_init_rate": 0.10185185185185185,
+      "k_class_rate": 0.37037037037037035,
+      "t_class_rate": 0.2777777777777778,
+      "ch_sh_bench_rate": 0.08333333333333333,
+      "dy_rate": 0.2222222222222222,
+      "y_bare_rate": 0.2777777777777778,
+      "in_meas_rate": 0.05555555555555555,
+      "liq_l_rate": 0.25925925925925924,
+      "liq_r_rate": 0.07407407407407407
+    },
+    "bio_prose_profile": {
+      "n_words": 5830,
+      "top_pf_init": 0.0,
+      "am_colophon": 0.0,
+      "qo_rate": 0.26260720411663807,
+      "l_appl_rate": 0.12401372212692967,
+      "o_nom_rate": 0.18181818181818182,
+      "s_y_init_rate": 0.1758147512864494,
+      "k_class_rate": 0.3543739279588336,
+      "t_class_rate": 0.1816466552315609,
+      "ch_sh_bench_rate": 0.24854202401372213,
+      "dy_rate": 0.31715265866209263,
+      "y_bare_rate": 0.23876500857632932,
+      "in_meas_rate": 0.14253859348198972,
+      "liq_l_rate": 0.16054888507718695,
+      "liq_r_rate": 0.0816466552315609
+    },
+    "same_page_exact_or_q_pct": 27.78,
+    "same_page_canonical_pct": 30.56,
+    "same_bifolio_canonical_pct": 46.3,
+    "same_section_canonical_pct": 59.26
+  },
+  "vertical_hydraulic_flow_zones": {
+    "P_TOP_INFLOW": {
+      "n_words": 92.2632,
+      "top_pf_init": 0.4211,
+      "am_colophon": 0.0,
+      "qo_rate": 0.2994,
+      "l_appl_rate": 0.1152,
+      "o_nom_rate": 0.18,
+      "s_y_init_rate": 0.1606,
+      "k_class_rate": 0.3621,
+      "t_class_rate": 0.2008,
+      "ch_sh_bench_rate": 0.2507,
+      "dy_rate": 0.3643,
+      "y_bare_rate": 0.232,
+      "in_meas_rate": 0.1123,
+      "liq_l_rate": 0.1624,
+      "liq_r_rate": 0.075,
+      "n_paragraphs": 19
+    },
+    "P_MID_PIPE_STREAM": {
+      "n_words": 55.093,
+      "top_pf_init": 0.6512,
+      "am_colophon": 0.0,
+      "qo_rate": 0.262,
+      "l_appl_rate": 0.1208,
+      "o_nom_rate": 0.1924,
+      "s_y_init_rate": 0.1769,
+      "k_class_rate": 0.3499,
+      "t_class_rate": 0.2145,
+      "ch_sh_bench_rate": 0.2408,
+      "dy_rate": 0.2805,
+      "y_bare_rate": 0.2673,
+      "in_meas_rate": 0.1573,
+      "liq_l_rate": 0.1615,
+      "liq_r_rate": 0.0777,
+      "n_paragraphs": 43
+    },
+    "P_BOT_POOL": {
+      "n_words": 83.4211,
+      "top_pf_init": 0.5789,
+      "am_colophon": 0.0,
+      "qo_rate": 0.22,
+      "l_appl_rate": 0.1311,
+      "o_nom_rate": 0.1868,
+      "s_y_init_rate": 0.1842,
+      "k_class_rate": 0.3373,
+      "t_class_rate": 0.1541,
+      "ch_sh_bench_rate": 0.2378,
+      "dy_rate": 0.2777,
+      "y_bare_rate": 0.2347,
+      "in_meas_rate": 0.1636,
+      "liq_l_rate": 0.1793,
+      "liq_r_rate": 0.0848,
+      "n_paragraphs": 19
+    }
+  },
+  "vertical_gradient_permutation_test": {
+    "obs_qo_drop_top_minus_bot": 0.0794,
+    "z_score_qo_drop": 3.36,
+    "obs_dy_drop_top_minus_bot": 0.0866,
+    "z_score_dy_drop": 2.34
+  },
+  "p_top_inflow_characteristic_words": [
+    {
+      "word": "chcthy",
+      "p_top_count": 12,
+      "p_bot_count": 2,
+      "lift": 4.52
+    },
+    {
+      "word": "kedy",
+      "p_top_count": 7,
+      "p_bot_count": 1,
+      "lift": 4.52
+    },
+    {
+      "word": "qotain",
+      "p_top_count": 7,
+      "p_bot_count": 2,
+      "lift": 2.71
+    },
+    {
+      "word": "sheckhy",
+      "p_top_count": 7,
+      "p_bot_count": 2,
+      "lift": 2.71
+    },
+    {
+      "word": "checkhy",
+      "p_top_count": 6,
+      "p_bot_count": 2,
+      "lift": 2.35
+    },
+    {
+      "word": "qoky",
+      "p_top_count": 21,
+      "p_bot_count": 8,
+      "lift": 2.29
+    },
+    {
+      "word": "qoteedy",
+      "p_top_count": 18,
+      "p_bot_count": 7,
+      "lift": 2.23
+    },
+    {
+      "word": "qotal",
+      "p_top_count": 11,
+      "p_bot_count": 5,
+      "lift": 1.89
+    },
+    {
+      "word": "otedy",
+      "p_top_count": 19,
+      "p_bot_count": 9,
+      "lift": 1.86
+    },
+    {
+      "word": "tedy",
+      "p_top_count": 8,
+      "p_bot_count": 4,
+      "lift": 1.71
+    },
+    {
+      "word": "qokol",
+      "p_top_count": 6,
+      "p_bot_count": 3,
+      "lift": 1.68
+    },
+    {
+      "word": "oteey",
+      "p_top_count": 6,
+      "p_bot_count": 3,
+      "lift": 1.68
+    }
+  ],
+  "p_bot_pool_characteristic_words": [
+    {
+      "word": "raiin",
+      "p_bot_count": 7,
+      "p_top_count": 1,
+      "lift": 5.53
+    },
+    {
+      "word": "aiin",
+      "p_bot_count": 12,
+      "p_top_count": 3,
+      "lift": 3.95
+    },
+    {
+      "word": "sheey",
+      "p_bot_count": 8,
+      "p_top_count": 2,
+      "lift": 3.76
+    },
+    {
+      "word": "qokey",
+      "p_bot_count": 15,
+      "p_top_count": 7,
+      "lift": 2.29
+    },
+    {
+      "word": "cheol",
+      "p_bot_count": 8,
+      "p_top_count": 4,
+      "lift": 2.09
+    },
+    {
+      "word": "ol",
+      "p_bot_count": 56,
+      "p_top_count": 35,
+      "lift": 1.76
+    },
+    {
+      "word": "oky",
+      "p_bot_count": 5,
+      "p_top_count": 3,
+      "lift": 1.74
+    },
+    {
+      "word": "olkeedy",
+      "p_bot_count": 5,
+      "p_top_count": 3,
+      "lift": 1.74
+    },
+    {
+      "word": "saiin",
+      "p_bot_count": 8,
+      "p_top_count": 5,
+      "lift": 1.71
+    },
+    {
+      "word": "okey",
+      "p_bot_count": 6,
+      "p_top_count": 4,
+      "lift": 1.6
+    },
+    {
+      "word": "lshedy",
+      "p_bot_count": 10,
+      "p_top_count": 7,
+      "lift": 1.55
+    },
+    {
+      "word": "qoty",
+      "p_bot_count": 7,
+      "p_top_count": 5,
+      "lift": 1.51
+    }
+  ],
+  "same_page_nymph_to_prose_bridges": [
+    {
+      "folio": "f75v",
+      "bifolio": "1",
+      "locus": "<f75v.25,+Ln>",
+      "nymph_label": "qokal",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okal",
+        "qokal"
+      ]
+    },
+    {
+      "folio": "f75v",
+      "bifolio": "1",
+      "locus": "<f75v.31,+Ln>",
+      "nymph_label": "dal",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "dal"
+      ]
+    },
+    {
+      "folio": "f75v",
+      "bifolio": "1",
+      "locus": "<f75v.35,+Ln>",
+      "nymph_label": "ykedy",
+      "match_type": "CANONICAL_STEM",
+      "same_page_prose_forms": [
+        "ykeedy"
+      ]
+    },
+    {
+      "folio": "f75v",
+      "bifolio": "1",
+      "locus": "<f75v.51,=Lt>",
+      "nymph_label": "okeey",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qokeey",
+        "qokey"
+      ]
+    },
+    {
+      "folio": "f75v",
+      "bifolio": "1",
+      "locus": "<f75v.51,=Lt>",
+      "nymph_label": "lol",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "lol"
+      ]
+    },
+    {
+      "folio": "f75v",
+      "bifolio": "1",
+      "locus": "<f75v.52,=Lt>",
+      "nymph_label": "olol",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "olol"
+      ]
+    },
+    {
+      "folio": "f75v",
+      "bifolio": "1",
+      "locus": "<f75v.54,+Lt>",
+      "nymph_label": "otedy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "otedy",
+        "qotedy",
+        "qoteedy"
+      ]
+    },
+    {
+      "folio": "f75v",
+      "bifolio": "1",
+      "locus": "<f75v.55,+Lt>",
+      "nymph_label": "oteey",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "oteey",
+        "otey"
+      ]
+    },
+    {
+      "folio": "f75v",
+      "bifolio": "1",
+      "locus": "<f75v.56,+Lt>",
+      "nymph_label": "qotedy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "otedy",
+        "qotedy",
+        "qoteedy"
+      ]
+    },
+    {
+      "folio": "f77r",
+      "bifolio": "3",
+      "locus": "<f77r.3,=Lt>",
+      "nymph_label": "otedy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "otedy",
+        "oteedy",
+        "qotedy",
+        "qoteedy",
+        "qoteeedy"
+      ]
+    },
+    {
+      "folio": "f77r",
+      "bifolio": "3",
+      "locus": "<f77r.5,=Lt>",
+      "nymph_label": "otol",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qotol"
+      ]
+    },
+    {
+      "folio": "f77v",
+      "bifolio": "3",
+      "locus": "<f77v.1,@Lt>",
+      "nymph_label": "okain",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okaiin",
+        "qokaiin",
+        "qokain"
+      ]
+    },
+    {
+      "folio": "f77v",
+      "bifolio": "3",
+      "locus": "<f77v.2,=Lt>",
+      "nymph_label": "otol",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qotol"
+      ]
+    },
+    {
+      "folio": "f77v",
+      "bifolio": "3",
+      "locus": "<f77v.2,=Lt>",
+      "nymph_label": "shedy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "chedy",
+        "shedy",
+        "sheedy"
+      ]
+    },
+    {
+      "folio": "f78r",
+      "bifolio": "4",
+      "locus": "<f78r.2,@Lt>",
+      "nymph_label": "okchdy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qokchdy"
+      ]
+    },
+    {
+      "folio": "f80r",
+      "bifolio": "5",
+      "locus": "<f80r.3,=Ln>",
+      "nymph_label": "okaly",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okaly"
+      ]
+    },
+    {
+      "folio": "f80r",
+      "bifolio": "5",
+      "locus": "<f80r.10,+Ln>",
+      "nymph_label": "okan",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qokan"
+      ]
+    },
+    {
+      "folio": "f81v",
+      "bifolio": "4",
+      "locus": "<f81v.28,@Lt>",
+      "nymph_label": "otain",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "otain",
+        "qotain"
+      ]
+    },
+    {
+      "folio": "f82r",
+      "bifolio": "3",
+      "locus": "<f82r.36,@Ln>",
+      "nymph_label": "okal",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okal",
+        "qokal"
+      ]
+    },
+    {
+      "folio": "f82v",
+      "bifolio": "3",
+      "locus": "<f82v.2,=Ln>",
+      "nymph_label": "otedy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "oteedy",
+        "qotedy",
+        "qoteedy"
+      ]
+    },
+    {
+      "folio": "f82v",
+      "bifolio": "3",
+      "locus": "<f82v.39,@Ln>",
+      "nymph_label": "olkeedy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "olkeedy",
+        "qolkedy"
+      ]
+    },
+    {
+      "folio": "f82v",
+      "bifolio": "3",
+      "locus": "<f82v.41,@Ln>",
+      "nymph_label": "okain",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "okaiin",
+        "okain",
+        "qokaiin",
+        "qokain"
+      ]
+    },
+    {
+      "folio": "f82v",
+      "bifolio": "3",
+      "locus": "<f82v.45,@Lt>",
+      "nymph_label": "okoldy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "qokoldy"
+      ]
+    },
+    {
+      "folio": "f82v",
+      "bifolio": "3",
+      "locus": "<f82v.46,@Lt>",
+      "nymph_label": "olkol",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "olkol"
+      ]
+    },
+    {
+      "folio": "f82v",
+      "bifolio": "3",
+      "locus": "<f82v.48,+Lt>",
+      "nymph_label": "oteedy",
+      "match_type": "EXACT_OR_Q_PROCLITIC",
+      "same_page_prose_forms": [
+        "oteedy",
+        "qotedy",
+        "qoteedy"
+      ]
+    }
+  ]
+}
