@@ -215,7 +215,50 @@ Why did the scribe write the Voynich word **`oror`** at the end of a European ch
 
 ---
 
+### 9. Folio `f20v` — Mountain Cornflower / Blue Knapweed-Thistle (Visual Guild Discovery)
+* **Section:** Herbal A (Scribe 1) | **Page in Yale Scan:** Page 41
+
+![Folio f20v Blue Knapweed-Thistle](../pages/f20v_polypody_fern_enh.png)
+
+#### What to Look for on the Scan
+1. Look at the **8 flower heads**: each one has a spiky, scaly cup (involucre) bursting with **deep indigo-blue florets**.
+2. Look at the **lower stalk**: two opposite sets of **3 long, narrow, serrated lance-shaped green leaves** radiate horizontally above a pale striated root crown.
+3. This is a classic 15th-century depiction of **Mountain Cornflower / Blue Knapweed (*Centaurea montana*)** or **Blue Thistle (*Carthamus caeruleus*)**—and just like its sister Cornflower page (`f2r`), the text repeatedly prescribes **`shol daiin`** (*"take one measure of the washed liquid extract"*) and **`chol`** (*"the strained herbal wash"*).
+
+---
+
+### 10. Folio `f70v2` — The Pisces Zodiac Wheel With the European Month Word `mars` (March)
+* **Section:** Zodiac / Astrological (`f70v2–f73v`) | **Page in Yale Scan:** Page 129
+
+![Folio f70v2 Pisces Medallion with mars](../pages/f70v2_pisces_mars.png)
+
+#### What to Look for on the Scan
+1. In the center of the wheel are **two scaly fish** facing in opposite directions, tethered by a silver-blue cord between two stars—the universal symbol of **Pisces**.
+2. Look right between the two fish: a 15th-century European hand wrote the actual Western month word **`mars` (March)**! Across the 10 surviving Zodiac wheels (`f70v2–f73v`), you can read the full sequence of Western months from **`mars` (March)**, **`abril` (April)**, **`may` (May)**, **`juny` (June)**, **`jolh` (July)**, **`agost` (August)**, **`setembre` (September)**, **`octobre` (October)**, **`novembre` (November)**, to **`decembre` (December)**.
+3. Around the Pisces fish stand **29 star-holding nymphs** (representing the days/degrees of the month), each labeled with a single Voynich word (`otaly`, `okaly`, `otaram`, `otaral`).
+4. **The Big Breakthrough:** When we checked all `348` star-nymph labels across the Zodiac wheels against the rest of the book, **`58.1%` (`202 / 348`) appear word-for-word inside the Herbal, Pharmaceutical, and Recipe sections!** That means the 30 nymphs around each month wheel act as an **astrological dosing & harvesting calendar**, telling the apothecary which herbal essence is governed by each day of March (`mars`) through December (`decembre`).
+
+---
+
+### 11. Folios `f75r` & `f82v` — The Grand Waterfall Bathing Pool & Labelled Water Pipes (`olkol` / `okoldy`)
+* **Section:** Balneological / Medical Bathing (`f75r–f84v`, Scribe 2) | **Pages in Yale Scan:** Pages 136 & 151
+
+![Folio f75r Waterfall Bathing Pool](../pages/f75r_waterfall_pool_enh.png)
+
+#### What to Look for on `f75r` (Above) and `f82v` (Below)
+1. **`f75r` (The Waterfall Pool Frontispiece, above):** A pleated fan canopy at the top pours a green medicated stream down a vertical chute into two communal bathing pools. Inside the white arch to the left of the waterfall chute sits a special **8-line inset recipe column** opening with **`dar olchedy`** (*"from the source, pour into the infused bath"*).
+2. **`f82v` (The Labelled Pipe Network, below):** Look along the painted water tubes and beside the bathers—the scribe wrote single-word labels right on the plumbing!
+
+![Folio f82v Labelled Pipes and Nymphs](../pages/f82v_nymph_and_pipe_network_enh.png)
+
+#### How the Pipe Labels Prove the Grammar
+* On the **painted water pipes (`@Lt`)**, the scribe writes **`olkol`** and **`okoldy`** (`ol-` *"in the pipe/vessel"* + `kol` *"core liquid"* + `-dy` *"infused"*)—the **exact same vessel stem (`okol`) written on the painted apothecary jars in the Pharmaceutical section**!
+* Meanwhile, active boiling commands starting with **`qo-`** (`qokeedy` = *"then boil it!"*) make up **nearly 1 in 4 words (`24.4%`)** in the instruction paragraphs wrapping around the pools, but almost **never appear as pipe or bather labels (`2.5%`)**—because you label a pipe with the *noun* for what flows inside it (`olkol`), and put the *boiling verbs* (`qokeedy`) in the recipe steps!
+
+---
+
 ## Where to Go Next
-* **Want to see which real-world plants and constellations match the drawings?** Read the **[Visual Botanical & Astrological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)**.
+* **Want to see all 15 real-world plants, constellations, and bathing diagrams?** Read the **[Visual Botanical, Astrological & Balneological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)**.
 * **Want to click through the pages and decode words interactively in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** in any web browser!
-* **Want the deep grammatical tables and full 169-discovery research log?** See **[`EIGHT_CASE_PARADIGM_AND_PARAGRAPH_STATE_COMPILER.md`](EIGHT_CASE_PARADIGM_AND_PARAGRAPH_STATE_COMPILER.md)** and **[`NOTES.md`](../NOTES.md)**.
+* **Want the deep grammatical tables and full 173-discovery research log?** See **[`ZODIAC_MONTHS_BALNEO_PLUMBING_AND_BOTANICAL_ATLAS.md`](ZODIAC_MONTHS_BALNEO_PLUMBING_AND_BOTANICAL_ATLAS.md)**, **[`EIGHT_CASE_PARADIGM_AND_PARAGRAPH_STATE_COMPILER.md`](EIGHT_CASE_PARADIGM_AND_PARAGRAPH_STATE_COMPILER.md)**, and **[`NOTES.md`](../NOTES.md)**.
+

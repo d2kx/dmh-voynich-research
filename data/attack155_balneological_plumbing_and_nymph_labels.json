@@ -1,0 +1,562 @@
+{
+  "attack": 155,
+  "phase": 166,
+  "discovery": 172,
+  "title": "20-Page Balneological Hydrotherapy Plumbing & Nymph-Label System (f75r-f84v)",
+  "summary": {
+    "balneo_folio_count": 20,
+    "total_prose_tokens": 6659,
+    "total_nymph_labels": 65,
+    "total_tube_labels": 54,
+    "total_labels": 119,
+    "prose_qo_rate": 0.2445,
+    "label_qo_rate": 0.0252,
+    "prose_o_ol_rate": 0.2132,
+    "label_o_ol_rate": 0.6218,
+    "label_vs_prose_polarity_diff": 0.6279,
+    "label_vs_prose_polarity_z": 9.97
+  },
+  "prose_profile": {
+    "token_count": 6659,
+    "qo_prefix_rate": 0.2445,
+    "o_ol_prefix_rate": 0.2132,
+    "sh_prefix_rate": 0.1143,
+    "ch_prefix_rate": 0.123,
+    "edy_dy_suffix_rate": 0.3049,
+    "ol_or_al_ar_suffix_rate": 0.2706,
+    "top_words": [
+      "shedy",
+      "ol",
+      "chedy",
+      "qokedy",
+      "qokain",
+      "qokeedy",
+      "qokal",
+      "qol",
+      "shey",
+      "chey"
+    ]
+  },
+  "nymph_label_profile": {
+    "token_count": 65,
+    "qo_prefix_rate": 0.0308,
+    "o_ol_prefix_rate": 0.5538,
+    "sh_prefix_rate": 0.0308,
+    "ch_prefix_rate": 0.0,
+    "edy_dy_suffix_rate": 0.2615,
+    "ol_or_al_ar_suffix_rate": 0.3538,
+    "top_words": [
+      "daldy",
+      "dal",
+      "otoly",
+      "otedy",
+      "okshy",
+      "saral",
+      "dokal",
+      "darol",
+      "shd",
+      "dalkar"
+    ]
+  },
+  "tube_label_profile": {
+    "token_count": 54,
+    "qo_prefix_rate": 0.0185,
+    "o_ol_prefix_rate": 0.7037,
+    "sh_prefix_rate": 0.0185,
+    "ch_prefix_rate": 0.0185,
+    "edy_dy_suffix_rate": 0.1667,
+    "ol_or_al_ar_suffix_rate": 0.4259,
+    "top_words": [
+      "otedy",
+      "otol",
+      "otal",
+      "opal",
+      "okeey",
+      "lol",
+      "olol",
+      "ytedy",
+      "oteey",
+      "qotedy"
+    ]
+  },
+  "combined_label_profile": {
+    "token_count": 119,
+    "qo_prefix_rate": 0.0252,
+    "o_ol_prefix_rate": 0.6218,
+    "sh_prefix_rate": 0.0252,
+    "ch_prefix_rate": 0.0084,
+    "edy_dy_suffix_rate": 0.2185,
+    "ol_or_al_ar_suffix_rate": 0.3866,
+    "top_words": [
+      "otedy",
+      "darol",
+      "daldy",
+      "dal",
+      "otoly",
+      "otol",
+      "okain",
+      "okchdy",
+      "okshy",
+      "saral"
+    ]
+  },
+  "folios": [
+    {
+      "folio": "f75r",
+      "prose_tokens": 411,
+      "nymph_labels": [],
+      "tube_labels": [],
+      "thermal_boil_rate": 0.0949,
+      "wash_bathe_rate": 0.1484,
+      "pool_vessel_rate": 0.0754,
+      "top_prose_words": [
+        "qokain",
+        "qokeedy",
+        "shedy",
+        "qokedy",
+        "shey"
+      ]
+    },
+    {
+      "folio": "f75v",
+      "prose_tokens": 317,
+      "nymph_labels": [
+        "okshy",
+        "saral",
+        "dokal",
+        "darol",
+        "daldy",
+        "dal",
+        "shd",
+        "dalkar",
+        "qokal",
+        "dly",
+        "ory",
+        "oty",
+        "lchy",
+        "dary",
+        "dal",
+        "daldy",
+        "qoted",
+        "rkal",
+        "ykedy",
+        "olkchy",
+        "otoly"
+      ],
+      "tube_labels": [
+        "otal",
+        "opal",
+        "okeey",
+        "lol",
+        "olol",
+        "ytedy",
+        "otedy",
+        "oteey",
+        "qotedy"
+      ],
+      "thermal_boil_rate": 0.0599,
+      "wash_bathe_rate": 0.1104,
+      "pool_vessel_rate": 0.1356,
+      "top_prose_words": [
+        "qokain",
+        "ol",
+        "qol",
+        "qokedy",
+        "chedy"
+      ]
+    },
+    {
+      "folio": "f76r",
+      "prose_tokens": 544,
+      "nymph_labels": [],
+      "tube_labels": [],
+      "thermal_boil_rate": 0.0607,
+      "wash_bathe_rate": 0.1599,
+      "pool_vessel_rate": 0.057,
+      "top_prose_words": [
+        "shedy",
+        "chedy",
+        "chey",
+        "dain",
+        "shey"
+      ]
+    },
+    {
+      "folio": "f76v",
+      "prose_tokens": 389,
+      "nymph_labels": [],
+      "tube_labels": [],
+      "thermal_boil_rate": 0.0874,
+      "wash_bathe_rate": 0.1465,
+      "pool_vessel_rate": 0.0437,
+      "top_prose_words": [
+        "chedy",
+        "qokeedy",
+        "shedy",
+        "qokedy",
+        "saiin"
+      ]
+    },
+    {
+      "folio": "f77r",
+      "prose_tokens": 313,
+      "nymph_labels": [
+        "darchdar",
+        "dotedy",
+        "otchdy"
+      ],
+      "tube_labels": [
+        "olkchs",
+        "otedy",
+        "otork",
+        "otol",
+        "dchdy",
+        "soral",
+        "otolaiin"
+      ],
+      "thermal_boil_rate": 0.0799,
+      "wash_bathe_rate": 0.1278,
+      "pool_vessel_rate": 0.0415,
+      "top_prose_words": [
+        "qokeedy",
+        "qokaiin",
+        "shedy",
+        "chedy",
+        "qotedy"
+      ]
+    },
+    {
+      "folio": "f77v",
+      "prose_tokens": 320,
+      "nymph_labels": [
+        "saroral",
+        "oeoedu"
+      ],
+      "tube_labels": [
+        "okain",
+        "kal",
+        "otol",
+        "shedy",
+        "olkeedal",
+        "otolor",
+        "orchedal",
+        "okalo"
+      ],
+      "thermal_boil_rate": 0.0875,
+      "wash_bathe_rate": 0.1437,
+      "pool_vessel_rate": 0.0688,
+      "top_prose_words": [
+        "shedy",
+        "qokedy",
+        "qokal",
+        "chedy",
+        "dal"
+      ]
+    },
+    {
+      "folio": "f78r",
+      "prose_tokens": 278,
+      "nymph_labels": [],
+      "tube_labels": [
+        "okchdldlo",
+        "okchdy",
+        "dar",
+        "aloy",
+        "dchedaly",
+        "otarodlay",
+        "orory",
+        "okaral"
+      ],
+      "thermal_boil_rate": 0.1151,
+      "wash_bathe_rate": 0.0755,
+      "pool_vessel_rate": 0.0863,
+      "top_prose_words": [
+        "qokedy",
+        "ol",
+        "shedy",
+        "qokain",
+        "chedy"
+      ]
+    },
+    {
+      "folio": "f78v",
+      "prose_tokens": 286,
+      "nymph_labels": [],
+      "tube_labels": [],
+      "thermal_boil_rate": 0.0839,
+      "wash_bathe_rate": 0.1294,
+      "pool_vessel_rate": 0.1503,
+      "top_prose_words": [
+        "ol",
+        "qokedy",
+        "chedy",
+        "qol",
+        "shedy"
+      ]
+    },
+    {
+      "folio": "f79r",
+      "prose_tokens": 371,
+      "nymph_labels": [],
+      "tube_labels": [],
+      "thermal_boil_rate": 0.0135,
+      "wash_bathe_rate": 0.1698,
+      "pool_vessel_rate": 0.124,
+      "top_prose_words": [
+        "ol",
+        "shedy",
+        "qokain",
+        "shey",
+        "chey"
+      ]
+    },
+    {
+      "folio": "f79v",
+      "prose_tokens": 350,
+      "nymph_labels": [],
+      "tube_labels": [],
+      "thermal_boil_rate": 0.08,
+      "wash_bathe_rate": 0.0829,
+      "pool_vessel_rate": 0.1171,
+      "top_prose_words": [
+        "ol",
+        "qokeedy",
+        "qokain",
+        "qokeey",
+        "qokedy"
+      ]
+    },
+    {
+      "folio": "f80r",
+      "prose_tokens": 423,
+      "nymph_labels": [
+        "toroly",
+        "olchdy",
+        "okaly",
+        "okolo",
+        "okary",
+        "opor",
+        "olky",
+        "otalshedy",
+        "okar",
+        "okan"
+      ],
+      "tube_labels": [],
+      "thermal_boil_rate": 0.0284,
+      "wash_bathe_rate": 0.1442,
+      "pool_vessel_rate": 0.1135,
+      "top_prose_words": [
+        "qokain",
+        "ol",
+        "shedy",
+        "qokal",
+        "qokeedy"
+      ]
+    },
+    {
+      "folio": "f80v",
+      "prose_tokens": 371,
+      "nymph_labels": [],
+      "tube_labels": [],
+      "thermal_boil_rate": 0.027,
+      "wash_bathe_rate": 0.1348,
+      "pool_vessel_rate": 0.1456,
+      "top_prose_words": [
+        "ol",
+        "qokain",
+        "olkain",
+        "chedy",
+        "shey"
+      ]
+    },
+    {
+      "folio": "f81r",
+      "prose_tokens": 205,
+      "nymph_labels": [],
+      "tube_labels": [],
+      "thermal_boil_rate": 0.0488,
+      "wash_bathe_rate": 0.1073,
+      "pool_vessel_rate": 0.1805,
+      "top_prose_words": [
+        "ol",
+        "chedy",
+        "shedy",
+        "qol",
+        "qokedy"
+      ]
+    },
+    {
+      "folio": "f81v",
+      "prose_tokens": 249,
+      "nymph_labels": [],
+      "tube_labels": [
+        "otain",
+        "olkal"
+      ],
+      "thermal_boil_rate": 0.0562,
+      "wash_bathe_rate": 0.1084,
+      "pool_vessel_rate": 0.1124,
+      "top_prose_words": [
+        "ol",
+        "daiin",
+        "chedy",
+        "shedy",
+        "qokedy"
+      ]
+    },
+    {
+      "folio": "f82r",
+      "prose_tokens": 271,
+      "nymph_labels": [
+        "okor",
+        "okal",
+        "okaldy",
+        "okairady",
+        "sororl",
+        "olkoky",
+        "sokoly",
+        "dolol",
+        "olaiin",
+        "okeear"
+      ],
+      "tube_labels": [
+        "oroldair",
+        "darol",
+        "darary"
+      ],
+      "thermal_boil_rate": 0.0738,
+      "wash_bathe_rate": 0.107,
+      "pool_vessel_rate": 0.0295,
+      "top_prose_words": [
+        "qokeedy",
+        "qokaiin",
+        "qokeey",
+        "shedy",
+        "cheey"
+      ]
+    },
+    {
+      "folio": "f82v",
+      "prose_tokens": 296,
+      "nymph_labels": [
+        "otechdy",
+        "otedy",
+        "olkeedy",
+        "okalchy",
+        "okain",
+        "okol"
+      ],
+      "tube_labels": [
+        "daiinoty",
+        "otedal",
+        "okaoky",
+        "okedor",
+        "okoldy",
+        "olkol",
+        "otedol",
+        "oteedy"
+      ],
+      "thermal_boil_rate": 0.0541,
+      "wash_bathe_rate": 0.1385,
+      "pool_vessel_rate": 0.0743,
+      "top_prose_words": [
+        "qokal",
+        "qokain",
+        "shedy",
+        "chedy",
+        "qokedy"
+      ]
+    },
+    {
+      "folio": "f83r",
+      "prose_tokens": 334,
+      "nymph_labels": [],
+      "tube_labels": [
+        "chtorol",
+        "olsaiin",
+        "sasoldal",
+        "darolsy"
+      ],
+      "thermal_boil_rate": 0.0928,
+      "wash_bathe_rate": 0.1557,
+      "pool_vessel_rate": 0.0359,
+      "top_prose_words": [
+        "shedy",
+        "chedy",
+        "qokedy",
+        "lchedy",
+        "sol"
+      ]
+    },
+    {
+      "folio": "f83v",
+      "prose_tokens": 254,
+      "nymph_labels": [
+        "okchdy"
+      ],
+      "tube_labels": [
+        "ololary",
+        "okarchy",
+        "okaiin"
+      ],
+      "thermal_boil_rate": 0.0551,
+      "wash_bathe_rate": 0.1614,
+      "pool_vessel_rate": 0.0748,
+      "top_prose_words": [
+        "shedy",
+        "qokal",
+        "chedy",
+        "qokaiin",
+        "qokeedy"
+      ]
+    },
+    {
+      "folio": "f84r",
+      "prose_tokens": 344,
+      "nymph_labels": [
+        "or",
+        "shekar",
+        "ydy",
+        "okedy",
+        "loly",
+        "doiir",
+        "olshy",
+        "otedy",
+        "lkol",
+        "okolshy",
+        "otoly",
+        "dshedy"
+      ],
+      "tube_labels": [
+        "ololal",
+        "otaly"
+      ],
+      "thermal_boil_rate": 0.0988,
+      "wash_bathe_rate": 0.1453,
+      "pool_vessel_rate": 0.1076,
+      "top_prose_words": [
+        "shedy",
+        "ol",
+        "dar",
+        "or",
+        "qokedy"
+      ]
+    },
+    {
+      "folio": "f84v",
+      "prose_tokens": 333,
+      "nymph_labels": [],
+      "tube_labels": [],
+      "thermal_boil_rate": 0.1261,
+      "wash_bathe_rate": 0.1231,
+      "pool_vessel_rate": 0.1231,
+      "top_prose_words": [
+        "shedy",
+        "ol",
+        "okedy",
+        "qokedy",
+        "chedy"
+      ]
+    }
+  ]
+}

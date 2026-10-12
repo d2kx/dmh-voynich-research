@@ -1,0 +1,525 @@
+{
+  "attack": 154,
+  "phase": 165,
+  "discovery": 171,
+  "title": "10 Zodiac Wheels (f70v2-f73v), Bilingual Month Glosses (mars..decembre), and 300 Star-Nymph Calendar",
+  "summary": {
+    "medallion_folio_count": 12,
+    "total_ring_tokens": 927,
+    "total_nymph_labels": 348,
+    "nymph_vs_ring_o_prefix_diff": 0.2711,
+    "nymph_vs_ring_o_prefix_z": 8.5,
+    "nymph_exact_match_in_medical_sections_rate": 0.5805,
+    "nymph_exact_match_in_starred_recipes": 0.4914,
+    "nymph_exact_match_in_pharma": 0.3707,
+    "nymph_exact_match_in_herbal": 0.4856
+  },
+  "ring_profile": {
+    "token_count": 927,
+    "o_prefix_rate": 0.4099,
+    "y_prefix_rate": 0.0356,
+    "d_s_prefix_rate": 0.1543,
+    "al_ar_ending_rate": 0.2438,
+    "ol_or_ending_rate": 0.11,
+    "dy_edy_ending_rate": 0.1165,
+    "am_m_ending_rate": 0.0194,
+    "top_tokens": [
+      "aiin",
+      "ar",
+      "al",
+      "oteey",
+      "oteody",
+      "oteos",
+      "otey",
+      "otaiin"
+    ]
+  },
+  "nymph_label_profile": {
+    "token_count": 348,
+    "o_prefix_rate": 0.681,
+    "y_prefix_rate": 0.0891,
+    "d_s_prefix_rate": 0.0517,
+    "al_ar_ending_rate": 0.2989,
+    "ol_or_ending_rate": 0.0603,
+    "dy_edy_ending_rate": 0.1552,
+    "am_m_ending_rate": 0.0833,
+    "top_tokens": [
+      "otar",
+      "otaly",
+      "ar",
+      "otal",
+      "oky",
+      "okeey",
+      "okal",
+      "okaly"
+    ]
+  },
+  "triplicity_profiles": {
+    "Water": {
+      "token_count": 379,
+      "o_prefix_rate": 0.4459,
+      "y_prefix_rate": 0.0607,
+      "d_s_prefix_rate": 0.1372,
+      "al_ar_ending_rate": 0.2507,
+      "ol_or_ending_rate": 0.0897,
+      "dy_edy_ending_rate": 0.1161,
+      "am_m_ending_rate": 0.0396,
+      "top_tokens": [
+        "ar",
+        "al",
+        "oteey",
+        "aiin",
+        "otar",
+        "am",
+        "oteos",
+        "oteody"
+      ]
+    },
+    "Fire": {
+      "token_count": 382,
+      "o_prefix_rate": 0.5105,
+      "y_prefix_rate": 0.0602,
+      "d_s_prefix_rate": 0.1361,
+      "al_ar_ending_rate": 0.212,
+      "ol_or_ending_rate": 0.1047,
+      "dy_edy_ending_rate": 0.1832,
+      "am_m_ending_rate": 0.0209,
+      "top_tokens": [
+        "oteody",
+        "chy",
+        "daiin",
+        "al",
+        "aiin",
+        "oteey",
+        "shedy",
+        "ar"
+      ]
+    },
+    "Earth": {
+      "token_count": 308,
+      "o_prefix_rate": 0.4513,
+      "y_prefix_rate": 0.026,
+      "d_s_prefix_rate": 0.1266,
+      "al_ar_ending_rate": 0.2825,
+      "ol_or_ending_rate": 0.1169,
+      "dy_edy_ending_rate": 0.0909,
+      "am_m_ending_rate": 0.0487,
+      "top_tokens": [
+        "ar",
+        "al",
+        "aiin",
+        "otaiin",
+        "oteey",
+        "otar",
+        "dar",
+        "cheol"
+      ]
+    },
+    "Air": {
+      "token_count": 206,
+      "o_prefix_rate": 0.5534,
+      "y_prefix_rate": 0.0485,
+      "d_s_prefix_rate": 0.0874,
+      "al_ar_ending_rate": 0.3252,
+      "ol_or_ending_rate": 0.0631,
+      "dy_edy_ending_rate": 0.0971,
+      "am_m_ending_rate": 0.0437,
+      "top_tokens": [
+        "aiin",
+        "otar",
+        "okaly",
+        "okal",
+        "oteos",
+        "daiin",
+        "okeey",
+        "al"
+      ]
+    }
+  },
+  "medallions": [
+    {
+      "folio": "f70v2",
+      "sign": "Pisces (Two Fish tied by a cord)",
+      "european_month_gloss": "mars (March)",
+      "triplicity": "Water",
+      "season": "Early Spring",
+      "scan_image": "pages/f70v2_pisces_mars.png",
+      "ring_token_count": 93,
+      "nymph_label_count": 35,
+      "top_ring_words": [
+        "al",
+        "oteey",
+        "ar",
+        "oteotey",
+        "shey",
+        "aiin"
+      ],
+      "top_nymph_labels": [
+        "otar",
+        "oty",
+        "otalalg",
+        "ykary",
+        "oky",
+        "ody",
+        "ar",
+        "okala"
+      ],
+      "o_prefix_rate": 0.4688,
+      "y_prefix_rate": 0.0469,
+      "liquid_ol_or_rate": 0.0391,
+      "essence_al_ar_rate": 0.3125
+    },
+    {
+      "folio": "f70v1",
+      "sign": "Aries Part I (Dark-fleeced Ram chewing green shoot)",
+      "european_month_gloss": "abril (April, Dark Half)",
+      "triplicity": "Fire",
+      "season": "Spring",
+      "scan_image": "pages/f71v_taurus_abril_enh.png",
+      "ring_token_count": 59,
+      "nymph_label_count": 25,
+      "top_ring_words": [
+        "dal",
+        "cheody",
+        "sheo",
+        "daiin",
+        "dalalody",
+        "oteoshey"
+      ],
+      "top_nymph_labels": [
+        "otal",
+        "otalchy",
+        "tar",
+        "am",
+        "dy",
+        "opchey",
+        "sal",
+        "otakaizan"
+      ],
+      "o_prefix_rate": 0.4762,
+      "y_prefix_rate": 0.0238,
+      "liquid_ol_or_rate": 0.0714,
+      "essence_al_ar_rate": 0.2619
+    },
+    {
+      "folio": "f71r",
+      "sign": "Aries Part II (Light Ram)",
+      "european_month_gloss": "abril (April, Light Half)",
+      "triplicity": "Fire",
+      "season": "Spring",
+      "scan_image": "pages/f71v_taurus_abril_enh.png",
+      "ring_token_count": 71,
+      "nymph_label_count": 17,
+      "top_ring_words": [
+        "oteody",
+        "otol",
+        "aiin",
+        "al",
+        "okody",
+        "chy"
+      ],
+      "top_nymph_labels": [
+        "oteos",
+        "arar",
+        "okldam",
+        "oteoaldy",
+        "oteolar",
+        "okeoaly",
+        "otaleky",
+        "otalsar"
+      ],
+      "o_prefix_rate": 0.5909,
+      "y_prefix_rate": 0.0227,
+      "liquid_ol_or_rate": 0.1136,
+      "essence_al_ar_rate": 0.2727
+    },
+    {
+      "folio": "f71v",
+      "sign": "Taurus Part I (Dark Bull at manger)",
+      "european_month_gloss": "may (May, Dark Half)",
+      "triplicity": "Earth",
+      "season": "Late Spring",
+      "scan_image": "pages/f71v_taurus_abril_enh.png",
+      "ring_token_count": 78,
+      "nymph_label_count": 22,
+      "top_ring_words": [
+        "al",
+        "oteey",
+        "ar",
+        "chey",
+        "okeo",
+        "dar"
+      ],
+      "top_nymph_labels": [
+        "otar",
+        "ar",
+        "char",
+        "arom",
+        "chfaly",
+        "okolar",
+        "otchody",
+        "alcphy"
+      ],
+      "o_prefix_rate": 0.45,
+      "y_prefix_rate": 0.0,
+      "liquid_ol_or_rate": 0.11,
+      "essence_al_ar_rate": 0.37
+    },
+    {
+      "folio": "f72r1",
+      "sign": "Taurus Part II (Light Bull on green turf)",
+      "european_month_gloss": "may (May, Light Half)",
+      "triplicity": "Earth",
+      "season": "Late Spring",
+      "scan_image": "pages/f71v_taurus_abril_enh.png",
+      "ring_token_count": 80,
+      "nymph_label_count": 23,
+      "top_ring_words": [
+        "aiin",
+        "al",
+        "ar",
+        "otaiin",
+        "oteey",
+        "chol"
+      ],
+      "top_nymph_labels": [
+        "ary",
+        "oshodady",
+        "chdaiirdainy",
+        "oaiin",
+        "ar",
+        "okalam",
+        "ytalshdy",
+        "char"
+      ],
+      "o_prefix_rate": 0.4272,
+      "y_prefix_rate": 0.0388,
+      "liquid_ol_or_rate": 0.1553,
+      "essence_al_ar_rate": 0.2621
+    },
+    {
+      "folio": "f72r2",
+      "sign": "Gemini (Twin Courtly Lovers holding hands in tunics)",
+      "european_month_gloss": "juny (June)",
+      "triplicity": "Air",
+      "season": "Early Summer",
+      "scan_image": "pages/f72r2_gemini_juny.png",
+      "ring_token_count": 75,
+      "nymph_label_count": 31,
+      "top_ring_words": [
+        "aiin",
+        "daiin",
+        "al",
+        "tey",
+        "otchey",
+        "chekaiin"
+      ],
+      "top_nymph_labels": [
+        "okal",
+        "okaly",
+        "ofchdamy",
+        "oklairdy",
+        "okaram",
+        "okairy",
+        "okealar",
+        "otaraldy"
+      ],
+      "o_prefix_rate": 0.5283,
+      "y_prefix_rate": 0.0,
+      "liquid_ol_or_rate": 0.0566,
+      "essence_al_ar_rate": 0.3491
+    },
+    {
+      "folio": "f72r3",
+      "sign": "Cancer (Twin Crayfish / Lobsters)",
+      "european_month_gloss": "jolh (July)",
+      "triplicity": "Water",
+      "season": "Mid-Summer",
+      "scan_image": "pages/f72r3_cancer_jolh.png",
+      "ring_token_count": 117,
+      "nymph_label_count": 40,
+      "top_ring_words": [
+        "aiin",
+        "ar",
+        "okeeol",
+        "oteody",
+        "oteedy",
+        "oteey"
+      ],
+      "top_nymph_labels": [
+        "olkalaiin",
+        "olalsy",
+        "oraiinam",
+        "osarsheeeo",
+        "otoaiin",
+        "opoiiinoin",
+        "al",
+        "ches"
+      ],
+      "o_prefix_rate": 0.4522,
+      "y_prefix_rate": 0.0701,
+      "liquid_ol_or_rate": 0.1592,
+      "essence_al_ar_rate": 0.1911
+    },
+    {
+      "folio": "f72v3",
+      "sign": "Leo (Walking Lion with tongue extended)",
+      "european_month_gloss": "agost (August)",
+      "triplicity": "Fire",
+      "season": "Late Summer",
+      "scan_image": "pages/f72v3_leo_agost.png",
+      "ring_token_count": 81,
+      "nymph_label_count": 34,
+      "top_ring_words": [
+        "oteody",
+        "okeey",
+        "shedy",
+        "otey",
+        "teody",
+        "cheor"
+      ],
+      "top_nymph_labels": [
+        "okaly",
+        "otaly",
+        "ocham",
+        "orchey",
+        "okam",
+        "okey",
+        "otcheody",
+        "okyeeshy"
+      ],
+      "o_prefix_rate": 0.5652,
+      "y_prefix_rate": 0.0348,
+      "liquid_ol_or_rate": 0.1217,
+      "essence_al_ar_rate": 0.1652
+    },
+    {
+      "folio": "f72v2",
+      "sign": "Virgo (Maiden in medieval gown holding flower/sheaf)",
+      "european_month_gloss": "setembre (September)",
+      "triplicity": "Earth",
+      "season": "Early Autumn",
+      "scan_image": "pages/f72v2_virgo_setembre.png",
+      "ring_token_count": 74,
+      "nymph_label_count": 31,
+      "top_ring_words": [
+        "oty",
+        "shey",
+        "oteeos",
+        "aiin",
+        "ar",
+        "al"
+      ],
+      "top_nymph_labels": [
+        "cheoldy",
+        "oeedey",
+        "oeeodaiin",
+        "okeoram",
+        "air",
+        "aim",
+        "oshesy",
+        "okeary"
+      ],
+      "o_prefix_rate": 0.4762,
+      "y_prefix_rate": 0.0381,
+      "liquid_ol_or_rate": 0.0857,
+      "essence_al_ar_rate": 0.219
+    },
+    {
+      "folio": "f72v1",
+      "sign": "Libra (Two-Pan Apothecary / Balance Scale)",
+      "european_month_gloss": "octobre (October)",
+      "triplicity": "Air",
+      "season": "Mid-Autumn",
+      "scan_image": "pages/f72v1_libra_octobre.png",
+      "ring_token_count": 70,
+      "nymph_label_count": 30,
+      "top_ring_words": [
+        "otar",
+        "oteos",
+        "otey",
+        "ar",
+        "aiin",
+        "alar"
+      ],
+      "top_nymph_labels": [
+        "oeeoty",
+        "octhy",
+        "oteoly",
+        "okeoly",
+        "oeees",
+        "oy",
+        "oees",
+        "okeeoly"
+      ],
+      "o_prefix_rate": 0.58,
+      "y_prefix_rate": 0.1,
+      "liquid_ol_or_rate": 0.07,
+      "essence_al_ar_rate": 0.3
+    },
+    {
+      "folio": "f73r",
+      "sign": "Scorpio (Lizard-like Scorpion eating star/plant)",
+      "european_month_gloss": "novembre (November)",
+      "triplicity": "Water",
+      "season": "Late Autumn",
+      "scan_image": "pages/f73r_scorpio_novembre.png",
+      "ring_token_count": 64,
+      "nymph_label_count": 30,
+      "top_ring_words": [
+        "ar",
+        "oteos",
+        "air",
+        "al",
+        "cheteey",
+        "oteey"
+      ],
+      "top_nymph_labels": [
+        "otaly",
+        "chockhy",
+        "otedy",
+        "yteeody",
+        "okeody",
+        "oteedyl",
+        "ykeedy",
+        "okeey"
+      ],
+      "o_prefix_rate": 0.4043,
+      "y_prefix_rate": 0.0638,
+      "liquid_ol_or_rate": 0.0426,
+      "essence_al_ar_rate": 0.266
+    },
+    {
+      "folio": "f73v",
+      "sign": "Sagittarius (Huntsman in crossbow/archer hat drawing bow)",
+      "european_month_gloss": "decembre (December)",
+      "triplicity": "Fire",
+      "season": "Winter",
+      "scan_image": "pages/f73v_sagittarius_decembre_y_onset_enh.png",
+      "ring_token_count": 65,
+      "nymph_label_count": 30,
+      "top_ring_words": [
+        "shedy",
+        "oteody",
+        "dy",
+        "otoar",
+        "ykeody",
+        "okodeey"
+      ],
+      "top_nymph_labels": [
+        "oteody",
+        "ykey",
+        "okol",
+        "oteedy",
+        "eeeody",
+        "okeody",
+        "sheol",
+        "odees"
+      ],
+      "o_prefix_rate": 0.4,
+      "y_prefix_rate": 0.1579,
+      "liquid_ol_or_rate": 0.1053,
+      "essence_al_ar_rate": 0.1684
+    }
+  ]
+}

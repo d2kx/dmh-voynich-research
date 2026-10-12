@@ -1,0 +1,1502 @@
+{
+  "attack": 156,
+  "phase": 167,
+  "discovery": 173,
+  "wave": 36,
+  "title": "5-Guild Botanical Chromatic Classifier, 12-Medallion Zodiac Month Calendar (mars..decembre), and 20-Page Balneological Plumbing Atlas",
+  "highlights": {
+    "botanical_5guild_lift": 1.7134,
+    "botanical_5guild_z": 3.71,
+    "pharma_label_to_prose_echo_rate": 0.4315,
+    "zodiac_nymph_o_prefix_rate": 0.681,
+    "zodiac_ring_o_prefix_rate": 0.4099,
+    "zodiac_radial_o_shift_z": 8.5,
+    "zodiac_nymph_in_medical_sections_rate": 0.5805,
+    "balneo_prose_qo_rate": 0.2445,
+    "balneo_label_qo_rate": 0.0252,
+    "balneo_label_o_ol_rate": 0.6218,
+    "balneo_prose_o_ol_rate": 0.2132,
+    "balneo_polarity_z": 9.97
+  },
+  "attack153": {
+    "attack": 153,
+    "phase": 164,
+    "discovery": 170,
+    "title": "5-Organ Visual Botanical Anatomy & Chromatic Pigment Classifier",
+    "five_guild_concordance": {
+      "observed_in_guild_mean_rate": 0.0746,
+      "observed_off_guild_mean_rate": 0.0435,
+      "observed_selectivity_lift": 1.7134,
+      "null_lift_mean": 0.9994,
+      "null_lift_sd": 0.1926,
+      "z_score": 3.71,
+      "p_empirical": 0.001,
+      "guild_rate_matrix": {
+        "GUILD_1_RED_CRIMSON_BLOSSOM_AND_DYE_ROOT": {
+          "GUILD_1_RED_CRIMSON_BLOSSOM_AND_DYE_ROOT": 0.0595,
+          "GUILD_2_BLUE_VIOLET_COROLLA_AND_BERRY_CORDIALS": 0.0456,
+          "GUILD_3_CLIMBING_VINES_AND_TRAILING_STALKS": 0.0423,
+          "GUILD_4_RENIFORM_AQUATIC_AND_BULBOUS_SPLIT_TUBERS": 0.0583,
+          "GUILD_5_UMBEL_AND_WINGED_SEED_CAPSULE_HERBS": 0.0375
+        },
+        "GUILD_2_BLUE_VIOLET_COROLLA_AND_BERRY_CORDIALS": {
+          "GUILD_1_RED_CRIMSON_BLOSSOM_AND_DYE_ROOT": 0.0824,
+          "GUILD_2_BLUE_VIOLET_COROLLA_AND_BERRY_CORDIALS": 0.2051,
+          "GUILD_3_CLIMBING_VINES_AND_TRAILING_STALKS": 0.1643,
+          "GUILD_4_RENIFORM_AQUATIC_AND_BULBOUS_SPLIT_TUBERS": 0.1479,
+          "GUILD_5_UMBEL_AND_WINGED_SEED_CAPSULE_HERBS": 0.0943
+        },
+        "GUILD_3_CLIMBING_VINES_AND_TRAILING_STALKS": {
+          "GUILD_1_RED_CRIMSON_BLOSSOM_AND_DYE_ROOT": 0.0023,
+          "GUILD_2_BLUE_VIOLET_COROLLA_AND_BERRY_CORDIALS": 0.0025,
+          "GUILD_3_CLIMBING_VINES_AND_TRAILING_STALKS": 0.0094,
+          "GUILD_4_RENIFORM_AQUATIC_AND_BULBOUS_SPLIT_TUBERS": 0.0156,
+          "GUILD_5_UMBEL_AND_WINGED_SEED_CAPSULE_HERBS": 0.0109
+        },
+        "GUILD_4_RENIFORM_AQUATIC_AND_BULBOUS_SPLIT_TUBERS": {
+          "GUILD_1_RED_CRIMSON_BLOSSOM_AND_DYE_ROOT": 0.0412,
+          "GUILD_2_BLUE_VIOLET_COROLLA_AND_BERRY_CORDIALS": 0.0354,
+          "GUILD_3_CLIMBING_VINES_AND_TRAILING_STALKS": 0.0141,
+          "GUILD_4_RENIFORM_AQUATIC_AND_BULBOUS_SPLIT_TUBERS": 0.0555,
+          "GUILD_5_UMBEL_AND_WINGED_SEED_CAPSULE_HERBS": 0.0423
+        },
+        "GUILD_5_UMBEL_AND_WINGED_SEED_CAPSULE_HERBS": {
+          "GUILD_1_RED_CRIMSON_BLOSSOM_AND_DYE_ROOT": 0.0069,
+          "GUILD_2_BLUE_VIOLET_COROLLA_AND_BERRY_CORDIALS": 0.0051,
+          "GUILD_3_CLIMBING_VINES_AND_TRAILING_STALKS": 0.0047,
+          "GUILD_4_RENIFORM_AQUATIC_AND_BULBOUS_SPLIT_TUBERS": 0.0171,
+          "GUILD_5_UMBEL_AND_WINGED_SEED_CAPSULE_HERBS": 0.0435
+        }
+      }
+    },
+    "pharma_register_anatomy": {
+      "pharma_folio_count": 15,
+      "upper_register_counts": {
+        "VESSEL_LIQUID": 21,
+        "OTHER": 52,
+        "ROOT_TUBER": 37,
+        "SEED_LEAF_STAR": 12
+      },
+      "lower_register_counts": {
+        "OTHER": 73,
+        "VESSEL_LIQUID": 14,
+        "SEED_LEAF_STAR": 11,
+        "ROOT_TUBER": 28
+      },
+      "folios": [
+        {
+          "folio": "f100r",
+          "total_labels": 19,
+          "upper_register_sample": [
+            "chosaroshol",
+            "sochorcfhy",
+            "otear",
+            "chofary",
+            "sar"
+          ],
+          "lower_register_sample": [
+            "soity",
+            "sosam",
+            "dakocth",
+            "sofam",
+            "okeeos"
+          ],
+          "upper_root_share": 0.5556,
+          "lower_root_share": 0.0,
+          "upper_seed_leaf_jar_share": 0.1111,
+          "lower_seed_leaf_jar_share": 0.3
+        },
+        {
+          "folio": "f100v",
+          "total_labels": 14,
+          "upper_register_sample": [
+            "tolchd",
+            "chols",
+            "opchor",
+            "solsy",
+            "soleesos"
+          ],
+          "lower_register_sample": [
+            "dchdy",
+            "dalsy",
+            "okcheor",
+            "ytchol",
+            "dykchal"
+          ],
+          "upper_root_share": 0.1429,
+          "lower_root_share": 0.2857,
+          "upper_seed_leaf_jar_share": 0.0,
+          "lower_seed_leaf_jar_share": 0.4286
+        },
+        {
+          "folio": "f101v",
+          "total_labels": 18,
+          "upper_register_sample": [
+            "sairaly",
+            "otaldy",
+            "otol",
+            "ytal",
+            "dokor"
+          ],
+          "lower_register_sample": [
+            "okol",
+            "arom",
+            "oraram",
+            "oraeep",
+            "dytolg"
+          ],
+          "upper_root_share": 0.3333,
+          "lower_root_share": 0.4444,
+          "upper_seed_leaf_jar_share": 0.5556,
+          "lower_seed_leaf_jar_share": 0.2222
+        },
+        {
+          "folio": "f102r1",
+          "total_labels": 4,
+          "upper_register_sample": [
+            "daarod",
+            "otodeeodor"
+          ],
+          "lower_register_sample": [
+            "okolaly",
+            "ddardsh"
+          ],
+          "upper_root_share": 0.5,
+          "lower_root_share": 0.0,
+          "upper_seed_leaf_jar_share": 0.0,
+          "lower_seed_leaf_jar_share": 0.5
+        },
+        {
+          "folio": "f102r2",
+          "total_labels": 7,
+          "upper_register_sample": [
+            "kodaiig",
+            "okrolda",
+            "loeekadag"
+          ],
+          "lower_register_sample": [
+            "osheal",
+            "sodch",
+            "koldarod",
+            "odalydary"
+          ],
+          "upper_root_share": 0.0,
+          "lower_root_share": 0.25,
+          "upper_seed_leaf_jar_share": 0.0,
+          "lower_seed_leaf_jar_share": 0.25
+        },
+        {
+          "folio": "f102v1",
+          "total_labels": 10,
+          "upper_register_sample": [
+            "keoraiiin",
+            "okeody",
+            "okeody",
+            "daiisaly",
+            "ypary"
+          ],
+          "lower_register_sample": [
+            "opchyt",
+            "dindy",
+            "ypcholdy",
+            "loralody",
+            "opchdard"
+          ],
+          "upper_root_share": 0.2,
+          "lower_root_share": 0.0,
+          "upper_seed_leaf_jar_share": 0.2,
+          "lower_seed_leaf_jar_share": 0.2
+        },
+        {
+          "folio": "f102v2",
+          "total_labels": 22,
+          "upper_register_sample": [
+            "porshols",
+            "soaimy",
+            "oror",
+            "chor",
+            "sachy"
+          ],
+          "lower_register_sample": [
+            "okoroeey",
+            "opchy",
+            "sarol",
+            "olrodar",
+            "tod"
+          ],
+          "upper_root_share": 0.3636,
+          "lower_root_share": 0.1818,
+          "upper_seed_leaf_jar_share": 0.0909,
+          "lower_seed_leaf_jar_share": 0.1818
+        },
+        {
+          "folio": "f88r",
+          "total_labels": 16,
+          "upper_register_sample": [
+            "otorchety",
+            "osal",
+            "orald",
+            "oldar",
+            "otoky"
+          ],
+          "lower_register_sample": [
+            "dary",
+            "okol",
+            "sorory",
+            "otyda",
+            "ofyskydal"
+          ],
+          "upper_root_share": 0.125,
+          "lower_root_share": 0.375,
+          "upper_seed_leaf_jar_share": 0.25,
+          "lower_seed_leaf_jar_share": 0.25
+        },
+        {
+          "folio": "f88v",
+          "total_labels": 14,
+          "upper_register_sample": [
+            "okalyd",
+            "cheocthy",
+            "cpheor",
+            "otar",
+            "arody"
+          ],
+          "lower_register_sample": [
+            "otora",
+            "cheosdy",
+            "okaiin",
+            "daramdal",
+            "otydary"
+          ],
+          "upper_root_share": 0.2857,
+          "lower_root_share": 0.4286,
+          "upper_seed_leaf_jar_share": 0.2857,
+          "lower_seed_leaf_jar_share": 0.0
+        },
+        {
+          "folio": "f89r1",
+          "total_labels": 15,
+          "upper_register_sample": [
+            "okchshy",
+            "qkol",
+            "oldam",
+            "otoldy",
+            "ararchodaiin"
+          ],
+          "lower_register_sample": [
+            "ches",
+            "otorain",
+            "okaiin",
+            "dan",
+            "ykocfhy"
+          ],
+          "upper_root_share": 0.1429,
+          "lower_root_share": 0.125,
+          "upper_seed_leaf_jar_share": 0.4286,
+          "lower_seed_leaf_jar_share": 0.125
+        },
+        {
+          "folio": "f89r2",
+          "total_labels": 22,
+          "upper_register_sample": [
+            "odory",
+            "doly",
+            "opchosam",
+            "saloiinsheol",
+            "opcheor"
+          ],
+          "lower_register_sample": [
+            "sodar",
+            "cheys",
+            "cheody",
+            "oporain",
+            "okshdchos"
+          ],
+          "upper_root_share": 0.2727,
+          "lower_root_share": 0.1818,
+          "upper_seed_leaf_jar_share": 0.4545,
+          "lower_seed_leaf_jar_share": 0.1818
+        },
+        {
+          "folio": "f89v1",
+          "total_labels": 9,
+          "upper_register_sample": [
+            "okoraldy",
+            "otoy",
+            "otchar",
+            "darshody"
+          ],
+          "lower_register_sample": [
+            "koeeorain",
+            "otorshos",
+            "opol",
+            "olaiin",
+            "opaldaiin"
+          ],
+          "upper_root_share": 0.5,
+          "lower_root_share": 0.0,
+          "upper_seed_leaf_jar_share": 0.0,
+          "lower_seed_leaf_jar_share": 0.2
+        },
+        {
+          "folio": "f89v2",
+          "total_labels": 16,
+          "upper_register_sample": [
+            "choeesy",
+            "okam",
+            "darcheor",
+            "chokaro",
+            "sheol"
+          ],
+          "lower_register_sample": [
+            "chody",
+            "dykaran",
+            "opcheedey",
+            "opaloiiry",
+            "otaram"
+          ],
+          "upper_root_share": 0.375,
+          "lower_root_share": 0.25,
+          "upper_seed_leaf_jar_share": 0.125,
+          "lower_seed_leaf_jar_share": 0.0
+        },
+        {
+          "folio": "f99r",
+          "total_labels": 34,
+          "upper_register_sample": [
+            "okaradag",
+            "okar",
+            "darar",
+            "oky",
+            "salo"
+          ],
+          "lower_register_sample": [
+            "aora",
+            "choky",
+            "oky",
+            "okeoly",
+            "yteold"
+          ],
+          "upper_root_share": 0.2941,
+          "lower_root_share": 0.1176,
+          "upper_seed_leaf_jar_share": 0.4118,
+          "lower_seed_leaf_jar_share": 0.1765
+        },
+        {
+          "folio": "f99v",
+          "total_labels": 28,
+          "upper_register_sample": [
+            "okaramy",
+            "otoldy",
+            "otor",
+            "chy",
+            "oldy"
+          ],
+          "lower_register_sample": [
+            "sary",
+            "saiino",
+            "otolsar",
+            "osary",
+            "darolaly"
+          ],
+          "upper_root_share": 0.3571,
+          "lower_root_share": 0.4286,
+          "upper_seed_leaf_jar_share": 0.3571,
+          "lower_seed_leaf_jar_share": 0.2143
+        }
+      ]
+    },
+    "pharma_label_to_prose_stem_echo": {
+      "total_pharma_labels": 248,
+      "same_folio_stem_matches": 107,
+      "same_folio_echo_rate": 0.4315
+    }
+  },
+  "attack154": {
+    "attack": 154,
+    "phase": 165,
+    "discovery": 171,
+    "title": "10 Zodiac Wheels (f70v2-f73v), Bilingual Month Glosses (mars..decembre), and 300 Star-Nymph Calendar",
+    "summary": {
+      "medallion_folio_count": 12,
+      "total_ring_tokens": 927,
+      "total_nymph_labels": 348,
+      "nymph_vs_ring_o_prefix_diff": 0.2711,
+      "nymph_vs_ring_o_prefix_z": 8.5,
+      "nymph_exact_match_in_medical_sections_rate": 0.5805,
+      "nymph_exact_match_in_starred_recipes": 0.4914,
+      "nymph_exact_match_in_pharma": 0.3707,
+      "nymph_exact_match_in_herbal": 0.4856
+    },
+    "ring_profile": {
+      "token_count": 927,
+      "o_prefix_rate": 0.4099,
+      "y_prefix_rate": 0.0356,
+      "d_s_prefix_rate": 0.1543,
+      "al_ar_ending_rate": 0.2438,
+      "ol_or_ending_rate": 0.11,
+      "dy_edy_ending_rate": 0.1165,
+      "am_m_ending_rate": 0.0194,
+      "top_tokens": [
+        "aiin",
+        "ar",
+        "al",
+        "oteey",
+        "oteody",
+        "oteos",
+        "otey",
+        "otaiin"
+      ]
+    },
+    "nymph_label_profile": {
+      "token_count": 348,
+      "o_prefix_rate": 0.681,
+      "y_prefix_rate": 0.0891,
+      "d_s_prefix_rate": 0.0517,
+      "al_ar_ending_rate": 0.2989,
+      "ol_or_ending_rate": 0.0603,
+      "dy_edy_ending_rate": 0.1552,
+      "am_m_ending_rate": 0.0833,
+      "top_tokens": [
+        "otar",
+        "otaly",
+        "ar",
+        "otal",
+        "oky",
+        "okeey",
+        "okal",
+        "okaly"
+      ]
+    },
+    "triplicity_profiles": {
+      "Water": {
+        "token_count": 379,
+        "o_prefix_rate": 0.4459,
+        "y_prefix_rate": 0.0607,
+        "d_s_prefix_rate": 0.1372,
+        "al_ar_ending_rate": 0.2507,
+        "ol_or_ending_rate": 0.0897,
+        "dy_edy_ending_rate": 0.1161,
+        "am_m_ending_rate": 0.0396,
+        "top_tokens": [
+          "ar",
+          "al",
+          "oteey",
+          "aiin",
+          "otar",
+          "am",
+          "oteos",
+          "oteody"
+        ]
+      },
+      "Fire": {
+        "token_count": 382,
+        "o_prefix_rate": 0.5105,
+        "y_prefix_rate": 0.0602,
+        "d_s_prefix_rate": 0.1361,
+        "al_ar_ending_rate": 0.212,
+        "ol_or_ending_rate": 0.1047,
+        "dy_edy_ending_rate": 0.1832,
+        "am_m_ending_rate": 0.0209,
+        "top_tokens": [
+          "oteody",
+          "chy",
+          "daiin",
+          "al",
+          "aiin",
+          "oteey",
+          "shedy",
+          "ar"
+        ]
+      },
+      "Earth": {
+        "token_count": 308,
+        "o_prefix_rate": 0.4513,
+        "y_prefix_rate": 0.026,
+        "d_s_prefix_rate": 0.1266,
+        "al_ar_ending_rate": 0.2825,
+        "ol_or_ending_rate": 0.1169,
+        "dy_edy_ending_rate": 0.0909,
+        "am_m_ending_rate": 0.0487,
+        "top_tokens": [
+          "ar",
+          "al",
+          "aiin",
+          "otaiin",
+          "oteey",
+          "otar",
+          "dar",
+          "cheol"
+        ]
+      },
+      "Air": {
+        "token_count": 206,
+        "o_prefix_rate": 0.5534,
+        "y_prefix_rate": 0.0485,
+        "d_s_prefix_rate": 0.0874,
+        "al_ar_ending_rate": 0.3252,
+        "ol_or_ending_rate": 0.0631,
+        "dy_edy_ending_rate": 0.0971,
+        "am_m_ending_rate": 0.0437,
+        "top_tokens": [
+          "aiin",
+          "otar",
+          "okaly",
+          "okal",
+          "oteos",
+          "daiin",
+          "okeey",
+          "al"
+        ]
+      }
+    },
+    "medallions": [
+      {
+        "folio": "f70v2",
+        "sign": "Pisces (Two Fish tied by a cord)",
+        "european_month_gloss": "mars (March)",
+        "triplicity": "Water",
+        "season": "Early Spring",
+        "scan_image": "pages/f70v2_pisces_mars.png",
+        "ring_token_count": 93,
+        "nymph_label_count": 35,
+        "top_ring_words": [
+          "al",
+          "oteey",
+          "ar",
+          "oteotey",
+          "shey",
+          "aiin"
+        ],
+        "top_nymph_labels": [
+          "otar",
+          "oty",
+          "otalalg",
+          "ykary",
+          "oky",
+          "ody",
+          "ar",
+          "okala"
+        ],
+        "o_prefix_rate": 0.4688,
+        "y_prefix_rate": 0.0469,
+        "liquid_ol_or_rate": 0.0391,
+        "essence_al_ar_rate": 0.3125
+      },
+      {
+        "folio": "f70v1",
+        "sign": "Aries Part I (Dark-fleeced Ram chewing green shoot)",
+        "european_month_gloss": "abril (April, Dark Half)",
+        "triplicity": "Fire",
+        "season": "Spring",
+        "scan_image": "pages/f71v_taurus_abril_enh.png",
+        "ring_token_count": 59,
+        "nymph_label_count": 25,
+        "top_ring_words": [
+          "dal",
+          "cheody",
+          "sheo",
+          "daiin",
+          "dalalody",
+          "oteoshey"
+        ],
+        "top_nymph_labels": [
+          "otal",
+          "otalchy",
+          "tar",
+          "am",
+          "dy",
+          "opchey",
+          "sal",
+          "otakaizan"
+        ],
+        "o_prefix_rate": 0.4762,
+        "y_prefix_rate": 0.0238,
+        "liquid_ol_or_rate": 0.0714,
+        "essence_al_ar_rate": 0.2619
+      },
+      {
+        "folio": "f71r",
+        "sign": "Aries Part II (Light Ram)",
+        "european_month_gloss": "abril (April, Light Half)",
+        "triplicity": "Fire",
+        "season": "Spring",
+        "scan_image": "pages/f71v_taurus_abril_enh.png",
+        "ring_token_count": 71,
+        "nymph_label_count": 17,
+        "top_ring_words": [
+          "oteody",
+          "otol",
+          "aiin",
+          "al",
+          "okody",
+          "chy"
+        ],
+        "top_nymph_labels": [
+          "oteos",
+          "arar",
+          "okldam",
+          "oteoaldy",
+          "oteolar",
+          "okeoaly",
+          "otaleky",
+          "otalsar"
+        ],
+        "o_prefix_rate": 0.5909,
+        "y_prefix_rate": 0.0227,
+        "liquid_ol_or_rate": 0.1136,
+        "essence_al_ar_rate": 0.2727
+      },
+      {
+        "folio": "f71v",
+        "sign": "Taurus Part I (Dark Bull at manger)",
+        "european_month_gloss": "may (May, Dark Half)",
+        "triplicity": "Earth",
+        "season": "Late Spring",
+        "scan_image": "pages/f71v_taurus_abril_enh.png",
+        "ring_token_count": 78,
+        "nymph_label_count": 22,
+        "top_ring_words": [
+          "al",
+          "oteey",
+          "ar",
+          "chey",
+          "okeo",
+          "dar"
+        ],
+        "top_nymph_labels": [
+          "otar",
+          "ar",
+          "char",
+          "arom",
+          "chfaly",
+          "okolar",
+          "otchody",
+          "alcphy"
+        ],
+        "o_prefix_rate": 0.45,
+        "y_prefix_rate": 0.0,
+        "liquid_ol_or_rate": 0.11,
+        "essence_al_ar_rate": 0.37
+      },
+      {
+        "folio": "f72r1",
+        "sign": "Taurus Part II (Light Bull on green turf)",
+        "european_month_gloss": "may (May, Light Half)",
+        "triplicity": "Earth",
+        "season": "Late Spring",
+        "scan_image": "pages/f71v_taurus_abril_enh.png",
+        "ring_token_count": 80,
+        "nymph_label_count": 23,
+        "top_ring_words": [
+          "aiin",
+          "al",
+          "ar",
+          "otaiin",
+          "oteey",
+          "chol"
+        ],
+        "top_nymph_labels": [
+          "ary",
+          "oshodady",
+          "chdaiirdainy",
+          "oaiin",
+          "ar",
+          "okalam",
+          "ytalshdy",
+          "char"
+        ],
+        "o_prefix_rate": 0.4272,
+        "y_prefix_rate": 0.0388,
+        "liquid_ol_or_rate": 0.1553,
+        "essence_al_ar_rate": 0.2621
+      },
+      {
+        "folio": "f72r2",
+        "sign": "Gemini (Twin Courtly Lovers holding hands in tunics)",
+        "european_month_gloss": "juny (June)",
+        "triplicity": "Air",
+        "season": "Early Summer",
+        "scan_image": "pages/f72r2_gemini_juny.png",
+        "ring_token_count": 75,
+        "nymph_label_count": 31,
+        "top_ring_words": [
+          "aiin",
+          "daiin",
+          "al",
+          "tey",
+          "otchey",
+          "chekaiin"
+        ],
+        "top_nymph_labels": [
+          "okal",
+          "okaly",
+          "ofchdamy",
+          "oklairdy",
+          "okaram",
+          "okairy",
+          "okealar",
+          "otaraldy"
+        ],
+        "o_prefix_rate": 0.5283,
+        "y_prefix_rate": 0.0,
+        "liquid_ol_or_rate": 0.0566,
+        "essence_al_ar_rate": 0.3491
+      },
+      {
+        "folio": "f72r3",
+        "sign": "Cancer (Twin Crayfish / Lobsters)",
+        "european_month_gloss": "jolh (July)",
+        "triplicity": "Water",
+        "season": "Mid-Summer",
+        "scan_image": "pages/f72r3_cancer_jolh.png",
+        "ring_token_count": 117,
+        "nymph_label_count": 40,
+        "top_ring_words": [
+          "aiin",
+          "ar",
+          "okeeol",
+          "oteody",
+          "oteedy",
+          "oteey"
+        ],
+        "top_nymph_labels": [
+          "olkalaiin",
+          "olalsy",
+          "oraiinam",
+          "osarsheeeo",
+          "otoaiin",
+          "opoiiinoin",
+          "al",
+          "ches"
+        ],
+        "o_prefix_rate": 0.4522,
+        "y_prefix_rate": 0.0701,
+        "liquid_ol_or_rate": 0.1592,
+        "essence_al_ar_rate": 0.1911
+      },
+      {
+        "folio": "f72v3",
+        "sign": "Leo (Walking Lion with tongue extended)",
+        "european_month_gloss": "agost (August)",
+        "triplicity": "Fire",
+        "season": "Late Summer",
+        "scan_image": "pages/f72v3_leo_agost.png",
+        "ring_token_count": 81,
+        "nymph_label_count": 34,
+        "top_ring_words": [
+          "oteody",
+          "okeey",
+          "shedy",
+          "otey",
+          "teody",
+          "cheor"
+        ],
+        "top_nymph_labels": [
+          "okaly",
+          "otaly",
+          "ocham",
+          "orchey",
+          "okam",
+          "okey",
+          "otcheody",
+          "okyeeshy"
+        ],
+        "o_prefix_rate": 0.5652,
+        "y_prefix_rate": 0.0348,
+        "liquid_ol_or_rate": 0.1217,
+        "essence_al_ar_rate": 0.1652
+      },
+      {
+        "folio": "f72v2",
+        "sign": "Virgo (Maiden in medieval gown holding flower/sheaf)",
+        "european_month_gloss": "setembre (September)",
+        "triplicity": "Earth",
+        "season": "Early Autumn",
+        "scan_image": "pages/f72v2_virgo_setembre.png",
+        "ring_token_count": 74,
+        "nymph_label_count": 31,
+        "top_ring_words": [
+          "oty",
+          "shey",
+          "oteeos",
+          "aiin",
+          "ar",
+          "al"
+        ],
+        "top_nymph_labels": [
+          "cheoldy",
+          "oeedey",
+          "oeeodaiin",
+          "okeoram",
+          "air",
+          "aim",
+          "oshesy",
+          "okeary"
+        ],
+        "o_prefix_rate": 0.4762,
+        "y_prefix_rate": 0.0381,
+        "liquid_ol_or_rate": 0.0857,
+        "essence_al_ar_rate": 0.219
+      },
+      {
+        "folio": "f72v1",
+        "sign": "Libra (Two-Pan Apothecary / Balance Scale)",
+        "european_month_gloss": "octobre (October)",
+        "triplicity": "Air",
+        "season": "Mid-Autumn",
+        "scan_image": "pages/f72v1_libra_octobre.png",
+        "ring_token_count": 70,
+        "nymph_label_count": 30,
+        "top_ring_words": [
+          "otar",
+          "oteos",
+          "otey",
+          "ar",
+          "aiin",
+          "alar"
+        ],
+        "top_nymph_labels": [
+          "oeeoty",
+          "octhy",
+          "oteoly",
+          "okeoly",
+          "oeees",
+          "oy",
+          "oees",
+          "okeeoly"
+        ],
+        "o_prefix_rate": 0.58,
+        "y_prefix_rate": 0.1,
+        "liquid_ol_or_rate": 0.07,
+        "essence_al_ar_rate": 0.3
+      },
+      {
+        "folio": "f73r",
+        "sign": "Scorpio (Lizard-like Scorpion eating star/plant)",
+        "european_month_gloss": "novembre (November)",
+        "triplicity": "Water",
+        "season": "Late Autumn",
+        "scan_image": "pages/f73r_scorpio_novembre.png",
+        "ring_token_count": 64,
+        "nymph_label_count": 30,
+        "top_ring_words": [
+          "ar",
+          "oteos",
+          "air",
+          "al",
+          "cheteey",
+          "oteey"
+        ],
+        "top_nymph_labels": [
+          "otaly",
+          "chockhy",
+          "otedy",
+          "yteeody",
+          "okeody",
+          "oteedyl",
+          "ykeedy",
+          "okeey"
+        ],
+        "o_prefix_rate": 0.4043,
+        "y_prefix_rate": 0.0638,
+        "liquid_ol_or_rate": 0.0426,
+        "essence_al_ar_rate": 0.266
+      },
+      {
+        "folio": "f73v",
+        "sign": "Sagittarius (Huntsman in crossbow/archer hat drawing bow)",
+        "european_month_gloss": "decembre (December)",
+        "triplicity": "Fire",
+        "season": "Winter",
+        "scan_image": "pages/f73v_sagittarius_decembre_y_onset_enh.png",
+        "ring_token_count": 65,
+        "nymph_label_count": 30,
+        "top_ring_words": [
+          "shedy",
+          "oteody",
+          "dy",
+          "otoar",
+          "ykeody",
+          "okodeey"
+        ],
+        "top_nymph_labels": [
+          "oteody",
+          "ykey",
+          "okol",
+          "oteedy",
+          "eeeody",
+          "okeody",
+          "sheol",
+          "odees"
+        ],
+        "o_prefix_rate": 0.4,
+        "y_prefix_rate": 0.1579,
+        "liquid_ol_or_rate": 0.1053,
+        "essence_al_ar_rate": 0.1684
+      }
+    ]
+  },
+  "attack155": {
+    "attack": 155,
+    "phase": 166,
+    "discovery": 172,
+    "title": "20-Page Balneological Hydrotherapy Plumbing & Nymph-Label System (f75r-f84v)",
+    "summary": {
+      "balneo_folio_count": 20,
+      "total_prose_tokens": 6659,
+      "total_nymph_labels": 65,
+      "total_tube_labels": 54,
+      "total_labels": 119,
+      "prose_qo_rate": 0.2445,
+      "label_qo_rate": 0.0252,
+      "prose_o_ol_rate": 0.2132,
+      "label_o_ol_rate": 0.6218,
+      "label_vs_prose_polarity_diff": 0.6279,
+      "label_vs_prose_polarity_z": 9.97
+    },
+    "prose_profile": {
+      "token_count": 6659,
+      "qo_prefix_rate": 0.2445,
+      "o_ol_prefix_rate": 0.2132,
+      "sh_prefix_rate": 0.1143,
+      "ch_prefix_rate": 0.123,
+      "edy_dy_suffix_rate": 0.3049,
+      "ol_or_al_ar_suffix_rate": 0.2706,
+      "top_words": [
+        "shedy",
+        "ol",
+        "chedy",
+        "qokedy",
+        "qokain",
+        "qokeedy",
+        "qokal",
+        "qol",
+        "shey",
+        "chey"
+      ]
+    },
+    "nymph_label_profile": {
+      "token_count": 65,
+      "qo_prefix_rate": 0.0308,
+      "o_ol_prefix_rate": 0.5538,
+      "sh_prefix_rate": 0.0308,
+      "ch_prefix_rate": 0.0,
+      "edy_dy_suffix_rate": 0.2615,
+      "ol_or_al_ar_suffix_rate": 0.3538,
+      "top_words": [
+        "daldy",
+        "dal",
+        "otoly",
+        "otedy",
+        "okshy",
+        "saral",
+        "dokal",
+        "darol",
+        "shd",
+        "dalkar"
+      ]
+    },
+    "tube_label_profile": {
+      "token_count": 54,
+      "qo_prefix_rate": 0.0185,
+      "o_ol_prefix_rate": 0.7037,
+      "sh_prefix_rate": 0.0185,
+      "ch_prefix_rate": 0.0185,
+      "edy_dy_suffix_rate": 0.1667,
+      "ol_or_al_ar_suffix_rate": 0.4259,
+      "top_words": [
+        "otedy",
+        "otol",
+        "otal",
+        "opal",
+        "okeey",
+        "lol",
+        "olol",
+        "ytedy",
+        "oteey",
+        "qotedy"
+      ]
+    },
+    "combined_label_profile": {
+      "token_count": 119,
+      "qo_prefix_rate": 0.0252,
+      "o_ol_prefix_rate": 0.6218,
+      "sh_prefix_rate": 0.0252,
+      "ch_prefix_rate": 0.0084,
+      "edy_dy_suffix_rate": 0.2185,
+      "ol_or_al_ar_suffix_rate": 0.3866,
+      "top_words": [
+        "otedy",
+        "darol",
+        "daldy",
+        "dal",
+        "otoly",
+        "otol",
+        "okain",
+        "okchdy",
+        "okshy",
+        "saral"
+      ]
+    },
+    "folios": [
+      {
+        "folio": "f75r",
+        "prose_tokens": 411,
+        "nymph_labels": [],
+        "tube_labels": [],
+        "thermal_boil_rate": 0.0949,
+        "wash_bathe_rate": 0.1484,
+        "pool_vessel_rate": 0.0754,
+        "top_prose_words": [
+          "qokain",
+          "qokeedy",
+          "shedy",
+          "qokedy",
+          "shey"
+        ]
+      },
+      {
+        "folio": "f75v",
+        "prose_tokens": 317,
+        "nymph_labels": [
+          "okshy",
+          "saral",
+          "dokal",
+          "darol",
+          "daldy",
+          "dal",
+          "shd",
+          "dalkar",
+          "qokal",
+          "dly",
+          "ory",
+          "oty",
+          "lchy",
+          "dary",
+          "dal",
+          "daldy",
+          "qoted",
+          "rkal",
+          "ykedy",
+          "olkchy",
+          "otoly"
+        ],
+        "tube_labels": [
+          "otal",
+          "opal",
+          "okeey",
+          "lol",
+          "olol",
+          "ytedy",
+          "otedy",
+          "oteey",
+          "qotedy"
+        ],
+        "thermal_boil_rate": 0.0599,
+        "wash_bathe_rate": 0.1104,
+        "pool_vessel_rate": 0.1356,
+        "top_prose_words": [
+          "qokain",
+          "ol",
+          "qol",
+          "qokedy",
+          "chedy"
+        ]
+      },
+      {
+        "folio": "f76r",
+        "prose_tokens": 544,
+        "nymph_labels": [],
+        "tube_labels": [],
+        "thermal_boil_rate": 0.0607,
+        "wash_bathe_rate": 0.1599,
+        "pool_vessel_rate": 0.057,
+        "top_prose_words": [
+          "shedy",
+          "chedy",
+          "chey",
+          "dain",
+          "shey"
+        ]
+      },
+      {
+        "folio": "f76v",
+        "prose_tokens": 389,
+        "nymph_labels": [],
+        "tube_labels": [],
+        "thermal_boil_rate": 0.0874,
+        "wash_bathe_rate": 0.1465,
+        "pool_vessel_rate": 0.0437,
+        "top_prose_words": [
+          "chedy",
+          "qokeedy",
+          "shedy",
+          "qokedy",
+          "saiin"
+        ]
+      },
+      {
+        "folio": "f77r",
+        "prose_tokens": 313,
+        "nymph_labels": [
+          "darchdar",
+          "dotedy",
+          "otchdy"
+        ],
+        "tube_labels": [
+          "olkchs",
+          "otedy",
+          "otork",
+          "otol",
+          "dchdy",
+          "soral",
+          "otolaiin"
+        ],
+        "thermal_boil_rate": 0.0799,
+        "wash_bathe_rate": 0.1278,
+        "pool_vessel_rate": 0.0415,
+        "top_prose_words": [
+          "qokeedy",
+          "qokaiin",
+          "shedy",
+          "chedy",
+          "qotedy"
+        ]
+      },
+      {
+        "folio": "f77v",
+        "prose_tokens": 320,
+        "nymph_labels": [
+          "saroral",
+          "oeoedu"
+        ],
+        "tube_labels": [
+          "okain",
+          "kal",
+          "otol",
+          "shedy",
+          "olkeedal",
+          "otolor",
+          "orchedal",
+          "okalo"
+        ],
+        "thermal_boil_rate": 0.0875,
+        "wash_bathe_rate": 0.1437,
+        "pool_vessel_rate": 0.0688,
+        "top_prose_words": [
+          "shedy",
+          "qokedy",
+          "qokal",
+          "chedy",
+          "dal"
+        ]
+      },
+      {
+        "folio": "f78r",
+        "prose_tokens": 278,
+        "nymph_labels": [],
+        "tube_labels": [
+          "okchdldlo",
+          "okchdy",
+          "dar",
+          "aloy",
+          "dchedaly",
+          "otarodlay",
+          "orory",
+          "okaral"
+        ],
+        "thermal_boil_rate": 0.1151,
+        "wash_bathe_rate": 0.0755,
+        "pool_vessel_rate": 0.0863,
+        "top_prose_words": [
+          "qokedy",
+          "ol",
+          "shedy",
+          "qokain",
+          "chedy"
+        ]
+      },
+      {
+        "folio": "f78v",
+        "prose_tokens": 286,
+        "nymph_labels": [],
+        "tube_labels": [],
+        "thermal_boil_rate": 0.0839,
+        "wash_bathe_rate": 0.1294,
+        "pool_vessel_rate": 0.1503,
+        "top_prose_words": [
+          "ol",
+          "qokedy",
+          "chedy",
+          "qol",
+          "shedy"
+        ]
+      },
+      {
+        "folio": "f79r",
+        "prose_tokens": 371,
+        "nymph_labels": [],
+        "tube_labels": [],
+        "thermal_boil_rate": 0.0135,
+        "wash_bathe_rate": 0.1698,
+        "pool_vessel_rate": 0.124,
+        "top_prose_words": [
+          "ol",
+          "shedy",
+          "qokain",
+          "shey",
+          "chey"
+        ]
+      },
+      {
+        "folio": "f79v",
+        "prose_tokens": 350,
+        "nymph_labels": [],
+        "tube_labels": [],
+        "thermal_boil_rate": 0.08,
+        "wash_bathe_rate": 0.0829,
+        "pool_vessel_rate": 0.1171,
+        "top_prose_words": [
+          "ol",
+          "qokeedy",
+          "qokain",
+          "qokeey",
+          "qokedy"
+        ]
+      },
+      {
+        "folio": "f80r",
+        "prose_tokens": 423,
+        "nymph_labels": [
+          "toroly",
+          "olchdy",
+          "okaly",
+          "okolo",
+          "okary",
+          "opor",
+          "olky",
+          "otalshedy",
+          "okar",
+          "okan"
+        ],
+        "tube_labels": [],
+        "thermal_boil_rate": 0.0284,
+        "wash_bathe_rate": 0.1442,
+        "pool_vessel_rate": 0.1135,
+        "top_prose_words": [
+          "qokain",
+          "ol",
+          "shedy",
+          "qokal",
+          "qokeedy"
+        ]
+      },
+      {
+        "folio": "f80v",
+        "prose_tokens": 371,
+        "nymph_labels": [],
+        "tube_labels": [],
+        "thermal_boil_rate": 0.027,
+        "wash_bathe_rate": 0.1348,
+        "pool_vessel_rate": 0.1456,
+        "top_prose_words": [
+          "ol",
+          "qokain",
+          "olkain",
+          "chedy",
+          "shey"
+        ]
+      },
+      {
+        "folio": "f81r",
+        "prose_tokens": 205,
+        "nymph_labels": [],
+        "tube_labels": [],
+        "thermal_boil_rate": 0.0488,
+        "wash_bathe_rate": 0.1073,
+        "pool_vessel_rate": 0.1805,
+        "top_prose_words": [
+          "ol",
+          "chedy",
+          "shedy",
+          "qol",
+          "qokedy"
+        ]
+      },
+      {
+        "folio": "f81v",
+        "prose_tokens": 249,
+        "nymph_labels": [],
+        "tube_labels": [
+          "otain",
+          "olkal"
+        ],
+        "thermal_boil_rate": 0.0562,
+        "wash_bathe_rate": 0.1084,
+        "pool_vessel_rate": 0.1124,
+        "top_prose_words": [
+          "ol",
+          "daiin",
+          "chedy",
+          "shedy",
+          "qokedy"
+        ]
+      },
+      {
+        "folio": "f82r",
+        "prose_tokens": 271,
+        "nymph_labels": [
+          "okor",
+          "okal",
+          "okaldy",
+          "okairady",
+          "sororl",
+          "olkoky",
+          "sokoly",
+          "dolol",
+          "olaiin",
+          "okeear"
+        ],
+        "tube_labels": [
+          "oroldair",
+          "darol",
+          "darary"
+        ],
+        "thermal_boil_rate": 0.0738,
+        "wash_bathe_rate": 0.107,
+        "pool_vessel_rate": 0.0295,
+        "top_prose_words": [
+          "qokeedy",
+          "qokaiin",
+          "qokeey",
+          "shedy",
+          "cheey"
+        ]
+      },
+      {
+        "folio": "f82v",
+        "prose_tokens": 296,
+        "nymph_labels": [
+          "otechdy",
+          "otedy",
+          "olkeedy",
+          "okalchy",
+          "okain",
+          "okol"
+        ],
+        "tube_labels": [
+          "daiinoty",
+          "otedal",
+          "okaoky",
+          "okedor",
+          "okoldy",
+          "olkol",
+          "otedol",
+          "oteedy"
+        ],
+        "thermal_boil_rate": 0.0541,
+        "wash_bathe_rate": 0.1385,
+        "pool_vessel_rate": 0.0743,
+        "top_prose_words": [
+          "qokal",
+          "qokain",
+          "shedy",
+          "chedy",
+          "qokedy"
+        ]
+      },
+      {
+        "folio": "f83r",
+        "prose_tokens": 334,
+        "nymph_labels": [],
+        "tube_labels": [
+          "chtorol",
+          "olsaiin",
+          "sasoldal",
+          "darolsy"
+        ],
+        "thermal_boil_rate": 0.0928,
+        "wash_bathe_rate": 0.1557,
+        "pool_vessel_rate": 0.0359,
+        "top_prose_words": [
+          "shedy",
+          "chedy",
+          "qokedy",
+          "lchedy",
+          "sol"
+        ]
+      },
+      {
+        "folio": "f83v",
+        "prose_tokens": 254,
+        "nymph_labels": [
+          "okchdy"
+        ],
+        "tube_labels": [
+          "ololary",
+          "okarchy",
+          "okaiin"
+        ],
+        "thermal_boil_rate": 0.0551,
+        "wash_bathe_rate": 0.1614,
+        "pool_vessel_rate": 0.0748,
+        "top_prose_words": [
+          "shedy",
+          "qokal",
+          "chedy",
+          "qokaiin",
+          "qokeedy"
+        ]
+      },
+      {
+        "folio": "f84r",
+        "prose_tokens": 344,
+        "nymph_labels": [
+          "or",
+          "shekar",
+          "ydy",
+          "okedy",
+          "loly",
+          "doiir",
+          "olshy",
+          "otedy",
+          "lkol",
+          "okolshy",
+          "otoly",
+          "dshedy"
+        ],
+        "tube_labels": [
+          "ololal",
+          "otaly"
+        ],
+        "thermal_boil_rate": 0.0988,
+        "wash_bathe_rate": 0.1453,
+        "pool_vessel_rate": 0.1076,
+        "top_prose_words": [
+          "shedy",
+          "ol",
+          "dar",
+          "or",
+          "qokedy"
+        ]
+      },
+      {
+        "folio": "f84v",
+        "prose_tokens": 333,
+        "nymph_labels": [],
+        "tube_labels": [],
+        "thermal_boil_rate": 0.1261,
+        "wash_bathe_rate": 0.1231,
+        "pool_vessel_rate": 0.1231,
+        "top_prose_words": [
+          "shedy",
+          "ol",
+          "okedy",
+          "qokedy",
+          "chedy"
+        ]
+      }
+    ]
+  }
+}

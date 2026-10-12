@@ -1251,3 +1251,31 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Key Breakthroughs**:
   1. **Synthesizes the 8-Case/Voice Inflectional Paradigm Matrix (`Attack 149`), the 3-Act Paragraph State Machine & `Inclusio` Frame-Ring Closure (`Attack 150`), and the 6-Index Full-Codex Routing Compiler (`Attack 151`)**.
 
+---
+
+## 153. Attack 153 (`Phase 164`): The 5-Organ Visual Botanical Anatomy & Chromatic Pigment Classifier (`1.7134×` In-Guild Selectivity Lift, $z = +3.71, p = 0.001$) & `43.1%` Same-Page Pharmaceutical Label-to-Prose Stem Echo
+- **Script, Data & Scan**: [`tools/attack153_botanical_anatomy_and_pigment_classifier.py`](../tools/attack153_botanical_anatomy_and_pigment_classifier.py) $\to$ [`data/attack153_botanical_anatomy_and_pigment_classifier.json`](../data/attack153_botanical_anatomy_and_pigment_classifier.json) & [`pages/f20v_polypody_fern_enh.png`](../pages/f20v_polypody_fern_enh.png)
+- **Key Breakthroughs**:
+  1. **Demonstrates Across `25` Visually Classified Herbal & Pharmaceutical Folios Grouped into 5 Anatomical/Chromatic Guilds (Red/Crimson Blossoms & Dye-Roots, Blue/Violet Scaly-Calyx Corollas & Berries incl. `f20v` *Centaurea montana*, Climbing Vines & Trailing Stalks, Reniform Aquatic Leaves & Split Tubers, and Umbels & Winged-Seed Capsules) a `1.7134×` In-Guild Lexical Selectivity Lift (`7.46%` vs. `4.35%`, $z = +3.71, p = 0.001$), Alongside `43.1%` (`107 / 248`) Same-Folio Stem Echo Across Pharmaceutical Plant-Part Labels (`f88r–f102v`)**.
+
+---
+
+## 154. Attack 154 (`Phase 165`): The 12 Zodiac Medallions (`f70v2–f73v`), Bilingual Western Month Glosses (`mars..decembre`), Radial `o-` Prefix Shift (`68.1%` vs. `41.0%`, $z = +8.50$), and `58.1%` Exact Medical Recipe Match Across `348` Star-Nymph Degree Labels
+- **Script, Data & Scan**: [`tools/attack154_zodiac_months_and_300nymph_calendar.py`](../tools/attack154_zodiac_months_and_300nymph_calendar.py) $\to$ [`data/attack154_zodiac_months_and_300nymph_calendar.json`](../data/attack154_zodiac_months_and_300nymph_calendar.json) & [`pages/f70v2_pisces_mars.png`](../pages/f70v2_pisces_mars.png)
+- **Key Breakthroughs**:
+  1. **Maps All `12` Zodiac Medallions (`927` Circular Ring Tokens + `348` Star-Nymph Degree Labels `@Lz` Keyed to the 15th-Century European Month Glosses `mars, abril, may, juny, jolh, agost, setembre, octobre, novembre, decembre`), Proving a `+27.1%` Radial `o-` Nominal Prefix Surge on Individual Star-Nymph Labels (`68.1%` vs. `41.0%` Ring Prose, $z = +8.50$) and `58.1%` (`202 / 348`) Exact Whole-Word Lexical Match Inside the Herbal, Pharmaceutical, and Starred Recipe Sections**.
+
+---
+
+## 155. Attack 155 (`Phase 166`): The 20-Page Balneological Hydrotherapy Plumbing & Nymph-Label Polarity Law (`f75r–f84v`, Label `o-/ol-` `62.2%` vs. Prose `qo-` `24.4%`, $z = +9.97$)
+- **Script, Data & Scan**: [`tools/attack155_balneological_plumbing_and_nymph_labels.py`](../tools/attack155_balneological_plumbing_and_nymph_labels.py) $\to$ [`data/attack155_balneological_plumbing_and_nymph_labels.json`](../data/attack155_balneological_plumbing_and_nymph_labels.json) & [`pages/f75r_waterfall_pool_enh.png`](../pages/f75r_waterfall_pool_enh.png)
+- **Key Breakthroughs**:
+  1. **Establishes Across All `20` Balneological Pages (`6,659` Prose Tokens + `119` Diagram Labels: `65` Nymph `@Ln` and `54` Water-Pipe `@Lt` Labels) the Label-vs-Prose Polarity Law ($z = +9.97$): Active `qo-` Boiling Verbs (`qokeedy`, `qokedy`) Account for `24.4%` of Prose Tokens vs. `2.5%` (`3 / 119`) of Labels (`9.76×` Exclusion), Whereas `o-/ol-` Nominal/Vessel Forms (`olkol`, `okoldy`, `okal`, `otol`) Account for `62.2%` of Pipe & Nymph Labels vs. `21.3%` of Prose**.
+
+---
+
+## 156. Attack 156 (`Phase 167`): The 5-Guild Botanical Chromatic Classifier, 12-Medallion Zodiac Month Calendar (`mars..decembre`), and 20-Page Balneological Plumbing Atlas ([`notes/ZODIAC_MONTHS_BALNEO_PLUMBING_AND_BOTANICAL_ATLAS.md`](ZODIAC_MONTHS_BALNEO_PLUMBING_AND_BOTANICAL_ATLAS.md))
+- **Script, Data & Edition**: [`tools/attack156_wave36_master_compendium.py`](../tools/attack156_wave36_master_compendium.py) $\to$ [`data/attack156_wave36_master_compendium.json`](../data/attack156_wave36_master_compendium.json) & [`notes/ZODIAC_MONTHS_BALNEO_PLUMBING_AND_BOTANICAL_ATLAS.md`](ZODIAC_MONTHS_BALNEO_PLUMBING_AND_BOTANICAL_ATLAS.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes `Attacks 153–155` and Synchronizes All Human-Readable Assets ([`notes/PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md`](PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md), [`notes/VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md`](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md) `SPEC-01..15`, [`explorer/index.html`](../explorer/index.html) 4-Tab Interactive Explorer, and [`README.md`](../README.md))**.
+

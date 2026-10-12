@@ -1,0 +1,394 @@
+{
+  "attack": 153,
+  "phase": 164,
+  "discovery": 170,
+  "title": "5-Organ Visual Botanical Anatomy & Chromatic Pigment Classifier",
+  "five_guild_concordance": {
+    "observed_in_guild_mean_rate": 0.0746,
+    "observed_off_guild_mean_rate": 0.0435,
+    "observed_selectivity_lift": 1.7134,
+    "null_lift_mean": 0.9994,
+    "null_lift_sd": 0.1926,
+    "z_score": 3.71,
+    "p_empirical": 0.001,
+    "guild_rate_matrix": {
+      "GUILD_1_RED_CRIMSON_BLOSSOM_AND_DYE_ROOT": {
+        "GUILD_1_RED_CRIMSON_BLOSSOM_AND_DYE_ROOT": 0.0595,
+        "GUILD_2_BLUE_VIOLET_COROLLA_AND_BERRY_CORDIALS": 0.0456,
+        "GUILD_3_CLIMBING_VINES_AND_TRAILING_STALKS": 0.0423,
+        "GUILD_4_RENIFORM_AQUATIC_AND_BULBOUS_SPLIT_TUBERS": 0.0583,
+        "GUILD_5_UMBEL_AND_WINGED_SEED_CAPSULE_HERBS": 0.0375
+      },
+      "GUILD_2_BLUE_VIOLET_COROLLA_AND_BERRY_CORDIALS": {
+        "GUILD_1_RED_CRIMSON_BLOSSOM_AND_DYE_ROOT": 0.0824,
+        "GUILD_2_BLUE_VIOLET_COROLLA_AND_BERRY_CORDIALS": 0.2051,
+        "GUILD_3_CLIMBING_VINES_AND_TRAILING_STALKS": 0.1643,
+        "GUILD_4_RENIFORM_AQUATIC_AND_BULBOUS_SPLIT_TUBERS": 0.1479,
+        "GUILD_5_UMBEL_AND_WINGED_SEED_CAPSULE_HERBS": 0.0943
+      },
+      "GUILD_3_CLIMBING_VINES_AND_TRAILING_STALKS": {
+        "GUILD_1_RED_CRIMSON_BLOSSOM_AND_DYE_ROOT": 0.0023,
+        "GUILD_2_BLUE_VIOLET_COROLLA_AND_BERRY_CORDIALS": 0.0025,
+        "GUILD_3_CLIMBING_VINES_AND_TRAILING_STALKS": 0.0094,
+        "GUILD_4_RENIFORM_AQUATIC_AND_BULBOUS_SPLIT_TUBERS": 0.0156,
+        "GUILD_5_UMBEL_AND_WINGED_SEED_CAPSULE_HERBS": 0.0109
+      },
+      "GUILD_4_RENIFORM_AQUATIC_AND_BULBOUS_SPLIT_TUBERS": {
+        "GUILD_1_RED_CRIMSON_BLOSSOM_AND_DYE_ROOT": 0.0412,
+        "GUILD_2_BLUE_VIOLET_COROLLA_AND_BERRY_CORDIALS": 0.0354,
+        "GUILD_3_CLIMBING_VINES_AND_TRAILING_STALKS": 0.0141,
+        "GUILD_4_RENIFORM_AQUATIC_AND_BULBOUS_SPLIT_TUBERS": 0.0555,
+        "GUILD_5_UMBEL_AND_WINGED_SEED_CAPSULE_HERBS": 0.0423
+      },
+      "GUILD_5_UMBEL_AND_WINGED_SEED_CAPSULE_HERBS": {
+        "GUILD_1_RED_CRIMSON_BLOSSOM_AND_DYE_ROOT": 0.0069,
+        "GUILD_2_BLUE_VIOLET_COROLLA_AND_BERRY_CORDIALS": 0.0051,
+        "GUILD_3_CLIMBING_VINES_AND_TRAILING_STALKS": 0.0047,
+        "GUILD_4_RENIFORM_AQUATIC_AND_BULBOUS_SPLIT_TUBERS": 0.0171,
+        "GUILD_5_UMBEL_AND_WINGED_SEED_CAPSULE_HERBS": 0.0435
+      }
+    }
+  },
+  "pharma_register_anatomy": {
+    "pharma_folio_count": 15,
+    "upper_register_counts": {
+      "VESSEL_LIQUID": 21,
+      "OTHER": 52,
+      "ROOT_TUBER": 37,
+      "SEED_LEAF_STAR": 12
+    },
+    "lower_register_counts": {
+      "OTHER": 73,
+      "VESSEL_LIQUID": 14,
+      "SEED_LEAF_STAR": 11,
+      "ROOT_TUBER": 28
+    },
+    "folios": [
+      {
+        "folio": "f100r",
+        "total_labels": 19,
+        "upper_register_sample": [
+          "chosaroshol",
+          "sochorcfhy",
+          "otear",
+          "chofary",
+          "sar"
+        ],
+        "lower_register_sample": [
+          "soity",
+          "sosam",
+          "dakocth",
+          "sofam",
+          "okeeos"
+        ],
+        "upper_root_share": 0.5556,
+        "lower_root_share": 0.0,
+        "upper_seed_leaf_jar_share": 0.1111,
+        "lower_seed_leaf_jar_share": 0.3
+      },
+      {
+        "folio": "f100v",
+        "total_labels": 14,
+        "upper_register_sample": [
+          "tolchd",
+          "chols",
+          "opchor",
+          "solsy",
+          "soleesos"
+        ],
+        "lower_register_sample": [
+          "dchdy",
+          "dalsy",
+          "okcheor",
+          "ytchol",
+          "dykchal"
+        ],
+        "upper_root_share": 0.1429,
+        "lower_root_share": 0.2857,
+        "upper_seed_leaf_jar_share": 0.0,
+        "lower_seed_leaf_jar_share": 0.4286
+      },
+      {
+        "folio": "f101v",
+        "total_labels": 18,
+        "upper_register_sample": [
+          "sairaly",
+          "otaldy",
+          "otol",
+          "ytal",
+          "dokor"
+        ],
+        "lower_register_sample": [
+          "okol",
+          "arom",
+          "oraram",
+          "oraeep",
+          "dytolg"
+        ],
+        "upper_root_share": 0.3333,
+        "lower_root_share": 0.4444,
+        "upper_seed_leaf_jar_share": 0.5556,
+        "lower_seed_leaf_jar_share": 0.2222
+      },
+      {
+        "folio": "f102r1",
+        "total_labels": 4,
+        "upper_register_sample": [
+          "daarod",
+          "otodeeodor"
+        ],
+        "lower_register_sample": [
+          "okolaly",
+          "ddardsh"
+        ],
+        "upper_root_share": 0.5,
+        "lower_root_share": 0.0,
+        "upper_seed_leaf_jar_share": 0.0,
+        "lower_seed_leaf_jar_share": 0.5
+      },
+      {
+        "folio": "f102r2",
+        "total_labels": 7,
+        "upper_register_sample": [
+          "kodaiig",
+          "okrolda",
+          "loeekadag"
+        ],
+        "lower_register_sample": [
+          "osheal",
+          "sodch",
+          "koldarod",
+          "odalydary"
+        ],
+        "upper_root_share": 0.0,
+        "lower_root_share": 0.25,
+        "upper_seed_leaf_jar_share": 0.0,
+        "lower_seed_leaf_jar_share": 0.25
+      },
+      {
+        "folio": "f102v1",
+        "total_labels": 10,
+        "upper_register_sample": [
+          "keoraiiin",
+          "okeody",
+          "okeody",
+          "daiisaly",
+          "ypary"
+        ],
+        "lower_register_sample": [
+          "opchyt",
+          "dindy",
+          "ypcholdy",
+          "loralody",
+          "opchdard"
+        ],
+        "upper_root_share": 0.2,
+        "lower_root_share": 0.0,
+        "upper_seed_leaf_jar_share": 0.2,
+        "lower_seed_leaf_jar_share": 0.2
+      },
+      {
+        "folio": "f102v2",
+        "total_labels": 22,
+        "upper_register_sample": [
+          "porshols",
+          "soaimy",
+          "oror",
+          "chor",
+          "sachy"
+        ],
+        "lower_register_sample": [
+          "okoroeey",
+          "opchy",
+          "sarol",
+          "olrodar",
+          "tod"
+        ],
+        "upper_root_share": 0.3636,
+        "lower_root_share": 0.1818,
+        "upper_seed_leaf_jar_share": 0.0909,
+        "lower_seed_leaf_jar_share": 0.1818
+      },
+      {
+        "folio": "f88r",
+        "total_labels": 16,
+        "upper_register_sample": [
+          "otorchety",
+          "osal",
+          "orald",
+          "oldar",
+          "otoky"
+        ],
+        "lower_register_sample": [
+          "dary",
+          "okol",
+          "sorory",
+          "otyda",
+          "ofyskydal"
+        ],
+        "upper_root_share": 0.125,
+        "lower_root_share": 0.375,
+        "upper_seed_leaf_jar_share": 0.25,
+        "lower_seed_leaf_jar_share": 0.25
+      },
+      {
+        "folio": "f88v",
+        "total_labels": 14,
+        "upper_register_sample": [
+          "okalyd",
+          "cheocthy",
+          "cpheor",
+          "otar",
+          "arody"
+        ],
+        "lower_register_sample": [
+          "otora",
+          "cheosdy",
+          "okaiin",
+          "daramdal",
+          "otydary"
+        ],
+        "upper_root_share": 0.2857,
+        "lower_root_share": 0.4286,
+        "upper_seed_leaf_jar_share": 0.2857,
+        "lower_seed_leaf_jar_share": 0.0
+      },
+      {
+        "folio": "f89r1",
+        "total_labels": 15,
+        "upper_register_sample": [
+          "okchshy",
+          "qkol",
+          "oldam",
+          "otoldy",
+          "ararchodaiin"
+        ],
+        "lower_register_sample": [
+          "ches",
+          "otorain",
+          "okaiin",
+          "dan",
+          "ykocfhy"
+        ],
+        "upper_root_share": 0.1429,
+        "lower_root_share": 0.125,
+        "upper_seed_leaf_jar_share": 0.4286,
+        "lower_seed_leaf_jar_share": 0.125
+      },
+      {
+        "folio": "f89r2",
+        "total_labels": 22,
+        "upper_register_sample": [
+          "odory",
+          "doly",
+          "opchosam",
+          "saloiinsheol",
+          "opcheor"
+        ],
+        "lower_register_sample": [
+          "sodar",
+          "cheys",
+          "cheody",
+          "oporain",
+          "okshdchos"
+        ],
+        "upper_root_share": 0.2727,
+        "lower_root_share": 0.1818,
+        "upper_seed_leaf_jar_share": 0.4545,
+        "lower_seed_leaf_jar_share": 0.1818
+      },
+      {
+        "folio": "f89v1",
+        "total_labels": 9,
+        "upper_register_sample": [
+          "okoraldy",
+          "otoy",
+          "otchar",
+          "darshody"
+        ],
+        "lower_register_sample": [
+          "koeeorain",
+          "otorshos",
+          "opol",
+          "olaiin",
+          "opaldaiin"
+        ],
+        "upper_root_share": 0.5,
+        "lower_root_share": 0.0,
+        "upper_seed_leaf_jar_share": 0.0,
+        "lower_seed_leaf_jar_share": 0.2
+      },
+      {
+        "folio": "f89v2",
+        "total_labels": 16,
+        "upper_register_sample": [
+          "choeesy",
+          "okam",
+          "darcheor",
+          "chokaro",
+          "sheol"
+        ],
+        "lower_register_sample": [
+          "chody",
+          "dykaran",
+          "opcheedey",
+          "opaloiiry",
+          "otaram"
+        ],
+        "upper_root_share": 0.375,
+        "lower_root_share": 0.25,
+        "upper_seed_leaf_jar_share": 0.125,
+        "lower_seed_leaf_jar_share": 0.0
+      },
+      {
+        "folio": "f99r",
+        "total_labels": 34,
+        "upper_register_sample": [
+          "okaradag",
+          "okar",
+          "darar",
+          "oky",
+          "salo"
+        ],
+        "lower_register_sample": [
+          "aora",
+          "choky",
+          "oky",
+          "okeoly",
+          "yteold"
+        ],
+        "upper_root_share": 0.2941,
+        "lower_root_share": 0.1176,
+        "upper_seed_leaf_jar_share": 0.4118,
+        "lower_seed_leaf_jar_share": 0.1765
+      },
+      {
+        "folio": "f99v",
+        "total_labels": 28,
+        "upper_register_sample": [
+          "okaramy",
+          "otoldy",
+          "otor",
+          "chy",
+          "oldy"
+        ],
+        "lower_register_sample": [
+          "sary",
+          "saiino",
+          "otolsar",
+          "osary",
+          "darolaly"
+        ],
+        "upper_root_share": 0.3571,
+        "lower_root_share": 0.4286,
+        "upper_seed_leaf_jar_share": 0.3571,
+        "lower_seed_leaf_jar_share": 0.2143
+      }
+    ]
+  },
+  "pharma_label_to_prose_stem_echo": {
+    "total_pharma_labels": 248,
+    "same_folio_stem_matches": 107,
+    "same_folio_echo_rate": 0.4315
+  }
+}
