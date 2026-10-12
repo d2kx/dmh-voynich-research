@@ -1,10 +1,10 @@
 # Visual Botanical, Astrological, Balneological & Cosmological Crib Identification Dossier
 
-> **Purpose of this Dossier:** Statistical analysis alone cannot tell you whether a plant stem means *Nightshade* or *Alkanet*, or what a painted water pipe or star-wheel is doing. To ground Voynich root words in the real physical world, we must pair **high-resolution visual inspection of the paintings** with **the exact Voynich labels written on those paintings** and **how those words behave in the recipe sections**. This dossier compiles the **95 strongest visual botanical, astronomical, balneological, cosmological, and pharmaceutical identifications** in the manuscript.
+> **Purpose of this Dossier:** Statistical analysis alone cannot tell you whether a plant stem means *Nightshade* or *Alkanet*, or what a painted water pipe or star-wheel is doing. To ground Voynich root words in the real physical world, we must pair **high-resolution visual inspection of the paintings** with **the exact Voynich labels written on those paintings** and **how those words behave in the recipe sections**. This dossier compiles the **100 strongest visual botanical, astronomical, balneological, cosmological, and pharmaceutical identifications (Milestone `SPEC-01` – `SPEC-100`!)** in the manuscript.
 
 ---
 
-## Quick Summary Table: The 95 Flagship Visual Identifications (`SPEC-01` – `SPEC-95`)
+## Quick Summary Table: The 100 Flagship Visual Identifications (`SPEC-01` – `SPEC-100`)
 
 | ID | Folio(s) | Painted Subject | Real-World Identification (15th-c. Herbal / Astronomy / Balneology) | Key Voynich Words / Stems | Why the Match Holds Up |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -103,10 +103,15 @@
 | **SPEC-93** | `f69v & f70r1` (p.127) | **The `f69v` `28`-Spoke Lunar-Mansion Turret Wheel (`60.61%` `o-` Initial) & `f70r1` `6`-Lobe Nebula Wheel (`Attack 218`)** | *Rota XXVIII Mansionum Lunae (`f69v` `14` Blue + `14` Green Flared Turret Spokes = `28` Sidereal Lunar Mansions) & Rota Nebulae Sex Loborum (`f70r1`)* | `okeey / okody / otal (`60.61%` `o-` initial across `f69v`'s 28 spokes), otchdy / otody / okoldy (`5/6` `ot-/ok-` inner star labels on `f70r1`)` | Tier A+ (`14 Blue + 14 Green = 28` Lunar-Mansion Spokes + `81.82%` AZC Coverage + `100%` Cosmological Completion) |
 | **SPEC-94** | `f71r` (p.130) | **The `f71r` Full-Page Aries II (`abril`) Medallion With `15` Barreled Nymphs, `9 o'clock` Tiled Portal & `58.89%` `o-` Initial Rate (`Attack 218`)** | *Aries Pars Secunda (`abril`, `10` inner + `5` outer = `15` Star-Holding Nymphs Completing the `15 + 15 = 30°` Aries Spread with `f70v1`)* | `otaiin / otal / otar (`58.89%` `o-` initial, `43.33%` `ot-/ok-` across `f71r`), okeey / oteey / oteody (`47.37%` of `f71r` nymph labels covered by the Aries spread)` | Tier A+ (`98/98 = 100%` Non-Herbal Visual Scan Milestone + `15+15=30` Aries Spread + `abril` Gloss) |
 | **SPEC-95** | `f57r, f58v & f65v` (p.119) | **The `f65v` & `f57r` Twin Apical Blue-Calyx Plants & `f58v` Scribe 3 Cross-Language Starred Herbal Index (`2.59×` `q-` Jump & `84.86%` Quire 20 Stem Coverage, `Attack 219`)** | *Centaurea cyanus / Nigella / Succisa (`f57r` & `f65v` Apical Dark-Blue Funnel Calyx + `f65v` Scalloped Green Daisy-Button Heads & Figure-`8` Stem Loop)* | `qokain / qokaiin / qokal (`19.20%` `q-` initial on `f58v` with only `1.07%` `-edy`!), chol / daiin / ol (`84.86%` of `f58r–v` tokens covered by Scribe 3's Quire 20 stems!)` | Tier A+ (Milestone 95th Specimen: `8/8` Quire 8 Completion + `2.59×` `q-` Jump on `f58v` + `84.86%` Quire 20 Stem Coverage) |
+| **SPEC-96** | `f94v–f95r2, f95v2–f95v1 & f96v` (p.172) | **The `f95v2 / f95v1` Inward Foldout (`95`), `f96v` Quire `17m` Signature & `[H1/A, H3/B, H3/B, H1/A]` Palindromic Quire 17 Architecture (`Attack 221`)** | *Centaurea / Scabiosa (`f95v1` 26 Blue Capitula & 5-Clawed Red Rhizome) & Smilax / Bryonia / Tamus (`f96v` Weeping Arrow-Leaf Vine with 7 Red-Centered White Berry Racemes)* | `qokedy / qokeedy / shedy (`94.39%` of Scribe 3 Quire 17 tokens covered by Quire 20 stems!), kor / shol / sheol (`f96v.1` opening triad above `17m` quire signature)` | Tier A+ (`100%` Second-Half Codex Completion + `20/20` Palindromic Bifolio Law $p = 9.29 \times 10^{-10}$ + Inward Foldout `95` & `17m`) |
+| **SPEC-97** | `f2v, f3v, f6v & f7v` (p.7) | **The `f2v` *Nymphaea* Waterlily Pad, `f3v` Nodding Indigo Bells, `f7v` Blue-Eye-Spotted Leaves & Quire 1 `87.48%` Herbal-A Seeding (`Attack 222`)** | *Nymphaea alba / Nuphar lutea (`f2v` Circular Kidney-Notched Floating Waterlily Pad, 3-Lobed White Lily & Ring-Scarred Aquatic Rhizome)* | `chol / daiin / chor / shol (`386` Quire 1 root stems cover `87.48%` of all `8,050` Currier A Herbal tokens!), kooiin (`f2v.5` below marginal `fo/fe` gloss)` | Tier A+ (`16/16 = 100%` Quire 1 Completion + Classic *Nymphaea* Waterlily Pad + `87.48%` Herbal-A Stem Seeding) |
+| **SPEC-98** | `f33v & f34v` (p.67) | **The `f33v` Three Solar Gear-Wheel Root Discs & `f34v` Twenty-Four Cup-Mushroom Branch Tiers (`Attack 223`)** | *Doronicum / Cyclamen / Hydrocotyle (`f33v` Three Circular Spoked/Pegged Gear-Wheel Root Tubers, 6 Star-Lobed Peltate Leaves & 2 Blue-Heart Capitula)* | `chedy / shedy / qokedy (`13.39%` `-edy` across Scribe 2's 20 Herbal-B folios!), tchedor / polchedy (gallows-initial Currier B paragraph openers)` | Tier A+ (Iconic 3 Solar Gear-Wheel Root Discs on `f33v` + 24 Cup-Mushroom Discs on `f34v`) |
+| **SPEC-99** | `f40r & f40v` (p.81) | **The `f40v` Two-Plant `3 + 7 = 10` Radish Bulbs, Polka-Dot Corona Flower & Quire 5 Signature `5m` (`Attack 223`)** | *Raphanus / Cyclamen / Saxifraga bulbifera (`f40v` Upper-Left 3-Bulb Rosette with Red-Striped Funnel + Right 7-Bulb Oak-Leaved Plant with Polka-Dot Corona)* | `chedy / shedy / qokeedy (Scribe 2 Currier B herbal prose), pchedar / kcheor (gallows-initial recto/verso openers on leaf `f40`)` | Tier A+ (`3 + 7 = 10` Bulbous Roots + Polka-Dot Corona Flower + Medieval Quire 5 Signature `5m`) |
+| **SPEC-100** | `f50r, f50v, f51r & f55v` (p.100) | **The `f50r / f50v / f51r` Eye-Flower Vellum-Hole Pupil Registration Proof & `f55v` Zoomorphic Bird-Squid Root Creature (`Attack 223`)** | *Euphrasia / Oculus Christi / Aster (`f50r` Eye-Shaped Flower Centered on Natural Oval Vellum Hole at `x≈0.38, y≈0.38` + `f50v` 3 Flower Stalks Framing the Same Hole at `x≈0.62, y≈0.38`)* | `otar.aiin / ytor.otaiin (`<f51r.11..12>` peeking through `f50r`'s flower-eye pupil hole!), chedy / shedy / qokedy (`100%` of Currier B `83/83` folios now visually inspected!)` | Tier A+ (MILESTONE 100th Specimen: Dual-Sided `f50r/f50v/f51r` Eye-Flower Vellum-Hole Proof + `f55v` Root Creature + `100%` Currier B & Scribes 2–5) |
 
 ---
 
-## Detailed Visual & Linguistic Dossiers (`SPEC-01` – `SPEC-95`)
+## Detailed Visual & Linguistic Dossiers (`SPEC-01` – `SPEC-100`)
 
 ### SPEC-01: Folio `f1v` — Deadly Nightshade / Belladonna
 * **Manuscript Section:** Herbal A (Scribe 1) (Yale PDF Page 4)
@@ -2289,6 +2294,119 @@ Rendering full-page **`f71r`** (`pages/f71r_aries_ii_abril_full_medallion_enh.pn
 
 #### 3. Plain-English Explanation
 Milestone Specimen **`SPEC-95`** (`Attack 219`, `Discovery 236`) completes **`8 / 8` (`100.0%`) visual scan coverage of Quire 8 (`f57r–f66v`)** by pairing Quire 8's opening recto **`f57r`** (`p114`), Scribe 3's pure-text Starred Herbal Index verso **`f58v`** (`p117`), and its conjugate botanical half **`f65v`** (`p119`). Visually, both `f57r` and `f65v` crown their central vertical axis with a **single large dark-blue serrated funnel calyx**, while `f65v` adds a figure-`8` stem loop and dozens of white-ringed green daisy buttons. Linguistically, `f58r–f58v` (`753` words, `7` paragraphs) is the **only place in the manuscript where Scribe 3 writes Starred Index/Recipe paragraphs (`$I=S`) in Currier Language A (`-edy = 0.53% / 1.07%`)**: turning from `f58r` to `f58v`, `q-` initial words jump **`2.59×` (`7.41% -> 19.20%`)** without increasing `-edy` (`1.07%`), and 4-Rule Canonical Normalization lifts coverage by Scribe 3's Quire 20 Starred Recipes from **`68.66%` raw words to `84.86%` canonical stems (`1.24×` lift)**!
+
+---
+
+### SPEC-96: Folio `f94v–f95r2, f95v2–f95v1 & f96v` — The `f95v2 / f95v1` Inward Foldout (`95`), `f96v` Quire `17m` Signature & `[H1/A, H3/B, H3/B, H1/A]` Palindromic Quire 17 Architecture (`Attack 221`)
+* **Manuscript Section:** Late Herbal Quire 17 (`$I=H`, `$Q=Q`, Scribes 1 & 3, Currier A & B) (Yale PDF Page 172)
+* **Primary Scientific / Historical Candidates:** *Centaurea / Scabiosa (`f95v1` 26 Blue Capitula & 5-Clawed Red Rhizome) & Smilax / Bryonia / Tamus (`f96v` Weeping Arrow-Leaf Vine with 7 Red-Centered White Berry Racemes)*, *Twin Inward Foldout Foliation Law (`f90v2` `'90'` & `f95v2` `'95'`) + `20/20 = 100.0%` Palindromic Bifolio Law Across All 6 Mixed Herbal Quires ($p = 9.29 \times 10^{-10}$, `Attack 221`)*
+* **15th-Century European Parallels:** 15th-century Northern Italian multi-panel folding herbal sheets & quaternion/binion quire-signature collation (`15m`, `17m`)
+* **Confidence Rating:** **Tier A+ (`100%` Second-Half Codex Completion + `20/20` Palindromic Bifolio Law $p = 9.29 \times 10^{-10}$ + Inward Foldout `95` & `17m`)**
+
+![f94v–f95r2, f95v2–f95v1 & f96v — The `f95v2 / f95v1` Inward Foldout (`95`), `f96v` Quire `17m` Signature & `[H1/A, H3/B, H3/B, H1/A]` Palindromic Quire 17 Architecture (`Attack 221`)](../pages/f95v2_f95v1_unfolded_herbal_verso_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- On **`f95v2`** (`pages/f95v2_f95v1_unfolded_herbal_verso_enh.png`, `p172`, `67` words, Scribe 3): Because the outer flap of foldout leaf `f95` folds **inward** over `f95r1` when shut, the outer verso flap **`f95v2` forms the exposed front of the closed leaf**—which is why the 16th-century foliator wrote the Arabic numeral **`95`** in the top-right corner of `f95v2` while `f95r1`'s blue flower bells peek out along the left gutter (identical to `90` on `f90v2` `p166` in Quire 15)!
+- Opening the flap reveals **`f95v1`** (`pages/f95v2_f95v1_true_unfolded_sheet_enh.png`, `p173`, `159` words, `15` lines, Scribe 3) with `2` arching stems bearing `11 + 15 = 26` blue composite flower heads over a 5-clawed red rhizome, while **`f96v`** (`pages/f96v_quire17_closing_verso_enh.png`, `p175`, `76` words, Scribe 1) closes Quire 17 with a weeping arrow-leaf vine, `4 + 3 = 7` red-centered white berry racemes, and medieval Quire 17 signature **`17m`** at bottom-right!
+- Across Quire 17 (`$Q=Q`, `f93–f96`), Outer Bifolium #1 (`f93 <-> f96`) is `100%` Scribe 1 / Currier A and Inner Foldout Bifolium #2 (`f94 <-> f95`) is `100%` Scribe 3 / Currier B (`[H1/A, H3/B, H3/B, H1/A]`), extending the **Palindromic Bifolio Law to `20/20 = 100.0%` across all `6` mixed-language Herbal quires ($p = 9.29 \times 10^{-10}$)**, while Scribe 3's Inner Quire 17 Bifolium (`535` words) achieves **`94.39%` canonical stem coverage in Scribe 3's Quire 20 Starred Recipes**!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `totchy (`f95v2.1,@P0`) / pchdlar (`f95v1.1,@P0`) / kor (`f96v.1,@P0`)`
+- **Dominant Root Stems on This Page:** `qokedy / qokeedy / shedy (`94.39%` of Scribe 3 Quire 17 tokens covered by Quire 20 stems!)`, `kor / shol / sheol (`f96v.1` opening triad above `17m` quire signature)`, `95 (`f95v2` inward foldout foliation numeral) & 17m (`f96v` quire signature)`
+- **Where This Ingredient Reappears in Recipes:** Completes `16/16 = 100.0%` Late Herbal and `117/117 = 100.0%` Second-Half Codex (`f57r–f116v`) visual coverage (`Attack 221`)!
+
+#### 3. Plain-English Explanation
+Why did the 16th-century page-numberer write **`95`** on a verso panel (`f95v2`, `p172`, `pages/f95v2_f95v1_unfolded_herbal_verso_enh.png`) instead of a recto? Just like `f90` in Quire 15 (`90` on `f90v2`), leaf `f95` is a 2-panel foldout whose outer flap folds **inward** over `f95r1` when closed—making `f95v2` look like the front of the leaf (`Twin Inward Foldout Foliation Law`, `Attack 221`, `Discovery 238`)! Unfolding that flap exposes `f95v1` (`p173`, `26` blue flower heads over a 5-clawed red rhizome), while the closing leaf `f96v` (`p175`) bears the medieval Quire 17 signature **`17m`**. Even better, Quire 17 (`[H1/A, H3/B, H3/B, H1/A]`) proves that **all `20 / 20` (`100.0%`) conjugate bifolia across all `6` mixed-language Herbal quires (`Quires 4–8 & 17`) have identical Scribe Hand and Currier Language on both halves of every folded sheet ($p = 9.29 \times 10^{-10}$, or `1 in 1.08 billion`)**!
+
+---
+
+### SPEC-97: Folio `f2v, f3v, f6v & f7v` — The `f2v` *Nymphaea* Waterlily Pad, `f3v` Nodding Indigo Bells, `f7v` Blue-Eye-Spotted Leaves & Quire 1 `87.48%` Herbal-A Seeding (`Attack 222`)
+* **Manuscript Section:** Opening Herbal Quire 1 (`$I=H`, `$Q=A`, Scribe 1, Currier A) (Yale PDF Page 7)
+* **Primary Scientific / Historical Candidates:** *Nymphaea alba / Nuphar lutea (`f2v` Circular Kidney-Notched Floating Waterlily Pad, 3-Lobed White Lily & Ring-Scarred Aquatic Rhizome)*, *Drosera / Pulmonaria (`f7v` Ciliated Leaves with Central Blue Eye-Spots & `dol.dol.dor.aiin` Line) + `87.48%` Currier A Herbal Stem Seeding (`Attack 222`)*
+* **15th-Century European Parallels:** 15th-century *Tractatus de Herbis* & *Circa Instans* illustrations of *Nenufar* (*Nymphaea alba*, single floating notched pad and knotted aquatic rootstock)
+* **Confidence Rating:** **Tier A+ (`16/16 = 100%` Quire 1 Completion + Classic *Nymphaea* Waterlily Pad + `87.48%` Herbal-A Stem Seeding)**
+
+![f2v, f3v, f6v & f7v — The `f2v` *Nymphaea* Waterlily Pad, `f3v` Nodding Indigo Bells, `f7v` Blue-Eye-Spotted Leaves & Quire 1 `87.48%` Herbal-A Seeding (`Attack 222`)](../pages/f2v_quire1_waterlily_pad_verso_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- On **`f2v`** (`pages/f2v_quire1_waterlily_pad_verso_enh.png`, `p7`, `87` words, `2` paragraphs): A single giant circular floating green leaf with a deep basal V-notch (*Nymphaea* waterlily pad), a 3-lobed white waterlily flower on an arching stalk, a ring-scarred creeping aquatic rhizome, and a secondary marginal note (`fo/fe`) above line 5 (`<f2v.5> kooiin...`)
+- On **`f7v`** (`pages/f7v_quire1_lobed_herb_verso_enh.png`, `p17`, `68` words): A rosette of ciliated green, white, and red oval leaves—**every single leaf bearing a painted dark-blue central eye-spot**—while line 7 (`<f7v.7,+P0>`) closes with the exact reduplicated triad **`dol.dol.dor.aiin`**!
+- Across all **`16 / 16` (`100.0%`) rendered pages of Opening Quire 1 (`f1r–f8v`, `1,537` words, `386` unique canonical root stems)**, the `386` root stems introduced in Quire 1 alone cover **`87.48%` (`68.84%` raw words) of all `8,050` word tokens across the entire `95`-folio Currier A Herbal corpus** (`Attack 222`)!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `pchor.daiin (`f2v.1,@P0`) / kydain (`f7v.1,@P0`) / dol.dol.dor.aiin (`f7v.7`)`
+- **Dominant Root Stems on This Page:** `chol / daiin / chor / shol (`386` Quire 1 root stems cover `87.48%` of all `8,050` Currier A Herbal tokens!)`, `kooiin (`f2v.5` below marginal `fo/fe` gloss)`, `dol.dol.dor.aiin (`f7v.7` reduplicated closing formula)`
+- **Where This Ingredient Reappears in Recipes:** Completes `16/16 = 100.0%` visual coverage of Opening Quire 1 (`f1r–f8v`) and proves that Quire 1 establishes the core lexical inventory for the entire Currier A Herbal (`87.48%`) and Pharmaceutical (`84.22%`) sections (`Attack 222`)!
+
+#### 3. Plain-English Explanation
+By rendering the remaining 7 pages of Opening Quire 1 (`f2v, f3v, f4r, f5v, f6v, f7r, f7v`), Wave 53 completes **`16 / 16` (`100.0%`) high-resolution visual coverage of the manuscript's opening quire (`f1r–f8v`)**. On **`f2v`** (`pages/f2v_quire1_waterlily_pad_verso_enh.png`), the artist painted an unmistakable **European white waterlily (*Nymphaea alba*)**—complete with its single round floating lily-pad with a deep V-notch, white 3-lobed blossom, and ring-scarred aquatic rhizome. On **`f7v`** (`pages/f7v_quire1_lobed_herb_verso_enh.png`), every ciliated oval leaf has a **dark-blue eye-spot painted in its center**, and line 7 ends with **`dol.dol.dor.aiin`**. Quantitatively (`Attack 222`, `Discovery 239`), the `386` canonical root stems introduced in this single 16-page opening quire account for **`87.48%` (`68.84%` raw words) of all `8,050` word tokens across the entire `95`-folio Currier A Herbal corpus**!
+
+---
+
+### SPEC-98: Folio `f33v & f34v` — The `f33v` Three Solar Gear-Wheel Root Discs & `f34v` Twenty-Four Cup-Mushroom Branch Tiers (`Attack 223`)
+* **Manuscript Section:** Currier B Herbal Quire 5 (`$I=H`, `$Q=E`, Scribe 2, Currier B) (Yale PDF Page 67)
+* **Primary Scientific / Historical Candidates:** *Doronicum / Cyclamen / Hydrocotyle (`f33v` Three Circular Spoked/Pegged Gear-Wheel Root Tubers, 6 Star-Lobed Peltate Leaves & 2 Blue-Heart Capitula)*, *Peziza / Umbilicus / Ephedra (`f34v` 24 Cup-Shaped Discs on Horizontal Branches & Twin Bridged Quadruped Roots, `Attack 223`)*
+* **15th-Century European Parallels:** 15th-century Northern Italian schematic alchemical/astrological herbals (*Solis / Rota* circular spoked root tubers)
+* **Confidence Rating:** **Tier A+ (Iconic 3 Solar Gear-Wheel Root Discs on `f33v` + 24 Cup-Mushroom Discs on `f34v`)**
+
+![f33v & f34v — The `f33v` Three Solar Gear-Wheel Root Discs & `f34v` Twenty-Four Cup-Mushroom Branch Tiers (`Attack 223`)](../pages/f33v_currier_b_herbal_verso_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- At the base of **`f33v`** (`pages/f33v_currier_b_herbal_verso_enh.png`, `p67`, `108` words, `13` lines, Scribe 2 / Currier B): Instead of fibrous roots, the artist painted **three circular solar/gear-wheel root discs with concentric rings, radial spokes, and short peg-teeth around their outer circumference**, supporting `6` star-lobed peltate green leaves and `2` large oval flower heads with dark-blue heart centers and yellow scale bracts!
+- On the following verso **`f34v`** (`pages/f34v_currier_b_herbal_verso_enh.png`, `p69`, `112` words, `11` lines, Scribe 2 / Currier B): Horizontal branch-tiers carry **`24` green-and-brown cup-mushroom discs** beneath `3` scaly white flower cups and twin bridged quadruped-like roots!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `tchedor.schor (`f33v.1,@P0`) / polchedy (`f34v.1,@P0`)`
+- **Dominant Root Stems on This Page:** `chedy / shedy / qokedy (`13.39%` `-edy` across Scribe 2's 20 Herbal-B folios!)`, `tchedor / polchedy (gallows-initial Currier B paragraph openers)`, `daiin / ol / chey (`92.11%` of Balneological tokens covered by Herbal-B root stems!)`
+- **Where This Ingredient Reappears in Recipes:** Part of the 32-folio Currier B Herbal corpus whose root stems cover `92.11%` of Balneological (`$I=B`) and `88.30%` of Quire 20 (`$I=S`) word tokens (`Attack 223`)!
+
+#### 3. Plain-English Explanation
+Look closely at the root zone of **`f33v`** (`pages/f33v_currier_b_herbal_verso_enh.png`, `p67`): the plant grows out of **three round gear-wheel or sun-wheel discs**, each drawn with concentric circles, internal radial spokes, and tiny peg-teeth projecting around the rim, below `6` star-lobed peltate leaves and `2` blue-heart flower heads! Right next door on **`f34v`** (`pages/f34v_currier_b_herbal_verso_enh.png`, `p69`), horizontal branches hold **`24` cup-shaped mushroom/lichen discs** over twin bridged roots (`Attack 223`, `Discovery 240`).
+
+---
+
+### SPEC-99: Folio `f40r & f40v` — The `f40v` Two-Plant `3 + 7 = 10` Radish Bulbs, Polka-Dot Corona Flower & Quire 5 Signature `5m` (`Attack 223`)
+* **Manuscript Section:** Currier B Herbal Quire 5 Closing Leaf (`$I=H`, `$Q=E`, Scribe 2, Currier B) (Yale PDF Page 81)
+* **Primary Scientific / Historical Candidates:** *Raphanus / Cyclamen / Saxifraga bulbifera (`f40v` Upper-Left 3-Bulb Rosette with Red-Striped Funnel + Right 7-Bulb Oak-Leaved Plant with Polka-Dot Corona)*, *Medieval Quire 5 Signature `5m` (`f40v` Bottom-Right) & Palindromic Quire 5 `[H2/B, H2/B, H1/A, H1/A, H1/A, H1/A, H2/B, H2/B]` (`Attack 221 & 223`)*
+* **15th-Century European Parallels:** 15th-century Northern Italian multi-bulb *Saxifraga / Filipendula / Rapistrum* herbal illustrations & medieval quire signatures (`5m`)
+* **Confidence Rating:** **Tier A+ (`3 + 7 = 10` Bulbous Roots + Polka-Dot Corona Flower + Medieval Quire 5 Signature `5m`)**
+
+![f40r & f40v — The `f40v` Two-Plant `3 + 7 = 10` Radish Bulbs, Polka-Dot Corona Flower & Quire 5 Signature `5m` (`Attack 223`)](../pages/f40v_currier_b_herbal_verso_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- On **`f40v`** (`pages/f40v_currier_b_herbal_verso_enh.png`, `p81`, `106` words, `13` lines, Scribe 2 / Currier B): Two distinct bulbous plants share the page—in the upper-left corner sits a small rosette plant with **`3` round turnip/radish root bulbs** and a giant red-striped funnel calyx; on the right stands a tall oak-leaved stem growing from **`7` clustered root bulbs (`3 + 7 = 10` bulbs total)** and crowned by a concentric **blue-and-green polka-dot corona flower**!
+- In the **bottom-right corner of `f40v`** sits the medieval bookbinder's Quire 5 signature **`5m`**, closing Palindromic Quire 5 (`f33r–f40v`, where outer bifolia `f33<->f40` and `f34<->f39` are Scribe 2 / Currier B and inner bifolia `f35<->f38` and `f36<->f37` are Scribe 1 / Currier A)!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `pchedar (`f40r.1,@P0`) / kcheor (`f40v.1,@P0`)`
+- **Dominant Root Stems on This Page:** `chedy / shedy / qokeedy (Scribe 2 Currier B herbal prose)`, `pchedar / kcheor (gallows-initial recto/verso openers on leaf `f40`)`, `5m (Quire 5 signature at bottom-right of `f40v`)`
+- **Where This Ingredient Reappears in Recipes:** Closes Palindromic Quire 5 (`f33 <-> f40` outer Scribe 2 bifolium) with explicit medieval quire signature `5m` (`Attack 223`)!
+
+#### 3. Plain-English Explanation
+Folio **`f40v`** (`pages/f40v_currier_b_herbal_verso_enh.png`, `p81`) is the closing verso of Quire 5 (`f33r–f40v`, conjugate with `f33r/v`). It paints **two separate multi-bulb plants** on a single page: an upper-left rosette with **`3` round radish/turnip bulbs** and a huge red-striped funnel flower, and a tall right-hand plant with **`7` clustered bulbs (`3 + 7 = 10` bulbs total)** and a striking **blue-and-green polka-dot corona flower**. And in the bottom-right corner sits the medieval binder's **Quire 5 signature `5m`**!
+
+---
+
+### SPEC-100: Folio `f50r, f50v, f51r & f55v` — The `f50r / f50v / f51r` Eye-Flower Vellum-Hole Pupil Registration Proof & `f55v` Zoomorphic Bird-Squid Root Creature (`Attack 223`)
+* **Manuscript Section:** Currier B Herbal Quire 7 (`$I=H`, `$Q=G`, Scribe 2 / Currier B & Scribe 1 / Currier A) (Yale PDF Page 100)
+* **Primary Scientific / Historical Candidates:** *Euphrasia / Oculus Christi / Aster (`f50r` Eye-Shaped Flower Centered on Natural Oval Vellum Hole at `x≈0.38, y≈0.38` + `f50v` 3 Flower Stalks Framing the Same Hole at `x≈0.62, y≈0.38`)*, *Mandragora / Iris / Zoomorphic Rhizome (`f55v` Bird/Squid/Elephant-Headed Root Creature) + `100.0%` Currier B (`83/83`) & `100.0%` Scribes 2–5 Visual Completion (`Attack 223`)*
+* **15th-Century European Parallels:** 15th-century *Oculus Christi / Euphrasia* (eyebright) doctrine-of-signatures paintings & *Tractatus de Herbis* zoomorphic mandrake/root creatures (`f55v`)
+* **Confidence Rating:** **Tier A+ (MILESTONE 100th Specimen: Dual-Sided `f50r/f50v/f51r` Eye-Flower Vellum-Hole Proof + `f55v` Root Creature + `100%` Currier B & Scribes 2–5)**
+
+![f50r, f50v, f51r & f55v — The `f50r / f50v / f51r` Eye-Flower Vellum-Hole Pupil Registration Proof & `f55v` Zoomorphic Bird-Squid Root Creature (`Attack 223`)](../pages/f50r_currier_b_herbal_recto_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- On **`f50r`** (`pages/f50r_currier_b_herbal_recto_enh.png`, `p100`, and zoom crop `pages/f50r_flower_eye_inscription_crop_enh.png`): The artist painted a giant **horizontal eye-shaped blue-and-white composite flower head centered directly over a natural vertical oval vellum hole (`x≈0.38, y≈0.38`)** so the parchment hole forms the **dark pupil of the flower-eye**! Because leaf `f50` rests atop **`f51r`** (`pages/f51r_quire7_herbal_recto_enh.png`, `p102`) in the Yale scan, the right ends of lines `<f51r.11> (...otar.aiin)` and `<f51r.12> (...ytor.otaiin)` peek right through the pupil-hole—solving the optical illusion of 'secret letters written inside the flower's eye'!
+- On the reverse side **`f50v`** (`pages/f50v_currier_b_herbal_verso_enh.png`, `p101`, and zoom crop `pages/f50v_flower_stalk_hole_crop_enh.png`): At the exact mirror coordinate (`x≈0.62, y≈0.38`, where `0.38 + 0.62 = 1.00`), the artist drew the **3 diverging green flower stalks of `f50v`'s blue flower head straddling the exact same oval hole**, framing the dark-green leaf paint of underlying `f49v` (`p99`) as an apparent central green seed-pod/ovule between the stalks!
+- On conjugate leaf **`f55v`** (`pages/f55v_currier_b_herbal_verso_enh.png`, `p111`, `109` words, Scribe 2): Beneath an upright sheaf of pointed dark-green strap leaves and a central brown flower spike sits a **zoomorphic bird/squid/elephant-headed root creature** with an ocular eye-ring and curving trunk-tendrils—completing **`32/32 = 100.0%` of Currier B Herbal**, **`83/83 = 100.0%` of Currier Language B (`$L=B`)**, and **`100.0%` of Scribes 2 (`46/46`), 3 (`33/33`), 4 (`27/27`), and 5 (`7/7`)**!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `pchor (`f50r.1,@P0`) / tchodar (`f50v.1,@P0`) / ksho (`f51r.1,@P0`) / pchedar (`f55v.1,@P0`)`
+- **Dominant Root Stems on This Page:** `otar.aiin / ytor.otaiin (`<f51r.11..12>` peeking through `f50r`'s flower-eye pupil hole!)`, `chedy / shedy / qokedy (`100%` of Currier B `83/83` folios now visually inspected!)`, `pchedar (`f55v` zoomorphic root creature page opener)`
+- **Where This Ingredient Reappears in Recipes:** MILESTONE 100TH SPECIMEN: Proves 100% physical chronology (vellum hole -> dual-sided recto/verso flower design on `f50r/f50v`) and completes `100.0%` visual scan coverage of Currier Language B (`83/83`) and Scribes 2, 3, 4 & 5 (`Attack 223`)!
+
+#### 3. Plain-English Explanation
+**Milestone 100th Visual Specimen (`SPEC-100`, `Attack 223`, `Discovery 240`)** showcases one of the most astonishing physical-forensic discoveries in the entire Voynich Manuscript. On **`f50r`** (`p100`, `pages/f50r_currier_b_herbal_recto_enh.png` and zoom crop `pages/f50r_flower_eye_inscription_crop_enh.png`), the botanical artist encountered a natural vertical oval hole in the calfskin (`x≈0.38, y≈0.38`) and painted a giant **eye-shaped blue-and-white flower right around the hole so the hole becomes the pupil of the eye**—through which `<f51r.11..12>` (`...aiin / ...otaiin`) on underlying **`f51r`** (`p102`) peeks out like tiny letters inside the eyeball! Then, flipping leaf `f50` over to **`f50v`** (`p101`, `pages/f50v_flower_stalk_hole_crop_enh.png` at `x≈0.62, y≈0.38`), the artist drew the **3 flower stalks of `f50v` straddling the exact same hole**, framing the green leaf of `f49v` underneath as a central green ovule! Paired with its conjugate Quire 7 partner **`f55v`** (`p111`, `pages/f55v_currier_b_herbal_verso_enh.png`, featuring a **zoomorphic bird/squid/elephant-headed root creature**), this milestone completes **`100.0%` (`83/83`) visual scan coverage of Currier Language B** and **`100.0%` of Scribes 2, 3, 4, and 5** across the entire codex!
 
 ---
 

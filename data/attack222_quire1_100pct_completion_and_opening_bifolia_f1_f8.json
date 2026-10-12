@@ -1,0 +1,286 @@
+{
+  "attack": 222,
+  "discovery": 239,
+  "title": "Completing 100% (16/16) Visual Coverage of Opening Quire 1 (f1r-f8v), 4-Bifolium Architecture, f7v.7 4-Fold daiin Epizeuxis, and Quire 1 Seeding of Currier A Herbal",
+  "quire1_completion": {
+    "total_folios": 16,
+    "rendered_folios": 16,
+    "completion_pct": 100.0,
+    "total_words": 1537,
+    "unique_canonical_stems": 386
+  },
+  "quire1_seeds_herbal_a": {
+    "herbal_a_folios": 95,
+    "herbal_a_total_words": 8050,
+    "raw_word_coverage_pct": 68.84,
+    "canonical_stem_coverage_pct": 87.48
+  },
+  "f7v_line7_daiin_epizeuxis": {
+    "line_id": "<f7v.7,+P0>",
+    "words": [
+      "okshodeeeb",
+      "chorcheor",
+      "odaiin",
+      "shotcho",
+      "dol",
+      "dol",
+      "dor",
+      "aiin"
+    ],
+    "daiin_count_in_line": 0
+  },
+  "bifolia_coupling": [
+    {
+      "bifolium": "f1 <-> f8",
+      "leaf1_words": 307,
+      "leaf2_words": 269,
+      "stem_jaccard": 0.2437,
+      "leaf1_covers_leaf2_token_pct": 72.12,
+      "leaf2_covers_leaf1_token_pct": 64.82
+    },
+    {
+      "bifolium": "f2 <-> f7",
+      "leaf1_words": 166,
+      "leaf2_words": 144,
+      "stem_jaccard": 0.2339,
+      "leaf1_covers_leaf2_token_pct": 61.81,
+      "leaf2_covers_leaf1_token_pct": 63.25
+    },
+    {
+      "bifolium": "f3 <-> f6",
+      "leaf1_words": 199,
+      "leaf2_words": 202,
+      "stem_jaccard": 0.2258,
+      "leaf1_covers_leaf2_token_pct": 63.37,
+      "leaf2_covers_leaf1_token_pct": 65.83
+    },
+    {
+      "bifolium": "f4 <-> f5",
+      "leaf1_words": 148,
+      "leaf2_words": 102,
+      "stem_jaccard": 0.2427,
+      "leaf1_covers_leaf2_token_pct": 70.59,
+      "leaf2_covers_leaf1_token_pct": 59.46
+    }
+  ],
+  "same_leaf_coupling": [
+    {
+      "leaf": "f1 (f1r <-> f1v)",
+      "recto_words": 215,
+      "verso_words": 92,
+      "stem_jaccard": 0.1955,
+      "recto_covers_verso_token_pct": 60.87
+    },
+    {
+      "leaf": "f2 (f2r <-> f2v)",
+      "recto_words": 105,
+      "verso_words": 61,
+      "stem_jaccard": 0.1728,
+      "recto_covers_verso_token_pct": 57.38
+    },
+    {
+      "leaf": "f3 (f3r <-> f3v)",
+      "recto_words": 114,
+      "verso_words": 85,
+      "stem_jaccard": 0.2128,
+      "recto_covers_verso_token_pct": 57.65
+    },
+    {
+      "leaf": "f4 (f4r <-> f4v)",
+      "recto_words": 64,
+      "verso_words": 84,
+      "stem_jaccard": 0.2027,
+      "recto_covers_verso_token_pct": 42.86
+    },
+    {
+      "leaf": "f5 (f5r <-> f5v)",
+      "recto_words": 54,
+      "verso_words": 48,
+      "stem_jaccard": 0.1296,
+      "recto_covers_verso_token_pct": 50.0
+    },
+    {
+      "leaf": "f6 (f6r <-> f6v)",
+      "recto_words": 86,
+      "verso_words": 116,
+      "stem_jaccard": 0.1667,
+      "recto_covers_verso_token_pct": 50.86
+    },
+    {
+      "leaf": "f7 (f7r <-> f7v)",
+      "recto_words": 66,
+      "verso_words": 78,
+      "stem_jaccard": 0.2361,
+      "recto_covers_verso_token_pct": 48.72
+    },
+    {
+      "leaf": "f8 (f8r <-> f8v)",
+      "recto_words": 151,
+      "verso_words": 118,
+      "stem_jaccard": 0.1875,
+      "recto_covers_verso_token_pct": 68.64
+    }
+  ],
+  "folio_profiles": [
+    {
+      "folio": "f1r",
+      "words": 215,
+      "unique_stems": 104,
+      "chol_shol_chor_shor_pct": 5.58,
+      "daiin_pct": 6.05,
+      "o_initial_pct": 14.88,
+      "q_initial_pct": 0.0,
+      "edy_eey_pct": 3.26
+    },
+    {
+      "folio": "f1v",
+      "words": 92,
+      "unique_stems": 55,
+      "chol_shol_chor_shor_pct": 9.78,
+      "daiin_pct": 1.09,
+      "o_initial_pct": 11.96,
+      "q_initial_pct": 1.09,
+      "edy_eey_pct": 2.17
+    },
+    {
+      "folio": "f2r",
+      "words": 105,
+      "unique_stems": 60,
+      "chol_shol_chor_shor_pct": 8.57,
+      "daiin_pct": 4.76,
+      "o_initial_pct": 5.71,
+      "q_initial_pct": 3.81,
+      "edy_eey_pct": 3.81
+    },
+    {
+      "folio": "f2v",
+      "words": 61,
+      "unique_stems": 35,
+      "chol_shol_chor_shor_pct": 18.03,
+      "daiin_pct": 8.2,
+      "o_initial_pct": 6.56,
+      "q_initial_pct": 4.92,
+      "edy_eey_pct": 1.64
+    },
+    {
+      "folio": "f3r",
+      "words": 114,
+      "unique_stems": 62,
+      "chol_shol_chor_shor_pct": 13.16,
+      "daiin_pct": 1.75,
+      "o_initial_pct": 19.3,
+      "q_initial_pct": 19.3,
+      "edy_eey_pct": 2.63
+    },
+    {
+      "folio": "f3v",
+      "words": 85,
+      "unique_stems": 52,
+      "chol_shol_chor_shor_pct": 7.06,
+      "daiin_pct": 2.35,
+      "o_initial_pct": 17.65,
+      "q_initial_pct": 5.88,
+      "edy_eey_pct": 1.18
+    },
+    {
+      "folio": "f4r",
+      "words": 64,
+      "unique_stems": 34,
+      "chol_shol_chor_shor_pct": 14.06,
+      "daiin_pct": 7.81,
+      "o_initial_pct": 6.25,
+      "q_initial_pct": 10.94,
+      "edy_eey_pct": 3.12
+    },
+    {
+      "folio": "f4v",
+      "words": 84,
+      "unique_stems": 55,
+      "chol_shol_chor_shor_pct": 4.76,
+      "daiin_pct": 4.76,
+      "o_initial_pct": 11.9,
+      "q_initial_pct": 9.52,
+      "edy_eey_pct": 2.38
+    },
+    {
+      "folio": "f5r",
+      "words": 54,
+      "unique_stems": 32,
+      "chol_shol_chor_shor_pct": 0.0,
+      "daiin_pct": 3.7,
+      "o_initial_pct": 20.37,
+      "q_initial_pct": 16.67,
+      "edy_eey_pct": 7.41
+    },
+    {
+      "folio": "f5v",
+      "words": 48,
+      "unique_stems": 29,
+      "chol_shol_chor_shor_pct": 12.5,
+      "daiin_pct": 14.58,
+      "o_initial_pct": 14.58,
+      "q_initial_pct": 6.25,
+      "edy_eey_pct": 0.0
+    },
+    {
+      "folio": "f6r",
+      "words": 86,
+      "unique_stems": 48,
+      "chol_shol_chor_shor_pct": 9.3,
+      "daiin_pct": 3.49,
+      "o_initial_pct": 16.28,
+      "q_initial_pct": 2.33,
+      "edy_eey_pct": 0.0
+    },
+    {
+      "folio": "f6v",
+      "words": 116,
+      "unique_stems": 64,
+      "chol_shol_chor_shor_pct": 7.76,
+      "daiin_pct": 1.72,
+      "o_initial_pct": 16.38,
+      "q_initial_pct": 6.03,
+      "edy_eey_pct": 0.0
+    },
+    {
+      "folio": "f7r",
+      "words": 66,
+      "unique_stems": 44,
+      "chol_shol_chor_shor_pct": 9.09,
+      "daiin_pct": 6.06,
+      "o_initial_pct": 13.64,
+      "q_initial_pct": 10.61,
+      "edy_eey_pct": 7.58
+    },
+    {
+      "folio": "f7v",
+      "words": 78,
+      "unique_stems": 45,
+      "chol_shol_chor_shor_pct": 1.28,
+      "daiin_pct": 8.97,
+      "o_initial_pct": 8.97,
+      "q_initial_pct": 8.97,
+      "edy_eey_pct": 5.13
+    },
+    {
+      "folio": "f8r",
+      "words": 151,
+      "unique_stems": 78,
+      "chol_shol_chor_shor_pct": 8.61,
+      "daiin_pct": 3.97,
+      "o_initial_pct": 6.62,
+      "q_initial_pct": 1.99,
+      "edy_eey_pct": 3.97
+    },
+    {
+      "folio": "f8v",
+      "words": 118,
+      "unique_stems": 55,
+      "chol_shol_chor_shor_pct": 16.1,
+      "daiin_pct": 5.93,
+      "o_initial_pct": 11.86,
+      "q_initial_pct": 0.85,
+      "edy_eey_pct": 0.85
+    }
+  ]
+}

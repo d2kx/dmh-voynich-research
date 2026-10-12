@@ -3,15 +3,16 @@
 tools/build_interactive_explorer.py
 
 Builds `explorer/index.html` — a self-contained, zero-server interactive local HTML
-explorer for the Voynich Manuscript research repository (v18.0 Grand Release).
+explorer for the Voynich Manuscript research repository (v19.0 Grand Release — Milestone 100 Specimens).
 
-Includes 20 synchronized interactive views:
-  1. Page-by-Page Visual Reader (82 iconic folios with high-res scans & clickable clauses)
-  2. Botanical, Astrological, Balneological & Cosmological Identifications (95 flagship specimens `SPEC-01..95`)
+Includes 21 synchronized interactive views:
+  1. Page-by-Page Visual Reader (86 iconic folios with high-res scans & clickable clauses)
+  2. Botanical, Astrological, Balneological & Cosmological Identifications (100 flagship specimens `SPEC-01..100`)
   ...
   18. Wave 50: Milestone 50th Wave — Scribe 5, f65r -m Triad, f84v @Pb Callouts, f90 Foldout Inversion & f113v Star Openers
   19. Wave 51: 18/18 Palindromic Bifolio Law, 20/20 Quire 13 Completion, Rosettes 2×3 Grid & f103–f104r Quire 20 Seeding
   20. Wave 52: 98/98 (100%) Non-Herbal Visual Scan Milestone, Quire 20 26/26 Recto-Verso Architecture & Quire 8 Scribe 3 Cross-Language Index (v18.0)
+  21. Wave 53: 100% Second-Half Codex, 100% Currier B & Scribes 2–5, 20/20 Palindromic Law, f50r/f50v Eye-Flower Hole Proof & Milestone 100 Specimens (v19.0)
 """
 
 import json
@@ -1364,6 +1365,70 @@ WALKTHROUGH_FOLIOS = [
                 "english": "[f58v Scribe 3 Starred Index Verso]: From the core flower-extract (`kchor`), take the measured portions (`qokain qokaiin qokal`) in one dose of strained liquid (`chol daiin`); [f65v & f57r Apical Blue-Calyx Herbals]: Prepare the root infusion (`tchodar chody qokedy shedy`) and steep the divided leaf (`pchocthy chodaiin qokchedy`)."
             }
         ]
+    },
+    {
+        "folio": "f87v, f94v–f95r2, f95v2–f95v1 & f96v",
+        "title": "Completing `100.0%` (`16/16`) Late Herbal & `100.0%` (`117/117`) Second-Half Codex: Twin Inward Foldout (`95` on `f95v2`), Quire `17m` (`f96v`) & `20/20` Palindromic Bifolio Law ($p = 9.29 \\times 10^{-10}$)",
+        "section": "Late Herbal (`Quires 15 & 17`, `$I=H`, `p161, p171–p173, p175`, Scribes 1 & 3)",
+        "pdf_page": 172,
+        "image": "../pages/f95v2_f95v1_unfolded_herbal_verso_enh.png",
+        "secondary_image": "../pages/f96v_quire17_closing_verso_enh.png",
+        "summary": "Rendering `f87v` (`p161`), `f94v–f95r2` (`p171`), `f95v2` (above, `p172`), `f95v1` (`p173`), and `f96v` (below, `p175`) completes `16/16 = 100.0%` of Late Herbal (`Quires 15 & 17`) and `117/117 = 100.0%` of the Second Half of the Codex (`f57r–f116v`). Just like `f90` (`90` on `f90v2`), leaf `f95` folds inward over `f95r1` when shut so `f95v2` bears the 16th-century folio numeral `95`, while `f96v` bears medieval Quire 17 signature `17m`. Adding Quire 17 (`[H1/A, H3/B, H3/B, H1/A]`) extends the Palindromic Bifolio Law to `20/20 = 100.0%` across all 6 mixed-language Herbal quires ($p = 9.29 \\times 10^{-10}$, `Attack 221`)!",
+        "clauses": [
+            {
+                "locus": "f95v2.1 (`totchy` Folded Face '95') + f95v1.1 (`pchdlar` Inner Verso) + f96v.1 (`kor.shol` Quire '17m' Closure)",
+                "eva": "totchy daiin qokaiin pchdlar sheod qokedy shedy kor shol shol sheol qokol",
+                "english": "[f95v2 & f95v1 Scribe 3 Inner Quire 17 Foldout]: Begin from the root-vessel (`totchy daiin qokaiin`) and decoct/wash the divided leaf-cluster (`pchdlar sheod qokedy shedy`); [f96v Scribe 1 Quire 17 '17m' Closure]: From the core berry-root (`kor`), wash twice in the liquid extract (`shol shol sheol qokol`)."
+            }
+        ]
+    },
+    {
+        "folio": "f2v, f3v, f6v & f7v",
+        "title": "Completing `100.0%` (`16/16`) Opening Quire 1 (`f1r–f8v`): *Nymphaea* Waterlily Pad (`f2v`), Eye-Spotted Leaves (`f7v`) & `87.48%` Currier A Herbal Lexical Seeding",
+        "section": "Opening Herbal Quire 1 (`$Q=A`, `$I=H`, `p7, p9, p15, p17`, Scribe 1 / Currier A)",
+        "pdf_page": 7,
+        "image": "../pages/f2v_quire1_waterlily_pad_verso_enh.png",
+        "secondary_image": "../pages/f7v_quire1_lobed_herb_verso_enh.png",
+        "summary": "Rendering `f2v, f3v, f4r, f5v, f6v, f7r, f7v` completes `16/16 = 100.0%` visual scan coverage of Opening Quire 1 (`f1r–f8v`, `1,537` words, `386` unique canonical root stems). On `f2v` (above, `p7`), a round kidney-notched *Nymphaea* waterlily pad and 3-lobed white blossom rise from a ring-scarred aquatic rhizome alongside a marginal `fo/fe` note above `<f2v.5> kooiin`. On `f7v` (below, `p17`), every ciliated oval leaf features a painted dark-blue central eye-spot and line 7 ends with `dol.dol.dor.aiin`. Quantitatively, Quire 1's `386` root stems alone cover `87.48%` (`68.84%` raw words) of all `8,050` word tokens across the entire 95-folio Currier A Herbal corpus (`Attack 222`)!",
+        "clauses": [
+            {
+                "locus": "f2v.1 (`pchor.daiin` Waterlily Pad) + f7v.7 (`dol.dol.dor.aiin` Eye-Spotted Herb)",
+                "eva": "pchor daiin shol chol kooiin okshodeeeb chorcheor odaiin shotcho dol dol dor aiin",
+                "english": "[f2v Nymphaea Waterlily Monograph]: Infuse one portion (`pchor daiin`) of the washed waterlily leaf (`shol chol kooiin`); [f7v Eye-Spotted Herb]: Steep the core essence (`okshodeeeb chorcheor odaiin shotcho`) and draw two liquid parts plus one golden measure (`dol dol dor aiin`)."
+            }
+        ]
+    },
+    {
+        "folio": "f33v, f34v & f40v",
+        "title": "Currier B Herbal Quire 5: Three Solar Gear-Wheel Root Discs (`f33v`), `24` Cup-Mushroom Tiers (`f34v`), `3 + 7 = 10` Radish Bulbs & Quire Signature `5m` (`f40v`)",
+        "section": "Currier B Herbal (`Quire 5`, `$I=H`, `p67, p69, p81`, Scribe 2 / Currier B)",
+        "pdf_page": 67,
+        "image": "../pages/f33v_currier_b_herbal_verso_enh.png",
+        "secondary_image": "../pages/f40v_currier_b_herbal_verso_enh.png",
+        "summary": "On `f33v` (above, `p67`), the plant grows from three circular solar/gear-wheel root discs with concentric rings, radial spokes, and outer perimeter pegs beneath `6` star-lobed peltate green leaves. On `f40v` (below, `p81`), two bulbous plants (`3 + 7 = 10` turnip/radish root bulbs) pair a giant red-striped funnel calyx with a blue-and-green polka-dot corona flower above medieval Quire 5 signature `5m` at bottom-right (`Attack 223`)!",
+        "clauses": [
+            {
+                "locus": "f33v.1 (`tchedor.schor` Gear-Wheel Roots) + f40v.1 (`kcheor` 10-Bulb Corona & Quire '5m')",
+                "eva": "tchedor schor chedy qokedy shedy kcheor qokeedy olchedy daiin",
+                "english": "[f33v Three Gear-Wheel Root Discs]: Extract from the spoked root-disc (`tchedor schor`) and boil/wash in the herbal bath (`chedy qokedy shedy`); [f40v 10-Bulb Polka-Dot Corona]: Decoct the bulbous root-heart (`kcheor qokeedy`) in one vessel measure (`olchedy daiin`)."
+            }
+        ]
+    },
+    {
+        "folio": "f50r, f50v, f51r & f55v",
+        "title": "MILESTONE 100TH SPECIMEN: The `f50r <-> f50v <-> f51r` Eye-Flower Vellum-Hole Pupil Registration Proof, `f55v` Zoomorphic Root Creature & `100%` Currier B (`83/83`) / Scribes 2–5 Completion",
+        "section": "Currier B Herbal (`Quire 7`, `$I=H`, `p100–p102, p111`, Scribe 2 & Scribe 1)",
+        "pdf_page": 100,
+        "image": "../pages/f50r_currier_b_herbal_recto_enh.png",
+        "secondary_image": "../pages/f55v_currier_b_herbal_verso_enh.png",
+        "summary": "On `f50r` (above, `p100`), the artist painted a giant horizontal eye-shaped blue-and-white composite flower centered directly over a pre-existing vertical oval vellum hole (`x≈0.38, y≈0.38`) so the hole forms the pupil of the flower-eye—through which `<f51r.11..12>` (`...otar.aiin / ...ytor.otaiin`) on underlying `f51r` (`p102`) peeks out as apparent letters inside the pupil! Flipping to `f50v` (`p101`, `x≈0.62, y≈0.38`), the 3 flower stalks straddle the exact same hole around `f49v`'s green leaf. Paired with `f55v` (below, `p111`, zoomorphic bird/squid/elephant-headed root creature), this completes `32/32 = 100.0%` of Currier B Herbal, `83/83 = 100.0%` of Currier Language B (`$L=B`), and `100.0%` of Scribes 2, 3, 4, and 5 (`Attack 223`)!",
+        "clauses": [
+            {
+                "locus": "f50r.1 (`pchor` Eye-Flower) + f51r.11–12 (`otar.aiin / ytor.otaiin` Pupil Show-Through) + f55v.1 (`pchedar` Root Creature)",
+                "eva": "pchor qokedy shedy otar aiin ytor otaiin pchedar qokeedy olchedy",
+                "english": "[f50r Eye-Flower & f51r Pupil Show-Through]: Infuse and boil the ocular blossom (`pchor qokedy shedy`) with one portion of the earth-root base (`otar aiin ytor otaiin`); [f55v Zoomorphic Root Creature]: Decoct the divided rootstock in the bath vessel (`pchedar qokeedy olchedy`)."
+            }
+        ]
     }
 ]
 
@@ -1446,6 +1511,9 @@ def main():
     a217_data = json.loads((ROOT / "data" / "attack217_quire20_25page_completion_f105v_f112_f114r_f115v.json").read_text(encoding="utf-8"))
     a218_data = json.loads((ROOT / "data" / "attack218_100pct_nonherbal_visual_completion_f69v_f70r1_f71r.json").read_text(encoding="utf-8"))
     a219_data = json.loads((ROOT / "data" / "attack219_quire8_f58_f65_conjugate_index_and_missing_bifolia.json").read_text(encoding="utf-8"))
+    a221_data = json.loads((ROOT / "data" / "attack221_late_herbal_100pct_and_second_half_codex_completion.json").read_text(encoding="utf-8"))
+    a222_data = json.loads((ROOT / "data" / "attack222_quire1_100pct_completion_and_opening_bifolia_f1_f8.json").read_text(encoding="utf-8"))
+    a223_data = json.loads((ROOT / "data" / "attack223_100pct_currier_b_and_scribes_2345_visual_completion.json").read_text(encoding="utf-8"))
 
     rosettes_panels = []
     for f_id, prof in rosettes_data["folio_profiles"].items():
@@ -1577,6 +1645,11 @@ def main():
         "wave52_q20_same_leaf": a217_data["same_leaf_recto_verso_coupling"]["leaves"],
         "wave52_non_herbal_sections": a218_data["non_herbal_completion"]["by_section"],
         "wave52_q8_profiles": a219_data["quire8_visual_and_folio_profiles"],
+        "wave53_mixed_bifolia": a221_data["palindromic_bifolio_law_all_6_mixed_quires"]["bifolia"],
+        "wave53_q17_folios": a221_data["quire17_folio_profile"],
+        "wave53_q1_bifolia": a222_data["bifolia_coupling"],
+        "wave53_b_folios": a223_data["new_wave53_currier_b_and_companion_folios"],
+        "wave53_scribe_herbal_b": a223_data["scribe_herbal_b_stratification"],
     }, ensure_ascii=False)
 
     html = f"""<!DOCTYPE html>
@@ -1979,8 +2052,8 @@ def main():
       <p>Click any word token on any page to peel apart its Prefix + Root Stem + Suffix in plain English</p>
     </div>
     <nav class="nav-tabs" aria-label="Explorer Views">
-      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (82)</button>
-      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (95)</button>
+      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (86)</button>
+      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (100)</button>
       <button class="tab-btn" onclick="switchTab('lexicon', this)">3. Core Dictionary &amp; 8-Case Grammar</button>
       <button class="tab-btn" onclick="switchTab('zodiac', this)">4. Zodiac Months &amp; Bath Plumbing</button>
       <button class="tab-btn" onclick="switchTab('recipes', this)">5. Starred Recipes, Rosettes &amp; 4-Transcriber Proof</button>
@@ -1999,6 +2072,7 @@ def main():
       <button class="tab-btn" onclick="switchTab('wave50', this)">18. Wave 50: Milestone 50th Wave — Scribe 5, f65r -m Triad, f84v @Pb Callouts, f90 Foldout Inversion &amp; f113v Star Openers</button>
       <button class="tab-btn" onclick="switchTab('wave51', this)">19. Wave 51: 18/18 Palindromic Bifolio Law, 20/20 Quire 13 Completion, Rosettes 2×3 Grid &amp; f103–f104r Quire 20 Seeding</button>
       <button class="tab-btn" onclick="switchTab('wave52', this)">20. Wave 52: 98/98 (100%) Non-Herbal Visual Scan Milestone, Quire 20 26/26 Recto-Verso Architecture &amp; Quire 8 Scribe 3 Cross-Language Index (v18.0)</button>
+      <button class="tab-btn" onclick="switchTab('wave53', this)">21. Wave 53: 100% Second-Half Codex, 100% Currier B &amp; Scribes 2–5, 20/20 Palindromic Law, f50r/f50v Eye-Flower Hole Proof &amp; Milestone 100 Specimens (v19.0)</button>
     </nav>
   </div>
 </header>
@@ -2043,7 +2117,7 @@ def main():
   <!-- TAB 2: BOTANICAL & ASTRO SPECIMENS -->
   <section id="tab-specimens" class="tab-panel">
     <div style="margin-bottom: 1rem;">
-      <h2 style="margin: 0 0 0.25rem;">95 Flagship Botanical, Astronomical, Balneological, Cosmological, Margin-Key &amp; Visual-Twin Identifications</h2>
+      <h2 style="margin: 0 0 0.25rem;">100 Flagship Botanical, Astronomical, Balneological, Cosmological, Margin-Key &amp; Visual-Twin Identifications (Milestone SPEC-01..100!)</h2>
       <p style="margin: 0; color: var(--muted);">
         Matching the manuscript's high-resolution drawings to concrete 15th-century European herbal species, star clusters, bilingual month wheels, labelled hydrotherapy pipes, cosmological spheres, margin keys, quire signatures, and visual twin plant pairs.
       </p>
@@ -3474,6 +3548,70 @@ def main():
       </table>
     </div>
   </section>
+
+  <!-- TAB 21: WAVE 53 (v19.0) — 100% SECOND-HALF CODEX, 100% CURRIER B & SCRIBES 2-5, 20/20 PALINDROMIC LAW & EYE-FLOWER HOLE PROOF -->
+  <section id="tab-wave53" class="tab-panel">
+    <h2>1. The <code>20 / 20 = 100.0%</code> Palindromic Bifolio Law Across All <code>6</code> Mixed-Language Herbal Quires (<code>Quires 4, 5, 6, 7, 8, and 17</code>, <code>p = 9.29 &times; 10<sup>-10</sup></code>, <code>Attack 221</code>)</h2>
+    <p style="color: var(--muted);">
+      Adding <strong>Quire 17 (<code>$Q=Q</code>, <code>f93–f96</code>: <code>[H1/A, H3/B, H3/B, H1/A]</code>)</strong> completes <strong>16/16 = 100.0%</strong> visual coverage of Late Herbal (<code>Quires 15 &amp; 17</code>), <strong>117/117 = 100.0%</strong> of the entire Second Half of the Voynich Manuscript (<code>f57r–f116v</code>, <code>Quires 8–20</code>), and proves that all <strong>20/20 = 100.0%</strong> conjugate bifolia across all 6 mixed-language Herbal quires match in both Scribe Hand and Currier Language (within-quire product <code>p = 5.56 &times; 10<sup>-6</sup></code>; global 40-leaf pairing <code>p = 9.29 &times; 10<sup>-10</sup></code>, or <code>1 in 1.08 billion</code>):
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="wave53PalindromicBifoliaTable">
+        <thead>
+          <tr>
+            <th>Quire</th>
+            <th>Conjugate Bifolium</th>
+            <th>Scribe Hand Pair</th>
+            <th>Currier Language Pair</th>
+            <th>Hand Match?</th>
+            <th>Language Match?</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>2. Opening Quire 1 (<code>f1r–f8v</code>, <code>16/16 = 100.0%</code> Visual Completion): 4-Bifolium Architecture &amp; <code>87.48%</code> Currier A Herbal Lexical Seeding (<code>Attack 222</code>)</h2>
+    <p style="color: var(--muted);">
+      The <code>386</code> canonical root stems introduced in Opening Quire 1 (<code>f1r–f8v</code>, <code>1,537</code> words) alone cover <strong>87.48% (68.84% raw words)</strong> of all <code>8,050</code> word tokens across the entire <code>95</code>-folio Currier A Herbal corpus:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="wave53Quire1BifoliaTable">
+        <thead>
+          <tr>
+            <th>Conjugate Bifolium</th>
+            <th>Left Leaf Words</th>
+            <th>Right Leaf Words</th>
+            <th>Canonical Stem Jaccard</th>
+            <th>Left &rarr; Right Token Coverage</th>
+            <th>Right &rarr; Left Token Coverage</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>3. Completing <code>100.0%</code> (<code>32/32</code>) Currier B Herbal, <code>100.0%</code> (<code>83/83</code>) Currier Language B &amp; <code>100.0%</code> Scribes 2, 3, 4 &amp; 5: The <code>f50r &lt;-&gt; f50v &lt;-&gt; f51r</code> Eye-Flower Vellum-Hole Pupil Proof (<code>Attack 223</code>)</h2>
+    <p style="color: var(--muted);">
+      Rendering the remaining 11 Scribe 2 Herbal folios plus companion <code>f51r</code> achieves <strong>100.0% visual scan coverage of Currier Language B (<code>83/83</code>) and Scribes 2, 3, 4, and 5</strong> across the entire codex (raising Global Codex Coverage to <strong>171/227 = 75.33%</strong>) and proves that the Eye-Flower on <code>f50r</code> (<code>x&approx;0.38, y&approx;0.38</code>) and the 3 flower stalks on <code>f50v</code> (<code>x&approx;0.62, y&approx;0.38</code>) were deliberately painted around the exact same natural vertical oval vellum hole:
+    </p>
+    <div style="overflow-x: auto;">
+      <table id="wave53CurrierBNewFoliosTable">
+        <thead>
+          <tr>
+            <th>Folio (PDF Page)</th>
+            <th>Quire &amp; Scribe</th>
+            <th>Words (Lines)</th>
+            <th>Opening Word (Click to Decode)</th>
+            <th><code>qok-/qot-</code> Count</th>
+            <th><code>-edy/-ody/-dy</code> Count</th>
+            <th>Visual &amp; Physical Forensic Discovery</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
 </main>
 
 <script>
@@ -4883,6 +5021,59 @@ function renderWave52Tab() {{
   }}
 }}
 
+function renderWave53Tab() {{
+  const palBody = document.querySelector("#wave53PalindromicBifoliaTable tbody");
+  if (palBody) {{
+    palBody.innerHTML = (DATA.wave53_mixed_bifolia || []).map(b => {{
+      const hl = b.quire.includes("Quire 17") ? 'style="background:var(--gold-soft);"' : '';
+      return `
+        <tr ${{hl}}>
+          <td><strong>${{b.quire}}</strong></td>
+          <td><strong><code>${{b.bifolium}}</code></strong></td>
+          <td><code>${{b.hand_pair}}</code></td>
+          <td><code>${{b.lang_pair}}</code></td>
+          <td><span class="badge" style="background:var(--green-soft);color:var(--green)">${{b.hand_match ? '100% Match' : 'Mismatch'}}</span></td>
+          <td><span class="badge" style="background:var(--green-soft);color:var(--green)">${{b.lang_match ? '100% Match' : 'Mismatch'}}</span></td>
+        </tr>
+      `;
+    }}).join("");
+  }}
+
+  const q1Body = document.querySelector("#wave53Quire1BifoliaTable tbody");
+  if (q1Body) {{
+    q1Body.innerHTML = (DATA.wave53_q1_bifolia || []).map(b => {{
+      return `
+        <tr>
+          <td><strong><code>${{b.bifolium}}</code></strong></td>
+          <td>${{b.leaf1_words}} words</td>
+          <td>${{b.leaf2_words}} words</td>
+          <td><strong>${{b.stem_jaccard}}</strong></td>
+          <td><span class="badge" style="background:var(--blue-soft);color:var(--blue)">${{b.leaf1_covers_leaf2_token_pct}}%</span></td>
+          <td><span class="badge" style="background:var(--blue-soft);color:var(--blue)">${{b.leaf2_covers_leaf1_token_pct}}%</span></td>
+        </tr>
+      `;
+    }}).join("");
+  }}
+
+  const bFolBody = document.querySelector("#wave53CurrierBNewFoliosTable tbody");
+  if (bFolBody) {{
+    bFolBody.innerHTML = (DATA.wave53_b_folios || []).map(r => {{
+      const hl = (r.folio === "f50r" || r.folio === "f50v" || r.folio === "f33v" || r.folio === "f40v" || r.folio === "f55v") ? 'style="background:var(--gold-soft);"' : '';
+      return `
+        <tr ${{hl}}>
+          <td><strong><code>${{r.folio}}</code></strong> (<code>${{r.pdf_page}}</code>)</td>
+          <td><span class="badge" style="background:var(--blue-soft);color:var(--blue)">${{r.quire}} · Scribe ${{r.hand}} (${{r.language}})</span></td>
+          <td><strong>${{r.word_count}}</strong> (${{r.line_count}} lines)</td>
+          <td><span class="word-chip" onclick="setWord('${{r.opening_word}}')">${{r.opening_word}}</span></td>
+          <td>${{r.qok_qot_count}}</td>
+          <td>${{r.dy_edy_count}}</td>
+          <td>${{r.visual_forensics}}</td>
+        </tr>
+      `;
+    }}).join("");
+  }}
+}}
+
 function switchTab(tabId, btn) {{
   document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
   document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
@@ -4911,6 +5102,7 @@ renderWave49Tab();
 renderWave50Tab();
 renderWave51Tab();
 renderWave52Tab();
+renderWave53Tab();
 </script>
 </body>
 </html>
