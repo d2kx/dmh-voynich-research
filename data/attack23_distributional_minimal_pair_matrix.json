@@ -1,0 +1,3484 @@
+{
+  "summary": {
+    "top_roots_analyzed": 150,
+    "total_pairs_evaluated": 11175,
+    "edit_distance_1_minimal_pairs_count": 493,
+    "mean_ed1_combined_cosine": 0.8618,
+    "mean_non_ed1_combined_cosine": 0.766,
+    "std_non_ed1_combined_cosine": 0.1208,
+    "ed1_vs_random_z_score": 17.61,
+    "word_class_counts": {
+      "Class_III_Gallows_Vessel_Conduit_Stems": 13,
+      "Class_I_Primary_C_Verbal_Operators": 8,
+      "Class_V_Deictic_Clause_Boundary_Particles": 10,
+      "Class_II_Compound_Gallows_Verbal_Operators": 27,
+      "Class_IV_Liquid_Botanical_Substance_Nouns": 12,
+      "Class_VI_Specialized_Domain_Nouns": 80
+    }
+  },
+  "flagship_minimal_pairs": [
+    {
+      "root_1": "k",
+      "root_2": "t",
+      "count_1": 4401,
+      "count_2": 2553,
+      "morph_cosine": 0.8992,
+      "context_cosine": 0.9909,
+      "section_cosine": 0.9821,
+      "combined_cosine": 0.9451,
+      "is_edit_distance_1": true,
+      "pair_description": "Gallows Vessel/Body (k) vs Tube/Duct (t)"
+    },
+    {
+      "root_1": "ch",
+      "root_2": "sh",
+      "count_1": 2519,
+      "count_2": 1574,
+      "morph_cosine": 0.9949,
+      "context_cosine": 0.9789,
+      "section_cosine": 0.9557,
+      "combined_cosine": 0.9869,
+      "is_edit_distance_1": true,
+      "pair_description": "Primary Verbal Operators: Mix/Process (ch) vs Heat/Steep (sh)"
+    },
+    {
+      "root_1": "che",
+      "root_2": "she",
+      "count_1": 622,
+      "count_2": 369,
+      "morph_cosine": 0.9948,
+      "context_cosine": 0.9747,
+      "section_cosine": 0.9883,
+      "combined_cosine": 0.9847,
+      "is_edit_distance_1": true,
+      "pair_description": "Extended Verbal Operators: Infuse (che) vs Decoct (she)"
+    },
+    {
+      "root_1": "cth",
+      "root_2": "ckh",
+      "count_1": 485,
+      "count_2": 245,
+      "morph_cosine": 0.9493,
+      "context_cosine": 0.9872,
+      "section_cosine": 0.9441,
+      "combined_cosine": 0.9683,
+      "is_edit_distance_1": true,
+      "pair_description": "Gallows-C Operators: Leaf/Crown (cth) vs Concoct/Root (ckh)"
+    },
+    {
+      "root_1": "tch",
+      "root_2": "kch",
+      "count_1": 965,
+      "count_2": 675,
+      "morph_cosine": 0.9257,
+      "context_cosine": 0.988,
+      "section_cosine": 0.9913,
+      "combined_cosine": 0.9568,
+      "is_edit_distance_1": true,
+      "pair_description": "Pre-Gallows Operators: kch vs tch"
+    },
+    {
+      "root_1": "lch",
+      "root_2": "lsh",
+      "count_1": 240,
+      "count_2": 83,
+      "morph_cosine": 0.998,
+      "context_cosine": 0.9701,
+      "section_cosine": 0.9827,
+      "combined_cosine": 0.9841,
+      "is_edit_distance_1": true,
+      "pair_description": "Liquid-Prefixed Operators: lch vs lsh"
+    },
+    {
+      "root_1": "kal",
+      "root_2": "kol",
+      "count_1": 45,
+      "count_2": 35,
+      "morph_cosine": 0.7817,
+      "context_cosine": 0.9216,
+      "section_cosine": 0.5747,
+      "combined_cosine": 0.8517,
+      "is_edit_distance_1": true,
+      "pair_description": "Botanical/Vessel Stems: kol vs kal"
+    },
+    {
+      "root_1": "tal",
+      "root_2": "tol",
+      "count_1": 38,
+      "count_2": 37,
+      "morph_cosine": 0.6815,
+      "context_cosine": 0.7312,
+      "section_cosine": 0.8577,
+      "combined_cosine": 0.7063,
+      "is_edit_distance_1": true,
+      "pair_description": "Conduit/Barreled-Nymph Stems: tol vs tal"
+    },
+    {
+      "root_1": "dal",
+      "root_2": "dar",
+      "count_1": 66,
+      "count_2": 31,
+      "morph_cosine": 0.8964,
+      "context_cosine": 0.9182,
+      "section_cosine": 0.8686,
+      "combined_cosine": 0.9073,
+      "is_edit_distance_1": true,
+      "pair_description": "Source/Jar (dar) vs Basin/Pool (dal)"
+    },
+    {
+      "root_1": "keo",
+      "root_2": "teo",
+      "count_1": 134,
+      "count_2": 62,
+      "morph_cosine": 0.9394,
+      "context_cosine": 0.9756,
+      "section_cosine": 0.9653,
+      "combined_cosine": 0.9575,
+      "is_edit_distance_1": true,
+      "pair_description": "Astrological/Pharmaceutical Pair: teo vs keo"
+    },
+    {
+      "root_1": "cheo",
+      "root_2": "sheo",
+      "count_1": 177,
+      "count_2": 93,
+      "morph_cosine": 0.9864,
+      "context_cosine": 0.9724,
+      "section_cosine": 0.971,
+      "combined_cosine": 0.9794,
+      "is_edit_distance_1": true,
+      "pair_description": "Labialized Operators: cheo vs sheo"
+    },
+    {
+      "root_1": "dch",
+      "root_2": "sch",
+      "count_1": 162,
+      "count_2": 28,
+      "morph_cosine": 0.9831,
+      "context_cosine": 0.9622,
+      "section_cosine": 0.9803,
+      "combined_cosine": 0.9727,
+      "is_edit_distance_1": true,
+      "pair_description": "Dental/Sibilant Operators: dch vs sch"
+    },
+    {
+      "root_1": "lk",
+      "root_2": "lt",
+      "count_1": 282,
+      "count_2": 28,
+      "morph_cosine": 0.9649,
+      "context_cosine": 0.9208,
+      "section_cosine": 0.959,
+      "combined_cosine": 0.9428,
+      "is_edit_distance_1": true,
+      "pair_description": "Liquid-Gallows Stems: lk vs lt"
+    },
+    {
+      "root_1": "ot",
+      "root_2": "ok",
+      "count_1": 32,
+      "count_2": 24,
+      "morph_cosine": 0.9747,
+      "context_cosine": 0.9273,
+      "section_cosine": 0.9643,
+      "combined_cosine": 0.951,
+      "is_edit_distance_1": true,
+      "pair_description": "o-Gallows Nominal Stems: ok vs ot"
+    },
+    {
+      "root_1": "or",
+      "root_2": "ar",
+      "count_1": 511,
+      "count_2": 431,
+      "morph_cosine": 0.9966,
+      "context_cosine": 0.9793,
+      "section_cosine": 0.8371,
+      "combined_cosine": 0.988,
+      "is_edit_distance_1": true,
+      "pair_description": "Liquid-R Stems: ar vs or"
+    }
+  ],
+  "top_edit_distance_1_allomorph_pairs": [
+    {
+      "root_1": "ar",
+      "root_2": "al",
+      "count_1": 431,
+      "count_2": 294,
+      "morph_cosine": 0.9983,
+      "context_cosine": 0.9831,
+      "section_cosine": 0.9759,
+      "combined_cosine": 0.9907,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "chckh",
+      "root_2": "checkh",
+      "count_1": 223,
+      "count_2": 69,
+      "morph_cosine": 0.9958,
+      "context_cosine": 0.9842,
+      "section_cosine": 0.9266,
+      "combined_cosine": 0.99,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "chckh",
+      "root_2": "shckh",
+      "count_1": 223,
+      "count_2": 85,
+      "morph_cosine": 0.9977,
+      "context_cosine": 0.9796,
+      "section_cosine": 0.8975,
+      "combined_cosine": 0.9886,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "or",
+      "root_2": "ar",
+      "count_1": 511,
+      "count_2": 431,
+      "morph_cosine": 0.9966,
+      "context_cosine": 0.9793,
+      "section_cosine": 0.8371,
+      "combined_cosine": 0.988,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "ch",
+      "root_2": "sh",
+      "count_1": 2519,
+      "count_2": 1574,
+      "morph_cosine": 0.9949,
+      "context_cosine": 0.9789,
+      "section_cosine": 0.9557,
+      "combined_cosine": 0.9869,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "cho",
+      "root_2": "cheo",
+      "count_1": 178,
+      "count_2": 177,
+      "morph_cosine": 0.984,
+      "context_cosine": 0.9886,
+      "section_cosine": 0.6498,
+      "combined_cosine": 0.9863,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "ol",
+      "root_2": "or",
+      "count_1": 893,
+      "count_2": 511,
+      "morph_cosine": 0.9846,
+      "context_cosine": 0.9868,
+      "section_cosine": 0.8239,
+      "combined_cosine": 0.9857,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "chckh",
+      "root_2": "chcth",
+      "count_1": 223,
+      "count_2": 137,
+      "morph_cosine": 0.9862,
+      "context_cosine": 0.9839,
+      "section_cosine": 0.9956,
+      "combined_cosine": 0.9851,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "che",
+      "root_2": "she",
+      "count_1": 622,
+      "count_2": 369,
+      "morph_cosine": 0.9948,
+      "context_cosine": 0.9747,
+      "section_cosine": 0.9883,
+      "combined_cosine": 0.9847,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "lch",
+      "root_2": "lsh",
+      "count_1": 240,
+      "count_2": 83,
+      "morph_cosine": 0.998,
+      "context_cosine": 0.9701,
+      "section_cosine": 0.9827,
+      "combined_cosine": 0.9841,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "chok",
+      "root_2": "chot",
+      "count_1": 121,
+      "count_2": 101,
+      "morph_cosine": 0.9893,
+      "context_cosine": 0.9782,
+      "section_cosine": 0.9766,
+      "combined_cosine": 0.9838,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "chek",
+      "root_2": "chok",
+      "count_1": 172,
+      "count_2": 121,
+      "morph_cosine": 0.9848,
+      "context_cosine": 0.9807,
+      "section_cosine": 0.9416,
+      "combined_cosine": 0.9827,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "l",
+      "root_2": "r",
+      "count_1": 343,
+      "count_2": 318,
+      "morph_cosine": 0.9806,
+      "context_cosine": 0.984,
+      "section_cosine": 0.9946,
+      "combined_cosine": 0.9823,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "chok",
+      "root_2": "chk",
+      "count_1": 121,
+      "count_2": 109,
+      "morph_cosine": 0.983,
+      "context_cosine": 0.9816,
+      "section_cosine": 0.9685,
+      "combined_cosine": 0.9823,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "or",
+      "root_2": "o",
+      "count_1": 511,
+      "count_2": 209,
+      "morph_cosine": 0.989,
+      "context_cosine": 0.9752,
+      "section_cosine": 0.9465,
+      "combined_cosine": 0.9821,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "olk",
+      "root_2": "lk",
+      "count_1": 298,
+      "count_2": 282,
+      "morph_cosine": 0.9873,
+      "context_cosine": 0.976,
+      "section_cosine": 0.6212,
+      "combined_cosine": 0.9817,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "am",
+      "root_2": "om",
+      "count_1": 78,
+      "count_2": 20,
+      "morph_cosine": 0.9996,
+      "context_cosine": 0.9624,
+      "section_cosine": 0.9392,
+      "combined_cosine": 0.981,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "shckh",
+      "root_2": "sheckh",
+      "count_1": 85,
+      "count_2": 48,
+      "morph_cosine": 0.9973,
+      "context_cosine": 0.9631,
+      "section_cosine": 0.925,
+      "combined_cosine": 0.9802,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "cheo",
+      "root_2": "sheo",
+      "count_1": 177,
+      "count_2": 93,
+      "morph_cosine": 0.9864,
+      "context_cosine": 0.9724,
+      "section_cosine": 0.971,
+      "combined_cosine": 0.9794,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "chcth",
+      "root_2": "checth",
+      "count_1": 137,
+      "count_2": 42,
+      "morph_cosine": 0.9902,
+      "context_cosine": 0.9642,
+      "section_cosine": 0.8463,
+      "combined_cosine": 0.9772,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "olch",
+      "root_2": "olsh",
+      "count_1": 132,
+      "count_2": 61,
+      "morph_cosine": 0.9896,
+      "context_cosine": 0.9646,
+      "section_cosine": 0.974,
+      "combined_cosine": 0.9771,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "ched",
+      "root_2": "chd",
+      "count_1": 152,
+      "count_2": 93,
+      "morph_cosine": 0.9826,
+      "context_cosine": 0.9712,
+      "section_cosine": 0.8962,
+      "combined_cosine": 0.9769,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "kch",
+      "root_2": "ksh",
+      "count_1": 675,
+      "count_2": 117,
+      "morph_cosine": 0.9803,
+      "context_cosine": 0.9732,
+      "section_cosine": 0.9648,
+      "combined_cosine": 0.9768,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "ol",
+      "root_2": "o",
+      "count_1": 893,
+      "count_2": 209,
+      "morph_cosine": 0.9765,
+      "context_cosine": 0.976,
+      "section_cosine": 0.6362,
+      "combined_cosine": 0.9763,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "shckh",
+      "root_2": "shcth",
+      "count_1": 85,
+      "count_2": 43,
+      "morph_cosine": 0.9967,
+      "context_cosine": 0.9556,
+      "section_cosine": 0.9696,
+      "combined_cosine": 0.9761,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "sheckh",
+      "root_2": "shecth",
+      "count_1": 48,
+      "count_2": 25,
+      "morph_cosine": 0.9808,
+      "context_cosine": 0.9708,
+      "section_cosine": 0.9808,
+      "combined_cosine": 0.9758,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "ched",
+      "root_2": "cheod",
+      "count_1": 152,
+      "count_2": 47,
+      "morph_cosine": 0.9838,
+      "context_cosine": 0.9672,
+      "section_cosine": 0.826,
+      "combined_cosine": 0.9755,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "sh",
+      "root_2": "lsh",
+      "count_1": 1574,
+      "count_2": 83,
+      "morph_cosine": 0.9773,
+      "context_cosine": 0.9701,
+      "section_cosine": 0.8376,
+      "combined_cosine": 0.9737,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "ke",
+      "root_2": "te",
+      "count_1": 554,
+      "count_2": 242,
+      "morph_cosine": 0.9575,
+      "context_cosine": 0.9883,
+      "section_cosine": 0.9259,
+      "combined_cosine": 0.9729,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "dch",
+      "root_2": "sch",
+      "count_1": 162,
+      "count_2": 28,
+      "morph_cosine": 0.9831,
+      "context_cosine": 0.9622,
+      "section_cosine": 0.9803,
+      "combined_cosine": 0.9727,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "chek",
+      "root_2": "chk",
+      "count_1": 172,
+      "count_2": 109,
+      "morph_cosine": 0.9571,
+      "context_cosine": 0.9846,
+      "section_cosine": 0.9876,
+      "combined_cosine": 0.9709,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "ol",
+      "root_2": "al",
+      "count_1": 893,
+      "count_2": 294,
+      "morph_cosine": 0.9729,
+      "context_cosine": 0.9677,
+      "section_cosine": 0.5977,
+      "combined_cosine": 0.9703,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "chek",
+      "root_2": "shek",
+      "count_1": 172,
+      "count_2": 105,
+      "morph_cosine": 0.9909,
+      "context_cosine": 0.949,
+      "section_cosine": 0.8691,
+      "combined_cosine": 0.97,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "chek",
+      "root_2": "chet",
+      "count_1": 172,
+      "count_2": 72,
+      "morph_cosine": 0.9592,
+      "context_cosine": 0.9805,
+      "section_cosine": 0.9801,
+      "combined_cosine": 0.9699,
+      "is_edit_distance_1": true
+    },
+    {
+      "root_1": "y",
+      "root_2": "o",
+      "count_1": 273,
+      "count_2": 209,
+      "morph_cosine": 0.9849,
+      "context_cosine": 0.9546,
+      "section_cosine": 0.9742,
+      "combined_cosine": 0.9698,
+      "is_edit_distance_1": true
+    }
+  ],
+  "top_40_roots_nearest_neighbors": [
+    {
+      "root": "k",
+      "gloss": "VESSEL/BODY(k)",
+      "count": 4401,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.2578,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "ked",
+          "neighbor_gloss": "ked",
+          "combined_cosine": 0.9588,
+          "morph_cosine": 0.9367,
+          "context_cosine": 0.9809,
+          "section_cosine": 0.8879
+        },
+        {
+          "neighbor_root": "kch",
+          "neighbor_gloss": "STAR_OP(kch)",
+          "combined_cosine": 0.9482,
+          "morph_cosine": 0.9136,
+          "context_cosine": 0.9827,
+          "section_cosine": 0.7614
+        },
+        {
+          "neighbor_root": "t",
+          "neighbor_gloss": "TUBE/DUCT(t)",
+          "combined_cosine": 0.9451,
+          "morph_cosine": 0.8992,
+          "context_cosine": 0.9909,
+          "section_cosine": 0.9821
+        },
+        {
+          "neighbor_root": "ke",
+          "neighbor_gloss": "EXTRACT/COOK(ke)",
+          "combined_cosine": 0.9432,
+          "morph_cosine": 0.8951,
+          "context_cosine": 0.9913,
+          "section_cosine": 0.7896
+        }
+      ]
+    },
+    {
+      "root": "t",
+      "gloss": "TUBE/DUCT(t)",
+      "count": 2553,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.1404,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "ted",
+          "neighbor_gloss": "ted",
+          "combined_cosine": 0.964,
+          "morph_cosine": 0.9497,
+          "context_cosine": 0.9782,
+          "section_cosine": 0.9144
+        },
+        {
+          "neighbor_root": "te",
+          "neighbor_gloss": "DRAW/CONDUIT(te)",
+          "combined_cosine": 0.9627,
+          "morph_cosine": 0.9362,
+          "context_cosine": 0.9891,
+          "section_cosine": 0.9379
+        },
+        {
+          "neighbor_root": "kch",
+          "neighbor_gloss": "STAR_OP(kch)",
+          "combined_cosine": 0.9618,
+          "morph_cosine": 0.9372,
+          "context_cosine": 0.9865,
+          "section_cosine": 0.831
+        },
+        {
+          "neighbor_root": "ked",
+          "neighbor_gloss": "ked",
+          "combined_cosine": 0.9601,
+          "morph_cosine": 0.9406,
+          "context_cosine": 0.9795,
+          "section_cosine": 0.9298
+        }
+      ]
+    },
+    {
+      "root": "ch",
+      "gloss": "ACT:mix/proc",
+      "count": 2519,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.003,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "sh",
+          "neighbor_gloss": "ACT:heat/steep",
+          "combined_cosine": 0.9869,
+          "morph_cosine": 0.9949,
+          "context_cosine": 0.9789,
+          "section_cosine": 0.9557
+        },
+        {
+          "neighbor_root": "che",
+          "neighbor_gloss": "ACT:infuse",
+          "combined_cosine": 0.968,
+          "morph_cosine": 0.9453,
+          "context_cosine": 0.9908,
+          "section_cosine": 0.9341
+        },
+        {
+          "neighbor_root": "she",
+          "neighbor_gloss": "ACT:decoct",
+          "combined_cosine": 0.9667,
+          "morph_cosine": 0.9472,
+          "context_cosine": 0.9863,
+          "section_cosine": 0.9687
+        },
+        {
+          "neighbor_root": "chk",
+          "neighbor_gloss": "chk",
+          "combined_cosine": 0.9655,
+          "morph_cosine": 0.9496,
+          "context_cosine": 0.9813,
+          "section_cosine": 0.9892
+        }
+      ]
+    },
+    {
+      "root": "d",
+      "gloss": "BASE/HUB(d)",
+      "count": 2191,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0201,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "chod",
+          "neighbor_gloss": "chod",
+          "combined_cosine": 0.9783,
+          "morph_cosine": 0.9897,
+          "context_cosine": 0.9668,
+          "section_cosine": 0.9416
+        },
+        {
+          "neighbor_root": "ched",
+          "neighbor_gloss": "ched",
+          "combined_cosine": 0.978,
+          "morph_cosine": 0.985,
+          "context_cosine": 0.971,
+          "section_cosine": 0.4467
+        },
+        {
+          "neighbor_root": "cheod",
+          "neighbor_gloss": "cheod",
+          "combined_cosine": 0.9762,
+          "morph_cosine": 0.9823,
+          "context_cosine": 0.9701,
+          "section_cosine": 0.7873
+        },
+        {
+          "neighbor_root": "chd",
+          "neighbor_gloss": "chd",
+          "combined_cosine": 0.9585,
+          "morph_cosine": 0.9634,
+          "context_cosine": 0.9535,
+          "section_cosine": 0.7619
+        }
+      ]
+    },
+    {
+      "root": "sh",
+      "gloss": "ACT:heat/steep",
+      "count": 1574,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0006,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "ch",
+          "neighbor_gloss": "ACT:mix/proc",
+          "combined_cosine": 0.9869,
+          "morph_cosine": 0.9949,
+          "context_cosine": 0.9789,
+          "section_cosine": 0.9557
+        },
+        {
+          "neighbor_root": "lsh",
+          "neighbor_gloss": "lsh",
+          "combined_cosine": 0.9737,
+          "morph_cosine": 0.9773,
+          "context_cosine": 0.9701,
+          "section_cosine": 0.8376
+        },
+        {
+          "neighbor_root": "lch",
+          "neighbor_gloss": "LIQ_MIX(lch)",
+          "combined_cosine": 0.9679,
+          "morph_cosine": 0.9756,
+          "context_cosine": 0.9603,
+          "section_cosine": 0.8324
+        },
+        {
+          "neighbor_root": "olch",
+          "neighbor_gloss": "olch",
+          "combined_cosine": 0.9627,
+          "morph_cosine": 0.9462,
+          "context_cosine": 0.9791,
+          "section_cosine": 0.8562
+        }
+      ]
+    },
+    {
+      "root": "tch",
+      "gloss": "PROC_OP(tch)",
+      "count": 965,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.1342,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "kch",
+          "neighbor_gloss": "STAR_OP(kch)",
+          "combined_cosine": 0.9568,
+          "morph_cosine": 0.9257,
+          "context_cosine": 0.988,
+          "section_cosine": 0.9913
+        },
+        {
+          "neighbor_root": "ksh",
+          "neighbor_gloss": "ksh",
+          "combined_cosine": 0.9412,
+          "morph_cosine": 0.897,
+          "context_cosine": 0.9854,
+          "section_cosine": 0.9687
+        },
+        {
+          "neighbor_root": "tsh",
+          "neighbor_gloss": "tsh",
+          "combined_cosine": 0.9376,
+          "morph_cosine": 0.9044,
+          "context_cosine": 0.9707,
+          "section_cosine": 0.9487
+        },
+        {
+          "neighbor_root": "t",
+          "neighbor_gloss": "TUBE/DUCT(t)",
+          "combined_cosine": 0.9202,
+          "morph_cosine": 0.8669,
+          "context_cosine": 0.9735,
+          "section_cosine": 0.8929
+        }
+      ]
+    },
+    {
+      "root": "ol",
+      "gloss": "FLUID/TUBE(ol)",
+      "count": 893,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0901,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "or",
+          "neighbor_gloss": "JAR/HERB(or)",
+          "combined_cosine": 0.9857,
+          "morph_cosine": 0.9846,
+          "context_cosine": 0.9868,
+          "section_cosine": 0.8239
+        },
+        {
+          "neighbor_root": "o",
+          "neighbor_gloss": "ENTITY_CORE(o)",
+          "combined_cosine": 0.9763,
+          "morph_cosine": 0.9765,
+          "context_cosine": 0.976,
+          "section_cosine": 0.6362
+        },
+        {
+          "neighbor_root": "ar",
+          "neighbor_gloss": "BOTAN/ROOT(ar)",
+          "combined_cosine": 0.9743,
+          "morph_cosine": 0.9723,
+          "context_cosine": 0.9763,
+          "section_cosine": 0.6312
+        },
+        {
+          "neighbor_root": "al",
+          "neighbor_gloss": "SUBST/STAR(al)",
+          "combined_cosine": 0.9703,
+          "morph_cosine": 0.9729,
+          "context_cosine": 0.9677,
+          "section_cosine": 0.5977
+        }
+      ]
+    },
+    {
+      "root": "s",
+      "gloss": "SEED/PART(s)",
+      "count": 813,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0025,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "cho",
+          "neighbor_gloss": "cho",
+          "combined_cosine": 0.959,
+          "morph_cosine": 0.9587,
+          "context_cosine": 0.9593,
+          "section_cosine": 0.8949
+        },
+        {
+          "neighbor_root": "sho",
+          "neighbor_gloss": "sho",
+          "combined_cosine": 0.9547,
+          "morph_cosine": 0.9442,
+          "context_cosine": 0.9652,
+          "section_cosine": 0.879
+        },
+        {
+          "neighbor_root": "l",
+          "neighbor_gloss": "LIQUID_PREF(l)",
+          "combined_cosine": 0.9544,
+          "morph_cosine": 0.9819,
+          "context_cosine": 0.9268,
+          "section_cosine": 0.7052
+        },
+        {
+          "neighbor_root": "r",
+          "neighbor_gloss": "STREAM/PART(r)",
+          "combined_cosine": 0.9526,
+          "morph_cosine": 0.9955,
+          "context_cosine": 0.9098,
+          "section_cosine": 0.7676
+        }
+      ]
+    },
+    {
+      "root": "ain",
+      "gloss": "ESSENCE/UNIT(ain)",
+      "count": 698,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0201,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "cheo",
+          "neighbor_gloss": "cheo",
+          "combined_cosine": 0.8741,
+          "morph_cosine": 0.8085,
+          "context_cosine": 0.9398,
+          "section_cosine": 0.9707
+        },
+        {
+          "neighbor_root": "sheo",
+          "neighbor_gloss": "sheo",
+          "combined_cosine": 0.8731,
+          "morph_cosine": 0.8054,
+          "context_cosine": 0.9408,
+          "section_cosine": 0.9631
+        },
+        {
+          "neighbor_root": "shet",
+          "neighbor_gloss": "shet",
+          "combined_cosine": 0.8555,
+          "morph_cosine": 0.7977,
+          "context_cosine": 0.9133,
+          "section_cosine": 0.6706
+        },
+        {
+          "neighbor_root": "r",
+          "neighbor_gloss": "STREAM/PART(r)",
+          "combined_cosine": 0.8517,
+          "morph_cosine": 0.7489,
+          "context_cosine": 0.9545,
+          "section_cosine": 0.9436
+        }
+      ]
+    },
+    {
+      "root": "kch",
+      "gloss": "STAR_OP(kch)",
+      "count": 675,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.18,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "ksh",
+          "neighbor_gloss": "ksh",
+          "combined_cosine": 0.9768,
+          "morph_cosine": 0.9803,
+          "context_cosine": 0.9732,
+          "section_cosine": 0.9648
+        },
+        {
+          "neighbor_root": "t",
+          "neighbor_gloss": "TUBE/DUCT(t)",
+          "combined_cosine": 0.9618,
+          "morph_cosine": 0.9372,
+          "context_cosine": 0.9865,
+          "section_cosine": 0.831
+        },
+        {
+          "neighbor_root": "tch",
+          "neighbor_gloss": "PROC_OP(tch)",
+          "combined_cosine": 0.9568,
+          "morph_cosine": 0.9257,
+          "context_cosine": 0.988,
+          "section_cosine": 0.9913
+        },
+        {
+          "neighbor_root": "kech",
+          "neighbor_gloss": "kech",
+          "combined_cosine": 0.9554,
+          "morph_cosine": 0.9618,
+          "context_cosine": 0.9491,
+          "section_cosine": 0.6174
+        }
+      ]
+    },
+    {
+      "root": "che",
+      "gloss": "ACT:infuse",
+      "count": 622,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0032,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "she",
+          "neighbor_gloss": "ACT:decoct",
+          "combined_cosine": 0.9847,
+          "morph_cosine": 0.9948,
+          "context_cosine": 0.9747,
+          "section_cosine": 0.9883
+        },
+        {
+          "neighbor_root": "ch",
+          "neighbor_gloss": "ACT:mix/proc",
+          "combined_cosine": 0.968,
+          "morph_cosine": 0.9453,
+          "context_cosine": 0.9908,
+          "section_cosine": 0.9341
+        },
+        {
+          "neighbor_root": "olke",
+          "neighbor_gloss": "olke",
+          "combined_cosine": 0.9618,
+          "morph_cosine": 0.9568,
+          "context_cosine": 0.9667,
+          "section_cosine": 0.8899
+        },
+        {
+          "neighbor_root": "lke",
+          "neighbor_gloss": "lke",
+          "combined_cosine": 0.9527,
+          "morph_cosine": 0.9576,
+          "context_cosine": 0.9478,
+          "section_cosine": 0.7996
+        }
+      ]
+    },
+    {
+      "root": "ke",
+      "gloss": "EXTRACT/COOK(ke)",
+      "count": 554,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.1814,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "te",
+          "neighbor_gloss": "DRAW/CONDUIT(te)",
+          "combined_cosine": 0.9729,
+          "morph_cosine": 0.9575,
+          "context_cosine": 0.9883,
+          "section_cosine": 0.9259
+        },
+        {
+          "neighbor_root": "t",
+          "neighbor_gloss": "TUBE/DUCT(t)",
+          "combined_cosine": 0.9578,
+          "morph_cosine": 0.93,
+          "context_cosine": 0.9857,
+          "section_cosine": 0.8144
+        },
+        {
+          "neighbor_root": "kch",
+          "neighbor_gloss": "STAR_OP(kch)",
+          "combined_cosine": 0.9511,
+          "morph_cosine": 0.9186,
+          "context_cosine": 0.9835,
+          "section_cosine": 0.7853
+        },
+        {
+          "neighbor_root": "ked",
+          "neighbor_gloss": "ked",
+          "combined_cosine": 0.9478,
+          "morph_cosine": 0.9193,
+          "context_cosine": 0.9763,
+          "section_cosine": 0.7622
+        }
+      ]
+    },
+    {
+      "root": "or",
+      "gloss": "JAR/HERB(or)",
+      "count": 511,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0372,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "ar",
+          "neighbor_gloss": "BOTAN/ROOT(ar)",
+          "combined_cosine": 0.988,
+          "morph_cosine": 0.9966,
+          "context_cosine": 0.9793,
+          "section_cosine": 0.8371
+        },
+        {
+          "neighbor_root": "ol",
+          "neighbor_gloss": "FLUID/TUBE(ol)",
+          "combined_cosine": 0.9857,
+          "morph_cosine": 0.9846,
+          "context_cosine": 0.9868,
+          "section_cosine": 0.8239
+        },
+        {
+          "neighbor_root": "o",
+          "neighbor_gloss": "ENTITY_CORE(o)",
+          "combined_cosine": 0.9821,
+          "morph_cosine": 0.989,
+          "context_cosine": 0.9752,
+          "section_cosine": 0.9465
+        },
+        {
+          "neighbor_root": "al",
+          "neighbor_gloss": "SUBST/STAR(al)",
+          "combined_cosine": 0.9782,
+          "morph_cosine": 0.9957,
+          "context_cosine": 0.9607,
+          "section_cosine": 0.73
+        }
+      ]
+    },
+    {
+      "root": "cth",
+      "gloss": "HERB_LEAF_OP(cth)",
+      "count": 485,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0289,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "chot",
+          "neighbor_gloss": "chot",
+          "combined_cosine": 0.977,
+          "morph_cosine": 0.9703,
+          "context_cosine": 0.9838,
+          "section_cosine": 0.9441
+        },
+        {
+          "neighbor_root": "chok",
+          "neighbor_gloss": "chok",
+          "combined_cosine": 0.9701,
+          "morph_cosine": 0.9652,
+          "context_cosine": 0.975,
+          "section_cosine": 0.8585
+        },
+        {
+          "neighbor_root": "ckh",
+          "neighbor_gloss": "BALNEO_OP(ckh)",
+          "combined_cosine": 0.9683,
+          "morph_cosine": 0.9493,
+          "context_cosine": 0.9872,
+          "section_cosine": 0.9441
+        },
+        {
+          "neighbor_root": "cht",
+          "neighbor_gloss": "cht",
+          "combined_cosine": 0.9682,
+          "morph_cosine": 0.9749,
+          "context_cosine": 0.9616,
+          "section_cosine": 0.8012
+        }
+      ]
+    },
+    {
+      "root": "ar",
+      "gloss": "BOTAN/ROOT(ar)",
+      "count": 431,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0093,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "al",
+          "neighbor_gloss": "SUBST/STAR(al)",
+          "combined_cosine": 0.9907,
+          "morph_cosine": 0.9983,
+          "context_cosine": 0.9831,
+          "section_cosine": 0.9759
+        },
+        {
+          "neighbor_root": "or",
+          "neighbor_gloss": "JAR/HERB(or)",
+          "combined_cosine": 0.988,
+          "morph_cosine": 0.9966,
+          "context_cosine": 0.9793,
+          "section_cosine": 0.8371
+        },
+        {
+          "neighbor_root": "o",
+          "neighbor_gloss": "ENTITY_CORE(o)",
+          "combined_cosine": 0.9782,
+          "morph_cosine": 0.988,
+          "context_cosine": 0.9684,
+          "section_cosine": 0.8141
+        },
+        {
+          "neighbor_root": "ol",
+          "neighbor_gloss": "FLUID/TUBE(ol)",
+          "combined_cosine": 0.9743,
+          "morph_cosine": 0.9723,
+          "context_cosine": 0.9763,
+          "section_cosine": 0.6312
+        }
+      ]
+    },
+    {
+      "root": "she",
+      "gloss": "ACT:decoct",
+      "count": 369,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "che",
+          "neighbor_gloss": "ACT:infuse",
+          "combined_cosine": 0.9847,
+          "morph_cosine": 0.9948,
+          "context_cosine": 0.9747,
+          "section_cosine": 0.9883
+        },
+        {
+          "neighbor_root": "ch",
+          "neighbor_gloss": "ACT:mix/proc",
+          "combined_cosine": 0.9667,
+          "morph_cosine": 0.9472,
+          "context_cosine": 0.9863,
+          "section_cosine": 0.9687
+        },
+        {
+          "neighbor_root": "olke",
+          "neighbor_gloss": "olke",
+          "combined_cosine": 0.9614,
+          "morph_cosine": 0.9582,
+          "context_cosine": 0.9646,
+          "section_cosine": 0.8523
+        },
+        {
+          "neighbor_root": "sh",
+          "neighbor_gloss": "ACT:heat/steep",
+          "combined_cosine": 0.9545,
+          "morph_cosine": 0.9188,
+          "context_cosine": 0.9902,
+          "section_cosine": 0.946
+        }
+      ]
+    },
+    {
+      "root": "l",
+      "gloss": "LIQUID_PREF(l)",
+      "count": 343,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "r",
+          "neighbor_gloss": "STREAM/PART(r)",
+          "combined_cosine": 0.9823,
+          "morph_cosine": 0.9806,
+          "context_cosine": 0.984,
+          "section_cosine": 0.9946
+        },
+        {
+          "neighbor_root": "al",
+          "neighbor_gloss": "SUBST/STAR(al)",
+          "combined_cosine": 0.9688,
+          "morph_cosine": 0.9715,
+          "context_cosine": 0.9662,
+          "section_cosine": 0.9431
+        },
+        {
+          "neighbor_root": "or",
+          "neighbor_gloss": "JAR/HERB(or)",
+          "combined_cosine": 0.9669,
+          "morph_cosine": 0.9636,
+          "context_cosine": 0.9702,
+          "section_cosine": 0.8176
+        },
+        {
+          "neighbor_root": "ol",
+          "neighbor_gloss": "FLUID/TUBE(ol)",
+          "combined_cosine": 0.9645,
+          "morph_cosine": 0.9511,
+          "context_cosine": 0.9778,
+          "section_cosine": 0.8223
+        }
+      ]
+    },
+    {
+      "root": "r",
+      "gloss": "STREAM/PART(r)",
+      "count": 318,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "l",
+          "neighbor_gloss": "LIQUID_PREF(l)",
+          "combined_cosine": 0.9823,
+          "morph_cosine": 0.9806,
+          "context_cosine": 0.984,
+          "section_cosine": 0.9946
+        },
+        {
+          "neighbor_root": "or",
+          "neighbor_gloss": "JAR/HERB(or)",
+          "combined_cosine": 0.9641,
+          "morph_cosine": 0.9546,
+          "context_cosine": 0.9736,
+          "section_cosine": 0.866
+        },
+        {
+          "neighbor_root": "ar",
+          "neighbor_gloss": "BOTAN/ROOT(ar)",
+          "combined_cosine": 0.9611,
+          "morph_cosine": 0.9485,
+          "context_cosine": 0.9738,
+          "section_cosine": 0.9273
+        },
+        {
+          "neighbor_root": "al",
+          "neighbor_gloss": "SUBST/STAR(al)",
+          "combined_cosine": 0.9583,
+          "morph_cosine": 0.9523,
+          "context_cosine": 0.9644,
+          "section_cosine": 0.9254
+        }
+      ]
+    },
+    {
+      "root": "dy",
+      "gloss": "DONE(dy)",
+      "count": 313,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0272,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "al",
+          "neighbor_gloss": "SUBST/STAR(al)",
+          "combined_cosine": 0.9525,
+          "morph_cosine": 0.9916,
+          "context_cosine": 0.9135,
+          "section_cosine": 0.3798
+        },
+        {
+          "neighbor_root": "ar",
+          "neighbor_gloss": "BOTAN/ROOT(ar)",
+          "combined_cosine": 0.9469,
+          "morph_cosine": 0.9942,
+          "context_cosine": 0.8996,
+          "section_cosine": 0.5527
+        },
+        {
+          "neighbor_root": "lo",
+          "neighbor_gloss": "lo",
+          "combined_cosine": 0.9438,
+          "morph_cosine": 0.9468,
+          "context_cosine": 0.9407,
+          "section_cosine": 0.4424
+        },
+        {
+          "neighbor_root": "aly",
+          "neighbor_gloss": "aly",
+          "combined_cosine": 0.9409,
+          "morph_cosine": 0.9903,
+          "context_cosine": 0.8915,
+          "section_cosine": 0.6302
+        }
+      ]
+    },
+    {
+      "root": "olk",
+      "gloss": "olk",
+      "count": 298,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0503,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "lk",
+          "neighbor_gloss": "LIQ_VESSEL(lk)",
+          "combined_cosine": 0.9817,
+          "morph_cosine": 0.9873,
+          "context_cosine": 0.976,
+          "section_cosine": 0.6212
+        },
+        {
+          "neighbor_root": "chk",
+          "neighbor_gloss": "chk",
+          "combined_cosine": 0.9755,
+          "morph_cosine": 0.9718,
+          "context_cosine": 0.9792,
+          "section_cosine": 0.5823
+        },
+        {
+          "neighbor_root": "ch",
+          "neighbor_gloss": "ACT:mix/proc",
+          "combined_cosine": 0.9643,
+          "morph_cosine": 0.9403,
+          "context_cosine": 0.9883,
+          "section_cosine": 0.6781
+        },
+        {
+          "neighbor_root": "chok",
+          "neighbor_gloss": "chok",
+          "combined_cosine": 0.9614,
+          "morph_cosine": 0.95,
+          "context_cosine": 0.9729,
+          "section_cosine": 0.44
+        }
+      ]
+    },
+    {
+      "root": "al",
+      "gloss": "SUBST/STAR(al)",
+      "count": 294,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0085,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "ar",
+          "neighbor_gloss": "BOTAN/ROOT(ar)",
+          "combined_cosine": 0.9907,
+          "morph_cosine": 0.9983,
+          "context_cosine": 0.9831,
+          "section_cosine": 0.9759
+        },
+        {
+          "neighbor_root": "or",
+          "neighbor_gloss": "JAR/HERB(or)",
+          "combined_cosine": 0.9782,
+          "morph_cosine": 0.9957,
+          "context_cosine": 0.9607,
+          "section_cosine": 0.73
+        },
+        {
+          "neighbor_root": "o",
+          "neighbor_gloss": "ENTITY_CORE(o)",
+          "combined_cosine": 0.9705,
+          "morph_cosine": 0.9887,
+          "context_cosine": 0.9522,
+          "section_cosine": 0.6896
+        },
+        {
+          "neighbor_root": "ol",
+          "neighbor_gloss": "FLUID/TUBE(ol)",
+          "combined_cosine": 0.9703,
+          "morph_cosine": 0.9729,
+          "context_cosine": 0.9677,
+          "section_cosine": 0.5977
+        }
+      ]
+    },
+    {
+      "root": "lk",
+      "gloss": "LIQ_VESSEL(lk)",
+      "count": 282,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "olk",
+          "neighbor_gloss": "olk",
+          "combined_cosine": 0.9817,
+          "morph_cosine": 0.9873,
+          "context_cosine": 0.976,
+          "section_cosine": 0.6212
+        },
+        {
+          "neighbor_root": "chk",
+          "neighbor_gloss": "chk",
+          "combined_cosine": 0.9787,
+          "morph_cosine": 0.9825,
+          "context_cosine": 0.9748,
+          "section_cosine": 0.5866
+        },
+        {
+          "neighbor_root": "chok",
+          "neighbor_gloss": "chok",
+          "combined_cosine": 0.967,
+          "morph_cosine": 0.9582,
+          "context_cosine": 0.9759,
+          "section_cosine": 0.6234
+        },
+        {
+          "neighbor_root": "ched",
+          "neighbor_gloss": "ched",
+          "combined_cosine": 0.9638,
+          "morph_cosine": 0.9478,
+          "context_cosine": 0.9799,
+          "section_cosine": 0.9949
+        }
+      ]
+    },
+    {
+      "root": "y",
+      "gloss": "STATE(y)",
+      "count": 273,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "or",
+          "neighbor_gloss": "JAR/HERB(or)",
+          "combined_cosine": 0.9767,
+          "morph_cosine": 0.9911,
+          "context_cosine": 0.9624,
+          "section_cosine": 0.9725
+        },
+        {
+          "neighbor_root": "sho",
+          "neighbor_gloss": "sho",
+          "combined_cosine": 0.9756,
+          "morph_cosine": 0.9894,
+          "context_cosine": 0.9618,
+          "section_cosine": 0.88
+        },
+        {
+          "neighbor_root": "o",
+          "neighbor_gloss": "ENTITY_CORE(o)",
+          "combined_cosine": 0.9698,
+          "morph_cosine": 0.9849,
+          "context_cosine": 0.9546,
+          "section_cosine": 0.9742
+        },
+        {
+          "neighbor_root": "qo",
+          "neighbor_gloss": "qo",
+          "combined_cosine": 0.9678,
+          "morph_cosine": 0.9995,
+          "context_cosine": 0.936,
+          "section_cosine": 0.9843
+        }
+      ]
+    },
+    {
+      "root": "ckh",
+      "gloss": "BALNEO_OP(ckh)",
+      "count": 245,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.1184,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "cth",
+          "neighbor_gloss": "HERB_LEAF_OP(cth)",
+          "combined_cosine": 0.9683,
+          "morph_cosine": 0.9493,
+          "context_cosine": 0.9872,
+          "section_cosine": 0.9441
+        },
+        {
+          "neighbor_root": "kch",
+          "neighbor_gloss": "STAR_OP(kch)",
+          "combined_cosine": 0.9467,
+          "morph_cosine": 0.9168,
+          "context_cosine": 0.9766,
+          "section_cosine": 0.92
+        },
+        {
+          "neighbor_root": "t",
+          "neighbor_gloss": "TUBE/DUCT(t)",
+          "combined_cosine": 0.9461,
+          "morph_cosine": 0.9202,
+          "context_cosine": 0.972,
+          "section_cosine": 0.6755
+        },
+        {
+          "neighbor_root": "chot",
+          "neighbor_gloss": "chot",
+          "combined_cosine": 0.9418,
+          "morph_cosine": 0.9005,
+          "context_cosine": 0.9831,
+          "section_cosine": 0.9357
+        }
+      ]
+    },
+    {
+      "root": "te",
+      "gloss": "DRAW/CONDUIT(te)",
+      "count": 242,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.1157,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "ke",
+          "neighbor_gloss": "EXTRACT/COOK(ke)",
+          "combined_cosine": 0.9729,
+          "morph_cosine": 0.9575,
+          "context_cosine": 0.9883,
+          "section_cosine": 0.9259
+        },
+        {
+          "neighbor_root": "t",
+          "neighbor_gloss": "TUBE/DUCT(t)",
+          "combined_cosine": 0.9627,
+          "morph_cosine": 0.9362,
+          "context_cosine": 0.9891,
+          "section_cosine": 0.9379
+        },
+        {
+          "neighbor_root": "kche",
+          "neighbor_gloss": "kche",
+          "combined_cosine": 0.9388,
+          "morph_cosine": 0.9101,
+          "context_cosine": 0.9676,
+          "section_cosine": 0.9737
+        },
+        {
+          "neighbor_root": "teo",
+          "neighbor_gloss": "ZOD_CONTAIN(teo)",
+          "combined_cosine": 0.9378,
+          "morph_cosine": 0.903,
+          "context_cosine": 0.9725,
+          "section_cosine": 0.98
+        }
+      ]
+    },
+    {
+      "root": "lch",
+      "gloss": "LIQ_MIX(lch)",
+      "count": 240,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "lsh",
+          "neighbor_gloss": "lsh",
+          "combined_cosine": 0.9841,
+          "morph_cosine": 0.998,
+          "context_cosine": 0.9701,
+          "section_cosine": 0.9827
+        },
+        {
+          "neighbor_root": "sh",
+          "neighbor_gloss": "ACT:heat/steep",
+          "combined_cosine": 0.9679,
+          "morph_cosine": 0.9756,
+          "context_cosine": 0.9603,
+          "section_cosine": 0.8324
+        },
+        {
+          "neighbor_root": "rch",
+          "neighbor_gloss": "rch",
+          "combined_cosine": 0.9659,
+          "morph_cosine": 0.9789,
+          "context_cosine": 0.9529,
+          "section_cosine": 0.8797
+        },
+        {
+          "neighbor_root": "olch",
+          "neighbor_gloss": "olch",
+          "combined_cosine": 0.9621,
+          "morph_cosine": 0.9487,
+          "context_cosine": 0.9755,
+          "section_cosine": 0.927
+        }
+      ]
+    },
+    {
+      "root": "chckh",
+      "gloss": "chckh",
+      "count": 223,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "checkh",
+          "neighbor_gloss": "checkh",
+          "combined_cosine": 0.99,
+          "morph_cosine": 0.9958,
+          "context_cosine": 0.9842,
+          "section_cosine": 0.9266
+        },
+        {
+          "neighbor_root": "shckh",
+          "neighbor_gloss": "shckh",
+          "combined_cosine": 0.9886,
+          "morph_cosine": 0.9977,
+          "context_cosine": 0.9796,
+          "section_cosine": 0.8975
+        },
+        {
+          "neighbor_root": "chcth",
+          "neighbor_gloss": "chcth",
+          "combined_cosine": 0.9851,
+          "morph_cosine": 0.9862,
+          "context_cosine": 0.9839,
+          "section_cosine": 0.9956
+        },
+        {
+          "neighbor_root": "checth",
+          "neighbor_gloss": "checth",
+          "combined_cosine": 0.979,
+          "morph_cosine": 0.9906,
+          "context_cosine": 0.9673,
+          "section_cosine": 0.8718
+        }
+      ]
+    },
+    {
+      "root": "o",
+      "gloss": "ENTITY_CORE(o)",
+      "count": 209,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0526,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "or",
+          "neighbor_gloss": "JAR/HERB(or)",
+          "combined_cosine": 0.9821,
+          "morph_cosine": 0.989,
+          "context_cosine": 0.9752,
+          "section_cosine": 0.9465
+        },
+        {
+          "neighbor_root": "ar",
+          "neighbor_gloss": "BOTAN/ROOT(ar)",
+          "combined_cosine": 0.9782,
+          "morph_cosine": 0.988,
+          "context_cosine": 0.9684,
+          "section_cosine": 0.8141
+        },
+        {
+          "neighbor_root": "ol",
+          "neighbor_gloss": "FLUID/TUBE(ol)",
+          "combined_cosine": 0.9763,
+          "morph_cosine": 0.9765,
+          "context_cosine": 0.976,
+          "section_cosine": 0.6362
+        },
+        {
+          "neighbor_root": "cho",
+          "neighbor_gloss": "cho",
+          "combined_cosine": 0.9721,
+          "morph_cosine": 0.9601,
+          "context_cosine": 0.9841,
+          "section_cosine": 0.9558
+        }
+      ]
+    },
+    {
+      "root": "cho",
+      "gloss": "cho",
+      "count": 178,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0056,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "cheo",
+          "neighbor_gloss": "cheo",
+          "combined_cosine": 0.9863,
+          "morph_cosine": 0.984,
+          "context_cosine": 0.9886,
+          "section_cosine": 0.6498
+        },
+        {
+          "neighbor_root": "sheo",
+          "neighbor_gloss": "sheo",
+          "combined_cosine": 0.979,
+          "morph_cosine": 0.9854,
+          "context_cosine": 0.9727,
+          "section_cosine": 0.8026
+        },
+        {
+          "neighbor_root": "o",
+          "neighbor_gloss": "ENTITY_CORE(o)",
+          "combined_cosine": 0.9721,
+          "morph_cosine": 0.9601,
+          "context_cosine": 0.9841,
+          "section_cosine": 0.9558
+        },
+        {
+          "neighbor_root": "sho",
+          "neighbor_gloss": "sho",
+          "combined_cosine": 0.968,
+          "morph_cosine": 0.967,
+          "context_cosine": 0.969,
+          "section_cosine": 0.9941
+        }
+      ]
+    },
+    {
+      "root": "cheo",
+      "gloss": "cheo",
+      "count": 177,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0028,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "cho",
+          "neighbor_gloss": "cho",
+          "combined_cosine": 0.9863,
+          "morph_cosine": 0.984,
+          "context_cosine": 0.9886,
+          "section_cosine": 0.6498
+        },
+        {
+          "neighbor_root": "sheo",
+          "neighbor_gloss": "sheo",
+          "combined_cosine": 0.9794,
+          "morph_cosine": 0.9864,
+          "context_cosine": 0.9724,
+          "section_cosine": 0.971
+        },
+        {
+          "neighbor_root": "o",
+          "neighbor_gloss": "ENTITY_CORE(o)",
+          "combined_cosine": 0.9627,
+          "morph_cosine": 0.9446,
+          "context_cosine": 0.9808,
+          "section_cosine": 0.8099
+        },
+        {
+          "neighbor_root": "sho",
+          "neighbor_gloss": "sho",
+          "combined_cosine": 0.9615,
+          "morph_cosine": 0.9522,
+          "context_cosine": 0.9707,
+          "section_cosine": 0.582
+        }
+      ]
+    },
+    {
+      "root": "chek",
+      "gloss": "chek",
+      "count": 172,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "chok",
+          "neighbor_gloss": "chok",
+          "combined_cosine": 0.9827,
+          "morph_cosine": 0.9848,
+          "context_cosine": 0.9807,
+          "section_cosine": 0.9416
+        },
+        {
+          "neighbor_root": "chot",
+          "neighbor_gloss": "chot",
+          "combined_cosine": 0.9808,
+          "morph_cosine": 0.9845,
+          "context_cosine": 0.9772,
+          "section_cosine": 0.9534
+        },
+        {
+          "neighbor_root": "chk",
+          "neighbor_gloss": "chk",
+          "combined_cosine": 0.9709,
+          "morph_cosine": 0.9571,
+          "context_cosine": 0.9846,
+          "section_cosine": 0.9876
+        },
+        {
+          "neighbor_root": "shek",
+          "neighbor_gloss": "shek",
+          "combined_cosine": 0.97,
+          "morph_cosine": 0.9909,
+          "context_cosine": 0.949,
+          "section_cosine": 0.8691
+        }
+      ]
+    },
+    {
+      "root": "sho",
+      "gloss": "sho",
+      "count": 164,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "y",
+          "neighbor_gloss": "STATE(y)",
+          "combined_cosine": 0.9756,
+          "morph_cosine": 0.9894,
+          "context_cosine": 0.9618,
+          "section_cosine": 0.88
+        },
+        {
+          "neighbor_root": "o",
+          "neighbor_gloss": "ENTITY_CORE(o)",
+          "combined_cosine": 0.97,
+          "morph_cosine": 0.991,
+          "context_cosine": 0.9489,
+          "section_cosine": 0.9307
+        },
+        {
+          "neighbor_root": "qo",
+          "neighbor_gloss": "qo",
+          "combined_cosine": 0.9691,
+          "morph_cosine": 0.9866,
+          "context_cosine": 0.9516,
+          "section_cosine": 0.8532
+        },
+        {
+          "neighbor_root": "cho",
+          "neighbor_gloss": "cho",
+          "combined_cosine": 0.968,
+          "morph_cosine": 0.967,
+          "context_cosine": 0.969,
+          "section_cosine": 0.9941
+        }
+      ]
+    },
+    {
+      "root": "dch",
+      "gloss": "dch",
+      "count": 162,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0062,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "sch",
+          "neighbor_gloss": "sch",
+          "combined_cosine": 0.9727,
+          "morph_cosine": 0.9831,
+          "context_cosine": 0.9622,
+          "section_cosine": 0.9803
+        },
+        {
+          "neighbor_root": "dsh",
+          "neighbor_gloss": "dsh",
+          "combined_cosine": 0.9509,
+          "morph_cosine": 0.9765,
+          "context_cosine": 0.9252,
+          "section_cosine": 0.9176
+        },
+        {
+          "neighbor_root": "dche",
+          "neighbor_gloss": "dche",
+          "combined_cosine": 0.9299,
+          "morph_cosine": 0.925,
+          "context_cosine": 0.9348,
+          "section_cosine": 0.8479
+        },
+        {
+          "neighbor_root": "tsh",
+          "neighbor_gloss": "tsh",
+          "combined_cosine": 0.9164,
+          "morph_cosine": 0.9045,
+          "context_cosine": 0.9283,
+          "section_cosine": 0.9096
+        }
+      ]
+    },
+    {
+      "root": "dai",
+      "gloss": "dai",
+      "count": 157,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0127,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "ai",
+          "neighbor_gloss": "ai",
+          "combined_cosine": 0.9622,
+          "morph_cosine": 0.992,
+          "context_cosine": 0.9324,
+          "section_cosine": 0.7536
+        },
+        {
+          "neighbor_root": "sai",
+          "neighbor_gloss": "sai",
+          "combined_cosine": 0.9577,
+          "morph_cosine": 0.994,
+          "context_cosine": 0.9213,
+          "section_cosine": 0.8563
+        },
+        {
+          "neighbor_root": "tai",
+          "neighbor_gloss": "tai",
+          "combined_cosine": 0.8768,
+          "morph_cosine": 0.7968,
+          "context_cosine": 0.9568,
+          "section_cosine": 0.6535
+        },
+        {
+          "neighbor_root": "s",
+          "neighbor_gloss": "SEED/PART(s)",
+          "combined_cosine": 0.8646,
+          "morph_cosine": 0.7513,
+          "context_cosine": 0.978,
+          "section_cosine": 0.9275
+        }
+      ]
+    },
+    {
+      "root": "ched",
+      "gloss": "ched",
+      "count": 152,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0033,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "d",
+          "neighbor_gloss": "BASE/HUB(d)",
+          "combined_cosine": 0.978,
+          "morph_cosine": 0.985,
+          "context_cosine": 0.971,
+          "section_cosine": 0.4467
+        },
+        {
+          "neighbor_root": "chd",
+          "neighbor_gloss": "chd",
+          "combined_cosine": 0.9769,
+          "morph_cosine": 0.9826,
+          "context_cosine": 0.9712,
+          "section_cosine": 0.8962
+        },
+        {
+          "neighbor_root": "cheod",
+          "neighbor_gloss": "cheod",
+          "combined_cosine": 0.9755,
+          "morph_cosine": 0.9838,
+          "context_cosine": 0.9672,
+          "section_cosine": 0.826
+        },
+        {
+          "neighbor_root": "chk",
+          "neighbor_gloss": "chk",
+          "combined_cosine": 0.9707,
+          "morph_cosine": 0.9614,
+          "context_cosine": 0.98,
+          "section_cosine": 0.6287
+        }
+      ]
+    },
+    {
+      "root": "chcth",
+      "gloss": "chcth",
+      "count": 137,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "chckh",
+          "neighbor_gloss": "chckh",
+          "combined_cosine": 0.9851,
+          "morph_cosine": 0.9862,
+          "context_cosine": 0.9839,
+          "section_cosine": 0.9956
+        },
+        {
+          "neighbor_root": "checth",
+          "neighbor_gloss": "checth",
+          "combined_cosine": 0.9772,
+          "morph_cosine": 0.9902,
+          "context_cosine": 0.9642,
+          "section_cosine": 0.8463
+        },
+        {
+          "neighbor_root": "checkh",
+          "neighbor_gloss": "checkh",
+          "combined_cosine": 0.9754,
+          "morph_cosine": 0.9816,
+          "context_cosine": 0.9693,
+          "section_cosine": 0.9179
+        },
+        {
+          "neighbor_root": "shckh",
+          "neighbor_gloss": "shckh",
+          "combined_cosine": 0.9745,
+          "morph_cosine": 0.9844,
+          "context_cosine": 0.9647,
+          "section_cosine": 0.8842
+        }
+      ]
+    },
+    {
+      "root": "keo",
+      "gloss": "PHARMA_BOIL(keo)",
+      "count": 134,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.1828,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "teo",
+          "neighbor_gloss": "ZOD_CONTAIN(teo)",
+          "combined_cosine": 0.9575,
+          "morph_cosine": 0.9394,
+          "context_cosine": 0.9756,
+          "section_cosine": 0.9653
+        },
+        {
+          "neighbor_root": "ko",
+          "neighbor_gloss": "STAR_NODE(ko)",
+          "combined_cosine": 0.9352,
+          "morph_cosine": 0.9104,
+          "context_cosine": 0.9601,
+          "section_cosine": 0.7245
+        },
+        {
+          "neighbor_root": "ke",
+          "neighbor_gloss": "EXTRACT/COOK(ke)",
+          "combined_cosine": 0.9349,
+          "morph_cosine": 0.8903,
+          "context_cosine": 0.9795,
+          "section_cosine": 0.9656
+        },
+        {
+          "neighbor_root": "kcho",
+          "neighbor_gloss": "kcho",
+          "combined_cosine": 0.928,
+          "morph_cosine": 0.8844,
+          "context_cosine": 0.9715,
+          "section_cosine": 0.6384
+        }
+      ]
+    },
+    {
+      "root": "olch",
+      "gloss": "olch",
+      "count": 132,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.1098,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "olsh",
+          "neighbor_gloss": "olsh",
+          "combined_cosine": 0.9771,
+          "morph_cosine": 0.9896,
+          "context_cosine": 0.9646,
+          "section_cosine": 0.974
+        },
+        {
+          "neighbor_root": "sh",
+          "neighbor_gloss": "ACT:heat/steep",
+          "combined_cosine": 0.9627,
+          "morph_cosine": 0.9462,
+          "context_cosine": 0.9791,
+          "section_cosine": 0.8562
+        },
+        {
+          "neighbor_root": "lch",
+          "neighbor_gloss": "LIQ_MIX(lch)",
+          "combined_cosine": 0.9621,
+          "morph_cosine": 0.9487,
+          "context_cosine": 0.9755,
+          "section_cosine": 0.927
+        },
+        {
+          "neighbor_root": "lsh",
+          "neighbor_gloss": "lsh",
+          "combined_cosine": 0.9576,
+          "morph_cosine": 0.9476,
+          "context_cosine": 0.9677,
+          "section_cosine": 0.9778
+        }
+      ]
+    },
+    {
+      "root": "ai",
+      "gloss": "ai",
+      "count": 126,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0198,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "dai",
+          "neighbor_gloss": "dai",
+          "combined_cosine": 0.9622,
+          "morph_cosine": 0.992,
+          "context_cosine": 0.9324,
+          "section_cosine": 0.7536
+        },
+        {
+          "neighbor_root": "che",
+          "neighbor_gloss": "ACT:infuse",
+          "combined_cosine": 0.886,
+          "morph_cosine": 0.7961,
+          "context_cosine": 0.9758,
+          "section_cosine": 0.8883
+        },
+        {
+          "neighbor_root": "ch",
+          "neighbor_gloss": "ACT:mix/proc",
+          "combined_cosine": 0.8844,
+          "morph_cosine": 0.8084,
+          "context_cosine": 0.9604,
+          "section_cosine": 0.7926
+        },
+        {
+          "neighbor_root": "sai",
+          "neighbor_gloss": "sai",
+          "combined_cosine": 0.8837,
+          "morph_cosine": 0.9828,
+          "context_cosine": 0.7846,
+          "section_cosine": 0.8708
+        }
+      ]
+    },
+    {
+      "root": "chok",
+      "gloss": "chok",
+      "count": 121,
+      "verbal_edy_dy_rate": 0.0,
+      "qo_initial_rate": 0.0,
+      "o_initial_rate": 0.0,
+      "top_4_distributional_synonyms": [
+        {
+          "neighbor_root": "chot",
+          "neighbor_gloss": "chot",
+          "combined_cosine": 0.9838,
+          "morph_cosine": 0.9893,
+          "context_cosine": 0.9782,
+          "section_cosine": 0.9766
+        },
+        {
+          "neighbor_root": "chek",
+          "neighbor_gloss": "chek",
+          "combined_cosine": 0.9827,
+          "morph_cosine": 0.9848,
+          "context_cosine": 0.9807,
+          "section_cosine": 0.9416
+        },
+        {
+          "neighbor_root": "chk",
+          "neighbor_gloss": "chk",
+          "combined_cosine": 0.9823,
+          "morph_cosine": 0.983,
+          "context_cosine": 0.9816,
+          "section_cosine": 0.9685
+        },
+        {
+          "neighbor_root": "cht",
+          "neighbor_gloss": "cht",
+          "combined_cosine": 0.9748,
+          "morph_cosine": 0.974,
+          "context_cosine": 0.9756,
+          "section_cosine": 0.9669
+        }
+      ]
+    }
+  ],
+  "distributional_word_classes": {
+    "Class_III_Gallows_Vessel_Conduit_Stems": [
+      {
+        "root": "k",
+        "gloss": "VESSEL/BODY(k)",
+        "count": 4401,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.258,
+        "o_rate": 0.0
+      },
+      {
+        "root": "t",
+        "gloss": "TUBE/DUCT(t)",
+        "count": 2553,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.14,
+        "o_rate": 0.0
+      },
+      {
+        "root": "ke",
+        "gloss": "EXTRACT/COOK(ke)",
+        "count": 554,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.181,
+        "o_rate": 0.0
+      },
+      {
+        "root": "lk",
+        "gloss": "LIQ_VESSEL(lk)",
+        "count": 282,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "te",
+        "gloss": "DRAW/CONDUIT(te)",
+        "count": 242,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.116,
+        "o_rate": 0.0
+      },
+      {
+        "root": "keo",
+        "gloss": "PHARMA_BOIL(keo)",
+        "count": 134,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.183,
+        "o_rate": 0.0
+      },
+      {
+        "root": "teo",
+        "gloss": "ZOD_CONTAIN(teo)",
+        "count": 62,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.121,
+        "o_rate": 0.0
+      },
+      {
+        "root": "edy",
+        "gloss": "edy",
+        "count": 50,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.27,
+        "o_rate": 0.0
+      },
+      {
+        "root": "ey",
+        "gloss": "ey",
+        "count": 49,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.224,
+        "o_rate": 0.0
+      },
+      {
+        "root": "ot",
+        "gloss": "DUCT_NOM(ot)",
+        "count": 32,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.281,
+        "o_rate": 0.0
+      },
+      {
+        "root": "lt",
+        "gloss": "lt",
+        "count": 28,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "ok",
+        "gloss": "VESSEL_NOM(ok)",
+        "count": 24,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.333,
+        "o_rate": 0.0
+      },
+      {
+        "root": "ka",
+        "gloss": "ka",
+        "count": 20,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.225,
+        "o_rate": 0.0
+      }
+    ],
+    "Class_I_Primary_C_Verbal_Operators": [
+      {
+        "root": "ch",
+        "gloss": "ACT:mix/proc",
+        "count": 2519,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.003,
+        "o_rate": 0.0
+      },
+      {
+        "root": "sh",
+        "gloss": "ACT:heat/steep",
+        "count": 1574,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.001,
+        "o_rate": 0.0
+      },
+      {
+        "root": "che",
+        "gloss": "ACT:infuse",
+        "count": 622,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.003,
+        "o_rate": 0.0
+      },
+      {
+        "root": "cth",
+        "gloss": "HERB_LEAF_OP(cth)",
+        "count": 485,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.029,
+        "o_rate": 0.0
+      },
+      {
+        "root": "she",
+        "gloss": "ACT:decoct",
+        "count": 369,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "ckh",
+        "gloss": "BALNEO_OP(ckh)",
+        "count": 245,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.118,
+        "o_rate": 0.0
+      },
+      {
+        "root": "cheo",
+        "gloss": "cheo",
+        "count": 177,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.003,
+        "o_rate": 0.0
+      },
+      {
+        "root": "sheo",
+        "gloss": "sheo",
+        "count": 93,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.005,
+        "o_rate": 0.0
+      }
+    ],
+    "Class_V_Deictic_Clause_Boundary_Particles": [
+      {
+        "root": "d",
+        "gloss": "BASE/HUB(d)",
+        "count": 2191,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.02,
+        "o_rate": 0.0
+      },
+      {
+        "root": "s",
+        "gloss": "SEED/PART(s)",
+        "count": 813,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.002,
+        "o_rate": 0.0
+      },
+      {
+        "root": "ain",
+        "gloss": "ESSENCE/UNIT(ain)",
+        "count": 698,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.02,
+        "o_rate": 0.0
+      },
+      {
+        "root": "l",
+        "gloss": "LIQUID_PREF(l)",
+        "count": 343,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "r",
+        "gloss": "STREAM/PART(r)",
+        "count": 318,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "dy",
+        "gloss": "DONE(dy)",
+        "count": 313,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.027,
+        "o_rate": 0.0
+      },
+      {
+        "root": "y",
+        "gloss": "STATE(y)",
+        "count": 273,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "o",
+        "gloss": "ENTITY_CORE(o)",
+        "count": 209,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.053,
+        "o_rate": 0.0
+      },
+      {
+        "root": "am",
+        "gloss": "TOTAL/CLOSER(am)",
+        "count": 78,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "a",
+        "gloss": "HUB_AXIS(a)",
+        "count": 23,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.022,
+        "o_rate": 0.0
+      }
+    ],
+    "Class_II_Compound_Gallows_Verbal_Operators": [
+      {
+        "root": "tch",
+        "gloss": "PROC_OP(tch)",
+        "count": 965,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.134,
+        "o_rate": 0.0
+      },
+      {
+        "root": "kch",
+        "gloss": "STAR_OP(kch)",
+        "count": 675,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.18,
+        "o_rate": 0.0
+      },
+      {
+        "root": "lch",
+        "gloss": "LIQ_MIX(lch)",
+        "count": 240,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "dch",
+        "gloss": "dch",
+        "count": 162,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.006,
+        "o_rate": 0.0
+      },
+      {
+        "root": "olch",
+        "gloss": "olch",
+        "count": 132,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.11,
+        "o_rate": 0.0
+      },
+      {
+        "root": "tche",
+        "gloss": "tche",
+        "count": 99,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.091,
+        "o_rate": 0.0
+      },
+      {
+        "root": "lsh",
+        "gloss": "lsh",
+        "count": 83,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "olsh",
+        "gloss": "olsh",
+        "count": 61,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.082,
+        "o_rate": 0.0
+      },
+      {
+        "root": "kcho",
+        "gloss": "kcho",
+        "count": 54,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.157,
+        "o_rate": 0.0
+      },
+      {
+        "root": "tcho",
+        "gloss": "tcho",
+        "count": 50,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.14,
+        "o_rate": 0.0
+      },
+      {
+        "root": "kche",
+        "gloss": "kche",
+        "count": 48,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.094,
+        "o_rate": 0.0
+      },
+      {
+        "root": "tched",
+        "gloss": "tched",
+        "count": 45,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.056,
+        "o_rate": 0.0
+      },
+      {
+        "root": "lkch",
+        "gloss": "lkch",
+        "count": 41,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "chotch",
+        "gloss": "chotch",
+        "count": 34,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "chokch",
+        "gloss": "chokch",
+        "count": 32,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "tchd",
+        "gloss": "tchd",
+        "count": 29,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.052,
+        "o_rate": 0.0
+      },
+      {
+        "root": "sch",
+        "gloss": "sch",
+        "count": 28,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "tcheo",
+        "gloss": "tcheo",
+        "count": 26,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.135,
+        "o_rate": 0.0
+      },
+      {
+        "root": "lche",
+        "gloss": "lche",
+        "count": 26,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "tchod",
+        "gloss": "tchod",
+        "count": 25,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "tolch",
+        "gloss": "tolch",
+        "count": 24,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.062,
+        "o_rate": 0.0
+      },
+      {
+        "root": "olche",
+        "gloss": "olche",
+        "count": 22,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.045,
+        "o_rate": 0.0
+      },
+      {
+        "root": "olkch",
+        "gloss": "olkch",
+        "count": 22,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.023,
+        "o_rate": 0.0
+      },
+      {
+        "root": "dche",
+        "gloss": "dche",
+        "count": 21,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.024,
+        "o_rate": 0.0
+      },
+      {
+        "root": "dalch",
+        "gloss": "dalch",
+        "count": 19,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "alch",
+        "gloss": "alch",
+        "count": 19,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "chetch",
+        "gloss": "chetch",
+        "count": 18,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      }
+    ],
+    "Class_IV_Liquid_Botanical_Substance_Nouns": [
+      {
+        "root": "ol",
+        "gloss": "FLUID/TUBE(ol)",
+        "count": 893,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.09,
+        "o_rate": 0.0
+      },
+      {
+        "root": "or",
+        "gloss": "JAR/HERB(or)",
+        "count": 511,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.037,
+        "o_rate": 0.0
+      },
+      {
+        "root": "ar",
+        "gloss": "BOTAN/ROOT(ar)",
+        "count": 431,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.009,
+        "o_rate": 0.0
+      },
+      {
+        "root": "al",
+        "gloss": "SUBST/STAR(al)",
+        "count": 294,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.009,
+        "o_rate": 0.0
+      },
+      {
+        "root": "dal",
+        "gloss": "BASIN/PORTION(dal)",
+        "count": 66,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "kal",
+        "gloss": "HUMORAL_ROOT(kal)",
+        "count": 45,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.2,
+        "o_rate": 0.0
+      },
+      {
+        "root": "tal",
+        "gloss": "BARREL_measure(tal)",
+        "count": 38,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.079,
+        "o_rate": 0.0
+      },
+      {
+        "root": "tol",
+        "gloss": "LEAF/SHOOT(tol)",
+        "count": 37,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.041,
+        "o_rate": 0.0
+      },
+      {
+        "root": "kol",
+        "gloss": "PHARMA_PLANT(kol)",
+        "count": 35,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.043,
+        "o_rate": 0.0
+      },
+      {
+        "root": "tar",
+        "gloss": "ROOT_EARTH(tar)",
+        "count": 33,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.045,
+        "o_rate": 0.0
+      },
+      {
+        "root": "dar",
+        "gloss": "JAR/ROOT_SRC(dar)",
+        "count": 31,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "kar",
+        "gloss": "STALK/BARK(kar)",
+        "count": 20,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.075,
+        "o_rate": 0.0
+      }
+    ],
+    "Class_VI_Specialized_Domain_Nouns": [
+      {
+        "root": "olk",
+        "gloss": "olk",
+        "count": 298,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.05,
+        "o_rate": 0.0
+      },
+      {
+        "root": "chckh",
+        "gloss": "chckh",
+        "count": 223,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "cho",
+        "gloss": "cho",
+        "count": 178,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.006,
+        "o_rate": 0.0
+      },
+      {
+        "root": "chek",
+        "gloss": "chek",
+        "count": 172,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "sho",
+        "gloss": "sho",
+        "count": 164,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "dai",
+        "gloss": "dai",
+        "count": 157,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.013,
+        "o_rate": 0.0
+      },
+      {
+        "root": "ched",
+        "gloss": "ched",
+        "count": 152,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.003,
+        "o_rate": 0.0
+      },
+      {
+        "root": "chcth",
+        "gloss": "chcth",
+        "count": 137,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "ai",
+        "gloss": "ai",
+        "count": 126,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.02,
+        "o_rate": 0.0
+      },
+      {
+        "root": "chok",
+        "gloss": "chok",
+        "count": 121,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "tsh",
+        "gloss": "tsh",
+        "count": 118,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.081,
+        "o_rate": 0.0
+      },
+      {
+        "root": "ksh",
+        "gloss": "ksh",
+        "count": 117,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.175,
+        "o_rate": 0.0
+      },
+      {
+        "root": "chk",
+        "gloss": "chk",
+        "count": 109,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "shek",
+        "gloss": "shek",
+        "count": 105,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "chot",
+        "gloss": "chot",
+        "count": 101,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "chd",
+        "gloss": "chd",
+        "count": 93,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "kai",
+        "gloss": "kai",
+        "count": 92,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.163,
+        "o_rate": 0.0
+      },
+      {
+        "root": "ked",
+        "gloss": "ked",
+        "count": 91,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.198,
+        "o_rate": 0.0
+      },
+      {
+        "root": "dsh",
+        "gloss": "dsh",
+        "count": 90,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "e",
+        "gloss": "ESSENCE(e)",
+        "count": 87,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.144,
+        "o_rate": 0.0
+      },
+      {
+        "root": "shckh",
+        "gloss": "shckh",
+        "count": 85,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "chod",
+        "gloss": "chod",
+        "count": 83,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "ko",
+        "gloss": "STAR_NODE(ko)",
+        "count": 79,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.184,
+        "o_rate": 0.0
+      },
+      {
+        "root": "tai",
+        "gloss": "tai",
+        "count": 79,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.057,
+        "o_rate": 0.0
+      },
+      {
+        "root": "in",
+        "gloss": "in",
+        "count": 74,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.081,
+        "o_rate": 0.0
+      },
+      {
+        "root": "chet",
+        "gloss": "chet",
+        "count": 72,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "kech",
+        "gloss": "kech",
+        "count": 69,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.203,
+        "o_rate": 0.0
+      },
+      {
+        "root": "checkh",
+        "gloss": "checkh",
+        "count": 69,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "ted",
+        "gloss": "ted",
+        "count": 68,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.132,
+        "o_rate": 0.0
+      },
+      {
+        "root": "to",
+        "gloss": "SPOKE/RAY(to)",
+        "count": 66,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.114,
+        "o_rate": 0.0
+      },
+      {
+        "root": "oly",
+        "gloss": "oly",
+        "count": 64,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.055,
+        "o_rate": 0.0
+      },
+      {
+        "root": "shed",
+        "gloss": "shed",
+        "count": 54,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "cht",
+        "gloss": "cht",
+        "count": 53,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "qo",
+        "gloss": "qo",
+        "count": 53,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "sheckh",
+        "gloss": "sheckh",
+        "count": 48,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.01,
+        "o_rate": 0.0
+      },
+      {
+        "root": "so",
+        "gloss": "HERB_SAP(so)",
+        "count": 47,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "cheod",
+        "gloss": "cheod",
+        "count": 47,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "cthe",
+        "gloss": "cthe",
+        "count": 46,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.033,
+        "o_rate": 0.0
+      },
+      {
+        "root": "shcth",
+        "gloss": "shcth",
+        "count": 43,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "ek",
+        "gloss": "DISTILL(ek)",
+        "count": 42,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.179,
+        "o_rate": 0.0
+      },
+      {
+        "root": "checth",
+        "gloss": "checth",
+        "count": 42,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "sai",
+        "gloss": "sai",
+        "count": 41,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "ctho",
+        "gloss": "ctho",
+        "count": 40,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "lo",
+        "gloss": "lo",
+        "count": 40,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "shod",
+        "gloss": "shod",
+        "count": 39,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "tod",
+        "gloss": "tod",
+        "count": 39,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.038,
+        "o_rate": 0.0
+      },
+      {
+        "root": "yd",
+        "gloss": "yd",
+        "count": 38,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "do",
+        "gloss": "do",
+        "count": 37,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "cheok",
+        "gloss": "cheok",
+        "count": 37,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "chockh",
+        "gloss": "chockh",
+        "count": 36,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "shok",
+        "gloss": "shok",
+        "count": 34,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "chocth",
+        "gloss": "chocth",
+        "count": 33,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.015,
+        "o_rate": 0.0
+      },
+      {
+        "root": "chol",
+        "gloss": "chol",
+        "count": 33,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "rch",
+        "gloss": "rch",
+        "count": 33,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "shet",
+        "gloss": "shet",
+        "count": 33,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "lke",
+        "gloss": "lke",
+        "count": 33,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "shk",
+        "gloss": "shk",
+        "count": 30,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "old",
+        "gloss": "old",
+        "count": 28,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.018,
+        "o_rate": 0.0
+      },
+      {
+        "root": "keod",
+        "gloss": "keod",
+        "count": 28,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.107,
+        "o_rate": 0.0
+      },
+      {
+        "root": "olke",
+        "gloss": "olke",
+        "count": 28,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.018,
+        "o_rate": 0.0
+      },
+      {
+        "root": "alk",
+        "gloss": "alk",
+        "count": 28,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "cholk",
+        "gloss": "cholk",
+        "count": 26,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "shecth",
+        "gloss": "shecth",
+        "count": 25,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "teod",
+        "gloss": "teod",
+        "count": 25,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "et",
+        "gloss": "et",
+        "count": 24,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.104,
+        "o_rate": 0.0
+      },
+      {
+        "root": "ckhe",
+        "gloss": "ckhe",
+        "count": 24,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.083,
+        "o_rate": 0.0
+      },
+      {
+        "root": "kesh",
+        "gloss": "kesh",
+        "count": 24,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.125,
+        "o_rate": 0.0
+      },
+      {
+        "root": "shd",
+        "gloss": "shd",
+        "count": 23,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "cheot",
+        "gloss": "cheot",
+        "count": 22,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "td",
+        "gloss": "td",
+        "count": 22,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.091,
+        "o_rate": 0.0
+      },
+      {
+        "root": "olt",
+        "gloss": "olt",
+        "count": 21,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.071,
+        "o_rate": 0.0
+      },
+      {
+        "root": "da",
+        "gloss": "da",
+        "count": 20,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "om",
+        "gloss": "om",
+        "count": 20,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "aly",
+        "gloss": "aly",
+        "count": 20,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "dair",
+        "gloss": "dair",
+        "count": 19,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "ary",
+        "gloss": "ary",
+        "count": 19,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "dan",
+        "gloss": "dan",
+        "count": 18,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      },
+      {
+        "root": "ta",
+        "gloss": "ta",
+        "count": 18,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.111,
+        "o_rate": 0.0
+      },
+      {
+        "root": "kshe",
+        "gloss": "kshe",
+        "count": 18,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.028,
+        "o_rate": 0.0
+      },
+      {
+        "root": "dshe",
+        "gloss": "dshe",
+        "count": 18,
+        "edy_dy_rate": 0.0,
+        "qo_rate": 0.0,
+        "o_rate": 0.0
+      }
+    ]
+  }
+}

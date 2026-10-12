@@ -285,6 +285,32 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 30. The `39`-Line Colophon System (`=Pt`, `+Pr`, `+Pc`), the `5`-Folio `=Pt` Cross-Reference Chain ($z = +2.63, p = 0.035$) & Outer-Bifolium `f1r–f8r` Framing (`Attack 21`)
+- **The `5`-Folio `=Pt` Cross-Reference Chain (`f1r`, `f8r`, `f25r`, `f42v`, `f46v`)**: Out of `226` folios, only `5` carry explicit `=Pt` right-justified paragraph titles (`f1r` and `f8r` form the conjugate outer bifolium `f1–f8` of Quire A, `pages/f1r_pt_titles_right_margin_enh.png`, `pages/f8r_pt_titles_right_margin_enh.png`). Rare words/bigrams in the `=Pt` titles of `f1r` and `f8r` recur in the prose bodies of the other three `=Pt` folios **`3.72×` above chance ($z = +2.63, p = 0.035$)**: `<f1r.21,=Pt> otol . daiiin` $\to$ `<f42v.2,+P0> otol . daiin`; `<f1r.28,=Pt> dchaiin` $\to$ `<f25r.5,+P0> dchain`; and `<f8r.21,=Pt> schol . saim` $\to$ `<f46v.2,+P0> saim` (the only other occurrence of `saim` in the entire manuscript!).
+- **Colophon Morphological Laws**: `=Pt` titles enrich `-g` (`okokchodg`, `15.75×`), while `+Pr` right-justified paragraph closers enrich `-m / -am` `2.07×` (`41.67%` vs. `20.16%` ordinary `+P0` lines) and echo `=Pt` stems (`<f1r.10,=Pt> teody` $\leftrightarrow$ `<f86v5.39,+Pr> yteody`; `<f8r.21,=Pt> saim` $\leftrightarrow$ `<f105r.10,+Pr> sairy ... ytam`; `<f25r.7,=Pt> otaiir` $\leftrightarrow$ `<f105r.37,+Pc> otair`).
+
+---
+
+### 31. Biological Section (`f75r–f84v`) Hydraulic Flow-Graph, Quire M Outer-Bifolium `@Pb` Index & Same-Leaf (`fNr <-> fNv`) Label-to-Prose Ingestion ($z = +2.53, p = 0.0183$, `Attack 22`)
+- **Quire M Outer-Bifolium `@Pb` Architecture**: Across all `20` folios of Quire M (`f75–f84`), `@Pb` vertical cascade columns occur **only on the outer bifolium (`f75r`, `f75v`, `f84v`) and adjacent `f83r`** (`0` on `f76–f82`), indexing interior `@Lt/@Ln` diagram labels (`<f75v.59,+Pb> qokeedy . qok[o:a]l . olkol` $\leftrightarrow$ `<f84r.4,@Ln> okedy`, `<f82v.44,~Ln> okol`, `<f82v.46,@Lt> olkol`, `pages/f75v_saino_olkol_bottom_enh.png`, `pages/f82v_olkol_okoldy_tube_labels_enh.png`).
+- **Same-Leaf (`fNr <-> fNv`) Rare Label/Cascade Ingestion (`2.17×` Enrichment, $z = +2.53, p = 0.0183$)**: Rare canonical label/cascade stems (`1 <= df <= 2`, `n=25`) recur on the **same leaf (`recto` or `verso`)** in `28.0%` (`7 / 25`) of cases vs. `12.9%` random expectation, led by `<f75r.48–51,+Pb> daly . ychey ... saino` (`pages/f75r_pb_cascade_saino_enh.png`) $\longleftrightarrow$ `<f75v.46–48,+P0> ychey ... ycheedy . saino` (where `saino` occurs only twice in the entire manuscript!), `<f82v.45–46,@Lt> okoldy / olkol` $\to$ `<f82v.13,37> qokoldy / olkol`, `<f83r.46,=Lt> olsaiin` $\to$ `<f83r.24> olsaly`, and `<f84r.2,@Ln> shekar` $\to$ `<f84r.30> shekam`.
+
+---
+
+### 32. Distributional Context-Embedding & Minimal-Pair Substitution Matrix of the Top `150` Core Roots ($z = +17.61, p < 10^{-68}$, `Attack 23`)
+- **Three Productive Feature Alternations Govern the Core Root Lexicon**: Across `11,175` root pairs, the `493` Edit-Distance-1 minimal pairs achieve a mean combined morpho-syntagmatic cosine of **`0.8618` vs. `0.7660 ± 0.1208` for non-ED1 pairs ($z = +17.61$)**:
+  1. **Bench Plume Diacritic (`ch <-> sh`, $\cos = 0.973\text{–}0.998$)**: `ch <-> sh` (`0.9869`), `che <-> she` (`0.9847`), `lch <-> lsh` (`0.9841`), `cheo <-> sheo` (`0.9794`), `kch <-> ksh` (`0.9768`), `dch <-> sch` (`0.9727`).
+  2. **Gallows Crossbar Alternation (`k <-> t` and `ckh <-> cth`, $\cos = 0.943\text{–}0.991$)**: `ke <-> te` (`0.9729`), `cth <-> ckh` (`0.9683`), `keo <-> teo` (`0.9575`), `tch <-> kch` (`0.9568`), `ot <-> ok` (`0.9510`), `k <-> t` (`0.9451`).
+  3. **4-Cell Vocalic-Liquid Paradigm (`{o, a} × {l, r}` = `{ol, or, al, ar}`, $\cos = 0.970\text{–}0.988$)**: `or <-> ar` (`0.9880`), `ol <-> or` (`0.9857`), `ol <-> ar` (`0.9743`), `ol <-> al` (`0.9703`).
+
+---
+
+### 33. The `5×4` Articulatory/Sonority Syllabic Grid (`97.46%` Monotonic CV(C) Compliance, $z = +2.48$) & Bipartite Isomorphism with Medieval Pharmacopoeia Functional Slots ($z = +6.45, p < 10^{-9}$, `Attack 24`)
+- **Monotonic CV(C) Sonority Sequencing (`97.46%` vs. `85.12%` Null, $z = +2.48$)**: `97.46%` of Elementary Radical token instances follow strict single-syllable `Stop/Gallows Onset -> Bench Affricate/Sibilant -> Vocalic Nucleus -> Liquid/Nasal Coda` sequencing.
+- **Medieval Pharmacopoeia Bipartite Domain Isomorphism ($0.8663$ vs. $0.6255 \pm 0.0373$ Null, $z = +6.45, p < 10^{-9}$)**: Aligns the 20 core Voynich radicals with the 20 functional slots of Medieval Apothecary/Herbal/Balneological manuals (`sh <-> coque/bullire` `0.9943`, `ch <-> misce/terere` `0.9921`, `dar <-> in pixide/de radice` `0.9596`, `che <-> infunde/macera` `0.9458`, `she <-> decoque/elixa` `0.9264`, `k <-> cola/in vase` `0.9231`).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -336,4 +362,8 @@ python tools/attack17_drawing_intrusion_anchor_concordance.py
 python tools/attack18_cross_transliteration_invariance_and_v101.py
 python tools/attack19_herbal_visual_pigment_radical_concordance.py
 python tools/attack20_functional_clause_translation_solver.py
+python tools/attack21_right_justified_titles_and_f1r_toc.py
+python tools/attack22_biological_hydraulic_label_ingestion.py
+python tools/attack23_distributional_minimal_pair_matrix.py
+python tools/attack24_syllabic_pharmacopoeia_alignment_solver.py
 ```

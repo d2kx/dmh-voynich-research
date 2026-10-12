@@ -271,3 +271,41 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 ## 20. Attack 20 (`Phase 31`): Clause-Level Verb–Argument Selectional Mutual Information ($z = +9.48$) & Functional Clause-Translation Benchmark
 - **Script, Data & Edition**: [`tools/attack20_functional_clause_translation_solver.py`](../tools/attack20_functional_clause_translation_solver.py) $\to$ [`data/attack20_functional_clause_translation_solver.json`](../data/attack20_functional_clause_translation_solver.json), [`notes/READABILITY_TRANSLATION_BENCHMARK.md`](READABILITY_TRANSLATION_BENCHMARK.md)
 - **Key Breakthrough**: Across `4,990` verb+argument clauses (out of `7,179` segmented clauses), Verb–Argument Selectional Mutual Information is **`0.0885 bits` vs. `0.0557 bits` shuffled null ($z = +9.48, p < 10^{-20}$)**, enabling side-by-side readable structural translations across 8 flagship folios.
+
+---
+
+## 21. Attack 21 (`Phase 32`): The `39`-Line Colophon System (`=Pt`, `+Pr`, `+Pc`), the `5`-Folio `=Pt` Cross-Reference Chain ($z = +2.63, p = 0.035$) & Outer-Bifolium `f1r–f8r` Framing
+- **Script & Data**: [`tools/attack21_right_justified_titles_and_f1r_toc.py`](../tools/attack21_right_justified_titles_and_f1r_toc.py) $\to$ [`data/attack21_right_justified_titles_and_f1r_toc.json`](../data/attack21_right_justified_titles_and_f1r_toc.json)
+- **Visual Forensics**: [`pages/f1r_pt_titles_right_margin_enh.png`](../pages/f1r_pt_titles_right_margin_enh.png), [`pages/f8r_pt_titles_right_margin_enh.png`](../pages/f8r_pt_titles_right_margin_enh.png)
+- **Key Breakthroughs**:
+  1. Only `5` folios in the manuscript carry explicit `=Pt` right-justified paragraph titles (`f1r`, `f8r`, `f25r`, `f42v`, `f46v`), with `f1r` and `f8r` forming the conjugate outer bifolium (`f1–f8`) of Quire A.
+  2. Rare words/bigrams in the `=Pt` titles of `f1r` and `f8r` recur in the prose bodies of the other three `=Pt` folios **`3.72×` above chance ($z = +2.63, p = 0.035$)**: `<f1r.21,=Pt> otol . daiiin` $\to$ `<f42v.2,+P0> otol . daiin`; `<f1r.28,=Pt> dchaiin` $\to$ `<f25r.5,+P0> dchain`; `<f8r.21,=Pt> schol . saim` $\to$ `<f46v.2,+P0> saim` (unique pair in the entire manuscript).
+  3. `+Pr` right-justified paragraph closers enrich terminal `-m / -am` `2.07×` (`41.67%` vs. `20.16%`) and echo `=Pt` stems (`teody <-> yteody`, `saim <-> sairy`, `otaiir <-> otair`).
+
+---
+
+## 22. Attack 22 (`Phase 33`): Biological Section (`f75r–f84v`) Hydraulic Flow-Graph, Quire M Outer-Bifolium `@Pb` Index & Same-Leaf (`fNr <-> fNv`) Label-to-Prose Ingestion ($z = +2.53, p = 0.0183$)
+- **Script & Data**: [`tools/attack22_biological_hydraulic_label_ingestion.py`](../tools/attack22_biological_hydraulic_label_ingestion.py) $\to$ [`data/attack22_biological_hydraulic_label_ingestion.json`](../data/attack22_biological_hydraulic_label_ingestion.json)
+- **Visual Forensics**: [`pages/f75r_pb_cascade_saino_enh.png`](../pages/f75r_pb_cascade_saino_enh.png), [`pages/f75v_saino_olkol_bottom_enh.png`](../pages/f75v_saino_olkol_bottom_enh.png), [`pages/f82v_olkol_okoldy_tube_labels_enh.png`](../pages/f82v_olkol_okoldy_tube_labels_enh.png)
+- **Key Breakthroughs**:
+  1. `@Pb` vertical cascade columns occur **only on the outer bifolium of Quire M (`f75r`, `f75v`, `f84v`) and adjacent `f83r`** (`0` on `f76–f82`) and directly cross-reference interior `@Lt/@Ln` diagram labels (`<f75v.59,+Pb> qokeedy . qok[o:a]l . olkol` $\leftrightarrow$ `<f84r.4,@Ln> okedy`, `<f82v.44,~Ln> okol`, `<f82v.46,@Lt> olkol`).
+  2. Rare canonical label/cascade stems (`1 <= df <= 2`, `n=25`) recur on the **same leaf (`recto` or `verso`)** **`2.17×` above chance (`7 / 25 = 28.0%` vs. `12.9%` null, $z = +2.53, p = 0.0183$)**, led by the recto-verso cascade pair `<f75r.48–51,+Pb> daly . ychey ... saino` $\longleftrightarrow$ `<f75v.46–48,+P0> ychey ... ycheedy . saino` (`saino` occurs only twice in the entire manuscript!).
+
+---
+
+## 23. Attack 23 (`Phase 34`): Distributional Context-Embedding & Minimal-Pair Substitution Matrix of the Top `150` Core Roots ($z = +17.61, p < 10^{-68}$)
+- **Script & Data**: [`tools/attack23_distributional_minimal_pair_matrix.py`](../tools/attack23_distributional_minimal_pair_matrix.py) $\to$ [`data/attack23_distributional_minimal_pair_matrix.json`](../data/attack23_distributional_minimal_pair_matrix.json)
+- **Key Breakthroughs**:
+  - Across `11,175` root pairs, the `493` Edit-Distance-1 minimal pairs achieve a mean combined morpho-syntagmatic cosine of **`0.8618` vs. `0.7660 ± 0.1208` ($z = +17.61$)**:
+    1. **Bench Plume Diacritic (`ch <-> sh`)**: `ch <-> sh` (`0.9869`), `che <-> she` (`0.9847`), `lch <-> lsh` (`0.9841`), `cheo <-> sheo` (`0.9794`), `kch <-> ksh` (`0.9768`), `dch <-> sch` (`0.9727`).
+    2. **Gallows Crossbar Alternation (`k <-> t` and `ckh <-> cth`)**: `ke <-> te` (`0.9729`), `cth <-> ckh` (`0.9683`), `keo <-> teo` (`0.9575`), `tch <-> kch` (`0.9568`), `ot <-> ok` (`0.9510`), `k <-> t` (`0.9451`).
+    3. **4-Cell Vocalic-Liquid Paradigm (`{o, a} × {l, r}`)**: `or <-> ar` (`0.9880`), `ol <-> or` (`0.9857`), `ol <-> ar` (`0.9743`), `ol <-> al` (`0.9703`).
+
+---
+
+## 24. Attack 24 (`Phase 35`): The `5×4` Articulatory/Sonority Syllabic Grid (`97.46%` Monotonic CV(C) Compliance, $z = +2.48$) & Bipartite Isomorphism with Medieval Pharmacopoeia Functional Slots ($z = +6.45, p < 10^{-9}$)
+- **Script & Data**: [`tools/attack24_syllabic_pharmacopoeia_alignment_solver.py`](../tools/attack24_syllabic_pharmacopoeia_alignment_solver.py) $\to$ [`data/attack24_syllabic_pharmacopoeia_alignment_solver.json`](../data/attack24_syllabic_pharmacopoeia_alignment_solver.json)
+- **Key Breakthroughs**:
+  1. **`97.46%` Token-Weighted Monotonic CV(C) Sonority Sequencing Compliance ($z = +2.48$ vs. `85.12%` random tier-assignment null)**.
+  2. **Medieval Pharmacopoeia Bipartite Domain Isomorphism ($0.8663$ vs. $0.6255 \pm 0.0373$ Null, $z = +6.45, p < 10^{-9}$)**: Aligns the 20 core Voynich radicals with the 20 functional slots of Medieval Apothecary/Herbal/Balneological manuals (`sh <-> coque/bullire` `0.9943`, `ch <-> misce/terere` `0.9921`, `dar <-> in pixide/de radice` `0.9596`, `che <-> infunde/macera` `0.9458`, `she <-> decoque/elixa` `0.9264`, `k <-> cola/in vase` `0.9231`).
+

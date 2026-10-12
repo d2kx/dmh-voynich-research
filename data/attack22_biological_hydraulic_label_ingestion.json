@@ -1,0 +1,877 @@
+{
+  "summary": {
+    "bio_folios_analyzed": 20,
+    "pb_cascade_folios_in_quire_m": [
+      "f75r",
+      "f75v",
+      "f83r",
+      "f84v"
+    ],
+    "token_counts_by_category": {
+      "Lt_Tube": 56,
+      "Ln_Nymph": 65,
+      "Pb_Cascade": 59,
+      "Prose_P0_P1": 6760
+    },
+    "rare_canonical_label_pb_ingestion_df_le_2": {
+      "items_tested": 25,
+      "same_folio_observed": 4,
+      "same_folio_null_mean": 1.67,
+      "same_folio_null_std": 1.24,
+      "same_folio_z_score": 1.87,
+      "same_leaf_recto_verso_observed": 7,
+      "same_leaf_null_mean": 3.23,
+      "same_leaf_null_std": 1.49,
+      "same_leaf_z_score": 2.53,
+      "same_leaf_empirical_p_value": 0.0183
+    },
+    "rare_canonical_label_pb_ingestion_df_le_4": {
+      "items_tested": 39,
+      "same_folio_observed": 6,
+      "same_folio_null_mean": 4.11,
+      "same_folio_null_std": 1.84,
+      "same_folio_z_score": 1.02,
+      "same_leaf_recto_verso_observed": 11,
+      "same_leaf_null_mean": 8.01,
+      "same_leaf_null_std": 2.08,
+      "same_leaf_z_score": 1.44,
+      "same_leaf_empirical_p_value": 0.1189
+    }
+  },
+  "category_morphological_profiles": {
+    "Lt_Tube": {
+      "token_count": 56,
+      "raw_initial_rates": {
+        "q_initial": 0.0179,
+        "o_initial": 0.6964,
+        "s_initial": 0.0536,
+        "d_initial": 0.125,
+        "y_initial": 0.0357
+      },
+      "ending_class_rates": {
+        "verbal_edy_dy": 0.1607,
+        "liquid_vessel_ol_or_al_ar": 0.3929,
+        "nominal_ain_in": 0.0893,
+        "adjectival_state_y": 0.25
+      },
+      "top_prefixes": {
+        "NEUTRAL": 52,
+        "G:p/f": 2,
+        "P:y": 1,
+        "P:q": 1
+      },
+      "top_suffixes": {
+        "S:-al": 6,
+        "S:-ol": 5,
+        "N:o-|S:-al": 3,
+        "N:o-|S:0": 3,
+        "N:o-|S:-ol": 3,
+        "N:o-|S:-y": 3,
+        "V:ee/ii|N:o-|S:-ey": 2,
+        "N:o-|S:-edy": 2
+      },
+      "top_enriched_radicals": [
+        {
+          "radical": "kar",
+          "gloss": "STALK/BARK(kar)",
+          "count": 2,
+          "rate": 0.019,
+          "enrichment_vs_bio_prose": 83.65
+        },
+        {
+          "radical": "dar",
+          "gloss": "JAR/ROOT_SRC(dar)",
+          "count": 3,
+          "rate": 0.0286,
+          "enrichment_vs_bio_prose": 16.73
+        },
+        {
+          "radical": "tol",
+          "gloss": "LEAF/SHOOT(tol)",
+          "count": 2,
+          "rate": 0.019,
+          "enrichment_vs_bio_prose": 6.97
+        },
+        {
+          "radical": "ed",
+          "gloss": "FLOW/BATHE(ed)",
+          "count": 6,
+          "rate": 0.0571,
+          "enrichment_vs_bio_prose": 5.64
+        },
+        {
+          "radical": "a",
+          "gloss": "HUB_AXIS(a)",
+          "count": 4,
+          "rate": 0.0381,
+          "enrichment_vs_bio_prose": 4.18
+        },
+        {
+          "radical": "or",
+          "gloss": "JAR/HERB(or)",
+          "count": 6,
+          "rate": 0.0571,
+          "enrichment_vs_bio_prose": 3.64
+        },
+        {
+          "radical": "i",
+          "gloss": "i",
+          "count": 2,
+          "rate": 0.019,
+          "enrichment_vs_bio_prose": 3.49
+        },
+        {
+          "radical": "kch",
+          "gloss": "STAR_OP(kch)",
+          "count": 3,
+          "rate": 0.0286,
+          "enrichment_vs_bio_prose": 3.02
+        },
+        {
+          "radical": "o",
+          "gloss": "ENTITY_CORE(o)",
+          "count": 7,
+          "rate": 0.0667,
+          "enrichment_vs_bio_prose": 1.99
+        },
+        {
+          "radical": "t",
+          "gloss": "TUBE/DUCT(t)",
+          "count": 16,
+          "rate": 0.1524,
+          "enrichment_vs_bio_prose": 1.82
+        }
+      ]
+    },
+    "Ln_Nymph": {
+      "token_count": 65,
+      "raw_initial_rates": {
+        "q_initial": 0.0308,
+        "o_initial": 0.5538,
+        "s_initial": 0.0923,
+        "d_initial": 0.2154,
+        "y_initial": 0.0308
+      },
+      "ending_class_rates": {
+        "verbal_edy_dy": 0.2615,
+        "liquid_vessel_ol_or_al_ar": 0.3077,
+        "nominal_ain_in": 0.0308,
+        "adjectival_state_y": 0.2923
+      },
+      "top_prefixes": {
+        "NEUTRAL": 61,
+        "P:q": 2,
+        "P:y": 1,
+        "G:p/f": 1
+      },
+      "top_suffixes": {
+        "S:-al": 6,
+        "S:-y": 5,
+        "N:o-|S:-dy": 5,
+        "N:o-|S:-y": 4,
+        "S:-dy": 4,
+        "N:o-|S:-edy": 4,
+        "S:-ol": 3,
+        "S:-ar": 3
+      },
+      "top_enriched_radicals": [
+        {
+          "radical": "kol",
+          "gloss": "PHARMA_PLANT(kol)",
+          "count": 2,
+          "rate": 0.0196,
+          "enrichment_vs_bio_prose": 19.14
+        },
+        {
+          "radical": "dar",
+          "gloss": "JAR/ROOT_SRC(dar)",
+          "count": 2,
+          "rate": 0.0196,
+          "enrichment_vs_bio_prose": 11.48
+        },
+        {
+          "radical": "kal",
+          "gloss": "HUMORAL_ROOT(kal)",
+          "count": 2,
+          "rate": 0.0196,
+          "enrichment_vs_bio_prose": 11.48
+        },
+        {
+          "radical": "dal",
+          "gloss": "BASIN/PORTION(dal)",
+          "count": 3,
+          "rate": 0.0294,
+          "enrichment_vs_bio_prose": 8.33
+        },
+        {
+          "radical": "ok",
+          "gloss": "VESSEL_NOM(ok)",
+          "count": 3,
+          "rate": 0.0294,
+          "enrichment_vs_bio_prose": 7.6
+        },
+        {
+          "radical": "te",
+          "gloss": "DRAW/CONDUIT(te)",
+          "count": 2,
+          "rate": 0.0196,
+          "enrichment_vs_bio_prose": 4.65
+        },
+        {
+          "radical": "or",
+          "gloss": "JAR/HERB(or)",
+          "count": 6,
+          "rate": 0.0588,
+          "enrichment_vs_bio_prose": 3.74
+        },
+        {
+          "radical": "ar",
+          "gloss": "BOTAN/ROOT(ar)",
+          "count": 2,
+          "rate": 0.0196,
+          "enrichment_vs_bio_prose": 3.51
+        },
+        {
+          "radical": "a",
+          "gloss": "HUB_AXIS(a)",
+          "count": 2,
+          "rate": 0.0196,
+          "enrichment_vs_bio_prose": 2.15
+        },
+        {
+          "radical": "kch",
+          "gloss": "STAR_OP(kch)",
+          "count": 2,
+          "rate": 0.0196,
+          "enrichment_vs_bio_prose": 2.07
+        }
+      ]
+    },
+    "Pb_Cascade": {
+      "token_count": 59,
+      "raw_initial_rates": {
+        "q_initial": 0.1017,
+        "o_initial": 0.2034,
+        "s_initial": 0.2034,
+        "d_initial": 0.1695,
+        "y_initial": 0.1017
+      },
+      "ending_class_rates": {
+        "verbal_edy_dy": 0.2203,
+        "liquid_vessel_ol_or_al_ar": 0.3559,
+        "nominal_ain_in": 0.0847,
+        "adjectival_state_y": 0.2373
+      },
+      "top_prefixes": {
+        "NEUTRAL": 49,
+        "P:q": 6,
+        "P:y": 4
+      },
+      "top_suffixes": {
+        "S:0": 8,
+        "S:-ol": 7,
+        "S:-al": 6,
+        "S:-edy": 4,
+        "P:y-|S:-y": 3,
+        "S:-aly": 2,
+        "S:-dy": 2,
+        "S:-y": 2
+      },
+      "top_enriched_radicals": [
+        {
+          "radical": "so",
+          "gloss": "HERB_SAP(so)",
+          "count": 4,
+          "rate": 0.0471,
+          "enrichment_vs_bio_prose": 14.25
+        },
+        {
+          "radical": "dar",
+          "gloss": "JAR/ROOT_SRC(dar)",
+          "count": 2,
+          "rate": 0.0235,
+          "enrichment_vs_bio_prose": 13.78
+        },
+        {
+          "radical": "ain",
+          "gloss": "ESSENCE/UNIT(ain)",
+          "count": 3,
+          "rate": 0.0353,
+          "enrichment_vs_bio_prose": 4.03
+        },
+        {
+          "radical": "a",
+          "gloss": "HUB_AXIS(a)",
+          "count": 3,
+          "rate": 0.0353,
+          "enrichment_vs_bio_prose": 3.87
+        },
+        {
+          "radical": "ek",
+          "gloss": "DISTILL(ek)",
+          "count": 2,
+          "rate": 0.0235,
+          "enrichment_vs_bio_prose": 2.68
+        },
+        {
+          "radical": "s",
+          "gloss": "SEED/PART(s)",
+          "count": 7,
+          "rate": 0.0824,
+          "enrichment_vs_bio_prose": 2.54
+        },
+        {
+          "radical": "kch",
+          "gloss": "STAR_OP(kch)",
+          "count": 2,
+          "rate": 0.0235,
+          "enrichment_vs_bio_prose": 2.49
+        },
+        {
+          "radical": "ed",
+          "gloss": "FLOW/BATHE(ed)",
+          "count": 2,
+          "rate": 0.0235,
+          "enrichment_vs_bio_prose": 2.32
+        },
+        {
+          "radical": "d",
+          "gloss": "BASE/HUB(d)",
+          "count": 10,
+          "rate": 0.1176,
+          "enrichment_vs_bio_prose": 2.25
+        },
+        {
+          "radical": "y",
+          "gloss": "STATE(y)",
+          "count": 3,
+          "rate": 0.0353,
+          "enrichment_vs_bio_prose": 2.18
+        }
+      ]
+    },
+    "Prose_P0_P1": {
+      "token_count": 6760,
+      "raw_initial_rates": {
+        "q_initial": 0.2453,
+        "o_initial": 0.2109,
+        "s_initial": 0.1555,
+        "d_initial": 0.0794,
+        "y_initial": 0.0237
+      },
+      "ending_class_rates": {
+        "verbal_edy_dy": 0.2984,
+        "liquid_vessel_ol_or_al_ar": 0.2561,
+        "nominal_ain_in": 0.1371,
+        "adjectival_state_y": 0.2349
+      },
+      "top_prefixes": {
+        "NEUTRAL": 4772,
+        "P:q": 1589,
+        "G:p/f": 205,
+        "P:y": 101,
+        "M:-m": 48,
+        "G:p/f|P:q": 32
+      },
+      "top_suffixes": {
+        "S:-edy": 800,
+        "S:0": 709,
+        "S:-y": 361,
+        "S:-ey": 342,
+        "S:-ol": 282,
+        "P:q-|N:o-|S:-edy": 242,
+        "V:ee/ii|S:-ain": 201,
+        "V:ee/ii|P:q-|N:o-|S:-edy": 200
+      },
+      "top_enriched_radicals": [
+        {
+          "radical": "k",
+          "gloss": "VESSEL/BODY(k)",
+          "count": 1476,
+          "rate": 0.1681,
+          "enrichment_vs_bio_prose": 1.0
+        },
+        {
+          "radical": "sh",
+          "gloss": "ACT:heat/steep",
+          "count": 892,
+          "rate": 0.1016,
+          "enrichment_vs_bio_prose": 1.0
+        },
+        {
+          "radical": "ch",
+          "gloss": "ACT:mix/proc",
+          "count": 774,
+          "rate": 0.0881,
+          "enrichment_vs_bio_prose": 1.0
+        },
+        {
+          "radical": "t",
+          "gloss": "TUBE/DUCT(t)",
+          "count": 737,
+          "rate": 0.0839,
+          "enrichment_vs_bio_prose": 1.0
+        },
+        {
+          "radical": "ol",
+          "gloss": "FLUID/TUBE(ol)",
+          "count": 614,
+          "rate": 0.0699,
+          "enrichment_vs_bio_prose": 1.0
+        },
+        {
+          "radical": "d",
+          "gloss": "BASE/HUB(d)",
+          "count": 460,
+          "rate": 0.0524,
+          "enrichment_vs_bio_prose": 1.0
+        },
+        {
+          "radical": "o",
+          "gloss": "ENTITY_CORE(o)",
+          "count": 294,
+          "rate": 0.0335,
+          "enrichment_vs_bio_prose": 1.0
+        },
+        {
+          "radical": "s",
+          "gloss": "SEED/PART(s)",
+          "count": 285,
+          "rate": 0.0324,
+          "enrichment_vs_bio_prose": 1.0
+        },
+        {
+          "radical": "lch",
+          "gloss": "LIQ_MIX(lch)",
+          "count": 240,
+          "rate": 0.0273,
+          "enrichment_vs_bio_prose": 1.0
+        },
+        {
+          "radical": "lk",
+          "gloss": "LIQ_VESSEL(lk)",
+          "count": 227,
+          "rate": 0.0258,
+          "enrichment_vs_bio_prose": 1.0
+        }
+      ]
+    }
+  },
+  "pb_to_label_bridges": [
+    {
+      "pb_loc": "f75r.47",
+      "pb_tag": "@Pb",
+      "pb_word": "okeedy",
+      "canon": "okedy",
+      "matching_bio_labels": [
+        "f84r.4(@Ln):okedy"
+      ]
+    },
+    {
+      "pb_loc": "f75v.57",
+      "pb_tag": "+Pb",
+      "pb_word": "okedy",
+      "canon": "okedy",
+      "matching_bio_labels": [
+        "f84r.4(@Ln):okedy"
+      ]
+    },
+    {
+      "pb_loc": "f75v.57",
+      "pb_tag": "+Pb",
+      "pb_word": "y",
+      "canon": "y",
+      "matching_bio_labels": [
+        "f77v.1(@Lt):y"
+      ]
+    },
+    {
+      "pb_loc": "f75v.58",
+      "pb_tag": "+Pb",
+      "pb_word": "s",
+      "canon": "s",
+      "matching_bio_labels": [
+        "f75v.2(=L0):s",
+        "f75v.11(=L0):s",
+        "f76r.4(*L0):s",
+        "f76r.14(*L0):s",
+        "f76r.37(*L0):s"
+      ]
+    },
+    {
+      "pb_loc": "f75v.59",
+      "pb_tag": "+Pb",
+      "pb_word": "qokeedy",
+      "canon": "okedy",
+      "matching_bio_labels": [
+        "f84r.4(@Ln):okedy"
+      ]
+    },
+    {
+      "pb_loc": "f75v.59",
+      "pb_tag": "+Pb",
+      "pb_word": "qok[o:a]l",
+      "canon": "okol",
+      "matching_bio_labels": [
+        "f82v.44(~Ln):okol"
+      ]
+    },
+    {
+      "pb_loc": "f75v.59",
+      "pb_tag": "+Pb",
+      "pb_word": "olkol",
+      "canon": "olkol",
+      "matching_bio_labels": [
+        "f82v.46(@Lt):olkol"
+      ]
+    },
+    {
+      "pb_loc": "f83r.47",
+      "pb_tag": "@Pb",
+      "pb_word": "otchdy",
+      "canon": "otchdy",
+      "matching_bio_labels": [
+        "f77r.49(@Ln):otchdy"
+      ]
+    },
+    {
+      "pb_loc": "f83r.47",
+      "pb_tag": "@Pb",
+      "pb_word": "qokchdy",
+      "canon": "okchdy",
+      "matching_bio_labels": [
+        "f78r.2(@Lt):okchdy",
+        "f83v.34(@Ln):okchdy"
+      ]
+    },
+    {
+      "pb_loc": "f83r.48",
+      "pb_tag": "+Pb",
+      "pb_word": "dal",
+      "canon": "dal",
+      "matching_bio_labels": [
+        "f75v.23(+Ln):dal",
+        "f75v.31(+Ln):dal"
+      ]
+    },
+    {
+      "pb_loc": "f83r.48",
+      "pb_tag": "+Pb",
+      "pb_word": "lol",
+      "canon": "lol",
+      "matching_bio_labels": [
+        "f75v.51(=Lt):lol"
+      ]
+    },
+    {
+      "pb_loc": "f84v.42",
+      "pb_tag": "@Pb",
+      "pb_word": "okar",
+      "canon": "okar",
+      "matching_bio_labels": [
+        "f80r.9(~Ln):okar"
+      ]
+    },
+    {
+      "pb_loc": "f84v.45",
+      "pb_tag": "+Pb",
+      "pb_word": "dshedy",
+      "canon": "dshedy",
+      "matching_bio_labels": [
+        "f84r.12(@Ln):dshedy"
+      ]
+    },
+    {
+      "pb_loc": "f84v.46",
+      "pb_tag": "@Pb",
+      "pb_word": "okchdy",
+      "canon": "okchdy",
+      "matching_bio_labels": [
+        "f78r.2(@Lt):okchdy",
+        "f83v.34(@Ln):okchdy"
+      ]
+    }
+  ],
+  "same_leaf_and_folio_hydraulic_cribs": [
+    {
+      "folio": "f75r",
+      "partner_leaf": "f75v",
+      "loc": "f75r.48",
+      "tag": "+Pb",
+      "raw": "ychey",
+      "canon": "ychey",
+      "root": "ch",
+      "radicals": [
+        "ch"
+      ],
+      "glosses": [
+        "ACT:mix/proc"
+      ],
+      "canon_bio_df": 2,
+      "root_bio_df": 20,
+      "same_folio_hit": false,
+      "same_leaf_hit": true,
+      "matched_prose_locs": [
+        "f75v.46:ychey"
+      ]
+    },
+    {
+      "folio": "f75r",
+      "partner_leaf": "f75v",
+      "loc": "f75r.51",
+      "tag": "+Pb",
+      "raw": "saino",
+      "canon": "saino",
+      "root": "saino",
+      "radicals": [
+        "s",
+        "ain",
+        "o"
+      ],
+      "glosses": [
+        "SEED/PART(s)",
+        "ESSENCE/UNIT(ain)",
+        "ENTITY_CORE(o)"
+      ],
+      "canon_bio_df": 1,
+      "root_bio_df": 1,
+      "same_folio_hit": false,
+      "same_leaf_hit": true,
+      "matched_prose_locs": [
+        "f75v.48:saino"
+      ]
+    },
+    {
+      "folio": "f75v",
+      "partner_leaf": "f75r",
+      "loc": "f75v.22",
+      "tag": "@Ln",
+      "raw": "daldy",
+      "canon": "daldy",
+      "root": "dal",
+      "radicals": [
+        "dal"
+      ],
+      "glosses": [
+        "BASIN/PORTION(dal)"
+      ],
+      "canon_bio_df": 4,
+      "root_bio_df": 8,
+      "same_folio_hit": false,
+      "same_leaf_hit": true,
+      "matched_prose_locs": [
+        "f75r.31:daldy"
+      ]
+    },
+    {
+      "folio": "f75v",
+      "partner_leaf": "f75r",
+      "loc": "f75v.32",
+      "tag": "@Ln",
+      "raw": "daldy",
+      "canon": "daldy",
+      "root": "dal",
+      "radicals": [
+        "dal"
+      ],
+      "glosses": [
+        "BASIN/PORTION(dal)"
+      ],
+      "canon_bio_df": 4,
+      "root_bio_df": 8,
+      "same_folio_hit": false,
+      "same_leaf_hit": true,
+      "matched_prose_locs": [
+        "f75r.31:daldy"
+      ]
+    },
+    {
+      "folio": "f80r",
+      "partner_leaf": "f80v",
+      "loc": "f80r.6",
+      "tag": "=Ln",
+      "raw": "opor",
+      "canon": "opor",
+      "root": "t",
+      "radicals": [
+        "t"
+      ],
+      "glosses": [
+        "TUBE/DUCT(t)"
+      ],
+      "canon_bio_df": 2,
+      "root_bio_df": 99,
+      "same_folio_hit": false,
+      "same_leaf_hit": true,
+      "matched_prose_locs": [
+        "f80v.19:[o:a]por"
+      ]
+    },
+    {
+      "folio": "f80r",
+      "partner_leaf": "f80v",
+      "loc": "f80r.10",
+      "tag": "+Ln",
+      "raw": "okan",
+      "canon": "okan",
+      "root": "kan",
+      "radicals": [
+        "k",
+        "a",
+        "n"
+      ],
+      "glosses": [
+        "VESSEL/BODY(k)",
+        "HUB_AXIS(a)",
+        "n"
+      ],
+      "canon_bio_df": 4,
+      "root_bio_df": 5,
+      "same_folio_hit": true,
+      "same_leaf_hit": true,
+      "matched_prose_locs": [
+        "f80r.45:qokan"
+      ]
+    },
+    {
+      "folio": "f82v",
+      "partner_leaf": "f82r",
+      "loc": "f82v.45",
+      "tag": "@Lt",
+      "raw": "okoldy",
+      "canon": "okoldy",
+      "root": "kol",
+      "radicals": [
+        "kol"
+      ],
+      "glosses": [
+        "PHARMA_PLANT(kol)"
+      ],
+      "canon_bio_df": 2,
+      "root_bio_df": 4,
+      "same_folio_hit": true,
+      "same_leaf_hit": true,
+      "matched_prose_locs": [
+        "f82v.13:qokoldy"
+      ]
+    },
+    {
+      "folio": "f82v",
+      "partner_leaf": "f82r",
+      "loc": "f82v.46",
+      "tag": "@Lt",
+      "raw": "olkol",
+      "canon": "olkol",
+      "root": "olk",
+      "radicals": [
+        "o",
+        "lk"
+      ],
+      "glosses": [
+        "ENTITY_CORE(o)",
+        "LIQ_VESSEL(lk)"
+      ],
+      "canon_bio_df": 1,
+      "root_bio_df": 19,
+      "same_folio_hit": true,
+      "same_leaf_hit": true,
+      "matched_prose_locs": [
+        "f82v.37:olkol"
+      ]
+    },
+    {
+      "folio": "f83r",
+      "partner_leaf": "f83v",
+      "loc": "f83r.52",
+      "tag": "@Pb",
+      "raw": "solkeey",
+      "canon": "solkey",
+      "root": "solk",
+      "radicals": [
+        "so",
+        "lk"
+      ],
+      "glosses": [
+        "HERB_SAP(so)",
+        "LIQ_VESSEL(lk)"
+      ],
+      "canon_bio_df": 3,
+      "root_bio_df": 6,
+      "same_folio_hit": true,
+      "same_leaf_hit": true,
+      "matched_prose_locs": [
+        "f83r.41:solkey"
+      ]
+    },
+    {
+      "folio": "f83r",
+      "partner_leaf": "f83v",
+      "loc": "f83r.55",
+      "tag": "+Pb",
+      "raw": "cthal",
+      "canon": "cthal",
+      "root": "cth",
+      "radicals": [
+        "cth"
+      ],
+      "glosses": [
+        "HERB_LEAF_OP(cth)"
+      ],
+      "canon_bio_df": 2,
+      "root_bio_df": 15,
+      "same_folio_hit": true,
+      "same_leaf_hit": true,
+      "matched_prose_locs": [
+        "f83r.10:cthal"
+      ]
+    },
+    {
+      "folio": "f84r",
+      "partner_leaf": "f84v",
+      "loc": "f84r.2",
+      "tag": "@Ln",
+      "raw": "shekar",
+      "canon": "shekar",
+      "root": "shek",
+      "radicals": [
+        "sh",
+        "ek"
+      ],
+      "glosses": [
+        "ACT:heat/steep",
+        "DISTILL(ek)"
+      ],
+      "canon_bio_df": 1,
+      "root_bio_df": 15,
+      "same_folio_hit": true,
+      "same_leaf_hit": true,
+      "matched_prose_locs": [
+        "f84r.30:shekam"
+      ]
+    },
+    {
+      "folio": "f83r",
+      "partner_leaf": "f83v",
+      "loc": "f83r.46",
+      "tag": "=Lt",
+      "raw": "olsaiin",
+      "canon": "olsain",
+      "root": "ols",
+      "radicals": [
+        "ol",
+        "s"
+      ],
+      "glosses": [
+        "FLUID/TUBE(ol)",
+        "SEED/PART(s)"
+      ],
+      "canon_bio_df": 0,
+      "root_bio_df": 1,
+      "same_folio_hit": true,
+      "same_leaf_hit": true,
+      "matched_prose_locs": [
+        "f83r.24:olsaly"
+      ]
+    }
+  ]
+}

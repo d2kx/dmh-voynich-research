@@ -1,0 +1,4541 @@
+{
+  "summary": {
+    "total_explicit_pt_lines": 10,
+    "total_pr_lines": 12,
+    "total_pc_lines": 17,
+    "total_colophon_lines": 39,
+    "pt_folios": [
+      "f1r",
+      "f25r",
+      "f42v",
+      "f46v",
+      "f8r"
+    ],
+    "cross_pt_folio_chain_test": {
+      "rare_pt_items_tested": 9,
+      "observed_cross_pt_folio_hits": 3,
+      "null_mean_herbal_a": 0.806,
+      "null_std_herbal_a": 0.833,
+      "z_score": 2.63,
+      "empirical_p_value": 0.035,
+      "rare_pt_items": [
+        {
+          "src_folio": "f1r",
+          "src_loc": "f1r.10",
+          "type": "rare_raw_word_orthography",
+          "item": "teody",
+          "canon": "teody",
+          "total_target_folios": 8,
+          "target_folios": [
+            "f102v1",
+            "f102v2",
+            "f111v",
+            "f113v",
+            "f116r",
+            "f68v1",
+            "f72v3",
+            "f86v5"
+          ],
+          "pt_folio_hits": []
+        },
+        {
+          "src_folio": "f1r",
+          "src_loc": "f1r.21",
+          "type": "rare_canon_bigram",
+          "item": "otol . daiiin",
+          "canon": "otol . dain",
+          "total_target_folios": 9,
+          "target_folios": [
+            "f16r",
+            "f19v",
+            "f21v",
+            "f42v",
+            "f44v",
+            "f49r",
+            "f4v",
+            "f79v",
+            "f99v"
+          ],
+          "pt_folio_hits": [
+            "f42v"
+          ]
+        },
+        {
+          "src_folio": "f1r",
+          "src_loc": "f1r.28",
+          "type": "rare_canon_word",
+          "item": "dchaiin",
+          "canon": "dchain",
+          "total_target_folios": 5,
+          "target_folios": [
+            "f20r",
+            "f25r",
+            "f35r",
+            "f35v",
+            "f68v2"
+          ],
+          "pt_folio_hits": [
+            "f25r"
+          ]
+        },
+        {
+          "src_folio": "f8r",
+          "src_loc": "f8r.8",
+          "type": "rare_canon_word",
+          "item": "dcho",
+          "canon": "dcho",
+          "total_target_folios": 5,
+          "target_folios": [
+            "f1v",
+            "f32v",
+            "f49v",
+            "f69r",
+            "f93v"
+          ],
+          "pt_folio_hits": []
+        },
+        {
+          "src_folio": "f8r",
+          "src_loc": "f8r.8",
+          "type": "rare_canon_bigram",
+          "item": "dcho . dain",
+          "canon": "dcho . dain",
+          "total_target_folios": 1,
+          "target_folios": [
+            "f32v"
+          ],
+          "pt_folio_hits": []
+        },
+        {
+          "src_folio": "f8r",
+          "src_loc": "f8r.21",
+          "type": "rare_canon_word",
+          "item": "schol",
+          "canon": "schol",
+          "total_target_folios": 2,
+          "target_folios": [
+            "f14r",
+            "f56r"
+          ],
+          "pt_folio_hits": []
+        },
+        {
+          "src_folio": "f8r",
+          "src_loc": "f8r.21",
+          "type": "rare_raw_word_orthography",
+          "item": "saim",
+          "canon": "saim",
+          "total_target_folios": 1,
+          "target_folios": [
+            "f46v"
+          ],
+          "pt_folio_hits": [
+            "f46v"
+          ]
+        },
+        {
+          "src_folio": "f25r",
+          "src_loc": "f25r.7",
+          "type": "rare_raw_word_orthography",
+          "item": "otaiir",
+          "canon": "otaiir",
+          "total_target_folios": 2,
+          "target_folios": [
+            "f113v",
+            "f24v"
+          ],
+          "pt_folio_hits": []
+        },
+        {
+          "src_folio": "f42v",
+          "src_loc": "f42v.16",
+          "type": "rare_canon_word",
+          "item": "odeey",
+          "canon": "odey",
+          "total_target_folios": 6,
+          "target_folios": [
+            "f103r",
+            "f104v",
+            "f105r",
+            "f76v",
+            "f86v3",
+            "fRos"
+          ],
+          "pt_folio_hits": []
+        }
+      ]
+    },
+    "colophon_morphological_laws": {
+      "colophon_starts_with_y_rate": 0.1795,
+      "ordinary_p0_starts_with_y_rate": 0.1547,
+      "y_initial_enrichment_ratio": 1.16,
+      "pr_has_m_terminal_rate": 0.4167,
+      "ordinary_p0_has_m_rate": 0.2016,
+      "pr_m_enrichment_ratio": 2.07,
+      "pt_vs_pr_pc_echo": {
+        "observed_echo_lines": 8,
+        "total_pr_pc_lines": 29,
+        "null_mean": 5.71,
+        "null_std": 2.15,
+        "z_score": 1.07,
+        "echo_matches": [
+          {
+            "loc": "f48r.8",
+            "tag": "+Pr",
+            "raw_phrase": "otchdain . shol . oteol . oteoly . ykeey . dam . dr",
+            "matched_pt_items": [
+              "root:oteol(te)",
+              "root:oteoly(te)"
+            ]
+          },
+          {
+            "loc": "f86v5.39",
+            "tag": "+Pr",
+            "raw_phrase": "yteody . chedy . qoteey . octhy . dy",
+            "matched_pt_items": [
+              "root:yteody(te)"
+            ]
+          },
+          {
+            "loc": "f105r.10",
+            "tag": "+Pr",
+            "raw_phrase": "sairy . ore . daiindy . ytam",
+            "matched_pt_items": [
+              "root:sairy(sai)"
+            ]
+          },
+          {
+            "loc": "f31r.16",
+            "tag": "+Pc",
+            "raw_phrase": "oteor . aiicthy",
+            "matched_pt_items": [
+              "root:oteor(te)"
+            ]
+          },
+          {
+            "loc": "f39r.16",
+            "tag": "+Pc",
+            "raw_phrase": "oteol . cholkal . qokal . dar . ykdy",
+            "matched_pt_items": [
+              "root:oteol(te)"
+            ]
+          },
+          {
+            "loc": "f85r1.35",
+            "tag": "+Pc",
+            "raw_phrase": "s . ar . chedar . olpchdy . otol . otchedy",
+            "matched_pt_items": [
+              "canon:otol(otol)"
+            ]
+          },
+          {
+            "loc": "f101v.28",
+            "tag": "+Pc",
+            "raw_phrase": "teol . cheol . etchey . ???cheo . r . cheol . cthol . cholaiin . chol . qkar",
+            "matched_pt_items": [
+              "root:teol(te)"
+            ]
+          },
+          {
+            "loc": "f105r.37",
+            "tag": "+Pc",
+            "raw_phrase": "otoiir . chedaiin . otair . otaly",
+            "matched_pt_items": [
+              "canon:otair(otair)"
+            ]
+          }
+        ]
+      }
+    },
+    "ending_enrichment_vs_prose": {
+      "g": {
+        "pt_count": 1,
+        "pt_rate": 0.0455,
+        "prose_count": 107,
+        "prose_rate": 0.0032,
+        "enrichment_ratio": 14.43
+      },
+      "m": {
+        "pt_count": 1,
+        "pt_rate": 0.0455,
+        "prose_count": 861,
+        "prose_rate": 0.0254,
+        "enrichment_ratio": 1.79
+      },
+      "in": {
+        "pt_count": 4,
+        "pt_rate": 0.1818,
+        "prose_count": 5475,
+        "prose_rate": 0.1612,
+        "enrichment_ratio": 1.13
+      },
+      "y": {
+        "pt_count": 7,
+        "pt_rate": 0.3182,
+        "prose_count": 13800,
+        "prose_rate": 0.4063,
+        "enrichment_ratio": 0.78
+      }
+    }
+  },
+  "explicit_pt_titles": [
+    {
+      "folio": "f1r",
+      "quire": "A",
+      "loc": "f1r.6",
+      "tag": "=Pt",
+      "section": "Text-only",
+      "lang": "A",
+      "raw_phrase": "ydaraishy",
+      "parent_para_lines": 5,
+      "words": [
+        {
+          "raw": "ydaraishy",
+          "clean_raw": "ydaraishy",
+          "canon": "ydaraishy",
+          "core_root": "ydaraish",
+          "suff": "S:-y",
+          "radicals": [
+            "y",
+            "dar",
+            "a",
+            "i",
+            "sh"
+          ],
+          "radical_glosses": [
+            "STATE(y)",
+            "JAR/ROOT_SRC(dar)",
+            "HUB_AXIS(a)",
+            "i",
+            "ACT:heat/steep"
+          ],
+          "echoes_parent_para_word": false,
+          "echoes_parent_para_root": false,
+          "echoes_parent_para_radical": true,
+          "echoes_same_folio_word": false,
+          "echoes_same_folio_root": false,
+          "exact_raw_matches_count": 0,
+          "exact_raw_matches_sample": [],
+          "exact_canon_matches_count": 0,
+          "core_root_matches_count": 0,
+          "exact_canon_matches_sample": [],
+          "diagram_label_matches": []
+        }
+      ],
+      "phrase_or_compound_matches": []
+    },
+    {
+      "folio": "f1r",
+      "quire": "A",
+      "loc": "f1r.10",
+      "tag": "=Pt",
+      "section": "Text-only",
+      "lang": "A",
+      "raw_phrase": "dain . os . teody",
+      "parent_para_lines": 3,
+      "words": [
+        {
+          "raw": "dain",
+          "clean_raw": "dain",
+          "canon": "dain",
+          "core_root": "d",
+          "suff": "S:-ain",
+          "radicals": [
+            "d"
+          ],
+          "radical_glosses": [
+            "BASE/HUB(d)"
+          ],
+          "echoes_parent_para_word": true,
+          "echoes_parent_para_root": true,
+          "echoes_parent_para_radical": true,
+          "echoes_same_folio_word": true,
+          "echoes_same_folio_root": true,
+          "exact_raw_matches_count": 213,
+          "exact_raw_matches_sample": [
+            {
+              "loc": "f1r.8",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.14",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.18",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.20",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.23",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f2r.6",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f2r.9",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f3v.14",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dain",
+              "canon": "dain"
+            }
+          ],
+          "exact_canon_matches_count": 1083,
+          "core_root_matches_count": 0,
+          "exact_canon_matches_sample": [
+            {
+              "loc": "f1r.4",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.8",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.9",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.12",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.14",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.15",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.18",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.20",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            }
+          ],
+          "diagram_label_matches": [
+            {
+              "loc": "f57v.4",
+              "tag": "+Cc",
+              "sec": "Cosmological",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f66r.82",
+              "tag": "@Lx",
+              "sec": "Text-only",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f67r1.6",
+              "tag": "+Cc",
+              "sec": "Astronomical",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f67r2.56",
+              "tag": "&Ls",
+              "sec": "Astronomical",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f68r3.1",
+              "tag": "@Cc",
+              "sec": "Astronomical",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f68v3.5",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f68v2.6",
+              "tag": "@Cc",
+              "sec": "Astronomical",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f68v1.1",
+              "tag": "@Cc",
+              "sec": "Astronomical",
+              "raw": "daiin",
+              "canon": "dain"
+            }
+          ]
+        },
+        {
+          "raw": "os",
+          "clean_raw": "os",
+          "canon": "os",
+          "core_root": "o",
+          "suff": "S:-s",
+          "radicals": [
+            "o"
+          ],
+          "radical_glosses": [
+            "ENTITY_CORE(o)"
+          ],
+          "echoes_parent_para_word": true,
+          "echoes_parent_para_root": true,
+          "echoes_parent_para_radical": true,
+          "echoes_same_folio_word": true,
+          "echoes_same_folio_root": true,
+          "exact_raw_matches_count": 32,
+          "exact_raw_matches_sample": [
+            {
+              "loc": "f1r.8",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "os",
+              "canon": "os"
+            },
+            {
+              "loc": "f6r.3",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "os",
+              "canon": "os"
+            },
+            {
+              "loc": "f6v.4",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "os",
+              "canon": "os"
+            },
+            {
+              "loc": "f10r.2",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "os",
+              "canon": "os"
+            },
+            {
+              "loc": "f17v.7",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "os",
+              "canon": "os"
+            },
+            {
+              "loc": "f19r.13",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "os",
+              "canon": "os"
+            },
+            {
+              "loc": "f42r.19",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "os",
+              "canon": "os"
+            },
+            {
+              "loc": "f53r.9",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "os",
+              "canon": "os"
+            }
+          ],
+          "exact_canon_matches_count": 36,
+          "core_root_matches_count": 0,
+          "exact_canon_matches_sample": [
+            {
+              "loc": "f1r.8",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "os",
+              "canon": "os"
+            },
+            {
+              "loc": "f6r.3",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "os",
+              "canon": "os"
+            },
+            {
+              "loc": "f6v.4",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "os",
+              "canon": "os"
+            },
+            {
+              "loc": "f7v.6",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "qos",
+              "canon": "os"
+            },
+            {
+              "loc": "f10r.2",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "os",
+              "canon": "os"
+            },
+            {
+              "loc": "f17v.7",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "os",
+              "canon": "os"
+            },
+            {
+              "loc": "f19r.13",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "os",
+              "canon": "os"
+            },
+            {
+              "loc": "f42r.19",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "os",
+              "canon": "os"
+            }
+          ],
+          "diagram_label_matches": [
+            {
+              "loc": "f69r.15",
+              "tag": "&L0",
+              "sec": "Cosmological",
+              "raw": "os",
+              "canon": "os"
+            },
+            {
+              "loc": "f70r1.3",
+              "tag": "+Cc",
+              "sec": "Cosmological",
+              "raw": "os",
+              "canon": "os"
+            },
+            {
+              "loc": "f72r3.1",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "os",
+              "canon": "os"
+            },
+            {
+              "loc": "f85r2.1",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "os",
+              "canon": "os"
+            },
+            {
+              "loc": "fRos.62",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "os",
+              "canon": "os"
+            },
+            {
+              "loc": "f86v4.1",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "os",
+              "canon": "os"
+            },
+            {
+              "loc": "f86v4.3",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "o[s:r]",
+              "canon": "os"
+            },
+            {
+              "loc": "f102v2.29",
+              "tag": "@Lf",
+              "sec": "Pharmaceutical",
+              "raw": "os",
+              "canon": "os"
+            }
+          ]
+        },
+        {
+          "raw": "teody",
+          "clean_raw": "teody",
+          "canon": "teody",
+          "core_root": "te",
+          "suff": "S:-ody",
+          "radicals": [
+            "te"
+          ],
+          "radical_glosses": [
+            "DRAW/CONDUIT(te)"
+          ],
+          "echoes_parent_para_word": false,
+          "echoes_parent_para_root": false,
+          "echoes_parent_para_radical": false,
+          "echoes_same_folio_word": false,
+          "echoes_same_folio_root": true,
+          "exact_raw_matches_count": 10,
+          "exact_raw_matches_sample": [
+            {
+              "loc": "f68v1.1",
+              "tag": "@Cc",
+              "sec": "Astronomical",
+              "raw": "teody",
+              "canon": "teody"
+            },
+            {
+              "loc": "f72v3.1",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "teody",
+              "canon": "teody"
+            },
+            {
+              "loc": "f72v3.1",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "teody",
+              "canon": "teody"
+            },
+            {
+              "loc": "f86v5.13",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "teody",
+              "canon": "teody"
+            },
+            {
+              "loc": "f86v5.32",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "teody",
+              "canon": "teody"
+            },
+            {
+              "loc": "f102v2.35",
+              "tag": "+P0",
+              "sec": "Pharmaceutical",
+              "raw": "teody",
+              "canon": "teody"
+            },
+            {
+              "loc": "f102v1.9",
+              "tag": "+P0",
+              "sec": "Pharmaceutical",
+              "raw": "teody",
+              "canon": "teody"
+            },
+            {
+              "loc": "f111v.34",
+              "tag": "+P0",
+              "sec": "Starred Recipes",
+              "raw": "teody",
+              "canon": "teody"
+            }
+          ],
+          "exact_canon_matches_count": 16,
+          "core_root_matches_count": 330,
+          "exact_canon_matches_sample": [
+            {
+              "loc": "f68v2.1",
+              "tag": "@P0",
+              "sec": "Astronomical",
+              "raw": "teeody",
+              "canon": "teody"
+            },
+            {
+              "loc": "f68v1.1",
+              "tag": "@Cc",
+              "sec": "Astronomical",
+              "raw": "teody",
+              "canon": "teody"
+            },
+            {
+              "loc": "f72r1.12",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "teeody",
+              "canon": "teody"
+            },
+            {
+              "loc": "f72v3.1",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "teody",
+              "canon": "teody"
+            },
+            {
+              "loc": "f72v3.1",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "teody",
+              "canon": "teody"
+            },
+            {
+              "loc": "f86v5.13",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "teody",
+              "canon": "teody"
+            },
+            {
+              "loc": "f86v5.32",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "teody",
+              "canon": "teody"
+            },
+            {
+              "loc": "f86v3.35",
+              "tag": "+Pb",
+              "sec": "Cosmological",
+              "raw": "teeody",
+              "canon": "teody"
+            }
+          ],
+          "diagram_label_matches": [
+            {
+              "loc": "f68v1.1",
+              "tag": "@Cc",
+              "sec": "Astronomical",
+              "raw": "teody",
+              "canon": "teody"
+            },
+            {
+              "loc": "f72r1.12",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "teeody",
+              "canon": "teody"
+            },
+            {
+              "loc": "f72v3.1",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "teody",
+              "canon": "teody"
+            },
+            {
+              "loc": "f57v.5",
+              "tag": "+Cc",
+              "sec": "Cosmological",
+              "raw": "oteeody",
+              "canon": "oteody"
+            },
+            {
+              "loc": "f67r1.7",
+              "tag": "+Cc",
+              "sec": "Astronomical",
+              "raw": "oteees",
+              "canon": "otes"
+            },
+            {
+              "loc": "f68r2.16",
+              "tag": "@Ls",
+              "sec": "Astronomical",
+              "raw": "oteool",
+              "canon": "oteool"
+            },
+            {
+              "loc": "f68r2.21",
+              "tag": "@Ls",
+              "sec": "Astronomical",
+              "raw": "oteeear",
+              "canon": "otear"
+            },
+            {
+              "loc": "f68r3.1",
+              "tag": "@Cc",
+              "sec": "Astronomical",
+              "raw": "oteeody",
+              "canon": "oteody"
+            }
+          ]
+        }
+      ],
+      "phrase_or_compound_matches": []
+    },
+    {
+      "folio": "f1r",
+      "quire": "A",
+      "loc": "f1r.21",
+      "tag": "=Pt",
+      "section": "Text-only",
+      "lang": "A",
+      "raw_phrase": "otol . daiiin",
+      "parent_para_lines": 10,
+      "words": [
+        {
+          "raw": "otol",
+          "clean_raw": "otol",
+          "canon": "otol",
+          "core_root": "t",
+          "suff": "N:o-|S:-ol",
+          "radicals": [
+            "t"
+          ],
+          "radical_glosses": [
+            "TUBE/DUCT(t)"
+          ],
+          "echoes_parent_para_word": false,
+          "echoes_parent_para_root": true,
+          "echoes_parent_para_radical": true,
+          "echoes_same_folio_word": false,
+          "echoes_same_folio_root": true,
+          "exact_raw_matches_count": 81,
+          "exact_raw_matches_sample": [
+            {
+              "loc": "f5r.2",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "otol",
+              "canon": "otol"
+            },
+            {
+              "loc": "f5v.4",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "otol",
+              "canon": "otol"
+            },
+            {
+              "loc": "f5v.6",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "otol",
+              "canon": "otol"
+            },
+            {
+              "loc": "f8v.1",
+              "tag": "@P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "otol",
+              "canon": "otol"
+            },
+            {
+              "loc": "f9v.4",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "otol",
+              "canon": "otol"
+            },
+            {
+              "loc": "f10r.8",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "otol",
+              "canon": "otol"
+            },
+            {
+              "loc": "f11r.6",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "otol",
+              "canon": "otol"
+            },
+            {
+              "loc": "f13v.1",
+              "tag": "@P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "otol",
+              "canon": "otol"
+            }
+          ],
+          "exact_canon_matches_count": 125,
+          "core_root_matches_count": 0,
+          "exact_canon_matches_sample": [
+            {
+              "loc": "f4v.11",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "qotol",
+              "canon": "otol"
+            },
+            {
+              "loc": "f5r.2",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "otol",
+              "canon": "otol"
+            },
+            {
+              "loc": "f5v.4",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "otol",
+              "canon": "otol"
+            },
+            {
+              "loc": "f5v.6",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "otol",
+              "canon": "otol"
+            },
+            {
+              "loc": "f8v.1",
+              "tag": "@P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "otol",
+              "canon": "otol"
+            },
+            {
+              "loc": "f9r.7",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "qotol",
+              "canon": "otol"
+            },
+            {
+              "loc": "f9v.4",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "otol",
+              "canon": "otol"
+            },
+            {
+              "loc": "f10r.8",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "otol",
+              "canon": "otol"
+            }
+          ],
+          "diagram_label_matches": [
+            {
+              "loc": "f68r1.25",
+              "tag": "@Ls",
+              "sec": "Astronomical",
+              "raw": "otol",
+              "canon": "otol"
+            },
+            {
+              "loc": "f68v3.5",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "otol",
+              "canon": "otol"
+            },
+            {
+              "loc": "f68v1.1",
+              "tag": "@Cc",
+              "sec": "Astronomical",
+              "raw": "otol",
+              "canon": "otol"
+            },
+            {
+              "loc": "f70r1.2",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "otol",
+              "canon": "otol"
+            },
+            {
+              "loc": "f70r2.17",
+              "tag": "+Cc",
+              "sec": "Cosmological",
+              "raw": "otol",
+              "canon": "otol"
+            },
+            {
+              "loc": "f71r.1",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "otol",
+              "canon": "otol"
+            },
+            {
+              "loc": "f72v2.20",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "otol",
+              "canon": "otol"
+            },
+            {
+              "loc": "f72v1.22",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "otol",
+              "canon": "otol"
+            }
+          ]
+        },
+        {
+          "raw": "daiiin",
+          "clean_raw": "daiiin",
+          "canon": "dain",
+          "core_root": "d",
+          "suff": "V:ee/ii|S:-ain",
+          "radicals": [
+            "d"
+          ],
+          "radical_glosses": [
+            "BASE/HUB(d)"
+          ],
+          "echoes_parent_para_word": true,
+          "echoes_parent_para_root": true,
+          "echoes_parent_para_radical": true,
+          "echoes_same_folio_word": true,
+          "echoes_same_folio_root": true,
+          "exact_raw_matches_count": 20,
+          "exact_raw_matches_sample": [
+            {
+              "loc": "f2v.5",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "daiiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f9v.5",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "daiiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f17r.11",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "daiiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f19v.3",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "daiiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f26v.1",
+              "tag": "@P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "daiiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f27r.11",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "daiiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f28v.5",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "daiiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f37v.9",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "daiiin",
+              "canon": "dain"
+            }
+          ],
+          "exact_canon_matches_count": 1083,
+          "core_root_matches_count": 0,
+          "exact_canon_matches_sample": [
+            {
+              "loc": "f1r.4",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.8",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.9",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.10",
+              "tag": "=Pt",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.12",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.14",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.15",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.18",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            }
+          ],
+          "diagram_label_matches": [
+            {
+              "loc": "f57v.4",
+              "tag": "+Cc",
+              "sec": "Cosmological",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f66r.82",
+              "tag": "@Lx",
+              "sec": "Text-only",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f67r1.6",
+              "tag": "+Cc",
+              "sec": "Astronomical",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f67r2.56",
+              "tag": "&Ls",
+              "sec": "Astronomical",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f68r3.1",
+              "tag": "@Cc",
+              "sec": "Astronomical",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f68v3.5",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f68v2.6",
+              "tag": "@Cc",
+              "sec": "Astronomical",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f68v1.1",
+              "tag": "@Cc",
+              "sec": "Astronomical",
+              "raw": "daiin",
+              "canon": "dain"
+            }
+          ]
+        }
+      ],
+      "phrase_or_compound_matches": [
+        {
+          "loc": "f4v.11",
+          "tag": "+P0",
+          "sec": "Herbal (Botanical)",
+          "match_type": "exact_canon_bigram",
+          "phrase": "qotol . daiin"
+        },
+        {
+          "loc": "f16r.8",
+          "tag": "+P0",
+          "sec": "Herbal (Botanical)",
+          "match_type": "exact_canon_bigram",
+          "phrase": "otol . daiin"
+        },
+        {
+          "loc": "f19v.4",
+          "tag": "+P0",
+          "sec": "Herbal (Botanical)",
+          "match_type": "exact_canon_bigram",
+          "phrase": "qotol . daiin"
+        },
+        {
+          "loc": "f21v.3",
+          "tag": "+P0",
+          "sec": "Herbal (Botanical)",
+          "match_type": "exact_canon_bigram",
+          "phrase": "qotol . daiin"
+        },
+        {
+          "loc": "f42v.2",
+          "tag": "+P0",
+          "sec": "Herbal (Botanical)",
+          "match_type": "exact_canon_bigram",
+          "phrase": "otol . daiin"
+        },
+        {
+          "loc": "f44v.3",
+          "tag": "+P0",
+          "sec": "Herbal (Botanical)",
+          "match_type": "exact_canon_bigram",
+          "phrase": "otol . daiin"
+        },
+        {
+          "loc": "f49r.14",
+          "tag": "+P0",
+          "sec": "Herbal (Botanical)",
+          "match_type": "exact_canon_bigram",
+          "phrase": "otol . daiin"
+        },
+        {
+          "loc": "f55v.1",
+          "tag": "@P0",
+          "sec": "Herbal (Botanical)",
+          "match_type": "fused_compound",
+          "word": "otoldaiin"
+        },
+        {
+          "loc": "f79v.35",
+          "tag": "+P0",
+          "sec": "Biological (Balneological)",
+          "match_type": "exact_canon_bigram",
+          "phrase": "otol . dain"
+        },
+        {
+          "loc": "f99v.12",
+          "tag": "+P0",
+          "sec": "Pharmaceutical",
+          "match_type": "exact_canon_bigram",
+          "phrase": "otol . daiin"
+        }
+      ]
+    },
+    {
+      "folio": "f1r",
+      "quire": "A",
+      "loc": "f1r.28",
+      "tag": "=Pt",
+      "section": "Text-only",
+      "lang": "A",
+      "raw_phrase": "dchaiin",
+      "parent_para_lines": 6,
+      "words": [
+        {
+          "raw": "dchaiin",
+          "clean_raw": "dchaiin",
+          "canon": "dchain",
+          "core_root": "dch",
+          "suff": "V:ee/ii|S:-ain",
+          "radicals": [
+            "d",
+            "ch"
+          ],
+          "radical_glosses": [
+            "BASE/HUB(d)",
+            "ACT:mix/proc"
+          ],
+          "echoes_parent_para_word": false,
+          "echoes_parent_para_root": false,
+          "echoes_parent_para_radical": true,
+          "echoes_same_folio_word": false,
+          "echoes_same_folio_root": true,
+          "exact_raw_matches_count": 4,
+          "exact_raw_matches_sample": [
+            {
+              "loc": "f20r.11",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dchaiin",
+              "canon": "dchain"
+            },
+            {
+              "loc": "f35r.3",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dchaiin",
+              "canon": "dchain"
+            },
+            {
+              "loc": "f35v.12",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dchaiin",
+              "canon": "dchain"
+            },
+            {
+              "loc": "f68v2.2",
+              "tag": "+P0",
+              "sec": "Astronomical",
+              "raw": "dchaiin",
+              "canon": "dchain"
+            }
+          ],
+          "exact_canon_matches_count": 5,
+          "core_root_matches_count": 176,
+          "exact_canon_matches_sample": [
+            {
+              "loc": "f20r.11",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dchaiin",
+              "canon": "dchain"
+            },
+            {
+              "loc": "f25r.5",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dchain",
+              "canon": "dchain"
+            },
+            {
+              "loc": "f35r.3",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dchaiin",
+              "canon": "dchain"
+            },
+            {
+              "loc": "f35v.12",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dchaiin",
+              "canon": "dchain"
+            },
+            {
+              "loc": "f68v2.2",
+              "tag": "+P0",
+              "sec": "Astronomical",
+              "raw": "dchaiin",
+              "canon": "dchain"
+            }
+          ],
+          "diagram_label_matches": [
+            {
+              "loc": "f68r2.12",
+              "tag": "@Ls",
+              "sec": "Astronomical",
+              "raw": "dchol",
+              "canon": "dchol"
+            },
+            {
+              "loc": "f68r3.1",
+              "tag": "@Cc",
+              "sec": "Astronomical",
+              "raw": "dchedy",
+              "canon": "dchedy"
+            },
+            {
+              "loc": "f68r3.10",
+              "tag": "@Ls",
+              "sec": "Astronomical",
+              "raw": "dchol",
+              "canon": "dchol"
+            },
+            {
+              "loc": "f68v3.5",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "dchol",
+              "canon": "dchol"
+            },
+            {
+              "loc": "f69v.1",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "dchor",
+              "canon": "dchor"
+            },
+            {
+              "loc": "f69v.3",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "dchy",
+              "canon": "dchy"
+            },
+            {
+              "loc": "f72v2.1",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "dchy",
+              "canon": "dchy"
+            },
+            {
+              "loc": "f77r.6",
+              "tag": "~Lt",
+              "sec": "Biological (Balneological)",
+              "raw": "dchdy",
+              "canon": "dchdy"
+            }
+          ]
+        }
+      ],
+      "phrase_or_compound_matches": []
+    },
+    {
+      "folio": "f8r",
+      "quire": "A",
+      "loc": "f8r.8",
+      "tag": "=Pt",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "dcho . dain",
+      "parent_para_lines": 7,
+      "words": [
+        {
+          "raw": "dcho",
+          "clean_raw": "dcho",
+          "canon": "dcho",
+          "core_root": "dcho",
+          "suff": "S:0",
+          "radicals": [
+            "d",
+            "ch",
+            "o"
+          ],
+          "radical_glosses": [
+            "BASE/HUB(d)",
+            "ACT:mix/proc",
+            "ENTITY_CORE(o)"
+          ],
+          "echoes_parent_para_word": false,
+          "echoes_parent_para_root": false,
+          "echoes_parent_para_radical": true,
+          "echoes_same_folio_word": false,
+          "echoes_same_folio_root": false,
+          "exact_raw_matches_count": 6,
+          "exact_raw_matches_sample": [
+            {
+              "loc": "f1v.2",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dcho",
+              "canon": "dcho"
+            },
+            {
+              "loc": "f32v.4",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dch[o:a]",
+              "canon": "dcho"
+            },
+            {
+              "loc": "f49v.30",
+              "tag": "=P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dcho",
+              "canon": "dcho"
+            },
+            {
+              "loc": "f49v.32",
+              "tag": "=P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dcho",
+              "canon": "dcho"
+            },
+            {
+              "loc": "f69r.9",
+              "tag": "&L0",
+              "sec": "Cosmological",
+              "raw": "dcho",
+              "canon": "dcho"
+            },
+            {
+              "loc": "f93v.8",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dcho",
+              "canon": "dcho"
+            }
+          ],
+          "exact_canon_matches_count": 6,
+          "core_root_matches_count": 11,
+          "exact_canon_matches_sample": [
+            {
+              "loc": "f1v.2",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dcho",
+              "canon": "dcho"
+            },
+            {
+              "loc": "f32v.4",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dch[o:a]",
+              "canon": "dcho"
+            },
+            {
+              "loc": "f49v.30",
+              "tag": "=P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dcho",
+              "canon": "dcho"
+            },
+            {
+              "loc": "f49v.32",
+              "tag": "=P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dcho",
+              "canon": "dcho"
+            },
+            {
+              "loc": "f69r.9",
+              "tag": "&L0",
+              "sec": "Cosmological",
+              "raw": "dcho",
+              "canon": "dcho"
+            },
+            {
+              "loc": "f93v.8",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dcho",
+              "canon": "dcho"
+            }
+          ],
+          "diagram_label_matches": [
+            {
+              "loc": "f69r.9",
+              "tag": "&L0",
+              "sec": "Cosmological",
+              "raw": "dcho",
+              "canon": "dcho"
+            }
+          ]
+        },
+        {
+          "raw": "dain",
+          "clean_raw": "dain",
+          "canon": "dain",
+          "core_root": "d",
+          "suff": "S:-ain",
+          "radicals": [
+            "d"
+          ],
+          "radical_glosses": [
+            "BASE/HUB(d)"
+          ],
+          "echoes_parent_para_word": true,
+          "echoes_parent_para_root": true,
+          "echoes_parent_para_radical": true,
+          "echoes_same_folio_word": true,
+          "echoes_same_folio_root": true,
+          "exact_raw_matches_count": 213,
+          "exact_raw_matches_sample": [
+            {
+              "loc": "f1r.8",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.10",
+              "tag": "=Pt",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.14",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.18",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.20",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.23",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f2r.6",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f2r.9",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dain",
+              "canon": "dain"
+            }
+          ],
+          "exact_canon_matches_count": 1083,
+          "core_root_matches_count": 0,
+          "exact_canon_matches_sample": [
+            {
+              "loc": "f1r.4",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.8",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.9",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.10",
+              "tag": "=Pt",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.12",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.14",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.15",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f1r.18",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "dain",
+              "canon": "dain"
+            }
+          ],
+          "diagram_label_matches": [
+            {
+              "loc": "f57v.4",
+              "tag": "+Cc",
+              "sec": "Cosmological",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f66r.82",
+              "tag": "@Lx",
+              "sec": "Text-only",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f67r1.6",
+              "tag": "+Cc",
+              "sec": "Astronomical",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f67r2.56",
+              "tag": "&Ls",
+              "sec": "Astronomical",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f68r3.1",
+              "tag": "@Cc",
+              "sec": "Astronomical",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f68v3.5",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f68v2.6",
+              "tag": "@Cc",
+              "sec": "Astronomical",
+              "raw": "daiin",
+              "canon": "dain"
+            },
+            {
+              "loc": "f68v1.1",
+              "tag": "@Cc",
+              "sec": "Astronomical",
+              "raw": "daiin",
+              "canon": "dain"
+            }
+          ]
+        }
+      ],
+      "phrase_or_compound_matches": [
+        {
+          "loc": "f7v.5",
+          "tag": "+P0",
+          "sec": "Herbal (Botanical)",
+          "match_type": "fused_compound",
+          "word": "dchodaiin"
+        },
+        {
+          "loc": "f32v.4",
+          "tag": "+P0",
+          "sec": "Herbal (Botanical)",
+          "match_type": "exact_canon_bigram",
+          "phrase": "dch[o:a] . daiin"
+        },
+        {
+          "loc": "f49r.15",
+          "tag": "+P0",
+          "sec": "Herbal (Botanical)",
+          "match_type": "fused_compound",
+          "word": "dchodaiin"
+        }
+      ]
+    },
+    {
+      "folio": "f8r",
+      "quire": "A",
+      "loc": "f8r.13",
+      "tag": "=Pt",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "okokchodg",
+      "parent_para_lines": 4,
+      "words": [
+        {
+          "raw": "okokchodg",
+          "clean_raw": "okokchodg",
+          "canon": "okokchodg",
+          "core_root": "kokchodg",
+          "suff": "N:o-|S:0",
+          "radicals": [
+            "ko",
+            "kch",
+            "od",
+            "g"
+          ],
+          "radical_glosses": [
+            "STAR_NODE(ko)",
+            "STAR_OP(kch)",
+            "DOSAGE/VESSEL(od)",
+            "STOPPER/JAR_RIM(g)"
+          ],
+          "echoes_parent_para_word": false,
+          "echoes_parent_para_root": false,
+          "echoes_parent_para_radical": true,
+          "echoes_same_folio_word": false,
+          "echoes_same_folio_root": false,
+          "exact_raw_matches_count": 0,
+          "exact_raw_matches_sample": [],
+          "exact_canon_matches_count": 0,
+          "core_root_matches_count": 0,
+          "exact_canon_matches_sample": [],
+          "diagram_label_matches": []
+        }
+      ],
+      "phrase_or_compound_matches": []
+    },
+    {
+      "folio": "f8r",
+      "quire": "A",
+      "loc": "f8r.21",
+      "tag": "=Pt",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "schol . saim",
+      "parent_para_lines": 7,
+      "words": [
+        {
+          "raw": "schol",
+          "clean_raw": "schol",
+          "canon": "schol",
+          "core_root": "sch",
+          "suff": "S:-ol",
+          "radicals": [
+            "s",
+            "ch"
+          ],
+          "radical_glosses": [
+            "SEED/PART(s)",
+            "ACT:mix/proc"
+          ],
+          "echoes_parent_para_word": false,
+          "echoes_parent_para_root": false,
+          "echoes_parent_para_radical": true,
+          "echoes_same_folio_word": false,
+          "echoes_same_folio_root": false,
+          "exact_raw_matches_count": 2,
+          "exact_raw_matches_sample": [
+            {
+              "loc": "f14r.11",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "schol",
+              "canon": "schol"
+            },
+            {
+              "loc": "f56r.8",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "schol",
+              "canon": "schol"
+            }
+          ],
+          "exact_canon_matches_count": 2,
+          "core_root_matches_count": 29,
+          "exact_canon_matches_sample": [
+            {
+              "loc": "f14r.11",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "schol",
+              "canon": "schol"
+            },
+            {
+              "loc": "f56r.8",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "schol",
+              "canon": "schol"
+            }
+          ],
+          "diagram_label_matches": [
+            {
+              "loc": "f68r3.1",
+              "tag": "@Cc",
+              "sec": "Astronomical",
+              "raw": "oschaiin",
+              "canon": "oschain"
+            },
+            {
+              "loc": "f86v4.3",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "schdy",
+              "canon": "schdy"
+            }
+          ]
+        },
+        {
+          "raw": "saim",
+          "clean_raw": "saim",
+          "canon": "sair",
+          "core_root": "sai",
+          "suff": "M:-m->-r|S:-r",
+          "radicals": [
+            "s",
+            "a",
+            "i"
+          ],
+          "radical_glosses": [
+            "SEED/PART(s)",
+            "HUB_AXIS(a)",
+            "i"
+          ],
+          "echoes_parent_para_word": true,
+          "echoes_parent_para_root": true,
+          "echoes_parent_para_radical": true,
+          "echoes_same_folio_word": true,
+          "echoes_same_folio_root": true,
+          "exact_raw_matches_count": 1,
+          "exact_raw_matches_sample": [
+            {
+              "loc": "f46v.2",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "saim",
+              "canon": "sair"
+            }
+          ],
+          "exact_canon_matches_count": 35,
+          "core_root_matches_count": 47,
+          "exact_canon_matches_sample": [
+            {
+              "loc": "f1r.5",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "sair",
+              "canon": "sair"
+            },
+            {
+              "loc": "f8r.19",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "sair",
+              "canon": "sair"
+            },
+            {
+              "loc": "f26v.7",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "sair",
+              "canon": "sair"
+            },
+            {
+              "loc": "f31r.3",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "[s:r]air",
+              "canon": "sair"
+            },
+            {
+              "loc": "f31v.3",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "sair",
+              "canon": "sair"
+            },
+            {
+              "loc": "f34r.15",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "sair",
+              "canon": "sair"
+            },
+            {
+              "loc": "f46v.2",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "saim",
+              "canon": "sair"
+            },
+            {
+              "loc": "f66r.51",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "sair",
+              "canon": "sair"
+            }
+          ],
+          "diagram_label_matches": [
+            {
+              "loc": "fRos.20",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "sais",
+              "canon": "sais"
+            }
+          ]
+        }
+      ],
+      "phrase_or_compound_matches": []
+    },
+    {
+      "folio": "f25r",
+      "quire": "D",
+      "loc": "f25r.7",
+      "tag": "=Pt",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "dair . otaiir . otosy",
+      "parent_para_lines": 6,
+      "words": [
+        {
+          "raw": "dair",
+          "clean_raw": "dair",
+          "canon": "dair",
+          "core_root": "dai",
+          "suff": "S:-r",
+          "radicals": [
+            "d",
+            "a",
+            "i"
+          ],
+          "radical_glosses": [
+            "BASE/HUB(d)",
+            "HUB_AXIS(a)",
+            "i"
+          ],
+          "echoes_parent_para_word": false,
+          "echoes_parent_para_root": false,
+          "echoes_parent_para_radical": true,
+          "echoes_same_folio_word": false,
+          "echoes_same_folio_root": false,
+          "exact_raw_matches_count": 110,
+          "exact_raw_matches_sample": [
+            {
+              "loc": "f1v.4",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dair",
+              "canon": "dair"
+            },
+            {
+              "loc": "f1v.5",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dair",
+              "canon": "dair"
+            },
+            {
+              "loc": "f2v.1",
+              "tag": "@P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dair",
+              "canon": "dair"
+            },
+            {
+              "loc": "f3r.19",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dair",
+              "canon": "dair"
+            },
+            {
+              "loc": "f6v.5",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dair",
+              "canon": "dair"
+            },
+            {
+              "loc": "f7v.6",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dair",
+              "canon": "dair"
+            },
+            {
+              "loc": "f10r.7",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dair",
+              "canon": "dair"
+            },
+            {
+              "loc": "f11r.6",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dair",
+              "canon": "dair"
+            }
+          ],
+          "exact_canon_matches_count": 149,
+          "core_root_matches_count": 190,
+          "exact_canon_matches_sample": [
+            {
+              "loc": "f1v.4",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dair",
+              "canon": "dair"
+            },
+            {
+              "loc": "f1v.5",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dair",
+              "canon": "dair"
+            },
+            {
+              "loc": "f2v.1",
+              "tag": "@P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dair",
+              "canon": "dair"
+            },
+            {
+              "loc": "f3r.19",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dair",
+              "canon": "dair"
+            },
+            {
+              "loc": "f3v.10",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "daiim",
+              "canon": "dair"
+            },
+            {
+              "loc": "f6v.5",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dair",
+              "canon": "dair"
+            },
+            {
+              "loc": "f7v.6",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "dair",
+              "canon": "dair"
+            },
+            {
+              "loc": "f7v.9",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "daiir",
+              "canon": "dair"
+            }
+          ],
+          "diagram_label_matches": [
+            {
+              "loc": "f57v.2",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "daiir",
+              "canon": "dair"
+            },
+            {
+              "loc": "f67r1.6",
+              "tag": "+Cc",
+              "sec": "Astronomical",
+              "raw": "dair",
+              "canon": "dair"
+            },
+            {
+              "loc": "f67r1.7",
+              "tag": "+Cc",
+              "sec": "Astronomical",
+              "raw": "dair",
+              "canon": "dair"
+            },
+            {
+              "loc": "f68v2.6",
+              "tag": "@Cc",
+              "sec": "Astronomical",
+              "raw": "da[iir:iis]",
+              "canon": "dair"
+            },
+            {
+              "loc": "f68v1.1",
+              "tag": "@Cc",
+              "sec": "Astronomical",
+              "raw": "dair",
+              "canon": "dair"
+            },
+            {
+              "loc": "f69r.14",
+              "tag": "&L0",
+              "sec": "Cosmological",
+              "raw": "dair",
+              "canon": "dair"
+            },
+            {
+              "loc": "f69r.18",
+              "tag": "&L0",
+              "sec": "Cosmological",
+              "raw": "dair",
+              "canon": "dair"
+            },
+            {
+              "loc": "f69v.1",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "dair",
+              "canon": "dair"
+            }
+          ]
+        },
+        {
+          "raw": "otaiir",
+          "clean_raw": "otaiir",
+          "canon": "otair",
+          "core_root": "tai",
+          "suff": "V:ee/ii|N:o-|S:-r",
+          "radicals": [
+            "t",
+            "a",
+            "i"
+          ],
+          "radical_glosses": [
+            "TUBE/DUCT(t)",
+            "HUB_AXIS(a)",
+            "i"
+          ],
+          "echoes_parent_para_word": false,
+          "echoes_parent_para_root": false,
+          "echoes_parent_para_radical": true,
+          "echoes_same_folio_word": false,
+          "echoes_same_folio_root": false,
+          "exact_raw_matches_count": 2,
+          "exact_raw_matches_sample": [
+            {
+              "loc": "f24v.2",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "otaiir",
+              "canon": "otair"
+            },
+            {
+              "loc": "f113v.2",
+              "tag": "+P0",
+              "sec": "Starred Recipes",
+              "raw": "otaiir",
+              "canon": "otair"
+            }
+          ],
+          "exact_canon_matches_count": 35,
+          "core_root_matches_count": 87,
+          "exact_canon_matches_sample": [
+            {
+              "loc": "f24v.2",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "otaiir",
+              "canon": "otair"
+            },
+            {
+              "loc": "f58v.2",
+              "tag": "+P0",
+              "sec": "Starred Recipes",
+              "raw": "qotair",
+              "canon": "otair"
+            },
+            {
+              "loc": "f58v.37",
+              "tag": "+P0",
+              "sec": "Starred Recipes",
+              "raw": "otair",
+              "canon": "otair"
+            },
+            {
+              "loc": "f65r.1",
+              "tag": "@Lp",
+              "sec": "Herbal (Botanical)",
+              "raw": "otaim",
+              "canon": "otair"
+            },
+            {
+              "loc": "f69v.3",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "qotair",
+              "canon": "otair"
+            },
+            {
+              "loc": "f70r1.9",
+              "tag": "@Ri",
+              "sec": "Cosmological",
+              "raw": "otair",
+              "canon": "otair"
+            },
+            {
+              "loc": "f70v2.21",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "otair",
+              "canon": "otair"
+            },
+            {
+              "loc": "f72r2.14",
+              "tag": "&Lz",
+              "sec": "Zodiac (Astrological)",
+              "raw": "otair",
+              "canon": "otair"
+            }
+          ],
+          "diagram_label_matches": [
+            {
+              "loc": "f65r.1",
+              "tag": "@Lp",
+              "sec": "Herbal (Botanical)",
+              "raw": "otaim",
+              "canon": "otair"
+            },
+            {
+              "loc": "f69v.3",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "qotair",
+              "canon": "otair"
+            },
+            {
+              "loc": "f70v2.21",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "otair",
+              "canon": "otair"
+            },
+            {
+              "loc": "f72r2.14",
+              "tag": "&Lz",
+              "sec": "Zodiac (Astrological)",
+              "raw": "otair",
+              "canon": "otair"
+            },
+            {
+              "loc": "f89v2.12",
+              "tag": "@Lf",
+              "sec": "Pharmaceutical",
+              "raw": "otair",
+              "canon": "otair"
+            },
+            {
+              "loc": "f70r2.15",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "otai",
+              "canon": "otai"
+            },
+            {
+              "loc": "f70r2.17",
+              "tag": "+Cc",
+              "sec": "Cosmological",
+              "raw": "opaiir",
+              "canon": "opair"
+            },
+            {
+              "loc": "f72v1.29",
+              "tag": "&Lz",
+              "sec": "Zodiac (Astrological)",
+              "raw": "ypaim",
+              "canon": "ypair"
+            }
+          ]
+        },
+        {
+          "raw": "otosy",
+          "clean_raw": "otosy",
+          "canon": "otosy",
+          "core_root": "tos",
+          "suff": "N:o-|S:-y",
+          "radicals": [
+            "to",
+            "s"
+          ],
+          "radical_glosses": [
+            "SPOKE/RAY(to)",
+            "SEED/PART(s)"
+          ],
+          "echoes_parent_para_word": false,
+          "echoes_parent_para_root": false,
+          "echoes_parent_para_radical": true,
+          "echoes_same_folio_word": false,
+          "echoes_same_folio_root": false,
+          "exact_raw_matches_count": 0,
+          "exact_raw_matches_sample": [],
+          "exact_canon_matches_count": 0,
+          "core_root_matches_count": 3,
+          "exact_canon_matches_sample": [],
+          "diagram_label_matches": [
+            {
+              "loc": "fRos.128",
+              "tag": "@L0",
+              "sec": "Cosmological",
+              "raw": "otosaiin",
+              "canon": "otosain"
+            }
+          ]
+        }
+      ],
+      "phrase_or_compound_matches": []
+    },
+    {
+      "folio": "f42v",
+      "quire": "F",
+      "loc": "f42v.16",
+      "tag": "=Pt",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "okor . odeey",
+      "parent_para_lines": 7,
+      "words": [
+        {
+          "raw": "okor",
+          "clean_raw": "okor",
+          "canon": "okor",
+          "core_root": "k",
+          "suff": "N:o-|S:-or",
+          "radicals": [
+            "k"
+          ],
+          "radical_glosses": [
+            "VESSEL/BODY(k)"
+          ],
+          "echoes_parent_para_word": false,
+          "echoes_parent_para_root": true,
+          "echoes_parent_para_radical": true,
+          "echoes_same_folio_word": false,
+          "echoes_same_folio_root": true,
+          "exact_raw_matches_count": 34,
+          "exact_raw_matches_sample": [
+            {
+              "loc": "f3v.2",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "okor",
+              "canon": "okor"
+            },
+            {
+              "loc": "f6v.5",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "okor",
+              "canon": "okor"
+            },
+            {
+              "loc": "f9r.3",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "okor",
+              "canon": "okor"
+            },
+            {
+              "loc": "f14r.6",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "okor",
+              "canon": "okor"
+            },
+            {
+              "loc": "f15r.2",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "okor",
+              "canon": "okor"
+            },
+            {
+              "loc": "f17r.3",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "okor",
+              "canon": "okor"
+            },
+            {
+              "loc": "f31v.7",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "okor",
+              "canon": "okor"
+            },
+            {
+              "loc": "f32r.2",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "okor",
+              "canon": "okor"
+            }
+          ],
+          "exact_canon_matches_count": 70,
+          "core_root_matches_count": 0,
+          "exact_canon_matches_sample": [
+            {
+              "loc": "f3v.2",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "okor",
+              "canon": "okor"
+            },
+            {
+              "loc": "f3v.3",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "okom",
+              "canon": "okor"
+            },
+            {
+              "loc": "f6r.6",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "okom",
+              "canon": "okor"
+            },
+            {
+              "loc": "f6v.5",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "okor",
+              "canon": "okor"
+            },
+            {
+              "loc": "f6v.8",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "qokom",
+              "canon": "okor"
+            },
+            {
+              "loc": "f6v.14",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "qokor",
+              "canon": "okor"
+            },
+            {
+              "loc": "f9r.3",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "okor",
+              "canon": "okor"
+            },
+            {
+              "loc": "f14r.6",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "okor",
+              "canon": "okor"
+            }
+          ],
+          "diagram_label_matches": [
+            {
+              "loc": "f72r3.1",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "okor",
+              "canon": "okor"
+            },
+            {
+              "loc": "f82r.34",
+              "tag": "@Ln",
+              "sec": "Biological (Balneological)",
+              "raw": "okor",
+              "canon": "okor"
+            },
+            {
+              "loc": "fRos.2",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "okor",
+              "canon": "okor"
+            },
+            {
+              "loc": "fRos.43",
+              "tag": "@L0",
+              "sec": "Cosmological",
+              "raw": "okor",
+              "canon": "okor"
+            },
+            {
+              "loc": "f99r.8",
+              "tag": "@Lf",
+              "sec": "Pharmaceutical",
+              "raw": "okor",
+              "canon": "okor"
+            }
+          ]
+        },
+        {
+          "raw": "odeey",
+          "clean_raw": "odeey",
+          "canon": "odey",
+          "core_root": "d",
+          "suff": "V:ee/ii|N:o-|S:-ey",
+          "radicals": [
+            "d"
+          ],
+          "radical_glosses": [
+            "BASE/HUB(d)"
+          ],
+          "echoes_parent_para_word": false,
+          "echoes_parent_para_root": true,
+          "echoes_parent_para_radical": true,
+          "echoes_same_folio_word": false,
+          "echoes_same_folio_root": true,
+          "exact_raw_matches_count": 2,
+          "exact_raw_matches_sample": [
+            {
+              "loc": "fRos.54",
+              "tag": "@L0",
+              "sec": "Cosmological",
+              "raw": "odee[?:d]y",
+              "canon": "odey"
+            },
+            {
+              "loc": "f105r.3",
+              "tag": "+P0",
+              "sec": "Starred Recipes",
+              "raw": "odeey",
+              "canon": "odey"
+            }
+          ],
+          "exact_canon_matches_count": 6,
+          "core_root_matches_count": 0,
+          "exact_canon_matches_sample": [
+            {
+              "loc": "f76v.18",
+              "tag": "+P0",
+              "sec": "Biological (Balneological)",
+              "raw": "qodeey",
+              "canon": "odey"
+            },
+            {
+              "loc": "fRos.54",
+              "tag": "@L0",
+              "sec": "Cosmological",
+              "raw": "odee[?:d]y",
+              "canon": "odey"
+            },
+            {
+              "loc": "f86v3.7",
+              "tag": "+Pb",
+              "sec": "Cosmological",
+              "raw": "odeeey",
+              "canon": "odey"
+            },
+            {
+              "loc": "f103r.44",
+              "tag": "+P0",
+              "sec": "Starred Recipes",
+              "raw": "odeeey",
+              "canon": "odey"
+            },
+            {
+              "loc": "f104v.23",
+              "tag": "+P0",
+              "sec": "Starred Recipes",
+              "raw": "qodeey",
+              "canon": "odey"
+            },
+            {
+              "loc": "f105r.3",
+              "tag": "+P0",
+              "sec": "Starred Recipes",
+              "raw": "odeey",
+              "canon": "odey"
+            }
+          ],
+          "diagram_label_matches": [
+            {
+              "loc": "fRos.54",
+              "tag": "@L0",
+              "sec": "Cosmological",
+              "raw": "odee[?:d]y",
+              "canon": "odey"
+            }
+          ]
+        }
+      ],
+      "phrase_or_compound_matches": []
+    },
+    {
+      "folio": "f46v",
+      "quire": "F",
+      "loc": "f46v.8",
+      "tag": "=Pt",
+      "section": "Herbal (Botanical)",
+      "lang": "B",
+      "raw_phrase": "okeedchsy . qokeedy . chetedar . or . ai{cky}y",
+      "parent_para_lines": 7,
+      "words": [
+        {
+          "raw": "okeedchsy",
+          "clean_raw": "okeedchsy",
+          "canon": "okedchsy",
+          "core_root": "kedchs",
+          "suff": "V:ee/ii|N:o-|S:-y",
+          "radicals": [
+            "k",
+            "ed",
+            "ch",
+            "s"
+          ],
+          "radical_glosses": [
+            "VESSEL/BODY(k)",
+            "FLOW/BATHE(ed)",
+            "ACT:mix/proc",
+            "SEED/PART(s)"
+          ],
+          "echoes_parent_para_word": false,
+          "echoes_parent_para_root": false,
+          "echoes_parent_para_radical": true,
+          "echoes_same_folio_word": false,
+          "echoes_same_folio_root": false,
+          "exact_raw_matches_count": 0,
+          "exact_raw_matches_sample": [],
+          "exact_canon_matches_count": 0,
+          "core_root_matches_count": 0,
+          "exact_canon_matches_sample": [],
+          "diagram_label_matches": []
+        },
+        {
+          "raw": "qokeedy",
+          "clean_raw": "qokeedy",
+          "canon": "okedy",
+          "core_root": "k",
+          "suff": "V:ee/ii|P:q-|N:o-|S:-edy",
+          "radicals": [
+            "k"
+          ],
+          "radical_glosses": [
+            "VESSEL/BODY(k)"
+          ],
+          "echoes_parent_para_word": true,
+          "echoes_parent_para_root": true,
+          "echoes_parent_para_radical": true,
+          "echoes_same_folio_word": true,
+          "echoes_same_folio_root": true,
+          "exact_raw_matches_count": 306,
+          "exact_raw_matches_sample": [
+            {
+              "loc": "f26r.5",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "qokeedy",
+              "canon": "okedy"
+            },
+            {
+              "loc": "f26r.8",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "qokeedy",
+              "canon": "okedy"
+            },
+            {
+              "loc": "f26r.8",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "qokeedy",
+              "canon": "okedy"
+            },
+            {
+              "loc": "f31r.10",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "qokeedy",
+              "canon": "okedy"
+            },
+            {
+              "loc": "f40v.17",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "qokeedy",
+              "canon": "okedy"
+            },
+            {
+              "loc": "f41r.9",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "qokeedy",
+              "canon": "okedy"
+            },
+            {
+              "loc": "f41r.10",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "qokeedy",
+              "canon": "okedy"
+            },
+            {
+              "loc": "f41v.4",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "qokeedy",
+              "canon": "okedy"
+            }
+          ],
+          "exact_canon_matches_count": 827,
+          "core_root_matches_count": 0,
+          "exact_canon_matches_sample": [
+            {
+              "loc": "f26r.4",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "qokedy",
+              "canon": "okedy"
+            },
+            {
+              "loc": "f26r.4",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "qokedy",
+              "canon": "okedy"
+            },
+            {
+              "loc": "f26r.5",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "qokeedy",
+              "canon": "okedy"
+            },
+            {
+              "loc": "f26r.5",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "qokedy",
+              "canon": "okedy"
+            },
+            {
+              "loc": "f26r.6",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "qokedy",
+              "canon": "okedy"
+            },
+            {
+              "loc": "f26r.7",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "qokedy",
+              "canon": "okedy"
+            },
+            {
+              "loc": "f26r.8",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "qokeedy",
+              "canon": "okedy"
+            },
+            {
+              "loc": "f26r.8",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "qokeedy",
+              "canon": "okedy"
+            }
+          ],
+          "diagram_label_matches": [
+            {
+              "loc": "f67r1.6",
+              "tag": "+Cc",
+              "sec": "Astronomical",
+              "raw": "okeedy",
+              "canon": "okedy"
+            },
+            {
+              "loc": "f68r3.1",
+              "tag": "@Cc",
+              "sec": "Astronomical",
+              "raw": "okedy",
+              "canon": "okedy"
+            },
+            {
+              "loc": "f69v.1",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "okedy",
+              "canon": "okedy"
+            },
+            {
+              "loc": "f71r.1",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "okeeedy",
+              "canon": "okedy"
+            },
+            {
+              "loc": "f72r1.1",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "okeedy",
+              "canon": "okedy"
+            },
+            {
+              "loc": "f72v3.20",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "okedy",
+              "canon": "okedy"
+            },
+            {
+              "loc": "f72v2.1",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "okeedy",
+              "canon": "okedy"
+            },
+            {
+              "loc": "f72v1.28",
+              "tag": "&Lz",
+              "sec": "Zodiac (Astrological)",
+              "raw": "okedy",
+              "canon": "okedy"
+            }
+          ]
+        },
+        {
+          "raw": "chetedar",
+          "clean_raw": "chetedar",
+          "canon": "chetedar",
+          "core_root": "cheted",
+          "suff": "S:-ar",
+          "radicals": [
+            "che",
+            "t",
+            "ed"
+          ],
+          "radical_glosses": [
+            "ACT:infuse",
+            "TUBE/DUCT(t)",
+            "FLOW/BATHE(ed)"
+          ],
+          "echoes_parent_para_word": false,
+          "echoes_parent_para_root": false,
+          "echoes_parent_para_radical": true,
+          "echoes_same_folio_word": false,
+          "echoes_same_folio_root": false,
+          "exact_raw_matches_count": 0,
+          "exact_raw_matches_sample": [],
+          "exact_canon_matches_count": 0,
+          "core_root_matches_count": 0,
+          "exact_canon_matches_sample": [],
+          "diagram_label_matches": []
+        },
+        {
+          "raw": "or",
+          "clean_raw": "or",
+          "canon": "or",
+          "core_root": "or",
+          "suff": "S:0",
+          "radicals": [
+            "or"
+          ],
+          "radical_glosses": [
+            "JAR/HERB(or)"
+          ],
+          "echoes_parent_para_word": false,
+          "echoes_parent_para_root": false,
+          "echoes_parent_para_radical": false,
+          "echoes_same_folio_word": false,
+          "echoes_same_folio_root": false,
+          "exact_raw_matches_count": 392,
+          "exact_raw_matches_sample": [
+            {
+              "loc": "f1r.2",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "or",
+              "canon": "or"
+            },
+            {
+              "loc": "f1r.3",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "or",
+              "canon": "or"
+            },
+            {
+              "loc": "f1r.4",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "or",
+              "canon": "or"
+            },
+            {
+              "loc": "f1r.16",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "or",
+              "canon": "or"
+            },
+            {
+              "loc": "f1v.2",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "or",
+              "canon": "or"
+            },
+            {
+              "loc": "f3r.15",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "or",
+              "canon": "or"
+            },
+            {
+              "loc": "f3r.20",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "or",
+              "canon": "or"
+            },
+            {
+              "loc": "f3v.6",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "or",
+              "canon": "or"
+            }
+          ],
+          "exact_canon_matches_count": 414,
+          "core_root_matches_count": 553,
+          "exact_canon_matches_sample": [
+            {
+              "loc": "f1r.2",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "or",
+              "canon": "or"
+            },
+            {
+              "loc": "f1r.3",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "or",
+              "canon": "or"
+            },
+            {
+              "loc": "f1r.4",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "or",
+              "canon": "or"
+            },
+            {
+              "loc": "f1r.16",
+              "tag": "+P0",
+              "sec": "Text-only",
+              "raw": "or",
+              "canon": "or"
+            },
+            {
+              "loc": "f1v.2",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "or",
+              "canon": "or"
+            },
+            {
+              "loc": "f3r.15",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "or",
+              "canon": "or"
+            },
+            {
+              "loc": "f3r.20",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "or",
+              "canon": "or"
+            },
+            {
+              "loc": "f3v.6",
+              "tag": "+P0",
+              "sec": "Herbal (Botanical)",
+              "raw": "or",
+              "canon": "or"
+            }
+          ],
+          "diagram_label_matches": [
+            {
+              "loc": "f66r.3",
+              "tag": "+L0",
+              "sec": "Text-only",
+              "raw": "qo[r:n]",
+              "canon": "or"
+            },
+            {
+              "loc": "f68v1.2",
+              "tag": "@Cc",
+              "sec": "Astronomical",
+              "raw": "or",
+              "canon": "or"
+            },
+            {
+              "loc": "f71r.1",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "or",
+              "canon": "or"
+            },
+            {
+              "loc": "f71v.1",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "or",
+              "canon": "or"
+            },
+            {
+              "loc": "f72v3.20",
+              "tag": "@Cc",
+              "sec": "Zodiac (Astrological)",
+              "raw": "or",
+              "canon": "or"
+            },
+            {
+              "loc": "f84r.2",
+              "tag": "@Ln",
+              "sec": "Biological (Balneological)",
+              "raw": "or",
+              "canon": "or"
+            },
+            {
+              "loc": "f85r2.24",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "or",
+              "canon": "or"
+            },
+            {
+              "loc": "fRos.2",
+              "tag": "@Cc",
+              "sec": "Cosmological",
+              "raw": "or",
+              "canon": "or"
+            }
+          ]
+        },
+        {
+          "raw": "ai{cky}y",
+          "clean_raw": "aickyy",
+          "canon": "aickyy",
+          "core_root": "aicky",
+          "suff": "S:-y",
+          "radicals": [
+            "a",
+            "i",
+            "ck",
+            "y"
+          ],
+          "radical_glosses": [
+            "HUB_AXIS(a)",
+            "i",
+            "CONCOCT(ck)",
+            "STATE(y)"
+          ],
+          "echoes_parent_para_word": false,
+          "echoes_parent_para_root": false,
+          "echoes_parent_para_radical": true,
+          "echoes_same_folio_word": false,
+          "echoes_same_folio_root": false,
+          "exact_raw_matches_count": 0,
+          "exact_raw_matches_sample": [],
+          "exact_canon_matches_count": 0,
+          "core_root_matches_count": 0,
+          "exact_canon_matches_sample": [],
+          "diagram_label_matches": []
+        }
+      ],
+      "phrase_or_compound_matches": []
+    }
+  ],
+  "all_39_colophon_lines": [
+    {
+      "loc": "f1r.6",
+      "folio": "f1r",
+      "quire": "A",
+      "tag": "=Pt",
+      "section": "Text-only",
+      "lang": "A",
+      "raw_phrase": "ydaraishy",
+      "starts_with_y": true,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "ydaraish"
+      ]
+    },
+    {
+      "loc": "f1r.10",
+      "folio": "f1r",
+      "quire": "A",
+      "tag": "=Pt",
+      "section": "Text-only",
+      "lang": "A",
+      "raw_phrase": "dain . os . teody",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "d",
+        "o",
+        "te"
+      ]
+    },
+    {
+      "loc": "f1r.21",
+      "folio": "f1r",
+      "quire": "A",
+      "tag": "=Pt",
+      "section": "Text-only",
+      "lang": "A",
+      "raw_phrase": "otol . daiiin",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "t",
+        "d"
+      ]
+    },
+    {
+      "loc": "f1r.28",
+      "folio": "f1r",
+      "quire": "A",
+      "tag": "=Pt",
+      "section": "Text-only",
+      "lang": "A",
+      "raw_phrase": "dchaiin",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "dch"
+      ]
+    },
+    {
+      "loc": "f8r.8",
+      "folio": "f8r",
+      "quire": "A",
+      "tag": "=Pt",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "dcho . dain",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "dcho",
+        "d"
+      ]
+    },
+    {
+      "loc": "f8r.13",
+      "folio": "f8r",
+      "quire": "A",
+      "tag": "=Pt",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "okokchodg",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": true,
+      "roots": [
+        "kokchodg"
+      ]
+    },
+    {
+      "loc": "f8r.21",
+      "folio": "f8r",
+      "quire": "A",
+      "tag": "=Pt",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "schol . saim",
+      "starts_with_y": false,
+      "ends_with_m": true,
+      "ends_with_g": false,
+      "roots": [
+        "sch",
+        "sai"
+      ]
+    },
+    {
+      "loc": "f9r.10",
+      "folio": "f9r",
+      "quire": "B",
+      "tag": "+Pc",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "ytcha[s:r] . oraiin . chkor",
+      "starts_with_y": true,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "tcha",
+        "or",
+        "chk"
+      ]
+    },
+    {
+      "loc": "f16r.4",
+      "folio": "f16r",
+      "quire": "B",
+      "tag": "+Pc",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "dainod . ychealod",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "daino",
+        "chealo"
+      ]
+    },
+    {
+      "loc": "f18r.14",
+      "folio": "f18r",
+      "quire": "C",
+      "tag": "+Pc",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "ychekch . y . kchaiin",
+      "starts_with_y": true,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "chekch",
+        "y",
+        "kch"
+      ]
+    },
+    {
+      "loc": "f19v.14",
+      "folio": "f19v",
+      "quire": "C",
+      "tag": "+Pr",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "otchol . cheaiin . cthol",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "tch",
+        "che",
+        "cth"
+      ]
+    },
+    {
+      "loc": "f22v.16",
+      "folio": "f22v",
+      "quire": "C",
+      "tag": "+Pc",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "saiinchy . daldalol",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "sainch",
+        "daldal"
+      ]
+    },
+    {
+      "loc": "f24r.20",
+      "folio": "f24r",
+      "quire": "C",
+      "tag": "+Pc",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "sam . chorly",
+      "starts_with_y": false,
+      "ends_with_m": true,
+      "ends_with_g": false,
+      "roots": [
+        "s",
+        "chor"
+      ]
+    },
+    {
+      "loc": "f25r.7",
+      "folio": "f25r",
+      "quire": "D",
+      "tag": "=Pt",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "dair . otaiir . otosy",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "dai",
+        "tai",
+        "tos"
+      ]
+    },
+    {
+      "loc": "f27r.13",
+      "folio": "f27r",
+      "quire": "D",
+      "tag": "+Pc",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "o[t:k]chodeey",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "tchod"
+      ]
+    },
+    {
+      "loc": "f28v.6",
+      "folio": "f28v",
+      "quire": "D",
+      "tag": "+Pr",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "daiin . chkaiin",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "d",
+        "chk"
+      ]
+    },
+    {
+      "loc": "f31r.16",
+      "folio": "f31r",
+      "quire": "D",
+      "tag": "+Pc",
+      "section": "Herbal (Botanical)",
+      "lang": "B",
+      "raw_phrase": "oteor . aiicthy",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "te",
+        "aicth"
+      ]
+    },
+    {
+      "loc": "f39r.16",
+      "folio": "f39r",
+      "quire": "E",
+      "tag": "+Pc",
+      "section": "Herbal (Botanical)",
+      "lang": "B",
+      "raw_phrase": "oteol . cholkal . qokal . dar . ykdy",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "te",
+        "cholk",
+        "k",
+        "d",
+        "k"
+      ]
+    },
+    {
+      "loc": "f40v.19",
+      "folio": "f40v",
+      "quire": "E",
+      "tag": "+Pc",
+      "section": "Herbal (Botanical)",
+      "lang": "B",
+      "raw_phrase": "pchedy . chetar . ofair . arody",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "tch",
+        "chet",
+        "kai",
+        "ar"
+      ]
+    },
+    {
+      "loc": "f42r.6",
+      "folio": "f42r",
+      "quire": "F",
+      "tag": "+Pc",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "dorain . [{ih}:ch]ar",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "dor",
+        "ih"
+      ]
+    },
+    {
+      "loc": "f42r.15",
+      "folio": "f42r",
+      "quire": "F",
+      "tag": "+Pr",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "pchody . otshey . dodaiin",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "tch",
+        "tsh",
+        "dod"
+      ]
+    },
+    {
+      "loc": "f42r.23",
+      "folio": "f42r",
+      "quire": "F",
+      "tag": "+Pr",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "okchol . shol . kolschees",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "kch",
+        "sh",
+        "kolsche"
+      ]
+    },
+    {
+      "loc": "f42v.16",
+      "folio": "f42v",
+      "quire": "F",
+      "tag": "=Pt",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "okor . odeey",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "k",
+        "d"
+      ]
+    },
+    {
+      "loc": "f46v.8",
+      "folio": "f46v",
+      "quire": "F",
+      "tag": "=Pt",
+      "section": "Herbal (Botanical)",
+      "lang": "B",
+      "raw_phrase": "okeedchsy . qokeedy . chetedar . or . ai{cky}y",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "kedchs",
+        "k",
+        "cheted",
+        "or",
+        "aicky"
+      ]
+    },
+    {
+      "loc": "f48r.8",
+      "folio": "f48r",
+      "quire": "F",
+      "tag": "+Pr",
+      "section": "Herbal (Botanical)",
+      "lang": "B",
+      "raw_phrase": "otchdain . shol . oteol . oteoly . ykeey . dam . dr",
+      "starts_with_y": false,
+      "ends_with_m": true,
+      "ends_with_g": false,
+      "roots": [
+        "tchd",
+        "sh",
+        "te",
+        "te",
+        "k",
+        "d",
+        "d"
+      ]
+    },
+    {
+      "loc": "f48r.9",
+      "folio": "f48r",
+      "quire": "F",
+      "tag": "+Pc",
+      "section": "Herbal (Botanical)",
+      "lang": "B",
+      "raw_phrase": "yteched . ar . olkey . okeoam",
+      "starts_with_y": true,
+      "ends_with_m": true,
+      "ends_with_g": false,
+      "roots": [
+        "teche",
+        "ar",
+        "olk",
+        "keo"
+      ]
+    },
+    {
+      "loc": "f58v.22",
+      "folio": "f58v",
+      "quire": "H",
+      "tag": "+Pc",
+      "section": "Starred Recipes",
+      "lang": "A",
+      "raw_phrase": "okar . sheey . shekealy",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "k",
+        "sh",
+        "sheke"
+      ]
+    },
+    {
+      "loc": "f82r.19",
+      "folio": "f82r",
+      "quire": "M",
+      "tag": "+Pr",
+      "section": "Biological (Balneological)",
+      "lang": "B",
+      "raw_phrase": "okain . char . okain . qokeedy . lchy",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "k",
+        "ch",
+        "k",
+        "k",
+        "lch"
+      ]
+    },
+    {
+      "loc": "f85r1.19",
+      "folio": "f85r1",
+      "quire": "N",
+      "tag": "+Pr",
+      "section": "Text-only",
+      "lang": "B",
+      "raw_phrase": "okchy . okchdy . otchedy . dam . lam",
+      "starts_with_y": false,
+      "ends_with_m": true,
+      "ends_with_g": false,
+      "roots": [
+        "kch",
+        "kch",
+        "tch",
+        "d",
+        "l"
+      ]
+    },
+    {
+      "loc": "f85r1.35",
+      "folio": "f85r1",
+      "quire": "N",
+      "tag": "+Pc",
+      "section": "Text-only",
+      "lang": "B",
+      "raw_phrase": "s . ar . chedar . olpchdy . otol . otchedy",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "s",
+        "ar",
+        "ched",
+        "oltch",
+        "t",
+        "tch"
+      ]
+    },
+    {
+      "loc": "f86v4.9",
+      "folio": "f86v4",
+      "quire": "N",
+      "tag": "+Pc",
+      "section": "Cosmological",
+      "lang": "B",
+      "raw_phrase": "dar . oleey . ol . yy",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "d",
+        "ol",
+        "ol",
+        "y"
+      ]
+    },
+    {
+      "loc": "f86v5.39",
+      "folio": "f86v5",
+      "quire": "N",
+      "tag": "+Pr",
+      "section": "Text-only",
+      "lang": "B",
+      "raw_phrase": "yteody . chedy . qoteey . octhy . dy",
+      "starts_with_y": true,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "te",
+        "ch",
+        "t",
+        "cth",
+        "dy"
+      ]
+    },
+    {
+      "loc": "f90r1.9",
+      "folio": "f90r1",
+      "quire": "O",
+      "tag": "+Pr",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "raw_phrase": "ykodar . qoekchy . shokol . okam",
+      "starts_with_y": true,
+      "ends_with_m": true,
+      "ends_with_g": false,
+      "roots": [
+        "kod",
+        "ekch",
+        "shok",
+        "k"
+      ]
+    },
+    {
+      "loc": "f94r.9",
+      "folio": "f94r",
+      "quire": "Q",
+      "tag": "+Pc",
+      "section": "Herbal (Botanical)",
+      "lang": "B",
+      "raw_phrase": "otar . chdy . dytchdy",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "t",
+        "ch",
+        "dytch"
+      ]
+    },
+    {
+      "loc": "f101v.28",
+      "folio": "f101v",
+      "quire": "S",
+      "tag": "+Pc",
+      "section": "Pharmaceutical",
+      "lang": "A",
+      "raw_phrase": "teol . cheol . etchey . ???cheo . r . cheol . cthol . cholaiin . chol . qkar",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "te",
+        "che",
+        "etch",
+        "cheo",
+        "r",
+        "che",
+        "cth",
+        "chol",
+        "ch",
+        "qk"
+      ]
+    },
+    {
+      "loc": "f105r.10",
+      "folio": "f105r",
+      "quire": "T",
+      "tag": "+Pr",
+      "section": "Starred Recipes",
+      "lang": "B",
+      "raw_phrase": "sairy . ore . daiindy . ytam",
+      "starts_with_y": false,
+      "ends_with_m": true,
+      "ends_with_g": false,
+      "roots": [
+        "sai",
+        "ore",
+        "dain",
+        "t"
+      ]
+    },
+    {
+      "loc": "f105r.37",
+      "folio": "f105r",
+      "quire": "T",
+      "tag": "+Pc",
+      "section": "Starred Recipes",
+      "lang": "B",
+      "raw_phrase": "otoiir . chedaiin . otair . otaly",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "toi",
+        "ched",
+        "tai",
+        "t"
+      ]
+    },
+    {
+      "loc": "f108v.53",
+      "folio": "f108v",
+      "quire": "T",
+      "tag": "+Pr",
+      "section": "Starred Recipes",
+      "lang": "B",
+      "raw_phrase": "olchar . ol . chedy . lshy . otedy",
+      "starts_with_y": false,
+      "ends_with_m": false,
+      "ends_with_g": false,
+      "roots": [
+        "olch",
+        "ol",
+        "ch",
+        "lsh",
+        "t"
+      ]
+    },
+    {
+      "loc": "f114r.34",
+      "folio": "f114r",
+      "quire": "T",
+      "tag": "+Pr",
+      "section": "Starred Recipes",
+      "lang": "B",
+      "raw_phrase": "ytain . o . l . kaiin . y . kar . chdar . alkam",
+      "starts_with_y": true,
+      "ends_with_m": true,
+      "ends_with_g": false,
+      "roots": [
+        "t",
+        "o",
+        "l",
+        "k",
+        "y",
+        "k",
+        "chd",
+        "alk"
+      ]
+    }
+  ],
+  "f1r_preface_analysis": [
+    {
+      "para_index": 1,
+      "line_count": 5,
+      "word_count": 45,
+      "pt_title": {
+        "loc": "f1r.6",
+        "raw_phrase": "ydaraishy",
+        "words": [
+          {
+            "raw": "ydaraishy",
+            "canon": "ydaraishy",
+            "root": "ydaraish",
+            "radicals": [
+              "y",
+              "dar",
+              "a",
+              "i",
+              "sh"
+            ],
+            "glosses": [
+              "STATE(y)",
+              "JAR/ROOT_SRC(dar)",
+              "HUB_AXIS(a)",
+              "i",
+              "ACT:heat/steep"
+            ]
+          }
+        ]
+      },
+      "opening_words": "fachys . ykal . ar . ataiin . shol",
+      "closing_words": "y . chear . cthaiin . cphar . cfhaiin",
+      "rare_root_section_targets": {
+        "Herbal (Botanical)": 25,
+        "Starred Recipes": 10,
+        "Biological (Balneological)": 9,
+        "Cosmological": 3,
+        "Pharmaceutical": 3,
+        "Zodiac (Astrological)": 2,
+        "Text-only": 2
+      },
+      "top_target_folios": {
+        "f2r": 4,
+        "f71v": 2,
+        "f95r1": 2,
+        "f42v": 2,
+        "f58r": 2,
+        "f80r": 2,
+        "f103v": 2,
+        "f111v": 2
+      },
+      "rare_diagram_label_citations": [
+        {
+          "f1r_word": "ataiin",
+          "root": "at",
+          "label_matches": [
+            "f71v.1(ateey, @Cc)"
+          ]
+        },
+        {
+          "f1r_word": "ckhar",
+          "root": "ckh",
+          "label_matches": [
+            "f68r1.21(ockhy, @Ls)",
+            "f68v2.6(o[ckhee:{ck}eee]y, @Cc)",
+            "f69v.2(ockhy, @Cc)",
+            "f72r2.6([ckh:?]al, @Cc)",
+            "f72r3.26(ckhol, @Cc)"
+          ]
+        },
+        {
+          "f1r_word": "kair",
+          "root": "kai",
+          "label_matches": [
+            "f69r.15(okair, &L0)",
+            "f70v2.21(ykair, @Cc)",
+            "f72r1.1(okaiir, @Cc)",
+            "f72r2.4(okairy, &Lz)",
+            "fRos.20(kaiir, @Cc)"
+          ]
+        },
+        {
+          "f1r_word": "chtaiin",
+          "root": "cht",
+          "label_matches": [
+            "f66r.82(chty, @Lx)",
+            "f67r1.5(chpar, @Cc)",
+            "f68v1.1(chteey, @Cc)",
+            "f69r.6(chtaly, &L0)",
+            "f70r2.17(chtam, +Cc)"
+          ]
+        },
+        {
+          "f1r_word": "dan",
+          "root": "dan",
+          "label_matches": [
+            "f71v.10(dan, &Lz)",
+            "f86v4.4(dan, @Cc)",
+            "f89r1.14(dan, @Lf)"
+          ]
+        },
+        {
+          "f1r_word": "sheky",
+          "root": "shek",
+          "label_matches": [
+            "f57v.5(sheky, +Cc)",
+            "f71v.12(sheky, @Cc)",
+            "f73r.14(shekal, &Lz)",
+            "f84r.2(shekar, @Ln)",
+            "fRos.20(sheekedy, @Cc)"
+          ]
+        },
+        {
+          "f1r_word": "shod",
+          "root": "sho",
+          "label_matches": [
+            "f68v1.2(sho, @Cc)",
+            "f70r2.17(sho, +Cc)",
+            "f70r2.18(sho, +Cc)",
+            "f72r1.1(sho, @Cc)",
+            "f72v3.1(sho, @Cc)"
+          ]
+        },
+        {
+          "f1r_word": "cthoary",
+          "root": "ctho",
+          "label_matches": [
+            "f72r3.31(octho, &Lz)"
+          ]
+        },
+        {
+          "f1r_word": "cthes",
+          "root": "cthe",
+          "label_matches": [
+            "f88v.3(cpheor, @Lf)"
+          ]
+        },
+        {
+          "f1r_word": "daraiin",
+          "root": "dar",
+          "label_matches": [
+            "f57v.2(daram, @Cc)",
+            "f67r1.5(daram, @Cc)",
+            "f73r.5(daraly, @Cc)",
+            "f75v.21(darol, +Ln)",
+            "f82r.35(darol, @Lt)"
+          ]
+        }
+      ]
+    },
+    {
+      "para_index": 2,
+      "line_count": 3,
+      "word_count": 23,
+      "pt_title": {
+        "loc": "f1r.10",
+        "raw_phrase": "dain . os . teody",
+        "words": [
+          {
+            "raw": "dain",
+            "canon": "dain",
+            "root": "d",
+            "radicals": [
+              "d"
+            ],
+            "glosses": [
+              "BASE/HUB(d)"
+            ]
+          },
+          {
+            "raw": "os",
+            "canon": "os",
+            "root": "o",
+            "radicals": [
+              "o"
+            ],
+            "glosses": [
+              "ENTITY_CORE(o)"
+            ]
+          },
+          {
+            "raw": "teody",
+            "canon": "teody",
+            "root": "te",
+            "radicals": [
+              "te"
+            ],
+            "glosses": [
+              "DRAW/CONDUIT(te)"
+            ]
+          }
+        ]
+      },
+      "opening_words": "odar . {c'y} . shol . cphoy . oydar",
+      "closing_words": "kos . daiin . shos . cfhol . shody",
+      "rare_root_section_targets": {
+        "Herbal (Botanical)": 7,
+        "Pharmaceutical": 2
+      },
+      "top_target_folios": {
+        "f54r": 2,
+        "f5r": 1,
+        "f36v": 1,
+        "f56v": 1,
+        "f87r": 1,
+        "f89r2": 1,
+        "f93r": 1,
+        "f100v": 1
+      },
+      "rare_diagram_label_citations": [
+        {
+          "f1r_word": "cphoy",
+          "root": "ctho",
+          "label_matches": [
+            "f72r3.31(octho, &Lz)"
+          ]
+        },
+        {
+          "f1r_word": "oydar",
+          "root": "yd",
+          "label_matches": [
+            "f72r1.1(ydal, @Cc)",
+            "f72v1.1(ydaiin, @Cc)"
+          ]
+        },
+        {
+          "f1r_word": "okchoy",
+          "root": "kcho",
+          "label_matches": [
+            "f67r2.12(ykchos, &L0)",
+            "f67v2.22(okchos, @La)"
+          ]
+        },
+        {
+          "f1r_word": "chocthy",
+          "root": "chocth",
+          "label_matches": [
+            "f72r3.1(chocthar, @Cc)",
+            "f86v4.4(chocthy, @Cc)"
+          ]
+        },
+        {
+          "f1r_word": "shos",
+          "root": "sho",
+          "label_matches": [
+            "f68v1.2(sho, @Cc)",
+            "f70r2.17(sho, +Cc)",
+            "f70r2.18(sho, +Cc)",
+            "f72r1.1(sho, @Cc)",
+            "f72v3.1(sho, @Cc)"
+          ]
+        },
+        {
+          "f1r_word": "cfhol",
+          "root": "ckh",
+          "label_matches": [
+            "f68r1.21(ockhy, @Ls)",
+            "f68v2.6(o[ckhee:{ck}eee]y, @Cc)",
+            "f69v.2(ockhy, @Cc)",
+            "f72r2.6([ckh:?]al, @Cc)",
+            "f72r3.26(ckhol, @Cc)"
+          ]
+        }
+      ]
+    },
+    {
+      "para_index": 3,
+      "line_count": 10,
+      "word_count": 86,
+      "pt_title": {
+        "loc": "f1r.21",
+        "raw_phrase": "otol . daiiin",
+        "words": [
+          {
+            "raw": "otol",
+            "canon": "otol",
+            "root": "t",
+            "radicals": [
+              "t"
+            ],
+            "glosses": [
+              "TUBE/DUCT(t)"
+            ]
+          },
+          {
+            "raw": "daiiin",
+            "canon": "dain",
+            "root": "d",
+            "radicals": [
+              "d"
+            ],
+            "glosses": [
+              "BASE/HUB(d)"
+            ]
+          }
+        ]
+      },
+      "opening_words": "ydain . cphesaiin . ols . cphey . ytain",
+      "closing_words": "shok . chor . chey . dain . ckhey",
+      "rare_root_section_targets": {
+        "Herbal (Botanical)": 63,
+        "Starred Recipes": 17,
+        "Cosmological": 8,
+        "Biological (Balneological)": 6,
+        "Astronomical": 5,
+        "Zodiac (Astrological)": 3,
+        "Text-only": 2,
+        "Pharmaceutical": 2
+      },
+      "top_target_folios": {
+        "fRos": 5,
+        "f24v": 4,
+        "f49r": 3,
+        "f87v": 3,
+        "f93r": 3,
+        "f14v": 3,
+        "f49v": 3,
+        "f114r": 3
+      },
+      "rare_diagram_label_citations": [
+        {
+          "f1r_word": "ydain",
+          "root": "yd",
+          "label_matches": [
+            "f72r1.1(ydal, @Cc)",
+            "f72v1.1(ydaiin, @Cc)"
+          ]
+        },
+        {
+          "f1r_word": "otairin",
+          "root": "tair",
+          "label_matches": [
+            "f72r3.16(ytairal, &Lz)",
+            "f72v1.1(opairaly, @Cc)",
+            "fRos.53(opairar, @L0)"
+          ]
+        },
+        {
+          "f1r_word": "okan",
+          "root": "kan",
+          "label_matches": [
+            "f80r.10(okan, +Ln)",
+            "fRos.20(okan, @Cc)"
+          ]
+        },
+        {
+          "f1r_word": "shoy",
+          "root": "sho",
+          "label_matches": [
+            "f68v1.2(sho, @Cc)",
+            "f70r2.17(sho, +Cc)",
+            "f70r2.18(sho, +Cc)",
+            "f72r1.1(sho, @Cc)",
+            "f72v3.1(sho, @Cc)"
+          ]
+        },
+        {
+          "f1r_word": "ckhey",
+          "root": "ckh",
+          "label_matches": [
+            "f68r1.21(ockhy, @Ls)",
+            "f68v2.6(o[ckhee:{ck}eee]y, @Cc)",
+            "f69v.2(ockhy, @Cc)",
+            "f72r2.6([ckh:?]al, @Cc)",
+            "f72r3.26(ckhol, @Cc)"
+          ]
+        },
+        {
+          "f1r_word": "kodaiin",
+          "root": "kod",
+          "label_matches": [
+            "f67r2.63(okodar, &Ls)",
+            "f67r2.67(okodar, &L0)",
+            "f68r1.8(okodaly, @Ls)",
+            "f68v3.5(kodar, @Cc)",
+            "f70r2.18(okodar, +Cc)"
+          ]
+        },
+        {
+          "f1r_word": "sho",
+          "root": "sho",
+          "label_matches": [
+            "f68v1.2(sho, @Cc)",
+            "f70r2.17(sho, +Cc)",
+            "f70r2.18(sho, +Cc)",
+            "f72r1.1(sho, @Cc)",
+            "f72v3.1(sho, @Cc)"
+          ]
+        },
+        {
+          "f1r_word": "oldain",
+          "root": "old",
+          "label_matches": [
+            "f88r.4(oldar, @Lf)",
+            "f89r1.3(oldam, @Lf)"
+          ]
+        },
+        {
+          "f1r_word": "oiin",
+          "root": "in",
+          "label_matches": [
+            "f67r1.6(oiin, +Cc)",
+            "f68r1.27(oiinar, @Ls)",
+            "f72r3.1(oiin, @Cc)",
+            "f72r3.14(oiiin, @Cc)",
+            "f72v1.26(oiiny, &Lz)"
+          ]
+        },
+        {
+          "f1r_word": "chodain",
+          "root": "chod",
+          "label_matches": [
+            "f68r2.28(chodar, @Ls)",
+            "f68r3.1(chodal, @Cc)",
+            "f73v.22(chodaiin, @Cc)"
+          ]
+        }
+      ]
+    },
+    {
+      "para_index": 4,
+      "line_count": 6,
+      "word_count": 54,
+      "pt_title": {
+        "loc": "f1r.28",
+        "raw_phrase": "dchaiin",
+        "words": [
+          {
+            "raw": "dchaiin",
+            "canon": "dchain",
+            "root": "dch",
+            "radicals": [
+              "d",
+              "ch"
+            ],
+            "glosses": [
+              "BASE/HUB(d)",
+              "ACT:mix/proc"
+            ]
+          }
+        ]
+      },
+      "opening_words": "cpho . shaiin . shokcheey . chol . tshodeesy",
+      "closing_words": "?eo? . chol . chok . choty . chotey",
+      "rare_root_section_targets": {
+        "Starred Recipes": 34,
+        "Herbal (Botanical)": 24,
+        "Astronomical": 5,
+        "Biological (Balneological)": 5,
+        "Pharmaceutical": 4,
+        "Zodiac (Astrological)": 4,
+        "Cosmological": 3,
+        "Text-only": 2
+      },
+      "top_target_folios": {
+        "f115r": 5,
+        "f105v": 4,
+        "f58r": 3,
+        "f107r": 3,
+        "f114v": 3,
+        "f8r": 2,
+        "f104v": 2,
+        "f113r": 2
+      },
+      "rare_diagram_label_citations": [
+        {
+          "f1r_word": "cpho",
+          "root": "ctho",
+          "label_matches": [
+            "f72r3.31(octho, &Lz)"
+          ]
+        },
+        {
+          "f1r_word": "pydeey",
+          "root": "tyd",
+          "label_matches": [
+            "f88v.28(otydary, @Lf)"
+          ]
+        },
+        {
+          "f1r_word": "cha",
+          "root": "cha",
+          "label_matches": [
+            "f72r2.22(chas, @Cc)",
+            "f72v3.20(chas, @Cc)"
+          ]
+        },
+        {
+          "f1r_word": "ro",
+          "root": "ro",
+          "label_matches": [
+            "fRos.148(roo, +L0)"
+          ]
+        },
+        {
+          "f1r_word": "shoaiin",
+          "root": "sho",
+          "label_matches": [
+            "f68v1.2(sho, @Cc)",
+            "f70r2.17(sho, +Cc)",
+            "f70r2.18(sho, +Cc)",
+            "f72r1.1(sho, @Cc)",
+            "f72v3.1(sho, @Cc)"
+          ]
+        },
+        {
+          "f1r_word": "dcheo",
+          "root": "dcheo",
+          "label_matches": [
+            "f68r3.1(dcheeo, @Cc)"
+          ]
+        },
+        {
+          "f1r_word": "ok",
+          "root": "ok",
+          "label_matches": [
+            "f72r3.20(of???, &Lz)",
+            "fRos.133(ok, @Cc)",
+            "f102v2.9(ok?, @Lf)"
+          ]
+        },
+        {
+          "f1r_word": "chtor",
+          "root": "cht",
+          "label_matches": [
+            "f66r.82(chty, @Lx)",
+            "f67r1.5(chpar, @Cc)",
+            "f68v1.1(chteey, @Cc)",
+            "f69r.6(chtaly, &L0)",
+            "f70r2.17(chtam, +Cc)"
+          ]
+        },
+        {
+          "f1r_word": "?eo?",
+          "root": "eo",
+          "label_matches": [
+            "f68r2.31(oeeeo, @Cc)",
+            "f68v3.5(qoeeo, @Cc)",
+            "f72r2.6(qoeeeo, @Cc)",
+            "f72v1.18(oeeeos, &Lz)"
+          ]
+        }
+      ]
+    }
+  ]
+}

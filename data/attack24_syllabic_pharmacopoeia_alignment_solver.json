@@ -1,0 +1,731 @@
+{
+  "summary": {
+    "test1_cvc_sonority_sequencing": {
+      "radicals_tested": 57,
+      "token_weighted_monotonic_cvc_rate": 0.9746,
+      "null_mean_rate": 0.8512,
+      "null_std_rate": 0.0498,
+      "z_score": 2.48
+    },
+    "test2_pharmacopoeia_domain_isomorphism": {
+      "radical_slots_tested": 20,
+      "observed_mean_domain_cosine": 0.8663,
+      "null_mean_domain_cosine": 0.6255,
+      "null_std_domain_cosine": 0.0373,
+      "z_score": 6.45
+    },
+    "benchmark_passages_translated": 8
+  },
+  "five_by_four_articulatory_syllabic_grid": {
+    "Series_1_Velar_Gallows_K": {
+      "onset": "k / f / ckh",
+      "domain": "Vessel / Body / Concoction / Blue-Crown",
+      "cells": {
+        "C_bare": {
+          "radical": "k",
+          "gloss": "VESSEL/BODY(k)",
+          "latin_parallel": "cola / vas / calx"
+        },
+        "Ce_front": {
+          "radical": "ke",
+          "gloss": "EXTRACT/COOK(ke)",
+          "latin_parallel": "coque / elixa"
+        },
+        "Co_round": {
+          "radical": "ko / kol",
+          "gloss": "STAR_NODE(ko) / PLANT_STEM(kol)",
+          "latin_parallel": "caulis / colatura"
+        },
+        "Ca_open": {
+          "radical": "ka / kal / kar",
+          "gloss": "VESSEL_POT(kal) / TUBE_SRC(kar)",
+          "latin_parallel": "calix / carpo"
+        }
+      }
+    },
+    "Series_2_Dental_Gallows_T": {
+      "onset": "t / p / cth",
+      "domain": "Tube / Conduit / Distillation / Red-Crown",
+      "cells": {
+        "C_bare": {
+          "radical": "t",
+          "gloss": "TUBE/DUCT(t)",
+          "latin_parallel": "tubus / trahere"
+        },
+        "Ce_front": {
+          "radical": "te / teo",
+          "gloss": "DRAW/CONDUIT(te) / ZOD_CONTAIN(teo)",
+          "latin_parallel": "teneo / tempus"
+        },
+        "Co_round": {
+          "radical": "to / tol",
+          "gloss": "SPOKE/RAY(to) / PLANT_SPECIES(tol)",
+          "latin_parallel": "talea / torcular"
+        },
+        "Ca_open": {
+          "radical": "ta / tal / tar",
+          "gloss": "ZOD_BARREL(tal) / EARTH_ROOT(tar)",
+          "latin_parallel": "thallus / terra"
+        }
+      }
+    },
+    "Series_3_Palatal_Bench_CH_SH": {
+      "onset": "ch (unplumed) / sh (+plume)",
+      "domain": "Primary Pharmaceutical & Thermal Verbal Operators",
+      "cells": {
+        "C_unplumed": {
+          "radical": "ch",
+          "gloss": "ACT:mix/proc",
+          "latin_parallel": "misce / confice (cold/mechanical)"
+        },
+        "C_plumed": {
+          "radical": "sh",
+          "gloss": "ACT:heat/steep",
+          "latin_parallel": "coque / ferve (thermal/heated)"
+        },
+        "Ce_unplumed": {
+          "radical": "che",
+          "gloss": "ACT:infuse",
+          "latin_parallel": "infunde / macera"
+        },
+        "Ce_plumed": {
+          "radical": "she",
+          "gloss": "ACT:decoct",
+          "latin_parallel": "decoque / destilla"
+        }
+      }
+    },
+    "Series_4_Coronal_Stem_D_S": {
+      "onset": "d (dental base) / s (sibilant part)",
+      "domain": "Apothecary Receptacle / Source vs. Botanical Seed / Sap",
+      "cells": {
+        "D_base": {
+          "radical": "d / da",
+          "gloss": "BASE/HUB(d) / LEAF_TAIL(da)",
+          "latin_parallel": "de / dosis / drachma"
+        },
+        "D_liquid": {
+          "radical": "dar / dal",
+          "gloss": "JAR/ROOT_SRC(dar) / POOL_BASIN(dal)",
+          "latin_parallel": "doliolum / pelvis"
+        },
+        "S_base": {
+          "radical": "s / so",
+          "gloss": "SEED/PART(s) / HERB_SAP(so)",
+          "latin_parallel": "semen / succus"
+        },
+        "S_liquid": {
+          "radical": "sar / sal",
+          "gloss": "SUBST(sar) / SALT_BALN(sal)",
+          "latin_parallel": "sal / serum"
+        }
+      }
+    },
+    "Series_5_Vocalic_Liquid_Nucleus_O_A": {
+      "onset": "o (rounded) / a (open)",
+      "domain": "Liquid Extract / Oil / Fluid vs. Essence / Measure",
+      "cells": {
+        "O_liquid_L": {
+          "radical": "ol",
+          "gloss": "FLUID/TUBE(ol)",
+          "latin_parallel": "oleum / liquor"
+        },
+        "O_liquid_R": {
+          "radical": "or",
+          "gloss": "EXTRACT/GOLD(or)",
+          "latin_parallel": "humor / aurum"
+        },
+        "A_liquid_L": {
+          "radical": "al",
+          "gloss": "SUBST/STAR(al)",
+          "latin_parallel": "alumen / aqua"
+        },
+        "A_liquid_R": {
+          "radical": "ar",
+          "gloss": "BOTAN/ROOT(ar)",
+          "latin_parallel": "aroma / radix"
+        }
+      }
+    }
+  },
+  "bipartite_pharmacopoeia_alignment_table": [
+    {
+      "voynich_radical": "ch",
+      "voynich_gloss": "ACT:mix/proc",
+      "medieval_pharmacopoeia_slot": "misce / terere (mix/grind)",
+      "empirical_feature_vector": [
+        0.795,
+        0.018,
+        0.039,
+        0.05,
+        0.15,
+        0.1,
+        0.1,
+        0.214
+      ],
+      "target_feature_vector": [
+        0.95,
+        0.05,
+        0.15,
+        0.05,
+        0.15,
+        0.1,
+        0.1,
+        0.2
+      ],
+      "domain_cosine_similarity": 0.9921
+    },
+    {
+      "voynich_radical": "sh",
+      "voynich_gloss": "ACT:heat/steep",
+      "medieval_pharmacopoeia_slot": "coque / bullire (boil/heat)",
+      "empirical_feature_vector": [
+        0.971,
+        0.004,
+        0.021,
+        0.05,
+        0.15,
+        0.1,
+        0.1,
+        0.164
+      ],
+      "target_feature_vector": [
+        0.95,
+        0.05,
+        0.1,
+        0.05,
+        0.15,
+        0.15,
+        0.1,
+        0.15
+      ],
+      "domain_cosine_similarity": 0.9943
+    },
+    {
+      "voynich_radical": "che",
+      "voynich_gloss": "ACT:infuse",
+      "medieval_pharmacopoeia_slot": "infunde / macera (steep/infuse)",
+      "empirical_feature_vector": [
+        0.398,
+        0.018,
+        0.015,
+        0.05,
+        0.15,
+        0.1,
+        0.1,
+        0.217
+      ],
+      "target_feature_vector": [
+        0.85,
+        0.1,
+        0.15,
+        0.05,
+        0.15,
+        0.15,
+        0.15,
+        0.2
+      ],
+      "domain_cosine_similarity": 0.9458
+    },
+    {
+      "voynich_radical": "she",
+      "voynich_gloss": "ACT:decoct",
+      "medieval_pharmacopoeia_slot": "decoque / elixa (decoct/simmer)",
+      "empirical_feature_vector": [
+        0.347,
+        0.0,
+        0.01,
+        0.05,
+        0.15,
+        0.1,
+        0.1,
+        0.134
+      ],
+      "target_feature_vector": [
+        0.9,
+        0.1,
+        0.1,
+        0.05,
+        0.1,
+        0.15,
+        0.1,
+        0.15
+      ],
+      "domain_cosine_similarity": 0.9264
+    },
+    {
+      "voynich_radical": "k",
+      "voynich_gloss": "VESSEL/BODY(k)",
+      "medieval_pharmacopoeia_slot": "cola / in vase (strain/in vessel)",
+      "empirical_feature_vector": [
+        0.56,
+        1.0,
+        0.648,
+        0.05,
+        0.15,
+        0.172,
+        0.1,
+        0.269
+      ],
+      "target_feature_vector": [
+        0.75,
+        0.85,
+        0.65,
+        0.1,
+        0.3,
+        0.6,
+        0.4,
+        0.25
+      ],
+      "domain_cosine_similarity": 0.9231
+    },
+    {
+      "voynich_radical": "t",
+      "voynich_gloss": "TUBE/DUCT(t)",
+      "medieval_pharmacopoeia_slot": "distilla / per tubum (channel/pipe)",
+      "empirical_feature_vector": [
+        0.538,
+        0.758,
+        1.0,
+        0.05,
+        0.15,
+        0.1,
+        0.203,
+        0.342
+      ],
+      "target_feature_vector": [
+        0.65,
+        0.7,
+        0.7,
+        0.1,
+        0.35,
+        0.75,
+        0.45,
+        0.25
+      ],
+      "domain_cosine_similarity": 0.8572
+    },
+    {
+      "voynich_radical": "cth",
+      "voynich_gloss": "HERB_LEAF_OP(cth)",
+      "medieval_pharmacopoeia_slot": "contunde folia (crush leaves/crown)",
+      "empirical_feature_vector": [
+        0.316,
+        0.168,
+        0.148,
+        0.05,
+        0.15,
+        0.1,
+        0.1,
+        0.517
+      ],
+      "target_feature_vector": [
+        0.6,
+        0.15,
+        0.35,
+        0.05,
+        0.65,
+        0.15,
+        0.2,
+        0.2
+      ],
+      "domain_cosine_similarity": 0.731
+    },
+    {
+      "voynich_radical": "ckh",
+      "voynich_gloss": "BALNEO_OP(ckh)",
+      "medieval_pharmacopoeia_slot": "confice radicem (compound extract)",
+      "empirical_feature_vector": [
+        0.296,
+        0.688,
+        0.277,
+        0.05,
+        0.15,
+        0.1,
+        0.1,
+        0.379
+      ],
+      "target_feature_vector": [
+        0.7,
+        0.2,
+        0.35,
+        0.05,
+        0.45,
+        0.2,
+        0.15,
+        0.2
+      ],
+      "domain_cosine_similarity": 0.699
+    },
+    {
+      "voynich_radical": "dar",
+      "voynich_gloss": "JAR/ROOT_SRC(dar)",
+      "medieval_pharmacopoeia_slot": "in pixide / de radice (jar/source)",
+      "empirical_feature_vector": [
+        0.256,
+        0.0,
+        0.051,
+        1.0,
+        1.0,
+        0.1,
+        0.1,
+        1.0
+      ],
+      "target_feature_vector": [
+        0.05,
+        0.05,
+        0.15,
+        0.95,
+        0.8,
+        0.35,
+        0.2,
+        0.65
+      ],
+      "domain_cosine_similarity": 0.9596
+    },
+    {
+      "voynich_radical": "dal",
+      "voynich_gloss": "BASIN/PORTION(dal)",
+      "medieval_pharmacopoeia_slot": "in pelvi / balneo (basin/bath pool)",
+      "empirical_feature_vector": [
+        0.724,
+        0.0,
+        0.053,
+        0.05,
+        0.15,
+        0.1,
+        0.1,
+        1.0
+      ],
+      "target_feature_vector": [
+        0.1,
+        0.05,
+        0.15,
+        0.2,
+        0.3,
+        0.85,
+        0.3,
+        0.6
+      ],
+      "domain_cosine_similarity": 0.5864
+    },
+    {
+      "voynich_radical": "ol",
+      "voynich_gloss": "FLUID/TUBE(ol)",
+      "medieval_pharmacopoeia_slot": "oleum / liquor (oil/fluid stream)",
+      "empirical_feature_vector": [
+        0.103,
+        0.508,
+        1.0,
+        0.214,
+        0.15,
+        0.337,
+        0.1,
+        0.369
+      ],
+      "target_feature_vector": [
+        0.1,
+        0.2,
+        0.55,
+        0.2,
+        0.35,
+        0.8,
+        0.35,
+        0.55
+      ],
+      "domain_cosine_similarity": 0.7963
+    },
+    {
+      "voynich_radical": "or",
+      "voynich_gloss": "JAR/HERB(or)",
+      "medieval_pharmacopoeia_slot": "succus / tinctura (golden extract)",
+      "empirical_feature_vector": [
+        0.005,
+        0.211,
+        1.0,
+        0.417,
+        0.275,
+        0.365,
+        0.203,
+        0.401
+      ],
+      "target_feature_vector": [
+        0.05,
+        0.15,
+        0.5,
+        0.75,
+        0.55,
+        0.4,
+        0.4,
+        0.7
+      ],
+      "domain_cosine_similarity": 0.8437
+    },
+    {
+      "voynich_radical": "ar",
+      "voynich_gloss": "BOTAN/ROOT(ar)",
+      "medieval_pharmacopoeia_slot": "radix / herba (root/botanical part)",
+      "empirical_feature_vector": [
+        0.057,
+        0.045,
+        0.072,
+        0.05,
+        0.344,
+        0.277,
+        0.494,
+        0.43
+      ],
+      "target_feature_vector": [
+        0.05,
+        0.1,
+        0.45,
+        0.3,
+        0.85,
+        0.3,
+        0.55,
+        0.7
+      ],
+      "domain_cosine_similarity": 0.9093
+    },
+    {
+      "voynich_radical": "al",
+      "voynich_gloss": "SUBST/STAR(al)",
+      "medieval_pharmacopoeia_slot": "aqua / alumen (essences/celestial)",
+      "empirical_feature_vector": [
+        0.145,
+        0.041,
+        0.017,
+        0.205,
+        0.15,
+        0.358,
+        0.709,
+        0.545
+      ],
+      "target_feature_vector": [
+        0.05,
+        0.15,
+        0.55,
+        0.2,
+        0.4,
+        0.45,
+        0.85,
+        0.65
+      ],
+      "domain_cosine_similarity": 0.8999
+    },
+    {
+      "voynich_radical": "kol",
+      "voynich_gloss": "PHARMA_PLANT(kol)",
+      "medieval_pharmacopoeia_slot": "caulis / truncus (plant stalk/stem)",
+      "empirical_feature_vector": [
+        1.0,
+        0.2,
+        0.889,
+        0.05,
+        1.0,
+        0.1,
+        0.1,
+        1.0
+      ],
+      "target_feature_vector": [
+        0.2,
+        0.25,
+        0.6,
+        0.1,
+        0.9,
+        0.65,
+        0.2,
+        0.35
+      ],
+      "domain_cosine_similarity": 0.7916
+    },
+    {
+      "voynich_radical": "tol",
+      "voynich_gloss": "LEAF/SHOOT(tol)",
+      "medieval_pharmacopoeia_slot": "talea / surculus (plant shoot/duct)",
+      "empirical_feature_vector": [
+        0.931,
+        0.176,
+        0.824,
+        0.05,
+        0.797,
+        0.1,
+        0.1,
+        1.0
+      ],
+      "target_feature_vector": [
+        0.25,
+        0.2,
+        0.65,
+        0.1,
+        0.8,
+        0.7,
+        0.35,
+        0.35
+      ],
+      "domain_cosine_similarity": 0.7649
+    },
+    {
+      "voynich_radical": "tal",
+      "voynich_gloss": "BARREL_measure(tal)",
+      "medieval_pharmacopoeia_slot": "tina / dolium (zodiac/bath barrel)",
+      "empirical_feature_vector": [
+        0.625,
+        0.321,
+        1.0,
+        0.05,
+        0.15,
+        0.1,
+        1.0,
+        1.0
+      ],
+      "target_feature_vector": [
+        0.15,
+        0.2,
+        0.65,
+        0.1,
+        0.25,
+        0.4,
+        0.95,
+        0.45
+      ],
+      "domain_cosine_similarity": 0.9032
+    },
+    {
+      "voynich_radical": "teo",
+      "voynich_gloss": "ZOD_CONTAIN(teo)",
+      "medieval_pharmacopoeia_slot": "tempus / domus signi (zodiac house)",
+      "empirical_feature_vector": [
+        0.0,
+        0.391,
+        1.0,
+        0.05,
+        0.15,
+        0.1,
+        0.71,
+        0.104
+      ],
+      "target_feature_vector": [
+        0.25,
+        0.15,
+        0.75,
+        0.1,
+        0.2,
+        0.2,
+        0.9,
+        0.35
+      ],
+      "domain_cosine_similarity": 0.9127
+    },
+    {
+      "voynich_radical": "so",
+      "voynich_gloss": "HERB_SAP(so)",
+      "medieval_pharmacopoeia_slot": "succus / resina (plant sap/gum)",
+      "empirical_feature_vector": [
+        0.05,
+        0.0,
+        0.04,
+        0.05,
+        0.604,
+        0.1,
+        0.1,
+        0.24
+      ],
+      "target_feature_vector": [
+        0.1,
+        0.05,
+        0.2,
+        0.1,
+        0.85,
+        0.5,
+        0.35,
+        0.4
+      ],
+      "domain_cosine_similarity": 0.9262
+    },
+    {
+      "voynich_radical": "d",
+      "voynich_gloss": "BASE/HUB(d)",
+      "medieval_pharmacopoeia_slot": "deinde / drachma (thereof/unit)",
+      "empirical_feature_vector": [
+        0.026,
+        0.112,
+        0.142,
+        0.05,
+        0.15,
+        0.166,
+        0.1,
+        0.573
+      ],
+      "target_feature_vector": [
+        0.15,
+        0.1,
+        0.2,
+        0.2,
+        0.25,
+        0.35,
+        0.35,
+        0.85
+      ],
+      "domain_cosine_similarity": 0.964
+    }
+  ],
+  "continuous_pharmacopoeia_benchmark_passages": [
+    {
+      "id": "Passage_1_f1r_P1_Master_Preface",
+      "locus": "f1r.1\u20136 (Opening Master Preface & Right-Justified Title =Pt)",
+      "voynich_text": "<%>fachys . ykal . ar . ataiin . shol . shory . cthres . y . kor . sholdy ... ydaraishy<$>",
+      "structural_parse": "[HDR:f-a-ch-y-s] [INIT:y-kal(vessel)] [ar(root)] [a-t-aiin(tube-measure)] | [sh-ol(heated-fluid)] [sh-or-y(heated-extract)] [cth-r-es(leaf-crown)] [y-kor(seed-core)] [sh-ol-dy(steep-fluid)] ... [=Pt: y-dar-ai-sh-y]",
+      "pharmacopoeia_reading": "Incipit liber: Sume in calice radicem per mensuram; decoque liquorem et tincturam cum coma herbae et nucleo, bulliatur liquor ... [Titulus I: De radice/pixide decocta]."
+    },
+    {
+      "id": "Passage_2_f8r_P3_and_f46v_Colophon_Link",
+      "locus": "f8r.19\u201321 (=Pt Colophon) <-> f46v.2\u20138 (=Pt Colophon)",
+      "voynich_text": "<f8r.19> ... sair ... <f8r.21,=Pt> schol . saim<$> <-> <f46v.2> ... saim ... <f46v.8,=Pt> okeedchsy . qokeedy . chetedar . or . ai{cky}y",
+      "structural_parse": "[s-air(seed-essence)] -> [=Pt: s-ch-ol(mix-extract) s-aim(seed-essence-FIN)] <-> [s-aim(seed-essence)] -> [=Pt: o-ke-ed-ch-s-y qo-k-edy(strain) che-te-dar(infuse-duct-jar) or(extract) ai-cky-y]",
+      "pharmacopoeia_reading": "[Caput de semine aetherio]: Confice liquorem seminis. -> [Recepta f46v]: Sume semen aetherium ... elixa et cola, infunde per canalem in pixidem tincturam."
+    },
+    {
+      "id": "Passage_3_f11v_Red_Blossom_Herbal",
+      "locus": "f11v.1\u20136 (Red/Crimson Blossom Herbal Monograph, Currier A)",
+      "voynich_text": "<%>pchor . odar . chop . cthol . qokchol . chcfhy . shol ... cthor . shyarg<$>",
+      "structural_parse": "[HDR:p-ch-or(process-extract)] [o-dar(the-root/jar)] [ch-op] [cth-ol(red-blossom-fluid)] [qo-kch-ol(with-pot-fluid)] [ch-ckh-y(concoct)] [sh-ol(heated-fluid)] ... [cth-or(blossom-extract)] [sh-y-ar-g(steeped-root-SEALED)]",
+      "pharmacopoeia_reading": "Recipe tincturam de radice; contunde florem rubrum in liquore cum vase, confice et bulli liquorem ... tinctura floris decocta et sigillata."
+    },
+    {
+      "id": "Passage_4_f16v_Blue_Blossom_Herbal",
+      "locus": "f16v.1\u20137 (Blue/Violet Blossom Herbal Monograph, Currier A)",
+      "voynich_text": "<%>fcho . kchor . sho .aiin . shol . qokchol . cphol . chor . chey . ky ...",
+      "structural_parse": "[HDR:f-ch-o(vessel-mix)] [kch-or(concoct-extract)] [sh-o-aiin(heat-measure)] [sh-ol(heated-fluid)] [qo-kch-ol(with-vessel-fluid)] [cth-ol(crown-fluid)] [ch-or(mix-extract)] [ch-ey(process)] [ky(blue-calyx)]",
+      "pharmacopoeia_reading": "In vase confice tincturam; bulli mensuram liquoris cum decoctione comae, misce extractum calycis caerulei."
+    },
+    {
+      "id": "Passage_5_f75r_f75v_Same_Leaf_Hydraulic_Cascade",
+      "locus": "f75r.47\u201353 (@Pb Cascade) <-> f75v.46\u201348 (+P0) & f75v.57\u201359 (+Pb)",
+      "voynich_text": "<f75r.47\u201351,@Pb> sal.okeedy / daly.ychey / sols.dara / ychty / saino <-> <f75v.46\u201348> ychey.qotain.sheckhy.qokedy ... ycheedy.saino.ol.cheedy ... <f75v.59,+Pb> qokeedy.qokol.olkol<$>",
+      "structural_parse": "[sal(salt-bath) o-k-edy(flow-in-vessel)] / [dal-y(in-pool) y-ch-ey(then-mix)] / [saino(bath-essence)] <-> [y-ch-ey(then-mix) qo-t-ain(with-duct-unit) she-ckh-y(decoct) qo-k-edy(strain)] ... [y-che-edy(then-infuse) saino(bath-essence) ol(fluid) che-edy(infuse)] ... [qo-k-edy qo-kol ol-kol(fluid-conduit)]",
+      "pharmacopoeia_reading": "[Gradus balnei]: Sal infundatur; in pelvi commisceatur; essentia balnei ('saino') -> Inde commisce per fistulam, decoque et cola ... infunde essentiam balnei ('saino') in liquore; fluit per fistulam ('olkol')."
+    },
+    {
+      "id": "Passage_6_f82v_f83r_Facing_Hydraulic_Opening",
+      "locus": "f82v.13,37 (+P0) & f82v.44\u201346 (@Lt) <-> f83r.10,24 (+P0) & f83r.46,52,55 (@Lt/@Pb)",
+      "voynich_text": "<f82v.45\u201346,@Lt> okoldy / olkol -> <f82v.13> ... qokoldy <f82v.37> ... chol.olkol.chckhy ... | <f83r.46,=Lt> olsaiin -> <f83r.24> ... otaiin.olsaly.shedy<$>",
+      "structural_parse": "[@Lt: o-kol-dy(the-conduit) / ol-kol(fluid-conduit)] -> [qo-kol-dy(through-conduit)] ... [ch-ol(mix-fluid) ol-kol(fluid-conduit) ch-ckh-y(concoct)] | [=Lt: ol-s-aiin(fluid-stream-unit)] -> [o-t-aiin(duct-unit) ol-s-al-y(fluid-stream) sh-edy(heated)]",
+      "pharmacopoeia_reading": "[In arcu fistulae 'okoldy / olkol']: Per fistulam ('qokoldy') tempera liquorem fistulae ('olkol'); et ex canali ('olsaiin') per mensuram ducatur liquor ('olsaly') calefactus."
+    },
+    {
+      "id": "Passage_7_f99r_Three_Jars_and_Five_Roots_Recipe",
+      "locus": "f99r.1\u20139 (@Lc/@Lf Labels) -> f99r.16\u201321 (Paragraph 2 Recipe)",
+      "voynich_text": "[@Lc: oksho /odar.oeees / oysor.oar.adag] [@Lf: okor.ydar / dar.cheo.dain / sory / oldar / otoldar] -> <f99r.16\u201319> <%>pchodar.opdar.aldaro.dy ... sory.ckhar.or.aiin ... okeey.dar.chead.aiin ... cheol.dal.daiin.dam<$>",
+      "structural_parse": "[HDR:p-ch-o-dar(process-jar)] [op-dar(top-jar)] [al-dar-o-dy(from-jar)] ... [sory(Plant-3:'sory') ckh-ar(extract-root) or-aiin(gold-measure)] ... [o-k-eey(in-vessel) dar(Plant-2:'dar') ch-ead-aiin(mix-measure)] ... [che-ol(infuse-fluid) dal(in-basin) daiin(thereof) dam(thereof-FIN)]",
+      "pharmacopoeia_reading": "Para pixidem superiorem: Sume herbae 'sory' radicem contusam ad mensuram; in vase adde radicem 'dar' mixtam ad mensuram; infunde liquorem in pelvi deinde."
+    },
+    {
+      "id": "Passage_8_f88v_f40v_f105r_f114v_Arody_Cross_Section_Chain",
+      "locus": "<f88v.4,@Lf> otar.arody -> <f40v.19,+Pc> ofair.arody<$> -> <f105r.6,@P0> <%>par.arody -> <f114v.37> ... tar.arody<$>",
+      "voynich_text": "<f88v.4,@Lf> otar . arody | <f40v.19,+Pc> pchedy . chetar . ofair . arody<$> | <f105r.6,@P0> <%>par . arody . qokal . okal . okeol ... <f105r.10,+Pr> sairy . ore . daiindy . ytam<$>",
+      "structural_parse": "[@Lf: o-tar(the-earth-root) ar-od-y(root-dosed)] -> [+Pc: p-ch-edy che-tar o-fair ar-od-y(root-dosed)] -> [@P0: <%>p-ar(HDR-root) ar-od-y(root-dosed) qo-kal(with-vessel) o-kal(the-vessel) o-ke-ol(cooked-fluid)] ... [+Pr: sair-y(seed-essence) ore daiin-dy y-tam(complete-FIN)]",
+      "pharmacopoeia_reading": "[Radix 'otar arody']: Perficitur decoctio radicis 'arody'. -> Recipe radicem 'arody' cum calice et liquore cocto ... cum essentia seminis ('sairy'), deinde completum est."
+    }
+  ]
+}
