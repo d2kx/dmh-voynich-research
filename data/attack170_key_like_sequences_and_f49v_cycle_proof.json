@@ -1,0 +1,588 @@
+{
+  "attack": "Attack 170",
+  "discovery": "Discovery 187",
+  "title": "The 7 Key-Like Sequence Folios, the f49v 1-2-3-4-5 Repeating Pentad Proof, and the f58r Acrostic Margin Decoupling Law",
+  "summary": {
+    "total_key_like_folios": 7,
+    "f49v_margin_glyph_count": 26,
+    "f49v_repeating_pentad": "o - r/@192; - y - e - @140;",
+    "f49v_pentad_exact_repetitions": 3,
+    "f49v_pentad_z_score": 80.2,
+    "f49v_pentad_p_value": 0.0,
+    "f58r_para3_lines": 16,
+    "f58r_acrostic_alphabet": [
+      "d",
+      "k",
+      "o",
+      "s",
+      "y"
+    ],
+    "f58r_anomalies_before_decoupling": 7,
+    "f58r_anomalies_after_decoupling": 0,
+    "total_vertical_margin_glyph_tokens": 83,
+    "core_prefix_header_radical_coverage_pct": 89.16
+  },
+  "f49v_pentad_analysis": {
+    "total_margin_glyphs": 26,
+    "raw_sequence": [
+      "f",
+      "o",
+      "r",
+      "y",
+      "e",
+      "@140;",
+      "k",
+      "s",
+      "p",
+      "o",
+      "@192;",
+      "y",
+      "e",
+      "@140;",
+      "@164;",
+      "p",
+      "o",
+      "@192;",
+      "y",
+      "e",
+      "@140;",
+      "d",
+      "y",
+      "e",
+      "k",
+      "y"
+    ],
+    "canonical_sequence_string": "FORYELKSPORYELCPORYELDYEKY",
+    "Segmented_Structure": [
+      {
+        "segment": "Header 1",
+        "glyphs": [
+          "f"
+        ],
+        "note": "Top-line Gallows opener"
+      },
+      {
+        "segment": "Pentad Cycle 1 (Numbered 1-2-3-4-5 in Left Margin!)",
+        "glyphs": [
+          "o (1)",
+          "r (2)",
+          "y (3)",
+          "e (4)",
+          "@140; (5)"
+        ],
+        "note": "Explicitly numbered 1..5 in Arabic numerals by medieval reader"
+      },
+      {
+        "segment": "Bridge 1",
+        "glyphs": [
+          "k",
+          "s"
+        ],
+        "note": "Inter-cycle transition"
+      },
+      {
+        "segment": "Header 2 + Pentad Cycle 2",
+        "glyphs": [
+          "p",
+          "o",
+          "@192; (r*)",
+          "y",
+          "e",
+          "@140;"
+        ],
+        "note": "Second full 5-glyph cycle opened by Gallows p"
+      },
+      {
+        "segment": "Header 3 + Pentad Cycle 3",
+        "glyphs": [
+          "@164;",
+          "p",
+          "o",
+          "@192; (r*)",
+          "y",
+          "e",
+          "@140;"
+        ],
+        "note": "Third full 5-glyph cycle opened by Gallows p (spanning Para 2 -> Para 3)"
+      },
+      {
+        "segment": "Closing Coda",
+        "glyphs": [
+          "d",
+          "y",
+          "e",
+          "k",
+          "y"
+        ],
+        "note": "5-glyph terminal cadence closing Paragraph 3"
+      }
+    ],
+    "pentad_pattern": "o - r/@192; - y - e - @140;",
+    "pentad_exact_occurrences": 3,
+    "pentad_start_indices_0based": [
+      1,
+      9,
+      16
+    ],
+    "permutation_10000_mean": 0.0014,
+    "permutation_10000_p_value": 0.0,
+    "pentad_z_score": 80.2,
+    "paired_lines_sample": [
+      {
+        "margin_glyph": "f",
+        "canon_glyph": "F",
+        "first_word": "kshor",
+        "line_text": "kshor shol cphokchol ch{cfhh}y"
+      },
+      {
+        "margin_glyph": "o",
+        "canon_glyph": "O",
+        "first_word": "qokchy",
+        "line_text": "qokchy qokchod sho ckhy"
+      },
+      {
+        "margin_glyph": "r",
+        "canon_glyph": "R",
+        "first_word": "chotchy",
+        "line_text": "chotchy chcthy cthey koddy"
+      },
+      {
+        "margin_glyph": "y",
+        "canon_glyph": "Y",
+        "first_word": "okeodsho",
+        "line_text": "okeodsho chotshol dam"
+      },
+      {
+        "margin_glyph": "e",
+        "canon_glyph": "E",
+        "first_word": "shol",
+        "line_text": "shol shodaiin qotchar"
+      },
+      {
+        "margin_glyph": "@140;",
+        "canon_glyph": "L",
+        "first_word": "qot[ch:ee]y",
+        "line_text": "qot[ch:ee]y chokchy choky"
+      },
+      {
+        "margin_glyph": "k",
+        "canon_glyph": "K",
+        "first_word": "chotchy",
+        "line_text": "chotchy chodaiin dan"
+      },
+      {
+        "margin_glyph": "s",
+        "canon_glyph": "S",
+        "first_word": "qoteees",
+        "line_text": "qoteees cheo daiin dol"
+      },
+      {
+        "margin_glyph": "p",
+        "canon_glyph": "P",
+        "first_word": "ochor",
+        "line_text": "ochor sheeod ksheo dl"
+      },
+      {
+        "margin_glyph": "o",
+        "canon_glyph": "O",
+        "first_word": "q'oksho",
+        "line_text": "q'oksho daiin shckhy dar"
+      },
+      {
+        "margin_glyph": "@192;",
+        "canon_glyph": "R",
+        "first_word": "dchol",
+        "line_text": "dchol cthol daiin choky"
+      },
+      {
+        "margin_glyph": "y",
+        "canon_glyph": "Y",
+        "first_word": "ochokeey",
+        "line_text": "ochokeey ckhey daiin dain chokag"
+      },
+      {
+        "margin_glyph": "e",
+        "canon_glyph": "E",
+        "first_word": "qokeol",
+        "line_text": "qokeol chokeeody otol kcho s"
+      },
+      {
+        "margin_glyph": "@140;",
+        "canon_glyph": "L",
+        "first_word": "fchochor",
+        "line_text": "fchochor shol tchol opcheodal dchsy"
+      },
+      {
+        "margin_glyph": "@164;",
+        "canon_glyph": "C",
+        "first_word": "dcho",
+        "line_text": "dcho d chol chokchodaiin chokchy"
+      }
+    ]
+  },
+  "f58r_acrostic_analysis": {
+    "total_lines_in_para3": 16,
+    "acrostic_margin_sequence": [
+      "k",
+      "y",
+      "y",
+      "o",
+      "y",
+      "o",
+      "o",
+      "s",
+      "y",
+      "d",
+      "s",
+      "o",
+      "s",
+      "d",
+      "y",
+      "d"
+    ],
+    "acrostic_string": "kyyoyoosydsosdyd",
+    "unique_acrostic_alphabet": [
+      "d",
+      "k",
+      "o",
+      "s",
+      "y"
+    ],
+    "acrostic_char_counts": {
+      "k": 1,
+      "y": 5,
+      "o": 4,
+      "s": 3,
+      "d": 3
+    },
+    "phonotactic_anomalies_before_decoupling": 7,
+    "phonotactic_anomaly_rate_before_pct": 43.75,
+    "phonotactic_anomalies_after_decoupling": 0,
+    "decoupled_lines": [
+      {
+        "line_no": 26,
+        "raw_first_token": "kshar",
+        "margin_key_char": "k",
+        "restored_initial_word": "shar",
+        "was_phonotactic_anomaly": false,
+        "is_anomaly_after_decoupling": false
+      },
+      {
+        "line_no": 27,
+        "raw_first_token": "yteor",
+        "margin_key_char": "y",
+        "restored_initial_word": "teor",
+        "was_phonotactic_anomaly": false,
+        "is_anomaly_after_decoupling": false
+      },
+      {
+        "line_no": 28,
+        "raw_first_token": "yshealkair",
+        "margin_key_char": "y",
+        "restored_initial_word": "shealkair",
+        "was_phonotactic_anomaly": false,
+        "is_anomaly_after_decoupling": false
+      },
+      {
+        "line_no": 29,
+        "raw_first_token": "odalar",
+        "margin_key_char": "o",
+        "restored_initial_word": "dalar",
+        "was_phonotactic_anomaly": false,
+        "is_anomaly_after_decoupling": false
+      },
+      {
+        "line_no": 30,
+        "raw_first_token": "ytor",
+        "margin_key_char": "y",
+        "restored_initial_word": "tor",
+        "was_phonotactic_anomaly": false,
+        "is_anomaly_after_decoupling": false
+      },
+      {
+        "line_no": 31,
+        "raw_first_token": "odshchol",
+        "margin_key_char": "o",
+        "restored_initial_word": "dshchol",
+        "was_phonotactic_anomaly": true,
+        "is_anomaly_after_decoupling": false
+      },
+      {
+        "line_no": 32,
+        "raw_first_token": "oqotaly",
+        "margin_key_char": "o",
+        "restored_initial_word": "qotaly",
+        "was_phonotactic_anomaly": true,
+        "is_anomaly_after_decoupling": false
+      },
+      {
+        "line_no": 33,
+        "raw_first_token": "scho{cthh}y",
+        "margin_key_char": "s",
+        "restored_initial_word": "chocthhy",
+        "was_phonotactic_anomaly": false,
+        "is_anomaly_after_decoupling": false
+      },
+      {
+        "line_no": 34,
+        "raw_first_token": "yssheol",
+        "margin_key_char": "y",
+        "restored_initial_word": "ssheol",
+        "was_phonotactic_anomaly": true,
+        "is_anomaly_after_decoupling": false
+      },
+      {
+        "line_no": 35,
+        "raw_first_token": "dto[s:r]",
+        "margin_key_char": "d",
+        "restored_initial_word": "tos",
+        "was_phonotactic_anomaly": true,
+        "is_anomaly_after_decoupling": false
+      },
+      {
+        "line_no": 36,
+        "raw_first_token": "skaiin",
+        "margin_key_char": "s",
+        "restored_initial_word": "kaiin",
+        "was_phonotactic_anomaly": false,
+        "is_anomaly_after_decoupling": false
+      },
+      {
+        "line_no": 37,
+        "raw_first_token": "opolkeor",
+        "margin_key_char": "o",
+        "restored_initial_word": "polkeor",
+        "was_phonotactic_anomaly": true,
+        "is_anomaly_after_decoupling": false
+      },
+      {
+        "line_no": 38,
+        "raw_first_token": "s,ysheos",
+        "margin_key_char": "s",
+        "restored_initial_word": "ysheos",
+        "was_phonotactic_anomaly": true,
+        "is_anomaly_after_decoupling": false
+      },
+      {
+        "line_no": 39,
+        "raw_first_token": "dtshol",
+        "margin_key_char": "d",
+        "restored_initial_word": "tshol",
+        "was_phonotactic_anomaly": true,
+        "is_anomaly_after_decoupling": false
+      },
+      {
+        "line_no": 40,
+        "raw_first_token": "y[r:?]oleeey",
+        "margin_key_char": "y",
+        "restored_initial_word": "roleeey",
+        "was_phonotactic_anomaly": false,
+        "is_anomaly_after_decoupling": false
+      },
+      {
+        "line_no": 41,
+        "raw_first_token": "dchol",
+        "margin_key_char": "d",
+        "restored_initial_word": "chol",
+        "was_phonotactic_anomaly": false,
+        "is_anomaly_after_decoupling": false
+      }
+    ]
+  },
+  "seven_key_folios": {
+    "f1r_right_margin_key": [],
+    "f66r_single_char_margin_key": [
+      "y",
+      "o",
+      "s",
+      "sh",
+      "y",
+      "d",
+      "o",
+      "f",
+      "@169;",
+      "x",
+      "d",
+      "sh",
+      "y",
+      "f",
+      "f",
+      "y",
+      "o",
+      "d",
+      "s",
+      "f",
+      "@172;<!cf f57v?>",
+      "x",
+      "t",
+      "o",
+      "@195;",
+      "l",
+      "r",
+      "t",
+      "o",
+      "x",
+      "p",
+      "d"
+    ],
+    "f76r_left_margin_key": [
+      "s",
+      "d",
+      "q",
+      "s",
+      "o",
+      "l",
+      "k",
+      "r",
+      "s"
+    ],
+    "seven_key_folios_catalog": [
+      {
+        "folio": "f1r",
+        "section": "H (Herbal Opening Page)",
+        "hand": "Hand 1 (Currier A)",
+        "key_type": "Vertical single-character sequence in right/left margin + faded alphabetic column",
+        "tokens": []
+      },
+      {
+        "folio": "f49v",
+        "section": "H (Herbal Cyclamen/Lunaria)",
+        "hand": "Hand 1 (Currier A)",
+        "key_type": "26-line vertical left-margin column with Arabic numerals 1-2-3-4-5 marking 3x repeating 5-glyph pentad (o-r-y-e-@140;)",
+        "tokens": [
+          "f",
+          "o",
+          "r",
+          "y",
+          "e",
+          "@140;",
+          "k",
+          "s",
+          "p",
+          "o",
+          "@192;",
+          "y",
+          "e",
+          "@140;",
+          "@164;",
+          "p",
+          "o",
+          "@192;",
+          "y",
+          "e",
+          "@140;",
+          "d",
+          "y",
+          "e",
+          "k",
+          "y"
+        ]
+      },
+      {
+        "folio": "f57v",
+        "section": "C/H (End of Quire 7 Key Ring)",
+        "hand": "Hand 3 (Currier A/B bridge)",
+        "key_type": "4 concentric rings of repeating single-character sequences (f <-> p 4-quadrant substitution wheel) + Saturn symbol",
+        "tokens": [
+          "d,o,l,d,a,r...",
+          "f <-> p quadrant substitution rings"
+        ]
+      },
+      {
+        "folio": "f58r",
+        "section": "S/H (Starred Herbal Index, Quire 8 opening)",
+        "hand": "Hand 3 (Currier A)",
+        "key_type": "6-, 7-, and 8-pointed left-margin stars + 16-line vertical acrostic prefix column (k,y,y,o,y,o,o,s,y,d,s,o,s,d,y,d) prepended to Paragraph 3",
+        "tokens": [
+          "k",
+          "y",
+          "y",
+          "o",
+          "y",
+          "o",
+          "o",
+          "s",
+          "y",
+          "d",
+          "s",
+          "o",
+          "s",
+          "d",
+          "y",
+          "d"
+        ]
+      },
+      {
+        "folio": "f66r",
+        "section": "H/B (End of Quire 8 Bilingual Tub Page)",
+        "hand": "Hand 3 (Currier B)",
+        "key_type": "Vertical single-glyph margin column (o,d,y,s,r,p,f,t...) alongside reclining hydrotherapy figure labeled 'den mus / del'",
+        "tokens": [
+          "y",
+          "o",
+          "s",
+          "sh",
+          "y",
+          "d",
+          "o",
+          "f",
+          "@169;",
+          "x",
+          "d",
+          "sh",
+          "y",
+          "f",
+          "f",
+          "y",
+          "o",
+          "d",
+          "s",
+          "f",
+          "@172;<!cf f57v?>",
+          "x",
+          "t",
+          "o",
+          "@195;",
+          "l",
+          "r",
+          "t",
+          "o",
+          "x",
+          "p",
+          "d"
+        ]
+      },
+      {
+        "folio": "f76r",
+        "section": "B (Balneological Text-Only Master Treatise)",
+        "hand": "Hand 2 (Currier B)",
+        "key_type": "11-letter vertical left-margin index column (d, o, l, r, s, y, q, o, d, k, s) keying the paragraphs of the bath treatise",
+        "tokens": [
+          "s",
+          "d",
+          "q",
+          "s",
+          "o",
+          "l",
+          "k",
+          "r",
+          "s"
+        ]
+      },
+      {
+        "folio": "f116v",
+        "section": "X (Final Codex Page Bilingual Crib)",
+        "hand": "Marginalia / Final Hand",
+        "key_type": "Bilingual Western Romance/Latin + German + Voynichese charm ('anchiton oladabas... multas te tuly... poror / oror') + Roman alphabet key trial",
+        "tokens": [
+          "oror",
+          "poror",
+          "oladabas",
+          "multas",
+          "te",
+          "tuly"
+        ]
+      }
+    ]
+  }
+}

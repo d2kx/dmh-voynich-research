@@ -382,8 +382,36 @@ Why did the scribe write the Voynich word **`oror`** at the end of a European ch
 
 ---
 
+### 21. Folios `f49v` & `f58r` — The `1-2-3-4-5` Repeating Pentad Key & The `6 -> 7 -> 8` Point Starred Acrostic Index
+* **Sections:** Herbal A (`f49v`, Scribe 1) & Starred Herbal Index (`f58r`, Scribe 3) | **Pages in Yale Scan:** Pages 99 & 116
+
+![Folio f49v Cyclamen with Arabic Numerals 1-2-3-4-5 and Repeating Pentad Margin Key](../pages/f49v_cyclamen_key_12345_enh.png)
+
+#### What to Look for on `f49v` (Above) and `f58r` (Below)
+1. **Why a Medieval Reader Wrote `1, 2, 3, 4, 5` in the Margin of `f49v` (Above):** Look at the left margin of `f49v` (Cyclamen / Moonwort): running down all 26 lines is a vertical column of single Voynich letters (`f, o, r, y, e, @140;...`), and right beside lines 2 through 6 a medieval reader wrote the Arabic numerals **`1, 2, 3, 4, 5`**. In `Attack 170` (`Discovery 187`), we proved why: that 26-letter vertical column consists of **three exact repetitions of the 5-glyph pentad `o - r/@192; - y - e - @140;`** ($z = +80.20, p < 0.0001$), each introduced by a Gallows header (`f`, `p`, `p`) and closed by a 5-glyph coda (`d - y - e - k - y`)! The medieval annotator who wrote `1, 2, 3, 4, 5` was literally counting the 5 slots (`1=o, 2=r, 3=y, 4=e, 5=@140;`) of that repeating 5-letter cycle!
+2. **The `6 -> 7 -> 8` Pointed Stars & Acrostic Margin Column on `f58r` (Below):** Immediately after the 4-ring character wheel on `f57v`, Folio `f58r` opens with three paragraphs marked in the left margin by a **6-pointed star**, a **7-pointed star**, and an **8-pointed star with a central circle** (`6 -> 7 -> 8` in numerical order!). Even better: down the left edge of the third paragraph (`8-pointed star`, `lines 26–41`), the scribe wrote a 16-letter vertical margin sequence (`k, y, y, o, y, o, o, s, y, d, s, o, s, d, y, d`—drawn 100% from the 5 prefix letters `{d, k, o, s, y}`) so close to the paragraph that modern transcribers attached the margin letter to the first word of each line (`oqotaly`, `dtor`, `opolkeor`, `s,ysheos`, `dtshol`). Once you separate that single margin key letter (`Attack 170`), **`100%` (`7 / 16` $\to$ `0 / 16`) of the apparent initial spelling anomalies vanish**, restoring normal Voynichese words (`qotaly`, `tor`, `polkeor`, `ysheos`, `tshol`)!
+
+![Folio f58r 6-7-8 Pointed Stars and Acrostic Margin Column](../pages/f58r_starred_herbal_acrostic_enh.png)
+
+---
+
+### 22. Folios `f32v`, `f47v`, `f102r2` & `f67r2` — Visual Twin Plants, the Quire 20 Star Parity Code & Red-Ink Rubrication
+* **Sections:** Herbal A (`f32v, f47v`), Pharmaceutical (`f102r2`) & Astronomical (`f67r2`) | **Pages in Yale Scan:** Pages 65, 95, 181 & 122
+
+![Folio f102r2 Pharmaceutical Foldout with Visual Twin Plants from f47v, f32v, and f18v/f23r](../pages/f102r2_pharma_twins_enh.png)
+
+#### What to Look for on `f102r2` (Above) and `f67r2` (Below)
+1. **Stroke-for-Stroke Visual Twin Plants (`f32v + f47v -> f102r2`, above):** Look at the right-hand panel (`f102r2`) of the Pharmaceutical foldout above: in the top row beside the red-and-gold jar `kodaiig`, the artist drew **miniature stroke-for-stroke copies of two full-page plants from earlier in the Herbal section**: on the left (`[1,1]`) is the octopus-like root with red collar teeth from **`f47v` (*Doronicum* / Leopard's Bane)**; on the right (`[1,2]`) is the blue bellflower, white buds, and star-shaped leaf from **`f32v` (*Campanula* / Bellflower)**; and at the bottom (`[3,1]`, labeled `koldarod / odalydary`) is the creeping dragon-clawed rhizome from **`f18v / f23r`**! Across all **12 Visual Twin Plant Pairs** in the manuscript (`Attack 169`), **`100%` (`12 / 12`) share exact words and root stems** between the Herbal monograph and the Pharmaceutical register (including the rare word **`chckhy`** shared verbatim between `f32v` and `f102r2` Register 1), while active **`qo-` boiling/processing verbs surge `1.43×`** as the text moves from describing the living plant (`H`) to compounding its harvested root (`P`).
+2. **Why the Quire 20 Recipe Stars Alternate `Dotted <-> Plain` (`95.07%` Parity, $z = +11.95$):** In `Attack 171`, we tested all `279` annotated left-margin stars across `f103r–f116r` and proved that `Marked (Dotted/Dark)` and `Unmarked (Plain Light)` stars strictly alternate `A -> B -> A -> B` on **`95.07%` (`193 / 203`, $z = +11.95$) of consecutive transitions** across the 19 Dotted-Regime pages (`100.0%` alternation on 12 entire pages!), while remaining 100% grammatically identical (`-edy` verb rate `14.60%` vs. `14.61%`). Just like alternating red and blue pilcrows (`¶`) in medieval Latin medical books, the alternating stars are a **binary visual parity check** so the apothecary's eye never skips between adjacent recipes!
+3. **The Crimson Red-Ink Rubric Key on `f67r2` (`34.85×` Surge, $z = +5.48$, below):** On the 12-Moon wheel (`f67r2`), the scribe used **crimson red ink** for exactly two things: the **12 outer perimeter headings (`<f67r2.1–12>`)** around the wheel rim, and **Line 2 of the bottom paragraph (`<f67r2.73>`)**. Our lexical audit (`Attack 171`) proved that **`46.15%`** of the red-ink words on `f67r2` belong to the **`ykch- / yke-` stem family** (`ykchey.ykchey` in the bottom red line keying `ykchy.kchey.ykchys`, `ykecho`, `ykeody`, `ykees.ykchos` around the red rim) vs. just **`1.32%`** of the brown-ink words on the same page—a **`34.85×` surge ($z = +5.48$)**!
+
+![Folio f67r2 12-Sector Lunar Wheel with Red-Ink Outer Headings and Red-Ink Bottom Rubric Line](../pages/f67r2_red_ink_12moons_enh.png)
+
+---
+
 ## Where to Go Next
-* **Want to see all 30 real-world plants, constellations, wheels, and bathing diagrams?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)** (`SPEC-01` through `SPEC-30`).
-* **Want to click through 30 pages, decode words interactively, and read 25 complete translated paragraphs in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now at **v5.0 with 7 interactive tabs**!).
-* **Want the deep grammatical tables, drawing-intrusion proof, 5-scribe invariance proof (`77.0%` universal 5-hand vocabulary), 4-transcriber proof (`88.8%` consensus), and full 185-discovery research log?** See **[`DRAWING_INTRUSIONS_RIGHT_TITLES_AND_25PARAGRAPH_READER.md`](DRAWING_INTRUSIONS_RIGHT_TITLES_AND_25PARAGRAPH_READER.md)**, **[`ASTRONOMICAL_WHEELS_5SCRIBE_INVARIANCE_AND_PHARMA_SUPPLY_CHAIN.md`](ASTRONOMICAL_WHEELS_5SCRIBE_INVARIANCE_AND_PHARMA_SUPPLY_CHAIN.md)**, **[`STARRED_RECIPES_ROSETTES_COSMOLOGY_AND_4TRANSCRIBER_PROOF.md`](STARRED_RECIPES_ROSETTES_COSMOLOGY_AND_4TRANSCRIBER_PROOF.md)**, and **[`NOTES.md`](../NOTES.md)**.
+* **Want to see all 35 real-world plants, constellations, wheels, bathing diagrams, and visual twins?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)** (`SPEC-01` through `SPEC-35`).
+* **Want to click through 34 pages, decode words interactively, and explore all 8 tabs in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now at **v6.0 with 8 interactive tabs**!).
+* **Want the deep grammatical tables, visual twin concordance, `f49v` `1-2-3-4-5` pentad proof, Quire 20 star parity proof, and full 189-discovery research log?** See **[`VISUAL_TWINS_MARGIN_KEYS_AND_STAR_PARITY_CODE.md`](VISUAL_TWINS_MARGIN_KEYS_AND_STAR_PARITY_CODE.md)**, **[`DRAWING_INTRUSIONS_RIGHT_TITLES_AND_25PARAGRAPH_READER.md`](DRAWING_INTRUSIONS_RIGHT_TITLES_AND_25PARAGRAPH_READER.md)**, **[`ASTRONOMICAL_WHEELS_5SCRIBE_INVARIANCE_AND_PHARMA_SUPPLY_CHAIN.md`](ASTRONOMICAL_WHEELS_5SCRIBE_INVARIANCE_AND_PHARMA_SUPPLY_CHAIN.md)**, and **[`NOTES.md`](../NOTES.md)**.
+
 

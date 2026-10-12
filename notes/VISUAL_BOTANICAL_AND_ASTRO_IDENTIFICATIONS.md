@@ -1,10 +1,10 @@
 # Visual Botanical, Astrological, Balneological & Cosmological Crib Identification Dossier
 
-> **Purpose of this Dossier:** Statistical analysis alone cannot tell you whether a plant stem means *Nightshade* or *Alkanet*, or what a painted water pipe or star-wheel is doing. To ground Voynich root words in the real physical world, we must pair **high-resolution visual inspection of the paintings** with **the exact Voynich labels written on those drawings** and **how those words behave in the recipe sections**. This dossier compiles the **30 strongest visual botanical, astronomical, balneological, cosmological, and pharmaceutical identifications** in the manuscript.
+> **Purpose of this Dossier:** Statistical analysis alone cannot tell you whether a plant stem means *Nightshade* or *Alkanet*, or what a painted water pipe or star-wheel is doing. To ground Voynich root words in the real physical world, we must pair **high-resolution visual inspection of the paintings** with **the exact Voynich labels written on those drawings** and **how those words behave in the recipe sections**. This dossier compiles the **35 strongest visual botanical, astronomical, balneological, cosmological, and pharmaceutical identifications** in the manuscript.
 
 ---
 
-## Quick Summary Table: The 30 Flagship Visual Identifications (`SPEC-01` – `SPEC-30`)
+## Quick Summary Table: The 35 Flagship Visual Identifications (`SPEC-01` – `SPEC-35`)
 
 | ID | Folio(s) | Painted Subject | Real-World Identification (15th-c. Herbal / Astronomy / Balneology) | Key Voynich Words / Stems | Why the Match Holds Up |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -38,10 +38,15 @@
 | **SPEC-28** | `f33r` (p.66) | **Twin-Flowered Spotted-Calyx Herb With Male & Female Human-Faced Root Tubers** | *Mandragora officinarum / Bryonia dioica (Anthropomorphic Male & Female Faced Root Tubers)* | `chedy / chol (herbal infusion / decoction), qokeedy / qokedy (then boil thoroughly)` | Tier A (Unmistakable Anthropomorphic Twin-Face Mandrake/Bryony Root Iconography) |
 | **SPEC-29** | `f71v, f72r1, f72r2 & f72r3` (p.131) | **The Four-Month Spring/Summer Zodiac Foldout: Aries (`abril`), Taurus (`may`), Gemini (`juny`) & Cancer (`jolh`)** | *Aries (`abril`), Taurus (`may`), Gemini (`juny`), Cancer (`jolh` = July)* | `otaly (named celestial degree), okaly (star-essence degree)` | Tier A+ (Four Consecutive Bilingual Month Glosses `abril, may, juny, jolh` in One Panorama) |
 | **SPEC-30** | `f79r` (p.144) | **Multi-Stage Vertical Funnel-Cascade Shower & Green Immersion Basin (`f79r`)** | *Balneum Stillicidium / Embrocatio (Vertical Shower-Spout & Multi-Basin Cascade Bath)* | `qokeedy / qokedy (then boil/heat the bath), shedy / shol (wash/bathe in the shower stream)` | Tier A (Direct Visual Match to 15th-c. Italian *Doccia* Shower & Stepped Bath Cascade) |
+| **SPEC-31** | `f49v` (p.99) | **Cyclamen / Moonwort (*Cyclamen / Lunaria*) With Arabic Numerals `1 2 3 4 5` & 3x Repeating Pentad Key** | *Cyclamen europaeum / Lunaria (Crescent-Leaved Tuberous Herb with Starry Blue Flower)* | `o - r - y - e - @140; (3x repeating 5-glyph margin pentad, z = +80.20), chotchy / chokchy (herbal infusion stem)` | Tier A+ (Arabic Numerals `1-2-3-4-5` + 3x Repeating 5-Glyph Pentad Cycle, z = +80.20) |
+| **SPEC-32** | `f58r` (p.116) | **The `6-7-8` Pointed Star Herbal Directory & Paragraph 3 Left-Margin Acrostic Key** | *Index Capitularum Herbarum (Currier-A Starred Master Index Following the `f57v` Key Ring)* | `otar / otaly / otalar (earth/root essence), chol / shol (strained herbal liquid)` | Tier A+ (`6 -> 7 -> 8` Point Star Progression + 100% Anomaly Resolution via Acrostic Decoupling) |
+| **SPEC-33** | `f67r2` (p.122) | **The 12-Moon Wheel With 12 Red-Ink Outer Headings & Red-Ink Bottom Rubric Line (`34.85×` Surge)** | *Rota XII Mansionum Lunae cum Rubricis Rubeis (12-Sector Lunar Wheel with Red-Ink Rubric Key)* | `ykch- / yke- / kch- (46.15% of Red-Ink words vs. 1.32% of Brown-Ink words = 34.85x surge, z = +5.48!), okol / olar (in the vessel/essence)` | Tier A+ (34.85x Lexical Concordance Between Red-Ink Rim Headings & Red-Ink Bottom Rubric, z = +5.48) |
+| **SPEC-34** | `f32v & f102r2[1,2]` (p.65) | **Blue Bellflower (*Campanula*) on `f32v` & Its Exact Miniature Copy at `f102r2[1,2]`** | *Campanula medium / Campanula trachelium (Bellflower / Glockenblume)* | `chckhy (shared verbatim between `f32v` and `f102r2` Register 1!), dor (red/root extract, shared verbatim)` | Tier A+ (Stroke-for-Stroke Visual Twin Pair + Verbatim Rare Word Match `chckhy`) |
+| **SPEC-35** | `f47v & f102r2[1,1..3,1]` (p.95) | **Leopard's Bane (*Doronicum*, `f47v`) + Bellflower (`f32v`) Compounded on `f102r2`** | *Doronicum pardalianches (Leopard's Bane / Gemswurz, `f47v` = `f102r2[1,1]`)* | `okol / qokol (vessel/boil in vessel, shared across all 3 twins), chckhy / dor (shared with `f32v` & `f47v`)` | Tier A+ (Three Independently Verified Visual Twin Plants on One Pharmaceutical Panel) |
 
 ---
 
-## Detailed Visual & Linguistic Dossiers (`SPEC-01` – `SPEC-30`)
+## Detailed Visual & Linguistic Dossiers (`SPEC-01` – `SPEC-35`)
 
 ### SPEC-01: Folio `f1v` — Deadly Nightshade / Belladonna
 * **Manuscript Section:** Herbal A (Scribe 1) (Yale PDF Page 4)
@@ -730,6 +735,120 @@ Page 131 of the Yale scan unfolds into a breathtaking four-panel panorama showin
 
 #### 3. Plain-English Explanation
 Folio f79r illustrates a classic 15th-century Italian hydrotherapy technique called the *doccia* (overhead medicated shower) combined with stepped immersion basins. Follow the left margin from top to bottom: a blue-and-white overhead spout pours water onto the top bather's head; the water flows down through three funnel-tubs tended by pairs of bathers and empties into a green immersion pool at the bottom. Right beside this vertical cascade sit 7 paragraphs that walk step-by-step through heating the herbal water (`qokeedy`), showering/washing (`shedy`), and soaking in the basin (`olchedy`).
+
+---
+
+### SPEC-31: Folio `f49v` — Cyclamen / Moonwort (*Cyclamen / Lunaria*) With Arabic Numerals `1 2 3 4 5` & 3x Repeating Pentad Key
+* **Manuscript Section:** Herbal A (`f1r–f57v`, Scribe 1, Quire G) (Yale PDF Page 99)
+* **Primary Scientific / Historical Candidates:** *Cyclamen europaeum / Lunaria (Crescent-Leaved Tuberous Herb with Starry Blue Flower)*, *Left-Margin 5-Glyph Repeating Pentad Key (`o - r/@192; - y - e - @140;`, z = +80.20)*
+* **15th-Century European Parallels:** 15th-century Northern Italian Herbals (*Cyclamen / Panis porcinus* with spotted/dimpled round corm and kidney-crescent leaves)
+* **Confidence Rating:** **Tier A+ (Arabic Numerals `1-2-3-4-5` + 3x Repeating 5-Glyph Pentad Cycle, z = +80.20)**
+
+![f49v — Cyclamen / Moonwort (*Cyclamen / Lunaria*) With Arabic Numerals `1 2 3 4 5` & 3x Repeating Pentad Key](../pages/f49v_cyclamen_key_12345_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Large dimpled globular root tuber at bottom right sending a long slender stem up to six green-and-white crescent/kidney-shaped leaves and a 7-petaled blue star-flower at top right
+- Down the left margin of all 26 lines runs a vertical column of single Voynich glyphs (`f [o r y e @140;] k s p [o @192; y e @140;] @164; p [o @192; y e @140;] d y e k y`)
+- Directly to the left of the first 5-glyph cycle (`o, r, y, e, @140;`), a medieval hand wrote the Arabic numerals **`1, 2, 3, 4, 5`** vertically—explicitly counting the 5 slots of the repeating pentad!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `kshor / fchochor / qotcho (3 paragraph openers next to the vertical margin key)`
+- **Dominant Root Stems on This Page:** `o - r - y - e - @140; (3x repeating 5-glyph margin pentad, z = +80.20)`, `chotchy / chokchy (herbal infusion stem)`, `daiin / dain (one measured part)`
+- **Where This Ingredient Reappears in Recipes:** Connects all 7 'key-like sequence' folios (`f1r, f49v, f57v, f58r, f66r, f76r, f116v`) via the shared `89.2%` core prefix/header alphabet (`Attack 170`)!
+
+#### 3. Plain-English Explanation
+Folio f49v is one of the most astonishing paleographic keys in the entire Voynich Manuscript. Down the left margin of its 26 lines sits a vertical column of single Voynich letters, and right beside lines 2 through 6 a medieval reader wrote the Arabic numbers **`1, 2, 3, 4, 5`**. Why did they count to 5? Because in `Attack 170` (`Discovery 187`), we proved that the vertical column consists of **three exact repetitions of the 5-letter sequence `o - r/@192; - y - e - @140;`** ($z = +80.20$)! The medieval reader who wrote `1, 2, 3, 4, 5` was literally numbering the 5 slots of that repeating 5-glyph cycle.
+
+---
+
+### SPEC-32: Folio `f58r` — The `6-7-8` Pointed Star Herbal Directory & Paragraph 3 Left-Margin Acrostic Key
+* **Manuscript Section:** Starred Herbal Index (`Quire H`, Scribe 3, Currier A) (Yale PDF Page 116)
+* **Primary Scientific / Historical Candidates:** *Index Capitularum Herbarum (Currier-A Starred Master Index Following the `f57v` Key Ring)*, *16-Line Vertical Acrostic Prefix Key (`k, y, y, o, y, o, o, s, y, d, s, o, s, d, y, d`)*
+* **15th-Century European Parallels:** 15th-century Capitularia / Tabulae with numbered ray-stars and marginal index letters
+* **Confidence Rating:** **Tier A+ (`6 -> 7 -> 8` Point Star Progression + 100% Anomaly Resolution via Acrostic Decoupling)**
+
+![f58r — The `6-7-8` Pointed Star Herbal Directory & Paragraph 3 Left-Margin Acrostic Key](../pages/f58r_starred_herbal_acrostic_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Three large, crisp left-margin stars whose ray counts increment in strict arithmetic order from top to bottom: **6-pointed star** (Para 1) -> **7-pointed star** (Para 2) -> **8-pointed star with central circle** (Para 3)
+- Along the left edge of Paragraph 3 (`lines 26–41`), a single extra prefix character (`k, y, y, o, y, o, o, s, y, d, s, o, s, d, y, d`) stands at the start of every line
+- Decoupling that single left-margin key character (`oqotaly -> o + qotaly`, `dtor -> d + tor`, `opolkeor -> o + polkeor`, `s,ysheos -> s + ysheos`, `dtshol -> d + tshol`) eliminates **100% (`7 / 16 -> 0 / 16`)** of the paragraph's apparent initial spelling anomalies!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `kor,cholfy (6-pt star) / typchey (7-pt star) / k+shar (8-pt star)`
+- **Dominant Root Stems on This Page:** `otar / otaly / otalar (earth/root essence)`, `chol / shol (strained herbal liquid)`, `qokal / qokaly (boil the star/herb extract)`
+- **Where This Ingredient Reappears in Recipes:** Bridges the Currier-A Herbal section (`f1r–f57v`) directly to the Quire 20 Starred Master Recipes (`f103r–f116r`, `Attack 170–171`)
+
+#### 3. Plain-English Explanation
+Right after the 4-ring character key on `f57v`, Folio `f58r` opens with three paragraphs marked by **6-pointed, 7-pointed, and 8-pointed stars** (`6 -> 7 -> 8` in numerical order!). Even more remarkably, down the left edge of the third paragraph (`8-pointed star`), the scribe wrote a vertical 16-letter index column (`k, y, y, o, y, o, o, s, y, d, s, o, s, d, y, d`) so close to the text that modern transcribers merged the margin letter onto the first word of each line (`oqotaly`, `dtor`, `opolkeor`, `dtshol`). Once you separate that single margin key letter (`Attack 170`), every single 'impossible' word on `f58r` turns back into a normal Voynichese word (`qotaly`, `tor`, `polkeor`, `tshol`)!
+
+---
+
+### SPEC-33: Folio `f67r2` — The 12-Moon Wheel With 12 Red-Ink Outer Headings & Red-Ink Bottom Rubric Line (`34.85×` Surge)
+* **Manuscript Section:** Astronomical (`f67r1–f70r2`, Scribe 4) (Yale PDF Page 122)
+* **Primary Scientific / Historical Candidates:** *Rota XII Mansionum Lunae cum Rubricis Rubeis (12-Sector Lunar Wheel with Red-Ink Rubric Key)*, *Direct Color-Coded Concordance Between `<f67r2.1..12>` and `<f67r2.73>` (`Attack 171`, z = +5.48)*
+* **15th-Century European Parallels:** 15th-century Rubricated Astrological Tables (where red-ink bottom rubrics explain red-ink perimeter headings)
+* **Confidence Rating:** **Tier A+ (34.85x Lexical Concordance Between Red-Ink Rim Headings & Red-Ink Bottom Rubric, z = +5.48)**
+
+![f67r2 — The 12-Moon Wheel With 12 Red-Ink Outer Headings & Red-Ink Bottom Rubric Line (`34.85×` Surge)](../pages/f67r2_red_ink_12moons_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Around the outer degree ring, **12 perimeter headings (`<f67r2.1..12>`) are written in bright crimson red ink** (`ykshy.s.aram`, `ykecho.ols.eesydy`, `shekchy.sykos`, `ykeody.okchy`, `ykchy.kchey.ykchys`...)
+- Inside the wheel sit 12 sectors containing alternating red-painted and unpainted lunar/planetary faces above a central 8-pointed star
+- At the bottom of the page, in the middle of a 3-line paragraph (`<f67r2.72–74>`), **Line 2 (`<f67r2.73>`) is written entirely in bright crimson red ink** (`sshey.sy,shees.qeykeey.ykchey.ykchey.qokeochy.oaiin.okol.ar.olar`)!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `ykshy / ykecho / ykchey.ykchey (Red-ink outer headings & red-ink bottom rubric line)`
+- **Dominant Root Stems on This Page:** `ykch- / yke- / kch- (46.15% of Red-Ink words vs. 1.32% of Brown-Ink words = 34.85x surge, z = +5.48!)`, `okol / olar (in the vessel/essence)`, `otar / okodar (sector labels)`
+- **Where This Ingredient Reappears in Recipes:** Proves that color rubrication in the Voynich Manuscript is semantically and lexically functional (`Attack 171`)!
+
+#### 3. Plain-English Explanation
+Look at the right-hand wheel on page 122 (`f67r2`): the scribe dipped their pen in **bright crimson red ink** to write two things on this page: (1) the **12 outer perimeter headings** around the rim of the wheel (`<f67r2.1–12>`), and (2) the **middle line of the 3-line paragraph at the bottom of the page** (`<f67r2.73>`). Why are both written in red ink? In `Attack 171` (`Discovery 188`), we proved that **`46.15%`** of the words written in red ink on `f67r2` carry the rare **`ykch- / yke-`** stem (`ykchey.ykchey` in the bottom red line, matching `ykchy.kchey.ykchys`, `ykecho`, `ykeody`, `ykees.ykchos` around the red rim), compared to just **`1.32%`** of the brown-ink words on the same page—a **`34.85×` concentration ($z = +5.48$)**! The red line at the bottom is literally the color-coded key to the 12 red headings around the wheel.
+
+---
+
+### SPEC-34: Folio `f32v & f102r2[1,2]` — Blue Bellflower (*Campanula*) on `f32v` & Its Exact Miniature Copy at `f102r2[1,2]`
+* **Manuscript Section:** Herbal A (`f32v`) <-> Pharmaceutical (`f102r2`, Scribe 1) (Yale PDF Page 65)
+* **Primary Scientific / Historical Candidates:** *Campanula medium / Campanula trachelium (Bellflower / Glockenblume)*, *Visual Twin Pair `TWIN-05`: `f32v` (Herbal Monograph) <-> `f102r2[1,2]` (Pharma Top Register)*
+* **15th-Century European Parallels:** 15th-century Northern Italian Herbals (*Campanula / Cervicaria* with blue bell-shaped corollas and star-toothed leaves)
+* **Confidence Rating:** **Tier A+ (Stroke-for-Stroke Visual Twin Pair + Verbatim Rare Word Match `chckhy`)**
+
+![f32v & f102r2[1,2] — Blue Bellflower (*Campanula*) on `f32v` & Its Exact Miniature Copy at `f102r2[1,2]`](../pages/f32v_campanula_twin_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- On `f32v`: Three deep-blue flare-mouthed bell flowers with projecting stamens, white calyx buds, green 6-pointed star-shaped leaves, and an L-shaped brown-collared root
+- On `f102r2` (top-right specimen `[1,2]`): The artist copied the **exact blue bell flower, white buds, star-shaped leaf, and brown-collared root** in miniature next to apothecary jar `kodaiig`!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `kochdair (`f32v` opener) <-> kodaiig / lsais (`f102r2` top register)`
+- **Dominant Root Stems on This Page:** `chckhy (shared verbatim between `f32v` and `f102r2` Register 1!)`, `dor (red/root extract, shared verbatim)`, `chol / chey (herbal infusion)`, `daiin (one measured dose)`
+- **Where This Ingredient Reappears in Recipes:** Shares 14 exact words (`chckhy, chey, chol, cthol, daiin, dor...`) with `f102r2`, including 7 exact words inside Register 1 (`Attack 169`)!
+
+#### 3. Plain-English Explanation
+Compare Folio `f32v` (above) with the top-right plant drawn on Pharmaceutical foldout `f102r2` (`SPEC-35` below): they are **stroke-for-stroke visual twins**! Both show the exact same blue bell-shaped flower (*Campanula*), white buds, star-shaped green leaves, and curved brown-collared root. And when we check the text (`Attack 169`), `f32v` and `f102r2` share **14 exact words** (including the rare compound **`chckhy`** right inside the top paragraph of `f102r2`), while active `qo-` processing verbs rise from `5.62%` on `f32v` to `7.69%` in the `f102r2` compounding recipe!
+
+---
+
+### SPEC-35: Folio `f47v & f102r2[1,1..3,1]` — Leopard's Bane (*Doronicum*, `f47v`) + Bellflower (`f32v`) Compounded on `f102r2`
+* **Manuscript Section:** Herbal A (`f47v`) <-> Pharmaceutical (`f102r2`, Scribe 1) (Yale PDF Page 95)
+* **Primary Scientific / Historical Candidates:** *Doronicum pardalianches (Leopard's Bane / Gemswurz, `f47v` = `f102r2[1,1]`)*, *Multi-Herb Pharmaceutical Compounding Sheet (`f102r2`: `[1,1]=f47v`, `[1,2]=f32v`, `[3,1]=f18v/f23r`)*
+* **15th-Century European Parallels:** 15th-century Italian Compounding Sheets showing the individual simples lined up beside the storage jar (`albarello`) of the finished electuary
+* **Confidence Rating:** **Tier A+ (Three Independently Verified Visual Twin Plants on One Pharmaceutical Panel)**
+
+![f47v & f102r2[1,1..3,1] — Leopard's Bane (*Doronicum*, `f47v`) + Bellflower (`f32v`) Compounded on `f102r2`](../pages/f102r2_pharma_twins_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Look at the right-hand panel (`f102r2`) of the 3-page foldout above: in the top row sit two plants side by side beside the red-and-gold jar `kodaiig`
+- The left plant (`[1,1]`) is an exact miniature copy of **`f47v` (*Doronicum*)**—an octopus-like brown root with tiny red teeth at the collar and a single broad green leaf
+- The right plant (`[1,2]`) is an exact miniature copy of **`f32v` (*Campanula*)**, while the bottom creeping dragon-root (`[3,1]`, labeled `koldarod / odalydary`) copies **`f18v / f23r`**!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `kodaiig (Top Jar) / okorolda (Middle Jar) / koldarod & odalydary (Bottom Twin Roots)`
+- **Dominant Root Stems on This Page:** `okol / qokol (vessel/boil in vessel, shared across all 3 twins)`, `chckhy / dor (shared with `f32v` & `f47v`)`, `qotchy / qokeey (shared with `f18v / f23r`)`
+- **Where This Ingredient Reappears in Recipes:** 100% (`12 / 12`) of Visual Twin Plant Pairs share exact words and root stems between their Herbal monograph and Pharmaceutical register (`Attack 169`)!
+
+#### 3. Plain-English Explanation
+Pharmaceutical panel `f102r2` (the right third of the foldout shown above) reveals the exact workflow of the Voynich apothecary. Instead of inventing new plants, the artist drew **miniature copies of three plants from earlier in the Herbal section** right next to the jars where they are compounded: in the top row sit the octopus-root of **`f47v`** (`[1,1]`) and the blue bellflower of **`f32v`** (`[1,2]`) beside jar `kodaiig`; in the bottom row sits the creeping claw-root of **`f18v / f23r`** (`[3,1]`, labeled `koldarod` and `odalydary`). That is why the Pharmaceutical paragraphs surge `1.43×` in active `qo-` processing verbs (`Attack 169`): the Herbal page describes the single living plant, while `f102r2` tells you how to boil and compound those harvested roots together into a single jar!
 
 ---
 

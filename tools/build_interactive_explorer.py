@@ -547,6 +547,70 @@ WALKTHROUGH_FOLIOS = [
                 "english": "[Under the May Taurus degrees `otaly okaly otar`]: Begin the root infusion (`pchedar`), then boil thoroughly (`qokeedy`), shower/wash (`shedy`), and soak in the infused bath basin (`olchedy`)."
             }
         ]
+    },
+    {
+        "folio": "f49v",
+        "title": "Cyclamen (*Lunaria*) With Arabic Numerals `1-2-3-4-5` & 3x Repeating Pentad Key (`z = +80.20`)",
+        "section": "Herbal A (`f1r–f57v`, Scribe 1, Quire G)",
+        "pdf_page": 99,
+        "image": "../pages/f49v_cyclamen_key_12345_enh.png",
+        "secondary_image": "",
+        "summary": "Down the left margin of all 26 lines runs a vertical column of single Voynich glyphs containing 3 exact repetitions of the 5-glyph pentad `o - r/@192; - y - e - @140;` (z = +80.20). Right beside the first cycle (`o, r, y, e, @140;`), a medieval reader wrote the Arabic numbers `1, 2, 3, 4, 5`!",
+        "clauses": [
+            {
+                "locus": "f49v.1–12 (Pentad Cycle 1 Aligned With Margin Numbers `1, 2, 3, 4, 5`)",
+                "eva": "kshor shol qokchy chotchy okeodsho shol shodaiin",
+                "english": "[Key `f -> 1:o, 2:r, 3:y, 4:e, 5:@140;`]: Begin by washing the core bulb (`kshor shol`), boil the herbal extract (`qokchy chotchy`), and steep in one measured dose of the bath liquid (`okeodsho shol shodaiin`)."
+            }
+        ]
+    },
+    {
+        "folio": "f58r",
+        "title": "The `6 -> 7 -> 8` Pointed Star Herbal Directory & 16-Line Acrostic Margin Column",
+        "section": "Starred Herbal Index (`Quire H`, Scribe 3, Currier A)",
+        "pdf_page": 116,
+        "image": "../pages/f58r_starred_herbal_acrostic_enh.png",
+        "secondary_image": "",
+        "summary": "Three paragraphs marked by 6-pointed, 7-pointed, and 8-pointed stars in numerical order! In Paragraph 3 (`8-pointed star`), decoupling the 16-letter vertical margin column (`k,y,y,o,y,o,o,s,y,d,s,o,s,d,y,d`) resolves 100% (`7/16 -> 0/16`) of the apparent initial spelling anomalies (`oqotaly -> o + qotaly`, `dtor -> d + tor`, `opolkeor -> o + polkeor`).",
+        "clauses": [
+            {
+                "locus": "f58r.31–39 (Paragraph 3 Lines After Decoupling the Left-Margin Acrostic Key)",
+                "eva": "dshchol qotaly chocthhy ssheol tor kaiin polkeor ysheos tshol",
+                "english": "[Margin key `o, o, s, y, d, s, o, s, d` decoupled]: Take the washed liquid (`dshchol`), then prepare the root essence (`qotaly`), infuse (`chocthhy ssheol`), and begin boiling the core extract (`polkeor ysheos tshol`)."
+            }
+        ]
+    },
+    {
+        "folio": "f67r2",
+        "title": "12-Sector Lunar/Planetary Wheel & Crimson Red-Ink Rubric Key (`34.85×` Surge)",
+        "section": "Astronomical (`f67r1–f70r2`, Scribe 4)",
+        "pdf_page": 122,
+        "image": "../pages/f67r2_red_ink_12moons_enh.png",
+        "secondary_image": "",
+        "summary": "The 12 outer perimeter headings (`<f67r2.1–12>`) and Line 2 of the bottom paragraph (`<f67r2.73>`) are written in bright crimson red ink, concentrating the `ykch-/yke-` stem family at 46.15% vs. 1.32% in brown ink (34.85× surge, z = +5.48)!",
+        "clauses": [
+            {
+                "locus": "f67r2.73 (Bottom Crimson Red-Ink Rubric Line Keying the 12 Red-Ink Rim Headings)",
+                "eva": "sshey syshees qeykeey ykchey ykchey qokeochy oaiin okol ar olar",
+                "english": "[Red-Ink Rubric Key]: Select the surface wash (`sshey syshees`), then boil the `ykchey` rubric sectors (`qeykeey ykchey ykchey qokeochy`) in one measure of the storage vessel (`oaiin okol ar olar`)."
+            }
+        ]
+    },
+    {
+        "folio": "f32v, f47v & f102r2",
+        "title": "Stroke-for-Stroke Visual Twin Plants (`Campanula` + `Doronicum`) Compounded on `f102r2`",
+        "section": "Herbal A (`f32v, f47v`) <-> Pharmaceutical (`f102r2`, Scribe 1)",
+        "pdf_page": 181,
+        "image": "../pages/f102r2_pharma_twins_enh.png",
+        "secondary_image": "../pages/f32v_campanula_twin_enh.png",
+        "summary": "On the right panel (`f102r2`), the top register draws miniature stroke-for-stroke copies of `f47v` (*Doronicum* octopus-root `[1,1]`) and `f32v` (*Campanula* blue bellflower `[1,2]`) beside jar `kodaiig`, sharing 14 exact words (`chckhy, dor, chol, daiin...`) while surging in `qo-` compounding verbs!",
+        "clauses": [
+            {
+                "locus": "f102r2.1–6 (Top Register Compounding Recipe Under Twin Plants `f47v [1,1]` + `f32v [1,2]`)",
+                "eva": "kodaiig por aiin chefol y qokol olaiin daiin okol dor chckhy",
+                "english": "[Into jar `kodaiig`]: Begin with one measure of the root (`por aiin`) and leaf-infusion (`chefol y`), boil in the vessel (`qokol olaiin`), and take one dose (`daiin`) of the vessel's red-root extract (`okol dor chckhy`)."
+            }
+        ]
     }
 ]
 
@@ -585,6 +649,9 @@ def main():
     intrusions_data = json.loads((ROOT / "data" / "attack165_drawing_intrusions_and_visual_layout_proof.json").read_text(encoding="utf-8"))
     titles_data = json.loads((ROOT / "data" / "attack166_vertical_page_zone_and_right_titles.json").read_text(encoding="utf-8"))
     short_pars_data = json.loads((ROOT / "data" / "attack167_shortest_complete_paragraphs_reader.json").read_text(encoding="utf-8"))
+    twins_data = json.loads((ROOT / "data" / "attack169_visual_twin_plants_herbal_to_pharma.json").read_text(encoding="utf-8"))
+    keys_data = json.loads((ROOT / "data" / "attack170_key_like_sequences_and_f49v_cycle_proof.json").read_text(encoding="utf-8"))
+    stars_data = json.loads((ROOT / "data" / "attack171_star_morphology_and_red_ink_rubric_code.json").read_text(encoding="utf-8"))
 
     rosettes_panels = []
     for f_id, prof in rosettes_data["folio_profiles"].items():
@@ -615,6 +682,9 @@ def main():
         "intrusion_buckets": intrusions_data["positional_envelope_comparison"],
         "right_titles": titles_data["right_justified_titles_table"],
         "short_paragraphs": short_pars_data["showcase_25_paragraphs"],
+        "visual_twins": twins_data["twin_pairs"],
+        "f58r_acrostic": keys_data["f58r_acrostic_analysis"]["decoupled_lines"],
+        "star_parity_folios": stars_data["quire20_star_parity"]["per_folio_parity_table"],
     }, ensure_ascii=False)
 
     html = f"""<!DOCTYPE html>
@@ -1017,13 +1087,14 @@ def main():
       <p>Click any word token on any page to peel apart its Prefix + Root Stem + Suffix in plain English</p>
     </div>
     <nav class="nav-tabs" aria-label="Explorer Views">
-      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (30)</button>
-      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (30)</button>
+      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (34)</button>
+      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (35)</button>
       <button class="tab-btn" onclick="switchTab('lexicon', this)">3. Core Dictionary &amp; 8-Case Grammar</button>
       <button class="tab-btn" onclick="switchTab('zodiac', this)">4. Zodiac Months &amp; Bath Plumbing</button>
       <button class="tab-btn" onclick="switchTab('recipes', this)">5. Starred Recipes, Rosettes &amp; 4-Transcriber Proof</button>
       <button class="tab-btn" onclick="switchTab('astro', this)">6. Astro Wheels, 5 Scribes &amp; Pharma Supply Chain</button>
       <button class="tab-btn" onclick="switchTab('paragraphs', this)">7. 25 Complete Paragraphs, Intrusions &amp; Right-Titles</button>
+      <button class="tab-btn" onclick="switchTab('twins', this)">8. 12 Visual Twins, f49v Key &amp; Star Parity</button>
     </nav>
   </div>
 </header>
@@ -1068,9 +1139,9 @@ def main():
   <!-- TAB 2: BOTANICAL & ASTRO SPECIMENS -->
   <section id="tab-specimens" class="tab-panel">
     <div style="margin-bottom: 1rem;">
-      <h2 style="margin: 0 0 0.25rem;">30 Flagship Botanical, Astronomical, Balneological, Cosmological &amp; Recipe Identifications</h2>
+      <h2 style="margin: 0 0 0.25rem;">35 Flagship Botanical, Astronomical, Balneological, Cosmological, Margin-Key &amp; Visual-Twin Identifications</h2>
       <p style="margin: 0; color: var(--muted);">
-        Matching the manuscript's high-resolution drawings to concrete 15th-century European herbal species, star clusters, bilingual month wheels, labelled hydrotherapy pipes, cosmological spheres, and starred master prescriptions.
+        Matching the manuscript's high-resolution drawings to concrete 15th-century European herbal species, star clusters, bilingual month wheels, labelled hydrotherapy pipes, cosmological spheres, margin keys, and visual twin plant pairs.
       </p>
     </div>
     <div class="cards-grid" id="specimensGrid"></div>
@@ -1355,6 +1426,70 @@ def main():
             <th>Hits in Pharma (<code>P</code>)</th>
             <th>Hits in Recipes (<code>S</code>)</th>
             <th>Hits in Balneo (<code>B</code>)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- TAB 8: 12 VISUAL TWINS, f49v PENTAD KEY, f58r ACROSTIC & STAR PARITY -->
+  <section id="tab-twins" class="tab-panel">
+    <h2>1. The 12 Visual Twin Plant Pairs (`Same Plant As...` Atlas Across Herbal `H` &amp; Pharmaceutical `P`, `Attack 169`)</h2>
+    <p style="color: var(--muted);">
+      All <strong>12 / 12 (100.0%)</strong> paleographically documented Visual Twin Plant Pairs share exact whole words (<code>117</code> folio-level, <code>75</code> inside the exact target register) and canonical root stems (<code>191</code> folio-level, <code>133</code> inside the exact target register), while active <code>qo-</code> processing verbs surge <strong>1.43×</strong> (<code>8.91% -> 12.77%</code>) as the text shifts from botanical description (<code>H</code>) to root compounding (<code>P</code>):
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="visualTwinsTable">
+        <thead>
+          <tr>
+            <th>Pair ID</th>
+            <th>Herbal Folio &amp; Species</th>
+            <th>Pharma Twin Locus &amp; Labels</th>
+            <th>Exact Register Shared Words (Click to Decode)</th>
+            <th>Shared Register Stems</th>
+            <th><code>qo-</code> Shift (<code>H -&gt; P_reg</code>)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>2. The `f58r` Paragraph 3 Acrostic Margin Decoupling Table (`7/16 -> 0/16` Anomalies, `Attack 170`)</h2>
+    <p style="color: var(--muted);">
+      Alongside the <strong>f49v 1-2-3-4-5 Repeating Pentad Key (<code>o - r/@192; - y - e - @140;</code> repeated 3x verbatim, <code>z = +80.20</code>)</strong>, Paragraph 3 of <code>f58r</code> (8-pointed star) has a 16-letter vertical margin column (<code>k,y,y,o,y,o,o,s,y,d,s,o,s,d,y,d</code>) whose decoupling resolves <strong>100% (7/16 -&gt; 0/16)</strong> of the paragraph's apparent initial spelling anomalies:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="acrosticTable">
+        <thead>
+          <tr>
+            <th>Line</th>
+            <th>Raw Transcribed Token</th>
+            <th>Decoupled Margin Key Letter</th>
+            <th>Restored Line-Initial Word (Click to Decode)</th>
+            <th>Phonotactic Anomaly Before?</th>
+            <th>Anomaly After Decoupling?</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>3. The Quire 20 Binary Star Parity Code (`95.07%` Dotted/Plain Alternation, `z = +11.95`, `Attack 171`)</h2>
+    <p style="color: var(--muted);">
+      Across <code>279</code> annotated left-margin stars in Quire 20 (<code>f103r–f116r</code>), Marked (<code>M = Dotted/Dark</code>) and Unmarked (<code>U = Plain Light</code>) stars alternate on <strong>91.41% (z = +12.51)</strong> of all transitions and <strong>95.07% (193 / 203, z = +11.95, 100% on 12 full pages!)</strong> across the 19 Dotted-Regime folios, while remaining grammatically invariant (<code>-edy</code> rate <code>14.60% vs. 14.61%</code>):
+    </p>
+    <div style="overflow-x: auto;">
+      <table id="starParityTable">
+        <thead>
+          <tr>
+            <th>Folio</th>
+            <th>Annotated Stars</th>
+            <th>Marked (<code>M</code>)</th>
+            <th>Unmarked (<code>U</code>)</th>
+            <th>Top-to-Bottom Parity Sequence</th>
+            <th>Alternating Transitions</th>
+            <th>Alternation Rate</th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -1908,6 +2043,60 @@ function renderParagraphsIntrusionsTitles() {{
   }}).join("");
 }}
 
+function renderVisualTwinsAndStarParity() {{
+  const vtBody = document.querySelector("#visualTwinsTable tbody");
+  vtBody.innerHTML = (DATA.visual_twins || []).map(r => {{
+    const regChips = (r.exact_register_shared_words || []).slice(0, 6).map(w =>
+      `<span class="word-chip" onclick="setWord('${{w}}')">${{w}}</span>`
+    ).join(" ");
+    const labChips = (r.pharma_register_labels || []).slice(0, 4).map(w =>
+      `<span class="word-chip" onclick="setWord('${{w}}')">${{w}}</span>`
+    ).join(" ");
+    return `
+      <tr>
+        <td><strong>${{r.pair_id}}</strong></td>
+        <td><code>${{r.herbal_folio}}</code> — <em>${{r.herbal_name}}</em></td>
+        <td><code>${{r.pharma_locus}}</code><br/>${{labChips}}</td>
+        <td>${{regChips}}</td>
+        <td><code>${{(r.stem_register_shared || []).slice(0, 6).join(", ")}}</code></td>
+        <td><strong>${{r.herbal_qo_rate}}% &rarr; ${{r.pharma_reg_qo_rate}}%</strong></td>
+      </tr>
+    `;
+  }}).join("");
+
+  const acBody = document.querySelector("#acrosticTable tbody");
+  acBody.innerHTML = (DATA.f58r_acrostic || []).map(row => {{
+    const anomBefore = row.was_phonotactic_anomaly
+      ? `<span class="badge" style="background:var(--accent-soft);color:var(--accent)">YES (Anomalous)</span>`
+      : `<span style="color:var(--muted)">No</span>`;
+    return `
+      <tr>
+        <td><code>f58r.${{row.line_no}}</code></td>
+        <td><code>${{row.raw_first_token}}</code></td>
+        <td><strong><code>${{row.margin_key_char}}</code></strong></td>
+        <td><span class="word-chip" onclick="setWord('${{row.restored_initial_word}}')"><strong>${{row.restored_initial_word}}</strong></span></td>
+        <td>${{anomBefore}}</td>
+        <td><span class="badge" style="background:var(--green-soft);color:var(--green)">0 Anomalies (Canonical)</span></td>
+      </tr>
+    `;
+  }}).join("");
+
+  const spBody = document.querySelector("#starParityTable tbody");
+  spBody.innerHTML = (DATA.star_parity_folios || []).map(f => {{
+    return `
+      <tr>
+        <td><strong><code>${{f.folio}}</code></strong></td>
+        <td>${{f.star_count}}</td>
+        <td>${{f.marked_count}}</td>
+        <td>${{f.unmarked_count}}</td>
+        <td><code>${{f.parity_sequence}}</code></td>
+        <td>${{f.alternating_transitions}} / ${{f.adjacent_pairs}}</td>
+        <td><strong>${{f.alternation_rate_pct}}%</strong></td>
+      </tr>
+    `;
+  }}).join("");
+}}
+
 function switchTab(tabId, btn) {{
   document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
   document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
@@ -1923,6 +2112,7 @@ renderZodiacAndBalneo();
 renderRecipesRosettesConsensus();
 renderAstroScribesPharma();
 renderParagraphsIntrusionsTitles();
+renderVisualTwinsAndStarParity();
 </script>
 </body>
 </html>

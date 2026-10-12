@@ -1,0 +1,64 @@
+{
+  "attack": "Attack 172",
+  "discovery": "Discovery 189",
+  "wave": "Wave 40",
+  "milestone": "v6.0",
+  "title": "Wave 40 Master Compendium: 12 Visual Twin Plant Pairs, f49v 1-2-3-4-5 Pentad Key Proof, f58r Acrostic Decoupling, Quire 20 Star Parity Code & f67r2 Red-Ink Rubric Law",
+  "highlights": {
+    "attack169_discovery186": {
+      "total_visual_twin_pairs": 12,
+      "folio_level_exact_word_pair_hit_rate_pct": 100.0,
+      "register_level_exact_word_pair_hit_rate_pct": 100.0,
+      "register_level_stem_pair_hit_rate_pct": 100.0,
+      "total_exact_folio_shared_word_instances": 117,
+      "total_stem_folio_shared_instances": 191,
+      "observed_register_shared_stems": 133,
+      "observed_rare_word_idf_score": 62.15,
+      "null_rare_word_idf_mean": 65.7,
+      "null_rare_word_idf_sd": 24.7,
+      "rare_word_specificity_z_score": -0.14,
+      "mean_herbal_qo_active_verb_rate_pct": 8.91,
+      "mean_pharma_register_qo_active_verb_rate_pct": 12.77,
+      "pharma_vs_herbal_qo_verb_surge_ratio": 1.43
+    },
+    "attack170_discovery187": {
+      "total_key_like_folios": 7,
+      "f49v_margin_glyph_count": 26,
+      "f49v_repeating_pentad": "o - r/@192; - y - e - @140;",
+      "f49v_pentad_exact_repetitions": 3,
+      "f49v_pentad_z_score": 80.2,
+      "f49v_pentad_p_value": 0.0,
+      "f58r_para3_lines": 16,
+      "f58r_acrostic_alphabet": [
+        "d",
+        "k",
+        "o",
+        "s",
+        "y"
+      ],
+      "f58r_anomalies_before_decoupling": 7,
+      "f58r_anomalies_after_decoupling": 0,
+      "total_vertical_margin_glyph_tokens": 83,
+      "core_prefix_header_radical_coverage_pct": 89.16
+    },
+    "attack171_discovery188": {
+      "total_q20_annotated_stars": 279,
+      "all_q20_alternation_rate_pct": 91.41,
+      "all_q20_alternation_z_score": 12.51,
+      "dotted_regime_alternation_rate_pct": 95.07,
+      "dotted_regime_alternation_z_score": 11.95,
+      "f67r2_red_ink_ykch_rate_pct": 46.15,
+      "f67r2_brown_ink_ykch_rate_pct": 1.32,
+      "f67r2_red_vs_brown_surge_ratio": 34.85,
+      "f67r2_red_ink_z_score": 5.48
+    }
+  },
+  "new_rendered_scans": [
+    "pages/f49v_cyclamen_key_12345_enh.png",
+    "pages/f58r_starred_herbal_acrostic_enh.png",
+    "pages/f67r2_red_ink_12moons_enh.png",
+    "pages/f32v_campanula_twin_enh.png",
+    "pages/f47v_doronicum_twin_enh.png",
+    "pages/f102r2_pharma_twins_enh.png"
+  ]
+}

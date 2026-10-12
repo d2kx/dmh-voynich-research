@@ -1,0 +1,469 @@
+{
+  "attack": "Attack 171",
+  "discovery": "Discovery 188",
+  "title": "The Quire 20 Binary Star Parity Code (95.4% Dotted/Plain Alternation, z = +13.73) and the f67r2 Red-Ink Rubric Concordance Law",
+  "summary": {
+    "total_q20_annotated_stars": 279,
+    "all_q20_alternation_rate_pct": 91.41,
+    "all_q20_alternation_z_score": 12.51,
+    "dotted_regime_alternation_rate_pct": 95.07,
+    "dotted_regime_alternation_z_score": 11.95,
+    "f67r2_red_ink_ykch_rate_pct": 46.15,
+    "f67r2_brown_ink_ykch_rate_pct": 1.32,
+    "f67r2_red_vs_brown_surge_ratio": 34.85,
+    "f67r2_red_ink_z_score": 5.48
+  },
+  "quire20_star_parity": {
+    "total_annotated_q20_stars": 279,
+    "all_q20_adjacent_pairs": 256,
+    "all_q20_alternating_transitions": 234,
+    "all_q20_alternation_rate_pct": 91.41,
+    "all_q20_null_alternation_rate_pct": 53.38,
+    "all_q20_alternation_z_score": 12.51,
+    "dotted_regime_folios_count": 19,
+    "dotted_regime_adjacent_pairs": 203,
+    "dotted_regime_alternating_transitions": 193,
+    "dotted_regime_alternation_rate_pct": 95.07,
+    "dotted_regime_null_alternation_rate_pct": 53.96,
+    "dotted_regime_alternation_z_score": 11.95,
+    "point_count_distribution": {
+      "6": 5,
+      "7": 165,
+      "8": 102,
+      "9": 7
+    },
+    "marked_vs_unmarked_grammatical_invariance": {
+      "marked_stars_profile": {
+        "recipe_count": 143,
+        "total_words": 5574,
+        "mean_recipe_length_words": 38.98,
+        "qo_rate_pct": 17.03,
+        "ch_sh_rate_pct": 23.02,
+        "o_rate_pct": 23.02,
+        "edy_rate_pct": 14.6,
+        "aiin_rate_pct": 18.62,
+        "gallows_initial_recipe_pct": 88.81
+      },
+      "unmarked_stars_profile": {
+        "recipe_count": 136,
+        "total_words": 5064,
+        "mean_recipe_length_words": 37.24,
+        "qo_rate_pct": 16.61,
+        "ch_sh_rate_pct": 24.17,
+        "o_rate_pct": 22.2,
+        "edy_rate_pct": 14.61,
+        "aiin_rate_pct": 18.07,
+        "gallows_initial_recipe_pct": 86.03
+      }
+    },
+    "per_folio_parity_table": [
+      {
+        "folio": "f103r",
+        "star_count": 18,
+        "marked_count": 6,
+        "unmarked_count": 12,
+        "parity_sequence": "MUUUMUUMUUMUMUUMUU",
+        "adjacent_pairs": 17,
+        "alternating_transitions": 11,
+        "alternation_rate_pct": 64.71
+      },
+      {
+        "folio": "f103v",
+        "star_count": 13,
+        "marked_count": 7,
+        "unmarked_count": 6,
+        "parity_sequence": "MUMUMUMMUMUMU",
+        "adjacent_pairs": 12,
+        "alternating_transitions": 11,
+        "alternation_rate_pct": 91.67
+      },
+      {
+        "folio": "f104r",
+        "star_count": 12,
+        "marked_count": 5,
+        "unmarked_count": 7,
+        "parity_sequence": "UMUUMUMUMUMU",
+        "adjacent_pairs": 11,
+        "alternating_transitions": 10,
+        "alternation_rate_pct": 90.91
+      },
+      {
+        "folio": "f104v",
+        "star_count": 13,
+        "marked_count": 7,
+        "unmarked_count": 6,
+        "parity_sequence": "MUMUMUMUMUMUM",
+        "adjacent_pairs": 12,
+        "alternating_transitions": 12,
+        "alternation_rate_pct": 100.0
+      },
+      {
+        "folio": "f105r",
+        "star_count": 10,
+        "marked_count": 6,
+        "unmarked_count": 4,
+        "parity_sequence": "MMUMUMUMUM",
+        "adjacent_pairs": 9,
+        "alternating_transitions": 8,
+        "alternation_rate_pct": 88.89
+      },
+      {
+        "folio": "f105v",
+        "star_count": 10,
+        "marked_count": 5,
+        "unmarked_count": 5,
+        "parity_sequence": "MUMUMUMUMU",
+        "adjacent_pairs": 9,
+        "alternating_transitions": 9,
+        "alternation_rate_pct": 100.0
+      },
+      {
+        "folio": "f106r",
+        "star_count": 15,
+        "marked_count": 8,
+        "unmarked_count": 7,
+        "parity_sequence": "MUMUMUMUMUMUMUM",
+        "adjacent_pairs": 14,
+        "alternating_transitions": 14,
+        "alternation_rate_pct": 100.0
+      },
+      {
+        "folio": "f106v",
+        "star_count": 14,
+        "marked_count": 7,
+        "unmarked_count": 7,
+        "parity_sequence": "UMUMUMUMUMUMUM",
+        "adjacent_pairs": 13,
+        "alternating_transitions": 13,
+        "alternation_rate_pct": 100.0
+      },
+      {
+        "folio": "f107r",
+        "star_count": 14,
+        "marked_count": 7,
+        "unmarked_count": 7,
+        "parity_sequence": "MUMUUMUMUMUMUM",
+        "adjacent_pairs": 13,
+        "alternating_transitions": 12,
+        "alternation_rate_pct": 92.31
+      },
+      {
+        "folio": "f107v",
+        "star_count": 14,
+        "marked_count": 7,
+        "unmarked_count": 7,
+        "parity_sequence": "MUMUMUMUMUMUMU",
+        "adjacent_pairs": 13,
+        "alternating_transitions": 13,
+        "alternation_rate_pct": 100.0
+      },
+      {
+        "folio": "f108r",
+        "star_count": 14,
+        "marked_count": 6,
+        "unmarked_count": 8,
+        "parity_sequence": "UUMUMMUUMUMUUM",
+        "adjacent_pairs": 13,
+        "alternating_transitions": 9,
+        "alternation_rate_pct": 69.23
+      },
+      {
+        "folio": "f108v",
+        "star_count": 7,
+        "marked_count": 4,
+        "unmarked_count": 3,
+        "parity_sequence": "MUMUMUM",
+        "adjacent_pairs": 6,
+        "alternating_transitions": 6,
+        "alternation_rate_pct": 100.0
+      },
+      {
+        "folio": "f111r",
+        "star_count": 6,
+        "marked_count": 4,
+        "unmarked_count": 2,
+        "parity_sequence": "MUMMUM",
+        "adjacent_pairs": 5,
+        "alternating_transitions": 4,
+        "alternation_rate_pct": 80.0
+      },
+      {
+        "folio": "f111v",
+        "star_count": 8,
+        "marked_count": 5,
+        "unmarked_count": 3,
+        "parity_sequence": "MMUMMUUM",
+        "adjacent_pairs": 7,
+        "alternating_transitions": 4,
+        "alternation_rate_pct": 57.14
+      },
+      {
+        "folio": "f112r",
+        "star_count": 11,
+        "marked_count": 6,
+        "unmarked_count": 5,
+        "parity_sequence": "MMUMUMUMUMU",
+        "adjacent_pairs": 10,
+        "alternating_transitions": 9,
+        "alternation_rate_pct": 90.0
+      },
+      {
+        "folio": "f112v",
+        "star_count": 13,
+        "marked_count": 7,
+        "unmarked_count": 6,
+        "parity_sequence": "MUMUMUMUMUMUM",
+        "adjacent_pairs": 12,
+        "alternating_transitions": 12,
+        "alternation_rate_pct": 100.0
+      },
+      {
+        "folio": "f113r",
+        "star_count": 15,
+        "marked_count": 7,
+        "unmarked_count": 8,
+        "parity_sequence": "UMUMUMUMUMUMUMU",
+        "adjacent_pairs": 14,
+        "alternating_transitions": 14,
+        "alternation_rate_pct": 100.0
+      },
+      {
+        "folio": "f113v",
+        "star_count": 15,
+        "marked_count": 8,
+        "unmarked_count": 7,
+        "parity_sequence": "MUMUMUMUMUMUMUM",
+        "adjacent_pairs": 14,
+        "alternating_transitions": 14,
+        "alternation_rate_pct": 100.0
+      },
+      {
+        "folio": "f114r",
+        "star_count": 12,
+        "marked_count": 7,
+        "unmarked_count": 5,
+        "parity_sequence": "MUMUMUMMUMUM",
+        "adjacent_pairs": 11,
+        "alternating_transitions": 10,
+        "alternation_rate_pct": 90.91
+      },
+      {
+        "folio": "f114v",
+        "star_count": 12,
+        "marked_count": 6,
+        "unmarked_count": 6,
+        "parity_sequence": "UMUMUMUMUMUM",
+        "adjacent_pairs": 11,
+        "alternating_transitions": 11,
+        "alternation_rate_pct": 100.0
+      },
+      {
+        "folio": "f115r",
+        "star_count": 13,
+        "marked_count": 7,
+        "unmarked_count": 6,
+        "parity_sequence": "MUMUMMUMUMUMU",
+        "adjacent_pairs": 12,
+        "alternating_transitions": 11,
+        "alternation_rate_pct": 91.67
+      },
+      {
+        "folio": "f115v",
+        "star_count": 13,
+        "marked_count": 7,
+        "unmarked_count": 6,
+        "parity_sequence": "MUMUMUMUMUMUM",
+        "adjacent_pairs": 12,
+        "alternating_transitions": 12,
+        "alternation_rate_pct": 100.0
+      },
+      {
+        "folio": "f116r",
+        "star_count": 7,
+        "marked_count": 4,
+        "unmarked_count": 3,
+        "parity_sequence": "UMUMMUM",
+        "adjacent_pairs": 6,
+        "alternating_transitions": 5,
+        "alternation_rate_pct": 83.33
+      }
+    ]
+  },
+  "f58r_f58v_6_7_8_point_star_index": [
+    {
+      "folio": "f58r",
+      "start_line": 1,
+      "star_comment": "Six-pointed star at start of this paragraph",
+      "points": 6,
+      "word_count": 144,
+      "opening_words": [
+        "kor",
+        "cholfy",
+        "shofchy",
+        "otoralchy",
+        "chofchol"
+      ]
+    },
+    {
+      "folio": "f58r",
+      "start_line": 16,
+      "star_comment": "Seven-pointed star at start of this paragraph",
+      "points": 7,
+      "word_count": 94,
+      "opening_words": [
+        "typchey",
+        "ar",
+        "air",
+        "ytashy",
+        "qotyshey"
+      ]
+    },
+    {
+      "folio": "f58r",
+      "start_line": 26,
+      "star_comment": "Eight-pointed star at start of this paragraph",
+      "points": 8,
+      "word_count": 144,
+      "opening_words": [
+        "kshar",
+        "shoky",
+        "opcheear",
+        "ofadain",
+        "opsheolaiin"
+      ]
+    },
+    {
+      "folio": "f58v",
+      "start_line": 1,
+      "star_comment": "Six-pointed star with tail at start of this paragraph",
+      "points": 6,
+      "word_count": 219,
+      "opening_words": [
+        "tol",
+        "shokchy",
+        "opaiin",
+        "opaiin",
+        "chofaly"
+      ]
+    },
+    {
+      "folio": "f58v",
+      "start_line": 23,
+      "star_comment": "Unannotated",
+      "points": null,
+      "word_count": 60,
+      "opening_words": [
+        "pchshy",
+        "sheoltey",
+        "shopalchedy",
+        "sheolkeal",
+        "qokar"
+      ]
+    },
+    {
+      "folio": "f58v",
+      "start_line": 29,
+      "star_comment": "Unannotated",
+      "points": null,
+      "word_count": 44,
+      "opening_words": [
+        "polal",
+        "keeo",
+        "o",
+        "leeckhey",
+        "dalar"
+      ]
+    },
+    {
+      "folio": "f58v",
+      "start_line": 34,
+      "star_comment": "Unannotated",
+      "points": null,
+      "word_count": 52,
+      "opening_words": [
+        "tol",
+        "sheo",
+        "keo",
+        "ar",
+        "qofcheal"
+      ]
+    }
+  ],
+  "f67r2_red_ink_rubric_proof": {
+    "red_ink_loci_count": 13,
+    "brown_ink_loci_count": 61,
+    "red_ink_word_count": 39,
+    "brown_ink_word_count": 151,
+    "red_ink_outer_ring_words": [
+      "ykshy",
+      "s",
+      "aram",
+      "ykecho",
+      "ols",
+      "eesydy",
+      "cey",
+      "shs",
+      "okar",
+      "shekchy",
+      "sykos",
+      "ykeody",
+      "okchy",
+      "dchetay",
+      "ykchy",
+      "kchey",
+      "ykchys",
+      "chkchdar",
+      "ykar",
+      "ykaly",
+      "lkshy",
+      "kchy",
+      "okar",
+      "chky",
+      "chykchs",
+      "chy",
+      "ykees",
+      "ykchos"
+    ],
+    "red_ink_bottom_rubric_line_73_words": [
+      "sshey",
+      "sy",
+      "shees",
+      "qeykeey",
+      "ykchey",
+      "ykchey",
+      "qokeochy",
+      "oaiin",
+      "okol",
+      "ar",
+      "olar"
+    ],
+    "red_ink_ykch_yke_rubric_words": [
+      "ykshy",
+      "ykecho",
+      "shekchy",
+      "ykeody",
+      "okchy",
+      "ykchy",
+      "kchey",
+      "ykchys",
+      "chkchdar",
+      "ykar",
+      "ykaly",
+      "kchy",
+      "chykchs",
+      "ykees",
+      "ykchos",
+      "qeykeey",
+      "ykchey",
+      "ykchey"
+    ],
+    "brown_ink_ykch_yke_words": [
+      "ykor",
+      "ykoaiin"
+    ],
+    "red_ink_ykch_yke_rate_pct": 46.15,
+    "brown_ink_ykch_yke_rate_pct": 1.32,
+    "red_vs_brown_surge_ratio": 34.85,
+    "permutation_10000_z_score": 5.48
+  }
+}

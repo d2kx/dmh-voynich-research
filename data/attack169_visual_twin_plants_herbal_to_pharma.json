@@ -1,0 +1,1954 @@
+{
+  "attack": "Attack 169",
+  "discovery": "Discovery 186",
+  "title": "The 12 Visual Twin Plant Pairs (Herbal-to-Pharmaceutical Specimen Concordance Atlas)",
+  "summary": {
+    "total_visual_twin_pairs": 12,
+    "folio_level_exact_word_pair_hit_rate_pct": 100.0,
+    "register_level_exact_word_pair_hit_rate_pct": 100.0,
+    "register_level_stem_pair_hit_rate_pct": 100.0,
+    "total_exact_folio_shared_word_instances": 117,
+    "total_stem_folio_shared_instances": 191,
+    "observed_register_shared_stems": 133,
+    "observed_rare_word_idf_score": 62.15,
+    "null_rare_word_idf_mean": 65.7,
+    "null_rare_word_idf_sd": 24.7,
+    "rare_word_specificity_z_score": -0.14,
+    "mean_herbal_qo_active_verb_rate_pct": 8.91,
+    "mean_pharma_register_qo_active_verb_rate_pct": 12.77,
+    "pharma_vs_herbal_qo_verb_surge_ratio": 1.43
+  },
+  "twin_pairs": [
+    {
+      "pair_id": "TWIN-01",
+      "herbal_folio": "f1v",
+      "herbal_name": "Belladonna / Solanum nigrum (Deadly Nightshade)",
+      "pharma_folio": "f102r1",
+      "pharma_locus": "f102r1[3,2]",
+      "pharma_register_lines": [
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "authority": "Petersen, Stolfi",
+      "visual_feature": "Arched dark berry cluster, ovate leaves, and curved brown taproot",
+      "herbal_word_count": 92,
+      "pharma_folio_word_count": 107,
+      "pharma_register_word_count": 44,
+      "pharma_register_labels": [
+        "ddardsh"
+      ],
+      "exact_folio_shared_words": [
+        "chol",
+        "daiin",
+        "dal",
+        "dol",
+        "okol",
+        "or"
+      ],
+      "exact_register_shared_words": [
+        "chol",
+        "daiin",
+        "okol",
+        "or"
+      ],
+      "stem_folio_shared_count": 16,
+      "stem_register_shared_count": 8,
+      "stem_register_shared": [
+        "ain",
+        "ar",
+        "cho",
+        "chol",
+        "kol",
+        "ksh",
+        "or",
+        "te"
+      ],
+      "concrete_stem_bridges": [
+        {
+          "stem": "ain",
+          "herbal_words": [
+            "daiin"
+          ],
+          "pharma_reg_words": [
+            "daiin"
+          ]
+        },
+        {
+          "stem": "ar",
+          "herbal_words": [
+            "dar"
+          ],
+          "pharma_reg_words": [
+            "aral",
+            "arody"
+          ]
+        },
+        {
+          "stem": "cho",
+          "herbal_words": [
+            "chody",
+            "dcho",
+            "schody"
+          ],
+          "pharma_reg_words": [
+            "chos"
+          ]
+        },
+        {
+          "stem": "chol",
+          "herbal_words": [
+            "chol"
+          ],
+          "pharma_reg_words": [
+            "chol"
+          ]
+        },
+        {
+          "stem": "kol",
+          "herbal_words": [
+            "kol",
+            "okol",
+            "ykol"
+          ],
+          "pharma_reg_words": [
+            "okol"
+          ]
+        },
+        {
+          "stem": "ksh",
+          "herbal_words": [
+            "dksheey"
+          ],
+          "pharma_reg_words": [
+            "okshey"
+          ]
+        },
+        {
+          "stem": "or",
+          "herbal_words": [
+            "or"
+          ],
+          "pharma_reg_words": [
+            "dor",
+            "or",
+            "soraiin"
+          ]
+        },
+        {
+          "stem": "te",
+          "herbal_words": [
+            "yteey"
+          ],
+          "pharma_reg_words": [
+            "qoteol"
+          ]
+        }
+      ],
+      "herbal_qo_rate": 1.09,
+      "pharma_reg_qo_rate": 13.64,
+      "herbal_o_rate": 11.96,
+      "pharma_reg_o_rate": 22.73,
+      "rare_diagnostic_register_words": []
+    },
+    {
+      "pair_id": "TWIN-02",
+      "herbal_folio": "f18v",
+      "herbal_name": "broad-crowned palmate rosette herb",
+      "pharma_folio": "f102r2",
+      "pharma_locus": "f102r2[3,1]",
+      "pharma_register_lines": [
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "authority": "FSG, Stolfi",
+      "visual_feature": "Segmented creeping rhizome with claw-like rootlets (koldarod)",
+      "herbal_word_count": 69,
+      "pharma_folio_word_count": 144,
+      "pharma_register_word_count": 55,
+      "pharma_register_labels": [
+        "loeekadag",
+        "osheal",
+        "sodch",
+        "koldarod",
+        "odalydary"
+      ],
+      "exact_folio_shared_words": [
+        "daiin",
+        "dor",
+        "or",
+        "qokol",
+        "qotchy",
+        "s"
+      ],
+      "exact_register_shared_words": [
+        "daiin",
+        "qokol",
+        "qotchy"
+      ],
+      "stem_folio_shared_count": 13,
+      "stem_register_shared_count": 9,
+      "stem_register_shared": [
+        "ain",
+        "chol",
+        "dy",
+        "es",
+        "ke",
+        "kol",
+        "ky",
+        "tch",
+        "tol"
+      ],
+      "concrete_stem_bridges": [
+        {
+          "stem": "ain",
+          "herbal_words": [
+            "daiin",
+            "oaiin"
+          ],
+          "pharma_reg_words": [
+            "daiin"
+          ]
+        },
+        {
+          "stem": "chol",
+          "herbal_words": [
+            "ychol"
+          ],
+          "pharma_reg_words": [
+            "chol"
+          ]
+        },
+        {
+          "stem": "dy",
+          "herbal_words": [
+            "ddy",
+            "dy"
+          ],
+          "pharma_reg_words": [
+            "ody"
+          ]
+        },
+        {
+          "stem": "es",
+          "herbal_words": [
+            "qoeees"
+          ],
+          "pharma_reg_words": [
+            "desey"
+          ]
+        },
+        {
+          "stem": "ke",
+          "herbal_words": [
+            "qokeees"
+          ],
+          "pharma_reg_words": [
+            "keeody",
+            "keeol",
+            "okeal",
+            "okey"
+          ]
+        },
+        {
+          "stem": "kol",
+          "herbal_words": [
+            "qokol",
+            "ykol"
+          ],
+          "pharma_reg_words": [
+            "qokol"
+          ]
+        },
+        {
+          "stem": "ky",
+          "herbal_words": [
+            "qoky"
+          ],
+          "pharma_reg_words": [
+            "oky"
+          ]
+        },
+        {
+          "stem": "tch",
+          "herbal_words": [
+            "otchy",
+            "qotchol",
+            "qotchy"
+          ],
+          "pharma_reg_words": [
+            "qotchy"
+          ]
+        },
+        {
+          "stem": "tol",
+          "herbal_words": [
+            "tolol",
+            "ytol"
+          ],
+          "pharma_reg_words": [
+            "otol"
+          ]
+        }
+      ],
+      "herbal_qo_rate": 26.09,
+      "pharma_reg_qo_rate": 14.55,
+      "herbal_o_rate": 11.59,
+      "pharma_reg_o_rate": 18.18,
+      "rare_diagnostic_register_words": []
+    },
+    {
+      "pair_id": "TWIN-03",
+      "herbal_folio": "f19r",
+      "herbal_name": "Slender-leaved branching herb with twin root",
+      "pharma_folio": "f102v1",
+      "pharma_locus": "f102v1[2,2]",
+      "pharma_register_lines": [
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24"
+      ],
+      "authority": "Stolfi, Petersen",
+      "visual_feature": "Forked root stock with serrated collar and narrow opposite leaves (loralody)",
+      "herbal_word_count": 76,
+      "pharma_folio_word_count": 128,
+      "pharma_register_word_count": 48,
+      "pharma_register_labels": [
+        "ypcholdy",
+        "loralody",
+        "opchdard"
+      ],
+      "exact_folio_shared_words": [
+        "chol",
+        "chor",
+        "daiin",
+        "dar",
+        "dy",
+        "or",
+        "os",
+        "y"
+      ],
+      "exact_register_shared_words": [
+        "or"
+      ],
+      "stem_folio_shared_count": 10,
+      "stem_register_shared_count": 2,
+      "stem_register_shared": [
+        "kch",
+        "or"
+      ],
+      "concrete_stem_bridges": [
+        {
+          "stem": "kch",
+          "herbal_words": [
+            "kchor",
+            "kchy",
+            "ykchor"
+          ],
+          "pharma_reg_words": [
+            "okchody",
+            "okchy"
+          ]
+        },
+        {
+          "stem": "or",
+          "herbal_words": [
+            "dor",
+            "or"
+          ],
+          "pharma_reg_words": [
+            "or",
+            "qoor"
+          ]
+        }
+      ],
+      "herbal_qo_rate": 13.16,
+      "pharma_reg_qo_rate": 22.92,
+      "herbal_o_rate": 7.89,
+      "pharma_reg_o_rate": 27.08,
+      "rare_diagnostic_register_words": []
+    },
+    {
+      "pair_id": "TWIN-04",
+      "herbal_folio": "f23r",
+      "herbal_name": "Creeping Dragon-Root / Bryonia herb",
+      "pharma_folio": "f102r2",
+      "pharma_locus": "f102r2[3,1]",
+      "pharma_register_lines": [
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "authority": "FSG, Landini (GL)",
+      "visual_feature": "Horizontal dragon-clawed rhizome with vertical shoots (koldarod / odalydary)",
+      "herbal_word_count": 110,
+      "pharma_folio_word_count": 144,
+      "pharma_register_word_count": 55,
+      "pharma_register_labels": [
+        "loeekadag",
+        "osheal",
+        "sodch",
+        "koldarod",
+        "odalydary"
+      ],
+      "exact_folio_shared_words": [
+        "chol",
+        "daiin",
+        "dol",
+        "okol",
+        "ol",
+        "qokeey",
+        "qokol",
+        "s",
+        "y"
+      ],
+      "exact_register_shared_words": [
+        "chol",
+        "daiin",
+        "dol",
+        "qokeey",
+        "qokol",
+        "y"
+      ],
+      "stem_folio_shared_count": 15,
+      "stem_register_shared_count": 12,
+      "stem_register_shared": [
+        "ain",
+        "che",
+        "chk",
+        "chol",
+        "dy",
+        "ke",
+        "kol",
+        "ky",
+        "lch",
+        "ol",
+        "she",
+        "tch"
+      ],
+      "concrete_stem_bridges": [
+        {
+          "stem": "ain",
+          "herbal_words": [
+            "daiin",
+            "dain",
+            "qoaiin"
+          ],
+          "pharma_reg_words": [
+            "daiin"
+          ]
+        },
+        {
+          "stem": "che",
+          "herbal_words": [
+            "dchey"
+          ],
+          "pharma_reg_words": [
+            "cheody"
+          ]
+        },
+        {
+          "stem": "chk",
+          "herbal_words": [
+            "chk"
+          ],
+          "pharma_reg_words": [
+            "chkey"
+          ]
+        },
+        {
+          "stem": "chol",
+          "herbal_words": [
+            "chol"
+          ],
+          "pharma_reg_words": [
+            "chol"
+          ]
+        },
+        {
+          "stem": "dy",
+          "herbal_words": [
+            "dy"
+          ],
+          "pharma_reg_words": [
+            "ody"
+          ]
+        },
+        {
+          "stem": "ke",
+          "herbal_words": [
+            "qokeees",
+            "qokeey"
+          ],
+          "pharma_reg_words": [
+            "keeody",
+            "keeol",
+            "okeal",
+            "okey"
+          ]
+        },
+        {
+          "stem": "kol",
+          "herbal_words": [
+            "okol",
+            "qokol",
+            "qokoldy"
+          ],
+          "pharma_reg_words": [
+            "qokol"
+          ]
+        },
+        {
+          "stem": "ky",
+          "herbal_words": [
+            "yky"
+          ],
+          "pharma_reg_words": [
+            "oky"
+          ]
+        },
+        {
+          "stem": "lch",
+          "herbal_words": [
+            "olchar"
+          ],
+          "pharma_reg_words": [
+            "lchey"
+          ]
+        },
+        {
+          "stem": "ol",
+          "herbal_words": [
+            "dol",
+            "ol"
+          ],
+          "pharma_reg_words": [
+            "dol"
+          ]
+        }
+      ],
+      "herbal_qo_rate": 10.91,
+      "pharma_reg_qo_rate": 14.55,
+      "herbal_o_rate": 20.91,
+      "pharma_reg_o_rate": 18.18,
+      "rare_diagnostic_register_words": []
+    },
+    {
+      "pair_id": "TWIN-05",
+      "herbal_folio": "f32v",
+      "herbal_name": "Campanula / Glockenblume (Bellflower)",
+      "pharma_folio": "f102r2",
+      "pharma_locus": "f102r2[1,2]",
+      "pharma_register_lines": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "authority": "FSG, Stolfi",
+      "visual_feature": "Blue bell-shaped flower, white calyx buds, green star-shaped leaves, and curved brown collar root",
+      "herbal_word_count": 89,
+      "pharma_folio_word_count": 144,
+      "pharma_register_word_count": 39,
+      "pharma_register_labels": [
+        "kodaiig"
+      ],
+      "exact_folio_shared_words": [
+        "chckhy",
+        "chey",
+        "chol",
+        "cthol",
+        "d",
+        "da",
+        "daiin",
+        "dor",
+        "l",
+        "o",
+        "ol",
+        "or",
+        "qotchy",
+        "s"
+      ],
+      "exact_register_shared_words": [
+        "chckhy",
+        "chey",
+        "chol",
+        "daiin",
+        "dor",
+        "or",
+        "s"
+      ],
+      "stem_folio_shared_count": 14,
+      "stem_register_shared_count": 7,
+      "stem_register_shared": [
+        "ain",
+        "che",
+        "chkh",
+        "chol",
+        "ke",
+        "or",
+        "te"
+      ],
+      "concrete_stem_bridges": [
+        {
+          "stem": "ain",
+          "herbal_words": [
+            "daiin",
+            "dain"
+          ],
+          "pharma_reg_words": [
+            "aiin",
+            "daiin"
+          ]
+        },
+        {
+          "stem": "che",
+          "herbal_words": [
+            "chey"
+          ],
+          "pharma_reg_words": [
+            "cheey",
+            "chey",
+            "ycheor"
+          ]
+        },
+        {
+          "stem": "chkh",
+          "herbal_words": [
+            "chckhy"
+          ],
+          "pharma_reg_words": [
+            "chckhy"
+          ]
+        },
+        {
+          "stem": "chol",
+          "herbal_words": [
+            "chol",
+            "dchol"
+          ],
+          "pharma_reg_words": [
+            "chol"
+          ]
+        },
+        {
+          "stem": "ke",
+          "herbal_words": [
+            "keol",
+            "skey"
+          ],
+          "pharma_reg_words": [
+            "okeol",
+            "qokeody"
+          ]
+        },
+        {
+          "stem": "or",
+          "herbal_words": [
+            "dor",
+            "or"
+          ],
+          "pharma_reg_words": [
+            "dor",
+            "or",
+            "qoor",
+            "sor"
+          ]
+        },
+        {
+          "stem": "te",
+          "herbal_words": [
+            "teor"
+          ],
+          "pharma_reg_words": [
+            "yteor"
+          ]
+        }
+      ],
+      "herbal_qo_rate": 5.62,
+      "pharma_reg_qo_rate": 7.69,
+      "herbal_o_rate": 10.11,
+      "pharma_reg_o_rate": 28.21,
+      "rare_diagnostic_register_words": []
+    },
+    {
+      "pair_id": "TWIN-06",
+      "herbal_folio": "f37v",
+      "herbal_name": "Trefoil / Spade-Leaved Marsh Herb",
+      "pharma_folio": "f102r1",
+      "pharma_locus": "f102r1[3,1]",
+      "pharma_register_lines": [
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "authority": "Stolfi",
+      "visual_feature": "Crimson-orange branching tuber with twin cordate/ovate basal leaves (ddardsh)",
+      "herbal_word_count": 89,
+      "pharma_folio_word_count": 107,
+      "pharma_register_word_count": 44,
+      "pharma_register_labels": [
+        "ddardsh"
+      ],
+      "exact_folio_shared_words": [
+        "chol",
+        "daiin",
+        "dain",
+        "dor",
+        "dy",
+        "s",
+        "sol"
+      ],
+      "exact_register_shared_words": [
+        "chol",
+        "daiin",
+        "dor",
+        "dy",
+        "s"
+      ],
+      "stem_folio_shared_count": 10,
+      "stem_register_shared_count": 7,
+      "stem_register_shared": [
+        "ain",
+        "cho",
+        "chol",
+        "dy",
+        "kol",
+        "or",
+        "she"
+      ],
+      "concrete_stem_bridges": [
+        {
+          "stem": "ain",
+          "herbal_words": [
+            "daiiin",
+            "daiin",
+            "daiinody",
+            "dain"
+          ],
+          "pharma_reg_words": [
+            "daiin"
+          ]
+        },
+        {
+          "stem": "cho",
+          "herbal_words": [
+            "choiin"
+          ],
+          "pharma_reg_words": [
+            "chos"
+          ]
+        },
+        {
+          "stem": "chol",
+          "herbal_words": [
+            "chol"
+          ],
+          "pharma_reg_words": [
+            "chol"
+          ]
+        },
+        {
+          "stem": "dy",
+          "herbal_words": [
+            "dy"
+          ],
+          "pharma_reg_words": [
+            "dy"
+          ]
+        },
+        {
+          "stem": "kol",
+          "herbal_words": [
+            "ykol"
+          ],
+          "pharma_reg_words": [
+            "okol"
+          ]
+        },
+        {
+          "stem": "or",
+          "herbal_words": [
+            "dor"
+          ],
+          "pharma_reg_words": [
+            "dor",
+            "or",
+            "soraiin"
+          ]
+        },
+        {
+          "stem": "she",
+          "herbal_words": [
+            "sheaiin"
+          ],
+          "pharma_reg_words": [
+            "sheey",
+            "shey"
+          ]
+        }
+      ],
+      "herbal_qo_rate": 12.36,
+      "pharma_reg_qo_rate": 13.64,
+      "herbal_o_rate": 5.62,
+      "pharma_reg_o_rate": 22.73,
+      "rare_diagnostic_register_words": []
+    },
+    {
+      "pair_id": "TWIN-07",
+      "herbal_folio": "f39r",
+      "herbal_name": "Crocus / Plumed Calyx Herb",
+      "pharma_folio": "f95r2",
+      "pharma_locus": "f95r2[full]",
+      "pharma_register_lines": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "authority": "Stolfi, Zandbergen",
+      "visual_feature": "Three-lobed bulbous root and\u5bf9\u79f0 serrated leaves with central flower spike",
+      "herbal_word_count": 157,
+      "pharma_folio_word_count": 79,
+      "pharma_register_word_count": 79,
+      "pharma_register_labels": [],
+      "exact_folio_shared_words": [
+        "chckhy",
+        "chdy",
+        "chedy",
+        "cheol",
+        "chol",
+        "chor",
+        "daiin",
+        "eeedy",
+        "kar",
+        "okam",
+        "ol",
+        "or",
+        "otal",
+        "qokal",
+        "shol",
+        "y"
+      ],
+      "exact_register_shared_words": [
+        "chckhy",
+        "chdy",
+        "chedy",
+        "cheol",
+        "chol",
+        "chor",
+        "daiin",
+        "eeedy",
+        "kar",
+        "okam",
+        "ol",
+        "or",
+        "otal",
+        "qokal",
+        "shol",
+        "y"
+      ],
+      "stem_folio_shared_count": 26,
+      "stem_register_shared_count": 26,
+      "stem_register_shared": [
+        "ain",
+        "al",
+        "ar",
+        "chd",
+        "che",
+        "chk",
+        "chkh",
+        "chol",
+        "chor",
+        "dal",
+        "dy",
+        "ed",
+        "ka",
+        "kal",
+        "kar",
+        "kch",
+        "ke",
+        "lk",
+        "ol",
+        "or",
+        "shd",
+        "she",
+        "shol",
+        "tal",
+        "te",
+        "tor"
+      ],
+      "concrete_stem_bridges": [
+        {
+          "stem": "ain",
+          "herbal_words": [
+            "aiiin",
+            "aiin",
+            "daiin",
+            "saiin"
+          ],
+          "pharma_reg_words": [
+            "daiin"
+          ]
+        },
+        {
+          "stem": "al",
+          "herbal_words": [
+            "al",
+            "aly",
+            "dal"
+          ],
+          "pharma_reg_words": [
+            "dalal"
+          ]
+        },
+        {
+          "stem": "ar",
+          "herbal_words": [
+            "ar",
+            "dar"
+          ],
+          "pharma_reg_words": [
+            "aram",
+            "daraiin"
+          ]
+        },
+        {
+          "stem": "chd",
+          "herbal_words": [
+            "chdain",
+            "chdam",
+            "chdar",
+            "chdy"
+          ],
+          "pharma_reg_words": [
+            "chdaiin",
+            "chdy"
+          ]
+        },
+        {
+          "stem": "che",
+          "herbal_words": [
+            "chedy",
+            "chees",
+            "cheey",
+            "cheol"
+          ],
+          "pharma_reg_words": [
+            "chedy",
+            "cheol"
+          ]
+        },
+        {
+          "stem": "chk",
+          "herbal_words": [
+            "chkeey"
+          ],
+          "pharma_reg_words": [
+            "chkain",
+            "chkar"
+          ]
+        },
+        {
+          "stem": "chkh",
+          "herbal_words": [
+            "chckhdy",
+            "chckhy"
+          ],
+          "pharma_reg_words": [
+            "chckhey",
+            "chckhy"
+          ]
+        },
+        {
+          "stem": "chol",
+          "herbal_words": [
+            "chol",
+            "cholal"
+          ],
+          "pharma_reg_words": [
+            "chol"
+          ]
+        },
+        {
+          "stem": "chor",
+          "herbal_words": [
+            "chor"
+          ],
+          "pharma_reg_words": [
+            "chor"
+          ]
+        },
+        {
+          "stem": "dal",
+          "herbal_words": [
+            "odal"
+          ],
+          "pharma_reg_words": [
+            "odaly"
+          ]
+        }
+      ],
+      "herbal_qo_rate": 8.92,
+      "pharma_reg_qo_rate": 12.66,
+      "herbal_o_rate": 13.38,
+      "pharma_reg_o_rate": 34.18,
+      "rare_diagnostic_register_words": [
+        {
+          "word": "eeedy",
+          "manuscript_folio_df": 7
+        },
+        {
+          "word": "okam",
+          "manuscript_folio_df": 30
+        },
+        {
+          "word": "kar",
+          "manuscript_folio_df": 44
+        }
+      ]
+    },
+    {
+      "pair_id": "TWIN-08",
+      "herbal_folio": "f47v",
+      "herbal_name": "Doronicum Pardalianches / Gemswurz (Leopard's Bane)",
+      "pharma_folio": "f102r2",
+      "pharma_locus": "f102r2[1,1]",
+      "pharma_register_lines": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "authority": "Petersen, Holm",
+      "visual_feature": "Octopus-like splayed brown root with red collar teeth and broad ovate green leaf (kodaiig)",
+      "herbal_word_count": 85,
+      "pharma_folio_word_count": 144,
+      "pharma_register_word_count": 39,
+      "pharma_register_labels": [
+        "kodaiig"
+      ],
+      "exact_folio_shared_words": [
+        "chody",
+        "chol",
+        "daiin",
+        "dor",
+        "o",
+        "ody",
+        "saiin",
+        "sheey"
+      ],
+      "exact_register_shared_words": [
+        "chol",
+        "daiin",
+        "dor"
+      ],
+      "stem_folio_shared_count": 13,
+      "stem_register_shared_count": 8,
+      "stem_register_shared": [
+        "ain",
+        "air",
+        "che",
+        "chol",
+        "ke",
+        "kol",
+        "or",
+        "te"
+      ],
+      "concrete_stem_bridges": [
+        {
+          "stem": "ain",
+          "herbal_words": [
+            "daiin",
+            "dain",
+            "saiin"
+          ],
+          "pharma_reg_words": [
+            "aiin",
+            "daiin"
+          ]
+        },
+        {
+          "stem": "air",
+          "herbal_words": [
+            "dair"
+          ],
+          "pharma_reg_words": [
+            "airam"
+          ]
+        },
+        {
+          "stem": "che",
+          "herbal_words": [
+            "cheor",
+            "dcheey"
+          ],
+          "pharma_reg_words": [
+            "cheey",
+            "chey",
+            "ycheor"
+          ]
+        },
+        {
+          "stem": "chol",
+          "herbal_words": [
+            "chol"
+          ],
+          "pharma_reg_words": [
+            "chol"
+          ]
+        },
+        {
+          "stem": "ke",
+          "herbal_words": [
+            "key"
+          ],
+          "pharma_reg_words": [
+            "okeol",
+            "qokeody"
+          ]
+        },
+        {
+          "stem": "kol",
+          "herbal_words": [
+            "kol"
+          ],
+          "pharma_reg_words": [
+            "okol",
+            "qokol"
+          ]
+        },
+        {
+          "stem": "or",
+          "herbal_words": [
+            "dor"
+          ],
+          "pharma_reg_words": [
+            "dor",
+            "or",
+            "qoor",
+            "sor"
+          ]
+        },
+        {
+          "stem": "te",
+          "herbal_words": [
+            "oteey",
+            "oteol"
+          ],
+          "pharma_reg_words": [
+            "yteor"
+          ]
+        }
+      ],
+      "herbal_qo_rate": 3.53,
+      "pharma_reg_qo_rate": 7.69,
+      "herbal_o_rate": 8.24,
+      "pharma_reg_o_rate": 28.21,
+      "rare_diagnostic_register_words": []
+    },
+    {
+      "pair_id": "TWIN-09",
+      "herbal_folio": "f48r",
+      "herbal_name": "Paired Basal-Leaf Herb with Whiskered Bulb",
+      "pharma_folio": "f89v2",
+      "pharma_locus": "f89v2[3,4]",
+      "pharma_register_lines": [
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "27",
+        "28"
+      ],
+      "authority": "Stolfi",
+      "visual_feature": "Bulbous root with radiating whiskers and twin arching basal leaves (daseky)",
+      "herbal_word_count": 89,
+      "pharma_folio_word_count": 181,
+      "pharma_register_word_count": 110,
+      "pharma_register_labels": [
+        "opaloiiry",
+        "otaram",
+        "chtchy",
+        "sada",
+        "daseky"
+      ],
+      "exact_folio_shared_words": [
+        "aiin",
+        "chy",
+        "daiin",
+        "dain",
+        "dal",
+        "dam",
+        "dol",
+        "l",
+        "o",
+        "okam",
+        "otaiin",
+        "otal",
+        "sheody"
+      ],
+      "exact_register_shared_words": [
+        "aiin",
+        "chy",
+        "daiin",
+        "dal",
+        "dam",
+        "dol",
+        "o",
+        "otal",
+        "sheody"
+      ],
+      "stem_folio_shared_count": 21,
+      "stem_register_shared_count": 18,
+      "stem_register_shared": [
+        "ain",
+        "al",
+        "am",
+        "ar",
+        "che",
+        "cht",
+        "chy",
+        "ka",
+        "ke",
+        "keo",
+        "khy",
+        "ol",
+        "she",
+        "tal",
+        "tar",
+        "teo",
+        "the",
+        "tol"
+      ],
+      "concrete_stem_bridges": [
+        {
+          "stem": "ain",
+          "herbal_words": [
+            "aiin",
+            "daiin",
+            "dain"
+          ],
+          "pharma_reg_words": [
+            "aiin",
+            "daiin"
+          ]
+        },
+        {
+          "stem": "al",
+          "herbal_words": [
+            "al",
+            "dal",
+            "daldy"
+          ],
+          "pharma_reg_words": [
+            "dal"
+          ]
+        },
+        {
+          "stem": "am",
+          "herbal_words": [
+            "dam"
+          ],
+          "pharma_reg_words": [
+            "am",
+            "dam"
+          ]
+        },
+        {
+          "stem": "ar",
+          "herbal_words": [
+            "ar"
+          ],
+          "pharma_reg_words": [
+            "dar"
+          ]
+        },
+        {
+          "stem": "che",
+          "herbal_words": [
+            "cheody"
+          ],
+          "pharma_reg_words": [
+            "chey"
+          ]
+        },
+        {
+          "stem": "cht",
+          "herbal_words": [
+            "chtaiin"
+          ],
+          "pharma_reg_words": [
+            "chty"
+          ]
+        },
+        {
+          "stem": "chy",
+          "herbal_words": [
+            "chy"
+          ],
+          "pharma_reg_words": [
+            "chy"
+          ]
+        },
+        {
+          "stem": "ka",
+          "herbal_words": [
+            "okain",
+            "okam"
+          ],
+          "pharma_reg_words": [
+            "okaiin",
+            "ykam"
+          ]
+        },
+        {
+          "stem": "ke",
+          "herbal_words": [
+            "kedy",
+            "key",
+            "okedy",
+            "okeody"
+          ],
+          "pharma_reg_words": [
+            "keeody",
+            "okeor",
+            "qokeeody",
+            "qokeeol"
+          ]
+        },
+        {
+          "stem": "keo",
+          "herbal_words": [
+            "okeoam"
+          ],
+          "pharma_reg_words": [
+            "okeom",
+            "okeos",
+            "okeoy"
+          ]
+        }
+      ],
+      "herbal_qo_rate": 8.99,
+      "pharma_reg_qo_rate": 7.27,
+      "herbal_o_rate": 26.97,
+      "pharma_reg_o_rate": 19.09,
+      "rare_diagnostic_register_words": [
+        {
+          "word": "sheody",
+          "manuscript_folio_df": 38
+        }
+      ]
+    },
+    {
+      "pair_id": "TWIN-10",
+      "herbal_folio": "f48v",
+      "herbal_name": "Opposite-Leaved Spike Herb with Ringed Root",
+      "pharma_folio": "f89v1",
+      "pharma_locus": "f89v1[1,4]",
+      "pharma_register_lines": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "authority": "Stolfi",
+      "visual_feature": "Ringed vertical taproot with symmetrical opposite leaf pairs (darshody)",
+      "herbal_word_count": 128,
+      "pharma_folio_word_count": 154,
+      "pharma_register_word_count": 72,
+      "pharma_register_labels": [
+        "okoraldy",
+        "otoikhy",
+        "otchar",
+        "darshody"
+      ],
+      "exact_folio_shared_words": [
+        "aiin",
+        "ain",
+        "chdy",
+        "chey",
+        "chody",
+        "cthey",
+        "dain",
+        "dy",
+        "okal",
+        "ol",
+        "or",
+        "otar",
+        "qokar",
+        "tor"
+      ],
+      "exact_register_shared_words": [
+        "aiin",
+        "ain",
+        "cthey",
+        "dain",
+        "dy",
+        "ol",
+        "otar",
+        "qokar",
+        "tor"
+      ],
+      "stem_folio_shared_count": 26,
+      "stem_register_shared_count": 18,
+      "stem_register_shared": [
+        "ain",
+        "al",
+        "ar",
+        "che",
+        "chek",
+        "dy",
+        "kar",
+        "ke",
+        "ld",
+        "ol",
+        "or",
+        "she",
+        "ta",
+        "tar",
+        "tch",
+        "te",
+        "the",
+        "tor"
+      ],
+      "concrete_stem_bridges": [
+        {
+          "stem": "ain",
+          "herbal_words": [
+            "aiin",
+            "ain",
+            "dain"
+          ],
+          "pharma_reg_words": [
+            "aiin",
+            "ain",
+            "daiin",
+            "dain"
+          ]
+        },
+        {
+          "stem": "al",
+          "herbal_words": [
+            "al",
+            "daly"
+          ],
+          "pharma_reg_words": [
+            "dals"
+          ]
+        },
+        {
+          "stem": "ar",
+          "herbal_words": [
+            "ar",
+            "ary",
+            "sary"
+          ],
+          "pharma_reg_words": [
+            "dar"
+          ]
+        },
+        {
+          "stem": "che",
+          "herbal_words": [
+            "chedy",
+            "chey",
+            "dchedy"
+          ],
+          "pharma_reg_words": [
+            "chear",
+            "cheeor",
+            "cheey",
+            "cheol"
+          ]
+        },
+        {
+          "stem": "chek",
+          "herbal_words": [
+            "cheky"
+          ],
+          "pharma_reg_words": [
+            "chekaiin",
+            "chekal"
+          ]
+        },
+        {
+          "stem": "dy",
+          "herbal_words": [
+            "dy"
+          ],
+          "pharma_reg_words": [
+            "dy"
+          ]
+        },
+        {
+          "stem": "kar",
+          "herbal_words": [
+            "okar",
+            "qokar"
+          ],
+          "pharma_reg_words": [
+            "qokar"
+          ]
+        },
+        {
+          "stem": "ke",
+          "herbal_words": [
+            "kedy",
+            "keody",
+            "okedy",
+            "okeeor"
+          ],
+          "pharma_reg_words": [
+            "qokey"
+          ]
+        },
+        {
+          "stem": "ld",
+          "herbal_words": [
+            "oldy"
+          ],
+          "pharma_reg_words": [
+            "oldaiin"
+          ]
+        },
+        {
+          "stem": "ol",
+          "herbal_words": [
+            "ol"
+          ],
+          "pharma_reg_words": [
+            "ol"
+          ]
+        }
+      ],
+      "herbal_qo_rate": 2.34,
+      "pharma_reg_qo_rate": 13.89,
+      "herbal_o_rate": 27.34,
+      "pharma_reg_o_rate": 22.22,
+      "rare_diagnostic_register_words": [
+        {
+          "word": "tor",
+          "manuscript_folio_df": 20
+        },
+        {
+          "word": "cthey",
+          "manuscript_folio_df": 44
+        }
+      ]
+    },
+    {
+      "pair_id": "TWIN-11",
+      "herbal_folio": "f90v2",
+      "herbal_name": "Osmunda regalis (Royal Fern)",
+      "pharma_folio": "f100r",
+      "pharma_locus": "f100r[1,3]",
+      "pharma_register_lines": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "authority": "Stolfi",
+      "visual_feature": "Plumed fern frond with curled fiddlehead tips and bulbous rhizome (otear)",
+      "herbal_word_count": 68,
+      "pharma_folio_word_count": 110,
+      "pharma_register_word_count": 48,
+      "pharma_register_labels": [
+        "chosaroshol",
+        "sochorcfhy",
+        "otear",
+        "chofary",
+        "sar",
+        "char",
+        "daiindy",
+        "oraro",
+        "chalsain",
+        "soity",
+        "sosam",
+        "dakocth",
+        "sofam"
+      ],
+      "exact_folio_shared_words": [
+        "cheol",
+        "chos",
+        "daiin",
+        "oteey",
+        "qokeey",
+        "qokeol",
+        "s",
+        "sheey",
+        "shey"
+      ],
+      "exact_register_shared_words": [
+        "daiin",
+        "oteey",
+        "qokeey",
+        "qokeol",
+        "s",
+        "sheey"
+      ],
+      "stem_folio_shared_count": 11,
+      "stem_register_shared_count": 8,
+      "stem_register_shared": [
+        "ain",
+        "ar",
+        "che",
+        "ke",
+        "keo",
+        "she",
+        "shod",
+        "te"
+      ],
+      "concrete_stem_bridges": [
+        {
+          "stem": "ain",
+          "herbal_words": [
+            "daiin",
+            "saiin"
+          ],
+          "pharma_reg_words": [
+            "daiin",
+            "daiindy"
+          ]
+        },
+        {
+          "stem": "ar",
+          "herbal_words": [
+            "dar",
+            "qoar"
+          ],
+          "pharma_reg_words": [
+            "sar"
+          ]
+        },
+        {
+          "stem": "che",
+          "herbal_words": [
+            "cheeor",
+            "cheey",
+            "cheody",
+            "cheol"
+          ],
+          "pharma_reg_words": [
+            "dcheor"
+          ]
+        },
+        {
+          "stem": "ke",
+          "herbal_words": [
+            "okeeey",
+            "qokeey",
+            "qokeol",
+            "ykeeol"
+          ],
+          "pharma_reg_words": [
+            "qokeeody",
+            "qokeeol",
+            "qokeey",
+            "qokeody"
+          ]
+        },
+        {
+          "stem": "keo",
+          "herbal_words": [
+            "keeos",
+            "okeeom"
+          ],
+          "pharma_reg_words": [
+            "ykeeeo"
+          ]
+        },
+        {
+          "stem": "she",
+          "herbal_words": [
+            "sheey",
+            "sheody",
+            "sheol",
+            "shey"
+          ],
+          "pharma_reg_words": [
+            "dsheor",
+            "sheey"
+          ]
+        },
+        {
+          "stem": "shod",
+          "herbal_words": [
+            "shodaiin"
+          ],
+          "pharma_reg_words": [
+            "shodol"
+          ]
+        },
+        {
+          "stem": "te",
+          "herbal_words": [
+            "oteeol",
+            "oteey"
+          ],
+          "pharma_reg_words": [
+            "otear",
+            "oteey",
+            "qoteey"
+          ]
+        }
+      ],
+      "herbal_qo_rate": 10.29,
+      "pharma_reg_qo_rate": 16.67,
+      "herbal_o_rate": 16.18,
+      "pharma_reg_o_rate": 10.42,
+      "rare_diagnostic_register_words": [
+        {
+          "word": "qokeol",
+          "manuscript_folio_df": 33
+        }
+      ]
+    },
+    {
+      "pair_id": "TWIN-12",
+      "herbal_folio": "f96v",
+      "herbal_name": "Smilax tracheia / Chenopodium",
+      "pharma_folio": "f99r",
+      "pharma_locus": "f99r[4,1]",
+      "pharma_register_lines": [
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50"
+      ],
+      "authority": "Landini (GL)",
+      "visual_feature": "Trailing vine with spade-shaped leaves and knotted rootstock (tolsasy)",
+      "herbal_word_count": 56,
+      "pharma_folio_word_count": 194,
+      "pharma_register_word_count": 74,
+      "pharma_register_labels": [
+        "yteoldy",
+        "tolsasy"
+      ],
+      "exact_folio_shared_words": [
+        "checkhey",
+        "cheom",
+        "ckhey",
+        "daiin",
+        "sar",
+        "sheey",
+        "y"
+      ],
+      "exact_register_shared_words": [
+        "checkhey",
+        "cheom",
+        "ckhey",
+        "daiin",
+        "sar",
+        "sheey"
+      ],
+      "stem_folio_shared_count": 16,
+      "stem_register_shared_count": 10,
+      "stem_register_shared": [
+        "ain",
+        "alch",
+        "ar",
+        "che",
+        "chekh",
+        "cheo",
+        "khe",
+        "or",
+        "she",
+        "the"
+      ],
+      "concrete_stem_bridges": [
+        {
+          "stem": "ain",
+          "herbal_words": [
+            "daiin",
+            "daiins",
+            "dain"
+          ],
+          "pharma_reg_words": [
+            "aiin",
+            "daiin"
+          ]
+        },
+        {
+          "stem": "alch",
+          "herbal_words": [
+            "alchey"
+          ],
+          "pharma_reg_words": [
+            "dalchey"
+          ]
+        },
+        {
+          "stem": "ar",
+          "herbal_words": [
+            "ar",
+            "sar"
+          ],
+          "pharma_reg_words": [
+            "sar"
+          ]
+        },
+        {
+          "stem": "che",
+          "herbal_words": [
+            "cheor",
+            "qoches",
+            "ycheey"
+          ],
+          "pharma_reg_words": [
+            "chey"
+          ]
+        },
+        {
+          "stem": "chekh",
+          "herbal_words": [
+            "checkhey"
+          ],
+          "pharma_reg_words": [
+            "checkhey"
+          ]
+        },
+        {
+          "stem": "cheo",
+          "herbal_words": [
+            "cheom"
+          ],
+          "pharma_reg_words": [
+            "cheom"
+          ]
+        },
+        {
+          "stem": "khe",
+          "herbal_words": [
+            "ckheal",
+            "ckheeody",
+            "ckheor",
+            "ckhey"
+          ],
+          "pharma_reg_words": [
+            "ckhey",
+            "ockhey"
+          ]
+        },
+        {
+          "stem": "or",
+          "herbal_words": [
+            "sor"
+          ],
+          "pharma_reg_words": [
+            "dor",
+            "or"
+          ]
+        },
+        {
+          "stem": "she",
+          "herbal_words": [
+            "sheey"
+          ],
+          "pharma_reg_words": [
+            "sheey",
+            "sheol"
+          ]
+        },
+        {
+          "stem": "the",
+          "herbal_words": [
+            "ctheor",
+            "cthey"
+          ],
+          "pharma_reg_words": [
+            "ctheey"
+          ]
+        }
+      ],
+      "herbal_qo_rate": 3.57,
+      "pharma_reg_qo_rate": 8.11,
+      "herbal_o_rate": 14.29,
+      "pharma_reg_o_rate": 22.97,
+      "rare_diagnostic_register_words": [
+        {
+          "word": "cheom",
+          "manuscript_folio_df": 7
+        },
+        {
+          "word": "checkhey",
+          "manuscript_folio_df": 10
+        },
+        {
+          "word": "ckhey",
+          "manuscript_folio_df": 20
+        }
+      ]
+    }
+  ]
+}

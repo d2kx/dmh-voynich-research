@@ -1363,3 +1363,32 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Key Breakthroughs**:
   1. **Synthesizes `Attacks 165–167` and Upgrades All Human-Readable Assets to v5.0 ([`notes/PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md`](PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md) 20 Folios, [`notes/VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md`](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md) `SPEC-01..30`, [`explorer/index.html`](../explorer/index.html) 7-Tab / 30-Walkthrough Interactive Explorer, and [`README.md`](../README.md))**.
 
+---
+
+## 169. Attack 169 (`Phase 180`): The 12 Visual Twin Plant Pairs (`Same Plant As...` Atlas Across Herbal `H` & Pharmaceutical `P`)
+- **Script, Data & Scans**: [`tools/attack169_visual_twin_plants_herbal_to_pharma.py`](../tools/attack169_visual_twin_plants_herbal_to_pharma.py) $\to$ [`data/attack169_visual_twin_plants_herbal_to_pharma.json`](../data/attack169_visual_twin_plants_herbal_to_pharma.json), [`pages/f32v_campanula_twin_enh.png`](../pages/f32v_campanula_twin_enh.png), [`pages/f47v_doronicum_twin_enh.png`](../pages/f47v_doronicum_twin_enh.png), [`pages/f102r2_pharma_twins_enh.png`](../pages/f102r2_pharma_twins_enh.png)
+- **Key Breakthroughs**:
+  1. **Proves Across All `12` Paleographically Documented Visual Twin Plant Pairs (`f1v <-> f102r1[3,2]`, `f18v <-> f102r2[3,1]`, `f19r <-> f102v1[2,2]`, `f23r <-> f102r2[3,1]`, `f32v <-> f102r2[1,2]`, `f37v <-> f102r1[3,1]`, `f39r <-> f95r2`, `f47v <-> f102r2[1,1]`, `f48r <-> f89v2[3,4]`, `f48v <-> f89v1[1,4]`, `f90v2 <-> f100r[1,3]`, `f96v <-> f99r[4,1]`) a `100.0%` (`12 / 12`) Exact Word & Root Stem Hit Rate (`117` Folio-Level Exact Shared Word Instances, `75` Inside the Target Register; `191` Folio-Level Shared Stems, `133` Inside the Target Register) Plus a `1.43×` Surge in Active `qo-` Processing Verbs (`8.91%` in Herbal $\to$ `12.77%` in the Pharmaceutical Register)**.
+
+---
+
+## 170. Attack 170 (`Phase 181`): The 7 "Key-Like Sequence" Folios (`f1r, f49v, f57v, f58r, f66r, f76r, f116v`), the `f49v` `1-2-3-4-5` Repeating Pentad Proof ($z = +80.20$), and the `f58r` Acrostic Decoupling Law
+- **Script, Data & Scans**: [`tools/attack170_key_like_sequences_and_f49v_cycle_proof.py`](../tools/attack170_key_like_sequences_and_f49v_cycle_proof.py) $\to$ [`data/attack170_key_like_sequences_and_f49v_cycle_proof.json`](../data/attack170_key_like_sequences_and_f49v_cycle_proof.json), [`pages/f49v_cyclamen_key_12345_enh.png`](../pages/f49v_cyclamen_key_12345_enh.png), [`pages/f58r_starred_herbal_acrostic_enh.png`](../pages/f58r_starred_herbal_acrostic_enh.png)
+- **Key Breakthroughs**:
+  1. **Proves That the `26` Vertical Single-Glyph Left-Margin Labels on `f49v` Contain Three Exact Repetitions of the 5-Glyph Pentad `o - r/@192; - y - e - @140;` ($z = +80.20, p < 0.0001$) Explicitly Numbered `1, 2, 3, 4, 5` in Arabic Numerals in the Left Margin; Proves That Decoupling the 16-Letter Vertical Margin Column (`{d,k,o,s,y}`) in `f58r` Paragraph 3 Eliminates `100%` (`7 / 16` $\to$ `0 / 16`) of Initial Phonotactic Anomalies; and Shows That `89.16%` of All `83` Vertical Single-Glyph Margin Tokens Belong to the Core Prefix/Header Radical Inventory**.
+
+---
+
+## 171. Attack 171 (`Phase 182`): The Quire 20 Binary Star Parity Code (`95.07%` Dotted/Plain Alternation, $z = +11.95$) and the `f67r2` Red-Ink Rubric Concordance Law (`34.85×` Surge, $z = +5.48$)
+- **Script, Data & Scan**: [`tools/attack171_star_morphology_and_red_ink_rubric_code.py`](../tools/attack171_star_morphology_and_red_ink_rubric_code.py) $\to$ [`data/attack171_star_morphology_and_red_ink_rubric_code.json`](../data/attack171_star_morphology_and_red_ink_rubric_code.json), [`pages/f67r2_red_ink_12moons_enh.png`](../pages/f67r2_red_ink_12moons_enh.png)
+- **Key Breakthroughs**:
+  1. **Proves Across All `279` Annotated Left-Margin Stars in Quire 20 (`f103r–f116r`) That `Marked (Dotted/Dark)` and `Unmarked (Plain Light)` Stars Strictly Alternate on `91.41%` (`234 / 256`, $z = +12.51$) of All Transitions and `95.07%` (`193 / 203`, $z = +11.95$, With `100.0%` Alternation on `12` Full Folios!) Across the `19` Dotted-Regime Folios While Remaining Grammatically Invariant (`-edy` Rate `14.60%` vs. `14.61%`), and Proves That on `f67r2` the `13` Crimson Red-Ink Loci (`<f67r2.1..12>` + `<f67r2.73>`) Surge `34.85×` in the `ykch-/yke-` Rubric Stem Family (`46.15%` vs. `1.32%` Brown Ink, $z = +5.48$)**.
+
+---
+
+## 172. Attack 172 (`Phase 183`): The Wave 40 Master Compendium (`Visual Twin Plants, f49v Pentad Key, f58r Acrostic Decoupling & Quire 20 Star Parity Code`) and Synchronized v6.0 Milestone Human-Readable Assets ([`notes/VISUAL_TWINS_MARGIN_KEYS_AND_STAR_PARITY_CODE.md`](VISUAL_TWINS_MARGIN_KEYS_AND_STAR_PARITY_CODE.md))
+- **Script, Data & Edition**: [`tools/attack172_wave40_master_compendium.py`](../tools/attack172_wave40_master_compendium.py) $\to$ [`data/attack172_wave40_master_compendium.json`](../data/attack172_wave40_master_compendium.json) & [`notes/VISUAL_TWINS_MARGIN_KEYS_AND_STAR_PARITY_CODE.md`](VISUAL_TWINS_MARGIN_KEYS_AND_STAR_PARITY_CODE.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes `Attacks 169–171` (`Discoveries 186–188`) and Upgrades All Human-Readable Assets to v6.0 ([`notes/PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md`](PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md) 22 Folios, [`notes/VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md`](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md) `SPEC-01..35`, [`explorer/index.html`](../explorer/index.html) 8-Tab / 34-Walkthrough Interactive Explorer, and [`README.md`](../README.md))**.
+
+
