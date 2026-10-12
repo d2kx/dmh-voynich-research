@@ -1,0 +1,202 @@
+{
+  "summary": {
+    "total_lines": 5376,
+    "total_words": 36229,
+    "total_constituents": 29798,
+    "mean_words_per_constituent": 1.216,
+    "mean_constituents_per_line": 5.543,
+    "constituent_transition_mi_bits": 0.039,
+    "within_line_permutation_z": 62.49
+  },
+  "constituent_counts": {
+    "TOP_HEAD": 933,
+    "PP_PREP": 3996,
+    "NP_MEAS": 15950,
+    "VP_PROC": 8132,
+    "FIN_CLOSE": 787
+  },
+  "top_multiword_constituents": {
+    "VP_PROC": {
+      "shedy . qokedy": 15,
+      "chedy . qokeey": 15,
+      "qokeedy . qokeedy": 13,
+      "qokedy . qokedy": 12,
+      "shey . qokain": 12,
+      "chedy . qokain": 12,
+      "shedy . qokaiin": 12,
+      "shedy . qokeedy": 11,
+      "chedy . qokedy": 10,
+      "chedy . qokeedy": 10,
+      "qol . chedy": 9,
+      "shedy . qokain": 9,
+      "qokedy . qokeedy": 8,
+      "chedy . qokaiin": 8,
+      "shedy . qokeey": 8
+    },
+    "NP_MEAS": {
+      "chol . daiin": 24,
+      "or . aiin": 21,
+      "or . ol": 11,
+      "ar . al": 10,
+      "ar . aiin": 9,
+      "r . aiin": 8,
+      "chor . daiin": 6,
+      "ar . ol": 6,
+      "okeey . daiin": 6,
+      "o . aiin": 6,
+      "cthol . daiin": 5,
+      "cthy . daiin": 5,
+      "ar . ain": 5,
+      "chol . ol": 5,
+      "or . al": 4
+    },
+    "PP_PREP": {
+      "s . aiin": 26,
+      "s . or": 9,
+      "s . ar": 8,
+      "dar . ar": 8,
+      "shol . daiin": 7,
+      "sar . al": 7,
+      "dar . aiin": 6,
+      "dar . al": 6,
+      "s . chol": 5,
+      "dy . daiin": 5,
+      "shor . daiin": 5,
+      "y . daiin": 5,
+      "dar . ol": 5,
+      "d . r": 5,
+      "sar . ain": 5
+    },
+    "TOP_HEAD": {
+      "ydain . cphesaiin": 1,
+      "cpho . shaiin": 1,
+      "kchsy . chydaiin": 1,
+      "kydainy . ypchol": 1,
+      "kydain . shaiin": 1,
+      "kooiin . cheopchor": 1,
+      "pcheoldom . shodaiin": 1,
+      "koaiin . cphor": 1,
+      "tchor . otcham": 1,
+      "pchooiin . ksheo": 1,
+      "torchy . sheeor": 1,
+      "kchody . fchoy": 1,
+      "kocheor . chor": 1,
+      "foeear . kshor": 1,
+      "koarysar . cheekar": 1
+    }
+  },
+  "constituent_transitions": [
+    {
+      "from": "TOP_HEAD",
+      "to": "VP_PROC",
+      "count": 431,
+      "expected": 244.0,
+      "lift": 1.766
+    },
+    {
+      "from": "PP_PREP",
+      "to": "PP_PREP",
+      "count": 694,
+      "expected": 397.8,
+      "lift": 1.744
+    },
+    {
+      "from": "PP_PREP",
+      "to": "VP_PROC",
+      "count": 1362,
+      "expected": 961.5,
+      "lift": 1.417
+    },
+    {
+      "from": "PP_PREP",
+      "to": "FIN_CLOSE",
+      "count": 136,
+      "expected": 96.1,
+      "lift": 1.415
+    },
+    {
+      "from": "TOP_HEAD",
+      "to": "PP_PREP",
+      "count": 129,
+      "expected": 101.0,
+      "lift": 1.278
+    },
+    {
+      "from": "VP_PROC",
+      "to": "NP_MEAS",
+      "count": 4595,
+      "expected": 3901.9,
+      "lift": 1.178
+    },
+    {
+      "from": "NP_MEAS",
+      "to": "NP_MEAS",
+      "count": 7389,
+      "expected": 7152.9,
+      "lift": 1.033
+    },
+    {
+      "from": "NP_MEAS",
+      "to": "VP_PROC",
+      "count": 4015,
+      "expected": 4015.9,
+      "lift": 1.0
+    },
+    {
+      "from": "NP_MEAS",
+      "to": "FIN_CLOSE",
+      "count": 400,
+      "expected": 401.5,
+      "lift": 0.996
+    },
+    {
+      "from": "VP_PROC",
+      "to": "FIN_CLOSE",
+      "count": 203,
+      "expected": 219.0,
+      "lift": 0.927
+    },
+    {
+      "from": "VP_PROC",
+      "to": "PP_PREP",
+      "count": 816,
+      "expected": 906.5,
+      "lift": 0.9
+    },
+    {
+      "from": "NP_MEAS",
+      "to": "PP_PREP",
+      "count": 1428,
+      "expected": 1661.7,
+      "lift": 0.859
+    },
+    {
+      "from": "VP_PROC",
+      "to": "VP_PROC",
+      "count": 1604,
+      "expected": 2190.6,
+      "lift": 0.732
+    },
+    {
+      "from": "PP_PREP",
+      "to": "NP_MEAS",
+      "count": 976,
+      "expected": 1712.6,
+      "lift": 0.57
+    },
+    {
+      "from": "TOP_HEAD",
+      "to": "NP_MEAS",
+      "count": 242,
+      "expected": 434.6,
+      "lift": 0.557
+    },
+    {
+      "from": "TOP_HEAD",
+      "to": "FIN_CLOSE",
+      "count": 2,
+      "expected": 24.4,
+      "lift": 0.082
+    }
+  ]
+}

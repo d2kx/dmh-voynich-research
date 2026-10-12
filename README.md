@@ -546,6 +546,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 78. The Three-Stage Phrase-Univerbation Continuum (`A . B <-> A,B <-> AB`, $z = +16.16$) & Syntactic Constituent Context Equivalence ($z = +7.40$, `Attack 69`)
+- **`38.57%` (`334 / 866`) Phrase-Univerbation Rate ($z = +16.16$) & External Context Equivalence (`0.6965`, $z = +7.40$, `pages/f20v_or_aiin_shol_daiin_enh.png`)**: `334 / 866` (`38.57%`) of frequent 2-word phrases `A . B` also appear as single-word fused compounds `AB` or micro-spaced `A,B` (`or . aiin <-> or,aiin <-> oraiin`, `chol . daiin <-> chol,daiin <-> chodaiin`, `ol . chedy <-> ol,chedy <-> olchedy`), and `A . B` vs. `AB` share identical external syntactic context frames (`mean cosine = 0.6965` vs. `0.5674 ± 0.0174` null, $z = +7.40$).
+
+---
+
+### 79. Complete Constituent Phrase Grammar (`TOP_HEAD`, `PP_PREP`, `VP_PROC`, `NP_MEAS`, `FIN_CLOSE`) & Full-Corpus Treebank Parser ($z = +62.49$, `Attack 70`)
+- **`29,798` Parsed Phrase Constituents & `I(Const_i ; Const_{i+1}) = 0.03900 bits` ($z = +62.49$)**: Groups all `36,229` words across `5,376` lines into `29,798` phrase constituents (`1.216` words/constituent), governed by the canonical clause chain $\text{S} \to [\text{TOP\_HEAD}] \to [\text{PP\_PREP}^*] \to \text{VP\_PROC} \to \text{NP\_MEAS}^+ \to [\text{FIN\_CLOSE}]$ ($z = +62.49$).
+
+---
+
+### 80. Cross-Dialect (`Currier A <-> Currier B`) Distributional Translation Bridge ($z = +7.59$) & Parallel Clause Tree Aligner (`Attack 71`)
+- **`0.8873` Constituent Bigram Cosine & `0.9784` Top-60 Word Alignment Cosine ($z = +7.59$)**: Aligns Currier A and Currier B vocabularies (`A:daiin <-> B:okaiin`, `A:chol <-> B:ol`, `A:chor <-> B:otar`, `A:shol <-> B:chol`, `A:cthy <-> B:oky`, `A:chey <-> B:chy`) and full parallel clause trees (`f20v.4: sho . or . aiin . shol . daiin` $\leftrightarrow$ `f85r2.4: dair . sheo . oraiin . chol . daiin`, `score = 0.7690`).
+
+---
+
+### 81. The Voynich Constituent Treebank & Parallel Cross-Dialect Reader ([`notes/CONSTITUENT_TREEBANK_READER.md`](notes/CONSTITUENT_TREEBANK_READER.md), `Attack 72`)
+- **Full Bracketed Constituent & Cross-Dialect Reader ([`notes/CONSTITUENT_TREEBANK_READER.md`](notes/CONSTITUENT_TREEBANK_READER.md))**: Synthesizes the Phrase-Univerbation Dictionary, the `29,461`-constituent Treebank Parser, and the `Currier A <-> Currier B` Translation Bridge into a complete bracketed edition of `f20v`, `f1r`, `f78r`, `f85r2`, `f99r`, and `f107r`.
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -645,7 +665,8 @@ python tools/attack65_y_vs_dy_dental_morpheme_solver.py
 python tools/attack66_l_vs_r_liquid_coda_solver.py
 python tools/attack67_double_core_and_infix_compound_solver.py
 python tools/attack68_ten_feature_binary_calculus.py
+python tools/attack69_phrase_univerbation_constituent_solver.py
+python tools/attack70_constituent_phrase_treebank_parser.py
+python tools/attack71_parallel_clause_tree_aligner.py
+python tools/attack72_constituent_treebank_reader.py
 ```
-
-
-

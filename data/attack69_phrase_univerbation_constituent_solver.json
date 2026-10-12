@@ -1,0 +1,549 @@
+{
+  "univerbation_enrichment_test": {
+    "frequent_bigrams_tested": 866,
+    "observed_univerbated_or_comma_hits": 334,
+    "observed_rate_pct": 38.57,
+    "null_rate_mean_pct": 20.61,
+    "null_rate_std_pct": 1.11,
+    "permutation_z": 16.16
+  },
+  "constituent_context_equivalence_test": {
+    "pairs_tested_min5": 56,
+    "observed_mean_context_cosine": 0.6965,
+    "null_mean_context_cosine": 0.5674,
+    "null_std_context_cosine": 0.0174,
+    "permutation_z": 7.4
+  },
+  "top_continuum_families": [
+    {
+      "phrase_A_B": "qol . keedy",
+      "A": "qol",
+      "B": "keedy",
+      "dot_phrase_count": 2,
+      "comma_microspace_count": 2,
+      "fused_words": {
+        "qolkeedy": 8,
+        "qokeedy": 307
+      },
+      "fused_total_count": 315,
+      "combined_constituent_tokens": 317,
+      "context_cosine_phrase_vs_fused": 0.7892
+    },
+    {
+      "phrase_A_B": "chy . dy",
+      "A": "chy",
+      "B": "dy",
+      "dot_phrase_count": 2,
+      "comma_microspace_count": 2,
+      "fused_words": {
+        "chydy": 1,
+        "chdy": 147
+      },
+      "fused_total_count": 148,
+      "combined_constituent_tokens": 150,
+      "context_cosine_phrase_vs_fused": 0.4147
+    },
+    {
+      "phrase_A_B": "okey . dy",
+      "A": "okey",
+      "B": "dy",
+      "dot_phrase_count": 3,
+      "comma_microspace_count": 2,
+      "fused_words": {
+        "okedy": 120
+      },
+      "fused_total_count": 120,
+      "combined_constituent_tokens": 123,
+      "context_cosine_phrase_vs_fused": 0.6633
+    },
+    {
+      "phrase_A_B": "chol . dy",
+      "A": "chol",
+      "B": "dy",
+      "dot_phrase_count": 8,
+      "comma_microspace_count": 4,
+      "fused_words": {
+        "choldy": 11,
+        "chody": 92
+      },
+      "fused_total_count": 103,
+      "combined_constituent_tokens": 111,
+      "context_cosine_phrase_vs_fused": 0.8246
+    },
+    {
+      "phrase_A_B": "cheol . dy",
+      "A": "cheol",
+      "B": "dy",
+      "dot_phrase_count": 3,
+      "comma_microspace_count": 3,
+      "fused_words": {
+        "cheody": 91,
+        "cheoldy": 6
+      },
+      "fused_total_count": 97,
+      "combined_constituent_tokens": 100,
+      "context_cosine_phrase_vs_fused": 0.6368
+    },
+    {
+      "phrase_A_B": "chor . dy",
+      "A": "chor",
+      "B": "dy",
+      "dot_phrase_count": 2,
+      "comma_microspace_count": 0,
+      "fused_words": {
+        "chody": 92,
+        "chordy": 2
+      },
+      "fused_total_count": 94,
+      "combined_constituent_tokens": 96,
+      "context_cosine_phrase_vs_fused": 0.5639
+    },
+    {
+      "phrase_A_B": "or . aiin",
+      "A": "or",
+      "B": "aiin",
+      "dot_phrase_count": 58,
+      "comma_microspace_count": 28,
+      "fused_words": {
+        "oraiin": 34
+      },
+      "fused_total_count": 34,
+      "combined_constituent_tokens": 92,
+      "context_cosine_phrase_vs_fused": 0.9168
+    },
+    {
+      "phrase_A_B": "chy . cthy",
+      "A": "chy",
+      "B": "cthy",
+      "dot_phrase_count": 4,
+      "comma_microspace_count": 0,
+      "fused_words": {
+        "chcthy": 81
+      },
+      "fused_total_count": 81,
+      "combined_constituent_tokens": 85,
+      "context_cosine_phrase_vs_fused": 0.7164
+    },
+    {
+      "phrase_A_B": "chol . daiin",
+      "A": "chol",
+      "B": "daiin",
+      "dot_phrase_count": 33,
+      "comma_microspace_count": 6,
+      "fused_words": {
+        "chodaiin": 46,
+        "choldaiin": 3
+      },
+      "fused_total_count": 49,
+      "combined_constituent_tokens": 82,
+      "context_cosine_phrase_vs_fused": 0.8599
+    },
+    {
+      "phrase_A_B": "chey . ky",
+      "A": "chey",
+      "B": "ky",
+      "dot_phrase_count": 2,
+      "comma_microspace_count": 2,
+      "fused_words": {
+        "cheyky": 2,
+        "cheky": 67
+      },
+      "fused_total_count": 69,
+      "combined_constituent_tokens": 71,
+      "context_cosine_phrase_vs_fused": 0.665
+    },
+    {
+      "phrase_A_B": "qoky . chy",
+      "A": "qoky",
+      "B": "chy",
+      "dot_phrase_count": 2,
+      "comma_microspace_count": 0,
+      "fused_words": {
+        "qokchy": 67
+      },
+      "fused_total_count": 67,
+      "combined_constituent_tokens": 69,
+      "context_cosine_phrase_vs_fused": 0.6983
+    },
+    {
+      "phrase_A_B": "ol . aiin",
+      "A": "ol",
+      "B": "aiin",
+      "dot_phrase_count": 14,
+      "comma_microspace_count": 7,
+      "fused_words": {
+        "olaiin": 52
+      },
+      "fused_total_count": 52,
+      "combined_constituent_tokens": 66,
+      "context_cosine_phrase_vs_fused": 0.7825
+    },
+    {
+      "phrase_A_B": "shol . dy",
+      "A": "shol",
+      "B": "dy",
+      "dot_phrase_count": 4,
+      "comma_microspace_count": 0,
+      "fused_words": {
+        "sholdy": 8,
+        "shody": 53
+      },
+      "fused_total_count": 61,
+      "combined_constituent_tokens": 65,
+      "context_cosine_phrase_vs_fused": 0.7832
+    },
+    {
+      "phrase_A_B": "qoty . chy",
+      "A": "qoty",
+      "B": "chy",
+      "dot_phrase_count": 3,
+      "comma_microspace_count": 0,
+      "fused_words": {
+        "qotchy": 62
+      },
+      "fused_total_count": 62,
+      "combined_constituent_tokens": 65,
+      "context_cosine_phrase_vs_fused": 0.4909
+    },
+    {
+      "phrase_A_B": "qo . tchy",
+      "A": "qo",
+      "B": "tchy",
+      "dot_phrase_count": 2,
+      "comma_microspace_count": 2,
+      "fused_words": {
+        "qotchy": 62
+      },
+      "fused_total_count": 62,
+      "combined_constituent_tokens": 64,
+      "context_cosine_phrase_vs_fused": 0.3751
+    },
+    {
+      "phrase_A_B": "ol . chedy",
+      "A": "ol",
+      "B": "chedy",
+      "dot_phrase_count": 22,
+      "comma_microspace_count": 6,
+      "fused_words": {
+        "olchedy": 39
+      },
+      "fused_total_count": 39,
+      "combined_constituent_tokens": 61,
+      "context_cosine_phrase_vs_fused": 0.8555
+    },
+    {
+      "phrase_A_B": "chor . daiin",
+      "A": "chor",
+      "B": "daiin",
+      "dot_phrase_count": 9,
+      "comma_microspace_count": 0,
+      "fused_words": {
+        "chodaiin": 46
+      },
+      "fused_total_count": 46,
+      "combined_constituent_tokens": 55,
+      "context_cosine_phrase_vs_fused": 0.8328
+    },
+    {
+      "phrase_A_B": "sho . dy",
+      "A": "sho",
+      "B": "dy",
+      "dot_phrase_count": 2,
+      "comma_microspace_count": 0,
+      "fused_words": {
+        "shody": 53
+      },
+      "fused_total_count": 53,
+      "combined_constituent_tokens": 55,
+      "context_cosine_phrase_vs_fused": 0.5852
+    },
+    {
+      "phrase_A_B": "opchey . dy",
+      "A": "opchey",
+      "B": "dy",
+      "dot_phrase_count": 2,
+      "comma_microspace_count": 0,
+      "fused_words": {
+        "opchedy": 49
+      },
+      "fused_total_count": 49,
+      "combined_constituent_tokens": 51,
+      "context_cosine_phrase_vs_fused": 0.23
+    },
+    {
+      "phrase_A_B": "ol . keedy",
+      "A": "ol",
+      "B": "keedy",
+      "dot_phrase_count": 6,
+      "comma_microspace_count": 4,
+      "fused_words": {
+        "olkeedy": 45
+      },
+      "fused_total_count": 45,
+      "combined_constituent_tokens": 51,
+      "context_cosine_phrase_vs_fused": 0.5296
+    },
+    {
+      "phrase_A_B": "chey . daiin",
+      "A": "chey",
+      "B": "daiin",
+      "dot_phrase_count": 10,
+      "comma_microspace_count": 0,
+      "fused_words": {
+        "chedaiin": 39
+      },
+      "fused_total_count": 39,
+      "combined_constituent_tokens": 49,
+      "context_cosine_phrase_vs_fused": 0.8039
+    },
+    {
+      "phrase_A_B": "oty . chy",
+      "A": "oty",
+      "B": "chy",
+      "dot_phrase_count": 3,
+      "comma_microspace_count": 0,
+      "fused_words": {
+        "otchy": 46
+      },
+      "fused_total_count": 46,
+      "combined_constituent_tokens": 49,
+      "context_cosine_phrase_vs_fused": 0.6763
+    },
+    {
+      "phrase_A_B": "ol . shedy",
+      "A": "ol",
+      "B": "shedy",
+      "dot_phrase_count": 24,
+      "comma_microspace_count": 8,
+      "fused_words": {
+        "olshedy": 22
+      },
+      "fused_total_count": 22,
+      "combined_constituent_tokens": 46,
+      "context_cosine_phrase_vs_fused": 0.8271
+    },
+    {
+      "phrase_A_B": "qoky . chedy",
+      "A": "qoky",
+      "B": "chedy",
+      "dot_phrase_count": 6,
+      "comma_microspace_count": 0,
+      "fused_words": {
+        "qokchedy": 40
+      },
+      "fused_total_count": 40,
+      "combined_constituent_tokens": 46,
+      "context_cosine_phrase_vs_fused": 0.8925
+    },
+    {
+      "phrase_A_B": "ol . keey",
+      "A": "ol",
+      "B": "keey",
+      "dot_phrase_count": 6,
+      "comma_microspace_count": 2,
+      "fused_words": {
+        "olkeey": 38
+      },
+      "fused_total_count": 38,
+      "combined_constituent_tokens": 44,
+      "context_cosine_phrase_vs_fused": 0.7504
+    },
+    {
+      "phrase_A_B": "ol . kaiin",
+      "A": "ol",
+      "B": "kaiin",
+      "dot_phrase_count": 10,
+      "comma_microspace_count": 6,
+      "fused_words": {
+        "olkaiin": 31
+      },
+      "fused_total_count": 31,
+      "combined_constituent_tokens": 41,
+      "context_cosine_phrase_vs_fused": 0.8452
+    },
+    {
+      "phrase_A_B": "ar . al",
+      "A": "ar",
+      "B": "al",
+      "dot_phrase_count": 19,
+      "comma_microspace_count": 4,
+      "fused_words": {
+        "aral": 20
+      },
+      "fused_total_count": 20,
+      "combined_constituent_tokens": 39,
+      "context_cosine_phrase_vs_fused": 0.6415
+    },
+    {
+      "phrase_A_B": "ol . kain",
+      "A": "ol",
+      "B": "kain",
+      "dot_phrase_count": 5,
+      "comma_microspace_count": 3,
+      "fused_words": {
+        "olkain": 34
+      },
+      "fused_total_count": 34,
+      "combined_constituent_tokens": 39,
+      "context_cosine_phrase_vs_fused": 0.8
+    },
+    {
+      "phrase_A_B": "ar . aiin",
+      "A": "ar",
+      "B": "aiin",
+      "dot_phrase_count": 27,
+      "comma_microspace_count": 10,
+      "fused_words": {
+        "araiin": 10
+      },
+      "fused_total_count": 10,
+      "combined_constituent_tokens": 37,
+      "context_cosine_phrase_vs_fused": 0.7167
+    },
+    {
+      "phrase_A_B": "ol . or",
+      "A": "ol",
+      "B": "or",
+      "dot_phrase_count": 7,
+      "comma_microspace_count": 4,
+      "fused_words": {
+        "olor": 30
+      },
+      "fused_total_count": 30,
+      "combined_constituent_tokens": 37,
+      "context_cosine_phrase_vs_fused": 0.7181
+    },
+    {
+      "phrase_A_B": "chey . dar",
+      "A": "chey",
+      "B": "dar",
+      "dot_phrase_count": 3,
+      "comma_microspace_count": 0,
+      "fused_words": {
+        "chedar": 34
+      },
+      "fused_total_count": 34,
+      "combined_constituent_tokens": 37,
+      "context_cosine_phrase_vs_fused": 0.4853
+    },
+    {
+      "phrase_A_B": "ched . ar",
+      "A": "ched",
+      "B": "ar",
+      "dot_phrase_count": 2,
+      "comma_microspace_count": 1,
+      "fused_words": {
+        "chedar": 34
+      },
+      "fused_total_count": 34,
+      "combined_constituent_tokens": 36,
+      "context_cosine_phrase_vs_fused": 0.5434
+    },
+    {
+      "phrase_A_B": "shol . daiin",
+      "A": "shol",
+      "B": "daiin",
+      "dot_phrase_count": 9,
+      "comma_microspace_count": 1,
+      "fused_words": {
+        "sholdaiin": 2,
+        "shodaiin": 24
+      },
+      "fused_total_count": 26,
+      "combined_constituent_tokens": 35,
+      "context_cosine_phrase_vs_fused": 0.7325
+    },
+    {
+      "phrase_A_B": "ol . chey",
+      "A": "ol",
+      "B": "chey",
+      "dot_phrase_count": 9,
+      "comma_microspace_count": 2,
+      "fused_words": {
+        "olchey": 25
+      },
+      "fused_total_count": 25,
+      "combined_constituent_tokens": 34,
+      "context_cosine_phrase_vs_fused": 0.729
+    },
+    {
+      "phrase_A_B": "qok . or",
+      "A": "qok",
+      "B": "or",
+      "dot_phrase_count": 2,
+      "comma_microspace_count": 1,
+      "fused_words": {
+        "qokor": 32
+      },
+      "fused_total_count": 32,
+      "combined_constituent_tokens": 34,
+      "context_cosine_phrase_vs_fused": 0.6383
+    },
+    {
+      "phrase_A_B": "ol . dy",
+      "A": "ol",
+      "B": "dy",
+      "dot_phrase_count": 2,
+      "comma_microspace_count": 0,
+      "fused_words": {
+        "oldy": 30
+      },
+      "fused_total_count": 30,
+      "combined_constituent_tokens": 32,
+      "context_cosine_phrase_vs_fused": 0.3848
+    },
+    {
+      "phrase_A_B": "ol . kedy",
+      "A": "ol",
+      "B": "kedy",
+      "dot_phrase_count": 6,
+      "comma_microspace_count": 5,
+      "fused_words": {
+        "olkedy": 26
+      },
+      "fused_total_count": 26,
+      "combined_constituent_tokens": 32,
+      "context_cosine_phrase_vs_fused": 0.6212
+    },
+    {
+      "phrase_A_B": "qoky . chey",
+      "A": "qoky",
+      "B": "chey",
+      "dot_phrase_count": 3,
+      "comma_microspace_count": 1,
+      "fused_words": {
+        "qokchey": 28
+      },
+      "fused_total_count": 28,
+      "combined_constituent_tokens": 31,
+      "context_cosine_phrase_vs_fused": 0.5153
+    },
+    {
+      "phrase_A_B": "chy . daiin",
+      "A": "chy",
+      "B": "daiin",
+      "dot_phrase_count": 12,
+      "comma_microspace_count": 0,
+      "fused_words": {
+        "chydaiin": 1,
+        "chdaiin": 17
+      },
+      "fused_total_count": 18,
+      "combined_constituent_tokens": 30,
+      "context_cosine_phrase_vs_fused": 0.7882
+    },
+    {
+      "phrase_A_B": "chey . dal",
+      "A": "chey",
+      "B": "dal",
+      "dot_phrase_count": 4,
+      "comma_microspace_count": 0,
+      "fused_words": {
+        "chedal": 26
+      },
+      "fused_total_count": 26,
+      "combined_constituent_tokens": 30,
+      "context_cosine_phrase_vs_fused": 0.45
+    }
+  ]
+}

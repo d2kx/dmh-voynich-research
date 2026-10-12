@@ -1,0 +1,112 @@
+{
+  "summary": {
+    "total_lines": 5376,
+    "total_words": 36229,
+    "total_constituents": 29461,
+    "multiword_constituents": 5654,
+    "univerbated_multiword_hits": 405,
+    "univerbated_multiword_share": 0.0716
+  },
+  "top_clause_skeletons": [
+    {
+      "skeleton": "NP_MEAS",
+      "count": 693
+    },
+    {
+      "skeleton": "TOP_HEAD",
+      "count": 129
+    },
+    {
+      "skeleton": "PP_PREP",
+      "count": 125
+    },
+    {
+      "skeleton": "NP_MEAS -> NP_MEAS",
+      "count": 96
+    },
+    {
+      "skeleton": "NP_MEAS -> NP_MEAS -> NP_MEAS",
+      "count": 55
+    },
+    {
+      "skeleton": "VP_PROC",
+      "count": 47
+    },
+    {
+      "skeleton": "FIN_CLOSE",
+      "count": 46
+    },
+    {
+      "skeleton": "NP_MEAS -> VP_PROC -> NP_MEAS",
+      "count": 39
+    },
+    {
+      "skeleton": "NP_MEAS -> VP_PROC",
+      "count": 33
+    },
+    {
+      "skeleton": "NP_MEAS -> VP_PROC -> NP_MEAS -> VP_PROC",
+      "count": 30
+    },
+    {
+      "skeleton": "VP_PROC -> NP_MEAS -> NP_MEAS",
+      "count": 30
+    },
+    {
+      "skeleton": "NP_MEAS -> NP_MEAS -> VP_PROC -> NP_MEAS",
+      "count": 28
+    },
+    {
+      "skeleton": "NP_MEAS -> VP_PROC -> NP_MEAS -> NP_MEAS",
+      "count": 26
+    },
+    {
+      "skeleton": "NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS",
+      "count": 25
+    },
+    {
+      "skeleton": "NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS",
+      "count": 24
+    },
+    {
+      "skeleton": "PP_PREP -> NP_MEAS",
+      "count": 23
+    },
+    {
+      "skeleton": "NP_MEAS -> PP_PREP",
+      "count": 21
+    },
+    {
+      "skeleton": "PP_PREP -> VP_PROC -> NP_MEAS",
+      "count": 20
+    },
+    {
+      "skeleton": "VP_PROC -> NP_MEAS",
+      "count": 19
+    },
+    {
+      "skeleton": "VP_PROC -> NP_MEAS -> NP_MEAS -> NP_MEAS",
+      "count": 18
+    },
+    {
+      "skeleton": "NP_MEAS -> VP_PROC -> NP_MEAS -> NP_MEAS -> NP_MEAS",
+      "count": 18
+    },
+    {
+      "skeleton": "NP_MEAS -> VP_PROC -> NP_MEAS -> NP_MEAS -> VP_PROC",
+      "count": 17
+    },
+    {
+      "skeleton": "NP_MEAS -> VP_PROC -> NP_MEAS -> VP_PROC -> NP_MEAS",
+      "count": 17
+    },
+    {
+      "skeleton": "NP_MEAS -> NP_MEAS -> VP_PROC",
+      "count": 15
+    },
+    {
+      "skeleton": "NP_MEAS -> NP_MEAS -> NP_MEAS -> VP_PROC -> NP_MEAS",
+      "count": 15
+    }
+  ]
+}

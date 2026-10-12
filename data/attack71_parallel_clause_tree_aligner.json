@@ -1,0 +1,2090 @@
+{
+  "summary": {
+    "lines_A": 1557,
+    "lines_B": 2467,
+    "constituent_dist_A": {
+      "TOP_HEAD": 0.0263,
+      "NP_MEAS": 0.5035,
+      "VP_PROC": 0.315,
+      "PP_PREP": 0.136,
+      "FIN_CLOSE": 0.0192
+    },
+    "constituent_dist_B": {
+      "TOP_HEAD": 0.0258,
+      "NP_MEAS": 0.3845,
+      "PP_PREP": 0.084,
+      "VP_PROC": 0.4777,
+      "FIN_CLOSE": 0.028
+    },
+    "constituent_bigram_cosine_AB": 0.8873,
+    "mean_top1_word_align_cosine": 0.9784,
+    "mean_heteronym_word_align_cosine": 0.9686,
+    "null_word_align_cosine_mean": 0.3416,
+    "null_word_align_cosine_sd": 0.0839,
+    "word_align_z": 7.59
+  },
+  "a_to_b_lexicon_bridge": [
+    {
+      "word_A": "daiin",
+      "count_A": 499,
+      "count_B_same": 305,
+      "best_B_overall": "okaiin",
+      "best_B_overall_cos": 0.9749,
+      "best_B_heteronym": "okaiin",
+      "best_B_heteronym_count": 168,
+      "best_B_heteronym_cos": 0.9749,
+      "top3_B": [
+        {
+          "word_B": "okaiin",
+          "cos": 0.9749,
+          "count_B": 168
+        },
+        {
+          "word_B": "olkain",
+          "cos": 0.9746,
+          "count_B": 34
+        },
+        {
+          "word_B": "okain",
+          "cos": 0.973,
+          "count_B": 128
+        }
+      ]
+    },
+    {
+      "word_A": "chol",
+      "count_A": 276,
+      "count_B_same": 100,
+      "best_B_overall": "chol",
+      "best_B_overall_cos": 0.9818,
+      "best_B_heteronym": "ol",
+      "best_B_heteronym_count": 422,
+      "best_B_heteronym_cos": 0.9816,
+      "top3_B": [
+        {
+          "word_B": "chol",
+          "cos": 0.9818,
+          "count_B": 100
+        },
+        {
+          "word_B": "ol",
+          "cos": 0.9816,
+          "count_B": 422
+        },
+        {
+          "word_B": "cheol",
+          "cos": 0.9755,
+          "count_B": 98
+        }
+      ]
+    },
+    {
+      "word_A": "s",
+      "count_A": 203,
+      "count_B_same": 104,
+      "best_B_overall": "s",
+      "best_B_overall_cos": 0.9772,
+      "best_B_heteronym": "dal",
+      "best_B_heteronym_count": 128,
+      "best_B_heteronym_cos": 0.889,
+      "top3_B": [
+        {
+          "word_B": "s",
+          "cos": 0.9772,
+          "count_B": 104
+        },
+        {
+          "word_B": "dal",
+          "cos": 0.889,
+          "count_B": 128
+        },
+        {
+          "word_B": "dar",
+          "cos": 0.8879,
+          "count_B": 184
+        }
+      ]
+    },
+    {
+      "word_A": "chor",
+      "count_A": 177,
+      "count_B_same": 27,
+      "best_B_overall": "otar",
+      "best_B_overall_cos": 0.9855,
+      "best_B_heteronym": "otar",
+      "best_B_heteronym_count": 115,
+      "best_B_heteronym_cos": 0.9855,
+      "top3_B": [
+        {
+          "word_B": "otar",
+          "cos": 0.9855,
+          "count_B": 115
+        },
+        {
+          "word_B": "kar",
+          "cos": 0.9849,
+          "count_B": 50
+        },
+        {
+          "word_B": "char",
+          "cos": 0.9846,
+          "count_B": 43
+        }
+      ]
+    },
+    {
+      "word_A": "dy",
+      "count_A": 125,
+      "count_B_same": 115,
+      "best_B_overall": "dy",
+      "best_B_overall_cos": 0.9759,
+      "best_B_heteronym": "dal",
+      "best_B_heteronym_count": 128,
+      "best_B_heteronym_cos": 0.8768,
+      "top3_B": [
+        {
+          "word_B": "dy",
+          "cos": 0.9759,
+          "count_B": 115
+        },
+        {
+          "word_B": "dal",
+          "cos": 0.8768,
+          "count_B": 128
+        },
+        {
+          "word_B": "dam",
+          "cos": 0.8575,
+          "count_B": 37
+        }
+      ]
+    },
+    {
+      "word_A": "chy",
+      "count_A": 118,
+      "count_B_same": 49,
+      "best_B_overall": "chy",
+      "best_B_overall_cos": 0.9912,
+      "best_B_heteronym": "cheey",
+      "best_B_heteronym_count": 133,
+      "best_B_heteronym_cos": 0.9859,
+      "top3_B": [
+        {
+          "word_B": "chy",
+          "cos": 0.9912,
+          "count_B": 49
+        },
+        {
+          "word_B": "cheey",
+          "cos": 0.9859,
+          "count_B": 133
+        },
+        {
+          "word_B": "shy",
+          "cos": 0.9853,
+          "count_B": 37
+        }
+      ]
+    },
+    {
+      "word_A": "shol",
+      "count_A": 117,
+      "count_B_same": 57,
+      "best_B_overall": "chol",
+      "best_B_overall_cos": 0.9815,
+      "best_B_heteronym": "chol",
+      "best_B_heteronym_count": 100,
+      "best_B_heteronym_cos": 0.9815,
+      "top3_B": [
+        {
+          "word_B": "chol",
+          "cos": 0.9815,
+          "count_B": 100
+        },
+        {
+          "word_B": "ol",
+          "cos": 0.9815,
+          "count_B": 422
+        },
+        {
+          "word_B": "cheol",
+          "cos": 0.9772,
+          "count_B": 98
+        }
+      ]
+    },
+    {
+      "word_A": "ol",
+      "count_A": 109,
+      "count_B_same": 422,
+      "best_B_overall": "ol",
+      "best_B_overall_cos": 0.9812,
+      "best_B_heteronym": "al",
+      "best_B_heteronym_count": 187,
+      "best_B_heteronym_cos": 0.9787,
+      "top3_B": [
+        {
+          "word_B": "ol",
+          "cos": 0.9812,
+          "count_B": 422
+        },
+        {
+          "word_B": "al",
+          "cos": 0.9787,
+          "count_B": 187
+        },
+        {
+          "word_B": "chol",
+          "cos": 0.9738,
+          "count_B": 100
+        }
+      ]
+    },
+    {
+      "word_A": "y",
+      "count_A": 107,
+      "count_B_same": 171,
+      "best_B_overall": "y",
+      "best_B_overall_cos": 0.9741,
+      "best_B_heteronym": "dar",
+      "best_B_heteronym_count": 184,
+      "best_B_heteronym_cos": 0.878,
+      "top3_B": [
+        {
+          "word_B": "y",
+          "cos": 0.9741,
+          "count_B": 171
+        },
+        {
+          "word_B": "dar",
+          "cos": 0.878,
+          "count_B": 184
+        },
+        {
+          "word_B": "dal",
+          "cos": 0.8744,
+          "count_B": 128
+        }
+      ]
+    },
+    {
+      "word_A": "or",
+      "count_A": 106,
+      "count_B_same": 259,
+      "best_B_overall": "or",
+      "best_B_overall_cos": 0.9797,
+      "best_B_heteronym": "ar",
+      "best_B_heteronym_count": 265,
+      "best_B_heteronym_cos": 0.9796,
+      "top3_B": [
+        {
+          "word_B": "or",
+          "cos": 0.9797,
+          "count_B": 259
+        },
+        {
+          "word_B": "ar",
+          "cos": 0.9796,
+          "count_B": 265
+        },
+        {
+          "word_B": "char",
+          "cos": 0.971,
+          "count_B": 43
+        }
+      ]
+    },
+    {
+      "word_A": "sho",
+      "count_A": 103,
+      "count_B_same": 14,
+      "best_B_overall": "o",
+      "best_B_overall_cos": 0.9767,
+      "best_B_heteronym": "o",
+      "best_B_heteronym_count": 77,
+      "best_B_heteronym_cos": 0.9767,
+      "top3_B": [
+        {
+          "word_B": "o",
+          "cos": 0.9767,
+          "count_B": 77
+        },
+        {
+          "word_B": "cheo",
+          "cos": 0.9627,
+          "count_B": 42
+        },
+        {
+          "word_B": "dain",
+          "cos": 0.9005,
+          "count_B": 111
+        }
+      ]
+    },
+    {
+      "word_A": "dain",
+      "count_A": 99,
+      "count_B_same": 111,
+      "best_B_overall": "ykaiin",
+      "best_B_overall_cos": 0.97,
+      "best_B_heteronym": "ykaiin",
+      "best_B_heteronym_count": 35,
+      "best_B_heteronym_cos": 0.97,
+      "top3_B": [
+        {
+          "word_B": "ykaiin",
+          "cos": 0.97,
+          "count_B": 35
+        },
+        {
+          "word_B": "okaiin",
+          "cos": 0.9673,
+          "count_B": 168
+        },
+        {
+          "word_B": "olkain",
+          "cos": 0.9672,
+          "count_B": 34
+        }
+      ]
+    },
+    {
+      "word_A": "dar",
+      "count_A": 98,
+      "count_B_same": 184,
+      "best_B_overall": "dar",
+      "best_B_overall_cos": 0.9615,
+      "best_B_heteronym": "sar",
+      "best_B_heteronym_count": 51,
+      "best_B_heteronym_cos": 0.8988,
+      "top3_B": [
+        {
+          "word_B": "dar",
+          "cos": 0.9615,
+          "count_B": 184
+        },
+        {
+          "word_B": "sar",
+          "cos": 0.8988,
+          "count_B": 51
+        },
+        {
+          "word_B": "dal",
+          "cos": 0.883,
+          "count_B": 128
+        }
+      ]
+    },
+    {
+      "word_A": "cthy",
+      "count_A": 93,
+      "count_B_same": 6,
+      "best_B_overall": "oky",
+      "best_B_overall_cos": 0.9829,
+      "best_B_heteronym": "oky",
+      "best_B_heteronym_count": 51,
+      "best_B_heteronym_cos": 0.9829,
+      "top3_B": [
+        {
+          "word_B": "oky",
+          "cos": 0.9829,
+          "count_B": 51
+        },
+        {
+          "word_B": "chy",
+          "cos": 0.9766,
+          "count_B": 49
+        },
+        {
+          "word_B": "oty",
+          "cos": 0.9738,
+          "count_B": 59
+        }
+      ]
+    },
+    {
+      "word_A": "chey",
+      "count_A": 89,
+      "count_B_same": 247,
+      "best_B_overall": "chy",
+      "best_B_overall_cos": 0.9899,
+      "best_B_heteronym": "chy",
+      "best_B_heteronym_count": 49,
+      "best_B_heteronym_cos": 0.9899,
+      "top3_B": [
+        {
+          "word_B": "chy",
+          "cos": 0.9899,
+          "count_B": 49
+        },
+        {
+          "word_B": "cheey",
+          "cos": 0.989,
+          "count_B": 133
+        },
+        {
+          "word_B": "chey",
+          "cos": 0.9872,
+          "count_B": 247
+        }
+      ]
+    },
+    {
+      "word_A": "aiin",
+      "count_A": 86,
+      "count_B_same": 368,
+      "best_B_overall": "ain",
+      "best_B_overall_cos": 0.9768,
+      "best_B_heteronym": "ain",
+      "best_B_heteronym_count": 97,
+      "best_B_heteronym_cos": 0.9768,
+      "top3_B": [
+        {
+          "word_B": "ain",
+          "cos": 0.9768,
+          "count_B": 97
+        },
+        {
+          "word_B": "aiin",
+          "cos": 0.9724,
+          "count_B": 368
+        },
+        {
+          "word_B": "kaiin",
+          "cos": 0.9567,
+          "count_B": 59
+        }
+      ]
+    },
+    {
+      "word_A": "dal",
+      "count_A": 80,
+      "count_B_same": 128,
+      "best_B_overall": "dal",
+      "best_B_overall_cos": 0.9765,
+      "best_B_heteronym": "qol",
+      "best_B_heteronym_count": 136,
+      "best_B_heteronym_cos": 0.9138,
+      "top3_B": [
+        {
+          "word_B": "dal",
+          "cos": 0.9765,
+          "count_B": 128
+        },
+        {
+          "word_B": "qol",
+          "cos": 0.9138,
+          "count_B": 136
+        },
+        {
+          "word_B": "dol",
+          "cos": 0.8978,
+          "count_B": 43
+        }
+      ]
+    },
+    {
+      "word_A": "o",
+      "count_A": 72,
+      "count_B_same": 77,
+      "best_B_overall": "o",
+      "best_B_overall_cos": 0.9881,
+      "best_B_heteronym": "cheo",
+      "best_B_heteronym_count": 42,
+      "best_B_heteronym_cos": 0.9875,
+      "top3_B": [
+        {
+          "word_B": "o",
+          "cos": 0.9881,
+          "count_B": 77
+        },
+        {
+          "word_B": "cheo",
+          "cos": 0.9875,
+          "count_B": 42
+        },
+        {
+          "word_B": "or",
+          "cos": 0.9058,
+          "count_B": 259
+        }
+      ]
+    },
+    {
+      "word_A": "shor",
+      "count_A": 69,
+      "count_B_same": 26,
+      "best_B_overall": "char",
+      "best_B_overall_cos": 0.9712,
+      "best_B_heteronym": "char",
+      "best_B_heteronym_count": 43,
+      "best_B_heteronym_cos": 0.9712,
+      "top3_B": [
+        {
+          "word_B": "char",
+          "cos": 0.9712,
+          "count_B": 43
+        },
+        {
+          "word_B": "or",
+          "cos": 0.9699,
+          "count_B": 259
+        },
+        {
+          "word_B": "kar",
+          "cos": 0.9671,
+          "count_B": 50
+        }
+      ]
+    },
+    {
+      "word_A": "cheol",
+      "count_A": 66,
+      "count_B_same": 98,
+      "best_B_overall": "al",
+      "best_B_overall_cos": 0.9866,
+      "best_B_heteronym": "al",
+      "best_B_heteronym_count": 187,
+      "best_B_heteronym_cos": 0.9866,
+      "top3_B": [
+        {
+          "word_B": "al",
+          "cos": 0.9866,
+          "count_B": 187
+        },
+        {
+          "word_B": "ol",
+          "cos": 0.984,
+          "count_B": 422
+        },
+        {
+          "word_B": "chol",
+          "cos": 0.976,
+          "count_B": 100
+        }
+      ]
+    },
+    {
+      "word_A": "shy",
+      "count_A": 64,
+      "count_B_same": 37,
+      "best_B_overall": "chy",
+      "best_B_overall_cos": 0.9898,
+      "best_B_heteronym": "chy",
+      "best_B_heteronym_count": 49,
+      "best_B_heteronym_cos": 0.9898,
+      "top3_B": [
+        {
+          "word_B": "chy",
+          "cos": 0.9898,
+          "count_B": 49
+        },
+        {
+          "word_B": "chey",
+          "cos": 0.9833,
+          "count_B": 247
+        },
+        {
+          "word_B": "shy",
+          "cos": 0.9824,
+          "count_B": 37
+        }
+      ]
+    },
+    {
+      "word_A": "dol",
+      "count_A": 62,
+      "count_B_same": 43,
+      "best_B_overall": "dal",
+      "best_B_overall_cos": 0.967,
+      "best_B_heteronym": "dal",
+      "best_B_heteronym_count": 128,
+      "best_B_heteronym_cos": 0.967,
+      "top3_B": [
+        {
+          "word_B": "dal",
+          "cos": 0.967,
+          "count_B": 128
+        },
+        {
+          "word_B": "qol",
+          "cos": 0.9189,
+          "count_B": 136
+        },
+        {
+          "word_B": "dol",
+          "cos": 0.9129,
+          "count_B": 43
+        }
+      ]
+    },
+    {
+      "word_A": "cho",
+      "count_A": 60,
+      "count_B_same": 16,
+      "best_B_overall": "cheo",
+      "best_B_overall_cos": 0.9775,
+      "best_B_heteronym": "cheo",
+      "best_B_heteronym_count": 42,
+      "best_B_heteronym_cos": 0.9775,
+      "top3_B": [
+        {
+          "word_B": "cheo",
+          "cos": 0.9775,
+          "count_B": 42
+        },
+        {
+          "word_B": "o",
+          "cos": 0.9737,
+          "count_B": 77
+        },
+        {
+          "word_B": "chedar",
+          "cos": 0.9148,
+          "count_B": 32
+        }
+      ]
+    },
+    {
+      "word_A": "shey",
+      "count_A": 59,
+      "count_B_same": 202,
+      "best_B_overall": "chey",
+      "best_B_overall_cos": 0.9905,
+      "best_B_heteronym": "chey",
+      "best_B_heteronym_count": 247,
+      "best_B_heteronym_cos": 0.9905,
+      "top3_B": [
+        {
+          "word_B": "chey",
+          "cos": 0.9905,
+          "count_B": 247
+        },
+        {
+          "word_B": "cheey",
+          "cos": 0.9883,
+          "count_B": 133
+        },
+        {
+          "word_B": "shey",
+          "cos": 0.9867,
+          "count_B": 202
+        }
+      ]
+    },
+    {
+      "word_A": "ar",
+      "count_A": 55,
+      "count_B_same": 265,
+      "best_B_overall": "ar",
+      "best_B_overall_cos": 0.9867,
+      "best_B_heteronym": "air",
+      "best_B_heteronym_count": 51,
+      "best_B_heteronym_cos": 0.9782,
+      "top3_B": [
+        {
+          "word_B": "ar",
+          "cos": 0.9867,
+          "count_B": 265
+        },
+        {
+          "word_B": "air",
+          "cos": 0.9782,
+          "count_B": 51
+        },
+        {
+          "word_B": "otar",
+          "cos": 0.9753,
+          "count_B": 115
+        }
+      ]
+    },
+    {
+      "word_A": "r",
+      "count_A": 54,
+      "count_B_same": 83,
+      "best_B_overall": "ar",
+      "best_B_overall_cos": 0.9725,
+      "best_B_heteronym": "ar",
+      "best_B_heteronym_count": 265,
+      "best_B_heteronym_cos": 0.9725,
+      "top3_B": [
+        {
+          "word_B": "ar",
+          "cos": 0.9725,
+          "count_B": 265
+        },
+        {
+          "word_B": "r",
+          "cos": 0.9649,
+          "count_B": 83
+        },
+        {
+          "word_B": "or",
+          "cos": 0.9641,
+          "count_B": 259
+        }
+      ]
+    },
+    {
+      "word_A": "cthol",
+      "count_A": 52,
+      "count_B_same": 3,
+      "best_B_overall": "al",
+      "best_B_overall_cos": 0.9712,
+      "best_B_heteronym": "al",
+      "best_B_heteronym_count": 187,
+      "best_B_heteronym_cos": 0.9712,
+      "top3_B": [
+        {
+          "word_B": "al",
+          "cos": 0.9712,
+          "count_B": 187
+        },
+        {
+          "word_B": "ol",
+          "cos": 0.9605,
+          "count_B": 422
+        },
+        {
+          "word_B": "okal",
+          "cos": 0.9571,
+          "count_B": 96
+        }
+      ]
+    },
+    {
+      "word_A": "cheor",
+      "count_A": 50,
+      "count_B_same": 30,
+      "best_B_overall": "chedar",
+      "best_B_overall_cos": 0.9887,
+      "best_B_heteronym": "chedar",
+      "best_B_heteronym_count": 32,
+      "best_B_heteronym_cos": 0.9887,
+      "top3_B": [
+        {
+          "word_B": "chedar",
+          "cos": 0.9887,
+          "count_B": 32
+        },
+        {
+          "word_B": "otar",
+          "cos": 0.9829,
+          "count_B": 115
+        },
+        {
+          "word_B": "kar",
+          "cos": 0.9823,
+          "count_B": 50
+        }
+      ]
+    },
+    {
+      "word_A": "qotchy",
+      "count_A": 49,
+      "count_B_same": 13,
+      "best_B_overall": "olkeey",
+      "best_B_overall_cos": 0.9721,
+      "best_B_heteronym": "olkeey",
+      "best_B_heteronym_count": 36,
+      "best_B_heteronym_cos": 0.9721,
+      "top3_B": [
+        {
+          "word_B": "olkeey",
+          "cos": 0.9721,
+          "count_B": 36
+        },
+        {
+          "word_B": "oteey",
+          "cos": 0.9595,
+          "count_B": 93
+        },
+        {
+          "word_B": "qokeey",
+          "cos": 0.9571,
+          "count_B": 262
+        }
+      ]
+    },
+    {
+      "word_A": "dair",
+      "count_A": 46,
+      "count_B_same": 45,
+      "best_B_overall": "or",
+      "best_B_overall_cos": 0.9806,
+      "best_B_heteronym": "or",
+      "best_B_heteronym_count": 259,
+      "best_B_heteronym_cos": 0.9806,
+      "top3_B": [
+        {
+          "word_B": "or",
+          "cos": 0.9806,
+          "count_B": 259
+        },
+        {
+          "word_B": "kar",
+          "cos": 0.9805,
+          "count_B": 50
+        },
+        {
+          "word_B": "char",
+          "cos": 0.9772,
+          "count_B": 43
+        }
+      ]
+    },
+    {
+      "word_A": "qokol",
+      "count_A": 46,
+      "count_B_same": 49,
+      "best_B_overall": "qokal",
+      "best_B_overall_cos": 0.9527,
+      "best_B_heteronym": "qokal",
+      "best_B_heteronym_count": 170,
+      "best_B_heteronym_cos": 0.9527,
+      "top3_B": [
+        {
+          "word_B": "qokal",
+          "cos": 0.9527,
+          "count_B": 170
+        },
+        {
+          "word_B": "qokol",
+          "cos": 0.9519,
+          "count_B": 49
+        },
+        {
+          "word_B": "qotal",
+          "cos": 0.9477,
+          "count_B": 53
+        }
+      ]
+    },
+    {
+      "word_A": "dor",
+      "count_A": 45,
+      "count_B_same": 21,
+      "best_B_overall": "dar",
+      "best_B_overall_cos": 0.9636,
+      "best_B_heteronym": "dar",
+      "best_B_heteronym_count": 184,
+      "best_B_heteronym_cos": 0.9636,
+      "top3_B": [
+        {
+          "word_B": "dar",
+          "cos": 0.9636,
+          "count_B": 184
+        },
+        {
+          "word_B": "sar",
+          "cos": 0.9141,
+          "count_B": 51
+        },
+        {
+          "word_B": "y",
+          "cos": 0.8945,
+          "count_B": 171
+        }
+      ]
+    },
+    {
+      "word_A": "chody",
+      "count_A": 43,
+      "count_B_same": 43,
+      "best_B_overall": "chdy",
+      "best_B_overall_cos": 0.9766,
+      "best_B_heteronym": "chdy",
+      "best_B_heteronym_count": 129,
+      "best_B_heteronym_cos": 0.9766,
+      "top3_B": [
+        {
+          "word_B": "chdy",
+          "cos": 0.9766,
+          "count_B": 129
+        },
+        {
+          "word_B": "cheody",
+          "cos": 0.9737,
+          "count_B": 53
+        },
+        {
+          "word_B": "kedy",
+          "cos": 0.9715,
+          "count_B": 47
+        }
+      ]
+    },
+    {
+      "word_A": "oky",
+      "count_A": 42,
+      "count_B_same": 51,
+      "best_B_overall": "oky",
+      "best_B_overall_cos": 0.9855,
+      "best_B_heteronym": "chy",
+      "best_B_heteronym_count": 49,
+      "best_B_heteronym_cos": 0.9773,
+      "top3_B": [
+        {
+          "word_B": "oky",
+          "cos": 0.9855,
+          "count_B": 51
+        },
+        {
+          "word_B": "chy",
+          "cos": 0.9773,
+          "count_B": 49
+        },
+        {
+          "word_B": "oty",
+          "cos": 0.9726,
+          "count_B": 59
+        }
+      ]
+    },
+    {
+      "word_A": "dam",
+      "count_A": 42,
+      "count_B_same": 37,
+      "best_B_overall": "dam",
+      "best_B_overall_cos": 0.9791,
+      "best_B_heteronym": "dy",
+      "best_B_heteronym_count": 115,
+      "best_B_heteronym_cos": 0.844,
+      "top3_B": [
+        {
+          "word_B": "dam",
+          "cos": 0.9791,
+          "count_B": 37
+        },
+        {
+          "word_B": "dy",
+          "cos": 0.844,
+          "count_B": 115
+        },
+        {
+          "word_B": "dal",
+          "cos": 0.8082,
+          "count_B": 128
+        }
+      ]
+    },
+    {
+      "word_A": "sheey",
+      "count_A": 42,
+      "count_B_same": 98,
+      "best_B_overall": "cheey",
+      "best_B_overall_cos": 0.982,
+      "best_B_heteronym": "cheey",
+      "best_B_heteronym_count": 133,
+      "best_B_heteronym_cos": 0.982,
+      "top3_B": [
+        {
+          "word_B": "cheey",
+          "cos": 0.982,
+          "count_B": 133
+        },
+        {
+          "word_B": "shey",
+          "cos": 0.9813,
+          "count_B": 202
+        },
+        {
+          "word_B": "chey",
+          "cos": 0.9812,
+          "count_B": 247
+        }
+      ]
+    },
+    {
+      "word_A": "oty",
+      "count_A": 42,
+      "count_B_same": 59,
+      "best_B_overall": "oky",
+      "best_B_overall_cos": 0.9846,
+      "best_B_heteronym": "oky",
+      "best_B_heteronym_count": 51,
+      "best_B_heteronym_cos": 0.9846,
+      "top3_B": [
+        {
+          "word_B": "oky",
+          "cos": 0.9846,
+          "count_B": 51
+        },
+        {
+          "word_B": "oty",
+          "cos": 0.976,
+          "count_B": 59
+        },
+        {
+          "word_B": "chy",
+          "cos": 0.9757,
+          "count_B": 49
+        }
+      ]
+    },
+    {
+      "word_A": "d",
+      "count_A": 40,
+      "count_B_same": 9,
+      "best_B_overall": "s",
+      "best_B_overall_cos": 0.9472,
+      "best_B_heteronym": "s",
+      "best_B_heteronym_count": 104,
+      "best_B_heteronym_cos": 0.9472,
+      "top3_B": [
+        {
+          "word_B": "s",
+          "cos": 0.9472,
+          "count_B": 104
+        },
+        {
+          "word_B": "dal",
+          "cos": 0.863,
+          "count_B": 128
+        },
+        {
+          "word_B": "dy",
+          "cos": 0.8535,
+          "count_B": 115
+        }
+      ]
+    },
+    {
+      "word_A": "okol",
+      "count_A": 40,
+      "count_B_same": 20,
+      "best_B_overall": "ol",
+      "best_B_overall_cos": 0.9864,
+      "best_B_heteronym": "ol",
+      "best_B_heteronym_count": 422,
+      "best_B_heteronym_cos": 0.9864,
+      "top3_B": [
+        {
+          "word_B": "ol",
+          "cos": 0.9864,
+          "count_B": 422
+        },
+        {
+          "word_B": "chol",
+          "cos": 0.9856,
+          "count_B": 100
+        },
+        {
+          "word_B": "otal",
+          "cos": 0.9819,
+          "count_B": 102
+        }
+      ]
+    },
+    {
+      "word_A": "cthor",
+      "count_A": 40,
+      "count_B_same": 2,
+      "best_B_overall": "ar",
+      "best_B_overall_cos": 0.9803,
+      "best_B_heteronym": "ar",
+      "best_B_heteronym_count": 265,
+      "best_B_heteronym_cos": 0.9803,
+      "top3_B": [
+        {
+          "word_B": "ar",
+          "cos": 0.9803,
+          "count_B": 265
+        },
+        {
+          "word_B": "char",
+          "cos": 0.976,
+          "count_B": 43
+        },
+        {
+          "word_B": "otar",
+          "cos": 0.9721,
+          "count_B": 115
+        }
+      ]
+    },
+    {
+      "word_A": "qokeey",
+      "count_A": 40,
+      "count_B_same": 262,
+      "best_B_overall": "oteey",
+      "best_B_overall_cos": 0.9849,
+      "best_B_heteronym": "oteey",
+      "best_B_heteronym_count": 93,
+      "best_B_heteronym_cos": 0.9849,
+      "top3_B": [
+        {
+          "word_B": "oteey",
+          "cos": 0.9849,
+          "count_B": 93
+        },
+        {
+          "word_B": "cheky",
+          "cos": 0.9787,
+          "count_B": 45
+        },
+        {
+          "word_B": "chckhy",
+          "cos": 0.978,
+          "count_B": 119
+        }
+      ]
+    },
+    {
+      "word_A": "qokchy",
+      "count_A": 40,
+      "count_B_same": 26,
+      "best_B_overall": "olkeey",
+      "best_B_overall_cos": 0.9764,
+      "best_B_heteronym": "olkeey",
+      "best_B_heteronym_count": 36,
+      "best_B_heteronym_cos": 0.9764,
+      "top3_B": [
+        {
+          "word_B": "olkeey",
+          "cos": 0.9764,
+          "count_B": 36
+        },
+        {
+          "word_B": "oteey",
+          "cos": 0.9667,
+          "count_B": 93
+        },
+        {
+          "word_B": "qokeey",
+          "cos": 0.9644,
+          "count_B": 262
+        }
+      ]
+    },
+    {
+      "word_A": "sheol",
+      "count_A": 39,
+      "count_B_same": 64,
+      "best_B_overall": "al",
+      "best_B_overall_cos": 0.9848,
+      "best_B_heteronym": "al",
+      "best_B_heteronym_count": 187,
+      "best_B_heteronym_cos": 0.9848,
+      "top3_B": [
+        {
+          "word_B": "al",
+          "cos": 0.9848,
+          "count_B": 187
+        },
+        {
+          "word_B": "ol",
+          "cos": 0.9791,
+          "count_B": 422
+        },
+        {
+          "word_B": "shol",
+          "cos": 0.9746,
+          "count_B": 57
+        }
+      ]
+    },
+    {
+      "word_A": "cheey",
+      "count_A": 39,
+      "count_B_same": 133,
+      "best_B_overall": "cheey",
+      "best_B_overall_cos": 0.9898,
+      "best_B_heteronym": "sheey",
+      "best_B_heteronym_count": 98,
+      "best_B_heteronym_cos": 0.988,
+      "top3_B": [
+        {
+          "word_B": "cheey",
+          "cos": 0.9898,
+          "count_B": 133
+        },
+        {
+          "word_B": "sheey",
+          "cos": 0.988,
+          "count_B": 98
+        },
+        {
+          "word_B": "shy",
+          "cos": 0.9869,
+          "count_B": 37
+        }
+      ]
+    },
+    {
+      "word_A": "otol",
+      "count_A": 38,
+      "count_B_same": 26,
+      "best_B_overall": "ol",
+      "best_B_overall_cos": 0.9724,
+      "best_B_heteronym": "ol",
+      "best_B_heteronym_count": 422,
+      "best_B_heteronym_cos": 0.9724,
+      "top3_B": [
+        {
+          "word_B": "ol",
+          "cos": 0.9724,
+          "count_B": 422
+        },
+        {
+          "word_B": "chol",
+          "cos": 0.9714,
+          "count_B": 100
+        },
+        {
+          "word_B": "cheol",
+          "cos": 0.9622,
+          "count_B": 98
+        }
+      ]
+    },
+    {
+      "word_A": "chaiin",
+      "count_A": 38,
+      "count_B_same": 10,
+      "best_B_overall": "okaiin",
+      "best_B_overall_cos": 0.9754,
+      "best_B_heteronym": "okaiin",
+      "best_B_heteronym_count": 168,
+      "best_B_heteronym_cos": 0.9754,
+      "top3_B": [
+        {
+          "word_B": "okaiin",
+          "cos": 0.9754,
+          "count_B": 168
+        },
+        {
+          "word_B": "kain",
+          "cos": 0.9736,
+          "count_B": 42
+        },
+        {
+          "word_B": "olkain",
+          "cos": 0.9734,
+          "count_B": 34
+        }
+      ]
+    },
+    {
+      "word_A": "okeol",
+      "count_A": 38,
+      "count_B_same": 19,
+      "best_B_overall": "okal",
+      "best_B_overall_cos": 0.9854,
+      "best_B_heteronym": "okal",
+      "best_B_heteronym_count": 96,
+      "best_B_heteronym_cos": 0.9854,
+      "top3_B": [
+        {
+          "word_B": "okal",
+          "cos": 0.9854,
+          "count_B": 96
+        },
+        {
+          "word_B": "ol",
+          "cos": 0.9843,
+          "count_B": 422
+        },
+        {
+          "word_B": "chol",
+          "cos": 0.9817,
+          "count_B": 100
+        }
+      ]
+    },
+    {
+      "word_A": "cthey",
+      "count_A": 37,
+      "count_B_same": 11,
+      "best_B_overall": "chckhy",
+      "best_B_overall_cos": 0.9874,
+      "best_B_heteronym": "chckhy",
+      "best_B_heteronym_count": 119,
+      "best_B_heteronym_cos": 0.9874,
+      "top3_B": [
+        {
+          "word_B": "chckhy",
+          "cos": 0.9874,
+          "count_B": 119
+        },
+        {
+          "word_B": "chey",
+          "cos": 0.9868,
+          "count_B": 247
+        },
+        {
+          "word_B": "chy",
+          "cos": 0.9866,
+          "count_B": 49
+        }
+      ]
+    },
+    {
+      "word_A": "okal",
+      "count_A": 36,
+      "count_B_same": 96,
+      "best_B_overall": "al",
+      "best_B_overall_cos": 0.9868,
+      "best_B_heteronym": "al",
+      "best_B_heteronym_count": 187,
+      "best_B_heteronym_cos": 0.9868,
+      "top3_B": [
+        {
+          "word_B": "al",
+          "cos": 0.9868,
+          "count_B": 187
+        },
+        {
+          "word_B": "ol",
+          "cos": 0.9843,
+          "count_B": 422
+        },
+        {
+          "word_B": "okal",
+          "cos": 0.9833,
+          "count_B": 96
+        }
+      ]
+    },
+    {
+      "word_A": "saiin",
+      "count_A": 36,
+      "count_B_same": 85,
+      "best_B_overall": "saiin",
+      "best_B_overall_cos": 0.9189,
+      "best_B_heteronym": "sain",
+      "best_B_heteronym_count": 56,
+      "best_B_heteronym_cos": 0.9059,
+      "top3_B": [
+        {
+          "word_B": "saiin",
+          "cos": 0.9189,
+          "count_B": 85
+        },
+        {
+          "word_B": "sain",
+          "cos": 0.9059,
+          "count_B": 56
+        },
+        {
+          "word_B": "y",
+          "cos": 0.8921,
+          "count_B": 171
+        }
+      ]
+    },
+    {
+      "word_A": "okaiin",
+      "count_A": 34,
+      "count_B_same": 168,
+      "best_B_overall": "okaiin",
+      "best_B_overall_cos": 0.9756,
+      "best_B_heteronym": "otaiin",
+      "best_B_heteronym_count": 109,
+      "best_B_heteronym_cos": 0.9753,
+      "top3_B": [
+        {
+          "word_B": "okaiin",
+          "cos": 0.9756,
+          "count_B": 168
+        },
+        {
+          "word_B": "otaiin",
+          "cos": 0.9753,
+          "count_B": 109
+        },
+        {
+          "word_B": "ykaiin",
+          "cos": 0.9726,
+          "count_B": 35
+        }
+      ]
+    },
+    {
+      "word_A": "qokeol",
+      "count_A": 34,
+      "count_B_same": 15,
+      "best_B_overall": "qokol",
+      "best_B_overall_cos": 0.9868,
+      "best_B_heteronym": "qokol",
+      "best_B_heteronym_count": 49,
+      "best_B_heteronym_cos": 0.9868,
+      "top3_B": [
+        {
+          "word_B": "qokol",
+          "cos": 0.9868,
+          "count_B": 49
+        },
+        {
+          "word_B": "qokal",
+          "cos": 0.9852,
+          "count_B": 170
+        },
+        {
+          "word_B": "qotal",
+          "cos": 0.9838,
+          "count_B": 53
+        }
+      ]
+    },
+    {
+      "word_A": "char",
+      "count_A": 33,
+      "count_B_same": 43,
+      "best_B_overall": "otar",
+      "best_B_overall_cos": 0.9898,
+      "best_B_heteronym": "otar",
+      "best_B_heteronym_count": 115,
+      "best_B_heteronym_cos": 0.9898,
+      "top3_B": [
+        {
+          "word_B": "otar",
+          "cos": 0.9898,
+          "count_B": 115
+        },
+        {
+          "word_B": "char",
+          "cos": 0.9881,
+          "count_B": 43
+        },
+        {
+          "word_B": "chedar",
+          "cos": 0.9877,
+          "count_B": 32
+        }
+      ]
+    },
+    {
+      "word_A": "qoky",
+      "count_A": 33,
+      "count_B_same": 112,
+      "best_B_overall": "qoky",
+      "best_B_overall_cos": 0.9811,
+      "best_B_heteronym": "lchey",
+      "best_B_heteronym_count": 47,
+      "best_B_heteronym_cos": 0.9801,
+      "top3_B": [
+        {
+          "word_B": "qoky",
+          "cos": 0.9811,
+          "count_B": 112
+        },
+        {
+          "word_B": "lchey",
+          "cos": 0.9801,
+          "count_B": 47
+        },
+        {
+          "word_B": "qoty",
+          "cos": 0.9795,
+          "count_B": 57
+        }
+      ]
+    },
+    {
+      "word_A": "okeey",
+      "count_A": 32,
+      "count_B_same": 124,
+      "best_B_overall": "cheky",
+      "best_B_overall_cos": 0.986,
+      "best_B_heteronym": "cheky",
+      "best_B_heteronym_count": 45,
+      "best_B_heteronym_cos": 0.986,
+      "top3_B": [
+        {
+          "word_B": "cheky",
+          "cos": 0.986,
+          "count_B": 45
+        },
+        {
+          "word_B": "oteey",
+          "cos": 0.982,
+          "count_B": 93
+        },
+        {
+          "word_B": "okeey",
+          "cos": 0.9808,
+          "count_B": 124
+        }
+      ]
+    },
+    {
+      "word_A": "otaiin",
+      "count_A": 31,
+      "count_B_same": 109,
+      "best_B_overall": "okaiin",
+      "best_B_overall_cos": 0.9786,
+      "best_B_heteronym": "okaiin",
+      "best_B_heteronym_count": 168,
+      "best_B_heteronym_cos": 0.9786,
+      "top3_B": [
+        {
+          "word_B": "okaiin",
+          "cos": 0.9786,
+          "count_B": 168
+        },
+        {
+          "word_B": "otaiin",
+          "cos": 0.9762,
+          "count_B": 109
+        },
+        {
+          "word_B": "otain",
+          "cos": 0.9751,
+          "count_B": 91
+        }
+      ]
+    },
+    {
+      "word_A": "kchy",
+      "count_A": 30,
+      "count_B_same": 4,
+      "best_B_overall": "otey",
+      "best_B_overall_cos": 0.9817,
+      "best_B_heteronym": "otey",
+      "best_B_heteronym_count": 36,
+      "best_B_heteronym_cos": 0.9817,
+      "top3_B": [
+        {
+          "word_B": "otey",
+          "cos": 0.9817,
+          "count_B": 36
+        },
+        {
+          "word_B": "lchey",
+          "cos": 0.9799,
+          "count_B": 47
+        },
+        {
+          "word_B": "lkeey",
+          "cos": 0.9773,
+          "count_B": 38
+        }
+      ]
+    },
+    {
+      "word_A": "chodaiin",
+      "count_A": 30,
+      "count_B_same": 15,
+      "best_B_overall": "okaiin",
+      "best_B_overall_cos": 0.9837,
+      "best_B_heteronym": "okaiin",
+      "best_B_heteronym_count": 168,
+      "best_B_heteronym_cos": 0.9837,
+      "top3_B": [
+        {
+          "word_B": "okaiin",
+          "cos": 0.9837,
+          "count_B": 168
+        },
+        {
+          "word_B": "olkain",
+          "cos": 0.9795,
+          "count_B": 34
+        },
+        {
+          "word_B": "okain",
+          "cos": 0.9794,
+          "count_B": 128
+        }
+      ]
+    },
+    {
+      "word_A": "qoty",
+      "count_A": 30,
+      "count_B_same": 57,
+      "best_B_overall": "lchey",
+      "best_B_overall_cos": 0.9772,
+      "best_B_heteronym": "lchey",
+      "best_B_heteronym_count": 47,
+      "best_B_heteronym_cos": 0.9772,
+      "top3_B": [
+        {
+          "word_B": "lchey",
+          "cos": 0.9772,
+          "count_B": 47
+        },
+        {
+          "word_B": "qoky",
+          "cos": 0.9753,
+          "count_B": 112
+        },
+        {
+          "word_B": "oty",
+          "cos": 0.9738,
+          "count_B": 59
+        }
+      ]
+    },
+    {
+      "word_A": "otchy",
+      "count_A": 30,
+      "count_B_same": 13,
+      "best_B_overall": "shy",
+      "best_B_overall_cos": 0.9826,
+      "best_B_heteronym": "shy",
+      "best_B_heteronym_count": 37,
+      "best_B_heteronym_cos": 0.9826,
+      "top3_B": [
+        {
+          "word_B": "shy",
+          "cos": 0.9826,
+          "count_B": 37
+        },
+        {
+          "word_B": "oteey",
+          "cos": 0.9811,
+          "count_B": 93
+        },
+        {
+          "word_B": "chckhy",
+          "cos": 0.9794,
+          "count_B": 119
+        }
+      ]
+    }
+  ],
+  "top_parallel_clause_pairs": [
+    {
+      "score": 0.769,
+      "A_loc": "f20v.4 (H)",
+      "B_loc": "f85r2.4 (C)",
+      "A_words": "sho . or . aiin . shol . daiin",
+      "B_words": "dair . sheo . oraiin . chol . daiin",
+      "A_consts": "NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS",
+      "B_consts": "NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS",
+      "A_subroles": "M2_OTHER_NOUN -> M1_LIQUID -> M1_MINIM -> M2_BENCH_NOUN -> M1_DAIIN",
+      "B_subroles": "M1_DAIIN -> M2_OTHER_NOUN -> M1_MINIM -> M2_BENCH_NOUN -> M1_DAIIN"
+    },
+    {
+      "score": 0.7428,
+      "A_loc": "f27r.12 (H)",
+      "B_loc": "f94v.12 (H)",
+      "A_words": "dain . cheokeey . chey . cthey . otal",
+      "B_words": "daiin . chcthy . chdy . chckhy . okaiin",
+      "A_consts": "NP_MEAS -> VP_PROC -> VP_PROC -> VP_PROC -> NP_MEAS",
+      "B_consts": "NP_MEAS -> VP_PROC -> VP_PROC -> VP_PROC -> NP_MEAS",
+      "A_subroles": "M1_DAIIN -> M2_BENCH_VERB -> M2_BENCH_VERB -> M2_GALLOWS_VERB -> M2_GALLOWS_NOUN",
+      "B_subroles": "M1_DAIIN -> M2_BENCH_VERB -> M2_BENCH_VERB -> M2_BENCH_VERB -> M2_GALLOWS_NOUN"
+    },
+    {
+      "score": 0.6277,
+      "A_loc": "f30r.13 (H)",
+      "B_loc": "f106r.35 (S)",
+      "A_words": "chodaiin . chtchey . chear . shy . keey",
+      "B_words": "okaiin . choky . lkar . chdy . lchedy",
+      "A_consts": "NP_MEAS -> VP_PROC -> NP_MEAS -> VP_PROC -> VP_PROC",
+      "B_consts": "NP_MEAS -> VP_PROC -> NP_MEAS -> VP_PROC -> VP_PROC",
+      "A_subroles": "M2_BENCH_NOUN -> M2_BENCH_VERB -> M2_BENCH_NOUN -> M2_BENCH_VERB -> M2_GALLOWS_VERB",
+      "B_subroles": "M2_GALLOWS_NOUN -> M2_BENCH_VERB -> M2_GALLOWS_NOUN -> M2_BENCH_VERB -> M2_BENCH_VERB"
+    },
+    {
+      "score": 0.6205,
+      "A_loc": "f22v.8 (H)",
+      "B_loc": "f104r.9 (S)",
+      "A_words": "qotchy . cthy . qokol . daiin . dam",
+      "B_words": "ycheeoy . qokecho . qokol . cheeo . dam",
+      "A_consts": "VP_PROC -> VP_PROC -> VP_PROC -> NP_MEAS -> PP_PREP",
+      "B_consts": "VP_PROC -> VP_PROC -> VP_PROC -> NP_MEAS -> PP_PREP",
+      "A_subroles": "M2_QO_VERB -> M2_GALLOWS_VERB -> M2_QO_VERB -> M1_DAIIN -> M1_DA_PREP",
+      "B_subroles": "M2_BENCH_VERB -> M2_QO_VERB -> M2_QO_VERB -> M2_OTHER_NOUN -> M1_DA_PREP"
+    },
+    {
+      "score": 0.6152,
+      "A_loc": "f4r.9 (H)",
+      "B_loc": "f94v.12 (H)",
+      "A_words": "daiin . ckhochy . tchy . kor . aiin",
+      "B_words": "daiin . chcthy . chdy . chckhy . okaiin",
+      "A_consts": "NP_MEAS -> VP_PROC -> VP_PROC -> NP_MEAS -> NP_MEAS",
+      "B_consts": "NP_MEAS -> VP_PROC -> VP_PROC -> VP_PROC -> NP_MEAS",
+      "A_subroles": "M1_DAIIN -> M2_BENCH_VERB -> M2_BENCH_VERB -> M2_GALLOWS_NOUN -> M1_MINIM",
+      "B_subroles": "M1_DAIIN -> M2_BENCH_VERB -> M2_BENCH_VERB -> M2_BENCH_VERB -> M2_GALLOWS_NOUN"
+    },
+    {
+      "score": 0.6123,
+      "A_loc": "f1r.20 (T)",
+      "B_loc": "f31r.14 (H)",
+      "A_words": "shok . chor . chey . dain . ckhey",
+      "B_words": "saiis . or . chedy . daiin . okeedy",
+      "A_consts": "NP_MEAS -> NP_MEAS -> VP_PROC -> NP_MEAS -> VP_PROC",
+      "B_consts": "PP_PREP -> NP_MEAS -> VP_PROC -> NP_MEAS -> VP_PROC",
+      "A_subroles": "M2_OTHER_NOUN -> M2_BENCH_NOUN -> M2_BENCH_VERB -> M1_DAIIN -> M2_GALLOWS_VERB",
+      "B_subroles": "M1_S_PREP -> M1_LIQUID -> M2_BENCH_VERB -> M1_DAIIN -> M2_GALLOWS_VERB"
+    },
+    {
+      "score": 0.5998,
+      "A_loc": "f7r.10 (H)",
+      "B_loc": "f85r2.2 (C)",
+      "A_words": "s . chain . chor . daiin . chckhy",
+      "B_words": "sain . or . or . aiin . opchdy",
+      "A_consts": "PP_PREP -> NP_MEAS -> NP_MEAS -> NP_MEAS -> VP_PROC",
+      "B_consts": "PP_PREP -> NP_MEAS -> NP_MEAS -> NP_MEAS -> VP_PROC",
+      "A_subroles": "M1_S_PREP -> M2_BENCH_NOUN -> M2_BENCH_NOUN -> M1_DAIIN -> M2_BENCH_VERB",
+      "B_subroles": "M1_S_PREP -> M1_LIQUID -> M1_LIQUID -> M1_MINIM -> M2_BENCH_VERB"
+    },
+    {
+      "score": 0.5966,
+      "A_loc": "f15v.11 (H)",
+      "B_loc": "f82r.33 (B)",
+      "A_words": "sol . oiin . cheor . chol . daiin . cthy",
+      "B_words": "sain . ol . cheol . ey . cheor . chey",
+      "A_consts": "PP_PREP -> NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS -> VP_PROC",
+      "B_consts": "PP_PREP -> NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS -> VP_PROC",
+      "A_subroles": "M1_S_PREP -> M1_MINIM -> M2_BENCH_NOUN -> M2_BENCH_NOUN -> M1_DAIIN -> M2_GALLOWS_VERB",
+      "B_subroles": "M1_S_PREP -> M1_LIQUID -> M2_BENCH_NOUN -> M1_VOWEL -> M2_BENCH_NOUN -> M2_BENCH_VERB"
+    },
+    {
+      "score": 0.5917,
+      "A_loc": "f11r.4 (H)",
+      "B_loc": "f94v.12 (H)",
+      "A_words": "dchol . chy . kchy . dy . daiin",
+      "B_words": "daiin . chcthy . chdy . chckhy . okaiin",
+      "A_consts": "NP_MEAS -> VP_PROC -> VP_PROC -> PP_PREP -> NP_MEAS",
+      "B_consts": "NP_MEAS -> VP_PROC -> VP_PROC -> VP_PROC -> NP_MEAS",
+      "A_subroles": "M2_BENCH_NOUN -> M2_BENCH_VERB -> M2_BENCH_VERB -> M1_DA_PREP -> M1_DAIIN",
+      "B_subroles": "M1_DAIIN -> M2_BENCH_VERB -> M2_BENCH_VERB -> M2_BENCH_VERB -> M2_GALLOWS_NOUN"
+    },
+    {
+      "score": 0.5904,
+      "A_loc": "f4v.5 (H)",
+      "B_loc": "f104v.21 (S)",
+      "A_words": "shor . sheey . otoiin . shey . qotchoiin . chodain",
+      "B_words": "yshor . sheedy . qokaiin . shokchey . qokeey . chodain",
+      "A_consts": "NP_MEAS -> VP_PROC -> NP_MEAS -> VP_PROC -> VP_PROC -> NP_MEAS",
+      "B_consts": "NP_MEAS -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC -> NP_MEAS",
+      "A_subroles": "M2_BENCH_NOUN -> M2_BENCH_VERB -> M2_GALLOWS_NOUN -> M2_BENCH_VERB -> M2_QO_VERB -> M2_BENCH_NOUN",
+      "B_subroles": "M2_BENCH_NOUN -> M2_BENCH_VERB -> M2_QO_VERB -> M2_BENCH_VERB -> M2_QO_VERB -> M2_BENCH_NOUN"
+    },
+    {
+      "score": 0.5868,
+      "A_loc": "f24r.12 (H)",
+      "B_loc": "f83v.8 (B)",
+      "A_words": "qokchy . qotchy . tol . tod . ckhy",
+      "B_words": "rolkeedy . qokaiin . okaiin . ched . okchey",
+      "A_consts": "VP_PROC -> VP_PROC -> NP_MEAS -> NP_MEAS -> VP_PROC",
+      "B_consts": "VP_PROC -> VP_PROC -> NP_MEAS -> NP_MEAS -> VP_PROC",
+      "A_subroles": "M2_QO_VERB -> M2_QO_VERB -> M2_GALLOWS_NOUN -> M2_OTHER_NOUN -> M2_GALLOWS_VERB",
+      "B_subroles": "M2_GALLOWS_VERB -> M2_QO_VERB -> M2_GALLOWS_NOUN -> M2_OTHER_NOUN -> M2_BENCH_VERB"
+    },
+    {
+      "score": 0.5787,
+      "A_loc": "f22v.10 (H)",
+      "B_loc": "f80v.29 (B)",
+      "A_words": "qokchy . daiin . s . or . ytal",
+      "B_words": "qokain . olkain . olkain . ol . keeol",
+      "A_consts": "VP_PROC -> NP_MEAS -> PP_PREP -> NP_MEAS -> NP_MEAS",
+      "B_consts": "VP_PROC -> NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS",
+      "A_subroles": "M2_QO_VERB -> M1_DAIIN -> M1_S_PREP -> M1_LIQUID -> M2_GALLOWS_NOUN",
+      "B_subroles": "M2_QO_VERB -> M2_GALLOWS_NOUN -> M2_GALLOWS_NOUN -> M1_LIQUID -> M2_GALLOWS_NOUN"
+    },
+    {
+      "score": 0.5745,
+      "A_loc": "f16v.3 (H)",
+      "B_loc": "f75r.37 (B)",
+      "A_words": "ykchy . dy . choy . qoty . chy . kchy . koshet",
+      "B_words": "qokedy . dy . sheety . qokedy . qokeedy . qokechdy . lol",
+      "A_consts": "VP_PROC -> PP_PREP -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC -> NP_MEAS",
+      "B_consts": "VP_PROC -> PP_PREP -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC -> NP_MEAS",
+      "A_subroles": "M2_BENCH_VERB -> M1_DA_PREP -> M2_BENCH_VERB -> M2_QO_VERB -> M2_BENCH_VERB -> M2_BENCH_VERB -> M2_OTHER_NOUN",
+      "B_subroles": "M2_QO_VERB -> M1_DA_PREP -> M2_BENCH_VERB -> M2_QO_VERB -> M2_QO_VERB -> M2_QO_VERB -> M1_LIQUID"
+    },
+    {
+      "score": 0.5688,
+      "A_loc": "f29r.3 (H)",
+      "B_loc": "f83v.21 (B)",
+      "A_words": "qokchy . qoty . kchaiin . shear . cthor . dchor . choly",
+      "B_words": "qokeed . qokaiin . sheolkain . sheol . olkeedy . l . shedy",
+      "A_consts": "VP_PROC -> VP_PROC -> NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS -> VP_PROC",
+      "B_consts": "VP_PROC -> VP_PROC -> NP_MEAS -> NP_MEAS -> VP_PROC -> NP_MEAS -> VP_PROC",
+      "A_subroles": "M2_QO_VERB -> M2_QO_VERB -> M2_BENCH_NOUN -> M2_BENCH_NOUN -> M2_GALLOWS_NOUN -> M2_BENCH_NOUN -> M2_BENCH_VERB",
+      "B_subroles": "M2_QO_VERB -> M2_QO_VERB -> M2_BENCH_NOUN -> M2_BENCH_NOUN -> M2_GALLOWS_VERB -> M1_LIQUID -> M2_BENCH_VERB"
+    },
+    {
+      "score": 0.5685,
+      "A_loc": "f14r.13 (H)",
+      "B_loc": "f103v.36 (S)",
+      "A_words": "sodaiin . chy . kchy . kchy . ykeody",
+      "B_words": "saiin . shey . qokeey . oshey . olshedy",
+      "A_consts": "PP_PREP -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC",
+      "B_consts": "PP_PREP -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC",
+      "A_subroles": "M1_S_PREP -> M2_BENCH_VERB -> M2_BENCH_VERB -> M2_BENCH_VERB -> M2_GALLOWS_VERB",
+      "B_subroles": "M1_S_PREP -> M2_BENCH_VERB -> M2_QO_VERB -> M2_BENCH_VERB -> M2_BENCH_VERB"
+    },
+    {
+      "score": 0.5665,
+      "A_loc": "f30r.9 (H)",
+      "B_loc": "f31r.8 (H)",
+      "A_words": "dchey . qochar . chol . keeaiin . chcthey . chor . cheky",
+      "B_words": "shedy . qokedy . cheol . cheod . qokeody . cheol . checthy",
+      "A_consts": "VP_PROC -> VP_PROC -> NP_MEAS -> NP_MEAS -> VP_PROC -> NP_MEAS -> VP_PROC",
+      "B_consts": "VP_PROC -> VP_PROC -> NP_MEAS -> NP_MEAS -> VP_PROC -> NP_MEAS -> VP_PROC",
+      "A_subroles": "M2_BENCH_VERB -> M2_QO_VERB -> M2_BENCH_NOUN -> M2_GALLOWS_NOUN -> M2_BENCH_VERB -> M2_BENCH_NOUN -> M2_BENCH_VERB",
+      "B_subroles": "M2_BENCH_VERB -> M2_QO_VERB -> M2_BENCH_NOUN -> M2_OTHER_NOUN -> M2_QO_VERB -> M2_BENCH_NOUN -> M2_BENCH_VERB"
+    },
+    {
+      "score": 0.5625,
+      "A_loc": "f24r.19 (H)",
+      "B_loc": "f113v.27 (S)",
+      "A_words": "yol . kol . chol . shom . otacphy",
+      "B_words": "y . cheeo . l . cheeo . alkeedy",
+      "A_consts": "PP_PREP -> NP_MEAS -> NP_MEAS -> NP_MEAS -> VP_PROC",
+      "B_consts": "PP_PREP -> NP_MEAS -> NP_MEAS -> NP_MEAS -> VP_PROC",
+      "A_subroles": "M1_Y_CONJ -> M2_GALLOWS_NOUN -> M2_BENCH_NOUN -> M2_OTHER_NOUN -> M2_GALLOWS_VERB",
+      "B_subroles": "M1_Y_CONJ -> M2_OTHER_NOUN -> M1_LIQUID -> M2_OTHER_NOUN -> M2_GALLOWS_VERB"
+    },
+    {
+      "score": 0.5611,
+      "A_loc": "f18v.3 (H)",
+      "B_loc": "f77r.26 (B)",
+      "A_words": "orshy . qoky . qoky . chkchy . qokshy . qokam",
+      "B_words": "qoteedy . qokeedy . qokaiin . chcthy . lchedy . qokaly",
+      "A_consts": "VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC",
+      "B_consts": "VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC",
+      "A_subroles": "M2_BENCH_VERB -> M2_QO_VERB -> M2_QO_VERB -> M2_BENCH_VERB -> M2_QO_VERB -> M2_QO_VERB",
+      "B_subroles": "M2_QO_VERB -> M2_QO_VERB -> M2_QO_VERB -> M2_BENCH_VERB -> M2_BENCH_VERB -> M2_QO_VERB"
+    },
+    {
+      "score": 0.5595,
+      "A_loc": "f13v.7 (H)",
+      "B_loc": "f75v.42 (B)",
+      "A_words": "dain . okal . chy . qokchory . dchy . kokydaiin . shon",
+      "B_words": "o . l . sheey . qolshey . qokain . okaiin . charor",
+      "A_consts": "NP_MEAS -> NP_MEAS -> VP_PROC -> VP_PROC -> VP_PROC -> NP_MEAS -> NP_MEAS",
+      "B_consts": "NP_MEAS -> NP_MEAS -> VP_PROC -> VP_PROC -> VP_PROC -> NP_MEAS -> NP_MEAS",
+      "A_subroles": "M1_DAIIN -> M2_GALLOWS_NOUN -> M2_BENCH_VERB -> M2_QO_VERB -> M2_BENCH_VERB -> M2_GALLOWS_NOUN -> M2_OTHER_NOUN",
+      "B_subroles": "M1_VOWEL -> M1_LIQUID -> M2_BENCH_VERB -> M2_QO_VERB -> M2_QO_VERB -> M2_GALLOWS_NOUN -> M2_BENCH_NOUN"
+    },
+    {
+      "score": 0.5582,
+      "A_loc": "f3r.13 (H)",
+      "B_loc": "f84r.40 (B)",
+      "A_words": "qokeey . qot . shey . qokody . qokshey . cheody",
+      "B_words": "qokeedy . dkedy . olshedy . qokal . shckhy . olkeedy",
+      "A_consts": "VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC",
+      "B_consts": "VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC",
+      "A_subroles": "M2_QO_VERB -> M2_QO_VERB -> M2_BENCH_VERB -> M2_QO_VERB -> M2_QO_VERB -> M2_BENCH_VERB",
+      "B_subroles": "M2_QO_VERB -> M2_GALLOWS_VERB -> M2_BENCH_VERB -> M2_QO_VERB -> M2_BENCH_VERB -> M2_GALLOWS_VERB"
+    },
+    {
+      "score": 0.5577,
+      "A_loc": "f16v.7 (H)",
+      "B_loc": "f86v3.29 (C)",
+      "A_words": "pchocthy . chypchy . qotchy . chy . sy",
+      "B_words": "toeeedchy . okchey . qokchedy . shedy . ytcheodar",
+      "A_consts": "TOP_HEAD -> VP_PROC -> VP_PROC -> VP_PROC -> PP_PREP",
+      "B_consts": "TOP_HEAD -> VP_PROC -> VP_PROC -> VP_PROC -> NP_MEAS",
+      "A_subroles": "M2_TOP_GALLOWS -> M2_BENCH_VERB -> M2_QO_VERB -> M2_BENCH_VERB -> M1_S_PREP",
+      "B_subroles": "M2_TOP_GALLOWS -> M2_BENCH_VERB -> M2_QO_VERB -> M2_BENCH_VERB -> M2_BENCH_NOUN"
+    },
+    {
+      "score": 0.5574,
+      "A_loc": "f5r.7 (H)",
+      "B_loc": "f111r.43 (S)",
+      "A_words": "qotoeey . keey . cheo . kchy . shody",
+      "B_words": "okeedy . lkeedy . lkedar . okeedy . chedy",
+      "A_consts": "VP_PROC -> VP_PROC -> NP_MEAS -> VP_PROC -> VP_PROC",
+      "B_consts": "VP_PROC -> VP_PROC -> NP_MEAS -> VP_PROC -> VP_PROC",
+      "A_subroles": "M2_QO_VERB -> M2_GALLOWS_VERB -> M2_OTHER_NOUN -> M2_BENCH_VERB -> M2_BENCH_VERB",
+      "B_subroles": "M2_GALLOWS_VERB -> M2_GALLOWS_VERB -> M2_GALLOWS_NOUN -> M2_GALLOWS_VERB -> M2_BENCH_VERB"
+    },
+    {
+      "score": 0.5568,
+      "A_loc": "f20r.13 (H)",
+      "B_loc": "f82r.19 (B)",
+      "A_words": "ochaiin . chor . chor . cheey . tchey",
+      "B_words": "okain . char . okain . qokeedy . lchy",
+      "A_consts": "NP_MEAS -> NP_MEAS -> NP_MEAS -> VP_PROC -> VP_PROC",
+      "B_consts": "NP_MEAS -> NP_MEAS -> NP_MEAS -> VP_PROC -> VP_PROC",
+      "A_subroles": "M2_BENCH_NOUN -> M2_BENCH_NOUN -> M2_BENCH_NOUN -> M2_BENCH_VERB -> M2_BENCH_VERB",
+      "B_subroles": "M2_GALLOWS_NOUN -> M2_BENCH_NOUN -> M2_GALLOWS_NOUN -> M2_QO_VERB -> M2_BENCH_VERB"
+    },
+    {
+      "score": 0.5553,
+      "A_loc": "f16r.11 (H)",
+      "B_loc": "f79v.2 (B)",
+      "A_words": "sokchy . qokol . choty . okchy . cthy . chy . kchy",
+      "B_words": "qoteedy . qokchey . qoty . lshey . qokain . shey . qorchedy",
+      "A_consts": "VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC",
+      "B_consts": "VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC",
+      "A_subroles": "M2_BENCH_VERB -> M2_QO_VERB -> M2_BENCH_VERB -> M2_BENCH_VERB -> M2_GALLOWS_VERB -> M2_BENCH_VERB -> M2_BENCH_VERB",
+      "B_subroles": "M2_QO_VERB -> M2_QO_VERB -> M2_QO_VERB -> M2_BENCH_VERB -> M2_QO_VERB -> M2_BENCH_VERB -> M2_QO_VERB"
+    },
+    {
+      "score": 0.5538,
+      "A_loc": "f2r.13 (H)",
+      "B_loc": "f115v.33 (S)",
+      "A_words": "sho . ykeey . chey . daiin . chcthy",
+      "B_words": "ychedal . qotchy . chcthy . chdal . lchedy",
+      "A_consts": "NP_MEAS -> VP_PROC -> VP_PROC -> NP_MEAS -> VP_PROC",
+      "B_consts": "NP_MEAS -> VP_PROC -> VP_PROC -> NP_MEAS -> VP_PROC",
+      "A_subroles": "M2_OTHER_NOUN -> M2_GALLOWS_VERB -> M2_BENCH_VERB -> M1_DAIIN -> M2_BENCH_VERB",
+      "B_subroles": "M2_BENCH_NOUN -> M2_QO_VERB -> M2_BENCH_VERB -> M2_BENCH_NOUN -> M2_BENCH_VERB"
+    },
+    {
+      "score": 0.5519,
+      "A_loc": "f17v.13 (H)",
+      "B_loc": "f107v.19 (S)",
+      "A_words": "ykeor . chol . chol . cthol . chkor . sheol",
+      "B_words": "soral . olaiin . chor . okaiin . chkain . okaiin",
+      "A_consts": "NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS",
+      "B_consts": "PP_PREP -> NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS",
+      "A_subroles": "M2_GALLOWS_NOUN -> M2_BENCH_NOUN -> M2_BENCH_NOUN -> M2_GALLOWS_NOUN -> M2_BENCH_NOUN -> M2_BENCH_NOUN",
+      "B_subroles": "M1_S_PREP -> M1_MINIM -> M2_BENCH_NOUN -> M2_GALLOWS_NOUN -> M2_BENCH_NOUN -> M2_GALLOWS_NOUN"
+    },
+    {
+      "score": 0.5482,
+      "A_loc": "f13v.10 (H)",
+      "B_loc": "f79v.9 (B)",
+      "A_words": "y . ol . chy . kchey . kchor . dal",
+      "B_words": "sar . ol . sheey . qokeedy . qokechey . qol",
+      "A_consts": "PP_PREP -> NP_MEAS -> VP_PROC -> VP_PROC -> NP_MEAS -> PP_PREP",
+      "B_consts": "PP_PREP -> NP_MEAS -> VP_PROC -> VP_PROC -> VP_PROC -> PP_PREP",
+      "A_subroles": "M1_Y_CONJ -> M1_LIQUID -> M2_BENCH_VERB -> M2_BENCH_VERB -> M2_BENCH_NOUN -> M1_DA_PREP",
+      "B_subroles": "M1_S_PREP -> M1_LIQUID -> M2_BENCH_VERB -> M2_QO_VERB -> M2_QO_VERB -> M1_QO"
+    },
+    {
+      "score": 0.5467,
+      "A_loc": "f15v.10 (H)",
+      "B_loc": "f77r.29 (B)",
+      "A_words": "sor . chor . cthoiin . cthy . qokaiin",
+      "B_words": "saiin . cheeol . qokeedy . qokeedy . qotal",
+      "A_consts": "PP_PREP -> NP_MEAS -> NP_MEAS -> VP_PROC -> VP_PROC",
+      "B_consts": "PP_PREP -> NP_MEAS -> VP_PROC -> VP_PROC -> VP_PROC",
+      "A_subroles": "M1_S_PREP -> M2_BENCH_NOUN -> M2_GALLOWS_NOUN -> M2_GALLOWS_VERB -> M2_QO_VERB",
+      "B_subroles": "M1_S_PREP -> M2_BENCH_NOUN -> M2_QO_VERB -> M2_QO_VERB -> M2_QO_VERB"
+    },
+    {
+      "score": 0.5455,
+      "A_loc": "f7r.4 (H)",
+      "B_loc": "f113r.38 (S)",
+      "A_words": "qokcho . cho . lochey . daiin . ychey . kchos . odaiin",
+      "B_words": "daiin . sheor . qoteey . daiin . okchedy . sheos . aiin",
+      "A_consts": "VP_PROC -> NP_MEAS -> VP_PROC -> NP_MEAS -> VP_PROC -> NP_MEAS -> NP_MEAS",
+      "B_consts": "NP_MEAS -> NP_MEAS -> VP_PROC -> NP_MEAS -> VP_PROC -> NP_MEAS -> NP_MEAS",
+      "A_subroles": "M2_QO_VERB -> M2_OTHER_NOUN -> M2_BENCH_VERB -> M1_DAIIN -> M2_BENCH_VERB -> M2_OTHER_NOUN -> M1_MINIM",
+      "B_subroles": "M1_DAIIN -> M2_BENCH_NOUN -> M2_QO_VERB -> M1_DAIIN -> M2_BENCH_VERB -> M2_OTHER_NOUN -> M1_MINIM"
+    },
+    {
+      "score": 0.5429,
+      "A_loc": "f4r.8 (H)",
+      "B_loc": "f82r.19 (B)",
+      "A_words": "shor . shol . shol . cthy . cpholdy",
+      "B_words": "okain . char . okain . qokeedy . lchy",
+      "A_consts": "NP_MEAS -> NP_MEAS -> NP_MEAS -> VP_PROC -> VP_PROC",
+      "B_consts": "NP_MEAS -> NP_MEAS -> NP_MEAS -> VP_PROC -> VP_PROC",
+      "A_subroles": "M2_BENCH_NOUN -> M2_BENCH_NOUN -> M2_BENCH_NOUN -> M2_GALLOWS_VERB -> M2_GALLOWS_VERB",
+      "B_subroles": "M2_GALLOWS_NOUN -> M2_BENCH_NOUN -> M2_GALLOWS_NOUN -> M2_QO_VERB -> M2_BENCH_VERB"
+    },
+    {
+      "score": 0.5409,
+      "A_loc": "f8v.8 (H)",
+      "B_loc": "f106v.25 (S)",
+      "A_words": "okcholksh . chol . chol . chol . cthaiin . dain",
+      "B_words": "sar . sheol . chol . shar . chol . okarol",
+      "A_consts": "NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS",
+      "B_consts": "PP_PREP -> NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS",
+      "A_subroles": "M2_OTHER_NOUN -> M2_BENCH_NOUN -> M2_BENCH_NOUN -> M2_BENCH_NOUN -> M2_GALLOWS_NOUN -> M1_DAIIN",
+      "B_subroles": "M1_S_PREP -> M2_BENCH_NOUN -> M2_BENCH_NOUN -> M2_BENCH_NOUN -> M2_BENCH_NOUN -> M2_GALLOWS_NOUN"
+    },
+    {
+      "score": 0.5392,
+      "A_loc": "f30v.4 (H)",
+      "B_loc": "f75v.65 (B)",
+      "A_words": "otchey . daiin . chor . checkhy . qotchod . daiin",
+      "B_words": "qokal . dain . dain . o . qoky . daiin",
+      "A_consts": "VP_PROC -> NP_MEAS -> NP_MEAS -> VP_PROC -> VP_PROC -> NP_MEAS",
+      "B_consts": "VP_PROC -> NP_MEAS -> NP_MEAS -> NP_MEAS -> VP_PROC -> NP_MEAS",
+      "A_subroles": "M2_BENCH_VERB -> M1_DAIIN -> M2_BENCH_NOUN -> M2_BENCH_VERB -> M2_QO_VERB -> M1_DAIIN",
+      "B_subroles": "M2_QO_VERB -> M1_DAIIN -> M1_DAIIN -> M1_VOWEL -> M2_QO_VERB -> M1_DAIIN"
+    },
+    {
+      "score": 0.5377,
+      "A_loc": "f17v.6 (H)",
+      "B_loc": "f113v.44 (S)",
+      "A_words": "oekor . or . okaiin . or . otaiin . d",
+      "B_words": "daiin . cheal . otain . okar . otaiin . oloiin",
+      "A_consts": "NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS -> PP_PREP",
+      "B_consts": "NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS",
+      "A_subroles": "M2_GALLOWS_NOUN -> M1_LIQUID -> M2_GALLOWS_NOUN -> M1_LIQUID -> M2_GALLOWS_NOUN -> M1_DA_PREP",
+      "B_subroles": "M1_DAIIN -> M2_BENCH_NOUN -> M2_GALLOWS_NOUN -> M2_GALLOWS_NOUN -> M2_GALLOWS_NOUN -> M1_MINIM"
+    },
+    {
+      "score": 0.5371,
+      "A_loc": "f32v.6 (H)",
+      "B_loc": "f85r2.23 (C)",
+      "A_words": "o . kchan . chol . shal . dchcthy",
+      "B_words": "ol . lcheol . chol . ol . sheoly",
+      "A_consts": "NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS -> VP_PROC",
+      "B_consts": "NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS -> VP_PROC",
+      "A_subroles": "M1_VOWEL -> M2_OTHER_NOUN -> M2_BENCH_NOUN -> M2_BENCH_NOUN -> M2_BENCH_VERB",
+      "B_subroles": "M1_LIQUID -> M2_BENCH_NOUN -> M2_BENCH_NOUN -> M1_LIQUID -> M2_BENCH_VERB"
+    },
+    {
+      "score": 0.5367,
+      "A_loc": "f19r.10 (H)",
+      "B_loc": "f85r2.23 (C)",
+      "A_words": "daiin . cthor . chol . ykchor . chordy",
+      "B_words": "ol . lcheol . chol . ol . sheoly",
+      "A_consts": "NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS -> VP_PROC",
+      "B_consts": "NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS -> VP_PROC",
+      "A_subroles": "M1_DAIIN -> M2_GALLOWS_NOUN -> M2_BENCH_NOUN -> M2_BENCH_NOUN -> M2_BENCH_VERB",
+      "B_subroles": "M1_LIQUID -> M2_BENCH_NOUN -> M2_BENCH_NOUN -> M1_LIQUID -> M2_BENCH_VERB"
+    },
+    {
+      "score": 0.5347,
+      "A_loc": "f7r.1 (H)",
+      "B_loc": "f77r.37 (B)",
+      "A_words": "fchodaiin . shopchey . qko . shey . qoos . sheey . charochy",
+      "B_words": "teeolain . chey . qoteedy . qokain . cheedy . cheey . lchedy",
+      "A_consts": "TOP_HEAD -> VP_PROC -> VP_PROC -> VP_PROC -> PP_PREP -> VP_PROC -> VP_PROC",
+      "B_consts": "TOP_HEAD -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC -> VP_PROC",
+      "A_subroles": "M2_TOP_GALLOWS -> M2_BENCH_VERB -> M2_QO_VERB -> M2_BENCH_VERB -> M1_QO -> M2_BENCH_VERB -> M2_BENCH_VERB",
+      "B_subroles": "M2_TOP_GALLOWS -> M2_BENCH_VERB -> M2_QO_VERB -> M2_QO_VERB -> M2_BENCH_VERB -> M2_BENCH_VERB -> M2_BENCH_VERB"
+    },
+    {
+      "score": 0.5332,
+      "A_loc": "f15v.9 (H)",
+      "B_loc": "f106r.47 (S)",
+      "A_words": "otchol . octhol . chol . chol . chody . kan",
+      "B_words": "ycheoar . okain . qokain . char . oky . cheokam",
+      "A_consts": "NP_MEAS -> NP_MEAS -> NP_MEAS -> NP_MEAS -> VP_PROC -> FIN_CLOSE",
+      "B_consts": "NP_MEAS -> NP_MEAS -> VP_PROC -> NP_MEAS -> VP_PROC -> FIN_CLOSE",
+      "A_subroles": "M2_BENCH_NOUN -> M2_GALLOWS_NOUN -> M2_BENCH_NOUN -> M2_BENCH_NOUN -> M2_BENCH_VERB -> M2_FIN_CLOSE",
+      "B_subroles": "M2_BENCH_NOUN -> M2_GALLOWS_NOUN -> M2_QO_VERB -> M2_BENCH_NOUN -> M2_GALLOWS_VERB -> M2_FIN_CLOSE"
+    },
+    {
+      "score": 0.5328,
+      "A_loc": "f4r.3 (H)",
+      "B_loc": "f75v.42 (B)",
+      "A_words": "otchol . chol . chy . chaiin . qotaiin . daiin . shain",
+      "B_words": "o . l . sheey . qolshey . qokain . okaiin . charor",
+      "A_consts": "NP_MEAS -> NP_MEAS -> VP_PROC -> NP_MEAS -> VP_PROC -> NP_MEAS -> NP_MEAS",
+      "B_consts": "NP_MEAS -> NP_MEAS -> VP_PROC -> VP_PROC -> VP_PROC -> NP_MEAS -> NP_MEAS",
+      "A_subroles": "M2_BENCH_NOUN -> M2_BENCH_NOUN -> M2_BENCH_VERB -> M2_BENCH_NOUN -> M2_QO_VERB -> M1_DAIIN -> M2_BENCH_NOUN",
+      "B_subroles": "M1_VOWEL -> M1_LIQUID -> M2_BENCH_VERB -> M2_QO_VERB -> M2_QO_VERB -> M2_GALLOWS_NOUN -> M2_BENCH_NOUN"
+    },
+    {
+      "score": 0.53,
+      "A_loc": "f15v.6 (H)",
+      "B_loc": "f80v.18 (B)",
+      "A_words": "qotchey . choty . kaiin . otchy . r . aiin",
+      "B_words": "ychedy . qol . okaiin . olkedy . or . okain",
+      "A_consts": "VP_PROC -> VP_PROC -> NP_MEAS -> VP_PROC -> NP_MEAS -> NP_MEAS",
+      "B_consts": "VP_PROC -> PP_PREP -> NP_MEAS -> VP_PROC -> NP_MEAS -> NP_MEAS",
+      "A_subroles": "M2_QO_VERB -> M2_BENCH_VERB -> M2_GALLOWS_NOUN -> M2_BENCH_VERB -> M1_LIQUID -> M1_MINIM",
+      "B_subroles": "M2_BENCH_VERB -> M1_QO -> M2_GALLOWS_NOUN -> M2_GALLOWS_VERB -> M1_LIQUID -> M2_GALLOWS_NOUN"
+    },
+    {
+      "score": 0.5287,
+      "A_loc": "f8v.7 (H)",
+      "B_loc": "f84v.31 (B)",
+      "A_words": "sho . kchol . dar . shey . cthar . chotain . ry",
+      "B_words": "chal . daiin . otal . chdy . otal . chckhor . aly",
+      "A_consts": "NP_MEAS -> NP_MEAS -> PP_PREP -> VP_PROC -> NP_MEAS -> NP_MEAS -> FIN_CLOSE",
+      "B_consts": "NP_MEAS -> NP_MEAS -> NP_MEAS -> VP_PROC -> NP_MEAS -> NP_MEAS -> FIN_CLOSE",
+      "A_subroles": "M2_OTHER_NOUN -> M2_BENCH_NOUN -> M1_DA_PREP -> M2_BENCH_VERB -> M2_GALLOWS_NOUN -> M2_BENCH_NOUN -> M1_NASAL_FIN",
+      "B_subroles": "M2_BENCH_NOUN -> M1_DAIIN -> M2_GALLOWS_NOUN -> M2_BENCH_VERB -> M2_GALLOWS_NOUN -> M2_BENCH_NOUN -> M1_NASAL_FIN"
+    }
+  ]
+}
