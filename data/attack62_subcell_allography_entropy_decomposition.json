@@ -1,0 +1,271 @@
+{
+  "total_tokens": 36229,
+  "unique_word_types": 9053,
+  "total_unigram_word_entropy_bits": 10.7699,
+  "six_level_cascade": [
+    {
+      "level": 1,
+      "description": "Level 1: Macro-Class (Open Gallows/Bench vs Closed Functional)",
+      "attested_states": 3,
+      "cumulative_entropy_bits": 0.8168,
+      "incremental_gain_bits": 0.8168,
+      "cumulative_pct_of_word_entropy": 7.58,
+      "remaining_residual_bits": 9.953
+    },
+    {
+      "level": 2,
+      "description": "Level 2: Dual-Matrix Cell ([Prefix x Core x Coda] / [Onset x Coda])",
+      "attested_states": 424,
+      "cumulative_entropy_bits": 7.3392,
+      "incremental_gain_bits": 6.5224,
+      "cumulative_pct_of_word_entropy": 68.15,
+      "remaining_residual_bits": 3.4306
+    },
+    {
+      "level": 3,
+      "description": "Level 3: + Internal Stem Nucleus (ZERO_V, E1, E2, O_VOW, EO_DIPH, A_VOW)",
+      "attested_states": 1458,
+      "cumulative_entropy_bits": 8.7704,
+      "incremental_gain_bits": 1.4312,
+      "cumulative_pct_of_word_entropy": 81.43,
+      "remaining_residual_bits": 1.9994
+    },
+    {
+      "level": 4,
+      "description": "Level 4: + Exact Prefix Sub-Form & Minim/Coda Allograph (-in/-iin/-iiin, l-/ol-/qol-)",
+      "attested_states": 3589,
+      "cumulative_entropy_bits": 9.5142,
+      "incremental_gain_bits": 0.7437,
+      "cumulative_pct_of_word_entropy": 88.34,
+      "remaining_residual_bits": 1.2557
+    },
+    {
+      "level": 5,
+      "description": "Level 5: + Core Allograph (k/f, t/p, SEQ/PED) & Secondary Radical Skeleton",
+      "attested_states": 7428,
+      "cumulative_entropy_bits": 10.4766,
+      "incremental_gain_bits": 0.9625,
+      "cumulative_pct_of_word_entropy": 97.28,
+      "remaining_residual_bits": 0.2932
+    },
+    {
+      "level": 6,
+      "description": "Level 6: Residual Surface Variation (Exact Vowel/Minim Spelling inside L5)",
+      "attested_states": 9053,
+      "cumulative_entropy_bits": 10.7699,
+      "incremental_gain_bits": 0.2932,
+      "cumulative_pct_of_word_entropy": 100.0,
+      "remaining_residual_bits": 0.0
+    }
+  ],
+  "top_multiword_l5_buckets": [
+    {
+      "l5_state": "CLOSED:D_DEIC:AIIN:A_VOW:d:aiin:V",
+      "total_tokens": 793,
+      "unique_words": 3,
+      "within_bucket_entropy_bits": 0.039,
+      "top_words": {
+        "daiin": 790,
+        "doaiin": 2,
+        "deaiin": 1
+      }
+    },
+    {
+      "l5_state": "OPEN:ZERO:CH:OL:O_VOW::ol:ch:V",
+      "total_tokens": 338,
+      "unique_words": 2,
+      "within_bucket_entropy_bits": 0.052,
+      "top_words": {
+        "chol": 336,
+        "chool": 2
+      }
+    },
+    {
+      "l5_state": "OPEN:QO:K_F:Y:E2:qo:y:k:V",
+      "total_tokens": 329,
+      "unique_words": 2,
+      "within_bucket_entropy_bits": 0.409,
+      "top_words": {
+        "qokeey": 302,
+        "qokeeey": 27
+      }
+    },
+    {
+      "l5_state": "OPEN:QO:K_F:DY:E2:qo:dy:k:V",
+      "total_tokens": 309,
+      "unique_words": 2,
+      "within_bucket_entropy_bits": 0.119,
+      "top_words": {
+        "qokeedy": 304,
+        "qokeeedy": 5
+      }
+    },
+    {
+      "l5_state": "OPEN:QO:K_F:AIIN:A_VOW:qo:ain:k:V",
+      "total_tokens": 280,
+      "unique_words": 2,
+      "within_bucket_entropy_bits": 0.061,
+      "top_words": {
+        "qokain": 278,
+        "qokeain": 2
+      }
+    },
+    {
+      "l5_state": "OPEN:QO:K_F:AIIN:A_VOW:qo:aiin:k:V",
+      "total_tokens": 266,
+      "unique_words": 3,
+      "within_bucket_entropy_bits": 0.1,
+      "top_words": {
+        "qokaiin": 263,
+        "qokoaiin": 2,
+        "qokeaiin": 1
+      }
+    },
+    {
+      "l5_state": "OPEN:O_VOW:K_F:AIIN:A_VOW:o:aiin:k:V",
+      "total_tokens": 216,
+      "unique_words": 3,
+      "within_bucket_entropy_bits": 0.152,
+      "top_words": {
+        "okaiin": 212,
+        "okeaiin": 2,
+        "okoaiin": 2
+      }
+    },
+    {
+      "l5_state": "OPEN:O_VOW:K_F:Y:E2:o:y:k:V",
+      "total_tokens": 204,
+      "unique_words": 2,
+      "within_bucket_entropy_bits": 0.55,
+      "top_words": {
+        "okeey": 178,
+        "okeeey": 26
+      }
+    },
+    {
+      "l5_state": "OPEN:ZERO:CH:OR:O_VOW::or:ch:V",
+      "total_tokens": 199,
+      "unique_words": 2,
+      "within_bucket_entropy_bits": 0.113,
+      "top_words": {
+        "chor": 196,
+        "choor": 3
+      }
+    },
+    {
+      "l5_state": "OPEN:QO:K_F:AL:A_VOW:qo:al:k:V",
+      "total_tokens": 192,
+      "unique_words": 2,
+      "within_bucket_entropy_bits": 0.146,
+      "top_words": {
+        "qokal": 188,
+        "qokeal": 4
+      }
+    },
+    {
+      "l5_state": "CLOSED:D_DEIC:AL:A_VOW:d:al:V",
+      "total_tokens": 189,
+      "unique_words": 2,
+      "within_bucket_entropy_bits": 0.048,
+      "top_words": {
+        "dal": 188,
+        "doal": 1
+      }
+    },
+    {
+      "l5_state": "OPEN:ZERO:CH:Y:E2::y:ch:V",
+      "total_tokens": 164,
+      "unique_words": 2,
+      "within_bucket_entropy_bits": 0.281,
+      "top_words": {
+        "cheey": 156,
+        "cheeey": 8
+      }
+    },
+    {
+      "l5_state": "OPEN:O_VOW:T_P:AIIN:A_VOW:o:aiin:t:V",
+      "total_tokens": 156,
+      "unique_words": 3,
+      "within_bucket_entropy_bits": 0.236,
+      "top_words": {
+        "otaiin": 151,
+        "otoaiin": 3,
+        "oteaiin": 2
+      }
+    },
+    {
+      "l5_state": "OPEN:ZERO:CH:OL:EO_DIPH::ol:ch:V",
+      "total_tokens": 155,
+      "unique_words": 2,
+      "within_bucket_entropy_bits": 0.293,
+      "top_words": {
+        "cheol": 147,
+        "cheeol": 8
+      }
+    },
+    {
+      "l5_state": "OPEN:QO:K_F:AR:A_VOW:qo:ar:k:V",
+      "total_tokens": 155,
+      "unique_words": 2,
+      "within_bucket_entropy_bits": 0.265,
+      "top_words": {
+        "qokar": 148,
+        "qokear": 7
+      }
+    },
+    {
+      "l5_state": "CLOSED:S_SIB:AIIN:A_VOW:s:aiin:V",
+      "total_tokens": 153,
+      "unique_words": 2,
+      "within_bucket_entropy_bits": 0.175,
+      "top_words": {
+        "saiin": 149,
+        "soaiin": 4
+      }
+    },
+    {
+      "l5_state": "OPEN:O_VOW:K_F:AL:A_VOW:o:al:k:V",
+      "total_tokens": 148,
+      "unique_words": 2,
+      "within_bucket_entropy_bits": 0.429,
+      "top_words": {
+        "okal": 135,
+        "okeal": 13
+      }
+    },
+    {
+      "l5_state": "OPEN:O_VOW:T_P:Y:E2:o:y:t:V",
+      "total_tokens": 146,
+      "unique_words": 2,
+      "within_bucket_entropy_bits": 0.278,
+      "top_words": {
+        "oteey": 139,
+        "oteeey": 7
+      }
+    },
+    {
+      "l5_state": "OPEN:ZERO:CH:Y:OTHER_V::y:ch:Vk",
+      "total_tokens": 140,
+      "unique_words": 7,
+      "within_bucket_entropy_bits": 1.943,
+      "top_words": {
+        "cheky": 63,
+        "choky": 39,
+        "cheeky": 24,
+        "cheoky": 9,
+        "choeky": 3
+      }
+    },
+    {
+      "l5_state": "OPEN:O_VOW:T_P:AR:A_VOW:o:ar:t:V",
+      "total_tokens": 137,
+      "unique_words": 3,
+      "within_bucket_entropy_bits": 0.377,
+      "top_words": {
+        "otar": 129,
+        "otear": 5,
+        "otoar": 3
+      }
+    }
+  ]
+}

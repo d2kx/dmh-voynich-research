@@ -600,3 +600,32 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
   1. **`99.73%` (`36,130 / 36,229`) Full-Manuscript Coverage Across `419 / 440` Attested Dual-Matrix Cells (`56` Closed-Class + `363` Open-Class)**.
   2. **`68.09%` of Total Unigram Word Entropy Explained ($H(\text{Cell}) = 7.3334\text{ bits}$ of $H(\text{Word}) = 10.7699\text{ bits}$) & Macro-State Bigram Transition Automaton ($z = +31.40$)**.
 
+---
+
+## 61. Attack 61 (`Phase 72`): The Isochronous 3-Mora Stem-Template Law (`|Core| + |V_nuc| = 3`, $z = +507.17$) & Scribe-Hand Nucleus Dialect Conditioning ($z = +286.73$)
+- **Script, Data & Scan**: [`tools/attack61_internal_stem_nucleus_solver.py`](../tools/attack61_internal_stem_nucleus_solver.py) $\to$ [`data/attack61_internal_stem_nucleus_solver.json`](../data/attack61_internal_stem_nucleus_solver.json) & [`pages/f107r_3mora_and_3x3_grid_enh.png`](../pages/f107r_3mora_and_3x3_grid_enh.png)
+- **Key Breakthroughs**:
+  1. **Isochronous 3-Mora Stem-Template Law (`|Core| + |V_nuc| = 3`, $z = +507.17$): `1`-Glyph `k/t` Selects `2`-Loop `E2 (-ee-)` (`51.32%`), `2`-Glyph `ch/sh` Selects `1`-Loop `E1 (-e-)` (`52.59%–57.72%`), and `3`-Glyph `ckh/cth/kch/tch` Selects `0`-Loop `ZERO_V (-0-)` (`51.13%–58.69%`)**.
+  2. **Scribe-Hand Nucleus Dialect Conditioning ($z = +286.73$): Hands 1, 4, and 5 Enrich `-o-/-eo-` (`16.86%–20.61%` vs. `3.18%` in Hand 2)**.
+
+---
+
+## 62. Attack 62 (`Phase 73`): Complete 6-Level Hierarchical Entropy Decomposition of the Voynich Vocabulary (`97.28%` of Total Word Entropy Explained at Level 5)
+- **Script & Data**: [`tools/attack62_subcell_allography_entropy_decomposition.py`](../tools/attack62_subcell_allography_entropy_decomposition.py) $\to$ [`data/attack62_subcell_allography_entropy_decomposition.json`](../data/attack62_subcell_allography_entropy_decomposition.json)
+- **Key Breakthroughs**:
+  1. **Explains `97.28%` (`10.4766 / 10.7699 bits`) of Total Unigram Word Entropy by Level 5 (`Macro-Class [7.58%] -> Dual-Matrix Cell [68.15%] -> Stem Nucleus [81.43%] -> Prefix/Minim Allograph [88.34%] -> Core Allograph & Secondary Radical [97.28%]`), Leaving Only `0.2932 bits` (`2.72%`) of Vowel-Loop Duplication**.
+
+---
+
+## 63. Attack 63 (`Phase 74`): The `3 × 3 = 9`-Zone Two-Dimensional Paragraph Spatial Grid ($z = +411.74$ Within-Paragraph Permutation)
+- **Script & Data**: [`tools/attack63_paragraph_arc_and_sentence_translator.py`](../tools/attack63_paragraph_arc_and_sentence_translator.py) $\to$ [`data/attack63_paragraph_arc_and_sentence_translator.json`](../data/attack63_paragraph_arc_and_sentence_translator.json)
+- **Key Breakthroughs**:
+  1. **2D Paragraph Spatial Grid (`[Top/Mid/Bottom Line] × [Left/Mid/Right Word]`, $z = +411.74$): Concentrates `p/f` Top-Line Gallows in `Z11_TOP_LEFT` (`52.70%`), `y-/s-/sh-` Continuation Openers in `Z21_MID_LEFT` (`32.20%`) & `Z31_BOT_LEFT` (`38.55%`), `qo-` Active Operators in `Z22_MID_MID` (`17.42%`), and `-am/-om/-m` Nasal Closers (`16.32%` in `Z23`) + `-aiin` Measures (`16.35%` in `Z33`) on Right/Bottom Boundaries**.
+
+---
+
+## 64. Attack 64 (`Phase 75`): The Top-500 Core Lexicon (`22,603 / 36,229` Tokens = `62.39%` of the Entire Manuscript) & Complete 6-Level Morphological Decoder ([`notes/TOP500_LEXICON_AND_6LEVEL_DECODER.md`](TOP500_LEXICON_AND_6LEVEL_DECODER.md))
+- **Script, Data & Edition**: [`tools/attack64_top500_lexicon_and_6level_decoder.py`](../tools/attack64_top500_lexicon_and_6level_decoder.py) $\to$ [`data/attack64_top500_lexicon_and_6level_decoder.json`](../data/attack64_top500_lexicon_and_6level_decoder.json) & [`notes/TOP500_LEXICON_AND_6LEVEL_DECODER.md`](TOP500_LEXICON_AND_6LEVEL_DECODER.md)
+- **Key Breakthroughs**:
+  1. **Compiles the Complete 6-Level Morphological, Spatial-Zone, Sectional, and Structural Reference Decoder for the Top 500 Most Frequent Words (`22,603 / 36,229` Tokens = `62.39%` of the Book)**.
+

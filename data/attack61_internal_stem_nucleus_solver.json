@@ -1,0 +1,208 @@
+{
+  "entropy_gain": {
+    "H_word_bits": 10.7699,
+    "H_440_cell_bits": 7.2525,
+    "H_cell_plus_nucleus_bits": 8.5562,
+    "pct_entropy_explained_by_cell_plus_nucleus": 79.45,
+    "H_residual_given_cell_plus_nucleus_bits": 2.2136,
+    "attested_cell_plus_nucleus_states": 1335
+  },
+  "core_weight_compensation": {
+    "mi_bits": 0.21182,
+    "z_score": 507.17,
+    "table": {
+      "K_F": {
+        "total": 2763,
+        "ZERO_V_pct": 13.14,
+        "E1_pct": 26.93,
+        "E2_pct": 51.32,
+        "O_VOW_pct": 1.48,
+        "EO_DIPH_pct": 7.13,
+        "counts": {
+          "E2": 1418,
+          "ZERO_V": 363,
+          "O_VOW": 41,
+          "E1": 744,
+          "EO_DIPH": 197
+        }
+      },
+      "T_P": {
+        "total": 1382,
+        "ZERO_V_pct": 19.61,
+        "E1_pct": 31.4,
+        "E2_pct": 36.4,
+        "O_VOW_pct": 4.7,
+        "EO_DIPH_pct": 7.89,
+        "counts": {
+          "E2": 503,
+          "EO_DIPH": 109,
+          "O_VOW": 65,
+          "ZERO_V": 271,
+          "E1": 434
+        }
+      },
+      "CH": {
+        "total": 2546,
+        "ZERO_V_pct": 23.37,
+        "E1_pct": 52.59,
+        "E2_pct": 14.18,
+        "O_VOW_pct": 4.99,
+        "EO_DIPH_pct": 4.87,
+        "counts": {
+          "ZERO_V": 595,
+          "E1": 1339,
+          "E2": 361,
+          "O_VOW": 127,
+          "EO_DIPH": 124
+        }
+      },
+      "SH": {
+        "total": 1639,
+        "ZERO_V_pct": 14.89,
+        "E1_pct": 57.72,
+        "E2_pct": 18.55,
+        "O_VOW_pct": 4.45,
+        "EO_DIPH_pct": 4.39,
+        "counts": {
+          "ZERO_V": 244,
+          "E1": 946,
+          "O_VOW": 73,
+          "E2": 304,
+          "EO_DIPH": 72
+        }
+      },
+      "KCH_CKH": {
+        "total": 1600,
+        "ZERO_V_pct": 58.69,
+        "E1_pct": 33.19,
+        "E2_pct": 3.31,
+        "O_VOW_pct": 2.69,
+        "EO_DIPH_pct": 2.12,
+        "counts": {
+          "O_VOW": 43,
+          "E1": 531,
+          "ZERO_V": 939,
+          "E2": 53,
+          "EO_DIPH": 34
+        }
+      },
+      "TCH_CTH": {
+        "total": 1676,
+        "ZERO_V_pct": 51.13,
+        "E1_pct": 37.53,
+        "E2_pct": 4.12,
+        "O_VOW_pct": 4.36,
+        "EO_DIPH_pct": 2.86,
+        "counts": {
+          "O_VOW": 73,
+          "ZERO_V": 857,
+          "E1": 629,
+          "E2": 69,
+          "EO_DIPH": 48
+        }
+      }
+    }
+  },
+  "scribe_hand_conditioning": {
+    "mi_bits": 0.10192,
+    "z_score": 286.73,
+    "table": {
+      "Hand_1": {
+        "total": 2290,
+        "ZERO_V_pct": 48.47,
+        "E1_pct": 20.92,
+        "E2_pct": 13.76,
+        "O_plus_EO_pct": 16.86,
+        "E2_to_E1_ratio": 0.658
+      },
+      "Hand_2": {
+        "total": 4346,
+        "ZERO_V_pct": 24.05,
+        "E1_pct": 51.82,
+        "E2_pct": 20.96,
+        "O_plus_EO_pct": 3.18,
+        "E2_to_E1_ratio": 0.405
+      },
+      "Hand_3": {
+        "total": 3732,
+        "ZERO_V_pct": 21.03,
+        "E1_pct": 39.82,
+        "E2_pct": 32.58,
+        "O_plus_EO_pct": 6.56,
+        "E2_to_E1_ratio": 0.818
+      },
+      "Hand_4": {
+        "total": 757,
+        "ZERO_V_pct": 29.19,
+        "E1_pct": 26.02,
+        "E2_pct": 24.17,
+        "O_plus_EO_pct": 20.61,
+        "E2_to_E1_ratio": 0.929
+      },
+      "Hand_5": {
+        "total": 326,
+        "ZERO_V_pct": 22.39,
+        "E1_pct": 42.94,
+        "E2_pct": 14.11,
+        "O_plus_EO_pct": 20.55,
+        "E2_to_E1_ratio": 0.329
+      }
+    }
+  },
+  "constant_cell_quintuplets": [
+    {
+      "paradigm": "ch- + -dy (chdy / chedy / cheedy / chody / cheody)",
+      "total": 828,
+      "ZERO_V": 133,
+      "E1": 450,
+      "E2": 57,
+      "O_VOW": 90,
+      "EO_DIPH": 98
+    },
+    {
+      "paradigm": "sh- + -dy (shdy / shedy / sheedy / shody / sheody)",
+      "total": 603,
+      "ZERO_V": 44,
+      "E1": 381,
+      "E2": 75,
+      "O_VOW": 53,
+      "EO_DIPH": 50
+    },
+    {
+      "paradigm": "qok- + -dy (qokdy / qokedy / qokeedy / qokody / qokeody)",
+      "total": 661,
+      "ZERO_V": 4,
+      "E1": 276,
+      "E2": 323,
+      "O_VOW": 9,
+      "EO_DIPH": 49
+    },
+    {
+      "paradigm": "qot- + -dy (qotdy / qotedy / qoteedy / qotody / qoteody)",
+      "total": 197,
+      "ZERO_V": 2,
+      "E1": 88,
+      "E2": 79,
+      "O_VOW": 11,
+      "EO_DIPH": 17
+    },
+    {
+      "paradigm": "ok- + -dy (okdy / okedy / okeedy / okody / okeody)",
+      "total": 314,
+      "ZERO_V": 2,
+      "E1": 119,
+      "E2": 117,
+      "O_VOW": 18,
+      "EO_DIPH": 58
+    },
+    {
+      "paradigm": "ot- + -dy (otdy / otedy / oteedy / otody / oteody)",
+      "total": 351,
+      "ZERO_V": 2,
+      "E1": 160,
+      "E2": 109,
+      "O_VOW": 26,
+      "EO_DIPH": 54
+    }
+  ]
+}

@@ -506,6 +506,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 70. The Isochronous 3-Mora Stem-Template Law (`|Core| + |V_nuc| = 3`, $z = +507.17$) & Scribe-Hand Nucleus Dialect Conditioning ($z = +286.73$, `Attack 61`)
+- **Isochronous 3-Mora Stem-Template Law (`|Core| + |V_nuc| = 3`, `pages/f107r_3mora_and_3x3_grid_enh.png`)**: Across `11,606` `-dy/-y` open-class tokens, 1-glyph simplex gallows (`k/f`, `t/p`) select 2-loop `E2 (-ee-)` (`51.32%` in `K_F`: `1+2=3`, `qokeedy, qokeey`), 2-glyph simplex bench (`ch`, `sh`) selects 1-loop `E1 (-e-)` (`52.59%–57.72%`: `2+1=3`, `chedy, shedy`), and 3-glyph gallows-bench complexes (`ckh/cth/kch/tch`) select 0-loop `ZERO_V (-0-)` (`51.13%–58.69%`: `3+0=3`, `cthy, ckhy`), while Scribe Hands 1, 4, and 5 enrich `-o-/-eo-` (`16.86%–20.61%` vs. `3.18%` in Hand 2, $z = +286.73$).
+
+---
+
+### 71. Complete 6-Level Hierarchical Entropy Decomposition of the Voynich Vocabulary (`97.28%` of Total Word Entropy Explained at Level 5, `Attack 62`)
+- **`97.28%` (`10.4766 / 10.7699 bits`) Explained by Level 5**: Decomposing $H(\text{Word}) = 10.7699\text{ bits}$ across Level 1 Macro-Class (`7.58%`) $\to$ Level 2 Dual-Matrix Cell (`68.15%`) $\to$ Level 3 Internal Stem Nucleus (`81.43%`) $\to$ Level 4 Prefix/Minim Allograph (`88.34%`) $\to$ Level 5 Core Allograph & Secondary Radical (`97.28%`) leaves only `0.2932 bits` (`2.72%`) of vowel-loop duplication (`qokeey <-> qokeeey`, `chol <-> chool`).
+
+---
+
+### 72. The `3 × 3 = 9`-Zone Two-Dimensional Paragraph Spatial Grid ($z = +411.74$ Within-Paragraph Permutation, `Attack 63`)
+- **`3 × 3` 2D Paragraph Spatial Grid ($z = +411.74$)**: Across `742` multi-line paragraphs (`32,592` tokens), crossing `[Top/Mid/Bottom Line]` × `[Left/Mid/Right Word]` concentrates `p/f` top-line gallows in `Z11_TOP_LEFT` (`52.70%`, `36.8×` lift), `y-/s-/sh-` continuation openers in `Z21_MID_LEFT` (`32.20%`) and `Z31_BOT_LEFT` (`38.55%`), `qo-` active operators in `Z22_MID_MID` (`17.42%`), and `-am/-om/-m` nasal closers (`16.32%` in `Z23_MID_RIGHT`) + `-aiin` measures (`16.35%` in `Z33_BOT_RIGHT`) along the right/bottom boundaries.
+
+---
+
+### 73. The Top-500 Core Lexicon (`22,603 / 36,229` Tokens = `62.39%` of the Entire Manuscript) & Complete 6-Level Morphological Decoder ([`notes/TOP500_LEXICON_AND_6LEVEL_DECODER.md`](notes/TOP500_LEXICON_AND_6LEVEL_DECODER.md), `Attack 64`)
+- **Complete Top-500 Word Parse (`22,603 / 36,229` Tokens = `62.39%` of the Book)**: Compiles the 6-Level Morphological & Spatial-Zone Reference Decoder for the Top 500 words in **[`notes/TOP500_LEXICON_AND_6LEVEL_DECODER.md`](notes/TOP500_LEXICON_AND_6LEVEL_DECODER.md)**.
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -597,5 +617,10 @@ python tools/attack57_open_class_gallows_bench_matrix.py
 python tools/attack58_ch_vs_sh_plume_contrast_solver.py
 python tools/attack59_k_vs_t_gallows_contrast_solver.py
 python tools/attack60_dual_matrix_complete_generative_grammar.py
+python tools/attack61_internal_stem_nucleus_solver.py
+python tools/attack62_subcell_allography_entropy_decomposition.py
+python tools/attack63_paragraph_arc_and_sentence_translator.py
+python tools/attack64_top500_lexicon_and_6level_decoder.py
 ```
+
 
