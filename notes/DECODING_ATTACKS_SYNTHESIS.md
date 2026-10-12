@@ -538,3 +538,32 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Script, Data & Edition**: [`tools/attack52_complete_proclitic_and_top100_word_parser.py`](../tools/attack52_complete_proclitic_and_top100_word_parser.py) $\to$ [`data/attack52_complete_proclitic_and_top100_word_parser.json`](../data/attack52_complete_proclitic_and_top100_word_parser.json) & [`notes/TOP100_WORD_COMPLETE_GRAMMAR_TABLE.md`](TOP100_WORD_COMPLETE_GRAMMAR_TABLE.md)
 - **Key Breakthroughs**:
   1. **Complete Top-100 Word Parse (`14,206 / 36,229` Tokens = `39.21%` of the Book) with `1.003 : 1.000` Equilibrium Between `CH_VERB` (`2,823`) and `Q_ACT` (`2,815`)**.
+
+---
+
+## 53. Attack 53 (`Phase 64`): The `s-` Sibilant Paradigm (`saiin`, `sar`, `sal`, `sor`, `sol`, `sair`, `sam`) & `d- <-> s-` Continuation Line-Initial Contrast (`2.43×` Lift, $z = +10.45, p < 10^{-24}$)
+- **Script & Data**: [`tools/attack53_s_sibilant_paradigm_and_d_s_contrast.py`](../tools/attack53_s_sibilant_paradigm_and_d_s_contrast.py) $\to$ [`data/attack53_s_sibilant_paradigm_and_d_s_contrast.json`](../data/attack53_s_sibilant_paradigm_and_d_s_contrast.json)
+- **Key Breakthroughs**:
+  1. **`2.43×` Continuation Line-Initial Enrichment of `S-` (`42.73%`) vs. `D-` (`17.62%`) Across All 7 Shared Suffix Slots ($z = +10.45, p < 10^{-24}$)**.
+
+---
+
+## 54. Attack 54 (`Phase 65`): Complementary Functional Specialization of `r-` (Post-Verbal Quantitative/Portion Complement) vs. `l-` (Verbal Liquid-Applicative, Odds Ratio `50.2×`, $z = +16.77, p < 10^{-62}$)
+- **Script & Data**: [`tools/attack54_r_liquid_onset_and_coda_system.py`](../tools/attack54_r_liquid_onset_and_coda_system.py) $\to$ [`data/attack54_r_liquid_onset_and_coda_system.json`](../data/attack54_r_liquid_onset_and_coda_system.json)
+- **Key Breakthroughs**:
+  1. **`50.2×` Odds-Ratio Functional Split Between `R-` (`82.7%` Quantitative/Portion) and `L-` (`91.3%` Verbal Applicative, $z = +16.77$)**.
+  2. **`99.36%` (`156 / 157`) Line-Initial Prohibition of `raiin/ral/rar/rol/ror/rody` & `100.0%` (`20 / 20`) Line-Final Placement of `ram/rom/lam/lom`**.
+
+---
+
+## 55. Attack 55 (`Phase 66`): The `7 × 8` Closed-Class Function-Word Paradigm Matrix (`8,540 / 8,700` = `98.16%` of All Non-Gallows, Non-Bench Tokens, Row Onset MI $z = +137.96$, Column Coda MI $z = +173.56$)
+- **Script & Data**: [`tools/attack55_seven_series_closed_class_matrix.py`](../tools/attack55_seven_series_closed_class_matrix.py) $\to$ [`data/attack55_seven_series_closed_class_matrix.json`](../data/attack55_seven_series_closed_class_matrix.json)
+- **Key Breakthroughs**:
+  1. **`98.16%` (`8,540 / 8,700`) Closed-Class Coverage in a Single `7 × 8 = 56`-Cell Grid with Orthogonal Positional Factorization ($z_{\text{row}} = +137.96, z_{\text{col}} = +173.56$)**.
+
+---
+
+## 56. Attack 56 (`Phase 67`): The Top-250 Core Lexicon (`52.75%` of the Entire Manuscript) & Complete `7 × 8` Closed-Class Reference Grammar ([`notes/TOP250_LEXICON_AND_REFERENCE_GRAMMAR.md`](TOP250_LEXICON_AND_REFERENCE_GRAMMAR.md))
+- **Script, Data & Edition**: [`tools/attack56_top250_lexicon_and_reference_grammar.py`](../tools/attack56_top250_lexicon_and_reference_grammar.py) $\to$ [`data/attack56_top250_lexicon_and_reference_grammar.json`](../data/attack56_top250_lexicon_and_reference_grammar.json) & [`notes/TOP250_LEXICON_AND_REFERENCE_GRAMMAR.md`](TOP250_LEXICON_AND_REFERENCE_GRAMMAR.md)
+- **Key Breakthroughs**:
+  1. **Compiles the Complete `7 × 8` Closed-Class Matrix and Exhaustively Parses the Top 250 Most Frequent Words (`19,112 / 36,229` Tokens = `52.75%` of the Book)**.

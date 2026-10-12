@@ -1,0 +1,345 @@
+{
+  "summary": {
+    "total_corpus_tokens": 36229,
+    "non_gallows_non_bench_tokens": 8700,
+    "non_gb_corpus_share": 0.2401,
+    "mapped_7x8_tokens": 8540,
+    "mapped_share_of_non_gb": 0.9816,
+    "row_onset_position_mi_bits": 0.06342,
+    "row_onset_position_z_score": 137.96,
+    "col_coda_position_mi_bits": 0.09281,
+    "col_coda_position_z_score": 173.56
+  },
+  "matrix_table": {
+    "O_ZERO": {
+      "row_total": 3493,
+      "line_init_rate": 0.0583,
+      "line_mid_rate": 0.752,
+      "line_final_rate": 0.1897,
+      "cells": {
+        "AIIN": {
+          "count": 897,
+          "top_words": "aiin(321)/ain(71)"
+        },
+        "OL": {
+          "count": 460,
+          "top_words": "ol(392)/olol(15)"
+        },
+        "OR": {
+          "count": 365,
+          "top_words": "or(280)/olor(29)"
+        },
+        "AL": {
+          "count": 274,
+          "top_words": "al(167)/aral(22)"
+        },
+        "AR": {
+          "count": 396,
+          "top_words": "ar(274)/odar(23)"
+        },
+        "AIR": {
+          "count": 108,
+          "top_words": "air(44)/aiir(19)"
+        },
+        "AM": {
+          "count": 170,
+          "top_words": "am(56)/om(14)"
+        },
+        "Y_BARE": {
+          "count": 823,
+          "top_words": "o(89)/oly(60)"
+        }
+      }
+    },
+    "Y": {
+      "row_total": 231,
+      "line_init_rate": 0.3158,
+      "line_mid_rate": 0.5421,
+      "line_final_rate": 0.1421,
+      "cells": {
+        "AIIN": {
+          "count": 41,
+          "top_words": "ydaiin(19)/ydain(6)"
+        },
+        "OL": {
+          "count": 5,
+          "top_words": "yol(3)/ydairol(1)"
+        },
+        "OR": {
+          "count": 6,
+          "top_words": "yor(3)/ydor(1)"
+        },
+        "AL": {
+          "count": 6,
+          "top_words": "ydal(3)/ysaldal(1)"
+        },
+        "AR": {
+          "count": 6,
+          "top_words": "ydar(3)/yoar(1)"
+        },
+        "AIR": {
+          "count": 9,
+          "top_words": "yair(3)/yaiir(2)"
+        },
+        "AM": {
+          "count": 3,
+          "top_words": "ydam(3)"
+        },
+        "Y_BARE": {
+          "count": 155,
+          "top_words": "y(122)/ydy(6)"
+        }
+      }
+    },
+    "Q": {
+      "row_total": 552,
+      "line_init_rate": 0.1142,
+      "line_mid_rate": 0.8177,
+      "line_final_rate": 0.0681,
+      "cells": {
+        "AIIN": {
+          "count": 131,
+          "top_words": "qodaiin(43)/qoaiin(23)"
+        },
+        "OL": {
+          "count": 124,
+          "top_words": "qol(109)/qoeol(5)"
+        },
+        "OR": {
+          "count": 40,
+          "top_words": "qor(21)/qoor(10)"
+        },
+        "AL": {
+          "count": 16,
+          "top_words": "qodal(7)/qoal(4)"
+        },
+        "AR": {
+          "count": 35,
+          "top_words": "qodar(10)/qoar(9)"
+        },
+        "AIR": {
+          "count": 9,
+          "top_words": "qodair(3)/qoair(3)"
+        },
+        "AM": {
+          "count": 5,
+          "top_words": "qodam(3)/qodom(1)"
+        },
+        "Y_BARE": {
+          "count": 192,
+          "top_words": "qo(27)/qoeedy(18)"
+        }
+      }
+    },
+    "D": {
+      "row_total": 2619,
+      "line_init_rate": 0.1487,
+      "line_mid_rate": 0.6199,
+      "line_final_rate": 0.2314,
+      "cells": {
+        "AIIN": {
+          "count": 1070,
+          "top_words": "daiin(790)/dain(195)"
+        },
+        "OL": {
+          "count": 111,
+          "top_words": "dol(91)/dalol(7)"
+        },
+        "OR": {
+          "count": 80,
+          "top_words": "dor(59)/dalor(8)"
+        },
+        "AL": {
+          "count": 226,
+          "top_words": "dal(188)/dairal(9)"
+        },
+        "AR": {
+          "count": 307,
+          "top_words": "dar(277)/dalar(6)"
+        },
+        "AIR": {
+          "count": 124,
+          "top_words": "dair(91)/daiir(19)"
+        },
+        "AM": {
+          "count": 139,
+          "top_words": "dam(74)/daim(10)"
+        },
+        "Y_BARE": {
+          "count": 562,
+          "top_words": "dy(182)/d(38)"
+        }
+      }
+    },
+    "S": {
+      "row_total": 981,
+      "line_init_rate": 0.3372,
+      "line_mid_rate": 0.5035,
+      "line_final_rate": 0.1593,
+      "cells": {
+        "AIIN": {
+          "count": 291,
+          "top_words": "saiin(149)/sain(67)"
+        },
+        "OL": {
+          "count": 63,
+          "top_words": "sol(50)/sarol(4)"
+        },
+        "OR": {
+          "count": 51,
+          "top_words": "sor(46)/sosor(1)"
+        },
+        "AL": {
+          "count": 67,
+          "top_words": "sal(48)/saral(5)"
+        },
+        "AR": {
+          "count": 84,
+          "top_words": "sar(67)/sodar(5)"
+        },
+        "AIR": {
+          "count": 40,
+          "top_words": "sair(26)/saiir(4)"
+        },
+        "AM": {
+          "count": 27,
+          "top_words": "sam(11)/saim(3)"
+        },
+        "Y_BARE": {
+          "count": 358,
+          "top_words": "s(214)/sy(33)"
+        }
+      }
+    },
+    "L": {
+      "row_total": 332,
+      "line_init_rate": 0.0654,
+      "line_mid_rate": 0.598,
+      "line_final_rate": 0.3366,
+      "cells": {
+        "AIIN": {
+          "count": 50,
+          "top_words": "laiin(10)/lain(6)"
+        },
+        "OL": {
+          "count": 35,
+          "top_words": "lol(32)/ldol(2)"
+        },
+        "OR": {
+          "count": 40,
+          "top_words": "lor(36)/ldalor(1)"
+        },
+        "AL": {
+          "count": 6,
+          "top_words": "lal(5)/loral(1)"
+        },
+        "AR": {
+          "count": 18,
+          "top_words": "lar(6)/ldar(5)"
+        },
+        "AIR": {
+          "count": 5,
+          "top_words": "lsair(2)/losair(1)"
+        },
+        "AM": {
+          "count": 14,
+          "top_words": "lom(4)/lam(4)"
+        },
+        "Y_BARE": {
+          "count": 164,
+          "top_words": "l(58)/ldy(21)"
+        }
+      }
+    },
+    "R": {
+      "row_total": 332,
+      "line_init_rate": 0.02,
+      "line_mid_rate": 0.7,
+      "line_final_rate": 0.28,
+      "cells": {
+        "AIIN": {
+          "count": 101,
+          "top_words": "raiin(62)/rain(22)"
+        },
+        "OL": {
+          "count": 27,
+          "top_words": "rol(21)/rorol(3)"
+        },
+        "OR": {
+          "count": 13,
+          "top_words": "ror(13)"
+        },
+        "AL": {
+          "count": 20,
+          "top_words": "ral(15)/raral(1)"
+        },
+        "AR": {
+          "count": 17,
+          "top_words": "rar(15)/rodar(1)"
+        },
+        "AIR": {
+          "count": 5,
+          "top_words": "rair(3)/roiir(1)"
+        },
+        "AM": {
+          "count": 19,
+          "top_words": "ram(12)/raram(3)"
+        },
+        "Y_BARE": {
+          "count": 130,
+          "top_words": "r(88)/ry(9)"
+        }
+      }
+    }
+  },
+  "column_summary": {
+    "AIIN": {
+      "col_total": 2581,
+      "line_init_rate": 0.1832,
+      "line_mid_rate": 0.6946,
+      "line_final_rate": 0.1221
+    },
+    "OL": {
+      "col_total": 825,
+      "line_init_rate": 0.1227,
+      "line_mid_rate": 0.7494,
+      "line_final_rate": 0.1279
+    },
+    "OR": {
+      "col_total": 595,
+      "line_init_rate": 0.164,
+      "line_mid_rate": 0.7351,
+      "line_final_rate": 0.1009
+    },
+    "AL": {
+      "col_total": 615,
+      "line_init_rate": 0.0717,
+      "line_mid_rate": 0.7035,
+      "line_final_rate": 0.2248
+    },
+    "AR": {
+      "col_total": 863,
+      "line_init_rate": 0.1331,
+      "line_mid_rate": 0.7379,
+      "line_final_rate": 0.129
+    },
+    "AIR": {
+      "col_total": 300,
+      "line_init_rate": 0.2419,
+      "line_mid_rate": 0.7177,
+      "line_final_rate": 0.0403
+    },
+    "AM": {
+      "col_total": 377,
+      "line_init_rate": 0.0151,
+      "line_mid_rate": 0.2199,
+      "line_final_rate": 0.7651
+    },
+    "Y_BARE": {
+      "col_total": 2384,
+      "line_init_rate": 0.0666,
+      "line_mid_rate": 0.6365,
+      "line_final_rate": 0.2969
+    }
+  }
+}

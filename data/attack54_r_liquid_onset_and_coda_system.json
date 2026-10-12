@@ -1,0 +1,206 @@
+{
+  "summary": {
+    "r_series_tokens_in_9slots": 195,
+    "l_series_tokens_in_9slots": 491,
+    "r_line_final_rate": 0.2872,
+    "l_line_final_rate": 0.1731,
+    "r_vs_l_line_final_lift": 1.66,
+    "slot_stratified_line_final_z_score": 1.22,
+    "r_preceded_by_o_rate": 0.1061,
+    "l_preceded_by_o_rate": 0.0814
+  },
+  "slot_comparison": {
+    "AIIN": {
+      "r_forms": [
+        "raiin",
+        "rain"
+      ],
+      "l_forms": [
+        "laiin",
+        "lain"
+      ],
+      "r_count": 83,
+      "l_count": 16,
+      "r_init_rate": 0.012,
+      "l_init_rate": 0.125,
+      "r_final_rate": 0.1325,
+      "l_final_rate": 0.0625
+    },
+    "AM": {
+      "r_forms": [
+        "ram",
+        "rom"
+      ],
+      "l_forms": [
+        "lam",
+        "lom"
+      ],
+      "r_count": 12,
+      "l_count": 8,
+      "r_init_rate": 0.0,
+      "l_init_rate": 0.0,
+      "r_final_rate": 1.0,
+      "l_final_rate": 1.0
+    },
+    "AL": {
+      "r_forms": [
+        "ral"
+      ],
+      "l_forms": [
+        "lal"
+      ],
+      "r_count": 14,
+      "l_count": 4,
+      "r_init_rate": 0.0,
+      "l_init_rate": 0.0,
+      "r_final_rate": 0.3571,
+      "l_final_rate": 0.25
+    },
+    "AR": {
+      "r_forms": [
+        "rar"
+      ],
+      "l_forms": [
+        "lar"
+      ],
+      "r_count": 15,
+      "l_count": 6,
+      "r_init_rate": 0.0,
+      "l_init_rate": 0.0,
+      "r_final_rate": 0.1333,
+      "l_final_rate": 0.5
+    },
+    "OL": {
+      "r_forms": [
+        "rol"
+      ],
+      "l_forms": [
+        "lol"
+      ],
+      "r_count": 21,
+      "l_count": 31,
+      "r_init_rate": 0.0,
+      "l_init_rate": 0.1935,
+      "r_final_rate": 0.381,
+      "l_final_rate": 0.3871
+    },
+    "OR": {
+      "r_forms": [
+        "ror"
+      ],
+      "l_forms": [
+        "lor"
+      ],
+      "r_count": 13,
+      "l_count": 36,
+      "r_init_rate": 0.0,
+      "l_init_rate": 0.1389,
+      "r_final_rate": 0.3846,
+      "l_final_rate": 0.1667
+    },
+    "ODY": {
+      "r_forms": [
+        "rody",
+        "rdy",
+        "ry"
+      ],
+      "l_forms": [
+        "lody",
+        "ldy",
+        "ly"
+      ],
+      "r_count": 11,
+      "l_count": 32,
+      "r_init_rate": 0.0,
+      "l_init_rate": 0.0,
+      "r_final_rate": 0.8182,
+      "l_final_rate": 0.5938
+    },
+    "CH_VERB": {
+      "r_forms": [
+        "rchedy",
+        "rshedy",
+        "rchey",
+        "rshey"
+      ],
+      "l_forms": [
+        "lchedy",
+        "lshedy",
+        "lchey",
+        "lshey"
+      ],
+      "r_count": 25,
+      "l_count": 209,
+      "r_init_rate": 0.04,
+      "l_init_rate": 0.067,
+      "r_final_rate": 0.16,
+      "l_final_rate": 0.1148
+    },
+    "K_VERB": {
+      "r_forms": [
+        "rkedy",
+        "rkeedy",
+        "rkeey",
+        "rkaiin"
+      ],
+      "l_forms": [
+        "lkedy",
+        "lkeedy",
+        "lkeey",
+        "lkaiin"
+      ],
+      "r_count": 1,
+      "l_count": 149,
+      "r_init_rate": 0.0,
+      "l_init_rate": 0.0201,
+      "r_final_rate": 0.0,
+      "l_final_rate": 0.0738
+    }
+  },
+  "prev_ending_rates": {
+    "R": {
+      "ends_in_y_dy": 0.6818,
+      "ends_in_l": 0.1394,
+      "ends_in_o (cheo/sheo/o)": 0.1061,
+      "ends_in_r": 0.0364,
+      "other": 0.0242,
+      "ends_in_in": 0.0121
+    },
+    "L": {
+      "ends_in_y_dy": 0.6509,
+      "ends_in_l": 0.1514,
+      "ends_in_o (cheo/sheo/o)": 0.0814,
+      "ends_in_r": 0.042,
+      "other": 0.0411,
+      "ends_in_in": 0.0332
+    }
+  },
+  "top_prev_words_before_R": {
+    "qokeey": 14,
+    "qokeedy": 10,
+    "chey": 8,
+    "chedy": 7,
+    "qotedy": 7,
+    "ol": 7,
+    "cheey": 7,
+    "qokedy": 6,
+    "lchedy": 5,
+    "qol": 5,
+    "cho": 4,
+    "okeey": 4
+  },
+  "top_prev_words_before_L": {
+    "chey": 33,
+    "qokeey": 33,
+    "chedy": 29,
+    "okeey": 26,
+    "qokeedy": 25,
+    "qokedy": 23,
+    "ol": 19,
+    "cheey": 14,
+    "qokey": 13,
+    "shey": 13,
+    "oteey": 13,
+    "lchedy": 13
+  }
+}

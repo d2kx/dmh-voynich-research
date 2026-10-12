@@ -1,0 +1,118 @@
+{
+  "summary": {
+    "d_series_total_prose_tokens": 1686,
+    "s_series_total_prose_tokens": 440,
+    "d_line_init_rate": 0.1785,
+    "s_line_init_rate": 0.4409,
+    "d_continuation_line_init_rate": 0.1762,
+    "s_continuation_line_init_rate": 0.4273,
+    "s_vs_d_continuation_init_lift": 2.43,
+    "slot_stratified_permutation_z_score": 10.45
+  },
+  "slot_comparison": {
+    "AIIN": {
+      "d_forms": [
+        "daiin",
+        "dain"
+      ],
+      "s_forms": [
+        "saiin",
+        "sain"
+      ],
+      "d_count": 957,
+      "s_count": 210,
+      "d_line_init_rate": 0.2142,
+      "s_line_init_rate": 0.4476,
+      "d_line_final_rate": 0.1473,
+      "s_line_final_rate": 0.0857
+    },
+    "AR": {
+      "d_forms": [
+        "dar"
+      ],
+      "s_forms": [
+        "sar"
+      ],
+      "d_count": 246,
+      "s_count": 60,
+      "d_line_init_rate": 0.1341,
+      "s_line_init_rate": 0.4167,
+      "d_line_final_rate": 0.1463,
+      "s_line_final_rate": 0.1667
+    },
+    "AL": {
+      "d_forms": [
+        "dal"
+      ],
+      "s_forms": [
+        "sal"
+      ],
+      "d_count": 171,
+      "s_count": 42,
+      "d_line_init_rate": 0.0234,
+      "s_line_init_rate": 0.2857,
+      "d_line_final_rate": 0.2456,
+      "s_line_final_rate": 0.2857
+    },
+    "OR": {
+      "d_forms": [
+        "dor"
+      ],
+      "s_forms": [
+        "sor"
+      ],
+      "d_count": 58,
+      "s_count": 45,
+      "d_line_init_rate": 0.3103,
+      "s_line_init_rate": 0.6,
+      "d_line_final_rate": 0.069,
+      "s_line_final_rate": 0.0444
+    },
+    "OL": {
+      "d_forms": [
+        "dol"
+      ],
+      "s_forms": [
+        "sol"
+      ],
+      "d_count": 87,
+      "s_count": 47,
+      "d_line_init_rate": 0.1494,
+      "s_line_init_rate": 0.5106,
+      "d_line_final_rate": 0.0575,
+      "s_line_final_rate": 0.0426
+    },
+    "AIR": {
+      "d_forms": [
+        "dair",
+        "daiir"
+      ],
+      "s_forms": [
+        "sair",
+        "saiir"
+      ],
+      "d_count": 89,
+      "s_count": 26,
+      "d_line_init_rate": 0.3146,
+      "s_line_init_rate": 0.4231,
+      "d_line_final_rate": 0.0562,
+      "s_line_final_rate": 0.0
+    },
+    "AM": {
+      "d_forms": [
+        "dam",
+        "dom"
+      ],
+      "s_forms": [
+        "sam",
+        "som"
+      ],
+      "d_count": 78,
+      "s_count": 10,
+      "d_line_init_rate": 0.0,
+      "s_line_init_rate": 0.1,
+      "d_line_final_rate": 0.6667,
+      "s_line_final_rate": 0.7
+    }
+  }
+}
