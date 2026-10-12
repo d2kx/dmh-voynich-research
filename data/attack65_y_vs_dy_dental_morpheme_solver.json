@@ -1,0 +1,331 @@
+{
+  "totals": {
+    "matched_tokens": 5426,
+    "Y_tokens": 2326,
+    "DY_tokens": 3100,
+    "DY_share_pct": 57.13
+  },
+  "hypothesis_z_scores": {
+    "currier_B_vs_A_DY_z": 23.84,
+    "DY_to_QO_ACT_licensing_z": 8.68,
+    "DY_to_DAIIN_dental_dissimilation_z": -6.93,
+    "line_final_base_stratified_z": -2.15
+  },
+  "stem_nucleus_interaction": {
+    "O_EO": {
+      "Y": 52,
+      "DY": 440,
+      "total": 492,
+      "DY_share_pct": 89.43
+    },
+    "OL_LIQ": {
+      "Y": 33,
+      "DY": 39,
+      "total": 72,
+      "DY_share_pct": 54.17
+    },
+    "E1_E": {
+      "Y": 846,
+      "DY": 1643,
+      "total": 2489,
+      "DY_share_pct": 66.01
+    },
+    "E2_EE": {
+      "Y": 985,
+      "DY": 761,
+      "total": 1746,
+      "DY_share_pct": 43.59
+    },
+    "ZERO_CONS": {
+      "Y": 410,
+      "DY": 217,
+      "total": 627,
+      "DY_share_pct": 34.61
+    }
+  },
+  "currier_language_table": {
+    "A": {
+      "Y": 685,
+      "DY": 195,
+      "total": 880,
+      "DY_share_pct": 22.16
+    },
+    "B": {
+      "Y": 1469,
+      "DY": 2788,
+      "total": 4257,
+      "DY_share_pct": 65.49
+    }
+  },
+  "scribe_hand_table": {
+    "Hand_1": {
+      "Y": 655,
+      "DY": 187,
+      "total": 842,
+      "DY_share_pct": 22.21
+    },
+    "Hand_2": {
+      "Y": 623,
+      "DY": 1533,
+      "total": 2156,
+      "DY_share_pct": 71.1
+    },
+    "Hand_3": {
+      "Y": 826,
+      "DY": 1072,
+      "total": 1898,
+      "DY_share_pct": 56.48
+    },
+    "Hand_4": {
+      "Y": 171,
+      "DY": 149,
+      "total": 320,
+      "DY_share_pct": 46.56
+    },
+    "Hand_5": {
+      "Y": 32,
+      "DY": 119,
+      "total": 151,
+      "DY_share_pct": 78.81
+    }
+  },
+  "right_context_licensing": {
+    "LINE_FINAL": {
+      "after_Y_pct": 6.88,
+      "after_DY_pct": 8.19,
+      "DY_over_Y_ratio": 1.19
+    },
+    "QO_ACT": {
+      "after_Y_pct": 22.83,
+      "after_DY_pct": 33.16,
+      "DY_over_Y_ratio": 1.45
+    },
+    "CH_SH_VERB": {
+      "after_Y_pct": 15.0,
+      "after_DY_pct": 17.0,
+      "DY_over_Y_ratio": 1.13
+    },
+    "DAIIN_AIIN": {
+      "after_Y_pct": 3.96,
+      "after_DY_pct": 1.03,
+      "DY_over_Y_ratio": 0.26
+    },
+    "OK_OT_GALLOWS": {
+      "after_Y_pct": 10.88,
+      "after_DY_pct": 13.32,
+      "DY_over_Y_ratio": 1.22
+    },
+    "D_S_PREP": {
+      "after_Y_pct": 8.25,
+      "after_DY_pct": 6.65,
+      "DY_over_Y_ratio": 0.81
+    },
+    "O_L_R_NOM": {
+      "after_Y_pct": 19.13,
+      "after_DY_pct": 15.35,
+      "DY_over_Y_ratio": 0.8
+    }
+  },
+  "top_matched_pairs": [
+    {
+      "base": "che",
+      "y_word": "chey",
+      "dy_word": "chedy",
+      "y_count": 297,
+      "dy_count": 450,
+      "DY_share_pct": 60.24,
+      "y_final_pct": 6.4,
+      "dy_final_pct": 7.8
+    },
+    {
+      "base": "she",
+      "y_word": "shey",
+      "dy_word": "shedy",
+      "y_count": 238,
+      "dy_count": 381,
+      "DY_share_pct": 61.55,
+      "y_final_pct": 4.6,
+      "dy_final_pct": 4.7
+    },
+    {
+      "base": "qokee",
+      "y_word": "qokeey",
+      "dy_word": "qokeedy",
+      "y_count": 302,
+      "dy_count": 304,
+      "DY_share_pct": 50.17,
+      "y_final_pct": 3.3,
+      "dy_final_pct": 1.3
+    },
+    {
+      "base": "qoke",
+      "y_word": "qokey",
+      "dy_word": "qokedy",
+      "y_count": 102,
+      "dy_count": 272,
+      "DY_share_pct": 72.73,
+      "y_final_pct": 4.9,
+      "dy_final_pct": 3.7
+    },
+    {
+      "base": "ch",
+      "y_word": "chy",
+      "dy_word": "chdy",
+      "y_count": 154,
+      "dy_count": 133,
+      "DY_share_pct": 46.34,
+      "y_final_pct": 7.8,
+      "dy_final_pct": 14.3
+    },
+    {
+      "base": "okee",
+      "y_word": "okeey",
+      "dy_word": "okeedy",
+      "y_count": 178,
+      "dy_count": 106,
+      "DY_share_pct": 37.32,
+      "y_final_pct": 5.1,
+      "dy_final_pct": 10.4
+    },
+    {
+      "base": "otee",
+      "y_word": "oteey",
+      "dy_word": "oteedy",
+      "y_count": 139,
+      "dy_count": 105,
+      "DY_share_pct": 43.03,
+      "y_final_pct": 5.8,
+      "dy_final_pct": 7.6
+    },
+    {
+      "base": "ote",
+      "y_word": "otey",
+      "dy_word": "otedy",
+      "y_count": 56,
+      "dy_count": 158,
+      "DY_share_pct": 73.83,
+      "y_final_pct": 3.6,
+      "dy_final_pct": 10.1
+    },
+    {
+      "base": "chee",
+      "y_word": "cheey",
+      "dy_word": "cheedy",
+      "y_count": 156,
+      "dy_count": 57,
+      "DY_share_pct": 26.76,
+      "y_final_pct": 2.6,
+      "dy_final_pct": 7.0
+    },
+    {
+      "base": "shee",
+      "y_word": "sheey",
+      "dy_word": "sheedy",
+      "y_count": 129,
+      "dy_count": 75,
+      "DY_share_pct": 36.76,
+      "y_final_pct": 3.9,
+      "dy_final_pct": 0.0
+    },
+    {
+      "base": "oke",
+      "y_word": "okey",
+      "dy_word": "okedy",
+      "y_count": 62,
+      "dy_count": 119,
+      "DY_share_pct": 65.75,
+      "y_final_pct": 8.1,
+      "dy_final_pct": 7.6
+    },
+    {
+      "base": "lche",
+      "y_word": "lchey",
+      "dy_word": "lchedy",
+      "y_count": 42,
+      "dy_count": 110,
+      "DY_share_pct": 72.37,
+      "y_final_pct": 11.9,
+      "dy_final_pct": 14.5
+    },
+    {
+      "base": "sh",
+      "y_word": "shy",
+      "dy_word": "shdy",
+      "y_count": 86,
+      "dy_count": 44,
+      "DY_share_pct": 33.85,
+      "y_final_pct": 10.5,
+      "dy_final_pct": 9.1
+    },
+    {
+      "base": "qotee",
+      "y_word": "qoteey",
+      "dy_word": "qoteedy",
+      "y_count": 42,
+      "dy_count": 75,
+      "DY_share_pct": 64.1,
+      "y_final_pct": 0.0,
+      "dy_final_pct": 5.3
+    },
+    {
+      "base": "qote",
+      "y_word": "qotey",
+      "dy_word": "qotedy",
+      "y_count": 23,
+      "dy_count": 87,
+      "DY_share_pct": 79.09,
+      "y_final_pct": 0.0,
+      "dy_final_pct": 5.7
+    },
+    {
+      "base": "cth",
+      "y_word": "cthy",
+      "dy_word": "cthdy",
+      "y_count": 99,
+      "dy_count": 7,
+      "DY_share_pct": 6.6,
+      "y_final_pct": 27.3,
+      "dy_final_pct": 28.6
+    },
+    {
+      "base": "cho",
+      "y_word": "choy",
+      "dy_word": "chody",
+      "y_count": 15,
+      "dy_count": 90,
+      "DY_share_pct": 85.71,
+      "y_final_pct": 6.7,
+      "dy_final_pct": 11.1
+    },
+    {
+      "base": "cheo",
+      "y_word": "cheoy",
+      "dy_word": "cheody",
+      "y_count": 5,
+      "dy_count": 87,
+      "DY_share_pct": 94.57,
+      "y_final_pct": 0.0,
+      "dy_final_pct": 14.9
+    },
+    {
+      "base": "lkee",
+      "y_word": "lkeey",
+      "dy_word": "lkeedy",
+      "y_count": 39,
+      "dy_count": 39,
+      "DY_share_pct": 50.0,
+      "y_final_pct": 5.1,
+      "dy_final_pct": 10.3
+    },
+    {
+      "base": "sho",
+      "y_word": "shoy",
+      "dy_word": "shody",
+      "y_count": 13,
+      "dy_count": 53,
+      "DY_share_pct": 80.3,
+      "y_final_pct": 0.0,
+      "dy_final_pct": 18.9
+    }
+  ]
+}

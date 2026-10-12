@@ -1,0 +1,231 @@
+{
+  "totals": {
+    "total_liquid_coda_tokens": 9609,
+    "L_tokens": 5028,
+    "R_tokens": 4581
+  },
+  "vowel_liquid_2x2_affinity": {
+    "OL": 3112,
+    "OR": 2019,
+    "AL": 1916,
+    "AR": 2562,
+    "O_selects_L_pct": 60.65,
+    "A_selects_R_pct": 57.21,
+    "odds_ratio": 2.061,
+    "permutation_z": 17.5
+  },
+  "positional_contrast": {
+    "R_line_init_pct": 18.95,
+    "L_line_init_pct": 13.7,
+    "L_line_interior_pct": 77.27,
+    "R_line_interior_pct": 73.52,
+    "stem_vowel_stratified_init_z": 6.23
+  },
+  "diagram_ring_vs_prose_R": {
+    "non_prose_R_pct": 50.94,
+    "prose_R_pct": 47.31,
+    "permutation_z": 2.15
+  },
+  "section_table": {
+    "H": {
+      "L": 1469,
+      "R": 1594,
+      "total": 3063,
+      "R_share_pct": 52.04
+    },
+    "Z": {
+      "L": 171,
+      "R": 147,
+      "total": 318,
+      "R_share_pct": 46.23
+    },
+    "A": {
+      "L": 91,
+      "R": 106,
+      "total": 197,
+      "R_share_pct": 53.81
+    },
+    "C": {
+      "L": 262,
+      "R": 311,
+      "total": 573,
+      "R_share_pct": 54.28
+    },
+    "B": {
+      "L": 966,
+      "R": 486,
+      "total": 1452,
+      "R_share_pct": 33.47
+    },
+    "P": {
+      "L": 524,
+      "R": 334,
+      "total": 858,
+      "R_share_pct": 38.93
+    },
+    "S": {
+      "L": 1299,
+      "R": 1257,
+      "total": 2556,
+      "R_share_pct": 49.18
+    },
+    "T": {
+      "L": 246,
+      "R": 346,
+      "total": 592,
+      "R_share_pct": 58.45
+    }
+  },
+  "top_quadruplets": [
+    {
+      "stem": "<ZERO>",
+      "total": 1113,
+      "OL": 392,
+      "OR": 280,
+      "AL": 167,
+      "AR": 274,
+      "O_prefers_L_pct": 58.3,
+      "A_prefers_R_pct": 62.1
+    },
+    {
+      "stem": "ch",
+      "total": 643,
+      "OL": 336,
+      "OR": 196,
+      "AL": 42,
+      "AR": 69,
+      "O_prefers_L_pct": 63.2,
+      "A_prefers_R_pct": 62.2
+    },
+    {
+      "stem": "d",
+      "total": 615,
+      "OL": 91,
+      "OR": 59,
+      "AL": 188,
+      "AR": 277,
+      "O_prefers_L_pct": 60.7,
+      "A_prefers_R_pct": 59.6
+    },
+    {
+      "stem": "qok",
+      "total": 458,
+      "OL": 91,
+      "OR": 31,
+      "AL": 188,
+      "AR": 148,
+      "O_prefers_L_pct": 74.6,
+      "A_prefers_R_pct": 44.0
+    },
+    {
+      "stem": "ok",
+      "total": 363,
+      "OL": 70,
+      "OR": 32,
+      "AL": 135,
+      "AR": 126,
+      "O_prefers_L_pct": 68.6,
+      "A_prefers_R_pct": 48.3
+    },
+    {
+      "stem": "ot",
+      "total": 361,
+      "OL": 74,
+      "OR": 39,
+      "AL": 119,
+      "AR": 129,
+      "O_prefers_L_pct": 65.5,
+      "A_prefers_R_pct": 52.0
+    },
+    {
+      "stem": "sh",
+      "total": 305,
+      "OL": 173,
+      "OR": 89,
+      "AL": 14,
+      "AR": 29,
+      "O_prefers_L_pct": 66.0,
+      "A_prefers_R_pct": 67.4
+    },
+    {
+      "stem": "che",
+      "total": 302,
+      "OL": 147,
+      "OR": 84,
+      "AL": 27,
+      "AR": 44,
+      "O_prefers_L_pct": 63.6,
+      "A_prefers_R_pct": 62.0
+    },
+    {
+      "stem": "s",
+      "total": 211,
+      "OL": 50,
+      "OR": 46,
+      "AL": 48,
+      "AR": 67,
+      "O_prefers_L_pct": 52.1,
+      "A_prefers_R_pct": 58.3
+    },
+    {
+      "stem": "she",
+      "total": 184,
+      "OL": 102,
+      "OR": 43,
+      "AL": 16,
+      "AR": 23,
+      "O_prefers_L_pct": 70.3,
+      "A_prefers_R_pct": 59.0
+    },
+    {
+      "stem": "qot",
+      "total": 182,
+      "OL": 40,
+      "OR": 24,
+      "AL": 56,
+      "AR": 62,
+      "O_prefers_L_pct": 62.5,
+      "A_prefers_R_pct": 52.5
+    },
+    {
+      "stem": "q",
+      "total": 132,
+      "OL": 109,
+      "OR": 21,
+      "AL": 0,
+      "AR": 2,
+      "O_prefers_L_pct": 83.8,
+      "A_prefers_R_pct": 100.0
+    },
+    {
+      "stem": "cth",
+      "total": 118,
+      "OL": 54,
+      "OR": 42,
+      "AL": 7,
+      "AR": 15,
+      "O_prefers_L_pct": 56.2,
+      "A_prefers_R_pct": 68.2
+    },
+    {
+      "stem": "oke",
+      "total": 106,
+      "OL": 64,
+      "OR": 21,
+      "AL": 13,
+      "AR": 8,
+      "O_prefers_L_pct": 75.3,
+      "A_prefers_R_pct": 38.1
+    },
+    {
+      "stem": "k",
+      "total": 95,
+      "OL": 22,
+      "OR": 17,
+      "AL": 15,
+      "AR": 41,
+      "O_prefers_L_pct": 56.4,
+      "A_prefers_R_pct": 73.2
+    }
+  ]
+}

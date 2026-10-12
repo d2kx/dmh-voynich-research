@@ -1,0 +1,579 @@
+{
+  "summary": {
+    "total_tokens": 36229,
+    "theoretical_10bit_states": 1024,
+    "attested_10bit_states": 231,
+    "sum_of_10_marginal_entropies_bits": 8.0506,
+    "joint_10bit_entropy_bits": 6.3587,
+    "internal_grammatical_redundancy_bits": 1.6918,
+    "pct_of_total_word_entropy_captured": 59.04
+  },
+  "ten_binary_features": [
+    {
+      "index": 1,
+      "feature": "F1_OPEN_CLASS",
+      "prob_1_pct": 75.99,
+      "marginal_entropy_bits": 0.7953
+    },
+    {
+      "index": 2,
+      "feature": "F2_ACTIVE_Q",
+      "prob_1_pct": 14.75,
+      "marginal_entropy_bits": 0.6035
+    },
+    {
+      "index": 3,
+      "feature": "F3_APPLICATIVE_L",
+      "prob_1_pct": 13.23,
+      "marginal_entropy_bits": 0.5638
+    },
+    {
+      "index": 4,
+      "feature": "F4_CONT_S_Y_PLUME",
+      "prob_1_pct": 20.55,
+      "marginal_entropy_bits": 0.7328
+    },
+    {
+      "index": 5,
+      "feature": "F5_GALLOWS_HIGH",
+      "prob_1_pct": 53.4,
+      "marginal_entropy_bits": 0.9967
+    },
+    {
+      "index": 6,
+      "feature": "F6_DOUBLE_LOOP_T",
+      "prob_1_pct": 23.14,
+      "marginal_entropy_bits": 0.7804
+    },
+    {
+      "index": 7,
+      "feature": "F7_COMPOUND_EXT",
+      "prob_1_pct": 19.92,
+      "marginal_entropy_bits": 0.7203
+    },
+    {
+      "index": 8,
+      "feature": "F8_VERBAL_Y",
+      "prob_1_pct": 42.03,
+      "marginal_entropy_bits": 0.9816
+    },
+    {
+      "index": 9,
+      "feature": "F9_DENTAL_D",
+      "prob_1_pct": 34.66,
+      "marginal_entropy_bits": 0.931
+    },
+    {
+      "index": 10,
+      "feature": "F10_OPEN_A_RHOTIC",
+      "prob_1_pct": 36.31,
+      "marginal_entropy_bits": 0.9453
+    }
+  ],
+  "top_within_word_feature_correlations": [
+    {
+      "f_i": "F8_VERBAL_Y",
+      "f_j": "F10_OPEN_A_RHOTIC",
+      "phi": -0.643
+    },
+    {
+      "f_i": "F1_OPEN_CLASS",
+      "f_j": "F5_GALLOWS_HIGH",
+      "phi": 0.6017
+    },
+    {
+      "f_i": "F5_GALLOWS_HIGH",
+      "f_j": "F6_DOUBLE_LOOP_T",
+      "phi": 0.5126
+    },
+    {
+      "f_i": "F5_GALLOWS_HIGH",
+      "f_j": "F7_COMPOUND_EXT",
+      "phi": 0.4045
+    },
+    {
+      "f_i": "F6_DOUBLE_LOOP_T",
+      "f_j": "F7_COMPOUND_EXT",
+      "phi": 0.3091
+    },
+    {
+      "f_i": "F1_OPEN_CLASS",
+      "f_j": "F6_DOUBLE_LOOP_T",
+      "phi": 0.3084
+    },
+    {
+      "f_i": "F1_OPEN_CLASS",
+      "f_j": "F8_VERBAL_Y",
+      "phi": 0.3032
+    },
+    {
+      "f_i": "F2_ACTIVE_Q",
+      "f_j": "F5_GALLOWS_HIGH",
+      "phi": 0.2849
+    },
+    {
+      "f_i": "F1_OPEN_CLASS",
+      "f_j": "F7_COMPOUND_EXT",
+      "phi": 0.2804
+    },
+    {
+      "f_i": "F8_VERBAL_Y",
+      "f_j": "F9_DENTAL_D",
+      "phi": 0.2383
+    },
+    {
+      "f_i": "F1_OPEN_CLASS",
+      "f_j": "F10_OPEN_A_RHOTIC",
+      "phi": -0.2368
+    },
+    {
+      "f_i": "F2_ACTIVE_Q",
+      "f_j": "F4_CONT_S_Y_PLUME",
+      "phi": -0.1863
+    },
+    {
+      "f_i": "F5_GALLOWS_HIGH",
+      "f_j": "F8_VERBAL_Y",
+      "phi": 0.1802
+    },
+    {
+      "f_i": "F1_OPEN_CLASS",
+      "f_j": "F3_APPLICATIVE_L",
+      "phi": -0.1678
+    },
+    {
+      "f_i": "F7_COMPOUND_EXT",
+      "f_j": "F8_VERBAL_Y",
+      "phi": 0.156
+    }
+  ],
+  "top_lag1_cross_word_feature_transitions": [
+    {
+      "from_f_t": "F8_VERBAL_Y",
+      "to_f_t1": "F2_ACTIVE_Q",
+      "phi_lag1": 0.2611
+    },
+    {
+      "from_f_t": "F10_OPEN_A_RHOTIC",
+      "to_f_t1": "F2_ACTIVE_Q",
+      "phi_lag1": -0.1824
+    },
+    {
+      "from_f_t": "F8_VERBAL_Y",
+      "to_f_t1": "F5_GALLOWS_HIGH",
+      "phi_lag1": 0.1632
+    },
+    {
+      "from_f_t": "F9_DENTAL_D",
+      "to_f_t1": "F2_ACTIVE_Q",
+      "phi_lag1": 0.1576
+    },
+    {
+      "from_f_t": "F1_OPEN_CLASS",
+      "to_f_t1": "F2_ACTIVE_Q",
+      "phi_lag1": 0.1361
+    },
+    {
+      "from_f_t": "F6_DOUBLE_LOOP_T",
+      "to_f_t1": "F6_DOUBLE_LOOP_T",
+      "phi_lag1": 0.133
+    },
+    {
+      "from_f_t": "F9_DENTAL_D",
+      "to_f_t1": "F9_DENTAL_D",
+      "phi_lag1": 0.121
+    },
+    {
+      "from_f_t": "F1_OPEN_CLASS",
+      "to_f_t1": "F5_GALLOWS_HIGH",
+      "phi_lag1": 0.1186
+    },
+    {
+      "from_f_t": "F4_CONT_S_Y_PLUME",
+      "to_f_t1": "F2_ACTIVE_Q",
+      "phi_lag1": 0.1043
+    },
+    {
+      "from_f_t": "F9_DENTAL_D",
+      "to_f_t1": "F5_GALLOWS_HIGH",
+      "phi_lag1": 0.0984
+    },
+    {
+      "from_f_t": "F8_VERBAL_Y",
+      "to_f_t1": "F9_DENTAL_D",
+      "phi_lag1": 0.0926
+    },
+    {
+      "from_f_t": "F8_VERBAL_Y",
+      "to_f_t1": "F8_VERBAL_Y",
+      "phi_lag1": 0.0892
+    },
+    {
+      "from_f_t": "F1_OPEN_CLASS",
+      "to_f_t1": "F1_OPEN_CLASS",
+      "phi_lag1": 0.0831
+    },
+    {
+      "from_f_t": "F10_OPEN_A_RHOTIC",
+      "to_f_t1": "F5_GALLOWS_HIGH",
+      "phi_lag1": -0.0798
+    },
+    {
+      "from_f_t": "F8_VERBAL_Y",
+      "to_f_t1": "F1_OPEN_CLASS",
+      "phi_lag1": 0.0786
+    }
+  ],
+  "top_25_hypercube_states": [
+    {
+      "rank": 1,
+      "bitstring": "0000000011",
+      "count": 2008,
+      "share_pct": 5.54,
+      "cum_pct": 5.54,
+      "active_features": "DENTAL_D+OPEN_A_RHOTIC",
+      "top_words": {
+        "daiin": 790,
+        "dar": 277,
+        "dain": 195,
+        "dal": 188
+      }
+    },
+    {
+      "rank": 2,
+      "bitstring": "0000000001",
+      "count": 1459,
+      "share_pct": 4.03,
+      "cum_pct": 9.57,
+      "active_features": "OPEN_A_RHOTIC",
+      "top_words": {
+        "aiin": 321,
+        "or": 280,
+        "ar": 274,
+        "ain": 71
+      }
+    },
+    {
+      "rank": 3,
+      "bitstring": "1000100001",
+      "count": 1213,
+      "share_pct": 3.35,
+      "cum_pct": 12.92,
+      "active_features": "OPEN_CLASS+GALLOWS_HIGH+OPEN_A_RHOTIC",
+      "top_words": {
+        "okaiin": 212,
+        "okain": 138,
+        "okal": 135,
+        "okar": 126
+      }
+    },
+    {
+      "rank": 4,
+      "bitstring": "1000110001",
+      "count": 1102,
+      "share_pct": 3.04,
+      "cum_pct": 15.96,
+      "active_features": "OPEN_CLASS+GALLOWS_HIGH+DOUBLE_LOOP_T+OPEN_A_RHOTIC",
+      "top_words": {
+        "otaiin": 151,
+        "otar": 129,
+        "otal": 119,
+        "otain": 95
+      }
+    },
+    {
+      "rank": 5,
+      "bitstring": "1000000110",
+      "count": 1095,
+      "share_pct": 3.02,
+      "cum_pct": 18.98,
+      "active_features": "OPEN_CLASS+VERBAL_Y+DENTAL_D",
+      "top_words": {
+        "chedy": 450,
+        "chdy": 133,
+        "chody": 90,
+        "cheody": 87
+      }
+    },
+    {
+      "rank": 6,
+      "bitstring": "1100100001",
+      "count": 1055,
+      "share_pct": 2.91,
+      "cum_pct": 21.89,
+      "active_features": "OPEN_CLASS+ACTIVE_Q+GALLOWS_HIGH+OPEN_A_RHOTIC",
+      "top_words": {
+        "qokain": 278,
+        "qokaiin": 263,
+        "qokal": 188,
+        "qokar": 148
+      }
+    },
+    {
+      "rank": 7,
+      "bitstring": "1000000000",
+      "count": 977,
+      "share_pct": 2.7,
+      "cum_pct": 24.59,
+      "active_features": "OPEN_CLASS",
+      "top_words": {
+        "chol": 336,
+        "cheol": 147,
+        "cho": 55,
+        "cheo": 39
+      }
+    },
+    {
+      "rank": 8,
+      "bitstring": "1001000110",
+      "count": 867,
+      "share_pct": 2.39,
+      "cum_pct": 26.98,
+      "active_features": "OPEN_CLASS+CONT_S_Y_PLUME+VERBAL_Y+DENTAL_D",
+      "top_words": {
+        "shedy": 381,
+        "sheedy": 75,
+        "shody": 53,
+        "sheody": 47
+      }
+    },
+    {
+      "rank": 9,
+      "bitstring": "1000111100",
+      "count": 857,
+      "share_pct": 2.37,
+      "cum_pct": 29.35,
+      "active_features": "OPEN_CLASS+GALLOWS_HIGH+DOUBLE_LOOP_T+COMPOUND_EXT+VERBAL_Y",
+      "top_words": {
+        "cthy": 99,
+        "chcthy": 78,
+        "cthey": 47,
+        "otchy": 44
+      }
+    },
+    {
+      "rank": 10,
+      "bitstring": "1000101100",
+      "count": 836,
+      "share_pct": 2.31,
+      "cum_pct": 31.66,
+      "active_features": "OPEN_CLASS+GALLOWS_HIGH+COMPOUND_EXT+VERBAL_Y",
+      "top_words": {
+        "chckhy": 133,
+        "cheky": 63,
+        "checkhy": 47,
+        "choky": 39
+      }
+    },
+    {
+      "rank": 11,
+      "bitstring": "1000000100",
+      "count": 748,
+      "share_pct": 2.06,
+      "cum_pct": 33.72,
+      "active_features": "OPEN_CLASS+VERBAL_Y",
+      "top_words": {
+        "chey": 297,
+        "cheey": 156,
+        "chy": 154,
+        "choy": 15
+      }
+    },
+    {
+      "rank": 12,
+      "bitstring": "1001000000",
+      "count": 715,
+      "share_pct": 1.97,
+      "cum_pct": 35.7,
+      "active_features": "OPEN_CLASS+CONT_S_Y_PLUME",
+      "top_words": {
+        "shol": 173,
+        "sho": 104,
+        "sheol": 102,
+        "sheo": 32
+      }
+    },
+    {
+      "rank": 13,
+      "bitstring": "1000000001",
+      "count": 705,
+      "share_pct": 1.95,
+      "cum_pct": 37.64,
+      "active_features": "OPEN_CLASS+OPEN_A_RHOTIC",
+      "top_words": {
+        "chor": 196,
+        "cheor": 84,
+        "char": 69,
+        "chear": 44
+      }
+    },
+    {
+      "rank": 14,
+      "bitstring": "1100100110",
+      "count": 684,
+      "share_pct": 1.89,
+      "cum_pct": 39.53,
+      "active_features": "OPEN_CLASS+ACTIVE_Q+GALLOWS_HIGH+VERBAL_Y+DENTAL_D",
+      "top_words": {
+        "qokeedy": 304,
+        "qokedy": 272,
+        "qokeody": 33,
+        "qokeeody": 16
+      }
+    },
+    {
+      "rank": 15,
+      "bitstring": "1001000100",
+      "count": 678,
+      "share_pct": 1.87,
+      "cum_pct": 41.4,
+      "active_features": "OPEN_CLASS+CONT_S_Y_PLUME+VERBAL_Y",
+      "top_words": {
+        "shey": 238,
+        "sheey": 129,
+        "shy": 86,
+        "ycheey": 24
+      }
+    },
+    {
+      "rank": 16,
+      "bitstring": "0010000000",
+      "count": 664,
+      "share_pct": 1.83,
+      "cum_pct": 43.23,
+      "active_features": "APPLICATIVE_L",
+      "top_words": {
+        "ol": 392,
+        "l": 58,
+        "lol": 32,
+        "ols": 20
+      }
+    },
+    {
+      "rank": 17,
+      "bitstring": "0000000000",
+      "count": 651,
+      "share_pct": 1.8,
+      "cum_pct": 45.03,
+      "active_features": "ZERO_BARE",
+      "top_words": {
+        "o": 89,
+        "r": 88,
+        "aiiin": 36,
+        "oiin": 31
+      }
+    },
+    {
+      "rank": 18,
+      "bitstring": "1000100100",
+      "count": 618,
+      "share_pct": 1.71,
+      "cum_pct": 46.74,
+      "active_features": "OPEN_CLASS+GALLOWS_HIGH+VERBAL_Y",
+      "top_words": {
+        "okeey": 178,
+        "oky": 100,
+        "okey": 62,
+        "keey": 35
+      }
+    },
+    {
+      "rank": 19,
+      "bitstring": "1100100100",
+      "count": 612,
+      "share_pct": 1.69,
+      "cum_pct": 48.43,
+      "active_features": "OPEN_CLASS+ACTIVE_Q+GALLOWS_HIGH+VERBAL_Y",
+      "top_words": {
+        "qokeey": 302,
+        "qoky": 136,
+        "qokey": 102,
+        "qokeeey": 27
+      }
+    },
+    {
+      "rank": 20,
+      "bitstring": "1000100110",
+      "count": 571,
+      "share_pct": 1.58,
+      "cum_pct": 50.0,
+      "active_features": "OPEN_CLASS+GALLOWS_HIGH+VERBAL_Y+DENTAL_D",
+      "top_words": {
+        "okedy": 119,
+        "okeedy": 106,
+        "okeody": 38,
+        "keedy": 35
+      }
+    },
+    {
+      "rank": 21,
+      "bitstring": "0010000001",
+      "count": 570,
+      "share_pct": 1.57,
+      "cum_pct": 51.57,
+      "active_features": "APPLICATIVE_L+OPEN_A_RHOTIC",
+      "top_words": {
+        "al": 167,
+        "oraiin": 61,
+        "olaiin": 56,
+        "lor": 36
+      }
+    },
+    {
+      "rank": 22,
+      "bitstring": "1000110110",
+      "count": 564,
+      "share_pct": 1.56,
+      "cum_pct": 53.13,
+      "active_features": "OPEN_CLASS+GALLOWS_HIGH+DOUBLE_LOOP_T+VERBAL_Y+DENTAL_D",
+      "top_words": {
+        "otedy": 158,
+        "oteedy": 105,
+        "oteody": 40,
+        "tedy": 33
+      }
+    },
+    {
+      "rank": 23,
+      "bitstring": "1000110100",
+      "count": 509,
+      "share_pct": 1.4,
+      "cum_pct": 54.54,
+      "active_features": "OPEN_CLASS+GALLOWS_HIGH+DOUBLE_LOOP_T+VERBAL_Y",
+      "top_words": {
+        "oteey": 139,
+        "oty": 111,
+        "otey": 56,
+        "teey": 15
+      }
+    },
+    {
+      "rank": 24,
+      "bitstring": "1000100000",
+      "count": 507,
+      "share_pct": 1.4,
+      "cum_pct": 55.94,
+      "active_features": "OPEN_CLASS+GALLOWS_HIGH",
+      "top_words": {
+        "okol": 70,
+        "okeol": 64,
+        "kol": 22,
+        "keol": 17
+      }
+    },
+    {
+      "rank": 25,
+      "bitstring": "0000000010",
+      "count": 484,
+      "share_pct": 1.34,
+      "cum_pct": 57.27,
+      "active_features": "DENTAL_D",
+      "top_words": {
+        "dol": 91,
+        "d": 38,
+        "daiiin": 19,
+        "daiir": 19
+      }
+    }
+  ]
+}

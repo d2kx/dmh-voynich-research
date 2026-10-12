@@ -1,0 +1,129 @@
+{
+  "total_compound_tokens": 4876,
+  "bench_to_pedestal_asymmetry": {
+    "bench_then_pedestal": 937,
+    "pedestal_then_bench": 7,
+    "unidirectional_pct": 99.26
+  },
+  "linking_vowel_polarity": {
+    "bench_vow_gallows_total": 1404,
+    "bench_vow_gallows_O_pct": 55.27,
+    "gallows_vow_bench_total": 254,
+    "gallows_vow_bench_O_pct": 24.8,
+    "gallows_vow_bench_E_pct": 75.2,
+    "permutation_z": 8.91
+  },
+  "compound_categories": [
+    {
+      "category": "C1_BENCH_VOW_GALLOWS",
+      "tokens": 1404,
+      "share_pct": 28.79,
+      "unique_types": 687,
+      "top_8_words": {
+        "cheky": 63,
+        "choty": 40,
+        "choky": 39,
+        "sheky": 34,
+        "cheeky": 24,
+        "chety": 22,
+        "chokaiin": 16,
+        "chokchy": 15
+      }
+    },
+    {
+      "category": "A_LIQUID_INFIX_DENOMINAL",
+      "tokens": 783,
+      "share_pct": 16.06,
+      "unique_types": 428,
+      "top_8_words": {
+        "okaly": 24,
+        "otaly": 19,
+        "choly": 17,
+        "qokaly": 17,
+        "okary": 14,
+        "okaldy": 13,
+        "choldy": 12,
+        "chory": 12
+      }
+    },
+    {
+      "category": "D_DENTAL_INFIX_COMPOUND",
+      "tokens": 1312,
+      "share_pct": 26.91,
+      "unique_types": 607,
+      "top_8_words": {
+        "chodaiin": 45,
+        "chedaiin": 36,
+        "chedar": 28,
+        "chedal": 27,
+        "shodaiin": 25,
+        "chedain": 18,
+        "chdar": 18,
+        "chdal": 17
+      }
+    },
+    {
+      "category": "B_BENCH_TO_PEDESTAL",
+      "tokens": 937,
+      "share_pct": 19.22,
+      "unique_types": 262,
+      "top_8_words": {
+        "chckhy": 133,
+        "chcthy": 78,
+        "shckhy": 57,
+        "checkhy": 47,
+        "shcthy": 32,
+        "sheckhy": 31,
+        "chckhey": 30,
+        "checthy": 27
+      }
+    },
+    {
+      "category": "C2_GALLOWS_VOW_BENCH",
+      "tokens": 254,
+      "share_pct": 5.21,
+      "unique_types": 190,
+      "top_8_words": {
+        "qokechy": 13,
+        "qokeechy": 6,
+        "okechy": 5,
+        "okechedy": 5,
+        "otechdy": 5,
+        "okechdy": 4,
+        "otechy": 4,
+        "qokechedy": 4
+      }
+    },
+    {
+      "category": "E_REDUPLICATED_CORE",
+      "tokens": 179,
+      "share_pct": 3.67,
+      "unique_types": 158,
+      "top_8_words": {
+        "chochy": 5,
+        "oteotey": 5,
+        "shoshy": 3,
+        "otoky": 3,
+        "kokaiin": 2,
+        "tokar": 2,
+        "chechey": 2,
+        "chochor": 2
+      }
+    },
+    {
+      "category": "B_REV_PEDESTAL_TO_BENCH",
+      "tokens": 7,
+      "share_pct": 0.14,
+      "unique_types": 7,
+      "top_8_words": {
+        "ckhochy": 1,
+        "cthoshy": 1,
+        "cphchar": 1,
+        "cthochy": 1,
+        "cthoshol": 1,
+        "ckhosh": 1,
+        "cphochy": 1
+      }
+    }
+  ]
+}

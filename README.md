@@ -526,6 +526,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 74. The `-y` vs. `-d-y` Pre-Terminal Dental Morpheme Solver — Currier B Verbal Inflection ($z = +23.84$), `QO_ACT` Licensing ($z = +8.68$), and Cross-Word Dental Dissimilation (`-dy ↛ daiin`, $z = -6.93$, `Attack 65`)
+- **Currier B Inflection ($z = +23.84$), `QO_ACT` Licensing ($z = +8.68$), & Cross-Word Dental Dissimilation ($z = -6.93$)**: Across `5,426` matched `(X-y, X-dy)` tokens, `-d-y` (`chedy, shedy, qokedy, qokeedy`) surges `2.96×` in Currier B (`65.49%` vs. `22.16%` in Currier A, $z = +23.84$), breaks back-vowel hiatus on `O_EO` stems (`89.43%` `-ody/-eody`), licenses following `qo-` operators (`33.16%` vs. `22.83%`, $z = +8.68$), and dissimilates before `daiin/aiin` (`1.03%` vs. `3.96%`, $z = -6.93$).
+
+---
+
+### 75. The `-l` vs. `-r` Liquid Coda Solver — Vowel–Liquid Harmonic Affinity (`-ol` & `-ar`, Odds Ratio `2.06×`, $z = +17.50$) & Rhotic Line-Initial Enrichment ($z = +6.23$, `Attack 66`)
+- **`2 × 2` Vowel–Liquid Harmonic Affinity (Odds Ratio `2.06×`, $z = +17.50$) & Rhotic Line-Initial Lift ($z = +6.23$)**: Across all `9,609` `-ol/-or/-al/-ar` tokens, back `-o-` selects lateral `-l` in `60.65%` (`-ol = 3,112` vs. `-or = 2,019`) while open `-a-` selects rhotic `-r` in `57.21%` (`-ar = 2,562` vs. `-al = 1,916`), and rhotic `-r` enriches line-initial `w_1` (`18.95%` vs. `13.70%`, stem+vowel-stratified $z = +6.23$).
+
+---
+
+### 76. Double-Core & Internal-Infix Compound Architecture (`99.26%` Unidirectional `Bench -> Pedestal` Ordering, Linking-Vowel Polarity $z = +8.91$, and Phrase Univerbation, `Attack 67`)
+- **`99.26%` (`937 / 944`) Unidirectional `Bench -> Pedestal` Ordering (`pages/f34r_chckhy_chodaiin_compounds_enh.png`)**: Across `4,876` multi-core/infixed tokens, `ch/sh` precedes `ckh/cth/cph/cfh` in `99.26%` of tokens (`chckhy = 133, chcthy = 78`), `Bench + V + Gallows` selects `-o-` (`55.27%`, `choky/choty`) vs. `-e-` in `Gallows + V + Bench` (`75.20%`, $z = +8.91$), and `1,312` tokens univerbate `[chol/chey + daiin/dar/dal]` into `chodaiin, chedaiin, chedar, chedal`.
+
+---
+
+### 77. The 10-Feature Orthogonal Binary Calculus of Voynich Morphology (`231 / 1,024` Attested Hypercube States, `1.6918 bits` Grammatical Redundancy, [`notes/TEN_FEATURE_BINARY_CALCULUS.md`](notes/TEN_FEATURE_BINARY_CALCULUS.md), `Attack 68`)
+- **`231 / 1,024` Attested 10-Bit Hypercube States ([`notes/TEN_FEATURE_BINARY_CALCULUS.md`](notes/TEN_FEATURE_BINARY_CALCULUS.md))**: Maps every word token (`36,229` tokens) into a 10-bit binary vector $\mathbf{f}(w) \in \{0, 1\}^{10}$, where the Top 25 bitstrings cover `57.27%` of the entire manuscript and internal phonotactic constraints compress $\sum H(F_i) = 8.0506\text{ bits}$ down to $H(F_1,\dots,F_{10}) = 6.3587\text{ bits}$.
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -621,6 +641,11 @@ python tools/attack61_internal_stem_nucleus_solver.py
 python tools/attack62_subcell_allography_entropy_decomposition.py
 python tools/attack63_paragraph_arc_and_sentence_translator.py
 python tools/attack64_top500_lexicon_and_6level_decoder.py
+python tools/attack65_y_vs_dy_dental_morpheme_solver.py
+python tools/attack66_l_vs_r_liquid_coda_solver.py
+python tools/attack67_double_core_and_infix_compound_solver.py
+python tools/attack68_ten_feature_binary_calculus.py
 ```
+
 
 

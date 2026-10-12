@@ -629,3 +629,34 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Key Breakthroughs**:
   1. **Compiles the Complete 6-Level Morphological, Spatial-Zone, Sectional, and Structural Reference Decoder for the Top 500 Most Frequent Words (`22,603 / 36,229` Tokens = `62.39%` of the Book)**.
 
+---
+
+## 65. Attack 65 (`Phase 76`): The `-y` vs. `-d-y` Pre-Terminal Dental Morpheme Solver — Currier B Verbal Inflection ($z = +23.84$), `QO_ACT` Licensing ($z = +8.68$), and Cross-Word Dental Dissimilation (`-dy ↛ daiin`, $z = -6.93$)
+- **Script & Data**: [`tools/attack65_y_vs_dy_dental_morpheme_solver.py`](../tools/attack65_y_vs_dy_dental_morpheme_solver.py) $\to$ [`data/attack65_y_vs_dy_dental_morpheme_solver.json`](../data/attack65_y_vs_dy_dental_morpheme_solver.json)
+- **Key Breakthroughs**:
+  1. **Currier B Inflection ($z = +23.84$): `65.49%` `-d-y` in `$L=B` (`71.10%` in Hand 2) vs. `22.16%` in `$L=A` (`2.96×` Lift)**.
+  2. **Monotonic Stem-Nucleus Tradeoff (`O_EO` `89.43% DY` $\to$ `E1_E` `66.01% DY` $\to$ `E2_EE` `43.59% DY` $\to$ `ZERO_CONS` `34.61% DY`), `QO_ACT` Licensing (`33.16%` vs. `22.83%`, $z = +8.68$), and Cross-Word Dental Dissimilation (`-dy ↛ daiin`, $z = -6.93$)**.
+
+---
+
+## 66. Attack 66 (`Phase 77`): The `-l` vs. `-r` Liquid Coda Solver — Vowel–Liquid Harmonic Affinity (`-ol` & `-ar`, Odds Ratio `2.06×`, $z = +17.50$) & Rhotic Line-Initial Enrichment ($z = +6.23$)
+- **Script & Data**: [`tools/attack66_l_vs_r_liquid_coda_solver.py`](../tools/attack66_l_vs_r_liquid_coda_solver.py) $\to$ [`data/attack66_l_vs_r_liquid_coda_solver.json`](../data/attack66_l_vs_r_liquid_coda_solver.json)
+- **Key Breakthroughs**:
+  1. **`2 × 2` Vowel–Liquid Harmonic Affinity (`{o, a} × {l, r}`, Odds Ratio `2.06×`, $z = +17.50$): Back `-o-` Selects `-l` (`60.65%`) While Open `-a-` Selects `-r` (`57.21%`)**.
+  2. **Rhotic `-r` Line-Initial Lift (`18.95%` vs. `13.70%`, Stem+Vowel-Stratified $z = +6.23$) & Sectional Split (`$I=B,P` `61%–67% L` vs. `$I=H,A,C,T` `52%–58% R`)**.
+
+---
+
+## 67. Attack 67 (`Phase 78`): Double-Core & Internal-Infix Compound Architecture (`99.26%` Unidirectional `Bench -> Pedestal` Ordering, Linking-Vowel Polarity $z = +8.91$, and Phrase Univerbation)
+- **Script, Data & Scan**: [`tools/attack67_double_core_and_infix_compound_solver.py`](../tools/attack67_double_core_and_infix_compound_solver.py) $\to$ [`data/attack67_double_core_and_infix_compound_solver.json`](../data/attack67_double_core_and_infix_compound_solver.json) & [`pages/f34r_chckhy_chodaiin_compounds_enh.png`](../pages/f34r_chckhy_chodaiin_compounds_enh.png)
+- **Key Breakthroughs**:
+  1. **`99.26%` (`937 / 944`) Unidirectional `Bench -> Pedestal` Ordering (`chckhy, chcthy, shckhy` vs. Only `7` Reverse Tokens)**.
+  2. **Linking-Vowel Polarity ($z = +8.91$: `Bench + V + Gallows` `55.27% -o-` vs. `Gallows + V + Bench` `75.20% -e-`) & `1,312` Phrase-Univerbation Dental Compounds (`chodaiin, chedaiin, chedar, chedal`)**.
+
+---
+
+## 68. Attack 68 (`Phase 79`): The 10-Feature Orthogonal Binary Calculus of Voynich Morphology (`231 / 1,024` Attested Hypercube States, `1.6918 bits` Grammatical Redundancy, [`notes/TEN_FEATURE_BINARY_CALCULUS.md`](TEN_FEATURE_BINARY_CALCULUS.md))
+- **Script, Data & Edition**: [`tools/attack68_ten_feature_binary_calculus.py`](../tools/attack68_ten_feature_binary_calculus.py) $\to$ [`data/attack68_ten_feature_binary_calculus.json`](../data/attack68_ten_feature_binary_calculus.json) & [`notes/TEN_FEATURE_BINARY_CALCULUS.md`](TEN_FEATURE_BINARY_CALCULUS.md)
+- **Key Breakthroughs**:
+  1. **Maps All `36,229` Tokens into `{0, 1}^{10}`, Licensing Only `231 / 1,024` (`22.6%`) States (Top 25 States Cover `57.27%` of the Manuscript) with `1.6918 bits` of Internal Phonotactic Redundancy**.
+
