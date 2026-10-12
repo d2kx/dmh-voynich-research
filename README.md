@@ -766,6 +766,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 122. The Five-Section (`Z, H, P, B, S`) Dual-Branch Therapeutic Routing Matrix (`146` Dual-Branch, `125` Decoction-Only, `17` Hydrotherapy-Only Stems) & Complete `69`-Stem Word-for-Word Inflectional Paradigm Table (`Attack 113`)
+- **Three-Way Therapeutic Bifurcation of the `379` Apothecary-Compiled Botanical Stems (`H ∩ P`) & `69`-Stem 5-Section Paradigm Table**: Classifies `H ∩ P` stems into **`146` Dual-Branch Stems (`H ∩ P ∩ B ∩ S = 38.52%`, including `69` Pan-5-Section `Z ∩ H ∩ P ∩ B ∩ S` stems)** used in both Oral Decoctions (`13.55% qo-`, `15.75% -aiin` in `$I=S`) and Immersion Baths (`23.51% l-/ol-` in `$I=B`); **`125` Decoction-Only Stems (`(H ∩ P ∩ S) \ B = 32.98%`)** dominated by Compound Gallows-Bench (`23.20%`) and Extended Gallows (`19.20%`) with `20.11% qo-` and `19.16% -aiin` in `$I=S`; and **`17` Hydrotherapy-Only Stems (`(H ∩ P ∩ B) \ S = 4.49%`)** dominated by Vocalic/Liquid (`35.29%`) and Simplex Gallows (`29.41%`).
+
+---
+
+### 123. The Currier A $\to$ Currier B Cross-Dialect Apothecary Compiler (`51.67%` Clinical Reach of `HERBAL_A_EXCLUSIVE` Stems, `1.19×` Apothecary Relay Lift $z = +2.12$, and `312`-Stem Orthographic Adaptation Matrix, `Attack 114`)
+- **`51.67%` (`279 / 540`) Cross-Dialect Clinical Reach & `1.19×` Apothecary Relay Lift ($z = +2.12$)**: Among `540` `HERBAL_A_EXCLUSIVE` stems (`H_A \ H_B`), `279 / 540` (`51.67%`) cross into Currier B Clinical Sections (`S_Q20 ∪ B`), with stems compiled into the Currier A Apothecary (`P ∪ f58`) reaching Clinical B at **`57.87%` (`103 / 178`) vs. `48.62%` (`176 / 362`)** for uncompiled stems (`1.19×` lift, $z = +2.12$). Moving from Scribe 1 (`H_A`) to Scribe 3 (`S_Q20`) on `312` shared bridge stems doubles geminate `ee` (`8.28% -> 17.33%`), while moving to Scribe 2 (`B_balneo`) surges plumed `sh` (`7.30% -> 16.90%`) and Applicative `l-/ol-` (`5.90% -> 20.66%`).
+
+---
+
+### 124. Register-by-Register (`@Lc` Apothecary Vessel + `@Lf` Root/Leaf Row + `<%> @P0` Preparation Paragraph) Decomposition of All `16` Pharmaceutical Formulary Folios (`44` Registers, `82.50%` `@Lc` Compound-Title Resolution, and `90.70%` Intra-Folio Herbal Specialization, `Attack 115`)
+- **Tripartite Horizontal Compounding Registers (`pages/f88r_three_register_formulary_enh.png`, `pages/f102v1_two_register_formulary_enh.png`)**: Decomposes all `16` Pharmaceutical folios (`f88r–f102v2`) into `44` compounding rows (`Register R_k = @Lc Vessel Title + @Lf Root/Leaf Row + <%> @P0 Recipe Paragraph`). Proves a monotonic word-length and Gallows hierarchy (`@Lc 6.92 chars / 75.0% Gallows / 50.0% o- / 82.5% 2-to-3-stem compound resolution` vs. `@Lf 5.60 chars / 47.14% Herbal attestation / 36.67% -ol/-or/-al/-ar/-am` vs. `@P0 4.90 chars / 12.10% qo- / 11.93% -aiin`), while **`90.70%` (`39 / 43`) of same-folio register pairs cite distinct `#1` Herbal Monographs (`$I=H`)** and **`72.09%` (`31 / 43`) route to distinct `#1` Starred Recipes (`$I=S`)**.
+
+---
+
+### 125. The Five-Section Inflectional Paradigm Lexicon, Currier A→B Apothecary Compiler & 16-Folio Pharmaceutical Register Atlas ([`notes/FIVE_SECTION_PARADIGM_AND_PHARM_REGISTER_ATLAS.md`](notes/FIVE_SECTION_PARADIGM_AND_PHARM_REGISTER_ATLAS.md), `Attack 116`)
+- **Five-Section Paradigm & 44-Register Pharmaceutical Atlas ([`notes/FIVE_SECTION_PARADIGM_AND_PHARM_REGISTER_ATLAS.md`](notes/FIVE_SECTION_PARADIGM_AND_PHARM_REGISTER_ATLAS.md))**: Synthesizes the `69`-Stem Five-Section Inflectional Paradigm Table (`Attack 113`), the Currier A $\to$ Currier B Apothecary Compiler (`Attack 114`), and the `16`-Folio (`44`-Register) Pharmaceutical Compounding Atlas (`Attack 115`).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -909,7 +929,8 @@ python tools/attack109_f58_starred_botanical_index_solver.py
 python tools/attack110_balneological_to_zodiac_and_herbal_infusion_network.py
 python tools/attack111_astronomical_foldout_and_zodiac_star_concordance.py
 python tools/attack112_quire_h_balneological_and_astro_compendium.py
+python tools/attack113_five_section_dual_branch_therapeutic_matrix.py
+python tools/attack114_currier_a_to_b_apothecary_compiler.py
+python tools/attack115_pharmaceutical_register_row_decomposition.py
+python tools/attack116_five_section_paradigm_and_pharm_register_atlas.py
 ```
-
-
-

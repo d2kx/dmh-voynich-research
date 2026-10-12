@@ -970,3 +970,31 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Script, Data & Edition**: [`tools/attack112_quire_h_balneological_and_astro_compendium.py`](../tools/attack112_quire_h_balneological_and_astro_compendium.py) $\to$ [`data/attack112_quire_h_balneological_and_astro_compendium.json`](../data/attack112_quire_h_balneological_and_astro_compendium.json) & [`notes/QUIRE_H_INDEX_BALNEOLOGICAL_AND_ASTRO_COMPENDIUM.md`](QUIRE_H_INDEX_BALNEOLOGICAL_AND_ASTRO_COMPENDIUM.md)
 - **Key Breakthroughs**:
   1. **Synthesizes the `f58r/f58v` Starred Botanical Master Index (`Attack 109`), the Balneological Hydrotherapy Network (`Attack 110`), and the 14-Folio Astronomical Foldout Concordance (`Attack 111`)**.
+
+---
+
+## 113. Attack 113 (`Phase 124`): The Five-Section (`Z, H, P, B, S`) Dual-Branch Therapeutic Routing Matrix & `69`-Stem Inflectional Paradigm Table
+- **Script & Data**: [`tools/attack113_five_section_dual_branch_therapeutic_matrix.py`](../tools/attack113_five_section_dual_branch_therapeutic_matrix.py) $\to$ [`data/attack113_five_section_dual_branch_therapeutic_matrix.json`](../data/attack113_five_section_dual_branch_therapeutic_matrix.json)
+- **Key Breakthroughs**:
+  1. **Classifies the `379` Apothecary-Compiled Botanical Stems (`H ∩ P`) into `146` Dual-Branch (`H ∩ P ∩ B ∩ S`), `125` Decoction-Only (`(H ∩ P ∩ S) \ B`), and `17` Hydrotherapy-Only (`(H ∩ P ∩ B) \ S`) Stems, and Builds the Complete `69`-Stem Five-Section Word-for-Word Inflectional Paradigm Table**.
+
+---
+
+## 114. Attack 114 (`Phase 125`): The Currier A $\to$ Currier B Cross-Dialect Apothecary Compiler ($z = +2.12$)
+- **Script & Data**: [`tools/attack114_currier_a_to_b_apothecary_compiler.py`](../tools/attack114_currier_a_to_b_apothecary_compiler.py) $\to$ [`data/attack114_currier_a_to_b_apothecary_compiler.json`](../data/attack114_currier_a_to_b_apothecary_compiler.json)
+- **Key Breakthroughs**:
+  1. **Proves `51.67%` (`279 / 540`) Clinical Currier B Reach of `HERBAL_A_EXCLUSIVE` Stems, a `1.19×` (`57.87%` vs. `48.62%`, $z = +2.12$) Apothecary Relay Lift Through `P ∪ f58`, and the `312`-Stem Cross-Dialect Orthographic Adaptation Matrix (`Scribe 1 -> Scribe 2/3`)**.
+
+---
+
+## 115. Attack 115 (`Phase 126`): Register-by-Register (`@Lc` Apothecary Vessel + `@Lf` Root/Leaf Row + `<%> @P0` Preparation Paragraph) Decomposition of All `16` Pharmaceutical Folios (`f88r–f102v2`)
+- **Script, Data & Scans**: [`tools/attack115_pharmaceutical_register_row_decomposition.py`](../tools/attack115_pharmaceutical_register_row_decomposition.py) $\to$ [`data/attack115_pharmaceutical_register_row_decomposition.json`](../data/attack115_pharmaceutical_register_row_decomposition.json), [`pages/f88r_three_register_formulary_enh.png`](../pages/f88r_three_register_formulary_enh.png), [`pages/f102v1_two_register_formulary_enh.png`](../pages/f102v1_two_register_formulary_enh.png)
+- **Key Breakthroughs**:
+  1. **Decomposes All `16` Pharmaceutical Folios into `44` Tripartite Compounding Registers (`@Lc Vessel Title + @Lf Root/Leaf Row + <%> @P0 Recipe`), Proving `82.50%` (`33 / 40`) Multi-Stem Compound Resolution of `@Lc` Vessel Inscriptions and `90.70%` (`39 / 43`) Intra-Folio Register Herbal Specialization**.
+
+---
+
+## 116. Attack 116 (`Phase 127`): The Five-Section Inflectional Paradigm Lexicon, Currier A→B Apothecary Compiler & 16-Folio Pharmaceutical Register Atlas ([`notes/FIVE_SECTION_PARADIGM_AND_PHARM_REGISTER_ATLAS.md`](FIVE_SECTION_PARADIGM_AND_PHARM_REGISTER_ATLAS.md))
+- **Script, Data & Edition**: [`tools/attack116_five_section_paradigm_and_pharm_register_atlas.py`](../tools/attack116_five_section_paradigm_and_pharm_register_atlas.py) $\to$ [`data/attack116_five_section_paradigm_and_pharm_register_atlas.json`](../data/attack116_five_section_paradigm_and_pharm_register_atlas.json) & [`notes/FIVE_SECTION_PARADIGM_AND_PHARM_REGISTER_ATLAS.md`](FIVE_SECTION_PARADIGM_AND_PHARM_REGISTER_ATLAS.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes the Five-Section Dual-Branch Therapeutic Matrix & `69`-Stem Paradigm Table (`Attack 113`), the Currier A $\to$ Currier B Apothecary Compiler (`Attack 114`), and the `16`-Folio (`44`-Register) Pharmaceutical Compounding Atlas (`Attack 115`)**.

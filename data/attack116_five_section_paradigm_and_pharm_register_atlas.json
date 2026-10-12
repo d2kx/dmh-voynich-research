@@ -1,0 +1,393 @@
+{
+  "wave": "Autonomous Wave 26 (Phases 124-127 / Attacks 113-116 / Discoveries 130-133)",
+  "attack113_five_section_matrix": {
+    "section_open_stem_counts": {
+      "Z_zodiac": 345,
+      "H_herbal": 1124,
+      "P_pharm": 497,
+      "B_balneo": 590,
+      "S_starred": 1144,
+      "HP_apothecary_compiled": 379,
+      "HPBS_dual_branch": 146,
+      "ZHPBS_pan_5section": 69
+    },
+    "therapeutic_routing_classes": {
+      "ALL_HP_APOTHECARY_STEMS": 379,
+      "PAN_5SECTION_STEMS_ZHPBS": {
+        "stem_count": 69,
+        "mean_idf": 2.042,
+        "radical_family_pct": {
+          "VOCALIC_LIQUID_OTHER": 30.43,
+          "SIMPLEX_GALLOWS (k/t)": 21.74,
+          "EXTENDED_BENCH (che)": 17.39,
+          "EXTENDED_GALLOWS (ke/te)": 15.94,
+          "SIMPLEX_BENCH (ch)": 8.7,
+          "COMPOUND_GALLOWS_BENCH (kch/tch/ckh/cth)": 5.8
+        },
+        "herbal_tokens": 817,
+        "pharm_tokens": 260,
+        "balneo_tokens": 439,
+        "starred_tokens": 1000,
+        "s_qo_active_pct": 15.3,
+        "s_aiin_dose_pct": 19.8,
+        "b_l_ol_applicative_pct": 13.67
+      },
+      "DUAL_BRANCH_STEMS_HPBS": {
+        "stem_count": 146,
+        "mean_idf": 2.174,
+        "radical_family_pct": {
+          "VOCALIC_LIQUID_OTHER": 26.71,
+          "COMPOUND_GALLOWS_BENCH (kch/tch/ckh/cth)": 21.23,
+          "SIMPLEX_GALLOWS (k/t)": 15.75,
+          "EXTENDED_BENCH (che)": 13.01,
+          "EXTENDED_GALLOWS (ke/te)": 12.33,
+          "SIMPLEX_BENCH (ch)": 10.96
+        },
+        "herbal_tokens": 1816,
+        "pharm_tokens": 501,
+        "balneo_tokens": 991,
+        "starred_tokens": 1594,
+        "s_qo_active_pct": 13.55,
+        "s_aiin_dose_pct": 15.75,
+        "b_l_ol_applicative_pct": 23.51
+      },
+      "DECOCTION_ONLY_STEMS_HPS_NOT_B": {
+        "stem_count": 125,
+        "mean_idf": 2.994,
+        "radical_family_pct": {
+          "COMPOUND_GALLOWS_BENCH (kch/tch/ckh/cth)": 23.2,
+          "EXTENDED_GALLOWS (ke/te)": 19.2,
+          "VOCALIC_LIQUID_OTHER": 19.2,
+          "SIMPLEX_BENCH (ch)": 16.8,
+          "SIMPLEX_GALLOWS (k/t)": 11.2,
+          "EXTENDED_BENCH (che)": 10.4
+        },
+        "herbal_tokens": 721,
+        "pharm_tokens": 311,
+        "balneo_tokens": 0,
+        "starred_tokens": 522,
+        "s_qo_active_pct": 20.11,
+        "s_aiin_dose_pct": 19.16,
+        "b_l_ol_applicative_pct": 0.0
+      },
+      "HYDROTHERAPY_ONLY_STEMS_HPB_NOT_S": {
+        "stem_count": 17,
+        "mean_idf": 3.47,
+        "radical_family_pct": {
+          "VOCALIC_LIQUID_OTHER": 35.29,
+          "SIMPLEX_GALLOWS (k/t)": 29.41,
+          "COMPOUND_GALLOWS_BENCH (kch/tch/ckh/cth)": 11.76,
+          "SIMPLEX_BENCH (ch)": 11.76,
+          "EXTENDED_BENCH (che)": 11.76
+        },
+        "herbal_tokens": 50,
+        "pharm_tokens": 31,
+        "balneo_tokens": 22,
+        "starred_tokens": 0,
+        "s_qo_active_pct": 0.0,
+        "s_aiin_dose_pct": 0.0,
+        "b_l_ol_applicative_pct": 4.55
+      }
+    },
+    "n_pan_5_section_paradigms": 69,
+    "n_label_anchored_dual_paradigms": 28
+  },
+  "attack114_currier_a_to_b_compiler": {
+    "herbal_stem_pool_routing": {
+      "HERBAL_A_EXCLUSIVE_HA_not_HB": {
+        "total_stems": 540,
+        "in_pharm_P_count": 149,
+        "in_pharm_P_pct": 27.59,
+        "in_f58_index_count": 46,
+        "in_f58_index_pct": 8.52,
+        "in_apothecary_P_or_f58_count": 178,
+        "in_apothecary_P_or_f58_pct": 32.96,
+        "in_quire20_S_count": 238,
+        "in_quire20_S_pct": 44.07,
+        "in_balneo_B_count": 98,
+        "in_balneo_B_pct": 18.15,
+        "in_clinical_B_S_or_B_count": 279,
+        "in_clinical_B_S_or_B_pct": 51.67
+      },
+      "HERBAL_B_EXCLUSIVE_HB_not_HA": {
+        "total_stems": 259,
+        "in_pharm_P_count": 42,
+        "in_pharm_P_pct": 16.22,
+        "in_f58_index_count": 35,
+        "in_f58_index_pct": 13.51,
+        "in_apothecary_P_or_f58_count": 68,
+        "in_apothecary_P_or_f58_pct": 26.25,
+        "in_quire20_S_count": 185,
+        "in_quire20_S_pct": 71.43,
+        "in_balneo_B_count": 113,
+        "in_balneo_B_pct": 43.63,
+        "in_clinical_B_S_or_B_count": 211,
+        "in_clinical_B_S_or_B_pct": 81.47
+      },
+      "HERBAL_AB_SHARED_HA_and_HB": {
+        "total_stems": 321,
+        "in_pharm_P_count": 188,
+        "in_pharm_P_pct": 58.57,
+        "in_f58_index_count": 87,
+        "in_f58_index_pct": 27.1,
+        "in_apothecary_P_or_f58_count": 209,
+        "in_apothecary_P_or_f58_pct": 65.11,
+        "in_quire20_S_count": 246,
+        "in_quire20_S_pct": 76.64,
+        "in_balneo_B_count": 172,
+        "in_balneo_B_pct": 53.58,
+        "in_clinical_B_S_or_B_count": 262,
+        "in_clinical_B_S_or_B_pct": 81.62
+      }
+    },
+    "herbal_a_exclusive_apothecary_relay_test": {
+      "herbal_a_exclusive_total": 540,
+      "compiled_in_apothecary_count": 178,
+      "not_compiled_in_apothecary_count": 362,
+      "relayed_to_clinical_b_count": 103,
+      "relayed_to_clinical_b_pct": 57.87,
+      "unrelayed_to_clinical_b_count": 176,
+      "unrelayed_to_clinical_b_pct": 48.62,
+      "relay_enrichment_ratio": 1.19,
+      "null_mean_relayed": 91.77,
+      "null_std_relayed": 5.29,
+      "z_score": 2.12
+    },
+    "cross_dialect_orthographic_and_inflectional_shift": {
+      "shared_bridge_stems_count": 285,
+      "STAGE_1_HERBAL_A_96FOLIOS": {
+        "tokens": 2053,
+        "qo_proclitic_pct": 10.42,
+        "o_nominal_pct": 15.39,
+        "l_ol_applicative_pct": 1.75,
+        "sh_plumed_pct": 10.03,
+        "ee_geminate_pct": 8.28,
+        "edy_process_pct": 0.05,
+        "ody_dy_state_pct": 4.53,
+        "p_f_gallows_pct": 5.21
+      },
+      "STAGE_2_APOTHECARY_A_P_AND_F58": {
+        "tokens": 973,
+        "qo_proclitic_pct": 14.59,
+        "o_nominal_pct": 22.82,
+        "l_ol_applicative_pct": 4.11,
+        "sh_plumed_pct": 7.3,
+        "ee_geminate_pct": 13.36,
+        "edy_process_pct": 0.21,
+        "ody_dy_state_pct": 9.76,
+        "p_f_gallows_pct": 6.06
+      },
+      "STAGE_3A_QUIRE20_STARRED_B": {
+        "tokens": 1904,
+        "qo_proclitic_pct": 14.44,
+        "o_nominal_pct": 22.11,
+        "l_ol_applicative_pct": 4.36,
+        "sh_plumed_pct": 11.55,
+        "ee_geminate_pct": 17.33,
+        "edy_process_pct": 2.26,
+        "ody_dy_state_pct": 5.15,
+        "p_f_gallows_pct": 7.09
+      },
+      "STAGE_3B_BALNEOLOGICAL_B": {
+        "tokens": 923,
+        "qo_proclitic_pct": 8.78,
+        "o_nominal_pct": 22.75,
+        "l_ol_applicative_pct": 17.88,
+        "sh_plumed_pct": 16.9,
+        "ee_geminate_pct": 7.8,
+        "edy_process_pct": 4.12,
+        "ody_dy_state_pct": 5.42,
+        "p_f_gallows_pct": 5.63
+      }
+    }
+  },
+  "attack115_pharmaceutical_register_atlas": {
+    "n_pharmaceutical_folios": 16,
+    "n_total_registers": 44,
+    "n_lc_jar_labels": 40,
+    "n_lf_plant_labels": 210,
+    "locus_comparison": {
+      "lc_apothecary_jar_labels": {
+        "morph_profile": {
+          "n_tokens": 40,
+          "mean_word_length_chars": 6.92,
+          "pf_ornate_gallows_pct": 12.5,
+          "kt_standard_gallows_pct": 62.5,
+          "o_nominal_pct": 50.0,
+          "qo_active_pct": 0.0,
+          "l_ol_qol_applicative_pct": 2.5,
+          "d_da_pct": 12.5,
+          "s_sa_pct": 5.0,
+          "edy_processual_pct": 0.0,
+          "aiin_measured_pct": 2.5,
+          "y_dy_nominal_pct": 47.5,
+          "liquid_nasal_coda_pct": 12.5,
+          "radical_families_pct": {
+            "BENCH_ONLY": 10.0,
+            "COMPOUND_GALLOWS_BENCH": 5.0,
+            "EXTENDED_GALLOWS": 5.0,
+            "SIMPLEX_GALLOWS": 60.0,
+            "VOCALIC_LIQUID_ONLY": 20.0
+          }
+        },
+        "cross_section_stats": {
+          "n_tokens": 40,
+          "mean_corpus_df": 3.5,
+          "singleton_rate_pct": 85.0,
+          "attested_in_herbal_pct": 7.5,
+          "attested_in_starred_pct": 10.0,
+          "attested_in_balneo_pct": 7.5
+        },
+        "n_compound_resolved": 33,
+        "compound_resolved_pct": 82.5
+      },
+      "lf_plant_part_labels": {
+        "morph_profile": {
+          "n_tokens": 210,
+          "mean_word_length_chars": 5.6,
+          "pf_ornate_gallows_pct": 9.52,
+          "kt_standard_gallows_pct": 47.62,
+          "o_nominal_pct": 40.48,
+          "qo_active_pct": 0.0,
+          "l_ol_qol_applicative_pct": 5.71,
+          "d_da_pct": 11.43,
+          "s_sa_pct": 12.38,
+          "edy_processual_pct": 0.0,
+          "aiin_measured_pct": 3.33,
+          "y_dy_nominal_pct": 36.19,
+          "liquid_nasal_coda_pct": 36.67,
+          "radical_families_pct": {
+            "BENCH_ONLY": 11.43,
+            "COMPOUND_GALLOWS_BENCH": 11.9,
+            "EXTENDED_GALLOWS": 6.19,
+            "SIMPLEX_GALLOWS": 38.1,
+            "VOCALIC_LIQUID_ONLY": 32.38
+          }
+        },
+        "cross_section_stats": {
+          "n_tokens": 210,
+          "mean_corpus_df": 22.34,
+          "singleton_rate_pct": 42.38,
+          "attested_in_herbal_pct": 47.14,
+          "attested_in_starred_pct": 47.62,
+          "attested_in_balneo_pct": 34.76
+        }
+      },
+      "p_register_prose": {
+        "morph_profile": {
+          "n_tokens": 2339,
+          "mean_word_length_chars": 4.9,
+          "pf_ornate_gallows_pct": 3.93,
+          "kt_standard_gallows_pct": 38.35,
+          "o_nominal_pct": 14.96,
+          "qo_active_pct": 12.1,
+          "l_ol_qol_applicative_pct": 3.46,
+          "d_da_pct": 13.08,
+          "s_sa_pct": 12.91,
+          "edy_processual_pct": 0.51,
+          "aiin_measured_pct": 11.93,
+          "y_dy_nominal_pct": 31.55,
+          "liquid_nasal_coda_pct": 38.99,
+          "radical_families_pct": {
+            "BENCH_ONLY": 24.2,
+            "COMPOUND_GALLOWS_BENCH": 10.47,
+            "EXTENDED_GALLOWS": 17.79,
+            "SIMPLEX_GALLOWS": 13.68,
+            "VOCALIC_LIQUID_ONLY": 33.86
+          }
+        },
+        "cross_section_stats": {
+          "n_tokens": 2339,
+          "mean_corpus_df": 59.95,
+          "singleton_rate_pct": 11.29,
+          "attested_in_herbal_pct": 83.71,
+          "attested_in_starred_pct": 79.91,
+          "attested_in_balneo_pct": 63.75
+        }
+      }
+    },
+    "register_specialization": {
+      "n_multi_register_folios": 15,
+      "n_same_folio_register_pairs": 43,
+      "n_distinct_top1_herbal_pairs": 39,
+      "distinct_top1_herbal_rate_pct": 90.7,
+      "n_distinct_top1_starred_pairs": 31,
+      "distinct_top1_starred_rate_pct": 72.09
+    },
+    "row_specific_lf_to_prose_alignment": {
+      "observed_matches": 75,
+      "null_mean": 68.02,
+      "null_std": 5.58,
+      "lift": 1.1,
+      "z_score": 1.25
+    },
+    "vertical_register_row_gradient": {
+      "register_1_top_row": {
+        "n_tokens": 814,
+        "mean_word_length_chars": 4.84,
+        "pf_ornate_gallows_pct": 4.55,
+        "kt_standard_gallows_pct": 36.12,
+        "o_nominal_pct": 12.65,
+        "qo_active_pct": 12.16,
+        "l_ol_qol_applicative_pct": 2.83,
+        "d_da_pct": 12.53,
+        "s_sa_pct": 12.53,
+        "edy_processual_pct": 0.49,
+        "aiin_measured_pct": 11.67,
+        "y_dy_nominal_pct": 29.12,
+        "liquid_nasal_coda_pct": 39.43,
+        "radical_families_pct": {
+          "BENCH_ONLY": 24.32,
+          "COMPOUND_GALLOWS_BENCH": 11.18,
+          "EXTENDED_GALLOWS": 14.5,
+          "SIMPLEX_GALLOWS": 14.74,
+          "VOCALIC_LIQUID_ONLY": 35.26
+        }
+      },
+      "register_2_mid_row": {
+        "n_tokens": 805,
+        "mean_word_length_chars": 5.01,
+        "pf_ornate_gallows_pct": 4.1,
+        "kt_standard_gallows_pct": 40.12,
+        "o_nominal_pct": 17.89,
+        "qo_active_pct": 12.05,
+        "l_ol_qol_applicative_pct": 3.48,
+        "d_da_pct": 12.3,
+        "s_sa_pct": 14.66,
+        "edy_processual_pct": 0.5,
+        "aiin_measured_pct": 11.43,
+        "y_dy_nominal_pct": 32.92,
+        "liquid_nasal_coda_pct": 40.75,
+        "radical_families_pct": {
+          "BENCH_ONLY": 25.22,
+          "COMPOUND_GALLOWS_BENCH": 10.56,
+          "EXTENDED_GALLOWS": 20.37,
+          "SIMPLEX_GALLOWS": 12.67,
+          "VOCALIC_LIQUID_ONLY": 31.18
+        }
+      },
+      "register_3plus_bottom_row": {
+        "n_tokens": 720,
+        "mean_word_length_chars": 4.84,
+        "pf_ornate_gallows_pct": 3.06,
+        "kt_standard_gallows_pct": 38.89,
+        "o_nominal_pct": 14.31,
+        "qo_active_pct": 12.08,
+        "l_ol_qol_applicative_pct": 4.17,
+        "d_da_pct": 14.58,
+        "s_sa_pct": 11.39,
+        "edy_processual_pct": 0.56,
+        "aiin_measured_pct": 12.78,
+        "y_dy_nominal_pct": 32.78,
+        "liquid_nasal_coda_pct": 36.53,
+        "radical_families_pct": {
+          "BENCH_ONLY": 22.92,
+          "COMPOUND_GALLOWS_BENCH": 9.58,
+          "EXTENDED_GALLOWS": 18.61,
+          "SIMPLEX_GALLOWS": 13.61,
+          "VOCALIC_LIQUID_ONLY": 35.28
+        }
+      }
+    }
+  }
+}

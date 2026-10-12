@@ -1,0 +1,414 @@
+{
+  "attack_id": 114,
+  "discovery_id": 131,
+  "title": "The Currier A -> Currier B Cross-Dialect Apothecary Compiler (Herbal-A -> Pharm/f58-A -> Starred/Balneo-B)",
+  "herbal_stem_pool_routing": {
+    "HERBAL_A_EXCLUSIVE_HA_not_HB": {
+      "total_stems": 540,
+      "in_pharm_P_count": 149,
+      "in_pharm_P_pct": 27.59,
+      "in_f58_index_count": 46,
+      "in_f58_index_pct": 8.52,
+      "in_apothecary_P_or_f58_count": 178,
+      "in_apothecary_P_or_f58_pct": 32.96,
+      "in_quire20_S_count": 238,
+      "in_quire20_S_pct": 44.07,
+      "in_balneo_B_count": 98,
+      "in_balneo_B_pct": 18.15,
+      "in_clinical_B_S_or_B_count": 279,
+      "in_clinical_B_S_or_B_pct": 51.67
+    },
+    "HERBAL_B_EXCLUSIVE_HB_not_HA": {
+      "total_stems": 259,
+      "in_pharm_P_count": 42,
+      "in_pharm_P_pct": 16.22,
+      "in_f58_index_count": 35,
+      "in_f58_index_pct": 13.51,
+      "in_apothecary_P_or_f58_count": 68,
+      "in_apothecary_P_or_f58_pct": 26.25,
+      "in_quire20_S_count": 185,
+      "in_quire20_S_pct": 71.43,
+      "in_balneo_B_count": 113,
+      "in_balneo_B_pct": 43.63,
+      "in_clinical_B_S_or_B_count": 211,
+      "in_clinical_B_S_or_B_pct": 81.47
+    },
+    "HERBAL_AB_SHARED_HA_and_HB": {
+      "total_stems": 321,
+      "in_pharm_P_count": 188,
+      "in_pharm_P_pct": 58.57,
+      "in_f58_index_count": 87,
+      "in_f58_index_pct": 27.1,
+      "in_apothecary_P_or_f58_count": 209,
+      "in_apothecary_P_or_f58_pct": 65.11,
+      "in_quire20_S_count": 246,
+      "in_quire20_S_pct": 76.64,
+      "in_balneo_B_count": 172,
+      "in_balneo_B_pct": 53.58,
+      "in_clinical_B_S_or_B_count": 262,
+      "in_clinical_B_S_or_B_pct": 81.62
+    }
+  },
+  "herbal_a_exclusive_apothecary_relay_test": {
+    "herbal_a_exclusive_total": 540,
+    "compiled_in_apothecary_count": 178,
+    "not_compiled_in_apothecary_count": 362,
+    "relayed_to_clinical_b_count": 103,
+    "relayed_to_clinical_b_pct": 57.87,
+    "unrelayed_to_clinical_b_count": 176,
+    "unrelayed_to_clinical_b_pct": 48.62,
+    "relay_enrichment_ratio": 1.19,
+    "null_mean_relayed": 91.77,
+    "null_std_relayed": 5.29,
+    "z_score": 2.12
+  },
+  "cross_dialect_orthographic_and_inflectional_shift": {
+    "shared_bridge_stems_count": 285,
+    "STAGE_1_HERBAL_A_96FOLIOS": {
+      "tokens": 2053,
+      "qo_proclitic_pct": 10.42,
+      "o_nominal_pct": 15.39,
+      "l_ol_applicative_pct": 1.75,
+      "sh_plumed_pct": 10.03,
+      "ee_geminate_pct": 8.28,
+      "edy_process_pct": 0.05,
+      "ody_dy_state_pct": 4.53,
+      "p_f_gallows_pct": 5.21
+    },
+    "STAGE_2_APOTHECARY_A_P_AND_F58": {
+      "tokens": 973,
+      "qo_proclitic_pct": 14.59,
+      "o_nominal_pct": 22.82,
+      "l_ol_applicative_pct": 4.11,
+      "sh_plumed_pct": 7.3,
+      "ee_geminate_pct": 13.36,
+      "edy_process_pct": 0.21,
+      "ody_dy_state_pct": 9.76,
+      "p_f_gallows_pct": 6.06
+    },
+    "STAGE_3A_QUIRE20_STARRED_B": {
+      "tokens": 1904,
+      "qo_proclitic_pct": 14.44,
+      "o_nominal_pct": 22.11,
+      "l_ol_applicative_pct": 4.36,
+      "sh_plumed_pct": 11.55,
+      "ee_geminate_pct": 17.33,
+      "edy_process_pct": 2.26,
+      "ody_dy_state_pct": 5.15,
+      "p_f_gallows_pct": 7.09
+    },
+    "STAGE_3B_BALNEOLOGICAL_B": {
+      "tokens": 923,
+      "qo_proclitic_pct": 8.78,
+      "o_nominal_pct": 22.75,
+      "l_ol_applicative_pct": 17.88,
+      "sh_plumed_pct": 16.9,
+      "ee_geminate_pct": 7.8,
+      "edy_process_pct": 4.12,
+      "ody_dy_state_pct": 5.42,
+      "p_f_gallows_pct": 5.63
+    }
+  },
+  "top_30_cross_dialect_rewrite_chains": [
+    {
+      "canonical_stem": "ckheo",
+      "is_herbal_a_exclusive": true,
+      "idf": 4.043,
+      "stage1_herbal_A_forms": "ckheo(1)",
+      "stage2_apothecary_A_forms": "ckheo(1)",
+      "stage3_clinical_B_forms": "cfheo(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "ckheo (Herbal-A) -> ckheo (Pharm/f58-A) -> cfheo (Clinical-B)"
+    },
+    {
+      "canonical_stem": "kchar",
+      "is_herbal_a_exclusive": true,
+      "idf": 4.043,
+      "stage1_herbal_A_forms": "kchar(1)",
+      "stage2_apothecary_A_forms": "kshar(1)",
+      "stage3_clinical_B_forms": "kshar(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "kchar (Herbal-A) -> kshar (Pharm/f58-A) -> kshar (Clinical-B)"
+    },
+    {
+      "canonical_stem": "otchear",
+      "is_herbal_a_exclusive": true,
+      "idf": 4.043,
+      "stage1_herbal_A_forms": "opchear(1)",
+      "stage2_apothecary_A_forms": "opcheear(1)",
+      "stage3_clinical_B_forms": "qopchear(1), opchear(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "opchear (Herbal-A) -> opcheear (Pharm/f58-A) -> qopchear (Clinical-B)"
+    },
+    {
+      "canonical_stem": "okodain",
+      "is_herbal_a_exclusive": true,
+      "idf": 4.043,
+      "stage1_herbal_A_forms": "okodaiin(1)",
+      "stage2_apothecary_A_forms": "okodaiin(1)",
+      "stage3_clinical_B_forms": "qokodaiin(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "okodaiin (Herbal-A) -> okodaiin (Pharm/f58-A) -> qokodaiin (Clinical-B)"
+    },
+    {
+      "canonical_stem": "ychain",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.82,
+      "stage1_herbal_A_forms": "ychain(2)",
+      "stage2_apothecary_A_forms": "yshaiin(1)",
+      "stage3_clinical_B_forms": "ychain(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "ychain (Herbal-A) -> yshaiin (Pharm/f58-A) -> ychain (Clinical-B)"
+    },
+    {
+      "canonical_stem": "octhor",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.82,
+      "stage1_herbal_A_forms": "octhor(2)",
+      "stage2_apothecary_A_forms": "qocthor(1)",
+      "stage3_clinical_B_forms": "octhor(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "octhor (Herbal-A) -> qocthor (Pharm/f58-A) -> octhor (Clinical-B)"
+    },
+    {
+      "canonical_stem": "chkedy",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.82,
+      "stage1_herbal_A_forms": "shkeody(1)",
+      "stage2_apothecary_A_forms": "chkeeody(1)",
+      "stage3_clinical_B_forms": "shkeody(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "shkeody (Herbal-A) -> chkeeody (Pharm/f58-A) -> shkeody (Clinical-B)"
+    },
+    {
+      "canonical_stem": "chkchol",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.82,
+      "stage1_herbal_A_forms": "chkchol(1)",
+      "stage2_apothecary_A_forms": "chkchol(1)",
+      "stage3_clinical_B_forms": "chfchol(1), chkchol(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "chkchol (Herbal-A) -> chkchol (Pharm/f58-A) -> chfchol (Clinical-B)"
+    },
+    {
+      "canonical_stem": "choor",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.82,
+      "stage1_herbal_A_forms": "choor(2)",
+      "stage2_apothecary_A_forms": "choor(1)",
+      "stage3_clinical_B_forms": "shoor(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "choor (Herbal-A) -> choor (Pharm/f58-A) -> shoor (Clinical-B)"
+    },
+    {
+      "canonical_stem": "lchol",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.82,
+      "stage1_herbal_A_forms": "lshol(1), lchol(1)",
+      "stage2_apothecary_A_forms": "lchol(1)",
+      "stage3_clinical_B_forms": "lchol(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "lshol (Herbal-A) -> lchol (Pharm/f58-A) -> lchol (Clinical-B)"
+    },
+    {
+      "canonical_stem": "dolchey",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.82,
+      "stage1_herbal_A_forms": "dolchey(1), dolcheey(1)",
+      "stage2_apothecary_A_forms": "dolchey(1)",
+      "stage3_clinical_B_forms": "dolsheey(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "dolchey (Herbal-A) -> dolchey (Pharm/f58-A) -> dolsheey (Clinical-B)"
+    },
+    {
+      "canonical_stem": "toain",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.82,
+      "stage1_herbal_A_forms": "toaiin(2)",
+      "stage2_apothecary_A_forms": "poaiin(1)",
+      "stage3_clinical_B_forms": "toaiin(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "toaiin (Herbal-A) -> poaiin (Pharm/f58-A) -> toaiin (Clinical-B)"
+    },
+    {
+      "canonical_stem": "daindy",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.82,
+      "stage1_herbal_A_forms": "daiinody(1)",
+      "stage2_apothecary_A_forms": "daiinody(1), daiindy(1)",
+      "stage3_clinical_B_forms": "daiindy(2)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "daiinody (Herbal-A) -> daiinody (Pharm/f58-A) -> daiindy (Clinical-B)"
+    },
+    {
+      "canonical_stem": "cheb",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.638,
+      "stage1_herbal_A_forms": "cheeeb(1), cheeb(1)",
+      "stage2_apothecary_A_forms": "cheeb(1)",
+      "stage3_clinical_B_forms": "cheeb(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "cheeeb (Herbal-A) -> cheeb (Pharm/f58-A) -> cheeb (Clinical-B)"
+    },
+    {
+      "canonical_stem": "otoey",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.638,
+      "stage1_herbal_A_forms": "qotoeey(2)",
+      "stage2_apothecary_A_forms": "otoey(1)",
+      "stage3_clinical_B_forms": "qopoeey(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "qotoeey (Herbal-A) -> otoey (Pharm/f58-A) -> qopoeey (Clinical-B)"
+    },
+    {
+      "canonical_stem": "okoly",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.638,
+      "stage1_herbal_A_forms": "okoly(1)",
+      "stage2_apothecary_A_forms": "okoly(2), qokoly(1)",
+      "stage3_clinical_B_forms": "ofoly(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "okoly (Herbal-A) -> okoly (Pharm/f58-A) -> ofoly (Clinical-B)"
+    },
+    {
+      "canonical_stem": "ckhar",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.638,
+      "stage1_herbal_A_forms": "cfhar(2)",
+      "stage2_apothecary_A_forms": "ckhar(1)",
+      "stage3_clinical_B_forms": "ckhar(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "cfhar (Herbal-A) -> ckhar (Pharm/f58-A) -> ckhar (Clinical-B)"
+    },
+    {
+      "canonical_stem": "keos",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.638,
+      "stage1_herbal_A_forms": "keeos(2), keos(1)",
+      "stage2_apothecary_A_forms": "keeeos(1)",
+      "stage3_clinical_B_forms": "keeos(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "keeos (Herbal-A) -> keeeos (Pharm/f58-A) -> keeos (Clinical-B)"
+    },
+    {
+      "canonical_stem": "dalchy",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.638,
+      "stage1_herbal_A_forms": "dalchy(1)",
+      "stage2_apothecary_A_forms": "dalchy(2)",
+      "stage3_clinical_B_forms": "dalshy(1), dalchy(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "dalchy (Herbal-A) -> dalchy (Pharm/f58-A) -> dalshy (Clinical-B)"
+    },
+    {
+      "canonical_stem": "okcheol",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.638,
+      "stage1_herbal_A_forms": "okcheol(1)",
+      "stage2_apothecary_A_forms": "ofcheol(1), qokcheol(1)",
+      "stage3_clinical_B_forms": "qofcheol(2)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "okcheol (Herbal-A) -> ofcheol (Pharm/f58-A) -> qofcheol (Clinical-B)"
+    },
+    {
+      "canonical_stem": "dchedy",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.638,
+      "stage1_herbal_A_forms": "dcheody(1)",
+      "stage2_apothecary_A_forms": "dsheody(1)",
+      "stage3_clinical_B_forms": "dcheeody(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "dcheody (Herbal-A) -> dsheody (Pharm/f58-A) -> dcheeody (Clinical-B)"
+    },
+    {
+      "canonical_stem": "chokeol",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.638,
+      "stage1_herbal_A_forms": "shokeeol(1), chokeol(1)",
+      "stage2_apothecary_A_forms": "chokeol(1)",
+      "stage3_clinical_B_forms": "chokeol(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "shokeeol (Herbal-A) -> chokeol (Pharm/f58-A) -> chokeol (Clinical-B)"
+    },
+    {
+      "canonical_stem": "chokchey",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.483,
+      "stage1_herbal_A_forms": "chokcheey(1), chokchey(1)",
+      "stage2_apothecary_A_forms": "chokchey(1)",
+      "stage3_clinical_B_forms": "shokchey(1), chokchey(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "chokcheey (Herbal-A) -> chokchey (Pharm/f58-A) -> shokchey (Clinical-B)"
+    },
+    {
+      "canonical_stem": "tcheos",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.483,
+      "stage1_herbal_A_forms": "tsheos(1), pcheos(1)",
+      "stage2_apothecary_A_forms": "tcheos(1)",
+      "stage3_clinical_B_forms": "pcheos(2)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "tsheos (Herbal-A) -> tcheos (Pharm/f58-A) -> pcheos (Clinical-B)"
+    },
+    {
+      "canonical_stem": "okeam",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.483,
+      "stage1_herbal_A_forms": "okeam(2), qokeeam(1)",
+      "stage2_apothecary_A_forms": "okeeam(1)",
+      "stage3_clinical_B_forms": "okeeam(1), okeam(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "okeam (Herbal-A) -> okeeam (Pharm/f58-A) -> okeeam (Clinical-B)"
+    },
+    {
+      "canonical_stem": "tdain",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.483,
+      "stage1_herbal_A_forms": "tdaiin(1)",
+      "stage2_apothecary_A_forms": "tdain(1)",
+      "stage3_clinical_B_forms": "pdaiin(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "tdaiin (Herbal-A) -> tdain (Pharm/f58-A) -> pdaiin (Clinical-B)"
+    },
+    {
+      "canonical_stem": "otoy",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.483,
+      "stage1_herbal_A_forms": "qotoy(1), otoy(1)",
+      "stage2_apothecary_A_forms": "otoy(1)",
+      "stage3_clinical_B_forms": "otoy(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "qotoy (Herbal-A) -> otoy (Pharm/f58-A) -> otoy (Clinical-B)"
+    },
+    {
+      "canonical_stem": "chosain",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.483,
+      "stage1_herbal_A_forms": "shosaiin(3)",
+      "stage2_apothecary_A_forms": "chosaiin(1)",
+      "stage3_clinical_B_forms": "shosaiin(1), chosaiin(1)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "shosaiin (Herbal-A) -> chosaiin (Pharm/f58-A) -> shosaiin (Clinical-B)"
+    },
+    {
+      "canonical_stem": "chchy",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.35,
+      "stage1_herbal_A_forms": "chshy(1)",
+      "stage2_apothecary_A_forms": "chchy(1)",
+      "stage3_clinical_B_forms": "chchy(2), shchy(2)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "chshy (Herbal-A) -> chchy (Pharm/f58-A) -> chchy (Clinical-B)"
+    },
+    {
+      "canonical_stem": "orchey",
+      "is_herbal_a_exclusive": true,
+      "idf": 3.35,
+      "stage1_herbal_A_forms": "orchey(1)",
+      "stage2_apothecary_A_forms": "orcheey(1)",
+      "stage3_clinical_B_forms": "orchey(2)",
+      "surface_shift_observed": true,
+      "example_rewrite_chain": "orchey (Herbal-A) -> orcheey (Pharm/f58-A) -> orchey (Clinical-B)"
+    }
+  ]
+}
