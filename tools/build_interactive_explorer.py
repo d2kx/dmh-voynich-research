@@ -3,14 +3,15 @@
 tools/build_interactive_explorer.py
 
 Builds `explorer/index.html` — a self-contained, zero-server interactive local HTML
-explorer for the Voynich Manuscript research repository (v17.0 Grand Release).
+explorer for the Voynich Manuscript research repository (v18.0 Grand Release).
 
-Includes 19 synchronized interactive views:
-  1. Page-by-Page Visual Reader (78 iconic folios with high-res scans & clickable clauses)
-  2. Botanical, Astrological, Balneological & Cosmological Identifications (90 flagship specimens `SPEC-01..90`)
+Includes 20 synchronized interactive views:
+  1. Page-by-Page Visual Reader (82 iconic folios with high-res scans & clickable clauses)
+  2. Botanical, Astrological, Balneological & Cosmological Identifications (95 flagship specimens `SPEC-01..95`)
   ...
   18. Wave 50: Milestone 50th Wave — Scribe 5, f65r -m Triad, f84v @Pb Callouts, f90 Foldout Inversion & f113v Star Openers
-  19. Wave 51: 18/18 Palindromic Bifolio Law, 20/20 Quire 13 Completion, Rosettes 2×3 Grid & f103–f104r Quire 20 Seeding (v17.0)
+  19. Wave 51: 18/18 Palindromic Bifolio Law, 20/20 Quire 13 Completion, Rosettes 2×3 Grid & f103–f104r Quire 20 Seeding
+  20. Wave 52: 98/98 (100%) Non-Herbal Visual Scan Milestone, Quire 20 26/26 Recto-Verso Architecture & Quire 8 Scribe 3 Cross-Language Index (v18.0)
 """
 
 import json
@@ -1299,6 +1300,70 @@ WALKTHROUGH_FOLIOS = [
                 "english": "[f86v3 Cardinal `t-` Acrostic & 4-Fold Measure Epizeuxis]: North, West, East, South, and Center `t-` headers (`tchedy, tchol, tshedal, toeeedchy, tshdchey`) and 4-part measure (`taiin ytaiin ytaiin ytaiin or ar ytas am`); [f103v & f104r Recipe Openers]: Begin steeping in the bath vessel (`pchdy shol`) and boil the compound (`pchor qokeedy`)."
             }
         ]
+    },
+    {
+        "folio": "f105v & f114r",
+        "title": "Quire 20 Bifolium #3 Inner Sheet (`f105v <-> f114r`): The `#1` (`21.05%`) and `#2` (`19.35%`) Highest `-aiin` Nominal-Suffix Recipe Pages (`1.75×` Lift)",
+        "section": "Starred Master Recipes (`$I=S`, Quire 20 Bifolium #3 Inner Sheet, Scribe 3)",
+        "pdf_page": 189,
+        "image": "../pages/f105v_quire20_third_verso_recipes_enh.png",
+        "secondary_image": "../pages/f114r_quire20_twelfth_recto_recipes_enh.png",
+        "summary": "Unfolding Bifolium #3 (`f105 <-> f114`) of Quire 20 reveals `f105v` (above, `p189`, `399` words, `9` recipes, with top-left numeral `48`) and `f114r` (below, `p202`, `460` words, `12` recipes) printed side-by-side on the inner face of the same physical sheet. Quantitatively, `f105v` is the `#1` highest `-aiin` nominal-measure page (`21.05%` `-aiin`, `30.83%` `o-` initial) in all `23` recipe pages of Quire 20, and its conjugate partner `f114r` is the `#2` highest `-aiin` page (`19.35%` `-aiin`, `24.57%` `o-` initial)—a `1.75×` surge over the rest of Quire 20 (`11.53%`), with `62.17%` / `61.65%` bidirectional stem coverage (`Attack 217`)!",
+        "clauses": [
+            {
+                "locus": "f105v.1 (`@P0` `#1` `-aiin` Page Opener) + f114r.1 (`@P0` `#2` `-aiin` Page Opener)",
+                "eva": "pchedy or oteeey qokaiin otedey oteedaiin daiin ody qokedy tchedor daiin tched qokain olkeaiin okaiin chol",
+                "english": "[f105v `#1` Nominal-Measure Recipe Opener]: Begin steeping in the oil essence (`pchedy or oteeey`) with one measured core portion (`qokaiin otedey oteedaiin daiin ody qokedy`); [f114r `#2` Conjugate Sheet Opener]: From the infused extract (`tchedor`), take one measured part (`daiin tched qokain olkeaiin okaiin`) in the strained herbal liquid (`chol`)."
+            }
+        ]
+    },
+    {
+        "folio": "f112r, f112v & f115v",
+        "title": "Completing `100%` (`26/26`) Visual Coverage of Quire 20: Back-to-Back Recto-Verso Text-Block Registration (`f112r <-> f112v`) & Same-Leaf Stem Coupling ($z = +3.87$)",
+        "section": "Starred Master Recipes (`$I=S`, Quire 20 Leaf 10 & Leaf 13, Currier B, Scribe 3)",
+        "pdf_page": 199,
+        "image": "../pages/f112v_quire20_tenth_verso_recipes_enh.png",
+        "secondary_image": "../pages/f115v_quire20_penultimate_verso_recipes_enh.png",
+        "summary": "Why does `f112v` (above, `p199`, `419` words, `12` recipes) have a wide ~28% blank left margin before its column of 11 stars? Because on `f112r` (`p198`, `401` words, `10` recipes), Scribe 3 started near the left spine and left ~22% blank on the outer right; when flipping the translucent vellum leaf over to `f112v`, he aligned the verso text block directly on top of `f112r`'s text block showing through the leaf! Together with `f115v` (below, `p205`, `410` words, `12` recipes), these scans complete `100.0%` (`26/26`) visual scan coverage of Quire 20 and prove that same-leaf recto-verso pairs achieve a mean Canonical Stem Jaccard of `0.2496` vs `0.2247` ($z = +3.87, p = 0.00020$, `Attack 217`)!",
+        "clauses": [
+            {
+                "locus": "f112r.1 (`pochol`) + f112v.1 (`pchedal` Mirrored Block) + f115v.1 (`pchedar` Penultimate Verso)",
+                "eva": "pochol qokeey qokain olaiin shedy pchedal chedy qokeedy qokchedy ol pchedar qokeedy qokaiin otar olchedy",
+                "english": "[f112r Opener]: Begin from the liquid vessel and boil one measure (`pochol qokeey qokain olaiin shedy`); [f112v Mirrored Verso Opener]: Begin steeping and boiling thoroughly in the vessel (`pchedal chedy qokeedy qokchedy ol`); [f115v Penultimate Verso Opener]: Begin the root infusion and boil one part in the bath (`pchedar qokeedy qokaiin otar olchedy`)."
+            }
+        ]
+    },
+    {
+        "folio": "f69v, f70r1 & f71r",
+        "title": "The `100.0%` (`98/98`) Non-Herbal Visual Scan Milestone: The `28`-Spoke Lunar-Mansion Wheel (`f69v`), `6`-Lobe Nebula Wheel (`f70r1`) & `30`-Nymph Aries Spread (`f71r` `abril`)",
+        "section": "Cosmological (`$I=C`, `p127`) & Zodiac (`$I=Z`, `p130`, Scribe 4)",
+        "pdf_page": 127,
+        "image": "../pages/f69v_cosmological_28spoke_wheel_enh.png",
+        "secondary_image": "../pages/f71r_aries_ii_abril_full_medallion_enh.png",
+        "summary": "Rendering `f69v` (above, `p127` left panel), `f70r1` (`p127` center panel), and full-page `f71r` (below, `p130`) achieves `100.0%` (`98/98` folios) visual scan coverage of every single non-Herbal folio in the Voynich Manuscript! On `f69v`, `14` long blue turrets alternate with `14` shorter green turrets to form `28` lunar-mansion spokes (`60.61%` `o-` initial, `81.82%` echoed across AZC), while `f70r1` surrounds a 6-pointed star (`5/6` `ot-/ok-/op-` labels) with a 6-lobed blue nebula ring (`50.89%` covered by `f70r2`). Below on `f71r`, the horned ram of Aries grazes above `abril` encircled by `15` (`10 + 5`) barreled nymphs that complete the `30` degrees of Aries with facing `f70v1` (`58.89%` `o-` initial, `Attack 218`)!",
+        "clauses": [
+            {
+                "locus": "f69v (`28` Lunar-Mansion Spokes) + f70r1 (`6` Inner Star Sectors) + f71r (`abril` Aries II Ring & Nymphs)",
+                "eva": "okeey sar okeo okody otal otchdy otody oky dary opalg okeor okoldy otaiin otchody oteey okeody",
+                "english": "[f69v Lunar-Mansion Turret Labels]: The star-sector and vessel degrees (`okeey, sar, okeo, okody, otal`); [f70r1 6-Star Sector Labels]: The 6 inner celestial states (`otchdy, otody, oky dary, opalg, okeor, okoldy`); [f71r Aries II Portal & Nymphs]: From the first degree at the 9 o'clock portal (`otaiin, otchody, oteey, okeody`)."
+            }
+        ]
+    },
+    {
+        "folio": "f57r, f58v & f65v",
+        "title": "Quire 8 `100%` (`8/8`) Visual Completion: Scribe 3's Cross-Language Starred Index (`f58v`, `2.59×` `q-` Jump & `84.86%` Quire 20 Stem Coverage) & Twin Apical Blue-Calyx Plants (`f57r, f65v`)",
+        "section": "Herbal & Starred Herbal Index (`Quire 8`, `$I=H/S`, `p114, p117, p119`, Scribes 3 & 5)",
+        "pdf_page": 119,
+        "image": "../pages/f65v_quire8_scribe3_conjugate_herbal_enh.png",
+        "secondary_image": "../pages/f58v_starred_herbal_index_verso_enh.png",
+        "summary": "Rendering `f57r` (`p114`), `f58v` (below, `p117`), and `f65v` (above, `p119`) completes `8/8` (`100.0%`) visual scan coverage of Quire 8 (`f57r–f66v`). Visually, both `f57r` and `f65v` crown their central vertical axis with a single dark-blue serrated funnel calyx, while `f65v` adds a figure-`8` stem loop and dozens of green daisy-button heads. Linguistically, `f58r–f58v` (`753` words, `3 + 4 = 7` paragraphs matching the `7` herbal leaves of 10-leaf Quire 8!) is the only place where Scribe 3 writes `$I=S` Starred Index paragraphs in Currier Language A (`-edy = 0.53% / 1.07%`): flipping from `f58r` to `f58v`, `q-` initial words jump `2.59×` (`7.41% -> 19.20%`) without increasing `-edy` (`1.07%`), and 4-Rule Canonical Normalization lifts coverage by Scribe 3's Quire 20 Starred Recipes from `68.66%` raw words to `84.86%` canonical stems (`1.24×` lift, `Attack 219`)!",
+        "clauses": [
+            {
+                "locus": "f58v.1 (`*` Starred Index Verso) + f65v.1 (`tchodar` Conjugate Herbal) + f57r.1 (`pchocthy` Opening Recto)",
+                "eva": "kchor qokain qokaiin qokal chol daiin tchodar chody qokedy shedy pchocthy chodaiin qokchedy",
+                "english": "[f58v Scribe 3 Starred Index Verso]: From the core flower-extract (`kchor`), take the measured portions (`qokain qokaiin qokal`) in one dose of strained liquid (`chol daiin`); [f65v & f57r Apical Blue-Calyx Herbals]: Prepare the root infusion (`tchodar chody qokedy shedy`) and steep the divided leaf (`pchocthy chodaiin qokchedy`)."
+            }
+        ]
     }
 ]
 
@@ -1378,6 +1443,9 @@ def main():
     a214_data = json.loads((ROOT / "data" / "attack214_balneo_20page_completion_f78v_f79v_f80v_and_transleaf_echo.json").read_text(encoding="utf-8"))
     a215_data = json.loads((ROOT / "data" / "attack215_rosettes_6panel_reverse_grid_f85r2_f86v3_f86v6.json").read_text(encoding="utf-8"))
     a216_data = json.loads((ROOT / "data" / "attack216_quire20_opening_spread_f103v_f104r_and_wave51_compendium.json").read_text(encoding="utf-8"))
+    a217_data = json.loads((ROOT / "data" / "attack217_quire20_25page_completion_f105v_f112_f114r_f115v.json").read_text(encoding="utf-8"))
+    a218_data = json.loads((ROOT / "data" / "attack218_100pct_nonherbal_visual_completion_f69v_f70r1_f71r.json").read_text(encoding="utf-8"))
+    a219_data = json.loads((ROOT / "data" / "attack219_quire8_f58_f65_conjugate_index_and_missing_bifolia.json").read_text(encoding="utf-8"))
 
     rosettes_panels = []
     for f_id, prof in rosettes_data["folio_profiles"].items():
@@ -1505,6 +1573,10 @@ def main():
         "wave51_rosettes_reverse": a215_data["panel_profiles"],
         "wave51_f86v3_openers": a215_data["f86v3_paragraph_openers"],
         "wave51_q20_bifolia": a216_data["quire20_7bifolia"],
+        "wave52_q20_trajectory": a217_data["per_folio_dialect_trajectory"],
+        "wave52_q20_same_leaf": a217_data["same_leaf_recto_verso_coupling"]["leaves"],
+        "wave52_non_herbal_sections": a218_data["non_herbal_completion"]["by_section"],
+        "wave52_q8_profiles": a219_data["quire8_visual_and_folio_profiles"],
     }, ensure_ascii=False)
 
     html = f"""<!DOCTYPE html>
@@ -1907,8 +1979,8 @@ def main():
       <p>Click any word token on any page to peel apart its Prefix + Root Stem + Suffix in plain English</p>
     </div>
     <nav class="nav-tabs" aria-label="Explorer Views">
-      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (78)</button>
-      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (90)</button>
+      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (82)</button>
+      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (95)</button>
       <button class="tab-btn" onclick="switchTab('lexicon', this)">3. Core Dictionary &amp; 8-Case Grammar</button>
       <button class="tab-btn" onclick="switchTab('zodiac', this)">4. Zodiac Months &amp; Bath Plumbing</button>
       <button class="tab-btn" onclick="switchTab('recipes', this)">5. Starred Recipes, Rosettes &amp; 4-Transcriber Proof</button>
@@ -1925,7 +1997,8 @@ def main():
       <button class="tab-btn" onclick="switchTab('wave48', this)">16. Wave 48: Sagittarius Centaur, Albarelli Registers &amp; Binary Star Parity</button>
       <button class="tab-btn" onclick="switchTab('wave49', this)">17. Wave 49: 10°+5° Decan Law, Barrel Hinge, Unfolded Sheets &amp; Currier B Herbal Bridge</button>
       <button class="tab-btn" onclick="switchTab('wave50', this)">18. Wave 50: Milestone 50th Wave — Scribe 5, f65r -m Triad, f84v @Pb Callouts, f90 Foldout Inversion &amp; f113v Star Openers</button>
-      <button class="tab-btn" onclick="switchTab('wave51', this)">19. Wave 51: 18/18 Palindromic Bifolio Law, 20/20 Quire 13 Completion, Rosettes 2×3 Grid &amp; f103–f104r Quire 20 Seeding (v17.0)</button>
+      <button class="tab-btn" onclick="switchTab('wave51', this)">19. Wave 51: 18/18 Palindromic Bifolio Law, 20/20 Quire 13 Completion, Rosettes 2×3 Grid &amp; f103–f104r Quire 20 Seeding</button>
+      <button class="tab-btn" onclick="switchTab('wave52', this)">20. Wave 52: 98/98 (100%) Non-Herbal Visual Scan Milestone, Quire 20 26/26 Recto-Verso Architecture &amp; Quire 8 Scribe 3 Cross-Language Index (v18.0)</button>
     </nav>
   </div>
 </header>
@@ -1970,7 +2043,7 @@ def main():
   <!-- TAB 2: BOTANICAL & ASTRO SPECIMENS -->
   <section id="tab-specimens" class="tab-panel">
     <div style="margin-bottom: 1rem;">
-      <h2 style="margin: 0 0 0.25rem;">90 Flagship Botanical, Astronomical, Balneological, Cosmological, Margin-Key &amp; Visual-Twin Identifications</h2>
+      <h2 style="margin: 0 0 0.25rem;">95 Flagship Botanical, Astronomical, Balneological, Cosmological, Margin-Key &amp; Visual-Twin Identifications</h2>
       <p style="margin: 0; color: var(--muted);">
         Matching the manuscript's high-resolution drawings to concrete 15th-century European herbal species, star clusters, bilingual month wheels, labelled hydrotherapy pipes, cosmological spheres, margin keys, quire signatures, and visual twin plant pairs.
       </p>
@@ -3286,6 +3359,115 @@ def main():
             <th>Exact Word Jaccard</th>
             <th>Canonical Stem Jaccard</th>
             <th>Right-in-Left Token Stem Coverage</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- TAB 20: WAVE 52 (v18.0) -->
+  <section id="tab-wave52" class="tab-panel">
+    <h2>Wave 52 (<code>v18.0</code>): The <code>98/98</code> (<code>100.0%</code>) Non-Herbal Visual Scan Milestone, Quire 20 <code>26/26</code> Recto-Verso Architecture &amp; Quire 8 Scribe 3 Cross-Language Index (<code>Attacks 217–220</code> / <code>Discoveries 234–237</code>)</h2>
+    <p style="color: var(--muted);">
+      Rendering 11 new high-resolution enhanced scans (`f105v`, `f112r`, `f112v`, `f114r`, `f115v`, `f69v`, `f70r1`, `f71r`, `f57r`, `f58v`, `f65v`) completes <strong>100.0% (<code>98/98</code> folios) visual scan coverage of every single non-Herbal folio in the Voynich Manuscript</strong>, <strong>100.0% (<code>26/26</code> folios) coverage of Quire 20 and all <code>$I=S</code> Starred Recipe/Index pages</strong>, and <strong>100.0% (<code>8/8</code> folios) coverage of Quire 8 (<code>f57r–f66v</code>)</strong>!
+    </p>
+
+    <div class="cards-grid" style="margin-bottom: 1.5rem;">
+      <div class="spec-card">
+        <img src="../pages/f69v_cosmological_28spoke_wheel_enh.png" alt="f69v 28-spoke blue and green lunar-mansion turret wheel" loading="lazy" />
+        <div class="spec-body">
+          <span class="badge">Attack 218 · 100% Non-Herbal Milestone</span>
+          <h3 style="margin:0.2rem 0 0.4rem;"><code>f69v</code>: The <code>28</code>-Spoke Blue/Green Lunar-Mansion Wheel (<code>60.61%</code> <code>o-</code> Initial)</h3>
+          <p style="font-size:0.88rem;color:var(--muted);margin:0;">
+            <code>14</code> long blue turrets alternate with <code>14</code> shorter green turrets to equal <code>28</code> lunar mansions (`33` spoke words, <code>60.61%</code> <code>o-</code> initial, <code>81.82%</code> echoed across AZC).
+          </p>
+        </div>
+      </div>
+      <div class="spec-card">
+        <img src="../pages/f70r1_cosmological_6lobe_nebula_wheel_enh.png" alt="f70r1 6-lobe blue nebula wheel" loading="lazy" />
+        <div class="spec-body">
+          <span class="badge">Attack 218 · p127 3-Panel Foldout</span>
+          <h3 style="margin:0.2rem 0 0.4rem;"><code>f70r1</code>: The <code>6</code>-Lobed Blue Nebula Wheel (<code>5/6</code> <code>ot-/ok-/op-</code> Star Hub)</h3>
+          <p style="font-size:0.88rem;color:var(--muted);margin:0;">
+            Central 6-pointed star (`otchdy, otody, oky.dary, opalg, okeor, okoldy`) inside a 6-lobed blue nebula ring (`50.89%` token coverage by adjoining `f70r2`).
+          </p>
+        </div>
+      </div>
+      <div class="spec-card">
+        <img src="../pages/f71r_aries_ii_abril_full_medallion_enh.png" alt="f71r Aries II abril full medallion" loading="lazy" />
+        <div class="spec-body">
+          <span class="badge">Attack 218 · 30° Aries Spread</span>
+          <h3 style="margin:0.2rem 0 0.4rem;"><code>f71r</code>: Full-Page Aries II (<code>abril</code>, <code>10 + 5 = 15</code> Nymphs)</h3>
+          <p style="font-size:0.88rem;color:var(--muted);margin:0;">
+            Completes <code>12/12 = 100%</code> Zodiac &amp; <code>98/98 = 100%</code> Non-Herbal visual coverage; <code>15</code> barreled nymphs pair with <code>f70v1</code> to equal <code>30°</code> of Aries (`58.89%` `o-` initial).
+          </p>
+        </div>
+      </div>
+      <div class="spec-card">
+        <img src="../pages/f65v_quire8_scribe3_conjugate_herbal_enh.png" alt="f65v Quire 8 Scribe 3 conjugate herbal" loading="lazy" />
+        <div class="spec-body">
+          <span class="badge">Attack 219 · Quire 8 8/8 Completion</span>
+          <h3 style="margin:0.2rem 0 0.4rem;"><code>f65v</code> &amp; <code>f58v</code>: Scribe 3's Conjugate Bifolium #2 (<code>84.86%</code> Quire 20 Coverage)</h3>
+          <p style="font-size:0.88rem;color:var(--muted);margin:0;">
+            Apical dark-blue funnel calyx + figure-<code>8</code> stem loop (`82.22%` covered by Quire 20); conjugate `f58r-&gt;f58v` jumps <code>2.59×</code> in `q-` (`7.41% -&gt; 19.20%`) with `-edy = 1.07%`.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <h2>1. Section-by-Section Visual Scan Audit: <code>98/98</code> (<code>100.0%</code>) Non-Herbal Completion (<code>Attack 218</code>)</h2>
+    <div style="overflow-x: auto; margin-bottom: 1.5rem;">
+      <table id="wave52NonHerbalTable">
+        <thead>
+          <tr>
+            <th>Section Code</th>
+            <th>Total Folios</th>
+            <th>Rendered Folios</th>
+            <th>Visual Scan Coverage</th>
+            <th>Unrendered Folios</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>2. Quire 20 Same-Leaf Recto-Verso Coupling (<code>0.2496</code> vs <code>0.2247</code>, $z = +3.87, p = 0.00020$) &amp; 23-Page Dialect Trajectory (<code>Attack 217</code>)</h2>
+    <p style="color: var(--muted);">
+      On Bifolium #3 (`f105 &lt;-&gt; f114`), the two inner pages printed on the same side of the sheet (<code>f105v</code> at <code>21.05%</code> and <code>f114r</code> at <code>19.35%</code>) are the <strong><code>#1</code> and <code>#2</code> highest <code>-aiin</code> nominal-suffix pages in all of Quire 20</strong>:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 1.5rem;">
+      <table id="wave52Q20TrajectoryTable">
+        <thead>
+          <tr>
+            <th>Folio</th>
+            <th>Words</th>
+            <th>Starred Recipes</th>
+            <th>Words / Recipe</th>
+            <th><code>q-</code> Initial Rate</th>
+            <th><code>-edy</code> Verbal Rate</th>
+            <th><code>-aiin</code> Nominal Rate</th>
+            <th><code>o-</code> Initial Rate</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>3. Quire 8 (<code>f57r–f66v</code>) <code>8/8 = 100.0%</code> Visual &amp; Bifolium Profile: Scribe 3's Cross-Language Starred Index (<code>f58r–f58v</code>, <code>Attack 219</code>)</h2>
+    <div style="overflow-x: auto;">
+      <table id="wave52Quire8Table">
+        <thead>
+          <tr>
+            <th>Folio</th>
+            <th>Scribe Hand &amp; Language</th>
+            <th>Section</th>
+            <th>Words (Unique Stems)</th>
+            <th>Paragraphs</th>
+            <th><code>q-</code> Initial Rate</th>
+            <th><code>-edy</code> Rate</th>
+            <th><code>-aiin</code> Rate</th>
+            <th><code>o-</code> Initial Rate</th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -4634,6 +4816,73 @@ function renderWave51Tab() {{
   }}
 }}
 
+function renderWave52Tab() {{
+  const nhBody = document.querySelector("#wave52NonHerbalTable tbody");
+  if (nhBody) {{
+    const secNames = {{
+      "A": "Astronomical ($I=A)",
+      "Z": "Zodiac ($I=Z)",
+      "B": "Balneological ($I=B)",
+      "C": "Cosmological ($I=C)",
+      "P": "Pharmaceutical ($I=P)",
+      "T": "Text-Only ($I=T)",
+      "S": "Starred Recipes ($I=S)",
+      "H": "Herbal ($I=H)"
+    }};
+    nhBody.innerHTML = Object.entries(DATA.wave52_non_herbal_sections || {{}}).map(([sec, d]) => {{
+      const hl = sec !== "H" ? 'style="background:var(--green-soft);"' : '';
+      return `
+        <tr ${{hl}}>
+          <td><strong>${{secNames[sec] || sec}}</strong></td>
+          <td>${{d.total}} folios</td>
+          <td><strong>${{d.rendered}} folios</strong></td>
+          <td><span class="badge" style="background:${{d.coverage_pct === 100 ? 'var(--green-soft);color:var(--green)' : 'var(--gold-soft);color:var(--gold)'}}">${{d.coverage_pct.toFixed(1)}}%</span></td>
+          <td>${{d.unrendered_folios.length === 0 ? '<strong>0 (100% Complete!)</strong>' : d.unrendered_folios.length + ' Herbal folios'}}</td>
+        </tr>
+      `;
+    }}).join("");
+  }}
+
+  const q20TrajBody = document.querySelector("#wave52Q20TrajectoryTable tbody");
+  if (q20TrajBody) {{
+    q20TrajBody.innerHTML = (DATA.wave52_q20_trajectory || []).map(r => {{
+      const hl = (r.folio === "f105v" || r.folio === "f114r" || r.folio === "f112r" || r.folio === "f112v" || r.folio === "f115v") ? 'style="background:var(--gold-soft);"' : '';
+      return `
+        <tr ${{hl}}>
+          <td><strong><code>${{r.folio}}</code></strong></td>
+          <td>${{r.words}} words</td>
+          <td>${{r.recipes}} recipes</td>
+          <td>${{r.words_per_recipe}} w/rec</td>
+          <td>${{r.q_pct}}%</td>
+          <td>${{r.edy_pct}}%</td>
+          <td><strong>${{r.aiin_pct}}%</strong></td>
+          <td>${{r.o_initial_pct}}%</td>
+        </tr>
+      `;
+    }}).join("");
+  }}
+
+  const q8Body = document.querySelector("#wave52Quire8Table tbody");
+  if (q8Body) {{
+    q8Body.innerHTML = Object.entries(DATA.wave52_q8_profiles || {{}}).map(([fol, p]) => {{
+      const hl = (fol === "f58r" || fol === "f58v" || fol === "f65v") ? 'style="background:var(--gold-soft);"' : '';
+      return `
+        <tr ${{hl}}>
+          <td><strong><code>${{fol}}</code></strong></td>
+          <td><span class="badge" style="background:var(--blue-soft);color:var(--blue)">Scribe ${{p.meta.H || '?'}} · Currier ${{p.meta.L || '—'}}</span></td>
+          <td><code>$I=${{p.meta.I || '?'}}</code></td>
+          <td><strong>${{p.words}}</strong> (${{p.unique_stems}} stems)</td>
+          <td>${{p.paragraphs}} paras</td>
+          <td><strong>${{p.q_pct}}%</strong></td>
+          <td>${{p.edy_pct}}%</td>
+          <td>${{p.aiin_pct}}%</td>
+          <td>${{p.o_initial_pct}}%</td>
+        </tr>
+      `;
+    }}).join("");
+  }}
+}}
+
 function switchTab(tabId, btn) {{
   document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
   document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
@@ -4661,6 +4910,7 @@ renderWave48Tab();
 renderWave49Tab();
 renderWave50Tab();
 renderWave51Tab();
+renderWave52Tab();
 </script>
 </body>
 </html>

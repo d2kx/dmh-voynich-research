@@ -1,0 +1,61 @@
+{
+  "attack": 220,
+  "discovery": 237,
+  "wave": 52,
+  "release": "v18.0",
+  "title": "Wave 52 Master Compendium: 100% Non-Herbal Visual Scan Milestone (98/98 Folios), Quire 20 12-Leaf Recto-Verso Architecture, and Scribe 3's Cross-Language Bridge (f58r-v <-> Quire 20)",
+  "milestones": {
+    "total_attacks": 220,
+    "total_discoveries": 237,
+    "non_herbal_visual_coverage": "98/98 (100.0%)",
+    "quire20_visual_coverage": "26/26 (100.0%)",
+    "quire8_visual_coverage": "8/8 (100.0%)",
+    "new_scans_rendered_in_wave52": [
+      "pages/f105v_quire20_third_verso_recipes_enh.png",
+      "pages/f112r_quire20_tenth_recto_recipes_enh.png",
+      "pages/f112v_quire20_tenth_verso_recipes_enh.png",
+      "pages/f114r_quire20_twelfth_recto_recipes_enh.png",
+      "pages/f115v_quire20_penultimate_verso_recipes_enh.png",
+      "pages/f69v_cosmological_28spoke_wheel_enh.png",
+      "pages/f70r1_cosmological_6lobe_nebula_wheel_enh.png",
+      "pages/f71r_aries_ii_abril_full_medallion_enh.png",
+      "pages/f57r_quire8_opening_scribe5_herbal_enh.png",
+      "pages/f58v_starred_herbal_index_verso_enh.png",
+      "pages/f65v_quire8_scribe3_conjugate_herbal_enh.png"
+    ]
+  },
+  "wave52_highlights": {
+    "attack217_discovery234": {
+      "quire20_rendered": "26/26 (100.0%)",
+      "same_leaf_mean_jaccard": 0.2496,
+      "non_same_leaf_mean_jaccard": 0.2247,
+      "same_leaf_permutation_z": 3.87,
+      "same_leaf_permutation_p": 0.0002,
+      "bifolium3_nominal_spike_f105v_aiin_pct": 21.05,
+      "bifolium3_nominal_spike_f114r_aiin_pct": 19.35,
+      "bifolium6_centerfold_f108v_f111r_jaccard": 0.3087,
+      "first_half_seeds_second_half_pct": 87.61
+    },
+    "attack218_discovery235": {
+      "non_herbal_coverage": "98/98 (100.0%)",
+      "f69v_spoke_o_initial_pct": 60.61,
+      "f69v_spokes_covered_by_azc_pct": 81.82,
+      "p127_f70r2_covers_f69v_pct": 57.04,
+      "p127_f70r2_covers_f70r1_pct": 50.89,
+      "aries_spread_nymphs": 30,
+      "f71r_o_initial_pct": 58.89
+    },
+    "attack219_discovery236": {
+      "quire8_rendered": "8/8 (100.0%)",
+      "f58r_q_pct": 7.41,
+      "f58v_q_pct": 19.2,
+      "f58r_edy_pct": 0.53,
+      "f58v_edy_pct": 1.07,
+      "f58_raw_cov_by_quire20_pct": 68.66,
+      "f58_canonical_cov_by_quire20_pct": 84.86,
+      "f58_seeds_quire20_pct": 64.17,
+      "f65v_covered_by_quire20_pct": 82.22,
+      "f65v_covered_by_quire8_rest_pct": 73.33
+    }
+  }
+}

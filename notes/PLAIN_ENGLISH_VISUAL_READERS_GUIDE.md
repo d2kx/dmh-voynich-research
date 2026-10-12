@@ -55,9 +55,9 @@ When you strip off the prefix and suffix, you are left with the **Root Stem**:
 
 ---
 
-## Part 2: Page-by-Page Visual Walkthroughs (62 Iconic Folios)
+## Part 2: Page-by-Page Visual Walkthroughs (66 Iconic Folios)
 
-Below are **62 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
+Below are **66 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
 
 ---
 
@@ -968,11 +968,68 @@ Why did the scribe write the Voynich word **`oror`** at the end of a European ch
 
 ---
 
+### 63. Folios `f105v` (`p189`) & `f114r` (`p202`) — Quire 20 Bifolium #3 Inner Sheet & the `#1` (`21.05%`) and `#2` (`19.35%`) `-aiin` Nominal-Suffix Recipe Pages
+* **Section:** Starred Master Recipes (`$I=S`, Quire 20 Bifolium #3 Inner Sheet, Scribe 3) | **Pages in Yale Scan:** Pages 189 (`f105v`) & 202 (`f114r`)
+
+![Folio f105v Quire 20 Third Verso with 9 Starred Recipes and 21.05 Percent Nominal -aiin Rate](../pages/f105v_quire20_third_verso_recipes_enh.png)
+
+![Folio f114r Quire 20 Twelfth Recto with 12 Starred Recipes and 19.35 Percent Nominal -aiin Rate](../pages/f114r_quire20_twelfth_recto_recipes_enh.png)
+
+#### What to Look for on `f105v` (Top) and `f114r` (Bottom) (`Attack 217`, `Discovery 234`)
+1. **The `#1` (`21.05%`) and `#2` (`19.35%`) Highest `-aiin` Ingredient-Measure Pages in Quire 20 Printed on the Exact Same Side of Bifolium #3:** When you unfold **Bifolium #3 (`f105 <-> f114`)** of Quire 20, **`f105v`** (`399` words, `9` starred recipes, top image) and **`f114r`** (`460` words, `12` starred recipes, bottom image) sit side-by-side on the **inner face of the same physical vellum sheet**. Remarkably, `f105v` is the **`#1` highest `-aiin` nominal-suffix page (`21.05%` `-aiin`, `30.83%` `o-` initial, and only `7.77%` `q-` initial / `7.52%` `-edy`)** in all `23` recipe pages of Quire 20, and its conjugate partner `f114r` is the **`#2` highest `-aiin` page (`19.35%` `-aiin`, `24.57%` `o-` initial)** (`20.20%` combined vs `11.53%` across the rest of Quire 20, `1.75×` lift, with `62.17%` / `61.65%` bidirectional stem coverage across the sheet)!
+2. **Physical Forensics (`48` Marginal Numeral on `f105v` & Natural Vellum Slit on `f114r`):** Look at the top-left edge of **`f105v`** right above the first star (`*`) and opening gallows word `pchedy`: a tiny medieval numeral **`48`** (with a faint `40` to the right) is written on the top margin, while the left margin displays `9` alternating outline and red-filled stars. On **`f114r`** (`114` at top-right), look at the right margin at mid-height (`y ≈ 0.40`): a small natural oval slit in the vellum sits beside `12` red-centered marginal stars and a large diagonal bottom-right vellum crease.
+
+---
+
+### 64. Folios `f112r` (`p198`), `f112v` (`p199`) & `f115v` (`p205`) — Completing `100%` (`26/26`) Visual Coverage of Quire 20 & Recto-Verso Text-Block Mirroring ($z = +3.87$)
+* **Section:** Starred Master Recipes (`$I=S`, Quire 20 Leaf 10 Recto/Verso & Leaf 13 Verso, Currier B, Scribe 3) | **Pages in Yale Scan:** Pages 198 (`f112r`), 199 (`f112v`) & 205 (`f115v`)
+
+![Folio f112r Quire 20 Tenth Recto with 10 Starred Recipes](../pages/f112r_quire20_tenth_recto_recipes_enh.png)
+
+![Folio f112v Quire 20 Tenth Verso with Wide Left Margin Mirroring f112r Text Block](../pages/f112v_quire20_tenth_verso_recipes_enh.png)
+
+#### What to Look for on `f112r` & `f112v` (Above) and `f115v` (Below) (`Attack 217`, `Discovery 234`)
+1. **Why `f112v` Has a Giant Blank Left Margin: Recto-Verso Text-Block Mirroring Across the Vellum Leaf:** Compare **`f112r`** (`p198`, `401` words, `10` recipes, top) with its immediate physical verso **`f112v`** (`p199`, `419` words, `12` recipes, middle). On `f112r`, Scribe 3 began writing close to the left spine gutter and left the outer right ~22% of the leaf blank (`112` written in that blank upper-right margin, with `13` peeking out on `f113r` beneath!). When Scribe 3 flipped the translucent vellum leaf over to write **`f112v`**, he aligned the left column of marginal stars (`*`) and recipe text **directly over the back of `f112r`'s text block** so the ink blocks register back-to-back, leaving a wide ~28% blank outer-left margin on `f112v`!
+2. **Statistically Significant Same-Leaf Recto-Verso Lexical Coupling ($z = +3.87, p = 0.00020$) & `f115v` (`p205`, below):** Across all `11` two-sided recipe leaves of Quire 20 (`f103..f108, f111..f115`), **same-leaf recto-verso pairs (`fXXr <-> fXXv`) achieve a mean Canonical Stem Jaccard of `0.2496` vs `0.2247` across non-same-leaf pairs ($z = +3.87, p = 0.00020$)**, while **`f115v`** (`p205`, below, `410` words, `12` starred recipes, with two dark right-margin ink blots at lines 12–16 and a repaired bottom-left corner) completes **`100.0%` (`26/26` folios) high-resolution visual coverage of Quire 20 and the `$I=S` section**!
+
+![Folio f115v Quire 20 Penultimate Verso with 12 Starred Recipes and Right-Margin Ink Blots](../pages/f115v_quire20_penultimate_verso_recipes_enh.png)
+
+---
+
+### 65. Folios `f69v` (`p127`), `f70r1` (`p127`) & `f71r` (`p130`) — The `100.0%` (`98/98`) Non-Herbal Visual Scan Milestone, the `28`-Spoke Lunar-Mansion Wheel, the `6`-Lobe Nebula Wheel, and the `30`-Nymph Aries Spread (`abril`)
+* **Section:** Cosmological (`$I=C`) & Zodiac (`$I=Z`) (`Quire 10–11`, Scribe 4) | **Pages in Yale Scan:** Pages 127 (`f69v` & `f70r1`) and 130 (`f71r`)
+
+![Folio f69v 28-Spoke Blue and Green Lunar-Mansion Turret Wheel](../pages/f69v_cosmological_28spoke_wheel_enh.png)
+
+![Folio f70r1 6-Lobed Blue-Stippled Nebula Wheel with 6 Inner Star Labels and 9 Spout Spokes](../pages/f70r1_cosmological_6lobe_nebula_wheel_enh.png)
+
+#### What to Look for on `f69v` & `f70r1` (Above) and `f71r` (Below) (`Attack 218`, `Discovery 235`)
+1. **`f69v` (`p127` Left Panel, top): The `28`-Spoke Blue-and-Green Lunar-Mansion Turret Wheel (`60.61%` `o-` Initial, `81.82%` AZC Coverage):** Radiating outward from an 8-pointed golden star hub in a blue stippled cloud are **`28` alternating long blue (`14`) and shorter olive-green (`14`) flared tubes/turrets**—matching the **`28` lunar mansions / days of the sidereal lunar month**! Each turret carries a radial callout label (`33` spoke words total) inside `3` concentric rings of prose (`109` words): **`60.61%` of `f69v`'s spoke words start with `o-` (`51.52%` `ok-/ot-` astronomical prefixes)**, **`63.64%` echo on the `p127` foldout**, and **`81.82%` (`27/33`) echo across the Astronomical/Zodiac/Cosmological corpus**!
+2. **`f70r1` (`p127` Center Panel, middle): The `6`-Lobed Blue Nebula Wheel & `p127` 3-Wheel Progression (`615` Words):** At the center of **`f70r1`** (`112` words) is a 6-pointed star with **`6` inner sector labels (`otchdy`, `otody`, `oky.dary`, `opalg`, `okeor`, `okoldy` — `5/6 = 83.33%` `ot-/ok-/op-`)** surrounded by an inner prose ring (`21` words), a **6-lobed blue-stippled nebula ring with `6` C-shaped spouts**, `9` radial spoke inscriptions (`17` words), and `2` outer concentric prose rings (`67` words). Across the unfolded 3-panel sheet `p127` (`f69v -> f70r1 -> f70r2`, `615` words), the massive 10-ring wheel `f70r2` (`363` words) covers **`57.04%` of `f69v`'s word tokens** and **`50.89%` of `f70r1`'s word tokens**!
+3. **`f71r` (`p130`, below): Full-Page Dark Aries II Medallion (`abril`, `15` Star-Holding Nymphs Completing the `30`-Degree Aries Spread):** Rendering full-page **`f71r`** (`90` words, below) completes **`100.0%` (`98/98` folios) visual scan coverage of every single non-Herbal folio in the Voynich Manuscript**! Below the horned ram grazing in a green central pasture is the Occitan/Catalan month gloss **`abril`** (*April*). Surrounding the ram are **`15` star-holding nymphs (`10` in the inner ring + `5` in the outer top-right arc)**, pairing with the `15` (`10 + 5`) nymphs on facing `f70v1` to form the exact **`30` degrees/days of Aries**, with a tiled portal gate at `9 o'clock` marking the ring starts (`otaiin`, `otchody`) and **`58.89%` `o-` initial words (`43.33%` `ot-/ok-`)**!
+
+![Folio f71r Aries II Abril Full Medallion with 15 Star-Holding Nymphs and 9-o-clock Tiled Portal](../pages/f71r_aries_ii_abril_full_medallion_enh.png)
+
+---
+
+### 66. Folios `f57r` (`p114`), `f58v` (`p117`) & `f65v` (`p119`) — Completing `100%` (`8/8`) Visual Coverage of Quire 8, Scribe 3's Cross-Language Starred Index (`2.59×` `q-` Proclitic Jump & `84.86%` Quire 20 Stem Coverage), and the Twin Apical Blue-Calyx Plants
+* **Section:** Herbal & Starred Herbal Index (`Quire 8`, `$I=H/S`, Scribes 3 & 5) | **Pages in Yale Scan:** Pages 114 (`f57r`), 117 (`f58v`), and 119 (`f65v`)
+
+![Folio f57r Quire 8 Opening Recto with Apical Dark-Blue Funnel Calyx and Palmate Leaves](../pages/f57r_quire8_opening_scribe5_herbal_enh.png)
+
+![Folio f58v Quire 8 Starred Herbal Index Verso by Scribe 3 with Top-Left 7-Rayed Tailed Star](../pages/f58v_starred_herbal_index_verso_enh.png)
+
+#### What to Look for on `f57r` & `f58v` (Above) and `f65v` (Below) (`Attack 219`, `Discovery 236`)
+1. **`f58v` (`p117`, middle): Scribe 3's Cross-Language Starred Herbal Index (`2.59×` `q-` Proclitic Jump & `84.86%` Quire 20 Stem Coverage):** Inside Quire 8 (`f57r–f66v`, originally `5` bifolia = `10` leaves, of which `6` inner leaves `f59–f64` were lost in antiquity), **`f58r` and `f58v`** (`753` words, `3 + 4 = 7` paragraphs matching the `7` herbal leaves of Quire 8!) are the **only pure-text Starred Index pages (`$I=S`, marked with a 7-rayed tailed star `*` in the top-left margin of `f58v` above) inside the Herbal section**—and the **only `$I=S` pages written by Scribe 3 (`$H=3`) in Currier Language A (`$L=A`, with `-edy` at `0.53%` on `f58r` and `1.07%` on `f58v`)**! Comparing Scribe 3's Language A Starred Index (`f58r–v`) against Scribe 3's Language B Starred Recipes (`Quire 20`, `10,892` words) provides a landmark controlled experiment within the same scribe's hand:
+   - Flipping from `f58r` to `f58v`, Scribe 3 increases `q-` initial words **`2.59×` (from `7.41%` on `f58r` to `19.20%` on `f58v`)** while keeping `-edy` at `1.07%`—proving directly that **`q-` proclitic density (`qo-/q-`) and `-edy` verbal suffixation are independent grammatical axes**!
+   - Across `f58r–f58v`'s `753` words, 4-Rule Canonical Normalization lifts coverage by Scribe 3's Quire 20 Starred Recipes from **`68.66%` raw words to `84.86%` canonical stems (`1.24×` lift)**, while `f58r–v`'s stems alone cover **`64.17%` of all `10,892` word tokens in Quire 20** and **`70.28%` of all Herbal-B word tokens**!
+2. **`f57r` (`p114`, top) & `f65v` (`p119`, below): The Twin Apical Dark-Blue Funnel-Calyx Plants & `f65v` Conjugate/Facing Bridge (`82.22%` Quire 20 Coverage):** Look at the top apex of Quire 8's opening leaf **`f57r`** (`87` words, Scribe 5, top image) and the top apex of Bifolium #2's conjugate leaf **`f65v`** (`45` words, Scribe 3, below, conjugate to `f58r/v` and facing Scribe 5's `f66r` `"den mus del"` page, which peeks out on the far right edge of `f65v`!): both plants are crowned right on the central vertical axis by a **single large dark-indigo/blue serrated funnel-calyx flower**, while `f65v` surrounds its central stem (with a figure-`8` stem loop!) with dozens of green daisy-button flower heads ringed by white petals! Quantitatively, **`f65v`'s `45` words are `55.56%` covered by its conjugate partner `f58r–v`, `55.56%` covered by facing `f66r`, `73.33%` covered by the rest of Quire 8, and `82.22%` covered by Scribe 3's Quire 20 Starred Recipes**!
+
+![Folio f65v Quire 8 Scribe 3 Conjugate Herbal with Apical Dark-Blue Calyx, Green Daisy-Button Heads and Figure-8 Stem Loop](../pages/f65v_quire8_scribe3_conjugate_herbal_enh.png)
+
+---
+
 ## Where to Go Next
-* **Want to see all 90 real-world plants, constellations, wheels, bathing diagrams, conjugate bifolio pairs, and visual twins?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)** (`SPEC-01` through `SPEC-90`).
-* **Want to click through 78 pages, decode words interactively, and explore all 19 tabs in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now at **v17.0 — Wave 51 Edition**!).
-* **Want the deep grammatical tables, the Wave 51 Palindromic Bifolio Nesting (`18/18 = 100%`) / Quire 13 `20/20` Completion / Rosettes `2×3` Reverse Grid / `f103–f104r` Quire 20 Seeding proofs, and full 233-discovery research log?** See **[`WAVE51_MASTER_COMPENDIUM.md`](WAVE51_MASTER_COMPENDIUM.md)**, **[`MILESTONE_WAVE50_MASTER_COMPENDIUM.md`](MILESTONE_WAVE50_MASTER_COMPENDIUM.md)**, **[`WAVE49_MASTER_COMPENDIUM.md`](WAVE49_MASTER_COMPENDIUM.md)**, and **[`NOTES.md`](../NOTES.md)**.
-
-
-
-
+* **Want to see all 95 real-world plants, constellations, wheels, bathing diagrams, conjugate bifolio pairs, and visual twins?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)** (`SPEC-01` through `SPEC-95`).
+* **Want to click through 82 pages, decode words interactively, and explore all 20 tabs in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now at **v18.0 — Wave 52 Edition**!).
+* **Want the deep grammatical tables, the Wave 52 `100%` Non-Herbal Visual Scan Milestone (`98/98` folios) / Quire 20 `26/26` Recto-Verso Architecture / Quire 8 `8/8` Scribe 3 Cross-Language Index proofs, and full 237-discovery research log?** See **[`WAVE52_MASTER_COMPENDIUM.md`](WAVE52_MASTER_COMPENDIUM.md)**, **[`WAVE51_MASTER_COMPENDIUM.md`](WAVE51_MASTER_COMPENDIUM.md)**, **[`MILESTONE_WAVE50_MASTER_COMPENDIUM.md`](MILESTONE_WAVE50_MASTER_COMPENDIUM.md)**, and **[`NOTES.md`](../NOTES.md)**.
