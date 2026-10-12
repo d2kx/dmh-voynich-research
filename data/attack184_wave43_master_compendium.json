@@ -1,0 +1,649 @@
+{
+  "wave": 43,
+  "attacks_range": "181-184",
+  "discoveries_range": "198-201",
+  "milestone": "200TH VERIFIED DISCOVERY MILESTONE ACHIEVED",
+  "explorer_version": "v9.0",
+  "new_highres_scans": [
+    "pages/f85r1_rosettes_frontispiece_text_enh.png",
+    "pages/f69r_swirling_spoke_wheel_enh.png",
+    "pages/f83r_balneo_tubes_and_pool_enh.png",
+    "pages/f93r_giant_sunflower_elecampane_enh.png",
+    "pages/f100v_f101r_unfolded_pharma_enh.png",
+    "pages/f101v_pharma_five_rows_roots_enh.png",
+    "pages/f101v_unfolded_five_row_pharma_enh.png",
+    "pages/p212_physical_tail_edge_scan.png"
+  ],
+  "discoveries": {
+    "discovery_198_attack_181": {
+      "title": "The =Pt / +Pr Right-Justified Title/Coda Colophon Law (z = +4.40) & Rosettes 6-Panel Treatise Envelope (73.46% Stem Coverage)",
+      "total_pt_pr_lines": 22,
+      "total_pt_pr_words": 76,
+      "para_exact_overlap_pct": 18.42,
+      "para_exact_z": 3.52,
+      "para_stem_overlap_pct": 51.32,
+      "para_stem_z": 2.28,
+      "folio_exact_overlap_pct": 35.53,
+      "folio_exact_z": 4.4,
+      "folio_stem_overlap_pct": 63.16,
+      "f85v2_stem_coverage_by_envelope_pct": 73.46,
+      "f85v2_token_coverage_by_envelope_pct": 48.79
+    },
+    "discovery_199_attack_182": {
+      "title": "Visual & Paleographic Forensics of f69r (22-Spoke 3-Color Wheel & 6 Central Star Arabic Numerals), 4-Tier Wheel Hierarchy & Adjacent-Spoke Template Law (z = +10.15)",
+      "four_tier_hierarchy": {
+        "C": {
+          "category": "Concentric_Rings_@C",
+          "loci_count": 84,
+          "total_words": 2394,
+          "unique_types": 1119,
+          "mean_words_per_locus": 28.5,
+          "type_token_ratio": 0.4674,
+          "ok_ot_op_prefix_pct": 28.91,
+          "qo_prefix_pct": 1.84,
+          "nominal_aiin_ar_al_pct": 37.13,
+          "verbal_edy_ey_pct": 22.43
+        },
+        "P": {
+          "category": "Header_Paragraph_Lines_@P",
+          "loci_count": 92,
+          "total_words": 575,
+          "unique_types": 386,
+          "mean_words_per_locus": 6.25,
+          "type_token_ratio": 0.6713,
+          "ok_ot_op_prefix_pct": 12.17,
+          "qo_prefix_pct": 9.04,
+          "nominal_aiin_ar_al_pct": 41.39,
+          "verbal_edy_ey_pct": 26.78
+        },
+        "R": {
+          "category": "Radial_Spoke_Lines_@R",
+          "loci_count": 142,
+          "total_words": 354,
+          "unique_types": 283,
+          "mean_words_per_locus": 2.49,
+          "type_token_ratio": 0.7994,
+          "ok_ot_op_prefix_pct": 26.27,
+          "qo_prefix_pct": 4.8,
+          "nominal_aiin_ar_al_pct": 24.58,
+          "verbal_edy_ey_pct": 29.38
+        },
+        "L": {
+          "category": "Sector_and_Star_Labels_@L",
+          "loci_count": 251,
+          "total_words": 287,
+          "unique_types": 253,
+          "mean_words_per_locus": 1.14,
+          "type_token_ratio": 0.8815,
+          "ok_ot_op_prefix_pct": 49.83,
+          "qo_prefix_pct": 0.35,
+          "nominal_aiin_ar_al_pct": 27.53,
+          "verbal_edy_ey_pct": 26.13
+        }
+      },
+      "adjacent_spoke_length_match_pct": 91.55,
+      "adjacent_spoke_length_z": 10.15,
+      "adjacent_spoke_word_diff_z": -12.14,
+      "adjacent_spoke_shared_init2_pct": 35.92
+    },
+    "discovery_200_attack_183": {
+      "title": "MILESTONE 200TH DISCOVERY \u2014 The 8-State Voynich Syntactic State Machine Across 39,001 Tokens (Chi2 = 2,545.0, z = +254.84; Preposition-to-Noun Government 1.39x vs Preposition-to-Verb Prohibition 0.21x; Participle-to-Verb Chaining 2.16x)",
+      "corpus_summary": {
+        "total_classified_tokens": 39001,
+        "total_paragraph_lines": 4104,
+        "total_paragraph_tokens": 35028,
+        "total_adjacent_transitions": 30924,
+        "transition_chi2": 2545.02,
+        "null_transition_chi2_mean": 48.47,
+        "z_transition_chi2": 254.84,
+        "transition_mutual_information_bits": 0.05743,
+        "null_mi_bits_mean": 0.00113,
+        "z_mutual_information": 247.6
+      },
+      "state_profiles": [
+        {
+          "state": "S1_INIT_DISCOURSE",
+          "count": 2346,
+          "corpus_pct": 6.02,
+          "para_count": 2150,
+          "line_initial_lift": 3.71,
+          "line_medial_lift": 0.66,
+          "line_final_lift": 0.53,
+          "top_words": [
+            {
+              "word": "ykeey",
+              "count": 57
+            },
+            {
+              "word": "ykaiin",
+              "count": 46
+            },
+            {
+              "word": "ytaiin",
+              "count": 39
+            },
+            {
+              "word": "ykar",
+              "count": 36
+            },
+            {
+              "word": "pchedy",
+              "count": 36
+            },
+            {
+              "word": "ykeedy",
+              "count": 33
+            },
+            {
+              "word": "yteey",
+              "count": 31
+            },
+            {
+              "word": "yteedy",
+              "count": 29
+            }
+          ]
+        },
+        {
+          "state": "S2_PROCLITIC_PARTICLE",
+          "count": 4224,
+          "corpus_pct": 10.83,
+          "para_count": 3608,
+          "line_initial_lift": 0.6,
+          "line_medial_lift": 1.06,
+          "line_final_lift": 1.02,
+          "top_words": [
+            {
+              "word": "ol",
+              "count": 565
+            },
+            {
+              "word": "ar",
+              "count": 408
+            },
+            {
+              "word": "or",
+              "count": 394
+            },
+            {
+              "word": "s",
+              "count": 356
+            },
+            {
+              "word": "y",
+              "count": 334
+            },
+            {
+              "word": "dar",
+              "count": 323
+            },
+            {
+              "word": "al",
+              "count": 263
+            },
+            {
+              "word": "dal",
+              "count": 242
+            }
+          ]
+        },
+        {
+          "state": "S3_QO_PROCEDURAL_VERB",
+          "count": 5111,
+          "corpus_pct": 13.1,
+          "para_count": 5042,
+          "line_initial_lift": 0.86,
+          "line_medial_lift": 1.1,
+          "line_final_lift": 0.47,
+          "top_words": [
+            {
+              "word": "qokeey",
+              "count": 307
+            },
+            {
+              "word": "qokeedy",
+              "count": 307
+            },
+            {
+              "word": "qokain",
+              "count": 279
+            },
+            {
+              "word": "qokedy",
+              "count": 276
+            },
+            {
+              "word": "qokaiin",
+              "count": 265
+            },
+            {
+              "word": "qokal",
+              "count": 197
+            },
+            {
+              "word": "qokar",
+              "count": 159
+            },
+            {
+              "word": "qoky",
+              "count": 146
+            }
+          ]
+        },
+        {
+          "state": "S4_CHSH_PARTICIPLE_VERB",
+          "count": 5397,
+          "corpus_pct": 13.84,
+          "para_count": 5100,
+          "line_initial_lift": 0.53,
+          "line_medial_lift": 1.12,
+          "line_final_lift": 0.67,
+          "top_words": [
+            {
+              "word": "chedy",
+              "count": 507
+            },
+            {
+              "word": "shedy",
+              "count": 435
+            },
+            {
+              "word": "chey",
+              "count": 354
+            },
+            {
+              "word": "shey",
+              "count": 279
+            },
+            {
+              "word": "cheey",
+              "count": 185
+            },
+            {
+              "word": "sheey",
+              "count": 149
+            },
+            {
+              "word": "chdy",
+              "count": 147
+            },
+            {
+              "word": "lchedy",
+              "count": 116
+            }
+          ]
+        },
+        {
+          "state": "S5_OKOT_DEICTIC_NOMINAL",
+          "count": 5189,
+          "corpus_pct": 13.3,
+          "para_count": 4036,
+          "line_initial_lift": 0.51,
+          "line_medial_lift": 1.11,
+          "line_final_lift": 0.76,
+          "top_words": [
+            {
+              "word": "okaiin",
+              "count": 215
+            },
+            {
+              "word": "okeey",
+              "count": 185
+            },
+            {
+              "word": "otedy",
+              "count": 165
+            },
+            {
+              "word": "okal",
+              "count": 156
+            },
+            {
+              "word": "otaiin",
+              "count": 155
+            },
+            {
+              "word": "otar",
+              "count": 154
+            },
+            {
+              "word": "oteey",
+              "count": 145
+            },
+            {
+              "word": "okain",
+              "count": 141
+            }
+          ]
+        },
+        {
+          "state": "S6_GALLOWS_CHSH_NOMINAL",
+          "count": 12451,
+          "corpus_pct": 31.92,
+          "para_count": 11338,
+          "line_initial_lift": 0.94,
+          "line_medial_lift": 1.02,
+          "line_final_lift": 0.94,
+          "top_words": [
+            {
+              "word": "aiin",
+              "count": 507
+            },
+            {
+              "word": "chol",
+              "count": 397
+            },
+            {
+              "word": "chor",
+              "count": 211
+            },
+            {
+              "word": "chy",
+              "count": 190
+            },
+            {
+              "word": "shol",
+              "count": 186
+            },
+            {
+              "word": "cheol",
+              "count": 171
+            },
+            {
+              "word": "chckhy",
+              "count": 139
+            },
+            {
+              "word": "saiin",
+              "count": 127
+            }
+          ]
+        },
+        {
+          "state": "S7_DA_DEMONSTRATIVE",
+          "count": 2551,
+          "corpus_pct": 6.54,
+          "para_count": 2343,
+          "line_initial_lift": 2.07,
+          "line_medial_lift": 0.77,
+          "line_final_lift": 1.4,
+          "top_words": [
+            {
+              "word": "daiin",
+              "count": 850
+            },
+            {
+              "word": "dy",
+              "count": 279
+            },
+            {
+              "word": "dain",
+              "count": 214
+            },
+            {
+              "word": "dair",
+              "count": 111
+            },
+            {
+              "word": "dol",
+              "count": 109
+            },
+            {
+              "word": "dor",
+              "count": 68
+            },
+            {
+              "word": "dshedy",
+              "count": 34
+            },
+            {
+              "word": "dchy",
+              "count": 29
+            }
+          ]
+        },
+        {
+          "state": "S8_TERMINAL_CADENCE",
+          "count": 1732,
+          "corpus_pct": 4.44,
+          "para_count": 1411,
+          "line_initial_lift": 0.24,
+          "line_medial_lift": 0.47,
+          "line_final_lift": 5.26,
+          "top_words": [
+            {
+              "word": "dam",
+              "count": 88
+            },
+            {
+              "word": "am",
+              "count": 86
+            },
+            {
+              "word": "oly",
+              "count": 64
+            },
+            {
+              "word": "otam",
+              "count": 48
+            },
+            {
+              "word": "okam",
+              "count": 33
+            },
+            {
+              "word": "daly",
+              "count": 31
+            },
+            {
+              "word": "ary",
+              "count": 26
+            },
+            {
+              "word": "aly",
+              "count": 26
+            }
+          ]
+        }
+      ],
+      "top_attractions": [
+        {
+          "from": "S8_TERMINAL_CADENCE",
+          "to": "S8_TERMINAL_CADENCE",
+          "observed": 61,
+          "expected": 24.0,
+          "prob": 0.1125,
+          "lift": 2.54
+        },
+        {
+          "from": "S4_CHSH_PARTICIPLE_VERB",
+          "to": "S3_QO_PROCEDURAL_VERB",
+          "observed": 1486,
+          "expected": 689.4,
+          "prob": 0.3161,
+          "lift": 2.16
+        },
+        {
+          "from": "S7_DA_DEMONSTRATIVE",
+          "to": "S7_DA_DEMONSTRATIVE",
+          "observed": 202,
+          "expected": 112.3,
+          "prob": 0.1032,
+          "lift": 1.8
+        },
+        {
+          "from": "S1_INIT_DISCOURSE",
+          "to": "S1_INIT_DISCOURSE",
+          "observed": 136,
+          "expected": 79.3,
+          "prob": 0.0675,
+          "lift": 1.72
+        },
+        {
+          "from": "S2_PROCLITIC_PARTICLE",
+          "to": "S2_PROCLITIC_PARTICLE",
+          "observed": 492,
+          "expected": 344.6,
+          "prob": 0.1548,
+          "lift": 1.43
+        },
+        {
+          "from": "S2_PROCLITIC_PARTICLE",
+          "to": "S6_GALLOWS_CHSH_NOMINAL",
+          "observed": 1442,
+          "expected": 1037.1,
+          "prob": 0.4537,
+          "lift": 1.39
+        },
+        {
+          "from": "S5_OKOT_DEICTIC_NOMINAL",
+          "to": "S5_OKOT_DEICTIC_NOMINAL",
+          "observed": 621,
+          "expected": 451.5,
+          "prob": 0.1689,
+          "lift": 1.38
+        },
+        {
+          "from": "S3_QO_PROCEDURAL_VERB",
+          "to": "S3_QO_PROCEDURAL_VERB",
+          "observed": 904,
+          "expected": 698.9,
+          "prob": 0.1897,
+          "lift": 1.29
+        }
+      ],
+      "top_prohibitions": [
+        {
+          "from": "S2_PROCLITIC_PARTICLE",
+          "to": "S3_QO_PROCEDURAL_VERB",
+          "observed": 97,
+          "expected": 466.1,
+          "prob": 0.0305,
+          "lift": 0.21
+        },
+        {
+          "from": "S2_PROCLITIC_PARTICLE",
+          "to": "S5_OKOT_DEICTIC_NOMINAL",
+          "observed": 199,
+          "expected": 390.2,
+          "prob": 0.0626,
+          "lift": 0.51
+        },
+        {
+          "from": "S8_TERMINAL_CADENCE",
+          "to": "S4_CHSH_PARTICIPLE_VERB",
+          "observed": 50,
+          "expected": 83.9,
+          "prob": 0.0923,
+          "lift": 0.6
+        },
+        {
+          "from": "S4_CHSH_PARTICIPLE_VERB",
+          "to": "S2_PROCLITIC_PARTICLE",
+          "observed": 315,
+          "expected": 509.7,
+          "prob": 0.067,
+          "lift": 0.62
+        },
+        {
+          "from": "S8_TERMINAL_CADENCE",
+          "to": "S3_QO_PROCEDURAL_VERB",
+          "observed": 50,
+          "expected": 79.5,
+          "prob": 0.0923,
+          "lift": 0.63
+        },
+        {
+          "from": "S2_PROCLITIC_PARTICLE",
+          "to": "S7_DA_DEMONSTRATIVE",
+          "observed": 120,
+          "expected": 182.3,
+          "prob": 0.0378,
+          "lift": 0.66
+        },
+        {
+          "from": "S3_QO_PROCEDURAL_VERB",
+          "to": "S1_INIT_DISCOURSE",
+          "observed": 125,
+          "expected": 187.4,
+          "prob": 0.0262,
+          "lift": 0.67
+        },
+        {
+          "from": "S6_GALLOWS_CHSH_NOMINAL",
+          "to": "S3_QO_PROCEDURAL_VERB",
+          "observed": 987,
+          "expected": 1479.1,
+          "prob": 0.0979,
+          "lift": 0.67
+        }
+      ],
+      "currier_a_vs_b": [
+        {
+          "state": "S1_INIT_DISCOURSE",
+          "currier_a_count": 832,
+          "currier_a_pct": 7.17,
+          "currier_b_count": 1313,
+          "currier_b_pct": 5.46,
+          "b_over_a_ratio": 0.76
+        },
+        {
+          "state": "S2_PROCLITIC_PARTICLE",
+          "currier_a_count": 1260,
+          "currier_a_pct": 10.86,
+          "currier_b_count": 2476,
+          "currier_b_pct": 10.29,
+          "b_over_a_ratio": 0.95
+        },
+        {
+          "state": "S3_QO_PROCEDURAL_VERB",
+          "currier_a_count": 1036,
+          "currier_a_pct": 8.93,
+          "currier_b_count": 3999,
+          "currier_b_pct": 16.62,
+          "b_over_a_ratio": 1.86
+        },
+        {
+          "state": "S4_CHSH_PARTICIPLE_VERB",
+          "currier_a_count": 896,
+          "currier_a_pct": 7.72,
+          "currier_b_count": 4189,
+          "currier_b_pct": 17.41,
+          "b_over_a_ratio": 2.26
+        },
+        {
+          "state": "S5_OKOT_DEICTIC_NOMINAL",
+          "currier_a_count": 1111,
+          "currier_a_pct": 9.57,
+          "currier_b_count": 3225,
+          "currier_b_pct": 13.4,
+          "b_over_a_ratio": 1.4
+        },
+        {
+          "state": "S6_GALLOWS_CHSH_NOMINAL",
+          "currier_a_count": 4578,
+          "currier_a_pct": 39.45,
+          "currier_b_count": 6922,
+          "currier_b_pct": 28.77,
+          "b_over_a_ratio": 0.73
+        },
+        {
+          "state": "S7_DA_DEMONSTRATIVE",
+          "currier_a_count": 1309,
+          "currier_a_pct": 11.28,
+          "currier_b_count": 1045,
+          "currier_b_pct": 4.34,
+          "b_over_a_ratio": 0.39
+        },
+        {
+          "state": "S8_TERMINAL_CADENCE",
+          "currier_a_count": 584,
+          "currier_a_pct": 5.03,
+          "currier_b_count": 893,
+          "currier_b_pct": 3.71,
+          "b_over_a_ratio": 0.74
+        }
+      ]
+    }
+  }
+}

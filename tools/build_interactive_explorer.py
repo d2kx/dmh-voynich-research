@@ -739,6 +739,70 @@ WALKTHROUGH_FOLIOS = [
                 "english": "Begin preparing the plant (`tchody`): boil thoroughly (`qokedy qokeedy`), infuse and wash (`chedy shedy`); in the pharmacy (`pchor`), combine the red root (`korol`) and umbel crowns (`otar okeor`) in one measured dose (`daiin`)."
             }
         ]
+    },
+    {
+        "folio": "f85r1",
+        "title": "The Rosettes Frontispiece Treatise & Right-Justified Summary Coda (`<f85r1.19,+Pr>`, `z = +4.40`)",
+        "section": "Rosettes Frontispiece (`$I=T, $Q=N, $L=B`, Scribe 2/3)",
+        "pdf_page": 156,
+        "image": "../pages/f85r1_rosettes_frontispiece_text_enh.png",
+        "secondary_image": "",
+        "summary": "Outer recto frontispiece of the 6-panel Rosettes foldout sheet (`Quire 14`). While the inner 9-Sphere Cosmos Map (`f85v2`) is 98% nominal (`qo-` only 2.04%), the 6 treatise panels on the reverse/adjacent folds (`f85r1–f86v6`, 1,855 words) surge 6.76× in `qo-` verbs (13.80%) and cover 73.46% of all root stems on the map! At line 19 sits a right-justified summary coda (`okchy.okchdy.otchedy.daiin.dy`, `Attack 181`).",
+        "clauses": [
+            {
+                "locus": "f85r1.19 (+Pr Right-Justified Paragraph 4 Coda Colophon)",
+                "eva": "okchy okchdy otchedy daiin dy",
+                "english": "[Right-Justified Summary Colophon]: The core herbal infusion (`okchy okchdy`) and prepared root decoction (`otchedy`), taken in one measured dose (`daiin dy`)."
+            }
+        ]
+    },
+    {
+        "folio": "f69r",
+        "title": "The 22-Spoke 3-Color 'Organ-Pipe' Wheel, 02:00 Cross-Hatched Start Spoke & 6 Central Star Numerals",
+        "section": "Cosmological Wheel (`$I=C, $Q=K, $L=A`, Scribe 4)",
+        "pdf_page": 126,
+        "image": "../pages/f69r_swirling_spoke_wheel_enh.png",
+        "secondary_image": "",
+        "summary": "Contains all 4 wheel tiers (`Attack 182`): a 4-line header (`@P0`), 17 outer perimeter sectors (`@Ls`), 22 radial 'organ-pipe' spokes (`@Ro`, 3.00 words/spoke) alternating Blue -> White -> Green with 1 cross-hatched start-indicator spoke at 02:00 (`dar.doaiin.okal`), and 6 late-medieval Arabic digits (`8, 9, 2, 3, 6, 9`) inside the central 6-pointed star bays!",
+        "clauses": [
+            {
+                "locus": "f69r.22 (@Ro 02:00 Cross-Hatched Index Spoke) + f69r.43 (@Cc Inner Star Ring)",
+                "eva": "dar doaiin okal dchodees okody chody sar ar chey",
+                "english": "[02:00 Start Spoke `dar doaiin okal`]: From the source take one measure of star-essence (`dar doaiin okal`); around the numbered central star (`8,9,2,3,6,9`), infuse the core sectors (`dchodees okody chody sar ar chey`)."
+            }
+        ]
+    },
+    {
+        "folio": "f83r & f93r",
+        "title": "Balneological Rainbow Arch Conduit (`otedy / okain`) & Giant Stippled Elecampane/Sunflower (`f93r`)",
+        "section": "Balneological (`f83r`, Scribe 2) & Herbal A (`f93r`, Scribe 1)",
+        "pdf_page": 152,
+        "image": "../pages/f83r_balneo_tubes_and_pool_enh.png",
+        "secondary_image": "../pages/f93r_giant_sunflower_elecampane_enh.png",
+        "summary": "On `f83r` (above), a 3-color rainbow arch tube (`otedy`, `okain`) connects a left bather to a right bather seated in a white conical chalice funnel draining into a spoked blue rosette bladder (`roldal`, `dalchedy`). On `f93r` (below), a giant seed-stippled composite flower receptacle (*Inula helenium / Helianthus*) shelters a 3-line right-rim caption (`chodaiin qotcho / okan qokcho / chokaiin`).",
+        "clauses": [
+            {
+                "locus": "f83r (Arch & Funnel Labels) + f93r (3-Line Right-Rim Flower Caption)",
+                "eva": "otedy okain roldal dalchedy chodaiin qotcho okan qokcho chokaiin",
+                "english": "[Bath Conduit `f83r`]: Flow through the arch (`otedy okain`) into the rosette basin (`roldal dalchedy`); [Flower Caption `f93r`]: Take one measure of the flower head (`chodaiin qotcho`), boil the core (`okan qokcho`), and steep (`chokaiin`)."
+            }
+        ]
+    },
+    {
+        "folio": "f100v–f102r",
+        "title": "Unfolded Quire 19 Pharma Sheets, Human-Faced Mandrake Root (`f101v`) & Milestone 200 State Machine",
+        "section": "Pharmaceutical Multi-Panel Foldouts (`$I=P, $Q=S, $L=A`, Scribe 3)",
+        "pdf_page": 180,
+        "image": "../pages/f101v_pharma_five_rows_roots_enh.png",
+        "secondary_image": "../pages/f101v_unfolded_five_row_pharma_enh.png",
+        "summary": "On `p180` (`f101v` outer panel, above), Row 3 (4th plant from left) features an anthropomorphic human-faced Mandrake root (*Mandragora*) with eyes, nose, and mouth beside 3 painted jars, unfolding into `p181` (`f101v1 + f102r`, below). Exemplifies our Milestone 200th Discovery (`Attack 183`): the 8-State Syntactic State Machine (`Chi2 = 2,545.0, z = +254.84`).",
+        "clauses": [
+            {
+                "locus": "f101v.1–3 (Compounding Recipe Below the Human-Faced Mandrake Root & 3 Jars)",
+                "eva": "pchor odaiin otol okol chol daiin qokeedy shedy dam",
+                "english": "[8-State Syntax Chain `S1 -> S5 -> S6 -> S7 -> S3 -> S4 -> S8`]: Begin (`pchor`) with one measure from the storage jars (`odaiin otol okol`), take one dose of strained liquid (`chol daiin`), boil and wash (`qokeedy shedy`), and seal to completion (`dam`)."
+            }
+        ]
     }
 ]
 
@@ -786,6 +850,9 @@ def main():
     micro_data = json.loads((ROOT / "data" / "attack177_micro_spacing_and_clitic_fusion_law.json").read_text(encoding="utf-8"))
     f57v_data = json.loads((ROOT / "data" / "attack178_f57v_four_ring_key_and_astro_wheel_taxonomy.json").read_text(encoding="utf-8"))
     stem_matrix_data = json.loads((ROOT / "data" / "attack179_cross_section_stem_inflection_matrix.json").read_text(encoding="utf-8"))
+    pt_pr_data = json.loads((ROOT / "data" / "attack181_rosettes_treatise_envelope_and_pt_titles.json").read_text(encoding="utf-8"))
+    f69r_data = json.loads((ROOT / "data" / "attack182_f69r_star_numerals_and_spoke_ring_coupling.json").read_text(encoding="utf-8"))
+    state_machine_data = json.loads((ROOT / "data" / "attack183_milestone200_syntactic_state_machine.json").read_text(encoding="utf-8"))
 
     rosettes_panels = []
     for f_id, prof in rosettes_data["folio_profiles"].items():
@@ -826,6 +893,11 @@ def main():
         "micro_spaced_pairs": micro_data["top_35_comma_micro_spaced_pairs"],
         "f57v_quadrants": f57v_data["f57v_ring3_13glyph_4quadrant_table"],
         "universal_stem_matrix": stem_matrix_data["top_25_universal_stem_6register_paradigms"],
+        "pt_pr_lines": pt_pr_data["pt_pr_lines_summary"]["all_lines"],
+        "wheel_tiers": list(f69r_data["four_tier_wheel_locus_hierarchy"].values()),
+        "state_profiles": state_machine_data["state_profiles"],
+        "state_attractions": state_machine_data["top_syntactic_attractions"][:10],
+        "state_prohibitions": state_machine_data["top_syntactic_prohibitions"][:10],
     }, ensure_ascii=False)
 
     html = f"""<!DOCTYPE html>
@@ -1228,8 +1300,8 @@ def main():
       <p>Click any word token on any page to peel apart its Prefix + Root Stem + Suffix in plain English</p>
     </div>
     <nav class="nav-tabs" aria-label="Explorer Views">
-      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (42)</button>
-      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (45)</button>
+      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (46)</button>
+      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (50)</button>
       <button class="tab-btn" onclick="switchTab('lexicon', this)">3. Core Dictionary &amp; 8-Case Grammar</button>
       <button class="tab-btn" onclick="switchTab('zodiac', this)">4. Zodiac Months &amp; Bath Plumbing</button>
       <button class="tab-btn" onclick="switchTab('recipes', this)">5. Starred Recipes, Rosettes &amp; 4-Transcriber Proof</button>
@@ -1238,6 +1310,7 @@ def main():
       <button class="tab-btn" onclick="switchTab('twins', this)">8. 12 Visual Twins, f49v Key &amp; Star Parity</button>
       <button class="tab-btn" onclick="switchTab('quires', this)">9. Quire Signatures, Pharma Shelves &amp; Weirdo-Glyph Atlas</button>
       <button class="tab-btn" onclick="switchTab('clitics', this)">10. Micro-Spacing Clitics, f57v Key Wheel &amp; 6-Register Stem Matrix</button>
+      <button class="tab-btn" onclick="switchTab('state200', this)">11. Milestone 200: 8-State Syntactic Machine, =Pt/+Pr Codas &amp; f69r Wheel</button>
     </nav>
   </div>
 </header>
@@ -1764,6 +1837,89 @@ def main():
             <th>4. Pharmaceutical Prose</th>
             <th>5. Herbal B Prose</th>
             <th>6. Balneo &amp; Starred Recipes</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- TAB 11: MILESTONE 200 SYNTACTIC STATE MACHINE, =Pt/+Pr CODAS & 4-TIER WHEEL HIERARCHY -->
+  <section id="tab-state200" class="tab-panel">
+    <h2>1. MILESTONE 200TH DISCOVERY — The 8-State Voynich Syntactic State Machine (`39,001` Tokens, `&chi;² = 2,545.0`, `z = +254.84`, `Attack 183`)</h2>
+    <p style="color: var(--muted);">
+      Classifying all <strong>39,001 tokens</strong> (<strong>30,924 adjacent paragraph transitions</strong>) into <strong>8 Deterministic Morpho-Syntactic States</strong> reveals a rigid natural-language phrase state machine (<code>&chi;² = 2,545.0</code> vs <code>49.2</code> null, <strong>z = +254.84</strong>; Mutual Information <code>I = 0.05743 bits</code>, <strong>z = +247.60</strong>):
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2rem;">
+      <table id="stateMachineProfilesTable">
+        <thead>
+          <tr>
+            <th>State ID</th>
+            <th>Tokens (<code>%</code>)</th>
+            <th>Line-Initial Lift</th>
+            <th>Line-Medial Lift</th>
+            <th>Line-Final Lift</th>
+            <th>Top Exemplar Words (Click to Analyze)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>2. Top Syntactic Transition Attractions (`S4 &rarr; S3` `2.16×`) vs. Prohibitions (`S2 &rarr; S3` `0.21×` Suppression, `Attack 183`)</h2>
+    <p style="color: var(--muted);">
+      Nearly <strong>one-third (31.61%, 2.16× lift)</strong> of all <code>ch-/sh-</code> verbal participles (<code>S4: chedy, shedy</code>) chain immediately into a <code>qo-</code> active procedural verb (<code>S3: qokeedy, qokedy</code>), whereas standalone <code>1–2</code> char prepositions/particles (<code>S2: ol, or, ar, al, dar, dal</code>) <strong>govern following Core Nouns (<code>S6</code>, 45.37%, 1.39× lift)</strong> and <strong>strictly prohibit following finite <code>qo-</code> Verbs (<code>S3</code>, 0.21× lift = 79% suppression!)</strong>:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2rem;">
+      <table id="stateTransitionsTable">
+        <thead>
+          <tr>
+            <th>Rule Type</th>
+            <th>From State (<code>S_t-1</code>)</th>
+            <th>To State (<code>S_t</code>)</th>
+            <th>Observed</th>
+            <th>Expected</th>
+            <th>Transition Prob</th>
+            <th>Lift (<code>O/E</code>)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>3. All 22 Right-Justified Title &amp; Paragraph Coda Colophons (`=Pt` &amp; `+Pr`, `z = +4.40`, `Attack 181`)</h2>
+    <p style="color: var(--muted);">
+      Across the entire manuscript, <strong>22 right-justified lines (10 <code>=Pt</code> + 12 <code>+Pr</code>, 76 words)</strong> act as topical summary colophons—repeating exact words from their host paragraph at <strong>2.37× enrichment (z = +3.52, 51.32% stem overlap)</strong> and from their host folio at <strong>2.19× enrichment (z = +4.40, 63.16% stem overlap)</strong>:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2rem;">
+      <table id="ptPrColophonsTable">
+        <thead>
+          <tr>
+            <th>Folio &amp; Line</th>
+            <th>Tag</th>
+            <th>Section &amp; Lang</th>
+            <th>Right-Justified Text (Click to Analyze)</th>
+            <th>Shared Stems in Host Folio</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>4. The 4-Tier Astronomical/Cosmological Wheel Locus Hierarchy (`569` Loci, `3,610` Words, `Attack 182`)</h2>
+    <p style="color: var(--muted);">
+      Across all 18 circular/wheel folios (including <code>f69r</code> with its 22 3-color periodic spokes, 02:00 cross-hatched index spoke, and 6 central star Arabic numerals), inscriptions follow a strict 4-tier length hierarchy while adjacent radial spokes match in length within &plusmn;1 word <strong>91.55% of the time (z = +10.15)</strong>:
+    </p>
+    <div style="overflow-x: auto;">
+      <table id="wheelTiersTable">
+        <thead>
+          <tr>
+            <th>Wheel Locus Tier</th>
+            <th>Loci Count</th>
+            <th>Total Words</th>
+            <th>Mean Words / Locus</th>
+            <th>Nominal (<code>-aiin/-ar/-al/-ol/-or</code>)</th>
+            <th>Verbal (<code>-edy/-dy/-eey/-ey</code>)</th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -2486,6 +2642,77 @@ function renderMicroCliticsF57vStemMatrix() {{
   }}).join("");
 }}
 
+function renderMilestone200Tab() {{
+  const spBody = document.querySelector("#stateMachineProfilesTable tbody");
+  spBody.innerHTML = (DATA.state_profiles || []).map(sp => {{
+    const chips = (sp.top_words || []).map(tw =>
+      `<span class="word-chip" onclick="setWord('${{tw.word}}')">${{tw.word}} (${{tw.count}})</span>`
+    ).join(" ");
+    return `
+      <tr>
+        <td><strong><code>${{sp.state}}</code></strong></td>
+        <td><strong>${{sp.count}}</strong> (${{sp.corpus_pct}}%)</td>
+        <td><strong>${{sp.line_initial_lift}}×</strong></td>
+        <td><strong>${{sp.line_medial_lift}}×</strong></td>
+        <td><strong>${{sp.line_final_lift}}×</strong></td>
+        <td>${{chips}}</td>
+      </tr>
+    `;
+  }}).join("");
+
+  const stBody = document.querySelector("#stateTransitionsTable tbody");
+  const attrRows = (DATA.state_attractions || []).slice(0, 6).map(r => `
+    <tr>
+      <td><span class="badge" style="background:var(--green-soft);color:var(--green);">Attraction</span></td>
+      <td><code>${{r.from}}</code></td>
+      <td><code>${{r.to}}</code></td>
+      <td><strong>${{r.observed}}</strong></td>
+      <td>${{r.expected}}</td>
+      <td>${{(r.prob * 100).toFixed(2)}}%</td>
+      <td><strong>${{r.lift}}×</strong></td>
+    </tr>
+  `);
+  const prohibRows = (DATA.state_prohibitions || []).slice(0, 6).map(r => `
+    <tr>
+      <td><span class="badge" style="background:var(--accent-soft);color:var(--accent);">Prohibition</span></td>
+      <td><code>${{r.from}}</code></td>
+      <td><code>${{r.to}}</code></td>
+      <td><strong>${{r.observed}}</strong></td>
+      <td>${{r.expected}}</td>
+      <td>${{(r.prob * 100).toFixed(2)}}%</td>
+      <td><strong>${{r.lift}}×</strong></td>
+    </tr>
+  `);
+  stBody.innerHTML = [...attrRows, ...prohibRows].join("");
+
+  const ptBody = document.querySelector("#ptPrColophonsTable tbody");
+  ptBody.innerHTML = (DATA.pt_pr_lines || []).map(l => {{
+    const wChips = (l.words || []).map(w => `<span class="word-chip" onclick="setWord('${{w}}')">${{w}}</span>`).join(" ");
+    const sChips = (l.stem_shared_in_folio || []).map(w => `<span class="word-chip" onclick="setWord('${{w}}')">${{w}}</span>`).join(" ") || "—";
+    return `
+      <tr>
+        <td><strong><code>${{l.folio}}.${{l.line_no}}</code></strong></td>
+        <td><code>${{l.loc}}</code></td>
+        <td>${{l.section}} (<code>$L=${{l.language}}</code>)</td>
+        <td>${{wChips}}</td>
+        <td>${{sChips}}</td>
+      </tr>
+    `;
+  }}).join("");
+
+  const wtBody = document.querySelector("#wheelTiersTable tbody");
+  wtBody.innerHTML = (DATA.wheel_tiers || []).map(t => `
+    <tr>
+      <td><strong><code>${{t.category}}</code></strong></td>
+      <td><strong>${{t.loci_count}}</strong></td>
+      <td><strong>${{t.total_words}}</strong></td>
+      <td><strong>${{t.mean_words_per_locus}}</strong> words/locus</td>
+      <td>${{t.nominal_aiin_ar_al_pct}}%</td>
+      <td>${{t.verbal_edy_ey_pct}}%</td>
+    </tr>
+  `).join("");
+}}
+
 function switchTab(tabId, btn) {{
   document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
   document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
@@ -2504,6 +2731,7 @@ renderParagraphsIntrusionsTitles();
 renderVisualTwinsAndStarParity();
 renderQuiresShelvesWeirdos();
 renderMicroCliticsF57vStemMatrix();
+renderMilestone200Tab();
 </script>
 </body>
 </html>

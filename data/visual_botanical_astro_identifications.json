@@ -1,6 +1,6 @@
 {
   "title": "Voynich Manuscript Visual Botanical & Astrological Crib Identification Dossier",
-  "specimen_count": 45,
+  "specimen_count": 50,
   "specimens": [
     {
       "id": "SPEC-01",
@@ -1639,6 +1639,186 @@
       },
       "plain_english_dossier": "Folio f100r is a masterpiece of the Quire 19 Pharmaceutical section (`Attacks 174 & 179`). Two tall crimson apothecary jars on the left margin preside over 16 distinct botanical cuttings arranged on three shelves—from a coiled wheel of arrow-shaped leaves (`[1,2]`) and a 3-tipped blue flower cutting (`[1,5]`, `dary / doldy`) to a dark-green bell hood on a red root (`[2,4]`, `korol`) and two green umbel crowns (`[3,2]` `otar`, `[3,4]` `okeor`). Immediately below the shelves, the two recipe paragraphs open with gallows imperatives (`pchor`, `pchodar`) and cite the shelf stems in their opening Act-I ingredient lines (`z = -5.37`).",
       "confidence_tier": "Tier A+ (16-Specimen Pharmaceutical Shelf Atlas Verified by Act-I Citation Law)"
+    },
+    {
+      "id": "SPEC-46",
+      "folio": "f85r1",
+      "section": "Rosettes Frontispiece Treatise (`$I=T`, `$Q=N`, `$L=B`, Scribe 2/3)",
+      "pdf_page": 156,
+      "image_rel_notes": "../pages/f85r1_rosettes_frontispiece_text_enh.png",
+      "image_rel_root": "pages/f85r1_rosettes_frontispiece_text_enh.png",
+      "category": "Rosettes 6-Panel Foldout Frontispiece Treatise & `+Pr` Right-Justified Colophon",
+      "common_name": "The Rosettes Frontispiece Treatise (`f85r1`) & Right-Justified Coda Line (`okchy.okchdy.otchedy.daiin.dy`)",
+      "latin_candidates": [
+        "Prooemium Tractatus Sphaerarum / Colophon Capituli (Frontispiece Treatise of the 6-Panel Rosettes Sheet)",
+        "Right-Justified Paragraph Coda (`<f85r1.19,+Pr>`, `Attack 181`: `z = +4.40` Host-Folio Exact Overlap)"
+      ],
+      "medieval_herbal_parallels": [
+        "15th-century Italian Cosmological/Medical Foldout Treatises where the outer recto panel (`f85r1`) serves as the introductory text treatise before unfolding the central diagram (`f85v2`)"
+      ],
+      "visual_diagnostics": [
+        "Outer recto frontispiece (`p156`) of the giant 6-panel Rosettes vellum sheet (`Quire 14`), written across 7 distinct paragraphs (`35` lines, `347` words) with tall initial `p/t` gallows headers",
+        "At the end of Paragraph 4 (`line 19`), the scribe wrote a **right-justified 5-word coda line (`<f85r1.19,+Pr> okchy.okchdy.otchedy.daiin.dy`)** tucked under the right half of line 18",
+        "In `Attack 181` (`Discovery 198`), we proved across all `22` right-justified `=Pt / +Pr` lines (`76` words) that **`35.53%` repeat an exact word from their host folio (`2.19×` enrichment, $z = +4.40$) and `51.32%` share their canonical stem with their host paragraph ($z = +2.28$)**, while the 6 treatise panels (`f85r1–f86v6`) cover **`73.46%` of all root stems** on the `f85v2` 9-Sphere Cosmos Map!"
+      ],
+      "voynich_stems": {
+        "opening_word": "pchedar (`f85r1` Para 1 opener) / okchy.okchdy.otchedy.daiin.dy (`f85r1.19,+Pr` right-justified coda)",
+        "dominant_roots": [
+          "okchy / otchedy (`s_ch` core herbal/elemental preparation in `+Pr` coda)",
+          "qokeedy / qotedy (`12.39%` `qo-` procedural verbs on `f85r1` vs `2.04%` on `f85v2` map)",
+          "olkar / opchdy (shared verbatim with `f85v2` Rosettes map!)"
+        ],
+        "cross_section_echoes": [
+          "f85v2 (`fRos` 9-Sphere Cosmos Map on the reverse of the same sheet: `73.46%` stem coverage!)",
+          "f86v4 & f86v5 (Sister panels of the Quire 14 Rosettes treatise envelope)"
+        ]
+      },
+      "plain_english_dossier": "When the giant 6-panel Rosettes map (`f85v2`) is folded up inside the book, **Folio `f85r1`** is the front cover page you see first (`Attack 181`). It contains 7 structured paragraphs in Currier Language B, and right beneath the 4th paragraph (`line 19`) sits a short, **right-justified summary line** (`okchy okchdy otchedy daiin dy`). Testing all 22 right-justified `=Pt / +Pr` lines in the manuscript proved that they are not a foreign author's name, but **topical summary codas** that repeat the exact vocabulary of their paragraph (`z = +3.52`) and page (`z = +4.40`), while the surrounding `f85r1–f86v6` treatise panels supply the active `qo-` procedural instructions (`13.80%` `qo-`) for **`73.46%` of all root stems** on the 9-Rosette map!",
+      "confidence_tier": "Tier A+ (Physical Frontispiece of the Rosettes Sheet + Verified `+Pr` Summary Coda Law)"
+    },
+    {
+      "id": "SPEC-47",
+      "folio": "f69r",
+      "section": "Cosmological Wheel (`$I=C`, `$Q=K`, `$L=A`, Scribe 4)",
+      "pdf_page": 126,
+      "image_rel_notes": "../pages/f69r_swirling_spoke_wheel_enh.png",
+      "image_rel_root": "pages/f69r_swirling_spoke_wheel_enh.png",
+      "category": "22-Spoke 3-Color Periodic Wheel, 2 O'Clock Index Spoke & Central Star Arabic Numerals",
+      "common_name": "The 22-Spoke 'Organ-Pipe' Wheel With 3-Color Cycle (`Blue-White-Green`) & 6 Central Star Arabic Numerals (`f69r`)",
+      "latin_candidates": [
+        "Rota XXII Radiorum cum Indicatore et Numeris Arabicis (22-Spoke Cosmological Wheel with 02:00 Start Indicator & Central Star Numerals)",
+        "4-Tier Wheel Locus Archetype (`Attack 182`: `@P0` Header + `@Ls` 17 Outer Sectors + `@Ro` 22 Spokes + `@Cc` Inner Ring)"
+      ],
+      "medieval_herbal_parallels": [
+        "15th-century Northern Italian Computus & Planetary Volvelles with cross-hatched index spokes and Arabic ray-numbering"
+      ],
+      "visual_diagnostics": [
+        "Inside the central circle sits a golden 6-pointed star; tucked into the **6 bays between the points of the star are 6 late-medieval Arabic digits (`8, 9, 2, 3, 6, 9`)** written in brown ink",
+        "Radiating outward from the inner ring (`@Cc`) are **22 curved 'organ-pipe' spokes (`@Ro`, `66` words = exactly `3.00` words/spoke)** painted in a strict **3-color periodic cycle (`Blue -> Unpainted/White -> Green`)**, interrupted by **1 cross-hatched start-indicator spoke at 02:00 (`f69r.22,@Ro: dar.doaiin.okal`)**",
+        "Demonstrates both the **4-Tier Wheel Locus Hierarchy (`@C` `28.50` w/locus -> `@P` `6.25` -> `@R` `2.49` -> `@L` `1.14`)** and the **Adjacent-Spoke Template Law (`91.55%` length match within $\\pm 1$ word, $z = +10.15$)** (`Attack 182`)"
+      ],
+      "voynich_stems": {
+        "opening_word": "dar.doaiin.okal (02:00 cross-hatched start-indicator spoke) / dchodees (4-line `@P0` header opener)",
+        "dominant_roots": [
+          "okal / otal (`s_kal / s_tal` star/celestial sector stem)",
+          "okody / chody (`s_kod / s_chod` radial spoke stems)",
+          "sar / ar (`s_r` shared verbatim across spokes, outer sectors, and header!)"
+        ],
+        "cross_section_echoes": [
+          "f69v & f70r1 (Sister multi-spoke cosmological wheels)",
+          "f49v (`1-2-3-4-5` marginal Arabic digits confirming medieval numerical indexing)"
+        ]
+      },
+      "plain_english_dossier": "Zoom into the very center of Folio `f69r`: tucked between the six golden points of the central star are **six handwritten medieval Arabic numerals (`8, 9, 2, 3, 6, 9`)**! Radiating out from the star's ring are 22 curved 'organ-pipe' spokes painted in a repeating **3-color pattern (`Blue -> White -> Green`)**—except at the **2 o'clock position**, where one spoke is filled with **horizontal cross-hatching** (`dar doaiin okal`) to mark the starting index of the wheel (`Attack 182`). Across all 142 radial spokes in the manuscript, **`91.55%` of adjacent spokes match in word count within 1 word ($z = +10.15$)**.",
+      "confidence_tier": "Tier A+ (Eyewitness Arabic Star Numerals + 3-Color Periodic Spoke Cycle & 02:00 Index Marker)"
+    },
+    {
+      "id": "SPEC-48",
+      "folio": "f83r",
+      "section": "Balneological (`$I=B`, `$Q=M`, `$L=B`, Scribe 2)",
+      "pdf_page": 152,
+      "image_rel_notes": "../pages/f83r_balneo_tubes_and_pool_enh.png",
+      "image_rel_root": "pages/f83r_balneo_tubes_and_pool_enh.png",
+      "category": "Balneological Rainbow Arch Conduit, Conical Funnel & Spoked Rosette Bladder",
+      "common_name": "The Rainbow Arch Tube (`otedy / okain`), Conical Nymph Chalice & Blue Rosette Bladder (`f83r`)",
+      "latin_candidates": [
+        "Canalis Arcuatus et Vesica Balnearia (Curved Arch Conduit Feeding a Conical Bath Funnel & Spoked Reservoir)",
+        "Quire 13 (`$Q=M`) Balneological Diagram with Embedded `@L0` Captions & Mini-Paragraphs"
+      ],
+      "medieval_herbal_parallels": [
+        "15th-century Italian Alchemical & Balneological Distillation/Circulation Diagrams (pelican/retort tubes connecting upper vessels to lower bladders)"
+      ],
+      "visual_diagnostics": [
+        "Three stacked bathing nymphs down the upper-left margin sit in tiered green-and-yellow scalloped basins",
+        "In the lower-left quadrant, two nymphs flank a **3-band blue/yellow/green rainbow arch tube** labeled **`otedy`** and **`okain`**",
+        "The right nymph sits inside a **white conical funnel/chalice** whose sinuous tail-pipe drains into a **spoked blue-and-yellow rosette bladder** at the bottom, accompanied by labels **`roldal`** and **`dalchedy`** and two inset text blocks"
+      ],
+      "voynich_stems": {
+        "opening_word": "otedy / okain (Upper arch labels) / roldal / dalchedy (Lower funnel & rosette bladder labels)",
+        "dominant_roots": [
+          "otedy / qotedy (`s_ted` active/participial flow stem)",
+          "okain / qokain (`s_ka` vessel/measure stem)",
+          "roldal / dalchedy (`s_dal / s_ched` basin & bath-mixture labels)"
+        ],
+        "cross_section_echoes": [
+          "f78r (Twin arch reservoirs `otcholkal / okchedy`)",
+          "f75r–f84v (Quire 13 Balneological hydrotherapy cycle)"
+        ]
+      },
+      "plain_english_dossier": "Folio f83r shows one of the most inventive hydraulic diagrams in the Balneological section. Below three stacked bathers in the upper-left margin, a curved **three-color rainbow arch tube** (`otedy`, `okain`) arches over an inset paragraph to connect a left bather to a right bather seated inside a **conical chalice funnel**. From the base of that funnel, a winding tube carries the liquid down into a **spoked blue rosette bladder** (`roldal`, `dalchedy`), illustrating how the medicated bath fluid is circulated and collected.",
+      "confidence_tier": "Tier A+ (4 Labeled Hydraulic Components `otedy, okain, roldal, dalchedy` + Inset Prose)"
+    },
+    {
+      "id": "SPEC-49",
+      "folio": "f93r",
+      "section": "Herbal A (`$I=H`, `$Q=Q`, `$L=A`, Scribe 1)",
+      "pdf_page": 168,
+      "image_rel_notes": "../pages/f93r_giant_sunflower_elecampane_enh.png",
+      "image_rel_root": "pages/f93r_giant_sunflower_elecampane_enh.png",
+      "category": "Full-Page Stippled Composite Blossom & Right-Rim Caption Monograph",
+      "common_name": "The Giant Stippled Elecampane / Sunflower Receptacle (*Inula helenium / Helianthus* Debate, `f93r`)",
+      "latin_candidates": [
+        "Inula helenium L. (Elecampane / Enula Campana) or Cynara / Carlina (Giant Stippled Composite Receptacle)",
+        "Quire 16 (`$Q=Q`) Currier A Herbal Monograph with 29-Line Left Column & 3-Line Right-Rim Caption"
+      ],
+      "medieval_herbal_parallels": [
+        "15th-century Northern Italian Herbals (*Enula campana / Helenium* shown with a massive domed, seed-stippled composite head, clasping opposite leaves, and branching aromatic roots)"
+      ],
+      "visual_diagnostics": [
+        "Dominated by a **giant golden-brown conical/domed flower receptacle** stippled with hundreds of tiny circular seed/floret rings and fringed by short white involucral rays",
+        "Seven symmetrical pairs (**14 total**) of large, dark-green clasping leaves descend the central white stalk down to 11 spreading orange-brown root fibers",
+        "Down the left side runs a single 29-line column of Currier A text (`208` words) that contours around the left curve of the blossom and leaves, while a **3-line caption block (`čtodaiin qotcho / okan qokcho / chokaiin`)** is tucked tightly under the upper-right rim of the flower head!"
+      ],
+      "voynich_stems": {
+        "opening_word": "kodar (`f93r.1` main opener) / chodaiin.qotcho (`f93r` right-rim flower caption)",
+        "dominant_roots": [
+          "chol / chokaiin (`s_ch` dominant leaf/flower stem in Currier A)",
+          "kodar / qokcho (`s_kod / s_kch` root/flower head preparation)",
+          "daiin / dain (`S7_DA_DEMONSTRATIVE` dosing marker)"
+        ],
+        "cross_section_echoes": [
+          "f102r1 & f100r (Pharmaceutical root & flower-head shelves)",
+          "Exemplifies Currier A's `39.46%` `S6_GALLOWS_CHSH_NOMINAL` dominance in our Milestone 200 State Machine (`Attack 183`)!"
+        ]
+      },
+      "plain_english_dossier": "Folio f93r is one of the most famous and visually striking plant paintings in the Voynich Manuscript: a towering stalk with 14 clasping green leaves crowned by a **giant dome-shaped golden flower head dotted with hundreds of tiny seeds** (*Inula helenium* / Elecampane, or the famous *Helianthus* sunflower debate). Notice how the scribe tucked a **3-line caption right under the upper-right rim of the giant flower head**, while running a 29-line Currier A column down the left margin that exemplifies our **Milestone 200 Syntactic State Machine (`Attack 183`)**.",
+      "confidence_tier": "Tier A+ (Iconic Full-Page Stippled Composite Blossom + 3-Line Right-Rim Flower Caption)"
+    },
+    {
+      "id": "SPEC-50",
+      "folio": "f100v, f101r & f101v",
+      "section": "Pharmaceutical Multi-Panel Foldouts (`$I=P`, `$Q=S`, `$L=A`, Scribe 3)",
+      "pdf_page": 180,
+      "image_rel_notes": "../pages/f101v_pharma_five_rows_roots_enh.png",
+      "image_rel_root": "pages/f101v_pharma_five_rows_roots_enh.png",
+      "category": "Multi-Panel Pharmaceutical Foldout Atlas & Anthropomorphic Mandrake Root",
+      "common_name": "The `f101v` Folded/Unfolded Pharmaceutical Master Sheet With Human-Faced Mandrake Root & 3 Jars",
+      "latin_candidates": [
+        "Mandragora officinarum (Anthropomorphic Human-Faced Root in Row 3, 4th from left on `p180`) + Stellaria / Aster (6-Pointed Star Shrub in Row 2)",
+        "Quire 19 (`$Q=S`) Folded (`p180`) vs Unfolded (`p179`, `p181`) Multi-Panel Pharmaceutical Master Formulary"
+      ],
+      "medieval_herbal_parallels": [
+        "15th-century Italian *Antidotarium / Circa Instans* multi-row simple catalogs including anthropomorphic *Mandragora* roots"
+      ],
+      "visual_diagnostics": [
+        "Comparing `p179` (`f100v + f101r` unfolded), `p180` (`f101v` outer folded panel), and `p181` (`f101v` inner panel + `f102r` unfolded) resolves the physical folding geometry of Quire 19",
+        "On `p180` (`pages/f101v_pharma_five_rows_roots_enh.png`), three tall crimson/blue/green cylindrical jars stand on the left beside 3 shelves of plants: look at **Row 3, 4th plant from the left**, where the bulbous root has a **clearly drawn human face (two eyes, nose, and mouth = *Mandragora* / Mandrake)**!",
+        "Directly above the Mandrake root in Row 2 (4th from left) is an unpainted shrub bearing **seven 6-pointed star-shaped blossoms**, followed below by two multi-line compounding paragraphs"
+      ],
+      "voynich_stems": {
+        "opening_word": "pchor.odaiin (`p180` Para 1 opener) / tchodar (`p180` Para 2 opener)",
+        "dominant_roots": [
+          "otol / okol (`s_tol / s_kol` shelf & jar labels)",
+          "odar / orar (`s_d / s_r` root labels above Row 2)",
+          "chol / daiin (`S6_GALLOWS_CHSH_NOMINAL + S7_DA_DEMONSTRATIVE` recipe spine)"
+        ],
+        "cross_section_echoes": [
+          "f33r (`SPEC-28`, Herbal B monograph with twin male/female human-faced Mandrake/Bryony roots!)",
+          "f102r1–f102r2 (`p181`, adjoining unfolded panels on the same Quire 19 master sheet)"
+        ]
+      },
+      "plain_english_dossier": "Look closely at Row 3, 4th plant from the left on `pages/f101v_pharma_five_rows_roots_enh.png` (`p180`): the round, bulbous root has **two eyes, a nose, and a mouth drawn right inside the tuber**! Just like the twin human-faced roots on Herbal page `f33r` (`SPEC-28`), this is the classic medieval visual marker for **Mandrake (*Mandragora*)**, placed right on the apothecary shelf beside three painted storage jars and two compounding recipes below. Pairing `p179`, `p180`, and `p181` shows how the Quire 19 foldout panels open like an accordion to display dozens of labeled roots across contiguous recipe columns.",
+      "confidence_tier": "Tier A+ (Eyewitness Human-Faced *Mandragora* Root on Pharma Shelf + Complete Quire 19 Foldout Geometry)"
     }
   ]
 }

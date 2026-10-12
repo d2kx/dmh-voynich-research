@@ -55,9 +55,9 @@ When you strip off the prefix and suffix, you are left with the **Root Stem**:
 
 ---
 
-## Part 2: Page-by-Page Visual Walkthroughs (26 Iconic Folios)
+## Part 2: Page-by-Page Visual Walkthroughs (30 Iconic Folios)
 
-Below are **26 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
+Below are **30 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
 
 ---
 
@@ -467,8 +467,60 @@ Why did the scribe write the Voynich word **`oror`** at the end of a European ch
 
 ---
 
+### 27. Folio `f85r1` — The Front Cover Treatise of the 9-Rosette Foldout & the `=Pt / +Pr` Right-Justified Coda Law ($z = +4.40$)
+* **Section:** Rosettes Frontispiece Treatise (`$I=T`, `$Q=N`, Currier B, Scribe 2/3) | **Page in Yale Scan:** Page 156
+
+![Folio f85r1 Rosettes Frontispiece Treatise with Right-Justified Summary Coda Line](../pages/f85r1_rosettes_frontispiece_text_enh.png)
+
+#### What to Look for on `f85r1`
+1. **The Front Cover of the 6-Panel Rosettes Sheet (`Attack 181`, `Discovery 198`):** When the giant 6-panel Rosettes cosmos map (`f85v2`) is folded up inside the book, **Folio `f85r1`** is the outer cover page you read first. While the inner map face (`f85v2`) is packed with short nominal labels (`qo-` only `2.04%`), the 6 treatise panels on the reverse/adjacent folds of the exact same physical sheet (`f85r1–f86v6`, `1,855` words) surge **`6.76×` in active `qo-` procedural verbs (`13.80%`)** and cover **`73.46%` of all canonical root stems** (`110` exact words, `78` root stems) on the 9-Sphere Cosmos Map!
+2. **The Right-Justified Paragraph Coda (`<f85r1.19,+Pr> okchy.okchdy.otchedy.daiin.dy`):** Look halfway down `f85r1` at the end of Paragraph 4 (`line 19`): tucked under the right side of line 18 is a short, **right-justified 5-word line**. Across the entire manuscript, there are **`22` right-justified title/coda lines (`10` `=Pt` + `12` `+Pr`, `76` words)**. Rather than being a foreign author's signature, **`18.42%` of their words repeat an exact word from their host paragraph ($2.37\times$, $z = +3.52$) and `35.53%` repeat an exact word from their host page ($2.19\times$, $z = +4.40$, `63.16%` stem overlap)**—proving they are topical summary colophons!
+
+---
+
+### 28. Folio `f69r` — The 22-Spoke 3-Color "Organ-Pipe" Wheel, the 2 O'Clock Cross-Hatched Start Indicator & 6 Central Star Arabic Numerals
+* **Section:** Cosmological Wheel (`$I=C`, `$Q=K`, Currier A, Scribe 4) | **Page in Yale Scan:** Page 126
+
+![Folio f69r 22-Spoke Organ-Pipe Wheel with 3-Color Cycle and 6 Central Star Arabic Numerals](../pages/f69r_swirling_spoke_wheel_enh.png)
+
+#### What to Look for on `f69r`
+1. **Six Medieval Arabic Digits Inside the Central Star (`8, 9, 2, 3, 6, 9`):** Zoom into the golden 6-pointed star at the very center of `f69r`: written in brown ink inside the six bays between the points of the star are **six late-medieval Arabic numerals (`8, 9, 2, 3, 6, 9`)**!
+2. **The 3-Color Periodic Spoke Cycle & 2 O'Clock Cross-Hatched Index Spoke (`Attack 182`, `Discovery 199`):** Radiating outward from the central star are **22 curved "organ-pipe" spokes (`66` words = exactly `3.00` words/spoke)** painted in a repeating **3-color cycle (`Blue -> White -> Green`)**—except at **2 o'clock (`f69r.22,@Ro: dar.doaiin.okal`)**, where one spoke is filled with **horizontal cross-hatching** as the starting index marker of the wheel!
+3. **The 4-Tier Wheel Hierarchy & Adjacent-Spoke Template Law ($z = +10.15$):** Across all `18` circular/wheel pages (`569` loci, `3,610` words), inscriptions obey a strict 4-tier length hierarchy: **Concentric Rings (`@C`: `28.50` words/locus) $\to$ Header Paragraphs (`@P`: `6.25` words/line) $\to$ Radial Spokes (`@R`: `2.49` words/spoke) $\to$ Sector/Star Labels (`@L`: `1.14` words/label)**, and **`91.55%` of adjacent spokes match in word count within $\pm 1$ word ($z = +10.15$)**!
+
+---
+
+### 29. Folios `f83r` & `f93r` — Balneological Rainbow Arch Conduits & the Giant Stippled Elecampane / Sunflower Receptacle
+* **Sections:** Balneological (`f83r`, Currier B, Scribe 2) & Herbal A (`f93r`, Currier A, Scribe 1) | **Pages in Yale Scan:** Pages 152 & 168
+
+![Folio f83r Balneological Rainbow Arch Tube, Conical Chalice Funnel, and Spoked Rosette Bladder](../pages/f83r_balneo_tubes_and_pool_enh.png)
+
+#### What to Look for on `f83r` (Above) and `f93r` (Below)
+1. **The Rainbow Arch Conduit & Conical Chalice Funnel (`f83r`, above):** Look at the lower-left diagram of `f83r`: a **three-band blue/yellow/green rainbow arch tube** labeled **`otedy`** and **`okain`** connects a left bather to a right bather seated inside a **white conical funnel/chalice**, whose winding tail-pipe drains into a **spoked blue rosette bladder** (`roldal`, `dalchedy`) at the bottom.
+2. **The Giant Stippled Elecampane / Sunflower Blossom & 3-Line Right-Rim Caption (`f93r`, below):** Folio `f93r` is dominated by a massive dome-shaped golden-brown composite flower receptacle stippled with hundreds of tiny seeds (*Inula helenium* / Elecampane or *Helianthus* sunflower debate) above 7 pairs of clasping green leaves. Notice how the scribe tucked a **3-line flower caption (`chodaiin qotcho / okan qokcho / chokaiin`)** right under the upper-right rim of the giant flower head!
+
+![Folio f93r Giant Stippled Elecampane or Sunflower Receptacle with 3-Line Right-Rim Caption](../pages/f93r_giant_sunflower_elecampane_enh.png)
+
+---
+
+### 30. Folios `f100v–f102r` — The Unfolded Quire 19 Pharmaceutical Master Sheets, the Human-Faced Mandrake Root & Our Milestone 200th Discovery (The 8-State Syntactic State Machine!)
+* **Section:** Pharmaceutical Multi-Panel Foldouts (`$I=P`, `$Q=S`, Currier A, Scribe 3) | **Pages in Yale Scan:** Pages 179, 180 & 181
+
+![Folio f101v Folded Outer Pharmaceutical Panel with Human-Faced Mandrake Root in Row 3](../pages/f101v_pharma_five_rows_roots_enh.png)
+
+#### What to Look for on `f101v` (Above & Below) and How the 8-State Syntactic State Machine Works (`Discovery 200`)
+1. **The Human-Faced Mandrake Root on the Pharmacy Shelf (`p180`, above):** Look at **Row 3, 4th plant from the left** on `pages/f101v_pharma_five_rows_roots_enh.png` above: drawn right inside the bulbous tan root tuber is a **human face with two eyes, a nose, and a mouth**! Just like the twin human-faced roots on Herbal page `f33r` (`SPEC-28`), this is the unmistakable medieval visual sign for **Mandrake (*Mandragora*)**, sitting on the apothecary shelf next to three painted storage jars (`p180`) and unfolding into the multi-panel master sheet `p181` below (`f101v1 + f102r`).
+2. **MILESTONE 200TH DISCOVERY — The 8-State Voynich Syntactic State Machine (`Attack 183`, $\chi^2 = 2,545.0, z = +254.84$):** Across all `39,001` words and `30,924` word-to-word transitions in the manuscript, every word belongs to one of **8 Functional Morpho-Syntactic States** that obey two remarkable natural-language grammar rules:
+   - **Rule A — Participle-to-Main-Verb Chaining (`S4 -> S3` = `2.16×` Lift, `31.61%` probability):** Nearly **one-third (`31.61%`, `1,486` observed vs `689.4` expected)** of all `ch-/sh-` verbal participles (`chedy`, `shedy`, `cheey`, `sheey`) are immediately followed by a `qo-` active procedural verb (`qokeedy`, `qokedy`, `qokaiin`), forming compound verbal chains (`[shedy/chedy] + [qokeedy/qokedy]`).
+   - **Rule B — Preposition-to-Noun Government vs. Verb Prohibition (`S2 -> S6` = `1.39×` Lift [`45.37%`] vs. `S2 -> S3` = `0.21×` Lift [`79%` suppression!]):** Standalone `1–2` letter particles/prepositions (`ol`, `or`, `ar`, `al`, `dar`, `dal`, `s`, `r`) **must be followed by a Core Noun (`S6`: `chol`, `shol`, `kaiin`, `taiin`, `45.37%` of the time)** and **cannot directly precede a finite `qo-` Verb (`S3`: only `97` times vs `466.1` expected, a `4.81×` depletion)**—mirroring real prepositional/article syntax (`PREP/ART + NOUN` is grammatical; `PREP/ART + FINITE_VERB` is forbidden)!
+
+![Folio f101v1 and f102r Unfolded Three-Panel Pharmaceutical Master Sheet](../pages/f101v_unfolded_five_row_pharma_enh.png)
+
+---
+
 ## Where to Go Next
-* **Want to see all 45 real-world plants, constellations, wheels, bathing diagrams, and visual twins?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)** (`SPEC-01` through `SPEC-45`).
-* **Want to click through 42 pages, decode words interactively, and explore all 10 tabs in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now at **v8.0 with 10 interactive tabs**!).
-* **Want the deep grammatical tables, micro-spacing clitic fusion proofs, `f57v` key wheel analysis, 6-register stem inflection matrix, and full 197-discovery research log?** See **[`MICRO_SPACING_F57V_KEY_WHEEL_AND_STEM_INFLECTION_MATRIX.md`](MICRO_SPACING_F57V_KEY_WHEEL_AND_STEM_INFLECTION_MATRIX.md)**, **[`QUIRE_SIGNATURES_PHARMA_SHELVES_AND_WEIRDO_GLYPH_ATLAS.md`](QUIRE_SIGNATURES_PHARMA_SHELVES_AND_WEIRDO_GLYPH_ATLAS.md)**, **[`VISUAL_TWINS_MARGIN_KEYS_AND_STAR_PARITY_CODE.md`](VISUAL_TWINS_MARGIN_KEYS_AND_STAR_PARITY_CODE.md)**, and **[`NOTES.md`](../NOTES.md)**.
+* **Want to see all 50 real-world plants, constellations, wheels, bathing diagrams, and visual twins?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)** (`SPEC-01` through `SPEC-50`).
+* **Want to click through 46 pages, decode words interactively, and explore all 10 tabs in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now at **v9.0 — Milestone 200 Discoveries Edition**!).
+* **Want the deep grammatical tables, the Milestone 200 8-State Syntactic State Machine, `=Pt / +Pr` colophon proofs, `f69r` star-numeral forensics, and full 201-discovery research log?** See **[`ROSETTES_ENVELOPE_F69R_WHEEL_AND_200_DISCOVERIES_STATE_MACHINE.md`](ROSETTES_ENVELOPE_F69R_WHEEL_AND_200_DISCOVERIES_STATE_MACHINE.md)**, **[`MICRO_SPACING_F57V_KEY_WHEEL_AND_STEM_INFLECTION_MATRIX.md`](MICRO_SPACING_F57V_KEY_WHEEL_AND_STEM_INFLECTION_MATRIX.md)**, and **[`NOTES.md`](../NOTES.md)**.
+
 

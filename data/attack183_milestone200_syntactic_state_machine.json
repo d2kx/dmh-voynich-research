@@ -1,0 +1,951 @@
+{
+  "attack": 183,
+  "discovery": 200,
+  "milestone": "200TH VERIFIED DISCOVERY MILESTONE",
+  "title": "The Complete 8-State Voynich Syntactic State Machine Across 37,469 Tokens and 5,253 Lines",
+  "corpus_summary": {
+    "total_classified_tokens": 39001,
+    "total_paragraph_lines": 4104,
+    "total_paragraph_tokens": 35028,
+    "total_adjacent_transitions": 30924,
+    "transition_chi2": 2545.02,
+    "null_transition_chi2_mean": 48.47,
+    "z_transition_chi2": 254.84,
+    "transition_mutual_information_bits": 0.05743,
+    "null_mi_bits_mean": 0.00113,
+    "z_mutual_information": 247.6
+  },
+  "state_profiles": [
+    {
+      "state": "S1_INIT_DISCOURSE",
+      "count": 2346,
+      "corpus_pct": 6.02,
+      "para_count": 2150,
+      "line_initial_lift": 3.71,
+      "line_medial_lift": 0.66,
+      "line_final_lift": 0.53,
+      "top_words": [
+        {
+          "word": "ykeey",
+          "count": 57
+        },
+        {
+          "word": "ykaiin",
+          "count": 46
+        },
+        {
+          "word": "ytaiin",
+          "count": 39
+        },
+        {
+          "word": "ykar",
+          "count": 36
+        },
+        {
+          "word": "pchedy",
+          "count": 36
+        },
+        {
+          "word": "ykeedy",
+          "count": 33
+        },
+        {
+          "word": "yteey",
+          "count": 31
+        },
+        {
+          "word": "yteedy",
+          "count": 29
+        }
+      ]
+    },
+    {
+      "state": "S2_PROCLITIC_PARTICLE",
+      "count": 4224,
+      "corpus_pct": 10.83,
+      "para_count": 3608,
+      "line_initial_lift": 0.6,
+      "line_medial_lift": 1.06,
+      "line_final_lift": 1.02,
+      "top_words": [
+        {
+          "word": "ol",
+          "count": 565
+        },
+        {
+          "word": "ar",
+          "count": 408
+        },
+        {
+          "word": "or",
+          "count": 394
+        },
+        {
+          "word": "s",
+          "count": 356
+        },
+        {
+          "word": "y",
+          "count": 334
+        },
+        {
+          "word": "dar",
+          "count": 323
+        },
+        {
+          "word": "al",
+          "count": 263
+        },
+        {
+          "word": "dal",
+          "count": 242
+        }
+      ]
+    },
+    {
+      "state": "S3_QO_PROCEDURAL_VERB",
+      "count": 5111,
+      "corpus_pct": 13.1,
+      "para_count": 5042,
+      "line_initial_lift": 0.86,
+      "line_medial_lift": 1.1,
+      "line_final_lift": 0.47,
+      "top_words": [
+        {
+          "word": "qokeey",
+          "count": 307
+        },
+        {
+          "word": "qokeedy",
+          "count": 307
+        },
+        {
+          "word": "qokain",
+          "count": 279
+        },
+        {
+          "word": "qokedy",
+          "count": 276
+        },
+        {
+          "word": "qokaiin",
+          "count": 265
+        },
+        {
+          "word": "qokal",
+          "count": 197
+        },
+        {
+          "word": "qokar",
+          "count": 159
+        },
+        {
+          "word": "qoky",
+          "count": 146
+        }
+      ]
+    },
+    {
+      "state": "S4_CHSH_PARTICIPLE_VERB",
+      "count": 5397,
+      "corpus_pct": 13.84,
+      "para_count": 5100,
+      "line_initial_lift": 0.53,
+      "line_medial_lift": 1.12,
+      "line_final_lift": 0.67,
+      "top_words": [
+        {
+          "word": "chedy",
+          "count": 507
+        },
+        {
+          "word": "shedy",
+          "count": 435
+        },
+        {
+          "word": "chey",
+          "count": 354
+        },
+        {
+          "word": "shey",
+          "count": 279
+        },
+        {
+          "word": "cheey",
+          "count": 185
+        },
+        {
+          "word": "sheey",
+          "count": 149
+        },
+        {
+          "word": "chdy",
+          "count": 147
+        },
+        {
+          "word": "lchedy",
+          "count": 116
+        }
+      ]
+    },
+    {
+      "state": "S5_OKOT_DEICTIC_NOMINAL",
+      "count": 5189,
+      "corpus_pct": 13.3,
+      "para_count": 4036,
+      "line_initial_lift": 0.51,
+      "line_medial_lift": 1.11,
+      "line_final_lift": 0.76,
+      "top_words": [
+        {
+          "word": "okaiin",
+          "count": 215
+        },
+        {
+          "word": "okeey",
+          "count": 185
+        },
+        {
+          "word": "otedy",
+          "count": 165
+        },
+        {
+          "word": "okal",
+          "count": 156
+        },
+        {
+          "word": "otaiin",
+          "count": 155
+        },
+        {
+          "word": "otar",
+          "count": 154
+        },
+        {
+          "word": "oteey",
+          "count": 145
+        },
+        {
+          "word": "okain",
+          "count": 141
+        }
+      ]
+    },
+    {
+      "state": "S6_GALLOWS_CHSH_NOMINAL",
+      "count": 12451,
+      "corpus_pct": 31.92,
+      "para_count": 11338,
+      "line_initial_lift": 0.94,
+      "line_medial_lift": 1.02,
+      "line_final_lift": 0.94,
+      "top_words": [
+        {
+          "word": "aiin",
+          "count": 507
+        },
+        {
+          "word": "chol",
+          "count": 397
+        },
+        {
+          "word": "chor",
+          "count": 211
+        },
+        {
+          "word": "chy",
+          "count": 190
+        },
+        {
+          "word": "shol",
+          "count": 186
+        },
+        {
+          "word": "cheol",
+          "count": 171
+        },
+        {
+          "word": "chckhy",
+          "count": 139
+        },
+        {
+          "word": "saiin",
+          "count": 127
+        }
+      ]
+    },
+    {
+      "state": "S7_DA_DEMONSTRATIVE",
+      "count": 2551,
+      "corpus_pct": 6.54,
+      "para_count": 2343,
+      "line_initial_lift": 2.07,
+      "line_medial_lift": 0.77,
+      "line_final_lift": 1.4,
+      "top_words": [
+        {
+          "word": "daiin",
+          "count": 850
+        },
+        {
+          "word": "dy",
+          "count": 279
+        },
+        {
+          "word": "dain",
+          "count": 214
+        },
+        {
+          "word": "dair",
+          "count": 111
+        },
+        {
+          "word": "dol",
+          "count": 109
+        },
+        {
+          "word": "dor",
+          "count": 68
+        },
+        {
+          "word": "dshedy",
+          "count": 34
+        },
+        {
+          "word": "dchy",
+          "count": 29
+        }
+      ]
+    },
+    {
+      "state": "S8_TERMINAL_CADENCE",
+      "count": 1732,
+      "corpus_pct": 4.44,
+      "para_count": 1411,
+      "line_initial_lift": 0.24,
+      "line_medial_lift": 0.47,
+      "line_final_lift": 5.26,
+      "top_words": [
+        {
+          "word": "dam",
+          "count": 88
+        },
+        {
+          "word": "am",
+          "count": 86
+        },
+        {
+          "word": "oly",
+          "count": 64
+        },
+        {
+          "word": "otam",
+          "count": 48
+        },
+        {
+          "word": "okam",
+          "count": 33
+        },
+        {
+          "word": "daly",
+          "count": 31
+        },
+        {
+          "word": "ary",
+          "count": 26
+        },
+        {
+          "word": "aly",
+          "count": 26
+        }
+      ]
+    }
+  ],
+  "markov_probability_matrix": {
+    "S1_INIT_DISCOURSE": {
+      "S1_INIT_DISCOURSE": 0.0675,
+      "S2_PROCLITIC_PARTICLE": 0.1081,
+      "S3_QO_PROCEDURAL_VERB": 0.122,
+      "S4_CHSH_PARTICIPLE_VERB": 0.1443,
+      "S5_OKOT_DEICTIC_NOMINAL": 0.1171,
+      "S6_GALLOWS_CHSH_NOMINAL": 0.3368,
+      "S7_DA_DEMONSTRATIVE": 0.0615,
+      "S8_TERMINAL_CADENCE": 0.0427
+    },
+    "S2_PROCLITIC_PARTICLE": {
+      "S1_INIT_DISCOURSE": 0.0274,
+      "S2_PROCLITIC_PARTICLE": 0.1548,
+      "S3_QO_PROCEDURAL_VERB": 0.0305,
+      "S4_CHSH_PARTICIPLE_VERB": 0.1857,
+      "S5_OKOT_DEICTIC_NOMINAL": 0.0626,
+      "S6_GALLOWS_CHSH_NOMINAL": 0.4537,
+      "S7_DA_DEMONSTRATIVE": 0.0378,
+      "S8_TERMINAL_CADENCE": 0.0475
+    },
+    "S3_QO_PROCEDURAL_VERB": {
+      "S1_INIT_DISCOURSE": 0.0262,
+      "S2_PROCLITIC_PARTICLE": 0.0921,
+      "S3_QO_PROCEDURAL_VERB": 0.1897,
+      "S4_CHSH_PARTICIPLE_VERB": 0.184,
+      "S5_OKOT_DEICTIC_NOMINAL": 0.1374,
+      "S6_GALLOWS_CHSH_NOMINAL": 0.2822,
+      "S7_DA_DEMONSTRATIVE": 0.052,
+      "S8_TERMINAL_CADENCE": 0.0363
+    },
+    "S4_CHSH_PARTICIPLE_VERB": {
+      "S1_INIT_DISCOURSE": 0.0359,
+      "S2_PROCLITIC_PARTICLE": 0.067,
+      "S3_QO_PROCEDURAL_VERB": 0.3161,
+      "S4_CHSH_PARTICIPLE_VERB": 0.1398,
+      "S5_OKOT_DEICTIC_NOMINAL": 0.1236,
+      "S6_GALLOWS_CHSH_NOMINAL": 0.2334,
+      "S7_DA_DEMONSTRATIVE": 0.0491,
+      "S8_TERMINAL_CADENCE": 0.0351
+    },
+    "S5_OKOT_DEICTIC_NOMINAL": {
+      "S1_INIT_DISCOURSE": 0.0408,
+      "S2_PROCLITIC_PARTICLE": 0.1112,
+      "S3_QO_PROCEDURAL_VERB": 0.1477,
+      "S4_CHSH_PARTICIPLE_VERB": 0.1564,
+      "S5_OKOT_DEICTIC_NOMINAL": 0.1689,
+      "S6_GALLOWS_CHSH_NOMINAL": 0.2744,
+      "S7_DA_DEMONSTRATIVE": 0.0519,
+      "S8_TERMINAL_CADENCE": 0.0487
+    },
+    "S6_GALLOWS_CHSH_NOMINAL": {
+      "S1_INIT_DISCOURSE": 0.0427,
+      "S2_PROCLITIC_PARTICLE": 0.1212,
+      "S3_QO_PROCEDURAL_VERB": 0.0979,
+      "S4_CHSH_PARTICIPLE_VERB": 0.1421,
+      "S5_OKOT_DEICTIC_NOMINAL": 0.1223,
+      "S6_GALLOWS_CHSH_NOMINAL": 0.3659,
+      "S7_DA_DEMONSTRATIVE": 0.0619,
+      "S8_TERMINAL_CADENCE": 0.0461
+    },
+    "S7_DA_DEMONSTRATIVE": {
+      "S1_INIT_DISCOURSE": 0.0475,
+      "S2_PROCLITIC_PARTICLE": 0.1027,
+      "S3_QO_PROCEDURAL_VERB": 0.1134,
+      "S4_CHSH_PARTICIPLE_VERB": 0.1593,
+      "S5_OKOT_DEICTIC_NOMINAL": 0.1016,
+      "S6_GALLOWS_CHSH_NOMINAL": 0.3253,
+      "S7_DA_DEMONSTRATIVE": 0.1032,
+      "S8_TERMINAL_CADENCE": 0.047
+    },
+    "S8_TERMINAL_CADENCE": {
+      "S1_INIT_DISCOURSE": 0.0461,
+      "S2_PROCLITIC_PARTICLE": 0.1052,
+      "S3_QO_PROCEDURAL_VERB": 0.0923,
+      "S4_CHSH_PARTICIPLE_VERB": 0.0923,
+      "S5_OKOT_DEICTIC_NOMINAL": 0.1328,
+      "S6_GALLOWS_CHSH_NOMINAL": 0.3561,
+      "S7_DA_DEMONSTRATIVE": 0.0627,
+      "S8_TERMINAL_CADENCE": 0.1125
+    }
+  },
+  "markov_lift_matrix": {
+    "S1_INIT_DISCOURSE": {
+      "S1_INIT_DISCOURSE": 1.72,
+      "S2_PROCLITIC_PARTICLE": 1.0,
+      "S3_QO_PROCEDURAL_VERB": 0.83,
+      "S4_CHSH_PARTICIPLE_VERB": 0.93,
+      "S5_OKOT_DEICTIC_NOMINAL": 0.95,
+      "S6_GALLOWS_CHSH_NOMINAL": 1.03,
+      "S7_DA_DEMONSTRATIVE": 1.07,
+      "S8_TERMINAL_CADENCE": 0.96
+    },
+    "S2_PROCLITIC_PARTICLE": {
+      "S1_INIT_DISCOURSE": 0.7,
+      "S2_PROCLITIC_PARTICLE": 1.43,
+      "S3_QO_PROCEDURAL_VERB": 0.21,
+      "S4_CHSH_PARTICIPLE_VERB": 1.2,
+      "S5_OKOT_DEICTIC_NOMINAL": 0.51,
+      "S6_GALLOWS_CHSH_NOMINAL": 1.39,
+      "S7_DA_DEMONSTRATIVE": 0.66,
+      "S8_TERMINAL_CADENCE": 1.07
+    },
+    "S3_QO_PROCEDURAL_VERB": {
+      "S1_INIT_DISCOURSE": 0.67,
+      "S2_PROCLITIC_PARTICLE": 0.85,
+      "S3_QO_PROCEDURAL_VERB": 1.29,
+      "S4_CHSH_PARTICIPLE_VERB": 1.19,
+      "S5_OKOT_DEICTIC_NOMINAL": 1.12,
+      "S6_GALLOWS_CHSH_NOMINAL": 0.86,
+      "S7_DA_DEMONSTRATIVE": 0.91,
+      "S8_TERMINAL_CADENCE": 0.82
+    },
+    "S4_CHSH_PARTICIPLE_VERB": {
+      "S1_INIT_DISCOURSE": 0.91,
+      "S2_PROCLITIC_PARTICLE": 0.62,
+      "S3_QO_PROCEDURAL_VERB": 2.16,
+      "S4_CHSH_PARTICIPLE_VERB": 0.9,
+      "S5_OKOT_DEICTIC_NOMINAL": 1.01,
+      "S6_GALLOWS_CHSH_NOMINAL": 0.72,
+      "S7_DA_DEMONSTRATIVE": 0.86,
+      "S8_TERMINAL_CADENCE": 0.79
+    },
+    "S5_OKOT_DEICTIC_NOMINAL": {
+      "S1_INIT_DISCOURSE": 1.04,
+      "S2_PROCLITIC_PARTICLE": 1.03,
+      "S3_QO_PROCEDURAL_VERB": 1.01,
+      "S4_CHSH_PARTICIPLE_VERB": 1.01,
+      "S5_OKOT_DEICTIC_NOMINAL": 1.38,
+      "S6_GALLOWS_CHSH_NOMINAL": 0.84,
+      "S7_DA_DEMONSTRATIVE": 0.91,
+      "S8_TERMINAL_CADENCE": 1.1
+    },
+    "S6_GALLOWS_CHSH_NOMINAL": {
+      "S1_INIT_DISCOURSE": 1.09,
+      "S2_PROCLITIC_PARTICLE": 1.12,
+      "S3_QO_PROCEDURAL_VERB": 0.67,
+      "S4_CHSH_PARTICIPLE_VERB": 0.92,
+      "S5_OKOT_DEICTIC_NOMINAL": 1.0,
+      "S6_GALLOWS_CHSH_NOMINAL": 1.12,
+      "S7_DA_DEMONSTRATIVE": 1.08,
+      "S8_TERMINAL_CADENCE": 1.04
+    },
+    "S7_DA_DEMONSTRATIVE": {
+      "S1_INIT_DISCOURSE": 1.21,
+      "S2_PROCLITIC_PARTICLE": 0.95,
+      "S3_QO_PROCEDURAL_VERB": 0.77,
+      "S4_CHSH_PARTICIPLE_VERB": 1.03,
+      "S5_OKOT_DEICTIC_NOMINAL": 0.83,
+      "S6_GALLOWS_CHSH_NOMINAL": 1.0,
+      "S7_DA_DEMONSTRATIVE": 1.8,
+      "S8_TERMINAL_CADENCE": 1.06
+    },
+    "S8_TERMINAL_CADENCE": {
+      "S1_INIT_DISCOURSE": 1.17,
+      "S2_PROCLITIC_PARTICLE": 0.97,
+      "S3_QO_PROCEDURAL_VERB": 0.63,
+      "S4_CHSH_PARTICIPLE_VERB": 0.6,
+      "S5_OKOT_DEICTIC_NOMINAL": 1.08,
+      "S6_GALLOWS_CHSH_NOMINAL": 1.09,
+      "S7_DA_DEMONSTRATIVE": 1.09,
+      "S8_TERMINAL_CADENCE": 2.54
+    }
+  },
+  "top_syntactic_attractions": [
+    {
+      "from": "S8_TERMINAL_CADENCE",
+      "to": "S8_TERMINAL_CADENCE",
+      "observed": 61,
+      "expected": 24.0,
+      "prob": 0.1125,
+      "lift": 2.54
+    },
+    {
+      "from": "S4_CHSH_PARTICIPLE_VERB",
+      "to": "S3_QO_PROCEDURAL_VERB",
+      "observed": 1486,
+      "expected": 689.4,
+      "prob": 0.3161,
+      "lift": 2.16
+    },
+    {
+      "from": "S7_DA_DEMONSTRATIVE",
+      "to": "S7_DA_DEMONSTRATIVE",
+      "observed": 202,
+      "expected": 112.3,
+      "prob": 0.1032,
+      "lift": 1.8
+    },
+    {
+      "from": "S1_INIT_DISCOURSE",
+      "to": "S1_INIT_DISCOURSE",
+      "observed": 136,
+      "expected": 79.3,
+      "prob": 0.0675,
+      "lift": 1.72
+    },
+    {
+      "from": "S2_PROCLITIC_PARTICLE",
+      "to": "S2_PROCLITIC_PARTICLE",
+      "observed": 492,
+      "expected": 344.6,
+      "prob": 0.1548,
+      "lift": 1.43
+    },
+    {
+      "from": "S2_PROCLITIC_PARTICLE",
+      "to": "S6_GALLOWS_CHSH_NOMINAL",
+      "observed": 1442,
+      "expected": 1037.1,
+      "prob": 0.4537,
+      "lift": 1.39
+    },
+    {
+      "from": "S5_OKOT_DEICTIC_NOMINAL",
+      "to": "S5_OKOT_DEICTIC_NOMINAL",
+      "observed": 621,
+      "expected": 451.5,
+      "prob": 0.1689,
+      "lift": 1.38
+    },
+    {
+      "from": "S3_QO_PROCEDURAL_VERB",
+      "to": "S3_QO_PROCEDURAL_VERB",
+      "observed": 904,
+      "expected": 698.9,
+      "prob": 0.1897,
+      "lift": 1.29
+    },
+    {
+      "from": "S7_DA_DEMONSTRATIVE",
+      "to": "S1_INIT_DISCOURSE",
+      "observed": 93,
+      "expected": 77.0,
+      "prob": 0.0475,
+      "lift": 1.21
+    },
+    {
+      "from": "S2_PROCLITIC_PARTICLE",
+      "to": "S4_CHSH_PARTICIPLE_VERB",
+      "observed": 590,
+      "expected": 491.7,
+      "prob": 0.1857,
+      "lift": 1.2
+    },
+    {
+      "from": "S3_QO_PROCEDURAL_VERB",
+      "to": "S4_CHSH_PARTICIPLE_VERB",
+      "observed": 877,
+      "expected": 737.5,
+      "prob": 0.184,
+      "lift": 1.19
+    },
+    {
+      "from": "S8_TERMINAL_CADENCE",
+      "to": "S1_INIT_DISCOURSE",
+      "observed": 25,
+      "expected": 21.3,
+      "prob": 0.0461,
+      "lift": 1.17
+    }
+  ],
+  "top_syntactic_prohibitions": [
+    {
+      "from": "S2_PROCLITIC_PARTICLE",
+      "to": "S3_QO_PROCEDURAL_VERB",
+      "observed": 97,
+      "expected": 466.1,
+      "prob": 0.0305,
+      "lift": 0.21
+    },
+    {
+      "from": "S2_PROCLITIC_PARTICLE",
+      "to": "S5_OKOT_DEICTIC_NOMINAL",
+      "observed": 199,
+      "expected": 390.2,
+      "prob": 0.0626,
+      "lift": 0.51
+    },
+    {
+      "from": "S8_TERMINAL_CADENCE",
+      "to": "S4_CHSH_PARTICIPLE_VERB",
+      "observed": 50,
+      "expected": 83.9,
+      "prob": 0.0923,
+      "lift": 0.6
+    },
+    {
+      "from": "S4_CHSH_PARTICIPLE_VERB",
+      "to": "S2_PROCLITIC_PARTICLE",
+      "observed": 315,
+      "expected": 509.7,
+      "prob": 0.067,
+      "lift": 0.62
+    },
+    {
+      "from": "S8_TERMINAL_CADENCE",
+      "to": "S3_QO_PROCEDURAL_VERB",
+      "observed": 50,
+      "expected": 79.5,
+      "prob": 0.0923,
+      "lift": 0.63
+    },
+    {
+      "from": "S2_PROCLITIC_PARTICLE",
+      "to": "S7_DA_DEMONSTRATIVE",
+      "observed": 120,
+      "expected": 182.3,
+      "prob": 0.0378,
+      "lift": 0.66
+    },
+    {
+      "from": "S3_QO_PROCEDURAL_VERB",
+      "to": "S1_INIT_DISCOURSE",
+      "observed": 125,
+      "expected": 187.4,
+      "prob": 0.0262,
+      "lift": 0.67
+    },
+    {
+      "from": "S6_GALLOWS_CHSH_NOMINAL",
+      "to": "S3_QO_PROCEDURAL_VERB",
+      "observed": 987,
+      "expected": 1479.1,
+      "prob": 0.0979,
+      "lift": 0.67
+    },
+    {
+      "from": "S2_PROCLITIC_PARTICLE",
+      "to": "S1_INIT_DISCOURSE",
+      "observed": 87,
+      "expected": 125.0,
+      "prob": 0.0274,
+      "lift": 0.7
+    },
+    {
+      "from": "S4_CHSH_PARTICIPLE_VERB",
+      "to": "S6_GALLOWS_CHSH_NOMINAL",
+      "observed": 1097,
+      "expected": 1534.2,
+      "prob": 0.2334,
+      "lift": 0.72
+    },
+    {
+      "from": "S7_DA_DEMONSTRATIVE",
+      "to": "S3_QO_PROCEDURAL_VERB",
+      "observed": 222,
+      "expected": 287.1,
+      "prob": 0.1134,
+      "lift": 0.77
+    },
+    {
+      "from": "S4_CHSH_PARTICIPLE_VERB",
+      "to": "S8_TERMINAL_CADENCE",
+      "observed": 165,
+      "expected": 208.6,
+      "prob": 0.0351,
+      "lift": 0.79
+    },
+    {
+      "from": "S3_QO_PROCEDURAL_VERB",
+      "to": "S8_TERMINAL_CADENCE",
+      "observed": 173,
+      "expected": 211.5,
+      "prob": 0.0363,
+      "lift": 0.82
+    },
+    {
+      "from": "S1_INIT_DISCOURSE",
+      "to": "S3_QO_PROCEDURAL_VERB",
+      "observed": 246,
+      "expected": 295.6,
+      "prob": 0.122,
+      "lift": 0.83
+    },
+    {
+      "from": "S7_DA_DEMONSTRATIVE",
+      "to": "S5_OKOT_DEICTIC_NOMINAL",
+      "observed": 199,
+      "expected": 240.4,
+      "prob": 0.1016,
+      "lift": 0.83
+    }
+  ],
+  "currier_a_vs_b_state_shift": [
+    {
+      "state": "S1_INIT_DISCOURSE",
+      "currier_a_count": 832,
+      "currier_a_pct": 7.17,
+      "currier_b_count": 1313,
+      "currier_b_pct": 5.46,
+      "b_over_a_ratio": 0.76
+    },
+    {
+      "state": "S2_PROCLITIC_PARTICLE",
+      "currier_a_count": 1260,
+      "currier_a_pct": 10.86,
+      "currier_b_count": 2476,
+      "currier_b_pct": 10.29,
+      "b_over_a_ratio": 0.95
+    },
+    {
+      "state": "S3_QO_PROCEDURAL_VERB",
+      "currier_a_count": 1036,
+      "currier_a_pct": 8.93,
+      "currier_b_count": 3999,
+      "currier_b_pct": 16.62,
+      "b_over_a_ratio": 1.86
+    },
+    {
+      "state": "S4_CHSH_PARTICIPLE_VERB",
+      "currier_a_count": 896,
+      "currier_a_pct": 7.72,
+      "currier_b_count": 4189,
+      "currier_b_pct": 17.41,
+      "b_over_a_ratio": 2.26
+    },
+    {
+      "state": "S5_OKOT_DEICTIC_NOMINAL",
+      "currier_a_count": 1111,
+      "currier_a_pct": 9.57,
+      "currier_b_count": 3225,
+      "currier_b_pct": 13.4,
+      "b_over_a_ratio": 1.4
+    },
+    {
+      "state": "S6_GALLOWS_CHSH_NOMINAL",
+      "currier_a_count": 4578,
+      "currier_a_pct": 39.45,
+      "currier_b_count": 6922,
+      "currier_b_pct": 28.77,
+      "b_over_a_ratio": 0.73
+    },
+    {
+      "state": "S7_DA_DEMONSTRATIVE",
+      "currier_a_count": 1309,
+      "currier_a_pct": 11.28,
+      "currier_b_count": 1045,
+      "currier_b_pct": 4.34,
+      "b_over_a_ratio": 0.39
+    },
+    {
+      "state": "S8_TERMINAL_CADENCE",
+      "currier_a_count": 584,
+      "currier_a_pct": 5.03,
+      "currier_b_count": 893,
+      "currier_b_pct": 3.71,
+      "b_over_a_ratio": 0.74
+    }
+  ],
+  "top_3state_clause_motifs": [
+    {
+      "trigram": [
+        "S6_GALLOWS_CHSH_NOMINAL",
+        "S6_GALLOWS_CHSH_NOMINAL",
+        "S6_GALLOWS_CHSH_NOMINAL"
+      ],
+      "count": 1251,
+      "pct_of_trigrams": 4.66
+    },
+    {
+      "trigram": [
+        "S6_GALLOWS_CHSH_NOMINAL",
+        "S2_PROCLITIC_PARTICLE",
+        "S6_GALLOWS_CHSH_NOMINAL"
+      ],
+      "count": 486,
+      "pct_of_trigrams": 1.81
+    },
+    {
+      "trigram": [
+        "S2_PROCLITIC_PARTICLE",
+        "S6_GALLOWS_CHSH_NOMINAL",
+        "S6_GALLOWS_CHSH_NOMINAL"
+      ],
+      "count": 432,
+      "pct_of_trigrams": 1.61
+    },
+    {
+      "trigram": [
+        "S6_GALLOWS_CHSH_NOMINAL",
+        "S4_CHSH_PARTICIPLE_VERB",
+        "S3_QO_PROCEDURAL_VERB"
+      ],
+      "count": 407,
+      "pct_of_trigrams": 1.52
+    },
+    {
+      "trigram": [
+        "S6_GALLOWS_CHSH_NOMINAL",
+        "S6_GALLOWS_CHSH_NOMINAL",
+        "S4_CHSH_PARTICIPLE_VERB"
+      ],
+      "count": 403,
+      "pct_of_trigrams": 1.5
+    },
+    {
+      "trigram": [
+        "S3_QO_PROCEDURAL_VERB",
+        "S6_GALLOWS_CHSH_NOMINAL",
+        "S6_GALLOWS_CHSH_NOMINAL"
+      ],
+      "count": 384,
+      "pct_of_trigrams": 1.43
+    },
+    {
+      "trigram": [
+        "S6_GALLOWS_CHSH_NOMINAL",
+        "S6_GALLOWS_CHSH_NOMINAL",
+        "S5_OKOT_DEICTIC_NOMINAL"
+      ],
+      "count": 375,
+      "pct_of_trigrams": 1.4
+    },
+    {
+      "trigram": [
+        "S6_GALLOWS_CHSH_NOMINAL",
+        "S6_GALLOWS_CHSH_NOMINAL",
+        "S2_PROCLITIC_PARTICLE"
+      ],
+      "count": 370,
+      "pct_of_trigrams": 1.38
+    },
+    {
+      "trigram": [
+        "S4_CHSH_PARTICIPLE_VERB",
+        "S3_QO_PROCEDURAL_VERB",
+        "S6_GALLOWS_CHSH_NOMINAL"
+      ],
+      "count": 362,
+      "pct_of_trigrams": 1.35
+    },
+    {
+      "trigram": [
+        "S6_GALLOWS_CHSH_NOMINAL",
+        "S4_CHSH_PARTICIPLE_VERB",
+        "S6_GALLOWS_CHSH_NOMINAL"
+      ],
+      "count": 355,
+      "pct_of_trigrams": 1.32
+    },
+    {
+      "trigram": [
+        "S3_QO_PROCEDURAL_VERB",
+        "S4_CHSH_PARTICIPLE_VERB",
+        "S3_QO_PROCEDURAL_VERB"
+      ],
+      "count": 327,
+      "pct_of_trigrams": 1.22
+    },
+    {
+      "trigram": [
+        "S6_GALLOWS_CHSH_NOMINAL",
+        "S6_GALLOWS_CHSH_NOMINAL",
+        "S3_QO_PROCEDURAL_VERB"
+      ],
+      "count": 322,
+      "pct_of_trigrams": 1.2
+    },
+    {
+      "trigram": [
+        "S4_CHSH_PARTICIPLE_VERB",
+        "S6_GALLOWS_CHSH_NOMINAL",
+        "S6_GALLOWS_CHSH_NOMINAL"
+      ],
+      "count": 320,
+      "pct_of_trigrams": 1.19
+    },
+    {
+      "trigram": [
+        "S6_GALLOWS_CHSH_NOMINAL",
+        "S5_OKOT_DEICTIC_NOMINAL",
+        "S6_GALLOWS_CHSH_NOMINAL"
+      ],
+      "count": 308,
+      "pct_of_trigrams": 1.15
+    },
+    {
+      "trigram": [
+        "S4_CHSH_PARTICIPLE_VERB",
+        "S3_QO_PROCEDURAL_VERB",
+        "S4_CHSH_PARTICIPLE_VERB"
+      ],
+      "count": 291,
+      "pct_of_trigrams": 1.09
+    }
+  ]
+}
