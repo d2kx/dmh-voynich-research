@@ -1,0 +1,181 @@
+{
+  "attack_id": 108,
+  "discovery_id": 125,
+  "title": "The Four-Stage Astro-Medical Master Compendium & Hub-Plant Atlas",
+  "markdown_edition": "notes/FOUR_STAGE_ASTRO_MEDICAL_MASTER_COMPENDIUM.md",
+  "attack105_permutation_summary": {
+    "simultaneous_2plus_stem_tetrads_obs": 2387,
+    "simultaneous_2plus_stem_tetrads_null_mean": 836.84,
+    "simultaneous_2plus_stem_tetrads_null_std": 143.52,
+    "simultaneous_2plus_stem_tetrads_z": 10.8,
+    "simultaneous_3plus_stem_tetrads_obs": 104,
+    "simultaneous_3plus_stem_tetrads_null_mean": 8.8,
+    "simultaneous_3plus_stem_tetrads_null_std": 5.58,
+    "simultaneous_3plus_stem_tetrads_z": 17.05,
+    "linked_4stage_pipelines_obs": 3969,
+    "linked_4stage_pipelines_null_mean": 990.38,
+    "linked_4stage_pipelines_null_std": 207.34,
+    "linked_4stage_pipelines_z": 14.37
+  },
+  "attack105_four_stage_transformation": {
+    "shared_canonical_stems_count": 275,
+    "STAGE_1_ZODIAC_MEDALLIONS": {
+      "matched_tokens": 427,
+      "o_nominal_pct": 49.18,
+      "qo_active_pct": 1.41,
+      "l_ol_applicative_pct": 3.28,
+      "d_s_y_clause_pct": 16.63,
+      "edy_process_pct": 2.81,
+      "dy_ody_state_pct": 13.35,
+      "aiin_measure_pct": 9.37,
+      "ol_or_al_ar_liquid_pct": 19.2
+    },
+    "STAGE_2_HERBAL_MONOGRAPHS": {
+      "matched_tokens": 2484,
+      "o_nominal_pct": 17.03,
+      "qo_active_pct": 8.49,
+      "l_ol_applicative_pct": 2.46,
+      "d_s_y_clause_pct": 31.32,
+      "edy_process_pct": 3.34,
+      "dy_ody_state_pct": 6.56,
+      "aiin_measure_pct": 10.95,
+      "ol_or_al_ar_liquid_pct": 31.6
+    },
+    "STAGE_3A_PHARM_LABELS_Lf": {
+      "matched_tokens": 41,
+      "o_nominal_pct": 58.54,
+      "qo_active_pct": 0.0,
+      "l_ol_applicative_pct": 4.88,
+      "d_s_y_clause_pct": 17.07,
+      "edy_process_pct": 0.0,
+      "dy_ody_state_pct": 17.07,
+      "aiin_measure_pct": 4.88,
+      "ol_or_al_ar_liquid_pct": 26.83
+    },
+    "STAGE_3B_PHARM_PROSE_P": {
+      "matched_tokens": 636,
+      "o_nominal_pct": 20.91,
+      "qo_active_pct": 15.41,
+      "l_ol_applicative_pct": 3.93,
+      "d_s_y_clause_pct": 25.0,
+      "edy_process_pct": 0.47,
+      "dy_ody_state_pct": 11.95,
+      "aiin_measure_pct": 9.12,
+      "ol_or_al_ar_liquid_pct": 31.29
+    },
+    "STAGE_4_STARRED_RECIPES_S": {
+      "matched_tokens": 2284,
+      "o_nominal_pct": 22.15,
+      "qo_active_pct": 14.32,
+      "l_ol_applicative_pct": 5.87,
+      "d_s_y_clause_pct": 20.62,
+      "edy_process_pct": 5.34,
+      "dy_ody_state_pct": 5.74,
+      "aiin_measure_pct": 16.33,
+      "ol_or_al_ar_liquid_pct": 25.48
+    }
+  },
+  "attack106_group_comparisons": {
+    "TOP_15_MASTER_HUB_HERBALS": {
+      "folio_count": 15,
+      "mean_tokens": 126.27,
+      "mean_paragraphs": 2.27,
+      "mean_intrusions_per_line": 0.372,
+      "mean_open_stems_per_100_toks": 40.99,
+      "mean_z_shared": 20.0,
+      "mean_p_shared": 29.67,
+      "mean_s_shared": 43.13,
+      "mean_ps_shared": 27.07,
+      "mean_zps_shared": 14.67,
+      "mean_bridge_idf_per_100_toks": 166.72,
+      "mean_ps_stems_per_100_toks": 22.05,
+      "mean_qo_active_pct": 6.89,
+      "mean_l_ol_applicative_pct": 5.01,
+      "mean_edy_process_pct": 8.41
+    },
+    "NON_HUB_HERBALS_111": {
+      "folio_count": 113,
+      "mean_tokens": 85.28,
+      "mean_paragraphs": 1.88,
+      "mean_intrusions_per_line": 0.453,
+      "mean_open_stems_per_100_toks": 38.51,
+      "mean_z_shared": 9.57,
+      "mean_p_shared": 18.02,
+      "mean_s_shared": 24.76,
+      "mean_ps_shared": 15.68,
+      "mean_zps_shared": 6.57,
+      "mean_bridge_idf_per_100_toks": 139.65,
+      "mean_ps_stems_per_100_toks": 18.77,
+      "mean_qo_active_pct": 9.79,
+      "mean_l_ol_applicative_pct": 3.03,
+      "mean_edy_process_pct": 2.81
+    },
+    "CURRIER_B_HERBALS_31": {
+      "folio_count": 32,
+      "mean_tokens": 108.59,
+      "mean_paragraphs": 2.06,
+      "mean_intrusions_per_line": 0.422,
+      "mean_open_stems_per_100_toks": 37.0,
+      "mean_z_shared": 15.28,
+      "mean_p_shared": 20.16,
+      "mean_s_shared": 35.06,
+      "mean_ps_shared": 18.53,
+      "mean_zps_shared": 10.34,
+      "mean_bridge_idf_per_100_toks": 146.95,
+      "mean_ps_stems_per_100_toks": 17.32,
+      "mean_qo_active_pct": 9.96,
+      "mean_l_ol_applicative_pct": 5.95,
+      "mean_edy_process_pct": 13.33
+    },
+    "CURRIER_A_HERBALS_95": {
+      "folio_count": 95,
+      "mean_tokens": 84.33,
+      "mean_paragraphs": 1.88,
+      "mean_intrusions_per_line": 0.445,
+      "mean_open_stems_per_100_toks": 39.3,
+      "mean_z_shared": 9.31,
+      "mean_p_shared": 19.18,
+      "mean_s_shared": 24.25,
+      "mean_ps_shared": 16.55,
+      "mean_zps_shared": 6.57,
+      "mean_bridge_idf_per_100_toks": 140.86,
+      "mean_ps_stems_per_100_toks": 19.67,
+      "mean_qo_active_pct": 9.26,
+      "mean_l_ol_applicative_pct": 2.37,
+      "mean_edy_process_pct": 0.06
+    }
+  },
+  "attack106_per100_permutation": {
+    "herbal_b_bridge_idf_per_100_toks": 146.954,
+    "herbal_a_bridge_idf_per_100_toks": 140.859,
+    "ratio_b_over_a": 1.043,
+    "observed_diff": 6.095,
+    "null_mean_diff": 0.286,
+    "null_std_diff": 6.845,
+    "z_score": 0.85
+  },
+  "attack107_recipe_comparison": {
+    "TOP_50_CHAINED_RECIPES": {
+      "recipe_count": 50,
+      "mean_tokens": 64.84,
+      "mean_lines": 6.2,
+      "mean_verbs": 16.96,
+      "mean_doses": 29.56,
+      "mean_verb_to_dose_ratio": 0.612,
+      "mean_3stage_stems": 3.36,
+      "mean_4stage_stems": 1.2,
+      "herbal_b_partner_pct": 62.0
+    },
+    "BOTTOM_100_LOW_LINK_RECIPES": {
+      "recipe_count": 100,
+      "mean_tokens": 29.8,
+      "mean_lines": 3.06,
+      "mean_verbs": 9.73,
+      "mean_doses": 13.64,
+      "mean_verb_to_dose_ratio": 0.83,
+      "mean_3stage_stems": 1.0,
+      "mean_4stage_stems": 0.41,
+      "herbal_b_partner_pct": 59.0
+    }
+  }
+}

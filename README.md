@@ -726,6 +726,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 114. The Four-Stage Master Astro-Medical Pipeline (`Zodiac $I=Z -> Herbal $I=H -> Pharmaceutical $I=P -> Quire 20 Starred Recipes $I=S`, `2,387` $\ge 2$-Stem Tetrads $z = +10.80$, `104` $\ge 3$-Stem Tetrads $z = +17.05$, and `3,969` Linked Chains $z = +14.37$, `Attack 105`)
+- **Four-Stage Astro-Medical Pipeline ($z = +10.80$ to $+17.05$) & Morphological Transformation Law**: Excluding the Top-45 closed-class canonical stems, all four medical sections link into `2,387` simultaneous $\ge 2$-stem tetrads (`2.85×` over null, $z = +10.80$), `104` simultaneous $\ge 3$-stem tetrads (`11.82×` over null, $z = +17.05`), and `3,969` linked 4-stage chains (`4.01×` over null, $z = +14.37`). Holding shared canonical stems fixed across stages shows **Nominal `o-` peaking in Zodiac (`49.18%`) and Pharmaceutical `@Lf` labels (`58.54%`)**, **Active `qo-` surging in Herbal (`8.49%`), Pharm (`15.41%`), and Starred Recipes (`14.32%` vs. `0.00%` in `@Lf` labels)**, **Processual `-edy` surging `11.4×` into Starred Recipes (`5.34%` vs. `0.47%` Pharm prose)**, and **Measured Dose `-aiin` peaking in Starred Recipes (`16.33%`)**.
+
+---
+
+### 115. Visual, Codicological & Lexical Audit of the Master Hub Herbal Monographs (`f43v, f46r, f43r, f48r, f17v, f48v, f39r, f31v`) — Quire F Bifolio `$B=3` Concentration, `-40.3%` Drawing-Intrusion Reduction, and Rhizome/Root Anatomy (`Attack 106`)
+- **Quire F Bifolio `$B=3` Hub Concentration (`pages/f46r_master_hub_herbal_enh.png`, `pages/f43v_master_hub_herbal_enh.png`)**: The `#1`, `#2`, and `#3` Master Hub Herbal Monographs (`f43v` with `21` `Z∩P∩S` stems & `8` `@Lf` root-label matches; `f46r` with `20` `Z∩P∩S` stems & `7` `@Lf` matches; `f43r` with `18` `Z∩P∩S` stems & `6` `@Lf` matches) sit on the **exact same physical unfolded parchment sheet (`Quire F, Bifolio $B=3`, Scribe 2, Currier B)**, while **Quire O (`f87r–f90v2`)** achieves the highest normalized Bridge IDF (`184.76 IDF/100t`). Visually, Master Hub Herbals exhibit **`-40.3%` fewer drawing intrusions per line (`0.278` vs. `0.466`)**, clean multi-paragraph upper reference blocks (`2.40` vs. `1.87` paragraphs), and prominent creeping rhizome / dual-root underground storage anatomy.
+
+---
+
+### 116. Complete Procedural & Stoichiometric Translation of the Top `25` Chained Starred Clinical Recipes (`f103r–f116r`, `f58r/v`) Paired with Their Botanical, Apothecary & Astrological Sources (`Attack 107`)
+- **Top-25 Chained Starred Clinical Recipe Translations & Top-50 vs. Bottom-100 Comparison**: The Top-50 Chained Starred Recipes are **2.18× longer (`64.84` vs. `29.80` tokens)**, contain **2.17× more measured doses (`29.56` vs. `13.64`)**, and pair with a Currier B Herbal Monograph in **`62.0%` of chains (`2.52×` enrichment)**. Provides complete line-by-line interlinear translations of the Top 25 Chained Starred Clinical Recipes (`<f111r.6>`, `<f58v.1>`, `<f58r.16>`, `<f58v.34>`, `<f58v.23>`, `<f108r.8>`, `<f58r.26>`, `<f116r.31>`, etc.).
+
+---
+
+### 117. The Four-Stage Astro-Medical Master Compendium & Hub-Plant Atlas ([`notes/FOUR_STAGE_ASTRO_MEDICAL_MASTER_COMPENDIUM.md`](notes/FOUR_STAGE_ASTRO_MEDICAL_MASTER_COMPENDIUM.md), `Attack 108`)
+- **Four-Stage Astro-Medical Master Compendium ([`notes/FOUR_STAGE_ASTRO_MEDICAL_MASTER_COMPENDIUM.md`](notes/FOUR_STAGE_ASTRO_MEDICAL_MASTER_COMPENDIUM.md))**: Synthesizes the Four-Stage Master Astro-Medical Pipeline (`Attack 105`), the Master Hub Herbal Visual & Lexical Atlas (`Attack 106`), and the Top-25 Chained Starred Clinical Recipe Translation Edition (`Attack 107`).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -861,6 +881,10 @@ python tools/attack101_zodiac_10sign_nymph_and_herbal_astro_calendar.py
 python tools/attack102_quire14_f85_f86_and_rosettes_bridge.py
 python tools/attack103_quire20_recipe_step_and_dosing_parser.py
 python tools/attack104_astro_botanical_and_306recipe_handbook.py
+python tools/attack105_four_stage_astro_medical_pipeline.py
+python tools/attack106_hub_herbal_monograph_visual_and_lexical_audit.py
+python tools/attack107_top25_chained_starred_recipe_translator.py
+python tools/attack108_four_stage_astro_medical_compendium.py
 ```
 
 

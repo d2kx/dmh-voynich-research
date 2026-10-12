@@ -1,0 +1,2552 @@
+{
+  "attack_id": 105,
+  "discovery_id": 122,
+  "title": "The Four-Stage Master Astro-Medical Pipeline (Zodiac $I=Z -> Herbal $I=H -> Pharmaceutical $I=P -> Quire 20 Starred Recipes $I=S)",
+  "unit_counts": {
+    "stage1_zodiac_medallions": 12,
+    "stage2_herbal_monographs": 128,
+    "stage3_pharm_formularies": 16,
+    "stage4_starred_recipes": 292,
+    "open_canonical_stems_indexed": 1704
+  },
+  "permutation_test": {
+    "simultaneous_2plus_stem_tetrads_obs": 2387,
+    "simultaneous_2plus_stem_tetrads_null_mean": 836.84,
+    "simultaneous_2plus_stem_tetrads_null_std": 143.52,
+    "simultaneous_2plus_stem_tetrads_z": 10.8,
+    "simultaneous_3plus_stem_tetrads_obs": 104,
+    "simultaneous_3plus_stem_tetrads_null_mean": 8.8,
+    "simultaneous_3plus_stem_tetrads_null_std": 5.58,
+    "simultaneous_3plus_stem_tetrads_z": 17.05,
+    "linked_4stage_pipelines_obs": 3969,
+    "linked_4stage_pipelines_null_mean": 990.38,
+    "linked_4stage_pipelines_null_std": 207.34,
+    "linked_4stage_pipelines_z": 14.37
+  },
+  "four_stage_morphological_transformation": {
+    "shared_canonical_stems_count": 275,
+    "STAGE_1_ZODIAC_MEDALLIONS": {
+      "matched_tokens": 427,
+      "o_nominal_pct": 49.18,
+      "qo_active_pct": 1.41,
+      "l_ol_applicative_pct": 3.28,
+      "d_s_y_clause_pct": 16.63,
+      "edy_process_pct": 2.81,
+      "dy_ody_state_pct": 13.35,
+      "aiin_measure_pct": 9.37,
+      "ol_or_al_ar_liquid_pct": 19.2
+    },
+    "STAGE_2_HERBAL_MONOGRAPHS": {
+      "matched_tokens": 2484,
+      "o_nominal_pct": 17.03,
+      "qo_active_pct": 8.49,
+      "l_ol_applicative_pct": 2.46,
+      "d_s_y_clause_pct": 31.32,
+      "edy_process_pct": 3.34,
+      "dy_ody_state_pct": 6.56,
+      "aiin_measure_pct": 10.95,
+      "ol_or_al_ar_liquid_pct": 31.6
+    },
+    "STAGE_3A_PHARM_LABELS_Lf": {
+      "matched_tokens": 41,
+      "o_nominal_pct": 58.54,
+      "qo_active_pct": 0.0,
+      "l_ol_applicative_pct": 4.88,
+      "d_s_y_clause_pct": 17.07,
+      "edy_process_pct": 0.0,
+      "dy_ody_state_pct": 17.07,
+      "aiin_measure_pct": 4.88,
+      "ol_or_al_ar_liquid_pct": 26.83
+    },
+    "STAGE_3B_PHARM_PROSE_P": {
+      "matched_tokens": 636,
+      "o_nominal_pct": 20.91,
+      "qo_active_pct": 15.41,
+      "l_ol_applicative_pct": 3.93,
+      "d_s_y_clause_pct": 25.0,
+      "edy_process_pct": 0.47,
+      "dy_ody_state_pct": 11.95,
+      "aiin_measure_pct": 9.12,
+      "ol_or_al_ar_liquid_pct": 31.29
+    },
+    "STAGE_4_STARRED_RECIPES_S": {
+      "matched_tokens": 2284,
+      "o_nominal_pct": 22.15,
+      "qo_active_pct": 14.32,
+      "l_ol_applicative_pct": 5.87,
+      "d_s_y_clause_pct": 20.62,
+      "edy_process_pct": 5.34,
+      "dy_ody_state_pct": 5.74,
+      "aiin_measure_pct": 16.33,
+      "ol_or_al_ar_liquid_pct": 25.48
+    }
+  },
+  "top_herbal_hubs_in_4stage_pipeline": [
+    {
+      "herbal_folio": "f31v",
+      "currier_lang": "B",
+      "scribe_hand": "2",
+      "four_stage_chain_count": 350,
+      "open_stem_count": 52
+    },
+    {
+      "herbal_folio": "f48r",
+      "currier_lang": "B",
+      "scribe_hand": "5",
+      "four_stage_chain_count": 297,
+      "open_stem_count": 46
+    },
+    {
+      "herbal_folio": "f43v",
+      "currier_lang": "B",
+      "scribe_hand": "2",
+      "four_stage_chain_count": 217,
+      "open_stem_count": 67
+    },
+    {
+      "herbal_folio": "f90v1",
+      "currier_lang": "A",
+      "scribe_hand": "1",
+      "four_stage_chain_count": 214,
+      "open_stem_count": 40
+    },
+    {
+      "herbal_folio": "f31r",
+      "currier_lang": "B",
+      "scribe_hand": "2",
+      "four_stage_chain_count": 207,
+      "open_stem_count": 34
+    },
+    {
+      "herbal_folio": "f39r",
+      "currier_lang": "B",
+      "scribe_hand": "2",
+      "four_stage_chain_count": 182,
+      "open_stem_count": 52
+    },
+    {
+      "herbal_folio": "f57r",
+      "currier_lang": "B",
+      "scribe_hand": "5",
+      "four_stage_chain_count": 173,
+      "open_stem_count": 38
+    },
+    {
+      "herbal_folio": "f41v",
+      "currier_lang": "B",
+      "scribe_hand": "5",
+      "four_stage_chain_count": 151,
+      "open_stem_count": 32
+    },
+    {
+      "herbal_folio": "f26v",
+      "currier_lang": "B",
+      "scribe_hand": "2",
+      "four_stage_chain_count": 148,
+      "open_stem_count": 33
+    },
+    {
+      "herbal_folio": "f87r",
+      "currier_lang": "A",
+      "scribe_hand": "1",
+      "four_stage_chain_count": 129,
+      "open_stem_count": 51
+    },
+    {
+      "herbal_folio": "f96r",
+      "currier_lang": "A",
+      "scribe_hand": "1",
+      "four_stage_chain_count": 112,
+      "open_stem_count": 41
+    },
+    {
+      "herbal_folio": "f40r",
+      "currier_lang": "B",
+      "scribe_hand": "2",
+      "four_stage_chain_count": 110,
+      "open_stem_count": 36
+    },
+    {
+      "herbal_folio": "f50v",
+      "currier_lang": "B",
+      "scribe_hand": "2",
+      "four_stage_chain_count": 108,
+      "open_stem_count": 39
+    },
+    {
+      "herbal_folio": "f54r",
+      "currier_lang": "A",
+      "scribe_hand": "1",
+      "four_stage_chain_count": 101,
+      "open_stem_count": 43
+    },
+    {
+      "herbal_folio": "f48v",
+      "currier_lang": "B",
+      "scribe_hand": "5",
+      "four_stage_chain_count": 101,
+      "open_stem_count": 56
+    }
+  ],
+  "best_pipeline_per_zodiac_medallion": [
+    {
+      "zodiac_folio": "f70v1",
+      "zodiac_sign": "Aries (Dark)",
+      "zodiac_month": "April",
+      "zodiac_season": "SPRING",
+      "herbal_folio": "f48r",
+      "herbal_lang": "B",
+      "herbal_hand": "5",
+      "pharm_folio": "f99r",
+      "starred_recipe": "<f58v.1>",
+      "starred_folio": "f58v",
+      "shared_4stage_stems": [
+        "olain",
+        "otchey"
+      ],
+      "zh_shared_stems": [
+        "oteodain",
+        "ykedy",
+        "oteo",
+        "olain",
+        "otchey"
+      ],
+      "hps_shared_stems": [
+        "ckhy",
+        "olain",
+        "key",
+        "dam",
+        "otchey"
+      ],
+      "pharm_label_anchored_stems": [
+        "dam"
+      ],
+      "zh_idf": 10.131,
+      "hps_idf": 7.1118,
+      "four_stage_idf": 2.7248,
+      "pipeline_score": 21.9676
+    },
+    {
+      "zodiac_folio": "f70v2",
+      "zodiac_sign": "Pisces",
+      "zodiac_month": "March",
+      "zodiac_season": "SPRING",
+      "herbal_folio": "f87r",
+      "herbal_lang": "A",
+      "herbal_hand": "1",
+      "pharm_folio": "f102r1",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_stems": [
+        "otedy",
+        "ykey"
+      ],
+      "zh_shared_stems": [
+        "daim",
+        "aldy",
+        "cheos",
+        "otedy",
+        "ody",
+        "ykey",
+        "cthey"
+      ],
+      "hps_shared_stems": [
+        "chkedy",
+        "cthdy",
+        "okeo",
+        "otedy",
+        "ykey"
+      ],
+      "pharm_label_anchored_stems": [],
+      "zh_idf": 12.638,
+      "hps_idf": 10.1395,
+      "four_stage_idf": 2.9357,
+      "pipeline_score": 25.7132
+    },
+    {
+      "zodiac_folio": "f71r",
+      "zodiac_sign": "Aries (Light)",
+      "zodiac_month": "April",
+      "zodiac_season": "SPRING",
+      "herbal_folio": "f31v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f102v2",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_stems": [
+        "keo",
+        "okeo",
+        "okedy"
+      ],
+      "zh_shared_stems": [
+        "keo",
+        "okes",
+        "okeo",
+        "okedy"
+      ],
+      "hps_shared_stems": [
+        "okear",
+        "keo",
+        "okeo",
+        "orain",
+        "cheos",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [],
+      "zh_idf": 7.3833,
+      "hps_idf": 11.1855,
+      "four_stage_idf": 5.388,
+      "pipeline_score": 23.9568
+    },
+    {
+      "zodiac_folio": "f71v",
+      "zodiac_sign": "Taurus (Light)",
+      "zodiac_month": "May",
+      "zodiac_season": "SPRING",
+      "herbal_folio": "f48r",
+      "herbal_lang": "B",
+      "herbal_hand": "5",
+      "pharm_folio": "f101v",
+      "starred_recipe": "<f58v.1>",
+      "starred_folio": "f58v",
+      "shared_4stage_stems": [
+        "otaldy"
+      ],
+      "zh_shared_stems": [
+        "oteodain",
+        "otaldy",
+        "che",
+        "okam",
+        "key"
+      ],
+      "hps_shared_stems": [
+        "otaldy",
+        "olain",
+        "okedy",
+        "otchey"
+      ],
+      "pharm_label_anchored_stems": [
+        "otaldy"
+      ],
+      "zh_idf": 10.8507,
+      "hps_idf": 6.9242,
+      "four_stage_idf": 2.8644,
+      "pipeline_score": 22.6393
+    },
+    {
+      "zodiac_folio": "f72r1",
+      "zodiac_sign": "Taurus (Dark)",
+      "zodiac_month": "May",
+      "zodiac_season": "SPRING",
+      "herbal_folio": "f31v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f102v2",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_stems": [
+        "okeo"
+      ],
+      "zh_shared_stems": [
+        "alain",
+        "ary",
+        "chedal",
+        "okes",
+        "okeo",
+        "cthey"
+      ],
+      "hps_shared_stems": [
+        "okear",
+        "keo",
+        "okeo",
+        "orain",
+        "cheos",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [],
+      "zh_idf": 12.2792,
+      "hps_idf": 11.1855,
+      "four_stage_idf": 1.6681,
+      "pipeline_score": 25.1329
+    },
+    {
+      "zodiac_folio": "f72r2",
+      "zodiac_sign": "Gemini",
+      "zodiac_month": "June",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f46v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f89v1",
+      "starred_recipe": "<f58v.1>",
+      "starred_folio": "f58v",
+      "shared_4stage_stems": [
+        "okaldy",
+        "olain"
+      ],
+      "zh_shared_stems": [
+        "chotal",
+        "okaldy",
+        "aly",
+        "okaly",
+        "olain",
+        "air"
+      ],
+      "hps_shared_stems": [
+        "okaldy",
+        "tor",
+        "olain",
+        "dam"
+      ],
+      "pharm_label_anchored_stems": [
+        "olain"
+      ],
+      "zh_idf": 13.2243,
+      "hps_idf": 7.4315,
+      "four_stage_idf": 4.0431,
+      "pipeline_score": 26.6989
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f31v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f102v2",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_stems": [
+        "okeo",
+        "orain",
+        "okedy"
+      ],
+      "zh_shared_stems": [
+        "alain",
+        "okeos",
+        "okeo",
+        "orain",
+        "okor",
+        "okedy",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "okear",
+        "keo",
+        "okeo",
+        "orain",
+        "cheos",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [
+        "okeos"
+      ],
+      "zh_idf": 12.4903,
+      "hps_idf": 11.1855,
+      "four_stage_idf": 4.6039,
+      "pipeline_score": 30.2796
+    },
+    {
+      "zodiac_folio": "f72v1",
+      "zodiac_sign": "Libra",
+      "zodiac_month": "October",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f102v1",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_stems": [
+        "otedy"
+      ],
+      "zh_shared_stems": [
+        "oteod",
+        "chtey",
+        "octhy",
+        "oteos",
+        "choty",
+        "ykdy",
+        "otedy",
+        "ychey",
+        "air"
+      ],
+      "hps_shared_stems": [
+        "otedy",
+        "oteol",
+        "tedy",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [
+        "okedy"
+      ],
+      "zh_idf": 19.0848,
+      "hps_idf": 5.974,
+      "four_stage_idf": 1.6007,
+      "pipeline_score": 28.6595
+    },
+    {
+      "zodiac_folio": "f72v2",
+      "zodiac_sign": "Virgo",
+      "zodiac_month": "September",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f90v1",
+      "herbal_lang": "A",
+      "herbal_hand": "1",
+      "pharm_folio": "f102v2",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_stems": [
+        "cheos",
+        "okeor",
+        "okedy"
+      ],
+      "zh_shared_stems": [
+        "ykeor",
+        "cheokey",
+        "ytedy",
+        "tey",
+        "cheos",
+        "okeor",
+        "okedy"
+      ],
+      "hps_shared_stems": [
+        "orain",
+        "cheos",
+        "okeor",
+        "key",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [],
+      "zh_idf": 14.756,
+      "hps_idf": 7.5775,
+      "four_stage_idf": 4.5364,
+      "pipeline_score": 26.8699
+    },
+    {
+      "zodiac_folio": "f72v3",
+      "zodiac_sign": "Leo",
+      "zodiac_month": "August",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f46r",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f89v1",
+      "starred_recipe": "<f58r.16>",
+      "starred_folio": "f58r",
+      "shared_4stage_stems": [
+        "okaldy"
+      ],
+      "zh_shared_stems": [
+        "okaldy",
+        "yty",
+        "oedy",
+        "chety",
+        "okam",
+        "cheos",
+        "tedy",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "dalchdy",
+        "okaldy",
+        "chekey",
+        "choky"
+      ],
+      "pharm_label_anchored_stems": [],
+      "zh_idf": 14.5925,
+      "hps_idf": 9.0001,
+      "four_stage_idf": 2.4849,
+      "pipeline_score": 26.0775
+    },
+    {
+      "zodiac_folio": "f73r",
+      "zodiac_sign": "Scorpio",
+      "zodiac_month": "November",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f34r",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f99r",
+      "starred_recipe": "<f58v.1>",
+      "starred_folio": "f58v",
+      "shared_4stage_stems": [
+        "air"
+      ],
+      "zh_shared_stems": [
+        "oltey",
+        "chesy",
+        "chetey",
+        "chek",
+        "ochey",
+        "okes",
+        "ytey",
+        "ykdy",
+        "kar",
+        "air"
+      ],
+      "hps_shared_stems": [
+        "tol",
+        "okor",
+        "air",
+        "dam"
+      ],
+      "pharm_label_anchored_stems": [
+        "dam",
+        "okor"
+      ],
+      "zh_idf": 23.1205,
+      "hps_idf": 5.5377,
+      "four_stage_idf": 1.2862,
+      "pipeline_score": 33.9445
+    },
+    {
+      "zodiac_folio": "f73v",
+      "zodiac_sign": "Sagittarius",
+      "zodiac_month": "December",
+      "zodiac_season": "WINTER",
+      "herbal_folio": "f46r",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f89v1",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_stems": [
+        "ykey"
+      ],
+      "zh_shared_stems": [
+        "kes",
+        "ytaly",
+        "daly",
+        "ytdy",
+        "ykey"
+      ],
+      "hps_shared_stems": [
+        "chekal",
+        "chekey",
+        "cthdy",
+        "chear",
+        "ykey",
+        "dam"
+      ],
+      "pharm_label_anchored_stems": [],
+      "zh_idf": 12.9149,
+      "hps_idf": 10.5307,
+      "four_stage_idf": 1.335,
+      "pipeline_score": 24.7807
+    }
+  ],
+  "top_25_simultaneous_4stage_tetrads": [
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f41v",
+      "herbal_lang": "B",
+      "herbal_hand": "5",
+      "pharm_folio": "f88v",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_count": 5,
+      "shared_4stage_stems": [
+        "orain",
+        "otedy",
+        "oteol",
+        "okedy",
+        "ykey"
+      ],
+      "shared_4stage_idf": 7.4506,
+      "zh_shared_stems": [
+        "oteodar",
+        "orain",
+        "otedy",
+        "oteol",
+        "okedy",
+        "ykey"
+      ],
+      "hps_shared_stems": [
+        "orain",
+        "otedy",
+        "cheos",
+        "oteol",
+        "okedy",
+        "ykey",
+        "dam"
+      ],
+      "pharm_label_anchored_stems": [],
+      "combined_pipeline_score": 35.7849
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f41v",
+      "herbal_lang": "B",
+      "herbal_hand": "5",
+      "pharm_folio": "f102r1",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_count": 5,
+      "shared_4stage_stems": [
+        "orain",
+        "otedy",
+        "oteol",
+        "okedy",
+        "ykey"
+      ],
+      "shared_4stage_idf": 7.4506,
+      "zh_shared_stems": [
+        "oteodar",
+        "orain",
+        "otedy",
+        "oteol",
+        "okedy",
+        "ykey"
+      ],
+      "hps_shared_stems": [
+        "orain",
+        "otedy",
+        "oteol",
+        "okedy",
+        "ykey"
+      ],
+      "pharm_label_anchored_stems": [],
+      "combined_pipeline_score": 32.9292
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f39r",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f88v",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_count": 4,
+      "shared_4stage_stems": [
+        "orain",
+        "oteol",
+        "olain",
+        "ykey"
+      ],
+      "shared_4stage_idf": 6.073,
+      "zh_shared_stems": [
+        "edy",
+        "orain",
+        "oteol",
+        "olain",
+        "ykey",
+        "air",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "checkhy",
+        "orain",
+        "oteol",
+        "olain",
+        "ykey",
+        "dam"
+      ],
+      "pharm_label_anchored_stems": [],
+      "combined_pipeline_score": 32.2346
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f26v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f99r",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_count": 4,
+      "shared_4stage_stems": [
+        "okeo",
+        "orain",
+        "ykey",
+        "air"
+      ],
+      "shared_4stage_idf": 5.8901,
+      "zh_shared_stems": [
+        "ory",
+        "okeos",
+        "okeo",
+        "orain",
+        "ykey",
+        "air",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "chkey",
+        "okeo",
+        "orain",
+        "ykey",
+        "air"
+      ],
+      "pharm_label_anchored_stems": [],
+      "combined_pipeline_score": 32.0738
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f39r",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f99r",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_count": 4,
+      "shared_4stage_stems": [
+        "orain",
+        "olain",
+        "ykey",
+        "air"
+      ],
+      "shared_4stage_idf": 5.7801,
+      "zh_shared_stems": [
+        "edy",
+        "orain",
+        "oteol",
+        "olain",
+        "ykey",
+        "air",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "chkey",
+        "orain",
+        "olain",
+        "ykey",
+        "air",
+        "dam"
+      ],
+      "pharm_label_anchored_stems": [],
+      "combined_pipeline_score": 31.9578
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f41v",
+      "herbal_lang": "B",
+      "herbal_hand": "5",
+      "pharm_folio": "f102v1",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_count": 4,
+      "shared_4stage_stems": [
+        "otedy",
+        "oteol",
+        "okedy",
+        "ykey"
+      ],
+      "shared_4stage_idf": 5.8499,
+      "zh_shared_stems": [
+        "oteodar",
+        "orain",
+        "otedy",
+        "oteol",
+        "okedy",
+        "ykey"
+      ],
+      "hps_shared_stems": [
+        "otedy",
+        "oteol",
+        "okedy",
+        "ykey",
+        "dam"
+      ],
+      "pharm_label_anchored_stems": [
+        "okedy"
+      ],
+      "combined_pipeline_score": 31.882
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f39r",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f102r1",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_count": 4,
+      "shared_4stage_stems": [
+        "orain",
+        "oteol",
+        "olain",
+        "ykey"
+      ],
+      "shared_4stage_idf": 6.073,
+      "zh_shared_stems": [
+        "edy",
+        "orain",
+        "oteol",
+        "olain",
+        "ykey",
+        "air",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "orain",
+        "oteol",
+        "olain",
+        "ykey"
+      ],
+      "pharm_label_anchored_stems": [],
+      "combined_pipeline_score": 29.288
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f48r",
+      "herbal_lang": "B",
+      "herbal_hand": "5",
+      "pharm_folio": "f88v",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_count": 4,
+      "shared_4stage_stems": [
+        "oteol",
+        "olain",
+        "okedy",
+        "ykey"
+      ],
+      "shared_4stage_idf": 5.8073,
+      "zh_shared_stems": [
+        "oteo",
+        "oteol",
+        "olain",
+        "okedy",
+        "ykey"
+      ],
+      "hps_shared_stems": [
+        "oteol",
+        "olain",
+        "key",
+        "okedy",
+        "ykey",
+        "dam"
+      ],
+      "pharm_label_anchored_stems": [],
+      "combined_pipeline_score": 27.9528
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f48r",
+      "herbal_lang": "B",
+      "herbal_hand": "5",
+      "pharm_folio": "f102r1",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_count": 4,
+      "shared_4stage_stems": [
+        "oteol",
+        "olain",
+        "okedy",
+        "ykey"
+      ],
+      "shared_4stage_idf": 5.8073,
+      "zh_shared_stems": [
+        "oteo",
+        "oteol",
+        "olain",
+        "okedy",
+        "ykey"
+      ],
+      "hps_shared_stems": [
+        "oteol",
+        "olain",
+        "okedy",
+        "ykey"
+      ],
+      "pharm_label_anchored_stems": [],
+      "combined_pipeline_score": 25.2575
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f31v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f102v2",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "okeo",
+        "orain",
+        "okedy"
+      ],
+      "shared_4stage_idf": 4.6039,
+      "zh_shared_stems": [
+        "alain",
+        "okeos",
+        "okeo",
+        "orain",
+        "okor",
+        "okedy",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "okear",
+        "keo",
+        "okeo",
+        "orain",
+        "cheos",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [],
+      "combined_pipeline_score": 32.8835
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f102v1",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "otedy",
+        "oteol",
+        "okedy"
+      ],
+      "shared_4stage_idf": 4.5149,
+      "zh_shared_stems": [
+        "chocthy",
+        "oteos",
+        "ytain",
+        "choty",
+        "otedy",
+        "oteol",
+        "okedy",
+        "air",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "otedy",
+        "oteol",
+        "tedy",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [
+        "okedy"
+      ],
+      "combined_pipeline_score": 32.2459
+    },
+    {
+      "zodiac_folio": "f73r",
+      "zodiac_sign": "Scorpio",
+      "zodiac_month": "November",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f89r1",
+      "starred_recipe": "<f106v.40>",
+      "starred_folio": "f106v",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "okedy",
+        "air",
+        "ches"
+      ],
+      "shared_4stage_idf": 3.8459,
+      "zh_shared_stems": [
+        "chesy",
+        "okedal",
+        "chek",
+        "oteos",
+        "ytey",
+        "ykdy",
+        "okedy",
+        "air",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "okedy",
+        "air",
+        "ches"
+      ],
+      "pharm_label_anchored_stems": [
+        "ches"
+      ],
+      "combined_pipeline_score": 31.7712
+    },
+    {
+      "zodiac_folio": "f73r",
+      "zodiac_sign": "Scorpio",
+      "zodiac_month": "November",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f89r1",
+      "starred_recipe": "<f105r.14>",
+      "starred_folio": "f105r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "oteos",
+        "okedy",
+        "air"
+      ],
+      "shared_4stage_idf": 4.5848,
+      "zh_shared_stems": [
+        "chesy",
+        "okedal",
+        "chek",
+        "oteos",
+        "ytey",
+        "ykdy",
+        "okedy",
+        "air",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "oteos",
+        "okedy",
+        "air"
+      ],
+      "pharm_label_anchored_stems": [],
+      "combined_pipeline_score": 31.4881
+    },
+    {
+      "zodiac_folio": "f72v2",
+      "zodiac_sign": "Virgo",
+      "zodiac_month": "September",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f90v1",
+      "herbal_lang": "A",
+      "herbal_hand": "1",
+      "pharm_folio": "f102v2",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "cheos",
+        "okeor",
+        "okedy"
+      ],
+      "shared_4stage_idf": 4.5364,
+      "zh_shared_stems": [
+        "ykeor",
+        "cheokey",
+        "ytedy",
+        "tey",
+        "cheos",
+        "okeor",
+        "okedy"
+      ],
+      "hps_shared_stems": [
+        "orain",
+        "cheos",
+        "okeor",
+        "key",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [],
+      "combined_pipeline_score": 31.4063
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f31v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f88v",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "okeo",
+        "orain",
+        "okedy"
+      ],
+      "shared_4stage_idf": 4.6039,
+      "zh_shared_stems": [
+        "alain",
+        "okeos",
+        "okeo",
+        "orain",
+        "okor",
+        "okedy",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "lchey",
+        "checkhy",
+        "okeo",
+        "orain",
+        "cheos",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [],
+      "combined_pipeline_score": 31.36
+    },
+    {
+      "zodiac_folio": "f72v2",
+      "zodiac_sign": "Virgo",
+      "zodiac_month": "September",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f90v1",
+      "herbal_lang": "A",
+      "herbal_hand": "1",
+      "pharm_folio": "f88r",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "cheos",
+        "okeor",
+        "okedy"
+      ],
+      "shared_4stage_idf": 4.5364,
+      "zh_shared_stems": [
+        "ykeor",
+        "cheokey",
+        "ytedy",
+        "tey",
+        "cheos",
+        "okeor",
+        "okedy"
+      ],
+      "hps_shared_stems": [
+        "dchey",
+        "cheos",
+        "okeor",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [],
+      "combined_pipeline_score": 30.157
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f88v",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "otedy",
+        "oteol",
+        "okedy"
+      ],
+      "shared_4stage_idf": 4.5149,
+      "zh_shared_stems": [
+        "chocthy",
+        "oteos",
+        "ytain",
+        "choty",
+        "otedy",
+        "oteol",
+        "okedy",
+        "air",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "checkhy",
+        "otedy",
+        "oteol",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [],
+      "combined_pipeline_score": 29.9785
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f26v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f102v2",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "okeo",
+        "orain",
+        "ykey"
+      ],
+      "shared_4stage_idf": 4.6039,
+      "zh_shared_stems": [
+        "ory",
+        "okeos",
+        "okeo",
+        "orain",
+        "ykey",
+        "air",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "chkey",
+        "okeo",
+        "orain",
+        "cheos",
+        "ykey"
+      ],
+      "pharm_label_anchored_stems": [],
+      "combined_pipeline_score": 29.8159
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f89r2",
+      "starred_recipe": "<f105r.14>",
+      "starred_folio": "f105r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "oteos",
+        "oteol",
+        "okedy"
+      ],
+      "shared_4stage_idf": 4.8778,
+      "zh_shared_stems": [
+        "chocthy",
+        "oteos",
+        "ytain",
+        "choty",
+        "otedy",
+        "oteol",
+        "okedy",
+        "air",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "oteos",
+        "oteol",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [],
+      "combined_pipeline_score": 29.3755
+    },
+    {
+      "zodiac_folio": "f71r",
+      "zodiac_sign": "Aries (Light)",
+      "zodiac_month": "April",
+      "zodiac_season": "SPRING",
+      "herbal_folio": "f31v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f102v2",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "keo",
+        "okeo",
+        "okedy"
+      ],
+      "shared_4stage_idf": 5.388,
+      "zh_shared_stems": [
+        "keo",
+        "okes",
+        "okeo",
+        "okedy"
+      ],
+      "hps_shared_stems": [
+        "okear",
+        "keo",
+        "okeo",
+        "orain",
+        "cheos",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [],
+      "combined_pipeline_score": 29.3448
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f89r1",
+      "starred_recipe": "<f106v.40>",
+      "starred_folio": "f106v",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "okedy",
+        "air",
+        "ches"
+      ],
+      "shared_4stage_idf": 3.8459,
+      "zh_shared_stems": [
+        "chocthy",
+        "oteos",
+        "ytain",
+        "choty",
+        "otedy",
+        "oteol",
+        "okedy",
+        "air",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "okedy",
+        "air",
+        "ches"
+      ],
+      "pharm_label_anchored_stems": [
+        "ches"
+      ],
+      "combined_pipeline_score": 28.7797
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f31v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f101v",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "okeo",
+        "orain",
+        "okedy"
+      ],
+      "shared_4stage_idf": 4.6039,
+      "zh_shared_stems": [
+        "alain",
+        "okeos",
+        "okeo",
+        "orain",
+        "okor",
+        "okedy",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "keo",
+        "okeo",
+        "orain",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [],
+      "combined_pipeline_score": 28.6866
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f26v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f101v",
+      "starred_recipe": "<f116r.18>",
+      "starred_folio": "f116r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "ory",
+        "orain",
+        "ches"
+      ],
+      "shared_4stage_idf": 5.4821,
+      "zh_shared_stems": [
+        "ory",
+        "okeos",
+        "okeo",
+        "orain",
+        "ykey",
+        "air",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "ory",
+        "orain",
+        "ches"
+      ],
+      "pharm_label_anchored_stems": [],
+      "combined_pipeline_score": 28.5561
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f89r1",
+      "starred_recipe": "<f105r.14>",
+      "starred_folio": "f105r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "oteos",
+        "okedy",
+        "air"
+      ],
+      "shared_4stage_idf": 4.5848,
+      "zh_shared_stems": [
+        "chocthy",
+        "oteos",
+        "ytain",
+        "choty",
+        "otedy",
+        "oteol",
+        "okedy",
+        "air",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "oteos",
+        "okedy",
+        "air"
+      ],
+      "pharm_label_anchored_stems": [],
+      "combined_pipeline_score": 28.4966
+    },
+    {
+      "zodiac_folio": "f72v2",
+      "zodiac_sign": "Virgo",
+      "zodiac_month": "September",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f90v1",
+      "herbal_lang": "A",
+      "herbal_hand": "1",
+      "pharm_folio": "f89v2",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_count": 3,
+      "shared_4stage_stems": [
+        "cheos",
+        "okeor",
+        "okedy"
+      ],
+      "shared_4stage_idf": 4.5364,
+      "zh_shared_stems": [
+        "ykeor",
+        "cheokey",
+        "ytedy",
+        "tey",
+        "cheos",
+        "okeor",
+        "okedy"
+      ],
+      "hps_shared_stems": [
+        "cheos",
+        "okeor",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [],
+      "combined_pipeline_score": 28.3652
+    }
+  ],
+  "top_25_linked_4stage_pipelines": [
+    {
+      "zodiac_folio": "f73r",
+      "zodiac_sign": "Scorpio",
+      "zodiac_month": "November",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f34r",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f99r",
+      "starred_recipe": "<f58v.1>",
+      "starred_folio": "f58v",
+      "shared_4stage_stems": [
+        "air"
+      ],
+      "zh_shared_stems": [
+        "oltey",
+        "chesy",
+        "chetey",
+        "chek",
+        "ochey",
+        "okes",
+        "ytey",
+        "ykdy",
+        "kar",
+        "air"
+      ],
+      "hps_shared_stems": [
+        "tol",
+        "okor",
+        "air",
+        "dam"
+      ],
+      "pharm_label_anchored_stems": [
+        "dam",
+        "okor"
+      ],
+      "zh_idf": 23.1205,
+      "hps_idf": 5.5377,
+      "four_stage_idf": 1.2862,
+      "pipeline_score": 33.9445
+    },
+    {
+      "zodiac_folio": "f73r",
+      "zodiac_sign": "Scorpio",
+      "zodiac_month": "November",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f34r",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f89r2",
+      "starred_recipe": "<f108r.8>",
+      "starred_folio": "f108r",
+      "shared_4stage_stems": [
+        "ochey"
+      ],
+      "zh_shared_stems": [
+        "oltey",
+        "chesy",
+        "chetey",
+        "chek",
+        "ochey",
+        "okes",
+        "ytey",
+        "ykdy",
+        "kar",
+        "air"
+      ],
+      "hps_shared_stems": [
+        "ykeo",
+        "ochey",
+        "ody"
+      ],
+      "pharm_label_anchored_stems": [],
+      "zh_idf": 23.1205,
+      "hps_idf": 6.6756,
+      "four_stage_idf": 2.2939,
+      "pipeline_score": 32.09
+    },
+    {
+      "zodiac_folio": "f73r",
+      "zodiac_sign": "Scorpio",
+      "zodiac_month": "November",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f34r",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f101r",
+      "starred_recipe": "<f58v.1>",
+      "starred_folio": "f58v",
+      "shared_4stage_stems": [
+        "kar"
+      ],
+      "zh_shared_stems": [
+        "oltey",
+        "chesy",
+        "chetey",
+        "chek",
+        "ochey",
+        "okes",
+        "ytey",
+        "ykdy",
+        "kar",
+        "air"
+      ],
+      "hps_shared_stems": [
+        "chekey",
+        "tol",
+        "kar",
+        "okor"
+      ],
+      "pharm_label_anchored_stems": [],
+      "zh_idf": 23.1205,
+      "hps_idf": 6.542,
+      "four_stage_idf": 1.5173,
+      "pipeline_score": 31.1799
+    },
+    {
+      "zodiac_folio": "f73r",
+      "zodiac_sign": "Scorpio",
+      "zodiac_month": "November",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f31v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f102v2",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_stems": [
+        "okedy"
+      ],
+      "zh_shared_stems": [
+        "chetchey",
+        "chek",
+        "okeos",
+        "chedar",
+        "okes",
+        "kar",
+        "okedy",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "okear",
+        "keo",
+        "okeo",
+        "orain",
+        "cheos",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [
+        "okeos"
+      ],
+      "zh_idf": 16.51,
+      "hps_idf": 11.1855,
+      "four_stage_idf": 1.335,
+      "pipeline_score": 31.0305
+    },
+    {
+      "zodiac_folio": "f73r",
+      "zodiac_sign": "Scorpio",
+      "zodiac_month": "November",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f34r",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f89r1",
+      "starred_recipe": "<f58v.1>",
+      "starred_folio": "f58v",
+      "shared_4stage_stems": [
+        "air"
+      ],
+      "zh_shared_stems": [
+        "oltey",
+        "chesy",
+        "chetey",
+        "chek",
+        "ochey",
+        "okes",
+        "ytey",
+        "ykdy",
+        "kar",
+        "air"
+      ],
+      "hps_shared_stems": [
+        "daly",
+        "okor",
+        "air",
+        "dam"
+      ],
+      "pharm_label_anchored_stems": [],
+      "zh_idf": 23.1205,
+      "hps_idf": 6.1337,
+      "four_stage_idf": 1.2862,
+      "pipeline_score": 30.5405
+    },
+    {
+      "zodiac_folio": "f73r",
+      "zodiac_sign": "Scorpio",
+      "zodiac_month": "November",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f34r",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f89v2",
+      "starred_recipe": "<f114r.24>",
+      "starred_folio": "f114r",
+      "shared_4stage_stems": [
+        "air"
+      ],
+      "zh_shared_stems": [
+        "oltey",
+        "chesy",
+        "chetey",
+        "chek",
+        "ochey",
+        "okes",
+        "ytey",
+        "ykdy",
+        "kar",
+        "air"
+      ],
+      "hps_shared_stems": [
+        "chty",
+        "sair",
+        "air"
+      ],
+      "pharm_label_anchored_stems": [],
+      "zh_idf": 23.1205,
+      "hps_idf": 5.9587,
+      "four_stage_idf": 1.2862,
+      "pipeline_score": 30.3654
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f31v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f102v2",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_stems": [
+        "okeo",
+        "orain",
+        "okedy"
+      ],
+      "zh_shared_stems": [
+        "alain",
+        "okeos",
+        "okeo",
+        "orain",
+        "okor",
+        "okedy",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "okear",
+        "keo",
+        "okeo",
+        "orain",
+        "cheos",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [
+        "okeos"
+      ],
+      "zh_idf": 12.4903,
+      "hps_idf": 11.1855,
+      "four_stage_idf": 4.6039,
+      "pipeline_score": 30.2796
+    },
+    {
+      "zodiac_folio": "f73r",
+      "zodiac_sign": "Scorpio",
+      "zodiac_month": "November",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f34r",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f101r",
+      "starred_recipe": "<f111v.1>",
+      "starred_folio": "f111v",
+      "shared_4stage_stems": [
+        "kar"
+      ],
+      "zh_shared_stems": [
+        "oltey",
+        "chesy",
+        "chetey",
+        "chek",
+        "ochey",
+        "okes",
+        "ytey",
+        "ykdy",
+        "kar",
+        "air"
+      ],
+      "hps_shared_stems": [
+        "chekey",
+        "oteol",
+        "kar"
+      ],
+      "pharm_label_anchored_stems": [],
+      "zh_idf": 23.1205,
+      "hps_idf": 5.1247,
+      "four_stage_idf": 1.5173,
+      "pipeline_score": 29.7625
+    },
+    {
+      "zodiac_folio": "f73r",
+      "zodiac_sign": "Scorpio",
+      "zodiac_month": "November",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f34r",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f89r1",
+      "starred_recipe": "<f58r.26>",
+      "starred_folio": "f58r",
+      "shared_4stage_stems": [
+        "air"
+      ],
+      "zh_shared_stems": [
+        "oltey",
+        "chesy",
+        "chetey",
+        "chek",
+        "ochey",
+        "okes",
+        "ytey",
+        "ykdy",
+        "kar",
+        "air"
+      ],
+      "hps_shared_stems": [
+        "daly",
+        "okor",
+        "air"
+      ],
+      "pharm_label_anchored_stems": [],
+      "zh_idf": 23.1205,
+      "hps_idf": 4.8788,
+      "four_stage_idf": 1.2862,
+      "pipeline_score": 29.2855
+    },
+    {
+      "zodiac_folio": "f73r",
+      "zodiac_sign": "Scorpio",
+      "zodiac_month": "November",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f34r",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f89r1",
+      "starred_recipe": "<f58v.23>",
+      "starred_folio": "f58v",
+      "shared_4stage_stems": [
+        "air"
+      ],
+      "zh_shared_stems": [
+        "oltey",
+        "chesy",
+        "chetey",
+        "chek",
+        "ochey",
+        "okes",
+        "ytey",
+        "ykdy",
+        "kar",
+        "air"
+      ],
+      "hps_shared_stems": [
+        "daly",
+        "okor",
+        "air"
+      ],
+      "pharm_label_anchored_stems": [],
+      "zh_idf": 23.1205,
+      "hps_idf": 4.8788,
+      "four_stage_idf": 1.2862,
+      "pipeline_score": 29.2855
+    },
+    {
+      "zodiac_folio": "f73r",
+      "zodiac_sign": "Scorpio",
+      "zodiac_month": "November",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f34r",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f101r",
+      "starred_recipe": "<f115v.13>",
+      "starred_folio": "f115v",
+      "shared_4stage_stems": [
+        "kar"
+      ],
+      "zh_shared_stems": [
+        "oltey",
+        "chesy",
+        "chetey",
+        "chek",
+        "ochey",
+        "okes",
+        "ytey",
+        "ykdy",
+        "kar",
+        "air"
+      ],
+      "hps_shared_stems": [
+        "oteol",
+        "tol",
+        "kar"
+      ],
+      "pharm_label_anchored_stems": [],
+      "zh_idf": 23.1205,
+      "hps_idf": 4.634,
+      "four_stage_idf": 1.5173,
+      "pipeline_score": 29.2719
+    },
+    {
+      "zodiac_folio": "f73r",
+      "zodiac_sign": "Scorpio",
+      "zodiac_month": "November",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f89r1",
+      "starred_recipe": "<f105r.14>",
+      "starred_folio": "f105r",
+      "shared_4stage_stems": [
+        "oteos",
+        "okedy",
+        "air"
+      ],
+      "zh_shared_stems": [
+        "chesy",
+        "okedal",
+        "chek",
+        "oteos",
+        "ytey",
+        "ykdy",
+        "okedy",
+        "air",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "oteos",
+        "okedy",
+        "air"
+      ],
+      "pharm_label_anchored_stems": [
+        "ches"
+      ],
+      "zh_idf": 17.7336,
+      "hps_idf": 4.5848,
+      "four_stage_idf": 4.5848,
+      "pipeline_score": 28.9032
+    },
+    {
+      "zodiac_folio": "f73r",
+      "zodiac_sign": "Scorpio",
+      "zodiac_month": "November",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f46r",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f89v1",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_stems": [
+        "chekal"
+      ],
+      "zh_shared_stems": [
+        "cheoly",
+        "osain",
+        "chekal",
+        "chek",
+        "ytey",
+        "kar",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "chekal",
+        "chekey",
+        "cthdy",
+        "chear",
+        "ykey",
+        "dam"
+      ],
+      "pharm_label_anchored_stems": [],
+      "zh_idf": 15.6087,
+      "hps_idf": 10.5307,
+      "four_stage_idf": 2.5961,
+      "pipeline_score": 28.7356
+    },
+    {
+      "zodiac_folio": "f73r",
+      "zodiac_sign": "Scorpio",
+      "zodiac_month": "November",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f89r1",
+      "starred_recipe": "<f105r.17>",
+      "starred_folio": "f105r",
+      "shared_4stage_stems": [
+        "okedy",
+        "air"
+      ],
+      "zh_shared_stems": [
+        "chesy",
+        "okedal",
+        "chek",
+        "oteos",
+        "ytey",
+        "ykdy",
+        "okedy",
+        "air",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "kol",
+        "okedy",
+        "air"
+      ],
+      "pharm_label_anchored_stems": [
+        "ches",
+        "kol"
+      ],
+      "zh_idf": 17.7336,
+      "hps_idf": 4.337,
+      "four_stage_idf": 2.6212,
+      "pipeline_score": 28.6918
+    },
+    {
+      "zodiac_folio": "f72v1",
+      "zodiac_sign": "Libra",
+      "zodiac_month": "October",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f102v1",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_stems": [
+        "otedy"
+      ],
+      "zh_shared_stems": [
+        "oteod",
+        "chtey",
+        "octhy",
+        "oteos",
+        "choty",
+        "ykdy",
+        "otedy",
+        "ychey",
+        "air"
+      ],
+      "hps_shared_stems": [
+        "otedy",
+        "oteol",
+        "tedy",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [
+        "okedy"
+      ],
+      "zh_idf": 19.0848,
+      "hps_idf": 5.974,
+      "four_stage_idf": 1.6007,
+      "pipeline_score": 28.6595
+    },
+    {
+      "zodiac_folio": "f72v1",
+      "zodiac_sign": "Libra",
+      "zodiac_month": "October",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f89v2",
+      "starred_recipe": "<f104v.37>",
+      "starred_folio": "f104v",
+      "shared_4stage_stems": [
+        "ychey",
+        "air"
+      ],
+      "zh_shared_stems": [
+        "oteod",
+        "chtey",
+        "octhy",
+        "oteos",
+        "choty",
+        "ykdy",
+        "otedy",
+        "ychey",
+        "air"
+      ],
+      "hps_shared_stems": [
+        "okam",
+        "ychey",
+        "air"
+      ],
+      "pharm_label_anchored_stems": [
+        "okam"
+      ],
+      "zh_idf": 19.0848,
+      "hps_idf": 4.4661,
+      "four_stage_idf": 2.8654,
+      "pipeline_score": 28.4163
+    },
+    {
+      "zodiac_folio": "f72v1",
+      "zodiac_sign": "Libra",
+      "zodiac_month": "October",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f89v2",
+      "starred_recipe": "<f108v.30>",
+      "starred_folio": "f108v",
+      "shared_4stage_stems": [
+        "ychey",
+        "air"
+      ],
+      "zh_shared_stems": [
+        "oteod",
+        "chtey",
+        "octhy",
+        "oteos",
+        "choty",
+        "ykdy",
+        "otedy",
+        "ychey",
+        "air"
+      ],
+      "hps_shared_stems": [
+        "okam",
+        "ychey",
+        "air"
+      ],
+      "pharm_label_anchored_stems": [
+        "okam"
+      ],
+      "zh_idf": 19.0848,
+      "hps_idf": 4.4661,
+      "four_stage_idf": 2.8654,
+      "pipeline_score": 28.4163
+    },
+    {
+      "zodiac_folio": "f73r",
+      "zodiac_sign": "Scorpio",
+      "zodiac_month": "November",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f34r",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f89v2",
+      "starred_recipe": "<f58v.1>",
+      "starred_folio": "f58v",
+      "shared_4stage_stems": [
+        "air"
+      ],
+      "zh_shared_stems": [
+        "oltey",
+        "chesy",
+        "chetey",
+        "chek",
+        "ochey",
+        "okes",
+        "ytey",
+        "ykdy",
+        "kar",
+        "air"
+      ],
+      "hps_shared_stems": [
+        "okor",
+        "air",
+        "dam"
+      ],
+      "pharm_label_anchored_stems": [],
+      "zh_idf": 23.1205,
+      "hps_idf": 4.0002,
+      "four_stage_idf": 1.2862,
+      "pipeline_score": 28.407
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f41v",
+      "herbal_lang": "B",
+      "herbal_hand": "5",
+      "pharm_folio": "f88v",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_stems": [
+        "orain",
+        "otedy",
+        "oteol",
+        "okedy",
+        "ykey"
+      ],
+      "zh_shared_stems": [
+        "oteodar",
+        "orain",
+        "otedy",
+        "oteol",
+        "okedy",
+        "ykey"
+      ],
+      "hps_shared_stems": [
+        "orain",
+        "otedy",
+        "cheos",
+        "oteol",
+        "okedy",
+        "ykey",
+        "dam"
+      ],
+      "pharm_label_anchored_stems": [],
+      "zh_idf": 10.5774,
+      "hps_idf": 10.3063,
+      "four_stage_idf": 7.4506,
+      "pipeline_score": 28.3342
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f39r",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f99r",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_stems": [
+        "orain",
+        "olain",
+        "ykey",
+        "air"
+      ],
+      "zh_shared_stems": [
+        "edy",
+        "orain",
+        "oteol",
+        "olain",
+        "ykey",
+        "air",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "chkey",
+        "orain",
+        "olain",
+        "ykey",
+        "air",
+        "dam"
+      ],
+      "pharm_label_anchored_stems": [
+        "dam"
+      ],
+      "zh_idf": 11.0688,
+      "hps_idf": 9.3289,
+      "four_stage_idf": 5.7801,
+      "pipeline_score": 28.1777
+    },
+    {
+      "zodiac_folio": "f73r",
+      "zodiac_sign": "Scorpio",
+      "zodiac_month": "November",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f31v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f101v",
+      "starred_recipe": "<f58v.1>",
+      "starred_folio": "f58v",
+      "shared_4stage_stems": [
+        "kar",
+        "okedy"
+      ],
+      "zh_shared_stems": [
+        "chetchey",
+        "chek",
+        "okeos",
+        "chedar",
+        "okes",
+        "kar",
+        "okedy",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "ckhey",
+        "kchey",
+        "kar",
+        "okor",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [],
+      "zh_idf": 16.51,
+      "hps_idf": 8.1652,
+      "four_stage_idf": 2.8523,
+      "pipeline_score": 27.5275
+    },
+    {
+      "zodiac_folio": "f73r",
+      "zodiac_sign": "Scorpio",
+      "zodiac_month": "November",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f31v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f88v",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_stems": [
+        "okedy"
+      ],
+      "zh_shared_stems": [
+        "chetchey",
+        "chek",
+        "okeos",
+        "chedar",
+        "okes",
+        "kar",
+        "okedy",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "lchey",
+        "checkhy",
+        "okeo",
+        "orain",
+        "cheos",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [],
+      "zh_idf": 16.51,
+      "hps_idf": 9.662,
+      "four_stage_idf": 1.335,
+      "pipeline_score": 27.507
+    },
+    {
+      "zodiac_folio": "f73r",
+      "zodiac_sign": "Scorpio",
+      "zodiac_month": "November",
+      "zodiac_season": "AUTUMN",
+      "herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f89r1",
+      "starred_recipe": "<f106v.40>",
+      "starred_folio": "f106v",
+      "shared_4stage_stems": [
+        "okedy",
+        "air",
+        "ches"
+      ],
+      "zh_shared_stems": [
+        "chesy",
+        "okedal",
+        "chek",
+        "oteos",
+        "ytey",
+        "ykdy",
+        "okedy",
+        "air",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "okedy",
+        "air",
+        "ches"
+      ],
+      "pharm_label_anchored_stems": [
+        "ches"
+      ],
+      "zh_idf": 17.7336,
+      "hps_idf": 3.8459,
+      "four_stage_idf": 3.8459,
+      "pipeline_score": 27.4253
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f43v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f102v1",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_stems": [
+        "otedy",
+        "oteol",
+        "okedy"
+      ],
+      "zh_shared_stems": [
+        "chocthy",
+        "oteos",
+        "ytain",
+        "choty",
+        "otedy",
+        "oteol",
+        "okedy",
+        "air",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "otedy",
+        "oteol",
+        "tedy",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [
+        "okedy"
+      ],
+      "zh_idf": 14.7421,
+      "hps_idf": 5.974,
+      "four_stage_idf": 4.5149,
+      "pipeline_score": 27.231
+    },
+    {
+      "zodiac_folio": "f72r3",
+      "zodiac_sign": "Cancer",
+      "zodiac_month": "July",
+      "zodiac_season": "SUMMER",
+      "herbal_folio": "f26v",
+      "herbal_lang": "B",
+      "herbal_hand": "2",
+      "pharm_folio": "f102v2",
+      "starred_recipe": "<f111r.6>",
+      "starred_folio": "f111r",
+      "shared_4stage_stems": [
+        "okeo",
+        "orain",
+        "ykey"
+      ],
+      "zh_shared_stems": [
+        "ory",
+        "okeos",
+        "okeo",
+        "orain",
+        "ykey",
+        "air",
+        "ches"
+      ],
+      "hps_shared_stems": [
+        "chkey",
+        "okeo",
+        "orain",
+        "cheos",
+        "ykey"
+      ],
+      "pharm_label_anchored_stems": [
+        "okeos"
+      ],
+      "zh_idf": 12.1098,
+      "hps_idf": 8.4984,
+      "four_stage_idf": 4.6039,
+      "pipeline_score": 27.212
+    }
+  ]
+}

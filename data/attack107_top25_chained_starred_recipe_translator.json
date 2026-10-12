@@ -1,0 +1,2533 @@
+{
+  "attack_id": 107,
+  "discovery_id": 124,
+  "title": "Complete Procedural & Stoichiometric Translation of the Top 25 Chained Starred Clinical Recipes Paired with Their Botanical, Apothecary & Astrological Sources",
+  "total_chained_recipes_scored": 280,
+  "comparison_top50_vs_bottom100": {
+    "TOP_50_CHAINED_RECIPES": {
+      "recipe_count": 50,
+      "mean_tokens": 64.84,
+      "mean_lines": 6.2,
+      "mean_verbs": 16.96,
+      "mean_doses": 29.56,
+      "mean_verb_to_dose_ratio": 0.612,
+      "mean_3stage_stems": 3.36,
+      "mean_4stage_stems": 1.2,
+      "herbal_b_partner_pct": 62.0
+    },
+    "BOTTOM_100_LOW_LINK_RECIPES": {
+      "recipe_count": 100,
+      "mean_tokens": 29.8,
+      "mean_lines": 3.06,
+      "mean_verbs": 9.73,
+      "mean_doses": 13.64,
+      "mean_verb_to_dose_ratio": 0.83,
+      "mean_3stage_stems": 1.0,
+      "mean_4stage_stems": 0.41,
+      "herbal_b_partner_pct": 59.0
+    }
+  },
+  "top_25_chained_starred_recipe_translations": [
+    {
+      "rank": 1,
+      "recipe_id": "<f111r.6>",
+      "folio": "f111r",
+      "token_count": 365,
+      "line_count": 30,
+      "verb_count": 141,
+      "dose_count": 120,
+      "verb_to_dose_ratio": 1.175,
+      "stage1_zodiac_source": "f72r3 (Cancer / July / SUMMER)",
+      "stage2_herbal_source": "f31v ($L=B, $H=2)",
+      "stage3_pharm_source": "f102v2",
+      "four_stage_zhps_stems": [
+        "okeo",
+        "orain",
+        "okedy"
+      ],
+      "three_stage_hps_stems": [
+        "okear",
+        "keo",
+        "okeo",
+        "orain",
+        "cheos",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [],
+      "total_chain_score": 45.922,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f111r.6,+P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "dain . shedy . qoky . chedy . qok . shed . olchedy . qokeedy . teedy . chdy . keedy . qotchedy . dary",
+          "interlinear_gloss": "FROM+AIN[dain] | DECOCT-STRAIN[shedy] | ACT+HEAT-STATE[qoky] | INFUSE-MIX[chedy] | QOK[qok] | NEXT+HED[shed] | FLUID+HERB-INFUSE.PROC[olchedy] | ACT-STEEP-BOIL[qokeedy] | HDR-T+E-INFUSE.PROC[teedy] | HERB-DONE[chdy] | HDR-K+E-INFUSE.PROC[keedy] | ACT-DRAW+HERB-INFUSE.PROC[qotchedy] | FROM+AR-STATE[dary]",
+          "line_verbs": 9,
+          "line_doses": 1
+        },
+        {
+          "line_index": 2,
+          "locus": "<f111r.7,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "sshedy . qokeey . checthey . oteedy . lchedy . chol . sheeol . qokeody . raiin . otedy . otar . aiin . om",
+          "interlinear_gloss": "NEXT+SAP-INFUSE.PROC[sshedy] | ACT-STEEP-EXT[qokeey] | CHECTH-EXT.STATE[checthey] | NOM-DRAW+E-INFUSE.PROC[oteedy] | LIQ-APP+HERB-INFUSE.PROC[lchedy] | HERB-LEAF[chol] | NEXT+HEE-FLUID[sheeol] | ACT-BOIL+E-NOM.STATE[qokeody]*Z+H+P+S | R-DOSE.MEAS[raiin] | NOM-DRAW+E-DONE[otedy] | NOM-DRAW+AR[otar] | ONE-DOSE[aiin] | O-TERM[om]",
+          "line_verbs": 6,
+          "line_doses": 5
+        },
+        {
+          "line_index": 3,
+          "locus": "<f111r.8,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "daiin . o . chedain . daiin . cheedy . qokeey . qokedy . chy . otshedy . lkeeol . lkeey . qotchdy",
+          "interlinear_gloss": "FROM-MEASURE[daiin] | O[o] | CHED-MIN.MEAS[chedain] | FROM-MEASURE[daiin] | HERB-STEEP.PROC[cheedy] | ACT-STEEP-EXT[qokeey] | ACT-BOIL-INFUSE[qokedy] | HERB-STATE[chy] | NOM-DRAW+SAP-INFUSE.PROC[otshedy] | LIQ-APP+KEE-FLUID[lkeeol] | LIQ-APP+SIMMER-EXT.STATE[lkeey] | ACT-DRAW+HERB-DONE[qotchdy]",
+          "line_verbs": 7,
+          "line_doses": 4
+        },
+        {
+          "line_index": 4,
+          "locus": "<f111r.9,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "ycheeodain . okeeo . olchedy . lchedy . qokeey . okeeedy . okain . chedy . chedyteey . dal . lam",
+          "interlinear_gloss": "AND+CHEEOD-MIN.MEAS[ycheeodain] | NOM-BOIL+EEO[okeeo]*Z+H+P+S | FLUID+HERB-INFUSE.PROC[olchedy] | LIQ-APP+HERB-INFUSE.PROC[lchedy] | ACT-STEEP-EXT[qokeey] | NOM-BOIL+E-STEEP.PROC[okeeedy] | NOM-BOIL+AIN[okain] | INFUSE-MIX[chedy] | CHEDYTE-EXT.STATE[chedyteey] | FROM-VESSEL[dal] | LIQ-APP+A-TERM[lam]",
+          "line_verbs": 5,
+          "line_doses": 4
+        },
+        {
+          "line_index": 5,
+          "locus": "<f111r.10,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "ykeedaiin . shekain . shedy . qokear . ochey . reeey . qokeey . olaiiin . chedy . lkeeody . oraiin . oty",
+          "interlinear_gloss": "AND+KEED-DOSE.MEAS[ykeedaiin] | NEXT+HEK-MIN.MEAS[shekain] | DECOCT-STRAIN[shedy] | ACT-BOIL+E-SOURCE[qokear]*H+P+S | NOM+HERB-EXT.STATE[ochey] | REE-EXT.STATE[reeey] | ACT-STEEP-EXT[qokeey] | FLUID+AI-UNIT.MEAS[olaiiin] | INFUSE-MIX[chedy] | LIQ-APP+KEE-NOM.STATE[lkeeody] | NOM+R-DOSE.MEAS[oraiin]*Z+H+P+S | NOM-DRAW[oty]",
+          "line_verbs": 5,
+          "line_doses": 5
+        },
+        {
+          "line_index": 6,
+          "locus": "<f111r.11,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "dshey . lkeedy . lkeedy . cheedy . oteedaiin . sheedy . ar . ay . shkaiin . chey . daiin . daram",
+          "interlinear_gloss": "FROM+SAP-EXT.STATE[dshey] | LIQ-APP+HEAT-STEEP.PROC[lkeedy] | LIQ-APP+HEAT-STEEP.PROC[lkeedy] | HERB-STEEP.PROC[cheedy] | NOM-DRAW+EED-DOSE.MEAS[oteedaiin] | NEXT+H-STEEP.PROC[sheedy] | AT-PART[ar] | A-STATE[ay] | NEXT+HK-DOSE.MEAS[shkaiin] | HERB-EXTRACT[chey] | FROM-MEASURE[daiin] | FROM+AR-FINAL.COL[daram]",
+          "line_verbs": 4,
+          "line_doses": 5
+        },
+        {
+          "line_index": 7,
+          "locus": "<f111r.12,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "dsheeo . qokeedy . otchedey . lshey . lkeedy . oteey . qokeedy . oteolair . ar . shedam . cheam",
+          "interlinear_gloss": "FROM+SHEEO[dsheeo] | ACT-STEEP-BOIL[qokeedy] | NOM-DRAW+CHED-EXT.STATE[otchedey] | LIQ-APP+SAP-EXT.STATE[lshey] | LIQ-APP+HEAT-STEEP.PROC[lkeedy] | NOM-DRAW+E-EXT.STATE[oteey] | ACT-STEEP-BOIL[qokeedy] | NOM-DRAW+EOLAIR[oteolair] | AT-PART[ar] | NEXT+HED-FINAL.COL[shedam] | MACERATE-FINAL.COL[cheam]",
+          "line_verbs": 4,
+          "line_doses": 3
+        },
+        {
+          "line_index": 8,
+          "locus": "<f111r.13,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "qosheo . lchdy . lshedy . olkeeedy . lr . al . chr . or . dain . shey . arain . chey . teey . cheodaiin",
+          "interlinear_gloss": "ACT+SHEO[qosheo] | LIQ-APP+HERB-DONE[lchdy] | LIQ-APP+SAP-INFUSE.PROC[lshedy] | FLUID+SIMMER-STEEP.PROC[olkeeedy] | LR[lr] | TO-VESSEL[al] | CHR[chr] | PORTION[or] | FROM+AIN[dain] | SAP-EXTRACT[shey] | AR-MIN.MEAS[arain] | HERB-EXTRACT[chey] | HDR-T+E-EXT.STATE[teey] | CHEOD-DOSE.MEAS[cheodaiin]",
+          "line_verbs": 4,
+          "line_doses": 5
+        },
+        {
+          "line_index": 9,
+          "locus": "<f111r.14,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "dchedar . oteey . lchey . ykeeeos . aiin . shear . oteedy . tedam . oteey . pchedey . chedy . lchedy",
+          "interlinear_gloss": "FROM+CHED-SOURCE[dchedar] | NOM-DRAW+E-EXT.STATE[oteey] | LIQ-APP+HERB-EXT.STATE[lchey] | AND+KEEEOS[ykeeeos] | ONE-DOSE[aiin] | NEXT+HE-SOURCE[shear] | NOM-DRAW+E-INFUSE.PROC[oteedy] | HDR-T+ED-FINAL.COL[tedam] | NOM-DRAW+E-EXT.STATE[oteey] | HDR-P+CHED-EXT.STATE[pchedey] | INFUSE-MIX[chedy] | LIQ-APP+HERB-INFUSE.PROC[lchedy]",
+          "line_verbs": 4,
+          "line_doses": 4
+        },
+        {
+          "line_index": 10,
+          "locus": "<f111r.15,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "sheeodar . aiin . sheey . shey . oteody . oteedy . chey . daiin . oteol . otedar . tar . pchdam",
+          "interlinear_gloss": "NEXT+HEEOD-SOURCE[sheeodar] | ONE-DOSE[aiin] | NEXT+HE-EXT.STATE[sheey] | SAP-EXTRACT[shey] | NOM-DRAW+E-NOM.STATE[oteody] | NOM-DRAW+E-INFUSE.PROC[oteedy] | HERB-EXTRACT[chey] | FROM-MEASURE[daiin] | NOM-DRAW+E-FLUID[oteol] | NOM-DRAW+ED-SOURCE[otedar] | HDR-T+AR[tar] | HDR-P+CHD-FINAL.COL[pchdam]",
+          "line_verbs": 1,
+          "line_doses": 7
+        },
+        {
+          "line_index": 11,
+          "locus": "<f111r.16,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "dchedshey . qokeedy . okeodain . shet . sheota . oteal . tey . lkeey . sheedy . shtar . keedy",
+          "interlinear_gloss": "FROM+CHEDSH-EXT.STATE[dchedshey] | ACT-STEEP-BOIL[qokeedy] | NOM-BOIL+EOD-MIN.MEAS[okeodain] | NEXT+HET[shet] | NEXT+HEOTA[sheota] | NOM-DRAW+E-VESSEL[oteal] | HDR-T+E-STATE[tey] | LIQ-APP+SIMMER-EXT.STATE[lkeey] | NEXT+H-STEEP.PROC[sheedy] | NEXT+HT-SOURCE[shtar] | HDR-K+E-INFUSE.PROC[keedy]",
+          "line_verbs": 4,
+          "line_doses": 3
+        },
+        {
+          "line_index": 12,
+          "locus": "<f111r.17,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "otes . lchey . lshedy . qoteedy . olcheody . qokeey . chey . kal . chekeedy . oteed . keedy . otam",
+          "interlinear_gloss": "NOM-DRAW+ES[otes] | LIQ-APP+HERB-EXT.STATE[lchey] | LIQ-APP+SAP-INFUSE.PROC[lshedy] | ACT-DRAW-STEEP[qoteedy] | FLUID+MACERATE-NOM.STATE[olcheody] | ACT-STEEP-EXT[qokeey] | HERB-EXTRACT[chey] | HDR-K+AL[kal] | CHEK-STEEP.PROC[chekeedy] | NOM-DRAW+EED[oteed] | HDR-K+E-INFUSE.PROC[keedy] | NOM-DRAW+A-TERM[otam]",
+          "line_verbs": 7,
+          "line_doses": 2
+        },
+        {
+          "line_index": 13,
+          "locus": "<f111r.18,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "daiin . shecthey . oteody . qochey . qokeey . chey . teey . qokeedy . qokeedy . cheol . lokeedy . lched",
+          "interlinear_gloss": "FROM-MEASURE[daiin] | NEXT+HECTH-EXT.STATE[shecthey] | NOM-DRAW+E-NOM.STATE[oteody] | ACT+HERB-EXT.STATE[qochey] | ACT-STEEP-EXT[qokeey] | HERB-EXTRACT[chey] | HDR-T+E-EXT.STATE[teey] | ACT-STEEP-BOIL[qokeedy] | ACT-STEEP-BOIL[qokeedy] | MACERATE-FLUID[cheol] | LIQ-APP+OK-STEEP.PROC[lokeedy] | LIQ-APP+CHED[lched]",
+          "line_verbs": 6,
+          "line_doses": 2
+        },
+        {
+          "line_index": 14,
+          "locus": "<f111r.19,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "saiin . okeeol . qokeedy . lchey . lcheoekam . oaiin . cheky . qokeeodar . checthdy . qoted . l . loty",
+          "interlinear_gloss": "NEXT+A-UNIT.MEAS[saiin] | NOM-BOIL+EE-FLUID[okeeol] | ACT-STEEP-BOIL[qokeedy] | LIQ-APP+HERB-EXT.STATE[lchey] | LIQ-APP+CHEOEK-FINAL.COL[lcheoekam] | NOM+A-UNIT.MEAS[oaiin] | CHEK-STATE[cheky] | ACT-BOIL+EEOD-SOURCE[qokeeodar] | CHECTH-DONE[checthdy] | ACT-DRAW+ED[qoted] | L[l] | LIQ-APP+OT-STATE[loty]",
+          "line_verbs": 5,
+          "line_doses": 5
+        },
+        {
+          "line_index": 15,
+          "locus": "<f111r.20,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "qokeey . qokeey . lchedy . checthy . chedey . cheol . teedy . okeedy . qokeedy . okeey . cho . ol . l . kai",
+          "interlinear_gloss": "ACT-STEEP-EXT[qokeey] | ACT-STEEP-EXT[qokeey] | LIQ-APP+HERB-INFUSE.PROC[lchedy] | CHECTH-STATE[checthy] | CHED-EXT.STATE[chedey] | MACERATE-FLUID[cheol] | HDR-T+E-INFUSE.PROC[teedy] | NOM-BOIL+E-INFUSE.PROC[okeedy] | ACT-STEEP-BOIL[qokeedy] | NOM-BOIL+E-EXT.STATE[okeey] | CHO[cho] | THE-FLUID[ol] | L[l] | HDR-K+AI[kai]",
+          "line_verbs": 6,
+          "line_doses": 2
+        },
+        {
+          "line_index": 16,
+          "locus": "<f111r.21,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "daiin . okar . ain . teey . oteey . ox . o . r . shey . chey . ky . deedy . cheo . dain . sheet . ar . al . l . cheotydy",
+          "interlinear_gloss": "FROM-MEASURE[daiin] | NOM-BOIL+AR[okar] | AIN[ain] | HDR-T+E-EXT.STATE[teey] | NOM-DRAW+E-EXT.STATE[oteey] | OX[ox] | O[o] | R[r] | SAP-EXTRACT[shey] | HERB-EXTRACT[chey] | HEAT-STATE[ky] | FROM+E-INFUSE.PROC[deedy] | CHEO[cheo] | FROM+AIN[dain] | NEXT+HEET[sheet] | AT-PART[ar] | TO-VESSEL[al] | L[l] | CHEOTY-DONE[cheotydy]",
+          "line_verbs": 1,
+          "line_doses": 6
+        },
+        {
+          "line_index": 17,
+          "locus": "<f111r.22,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "ssheo . l . keedy . dal . tched . checkhey . okey . qo . ain . qo . chedy . qokeor . okeey . keo . cthedy . qokey",
+          "interlinear_gloss": "NEXT+SHEO[ssheo] | L[l] | HDR-K+E-INFUSE.PROC[keedy] | FROM-VESSEL[dal] | HDR-T+CHED[tched] | CHECKH-EXT.STATE[checkhey] | NOM-BOIL+E-STATE[okey] | QO[qo] | AIN[ain] | QO[qo] | INFUSE-MIX[chedy] | ACT-BOIL+E-PORTION[qokeor] | NOM-BOIL+E-EXT.STATE[okeey] | HDR-K+EO[keo]*H+P+S | PRESS-HERB-INFUSE.PROC[cthedy] | ACT-BOIL+E-STATE[qokey]",
+          "line_verbs": 7,
+          "line_doses": 3
+        },
+        {
+          "line_index": 18,
+          "locus": "<f111r.23,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "dshey . sheeckhy . qokeshey . keeshody . qokeey . qokedy . okain . shekal . okechedy . qokechedy",
+          "interlinear_gloss": "FROM+SAP-EXT.STATE[dshey] | NEXT+HEECKH-STATE[sheeckhy] | ACT-BOIL+ESH-EXT.STATE[qokeshey] | HDR-K+EESH-NOM.STATE[keeshody] | ACT-STEEP-EXT[qokeey] | ACT-BOIL-INFUSE[qokedy] | NOM-BOIL+AIN[okain] | NEXT+HEK-VESSEL[shekal] | NOM-BOIL+ECH-INFUSE.PROC[okechedy] | ACT-BOIL+ECH-INFUSE.PROC[qokechedy]",
+          "line_verbs": 5,
+          "line_doses": 2
+        },
+        {
+          "line_index": 19,
+          "locus": "<f111r.24,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "sain . chckhey . cheos . lchal . lkechey . okeey . lkechedy . oteodain . char . lky . lchr . ainai",
+          "interlinear_gloss": "NEXT+AIN[sain] | CHCKH-EXT.STATE[chckhey] | CHEOS[cheos]*H+P+S | LIQ-APP+HERB-VESSEL[lchal] | LIQ-APP+KECH-EXT.STATE[lkechey] | NOM-BOIL+E-EXT.STATE[okeey] | LIQ-APP+KECH-INFUSE.PROC[lkechedy] | NOM-DRAW+EOD-MIN.MEAS[oteodain] | HERB-SOURCE[char] | LIQ-APP+HEAT-STATE[lky] | LIQ-APP+CHR[lchr] | AINAI[ainai]",
+          "line_verbs": 5,
+          "line_doses": 4
+        },
+        {
+          "line_index": 20,
+          "locus": "<f111r.25,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "so . sheor . okeedy . oteeey . qokeey . qokeeo . s . chedar . alal . oy . oxar . aiin . odaiin . chody",
+          "interlinear_gloss": "SO[so] | NEXT+HE-PORTION[sheor] | NOM-BOIL+E-INFUSE.PROC[okeedy] | NOM-DRAW+EE-EXT.STATE[oteeey] | ACT-STEEP-EXT[qokeey] | ACT-BOIL+EEO[qokeeo]*Z+H+P+S | S[s] | CHED-SOURCE[chedar] | AL-VESSEL[alal] | O-STATE[oy] | NOM+X-SOURCE[oxar] | ONE-DOSE[aiin] | NOM-MEASURE[odaiin] | HERB-NOM.STATE[chody]",
+          "line_verbs": 3,
+          "line_doses": 6
+        },
+        {
+          "line_index": 21,
+          "locus": "<f111r.26,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "soaiin . shecthy . oteodaiin . chedy . otedar . air . ykeey . shedain . l . chedy . qokeedy . qoteedaiin",
+          "interlinear_gloss": "NEXT+O-DOSE.MEAS[soaiin] | NEXT+HECTH-STATE[shecthy] | NOM-DRAW+EOD-DOSE.MEAS[oteodaiin] | INFUSE-MIX[chedy] | NOM-DRAW+ED-SOURCE[otedar] | AIR[air] | AND+SIMMER-EXT.STATE[ykeey] | NEXT+HED-MIN.MEAS[shedain] | L[l] | INFUSE-MIX[chedy] | ACT-STEEP-BOIL[qokeedy] | ACT-DRAW+EED-DOSE.MEAS[qoteedaiin]",
+          "line_verbs": 4,
+          "line_doses": 5
+        },
+        {
+          "line_index": 22,
+          "locus": "<f111r.27,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "dar . sheod . qokeey . qokeody . otey . lkeedy . chl . lkeey . daiin . chedar . chedyteedain . olkal",
+          "interlinear_gloss": "IN-PART[dar] | NEXT+HEOD[sheod] | ACT-STEEP-EXT[qokeey] | ACT-BOIL+E-NOM.STATE[qokeody]*Z+H+P+S | NOM-DRAW+E-STATE[otey] | LIQ-APP+HEAT-STEEP.PROC[lkeedy] | CHL[chl] | LIQ-APP+SIMMER-EXT.STATE[lkeey] | FROM-MEASURE[daiin] | CHED-SOURCE[chedar] | CHEDYTEED-MIN.MEAS[chedyteedain] | FLUID+HEAT-VESSEL[olkal]",
+          "line_verbs": 4,
+          "line_doses": 5
+        },
+        {
+          "line_index": 23,
+          "locus": "<f111r.28,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "qokeeol . shedy . qokeod . cheokeey . sheokar . shekeey . qotees . al . dain . chedy . qotain . alam",
+          "interlinear_gloss": "ACT-BOIL+EE-FLUID[qokeeol] | DECOCT-STRAIN[shedy] | ACT-BOIL+EOD[qokeod] | CHEOKE-EXT.STATE[cheokeey] | NEXT+HEOK-SOURCE[sheokar] | NEXT+HEKE-EXT.STATE[shekeey] | ACT-DRAW+EES[qotees] | TO-VESSEL[al] | FROM+AIN[dain] | INFUSE-MIX[chedy] | ACT-DRAW+AIN[qotain] | AL-FINAL.COL[alam]",
+          "line_verbs": 6,
+          "line_doses": 6
+        },
+        {
+          "line_index": 24,
+          "locus": "<f111r.29,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "salkeedy . lkeedy . chckhy . rky . chey . okeeo . chr . al . ar . qokeedy . qokedy . qoteedy . qod",
+          "interlinear_gloss": "NEXT+ALK-STEEP.PROC[salkeedy] | LIQ-APP+HEAT-STEEP.PROC[lkeedy] | CHCKH-STATE[chckhy] | RK-STATE[rky] | HERB-EXTRACT[chey] | NOM-BOIL+EEO[okeeo]*Z+H+P+S | CHR[chr] | TO-VESSEL[al] | AT-PART[ar] | ACT-STEEP-BOIL[qokeedy] | ACT-BOIL-INFUSE[qokedy] | ACT-DRAW-STEEP[qoteedy] | QOD[qod]",
+          "line_verbs": 6,
+          "line_doses": 2
+        },
+        {
+          "line_index": 25,
+          "locus": "<f111r.30,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "qockhedy . qokeechy . qotchey . chtar . ar . chkeey . lkar . aiin . chedy . qokeey . qoirain",
+          "interlinear_gloss": "ACT+CONC-BOIL-INFUSE.PROC[qockhedy] | ACT-BOIL+EECH-STATE[qokeechy] | ACT-DRAW+HERB-EXT.STATE[qotchey] | CHT-SOURCE[chtar] | AT-PART[ar] | CHKE-EXT.STATE[chkeey] | LIQ-APP+HEAT-SOURCE[lkar] | ONE-DOSE[aiin] | INFUSE-MIX[chedy] | ACT-STEEP-EXT[qokeey] | ACT+IR-MIN.MEAS[qoirain]",
+          "line_verbs": 7,
+          "line_doses": 5
+        },
+        {
+          "line_index": 26,
+          "locus": "<f111r.31,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "sheotchedy . shedain . shkeyqokeaiin . shkeody . qokeey . qokeedy . chkal . checthy",
+          "interlinear_gloss": "NEXT+HEOTCH-INFUSE.PROC[sheotchedy] | NEXT+HED-MIN.MEAS[shedain] | NEXT+HKEYQOKE-DOSE.MEAS[shkeyqokeaiin] | NEXT+HKE-NOM.STATE[shkeody] | ACT-STEEP-EXT[qokeey] | ACT-STEEP-BOIL[qokeedy] | CHK-VESSEL[chkal] | CHECTH-STATE[checthy]",
+          "line_verbs": 3,
+          "line_doses": 3
+        },
+        {
+          "line_index": 27,
+          "locus": "<f111r.32,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "dsheeoteey . qokeeo . l . keey . tear . qoteey . qotain . cho . lkeeedy . lchechdy . qokechy",
+          "interlinear_gloss": "FROM+SHEEOTE-EXT.STATE[dsheeoteey] | ACT-BOIL+EEO[qokeeo]*Z+H+P+S | L[l] | HDR-K+E-EXT.STATE[keey] | HDR-T+E-SOURCE[tear] | ACT-DRAW+E-EXT.STATE[qoteey] | ACT-DRAW+AIN[qotain] | CHO[cho] | LIQ-APP+SIMMER-STEEP.PROC[lkeeedy] | LIQ-APP+CHECH-DONE[lchechdy] | ACT-BOIL+ECH-STATE[qokechy]",
+          "line_verbs": 6,
+          "line_doses": 2
+        },
+        {
+          "line_index": 28,
+          "locus": "<f111r.33,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "qoeeeo . s . ain . ar . ol . keey . lkair . cheda . chkal . keeodal . eees . chody . qokeedy . dl",
+          "interlinear_gloss": "ACT+EEEO[qoeeeo] | S[s] | AIN[ain] | AT-PART[ar] | THE-FLUID[ol] | HDR-K+E-EXT.STATE[keey] | LIQ-APP+KAIR[lkair] | CHEDA[cheda] | CHK-VESSEL[chkal] | HDR-K+EEOD-VESSEL[keeodal] | EEES[eees] | HERB-NOM.STATE[chody] | ACT-STEEP-BOIL[qokeedy] | DL[dl]",
+          "line_verbs": 3,
+          "line_doses": 5
+        },
+        {
+          "line_index": 29,
+          "locus": "<f111r.34,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "teo . olkeeo . al . lkeeey . olain . ar . akeom . qokain . al . qokeeod . lkedlkey . teedar",
+          "interlinear_gloss": "HDR-T+EO[teo] | FLUID+KEEO[olkeeo] | TO-VESSEL[al] | LIQ-APP+KEE-EXT.STATE[lkeeey] | FLUID+AIN[olain] | AT-PART[ar] | AKEO-TERM[akeom] | ACT-BOIL+AIN[qokain] | TO-VESSEL[al] | ACT-BOIL+EEOD[qokeeod] | LIQ-APP+KEDLK-EXT.STATE[lkedlkey] | HDR-T+EED-SOURCE[teedar]",
+          "line_verbs": 4,
+          "line_doses": 6
+        },
+        {
+          "line_index": 30,
+          "locus": "<f111r.35,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "y . chedl . ar . aiin . aiy . dam",
+          "interlinear_gloss": "Y[y] | CHEDL[chedl] | AT-PART[ar] | ONE-DOSE[aiin] | AI-STATE[aiy] | FROM+A-TERM[dam]",
+          "line_verbs": 0,
+          "line_doses": 3
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "recipe_id": "<f58v.1>",
+      "folio": "f58v",
+      "token_count": 219,
+      "line_count": 22,
+      "verb_count": 39,
+      "dose_count": 123,
+      "verb_to_dose_ratio": 0.317,
+      "stage1_zodiac_source": "f72r2 (Gemini / June / SUMMER)",
+      "stage2_herbal_source": "f51r ($L=A, $H=1)",
+      "stage3_pharm_source": "f99r",
+      "four_stage_zhps_stems": [
+        "otchey"
+      ],
+      "three_stage_hps_stems": [
+        "ockhey",
+        "ckhey",
+        "ckhy",
+        "tol",
+        "dam",
+        "otchey"
+      ],
+      "pharm_label_anchored_stems": [
+        "dam"
+      ],
+      "total_chain_score": 37.461,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f58v.1,@P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "tol . shokchy . opaiin . opaiin . chofaly . ypar . ypal . opal . opaldaiin",
+          "interlinear_gloss": "HDR-T+OL[tol]*H+P+S | NEXT+HOKCH-STATE[shokchy] | NOM+P-DOSE.MEAS[opaiin] | NOM+P-DOSE.MEAS[opaiin] | CHOFAL-STATE[chofaly] | AND+P-SOURCE[ypar] | AND+P-VESSEL[ypal] | NOM+P-VESSEL[opal] | NOM+PALD-DOSE.MEAS[opaldaiin]",
+          "line_verbs": 0,
+          "line_doses": 7
+        },
+        {
+          "line_index": 2,
+          "locus": "<f58v.2,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "dair . or . aiin . tair . y . qotalody . s . aiin . okeody . qotair . ar . alor . orky",
+          "interlinear_gloss": "FROM+AIR[dair] | PORTION[or] | ONE-DOSE[aiin] | HDR-T+AIR[tair] | Y[y] | ACT-DRAW+AL-NOM.STATE[qotalody] | S[s] | ONE-DOSE[aiin] | NOM-BOIL+E-NOM.STATE[okeody] | ACT-DRAW+AIR[qotair] | AT-PART[ar] | AL-PORTION[alor] | NOM+RK-STATE[orky]",
+          "line_verbs": 2,
+          "line_doses": 5
+        },
+        {
+          "line_index": 3,
+          "locus": "<f58v.3,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "todal . qotain . shoy . qokeol . okey . qokalchal . daly . ar . aim",
+          "interlinear_gloss": "HDR-T+OD-VESSEL[todal] | ACT-DRAW+AIN[qotain] | NEXT+HO-STATE[shoy] | ACT-BOIL+E-FLUID[qokeol] | NOM-BOIL+E-STATE[okey] | ACT-BOIL+ALCH-VESSEL[qokalchal] | FROM+AL-STATE[daly] | AT-PART[ar] | AI-TERM[aim]",
+          "line_verbs": 3,
+          "line_doses": 5
+        },
+        {
+          "line_index": 4,
+          "locus": "<f58v.4,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "or . aiin . okair . y . dair . al . qokal . qokaiin . qokaly . okar . olkaly . okal",
+          "interlinear_gloss": "PORTION[or] | ONE-DOSE[aiin] | NOM-BOIL+AIR[okair] | Y[y] | FROM+AIR[dair] | TO-VESSEL[al] | ACT-BOIL+AL[qokal] | ACT-BOIL-MEASURE[qokaiin] | ACT-BOIL+AL-STATE[qokaly] | NOM-BOIL+AR[okar] | FLUID+KAL-STATE[olkaly] | NOM-BOIL+AL[okal]",
+          "line_verbs": 3,
+          "line_doses": 7
+        },
+        {
+          "line_index": 5,
+          "locus": "<f58v.5,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "faiir . ofas . ar . qotaiin . sholy . qotaiin . yqokaly . okal . qokaly . okaly",
+          "interlinear_gloss": "HDR-F+AIIR[faiir] | NOM+FAS[ofas] | AT-PART[ar] | ACT-DRAW-DOSE[qotaiin] | NEXT+HOL-STATE[sholy] | ACT-DRAW-DOSE[qotaiin] | AND+QOKAL-STATE[yqokaly] | NOM-BOIL+AL[okal] | ACT-BOIL+AL-STATE[qokaly] | NOM-BOIL+AL-STATE[okaly]",
+          "line_verbs": 3,
+          "line_doses": 4
+        },
+        {
+          "line_index": 6,
+          "locus": "<f58v.6,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "qokair . ar . aly . shor . daiin . choly . dal . ykaiin . org . fchey . okaly . oky",
+          "interlinear_gloss": "ACT-BOIL+AIR[qokair] | AT-PART[ar] | AL-STATE[aly] | SAP-PORTION[shor] | FROM-MEASURE[daiin] | CHOL-STATE[choly] | FROM-VESSEL[dal] | AND+HEAT-DOSE.MEAS[ykaiin] | NOM+RG[org] | HDR-F+HERB-EXT.STATE[fchey] | NOM-BOIL+AL-STATE[okaly] | NOM-BOIL[oky]",
+          "line_verbs": 1,
+          "line_doses": 5
+        },
+        {
+          "line_index": 7,
+          "locus": "<f58v.7,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "y . daiin . qokeey . qokar . lchedy . qokalor . sheols . oteor . aiin . cheky",
+          "interlinear_gloss": "Y[y] | FROM-MEASURE[daiin] | ACT-STEEP-EXT[qokeey] | ACT-BOIL+AR[qokar] | LIQ-APP+HERB-INFUSE.PROC[lchedy] | ACT-BOIL+AL-PORTION[qokalor] | NEXT+HEOLS[sheols] | NOM-DRAW+E-PORTION[oteor] | ONE-DOSE[aiin] | CHEK-STATE[cheky]",
+          "line_verbs": 4,
+          "line_doses": 5
+        },
+        {
+          "line_index": 8,
+          "locus": "<f58v.8,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "taiin . ckhey . daldy . qokair . alar . ytal . aiin . otaiin . ykaiin . ykaly . dam",
+          "interlinear_gloss": "HDR-T+A-UNIT.MEAS[taiin] | CONC-BOIL-EXT.STATE[ckhey]*H+P+S | FROM+AL-DONE[daldy] | ACT-BOIL+AIR[qokair] | AL-SOURCE[alar] | AND+DRAW-VESSEL[ytal] | ONE-DOSE[aiin] | NOM-DRAW-DOSE[otaiin] | AND+HEAT-DOSE.MEAS[ykaiin] | AND+KAL-STATE[ykaly] | FROM+A-TERM[dam]*P_LABEL+H+S",
+          "line_verbs": 1,
+          "line_doses": 7
+        },
+        {
+          "line_index": 9,
+          "locus": "<f58v.9,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "salal . qolaiin . chockhey . tcholy . qokaiin . qokaiinos . orcheey . olaly",
+          "interlinear_gloss": "NEXT+AL-VESSEL[salal] | ACT+L-DOSE.MEAS[qolaiin] | CHOCKH-EXT.STATE[chockhey] | HDR-T+CHOL-STATE[tcholy] | ACT-BOIL-MEASURE[qokaiin] | ACT-BOIL+AIINOS[qokaiinos] | NOM+RCHE-EXT.STATE[orcheey] | FLUID+AL-STATE[olaly]",
+          "line_verbs": 3,
+          "line_doses": 3
+        },
+        {
+          "line_index": 10,
+          "locus": "<f58v.10,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "ykair . shey . key . ctholy . qotalom . qokals . qokaiin . okal . okaldy . ory",
+          "interlinear_gloss": "AND+KAIR[ykair] | SAP-EXTRACT[shey] | HDR-K+E-STATE[key] | CTHOL-STATE[ctholy] | ACT-DRAW+ALO-TERM[qotalom] | ACT-BOIL+ALS[qokals] | ACT-BOIL-MEASURE[qokaiin] | NOM-BOIL+AL[okal] | NOM-BOIL+AL-DONE[okaldy] | NOM+R-STATE[ory]",
+          "line_verbs": 3,
+          "line_doses": 2
+        },
+        {
+          "line_index": 11,
+          "locus": "<f58v.11,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "tchol . shol . tor . qokair . or . y . ykaiin . dory . okaiir . chodaiin . otals",
+          "interlinear_gloss": "HDR-T+HERB-FLUID[tchol] | SAP-FLUID[shol] | HDR-T+OR[tor] | ACT-BOIL+AIR[qokair] | PORTION[or] | Y[y] | AND+HEAT-DOSE.MEAS[ykaiin] | FROM+OR-STATE[dory] | NOM-BOIL+AIIR[okaiir] | CHOD-DOSE.MEAS[chodaiin] | NOM-DRAW+ALS[otals]",
+          "line_verbs": 1,
+          "line_doses": 6
+        },
+        {
+          "line_index": 12,
+          "locus": "<f58v.12,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "oreeey . cheekey . cheal . qokey . chedal . dy . tolair . opchey . poaly . cfhy",
+          "interlinear_gloss": "NOM+REE-EXT.STATE[oreeey] | CHEEK-EXT.STATE[cheekey] | MACERATE-VESSEL[cheal] | ACT-BOIL+E-STATE[qokey] | CHED-VESSEL[chedal] | DONE[dy] | HDR-T+OLAIR[tolair] | NOM+PCH-EXT.STATE[opchey]*Z+H+P+S | HDR-P+OAL-STATE[poaly] | STRAIN-BALM-STATE[cfhy]*H+P+S",
+          "line_verbs": 1,
+          "line_doses": 2
+        },
+        {
+          "line_index": 13,
+          "locus": "<f58v.13,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "qoeear . alkeain . ytal . chos . alor . okal . chcthy . tal . y . kar",
+          "interlinear_gloss": "ACT+EE-SOURCE[qoeear] | ALKE-MIN.MEAS[alkeain] | AND+DRAW-VESSEL[ytal] | CHOS[chos] | AL-PORTION[alor] | NOM-BOIL+AL[okal] | CHCTH-STATE[chcthy] | HDR-T+AL[tal] | Y[y] | HDR-K+AR[kar]",
+          "line_verbs": 1,
+          "line_doses": 7
+        },
+        {
+          "line_index": 14,
+          "locus": "<f58v.14,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "shar . air . alor . chol . oeear . sho . qotal . chol . tal . ar . tar . aropam",
+          "interlinear_gloss": "NEXT+H-SOURCE[shar] | AIR[air] | AL-PORTION[alor] | HERB-LEAF[chol] | NOM+EE-SOURCE[oeear] | NEXT+HO[sho] | ACT-DRAW+AL[qotal] | HERB-LEAF[chol] | HDR-T+AL[tal] | AT-PART[ar] | HDR-T+AR[tar] | AROP-FINAL.COL[aropam]",
+          "line_verbs": 1,
+          "line_doses": 10
+        },
+        {
+          "line_index": 15,
+          "locus": "<f58v.15,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "qot . oiin . okal . aral . s . air . qoal . talchos . okal . cho . ytam . dam",
+          "interlinear_gloss": "QOT[qot] | NOM-UNIT[oiin] | NOM-BOIL+AL[okal] | AR-VESSEL[aral] | S[s] | AIR[air] | ACT+AL[qoal] | HDR-T+ALCHOS[talchos] | NOM-BOIL+AL[okal] | CHO[cho] | AND+DRAW-FINAL.COL[ytam] | FROM+A-TERM[dam]*P_LABEL+H+S",
+          "line_verbs": 2,
+          "line_doses": 7
+        },
+        {
+          "line_index": 16,
+          "locus": "<f58v.16,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "ykam . qokair . okaly . qokal . chaly . cheockhey . olaly . taldar . al",
+          "interlinear_gloss": "AND+HEAT-FINAL.COL[ykam] | ACT-BOIL+AIR[qokair] | NOM-BOIL+AL-STATE[okaly] | ACT-BOIL+AL[qokal] | CHAL-STATE[chaly] | CHEOCKH-EXT.STATE[cheockhey] | FLUID+AL-STATE[olaly] | HDR-T+ALD-SOURCE[taldar] | TO-VESSEL[al]",
+          "line_verbs": 2,
+          "line_doses": 4
+        },
+        {
+          "line_index": 17,
+          "locus": "<f58v.17,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "daiin . alal . dal . qokar . otal . chodol . qokeal . cheol . chos . okeeam",
+          "interlinear_gloss": "FROM-MEASURE[daiin] | AL-VESSEL[alal] | FROM-VESSEL[dal] | ACT-BOIL+AR[qokar] | NOM-DRAW+AL[otal] | CHOD-FLUID[chodol] | ACT-BOIL+E-VESSEL[qokeal] | MACERATE-FLUID[cheol] | CHOS[chos] | NOM-BOIL+EE-FINAL.COL[okeeam]",
+          "line_verbs": 2,
+          "line_doses": 9
+        },
+        {
+          "line_index": 18,
+          "locus": "<f58v.18,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "taiin . chal . sheal . qockhy . dar . aiin . ockhey . qokeey . qoaiin . aral",
+          "interlinear_gloss": "HDR-T+A-UNIT.MEAS[taiin] | HERB-VESSEL[chal] | NEXT+HE-VESSEL[sheal] | ACT+CONC-BOIL-STATE[qockhy] | IN-PART[dar] | ONE-DOSE[aiin] | NOM+CONC-BOIL-EXT.STATE[ockhey]*H+P+S | ACT-STEEP-EXT[qokeey] | ACT+A-UNIT.MEAS[qoaiin] | AR-VESSEL[aral]",
+          "line_verbs": 3,
+          "line_doses": 7
+        },
+        {
+          "line_index": 19,
+          "locus": "<f58v.19,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "okain . chokal . sheoldy . qokor . olkam . cheol . dar . chokeey . okalchy",
+          "interlinear_gloss": "NOM-BOIL+AIN[okain] | CHOK-VESSEL[chokal] | NEXT+HEOL-DONE[sheoldy] | ACT-BOIL+OR[qokor] | FLUID+HEAT-FINAL.COL[olkam] | MACERATE-FLUID[cheol] | IN-PART[dar] | CHOKE-EXT.STATE[chokeey] | NOM-BOIL+ALCH-STATE[okalchy]",
+          "line_verbs": 1,
+          "line_doses": 6
+        },
+        {
+          "line_index": 20,
+          "locus": "<f58v.20,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "tolain . ar . ykeain . qokeey . otal . chol . okal . ar . ty . chkalarol",
+          "interlinear_gloss": "HDR-T+OL-MIN.MEAS[tolain] | AT-PART[ar] | AND+SIMMER-MIN.MEAS[ykeain] | ACT-STEEP-EXT[qokeey] | NOM-DRAW+AL[otal] | HERB-LEAF[chol] | NOM-BOIL+AL[okal] | AT-PART[ar] | DRAW-STATE[ty] | CHKALAR-FLUID[chkalarol]",
+          "line_verbs": 1,
+          "line_doses": 8
+        },
+        {
+          "line_index": 21,
+          "locus": "<f58v.21,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "olain . olalor . odaiin . qetair . otal . qokal . dair . oiy . otam",
+          "interlinear_gloss": "FLUID+AIN[olain] | FLUID+AL-PORTION[olalor] | NOM-MEASURE[odaiin] | QETAIR[qetair] | NOM-DRAW+AL[otal] | ACT-BOIL+AL[qokal] | FROM+AIR[dair] | NOM+I-STATE[oiy] | NOM-DRAW+A-TERM[otam]",
+          "line_verbs": 1,
+          "line_doses": 6
+        },
+        {
+          "line_index": 22,
+          "locus": "<f58v.22,+Pc>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "okar . sheey . shekealy",
+          "interlinear_gloss": "NOM-BOIL+AR[okar] | NEXT+HE-EXT.STATE[sheey] | NEXT+HEKEAL-STATE[shekealy]",
+          "line_verbs": 0,
+          "line_doses": 1
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "recipe_id": "<f58r.16>",
+      "folio": "f58r",
+      "token_count": 94,
+      "line_count": 10,
+      "verb_count": 10,
+      "dose_count": 48,
+      "verb_to_dose_ratio": 0.208,
+      "stage1_zodiac_source": "f72v3 (Leo / August / SUMMER)",
+      "stage2_herbal_source": "f46r ($L=B, $H=2)",
+      "stage3_pharm_source": "f89v1",
+      "four_stage_zhps_stems": [
+        "okaldy"
+      ],
+      "three_stage_hps_stems": [
+        "dalchdy",
+        "okaldy",
+        "chekey",
+        "choky"
+      ],
+      "pharm_label_anchored_stems": [],
+      "total_chain_score": 27.329,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f58r.16,+P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "typchey . ar . air . ytashy . qotyshey . pchdy . dshaly . pydaly . choky . opy",
+          "interlinear_gloss": "HDR-T+YPCH-EXT.STATE[typchey] | AT-PART[ar] | AIR[air] | AND+TASH-STATE[ytashy] | ACT-DRAW+YSH-EXT.STATE[qotyshey] | HDR-P+HERB-DONE[pchdy] | FROM+SHAL-STATE[dshaly] | HDR-P+YDAL-STATE[pydaly] | CHOK-STATE[choky]*H+P+S | NOM+P-STATE[opy]",
+          "line_verbs": 1,
+          "line_doses": 1
+        },
+        {
+          "line_index": 2,
+          "locus": "<f58r.17,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "ysholshy . qotoly . daiin . ykal . dalchdy . qoky . dal . ytchody . s . olar . aly",
+          "interlinear_gloss": "AND+SHOLSH-STATE[ysholshy] | ACT-DRAW+OL-STATE[qotoly] | FROM-MEASURE[daiin] | AND+HEAT-VESSEL[ykal] | FROM+ALCH-DONE[dalchdy]*H+P+S | ACT+HEAT-STATE[qoky] | FROM-VESSEL[dal] | AND+STEM-DRAW-NOM.STATE[ytchody] | S[s] | FLUID+AR[olar] | AL-STATE[aly]",
+          "line_verbs": 2,
+          "line_doses": 4
+        },
+        {
+          "line_index": 3,
+          "locus": "<f58r.18,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "darar . shol . cholraly . cholaiin . odaiin . chaly . dalar . aiin . okal . otal",
+          "interlinear_gloss": "FROM+AR-SOURCE[darar] | SAP-FLUID[shol] | CHOLRAL-STATE[cholraly] | CHOL-DOSE.MEAS[cholaiin] | NOM-MEASURE[odaiin] | CHAL-STATE[chaly] | FROM+AL-SOURCE[dalar] | ONE-DOSE[aiin] | NOM-BOIL+AL[okal] | NOM-DRAW+AL[otal]",
+          "line_verbs": 0,
+          "line_doses": 8
+        },
+        {
+          "line_index": 4,
+          "locus": "<f58r.19,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "todal . qotey . chaly . dal . qokaldy . otary . okalal . ees . chal . ochaly",
+          "interlinear_gloss": "HDR-T+OD-VESSEL[todal] | ACT-DRAW+E-STATE[qotey] | CHAL-STATE[chaly] | FROM-VESSEL[dal] | ACT-BOIL+AL-DONE[qokaldy]*Z+H+P+S | NOM-DRAW+AR-STATE[otary] | NOM-BOIL+AL-VESSEL[okalal] | EES[ees] | HERB-VESSEL[chal] | NOM+CHAL-STATE[ochaly]",
+          "line_verbs": 2,
+          "line_doses": 4
+        },
+        {
+          "line_index": 5,
+          "locus": "<f58r.20,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "ysheockhy . olchey . oleesey . alaiin . olkeal . daldy . otalar . ar . arodaim",
+          "interlinear_gloss": "AND+SHEOCKH-STATE[ysheockhy] | FLUID+HERB-EXT.STATE[olchey] | FLUID+EES-EXT.STATE[oleesey] | AL-DOSE.MEAS[alaiin] | FLUID+SIMMER-VESSEL[olkeal] | FROM+AL-DONE[daldy] | NOM-DRAW+AL-SOURCE[otalar] | AT-PART[ar] | ARODAI-TERM[arodaim]",
+          "line_verbs": 1,
+          "line_doses": 4
+        },
+        {
+          "line_index": 6,
+          "locus": "<f58r.21,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "tcheos . ycheor . sheain . okey . qotaily . daiin . chy . cholkor . olkeol . oty",
+          "interlinear_gloss": "HDR-T+CHEOS[tcheos] | AND+MACERATE-PORTION[ycheor] | NEXT+HE-MIN.MEAS[sheain] | NOM-BOIL+E-STATE[okey] | ACT-DRAW+AIL-STATE[qotaily] | FROM-MEASURE[daiin] | HERB-STATE[chy] | CHOLK-PORTION[cholkor] | FLUID+SIMMER-FLUID[olkeol] | NOM-DRAW[oty]",
+          "line_verbs": 1,
+          "line_doses": 5
+        },
+        {
+          "line_index": 7,
+          "locus": "<f58r.22,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "dcholy . ytar . chol . dal . qoaiir . chalolky . osal . chotam . chal . olseeg",
+          "interlinear_gloss": "FROM+CHOL-STATE[dcholy] | AND+DRAW-SOURCE[ytar] | HERB-LEAF[chol] | FROM-VESSEL[dal] | ACT+AIIR[qoaiir] | CHALOLK-STATE[chalolky] | NOM+S-VESSEL[osal] | CHOT-FINAL.COL[chotam] | HERB-VESSEL[chal] | FLUID+SEEG[olseeg]",
+          "line_verbs": 1,
+          "line_doses": 6
+        },
+        {
+          "line_index": 8,
+          "locus": "<f58r.23,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "shol . aleedy . chotar . okeal . sheody . qokalchar . otal . choky . sar",
+          "interlinear_gloss": "SAP-FLUID[shol] | AL-STEEP.PROC[aleedy] | CHOT-SOURCE[chotar] | NOM-BOIL+E-VESSEL[okeal] | NEXT+HE-NOM.STATE[sheody] | ACT-BOIL+ALCH-SOURCE[qokalchar] | NOM-DRAW+AL[otal] | CHOK-STATE[choky]*H+P+S | NEXT+AR[sar]",
+          "line_verbs": 2,
+          "line_doses": 6
+        },
+        {
+          "line_index": 9,
+          "locus": "<f58r.24,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "tazain . oteeos . okeal . ar . otalor . cheoekar . cheky . otakas",
+          "interlinear_gloss": "HDR-T+AZ-MIN.MEAS[tazain] | NOM-DRAW+EEOS[oteeos] | NOM-BOIL+E-VESSEL[okeal] | AT-PART[ar] | NOM-DRAW+AL-PORTION[otalor] | CHEOEK-SOURCE[cheoekar] | CHEK-STATE[cheky] | NOM-DRAW+AKAS[otakas]",
+          "line_verbs": 0,
+          "line_doses": 5
+        },
+        {
+          "line_index": 10,
+          "locus": "<f58r.25,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "oar . cheekey . oteeoaly . otar . alkar . or . aldar",
+          "interlinear_gloss": "NOM+AR[oar] | CHEEK-EXT.STATE[cheekey]*H+P+S | NOM-DRAW+EEOAL-STATE[oteeoaly] | NOM-DRAW+AR[otar] | ALK-SOURCE[alkar] | PORTION[or] | ALD-SOURCE[aldar]",
+          "line_verbs": 0,
+          "line_doses": 5
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "recipe_id": "<f58v.34>",
+      "folio": "f58v",
+      "token_count": 52,
+      "line_count": 6,
+      "verb_count": 8,
+      "dose_count": 25,
+      "verb_to_dose_ratio": 0.32,
+      "stage1_zodiac_source": "f73v (Sagittarius / December / WINTER)",
+      "stage2_herbal_source": "f90r1 ($L=A, $H=1)",
+      "stage3_pharm_source": "f89v2",
+      "four_stage_zhps_stems": [
+        "okeos",
+        "ykedy"
+      ],
+      "three_stage_hps_stems": [
+        "okeos",
+        "ykedy",
+        "chockhy",
+        "okam"
+      ],
+      "pharm_label_anchored_stems": [
+        "okam"
+      ],
+      "total_chain_score": 24.776,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f58v.34,+P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "tol . sheo . keo . ar . qofcheal . dar . aey . opchal . shockhy . okaly",
+          "interlinear_gloss": "HDR-T+OL[tol] | NEXT+HEO[sheo] | HDR-K+EO[keo] | AT-PART[ar] | ACT+FCHE-VESSEL[qofcheal] | IN-PART[dar] | A-EXT.STATE[aey] | NOM+PCH-VESSEL[opchal] | NEXT+HOCKH-STATE[shockhy]*H+P+S | NOM-BOIL+AL-STATE[okaly]",
+          "line_verbs": 1,
+          "line_doses": 5
+        },
+        {
+          "line_index": 2,
+          "locus": "<f58v.35,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "daiin . otain . okain . chey . okeey . qokeeos . olar . sheo . daly . dalychs",
+          "interlinear_gloss": "FROM-MEASURE[daiin] | NOM-DRAW+AIN[otain] | NOM-BOIL+AIN[okain] | HERB-EXTRACT[chey] | NOM-BOIL+E-EXT.STATE[okeey] | ACT-BOIL+EEOS[qokeeos]*Z+H+P+S | FLUID+AR[olar] | NEXT+HEO[sheo] | FROM+AL-STATE[daly] | FROM+ALYCHS[dalychs]",
+          "line_verbs": 1,
+          "line_doses": 4
+        },
+        {
+          "line_index": 3,
+          "locus": "<f58v.36,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "tcheody . okeor . ockhy . qokal . okal . shokey . qokeey . dalar",
+          "interlinear_gloss": "HDR-T+MACERATE-NOM.STATE[tcheody] | NOM-BOIL+E-PORTION[okeor] | NOM+CONC-BOIL-STATE[ockhy] | ACT-BOIL+AL[qokal] | NOM-BOIL+AL[okal] | NEXT+HOK-EXT.STATE[shokey] | ACT-STEEP-EXT[qokeey] | FROM+AL-SOURCE[dalar]",
+          "line_verbs": 2,
+          "line_doses": 4
+        },
+        {
+          "line_index": 4,
+          "locus": "<f58v.37,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "olkeey . okar . ar . choky . otair . otol . chokey . cheeky . dalar",
+          "interlinear_gloss": "FLUID+SIMMER-EXT.STATE[olkeey] | NOM-BOIL+AR[okar] | AT-PART[ar] | CHOK-STATE[choky] | NOM-DRAW+AIR[otair] | NOM-DRAW+OL[otol] | CHOK-EXT.STATE[chokey] | CHEEK-STATE[cheeky] | FROM+AL-SOURCE[dalar]",
+          "line_verbs": 0,
+          "line_doses": 4
+        },
+        {
+          "line_index": 5,
+          "locus": "<f58v.38,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "ykeeody . qokar . qoky . keey . qokol . okal . okor . cheky . sydy",
+          "interlinear_gloss": "AND+KEE-NOM.STATE[ykeeody]*Z+H+P+S | ACT-BOIL+AR[qokar] | ACT+HEAT-STATE[qoky] | HDR-K+E-EXT.STATE[keey] | ACT-BOIL+OL[qokol] | NOM-BOIL+AL[okal] | NOM-BOIL+OR[okor] | CHEK-STATE[cheky] | NEXT+Y-DONE[sydy]",
+          "line_verbs": 3,
+          "line_doses": 4
+        },
+        {
+          "line_index": 6,
+          "locus": "<f58v.39,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "oshar . qokain . okam . shear . cher . sarols",
+          "interlinear_gloss": "NOM+SAP-SOURCE[oshar] | ACT-BOIL+AIN[qokain] | NOM-BOIL+A-TERM[okam]*P_LABEL+H+S | NEXT+HE-SOURCE[shear] | CHER[cher] | NEXT+AROLS[sarols]",
+          "line_verbs": 1,
+          "line_doses": 4
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "recipe_id": "<f58v.23>",
+      "folio": "f58v",
+      "token_count": 60,
+      "line_count": 6,
+      "verb_count": 17,
+      "dose_count": 35,
+      "verb_to_dose_ratio": 0.486,
+      "stage1_zodiac_source": "f72v3 (Leo / August / SUMMER)",
+      "stage2_herbal_source": "f40v ($L=B, $H=2)",
+      "stage3_pharm_source": "f89v2",
+      "four_stage_zhps_stems": [
+        "okeos",
+        "okam"
+      ],
+      "three_stage_hps_stems": [
+        "okeos",
+        "okair",
+        "okam",
+        "air"
+      ],
+      "pharm_label_anchored_stems": [
+        "okam"
+      ],
+      "total_chain_score": 24.048,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f58v.23,*P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "pchshy . sheoltey . shopalchedy . sheolkeal . qokar . aldaiin . qokalar . dal",
+          "interlinear_gloss": "HDR-P+CHSH-STATE[pchshy] | NEXT+HEOLT-EXT.STATE[sheoltey] | NEXT+HOPALCH-INFUSE.PROC[shopalchedy] | NEXT+HEOLKE-VESSEL[sheolkeal] | ACT-BOIL+AR[qokar] | ALD-DOSE.MEAS[aldaiin] | ACT-BOIL+AL-SOURCE[qokalar] | FROM-VESSEL[dal]",
+          "line_verbs": 3,
+          "line_doses": 5
+        },
+        {
+          "line_index": 2,
+          "locus": "<f58v.24,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "qokal . daiin . qokal . cham . qokalcheal . okor . air . ain . ar . als . okam . daly",
+          "interlinear_gloss": "ACT-BOIL+AL[qokal] | FROM-MEASURE[daiin] | ACT-BOIL+AL[qokal] | HERB-FINAL.COL[cham] | ACT-BOIL+ALCHE-VESSEL[qokalcheal] | NOM-BOIL+OR[okor] | AIR[air]*H+P+S | AIN[ain] | AT-PART[ar] | ALS[als] | NOM-BOIL+A-TERM[okam]*Z+H+P+S | FROM+AL-STATE[daly]",
+          "line_verbs": 3,
+          "line_doses": 9
+        },
+        {
+          "line_index": 3,
+          "locus": "<f58v.25,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "qotain . okeor . sheey . qokeol . okeoly . qokaly . qokair . or . tas . ykal",
+          "interlinear_gloss": "ACT-DRAW+AIN[qotain] | NOM-BOIL+E-PORTION[okeor] | NEXT+HE-EXT.STATE[sheey] | ACT-BOIL+E-FLUID[qokeol] | NOM-BOIL+EOL-STATE[okeoly] | ACT-BOIL+AL-STATE[qokaly] | ACT-BOIL+AIR[qokair]*H+P+S | PORTION[or] | HDR-T+AS[tas] | AND+HEAT-VESSEL[ykal]",
+          "line_verbs": 4,
+          "line_doses": 5
+        },
+        {
+          "line_index": 4,
+          "locus": "<f58v.26,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "ykaly . qokal . ol . al . qokeos . okal . ar . okos . al . shekar . qokair . alam",
+          "interlinear_gloss": "AND+KAL-STATE[ykaly] | ACT-BOIL+AL[qokal] | THE-FLUID[ol] | TO-VESSEL[al] | ACT-BOIL+EOS[qokeos]*Z+H+P+S | NOM-BOIL+AL[okal] | AT-PART[ar] | NOM-BOIL+OS[okos] | TO-VESSEL[al] | NEXT+HEK-SOURCE[shekar] | ACT-BOIL+AIR[qokair]*H+P+S | AL-FINAL.COL[alam]",
+          "line_verbs": 3,
+          "line_doses": 8
+        },
+        {
+          "line_index": 5,
+          "locus": "<f58v.27,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "qokar . s . aiin . al . y . qokchedy . qoekaly . odaiin . qokar . char . alaiinom",
+          "interlinear_gloss": "ACT-BOIL+AR[qokar] | S[s] | ONE-DOSE[aiin] | TO-VESSEL[al] | Y[y] | ACT-BOIL+HERB-INFUSE.PROC[qokchedy] | ACT+EKAL-STATE[qoekaly] | NOM-MEASURE[odaiin] | ACT-BOIL+AR[qokar] | HERB-SOURCE[char] | ALAIINO-TERM[alaiinom]",
+          "line_verbs": 4,
+          "line_doses": 6
+        },
+        {
+          "line_index": 6,
+          "locus": "<f58v.28,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "ycheockhy . okey . okal . otaly . okaldy . okeor . sheey",
+          "interlinear_gloss": "AND+CHEOCKH-STATE[ycheockhy] | NOM-BOIL+E-STATE[okey] | NOM-BOIL+AL[okal] | NOM-DRAW+AL-STATE[otaly] | NOM-BOIL+AL-DONE[okaldy] | NOM-BOIL+E-PORTION[okeor] | NEXT+HE-EXT.STATE[sheey]",
+          "line_verbs": 0,
+          "line_doses": 2
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "recipe_id": "<f108r.8>",
+      "folio": "f108r",
+      "token_count": 61,
+      "line_count": 6,
+      "verb_count": 14,
+      "dose_count": 31,
+      "verb_to_dose_ratio": 0.452,
+      "stage1_zodiac_source": "f72r3 (Cancer / July / SUMMER)",
+      "stage2_herbal_source": "f41v ($L=B, $H=5)",
+      "stage3_pharm_source": "f102r1",
+      "four_stage_zhps_stems": [
+        "otedy",
+        "ykey"
+      ],
+      "three_stage_hps_stems": [
+        "ykeol",
+        "oly",
+        "otedy",
+        "ykey"
+      ],
+      "pharm_label_anchored_stems": [],
+      "total_chain_score": 24.041,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f108r.8,+P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "pochedy . shy . shokeedar . al . kedal . chokchy . qokar . ch . okeey . qaiin . okeedy . qetam",
+          "interlinear_gloss": "HDR-P+OCH-INFUSE.PROC[pochedy] | SAP-STATE[shy] | NEXT+HOKEED-SOURCE[shokeedar] | TO-VESSEL[al] | HDR-K+ED-VESSEL[kedal] | CHOKCH-STATE[chokchy] | ACT-BOIL+AR[qokar] | HERB[ch] | NOM-BOIL+E-EXT.STATE[okeey] | Q-DOSE.MEAS[qaiin] | NOM-BOIL+E-INFUSE.PROC[okeedy] | QET-FINAL.COL[qetam]",
+          "line_verbs": 3,
+          "line_doses": 6
+        },
+        {
+          "line_index": 2,
+          "locus": "<f108r.9,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "cthey . chedain . chedy . okedy . lkedy . raraiin . qokar . otal . kedy . ar . air . ockhedy",
+          "interlinear_gloss": "PRESS-HERB-EXT.STATE[cthey] | CHED-MIN.MEAS[chedain] | INFUSE-MIX[chedy] | NOM-BOIL+E-DONE[okedy] | LIQ-APP+HEAT-INFUSE.PROC[lkedy] | RAR-DOSE.MEAS[raraiin] | ACT-BOIL+AR[qokar] | NOM-DRAW+AL[otal] | HDR-K+E-DONE[kedy] | AT-PART[ar] | AIR[air] | NOM+CONC-BOIL-INFUSE.PROC[ockhedy]",
+          "line_verbs": 6,
+          "line_doses": 5
+        },
+        {
+          "line_index": 3,
+          "locus": "<f108r.10,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "taiin . shkeedy . qoteey . oteey . ykeol . ykeedy . chekar . qokeeodaiin . okeyty . ody",
+          "interlinear_gloss": "HDR-T+A-UNIT.MEAS[taiin] | NEXT+HK-STEEP.PROC[shkeedy] | ACT-DRAW+E-EXT.STATE[qoteey] | NOM-DRAW+E-EXT.STATE[oteey] | AND+SIMMER-FLUID[ykeol]*H+P+S | AND+HEAT-STEEP.PROC[ykeedy] | CHEK-SOURCE[chekar] | ACT-BOIL+EEOD-DOSE.MEAS[qokeeodaiin] | NOM-BOIL+EYT-STATE[okeyty] | NOM-STATE[ody]",
+          "line_verbs": 4,
+          "line_doses": 4
+        },
+        {
+          "line_index": 4,
+          "locus": "<f108r.11,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "teodeey . ar . aiin . okeey . qetchdy . oteeody . okaiin . ykeeo . dain . otalaiin . oly",
+          "interlinear_gloss": "HDR-T+EODE-EXT.STATE[teodeey] | AT-PART[ar] | ONE-DOSE[aiin] | NOM-BOIL+E-EXT.STATE[okeey] | QETCH-DONE[qetchdy] | NOM-DRAW+EE-NOM.STATE[oteeody]*Z+H+P+S | NOM-BOIL-DOSE[okaiin] | AND+KEEO[ykeeo] | FROM+AIN[dain] | NOM-DRAW+AL-DOSE.MEAS[otalaiin] | NOM+L-STATE[oly]*H+P+S",
+          "line_verbs": 0,
+          "line_doses": 5
+        },
+        {
+          "line_index": 5,
+          "locus": "<f108r.12,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "tshey . okchey . dain . aloiin . ocheey . qokaiin . chlam . okaiin . okal . kain . alam",
+          "interlinear_gloss": "HDR-T+SAP-EXT.STATE[tshey] | NOM-BOIL+HERB-EXT.STATE[okchey] | FROM+AIN[dain] | ALO-UNIT.MEAS[aloiin] | NOM+MACERATE-EXT.STATE[ocheey] | ACT-BOIL-MEASURE[qokaiin] | CHL-FINAL.COL[chlam] | NOM-BOIL-DOSE[okaiin] | NOM-BOIL+AL[okal] | HDR-K+AIN[kain] | AL-FINAL.COL[alam]",
+          "line_verbs": 1,
+          "line_doses": 8
+        },
+        {
+          "line_index": 6,
+          "locus": "<f108r.13,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "ykeey . raiin . ar . ail . odaiin",
+          "interlinear_gloss": "AND+SIMMER-EXT.STATE[ykeey]*Z+H+P+S | R-DOSE.MEAS[raiin] | AT-PART[ar] | AIL[ail] | NOM-MEASURE[odaiin]",
+          "line_verbs": 0,
+          "line_doses": 3
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "recipe_id": "<f58r.26>",
+      "folio": "f58r",
+      "token_count": 144,
+      "line_count": 16,
+      "verb_count": 14,
+      "dose_count": 84,
+      "verb_to_dose_ratio": 0.167,
+      "stage1_zodiac_source": "f72r3 (Cancer / July / SUMMER)",
+      "stage2_herbal_source": "f54r ($L=A, $H=1)",
+      "stage3_pharm_source": "f99r",
+      "four_stage_zhps_stems": [
+        "ckhol",
+        "okor",
+        "air"
+      ],
+      "three_stage_hps_stems": [
+        "ckhol",
+        "okor",
+        "sar",
+        "air"
+      ],
+      "pharm_label_anchored_stems": [
+        "okor"
+      ],
+      "total_chain_score": 23.933,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f58r.26,+P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "kshar . shoky . opcheear . ofadain . opsheolaiin . opydaiin . podaiir",
+          "interlinear_gloss": "HDR-K+SAP-SOURCE[kshar] | NEXT+HOK-STATE[shoky] | NOM+PCHEE-SOURCE[opcheear] | NOM+FAD-MIN.MEAS[ofadain] | NOM+PSHEOL-DOSE.MEAS[opsheolaiin] | NOM+PYD-DOSE.MEAS[opydaiin] | HDR-P+ODAIIR[podaiir]",
+          "line_verbs": 0,
+          "line_doses": 5
+        },
+        {
+          "line_index": 2,
+          "locus": "<f58r.27,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "yteor . oty . chaltar . ar . sheeetchy . tal . al . chear . chear . chor . ar . am",
+          "interlinear_gloss": "AND+EXTRACT-PORTION[yteor] | NOM-DRAW[oty] | CHALT-SOURCE[chaltar] | AT-PART[ar] | NEXT+HEEETCH-STATE[sheeetchy] | HDR-T+AL[tal] | TO-VESSEL[al] | MACERATE-SOURCE[chear] | MACERATE-SOURCE[chear] | HERB-PART[chor] | AT-PART[ar] | A-TERM[am]",
+          "line_verbs": 0,
+          "line_doses": 10
+        },
+        {
+          "line_index": 3,
+          "locus": "<f58r.28,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "yshealkair . odalaly . dalal . chy . s . air . shokar . olaldy . okalody",
+          "interlinear_gloss": "AND+SHEALKAIR[yshealkair] | NOM+DALAL-STATE[odalaly] | FROM+AL-VESSEL[dalal] | HERB-STATE[chy] | S[s] | AIR[air]*Z+H+P+S | NEXT+HOK-SOURCE[shokar] | FLUID+AL-DONE[olaldy] | NOM-BOIL+AL-NOM.STATE[okalody]",
+          "line_verbs": 0,
+          "line_doses": 2
+        },
+        {
+          "line_index": 4,
+          "locus": "<f58r.29,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "odalar . cheor . sar . alol . daly . cheom . chor . ar . aldam . chal . cheal . r . omy",
+          "interlinear_gloss": "NOM+DAL-SOURCE[odalar] | MACERATE-PORTION[cheor] | NEXT+AR[sar]*H+P+S | AL-FLUID[alol] | FROM+AL-STATE[daly] | CHEO-TERM[cheom] | HERB-PART[chor] | AT-PART[ar] | ALD-FINAL.COL[aldam] | HERB-VESSEL[chal] | MACERATE-VESSEL[cheal] | R[r] | NOM+M-STATE[omy]",
+          "line_verbs": 0,
+          "line_doses": 9
+        },
+        {
+          "line_index": 5,
+          "locus": "<f58r.30,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "ytor . ar . alom . qokalor . chdy . dair . chody . cheol . okolchy . otaldy",
+          "interlinear_gloss": "AND+DRAW-PORTION[ytor] | AT-PART[ar] | ALO-TERM[alom] | ACT-BOIL+AL-PORTION[qokalor] | HERB-DONE[chdy] | FROM+AIR[dair] | HERB-NOM.STATE[chody] | MACERATE-FLUID[cheol] | NOM-BOIL+OLCH-STATE[okolchy] | NOM-DRAW+AL-DONE[otaldy]",
+          "line_verbs": 1,
+          "line_doses": 4
+        },
+        {
+          "line_index": 6,
+          "locus": "<f58r.31,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "odshchol . taiin . okal . or . chol . ol . ekar . otarchol . chol . kam . qokal",
+          "interlinear_gloss": "NOM+DSHCH-FLUID[odshchol] | HDR-T+A-UNIT.MEAS[taiin] | NOM-BOIL+AL[okal] | PORTION[or] | HERB-LEAF[chol] | THE-FLUID[ol] | EK-SOURCE[ekar] | NOM-DRAW+ARCH-FLUID[otarchol] | HERB-LEAF[chol] | HDR-K+A-TERM[kam] | ACT-BOIL+AL[qokal]",
+          "line_verbs": 1,
+          "line_doses": 11
+        },
+        {
+          "line_index": 7,
+          "locus": "<f58r.32,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "oqotaly . qokaiin . chtaldy . qoky . dar . al . chol . taly . qokaldy",
+          "interlinear_gloss": "NOM+QOTAL-STATE[oqotaly] | ACT-BOIL-MEASURE[qokaiin] | CHTAL-DONE[chtaldy] | ACT+HEAT-STATE[qoky] | IN-PART[dar] | TO-VESSEL[al] | HERB-LEAF[chol] | HDR-T+AL-STATE[taly] | ACT-BOIL+AL-DONE[qokaldy]",
+          "line_verbs": 3,
+          "line_doses": 4
+        },
+        {
+          "line_index": 8,
+          "locus": "<f58r.33,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "schoy . dalols . qokalos . cheor . oekeody . qokaly . qokar . dy",
+          "interlinear_gloss": "NEXT+CHO-STATE[schoy] | FROM+ALOLS[dalols] | ACT-BOIL+ALOS[qokalos] | MACERATE-PORTION[cheor] | NOM+EKE-NOM.STATE[oekeody] | ACT-BOIL+AL-STATE[qokaly] | ACT-BOIL+AR[qokar] | DONE[dy]",
+          "line_verbs": 3,
+          "line_doses": 2
+        },
+        {
+          "line_index": 9,
+          "locus": "<f58r.34,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "yssheol . chokey . dalol . shokalol . qokaly . kaldy . ytaipom",
+          "interlinear_gloss": "AND+SSHE-FLUID[yssheol] | CHOK-EXT.STATE[chokey] | FROM+AL-FLUID[dalol] | NEXT+HOKAL-FLUID[shokalol] | ACT-BOIL+AL-STATE[qokaly] | HDR-K+AL-DONE[kaldy] | AND+TAIPO-TERM[ytaipom]",
+          "line_verbs": 1,
+          "line_doses": 3
+        },
+        {
+          "line_index": 10,
+          "locus": "<f58r.35,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "dtos . sheol . qokor . sharal . ckhol . shol . ar . aiin . sheoctham",
+          "interlinear_gloss": "FROM+TOS[dtos] | NEXT+HE-FLUID[sheol] | ACT-BOIL+OR[qokor]*Z+H+P+S | NEXT+HAR-VESSEL[sharal] | CONC-BOIL-FLUID[ckhol]*Z+H+P+S | SAP-FLUID[shol] | AT-PART[ar] | ONE-DOSE[aiin] | NEXT+HEOCTH-FINAL.COL[sheoctham]",
+          "line_verbs": 1,
+          "line_doses": 8
+        },
+        {
+          "line_index": 11,
+          "locus": "<f58r.36,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "skaiin . shokal . chockhy . qoky . chcthy . ykeeshy . shoekar",
+          "interlinear_gloss": "NEXT+HEAT-DOSE.MEAS[skaiin] | NEXT+HOK-VESSEL[shokal] | CHOCKH-STATE[chockhy] | ACT+HEAT-STATE[qoky] | CHCTH-STATE[chcthy] | AND+KEESH-STATE[ykeeshy] | NEXT+HOEK-SOURCE[shoekar]",
+          "line_verbs": 1,
+          "line_doses": 3
+        },
+        {
+          "line_index": 12,
+          "locus": "<f58r.37,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "opolkeor . olchocfhy . cphol . chykaldy . cholols . chkaiin . olfcham",
+          "interlinear_gloss": "NOM+POLKE-PORTION[opolkeor] | FLUID+CHOCFH-STATE[olchocfhy] | SPLIT-RESIN-FLUID[cphol] | CHYKAL-DONE[chykaldy] | CHOLOLS[cholols] | CHK-DOSE.MEAS[chkaiin] | FLUID+FCH-FINAL.COL[olfcham]",
+          "line_verbs": 1,
+          "line_doses": 4
+        },
+        {
+          "line_index": 13,
+          "locus": "<f58r.38,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "s . ysheos . okaly . cheos . otey . ykar . ls . aiin . okaiin . ytolkal",
+          "interlinear_gloss": "S[s] | AND+SHEOS[ysheos] | NOM-BOIL+AL-STATE[okaly] | CHEOS[cheos] | NOM-DRAW+E-STATE[otey] | AND+HEAT-SOURCE[ykar] | LS[ls] | ONE-DOSE[aiin] | NOM-BOIL-DOSE[okaiin] | AND+TOLK-VESSEL[ytolkal]",
+          "line_verbs": 0,
+          "line_doses": 4
+        },
+        {
+          "line_index": 14,
+          "locus": "<f58r.39,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "dtshol . dytal . okar . olol . sheol . qockhy . qokaly . salol . dalam",
+          "interlinear_gloss": "FROM+TSH-FLUID[dtshol] | FROM+YT-VESSEL[dytal] | NOM-BOIL+AR[okar] | FLUID+OL[olol] | NEXT+HE-FLUID[sheol] | ACT+CONC-BOIL-STATE[qockhy] | ACT-BOIL+AL-STATE[qokaly] | NEXT+AL-FLUID[salol] | FROM+AL-FINAL.COL[dalam]",
+          "line_verbs": 2,
+          "line_doses": 7
+        },
+        {
+          "line_index": 15,
+          "locus": "<f58r.40,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "yroleeey . ar . airaly . pchody . tshaly . alols . ykaly . kar . aram",
+          "interlinear_gloss": "AND+ROLEE-EXT.STATE[yroleeey] | AT-PART[ar] | AIRAL-STATE[airaly] | HDR-P+HERB-NOM.STATE[pchody] | HDR-T+SHAL-STATE[tshaly] | ALOLS[alols] | AND+KAL-STATE[ykaly] | HDR-K+AR[kar] | AR-FINAL.COL[aram]",
+          "line_verbs": 0,
+          "line_doses": 3
+        },
+        {
+          "line_index": 16,
+          "locus": "<f58r.41,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "dchol . chokal . saiin . dal . okal . s . alchey",
+          "interlinear_gloss": "FROM+HERB-FLUID[dchol] | CHOK-VESSEL[chokal] | NEXT+A-UNIT.MEAS[saiin] | FROM-VESSEL[dal] | NOM-BOIL+AL[okal] | S[s] | ALCH-EXT.STATE[alchey]",
+          "line_verbs": 0,
+          "line_doses": 5
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "recipe_id": "<f116r.31>",
+      "folio": "f116r",
+      "token_count": 167,
+      "line_count": 15,
+      "verb_count": 45,
+      "dose_count": 72,
+      "verb_to_dose_ratio": 0.625,
+      "stage1_zodiac_source": "f72r3 (Cancer / July / SUMMER)",
+      "stage2_herbal_source": "f31v ($L=B, $H=2)",
+      "stage3_pharm_source": "f88v",
+      "four_stage_zhps_stems": [
+        "orain",
+        "ches"
+      ],
+      "three_stage_hps_stems": [
+        "lchey",
+        "checkhy",
+        "orain",
+        "ches"
+      ],
+      "pharm_label_anchored_stems": [],
+      "total_chain_score": 23.009,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f116r.31,+P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "pchallarar . al . ckhal . rain . alolfchy . rpchey . shfy . ches . ar . opchekan . dlr",
+          "interlinear_gloss": "HDR-P+CHALLAR-SOURCE[pchallarar] | TO-VESSEL[al] | CONC-BOIL-VESSEL[ckhal] | R-MIN.MEAS[rain] | ALOLFCH-STATE[alolfchy] | RPCH-EXT.STATE[rpchey] | NEXT+HF-STATE[shfy] | CHES[ches]*Z+H+P+S | AT-PART[ar] | NOM+PCHEKAN[opchekan] | FROM+LR[dlr]",
+          "line_verbs": 0,
+          "line_doses": 5
+        },
+        {
+          "line_index": 2,
+          "locus": "<f116r.32,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "olkeey . rain . shey . qor . aiin . shey . ol . lchedy . rshey . qokeedy . chtain . oly",
+          "interlinear_gloss": "FLUID+SIMMER-EXT.STATE[olkeey] | R-MIN.MEAS[rain] | SAP-EXTRACT[shey] | Q-PORTION[qor] | ONE-DOSE[aiin] | SAP-EXTRACT[shey] | THE-FLUID[ol] | LIQ-APP+HERB-INFUSE.PROC[lchedy] | RSH-EXT.STATE[rshey] | ACT-STEEP-BOIL[qokeedy] | CHT-MIN.MEAS[chtain] | NOM+L-STATE[oly]",
+          "line_verbs": 3,
+          "line_doses": 5
+        },
+        {
+          "line_index": 3,
+          "locus": "<f116r.33,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "soraiin . ykeey . arain . sheeky . qokain . sheey . qol . cheds . ar . r . rsheg",
+          "interlinear_gloss": "NEXT+OR-DOSE.MEAS[soraiin] | AND+SIMMER-EXT.STATE[ykeey] | AR-MIN.MEAS[arain] | NEXT+HEEK-STATE[sheeky] | ACT-BOIL+AIN[qokain] | NEXT+HE-EXT.STATE[sheey] | Q-FLUID[qol] | CHEDS[cheds] | AT-PART[ar] | R[r] | RSHEG[rsheg]",
+          "line_verbs": 2,
+          "line_doses": 5
+        },
+        {
+          "line_index": 4,
+          "locus": "<f116r.34,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "qokain . ar . raiin . shek . okain . y . r . shey . qolchey . okaiin . shckhy . qokam",
+          "interlinear_gloss": "ACT-BOIL+AIN[qokain] | AT-PART[ar] | R-DOSE.MEAS[raiin] | NEXT+HEK[shek] | NOM-BOIL+AIN[okain] | Y[y] | R[r] | SAP-EXTRACT[shey] | ACT+LCH-EXT.STATE[qolchey] | NOM-BOIL-DOSE[okaiin] | NEXT+HCKH-STATE[shckhy] | ACT-BOIL+A-TERM[qokam]",
+          "line_verbs": 3,
+          "line_doses": 6
+        },
+        {
+          "line_index": 5,
+          "locus": "<f116r.35,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "shedy . qokeey . qokain . qokeey . lchey . olkey . raiin . cthar . shckhy . qorar",
+          "interlinear_gloss": "DECOCT-STRAIN[shedy] | ACT-STEEP-EXT[qokeey] | ACT-BOIL+AIN[qokain] | ACT-STEEP-EXT[qokeey] | LIQ-APP+HERB-EXT.STATE[lchey]*H+P+S | FLUID+HEAT-EXT.STATE[olkey] | R-DOSE.MEAS[raiin] | PRESS-HERB-SOURCE[cthar] | NEXT+HCKH-STATE[shckhy] | ACT+R-SOURCE[qorar]",
+          "line_verbs": 6,
+          "line_doses": 4
+        },
+        {
+          "line_index": 6,
+          "locus": "<f116r.36,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "qokeey . rain . shey . okeey . lkain . l . dain . chey . sheckhy . qy . qokl . ain",
+          "interlinear_gloss": "ACT-STEEP-EXT[qokeey] | R-MIN.MEAS[rain] | SAP-EXTRACT[shey] | NOM-BOIL+E-EXT.STATE[okeey] | LIQ-APP+HEAT-MIN.MEAS[lkain] | L[l] | FROM+AIN[dain] | HERB-EXTRACT[chey] | NEXT+HECKH-STATE[sheckhy]*H+P+S | Q-STATE[qy] | ACT+KL[qokl] | AIN[ain]",
+          "line_verbs": 3,
+          "line_doses": 4
+        },
+        {
+          "line_index": 7,
+          "locus": "<f116r.37,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "pairain . sheek . l . y . oiin . cheey . lkeey . olkeey . lchey . qoky . lshedy . cheam . sham",
+          "interlinear_gloss": "HDR-P+AIR-MIN.MEAS[pairain] | NEXT+HEEK[sheek] | L[l] | Y[y] | NOM-UNIT[oiin] | MACERATE-EXT.STATE[cheey] | LIQ-APP+SIMMER-EXT.STATE[lkeey] | FLUID+SIMMER-EXT.STATE[olkeey] | LIQ-APP+HERB-EXT.STATE[lchey]*H+P+S | ACT+HEAT-STATE[qoky] | LIQ-APP+SAP-INFUSE.PROC[lshedy] | MACERATE-FINAL.COL[cheam] | NEXT+H-FINAL.COL[sham]",
+          "line_verbs": 4,
+          "line_doses": 4
+        },
+        {
+          "line_index": 8,
+          "locus": "<f116r.38,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "daiin . qokeey . lshey . qokaiin . chkar . shey . okaiin . chedy . qokeedy . raiin . shy",
+          "interlinear_gloss": "FROM-MEASURE[daiin] | ACT-STEEP-EXT[qokeey] | LIQ-APP+SAP-EXT.STATE[lshey]*H+P+S | ACT-BOIL-MEASURE[qokaiin] | CHK-SOURCE[chkar] | SAP-EXTRACT[shey] | NOM-BOIL-DOSE[okaiin] | INFUSE-MIX[chedy] | ACT-STEEP-BOIL[qokeedy] | R-DOSE.MEAS[raiin] | SAP-STATE[shy]",
+          "line_verbs": 5,
+          "line_doses": 5
+        },
+        {
+          "line_index": 9,
+          "locus": "<f116r.39,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "qokain . chey . olr . ain . shey . qokain . o . l . keey . keeey . lkeal . or . al . lom",
+          "interlinear_gloss": "ACT-BOIL+AIN[qokain] | HERB-EXTRACT[chey] | NOM+LR[olr] | AIN[ain] | SAP-EXTRACT[shey] | ACT-BOIL+AIN[qokain] | O[o] | L[l] | HDR-K+E-EXT.STATE[keey] | HDR-K+EE-EXT.STATE[keeey] | LIQ-APP+SIMMER-VESSEL[lkeal] | PORTION[or] | TO-VESSEL[al] | LIQ-APP+O-TERM[lom]",
+          "line_verbs": 3,
+          "line_doses": 6
+        },
+        {
+          "line_index": 10,
+          "locus": "<f116r.40,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "dsheey . shey . qokey . shey . qokain . shckhy . chery . ol . chedy . l . chey . lchy",
+          "interlinear_gloss": "FROM+DISTILL-EXT.STATE[dsheey] | SAP-EXTRACT[shey] | ACT-BOIL+E-STATE[qokey] | SAP-EXTRACT[shey] | ACT-BOIL+AIN[qokain] | NEXT+HCKH-STATE[shckhy] | CHER-STATE[chery] | THE-FLUID[ol] | INFUSE-MIX[chedy] | L[l] | HERB-EXTRACT[chey] | LIQ-APP+HERB-STATE[lchy]",
+          "line_verbs": 4,
+          "line_doses": 2
+        },
+        {
+          "line_index": 11,
+          "locus": "<f116r.41,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "dlar . shar . shar . r . ain . sheain . okain . shey . qokchy . chckhy . orain",
+          "interlinear_gloss": "FROM+L-SOURCE[dlar] | NEXT+H-SOURCE[shar] | NEXT+H-SOURCE[shar] | R[r] | AIN[ain] | NEXT+HE-MIN.MEAS[sheain] | NOM-BOIL+AIN[okain] | SAP-EXTRACT[shey] | ACT-BOIL+HERB-STATE[qokchy] | CHCKH-STATE[chckhy] | NOM+R-MIN.MEAS[orain]*Z+H+P+S",
+          "line_verbs": 1,
+          "line_doses": 7
+        },
+        {
+          "line_index": 12,
+          "locus": "<f116r.42,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "qo . qokain . sheckhy . qokain . shekain . shkain . shedy . shey . qokan . cham",
+          "interlinear_gloss": "QO[qo] | ACT-BOIL+AIN[qokain] | NEXT+HECKH-STATE[sheckhy]*H+P+S | ACT-BOIL+AIN[qokain] | NEXT+HEK-MIN.MEAS[shekain] | NEXT+HK-MIN.MEAS[shkain] | DECOCT-STRAIN[shedy] | SAP-EXTRACT[shey] | ACT-BOIL+AN[qokan] | HERB-FINAL.COL[cham]",
+          "line_verbs": 5,
+          "line_doses": 5
+        },
+        {
+          "line_index": 13,
+          "locus": "<f116r.43,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "as . ar . al . shear . teey . chcphy . rain . cphan . ydar . oty . shey . qokam",
+          "interlinear_gloss": "AS[as] | AT-PART[ar] | TO-VESSEL[al] | NEXT+HE-SOURCE[shear] | HDR-T+E-EXT.STATE[teey] | CHCPH-STATE[chcphy] | R-MIN.MEAS[rain] | CPHAN[cphan] | AND+D-SOURCE[ydar] | NOM-DRAW[oty] | SAP-EXTRACT[shey] | ACT-BOIL+A-TERM[qokam]",
+          "line_verbs": 1,
+          "line_doses": 6
+        },
+        {
+          "line_index": 14,
+          "locus": "<f116r.44,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "s . okeedy . qokain . shckhy . ol . lcheor . chky . raiin . chey . qol . okam",
+          "interlinear_gloss": "S[s] | NOM-BOIL+E-INFUSE.PROC[okeedy] | ACT-BOIL+AIN[qokain] | NEXT+HCKH-STATE[shckhy] | THE-FLUID[ol] | LIQ-APP+MACERATE-PORTION[lcheor] | CHK-STATE[chky] | R-DOSE.MEAS[raiin] | HERB-EXTRACT[chey] | Q-FLUID[qol] | NOM-BOIL+A-TERM[okam]",
+          "line_verbs": 4,
+          "line_doses": 6
+        },
+        {
+          "line_index": 15,
+          "locus": "<f116r.45,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "odain . shy . qokar . oleey . chy",
+          "interlinear_gloss": "NOM+D-MIN.MEAS[odain] | SAP-STATE[shy] | ACT-BOIL+AR[qokar] | FLUID+E-EXT.STATE[oleey] | HERB-STATE[chy]",
+          "line_verbs": 1,
+          "line_doses": 2
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "recipe_id": "<f111v.37>",
+      "folio": "f111v",
+      "token_count": 82,
+      "line_count": 8,
+      "verb_count": 36,
+      "dose_count": 31,
+      "verb_to_dose_ratio": 1.161,
+      "stage1_zodiac_source": "f72r3 (Cancer / July / SUMMER)",
+      "stage2_herbal_source": "f31r ($L=B, $H=2)",
+      "stage3_pharm_source": "f99r",
+      "four_stage_zhps_stems": [
+        "ykey"
+      ],
+      "three_stage_hps_stems": [
+        "checkhey",
+        "okeor",
+        "key",
+        "ykey"
+      ],
+      "pharm_label_anchored_stems": [],
+      "total_chain_score": 21.777,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f111v.37,+P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "polchey . lkarshar . ykain . qokain . shalky . dy . tor . chey . keedy . lteedy . r . aldl",
+          "interlinear_gloss": "HDR-P+OLCH-EXT.STATE[polchey] | LIQ-APP+KARSH-SOURCE[lkarshar] | AND+HEAT-MIN.MEAS[ykain] | ACT-BOIL+AIN[qokain] | NEXT+HALK-STATE[shalky] | DONE[dy] | HDR-T+OR[tor] | HERB-EXTRACT[chey] | HDR-K+E-INFUSE.PROC[keedy] | LIQ-APP+DRAW-STEEP.PROC[lteedy] | R[r] | ALDL[aldl]",
+          "line_verbs": 4,
+          "line_doses": 4
+        },
+        {
+          "line_index": 2,
+          "locus": "<f111v.38,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "ycheey . o . aiin . checkhey . otain . qotl . chear . chedy . qokeey . okeedy . lkeey",
+          "interlinear_gloss": "AND+MACERATE-EXT.STATE[ycheey] | O[o] | ONE-DOSE[aiin] | CHECKH-EXT.STATE[checkhey]*H+P+S | NOM-DRAW+AIN[otain] | ACT+TL[qotl] | MACERATE-SOURCE[chear] | INFUSE-MIX[chedy] | ACT-STEEP-EXT[qokeey] | NOM-BOIL+E-INFUSE.PROC[okeedy] | LIQ-APP+SIMMER-EXT.STATE[lkeey]",
+          "line_verbs": 5,
+          "line_doses": 3
+        },
+        {
+          "line_index": 3,
+          "locus": "<f111v.39,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "dsheey . qokal . chedy . chcthy . qokain . chedy . lkeey . shey . qokain . chedy . lchdy",
+          "interlinear_gloss": "FROM+DISTILL-EXT.STATE[dsheey] | ACT-BOIL+AL[qokal] | INFUSE-MIX[chedy] | CHCTH-STATE[chcthy] | ACT-BOIL+AIN[qokain] | INFUSE-MIX[chedy] | LIQ-APP+SIMMER-EXT.STATE[lkeey] | SAP-EXTRACT[shey] | ACT-BOIL+AIN[qokain] | INFUSE-MIX[chedy] | LIQ-APP+HERB-DONE[lchdy]",
+          "line_verbs": 8,
+          "line_doses": 3
+        },
+        {
+          "line_index": 4,
+          "locus": "<f111v.40,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "ykeeey . lkain . chckhy . chokain . chckhal . sheckhedy . qokeey . qokeedy . lchsl",
+          "interlinear_gloss": "AND+KEE-EXT.STATE[ykeeey]*Z+H+P+S | LIQ-APP+HEAT-MIN.MEAS[lkain] | CHCKH-STATE[chckhy] | CHOK-MIN.MEAS[chokain] | CHCKH-VESSEL[chckhal] | NEXT+HECKH-INFUSE.PROC[sheckhedy] | ACT-STEEP-EXT[qokeey] | ACT-STEEP-BOIL[qokeedy] | LIQ-APP+CHSL[lchsl]",
+          "line_verbs": 5,
+          "line_doses": 3
+        },
+        {
+          "line_index": 5,
+          "locus": "<f111v.41,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "oteey . l . chedy . teeedy . lkeey . oteedy . okedy . chedy . qokeey . checthy . qotal",
+          "interlinear_gloss": "NOM-DRAW+E-EXT.STATE[oteey] | L[l] | INFUSE-MIX[chedy] | HDR-T+E-STEEP.PROC[teeedy] | LIQ-APP+SIMMER-EXT.STATE[lkeey] | NOM-DRAW+E-INFUSE.PROC[oteedy] | NOM-BOIL+E-DONE[okedy] | INFUSE-MIX[chedy] | ACT-STEEP-EXT[qokeey] | CHECTH-STATE[checthy] | ACT-DRAW+AL[qotal]",
+          "line_verbs": 8,
+          "line_doses": 1
+        },
+        {
+          "line_index": 6,
+          "locus": "<f111v.42,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "cheeo . l . keey . chear . qokeain . okeeor . cheedy . okain . chedy . chedy . teedy . lcheam",
+          "interlinear_gloss": "CHEEO[cheeo] | L[l] | HDR-K+E-EXT.STATE[keey]*H+P+S | MACERATE-SOURCE[chear] | ACT-BOIL+E-MIN.MEAS[qokeain] | NOM-BOIL+EE-PORTION[okeeor]*H+P+S | HERB-STEEP.PROC[cheedy] | NOM-BOIL+AIN[okain] | INFUSE-MIX[chedy] | INFUSE-MIX[chedy] | HDR-T+E-INFUSE.PROC[teedy] | LIQ-APP+MACERATE-FINAL.COL[lcheam]",
+          "line_verbs": 6,
+          "line_doses": 5
+        },
+        {
+          "line_index": 7,
+          "locus": "<f111v.43,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "ycheo . daiin . sheeky . chokeal . sheekar . okaiin . otain . chear . alo . laiin . chotag",
+          "interlinear_gloss": "AND+CHEO[ycheo] | FROM-MEASURE[daiin] | NEXT+HEEK-STATE[sheeky] | CHOKE-VESSEL[chokeal] | NEXT+HEEK-SOURCE[sheekar] | NOM-BOIL-DOSE[okaiin] | NOM-DRAW+AIN[otain] | MACERATE-SOURCE[chear] | ALO[alo] | LIQ-APP+A-UNIT.MEAS[laiin] | CHOTAG[chotag]",
+          "line_verbs": 0,
+          "line_doses": 7
+        },
+        {
+          "line_index": 8,
+          "locus": "<f111v.44,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "dain . teeodain . cheeal . olaiin . or",
+          "interlinear_gloss": "FROM+AIN[dain] | HDR-T+EEOD-MIN.MEAS[teeodain] | CHEE-VESSEL[cheeal] | FLUID+A-UNIT.MEAS[olaiin] | PORTION[or]",
+          "line_verbs": 0,
+          "line_doses": 5
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "recipe_id": "<f104r.22>",
+      "folio": "f104r",
+      "token_count": 50,
+      "line_count": 5,
+      "verb_count": 8,
+      "dose_count": 32,
+      "verb_to_dose_ratio": 0.25,
+      "stage1_zodiac_source": "f72r2 (Gemini / June / SUMMER)",
+      "stage2_herbal_source": "f39r ($L=B, $H=2)",
+      "stage3_pharm_source": "f89v2",
+      "four_stage_zhps_stems": [
+        "okam",
+        "air"
+      ],
+      "three_stage_hps_stems": [
+        "okair",
+        "okam",
+        "air",
+        "dam"
+      ],
+      "pharm_label_anchored_stems": [
+        "okam"
+      ],
+      "total_chain_score": 21.089,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f104r.22,+P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "tshedar . chllo . rl . shed . kchedy . chokor . cheedy . opchar . cheor . chckhey . taiin . dam",
+          "interlinear_gloss": "HDR-T+SHED-SOURCE[tshedar] | CHLLO[chllo] | RL[rl] | NEXT+HED[shed] | HDR-K+HERB-INFUSE.PROC[kchedy] | CHOK-PORTION[chokor] | HERB-STEEP.PROC[cheedy] | NOM+PCH-SOURCE[opchar] | MACERATE-PORTION[cheor] | CHCKH-EXT.STATE[chckhey] | HDR-T+A-UNIT.MEAS[taiin] | FROM+A-TERM[dam]*H+P+S",
+          "line_verbs": 2,
+          "line_doses": 6
+        },
+        {
+          "line_index": 2,
+          "locus": "<f104r.23,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "ol . sheockhey . chol . kechdy . okeedal . lkain . chol . keeody . otchor . aiir . chol . kar . alol",
+          "interlinear_gloss": "THE-FLUID[ol] | NEXT+HEOCKH-EXT.STATE[sheockhey] | HERB-LEAF[chol] | HDR-K+ECH-DONE[kechdy] | NOM-BOIL+EED-VESSEL[okeedal] | LIQ-APP+HEAT-MIN.MEAS[lkain] | HERB-LEAF[chol] | HDR-K+EE-NOM.STATE[keeody] | NOM-DRAW+HERB-PORTION[otchor] | AIIR[aiir]*Z+H+P+S | HERB-LEAF[chol] | HDR-K+AR[kar] | AL-FLUID[alol]",
+          "line_verbs": 1,
+          "line_doses": 9
+        },
+        {
+          "line_index": 3,
+          "locus": "<f104r.24,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "daiin . char . qotal . okechol . olkeeor . olkeeodal . lkaiin . chal . keeedy . qokam",
+          "interlinear_gloss": "FROM-MEASURE[daiin] | HERB-SOURCE[char] | ACT-DRAW+AL[qotal] | NOM-BOIL+ECH-FLUID[okechol] | FLUID+KEE-PORTION[olkeeor] | FLUID+KEEOD-VESSEL[olkeeodal] | LIQ-APP+HEAT-DOSE.MEAS[lkaiin] | HERB-VESSEL[chal] | HDR-K+E-STEEP.PROC[keeedy] | ACT-BOIL+A-TERM[qokam]*Z+H+P+S",
+          "line_verbs": 4,
+          "line_doses": 9
+        },
+        {
+          "line_index": 4,
+          "locus": "<f104r.25,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "sar . okair . chckhey . qodaiin . chckhy . checkhd . l . raiin . otain . ar . airam",
+          "interlinear_gloss": "NEXT+AR[sar] | NOM-BOIL+AIR[okair]*H+P+S | CHCKH-EXT.STATE[chckhey] | ACT+D-DOSE.MEAS[qodaiin] | CHCKH-STATE[chckhy] | CHECKHD[checkhd] | L[l] | R-DOSE.MEAS[raiin] | NOM-DRAW+AIN[otain] | AT-PART[ar] | AIR-FINAL.COL[airam]",
+          "line_verbs": 1,
+          "line_doses": 6
+        },
+        {
+          "line_index": 5,
+          "locus": "<f104r.26,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "shar . sheey . kar . sheody",
+          "interlinear_gloss": "NEXT+H-SOURCE[shar] | NEXT+HE-EXT.STATE[sheey] | HDR-K+AR[kar] | NEXT+HE-NOM.STATE[sheody]",
+          "line_verbs": 0,
+          "line_doses": 2
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "recipe_id": "<f113r.39>",
+      "folio": "f113r",
+      "token_count": 34,
+      "line_count": 3,
+      "verb_count": 6,
+      "dose_count": 9,
+      "verb_to_dose_ratio": 0.667,
+      "stage1_zodiac_source": "f72r3 (Cancer / July / SUMMER)",
+      "stage2_herbal_source": "f31v ($L=B, $H=2)",
+      "stage3_pharm_source": "f101v",
+      "four_stage_zhps_stems": [
+        "okedy"
+      ],
+      "three_stage_hps_stems": [
+        "che",
+        "kchey",
+        "okedy",
+        "cthey"
+      ],
+      "pharm_label_anchored_stems": [],
+      "total_chain_score": 20.179,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f113r.39,+P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "pcheockhy . l . kchey . qofsheeey . lkeody . kcheodaiin . por . shed . qopoeey . pokeey . rair . aly",
+          "interlinear_gloss": "HDR-P+CHEOCKH-STATE[pcheockhy] | L[l] | HDR-K+HERB-EXT.STATE[kchey]*H+P+S | ACT+FSHEE-EXT.STATE[qofsheeey] | LIQ-APP+SIMMER-NOM.STATE[lkeody] | HDR-K+CHEOD-DOSE.MEAS[kcheodaiin] | HDR-P+OR[por] | NEXT+HED[shed] | ACT+POE-EXT.STATE[qopoeey] | HDR-P+OKE-EXT.STATE[pokeey] | RAIR[rair] | AL-STATE[aly]",
+          "line_verbs": 3,
+          "line_doses": 2
+        },
+        {
+          "line_index": 2,
+          "locus": "<f113r.40,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "tarar . cheey . cheokeol . chcheey . cthes . aiin . ctheey . ctharad . shee . qo . tchey . taram",
+          "interlinear_gloss": "HDR-T+AR-SOURCE[tarar] | MACERATE-EXT.STATE[cheey] | CHEOKE-FLUID[cheokeol] | CHCHE-EXT.STATE[chcheey] | CTHES[cthes] | ONE-DOSE[aiin] | CTHE-EXT.STATE[ctheey]*H+P+S | CTHARAD[ctharad] | NEXT+HEE[shee]*H+P+S | QO[qo] | HDR-T+HERB-EXT.STATE[tchey] | HDR-T+AR-FINAL.COL[taram]",
+          "line_verbs": 1,
+          "line_doses": 4
+        },
+        {
+          "line_index": 3,
+          "locus": "<f113r.41,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "dsheo . oin . okaiin . cheey . taiin . lkeechey . okain . sheey . qoees . okeeody",
+          "interlinear_gloss": "FROM+SHEO[dsheo] | NOM+IN[oin] | NOM-BOIL-DOSE[okaiin] | MACERATE-EXT.STATE[cheey] | HDR-T+A-UNIT.MEAS[taiin] | LIQ-APP+KEECH-EXT.STATE[lkeechey] | NOM-BOIL+AIN[okain] | NEXT+HE-EXT.STATE[sheey] | ACT+EES[qoees] | NOM-BOIL+EE-NOM.STATE[okeeody]*Z+H+P+S",
+          "line_verbs": 2,
+          "line_doses": 3
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "recipe_id": "<f112r.1>",
+      "folio": "f112r",
+      "token_count": 78,
+      "line_count": 10,
+      "verb_count": 22,
+      "dose_count": 33,
+      "verb_to_dose_ratio": 0.667,
+      "stage1_zodiac_source": "f72r2 (Gemini / June / SUMMER)",
+      "stage2_herbal_source": "f50v ($L=B, $H=2)",
+      "stage3_pharm_source": "f88v",
+      "four_stage_zhps_stems": [
+        "olain",
+        "key"
+      ],
+      "three_stage_hps_stems": [
+        "oey",
+        "olain",
+        "oain",
+        "key"
+      ],
+      "pharm_label_anchored_stems": [],
+      "total_chain_score": 18.781,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f112r.1,@P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "folchey . qokeey . ykair . arally . oteedal . or . aiin . chcphy",
+          "interlinear_gloss": "HDR-F+OLCH-EXT.STATE[folchey] | ACT-STEEP-EXT[qokeey] | AND+KAIR[ykair] | ARALL-STATE[arally] | NOM-DRAW+EED-VESSEL[oteedal] | PORTION[or] | ONE-DOSE[aiin] | CHCPH-STATE[chcphy]",
+          "line_verbs": 1,
+          "line_doses": 3
+        },
+        {
+          "line_index": 2,
+          "locus": "<f112r.2,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "saiin . oar . qolkaiin . otail . ol . olaiin . chol . otar",
+          "interlinear_gloss": "NEXT+A-UNIT.MEAS[saiin] | NOM+AR[oar] | ACT+LK-DOSE.MEAS[qolkaiin] | NOM-DRAW+AIL[otail] | THE-FLUID[ol] | FLUID+A-UNIT.MEAS[olaiin]*Z+H+P+S | HERB-LEAF[chol] | NOM-DRAW+AR[otar]",
+          "line_verbs": 1,
+          "line_doses": 7
+        },
+        {
+          "line_index": 3,
+          "locus": "<f112r.3,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "or . chedar . cheey . oteedy . oteedy . otaiin . oty . odys",
+          "interlinear_gloss": "PORTION[or] | CHED-SOURCE[chedar] | MACERATE-EXT.STATE[cheey] | NOM-DRAW+E-INFUSE.PROC[oteedy] | NOM-DRAW+E-INFUSE.PROC[oteedy] | NOM-DRAW-DOSE[otaiin] | NOM-DRAW[oty] | NOM+DYS[odys]",
+          "line_verbs": 2,
+          "line_doses": 3
+        },
+        {
+          "line_index": 4,
+          "locus": "<f112r.4,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "qokeedy . chokain . otain . otar . chedy . taim . oram",
+          "interlinear_gloss": "ACT-STEEP-BOIL[qokeedy] | CHOK-MIN.MEAS[chokain] | NOM-DRAW+AIN[otain] | NOM-DRAW+AR[otar] | INFUSE-MIX[chedy] | HDR-T+AI-TERM[taim] | NOM+R-FINAL.COL[oram]",
+          "line_verbs": 2,
+          "line_doses": 4
+        },
+        {
+          "line_index": 5,
+          "locus": "<f112r.5,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "otair . o . kody . otody . otal . okeeey . otar . am . oain . oy",
+          "interlinear_gloss": "NOM-DRAW+AIR[otair] | O[o] | HDR-K+O-DONE[kody] | NOM-DRAW+O-DONE[otody] | NOM-DRAW+AL[otal] | NOM-BOIL+EE-EXT.STATE[okeeey] | NOM-DRAW+AR[otar] | A-TERM[am] | NOM+AIN[oain]*H+P+S | O-STATE[oy]",
+          "line_verbs": 0,
+          "line_doses": 4
+        },
+        {
+          "line_index": 6,
+          "locus": "<f112r.6,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "chedal . oteedy . okeey . qokeedy . olkeedy . oteeyoram",
+          "interlinear_gloss": "CHED-VESSEL[chedal] | NOM-DRAW+E-INFUSE.PROC[oteedy] | NOM-BOIL+E-EXT.STATE[okeey] | ACT-STEEP-BOIL[qokeedy] | FLUID+HEAT-STEEP.PROC[olkeedy] | NOM-DRAW+EEYOR-FINAL.COL[oteeyoram]",
+          "line_verbs": 3,
+          "line_doses": 2
+        },
+        {
+          "line_index": 7,
+          "locus": "<f112r.7,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "taiin . olkeedy . qoteo . l . oeey . keey . qokeey . oteedyram",
+          "interlinear_gloss": "HDR-T+A-UNIT.MEAS[taiin] | FLUID+HEAT-STEEP.PROC[olkeedy] | ACT-DRAW+EO[qoteo] | L[l] | NOM+E-EXT.STATE[oeey]*H+P+S | HDR-K+E-EXT.STATE[keey]*Z+H+P+S | ACT-STEEP-EXT[qokeey] | NOM-DRAW+EEDYR-FINAL.COL[oteedyram]",
+          "line_verbs": 3,
+          "line_doses": 2
+        },
+        {
+          "line_index": 8,
+          "locus": "<f112r.8,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "sairo . r . eedy . chol . qotchedy . dody . qokeeey . dairam",
+          "interlinear_gloss": "NEXT+AIRO[sairo] | R[r] | E-INFUSE.PROC[eedy] | HERB-LEAF[chol] | ACT-DRAW+HERB-INFUSE.PROC[qotchedy] | FROM+O-DONE[dody] | ACT-BOIL+EE-EXT.STATE[qokeeey] | FROM+AIR-FINAL.COL[dairam]",
+          "line_verbs": 3,
+          "line_doses": 2
+        },
+        {
+          "line_index": 9,
+          "locus": "<f112r.9,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "saiin . ol . okeey . qokeey . y . chedy . teedy . qokchy . qokar . y",
+          "interlinear_gloss": "NEXT+A-UNIT.MEAS[saiin] | THE-FLUID[ol] | NOM-BOIL+E-EXT.STATE[okeey] | ACT-STEEP-EXT[qokeey] | Y[y] | INFUSE-MIX[chedy] | HDR-T+E-INFUSE.PROC[teedy] | ACT-BOIL+HERB-STATE[qokchy] | ACT-BOIL+AR[qokar] | Y[y]",
+          "line_verbs": 5,
+          "line_doses": 3
+        },
+        {
+          "line_index": 10,
+          "locus": "<f112r.10,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "dair . al . chedy . qodain . dam",
+          "interlinear_gloss": "FROM+AIR[dair] | TO-VESSEL[al] | INFUSE-MIX[chedy] | ACT+D-MIN.MEAS[qodain] | FROM+A-TERM[dam]",
+          "line_verbs": 2,
+          "line_doses": 3
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "recipe_id": "<f115r.13>",
+      "folio": "f115r",
+      "token_count": 63,
+      "line_count": 6,
+      "verb_count": 26,
+      "dose_count": 25,
+      "verb_to_dose_ratio": 1.04,
+      "stage1_zodiac_source": "f72v1 (Libra / October / AUTUMN)",
+      "stage2_herbal_source": "f94v ($L=B, $H=3)",
+      "stage3_pharm_source": "f89r1",
+      "four_stage_zhps_stems": [
+        "air"
+      ],
+      "three_stage_hps_stems": [
+        "cheocthy",
+        "ycheo",
+        "dchdy",
+        "air"
+      ],
+      "pharm_label_anchored_stems": [],
+      "total_chain_score": 17.883,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f115r.13,+P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "tchedy . qoolkeedy . qokchedy . qotchd . lpchedy . qotcho . lar . airorlchy . cpholrory",
+          "interlinear_gloss": "HDR-T+HERB-INFUSE.PROC[tchedy] | ACT+OLK-STEEP.PROC[qoolkeedy] | ACT-BOIL+HERB-INFUSE.PROC[qokchedy] | ACT-DRAW+CHD[qotchd] | LIQ-APP+PCH-INFUSE.PROC[lpchedy] | ACT-DRAW+CHO[qotcho] | LIQ-APP+AR[lar] | AIRORLCH-STATE[airorlchy] | CPHOLROR-STATE[cpholrory]",
+          "line_verbs": 6,
+          "line_doses": 1
+        },
+        {
+          "line_index": 2,
+          "locus": "<f115r.14,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "ycheeo . rcheeo . qo . lkain . cheey . saiin . cheedy . tcheo . lodar . chtar . as . kaiin . dam",
+          "interlinear_gloss": "AND+CHEEO[ycheeo]*H+P+S | RCHEEO[rcheeo] | QO[qo] | LIQ-APP+HEAT-MIN.MEAS[lkain] | MACERATE-EXT.STATE[cheey] | NEXT+A-UNIT.MEAS[saiin] | HERB-STEEP.PROC[cheedy] | HDR-T+CHEO[tcheo] | LIQ-APP+OD-SOURCE[lodar] | CHT-SOURCE[chtar] | AS[as] | HDR-K+A-UNIT.MEAS[kaiin] | FROM+A-TERM[dam]",
+          "line_verbs": 3,
+          "line_doses": 6
+        },
+        {
+          "line_index": 3,
+          "locus": "<f115r.15,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "y . cheo . lkeodain . chcthed . qokar . chedy . qotain . chody . qotain . cheol . lkar . air . om",
+          "interlinear_gloss": "Y[y] | CHEO[cheo] | LIQ-APP+KEOD-MIN.MEAS[lkeodain] | CHCTHED[chcthed] | ACT-BOIL+AR[qokar] | INFUSE-MIX[chedy] | ACT-DRAW+AIN[qotain] | HERB-NOM.STATE[chody] | ACT-DRAW+AIN[qotain] | MACERATE-FLUID[cheol] | LIQ-APP+HEAT-SOURCE[lkar] | AIR[air]*Z+H+P+S | O-TERM[om]",
+          "line_verbs": 6,
+          "line_doses": 6
+        },
+        {
+          "line_index": 4,
+          "locus": "<f115r.16,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "dshedy . qotshedy . dar . oltedy . qotar . chodar . cheocthy . chdy . qotor . otchdy . qotolchd",
+          "interlinear_gloss": "FROM+SAP-INFUSE.PROC[dshedy]*H+P+S | ACT-DRAW+SAP-INFUSE.PROC[qotshedy] | IN-PART[dar] | FLUID+DRAW-INFUSE.PROC[oltedy] | ACT-DRAW+AR[qotar] | CHOD-SOURCE[chodar] | CHEOCTH-STATE[cheocthy]*H+P+S | HERB-DONE[chdy] | ACT-DRAW+OR[qotor] | NOM-DRAW+HERB-DONE[otchdy] | ACT-DRAW+OLCHD[qotolchd]",
+          "line_verbs": 6,
+          "line_doses": 4
+        },
+        {
+          "line_index": 5,
+          "locus": "<f115r.17,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "qol . cheey . qotchy . daiin . daiin . cheocthy . dolkeedy . qotaiin . chol . oteeedchey . okeedain",
+          "interlinear_gloss": "Q-FLUID[qol] | MACERATE-EXT.STATE[cheey] | ACT-DRAW+HERB-STATE[qotchy] | FROM-MEASURE[daiin] | FROM-MEASURE[daiin] | CHEOCTH-STATE[cheocthy]*H+P+S | FROM+OLK-STEEP.PROC[dolkeedy] | ACT-DRAW-DOSE[qotaiin] | HERB-LEAF[chol] | NOM-DRAW+EEEDCH-EXT.STATE[oteeedchey] | NOM-BOIL+EED-MIN.MEAS[okeedain]",
+          "line_verbs": 4,
+          "line_doses": 6
+        },
+        {
+          "line_index": 6,
+          "locus": "<f115r.18,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "cheol . lcheey . okcho . keedor . ykechey . chchdy",
+          "interlinear_gloss": "MACERATE-FLUID[cheol] | LIQ-APP+MACERATE-EXT.STATE[lcheey] | NOM-BOIL+CHO[okcho] | HDR-K+EED-PORTION[keedor] | AND+KECH-EXT.STATE[ykechey] | CHCH-DONE[chchdy]",
+          "line_verbs": 1,
+          "line_doses": 2
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "recipe_id": "<f107r.38>",
+      "folio": "f107r",
+      "token_count": 37,
+      "line_count": 4,
+      "verb_count": 9,
+      "dose_count": 25,
+      "verb_to_dose_ratio": 0.36,
+      "stage1_zodiac_source": "f72r3 (Cancer / July / SUMMER)",
+      "stage2_herbal_source": "f23v ($L=A, $H=1)",
+      "stage3_pharm_source": "f101r",
+      "four_stage_zhps_stems": [
+        "chear",
+        "oin"
+      ],
+      "three_stage_hps_stems": [
+        "chal",
+        "chear",
+        "oin",
+        "okchey"
+      ],
+      "pharm_label_anchored_stems": [],
+      "total_chain_score": 15.758,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f107r.38,+P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "poaral . orar . ofchey . qoteedy . qotaiin . opchedy . qokchey . otlchdain . aly",
+          "interlinear_gloss": "HDR-P+OAR-VESSEL[poaral] | NOM+R-SOURCE[orar] | NOM+FCH-EXT.STATE[ofchey]*H+P+S | ACT-DRAW-STEEP[qoteedy] | ACT-DRAW-DOSE[qotaiin] | NOM+PCH-INFUSE.PROC[opchedy] | ACT-BOIL+HERB-EXT.STATE[qokchey]*H+P+S | NOM-DRAW+LCHD-MIN.MEAS[otlchdain] | AL-STATE[aly]",
+          "line_verbs": 4,
+          "line_doses": 4
+        },
+        {
+          "line_index": 2,
+          "locus": "<f107r.39,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "tair . cheol . cheol . kchekain . cheear . ol . oiin . cho . lkain . al . oeedy . chey",
+          "interlinear_gloss": "HDR-T+AIR[tair] | MACERATE-FLUID[cheol] | MACERATE-FLUID[cheol] | HDR-K+CHEK-MIN.MEAS[kchekain] | CHEE-SOURCE[cheear]*Z+H+P+S | THE-FLUID[ol] | NOM-UNIT[oiin]*Z+H+P+S | CHO[cho] | LIQ-APP+HEAT-MIN.MEAS[lkain] | TO-VESSEL[al] | NOM+E-INFUSE.PROC[oeedy] | HERB-EXTRACT[chey]",
+          "line_verbs": 2,
+          "line_doses": 8
+        },
+        {
+          "line_index": 3,
+          "locus": "<f107r.40,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "lolkaiin . chey . qokaiin . chal . aiin . okaiin . olkar . otair . okal . okal",
+          "interlinear_gloss": "LIQ-APP+OLK-DOSE.MEAS[lolkaiin] | HERB-EXTRACT[chey] | ACT-BOIL-MEASURE[qokaiin] | HERB-VESSEL[chal]*H+P+S | ONE-DOSE[aiin] | NOM-BOIL-DOSE[okaiin] | FLUID+HEAT-SOURCE[olkar] | NOM-DRAW+AIR[otair] | NOM-BOIL+AL[okal] | NOM-BOIL+AL[okal]",
+          "line_verbs": 1,
+          "line_doses": 8
+        },
+        {
+          "line_index": 4,
+          "locus": "<f107r.41,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "qokaiin . ar . ockhey . qokal . otal . otam",
+          "interlinear_gloss": "ACT-BOIL-MEASURE[qokaiin] | AT-PART[ar] | NOM+CONC-BOIL-EXT.STATE[ockhey] | ACT-BOIL+AL[qokal] | NOM-DRAW+AL[otal] | NOM-DRAW+A-TERM[otam]",
+          "line_verbs": 2,
+          "line_doses": 5
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "recipe_id": "<f116r.18>",
+      "folio": "f116r",
+      "token_count": 160,
+      "line_count": 13,
+      "verb_count": 54,
+      "dose_count": 65,
+      "verb_to_dose_ratio": 0.831,
+      "stage1_zodiac_source": "f72r2 (Gemini / June / SUMMER)",
+      "stage2_herbal_source": "f40v ($L=B, $H=2)",
+      "stage3_pharm_source": "f88v",
+      "four_stage_zhps_stems": [],
+      "three_stage_hps_stems": [
+        "ardy",
+        "lchey",
+        "orain"
+      ],
+      "pharm_label_anchored_stems": [
+        "ardy"
+      ],
+      "total_chain_score": 23.533,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f116r.18,+P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "pcharalor . qokey . r . ain . otedy . opain . lor . oiin . otain . otar . oteeedy . ches . ar . y",
+          "interlinear_gloss": "HDR-P+CHARAL-PORTION[pcharalor] | ACT-BOIL+E-STATE[qokey] | R[r] | AIN[ain] | NOM-DRAW+E-DONE[otedy] | NOM+P-MIN.MEAS[opain] | LIQ-APP+OR[lor] | NOM-UNIT[oiin] | NOM-DRAW+AIN[otain] | NOM-DRAW+AR[otar] | NOM-DRAW+E-STEEP.PROC[oteeedy] | CHES[ches] | AT-PART[ar] | Y[y]",
+          "line_verbs": 3,
+          "line_doses": 8
+        },
+        {
+          "line_index": 2,
+          "locus": "<f116r.19,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "porchey . sheedy . qotain . chetar . qotar . ar . arody . chcthy . rain . otey . ot . y . dain",
+          "interlinear_gloss": "HDR-P+ORCH-EXT.STATE[porchey] | NEXT+H-STEEP.PROC[sheedy] | ACT-DRAW+AIN[qotain] | CHET-SOURCE[chetar] | ACT-DRAW+AR[qotar] | AT-PART[ar] | AR-NOM.STATE[arody]*P_LABEL+H+S | CHCTH-STATE[chcthy] | R-MIN.MEAS[rain] | NOM-DRAW+E-STATE[otey] | OT[ot] | Y[y] | FROM+AIN[dain]",
+          "line_verbs": 3,
+          "line_doses": 6
+        },
+        {
+          "line_index": 3,
+          "locus": "<f116r.20,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "chol . keedy . ol . cheey . raiin . y . chedy . otar . o . kal . okain . olar . otedy . qoty . sfm",
+          "interlinear_gloss": "HERB-LEAF[chol] | HDR-K+E-INFUSE.PROC[keedy] | THE-FLUID[ol] | MACERATE-EXT.STATE[cheey] | R-DOSE.MEAS[raiin] | Y[y] | INFUSE-MIX[chedy] | NOM-DRAW+AR[otar] | O[o] | HDR-K+AL[kal] | NOM-BOIL+AIN[okain] | FLUID+AR[olar] | NOM-DRAW+E-DONE[otedy] | ACT+DRAW-STATE[qoty] | NEXT+F-TERM[sfm]",
+          "line_verbs": 4,
+          "line_doses": 7
+        },
+        {
+          "line_index": 4,
+          "locus": "<f116r.21,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "sairol . sheey . qokain . chal . qol . chl . l . rain . okain . shckhy . dtal . orchcthdy . lty",
+          "interlinear_gloss": "NEXT+AIR-FLUID[sairol] | NEXT+HE-EXT.STATE[sheey] | ACT-BOIL+AIN[qokain] | HERB-VESSEL[chal] | Q-FLUID[qol] | CHL[chl] | L[l] | R-MIN.MEAS[rain] | NOM-BOIL+AIN[okain] | NEXT+HCKH-STATE[shckhy] | FROM+DRAW-VESSEL[dtal] | NOM+RCHCTH-DONE[orchcthdy] | LIQ-APP+DRAW-STATE[lty]",
+          "line_verbs": 3,
+          "line_doses": 7
+        },
+        {
+          "line_index": 5,
+          "locus": "<f116r.22,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "dol . shedy . shekchy . qokain . chedy . otar . okalain . shcthy . oteey . dar . chedy . lg",
+          "interlinear_gloss": "FROM+OL[dol] | DECOCT-STRAIN[shedy] | NEXT+HEKCH-STATE[shekchy] | ACT-BOIL+AIN[qokain] | INFUSE-MIX[chedy] | NOM-DRAW+AR[otar] | NOM-BOIL+AL-MIN.MEAS[okalain] | NEXT+HCTH-STATE[shcthy] | NOM-DRAW+E-EXT.STATE[oteey] | IN-PART[dar] | INFUSE-MIX[chedy] | LG[lg]",
+          "line_verbs": 4,
+          "line_doses": 5
+        },
+        {
+          "line_index": 6,
+          "locus": "<f116r.23,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "dain . cheeteey . lkar . shedy . qokal . shedy . qoteedy . ches . ain . ain . aly . salo . lm",
+          "interlinear_gloss": "FROM+AIN[dain] | CHEETE-EXT.STATE[cheeteey] | LIQ-APP+HEAT-SOURCE[lkar] | DECOCT-STRAIN[shedy] | ACT-BOIL+AL[qokal] | DECOCT-STRAIN[shedy] | ACT-DRAW-STEEP[qoteedy] | CHES[ches] | AIN[ain] | AIN[ain] | AL-STATE[aly] | NEXT+ALO[salo] | L-TERM[lm]",
+          "line_verbs": 5,
+          "line_doses": 5
+        },
+        {
+          "line_index": 7,
+          "locus": "<f116r.24,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "qokedy . okain . chcthy . oty . shedy . qokeey . chalkeey . okey . kedy . chey . lag",
+          "interlinear_gloss": "ACT-BOIL-INFUSE[qokedy] | NOM-BOIL+AIN[okain] | CHCTH-STATE[chcthy] | NOM-DRAW[oty] | DECOCT-STRAIN[shedy] | ACT-STEEP-EXT[qokeey] | CHALKE-EXT.STATE[chalkeey] | NOM-BOIL+E-STATE[okey] | HDR-K+E-DONE[kedy] | HERB-EXTRACT[chey] | LIQ-APP+AG[lag]",
+          "line_verbs": 4,
+          "line_doses": 1
+        },
+        {
+          "line_index": 8,
+          "locus": "<f116r.25,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "chol . sheky . shedy . qokeey . qokeedy . shckhy . qokain . otal . ches . oin . ain . al . om",
+          "interlinear_gloss": "HERB-LEAF[chol] | NEXT+HEK-STATE[sheky] | DECOCT-STRAIN[shedy] | ACT-STEEP-EXT[qokeey] | ACT-STEEP-BOIL[qokeedy] | NEXT+HCKH-STATE[shckhy] | ACT-BOIL+AIN[qokain] | NOM-DRAW+AL[otal] | CHES[ches] | NOM+IN[oin] | AIN[ain] | TO-VESSEL[al] | O-TERM[om]",
+          "line_verbs": 4,
+          "line_doses": 5
+        },
+        {
+          "line_index": 9,
+          "locus": "<f116r.26,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "ytchey . qokaiin . chckhol . shechol . qotey . ol . cheedy . otain . okedy . qotam",
+          "interlinear_gloss": "AND+STEM-DRAW-EXT.STATE[ytchey] | ACT-BOIL-MEASURE[qokaiin] | CHCKH-FLUID[chckhol] | NEXT+HECH-FLUID[shechol] | ACT-DRAW+E-STATE[qotey] | THE-FLUID[ol] | HERB-STEEP.PROC[cheedy] | NOM-DRAW+AIN[otain] | NOM-BOIL+E-DONE[okedy] | ACT-DRAW+A-TERM[qotam]",
+          "line_verbs": 5,
+          "line_doses": 6
+        },
+        {
+          "line_index": 10,
+          "locus": "<f116r.27,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "daiin . chey . qokey . lshedy . orain . chckhy . lkain . chy . pshedy . lshedy . qoky . ram",
+          "interlinear_gloss": "FROM-MEASURE[daiin] | HERB-EXTRACT[chey] | ACT-BOIL+E-STATE[qokey] | LIQ-APP+SAP-INFUSE.PROC[lshedy] | NOM+R-MIN.MEAS[orain]*H+P+S | CHCKH-STATE[chckhy] | LIQ-APP+HEAT-MIN.MEAS[lkain] | HERB-STATE[chy] | HDR-P+SAP-INFUSE.PROC[pshedy] | LIQ-APP+SAP-INFUSE.PROC[lshedy] | ACT+HEAT-STATE[qoky] | R-FINAL.COL[ram]",
+          "line_verbs": 6,
+          "line_doses": 4
+        },
+        {
+          "line_index": 11,
+          "locus": "<f116r.28,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "cheol . lchey . lkeey . sheal . lshalshy . qotalshy . cthedy . l . ky . chedy . oteedy . lched",
+          "interlinear_gloss": "MACERATE-FLUID[cheol] | LIQ-APP+HERB-EXT.STATE[lchey]*H+P+S | LIQ-APP+SIMMER-EXT.STATE[lkeey] | NEXT+HE-VESSEL[sheal] | LIQ-APP+SHALSH-STATE[lshalshy] | ACT-DRAW+ALSH-STATE[qotalshy] | PRESS-HERB-INFUSE.PROC[cthedy] | L[l] | HEAT-STATE[ky] | INFUSE-MIX[chedy] | NOM-DRAW+E-INFUSE.PROC[oteedy] | LIQ-APP+CHED[lched]",
+          "line_verbs": 8,
+          "line_doses": 2
+        },
+        {
+          "line_index": 12,
+          "locus": "<f116r.29,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "cthan . cheey . lkeeal . lshey . chl . l . lkain . chear . aiin . chl . l . keedy . raraiin . ory",
+          "interlinear_gloss": "CTHAN[cthan] | MACERATE-EXT.STATE[cheey] | LIQ-APP+KEE-VESSEL[lkeeal] | LIQ-APP+SAP-EXT.STATE[lshey]*H+P+S | CHL[chl] | L[l] | LIQ-APP+HEAT-MIN.MEAS[lkain] | MACERATE-SOURCE[chear] | ONE-DOSE[aiin] | CHL[chl] | L[l] | HDR-K+E-INFUSE.PROC[keedy] | RAR-DOSE.MEAS[raraiin] | NOM+R-STATE[ory]",
+          "line_verbs": 4,
+          "line_doses": 5
+        },
+        {
+          "line_index": 13,
+          "locus": "<f116r.30,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "saraiin . shey . qokain . chcthy . okar . air . ollaiin . okaly",
+          "interlinear_gloss": "NEXT+AR-DOSE.MEAS[saraiin] | SAP-EXTRACT[shey] | ACT-BOIL+AIN[qokain] | CHCTH-STATE[chcthy] | NOM-BOIL+AR[okar] | AIR[air] | FLUID+L-DOSE.MEAS[ollaiin] | NOM-BOIL+AL-STATE[okaly]",
+          "line_verbs": 1,
+          "line_doses": 4
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "recipe_id": "<f105v.8>",
+      "folio": "f105v",
+      "token_count": 73,
+      "line_count": 6,
+      "verb_count": 12,
+      "dose_count": 35,
+      "verb_to_dose_ratio": 0.343,
+      "stage1_zodiac_source": "f72r3 (Cancer / July / SUMMER)",
+      "stage2_herbal_source": "f50r ($L=B, $H=2)",
+      "stage3_pharm_source": "f89v2",
+      "four_stage_zhps_stems": [],
+      "three_stage_hps_stems": [
+        "odam",
+        "ockhdy",
+        "okam"
+      ],
+      "pharm_label_anchored_stems": [
+        "okam"
+      ],
+      "total_chain_score": 23.329,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f105v.8,+P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "fodal . kedar . olpchesd . araiin . ksheeol . opchedy . pchedy . opcheddl . pchdar . air . odar",
+          "interlinear_gloss": "HDR-F+OD-VESSEL[fodal] | HDR-K+ED-SOURCE[kedar] | FLUID+PCHESD[olpchesd] | AR-DOSE.MEAS[araiin] | HDR-K+SHEE-FLUID[ksheeol] | NOM+PCH-INFUSE.PROC[opchedy] | HDR-P+HERB-INFUSE.PROC[pchedy] | NOM+PCHEDDL[opcheddl] | HDR-P+CHD-SOURCE[pchdar] | AIR[air] | NOM+D-SOURCE[odar]",
+          "line_verbs": 2,
+          "line_doses": 6
+        },
+        {
+          "line_index": 2,
+          "locus": "<f105v.9,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "lcheey . qoeees . y . daiin . okairy . otchedy . ockhedy . otchey . daiin . or . r . ail . l . okam",
+          "interlinear_gloss": "LIQ-APP+MACERATE-EXT.STATE[lcheey] | ACT+EEES[qoeees] | Y[y] | FROM-MEASURE[daiin] | NOM-BOIL+AIR-STATE[okairy] | NOM-DRAW+HERB-INFUSE.PROC[otchedy] | NOM+CONC-BOIL-INFUSE.PROC[ockhedy]*H+P+S | NOM-DRAW+HERB-EXT.STATE[otchey] | FROM-MEASURE[daiin] | PORTION[or] | R[r] | AIL[ail] | L[l] | NOM-BOIL+A-TERM[okam]*P_LABEL+H+S",
+          "line_verbs": 4,
+          "line_doses": 4
+        },
+        {
+          "line_index": 3,
+          "locus": "<f105v.10,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "ykeey . ky . che . oiiin . dal . kaiin . okairo . l . kair . chedy . s . odar . air . al . oral . odam",
+          "interlinear_gloss": "AND+SIMMER-EXT.STATE[ykeey] | HEAT-STATE[ky] | MACERATE[che] | NOM+I-UNIT.MEAS[oiiin] | FROM-VESSEL[dal] | HDR-K+A-UNIT.MEAS[kaiin] | NOM-BOIL+AIRO[okairo] | L[l] | HDR-K+AIR[kair] | INFUSE-MIX[chedy] | S[s] | NOM+D-SOURCE[odar] | AIR[air] | TO-VESSEL[al] | NOM+R-VESSEL[oral] | NOM+D-FINAL.COL[odam]*H+P+S",
+          "line_verbs": 1,
+          "line_doses": 7
+        },
+        {
+          "line_index": 4,
+          "locus": "<f105v.11,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "roees . aiiin . ol . okaiin . os . aiin . chckhodu . qoteedy . ckhddl . aiir . ypar . kaiidy",
+          "interlinear_gloss": "ROEES[roees] | AI-UNIT.MEAS[aiiin] | THE-FLUID[ol] | NOM-BOIL-DOSE[okaiin] | OS[os] | ONE-DOSE[aiin] | CHCKHODU[chckhodu] | ACT-DRAW-STEEP[qoteedy] | CKHDDL[ckhddl] | AIIR[aiir] | AND+P-SOURCE[ypar] | HDR-K+AII-DONE[kaiidy]",
+          "line_verbs": 1,
+          "line_doses": 5
+        },
+        {
+          "line_index": 5,
+          "locus": "<f105v.12,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "ysheedy . aiin . okeol . ykedor . ar . ar . alkair . otar . otaiin . otal . tair . am",
+          "interlinear_gloss": "AND+SAP-STEEP.PROC[ysheedy] | ONE-DOSE[aiin] | NOM-BOIL+E-FLUID[okeol] | AND+KED-PORTION[ykedor] | AT-PART[ar] | AT-PART[ar] | ALKAIR[alkair] | NOM-DRAW+AR[otar] | NOM-DRAW-DOSE[otaiin] | NOM-DRAW+AL[otal] | HDR-T+AIR[tair] | A-TERM[am]",
+          "line_verbs": 1,
+          "line_doses": 9
+        },
+        {
+          "line_index": 6,
+          "locus": "<f105v.13,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "saiin . opchedy . qokchdy . otar . al . kair . okees . lkchdal",
+          "interlinear_gloss": "NEXT+A-UNIT.MEAS[saiin] | NOM+PCH-INFUSE.PROC[opchedy] | ACT-BOIL+HERB-DONE[qokchdy] | NOM-DRAW+AR[otar] | TO-VESSEL[al] | HDR-K+AIR[kair] | NOM-BOIL+EES[okees] | LIQ-APP+KCHD-VESSEL[lkchdal]",
+          "line_verbs": 3,
+          "line_doses": 4
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "recipe_id": "<f104v.32>",
+      "folio": "f104v",
+      "token_count": 37,
+      "line_count": 3,
+      "verb_count": 9,
+      "dose_count": 19,
+      "verb_to_dose_ratio": 0.474,
+      "stage1_zodiac_source": "f73r (Scorpio / November / AUTUMN)",
+      "stage2_herbal_source": "f46r ($L=B, $H=2)",
+      "stage3_pharm_source": "f102v2",
+      "four_stage_zhps_stems": [
+        "osain"
+      ],
+      "three_stage_hps_stems": [
+        "osain",
+        "cheos",
+        "ykey"
+      ],
+      "pharm_label_anchored_stems": [
+        "osain"
+      ],
+      "total_chain_score": 23.301,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f104v.32,+P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "pchedy . kchedy . cheocphey . or . ain . cheeos . aiiiro . lcheedy . lcheedy . qosaiin . cfheo . ar . als . am",
+          "interlinear_gloss": "HDR-P+HERB-INFUSE.PROC[pchedy] | HDR-K+HERB-INFUSE.PROC[kchedy] | CHEOCPH-EXT.STATE[cheocphey] | PORTION[or] | AIN[ain] | CHEEOS[cheeos]*H+P+S | AIIIRO[aiiiro] | LIQ-APP+HERB-STEEP.PROC[lcheedy] | LIQ-APP+HERB-STEEP.PROC[lcheedy] | ACT+S-DOSE.MEAS[qosaiin]*Z+H+P+S | CFHEO[cfheo] | AT-PART[ar] | ALS[als] | A-TERM[am]",
+          "line_verbs": 5,
+          "line_doses": 5
+        },
+        {
+          "line_index": 2,
+          "locus": "<f104v.33,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "yteeey . cheeod . ykeey . kaiin . qokaiin . cheey . or . ol . ar . odar . chedain . etar . ar . air . ary",
+          "interlinear_gloss": "AND+TEE-EXT.STATE[yteeey] | CHEEOD[cheeod] | AND+SIMMER-EXT.STATE[ykeey]*H+P+S | HDR-K+A-UNIT.MEAS[kaiin] | ACT-BOIL-MEASURE[qokaiin] | MACERATE-EXT.STATE[cheey] | PORTION[or] | THE-FLUID[ol] | AT-PART[ar] | NOM+D-SOURCE[odar] | CHED-MIN.MEAS[chedain] | ET-SOURCE[etar] | AT-PART[ar] | AIR[air] | AR-STATE[ary]",
+          "line_verbs": 1,
+          "line_doses": 9
+        },
+        {
+          "line_index": 3,
+          "locus": "<f104v.34,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "ycheo . lkeed . qotain . okaiin . chokain . okain . cheol . olcho",
+          "interlinear_gloss": "AND+CHEO[ycheo] | LIQ-APP+KEED[lkeed] | ACT-DRAW+AIN[qotain] | NOM-BOIL-DOSE[okaiin] | CHOK-MIN.MEAS[chokain] | NOM-BOIL+AIN[okain] | MACERATE-FLUID[cheol] | FLUID+CHO[olcho]",
+          "line_verbs": 3,
+          "line_doses": 5
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "recipe_id": "<f105r.1>",
+      "folio": "f105r",
+      "token_count": 56,
+      "line_count": 5,
+      "verb_count": 16,
+      "dose_count": 18,
+      "verb_to_dose_ratio": 0.889,
+      "stage1_zodiac_source": "f73r (Scorpio / November / AUTUMN)",
+      "stage2_herbal_source": "f43v ($L=B, $H=2)",
+      "stage3_pharm_source": "f101r",
+      "four_stage_zhps_stems": [
+        "ches"
+      ],
+      "three_stage_hps_stems": [
+        "ytchey",
+        "ody",
+        "ches"
+      ],
+      "pharm_label_anchored_stems": [],
+      "total_chain_score": 23.237,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f105r.1,@P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "aiin . dar . chcphy . qokeey . qopaiin . ypcheeey . saraisl . aiin . cheedy . aiin . arody",
+          "interlinear_gloss": "ONE-DOSE[aiin] | IN-PART[dar] | CHCPH-STATE[chcphy] | ACT-STEEP-EXT[qokeey] | ACT+P-DOSE.MEAS[qopaiin] | AND+PCHEE-EXT.STATE[ypcheeey]*H+P+S | NEXT+ARAISL[saraisl] | ONE-DOSE[aiin] | HERB-STEEP.PROC[cheedy] | ONE-DOSE[aiin] | AR-NOM.STATE[arody]",
+          "line_verbs": 3,
+          "line_doses": 5
+        },
+        {
+          "line_index": 2,
+          "locus": "<f105r.2,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "dshees . yey . cheey . raiin . otchdy . qodor . ches . or . cheey . okees . odar . cheody . qody",
+          "interlinear_gloss": "FROM+SHEES[dshees] | AND+E-STATE[yey] | MACERATE-EXT.STATE[cheey] | R-DOSE.MEAS[raiin] | NOM-DRAW+HERB-DONE[otchdy] | ACT+D-PORTION[qodor] | CHES[ches]*Z+H+P+S | PORTION[or] | MACERATE-EXT.STATE[cheey] | NOM-BOIL+EES[okees] | NOM+D-SOURCE[odar] | MACERATE-NOM.STATE[cheody] | ACT+D-STATE[qody]*H+P+S",
+          "line_verbs": 2,
+          "line_doses": 4
+        },
+        {
+          "line_index": 3,
+          "locus": "<f105r.3,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "olshey . qoden . odeey . kcheody . cheeo . ar . yteey . ytchy . otedy . qokeedy . qokeey . rol",
+          "interlinear_gloss": "FLUID+SAP-EXT.STATE[olshey] | ACT+DEN[qoden] | NOM+DE-EXT.STATE[odeey] | HDR-K+MACERATE-NOM.STATE[kcheody] | CHEEO[cheeo] | AT-PART[ar] | AND+EXTRACT-EXT.STATE[yteey] | AND+STEM-DRAW-STATE[ytchy] | NOM-DRAW+E-DONE[otedy] | ACT-STEEP-BOIL[qokeedy] | ACT-STEEP-EXT[qokeey] | R-FLUID[rol]",
+          "line_verbs": 5,
+          "line_doses": 2
+        },
+        {
+          "line_index": 4,
+          "locus": "<f105r.4,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "ykaiin . olkeedy . odaiin . okar . eeeodaiin . yteey . ochedy . qokeeey . oy . teedy . qotam",
+          "interlinear_gloss": "AND+HEAT-DOSE.MEAS[ykaiin] | FLUID+HEAT-STEEP.PROC[olkeedy] | NOM-MEASURE[odaiin] | NOM-BOIL+AR[okar] | EEEOD-DOSE.MEAS[eeeodaiin] | AND+EXTRACT-EXT.STATE[yteey] | NOM+HERB-INFUSE.PROC[ochedy] | ACT-BOIL+EE-EXT.STATE[qokeeey] | O-STATE[oy] | HDR-T+E-INFUSE.PROC[teedy] | ACT-DRAW+A-TERM[qotam]",
+          "line_verbs": 5,
+          "line_doses": 5
+        },
+        {
+          "line_index": 5,
+          "locus": "<f105r.5,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "daiin . yteedy . yteeeody . yl . cheod . or . aiiroekey . otchdy . otey",
+          "interlinear_gloss": "FROM-MEASURE[daiin] | AND+DRAW-STEEP.PROC[yteedy] | AND+TEEE-NOM.STATE[yteeeody] | YL[yl] | CHEOD[cheod] | PORTION[or] | AIIROEK-EXT.STATE[aiiroekey] | NOM-DRAW+HERB-DONE[otchdy] | NOM-DRAW+E-STATE[otey]",
+          "line_verbs": 1,
+          "line_doses": 2
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "recipe_id": "<f115r.22>",
+      "folio": "f115r",
+      "token_count": 46,
+      "line_count": 4,
+      "verb_count": 12,
+      "dose_count": 17,
+      "verb_to_dose_ratio": 0.706,
+      "stage1_zodiac_source": "f72r1 (Taurus (Dark) / May / SPRING)",
+      "stage2_herbal_source": "f31v ($L=B, $H=2)",
+      "stage3_pharm_source": "f99v",
+      "four_stage_zhps_stems": [
+        "ary",
+        "okeo"
+      ],
+      "three_stage_hps_stems": [
+        "ary",
+        "okeo",
+        "okedy"
+      ],
+      "pharm_label_anchored_stems": [
+        "ary"
+      ],
+      "total_chain_score": 22.532,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f115r.22,+P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "psheody . chsho . tchdy . dar . chedy . okchdar . chdor . cheedy . y . cheedy . qepchey . lkam",
+          "interlinear_gloss": "HDR-P+DISTILL-NOM.STATE[psheody] | CHSHO[chsho] | HDR-T+HERB-DONE[tchdy] | IN-PART[dar] | INFUSE-MIX[chedy] | NOM-BOIL+CHD-SOURCE[okchdar] | CHD-PORTION[chdor] | HERB-STEEP.PROC[cheedy] | Y[y] | HERB-STEEP.PROC[cheedy] | QEPCH-EXT.STATE[qepchey] | LIQ-APP+HEAT-FINAL.COL[lkam]",
+          "line_verbs": 4,
+          "line_doses": 4
+        },
+        {
+          "line_index": 2,
+          "locus": "<f115r.23,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "dchey . keey . qokeod . chody . qokcho . s . checthy . qokeeey . keeey . lol . chedy . qokchedy . ldy",
+          "interlinear_gloss": "FROM+HERB-EXT.STATE[dchey] | HDR-K+E-EXT.STATE[keey] | ACT-BOIL+EOD[qokeod] | HERB-NOM.STATE[chody] | ACT-BOIL+CHO[qokcho] | S[s] | CHECTH-STATE[checthy] | ACT-BOIL+EE-EXT.STATE[qokeeey] | HDR-K+EE-EXT.STATE[keeey] | LIQ-APP+OL[lol] | INFUSE-MIX[chedy] | ACT-BOIL+HERB-INFUSE.PROC[qokchedy] | LIQ-APP+D-STATE[ldy]",
+          "line_verbs": 5,
+          "line_doses": 1
+        },
+        {
+          "line_index": 3,
+          "locus": "<f115r.24,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "dcheol . qokeol . or . ar . aiin . cheey . okeeeo . or . chl . lor . ol . otlaiin . cheeor . ary",
+          "interlinear_gloss": "FROM+MACERATE-FLUID[dcheol] | ACT-BOIL+E-FLUID[qokeol] | PORTION[or] | AT-PART[ar] | ONE-DOSE[aiin] | MACERATE-EXT.STATE[cheey] | NOM-BOIL+EEEO[okeeeo]*Z+H+P+S | PORTION[or] | CHL[chl] | LIQ-APP+OR[lor] | THE-FLUID[ol] | NOM-DRAW+L-DOSE.MEAS[otlaiin] | CHEE-PORTION[cheeor] | AR-STATE[ary]*Z+H+P+S",
+          "line_verbs": 1,
+          "line_doses": 10
+        },
+        {
+          "line_index": 4,
+          "locus": "<f115r.25,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "y . cheodain . cheey . qotchedy . qokeeody . choar . cheey",
+          "interlinear_gloss": "Y[y] | CHEOD-MIN.MEAS[cheodain] | MACERATE-EXT.STATE[cheey] | ACT-DRAW+HERB-INFUSE.PROC[qotchedy] | ACT-BOIL+EE-NOM.STATE[qokeeody]*H+P+S | CHO-SOURCE[choar] | MACERATE-EXT.STATE[cheey]",
+          "line_verbs": 2,
+          "line_doses": 2
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "recipe_id": "<f105v.32>",
+      "folio": "f105v",
+      "token_count": 72,
+      "line_count": 7,
+      "verb_count": 13,
+      "dose_count": 31,
+      "verb_to_dose_ratio": 0.419,
+      "stage1_zodiac_source": "f72r2 (Gemini / June / SUMMER)",
+      "stage2_herbal_source": "f34v ($L=B, $H=2)",
+      "stage3_pharm_source": "f99r",
+      "four_stage_zhps_stems": [
+        "chs",
+        "air"
+      ],
+      "three_stage_hps_stems": [
+        "chs",
+        "ckhy",
+        "air"
+      ],
+      "pharm_label_anchored_stems": [],
+      "total_chain_score": 22.128,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f105v.32,+P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "poar . keeodaiin . qoair . ar . aey . qoeedeody . qokaiin . qotedair . apo . rairapy",
+          "interlinear_gloss": "HDR-P+O-SOURCE[poar] | HDR-K+EEOD-DOSE.MEAS[keeodaiin] | ACT+AIR[qoair] | AT-PART[ar] | A-EXT.STATE[aey] | ACT+EEDE-NOM.STATE[qoeedeody] | ACT-BOIL-MEASURE[qokaiin] | ACT-DRAW+EDAIR[qotedair] | APO[apo] | RAIRAP-STATE[rairapy]",
+          "line_verbs": 4,
+          "line_doses": 4
+        },
+        {
+          "line_index": 2,
+          "locus": "<f105v.33,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "lsheody . tair . oteey . oteeo . o . l . otaiin . okeey . qokaiin . or . aiir . al . dar",
+          "interlinear_gloss": "LIQ-APP+DISTILL-NOM.STATE[lsheody] | HDR-T+AIR[tair] | NOM-DRAW+E-EXT.STATE[oteey] | NOM-DRAW+EEO[oteeo] | O[o] | L[l] | NOM-DRAW-DOSE[otaiin] | NOM-BOIL+E-EXT.STATE[okeey] | ACT-BOIL-MEASURE[qokaiin] | PORTION[or] | AIIR[aiir]*Z+H+P+S | TO-VESSEL[al] | IN-PART[dar]",
+          "line_verbs": 2,
+          "line_doses": 5
+        },
+        {
+          "line_index": 3,
+          "locus": "<f105v.34,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "sheeo . daiin . chsd . qokeeey . dair . okaiin . otaiin . chedaiin . olkal . lkldain",
+          "interlinear_gloss": "NEXT+HEEO[sheeo] | FROM-MEASURE[daiin] | CHSD[chsd] | ACT-BOIL+EE-EXT.STATE[qokeeey] | FROM+AIR[dair] | NOM-BOIL-DOSE[okaiin] | NOM-DRAW-DOSE[otaiin] | CHED-DOSE.MEAS[chedaiin] | FLUID+HEAT-VESSEL[olkal] | LIQ-APP+KLD-MIN.MEAS[lkldain]",
+          "line_verbs": 2,
+          "line_doses": 6
+        },
+        {
+          "line_index": 4,
+          "locus": "<f105v.35,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "doee . okcheeo . l . taiin . otcheedy . chor . aiin . odaiin . chedy . otaiin . al . kaishd",
+          "interlinear_gloss": "FROM+OEE[doee] | NOM-BOIL+CHEEO[okcheeo] | L[l] | HDR-T+A-UNIT.MEAS[taiin] | NOM-DRAW+HERB-STEEP.PROC[otcheedy] | HERB-PART[chor] | ONE-DOSE[aiin] | NOM-MEASURE[odaiin] | INFUSE-MIX[chedy] | NOM-DRAW-DOSE[otaiin] | TO-VESSEL[al] | HDR-K+AISHD[kaishd]",
+          "line_verbs": 2,
+          "line_doses": 6
+        },
+        {
+          "line_index": 5,
+          "locus": "<f105v.36,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "laiin . sheod . okeeody . qoaiin . ytaiin . otair . chdal . dy . daim . chdaiin . oy",
+          "interlinear_gloss": "LIQ-APP+A-UNIT.MEAS[laiin] | NEXT+HEOD[sheod] | NOM-BOIL+EE-NOM.STATE[okeeody] | ACT+A-UNIT.MEAS[qoaiin] | AND+DRAW-DOSE.MEAS[ytaiin] | NOM-DRAW+AIR[otair] | CHD-VESSEL[chdal] | DONE[dy] | FROM+AI-TERM[daim] | CHD-DOSE.MEAS[chdaiin] | O-STATE[oy]",
+          "line_verbs": 1,
+          "line_doses": 5
+        },
+        {
+          "line_index": 6,
+          "locus": "<f105v.37,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "yshey . ckhy . sheo . qoeeo . lkaiin . chs . okol . tchdy . sheeey . okaiin . ar . aildy",
+          "interlinear_gloss": "AND+SAP-EXT.STATE[yshey] | CONC-BOIL-STATE[ckhy]*H+P+S | NEXT+HEO[sheo] | ACT+EEO[qoeeo] | LIQ-APP+HEAT-DOSE.MEAS[lkaiin] | CHS[chs]*Z+H+P+S | NOM-BOIL+OL[okol] | HDR-T+HERB-DONE[tchdy] | NEXT+HEE-EXT.STATE[sheeey] | NOM-BOIL-DOSE[okaiin] | AT-PART[ar] | AIL-DONE[aildy]",
+          "line_verbs": 2,
+          "line_doses": 4
+        },
+        {
+          "line_index": 7,
+          "locus": "<f105v.38,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "cheody . oaiir . ain . okshey",
+          "interlinear_gloss": "MACERATE-NOM.STATE[cheody] | NOM+AIIR[oaiir] | AIN[ain] | NOM-BOIL+SAP-EXT.STATE[okshey]",
+          "line_verbs": 0,
+          "line_doses": 1
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "recipe_id": "<f106v.40>",
+      "folio": "f106v",
+      "token_count": 21,
+      "line_count": 2,
+      "verb_count": 7,
+      "dose_count": 6,
+      "verb_to_dose_ratio": 1.167,
+      "stage1_zodiac_source": "f73r (Scorpio / November / AUTUMN)",
+      "stage2_herbal_source": "f43v ($L=B, $H=2)",
+      "stage3_pharm_source": "f89r1",
+      "four_stage_zhps_stems": [
+        "okedy",
+        "air",
+        "ches"
+      ],
+      "three_stage_hps_stems": [
+        "okedy",
+        "air",
+        "ches"
+      ],
+      "pharm_label_anchored_stems": [
+        "ches"
+      ],
+      "total_chain_score": 21.563,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f106v.40,+P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "ko . sheody . qody . ches . aiin . dair . air . opchedy . pchdy . kolchedy . tcheodar . podkor",
+          "interlinear_gloss": "KO[ko] | NEXT+HE-NOM.STATE[sheody] | ACT+D-STATE[qody] | CHES[ches]*Z+H+P+S | ONE-DOSE[aiin] | FROM+AIR[dair] | AIR[air]*Z+H+P+S | NOM+PCH-INFUSE.PROC[opchedy] | HDR-P+HERB-DONE[pchdy] | HDR-K+OLCH-INFUSE.PROC[kolchedy] | HDR-T+CHEOD-SOURCE[tcheodar] | HDR-P+ODK-PORTION[podkor]",
+          "line_verbs": 3,
+          "line_doses": 3
+        },
+        {
+          "line_index": 2,
+          "locus": "<f106v.41,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "otedy . qoar . cheey . kaiin . qokeeody . okaiin . oteey . qoteedy . choty",
+          "interlinear_gloss": "NOM-DRAW+E-DONE[otedy] | ACT+AR[qoar] | MACERATE-EXT.STATE[cheey] | HDR-K+A-UNIT.MEAS[kaiin] | ACT-BOIL+EE-NOM.STATE[qokeeody]*Z+H+P+S | NOM-BOIL-DOSE[okaiin] | NOM-DRAW+E-EXT.STATE[oteey] | ACT-DRAW-STEEP[qoteedy] | CHOT-STATE[choty]",
+          "line_verbs": 4,
+          "line_doses": 3
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "recipe_id": "<f114r.24>",
+      "folio": "f114r",
+      "token_count": 44,
+      "line_count": 4,
+      "verb_count": 8,
+      "dose_count": 17,
+      "verb_to_dose_ratio": 0.471,
+      "stage1_zodiac_source": "f73r (Scorpio / November / AUTUMN)",
+      "stage2_herbal_source": "f34r ($L=B, $H=2)",
+      "stage3_pharm_source": "f89v2",
+      "four_stage_zhps_stems": [
+        "air"
+      ],
+      "three_stage_hps_stems": [
+        "chty",
+        "sair",
+        "air"
+      ],
+      "pharm_label_anchored_stems": [],
+      "total_chain_score": 20.891,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f114r.24,+P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "tchedaiin . oldal . chor . chpcheey . chcphey . cphochy . chos . aiir . chty . chopo . sair . cphy . dair",
+          "interlinear_gloss": "HDR-T+CHED-DOSE.MEAS[tchedaiin] | FLUID+D-VESSEL[oldal] | HERB-PART[chor] | CHPCHE-EXT.STATE[chpcheey] | CHCPH-EXT.STATE[chcphey] | CPHOCH-STATE[cphochy] | CHOS[chos] | AIIR[aiir]*Z+H+P+S | CHT-STATE[chty]*H+P+S | CHOPO[chopo] | NEXT+AIR[sair]*H+P+S | SPLIT-RESIN-STATE[cphy] | FROM+AIR[dair]",
+          "line_verbs": 0,
+          "line_doses": 3
+        },
+        {
+          "line_index": 2,
+          "locus": "<f114r.25,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "oaiil . chey . qokeedy . chedy . qoeey . qokodaiin . cheey . kais . aiy . okol . aiir . otair . or . airy",
+          "interlinear_gloss": "NOM+AIIL[oaiil] | HERB-EXTRACT[chey] | ACT-STEEP-BOIL[qokeedy] | INFUSE-MIX[chedy] | ACT+E-EXT.STATE[qoeey] | ACT-BOIL+OD-DOSE.MEAS[qokodaiin] | MACERATE-EXT.STATE[cheey] | HDR-K+AIS[kais] | AI-STATE[aiy] | NOM-BOIL+OL[okol] | AIIR[aiir]*Z+H+P+S | NOM-DRAW+AIR[otair] | PORTION[or] | AIR-STATE[airy]",
+          "line_verbs": 4,
+          "line_doses": 3
+        },
+        {
+          "line_index": 3,
+          "locus": "<f114r.26,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "ycheeodaiin . olkaiir . qokaiin . chodaiin . okar . olkaiin . okaiin . cheody . airoy . olam",
+          "interlinear_gloss": "AND+CHEEOD-DOSE.MEAS[ycheeodaiin] | FLUID+KAIIR[olkaiir] | ACT-BOIL-MEASURE[qokaiin] | CHOD-DOSE.MEAS[chodaiin] | NOM-BOIL+AR[okar] | FLUID+HEAT-DOSE.MEAS[olkaiin] | NOM-BOIL-DOSE[okaiin] | MACERATE-NOM.STATE[cheody] | AIRO-STATE[airoy] | FLUID+A-TERM[olam]",
+          "line_verbs": 1,
+          "line_doses": 7
+        },
+        {
+          "line_index": 4,
+          "locus": "<f114r.27,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "cheeo . daiin . sheedy . qodaiin . ksam . chodal . olchedy",
+          "interlinear_gloss": "CHEEO[cheeo] | FROM-MEASURE[daiin] | NEXT+H-STEEP.PROC[sheedy] | ACT+D-DOSE.MEAS[qodaiin] | HDR-K+S-FINAL.COL[ksam] | CHOD-VESSEL[chodal] | FLUID+HERB-INFUSE.PROC[olchedy]",
+          "line_verbs": 3,
+          "line_doses": 4
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "recipe_id": "<f58v.29>",
+      "folio": "f58v",
+      "token_count": 44,
+      "line_count": 5,
+      "verb_count": 10,
+      "dose_count": 26,
+      "verb_to_dose_ratio": 0.385,
+      "stage1_zodiac_source": "f73r (Scorpio / November / AUTUMN)",
+      "stage2_herbal_source": "f31v ($L=B, $H=2)",
+      "stage3_pharm_source": "f102v2",
+      "four_stage_zhps_stems": [],
+      "three_stage_hps_stems": [
+        "choar",
+        "cheoy",
+        "keo"
+      ],
+      "pharm_label_anchored_stems": [],
+      "total_chain_score": 20.461,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f58v.29,+P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "polal . keeo . o . leeckhey . dalar . ykeeody . choar . ckhar . yfair . alam",
+          "interlinear_gloss": "HDR-P+OL-VESSEL[polal] | HDR-K+EEO[keeo]*H+P+S | O[o] | LIQ-APP+EECKH-EXT.STATE[leeckhey] | FROM+AL-SOURCE[dalar] | AND+KEE-NOM.STATE[ykeeody] | CHO-SOURCE[choar]*H+P+S | CONC-BOIL-SOURCE[ckhar] | AND+FAIR[yfair] | AL-FINAL.COL[alam]",
+          "line_verbs": 0,
+          "line_doses": 5
+        },
+        {
+          "line_index": 2,
+          "locus": "<f58v.30,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "daiin . sheoy . ykey . sheky . qokal . qokeey . okain . okar . ol . dam",
+          "interlinear_gloss": "FROM-MEASURE[daiin] | NEXT+HEO-STATE[sheoy]*H+P+S | AND+HEAT-EXT.STATE[ykey] | NEXT+HEK-STATE[sheky] | ACT-BOIL+AL[qokal] | ACT-STEEP-EXT[qokeey] | NOM-BOIL+AIN[okain] | NOM-BOIL+AR[okar] | THE-FLUID[ol] | FROM+A-TERM[dam]",
+          "line_verbs": 2,
+          "line_doses": 6
+        },
+        {
+          "line_index": 3,
+          "locus": "<f58v.31,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "tcheor . chor . kar . okal . qokeey . qokal . shol . qokain . ar . oetalchg",
+          "interlinear_gloss": "HDR-T+MACERATE-PORTION[tcheor] | HERB-PART[chor] | HDR-K+AR[kar] | NOM-BOIL+AL[okal] | ACT-STEEP-EXT[qokeey] | ACT-BOIL+AL[qokal] | SAP-FLUID[shol] | ACT-BOIL+AIN[qokain] | AT-PART[ar] | NOM+ETALCHG[oetalchg]",
+          "line_verbs": 3,
+          "line_doses": 8
+        },
+        {
+          "line_index": 4,
+          "locus": "<f58v.32,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "psheey . qoty . qokar . qokey . ky . ykar . cheal . otal . kol . olchedy",
+          "interlinear_gloss": "HDR-P+DISTILL-EXT.STATE[psheey] | ACT+DRAW-STATE[qoty] | ACT-BOIL+AR[qokar] | ACT-BOIL+E-STATE[qokey] | HEAT-STATE[ky] | AND+HEAT-SOURCE[ykar] | MACERATE-VESSEL[cheal] | NOM-DRAW+AL[otal] | HDR-K+OL[kol] | FLUID+HERB-INFUSE.PROC[olchedy]",
+          "line_verbs": 4,
+          "line_doses": 5
+        },
+        {
+          "line_index": 5,
+          "locus": "<f58v.33,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "qoair . chol . ar . chey",
+          "interlinear_gloss": "ACT+AIR[qoair] | HERB-LEAF[chol] | AT-PART[ar] | HERB-EXTRACT[chey]",
+          "line_verbs": 1,
+          "line_doses": 2
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "recipe_id": "<f112r.42>",
+      "folio": "f112r",
+      "token_count": 42,
+      "line_count": 4,
+      "verb_count": 7,
+      "dose_count": 16,
+      "verb_to_dose_ratio": 0.438,
+      "stage1_zodiac_source": "f72v3 (Leo / August / SUMMER)",
+      "stage2_herbal_source": "f33v ($L=B, $H=2)",
+      "stage3_pharm_source": "f99r",
+      "four_stage_zhps_stems": [
+        "okary"
+      ],
+      "three_stage_hps_stems": [
+        "okary",
+        "key",
+        "sar"
+      ],
+      "pharm_label_anchored_stems": [
+        "okary"
+      ],
+      "total_chain_score": 20.357,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f112r.42,+P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "pol . ar . shedy . qokaiin . y . okeedy . qotal . chody . oteody . araryteop",
+          "interlinear_gloss": "HDR-P+OL[pol] | AT-PART[ar] | DECOCT-STRAIN[shedy] | ACT-BOIL-MEASURE[qokaiin] | Y[y] | NOM-BOIL+E-INFUSE.PROC[okeedy] | ACT-DRAW+AL[qotal] | HERB-NOM.STATE[chody] | NOM-DRAW+E-NOM.STATE[oteody] | ARARYTEOP[araryteop]",
+          "line_verbs": 4,
+          "line_doses": 4
+        },
+        {
+          "line_index": 2,
+          "locus": "<f112r.43,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "yteeo . r . aiin . okar . opor . aiin . ycheedy . qeedar . yteeey . sheor . oteeg",
+          "interlinear_gloss": "AND+TEEO[yteeo] | R[r] | ONE-DOSE[aiin] | NOM-BOIL+AR[okar] | NOM+P-PORTION[opor] | ONE-DOSE[aiin] | AND+HERB-STEEP.PROC[ycheedy] | QEED-SOURCE[qeedar] | AND+TEE-EXT.STATE[yteeey] | NEXT+HE-PORTION[sheor] | NOM-DRAW+EEG[oteeg]",
+          "line_verbs": 1,
+          "line_doses": 6
+        },
+        {
+          "line_index": 3,
+          "locus": "<f112r.44,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "sar . ain . qokoekeeey . yk . koeechey . okeeedy . alair . akcheey . ar . arody",
+          "interlinear_gloss": "NEXT+AR[sar]*H+P+S | AIN[ain] | ACT-BOIL+OEKEE-EXT.STATE[qokoekeeey] | YK[yk] | HDR-K+OEECH-EXT.STATE[koeechey] | NOM-BOIL+E-STEEP.PROC[okeeedy] | ALAIR[alair] | AKCHE-EXT.STATE[akcheey] | AT-PART[ar] | AR-NOM.STATE[arody]",
+          "line_verbs": 2,
+          "line_doses": 3
+        },
+        {
+          "line_index": 4,
+          "locus": "<f112r.45,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "yor . aiin . o . keeey . teey . shkar . oteeedyqokeey . okeey . okary . oin . yky",
+          "interlinear_gloss": "AND+OR[yor] | ONE-DOSE[aiin] | O[o] | HDR-K+EE-EXT.STATE[keeey]*H+P+S | HDR-T+E-EXT.STATE[teey] | NEXT+HK-SOURCE[shkar] | NOM-DRAW+EEEDYQOKE-EXT.STATE[oteeedyqokeey] | NOM-BOIL+E-EXT.STATE[okeey] | NOM-BOIL+AR-STATE[okary]*Z+H+P+S | NOM+IN[oin] | AND+HEAT-STATE[yky]",
+          "line_verbs": 0,
+          "line_doses": 3
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "recipe_id": "<f112r.39>",
+      "folio": "f112r",
+      "token_count": 28,
+      "line_count": 3,
+      "verb_count": 8,
+      "dose_count": 13,
+      "verb_to_dose_ratio": 0.615,
+      "stage1_zodiac_source": "f72r3 (Cancer / July / SUMMER)",
+      "stage2_herbal_source": "f26v ($L=B, $H=2)",
+      "stage3_pharm_source": "f101r",
+      "four_stage_zhps_stems": [
+        "ory"
+      ],
+      "three_stage_hps_stems": [
+        "ory",
+        "chkey",
+        "okchey"
+      ],
+      "pharm_label_anchored_stems": [],
+      "total_chain_score": 20.124,
+      "lines": [
+        {
+          "line_index": 1,
+          "locus": "<f112r.39,+P0>",
+          "procedural_phase": "PHASE_1_OPENING_LINE",
+          "eva_text": "polkeedy . qopal . otedy . opal . aiin . okaiiin . sheody . yteokar . ogom",
+          "interlinear_gloss": "HDR-P+OLK-STEEP.PROC[polkeedy] | ACT+P-VESSEL[qopal] | NOM-DRAW+E-DONE[otedy] | NOM+P-VESSEL[opal] | ONE-DOSE[aiin] | NOM-BOIL+AI-UNIT.MEAS[okaiiin] | NEXT+HE-NOM.STATE[sheody] | AND+TEOK-SOURCE[yteokar] | NOM+GO-TERM[ogom]",
+          "line_verbs": 3,
+          "line_doses": 5
+        },
+        {
+          "line_index": 2,
+          "locus": "<f112r.40,+P0>",
+          "procedural_phase": "PHASE_2_MIDDLE_PROCESSING",
+          "eva_text": "sain . okal . lkeedy . okar . okchedy . qokal . keedy . chkey . oty . oral",
+          "interlinear_gloss": "NEXT+AIN[sain] | NOM-BOIL+AL[okal] | LIQ-APP+HEAT-STEEP.PROC[lkeedy] | NOM-BOIL+AR[okar] | NOM-BOIL+HERB-INFUSE.PROC[okchedy] | ACT-BOIL+AL[qokal] | HDR-K+E-INFUSE.PROC[keedy] | CHK-EXT.STATE[chkey]*H+P+S | NOM-DRAW[oty] | NOM+R-VESSEL[oral]",
+          "line_verbs": 4,
+          "line_doses": 5
+        },
+        {
+          "line_index": 3,
+          "locus": "<f112r.41,+P0>",
+          "procedural_phase": "PHASE_3_FINAL_CLOSING_LINE",
+          "eva_text": "yshesy . alain . cheey . okchey . qokchy . okchaiin . ykeeor . okeey . ory",
+          "interlinear_gloss": "AND+SHES-STATE[yshesy] | AL-MIN.MEAS[alain] | MACERATE-EXT.STATE[cheey] | NOM-BOIL+HERB-EXT.STATE[okchey]*H+P+S | ACT-BOIL+HERB-STATE[qokchy] | NOM-BOIL+HERB-DOSE.MEAS[okchaiin] | AND+KEE-PORTION[ykeeor] | NOM-BOIL+E-EXT.STATE[okeey] | NOM+R-STATE[ory]*Z+H+P+S",
+          "line_verbs": 1,
+          "line_doses": 3
+        }
+      ]
+    }
+  ]
+}

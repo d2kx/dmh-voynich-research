@@ -915,8 +915,30 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Key Breakthroughs**:
   1. **Synthesizes the 12-Medallion Astro-Botanical Calendar, the Quire 14 Diagram-to-Treatise Routing Matrix, and the Quire 20 Three-Phase Procedural & Stoichiometric Dosing Handbook**.
 
+---
 
+## 105. Attack 105 (`Phase 116`): The Four-Stage Master Astro-Medical Pipeline (`Zodiac $I=Z -> Herbal $I=H -> Pharmaceutical $I=P -> Quire 20 Starred Recipes $I=S`, $z = +10.80$ to $+17.05$)
+- **Script & Data**: [`tools/attack105_four_stage_astro_medical_pipeline.py`](../tools/attack105_four_stage_astro_medical_pipeline.py) $\to$ [`data/attack105_four_stage_astro_medical_pipeline.json`](../data/attack105_four_stage_astro_medical_pipeline.json)
+- **Key Breakthroughs**:
+  1. **Proves `2,387` Simultaneous $\ge 2$-Stem Tetrads (`2.85×`, $z = +10.80$), `104` Simultaneous $\ge 3$-Stem Tetrads (`11.82×`, $z = +17.05$), and `3,969` Linked Four-Stage Astro-Medical Chains (`4.01×`, $z = +14.37$) Across `Z -> H -> P -> S`, and Maps the Four-Stage Inflectional Transformation Law (`Nominal o- 49.2%–58.5% in Labels -> Active qo- 14.3%–15.4% & Processual -edy 5.34% in Recipes`)**.
 
+---
 
+## 106. Attack 106 (`Phase 117`): Visual, Codicological & Lexical Audit of the Master Hub Herbal Monographs (`f43v, f46r, f43r, f48r, f17v, f48v, f39r, f31v`)
+- **Script, Data & Scans**: [`tools/attack106_hub_herbal_monograph_visual_and_lexical_audit.py`](../tools/attack106_hub_herbal_monograph_visual_and_lexical_audit.py) $\to$ [`data/attack106_hub_herbal_monograph_visual_and_lexical_audit.json`](../data/attack106_hub_herbal_monograph_visual_and_lexical_audit.json), [`pages/f46r_master_hub_herbal_enh.png`](../pages/f46r_master_hub_herbal_enh.png), [`pages/f43v_master_hub_herbal_enh.png`](../pages/f43v_master_hub_herbal_enh.png)
+- **Key Breakthroughs**:
+  1. **Proves That the `#1`, `#2`, and `#3` Master Hub Herbal Monographs (`f43v, f46r, f43r`) Sit on the Exact Same Physical Unfolded Parchment Bifolio (`Quire F, Bifolio $B=3`, Scribe 2, Currier B), Exhibit `-40.3%` Fewer Drawing Intrusions (`0.278` vs. `0.466`), and Feature Prominent Underground Rhizome/Multi-Root Storage Systems Matching the Pharmaceutical Root-Cutting Formularies**.
 
+---
 
+## 107. Attack 107 (`Phase 118`): Complete Procedural & Stoichiometric Translation of the Top `25` Chained Starred Clinical Recipes (`f103r–f116r`, `f58r/v`)
+- **Script & Data**: [`tools/attack107_top25_chained_starred_recipe_translator.py`](../tools/attack107_top25_chained_starred_recipe_translator.py) $\to$ [`data/attack107_top25_chained_starred_recipe_translator.json`](../data/attack107_top25_chained_starred_recipe_translator.json)
+- **Key Breakthroughs**:
+  1. **Shows That Top-50 Chained Starred Recipes Are `2.18×` Longer (`64.84` vs. `29.80` Tokens), Carry `2.17×` More Measured Doses (`29.56` vs. `13.64`), and Pair with Currier B Herbal Monographs in `62.0%` of Chains (`2.52×` Enrichment), and Translates the Top `25` Chained Starred Clinical Recipes Line-by-Line**.
+
+---
+
+## 108. Attack 108 (`Phase 119`): The Four-Stage Astro-Medical Master Compendium & Hub-Plant Atlas ([`notes/FOUR_STAGE_ASTRO_MEDICAL_MASTER_COMPENDIUM.md`](FOUR_STAGE_ASTRO_MEDICAL_MASTER_COMPENDIUM.md))
+- **Script, Data & Edition**: [`tools/attack108_four_stage_astro_medical_compendium.py`](../tools/attack108_four_stage_astro_medical_compendium.py) $\to$ [`data/attack108_four_stage_astro_medical_compendium.json`](../data/attack108_four_stage_astro_medical_compendium.json) & [`notes/FOUR_STAGE_ASTRO_MEDICAL_MASTER_COMPENDIUM.md`](FOUR_STAGE_ASTRO_MEDICAL_MASTER_COMPENDIUM.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes the Four-Stage Master Astro-Medical Pipeline (`Attack 105`), the Master Hub Herbal Visual & Lexical Atlas (`Attack 106`), and the Top-25 Chained Starred Clinical Recipe Translation Edition (`Attack 107`)**.
