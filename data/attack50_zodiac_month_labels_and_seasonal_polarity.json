@@ -1,0 +1,245 @@
+{
+  "summary": {
+    "total_zodiac_tokens": 1194,
+    "spring_ot_op_rate": 0.3299,
+    "spring_ot_op_z_score": 2.79,
+    "spring_a_grade_suf_rate": 0.4322,
+    "spring_a_grade_suf_z_score": 2.45,
+    "autumn_winter_y_onset_rate": 0.1028,
+    "autumn_winter_y_onset_z_score": 4.66
+  },
+  "season_summary": {
+    "1_SPRING": {
+      "total_tokens": 479,
+      "ot_op_rate": 0.3299,
+      "ok_of_rate": 0.1545,
+      "y_onset_rate": 0.0271,
+      "a_grade_suf_rate": 0.4322,
+      "oe_grade_suf_rate": 0.3006
+    },
+    "2_SUMMER": {
+      "total_tokens": 355,
+      "ot_op_rate": 0.2197,
+      "ok_of_rate": 0.2423,
+      "y_onset_rate": 0.0507,
+      "a_grade_suf_rate": 0.3775,
+      "oe_grade_suf_rate": 0.3352
+    },
+    "3_AUTUMN_WINTER": {
+      "total_tokens": 360,
+      "ot_op_rate": 0.2889,
+      "ok_of_rate": 0.2139,
+      "y_onset_rate": 0.1028,
+      "a_grade_suf_rate": 0.3417,
+      "oe_grade_suf_rate": 0.3472
+    }
+  },
+  "trigon_summary": {
+    "AIR": {
+      "total_tokens": 197,
+      "ot_op_rate": 0.2893,
+      "ok_of_rate": 0.2284,
+      "y_onset_rate": 0.066,
+      "a_grade_suf_rate": 0.4772,
+      "oe_grade_suf_rate": 0.2284
+    },
+    "EARTH": {
+      "total_tokens": 282,
+      "ot_op_rate": 0.2695,
+      "ok_of_rate": 0.1773,
+      "y_onset_rate": 0.0248,
+      "a_grade_suf_rate": 0.4255,
+      "oe_grade_suf_rate": 0.3191
+    },
+    "FIRE": {
+      "total_tokens": 360,
+      "ot_op_rate": 0.2972,
+      "ok_of_rate": 0.2306,
+      "y_onset_rate": 0.0667,
+      "a_grade_suf_rate": 0.3,
+      "oe_grade_suf_rate": 0.3833
+    },
+    "WATER": {
+      "total_tokens": 355,
+      "ot_op_rate": 0.2817,
+      "ok_of_rate": 0.1662,
+      "y_onset_rate": 0.0676,
+      "a_grade_suf_rate": 0.4,
+      "oe_grade_suf_rate": 0.3239
+    }
+  },
+  "sign_profiles": [
+    {
+      "sign": "Pisces",
+      "month": "mars",
+      "folios": [
+        "f70v2"
+      ],
+      "season": "1_SPRING",
+      "trigon": "WATER",
+      "total_tokens": 125,
+      "nymph_tokens": 34,
+      "ring_tokens": 91,
+      "ot_op_rate": 0.376,
+      "ok_of_rate": 0.128,
+      "y_onset_rate": 0.048,
+      "a_grade_suf_rate": 0.464,
+      "oe_grade_suf_rate": 0.248
+    },
+    {
+      "sign": "Aries",
+      "month": "abril",
+      "folios": [
+        "f70v1",
+        "f71r"
+      ],
+      "season": "1_SPRING",
+      "trigon": "FIRE",
+      "total_tokens": 163,
+      "nymph_tokens": 42,
+      "ring_tokens": 121,
+      "ot_op_rate": 0.3558,
+      "ok_of_rate": 0.1718,
+      "y_onset_rate": 0.0245,
+      "a_grade_suf_rate": 0.3558,
+      "oe_grade_suf_rate": 0.3313
+    },
+    {
+      "sign": "Taurus",
+      "month": "may",
+      "folios": [
+        "f71v",
+        "f72r1"
+      ],
+      "season": "1_SPRING",
+      "trigon": "EARTH",
+      "total_tokens": 191,
+      "nymph_tokens": 40,
+      "ring_tokens": 151,
+      "ot_op_rate": 0.2775,
+      "ok_of_rate": 0.1571,
+      "y_onset_rate": 0.0157,
+      "a_grade_suf_rate": 0.4764,
+      "oe_grade_suf_rate": 0.3089
+    },
+    {
+      "sign": "Gemini",
+      "month": "juny",
+      "folios": [
+        "f72r2"
+      ],
+      "season": "2_SUMMER",
+      "trigon": "AIR",
+      "total_tokens": 104,
+      "nymph_tokens": 30,
+      "ring_tokens": 74,
+      "ot_op_rate": 0.2308,
+      "ok_of_rate": 0.2596,
+      "y_onset_rate": 0.0192,
+      "a_grade_suf_rate": 0.5481,
+      "oe_grade_suf_rate": 0.1923
+    },
+    {
+      "sign": "Cancer",
+      "month": "jollet",
+      "folios": [
+        "f72r3"
+      ],
+      "season": "2_SUMMER",
+      "trigon": "WATER",
+      "total_tokens": 144,
+      "nymph_tokens": 38,
+      "ring_tokens": 106,
+      "ot_op_rate": 0.2014,
+      "ok_of_rate": 0.2014,
+      "y_onset_rate": 0.0833,
+      "a_grade_suf_rate": 0.3542,
+      "oe_grade_suf_rate": 0.3611
+    },
+    {
+      "sign": "Leo",
+      "month": "agost",
+      "folios": [
+        "f72v3"
+      ],
+      "season": "2_SUMMER",
+      "trigon": "FIRE",
+      "total_tokens": 107,
+      "nymph_tokens": 32,
+      "ring_tokens": 75,
+      "ot_op_rate": 0.2336,
+      "ok_of_rate": 0.2804,
+      "y_onset_rate": 0.0374,
+      "a_grade_suf_rate": 0.243,
+      "oe_grade_suf_rate": 0.4393
+    },
+    {
+      "sign": "Virgo",
+      "month": "setembre",
+      "folios": [
+        "f72v2"
+      ],
+      "season": "3_AUTUMN_WINTER",
+      "trigon": "EARTH",
+      "total_tokens": 91,
+      "nymph_tokens": 30,
+      "ring_tokens": 61,
+      "ot_op_rate": 0.2527,
+      "ok_of_rate": 0.2198,
+      "y_onset_rate": 0.044,
+      "a_grade_suf_rate": 0.3187,
+      "oe_grade_suf_rate": 0.3407
+    },
+    {
+      "sign": "Libra",
+      "month": "octobre",
+      "folios": [
+        "f72v1"
+      ],
+      "season": "3_AUTUMN_WINTER",
+      "trigon": "AIR",
+      "total_tokens": 93,
+      "nymph_tokens": 30,
+      "ring_tokens": 63,
+      "ot_op_rate": 0.3548,
+      "ok_of_rate": 0.1935,
+      "y_onset_rate": 0.1183,
+      "a_grade_suf_rate": 0.3978,
+      "oe_grade_suf_rate": 0.2688
+    },
+    {
+      "sign": "Scorpio",
+      "month": "novembre",
+      "folios": [
+        "f73r"
+      ],
+      "season": "3_AUTUMN_WINTER",
+      "trigon": "WATER",
+      "total_tokens": 86,
+      "nymph_tokens": 30,
+      "ring_tokens": 56,
+      "ot_op_rate": 0.2791,
+      "ok_of_rate": 0.1628,
+      "y_onset_rate": 0.0698,
+      "a_grade_suf_rate": 0.3837,
+      "oe_grade_suf_rate": 0.3721
+    },
+    {
+      "sign": "Sagittarius",
+      "month": "decembre",
+      "folios": [
+        "f73v"
+      ],
+      "season": "3_AUTUMN_WINTER",
+      "trigon": "FIRE",
+      "total_tokens": 90,
+      "nymph_tokens": 30,
+      "ring_tokens": 60,
+      "ot_op_rate": 0.2667,
+      "ok_of_rate": 0.2778,
+      "y_onset_rate": 0.1778,
+      "a_grade_suf_rate": 0.2667,
+      "oe_grade_suf_rate": 0.4111
+    }
+  ]
+}

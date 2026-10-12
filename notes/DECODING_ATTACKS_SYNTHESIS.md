@@ -507,3 +507,34 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Script, Data & Edition**: [`tools/attack48_formulaic_sentence_dictionary_and_parallel_corpus.py`](../tools/attack48_formulaic_sentence_dictionary_and_parallel_corpus.py) $\to$ [`data/attack48_formulaic_sentence_dictionary_and_parallel_corpus.json`](../data/attack48_formulaic_sentence_dictionary_and_parallel_corpus.json) & [`notes/FORMULAIC_SENTENCE_DICTIONARY.md`](FORMULAIC_SENTENCE_DICTIONARY.md)
 - **Key Breakthroughs**:
   1. **Compiles `87` exact 3-word clauses, `110` cross-section 4-word templates, `179` unified gallows-bench families, and the `15`-entry `f66r` index table**.
+
+---
+
+## 49. Attack 49 (`Phase 60`): The Five-Way `da-` Deictic & Prepositional Case-Frame Paradigm (`daiin`, `dar`, `dal`, `dair`, `dam`, Frame MI $z = +7.74, p < 10^{-14}$)
+- **Script & Data**: [`tools/attack49_d_deictic_case_frame_paradigm.py`](../tools/attack49_d_deictic_case_frame_paradigm.py) $\to$ [`data/attack49_d_deictic_case_frame_paradigm.json`](../data/attack49_d_deictic_case_frame_paradigm.json)
+- **Key Breakthroughs**:
+  1. **5-Way Syntactic & Positional Case Frame ($I = 0.27127\text{ bits}$ vs. $0.17828$ Null, $z = +7.74$)**: `dair` (`27.3%` line-initial topicalizer), `daiin` (`chol . daiin` post-nominal partitive/measure), `dar` (`dar . aiin / ar` post-verbal dative/portion), `dal` (`2.3%` line-initial, `dal . shedy` liquid-medium complement), and `dam` (`0.0%` line-initial vs. `64.8%` line-final clause closer).
+
+---
+
+## 50. Attack 50 (`Phase 61`): Zodiac Month Labels (`mars`..`decembre`) & Ecliptic Seasonality Polarity (`3.81×` Autumn/Winter `y-` Onset Surge $z = +4.66$, Spring `a`-Grade Polarity $z = +2.45$)
+- **Script & Data**: [`tools/attack50_zodiac_month_labels_and_seasonal_polarity.py`](../tools/attack50_zodiac_month_labels_and_seasonal_polarity.py) $\to$ [`data/attack50_zodiac_month_labels_and_seasonal_polarity.json`](../data/attack50_zodiac_month_labels_and_seasonal_polarity.json)
+- **Visual Forensics**: [`pages/f73v_sagittarius_decembre_y_onset_enh.png`](../pages/f73v_sagittarius_decembre_y_onset_enh.png)
+- **Key Breakthroughs**:
+  1. **Monotonic Ecliptic Surge of `y-` (`yk-/yt-/y-`) Onset (`2.7%` Spring $\to$ `5.1%` Summer $\to$ `10.3%` Autumn/Winter, Peaking at `17.8%` in `decembre` [`Sagittarius`], $z = +4.66$)**.
+  2. **Opposite Seasonal Gradient of `-al/-ar/-am/-aiin` (`a`-Grade, $z = +2.45$) vs. `-ol/-or/-ey/-edy` (`o/e`-Grade)**.
+
+---
+
+## 51. Attack 51 (`Phase 62`): The `l- / ol- / qol-` Liquid-Applicative Derivative System (`88.22%` Bare-Stem Stripping, `28` Full 4-Tuple Families, and `$I=B+S` Enrichment $z = +23.26, p < 10^{-100}$)
+- **Script & Data**: [`tools/attack51_l_prefix_derivative_system.py`](../tools/attack51_l_prefix_derivative_system.py) $\to$ [`data/attack51_l_prefix_derivative_system.json`](../data/attack51_l_prefix_derivative_system.json)
+- **Key Breakthroughs**:
+  1. **`88.22%` (`794 / 900`) Attested Bare-Stem Stripping & `28` Complete `[X, l-X, ol-X, qol-X]` 4-Tuple Families**.
+  2. **Balneological (`$I=B`) & Starred Recipe (`$I=S`) Enrichment (`4.58%` vs. `2.48%` Null, $z = +23.26, p < 10^{-100}$)**.
+
+---
+
+## 52. Attack 52 (`Phase 63`): Complete Proclitic Grammar Synthesis & Top-100 Most Frequent Word Parsing Table (`39.21%` of All Manuscript Tokens, [`notes/TOP100_WORD_COMPLETE_GRAMMAR_TABLE.md`](TOP100_WORD_COMPLETE_GRAMMAR_TABLE.md))
+- **Script, Data & Edition**: [`tools/attack52_complete_proclitic_and_top100_word_parser.py`](../tools/attack52_complete_proclitic_and_top100_word_parser.py) $\to$ [`data/attack52_complete_proclitic_and_top100_word_parser.json`](../data/attack52_complete_proclitic_and_top100_word_parser.json) & [`notes/TOP100_WORD_COMPLETE_GRAMMAR_TABLE.md`](TOP100_WORD_COMPLETE_GRAMMAR_TABLE.md)
+- **Key Breakthroughs**:
+  1. **Complete Top-100 Word Parse (`14,206 / 36,229` Tokens = `39.21%` of the Book) with `1.003 : 1.000` Equilibrium Between `CH_VERB` (`2,823`) and `Q_ACT` (`2,815`)**.

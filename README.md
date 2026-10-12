@@ -446,6 +446,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 58. The Five-Way `da-` Deictic & Prepositional Case-Frame Paradigm (`daiin`, `dar`, `dal`, `dair`, `dam`, Frame MI $z = +7.74, p < 10^{-14}$, `Attack 49`)
+- **Five-Way Syntactic & Positional Differentiation ($I = 0.27127\text{ bits}$ vs. $0.17828$ Null, $z = +7.74$)**: Across `1,330` prose tokens: **`dair` (`27.3%` line-initial)** acts as a clause-initial ablative topicalizer (*"therefrom"*); **`daiin` (`n=765`)** acts as the post-nominal partitive/measure operator (`chol . daiin`, `27×`); **`dar` (`n=246`)** acts as the post-verbal dative/portion operator (`dar . aiin`, `dar . ar`); **`dal` (`2.3%` line-initial vs. `73.1%` interior)** acts as the non-initial liquid-medium complement (`dal . shedy`); and **`dam` (`0.0%` line-initial vs. `64.8%` line-final)** acts as a right-margin clause closer.
+
+---
+
+### 59. Zodiac Month Labels (`mars`..`decembre`) & Ecliptic Seasonality Polarity (`3.81×` Autumn/Winter `y-` Onset Surge $z = +4.66$, Spring `a`-Grade Polarity $z = +2.45$, `Attack 50`)
+- **Monotonic Ecliptic Surge of `y-` (`yk-/yt-/y-`) Onset (`2.7% -> 5.1% -> 10.3%`, Peaking at `17.8%` in `decembre` [`Sagittarius`], `pages/f73v_sagittarius_decembre_y_onset_enh.png`, $z = +4.66$)**: Across the `1,194` Zodiac tokens, `y-` onset surges `3.81×` from Spring (`mars`–`may`, `2.7%`) to Autumn/Winter (`setembre`–`decembre`, `10.3%`, peaking at `17.8%` on `f73v`), while `a`-grade suffixes (`-al/-ar/-am/-aiin`) peak in Spring (`43.2%`, $z = +2.45$) and `o/e`-grade suffixes rise toward Winter (`30.1% -> 34.7%`).
+
+---
+
+### 60. The `l- / ol- / qol-` Liquid-Applicative Derivative System (`88.22%` Bare-Stem Stripping, `28` Full 4-Tuple Families, and `$I=B+S` Enrichment $z = +23.26, p < 10^{-100}$, `Attack 51`)
+- **`88.22%` (`794 / 900`) Attested Bare-Stem Stripping & `28` Complete `[X, l-X, ol-X, qol-X]` 4-Tuples**: Stripping initial `l-` from `l + Consonant` words (`lchedy`, `lshedy`, `lkaiin`, `lchey`, `lkeedy`, `lkedy`) leaves an attested bare word `X` in `88.22%` of tokens, with `l-X` enriched at **`4.58%` in Balneological (`$I=B`) + Starred Recipes (`$I=S`) vs. `2.48%` null ($z = +23.26, p < 10^{-100}$)**.
+
+---
+
+### 61. Complete Proclitic Grammar Synthesis & Top-100 Most Frequent Word Parsing Table (`39.21%` of All Manuscript Tokens, [`notes/TOP100_WORD_COMPLETE_GRAMMAR_TABLE.md`](notes/TOP100_WORD_COMPLETE_GRAMMAR_TABLE.md), `Attack 52`)
+- **Complete Top-100 Word Parse (`14,206 / 36,229` Tokens = `39.21%` of the Book)**: Parses the Top 100 words in **[`notes/TOP100_WORD_COMPLETE_GRAMMAR_TABLE.md`](notes/TOP100_WORD_COMPLETE_GRAMMAR_TABLE.md)**, revealing a **`1.003 : 1.000` equilibrium between `CH_VERB` (`2,823` tokens, `19.87%`) and `Q_ACT` (`2,815` tokens, `19.82%`)**.
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -525,4 +545,8 @@ python tools/attack45_gallows_bench_complex_paradigm.py
 python tools/attack46_f66r_index_table_and_den_mus_del_decoder.py
 python tools/attack47_cross_folio_sentence_clone_scanner.py
 python tools/attack48_formulaic_sentence_dictionary_and_parallel_corpus.py
+python tools/attack49_d_deictic_case_frame_paradigm.py
+python tools/attack50_zodiac_month_labels_and_seasonal_polarity.py
+python tools/attack51_l_prefix_derivative_system.py
+python tools/attack52_complete_proclitic_and_top100_word_parser.py
 ```

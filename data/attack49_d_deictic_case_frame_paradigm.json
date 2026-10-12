@@ -1,0 +1,253 @@
+{
+  "summary": {
+    "total_da_paradigm_tokens": 1330,
+    "observed_frame_mi_bits": 0.27127,
+    "null_mean_mi_bits": 0.17828,
+    "null_sd_mi_bits": 0.01201,
+    "z_score": 7.74
+  },
+  "paradigm_table": {
+    "daiin": {
+      "total_prose_tokens": 765,
+      "line_initial_rate": 0.2039,
+      "line_interior_rate": 0.6444,
+      "line_final_rate": 0.1516,
+      "para_final_rate": 0.0327,
+      "prev_slot_rates": {
+        "LINE_START": 0.2039,
+        "CH_VERB": 0.1595,
+        "Q_ACT": 0.1333,
+        "OTHER": 0.1294,
+        "NOM_OK": 0.1216,
+        "CH_LIQ_NOM": 0.0954,
+        "LIQ_NOM": 0.0693,
+        "GALLOWS": 0.051,
+        "AIIN": 0.0366
+      },
+      "next_slot_rates": {
+        "CH_VERB": 0.2275,
+        "OTHER": 0.1725,
+        "LINE_END": 0.1516,
+        "NOM_OK": 0.1333,
+        "LIQ_NOM": 0.1098,
+        "CH_LIQ_NOM": 0.0758,
+        "Q_ACT": 0.0719,
+        "AIIN": 0.0471,
+        "GALLOWS": 0.0105
+      },
+      "top_prev_words": {
+        "chol": 27,
+        "daiin": 11,
+        "chy": 10,
+        "chedy": 10,
+        "qokeey": 10,
+        "qoky": 9,
+        "chey": 8,
+        "chor": 8
+      },
+      "top_next_words": {
+        "chey": 12,
+        "cthy": 11,
+        "daiin": 11,
+        "shey": 10,
+        "chckhy": 9,
+        "chedy": 9,
+        "dal": 8,
+        "dain": 8
+      }
+    },
+    "dar": {
+      "total_prose_tokens": 246,
+      "line_initial_rate": 0.1341,
+      "line_interior_rate": 0.7195,
+      "line_final_rate": 0.1463,
+      "para_final_rate": 0.0163,
+      "prev_slot_rates": {
+        "Q_ACT": 0.1911,
+        "NOM_OK": 0.1626,
+        "OTHER": 0.1504,
+        "LINE_START": 0.1341,
+        "CH_VERB": 0.1341,
+        "LIQ_NOM": 0.0854,
+        "GALLOWS": 0.0691,
+        "CH_LIQ_NOM": 0.0366,
+        "AIIN": 0.0366
+      },
+      "next_slot_rates": {
+        "CH_VERB": 0.2358,
+        "OTHER": 0.1707,
+        "LINE_END": 0.1463,
+        "NOM_OK": 0.1179,
+        "LIQ_NOM": 0.1098,
+        "CH_LIQ_NOM": 0.0813,
+        "AIIN": 0.0691,
+        "Q_ACT": 0.0528,
+        "GALLOWS": 0.0163
+      },
+      "top_prev_words": {
+        "daiin": 7,
+        "qokal": 6,
+        "qokain": 5,
+        "olky": 4,
+        "okal": 3,
+        "dal": 3,
+        "qokeedy": 3,
+        "qotal": 3
+      },
+      "top_next_words": {
+        "aiin": 6,
+        "ar": 6,
+        "shey": 5,
+        "chey": 5,
+        "chedy": 5,
+        "ol": 5,
+        "al": 5,
+        "shedy": 5
+      }
+    },
+    "dal": {
+      "total_prose_tokens": 171,
+      "line_initial_rate": 0.0234,
+      "line_interior_rate": 0.731,
+      "line_final_rate": 0.2456,
+      "para_final_rate": 0.0234,
+      "prev_slot_rates": {
+        "CH_VERB": 0.1988,
+        "Q_ACT": 0.1813,
+        "OTHER": 0.1462,
+        "AIIN": 0.117,
+        "NOM_OK": 0.1111,
+        "LIQ_NOM": 0.0819,
+        "CH_LIQ_NOM": 0.076,
+        "GALLOWS": 0.0643,
+        "LINE_START": 0.0234
+      },
+      "next_slot_rates": {
+        "LINE_END": 0.2456,
+        "CH_VERB": 0.1871,
+        "OTHER": 0.1871,
+        "Q_ACT": 0.0936,
+        "CH_LIQ_NOM": 0.0819,
+        "LIQ_NOM": 0.0819,
+        "NOM_OK": 0.0526,
+        "GALLOWS": 0.0351,
+        "AIIN": 0.0351
+      },
+      "top_prev_words": {
+        "daiin": 8,
+        "qokedy": 6,
+        "qokal": 5,
+        "okal": 4,
+        "qokain": 4,
+        "aiin": 3,
+        "chedy": 3,
+        "chol": 2
+      },
+      "top_next_words": {
+        "shedy": 5,
+        "dar": 3,
+        "dy": 3,
+        "daiin": 3,
+        "lchedy": 3,
+        "chody": 2,
+        "s": 2,
+        "chor": 2
+      }
+    },
+    "dair": {
+      "total_prose_tokens": 77,
+      "line_initial_rate": 0.2727,
+      "line_interior_rate": 0.6623,
+      "line_final_rate": 0.0649,
+      "para_final_rate": 0.0,
+      "prev_slot_rates": {
+        "LINE_START": 0.2727,
+        "CH_VERB": 0.1688,
+        "OTHER": 0.1558,
+        "Q_ACT": 0.1039,
+        "NOM_OK": 0.0779,
+        "LIQ_NOM": 0.0649,
+        "CH_LIQ_NOM": 0.0519,
+        "GALLOWS": 0.0519,
+        "AIIN": 0.0519
+      },
+      "next_slot_rates": {
+        "CH_VERB": 0.2727,
+        "OTHER": 0.1688,
+        "NOM_OK": 0.1688,
+        "LIQ_NOM": 0.0909,
+        "CH_LIQ_NOM": 0.0909,
+        "Q_ACT": 0.0779,
+        "LINE_END": 0.0649,
+        "AIIN": 0.0519,
+        "GALLOWS": 0.013
+      },
+      "top_prev_words": {
+        "daiin": 3,
+        "chdy": 3,
+        "dol": 2,
+        "cheey": 2,
+        "dal": 2,
+        "chokeo": 1,
+        "shol": 1,
+        "chor": 1
+      },
+      "top_next_words": {
+        "or": 3,
+        "dam": 2,
+        "chody": 2,
+        "cthey": 2,
+        "shy": 2,
+        "okal": 2,
+        "chey": 2,
+        "cphoal": 1
+      }
+    },
+    "dam": {
+      "total_prose_tokens": 71,
+      "line_initial_rate": 0.0,
+      "line_interior_rate": 0.3521,
+      "line_final_rate": 0.6479,
+      "para_final_rate": 0.0423,
+      "prev_slot_rates": {
+        "NOM_OK": 0.2394,
+        "OTHER": 0.1831,
+        "AIIN": 0.169,
+        "CH_VERB": 0.1408,
+        "LIQ_NOM": 0.0986,
+        "GALLOWS": 0.0986,
+        "CH_LIQ_NOM": 0.0423,
+        "Q_ACT": 0.0282
+      },
+      "next_slot_rates": {
+        "LINE_END": 0.6479,
+        "NOM_OK": 0.0986,
+        "OTHER": 0.0845,
+        "CH_VERB": 0.0845,
+        "CH_LIQ_NOM": 0.0423,
+        "LIQ_NOM": 0.0282,
+        "Q_ACT": 0.0141
+      },
+      "top_prev_words": {
+        "daiin": 8,
+        "dair": 2,
+        "chy": 2,
+        "oky": 2,
+        "oty": 2,
+        "taiin": 2,
+        "chor": 1,
+        "ytaiin": 1
+      },
+      "top_next_words": {
+        "sochey": 1,
+        "qotcham": 1,
+        "okor": 1,
+        "ykchy": 1,
+        "okchol": 1,
+        "ytcho": 1,
+        "chor": 1,
+        "dal": 1
+      }
+    }
+  }
+}
