@@ -1,0 +1,142 @@
+{
+  "corpus_totals": {
+    "total_tokens": 36229,
+    "unique_word_types": 9053,
+    "open_class_tokens": 27529,
+    "open_class_pct": 75.99,
+    "closed_class_tokens": 8601,
+    "closed_class_pct": 23.74,
+    "combined_covered_tokens": 36130,
+    "combined_coverage_pct": 99.73,
+    "residual_tokens": 99,
+    "residual_pct": 0.27
+  },
+  "cell_occupancy": {
+    "open_theoretical_cells": 384,
+    "open_attested_cells": 363,
+    "closed_theoretical_cells": 56,
+    "closed_attested_cells": 56,
+    "total_theoretical_cells": 440,
+    "total_attested_cells": 419
+  },
+  "shannon_entropy_decomposition": {
+    "H_word_bits": 10.7699,
+    "H_dual_matrix_cell_bits": 7.3334,
+    "H_surface_word_given_cell_bits": 3.4365,
+    "pct_word_entropy_captured_by_cell": 68.09
+  },
+  "syntactic_transition_automaton": {
+    "total_within_line_bigrams": 30853,
+    "observed_mi_bits": 0.06377,
+    "null_mi_mean_bits": 0.0247,
+    "null_mi_std_bits": 0.00124,
+    "within_line_permutation_z": 31.4,
+    "top_enriched_transitions": [
+      {
+        "from": "CLOSED_S_SIB",
+        "to": "CLOSED_O_VOW",
+        "count": 221,
+        "expected": 82.0,
+        "lift": 2.696
+      },
+      {
+        "from": "CLOSED_R_PORT",
+        "to": "CLOSED_O_VOW",
+        "count": 64,
+        "expected": 24.3,
+        "lift": 2.637
+      },
+      {
+        "from": "CLOSED_O_VOW",
+        "to": "CLOSED_O_VOW",
+        "count": 631,
+        "expected": 287.9,
+        "lift": 2.192
+      },
+      {
+        "from": "OPEN_SH",
+        "to": "CLOSED_QO_PRO",
+        "count": 95,
+        "expected": 48.3,
+        "lift": 1.967
+      },
+      {
+        "from": "OPEN_TCH_CTH",
+        "to": "OPEN_TCH_CTH",
+        "count": 399,
+        "expected": 208.7,
+        "lift": 1.912
+      },
+      {
+        "from": "OPEN_T_P",
+        "to": "OPEN_T_P",
+        "count": 739,
+        "expected": 426.9,
+        "lift": 1.731
+      },
+      {
+        "from": "OPEN_KCH_CKH",
+        "to": "CLOSED_S_SIB",
+        "count": 70,
+        "expected": 44.3,
+        "lift": 1.579
+      },
+      {
+        "from": "CLOSED_D_DEIC",
+        "to": "CLOSED_D_DEIC",
+        "count": 218,
+        "expected": 144.2,
+        "lift": 1.512
+      },
+      {
+        "from": "OPEN_KCH_CKH",
+        "to": "OPEN_KCH_CKH",
+        "count": 212,
+        "expected": 142.5,
+        "lift": 1.488
+      },
+      {
+        "from": "CLOSED_S_SIB",
+        "to": "OPEN_SH",
+        "count": 110,
+        "expected": 75.0,
+        "lift": 1.466
+      },
+      {
+        "from": "OPEN_CH",
+        "to": "CLOSED_R_PORT",
+        "count": 91,
+        "expected": 62.5,
+        "lift": 1.457
+      },
+      {
+        "from": "CLOSED_L_APPL",
+        "to": "OPEN_CH",
+        "count": 62,
+        "expected": 43.9,
+        "lift": 1.413
+      },
+      {
+        "from": "OPEN_CH",
+        "to": "CLOSED_QO_PRO",
+        "count": 126,
+        "expected": 90.2,
+        "lift": 1.398
+      },
+      {
+        "from": "CLOSED_QO_PRO",
+        "to": "OPEN_CH",
+        "count": 132,
+        "expected": 94.7,
+        "lift": 1.395
+      },
+      {
+        "from": "OPEN_TCH_CTH",
+        "to": "OPEN_KCH_CKH",
+        "count": 249,
+        "expected": 179.4,
+        "lift": 1.388
+      }
+    ]
+  }
+}

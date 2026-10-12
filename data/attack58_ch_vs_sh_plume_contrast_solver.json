@@ -1,0 +1,278 @@
+{
+  "prefix_compatibility": {
+    "ZERO": {
+      "CH": 5289,
+      "SH": 2876,
+      "total": 8165,
+      "SH_share_pct": 35.22
+    },
+    "O_VOW": {
+      "CH": 212,
+      "SH": 181,
+      "total": 393,
+      "SH_share_pct": 46.06
+    },
+    "QO": {
+      "CH": 127,
+      "SH": 98,
+      "total": 225,
+      "SH_share_pct": 43.56
+    },
+    "L_APPL": {
+      "CH": 491,
+      "SH": 210,
+      "total": 701,
+      "SH_share_pct": 29.96
+    },
+    "D_DEIC": {
+      "CH": 329,
+      "SH": 171,
+      "total": 500,
+      "SH_share_pct": 34.2
+    },
+    "S_SIB": {
+      "CH": 110,
+      "SH": 41,
+      "total": 151,
+      "SH_share_pct": 27.15
+    },
+    "Y_CONJ": {
+      "CH": 215,
+      "SH": 114,
+      "total": 329,
+      "SH_share_pct": 34.65
+    },
+    "R_PORT": {
+      "CH": 95,
+      "SH": 40,
+      "total": 135,
+      "SH_share_pct": 29.63
+    },
+    "OTHER": {
+      "CH": 250,
+      "SH": 318,
+      "total": 568,
+      "SH_share_pct": 55.99
+    }
+  },
+  "vocalic_e_grading": {
+    "0_NO_E": {
+      "CH": 2641,
+      "SH": 1113,
+      "total": 3754,
+      "SH_share_pct": 29.65,
+      "CH_line_init_pct": 3.33,
+      "SH_line_init_pct": 11.5,
+      "SH_over_CH_init_lift": 3.45
+    },
+    "1_E": {
+      "CH": 2182,
+      "SH": 1379,
+      "total": 3561,
+      "SH_share_pct": 38.73,
+      "CH_line_init_pct": 1.65,
+      "SH_line_init_pct": 2.76,
+      "SH_over_CH_init_lift": 1.67
+    },
+    "2_EE": {
+      "CH": 466,
+      "SH": 384,
+      "total": 850,
+      "SH_share_pct": 45.18,
+      "CH_line_init_pct": 1.93,
+      "SH_line_init_pct": 3.65,
+      "SH_over_CH_init_lift": 1.89
+    }
+  },
+  "vocalic_e_enrichment_z": 9.69,
+  "overall_matched_pairs": {
+    "ch_tokens": 2652,
+    "sh_tokens": 1699,
+    "ch_line_init_pct": 2.26,
+    "sh_line_init_pct": 4.59,
+    "sh_over_ch_line_init_lift": 2.03,
+    "line_init_suffix_stratified_z": 5.21
+  },
+  "stem_table": [
+    {
+      "stem": "edy",
+      "ch_word": "chedy",
+      "sh_word": "shedy",
+      "ch_count": 507,
+      "sh_count": 434,
+      "sh_share_pct": 46.12,
+      "ch_line_init_pct": 1.18,
+      "sh_line_init_pct": 1.61,
+      "ch_langB_pct": 0.0,
+      "sh_langB_pct": 0.0
+    },
+    {
+      "stem": "ey",
+      "ch_word": "chey",
+      "sh_word": "shey",
+      "ch_count": 353,
+      "sh_count": 279,
+      "sh_share_pct": 44.15,
+      "ch_line_init_pct": 1.42,
+      "sh_line_init_pct": 2.15,
+      "ch_langB_pct": 0.0,
+      "sh_langB_pct": 0.0
+    },
+    {
+      "stem": "eey",
+      "ch_word": "cheey",
+      "sh_word": "sheey",
+      "ch_count": 185,
+      "sh_count": 148,
+      "sh_share_pct": 44.44,
+      "ch_line_init_pct": 1.08,
+      "sh_line_init_pct": 3.38,
+      "ch_langB_pct": 0.0,
+      "sh_langB_pct": 0.0
+    },
+    {
+      "stem": "eedy",
+      "ch_word": "cheedy",
+      "sh_word": "sheedy",
+      "ch_count": 60,
+      "sh_count": 84,
+      "sh_share_pct": 58.33,
+      "ch_line_init_pct": 0.0,
+      "sh_line_init_pct": 3.57,
+      "ch_langB_pct": 0.0,
+      "sh_langB_pct": 0.0
+    },
+    {
+      "stem": "dy",
+      "ch_word": "chdy",
+      "sh_word": "shdy",
+      "ch_count": 146,
+      "sh_count": 44,
+      "sh_share_pct": 23.16,
+      "ch_line_init_pct": 0.0,
+      "sh_line_init_pct": 6.82,
+      "ch_langB_pct": 0.0,
+      "sh_langB_pct": 0.0
+    },
+    {
+      "stem": "y",
+      "ch_word": "chy",
+      "sh_word": "shy",
+      "ch_count": 187,
+      "sh_count": 105,
+      "sh_share_pct": 35.96,
+      "ch_line_init_pct": 1.07,
+      "sh_line_init_pct": 3.81,
+      "ch_langB_pct": 0.0,
+      "sh_langB_pct": 0.0
+    },
+    {
+      "stem": "ol",
+      "ch_word": "chol",
+      "sh_word": "shol",
+      "ch_count": 397,
+      "sh_count": 186,
+      "sh_share_pct": 31.9,
+      "ch_line_init_pct": 4.79,
+      "sh_line_init_pct": 8.6,
+      "ch_langB_pct": 0.0,
+      "sh_langB_pct": 0.0
+    },
+    {
+      "stem": "or",
+      "ch_word": "chor",
+      "sh_word": "shor",
+      "ch_count": 208,
+      "sh_count": 95,
+      "sh_share_pct": 31.35,
+      "ch_line_init_pct": 4.33,
+      "sh_line_init_pct": 18.95,
+      "ch_langB_pct": 0.0,
+      "sh_langB_pct": 0.0
+    },
+    {
+      "stem": "al",
+      "ch_word": "chal",
+      "sh_word": "shal",
+      "ch_count": 47,
+      "sh_count": 17,
+      "sh_share_pct": 26.56,
+      "ch_line_init_pct": 2.13,
+      "sh_line_init_pct": 0.0,
+      "ch_langB_pct": 0.0,
+      "sh_langB_pct": 0.0
+    },
+    {
+      "stem": "ar",
+      "ch_word": "char",
+      "sh_word": "shar",
+      "ch_count": 82,
+      "sh_count": 34,
+      "sh_share_pct": 29.31,
+      "ch_line_init_pct": 2.44,
+      "sh_line_init_pct": 8.82,
+      "ch_langB_pct": 0.0,
+      "sh_langB_pct": 0.0
+    },
+    {
+      "stem": "eo",
+      "ch_word": "cheo",
+      "sh_word": "sheo",
+      "ch_count": 78,
+      "sh_count": 49,
+      "sh_share_pct": 38.58,
+      "ch_line_init_pct": 3.85,
+      "sh_line_init_pct": 2.04,
+      "ch_langB_pct": 0.0,
+      "sh_langB_pct": 0.0
+    },
+    {
+      "stem": "eol",
+      "ch_word": "cheol",
+      "sh_word": "sheol",
+      "ch_count": 171,
+      "sh_count": 108,
+      "sh_share_pct": 38.71,
+      "ch_line_init_pct": 4.09,
+      "sh_line_init_pct": 3.7,
+      "ch_langB_pct": 0.0,
+      "sh_langB_pct": 0.0
+    },
+    {
+      "stem": "eor",
+      "ch_word": "cheor",
+      "sh_word": "sheor",
+      "ch_count": 92,
+      "sh_count": 47,
+      "sh_share_pct": 33.81,
+      "ch_line_init_pct": 2.17,
+      "sh_line_init_pct": 10.64,
+      "ch_langB_pct": 0.0,
+      "sh_langB_pct": 0.0
+    },
+    {
+      "stem": "eody",
+      "ch_word": "cheody",
+      "sh_word": "sheody",
+      "ch_count": 91,
+      "sh_count": 49,
+      "sh_share_pct": 35.0,
+      "ch_line_init_pct": 2.2,
+      "sh_line_init_pct": 2.04,
+      "ch_langB_pct": 0.0,
+      "sh_langB_pct": 0.0
+    },
+    {
+      "stem": "aiin",
+      "ch_word": "chaiin",
+      "sh_word": "shaiin",
+      "ch_count": 48,
+      "sh_count": 20,
+      "sh_share_pct": 29.41,
+      "ch_line_init_pct": 0.0,
+      "sh_line_init_pct": 10.0,
+      "ch_langB_pct": 0.0,
+      "sh_langB_pct": 0.0
+    }
+  ]
+}

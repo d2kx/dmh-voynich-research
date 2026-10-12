@@ -567,3 +567,36 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Script, Data & Edition**: [`tools/attack56_top250_lexicon_and_reference_grammar.py`](../tools/attack56_top250_lexicon_and_reference_grammar.py) $\to$ [`data/attack56_top250_lexicon_and_reference_grammar.json`](../data/attack56_top250_lexicon_and_reference_grammar.json) & [`notes/TOP250_LEXICON_AND_REFERENCE_GRAMMAR.md`](TOP250_LEXICON_AND_REFERENCE_GRAMMAR.md)
 - **Key Breakthroughs**:
   1. **Compiles the Complete `7 × 8` Closed-Class Matrix and Exhaustively Parses the Top 250 Most Frequent Words (`19,112 / 36,229` Tokens = `52.75%` of the Book)**.
+
+---
+
+## 57. Attack 57 (`Phase 68`): The `8 × 6 × 8` Open-Class Gallows/Bench Paradigm Tensor (`27,529 / 27,529` = `100.00%` of All Gallows/Bench Tokens, Prefix×Core MI $z = +1357.35$, Core×Suffix MI $z = +318.29$)
+- **Script & Data**: [`tools/attack57_open_class_gallows_bench_matrix.py`](../tools/attack57_open_class_gallows_bench_matrix.py) $\to$ [`data/attack57_open_class_gallows_bench_matrix.json`](../data/attack57_open_class_gallows_bench_matrix.json)
+- **Key Breakthroughs**:
+  1. **`100.00%` (`27,529 / 27,529`) Open-Class Coverage in an `8 × 6 × 8 = 384`-Cell Tensor (`8 Prefixes × 6 Cores × 8 Suffixes`)**.
+  2. **`98.98%` of `QO` (`4,637 / 4,685`) and `97.87%` of `O_VOW` (`5,785 / 5,911`) Select a Gallows or Gallows-Bench Core ($z = +1357.35$), While `74.29%` of Simplex Bench (`CH/SH`) Selects `ZERO` Prefix**.
+
+---
+
+## 58. Attack 58 (`Phase 69`): The `ch-` vs. `sh-` Bench Contrast Solver — Strict Monotonic Vocalic `-e-/-ee-` Grading ($z = +9.69$) & Sibilant-Plume Line-Initial Homology (`3.45×` Lift on Bare Stems, Suffix-Stratified $z = +5.21$)
+- **Script, Data & Scan**: [`tools/attack58_ch_vs_sh_plume_contrast_solver.py`](../tools/attack58_ch_vs_sh_plume_contrast_solver.py) $\to$ [`data/attack58_ch_vs_sh_plume_contrast_solver.json`](../data/attack58_ch_vs_sh_plume_contrast_solver.json) & [`pages/f78r_ch_sh_and_k_t_paradigm_enh.png`](../pages/f78r_ch_sh_and_k_t_paradigm_enh.png)
+- **Key Breakthroughs**:
+  1. **Strict Monotonic Vocalic `-e-/-ee-` Stem Grading ($z = +9.69$): `SH` Share Rises from `29.65%` (`0_NO_E`) $\to$ `38.73%` (`1_E`) $\to$ `45.18%` (`2_EE`)**.
+  2. **Sibilant-Plume Line-Initial Homology: `sh-` (`ch` + `s`-plume) Occurs at Line-Initial `w_1` `3.45×` More Often on Bare Stems (`11.50%` vs. `3.33%`) and `2.03×` Across All 15 Matched Pairs ($z = +5.21$)**.
+
+---
+
+## 59. Attack 59 (`Phase 70`): The `k/f` (Single-Loop) vs. `t/p` (Double-Loop) Gallows Contrast Solver — Monotonic Prefix Selection Hierarchy ($z = +322.37$) & Diagram/Astrological Locus Shift ($z = +8.16$)
+- **Script & Data**: [`tools/attack59_k_vs_t_gallows_contrast_solver.py`](../tools/attack59_k_vs_t_gallows_contrast_solver.py) $\to$ [`data/attack59_k_vs_t_gallows_contrast_solver.json`](../data/attack59_k_vs_t_gallows_contrast_solver.json)
+- **Key Breakthroughs**:
+  1. **Monotonic Prefix Hierarchy ($z = +322.37$): `T_CLASS` (`t/p`) Share Grades from `L_APPL` (`12.92%`) $\to$ `QO` (`28.96%`) $\to$ `S_SIB` (`31.63%`) $\to$ `D_DEIC` (`37.50%`) $\to$ `CH_BENCH_PRE` (`39.79%`) $\to$ `Y_CONJ` (`47.43%`) $\to$ `O_VOW` (`52.09%`) $\to$ `ZERO` (`57.15%`)**.
+  2. **Diagram/Astrological Locus Shift ($z = +8.16$): Flips from `K_CLASS` Dominance in Prose (`@P`, `58.09% K`) to `T_CLASS` Majority in Astrological Rings (`@C/@R`, `51.73% T`) and Diagram Labels (`@L`, `52.68% T`)**.
+
+---
+
+## 60. Attack 60 (`Phase 71`): Complete Dual-Matrix Generative Grammar of the Voynich Manuscript (`36,130 / 36,229` = `99.73%` Corpus Coverage, `68.09%` Word Entropy Explained, Bigram MI $z = +31.40$, [`notes/DUAL_MATRIX_COMPLETE_GRAMMAR.md`](DUAL_MATRIX_COMPLETE_GRAMMAR.md))
+- **Script, Data & Edition**: [`tools/attack60_dual_matrix_complete_generative_grammar.py`](../tools/attack60_dual_matrix_complete_generative_grammar.py) $\to$ [`data/attack60_dual_matrix_complete_generative_grammar.json`](../data/attack60_dual_matrix_complete_generative_grammar.json) & [`notes/DUAL_MATRIX_COMPLETE_GRAMMAR.md`](DUAL_MATRIX_COMPLETE_GRAMMAR.md)
+- **Key Breakthroughs**:
+  1. **`99.73%` (`36,130 / 36,229`) Full-Manuscript Coverage Across `419 / 440` Attested Dual-Matrix Cells (`56` Closed-Class + `363` Open-Class)**.
+  2. **`68.09%` of Total Unigram Word Entropy Explained ($H(\text{Cell}) = 7.3334\text{ bits}$ of $H(\text{Word}) = 10.7699\text{ bits}$) & Macro-State Bigram Transition Automaton ($z = +31.40$)**.
+

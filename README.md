@@ -486,6 +486,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 66. The `8 × 6 × 8` Open-Class Gallows/Bench Paradigm Tensor (`27,529 / 27,529` = `100.00%` of All Gallows/Bench Tokens, Prefix×Core MI $z = +1357.35$, Core×Suffix MI $z = +318.29$, `Attack 57`)
+- **`100.00%` (`27,529 / 27,529`) Open-Class Coverage in an `8 × 6 × 8 = 384`-Cell Tensor**: Crossing the 8 Prefix Slots (`ZERO, O_VOW, QO, L_APPL, Y, D, S, R_OTHER`) with the 6 Core Classes (`CH, K_F, T_P, SH, KCH_CKH, TCH_CTH`) and 8 Suffix Slots (`EDY, EY_Y, AM_OTHER, AIIN, OL, AR, OR, AL`) parses `100.00%` of all Gallows and Bench tokens (`75.99%` of the manuscript), with `98.98%` of `QO` and `97.87%` of `O_VOW` selecting a Gallows/Gallows-Bench Core ($z = +1357.35$).
+
+---
+
+### 67. The `ch-` vs. `sh-` Bench Contrast Solver — Strict Monotonic Vocalic `-e-/-ee-` Grading ($z = +9.69$) & Sibilant-Plume Line-Initial Homology (`3.45×` Lift on Bare Stems, Suffix-Stratified $z = +5.21$, `Attack 58`)
+- **Strict Monotonic Vocalic `-e-/-ee-` Grading ($z = +9.69$) & Line-Initial Homology (`pages/f78r_ch_sh_and_k_t_paradigm_enh.png`)**: Across `8,165` `ZERO`-prefix `ch-/sh-` tokens, `SH` share rises monotonically from `0_NO_E` bare stems (`29.65%`) $\to$ `1_E` stems (`38.73%`) $\to$ `2_EE` stems (`45.18%`, $z = +9.69$), while `sh-` (`ch` + `s`-plume) occurs at line-initial `w_1` **`3.45×` more often** than `ch-` on bare stems (`11.50%` vs. `3.33%`) and **`2.03×` more often** across all 15 matched pairs (suffix-stratified $z = +5.21$).
+
+---
+
+### 68. The `k/f` (Single-Loop) vs. `t/p` (Double-Loop) Gallows Contrast Solver — Monotonic Prefix Selection Hierarchy ($z = +322.37$) & Diagram/Astrological Locus Shift ($z = +8.16$, `Attack 59`)
+- **Monotonic Prefix Hierarchy ($z = +322.37$) & Diagram/Astrological Locus Shift ($z = +8.16$)**: Across all `19,595` Gallows and Gallows-Bench tokens, `T_CLASS` (`t/p, tch/pch, cth/cph`) share rises monotonically from `L_APPL` (`12.92% T`, `K:T = 6.74:1`) $\to$ `QO` (`28.96% T`, `K:T = 2.45:1`) $\to$ `S_SIB` (`31.63% T`) $\to$ `D_DEIC` (`37.50% T`) $\to$ `CH_BENCH_PRE` (`39.79% T`) $\to$ `Y_CONJ` (`47.43% T`) $\to$ `O_VOW` (`52.09% T`) $\to$ `ZERO` (`57.15% T`), while flipping from `K_CLASS` dominance in running prose (`@P`, `58.09% K`) to `T_CLASS` majority in Astrological Rings (`@C/@R`, `51.73% T`) and Diagram Labels (`@L`, `52.68% T`, $z = +8.16$).
+
+---
+
+### 69. Complete Dual-Matrix Generative Grammar of the Voynich Manuscript (`36,130 / 36,229` = `99.73%` Corpus Coverage, `68.09%` Word Entropy Explained, Bigram MI $z = +31.40$, [`notes/DUAL_MATRIX_COMPLETE_GRAMMAR.md`](notes/DUAL_MATRIX_COMPLETE_GRAMMAR.md), `Attack 60`)
+- **`99.73%` (`36,130 / 36,229`) Full-Manuscript Coverage Across `419 / 440` Attested Cells ([`notes/DUAL_MATRIX_COMPLETE_GRAMMAR.md`](notes/DUAL_MATRIX_COMPLETE_GRAMMAR.md))**: Unifying Matrix I (`7×8 = 56` Closed-Class cells) and Matrix II (`8×6×8 = 384` Open-Class cells) covers `99.73%` of all tokens in the manuscript, explains `68.09%` of total unigram word entropy ($H(\text{Cell}) = 7.3334\text{ bits}$ of $H(\text{Word}) = 10.7699\text{ bits}$), and governs adjacent word transitions at $z = +31.40$.
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -573,4 +593,9 @@ python tools/attack53_s_sibilant_paradigm_and_d_s_contrast.py
 python tools/attack54_r_liquid_onset_and_coda_system.py
 python tools/attack55_seven_series_closed_class_matrix.py
 python tools/attack56_top250_lexicon_and_reference_grammar.py
+python tools/attack57_open_class_gallows_bench_matrix.py
+python tools/attack58_ch_vs_sh_plume_contrast_solver.py
+python tools/attack59_k_vs_t_gallows_contrast_solver.py
+python tools/attack60_dual_matrix_complete_generative_grammar.py
 ```
+
