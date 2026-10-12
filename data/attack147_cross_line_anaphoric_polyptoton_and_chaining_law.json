@@ -1,0 +1,832 @@
+{
+  "attack": 147,
+  "phase": 158,
+  "discovery": 164,
+  "title": "Cross-Line Anaphoric Polyptoton, Sequential Stem Chaining (Line t -> Line t+1), and Horizontal Zone Handoff Law",
+  "overview": {
+    "multi_line_paragraphs": 736,
+    "total_adjacent_line_pairs": 3315,
+    "adjacent_pairs_with_cognate_polyptoton": 1879,
+    "adjacent_pairs_with_cognate_pct": 56.68,
+    "adjacent_pairs_with_exact_repeat": 1132,
+    "adjacent_pairs_with_exact_pct": 34.15,
+    "total_cross_line_cognate_polyptoton_links": 4090,
+    "total_cross_line_exact_repeat_links": 1819,
+    "cognate_over_exact_preference_ratio": 2.25,
+    "within_section_line_shuffle_permutation_1000": {
+      "observed_cognate_links": 4090,
+      "null_mean": 2613.07,
+      "null_sd": 58.98,
+      "lift_ratio": 1.565,
+      "z_score": 25.04
+    },
+    "strict_within_paragraph_line_order_shuffle_ge4_lines_1000": {
+      "paragraphs_ge4_lines": 493,
+      "observed_adjacent_cognate_links": 3563,
+      "null_mean": 3154.39,
+      "null_sd": 50.75,
+      "lift_ratio": 1.13,
+      "z_score": 8.05
+    }
+  },
+  "horizontal_zone_handoff_matrix": {
+    "START->START": {
+      "cognate_links": 47,
+      "cognate_pct": 1.15,
+      "exact_links": 15,
+      "exact_pct": 0.82,
+      "cognate_to_exact_ratio": 3.13
+    },
+    "START->MID": {
+      "cognate_links": 234,
+      "cognate_pct": 5.72,
+      "exact_links": 69,
+      "exact_pct": 3.79,
+      "cognate_to_exact_ratio": 3.39
+    },
+    "START->END": {
+      "cognate_links": 30,
+      "cognate_pct": 0.73,
+      "exact_links": 5,
+      "exact_pct": 0.27,
+      "cognate_to_exact_ratio": 6.0
+    },
+    "MID->START": {
+      "cognate_links": 378,
+      "cognate_pct": 9.24,
+      "exact_links": 108,
+      "exact_pct": 5.94,
+      "cognate_to_exact_ratio": 3.5
+    },
+    "MID->MID": {
+      "cognate_links": 2777,
+      "cognate_pct": 67.9,
+      "exact_links": 1375,
+      "exact_pct": 75.59,
+      "cognate_to_exact_ratio": 2.02
+    },
+    "MID->END": {
+      "cognate_links": 279,
+      "cognate_pct": 6.82,
+      "exact_links": 108,
+      "exact_pct": 5.94,
+      "cognate_to_exact_ratio": 2.58
+    },
+    "END->START": {
+      "cognate_links": 27,
+      "cognate_pct": 0.66,
+      "exact_links": 7,
+      "exact_pct": 0.38,
+      "cognate_to_exact_ratio": 3.86
+    },
+    "END->MID": {
+      "cognate_links": 264,
+      "cognate_pct": 6.45,
+      "exact_links": 105,
+      "exact_pct": 5.77,
+      "cognate_to_exact_ratio": 2.51
+    },
+    "END->END": {
+      "cognate_links": 54,
+      "cognate_pct": 1.32,
+      "exact_links": 27,
+      "exact_pct": 1.48,
+      "cognate_to_exact_ratio": 2.0
+    }
+  },
+  "cross_line_directional_morphological_shift": {
+    "is_qo_act": {
+      "line_t_count": 374,
+      "line_t_pct": 9.14,
+      "line_t1_count": 346,
+      "line_t1_pct": 8.46,
+      "delta_pct_t_to_t1": -0.68,
+      "discordant_t_to_t1_gain": 260,
+      "discordant_t_to_t1_loss": 288,
+      "sign_flip_z": -1.2
+    },
+    "is_l_ol_appl": {
+      "line_t_count": 407,
+      "line_t_pct": 9.95,
+      "line_t1_count": 472,
+      "line_t1_pct": 11.54,
+      "delta_pct_t_to_t1": 1.59,
+      "discordant_t_to_t1_gain": 363,
+      "discordant_t_to_t1_loss": 298,
+      "sign_flip_z": 2.53
+    },
+    "is_da_art": {
+      "line_t_count": 40,
+      "line_t_pct": 0.98,
+      "line_t1_count": 29,
+      "line_t1_pct": 0.71,
+      "delta_pct_t_to_t1": -0.27,
+      "discordant_t_to_t1_gain": 16,
+      "discordant_t_to_t1_loss": 27,
+      "sign_flip_z": -1.68
+    },
+    "is_ds_deictic": {
+      "line_t_count": 711,
+      "line_t_pct": 17.38,
+      "line_t1_count": 672,
+      "line_t1_pct": 16.43,
+      "delta_pct_t_to_t1": -0.95,
+      "discordant_t_to_t1_gain": 596,
+      "discordant_t_to_t1_loss": 635,
+      "sign_flip_z": -1.11
+    },
+    "is_edy_proc": {
+      "line_t_count": 1080,
+      "line_t_pct": 26.41,
+      "line_t1_count": 1067,
+      "line_t1_pct": 26.09,
+      "delta_pct_t_to_t1": -0.32,
+      "discordant_t_to_t1_gain": 205,
+      "discordant_t_to_t1_loss": 218,
+      "sign_flip_z": -0.63
+    },
+    "is_dy_perf": {
+      "line_t_count": 111,
+      "line_t_pct": 2.71,
+      "line_t1_count": 108,
+      "line_t1_pct": 2.64,
+      "delta_pct_t_to_t1": -0.07,
+      "discordant_t_to_t1_gain": 96,
+      "discordant_t_to_t1_loss": 99,
+      "sign_flip_z": -0.21
+    },
+    "is_y_stat": {
+      "line_t_count": 383,
+      "line_t_pct": 9.36,
+      "line_t1_count": 347,
+      "line_t1_pct": 8.48,
+      "delta_pct_t_to_t1": -0.88,
+      "discordant_t_to_t1_gain": 243,
+      "discordant_t_to_t1_loss": 279,
+      "sign_flip_z": -1.58
+    },
+    "is_liq_nom": {
+      "line_t_count": 309,
+      "line_t_pct": 7.56,
+      "line_t1_count": 358,
+      "line_t1_pct": 8.75,
+      "delta_pct_t_to_t1": 1.2,
+      "discordant_t_to_t1_gain": 257,
+      "discordant_t_to_t1_loss": 208,
+      "sign_flip_z": 2.27
+    },
+    "is_nasal_quant": {
+      "line_t_count": 100,
+      "line_t_pct": 2.44,
+      "line_t1_count": 82,
+      "line_t1_pct": 2.0,
+      "delta_pct_t_to_t1": -0.44,
+      "discordant_t_to_t1_gain": 65,
+      "discordant_t_to_t1_loss": 83,
+      "sign_flip_z": -1.48
+    },
+    "is_am_term": {
+      "line_t_count": 41,
+      "line_t_pct": 1.0,
+      "line_t1_count": 38,
+      "line_t1_pct": 0.93,
+      "delta_pct_t_to_t1": -0.07,
+      "discordant_t_to_t1_gain": 22,
+      "discordant_t_to_t1_loss": 25,
+      "sign_flip_z": -0.44
+    }
+  },
+  "section_breakdown": {
+    "Astronomical": {
+      "adjacent_line_pairs": 34,
+      "pairs_with_cognate_polyptoton": 14,
+      "pairs_with_cognate_pct": 41.18,
+      "cognate_links": 23,
+      "exact_links": 2,
+      "cognate_to_exact_preference": 11.5
+    },
+    "Biological (Balneological)": {
+      "adjacent_line_pairs": 639,
+      "pairs_with_cognate_polyptoton": 373,
+      "pairs_with_cognate_pct": 58.37,
+      "cognate_links": 716,
+      "exact_links": 536,
+      "cognate_to_exact_preference": 1.34
+    },
+    "Cosmological": {
+      "adjacent_line_pairs": 82,
+      "pairs_with_cognate_polyptoton": 31,
+      "pairs_with_cognate_pct": 37.8,
+      "cognate_links": 63,
+      "exact_links": 24,
+      "cognate_to_exact_preference": 2.62
+    },
+    "Herbal (Botanical)": {
+      "adjacent_line_pairs": 1328,
+      "pairs_with_cognate_polyptoton": 615,
+      "pairs_with_cognate_pct": 46.31,
+      "cognate_links": 1179,
+      "exact_links": 515,
+      "cognate_to_exact_preference": 2.29
+    },
+    "Pharmaceutical": {
+      "adjacent_line_pairs": 179,
+      "pairs_with_cognate_polyptoton": 122,
+      "pairs_with_cognate_pct": 68.16,
+      "cognate_links": 352,
+      "exact_links": 140,
+      "cognate_to_exact_preference": 2.51
+    },
+    "Starred Recipes": {
+      "adjacent_line_pairs": 871,
+      "pairs_with_cognate_polyptoton": 600,
+      "pairs_with_cognate_pct": 68.89,
+      "cognate_links": 1402,
+      "exact_links": 492,
+      "cognate_to_exact_preference": 2.85
+    },
+    "Text-only": {
+      "adjacent_line_pairs": 182,
+      "pairs_with_cognate_polyptoton": 124,
+      "pairs_with_cognate_pct": 68.13,
+      "cognate_links": 355,
+      "exact_links": 110,
+      "cognate_to_exact_preference": 3.23
+    }
+  },
+  "top_chained_line_pair_examples": [
+    {
+      "folio": "f13r",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "line_t_loc": "f13r.1",
+      "line_t1_loc": "f13r.2",
+      "cognate_links": 8,
+      "exact_links": 0,
+      "pairs": [
+        {
+          "stem": "ch",
+          "word_t": "opchy",
+          "word_t1": "dchol",
+          "zone_handoff": "MID->START"
+        },
+        {
+          "stem": "ch",
+          "word_t": "opchy",
+          "word_t1": "ykchy",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ol",
+          "word_t": "shol",
+          "word_t1": "chol",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ol",
+          "word_t": "shol",
+          "word_t1": "chol",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ch",
+          "word_t": "opchor",
+          "word_t1": "dchol",
+          "zone_handoff": "MID->START"
+        },
+        {
+          "stem": "ch",
+          "word_t": "opchor",
+          "word_t1": "ykchy",
+          "zone_handoff": "MID->MID"
+        }
+      ]
+    },
+    {
+      "folio": "f1v",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "line_t_loc": "f1v.8",
+      "line_t1_loc": "f1v.9",
+      "cognate_links": 7,
+      "exact_links": 3,
+      "pairs": [
+        {
+          "stem": "ol",
+          "word_t": "chol",
+          "word_t1": "okol",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ol",
+          "word_t": "chol",
+          "word_t1": "shol",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ol",
+          "word_t": "chol",
+          "word_t1": "okol",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ol",
+          "word_t": "chol",
+          "word_t1": "shol",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ody",
+          "word_t": "chody",
+          "word_t1": "shody",
+          "zone_handoff": "MID->END"
+        },
+        {
+          "stem": "ol",
+          "word_t": "chol",
+          "word_t1": "okol",
+          "zone_handoff": "MID->MID"
+        }
+      ]
+    },
+    {
+      "folio": "f1v",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "line_t_loc": "f1v.7",
+      "line_t1_loc": "f1v.8",
+      "cognate_links": 6,
+      "exact_links": 0,
+      "pairs": [
+        {
+          "stem": "ol",
+          "word_t": "ykol",
+          "word_t1": "chol",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ol",
+          "word_t": "ykol",
+          "word_t1": "chol",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ol",
+          "word_t": "ykol",
+          "word_t1": "chol",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ol",
+          "word_t": "ykol",
+          "word_t1": "chol",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ol",
+          "word_t": "ykol",
+          "word_t1": "chol",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ol",
+          "word_t": "ykol",
+          "word_t1": "chol",
+          "zone_handoff": "MID->MID"
+        }
+      ]
+    },
+    {
+      "folio": "f8v",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "line_t_loc": "f8v.14",
+      "line_t1_loc": "f8v.15",
+      "cognate_links": 5,
+      "exact_links": 1,
+      "pairs": [
+        {
+          "stem": "or",
+          "word_t": "shor",
+          "word_t1": "or",
+          "zone_handoff": "START->START"
+        },
+        {
+          "stem": "or",
+          "word_t": "shor",
+          "word_t1": "chor",
+          "zone_handoff": "START->MID"
+        },
+        {
+          "stem": "or",
+          "word_t": "shor",
+          "word_t1": "chor",
+          "zone_handoff": "START->MID"
+        },
+        {
+          "stem": "ol",
+          "word_t": "okol",
+          "word_t1": "chol",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ol",
+          "word_t": "shol",
+          "word_t1": "chol",
+          "zone_handoff": "MID->MID"
+        }
+      ]
+    },
+    {
+      "folio": "f13r",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "line_t_loc": "f13r.2",
+      "line_t1_loc": "f13r.3",
+      "cognate_links": 5,
+      "exact_links": 1,
+      "pairs": [
+        {
+          "stem": "ch",
+          "word_t": "dchol",
+          "word_t1": "dchor",
+          "zone_handoff": "START->MID"
+        },
+        {
+          "stem": "ch",
+          "word_t": "dchol",
+          "word_t1": "ykchy",
+          "zone_handoff": "START->MID"
+        },
+        {
+          "stem": "kch",
+          "word_t": "shkchy",
+          "word_t1": "kchy",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "sh",
+          "word_t": "shy",
+          "word_t1": "ytshy",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ch",
+          "word_t": "ykchy",
+          "word_t1": "dchor",
+          "zone_handoff": "MID->MID"
+        }
+      ]
+    },
+    {
+      "folio": "f2r",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "line_t_loc": "f2r.11",
+      "line_t1_loc": "f2r.12",
+      "cognate_links": 4,
+      "exact_links": 1,
+      "pairs": [
+        {
+          "stem": "ch",
+          "word_t": "ychain",
+          "word_t1": "chy",
+          "zone_handoff": "START->MID"
+        },
+        {
+          "stem": "an",
+          "word_t": "shan",
+          "word_t1": "an",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "an",
+          "word_t": "shan",
+          "word_t1": "chan",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "hor",
+          "word_t": "ckhor",
+          "word_t1": "cthor",
+          "zone_handoff": "END->MID"
+        }
+      ]
+    },
+    {
+      "folio": "f4r",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "line_t_loc": "f4r.2",
+      "line_t1_loc": "f4r.3",
+      "cognate_links": 4,
+      "exact_links": 1,
+      "pairs": [
+        {
+          "stem": "ch",
+          "word_t": "dchor",
+          "word_t1": "otchol",
+          "zone_handoff": "START->START"
+        },
+        {
+          "stem": "ch",
+          "word_t": "dchor",
+          "word_t1": "chy",
+          "zone_handoff": "START->MID"
+        },
+        {
+          "stem": "ol",
+          "word_t": "shol",
+          "word_t1": "chol",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ol",
+          "word_t": "shol",
+          "word_t1": "chol",
+          "zone_handoff": "MID->MID"
+        }
+      ]
+    },
+    {
+      "folio": "f8v",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "line_t_loc": "f8v.2",
+      "line_t1_loc": "f8v.3",
+      "cognate_links": 4,
+      "exact_links": 0,
+      "pairs": [
+        {
+          "stem": "or",
+          "word_t": "chor",
+          "word_t1": "chory",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "or",
+          "word_t": "shor",
+          "word_t1": "chory",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "aiin",
+          "word_t": "otaiin",
+          "word_t1": "chaiin",
+          "zone_handoff": "END->MID"
+        },
+        {
+          "stem": "aiin",
+          "word_t": "otaiin",
+          "word_t1": "shaiin",
+          "zone_handoff": "END->MID"
+        }
+      ]
+    },
+    {
+      "folio": "f9v",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "line_t_loc": "f9v.1",
+      "line_t1_loc": "f9v.2",
+      "cognate_links": 4,
+      "exact_links": 0,
+      "pairs": [
+        {
+          "stem": "or",
+          "word_t": "oporody",
+          "word_t1": "chor",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "or",
+          "word_t": "shor",
+          "word_t1": "chor",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ol",
+          "word_t": "shol",
+          "word_t1": "chol",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "hol",
+          "word_t": "cfhol",
+          "word_t1": "cphol",
+          "zone_handoff": "MID->MID"
+        }
+      ]
+    },
+    {
+      "folio": "f13r",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "line_t_loc": "f13r.3",
+      "line_t1_loc": "f13r.4",
+      "cognate_links": 4,
+      "exact_links": 0,
+      "pairs": [
+        {
+          "stem": "ch",
+          "word_t": "dchor",
+          "word_t1": "ytchy",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ch",
+          "word_t": "dchor",
+          "word_t1": "otchor",
+          "zone_handoff": "MID->END"
+        },
+        {
+          "stem": "ch",
+          "word_t": "ykchy",
+          "word_t1": "ytchy",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ch",
+          "word_t": "ykchy",
+          "word_t1": "otchor",
+          "zone_handoff": "MID->END"
+        }
+      ]
+    },
+    {
+      "folio": "f13v",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "line_t_loc": "f13v.7",
+      "line_t1_loc": "f13v.8",
+      "cognate_links": 4,
+      "exact_links": 0,
+      "pairs": [
+        {
+          "stem": "ch",
+          "word_t": "chy",
+          "word_t1": "otchy",
+          "zone_handoff": "MID->START"
+        },
+        {
+          "stem": "ch",
+          "word_t": "chy",
+          "word_t1": "okchy",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ch",
+          "word_t": "dchy",
+          "word_t1": "otchy",
+          "zone_handoff": "MID->START"
+        },
+        {
+          "stem": "ch",
+          "word_t": "dchy",
+          "word_t1": "okchy",
+          "zone_handoff": "MID->MID"
+        }
+      ]
+    },
+    {
+      "folio": "f15r",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "line_t_loc": "f15r.10",
+      "line_t1_loc": "f15r.11",
+      "cognate_links": 4,
+      "exact_links": 0,
+      "pairs": [
+        {
+          "stem": "ch",
+          "word_t": "ychain",
+          "word_t1": "chl",
+          "zone_handoff": "START->MID"
+        },
+        {
+          "stem": "ch",
+          "word_t": "chy",
+          "word_t1": "chl",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "aiin",
+          "word_t": "saiin",
+          "word_t1": "okaiin",
+          "zone_handoff": "MID->START"
+        },
+        {
+          "stem": "aiin",
+          "word_t": "saiin",
+          "word_t1": "otaiin",
+          "zone_handoff": "MID->MID"
+        }
+      ]
+    },
+    {
+      "folio": "f15v",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "line_t_loc": "f15v.7",
+      "line_t1_loc": "f15v.8",
+      "cognate_links": 4,
+      "exact_links": 0,
+      "pairs": [
+        {
+          "stem": "ch",
+          "word_t": "chy",
+          "word_t1": "ytchor",
+          "zone_handoff": "MID->START"
+        },
+        {
+          "stem": "ch",
+          "word_t": "chy",
+          "word_t1": "ytchor",
+          "zone_handoff": "MID->START"
+        },
+        {
+          "stem": "ol",
+          "word_t": "ols",
+          "word_t1": "ol",
+          "zone_handoff": "END->MID"
+        },
+        {
+          "stem": "ol",
+          "word_t": "ols",
+          "word_t1": "shol",
+          "zone_handoff": "END->MID"
+        }
+      ]
+    },
+    {
+      "folio": "f15v",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "line_t_loc": "f15v.8",
+      "line_t1_loc": "f15v.9",
+      "cognate_links": 4,
+      "exact_links": 0,
+      "pairs": [
+        {
+          "stem": "ol",
+          "word_t": "ol",
+          "word_t1": "chol",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ol",
+          "word_t": "ol",
+          "word_t1": "chol",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ol",
+          "word_t": "shol",
+          "word_t1": "chol",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "ol",
+          "word_t": "shol",
+          "word_t1": "chol",
+          "zone_handoff": "MID->MID"
+        }
+      ]
+    },
+    {
+      "folio": "f19v",
+      "section": "Herbal (Botanical)",
+      "lang": "A",
+      "line_t_loc": "f19v.12",
+      "line_t1_loc": "f19v.13",
+      "cognate_links": 4,
+      "exact_links": 0,
+      "pairs": [
+        {
+          "stem": "ch",
+          "word_t": "otch",
+          "word_t1": "ykchol",
+          "zone_handoff": "START->MID"
+        },
+        {
+          "stem": "ch",
+          "word_t": "otch",
+          "word_t1": "ytchor",
+          "zone_handoff": "START->MID"
+        },
+        {
+          "stem": "or",
+          "word_t": "or",
+          "word_t1": "ytor",
+          "zone_handoff": "MID->MID"
+        },
+        {
+          "stem": "aiin",
+          "word_t": "otaiin",
+          "word_t1": "ytaiin",
+          "zone_handoff": "MID->END"
+        }
+      ]
+    }
+  ]
+}

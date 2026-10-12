@@ -1,0 +1,595 @@
+{
+  "attack": 146,
+  "phase": 157,
+  "discovery": 163,
+  "title": "Unified Compiler Test of the Six Master Index & Margin-Keyed Folios (f1r, f49v, f58r, f58v, f66r, f76r)",
+  "overview": {
+    "n_master_index_folios": 6,
+    "n_other_prose_folios": 201,
+    "total_codex_open_stems": 685,
+    "total_codex_diagram_label_open_stems": 193,
+    "total_codex_multi_section_hub_stems": 311,
+    "union_unique_open_stems_across_6_folios": 183,
+    "union_open_stem_coverage_pct": 26.72,
+    "union_diagram_label_stem_hits": 38,
+    "union_diagram_label_coverage_pct": 19.69,
+    "union_multi_section_hub_stem_hits": 134,
+    "union_multi_section_hub_coverage_pct": 43.09,
+    "exclusive_to_single_master_index_folio": 138,
+    "exclusive_partition_pct": 75.41,
+    "mean_pairwise_jaccard_between_6_masters": 0.0739,
+    "permutation_tests_master6_vs_codex": {
+      "prose_tokens_per_folio": {
+        "master_six_mean": 329.5,
+        "other_folios_mean": 164.597,
+        "lift_ratio": 2.0,
+        "null_mean": 169.166,
+        "null_sd": 57.42,
+        "z_score": 2.79
+      },
+      "unique_open_stems_per_folio": {
+        "master_six_mean": 41.167,
+        "other_folios_mean": 18.667,
+        "lift_ratio": 2.21,
+        "null_mean": 19.423,
+        "null_sd": 6.362,
+        "z_score": 3.42
+      },
+      "diagram_label_stem_matches_per_folio": {
+        "master_six_mean": 11.333,
+        "other_folios_mean": 4.095,
+        "lift_ratio": 2.77,
+        "null_mean": 4.292,
+        "null_sd": 1.508,
+        "z_score": 4.67
+      },
+      "diagram_label_idf_per_folio": {
+        "master_six_mean": 28.273,
+        "other_folios_mean": 10.027,
+        "lift_ratio": 2.82,
+        "null_mean": 10.488,
+        "null_sd": 3.871,
+        "z_score": 4.59
+      },
+      "multi_section_hub_idf_per_folio": {
+        "master_six_mean": 90.674,
+        "other_folios_mean": 40.034,
+        "lift_ratio": 2.26,
+        "null_mean": 41.572,
+        "null_sd": 14.017,
+        "z_score": 3.5
+      }
+    }
+  },
+  "six_master_index_folio_profiles": [
+    {
+      "folio": "f1r",
+      "section": "T",
+      "lang": "A",
+      "hand": "1",
+      "prose_tokens": 214,
+      "unique_open_stems": 30,
+      "open_stems_per_100tok": 14.02,
+      "diagram_label_stem_matches": 8,
+      "diagram_label_idf": 17.996,
+      "multi_section_hub_stems": 25,
+      "multi_section_hub_idf": 64.873,
+      "total_open_stem_idf": 87.673,
+      "role_description": "Quire A $B=1 ($I=T, $L=A, $H=1): Opening Master Preface with =Pt Right-Justified Rubrics",
+      "exclusive_among_6_masters": 15,
+      "exclusive_pct_of_folio_open": 50.0,
+      "top_idf_open_stems": [
+        {
+          "stem": "kdch",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "iy",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "ckhold",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "kodsh",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "ckhyd",
+          "idf": 4.056,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "kosh",
+          "idf": 3.837,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "okche",
+          "idf": 3.837,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "cphod",
+          "idf": 3.837,
+          "in_diagram_labels": false
+        }
+      ]
+    },
+    {
+      "folio": "f49v",
+      "section": "H",
+      "lang": "A",
+      "hand": "1",
+      "prose_tokens": 142,
+      "unique_open_stems": 26,
+      "open_stems_per_100tok": 18.31,
+      "diagram_label_stem_matches": 3,
+      "diagram_label_idf": 7.615,
+      "multi_section_hub_stems": 19,
+      "multi_section_hub_idf": 51.313,
+      "total_open_stem_idf": 82.512,
+      "role_description": "Quire G $B=1 ($I=H, $L=A, $H=1): 26-Glyph + Arabic Numeral 1..5 Vertical Margin Key",
+      "exclusive_among_6_masters": 17,
+      "exclusive_pct_of_folio_open": 65.38,
+      "top_idf_open_stems": [
+        {
+          "stem": "eodsho",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "okag",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "chog",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "kchokch",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "okor",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "okal",
+          "idf": 3.837,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "kalch",
+          "idf": 3.837,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "ksheo",
+          "idf": 3.659,
+          "in_diagram_labels": false
+        }
+      ]
+    },
+    {
+      "folio": "f58r",
+      "section": "S",
+      "lang": "A",
+      "hand": "3",
+      "prose_tokens": 378,
+      "unique_open_stems": 64,
+      "open_stems_per_100tok": 16.93,
+      "diagram_label_stem_matches": 21,
+      "diagram_label_idf": 52.914,
+      "multi_section_hub_stems": 47,
+      "multi_section_hub_idf": 132.365,
+      "total_open_stem_idf": 209.361,
+      "role_description": "Quire H $B=2 ($I=T, $L=B, $H=3): Unillustrated Starred Botanical-Apothecary Master Index I",
+      "exclusive_among_6_masters": 39,
+      "exclusive_pct_of_folio_open": 60.94,
+      "top_idf_open_stems": [
+        {
+          "stem": "aka",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "eeoal",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "qokal",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "aip",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "podaii",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "ykal",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "aly",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "lol",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        }
+      ]
+    },
+    {
+      "folio": "f58v",
+      "section": "S",
+      "lang": "A",
+      "hand": "3",
+      "prose_tokens": 375,
+      "unique_open_stems": 39,
+      "open_stems_per_100tok": 10.4,
+      "diagram_label_stem_matches": 10,
+      "diagram_label_idf": 23.005,
+      "multi_section_hub_stems": 27,
+      "multi_section_hub_idf": 71.347,
+      "total_open_stem_idf": 125.496,
+      "role_description": "Quire H $B=2 ($I=T, $L=B, $H=3): Unillustrated Starred Botanical-Apothecary Master Index II",
+      "exclusive_among_6_masters": 18,
+      "exclusive_pct_of_folio_open": 46.15,
+      "top_idf_open_stems": [
+        {
+          "stem": "qokal",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "pchsh",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "eolke",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "alche",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "rg",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "iy",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "kea",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "rol",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        }
+      ]
+    },
+    {
+      "folio": "f66r",
+      "section": "T",
+      "lang": "B",
+      "hand": "5",
+      "prose_tokens": 308,
+      "unique_open_stems": 50,
+      "open_stems_per_100tok": 16.23,
+      "diagram_label_stem_matches": 15,
+      "diagram_label_idf": 39.539,
+      "multi_section_hub_stems": 42,
+      "multi_section_hub_idf": 120.794,
+      "total_open_stem_idf": 158.719,
+      "role_description": "Quire H $B=1 ($I=T, $L=B, $H=5): 15-Word + 34-Key Dual Left-Margin Clinical Treatise",
+      "exclusive_among_6_masters": 27,
+      "exclusive_pct_of_folio_open": 54.0,
+      "top_idf_open_stems": [
+        {
+          "stem": "ap",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "lp",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "pchop",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "olpchd",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "esho",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "oeke",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "kosheo",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "okaii",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        }
+      ]
+    },
+    {
+      "folio": "f76r",
+      "section": "T",
+      "lang": "B",
+      "hand": "2",
+      "prose_tokens": 560,
+      "unique_open_stems": 38,
+      "open_stems_per_100tok": 6.79,
+      "diagram_label_stem_matches": 11,
+      "diagram_label_idf": 28.567,
+      "multi_section_hub_stems": 35,
+      "multi_section_hub_idf": 103.351,
+      "total_open_stem_idf": 117.573,
+      "role_description": "Quire M $B=2 ($I=T, $L=B, $H=2): Unillustrated 9-Key Balneological Master Treatise",
+      "exclusive_among_6_masters": 22,
+      "exclusive_pct_of_folio_open": 57.89,
+      "top_idf_open_stems": [
+        {
+          "stem": "lp",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "shckh",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "qa",
+          "idf": 4.741,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "edsh",
+          "idf": 4.339,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "sheed",
+          "idf": 4.056,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "eolch",
+          "idf": 4.056,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "lche",
+          "idf": 3.837,
+          "in_diagram_labels": false
+        },
+        {
+          "stem": "edy",
+          "idf": 3.837,
+          "in_diagram_labels": false
+        }
+      ]
+    }
+  ],
+  "pairwise_jaccard_matrix": [
+    {
+      "pair": "f1r <-> f49v",
+      "shared_open_stems": 3,
+      "jaccard": 0.0566,
+      "shared_examples": [
+        "sho",
+        "kod",
+        "ls"
+      ]
+    },
+    {
+      "pair": "f1r <-> f58r",
+      "shared_open_stems": 7,
+      "jaccard": 0.0805,
+      "shared_examples": [
+        "air",
+        "kod",
+        "yd",
+        "oa",
+        "sy",
+        "ls"
+      ]
+    },
+    {
+      "pair": "f1r <-> f58v",
+      "shared_open_stems": 7,
+      "jaccard": 0.1129,
+      "shared_examples": [
+        "iy",
+        "ckhol",
+        "kod",
+        "kai",
+        "yd",
+        "oa"
+      ]
+    },
+    {
+      "pair": "f1r <-> f66r",
+      "shared_open_stems": 4,
+      "jaccard": 0.0526,
+      "shared_examples": [
+        "eka",
+        "ak",
+        "yd",
+        "aii"
+      ]
+    },
+    {
+      "pair": "f1r <-> f76r",
+      "shared_open_stems": 3,
+      "jaccard": 0.0462,
+      "shared_examples": [
+        "eka",
+        "psh",
+        "do"
+      ]
+    },
+    {
+      "pair": "f49v <-> f58r",
+      "shared_open_stems": 4,
+      "jaccard": 0.0465,
+      "shared_examples": [
+        "okal",
+        "chok",
+        "kod",
+        "ls"
+      ]
+    },
+    {
+      "pair": "f49v <-> f58v",
+      "shared_open_stems": 2,
+      "jaccard": 0.0317,
+      "shared_examples": [
+        "kod",
+        "kche"
+      ]
+    },
+    {
+      "pair": "f49v <-> f66r",
+      "shared_open_stems": 3,
+      "jaccard": 0.0411,
+      "shared_examples": [
+        "ckho",
+        "eeod",
+        "kche"
+      ]
+    },
+    {
+      "pair": "f49v <-> f76r",
+      "shared_open_stems": 1,
+      "jaccard": 0.0159,
+      "shared_examples": [
+        "chs"
+      ]
+    },
+    {
+      "pair": "f58r <-> f58v",
+      "shared_open_stems": 11,
+      "jaccard": 0.1196,
+      "shared_examples": [
+        "qokal",
+        "alch",
+        "kal",
+        "la",
+        "eockh",
+        "kod"
+      ]
+    },
+    {
+      "pair": "f58r <-> f66r",
+      "shared_open_stems": 12,
+      "jaccard": 0.1176,
+      "shared_examples": [
+        "eoch",
+        "kcheo",
+        "alch",
+        "eockh",
+        "eke",
+        "epch"
+      ]
+    },
+    {
+      "pair": "f58r <-> f76r",
+      "shared_open_stems": 7,
+      "jaccard": 0.0737,
+      "shared_examples": [
+        "alch",
+        "lch",
+        "kal",
+        "la",
+        "olch",
+        "eol"
+      ]
+    },
+    {
+      "pair": "f58v <-> f66r",
+      "shared_open_stems": 11,
+      "jaccard": 0.141,
+      "shared_examples": [
+        "ekal",
+        "ekai",
+        "pshe",
+        "alch",
+        "op",
+        "eockh"
+      ]
+    },
+    {
+      "pair": "f58v <-> f76r",
+      "shared_open_stems": 7,
+      "jaccard": 0.1,
+      "shared_examples": [
+        "ekai",
+        "aiin",
+        "alch",
+        "kal",
+        "la",
+        "as"
+      ]
+    },
+    {
+      "pair": "f66r <-> f76r",
+      "shared_open_stems": 6,
+      "jaccard": 0.0732,
+      "shared_examples": [
+        "lp",
+        "edal",
+        "ekai",
+        "eka",
+        "alch",
+        "eol"
+      ]
+    }
+  ]
+}

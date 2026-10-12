@@ -1,0 +1,40 @@
+{
+  "attack": 148,
+  "phase": 159,
+  "discovery": 165,
+  "title": "The f76r Balneological Master Treatise, 6-Folio Master Index Architecture & Cross-Line Anaphoric Polyptoton Compendium",
+  "wave34_highlights": {
+    "attack145_f76r_balneological_master_index": {
+      "f76r_prose_tokens": 560,
+      "mean_other_quire_m_tokens": 329.37,
+      "f76r_unique_open_stems": 39,
+      "f76r_stems_shared_with_quire_m_pct": 76.92,
+      "quire_m_idf_lift": 1.82,
+      "quire_m_idf_z_score": 3.69,
+      "bath_label_rank_in_quire_m": "5 / 20",
+      "distinct_top1_bath_targets": 7,
+      "units_with_currier_b_herbal_top1_pct": 63.64
+    },
+    "attack146_six_master_index_compiler": {
+      "union_open_stems": 183,
+      "multi_section_hub_coverage_pct": 43.09,
+      "exclusive_partition_pct": 75.41,
+      "mean_pairwise_jaccard": 0.0739,
+      "prose_tokens_z": 2.79,
+      "unique_open_stems_z": 3.42,
+      "diagram_label_matches_z": 4.67,
+      "diagram_label_idf_z": 4.59,
+      "multi_section_hub_idf_z": 3.5
+    },
+    "attack147_cross_line_anaphoric_polyptoton": {
+      "multi_line_paragraphs": 736,
+      "total_adjacent_line_pairs": 3315,
+      "adjacent_pairs_with_cognate_pct": 56.68,
+      "total_cognate_links": 4090,
+      "total_exact_links": 1819,
+      "cognate_over_exact_preference": 2.25,
+      "within_section_shuffle_z": 25.04,
+      "strict_within_paragraph_shuffle_z": 8.05
+    }
+  }
+}

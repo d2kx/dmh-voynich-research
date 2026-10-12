@@ -1,0 +1,520 @@
+{
+  "attack": 145,
+  "phase": 156,
+  "discovery": 162,
+  "title": "Complete Solver for f76r \u2014 The Unillustrated Balneological Master Treatise ($Q=M, $B=2, $I=T) & Its 9-Keyed Sub-Sections",
+  "overview": {
+    "f76r_codicological_identity": "Quire M ($Q=M), Bifolio $B=2 (sheet-mate of f76v, f83r, f83v), tagged $I=T because it is the ONLY unillustrated pure-text treatise in Quire M",
+    "f76r_total_prose_tokens": 560,
+    "f76r_vs_illustrated_balneo_length_ratio": 1.7,
+    "f76r_unique_open_stems": 39,
+    "f76r_quire_m_stem_recall_pct": 76.92,
+    "f76r_quire_m_shared_idf_test": {
+      "observed_quire_m_idf": 86.347,
+      "null_mean_idf": 47.411,
+      "null_sd_idf": 10.541,
+      "lift_ratio": 1.82,
+      "z_score": 3.69
+    },
+    "f76r_b2_sheetmate_affinity": {
+      "b2_sheetmates": [
+        "f76v",
+        "f83r",
+        "f83v"
+      ],
+      "mean_shared_idf_with_b2_sheetmates": 16.79,
+      "mean_shared_idf_with_other_16_balneo_folios": 14.505,
+      "sheetmate_lift_ratio": 1.16
+    },
+    "f76r_balneo_label_stem_hits": 3,
+    "f76r_rank_among_20_quire_m_folios_for_label_coverage": 5,
+    "distinct_top1_bath_folios_across_11_units": 7,
+    "herbal_b_share_among_11_unit_top1_herbals_pct": 63.64
+  },
+  "f76r_vs_19_illustrated_balneo_folios": {
+    "f76r_unillustrated_master_treatise": {
+      "n_folios": 1,
+      "mean_prose_tokens_per_folio": 560.0,
+      "mean_figure_labels_per_folio": 0.0,
+      "mean_unique_open_stems_per_folio": 39.0,
+      "qo_boil_pct": 19.46,
+      "edy_proc_pct": 21.43,
+      "l_appl_pct": 10.0,
+      "aiin_dose_pct": 14.82,
+      "ol_or_liq_pct": 23.04
+    },
+    "eighteen_illustrated_balneo_folios": {
+      "n_folios": 19,
+      "mean_prose_tokens_per_folio": 329.37,
+      "mean_figure_labels_per_folio": 6.68,
+      "mean_unique_open_stems_per_folio": 27.37,
+      "qo_boil_pct": 24.27,
+      "edy_proc_pct": 25.95,
+      "l_appl_pct": 8.96,
+      "aiin_dose_pct": 13.45,
+      "ol_or_liq_pct": 25.93
+    }
+  },
+  "balneo_folio_label_coverage_ranking": [
+    {
+      "rank": 1,
+      "folio": "f82r",
+      "balneo_label_stems_covered": 6
+    },
+    {
+      "rank": 2,
+      "folio": "f82v",
+      "balneo_label_stems_covered": 5
+    },
+    {
+      "rank": 3,
+      "folio": "f75v",
+      "balneo_label_stems_covered": 4
+    },
+    {
+      "rank": 4,
+      "folio": "f79v",
+      "balneo_label_stems_covered": 4
+    },
+    {
+      "rank": 5,
+      "folio": "f76r",
+      "balneo_label_stems_covered": 3
+    },
+    {
+      "rank": 6,
+      "folio": "f78r",
+      "balneo_label_stems_covered": 3
+    },
+    {
+      "rank": 7,
+      "folio": "f79r",
+      "balneo_label_stems_covered": 3
+    },
+    {
+      "rank": 8,
+      "folio": "f80v",
+      "balneo_label_stems_covered": 3
+    },
+    {
+      "rank": 9,
+      "folio": "f81r",
+      "balneo_label_stems_covered": 3
+    },
+    {
+      "rank": 10,
+      "folio": "f83r",
+      "balneo_label_stems_covered": 3
+    }
+  ],
+  "eleven_structural_units_of_f76r": [
+    {
+      "unit_id": "U1_P1_KEY1_s",
+      "margin_key": "s",
+      "line_range": "L1..L4",
+      "n_lines": 4,
+      "n_tokens": 50,
+      "n_open_stems": 8,
+      "morph_profile_pct": {
+        "qo_boil": 32.0,
+        "s_sh_sibilant": 10.0,
+        "d_dental": 32.0,
+        "o_nominal": 22.0,
+        "l_lateral": 16.0,
+        "k_gallows": 32.0,
+        "r_rhotic": 16.0
+      },
+      "top_balneological_bath_folio": {
+        "folio": "f77r",
+        "shared_idf": 8.079,
+        "shared_stems": [
+          "eal",
+          "aiin",
+          "as"
+        ]
+      },
+      "top_herbal_monograph": {
+        "folio": "f17r",
+        "lang": "A",
+        "shared_idf": 5.393,
+        "shared_stems": [
+          "fsh",
+          "as"
+        ]
+      },
+      "balneological_nymph_and_tube_label_matches": [],
+      "opening_clause_eva": "potchokor chcfhdy opshdy qolp chcphy chcphdy opshey qofshy",
+      "closing_clause_eva": "qokedy qokeey or or or chkorol otey qokedy"
+    },
+    {
+      "unit_id": "U2_P1_KEY2_d",
+      "margin_key": "d",
+      "line_range": "L5..L6",
+      "n_lines": 2,
+      "n_tokens": 26,
+      "n_open_stems": 3,
+      "morph_profile_pct": {
+        "qo_boil": 26.9,
+        "s_sh_sibilant": 15.4,
+        "d_dental": 38.5,
+        "o_nominal": 15.4,
+        "l_lateral": 26.9,
+        "k_gallows": 38.5,
+        "r_rhotic": 11.5
+      },
+      "top_balneological_bath_folio": {
+        "folio": "f83r",
+        "shared_idf": 4.269,
+        "shared_stems": [
+          "eda",
+          "olch"
+        ]
+      },
+      "top_herbal_monograph": {
+        "folio": "f95r1",
+        "lang": "B",
+        "shared_idf": 3.074,
+        "shared_stems": [
+          "eka"
+        ]
+      },
+      "balneological_nymph_and_tube_label_matches": [],
+      "opening_clause_eva": "solchedy qokeedy qopchedy qokeeo rol shedy qokedy sheey",
+      "closing_clause_eva": "qoaiin ches okeedal qoked qokeey shedy chey lkeedy"
+    },
+    {
+      "unit_id": "U3_P1_KEY3_q",
+      "margin_key": "q",
+      "line_range": "L7..L8",
+      "n_lines": 2,
+      "n_tokens": 27,
+      "n_open_stems": 3,
+      "morph_profile_pct": {
+        "qo_boil": 7.4,
+        "s_sh_sibilant": 11.1,
+        "d_dental": 33.3,
+        "o_nominal": 18.5,
+        "l_lateral": 25.9,
+        "k_gallows": 22.2,
+        "r_rhotic": 18.5
+      },
+      "top_balneological_bath_folio": {
+        "folio": "NONE",
+        "shared_idf": 0.0,
+        "shared_stems": []
+      },
+      "top_herbal_monograph": {
+        "folio": "f31r",
+        "lang": "B",
+        "shared_idf": 4.339,
+        "shared_stems": [
+          "edsh"
+        ]
+      },
+      "balneological_nymph_and_tube_label_matches": [],
+      "opening_clause_eva": "shed al shckhy r ain chcphedy ain olkeey",
+      "closing_clause_eva": "qotedshedy qorain oteedy chedy ol chdy raiiin chekain"
+    },
+    {
+      "unit_id": "U4_P1_KEY4_s",
+      "margin_key": "s",
+      "line_range": "L9..L11",
+      "n_lines": 3,
+      "n_tokens": 40,
+      "n_open_stems": 4,
+      "morph_profile_pct": {
+        "qo_boil": 12.5,
+        "s_sh_sibilant": 20.0,
+        "d_dental": 32.5,
+        "o_nominal": 17.5,
+        "l_lateral": 22.5,
+        "k_gallows": 32.5,
+        "r_rhotic": 17.5
+      },
+      "top_balneological_bath_folio": {
+        "folio": "f80v",
+        "shared_idf": 4.873,
+        "shared_stems": [
+          "olsh",
+          "ecth"
+        ]
+      },
+      "top_herbal_monograph": {
+        "folio": "f90r1",
+        "lang": "A",
+        "shared_idf": 6.501,
+        "shared_stems": [
+          "orsh",
+          "olsh"
+        ]
+      },
+      "balneological_nymph_and_tube_label_matches": [
+        "f84r:@Ln:okolshy"
+      ],
+      "opening_clause_eva": "solshedy qool qctheed shdy qa ol keey dain",
+      "closing_clause_eva": "chorshedy qoked okees al ar aiin ar ain"
+    },
+    {
+      "unit_id": "U5_P1_KEY5_o",
+      "margin_key": "o",
+      "line_range": "L12..L14",
+      "n_lines": 3,
+      "n_tokens": 34,
+      "n_open_stems": 2,
+      "morph_profile_pct": {
+        "qo_boil": 35.3,
+        "s_sh_sibilant": 14.7,
+        "d_dental": 32.4,
+        "o_nominal": 11.8,
+        "l_lateral": 20.6,
+        "k_gallows": 47.1,
+        "r_rhotic": 8.8
+      },
+      "top_balneological_bath_folio": {
+        "folio": "f80r",
+        "shared_idf": 3.837,
+        "shared_stems": [
+          "edy"
+        ]
+      },
+      "top_herbal_monograph": {
+        "folio": "NONE",
+        "lang": "A",
+        "shared_idf": 0.0,
+        "shared_stems": []
+      },
+      "balneological_nymph_and_tube_label_matches": [],
+      "opening_clause_eva": "qotes chedy shckhy qokeey okeey kain checkhy qokeedy",
+      "closing_clause_eva": "dcheedy qolchey qokeey qokeey chedy qokar shedy shedy"
+    },
+    {
+      "unit_id": "U6_P1_KEY6_l",
+      "margin_key": "l",
+      "line_range": "L15..L17",
+      "n_lines": 3,
+      "n_tokens": 37,
+      "n_open_stems": 2,
+      "morph_profile_pct": {
+        "qo_boil": 27.0,
+        "s_sh_sibilant": 16.2,
+        "d_dental": 40.5,
+        "o_nominal": 18.9,
+        "l_lateral": 29.7,
+        "k_gallows": 27.0,
+        "r_rhotic": 8.1
+      },
+      "top_balneological_bath_folio": {
+        "folio": "f79v",
+        "shared_idf": 3.165,
+        "shared_stems": [
+          "chs"
+        ]
+      },
+      "top_herbal_monograph": {
+        "folio": "f55v",
+        "lang": "B",
+        "shared_idf": 3.659,
+        "shared_stems": [
+          "eeed"
+        ]
+      },
+      "balneological_nymph_and_tube_label_matches": [],
+      "opening_clause_eva": "dshedy qo chedy lchedy qokey qolchey qotain chckhy",
+      "closing_clause_eva": "sheedy qokedy chedy chedy qokain chckhy olchy l"
+    },
+    {
+      "unit_id": "U7_P1_KEY7_k",
+      "margin_key": "k",
+      "line_range": "L18..L20",
+      "n_lines": 3,
+      "n_tokens": 40,
+      "n_open_stems": 3,
+      "morph_profile_pct": {
+        "qo_boil": 25.0,
+        "s_sh_sibilant": 10.0,
+        "d_dental": 25.0,
+        "o_nominal": 7.5,
+        "l_lateral": 45.0,
+        "k_gallows": 22.5,
+        "r_rhotic": 7.5
+      },
+      "top_balneological_bath_folio": {
+        "folio": "f83v",
+        "shared_idf": 5.375,
+        "shared_stems": [
+          "lsh",
+          "ecth"
+        ]
+      },
+      "top_herbal_monograph": {
+        "folio": "f46r",
+        "lang": "B",
+        "shared_idf": 5.592,
+        "shared_stems": [
+          "lsh",
+          "ep"
+        ]
+      },
+      "balneological_nymph_and_tube_label_matches": [],
+      "opening_clause_eva": "dalshedy qol sheedy qokaldy chepy dain alolor olain",
+      "closing_clause_eva": "shedal shey qokey qolchedy qolain ain chey qokaiin"
+    },
+    {
+      "unit_id": "U8_P1_KEY8_r",
+      "margin_key": "r",
+      "line_range": "L21..L23",
+      "n_lines": 3,
+      "n_tokens": 39,
+      "n_open_stems": 4,
+      "morph_profile_pct": {
+        "qo_boil": 20.5,
+        "s_sh_sibilant": 23.1,
+        "d_dental": 25.6,
+        "o_nominal": 10.3,
+        "l_lateral": 25.6,
+        "k_gallows": 28.2,
+        "r_rhotic": 15.4
+      },
+      "top_balneological_bath_folio": {
+        "folio": "f80v",
+        "shared_idf": 7.518,
+        "shared_stems": [
+          "alch",
+          "rch",
+          "la"
+        ]
+      },
+      "top_herbal_monograph": {
+        "folio": "f39r",
+        "lang": "B",
+        "shared_idf": 2.781,
+        "shared_stems": [
+          "alch"
+        ]
+      },
+      "balneological_nymph_and_tube_label_matches": [
+        "f82v:@Ln:okalchy"
+      ],
+      "opening_clause_eva": "soin sheey chear ol aiin chodaiin qokaiin chey",
+      "closing_clause_eva": "darchey cheolchey shcthy chedy qo qokey dalaiin sheeky"
+    },
+    {
+      "unit_id": "U9_P1_KEY9_s",
+      "margin_key": "s",
+      "line_range": "L24..L27",
+      "n_lines": 4,
+      "n_tokens": 54,
+      "n_open_stems": 5,
+      "morph_profile_pct": {
+        "qo_boil": 13.0,
+        "s_sh_sibilant": 27.8,
+        "d_dental": 24.1,
+        "o_nominal": 13.0,
+        "l_lateral": 29.6,
+        "k_gallows": 20.4,
+        "r_rhotic": 13.0
+      },
+      "top_balneological_bath_folio": {
+        "folio": "f83r",
+        "shared_idf": 8.249,
+        "shared_stems": [
+          "lche",
+          "lch",
+          "olk"
+        ]
+      },
+      "top_herbal_monograph": {
+        "folio": "f39r",
+        "lang": "B",
+        "shared_idf": 3.887,
+        "shared_stems": [
+          "eol",
+          "olk"
+        ]
+      },
+      "balneological_nymph_and_tube_label_matches": [],
+      "opening_clause_eva": "cheo r ain okaiin dain chey dalshedy qokaiin",
+      "closing_clause_eva": "sain shedy lshey qokal chcthy okeolor cheol otar"
+    },
+    {
+      "unit_id": "U10_PARA2_UNKEYED",
+      "margin_key": "P2_GALL_p",
+      "line_range": "L28..L34",
+      "n_lines": 7,
+      "n_tokens": 79,
+      "n_open_stems": 6,
+      "morph_profile_pct": {
+        "qo_boil": 19.0,
+        "s_sh_sibilant": 16.5,
+        "d_dental": 29.1,
+        "o_nominal": 19.0,
+        "l_lateral": 44.3,
+        "k_gallows": 21.5,
+        "r_rhotic": 11.4
+      },
+      "top_balneological_bath_folio": {
+        "folio": "f80v",
+        "shared_idf": 6.691,
+        "shared_stems": [
+          "psh",
+          "ecth",
+          "as"
+        ]
+      },
+      "top_herbal_monograph": {
+        "folio": "f46v",
+        "lang": "B",
+        "shared_idf": 5.393,
+        "shared_stems": [
+          "shed",
+          "as"
+        ]
+      },
+      "balneological_nymph_and_tube_label_matches": [],
+      "opening_clause_eva": "qokal shedy sheol cheol alshy chol chdy talor",
+      "closing_clause_eva": "sor shey qokey qokar sheeoldy chol oly chaly"
+    },
+    {
+      "unit_id": "U11_PARA3_UNKEYED",
+      "margin_key": "P3_GALL_p",
+      "line_range": "L35..L47",
+      "n_lines": 13,
+      "n_tokens": 134,
+      "n_open_stems": 9,
+      "morph_profile_pct": {
+        "qo_boil": 12.7,
+        "s_sh_sibilant": 20.9,
+        "d_dental": 31.3,
+        "o_nominal": 30.6,
+        "l_lateral": 31.3,
+        "k_gallows": 30.6,
+        "r_rhotic": 19.4
+      },
+      "top_balneological_bath_folio": {
+        "folio": "f77v",
+        "shared_idf": 11.546,
+        "shared_stems": [
+          "sheed",
+          "ror",
+          "as",
+          "do"
+        ]
+      },
+      "top_herbal_monograph": {
+        "folio": "f1v",
+        "lang": "A",
+        "shared_idf": 4.482,
+        "shared_stems": [
+          "olsh",
+          "do"
+        ]
+      },
+      "balneological_nymph_and_tube_label_matches": [
+        "f77v:@Ln:saroral",
+        "f84r:@Ln:okolshy"
+      ],
+      "opening_clause_eva": "poleedaran shckhy qoty ykar alol lkaiin ol shedy",
+      "closing_clause_eva": "qokaiin ol shedy qokeey or shdy"
+    }
+  ]
+}

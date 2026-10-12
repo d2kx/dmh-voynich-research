@@ -1195,5 +1195,30 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Key Breakthroughs**:
   1. **Synthesizes the Five-Tier Macro-Locus & Marginalia Architecture (`Attack 141`), the Intra-Clause Cognate Polyptoton Grammar (`Attack 142`), and the 20-Hub-Folio Empirical Clause Reader (`Attack 143`)**.
 
+---
 
+## 145. Attack 145 (`Phase 156`): Complete Solver for `f76r` — The Unillustrated 9-Key Balneological Master Treatise (`$Q=M, $B=2, $I=T`, `1.82×` Quire M Shared IDF Lift, $z = +3.69$)
+- **Script, Data & Scan**: [`tools/attack145_f76r_balneological_master_index_and_9key_router.py`](../tools/attack145_f76r_balneological_master_index_and_9key_router.py) $\to$ [`data/attack145_f76r_balneological_master_index_and_9key_router.json`](../data/attack145_f76r_balneological_master_index_and_9key_router.json), [`pages/f76r_vertical_9glyph_margin_key_enh.png`](../pages/f76r_vertical_9glyph_margin_key_enh.png)
+- **Key Breakthroughs**:
+  1. **Proves That `f76r` (`$Q=M, $B=2, $I=T`, the Only Unillustrated Pure-Text Folio Inside the 20-Folio Balneological `Quire M`) Is `1.70×` Longer (`560.0` vs. `329.37` Words) and Carries `+42.5%` More Open Stems (`39` vs. `27.37`) Than the 19 Illustrated Bath Folios, with `76.92%` (`30 / 39`) of Its Open Stems Recurring Inside `Quire M` (`IDF = 86.347` vs. `47.411 ± 10.541` Null = `1.82×` Lift, $z = +3.69$), Rank `#5 / 20` in `Quire M` for `@Ln/@Lt` Bath-Label Coverage, and `7` Distinct `#1` Illustrated Bath Folio Targets Across Its 11 Structural Units (`63.64%` Currier B Herbal `#1` Partners)**.
 
+---
+
+## 146. Attack 146 (`Phase 157`): Unified Structural & Lexical Compiler Test of the Six Master Index & Margin-Keyed Folios (`f1r, f49v, f58r, f58v, f66r, f76r`, Diagram-Label Matches $z = +4.67$, Label IDF $z = +4.59$, Multi-Section Hub IDF $z = +3.50$, `75.41%` Exclusive Partition)
+- **Script, Data & Scan**: [`tools/attack146_six_master_index_folios_unified_compiler_test.py`](../tools/attack146_six_master_index_folios_unified_compiler_test.py) $\to$ [`data/attack146_six_master_index_folios_unified_compiler_test.json`](../data/attack146_six_master_index_folios_unified_compiler_test.json), [`pages/f58r_starred_botanical_master_index_enh.png`](../pages/f58r_starred_botanical_master_index_enh.png)
+- **Key Breakthroughs**:
+  1. **Proves Against `1,000` Random 6-Folio Codex Permutations That the Six Master Index & Margin-Keyed Folios (`f1r, f49v, f58r, f58v, f66r, f76r`, Spanning Hands `1, 2, 3, 5`) Exhibit `2.00×` Prose Word Density ($z = +2.79$), `2.21×` Open-Stem Diversity ($z = +3.42$), `2.77×` Diagram-Label Stem Matches ($z = +4.67$), `2.82×` Diagram-Label IDF ($z = +4.59$), and `2.26×` Multi-Section Hub IDF ($z = +3.50$), Covering `43.09%` (`134 / 311`) of All Multi-Section Hub Stems in the Codex While Partitioning `75.41%` (`138 / 183`) of Their Open Stems Exclusively to a Single Master Index Folio (`Mean Pairwise Jaccard = 0.0739`)**.
+
+---
+
+## 147. Attack 147 (`Phase 158`): Cross-Line Anaphoric Polyptoton, Sequential Stem Chaining (`Line t -> Line t+1`, Within-Section $z = +25.04$, Strict Within-Paragraph $z = +8.05$), and Horizontal Zone Handoff Law
+- **Script & Data**: [`tools/attack147_cross_line_anaphoric_polyptoton_and_chaining_law.py`](../tools/attack147_cross_line_anaphoric_polyptoton_and_chaining_law.py) $\to$ [`data/attack147_cross_line_anaphoric_polyptoton_and_chaining_law.json`](../data/attack147_cross_line_anaphoric_polyptoton_and_chaining_law.json)
+- **Key Breakthroughs**:
+  1. **Proves Across All `736` Multi-Line Paragraphs (`3,315` Adjacent `Line t -> Line t+1` Pairs) That `56.68%` (`1,879 / 3,315`) Contain Cross-Line Cognate Polyptoton (`4,090` Cognate Links vs. `1,819` Exact Repeats = `2.25×` Preference), Exceeding Within-Section Line Shuffles by `1.565×` ($z = +25.04$) and Strict Within-Paragraph Line-Order Shuffles (`493` Paragraphs `>= 4` Lines) by `1.130×` ($z = +8.05$), with `Line t+1` Enriching `l-/ol-` Applicatives (`9.95% -> 11.54%`, $z = +2.53$) and `-ol/-or/-al/-ar` Liquid Nominals (`7.56% -> 8.75%`, $z = +2.27$)**.
+
+---
+
+## 148. Attack 148 (`Phase 159`): The `f76r` Balneological Master Treatise, 6-Folio Master Index Architecture & Cross-Line Anaphoric Polyptoton Compendium ([`notes/F76R_BALNEO_TREATISE_AND_6INDEX_COMPILER_COMPENDIUM.md`](F76R_BALNEO_TREATISE_AND_6INDEX_COMPILER_COMPENDIUM.md))
+- **Script, Data & Edition**: [`tools/attack148_f76r_6index_and_crossline_polyptoton_compendium.py`](../tools/attack148_f76r_6index_and_crossline_polyptoton_compendium.py) $\to$ [`data/attack148_f76r_6index_and_crossline_polyptoton_compendium.json`](../data/attack148_f76r_6index_and_crossline_polyptoton_compendium.json) & [`notes/F76R_BALNEO_TREATISE_AND_6INDEX_COMPILER_COMPENDIUM.md`](F76R_BALNEO_TREATISE_AND_6INDEX_COMPILER_COMPENDIUM.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes the `f76r` 9-Key Balneological Master Treatise (`Attack 145`), the Unified Compiler Test of the Six Master Index Folios (`Attack 146`), and the Cross-Line Anaphoric Polyptoton & Sequential Chaining Law (`Attack 147`)**.
