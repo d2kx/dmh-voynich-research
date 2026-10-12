@@ -1111,3 +1111,31 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Key Breakthroughs**:
   1. **Synthesizes the Quire 14 7-Page Exegetical Translator (`Attack 129`), the Master Preface & Right-Justified `=Pt` Title Solver (`Attack 130`), and the Global 226-Folio Citation & PageRank Graph (`Attack 131`)**.
 
+---
+
+## 133. Attack 133 (`Phase 144`): Complete 10-Zone (`CIRCLE_1_NW` .. `CIRCLE_9_SE` + `CAUSEWAYS_I_TO_VIII`) Rosettes Map (`fRos`, `518` Tokens) Translator & `f66r <-> fRos <-> Quire 20` Master Routing Triad ($z = +8.26$)
+- **Script, Data & Scans**: [`tools/attack133_rosettes_9sphere_and_f66r_master_router.py`](../tools/attack133_rosettes_9sphere_and_f66r_master_router.py) $\to$ [`data/attack133_rosettes_9sphere_and_f66r_master_router.json`](../data/attack133_rosettes_9sphere_and_f66r_master_router.json), [`pages/fRos_center_and_east_spheres_causeways_enh.png`](../pages/fRos_center_and_east_spheres_causeways_enh.png), [`pages/f86v5_f86v3_four_spouts_exegetical_spread_enh.png`](../pages/f86v5_f86v3_four_spouts_exegetical_spread_enh.png)
+- **Key Breakthroughs**:
+  1. **Decomposes All `160` Lines of `fRos` into `CIRCLE_1_NW .. CIRCLE_9_SE` + `CAUSEWAYS_I_TO_VIII`, Proving That `CAUSEWAYS_I_TO_VIII` Selects `Balneological ($I=B)` and Surges `5.0×` in `qo-` (`8.70%` vs. `1.72%`), `CIRCLE_5_CENTER` & `CIRCLE_7_NE` Select `Herbal ($I=H)` (`#1` Match `f58r IDF = 8.361`), and `CIRCLE_8_E` & `CIRCLE_3_SW` Anchor the `f66r <-> fRos <-> Quire 20` Master Routing Triad (`9` Shared Rare Stems, `IDF = 29.307` vs. `2.686` Null = `10.91×` Lift, $z = +8.26$)**.
+
+---
+
+## 134. Attack 134 (`Phase 145`): Complete `842`-Stem Multi-Folio Cross-Section Canonical Root Dictionary (`34,705` Tokens) & Paired Within-Stem Supply-to-Clinical Transformation Law ($z = +7.08$)
+- **Script & Data**: [`tools/attack134_complete_cross_section_stem_dictionary.py`](../tools/attack134_complete_cross_section_stem_dictionary.py) $\to$ [`data/attack134_complete_cross_section_stem_dictionary.json`](../data/attack134_complete_cross_section_stem_dictionary.json)
+- **Key Breakthroughs**:
+  1. **Catalogues All `842` Multi-Folio Canonical Stems (`34,705` Tokens = `95.8%` of the Codex) Across 6 Semantic Classes and Proves Across `220` Paired Stems That Holding the Exact Same Stem Fixed While Moving from Supply (`H, A, Z, C`) to Clinical (`B, P, S`) Surges `-edy/-eedy` by `3.04×` (`2.48% -> 7.54%`), `l-/ol-/al-` by `2.71×` (`4.52% -> 12.26%`), and `qo-` by `1.54×` (`6.56% -> 10.07%`, Paired Sign-Flip $z = +7.08$)**.
+
+---
+
+## 135. Attack 135 (`Phase 146`): Universal Intra-Folio Discourse Architecture Across All `226` Folios — Vertical Folio Frame (`TOP_LINE_1 -> INTERIOR -> BOTTOM_LINE_N`) & `Para 1 -> Para 2..K` Topic Persistence ($z = +2.82$)
+- **Script & Data**: [`tools/attack135_universal_folio_discourse_and_stem_introduction_law.py`](../tools/attack135_universal_folio_discourse_and_stem_introduction_law.py) $\to$ [`data/attack135_universal_folio_discourse_and_stem_introduction_law.json`](../data/attack135_universal_folio_discourse_and_stem_introduction_law.json)
+- **Key Breakthroughs**:
+  1. **Proves the Universal `TOP_LINE_1 -> INTERIOR_LINES -> BOTTOM_LINE_N` Vertical Frame (`mean len 5.601 -> 5.188 -> 4.974`, `p/f gallows 18.56% -> 3.33% -> 1.18%`, `qo- 10.82% -> 16.25% -> 7.07%`, `-aiin 11.40% -> 14.03%`, `-am/-m 1.75% -> 3.04%`) and the Multi-Paragraph Stem-Introduction Cascade (`New Rare-Stem IDF/100w: 38.524 -> 35.349 -> 33.665`; `Para 1 -> Para 2..K` Same-Folio Persistence Lift `1.387×`, Stratified $z = +2.82$)**.
+
+---
+
+## 136. Attack 136 (`Phase 147`): The Complete 9-Sphere Rosettes (`fRos`) Router, 842-Stem Cross-Section Root Dictionary & Universal Folio-Discourse Compendium ([`notes/ROSETTES_9SPHERE_AND_CROSS_SECTION_ROOT_DICTIONARY.md`](ROSETTES_9SPHERE_AND_CROSS_SECTION_ROOT_DICTIONARY.md))
+- **Script, Data & Edition**: [`tools/attack136_rosettes_stem_dict_and_discourse_compendium.py`](../tools/attack136_rosettes_stem_dict_and_discourse_compendium.py) $\to$ [`data/attack136_rosettes_stem_dict_and_discourse_compendium.json`](../data/attack136_rosettes_stem_dict_and_discourse_compendium.json) & [`notes/ROSETTES_9SPHERE_AND_CROSS_SECTION_ROOT_DICTIONARY.md`](ROSETTES_9SPHERE_AND_CROSS_SECTION_ROOT_DICTIONARY.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes the 10-Zone Rosettes Map (`fRos`) & `f66r <-> fRos <-> Quire 20` Triad Solver (`Attack 133`), the `842`-Stem Cross-Section Canonical Root Dictionary (`Attack 134`), and the Universal Intra-Folio Discourse Architecture (`Attack 135`)**.
+

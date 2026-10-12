@@ -866,6 +866,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 142. Complete 10-Zone (`CIRCLE_1_NW` .. `CIRCLE_9_SE` + `CAUSEWAYS_I_TO_VIII`) Rosettes Map (`fRos`, `518` Tokens) Translator & the `f66r <-> fRos <-> Quire 20` Master Routing Triad (`10.91×` Lift, $z = +8.26$, `Attack 133`)
+- **10-Zone Rosettes Map (`fRos`) Decomposition (`pages/fRos_center_and_east_spheres_causeways_enh.png`, `pages/f86v5_f86v3_four_spouts_exegetical_spread_enh.png`) & `f66r <-> fRos <-> Quire 20` Triad ($z = +8.26$)**: Maps all `160` lines of `fRos` into `CIRCLE_1_NW .. CIRCLE_9_SE` + `CAUSEWAYS_I_TO_VIII`, proving that the **Connecting Causeways (`I..VIII`)** select `Balneological ($I=B)` as their dominant section and surge `5.0×` in `qo-` active flow/boiling (`8.70%` vs. `1.72%`), `CIRCLE_5_CENTER` (`5` apothecary vessels) & `CIRCLE_7_NE` select `Herbal ($I=H)` (`#1` match `f58r IDF = 8.361`), and `CIRCLE_8_E` & `CIRCLE_3_SW` anchor the **`f66r <-> fRos <-> Quire 20` Master Routing Triad (`9` shared rare stems, `IDF = 29.307` vs. `2.686 ± 3.222` null = `10.91×` lift, $z = +8.26$)**.
+
+---
+
+### 143. Complete `842`-Stem Multi-Folio Cross-Section Canonical Root Dictionary (`34,705` Tokens) & Paired Within-Stem Supply-to-Clinical Inflectional Transformation Law (`220` Paired Stems, $z = +7.08$, `Attack 134`)
+- **Paired Within-Stem Supply (`H ∪ A ∪ Z ∪ C`) $\to$ Clinical (`B ∪ P ∪ S`) Inflectional Shift ($z = +7.08$)**: Catalogues all `842` multi-folio canonical stems (`34,705` tokens = `95.8%` of the codex) across 6 semantic classes and proves that across `220` paired stems (`>= 3` tokens in both Supply and Clinical), holding the **exact same canonical stem fixed** while moving from Supply (`H, A, Z, C`) to Clinical (`B, P, S`) surges **Processual `-edy/-eedy` by `3.04×` (`2.48% -> 7.54%`)**, **Vessel/Bath Applicative `l-/ol-/al-` by `2.71×` (`4.52% -> 12.26%`)**, and **Active Boiling `qo-` by `1.54×` (`6.56% -> 10.07%`)**, while dropping Nominal `o-` (`-25.9%`) and Deictic `d-` (`-30.5%`, paired sign-flip $z = +7.08$).
+
+---
+
+### 144. Universal Intra-Folio Discourse Architecture Across All `226` Folios — Vertical Folio Frame (`TOP_LINE_1 -> INTERIOR_LINES -> BOTTOM_LINE_N`) & Same-Folio `Para 1 -> Para 2..K` Rare-Stem Topic Persistence ($z = +2.82$, `Attack 135`)
+- **Vertical Folio-Frame Grammar & Multi-Paragraph Stem-Introduction Cascade ($z = +2.82$)**: Moving from `TOP_LINE_1` to `INTERIOR_LINES` to `BOTTOM_LINE_N` compresses word length (`5.601 -> 5.188 -> 4.974` chars), drops `p/f` top-line gallows `15.7×` (`18.56% -> 3.33% -> 1.18%`), peaks `qo-` (`16.25%`) and `-edy` (`12.56%`) in the interior before dropping `>2.2×` at `BOTTOM_LINE_N` (`7.07%` & `5.59%`), and monotonically elevates `-aiin` (`11.40% -> 14.03%`) and `-am/-m` (`1.75% -> 3.04%`). Across `153` multi-paragraph folios (`PARA_1 -> PARA_2 -> PARA_3+`), New Rare-Stem Introduction Density decays monotonically (`38.524 -> 35.349 -> 33.665 IDF/100w`) while `l-/ol-` (`7.98% -> 12.16%`) and `-aiin` (`10.40% -> 12.56%`) rise, and `Para 2..K` shares `1.387×` higher Rare-Stem IDF with `Para 1` of the same folio ($z = +2.82$).
+
+---
+
+### 145. The Complete 9-Sphere Rosettes (`fRos`) Router, 842-Stem Cross-Section Root Dictionary & Universal Folio-Discourse Compendium ([`notes/ROSETTES_9SPHERE_AND_CROSS_SECTION_ROOT_DICTIONARY.md`](notes/ROSETTES_9SPHERE_AND_CROSS_SECTION_ROOT_DICTIONARY.md), `Attack 136`)
+- **Complete 9-Sphere Rosettes Router, 842-Stem Root Dictionary & Universal Folio-Discourse Compendium ([`notes/ROSETTES_9SPHERE_AND_CROSS_SECTION_ROOT_DICTIONARY.md`](notes/ROSETTES_9SPHERE_AND_CROSS_SECTION_ROOT_DICTIONARY.md))**: Synthesizes the 10-Zone Rosettes Map (`fRos`) & `f66r <-> fRos <-> Quire 20` Triad Solver (`Attack 133`), the `842`-Stem Cross-Section Canonical Root Dictionary (`Attack 134`), and the Universal Intra-Folio Discourse Architecture (`Attack 135`).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -1029,7 +1049,12 @@ python tools/attack129_quire14_7page_exegetical_translator.py
 python tools/attack130_preface_titles_and_quire_boundary_translator.py
 python tools/attack131_global_226folio_citation_pagerank_graph.py
 python tools/attack132_milestone_150_discoveries_and_226folio_compendium.py
+python tools/attack133_rosettes_9sphere_and_f66r_master_router.py
+python tools/attack134_complete_cross_section_stem_dictionary.py
+python tools/attack135_universal_folio_discourse_and_stem_introduction_law.py
+python tools/attack136_rosettes_stem_dict_and_discourse_compendium.py
 ```
+
 
 
 

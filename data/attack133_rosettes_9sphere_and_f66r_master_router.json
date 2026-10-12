@@ -1,0 +1,2446 @@
+{
+  "attack": 133,
+  "phase": 144,
+  "discovery": 150,
+  "title": "Complete 9-Sphere Rosettes (fRos, 518 Tokens) Sphere-by-Sphere & Causeway-by-Causeway Translator and the f66r <-> fRos <-> Quire 20 Master Routing Triad",
+  "fros_overview": {
+    "n_lines": 160,
+    "n_zones": 10,
+    "total_tokens": 509
+  },
+  "f66r_fros_quire20_triad_test": {
+    "shared_rare_stems_count": 9,
+    "shared_rare_stems": [
+      "fchd",
+      "xa",
+      "far",
+      "pchee",
+      "efch",
+      "kar",
+      "pd",
+      "ral",
+      "ad"
+    ],
+    "observed_triad_idf": 29.307,
+    "null_mean_random_pair": 2.686,
+    "null_sd": 3.222,
+    "lift_ratio": 10.91,
+    "z_score": 8.26,
+    "p_value": 0.0
+  },
+  "zone_profiles": [
+    {
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "n_lines": 24,
+      "loci": [
+        "*Pb",
+        "+L0",
+        "+Pb",
+        "@L0",
+        "@Pb"
+      ],
+      "metrics": {
+        "n_tokens": 46,
+        "n_unique_stems": 36,
+        "mean_len": 5.109,
+        "o_nom_pct": 41.3,
+        "qo_pct": 8.7,
+        "bench_pct": 21.74,
+        "d_top_pct": 4.35,
+        "l_appl_pct": 6.52,
+        "edy_pct": 6.52,
+        "aiin_pct": 8.7,
+        "dy_pct": 13.04,
+        "am_pct": 2.17
+      },
+      "dominant_section": "B",
+      "section_routing_idf": {
+        "H": 5.714,
+        "A": 2.786,
+        "Z": 6.756,
+        "B": 10.235,
+        "P": 5.908,
+        "S": 9.011
+      },
+      "f66r_shared_idf": 0,
+      "f66r_shared_stems": [],
+      "top_external_folios": [
+        {
+          "folio": "f111r",
+          "section": "S",
+          "idf": 9.011,
+          "shared_stems": [
+            "teo",
+            "eech",
+            "pchd"
+          ]
+        },
+        {
+          "folio": "f86v4",
+          "section": "C",
+          "idf": 7.324,
+          "shared_stems": [
+            "pchs",
+            "pchd"
+          ]
+        },
+        {
+          "folio": "f43v",
+          "section": "H",
+          "idf": 5.714,
+          "shared_stems": [
+            "ef",
+            "pchd"
+          ]
+        }
+      ],
+      "sample_eva": "otam opchody oteey opar chepchey oteedy olaiin osshy",
+      "sample_gloss": "NOM_SPEC[AM]:FINAL_M NOM_SPEC[PCH]:PERF_DONE NOM_SPEC[EE]:STATE_Y NOM_SPEC[PA]:SOURCE_R HERB_BENCH[EPCH]:STATE_Y NOM_SPEC[EE]:PROC_SIMMER APPL_VESSEL[AI]:DOSE_AIIN NOM_SPEC[SSH]:STATE_Y"
+    },
+    {
+      "zone": "CIRCLE_1_NW",
+      "n_lines": 12,
+      "loci": [
+        "+L0",
+        "@Cc",
+        "@L0"
+      ],
+      "metrics": {
+        "n_tokens": 49,
+        "n_unique_stems": 30,
+        "mean_len": 4.898,
+        "o_nom_pct": 48.98,
+        "qo_pct": 2.04,
+        "bench_pct": 6.12,
+        "d_top_pct": 6.12,
+        "l_appl_pct": 12.24,
+        "edy_pct": 10.2,
+        "aiin_pct": 8.16,
+        "dy_pct": 0.0,
+        "am_pct": 8.16
+      },
+      "dominant_section": "S",
+      "section_routing_idf": {
+        "H": 11.875,
+        "A": 5.967,
+        "Z": 2.786,
+        "B": 8.848,
+        "P": 3.027,
+        "S": 16.607
+      },
+      "f66r_shared_idf": 5.908,
+      "f66r_shared_stems": [
+        "ad",
+        "efch"
+      ],
+      "top_external_folios": [
+        {
+          "folio": "f86v4",
+          "section": "C",
+          "idf": 7.759,
+          "shared_stems": [
+            "oeed",
+            "keeod"
+          ]
+        },
+        {
+          "folio": "f79r",
+          "section": "B",
+          "idf": 6.062,
+          "shared_stems": [
+            "efch",
+            "shee"
+          ]
+        },
+        {
+          "folio": "f105r",
+          "section": "S",
+          "idf": 6.062,
+          "shared_stems": [
+            "efch",
+            "shee"
+          ]
+        }
+      ],
+      "sample_eva": "saeeasa oto tosaes adar otar otes okaiin dal",
+      "sample_gloss": "SEQ_CONT[EEASA]:ROOT NOM_SPEC[TO]:ROOT BARE[TOSAE]:ROOT BARE[AD]:SOURCE_R NOM_SPEC[AR]:SOURCE_R NOM_SPEC[ES]:ROOT NOM_SPEC[AI]:DOSE_AIIN TOP_LOC[AL]:FLUID_L"
+    },
+    {
+      "zone": "CIRCLE_2_W",
+      "n_lines": 14,
+      "loci": [
+        "@Cc",
+        "@L0"
+      ],
+      "metrics": {
+        "n_tokens": 43,
+        "n_unique_stems": 30,
+        "mean_len": 5.465,
+        "o_nom_pct": 55.81,
+        "qo_pct": 4.65,
+        "bench_pct": 9.3,
+        "d_top_pct": 6.98,
+        "l_appl_pct": 9.3,
+        "edy_pct": 9.3,
+        "aiin_pct": 18.6,
+        "dy_pct": 9.3,
+        "am_pct": 0.0
+      },
+      "dominant_section": "S",
+      "section_routing_idf": {
+        "H": 6.131,
+        "A": 0,
+        "Z": 3.633,
+        "B": 6.131,
+        "P": 2.786,
+        "S": 13.58
+      },
+      "f66r_shared_idf": 3.633,
+      "f66r_shared_stems": [
+        "far"
+      ],
+      "top_external_folios": [
+        {
+          "folio": "f114r",
+          "section": "S",
+          "idf": 9.947,
+          "shared_stems": [
+            "pair",
+            "tched",
+            "de"
+          ]
+        },
+        {
+          "folio": "f114v",
+          "section": "S",
+          "idf": 6.601,
+          "shared_stems": [
+            "pair",
+            "de"
+          ]
+        },
+        {
+          "folio": "f112v",
+          "section": "S",
+          "idf": 6.131,
+          "shared_stems": [
+            "tched",
+            "de"
+          ]
+        }
+      ],
+      "sample_eva": "soiindy ytedar ddsschx daldar ofardy osar otar otodeedy",
+      "sample_gloss": "SEQ_CONT[OIIN]:PERF_DONE NOM_SPEC[ED]:SOURCE_R TOP_LOC[DSSCHX]:ROOT TOP_LOC[LD]:SOURCE_R NOM_SPEC[FAR]:PERF_DONE NOM_SPEC[SA]:SOURCE_R NOM_SPEC[AR]:SOURCE_R NOM_SPEC[OD]:PROC_SIMMER"
+    },
+    {
+      "zone": "CIRCLE_3_SW",
+      "n_lines": 32,
+      "loci": [
+        "+Ca",
+        "+L0",
+        "/L0",
+        "=Cc",
+        "=L0",
+        "@Cc",
+        "@L0"
+      ],
+      "metrics": {
+        "n_tokens": 66,
+        "n_unique_stems": 39,
+        "mean_len": 5.303,
+        "o_nom_pct": 63.64,
+        "qo_pct": 0.0,
+        "bench_pct": 7.58,
+        "d_top_pct": 4.55,
+        "l_appl_pct": 9.09,
+        "edy_pct": 10.61,
+        "aiin_pct": 10.61,
+        "dy_pct": 15.15,
+        "am_pct": 7.58
+      },
+      "dominant_section": "S",
+      "section_routing_idf": {
+        "H": 20.547,
+        "A": 0,
+        "Z": 0,
+        "B": 10.571,
+        "P": 7.672,
+        "S": 28.689
+      },
+      "f66r_shared_idf": 10.571,
+      "f66r_shared_stems": [
+        "pd",
+        "xa",
+        "fchd"
+      ],
+      "top_external_folios": [
+        {
+          "folio": "f105v",
+          "section": "S",
+          "idf": 13.897,
+          "shared_stems": [
+            "fod",
+            "ae",
+            "pd",
+            "pchd"
+          ]
+        },
+        {
+          "folio": "f86v6",
+          "section": "T",
+          "idf": 13.204,
+          "shared_stems": [
+            "fod",
+            "por",
+            "pd",
+            "pchd"
+          ]
+        },
+        {
+          "folio": "f66r",
+          "section": "T",
+          "idf": 10.571,
+          "shared_stems": [
+            "xa",
+            "fchd",
+            "pd"
+          ]
+        }
+      ],
+      "sample_eva": "depcheky otch osy odl dy oteey otchdaiin otodar",
+      "sample_gloss": "TOP_LOC[EPCHEK]:STATE_Y NOM_SPEC[CH]:ROOT NOM_SPEC[SY]:STATE_Y NOM_SPEC[DL]:FLUID_L BARE[DY]:STATE_Y NOM_SPEC[EE]:STATE_Y NOM_SPEC[CHD]:DOSE_AIIN NOM_SPEC[OD]:SOURCE_R"
+    },
+    {
+      "zone": "CIRCLE_4_N",
+      "n_lines": 14,
+      "loci": [
+        "@Cc",
+        "@L0"
+      ],
+      "metrics": {
+        "n_tokens": 53,
+        "n_unique_stems": 33,
+        "mean_len": 4.321,
+        "o_nom_pct": 45.28,
+        "qo_pct": 0.0,
+        "bench_pct": 5.66,
+        "d_top_pct": 9.43,
+        "l_appl_pct": 20.75,
+        "edy_pct": 7.55,
+        "aiin_pct": 3.77,
+        "dy_pct": 11.32,
+        "am_pct": 0.0
+      },
+      "dominant_section": "S",
+      "section_routing_idf": {
+        "H": 17.213,
+        "A": 5.726,
+        "Z": 9.541,
+        "B": 10.101,
+        "P": 5.726,
+        "S": 23.969
+      },
+      "f66r_shared_idf": 6.756,
+      "f66r_shared_stems": [
+        "xa",
+        "ral"
+      ],
+      "top_external_folios": [
+        {
+          "folio": "f104r",
+          "section": "S",
+          "idf": 9.071,
+          "shared_stems": [
+            "hd",
+            "ral",
+            "iin"
+          ]
+        },
+        {
+          "folio": "f83r",
+          "section": "B",
+          "idf": 6.756,
+          "shared_stems": [
+            "edch",
+            "ral"
+          ]
+        },
+        {
+          "folio": "f66r",
+          "section": "T",
+          "idf": 6.756,
+          "shared_stems": [
+            "xa",
+            "ral"
+          ]
+        }
+      ],
+      "sample_eva": "daldal daraldy sais od ar or okal okal",
+      "sample_gloss": "TOP_LOC[LD]:FLUID_L TOP_LOC[RAL]:PERF_DONE SEQ_CONT[IS]:ROOT BARE[OD]:ROOT BARE[AR]:SOURCE_R BARE[OR]:SOURCE_R NOM_SPEC[AL]:FLUID_L NOM_SPEC[AL]:FLUID_L"
+    },
+    {
+      "zone": "CIRCLE_5_CENTER",
+      "n_lines": 25,
+      "loci": [
+        "@Cc",
+        "@L0"
+      ],
+      "metrics": {
+        "n_tokens": 67,
+        "n_unique_stems": 43,
+        "mean_len": 4.776,
+        "o_nom_pct": 55.22,
+        "qo_pct": 1.49,
+        "bench_pct": 4.48,
+        "d_top_pct": 7.46,
+        "l_appl_pct": 13.43,
+        "edy_pct": 8.96,
+        "aiin_pct": 10.45,
+        "dy_pct": 11.94,
+        "am_pct": 1.49
+      },
+      "dominant_section": "H",
+      "section_routing_idf": {
+        "H": 23.826,
+        "A": 7.043,
+        "Z": 5.133,
+        "B": 7.725,
+        "P": 6.918,
+        "S": 19.5
+      },
+      "f66r_shared_idf": 3.228,
+      "f66r_shared_stems": [
+        "pchee"
+      ],
+      "top_external_folios": [
+        {
+          "folio": "f58r",
+          "section": "S",
+          "idf": 8.361,
+          "shared_stems": [
+            "pchee",
+            "kal",
+            "py"
+          ]
+        },
+        {
+          "folio": "f106v",
+          "section": "S",
+          "idf": 7.725,
+          "shared_stems": [
+            "kal",
+            "rsh",
+            "py"
+          ]
+        },
+        {
+          "folio": "f26v",
+          "section": "H",
+          "idf": 6.807,
+          "shared_stems": [
+            "dar",
+            "py"
+          ]
+        }
+      ],
+      "sample_eva": "otor os om araiin okeody okar odsheedy odaiin",
+      "sample_gloss": "NOM_SPEC[OR]:SOURCE_R BARE[OS]:ROOT BARE[OM]:FINAL_M FLOW_LIQ[AI]:DOSE_AIIN NOM_SPEC[EO]:PERF_DONE NOM_SPEC[AR]:SOURCE_R NOM_SPEC[DSH]:PROC_SIMMER NOM_SPEC[DA]:DOSE_AIIN"
+    },
+    {
+      "zone": "CIRCLE_6_S",
+      "n_lines": 13,
+      "loci": [
+        "@Cc",
+        "@L0"
+      ],
+      "metrics": {
+        "n_tokens": 45,
+        "n_unique_stems": 24,
+        "mean_len": 5.111,
+        "o_nom_pct": 62.22,
+        "qo_pct": 0.0,
+        "bench_pct": 4.44,
+        "d_top_pct": 0.0,
+        "l_appl_pct": 13.33,
+        "edy_pct": 17.78,
+        "aiin_pct": 20.0,
+        "dy_pct": 6.67,
+        "am_pct": 2.22
+      },
+      "dominant_section": "S",
+      "section_routing_idf": {
+        "H": 0,
+        "A": 0,
+        "Z": 3.633,
+        "B": 0,
+        "P": 0,
+        "S": 7.96
+      },
+      "f66r_shared_idf": 3.633,
+      "f66r_shared_stems": [
+        "far"
+      ],
+      "top_external_folios": [
+        {
+          "folio": "f115v",
+          "section": "S",
+          "idf": 4.326,
+          "shared_stems": [
+            "pchda"
+          ]
+        },
+        {
+          "folio": "f115r",
+          "section": "S",
+          "idf": 4.326,
+          "shared_stems": [
+            "pchda"
+          ]
+        },
+        {
+          "folio": "f72v1",
+          "section": "Z",
+          "idf": 3.633,
+          "shared_stems": [
+            "far"
+          ]
+        }
+      ],
+      "sample_eva": "opchdain otdar shed okedar okody okair chedy opar",
+      "sample_gloss": "NOM_SPEC[PCHDA]:DOSE_AIIN NOM_SPEC[DA]:SOURCE_R HERB_BENCH[ED]:ROOT NOM_SPEC[ED]:SOURCE_R NOM_SPEC[OD]:PERF_DONE NOM_SPEC[AI]:SOURCE_R HERB_BENCH[ED]:PERF_DONE NOM_SPEC[PA]:SOURCE_R"
+    },
+    {
+      "zone": "CIRCLE_7_NE",
+      "n_lines": 15,
+      "loci": [
+        "+Pb",
+        "@Cc",
+        "@L0",
+        "@Pb"
+      ],
+      "metrics": {
+        "n_tokens": 70,
+        "n_unique_stems": 44,
+        "mean_len": 5.214,
+        "o_nom_pct": 50.0,
+        "qo_pct": 1.43,
+        "bench_pct": 5.71,
+        "d_top_pct": 1.43,
+        "l_appl_pct": 7.14,
+        "edy_pct": 8.57,
+        "aiin_pct": 8.57,
+        "dy_pct": 10.0,
+        "am_pct": 1.43
+      },
+      "dominant_section": "H",
+      "section_routing_idf": {
+        "H": 13.477,
+        "A": 2.481,
+        "Z": 2.481,
+        "B": 11.69,
+        "P": 2.481,
+        "S": 13.477
+      },
+      "f66r_shared_idf": 0,
+      "f66r_shared_stems": [],
+      "top_external_folios": [
+        {
+          "folio": "f115v",
+          "section": "S",
+          "idf": 10.997,
+          "shared_stems": [
+            "chda",
+            "fched",
+            "tchd"
+          ]
+        },
+        {
+          "folio": "f95r1",
+          "section": "H",
+          "idf": 5.96,
+          "shared_stems": [
+            "tchd",
+            "tod"
+          ]
+        },
+        {
+          "folio": "f114r",
+          "section": "S",
+          "idf": 5.96,
+          "shared_stems": [
+            "fched",
+            "tod"
+          ]
+        }
+      ],
+      "sample_eva": "adashgasain cfair ooly okody okos or air oteoteedy",
+      "sample_gloss": "BARE[ADASHGASA]:DOSE_AIIN BARE[CFAI]:SOURCE_R NOM_SPEC[OL]:STATE_Y NOM_SPEC[OD]:PERF_DONE NOM_SPEC[OS]:ROOT BARE[OR]:SOURCE_R BARE[AI]:SOURCE_R NOM_SPEC[EOT]:PROC_SIMMER"
+    },
+    {
+      "zone": "CIRCLE_8_E",
+      "n_lines": 5,
+      "loci": [
+        "@Cc",
+        "@L0"
+      ],
+      "metrics": {
+        "n_tokens": 36,
+        "n_unique_stems": 23,
+        "mean_len": 5.222,
+        "o_nom_pct": 55.56,
+        "qo_pct": 5.56,
+        "bench_pct": 16.67,
+        "d_top_pct": 2.78,
+        "l_appl_pct": 2.78,
+        "edy_pct": 13.89,
+        "aiin_pct": 2.78,
+        "dy_pct": 16.67,
+        "am_pct": 2.78
+      },
+      "dominant_section": "S",
+      "section_routing_idf": {
+        "H": 15.448,
+        "A": 0,
+        "Z": 6.419,
+        "B": 15.448,
+        "P": 2.592,
+        "S": 19.081
+      },
+      "f66r_shared_idf": 13.262,
+      "f66r_shared_stems": [
+        "kar",
+        "ad",
+        "far",
+        "fchd"
+      ],
+      "top_external_folios": [
+        {
+          "folio": "f66r",
+          "section": "T",
+          "idf": 13.262,
+          "shared_stems": [
+            "fchd",
+            "far",
+            "kar",
+            "ad"
+          ]
+        },
+        {
+          "folio": "f107r",
+          "section": "S",
+          "idf": 8.605,
+          "shared_stems": [
+            "eyk",
+            "ad",
+            "fo"
+          ]
+        },
+        {
+          "folio": "f95v1",
+          "section": "H",
+          "idf": 7.043,
+          "shared_stems": [
+            "fchd",
+            "eyk"
+          ]
+        }
+      ],
+      "sample_eva": "yke okees olchedy okal dol otodar shekalolkar cheykar",
+      "sample_gloss": "NOM_SPEC[KE]:ROOT NOM_SPEC[EE]:ROOT APPL_VESSEL[CH]:PROC_SIMMER NOM_SPEC[AL]:FLUID_L TOP_LOC[OL]:FLUID_L NOM_SPEC[OD]:SOURCE_R HERB_BENCH[EKALOLK]:SOURCE_R HERB_BENCH[EYK]:SOURCE_R"
+    },
+    {
+      "zone": "CIRCLE_9_SE",
+      "n_lines": 6,
+      "loci": [
+        "@Cc",
+        "@L0"
+      ],
+      "metrics": {
+        "n_tokens": 34,
+        "n_unique_stems": 25,
+        "mean_len": 5.265,
+        "o_nom_pct": 67.65,
+        "qo_pct": 0.0,
+        "bench_pct": 14.71,
+        "d_top_pct": 2.94,
+        "l_appl_pct": 5.88,
+        "edy_pct": 0.0,
+        "aiin_pct": 14.71,
+        "dy_pct": 5.88,
+        "am_pct": 8.82
+      },
+      "dominant_section": "S",
+      "section_routing_idf": {
+        "H": 2.94,
+        "A": 2.94,
+        "Z": 2.94,
+        "B": 2.94,
+        "P": 4.732,
+        "S": 7.672
+      },
+      "f66r_shared_idf": 0,
+      "f66r_shared_stems": [],
+      "top_external_folios": [
+        {
+          "folio": "f99v",
+          "section": "P",
+          "idf": 4.732,
+          "shared_stems": [
+            "sar"
+          ]
+        },
+        {
+          "folio": "f108v",
+          "section": "S",
+          "idf": 4.732,
+          "shared_stems": [
+            "alda"
+          ]
+        },
+        {
+          "folio": "f81r",
+          "section": "B",
+          "idf": 2.94,
+          "shared_stems": [
+            "ees"
+          ]
+        }
+      ],
+      "sample_eva": "opodchdal darchdy ok ar ar okary otodeed odar",
+      "sample_gloss": "NOM_SPEC[PODCHD]:FLUID_L TOP_LOC[RCH]:PERF_DONE BARE[OK]:ROOT BARE[AR]:SOURCE_R BARE[AR]:SOURCE_R NOM_SPEC[AR]:STATE_Y NOM_SPEC[ODEED]:ROOT NOM_SPEC[DA]:SOURCE_R"
+    }
+  ],
+  "all_fros_lines": [
+    {
+      "line_id": "1",
+      "loc": "@L0",
+      "zone": "CIRCLE_1_NW",
+      "comments": [
+        "1:11"
+      ],
+      "n_tokens": 1,
+      "eva": "saeeasa",
+      "gloss": "SEQ_CONT[EEASA]:ROOT"
+    },
+    {
+      "line_id": "2",
+      "loc": "@Cc",
+      "zone": "CIRCLE_1_NW",
+      "comments": [
+        "10:30"
+      ],
+      "n_tokens": 33,
+      "eva": "oto tosaes adar otar otes okaiin dal al chdar otdar chefchs okor ol om olkeeodaiin shol okal orshees qoeey okalol otodr ochs ar ol oqokam oteed oteedy okedy lraiin or aiin okor okeedy",
+      "gloss": "NOM_SPEC[TO]:ROOT BARE[TOSAE]:ROOT BARE[AD]:SOURCE_R NOM_SPEC[AR]:SOURCE_R NOM_SPEC[ES]:ROOT NOM_SPEC[AI]:DOSE_AIIN TOP_LOC[AL]:FLUID_L BARE[AL]:FLUID_L HERB_BENCH[DA]:SOURCE_R NOM_SPEC[DA]:SOURCE_R HERB_BENCH[EFCH]:ROOT NOM_SPEC[OR]:SOURCE_R BARE[OL]:FLUID_L BARE[OM]:FINAL_M APPL_VESSEL[KEEOD]:DOSE_AIIN HERB_BENCH[OL]:FLUID_L NOM_SPEC[AL]:FLUID_L FLOW_LIQ[SHEE]:ROOT ACT_BOIL[EE]:STATE_Y NOM_SPEC[AL]:FLUID_L NOM_SPEC[OD]:SOURCE_R NOM_SPEC[CH]:ROOT BARE[AR]:SOURCE_R BARE[OL]:FLUID_L NOM_SPEC[QOK]:FINAL_M NOM_SPEC[EED]:ROOT NOM_SPEC[EE]:PROC_SIMMER NOM_SPEC[ED]:PERF_DONE APPL_VESSEL[RA]:DOSE_AIIN BARE[OR]:SOURCE_R BARE[AI]:DOSE_AIIN NOM_SPEC[OR]:SOURCE_R NOM_SPEC[EE]:PROC_SIMMER"
+    },
+    {
+      "line_id": "3",
+      "loc": "@L0",
+      "zone": "CIRCLE_1_NW",
+      "comments": [
+        "1:1"
+      ],
+      "n_tokens": 2,
+      "eva": "ofain ain",
+      "gloss": "NOM_SPEC[FA]:DOSE_AIIN BARE[AI]:DOSE_AIIN"
+    },
+    {
+      "line_id": "4",
+      "loc": "+L0",
+      "zone": "CIRCLE_1_NW",
+      "comments": [
+        "1:2"
+      ],
+      "n_tokens": 2,
+      "eva": "ych ais",
+      "gloss": "NOM_SPEC[CH]:ROOT BARE[AI]:ROOT"
+    },
+    {
+      "line_id": "5",
+      "loc": "+L0",
+      "zone": "CIRCLE_1_NW",
+      "comments": [
+        "1:3"
+      ],
+      "n_tokens": 1,
+      "eva": "ydekam",
+      "gloss": "NOM_SPEC[DEK]:FINAL_M"
+    },
+    {
+      "line_id": "6",
+      "loc": "+L0",
+      "zone": "CIRCLE_1_NW",
+      "comments": [
+        "1:4"
+      ],
+      "n_tokens": 1,
+      "eva": "darchedy",
+      "gloss": "TOP_LOC[RCH]:PROC_SIMMER"
+    },
+    {
+      "line_id": "7",
+      "loc": "+L0",
+      "zone": "CIRCLE_1_NW",
+      "comments": [
+        "1:5"
+      ],
+      "n_tokens": 2,
+      "eva": "otochedy sy",
+      "gloss": "NOM_SPEC[OCH]:PROC_SIMMER BARE[SY]:STATE_Y"
+    },
+    {
+      "line_id": "8",
+      "loc": "+L0",
+      "zone": "CIRCLE_1_NW",
+      "comments": [
+        "1:6"
+      ],
+      "n_tokens": 2,
+      "eva": "soeedoy olal",
+      "gloss": "SEQ_CONT[OEED]:STATE_Y APPL_VESSEL[AL]:FLUID_L"
+    },
+    {
+      "line_id": "9",
+      "loc": "+L0",
+      "zone": "CIRCLE_1_NW",
+      "comments": [
+        "1:7"
+      ],
+      "n_tokens": 2,
+      "eva": "dchor orary",
+      "gloss": "TOP_LOC[CH]:SOURCE_R FLOW_LIQ[AR]:STATE_Y"
+    },
+    {
+      "line_id": "10",
+      "loc": "+L0",
+      "zone": "CIRCLE_1_NW",
+      "comments": [
+        "1:8"
+      ],
+      "n_tokens": 1,
+      "eva": "sairojam",
+      "gloss": "SEQ_CONT[IROJ]:FINAL_M"
+    },
+    {
+      "line_id": "11",
+      "loc": "@L0",
+      "zone": "CIRCLE_1_NW",
+      "comments": [
+        "1:9"
+      ],
+      "n_tokens": 1,
+      "eva": "okchdarar",
+      "gloss": "NOM_SPEC[CHDAR]:SOURCE_R"
+    },
+    {
+      "line_id": "12",
+      "loc": "@L0",
+      "zone": "CIRCLE_2_W",
+      "comments": [
+        "2:9"
+      ],
+      "n_tokens": 1,
+      "eva": "soiindy",
+      "gloss": "SEQ_CONT[OIIN]:PERF_DONE"
+    },
+    {
+      "line_id": "13",
+      "loc": "@L0",
+      "zone": "CIRCLE_2_W",
+      "comments": [
+        "2:10"
+      ],
+      "n_tokens": 1,
+      "eva": "ytedar",
+      "gloss": "NOM_SPEC[ED]:SOURCE_R"
+    },
+    {
+      "line_id": "14",
+      "loc": "@L0",
+      "zone": "CIRCLE_2_W",
+      "comments": [
+        "2:11"
+      ],
+      "n_tokens": 1,
+      "eva": "ddsschx",
+      "gloss": "TOP_LOC[DSSCHX]:ROOT"
+    },
+    {
+      "line_id": "15",
+      "loc": "@L0",
+      "zone": "CIRCLE_2_W",
+      "comments": [
+        "2:13"
+      ],
+      "n_tokens": 1,
+      "eva": "daldar",
+      "gloss": "TOP_LOC[LD]:SOURCE_R"
+    },
+    {
+      "line_id": "16",
+      "loc": "@L0",
+      "zone": "CIRCLE_2_W",
+      "comments": [
+        "2:12"
+      ],
+      "n_tokens": 1,
+      "eva": "ofardy",
+      "gloss": "NOM_SPEC[FAR]:PERF_DONE"
+    },
+    {
+      "line_id": "17",
+      "loc": "@L0",
+      "zone": "CIRCLE_1_NW",
+      "comments": [
+        "1:10"
+      ],
+      "n_tokens": 1,
+      "eva": "orarol",
+      "gloss": "FLOW_LIQ[AR]:FLUID_L"
+    },
+    {
+      "line_id": "18",
+      "loc": "@L0",
+      "zone": "CIRCLE_4_N",
+      "comments": [
+        "4:1"
+      ],
+      "n_tokens": 1,
+      "eva": "daldal",
+      "gloss": "TOP_LOC[LD]:FLUID_L"
+    },
+    {
+      "line_id": "19",
+      "loc": "@L0",
+      "zone": "CIRCLE_4_N",
+      "comments": [
+        "4:2"
+      ],
+      "n_tokens": 1,
+      "eva": "daraldy",
+      "gloss": "TOP_LOC[RAL]:PERF_DONE"
+    },
+    {
+      "line_id": "20",
+      "loc": "@Cc",
+      "zone": "CIRCLE_4_N",
+      "comments": [
+        "05:00"
+      ],
+      "n_tokens": 40,
+      "eva": "sais od ar or okal okal or alal ykal ol ar ol al ol al lor okan okod oked okeo ldy opashs otedy chedchs sheekedy odal shd olkeedy yky kaiir okchdy otol ar yaiin aiir oeal okchdy olyokain olkaiin ody",
+      "gloss": "SEQ_CONT[IS]:ROOT BARE[OD]:ROOT BARE[AR]:SOURCE_R BARE[OR]:SOURCE_R NOM_SPEC[AL]:FLUID_L NOM_SPEC[AL]:FLUID_L BARE[OR]:SOURCE_R APPL_VESSEL[AL]:FLUID_L NOM_SPEC[AL]:FLUID_L BARE[OL]:FLUID_L BARE[AR]:SOURCE_R BARE[OL]:FLUID_L BARE[AL]:FLUID_L BARE[OL]:FLUID_L BARE[AL]:FLUID_L APPL_VESSEL[OR]:SOURCE_R NOM_SPEC[AN]:ROOT NOM_SPEC[OD]:ROOT NOM_SPEC[ED]:ROOT NOM_SPEC[EO]:ROOT APPL_VESSEL[DY]:STATE_Y NOM_SPEC[PASH]:ROOT NOM_SPEC[ED]:PERF_DONE HERB_BENCH[EDCH]:ROOT HERB_BENCH[EEK]:PROC_SIMMER NOM_SPEC[DA]:FLUID_L SEQ_CONT[HD]:ROOT APPL_VESSEL[KE]:PROC_SIMMER NOM_SPEC[KY]:STATE_Y BARE[KAII]:SOURCE_R NOM_SPEC[CH]:PERF_DONE NOM_SPEC[OL]:FLUID_L BARE[AR]:SOURCE_R NOM_SPEC[AI]:DOSE_AIIN BARE[AII]:SOURCE_R NOM_SPEC[EA]:FLUID_L NOM_SPEC[CH]:PERF_DONE APPL_VESSEL[YOKA]:DOSE_AIIN APPL_VESSEL[KA]:DOSE_AIIN NOM_SPEC[DY]:STATE_Y"
+    },
+    {
+      "line_id": "21",
+      "loc": "@L0",
+      "zone": "CIRCLE_4_N",
+      "comments": [
+        "4:3"
+      ],
+      "n_tokens": 1,
+      "eva": "oko",
+      "gloss": "NOM_SPEC[KO]:ROOT"
+    },
+    {
+      "line_id": "22",
+      "loc": "@L0",
+      "zone": "CIRCLE_4_N",
+      "comments": [
+        "4:4"
+      ],
+      "n_tokens": 1,
+      "eva": "daiiny",
+      "gloss": "TOP_LOC[IIN]:STATE_Y"
+    },
+    {
+      "line_id": "23",
+      "loc": "@L0",
+      "zone": "CIRCLE_4_N",
+      "comments": [
+        "4:5"
+      ],
+      "n_tokens": 1,
+      "eva": "doy",
+      "gloss": "TOP_LOC[OY]:STATE_Y"
+    },
+    {
+      "line_id": "24",
+      "loc": "@L0",
+      "zone": "CIRCLE_4_N",
+      "comments": [
+        "4:6"
+      ],
+      "n_tokens": 1,
+      "eva": "okedy",
+      "gloss": "NOM_SPEC[ED]:PERF_DONE"
+    },
+    {
+      "line_id": "25",
+      "loc": "@L0",
+      "zone": "CIRCLE_4_N",
+      "comments": [
+        "4:7"
+      ],
+      "n_tokens": 1,
+      "eva": "okary",
+      "gloss": "NOM_SPEC[AR]:STATE_Y"
+    },
+    {
+      "line_id": "26",
+      "loc": "@L0",
+      "zone": "CIRCLE_4_N",
+      "comments": [
+        "4:8"
+      ],
+      "n_tokens": 1,
+      "eva": "opain",
+      "gloss": "NOM_SPEC[PA]:DOSE_AIIN"
+    },
+    {
+      "line_id": "27",
+      "loc": "@L0",
+      "zone": "CIRCLE_4_N",
+      "comments": [
+        "4:9"
+      ],
+      "n_tokens": 1,
+      "eva": "opar",
+      "gloss": "NOM_SPEC[PA]:SOURCE_R"
+    },
+    {
+      "line_id": "28",
+      "loc": "@L0",
+      "zone": "CIRCLE_4_N",
+      "comments": [
+        "4:10"
+      ],
+      "n_tokens": 1,
+      "eva": "adairy",
+      "gloss": "BARE[ADAIR]:STATE_Y"
+    },
+    {
+      "line_id": "29",
+      "loc": "@L0",
+      "zone": "CIRCLE_4_N",
+      "comments": [
+        "4:11"
+      ],
+      "n_tokens": 1,
+      "eva": "dxar",
+      "gloss": "TOP_LOC[XA]:SOURCE_R"
+    },
+    {
+      "line_id": "30",
+      "loc": "@L0",
+      "zone": "CIRCLE_4_N",
+      "comments": [
+        "4:12"
+      ],
+      "n_tokens": 1,
+      "eva": "okory",
+      "gloss": "NOM_SPEC[OR]:STATE_Y"
+    },
+    {
+      "line_id": "31",
+      "loc": "@L0",
+      "zone": "CIRCLE_4_N",
+      "comments": [
+        "4:13"
+      ],
+      "n_tokens": 1,
+      "eva": "opokchosody",
+      "gloss": "NOM_SPEC[POKCHOS]:PERF_DONE"
+    },
+    {
+      "line_id": "32",
+      "loc": "@L0",
+      "zone": "CIRCLE_7_NE",
+      "comments": [
+        "7:12"
+      ],
+      "n_tokens": 1,
+      "eva": "adashgasain",
+      "gloss": "BARE[ADASHGASA]:DOSE_AIIN"
+    },
+    {
+      "line_id": "33",
+      "loc": "@L0",
+      "zone": "CIRCLE_7_NE",
+      "comments": [
+        "7:13"
+      ],
+      "n_tokens": 2,
+      "eva": "cfair ooly",
+      "gloss": "BARE[CFAI]:SOURCE_R NOM_SPEC[OL]:STATE_Y"
+    },
+    {
+      "line_id": "34",
+      "loc": "@L0",
+      "zone": "CIRCLE_7_NE",
+      "comments": [
+        "7:1"
+      ],
+      "n_tokens": 1,
+      "eva": "okody",
+      "gloss": "NOM_SPEC[OD]:PERF_DONE"
+    },
+    {
+      "line_id": "35",
+      "loc": "@Cc",
+      "zone": "CIRCLE_7_NE",
+      "comments": [
+        "00:00"
+      ],
+      "n_tokens": 33,
+      "eva": "okos or air oteoteedy otos otedar ches okodainol ykedy eedor tchdaiin sy sarald todar chkar odair or oal okchdy seedy oteedy ykchda cheky aiin okees olar or ykeedy okeo lodaiin or olaiiin olar",
+      "gloss": "NOM_SPEC[OS]:ROOT BARE[OR]:SOURCE_R BARE[AI]:SOURCE_R NOM_SPEC[EOT]:PROC_SIMMER NOM_SPEC[OS]:ROOT NOM_SPEC[ED]:SOURCE_R HERB_BENCH[ES]:ROOT NOM_SPEC[ODAIN]:FLUID_L NOM_SPEC[ED]:PERF_DONE BARE[EED]:SOURCE_R BARE[TCHD]:DOSE_AIIN BARE[SY]:STATE_Y SEQ_CONT[RALD]:ROOT BARE[TOD]:SOURCE_R HERB_BENCH[KA]:SOURCE_R NOM_SPEC[DAI]:SOURCE_R BARE[OR]:SOURCE_R NOM_SPEC[AL]:FLUID_L NOM_SPEC[CH]:PERF_DONE SEQ_CONT[EE]:PROC_SIMMER NOM_SPEC[EE]:PROC_SIMMER NOM_SPEC[CHDA]:ROOT HERB_BENCH[EK]:STATE_Y BARE[AI]:DOSE_AIIN NOM_SPEC[EE]:ROOT APPL_VESSEL[AR]:SOURCE_R BARE[OR]:SOURCE_R NOM_SPEC[EE]:PROC_SIMMER NOM_SPEC[EO]:ROOT APPL_VESSEL[OD]:DOSE_AIIN BARE[OR]:SOURCE_R APPL_VESSEL[AI]:DOSE_AIIN APPL_VESSEL[AR]:SOURCE_R"
+    },
+    {
+      "line_id": "36",
+      "loc": "@Cc",
+      "zone": "CIRCLE_7_NE",
+      "comments": [
+        "Spiral"
+      ],
+      "n_tokens": 16,
+      "eva": "oochs octhey osar aram arkeeody ochdor ol oekairy ytodaro opalshy or arodar ykodar ykodar ykary opalxy",
+      "gloss": "NOM_SPEC[OCH]:ROOT NOM_SPEC[CTH]:STATE_Y NOM_SPEC[SA]:SOURCE_R FLOW_LIQ[AM]:FINAL_M FLOW_LIQ[KEE]:PERF_DONE NOM_SPEC[CHD]:SOURCE_R BARE[OL]:FLUID_L NOM_SPEC[EKAIR]:STATE_Y NOM_SPEC[ODARO]:ROOT NOM_SPEC[PALSH]:STATE_Y BARE[OR]:SOURCE_R FLOW_LIQ[OD]:SOURCE_R NOM_SPEC[OD]:SOURCE_R NOM_SPEC[OD]:SOURCE_R NOM_SPEC[AR]:STATE_Y NOM_SPEC[PALX]:STATE_Y"
+    },
+    {
+      "line_id": "37",
+      "loc": "@L0",
+      "zone": "CIRCLE_7_NE",
+      "comments": [
+        "7:10"
+      ],
+      "n_tokens": 2,
+      "eva": "opoor daly",
+      "gloss": "NOM_SPEC[PO]:SOURCE_R TOP_LOC[LY]:STATE_Y"
+    },
+    {
+      "line_id": "38",
+      "loc": "@L0",
+      "zone": "CIRCLE_7_NE",
+      "comments": [
+        "7:7"
+      ],
+      "n_tokens": 2,
+      "eva": "okas oedady",
+      "gloss": "NOM_SPEC[AS]:ROOT NOM_SPEC[ED]:PERF_DONE"
+    },
+    {
+      "line_id": "39",
+      "loc": "@Pb",
+      "zone": "CIRCLE_7_NE",
+      "comments": [
+        "7:5"
+      ],
+      "n_tokens": 3,
+      "eva": "kechy qolchedar ar",
+      "gloss": "BARE[KECH]:STATE_Y ACT_BOIL[CHED]:SOURCE_R BARE[AR]:SOURCE_R"
+    },
+    {
+      "line_id": "40",
+      "loc": "+Pb",
+      "zone": "CIRCLE_7_NE",
+      "comments": [
+        "7:6"
+      ],
+      "n_tokens": 3,
+      "eva": "otedy chdaiin oty",
+      "gloss": "NOM_SPEC[ED]:PERF_DONE HERB_BENCH[DA]:DOSE_AIIN NOM_SPEC[TY]:STATE_Y"
+    },
+    {
+      "line_id": "41",
+      "loc": "@L0",
+      "zone": "CIRCLE_7_NE",
+      "comments": [
+        "7:3"
+      ],
+      "n_tokens": 1,
+      "eva": "osal",
+      "gloss": "NOM_SPEC[SA]:FLUID_L"
+    },
+    {
+      "line_id": "42",
+      "loc": "@L0",
+      "zone": "CIRCLE_7_NE",
+      "comments": [
+        "7:2"
+      ],
+      "n_tokens": 1,
+      "eva": "eey",
+      "gloss": "BARE[EE]:STATE_Y"
+    },
+    {
+      "line_id": "43",
+      "loc": "@L0",
+      "zone": "CIRCLE_7_NE",
+      "comments": [
+        "7:4"
+      ],
+      "n_tokens": 1,
+      "eva": "okor",
+      "gloss": "NOM_SPEC[OR]:SOURCE_R"
+    },
+    {
+      "line_id": "44",
+      "loc": "@L0",
+      "zone": "CIRCLE_7_NE",
+      "comments": [
+        "7:8"
+      ],
+      "n_tokens": 1,
+      "eva": "sarchcphdy",
+      "gloss": "SEQ_CONT[RCHCPH]:PERF_DONE"
+    },
+    {
+      "line_id": "45",
+      "loc": "@L0",
+      "zone": "CIRCLE_7_NE",
+      "comments": [
+        "7:9"
+      ],
+      "n_tokens": 2,
+      "eva": "otchdy otoldy",
+      "gloss": "NOM_SPEC[CH]:PERF_DONE NOM_SPEC[OL]:PERF_DONE"
+    },
+    {
+      "line_id": "46",
+      "loc": "@L0",
+      "zone": "CIRCLE_7_NE",
+      "comments": [
+        "7:11"
+      ],
+      "n_tokens": 1,
+      "eva": "ofchedaiin",
+      "gloss": "NOM_SPEC[FCHED]:DOSE_AIIN"
+    },
+    {
+      "line_id": "47",
+      "loc": "@Cc",
+      "zone": "CIRCLE_2_W",
+      "comments": [
+        "10:30"
+      ],
+      "n_tokens": 30,
+      "eva": "osar otar otodeedy oty daiin sheor oar otedy qotedy oteey otoraiin chekadr ol aiin okedal olor opoiiral eeealky ytar qokeo tched oiin oteedaiin odal cheky otchdor or olkoaiin okal laiin",
+      "gloss": "NOM_SPEC[SA]:SOURCE_R NOM_SPEC[AR]:SOURCE_R NOM_SPEC[OD]:PROC_SIMMER NOM_SPEC[TY]:STATE_Y TOP_LOC[II]:DOSE_AIIN HERB_BENCH[EO]:SOURCE_R NOM_SPEC[AR]:SOURCE_R NOM_SPEC[ED]:PERF_DONE ACT_BOIL[ED]:PERF_DONE NOM_SPEC[EE]:STATE_Y NOM_SPEC[OR]:DOSE_AIIN HERB_BENCH[EKAD]:SOURCE_R BARE[OL]:FLUID_L BARE[AI]:DOSE_AIIN NOM_SPEC[ED]:FLUID_L APPL_VESSEL[OR]:SOURCE_R NOM_SPEC[POIIR]:FLUID_L BARE[EEEALK]:STATE_Y NOM_SPEC[AR]:SOURCE_R ACT_BOIL[EO]:ROOT BARE[TCHED]:ROOT NOM_SPEC[II]:DOSE_AIIN NOM_SPEC[EED]:DOSE_AIIN NOM_SPEC[DA]:FLUID_L HERB_BENCH[EK]:STATE_Y NOM_SPEC[CHD]:SOURCE_R BARE[OR]:SOURCE_R APPL_VESSEL[KO]:DOSE_AIIN NOM_SPEC[AL]:FLUID_L APPL_VESSEL[AI]:DOSE_AIIN"
+    },
+    {
+      "line_id": "48",
+      "loc": "@L0",
+      "zone": "CIRCLE_2_W",
+      "comments": [
+        "2:1"
+      ],
+      "n_tokens": 1,
+      "eva": "otedal",
+      "gloss": "NOM_SPEC[ED]:FLUID_L"
+    },
+    {
+      "line_id": "49",
+      "loc": "@L0",
+      "zone": "CIRCLE_2_W",
+      "comments": [
+        "2:2"
+      ],
+      "n_tokens": 1,
+      "eva": "opaiin",
+      "gloss": "NOM_SPEC[PA]:DOSE_AIIN"
+    },
+    {
+      "line_id": "50",
+      "loc": "@L0",
+      "zone": "CIRCLE_2_W",
+      "comments": [
+        "2:3"
+      ],
+      "n_tokens": 1,
+      "eva": "otchdy",
+      "gloss": "NOM_SPEC[CH]:PERF_DONE"
+    },
+    {
+      "line_id": "51",
+      "loc": "@L0",
+      "zone": "CIRCLE_2_W",
+      "comments": [
+        "2:4"
+      ],
+      "n_tokens": 1,
+      "eva": "okchy",
+      "gloss": "NOM_SPEC[CH]:STATE_Y"
+    },
+    {
+      "line_id": "52",
+      "loc": "@L0",
+      "zone": "CIRCLE_2_W",
+      "comments": [
+        "2:5"
+      ],
+      "n_tokens": 1,
+      "eva": "chkeedy",
+      "gloss": "HERB_BENCH[KE]:PROC_SIMMER"
+    },
+    {
+      "line_id": "53",
+      "loc": "@L0",
+      "zone": "CIRCLE_2_W",
+      "comments": [
+        "2:6"
+      ],
+      "n_tokens": 1,
+      "eva": "opairar",
+      "gloss": "NOM_SPEC[PAIR]:SOURCE_R"
+    },
+    {
+      "line_id": "54",
+      "loc": "@L0",
+      "zone": "CIRCLE_2_W",
+      "comments": [
+        "2:7"
+      ],
+      "n_tokens": 1,
+      "eva": "odeey",
+      "gloss": "NOM_SPEC[DE]:STATE_Y"
+    },
+    {
+      "line_id": "55",
+      "loc": "@L0",
+      "zone": "CIRCLE_2_W",
+      "comments": [
+        "2:8"
+      ],
+      "n_tokens": 1,
+      "eva": "okody",
+      "gloss": "NOM_SPEC[OD]:PERF_DONE"
+    },
+    {
+      "line_id": "56",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:22"
+      ],
+      "n_tokens": 1,
+      "eva": "depcheky",
+      "gloss": "TOP_LOC[EPCHEK]:STATE_Y"
+    },
+    {
+      "line_id": "57",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:23"
+      ],
+      "n_tokens": 1,
+      "eva": "otch",
+      "gloss": "NOM_SPEC[CH]:ROOT"
+    },
+    {
+      "line_id": "58",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:24"
+      ],
+      "n_tokens": 1,
+      "eva": "osy",
+      "gloss": "NOM_SPEC[SY]:STATE_Y"
+    },
+    {
+      "line_id": "59",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:25"
+      ],
+      "n_tokens": 1,
+      "eva": "odl",
+      "gloss": "NOM_SPEC[DL]:FLUID_L"
+    },
+    {
+      "line_id": "60",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:26"
+      ],
+      "n_tokens": 1,
+      "eva": "dy",
+      "gloss": "BARE[DY]:STATE_Y"
+    },
+    {
+      "line_id": "61",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:27"
+      ],
+      "n_tokens": 1,
+      "eva": "oteey",
+      "gloss": "NOM_SPEC[EE]:STATE_Y"
+    },
+    {
+      "line_id": "62",
+      "loc": "@Cc",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "00:00"
+      ],
+      "n_tokens": 39,
+      "eva": "otor os om araiin okeody okar odsheedy odaiin okchdy okar shor okaiin daiin ofair oly olkair odal olkalor olors esha olar oteedaiin otes ar yqos aiiin ol qotody ol oir or oroa oteeedy okal okodar otshe okody otedy chdar",
+      "gloss": "NOM_SPEC[OR]:SOURCE_R BARE[OS]:ROOT BARE[OM]:FINAL_M FLOW_LIQ[AI]:DOSE_AIIN NOM_SPEC[EO]:PERF_DONE NOM_SPEC[AR]:SOURCE_R NOM_SPEC[DSH]:PROC_SIMMER NOM_SPEC[DA]:DOSE_AIIN NOM_SPEC[CH]:PERF_DONE NOM_SPEC[AR]:SOURCE_R HERB_BENCH[OR]:SOURCE_R NOM_SPEC[AI]:DOSE_AIIN TOP_LOC[II]:DOSE_AIIN NOM_SPEC[FAI]:SOURCE_R NOM_SPEC[LY]:STATE_Y APPL_VESSEL[KAI]:SOURCE_R NOM_SPEC[DA]:FLUID_L APPL_VESSEL[KAL]:SOURCE_R APPL_VESSEL[OR]:ROOT BARE[ESHA]:ROOT APPL_VESSEL[AR]:SOURCE_R NOM_SPEC[EED]:DOSE_AIIN NOM_SPEC[ES]:ROOT BARE[AR]:SOURCE_R NOM_SPEC[QO]:ROOT BARE[AI]:DOSE_AIIN BARE[OL]:FLUID_L ACT_BOIL[OD]:PERF_DONE BARE[OL]:FLUID_L NOM_SPEC[IR]:SOURCE_R BARE[OR]:SOURCE_R FLOW_LIQ[OA]:ROOT NOM_SPEC[EE]:PROC_SIMMER NOM_SPEC[AL]:FLUID_L NOM_SPEC[OD]:SOURCE_R NOM_SPEC[SHE]:ROOT NOM_SPEC[OD]:PERF_DONE NOM_SPEC[ED]:PERF_DONE HERB_BENCH[DA]:SOURCE_R"
+    },
+    {
+      "line_id": "63",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:1"
+      ],
+      "n_tokens": 1,
+      "eva": "oteedy",
+      "gloss": "NOM_SPEC[EE]:PROC_SIMMER"
+    },
+    {
+      "line_id": "64",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:2"
+      ],
+      "n_tokens": 1,
+      "eva": "opy",
+      "gloss": "NOM_SPEC[PY]:STATE_Y"
+    },
+    {
+      "line_id": "65",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:3"
+      ],
+      "n_tokens": 1,
+      "eva": "odal",
+      "gloss": "NOM_SPEC[DA]:FLUID_L"
+    },
+    {
+      "line_id": "66",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:4"
+      ],
+      "n_tokens": 1,
+      "eva": "shdy",
+      "gloss": "HERB_BENCH[DY]:STATE_Y"
+    },
+    {
+      "line_id": "67",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:5"
+      ],
+      "n_tokens": 1,
+      "eva": "opchees",
+      "gloss": "NOM_SPEC[PCHEE]:ROOT"
+    },
+    {
+      "line_id": "68",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:6"
+      ],
+      "n_tokens": 1,
+      "eva": "opar",
+      "gloss": "NOM_SPEC[PA]:SOURCE_R"
+    },
+    {
+      "line_id": "69",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:7"
+      ],
+      "n_tokens": 1,
+      "eva": "daral",
+      "gloss": "TOP_LOC[RA]:FLUID_L"
+    },
+    {
+      "line_id": "70",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:8"
+      ],
+      "n_tokens": 2,
+      "eva": "otdodar oedy",
+      "gloss": "NOM_SPEC[DOD]:SOURCE_R NOM_SPEC[ED]:PERF_DONE"
+    },
+    {
+      "line_id": "71",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:9"
+      ],
+      "n_tokens": 2,
+      "eva": "soshxor arar",
+      "gloss": "SEQ_CONT[OSHX]:SOURCE_R FLOW_LIQ[AR]:SOURCE_R"
+    },
+    {
+      "line_id": "72",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:10"
+      ],
+      "n_tokens": 2,
+      "eva": "otedain otedy",
+      "gloss": "NOM_SPEC[EDA]:DOSE_AIIN NOM_SPEC[ED]:PERF_DONE"
+    },
+    {
+      "line_id": "73",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:11"
+      ],
+      "n_tokens": 2,
+      "eva": "ytedar ary",
+      "gloss": "NOM_SPEC[ED]:SOURCE_R BARE[AR]:STATE_Y"
+    },
+    {
+      "line_id": "74",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:12"
+      ],
+      "n_tokens": 1,
+      "eva": "opchedaiin",
+      "gloss": "NOM_SPEC[PCHED]:DOSE_AIIN"
+    },
+    {
+      "line_id": "75",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:13"
+      ],
+      "n_tokens": 1,
+      "eva": "ols",
+      "gloss": "NOM_SPEC[LS]:ROOT"
+    },
+    {
+      "line_id": "76",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:14"
+      ],
+      "n_tokens": 1,
+      "eva": "ypal",
+      "gloss": "BARE[PA]:FLUID_L"
+    },
+    {
+      "line_id": "77",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:15"
+      ],
+      "n_tokens": 1,
+      "eva": "opydsh",
+      "gloss": "NOM_SPEC[PYDSH]:ROOT"
+    },
+    {
+      "line_id": "78",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:16"
+      ],
+      "n_tokens": 1,
+      "eva": "rshy",
+      "gloss": "FLOW_LIQ[RSH]:STATE_Y"
+    },
+    {
+      "line_id": "79",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:17"
+      ],
+      "n_tokens": 1,
+      "eva": "olz",
+      "gloss": "NOM_SPEC[LZ]:ROOT"
+    },
+    {
+      "line_id": "80",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:18"
+      ],
+      "n_tokens": 1,
+      "eva": "dtedg",
+      "gloss": "TOP_LOC[TEDG]:ROOT"
+    },
+    {
+      "line_id": "81",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:19"
+      ],
+      "n_tokens": 1,
+      "eva": "opy",
+      "gloss": "NOM_SPEC[PY]:STATE_Y"
+    },
+    {
+      "line_id": "82",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:20"
+      ],
+      "n_tokens": 1,
+      "eva": "ofdaj",
+      "gloss": "NOM_SPEC[FDAJ]:ROOT"
+    },
+    {
+      "line_id": "83",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:21"
+      ],
+      "n_tokens": 1,
+      "eva": "ddary",
+      "gloss": "TOP_LOC[DAR]:STATE_Y"
+    },
+    {
+      "line_id": "84",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:22"
+      ],
+      "n_tokens": 1,
+      "eva": "otody",
+      "gloss": "NOM_SPEC[OD]:PERF_DONE"
+    },
+    {
+      "line_id": "85",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:23"
+      ],
+      "n_tokens": 1,
+      "eva": "dairdy",
+      "gloss": "TOP_LOC[IR]:PERF_DONE"
+    },
+    {
+      "line_id": "86",
+      "loc": "@L0",
+      "zone": "CIRCLE_5_CENTER",
+      "comments": [
+        "5:24"
+      ],
+      "n_tokens": 1,
+      "eva": "rody",
+      "gloss": "FLOW_LIQ[RO]:PERF_DONE"
+    },
+    {
+      "line_id": "87",
+      "loc": "@Cc",
+      "zone": "CIRCLE_8_E",
+      "comments": [
+        "07:30"
+      ],
+      "n_tokens": 30,
+      "eva": "yke okees olchedy okal dol otodar shekalolkar cheykar shal qokal okchr otar otody otody otody otas chfol okshy okem okar ar okedy okedy okchedy eeekchedy ofchdor qotchdy kar chdar chekolko",
+      "gloss": "NOM_SPEC[KE]:ROOT NOM_SPEC[EE]:ROOT APPL_VESSEL[CH]:PROC_SIMMER NOM_SPEC[AL]:FLUID_L TOP_LOC[OL]:FLUID_L NOM_SPEC[OD]:SOURCE_R HERB_BENCH[EKALOLK]:SOURCE_R HERB_BENCH[EYK]:SOURCE_R HERB_BENCH[AL]:FLUID_L ACT_BOIL[AL]:FLUID_L NOM_SPEC[CH]:SOURCE_R NOM_SPEC[AR]:SOURCE_R NOM_SPEC[OD]:PERF_DONE NOM_SPEC[OD]:PERF_DONE NOM_SPEC[OD]:PERF_DONE NOM_SPEC[AS]:ROOT HERB_BENCH[FO]:FLUID_L NOM_SPEC[SH]:STATE_Y NOM_SPEC[EM]:FINAL_M NOM_SPEC[AR]:SOURCE_R BARE[AR]:SOURCE_R NOM_SPEC[ED]:PERF_DONE NOM_SPEC[ED]:PERF_DONE NOM_SPEC[CH]:PROC_SIMMER BARE[EEEKCH]:PROC_SIMMER NOM_SPEC[FCHD]:SOURCE_R ACT_BOIL[CH]:PERF_DONE BARE[KA]:SOURCE_R HERB_BENCH[DA]:SOURCE_R HERB_BENCH[EKOLKO]:ROOT"
+    },
+    {
+      "line_id": "88",
+      "loc": "@L0",
+      "zone": "CIRCLE_8_E",
+      "comments": [
+        "8:1"
+      ],
+      "n_tokens": 1,
+      "eva": "ofary",
+      "gloss": "NOM_SPEC[FAR]:STATE_Y"
+    },
+    {
+      "line_id": "89",
+      "loc": "@L0",
+      "zone": "CIRCLE_8_E",
+      "comments": [
+        "8:2"
+      ],
+      "n_tokens": 1,
+      "eva": "okady",
+      "gloss": "NOM_SPEC[AD]:PERF_DONE"
+    },
+    {
+      "line_id": "90",
+      "loc": "@L0",
+      "zone": "CIRCLE_8_E",
+      "comments": [
+        "8:3"
+      ],
+      "n_tokens": 2,
+      "eva": "okchdy kary",
+      "gloss": "NOM_SPEC[CH]:PERF_DONE BARE[KAR]:STATE_Y"
+    },
+    {
+      "line_id": "91",
+      "loc": "@L0",
+      "zone": "CIRCLE_8_E",
+      "comments": [
+        "8:4"
+      ],
+      "n_tokens": 2,
+      "eva": "oraiin eey",
+      "gloss": "FLOW_LIQ[AI]:DOSE_AIIN BARE[EE]:STATE_Y"
+    },
+    {
+      "line_id": "92",
+      "loc": "@L0",
+      "zone": "CIRCLE_9_SE",
+      "comments": [
+        "9:3"
+      ],
+      "n_tokens": 1,
+      "eva": "opodchdal",
+      "gloss": "NOM_SPEC[PODCHD]:FLUID_L"
+    },
+    {
+      "line_id": "93",
+      "loc": "@L0",
+      "zone": "CIRCLE_9_SE",
+      "comments": [
+        "9:2"
+      ],
+      "n_tokens": 1,
+      "eva": "darchdy",
+      "gloss": "TOP_LOC[RCH]:PERF_DONE"
+    },
+    {
+      "line_id": "94",
+      "loc": "@Cc",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "07:30"
+      ],
+      "n_tokens": 31,
+      "eva": "otchdaiin otodar otedar otar odaiin olkaiin otl xasashe ol ar ae chedaiin ockhedy sheda otody okedal or aiin otody toor chepar ol chckhy opchdar al xar opor olchedy okalm or afalairidy",
+      "gloss": "NOM_SPEC[CHD]:DOSE_AIIN NOM_SPEC[OD]:SOURCE_R NOM_SPEC[ED]:SOURCE_R NOM_SPEC[AR]:SOURCE_R NOM_SPEC[DA]:DOSE_AIIN APPL_VESSEL[KA]:DOSE_AIIN NOM_SPEC[TL]:FLUID_L BARE[XASASHE]:ROOT BARE[OL]:FLUID_L BARE[AR]:SOURCE_R BARE[AE]:ROOT HERB_BENCH[ED]:DOSE_AIIN NOM_SPEC[CKH]:PROC_SIMMER HERB_BENCH[EDA]:ROOT NOM_SPEC[OD]:PERF_DONE NOM_SPEC[ED]:FLUID_L BARE[OR]:SOURCE_R BARE[AI]:DOSE_AIIN NOM_SPEC[OD]:PERF_DONE BARE[TO]:SOURCE_R HERB_BENCH[EP]:SOURCE_R BARE[OL]:FLUID_L HERB_BENCH[CKH]:STATE_Y NOM_SPEC[PCHD]:SOURCE_R BARE[AL]:FLUID_L BARE[XA]:SOURCE_R NOM_SPEC[PO]:SOURCE_R APPL_VESSEL[CH]:PROC_SIMMER NOM_SPEC[AL]:FINAL_M BARE[OR]:SOURCE_R BARE[AFALAIRI]:PERF_DONE"
+    },
+    {
+      "line_id": "95",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:5"
+      ],
+      "n_tokens": 1,
+      "eva": "okaramal",
+      "gloss": "NOM_SPEC[ARAM]:FLUID_L"
+    },
+    {
+      "line_id": "96",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:6"
+      ],
+      "n_tokens": 1,
+      "eva": "opchdy",
+      "gloss": "NOM_SPEC[PCH]:PERF_DONE"
+    },
+    {
+      "line_id": "97",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:7"
+      ],
+      "n_tokens": 1,
+      "eva": "ofdoram",
+      "gloss": "NOM_SPEC[FDOR]:FINAL_M"
+    },
+    {
+      "line_id": "98",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:8"
+      ],
+      "n_tokens": 1,
+      "eva": "oda",
+      "gloss": "NOM_SPEC[DA]:ROOT"
+    },
+    {
+      "line_id": "99",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:16"
+      ],
+      "n_tokens": 1,
+      "eva": "ofchdar",
+      "gloss": "NOM_SPEC[FCHD]:SOURCE_R"
+    },
+    {
+      "line_id": "100",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:9"
+      ],
+      "n_tokens": 1,
+      "eva": "otedam",
+      "gloss": "NOM_SPEC[ED]:FINAL_M"
+    },
+    {
+      "line_id": "101",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:10"
+      ],
+      "n_tokens": 1,
+      "eva": "lokedshs",
+      "gloss": "APPL_VESSEL[OKEDSH]:ROOT"
+    },
+    {
+      "line_id": "102",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:11"
+      ],
+      "n_tokens": 1,
+      "eva": "otodar",
+      "gloss": "NOM_SPEC[OD]:SOURCE_R"
+    },
+    {
+      "line_id": "103",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:12"
+      ],
+      "n_tokens": 1,
+      "eva": "otedaiin",
+      "gloss": "NOM_SPEC[ED]:DOSE_AIIN"
+    },
+    {
+      "line_id": "104",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:13"
+      ],
+      "n_tokens": 1,
+      "eva": "okedy",
+      "gloss": "NOM_SPEC[ED]:PERF_DONE"
+    },
+    {
+      "line_id": "105",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:14"
+      ],
+      "n_tokens": 1,
+      "eva": "xoltedy",
+      "gloss": "BARE[XOLT]:PROC_SIMMER"
+    },
+    {
+      "line_id": "106",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:15"
+      ],
+      "n_tokens": 1,
+      "eva": "opchdam",
+      "gloss": "NOM_SPEC[PCHD]:FINAL_M"
+    },
+    {
+      "line_id": "107",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:19"
+      ],
+      "n_tokens": 2,
+      "eva": "otedy oporam",
+      "gloss": "NOM_SPEC[ED]:PERF_DONE NOM_SPEC[POR]:FINAL_M"
+    },
+    {
+      "line_id": "108",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:17"
+      ],
+      "n_tokens": 1,
+      "eva": "otchdy",
+      "gloss": "NOM_SPEC[CH]:PERF_DONE"
+    },
+    {
+      "line_id": "109",
+      "loc": "+L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:18"
+      ],
+      "n_tokens": 1,
+      "eva": "otody",
+      "gloss": "NOM_SPEC[OD]:PERF_DONE"
+    },
+    {
+      "line_id": "110",
+      "loc": "/L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:20"
+      ],
+      "n_tokens": 1,
+      "eva": "chdain",
+      "gloss": "HERB_BENCH[DA]:DOSE_AIIN"
+    },
+    {
+      "line_id": "111",
+      "loc": "+L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:21"
+      ],
+      "n_tokens": 1,
+      "eva": "otedy",
+      "gloss": "NOM_SPEC[ED]:PERF_DONE"
+    },
+    {
+      "line_id": "112",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "left of clock"
+      ],
+      "n_tokens": 1,
+      "eva": "opaefchdy",
+      "gloss": "NOM_SPEC[PAEFCH]:PERF_DONE"
+    },
+    {
+      "line_id": "113",
+      "loc": "=Cc",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "above clock",
+        "08:00"
+      ],
+      "n_tokens": 3,
+      "eva": "sar odaiin or",
+      "gloss": "SEQ_CONT[AR]:SOURCE_R NOM_SPEC[DA]:DOSE_AIIN BARE[OR]:SOURCE_R"
+    },
+    {
+      "line_id": "114",
+      "loc": "+Ca",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "below clock",
+        "06:30"
+      ],
+      "n_tokens": 2,
+      "eva": "dar aiird",
+      "gloss": "TOP_LOC[AR]:SOURCE_R BARE[AIIRD]:ROOT"
+    },
+    {
+      "line_id": "115",
+      "loc": "=L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "right of clock"
+      ],
+      "n_tokens": 1,
+      "eva": "oteoly",
+      "gloss": "NOM_SPEC[EOL]:STATE_Y"
+    },
+    {
+      "line_id": "116",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:1"
+      ],
+      "n_tokens": 1,
+      "eva": "ofodady",
+      "gloss": "NOM_SPEC[FOD]:PERF_DONE"
+    },
+    {
+      "line_id": "117",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:2"
+      ],
+      "n_tokens": 1,
+      "eva": "opdady",
+      "gloss": "NOM_SPEC[PD]:PERF_DONE"
+    },
+    {
+      "line_id": "118",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:3"
+      ],
+      "n_tokens": 1,
+      "eva": "otodey",
+      "gloss": "NOM_SPEC[OD]:STATE_Y"
+    },
+    {
+      "line_id": "119",
+      "loc": "@L0",
+      "zone": "CIRCLE_3_SW",
+      "comments": [
+        "3:4"
+      ],
+      "n_tokens": 1,
+      "eva": "otodedy",
+      "gloss": "NOM_SPEC[OD]:PROC_SIMMER"
+    },
+    {
+      "line_id": "120",
+      "loc": "@L0",
+      "zone": "CIRCLE_6_S",
+      "comments": [
+        "6:1"
+      ],
+      "n_tokens": 1,
+      "eva": "opchdain",
+      "gloss": "NOM_SPEC[PCHDA]:DOSE_AIIN"
+    },
+    {
+      "line_id": "121",
+      "loc": "@L0",
+      "zone": "CIRCLE_6_S",
+      "comments": [
+        "6:2"
+      ],
+      "n_tokens": 2,
+      "eva": "otdar shed",
+      "gloss": "NOM_SPEC[DA]:SOURCE_R HERB_BENCH[ED]:ROOT"
+    },
+    {
+      "line_id": "122",
+      "loc": "@Cc",
+      "zone": "CIRCLE_6_S",
+      "comments": [
+        "06:30"
+      ],
+      "n_tokens": 32,
+      "eva": "okedar okody okair chedy opar ol keeedy ar olkchedy otedaiin olky or aiin ody osain xdar odaiin okedal ol ar oekaiin al saldan oteedy otchdaiin otedy otar aiin yky odaiin okal okalar",
+      "gloss": "NOM_SPEC[ED]:SOURCE_R NOM_SPEC[OD]:PERF_DONE NOM_SPEC[AI]:SOURCE_R HERB_BENCH[ED]:PERF_DONE NOM_SPEC[PA]:SOURCE_R BARE[OL]:FLUID_L BARE[KE]:PROC_SIMMER BARE[AR]:SOURCE_R APPL_VESSEL[KCH]:PROC_SIMMER NOM_SPEC[ED]:DOSE_AIIN APPL_VESSEL[KY]:STATE_Y BARE[OR]:SOURCE_R BARE[AI]:DOSE_AIIN NOM_SPEC[DY]:STATE_Y NOM_SPEC[SA]:DOSE_AIIN BARE[XD]:SOURCE_R NOM_SPEC[DA]:DOSE_AIIN NOM_SPEC[ED]:FLUID_L BARE[OL]:FLUID_L BARE[AR]:SOURCE_R NOM_SPEC[EK]:DOSE_AIIN BARE[AL]:FLUID_L SEQ_CONT[LD]:ROOT NOM_SPEC[EE]:PROC_SIMMER NOM_SPEC[CHD]:DOSE_AIIN NOM_SPEC[ED]:PERF_DONE NOM_SPEC[AR]:SOURCE_R BARE[AI]:DOSE_AIIN NOM_SPEC[KY]:STATE_Y NOM_SPEC[DA]:DOSE_AIIN NOM_SPEC[AL]:FLUID_L NOM_SPEC[AL]:SOURCE_R"
+    },
+    {
+      "line_id": "123",
+      "loc": "@L0",
+      "zone": "CIRCLE_6_S",
+      "comments": [
+        "6:3"
+      ],
+      "n_tokens": 1,
+      "eva": "ofaraiin",
+      "gloss": "NOM_SPEC[FAR]:DOSE_AIIN"
+    },
+    {
+      "line_id": "124",
+      "loc": "@L0",
+      "zone": "CIRCLE_6_S",
+      "comments": [
+        "6:4"
+      ],
+      "n_tokens": 1,
+      "eva": "okolar",
+      "gloss": "NOM_SPEC[OL]:SOURCE_R"
+    },
+    {
+      "line_id": "125",
+      "loc": "@L0",
+      "zone": "CIRCLE_6_S",
+      "comments": [
+        "6:5"
+      ],
+      "n_tokens": 1,
+      "eva": "okchdy",
+      "gloss": "NOM_SPEC[CH]:PERF_DONE"
+    },
+    {
+      "line_id": "126",
+      "loc": "@L0",
+      "zone": "CIRCLE_6_S",
+      "comments": [
+        "6:6"
+      ],
+      "n_tokens": 1,
+      "eva": "ykedy",
+      "gloss": "NOM_SPEC[ED]:PERF_DONE"
+    },
+    {
+      "line_id": "127",
+      "loc": "@L0",
+      "zone": "CIRCLE_6_S",
+      "comments": [
+        "6:7"
+      ],
+      "n_tokens": 1,
+      "eva": "oteedy",
+      "gloss": "NOM_SPEC[EE]:PROC_SIMMER"
+    },
+    {
+      "line_id": "128",
+      "loc": "@L0",
+      "zone": "CIRCLE_6_S",
+      "comments": [
+        "6:8"
+      ],
+      "n_tokens": 1,
+      "eva": "otosaiin",
+      "gloss": "NOM_SPEC[OS]:DOSE_AIIN"
+    },
+    {
+      "line_id": "129",
+      "loc": "@L0",
+      "zone": "CIRCLE_6_S",
+      "comments": [
+        "6:9"
+      ],
+      "n_tokens": 1,
+      "eva": "otchdam",
+      "gloss": "NOM_SPEC[CHD]:FINAL_M"
+    },
+    {
+      "line_id": "130",
+      "loc": "@L0",
+      "zone": "CIRCLE_6_S",
+      "comments": [
+        "6:10"
+      ],
+      "n_tokens": 1,
+      "eva": "otedy",
+      "gloss": "NOM_SPEC[ED]:PERF_DONE"
+    },
+    {
+      "line_id": "131",
+      "loc": "@L0",
+      "zone": "CIRCLE_6_S",
+      "comments": [
+        "6:11"
+      ],
+      "n_tokens": 1,
+      "eva": "okar",
+      "gloss": "NOM_SPEC[AR]:SOURCE_R"
+    },
+    {
+      "line_id": "132",
+      "loc": "@L0",
+      "zone": "CIRCLE_6_S",
+      "comments": [
+        "6:12"
+      ],
+      "n_tokens": 1,
+      "eva": "lashalg",
+      "gloss": "APPL_VESSEL[ASHALG]:ROOT"
+    },
+    {
+      "line_id": "133",
+      "loc": "@Cc",
+      "zone": "CIRCLE_9_SE",
+      "comments": [
+        "05:30",
+        "long gap"
+      ],
+      "n_tokens": 29,
+      "eva": "ok ar ar okary otodeed odar chekaiin oees oiin okees oiir odaiin okalol aiiin okal ol otar chchdam chetey otodches oteesey chckhy otody otal chedal opal olkar okedaiin oror",
+      "gloss": "BARE[OK]:ROOT BARE[AR]:SOURCE_R BARE[AR]:SOURCE_R NOM_SPEC[AR]:STATE_Y NOM_SPEC[ODEED]:ROOT NOM_SPEC[DA]:SOURCE_R HERB_BENCH[EK]:DOSE_AIIN NOM_SPEC[EE]:ROOT NOM_SPEC[II]:DOSE_AIIN NOM_SPEC[EE]:ROOT NOM_SPEC[II]:SOURCE_R NOM_SPEC[DA]:DOSE_AIIN NOM_SPEC[AL]:FLUID_L BARE[AI]:DOSE_AIIN NOM_SPEC[AL]:FLUID_L BARE[OL]:FLUID_L NOM_SPEC[AR]:SOURCE_R HERB_BENCH[CHD]:FINAL_M HERB_BENCH[ET]:STATE_Y NOM_SPEC[ODCHE]:ROOT NOM_SPEC[EES]:STATE_Y HERB_BENCH[CKH]:STATE_Y NOM_SPEC[OD]:PERF_DONE NOM_SPEC[AL]:FLUID_L HERB_BENCH[ED]:FLUID_L NOM_SPEC[PA]:FLUID_L APPL_VESSEL[KA]:SOURCE_R NOM_SPEC[ED]:DOSE_AIIN FLOW_LIQ[OR]:SOURCE_R"
+    },
+    {
+      "line_id": "134",
+      "loc": "@L0",
+      "zone": "CIRCLE_9_SE",
+      "comments": [
+        "9:6"
+      ],
+      "n_tokens": 1,
+      "eva": "oalda",
+      "gloss": "NOM_SPEC[ALDA]:ROOT"
+    },
+    {
+      "line_id": "135",
+      "loc": "@L0",
+      "zone": "CIRCLE_9_SE",
+      "comments": [
+        "9:1"
+      ],
+      "n_tokens": 1,
+      "eva": "osaram",
+      "gloss": "NOM_SPEC[SAR]:FINAL_M"
+    },
+    {
+      "line_id": "136",
+      "loc": "@L0",
+      "zone": "CIRCLE_9_SE",
+      "comments": [
+        "9:7"
+      ],
+      "n_tokens": 1,
+      "eva": "oparodam",
+      "gloss": "NOM_SPEC[PAROD]:FINAL_M"
+    },
+    {
+      "line_id": "137",
+      "loc": "@Pb",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [
+        "VI"
+      ],
+      "n_tokens": 3,
+      "eva": "otam opchody oteey",
+      "gloss": "NOM_SPEC[AM]:FINAL_M NOM_SPEC[PCH]:PERF_DONE NOM_SPEC[EE]:STATE_Y"
+    },
+    {
+      "line_id": "138",
+      "loc": "*Pb",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [],
+      "n_tokens": 5,
+      "eva": "opar chepchey oteedy olaiin osshy",
+      "gloss": "NOM_SPEC[PA]:SOURCE_R HERB_BENCH[EPCH]:STATE_Y NOM_SPEC[EE]:PROC_SIMMER APPL_VESSEL[AI]:DOSE_AIIN NOM_SPEC[SSH]:STATE_Y"
+    },
+    {
+      "line_id": "139",
+      "loc": "@Pb",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [
+        "VII"
+      ],
+      "n_tokens": 4,
+      "eva": "tol ofar chefaiin ol",
+      "gloss": "BARE[TO]:FLUID_L NOM_SPEC[FA]:SOURCE_R HERB_BENCH[EF]:DOSE_AIIN BARE[OL]:FLUID_L"
+    },
+    {
+      "line_id": "140",
+      "loc": "+Pb",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [],
+      "n_tokens": 3,
+      "eva": "okchy qokedy qokedy",
+      "gloss": "NOM_SPEC[CH]:STATE_Y ACT_BOIL[ED]:PERF_DONE ACT_BOIL[ED]:PERF_DONE"
+    },
+    {
+      "line_id": "141",
+      "loc": "+Pb",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [],
+      "n_tokens": 3,
+      "eva": "tol teoor chekor",
+      "gloss": "BARE[TO]:FLUID_L BARE[TEO]:SOURCE_R HERB_BENCH[EK]:SOURCE_R"
+    },
+    {
+      "line_id": "142",
+      "loc": "@Pb",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [
+        "VIII"
+      ],
+      "n_tokens": 3,
+      "eva": "okar olchety daiin",
+      "gloss": "NOM_SPEC[AR]:SOURCE_R APPL_VESSEL[CHET]:STATE_Y TOP_LOC[II]:DOSE_AIIN"
+    },
+    {
+      "line_id": "143",
+      "loc": "+Pb",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [],
+      "n_tokens": 4,
+      "eva": "okdy qokcho chfady oro",
+      "gloss": "NOM_SPEC[DY]:STATE_Y ACT_BOIL[CHO]:ROOT HERB_BENCH[FA]:PERF_DONE NOM_SPEC[RO]:ROOT"
+    },
+    {
+      "line_id": "144",
+      "loc": "+Pb",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [],
+      "n_tokens": 4,
+      "eva": "okeechy okol sheeo tolfchd",
+      "gloss": "NOM_SPEC[EECH]:STATE_Y NOM_SPEC[OL]:FLUID_L HERB_BENCH[EEO]:ROOT BARE[TOLFCHD]:ROOT"
+    },
+    {
+      "line_id": "145",
+      "loc": "+Pb",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [],
+      "n_tokens": 2,
+      "eva": "saiir shodaiin",
+      "gloss": "SEQ_CONT[II]:SOURCE_R HERB_BENCH[OD]:DOSE_AIIN"
+    },
+    {
+      "line_id": "146",
+      "loc": "@L0",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [
+        "I"
+      ],
+      "n_tokens": 1,
+      "eva": "dor",
+      "gloss": "TOP_LOC[OR]:SOURCE_R"
+    },
+    {
+      "line_id": "147",
+      "loc": "+L0",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [],
+      "n_tokens": 1,
+      "eva": "oky",
+      "gloss": "NOM_SPEC[KY]:STATE_Y"
+    },
+    {
+      "line_id": "148",
+      "loc": "+L0",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [],
+      "n_tokens": 1,
+      "eva": "roo",
+      "gloss": "FLOW_LIQ[ROO]:ROOT"
+    },
+    {
+      "line_id": "149",
+      "loc": "@L0",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [
+        "II"
+      ],
+      "n_tokens": 1,
+      "eva": "otol",
+      "gloss": "NOM_SPEC[OL]:FLUID_L"
+    },
+    {
+      "line_id": "150",
+      "loc": "+L0",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [],
+      "n_tokens": 1,
+      "eva": "ardas",
+      "gloss": "FLOW_LIQ[DA]:ROOT"
+    },
+    {
+      "line_id": "151",
+      "loc": "+L0",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [],
+      "n_tokens": 1,
+      "eva": "chdy",
+      "gloss": "HERB_BENCH[DY]:STATE_Y"
+    },
+    {
+      "line_id": "152",
+      "loc": "@L0",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [
+        "III"
+      ],
+      "n_tokens": 1,
+      "eva": "oparod",
+      "gloss": "NOM_SPEC[PAROD]:ROOT"
+    },
+    {
+      "line_id": "153",
+      "loc": "+L0",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [],
+      "n_tokens": 1,
+      "eva": "shckhdy",
+      "gloss": "HERB_BENCH[CKH]:PERF_DONE"
+    },
+    {
+      "line_id": "154",
+      "loc": "+L0",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [],
+      "n_tokens": 1,
+      "eva": "tshda",
+      "gloss": "BARE[TSHDA]:ROOT"
+    },
+    {
+      "line_id": "155",
+      "loc": "@L0",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [
+        "IV"
+      ],
+      "n_tokens": 1,
+      "eva": "opchd",
+      "gloss": "NOM_SPEC[PCHD]:ROOT"
+    },
+    {
+      "line_id": "156",
+      "loc": "+L0",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [],
+      "n_tokens": 1,
+      "eva": "opchdy",
+      "gloss": "NOM_SPEC[PCH]:PERF_DONE"
+    },
+    {
+      "line_id": "157",
+      "loc": "+L0",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [],
+      "n_tokens": 1,
+      "eva": "qokal",
+      "gloss": "ACT_BOIL[AL]:FLUID_L"
+    },
+    {
+      "line_id": "158",
+      "loc": "@L0",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [
+        "V"
+      ],
+      "n_tokens": 1,
+      "eva": "shet",
+      "gloss": "HERB_BENCH[ET]:ROOT"
+    },
+    {
+      "line_id": "159",
+      "loc": "+L0",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [],
+      "n_tokens": 1,
+      "eva": "opchsy",
+      "gloss": "NOM_SPEC[PCHS]:STATE_Y"
+    },
+    {
+      "line_id": "160",
+      "loc": "+L0",
+      "zone": "CAUSEWAYS_I_TO_VIII",
+      "comments": [],
+      "n_tokens": 1,
+      "eva": "cheky",
+      "gloss": "HERB_BENCH[EK]:STATE_Y"
+    }
+  ]
+}
