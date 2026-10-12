@@ -55,9 +55,9 @@ When you strip off the prefix and suffix, you are left with the **Root Stem**:
 
 ---
 
-## Part 2: Page-by-Page Visual Walkthroughs (58 Iconic Folios)
+## Part 2: Page-by-Page Visual Walkthroughs (62 Iconic Folios)
 
-Below are **58 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
+Below are **62 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
 
 ---
 
@@ -906,10 +906,73 @@ Why did the scribe write the Voynich word **`oror`** at the end of a European ch
 
 ---
 
+### 59. Folios `f26r & f31r` (`Quire 4`) and `f41r & f48r` (`Quire 6`) — Why Currier A & B Are "Interleaved": The `18/18 = 100.0%` Palindromic Bifolio Scribe Nesting Law ($p = 8.37 \times 10^{-9}$) & Scribe 5's Conjugate Finger-Cup Leaf Pair
+* **Section:** Herbal Monographs (`$I=H`, Quires 4 & 6, Scribe 2 on `f26r/f31r`, Scribe 5 on `f41r/f48r`) | **Pages in Yale Scan:** Pages 52 (`f26r`), 62 (`f31r`), 82 (`f41r`), and 96 (`f48r`)
+
+![Folio f26r First Currier B Bifolio Herbal with Two Blue-Berry Spikes and 19 Intrusions](../pages/f26r_first_currier_b_bifolio_herbal_enh.png)
+
+![Folio f31r Conjugate Currier B Bifolio Half in Quire 4](../pages/f31r_conjugate_currier_b_bifolio_enh.png)
+
+#### What to Look for on `f26r & f31r` (Above) and `f41r & f48r` (Below)
+1. **Solving the 50-Year Mystery of Why Currier Languages A & B Alternate in Quires 4–8 (`Attack 213`, `Discovery 230`):** When you flip through Herbal Quires 4–8 (`f25r–f66v`) one page at a time, Currier Language A (Scribe 1) and Currier Language B (Scribes 2 & 5) seem to jump back and forth at random (`e.g. Quire 6 = H5, H1, H2, H1, H1, H2, H1, H5`). Why? Because medieval quires are built by folding wide vellum sheets (**bifolia**) in half and nesting them inside each other! When you unfold Quires 4–8 (`18` surviving bifolia = `36` leaves = `72` pages), **`18 / 18` (`100.0%`) of the conjugate bifolia (`leaf i <-> leaf N+1-i`) have the exact same Scribe Hand and Currier Language on both halves of the sheet (`[1,2,1,1,1,1,2,1]`, `[2,2,1,1,1,1,2,2]`, `[5,1,2,1,1,2,1,5]`, `[1,2,1,1,1,1,2,1]`, `[5,3,3,5]` — exact combinatoric $p = 8.37 \times 10^{-9}$, or `1 in 119.4 million`)**!
+2. **Scribe 2's First Conjugate Sheet `f26 <-> f31` (`74.32%` Token Stem Continuity, above):** In Quire 4 (`f25–f32`), **`f26r`** (top, `p52`—the very first Currier B page in the manuscript, where two tall spikes of blue berries split the 10-line text across `19` `<->` intrusions) and **`f31r`** (second image above, `p62`—7 composite daisy heads over an S-curved red rhizome) are the **two halves of the exact same physical sheet of calfskin (`Bifolium 2: f26 <-> f31`)**, and **`74.32%` of all words on `f26r/v` reuse canonical root stems from `f31r/v`**!
+3. **Scribe 5's Outer Conjugate Sheet `f41 <-> f48` & Twin Finger-Fringed Cup Leaves (`68.71%` Stem Continuity, below):** Look at **`f41r`** (`p82`, first image below—`13` green cup-shaped leaves with finger-like distal lobes, a conical central flower head, and two split paragraph blocks across `11` `<->` intrusions) and **`f48r`** (`p96`, second image below—`10` dark-green hand/cup-shaped leaves with 5–6 finger-like distal lobes and 3 white flower heads). Although separated by **12 pages (`f42r–f47v`)** of Scribes 1 and 2 in the bound book, **`f41` and `f48` are the two halves of the outer vellum sheet of Quire 6 (`Bifolium 1: f41 <-> f48`)**, painted as a **conjugate botanical pair of finger-lobed cup-leaf plants** and inscribed side-by-side on the unfolded sheet by **Scribe 5**!
+
+![Folio f41r Scribe 5 Quire 6 Outer Recto with Finger-Lobed Cup Leaves](../pages/f41r_scribe5_quire6_outer_recto_enh.png)
+
+![Folio f48r Scribe 5 Quire 6 Conjugate Recto with Hand-Finger Cup Leaves](../pages/f48r_scribe5_quire6_conjugate_recto_enh.png)
+
+---
+
+### 60. Folios `f78v`, `f79v` & `f80v` — Completing `20/20` (`100%`) High-Res Coverage of the Balneological Section: The 8-Nymph Arcade Pool, the Cross-Bearing Canopy Nymph & Four Quadrupeds, the Scaly Armadillo Beast, and Trans-Leaf Callout Echo (`64.22%`)
+* **Section:** Balneological / Medical Bathing (`$I=B`, Quire 13, Currier B, Scribe 2) | **Pages in Yale Scan:** Pages 143 (`f78v`), 145 (`f79v`), and 147 (`f80v`)
+
+![Folio f78v Balneological 8-Nymph Green Pool Over 5 Blue Arcade Windows](../pages/f78v_balneo_ten_nymph_tube_pool_enh.png)
+
+![Folio f79v Cross-Bearing Canopy Nymph and Four Small Quadrupeds Around Bottom Green Pool](../pages/f79v_balneo_nymph_ring_canopy_verso_enh.png)
+
+#### What to Look for on `f78v` & `f79v` (Above) and `f80v` (Below) (`Attack 214`, `Discovery 231`)
+1. **`f78v` (`p143`, top): The 8-Nymph Green Pool Over Five Blue Arcade Windows:** Between two dense paragraphs (`294` words total, reusing `79.93%` of stems from `f78r` on the recto), **8 naked nymphs** bathe inside a green kidney-shaped basin (`3` on the raised left step over `5` blue arched architectural windows; `5` in the deeper right basin), fed by a blue pipe descending down the left margin from a decorative plume bracket at the top of Line 1.
+2. **`f79v` (`p145`, middle): The Cross-Bearing Canopy Nymph & Four Small Quadrupeds Around the Bottom Pool:** Look closely at the top-left of **`f79v`**: a nymph standing in a funnel under a blue ruffled shower canopy holds a **Christian cross (`+`) in her raised left hand**! Water pours from her funnel onto a reclining horizontal nymph, down through a ring-and-funnel column into a green bottom pool/meadow where a **mermaid/web-footed nymph** sits surrounded by **four small four-legged animals (`1` at bottom-left, `3` at bottom-right)**!
+3. **`f80v` (`p147`, below): The Spindle/Flask Nymph, the Scaly Armadillo/Pangolin Beast & Trans-Leaf Callout Propagation (`64.22%`):** On **`f80v`** (`376` words, below), look at the left margin right below the crowned top nymph holding a horizontal spindle/flask: perched over wavy blue water is a **scaly, armored quadruped resembling an armadillo, pangolin, or porcupine**, above two funnel-nymphs feeding a 6-nymph bottom blue pool! Even though `f78v`, `f79v`, and `f80v` have `0` `@Lt/@Ln` labels of their own, across all `204` diagram/margin callout words in Quire 13, **`64.22%` (`131 / 204`) echo their root stem in the prose on the opposite side of the exact same leaf (`67.16%` across the combined leaf)**, and at the central sewing fold (`f79v <-> f80r`), **`70.00%` (`7 / 10`) of `f80r`'s Upper 8-Nymph Gallery callout labels echo directly in facing `f79v`'s prose (`85.11%` overall stem continuity)**!
+
+![Folio f80v Balneological Left-Margin Nymph Ladder, Scaly Armadillo Beast and 6-Nymph Bottom Pool](../pages/f80v_balneo_left_margin_nymph_ladder_enh.png)
+
+---
+
+### 61. Unfolded Rosettes Reverse Sheet `p157` (`f85r2 | f86v4 | f86v6`) & `p158` (`f86v5 | f86v3`) — The `2×3` Outer Panel Grid (`81.82%` `fRos` Token Stem Coverage), the `4/4 = 100.0%` Cardinal `t-` Gallows Acrostic Ring on `f86v3` ($p = 0.00285$), and the `taiin.ytaiin.ytaiin.ytaiin` Epizeuxis
+* **Section:** Cosmological / Rosettes Foldout Reverse (`Quire 14`, Currier B, Scribe 2) | **Pages in Yale Scan:** Pages 157 (`f85r2 | f86v4 | f86v6`) & 158 (`f86v5 | f86v3`)
+
+![Unfolded Rosettes Reverse Top Row p157 Showing f85r2 4-Cardinal Sun Wheel, f86v4 Scalloped Moon Wheel and f86v6 479-Word Treatise](../pages/f85r1_f86v4_f86v3_rosettes_reverse_top_enh.png)
+
+![Unfolded Rosettes Reverse Bottom Row p158 Showing f86v5 Folio 86 Treatise and f86v3 4-Corner Scaly Cones with 4-Cardinal Perimeter Text](../pages/f86v4_f86v6_f86v5_rosettes_reverse_full_enh.png)
+
+#### What to Look for on `p157` (Top) and `p158` (Bottom) (`Attack 215`, `Discovery 232`)
+1. **How the `6` Outer Panels Fit on the Back of the 9-Sphere Rosettes Map (`2×3` Grid, `1,855` Words):** When the giant 6-panel vellum foldout of Quire 14 is turned over to the back of the 9-Sphere Rosettes Map (`fRos` / `f85v2`, `539` words), the `6` reverse panels form a **`2 × 3` grid**:
+   - **Top Row (`p157`, top image):** On the left is **`f85r2`** (a 4-directional Sun Wheel with 4 cardinal human busts `<!N>, <!E>, <!S>, <!W>`, 4 corner shell-arcs, and a radiant Sun face in a blue ring, `166` words); in the middle is **`f86v4`** (a crescent Moon face inside a double scalloped cloud/petal ring and 4-line circular ring text, `169` words); on the right is **`f86v6`** (`4` dense prose paragraphs = `479` words, which **alone covers `70.50%` of all word tokens' stems on the `fRos` 9-Sphere Map**, while all `6` reverse panels together cover **`81.82%` [`441 / 539`]**!).
+   - **Bottom Row (`p158`, bottom image + `f85r1`):** Alongside `f85r1` (`343` words) sit **`f86v5`** (left panel on `p158`, bearing Arabic **`86`** at top-right, `382` words) and **`f86v3`** (right panel on `p158`, bearing upside-down **`86v`** at bottom-right, `281` words).
+2. **The `4/4 = 100.0%` Cardinal (`5/6 = 83.33%` Total) `t-` Gallows Acrostic Ring on `f86v3` ($p = 0.00285$) & 4-Fold `[y]taiin` Epizeuxis:** Look closely at **`f86v3`** (right half of `p158` above): four scaly botanical/cosmological cones or towers jut diagonally inward from the four corners, while four perimeter paragraphs are written along the **North (`<!N>`), West (`<!W>`), East (`<!E>`), and South (`<!S>`)** edges framing two central horizontal paragraphs (`@P0`, split across `3` `<->` intrusions). Remarkably, **all `4 / 4` (`100.0%`) of the Cardinal Perimeter Treatises (`<!N> <%>tchedy`, `<!W> <%>tchol`, `<!E> <%>tshedal`, `<!S> <%>toeeedchy`, $p = 0.00285$) plus the first central paragraph (`<%>tshdchey` = `5 / 6` [`83.33%`], $p = 0.00319$) open with a `t-` gallows (`3.61×` over the `23.11%` manuscript baseline)**, and Line 3 of the North block (`<f86v3.3,+Pb>`) writes **`taiin.ytaiin.ytaiin.ytaiin.or.ar.ytas.am`** (`4` consecutive `[y]taiin` words + `ytas`)!
+
+---
+
+### 62. Folios `f103v` (`p185`) & `f104r` (`p186`) — The `#1` Highest-Recipe-Count Leaf in the Voynich Manuscript (`f103r–f103v` = `31` Starred Recipes, `985` Words, `86.12%` Coupling) & `87.60%` Lexical Seeding of Quire 20
+* **Section:** Starred Master Recipes (`$I=S`, Quire 20 Opening Verso & Second Recto, Currier B, Scribe 3) | **Pages in Yale Scan:** Pages 185 (`f103v`) & 186 (`f104r`)
+
+![Folio f103v Quire 20 Opening Verso with 13 Primary Starred Recipes and 86.12 Percent f103r Stem Continuity](../pages/f103v_quire20_opening_verso_13stars_enh.png)
+
+![Folio f104r Quire 20 Second Recto with 13 Starred Recipes and 10-Step Red-White Star Alternation](../pages/f104r_quire20_second_recto_13stars_enh.png)
+
+#### What to Look for on `f103v` (Top) and `f104r` (Bottom) (`Attack 216`, `Discovery 233`)
+1. **The `#1` Highest-Recipe-Count Vellum Leaf in the Codex (`f103r–f103v` = `18 + 13 = 31` Starred Recipes, `985` Words, `86.12%` Coupling):** Combining `f103r` (`531` words, `18` `<%>` starred recipes) with its immediate physical verso **`f103v`** (`454` words, `13` `<%>` starred recipes, top image) makes Leaf `f103` the **`#1` highest-recipe-count single leaf (`31` recipes, `985` words)** in the entire Voynich Manuscript! Flipping from `f103r` to `f103v`, **`86.12%` of all word tokens on `f103v` reuse canonical root stems already introduced on `f103r`**.
+2. **First Facing Spread `f103v–f104r` (`902` Words, `26` Recipes), 10-Step Red/Plain Star Alternation, and `87.60%` Quire 20 Lexical Seeding:** Look down the left margin of facing **`f104r`** (`p186`, bottom image, `448` words, `13` `<%>` starred recipes): from Star 4 down to Star 13, the rubricator alternated **Red-Filled Star (`R`) <-> Plain White Dotted Star (`P`)** ten times in a row (`R, P, R, P, R, P, R, P, R, P`)! Across the entire 23-page Quire 20 Starred Recipe section (`10,892` words, `285` recipes), the canonical root stems introduced on the opening leaf `f103r–f103v` alone cover **`81.54%` of all word tokens in Quire 20**, rising to **`87.60%`** when you include facing `f104r` (`1,433` words across the first `3` pages = `44` recipes)!
+
+---
+
 ## Where to Go Next
-* **Want to see all 85 real-world plants, constellations, wheels, bathing diagrams, and visual twins?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)** (`SPEC-01` through `SPEC-85`).
-* **Want to click through 74 pages, decode words interactively, and explore all 18 tabs in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now at **v16.0 — Milestone Wave 50 Edition**!).
-* **Want the deep grammatical tables, the Milestone Wave 50 Scribe 5 / `f65r` `-m` Triad / `f84v` `@Pb` Callouts / `f90` Foldout Inversion / `f113v` Star-Opener proofs, and full 229-discovery research log?** See **[`MILESTONE_WAVE50_MASTER_COMPENDIUM.md`](MILESTONE_WAVE50_MASTER_COMPENDIUM.md)**, **[`WAVE49_MASTER_COMPENDIUM.md`](WAVE49_MASTER_COMPENDIUM.md)**, **[`WAVE48_MASTER_COMPENDIUM.md`](WAVE48_MASTER_COMPENDIUM.md)**, and **[`NOTES.md`](../NOTES.md)**.
+* **Want to see all 90 real-world plants, constellations, wheels, bathing diagrams, conjugate bifolio pairs, and visual twins?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)** (`SPEC-01` through `SPEC-90`).
+* **Want to click through 78 pages, decode words interactively, and explore all 19 tabs in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now at **v17.0 — Wave 51 Edition**!).
+* **Want the deep grammatical tables, the Wave 51 Palindromic Bifolio Nesting (`18/18 = 100%`) / Quire 13 `20/20` Completion / Rosettes `2×3` Reverse Grid / `f103–f104r` Quire 20 Seeding proofs, and full 233-discovery research log?** See **[`WAVE51_MASTER_COMPENDIUM.md`](WAVE51_MASTER_COMPENDIUM.md)**, **[`MILESTONE_WAVE50_MASTER_COMPENDIUM.md`](MILESTONE_WAVE50_MASTER_COMPENDIUM.md)**, **[`WAVE49_MASTER_COMPENDIUM.md`](WAVE49_MASTER_COMPENDIUM.md)**, and **[`NOTES.md`](../NOTES.md)**.
+
 
 
 

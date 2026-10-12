@@ -1,0 +1,1263 @@
+{
+  "attack": 213,
+  "discovery": 230,
+  "title": "The 18/18 = 100.0% Palindromic Bifolio Scribe & Currier-Language Nesting Law of Quires 4-8 (f25r-f66v) & Conjugate Sheet Continuity",
+  "summary": {
+    "total_mixed_quires": 5,
+    "total_surviving_bifolia": 18,
+    "total_surviving_leaves": 36,
+    "same_hand_bifolia_count": 18,
+    "same_hand_bifolia_rate": 1.0,
+    "same_lang_bifolia_count": 18,
+    "same_lang_bifolia_rate": 1.0,
+    "within_quire_product_p_value": 1.6659725114535606e-05,
+    "global_36leaf_pairing_p_value": 8.37453079074204e-09,
+    "mean_conjugate_stem_jaccard": 0.2737,
+    "mean_nonconjugate_same_quire_stem_jaccard": 0.2439,
+    "mean_cross_scribe_same_quire_stem_jaccard": 0.2259,
+    "conjugate_vs_cross_scribe_lift": 1.2116,
+    "conjugate_vs_shuffled_quire_z": 4.49,
+    "conjugate_vs_shuffled_quire_p": 0.0,
+    "f26_to_f31_token_stem_coverage": 0.7432,
+    "f41_to_f48_token_stem_coverage": 0.6871
+  },
+  "quire_reports": [
+    {
+      "quire": "Quire 4 (D)",
+      "leaves": [
+        "f25",
+        "f26",
+        "f27",
+        "f28",
+        "f29",
+        "f30",
+        "f31",
+        "f32"
+      ],
+      "hand_sequence": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1"
+      ],
+      "lang_sequence": [
+        "A",
+        "B",
+        "A",
+        "A",
+        "A",
+        "A",
+        "B",
+        "A"
+      ],
+      "is_hand_palindrome": true,
+      "is_lang_palindrome": true,
+      "quire_pairing_p_value": 0.14285714285714285,
+      "bifolia": [
+        {
+          "quire": "Quire 4 (D)",
+          "bifolio_position": 1,
+          "left_leaf": "f25",
+          "right_leaf": "f32",
+          "page_separation": 13,
+          "left_hand": "1",
+          "right_hand": "1",
+          "left_lang": "A",
+          "right_lang": "A",
+          "same_hand": true,
+          "same_lang": true,
+          "left_words": 107,
+          "right_words": 165,
+          "word_jaccard": 0.0925,
+          "stem_jaccard": 0.3131,
+          "shared_stems_count": 31,
+          "shared_stems_sample": [
+            "ai",
+            "al",
+            "an",
+            "ar",
+            "ch",
+            "cho",
+            "ckh",
+            "cth",
+            "fch",
+            "hy",
+            "ii",
+            "ir",
+            "ka",
+            "kai",
+            "kc"
+          ]
+        },
+        {
+          "quire": "Quire 4 (D)",
+          "bifolio_position": 2,
+          "left_leaf": "f26",
+          "right_leaf": "f31",
+          "page_separation": 9,
+          "left_hand": "2",
+          "right_hand": "2",
+          "left_lang": "B",
+          "right_lang": "B",
+          "same_hand": true,
+          "same_lang": true,
+          "left_words": 183,
+          "right_words": 213,
+          "word_jaccard": 0.1225,
+          "stem_jaccard": 0.2377,
+          "shared_stems_count": 29,
+          "shared_stems_sample": [
+            "ae",
+            "ai",
+            "al",
+            "ar",
+            "ch",
+            "che",
+            "cth",
+            "da",
+            "dy",
+            "ed",
+            "ee",
+            "eeo",
+            "ek",
+            "eo",
+            "es"
+          ]
+        },
+        {
+          "quire": "Quire 4 (D)",
+          "bifolio_position": 3,
+          "left_leaf": "f27",
+          "right_leaf": "f30",
+          "page_separation": 5,
+          "left_hand": "1",
+          "right_hand": "1",
+          "left_lang": "A",
+          "right_lang": "A",
+          "same_hand": true,
+          "same_lang": true,
+          "left_words": 155,
+          "right_words": 162,
+          "word_jaccard": 0.1028,
+          "stem_jaccard": 0.248,
+          "shared_stems_count": 31,
+          "shared_stems_sample": [
+            "ai",
+            "al",
+            "an",
+            "ar",
+            "ch",
+            "cho",
+            "cth",
+            "ctho",
+            "dy",
+            "ee",
+            "eo",
+            "es",
+            "ey",
+            "ho",
+            "hy"
+          ]
+        },
+        {
+          "quire": "Quire 4 (D)",
+          "bifolio_position": 4,
+          "left_leaf": "f28",
+          "right_leaf": "f29",
+          "page_separation": 1,
+          "left_hand": "1",
+          "right_hand": "1",
+          "left_lang": "A",
+          "right_lang": "A",
+          "same_hand": true,
+          "same_lang": true,
+          "left_words": 135,
+          "right_words": 158,
+          "word_jaccard": 0.123,
+          "stem_jaccard": 0.2941,
+          "shared_stems_count": 30,
+          "shared_stems_sample": [
+            "ai",
+            "an",
+            "ar",
+            "ch",
+            "cho",
+            "cth",
+            "dai",
+            "dy",
+            "ea",
+            "ee",
+            "eo",
+            "ho",
+            "ii",
+            "in",
+            "kai"
+          ]
+        }
+      ]
+    },
+    {
+      "quire": "Quire 5 (E)",
+      "leaves": [
+        "f33",
+        "f34",
+        "f35",
+        "f36",
+        "f37",
+        "f38",
+        "f39",
+        "f40"
+      ],
+      "hand_sequence": [
+        "2",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2"
+      ],
+      "lang_sequence": [
+        "B",
+        "B",
+        "A",
+        "A",
+        "A",
+        "A",
+        "B",
+        "B"
+      ],
+      "is_hand_palindrome": true,
+      "is_lang_palindrome": true,
+      "quire_pairing_p_value": 0.08571428571428572,
+      "bifolia": [
+        {
+          "quire": "Quire 5 (E)",
+          "bifolio_position": 1,
+          "left_leaf": "f33",
+          "right_leaf": "f40",
+          "page_separation": 13,
+          "left_hand": "2",
+          "right_hand": "2",
+          "left_lang": "B",
+          "right_lang": "B",
+          "same_hand": true,
+          "same_lang": true,
+          "left_words": 187,
+          "right_words": 208,
+          "word_jaccard": 0.1629,
+          "stem_jaccard": 0.243,
+          "shared_stems_count": 26,
+          "shared_stems_sample": [
+            "ai",
+            "aii",
+            "al",
+            "am",
+            "ar",
+            "ch",
+            "ck",
+            "dy",
+            "ed",
+            "ee",
+            "ek",
+            "eo",
+            "ii",
+            "in",
+            "ka"
+          ]
+        },
+        {
+          "quire": "Quire 5 (E)",
+          "bifolio_position": 2,
+          "left_leaf": "f34",
+          "right_leaf": "f39",
+          "page_separation": 9,
+          "left_hand": "2",
+          "right_hand": "2",
+          "left_lang": "B",
+          "right_lang": "B",
+          "same_hand": true,
+          "same_lang": true,
+          "left_words": 260,
+          "right_words": 303,
+          "word_jaccard": 0.1592,
+          "stem_jaccard": 0.3243,
+          "shared_stems_count": 48,
+          "shared_stems_sample": [
+            "ai",
+            "aii",
+            "al",
+            "am",
+            "ar",
+            "ch",
+            "chd",
+            "ck",
+            "ckh",
+            "da",
+            "dai",
+            "dy",
+            "eck",
+            "ed",
+            "ee"
+          ]
+        },
+        {
+          "quire": "Quire 5 (E)",
+          "bifolio_position": 3,
+          "left_leaf": "f35",
+          "right_leaf": "f38",
+          "page_separation": 5,
+          "left_hand": "1",
+          "right_hand": "1",
+          "left_lang": "A",
+          "right_lang": "A",
+          "same_hand": true,
+          "same_lang": true,
+          "left_words": 184,
+          "right_words": 112,
+          "word_jaccard": 0.1073,
+          "stem_jaccard": 0.3368,
+          "shared_stems_count": 32,
+          "shared_stems_sample": [
+            "ai",
+            "ar",
+            "ch",
+            "chok",
+            "ckh",
+            "cth",
+            "ctho",
+            "d",
+            "dai",
+            "eai",
+            "ee",
+            "eo",
+            "ho",
+            "ii",
+            "in"
+          ]
+        },
+        {
+          "quire": "Quire 5 (E)",
+          "bifolio_position": 4,
+          "left_leaf": "f36",
+          "right_leaf": "f37",
+          "page_separation": 1,
+          "left_hand": "1",
+          "right_hand": "1",
+          "left_lang": "A",
+          "right_lang": "A",
+          "same_hand": true,
+          "same_lang": true,
+          "left_words": 138,
+          "right_words": 167,
+          "word_jaccard": 0.1543,
+          "stem_jaccard": 0.2407,
+          "shared_stems_count": 26,
+          "shared_stems_sample": [
+            "ai",
+            "al",
+            "ar",
+            "ch",
+            "ckh",
+            "cph",
+            "ct",
+            "cth",
+            "dy",
+            "ii",
+            "in",
+            "kc",
+            "ky",
+            "o",
+            "oi"
+          ]
+        }
+      ]
+    },
+    {
+      "quire": "Quire 6 (F)",
+      "leaves": [
+        "f41",
+        "f42",
+        "f43",
+        "f44",
+        "f45",
+        "f46",
+        "f47",
+        "f48"
+      ],
+      "hand_sequence": [
+        "5",
+        "1",
+        "2",
+        "1",
+        "1",
+        "2",
+        "1",
+        "5"
+      ],
+      "lang_sequence": [
+        "B",
+        "A",
+        "B",
+        "A",
+        "A",
+        "B",
+        "A",
+        "B"
+      ],
+      "is_hand_palindrome": true,
+      "is_lang_palindrome": true,
+      "quire_pairing_p_value": 0.02857142857142857,
+      "bifolia": [
+        {
+          "quire": "Quire 6 (F)",
+          "bifolio_position": 1,
+          "left_leaf": "f41",
+          "right_leaf": "f48",
+          "page_separation": 13,
+          "left_hand": "5",
+          "right_hand": "5",
+          "left_lang": "B",
+          "right_lang": "B",
+          "same_hand": true,
+          "same_lang": true,
+          "left_words": 163,
+          "right_words": 217,
+          "word_jaccard": 0.1209,
+          "stem_jaccard": 0.229,
+          "shared_stems_count": 30,
+          "shared_stems_sample": [
+            "ai",
+            "al",
+            "am",
+            "ar",
+            "ch",
+            "ck",
+            "ckh",
+            "da",
+            "dy",
+            "ed",
+            "ee",
+            "ek",
+            "eo",
+            "eod",
+            "ey"
+          ]
+        },
+        {
+          "quire": "Quire 6 (F)",
+          "bifolio_position": 2,
+          "left_leaf": "f42",
+          "right_leaf": "f47",
+          "page_separation": 9,
+          "left_hand": "1",
+          "right_hand": "1",
+          "left_lang": "A",
+          "right_lang": "A",
+          "same_hand": true,
+          "same_lang": true,
+          "left_words": 255,
+          "right_words": 161,
+          "word_jaccard": 0.124,
+          "stem_jaccard": 0.2692,
+          "shared_stems_count": 35,
+          "shared_stems_sample": [
+            "ai",
+            "al",
+            "am",
+            "ar",
+            "ch",
+            "cho",
+            "ckh",
+            "ct",
+            "cth",
+            "dy",
+            "eai",
+            "ee",
+            "ek",
+            "eo",
+            "et"
+          ]
+        },
+        {
+          "quire": "Quire 6 (F)",
+          "bifolio_position": 3,
+          "left_leaf": "f43",
+          "right_leaf": "f46",
+          "page_separation": 5,
+          "left_hand": "2",
+          "right_hand": "2",
+          "left_lang": "B",
+          "right_lang": "B",
+          "same_hand": true,
+          "same_lang": true,
+          "left_words": 304,
+          "right_words": 275,
+          "word_jaccard": 0.1503,
+          "stem_jaccard": 0.3354,
+          "shared_stems_count": 53,
+          "shared_stems_sample": [
+            "ai",
+            "al",
+            "am",
+            "ar",
+            "as",
+            "ch",
+            "ck",
+            "ckh",
+            "ct",
+            "cth",
+            "da",
+            "dy",
+            "eck",
+            "ed",
+            "ee"
+          ]
+        },
+        {
+          "quire": "Quire 6 (F)",
+          "bifolio_position": 4,
+          "left_leaf": "f44",
+          "right_leaf": "f45",
+          "page_separation": 1,
+          "left_hand": "1",
+          "right_hand": "1",
+          "left_lang": "A",
+          "right_lang": "A",
+          "same_hand": true,
+          "same_lang": true,
+          "left_words": 175,
+          "right_words": 174,
+          "word_jaccard": 0.1435,
+          "stem_jaccard": 0.3391,
+          "shared_stems_count": 39,
+          "shared_stems_sample": [
+            "ai",
+            "al",
+            "am",
+            "ar",
+            "ay",
+            "ch",
+            "ck",
+            "cph",
+            "ct",
+            "ctho",
+            "dai",
+            "dy",
+            "ee",
+            "eo",
+            "ey"
+          ]
+        }
+      ]
+    },
+    {
+      "quire": "Quire 7 (G)",
+      "leaves": [
+        "f49",
+        "f50",
+        "f51",
+        "f52",
+        "f53",
+        "f54",
+        "f55",
+        "f56"
+      ],
+      "hand_sequence": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1"
+      ],
+      "lang_sequence": [
+        "A",
+        "B",
+        "A",
+        "A",
+        "A",
+        "A",
+        "B",
+        "A"
+      ],
+      "is_hand_palindrome": true,
+      "is_lang_palindrome": true,
+      "quire_pairing_p_value": 0.14285714285714285,
+      "bifolia": [
+        {
+          "quire": "Quire 7 (G)",
+          "bifolio_position": 1,
+          "left_leaf": "f49",
+          "right_leaf": "f56",
+          "page_separation": 13,
+          "left_hand": "1",
+          "right_hand": "1",
+          "left_lang": "A",
+          "right_lang": "A",
+          "same_hand": true,
+          "same_lang": true,
+          "left_words": 283,
+          "right_words": 194,
+          "word_jaccard": 0.1321,
+          "stem_jaccard": 0.2763,
+          "shared_stems_count": 42,
+          "shared_stems_sample": [
+            "ai",
+            "al",
+            "ar",
+            "ch",
+            "cho",
+            "ct",
+            "cth",
+            "ctho",
+            "d",
+            "dy",
+            "ee",
+            "eo",
+            "es",
+            "ey",
+            "ho"
+          ]
+        },
+        {
+          "quire": "Quire 7 (G)",
+          "bifolio_position": 2,
+          "left_leaf": "f50",
+          "right_leaf": "f55",
+          "page_separation": 9,
+          "left_hand": "2",
+          "right_hand": "2",
+          "left_lang": "B",
+          "right_lang": "B",
+          "same_hand": true,
+          "same_lang": true,
+          "left_words": 193,
+          "right_words": 229,
+          "word_jaccard": 0.1566,
+          "stem_jaccard": 0.28,
+          "shared_stems_count": 35,
+          "shared_stems_sample": [
+            "ai",
+            "al",
+            "am",
+            "ar",
+            "ch",
+            "ck",
+            "ckh",
+            "da",
+            "dai",
+            "dy",
+            "ed",
+            "eda",
+            "ee",
+            "ek",
+            "eo"
+          ]
+        },
+        {
+          "quire": "Quire 7 (G)",
+          "bifolio_position": 3,
+          "left_leaf": "f51",
+          "right_leaf": "f54",
+          "page_separation": 5,
+          "left_hand": "1",
+          "right_hand": "1",
+          "left_lang": "A",
+          "right_lang": "A",
+          "same_hand": true,
+          "same_lang": true,
+          "left_words": 171,
+          "right_words": 204,
+          "word_jaccard": 0.1405,
+          "stem_jaccard": 0.3171,
+          "shared_stems_count": 39,
+          "shared_stems_sample": [
+            "ai",
+            "al",
+            "am",
+            "ar",
+            "ch",
+            "che",
+            "ck",
+            "ckh",
+            "ct",
+            "cth",
+            "cthe",
+            "da",
+            "dai",
+            "dy",
+            "ee"
+          ]
+        },
+        {
+          "quire": "Quire 7 (G)",
+          "bifolio_position": 4,
+          "left_leaf": "f52",
+          "right_leaf": "f53",
+          "page_separation": 1,
+          "left_hand": "1",
+          "right_hand": "1",
+          "left_lang": "A",
+          "right_lang": "A",
+          "same_hand": true,
+          "same_lang": true,
+          "left_words": 147,
+          "right_words": 133,
+          "word_jaccard": 0.0721,
+          "stem_jaccard": 0.2973,
+          "shared_stems_count": 33,
+          "shared_stems_sample": [
+            "ai",
+            "al",
+            "am",
+            "ar",
+            "ch",
+            "che",
+            "cho",
+            "ckh",
+            "ct",
+            "cth",
+            "cthe",
+            "da",
+            "dai",
+            "do",
+            "dy"
+          ]
+        }
+      ]
+    },
+    {
+      "quire": "Quire 8 (H)",
+      "leaves": [
+        "f57",
+        "f58",
+        "f65",
+        "f66"
+      ],
+      "hand_sequence": [
+        "5",
+        "3",
+        "3",
+        "5"
+      ],
+      "lang_sequence": [
+        "B",
+        "A",
+        "A",
+        "B"
+      ],
+      "is_hand_palindrome": true,
+      "is_lang_palindrome": true,
+      "quire_pairing_p_value": 0.3333333333333333,
+      "bifolia": [
+        {
+          "quire": "Quire 8 (H)",
+          "bifolio_position": 1,
+          "left_leaf": "f57",
+          "right_leaf": "f66",
+          "page_separation": 17,
+          "left_hand": "5",
+          "right_hand": "5",
+          "left_lang": "B",
+          "right_lang": "B",
+          "same_hand": true,
+          "same_lang": true,
+          "left_words": 284,
+          "right_words": 464,
+          "word_jaccard": 0.1042,
+          "stem_jaccard": 0.2391,
+          "shared_stems_count": 55,
+          "shared_stems_sample": [
+            "ai",
+            "al",
+            "am",
+            "ar",
+            "cfh",
+            "ch",
+            "cho",
+            "ck",
+            "ckh",
+            "cth",
+            "d",
+            "da",
+            "dai",
+            "dy",
+            "ea"
+          ]
+        },
+        {
+          "quire": "Quire 8 (H)",
+          "bifolio_position": 2,
+          "left_leaf": "f58",
+          "right_leaf": "f65",
+          "page_separation": 13,
+          "left_hand": "3",
+          "right_hand": "3",
+          "left_lang": "A",
+          "right_lang": "A",
+          "same_hand": true,
+          "same_lang": true,
+          "left_words": 757,
+          "right_words": 48,
+          "word_jaccard": 0.0264,
+          "stem_jaccard": 0.1065,
+          "shared_stems_count": 23,
+          "shared_stems_sample": [
+            "ai",
+            "al",
+            "am",
+            "ar",
+            "as",
+            "ch",
+            "ck",
+            "ckh",
+            "dy",
+            "ed",
+            "ee",
+            "eek",
+            "eo",
+            "ey",
+            "fch"
+          ]
+        }
+      ]
+    }
+  ],
+  "spotlight_folios": {
+    "f26r": {
+      "folio": "f26r",
+      "words": 90,
+      "unique_stems": 41,
+      "drawing_intrusions": 19,
+      "edy_eey_rate": 0.3444,
+      "q_initial_rate": 0.1222,
+      "top_words": [
+        [
+          "s",
+          7
+        ],
+        [
+          "qokedy",
+          6
+        ],
+        [
+          "ytedy",
+          4
+        ],
+        [
+          "dy",
+          3
+        ],
+        [
+          "aiin",
+          3
+        ],
+        [
+          "daiin",
+          3
+        ],
+        [
+          "qokeedy",
+          3
+        ],
+        [
+          "chedy",
+          2
+        ]
+      ],
+      "line_splits": [
+        {
+          "loc": "1,@P0",
+          "intr": 2,
+          "segments": [
+            [
+              "psheoky",
+              "odaiir",
+              "qoy"
+            ],
+            [
+              "ofshod",
+              "chypchey",
+              "ypchedy",
+              "ain"
+            ],
+            [
+              "chofo",
+              "chedy"
+            ]
+          ]
+        },
+        {
+          "loc": "2,+P0",
+          "intr": 2,
+          "segments": [
+            [
+              "dchey",
+              "138aiin",
+              "adeeody"
+            ],
+            [
+              "ykecthey",
+              "chedy",
+              "ytedy",
+              "dy"
+            ],
+            [
+              "checthedy",
+              "ls"
+            ]
+          ]
+        },
+        {
+          "loc": "3,+P0",
+          "intr": 2,
+          "segments": [
+            [
+              "oaiin",
+              "shcthy",
+              "cthedy",
+              "oloy"
+            ],
+            [
+              "ykeedy",
+              "olchedy",
+              "dal"
+            ],
+            [
+              "y",
+              "sheey",
+              "s",
+              "aiin",
+              "s"
+            ]
+          ]
+        },
+        {
+          "loc": "4,+P0",
+          "intr": 2,
+          "segments": [
+            [
+              "qokedy",
+              "cheos",
+              "ytedy",
+              "qokedy"
+            ],
+            [
+              "ytedy",
+              "chekedy"
+            ],
+            [
+              "daiin",
+              "odam",
+              "s",
+              "aldy"
+            ]
+          ]
+        },
+        {
+          "loc": "5,+P0",
+          "intr": 2,
+          "segments": [
+            [
+              "saiin",
+              "shedy",
+              "eedy",
+              "eedy",
+              "s",
+              "chy"
+            ],
+            [
+              "daiin",
+              "cthedy"
+            ],
+            [
+              "qokeedy",
+              "qokedy",
+              "cthey"
+            ]
+          ]
+        },
+        {
+          "loc": "7,+P0",
+          "intr": 2,
+          "segments": [
+            [
+              "pcho",
+              "qokedy",
+              "dar",
+              "sheo",
+              "ypchseds",
+              "s"
+            ],
+            [
+              "aiin"
+            ],
+            [
+              "sha",
+              "p",
+              "chedyfchy",
+              "dalchedy",
+              "sar"
+            ]
+          ]
+        }
+      ]
+    },
+    "f31r": {
+      "folio": "f31r",
+      "words": 103,
+      "unique_stems": 45,
+      "drawing_intrusions": 0,
+      "edy_eey_rate": 0.2816,
+      "q_initial_rate": 0.1845,
+      "top_words": [
+        [
+          "s",
+          4
+        ],
+        [
+          "aiin",
+          4
+        ],
+        [
+          "daiin",
+          4
+        ],
+        [
+          "qokedy",
+          4
+        ],
+        [
+          "dar",
+          3
+        ],
+        [
+          "chedy",
+          3
+        ],
+        [
+          "okedy",
+          3
+        ],
+        [
+          "okeedy",
+          2
+        ]
+      ],
+      "line_splits": []
+    },
+    "f41r": {
+      "folio": "f41r",
+      "words": 97,
+      "unique_stems": 55,
+      "drawing_intrusions": 11,
+      "edy_eey_rate": 0.4124,
+      "q_initial_rate": 0.2165,
+      "top_words": [
+        [
+          "qokedy",
+          8
+        ],
+        [
+          "dy",
+          3
+        ],
+        [
+          "chekedy",
+          3
+        ],
+        [
+          "chedy",
+          3
+        ],
+        [
+          "ykedy",
+          2
+        ],
+        [
+          "yteedy",
+          2
+        ],
+        [
+          "dchedy",
+          2
+        ],
+        [
+          "shedy",
+          2
+        ]
+      ],
+      "line_splits": [
+        {
+          "loc": "1,@P0",
+          "intr": 1,
+          "segments": [
+            [
+              "pshey",
+              "kedaleey",
+              "oked",
+              "seekeeey"
+            ],
+            [
+              "opshes",
+              "opchd",
+              "qotchedy",
+              "shkakeedy"
+            ]
+          ]
+        },
+        {
+          "loc": "2,+P0",
+          "intr": 1,
+          "segments": [
+            [
+              "ykeeo",
+              "alshey",
+              "ykedy",
+              "kesh",
+              "dy",
+              "dy"
+            ],
+            [
+              "dor",
+              "ycheoky",
+              "qokeed",
+              "chpy",
+              "qokedy",
+              "dy"
+            ]
+          ]
+        },
+        {
+          "loc": "3,+P0",
+          "intr": 1,
+          "segments": [
+            [
+              "qok",
+              "sayunclear",
+              "qokedy",
+              "ychdykchdy"
+            ],
+            [
+              "qokedy",
+              "qokedy",
+              "shekchy",
+              "cheky",
+              "daly"
+            ]
+          ]
+        },
+        {
+          "loc": "4,+P0",
+          "intr": 1,
+          "segments": [
+            [
+              "chdchy",
+              "ytcheeky",
+              "ypchedy",
+              "schdy"
+            ],
+            [
+              "ytedy",
+              "y",
+              "chees",
+              "oteey",
+              "otal",
+              "dam"
+            ]
+          ]
+        },
+        {
+          "loc": "5,+P0",
+          "intr": 1,
+          "segments": [
+            [
+              "qotchy",
+              "sal",
+              "yteedy",
+              "kchdy"
+            ],
+            [
+              "dchedy",
+              "keedy",
+              "dchedy",
+              "dalain"
+            ]
+          ]
+        },
+        {
+          "loc": "6,+P0",
+          "intr": 2,
+          "segments": [
+            [
+              "shedey",
+              "polchedy",
+              "qokeey",
+              "chekedy",
+              "ytey"
+            ],
+            [
+              "chkeeod"
+            ],
+            [
+              "ypchedpy",
+              "shepy",
+              "shedy"
+            ]
+          ]
+        }
+      ]
+    },
+    "f48r": {
+      "folio": "f48r",
+      "words": 89,
+      "unique_stems": 54,
+      "drawing_intrusions": 0,
+      "edy_eey_rate": 0.1798,
+      "q_initial_rate": 0.0899,
+      "top_words": [
+        [
+          "ykeey",
+          2
+        ],
+        [
+          "ar",
+          2
+        ],
+        [
+          "pshdaiin",
+          1
+        ],
+        [
+          "ypchdy",
+          1
+        ],
+        [
+          "opchey",
+          1
+        ],
+        [
+          "y",
+          1
+        ],
+        [
+          "dal",
+          1
+        ],
+        [
+          "sheodaiin",
+          1
+        ]
+      ],
+      "line_splits": []
+    }
+  }
+}

@@ -3,14 +3,14 @@
 tools/build_interactive_explorer.py
 
 Builds `explorer/index.html` — a self-contained, zero-server interactive local HTML
-explorer for the Voynich Manuscript research repository (v14.0 Grand Release).
+explorer for the Voynich Manuscript research repository (v17.0 Grand Release).
 
-Includes 16 synchronized interactive views:
-  1. Page-by-Page Visual Reader (66 iconic folios with high-res scans & clickable clauses)
-  2. Botanical, Astrological, Balneological & Cosmological Identifications (75 flagship specimens `SPEC-01..75`)
+Includes 19 synchronized interactive views:
+  1. Page-by-Page Visual Reader (78 iconic folios with high-res scans & clickable clauses)
+  2. Botanical, Astrological, Balneological & Cosmological Identifications (90 flagship specimens `SPEC-01..90`)
   ...
-  15. Wave 47: Milestone 200 Attacks — Gemini/Cancer Decans, f67v Diptych & f75r Balneo Hub
-  16. Wave 48: Post-200 Synthesis — Sagittarius Centaur, Albarelli Registers & Binary Star Parity
+  18. Wave 50: Milestone 50th Wave — Scribe 5, f65r -m Triad, f84v @Pb Callouts, f90 Foldout Inversion & f113v Star Openers
+  19. Wave 51: 18/18 Palindromic Bifolio Law, 20/20 Quire 13 Completion, Rosettes 2×3 Grid & f103–f104r Quire 20 Seeding (v17.0)
 """
 
 import json
@@ -1235,6 +1235,70 @@ WALKTHROUGH_FOLIOS = [
                 "english": "[f90v1 & f93v Inter-Stem Micro-Corridors]: Short 1–2 word bridge tokens threaded between flower stems and red-berry spikes (`<-> shckheo <-> otol shey <->`, `<-> opchy <->`); [f113v Starred Recipe Openers]: `14/15` (`93.33%`) gallows recipe headers (`folorarom, fchoctheody, polaiin, poraiin, tokary...`)."
             }
         ]
+    },
+    {
+        "folio": "f26r & f31r",
+        "title": "The First Currier B Herbal Bifolium (`f26 <-> f31` in Quire 4 `[1,2,1,1,1,1,2,1]`): Blue-Berry Spikes (`f26r`) & 7 Daisy Heads (`f31r`) Sharing `74.32%` Stem Tokens ($p = 8.37 \\times 10^{-9}$)",
+        "section": "Herbal B (`$I=H`, Quire 4 Conjugate Bifolium `f26 <-> f31`, `$L=B`, Scribe 2)",
+        "pdf_page": 52,
+        "image": "../pages/f26r_first_currier_b_bifolio_herbal_enh.png",
+        "secondary_image": "../pages/f31r_conjugate_currier_b_bifolio_enh.png",
+        "summary": "Why does the Voynich Manuscript switch from Scribe 1 (Currier A) on `f25v` to Scribe 2 (Currier B) on `f26r` (above, `p52`), switch back to Scribe 1 for `4` leaves (`f27–f30`), and switch back to Scribe 2 on `f31r–v` (below, `p62`)? Because `f26` and `f31` are the two halves of the exact same physical sheet of vellum (`Bifolium #2` of Quire 4 `[1,2,1,1,1,1,2,1]`)! Across all `5` mixed-language Herbal quires (`Quires 4–8`, `18` bifolia = `36` leaves), `18/18` (`100.0%`) of bifolia pair leaves of the exact same Scribe Hand and Currier Language (`p = 8.37e-9`), and `74.32%` (`275/370`) of tokens on `f26 <-> f31` share canonical stems (`Attack 213`)!",
+        "clauses": [
+            {
+                "locus": "f26r.1 (`@P0` First Currier B Line) + f31r.1 & f31r.5 (Conjugate Bifolium Paragraphs)",
+                "eva": "pchedar qodaro dain sodar oteey tedar otedy dar chdy pdeey qokchdy otedar shdy tedchey",
+                "english": "[f26r First Currier B Opener]: Begin the infused root preparation (`pchedar`), take one portion (`dain`) of the drawn root (`sodar`) and boil in the vessel (`oteey tedar otedy dar chdy`); [f31r Conjugate Bifolium Opener]: Begin boiling the core infusion (`pdeey qokchdy`) and wash the root (`otedar shdy tedchey`)."
+            }
+        ]
+    },
+    {
+        "folio": "f41r & f48r",
+        "title": "Scribe 5's Conjugate Botanical Twins on the Outer Bifolium of Quire 6 (`f41r <-> f48r`, `[5,1,2,1,1,2,1,5]`): Finger-Lobed Green Cup Leaves (`68.71%` Stem Coverage, $z = +4.49$)",
+        "section": "Herbal B (`$I=H`, Quire 6 Outer Conjugate Bifolium `f41 <-> f48`, `$L=B`, Scribe 5)",
+        "pdf_page": 82,
+        "image": "../pages/f41r_scribe5_quire6_outer_recto_enh.png",
+        "secondary_image": "../pages/f48r_scribe5_quire6_conjugate_recto_enh.png",
+        "summary": "Separated by `12` pages (`6` leaves `f42–f47`) of Scribes 1 and 2 in the bound book, `f41r` (above, `p82`, first leaf of Quire 6) and `f48r` (below, `p96`, last leaf of Quire 6) are the two halves of the exact same outer vellum sheet (`f41 <-> f48`). Both are written by the rare Scribe 5 (`$H=5`), both open with `-ody` gallows words (`pcshol.chody` / `pchor.qokody`), `68.71%` (`213/310`) of their tokens share canonical stems (`z = +4.49`), and both paintings depict conjugate botanical twins with dark-green cup leaves ending in 4–6 finger-like distal lobes (`Attack 213`)!",
+        "clauses": [
+            {
+                "locus": "f41r.1 (Scribe 5 Outer Left Opener) + f48r.1 & f48r.6 (Scribe 5 Conjugate Outer Right Openers)",
+                "eva": "pcshol chody qokody ytchdy chckhedy daiin pchor qokody chodar chody tedar shol qokedy",
+                "english": "[f41r Scribe 5 Cup-Leaf Opener]: Begin washing the liquid vessel (`pcshol chody`), boil the core compound (`qokody ytchdy chckhedy`) in one dose (`daiin`); [f48r Conjugate Twin Opener]: Begin the infused compound (`pchor qokody chodar chody`) and boil the root liquid (`tedar shol qokedy`)."
+            }
+        ]
+    },
+    {
+        "folio": "f78v, f79v & f80v",
+        "title": "Completing `20/20` (`100.0%`) Visual Coverage of Quire 13: The `f79v` Cross-Bearing Nymph & 4-Quadruped Pool, `f80v` Scaly Armadillo Beast & `64.22%` Trans-Leaf Callout Echo",
+        "section": "Balneological / Hydrotherapy (`$I=B`, Quire 13, `$L=B`, Scribe 2)",
+        "pdf_page": 145,
+        "image": "../pages/f79v_balneo_nymph_ring_canopy_verso_enh.png",
+        "secondary_image": "../pages/f80v_balneo_left_margin_nymph_ladder_enh.png",
+        "summary": "Rendering `f78v` (`p143`), `f79v` (above, `p145`), and `f80v` (below, `p147`) completes `20/20` (`100.0%`) high-resolution visual scan coverage of the Balneological section (`f75r–f84v`). On `f79v`, the top-left nymph under a blue shower canopy holds a Christian cross (`+`) in her raised left hand while 4 small quadrupeds flank the bottom green pool; on `f80v`, a crowned nymph stands directly above a scaly armored armadillo/pangolin beast. Across all `204` diagram/margin callout words in Quire 13, `64.22%` (`131/204`) echo their root stem in the prose on the opposite side of the same leaf (`70.00%` of `f80r` gallery labels echo in facing `f79v`, `Attack 214`)!",
+        "clauses": [
+            {
+                "locus": "f78v.1 (`pchedy`) + f79v.1 (`tchedy`, Cross-Bearing Nymph Page) + f80v.1 (`pchedar`, Scaly Beast Page)",
+                "eva": "pchedy qokedy shedy qokeedy tchedy qokchedy shedy dar ol pchedar qokeedy shedy qokaiin olchedy",
+                "english": "[f78v 5-Arcade Pool Opener]: Begin steeping and boiling in the bath (`pchedy qokedy shedy qokeedy`); [f79v Cross Nymph & 4-Quadruped Pool Opener]: From the infused bath, boil and wash in the pool (`tchedy qokchedy shedy dar ol`); [f80v Scaly Beast Opener]: Begin the root infusion and boil one measure in the bath (`pchedar qokeedy shedy qokaiin olchedy`)."
+            }
+        ]
+    },
+    {
+        "folio": "f85r2–f86v6 & f103v–f104r",
+        "title": "The `2×3` Rosettes Reverse Grid (`p157–p158`, `81.82%` `fRos` Coverage, `f86v3` `4/4` Cardinal `t-` Acrostic, $p = 0.00285$) & `#1` Recipe Leaf `f103r–v` (`31` Recipes, `87.60%` Quire 20 Seeding)",
+        "section": "Cosmological Reverse Grid (`Quire 14`, `p157–p158`) & Quire 20 Opening Spread (`f103v–f104r`, `p185–p186`)",
+        "pdf_page": 157,
+        "image": "../pages/f85r1_f86v4_f86v3_rosettes_reverse_top_enh.png",
+        "secondary_image": "../pages/f103v_quire20_opening_verso_13stars_enh.png",
+        "summary": "Unfolded scans `p157` (above: `f85r2` 4-Cardinal Sun Wheel | `f86v4` Scalloped Moon Wheel | `f86v6` `479`-word Treatise) and `p158` (`f86v5` | `f86v3` 4-Corner Scaly Cones) reveal the `2×3` reverse grid of Quire 14 (`1,855` words), which covers `81.82%` (`441/539`) of all word tokens' stems on the `fRos` 9-Rosette map (`70.50%` on `f86v6` alone!). On `f86v3`, `4/4` (`100.0%`) of the Cardinal Perimeter Treatises (`<!N> tchedy`, `<!W> tchol`, `<!E> tshedal`, `<!S> toeeedchy`, `p = 0.00285`; `5/6` total with Center `tshdchey`) open with a `t-` gallows, and Line 3 has the 4-fold epizeuxis `taiin.ytaiin.ytaiin.ytaiin` (`Attack 215`). Below (`f103v`, `p185`), Leaf `f103r–v` (`985` words, `31` recipes) is the `#1` highest-recipe-count leaf in the codex (`86.12%` coupling) and with `f104r` seeds `87.60%` of all `10,892` tokens in Quire 20 (`Attack 216`)!",
+        "clauses": [
+            {
+                "locus": "f86v3 (`4/4` Cardinal `t-` Acrostic + Line 3 Epizeuxis) + f103v.1 & f104r.1 (`#1` Recipe Leaf & Quire 20 Seeding)",
+                "eva": "tchedy tchol tshedal toeeedchy tshdchey taiin ytaiin ytaiin ytaiin or ar ytas am pchdy shol pchor qokeedy",
+                "english": "[f86v3 Cardinal `t-` Acrostic & 4-Fold Measure Epizeuxis]: North, West, East, South, and Center `t-` headers (`tchedy, tchol, tshedal, toeeedchy, tshdchey`) and 4-part measure (`taiin ytaiin ytaiin ytaiin or ar ytas am`); [f103v & f104r Recipe Openers]: Begin steeping in the bath vessel (`pchdy shol`) and boil the compound (`pchor qokeedy`)."
+            }
+        ]
     }
 ]
 
@@ -1310,6 +1374,10 @@ def main():
     a210_data = json.loads((ROOT / "data" / "attack210_balneo_f76v_f81v_f84v_closure_and_pb_callouts.json").read_text(encoding="utf-8"))
     a211_data = json.loads((ROOT / "data" / "attack211_f90_foldout_inversion_and_f93v_triple_split_syntax.json").read_text(encoding="utf-8"))
     a212_data = json.loads((ROOT / "data" / "attack212_quire20_f113v_f114r_and_milestone_wave50_compendium.json").read_text(encoding="utf-8"))
+    a213_data = json.loads((ROOT / "data" / "attack213_palindromic_bifolio_nesting_and_conjugate_sheets.json").read_text(encoding="utf-8"))
+    a214_data = json.loads((ROOT / "data" / "attack214_balneo_20page_completion_f78v_f79v_f80v_and_transleaf_echo.json").read_text(encoding="utf-8"))
+    a215_data = json.loads((ROOT / "data" / "attack215_rosettes_6panel_reverse_grid_f85r2_f86v3_f86v6.json").read_text(encoding="utf-8"))
+    a216_data = json.loads((ROOT / "data" / "attack216_quire20_opening_spread_f103v_f104r_and_wave51_compendium.json").read_text(encoding="utf-8"))
 
     rosettes_panels = []
     for f_id, prof in rosettes_data["folio_profiles"].items():
@@ -1432,6 +1500,11 @@ def main():
         "wave50_f90_pairs": a211_data["f90_foldout_inversion_proof"]["pairwise_stem_sharing"],
         "wave50_multi_intrusions": a211_data["f93r_f93v_leaf_coupling"]["f93v_multi_intrusion_lines"] + a211_data["multi_intrusion_micro_corridor_law"]["f90v1_multi_intrusion_lines"],
         "wave50_f113v_recipes": a212_data["f113v_starred_recipes"]["recipes"],
+        "wave51_conjugate_bifolia": [b for q in a213_data["quire_reports"] for b in q["bifolia"]],
+        "wave51_transleaf_callouts": a214_data["transleaf_callout_reports"],
+        "wave51_rosettes_reverse": a215_data["panel_profiles"],
+        "wave51_f86v3_openers": a215_data["f86v3_paragraph_openers"],
+        "wave51_q20_bifolia": a216_data["quire20_7bifolia"],
     }, ensure_ascii=False)
 
     html = f"""<!DOCTYPE html>
@@ -1834,8 +1907,8 @@ def main():
       <p>Click any word token on any page to peel apart its Prefix + Root Stem + Suffix in plain English</p>
     </div>
     <nav class="nav-tabs" aria-label="Explorer Views">
-      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (74)</button>
-      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (85)</button>
+      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (78)</button>
+      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (90)</button>
       <button class="tab-btn" onclick="switchTab('lexicon', this)">3. Core Dictionary &amp; 8-Case Grammar</button>
       <button class="tab-btn" onclick="switchTab('zodiac', this)">4. Zodiac Months &amp; Bath Plumbing</button>
       <button class="tab-btn" onclick="switchTab('recipes', this)">5. Starred Recipes, Rosettes &amp; 4-Transcriber Proof</button>
@@ -1851,7 +1924,8 @@ def main():
       <button class="tab-btn" onclick="switchTab('wave47', this)">15. Wave 47: Milestone 200 Attacks — Gemini/Cancer Decans, f67v Diptych &amp; f75r Balneo Hub</button>
       <button class="tab-btn" onclick="switchTab('wave48', this)">16. Wave 48: Sagittarius Centaur, Albarelli Registers &amp; Binary Star Parity</button>
       <button class="tab-btn" onclick="switchTab('wave49', this)">17. Wave 49: 10°+5° Decan Law, Barrel Hinge, Unfolded Sheets &amp; Currier B Herbal Bridge</button>
-      <button class="tab-btn" onclick="switchTab('wave50', this)">18. Wave 50: Milestone 50th Wave — Scribe 5, f65r -m Triad, f84v @Pb Callouts, f90 Foldout Inversion &amp; f113v Star Openers (v16.0)</button>
+      <button class="tab-btn" onclick="switchTab('wave50', this)">18. Wave 50: Milestone 50th Wave — Scribe 5, f65r -m Triad, f84v @Pb Callouts, f90 Foldout Inversion &amp; f113v Star Openers</button>
+      <button class="tab-btn" onclick="switchTab('wave51', this)">19. Wave 51: 18/18 Palindromic Bifolio Law, 20/20 Quire 13 Completion, Rosettes 2×3 Grid &amp; f103–f104r Quire 20 Seeding (v17.0)</button>
     </nav>
   </div>
 </header>
@@ -1896,7 +1970,7 @@ def main():
   <!-- TAB 2: BOTANICAL & ASTRO SPECIMENS -->
   <section id="tab-specimens" class="tab-panel">
     <div style="margin-bottom: 1rem;">
-      <h2 style="margin: 0 0 0.25rem;">85 Flagship Botanical, Astronomical, Balneological, Cosmological, Margin-Key &amp; Visual-Twin Identifications</h2>
+      <h2 style="margin: 0 0 0.25rem;">90 Flagship Botanical, Astronomical, Balneological, Cosmological, Margin-Key &amp; Visual-Twin Identifications</h2>
       <p style="margin: 0; color: var(--muted);">
         Matching the manuscript's high-resolution drawings to concrete 15th-century European herbal species, star clusters, bilingual month wheels, labelled hydrotherapy pipes, cosmological spheres, margin keys, quire signatures, and visual twin plant pairs.
       </p>
@@ -3125,6 +3199,93 @@ def main():
             <th>Star-Opener Word (Click to Decode)</th>
             <th>Opener Canonical Stem</th>
             <th>Closing Word (Click to Decode)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- TAB 19: WAVE 51 (v17.0) -->
+  <section id="tab-wave51" class="tab-panel">
+    <h2>1. The <code>18/18 = 100.0%</code> Palindromic Bifolio Scribe &amp; Language Nesting Law Across Quires 4–8 (<code>f25r–f66v</code>, <code>p = 8.37e-9</code>) &amp; Conjugate Sheet Continuity (<code>z = +4.49</code>, <code>Attack 213</code>)</h2>
+    <p style="color: var(--muted);">
+      Across all 5 mixed-language Herbal quires (<code>Quires 4–8</code>, <code>18</code> surviving bifolia = <code>36</code> leaves = <code>72</code> pages across Scribes 1, 2, 3, and 5), <strong>18 / 18 (100.0%) of physical bifolia pair leaves of the exact same Scribe Hand and Currier Language across the central sewing fold (<code>leaf i &lt;-&gt; leaf N+1-i</code>, global <code>p = 8.37e-9</code>)</strong>, and conjugate bifolio halves achieve a <strong>mean Stem Jaccard of <code>0.2737</code> vs <code>0.2259</code> cross-scribe (<code>1.21×</code> lift, within-quire permutation <code>z = +4.49, p &lt; 0.0002</code>)</strong>:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="wave51BifoliaTable">
+        <thead>
+          <tr>
+            <th>Quire</th>
+            <th>Bifolium #</th>
+            <th>Conjugate Pair (<code>leaf i &lt;-&gt; leaf N+1-i</code>)</th>
+            <th>Page Separation</th>
+            <th>Scribe Hand Match</th>
+            <th>Currier Language Match</th>
+            <th>Words (Left / Right)</th>
+            <th>Canonical Stem Jaccard</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>2. Completing <code>20/20</code> (<code>100.0%</code>) Visual Coverage of Quire 13 Balneological (<code>f78v, f79v, f80v</code>) &amp; Trans-Leaf Callout Propagation (<code>64.22%</code> Opposite-Side Echo, <code>Attack 214</code>)</h2>
+    <p style="color: var(--muted);">
+      Across all <code>204</code> diagram/margin callout words in Quire 13 (<code>f75r–f84v</code>), <strong>64.22% (<code>131 / 204</code>) echo their canonical root stem in the prose on the opposite side of the same physical leaf</strong> (<code>67.16%</code> across the combined leaf), and at the central sewing fold (<code>f79v &lt;-&gt; f80r</code>), <strong>70.00% (<code>7 / 10</code>) of <code>f80r</code>'s Upper 8-Nymph Gallery labels echo directly in facing <code>f79v</code>'s prose</strong>:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="wave51TransleafTable">
+        <thead>
+          <tr>
+            <th>Callout Folio &rarr; Opposite Side</th>
+            <th>Callout Tokens</th>
+            <th>Same-Side Prose Stem Echo</th>
+            <th>Opposite-Side Prose Stem Echo</th>
+            <th>Combined-Leaf Stem Echo</th>
+            <th>Opposite-Side Matching Callouts (Click to Decode)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>3. The <code>2×3</code> Reverse Grid of the Quire 14 Rosettes Sheet (<code>p157–p158</code>, <code>1,855</code> Words): <code>81.82%</code> <code>fRos</code> Token Stem Coverage &amp; <code>f86v3</code> <code>4/4 = 100.0%</code> Cardinal <code>t-</code> Gallows Acrostic (<code>p = 0.00285</code>, <code>Attack 215</code>)</h2>
+    <p style="color: var(--muted);">
+      Unfolded scans <code>p157</code> (Top Row: <code>f85r2 | f86v4 | f86v6</code>) and <code>p158</code> (Bottom Row: <code>f85r1 | f86v5 | f86v3</code>) establish the complete 6-panel reverse commentary for the <code>fRos</code> 9-Rosette map (<strong>81.82% token stem coverage across all 6 panels; 70.50% on <code>f86v6</code> alone</strong>), while on <code>f86v3</code>, <strong>4/4 (100.0%) of the Cardinal Perimeter Treatises (<code>&lt;!N&gt; tchedy</code>, <code>&lt;!W&gt; tchol</code>, <code>&lt;!E&gt; tshedal</code>, <code>&lt;!S&gt; toeeedchy</code>, <code>p = 0.00285</code>; <code>5/6</code> total with Center <code>tshdchey</code>) open with a <code>t-</code> gallows</strong>:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="wave51RosettesReverseTable">
+        <thead>
+          <tr>
+            <th>Reverse Panel</th>
+            <th>Physical Grid Row</th>
+            <th>Words (Unique Stems)</th>
+            <th><code>qo-</code> Rate</th>
+            <th><code>-edy/-eey</code> Rate</th>
+            <th><code>fRos</code> Unique Stem Coverage</th>
+            <th><code>fRos</code> Token Stem Coverage</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>4. Quire 20 Opening Leaf (<code>f103r–f103v</code> = <code>985</code> Words, <code>31</code> Starred Recipes — <code>#1</code> Highest-Recipe-Count Leaf) &amp; 7-Bifolia Conjugate Coupling Across Quire 20 (<code>87.60%</code> Lexical Seeding, <code>Attack 216</code>)</h2>
+    <p style="color: var(--muted);">
+      Opening leaf <code>f103r–f103v</code> (<code>985</code> words, <code>18 + 13 = 31</code> starred recipes, <code>86.12%</code> trans-leaf stem coupling) seeds <strong>81.54% of all <code>10,892</code> word tokens in Quire 20</strong>—rising to <strong>87.60% (<code>9,541 / 10,892</code>) when facing <code>f104r</code> (<code>448</code> words, <code>13</code> alternating Red/Plain stars) is included</strong>:
+    </p>
+    <div style="overflow-x: auto;">
+      <table id="wave51Quire20BifoliaTable">
+        <thead>
+          <tr>
+            <th>Quire 20 Bifolium</th>
+            <th>Conjugate Leaf Pair</th>
+            <th>Left Leaf Words</th>
+            <th>Right Leaf Words</th>
+            <th>Exact Word Jaccard</th>
+            <th>Canonical Stem Jaccard</th>
+            <th>Right-in-Left Token Stem Coverage</th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -4396,6 +4557,83 @@ function renderWave50Tab() {{
   }}
 }}
 
+function renderWave51Tab() {{
+  const bBody = document.querySelector("#wave51BifoliaTable tbody");
+  if (bBody) {{
+    bBody.innerHTML = (DATA.wave51_conjugate_bifolia || []).map(b => {{
+      const hl = (b.left_leaf === "f26" || b.left_leaf === "f41") ? 'style="background:var(--gold-soft);"' : '';
+      return `
+        <tr ${{hl}}>
+          <td><strong>${{b.quire}}</strong></td>
+          <td>Sheet #${{b.bifolio_position}}</td>
+          <td><strong><code>${{b.left_leaf}} &lt;-&gt; ${{b.right_leaf}}</code></strong></td>
+          <td>${{b.page_separation}} pages</td>
+          <td><span class="badge" style="background:var(--green-soft);color:var(--green)">Scribe ${{b.left_hand}} = Scribe ${{b.right_hand}} (100%)</span></td>
+          <td><span class="badge" style="background:var(--blue-soft);color:var(--blue)">Currier ${{b.left_lang}} = ${{b.right_lang}}</span></td>
+          <td>${{b.left_words}} / ${{b.right_words}}</td>
+          <td><strong>${{b.stem_jaccard}}</strong> (${{b.shared_stems_count}} stems)</td>
+        </tr>
+      `;
+    }}).join("");
+  }}
+
+  const tBody = document.querySelector("#wave51TransleafTable tbody");
+  if (tBody) {{
+    tBody.innerHTML = (DATA.wave51_transleaf_callouts || []).map(t => {{
+      const hl = t.opposite_is_unlabeled ? 'style="background:var(--gold-soft);"' : '';
+      const chips = (t.opposite_side_matching_words || []).slice(0, 8).map(w =>
+        `<span class="word-chip" onclick="setWord('${{w}}')"><strong>${{w}}</strong></span>`
+      ).join(" ");
+      return `
+        <tr ${{hl}}>
+          <td><strong><code>${{t.callout_folio}} &rarr; ${{t.opposite_folio}}</code></strong></td>
+          <td>${{t.callout_tokens}} tokens</td>
+          <td>${{t.same_side_stem_hits}}/${{t.callout_tokens}} (${{(t.same_side_stem_rate * 100).toFixed(1)}}%)</td>
+          <td><span class="badge" style="background:var(--green-soft);color:var(--green)">${{t.opposite_side_stem_hits}}/${{t.callout_tokens}} (${{(t.opposite_side_stem_rate * 100).toFixed(1)}}%)</span></td>
+          <td><strong>${{t.combined_leaf_stem_hits}}/${{t.callout_tokens}} (${{(t.combined_leaf_stem_rate * 100).toFixed(1)}}%)</strong></td>
+          <td>${{chips || "—"}}</td>
+        </tr>
+      `;
+    }}).join("");
+  }}
+
+  const rBody = document.querySelector("#wave51RosettesReverseTable tbody");
+  if (rBody) {{
+    rBody.innerHTML = (DATA.wave51_rosettes_reverse || []).map(p => {{
+      const hl = (p.panel === "f86v6" || p.panel === "f86v3") ? 'style="background:var(--gold-soft);"' : '';
+      return `
+        <tr ${{hl}}>
+          <td><strong><code>${{p.panel}}</code></strong></td>
+          <td>${{p.grid_row}}</td>
+          <td><strong>${{p.words}}</strong> (${{p.unique_stems}} stems)</td>
+          <td>${{(p.qo_rate * 100).toFixed(1)}}%</td>
+          <td>${{(p.edy_eey_rate * 100).toFixed(1)}}%</td>
+          <td>${{(p.fros_unique_stem_coverage * 100).toFixed(1)}}%</td>
+          <td><span class="badge" style="background:var(--green-soft);color:var(--green)">${{(p.fros_token_stem_coverage * 100).toFixed(1)}}%</span></td>
+        </tr>
+      `;
+    }}).join("");
+  }}
+
+  const q20Body = document.querySelector("#wave51Quire20BifoliaTable tbody");
+  if (q20Body) {{
+    q20Body.innerHTML = (DATA.wave51_q20_bifolia || []).map((q, idx) => {{
+      const hl = idx < 2 ? 'style="background:var(--gold-soft);"' : '';
+      return `
+        <tr ${{hl}}>
+          <td><strong>Bifolium #${{q.bifolium}}</strong></td>
+          <td><strong><code>${{q.pair}}</code></strong></td>
+          <td>${{q.left_words}} words</td>
+          <td>${{q.right_words}} words</td>
+          <td>${{q.word_jaccard}}</td>
+          <td><strong>${{q.stem_jaccard}}</strong></td>
+          <td><span class="badge" style="background:var(--blue-soft);color:var(--blue)">${{(q.token_stem_coverage_right_in_left * 100).toFixed(1)}}%</span></td>
+        </tr>
+      `;
+    }}).join("");
+  }}
+}}
+
 function switchTab(tabId, btn) {{
   document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
   document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
@@ -4422,6 +4660,7 @@ renderWave47Tab();
 renderWave48Tab();
 renderWave49Tab();
 renderWave50Tab();
+renderWave51Tab();
 </script>
 </body>
 </html>

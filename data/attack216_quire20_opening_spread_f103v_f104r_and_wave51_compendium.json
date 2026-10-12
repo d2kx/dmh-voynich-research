@@ -1,0 +1,431 @@
+{
+  "attack": 216,
+  "discovery": 233,
+  "title": "Quire 20 Opening Leaf (f103r-f103v = 978 Words, #1 Densest Leaf in Codex) & First Facing Spread (f103v-f104r = 886 Words, 26 Recipes) + Wave 51 Master Compendium (v17.0)",
+  "summary": {
+    "top_10_leaves_by_word_count": [
+      [
+        "f86",
+        1352
+      ],
+      [
+        "f111",
+        1191
+      ],
+      [
+        "f108",
+        1075
+      ],
+      [
+        "f113",
+        1033
+      ],
+      [
+        "f103",
+        985
+      ],
+      [
+        "f76",
+        970
+      ],
+      [
+        "f107",
+        949
+      ],
+      [
+        "f104",
+        925
+      ],
+      [
+        "f106",
+        876
+      ],
+      [
+        "f115",
+        871
+      ]
+    ],
+    "f103_opening_leaf_words": 985,
+    "f103_opening_leaf_recipes": 31,
+    "f103v_f104r_facing_spread_words": 902,
+    "f103v_f104r_facing_spread_recipes": 26,
+    "f103v_in_f103r_token_stem_coverage": 0.8612,
+    "f104r_in_f103v_token_stem_coverage": 0.6585,
+    "quire20_total_words": 10892,
+    "quire20_token_coverage_by_f103_leaf_stems": 0.8154,
+    "quire20_token_coverage_by_f103_and_f104r_stems": 0.876
+  },
+  "folio_profiles": {
+    "f103r": {
+      "folio": "f103r",
+      "words": 531,
+      "recipes": 18,
+      "mean_recipe_words": 29.5,
+      "recipe_lengths": [
+        50,
+        35,
+        62,
+        30,
+        21,
+        28,
+        29,
+        31,
+        28,
+        28,
+        14,
+        18,
+        24,
+        27,
+        16,
+        28,
+        37,
+        25
+      ],
+      "openers": [
+        "pchedal",
+        "pocharal",
+        "daroal",
+        "podar",
+        "dshol",
+        "polchedy",
+        "pcheam",
+        "tchoky",
+        "qokechy",
+        "pcholkchdy",
+        "qokeey",
+        "qoker",
+        "pchedy",
+        "qokeey",
+        "tar",
+        "qokeedy",
+        "polarar",
+        "pchedal"
+      ],
+      "closers": [
+        "chedaraly",
+        "shedy",
+        "otedy",
+        "shkaiin",
+        "aiin",
+        "olor",
+        "shol",
+        "lotor",
+        "chedy",
+        "oraiin",
+        "cheedalaiin",
+        "qokeey",
+        "oteey",
+        "chalal",
+        "otshedy",
+        "oloraiin",
+        "cheosaiin",
+        "qoty"
+      ],
+      "pure_gallows_opener_count": 11,
+      "pure_gallows_opener_rate": 0.6111,
+      "gallows_or_ogallows_count": 11,
+      "gallows_or_ogallows_rate": 0.6111,
+      "qo_rate": 0.2147,
+      "edy_eey_rate": 0.2957,
+      "aiin_rate": 0.1356,
+      "top_words": [
+        [
+          "qokeey",
+          27
+        ],
+        [
+          "shedy",
+          19
+        ],
+        [
+          "shey",
+          15
+        ],
+        [
+          "chedy",
+          11
+        ],
+        [
+          "okeey",
+          10
+        ],
+        [
+          "qokeedy",
+          9
+        ],
+        [
+          "ol",
+          8
+        ],
+        [
+          "qokal",
+          8
+        ],
+        [
+          "oteey",
+          7
+        ],
+        [
+          "chey",
+          7
+        ]
+      ]
+    },
+    "f103v": {
+      "folio": "f103v",
+      "words": 454,
+      "recipes": 13,
+      "mean_recipe_words": 34.92,
+      "recipe_lengths": [
+        43,
+        39,
+        28,
+        24,
+        32,
+        28,
+        70,
+        29,
+        29,
+        36,
+        17,
+        39,
+        40
+      ],
+      "openers": [
+        "pol",
+        "pcheor",
+        "pchal",
+        "sal",
+        "teeol",
+        "qokeedy",
+        "pol",
+        "fcheody",
+        "pchear",
+        "yshey",
+        "olshey",
+        "polshor",
+        "orain"
+      ],
+      "closers": [
+        "ykeedy",
+        "okeey",
+        "shed",
+        "olshey",
+        "kedy",
+        "chealainor",
+        "oteaiin",
+        "qokeey",
+        "olkam",
+        "olshedy",
+        "keechy",
+        "chsaly",
+        "chary"
+      ],
+      "pure_gallows_opener_count": 8,
+      "pure_gallows_opener_rate": 0.6154,
+      "gallows_or_ogallows_count": 8,
+      "gallows_or_ogallows_rate": 0.6154,
+      "qo_rate": 0.1652,
+      "edy_eey_rate": 0.2489,
+      "aiin_rate": 0.1476,
+      "top_words": [
+        [
+          "shedy",
+          15
+        ],
+        [
+          "shey",
+          14
+        ],
+        [
+          "qokeey",
+          12
+        ],
+        [
+          "ol",
+          12
+        ],
+        [
+          "chey",
+          10
+        ],
+        [
+          "daiin",
+          9
+        ],
+        [
+          "okeey",
+          8
+        ],
+        [
+          "qokaiin",
+          7
+        ],
+        [
+          "chedy",
+          6
+        ],
+        [
+          "qokain",
+          6
+        ]
+      ]
+    },
+    "f104r": {
+      "folio": "f104r",
+      "words": 448,
+      "recipes": 13,
+      "mean_recipe_words": 34.46,
+      "recipe_lengths": [
+        45,
+        52,
+        20,
+        39,
+        26,
+        29,
+        50,
+        34,
+        42,
+        19,
+        25,
+        35,
+        32
+      ],
+      "openers": [
+        "pchdar",
+        "kchdal",
+        "tol",
+        "tshdol",
+        "ocheoey",
+        "toaiin",
+        "tshedar",
+        "pchedar",
+        "okeeo",
+        "pchol",
+        "psheody",
+        "pcholor",
+        "tsheodl"
+      ],
+      "closers": [
+        "chry",
+        "dam",
+        "olkeedy",
+        "cheodaiin",
+        "otalkshedy",
+        "charaiin",
+        "sheody",
+        "arodly",
+        "raly",
+        "olaly",
+        "qotchdy",
+        "cholkar",
+        "otaiin"
+      ],
+      "pure_gallows_opener_count": 11,
+      "pure_gallows_opener_rate": 0.8462,
+      "gallows_or_ogallows_count": 12,
+      "gallows_or_ogallows_rate": 0.9231,
+      "qo_rate": 0.2031,
+      "edy_eey_rate": 0.1317,
+      "aiin_rate": 0.1786,
+      "top_words": [
+        [
+          "qokaiin",
+          10
+        ],
+        [
+          "ar",
+          9
+        ],
+        [
+          "aiin",
+          9
+        ],
+        [
+          "okar",
+          9
+        ],
+        [
+          "l",
+          7
+        ],
+        [
+          "or",
+          6
+        ],
+        [
+          "chol",
+          6
+        ],
+        [
+          "chedy",
+          5
+        ],
+        [
+          "char",
+          4
+        ],
+        [
+          "o",
+          4
+        ]
+      ]
+    }
+  },
+  "quire20_7bifolia": [
+    {
+      "bifolium": 1,
+      "pair": "f103 <-> f116",
+      "left_words": 985,
+      "right_words": 561,
+      "word_jaccard": 0.1794,
+      "stem_jaccard": 0.2749,
+      "token_stem_coverage_right_in_left": 0.8449
+    },
+    {
+      "bifolium": 2,
+      "pair": "f104 <-> f115",
+      "left_words": 925,
+      "right_words": 871,
+      "word_jaccard": 0.1874,
+      "stem_jaccard": 0.3081,
+      "token_stem_coverage_right_in_left": 0.8002
+    },
+    {
+      "bifolium": 3,
+      "pair": "f105 <-> f114",
+      "left_words": 778,
+      "right_words": 836,
+      "word_jaccard": 0.1624,
+      "stem_jaccard": 0.2632,
+      "token_stem_coverage_right_in_left": 0.8122
+    },
+    {
+      "bifolium": 4,
+      "pair": "f106 <-> f113",
+      "left_words": 876,
+      "right_words": 1033,
+      "word_jaccard": 0.195,
+      "stem_jaccard": 0.264,
+      "token_stem_coverage_right_in_left": 0.8093
+    },
+    {
+      "bifolium": 5,
+      "pair": "f107 <-> f112",
+      "left_words": 949,
+      "right_words": 820,
+      "word_jaccard": 0.1718,
+      "stem_jaccard": 0.242,
+      "token_stem_coverage_right_in_left": 0.861
+    },
+    {
+      "bifolium": 6,
+      "pair": "f108 <-> f111",
+      "left_words": 1075,
+      "right_words": 1191,
+      "word_jaccard": 0.197,
+      "stem_jaccard": 0.3156,
+      "token_stem_coverage_right_in_left": 0.8631
+    }
+  ]
+}

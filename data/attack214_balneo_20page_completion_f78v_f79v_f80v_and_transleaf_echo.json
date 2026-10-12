@@ -1,0 +1,854 @@
+{
+  "attack": 214,
+  "discovery": 231,
+  "title": "Completing 20/20 (100.0%) High-Resolution Visual Coverage of Quire 13 Balneological (f78v, f79v, f80v) & Trans-Leaf Callout Propagation",
+  "summary": {
+    "quire13_total_pages": 20,
+    "quire13_rendered_pages": 20,
+    "quire13_visual_coverage_rate": 1.0,
+    "total_callout_tokens": 204,
+    "same_side_prose_stem_echo_count": 121,
+    "same_side_prose_stem_echo_rate": 0.5931,
+    "opposite_side_prose_stem_echo_count": 131,
+    "opposite_side_prose_stem_echo_rate": 0.6422,
+    "combined_leaf_prose_stem_echo_count": 137,
+    "combined_leaf_prose_stem_echo_rate": 0.6716,
+    "asymmetric_labeled_to_unlabeled_tokens": 29,
+    "asymmetric_labeled_to_unlabeled_echo_count": 15,
+    "asymmetric_labeled_to_unlabeled_echo_rate": 0.5172,
+    "center_opening_f80r_callouts_in_facing_f79v": 7,
+    "center_opening_f80r_callouts_in_facing_f79v_rate": 0.7,
+    "center_opening_f79v_token_coverage_in_f80r": 0.8511
+  },
+  "newly_rendered_verso_profiles": {
+    "f78v": {
+      "folio": "f78v",
+      "prose_words": 297,
+      "callout_words": 0,
+      "paragraph_count": 2,
+      "paragraph_lengths": [
+        175,
+        122
+      ],
+      "paragraph_openers": [
+        "177ykedy",
+        "qofcheol"
+      ],
+      "unique_stems": 75,
+      "same_leaf_recto_stem_token_coverage": 0.8552,
+      "qo_rate": 0.1886,
+      "edy_eey_rate": 0.3232,
+      "ok_ot_rate": 0.1246,
+      "ol_or_rate": 0.165,
+      "top_words": [
+        [
+          "ol",
+          23
+        ],
+        [
+          "qokedy",
+          14
+        ],
+        [
+          "chedy",
+          12
+        ],
+        [
+          "qol",
+          12
+        ],
+        [
+          "shedy",
+          12
+        ],
+        [
+          "or",
+          7
+        ],
+        [
+          "dal",
+          6
+        ],
+        [
+          "qokain",
+          5
+        ],
+        [
+          "otedy",
+          4
+        ],
+        [
+          "okedy",
+          4
+        ]
+      ]
+    },
+    "f79v": {
+      "folio": "f79v",
+      "prose_words": 356,
+      "callout_words": 0,
+      "paragraph_count": 7,
+      "paragraph_lengths": [
+        68,
+        14,
+        96,
+        42,
+        45,
+        37,
+        54
+      ],
+      "paragraph_openers": [
+        "poldshedy",
+        "pchedy",
+        "pshdy",
+        "tolkey",
+        "pchey",
+        "por",
+        "pol"
+      ],
+      "unique_stems": 86,
+      "same_leaf_recto_stem_token_coverage": 0.8989,
+      "qo_rate": 0.2556,
+      "edy_eey_rate": 0.3455,
+      "ok_ot_rate": 0.1404,
+      "ol_or_rate": 0.1433,
+      "top_words": [
+        [
+          "ol",
+          18
+        ],
+        [
+          "qokeedy",
+          14
+        ],
+        [
+          "qokain",
+          12
+        ],
+        [
+          "qokeey",
+          12
+        ],
+        [
+          "qokedy",
+          8
+        ],
+        [
+          "chedy",
+          6
+        ],
+        [
+          "or",
+          5
+        ],
+        [
+          "qoky",
+          5
+        ],
+        [
+          "oteedy",
+          5
+        ],
+        [
+          "qol",
+          5
+        ]
+      ]
+    },
+    "f80v": {
+      "folio": "f80v",
+      "prose_words": 376,
+      "callout_words": 0,
+      "paragraph_count": 8,
+      "paragraph_lengths": [
+        46,
+        60,
+        46,
+        33,
+        35,
+        26,
+        70,
+        60
+      ],
+      "paragraph_openers": [
+        "pchedy",
+        "polshol",
+        "tshedy",
+        "psheoldy",
+        "polteshol",
+        "pshol",
+        "pol",
+        "polkedy"
+      ],
+      "unique_stems": 89,
+      "same_leaf_recto_stem_token_coverage": 0.8564,
+      "qo_rate": 0.2473,
+      "edy_eey_rate": 0.1729,
+      "ok_ot_rate": 0.0638,
+      "ol_or_rate": 0.1596,
+      "top_words": [
+        [
+          "ol",
+          17
+        ],
+        [
+          "qokain",
+          15
+        ],
+        [
+          "olkain",
+          9
+        ],
+        [
+          "chedy",
+          9
+        ],
+        [
+          "shey",
+          9
+        ],
+        [
+          "shedy",
+          9
+        ],
+        [
+          "qokaiin",
+          8
+        ],
+        [
+          "qol",
+          8
+        ],
+        [
+          "qokal",
+          8
+        ],
+        [
+          "kain",
+          6
+        ]
+      ]
+    }
+  },
+  "transleaf_callout_reports": [
+    {
+      "callout_folio": "f75r",
+      "opposite_folio": "f75v",
+      "opposite_is_unlabeled": false,
+      "callout_tokens": 10,
+      "callout_words": [
+        "sal",
+        "okeedy",
+        "daly",
+        "ychey",
+        "sols",
+        "dara",
+        "ychty",
+        "saino",
+        "saldy",
+        "dainy"
+      ],
+      "same_side_stem_hits": 9,
+      "same_side_stem_rate": 0.9,
+      "opposite_side_stem_hits": 9,
+      "opposite_side_stem_rate": 0.9,
+      "opposite_side_exact_hits": 4,
+      "opposite_side_matching_words": [
+        "sal",
+        "okeedy",
+        "daly",
+        "ychey",
+        "sols",
+        "ychty",
+        "saino",
+        "saldy",
+        "dainy"
+      ],
+      "combined_leaf_stem_hits": 10,
+      "combined_leaf_stem_rate": 1.0
+    },
+    {
+      "callout_folio": "f75v",
+      "opposite_folio": "f75r",
+      "opposite_is_unlabeled": false,
+      "callout_tokens": 47,
+      "callout_words": [
+        "s",
+        "l",
+        "l",
+        "o",
+        "r",
+        "s",
+        "okshy",
+        "saral",
+        "dokal",
+        "darol",
+        "daldy",
+        "dal",
+        "shd",
+        "dalkar",
+        "qokal",
+        "dly",
+        "ory",
+        "oty",
+        "lchy",
+        "dary",
+        "dal",
+        "daldy",
+        "qoted",
+        "rkal",
+        "ykedy",
+        "olkchy",
+        "otoly",
+        "otal",
+        "opal",
+        "okeey",
+        "lol",
+        "olol",
+        "ytedy",
+        "otedy",
+        "oteey",
+        "qotedy",
+        "okedy",
+        "qek",
+        "y",
+        "tedar",
+        "oly",
+        "s",
+        "alchedy",
+        "solkedy",
+        "qokeedy",
+        "qokol",
+        "olkol"
+      ],
+      "same_side_stem_hits": 30,
+      "same_side_stem_rate": 0.6383,
+      "opposite_side_stem_hits": 39,
+      "opposite_side_stem_rate": 0.8298,
+      "opposite_side_exact_hits": 20,
+      "opposite_side_matching_words": [
+        "s",
+        "l",
+        "l",
+        "o",
+        "r",
+        "s",
+        "okshy",
+        "saral",
+        "dokal",
+        "darol",
+        "daldy",
+        "dal",
+        "dalkar",
+        "qokal",
+        "dly",
+        "ory",
+        "oty",
+        "dary",
+        "dal",
+        "daldy",
+        "ykedy",
+        "otoly",
+        "otal",
+        "opal",
+        "okeey",
+        "lol",
+        "olol",
+        "ytedy",
+        "otedy",
+        "oteey",
+        "qotedy",
+        "okedy",
+        "qek",
+        "oly",
+        "s",
+        "alchedy",
+        "qokeedy",
+        "qokol",
+        "olkol"
+      ],
+      "combined_leaf_stem_hits": 40,
+      "combined_leaf_stem_rate": 0.8511
+    },
+    {
+      "callout_folio": "f76r",
+      "opposite_folio": "f76v",
+      "opposite_is_unlabeled": true,
+      "callout_tokens": 9,
+      "callout_words": [
+        "s",
+        "d",
+        "q",
+        "s",
+        "o",
+        "l",
+        "k",
+        "r",
+        "s"
+      ],
+      "same_side_stem_hits": 6,
+      "same_side_stem_rate": 0.6667,
+      "opposite_side_stem_hits": 6,
+      "opposite_side_stem_rate": 0.6667,
+      "opposite_side_exact_hits": 6,
+      "opposite_side_matching_words": [
+        "s",
+        "s",
+        "o",
+        "l",
+        "r",
+        "s"
+      ],
+      "combined_leaf_stem_hits": 6,
+      "combined_leaf_stem_rate": 0.6667
+    },
+    {
+      "callout_folio": "f77r",
+      "opposite_folio": "f77v",
+      "opposite_is_unlabeled": false,
+      "callout_tokens": 11,
+      "callout_words": [
+        "darchdar",
+        "olkchs",
+        "otedy",
+        "otork",
+        "otol",
+        "dchdy",
+        "soral",
+        "dotedy",
+        "otchdy",
+        "otolaiin",
+        "o"
+      ],
+      "same_side_stem_hits": 6,
+      "same_side_stem_rate": 0.5455,
+      "opposite_side_stem_hits": 7,
+      "opposite_side_stem_rate": 0.6364,
+      "opposite_side_exact_hits": 1,
+      "opposite_side_matching_words": [
+        "olkchs",
+        "otedy",
+        "otol",
+        "dchdy",
+        "soral",
+        "otchdy",
+        "otolaiin"
+      ],
+      "combined_leaf_stem_hits": 7,
+      "combined_leaf_stem_rate": 0.6364
+    },
+    {
+      "callout_folio": "f77v",
+      "opposite_folio": "f77r",
+      "opposite_is_unlabeled": false,
+      "callout_tokens": 11,
+      "callout_words": [
+        "okain",
+        "y",
+        "kal",
+        "otol",
+        "shedy",
+        "olkeedal",
+        "otolor",
+        "orchedal",
+        "saroral",
+        "okalo",
+        "oeoedu"
+      ],
+      "same_side_stem_hits": 6,
+      "same_side_stem_rate": 0.5455,
+      "opposite_side_stem_hits": 7,
+      "opposite_side_stem_rate": 0.6364,
+      "opposite_side_exact_hits": 2,
+      "opposite_side_matching_words": [
+        "okain",
+        "y",
+        "kal",
+        "otol",
+        "shedy",
+        "olkeedal",
+        "otolor"
+      ],
+      "combined_leaf_stem_hits": 7,
+      "combined_leaf_stem_rate": 0.6364
+    },
+    {
+      "callout_folio": "f78r",
+      "opposite_folio": "f78v",
+      "opposite_is_unlabeled": true,
+      "callout_tokens": 8,
+      "callout_words": [
+        "16okchdldlo",
+        "17okchdy",
+        "18dar",
+        "aloy",
+        "19dchedaly",
+        "20otarodlay",
+        "21orory",
+        "22okaral"
+      ],
+      "same_side_stem_hits": 0,
+      "same_side_stem_rate": 0.0,
+      "opposite_side_stem_hits": 0,
+      "opposite_side_stem_rate": 0.0,
+      "opposite_side_exact_hits": 0,
+      "opposite_side_matching_words": [],
+      "combined_leaf_stem_hits": 0,
+      "combined_leaf_stem_rate": 0.0
+    },
+    {
+      "callout_folio": "f80r",
+      "opposite_folio": "f80v",
+      "opposite_is_unlabeled": true,
+      "callout_tokens": 10,
+      "callout_words": [
+        "toroly",
+        "olchdy",
+        "okaly",
+        "okolo",
+        "okary",
+        "opor",
+        "olky",
+        "otalshedy",
+        "okar",
+        "okan"
+      ],
+      "same_side_stem_hits": 7,
+      "same_side_stem_rate": 0.7,
+      "opposite_side_stem_hits": 7,
+      "opposite_side_stem_rate": 0.7,
+      "opposite_side_exact_hits": 3,
+      "opposite_side_matching_words": [
+        "olchdy",
+        "okaly",
+        "okary",
+        "opor",
+        "olky",
+        "otalshedy",
+        "okar"
+      ],
+      "combined_leaf_stem_hits": 7,
+      "combined_leaf_stem_rate": 0.7
+    },
+    {
+      "callout_folio": "f81v",
+      "opposite_folio": "f81r",
+      "opposite_is_unlabeled": true,
+      "callout_tokens": 2,
+      "callout_words": [
+        "otain",
+        "olkal"
+      ],
+      "same_side_stem_hits": 2,
+      "same_side_stem_rate": 1.0,
+      "opposite_side_stem_hits": 2,
+      "opposite_side_stem_rate": 1.0,
+      "opposite_side_exact_hits": 2,
+      "opposite_side_matching_words": [
+        "otain",
+        "olkal"
+      ],
+      "combined_leaf_stem_hits": 2,
+      "combined_leaf_stem_rate": 1.0
+    },
+    {
+      "callout_folio": "f82r",
+      "opposite_folio": "f82v",
+      "opposite_is_unlabeled": false,
+      "callout_tokens": 13,
+      "callout_words": [
+        "oroldair",
+        "okor",
+        "darol",
+        "okal",
+        "okaldy",
+        "darary",
+        "okairady",
+        "sororl",
+        "olkoky",
+        "sokoly",
+        "dolol",
+        "olaiin",
+        "okeear"
+      ],
+      "same_side_stem_hits": 7,
+      "same_side_stem_rate": 0.5385,
+      "opposite_side_stem_hits": 9,
+      "opposite_side_stem_rate": 0.6923,
+      "opposite_side_exact_hits": 1,
+      "opposite_side_matching_words": [
+        "okor",
+        "darol",
+        "okal",
+        "okaldy",
+        "darary",
+        "olkoky",
+        "dolol",
+        "olaiin",
+        "okeear"
+      ],
+      "combined_leaf_stem_hits": 9,
+      "combined_leaf_stem_rate": 0.6923
+    },
+    {
+      "callout_folio": "f82v",
+      "opposite_folio": "f82r",
+      "opposite_is_unlabeled": false,
+      "callout_tokens": 14,
+      "callout_words": [
+        "otechdy",
+        "otedy",
+        "daiinoty",
+        "otedal",
+        "olkeedy",
+        "okalchy",
+        "okain",
+        "okaoky",
+        "okedor",
+        "okol",
+        "okoldy",
+        "olkol",
+        "otedol",
+        "oteedy"
+      ],
+      "same_side_stem_hits": 10,
+      "same_side_stem_rate": 0.7143,
+      "opposite_side_stem_hits": 9,
+      "opposite_side_stem_rate": 0.6429,
+      "opposite_side_exact_hits": 2,
+      "opposite_side_matching_words": [
+        "otedy",
+        "otedal",
+        "olkeedy",
+        "okain",
+        "okedor",
+        "okol",
+        "okoldy",
+        "otedol",
+        "oteedy"
+      ],
+      "combined_leaf_stem_hits": 10,
+      "combined_leaf_stem_rate": 0.7143
+    },
+    {
+      "callout_folio": "f83r",
+      "opposite_folio": "f83v",
+      "opposite_is_unlabeled": false,
+      "callout_tokens": 31,
+      "callout_words": [
+        "chtorol",
+        "olsaiin",
+        "otchdy",
+        "qokchdy",
+        "shedal",
+        "dal",
+        "cheol",
+        "lol",
+        "chdal",
+        "aiin",
+        "sol",
+        "daiiin",
+        "chedy",
+        "sasoldal",
+        "darolsy",
+        "solkeey",
+        "qekey",
+        "raly",
+        "ol",
+        "solchkal",
+        "cheol",
+        "qotar",
+        "ol",
+        "daiin",
+        "ol",
+        "dain",
+        "chey",
+        "ldalor",
+        "sol",
+        "rtain",
+        "cthal"
+      ],
+      "same_side_stem_hits": 22,
+      "same_side_stem_rate": 0.7097,
+      "opposite_side_stem_hits": 19,
+      "opposite_side_stem_rate": 0.6129,
+      "opposite_side_exact_hits": 13,
+      "opposite_side_matching_words": [
+        "otchdy",
+        "shedal",
+        "dal",
+        "cheol",
+        "lol",
+        "aiin",
+        "sol",
+        "daiiin",
+        "chedy",
+        "ol",
+        "cheol",
+        "qotar",
+        "ol",
+        "daiin",
+        "ol",
+        "dain",
+        "chey",
+        "sol",
+        "cthal"
+      ],
+      "combined_leaf_stem_hits": 22,
+      "combined_leaf_stem_rate": 0.7097
+    },
+    {
+      "callout_folio": "f83v",
+      "opposite_folio": "f83r",
+      "opposite_is_unlabeled": false,
+      "callout_tokens": 4,
+      "callout_words": [
+        "ololary",
+        "okarchy",
+        "okchdy",
+        "okaiin"
+      ],
+      "same_side_stem_hits": 2,
+      "same_side_stem_rate": 0.5,
+      "opposite_side_stem_hits": 2,
+      "opposite_side_stem_rate": 0.5,
+      "opposite_side_exact_hits": 0,
+      "opposite_side_matching_words": [
+        "okchdy",
+        "okaiin"
+      ],
+      "combined_leaf_stem_hits": 2,
+      "combined_leaf_stem_rate": 0.5
+    },
+    {
+      "callout_folio": "f84r",
+      "opposite_folio": "f84v",
+      "opposite_is_unlabeled": false,
+      "callout_tokens": 14,
+      "callout_words": [
+        "1ololal",
+        "2or",
+        "shekar",
+        "3lowydy",
+        "3highokedy",
+        "3highloly",
+        "4doiir",
+        "4olshy",
+        "5otedy",
+        "5lkol",
+        "6okolshy",
+        "7otoly",
+        "8dshedy",
+        "33otaly"
+      ],
+      "same_side_stem_hits": 1,
+      "same_side_stem_rate": 0.0714,
+      "opposite_side_stem_hits": 1,
+      "opposite_side_stem_rate": 0.0714,
+      "opposite_side_exact_hits": 0,
+      "opposite_side_matching_words": [
+        "shekar"
+      ],
+      "combined_leaf_stem_hits": 1,
+      "combined_leaf_stem_rate": 0.0714
+    },
+    {
+      "callout_folio": "f84v",
+      "opposite_folio": "f84r",
+      "opposite_is_unlabeled": false,
+      "callout_tokens": 20,
+      "callout_words": [
+        "otdy",
+        "dar",
+        "chdy",
+        "dar",
+        "oram",
+        "soiin",
+        "okeeey",
+        "sol",
+        "okaly",
+        "okar",
+        "ydairol",
+        "ychckhy",
+        "dshedy",
+        "okchdy",
+        "solchey",
+        "dair",
+        "oldy",
+        "darchy",
+        "yy",
+        "ochedy"
+      ],
+      "same_side_stem_hits": 13,
+      "same_side_stem_rate": 0.65,
+      "opposite_side_stem_hits": 14,
+      "opposite_side_stem_rate": 0.7,
+      "opposite_side_exact_hits": 4,
+      "opposite_side_matching_words": [
+        "otdy",
+        "dar",
+        "chdy",
+        "dar",
+        "oram",
+        "okeeey",
+        "sol",
+        "okaly",
+        "okar",
+        "ychckhy",
+        "dshedy",
+        "okchdy",
+        "oldy",
+        "ochedy"
+      ],
+      "combined_leaf_stem_hits": 14,
+      "combined_leaf_stem_rate": 0.7
+    }
+  ],
+  "quire13_bifolia_reports": [
+    {
+      "bifolium": 1,
+      "pair": "f75 <-> f84",
+      "left_words": 777,
+      "right_words": 709,
+      "word_jaccard": 0.251,
+      "stem_jaccard": 0.3497,
+      "token_stem_coverage_left_in_right": 0.8932
+    },
+    {
+      "bifolium": 2,
+      "pair": "f76 <-> f83",
+      "left_words": 970,
+      "right_words": 606,
+      "word_jaccard": 0.2051,
+      "stem_jaccard": 0.3482,
+      "token_stem_coverage_left_in_right": 0.8866
+    },
+    {
+      "bifolium": 3,
+      "pair": "f77 <-> f82",
+      "left_words": 664,
+      "right_words": 610,
+      "word_jaccard": 0.1913,
+      "stem_jaccard": 0.3695,
+      "token_stem_coverage_left_in_right": 0.8901
+    },
+    {
+      "bifolium": 4,
+      "pair": "f78 <-> f81",
+      "left_words": 595,
+      "right_words": 467,
+      "word_jaccard": 0.2469,
+      "stem_jaccard": 0.3333,
+      "token_stem_coverage_left_in_right": 0.8639
+    },
+    {
+      "bifolium": 5,
+      "pair": "f79 <-> f80",
+      "left_words": 739,
+      "right_words": 822,
+      "word_jaccard": 0.2334,
+      "stem_jaccard": 0.3627,
+      "token_stem_coverage_left_in_right": 0.9039
+    }
+  ]
+}

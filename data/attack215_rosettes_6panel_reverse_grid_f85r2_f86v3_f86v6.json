@@ -1,0 +1,422 @@
+{
+  "attack": 215,
+  "discovery": 232,
+  "title": "The 2x3 Physical Reverse Grid of the Quire 14 Rosettes Sheet (p157 & p158), f86v3 5/6 t-Gallows Acrostic Ring & 6-Panel-to-fRos Coupling",
+  "summary": {
+    "reverse_panels_count": 6,
+    "reverse_total_words": 1855,
+    "fros_total_words": 539,
+    "fros_unique_stems": 172,
+    "reverse_to_fros_unique_stem_coverage": 0.4942,
+    "reverse_to_fros_token_stem_coverage": 0.8182,
+    "f86v6_alone_fros_token_stem_coverage": 0.705,
+    "manuscript_para_initial_t_baseline": 0.2311,
+    "f86v3_para_count": 6,
+    "f86v3_t_initial_para_count": 5,
+    "f86v3_t_initial_para_rate": 0.8333,
+    "f86v3_cardinal_perimeter_t_rate": 1.0,
+    "f86v3_t5_of_6_p_value": 0.003192,
+    "f86v3_cardinal_t4_of_4_p_value": 0.002851,
+    "f86v3_line3_epizeuxis": "taiin.ytaiin.ytaiin.ytaiin.or.ar.ytas.am"
+  },
+  "physical_2x3_reverse_grid": {
+    "top_row_p157": [
+      "f85r2 (4-Cardinal Sun Wheel)",
+      "f86v4 (Scalloped Moon Wheel)",
+      "f86v6 (479-Word 4-Paragraph Treatise)"
+    ],
+    "bottom_row_p156_p158": [
+      "f85r1 (343-Word Frontispiece Treatise + +Pr Coda)",
+      "f86v5 (382-Word '86' Treatise)",
+      "f86v3 (281-Word 4-Corner Scaly Cones & 4-Cardinal Perimeter)"
+    ]
+  },
+  "panel_profiles": [
+    {
+      "panel": "f85r2",
+      "grid_row": "Top Row (p157)",
+      "words": 156,
+      "unique_stems": 63,
+      "qo_rate": 0.141,
+      "edy_eey_rate": 0.1795,
+      "aiin_rate": 0.2051,
+      "fros_unique_stem_coverage": 0.2093,
+      "fros_token_stem_coverage": 0.5863,
+      "panel_tokens_matching_fros_stems_rate": 0.8141,
+      "top_words": [
+        [
+          "or",
+          8
+        ],
+        [
+          "aiin",
+          6
+        ],
+        [
+          "ar",
+          4
+        ],
+        [
+          "ol",
+          4
+        ],
+        [
+          "shedy",
+          4
+        ],
+        [
+          "otchedy",
+          3
+        ]
+      ]
+    },
+    {
+      "panel": "f86v4",
+      "grid_row": "Top Row (p157)",
+      "words": 191,
+      "unique_stems": 85,
+      "qo_rate": 0.0785,
+      "edy_eey_rate": 0.1728,
+      "aiin_rate": 0.1257,
+      "fros_unique_stem_coverage": 0.2616,
+      "fros_token_stem_coverage": 0.6846,
+      "panel_tokens_matching_fros_stems_rate": 0.7853,
+      "top_words": [
+        [
+          "ol",
+          8
+        ],
+        [
+          "otedy",
+          7
+        ],
+        [
+          "daiin",
+          5
+        ],
+        [
+          "or",
+          5
+        ],
+        [
+          "dar",
+          5
+        ],
+        [
+          "chedy",
+          4
+        ]
+      ]
+    },
+    {
+      "panel": "f86v6",
+      "grid_row": "Top Row (p157)",
+      "words": 490,
+      "unique_stems": 138,
+      "qo_rate": 0.1796,
+      "edy_eey_rate": 0.1,
+      "aiin_rate": 0.1857,
+      "fros_unique_stem_coverage": 0.3198,
+      "fros_token_stem_coverage": 0.705,
+      "panel_tokens_matching_fros_stems_rate": 0.7388,
+      "top_words": [
+        [
+          "or",
+          16
+        ],
+        [
+          "qokaiin",
+          12
+        ],
+        [
+          "ar",
+          11
+        ],
+        [
+          "ol",
+          11
+        ],
+        [
+          "qokar",
+          10
+        ],
+        [
+          "dar",
+          10
+        ]
+      ]
+    },
+    {
+      "panel": "f85r1",
+      "grid_row": "Bottom Row (p156/p158)",
+      "words": 347,
+      "unique_stems": 120,
+      "qo_rate": 0.1239,
+      "edy_eey_rate": 0.1844,
+      "aiin_rate": 0.1297,
+      "fros_unique_stem_coverage": 0.2791,
+      "fros_token_stem_coverage": 0.6939,
+      "panel_tokens_matching_fros_stems_rate": 0.7118,
+      "top_words": [
+        [
+          "aiin",
+          8
+        ],
+        [
+          "ol",
+          8
+        ],
+        [
+          "or",
+          7
+        ],
+        [
+          "otedy",
+          6
+        ],
+        [
+          "dar",
+          6
+        ],
+        [
+          "shey",
+          5
+        ]
+      ]
+    },
+    {
+      "panel": "f86v5",
+      "grid_row": "Bottom Row (p156/p158)",
+      "words": 390,
+      "unique_stems": 103,
+      "qo_rate": 0.0949,
+      "edy_eey_rate": 0.0795,
+      "aiin_rate": 0.2,
+      "fros_unique_stem_coverage": 0.2907,
+      "fros_token_stem_coverage": 0.692,
+      "panel_tokens_matching_fros_stems_rate": 0.7897,
+      "top_words": [
+        [
+          "aiin",
+          18
+        ],
+        [
+          "ar",
+          12
+        ],
+        [
+          "or",
+          9
+        ],
+        [
+          "ol",
+          7
+        ],
+        [
+          "otal",
+          7
+        ],
+        [
+          "qokar",
+          6
+        ]
+      ]
+    },
+    {
+      "panel": "f86v3",
+      "grid_row": "Bottom Row (p156/p158)",
+      "words": 281,
+      "unique_stems": 93,
+      "qo_rate": 0.153,
+      "edy_eey_rate": 0.2171,
+      "aiin_rate": 0.2028,
+      "fros_unique_stem_coverage": 0.2558,
+      "fros_token_stem_coverage": 0.6456,
+      "panel_tokens_matching_fros_stems_rate": 0.7865,
+      "top_words": [
+        [
+          "aiin",
+          9
+        ],
+        [
+          "or",
+          6
+        ],
+        [
+          "am",
+          6
+        ],
+        [
+          "ytaiin",
+          5
+        ],
+        [
+          "ar",
+          5
+        ],
+        [
+          "ykaiin",
+          5
+        ]
+      ]
+    }
+  ],
+  "f86v3_paragraph_openers": [
+    {
+      "loc": "1,@Pb",
+      "direction": "N",
+      "opener": "tchedy",
+      "line_words": [
+        "tchedy",
+        "qokeedy",
+        "qoedy",
+        "qopchy",
+        "raiin",
+        "olpchey",
+        "qokaiin"
+      ]
+    },
+    {
+      "loc": "9,@Pb",
+      "direction": "W",
+      "opener": "tchol",
+      "line_words": [
+        "tchol",
+        "olkey",
+        "cfhy",
+        "aiin",
+        "opchedy",
+        "okchedy",
+        "or",
+        "acheody",
+        "shol",
+        "shedy",
+        "yteey",
+        "daiin",
+        "dady"
+      ]
+    },
+    {
+      "loc": "15,@P0",
+      "direction": "CENTER",
+      "opener": "tshdey",
+      "line_words": [
+        "tshdey",
+        "dalkshdy",
+        "shocfhy",
+        "saiin",
+        "or",
+        "airody",
+        "chedaly"
+      ]
+    },
+    {
+      "loc": "18,+P0",
+      "direction": "CENTER",
+      "opener": "pchedaiin",
+      "line_words": [
+        "pchedaiin",
+        "dchedy",
+        "qokchdy",
+        "qopchol",
+        "shol",
+        "sheody",
+        "solkam"
+      ]
+    },
+    {
+      "loc": "23,@Pb",
+      "direction": "E",
+      "opener": "tshedal",
+      "line_words": [
+        "tshedal",
+        "ypchey",
+        "shdy",
+        "qopcheeody",
+        "opchdy",
+        "olfchey",
+        "ypchey",
+        "qotaiin"
+      ]
+    },
+    {
+      "loc": "29,@Pb",
+      "direction": "S",
+      "opener": "toeeedchy",
+      "line_words": [
+        "toeeedchy",
+        "okchey",
+        "qokchedy",
+        "shedy",
+        "ytcheodar"
+      ]
+    }
+  ],
+  "f85r2_cardinal_sectors": {
+    "N": {
+      "words": 19,
+      "opener": "sain",
+      "closer": "roseer",
+      "qo_rate": 0.0526,
+      "edy_rate": 0.0526
+    },
+    "E": {
+      "words": 27,
+      "opener": "pchedeey",
+      "closer": "chokm",
+      "qo_rate": 0.3333,
+      "edy_rate": 0.2963
+    },
+    "S": {
+      "words": 26,
+      "opener": "otchs",
+      "closer": "ain",
+      "qo_rate": 0.0385,
+      "edy_rate": 0.1923
+    },
+    "W": {
+      "words": 36,
+      "opener": "okees",
+      "closer": "sheoly",
+      "qo_rate": 0.25,
+      "edy_rate": 0.1944
+    }
+  },
+  "f86v3_cardinal_sectors": {
+    "N": {
+      "words": 58,
+      "opener": "tchedy",
+      "closer": "otair",
+      "yt_yk_rate": 0.2414,
+      "aiin_rate": 0.3793
+    },
+    "W": {
+      "words": 65,
+      "opener": "tchol",
+      "closer": "okchor",
+      "yt_yk_rate": 0.0923,
+      "aiin_rate": 0.2
+    },
+    "CENTER": {
+      "words": 59,
+      "opener": "tshdey",
+      "closer": "alor",
+      "yt_yk_rate": 0.0847,
+      "aiin_rate": 0.0847
+    },
+    "E": {
+      "words": 51,
+      "opener": "tshedal",
+      "closer": "olteey",
+      "yt_yk_rate": 0.0784,
+      "aiin_rate": 0.2549
+    },
+    "S": {
+      "words": 48,
+      "opener": "toeeedchy",
+      "closer": "okeeey",
+      "yt_yk_rate": 0.1667,
+      "aiin_rate": 0.0833
+    }
+  }
+}
