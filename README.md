@@ -946,6 +946,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 158. The 8-Case/Voice Inflectional Paradigm Matrix of the Voynich Lexicon (`103` Full-Paradigm Stems Covering `61.98%` of the Corpus, Stem×Case MI $z = +712.94$, Within-Stem Clinical Voice Activation $z = +23.59$, `Attack 149`)
+- **8-Case Inflectional Paradigm Matrix ($z = +712.94$) & Within-Stem Clinical Voice Activation ($z = +23.59$)**: Mapping all `35,564` canonical tokens into the 8 Core Grammatical Case/Voice Slots (`C1_CIT_BARE 16.51%`, `C2_NOM_O 17.50%`, `C3_DEIC_DS 16.74%`, `C4_ACT_QO 13.99%`, `C5_PROC_EDY 13.76%`, `C6_APPL_L 8.01%`, `C7_LIQ_CONT 8.81%`, `C8_QUANT_TERM 4.70%`) proves that `23` stems populate all `8 / 8` slots (`29.90%` of the corpus), `103` Full-Paradigm Stems (`>= 6` slots) cover `61.98%`, `295` Broad-Paradigm Stems (`>= 4` slots) cover `78.84%`, and `804` Multi-Form Stems (`>= 2` slots) cover `92.15%`, with $I(\text{Stem}; \text{Case}) = 1.1982\text{ bits}$ (`19.53×` null, $z = +712.94$). Holding each of the `103` Full-Paradigm Stems (`22,041` tokens) strictly fixed across domains (`500` within-stem permutations) proves a `+16.13%` Clinical-minus-Supply Active Voice surge vs. `+4.17% ± 0.51%` null ($z = +23.59$).
+
+---
+
+### 159. The 3-Act Paragraph Discourse State Machine, Contiguous 3-Line Stem Execution Chains (`L_t -> L_{t+1} -> L_{t+2}`, Within-Section $z = +26.95$, Strict Within-Paragraph $z = +9.20$), and Paragraph Frame-Ring Closure (`Inclusio`: `Line 1 <-> Line m`, $z = +6.63$, `Attack 150`)
+- **`58.01%` Contiguous 3-Line Stem Chains ($z = +26.95 / +9.20$) & `46.53%` Paragraph `Inclusio` ($z = +6.63$)**: Across `662` multi-line paragraphs (`>= 3` lines), `58.01%` (`384 / 662`) contain Contiguous 3-Line Stem Execution Chains (`1,001` triplets vs. `428.89 ± 21.22` Within-Section null = `2.334×` lift, $z = +26.95$; and `947` vs. `751.01 ± 21.29` Strict Within-Paragraph line-order shuffle null = `1.261×` lift, $z = +9.20$). Furthermore, `46.53%` (`308 / 662`) exhibit Frame-Ring Closure (`Inclusio`: `Line 1 <-> Line m`, `422` shared stems vs. `325.44 ± 14.56` Position-Stratified null = `1.297×` lift, $z = +6.63$), where `78.95%` (`450 / 570`) of token pairs are cognate polyptoton pairs shifting from `Line 1` Top-Gallows `p/f` (`16.89% -> 0.44%`, $z = -8.49$) and `-edy` (`27.78% -> 20.00%`, $z = -3.84$) to `Line m` Vessel Applicative `l-/ol-/qol-` (`5.78% -> 12.44%`, `2.15×` surge, $z = +3.49$).
+
+---
+
+### 160. Complete Six-Index-Folio Master Compiler & Full-Codex Cross-Reference Atlas (`f1r, f49v, f58r, f58v, f66r, f76r` Indexing `99.10%` of the Manuscript, 3-Pole Domain Routing $z = +6.32$, `Attack 151`)
+- **`99.10%` (`219 / 221`) Full-Codex Index Coverage (`pages/f1r_opening_master_preface_rubrics_enh.png`, $z = +6.32$)**: Out of `221` non-index folios in the Voynich Manuscript, `219` (`99.10%`) share open-class stems (`DF in 2..45`) with the Six Master Index Folios (`#1` primary index wins: `f58r = 92`, `f66r = 41`, `f76r = 29`, `f49v = 22`, `f58v = 19`, `f1r = 16`). In `H_A` (`96` Currier A Herbals), `f1r + f49v` (`11.939` bits/folio) beats `f66r + f76r` (`7.358`) by `1.62×`, whereas in `H_B` (`32` Currier B Herbals) `f66r + f76r` (`15.941`) beats `f1r + f49v` (`7.096`) by `2.25×` (`3.65×` crossover odds ratio; global 3-Pole Domain-to-Index Routing `1.187×` lift, $z = +6.32$).
+
+---
+
+### 161. The 8-Case Inflectional Paradigm Atlas, 3-Act Paragraph Discourse State Machine & 6-Index Codex Routing Compendium ([`notes/EIGHT_CASE_PARADIGM_AND_PARAGRAPH_STATE_COMPILER.md`](notes/EIGHT_CASE_PARADIGM_AND_PARAGRAPH_STATE_COMPILER.md), `Attack 152`)
+- **8-Case Paradigm Atlas, Paragraph State Machine & 6-Index Codex Compiler ([`notes/EIGHT_CASE_PARADIGM_AND_PARAGRAPH_STATE_COMPILER.md`](notes/EIGHT_CASE_PARADIGM_AND_PARAGRAPH_STATE_COMPILER.md))**: Synthesizes the 8-Case/Voice Inflectional Paradigm Matrix (`Attack 149`), the 3-Act Paragraph State Machine & `Inclusio` Frame-Ring Closure (`Attack 150`), and the 6-Index Full-Codex Routing Compiler (`Attack 151`).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -1125,6 +1145,10 @@ python tools/attack145_f76r_balneological_master_index_and_9key_router.py
 python tools/attack146_six_master_index_folios_unified_compiler_test.py
 python tools/attack147_cross_line_anaphoric_polyptoton_and_chaining_law.py
 python tools/attack148_f76r_6index_and_crossline_polyptoton_compendium.py
+python tools/attack149_eight_case_inflectional_paradigm_matrix.py
+python tools/attack150_paragraph_discourse_state_machine_and_inclusio.py
+python tools/attack151_six_master_index_codex_routing_compiler.py
+python tools/attack152_eight_case_paradigm_and_codex_compiler_compendium.py
 ```
 
 

@@ -1,0 +1,2958 @@
+{
+  "attack": 149,
+  "phase": 160,
+  "discovery": 166,
+  "title": "The 8-Case/Voice Inflectional Paradigm Matrix of the Voynich Lexicon Across All 39,021 Tokens",
+  "overview": {
+    "total_corpus_tokens": 35564,
+    "total_unique_canonical_stems": 3157,
+    "paradigm_breadth_summary": {
+      "stems_with_all_8_slots": 23,
+      "tokens_in_8slot_stems": 10633,
+      "tokens_in_8slot_stems_pct": 29.9,
+      "stems_with_ge6_slots_full_paradigm": 103,
+      "tokens_in_ge6_slot_stems": 22041,
+      "tokens_in_ge6_slot_stems_pct": 61.98,
+      "stems_with_ge4_slots_broad_paradigm": 295,
+      "tokens_in_ge4_slot_stems": 28040,
+      "tokens_in_ge4_slot_stems_pct": 78.84,
+      "stems_with_ge2_slots_multi_form": 804,
+      "tokens_in_ge2_slot_stems": 32771,
+      "tokens_in_ge2_slot_stems_pct": 92.15
+    },
+    "corpus_case_slot_distribution": {
+      "C1_CIT_BARE": {
+        "tokens": 5870,
+        "pct": 16.51
+      },
+      "C2_NOM_O": {
+        "tokens": 6225,
+        "pct": 17.5
+      },
+      "C3_DEIC_DS": {
+        "tokens": 5952,
+        "pct": 16.74
+      },
+      "C4_ACT_QO": {
+        "tokens": 4975,
+        "pct": 13.99
+      },
+      "C5_PROC_EDY": {
+        "tokens": 4892,
+        "pct": 13.76
+      },
+      "C6_APPL_L": {
+        "tokens": 2847,
+        "pct": 8.01
+      },
+      "C7_LIQ_CONT": {
+        "tokens": 3132,
+        "pct": 8.81
+      },
+      "C8_QUANT_TERM": {
+        "tokens": 1671,
+        "pct": 4.7
+      }
+    },
+    "stem_by_case_mutual_information_test": {
+      "tokens_tested_ge10": 30988,
+      "observed_mi_bits": 1.1982,
+      "within_section_lang_null_mean_bits": 0.0613,
+      "within_section_lang_null_sd_bits": 0.0016,
+      "lift_ratio": 19.53,
+      "z_score": 712.94
+    },
+    "within_stem_clinical_vs_supply_voice_shift_test": {
+      "full_paradigm_stems_tested": 103,
+      "tokens_tested": 22041,
+      "observed_clinical_minus_supply_active_voice_pct": 16.13,
+      "within_stem_shuffle_null_mean_pct": 4.17,
+      "within_stem_shuffle_null_sd_pct": 0.51,
+      "z_score": 23.59
+    }
+  },
+  "domain_case_voice_profiles": {
+    "1_APPARATUS_LABELS_RINGS": {
+      "total_tokens": 3692,
+      "case_pct": {
+        "C1_CIT_BARE": 14.0,
+        "C2_NOM_O": 30.39,
+        "C3_DEIC_DS": 14.6,
+        "C4_ACT_QO": 2.76,
+        "C5_PROC_EDY": 14.08,
+        "C6_APPL_L": 4.09,
+        "C7_LIQ_CONT": 14.14,
+        "C8_QUANT_TERM": 5.93
+      },
+      "active_clinical_voice_pct": 20.94,
+      "nominal_deictic_voice_pct": 73.13
+    },
+    "2_ASTRO_COSMO_TREATISE": {
+      "total_tokens": 2925,
+      "case_pct": {
+        "C1_CIT_BARE": 17.2,
+        "C2_NOM_O": 17.91,
+        "C3_DEIC_DS": 17.91,
+        "C4_ACT_QO": 12.82,
+        "C5_PROC_EDY": 15.04,
+        "C6_APPL_L": 8.38,
+        "C7_LIQ_CONT": 6.6,
+        "C8_QUANT_TERM": 4.14
+      },
+      "active_clinical_voice_pct": 36.24,
+      "nominal_deictic_voice_pct": 59.62
+    },
+    "3_SUPPLY_HERBAL_PHARM": {
+      "total_tokens": 12478,
+      "case_pct": {
+        "C1_CIT_BARE": 21.17,
+        "C2_NOM_O": 18.62,
+        "C3_DEIC_DS": 22.72,
+        "C4_ACT_QO": 10.41,
+        "C5_PROC_EDY": 9.77,
+        "C6_APPL_L": 3.69,
+        "C7_LIQ_CONT": 8.54,
+        "C8_QUANT_TERM": 5.09
+      },
+      "active_clinical_voice_pct": 23.87,
+      "nominal_deictic_voice_pct": 71.05
+    },
+    "4_CLINICAL_BALNEO_STARRED": {
+      "total_tokens": 16469,
+      "case_pct": {
+        "C1_CIT_BARE": 13.41,
+        "C2_NOM_O": 13.7,
+        "C3_DEIC_DS": 12.47,
+        "C4_ACT_QO": 19.42,
+        "C5_PROC_EDY": 16.47,
+        "C6_APPL_L": 12.09,
+        "C7_LIQ_CONT": 8.2,
+        "C8_QUANT_TERM": 4.23
+      },
+      "active_clinical_voice_pct": 47.99,
+      "nominal_deictic_voice_pct": 47.79
+    }
+  },
+  "top_60_full_paradigm_stems": [
+    {
+      "stem": "ch",
+      "total_tokens": 1714,
+      "slots_populated": 8,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 21,
+          "pct": 1.2,
+          "top_form": "chs (12)"
+        },
+        "C2_NOM_O": {
+          "count": 305,
+          "pct": 17.8,
+          "top_form": "chy (153)"
+        },
+        "C3_DEIC_DS": {
+          "count": 98,
+          "pct": 5.7,
+          "top_form": "dchor (27)"
+        },
+        "C4_ACT_QO": {
+          "count": 16,
+          "pct": 0.9,
+          "top_form": "qochey (6)"
+        },
+        "C5_PROC_EDY": {
+          "count": 632,
+          "pct": 36.9,
+          "top_form": "opchedy (47)"
+        },
+        "C6_APPL_L": {
+          "count": 367,
+          "pct": 21.4,
+          "top_form": "lchedy (110)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 235,
+          "pct": 13.7,
+          "top_form": "otchol (27)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 40,
+          "pct": 2.3,
+          "top_form": "dchaiin (5)"
+        }
+      }
+    },
+    {
+      "stem": "ol",
+      "total_tokens": 1431,
+      "slots_populated": 8,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 339,
+          "pct": 23.7,
+          "top_form": "chol (335)"
+        },
+        "C2_NOM_O": {
+          "count": 211,
+          "pct": 14.7,
+          "top_form": "otol (74)"
+        },
+        "C3_DEIC_DS": {
+          "count": 206,
+          "pct": 14.4,
+          "top_form": "shol (173)"
+        },
+        "C4_ACT_QO": {
+          "count": 5,
+          "pct": 0.3,
+          "top_form": "qool (4)"
+        },
+        "C5_PROC_EDY": {
+          "count": 58,
+          "pct": 4.1,
+          "top_form": "choldy (12)"
+        },
+        "C6_APPL_L": {
+          "count": 514,
+          "pct": 35.9,
+          "top_form": "ol (392)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 69,
+          "pct": 4.8,
+          "top_form": "orol (11)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 29,
+          "pct": 2.0,
+          "top_form": "cholaiin (5)"
+        }
+      }
+    },
+    {
+      "stem": "aiin",
+      "total_tokens": 1362,
+      "slots_populated": 8,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 400,
+          "pct": 29.4,
+          "top_form": "aiin (355)"
+        },
+        "C2_NOM_O": {
+          "count": 518,
+          "pct": 38.0,
+          "top_form": "okaiin (219)"
+        },
+        "C3_DEIC_DS": {
+          "count": 171,
+          "pct": 12.6,
+          "top_form": "saiin (150)"
+        },
+        "C4_ACT_QO": {
+          "count": 23,
+          "pct": 1.7,
+          "top_form": "qoaiin (23)"
+        },
+        "C5_PROC_EDY": {
+          "count": 3,
+          "pct": 0.2,
+          "top_form": "ytaiindy (1)"
+        },
+        "C6_APPL_L": {
+          "count": 77,
+          "pct": 5.7,
+          "top_form": "olaiin (58)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 166,
+          "pct": 12.2,
+          "top_form": "oraiin (65)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 4,
+          "pct": 0.3,
+          "top_form": "oraiinam (1)"
+        }
+      }
+    },
+    {
+      "stem": "ar",
+      "total_tokens": 954,
+      "slots_populated": 8,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 339,
+          "pct": 35.5,
+          "top_form": "ar (272)"
+        },
+        "C2_NOM_O": {
+          "count": 390,
+          "pct": 40.9,
+          "top_form": "otar (129)"
+        },
+        "C3_DEIC_DS": {
+          "count": 56,
+          "pct": 5.9,
+          "top_form": "shar (29)"
+        },
+        "C4_ACT_QO": {
+          "count": 9,
+          "pct": 0.9,
+          "top_form": "qoar (9)"
+        },
+        "C5_PROC_EDY": {
+          "count": 8,
+          "pct": 0.8,
+          "top_form": "okardy (2)"
+        },
+        "C6_APPL_L": {
+          "count": 19,
+          "pct": 2.0,
+          "top_form": "olar (15)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 69,
+          "pct": 7.2,
+          "top_form": "arar (10)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 64,
+          "pct": 6.7,
+          "top_form": "saraiin (8)"
+        }
+      }
+    },
+    {
+      "stem": "iin",
+      "total_tokens": 886,
+      "slots_populated": 6,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 1,
+          "pct": 0.1,
+          "top_form": "chiin (1)"
+        },
+        "C2_NOM_O": {
+          "count": 47,
+          "pct": 5.3,
+          "top_form": "oiin (43)"
+        },
+        "C3_DEIC_DS": {
+          "count": 820,
+          "pct": 92.6,
+          "top_form": "daiin (809)"
+        },
+        "C4_ACT_QO": {
+          "count": 7,
+          "pct": 0.8,
+          "top_form": "qoiin (7)"
+        },
+        "C5_PROC_EDY": {
+          "count": 6,
+          "pct": 0.7,
+          "top_form": "daiindy (4)"
+        },
+        "C6_APPL_L": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C7_LIQ_CONT": {
+          "count": 5,
+          "pct": 0.6,
+          "top_form": "oiinal (2)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        }
+      }
+    },
+    {
+      "stem": "or",
+      "total_tokens": 860,
+      "slots_populated": 8,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 475,
+          "pct": 55.2,
+          "top_form": "or (278)"
+        },
+        "C2_NOM_O": {
+          "count": 139,
+          "pct": 16.2,
+          "top_form": "otor (39)"
+        },
+        "C3_DEIC_DS": {
+          "count": 108,
+          "pct": 12.6,
+          "top_form": "shor (89)"
+        },
+        "C4_ACT_QO": {
+          "count": 11,
+          "pct": 1.3,
+          "top_form": "qoor (10)"
+        },
+        "C5_PROC_EDY": {
+          "count": 7,
+          "pct": 0.8,
+          "top_form": "chordy (2)"
+        },
+        "C6_APPL_L": {
+          "count": 41,
+          "pct": 4.8,
+          "top_form": "olor (29)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 39,
+          "pct": 4.5,
+          "top_form": "alor (8)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 40,
+          "pct": 4.7,
+          "top_form": "soraiin (11)"
+        }
+      }
+    },
+    {
+      "stem": "eey",
+      "total_tokens": 825,
+      "slots_populated": 7,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 179,
+          "pct": 21.7,
+          "top_form": "cheey (163)"
+        },
+        "C2_NOM_O": {
+          "count": 460,
+          "pct": 55.8,
+          "top_form": "okeey (204)"
+        },
+        "C3_DEIC_DS": {
+          "count": 148,
+          "pct": 17.9,
+          "top_form": "sheey (135)"
+        },
+        "C4_ACT_QO": {
+          "count": 23,
+          "pct": 2.8,
+          "top_form": "qoeey (23)"
+        },
+        "C5_PROC_EDY": {
+          "count": 4,
+          "pct": 0.5,
+          "top_form": "okeeydy (2)"
+        },
+        "C6_APPL_L": {
+          "count": 6,
+          "pct": 0.7,
+          "top_form": "oleey (5)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 5,
+          "pct": 0.6,
+          "top_form": "oreey (3)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        }
+      }
+    },
+    {
+      "stem": "al",
+      "total_tokens": 805,
+      "slots_populated": 8,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 215,
+          "pct": 26.7,
+          "top_form": "al (167)"
+        },
+        "C2_NOM_O": {
+          "count": 376,
+          "pct": 46.7,
+          "top_form": "okal (135)"
+        },
+        "C3_DEIC_DS": {
+          "count": 27,
+          "pct": 3.4,
+          "top_form": "shal (14)"
+        },
+        "C4_ACT_QO": {
+          "count": 4,
+          "pct": 0.5,
+          "top_form": "qoal (4)"
+        },
+        "C5_PROC_EDY": {
+          "count": 39,
+          "pct": 4.8,
+          "top_form": "okaldy (13)"
+        },
+        "C6_APPL_L": {
+          "count": 17,
+          "pct": 2.1,
+          "top_form": "olal (6)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 101,
+          "pct": 12.5,
+          "top_form": "aral (22)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 26,
+          "pct": 3.2,
+          "top_form": "otalam (4)"
+        }
+      }
+    },
+    {
+      "stem": "ey",
+      "total_tokens": 702,
+      "slots_populated": 6,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 315,
+          "pct": 44.9,
+          "top_form": "chey (297)"
+        },
+        "C2_NOM_O": {
+          "count": 140,
+          "pct": 19.9,
+          "top_form": "okey (62)"
+        },
+        "C3_DEIC_DS": {
+          "count": 238,
+          "pct": 33.9,
+          "top_form": "shey (238)"
+        },
+        "C4_ACT_QO": {
+          "count": 1,
+          "pct": 0.1,
+          "top_form": "qoey (1)"
+        },
+        "C5_PROC_EDY": {
+          "count": 5,
+          "pct": 0.7,
+          "top_form": "okeydy (2)"
+        },
+        "C6_APPL_L": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C7_LIQ_CONT": {
+          "count": 3,
+          "pct": 0.4,
+          "top_form": "cheyl (1)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        }
+      }
+    },
+    {
+      "stem": "ke",
+      "total_tokens": 652,
+      "slots_populated": 6,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C2_NOM_O": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C3_DEIC_DS": {
+          "count": 3,
+          "pct": 0.5,
+          "top_form": "shkeal (1)"
+        },
+        "C4_ACT_QO": {
+          "count": 429,
+          "pct": 65.8,
+          "top_form": "qokeedy (309)"
+        },
+        "C5_PROC_EDY": {
+          "count": 67,
+          "pct": 10.3,
+          "top_form": "keedy (36)"
+        },
+        "C6_APPL_L": {
+          "count": 122,
+          "pct": 18.7,
+          "top_form": "olkeedy (47)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 26,
+          "pct": 4.0,
+          "top_form": "keol (17)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 5,
+          "pct": 0.8,
+          "top_form": "keaiin (1)"
+        }
+      }
+    },
+    {
+      "stem": "sh",
+      "total_tokens": 534,
+      "slots_populated": 7,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C2_NOM_O": {
+          "count": 26,
+          "pct": 4.9,
+          "top_form": "okshy (11)"
+        },
+        "C3_DEIC_DS": {
+          "count": 135,
+          "pct": 25.3,
+          "top_form": "shy (85)"
+        },
+        "C4_ACT_QO": {
+          "count": 2,
+          "pct": 0.4,
+          "top_form": "qoshy (1)"
+        },
+        "C5_PROC_EDY": {
+          "count": 192,
+          "pct": 36.0,
+          "top_form": "dshedy (33)"
+        },
+        "C6_APPL_L": {
+          "count": 149,
+          "pct": 27.9,
+          "top_form": "lshedy (38)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 26,
+          "pct": 4.9,
+          "top_form": "yshor (3)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 4,
+          "pct": 0.7,
+          "top_form": "oshaiin (1)"
+        }
+      }
+    },
+    {
+      "stem": "ain",
+      "total_tokens": 526,
+      "slots_populated": 7,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 89,
+          "pct": 16.9,
+          "top_form": "ain (71)"
+        },
+        "C2_NOM_O": {
+          "count": 274,
+          "pct": 52.1,
+          "top_form": "okain (138)"
+        },
+        "C3_DEIC_DS": {
+          "count": 76,
+          "pct": 14.4,
+          "top_form": "sain (67)"
+        },
+        "C4_ACT_QO": {
+          "count": 7,
+          "pct": 1.3,
+          "top_form": "qoain (7)"
+        },
+        "C5_PROC_EDY": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C6_APPL_L": {
+          "count": 23,
+          "pct": 4.4,
+          "top_form": "olain (13)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 55,
+          "pct": 10.5,
+          "top_form": "orain (23)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 2,
+          "pct": 0.4,
+          "top_form": "ainam (1)"
+        }
+      }
+    },
+    {
+      "stem": "eol",
+      "total_tokens": 441,
+      "slots_populated": 7,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 154,
+          "pct": 34.9,
+          "top_form": "cheol (147)"
+        },
+        "C2_NOM_O": {
+          "count": 140,
+          "pct": 31.7,
+          "top_form": "okeol (64)"
+        },
+        "C3_DEIC_DS": {
+          "count": 109,
+          "pct": 24.7,
+          "top_form": "sheol (102)"
+        },
+        "C4_ACT_QO": {
+          "count": 5,
+          "pct": 1.1,
+          "top_form": "qoeol (5)"
+        },
+        "C5_PROC_EDY": {
+          "count": 17,
+          "pct": 3.9,
+          "top_form": "cheoldy (8)"
+        },
+        "C6_APPL_L": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C7_LIQ_CONT": {
+          "count": 9,
+          "pct": 2.0,
+          "top_form": "cheolor (4)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 7,
+          "pct": 1.6,
+          "top_form": "okeolaiin (2)"
+        }
+      }
+    },
+    {
+      "stem": "dy",
+      "total_tokens": 430,
+      "slots_populated": 8,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 133,
+          "pct": 30.9,
+          "top_form": "chdy (133)"
+        },
+        "C2_NOM_O": {
+          "count": 6,
+          "pct": 1.4,
+          "top_form": "otdy (2)"
+        },
+        "C3_DEIC_DS": {
+          "count": 231,
+          "pct": 53.7,
+          "top_form": "dy (182)"
+        },
+        "C4_ACT_QO": {
+          "count": 17,
+          "pct": 4.0,
+          "top_form": "qody (17)"
+        },
+        "C5_PROC_EDY": {
+          "count": 3,
+          "pct": 0.7,
+          "top_form": "shdydy (1)"
+        },
+        "C6_APPL_L": {
+          "count": 30,
+          "pct": 7.0,
+          "top_form": "oldy (25)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 9,
+          "pct": 2.1,
+          "top_form": "aldy (8)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 1,
+          "pct": 0.2,
+          "top_form": "dym (1)"
+        }
+      }
+    },
+    {
+      "stem": "kch",
+      "total_tokens": 422,
+      "slots_populated": 8,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 1,
+          "pct": 0.2,
+          "top_form": "kchg (1)"
+        },
+        "C2_NOM_O": {
+          "count": 26,
+          "pct": 6.2,
+          "top_form": "kchy (21)"
+        },
+        "C3_DEIC_DS": {
+          "count": 4,
+          "pct": 0.9,
+          "top_form": "shkchy (2)"
+        },
+        "C4_ACT_QO": {
+          "count": 220,
+          "pct": 52.1,
+          "top_form": "qokchy (64)"
+        },
+        "C5_PROC_EDY": {
+          "count": 66,
+          "pct": 15.6,
+          "top_form": "kchey (19)"
+        },
+        "C6_APPL_L": {
+          "count": 55,
+          "pct": 13.0,
+          "top_form": "lkchedy (16)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 44,
+          "pct": 10.4,
+          "top_form": "kchol (20)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 6,
+          "pct": 1.4,
+          "top_form": "kchaiin (3)"
+        }
+      }
+    },
+    {
+      "stem": "ee",
+      "total_tokens": 399,
+      "slots_populated": 8,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 48,
+          "pct": 12.0,
+          "top_form": "chees (33)"
+        },
+        "C2_NOM_O": {
+          "count": 66,
+          "pct": 16.5,
+          "top_form": "oees (20)"
+        },
+        "C3_DEIC_DS": {
+          "count": 52,
+          "pct": 13.0,
+          "top_form": "sheeol (13)"
+        },
+        "C4_ACT_QO": {
+          "count": 17,
+          "pct": 4.3,
+          "top_form": "qoees (4)"
+        },
+        "C5_PROC_EDY": {
+          "count": 75,
+          "pct": 18.8,
+          "top_form": "okeeody (19)"
+        },
+        "C6_APPL_L": {
+          "count": 6,
+          "pct": 1.5,
+          "top_form": "olees (3)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 119,
+          "pct": 29.8,
+          "top_form": "okeeol (18)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 16,
+          "pct": 4.0,
+          "top_form": "oteeam (3)"
+        }
+      }
+    },
+    {
+      "stem": "ckh",
+      "total_tokens": 391,
+      "slots_populated": 7,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 3,
+          "pct": 0.8,
+          "top_form": "chckh (2)"
+        },
+        "C2_NOM_O": {
+          "count": 148,
+          "pct": 37.9,
+          "top_form": "chckhy (133)"
+        },
+        "C3_DEIC_DS": {
+          "count": 64,
+          "pct": 16.4,
+          "top_form": "shckhy (57)"
+        },
+        "C4_ACT_QO": {
+          "count": 56,
+          "pct": 14.3,
+          "top_form": "qockhy (18)"
+        },
+        "C5_PROC_EDY": {
+          "count": 101,
+          "pct": 25.8,
+          "top_form": "chckhey (30)"
+        },
+        "C6_APPL_L": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C7_LIQ_CONT": {
+          "count": 12,
+          "pct": 3.1,
+          "top_form": "chckhol (4)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 7,
+          "pct": 1.8,
+          "top_form": "chckhaiin (3)"
+        }
+      }
+    },
+    {
+      "stem": "dar",
+      "total_tokens": 364,
+      "slots_populated": 7,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 18,
+          "pct": 4.9,
+          "top_form": "chdar (18)"
+        },
+        "C2_NOM_O": {
+          "count": 29,
+          "pct": 8.0,
+          "top_form": "odar (23)"
+        },
+        "C3_DEIC_DS": {
+          "count": 286,
+          "pct": 78.6,
+          "top_form": "dar (277)"
+        },
+        "C4_ACT_QO": {
+          "count": 11,
+          "pct": 3.0,
+          "top_form": "qodar (10)"
+        },
+        "C5_PROC_EDY": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C6_APPL_L": {
+          "count": 15,
+          "pct": 4.1,
+          "top_form": "oldar (9)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 4,
+          "pct": 1.1,
+          "top_form": "aldar (1)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 1,
+          "pct": 0.3,
+          "top_form": "odariin (1)"
+        }
+      }
+    },
+    {
+      "stem": "tch",
+      "total_tokens": 321,
+      "slots_populated": 8,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 1,
+          "pct": 0.3,
+          "top_form": "tch (1)"
+        },
+        "C2_NOM_O": {
+          "count": 23,
+          "pct": 7.2,
+          "top_form": "tchy (19)"
+        },
+        "C3_DEIC_DS": {
+          "count": 3,
+          "pct": 0.9,
+          "top_form": "shtchy (3)"
+        },
+        "C4_ACT_QO": {
+          "count": 166,
+          "pct": 51.7,
+          "top_form": "qotchy (62)"
+        },
+        "C5_PROC_EDY": {
+          "count": 78,
+          "pct": 24.3,
+          "top_form": "tchedy (32)"
+        },
+        "C6_APPL_L": {
+          "count": 11,
+          "pct": 3.4,
+          "top_form": "oltchey (3)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 37,
+          "pct": 11.5,
+          "top_form": "tchor (16)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 2,
+          "pct": 0.6,
+          "top_form": "tcham (1)"
+        }
+      }
+    },
+    {
+      "stem": "ok",
+      "total_tokens": 316,
+      "slots_populated": 7,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 12,
+          "pct": 3.8,
+          "top_form": "ok (7)"
+        },
+        "C2_NOM_O": {
+          "count": 143,
+          "pct": 45.3,
+          "top_form": "oky (100)"
+        },
+        "C3_DEIC_DS": {
+          "count": 30,
+          "pct": 9.5,
+          "top_form": "shoky (7)"
+        },
+        "C4_ACT_QO": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C5_PROC_EDY": {
+          "count": 44,
+          "pct": 13.9,
+          "top_form": "chokeey (14)"
+        },
+        "C6_APPL_L": {
+          "count": 15,
+          "pct": 4.7,
+          "top_form": "lokam (3)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 32,
+          "pct": 10.1,
+          "top_form": "chokal (7)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 40,
+          "pct": 12.7,
+          "top_form": "chokaiin (16)"
+        }
+      }
+    },
+    {
+      "stem": "ed",
+      "total_tokens": 289,
+      "slots_populated": 7,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 13,
+          "pct": 4.5,
+          "top_form": "ched (11)"
+        },
+        "C2_NOM_O": {
+          "count": 4,
+          "pct": 1.4,
+          "top_form": "oked (3)"
+        },
+        "C3_DEIC_DS": {
+          "count": 37,
+          "pct": 12.8,
+          "top_form": "shed (15)"
+        },
+        "C4_ACT_QO": {
+          "count": 4,
+          "pct": 1.4,
+          "top_form": "qoedaiin (3)"
+        },
+        "C5_PROC_EDY": {
+          "count": 6,
+          "pct": 2.1,
+          "top_form": "okedody (1)"
+        },
+        "C6_APPL_L": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C7_LIQ_CONT": {
+          "count": 110,
+          "pct": 38.1,
+          "top_form": "chedar (28)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 115,
+          "pct": 39.8,
+          "top_form": "chedaiin (37)"
+        }
+      }
+    },
+    {
+      "stem": "kal",
+      "total_tokens": 288,
+      "slots_populated": 7,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 26,
+          "pct": 9.0,
+          "top_form": "kal (15)"
+        },
+        "C2_NOM_O": {
+          "count": 4,
+          "pct": 1.4,
+          "top_form": "chkaly (2)"
+        },
+        "C3_DEIC_DS": {
+          "count": 3,
+          "pct": 1.0,
+          "top_form": "dkals (1)"
+        },
+        "C4_ACT_QO": {
+          "count": 225,
+          "pct": 78.1,
+          "top_form": "qokal (188)"
+        },
+        "C5_PROC_EDY": {
+          "count": 4,
+          "pct": 1.4,
+          "top_form": "kaldy (3)"
+        },
+        "C6_APPL_L": {
+          "count": 22,
+          "pct": 7.6,
+          "top_form": "olkal (12)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 4,
+          "pct": 1.4,
+          "top_form": "alkal (2)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        }
+      }
+    },
+    {
+      "stem": "kar",
+      "total_tokens": 283,
+      "slots_populated": 8,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 54,
+          "pct": 19.1,
+          "top_form": "kar (42)"
+        },
+        "C2_NOM_O": {
+          "count": 5,
+          "pct": 1.8,
+          "top_form": "kary (5)"
+        },
+        "C3_DEIC_DS": {
+          "count": 4,
+          "pct": 1.4,
+          "top_form": "shkar (2)"
+        },
+        "C4_ACT_QO": {
+          "count": 155,
+          "pct": 54.8,
+          "top_form": "qokar (148)"
+        },
+        "C5_PROC_EDY": {
+          "count": 1,
+          "pct": 0.4,
+          "top_form": "karody (1)"
+        },
+        "C6_APPL_L": {
+          "count": 55,
+          "pct": 19.4,
+          "top_form": "lkar (30)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 8,
+          "pct": 2.8,
+          "top_form": "alkar (6)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 1,
+          "pct": 0.4,
+          "top_form": "karam (1)"
+        }
+      }
+    },
+    {
+      "stem": "ody",
+      "total_tokens": 275,
+      "slots_populated": 6,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 129,
+          "pct": 46.9,
+          "top_form": "chody (90)"
+        },
+        "C2_NOM_O": {
+          "count": 56,
+          "pct": 20.4,
+          "top_form": "otody (26)"
+        },
+        "C3_DEIC_DS": {
+          "count": 65,
+          "pct": 23.6,
+          "top_form": "shody (53)"
+        },
+        "C4_ACT_QO": {
+          "count": 1,
+          "pct": 0.4,
+          "top_form": "qoody (1)"
+        },
+        "C5_PROC_EDY": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C6_APPL_L": {
+          "count": 5,
+          "pct": 1.8,
+          "top_form": "lody (3)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 19,
+          "pct": 6.9,
+          "top_form": "arody (11)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        }
+      }
+    },
+    {
+      "stem": "ot",
+      "total_tokens": 271,
+      "slots_populated": 7,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 14,
+          "pct": 5.2,
+          "top_form": "ot (11)"
+        },
+        "C2_NOM_O": {
+          "count": 151,
+          "pct": 55.7,
+          "top_form": "oty (111)"
+        },
+        "C3_DEIC_DS": {
+          "count": 13,
+          "pct": 4.8,
+          "top_form": "shoty (6)"
+        },
+        "C4_ACT_QO": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C5_PROC_EDY": {
+          "count": 30,
+          "pct": 11.1,
+          "top_form": "choteey (9)"
+        },
+        "C6_APPL_L": {
+          "count": 8,
+          "pct": 3.0,
+          "top_form": "loty (4)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 30,
+          "pct": 11.1,
+          "top_form": "chotar (10)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 25,
+          "pct": 9.2,
+          "top_form": "chotaiin (9)"
+        }
+      }
+    },
+    {
+      "stem": "dal",
+      "total_tokens": 256,
+      "slots_populated": 7,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 17,
+          "pct": 6.6,
+          "top_form": "chdal (17)"
+        },
+        "C2_NOM_O": {
+          "count": 24,
+          "pct": 9.4,
+          "top_form": "odal (15)"
+        },
+        "C3_DEIC_DS": {
+          "count": 194,
+          "pct": 75.8,
+          "top_form": "dal (188)"
+        },
+        "C4_ACT_QO": {
+          "count": 7,
+          "pct": 2.7,
+          "top_form": "qodal (7)"
+        },
+        "C5_PROC_EDY": {
+          "count": 3,
+          "pct": 1.2,
+          "top_form": "odaldy (1)"
+        },
+        "C6_APPL_L": {
+          "count": 8,
+          "pct": 3.1,
+          "top_form": "oldal (5)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 3,
+          "pct": 1.2,
+          "top_form": "chdalor (1)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        }
+      }
+    },
+    {
+      "stem": "ek",
+      "total_tokens": 251,
+      "slots_populated": 8,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 6,
+          "pct": 2.4,
+          "top_form": "chek (6)"
+        },
+        "C2_NOM_O": {
+          "count": 65,
+          "pct": 25.9,
+          "top_form": "cheky (63)"
+        },
+        "C3_DEIC_DS": {
+          "count": 52,
+          "pct": 20.7,
+          "top_form": "sheky (34)"
+        },
+        "C4_ACT_QO": {
+          "count": 12,
+          "pct": 4.8,
+          "top_form": "qoekeey (4)"
+        },
+        "C5_PROC_EDY": {
+          "count": 48,
+          "pct": 19.1,
+          "top_form": "chekey (7)"
+        },
+        "C6_APPL_L": {
+          "count": 2,
+          "pct": 0.8,
+          "top_form": "olekeey (1)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 30,
+          "pct": 12.0,
+          "top_form": "chekal (12)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 36,
+          "pct": 14.3,
+          "top_form": "chekaiin (11)"
+        }
+      }
+    },
+    {
+      "stem": "od",
+      "total_tokens": 233,
+      "slots_populated": 8,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 16,
+          "pct": 6.9,
+          "top_form": "chod (7)"
+        },
+        "C2_NOM_O": {
+          "count": 5,
+          "pct": 2.1,
+          "top_form": "okod (2)"
+        },
+        "C3_DEIC_DS": {
+          "count": 28,
+          "pct": 12.0,
+          "top_form": "shod (11)"
+        },
+        "C4_ACT_QO": {
+          "count": 2,
+          "pct": 0.9,
+          "top_form": "qoodain (1)"
+        },
+        "C5_PROC_EDY": {
+          "count": 7,
+          "pct": 3.0,
+          "top_form": "chodey (2)"
+        },
+        "C6_APPL_L": {
+          "count": 4,
+          "pct": 1.7,
+          "top_form": "lodaiin (3)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 55,
+          "pct": 23.6,
+          "top_form": "chodar (12)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 116,
+          "pct": 49.8,
+          "top_form": "chodaiin (45)"
+        }
+      }
+    },
+    {
+      "stem": "eo",
+      "total_tokens": 225,
+      "slots_populated": 6,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 77,
+          "pct": 34.2,
+          "top_form": "cheo (39)"
+        },
+        "C2_NOM_O": {
+          "count": 72,
+          "pct": 32.0,
+          "top_form": "oteos (22)"
+        },
+        "C3_DEIC_DS": {
+          "count": 54,
+          "pct": 24.0,
+          "top_form": "sheo (32)"
+        },
+        "C4_ACT_QO": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C5_PROC_EDY": {
+          "count": 3,
+          "pct": 1.3,
+          "top_form": "okeoeey (1)"
+        },
+        "C6_APPL_L": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C7_LIQ_CONT": {
+          "count": 11,
+          "pct": 4.9,
+          "top_form": "cheoar (4)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 8,
+          "pct": 3.6,
+          "top_form": "cheoaiin (3)"
+        }
+      }
+    },
+    {
+      "stem": "cth",
+      "total_tokens": 216,
+      "slots_populated": 8,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 5,
+          "pct": 2.3,
+          "top_form": "cth (3)"
+        },
+        "C2_NOM_O": {
+          "count": 89,
+          "pct": 41.2,
+          "top_form": "chcthy (78)"
+        },
+        "C3_DEIC_DS": {
+          "count": 35,
+          "pct": 16.2,
+          "top_form": "shcthy (32)"
+        },
+        "C4_ACT_QO": {
+          "count": 21,
+          "pct": 9.7,
+          "top_form": "qocthy (8)"
+        },
+        "C5_PROC_EDY": {
+          "count": 47,
+          "pct": 21.8,
+          "top_form": "chcthdy (7)"
+        },
+        "C6_APPL_L": {
+          "count": 2,
+          "pct": 0.9,
+          "top_form": "olcthdy (1)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 10,
+          "pct": 4.6,
+          "top_form": "octhor (2)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 7,
+          "pct": 3.2,
+          "top_form": "chctham (2)"
+        }
+      }
+    },
+    {
+      "stem": "am",
+      "total_tokens": 214,
+      "slots_populated": 7,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 74,
+          "pct": 34.6,
+          "top_form": "am (56)"
+        },
+        "C2_NOM_O": {
+          "count": 101,
+          "pct": 47.2,
+          "top_form": "otam (47)"
+        },
+        "C3_DEIC_DS": {
+          "count": 5,
+          "pct": 2.3,
+          "top_form": "sham (5)"
+        },
+        "C4_ACT_QO": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C5_PROC_EDY": {
+          "count": 2,
+          "pct": 0.9,
+          "top_form": "amody (1)"
+        },
+        "C6_APPL_L": {
+          "count": 5,
+          "pct": 2.3,
+          "top_form": "olam (5)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 26,
+          "pct": 12.1,
+          "top_form": "oram (11)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 1,
+          "pct": 0.5,
+          "top_form": "amam (1)"
+        }
+      }
+    },
+    {
+      "stem": "ky",
+      "total_tokens": 211,
+      "slots_populated": 6,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 28,
+          "pct": 13.3,
+          "top_form": "chky (16)"
+        },
+        "C2_NOM_O": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C3_DEIC_DS": {
+          "count": 15,
+          "pct": 7.1,
+          "top_form": "shky (13)"
+        },
+        "C4_ACT_QO": {
+          "count": 139,
+          "pct": 65.9,
+          "top_form": "qoky (136)"
+        },
+        "C5_PROC_EDY": {
+          "count": 1,
+          "pct": 0.5,
+          "top_form": "kydy (1)"
+        },
+        "C6_APPL_L": {
+          "count": 24,
+          "pct": 11.4,
+          "top_form": "olky (20)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 4,
+          "pct": 1.9,
+          "top_form": "alky (3)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        }
+      }
+    },
+    {
+      "stem": "pch",
+      "total_tokens": 192,
+      "slots_populated": 8,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 1,
+          "pct": 0.5,
+          "top_form": "chpchs (1)"
+        },
+        "C2_NOM_O": {
+          "count": 6,
+          "pct": 3.1,
+          "top_form": "chpchy (4)"
+        },
+        "C3_DEIC_DS": {
+          "count": 2,
+          "pct": 1.0,
+          "top_form": "dpchy (1)"
+        },
+        "C4_ACT_QO": {
+          "count": 84,
+          "pct": 43.8,
+          "top_form": "qopchedy (30)"
+        },
+        "C5_PROC_EDY": {
+          "count": 58,
+          "pct": 30.2,
+          "top_form": "pchedy (30)"
+        },
+        "C6_APPL_L": {
+          "count": 18,
+          "pct": 9.4,
+          "top_form": "lpchedy (6)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 21,
+          "pct": 10.9,
+          "top_form": "pchor (9)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 2,
+          "pct": 1.0,
+          "top_form": "pchaiin (1)"
+        }
+      }
+    },
+    {
+      "stem": "eor",
+      "total_tokens": 190,
+      "slots_populated": 6,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 85,
+          "pct": 44.7,
+          "top_form": "cheor (84)"
+        },
+        "C2_NOM_O": {
+          "count": 45,
+          "pct": 23.7,
+          "top_form": "okeor (21)"
+        },
+        "C3_DEIC_DS": {
+          "count": 43,
+          "pct": 22.6,
+          "top_form": "sheor (43)"
+        },
+        "C4_ACT_QO": {
+          "count": 2,
+          "pct": 1.1,
+          "top_form": "qoeor (2)"
+        },
+        "C5_PROC_EDY": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C6_APPL_L": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C7_LIQ_CONT": {
+          "count": 9,
+          "pct": 4.7,
+          "top_form": "cheorol (3)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 6,
+          "pct": 3.2,
+          "top_form": "cheoraiin (3)"
+        }
+      }
+    },
+    {
+      "stem": "che",
+      "total_tokens": 183,
+      "slots_populated": 8,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 2,
+          "pct": 1.1,
+          "top_form": "che (2)"
+        },
+        "C2_NOM_O": {
+          "count": 7,
+          "pct": 3.8,
+          "top_form": "yches (2)"
+        },
+        "C3_DEIC_DS": {
+          "count": 16,
+          "pct": 8.7,
+          "top_form": "dcheol (8)"
+        },
+        "C4_ACT_QO": {
+          "count": 3,
+          "pct": 1.6,
+          "top_form": "qocheol (2)"
+        },
+        "C5_PROC_EDY": {
+          "count": 34,
+          "pct": 18.6,
+          "top_form": "ycheedy (7)"
+        },
+        "C6_APPL_L": {
+          "count": 55,
+          "pct": 30.1,
+          "top_form": "olcheol (10)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 58,
+          "pct": 31.7,
+          "top_form": "ycheol (13)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 8,
+          "pct": 4.4,
+          "top_form": "scheaiin (2)"
+        }
+      }
+    },
+    {
+      "stem": "ai",
+      "total_tokens": 175,
+      "slots_populated": 7,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 2,
+          "pct": 1.1,
+          "top_form": "aig (2)"
+        },
+        "C2_NOM_O": {
+          "count": 8,
+          "pct": 4.6,
+          "top_form": "okai (3)"
+        },
+        "C3_DEIC_DS": {
+          "count": 28,
+          "pct": 16.0,
+          "top_form": "sair (26)"
+        },
+        "C4_ACT_QO": {
+          "count": 3,
+          "pct": 1.7,
+          "top_form": "qoair (3)"
+        },
+        "C5_PROC_EDY": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C6_APPL_L": {
+          "count": 5,
+          "pct": 2.9,
+          "top_form": "olair (3)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 125,
+          "pct": 71.4,
+          "top_form": "air (44)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 4,
+          "pct": 2.3,
+          "top_form": "ykaiim (1)"
+        }
+      }
+    },
+    {
+      "stem": "daiin",
+      "total_tokens": 174,
+      "slots_populated": 6,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 17,
+          "pct": 9.8,
+          "top_form": "chdaiin (17)"
+        },
+        "C2_NOM_O": {
+          "count": 87,
+          "pct": 50.0,
+          "top_form": "odaiin (65)"
+        },
+        "C3_DEIC_DS": {
+          "count": 5,
+          "pct": 2.9,
+          "top_form": "shdaiin (4)"
+        },
+        "C4_ACT_QO": {
+          "count": 44,
+          "pct": 25.3,
+          "top_form": "qodaiin (44)"
+        },
+        "C5_PROC_EDY": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C6_APPL_L": {
+          "count": 16,
+          "pct": 9.2,
+          "top_form": "oldaiin (13)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 5,
+          "pct": 2.9,
+          "top_form": "aldaiin (3)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        }
+      }
+    },
+    {
+      "stem": "kol",
+      "total_tokens": 146,
+      "slots_populated": 7,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 27,
+          "pct": 18.5,
+          "top_form": "kol (22)"
+        },
+        "C2_NOM_O": {
+          "count": 1,
+          "pct": 0.7,
+          "top_form": "koly (1)"
+        },
+        "C3_DEIC_DS": {
+          "count": 3,
+          "pct": 2.1,
+          "top_form": "shkol (2)"
+        },
+        "C4_ACT_QO": {
+          "count": 96,
+          "pct": 65.8,
+          "top_form": "qokol (91)"
+        },
+        "C5_PROC_EDY": {
+          "count": 10,
+          "pct": 6.8,
+          "top_form": "koldy (7)"
+        },
+        "C6_APPL_L": {
+          "count": 8,
+          "pct": 5.5,
+          "top_form": "lkol (4)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 1,
+          "pct": 0.7,
+          "top_form": "kolor (1)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        }
+      }
+    },
+    {
+      "stem": "sho",
+      "total_tokens": 137,
+      "slots_populated": 6,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 1,
+          "pct": 0.7,
+          "top_form": "chsho (1)"
+        },
+        "C2_NOM_O": {
+          "count": 16,
+          "pct": 11.7,
+          "top_form": "oksho (4)"
+        },
+        "C3_DEIC_DS": {
+          "count": 114,
+          "pct": 83.2,
+          "top_form": "sho (104)"
+        },
+        "C4_ACT_QO": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C5_PROC_EDY": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C6_APPL_L": {
+          "count": 4,
+          "pct": 2.9,
+          "top_form": "lsho (2)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 1,
+          "pct": 0.7,
+          "top_form": "orshos (1)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 1,
+          "pct": 0.7,
+          "top_form": "yshoain (1)"
+        }
+      }
+    },
+    {
+      "stem": "eod",
+      "total_tokens": 129,
+      "slots_populated": 6,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 6,
+          "pct": 4.7,
+          "top_form": "cheod (6)"
+        },
+        "C2_NOM_O": {
+          "count": 12,
+          "pct": 9.3,
+          "top_form": "okeod (6)"
+        },
+        "C3_DEIC_DS": {
+          "count": 16,
+          "pct": 12.4,
+          "top_form": "sheod (10)"
+        },
+        "C4_ACT_QO": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C5_PROC_EDY": {
+          "count": 2,
+          "pct": 1.6,
+          "top_form": "cheodeey (2)"
+        },
+        "C6_APPL_L": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C7_LIQ_CONT": {
+          "count": 39,
+          "pct": 30.2,
+          "top_form": "cheodal (8)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 54,
+          "pct": 41.9,
+          "top_form": "cheodaiin (16)"
+        }
+      }
+    },
+    {
+      "stem": "kee",
+      "total_tokens": 123,
+      "slots_populated": 7,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 1,
+          "pct": 0.8,
+          "top_form": "kees (1)"
+        },
+        "C2_NOM_O": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C3_DEIC_DS": {
+          "count": 3,
+          "pct": 2.4,
+          "top_form": "dkeeor (1)"
+        },
+        "C4_ACT_QO": {
+          "count": 54,
+          "pct": 43.9,
+          "top_form": "qokeeody (17)"
+        },
+        "C5_PROC_EDY": {
+          "count": 15,
+          "pct": 12.2,
+          "top_form": "keeody (11)"
+        },
+        "C6_APPL_L": {
+          "count": 31,
+          "pct": 25.2,
+          "top_form": "olkeeody (7)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 18,
+          "pct": 14.6,
+          "top_form": "keeol (9)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 1,
+          "pct": 0.8,
+          "top_form": "keeaiin (1)"
+        }
+      }
+    },
+    {
+      "stem": "cho",
+      "total_tokens": 118,
+      "slots_populated": 7,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 53,
+          "pct": 44.9,
+          "top_form": "cho (52)"
+        },
+        "C2_NOM_O": {
+          "count": 36,
+          "pct": 30.5,
+          "top_form": "otcho (7)"
+        },
+        "C3_DEIC_DS": {
+          "count": 14,
+          "pct": 11.9,
+          "top_form": "dcho (6)"
+        },
+        "C4_ACT_QO": {
+          "count": 2,
+          "pct": 1.7,
+          "top_form": "qocho (2)"
+        },
+        "C5_PROC_EDY": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C6_APPL_L": {
+          "count": 7,
+          "pct": 5.9,
+          "top_form": "lcho (4)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 3,
+          "pct": 2.5,
+          "top_form": "orcho (1)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 3,
+          "pct": 2.5,
+          "top_form": "ochoaiin (1)"
+        }
+      }
+    },
+    {
+      "stem": "tar",
+      "total_tokens": 116,
+      "slots_populated": 6,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 33,
+          "pct": 28.4,
+          "top_form": "tar (30)"
+        },
+        "C2_NOM_O": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C3_DEIC_DS": {
+          "count": 1,
+          "pct": 0.9,
+          "top_form": "shtar (1)"
+        },
+        "C4_ACT_QO": {
+          "count": 65,
+          "pct": 56.0,
+          "top_form": "qotar (62)"
+        },
+        "C5_PROC_EDY": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C6_APPL_L": {
+          "count": 4,
+          "pct": 3.4,
+          "top_form": "ltary (2)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 8,
+          "pct": 6.9,
+          "top_form": "tarar (3)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 5,
+          "pct": 4.3,
+          "top_form": "taraiin (4)"
+        }
+      }
+    },
+    {
+      "stem": "os",
+      "total_tokens": 112,
+      "slots_populated": 8,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 57,
+          "pct": 50.9,
+          "top_form": "chos (35)"
+        },
+        "C2_NOM_O": {
+          "count": 18,
+          "pct": 16.1,
+          "top_form": "okos (7)"
+        },
+        "C3_DEIC_DS": {
+          "count": 13,
+          "pct": 11.6,
+          "top_form": "shos (8)"
+        },
+        "C4_ACT_QO": {
+          "count": 2,
+          "pct": 1.8,
+          "top_form": "qoos (2)"
+        },
+        "C5_PROC_EDY": {
+          "count": 1,
+          "pct": 0.9,
+          "top_form": "otosey (1)"
+        },
+        "C6_APPL_L": {
+          "count": 4,
+          "pct": 3.6,
+          "top_form": "olos (2)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 5,
+          "pct": 4.5,
+          "top_form": "chosar (2)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 12,
+          "pct": 10.7,
+          "top_form": "shosaiin (5)"
+        }
+      }
+    },
+    {
+      "stem": "she",
+      "total_tokens": 111,
+      "slots_populated": 6,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C2_NOM_O": {
+          "count": 5,
+          "pct": 4.5,
+          "top_form": "okshes (1)"
+        },
+        "C3_DEIC_DS": {
+          "count": 37,
+          "pct": 33.3,
+          "top_form": "she (22)"
+        },
+        "C4_ACT_QO": {
+          "count": 1,
+          "pct": 0.9,
+          "top_form": "qosheedy (1)"
+        },
+        "C5_PROC_EDY": {
+          "count": 20,
+          "pct": 18.0,
+          "top_form": "ysheedy (6)"
+        },
+        "C6_APPL_L": {
+          "count": 32,
+          "pct": 28.8,
+          "top_form": "lsheedy (6)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 16,
+          "pct": 14.4,
+          "top_form": "ysheor (4)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        }
+      }
+    },
+    {
+      "stem": "dam",
+      "total_tokens": 106,
+      "slots_populated": 6,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 10,
+          "pct": 9.4,
+          "top_form": "chdam (10)"
+        },
+        "C2_NOM_O": {
+          "count": 9,
+          "pct": 8.5,
+          "top_form": "odam (6)"
+        },
+        "C3_DEIC_DS": {
+          "count": 76,
+          "pct": 71.7,
+          "top_form": "dam (74)"
+        },
+        "C4_ACT_QO": {
+          "count": 3,
+          "pct": 2.8,
+          "top_form": "qodam (3)"
+        },
+        "C5_PROC_EDY": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C6_APPL_L": {
+          "count": 7,
+          "pct": 6.6,
+          "top_form": "oldam (7)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 1,
+          "pct": 0.9,
+          "top_form": "aldam (1)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        }
+      }
+    },
+    {
+      "stem": "eeo",
+      "total_tokens": 106,
+      "slots_populated": 7,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 24,
+          "pct": 22.6,
+          "top_form": "cheeo (14)"
+        },
+        "C2_NOM_O": {
+          "count": 63,
+          "pct": 59.4,
+          "top_form": "oteeos (13)"
+        },
+        "C3_DEIC_DS": {
+          "count": 11,
+          "pct": 10.4,
+          "top_form": "sheeo (7)"
+        },
+        "C4_ACT_QO": {
+          "count": 4,
+          "pct": 3.8,
+          "top_form": "qoeeo (3)"
+        },
+        "C5_PROC_EDY": {
+          "count": 1,
+          "pct": 0.9,
+          "top_form": "yteeoey (1)"
+        },
+        "C6_APPL_L": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C7_LIQ_CONT": {
+          "count": 2,
+          "pct": 1.9,
+          "top_form": "oteeoal (1)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 1,
+          "pct": 0.9,
+          "top_form": "oteeon (1)"
+        }
+      }
+    },
+    {
+      "stem": "oiin",
+      "total_tokens": 101,
+      "slots_populated": 7,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 11,
+          "pct": 10.9,
+          "top_form": "choiin (11)"
+        },
+        "C2_NOM_O": {
+          "count": 19,
+          "pct": 18.8,
+          "top_form": "okoiin (9)"
+        },
+        "C3_DEIC_DS": {
+          "count": 46,
+          "pct": 45.5,
+          "top_form": "soiin (24)"
+        },
+        "C4_ACT_QO": {
+          "count": 2,
+          "pct": 2.0,
+          "top_form": "qooiin (2)"
+        },
+        "C5_PROC_EDY": {
+          "count": 1,
+          "pct": 1.0,
+          "top_form": "soiindy (1)"
+        },
+        "C6_APPL_L": {
+          "count": 12,
+          "pct": 11.9,
+          "top_form": "oloiin (6)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 10,
+          "pct": 9.9,
+          "top_form": "roiin (3)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        }
+      }
+    },
+    {
+      "stem": "tal",
+      "total_tokens": 101,
+      "slots_populated": 8,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 18,
+          "pct": 17.8,
+          "top_form": "tal (13)"
+        },
+        "C2_NOM_O": {
+          "count": 4,
+          "pct": 4.0,
+          "top_form": "taly (3)"
+        },
+        "C3_DEIC_DS": {
+          "count": 1,
+          "pct": 1.0,
+          "top_form": "dtal (1)"
+        },
+        "C4_ACT_QO": {
+          "count": 66,
+          "pct": 65.3,
+          "top_form": "qotal (56)"
+        },
+        "C5_PROC_EDY": {
+          "count": 2,
+          "pct": 2.0,
+          "top_form": "talody (1)"
+        },
+        "C6_APPL_L": {
+          "count": 6,
+          "pct": 5.9,
+          "top_form": "ltal (3)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 3,
+          "pct": 3.0,
+          "top_form": "talar (1)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 1,
+          "pct": 1.0,
+          "top_form": "talam (1)"
+        }
+      }
+    },
+    {
+      "stem": "dol",
+      "total_tokens": 100,
+      "slots_populated": 6,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 1,
+          "pct": 1.0,
+          "top_form": "chdol (1)"
+        },
+        "C2_NOM_O": {
+          "count": 4,
+          "pct": 4.0,
+          "top_form": "odol (2)"
+        },
+        "C3_DEIC_DS": {
+          "count": 91,
+          "pct": 91.0,
+          "top_form": "dol (90)"
+        },
+        "C4_ACT_QO": {
+          "count": 1,
+          "pct": 1.0,
+          "top_form": "qodol (1)"
+        },
+        "C5_PROC_EDY": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C6_APPL_L": {
+          "count": 2,
+          "pct": 2.0,
+          "top_form": "ldol (2)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C8_QUANT_TERM": {
+          "count": 1,
+          "pct": 1.0,
+          "top_form": "chdolaiin (1)"
+        }
+      }
+    },
+    {
+      "stem": "et",
+      "total_tokens": 97,
+      "slots_populated": 8,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 1,
+          "pct": 1.0,
+          "top_form": "chet (1)"
+        },
+        "C2_NOM_O": {
+          "count": 30,
+          "pct": 30.9,
+          "top_form": "chety (22)"
+        },
+        "C3_DEIC_DS": {
+          "count": 13,
+          "pct": 13.4,
+          "top_form": "shety (9)"
+        },
+        "C4_ACT_QO": {
+          "count": 4,
+          "pct": 4.1,
+          "top_form": "qoetam (1)"
+        },
+        "C5_PROC_EDY": {
+          "count": 22,
+          "pct": 22.7,
+          "top_form": "chetey (7)"
+        },
+        "C6_APPL_L": {
+          "count": 1,
+          "pct": 1.0,
+          "top_form": "oletal (1)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 11,
+          "pct": 11.3,
+          "top_form": "chetar (6)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 15,
+          "pct": 15.5,
+          "top_form": "chetain (5)"
+        }
+      }
+    },
+    {
+      "stem": "ear",
+      "total_tokens": 94,
+      "slots_populated": 6,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 46,
+          "pct": 48.9,
+          "top_form": "chear (44)"
+        },
+        "C2_NOM_O": {
+          "count": 18,
+          "pct": 19.1,
+          "top_form": "okear (8)"
+        },
+        "C3_DEIC_DS": {
+          "count": 23,
+          "pct": 24.5,
+          "top_form": "shear (23)"
+        },
+        "C4_ACT_QO": {
+          "count": 2,
+          "pct": 2.1,
+          "top_form": "qoear (2)"
+        },
+        "C5_PROC_EDY": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C6_APPL_L": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C7_LIQ_CONT": {
+          "count": 1,
+          "pct": 1.1,
+          "top_form": "otearar (1)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 4,
+          "pct": 4.3,
+          "top_form": "chearaiin (1)"
+        }
+      }
+    },
+    {
+      "stem": "tol",
+      "total_tokens": 91,
+      "slots_populated": 7,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 37,
+          "pct": 40.7,
+          "top_form": "tol (31)"
+        },
+        "C2_NOM_O": {
+          "count": 2,
+          "pct": 2.2,
+          "top_form": "toly (2)"
+        },
+        "C3_DEIC_DS": {
+          "count": 2,
+          "pct": 2.2,
+          "top_form": "shtol (2)"
+        },
+        "C4_ACT_QO": {
+          "count": 44,
+          "pct": 48.4,
+          "top_form": "qotol (40)"
+        },
+        "C5_PROC_EDY": {
+          "count": 3,
+          "pct": 3.3,
+          "top_form": "toldy (3)"
+        },
+        "C6_APPL_L": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C7_LIQ_CONT": {
+          "count": 2,
+          "pct": 2.2,
+          "top_form": "tolol (1)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 1,
+          "pct": 1.1,
+          "top_form": "tolain (1)"
+        }
+      }
+    },
+    {
+      "stem": "dor",
+      "total_tokens": 88,
+      "slots_populated": 8,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 9,
+          "pct": 10.2,
+          "top_form": "chdor (9)"
+        },
+        "C2_NOM_O": {
+          "count": 10,
+          "pct": 11.4,
+          "top_form": "odor (8)"
+        },
+        "C3_DEIC_DS": {
+          "count": 61,
+          "pct": 69.3,
+          "top_form": "dor (59)"
+        },
+        "C4_ACT_QO": {
+          "count": 2,
+          "pct": 2.3,
+          "top_form": "qodory (1)"
+        },
+        "C5_PROC_EDY": {
+          "count": 1,
+          "pct": 1.1,
+          "top_form": "otdordy (1)"
+        },
+        "C6_APPL_L": {
+          "count": 2,
+          "pct": 2.3,
+          "top_form": "oldor (2)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 2,
+          "pct": 2.3,
+          "top_form": "odoral (1)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 1,
+          "pct": 1.1,
+          "top_form": "ofdoram (1)"
+        }
+      }
+    },
+    {
+      "stem": "eed",
+      "total_tokens": 84,
+      "slots_populated": 8,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 3,
+          "pct": 3.6,
+          "top_form": "cheed (2)"
+        },
+        "C2_NOM_O": {
+          "count": 14,
+          "pct": 16.7,
+          "top_form": "oteed (8)"
+        },
+        "C3_DEIC_DS": {
+          "count": 7,
+          "pct": 8.3,
+          "top_form": "sheed (4)"
+        },
+        "C4_ACT_QO": {
+          "count": 5,
+          "pct": 6.0,
+          "top_form": "qoeedaiin (4)"
+        },
+        "C5_PROC_EDY": {
+          "count": 3,
+          "pct": 3.6,
+          "top_form": "oeedey (1)"
+        },
+        "C6_APPL_L": {
+          "count": 4,
+          "pct": 4.8,
+          "top_form": "oleed (2)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 25,
+          "pct": 29.8,
+          "top_form": "cheedar (5)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 23,
+          "pct": 27.4,
+          "top_form": "oteedaiin (5)"
+        }
+      }
+    },
+    {
+      "stem": "eal",
+      "total_tokens": 77,
+      "slots_populated": 6,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 27,
+          "pct": 35.1,
+          "top_form": "cheal (27)"
+        },
+        "C2_NOM_O": {
+          "count": 25,
+          "pct": 32.5,
+          "top_form": "okeal (13)"
+        },
+        "C3_DEIC_DS": {
+          "count": 19,
+          "pct": 24.7,
+          "top_form": "sheal (16)"
+        },
+        "C4_ACT_QO": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C5_PROC_EDY": {
+          "count": 1,
+          "pct": 1.3,
+          "top_form": "chealdy (1)"
+        },
+        "C6_APPL_L": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C7_LIQ_CONT": {
+          "count": 4,
+          "pct": 5.2,
+          "top_form": "okealar (2)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 1,
+          "pct": 1.3,
+          "top_form": "ealam (1)"
+        }
+      }
+    },
+    {
+      "stem": "ksh",
+      "total_tokens": 73,
+      "slots_populated": 7,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C2_NOM_O": {
+          "count": 6,
+          "pct": 8.2,
+          "top_form": "kshy (5)"
+        },
+        "C3_DEIC_DS": {
+          "count": 1,
+          "pct": 1.4,
+          "top_form": "shkshy (1)"
+        },
+        "C4_ACT_QO": {
+          "count": 33,
+          "pct": 45.2,
+          "top_form": "qokshedy (11)"
+        },
+        "C5_PROC_EDY": {
+          "count": 15,
+          "pct": 20.5,
+          "top_form": "kshey (4)"
+        },
+        "C6_APPL_L": {
+          "count": 11,
+          "pct": 15.1,
+          "top_form": "lkshedy (4)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 6,
+          "pct": 8.2,
+          "top_form": "kshor (2)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 1,
+          "pct": 1.4,
+          "top_form": "kshaiin (1)"
+        }
+      }
+    },
+    {
+      "stem": "eek",
+      "total_tokens": 71,
+      "slots_populated": 6,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C2_NOM_O": {
+          "count": 25,
+          "pct": 35.2,
+          "top_form": "cheeky (24)"
+        },
+        "C3_DEIC_DS": {
+          "count": 23,
+          "pct": 32.4,
+          "top_form": "sheeky (16)"
+        },
+        "C4_ACT_QO": {
+          "count": 1,
+          "pct": 1.4,
+          "top_form": "qoeekain (1)"
+        },
+        "C5_PROC_EDY": {
+          "count": 14,
+          "pct": 19.7,
+          "top_form": "cheekey (6)"
+        },
+        "C6_APPL_L": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C7_LIQ_CONT": {
+          "count": 1,
+          "pct": 1.4,
+          "top_form": "cheekar (1)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 7,
+          "pct": 9.9,
+          "top_form": "cheekain (3)"
+        }
+      }
+    },
+    {
+      "stem": "ched",
+      "total_tokens": 71,
+      "slots_populated": 7,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C2_NOM_O": {
+          "count": 7,
+          "pct": 9.9,
+          "top_form": "yched (2)"
+        },
+        "C3_DEIC_DS": {
+          "count": 3,
+          "pct": 4.2,
+          "top_form": "dchedal (1)"
+        },
+        "C4_ACT_QO": {
+          "count": 1,
+          "pct": 1.4,
+          "top_form": "qochedain (1)"
+        },
+        "C5_PROC_EDY": {
+          "count": 2,
+          "pct": 2.8,
+          "top_form": "ypcheddy (1)"
+        },
+        "C6_APPL_L": {
+          "count": 18,
+          "pct": 25.4,
+          "top_form": "lched (6)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 22,
+          "pct": 31.0,
+          "top_form": "ychedar (4)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 18,
+          "pct": 25.4,
+          "top_form": "opchedaiin (5)"
+        }
+      }
+    },
+    {
+      "stem": "kor",
+      "total_tokens": 68,
+      "slots_populated": 6,
+      "paradigm_cells": {
+        "C1_CIT_BARE": {
+          "count": 20,
+          "pct": 29.4,
+          "top_form": "kor (17)"
+        },
+        "C2_NOM_O": {
+          "count": 2,
+          "pct": 2.9,
+          "top_form": "kory (1)"
+        },
+        "C3_DEIC_DS": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C4_ACT_QO": {
+          "count": 34,
+          "pct": 50.0,
+          "top_form": "qokor (32)"
+        },
+        "C5_PROC_EDY": {
+          "count": 0,
+          "pct": 0.0,
+          "top_form": "-"
+        },
+        "C6_APPL_L": {
+          "count": 7,
+          "pct": 10.3,
+          "top_form": "olkor (3)"
+        },
+        "C7_LIQ_CONT": {
+          "count": 2,
+          "pct": 2.9,
+          "top_form": "chkorol (1)"
+        },
+        "C8_QUANT_TERM": {
+          "count": 3,
+          "pct": 4.4,
+          "top_form": "koraiin (2)"
+        }
+      }
+    }
+  ]
+}

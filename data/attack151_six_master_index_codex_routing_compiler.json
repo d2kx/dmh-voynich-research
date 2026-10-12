@@ -1,0 +1,1469 @@
+{
+  "attack": 151,
+  "phase": 162,
+  "discovery": 168,
+  "title": "Complete Six-Index-Folio Master Compiler & Full-Codex Cross-Reference Atlas (f1r, f49v, f58r, f58v, f66r, f76r Routing All 220 Non-Index Folios)",
+  "overview": {
+    "total_codex_folios": 227,
+    "master_index_folios": [
+      "f1r",
+      "f49v",
+      "f58r",
+      "f58v",
+      "f66r",
+      "f76r"
+    ],
+    "non_index_target_folios": 221,
+    "target_folios_linked_to_ge1_master_index": 219,
+    "target_folio_coverage_pct": 99.1,
+    "primary_master_index_win_counts": {
+      "f66r": 41,
+      "f58r": 92,
+      "f1r": 16,
+      "f76r": 29,
+      "f58v": 19,
+      "UNLINKED": 2,
+      "f49v": 22
+    },
+    "three_pole_domain_routing_permutation_test_1000": {
+      "observed_normalized_diagonal_affinity": 1.1861,
+      "null_mean": 0.999,
+      "null_sd": 0.0296,
+      "lift_ratio": 1.187,
+      "z_score": 6.32
+    }
+  },
+  "stratum_by_master_mean_idf_matrix": {
+    "H_A": {
+      "n_folios": 96,
+      "top_governing_master_index": "f58r",
+      "mean_shared_idf_by_master": {
+        "f1r": 5.824,
+        "f49v": 6.115,
+        "f58r": 7.732,
+        "f58v": 5.18,
+        "f66r": 4.553,
+        "f76r": 2.805
+      }
+    },
+    "H_B": {
+      "n_folios": 32,
+      "top_governing_master_index": "f58r",
+      "mean_shared_idf_by_master": {
+        "f1r": 4.362,
+        "f49v": 2.734,
+        "f58r": 10.259,
+        "f58v": 6.378,
+        "f66r": 8.205,
+        "f76r": 7.736
+      }
+    },
+    "A": {
+      "n_folios": 8,
+      "top_governing_master_index": "f58r",
+      "mean_shared_idf_by_master": {
+        "f1r": 6.856,
+        "f49v": 7.418,
+        "f58r": 15.336,
+        "f58v": 11.344,
+        "f66r": 12.933,
+        "f76r": 7.863
+      }
+    },
+    "Z": {
+      "n_folios": 12,
+      "top_governing_master_index": "f58r",
+      "mean_shared_idf_by_master": {
+        "f1r": 5.442,
+        "f49v": 6.27,
+        "f58r": 19.096,
+        "f58v": 11.029,
+        "f66r": 9.434,
+        "f76r": 14.102
+      }
+    },
+    "B": {
+      "n_folios": 19,
+      "top_governing_master_index": "f76r",
+      "mean_shared_idf_by_master": {
+        "f1r": 6.753,
+        "f49v": 2.942,
+        "f58r": 21.932,
+        "f58v": 9.315,
+        "f66r": 12.971,
+        "f76r": 24.036
+      }
+    },
+    "C_T": {
+      "n_folios": 15,
+      "top_governing_master_index": "f58r",
+      "mean_shared_idf_by_master": {
+        "f1r": 9.684,
+        "f49v": 6.237,
+        "f58r": 19.511,
+        "f58v": 9.649,
+        "f66r": 16.413,
+        "f76r": 11.502
+      }
+    },
+    "P": {
+      "n_folios": 16,
+      "top_governing_master_index": "f58r",
+      "mean_shared_idf_by_master": {
+        "f1r": 8.46,
+        "f49v": 4.758,
+        "f58r": 15.693,
+        "f58v": 12.131,
+        "f66r": 11.911,
+        "f76r": 8.783
+      }
+    },
+    "S": {
+      "n_folios": 23,
+      "top_governing_master_index": "f58r",
+      "mean_shared_idf_by_master": {
+        "f1r": 17.989,
+        "f49v": 9.503,
+        "f58r": 27.419,
+        "f58v": 22.461,
+        "f66r": 24.626,
+        "f76r": 26.418
+      }
+    }
+  },
+  "top_routed_targets_per_master_index": {
+    "f1r": [
+      {
+        "target_folio": "f113r",
+        "stratum": "S",
+        "shared_idf": 31.921,
+        "shared_stems": [
+          "oar",
+          "oda",
+          "kai",
+          "air",
+          "cheo",
+          "do"
+        ]
+      },
+      {
+        "target_folio": "f105r",
+        "stratum": "S",
+        "shared_idf": 29.459,
+        "shared_stems": [
+          "re",
+          "fa",
+          "psh",
+          "air",
+          "cheo",
+          "ls"
+        ]
+      },
+      {
+        "target_folio": "f104r",
+        "stratum": "S",
+        "shared_idf": 28.956,
+        "shared_stems": [
+          "at",
+          "oda",
+          "ra",
+          "kai",
+          "air",
+          "cheo"
+        ]
+      },
+      {
+        "target_folio": "f114v",
+        "stratum": "S",
+        "shared_idf": 26.15,
+        "shared_stems": [
+          "psh",
+          "kai",
+          "air",
+          "cheo",
+          "ls",
+          "do"
+        ]
+      },
+      {
+        "target_folio": "f104v",
+        "stratum": "S",
+        "shared_idf": 24.064,
+        "shared_stems": [
+          "oda",
+          "kai",
+          "air",
+          "sho",
+          "cheo",
+          "ls"
+        ]
+      },
+      {
+        "target_folio": "f93r",
+        "stratum": "H_A",
+        "shared_idf": 23.573,
+        "shared_stems": [
+          "kodsh",
+          "osh",
+          "oda",
+          "sho",
+          "do",
+          "octh"
+        ]
+      },
+      {
+        "target_folio": "f106v",
+        "stratum": "S",
+        "shared_idf": 23.494,
+        "shared_stems": [
+          "cpho",
+          "oda",
+          "kai",
+          "cheo",
+          "yd",
+          "ksh"
+        ]
+      },
+      {
+        "target_folio": "f86v5",
+        "stratum": "C_T",
+        "shared_idf": 23.409,
+        "shared_stems": [
+          "olot",
+          "fa",
+          "psh",
+          "kai",
+          "ksh",
+          "oa"
+        ]
+      }
+    ],
+    "f49v": [
+      {
+        "target_folio": "f113r",
+        "stratum": "S",
+        "shared_idf": 35.15,
+        "shared_stems": [
+          "okeo",
+          "chs",
+          "cheod",
+          "ote",
+          "kche",
+          "chod"
+        ]
+      },
+      {
+        "target_folio": "f49r",
+        "stratum": "H_A",
+        "shared_idf": 27.418,
+        "shared_stems": [
+          "otsh",
+          "kcho",
+          "chod",
+          "otch",
+          "sho",
+          "okch"
+        ]
+      },
+      {
+        "target_folio": "f115r",
+        "stratum": "S",
+        "shared_idf": 27.119,
+        "shared_stems": [
+          "okee",
+          "cheod",
+          "kche",
+          "otch",
+          "sho",
+          "okch"
+        ]
+      },
+      {
+        "target_folio": "f104v",
+        "stratum": "S",
+        "shared_idf": 22.578,
+        "shared_stems": [
+          "cheod",
+          "kche",
+          "otch",
+          "sho",
+          "okch",
+          "eeod"
+        ]
+      },
+      {
+        "target_folio": "f43r",
+        "stratum": "H_B",
+        "shared_idf": 21.715,
+        "shared_stems": [
+          "okor",
+          "kalch",
+          "ote",
+          "ls",
+          "ksh"
+        ]
+      },
+      {
+        "target_folio": "f68v3",
+        "stratum": "C_T",
+        "shared_idf": 20.209,
+        "shared_stems": [
+          "is",
+          "kod",
+          "ote",
+          "kche",
+          "sho"
+        ]
+      },
+      {
+        "target_folio": "f7v",
+        "stratum": "H_A",
+        "shared_idf": 18.426,
+        "shared_stems": [
+          "kcho",
+          "chod",
+          "sho",
+          "okch",
+          "ksh",
+          "eee"
+        ]
+      },
+      {
+        "target_folio": "f56r",
+        "stratum": "H_A",
+        "shared_idf": 17.017,
+        "shared_stems": [
+          "kcho",
+          "kche",
+          "otch",
+          "ctho",
+          "okch"
+        ]
+      }
+    ],
+    "f58r": [
+      {
+        "target_folio": "f113r",
+        "stratum": "S",
+        "shared_idf": 47.378,
+        "shared_stems": [
+          "sheo",
+          "py",
+          "epch",
+          "alch",
+          "air",
+          "la"
+        ]
+      },
+      {
+        "target_folio": "f86v6",
+        "stratum": "C_T",
+        "shared_idf": 46.508,
+        "shared_stems": [
+          "dal",
+          "py",
+          "kal",
+          "yt",
+          "old",
+          "ra"
+        ]
+      },
+      {
+        "target_folio": "f104r",
+        "stratum": "S",
+        "shared_idf": 45.43,
+        "shared_stems": [
+          "olf",
+          "eesh",
+          "epch",
+          "chee",
+          "ra",
+          "air"
+        ]
+      },
+      {
+        "target_folio": "fRos",
+        "stratum": "C_T",
+        "shared_idf": 45.211,
+        "shared_stems": [
+          "ash",
+          "ees",
+          "py",
+          "kal",
+          "epch",
+          "tod"
+        ]
+      },
+      {
+        "target_folio": "f108r",
+        "stratum": "S",
+        "shared_idf": 41.861,
+        "shared_stems": [
+          "eodch",
+          "olal",
+          "alo",
+          "olke",
+          "alch",
+          "chee"
+        ]
+      },
+      {
+        "target_folio": "f113v",
+        "stratum": "S",
+        "shared_idf": 37.099,
+        "shared_stems": [
+          "ash",
+          "olt",
+          "alch",
+          "air",
+          "lo",
+          "fch"
+        ]
+      },
+      {
+        "target_folio": "f107r",
+        "stratum": "S",
+        "shared_idf": 36.622,
+        "shared_stems": [
+          "ail",
+          "alo",
+          "dal",
+          "chee",
+          "air",
+          "la"
+        ]
+      },
+      {
+        "target_folio": "f115r",
+        "stratum": "S",
+        "shared_idf": 34.958,
+        "shared_stems": [
+          "tcheo",
+          "eocth",
+          "sheo",
+          "air",
+          "lo",
+          "la"
+        ]
+      }
+    ],
+    "f58v": [
+      {
+        "target_folio": "f104r",
+        "stratum": "S",
+        "shared_idf": 47.99,
+        "shared_stems": [
+          "eolt",
+          "aiino",
+          "pshe",
+          "op",
+          "tai",
+          "keeo"
+        ]
+      },
+      {
+        "target_folio": "f113r",
+        "stratum": "S",
+        "shared_idf": 41.233,
+        "shared_stems": [
+          "pchsh",
+          "aiin",
+          "keeo",
+          "tche",
+          "alch",
+          "cfh"
+        ]
+      },
+      {
+        "target_folio": "f111v",
+        "stratum": "S",
+        "shared_idf": 34.328,
+        "shared_stems": [
+          "kea",
+          "eolke",
+          "pol",
+          "tai",
+          "alch",
+          "cfh"
+        ]
+      },
+      {
+        "target_folio": "f107r",
+        "stratum": "S",
+        "shared_idf": 32.021,
+        "shared_stems": [
+          "aiin",
+          "tai",
+          "eockh",
+          "tche",
+          "la",
+          "fch"
+        ]
+      },
+      {
+        "target_folio": "f111r",
+        "stratum": "S",
+        "shared_idf": 31.601,
+        "shared_stems": [
+          "eeckh",
+          "pol",
+          "keo",
+          "tai",
+          "keeo",
+          "fch"
+        ]
+      },
+      {
+        "target_folio": "f106v",
+        "stratum": "S",
+        "shared_idf": 29.435,
+        "shared_stems": [
+          "pshe",
+          "qot",
+          "kal",
+          "alch",
+          "as",
+          "fch"
+        ]
+      },
+      {
+        "target_folio": "f101r",
+        "stratum": "P",
+        "shared_idf": 28.947,
+        "shared_stems": [
+          "eeckh",
+          "keeo",
+          "eockh",
+          "alch",
+          "oke",
+          "okch"
+        ]
+      },
+      {
+        "target_folio": "f113v",
+        "stratum": "S",
+        "shared_idf": 28.675,
+        "shared_stems": [
+          "aiino",
+          "pol",
+          "tai",
+          "keeo",
+          "alch",
+          "fch"
+        ]
+      }
+    ],
+    "f66r": [
+      {
+        "target_folio": "f85r1",
+        "stratum": "C_T",
+        "shared_idf": 42.666,
+        "shared_stems": [
+          "pd",
+          "shd",
+          "kar",
+          "efch",
+          "eocth",
+          "ak"
+        ]
+      },
+      {
+        "target_folio": "f104r",
+        "stratum": "S",
+        "shared_idf": 41.764,
+        "shared_stems": [
+          "pshe",
+          "shd",
+          "kar",
+          "ak",
+          "kche",
+          "ir"
+        ]
+      },
+      {
+        "target_folio": "f114r",
+        "stratum": "S",
+        "shared_idf": 40.27,
+        "shared_stems": [
+          "olpchd",
+          "pd",
+          "ad",
+          "ak",
+          "ir",
+          "dai"
+        ]
+      },
+      {
+        "target_folio": "f105r",
+        "stratum": "S",
+        "shared_idf": 40.136,
+        "shared_stems": [
+          "ekai",
+          "pd",
+          "efch",
+          "kche",
+          "eke",
+          "lk"
+        ]
+      },
+      {
+        "target_folio": "f115r",
+        "stratum": "S",
+        "shared_idf": 33.228,
+        "shared_stems": [
+          "pshe",
+          "tcheo",
+          "eocth",
+          "kche",
+          "kech",
+          "dai"
+        ]
+      },
+      {
+        "target_folio": "f111v",
+        "stratum": "S",
+        "shared_idf": 33.138,
+        "shared_stems": [
+          "eta",
+          "ckhe",
+          "alch",
+          "kech",
+          "yk",
+          "ecth"
+        ]
+      },
+      {
+        "target_folio": "fRos",
+        "stratum": "C_T",
+        "shared_idf": 31.445,
+        "shared_stems": [
+          "xa",
+          "kar",
+          "efch",
+          "ad",
+          "ir",
+          "kech"
+        ]
+      },
+      {
+        "target_folio": "f106v",
+        "stratum": "S",
+        "shared_idf": 30.827,
+        "shared_stems": [
+          "pshe",
+          "shd",
+          "alch",
+          "ir",
+          "dai",
+          "eeod"
+        ]
+      }
+    ],
+    "f76r": [
+      {
+        "target_folio": "f80r",
+        "stratum": "B",
+        "shared_idf": 42.416,
+        "shared_stems": [
+          "edy",
+          "kor",
+          "lche",
+          "tal",
+          "in",
+          "lsh"
+        ]
+      },
+      {
+        "target_folio": "f113r",
+        "stratum": "S",
+        "shared_idf": 41.177,
+        "shared_stems": [
+          "orsh",
+          "chs",
+          "aiin",
+          "in",
+          "alch",
+          "cfh"
+        ]
+      },
+      {
+        "target_folio": "f106r",
+        "stratum": "S",
+        "shared_idf": 40.926,
+        "shared_stems": [
+          "ara",
+          "shed",
+          "eal",
+          "aiin",
+          "in",
+          "lch"
+        ]
+      },
+      {
+        "target_folio": "f111v",
+        "stratum": "S",
+        "shared_idf": 40.707,
+        "shared_stems": [
+          "lche",
+          "tal",
+          "eka",
+          "chs",
+          "in",
+          "alch"
+        ]
+      },
+      {
+        "target_folio": "f103r",
+        "stratum": "S",
+        "shared_idf": 39.933,
+        "shared_stems": [
+          "rch",
+          "eka",
+          "eal",
+          "lsh",
+          "olsh",
+          "cfh"
+        ]
+      },
+      {
+        "target_folio": "f112v",
+        "stratum": "S",
+        "shared_idf": 38.974,
+        "shared_stems": [
+          "eolch",
+          "ekai",
+          "ara",
+          "eeol",
+          "eka",
+          "cfh"
+        ]
+      },
+      {
+        "target_folio": "f80v",
+        "stratum": "B",
+        "shared_idf": 36.684,
+        "shared_stems": [
+          "edy",
+          "psh",
+          "olsh",
+          "alch",
+          "lch",
+          "ecth"
+        ]
+      },
+      {
+        "target_folio": "f115v",
+        "stratum": "S",
+        "shared_idf": 34.335,
+        "shared_stems": [
+          "sheed",
+          "olsh",
+          "lch",
+          "ecth",
+          "as",
+          "lo"
+        ]
+      }
+    ]
+  },
+  "sample_target_folio_routing_records": [
+    {
+      "folio": "f100r",
+      "stratum": "P",
+      "total_words": 110,
+      "open_stems": 22,
+      "primary_master_index": "f66r",
+      "primary_shared_idf": 14.798,
+      "primary_shared_stems": [
+        "of",
+        "ckhe",
+        "eke",
+        "eol"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 3.242,
+        "f49v": 0,
+        "f58r": 14.661,
+        "f58v": 12.319,
+        "f66r": 14.798,
+        "f76r": 8.948
+      }
+    },
+    {
+      "folio": "f100v",
+      "stratum": "P",
+      "total_words": 93,
+      "open_stems": 18,
+      "primary_master_index": "f58r",
+      "primary_shared_idf": 7.046,
+      "primary_shared_stems": [
+        "olke",
+        "ockh"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 5.287,
+        "f49v": 5.117,
+        "f58r": 7.046,
+        "f58v": 5.368,
+        "f66r": 6.13,
+        "f76r": 0
+      }
+    },
+    {
+      "folio": "f101r",
+      "stratum": "P",
+      "total_words": 227,
+      "open_stems": 34,
+      "primary_master_index": "f66r",
+      "primary_shared_idf": 29.435,
+      "primary_shared_stems": [
+        "eocth",
+        "ckhe",
+        "alch",
+        "eke",
+        "ir",
+        "oke"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 8.093,
+        "f49v": 11.007,
+        "f58r": 23.677,
+        "f58v": 28.947,
+        "f66r": 29.435,
+        "f76r": 13.365
+      }
+    },
+    {
+      "folio": "f101v",
+      "stratum": "P",
+      "total_words": 215,
+      "open_stems": 24,
+      "primary_master_index": "f66r",
+      "primary_shared_idf": 28.829,
+      "primary_shared_stems": [
+        "tolch",
+        "eocth",
+        "ckhe",
+        "kche",
+        "eeod",
+        "eok"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 9.937,
+        "f49v": 12.866,
+        "f58r": 15.15,
+        "f58v": 9.365,
+        "f66r": 28.829,
+        "f76r": 10.348
+      }
+    },
+    {
+      "folio": "f102r1",
+      "stratum": "P",
+      "total_words": 107,
+      "open_stems": 20,
+      "primary_master_index": "f58r",
+      "primary_shared_idf": 21.053,
+      "primary_shared_stems": [
+        "sheol",
+        "olal",
+        "old",
+        "eol",
+        "ockh"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 18.805,
+        "f49v": 4.367,
+        "f58r": 21.053,
+        "f58v": 14.056,
+        "f66r": 10.27,
+        "f76r": 5.356
+      }
+    },
+    {
+      "folio": "f102r2",
+      "stratum": "P",
+      "total_words": 144,
+      "open_stems": 17,
+      "primary_master_index": "f1r",
+      "primary_shared_idf": 11.276,
+      "primary_shared_stems": [
+        "air",
+        "sho",
+        "do",
+        "oa"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 11.276,
+        "f49v": 3.019,
+        "f58r": 8.059,
+        "f58v": 8.532,
+        "f66r": 0,
+        "f76r": 2.739
+      }
+    },
+    {
+      "folio": "f102v1",
+      "stratum": "P",
+      "total_words": 128,
+      "open_stems": 19,
+      "primary_master_index": "f66r",
+      "primary_shared_idf": 11.528,
+      "primary_shared_stems": [
+        "eocth",
+        "ckhe",
+        "ir"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 0,
+        "f49v": 0,
+        "f58r": 11.31,
+        "f58v": 0,
+        "f66r": 11.528,
+        "f76r": 9.261
+      }
+    },
+    {
+      "folio": "f102v2",
+      "stratum": "P",
+      "total_words": 190,
+      "open_stems": 23,
+      "primary_master_index": "f58r",
+      "primary_shared_idf": 17.075,
+      "primary_shared_stems": [
+        "eke",
+        "tod",
+        "sa",
+        "ockh",
+        "olk",
+        "oa"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 5.161,
+        "f49v": 2.335,
+        "f58r": 17.075,
+        "f58v": 16.093,
+        "f66r": 6.261,
+        "f76r": 8.009
+      }
+    },
+    {
+      "folio": "f103r",
+      "stratum": "S",
+      "total_words": 531,
+      "open_stems": 59,
+      "primary_master_index": "f76r",
+      "primary_shared_idf": 39.933,
+      "primary_shared_stems": [
+        "rch",
+        "eka",
+        "eal",
+        "lsh",
+        "olsh",
+        "cfh"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 19.596,
+        "f49v": 5.505,
+        "f58r": 18.44,
+        "f58v": 17.393,
+        "f66r": 20.141,
+        "f76r": 39.933
+      }
+    },
+    {
+      "folio": "f103v",
+      "stratum": "S",
+      "total_words": 454,
+      "open_stems": 41,
+      "primary_master_index": "f58r",
+      "primary_shared_idf": 16.6,
+      "primary_shared_stems": [
+        "eesh",
+        "chee",
+        "fch",
+        "sa",
+        "ld"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 0,
+        "f49v": 0,
+        "f58r": 16.6,
+        "f58v": 12.661,
+        "f66r": 2.782,
+        "f76r": 8.473
+      }
+    },
+    {
+      "folio": "f104r",
+      "stratum": "S",
+      "total_words": 448,
+      "open_stems": 76,
+      "primary_master_index": "f58v",
+      "primary_shared_idf": 47.99,
+      "primary_shared_stems": [
+        "eolt",
+        "aiino",
+        "pshe",
+        "op",
+        "tai",
+        "keeo"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 28.956,
+        "f49v": 6.405,
+        "f58r": 45.43,
+        "f58v": 47.99,
+        "f66r": 41.764,
+        "f76r": 21.975
+      }
+    },
+    {
+      "folio": "f104v",
+      "stratum": "S",
+      "total_words": 477,
+      "open_stems": 61,
+      "primary_master_index": "f66r",
+      "primary_shared_idf": 29.345,
+      "primary_shared_stems": [
+        "eoch",
+        "ad",
+        "ckhe",
+        "kche",
+        "ir",
+        "kech"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 24.064,
+        "f49v": 22.578,
+        "f58r": 25.691,
+        "f58v": 14.738,
+        "f66r": 29.345,
+        "f76r": 15.602
+      }
+    },
+    {
+      "folio": "f105r",
+      "stratum": "S",
+      "total_words": 379,
+      "open_stems": 57,
+      "primary_master_index": "f66r",
+      "primary_shared_idf": 40.136,
+      "primary_shared_stems": [
+        "ekai",
+        "pd",
+        "efch",
+        "kche",
+        "eke",
+        "lk"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 29.459,
+        "f49v": 8.695,
+        "f58r": 22.002,
+        "f58v": 11.133,
+        "f66r": 40.136,
+        "f76r": 20.052
+      }
+    },
+    {
+      "folio": "f105v",
+      "stratum": "S",
+      "total_words": 399,
+      "open_stems": 59,
+      "primary_master_index": "f66r",
+      "primary_shared_idf": 19.57,
+      "primary_shared_stems": [
+        "dd",
+        "kar",
+        "lk",
+        "ir",
+        "cheo"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 11.931,
+        "f49v": 15.981,
+        "f58r": 17.927,
+        "f58v": 16.102,
+        "f66r": 19.57,
+        "f76r": 14.772
+      }
+    },
+    {
+      "folio": "f106r",
+      "stratum": "S",
+      "total_words": 432,
+      "open_stems": 66,
+      "primary_master_index": "f76r",
+      "primary_shared_idf": 40.926,
+      "primary_shared_stems": [
+        "ara",
+        "shed",
+        "eal",
+        "aiin",
+        "in",
+        "lch"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 15.127,
+        "f49v": 11.757,
+        "f58r": 33.996,
+        "f58v": 16.124,
+        "f66r": 22.79,
+        "f76r": 40.926
+      }
+    },
+    {
+      "folio": "f106v",
+      "stratum": "S",
+      "total_words": 444,
+      "open_stems": 62,
+      "primary_master_index": "f58r",
+      "primary_shared_idf": 34.861,
+      "primary_shared_stems": [
+        "ail",
+        "sheo",
+        "kal",
+        "alch",
+        "fch",
+        "sa"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 23.494,
+        "f49v": 5.368,
+        "f58r": 34.861,
+        "f58v": 29.435,
+        "f66r": 30.827,
+        "f76r": 27.682
+      }
+    },
+    {
+      "folio": "f107r",
+      "stratum": "S",
+      "total_words": 487,
+      "open_stems": 59,
+      "primary_master_index": "f58r",
+      "primary_shared_idf": 36.622,
+      "primary_shared_stems": [
+        "ail",
+        "alo",
+        "dal",
+        "chee",
+        "air",
+        "la"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 15.974,
+        "f49v": 8.464,
+        "f58r": 36.622,
+        "f58v": 32.021,
+        "f66r": 12.482,
+        "f76r": 32.442
+      }
+    },
+    {
+      "folio": "f107v",
+      "stratum": "S",
+      "total_words": 462,
+      "open_stems": 44,
+      "primary_master_index": "f58v",
+      "primary_shared_idf": 23.347,
+      "primary_shared_stems": [
+        "aiin",
+        "kal",
+        "keeo",
+        "eockh",
+        "la",
+        "oke"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 19.281,
+        "f49v": 2.541,
+        "f58r": 19.481,
+        "f58v": 23.347,
+        "f66r": 10.113,
+        "f76r": 9.785
+      }
+    },
+    {
+      "folio": "f108r",
+      "stratum": "S",
+      "total_words": 494,
+      "open_stems": 58,
+      "primary_master_index": "f58r",
+      "primary_shared_idf": 41.861,
+      "primary_shared_stems": [
+        "eodch",
+        "olal",
+        "alo",
+        "olke",
+        "alch",
+        "chee"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 6.424,
+        "f49v": 5.653,
+        "f58r": 41.861,
+        "f58v": 19.445,
+        "f66r": 25.437,
+        "f76r": 32.801
+      }
+    },
+    {
+      "folio": "f108v",
+      "stratum": "S",
+      "total_words": 581,
+      "open_stems": 52,
+      "primary_master_index": "f76r",
+      "primary_shared_idf": 22.628,
+      "primary_shared_stems": [
+        "sheed",
+        "lch",
+        "ecth",
+        "la",
+        "eda",
+        "do"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 6.566,
+        "f49v": 6.074,
+        "f58r": 21.452,
+        "f58v": 9.988,
+        "f66r": 12.925,
+        "f76r": 22.628
+      }
+    },
+    {
+      "folio": "f10r",
+      "stratum": "H_A",
+      "total_words": 92,
+      "open_stems": 16,
+      "primary_master_index": "f58v",
+      "primary_shared_idf": 9.872,
+      "primary_shared_stems": [
+        "qot",
+        "cfh",
+        "yd"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 8.228,
+        "f49v": 3.183,
+        "f58r": 5.368,
+        "f58v": 9.872,
+        "f66r": 5.724,
+        "f76r": 3.505
+      }
+    },
+    {
+      "folio": "f10v",
+      "stratum": "H_A",
+      "total_words": 57,
+      "open_stems": 6,
+      "primary_master_index": "f58v",
+      "primary_shared_idf": 6.368,
+      "primary_shared_stems": [
+        "qot",
+        "yd"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 5.56,
+        "f49v": 3.019,
+        "f58r": 2.541,
+        "f58v": 6.368,
+        "f66r": 2.541,
+        "f76r": 0
+      }
+    },
+    {
+      "folio": "f111r",
+      "stratum": "S",
+      "total_words": 624,
+      "open_stems": 62,
+      "primary_master_index": "f58v",
+      "primary_shared_idf": 31.601,
+      "primary_shared_stems": [
+        "eeckh",
+        "pol",
+        "keo",
+        "tai",
+        "keeo",
+        "fch"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 13.126,
+        "f49v": 7.988,
+        "f58r": 27.148,
+        "f58v": 31.601,
+        "f66r": 23.838,
+        "f76r": 22.658
+      }
+    },
+    {
+      "folio": "f111v",
+      "stratum": "S",
+      "total_words": 567,
+      "open_stems": 63,
+      "primary_master_index": "f76r",
+      "primary_shared_idf": 40.707,
+      "primary_shared_stems": [
+        "lche",
+        "tal",
+        "eka",
+        "chs",
+        "in",
+        "alch"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 21.651,
+        "f49v": 4.242,
+        "f58r": 33.407,
+        "f58v": 34.328,
+        "f66r": 33.138,
+        "f76r": 40.707
+      }
+    },
+    {
+      "folio": "f112r",
+      "stratum": "S",
+      "total_words": 401,
+      "open_stems": 41,
+      "primary_master_index": "f1r",
+      "primary_shared_idf": 20.108,
+      "primary_shared_stems": [
+        "oar",
+        "eal",
+        "cha",
+        "he",
+        "cph"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 20.108,
+        "f49v": 2.335,
+        "f58r": 2.579,
+        "f58v": 9.543,
+        "f66r": 18.867,
+        "f76r": 16.126
+      }
+    },
+    {
+      "folio": "f112v",
+      "stratum": "S",
+      "total_words": 419,
+      "open_stems": 52,
+      "primary_master_index": "f76r",
+      "primary_shared_idf": 38.974,
+      "primary_shared_stems": [
+        "eolch",
+        "ekai",
+        "ara",
+        "eeol",
+        "eka",
+        "cfh"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 12.333,
+        "f49v": 2.335,
+        "f58r": 16.469,
+        "f58v": 27.697,
+        "f66r": 19.072,
+        "f76r": 38.974
+      }
+    },
+    {
+      "folio": "f113r",
+      "stratum": "S",
+      "total_words": 529,
+      "open_stems": 81,
+      "primary_master_index": "f58r",
+      "primary_shared_idf": 47.378,
+      "primary_shared_stems": [
+        "sheo",
+        "py",
+        "epch",
+        "alch",
+        "air",
+        "la"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 31.921,
+        "f49v": 35.15,
+        "f58r": 47.378,
+        "f58v": 41.233,
+        "f66r": 26.543,
+        "f76r": 41.177
+      }
+    },
+    {
+      "folio": "f113v",
+      "stratum": "S",
+      "total_words": 502,
+      "open_stems": 59,
+      "primary_master_index": "f58r",
+      "primary_shared_idf": 37.099,
+      "primary_shared_stems": [
+        "ash",
+        "olt",
+        "alch",
+        "air",
+        "lo",
+        "fch"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 13.001,
+        "f49v": 8.74,
+        "f58r": 37.099,
+        "f58v": 28.675,
+        "f66r": 29.327,
+        "f76r": 20.278
+      }
+    },
+    {
+      "folio": "f114r",
+      "stratum": "S",
+      "total_words": 460,
+      "open_stems": 72,
+      "primary_master_index": "f66r",
+      "primary_shared_idf": 40.27,
+      "primary_shared_stems": [
+        "olpchd",
+        "pd",
+        "ad",
+        "ak",
+        "ir",
+        "dai"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 19.796,
+        "f49v": 9.85,
+        "f58r": 24.606,
+        "f58v": 14.551,
+        "f66r": 40.27,
+        "f76r": 21.471
+      }
+    },
+    {
+      "folio": "f114v",
+      "stratum": "S",
+      "total_words": 376,
+      "open_stems": 52,
+      "primary_master_index": "f76r",
+      "primary_shared_idf": 30.541,
+      "primary_shared_stems": [
+        "edsh",
+        "lche",
+        "shed",
+        "psh",
+        "eda",
+        "do"
+      ],
+      "all_6_index_idf_scores": {
+        "f1r": 26.15,
+        "f49v": 9.85,
+        "f58r": 17.496,
+        "f58v": 13.226,
+        "f66r": 22.786,
+        "f76r": 30.541
+      }
+    }
+  ]
+}

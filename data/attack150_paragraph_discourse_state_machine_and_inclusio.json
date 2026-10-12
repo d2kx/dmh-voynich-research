@@ -1,0 +1,798 @@
+{
+  "attack": 150,
+  "phase": 161,
+  "discovery": 167,
+  "title": "The 3-Act Paragraph Discourse State Machine, Contiguous Multi-Line Stem Execution Chains, and Frame-Ring Closure (Inclusio)",
+  "overview": {
+    "paragraphs_ge3_lines": 662,
+    "paragraphs_ge4_lines": 493,
+    "paragraphs_with_3line_contiguous_stem_chain": 384,
+    "paragraphs_with_3line_chain_pct": 58.01,
+    "contiguous_3line_stem_triplets_within_section_test": {
+      "observed": 1001,
+      "null_mean": 428.89,
+      "null_sd": 21.22,
+      "lift_ratio": 2.334,
+      "z_score": 26.95
+    },
+    "contiguous_3line_stem_triplets_strict_within_para_test": {
+      "observed": 947,
+      "null_mean": 751.01,
+      "null_sd": 21.29,
+      "lift_ratio": 1.261,
+      "z_score": 9.2
+    },
+    "paragraphs_with_inclusio_line1_to_linem": 308,
+    "paragraphs_with_inclusio_pct": 46.53,
+    "inclusio_paragraphs_within_section_test": {
+      "observed": 308,
+      "null_mean": 258.18,
+      "null_sd": 10.37,
+      "lift_ratio": 1.193,
+      "z_score": 4.8
+    },
+    "inclusio_shared_stems_within_section_test": {
+      "observed": 422,
+      "null_mean": 325.44,
+      "null_sd": 14.56,
+      "lift_ratio": 1.297,
+      "z_score": 6.63
+    },
+    "total_inclusio_token_pairs": 570,
+    "cognate_inclusio_token_pairs_w1_ne_wm": 450,
+    "cognate_share_of_inclusio_pairs_pct": 78.95
+  },
+  "three_act_paragraph_state_machine": {
+    "ACT1_LINE1_HEADER": {
+      "total_tokens": 5652,
+      "top_gallows_pf_pct": 19.78,
+      "active_process_voice_pct": 38.8,
+      "case_pct": {
+        "C1_CIT_BARE": 12.62,
+        "C2_NOM_O": 14.88,
+        "C3_DEIC_DS": 15.29,
+        "C4_ACT_QO": 15.75,
+        "C5_PROC_EDY": 16.67,
+        "C6_APPL_L": 6.39,
+        "C7_LIQ_CONT": 12.47,
+        "C8_QUANT_TERM": 5.94
+      }
+    },
+    "ACT2_INTERIOR_BODY": {
+      "total_tokens": 21343,
+      "top_gallows_pf_pct": 1.12,
+      "active_process_voice_pct": 37.67,
+      "case_pct": {
+        "C1_CIT_BARE": 17.62,
+        "C2_NOM_O": 16.28,
+        "C3_DEIC_DS": 17.62,
+        "C4_ACT_QO": 15.92,
+        "C5_PROC_EDY": 12.99,
+        "C6_APPL_L": 8.77,
+        "C7_LIQ_CONT": 6.93,
+        "C8_QUANT_TERM": 3.87
+      }
+    },
+    "ACT3_FINAL_CLOSURE": {
+      "total_tokens": 3627,
+      "top_gallows_pf_pct": 1.16,
+      "active_process_voice_pct": 32.78,
+      "case_pct": {
+        "C1_CIT_BARE": 19.24,
+        "C2_NOM_O": 16.96,
+        "C3_DEIC_DS": 17.01,
+        "C4_ACT_QO": 10.89,
+        "C5_PROC_EDY": 12.49,
+        "C6_APPL_L": 9.4,
+        "C7_LIQ_CONT": 8.33,
+        "C8_QUANT_TERM": 5.68
+      }
+    }
+  },
+  "inclusio_line1_to_linem_morphological_shift": {
+    "top_gallows_pf": {
+      "line1_count": 76,
+      "line1_pct": 16.89,
+      "linem_count": 2,
+      "linem_pct": 0.44,
+      "delta_line1_to_linem_pct": -16.44,
+      "discordant_gain_0to1": 1,
+      "discordant_loss_1to0": 75,
+      "sign_flip_z": -8.49
+    },
+    "C1_CIT_BARE": {
+      "line1_count": 54,
+      "line1_pct": 12.0,
+      "linem_count": 69,
+      "linem_pct": 15.33,
+      "delta_line1_to_linem_pct": 3.33,
+      "discordant_gain_0to1": 63,
+      "discordant_loss_1to0": 48,
+      "sign_flip_z": 1.42
+    },
+    "C2_NOM_O": {
+      "line1_count": 105,
+      "line1_pct": 23.33,
+      "linem_count": 87,
+      "linem_pct": 19.33,
+      "delta_line1_to_linem_pct": -4.0,
+      "discordant_gain_0to1": 62,
+      "discordant_loss_1to0": 80,
+      "sign_flip_z": -1.51
+    },
+    "C3_DEIC_DS": {
+      "line1_count": 44,
+      "line1_pct": 9.78,
+      "linem_count": 47,
+      "linem_pct": 10.44,
+      "delta_line1_to_linem_pct": 0.67,
+      "discordant_gain_0to1": 45,
+      "discordant_loss_1to0": 42,
+      "sign_flip_z": 0.32
+    },
+    "C4_ACT_QO": {
+      "line1_count": 27,
+      "line1_pct": 6.0,
+      "linem_count": 28,
+      "linem_pct": 6.22,
+      "delta_line1_to_linem_pct": 0.22,
+      "discordant_gain_0to1": 21,
+      "discordant_loss_1to0": 20,
+      "sign_flip_z": 0.16
+    },
+    "C5_PROC_EDY": {
+      "line1_count": 125,
+      "line1_pct": 27.78,
+      "linem_count": 90,
+      "linem_pct": 20.0,
+      "delta_line1_to_linem_pct": -7.78,
+      "discordant_gain_0to1": 24,
+      "discordant_loss_1to0": 59,
+      "sign_flip_z": -3.84
+    },
+    "C6_APPL_L": {
+      "line1_count": 26,
+      "line1_pct": 5.78,
+      "linem_count": 56,
+      "linem_pct": 12.44,
+      "delta_line1_to_linem_pct": 6.67,
+      "discordant_gain_0to1": 52,
+      "discordant_loss_1to0": 22,
+      "sign_flip_z": 3.49
+    },
+    "C7_LIQ_CONT": {
+      "line1_count": 55,
+      "line1_pct": 12.22,
+      "linem_count": 54,
+      "linem_pct": 12.0,
+      "delta_line1_to_linem_pct": -0.22,
+      "discordant_gain_0to1": 39,
+      "discordant_loss_1to0": 40,
+      "sign_flip_z": -0.11
+    },
+    "C8_QUANT_TERM": {
+      "line1_count": 14,
+      "line1_pct": 3.11,
+      "linem_count": 19,
+      "linem_pct": 4.22,
+      "delta_line1_to_linem_pct": 1.11,
+      "discordant_gain_0to1": 17,
+      "discordant_loss_1to0": 12,
+      "sign_flip_z": 0.93
+    },
+    "active_or_terminal_C4_C5_C6_C8": {
+      "line1_count": 192,
+      "line1_pct": 42.67,
+      "linem_count": 193,
+      "linem_pct": 42.89,
+      "delta_line1_to_linem_pct": 0.22,
+      "discordant_gain_0to1": 53,
+      "discordant_loss_1to0": 52,
+      "sign_flip_z": 0.1
+    }
+  },
+  "longest_contiguous_stem_chains": [
+    {
+      "folio": "f81v",
+      "section": "B",
+      "lang": "A",
+      "stem": "edy",
+      "contiguous_lines": 12,
+      "para_total_lines": 18,
+      "line_by_line_forms": [
+        "f81v.12:shedy/ytedy/ytedy",
+        "f81v.13:ytedy/ytedy/ykedy",
+        "f81v.14:okedy",
+        "f81v.15:chedy/chedy",
+        "f81v.16:shedy",
+        "f81v.17:chedy/shedy",
+        "f81v.18:shedy",
+        "f81v.19:shedy/dedy",
+        "f81v.20:chedy",
+        "f81v.21:chedy",
+        "f81v.22:chedy",
+        "f81v.23:shedy"
+      ]
+    },
+    {
+      "folio": "f84v",
+      "section": "B",
+      "lang": "A",
+      "stem": "edy",
+      "contiguous_lines": 11,
+      "para_total_lines": 14,
+      "line_by_line_forms": [
+        "f84v.10:otedy",
+        "f84v.11:edy",
+        "f84v.12:otedy/shedy",
+        "f84v.13:chedy/okedy",
+        "f84v.14:otedy/okedy/okedy/chedy",
+        "f84v.15:chedy",
+        "f84v.16:chedy",
+        "f84v.17:chedy/chedy/okedy",
+        "f84v.18:ykedy/shedy",
+        "f84v.19:okedy/shedydy",
+        "f84v.20:shedy"
+      ]
+    },
+    {
+      "folio": "f77v",
+      "section": "B",
+      "lang": "A",
+      "stem": "edy",
+      "contiguous_lines": 9,
+      "para_total_lines": 10,
+      "line_by_line_forms": [
+        "f77v.6:shedy",
+        "f77v.7:okedy/chedy",
+        "f77v.8:shedy",
+        "f77v.9:chedy",
+        "f77v.10:shedy/chedy/shedy",
+        "f77v.11:chedy",
+        "f77v.12:chedy/shedy/chedy",
+        "f77v.13:shedy/chedy/chedy",
+        "f77v.14:qedy"
+      ]
+    },
+    {
+      "folio": "f86v6",
+      "section": "T",
+      "lang": "A",
+      "stem": "kaiin",
+      "contiguous_lines": 8,
+      "para_total_lines": 16,
+      "line_by_line_forms": [
+        "f86v6.31:qokaiin",
+        "f86v6.32:qokaiin",
+        "f86v6.33:olkaiin",
+        "f86v6.34:olkaiin",
+        "f86v6.35:qokaiin/qokaiin",
+        "f86v6.36:lkaiin/olkaiin",
+        "f86v6.37:kaiin",
+        "f86v6.38:lkaiin"
+      ]
+    },
+    {
+      "folio": "f108v",
+      "section": "S",
+      "lang": "A",
+      "stem": "keey",
+      "contiguous_lines": 7,
+      "para_total_lines": 24,
+      "line_by_line_forms": [
+        "f108v.43:qokeey",
+        "f108v.44:qokeey",
+        "f108v.45:qokeey",
+        "f108v.46:qokeey/qokeey",
+        "f108v.47:qokeey/qokeey/lkeey",
+        "f108v.48:qokeey",
+        "f108v.49:qokeey"
+      ]
+    },
+    {
+      "folio": "f58r",
+      "section": "S",
+      "lang": "A",
+      "stem": "al",
+      "contiguous_lines": 7,
+      "para_total_lines": 15,
+      "line_by_line_forms": [
+        "f58r.1:otaly",
+        "f58r.2:ytal",
+        "f58r.3:otaly",
+        "f58r.4:shaly",
+        "f58r.5:al/ytalar",
+        "f58r.6:otal",
+        "f58r.7:ytalody"
+      ]
+    },
+    {
+      "folio": "f78v",
+      "section": "B",
+      "lang": "A",
+      "stem": "ol",
+      "contiguous_lines": 7,
+      "para_total_lines": 13,
+      "line_by_line_forms": [
+        "f78v.24:ol/shol",
+        "f78v.25:ol/ol",
+        "f78v.26:ol",
+        "f78v.27:ol/ols/ol",
+        "f78v.28:ol",
+        "f78v.29:ol",
+        "f78v.30:shol"
+      ]
+    },
+    {
+      "folio": "f108v",
+      "section": "S",
+      "lang": "A",
+      "stem": "ke",
+      "contiguous_lines": 7,
+      "para_total_lines": 24,
+      "line_by_line_forms": [
+        "f108v.44:qokear",
+        "f108v.45:qokeedy/qokeedy/qokeal",
+        "f108v.46:keol",
+        "f108v.47:qokeedy",
+        "f108v.48:alkeedy",
+        "f108v.49:qokeedy",
+        "f108v.50:qokeedy"
+      ]
+    },
+    {
+      "folio": "f116r",
+      "section": "S",
+      "lang": "A",
+      "stem": "ey",
+      "contiguous_lines": 7,
+      "para_total_lines": 15,
+      "line_by_line_forms": [
+        "f116r.38:shey",
+        "f116r.39:chey/shey",
+        "f116r.40:shey/shey",
+        "f116r.41:shey",
+        "f116r.42:shey",
+        "f116r.43:shey",
+        "f116r.44:chey"
+      ]
+    },
+    {
+      "folio": "f80v",
+      "section": "B",
+      "lang": "A",
+      "stem": "kain",
+      "contiguous_lines": 6,
+      "para_total_lines": 8,
+      "line_by_line_forms": [
+        "f80v.30:olkain",
+        "f80v.31:olkain/qokain/qokain",
+        "f80v.32:qolkain",
+        "f80v.33:olkain",
+        "f80v.34:olkain",
+        "f80v.35:kain/olkain"
+      ]
+    },
+    {
+      "folio": "f111v",
+      "section": "S",
+      "lang": "A",
+      "stem": "kain",
+      "contiguous_lines": 6,
+      "para_total_lines": 25,
+      "line_by_line_forms": [
+        "f111v.14:qokain/lkain",
+        "f111v.15:kain/qokain",
+        "f111v.16:qokain/qokain",
+        "f111v.17:qokain",
+        "f111v.18:alkain",
+        "f111v.19:qokain/qokain"
+      ]
+    },
+    {
+      "folio": "f38v",
+      "section": "H",
+      "lang": "A",
+      "stem": "iin",
+      "contiguous_lines": 6,
+      "para_total_lines": 8,
+      "line_by_line_forms": [
+        "f38v.2:oiin",
+        "f38v.3:daiin/daiin/daiin",
+        "f38v.4:daiin",
+        "f38v.5:daiin",
+        "f38v.6:daiin/daiin",
+        "f38v.7:daiin/daiin"
+      ]
+    },
+    {
+      "folio": "f76r",
+      "section": "T",
+      "lang": "A",
+      "stem": "edy",
+      "contiguous_lines": 6,
+      "para_total_lines": 20,
+      "line_by_line_forms": [
+        "f76r.29:shedy/shedy/shedy",
+        "f76r.30:chedy",
+        "f76r.33:shedy",
+        "f76r.34:shedy/shedy",
+        "f76r.35:shedy/chedy",
+        "f76r.36:shedy"
+      ]
+    },
+    {
+      "folio": "f76v",
+      "section": "B",
+      "lang": "A",
+      "stem": "edy",
+      "contiguous_lines": 6,
+      "para_total_lines": 6,
+      "line_by_line_forms": [
+        "f76v.10:shedy",
+        "f76v.11:shedy",
+        "f76v.12:chedy/chedy",
+        "f76v.13:chedy",
+        "f76v.14:otedy/otedy",
+        "f76v.15:chedy"
+      ]
+    },
+    {
+      "folio": "f77r",
+      "section": "B",
+      "lang": "A",
+      "stem": "edy",
+      "contiguous_lines": 6,
+      "para_total_lines": 16,
+      "line_by_line_forms": [
+        "f77r.11:shedy/shedy",
+        "f77r.12:chedy",
+        "f77r.13:chedy/chedy",
+        "f77r.14:shedy",
+        "f77r.15:shedy/shedy",
+        "f77r.16:chedy/shedy"
+      ]
+    },
+    {
+      "folio": "f89r2",
+      "section": "P",
+      "lang": "A",
+      "stem": "iin",
+      "contiguous_lines": 6,
+      "para_total_lines": 7,
+      "line_by_line_forms": [
+        "f89r2.23:daiin/daiin",
+        "f89r2.24:daiin",
+        "f89r2.25:daiin/daiin",
+        "f89r2.26:daiin/daiin",
+        "f89r2.27:daiin",
+        "f89r2.28:daiin"
+      ]
+    },
+    {
+      "folio": "f111r",
+      "section": "S",
+      "lang": "A",
+      "stem": "edy",
+      "contiguous_lines": 6,
+      "para_total_lines": 8,
+      "line_by_line_forms": [
+        "f111r.38:otedy",
+        "f111r.39:chedy",
+        "f111r.40:otedy",
+        "f111r.41:okedy",
+        "f111r.42:chedy/chedy/chedy",
+        "f111r.43:chedy"
+      ]
+    },
+    {
+      "folio": "f17v",
+      "section": "H",
+      "lang": "A",
+      "stem": "ol",
+      "contiguous_lines": 6,
+      "para_total_lines": 23,
+      "line_by_line_forms": [
+        "f17v.8:ol",
+        "f17v.9:shol/ol",
+        "f17v.10:okol",
+        "f17v.11:chol",
+        "f17v.12:ol",
+        "f17v.13:chol/chol"
+      ]
+    },
+    {
+      "folio": "f58r",
+      "section": "S",
+      "lang": "A",
+      "stem": "ar",
+      "contiguous_lines": 6,
+      "para_total_lines": 15,
+      "line_by_line_forms": [
+        "f58r.9:qoar/arary",
+        "f58r.10:ar/shar/otar",
+        "f58r.11:orar",
+        "f58r.12:shar",
+        "f58r.13:ytar",
+        "f58r.14:sharam"
+      ]
+    },
+    {
+      "folio": "f33r",
+      "section": "H",
+      "lang": "A",
+      "stem": "aiin",
+      "contiguous_lines": 5,
+      "para_total_lines": 7,
+      "line_by_line_forms": [
+        "f33r.3:laiin",
+        "f33r.4:alaiin/saiin/okaiin/aiin",
+        "f33r.5:aiin/otaiin/aiin",
+        "f33r.6:okaiin/okaiin",
+        "f33r.7:aiin/aiin"
+      ]
+    }
+  ],
+  "sample_inclusio_frame_pairs": [
+    {
+      "folio": "f1r",
+      "section": "T",
+      "lang": "A",
+      "para_lines": 10,
+      "stem": "hey",
+      "line1_loc": "f1r.11",
+      "line1_word": "cphey",
+      "line1_case": "C1_CIT_BARE",
+      "linem_loc": "f1r.20",
+      "linem_word": "ckhey",
+      "linem_case": "C1_CIT_BARE"
+    },
+    {
+      "folio": "f2r",
+      "section": "H",
+      "lang": "A",
+      "para_lines": 7,
+      "stem": "iin",
+      "line1_loc": "f2r.1",
+      "line1_word": "daiin",
+      "line1_case": "C3_DEIC_DS",
+      "linem_loc": "f2r.7",
+      "linem_word": "daiiny",
+      "linem_case": "C3_DEIC_DS"
+    },
+    {
+      "folio": "f3r",
+      "section": "H",
+      "lang": "A",
+      "para_lines": 3,
+      "stem": "ol",
+      "line1_loc": "f3r.18",
+      "line1_word": "otolom",
+      "line1_case": "C8_QUANT_TERM",
+      "linem_loc": "f3r.20",
+      "linem_word": "chol",
+      "linem_case": "C1_CIT_BARE"
+    },
+    {
+      "folio": "f3r",
+      "section": "H",
+      "lang": "A",
+      "para_lines": 3,
+      "stem": "ol",
+      "line1_loc": "f3r.18",
+      "line1_word": "otolom",
+      "line1_case": "C8_QUANT_TERM",
+      "linem_loc": "f3r.20",
+      "linem_word": "chol",
+      "linem_case": "C1_CIT_BARE"
+    },
+    {
+      "folio": "f3r",
+      "section": "H",
+      "lang": "A",
+      "para_lines": 3,
+      "stem": "ol",
+      "line1_loc": "f3r.18",
+      "line1_word": "otolom",
+      "line1_case": "C8_QUANT_TERM",
+      "linem_loc": "f3r.20",
+      "linem_word": "okolor",
+      "linem_case": "C7_LIQ_CONT"
+    },
+    {
+      "folio": "f5v",
+      "section": "H",
+      "lang": "A",
+      "para_lines": 6,
+      "stem": "ol",
+      "line1_loc": "f5v.1",
+      "line1_word": "chols",
+      "line1_case": "C1_CIT_BARE",
+      "linem_loc": "f5v.6",
+      "linem_word": "otol",
+      "linem_case": "C2_NOM_O"
+    },
+    {
+      "folio": "f5v",
+      "section": "H",
+      "lang": "A",
+      "para_lines": 6,
+      "stem": "ol",
+      "line1_loc": "f5v.1",
+      "line1_word": "chols",
+      "line1_case": "C1_CIT_BARE",
+      "linem_loc": "f5v.6",
+      "linem_word": "chol",
+      "linem_case": "C1_CIT_BARE"
+    },
+    {
+      "folio": "f6v",
+      "section": "H",
+      "lang": "A",
+      "para_lines": 5,
+      "stem": "or",
+      "line1_loc": "f6v.1",
+      "line1_word": "qoor",
+      "line1_case": "C4_ACT_QO",
+      "linem_loc": "f6v.5",
+      "linem_word": "okor",
+      "linem_case": "C2_NOM_O"
+    },
+    {
+      "folio": "f6v",
+      "section": "H",
+      "lang": "A",
+      "para_lines": 5,
+      "stem": "or",
+      "line1_loc": "f6v.1",
+      "line1_word": "shor",
+      "line1_case": "C3_DEIC_DS",
+      "linem_loc": "f6v.5",
+      "linem_word": "okor",
+      "linem_case": "C2_NOM_O"
+    },
+    {
+      "folio": "f7r",
+      "section": "H",
+      "lang": "A",
+      "para_lines": 5,
+      "stem": "ch",
+      "line1_loc": "f7r.6",
+      "line1_word": "otchor",
+      "line1_case": "C7_LIQ_CONT",
+      "linem_loc": "f7r.10",
+      "linem_word": "schain",
+      "linem_case": "C8_QUANT_TERM"
+    },
+    {
+      "folio": "f7v",
+      "section": "H",
+      "lang": "A",
+      "para_lines": 5,
+      "stem": "tch",
+      "line1_loc": "f7v.1",
+      "line1_word": "tchody",
+      "line1_case": "C5_PROC_EDY",
+      "linem_loc": "f7v.5",
+      "linem_word": "qotchy",
+      "linem_case": "C4_ACT_QO"
+    },
+    {
+      "folio": "f7v",
+      "section": "H",
+      "lang": "A",
+      "para_lines": 5,
+      "stem": "tch",
+      "line1_loc": "f7v.1",
+      "line1_word": "tchody",
+      "line1_case": "C5_PROC_EDY",
+      "linem_loc": "f7v.5",
+      "linem_word": "tcheey",
+      "linem_case": "C5_PROC_EDY"
+    },
+    {
+      "folio": "f8r",
+      "section": "H",
+      "lang": "A",
+      "para_lines": 7,
+      "stem": "ey",
+      "line1_loc": "f8r.14",
+      "line1_word": "ey",
+      "line1_case": "C1_CIT_BARE",
+      "linem_loc": "f8r.20",
+      "linem_word": "shey",
+      "linem_case": "C3_DEIC_DS"
+    },
+    {
+      "folio": "f8r",
+      "section": "H",
+      "lang": "A",
+      "para_lines": 7,
+      "stem": "ey",
+      "line1_loc": "f8r.14",
+      "line1_word": "chey",
+      "line1_case": "C1_CIT_BARE",
+      "linem_loc": "f8r.20",
+      "linem_word": "shey",
+      "linem_case": "C3_DEIC_DS"
+    },
+    {
+      "folio": "f8v",
+      "section": "H",
+      "lang": "A",
+      "para_lines": 6,
+      "stem": "ear",
+      "line1_loc": "f8v.12",
+      "line1_word": "shear",
+      "line1_case": "C3_DEIC_DS",
+      "linem_loc": "f8v.17",
+      "linem_word": "chear",
+      "linem_case": "C1_CIT_BARE"
+    },
+    {
+      "folio": "f9r",
+      "section": "H",
+      "lang": "A",
+      "para_lines": 5,
+      "stem": "ol",
+      "line1_loc": "f9r.1",
+      "line1_word": "choly",
+      "line1_case": "C2_NOM_O",
+      "linem_loc": "f9r.5",
+      "linem_word": "shol",
+      "linem_case": "C3_DEIC_DS"
+    },
+    {
+      "folio": "f9r",
+      "section": "H",
+      "lang": "A",
+      "para_lines": 5,
+      "stem": "ch",
+      "line1_loc": "f9r.1",
+      "line1_word": "orchey",
+      "line1_case": "C5_PROC_EDY",
+      "linem_loc": "f9r.5",
+      "linem_word": "otchol",
+      "linem_case": "C7_LIQ_CONT"
+    },
+    {
+      "folio": "f9r",
+      "section": "H",
+      "lang": "A",
+      "para_lines": 5,
+      "stem": "or",
+      "line1_loc": "f9r.1",
+      "line1_word": "shor",
+      "line1_case": "C3_DEIC_DS",
+      "linem_loc": "f9r.5",
+      "linem_word": "chor",
+      "linem_case": "C1_CIT_BARE"
+    },
+    {
+      "folio": "f9v",
+      "section": "H",
+      "lang": "A",
+      "para_lines": 4,
+      "stem": "ol",
+      "line1_loc": "f9v.1",
+      "line1_word": "shol",
+      "line1_case": "C3_DEIC_DS",
+      "linem_loc": "f9v.4",
+      "linem_word": "otol",
+      "linem_case": "C2_NOM_O"
+    },
+    {
+      "folio": "f10v",
+      "section": "H",
+      "lang": "A",
+      "para_lines": 3,
+      "stem": "ty",
+      "line1_loc": "f10v.1",
+      "line1_word": "qoty",
+      "line1_case": "C4_ACT_QO",
+      "linem_loc": "f10v.3",
+      "linem_word": "olty",
+      "linem_case": "C6_APPL_L"
+    }
+  ]
+}

@@ -1222,3 +1222,32 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Script, Data & Edition**: [`tools/attack148_f76r_6index_and_crossline_polyptoton_compendium.py`](../tools/attack148_f76r_6index_and_crossline_polyptoton_compendium.py) $\to$ [`data/attack148_f76r_6index_and_crossline_polyptoton_compendium.json`](../data/attack148_f76r_6index_and_crossline_polyptoton_compendium.json) & [`notes/F76R_BALNEO_TREATISE_AND_6INDEX_COMPILER_COMPENDIUM.md`](F76R_BALNEO_TREATISE_AND_6INDEX_COMPILER_COMPENDIUM.md)
 - **Key Breakthroughs**:
   1. **Synthesizes the `f76r` 9-Key Balneological Master Treatise (`Attack 145`), the Unified Compiler Test of the Six Master Index Folios (`Attack 146`), and the Cross-Line Anaphoric Polyptoton & Sequential Chaining Law (`Attack 147`)**.
+
+---
+
+## 149. Attack 149 (`Phase 160`): The 8-Case/Voice Inflectional Paradigm Matrix of the Voynich Lexicon (`103` Full-Paradigm Stems Covering `61.98%` of the Corpus, Stem×Case MI $z = +712.94$, Within-Stem Clinical Voice Activation $z = +23.59$)
+- **Script & Data**: [`tools/attack149_eight_case_inflectional_paradigm_matrix.py`](../tools/attack149_eight_case_inflectional_paradigm_matrix.py) $\to$ [`data/attack149_eight_case_inflectional_paradigm_matrix.json`](../data/attack149_eight_case_inflectional_paradigm_matrix.json)
+- **Key Breakthroughs**:
+  1. **Maps All `35,564` Canonical Tokens into 8 Core Grammatical Case/Voice Slots (`23` All-8-Slot Stems = `29.90%` of Corpus; `103` Full-Paradigm `>=6`-Slot Stems = `61.98%`; `295` Broad-Paradigm `>=4`-Slot Stems = `78.84%`; `804` Multi-Form Stems = `92.15%`, $I(\text{Stem};\text{Case}) = 1.1982\text{ bits}$, $z = +712.94$) and Proves Across the `103` Fixed Full-Paradigm Stems a `+16.13%` Clinical-minus-Supply Active Voice Surge ($z = +23.59, p < 10^{-100}$)**.
+
+---
+
+## 150. Attack 150 (`Phase 161`): The 3-Act Paragraph Discourse State Machine, Contiguous 3-Line Stem Execution Chains (`L_t -> L_{t+1} -> L_{t+2}`, Within-Section $z = +26.95$, Strict Within-Paragraph $z = +9.20$), and Paragraph Frame-Ring Closure (`Inclusio`: `Line 1 <-> Line m`, $z = +6.63$)
+- **Script & Data**: [`tools/attack150_paragraph_discourse_state_machine_and_inclusio.py`](../tools/attack150_paragraph_discourse_state_machine_and_inclusio.py) $\to$ [`data/attack150_paragraph_discourse_state_machine_and_inclusio.json`](../data/attack150_paragraph_discourse_state_machine_and_inclusio.json)
+- **Key Breakthroughs**:
+  1. **Proves Across `662` Multi-Line Paragraphs (`>= 3` Lines) That `58.01%` (`384 / 662`) Contain Contiguous 3-Line Stem Execution Chains (`1,001` Triplets, Within-Section $z = +26.95$; Strict Within-Paragraph Line-Order Shuffle $z = +9.20$), While `46.53%` (`308 / 662`) Exhibit `Line 1 <-> Line m` Frame-Ring Closure (`Inclusio`, `422` Shared Stems, Position-Stratified $z = +6.63$), Transforming `78.95%` Cognate Pairs from `Line 1` Top-Gallows `p/f` ($z = -8.49$) and `-edy` ($z = -3.84$) into `Line m` Vessel Applicative `l-/ol-/qol-` (`2.15×` Surge, $z = +3.49$)**.
+
+---
+
+## 151. Attack 151 (`Phase 162`): Complete Six-Index-Folio Master Compiler & Full-Codex Cross-Reference Atlas (`f1r, f49v, f58r, f58v, f66r, f76r` Indexing `99.10%` of the Manuscript, 3-Pole Domain Routing $z = +6.32$)
+- **Script, Data & Scan**: [`tools/attack151_six_master_index_codex_routing_compiler.py`](../tools/attack151_six_master_index_codex_routing_compiler.py) $\to$ [`data/attack151_six_master_index_codex_routing_compiler.json`](../data/attack151_six_master_index_codex_routing_compiler.json), [`pages/f1r_opening_master_preface_rubrics_enh.png`](../pages/f1r_opening_master_preface_rubrics_enh.png)
+- **Key Breakthroughs**:
+  1. **Proves That `219 / 221` (`99.10%`) of All Non-Index Folios in the Voynich Manuscript Are Directly Indexed by the Six Master Index Folios (`f58r = 92`, `f66r = 41`, `f76r = 29`, `f49v = 22`, `f58v = 19`, `f1r = 16`), with a `3.65×` `H_A <-> H_B` Dialect Crossover Odds Ratio Between `f1r+f49v` (`1.62×` in `H_A`) and `f66r+f76r` (`2.25×` in `H_B`) and `1.187×` Global 3-Pole Domain Routing Lift ($z = +6.32$)**.
+
+---
+
+## 152. Attack 152 (`Phase 163`): The 8-Case Inflectional Paradigm Atlas, 3-Act Paragraph Discourse State Machine & 6-Index Codex Routing Compendium ([`notes/EIGHT_CASE_PARADIGM_AND_PARAGRAPH_STATE_COMPILER.md`](EIGHT_CASE_PARADIGM_AND_PARAGRAPH_STATE_COMPILER.md))
+- **Script, Data & Edition**: [`tools/attack152_eight_case_paradigm_and_codex_compiler_compendium.py`](../tools/attack152_eight_case_paradigm_and_codex_compiler_compendium.py) $\to$ [`data/attack152_eight_case_paradigm_and_codex_compiler_compendium.json`](../data/attack152_eight_case_paradigm_and_codex_compiler_compendium.json) & [`notes/EIGHT_CASE_PARADIGM_AND_PARAGRAPH_STATE_COMPILER.md`](EIGHT_CASE_PARADIGM_AND_PARAGRAPH_STATE_COMPILER.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes the 8-Case/Voice Inflectional Paradigm Matrix (`Attack 149`), the 3-Act Paragraph State Machine & `Inclusio` Frame-Ring Closure (`Attack 150`), and the 6-Index Full-Codex Routing Compiler (`Attack 151`)**.
+
