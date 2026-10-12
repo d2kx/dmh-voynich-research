@@ -1,0 +1,634 @@
+{
+  "summary_metrics": {
+    "total_bare_16cell_tokens": 171,
+    "total_compound_16cell_tokens": 527,
+    "total_16cell_tokens": 698,
+    "label_16cell_tokens": 92,
+    "total_label_tokens": 1101,
+    "label_16cell_rate": 0.0836,
+    "prose_16cell_tokens": 606,
+    "total_prose_tokens": 34406,
+    "prose_16cell_rate": 0.0176,
+    "label_vs_prose_lift": 4.744,
+    "label_enrichment_z_score": 15.52,
+    "vowel_harmony_rate": 0.5774,
+    "vowel_harmony_null_rate": 0.5031,
+    "vowel_harmony_z_score": 3.81,
+    "liquid_harmony_rate": 0.457,
+    "liquid_harmony_null_rate": 0.4995,
+    "liquid_harmony_z_score": -2.23
+  },
+  "matrix_16_cells": [
+    {
+      "cell_pair": "aral",
+      "c1": "ar",
+      "c2": "al",
+      "vowel_harmony": true,
+      "liquid_harmony": false,
+      "is_exact_reduplication": false,
+      "bare_count": 21,
+      "compound_count": 62,
+      "total_count": 83,
+      "label_count": 16,
+      "prose_count": 67,
+      "section_distribution": {
+        "H": 8,
+        "S": 33,
+        "T": 6,
+        "A": 3,
+        "C": 9,
+        "Z": 11,
+        "B": 9,
+        "P": 4
+      },
+      "sample_labels": [
+        "f66r.15(+L0):raral",
+        "f69r.17(&L0):araly",
+        "f70v2.23(&Lz):otaral",
+        "f70v1.11(&Lz):ypsharal",
+        "f70v1.15(&Lz):araly",
+        "f71v.9(&Lz):araly",
+        "f72r1.8(&Lz):otaraldy",
+        "f72r1.13(@Lz):ofaralar",
+        "f72r2.7(@Lz):otaraldy",
+        "f72r3.32(&Lz):aral"
+      ]
+    },
+    {
+      "cell_pair": "olor",
+      "c1": "ol",
+      "c2": "or",
+      "vowel_harmony": true,
+      "liquid_harmony": false,
+      "is_exact_reduplication": false,
+      "bare_count": 27,
+      "compound_count": 41,
+      "total_count": 68,
+      "label_count": 3,
+      "prose_count": 65,
+      "section_distribution": {
+        "H": 13,
+        "A": 2,
+        "Z": 1,
+        "B": 26,
+        "T": 5,
+        "C": 3,
+        "P": 1,
+        "S": 17
+      },
+      "sample_labels": [
+        "f67r2.62(&Ls):otolor",
+        "f68r1.20(@Ls):olor",
+        "f77v.4(@Lt):otolor"
+      ]
+    },
+    {
+      "cell_pair": "arar",
+      "c1": "ar",
+      "c2": "ar",
+      "vowel_harmony": true,
+      "liquid_harmony": true,
+      "is_exact_reduplication": true,
+      "bare_count": 10,
+      "compound_count": 55,
+      "total_count": 65,
+      "label_count": 10,
+      "prose_count": 55,
+      "section_distribution": {
+        "H": 7,
+        "C": 10,
+        "S": 21,
+        "A": 1,
+        "Z": 9,
+        "B": 3,
+        "T": 7,
+        "P": 7
+      },
+      "sample_labels": [
+        "f67v2.2(@La):otararain",
+        "f70v2.16(&Lz):arar",
+        "f71r.2(@Lz):arar",
+        "f82r.38(@Lt):darary",
+        "fRos.71(@L0):arar",
+        "f88v.30(@Lf):dararda:",
+        "f89r1.26(@Lf):sydarary",
+        "f99r.3(@Lf):darar",
+        "f99v.5(@Lf):darary",
+        "f101v.7(@Lf):otarar"
+      ]
+    },
+    {
+      "cell_pair": "alal",
+      "c1": "al",
+      "c2": "al",
+      "vowel_harmony": true,
+      "liquid_harmony": true,
+      "is_exact_reduplication": true,
+      "bare_count": 6,
+      "compound_count": 41,
+      "total_count": 47,
+      "label_count": 9,
+      "prose_count": 38,
+      "section_distribution": {
+        "S": 17,
+        "C": 5,
+        "A": 1,
+        "Z": 21,
+        "B": 2,
+        "H": 1
+      },
+      "sample_labels": [
+        "f67v1.4(&L0):echkalal",
+        "f70v2.2(@Lz):otalalg",
+        "f70v1.5(&Lz):okalal",
+        "f70v1.15(&Lz):alals",
+        "f71r.11(&Lz):otalaly",
+        "f72r2.24(&Lz):ralal",
+        "f72r3.8(&Lz):alaly",
+        "f72r3.27(@Lz):opalal",
+        "f72v3.11(&Lz):ofalals"
+      ]
+    },
+    {
+      "cell_pair": "olol",
+      "c1": "ol",
+      "c2": "ol",
+      "vowel_harmony": true,
+      "liquid_harmony": true,
+      "is_exact_reduplication": true,
+      "bare_count": 15,
+      "compound_count": 31,
+      "total_count": 46,
+      "label_count": 2,
+      "prose_count": 44,
+      "section_distribution": {
+        "H": 19,
+        "S": 3,
+        "A": 1,
+        "C": 1,
+        "Z": 4,
+        "B": 16,
+        "P": 2
+      },
+      "sample_labels": [
+        "f83v.9(@Lt):ololary",
+        "f84r.1(@Lt):ololal"
+      ]
+    },
+    {
+      "cell_pair": "alor",
+      "c1": "al",
+      "c2": "or",
+      "vowel_harmony": false,
+      "liquid_harmony": false,
+      "is_exact_reduplication": false,
+      "bare_count": 8,
+      "compound_count": 38,
+      "total_count": 46,
+      "label_count": 1,
+      "prose_count": 45,
+      "section_distribution": {
+        "H": 8,
+        "S": 19,
+        "T": 6,
+        "Z": 2,
+        "B": 9,
+        "C": 2
+      },
+      "sample_labels": [
+        "f71v.11(&Lz):opalor"
+      ]
+    },
+    {
+      "cell_pair": "alol",
+      "c1": "al",
+      "c2": "ol",
+      "vowel_harmony": false,
+      "liquid_harmony": true,
+      "is_exact_reduplication": false,
+      "bare_count": 7,
+      "compound_count": 36,
+      "total_count": 43,
+      "label_count": 3,
+      "prose_count": 40,
+      "section_distribution": {
+        "H": 4,
+        "S": 16,
+        "T": 5,
+        "C": 6,
+        "Z": 1,
+        "B": 9,
+        "P": 2
+      },
+      "sample_labels": [
+        "f70v2.29(&Lz):salols",
+        "f99r.9(@Lf):ralol",
+        "f99r.21(@Lf):aloly"
+      ]
+    },
+    {
+      "cell_pair": "oral",
+      "c1": "or",
+      "c2": "al",
+      "vowel_harmony": false,
+      "liquid_harmony": false,
+      "is_exact_reduplication": false,
+      "bare_count": 13,
+      "compound_count": 27,
+      "total_count": 40,
+      "label_count": 7,
+      "prose_count": 33,
+      "section_distribution": {
+        "H": 6,
+        "S": 14,
+        "T": 2,
+        "A": 1,
+        "C": 2,
+        "Z": 3,
+        "B": 5,
+        "P": 7
+      },
+      "sample_labels": [
+        "f67v2.20(+La):okoral",
+        "f72r3.15(@Lz):oralkam",
+        "f88r.3(@Lf):orald",
+        "f89v1.1(@Lc):okoraldy",
+        "f99v.36(@Lc):oralas",
+        "f101v.9(@Lf):soraly",
+        "f102v1.17(@Lf):loralody"
+      ]
+    },
+    {
+      "cell_pair": "olar",
+      "c1": "ol",
+      "c2": "ar",
+      "vowel_harmony": false,
+      "liquid_harmony": false,
+      "is_exact_reduplication": false,
+      "bare_count": 15,
+      "compound_count": 24,
+      "total_count": 39,
+      "label_count": 8,
+      "prose_count": 31,
+      "section_distribution": {
+        "H": 2,
+        "S": 14,
+        "A": 3,
+        "C": 5,
+        "Z": 6,
+        "B": 5,
+        "T": 1,
+        "P": 3
+      },
+      "sample_labels": [
+        "f68r2.19(@Ls):cholar",
+        "f70v2.26(&Lz):dolaram",
+        "f71r.5(&Lz):oteolar",
+        "f71v.4(&Lz):okolar",
+        "fRos.124(@L0):okolar",
+        "f89r2.34(@Lf):otolarol",
+        "f101v.16(@Lf):dolary",
+        "f101v.18(@Lf):olaran"
+      ]
+    },
+    {
+      "cell_pair": "orar",
+      "c1": "or",
+      "c2": "ar",
+      "vowel_harmony": false,
+      "liquid_harmony": true,
+      "is_exact_reduplication": false,
+      "bare_count": 7,
+      "compound_count": 30,
+      "total_count": 37,
+      "label_count": 7,
+      "prose_count": 30,
+      "section_distribution": {
+        "H": 7,
+        "S": 11,
+        "A": 1,
+        "C": 4,
+        "Z": 5,
+        "T": 2,
+        "P": 7
+      },
+      "sample_labels": [
+        "f72r2.19(&Lz):orary",
+        "f72r3.23(&Lz):orara",
+        "f72v2.32(&Lz):okeorar",
+        "fRos.9(+L0):orary",
+        "f100r.6(@Lf):oraro",
+        "f101v.6(@Lf):orar",
+        "f101v.12(@Lf):oraram"
+      ]
+    },
+    {
+      "cell_pair": "olal",
+      "c1": "ol",
+      "c2": "al",
+      "vowel_harmony": false,
+      "liquid_harmony": true,
+      "is_exact_reduplication": false,
+      "bare_count": 6,
+      "compound_count": 30,
+      "total_count": 36,
+      "label_count": 5,
+      "prose_count": 31,
+      "section_distribution": {
+        "H": 4,
+        "S": 15,
+        "C": 5,
+        "A": 2,
+        "Z": 3,
+        "T": 2,
+        "B": 2,
+        "P": 3
+      },
+      "sample_labels": [
+        "f70v2.33(@Lz):otolal",
+        "f72r3.3(&Lz):olalsy",
+        "fRos.8(+L0):olal",
+        "f99v.25(@Lc):darolaly",
+        "f102r1.7(@Lc):okolaly"
+      ]
+    },
+    {
+      "cell_pair": "orol",
+      "c1": "or",
+      "c2": "ol",
+      "vowel_harmony": true,
+      "liquid_harmony": false,
+      "is_exact_reduplication": false,
+      "bare_count": 11,
+      "compound_count": 25,
+      "total_count": 36,
+      "label_count": 4,
+      "prose_count": 32,
+      "section_distribution": {
+        "H": 6,
+        "A": 1,
+        "C": 2,
+        "B": 14,
+        "T": 3,
+        "P": 3,
+        "S": 7
+      },
+      "sample_labels": [
+        "f68r2.8(@Ls):cheorol",
+        "f80r.1(@Ln):toroly",
+        "f83r.45(@Lt):chtorol",
+        "f100r.18(@Lf):orol"
+      ]
+    },
+    {
+      "cell_pair": "alar",
+      "c1": "al",
+      "c2": "ar",
+      "vowel_harmony": true,
+      "liquid_harmony": false,
+      "is_exact_reduplication": false,
+      "bare_count": 5,
+      "compound_count": 29,
+      "total_count": 34,
+      "label_count": 6,
+      "prose_count": 28,
+      "section_distribution": {
+        "S": 16,
+        "A": 3,
+        "C": 3,
+        "Z": 10,
+        "B": 2
+      },
+      "sample_labels": [
+        "f70v2.24(&Lz):otalar",
+        "f70v1.16(&Lz):okealar",
+        "f71v.10(&Lz):opalar",
+        "f72r2.5(&Lz):okealar",
+        "f72r2.8(&Lz):okalar",
+        "f72r3.22(&Lz):okalar"
+      ]
+    },
+    {
+      "cell_pair": "arol",
+      "c1": "ar",
+      "c2": "ol",
+      "vowel_harmony": false,
+      "liquid_harmony": false,
+      "is_exact_reduplication": false,
+      "bare_count": 8,
+      "compound_count": 25,
+      "total_count": 33,
+      "label_count": 6,
+      "prose_count": 27,
+      "section_distribution": {
+        "H": 3,
+        "S": 10,
+        "C": 3,
+        "Z": 2,
+        "B": 11,
+        "P": 4
+      },
+      "sample_labels": [
+        "f75v.21(+Ln):darol",
+        "f82r.35(@Lt):darol",
+        "f83r.51(+Lt):darolsy",
+        "fRos.17(@L0):orarol",
+        "f99v.8(@Lf):arol",
+        "f102v2.14(@Lf):sarol"
+      ]
+    },
+    {
+      "cell_pair": "oror",
+      "c1": "or",
+      "c2": "or",
+      "vowel_harmony": true,
+      "liquid_harmony": true,
+      "is_exact_reduplication": true,
+      "bare_count": 8,
+      "compound_count": 16,
+      "total_count": 24,
+      "label_count": 4,
+      "prose_count": 20,
+      "section_distribution": {
+        "H": 8,
+        "T": 3,
+        "B": 4,
+        "C": 1,
+        "P": 4,
+        "S": 4
+      },
+      "sample_labels": [
+        "f82r.40(*Ln):sororl",
+        "f88r.16(@Lf):sorory",
+        "f102v2.3(@Lf):oror",
+        "f116v.1(@Lx):oror"
+      ]
+    },
+    {
+      "cell_pair": "aror",
+      "c1": "ar",
+      "c2": "or",
+      "vowel_harmony": false,
+      "liquid_harmony": true,
+      "is_exact_reduplication": false,
+      "bare_count": 4,
+      "compound_count": 17,
+      "total_count": 21,
+      "label_count": 1,
+      "prose_count": 20,
+      "section_distribution": {
+        "H": 1,
+        "B": 12,
+        "T": 1,
+        "C": 1,
+        "P": 1,
+        "S": 5
+      },
+      "sample_labels": [
+        "f77v.43(@Ln):saroral"
+      ]
+    }
+  ],
+  "top_compound_16cell_words": [
+    {
+      "word": "olor",
+      "count": 27
+    },
+    {
+      "word": "aral",
+      "count": 21
+    },
+    {
+      "word": "olol",
+      "count": 15
+    },
+    {
+      "word": "olar",
+      "count": 15
+    },
+    {
+      "word": "oral",
+      "count": 13
+    },
+    {
+      "word": "orol",
+      "count": 11
+    },
+    {
+      "word": "arar",
+      "count": 10
+    },
+    {
+      "word": "dalor",
+      "count": 8
+    },
+    {
+      "word": "alor",
+      "count": 8
+    },
+    {
+      "word": "arol",
+      "count": 8
+    },
+    {
+      "word": "oror",
+      "count": 8
+    },
+    {
+      "word": "alol",
+      "count": 7
+    },
+    {
+      "word": "orar",
+      "count": 7
+    },
+    {
+      "word": "olal",
+      "count": 6
+    },
+    {
+      "word": "dalol",
+      "count": 6
+    },
+    {
+      "word": "okalal",
+      "count": 6
+    },
+    {
+      "word": "dalar",
+      "count": 6
+    },
+    {
+      "word": "alal",
+      "count": 6
+    },
+    {
+      "word": "otarar",
+      "count": 6
+    },
+    {
+      "word": "okaral",
+      "count": 6
+    },
+    {
+      "word": "dalal",
+      "count": 5
+    },
+    {
+      "word": "alar",
+      "count": 5
+    },
+    {
+      "word": "okalol",
+      "count": 5
+    },
+    {
+      "word": "cholor",
+      "count": 4
+    },
+    {
+      "word": "cholal",
+      "count": 4
+    },
+    {
+      "word": "choror",
+      "count": 4
+    },
+    {
+      "word": "sarol",
+      "count": 4
+    },
+    {
+      "word": "okarar",
+      "count": 4
+    },
+    {
+      "word": "otalal",
+      "count": 4
+    },
+    {
+      "word": "otalor",
+      "count": 4
+    },
+    {
+      "word": "saral",
+      "count": 4
+    },
+    {
+      "word": "okolar",
+      "count": 4
+    },
+    {
+      "word": "cheolor",
+      "count": 4
+    },
+    {
+      "word": "aror",
+      "count": 4
+    },
+    {
+      "word": "oroly",
+      "count": 4
+    }
+  ]
+}

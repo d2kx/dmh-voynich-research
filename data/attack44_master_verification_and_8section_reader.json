@@ -1,0 +1,126 @@
+{
+  "total_tokens_decoded": 1086,
+  "tier1_exact_rate": 0.186,
+  "tier1_plus_tier2_rate": 0.6998,
+  "tier_counts": {
+    "1": 202,
+    "2": 558,
+    "3": 326
+  },
+  "slot_counts": {
+    "LEX": 23,
+    "CH_VERB": 215,
+    "Q_ACT": 119,
+    "OTHER": 49,
+    "NOM_PREP": 277,
+    "PREP": 67,
+    "AM_CLOSE": 10,
+    "NOM_OK": 174,
+    "GALLOWS": 76,
+    "LIQ_16": 19,
+    "AIIN": 57
+  },
+  "section_summaries": [
+    {
+      "section_num": 1,
+      "section_title": "Section 1 ($I=H Herbal): `f11v` (`poldchody` Monograph Cited on `f116v`) & `f49v` (Period-3 Acrostic + Numeral Key `1..5`)",
+      "folios": [
+        "f11v",
+        "f49v"
+      ],
+      "tokens_decoded": 85,
+      "tier1_2_rate": 0.6706
+    },
+    {
+      "section_num": 2,
+      "section_title": "Section 2 ($I=A Astronomical): `f68r3` & `f68v3` Celestial Ring/Spoke Loci (`38.4%` `ok-/ot-` Diagram Prefixing)",
+      "folios": [
+        "f68r3",
+        "f68v3"
+      ],
+      "tokens_decoded": 236,
+      "tier1_2_rate": 0.7373
+    },
+    {
+      "section_num": 3,
+      "section_title": "Section 3 ($I=Z Zodiac): `f72r1` (`Aries` Dark/Light Sector Rings)",
+      "folios": [
+        "f72r1"
+      ],
+      "tokens_decoded": 83,
+      "tier1_2_rate": 0.8795
+    },
+    {
+      "section_num": 4,
+      "section_title": "Section 4 ($I=B Balneological): `f77r` (Period-2 `qo- <-> s-` Alternating Margin Hydrotherapy)",
+      "folios": [
+        "f77r"
+      ],
+      "tokens_decoded": 92,
+      "tier1_2_rate": 0.8261
+    },
+    {
+      "section_num": 5,
+      "section_title": "Section 5 ($I=C Cosmological): `f57v` (`4x17` Key Ring) & `f85r2` (`Four Seasons` N/E/S/W Compass Wedges)",
+      "folios": [
+        "f57v",
+        "f85r2"
+      ],
+      "tokens_decoded": 320,
+      "tier1_2_rate": 0.5437
+    },
+    {
+      "section_num": 6,
+      "section_title": "Section 6 ($I=P Pharmaceutical): `f102v2` (`oror` & `okody + sarol` Illustrated Botanical Specimen Rows)",
+      "folios": [
+        "f102v2"
+      ],
+      "tokens_decoded": 74,
+      "tier1_2_rate": 0.7973
+    },
+    {
+      "section_num": 7,
+      "section_title": "Section 7 ($I=S Quire 20 Starred Formulary): `f105r` (`100%` `LIGHT_DOTTED <-> LIGHT_PLAIN` Star Dyads)",
+      "folios": [
+        "f105r"
+      ],
+      "tokens_decoded": 194,
+      "tier1_2_rate": 0.7474
+    },
+    {
+      "section_num": 8,
+      "section_title": "Section 8 (`f116v` Bilingual Voynich-German/Latin Recipe Epilogue)",
+      "folios": [
+        "f116v"
+      ],
+      "tokens_decoded": 2,
+      "tier1_2_rate": 1.0
+    }
+  ],
+  "wave8_verification_table": [
+    {
+      "attack": "Attack 41 (Discovery 58)",
+      "law": "16-Cell Disyllabic Vocalic-Liquid Matrix ({ol, ar, or, al}^2) Diagram Enrichment & Dissimilation",
+      "metric": "8.36% (92/1,101) of @L labels vs 1.76% (606/34,406) of prose (4.74x lift); 57.74% vowel harmony + 54.30% liquid dissimilation",
+      "z_score": 15.52
+    },
+    {
+      "attack": "Attack 42 (Discovery 59)",
+      "law": "Intra-Line Quintile Progression, Pre-Drawing (<->) Word Compression & 4-Stage Paragraph Trajectory",
+      "metric": "Pre-intrusion (<->) word length compresses to 4.672 vs 5.260 post-intrusion (-11.2%); Q5 right-margin -am/-om surges 4.48x (10.3% vs 2.3%)",
+      "z_score": -3.77
+    },
+    {
+      "attack": "Attack 43 (Discovery 60)",
+      "law": "f57v 4x17=68 Key Ring Periodicity & Cosmological/Astronomical ok-/ot- Diagram Stratification",
+      "metric": "96.08% (49/51) exact lag-17 periodicity on <f57v.3,+Cc>; 30.22% ok-/ot- in diagram loci (@L=38.4%, @R=32.2%, @C=27.5%) vs 17.9% prose",
+      "z_score": 9.61
+    },
+    {
+      "attack": "Attack 44 (Discovery 61)",
+      "law": "Complete 8-Section Decoded Reader Coverage across 11 Master Folios",
+      "metric": "1086 tokens decoded across 8 sections: Tier 1 exact=18.60%, Tier 1+2 structural=69.98%, Tier 1-3=100.0%",
+      "z_score": 49.22
+    }
+  ]
+}
