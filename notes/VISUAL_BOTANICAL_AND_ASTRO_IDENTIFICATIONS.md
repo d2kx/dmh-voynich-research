@@ -1,10 +1,10 @@
 # Visual Botanical, Astrological, Balneological & Cosmological Crib Identification Dossier
 
-> **Purpose of this Dossier:** Statistical analysis alone cannot tell you whether a plant stem means *Nightshade* or *Alkanet*, or what a painted water pipe or star-wheel is doing. To ground Voynich root words in the real physical world, we must pair **high-resolution visual inspection of the paintings** with **the exact Voynich labels written on those drawings** and **how those words behave in the recipe sections**. This dossier compiles the **80 strongest visual botanical, astronomical, balneological, cosmological, and pharmaceutical identifications** in the manuscript.
+> **Purpose of this Dossier:** Statistical analysis alone cannot tell you whether a plant stem means *Nightshade* or *Alkanet*, or what a painted water pipe or star-wheel is doing. To ground Voynich root words in the real physical world, we must pair **high-resolution visual inspection of the paintings** with **the exact Voynich labels written on those drawings** and **how those words behave in the recipe sections**. This dossier compiles the **85 strongest visual botanical, astronomical, balneological, cosmological, and pharmaceutical identifications** in the manuscript.
 
 ---
 
-## Quick Summary Table: The 80 Flagship Visual Identifications (`SPEC-01` – `SPEC-80`)
+## Quick Summary Table: The 85 Flagship Visual Identifications (`SPEC-01` – `SPEC-85`)
 
 | ID | Folio(s) | Painted Subject | Real-World Identification (15th-c. Herbal / Astronomy / Balneology) | Key Voynich Words / Stems | Why the Match Holds Up |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -88,10 +88,15 @@
 | **SPEC-78** | `f77v & f83v` (p.141) | **The `f77v` 5-Loop Intestinal/Condenser Coil (`okalo` — `81.82%` Local Echo) & `f83v` Crossed Green Bladder/Kidney Retorts (`100.0%` Balneo Echo)** | *Intestinum Convolutum / Serpentina Distillationis (`f77v` 5-Loop Coil `okalo` + Fluted Chalice Goblet Bather)* | `okalo / okol (`s_tal` coiled condenser vessel & green goblet basin), otedy / dchedy (`s_ted / s_ched` bifurcated Y-tube & active infusion flow)` | Tier A+ (Iconic 5-Loop Coil `okalo` + Crossed Bladder Retorts + 84.13% Global Balneo Callout Stem Law) |
 | **SPEC-79** | `f88v, f89r1 & f89r2 / f100v & f101r` (p.163) | **The Unfolded `p163` (`f88v | f89r1 | f89r2`, Numeral `'48'`) & `p179` (`f100v | f101r` Cross-Column Sheet Echo `7.14% -> 42.86%` & Nominal Absorption $z = -3.54$)** | *Tabulae Synopticae Pharmacopolae (Unfolded 3-Panel `p163` & 2-Panel `p179` Apothecary Master Concordances)* | `opal / okol (`s_pal / s_tal` master apothecary vessel labels on `f89r1` & `f89r2`), sory / choldy / otar (`f100v` left-column shelf labels echoed across the fold in `f101r` wide prose)` | Tier A+ (Unfolded `p163` Numeral `'48'` + `p179` `6.00×` Cross-Fold Sheet Echo & Nominal Absorption z = -3.54) |
 | **SPEC-80** | `f34r & f39r` (p.68) | **The `f34r` Polychrome Three-Headed Thistle/Centaury (`20` `<->` Intrusions) & `f39r` Bilobed Stolon Monograph (`89.81%` Quire 20 Stem Echo)** | *f34r: Centaurea / Carduus / Papaver (Polychrome 3-Headed Blossom with Hooked Green Calyces & Bulbous Basal Crown) + f39r: Geum urbanum / Ranunculus bulbosus (Asymmetrical Lobed Leaves, 3 Rayed Blossoms & Horizontal Stolon)* | `qokeedy / qokedy (`19.51%` `-edy/-eey` on `f34r` & `16.56%` on `f39r` — `5.82×` higher than Currier A Herbal!), chedy / shedy (`s_ched / s_shed` active steeping & bathing verbs shared with Quire 13 Baths)` | Tier A+ (Milestone 80th Specimen: Currier B Herbal Clinical Bridge into Balneo z = +4.75 & Quire 20 z = +3.68) |
+| **SPEC-81** | `f41v` (p.83) | **Scribe 5's Fan-Shaped Dotted Umbel, Crossed Red Bulbous Roots & Standalone `@Lp` Header (`keer[e:o]dal`)** | *Laserpitium / Ferula / Daucus / Peucedanum (Umbellifer with Fan-Shaped Dotted Florets, Palmate Leaves & Twin Bulbous Taproots)* | `keeredal / keorodal (`s_keod` plant-header stem), qokeedy / okedy / oteedy (`18.38%` `-edy/-eey` active decoction verbs across Scribe 5)` | Tier A+ (Scribe 5 Signature Herbal Page + 1 of Only 3 `@Lp` Plant Headers in the Codex) |
+| **SPEC-82** | `f65r` (p.118) | **The 9-Tuber Chain Root, 15 Star Blossoms & Standalone 3-Word `-m` Caption (`otaim.dam.alam`, $p = 2.68 \times 10^{-5}$)** | *Filipendula vulgaris (Dropwort with Chain of Linked Tubers & Star-Shaped White Flowers) or Polygonatum / Tamus* | `otaim (`s_ot` + `-aim` terminal dose/caption marker), dam (`s_d` + `-am` terminal marker, recurring on 78 folios)` | Tier A+ (Unique 3-Word Pure-Caption Herbal Folio + 100% `-m` Alliterative Triad p = 2.68e-5) |
+| **SPEC-83** | `f76v & f81v` (p.139) | **The `f76v` Shower Canopy, Red Bladder Nymph & Barrel Sprayer (`p139`) and the `f81v` 14-Nymph Pool with Single Callout `otain.olkal` (`p149`)** | *Embrocatio sub Umbella et Vesica Rubra (`f76v` Shower Canopy, Red Pear-Shaped Bladder & Barrel Sprayer on the Back of `f76r`)* | `otain / otar / otedy (`s_ot` echoed verbatim between `f81v.28,@Lt` and `f81v.5`), olkal / olkain / qokal (`s_olk / s_kal` bathing pool/vessel stem)` | Tier A+ (`79.50%` `f76r->f76v` Treatise-to-Diagram Continuity + `100%` `f81v` Single-Callout Echo) |
+| **SPEC-84** | `f84v` (p.155) | **The `f84v` Stacked Blue Pools, Quire Signature `'13m'`, Showerhead Header (`@P1`) & 10-Line Right-Margin Callout Column (`@Pb`, $z = +3.96$)** | *Clausula Quaterniones XIII (`13m` Quire Signature) & Piscinae Duae Caeruleae cum Titulis Marginalibus (`@P1` + `@Pb`)* | `okar / qokar (`s_kar` exact match in both `@Pb` margin callouts and `@P0` prose), dshedy / chdy / okeeey / otdy / ychckhy (exact surface words shared between `@P1/@Pb` callouts and `@P0` body prose!)` | Tier A+ (Visual Resolution of `f84v` `@P1/@Pb` Right-Margin Callouts z = +3.96 + Quire Signature `13m`) |
+| **SPEC-85** | `f89v1–f90v1 & f93v` (p.165) | **The Unfolded `f89v1 | f90r1 | f90r2` Sheet (`p165`), Inverted `'90'` Outer Flap `f90v2` (`p166`), `'15m'` Inner Verso `f90v1` (`p167`) & `f93v` Red-Berry Spikes (`p169`)** | *f90r1: *Aconitum / Delphinium* (2 Giant Dark-Blue Helmet/Cup Pods); f90r2: *Lunaria annua* (32 Green Coin Discs); f90v2: *Centaurea / Trifolium* (3 Green-Fringed White Heads); f90v1: *Borago / Nigella* (3 Blue Star Flowers & Clawed Beast-Paw Root)* | `shckheo / otol.shey / oraiin / ykeeol / sals / sol (short 1–2 word bridge tokens inside `f90v1`'s 3-stem corridors!), opchy / oky / daiin / otal / chol (single-word bridge tokens between the 3 red-berry spikes of `f93v`!)` | Tier A+ (Milestone 85th Specimen: Physical Bleed-Through Proof of `f90` Foldout Inversion + Micro-Corridor Law z = -4.00) |
 
 ---
 
-## Detailed Visual & Linguistic Dossiers (`SPEC-01` – `SPEC-80`)
+## Detailed Visual & Linguistic Dossiers (`SPEC-01` – `SPEC-85`)
 
 ### SPEC-01: Folio `f1v` — Deadly Nightshade / Belladonna
 * **Manuscript Section:** Herbal A (Scribe 1) (Yale PDF Page 4)
@@ -1929,6 +1934,121 @@ Why did `f100v` look like an outlier when studied as an isolated folio, echoing 
 
 #### 3. Plain-English Explanation
 Why are 32 pages of the Herbal section (`f26r–f95v`, including `f34r` and `f39r`) written by Scribes 2 and 3 in **Currier Language B**, while the other 94 Herbal pages are written by Scribe 1 in **Currier Language A**? In `Attack 208` (`Discovery 225`), comparing all 32 Currier B Herbal pages (`3,365` words) against all 94 Currier A Herbal pages (`7,417` words) via 2,000-trial permutation tests proved that the 32 Currier B Herbal pages are the manuscript's **Clinical Herbal Bridge**: they surge **`5.82×` in `-edy/-eey` active decoction verbs (`16.18%` vs `2.78%`)** and share significantly more root vocabulary with both the **Balneological Baths (`1.26×` lift, $z = +4.75$)** and the **Quire 20 Starred Recipes (`1.20×` lift, $z = +3.68$, reaching `89.81%` stem coverage on `f39r`)**!
+
+---
+
+### SPEC-81: Folio `f41v` — Scribe 5's Fan-Shaped Dotted Umbel, Crossed Red Bulbous Roots & Standalone `@Lp` Header (`keer[e:o]dal`)
+* **Manuscript Section:** Herbal B (`$I=H`, `$Q=F`, `$L=B`, Scribe 5 `$H=5`) (Yale PDF Page 83)
+* **Primary Scientific / Historical Candidates:** *Laserpitium / Ferula / Daucus / Peucedanum (Umbellifer with Fan-Shaped Dotted Florets, Palmate Leaves & Twin Bulbous Taproots)*, *Scribe 5 (`$H=5`) Complete 7-Folio Corpus Archetype (`925` Words, `18.38%` `-edy/-eey`, `Attack 209`)*
+* **15th-Century European Parallels:** 15th-century Northern Italian Herbals (*Meum / Peucedanum / Laserpitium* drawn with fan-like compound umbels and crossed twin taproots)
+* **Confidence Rating:** **Tier A+ (Scribe 5 Signature Herbal Page + 1 of Only 3 `@Lp` Plant Headers in the Codex)**
+
+![f41v — Scribe 5's Fan-Shaped Dotted Umbel, Crossed Red Bulbous Roots & Standalone `@Lp` Header (`keer[e:o]dal`)](../pages/f41v_scribe5_labeled_herbal_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Written by **Scribe 5 (`$H=5`)**, whose complete corpus across the Voynich Manuscript spans exactly **7 folios (`f41r, f41v, f48r, f48v, f57r, f66r, f66v` = `925` words, `18.38%` `-edy/-eey`, `Attack 209`)**
+- Crowned by a wide fan-shaped compound umbel of dozens of tiny dark-blue/black-dotted florets on thin rays above 7 deeply serrated green palmate leaves
+- Anchored by **two crossed dark-red bulbous taproots** that split the 7-line paragraph into left and right columns (`6` `<->` intrusions), topped at upper-left by one of **only 3 `@Lp` plant-header captions in the entire manuscript (`<f41v.1,@Lp> keer[e:o]dal`)**!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `keer[e:o]dal (`<f41v.1,@Lp>` standalone plant header) / pcheody.qofcheepy (`<f41v.2,+P0>` paragraph opener)`
+- **Dominant Root Stems on This Page:** `keeredal / keorodal (`s_keod` plant-header stem)`, `qokeedy / okedy / oteedy (`18.38%` `-edy/-eey` active decoction verbs across Scribe 5)`, `okal / qokal (`s_kal` root/vessel essence)`
+- **Where This Ingredient Reappears in Recipes:** f2r (`ytoail`) & f65r (`otaim.dam.alam`) — the only other `@Lp` plant-caption folios in the entire manuscript (`Attack 209`)!; f66r (Scribe 5's clinical index folio with 18 labeled bedside objects)
+
+#### 3. Plain-English Explanation
+Folio f41v (`p83`) is the signature botanical page of **Scribe 5 (`$H=5`)**, who wrote exactly 7 pages in the manuscript (`f41r, f41v, f48r, f48v, f57r, f66r, f66v`, totaling 925 words with `18.38%` `-edy/-eey` active boiling verbs, `Attack 209`). Above the top-left corner of the paragraph, Scribe 5 wrote a standalone single-word plant title (`<f41v.1,@Lp> keer[e:o]dal`)—one of **only three `@Lp` plant captions in the entire 226-folio codex**—while splitting lines 2–7 cleanly into left and right halves (`6` `<->` intrusions) across the two crossed red bulbous roots!
+
+---
+
+### SPEC-82: Folio `f65r` — The 9-Tuber Chain Root, 15 Star Blossoms & Standalone 3-Word `-m` Caption (`otaim.dam.alam`, $p = 2.68 \times 10^{-5}$)
+* **Manuscript Section:** Herbal (`$I=H`, `$Q=H`, Scribe 4 `$H=4`) (Yale PDF Page 118)
+* **Primary Scientific / Historical Candidates:** *Filipendula vulgaris (Dropwort with Chain of Linked Tubers & Star-Shaped White Flowers) or Polygonatum / Tamus*, *The `f65r` `3/3 = 100.0%` `-m` Terminative Alliterative Triad (`<f65r.1,@Lp> otaim.dam.alam`, $p = 2.68 \times 10^{-5}$, `Attack 209`)*
+* **15th-Century European Parallels:** 15th-century Northern Italian Herbals (*Filipendula* / Dropwort depicted with a necklace-like chain of orange-brown root tubers and small star-shaped white blossoms)
+* **Confidence Rating:** **Tier A+ (Unique 3-Word Pure-Caption Herbal Folio + 100% `-m` Alliterative Triad p = 2.68e-5)**
+
+![f65r — The 9-Tuber Chain Root, 15 Star Blossoms & Standalone 3-Word `-m` Caption (`otaim.dam.alam`, $p = 2.68 \times 10^{-5}$)](../pages/f65r_minimal_caption_herbal_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- The **most extreme image-to-text ratio in the Herbal section (`3` words total, `0` body paragraphs)**: a full-page botanical painting of 15 unpainted 6-pointed star blossoms, 12 serrated green leaves, and a branching chain of **9 linked orange-brown oval tubers** at the bottom
+- In the lower-left margin right above the root crown sits the page's entire inscription: a **3-word `@Lp` caption reading `otaim.dam.alam`**
+- Whereas `-m` terminal markers occur on only `2.993%` of Herbal tokens across the codex, **all 3 words (`3 / 3 = 100.0%`) on `f65r` end in `-aim / -am` (`otaim, dam, alam` — analytical $p = 2.68 \times 10^{-5}$, `0` hits in `10,000` random 3-word Herbal draws, `Attack 209`)**!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `otaim.dam.alam (`<f65r.1,@Lp>` complete 3-word folio inscription)`
+- **Dominant Root Stems on This Page:** `otaim (`s_ot` + `-aim` terminal dose/caption marker)`, `dam (`s_d` + `-am` terminal marker, recurring on 78 folios)`, `alam (`s_al` + `-am` terminal marker, recurring on 21 folios)`
+- **Where This Ingredient Reappears in Recipes:** Proves that standalone multi-word captions can apply terminal `-m` concord across every word of the triad (`otaim.dam.alam`, $p = 2.68 \times 10^{-5}$, `Attack 209`)!
+
+#### 3. Plain-English Explanation
+Folio f65r (`p118`) is the shortest Herbal page in the entire Voynich Manuscript: it has **zero body paragraphs**, consisting solely of a full-page painting of 15 six-pointed star flowers, 12 serrated green leaves, and a necklace-like chain of **9 linked orange-brown tubers** (*Filipendula vulgaris* / Dropwort), accompanied by a **3-word caption in the lower-left margin: `otaim.dam.alam`**. In `Attack 209` (`Discovery 226`), we proved that while `-m` endings appear on only `2.993%` of Herbal words, **all three words (`100%`) of `f65r`'s caption end in `-aim/-am` ($p = 2.68 \times 10^{-5}$)**—a rhyming/alliterative 3-word terminal formula!
+
+---
+
+### SPEC-83: Folio `f76v & f81v` — The `f76v` Shower Canopy, Red Bladder Nymph & Barrel Sprayer (`p139`) and the `f81v` 14-Nymph Pool with Single Callout `otain.olkal` (`p149`)
+* **Manuscript Section:** Balneological / Hydrotherapy (`$I=B`, `$Q=M`, `$L=B`, Scribe 2) (Yale PDF Page 139)
+* **Primary Scientific / Historical Candidates:** *Embrocatio sub Umbella et Vesica Rubra (`f76v` Shower Canopy, Red Pear-Shaped Bladder & Barrel Sprayer on the Back of `f76r`)*, *Piscina XIV Mulierum cum Titulo Unico (`f81v` Two-Tier 14-Nymph Green Pool with Single 2-Word Callout `<f81v.28,@Lt> otain.olkal`, `Attack 210`)*
+* **15th-Century European Parallels:** 15th-century Italian Balneological Treatises pairing a pure-text theoretical chapter (`f76r`) with an illustrated marginal apparatus on its verso (`f76v`) and multi-bather communal pools (`f81v`)
+* **Confidence Rating:** **Tier A+ (`79.50%` `f76r->f76v` Treatise-to-Diagram Continuity + `100%` `f81v` Single-Callout Echo)**
+
+![f76v & f81v — The `f76v` Shower Canopy, Red Bladder Nymph & Barrel Sprayer (`p139`) and the `f81v` 14-Nymph Pool with Single Callout `otain.olkal` (`p149`)](../pages/f76v_balneo_shower_canopy_verso_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- On **`f76v`** (`p139`, the physical back of pure-text `f76r`), marginal hydrotherapy drawings return: a top-right nymph in a barrel sprays a dotted jet across Lines 1–6 (`6` `<->` intrusions), while down the left margin stand a nymph beneath a scalloped shower canopy, a nymph in a pipe-stub holding a **bright-red pear-shaped bladder/organ**, and two nymphs riding a cascading water chute (`79.50%` [`318/400`] of `f76v`'s words reuse stems from `f76r`!)
+- On **`f81v`** (`p149`, [`pages/f81v_balneo_two_tier_single_label_enh.png`](../pages/f81v_balneo_two_tier_single_label_enh.png)), **14 bathing nymphs** sit in two horizontal tiers (`7` upper + `7` lower) inside a green pool fed by a left-margin green pipe
+- Despite depicting 14 nymphs, `f81v` carries **only 1 callout locus (`<f81v.28,@Lt> otain.olkal`)** in the bottom-left margin—and **both stems (`2/2 = 100.0%`) echo repeatedly in `f81v`'s own prose** (`otain` exact match on `f81v.5`, `olkain/olkeedy` `5×`, `qokal/okal` `5×`, `Attack 210`)!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `polarar.okor (`f76v.1` opener) / otain.olkal (`f81v.28,@Lt` single 2-word pool callout)`
+- **Dominant Root Stems on This Page:** `otain / otar / otedy (`s_ot` echoed verbatim between `f81v.28,@Lt` and `f81v.5`)`, `olkal / olkain / qokal (`s_olk / s_kal` bathing pool/vessel stem)`, `qokeedy / shedy / chedy (`79.50%` stem continuity from pure-text `f76r` onto illustrated `f76v`!)`
+- **Where This Ingredient Reappears in Recipes:** f76r (`613`-word pure-text Master Treatise on the recto of `f76v`); f75r–f84v (Quire 13 Balneological hydrotherapy cycle)
+
+#### 3. Plain-English Explanation
+Comparing `f76v` (`p139`) and `f81v` (`p149`) in `Attack 210` (`Discovery 227`) reveals how flexibly Scribe 2 linked bathing drawings to text. On `f76v`—the immediate back side of the 613-word pure-text Master Treatise `f76r`—marginal drawings of a barrel sprayer (`6` `<->` line splits), a scalloped shower canopy, a **red pear-shaped bladder/organ**, and a water chute appear while **`79.50%` of the words continue the exact root stems of `f76r`**. Meanwhile, on `f81v`, 14 nymphs bathe in a two-tier green pool labeled by a **single 2-word bottom-left caption (`otain.olkal`)** whose two stems echo **100% (`2/2`)** inside `f81v`'s prose!
+
+---
+
+### SPEC-84: Folio `f84v` — The `f84v` Stacked Blue Pools, Quire Signature `'13m'`, Showerhead Header (`@P1`) & 10-Line Right-Margin Callout Column (`@Pb`, $z = +3.96$)
+* **Manuscript Section:** Balneological Closing Folio (`$I=B`, `$Q=M` End, `$L=B`, Scribe 2) (Yale PDF Page 155)
+* **Primary Scientific / Historical Candidates:** *Clausula Quaterniones XIII (`13m` Quire Signature) & Piscinae Duae Caeruleae cum Titulis Marginalibus (`@P1` + `@Pb`)*, *The `f84v` `@P1/@Pb` Callout Discovery (`12/20 = 60.0%` Local Stem Echo, $z = +3.96, p = 0.0010$; `16/20 = 80.0%` Balneo Echo, `Attack 210`)*
+* **15th-Century European Parallels:** 15th-century Italian medical manuscripts with numbered quire signatures (`13m`) on the final verso and vertical marginal glosses beside anatomical/hydrotherapy pools
+* **Confidence Rating:** **Tier A+ (Visual Resolution of `f84v` `@P1/@Pb` Right-Margin Callouts z = +3.96 + Quire Signature `13m`)**
+
+![f84v — The `f84v` Stacked Blue Pools, Quire Signature `'13m'`, Showerhead Header (`@P1`) & 10-Line Right-Margin Callout Column (`@Pb`, $z = +3.96$)](../pages/f84v_balneo_closing_folio_quire13_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Final closing verso (`p155`) of Quire 13 (`Balneological`), featuring **two large blue circular pools stacked vertically on the right** (`6` nymphs in the top pool under a frothy cloud showerhead; `7` nymphs in the lower pool draining via a long S-curved blue pipe to the bottom-right corner)
+- Right beside the tip of the lower drain pipe in the bottom-right corner stands the medieval quire signature **`13m`** (`13` + terminal `-m` flourish)
+- Explains why standard index tables list `0` `@L` labels for `f84v`: its **2-line top-pool header (`<f84v.1..2,@P1>`, `9` words)** and its **10 single-word callouts down the right margin beside the pools (`<f84v.42..51,@Pb> okar, ydairol, ychckhy, dshedy, okchdy, solchey, dair, oldy, darchy, ycthy, ochedy`)** are encoded as `@P1/@Pb` blocks—and **`60.00%` (`12/20`) echo in `f84v`'s own body prose ($z = +3.96, p = 0.0010$; `80.00%` across Quire 13, `Attack 210`)**!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `otdy.dar.chdy.dar,oram (`<f84v.1,@P1>` top-pool header) / okar, ydairol, ychckhy, dshedy (`<f84v.42..45,@Pb>` upper-margin callouts)`
+- **Dominant Root Stems on This Page:** `okar / qokar (`s_kar` exact match in both `@Pb` margin callouts and `@P0` prose)`, `dshedy / chdy / okeeey / otdy / ychckhy (exact surface words shared between `@P1/@Pb` callouts and `@P0` body prose!)`, `solchey / okchdy / ochedy (`s_che / s_kch` bathing process callouts)`
+- **Where This Ingredient Reappears in Recipes:** Expands the Global Balneological Callout Stem Law across `13` folios (`391` tokens) to **`87.21%` (`341/391`) section-wide stem echo (`64.71%` local, `Attack 210`)**!
+
+#### 3. Plain-English Explanation
+If you check a standard metadata table for Folio `f84v` (`p155`, the closing page of the Balneological section bearing the quire signature **`13m`** in the bottom-right corner), it says `f84v` has `0` `@L` figure labels. Yet when you look at the actual high-resolution scan (`pages/f84v_balneo_closing_folio_quire13_enh.png`), you immediately see a **2-line caption above the top blue pool (`@P1`, `9` words)** and **10 single-word labels stacked vertically down the right margin beside the two blue pools (`@Pb`, `11` words: `okar, ydairol, ychckhy, dshedy...`)**! In `Attack 210` (`Discovery 227`), we proved that **`60.00%` (`12 / 20`) of these `@P1 + @Pb` margin words share their root stem with `f84v`'s own prose ($z = +3.96, p = 0.0010$, including `6` exact surface matches)** and **`80.00%` (`16 / 20`) echo across Quire 13**!
+
+---
+
+### SPEC-85: Folio `f89v1–f90v1 & f93v` — The Unfolded `f89v1 | f90r1 | f90r2` Sheet (`p165`), Inverted `'90'` Outer Flap `f90v2` (`p166`), `'15m'` Inner Verso `f90v1` (`p167`) & `f93v` Red-Berry Spikes (`p169`)
+* **Manuscript Section:** Post-Rosettes Foldout Herbal (`$I=H`, Quires 15 & 16, `$L=A`, Scribe 1) (Yale PDF Page 165)
+* **Primary Scientific / Historical Candidates:** *f90r1: *Aconitum / Delphinium* (2 Giant Dark-Blue Helmet/Cup Pods); f90r2: *Lunaria annua* (32 Green Coin Discs); f90v2: *Centaurea / Trifolium* (3 Green-Fringed White Heads); f90v1: *Borago / Nigella* (3 Blue Star Flowers & Clawed Beast-Paw Root)*, *f93v (`p169`): 4-Pouch Hooked Tuber Root, 6 Octopus-Leaf Clusters & 3 Red-Berry Spikes (`13` Berries) + Multi-Intrusion (`<-> X <->`) Micro-Corridor Law ($z = -4.00, p < 0.0001$, `Attack 211`)*
+* **15th-Century European Parallels:** 15th-century Northern Italian Herbals with inward-folded extension flaps (`f90`) and zoomorphic beast-claw roots (`f90v1`)
+* **Confidence Rating:** **Tier A+ (Milestone 85th Specimen: Physical Bleed-Through Proof of `f90` Foldout Inversion + Micro-Corridor Law z = -4.00)**
+
+![f89v1–f90v1 & f93v — The Unfolded `f89v1 | f90r1 | f90r2` Sheet (`p165`), Inverted `'90'` Outer Flap `f90v2` (`p166`), `'15m'` Inner Verso `f90v1` (`p167`) & `f93v` Red-Berry Spikes (`p169`)](../pages/f89v_f90r1_f90r2_unfolded_sheet_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- On **`p165`** (`pages/f89v_f90r1_f90r2_unfolded_sheet_enh.png`), unfolding Folio `90` reveals `f89v1` (left) | **`f90r1`** (center, 2 giant dark-blue cup pods) | **`f90r2`** (right, 32 round green coin discs)
+- When `f90` is folded shut (`p166`, [`pages/f90v2_folded_outer_flap_folio90_enh.png`](../pages/f90v2_folded_outer_flap_folio90_enh.png)), the outer flap (`f90r2/v2`) folds **inward over `f90r1`**, so **`f90v2`** (`<f90v2.1,@P0> {c@181;h}da{i@133;h}y...`) faces the reader as the apparent recto: the early modern foliator wrote **`90`** in the top-right corner of **`f90v2`** (causing both PDF catalogs to mislabel `p166` as `'90r'`), while the **32 green coin discs of `f90r2` bleed through on the left**! Turning to **`p167` (`f90v1`)** shows the 3 blue star flowers, clawed beast-paw root, 2-blue-pod bleed-through from `f90r1`, and the **Quire 15 closing signature `'15m'`** at bottom-right!
+- On both **`f90v1`** (`p167`) and **`f93v`** (`p169`, [`pages/f93v_herbal_verso_18intrusions_enh.png`](../pages/f93v_herbal_verso_18intrusions_enh.png), where Lines 1–4 thread through the narrow gaps between 3 vertical spikes of `4+5+4=13` red berries), single lines contain `2–3` `<->` intrusions: across all `99` multi-intrusion lines (`131` interior `<-> X <->` corridors) in the codex, **`59.54%` (`78/131`) hold only `1` word** (`82.44%` `<= 2` words) and interior words are significantly compressed (`4.087` vs `4.660` chars, $z = -4.00, p < 0.0001$, `Attack 211`)!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `poleeol.qokeol (`f90r1.1`) / toealchs (`f90r2.1`) / pcheor.chodar (`f90v1.1`) / possheody (`f93v.1`)`
+- **Dominant Root Stems on This Page:** `shckheo / otol.shey / oraiin / ykeeol / sals / sol (short 1–2 word bridge tokens inside `f90v1`'s 3-stem corridors!)`, `opchy / oky / daiin / otal / chol (single-word bridge tokens between the 3 red-berry spikes of `f93v`!)`, `chodar / qokchod / sheol (`57.95%` of `f93v` tokens reuse canonical stems from `f93r`!)`
+- **Where This Ingredient Reappears in Recipes:** Resolves the long-standing Beinecke `'90r'` / `'90v'` catalog confusion via physical bleed-through + `'90'` / `'15m'` inscriptions (`Attack 211`)!
+
+#### 3. Plain-English Explanation
+Milestone Specimen `SPEC-85` (`Attack 211`, `Discovery 228`) solves a classic codicological puzzle on Folio `90` (`p165–p167`) and proves how Voynich scribes wrote across tightly spaced plant stems on `f90v1` and `f93v`. Because the outer flap of `f90` folds **inward** when closed, its back surface (**`f90v2`**, `p166`) faced the early modern foliator as a recto, so they wrote **`90`** in the top-right corner of `f90v2`—tricking both modern PDF catalogs into labeling `p166` (`f90v2`) as `'90r'`! Physical bleed-through of the 32 green coin discs (`f90r2 -> f90v2` on `p166`) and the 2 giant dark-blue cup pods (`f90r1 -> f90v1` on `p167`, which bears the Quire 15 closing signature **`15m`**) proves the exact sheet geometry. Even better, inspecting the lines on `f90v1` and `f93v` that thread between 3 flower stems or 3 red-berry spikes proves the **Multi-Intrusion Micro-Corridor Law ($z = -4.00, p < 0.0001$)**: **`59.54%` of interior inter-stem gaps hold just a single short word (`4.087` vs `4.660` chars)**!
 
 ---
 

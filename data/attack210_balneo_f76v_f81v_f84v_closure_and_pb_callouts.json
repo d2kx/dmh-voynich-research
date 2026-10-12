@@ -1,0 +1,538 @@
+{
+  "attack": 210,
+  "discovery": 227,
+  "title": "Balneological Boundary & Single-Label Architecture: f76r<->f76v Leaf Coupling, f81v Single Callout, and f84v Quire 13 Closing @P1/@Pb Callout Column",
+  "f76r_f76v_leaf_coupling": {
+    "f76r_body_words": 569,
+    "f76v_body_words": 400,
+    "f76r_unique_stems": 145,
+    "f76v_unique_stems": 137,
+    "shared_stems_count": 69,
+    "stem_jaccard_pct": 32.39,
+    "f76v_tokens_covered_by_f76r_stems_pct": 79.5,
+    "other_balneo_folio_coverages_of_f76v": [
+      [
+        "f83r",
+        79.0
+      ],
+      [
+        "f80r",
+        76.75
+      ],
+      [
+        "f77r",
+        74.75
+      ],
+      [
+        "f75r",
+        74.25
+      ],
+      [
+        "f82v",
+        74.25
+      ],
+      [
+        "f79r",
+        74.0
+      ],
+      [
+        "f84r",
+        74.0
+      ],
+      [
+        "f78r",
+        73.25
+      ]
+    ],
+    "f76v_top_right_sprayer_intrusion_lines": [
+      {
+        "lnum": "1",
+        "left_count": 8,
+        "right_count": 2,
+        "pre_gap_token": "lkodol",
+        "right_coda_tokens": [
+          "opa",
+          "korols"
+        ]
+      },
+      {
+        "lnum": "2",
+        "left_count": 9,
+        "right_count": 2,
+        "pre_gap_token": "oly",
+        "right_coda_tokens": [
+          "shey",
+          "qoyky"
+        ]
+      },
+      {
+        "lnum": "3",
+        "left_count": 8,
+        "right_count": 2,
+        "pre_gap_token": "ror",
+        "right_coda_tokens": [
+          "oteedy",
+          "okal"
+        ]
+      },
+      {
+        "lnum": "4",
+        "left_count": 9,
+        "right_count": 3,
+        "pre_gap_token": "olor",
+        "right_coda_tokens": [
+          "otchy",
+          "r",
+          "alchl"
+        ]
+      },
+      {
+        "lnum": "5",
+        "left_count": 9,
+        "right_count": 2,
+        "pre_gap_token": "chedy",
+        "right_coda_tokens": [
+          "otedy",
+          "teyteg"
+        ]
+      },
+      {
+        "lnum": "6",
+        "left_count": 8,
+        "right_count": 2,
+        "pre_gap_token": "otar",
+        "right_coda_tokens": [
+          "cheedy",
+          "lchedy"
+        ]
+      }
+    ]
+  },
+  "f81v_single_locus_callout": {
+    "body_word_count": 253,
+    "nymph_count_visual": 14,
+    "lt_label_tokens": [
+      "otain",
+      "olkal"
+    ],
+    "lt_token_analysis": [
+      {
+        "label_token": "otain",
+        "canonical_stem": "ot",
+        "exact_matches_in_f81v_body": 1,
+        "exact_match_lines": [
+          "5"
+        ],
+        "stem_matches_in_f81v_body": 3,
+        "stem_match_examples": [
+          "otain",
+          "otar",
+          "otedy"
+        ]
+      },
+      {
+        "label_token": "olkal",
+        "canonical_stem": "olk",
+        "exact_matches_in_f81v_body": 0,
+        "exact_match_lines": [],
+        "stem_matches_in_f81v_body": 5,
+        "stem_match_examples": [
+          "olkain",
+          "olkeedy"
+        ]
+      }
+    ]
+  },
+  "f84v_closing_folio_callouts": {
+    "quire_signature_visual": "13m (bottom-right corner beside lower blue pool drain pipe)",
+    "p1_top_pool_header_tokens": [
+      "otdy",
+      "dar",
+      "chdy",
+      "dar",
+      "oram",
+      "soiin",
+      "okeeey",
+      "sol",
+      "okaly"
+    ],
+    "pb_right_margin_callout_tokens": [
+      "okar",
+      "ydairol",
+      "ychckhy",
+      "dshedy",
+      "okchdy",
+      "solchey",
+      "dair",
+      "oldy",
+      "darchy",
+      "yy",
+      "ochedy"
+    ],
+    "total_callout_tokens": 20,
+    "exact_matches_in_f84v_body": 7,
+    "exact_match_pct": 35.0,
+    "local_stem_matches_in_f84v_body": 12,
+    "local_stem_match_pct": 60.0,
+    "balneo_section_stem_matches": 16,
+    "balneo_section_stem_match_pct": 80.0,
+    "null_mean_local_matches": 4.52,
+    "z_score_vs_non_balneo_labels": 3.96,
+    "p_value": 0.001,
+    "callout_details": [
+      {
+        "token": "otdy",
+        "zone": "@P1_top_pool_header",
+        "canonical_stem": "ot",
+        "exact_in_f84v_body": false,
+        "stem_in_f84v_body": true,
+        "stem_in_balneo_section": true,
+        "f84v_body_cognates": [
+          "otal",
+          "otedy",
+          "oteedy",
+          "oteey",
+          "otol"
+        ]
+      },
+      {
+        "token": "dar",
+        "zone": "@P1_top_pool_header",
+        "canonical_stem": "da",
+        "exact_in_f84v_body": true,
+        "stem_in_f84v_body": true,
+        "stem_in_balneo_section": true,
+        "f84v_body_cognates": [
+          "dal",
+          "dam",
+          "dar"
+        ]
+      },
+      {
+        "token": "chdy",
+        "zone": "@P1_top_pool_header",
+        "canonical_stem": "ch",
+        "exact_in_f84v_body": true,
+        "stem_in_f84v_body": true,
+        "stem_in_balneo_section": true,
+        "f84v_body_cognates": [
+          "chal",
+          "chdy",
+          "chedy",
+          "cheey",
+          "chey"
+        ]
+      },
+      {
+        "token": "dar",
+        "zone": "@P1_top_pool_header",
+        "canonical_stem": "da",
+        "exact_in_f84v_body": true,
+        "stem_in_f84v_body": true,
+        "stem_in_balneo_section": true,
+        "f84v_body_cognates": [
+          "dal",
+          "dam",
+          "dar"
+        ]
+      },
+      {
+        "token": "oram",
+        "zone": "@P1_top_pool_header",
+        "canonical_stem": "or",
+        "exact_in_f84v_body": false,
+        "stem_in_f84v_body": true,
+        "stem_in_balneo_section": true,
+        "f84v_body_cognates": [
+          "or",
+          "oror"
+        ]
+      },
+      {
+        "token": "soiin",
+        "zone": "@P1_top_pool_header",
+        "canonical_stem": "soi",
+        "exact_in_f84v_body": false,
+        "stem_in_f84v_body": false,
+        "stem_in_balneo_section": true,
+        "f84v_body_cognates": []
+      },
+      {
+        "token": "okeeey",
+        "zone": "@P1_top_pool_header",
+        "canonical_stem": "ok",
+        "exact_in_f84v_body": false,
+        "stem_in_f84v_body": true,
+        "stem_in_balneo_section": true,
+        "f84v_body_cognates": [
+          "okaiin",
+          "okain",
+          "okal",
+          "okar",
+          "okedy",
+          "okeedy",
+          "okey",
+          "okol"
+        ]
+      },
+      {
+        "token": "sol",
+        "zone": "@P1_top_pool_header",
+        "canonical_stem": "so",
+        "exact_in_f84v_body": true,
+        "stem_in_f84v_body": true,
+        "stem_in_balneo_section": true,
+        "f84v_body_cognates": [
+          "sol",
+          "sor"
+        ]
+      },
+      {
+        "token": "okaly",
+        "zone": "@P1_top_pool_header",
+        "canonical_stem": "okal",
+        "exact_in_f84v_body": false,
+        "stem_in_f84v_body": false,
+        "stem_in_balneo_section": true,
+        "f84v_body_cognates": []
+      },
+      {
+        "token": "okar",
+        "zone": "@Pb_right_margin_pool_callout",
+        "canonical_stem": "ok",
+        "exact_in_f84v_body": true,
+        "stem_in_f84v_body": true,
+        "stem_in_balneo_section": true,
+        "f84v_body_cognates": [
+          "okaiin",
+          "okain",
+          "okal",
+          "okar",
+          "okedy",
+          "okeedy",
+          "okey",
+          "okol"
+        ]
+      },
+      {
+        "token": "ydairol",
+        "zone": "@Pb_right_margin_pool_callout",
+        "canonical_stem": "ydair",
+        "exact_in_f84v_body": false,
+        "stem_in_f84v_body": false,
+        "stem_in_balneo_section": false,
+        "f84v_body_cognates": []
+      },
+      {
+        "token": "ychckhy",
+        "zone": "@Pb_right_margin_pool_callout",
+        "canonical_stem": "ychckh",
+        "exact_in_f84v_body": false,
+        "stem_in_f84v_body": false,
+        "stem_in_balneo_section": false,
+        "f84v_body_cognates": []
+      },
+      {
+        "token": "dshedy",
+        "zone": "@Pb_right_margin_pool_callout",
+        "canonical_stem": "dsh",
+        "exact_in_f84v_body": false,
+        "stem_in_f84v_body": true,
+        "stem_in_balneo_section": true,
+        "f84v_body_cognates": [
+          "dsheey",
+          "dshey"
+        ]
+      },
+      {
+        "token": "okchdy",
+        "zone": "@Pb_right_margin_pool_callout",
+        "canonical_stem": "okch",
+        "exact_in_f84v_body": true,
+        "stem_in_f84v_body": true,
+        "stem_in_balneo_section": true,
+        "f84v_body_cognates": [
+          "okchdy"
+        ]
+      },
+      {
+        "token": "solchey",
+        "zone": "@Pb_right_margin_pool_callout",
+        "canonical_stem": "solch",
+        "exact_in_f84v_body": false,
+        "stem_in_f84v_body": false,
+        "stem_in_balneo_section": true,
+        "f84v_body_cognates": []
+      },
+      {
+        "token": "dair",
+        "zone": "@Pb_right_margin_pool_callout",
+        "canonical_stem": "dai",
+        "exact_in_f84v_body": false,
+        "stem_in_f84v_body": true,
+        "stem_in_balneo_section": true,
+        "f84v_body_cognates": [
+          "daiin",
+          "dain"
+        ]
+      },
+      {
+        "token": "oldy",
+        "zone": "@Pb_right_margin_pool_callout",
+        "canonical_stem": "ol",
+        "exact_in_f84v_body": true,
+        "stem_in_f84v_body": true,
+        "stem_in_balneo_section": true,
+        "f84v_body_cognates": [
+          "ol",
+          "oldy",
+          "olol",
+          "ols",
+          "oly",
+          "qol"
+        ]
+      },
+      {
+        "token": "darchy",
+        "zone": "@Pb_right_margin_pool_callout",
+        "canonical_stem": "darch",
+        "exact_in_f84v_body": false,
+        "stem_in_f84v_body": false,
+        "stem_in_balneo_section": false,
+        "f84v_body_cognates": []
+      },
+      {
+        "token": "yy",
+        "zone": "@Pb_right_margin_pool_callout",
+        "canonical_stem": "yy",
+        "exact_in_f84v_body": false,
+        "stem_in_f84v_body": false,
+        "stem_in_balneo_section": false,
+        "f84v_body_cognates": []
+      },
+      {
+        "token": "ochedy",
+        "zone": "@Pb_right_margin_pool_callout",
+        "canonical_stem": "och",
+        "exact_in_f84v_body": false,
+        "stem_in_f84v_body": false,
+        "stem_in_balneo_section": true,
+        "f84v_body_cognates": []
+      }
+    ]
+  },
+  "expanded_balneo_callout_census": {
+    "folios_with_callouts": 13,
+    "total_callout_tokens": 391,
+    "total_local_echo": 253,
+    "total_local_echo_pct": 64.71,
+    "total_section_echo": 341,
+    "total_section_echo_pct": 87.21,
+    "per_folio": [
+      {
+        "folio": "f75r",
+        "callout_count": 10,
+        "local_body_echo_count": 3,
+        "local_body_echo_pct": 30.0,
+        "balneo_section_echo_count": 8,
+        "balneo_section_echo_pct": 80.0
+      },
+      {
+        "folio": "f75v",
+        "callout_count": 101,
+        "local_body_echo_count": 67,
+        "local_body_echo_pct": 66.34,
+        "balneo_section_echo_count": 97,
+        "balneo_section_echo_pct": 96.04
+      },
+      {
+        "folio": "f77r",
+        "callout_count": 10,
+        "local_body_echo_count": 2,
+        "local_body_echo_pct": 20.0,
+        "balneo_section_echo_count": 7,
+        "balneo_section_echo_pct": 70.0
+      },
+      {
+        "folio": "f77v",
+        "callout_count": 11,
+        "local_body_echo_count": 5,
+        "local_body_echo_pct": 45.45,
+        "balneo_section_echo_count": 7,
+        "balneo_section_echo_pct": 63.64
+      },
+      {
+        "folio": "f78r",
+        "callout_count": 8,
+        "local_body_echo_count": 1,
+        "local_body_echo_pct": 12.5,
+        "balneo_section_echo_count": 3,
+        "balneo_section_echo_pct": 37.5
+      },
+      {
+        "folio": "f80r",
+        "callout_count": 2,
+        "local_body_echo_count": 0,
+        "local_body_echo_pct": 0.0,
+        "balneo_section_echo_count": 0,
+        "balneo_section_echo_pct": 0.0
+      },
+      {
+        "folio": "f81v",
+        "callout_count": 2,
+        "local_body_echo_count": 2,
+        "local_body_echo_pct": 100.0,
+        "balneo_section_echo_count": 2,
+        "balneo_section_echo_pct": 100.0
+      },
+      {
+        "folio": "f82r",
+        "callout_count": 7,
+        "local_body_echo_count": 2,
+        "local_body_echo_pct": 28.57,
+        "balneo_section_echo_count": 4,
+        "balneo_section_echo_pct": 57.14
+      },
+      {
+        "folio": "f82v",
+        "callout_count": 12,
+        "local_body_echo_count": 4,
+        "local_body_echo_pct": 33.33,
+        "balneo_section_echo_count": 9,
+        "balneo_section_echo_pct": 75.0
+      },
+      {
+        "folio": "f83r",
+        "callout_count": 126,
+        "local_body_echo_count": 94,
+        "local_body_echo_pct": 74.6,
+        "balneo_section_echo_count": 112,
+        "balneo_section_echo_pct": 88.89
+      },
+      {
+        "folio": "f83v",
+        "callout_count": 4,
+        "local_body_echo_count": 2,
+        "local_body_echo_pct": 50.0,
+        "balneo_section_echo_count": 3,
+        "balneo_section_echo_pct": 75.0
+      },
+      {
+        "folio": "f84r",
+        "callout_count": 78,
+        "local_body_echo_count": 59,
+        "local_body_echo_pct": 75.64,
+        "balneo_section_echo_count": 73,
+        "balneo_section_echo_pct": 93.59
+      },
+      {
+        "folio": "f84v",
+        "callout_count": 20,
+        "local_body_echo_count": 12,
+        "local_body_echo_pct": 60.0,
+        "balneo_section_echo_count": 16,
+        "balneo_section_echo_pct": 80.0
+      }
+    ]
+  }
+}

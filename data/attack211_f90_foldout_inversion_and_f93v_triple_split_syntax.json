@@ -1,0 +1,614 @@
+{
+  "attack": 211,
+  "discovery": 228,
+  "title": "The f90 (Quire 15) Foldout Inversion & Beinecke '90r' Mislabel Proof (p165-p167), f93r<->f93v Leaf Coupling, and the Multi-Intrusion (<-> X <->) Inter-Stem Micro-Corridor Law",
+  "f90_foldout_inversion_proof": {
+    "p165_unfolded_recto_panels": [
+      "f89v1 (left: 2 jars + 8 roots)",
+      "f90r1 (middle: 2 giant dark-blue drooping cup pods)",
+      "f90r2 (right: 32 round green coin discs)"
+    ],
+    "p166_folded_outer_flap": {
+      "true_folio_id": "f90v2",
+      "beinecke_catalog_label": "90r (mislabeled because the early modern foliator wrote '90' in the top-right corner of f90v2 while the outer flap was folded inward!)",
+      "first_line_eva": "<%>{c@181;h}da{i@133;h}y.qocfhey.opolraiin.ofchedal.s?<->shese.shodaiin.shea[s:r]",
+      "bleed_through_proof": "Left half of p166 (f90v2) shows the mirror-image bleed-through of the 32 round green coin discs painted on its physical recto f90r2."
+    },
+    "p167_inner_verso_panel": {
+      "true_folio_id": "f90v1",
+      "quire_signature_visual": "15m (written in bottom-right corner of f90v1, proving f90v1 is the physical outer closing verso of Quire 15!)",
+      "first_line_eva": "<%>pcheor.chodar.oleees.chepy.shol<->shckheo<->otol.shey<->cheo,r.cheokeey",
+      "bleed_through_proof": "Upper-left and middle-right of p167 (f90v1) show the mirror-image bleed-through of the 2 giant dark-blue cup pods painted on its physical recto f90r1."
+    },
+    "panel_stats": {
+      "f89v1": {
+        "word_count": 154,
+        "unique_stems": 91,
+        "intrusions": 0,
+        "line_count": 24
+      },
+      "f90r1": {
+        "word_count": 69,
+        "unique_stems": 58,
+        "intrusions": 1,
+        "line_count": 9
+      },
+      "f90r2": {
+        "word_count": 47,
+        "unique_stems": 34,
+        "intrusions": 5,
+        "line_count": 6
+      },
+      "f90v2": {
+        "word_count": 68,
+        "unique_stems": 45,
+        "intrusions": 6,
+        "line_count": 8
+      },
+      "f90v1": {
+        "word_count": 96,
+        "unique_stems": 63,
+        "intrusions": 20,
+        "line_count": 11
+      }
+    },
+    "pairwise_stem_sharing": [
+      {
+        "pair": "f90r1<->f90r2",
+        "physical_relationship": "Unfolded recto side-by-side panels (p165)",
+        "shared_stems_count": 10,
+        "jaccard_pct": 12.2,
+        "shared_stems": [
+          "ch",
+          "cho",
+          "ckh",
+          "dai",
+          "keo",
+          "ko",
+          "ok",
+          "ol",
+          "s",
+          "yke"
+        ]
+      },
+      {
+        "pair": "f90r1<->f90v2",
+        "physical_relationship": "Diagonal foldout pair",
+        "shared_stems_count": 18,
+        "jaccard_pct": 21.18,
+        "shared_stems": [
+          "ch",
+          "cho",
+          "chod",
+          "da",
+          "dai",
+          "kch",
+          "kcha",
+          "ke",
+          "keo",
+          "ok",
+          "ol",
+          "ot",
+          "s",
+          "she",
+          "tch",
+          "to",
+          "yk",
+          "yke"
+        ]
+      },
+      {
+        "pair": "f90r1<->f90v1",
+        "physical_relationship": "True recto-verso of inner panel (2 blue cup pods <-> 3 blue star flowers + '15m')",
+        "shared_stems_count": 20,
+        "jaccard_pct": 19.8,
+        "shared_stems": [
+          "ch",
+          "chockh",
+          "chod",
+          "ckh",
+          "cth",
+          "dai",
+          "dch",
+          "ke",
+          "keo",
+          "ko",
+          "ky",
+          "ok",
+          "ol",
+          "ot",
+          "r",
+          "s",
+          "she",
+          "shok",
+          "yke",
+          "yt"
+        ]
+      },
+      {
+        "pair": "f90r2<->f90v2",
+        "physical_relationship": "True recto-verso of outer foldout flap (32 green coin discs <-> 3 green-fringed flowers + foliator '90')",
+        "shared_stems_count": 13,
+        "jaccard_pct": 19.7,
+        "shared_stems": [
+          "ar",
+          "ch",
+          "cho",
+          "dai",
+          "eo",
+          "keo",
+          "oi",
+          "ok",
+          "ol",
+          "s",
+          "sai",
+          "sheo",
+          "yke"
+        ]
+      },
+      {
+        "pair": "f90r2<->f90v1",
+        "physical_relationship": "Diagonal foldout pair",
+        "shared_stems_count": 12,
+        "jaccard_pct": 14.12,
+        "shared_stems": [
+          "ch",
+          "cheo",
+          "ckh",
+          "dai",
+          "keo",
+          "ko",
+          "ok",
+          "ol",
+          "ro",
+          "s",
+          "te",
+          "yke"
+        ]
+      },
+      {
+        "pair": "f90v2<->f90v1",
+        "physical_relationship": "Verso panels (p166 + p167)",
+        "shared_stems_count": 16,
+        "jaccard_pct": 17.39,
+        "shared_stems": [
+          "ch",
+          "che",
+          "chod",
+          "dai",
+          "ke",
+          "keo",
+          "ok",
+          "oke",
+          "ol",
+          "ot",
+          "ote",
+          "s",
+          "sh",
+          "she",
+          "y",
+          "yke"
+        ]
+      }
+    ]
+  },
+  "f93r_f93v_leaf_coupling": {
+    "f93r_word_count": 152,
+    "f93v_word_count": 88,
+    "f93v_intrusions": 18,
+    "shared_stems_count": 23,
+    "shared_stems": [
+      "ch",
+      "che",
+      "cheod",
+      "ckh",
+      "ckhe",
+      "cth",
+      "ctho",
+      "da",
+      "dai",
+      "kch",
+      "ke",
+      "ok",
+      "ol",
+      "ot",
+      "s",
+      "sa",
+      "sh",
+      "she",
+      "shod",
+      "so",
+      "tch",
+      "te",
+      "ych"
+    ],
+    "f93v_tokens_covered_by_f93r_stems_pct": 57.95,
+    "f93v_multi_intrusion_lines": [
+      {
+        "folio": "f93v",
+        "lnum": "1",
+        "intrusion_count": 2,
+        "segment_count": 3,
+        "segments": [
+          [
+            "possheody",
+            "qoteeo",
+            "qoshocphy",
+            "opchody",
+            "opor"
+          ],
+          [
+            "opchy"
+          ],
+          [
+            "otchdal",
+            "or",
+            "shodaiin"
+          ]
+        ],
+        "interior_tokens": [
+          "opchy"
+        ]
+      },
+      {
+        "folio": "f93v",
+        "lnum": "2",
+        "intrusion_count": 3,
+        "segment_count": 4,
+        "segments": [
+          [
+            "yteeody",
+            "qotody",
+            "qotchol",
+            "qocthody",
+            "ytey"
+          ],
+          [
+            "oky"
+          ],
+          [
+            "daiin"
+          ],
+          [
+            "dar",
+            "cthog"
+          ]
+        ],
+        "interior_tokens": [
+          "oky",
+          "daiin"
+        ]
+      },
+      {
+        "folio": "f93v",
+        "lnum": "3",
+        "intrusion_count": 3,
+        "segment_count": 4,
+        "segments": [
+          [
+            "dchos",
+            "chody",
+            "qockhol",
+            "oky",
+            "cheodaiin",
+            "oty"
+          ],
+          [
+            "daiin"
+          ],
+          [
+            "otal"
+          ],
+          [
+            "dair",
+            "okol"
+          ]
+        ],
+        "interior_tokens": [
+          "daiin",
+          "otal"
+        ]
+      },
+      {
+        "folio": "f93v",
+        "lnum": "4",
+        "intrusion_count": 3,
+        "segment_count": 4,
+        "segments": [
+          [
+            "sol",
+            "shol",
+            "shdchy",
+            "qokchol",
+            "qokchody",
+            "chol"
+          ],
+          [
+            "chol"
+          ],
+          [],
+          [
+            "ykchy",
+            "dar"
+          ]
+        ],
+        "interior_tokens": [
+          "chol"
+        ]
+      },
+      {
+        "folio": "f93v",
+        "lnum": "9",
+        "intrusion_count": 3,
+        "segment_count": 4,
+        "segments": [
+          [
+            "odeeeodl",
+            "cheodar",
+            "oksho",
+            "chody",
+            "okchey",
+            "cthol",
+            "oly"
+          ],
+          [
+            "ytchol"
+          ],
+          [
+            "sar"
+          ],
+          [
+            "dar"
+          ]
+        ],
+        "interior_tokens": [
+          "ytchol",
+          "sar"
+        ]
+      }
+    ]
+  },
+  "multi_intrusion_micro_corridor_law": {
+    "total_multi_intrusion_lines_codex": 99,
+    "total_interior_corridors": 131,
+    "single_token_corridor_count": 78,
+    "single_token_corridor_pct": 59.54,
+    "two_or_fewer_token_corridor_pct": 82.44,
+    "mean_tokens_per_interior_corridor": 1.66,
+    "mean_tokens_per_outer_segment": 3.67,
+    "mean_char_length_interior_tokens": 4.087,
+    "mean_char_length_outer_tokens": 4.66,
+    "z_score_char_compression": -4.0,
+    "p_value_char_compression": 0.0,
+    "top_multi_intrusion_folios": [
+      [
+        "f26r",
+        8
+      ],
+      [
+        "f33v",
+        8
+      ],
+      [
+        "f29v",
+        7
+      ],
+      [
+        "f90v1",
+        6
+      ],
+      [
+        "f2r",
+        5
+      ],
+      [
+        "f93v",
+        5
+      ],
+      [
+        "f13v",
+        4
+      ],
+      [
+        "f34r",
+        4
+      ],
+      [
+        "f36r",
+        4
+      ],
+      [
+        "f48v",
+        4
+      ],
+      [
+        "f9v",
+        3
+      ],
+      [
+        "f42v",
+        3
+      ]
+    ],
+    "f90v1_multi_intrusion_lines": [
+      {
+        "folio": "f90v1",
+        "lnum": "1",
+        "intrusion_count": 3,
+        "segment_count": 4,
+        "segments": [
+          [
+            "pcheor",
+            "chodar",
+            "oleees",
+            "chepy",
+            "shol"
+          ],
+          [
+            "shckheo"
+          ],
+          [
+            "otol",
+            "shey"
+          ],
+          [
+            "cheo",
+            "r",
+            "cheokeey"
+          ]
+        ],
+        "interior_tokens": [
+          "shckheo",
+          "otol",
+          "shey"
+        ]
+      },
+      {
+        "folio": "f90v1",
+        "lnum": "2",
+        "intrusion_count": 3,
+        "segment_count": 4,
+        "segments": [
+          [
+            "tshor",
+            "olsheod",
+            "qodaiin",
+            "qokeor",
+            "sy"
+          ],
+          [
+            "oraiin"
+          ],
+          [
+            "ykeeol"
+          ],
+          [
+            "octheody",
+            "y"
+          ]
+        ],
+        "interior_tokens": [
+          "oraiin",
+          "ykeeol"
+        ]
+      },
+      {
+        "folio": "f90v1",
+        "lnum": "3",
+        "intrusion_count": 3,
+        "segment_count": 4,
+        "segments": [
+          [
+            "daiin",
+            "shody",
+            "cfheos",
+            "qockhy",
+            "chol",
+            "ol"
+          ],
+          [
+            "sals"
+          ],
+          [
+            "sol"
+          ],
+          [
+            "yteey",
+            "or",
+            "cheey",
+            "tey"
+          ]
+        ],
+        "interior_tokens": [
+          "sals",
+          "sol"
+        ]
+      },
+      {
+        "folio": "f90v1",
+        "lnum": "4",
+        "intrusion_count": 3,
+        "segment_count": 4,
+        "segments": [
+          [
+            "kos",
+            "sheor",
+            "chockhor",
+            "qekeody",
+            "cheody"
+          ],
+          [
+            "sy"
+          ],
+          [
+            "s"
+          ],
+          [
+            "olcheey",
+            "y",
+            "qoky"
+          ]
+        ],
+        "interior_tokens": [
+          "sy",
+          "s"
+        ]
+      },
+      {
+        "folio": "f90v1",
+        "lnum": "5",
+        "intrusion_count": 3,
+        "segment_count": 4,
+        "segments": [
+          [
+            "dcheey",
+            "keey",
+            "keeey",
+            "cthey",
+            "yty"
+          ],
+          [
+            "okeeody"
+          ],
+          [
+            "sy"
+          ],
+          [
+            "olcheey",
+            "sh",
+            "qokeys"
+          ]
+        ],
+        "interior_tokens": [
+          "okeeody",
+          "sy"
+        ]
+      },
+      {
+        "folio": "f90v1",
+        "lnum": "7",
+        "intrusion_count": 2,
+        "segment_count": 3,
+        "segments": [
+          [
+            "ksheodal",
+            "sheody",
+            "qocheoto"
+          ],
+          [
+            "shokol",
+            "qokeshs"
+          ],
+          [
+            "yteody",
+            "podaey"
+          ]
+        ],
+        "interior_tokens": [
+          "shokol",
+          "qokeshs"
+        ]
+      }
+    ]
+  }
+}

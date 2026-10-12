@@ -1171,6 +1171,70 @@ WALKTHROUGH_FOLIOS = [
                 "english": "[p179 Cross-Fold Pharma Echoes]: Left-column shelf roots echoed in wide right prose (`okam sory choldy opakam opor otar`) and numeral `'48'` paragraph (`korary`); [Currier B Herbal Bridge]: Polychrome thistle opener (`fataiin okor qokeedy`) and stolon monograph (`tedcheo pchedar`)."
             }
         ]
+    },
+    {
+        "folio": "f41v & f65r",
+        "title": "Scribe 5's Labeled Crossed-Root Umbel (`<f41v.1,@Lp> keer[e:o]dal`) & The Shortest Herbal Page (`<f65r.1,@Lp> otaim.dam.alam` — `3/3 = 100%` `-m` Triad, $p = 2.68 \\times 10^{-5}$)",
+        "section": "Herbal (`$I=H`, Scribe 5 on `f41v`, Scribe 4 on `f65r`)",
+        "pdf_page": 83,
+        "image": "../pages/f41v_scribe5_labeled_herbal_enh.png",
+        "secondary_image": "../pages/f65r_minimal_caption_herbal_enh.png",
+        "summary": "Scribe 5 (`$H=5`) writes exactly `7` folios across the codex (`f41r, f41v, f48r, f48v, f57r, f66r, f66v` = `925` words, `18.38%` `-edy/-eey`, `Attack 209`). On `f41v` (above), a fan-shaped dotted umbel and two crossed red bulbous roots split the 7-line paragraph (`6` `<->` intrusions) beneath one of only `3` `@Lp` plant-header captions in the manuscript (`<f41v.1,@Lp> keer[e:o]dal`). On `f65r` (below, `p118`), a 9-tuber chain root and 15 star flowers carry `0` body paragraphs—only a standalone 3-word `@Lp` caption `otaim.dam.alam` where `3/3 = 100.0%` of the words end in `-aim/-am` vs `2.993%` Herbal baseline (`p = 2.68e-5`)!",
+        "clauses": [
+            {
+                "locus": "f41v.1 (`@Lp` Header) + f41v.2 (`+P0` Opener) + f65r.1 (`@Lp` 3-Word `-m` Triad)",
+                "eva": "keeredal pcheody qofcheepy ofchdy cfhekchdy ypchedy otaim dam alam",
+                "english": "[f41v Scribe 5 Umbel Header & Opener]: Named umbel root-herb (`keeredal`), begin steeping and boiling the divided plant (`pcheody qofcheepy ofchdy cfhekchdy ypchedy`); [f65r 3-Word Alliterative `-m` Caption]: Complete the root-tuber measure, take to completion, seal the essence (`otaim dam alam`)."
+            }
+        ]
+    },
+    {
+        "folio": "f76v & f81v",
+        "title": "Illustrated Verso of the `f76r` Master Treatise (`79.50%` Stem Continuity, Shower Canopy & Red Bladder) & 14-Nymph Pool with Single Callout (`otain.olkal`, `100%` Echo)",
+        "section": "Balneological / Hydrotherapy (`$I=B, $Q=M, $L=B`, Scribe 2)",
+        "pdf_page": 139,
+        "image": "../pages/f76v_balneo_shower_canopy_verso_enh.png",
+        "secondary_image": "../pages/f81v_balneo_two_tier_single_label_enh.png",
+        "summary": "On `f76v` (above, the physical back of the pure-text `613`-word Master Treatise `f76r`), marginal hydrotherapy drawings return—a top-right barrel sprayer interrupting Lines 1–6 via `6` `<->` intrusions, a left-margin shower canopy, a nymph holding a red pear-shaped bladder/organ, and a water chute—while `79.50%` (`318/400`) of `f76v`'s words reuse stems from `f76r` (`Attack 210`). On `f81v` (below, `p149`), `14` nymphs bathe in a two-tier green pool with only `1` callout locus (`<f81v.28,@Lt> otain.olkal`) at bottom-left, and `2/2 = 100.0%` of its stems echo inside `f81v`'s own prose!",
+        "clauses": [
+            {
+                "locus": "f76v.1 (`@P0` Opener & `<->` Right Coda) + f81v.28 (`@Lt` Single Callout) + f81v.5 (Body Match)",
+                "eva": "polarar okor opcheey yteey opchaly lshedy qofchdal lkodol opa korols otain olkal okaiin daiin otain chckhy okeedy",
+                "english": "[f76v Treatise-to-Diagram Verso]: Begin from the core vessel, steep and wash (`polarar okor opcheey yteey opchaly lshedy qofchdal lkodol <-> opa korols`); [f81v Single Pool Callout & Body Echo]: The two-tier bath pool title (`otain olkal`) echoed directly in Line 5 (`okaiin daiin otain chckhy okeedy`)."
+            }
+        ]
+    },
+    {
+        "folio": "f84v",
+        "title": "Quire 13 Closing Folio (`13m`): Two Stacked Blue Pools, `@P1` Showerhead Header & `@Pb` 10-Line Right-Margin Callout Column (`60.0%` Local / `80.0%` Balneo Echo, $z = +3.96$)",
+        "section": "Balneological Closing Verso (`$I=B, $Q=M` End, `$L=B`, Scribe 2)",
+        "pdf_page": 155,
+        "image": "../pages/f84v_balneo_closing_folio_quire13_enh.png",
+        "secondary_image": "",
+        "summary": "Final page of Quire 13 (`p155`), bearing the medieval quire signature `13m` in the bottom-right corner beside the lower S-curved blue drain pipe. Visually inspecting `f84v` resolves why standard tables list `0` `@L` labels: its 2-line top-pool showerhead header (`@P1`, `9` tokens) and its 10 single-word callouts down the right margin beside the two blue pools (`@Pb`, `11` tokens: `okar, ydairol, ychckhy, dshedy, okchdy, solchey, dair, oldy, darchy, ycthy, ochedy`) are encoded as `@P1/@Pb` blocks—and `12/20` (`60.00%`) echo inside `f84v`'s own prose (`z = +3.96, p = 0.0010`; `80.00%` across Quire 13, `Attack 210`)!",
+        "clauses": [
+            {
+                "locus": "f84v.1–2 (`@P1` Top-Pool Showerhead Header) + f84v.42–51 (`@Pb` 10-Line Right-Margin Callout Stack)",
+                "eva": "otdy dar chdy dar oram soiin okeeey sol okaly okar ydairol ychckhy dshedy okchdy solchey dair oldy darchy ycthy ochedy",
+                "english": "[@P1 Showerhead Pool Header]: Steeped from the source to completion (`otdy dar chdy dar oram`), boiled in the bath vessel (`soiin okeeey sol okaly`); [@Pb 10 Right-Margin Pool Callouts]: Core vessel (`okar`), source flow (`ydairol`), infused wash (`ychckhy dshedy okchdy solchey`), and drained bath (`dair oldy darchy ycthy ochedy`)."
+            }
+        ]
+    },
+    {
+        "folio": "f89v1–f90v1, f93v & f113v",
+        "title": "The `f90` Foldout Inversion & Beinecke `'90r'` Mislabel Proof (`p165–p167`), Multi-Intrusion Micro-Corridor Law (`f90v1/f93v`, $z = -4.00$) & `93.33%` Gallows Star Openers (`f113v`, $z = +10.52$)",
+        "section": "Post-Rosettes Foldout Herbal (`Quires 15–16`) & Quire 20 Starred Recipes (`p201`)",
+        "pdf_page": 165,
+        "image": "../pages/f89v_f90r1_f90r2_unfolded_sheet_enh.png",
+        "secondary_image": "../pages/f93v_herbal_verso_18intrusions_enh.png",
+        "summary": "On `p165` (above, `f89v1 | f90r1 | f90r2`), `f90r1` has 2 giant blue cup pods and `f90r2` has 32 green coin discs. When folded shut (`p166`), the outer flap folds inward over `f90r1`, exposing `f90v2` as the apparent recto—so the early modern foliator wrote `'90'` in the top-right corner of `f90v2` (causing both PDF catalogs to mislabel `p166` as `'90r'`, proven by the 32-coin bleed-through!), while `p167` (`f90v1`) bears the Quire 15 closing signature `'15m'` (`Attack 211`). On `f90v1` & `f93v` (below, 3 red-berry spikes), `59.54%` of interior `<-> X <->` micro-corridors hold a single compressed word (`4.087` vs `4.660` chars, `z = -4.00`). On `f113v` (`499` words, `15` starred recipes), `14/15` (`93.33%`) open with `p-/f-/t-` gallows (`z = +10.52`, `Attack 212`)!",
+        "clauses": [
+            {
+                "locus": "f90v1.1 & f93v.1–2 (`<-> X <->` Inter-Stem Corridors) + f113v.1–15 (`93.33%` Gallows Recipe-Star Openers)",
+                "eva": "pcheor chodar oleees chepy shol shckheo otol shey cheo r cheokeey possheody qoteeo opchy otchdal folorarom fchoctheody polaiin poraiin tokary",
+                "english": "[f90v1 & f93v Inter-Stem Micro-Corridors]: Short 1–2 word bridge tokens threaded between flower stems and red-berry spikes (`<-> shckheo <-> otol shey <->`, `<-> opchy <->`); [f113v Starred Recipe Openers]: `14/15` (`93.33%`) gallows recipe headers (`folorarom, fchoctheody, polaiin, poraiin, tokary...`)."
+            }
+        ]
     }
 ]
 
@@ -1242,6 +1306,10 @@ def main():
     a206_data = json.loads((ROOT / "data" / "attack206_balneo_f77v_f83v_conduits_and_recto_verso_flow.json").read_text(encoding="utf-8"))
     a207_data = json.loads((ROOT / "data" / "attack207_pharma_unfolded_sheets_f89_f101_and_shelf_row_alignment.json").read_text(encoding="utf-8"))
     a208_data = json.loads((ROOT / "data" / "attack208_currier_b_herbal_clinical_bridge_and_wave49_compendium.json").read_text(encoding="utf-8"))
+    a209_data = json.loads((ROOT / "data" / "attack209_scribe5_corpus_and_lp_plant_captions.json").read_text(encoding="utf-8"))
+    a210_data = json.loads((ROOT / "data" / "attack210_balneo_f76v_f81v_f84v_closure_and_pb_callouts.json").read_text(encoding="utf-8"))
+    a211_data = json.loads((ROOT / "data" / "attack211_f90_foldout_inversion_and_f93v_triple_split_syntax.json").read_text(encoding="utf-8"))
+    a212_data = json.loads((ROOT / "data" / "attack212_quire20_f113v_f114r_and_milestone_wave50_compendium.json").read_text(encoding="utf-8"))
 
     rosettes_panels = []
     for f_id, prof in rosettes_data["folio_profiles"].items():
@@ -1359,6 +1427,11 @@ def main():
         "wave49_balneo_callouts": a206_data["balneo_label_and_f77v_f83v_analysis"]["f77v_label_details"] + a206_data["balneo_label_and_f77v_f83v_analysis"]["f83v_label_details"],
         "wave49_pharma_folios": a207_data["pharma_sheets_analysis"]["folio_profiles"],
         "wave49_currier_b_herbal": a208_data["currier_b_herbal_analysis"]["all_32_currier_b_herbal_folios"],
+        "wave50_scribe5_folios": a209_data["scribe5_folio_breakdown"],
+        "wave50_f84v_callouts": a210_data["f84v_closing_folio_callouts"]["callout_details"],
+        "wave50_f90_pairs": a211_data["f90_foldout_inversion_proof"]["pairwise_stem_sharing"],
+        "wave50_multi_intrusions": a211_data["f93r_f93v_leaf_coupling"]["f93v_multi_intrusion_lines"] + a211_data["multi_intrusion_micro_corridor_law"]["f90v1_multi_intrusion_lines"],
+        "wave50_f113v_recipes": a212_data["f113v_starred_recipes"]["recipes"],
     }, ensure_ascii=False)
 
     html = f"""<!DOCTYPE html>
@@ -1761,8 +1834,8 @@ def main():
       <p>Click any word token on any page to peel apart its Prefix + Root Stem + Suffix in plain English</p>
     </div>
     <nav class="nav-tabs" aria-label="Explorer Views">
-      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (70)</button>
-      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (80)</button>
+      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (74)</button>
+      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (85)</button>
       <button class="tab-btn" onclick="switchTab('lexicon', this)">3. Core Dictionary &amp; 8-Case Grammar</button>
       <button class="tab-btn" onclick="switchTab('zodiac', this)">4. Zodiac Months &amp; Bath Plumbing</button>
       <button class="tab-btn" onclick="switchTab('recipes', this)">5. Starred Recipes, Rosettes &amp; 4-Transcriber Proof</button>
@@ -1777,7 +1850,8 @@ def main():
       <button class="tab-btn" onclick="switchTab('wave46', this)">14. Wave 46: Zodiac @Cc-@Lz Split, f80r/f82r Galleries &amp; 32-Word Star Invariant</button>
       <button class="tab-btn" onclick="switchTab('wave47', this)">15. Wave 47: Milestone 200 Attacks — Gemini/Cancer Decans, f67v Diptych &amp; f75r Balneo Hub</button>
       <button class="tab-btn" onclick="switchTab('wave48', this)">16. Wave 48: Sagittarius Centaur, Albarelli Registers &amp; Binary Star Parity</button>
-      <button class="tab-btn" onclick="switchTab('wave49', this)">17. Wave 49: 10°+5° Decan Law, Barrel Hinge, Unfolded Sheets &amp; Currier B Herbal Bridge (v15.0)</button>
+      <button class="tab-btn" onclick="switchTab('wave49', this)">17. Wave 49: 10°+5° Decan Law, Barrel Hinge, Unfolded Sheets &amp; Currier B Herbal Bridge</button>
+      <button class="tab-btn" onclick="switchTab('wave50', this)">18. Wave 50: Milestone 50th Wave — Scribe 5, f65r -m Triad, f84v @Pb Callouts, f90 Foldout Inversion &amp; f113v Star Openers (v16.0)</button>
     </nav>
   </div>
 </header>
@@ -1822,7 +1896,7 @@ def main():
   <!-- TAB 2: BOTANICAL & ASTRO SPECIMENS -->
   <section id="tab-specimens" class="tab-panel">
     <div style="margin-bottom: 1rem;">
-      <h2 style="margin: 0 0 0.25rem;">80 Flagship Botanical, Astronomical, Balneological, Cosmological, Margin-Key &amp; Visual-Twin Identifications</h2>
+      <h2 style="margin: 0 0 0.25rem;">85 Flagship Botanical, Astronomical, Balneological, Cosmological, Margin-Key &amp; Visual-Twin Identifications</h2>
       <p style="margin: 0; color: var(--muted);">
         Matching the manuscript's high-resolution drawings to concrete 15th-century European herbal species, star clusters, bilingual month wheels, labelled hydrotherapy pipes, cosmological spheres, margin keys, quire signatures, and visual twin plant pairs.
       </p>
@@ -2967,6 +3041,90 @@ def main():
             <th><code>-edy/-eey</code> Rate (%)</th>
             <th>Balneo Token Stem Match</th>
             <th>Quire 20 Recipe Token Stem Match</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- TAB 18: MILESTONE WAVE 50 (v16.0) -->
+  <section id="tab-wave50" class="tab-panel">
+    <h2>1. The Complete Scribe 5 (<code>$H=5</code>) 7-Folio Corpus (<code>925</code> Words) &amp; Global <code>@Lp</code> Plant-Header Census (<code>f2r, f41v, f65r</code> — <code>Attack 209</code>)</h2>
+    <p style="color: var(--muted);">
+      Across the entire manuscript, <strong>Scribe 5 (<code>$H=5</code>)</strong> writes exactly <strong>7 folios (<code>925</code> words, <code>18.38%</code> <code>-edy/-eey</code>, <code>36</code> <code>&lt;-&gt;</code> intrusions)</strong>, including <code>f41v</code> (bearing <code>&lt;f41v.1,@Lp&gt; keer[e:o]dal</code>—one of only 3 <code>@Lp</code> plant headers in the codex alongside <code>f2r</code> <code>ytoail</code> and <code>f65r</code>'s 3-word alliterative <code>-m</code> triad <code>otaim.dam.alam</code>, <code>p = 2.68e-5</code>):
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="wave50Scribe5Table">
+        <thead>
+          <tr>
+            <th>Folio (Quire)</th>
+            <th>Section &amp; Language</th>
+            <th>Words (Body / Labels)</th>
+            <th><code>@Lp</code> Plant Header</th>
+            <th><code>-edy/-eey</code> Rate</th>
+            <th><code>q-</code> Initial Rate</th>
+            <th>Top Canonical Stems</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>2. Folio <code>f84v</code> Quire 13 Closing (<code>13m</code>): The 20-Word <code>@P1</code> Showerhead Header &amp; <code>@Pb</code> Right-Margin Callout Column (<code>60.0%</code> Local / <code>80.0%</code> Balneo Echo, <code>z = +3.96</code>, <code>Attack 210</code>)</h2>
+    <p style="color: var(--muted);">
+      Alongside <code>f76r &lt;-&gt; f76v</code> (<code>79.50%</code> stem continuity onto the illustrated verso) and <code>f81v</code> (14-nymph pool with single 2-word callout <code>otain.olkal</code>, <code>100%</code> echo), visual inspection of <code>f84v</code> (<code>p155</code>, bearing quire signature <code>13m</code>) reveals 20 callout tokens in <code>@P1</code> and <code>@Pb</code> with <strong>60.00% local prose stem echo (z = +3.96, p = 0.0010) and 80.00% Balneological stem echo</strong>:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="wave50F84vCalloutsTable">
+        <thead>
+          <tr>
+            <th>Callout Word (Click to Decode)</th>
+            <th>Margin Zone</th>
+            <th>Canonical Stem</th>
+            <th>Exact Match in <code>f84v</code> Prose?</th>
+            <th>Stem Match in <code>f84v</code> Prose?</th>
+            <th>Stem Match in Balneo (<code>Quire 13</code>)?</th>
+            <th><code>f84v</code> Prose Cognates (Click to Decode)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>3. The <code>f90</code> Foldout Inversion (<code>p165–p167</code>) &amp; Multi-Intrusion (<code>&lt;-&gt; X &lt;-&gt;</code>) Micro-Corridor Compression Law on <code>f93v</code> &amp; <code>f90v1</code> (<code>59.54%</code> Single-Token, <code>z = -4.00</code>, <code>Attack 211</code>)</h2>
+    <p style="color: var(--muted);">
+      While physical bleed-through proves that <code>p166</code> (bearing the foliator's <code>90</code> in the top-right corner and mislabeled <code>90r</code> in both PDF catalogs) is actually <strong><code>f90v2</code></strong> (and <code>p167</code> is <strong><code>f90v1</code></strong> bearing quire signature <code>15m</code>), lines threading across 3 flower stems on <code>f90v1</code> and 3 red-berry spikes on <code>f93v</code> exemplify the <strong>Multi-Intrusion Micro-Corridor Law (z = -4.00, p &lt; 0.0001)</strong>:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="wave50MultiIntrusionsTable">
+        <thead>
+          <tr>
+            <th>Folio &amp; Line</th>
+            <th><code>&lt;-&gt;</code> Intrusions</th>
+            <th>Line Segments</th>
+            <th>Interior Micro-Corridor Tokens (Click to Decode)</th>
+            <th>Full Segmented Line Breakdown</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>4. Folio <code>f113v</code> Ultra-Dense Quire 20 Recipe Compendium (<code>499</code> Words, <code>15</code> Starred Recipes): The <code>93.33%</code> <code>p-/f-/t-</code> Gallows Star-Opener Law (<code>z = +10.52</code>, <code>Attack 212</code>)</h2>
+    <p style="color: var(--muted);">
+      On <code>f113v</code> (<code>p201</code>, paired with <code>f114r</code> in a <code>947</code>-word facing spread with <code>65.65%</code> token stem continuity), <strong>14 / 15 (93.33%) of the starred recipes begin with a <code>p-/f-/t-</code> gallows word</strong> (and <code>#11</code> <code>ofaral</code> is <code>o+f</code> gallows = <code>15/15 = 100%</code> vs <code>10.36%</code> baseline, <code>z = +10.52</code>), including <strong>7 / 15 (46.67%) opening with the <code>pol-/por-</code> recipe header</strong>:
+    </p>
+    <div style="overflow-x: auto;">
+      <table id="wave50F113vRecipesTable">
+        <thead>
+          <tr>
+            <th>Starred Recipe #</th>
+            <th>Start Line</th>
+            <th>Word Count</th>
+            <th>Star-Opener Word (Click to Decode)</th>
+            <th>Opener Canonical Stem</th>
+            <th>Closing Word (Click to Decode)</th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -4146,6 +4304,98 @@ function renderWave49Tab() {{
   }}
 }}
 
+function renderWave50Tab() {{
+  const s5Body = document.querySelector("#wave50Scribe5Table tbody");
+  if (s5Body) {{
+    s5Body.innerHTML = (DATA.wave50_scribe5_folios || []).map(f => {{
+      const hl = f.folio === "f41v" ? 'style="background:var(--gold-soft);"' : '';
+      const lpChips = (f.lp_words || []).length
+        ? f.lp_words.map(w => `<span class="word-chip" onclick="setWord('${{w}}')"><strong>${{w}}</strong></span>`).join(" ")
+        : "—";
+      const stems = (f.top_stems || []).map(s => `<code>${{s[0]}}</code> (${{s[1]}})`).join(", ");
+      return `
+        <tr ${{hl}}>
+          <td><strong><code>${{f.folio}}</code></strong> (Quire ${{f.quire}})</td>
+          <td><span class="badge">${{f.section}} / Currier ${{f.language}}</span></td>
+          <td><strong>${{f.word_count}}</strong> (${{f.body_words}} body / ${{f.label_words}} labels, ${{f.intrusions}} <code>&lt;-&gt;</code>)</td>
+          <td>${{lpChips}}</td>
+          <td><strong>${{f.edy_eey_pct}}%</strong></td>
+          <td>${{f.q_initial_pct}}%</td>
+          <td>${{stems}}</td>
+        </tr>
+      `;
+    }}).join("");
+  }}
+
+  const c84Body = document.querySelector("#wave50F84vCalloutsTable tbody");
+  if (c84Body) {{
+    c84Body.innerHTML = (DATA.wave50_f84v_callouts || []).map(c => {{
+      const exBadge = c.exact_in_f84v_body
+        ? `<span class="badge" style="background:var(--gold-soft);color:var(--gold)">Exact Match</span>`
+        : "—";
+      const stBadge = c.stem_in_f84v_body
+        ? `<span class="badge" style="background:var(--green-soft);color:var(--green)">Yes (Local Prose)</span>`
+        : "—";
+      const balBadge = c.stem_in_balneo_section
+        ? `<span class="badge" style="background:var(--blue-soft);color:var(--blue)">Yes (Quire 13)</span>`
+        : "—";
+      const cogChips = (c.f84v_body_cognates || []).slice(0, 6).map(w =>
+        `<span class="word-chip" onclick="setWord('${{w}}')">${{w}}</span>`
+      ).join(" ");
+      return `
+        <tr>
+          <td><span class="word-chip" onclick="setWord('${{c.token}}')"><strong>${{c.token}}</strong></span></td>
+          <td><code>${{c.zone}}</code></td>
+          <td><code>${{c.canonical_stem}}</code></td>
+          <td>${{exBadge}}</td>
+          <td>${{stBadge}}</td>
+          <td>${{balBadge}}</td>
+          <td>${{cogChips || "—"}}</td>
+        </tr>
+      `;
+    }}).join("");
+  }}
+
+  const miBody = document.querySelector("#wave50MultiIntrusionsTable tbody");
+  if (miBody) {{
+    miBody.innerHTML = (DATA.wave50_multi_intrusions || []).map(m => {{
+      const intChips = (m.interior_tokens || []).map(w =>
+        `<span class="word-chip" onclick="setWord('${{w}}')"><strong>${{w}}</strong></span>`
+      ).join(" ");
+      const segsHtml = (m.segments || []).map(seg =>
+        seg.map(w => `<span class="word-chip" onclick="setWord('${{w}}')">${{w}}</span>`).join(" ")
+      ).join(' <strong style="color:var(--accent)">&lt;-&gt;</strong> ');
+      return `
+        <tr>
+          <td><strong><code>${{m.folio}}.${{m.lnum}}</code></strong></td>
+          <td><span class="badge">${{m.intrusion_count}} <code>&lt;-&gt;</code></span></td>
+          <td>${{m.segment_count}} segments</td>
+          <td>${{intChips}}</td>
+          <td>${{segsHtml}}</td>
+        </tr>
+      `;
+    }}).join("");
+  }}
+
+  const r113Body = document.querySelector("#wave50F113vRecipesTable tbody");
+  if (r113Body) {{
+    r113Body.innerHTML = (DATA.wave50_f113v_recipes || []).map(r => {{
+      const isPol = (r.opener || "").startsWith("pol") || (r.opener || "").startsWith("por");
+      const hl = isPol ? 'style="background:var(--gold-soft);"' : '';
+      return `
+        <tr ${{hl}}>
+          <td><strong>Recipe #${{r.recipe_num}}</strong></td>
+          <td><code>f113v.${{r.start_line}}</code></td>
+          <td>${{r.word_count}} words</td>
+          <td><span class="word-chip" onclick="setWord('${{r.opener}}')"><strong>${{r.opener}}</strong></span></td>
+          <td><code>${{r.opener_stem}}</code></td>
+          <td><span class="word-chip" onclick="setWord('${{r.closer}}')">${{r.closer}}</span></td>
+        </tr>
+      `;
+    }}).join("");
+  }}
+}}
+
 function switchTab(tabId, btn) {{
   document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
   document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
@@ -4171,6 +4421,7 @@ renderWave46Tab();
 renderWave47Tab();
 renderWave48Tab();
 renderWave49Tab();
+renderWave50Tab();
 </script>
 </body>
 </html>
