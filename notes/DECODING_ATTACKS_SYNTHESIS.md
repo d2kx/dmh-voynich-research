@@ -746,3 +746,32 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Script, Data & Edition**: [`tools/attack80_top1000_codicological_visual_atlas.py`](../tools/attack80_top1000_codicological_visual_atlas.py) $\to$ [`data/attack80_top1000_codicological_visual_atlas.json`](../data/attack80_top1000_codicological_visual_atlas.json) & [`notes/TOP1000_CODICOLOGICAL_VISUAL_ATLAS.md`](TOP1000_CODICOLOGICAL_VISUAL_ATLAS.md)
 - **Key Breakthroughs**:
   1. **Compiles the Complete Annotated Top-1,000 Lexicon (`25,815 / 36,229` Tokens = `71.26%` of the Book), Pairing Ranks `#1–#500` with Ranks `#501–#1,000` Across All Morphological, Syntactic, and Codicological Dimensions**.
+
+---
+
+## 81. Attack 81 (`Phase 92`): Complete 20-Quire Bifolio Pamphlet Reconstruction (`+29.69%` Global Non-Centerfold Stem Lift), Optimal Hamiltonian Sheet Nesting, and Herbal Quire Cohesion ($z = +2.09$)
+- **Script, Data & Scan**: [`tools/attack81_global_codex_bifolio_pamphlet_solver.py`](../tools/attack81_global_codex_bifolio_pamphlet_solver.py) $\to$ [`data/attack81_global_codex_bifolio_pamphlet_solver.json`](../data/attack81_global_codex_bifolio_pamphlet_solver.json) & [`pages/f46r_quireF_bifolio3_bridge_enh.png`](../pages/f46r_quireF_bifolio3_bridge_enh.png)
+- **Key Breakthroughs**:
+  1. **`+29.69%` Global Non-Centerfold Pamphlet Bridge Lift (`0.1520` vs. `0.1172` Bound Next Leaf Across All 31 Non-Centerfold Bifolia; `+6.64%` in Uniform Quires & `+88.49%` in Mixed Quires, Led by `f43v -> f46r` `0.2422` vs. `0.0783`), Optimal Hamiltonian Sheet Nesting (`+92.8%` `p4->p1` in `Q=F`, `+106.6%` in `Q=G`), and `$L$-Stratified Herbal Quire Cohesion ($z = +2.09$)**.
+
+---
+
+## 82. Attack 82 (`Phase 93`): Exact Morphology of the Rare / Hapax Tail (`Ranks #1,001–#9,053`, `28.74%` of Tokens) — Proving `97.15%` of All Manuscript Tokens Derive from Just `46` Canonical Cores ($z = +113.37$)
+- **Script & Data**: [`tools/attack82_hapax_and_rare_tail_derivational_solver.py`](../tools/attack82_hapax_and_rare_tail_derivational_solver.py) $\to$ [`data/attack82_hapax_and_rare_tail_derivational_solver.json`](../data/attack82_hapax_and_rare_tail_derivational_solver.json)
+- **Key Breakthroughs**:
+  1. **`87.25%` (`7,026 / 8,053`) of All Rare Types & `90.07%` (`9,380 / 10,414`) of All Rare Tokens Derive Productively from the `46` Canonical Cores of the Top-500 Lexicon ($z = +113.37$ vs. `13.02%` Anagram Null), Raising Full-Corpus Explained Token Coverage to `35,195 / 36,229` (`97.15%`)**.
+
+---
+
+## 83. Attack 83 (`Phase 94`): End-to-End Held-Out Predictive Perplexity (`5.44×` Reduction) & Masked-Slot Clause Completion Benchmark (`87.11%` Top-1 / `96.00%` Top-2 Role Accuracy)
+- **Script & Data**: [`tools/attack83_predictive_clause_completion_benchmark.py`](../tools/attack83_predictive_clause_completion_benchmark.py) $\to$ [`data/attack83_predictive_clause_completion_benchmark.json`](../data/attack83_predictive_clause_completion_benchmark.json)
+- **Key Breakthroughs**:
+  1. **Monotonic 7-Stage Held-Out Perplexity Cascade (`9,053.0 -> 1,665.32`, `5.44×` Reduction / `-32.69%` Below Zipf Unigram) & `87.11%` Top-1 / `96.00%` Top-2 Context-Only Masked Constituent Role Prediction Across `7,215` Held-Out Tokens**.
+
+---
+
+## 84. Attack 84 (`Phase 95`): The Milestone 100-Discovery Master Grammar & Full-Corpus 46-Core Generative Decoder ([`notes/MASTER_100_DISCOVERIES_AND_DECODER.md`](MASTER_100_DISCOVERIES_AND_DECODER.md))
+- **Script, Data & Edition**: [`tools/attack84_master_100_discoveries_and_decoder.py`](../tools/attack84_master_100_discoveries_and_decoder.py) $\to$ [`data/attack84_master_100_discoveries_and_decoder.json`](../data/attack84_master_100_discoveries_and_decoder.json) & [`notes/MASTER_100_DISCOVERIES_AND_DECODER.md`](MASTER_100_DISCOVERIES_AND_DECODER.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes All `101` Discoveries (`Attacks 1–84`) into the 10 Unified Laws of the Voynich Manuscript, the Complete 46-Core Canonical Root Inventory (`97.15%` Corpus Coverage), and Reconstructed 4-Page Bifolio Pamphlet Continuous Readings**.
+

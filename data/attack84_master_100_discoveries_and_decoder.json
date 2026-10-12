@@ -1,0 +1,620 @@
+{
+  "milestone_summary": {
+    "total_attacks_completed": 84,
+    "total_discoveries_logged": 101,
+    "total_corpus_tokens": 36229,
+    "total_corpus_types": 9053,
+    "canonical_top500_cores": 46,
+    "full_corpus_derivational_token_coverage_pct": 97.15,
+    "held_out_perplexity_reduction_factor": 5.44,
+    "held_out_constituent_role_top2_acc_pct": 96.0
+  },
+  "canonical_46_cores": [
+    {
+      "rank": 1,
+      "canonical_core": "e",
+      "surface_variants": "e, ee",
+      "top500_types": 91,
+      "top500_tokens": 5810,
+      "full_corpus_types": 422,
+      "full_corpus_tokens": 6634,
+      "exemplars": "chedy(450), shedy(381), qokeedy(304), qokeey(302), chey(297)"
+    },
+    {
+      "rank": 2,
+      "canonical_core": "a",
+      "surface_variants": "a",
+      "top500_types": 73,
+      "top500_tokens": 4367,
+      "full_corpus_types": 244,
+      "full_corpus_tokens": 4845,
+      "exemplars": "aiin(321), qokain(278), ar(274), qokaiin(263), okaiin(212)"
+    },
+    {
+      "rank": 3,
+      "canonical_core": "o",
+      "surface_variants": "o",
+      "top500_types": 41,
+      "top500_tokens": 2015,
+      "full_corpus_types": 213,
+      "full_corpus_tokens": 2450,
+      "exemplars": "chol(336), chor(196), shol(173), sho(104), qokol(91)"
+    },
+    {
+      "rank": 4,
+      "canonical_core": "ch",
+      "surface_variants": "ch, sh",
+      "top500_types": 60,
+      "top500_tokens": 1375,
+      "full_corpus_types": 450,
+      "full_corpus_tokens": 2337,
+      "exemplars": "lchedy(110), qokchdy(51), opchedy(47), olchedy(45), lchey(42)"
+    },
+    {
+      "rank": 5,
+      "canonical_core": "i",
+      "surface_variants": "i",
+      "top500_types": 13,
+      "top500_tokens": 1440,
+      "full_corpus_types": 83,
+      "full_corpus_tokens": 1576,
+      "exemplars": "daiin(790), dain(195), saiin(149), dair(91), sain(67)"
+    },
+    {
+      "rank": 6,
+      "canonical_core": "l",
+      "surface_variants": "l",
+      "top500_types": 14,
+      "top500_tokens": 1094,
+      "full_corpus_types": 122,
+      "full_corpus_tokens": 1314,
+      "exemplars": "ol(392), dal(188), qol(109), dol(91), l(58)"
+    },
+    {
+      "rank": 7,
+      "canonical_core": "y",
+      "surface_variants": "y",
+      "top500_types": 17,
+      "top500_tokens": 1174,
+      "full_corpus_types": 71,
+      "full_corpus_tokens": 1300,
+      "exemplars": "dy(182), chy(154), qoky(136), y(122), oty(111)"
+    },
+    {
+      "rank": 8,
+      "canonical_core": "r",
+      "surface_variants": "r",
+      "top500_types": 12,
+      "top500_tokens": 932,
+      "full_corpus_types": 85,
+      "full_corpus_tokens": 1082,
+      "exemplars": "or(280), dar(277), r(88), sar(67), dor(59)"
+    },
+    {
+      "rank": 9,
+      "canonical_core": "k",
+      "surface_variants": "k",
+      "top500_types": 34,
+      "top500_tokens": 779,
+      "full_corpus_types": 175,
+      "full_corpus_tokens": 1070,
+      "exemplars": "lkaiin(43), kaiin(42), kar(41), lkeey(39), olkeey(39)"
+    },
+    {
+      "rank": 10,
+      "canonical_core": "d",
+      "surface_variants": "d",
+      "top500_types": 19,
+      "top500_tokens": 579,
+      "full_corpus_types": 142,
+      "full_corpus_tokens": 892,
+      "exemplars": "chdy(133), odaiin(61), shdy(44), qodaiin(43), d(38)"
+    },
+    {
+      "rank": 11,
+      "canonical_core": "s",
+      "surface_variants": "s",
+      "top500_types": 6,
+      "top500_tokens": 289,
+      "full_corpus_types": 81,
+      "full_corpus_tokens": 448,
+      "exemplars": "s(214), os(22), ols(20), chs(12), okshy(11)"
+    },
+    {
+      "rank": 12,
+      "canonical_core": "cth",
+      "surface_variants": "cth, cph",
+      "top500_types": 10,
+      "top500_tokens": 237,
+      "full_corpus_types": 100,
+      "full_corpus_tokens": 448,
+      "exemplars": "cthol(54), cthey(47), cthor(42), cthody(16), cthar(15)"
+    },
+    {
+      "rank": 13,
+      "canonical_core": "t",
+      "surface_variants": "t",
+      "top500_types": 10,
+      "top500_tokens": 211,
+      "full_corpus_types": 105,
+      "full_corpus_tokens": 428,
+      "exemplars": "taiin(34), tol(33), tedy(33), tar(30), tor(17)"
+    },
+    {
+      "rank": 14,
+      "canonical_core": "ed",
+      "surface_variants": "ed",
+      "top500_types": 8,
+      "top500_tokens": 160,
+      "full_corpus_types": 111,
+      "full_corpus_tokens": 386,
+      "exemplars": "chedaiin(36), chedar(28), chedal(27), chedain(18), shedaiin(14)"
+    },
+    {
+      "rank": 15,
+      "canonical_core": "tch",
+      "surface_variants": "tch, pch",
+      "top500_types": 8,
+      "top500_tokens": 147,
+      "full_corpus_types": 95,
+      "full_corpus_tokens": 350,
+      "exemplars": "tchedy(32), pchedy(30), tchey(19), tchor(16), tchol(14)"
+    },
+    {
+      "rank": 16,
+      "canonical_core": "c",
+      "surface_variants": "c",
+      "top500_types": 10,
+      "top500_tokens": 300,
+      "full_corpus_types": 25,
+      "full_corpus_tokens": 344,
+      "exemplars": "qokchy(64), qotchy(62), otchy(44), okchy(31), dchy(26)"
+    },
+    {
+      "rank": 17,
+      "canonical_core": "ke",
+      "surface_variants": "ke, kee",
+      "top500_types": 6,
+      "top500_tokens": 158,
+      "full_corpus_types": 80,
+      "full_corpus_tokens": 312,
+      "exemplars": "olkeedy(45), lkeedy(39), keedy(35), keody(18), olkeeey(11)"
+    },
+    {
+      "rank": 18,
+      "canonical_core": "ckh",
+      "surface_variants": "ckh",
+      "top500_types": 7,
+      "top500_tokens": 130,
+      "full_corpus_types": 89,
+      "full_corpus_tokens": 304,
+      "exemplars": "chckhey(30), ckhey(27), ckhol(20), qockhey(18), chckhdy(13)"
+    },
+    {
+      "rank": 19,
+      "canonical_core": "eo",
+      "surface_variants": "eo, eeo",
+      "top500_types": 6,
+      "top500_tokens": 101,
+      "full_corpus_types": 104,
+      "full_corpus_tokens": 303,
+      "exemplars": "cheos(34), oteos(22), sheos(12), oteeos(12), okeos(11)"
+    },
+    {
+      "rank": 20,
+      "canonical_core": "kch",
+      "surface_variants": "kch",
+      "top500_types": 6,
+      "top500_tokens": 103,
+      "full_corpus_types": 95,
+      "full_corpus_tokens": 280,
+      "exemplars": "kchol(20), kchey(19), kchor(18), kchdy(17), lkchedy(16)"
+    },
+    {
+      "rank": 21,
+      "canonical_core": "ck",
+      "surface_variants": "ck",
+      "top500_types": 5,
+      "top500_tokens": 251,
+      "full_corpus_types": 14,
+      "full_corpus_tokens": 268,
+      "exemplars": "chckhy(133), shckhy(57), ckhy(31), qockhy(18), ockhy(12)"
+    },
+    {
+      "rank": 22,
+      "canonical_core": "ct",
+      "surface_variants": "ct, cp",
+      "top500_types": 5,
+      "top500_tokens": 231,
+      "full_corpus_types": 14,
+      "full_corpus_tokens": 260,
+      "exemplars": "cthy(99), chcthy(78), shcthy(32), cphy(12), chcphy(10)"
+    },
+    {
+      "rank": 23,
+      "canonical_core": "ek",
+      "surface_variants": "ek",
+      "top500_types": 3,
+      "top500_tokens": 32,
+      "full_corpus_types": 79,
+      "full_corpus_tokens": 195,
+      "exemplars": "chekal(12), chekaiin(10), chekar(10)"
+    },
+    {
+      "rank": 24,
+      "canonical_core": "od",
+      "surface_variants": "od",
+      "top500_types": 3,
+      "top500_tokens": 82,
+      "full_corpus_types": 49,
+      "full_corpus_tokens": 176,
+      "exemplars": "chodaiin(45), shodaiin(25), chodar(12)"
+    },
+    {
+      "rank": 25,
+      "canonical_core": "al",
+      "surface_variants": "al",
+      "top500_types": 2,
+      "top500_tokens": 23,
+      "full_corpus_types": 90,
+      "full_corpus_tokens": 165,
+      "exemplars": "okaldy(13), qokaldy(10)"
+    },
+    {
+      "rank": 26,
+      "canonical_core": "ok",
+      "surface_variants": "ok",
+      "top500_types": 3,
+      "top500_tokens": 39,
+      "full_corpus_types": 53,
+      "full_corpus_tokens": 150,
+      "exemplars": "chokaiin(16), chokeey(12), chokain(11)"
+    },
+    {
+      "rank": 27,
+      "canonical_core": "ol",
+      "surface_variants": "ol",
+      "top500_types": 2,
+      "top500_tokens": 22,
+      "full_corpus_types": 64,
+      "full_corpus_tokens": 148,
+      "exemplars": "choldy(12), otoldy(10)"
+    },
+    {
+      "rank": 28,
+      "canonical_core": "ai",
+      "surface_variants": "ai",
+      "top500_types": 2,
+      "top500_tokens": 55,
+      "full_corpus_types": 55,
+      "full_corpus_tokens": 146,
+      "exemplars": "aiiin(36), aiir(19)"
+    },
+    {
+      "rank": 29,
+      "canonical_core": "eod",
+      "surface_variants": "eod",
+      "top500_types": 2,
+      "top500_tokens": 26,
+      "full_corpus_types": 64,
+      "full_corpus_tokens": 145,
+      "exemplars": "cheodaiin(15), oteodaiin(11)"
+    },
+    {
+      "rank": 30,
+      "canonical_core": "m",
+      "surface_variants": "m",
+      "top500_types": 3,
+      "top500_tokens": 99,
+      "full_corpus_types": 15,
+      "full_corpus_tokens": 128,
+      "exemplars": "dam(74), om(14), sam(11)"
+    },
+    {
+      "rank": 31,
+      "canonical_core": "eck",
+      "surface_variants": "eck",
+      "top500_types": 2,
+      "top500_tokens": 78,
+      "full_corpus_types": 7,
+      "full_corpus_tokens": 85,
+      "exemplars": "checkhy(47), sheckhy(31)"
+    },
+    {
+      "rank": 32,
+      "canonical_core": "te",
+      "surface_variants": "te",
+      "top500_types": 1,
+      "top500_tokens": 13,
+      "full_corpus_types": 25,
+      "full_corpus_tokens": 60,
+      "exemplars": "teedy(13)"
+    },
+    {
+      "rank": 33,
+      "canonical_core": "ect",
+      "surface_variants": "ect",
+      "top500_types": 2,
+      "top500_tokens": 46,
+      "full_corpus_types": 5,
+      "full_corpus_tokens": 51,
+      "exemplars": "checthy(27), shecthy(19)"
+    },
+    {
+      "rank": 34,
+      "canonical_core": "ec",
+      "surface_variants": "ec",
+      "top500_types": 1,
+      "top500_tokens": 13,
+      "full_corpus_types": 13,
+      "full_corpus_tokens": 42,
+      "exemplars": "qokechy(13)"
+    },
+    {
+      "rank": 35,
+      "canonical_core": "tc",
+      "surface_variants": "tc",
+      "top500_types": 1,
+      "top500_tokens": 19,
+      "full_corpus_types": 10,
+      "full_corpus_tokens": 41,
+      "exemplars": "tchy(19)"
+    },
+    {
+      "rank": 36,
+      "canonical_core": "tched",
+      "surface_variants": "pched",
+      "top500_types": 1,
+      "top500_tokens": 11,
+      "full_corpus_types": 20,
+      "full_corpus_tokens": 41,
+      "exemplars": "pchedar(11)"
+    },
+    {
+      "rank": 37,
+      "canonical_core": "kc",
+      "surface_variants": "kc",
+      "top500_types": 1,
+      "top500_tokens": 21,
+      "full_corpus_types": 8,
+      "full_corpus_tokens": 38,
+      "exemplars": "kchy(21)"
+    },
+    {
+      "rank": 38,
+      "canonical_core": "ock",
+      "surface_variants": "ock",
+      "top500_types": 1,
+      "top500_tokens": 24,
+      "full_corpus_types": 8,
+      "full_corpus_tokens": 37,
+      "exemplars": "chockhy(24)"
+    },
+    {
+      "rank": 39,
+      "canonical_core": "oct",
+      "surface_variants": "oct",
+      "top500_types": 2,
+      "top500_tokens": 32,
+      "full_corpus_types": 3,
+      "full_corpus_tokens": 35,
+      "exemplars": "chocthy(19), shocthy(13)"
+    },
+    {
+      "rank": 40,
+      "canonical_core": "ta",
+      "surface_variants": "ta",
+      "top500_types": 1,
+      "top500_tokens": 12,
+      "full_corpus_types": 16,
+      "full_corpus_tokens": 34,
+      "exemplars": "tair(12)"
+    },
+    {
+      "rank": 41,
+      "canonical_core": "eckh",
+      "surface_variants": "eckh",
+      "top500_types": 1,
+      "top500_tokens": 11,
+      "full_corpus_types": 13,
+      "full_corpus_tokens": 32,
+      "exemplars": "checkhey(11)"
+    },
+    {
+      "rank": 42,
+      "canonical_core": "okc",
+      "surface_variants": "okc",
+      "top500_types": 1,
+      "top500_tokens": 15,
+      "full_corpus_types": 5,
+      "full_corpus_tokens": 26,
+      "exemplars": "chokchy(15)"
+    },
+    {
+      "rank": 43,
+      "canonical_core": "n",
+      "surface_variants": "n",
+      "top500_types": 1,
+      "top500_tokens": 13,
+      "full_corpus_types": 8,
+      "full_corpus_tokens": 22,
+      "exemplars": "dan(13)"
+    },
+    {
+      "rank": 44,
+      "canonical_core": "otc",
+      "surface_variants": "otc",
+      "top500_types": 1,
+      "top500_tokens": 11,
+      "full_corpus_types": 4,
+      "full_corpus_tokens": 19,
+      "exemplars": "chotchy(11)"
+    },
+    {
+      "rank": 45,
+      "canonical_core": "v",
+      "surface_variants": "v",
+      "top500_types": 1,
+      "top500_tokens": 11,
+      "full_corpus_types": 4,
+      "full_corpus_tokens": 14,
+      "exemplars": "v(11)"
+    },
+    {
+      "rank": 46,
+      "canonical_core": "h",
+      "surface_variants": "h",
+      "top500_types": 1,
+      "top500_tokens": 12,
+      "full_corpus_types": 2,
+      "full_corpus_tokens": 13,
+      "exemplars": "sh(12)"
+    }
+  ],
+  "pamphlet_bridge_readings": [
+    {
+      "left_v": "f43v",
+      "left_v_meta": {
+        "Q": "F",
+        "B": "3",
+        "I": "H",
+        "L": "B",
+        "H": "2"
+      },
+      "right_r": "f46r",
+      "right_r_meta": {
+        "Q": "F",
+        "B": "3",
+        "I": "H",
+        "L": "B",
+        "H": "2"
+      },
+      "bound_next_r": "f44r",
+      "bound_next_meta": {
+        "Q": "F",
+        "B": "4",
+        "I": "H",
+        "L": "A",
+        "H": "1"
+      },
+      "left_v_tail": [
+        {
+          "loc": "<f43v.14>",
+          "eva": "dykeedain . chedy . okeedy . chedal . olkey . cheky . choalchedy . oteorom",
+          "gloss": "ABL:yked.MEAS.1I | BENCH:e.DONE | OK:e.CONT.DONE | BENCH:ed.FIN.L | APPL:k.STAT.E | BENCH:e.KY | BENCH:oalch.CONT.DONE | OT:eor.OM"
+        },
+        {
+          "loc": "<f43v.15>",
+          "eva": "oteod . qolkeey . kaldy . chy . darody . qokeey . kol . dary . taros",
+          "gloss": "OT:eo.D | APPL.ACT:k.STAT.2E | STEM:kal.DONE | BENCH:y.0 | PART(darody) | ACT.K:e.STAT.E | STEM:k.LIQ.L | PART(dary) | STEM:taro.S"
+        },
+        {
+          "loc": "<f43v.16>",
+          "eva": "ol . eees . aiin . oloaiin . oteos . qoky . chey",
+          "gloss": "THE/LIQ(ol) | PART(eees) | ONE/UNIT(aiin) | PART(oloaiin) | OT:eo.S | ACT.K:y.0 | BENCH:e.STAT"
+        }
+      ],
+      "right_r_head": [
+        {
+          "loc": "<f46r.1>",
+          "eva": "pcheocphy . qotedy . chety . dy . chepchx . yfcheky . osaiin . shee . qoteol . daiin . shee . dy . daly",
+          "gloss": "STEM:tcheoct.HY | ACT.T:e.DONE | BENCH:e.TY | PART(dy) | BENCH:etchx.0 | AND:kche.KY | PART(osaiin) | COR.BENCH:e.0 | ACT.T:e.LIQ.L | FROM/TAKE.1x(daiin) | COR.BENCH:e.0 | PART(dy) | PART(daly)"
+        },
+        {
+          "loc": "<f46r.2>",
+          "eva": "sodaiin . sheeoly . qoor . sheoteoly . chckhy . daiin . shek . sheet . shedy . xor . aiin . sheckhy",
+          "gloss": "PART(sodaiin) | COR.BENCH:eo.LY | PART(qoor) | COR.BENCH:eoteo.LY | BENCH:ck.HY | FROM/TAKE.1x(daiin) | COR.BENCH:ek.0 | COR.BENCH:et.0 | COR.BENCH:e.DONE | PART(xor) | ONE/UNIT(aiin) | COR.BENCH:eck.HY"
+        },
+        {
+          "loc": "<f46r.3>",
+          "eva": "daiin . shor . ykal . chey . daiin . she . dalshedy . qokol . s . aiin . shee . ykar . daiin",
+          "gloss": "FROM/TAKE.1x(daiin) | COR.BENCH:o.R | YK:a.L | BENCH:e.STAT | FROM/TAKE.1x(daiin) | COR.BENCH:e.0 | DA:lch.CONT.DONE | ACT.K:o.L | PART(s) | ONE/UNIT(aiin) | COR.BENCH:e.0 | YK:a.R | FROM/TAKE.1x(daiin)"
+        }
+      ],
+      "bound_next_head": [
+        {
+          "loc": "<f44r.1>",
+          "eva": "tshodpy . oray . koees . ypsholy . shy . otoloaiin",
+          "gloss": "STEM:tchod.PY | PART(oray) | STEM:koe.S | AND:tcho.LY | COR.BENCH:y.0 | OT:olo.MEAS.2I"
+        },
+        {
+          "loc": "<f44r.2>",
+          "eva": "ydsh . dyeees . yty . oky . okchey . qykchey . dchydy",
+          "gloss": "AND:dch.0 | PART(dyeees) | YT:y.0 | OK:y.0 | OK:ch.STAT.E | Q:ykch.STAT.E | ABL:chy.DONE"
+        }
+      ]
+    },
+    {
+      "left_v": "f34v",
+      "left_v_meta": {
+        "Q": "E",
+        "B": "2",
+        "I": "H",
+        "L": "B",
+        "H": "2"
+      },
+      "right_r": "f39r",
+      "right_r_meta": {
+        "Q": "E",
+        "B": "2",
+        "I": "H",
+        "L": "B",
+        "H": "2"
+      },
+      "bound_next_r": "f35r",
+      "bound_next_meta": {
+        "Q": "E",
+        "B": "3",
+        "I": "H",
+        "L": "A",
+        "H": "1"
+      },
+      "left_v_tail": [
+        {
+          "loc": "<f34v.9>",
+          "eva": "lsheody . cphy . qokeey . keedy . kchdy . chedy . qokedy . chdy . kalshs . oldaiin",
+          "gloss": "L:che.RND.DONE | STEM:ct.HY | ACT.K:e.STAT.E | STEM:ke.CONT.DONE | STEM:kch.DONE | BENCH:e.DONE | ACT.K:e.DONE | BENCH:d.STAT | STEM:kalch.S | PART(oldaiin)"
+        },
+        {
+          "loc": "<f34v.10>",
+          "eva": "daiin . chdy . tedy . kchdy . okeedy . checkhy . chdy . kain . chear . or . okedy . okam",
+          "gloss": "FROM/TAKE.1x(daiin) | BENCH:d.STAT | STEM:t.CONT.DONE | STEM:kch.DONE | OK:e.CONT.DONE | BENCH:eck.HY | BENCH:d.STAT | STEM:k.MEAS.1I | BENCH:e.HEAT.R | AND/PART(or) | OK:e.DONE | OK:a.END"
+        },
+        {
+          "loc": "<f34v.11>",
+          "eva": "yshos . ody . s . aiin . okey . okalshedy",
+          "gloss": "AND:cho.S | PART(ody) | PART(s) | ONE/UNIT(aiin) | OK:e.STAT | OK:alch.CONT.DONE"
+        }
+      ],
+      "right_r_head": [
+        {
+          "loc": "<f39r.1>",
+          "eva": "tedochshd . cphhofy . chdain . shey . fshydy . orain . cheepaiin . ofy . shey . kaly . dy",
+          "gloss": "STEM:tedochch.D | STEM:cthho.FY | BENCH:d.MEAS.1I | COR.BENCH:e.STAT | STEM:kchy.DONE | PART(orain) | BENCH:et.MEAS.2I | OF:y.0 | COR.BENCH:e.STAT | STEM:ka.LY | PART(dy)"
+        },
+        {
+          "loc": "<f39r.2>",
+          "eva": "olchey . cheky . qokedy . shekshey . qolain . chy . chdy . dair . shckhey . dold",
+          "gloss": "APPL:ch.STAT.E | BENCH:e.KY | ACT.K:e.DONE | COR.BENCH:ekch.STAT.E | PART(qolain) | BENCH:y.0 | BENCH:d.STAT | PART(dair) | COR.BENCH:ckh.STAT.E | PART(dold)"
+        },
+        {
+          "loc": "<f39r.3>",
+          "eva": "qokalchdy . chekaiin . checkhy . darshed . qokeedar . eeedy . dar . ar . cheey . dyckhy",
+          "gloss": "ACT.K:alch.DONE | BENCH:ek.MEAS.2I | BENCH:eck.HY | DA:rche.D | ACT.K:ed.HEAT.R | PART(eeedy) | AND/PART(dar) | AND/PART(ar) | BENCH:e.STAT.E | ABL:yck.HY"
+        }
+      ],
+      "bound_next_head": [
+        {
+          "loc": "<f35r.1>",
+          "eva": "oo . rcholyy . choty . char . dy",
+          "gloss": "PART(oo) | R:choly.STAT | BENCH:o.TY | BENCH:a.R | PART(dy)"
+        },
+        {
+          "loc": "<f35r.2>",
+          "eva": "qokeeaiin . chokaiin . qotchy . daiin",
+          "gloss": "ACT.K:e.MEAS.2I | BENCH:ok.MEAS.2I | ACT.T:c.HY | FROM/TAKE.1x(daiin)"
+        }
+      ]
+    }
+  ]
+}

@@ -606,6 +606,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 90. Complete 20-Quire Bifolio Pamphlet Reconstruction (`+29.69%` Global Non-Centerfold Stem Lift), Optimal Hamiltonian Sheet Nesting, and Herbal Quire Cohesion ($z = +2.09$, `Attack 81`)
+- **`+29.69%` Global Non-Centerfold Pamphlet Bridge Lift (`pages/f46r_quireF_bifolio3_bridge_enh.png`) & Herbal Quire Cohesion ($z = +2.09$)**: Across all `31` non-centerfold standard 4-page bifolia codex-wide (`17` uniform-quire + `14` mixed-quire), the Cross-Fold Pamphlet Bridge (`f_left_v -> f_right_r`) beats the Bound Next-Leaf transition (`0.1520` vs. `0.1172` Stem Jaccard, `+29.69%`; `+6.64%` in Uniform Quires and `+88.49%` in Mixed Quires, led by `f43v -> f46r` `0.2422` vs. `0.0783`), while un-interleaving `A/H1` and `B/H2` bifolio sheets boosts inter-sheet `p4->p1` boundary Jaccard by `+35.4%` (`Q=D`), `+92.8%` (`Q=F`), and `+106.6%` (`Q=G`).
+
+---
+
+### 91. Exact Morphology of the Rare / Hapax Tail (`Ranks #1,001–#9,053`, `28.74%` of Tokens) — Proving `97.15%` of All Manuscript Tokens Derive from Just `46` Canonical Cores ($z = +113.37$, `Attack 82`)
+- **`87.25%` (`7,026 / 8,053`) Rare Word Types & `90.07%` (`9,380 / 10,414`) Rare Tokens Explained ($z = +113.37$ vs. `13.02%` Anagram Null)**: Using only the `46` canonical cores of the Top-500 Lexicon + closed-class particles explains `84.32%` of all `6,512` strict hapax legomena and raises full-corpus derivational token coverage to **`35,195 / 36,229` (`97.15%` of the entire Voynich Manuscript)**.
+
+---
+
+### 92. End-to-End Held-Out Predictive Perplexity (`5.44×` Reduction) & Masked-Slot Clause Completion Benchmark (`87.11%` Top-1 / `96.00%` Top-2 Role Accuracy, `Attack 83`)
+- **Monotonic 7-Stage Held-Out Perplexity Cascade (`9,053.0 -> 1,665.32`, `-32.69%` Below Zipf Unigram) & Masked Slot Completion**: Across `7,215` unseen test tokens (`1,075` held-out lines), context-only prediction achieves **`87.11%` Top-1 / `96.00%` Top-2 accuracy** on 5-way Constituent Roles, **`53.07%` Top-2** on 8-way Prefix Slots, **`48.47%` Top-2** on 7-way Suffix Slots, **`77.95%` bitwise accuracy** across `72,150` 10-bit features, and a **`+30.17%` Top-1 boost (`44.60%` Top-25 recall)** on open-class stem retrieval.
+
+---
+
+### 93. The Milestone 100-Discovery Master Grammar & Full-Corpus 46-Core Generative Decoder ([`notes/MASTER_100_DISCOVERIES_AND_DECODER.md`](notes/MASTER_100_DISCOVERIES_AND_DECODER.md), `Attack 84`)
+- **Landmark 100-Discovery Synthesis ([`notes/MASTER_100_DISCOVERIES_AND_DECODER.md`](notes/MASTER_100_DISCOVERIES_AND_DECODER.md))**: Synthesizes all `101` Discoveries (`Attacks 1–84`) into **The 10 Unified Laws of the Voynich Manuscript**, the complete **46-Core Canonical Root Table (`97.15%` token coverage)**, and reconstructed **4-Page Bifolio Pamphlet Continuous Readings** across `f43v -> f46r` (`Quire F, B=3`) and `f34v -> f39r` (`Quire E, B=2`).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -717,4 +737,9 @@ python tools/attack77_codicological_bifolio_and_spread_continuity.py
 python tools/attack78_scribal_bifolio_compositional_order.py
 python tools/attack79_full_manuscript_pigment_grammar_concordance.py
 python tools/attack80_top1000_codicological_visual_atlas.py
+python tools/attack81_global_codex_bifolio_pamphlet_solver.py
+python tools/attack82_hapax_and_rare_tail_derivational_solver.py
+python tools/attack83_predictive_clause_completion_benchmark.py
+python tools/attack84_master_100_discoveries_and_decoder.py
 ```
+

@@ -1,0 +1,69 @@
+{
+  "split_summary": {
+    "train_lines": 4301,
+    "test_lines": 1075,
+    "train_tokens": 28938,
+    "test_tokens": 7291,
+    "vocab_size": 9053
+  },
+  "held_out_perplexity_cascade": [
+    {
+      "model": "M0_UNIFORM_VOCABULARY",
+      "bits_per_word": 13.1442,
+      "perplexity": 9053.0
+    },
+    {
+      "model": "M1_GLOBAL_UNIGRAM_ZIPF",
+      "bits_per_word": 11.2727,
+      "perplexity": 2474.04
+    },
+    {
+      "model": "M2_SECTION_AND_CURRIER_DIALECT",
+      "bits_per_word": 10.8669,
+      "perplexity": 1867.53
+    },
+    {
+      "model": "M3_3X3_SPATIAL_PARAGRAPH_GRID",
+      "bits_per_word": 10.7786,
+      "perplexity": 1756.58
+    },
+    {
+      "model": "M4_CONSTITUENT_AUTOMATON_AND_HARMONY",
+      "bits_per_word": 10.731,
+      "perplexity": 1699.66
+    },
+    {
+      "model": "M5_ANAPHORIC_PARAGRAPH_TOPIC_CACHE",
+      "bits_per_word": 10.725,
+      "perplexity": 1692.56
+    },
+    {
+      "model": "M6_FACTORED_DUAL_MATRIX_MORPHEME_GRAMMAR",
+      "bits_per_word": 10.7016,
+      "perplexity": 1665.32
+    }
+  ],
+  "total_perplexity_reduction_factor": 5.44,
+  "unigram_to_m6_perplexity_reduction_pct": 32.69,
+  "masked_slot_prediction_accuracy": {
+    "constituent_role_5way_top1_pct": 87.11,
+    "constituent_role_5way_top2_pct": 96.0,
+    "prefix_slot_8way_top1_pct": 32.64,
+    "prefix_slot_8way_top2_pct": 53.07,
+    "suffix_slot_7way_top1_pct": 28.64,
+    "suffix_slot_7way_top2_pct": 48.47,
+    "10bit_feature_mean_ctx_acc_pct": 77.95,
+    "10bit_feature_mean_maj_acc_pct": 77.25
+  },
+  "open_class_stem_retrieval": {
+    "n_open_test_tokens": 5496,
+    "baseline_global_top1_pct": 4.84,
+    "anaphoric_ctx_top1_pct": 6.3,
+    "baseline_global_top5_pct": 17.69,
+    "anaphoric_ctx_top5_pct": 21.18,
+    "baseline_global_top10_pct": 27.26,
+    "anaphoric_ctx_top10_pct": 30.79,
+    "baseline_global_top25_pct": 41.63,
+    "anaphoric_ctx_top25_pct": 44.6
+  }
+}

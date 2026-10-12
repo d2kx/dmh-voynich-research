@@ -1,0 +1,389 @@
+{
+  "corpus_summary": {
+    "total_types": 9053,
+    "total_tokens": 36229,
+    "head_top1000_types": 1000,
+    "head_top1000_tokens": 25815,
+    "head_top1000_coverage_pct": 71.26,
+    "attested_top500_unique_cores": 53,
+    "attested_top500_canonical_cores": 46,
+    "rare_tail_types": 8053,
+    "rare_tail_tokens": 10414,
+    "hapax_legomena_types": 6512
+  },
+  "derivational_coverage": {
+    "explained_rare_types": 7026,
+    "explained_rare_type_pct": 87.25,
+    "explained_rare_tokens": 9380,
+    "explained_rare_token_pct": 90.07,
+    "explained_hapax_types": 5491,
+    "explained_hapax_pct": 84.32,
+    "full_corpus_explained_tokens": 35195,
+    "full_corpus_explained_token_pct": 97.15,
+    "tier1_to_3_productive_rare_type_pct": 83.61,
+    "null_shuffled_tier1_to_3_pct": 13.02,
+    "z_score_vs_anagram_null": 113.37
+  },
+  "tier_breakdown": [
+    {
+      "tier": "TIER1_CANONICAL_ALLOGRAPH",
+      "rare_types": 747,
+      "rare_type_pct": 9.28,
+      "rare_tokens": 1385,
+      "rare_token_pct": 13.3,
+      "hapax_types": 369,
+      "hapax_pct": 5.67,
+      "pos_zone_cosine_to_head": 0.9977,
+      "examples": [
+        {
+          "word": "ofchey",
+          "count": 4,
+          "parent": "okchey",
+          "derivation": "canon(ofchey)=okchey->okchey"
+        },
+        {
+          "word": "kshey",
+          "count": 4,
+          "parent": "kchey",
+          "derivation": "canon(kshey)=kchey->kchey"
+        },
+        {
+          "word": "dshol",
+          "count": 4,
+          "parent": "dchol",
+          "derivation": "canon(dshol)=dchol->dchol"
+        },
+        {
+          "word": "chotain",
+          "count": 4,
+          "parent": "chotaiin",
+          "derivation": "canon(chotain)=chotain->chotaiin"
+        },
+        {
+          "word": "ypchy",
+          "count": 4,
+          "parent": "ytchy",
+          "derivation": "canon(ypchy)=ytchy->ytchy"
+        },
+        {
+          "word": "qotchar",
+          "count": 4,
+          "parent": "otchar",
+          "derivation": "canon(qotchar)=otchar->otchar"
+        },
+        {
+          "word": "keeor",
+          "count": 4,
+          "parent": "keor",
+          "derivation": "canon(keeor)=keor->keor"
+        },
+        {
+          "word": "cpheor",
+          "count": 4,
+          "parent": "ctheor",
+          "derivation": "canon(cpheor)=ctheor->ctheor"
+        }
+      ]
+    },
+    {
+      "tier": "TIER2_REGULAR_SLOT_INFLECTION",
+      "rare_types": 2061,
+      "rare_type_pct": 25.59,
+      "rare_tokens": 3033,
+      "rare_token_pct": 29.12,
+      "hapax_types": 1448,
+      "hapax_pct": 22.24,
+      "pos_zone_cosine_to_head": 0.9782,
+      "examples": [
+        {
+          "word": "ysho",
+          "count": 4,
+          "parent": "sh",
+          "derivation": "[y+sh+o]"
+        },
+        {
+          "word": "ckhal",
+          "count": 4,
+          "parent": "ckh",
+          "derivation": "[0+ckh+al]"
+        },
+        {
+          "word": "oeear",
+          "count": 4,
+          "parent": "e",
+          "derivation": "[o+e+ear]"
+        },
+        {
+          "word": "keeo",
+          "count": 4,
+          "parent": "kee",
+          "derivation": "[0+kee+o]"
+        },
+        {
+          "word": "cholal",
+          "count": 4,
+          "parent": "ol",
+          "derivation": "[ch+ol+al]"
+        },
+        {
+          "word": "schol",
+          "count": 4,
+          "parent": "ch",
+          "derivation": "[s+ch+ol]"
+        },
+        {
+          "word": "chyty",
+          "count": 4,
+          "parent": "y",
+          "derivation": "[ch+y+ty]"
+        },
+        {
+          "word": "octhody",
+          "count": 4,
+          "parent": "cth",
+          "derivation": "[o+cth+ody]"
+        }
+      ]
+    },
+    {
+      "tier": "TIER3_UNIVERBATED_PHRASE_COMPOUND",
+      "rare_types": 3925,
+      "rare_type_pct": 48.74,
+      "rare_tokens": 4647,
+      "rare_token_pct": 44.62,
+      "hapax_types": 3400,
+      "hapax_pct": 52.21,
+      "pos_zone_cosine_to_head": 0.9544,
+      "examples": [
+        {
+          "word": "cthod",
+          "count": 4,
+          "parent": "cth+o",
+          "derivation": "[0+cth+o+d]"
+        },
+        {
+          "word": "ksheody",
+          "count": 4,
+          "parent": "ksheo+dy",
+          "derivation": "ksheo.dy"
+        },
+        {
+          "word": "dchokchy",
+          "count": 4,
+          "parent": "dcho+kchy",
+          "derivation": "dcho.kchy"
+        },
+        {
+          "word": "ctholy",
+          "count": 4,
+          "parent": "ctho+ly",
+          "derivation": "ctho.ly"
+        },
+        {
+          "word": "dalchy",
+          "count": 4,
+          "parent": "da+lchy",
+          "derivation": "da.lchy"
+        },
+        {
+          "word": "chodchy",
+          "count": 4,
+          "parent": "cho+dchy",
+          "derivation": "cho.dchy"
+        },
+        {
+          "word": "chokeody",
+          "count": 4,
+          "parent": "ch+okeody",
+          "derivation": "ch.okeody"
+        },
+        {
+          "word": "pchdar",
+          "count": 4,
+          "parent": "pch+d",
+          "derivation": "[0+pch+d+ar]"
+        }
+      ]
+    },
+    {
+      "tier": "TIER4_CLOSED_PARTICLE_CHAIN",
+      "rare_types": 114,
+      "rare_type_pct": 1.42,
+      "rare_tokens": 115,
+      "rare_token_pct": 1.1,
+      "hapax_types": 113,
+      "hapax_pct": 1.74,
+      "pos_zone_cosine_to_head": 0.7618,
+      "examples": [
+        {
+          "word": "dydydy",
+          "count": 2,
+          "parent": "dydydy",
+          "derivation": "particle(dydydy)"
+        },
+        {
+          "word": "ase",
+          "count": 1,
+          "parent": "ase",
+          "derivation": "particle(ase)"
+        },
+        {
+          "word": "dydyd",
+          "count": 1,
+          "parent": "dydyd",
+          "derivation": "particle(dydyd)"
+        },
+        {
+          "word": "oarolsy",
+          "count": 1,
+          "parent": "oarolsy",
+          "derivation": "particle(oarolsy)"
+        },
+        {
+          "word": "deeeese",
+          "count": 1,
+          "parent": "deeeese",
+          "derivation": "particle(deeeese)"
+        },
+        {
+          "word": "doldydy",
+          "count": 1,
+          "parent": "doldydy",
+          "derivation": "particle(doldydy)"
+        },
+        {
+          "word": "dydyodyd",
+          "count": 1,
+          "parent": "dydyodyd",
+          "derivation": "particle(dydyodyd)"
+        },
+        {
+          "word": "oeesordy",
+          "count": 1,
+          "parent": "oeesordy",
+          "derivation": "particle(oeesordy)"
+        }
+      ]
+    },
+    {
+      "tier": "TIER5_PALEOGRAPHIC_1EDIT",
+      "rare_types": 179,
+      "rare_type_pct": 2.22,
+      "rare_tokens": 200,
+      "rare_token_pct": 1.92,
+      "hapax_types": 161,
+      "hapax_pct": 2.47,
+      "pos_zone_cosine_to_head": 0.8803,
+      "examples": [
+        {
+          "word": "chotols",
+          "count": 3,
+          "parent": "chotol",
+          "derivation": "1edit(chotols~chotol)"
+        },
+        {
+          "word": "cheeb",
+          "count": 3,
+          "parent": "cheey",
+          "derivation": "1edit(cheeb~cheey)"
+        },
+        {
+          "word": "dag",
+          "count": 3,
+          "parent": "dar",
+          "derivation": "1edit(dag~dar)"
+        },
+        {
+          "word": "koshey",
+          "count": 2,
+          "parent": "oshey",
+          "derivation": "1edit(koshey~oshey)"
+        },
+        {
+          "word": "ychekchy",
+          "count": 2,
+          "parent": "chekchy",
+          "derivation": "1edit(ychekchy~chekchy)"
+        },
+        {
+          "word": "shese",
+          "count": 2,
+          "parent": "shes",
+          "derivation": "1edit(shese~shes)"
+        },
+        {
+          "word": "toeedy",
+          "count": 2,
+          "parent": "qoeedy",
+          "derivation": "1edit(toeedy~qoeedy)"
+        },
+        {
+          "word": "aig",
+          "count": 2,
+          "parent": "ain",
+          "derivation": "1edit(aig~ain)"
+        }
+      ]
+    },
+    {
+      "tier": "TIER6_RESIDUAL_UNEXPLAINED",
+      "rare_types": 1027,
+      "rare_type_pct": 12.75,
+      "rare_tokens": 1034,
+      "rare_token_pct": 9.93,
+      "hapax_types": 1021,
+      "hapax_pct": 15.68,
+      "pos_zone_cosine_to_head": 0.8525,
+      "examples": [
+        {
+          "word": "dytydy",
+          "count": 3,
+          "parent": "dytydy",
+          "derivation": "unexplained"
+        },
+        {
+          "word": "chkorchy",
+          "count": 2,
+          "parent": "chkorchy",
+          "derivation": "unexplained"
+        },
+        {
+          "word": "lg",
+          "count": 2,
+          "parent": "lg",
+          "derivation": "unexplained"
+        },
+        {
+          "word": "tosheo",
+          "count": 2,
+          "parent": "tosheo",
+          "derivation": "unexplained"
+        },
+        {
+          "word": "ykolairol",
+          "count": 2,
+          "parent": "ykolairol",
+          "derivation": "unexplained"
+        },
+        {
+          "word": "du",
+          "count": 2,
+          "parent": "du",
+          "derivation": "unexplained"
+        },
+        {
+          "word": "fachys",
+          "count": 1,
+          "parent": "fachys",
+          "derivation": "unexplained"
+        },
+        {
+          "word": "cthres",
+          "count": 1,
+          "parent": "cthres",
+          "derivation": "unexplained"
+        }
+      ]
+    }
+  ]
+}
