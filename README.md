@@ -806,6 +806,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 130. The Complete 20-Quire Codicological Bifolio Sheet-Position Law — `0.00%` (`0 / 26`) Currier B on Herbal Inner Centerfolds (`$B=4`), Scribe 4's `100.0%` Single-Sheet Quire Law, and Mixed-Quire Shell Wrapping (`Attack 121`)
+- **`0.00%` (`0 / 26`) Currier B on Herbal Innermost Centerfolds (`$B=4`) vs. `100%` (`24 / 24`) Currier B Outer/Intermediate Shell Wrapping**: Across all `7` four-bifolio Herbal Quires (`Quires A–G`, `109` folios), `26 / 26` (`100.0%`) of the `INNER_CENTERFOLD` (`$B=4`) folios are written by Scribe 1 (`$H=1`, Currier A), whereas `100%` (`24 / 24`) of the Currier B Herbal Monographs in `Quires D–G` (`Scribe 2 $H=2` and `Scribe 5 $H=5`) occupy Outer/Intermediate Wrapper Bifolios (`$B=1, 2, 3`, `29.63%` of `OUTER_WRAPPER` and `28.57%` of `INTERMEDIATE_SHEET`) wrapped around Scribe 1's shorter, lower-hub-connectivity Currier A centerfold core (`40.400` vs. `55.943` Clinical Hub IDF).
+
+---
+
+### 131. Complete Monograph-by-Monograph Structural & Botanical Translation of the `32` Currier B Herbal Monographs (`$I=H, $L=B`, `1.473×` Clinical Routing IDF Lift $z = +4.81$, and Three-Scribe Specialization, `Attack 122`)
+- **`1.473×` Total Clinical Routing IDF Lift ($z = +4.81$) & Three-Scribe (`H=2, H=5, H=3`) Specialization (`pages/f34r_scribe2_currier_b_master_herbal_enh.png`, `pages/f95r1_scribe3_quire_q_herbal_foldout_enh.png`)**: Translates all `32` Currier B Herbal Monographs (`f26r–f95v2`), proving a `1.473×` Total Clinical (`P ∪ B ∪ S`) Routing IDF lift over the `95` Currier A Herbals (`65.398` vs. `44.402`, $z = +4.81$: `1.88×` to Balneological `$I=B`, `1.65×` to Starred Recipes `$I=S`, `1.64×` to Zodiac `$I=Z`, `2.17×` to `f66r`, and `1.05×` parity to Pharmaceutical `$I=P`), and isolating the 3-scribe division of labor (`Scribe 2 -> Balneological $I=B 38.722 IDF`, `Scribe 5 -> Pharmaceutical $I=P 32.940 IDF & 17.26% -edy`, `Scribe 3 -> Starred Decoction Dosing 12.81% qo- & 15.72% -aiin`).
+
+---
+
+### 132. Complete 12-Medallion Zodiac (`f70v2–f73v`) `350` Star-Nymph Label (`&Lz`) & `964`-Word Concentric Ring (`@Cc`) Translator — `99.43%` (`348 / 350`) Nymph Stem Resolution & `2.29×` Clinical Label Concordance ($z = +3.48$, `Attack 123`)
+- **`99.43%` (`348 / 350`) Star-Nymph Label Resolution & `2.29×` Clinical Label Concordance (`pages/f70v2_pisces_medallion_nymphs_and_rings_enh.png`, `pages/f72v1_libra_medallion_nymphs_and_rings_enh.png`, $z = +3.48$)**: Resolves `348 / 350` (`99.43%`) of the Zodiac Star-Nymph Labels (`&Lz`: `261` Direct, `23` Prefix-Stripped, `56` 2-Stem Compounds, `8` 3-Stem Compounds; `85.14%` in Herbal `$I=H`, `75.43%` in Pharm `$I=P`, `65.71%` in Balneo `$I=B`, `87.43%` in Starred `$I=S`), proves their `67.71%` `o-` / `46.29%` `-y/-dy` / `0.29%` `qo-` polarity vs. `@Cc` Rings (`10.48%` `-aiin`), and demonstrates a `2.29×` rare-stem IDF concordance ($z = +3.48$) with Balneological Bather (`@Ln`) + Pharmaceutical Root/Leaf (`@Lf`) labels.
+
+---
+
+### 133. The Complete 32-Folio Currier B Herbal, 12-Sign Zodiac Nymph & 20-Quire Codicological Translation Compendium ([`notes/CURRIER_B_HERBAL_AND_ZODIAC_NYMPH_COMPENDIUM.md`](notes/CURRIER_B_HERBAL_AND_ZODIAC_NYMPH_COMPENDIUM.md), `Attack 124`)
+- **Complete 32-Folio Currier B Herbal, 12-Sign Zodiac Nymph & 20-Quire Codicological Compendium ([`notes/CURRIER_B_HERBAL_AND_ZODIAC_NYMPH_COMPENDIUM.md`](notes/CURRIER_B_HERBAL_AND_ZODIAC_NYMPH_COMPENDIUM.md))**: Synthesizes the 20-Quire Codicological Sheet-Position Law (`Attack 121`), the 32-Monograph Currier B Herbal Translator (`Attack 122`), and the 12-Medallion Zodiac Star-Nymph & Concentric Ring Translator (`Attack 123`).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -957,5 +977,10 @@ python tools/attack117_pharmaceutical_44register_translator.py
 python tools/attack118_balneological_19folio_hydraulic_and_nymph_translator.py
 python tools/attack119_f66r_f66v_margin_indexed_sheetmate_solver.py
 python tools/attack120_pharm_44register_and_balneo_translation_compendium.py
+python tools/attack121_twenty_quire_codicological_sheet_position_law.py
+python tools/attack122_currier_b_32herbal_monograph_translator.py
+python tools/attack123_zodiac_12medallion_nymph_and_ring_translator.py
+python tools/attack124_currier_b_herbal_and_zodiac_nymph_compendium.py
 ```
+
 

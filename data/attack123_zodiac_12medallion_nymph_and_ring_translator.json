@@ -1,0 +1,6240 @@
+{
+  "attack": "Attack 123 (Phase 134 / Discovery 140)",
+  "title": "Complete 12-Medallion Zodiac (f70v2-f73v) Star-Nymph Label & Concentric Ring Astro-Medical Translator",
+  "global_summary": {
+    "n_medallions": 12,
+    "total_nymph_star_labels": 350,
+    "total_ring_tokens": 964,
+    "nymph_label_resolved_count": 348,
+    "nymph_label_resolved_pct": 99.43,
+    "resolution_breakdown": {
+      "COMPOUND_2STEM": 56,
+      "PREFIX_STRIPPED": 23,
+      "DIRECT_STEM": 261,
+      "UNRESOLVED": 2,
+      "COMPOUND_3STEM": 8
+    },
+    "nymph_in_herbal_pct": 85.14,
+    "nymph_in_pharm_pct": 75.43,
+    "nymph_in_balneo_pct": 65.71,
+    "nymph_in_starred_pct": 87.43,
+    "nymph_morph_global": {
+      "n_tokens": 350,
+      "mean_len_chars": 5.93,
+      "o_onset_pct": 67.71,
+      "y_onset_pct": 8.86,
+      "qo_onset_pct": 0.29,
+      "y_dy_coda_pct": 46.29,
+      "fluid_resin_ol_or_al_ar_pct": 23.14,
+      "ring_seal_am_m_pct": 8.29,
+      "aiin_coda_pct": 6.86
+    },
+    "ring_morph_global": {
+      "n_tokens": 964,
+      "mean_len_chars": 5.36,
+      "o_onset_pct": 40.25,
+      "y_onset_pct": 4.25,
+      "qo_onset_pct": 1.45,
+      "y_dy_coda_pct": 38.49,
+      "fluid_resin_ol_or_al_ar_pct": 28.42,
+      "ring_seal_am_m_pct": 1.87,
+      "aiin_coda_pct": 10.48
+    }
+  },
+  "zodiac_nymph_to_clinical_label_permutation_test": {
+    "n_zodiac_nymph_rare_stems": 191,
+    "n_clinical_ln_lf_rare_stems": 168,
+    "shared_rare_stems_count": 25,
+    "observed_shared_idf": 62.889,
+    "null_mean_idf": 27.474,
+    "null_std_idf": 10.167,
+    "lift": 2.29,
+    "z_score": 3.48
+  },
+  "medallion_records": [
+    {
+      "folio": "f70v2",
+      "sign": "Pisces (March)",
+      "humoral_quality": "SPRING_WET",
+      "n_ring_loci": 3,
+      "n_ring_tokens": 96,
+      "n_nymph_labels": 35,
+      "nymph_morph": {
+        "n_tokens": 35,
+        "mean_len_chars": 5.23,
+        "o_onset_pct": 74.29,
+        "y_onset_pct": 5.71,
+        "qo_onset_pct": 0.0,
+        "y_dy_coda_pct": 34.29,
+        "fluid_resin_ol_or_al_ar_pct": 34.29,
+        "ring_seal_am_m_pct": 14.29,
+        "aiin_coda_pct": 2.86
+      },
+      "ring_morph": {
+        "n_tokens": 96,
+        "mean_len_chars": 5.41,
+        "o_onset_pct": 35.42,
+        "y_onset_pct": 4.17,
+        "qo_onset_pct": 1.04,
+        "y_dy_coda_pct": 33.33,
+        "fluid_resin_ol_or_al_ar_pct": 28.12,
+        "ring_seal_am_m_pct": 3.12,
+        "aiin_coda_pct": 10.42
+      },
+      "best_herbal": {
+        "folio": "f94r(L=B)",
+        "idf": 14.766,
+        "shared_stems": [
+          "Colk",
+          "tod",
+          "otal",
+          "daii"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f99r(L=A)",
+        "idf": 12.706,
+        "shared_stems": [
+          "okeol",
+          "okar",
+          "otol",
+          "otal"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f80r(L=B)",
+        "idf": 13.7,
+        "shared_stems": [
+          "Secth",
+          "alo",
+          "okar",
+          "otal"
+        ]
+      },
+      "best_starred": {
+        "folio": "f106v(L=B)",
+        "idf": 26.421,
+        "shared_stems": [
+          "ok_Ceo",
+          "ail",
+          "alo",
+          "Colk"
+        ]
+      },
+      "rings": [
+        {
+          "line": "1",
+          "loc": "@Cc",
+          "n_tokens": 42,
+          "terminal_token": "oteeam",
+          "has_terminal_seal": true,
+          "eva_preview": "okcheo . dar . otey . ykeey . tchy . otsheo . oteotey . she[y:o] . shecth . opcheoldair",
+          "gloss_preview": "okcheo <SPRING-NOM[o-]+DECAN-HERB[ok_Ceo]> | dar <BASE[d-]+DECAN-HERB[da]:ESSENCE-RESIN[-or/ar]> | otey <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:COOKED[-ey]> | ykeey <AUTUMN-INIT[y-]+DECAN-HERB[ykEE]:STAR-STATE[-y]> | tchy <CMPD:stalk-bench[tch]:STAR-STATE[-y]> | otsheo <SPRING-NOM[o-]+DECAN-HERB[ot_Seo]>"
+        },
+        {
+          "line": "21",
+          "loc": "@Cc",
+          "n_tokens": 32,
+          "terminal_token": "alos",
+          "has_terminal_seal": false,
+          "eva_preview": "daii@197;amdy . otar . am . aral . otair . chedaiin . oteey . dair . shchey . daiin",
+          "gloss_preview": "daii@197;amdy <BASE[d-]+DECAN-HERB[daiiam]:STEEPED-NYMPH[-dy]> | otar <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:ESSENCE-RESIN[-or/ar]> | am <DECAN-HERB[am]:RING-SEAL[-am]> | aral <DECAN-HERB[ar]:FLUID-BALM[-ol/al]> | otair <SPRING-NOM[o-]+DECAN-HERB[otai]> | chedaiin <DECAN-HERB[Ced]:DEGREE-DOSE[-aiin]>"
+        },
+        {
+          "line": "32",
+          "loc": "@Cc",
+          "n_tokens": 22,
+          "terminal_token": "daim",
+          "has_terminal_seal": true,
+          "eva_preview": "otal . daly . oteoal . dal . aildy . otaiin . ar . oteey . shal . o",
+          "gloss_preview": "otal <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:FLUID-BALM[-ol/al]> | daly <BASE[d-]+DECAN-HERB[dal]:STAR-STATE[-y]> | oteoal <SPRING-NOM[o-]+DECAN-HERB[oteo]:FLUID-BALM[-ol/al]> | dal <BASE[d-]+DECAN-HERB[da]:FLUID-BALM[-ol/al]> | aildy <DECAN-HERB[ail]:STEEPED-NYMPH[-dy]> | otaiin <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:DEGREE-DOSE[-aiin]>"
+        }
+      ],
+      "nymph_labels": [
+        {
+          "line": "2",
+          "loc": "@Lz",
+          "raw": "otalalg",
+          "canon": "otalalg",
+          "stem": "otalalg",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "otal",
+            "alg"
+          ],
+          "gloss": "otalalg <SPRING-NOM[o-]+DECAN-HERB[otalalg]>",
+          "top_herbal": "f23r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "3",
+          "loc": "&Lz",
+          "raw": "ykary",
+          "canon": "ykary",
+          "stem": "ykar",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "kar"
+          ],
+          "gloss": "ykary <AUTUMN-INIT[y-]+DECAN-HERB[ykar]:STAR-STATE[-y]>",
+          "top_herbal": "f42r($L=A)",
+          "in_sections": "HBS"
+        },
+        {
+          "line": "4",
+          "loc": "&Lz",
+          "raw": "otar?",
+          "canon": "otar",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "gloss": "otar? <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "5",
+          "loc": "&Lz",
+          "raw": "oty",
+          "canon": "oty",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "gloss": "oty <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:STAR-STATE[-y]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "6",
+          "loc": "&Lz",
+          "raw": "oky",
+          "canon": "oky",
+          "stem": "ok",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok"
+          ],
+          "gloss": "oky <SPRING-NOM[o-]+NOM:vessel-calyx[ok]:STAR-STATE[-y]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "6",
+          "loc": "&Lz",
+          "raw": "ody",
+          "canon": "ody",
+          "stem": "od",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "od"
+          ],
+          "gloss": "ody <SPRING-NOM[o-]+DECAN-HERB[od]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "7",
+          "loc": "&Lz",
+          "raw": "oty",
+          "canon": "oty",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "gloss": "oty <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:STAR-STATE[-y]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "7",
+          "loc": "&Lz",
+          "raw": "ar",
+          "canon": "ar",
+          "stem": "ar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ar"
+          ],
+          "gloss": "ar <DECAN-HERB[ar]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f4v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "8",
+          "loc": "&Lz",
+          "raw": "okala",
+          "canon": "okala",
+          "stem": "okala",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "oka",
+            "la"
+          ],
+          "gloss": "okala <SPRING-NOM[o-]+DECAN-HERB[okala]>",
+          "top_herbal": "f3v($L=A)",
+          "in_sections": "HBS"
+        },
+        {
+          "line": "9",
+          "loc": "&Lz",
+          "raw": "otody",
+          "canon": "otody",
+          "stem": "oto",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oto"
+          ],
+          "gloss": "otody <SPRING-NOM[o-]+DECAN-HERB[oto]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "10",
+          "loc": "&Lz",
+          "raw": "otald",
+          "canon": "otald",
+          "stem": "otald",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otald"
+          ],
+          "gloss": "otald <SPRING-NOM[o-]+DECAN-HERB[otald]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HS"
+        },
+        {
+          "line": "11",
+          "loc": "&Lz",
+          "raw": "otaldar",
+          "canon": "otaldar",
+          "stem": "otald",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otald"
+          ],
+          "gloss": "otaldar <SPRING-NOM[o-]+DECAN-HERB[otald]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HS"
+        },
+        {
+          "line": "12",
+          "loc": "&Lz",
+          "raw": "okody",
+          "canon": "okody",
+          "stem": "oko",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oko"
+          ],
+          "gloss": "okody <SPRING-NOM[o-]+DECAN-HERB[oko]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f3v($L=A)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "13",
+          "loc": "&Lz",
+          "raw": "opysam",
+          "canon": "opysam",
+          "stem": "opys",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "op",
+            "ys"
+          ],
+          "gloss": "opysam <SPRING-NOM[o-]+DECAN-HERB[opys]:RING-SEAL[-am]>",
+          "top_herbal": "f26v($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "14",
+          "loc": "&Lz",
+          "raw": "ch{ckhh}y",
+          "canon": "Cckhhy",
+          "stem": "Cckhh",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Cckhh"
+          ],
+          "gloss": "ch{ckhh}y <DECAN-HERB[Cckhh]:STAR-STATE[-y]>",
+          "top_herbal": "f15r($L=A)",
+          "in_sections": "HS"
+        },
+        {
+          "line": "15",
+          "loc": "&Lz",
+          "raw": "otaly",
+          "canon": "otaly",
+          "stem": "otal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otal"
+          ],
+          "gloss": "otaly <SPRING-NOM[o-]+DECAN-HERB[otal]:STAR-STATE[-y]>",
+          "top_herbal": "f94r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "16",
+          "loc": "&Lz",
+          "raw": "otal",
+          "canon": "otal",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "gloss": "otal <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "16",
+          "loc": "&Lz",
+          "raw": "arar",
+          "canon": "arar",
+          "stem": "ar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ar"
+          ],
+          "gloss": "arar <DECAN-HERB[ar]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f4v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "17",
+          "loc": "&Lz",
+          "raw": "otaldy",
+          "canon": "otaldy",
+          "stem": "otal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otal"
+          ],
+          "gloss": "otaldy <SPRING-NOM[o-]+DECAN-HERB[otal]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f94r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "18",
+          "loc": "&Lz",
+          "raw": "okeoly",
+          "canon": "okeoly",
+          "stem": "okeol",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okeol"
+          ],
+          "gloss": "okeoly <SPRING-NOM[o-]+DECAN-HERB[okeol]:STAR-STATE[-y]>",
+          "top_herbal": "H-general",
+          "in_sections": "P"
+        },
+        {
+          "line": "19",
+          "loc": "&Lz",
+          "raw": "okydy",
+          "canon": "okydy",
+          "stem": "oky",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oky"
+          ],
+          "gloss": "okydy <SPRING-NOM[o-]+DECAN-HERB[oky]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        },
+        {
+          "line": "20",
+          "loc": "&Lz",
+          "raw": "okee[s:r]",
+          "canon": "okEEs",
+          "stem": "okEEs",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okEEs"
+          ],
+          "gloss": "okee[s:r] <SPRING-NOM[o-]+DECAN-HERB[okEEs]>",
+          "top_herbal": "f30r($L=A)",
+          "in_sections": "HS"
+        },
+        {
+          "line": "22",
+          "loc": "@Lz",
+          "raw": "otar",
+          "canon": "otar",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "gloss": "otar <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "22",
+          "loc": "@Lz",
+          "raw": "am",
+          "canon": "am",
+          "stem": "am",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "am"
+          ],
+          "gloss": "am <DECAN-HERB[am]:RING-SEAL[-am]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "23",
+          "loc": "&Lz",
+          "raw": "otar",
+          "canon": "otar",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "gloss": "otar <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "23",
+          "loc": "&Lz",
+          "raw": "al",
+          "canon": "al",
+          "stem": "al",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "al"
+          ],
+          "gloss": "al <DECAN-HERB[al]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f2r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "24",
+          "loc": "&Lz",
+          "raw": "otalar",
+          "canon": "otalar",
+          "stem": "otal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otal"
+          ],
+          "gloss": "otalar <SPRING-NOM[o-]+DECAN-HERB[otal]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f94r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "25",
+          "loc": "&Lz",
+          "raw": "otalam",
+          "canon": "otalam",
+          "stem": "otal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otal"
+          ],
+          "gloss": "otalam <SPRING-NOM[o-]+DECAN-HERB[otal]:RING-SEAL[-am]>",
+          "top_herbal": "f94r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "26",
+          "loc": "&Lz",
+          "raw": "dolaram",
+          "canon": "dolaram",
+          "stem": "dolar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "dolar"
+          ],
+          "gloss": "dolaram <BASE[d-]+DECAN-HERB[dolar]:RING-SEAL[-am]>",
+          "top_herbal": "H-general",
+          "in_sections": "P"
+        },
+        {
+          "line": "27",
+          "loc": "&Lz",
+          "raw": "okaram",
+          "canon": "okaram",
+          "stem": "okar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okar"
+          ],
+          "gloss": "okaram <SPRING-NOM[o-]+DECAN-HERB[okar]:RING-SEAL[-am]>",
+          "top_herbal": "f3v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "28",
+          "loc": "&Lz",
+          "raw": "oteosal",
+          "canon": "oteosal",
+          "stem": "oteos",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oteos"
+          ],
+          "gloss": "oteosal <SPRING-NOM[o-]+DECAN-HERB[oteos]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f21r($L=A)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "29",
+          "loc": "&Lz",
+          "raw": "salols",
+          "canon": "salols",
+          "stem": "salols",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "alols"
+          ],
+          "gloss": "salols <SHOOT[s-]+DECAN-HERB[salols]>",
+          "top_herbal": "H-general",
+          "in_sections": ""
+        },
+        {
+          "line": "30",
+          "loc": "&Lz",
+          "raw": "okaldal",
+          "canon": "okaldal",
+          "stem": "okald",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okald"
+          ],
+          "gloss": "okaldal <SPRING-NOM[o-]+DECAN-HERB[okald]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "H-general",
+          "in_sections": ""
+        },
+        {
+          "line": "31",
+          "loc": "&Lz",
+          "raw": "ykolaiin",
+          "canon": "ykolaIIN",
+          "stem": "ykol",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ykol"
+          ],
+          "gloss": "ykolaiin <AUTUMN-INIT[y-]+DECAN-HERB[ykol]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "f13r($L=A)",
+          "in_sections": "H"
+        },
+        {
+          "line": "33",
+          "loc": "@Lz",
+          "raw": "otolal",
+          "canon": "otolal",
+          "stem": "otol",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otol"
+          ],
+          "gloss": "otolal <SPRING-NOM[o-]+DECAN-HERB[otol]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f22r($L=A)",
+          "in_sections": "HPBS"
+        }
+      ]
+    },
+    {
+      "folio": "f70v1",
+      "sign": "Aries I - Dark Stars (April I)",
+      "humoral_quality": "SPRING_WARM",
+      "n_ring_loci": 2,
+      "n_ring_tokens": 61,
+      "n_nymph_labels": 25,
+      "nymph_morph": {
+        "n_tokens": 25,
+        "mean_len_chars": 5.68,
+        "o_onset_pct": 68.0,
+        "y_onset_pct": 4.0,
+        "qo_onset_pct": 0.0,
+        "y_dy_coda_pct": 40.0,
+        "fluid_resin_ol_or_al_ar_pct": 32.0,
+        "ring_seal_am_m_pct": 4.0,
+        "aiin_coda_pct": 4.0
+      },
+      "ring_morph": {
+        "n_tokens": 61,
+        "mean_len_chars": 5.51,
+        "o_onset_pct": 37.7,
+        "y_onset_pct": 1.64,
+        "qo_onset_pct": 1.64,
+        "y_dy_coda_pct": 34.43,
+        "fluid_resin_ol_or_al_ar_pct": 24.59,
+        "ring_seal_am_m_pct": 0.0,
+        "aiin_coda_pct": 13.11
+      },
+      "best_herbal": {
+        "folio": "f43v(L=B)",
+        "idf": 17.421,
+        "shared_stems": [
+          "ykeo",
+          "oteos",
+          "oteod",
+          "okal"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f99v(L=A)",
+        "idf": 16.574,
+        "shared_stems": [
+          "okeod",
+          "okeol",
+          "okol",
+          "Sok"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f82v(L=B)",
+        "idf": 11.207,
+        "shared_stems": [
+          "Ses",
+          "okol",
+          "Sok",
+          "otal"
+        ]
+      },
+      "best_starred": {
+        "folio": "f106v(L=B)",
+        "idf": 22.168,
+        "shared_stems": [
+          "otalC",
+          "otEEo",
+          "oteod",
+          "oEE"
+        ]
+      },
+      "rings": [
+        {
+          "line": "1",
+          "loc": "@Cc",
+          "n_tokens": 38,
+          "terminal_token": "sheal",
+          "has_terminal_seal": false,
+          "eva_preview": "dalalody . oteoshey . okoksheo . shokey . raiin . otor . ochy . s . a[ir:is] . cheody",
+          "gloss_preview": "dalalody <BASE[d-]+DECAN-HERB[dalalo]:STEEPED-NYMPH[-dy]> | oteoshey <SPRING-NOM[o-]+DECAN-HERB[oteoS]:COOKED[-ey]> | okoksheo <SPRING-NOM[o-]+DECAN-HERB[okok_Seo]> | shokey <DECAN-HERB[Sok]:COOKED[-ey]> | raiin <DECAN-HERB[ra]:DEGREE-DOSE[-aiin]> | otor <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:ESSENCE-RESIN[-or/ar]>"
+        },
+        {
+          "line": "12",
+          "loc": "@Cc",
+          "n_tokens": 23,
+          "terminal_token": "dal",
+          "has_terminal_seal": false,
+          "eva_preview": "daiin . okey . otodal . cheokeeo . okeodal . shol . olaiin . saiin . sheo . qokeeol",
+          "gloss_preview": "daiin <BASE[d-]+DECAN-HERB[da]:DEGREE-DOSE[-aiin]> | okey <SPRING-NOM[o-]+NOM:vessel-calyx[ok]:COOKED[-ey]> | otodal <SPRING-NOM[o-]+DECAN-HERB[otod]:FLUID-BALM[-ol/al]> | cheokeeo <DECAN-HERB[CeokEEo]> | okeodal <SPRING-NOM[o-]+DECAN-HERB[okeod]:FLUID-BALM[-ol/al]> | shol <DECAN-HERB[So]:FLUID-BALM[-ol/al]>"
+        }
+      ],
+      "nymph_labels": [
+        {
+          "line": "2",
+          "loc": "@Lz",
+          "raw": "otalchy",
+          "canon": "otalCy",
+          "stem": "otalC",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otalC"
+          ],
+          "gloss": "otalchy <SPRING-NOM[o-]+DECAN-HERB[otalC]:STAR-STATE[-y]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        },
+        {
+          "line": "2",
+          "loc": "@Lz",
+          "raw": "tar",
+          "canon": "tar",
+          "stem": "ta",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ta"
+          ],
+          "gloss": "tar <DECAN-HERB[ta]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "2",
+          "loc": "@Lz",
+          "raw": "am",
+          "canon": "am",
+          "stem": "am",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "am"
+          ],
+          "gloss": "am <DECAN-HERB[am]:RING-SEAL[-am]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "2",
+          "loc": "@Lz",
+          "raw": "dy",
+          "canon": "dy",
+          "stem": "dy",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "dy"
+          ],
+          "gloss": "dy <BASE[d-]+DECAN-HERB[dy]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f2r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "3",
+          "loc": "&Lz",
+          "raw": "opchey",
+          "canon": "op_Cey",
+          "stem": "op_C",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "op_C"
+          ],
+          "gloss": "opchey <SPRING-NOM[o-]+DECAN-HERB[op_C]:COOKED[-ey]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "3",
+          "loc": "&Lz",
+          "raw": "sal",
+          "canon": "sal",
+          "stem": "sa",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "sa"
+          ],
+          "gloss": "sal <SHOOT[s-]+DECAN-HERB[sa]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f2r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "4",
+          "loc": "&Lz",
+          "raw": "otakaizan",
+          "canon": "otakaizan",
+          "stem": "otakaiza",
+          "resolution": "UNRESOLVED",
+          "parts": [
+            "otakaiza"
+          ],
+          "gloss": "otakaizan <SPRING-NOM[o-]+DECAN-HERB[otakaiza]>",
+          "top_herbal": "H-general",
+          "in_sections": ""
+        },
+        {
+          "line": "5",
+          "loc": "&Lz",
+          "raw": "okalal",
+          "canon": "okalal",
+          "stem": "okal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okal"
+          ],
+          "gloss": "okalal <SPRING-NOM[o-]+DECAN-HERB[okal]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f33r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "6",
+          "loc": "&Lz",
+          "raw": "otaly",
+          "canon": "otaly",
+          "stem": "otal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otal"
+          ],
+          "gloss": "otaly <SPRING-NOM[o-]+DECAN-HERB[otal]:STAR-STATE[-y]>",
+          "top_herbal": "f94r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "7",
+          "loc": "&Lz",
+          "raw": "oalcheg",
+          "canon": "oalCeg",
+          "stem": "oalCeg",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "oa",
+            "lCeg"
+          ],
+          "gloss": "oalcheg <SPRING-NOM[o-]+DECAN-HERB[oalCeg]>",
+          "top_herbal": "f5r($L=A)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "8",
+          "loc": "&Lz",
+          "raw": "otchodals",
+          "canon": "ot_Codals",
+          "stem": "ot_Codals",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "ot_Co",
+            "dals"
+          ],
+          "gloss": "otchodals <SPRING-NOM[o-]+DECAN-HERB[ot_Codals]>",
+          "top_herbal": "f2r($L=A)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "9",
+          "loc": "&Lz",
+          "raw": "okolshy",
+          "canon": "okolSy",
+          "stem": "okolS",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okolS"
+          ],
+          "gloss": "okolshy <SPRING-NOM[o-]+DECAN-HERB[okolS]:STAR-STATE[-y]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HB"
+        },
+        {
+          "line": "10",
+          "loc": "&Lz",
+          "raw": "otshshdy",
+          "canon": "ot_SSdy",
+          "stem": "ot_SS",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "ot_S",
+            "S"
+          ],
+          "gloss": "otshshdy <SPRING-NOM[o-]+DECAN-HERB[ot_SS]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f8r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "11",
+          "loc": "&Lz",
+          "raw": "otal",
+          "canon": "otal",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "gloss": "otal <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "11",
+          "loc": "&Lz",
+          "raw": "ypsharal",
+          "canon": "yp_Saral",
+          "stem": "yp_Sar",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "yp_S",
+            "ar"
+          ],
+          "gloss": "ypsharal <AUTUMN-INIT[y-]+DECAN-HERB[yp_Sar]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f4v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "13",
+          "loc": "@Lz",
+          "raw": "okoly",
+          "canon": "okoly",
+          "stem": "okol",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okol"
+          ],
+          "gloss": "okoly <SPRING-NOM[o-]+DECAN-HERB[okol]:STAR-STATE[-y]>",
+          "top_herbal": "f22r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "14",
+          "loc": "&Lz",
+          "raw": "otalaiin",
+          "canon": "otalaIIN",
+          "stem": "otal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otal"
+          ],
+          "gloss": "otalaiin <SPRING-NOM[o-]+DECAN-HERB[otal]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "f94r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "15",
+          "loc": "&Lz",
+          "raw": "oteo",
+          "canon": "oteo",
+          "stem": "oteo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oteo"
+          ],
+          "gloss": "oteo <SPRING-NOM[o-]+DECAN-HERB[oteo]>",
+          "top_herbal": "f41v($L=B)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "15",
+          "loc": "&Lz",
+          "raw": "alals",
+          "canon": "alals",
+          "stem": "alals",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "al",
+            "als"
+          ],
+          "gloss": "alals <DECAN-HERB[alals]>",
+          "top_herbal": "f31v($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "15",
+          "loc": "&Lz",
+          "raw": "araly",
+          "canon": "araly",
+          "stem": "aral",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "aral"
+          ],
+          "gloss": "araly <DECAN-HERB[aral]:STAR-STATE[-y]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        },
+        {
+          "line": "16",
+          "loc": "&Lz",
+          "raw": "oteoeey",
+          "canon": "oteoEEy",
+          "stem": "oteoEE",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "ote",
+            "oEE"
+          ],
+          "gloss": "oteoeey <SPRING-NOM[o-]+DECAN-HERB[oteoEE]:STAR-STATE[-y]>",
+          "top_herbal": "f90v1($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "16",
+          "loc": "&Lz",
+          "raw": "otal",
+          "canon": "otal",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "gloss": "otal <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "16",
+          "loc": "&Lz",
+          "raw": "okealar",
+          "canon": "okealar",
+          "stem": "okeal",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "keal"
+          ],
+          "gloss": "okealar <SPRING-NOM[o-]+DECAN-HERB[okeal]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        },
+        {
+          "line": "17",
+          "loc": "&Lz",
+          "raw": "otear",
+          "canon": "otear",
+          "stem": "ote",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ote"
+          ],
+          "gloss": "otear <SPRING-NOM[o-]+DECAN-HERB[ote]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "17",
+          "loc": "&Lz",
+          "raw": "araydy",
+          "canon": "araydy",
+          "stem": "aray",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "ar",
+            "ay"
+          ],
+          "gloss": "araydy <DECAN-HERB[aray]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f4v($L=A)",
+          "in_sections": "HPBS"
+        }
+      ]
+    },
+    {
+      "folio": "f71r",
+      "sign": "Aries II - Light Stars (April II)",
+      "humoral_quality": "SPRING_WARM",
+      "n_ring_loci": 3,
+      "n_ring_tokens": 73,
+      "n_nymph_labels": 17,
+      "nymph_morph": {
+        "n_tokens": 17,
+        "mean_len_chars": 6.59,
+        "o_onset_pct": 82.35,
+        "y_onset_pct": 0.0,
+        "qo_onset_pct": 0.0,
+        "y_dy_coda_pct": 47.06,
+        "fluid_resin_ol_or_al_ar_pct": 29.41,
+        "ring_seal_am_m_pct": 11.76,
+        "aiin_coda_pct": 0.0
+      },
+      "ring_morph": {
+        "n_tokens": 73,
+        "mean_len_chars": 5.36,
+        "o_onset_pct": 53.42,
+        "y_onset_pct": 2.74,
+        "qo_onset_pct": 0.0,
+        "y_dy_coda_pct": 42.47,
+        "fluid_resin_ol_or_al_ar_pct": 31.51,
+        "ring_seal_am_m_pct": 0.0,
+        "aiin_coda_pct": 5.48
+      },
+      "best_herbal": {
+        "folio": "f41v(L=B)",
+        "idf": 10.132,
+        "shared_stems": [
+          "olkEEo",
+          "oteod",
+          "oteo",
+          "okeo"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f101v(L=A)",
+        "idf": 15.701,
+        "shared_stems": [
+          "okeod",
+          "Cs",
+          "oko",
+          "okEEo"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f76v(L=B)",
+        "idf": 9.551,
+        "shared_stems": [
+          "oteol",
+          "lk_C",
+          "Sckh",
+          "EE"
+        ]
+      },
+      "best_starred": {
+        "folio": "f107v(L=B)",
+        "idf": 28.305,
+        "shared_stems": [
+          "Cear",
+          "olkEEo",
+          "rar",
+          "oteC"
+        ]
+      },
+      "rings": [
+        {
+          "line": "1",
+          "loc": "@Cc",
+          "n_tokens": 38,
+          "terminal_token": "choly",
+          "has_terminal_seal": true,
+          "eva_preview": "olkeeody . okody . okeeedy . oky . chy . okeodar . okeoky . oteody . oto . otol",
+          "gloss_preview": "olkeeody <SPRING-NOM[o-]+DECAN-HERB[olkEEo]:STEEPED-NYMPH[-dy]> | okody <SPRING-NOM[o-]+DECAN-HERB[oko]:STEEPED-NYMPH[-dy]> | okeeedy <SPRING-NOM[o-]+NOM:vessel-calyx[ok]:PROCESS[-edy]> | oky <SPRING-NOM[o-]+NOM:vessel-calyx[ok]:STAR-STATE[-y]> | chy <DECAN-HERB[Cy]:STAR-STATE[-y]> | okeodar <SPRING-NOM[o-]+DECAN-HERB[okeod]:ESSENCE-RESIN[-or/ar]>"
+        },
+        {
+          "line": "12",
+          "loc": "@Cc",
+          "n_tokens": 25,
+          "terminal_token": "o",
+          "has_terminal_seal": false,
+          "eva_preview": "oteody . oteos . o{ckhh}y . oteeschey . lsheotey . okalody . shs . shey . oteey . otechar",
+          "gloss_preview": "oteody <SPRING-NOM[o-]+DECAN-HERB[oteo]:STEEPED-NYMPH[-dy]> | oteos <SPRING-NOM[o-]+DECAN-HERB[oteos]> | o{ckhh}y <SPRING-NOM[o-]+DECAN-HERB[ockhh]:STAR-STATE[-y]> | oteeschey <SPRING-NOM[o-]+DECAN-HERB[otEEsC]:COOKED[-ey]> | lsheotey <BATH[l-]+DECAN-HERB[lSeot]:COOKED[-ey]> | okalody <SPRING-NOM[o-]+DECAN-HERB[okalo]:STEEPED-NYMPH[-dy]>"
+        },
+        {
+          "line": "18",
+          "loc": "@Cc",
+          "n_tokens": 10,
+          "terminal_token": "okeol",
+          "has_terminal_seal": false,
+          "eva_preview": "oteeol . otal . chs . char . cheky . chotshy . okeeody . oteey . chekea' . okeol",
+          "gloss_preview": "oteeol <SPRING-NOM[o-]+DECAN-HERB[otEE]:FLUID-BALM[-ol/al]> | otal <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:FLUID-BALM[-ol/al]> | chs <DECAN-HERB[Cs]> | char <DECAN-HERB[Ca]:ESSENCE-RESIN[-or/ar]> | cheky <DECAN-HERB[Cek]:STAR-STATE[-y]> | chotshy <DECAN-HERB[Cot_S]:STAR-STATE[-y]>"
+        }
+      ],
+      "nymph_labels": [
+        {
+          "line": "2",
+          "loc": "@Lz",
+          "raw": "oteos",
+          "canon": "oteos",
+          "stem": "oteos",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oteos"
+          ],
+          "gloss": "oteos <SPRING-NOM[o-]+DECAN-HERB[oteos]>",
+          "top_herbal": "f21r($L=A)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "2",
+          "loc": "@Lz",
+          "raw": "arar",
+          "canon": "arar",
+          "stem": "ar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ar"
+          ],
+          "gloss": "arar <DECAN-HERB[ar]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f4v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "3",
+          "loc": "&Lz",
+          "raw": "okldam",
+          "canon": "okldam",
+          "stem": "okld",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "ok",
+            "ld"
+          ],
+          "gloss": "okldam <SPRING-NOM[o-]+DECAN-HERB[okld]:RING-SEAL[-am]>",
+          "top_herbal": "f31r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "4",
+          "loc": "&Lz",
+          "raw": "oteoaldy",
+          "canon": "oteoaldy",
+          "stem": "oteoal",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "oteo",
+            "al"
+          ],
+          "gloss": "oteoaldy <SPRING-NOM[o-]+DECAN-HERB[oteoal]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f48v($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "5",
+          "loc": "&Lz",
+          "raw": "oteolar",
+          "canon": "oteolar",
+          "stem": "oteol",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oteol"
+          ],
+          "gloss": "oteolar <SPRING-NOM[o-]+DECAN-HERB[oteol]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f48r($L=B)",
+          "in_sections": "HB"
+        },
+        {
+          "line": "6",
+          "loc": "&Lz",
+          "raw": "okeoaly",
+          "canon": "okeoaly",
+          "stem": "okeoal",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "okeo",
+            "al"
+          ],
+          "gloss": "okeoaly <SPRING-NOM[o-]+DECAN-HERB[okeoal]:STAR-STATE[-y]>",
+          "top_herbal": "f31v($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "7",
+          "loc": "&Lz",
+          "raw": "otaleky",
+          "canon": "otaleky",
+          "stem": "otalek",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "otal",
+            "ek"
+          ],
+          "gloss": "otaleky <SPRING-NOM[o-]+DECAN-HERB[otalek]:STAR-STATE[-y]>",
+          "top_herbal": "f31r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "8",
+          "loc": "&Lz",
+          "raw": "otalsar",
+          "canon": "otalsar",
+          "stem": "otals",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otals"
+          ],
+          "gloss": "otalsar <SPRING-NOM[o-]+DECAN-HERB[otals]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "H-general",
+          "in_sections": "PS"
+        },
+        {
+          "line": "9",
+          "loc": "&Lz",
+          "raw": "cheary",
+          "canon": "Ceary",
+          "stem": "Cear",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Cear"
+          ],
+          "gloss": "cheary <DECAN-HERB[Cear]:STAR-STATE[-y]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        },
+        {
+          "line": "10",
+          "loc": "&Lz",
+          "raw": "oteotey",
+          "canon": "oteotey",
+          "stem": "oteot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oteot"
+          ],
+          "gloss": "oteotey <SPRING-NOM[o-]+DECAN-HERB[oteot]:COOKED[-ey]>",
+          "top_herbal": "H-general",
+          "in_sections": ""
+        },
+        {
+          "line": "10",
+          "loc": "&Lz",
+          "raw": "rary",
+          "canon": "rary",
+          "stem": "rar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "rar"
+          ],
+          "gloss": "rary <DECAN-HERB[rar]:STAR-STATE[-y]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        },
+        {
+          "line": "11",
+          "loc": "&Lz",
+          "raw": "otalaly",
+          "canon": "otalaly",
+          "stem": "otalal",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "ot",
+            "alal"
+          ],
+          "gloss": "otalaly <SPRING-NOM[o-]+DECAN-HERB[otalal]:STAR-STATE[-y]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "13",
+          "loc": "@Lz",
+          "raw": "otolchdy",
+          "canon": "otolCdy",
+          "stem": "otolC",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otolC"
+          ],
+          "gloss": "otolchdy <SPRING-NOM[o-]+DECAN-HERB[otolC]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f20r($L=A)",
+          "in_sections": "HP"
+        },
+        {
+          "line": "14",
+          "loc": "&Lz",
+          "raw": "otoloaram",
+          "canon": "otoloaram",
+          "stem": "otoloar",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "oto",
+            "loar"
+          ],
+          "gloss": "otoloaram <SPRING-NOM[o-]+DECAN-HERB[otoloar]:RING-SEAL[-am]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "15",
+          "loc": "&Lz",
+          "raw": "oteeol",
+          "canon": "otEEol",
+          "stem": "otEE",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otEE"
+          ],
+          "gloss": "oteeol <SPRING-NOM[o-]+DECAN-HERB[otEE]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f8v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "16",
+          "loc": "&Lz",
+          "raw": "otolchd",
+          "canon": "otolCd",
+          "stem": "otolCd",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "tolCd"
+          ],
+          "gloss": "otolchd <SPRING-NOM[o-]+DECAN-HERB[otolCd]>",
+          "top_herbal": "f39r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "17",
+          "loc": "&Lz",
+          "raw": "otaldar",
+          "canon": "otaldar",
+          "stem": "otald",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otald"
+          ],
+          "gloss": "otaldar <SPRING-NOM[o-]+DECAN-HERB[otald]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HS"
+        }
+      ]
+    },
+    {
+      "folio": "f71v",
+      "sign": "Taurus I - Dark Stars (May I)",
+      "humoral_quality": "SPRING_TEMPERATE",
+      "n_ring_loci": 3,
+      "n_ring_tokens": 78,
+      "n_nymph_labels": 22,
+      "nymph_morph": {
+        "n_tokens": 22,
+        "mean_len_chars": 5.41,
+        "o_onset_pct": 50.0,
+        "y_onset_pct": 0.0,
+        "qo_onset_pct": 0.0,
+        "y_dy_coda_pct": 27.27,
+        "fluid_resin_ol_or_al_ar_pct": 40.91,
+        "ring_seal_am_m_pct": 13.64,
+        "aiin_coda_pct": 13.64
+      },
+      "ring_morph": {
+        "n_tokens": 78,
+        "mean_len_chars": 4.88,
+        "o_onset_pct": 43.59,
+        "y_onset_pct": 0.0,
+        "qo_onset_pct": 0.0,
+        "y_dy_coda_pct": 32.05,
+        "fluid_resin_ol_or_al_ar_pct": 42.31,
+        "ring_seal_am_m_pct": 1.28,
+        "aiin_coda_pct": 8.97
+      },
+      "best_herbal": {
+        "folio": "f33r(L=B)",
+        "idf": 11.892,
+        "shared_stems": [
+          "Sep_C",
+          "CkEE",
+          "okal",
+          "CEEk"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f102v2(L=A)",
+        "idf": 13.947,
+        "shared_stems": [
+          "okeos",
+          "SEEo",
+          "otEEos",
+          "okar"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f80r(L=B)",
+        "idf": 18.399,
+        "shared_stems": [
+          "Sep_C",
+          "Sl",
+          "okar",
+          "okal"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114v(L=B)",
+        "idf": 18.68,
+        "shared_stems": [
+          "ot_Ceod",
+          "SEEo",
+          "aro",
+          "okar"
+        ]
+      },
+      "rings": [
+        {
+          "line": "1",
+          "loc": "@Cc",
+          "n_tokens": 37,
+          "terminal_token": "okaikaly",
+          "has_terminal_seal": true,
+          "eva_preview": "osheo . parar . oteeodaiin . she . ateey . daiin . oteokeey . dal . al . oteey",
+          "gloss_preview": "osheo <SPRING-NOM[o-]+DECAN-HERB[oSeo]> | parar <DECAN-HERB[par]:ESSENCE-RESIN[-or/ar]> | oteeodaiin <SPRING-NOM[o-]+DECAN-HERB[otEEod]:DEGREE-DOSE[-aiin]> | she <STEM:infused-spray[she]> | ateey <DECAN-HERB[atEE]:STAR-STATE[-y]> | daiin <BASE[d-]+DECAN-HERB[da]:DEGREE-DOSE[-aiin]>"
+        },
+        {
+          "line": "12",
+          "loc": "@Cc",
+          "n_tokens": 30,
+          "terminal_token": "sheeor",
+          "has_terminal_seal": false,
+          "eva_preview": "chal . oteeos . al . sheky . okalar . ar . okeo . dar . oty . oto",
+          "gloss_preview": "chal <DECAN-HERB[Ca]:FLUID-BALM[-ol/al]> | oteeos <SPRING-NOM[o-]+DECAN-HERB[otEEos]> | al <DECAN-HERB[al]:FLUID-BALM[-ol/al]> | sheky <DECAN-HERB[Sek]:STAR-STATE[-y]> | okalar <SPRING-NOM[o-]+DECAN-HERB[okal]:ESSENCE-RESIN[-or/ar]> | ar <DECAN-HERB[ar]:ESSENCE-RESIN[-or/ar]>"
+        },
+        {
+          "line": "18",
+          "loc": "@Cc",
+          "n_tokens": 11,
+          "terminal_token": "kal",
+          "has_terminal_seal": false,
+          "eva_preview": "okeey . okeosar . otaiin . chkeeal . okal . cheekaiin . okaiin . okchor . dar . oteey",
+          "gloss_preview": "okeey <SPRING-NOM[o-]+DECAN-HERB[okEE]:STAR-STATE[-y]> | okeosar <SPRING-NOM[o-]+DECAN-HERB[okeos]:ESSENCE-RESIN[-or/ar]> | otaiin <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:DEGREE-DOSE[-aiin]> | chkeeal <DECAN-HERB[CkEE]:FLUID-BALM[-ol/al]> | okal <SPRING-NOM[o-]+NOM:vessel-calyx[ok]:FLUID-BALM[-ol/al]> | cheekaiin <DECAN-HERB[CEEk]:DEGREE-DOSE[-aiin]>"
+        }
+      ],
+      "nymph_labels": [
+        {
+          "line": "2",
+          "loc": "@Lz",
+          "raw": "char",
+          "canon": "Car",
+          "stem": "Ca",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Ca"
+          ],
+          "gloss": "char <DECAN-HERB[Ca]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "2",
+          "loc": "@Lz",
+          "raw": "arom",
+          "canon": "arom",
+          "stem": "aro",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "aro"
+          ],
+          "gloss": "arom <DECAN-HERB[aro]:RING-SEAL[-am]>",
+          "top_herbal": "f40v($L=B)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "3",
+          "loc": "&Lz",
+          "raw": "chfaly",
+          "canon": "Cfaly",
+          "stem": "Cfal",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "Cf",
+            "al"
+          ],
+          "gloss": "chfaly <DECAN-HERB[Cfal]:STAR-STATE[-y]>",
+          "top_herbal": "f2r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "4",
+          "loc": "&Lz",
+          "raw": "okolar",
+          "canon": "okolar",
+          "stem": "okol",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okol"
+          ],
+          "gloss": "okolar <SPRING-NOM[o-]+DECAN-HERB[okol]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f22r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "5",
+          "loc": "&Lz",
+          "raw": "otchody",
+          "canon": "ot_Cody",
+          "stem": "ot_Co",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot_Co"
+          ],
+          "gloss": "otchody <SPRING-NOM[o-]+DECAN-HERB[ot_Co]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "H"
+        },
+        {
+          "line": "6",
+          "loc": "&Lz",
+          "raw": "alcphy",
+          "canon": "alcphy",
+          "stem": "alcph",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "al",
+            "cph"
+          ],
+          "gloss": "alcphy <DECAN-HERB[alcph]:STAR-STATE[-y]>",
+          "top_herbal": "f2r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "7",
+          "loc": "&Lz",
+          "raw": "otaiin",
+          "canon": "otaIIN",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "gloss": "otaiin <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "8",
+          "loc": "&Lz",
+          "raw": "okaraiin",
+          "canon": "okaraIIN",
+          "stem": "okar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okar"
+          ],
+          "gloss": "okaraiin <SPRING-NOM[o-]+DECAN-HERB[okar]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "f3v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "9",
+          "loc": "&Lz",
+          "raw": "otar",
+          "canon": "otar",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "gloss": "otar <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "9",
+          "loc": "&Lz",
+          "raw": "ar",
+          "canon": "ar",
+          "stem": "ar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ar"
+          ],
+          "gloss": "ar <DECAN-HERB[ar]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f4v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "9",
+          "loc": "&Lz",
+          "raw": "aly",
+          "canon": "aly",
+          "stem": "al",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "al"
+          ],
+          "gloss": "aly <DECAN-HERB[al]:STAR-STATE[-y]>",
+          "top_herbal": "f2r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "10",
+          "loc": "&Lz",
+          "raw": "opalar",
+          "canon": "opalar",
+          "stem": "opal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "opal"
+          ],
+          "gloss": "opalar <SPRING-NOM[o-]+DECAN-HERB[opal]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f48r($L=B)",
+          "in_sections": "HBS"
+        },
+        {
+          "line": "10",
+          "loc": "&Lz",
+          "raw": "am",
+          "canon": "am",
+          "stem": "am",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "am"
+          ],
+          "gloss": "am <DECAN-HERB[am]:RING-SEAL[-am]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "10",
+          "loc": "&Lz",
+          "raw": "dan",
+          "canon": "dan",
+          "stem": "da",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "da"
+          ],
+          "gloss": "dan <BASE[d-]+DECAN-HERB[da]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "11",
+          "loc": "&Lz",
+          "raw": "opalor",
+          "canon": "opalor",
+          "stem": "opal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "opal"
+          ],
+          "gloss": "opalor <SPRING-NOM[o-]+DECAN-HERB[opal]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f48r($L=B)",
+          "in_sections": "HBS"
+        },
+        {
+          "line": "11",
+          "loc": "&Lz",
+          "raw": "ar",
+          "canon": "ar",
+          "stem": "ar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ar"
+          ],
+          "gloss": "ar <DECAN-HERB[ar]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f4v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "13",
+          "loc": "@Lz",
+          "raw": "ofa{if}om",
+          "canon": "ofaifom",
+          "stem": "ofaifo",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "ofai",
+            "fo"
+          ],
+          "gloss": "ofa{if}om <SPRING-NOM[o-]+DECAN-HERB[ofaifo]:RING-SEAL[-am]>",
+          "top_herbal": "f40v($L=B)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "14",
+          "loc": "&Lz",
+          "raw": "otalody",
+          "canon": "otalody",
+          "stem": "otalo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otalo"
+          ],
+          "gloss": "otalody <SPRING-NOM[o-]+DECAN-HERB[otalo]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "H-general",
+          "in_sections": ""
+        },
+        {
+          "line": "15",
+          "loc": "&Lz",
+          "raw": "otalaiin",
+          "canon": "otalaIIN",
+          "stem": "otal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otal"
+          ],
+          "gloss": "otalaiin <SPRING-NOM[o-]+DECAN-HERB[otal]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "f94r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "16",
+          "loc": "&Lz",
+          "raw": "otar",
+          "canon": "otar",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "gloss": "otar <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "16",
+          "loc": "&Lz",
+          "raw": "sh[a:o]r",
+          "canon": "Sar",
+          "stem": "Sa",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Sa"
+          ],
+          "gloss": "sh[a:o]r <DECAN-HERB[Sa]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f2r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "17",
+          "loc": "&Lz",
+          "raw": "sholshdy",
+          "canon": "SolSdy",
+          "stem": "SolS",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "S",
+            "olS"
+          ],
+          "gloss": "sholshdy <DECAN-HERB[SolS]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f22r($L=A)",
+          "in_sections": "HPBS"
+        }
+      ]
+    },
+    {
+      "folio": "f72r1",
+      "sign": "Taurus II - Light Stars (May II)",
+      "humoral_quality": "SPRING_TEMPERATE",
+      "n_ring_loci": 3,
+      "n_ring_tokens": 82,
+      "n_nymph_labels": 23,
+      "nymph_morph": {
+        "n_tokens": 23,
+        "mean_len_chars": 5.91,
+        "o_onset_pct": 56.52,
+        "y_onset_pct": 8.7,
+        "qo_onset_pct": 0.0,
+        "y_dy_coda_pct": 39.13,
+        "fluid_resin_ol_or_al_ar_pct": 21.74,
+        "ring_seal_am_m_pct": 13.04,
+        "aiin_coda_pct": 8.7
+      },
+      "ring_morph": {
+        "n_tokens": 82,
+        "mean_len_chars": 5.11,
+        "o_onset_pct": 40.24,
+        "y_onset_pct": 2.44,
+        "qo_onset_pct": 1.22,
+        "y_dy_coda_pct": 23.17,
+        "fluid_resin_ol_or_al_ar_pct": 41.46,
+        "ring_seal_am_m_pct": 3.66,
+        "aiin_coda_pct": 15.85
+      },
+      "best_herbal": {
+        "folio": "f43v(L=B)",
+        "idf": 14.588,
+        "shared_stems": [
+          "oteos",
+          "oteod",
+          "okal",
+          "oteo"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f89r2(L=A)",
+        "idf": 16.812,
+        "shared_stems": [
+          "Cal",
+          "Ceol",
+          "olCe",
+          "oteos"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f76v(L=B)",
+        "idf": 14.135,
+        "shared_stems": [
+          "Seol",
+          "Set",
+          "Cl",
+          "oC"
+        ]
+      },
+      "best_starred": {
+        "folio": "f106r(L=B)",
+        "idf": 23.796,
+        "shared_stems": [
+          "Ceol",
+          "tEEo",
+          "alo",
+          "okEEs"
+        ]
+      },
+      "rings": [
+        {
+          "line": "1",
+          "loc": "@Cc",
+          "n_tokens": 42,
+          "terminal_token": "okaiin",
+          "has_terminal_seal": false,
+          "eva_preview": "oteeo . cthey . chlol . cheol . olcheor . al . oteey . chedal . oteedy . okeodaly",
+          "gloss_preview": "oteeo <SPRING-NOM[o-]+DECAN-HERB[otEEo]> | cthey <DECAN-HERB[cth]:COOKED[-ey]> | chlol <DECAN-HERB[Cl]:FLUID-BALM[-ol/al]> | cheol <STEM:infused-bench[che]:FLUID-BALM[-ol/al]> | olcheor <SPRING-NOM[o-]+DECAN-HERB[olCe]:ESSENCE-RESIN[-or/ar]> | al <DECAN-HERB[al]:FLUID-BALM[-ol/al]>"
+        },
+        {
+          "line": "12",
+          "loc": "@Cc",
+          "n_tokens": 27,
+          "terminal_token": "qokar",
+          "has_terminal_seal": false,
+          "eva_preview": "oteodar . ytey . otey . shetey . chokshor . okalal . otaiin . sheolaiin . otaiin . chetey",
+          "gloss_preview": "oteodar <SPRING-NOM[o-]+DECAN-HERB[oteod]:ESSENCE-RESIN[-or/ar]> | ytey <AUTUMN-INIT[y-]+AUTUMN:init-stalk[yt]:COOKED[-ey]> | otey <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:COOKED[-ey]> | shetey <DECAN-HERB[Set]:COOKED[-ey]> | chokshor <DECAN-HERB[Cok_S]:ESSENCE-RESIN[-or/ar]> | okalal <SPRING-NOM[o-]+DECAN-HERB[okal]:FLUID-BALM[-ol/al]>"
+        },
+        {
+          "line": "18",
+          "loc": "@Cc",
+          "n_tokens": 13,
+          "terminal_token": "chckhy",
+          "has_terminal_seal": true,
+          "eva_preview": "okeeols . aroly . okees . alaiin . okeor . chol . o . oteos . aiin . chal",
+          "gloss_preview": "okeeols <SPRING-NOM[o-]+DECAN-HERB[okEEols]> | aroly <DECAN-HERB[arol]:STAR-STATE[-y]> | okees <SPRING-NOM[o-]+DECAN-HERB[okEEs]> | alaiin <DECAN-HERB[al]:DEGREE-DOSE[-aiin]> | okeor <SPRING-NOM[o-]+DECAN-HERB[oke]:ESSENCE-RESIN[-or/ar]> | chol <DECAN-HERB[Co]:FLUID-BALM[-ol/al]>"
+        }
+      ],
+      "nymph_labels": [
+        {
+          "line": "2",
+          "loc": "@Lz",
+          "raw": "oshod[a:o]dy",
+          "canon": "oSodady",
+          "stem": "oSoda",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "Soda"
+          ],
+          "gloss": "oshod[a:o]dy <SPRING-NOM[o-]+DECAN-HERB[oSoda]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        },
+        {
+          "line": "3",
+          "loc": "&Lz",
+          "raw": "chdaiirdainy",
+          "canon": "Cdaiirdainy",
+          "stem": "Cdaiirdain",
+          "resolution": "COMPOUND_3STEM",
+          "parts": [
+            "C",
+            "daiir",
+            "dain"
+          ],
+          "gloss": "chdaiirdainy <DECAN-HERB[Cdaiirdain]:STAR-STATE[-y]>",
+          "top_herbal": "f35r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "4",
+          "loc": "&Lz",
+          "raw": "oaiin",
+          "canon": "oaIIN",
+          "stem": "oa",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oa"
+          ],
+          "gloss": "oaiin <SPRING-NOM[o-]+DECAN-HERB[oa]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "f5r($L=A)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "4",
+          "loc": "&Lz",
+          "raw": "ar",
+          "canon": "ar",
+          "stem": "ar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ar"
+          ],
+          "gloss": "ar <DECAN-HERB[ar]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f4v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "4",
+          "loc": "&Lz",
+          "raw": "ary",
+          "canon": "ary",
+          "stem": "ar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ar"
+          ],
+          "gloss": "ary <DECAN-HERB[ar]:STAR-STATE[-y]>",
+          "top_herbal": "f4v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "5",
+          "loc": "&Lz",
+          "raw": "okalam",
+          "canon": "okalam",
+          "stem": "okal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okal"
+          ],
+          "gloss": "okalam <SPRING-NOM[o-]+DECAN-HERB[okal]:RING-SEAL[-am]>",
+          "top_herbal": "f33r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "6",
+          "loc": "&Lz",
+          "raw": "ytalshdy",
+          "canon": "ytalSdy",
+          "stem": "ytalS",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "talS"
+          ],
+          "gloss": "ytalshdy <AUTUMN-INIT[y-]+DECAN-HERB[ytalS]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        },
+        {
+          "line": "7",
+          "loc": "&Lz",
+          "raw": "char",
+          "canon": "Car",
+          "stem": "Ca",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Ca"
+          ],
+          "gloss": "char <DECAN-HERB[Ca]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "7",
+          "loc": "&Lz",
+          "raw": "alif",
+          "canon": "alif",
+          "stem": "alif",
+          "resolution": "COMPOUND_3STEM",
+          "parts": [
+            "al",
+            "i",
+            "f"
+          ],
+          "gloss": "alif <DECAN-HERB[alif]>",
+          "top_herbal": "f2r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "8",
+          "loc": "&Lz",
+          "raw": "otaraldy",
+          "canon": "otaraldy",
+          "stem": "otaral",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "ot",
+            "aral"
+          ],
+          "gloss": "otaraldy <SPRING-NOM[o-]+DECAN-HERB[otaral]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "9",
+          "loc": "&Lz",
+          "raw": "otaiin",
+          "canon": "otaIIN",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "gloss": "otaiin <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "9",
+          "loc": "&Lz",
+          "raw": "otain",
+          "canon": "otain",
+          "stem": "otai",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otai"
+          ],
+          "gloss": "otain <SPRING-NOM[o-]+DECAN-HERB[otai]>",
+          "top_herbal": "f5r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "10",
+          "loc": "&Lz",
+          "raw": "otalef",
+          "canon": "otalef",
+          "stem": "otalef",
+          "resolution": "COMPOUND_3STEM",
+          "parts": [
+            "ota",
+            "le",
+            "f"
+          ],
+          "gloss": "otalef <SPRING-NOM[o-]+DECAN-HERB[otalef]>",
+          "top_herbal": "f5r($L=A)",
+          "in_sections": "HS"
+        },
+        {
+          "line": "10",
+          "loc": "&Lz",
+          "raw": "ys",
+          "canon": "ys",
+          "stem": "ys",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ys"
+          ],
+          "gloss": "ys <AUTUMN-INIT[y-]+DECAN-HERB[ys]>",
+          "top_herbal": "f26v($L=B)",
+          "in_sections": "HP"
+        },
+        {
+          "line": "10",
+          "loc": "&Lz",
+          "raw": "ainam",
+          "canon": "ainam",
+          "stem": "ain",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ain"
+          ],
+          "gloss": "ainam <DECAN-HERB[ain]:RING-SEAL[-am]>",
+          "top_herbal": "f87v($L=A)",
+          "in_sections": "H"
+        },
+        {
+          "line": "11",
+          "loc": "&Lz",
+          "raw": "ochol",
+          "canon": "oCol",
+          "stem": "oC",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oC"
+          ],
+          "gloss": "ochol <SPRING-NOM[o-]+DECAN-HERB[oC]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "11",
+          "loc": "&Lz",
+          "raw": "sharam",
+          "canon": "Saram",
+          "stem": "Sar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Sar"
+          ],
+          "gloss": "sharam <DECAN-HERB[Sar]:RING-SEAL[-am]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        },
+        {
+          "line": "13",
+          "loc": "@Lz",
+          "raw": "ofaralar",
+          "canon": "ofaralar",
+          "stem": "ofaral",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "of",
+            "aral"
+          ],
+          "gloss": "ofaralar <SPRING-NOM[o-]+DECAN-HERB[ofaral]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f39r($L=B)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "14",
+          "loc": "&Lz",
+          "raw": "otchoshy",
+          "canon": "ot_CoSy",
+          "stem": "ot_CoS",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot_CoS"
+          ],
+          "gloss": "otchoshy <SPRING-NOM[o-]+DECAN-HERB[ot_CoS]:STAR-STATE[-y]>",
+          "top_herbal": "f10r($L=A)",
+          "in_sections": "H"
+        },
+        {
+          "line": "15",
+          "loc": "&Lz",
+          "raw": "otchdal",
+          "canon": "ot_Cdal",
+          "stem": "ot_Cd",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot_Cd"
+          ],
+          "gloss": "otchdal <SPRING-NOM[o-]+DECAN-HERB[ot_Cd]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f18v($L=A)",
+          "in_sections": "HS"
+        },
+        {
+          "line": "16",
+          "loc": "&Lz",
+          "raw": "okeey",
+          "canon": "okEEy",
+          "stem": "okEE",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okEE"
+          ],
+          "gloss": "okeey <SPRING-NOM[o-]+DECAN-HERB[okEE]:STAR-STATE[-y]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "16",
+          "loc": "&Lz",
+          "raw": "ary",
+          "canon": "ary",
+          "stem": "ar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ar"
+          ],
+          "gloss": "ary <DECAN-HERB[ar]:STAR-STATE[-y]>",
+          "top_herbal": "f4v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "17",
+          "loc": "&Lz",
+          "raw": "otainy",
+          "canon": "otainy",
+          "stem": "otain",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "tain"
+          ],
+          "gloss": "otainy <SPRING-NOM[o-]+DECAN-HERB[otain]:STAR-STATE[-y]>",
+          "top_herbal": "H-general",
+          "in_sections": "B"
+        }
+      ]
+    },
+    {
+      "folio": "f72r2",
+      "sign": "Gemini (June)",
+      "humoral_quality": "SUMMER_HOT",
+      "n_ring_loci": 3,
+      "n_ring_tokens": 82,
+      "n_nymph_labels": 31,
+      "nymph_morph": {
+        "n_tokens": 31,
+        "mean_len_chars": 5.68,
+        "o_onset_pct": 83.87,
+        "y_onset_pct": 0.0,
+        "qo_onset_pct": 0.0,
+        "y_dy_coda_pct": 45.16,
+        "fluid_resin_ol_or_al_ar_pct": 25.81,
+        "ring_seal_am_m_pct": 19.35,
+        "aiin_coda_pct": 0.0
+      },
+      "ring_morph": {
+        "n_tokens": 82,
+        "mean_len_chars": 4.96,
+        "o_onset_pct": 37.8,
+        "y_onset_pct": 1.22,
+        "qo_onset_pct": 3.66,
+        "y_dy_coda_pct": 30.49,
+        "fluid_resin_ol_or_al_ar_pct": 26.83,
+        "ring_seal_am_m_pct": 0.0,
+        "aiin_coda_pct": 20.73
+      },
+      "best_herbal": {
+        "folio": "f43r(L=B)",
+        "idf": 11.394,
+        "shared_stems": [
+          "EEo",
+          "tal",
+          "otol",
+          "okal"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f99r(L=A)",
+        "idf": 18.341,
+        "shared_stems": [
+          "ral",
+          "dalC",
+          "Cs",
+          "otol"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f82v(L=B)",
+        "idf": 16.144,
+        "shared_stems": [
+          "okalC",
+          "dalC",
+          "oked",
+          "Cs"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114v(L=B)",
+        "idf": 19.015,
+        "shared_stems": [
+          "EEo",
+          "tEEo",
+          "oked",
+          "okar"
+        ]
+      },
+      "rings": [
+        {
+          "line": "6",
+          "loc": "@Cc",
+          "n_tokens": 41,
+          "terminal_token": "otees",
+          "has_terminal_seal": false,
+          "eva_preview": "oteos . aiin . okeo . daiin . okeey . cheo . keodal . chol . okeol . ol{ckhh}y",
+          "gloss_preview": "oteos <SPRING-NOM[o-]+DECAN-HERB[oteos]> | aiin <DECAN-HERB[aIIN]:DEGREE-DOSE[-aiin]> | okeo <SPRING-NOM[o-]+DECAN-HERB[okeo]> | daiin <BASE[d-]+DECAN-HERB[da]:DEGREE-DOSE[-aiin]> | okeey <SPRING-NOM[o-]+DECAN-HERB[okEE]:STAR-STATE[-y]> | cheo <DECAN-HERB[Ceo]>"
+        },
+        {
+          "line": "22",
+          "loc": "@Cc",
+          "n_tokens": 26,
+          "terminal_token": "aiin",
+          "has_terminal_seal": false,
+          "eva_preview": "oteey . tey . teodal . chokaly . ol . cheol . ol . aiin . oteo . daiin",
+          "gloss_preview": "oteey <SPRING-NOM[o-]+DECAN-HERB[otEE]:STAR-STATE[-y]> | tey <STEM:boiled-stalk[te]:COOKED[-ey]> | teodal <DECAN-HERB[teod]:FLUID-BALM[-ol/al]> | chokaly <DECAN-HERB[Cokal]:STAR-STATE[-y]> | ol <SPRING-NOM[o-]+DECAN-HERB[ol]:FLUID-BALM[-ol/al]> | cheol <STEM:infused-bench[che]:FLUID-BALM[-ol/al]>"
+        },
+        {
+          "line": "32",
+          "loc": "@Cc",
+          "n_tokens": 15,
+          "terminal_token": "@211;y",
+          "has_terminal_seal": true,
+          "eva_preview": "otoar . air . aloy . oka[iin:ii?] . otees . chs . chchs . ar . aly . taly",
+          "gloss_preview": "otoar <SPRING-NOM[o-]+DECAN-HERB[oto]:ESSENCE-RESIN[-or/ar]> | air <DECAN-HERB[ai]> | aloy <DECAN-HERB[alo]:STAR-STATE[-y]> | oka[iin:ii?] <SPRING-NOM[o-]+NOM:vessel-calyx[ok]:DEGREE-DOSE[-aiin]> | otees <SPRING-NOM[o-]+DECAN-HERB[otEEs]> | chs <DECAN-HERB[Cs]>"
+        }
+      ],
+      "nymph_labels": [
+        {
+          "line": "1",
+          "loc": "@Lz",
+          "raw": "ofchdamy",
+          "canon": "of_Cdamy",
+          "stem": "of_Cdam",
+          "resolution": "COMPOUND_3STEM",
+          "parts": [
+            "o",
+            "f_Cd",
+            "am"
+          ],
+          "gloss": "ofchdamy <SPRING-NOM[o-]+DECAN-HERB[of_Cdam]:STAR-STATE[-y]>",
+          "top_herbal": "f94v($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "2",
+          "loc": "&Lz",
+          "raw": "oklairdy",
+          "canon": "oklairdy",
+          "stem": "oklair",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "okl",
+            "air"
+          ],
+          "gloss": "oklairdy <SPRING-NOM[o-]+DECAN-HERB[oklair]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "H-general",
+          "in_sections": "PBS"
+        },
+        {
+          "line": "3",
+          "loc": "&Lz",
+          "raw": "okaram",
+          "canon": "okaram",
+          "stem": "okar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okar"
+          ],
+          "gloss": "okaram <SPRING-NOM[o-]+DECAN-HERB[okar]:RING-SEAL[-am]>",
+          "top_herbal": "f3v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "4",
+          "loc": "&Lz",
+          "raw": "okairy",
+          "canon": "okairy",
+          "stem": "okair",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okair"
+          ],
+          "gloss": "okairy <SPRING-NOM[o-]+DECAN-HERB[okair]:STAR-STATE[-y]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        },
+        {
+          "line": "5",
+          "loc": "&Lz",
+          "raw": "okealar",
+          "canon": "okealar",
+          "stem": "okeal",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "keal"
+          ],
+          "gloss": "okealar <SPRING-NOM[o-]+DECAN-HERB[okeal]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        },
+        {
+          "line": "7",
+          "loc": "@Lz",
+          "raw": "otaraldy",
+          "canon": "otaraldy",
+          "stem": "otaral",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "ot",
+            "aral"
+          ],
+          "gloss": "otaraldy <SPRING-NOM[o-]+DECAN-HERB[otaral]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "8",
+          "loc": "&Lz",
+          "raw": "okalar",
+          "canon": "okalar",
+          "stem": "okal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okal"
+          ],
+          "gloss": "okalar <SPRING-NOM[o-]+DECAN-HERB[okal]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f33r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "9",
+          "loc": "&Lz",
+          "raw": "okal",
+          "canon": "okal",
+          "stem": "ok",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok"
+          ],
+          "gloss": "okal <SPRING-NOM[o-]+NOM:vessel-calyx[ok]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "10",
+          "loc": "&Lz",
+          "raw": "okaly",
+          "canon": "okaly",
+          "stem": "okal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okal"
+          ],
+          "gloss": "okaly <SPRING-NOM[o-]+DECAN-HERB[okal]:STAR-STATE[-y]>",
+          "top_herbal": "f33r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "11",
+          "loc": "&Lz",
+          "raw": "okal",
+          "canon": "okal",
+          "stem": "ok",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok"
+          ],
+          "gloss": "okal <SPRING-NOM[o-]+NOM:vessel-calyx[ok]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "12",
+          "loc": "&Lz",
+          "raw": "okeey",
+          "canon": "okEEy",
+          "stem": "okEE",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okEE"
+          ],
+          "gloss": "okeey <SPRING-NOM[o-]+DECAN-HERB[okEE]:STAR-STATE[-y]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "12",
+          "loc": "&Lz",
+          "raw": "ary",
+          "canon": "ary",
+          "stem": "ar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ar"
+          ],
+          "gloss": "ary <DECAN-HERB[ar]:STAR-STATE[-y]>",
+          "top_herbal": "f4v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "13",
+          "loc": "&Lz",
+          "raw": "oteeary",
+          "canon": "otEEary",
+          "stem": "otEEar",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "otEE",
+            "ar"
+          ],
+          "gloss": "oteeary <SPRING-NOM[o-]+DECAN-HERB[otEEar]:STAR-STATE[-y]>",
+          "top_herbal": "f8v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "14",
+          "loc": "&Lz",
+          "raw": "otair",
+          "canon": "otair",
+          "stem": "otai",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otai"
+          ],
+          "gloss": "otair <SPRING-NOM[o-]+DECAN-HERB[otai]>",
+          "top_herbal": "f5r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "14",
+          "loc": "&Lz",
+          "raw": "dy",
+          "canon": "dy",
+          "stem": "dy",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "dy"
+          ],
+          "gloss": "dy <BASE[d-]+DECAN-HERB[dy]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f2r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "15",
+          "loc": "&Lz",
+          "raw": "okaircham",
+          "canon": "okairCam",
+          "stem": "okairC",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "ok",
+            "airC"
+          ],
+          "gloss": "okaircham <SPRING-NOM[o-]+DECAN-HERB[okairC]:RING-SEAL[-am]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "16",
+          "loc": "&Lz",
+          "raw": "okeal",
+          "canon": "okeal",
+          "stem": "oke",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oke"
+          ],
+          "gloss": "okeal <SPRING-NOM[o-]+DECAN-HERB[oke]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f3v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "17",
+          "loc": "&Lz",
+          "raw": "otar{cr}",
+          "canon": "otarcr",
+          "stem": "otarc",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "otar",
+            "c"
+          ],
+          "gloss": "otar{cr} <SPRING-NOM[o-]+DECAN-HERB[otarc]>",
+          "top_herbal": "f8r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "18",
+          "loc": "&Lz",
+          "raw": "okaly",
+          "canon": "okaly",
+          "stem": "okal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okal"
+          ],
+          "gloss": "okaly <SPRING-NOM[o-]+DECAN-HERB[okal]:STAR-STATE[-y]>",
+          "top_herbal": "f33r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "19",
+          "loc": "&Lz",
+          "raw": "orary",
+          "canon": "orary",
+          "stem": "orar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "orar"
+          ],
+          "gloss": "orary <SPRING-NOM[o-]+DECAN-HERB[orar]:STAR-STATE[-y]>",
+          "top_herbal": "H-general",
+          "in_sections": "P"
+        },
+        {
+          "line": "20",
+          "loc": "&Lz",
+          "raw": "okyd",
+          "canon": "okyd",
+          "stem": "okyd",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okyd"
+          ],
+          "gloss": "okyd <SPRING-NOM[o-]+DECAN-HERB[okyd]>",
+          "top_herbal": "H-general",
+          "in_sections": ""
+        },
+        {
+          "line": "21",
+          "loc": "&Lz",
+          "raw": "otolam",
+          "canon": "otolam",
+          "stem": "otol",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otol"
+          ],
+          "gloss": "otolam <SPRING-NOM[o-]+DECAN-HERB[otol]:RING-SEAL[-am]>",
+          "top_herbal": "f22r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "23",
+          "loc": "@Lz",
+          "raw": "otal",
+          "canon": "otal",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "gloss": "otal <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "24",
+          "loc": "&Lz",
+          "raw": "ralal",
+          "canon": "ralal",
+          "stem": "ral",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ral"
+          ],
+          "gloss": "ralal <DECAN-HERB[ral]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "H-general",
+          "in_sections": "PBS"
+        },
+        {
+          "line": "25",
+          "loc": "&Lz",
+          "raw": "okam",
+          "canon": "okam",
+          "stem": "ok",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok"
+          ],
+          "gloss": "okam <SPRING-NOM[o-]+NOM:vessel-calyx[ok]:RING-SEAL[-am]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "26",
+          "loc": "&Lz",
+          "raw": "otalshy",
+          "canon": "otalSy",
+          "stem": "otalS",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otalS"
+          ],
+          "gloss": "otalshy <SPRING-NOM[o-]+DECAN-HERB[otalS]:STAR-STATE[-y]>",
+          "top_herbal": "H-general",
+          "in_sections": "BS"
+        },
+        {
+          "line": "27",
+          "loc": "&Lz",
+          "raw": "okaldy",
+          "canon": "okaldy",
+          "stem": "okal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okal"
+          ],
+          "gloss": "okaldy <SPRING-NOM[o-]+DECAN-HERB[okal]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f33r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "28",
+          "loc": "&Lz",
+          "raw": "chosar",
+          "canon": "Cosar",
+          "stem": "Cos",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Cos"
+          ],
+          "gloss": "chosar <DECAN-HERB[Cos]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f15r($L=A)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "29",
+          "loc": "&Lz",
+          "raw": "otam",
+          "canon": "otam",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "gloss": "otam <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:RING-SEAL[-am]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "30",
+          "loc": "&Lz",
+          "raw": "ainaly",
+          "canon": "ainaly",
+          "stem": "ainal",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "ain",
+            "al"
+          ],
+          "gloss": "ainaly <DECAN-HERB[ainal]:STAR-STATE[-y]>",
+          "top_herbal": "f87v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "31",
+          "loc": "&Lz",
+          "raw": "okarcham",
+          "canon": "okarCam",
+          "stem": "okarC",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okarC"
+          ],
+          "gloss": "okarcham <SPRING-NOM[o-]+DECAN-HERB[okarC]:RING-SEAL[-am]>",
+          "top_herbal": "H-general",
+          "in_sections": "B"
+        }
+      ]
+    },
+    {
+      "folio": "f72r3",
+      "sign": "Cancer (July)",
+      "humoral_quality": "SUMMER_MOIST",
+      "n_ring_loci": 4,
+      "n_ring_tokens": 123,
+      "n_nymph_labels": 41,
+      "nymph_morph": {
+        "n_tokens": 41,
+        "mean_len_chars": 6.63,
+        "o_onset_pct": 63.41,
+        "y_onset_pct": 14.63,
+        "qo_onset_pct": 0.0,
+        "y_dy_coda_pct": 26.83,
+        "fluid_resin_ol_or_al_ar_pct": 29.27,
+        "ring_seal_am_m_pct": 4.88,
+        "aiin_coda_pct": 21.95
+      },
+      "ring_morph": {
+        "n_tokens": 123,
+        "mean_len_chars": 5.33,
+        "o_onset_pct": 39.84,
+        "y_onset_pct": 4.88,
+        "qo_onset_pct": 0.0,
+        "y_dy_coda_pct": 36.59,
+        "fluid_resin_ol_or_al_ar_pct": 26.02,
+        "ring_seal_am_m_pct": 1.63,
+        "aiin_coda_pct": 12.2
+      },
+      "best_herbal": {
+        "folio": "f43v(L=B)",
+        "idf": 20.528,
+        "shared_stems": [
+          "oteos",
+          "oted",
+          "oteod",
+          "Cocth"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f102v2(L=A)",
+        "idf": 22.431,
+        "shared_stems": [
+          "okeos",
+          "keod",
+          "oEEs",
+          "teo"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f76v(L=B)",
+        "idf": 23.347,
+        "shared_stems": [
+          "dotEE",
+          "alal",
+          "Seol",
+          "oted"
+        ]
+      },
+      "best_starred": {
+        "folio": "f113r(L=B)",
+        "idf": 30.711,
+        "shared_stems": [
+          "ykolair",
+          "Ceoke",
+          "Cocth",
+          "teo"
+        ]
+      },
+      "rings": [
+        {
+          "line": "1",
+          "loc": "@Cc",
+          "n_tokens": 47,
+          "terminal_token": "chorain",
+          "has_terminal_seal": false,
+          "eva_preview": "okeey . chekoy . oteo . ykeey . chedaiin . okeeol . cheeor . chocthar . ar . oteody",
+          "gloss_preview": "okeey <SPRING-NOM[o-]+DECAN-HERB[okEE]:STAR-STATE[-y]> | chekoy <DECAN-HERB[Ceko]:STAR-STATE[-y]> | oteo <SPRING-NOM[o-]+DECAN-HERB[oteo]> | ykeey <AUTUMN-INIT[y-]+DECAN-HERB[ykEE]:STAR-STATE[-y]> | chedaiin <DECAN-HERB[Ced]:DEGREE-DOSE[-aiin]> | okeeol <SPRING-NOM[o-]+DECAN-HERB[okEE]:FLUID-BALM[-ol/al]>"
+        },
+        {
+          "line": "14",
+          "loc": "@Cc",
+          "n_tokens": 41,
+          "terminal_token": "ykoly",
+          "has_terminal_seal": true,
+          "eva_preview": "otochedy . otey . o . koey . sheedy . oteodar . ykeolol . y . air . oteos",
+          "gloss_preview": "otochedy <SPRING-NOM[o-]+DECAN-HERB[otoC]:PROCESS[-edy]> | otey <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:COOKED[-ey]> | o <SPRING-NOM[o-]+DECAN-HERB[o]> | koey <DECAN-HERB[ko]:COOKED[-ey]> | sheedy <DECAN-HERB[SEE]:PROCESS[-edy]> | oteodar <SPRING-NOM[o-]+DECAN-HERB[oteod]:ESSENCE-RESIN[-or/ar]>"
+        },
+        {
+          "line": "26",
+          "loc": "@Cc",
+          "n_tokens": 26,
+          "terminal_token": "ckhol",
+          "has_terminal_seal": false,
+          "eva_preview": "oteey . [a:?]rary . eee[r:s] . che@212;shees . opcholalaiin . oteeor . am . sheal . o[k:t]aipchy . oteees",
+          "gloss_preview": "oteey <SPRING-NOM[o-]+DECAN-HERB[otEE]:STAR-STATE[-y]> | [a:?]rary <DECAN-HERB[arar]:STAR-STATE[-y]> | eee[r:s] <DECAN-HERB[EE]> | che@212;shees <DECAN-HERB[CeSEEs]> | opcholalaiin <SPRING-NOM[o-]+DECAN-HERB[op_Colal]:DEGREE-DOSE[-aiin]> | oteeor <SPRING-NOM[o-]+DECAN-HERB[otEE]:ESSENCE-RESIN[-or/ar]>"
+        },
+        {
+          "line": "34",
+          "loc": "@Cc",
+          "n_tokens": 9,
+          "terminal_token": "koly",
+          "has_terminal_seal": true,
+          "eva_preview": "okeos . aiin . olaiin . oraiin . octheolarl . okeeody . oteos . aiin . koly",
+          "gloss_preview": "okeos <SPRING-NOM[o-]+DECAN-HERB[okeos]> | aiin <DECAN-HERB[aIIN]:DEGREE-DOSE[-aiin]> | olaiin <SPRING-NOM[o-]+DECAN-HERB[ol]:DEGREE-DOSE[-aiin]> | oraiin <SPRING-NOM[o-]+DECAN-HERB[or]:DEGREE-DOSE[-aiin]> | octheolarl <SPRING-NOM[o-]+DECAN-HERB[octheolar]> | okeeody <SPRING-NOM[o-]+DECAN-HERB[okEEo]:STEEPED-NYMPH[-dy]>"
+        }
+      ],
+      "nymph_labels": [
+        {
+          "line": "2",
+          "loc": "@Lz",
+          "raw": "olkalaiin",
+          "canon": "olkalaIIN",
+          "stem": "olkal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "olkal"
+          ],
+          "gloss": "olkalaiin <SPRING-NOM[o-]+DECAN-HERB[olkal]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "H-general",
+          "in_sections": ""
+        },
+        {
+          "line": "3",
+          "loc": "&Lz",
+          "raw": "olalsy",
+          "canon": "olalsy",
+          "stem": "olals",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "als"
+          ],
+          "gloss": "olalsy <SPRING-NOM[o-]+DECAN-HERB[olals]:STAR-STATE[-y]>",
+          "top_herbal": "f31v($L=B)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "4",
+          "loc": "&Lz",
+          "raw": "oraiinam",
+          "canon": "oraIINam",
+          "stem": "oraIIN",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "aIIN"
+          ],
+          "gloss": "oraiinam <SPRING-NOM[o-]+DECAN-HERB[oraIIN]:RING-SEAL[-am]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "5",
+          "loc": "&Lz",
+          "raw": "osarsheeeo",
+          "canon": "osarSEEo",
+          "stem": "osarSEEo",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "osar",
+            "SEEo"
+          ],
+          "gloss": "osarsheeeo <SPRING-NOM[o-]+DECAN-HERB[osarSEEo]>",
+          "top_herbal": "f31r($L=B)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "6",
+          "loc": "&Lz",
+          "raw": "oto@192;aiin",
+          "canon": "otoaIIN",
+          "stem": "oto",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oto"
+          ],
+          "gloss": "oto@192;aiin <SPRING-NOM[o-]+DECAN-HERB[oto]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "7",
+          "loc": "&Lz",
+          "raw": "opoiiin[o:?]in",
+          "canon": "opoIINoin",
+          "stem": "opoIINoi",
+          "resolution": "COMPOUND_3STEM",
+          "parts": [
+            "op",
+            "oIIN",
+            "oi"
+          ],
+          "gloss": "opoiiin[o:?]in <SPRING-NOM[o-]+DECAN-HERB[opoIINoi]>",
+          "top_herbal": "f14r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "7",
+          "loc": "&Lz",
+          "raw": "al",
+          "canon": "al",
+          "stem": "al",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "al"
+          ],
+          "gloss": "al <DECAN-HERB[al]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f2r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "7",
+          "loc": "&Lz",
+          "raw": "[ch:a]es",
+          "canon": "Ces",
+          "stem": "Ces",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Ces"
+          ],
+          "gloss": "[ch:a]es <DECAN-HERB[Ces]>",
+          "top_herbal": "f6v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "8",
+          "loc": "&Lz",
+          "raw": "ypaiin",
+          "canon": "ypaIIN",
+          "stem": "yp",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yp"
+          ],
+          "gloss": "ypaiin <AUTUMN-INIT[y-]+AUTUMN:init-cup[yp]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "f43r($L=B)",
+          "in_sections": "HS"
+        },
+        {
+          "line": "8",
+          "loc": "&Lz",
+          "raw": "alaly",
+          "canon": "alaly",
+          "stem": "alal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "alal"
+          ],
+          "gloss": "alaly <DECAN-HERB[alal]:STAR-STATE[-y]>",
+          "top_herbal": "H-general",
+          "in_sections": "BS"
+        },
+        {
+          "line": "9",
+          "loc": "&Lz",
+          "raw": "oteey",
+          "canon": "otEEy",
+          "stem": "otEE",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otEE"
+          ],
+          "gloss": "oteey <SPRING-NOM[o-]+DECAN-HERB[otEE]:STAR-STATE[-y]>",
+          "top_herbal": "f8v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "9",
+          "loc": "&Lz",
+          "raw": "daiin",
+          "canon": "daIIN",
+          "stem": "da",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "da"
+          ],
+          "gloss": "daiin <BASE[d-]+DECAN-HERB[da]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "10",
+          "loc": "&Lz",
+          "raw": "oeeodaiin",
+          "canon": "oEEodaIIN",
+          "stem": "oEEod",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oEEod"
+          ],
+          "gloss": "oeeodaiin <SPRING-NOM[o-]+DECAN-HERB[oEEod]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        },
+        {
+          "line": "11",
+          "loc": "&Lz",
+          "raw": "ofsholdy",
+          "canon": "of_Soldy",
+          "stem": "of_Sol",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "of_S",
+            "ol"
+          ],
+          "gloss": "ofsholdy <SPRING-NOM[o-]+DECAN-HERB[of_Sol]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "12",
+          "loc": "&Lz",
+          "raw": "opoeey",
+          "canon": "opoEEy",
+          "stem": "opoEE",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "poEE"
+          ],
+          "gloss": "opoeey <SPRING-NOM[o-]+DECAN-HERB[opoEE]:STAR-STATE[-y]>",
+          "top_herbal": "f25v($L=A)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "12",
+          "loc": "&Lz",
+          "raw": "okaiin",
+          "canon": "okaIIN",
+          "stem": "ok",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok"
+          ],
+          "gloss": "okaiin <SPRING-NOM[o-]+NOM:vessel-calyx[ok]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "13",
+          "loc": "&Lz",
+          "raw": "ykolairol",
+          "canon": "ykolairol",
+          "stem": "ykolair",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ykolair"
+          ],
+          "gloss": "ykolairol <AUTUMN-INIT[y-]+DECAN-HERB[ykolair]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        },
+        {
+          "line": "15",
+          "loc": "@Lz",
+          "raw": "oralkam",
+          "canon": "oralkam",
+          "stem": "oralk",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "alk"
+          ],
+          "gloss": "oralkam <SPRING-NOM[o-]+DECAN-HERB[oralk]:RING-SEAL[-am]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        },
+        {
+          "line": "16",
+          "loc": "&Lz",
+          "raw": "ytairal",
+          "canon": "ytairal",
+          "stem": "ytair",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "yt",
+            "air"
+          ],
+          "gloss": "ytairal <AUTUMN-INIT[y-]+DECAN-HERB[ytair]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f3v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "17",
+          "loc": "&Lz",
+          "raw": "oeee[s:r]aiin",
+          "canon": "oEEsaIIN",
+          "stem": "oEEs",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oEEs"
+          ],
+          "gloss": "oeee[s:r]aiin <SPRING-NOM[o-]+DECAN-HERB[oEEs]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "f6v($L=A)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "18",
+          "loc": "&Lz",
+          "raw": "ory",
+          "canon": "ory",
+          "stem": "or",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "or"
+          ],
+          "gloss": "ory <SPRING-NOM[o-]+DECAN-HERB[or]:STAR-STATE[-y]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "19",
+          "loc": "&Lz",
+          "raw": "ochey",
+          "canon": "oCey",
+          "stem": "oC",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oC"
+          ],
+          "gloss": "ochey <SPRING-NOM[o-]+DECAN-HERB[oC]:COOKED[-ey]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "19",
+          "loc": "&Lz",
+          "raw": "fydy",
+          "canon": "fydy",
+          "stem": "fy",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "fy"
+          ],
+          "gloss": "fydy <DECAN-HERB[fy]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f52r($L=A)",
+          "in_sections": "H"
+        },
+        {
+          "line": "20",
+          "loc": "&Lz",
+          "raw": "of???",
+          "canon": "of",
+          "stem": "of",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "of"
+          ],
+          "gloss": "of??? <SPRING-NOM[o-]+NOM:vessel-plume[of]>",
+          "top_herbal": "f39r($L=B)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "20",
+          "loc": "&Lz",
+          "raw": "o",
+          "canon": "o",
+          "stem": "o",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "o"
+          ],
+          "gloss": "o <SPRING-NOM[o-]+DECAN-HERB[o]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "20",
+          "loc": "&Lz",
+          "raw": "eeesaly",
+          "canon": "EEsaly",
+          "stem": "EEsal",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "EE",
+            "sal"
+          ],
+          "gloss": "eeesaly <DECAN-HERB[EEsal]:STAR-STATE[-y]>",
+          "top_herbal": "f26v($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "21",
+          "loc": "&Lz",
+          "raw": "ykaraiin",
+          "canon": "ykaraIIN",
+          "stem": "ykar",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "kar"
+          ],
+          "gloss": "ykaraiin <AUTUMN-INIT[y-]+DECAN-HERB[ykar]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "f42r($L=A)",
+          "in_sections": "HBS"
+        },
+        {
+          "line": "21",
+          "loc": "&Lz",
+          "raw": "airal",
+          "canon": "airal",
+          "stem": "air",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "air"
+          ],
+          "gloss": "airal <DECAN-HERB[air]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "H-general",
+          "in_sections": "PS"
+        },
+        {
+          "line": "22",
+          "loc": "&Lz",
+          "raw": "okalar",
+          "canon": "okalar",
+          "stem": "okal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okal"
+          ],
+          "gloss": "okalar <SPRING-NOM[o-]+DECAN-HERB[okal]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f33r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "23",
+          "loc": "&Lz",
+          "raw": "orara",
+          "canon": "orara",
+          "stem": "orara",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "ara"
+          ],
+          "gloss": "orara <SPRING-NOM[o-]+DECAN-HERB[orara]>",
+          "top_herbal": "H-general",
+          "in_sections": "B"
+        },
+        {
+          "line": "24",
+          "loc": "&Lz",
+          "raw": "olaiin",
+          "canon": "olaIIN",
+          "stem": "ol",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ol"
+          ],
+          "gloss": "olaiin <SPRING-NOM[o-]+DECAN-HERB[ol]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "24",
+          "loc": "&Lz",
+          "raw": "ola{ikh}y",
+          "canon": "olaikhy",
+          "stem": "olaikh",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "aikh"
+          ],
+          "gloss": "ola{ikh}y <SPRING-NOM[o-]+DECAN-HERB[olaikh]:STAR-STATE[-y]>",
+          "top_herbal": "f31v($L=B)",
+          "in_sections": "HS"
+        },
+        {
+          "line": "25",
+          "loc": "&Lz",
+          "raw": "olfsheoral",
+          "canon": "olf_Seoral",
+          "stem": "olf_Seor",
+          "resolution": "UNRESOLVED",
+          "parts": [
+            "olf_Seor"
+          ],
+          "gloss": "olfsheoral <SPRING-NOM[o-]+DECAN-HERB[olf_Seor]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "H-general",
+          "in_sections": ""
+        },
+        {
+          "line": "27",
+          "loc": "@Lz",
+          "raw": "opalal",
+          "canon": "opalal",
+          "stem": "opal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "opal"
+          ],
+          "gloss": "opalal <SPRING-NOM[o-]+DECAN-HERB[opal]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f48r($L=B)",
+          "in_sections": "HBS"
+        },
+        {
+          "line": "28",
+          "loc": "&Lz",
+          "raw": "yfary",
+          "canon": "yfary",
+          "stem": "yfar",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "far"
+          ],
+          "gloss": "yfary <AUTUMN-INIT[y-]+DECAN-HERB[yfar]:STAR-STATE[-y]>",
+          "top_herbal": "H-general",
+          "in_sections": ""
+        },
+        {
+          "line": "29",
+          "loc": "&Lz",
+          "raw": "oraiiral",
+          "canon": "oraiiral",
+          "stem": "oraiir",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "aiir"
+          ],
+          "gloss": "oraiiral <SPRING-NOM[o-]+DECAN-HERB[oraiir]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        },
+        {
+          "line": "30",
+          "loc": "&Lz",
+          "raw": "ytoar",
+          "canon": "ytoar",
+          "stem": "yto",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yto"
+          ],
+          "gloss": "ytoar <AUTUMN-INIT[y-]+DECAN-HERB[yto]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f4r($L=A)",
+          "in_sections": "HS"
+        },
+        {
+          "line": "30",
+          "loc": "&Lz",
+          "raw": "shar",
+          "canon": "Sar",
+          "stem": "Sa",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Sa"
+          ],
+          "gloss": "shar <DECAN-HERB[Sa]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f2r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "31",
+          "loc": "&Lz",
+          "raw": "octho",
+          "canon": "octho",
+          "stem": "octho",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "octho"
+          ],
+          "gloss": "octho <SPRING-NOM[o-]+DECAN-HERB[octho]>",
+          "top_herbal": "f10r($L=A)",
+          "in_sections": "HP"
+        },
+        {
+          "line": "32",
+          "loc": "&Lz",
+          "raw": "aral",
+          "canon": "aral",
+          "stem": "ar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ar"
+          ],
+          "gloss": "aral <DECAN-HERB[ar]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f4v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "33",
+          "loc": "&Lz",
+          "raw": "oletal",
+          "canon": "oletal",
+          "stem": "olet",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "et"
+          ],
+          "gloss": "oletal <SPRING-NOM[o-]+DECAN-HERB[olet]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f8v($L=A)",
+          "in_sections": "HPBS"
+        }
+      ]
+    },
+    {
+      "folio": "f72v3",
+      "sign": "Leo (August)",
+      "humoral_quality": "SUMMER_DRY",
+      "n_ring_loci": 3,
+      "n_ring_tokens": 84,
+      "n_nymph_labels": 34,
+      "nymph_morph": {
+        "n_tokens": 34,
+        "mean_len_chars": 6.15,
+        "o_onset_pct": 70.59,
+        "y_onset_pct": 2.94,
+        "qo_onset_pct": 0.0,
+        "y_dy_coda_pct": 61.76,
+        "fluid_resin_ol_or_al_ar_pct": 8.82,
+        "ring_seal_am_m_pct": 5.88,
+        "aiin_coda_pct": 8.82
+      },
+      "ring_morph": {
+        "n_tokens": 84,
+        "mean_len_chars": 5.87,
+        "o_onset_pct": 47.62,
+        "y_onset_pct": 5.95,
+        "qo_onset_pct": 0.0,
+        "y_dy_coda_pct": 52.38,
+        "fluid_resin_ol_or_al_ar_pct": 23.81,
+        "ring_seal_am_m_pct": 0.0,
+        "aiin_coda_pct": 5.95
+      },
+      "best_herbal": {
+        "folio": "f43v(L=B)",
+        "idf": 21.323,
+        "shared_stems": [
+          "Secth",
+          "Cep",
+          "oteos",
+          "oted"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f102v2(L=A)",
+        "idf": 17.445,
+        "shared_stems": [
+          "okeos",
+          "dEE",
+          "oEEs",
+          "teo"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f76v(L=B)",
+        "idf": 19.787,
+        "shared_stems": [
+          "de",
+          "Secth",
+          "dEE",
+          "oted"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114v(L=B)",
+        "idf": 28.861,
+        "shared_stems": [
+          "ot_Ceo",
+          "oteC",
+          "dEE",
+          "otEEo"
+        ]
+      },
+      "rings": [
+        {
+          "line": "1",
+          "loc": "@Cc",
+          "n_tokens": 40,
+          "terminal_token": "chokary",
+          "has_terminal_seal": true,
+          "eva_preview": "soees . otchs . otedar . oteody . oteodal . oteos . oteokchd? . oteody . sheokeey . sheody",
+          "gloss_preview": "soees <SHOOT[s-]+DECAN-HERB[soEEs]> | otchs <SPRING-NOM[o-]+DECAN-HERB[ot_Cs]> | otedar <SPRING-NOM[o-]+DECAN-HERB[oted]:ESSENCE-RESIN[-or/ar]> | oteody <SPRING-NOM[o-]+DECAN-HERB[oteo]:STEEPED-NYMPH[-dy]> | oteodal <SPRING-NOM[o-]+DECAN-HERB[oteod]:FLUID-BALM[-ol/al]> | oteos <SPRING-NOM[o-]+DECAN-HERB[oteos]>"
+        },
+        {
+          "line": "20",
+          "loc": "@Cc",
+          "n_tokens": 32,
+          "terminal_token": "okea???",
+          "has_terminal_seal": false,
+          "eva_preview": "ototeey . r . chlyiintee . or . oteey . oteeody . cheokey . okeoekol . oteor . aiin",
+          "gloss_preview": "ototeey <SPRING-NOM[o-]+DECAN-HERB[ototEE]:STAR-STATE[-y]> | r <SOL:sharp-resin/seed[r]> | chlyiintee <DECAN-HERB[ClyIINtEE]> | or <SPRING-NOM[o-]+DECAN-HERB[or]:ESSENCE-RESIN[-or/ar]> | oteey <SPRING-NOM[o-]+DECAN-HERB[otEE]:STAR-STATE[-y]> | oteeody <SPRING-NOM[o-]+DECAN-HERB[otEEo]:STEEPED-NYMPH[-dy]>"
+        },
+        {
+          "line": "33",
+          "loc": "@Cc",
+          "n_tokens": 12,
+          "terminal_token": "cheor",
+          "has_terminal_seal": false,
+          "eva_preview": "okesee[s:r] . ar . chkeeol . okeolaiin . chalal . ykeeodarar . oleeody . shedy . solar . aldy",
+          "gloss_preview": "okesee[s:r] <SPRING-NOM[o-]+DECAN-HERB[okesEEs]> | ar <DECAN-HERB[ar]:ESSENCE-RESIN[-or/ar]> | chkeeol <DECAN-HERB[CkEE]:FLUID-BALM[-ol/al]> | okeolaiin <SPRING-NOM[o-]+DECAN-HERB[okeol]:DEGREE-DOSE[-aiin]> | chalal <DECAN-HERB[Cal]:FLUID-BALM[-ol/al]> | ykeeodarar <AUTUMN-INIT[y-]+DECAN-HERB[ykEEodar]:ESSENCE-RESIN[-or/ar]>"
+        }
+      ],
+      "nymph_labels": [
+        {
+          "line": "2",
+          "loc": "@Lz",
+          "raw": "ocham",
+          "canon": "oCam",
+          "stem": "oC",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oC"
+          ],
+          "gloss": "ocham <SPRING-NOM[o-]+DECAN-HERB[oC]:RING-SEAL[-am]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "3",
+          "loc": "&Lz",
+          "raw": "orchey",
+          "canon": "orCey",
+          "stem": "orC",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "orC"
+          ],
+          "gloss": "orchey <SPRING-NOM[o-]+DECAN-HERB[orC]:COOKED[-ey]>",
+          "top_herbal": "f8v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "4",
+          "loc": "&Lz",
+          "raw": "okam",
+          "canon": "okam",
+          "stem": "ok",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok"
+          ],
+          "gloss": "okam <SPRING-NOM[o-]+NOM:vessel-calyx[ok]:RING-SEAL[-am]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "5",
+          "loc": "&Lz",
+          "raw": "okey",
+          "canon": "okey",
+          "stem": "ok",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok"
+          ],
+          "gloss": "okey <SPRING-NOM[o-]+NOM:vessel-calyx[ok]:COOKED[-ey]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "6",
+          "loc": "&Lz",
+          "raw": "otcheody",
+          "canon": "ot_Ceody",
+          "stem": "ot_Ceo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot_Ceo"
+          ],
+          "gloss": "otcheody <SPRING-NOM[o-]+DECAN-HERB[ot_Ceo]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        },
+        {
+          "line": "7",
+          "loc": "&Lz",
+          "raw": "okyeeshy",
+          "canon": "okyEESy",
+          "stem": "okyEES",
+          "resolution": "COMPOUND_3STEM",
+          "parts": [
+            "oky",
+            "EE",
+            "S"
+          ],
+          "gloss": "okyeeshy <SPRING-NOM[o-]+DECAN-HERB[okyEES]:STAR-STATE[-y]>",
+          "top_herbal": "f3v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "8",
+          "loc": "&Lz",
+          "raw": "[{c'y}:??]ofaiin",
+          "canon": "cyofaIIN",
+          "stem": "cyof",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "cy",
+            "of"
+          ],
+          "gloss": "[{c'y}:??]ofaiin <DECAN-HERB[cyof]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "f5v($L=A)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "9",
+          "loc": "&Lz",
+          "raw": "okaly",
+          "canon": "okaly",
+          "stem": "okal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okal"
+          ],
+          "gloss": "okaly <SPRING-NOM[o-]+DECAN-HERB[okal]:STAR-STATE[-y]>",
+          "top_herbal": "f33r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "10",
+          "loc": "&Lz",
+          "raw": "ot[o:a]ly",
+          "canon": "otoly",
+          "stem": "otol",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otol"
+          ],
+          "gloss": "ot[o:a]ly <SPRING-NOM[o-]+DECAN-HERB[otol]:STAR-STATE[-y]>",
+          "top_herbal": "f22r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "11",
+          "loc": "&Lz",
+          "raw": "ofalals",
+          "canon": "ofalals",
+          "stem": "ofalals",
+          "resolution": "COMPOUND_3STEM",
+          "parts": [
+            "of",
+            "al",
+            "als"
+          ],
+          "gloss": "ofalals <SPRING-NOM[o-]+DECAN-HERB[ofalals]>",
+          "top_herbal": "f31v($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "12",
+          "loc": "&Lz",
+          "raw": "sheeos",
+          "canon": "SEEos",
+          "stem": "SEEos",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "SEEos"
+          ],
+          "gloss": "sheeos <DECAN-HERB[SEEos]>",
+          "top_herbal": "H-general",
+          "in_sections": "P"
+        },
+        {
+          "line": "12",
+          "loc": "&Lz",
+          "raw": "o{cfhh}y",
+          "canon": "ocfhhy",
+          "stem": "ocfhh",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ocfhh"
+          ],
+          "gloss": "o{cfhh}y <SPRING-NOM[o-]+DECAN-HERB[ocfhh]:STAR-STATE[-y]>",
+          "top_herbal": "H-general",
+          "in_sections": ""
+        },
+        {
+          "line": "13",
+          "loc": "&Lz",
+          "raw": "daiin",
+          "canon": "daIIN",
+          "stem": "da",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "da"
+          ],
+          "gloss": "daiin <BASE[d-]+DECAN-HERB[da]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "13",
+          "loc": "&Lz",
+          "raw": "chepy",
+          "canon": "Cepy",
+          "stem": "Cep",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Cep"
+          ],
+          "gloss": "chepy <DECAN-HERB[Cep]:STAR-STATE[-y]>",
+          "top_herbal": "f29r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "14",
+          "loc": "&Lz",
+          "raw": "oteey",
+          "canon": "otEEy",
+          "stem": "otEE",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otEE"
+          ],
+          "gloss": "oteey <SPRING-NOM[o-]+DECAN-HERB[otEE]:STAR-STATE[-y]>",
+          "top_herbal": "f8v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "14",
+          "loc": "&Lz",
+          "raw": "deeal",
+          "canon": "dEEal",
+          "stem": "dEE",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "dEE"
+          ],
+          "gloss": "deeal <BASE[d-]+DECAN-HERB[dEE]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f21v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "15",
+          "loc": "&Lz",
+          "raw": "chealpy",
+          "canon": "Cealpy",
+          "stem": "Cealp",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "Cea",
+            "lp"
+          ],
+          "gloss": "chealpy <DECAN-HERB[Cealp]:STAR-STATE[-y]>",
+          "top_herbal": "f8r($L=A)",
+          "in_sections": "HS"
+        },
+        {
+          "line": "16",
+          "loc": "&Lz",
+          "raw": "okeeol",
+          "canon": "okEEol",
+          "stem": "okEE",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okEE"
+          ],
+          "gloss": "okeeol <SPRING-NOM[o-]+DECAN-HERB[okEE]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "17",
+          "loc": "&Lz",
+          "raw": "okaly",
+          "canon": "okaly",
+          "stem": "okal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okal"
+          ],
+          "gloss": "okaly <SPRING-NOM[o-]+DECAN-HERB[okal]:STAR-STATE[-y]>",
+          "top_herbal": "f33r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "18",
+          "loc": "&Lz",
+          "raw": "okaldy",
+          "canon": "okaldy",
+          "stem": "okal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okal"
+          ],
+          "gloss": "okaldy <SPRING-NOM[o-]+DECAN-HERB[okal]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f33r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "19",
+          "loc": "&Lz",
+          "raw": "okeolyd",
+          "canon": "okeolyd",
+          "stem": "okeolyd",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "okeol",
+            "yd"
+          ],
+          "gloss": "okeolyd <SPRING-NOM[o-]+DECAN-HERB[okeolyd]>",
+          "top_herbal": "f2r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "21",
+          "loc": "@Lz",
+          "raw": "choleey",
+          "canon": "ColEEy",
+          "stem": "ColEE",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "C",
+            "olEE"
+          ],
+          "gloss": "choleey <DECAN-HERB[ColEE]:STAR-STATE[-y]>",
+          "top_herbal": "f41v($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "22",
+          "loc": "&Lz",
+          "raw": "oky",
+          "canon": "oky",
+          "stem": "ok",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok"
+          ],
+          "gloss": "oky <SPRING-NOM[o-]+NOM:vessel-calyx[ok]:STAR-STATE[-y]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "23",
+          "loc": "&Lz",
+          "raw": "ch{cthh}y",
+          "canon": "Ccthhy",
+          "stem": "Ccthh",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Ccthh"
+          ],
+          "gloss": "ch{cthh}y <DECAN-HERB[Ccthh]:STAR-STATE[-y]>",
+          "top_herbal": "H-general",
+          "in_sections": "BS"
+        },
+        {
+          "line": "24",
+          "loc": "&Lz",
+          "raw": "laly",
+          "canon": "laly",
+          "stem": "lal",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "al"
+          ],
+          "gloss": "laly <BATH[l-]+DECAN-HERB[lal]:STAR-STATE[-y]>",
+          "top_herbal": "f2r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "25",
+          "loc": "&Lz",
+          "raw": "oeedy",
+          "canon": "oEEdy",
+          "stem": "oEE",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oEE"
+          ],
+          "gloss": "oeedy <SPRING-NOM[o-]+DECAN-HERB[oEE]:PROCESS[-edy]>",
+          "top_herbal": "f7v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "26",
+          "loc": "&Lz",
+          "raw": "odairan",
+          "canon": "odairan",
+          "stem": "odaira",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "odai",
+            "ra"
+          ],
+          "gloss": "odairan <SPRING-NOM[o-]+DECAN-HERB[odaira]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "27",
+          "loc": "&Lz",
+          "raw": "okary",
+          "canon": "okary",
+          "stem": "okar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okar"
+          ],
+          "gloss": "okary <SPRING-NOM[o-]+DECAN-HERB[okar]:STAR-STATE[-y]>",
+          "top_herbal": "f3v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "28",
+          "loc": "&Lz",
+          "raw": "oeesaiin",
+          "canon": "oEEsaIIN",
+          "stem": "oEEs",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oEEs"
+          ],
+          "gloss": "oeesaiin <SPRING-NOM[o-]+DECAN-HERB[oEEs]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "f6v($L=A)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "29",
+          "loc": "&Lz",
+          "raw": "oteesed",
+          "canon": "otEEsed",
+          "stem": "otEEsed",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "otEEs",
+            "ed"
+          ],
+          "gloss": "oteesed <SPRING-NOM[o-]+DECAN-HERB[otEEsed]>",
+          "top_herbal": "f48v($L=B)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "30",
+          "loc": "&Lz",
+          "raw": "opal",
+          "canon": "opal",
+          "stem": "op",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "op"
+          ],
+          "gloss": "opal <SPRING-NOM[o-]+NOM:vessel-cup[op]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f9v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "31",
+          "loc": "&Lz",
+          "raw": "otaly",
+          "canon": "otaly",
+          "stem": "otal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otal"
+          ],
+          "gloss": "otaly <SPRING-NOM[o-]+DECAN-HERB[otal]:STAR-STATE[-y]>",
+          "top_herbal": "f94r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "32",
+          "loc": "&Lz",
+          "raw": "otaly",
+          "canon": "otaly",
+          "stem": "otal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otal"
+          ],
+          "gloss": "otaly <SPRING-NOM[o-]+DECAN-HERB[otal]:STAR-STATE[-y]>",
+          "top_herbal": "f94r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "32",
+          "loc": "&Lz",
+          "raw": "yty",
+          "canon": "yty",
+          "stem": "yt",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yt"
+          ],
+          "gloss": "yty <AUTUMN-INIT[y-]+AUTUMN:init-stalk[yt]:STAR-STATE[-y]>",
+          "top_herbal": "f3v($L=A)",
+          "in_sections": "HPBS"
+        }
+      ]
+    },
+    {
+      "folio": "f72v2",
+      "sign": "Virgo (September)",
+      "humoral_quality": "AUTUMN_EARTHY",
+      "n_ring_loci": 3,
+      "n_ring_tokens": 77,
+      "n_nymph_labels": 31,
+      "nymph_morph": {
+        "n_tokens": 31,
+        "mean_len_chars": 6.94,
+        "o_onset_pct": 67.74,
+        "y_onset_pct": 9.68,
+        "qo_onset_pct": 0.0,
+        "y_dy_coda_pct": 51.61,
+        "fluid_resin_ol_or_al_ar_pct": 16.13,
+        "ring_seal_am_m_pct": 12.9,
+        "aiin_coda_pct": 6.45
+      },
+      "ring_morph": {
+        "n_tokens": 77,
+        "mean_len_chars": 5.4,
+        "o_onset_pct": 37.66,
+        "y_onset_pct": 1.3,
+        "qo_onset_pct": 1.3,
+        "y_dy_coda_pct": 41.56,
+        "fluid_resin_ol_or_al_ar_pct": 24.68,
+        "ring_seal_am_m_pct": 1.3,
+        "aiin_coda_pct": 7.79
+      },
+      "best_herbal": {
+        "folio": "f31v(L=B)",
+        "idf": 16.658,
+        "shared_stems": [
+          "Seoek",
+          "okEEs",
+          "oked",
+          "ockh"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f102v2(L=A)",
+        "idf": 14.799,
+        "shared_stems": [
+          "keod",
+          "otEEos",
+          "sar",
+          "oEE"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f75r(L=B)",
+        "idf": 8.612,
+        "shared_stems": [
+          "olt",
+          "Cs",
+          "sar",
+          "am"
+        ]
+      },
+      "best_starred": {
+        "folio": "f106v(L=B)",
+        "idf": 30.711,
+        "shared_stems": [
+          "Seot",
+          "otos",
+          "Cop_C",
+          "Seos"
+        ]
+      },
+      "rings": [
+        {
+          "line": "1",
+          "loc": "@Cc",
+          "n_tokens": 37,
+          "terminal_token": "okolsaiin",
+          "has_terminal_seal": false,
+          "eva_preview": "otos . chs . oty . oteos . oty . chotey . dchy . chopchy . otychal . ctheo",
+          "gloss_preview": "otos <SPRING-NOM[o-]+DECAN-HERB[otos]> | chs <DECAN-HERB[Cs]> | oty <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:STAR-STATE[-y]> | oteos <SPRING-NOM[o-]+DECAN-HERB[oteos]> | oty <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:STAR-STATE[-y]> | chotey <DECAN-HERB[Cot]:COOKED[-ey]>"
+        },
+        {
+          "line": "20",
+          "loc": "@Cc",
+          "n_tokens": 28,
+          "terminal_token": "ar",
+          "has_terminal_seal": false,
+          "eva_preview": "oteesody . otey . oteeos . sheoty . yteeg . dchsaiin . shol . okeees . air . am",
+          "gloss_preview": "oteesody <SPRING-NOM[o-]+DECAN-HERB[otEEso]:STEEPED-NYMPH[-dy]> | otey <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:COOKED[-ey]> | oteeos <SPRING-NOM[o-]+DECAN-HERB[otEEos]> | sheoty <DECAN-HERB[Seot]:STAR-STATE[-y]> | yteeg <AUTUMN-INIT[y-]+DECAN-HERB[ytEEg]> | dchsaiin <BASE[d-]+DECAN-HERB[dCs]:DEGREE-DOSE[-aiin]>"
+        },
+        {
+          "line": "33",
+          "loc": "@Cc",
+          "n_tokens": 12,
+          "terminal_token": "rary",
+          "has_terminal_seal": true,
+          "eva_preview": "otaiin . otshedy . chokeedy . otes . al . al . ar . chetolain . sheodaly . sheokey",
+          "gloss_preview": "otaiin <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:DEGREE-DOSE[-aiin]> | otshedy <SPRING-NOM[o-]+DECAN-HERB[ot_S]:PROCESS[-edy]> | chokeedy <DECAN-HERB[Cok]:PROCESS[-edy]> | otes <SPRING-NOM[o-]+DECAN-HERB[otes]> | al <DECAN-HERB[al]:FLUID-BALM[-ol/al]> | al <DECAN-HERB[al]:FLUID-BALM[-ol/al]>"
+        }
+      ],
+      "nymph_labels": [
+        {
+          "line": "2",
+          "loc": "@Lz",
+          "raw": "oeedey",
+          "canon": "oEEdey",
+          "stem": "oEEd",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oEEd"
+          ],
+          "gloss": "oeedey <SPRING-NOM[o-]+DECAN-HERB[oEEd]:COOKED[-ey]>",
+          "top_herbal": "f55v($L=B)",
+          "in_sections": "HS"
+        },
+        {
+          "line": "3",
+          "loc": "&Lz",
+          "raw": "oeeodaiin",
+          "canon": "oEEodaIIN",
+          "stem": "oEEod",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oEEod"
+          ],
+          "gloss": "oeeodaiin <SPRING-NOM[o-]+DECAN-HERB[oEEod]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        },
+        {
+          "line": "4",
+          "loc": "&Lz",
+          "raw": "okeoram",
+          "canon": "okeoram",
+          "stem": "okeor",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okeor"
+          ],
+          "gloss": "okeoram <SPRING-NOM[o-]+DECAN-HERB[okeor]:RING-SEAL[-am]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        },
+        {
+          "line": "5",
+          "loc": "&Lz",
+          "raw": "air",
+          "canon": "air",
+          "stem": "ai",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ai"
+          ],
+          "gloss": "air <DECAN-HERB[ai]>",
+          "top_herbal": "f6v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "5",
+          "loc": "&Lz",
+          "raw": "aim",
+          "canon": "aim",
+          "stem": "ai",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ai"
+          ],
+          "gloss": "aim <DECAN-HERB[ai]:RING-SEAL[-am]>",
+          "top_herbal": "f6v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "6",
+          "loc": "&Lz",
+          "raw": "oshesy",
+          "canon": "oSesy",
+          "stem": "oSes",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "Ses"
+          ],
+          "gloss": "oshesy <SPRING-NOM[o-]+DECAN-HERB[oSes]:STAR-STATE[-y]>",
+          "top_herbal": "f27r($L=A)",
+          "in_sections": "HBS"
+        },
+        {
+          "line": "7",
+          "loc": "&Lz",
+          "raw": "oke[a:o]ry",
+          "canon": "okeary",
+          "stem": "okear",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "oke",
+            "ar"
+          ],
+          "gloss": "oke[a:o]ry <SPRING-NOM[o-]+DECAN-HERB[okear]:STAR-STATE[-y]>",
+          "top_herbal": "f4v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "8",
+          "loc": "&Lz",
+          "raw": "cheoetey",
+          "canon": "Ceoetey",
+          "stem": "Ceoet",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Ceoet"
+          ],
+          "gloss": "cheoetey <DECAN-HERB[Ceoet]:COOKED[-ey]>",
+          "top_herbal": "f26v($L=B)",
+          "in_sections": "H"
+        },
+        {
+          "line": "9",
+          "loc": "&Lz",
+          "raw": "cheol[d:?]y",
+          "canon": "Ceoldy",
+          "stem": "Ceol",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Ceol"
+          ],
+          "gloss": "cheol[d:?]y <DECAN-HERB[Ceol]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f30v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "10",
+          "loc": "&Lz",
+          "raw": "sheoeky",
+          "canon": "Seoeky",
+          "stem": "Seoek",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Seoek"
+          ],
+          "gloss": "sheoeky <DECAN-HERB[Seoek]:STAR-STATE[-y]>",
+          "top_herbal": "f31v($L=B)",
+          "in_sections": "H"
+        },
+        {
+          "line": "11",
+          "loc": "&Lz",
+          "raw": "oteodar",
+          "canon": "oteodar",
+          "stem": "oteod",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oteod"
+          ],
+          "gloss": "oteodar <SPRING-NOM[o-]+DECAN-HERB[oteod]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f41v($L=B)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "12",
+          "loc": "&Lz",
+          "raw": "ofchdysd",
+          "canon": "of_Cdysd",
+          "stem": "of_Cdysd",
+          "resolution": "COMPOUND_3STEM",
+          "parts": [
+            "of_C",
+            "dy",
+            "sd"
+          ],
+          "gloss": "ofchdysd <SPRING-NOM[o-]+DECAN-HERB[of_Cdysd]>",
+          "top_herbal": "f94v($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "13",
+          "loc": "&Lz",
+          "raw": "oteoyd",
+          "canon": "oteoyd",
+          "stem": "oteoyd",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "ote",
+            "oyd"
+          ],
+          "gloss": "oteoyd <SPRING-NOM[o-]+DECAN-HERB[oteoyd]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "14",
+          "loc": "&Lz",
+          "raw": "yteody",
+          "canon": "yteody",
+          "stem": "yteo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yteo"
+          ],
+          "gloss": "yteody <AUTUMN-INIT[y-]+DECAN-HERB[yteo]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HS"
+        },
+        {
+          "line": "15",
+          "loc": "&Lz",
+          "raw": "okeody",
+          "canon": "okeody",
+          "stem": "okeo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okeo"
+          ],
+          "gloss": "okeody <SPRING-NOM[o-]+DECAN-HERB[okeo]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "16",
+          "loc": "&Lz",
+          "raw": "okeoldy",
+          "canon": "okeoldy",
+          "stem": "okeol",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okeol"
+          ],
+          "gloss": "okeoldy <SPRING-NOM[o-]+DECAN-HERB[okeol]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "H-general",
+          "in_sections": "P"
+        },
+        {
+          "line": "17",
+          "loc": "&Lz",
+          "raw": "ykeeor",
+          "canon": "ykEEor",
+          "stem": "ykEE",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ykEE"
+          ],
+          "gloss": "ykeeor <AUTUMN-INIT[y-]+DECAN-HERB[ykEE]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f2r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "18",
+          "loc": "&Lz",
+          "raw": "opaiina[m:r]",
+          "canon": "opaIINam",
+          "stem": "opaIIN",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "op",
+            "aIIN"
+          ],
+          "gloss": "opaiina[m:r] <SPRING-NOM[o-]+DECAN-HERB[opaIIN]:RING-SEAL[-am]>",
+          "top_herbal": "f9v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "19",
+          "loc": "&Lz",
+          "raw": "cheoldy",
+          "canon": "Ceoldy",
+          "stem": "Ceol",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Ceol"
+          ],
+          "gloss": "cheoldy <DECAN-HERB[Ceol]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f30v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "21",
+          "loc": "@Lz",
+          "raw": "okaiin[:y]",
+          "canon": "okaIINy",
+          "stem": "okaIIN",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "ok",
+            "aIIN"
+          ],
+          "gloss": "okaiin[:y] <SPRING-NOM[o-]+DECAN-HERB[okaIIN]:STAR-STATE[-y]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "22",
+          "loc": "&Lz",
+          "raw": "ockhol",
+          "canon": "ockhol",
+          "stem": "ockh",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ockh"
+          ],
+          "gloss": "ockhol <SPRING-NOM[o-]+DECAN-HERB[ockh]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f14r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "23",
+          "loc": "&Lz",
+          "raw": "oeedy",
+          "canon": "oEEdy",
+          "stem": "oEE",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oEE"
+          ],
+          "gloss": "oeedy <SPRING-NOM[o-]+DECAN-HERB[oEE]:PROCESS[-edy]>",
+          "top_herbal": "f7v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "24",
+          "loc": "&Lz",
+          "raw": "opalg",
+          "canon": "opalg",
+          "stem": "opalg",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "op",
+            "alg"
+          ],
+          "gloss": "opalg <SPRING-NOM[o-]+DECAN-HERB[opalg]>",
+          "top_herbal": "f23r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "25",
+          "loc": "&Lz",
+          "raw": "okeeom",
+          "canon": "okEEom",
+          "stem": "okEEo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okEEo"
+          ],
+          "gloss": "okeeom <SPRING-NOM[o-]+DECAN-HERB[okEEo]:RING-SEAL[-am]>",
+          "top_herbal": "f31v($L=B)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "26",
+          "loc": "&Lz",
+          "raw": "olkar",
+          "canon": "olkar",
+          "stem": "olk",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "olk"
+          ],
+          "gloss": "olkar <SPRING-NOM[o-]+DECAN-HERB[olk]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f34r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "27",
+          "loc": "&Lz",
+          "raw": "oeedaly",
+          "canon": "oEEdaly",
+          "stem": "oEEdal",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "oEE",
+            "dal"
+          ],
+          "gloss": "oeedaly <SPRING-NOM[o-]+DECAN-HERB[oEEdal]:STAR-STATE[-y]>",
+          "top_herbal": "f50v($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "28",
+          "loc": "&Lz",
+          "raw": "cheosy",
+          "canon": "Ceosy",
+          "stem": "Ceos",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Ceos"
+          ],
+          "gloss": "cheosy <DECAN-HERB[Ceos]:STAR-STATE[-y]>",
+          "top_herbal": "f14r($L=A)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "29",
+          "loc": "&Lz",
+          "raw": "ofcheay",
+          "canon": "of_Ceay",
+          "stem": "of_Cea",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "of_C",
+            "ea"
+          ],
+          "gloss": "ofcheay <SPRING-NOM[o-]+DECAN-HERB[of_Cea]:STAR-STATE[-y]>",
+          "top_herbal": "f2r($L=A)",
+          "in_sections": "HBS"
+        },
+        {
+          "line": "30",
+          "loc": "&Lz",
+          "raw": "yteedy",
+          "canon": "ytEEdy",
+          "stem": "yt",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yt"
+          ],
+          "gloss": "yteedy <AUTUMN-INIT[y-]+AUTUMN:init-stalk[yt]:PROCESS[-edy]>",
+          "top_herbal": "f3v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "31",
+          "loc": "&Lz",
+          "raw": "o[n:r]aiin",
+          "canon": "onaIIN",
+          "stem": "on",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "on"
+          ],
+          "gloss": "o[n:r]aiin <SPRING-NOM[o-]+DECAN-HERB[on]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "f2r($L=A)",
+          "in_sections": "H"
+        },
+        {
+          "line": "32",
+          "loc": "&Lz",
+          "raw": "okeorar",
+          "canon": "okeorar",
+          "stem": "okeor",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okeor"
+          ],
+          "gloss": "okeorar <SPRING-NOM[o-]+DECAN-HERB[okeor]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        }
+      ]
+    },
+    {
+      "folio": "f72v1",
+      "sign": "Libra (October)",
+      "humoral_quality": "AUTUMN_EQUINOX",
+      "n_ring_loci": 3,
+      "n_ring_tokens": 74,
+      "n_nymph_labels": 30,
+      "nymph_morph": {
+        "n_tokens": 30,
+        "mean_len_chars": 5.87,
+        "o_onset_pct": 80.0,
+        "y_onset_pct": 13.33,
+        "qo_onset_pct": 0.0,
+        "y_dy_coda_pct": 63.33,
+        "fluid_resin_ol_or_al_ar_pct": 10.0,
+        "ring_seal_am_m_pct": 3.33,
+        "aiin_coda_pct": 0.0
+      },
+      "ring_morph": {
+        "n_tokens": 74,
+        "mean_len_chars": 5.41,
+        "o_onset_pct": 45.95,
+        "y_onset_pct": 10.81,
+        "qo_onset_pct": 0.0,
+        "y_dy_coda_pct": 39.19,
+        "fluid_resin_ol_or_al_ar_pct": 31.08,
+        "ring_seal_am_m_pct": 2.7,
+        "aiin_coda_pct": 10.81
+      },
+      "best_herbal": {
+        "folio": "f48r(L=B)",
+        "idf": 14.686,
+        "shared_stems": [
+          "oteol",
+          "alS",
+          "octh",
+          "oteod"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f102v2(L=A)",
+        "idf": 20.948,
+        "shared_stems": [
+          "otor",
+          "otEEos",
+          "oEEs",
+          "oEE"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79v(L=B)",
+        "idf": 16.62,
+        "shared_stems": [
+          "otar",
+          "ot_S",
+          "oEE",
+          "otal"
+        ]
+      },
+      "best_starred": {
+        "folio": "f114v(L=B)",
+        "idf": 23.878,
+        "shared_stems": [
+          "oEEos",
+          "dals",
+          "alC",
+          "octh"
+        ]
+      },
+      "rings": [
+        {
+          "line": "1",
+          "loc": "@Cc",
+          "n_tokens": 41,
+          "terminal_token": "otechety",
+          "has_terminal_seal": true,
+          "eva_preview": "oteos . alar . otar . air . chpaly . oteody . okchesal . otear . alshey . oleealy",
+          "gloss_preview": "oteos <SPRING-NOM[o-]+DECAN-HERB[oteos]> | alar <DECAN-HERB[al]:ESSENCE-RESIN[-or/ar]> | otar <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:ESSENCE-RESIN[-or/ar]> | air <DECAN-HERB[ai]> | chpaly <DECAN-HERB[Cpal]:STAR-STATE[-y]> | oteody <SPRING-NOM[o-]+DECAN-HERB[oteo]:STEEPED-NYMPH[-dy]>"
+        },
+        {
+          "line": "22",
+          "loc": "@Cc",
+          "n_tokens": 22,
+          "terminal_token": "tea[n:r]",
+          "has_terminal_seal": false,
+          "eva_preview": "otar . ar . otol . topar . oteolaiin . ofa[r:s]al . otshedy . ofalar . alshdy . chpar",
+          "gloss_preview": "otar <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:ESSENCE-RESIN[-or/ar]> | ar <DECAN-HERB[ar]:ESSENCE-RESIN[-or/ar]> | otol <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:FLUID-BALM[-ol/al]> | topar <DECAN-HERB[top]:ESSENCE-RESIN[-or/ar]> | oteolaiin <SPRING-NOM[o-]+DECAN-HERB[oteol]:DEGREE-DOSE[-aiin]> | ofa[r:s]al <SPRING-NOM[o-]+DECAN-HERB[ofar]:FLUID-BALM[-ol/al]>"
+        },
+        {
+          "line": "33",
+          "loc": "@Cc",
+          "n_tokens": 11,
+          "terminal_token": "am",
+          "has_terminal_seal": true,
+          "eva_preview": "otalal . dalal . ykeols . oteo . r . aiin . yotoam . oteey . saiin . oteeos",
+          "gloss_preview": "otalal <SPRING-NOM[o-]+DECAN-HERB[otal]:FLUID-BALM[-ol/al]> | dalal <BASE[d-]+DECAN-HERB[dal]:FLUID-BALM[-ol/al]> | ykeols <AUTUMN-INIT[y-]+DECAN-HERB[ykeols]> | oteo <SPRING-NOM[o-]+DECAN-HERB[oteo]> | r <SOL:sharp-resin/seed[r]> | aiin <DECAN-HERB[aIIN]:DEGREE-DOSE[-aiin]>"
+        }
+      ],
+      "nymph_labels": [
+        {
+          "line": "2",
+          "loc": "@Lz",
+          "raw": "oeeoty",
+          "canon": "oEEoty",
+          "stem": "oEEot",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "oEE",
+            "ot"
+          ],
+          "gloss": "oeeoty <SPRING-NOM[o-]+DECAN-HERB[oEEot]:STAR-STATE[-y]>",
+          "top_herbal": "f24v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "3",
+          "loc": "&Lz",
+          "raw": "octhy",
+          "canon": "octhy",
+          "stem": "octh",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "octh"
+          ],
+          "gloss": "octhy <SPRING-NOM[o-]+DECAN-HERB[octh]:STAR-STATE[-y]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "4",
+          "loc": "&Lz",
+          "raw": "oteoly",
+          "canon": "oteoly",
+          "stem": "oteol",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oteol"
+          ],
+          "gloss": "oteoly <SPRING-NOM[o-]+DECAN-HERB[oteol]:STAR-STATE[-y]>",
+          "top_herbal": "f48r($L=B)",
+          "in_sections": "HB"
+        },
+        {
+          "line": "5",
+          "loc": "&Lz",
+          "raw": "okeoly",
+          "canon": "okeoly",
+          "stem": "okeol",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okeol"
+          ],
+          "gloss": "okeoly <SPRING-NOM[o-]+DECAN-HERB[okeol]:STAR-STATE[-y]>",
+          "top_herbal": "H-general",
+          "in_sections": "P"
+        },
+        {
+          "line": "6",
+          "loc": "&Lz",
+          "raw": "oeees",
+          "canon": "oEEs",
+          "stem": "oEEs",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oEEs"
+          ],
+          "gloss": "oeees <SPRING-NOM[o-]+DECAN-HERB[oEEs]>",
+          "top_herbal": "f6v($L=A)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "7",
+          "loc": "&Lz",
+          "raw": "o{cfh'h}y",
+          "canon": "ocfhhy",
+          "stem": "ocfhh",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ocfhh"
+          ],
+          "gloss": "o{cfh'h}y <SPRING-NOM[o-]+DECAN-HERB[ocfhh]:STAR-STATE[-y]>",
+          "top_herbal": "H-general",
+          "in_sections": ""
+        },
+        {
+          "line": "8",
+          "loc": "&Lz",
+          "raw": "oees",
+          "canon": "oEEs",
+          "stem": "oEEs",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oEEs"
+          ],
+          "gloss": "oees <SPRING-NOM[o-]+DECAN-HERB[oEEs]>",
+          "top_herbal": "f6v($L=A)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "9",
+          "loc": "&Lz",
+          "raw": "okeeoly",
+          "canon": "okEEoly",
+          "stem": "okEEol",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okEEol"
+          ],
+          "gloss": "okeeoly <SPRING-NOM[o-]+DECAN-HERB[okEEol]:STAR-STATE[-y]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        },
+        {
+          "line": "10",
+          "loc": "&Lz",
+          "raw": "odal",
+          "canon": "odal",
+          "stem": "od",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "od"
+          ],
+          "gloss": "odal <SPRING-NOM[o-]+DECAN-HERB[od]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "11",
+          "loc": "&Lz",
+          "raw": "aiinod",
+          "canon": "aIINod",
+          "stem": "aIINod",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "aIIN",
+            "od"
+          ],
+          "gloss": "aiinod <DECAN-HERB[aIINod]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "12",
+          "loc": "&Lz",
+          "raw": "od[?:ch]dy",
+          "canon": "oddy",
+          "stem": "od",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "od"
+          ],
+          "gloss": "od[?:ch]dy <SPRING-NOM[o-]+DECAN-HERB[od]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "13",
+          "loc": "&Lz",
+          "raw": "oteod",
+          "canon": "oteod",
+          "stem": "oteod",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oteod"
+          ],
+          "gloss": "oteod <SPRING-NOM[o-]+DECAN-HERB[oteod]>",
+          "top_herbal": "f41v($L=B)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "14",
+          "loc": "&Lz",
+          "raw": "yteod",
+          "canon": "yteod",
+          "stem": "yteod",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yteod"
+          ],
+          "gloss": "yteod <AUTUMN-INIT[y-]+DECAN-HERB[yteod]>",
+          "top_herbal": "f87r($L=A)",
+          "in_sections": "H"
+        },
+        {
+          "line": "15",
+          "loc": "&Lz",
+          "raw": "ok[?:ch]ody",
+          "canon": "okody",
+          "stem": "oko",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oko"
+          ],
+          "gloss": "ok[?:ch]ody <SPRING-NOM[o-]+DECAN-HERB[oko]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f3v($L=A)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "16",
+          "loc": "&Lz",
+          "raw": "okal",
+          "canon": "okal",
+          "stem": "ok",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok"
+          ],
+          "gloss": "okal <SPRING-NOM[o-]+NOM:vessel-calyx[ok]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "17",
+          "loc": "&Lz",
+          "raw": "ytaly",
+          "canon": "ytaly",
+          "stem": "ytal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ytal"
+          ],
+          "gloss": "ytaly <AUTUMN-INIT[y-]+DECAN-HERB[ytal]:STAR-STATE[-y]>",
+          "top_herbal": "f6r($L=A)",
+          "in_sections": "H"
+        },
+        {
+          "line": "18",
+          "loc": "&Lz",
+          "raw": "oeeeos",
+          "canon": "oEEos",
+          "stem": "oEEos",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oEEos"
+          ],
+          "gloss": "oeeeos <SPRING-NOM[o-]+DECAN-HERB[oEEos]>",
+          "top_herbal": "f24r($L=A)",
+          "in_sections": "HS"
+        },
+        {
+          "line": "19",
+          "loc": "&Lz",
+          "raw": "oteofy",
+          "canon": "oteofy",
+          "stem": "oteof",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "ote",
+            "of"
+          ],
+          "gloss": "oteofy <SPRING-NOM[o-]+DECAN-HERB[oteof]:STAR-STATE[-y]>",
+          "top_herbal": "f39r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "20",
+          "loc": "&Lz",
+          "raw": "cheoepy",
+          "canon": "Ceoepy",
+          "stem": "Ceoep",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "Ceo",
+            "ep"
+          ],
+          "gloss": "cheoepy <DECAN-HERB[Ceoep]:STAR-STATE[-y]>",
+          "top_herbal": "f95r1($L=B)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "21",
+          "loc": "&Lz",
+          "raw": "ykeedy",
+          "canon": "ykEEdy",
+          "stem": "yk",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yk"
+          ],
+          "gloss": "ykeedy <AUTUMN-INIT[y-]+AUTUMN:init-calyx[yk]:PROCESS[-edy]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "23",
+          "loc": "@Lz",
+          "raw": "oeeoly",
+          "canon": "oEEoly",
+          "stem": "oEEol",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "EEol"
+          ],
+          "gloss": "oeeoly <SPRING-NOM[o-]+DECAN-HERB[oEEol]:STAR-STATE[-y]>",
+          "top_herbal": "f23v($L=A)",
+          "in_sections": "H"
+        },
+        {
+          "line": "24",
+          "loc": "&Lz",
+          "raw": "okydy",
+          "canon": "okydy",
+          "stem": "oky",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oky"
+          ],
+          "gloss": "okydy <SPRING-NOM[o-]+DECAN-HERB[oky]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        },
+        {
+          "line": "25",
+          "loc": "&Lz",
+          "raw": "okeey",
+          "canon": "okEEy",
+          "stem": "okEE",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okEE"
+          ],
+          "gloss": "okeey <SPRING-NOM[o-]+DECAN-HERB[okEE]:STAR-STATE[-y]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "26",
+          "loc": "&Lz",
+          "raw": "oiiny",
+          "canon": "oIINy",
+          "stem": "oIIN",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oIIN"
+          ],
+          "gloss": "oiiny <SPRING-NOM[o-]+DECAN-HERB[oIIN]:STAR-STATE[-y]>",
+          "top_herbal": "f13r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "27",
+          "loc": "&Lz",
+          "raw": "oeey",
+          "canon": "oEEy",
+          "stem": "oEE",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oEE"
+          ],
+          "gloss": "oeey <SPRING-NOM[o-]+DECAN-HERB[oEE]:STAR-STATE[-y]>",
+          "top_herbal": "f7v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "28",
+          "loc": "&Lz",
+          "raw": "okedy",
+          "canon": "okedy",
+          "stem": "ok",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok"
+          ],
+          "gloss": "okedy <SPRING-NOM[o-]+NOM:vessel-calyx[ok]:PROCESS[-edy]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "29",
+          "loc": "&Lz",
+          "raw": "ypaim",
+          "canon": "ypaim",
+          "stem": "ypai",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ypai"
+          ],
+          "gloss": "ypaim <AUTUMN-INIT[y-]+DECAN-HERB[ypai]:RING-SEAL[-am]>",
+          "top_herbal": "f17r($L=A)",
+          "in_sections": "HS"
+        },
+        {
+          "line": "30",
+          "loc": "&Lz",
+          "raw": "okalair",
+          "canon": "okalair",
+          "stem": "okalai",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okalai"
+          ],
+          "gloss": "okalair <SPRING-NOM[o-]+DECAN-HERB[okalai]>",
+          "top_herbal": "H-general",
+          "in_sections": "S"
+        },
+        {
+          "line": "31",
+          "loc": "&Lz",
+          "raw": "oeeody",
+          "canon": "oEEody",
+          "stem": "oEEo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oEEo"
+          ],
+          "gloss": "oeeody <SPRING-NOM[o-]+DECAN-HERB[oEEo]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f6v($L=A)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "32",
+          "loc": "&Lz",
+          "raw": "okeol",
+          "canon": "okeol",
+          "stem": "oke",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oke"
+          ],
+          "gloss": "okeol <SPRING-NOM[o-]+DECAN-HERB[oke]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f3v($L=A)",
+          "in_sections": "HPBS"
+        }
+      ]
+    },
+    {
+      "folio": "f73r",
+      "sign": "Scorpio (November)",
+      "humoral_quality": "AUTUMN_MARS",
+      "n_ring_loci": 3,
+      "n_ring_tokens": 66,
+      "n_nymph_labels": 30,
+      "nymph_morph": {
+        "n_tokens": 30,
+        "mean_len_chars": 5.73,
+        "o_onset_pct": 63.33,
+        "y_onset_pct": 6.67,
+        "qo_onset_pct": 0.0,
+        "y_dy_coda_pct": 66.67,
+        "fluid_resin_ol_or_al_ar_pct": 16.67,
+        "ring_seal_am_m_pct": 0.0,
+        "aiin_coda_pct": 3.33
+      },
+      "ring_morph": {
+        "n_tokens": 66,
+        "mean_len_chars": 5.86,
+        "o_onset_pct": 28.79,
+        "y_onset_pct": 4.55,
+        "qo_onset_pct": 1.52,
+        "y_dy_coda_pct": 36.36,
+        "fluid_resin_ol_or_al_ar_pct": 24.24,
+        "ring_seal_am_m_pct": 4.55,
+        "aiin_coda_pct": 7.58
+      },
+      "best_herbal": {
+        "folio": "f43v(L=B)",
+        "idf": 20.472,
+        "shared_stems": [
+          "Cef",
+          "oteos",
+          "oked",
+          "oteod"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f102v2(L=A)",
+        "idf": 19.695,
+        "shared_stems": [
+          "okEEos",
+          "okeos",
+          "otEEos",
+          "okar"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f83v(L=B)",
+        "idf": 11.999,
+        "shared_stems": [
+          "salCed",
+          "dalS",
+          "Cep_C",
+          "Ced"
+        ]
+      },
+      "best_starred": {
+        "folio": "f105r(L=B)",
+        "idf": 24.286,
+        "shared_stems": [
+          "ytEEo",
+          "otEEos",
+          "okEEs",
+          "oteod"
+        ]
+      },
+      "rings": [
+        {
+          "line": "5",
+          "loc": "@Cc",
+          "n_tokens": 34,
+          "terminal_token": "alcheky",
+          "has_terminal_seal": true,
+          "eva_preview": "ypolcheey . salchedal . chepchey . daraly . oteos . air . ar . oteosdal . chot[oe:ee]y . soteees",
+          "gloss_preview": "ypolcheey <AUTUMN-INIT[y-]+DECAN-HERB[ypolCEE]:STAR-STATE[-y]> | salchedal <SHOOT[s-]+DECAN-HERB[salCed]:FLUID-BALM[-ol/al]> | chepchey <DECAN-HERB[Cep_C]:COOKED[-ey]> | daraly <BASE[d-]+DECAN-HERB[daral]:STAR-STATE[-y]> | oteos <SPRING-NOM[o-]+DECAN-HERB[oteos]> | air <DECAN-HERB[ai]>"
+        },
+        {
+          "line": "22",
+          "loc": "@Cc",
+          "n_tokens": 25,
+          "terminal_token": "cheesy",
+          "has_terminal_seal": true,
+          "eva_preview": "oteey . dar . al . opaiin . olalaiin . s . air . am . chopchedy . chdar",
+          "gloss_preview": "oteey <SPRING-NOM[o-]+DECAN-HERB[otEE]:STAR-STATE[-y]> | dar <BASE[d-]+DECAN-HERB[da]:ESSENCE-RESIN[-or/ar]> | al <DECAN-HERB[al]:FLUID-BALM[-ol/al]> | opaiin <SPRING-NOM[o-]+NOM:vessel-cup[op]:DEGREE-DOSE[-aiin]> | olalaiin <SPRING-NOM[o-]+DECAN-HERB[olal]:DEGREE-DOSE[-aiin]> | s <SHOOT[s-]+SEQ:shoot/tendril[s]>"
+        },
+        {
+          "line": "33",
+          "loc": "@Cc",
+          "n_tokens": 7,
+          "terminal_token": "oteodal",
+          "has_terminal_seal": false,
+          "eva_preview": "osaiin . chedain . oteey . chedaly . okechs . chepcheesaly . oteodal",
+          "gloss_preview": "osaiin <SPRING-NOM[o-]+DECAN-HERB[os]:DEGREE-DOSE[-aiin]> | chedain <DECAN-HERB[Cedai]> | oteey <SPRING-NOM[o-]+DECAN-HERB[otEE]:STAR-STATE[-y]> | chedaly <DECAN-HERB[Cedal]:STAR-STATE[-y]> | okechs <SPRING-NOM[o-]+DECAN-HERB[okeCs]> | chepcheesaly <DECAN-HERB[Cep_CEEsal]:STAR-STATE[-y]>"
+        }
+      ],
+      "nymph_labels": [
+        {
+          "line": "1",
+          "loc": "@Lz",
+          "raw": "otaly",
+          "canon": "otaly",
+          "stem": "otal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otal"
+          ],
+          "gloss": "otaly <SPRING-NOM[o-]+DECAN-HERB[otal]:STAR-STATE[-y]>",
+          "top_herbal": "f94r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "2",
+          "loc": "&Lz",
+          "raw": "chockhy",
+          "canon": "Cockhy",
+          "stem": "Cockh",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Cockh"
+          ],
+          "gloss": "chockhy <DECAN-HERB[Cockh]:STAR-STATE[-y]>",
+          "top_herbal": "f6v($L=A)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "3",
+          "loc": "&Lz",
+          "raw": "otedy",
+          "canon": "otedy",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "gloss": "otedy <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:PROCESS[-edy]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "4",
+          "loc": "&Lz",
+          "raw": "yteeody",
+          "canon": "ytEEody",
+          "stem": "ytEEo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ytEEo"
+          ],
+          "gloss": "yteeody <AUTUMN-INIT[y-]+DECAN-HERB[ytEEo]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f93v($L=A)",
+          "in_sections": "HS"
+        },
+        {
+          "line": "6",
+          "loc": "@Lz",
+          "raw": "otaly",
+          "canon": "otaly",
+          "stem": "otal",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otal"
+          ],
+          "gloss": "otaly <SPRING-NOM[o-]+DECAN-HERB[otal]:STAR-STATE[-y]>",
+          "top_herbal": "f94r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "7",
+          "loc": "&Lz",
+          "raw": "okeody",
+          "canon": "okeody",
+          "stem": "okeo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okeo"
+          ],
+          "gloss": "okeody <SPRING-NOM[o-]+DECAN-HERB[okeo]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "8",
+          "loc": "&Lz",
+          "raw": "oteedyl",
+          "canon": "otEEdyl",
+          "stem": "otEEdy",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "otEE",
+            "dy"
+          ],
+          "gloss": "oteedyl <SPRING-NOM[o-]+DECAN-HERB[otEEdy]>",
+          "top_herbal": "f8v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "9",
+          "loc": "&Lz",
+          "raw": "[y:o]keedy",
+          "canon": "ykEEdy",
+          "stem": "yk",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yk"
+          ],
+          "gloss": "[y:o]keedy <AUTUMN-INIT[y-]+AUTUMN:init-calyx[yk]:PROCESS[-edy]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "10",
+          "loc": "&Lz",
+          "raw": "okeey",
+          "canon": "okEEy",
+          "stem": "okEE",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okEE"
+          ],
+          "gloss": "okeey <SPRING-NOM[o-]+DECAN-HERB[okEE]:STAR-STATE[-y]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "11",
+          "loc": "&Lz",
+          "raw": "okeedy",
+          "canon": "okEEdy",
+          "stem": "ok",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok"
+          ],
+          "gloss": "okeedy <SPRING-NOM[o-]+NOM:vessel-calyx[ok]:PROCESS[-edy]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "12",
+          "loc": "&Lz",
+          "raw": "ykeeory",
+          "canon": "ykEEory",
+          "stem": "ykEEor",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "ykEE",
+            "or"
+          ],
+          "gloss": "ykeeory <AUTUMN-INIT[y-]+DECAN-HERB[ykEEor]:STAR-STATE[-y]>",
+          "top_herbal": "f17v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "13",
+          "loc": "&Lz",
+          "raw": "oteeosy",
+          "canon": "otEEosy",
+          "stem": "otEEos",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "otEEos"
+          ],
+          "gloss": "oteeosy <SPRING-NOM[o-]+DECAN-HERB[otEEos]:STAR-STATE[-y]>",
+          "top_herbal": "H-general",
+          "in_sections": "PS"
+        },
+        {
+          "line": "14",
+          "loc": "&Lz",
+          "raw": "shekal",
+          "canon": "Sekal",
+          "stem": "Sek",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Sek"
+          ],
+          "gloss": "shekal <DECAN-HERB[Sek]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f2r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "15",
+          "loc": "&Lz",
+          "raw": "oteedyy",
+          "canon": "otEEdyy",
+          "stem": "otEEdy",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "otEE",
+            "dy"
+          ],
+          "gloss": "oteedyy <SPRING-NOM[o-]+DECAN-HERB[otEEdy]:STAR-STATE[-y]>",
+          "top_herbal": "f8v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "16",
+          "loc": "&Lz",
+          "raw": "oked[a:o]l",
+          "canon": "okedal",
+          "stem": "oked",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oked"
+          ],
+          "gloss": "oked[a:o]l <SPRING-NOM[o-]+DECAN-HERB[oked]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f26v($L=B)",
+          "in_sections": "HBS"
+        },
+        {
+          "line": "17",
+          "loc": "&Lz",
+          "raw": "chdy",
+          "canon": "Cdy",
+          "stem": "Cd",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Cd"
+          ],
+          "gloss": "chdy <DECAN-HERB[Cd]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f9r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "18",
+          "loc": "&Lz",
+          "raw": "dalshey",
+          "canon": "dalSey",
+          "stem": "dalS",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "dalS"
+          ],
+          "gloss": "dalshey <BASE[d-]+DECAN-HERB[dalS]:COOKED[-ey]>",
+          "top_herbal": "f46r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "19",
+          "loc": "&Lz",
+          "raw": "opaiin",
+          "canon": "opaIIN",
+          "stem": "op",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "op"
+          ],
+          "gloss": "opaiin <SPRING-NOM[o-]+NOM:vessel-cup[op]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "f9v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "20",
+          "loc": "&Lz",
+          "raw": "okeos",
+          "canon": "okeos",
+          "stem": "okeos",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okeos"
+          ],
+          "gloss": "okeos <SPRING-NOM[o-]+DECAN-HERB[okeos]>",
+          "top_herbal": "f31v($L=B)",
+          "in_sections": "HP"
+        },
+        {
+          "line": "21",
+          "loc": "&Lz",
+          "raw": "otey",
+          "canon": "otey",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "gloss": "otey <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:COOKED[-ey]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "23",
+          "loc": "@Lz",
+          "raw": "okary",
+          "canon": "okary",
+          "stem": "okar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okar"
+          ],
+          "gloss": "okary <SPRING-NOM[o-]+DECAN-HERB[okar]:STAR-STATE[-y]>",
+          "top_herbal": "f3v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "24",
+          "loc": "&Lz",
+          "raw": "okeeody",
+          "canon": "okEEody",
+          "stem": "okEEo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okEEo"
+          ],
+          "gloss": "okeeody <SPRING-NOM[o-]+DECAN-HERB[okEEo]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f31v($L=B)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "25",
+          "loc": "&Lz",
+          "raw": "oyteedy",
+          "canon": "oytEEdy",
+          "stem": "oyt",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oyt"
+          ],
+          "gloss": "oyteedy <SPRING-NOM[o-]+DECAN-HERB[oyt]:PROCESS[-edy]>",
+          "top_herbal": "f17v($L=A)",
+          "in_sections": "H"
+        },
+        {
+          "line": "26",
+          "loc": "&Lz",
+          "raw": "oky",
+          "canon": "oky",
+          "stem": "ok",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok"
+          ],
+          "gloss": "oky <SPRING-NOM[o-]+NOM:vessel-calyx[ok]:STAR-STATE[-y]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "27",
+          "loc": "&Lz",
+          "raw": "chefy",
+          "canon": "Cefy",
+          "stem": "Cef",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Cef"
+          ],
+          "gloss": "chefy <DECAN-HERB[Cef]:STAR-STATE[-y]>",
+          "top_herbal": "f40r($L=B)",
+          "in_sections": "HP"
+        },
+        {
+          "line": "28",
+          "loc": "&Lz",
+          "raw": "otal",
+          "canon": "otal",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "gloss": "otal <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "29",
+          "loc": "&Lz",
+          "raw": "chek",
+          "canon": "Cek",
+          "stem": "Cek",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Cek"
+          ],
+          "gloss": "chek <DECAN-HERB[Cek]>",
+          "top_herbal": "f10v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "30",
+          "loc": "&Lz",
+          "raw": "ar",
+          "canon": "ar",
+          "stem": "ar",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ar"
+          ],
+          "gloss": "ar <DECAN-HERB[ar]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f4v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "31",
+          "loc": "&Lz",
+          "raw": "kar",
+          "canon": "kar",
+          "stem": "ka",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ka"
+          ],
+          "gloss": "kar <DECAN-HERB[ka]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f5r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "32",
+          "loc": "&Lz",
+          "raw": "okeeos",
+          "canon": "okEEos",
+          "stem": "okEEos",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okEEos"
+          ],
+          "gloss": "okeeos <SPRING-NOM[o-]+DECAN-HERB[okEEos]>",
+          "top_herbal": "f26v($L=B)",
+          "in_sections": "HPS"
+        }
+      ]
+    },
+    {
+      "folio": "f73v",
+      "sign": "Sagittarius (December)",
+      "humoral_quality": "WINTER_JUPITER",
+      "n_ring_loci": 3,
+      "n_ring_tokens": 68,
+      "n_nymph_labels": 31,
+      "nymph_morph": {
+        "n_tokens": 31,
+        "mean_len_chars": 5.26,
+        "o_onset_pct": 51.61,
+        "y_onset_pct": 32.26,
+        "qo_onset_pct": 3.23,
+        "y_dy_coda_pct": 51.61,
+        "fluid_resin_ol_or_al_ar_pct": 19.35,
+        "ring_seal_am_m_pct": 0.0,
+        "aiin_coda_pct": 6.45
+      },
+      "ring_morph": {
+        "n_tokens": 68,
+        "mean_len_chars": 5.28,
+        "o_onset_pct": 33.82,
+        "y_onset_pct": 11.76,
+        "qo_onset_pct": 8.82,
+        "y_dy_coda_pct": 64.71,
+        "fluid_resin_ol_or_al_ar_pct": 14.71,
+        "ring_seal_am_m_pct": 4.41,
+        "aiin_coda_pct": 4.41
+      },
+      "best_herbal": {
+        "folio": "f43r(L=B)",
+        "idf": 17.743,
+        "shared_stems": [
+          "yp",
+          "tol",
+          "EEo",
+          "ykeo"
+        ]
+      },
+      "best_pharm": {
+        "folio": "f101v(L=A)",
+        "idf": 17.963,
+        "shared_stems": [
+          "orar",
+          "okeod",
+          "otar",
+          "otol"
+        ]
+      },
+      "best_balneo": {
+        "folio": "f79v(L=B)",
+        "idf": 14.96,
+        "shared_stems": [
+          "yted",
+          "tol",
+          "kEEs",
+          "otar"
+        ]
+      },
+      "best_starred": {
+        "folio": "f106v(L=B)",
+        "idf": 15.303,
+        "shared_stems": [
+          "alal",
+          "sal",
+          "kal",
+          "oteo"
+        ]
+      },
+      "rings": [
+        {
+          "line": "5",
+          "loc": "@Cc",
+          "n_tokens": 35,
+          "terminal_token": "orary",
+          "has_terminal_seal": true,
+          "eva_preview": "otoar . ykeody . okodeey . qopchey . opaiin . qoteedy . dpy . otedy . shedy . qokeody",
+          "gloss_preview": "otoar <SPRING-NOM[o-]+DECAN-HERB[oto]:ESSENCE-RESIN[-or/ar]> | ykeody <AUTUMN-INIT[y-]+DECAN-HERB[ykeo]:STEEPED-NYMPH[-dy]> | okodeey <SPRING-NOM[o-]+DECAN-HERB[okodEE]:STAR-STATE[-y]> | qopchey <ACT-EXTRACT[qo-]+CMPD:cup-bench[pch]:COOKED[-ey]> | opaiin <SPRING-NOM[o-]+NOM:vessel-cup[op]:DEGREE-DOSE[-aiin]> | qoteedy <ACT-EXTRACT[qo-]+DECAN-HERB[tEE]:PROCESS[-edy]>"
+        },
+        {
+          "line": "22",
+          "loc": "@Cc",
+          "n_tokens": 22,
+          "terminal_token": "daly",
+          "has_terminal_seal": true,
+          "eva_preview": "oteoto[s:r] . alshy . oteolain . chokeedam . otody . qoty . shedy . chdy . tchol . oteody",
+          "gloss_preview": "oteoto[s:r] <SPRING-NOM[o-]+DECAN-HERB[oteotos]> | alshy <DECAN-HERB[alS]:STAR-STATE[-y]> | oteolain <SPRING-NOM[o-]+DECAN-HERB[oteolai]> | chokeedam <DECAN-HERB[CokEEd]:RING-SEAL[-am]> | otody <SPRING-NOM[o-]+DECAN-HERB[oto]:STEEPED-NYMPH[-dy]> | qoty <ACT-EXTRACT[qo-]+DECAN-HERB[ty]:STAR-STATE[-y]>"
+        },
+        {
+          "line": "33",
+          "loc": "@Cc",
+          "n_tokens": 11,
+          "terminal_token": "otaram",
+          "has_terminal_seal": true,
+          "eva_preview": "otedchor . alar . olkcho . otolam . o . kees . char . y . ytaly . alaly",
+          "gloss_preview": "otedchor <SPRING-NOM[o-]+DECAN-HERB[otedC]:ESSENCE-RESIN[-or/ar]> | alar <DECAN-HERB[al]:ESSENCE-RESIN[-or/ar]> | olkcho <SPRING-NOM[o-]+DECAN-HERB[olk_Co]> | otolam <SPRING-NOM[o-]+DECAN-HERB[otol]:RING-SEAL[-am]> | o <SPRING-NOM[o-]+DECAN-HERB[o]> | kees <DECAN-HERB[kEEs]>"
+        }
+      ],
+      "nymph_labels": [
+        {
+          "line": "1",
+          "loc": "@Lz",
+          "raw": "okol",
+          "canon": "okol",
+          "stem": "ok",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok"
+          ],
+          "gloss": "okol <SPRING-NOM[o-]+NOM:vessel-calyx[ok]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "2",
+          "loc": "&Lz",
+          "raw": "oteody",
+          "canon": "oteody",
+          "stem": "oteo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oteo"
+          ],
+          "gloss": "oteody <SPRING-NOM[o-]+DECAN-HERB[oteo]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f41v($L=B)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "3",
+          "loc": "&Lz",
+          "raw": "oteedy",
+          "canon": "otEEdy",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "gloss": "oteedy <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:PROCESS[-edy]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "4",
+          "loc": "&Lz",
+          "raw": "eeeody",
+          "canon": "EEody",
+          "stem": "EEo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "EEo"
+          ],
+          "gloss": "eeeody <DECAN-HERB[EEo]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f43r($L=B)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "6",
+          "loc": "@Lz",
+          "raw": "okeody",
+          "canon": "okeody",
+          "stem": "okeo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okeo"
+          ],
+          "gloss": "okeody <SPRING-NOM[o-]+DECAN-HERB[okeo]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "7",
+          "loc": "&Lz",
+          "raw": "sheol",
+          "canon": "Seol",
+          "stem": "Se",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "Se"
+          ],
+          "gloss": "sheol <STEM:infused-spray[she]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "8",
+          "loc": "&Lz",
+          "raw": "odees",
+          "canon": "odEEs",
+          "stem": "odEEs",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "EEs"
+          ],
+          "gloss": "odees <SPRING-NOM[o-]+DECAN-HERB[odEEs]>",
+          "top_herbal": "f3v($L=A)",
+          "in_sections": "HBS"
+        },
+        {
+          "line": "9",
+          "loc": "&Lz",
+          "raw": "ee[r:n]y",
+          "canon": "EEry",
+          "stem": "EEr",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "EE",
+            "r"
+          ],
+          "gloss": "ee[r:n]y <DECAN-HERB[EEr]:STAR-STATE[-y]>",
+          "top_herbal": "f3v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "10",
+          "loc": "&Lz",
+          "raw": "okeor",
+          "canon": "okeor",
+          "stem": "oke",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oke"
+          ],
+          "gloss": "okeor <SPRING-NOM[o-]+DECAN-HERB[oke]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f3v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "11",
+          "loc": "&Lz",
+          "raw": "ofals",
+          "canon": "ofals",
+          "stem": "ofals",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "of",
+            "als"
+          ],
+          "gloss": "ofals <SPRING-NOM[o-]+DECAN-HERB[ofals]>",
+          "top_herbal": "f31v($L=B)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "12",
+          "loc": "&Lz",
+          "raw": "ykeody",
+          "canon": "ykeody",
+          "stem": "ykeo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ykeo"
+          ],
+          "gloss": "ykeody <AUTUMN-INIT[y-]+DECAN-HERB[ykeo]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f14r($L=A)",
+          "in_sections": "HP"
+        },
+        {
+          "line": "13",
+          "loc": "&Lz",
+          "raw": "oteody",
+          "canon": "oteody",
+          "stem": "oteo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "oteo"
+          ],
+          "gloss": "oteody <SPRING-NOM[o-]+DECAN-HERB[oteo]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f41v($L=B)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "14",
+          "loc": "&Lz",
+          "raw": "ypaiin",
+          "canon": "ypaIIN",
+          "stem": "yp",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yp"
+          ],
+          "gloss": "ypaiin <AUTUMN-INIT[y-]+AUTUMN:init-cup[yp]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "f43r($L=B)",
+          "in_sections": "HS"
+        },
+        {
+          "line": "15",
+          "loc": "&Lz",
+          "raw": "yfaiin",
+          "canon": "yfaIIN",
+          "stem": "yf",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yf"
+          ],
+          "gloss": "yfaiin <AUTUMN-INIT[y-]+AUTUMN:init-plume[yf]:DEGREE-DOSE[-aiin]>",
+          "top_herbal": "f43v($L=B)",
+          "in_sections": "H"
+        },
+        {
+          "line": "15",
+          "loc": "&Lz",
+          "raw": "y",
+          "canon": "y",
+          "stem": "y",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "y"
+          ],
+          "gloss": "y <AUTUMN-INIT[y-]+DECAN-HERB[y]:STAR-STATE[-y]>",
+          "top_herbal": "f2r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "16",
+          "loc": "&Lz",
+          "raw": "ofcheesy",
+          "canon": "of_CEEsy",
+          "stem": "of_CEEs",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "of_C",
+            "EEs"
+          ],
+          "gloss": "ofcheesy <SPRING-NOM[o-]+DECAN-HERB[of_CEEs]:STAR-STATE[-y]>",
+          "top_herbal": "f3v($L=A)",
+          "in_sections": "HBS"
+        },
+        {
+          "line": "17",
+          "loc": "&Lz",
+          "raw": "oraiiny",
+          "canon": "oraIINy",
+          "stem": "oraIIN",
+          "resolution": "PREFIX_STRIPPED",
+          "parts": [
+            "aIIN"
+          ],
+          "gloss": "oraiiny <SPRING-NOM[o-]+DECAN-HERB[oraIIN]:STAR-STATE[-y]>",
+          "top_herbal": "f3r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "18",
+          "loc": "&Lz",
+          "raw": "ykeeody",
+          "canon": "ykEEody",
+          "stem": "ykEEo",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ykEEo"
+          ],
+          "gloss": "ykeeody <AUTUMN-INIT[y-]+DECAN-HERB[ykEEo]:STEEPED-NYMPH[-dy]>",
+          "top_herbal": "f31v($L=B)",
+          "in_sections": "HPS"
+        },
+        {
+          "line": "19",
+          "loc": "&Lz",
+          "raw": "okeos",
+          "canon": "okeos",
+          "stem": "okeos",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okeos"
+          ],
+          "gloss": "okeos <SPRING-NOM[o-]+DECAN-HERB[okeos]>",
+          "top_herbal": "f31v($L=B)",
+          "in_sections": "HP"
+        },
+        {
+          "line": "20",
+          "loc": "&Lz",
+          "raw": "ykeear",
+          "canon": "ykEEar",
+          "stem": "ykEE",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ykEE"
+          ],
+          "gloss": "ykeear <AUTUMN-INIT[y-]+DECAN-HERB[ykEE]:ESSENCE-RESIN[-or/ar]>",
+          "top_herbal": "f2r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "21",
+          "loc": "&Lz",
+          "raw": "qokeoly",
+          "canon": "q-keoly",
+          "stem": "keol",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "keol"
+          ],
+          "gloss": "qokeoly <ACT-EXTRACT[qo-]+DECAN-HERB[keol]:STAR-STATE[-y]>",
+          "top_herbal": "H-general",
+          "in_sections": "BS"
+        },
+        {
+          "line": "23",
+          "loc": "@Lz",
+          "raw": "otedy",
+          "canon": "otedy",
+          "stem": "ot",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ot"
+          ],
+          "gloss": "otedy <SPRING-NOM[o-]+NOM:vessel-stalk[ot]:PROCESS[-edy]>",
+          "top_herbal": "f2v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "24",
+          "loc": "&Lz",
+          "raw": "eeed",
+          "canon": "EEd",
+          "stem": "EEd",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "EEd"
+          ],
+          "gloss": "eeed <DECAN-HERB[EEd]>",
+          "top_herbal": "f40v($L=B)",
+          "in_sections": "HS"
+        },
+        {
+          "line": "25",
+          "loc": "&Lz",
+          "raw": "oky",
+          "canon": "oky",
+          "stem": "ok",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok"
+          ],
+          "gloss": "oky <SPRING-NOM[o-]+NOM:vessel-calyx[ok]:STAR-STATE[-y]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "26",
+          "loc": "&Lz",
+          "raw": "oia?",
+          "canon": "oia",
+          "stem": "oia",
+          "resolution": "COMPOUND_2STEM",
+          "parts": [
+            "oi",
+            "a"
+          ],
+          "gloss": "oia? <SPRING-NOM[o-]+DECAN-HERB[oia]>",
+          "top_herbal": "f14r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "27",
+          "loc": "&Lz",
+          "raw": "okal",
+          "canon": "okal",
+          "stem": "ok",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ok"
+          ],
+          "gloss": "okal <SPRING-NOM[o-]+NOM:vessel-calyx[ok]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "28",
+          "loc": "&Lz",
+          "raw": "ykey",
+          "canon": "ykey",
+          "stem": "yk",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yk"
+          ],
+          "gloss": "ykey <AUTUMN-INIT[y-]+AUTUMN:init-calyx[yk]:COOKED[-ey]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "29",
+          "loc": "&Lz",
+          "raw": "ykeee",
+          "canon": "ykEE",
+          "stem": "ykEE",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "ykEE"
+          ],
+          "gloss": "ykeee <AUTUMN-INIT[y-]+DECAN-HERB[ykEE]>",
+          "top_herbal": "f2r($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "30",
+          "loc": "&Lz",
+          "raw": "okeod",
+          "canon": "okeod",
+          "stem": "okeod",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "okeod"
+          ],
+          "gloss": "okeod <SPRING-NOM[o-]+DECAN-HERB[okeod]>",
+          "top_herbal": "H-general",
+          "in_sections": "P"
+        },
+        {
+          "line": "31",
+          "loc": "&Lz",
+          "raw": "ykey",
+          "canon": "ykey",
+          "stem": "yk",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yk"
+          ],
+          "gloss": "ykey <AUTUMN-INIT[y-]+AUTUMN:init-calyx[yk]:COOKED[-ey]>",
+          "top_herbal": "f1v($L=A)",
+          "in_sections": "HPBS"
+        },
+        {
+          "line": "32",
+          "loc": "&Lz",
+          "raw": "ypal",
+          "canon": "ypal",
+          "stem": "yp",
+          "resolution": "DIRECT_STEM",
+          "parts": [
+            "yp"
+          ],
+          "gloss": "ypal <AUTUMN-INIT[y-]+AUTUMN:init-cup[yp]:FLUID-BALM[-ol/al]>",
+          "top_herbal": "f43r($L=B)",
+          "in_sections": "HS"
+        }
+      ]
+    }
+  ]
+}

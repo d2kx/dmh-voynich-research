@@ -1,0 +1,1590 @@
+{
+  "attack": "Attack 121 (Phase 132 / Discovery 138)",
+  "title": "Complete 20-Quire Codicological Sheet-Position Law, Mixed-Scribe Quire Partition & Quire-Boundary Colophon Law",
+  "scribe_sheet_distribution": {
+    "H=1": {
+      "n_folios_total": 113,
+      "n_folios_multi_sheet": 113,
+      "tiers_all": {
+        "OUTER_WRAPPER": 37,
+        "INTERMEDIATE_SHEET": 40,
+        "INNER_CENTERFOLD": 36
+      },
+      "tiers_multi_sheet_pct": {
+        "OUTER_WRAPPER": 32.74,
+        "INTERMEDIATE_SHEET": 35.4,
+        "INNER_CENTERFOLD": 31.86
+      },
+      "B_counts": {
+        "1": 37,
+        "2": 26,
+        "3": 24,
+        "4": 26
+      },
+      "quires": {
+        "A": 16,
+        "B": 14,
+        "C": 16,
+        "D": 12,
+        "E": 8,
+        "F": 8,
+        "G": 12,
+        "H": 1,
+        "O": 12,
+        "Q": 4,
+        "S": 10
+      }
+    },
+    "H=2": {
+      "n_folios_total": 46,
+      "n_folios_multi_sheet": 40,
+      "tiers_all": {
+        "INTERMEDIATE_SHEET": 28,
+        "OUTER_WRAPPER": 8,
+        "INNER_CENTERFOLD": 4,
+        "SINGLE_SHEET_QUIRE": 6
+      },
+      "tiers_multi_sheet_pct": {
+        "INTERMEDIATE_SHEET": 70.0,
+        "OUTER_WRAPPER": 20.0,
+        "INNER_CENTERFOLD": 10.0
+      },
+      "B_counts": {
+        "1": 14,
+        "2": 16,
+        "3": 8,
+        "4": 4,
+        "5": 4
+      },
+      "quires": {
+        "D": 4,
+        "E": 8,
+        "F": 4,
+        "G": 4,
+        "M": 20,
+        "N": 6
+      }
+    },
+    "H=3": {
+      "n_folios_total": 33,
+      "n_folios_multi_sheet": 33,
+      "tiers_all": {
+        "INNER_CENTERFOLD": 14,
+        "OUTER_WRAPPER": 4,
+        "INTERMEDIATE_SHEET": 15
+      },
+      "tiers_multi_sheet_pct": {
+        "INNER_CENTERFOLD": 42.42,
+        "OUTER_WRAPPER": 12.12,
+        "INTERMEDIATE_SHEET": 45.45
+      },
+      "B_counts": {
+        "1": 4,
+        "2": 13,
+        "3": 4,
+        "4": 4,
+        "5": 4,
+        "6": 4
+      },
+      "quires": {
+        "H": 4,
+        "Q": 6,
+        "T": 23
+      }
+    },
+    "H=4": {
+      "n_folios_total": 26,
+      "n_folios_multi_sheet": 0,
+      "tiers_all": {
+        "SINGLE_SHEET_QUIRE": 26
+      },
+      "tiers_multi_sheet_pct": {},
+      "B_counts": {
+        "1": 26
+      },
+      "quires": {
+        "I": 10,
+        "J": 6,
+        "K": 8,
+        "L": 2
+      }
+    },
+    "H=5": {
+      "n_folios_total": 7,
+      "n_folios_multi_sheet": 7,
+      "tiers_all": {
+        "OUTER_WRAPPER": 7
+      },
+      "tiers_multi_sheet_pct": {
+        "OUTER_WRAPPER": 100.0
+      },
+      "B_counts": {
+        "1": 7
+      },
+      "quires": {
+        "F": 4,
+        "H": 3
+      }
+    }
+  },
+  "mixed_quire_audit": {
+    "D": {
+      "1": [
+        {
+          "folio": "f25r",
+          "P": "A",
+          "H": "1",
+          "L": "A",
+          "tier": "OUTER_WRAPPER",
+          "n_tokens": 47,
+          "clinical_hub_idf": 47.671
+        },
+        {
+          "folio": "f25v",
+          "P": "B",
+          "H": "1",
+          "L": "A",
+          "tier": "OUTER_WRAPPER",
+          "n_tokens": 59,
+          "clinical_hub_idf": 33.316
+        },
+        {
+          "folio": "f32r",
+          "P": "O",
+          "H": "1",
+          "L": "A",
+          "tier": "OUTER_WRAPPER",
+          "n_tokens": 76,
+          "clinical_hub_idf": 36.187
+        },
+        {
+          "folio": "f32v",
+          "P": "P",
+          "H": "1",
+          "L": "A",
+          "tier": "OUTER_WRAPPER",
+          "n_tokens": 89,
+          "clinical_hub_idf": 37.376
+        }
+      ],
+      "2": [
+        {
+          "folio": "f26r",
+          "P": "C",
+          "H": "2",
+          "L": "B",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 90,
+          "clinical_hub_idf": 38.167
+        },
+        {
+          "folio": "f26v",
+          "P": "D",
+          "H": "2",
+          "L": "B",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 93,
+          "clinical_hub_idf": 71.616
+        },
+        {
+          "folio": "f31r",
+          "P": "M",
+          "H": "2",
+          "L": "B",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 103,
+          "clinical_hub_idf": 65.621
+        },
+        {
+          "folio": "f31v",
+          "P": "N",
+          "H": "2",
+          "L": "B",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 110,
+          "clinical_hub_idf": 91.564
+        }
+      ],
+      "3": [
+        {
+          "folio": "f27r",
+          "P": "E",
+          "H": "1",
+          "L": "A",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 94,
+          "clinical_hub_idf": 47.076
+        },
+        {
+          "folio": "f27v",
+          "P": "F",
+          "H": "1",
+          "L": "A",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 61,
+          "clinical_hub_idf": 33.497
+        },
+        {
+          "folio": "f30r",
+          "P": "K",
+          "H": "1",
+          "L": "A",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 99,
+          "clinical_hub_idf": 82.325
+        },
+        {
+          "folio": "f30v",
+          "P": "L",
+          "H": "1",
+          "L": "A",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 63,
+          "clinical_hub_idf": 53.585
+        }
+      ],
+      "4": [
+        {
+          "folio": "f28r",
+          "P": "G",
+          "H": "1",
+          "L": "A",
+          "tier": "INNER_CENTERFOLD",
+          "n_tokens": 68,
+          "clinical_hub_idf": 53.028
+        },
+        {
+          "folio": "f28v",
+          "P": "H",
+          "H": "1",
+          "L": "A",
+          "tier": "INNER_CENTERFOLD",
+          "n_tokens": 68,
+          "clinical_hub_idf": 30.195
+        },
+        {
+          "folio": "f29r",
+          "P": "I",
+          "H": "1",
+          "L": "A",
+          "tier": "INNER_CENTERFOLD",
+          "n_tokens": 65,
+          "clinical_hub_idf": 34.849
+        },
+        {
+          "folio": "f29v",
+          "P": "J",
+          "H": "1",
+          "L": "A",
+          "tier": "INNER_CENTERFOLD",
+          "n_tokens": 94,
+          "clinical_hub_idf": 59.354
+        }
+      ]
+    },
+    "E": {
+      "1": [
+        {
+          "folio": "f33r",
+          "P": "A",
+          "H": "2",
+          "L": "B",
+          "tier": "OUTER_WRAPPER",
+          "n_tokens": 74,
+          "clinical_hub_idf": 47.681
+        },
+        {
+          "folio": "f33v",
+          "P": "B",
+          "H": "2",
+          "L": "B",
+          "tier": "OUTER_WRAPPER",
+          "n_tokens": 114,
+          "clinical_hub_idf": 44.617
+        },
+        {
+          "folio": "f40r",
+          "P": "O",
+          "H": "2",
+          "L": "B",
+          "tier": "OUTER_WRAPPER",
+          "n_tokens": 103,
+          "clinical_hub_idf": 70.878
+        },
+        {
+          "folio": "f40v",
+          "P": "P",
+          "H": "2",
+          "L": "B",
+          "tier": "OUTER_WRAPPER",
+          "n_tokens": 105,
+          "clinical_hub_idf": 57.305
+        }
+      ],
+      "2": [
+        {
+          "folio": "f34r",
+          "P": "C",
+          "H": "2",
+          "L": "B",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 149,
+          "clinical_hub_idf": 98.642
+        },
+        {
+          "folio": "f34v",
+          "P": "D",
+          "H": "2",
+          "L": "B",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 117,
+          "clinical_hub_idf": 79.955
+        },
+        {
+          "folio": "f39r",
+          "P": "M",
+          "H": "2",
+          "L": "B",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 157,
+          "clinical_hub_idf": 93.617
+        },
+        {
+          "folio": "f39v",
+          "P": "N",
+          "H": "2",
+          "L": "B",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 146,
+          "clinical_hub_idf": 81.979
+        }
+      ],
+      "3": [
+        {
+          "folio": "f35r",
+          "P": "E",
+          "H": "1",
+          "L": "A",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 94,
+          "clinical_hub_idf": 38.997
+        },
+        {
+          "folio": "f35v",
+          "P": "F",
+          "H": "1",
+          "L": "A",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 91,
+          "clinical_hub_idf": 34.858
+        },
+        {
+          "folio": "f38r",
+          "P": "K",
+          "H": "1",
+          "L": "A",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 44,
+          "clinical_hub_idf": 24.201
+        },
+        {
+          "folio": "f38v",
+          "P": "L",
+          "H": "1",
+          "L": "A",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 67,
+          "clinical_hub_idf": 15.683
+        }
+      ],
+      "4": [
+        {
+          "folio": "f36r",
+          "P": "G",
+          "H": "1",
+          "L": "A",
+          "tier": "INNER_CENTERFOLD",
+          "n_tokens": 63,
+          "clinical_hub_idf": 29.05
+        },
+        {
+          "folio": "f36v",
+          "P": "H",
+          "H": "1",
+          "L": "A",
+          "tier": "INNER_CENTERFOLD",
+          "n_tokens": 76,
+          "clinical_hub_idf": 26.7
+        },
+        {
+          "folio": "f37r",
+          "P": "I",
+          "H": "1",
+          "L": "A",
+          "tier": "INNER_CENTERFOLD",
+          "n_tokens": 78,
+          "clinical_hub_idf": 18.793
+        },
+        {
+          "folio": "f37v",
+          "P": "J",
+          "H": "1",
+          "L": "A",
+          "tier": "INNER_CENTERFOLD",
+          "n_tokens": 89,
+          "clinical_hub_idf": 34.593
+        }
+      ]
+    },
+    "F": {
+      "1": [
+        {
+          "folio": "f41r",
+          "P": "A",
+          "H": "5",
+          "L": "B",
+          "tier": "OUTER_WRAPPER",
+          "n_tokens": 97,
+          "clinical_hub_idf": 59.641
+        },
+        {
+          "folio": "f41v",
+          "P": "B",
+          "H": "5",
+          "L": "B",
+          "tier": "OUTER_WRAPPER",
+          "n_tokens": 65,
+          "clinical_hub_idf": 58.31
+        },
+        {
+          "folio": "f48r",
+          "P": "O",
+          "H": "5",
+          "L": "B",
+          "tier": "OUTER_WRAPPER",
+          "n_tokens": 89,
+          "clinical_hub_idf": 72.961
+        },
+        {
+          "folio": "f48v",
+          "P": "P",
+          "H": "5",
+          "L": "B",
+          "tier": "OUTER_WRAPPER",
+          "n_tokens": 128,
+          "clinical_hub_idf": 86.215
+        }
+      ],
+      "2": [
+        {
+          "folio": "f42r",
+          "P": "C",
+          "H": "1",
+          "L": "A",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 141,
+          "clinical_hub_idf": 92.408
+        },
+        {
+          "folio": "f42v",
+          "P": "D",
+          "H": "1",
+          "L": "A",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 116,
+          "clinical_hub_idf": 54.001
+        },
+        {
+          "folio": "f47r",
+          "P": "M",
+          "H": "1",
+          "L": "A",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 76,
+          "clinical_hub_idf": 42.025
+        },
+        {
+          "folio": "f47v",
+          "P": "N",
+          "H": "1",
+          "L": "A",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 85,
+          "clinical_hub_idf": 59.876
+        }
+      ],
+      "3": [
+        {
+          "folio": "f43r",
+          "P": "E",
+          "H": "2",
+          "L": "B",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 153,
+          "clinical_hub_idf": 107.007
+        },
+        {
+          "folio": "f43v",
+          "P": "F",
+          "H": "2",
+          "L": "B",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 151,
+          "clinical_hub_idf": 110.474
+        },
+        {
+          "folio": "f46r",
+          "P": "K",
+          "H": "2",
+          "L": "B",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 163,
+          "clinical_hub_idf": 104.178
+        },
+        {
+          "folio": "f46v",
+          "P": "L",
+          "H": "2",
+          "L": "B",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 111,
+          "clinical_hub_idf": 56.963
+        }
+      ],
+      "4": [
+        {
+          "folio": "f44r",
+          "P": "G",
+          "H": "1",
+          "L": "A",
+          "tier": "INNER_CENTERFOLD",
+          "n_tokens": 74,
+          "clinical_hub_idf": 22.213
+        },
+        {
+          "folio": "f44v",
+          "P": "H",
+          "H": "1",
+          "L": "A",
+          "tier": "INNER_CENTERFOLD",
+          "n_tokens": 100,
+          "clinical_hub_idf": 44.051
+        },
+        {
+          "folio": "f45r",
+          "P": "I",
+          "H": "1",
+          "L": "A",
+          "tier": "INNER_CENTERFOLD",
+          "n_tokens": 89,
+          "clinical_hub_idf": 54.476
+        },
+        {
+          "folio": "f45v",
+          "P": "J",
+          "H": "1",
+          "L": "A",
+          "tier": "INNER_CENTERFOLD",
+          "n_tokens": 85,
+          "clinical_hub_idf": 47.472
+        }
+      ]
+    },
+    "G": {
+      "1": [
+        {
+          "folio": "f49r",
+          "P": "A",
+          "H": "1",
+          "L": "A",
+          "tier": "OUTER_WRAPPER",
+          "n_tokens": 114,
+          "clinical_hub_idf": 62.48
+        },
+        {
+          "folio": "f49v",
+          "P": "B",
+          "H": "1",
+          "L": "A",
+          "tier": "OUTER_WRAPPER",
+          "n_tokens": 142,
+          "clinical_hub_idf": 64.596
+        },
+        {
+          "folio": "f56r",
+          "P": "O",
+          "H": "1",
+          "L": "A",
+          "tier": "OUTER_WRAPPER",
+          "n_tokens": 103,
+          "clinical_hub_idf": 49.58
+        },
+        {
+          "folio": "f56v",
+          "P": "P",
+          "H": "1",
+          "L": "A",
+          "tier": "OUTER_WRAPPER",
+          "n_tokens": 91,
+          "clinical_hub_idf": 37.232
+        }
+      ],
+      "2": [
+        {
+          "folio": "f50r",
+          "P": "C",
+          "H": "2",
+          "L": "B",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 93,
+          "clinical_hub_idf": 52.401
+        },
+        {
+          "folio": "f50v",
+          "P": "D",
+          "H": "2",
+          "L": "B",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 100,
+          "clinical_hub_idf": 55.402
+        },
+        {
+          "folio": "f55r",
+          "P": "M",
+          "H": "2",
+          "L": "B",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 124,
+          "clinical_hub_idf": 64.789
+        },
+        {
+          "folio": "f55v",
+          "P": "N",
+          "H": "2",
+          "L": "B",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 105,
+          "clinical_hub_idf": 51.952
+        }
+      ],
+      "3": [
+        {
+          "folio": "f51r",
+          "P": "E",
+          "H": "1",
+          "L": "A",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 89,
+          "clinical_hub_idf": 51.563
+        },
+        {
+          "folio": "f51v",
+          "P": "F",
+          "H": "1",
+          "L": "A",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 82,
+          "clinical_hub_idf": 61.492
+        },
+        {
+          "folio": "f54r",
+          "P": "K",
+          "H": "1",
+          "L": "A",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 110,
+          "clinical_hub_idf": 72.165
+        },
+        {
+          "folio": "f54v",
+          "P": "L",
+          "H": "1",
+          "L": "A",
+          "tier": "INTERMEDIATE_SHEET",
+          "n_tokens": 93,
+          "clinical_hub_idf": 53.739
+        }
+      ],
+      "4": [
+        {
+          "folio": "f52r",
+          "P": "G",
+          "H": "1",
+          "L": "A",
+          "tier": "INNER_CENTERFOLD",
+          "n_tokens": 69,
+          "clinical_hub_idf": 38.989
+        },
+        {
+          "folio": "f52v",
+          "P": "H",
+          "H": "1",
+          "L": "A",
+          "tier": "INNER_CENTERFOLD",
+          "n_tokens": 78,
+          "clinical_hub_idf": 59.765
+        },
+        {
+          "folio": "f53r",
+          "P": "I",
+          "H": "1",
+          "L": "A",
+          "tier": "INNER_CENTERFOLD",
+          "n_tokens": 61,
+          "clinical_hub_idf": 51.971
+        },
+        {
+          "folio": "f53v",
+          "P": "J",
+          "H": "1",
+          "L": "A",
+          "tier": "INNER_CENTERFOLD",
+          "n_tokens": 73,
+          "clinical_hub_idf": 59.601
+        }
+      ]
+    },
+    "H": {
+      "1": [
+        {
+          "folio": "f57r",
+          "P": "A",
+          "H": "5",
+          "L": "B",
+          "tier": "OUTER_WRAPPER",
+          "n_tokens": 87,
+          "clinical_hub_idf": 81.583
+        },
+        {
+          "folio": "f57v",
+          "P": "B",
+          "H": "1",
+          "L": "?",
+          "tier": "OUTER_WRAPPER",
+          "n_tokens": 0,
+          "clinical_hub_idf": 69.167
+        },
+        {
+          "folio": "f66r",
+          "P": "G",
+          "H": "5",
+          "L": "B",
+          "tier": "OUTER_WRAPPER",
+          "n_tokens": 294,
+          "clinical_hub_idf": 258.295
+        },
+        {
+          "folio": "f66v",
+          "P": "H",
+          "H": "5",
+          "L": "B",
+          "tier": "OUTER_WRAPPER",
+          "n_tokens": 114,
+          "clinical_hub_idf": 73.341
+        }
+      ],
+      "2": [
+        {
+          "folio": "f58r",
+          "P": "C",
+          "H": "3",
+          "L": "A",
+          "tier": "INNER_CENTERFOLD",
+          "n_tokens": 378,
+          "clinical_hub_idf": 551.665
+        },
+        {
+          "folio": "f58v",
+          "P": "D",
+          "H": "3",
+          "L": "A",
+          "tier": "INNER_CENTERFOLD",
+          "n_tokens": 375,
+          "clinical_hub_idf": 368.818
+        },
+        {
+          "folio": "f65r",
+          "P": "E",
+          "H": "3",
+          "L": "?",
+          "tier": "INNER_CENTERFOLD",
+          "n_tokens": 0,
+          "clinical_hub_idf": 1.436
+        },
+        {
+          "folio": "f65v",
+          "P": "F",
+          "H": "3",
+          "L": "?",
+          "tier": "INNER_CENTERFOLD",
+          "n_tokens": 45,
+          "clinical_hub_idf": 55.435
+        }
+      ]
+    }
+  },
+  "herbal_sheet_tier_metrics": {
+    "OUTER_WRAPPER": {
+      "n_folios": 27,
+      "pct_currier_B": 29.63,
+      "mean_prose_tokens": 96.15,
+      "mean_paras": 1.93,
+      "mean_unique_stems": 33.44,
+      "mean_clinical_hub_idf": 55.943,
+      "mean_clinical_hub_rate": 64.95,
+      "pct_with_extraneous_or_key": 18.52
+    },
+    "INTERMEDIATE_SHEET": {
+      "n_folios": 56,
+      "pct_currier_B": 28.57,
+      "mean_prose_tokens": 95.54,
+      "mean_paras": 1.89,
+      "mean_unique_stems": 31.25,
+      "mean_clinical_hub_idf": 54.238,
+      "mean_clinical_hub_rate": 67.16,
+      "pct_with_extraneous_or_key": 5.36
+    },
+    "INNER_CENTERFOLD": {
+      "n_folios": 26,
+      "pct_currier_B": 0.0,
+      "mean_prose_tokens": 75.46,
+      "mean_paras": 2.12,
+      "mean_unique_stems": 25.58,
+      "mean_clinical_hub_idf": 40.4,
+      "mean_clinical_hub_rate": 61.56,
+      "pct_with_extraneous_or_key": 7.69
+    }
+  },
+  "quire_boundary_law": {
+    "n_boundary_folios": 26,
+    "n_interior_folios": 168,
+    "boundary_colophon_key_rate_pct": 19.23,
+    "interior_colophon_key_rate_pct": 9.52,
+    "lift": 2.02,
+    "null_mean_pct": 10.87,
+    "null_std_pct": 5.59,
+    "z_score": 1.5,
+    "boundary_colophon_folios": [
+      "f1r",
+      "f17r",
+      "f66v",
+      "f84v",
+      "f116v"
+    ]
+  },
+  "sheet_pair_cohesion_by_tier": {
+    "OUTER_WRAPPER": {
+      "n_pairs": 54,
+      "mean_shared_idf": 12.581
+    },
+    "INTERMEDIATE_SHEET": {
+      "n_pairs": 126,
+      "mean_shared_idf": 21.73
+    },
+    "INNER_CENTERFOLD": {
+      "n_pairs": 49,
+      "mean_shared_idf": 19.139
+    }
+  },
+  "quire_summary": {
+    "A": {
+      "quire": "A",
+      "n_folios": 16,
+      "max_B": 4,
+      "first_folio": "f1r",
+      "last_folio": "f8v",
+      "scribes": {
+        "1": 16
+      },
+      "languages": {
+        "A": 16
+      },
+      "sections": {
+        "T": 1,
+        "H": 15
+      },
+      "is_mixed_scribe": false,
+      "folios_by_B": {
+        "1": [
+          "f1r(H=1,L=A,P=A)",
+          "f1v(H=1,L=A,P=B)",
+          "f8r(H=1,L=A,P=O)",
+          "f8v(H=1,L=A,P=P)"
+        ],
+        "2": [
+          "f2r(H=1,L=A,P=C)",
+          "f2v(H=1,L=A,P=D)",
+          "f7r(H=1,L=A,P=M)",
+          "f7v(H=1,L=A,P=N)"
+        ],
+        "3": [
+          "f3r(H=1,L=A,P=E)",
+          "f3v(H=1,L=A,P=F)",
+          "f6r(H=1,L=A,P=K)",
+          "f6v(H=1,L=A,P=L)"
+        ],
+        "4": [
+          "f4r(H=1,L=A,P=G)",
+          "f4v(H=1,L=A,P=H)",
+          "f5r(H=1,L=A,P=I)",
+          "f5v(H=1,L=A,P=J)"
+        ]
+      }
+    },
+    "B": {
+      "quire": "B",
+      "n_folios": 14,
+      "max_B": 4,
+      "first_folio": "f9r",
+      "last_folio": "f16v",
+      "scribes": {
+        "1": 14
+      },
+      "languages": {
+        "A": 14
+      },
+      "sections": {
+        "H": 14
+      },
+      "is_mixed_scribe": false,
+      "folios_by_B": {
+        "1": [
+          "f9r(H=1,L=A,P=A)",
+          "f9v(H=1,L=A,P=B)",
+          "f16r(H=1,L=A,P=O)",
+          "f16v(H=1,L=A,P=P)"
+        ],
+        "2": [
+          "f10r(H=1,L=A,P=C)",
+          "f10v(H=1,L=A,P=D)",
+          "f15r(H=1,L=A,P=M)",
+          "f15v(H=1,L=A,P=N)"
+        ],
+        "3": [
+          "f11r(H=1,L=A,P=E)",
+          "f11v(H=1,L=A,P=F)",
+          "f14r(H=1,L=A,P=K)",
+          "f14v(H=1,L=A,P=L)"
+        ],
+        "4": [
+          "f13r(H=1,L=A,P=I)",
+          "f13v(H=1,L=A,P=J)"
+        ]
+      }
+    },
+    "C": {
+      "quire": "C",
+      "n_folios": 16,
+      "max_B": 4,
+      "first_folio": "f17r",
+      "last_folio": "f24v",
+      "scribes": {
+        "1": 16
+      },
+      "languages": {
+        "A": 16
+      },
+      "sections": {
+        "H": 16
+      },
+      "is_mixed_scribe": false,
+      "folios_by_B": {
+        "1": [
+          "f17r(H=1,L=A,P=A)",
+          "f17v(H=1,L=A,P=B)",
+          "f24r(H=1,L=A,P=O)",
+          "f24v(H=1,L=A,P=P)"
+        ],
+        "2": [
+          "f18r(H=1,L=A,P=C)",
+          "f18v(H=1,L=A,P=D)",
+          "f23r(H=1,L=A,P=M)",
+          "f23v(H=1,L=A,P=N)"
+        ],
+        "3": [
+          "f19r(H=1,L=A,P=E)",
+          "f19v(H=1,L=A,P=F)",
+          "f22r(H=1,L=A,P=K)",
+          "f22v(H=1,L=A,P=L)"
+        ],
+        "4": [
+          "f20r(H=1,L=A,P=G)",
+          "f20v(H=1,L=A,P=H)",
+          "f21r(H=1,L=A,P=I)",
+          "f21v(H=1,L=A,P=J)"
+        ]
+      }
+    },
+    "D": {
+      "quire": "D",
+      "n_folios": 16,
+      "max_B": 4,
+      "first_folio": "f25r",
+      "last_folio": "f32v",
+      "scribes": {
+        "1": 12,
+        "2": 4
+      },
+      "languages": {
+        "A": 12,
+        "B": 4
+      },
+      "sections": {
+        "H": 16
+      },
+      "is_mixed_scribe": true,
+      "folios_by_B": {
+        "1": [
+          "f25r(H=1,L=A,P=A)",
+          "f25v(H=1,L=A,P=B)",
+          "f32r(H=1,L=A,P=O)",
+          "f32v(H=1,L=A,P=P)"
+        ],
+        "2": [
+          "f26r(H=2,L=B,P=C)",
+          "f26v(H=2,L=B,P=D)",
+          "f31r(H=2,L=B,P=M)",
+          "f31v(H=2,L=B,P=N)"
+        ],
+        "3": [
+          "f27r(H=1,L=A,P=E)",
+          "f27v(H=1,L=A,P=F)",
+          "f30r(H=1,L=A,P=K)",
+          "f30v(H=1,L=A,P=L)"
+        ],
+        "4": [
+          "f28r(H=1,L=A,P=G)",
+          "f28v(H=1,L=A,P=H)",
+          "f29r(H=1,L=A,P=I)",
+          "f29v(H=1,L=A,P=J)"
+        ]
+      }
+    },
+    "E": {
+      "quire": "E",
+      "n_folios": 16,
+      "max_B": 4,
+      "first_folio": "f33r",
+      "last_folio": "f40v",
+      "scribes": {
+        "2": 8,
+        "1": 8
+      },
+      "languages": {
+        "B": 8,
+        "A": 8
+      },
+      "sections": {
+        "H": 16
+      },
+      "is_mixed_scribe": true,
+      "folios_by_B": {
+        "1": [
+          "f33r(H=2,L=B,P=A)",
+          "f33v(H=2,L=B,P=B)",
+          "f40r(H=2,L=B,P=O)",
+          "f40v(H=2,L=B,P=P)"
+        ],
+        "2": [
+          "f34r(H=2,L=B,P=C)",
+          "f34v(H=2,L=B,P=D)",
+          "f39r(H=2,L=B,P=M)",
+          "f39v(H=2,L=B,P=N)"
+        ],
+        "3": [
+          "f35r(H=1,L=A,P=E)",
+          "f35v(H=1,L=A,P=F)",
+          "f38r(H=1,L=A,P=K)",
+          "f38v(H=1,L=A,P=L)"
+        ],
+        "4": [
+          "f36r(H=1,L=A,P=G)",
+          "f36v(H=1,L=A,P=H)",
+          "f37r(H=1,L=A,P=I)",
+          "f37v(H=1,L=A,P=J)"
+        ]
+      }
+    },
+    "F": {
+      "quire": "F",
+      "n_folios": 16,
+      "max_B": 4,
+      "first_folio": "f41r",
+      "last_folio": "f48v",
+      "scribes": {
+        "5": 4,
+        "1": 8,
+        "2": 4
+      },
+      "languages": {
+        "B": 8,
+        "A": 8
+      },
+      "sections": {
+        "H": 16
+      },
+      "is_mixed_scribe": true,
+      "folios_by_B": {
+        "1": [
+          "f41r(H=5,L=B,P=A)",
+          "f41v(H=5,L=B,P=B)",
+          "f48r(H=5,L=B,P=O)",
+          "f48v(H=5,L=B,P=P)"
+        ],
+        "2": [
+          "f42r(H=1,L=A,P=C)",
+          "f42v(H=1,L=A,P=D)",
+          "f47r(H=1,L=A,P=M)",
+          "f47v(H=1,L=A,P=N)"
+        ],
+        "3": [
+          "f43r(H=2,L=B,P=E)",
+          "f43v(H=2,L=B,P=F)",
+          "f46r(H=2,L=B,P=K)",
+          "f46v(H=2,L=B,P=L)"
+        ],
+        "4": [
+          "f44r(H=1,L=A,P=G)",
+          "f44v(H=1,L=A,P=H)",
+          "f45r(H=1,L=A,P=I)",
+          "f45v(H=1,L=A,P=J)"
+        ]
+      }
+    },
+    "G": {
+      "quire": "G",
+      "n_folios": 16,
+      "max_B": 4,
+      "first_folio": "f49r",
+      "last_folio": "f56v",
+      "scribes": {
+        "1": 12,
+        "2": 4
+      },
+      "languages": {
+        "A": 12,
+        "B": 4
+      },
+      "sections": {
+        "H": 16
+      },
+      "is_mixed_scribe": true,
+      "folios_by_B": {
+        "1": [
+          "f49r(H=1,L=A,P=A)",
+          "f49v(H=1,L=A,P=B)",
+          "f56r(H=1,L=A,P=O)",
+          "f56v(H=1,L=A,P=P)"
+        ],
+        "2": [
+          "f50r(H=2,L=B,P=C)",
+          "f50v(H=2,L=B,P=D)",
+          "f55r(H=2,L=B,P=M)",
+          "f55v(H=2,L=B,P=N)"
+        ],
+        "3": [
+          "f51r(H=1,L=A,P=E)",
+          "f51v(H=1,L=A,P=F)",
+          "f54r(H=1,L=A,P=K)",
+          "f54v(H=1,L=A,P=L)"
+        ],
+        "4": [
+          "f52r(H=1,L=A,P=G)",
+          "f52v(H=1,L=A,P=H)",
+          "f53r(H=1,L=A,P=I)",
+          "f53v(H=1,L=A,P=J)"
+        ]
+      }
+    },
+    "H": {
+      "quire": "H",
+      "n_folios": 8,
+      "max_B": 2,
+      "first_folio": "f57r",
+      "last_folio": "f66v",
+      "scribes": {
+        "5": 3,
+        "1": 1,
+        "3": 4
+      },
+      "languages": {
+        "B": 3,
+        "?": 3,
+        "A": 2
+      },
+      "sections": {
+        "H": 4,
+        "C": 1,
+        "S": 2,
+        "T": 1
+      },
+      "is_mixed_scribe": true,
+      "folios_by_B": {
+        "1": [
+          "f57r(H=5,L=B,P=A)",
+          "f57v(H=1,L=?,P=B)",
+          "f66r(H=5,L=B,P=G)",
+          "f66v(H=5,L=B,P=H)"
+        ],
+        "2": [
+          "f58r(H=3,L=A,P=C)",
+          "f58v(H=3,L=A,P=D)",
+          "f65r(H=3,L=?,P=E)",
+          "f65v(H=3,L=?,P=F)"
+        ]
+      }
+    },
+    "I": {
+      "quire": "I",
+      "n_folios": 10,
+      "max_B": 1,
+      "first_folio": "f67r1",
+      "last_folio": "f68v1",
+      "scribes": {
+        "4": 10
+      },
+      "languages": {
+        "?": 10
+      },
+      "sections": {
+        "A": 8,
+        "C": 2
+      },
+      "is_mixed_scribe": false,
+      "folios_by_B": {
+        "1": [
+          "f67r1(H=4,L=?,P=B)",
+          "f67r2(H=4,L=?,P=C)",
+          "f67v2(H=4,L=?,P=E)",
+          "f67v1(H=4,L=?,P=F)",
+          "f68r1(H=4,L=?,P=H)",
+          "f68r2(H=4,L=?,P=I)",
+          "f68r3(H=4,L=?,P=J)",
+          "f68v3(H=4,L=?,P=L)",
+          "f68v2(H=4,L=?,P=M)",
+          "f68v1(H=4,L=?,P=N)"
+        ]
+      }
+    },
+    "J": {
+      "quire": "J",
+      "n_folios": 6,
+      "max_B": 1,
+      "first_folio": "f69r",
+      "last_folio": "f70v1",
+      "scribes": {
+        "4": 6
+      },
+      "languages": {
+        "?": 6
+      },
+      "sections": {
+        "C": 4,
+        "Z": 2
+      },
+      "is_mixed_scribe": false,
+      "folios_by_B": {
+        "1": [
+          "f69r(H=4,L=?,P=A)",
+          "f69v(H=4,L=?,P=B)",
+          "f70r1(H=4,L=?,P=D)",
+          "f70r2(H=4,L=?,P=E)",
+          "f70v2(H=4,L=?,P=G)",
+          "f70v1(H=4,L=?,P=H)"
+        ]
+      }
+    },
+    "K": {
+      "quire": "K",
+      "n_folios": 8,
+      "max_B": 1,
+      "first_folio": "f71r",
+      "last_folio": "f72v1",
+      "scribes": {
+        "4": 8
+      },
+      "languages": {
+        "?": 8
+      },
+      "sections": {
+        "Z": 8
+      },
+      "is_mixed_scribe": false,
+      "folios_by_B": {
+        "1": [
+          "f71r(H=4,L=?,P=A)",
+          "f71v(H=4,L=?,P=B)",
+          "f72r1(H=4,L=?,P=D)",
+          "f72r2(H=4,L=?,P=E)",
+          "f72r3(H=4,L=?,P=F)",
+          "f72v3(H=4,L=?,P=H)",
+          "f72v2(H=4,L=?,P=I)",
+          "f72v1(H=4,L=?,P=J)"
+        ]
+      }
+    },
+    "L": {
+      "quire": "L",
+      "n_folios": 2,
+      "max_B": 1,
+      "first_folio": "f73r",
+      "last_folio": "f73v",
+      "scribes": {
+        "4": 2
+      },
+      "languages": {
+        "?": 2
+      },
+      "sections": {
+        "Z": 2
+      },
+      "is_mixed_scribe": false,
+      "folios_by_B": {
+        "1": [
+          "f73r(H=4,L=?,P=A)",
+          "f73v(H=4,L=?,P=B)"
+        ]
+      }
+    },
+    "M": {
+      "quire": "M",
+      "n_folios": 20,
+      "max_B": 5,
+      "first_folio": "f75r",
+      "last_folio": "f84v",
+      "scribes": {
+        "2": 20
+      },
+      "languages": {
+        "B": 20
+      },
+      "sections": {
+        "B": 19,
+        "T": 1
+      },
+      "is_mixed_scribe": false,
+      "folios_by_B": {
+        "1": [
+          "f75r(H=2,L=B,P=A)",
+          "f75v(H=2,L=B,P=B)",
+          "f84r(H=2,L=B,P=S)",
+          "f84v(H=2,L=B,P=T)"
+        ],
+        "2": [
+          "f76r(H=2,L=B,P=C)",
+          "f76v(H=2,L=B,P=D)",
+          "f83r(H=2,L=B,P=Q)",
+          "f83v(H=2,L=B,P=R)"
+        ],
+        "3": [
+          "f77r(H=2,L=B,P=E)",
+          "f77v(H=2,L=B,P=F)",
+          "f82r(H=2,L=B,P=O)",
+          "f82v(H=2,L=B,P=P)"
+        ],
+        "4": [
+          "f78r(H=2,L=B,P=G)",
+          "f78v(H=2,L=B,P=H)",
+          "f81r(H=2,L=B,P=M)",
+          "f81v(H=2,L=B,P=N)"
+        ],
+        "5": [
+          "f79r(H=2,L=B,P=I)",
+          "f79v(H=2,L=B,P=J)",
+          "f80r(H=2,L=B,P=K)",
+          "f80v(H=2,L=B,P=L)"
+        ]
+      }
+    },
+    "N": {
+      "quire": "N",
+      "n_folios": 6,
+      "max_B": 1,
+      "first_folio": "f85r1",
+      "last_folio": "f86v3",
+      "scribes": {
+        "2": 6
+      },
+      "languages": {
+        "B": 6
+      },
+      "sections": {
+        "T": 3,
+        "C": 3
+      },
+      "is_mixed_scribe": false,
+      "folios_by_B": {
+        "1": [
+          "f85r1(H=2,L=B,P=B)",
+          "f85r2(H=2,L=B,P=C)",
+          "f86v4(H=2,L=B,P=N)",
+          "f86v6(H=2,L=B,P=O)",
+          "f86v5(H=2,L=B,P=P)",
+          "f86v3(H=2,L=B,P=Q)"
+        ]
+      }
+    },
+    "O": {
+      "quire": "O",
+      "n_folios": 12,
+      "max_B": 2,
+      "first_folio": "f87r",
+      "last_folio": "f90v1",
+      "scribes": {
+        "1": 12
+      },
+      "languages": {
+        "A": 12
+      },
+      "sections": {
+        "H": 6,
+        "P": 6
+      },
+      "is_mixed_scribe": false,
+      "folios_by_B": {
+        "1": [
+          "f87r(H=1,L=A,P=A)",
+          "f87v(H=1,L=A,P=B)",
+          "f90r1(H=1,L=A,P=L)",
+          "f90r2(H=1,L=A,P=M)",
+          "f90v2(H=1,L=A,P=O)",
+          "f90v1(H=1,L=A,P=P)"
+        ],
+        "2": [
+          "f88r(H=1,L=A,P=C)",
+          "f88v(H=1,L=A,P=D)",
+          "f89r1(H=1,L=A,P=F)",
+          "f89r2(H=1,L=A,P=G)",
+          "f89v2(H=1,L=A,P=I)",
+          "f89v1(H=1,L=A,P=J)"
+        ]
+      }
+    },
+    "Q": {
+      "quire": "Q",
+      "n_folios": 10,
+      "max_B": 2,
+      "first_folio": "f93r",
+      "last_folio": "f96v",
+      "scribes": {
+        "1": 4,
+        "3": 6
+      },
+      "languages": {
+        "A": 4,
+        "B": 6
+      },
+      "sections": {
+        "H": 10
+      },
+      "is_mixed_scribe": true,
+      "folios_by_B": {
+        "1": [
+          "f93r(H=1,L=A,P=A)",
+          "f93v(H=1,L=A,P=B)",
+          "f96r(H=1,L=A,P=K)",
+          "f96v(H=1,L=A,P=L)"
+        ],
+        "2": [
+          "f94r(H=3,L=B,P=C)",
+          "f94v(H=3,L=B,P=D)",
+          "f95r1(H=3,L=B,P=F)",
+          "f95r2(H=3,L=B,P=G)",
+          "f95v2(H=3,L=B,P=I)",
+          "f95v1(H=3,L=B,P=J)"
+        ]
+      }
+    },
+    "S": {
+      "quire": "S",
+      "n_folios": 10,
+      "max_B": 2,
+      "first_folio": "f99r",
+      "last_folio": "f102v1",
+      "scribes": {
+        "1": 10
+      },
+      "languages": {
+        "A": 10
+      },
+      "sections": {
+        "P": 10
+      },
+      "is_mixed_scribe": false,
+      "folios_by_B": {
+        "1": [
+          "f99r(H=1,L=A,P=A)",
+          "f99v(H=1,L=A,P=B)",
+          "f102r1(H=1,L=A,P=L)",
+          "f102r2(H=1,L=A,P=M)",
+          "f102v2(H=1,L=A,P=O)",
+          "f102v1(H=1,L=A,P=P)"
+        ],
+        "2": [
+          "f100r(H=1,L=A,P=C)",
+          "f100v(H=1,L=A,P=D)",
+          "f101r(H=1,L=A,P=E)",
+          "f101v(H=1,L=A,P=H)"
+        ]
+      }
+    },
+    "T": {
+      "quire": "T",
+      "n_folios": 24,
+      "max_B": 6,
+      "first_folio": "f103r",
+      "last_folio": "f116v",
+      "scribes": {
+        "3": 23,
+        "?": 1
+      },
+      "languages": {
+        "B": 23,
+        "?": 1
+      },
+      "sections": {
+        "S": 23,
+        "T": 1
+      },
+      "is_mixed_scribe": false,
+      "folios_by_B": {
+        "1": [
+          "f103r(H=3,L=B,P=A)",
+          "f103v(H=3,L=B,P=B)",
+          "f116r(H=3,L=B,P=W)",
+          "f116v(H=3,L=?,P=X)"
+        ],
+        "2": [
+          "f104r(H=3,L=B,P=C)",
+          "f104v(H=3,L=B,P=D)",
+          "f115r(H=?,L=B,P=U)",
+          "f115v(H=3,L=B,P=V)"
+        ],
+        "3": [
+          "f105r(H=3,L=B,P=E)",
+          "f105v(H=3,L=B,P=F)",
+          "f114r(H=3,L=B,P=S)",
+          "f114v(H=3,L=B,P=T)"
+        ],
+        "4": [
+          "f106r(H=3,L=B,P=G)",
+          "f106v(H=3,L=B,P=H)",
+          "f113r(H=3,L=B,P=Q)",
+          "f113v(H=3,L=B,P=R)"
+        ],
+        "5": [
+          "f107r(H=3,L=B,P=I)",
+          "f107v(H=3,L=B,P=J)",
+          "f112r(H=3,L=B,P=O)",
+          "f112v(H=3,L=B,P=P)"
+        ],
+        "6": [
+          "f108r(H=3,L=B,P=K)",
+          "f108v(H=3,L=B,P=L)",
+          "f111r(H=3,L=B,P=M)",
+          "f111v(H=3,L=B,P=N)"
+        ]
+      }
+    }
+  }
+}

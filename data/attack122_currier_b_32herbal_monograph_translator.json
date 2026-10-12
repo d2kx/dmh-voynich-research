@@ -1,0 +1,2790 @@
+{
+  "attack": "Attack 122 (Phase 133 / Discovery 139)",
+  "title": "Complete 32-Monograph Currier B Herbal ($I=H, $L=B) Structural & Botanical Translation",
+  "herbal_b_vs_a_comparison": {
+    "H_B_32": {
+      "n_folios": 32,
+      "mean_tokens": 108.66,
+      "mean_paras": 2.06,
+      "mean_unique_stems": 34.72,
+      "mean_qo_pct": 9.95,
+      "mean_edy_pct": 13.29,
+      "mean_l_ol_pct": 13.41,
+      "mean_aiin_pct": 11.81,
+      "mean_idf_P": 27.626,
+      "mean_idf_B": 35.366,
+      "mean_idf_S": 57.658,
+      "mean_idf_Z": 20.819,
+      "mean_idf_AC": 33.286,
+      "mean_idf_f66r": 12.978,
+      "mean_total_clinical_PBS": 65.398
+    },
+    "H_A_96": {
+      "n_folios": 95,
+      "mean_tokens": 84.74,
+      "mean_paras": 1.88,
+      "mean_unique_stems": 27.97,
+      "mean_qo_pct": 9.23,
+      "mean_edy_pct": 0.06,
+      "mean_l_ol_pct": 16.77,
+      "mean_aiin_pct": 13.65,
+      "mean_idf_P": 26.381,
+      "mean_idf_B": 18.803,
+      "mean_idf_S": 34.984,
+      "mean_idf_Z": 12.73,
+      "mean_idf_AC": 24.603,
+      "mean_idf_f66r": 5.975,
+      "mean_total_clinical_PBS": 44.402
+    },
+    "permutation_test_total_clinical_PBS": {
+      "observed_H_B_mean": 65.398,
+      "observed_H_A_mean": 44.402,
+      "lift_B_over_A": 1.473,
+      "null_mean": 49.712,
+      "null_std": 3.261,
+      "z_score": 4.81
+    }
+  },
+  "three_scribe_hb_specialization": {
+    "H=2": {
+      "n_folios": 20,
+      "mean_tokens": 118.05,
+      "mean_paras": 2.1,
+      "mean_unique_stems": 35.45,
+      "mean_qo_pct": 9.12,
+      "mean_edy_pct": 13.52,
+      "mean_l_ol_pct": 12.02,
+      "mean_aiin_pct": 12.33,
+      "mean_idf_P": 27.574,
+      "mean_idf_B": 38.722,
+      "mean_idf_S": 59.124,
+      "mean_idf_Z": 21.784,
+      "mean_idf_AC": 33.489,
+      "mean_idf_f66r": 13.218,
+      "mean_total_clinical_PBS": 67.651
+    },
+    "H=5": {
+      "n_folios": 6,
+      "mean_tokens": 96.83,
+      "mean_paras": 1.83,
+      "mean_unique_stems": 38.83,
+      "mean_qo_pct": 9.86,
+      "mean_edy_pct": 17.26,
+      "mean_l_ol_pct": 15.79,
+      "mean_aiin_pct": 6.14,
+      "mean_idf_P": 32.94,
+      "mean_idf_B": 29.078,
+      "mean_idf_S": 58.078,
+      "mean_idf_Z": 22.964,
+      "mean_idf_AC": 37.016,
+      "mean_idf_f66r": 12.128,
+      "mean_total_clinical_PBS": 66.138
+    },
+    "H=3": {
+      "n_folios": 6,
+      "mean_tokens": 89.17,
+      "mean_paras": 2.17,
+      "mean_unique_stems": 28.17,
+      "mean_qo_pct": 12.81,
+      "mean_edy_pct": 8.52,
+      "mean_l_ol_pct": 15.67,
+      "mean_aiin_pct": 15.72,
+      "mean_idf_P": 22.486,
+      "mean_idf_B": 30.47,
+      "mean_idf_S": 52.349,
+      "mean_idf_Z": 15.461,
+      "mean_idf_AC": 28.875,
+      "mean_idf_f66r": 13.027,
+      "mean_total_clinical_PBS": 57.147
+    }
+  },
+  "monograph_records": [
+    {
+      "rank": 1,
+      "folio": "f26r",
+      "quire": "D",
+      "bifolio_B": 2,
+      "page_P": "C",
+      "scribe_H": "2",
+      "sheet_mates": [
+        "f26v",
+        "f31r",
+        "f31v"
+      ],
+      "n_tokens": 90,
+      "n_paras": 2,
+      "n_lines": 10,
+      "n_unique_stems": 27,
+      "morph": {
+        "n": 90,
+        "qo_pct": 12.22,
+        "edy_pct": 32.22,
+        "l_ol_pct": 6.67,
+        "aiin_pct": 10.0,
+        "do_so_pct": 22.22
+      },
+      "routing_idf": {
+        "P": 16.932,
+        "B": 25.44,
+        "S": 32.728,
+        "Z": 10.842,
+        "AC": 23.469,
+        "f66r": 2.167,
+        "total_clinical_PBS": 36.767
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "adEEo (BOT:adEEo, idf=4.73)",
+        "p_Seok (BOT:p_Seok, idf=4.73)",
+        "t_CeoS (BOT:t_CeoS, idf=4.73)",
+        "of_Sod (BOT:of_Sod, idf=4.73)",
+        "Ceph (BOT:Ceph, idf=4.73)",
+        "Cofo (BOT:Cofo, idf=4.73)"
+      ],
+      "line1_header_eva": "psheoky . odaiir . qoy . ofshod . chypchey . ypchedy . ain . chofo",
+      "line1_header_gloss": "psheoky <BOT:stem[p_Seok]:STAT[state-y]> | odaiir <BOT:stem[odaii]> | qoy <ACT:boil/extract+BOT:stem[q-]:STAT[state-y]> | ofshod <BOT:stem[of_Sod]> | chypchey <BOT:stem[Cyp_C]:INF[cooked-ey]> | ypchedy <BOT:stem[yp_C]:PROC[decoct/mix-edy]> | ain <BOT:stem[ai]> | chofo <BOT:stem[Cofo]>",
+      "best_zodiac_match": {
+        "folio": "f72v2",
+        "idf": 4.558,
+        "shared_stems": [
+          "Seos",
+          "Ceos"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f89v2",
+        "idf": 6.112,
+        "shared_stems": [
+          "Seos",
+          "Ceos",
+          "EE"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f80r",
+        "idf": 12.815,
+        "shared_stems": [
+          "olo",
+          "rC",
+          "Cecth",
+          "Scth"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f113v",
+        "idf": 18.216,
+        "shared_stems": [
+          "tEEd",
+          "ls",
+          "olo",
+          "rC"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "folio": "f26v",
+      "quire": "D",
+      "bifolio_B": 2,
+      "page_P": "D",
+      "scribe_H": "2",
+      "sheet_mates": [
+        "f26r",
+        "f31r",
+        "f31v"
+      ],
+      "n_tokens": 93,
+      "n_paras": 1,
+      "n_lines": 9,
+      "n_unique_stems": 34,
+      "morph": {
+        "n": 93,
+        "qo_pct": 10.75,
+        "edy_pct": 23.66,
+        "l_ol_pct": 2.15,
+        "aiin_pct": 6.45,
+        "do_so_pct": 15.05
+      },
+      "routing_idf": {
+        "P": 32.036,
+        "B": 42.724,
+        "S": 61.412,
+        "Z": 32.403,
+        "AC": 40.46,
+        "f66r": 11.619,
+        "total_clinical_PBS": 68.796
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "CEEos (BOT:CEEos, idf=3.48)",
+        "dEE (BOT:dEE, idf=2.43)",
+        "of_C (BOT:of_C, idf=2.38)",
+        "tody (BOT:tody, idf=4.73)",
+        "aihe (BOT:aihe, idf=4.73)",
+        "p_CEEt (BOT:p_CEEt, idf=4.73)"
+      ],
+      "line1_header_eva": "pchedar . qodary . daiiin . pcheety . s . air . shedy . ypchedy",
+      "line1_header_gloss": "pchedar <BOT:stem[p_Ced]:RESIN[extract-or/ar]> | qodary <ACT:boil/extract+BOT:stem[dar]:STAT[state-y]> | daiiin <BOT:stem[da]:DOSE[measure-aiin]> | pcheety <BOT:stem[p_CEEt]:STAT[state-y]> | s <SEQ:shoot/tendril[s]> | air <BOT:stem[ai]> | shedy <STEM:infused-spray[she]:PROC[decoct/mix-edy]> | ypchedy <BOT:stem[yp_C]:PROC[decoct/mix-edy]>",
+      "best_zodiac_match": {
+        "folio": "f72v2",
+        "idf": 12.391,
+        "shared_stems": [
+          "Ceoet",
+          "oked",
+          "Cs",
+          "Ceos"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f102v2",
+        "idf": 12.599,
+        "shared_stems": [
+          "okEEos",
+          "dEE",
+          "CEEk",
+          "Ceos"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f78v",
+        "idf": 14.413,
+        "shared_stems": [
+          "okeS",
+          "et",
+          "of_C",
+          "Cs"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f113r",
+        "idf": 19.638,
+        "shared_stems": [
+          "CEEos",
+          "et",
+          "p_Ced",
+          "Cs"
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "folio": "f31r",
+      "quire": "D",
+      "bifolio_B": 2,
+      "page_P": "M",
+      "scribe_H": "2",
+      "sheet_mates": [
+        "f26r",
+        "f26v",
+        "f31v"
+      ],
+      "n_tokens": 103,
+      "n_paras": 3,
+      "n_lines": 16,
+      "n_unique_stems": 30,
+      "morph": {
+        "n": 103,
+        "qo_pct": 17.48,
+        "edy_pct": 19.42,
+        "l_ol_pct": 12.62,
+        "aiin_pct": 11.65,
+        "do_so_pct": 20.39
+      },
+      "routing_idf": {
+        "P": 21.873,
+        "B": 40.243,
+        "S": 51.843,
+        "Z": 16.773,
+        "AC": 30.958,
+        "f66r": 10.886,
+        "total_clinical_PBS": 59.984
+      },
+      "clinical_branch": "DECOCTION_INTERNAL_DOMINANT (Boiled-Recipe Herb)",
+      "top_signature_stems": [
+        "olSe (BOT:olSe, idf=3.82)",
+        "SEEo (BOT:SEEo, idf=2.79)",
+        "Cepos (BOT:Cepos, idf=4.73)",
+        "aiicth (BOT:aiicth, idf=4.73)",
+        "ySedai (BOT:ySedai, idf=4.73)",
+        "qef (BOT:qef, idf=4.73)"
+      ],
+      "line1_header_eva": "keedey . qofchedy . shee . s . aiin . qokee@149; . chepakeo",
+      "line1_header_gloss": "keedey <BOT:stem[kEEd]:INF[cooked-ey]> | qofchedy <ACT:boil/extract+CMPD:plume-bench[fch]:PROC[decoct/mix-edy]> | shee <STEM:decocted-spray[shee]> | s <SEQ:shoot/tendril[s]> | aiin <BOT:stem[aIIN]:DOSE[measure-aiin]> | qokee@149; <ACT:boil/extract+STEM:steeped-calyx[kee]> | chepakeo <BOT:stem[Cepakeo]>",
+      "best_zodiac_match": {
+        "folio": "f72v1",
+        "idf": 4.655,
+        "shared_stems": [
+          "dals",
+          "ote"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f102v2",
+        "idf": 8.694,
+        "shared_stems": [
+          "SekEE",
+          "SEEo",
+          "dEE"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f76v",
+        "idf": 17.931,
+        "shared_stems": [
+          "SekEE",
+          "dEE",
+          "oked",
+          "Cecth"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f111r",
+        "idf": 27.862,
+        "shared_stems": [
+          "Ceda",
+          "ykEEd",
+          "SekEE",
+          "dCEE"
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "folio": "f31v",
+      "quire": "D",
+      "bifolio_B": 2,
+      "page_P": "N",
+      "scribe_H": "2",
+      "sheet_mates": [
+        "f26r",
+        "f26v",
+        "f31r"
+      ],
+      "n_tokens": 110,
+      "n_paras": 2,
+      "n_lines": 11,
+      "n_unique_stems": 41,
+      "morph": {
+        "n": 110,
+        "qo_pct": 3.64,
+        "edy_pct": 10.91,
+        "l_ol_pct": 13.64,
+        "aiin_pct": 9.09,
+        "do_so_pct": 9.09
+      },
+      "routing_idf": {
+        "P": 33.741,
+        "B": 28.856,
+        "S": 79.791,
+        "Z": 31.227,
+        "AC": 49.865,
+        "f66r": 19.631,
+        "total_clinical_PBS": 85.997
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "yCekEE (BOT:yCekEE, idf=4.73)",
+        "tolCeo (BOT:tolCeo, idf=4.73)",
+        "dk_Cr (BOT:dk_Cr, idf=4.73)",
+        "yteCe (BOT:yteCe, idf=4.73)",
+        "okeCoked (BOT:okeCoked, idf=4.73)",
+        "Cecfh (BOT:Cecfh, idf=4.73)"
+      ],
+      "line1_header_eva": "podair . sheedy . otedy . oteedy . qotolcheo . s . ar . ar",
+      "line1_header_gloss": "podair <BOT:stem[podai]> | sheedy <STEM:decocted-spray[shee]:PROC[decoct/mix-edy]> | otedy <NOM:vessel-stalk[ot]:PROC[decoct/mix-edy]> | oteedy <NOM:vessel-stalk[ot]:PROC[decoct/mix-edy]> | qotolcheo <ACT:boil/extract+BOT:stem[tolCeo]> | s <SEQ:shoot/tendril[s]> | ar <BOT:stem[ar]:RESIN[extract-or/ar]> | ar <BOT:stem[ar]:RESIN[extract-or/ar]>",
+      "best_zodiac_match": {
+        "folio": "f72v2",
+        "idf": 16.658,
+        "shared_stems": [
+          "Seoek",
+          "okEEs",
+          "oked",
+          "ockh"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f101v",
+        "idf": 12.62,
+        "shared_stems": [
+          "cthEE",
+          "CEEo",
+          "Ceok",
+          "okEEo"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f76v",
+        "idf": 11.478,
+        "shared_stems": [
+          "oked",
+          "Cecth",
+          "Sed",
+          "Ces"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f111r",
+        "idf": 27.261,
+        "shared_stems": [
+          "CEEf",
+          "aikh",
+          "oked",
+          "CEEo"
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "folio": "f33r",
+      "quire": "E",
+      "bifolio_B": 1,
+      "page_P": "A",
+      "scribe_H": "2",
+      "sheet_mates": [
+        "f33v",
+        "f40r",
+        "f40v"
+      ],
+      "n_tokens": 74,
+      "n_paras": 1,
+      "n_lines": 7,
+      "n_unique_stems": 20,
+      "morph": {
+        "n": 74,
+        "qo_pct": 9.46,
+        "edy_pct": 9.46,
+        "l_ol_pct": 14.86,
+        "aiin_pct": 22.97,
+        "do_so_pct": 9.46
+      },
+      "routing_idf": {
+        "P": 21.491,
+        "B": 19.818,
+        "S": 38.536,
+        "Z": 18.059,
+        "AC": 17.883,
+        "f66r": 7.526,
+        "total_clinical_PBS": 46.207
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "CeCd (BOT:CeCd, idf=4.73)",
+        "foikh (BOT:foikh, idf=4.73)",
+        "otard (BOT:otard, idf=4.33)",
+        "yfol (BOT:yfol, idf=4.04)",
+        "t_Sd (BOT:t_Sd, idf=4.04)",
+        "pai (BOT:pai, idf=3.82)"
+      ],
+      "line1_header_eva": "tshdar . shd[o:a]r . shepchdy . cphody . yfoldy . qofo{ikh}dy . otchedy . lfchdy",
+      "line1_header_gloss": "tshdar <BOT:stem[t_Sd]:RESIN[extract-or/ar]> | shd[o:a]r <BOT:stem[Sd]:RESIN[extract-or/ar]> | shepchdy <BOT:stem[Sep_C]:STATE[steeped-dy]> | cphody <BOT:stem[cpho]:STATE[steeped-dy]> | yfoldy <BOT:stem[yfol]:STATE[steeped-dy]> | qofo{ikh}dy <ACT:boil/extract+BOT:stem[foikh]:STATE[steeped-dy]> | otchedy <BOT:stem[ot_C]:PROC[decoct/mix-edy]> | lfchdy <BOT:stem[lf_C]:STATE[steeped-dy]>",
+      "best_zodiac_match": {
+        "folio": "f71v",
+        "idf": 11.892,
+        "shared_stems": [
+          "Sep_C",
+          "CkEE",
+          "okal",
+          "CEEk"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f101r",
+        "idf": 8.907,
+        "shared_stems": [
+          "yfol",
+          "cpho",
+          "Cos"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f80r",
+        "idf": 11.264,
+        "shared_stems": [
+          "Sep_C",
+          "la",
+          "okal",
+          "CEEk"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f113r",
+        "idf": 15.954,
+        "shared_stems": [
+          "lf_C",
+          "cpho",
+          "la",
+          "okal"
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "folio": "f33v",
+      "quire": "E",
+      "bifolio_B": 1,
+      "page_P": "B",
+      "scribe_H": "2",
+      "sheet_mates": [
+        "f33r",
+        "f40r",
+        "f40v"
+      ],
+      "n_tokens": 114,
+      "n_paras": 2,
+      "n_lines": 11,
+      "n_unique_stems": 22,
+      "morph": {
+        "n": 114,
+        "qo_pct": 0.88,
+        "edy_pct": 5.26,
+        "l_ol_pct": 9.65,
+        "aiin_pct": 8.77,
+        "do_so_pct": 24.56
+      },
+      "routing_idf": {
+        "P": 21.178,
+        "B": 38.198,
+        "S": 38.449,
+        "Z": 12.143,
+        "AC": 15.34,
+        "f66r": 11.481,
+        "total_clinical_PBS": 44.617
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "cs (BOT:cs, idf=4.73)",
+        "CdyS (BOT:CdyS, idf=4.73)",
+        "dols (BOT:dols, idf=4.73)",
+        "Sef_C (BOT:Sef_C, idf=4.33)",
+        "Skai (BOT:Skai, idf=3.82)",
+        "por (BOT:por, idf=3.63)"
+      ],
+      "line1_header_eva": "tar . ar . daiin . ydain . cthey . dols . sheky . ar",
+      "line1_header_gloss": "tar <BOT:stem[ta]:RESIN[extract-or/ar]> | ar <BOT:stem[ar]:RESIN[extract-or/ar]> | daiin <BOT:stem[da]:DOSE[measure-aiin]> | ydain <BOT:stem[ydai]> | cthey <BOT:stem[cth]:INF[cooked-ey]> | dols <BOT:stem[dols]> | sheky <BOT:stem[Sek]:STAT[state-y]> | ar <BOT:stem[ar]:RESIN[extract-or/ar]>",
+      "best_zodiac_match": {
+        "folio": "f71v",
+        "idf": 7.715,
+        "shared_stems": [
+          "okar",
+          "okal",
+          "oto",
+          "Sek"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f89v1",
+        "idf": 6.464,
+        "shared_stems": [
+          "yCeo",
+          "okal",
+          "Sek"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f78r",
+        "idf": 13.031,
+        "shared_stems": [
+          "dyk",
+          "orai",
+          "okar",
+          "okal"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f106r",
+        "idf": 21.185,
+        "shared_stems": [
+          "por",
+          "tok",
+          "lCo",
+          "yCeo"
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "folio": "f34r",
+      "quire": "E",
+      "bifolio_B": 2,
+      "page_P": "C",
+      "scribe_H": "2",
+      "sheet_mates": [
+        "f34v",
+        "f39r",
+        "f39v"
+      ],
+      "n_tokens": 149,
+      "n_paras": 2,
+      "n_lines": 15,
+      "n_unique_stems": 48,
+      "morph": {
+        "n": 149,
+        "qo_pct": 8.72,
+        "edy_pct": 12.75,
+        "l_ol_pct": 16.11,
+        "aiin_pct": 6.71,
+        "do_so_pct": 10.07
+      },
+      "routing_idf": {
+        "P": 38.636,
+        "B": 53.006,
+        "S": 79.395,
+        "Z": 21.428,
+        "AC": 48.265,
+        "f66r": 11.424,
+        "total_clinical_PBS": 93.129
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "fas (BOT:fas, idf=4.73)",
+        "p_Ceoep_C (BOT:p_Ceoep_C, idf=4.73)",
+        "okedo (BOT:okedo, idf=4.73)",
+        "amg (BOT:amg, idf=4.73)",
+        "CeolCcth (BOT:CeolCcth, idf=4.73)",
+        "cthdal (BOT:cthdal, idf=4.73)"
+      ],
+      "line1_header_eva": "pcheoepchy . olar . yl . yfody . okedody . shod . ololdy . dar",
+      "line1_header_gloss": "pcheoepchy <BOT:stem[p_Ceoep_C]:STAT[state-y]> | olar <LOC:in-bath+BOT:stem[ol]:RESIN[extract-or/ar]> | yl <BOT:stem[yl]> | yfody <BOT:stem[yfo]:STATE[steeped-dy]> | okedody <BOT:stem[okedo]:STATE[steeped-dy]> | shod <BOT:stem[Sod]> | ololdy <LOC:in-bath+BOT:stem[olol]:STATE[steeped-dy]> | dar <BOT:stem[da]:RESIN[extract-or/ar]>",
+      "best_zodiac_match": {
+        "folio": "f72r1",
+        "idf": 10.368,
+        "shared_stems": [
+          "ys",
+          "okal",
+          "Cet",
+          "oC"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f89v1",
+        "idf": 11.028,
+        "shared_stems": [
+          "old",
+          "okal",
+          "oC",
+          "Sek"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f80r",
+        "idf": 21.146,
+        "shared_stems": [
+          "yl",
+          "octh",
+          "Cecth",
+          "la"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f111r",
+        "idf": 28.75,
+        "shared_stems": [
+          "ykEEd",
+          "aikh",
+          "q-d",
+          "Cecth"
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "folio": "f34v",
+      "quire": "E",
+      "bifolio_B": 2,
+      "page_P": "D",
+      "scribe_H": "2",
+      "sheet_mates": [
+        "f34r",
+        "f39r",
+        "f39v"
+      ],
+      "n_tokens": 117,
+      "n_paras": 2,
+      "n_lines": 11,
+      "n_unique_stems": 33,
+      "morph": {
+        "n": 117,
+        "qo_pct": 8.55,
+        "edy_pct": 14.53,
+        "l_ol_pct": 16.24,
+        "aiin_pct": 11.97,
+        "do_so_pct": 7.69
+      },
+      "routing_idf": {
+        "P": 18.735,
+        "B": 38.344,
+        "S": 61.174,
+        "Z": 10.94,
+        "AC": 29.541,
+        "f66r": 16.542,
+        "total_clinical_PBS": 71.498
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "old (BOT:old, idf=2.33)",
+        "olCd (BOT:olCd, idf=4.04)",
+        "lSaii (BOT:lSaii, idf=4.73)",
+        "CdalC (BOT:CdalC, idf=4.73)",
+        "ySos (BOT:ySos, idf=4.73)",
+        "sp (BOT:sp, idf=4.73)"
+      ],
+      "line1_header_eva": "k[e':s]chdy . chdy . chefchy . shdy . qopchdy . shdydy . chdalchdy . ypchdy",
+      "line1_header_gloss": "k[e':s]chdy <BOT:stem[keC]:STATE[steeped-dy]> | chdy <BOT:stem[Cd]:STATE[steeped-dy]> | chefchy <BOT:stem[Cef_C]:STAT[state-y]> | shdy <BOT:stem[Sd]:STATE[steeped-dy]> | qopchdy <ACT:boil/extract+CMPD:cup-bench[pch]:STATE[steeped-dy]> | shdydy <BOT:stem[Sdy]:STATE[steeped-dy]> | chdalchdy <BOT:stem[CdalC]:STATE[steeped-dy]> | ypchdy <BOT:stem[yp_C]:STATE[steeped-dy]>",
+      "best_zodiac_match": {
+        "folio": "f71r",
+        "idf": 3.346,
+        "shared_stems": [
+          "Ss"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f101v",
+        "idf": 10.258,
+        "shared_stems": [
+          "olCd",
+          "old",
+          "Cor",
+          "olC"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f77v",
+        "idf": 19.558,
+        "shared_stems": [
+          "dyC",
+          "das",
+          "dyk",
+          "ked"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f111v",
+        "idf": 21.693,
+        "shared_stems": [
+          "loEEs",
+          "CeC",
+          "Ckai",
+          "Cedai"
+        ]
+      }
+    },
+    {
+      "rank": 9,
+      "folio": "f39r",
+      "quire": "E",
+      "bifolio_B": 2,
+      "page_P": "M",
+      "scribe_H": "2",
+      "sheet_mates": [
+        "f34r",
+        "f34v",
+        "f39v"
+      ],
+      "n_tokens": 157,
+      "n_paras": 3,
+      "n_lines": 16,
+      "n_unique_stems": 54,
+      "morph": {
+        "n": 157,
+        "qo_pct": 8.92,
+        "edy_pct": 10.83,
+        "l_ol_pct": 14.01,
+        "aiin_pct": 16.56,
+        "do_so_pct": 17.2
+      },
+      "routing_idf": {
+        "P": 34.084,
+        "B": 53.915,
+        "S": 87.157,
+        "Z": 33.721,
+        "AC": 40.372,
+        "f66r": 20.366,
+        "total_clinical_PBS": 90.972
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "p_Cd (BOT:p_Cd, idf=2.86)",
+        "CSd (BOT:CSd, idf=4.73)",
+        "SckhdC (BOT:SckhdC, idf=4.73)",
+        "Sdalo (BOT:Sdalo, idf=4.73)",
+        "dyckh (BOT:dyckh, idf=4.73)",
+        "op_Cek (BOT:op_Cek, idf=4.73)"
+      ],
+      "line1_header_eva": "tedo . chshd . cphhofy . chdain . shey . f[sh:se]y . dy . orain",
+      "line1_header_gloss": "tedo <BOT:stem[tedo]> | chshd <BOT:stem[CSd]> | cphhofy <BOT:stem[cphhof]:STAT[state-y]> | chdain <BOT:stem[Cdai]> | shey <STEM:infused-spray[she]:INF[cooked-ey]> | f[sh:se]y <BOT:stem[f_S]:STAT[state-y]> | dy <BOT:stem[dy]:STATE[steeped-dy]> | orain <BOT:stem[orai]>",
+      "best_zodiac_match": {
+        "folio": "f72r3",
+        "idf": 9.288,
+        "shared_stems": [
+          "of",
+          "Ces",
+          "Col",
+          "EE"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f101r",
+        "idf": 11.031,
+        "shared_stems": [
+          "yke",
+          "CEEs",
+          "yd",
+          "Ceckh"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f77r",
+        "idf": 21.041,
+        "shared_stems": [
+          "tolCd",
+          "kal",
+          "lkai",
+          "kEEd"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f108r",
+        "idf": 28.899,
+        "shared_stems": [
+          "tedo",
+          "kalC",
+          "of",
+          "orai"
+        ]
+      }
+    },
+    {
+      "rank": 10,
+      "folio": "f39v",
+      "quire": "E",
+      "bifolio_B": 2,
+      "page_P": "N",
+      "scribe_H": "2",
+      "sheet_mates": [
+        "f34r",
+        "f34v",
+        "f39r"
+      ],
+      "n_tokens": 146,
+      "n_paras": 2,
+      "n_lines": 14,
+      "n_unique_stems": 33,
+      "morph": {
+        "n": 146,
+        "qo_pct": 5.48,
+        "edy_pct": 7.53,
+        "l_ol_pct": 12.33,
+        "aiin_pct": 14.38,
+        "do_so_pct": 11.64
+      },
+      "routing_idf": {
+        "P": 39.023,
+        "B": 46.694,
+        "S": 57.272,
+        "Z": 20.606,
+        "AC": 41.792,
+        "f66r": 12.914,
+        "total_clinical_PBS": 76.5
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "Sek (BOT:Sek, idf=1.69)",
+        "of_C (BOT:of_C, idf=2.38)",
+        "ckhcfhh (BOT:ckhcfhh, idf=4.73)",
+        "fdykai (BOT:fdykai, idf=4.73)",
+        "ytedyk (BOT:ytedyk, idf=4.73)",
+        "olCef (BOT:olCef, idf=4.73)"
+      ],
+      "line1_header_eva": "pdair . chdy . fdykain . or . air . sheykaiiin . ofchy . kar",
+      "line1_header_gloss": "pdair <BOT:stem[pdai]> | chdy <BOT:stem[Cd]:STATE[steeped-dy]> | fdykain <BOT:stem[fdykai]> | or <BOT:stem[or]:RESIN[extract-or/ar]> | air <BOT:stem[ai]> | sheykaiiin <BOT:stem[Seyk]:DOSE[measure-aiin]> | ofchy <BOT:stem[of_C]:STAT[state-y]> | kar <BOT:stem[ka]:RESIN[extract-or/ar]>",
+      "best_zodiac_match": {
+        "folio": "f71v",
+        "idf": 7.19,
+        "shared_stems": [
+          "par",
+          "oto",
+          "Sek"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f99r",
+        "idf": 11.53,
+        "shared_stems": [
+          "olaii",
+          "oek",
+          "ockh",
+          "Ceod"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f79r",
+        "idf": 16.053,
+        "shared_stems": [
+          "Seyk",
+          "Colo",
+          "sar",
+          "f_C"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f114r",
+        "idf": 21.721,
+        "shared_stems": [
+          "pdai",
+          "ald",
+          "oS",
+          "of_C"
+        ]
+      }
+    },
+    {
+      "rank": 11,
+      "folio": "f40r",
+      "quire": "E",
+      "bifolio_B": 1,
+      "page_P": "O",
+      "scribe_H": "2",
+      "sheet_mates": [
+        "f33r",
+        "f33v",
+        "f40v"
+      ],
+      "n_tokens": 103,
+      "n_paras": 2,
+      "n_lines": 11,
+      "n_unique_stems": 28,
+      "morph": {
+        "n": 103,
+        "qo_pct": 7.77,
+        "edy_pct": 5.83,
+        "l_ol_pct": 13.59,
+        "aiin_pct": 14.56,
+        "do_so_pct": 9.71
+      },
+      "routing_idf": {
+        "P": 28.212,
+        "B": 31.442,
+        "S": 58.058,
+        "Z": 11.82,
+        "AC": 34.033,
+        "f66r": 11.971,
+        "total_clinical_PBS": 68.005
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "aldy (BOT:aldy, idf=4.73)",
+        "ord (BOT:ord, idf=4.73)",
+        "ralos (BOT:ralos, idf=4.73)",
+        "op_Ces (BOT:op_Ces, idf=4.33)",
+        "aig (BOT:aig, idf=4.33)",
+        "eod (BOT:eod, idf=4.33)"
+      ],
+      "line1_header_eva": "pchey . k . eodar . aldydy . qoky . okal . shdy . olkedy",
+      "line1_header_gloss": "pchey <CMPD:cup-bench[pch]:INF[cooked-ey]> | k <HERB:calyx/heat-root[k]> | eodar <BOT:stem[eod]:RESIN[extract-or/ar]> | aldydy <BOT:stem[aldy]:STATE[steeped-dy]> | qoky <ACT:boil/extract+BOT:stem[ky]:STAT[state-y]> | okal <NOM:vessel-calyx[ok]:FLUID[lotion-ol/al]> | shdy <BOT:stem[Sd]:STATE[steeped-dy]> | olkedy <LOC:in-bath+BOT:stem[olk]:PROC[decoct/mix-edy]>",
+      "best_zodiac_match": {
+        "folio": "f70v1",
+        "idf": 4.708,
+        "shared_stems": [
+          "okol",
+          "Sok"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f89v1",
+        "idf": 7.725,
+        "shared_stems": [
+          "cfh",
+          "Sok",
+          "dar",
+          "yk_C"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f79v",
+        "idf": 12.656,
+        "shared_stems": [
+          "dag",
+          "olCEE",
+          "yCEE",
+          "lS"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f104r",
+        "idf": 24.277,
+        "shared_stems": [
+          "okolC",
+          "k_Cd",
+          "k_Seo",
+          "k_Ceo"
+        ]
+      }
+    },
+    {
+      "rank": 12,
+      "folio": "f40v",
+      "quire": "E",
+      "bifolio_B": 1,
+      "page_P": "P",
+      "scribe_H": "2",
+      "sheet_mates": [
+        "f33r",
+        "f33v",
+        "f40r"
+      ],
+      "n_tokens": 105,
+      "n_paras": 2,
+      "n_lines": 19,
+      "n_unique_stems": 27,
+      "morph": {
+        "n": 105,
+        "qo_pct": 15.24,
+        "edy_pct": 14.29,
+        "l_ol_pct": 13.33,
+        "aiin_pct": 19.05,
+        "do_so_pct": 10.48
+      },
+      "routing_idf": {
+        "P": 21.456,
+        "B": 23.564,
+        "S": 43.983,
+        "Z": 28.974,
+        "AC": 41.723,
+        "f66r": 9.349,
+        "total_clinical_PBS": 50.322
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "t_Ck (BOT:t_Ck, idf=4.73)",
+        "Ckalyk (BOT:Ckalyk, idf=4.73)",
+        "faim (BOT:faim, idf=4.73)",
+        "yCEEkEE (BOT:yCEEkEE, idf=4.73)",
+        "arag (BOT:arag, idf=4.73)",
+        "Cefai (BOT:Cefai, idf=4.73)"
+      ],
+      "line1_header_eva": "pchedain . chefaiin . oldy",
+      "line1_header_gloss": "pchedain <BOT:stem[p_Cedai]> | chefaiin <BOT:stem[Cef]:DOSE[measure-aiin]> | oldy <LOC:in-bath+BOT:stem[ol]:STATE[steeped-dy]>",
+      "best_zodiac_match": {
+        "folio": "f73r",
+        "idf": 12.977,
+        "shared_stems": [
+          "Cef",
+          "okeos",
+          "okEEs",
+          "okar"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f102v2",
+        "idf": 7.361,
+        "shared_stems": [
+          "okeos",
+          "tod",
+          "okar"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f82v",
+        "idf": 8.494,
+        "shared_stems": [
+          "aith",
+          "olf_C",
+          "Cet"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f113r",
+        "idf": 19.592,
+        "shared_stems": [
+          "p_Cedai",
+          "tar",
+          "p_Co",
+          "aro"
+        ]
+      }
+    },
+    {
+      "rank": 13,
+      "folio": "f41r",
+      "quire": "F",
+      "bifolio_B": 1,
+      "page_P": "A",
+      "scribe_H": "5",
+      "sheet_mates": [
+        "f41v",
+        "f48r",
+        "f48v"
+      ],
+      "n_tokens": 97,
+      "n_paras": 2,
+      "n_lines": 11,
+      "n_unique_stems": 38,
+      "morph": {
+        "n": 97,
+        "qo_pct": 20.62,
+        "edy_pct": 37.11,
+        "l_ol_pct": 6.19,
+        "aiin_pct": 1.03,
+        "do_so_pct": 17.53
+      },
+      "routing_idf": {
+        "P": 23.566,
+        "B": 26.377,
+        "S": 48.528,
+        "Z": 13.137,
+        "AC": 28.888,
+        "f66r": 8.27,
+        "total_clinical_PBS": 56.893
+      },
+      "clinical_branch": "DECOCTION_INTERNAL_DOMINANT (Boiled-Recipe Herb)",
+      "top_signature_stems": [
+        "sEEkEE (BOT:sEEkEE, idf=4.73)",
+        "yCdyk_C (BOT:yCdyk_C, idf=4.73)",
+        "CkEEod (BOT:CkEEod, idf=4.73)",
+        "ag (BOT:ag, idf=4.73)",
+        "keg (BOT:keg, idf=4.73)",
+        "op_Ses (BOT:op_Ses, idf=4.73)"
+      ],
+      "line1_header_eva": "pshey . kedal[ee:ch]y . oked . seekeeey . opshes . [o:y]p[ch:ee]d . qotchedy . shkakeedy",
+      "line1_header_gloss": "pshey <CMPD:cup-spray[psh]:INF[cooked-ey]> | kedal[ee:ch]y <BOT:stem[kedalEE]:STAT[state-y]> | oked <BOT:stem[oked]> | seekeeey <BOT:stem[sEEkEE]:STAT[state-y]> | opshes <BOT:stem[op_Ses]> | [o:y]p[ch:ee]d <BOT:stem[op_Cd]> | qotchedy <ACT:boil/extract+CMPD:stalk-bench[tch]:PROC[decoct/mix-edy]> | shkakeedy <BOT:stem[Skak]:PROC[decoct/mix-edy]>",
+      "best_zodiac_match": {
+        "folio": "f73r",
+        "idf": 7.729,
+        "shared_stems": [
+          "alS",
+          "oked",
+          "CEEs"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f99r",
+        "idf": 7.308,
+        "shared_stems": [
+          "keS",
+          "yp_C",
+          "CEEs"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f84r",
+        "idf": 10.426,
+        "shared_stems": [
+          "cthh",
+          "oked",
+          "sC",
+          "kEEd"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f111v",
+        "idf": 12.868,
+        "shared_stems": [
+          "op_Cd",
+          "polC",
+          "kEEd",
+          "CEEs"
+        ]
+      }
+    },
+    {
+      "rank": 14,
+      "folio": "f41v",
+      "quire": "F",
+      "bifolio_B": 1,
+      "page_P": "B",
+      "scribe_H": "5",
+      "sheet_mates": [
+        "f41r",
+        "f48r",
+        "f48v"
+      ],
+      "n_tokens": 66,
+      "n_paras": 1,
+      "n_lines": 8,
+      "n_unique_stems": 28,
+      "morph": {
+        "n": 66,
+        "qo_pct": 12.12,
+        "edy_pct": 13.64,
+        "l_ol_pct": 27.27,
+        "aiin_pct": 10.61,
+        "do_so_pct": 10.61
+      },
+      "routing_idf": {
+        "P": 32.201,
+        "B": 13.236,
+        "S": 44.354,
+        "Z": 20.645,
+        "AC": 28.542,
+        "f66r": 8.846,
+        "total_clinical_PBS": 46.889
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "f_CEEp (BOT:f_CEEp, idf=4.73)",
+        "kEEred (BOT:kEEred, idf=4.73)",
+        "Cep_Cef (BOT:Cep_Cef, idf=4.73)",
+        "cfhek_C (BOT:cfhek_C, idf=4.73)",
+        "Colal (BOT:Colal, idf=4.33)",
+        "Seols (BOT:Seols, idf=4.33)"
+      ],
+      "line1_header_eva": "keer[e:o]dal",
+      "line1_header_gloss": "keer[e:o]dal <BOT:stem[kEEred]:FLUID[lotion-ol/al]>",
+      "best_zodiac_match": {
+        "folio": "f70v1",
+        "idf": 10.06,
+        "shared_stems": [
+          "ykeo",
+          "oteod",
+          "okal",
+          "oteo"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f102r1",
+        "idf": 11.183,
+        "shared_stems": [
+          "olEE",
+          "orai",
+          "old",
+          "okeo"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f78r",
+        "idf": 10.19,
+        "shared_stems": [
+          "orai",
+          "of_C",
+          "okal",
+          "Sek"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f111r",
+        "idf": 18.64,
+        "shared_stems": [
+          "lkEEo",
+          "olkEEo",
+          "oteod",
+          "Ceos"
+        ]
+      }
+    },
+    {
+      "rank": 15,
+      "folio": "f43r",
+      "quire": "F",
+      "bifolio_B": 3,
+      "page_P": "E",
+      "scribe_H": "2",
+      "sheet_mates": [
+        "f43v",
+        "f46r",
+        "f46v"
+      ],
+      "n_tokens": 153,
+      "n_paras": 3,
+      "n_lines": 14,
+      "n_unique_stems": 50,
+      "morph": {
+        "n": 153,
+        "qo_pct": 10.46,
+        "edy_pct": 18.95,
+        "l_ol_pct": 7.84,
+        "aiin_pct": 7.19,
+        "do_so_pct": 15.03
+      },
+      "routing_idf": {
+        "P": 39.468,
+        "B": 58.521,
+        "S": 80.111,
+        "Z": 39.392,
+        "AC": 47.004,
+        "f66r": 10.884,
+        "total_clinical_PBS": 100.001
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "odai (BOT:odai, idf=2.38)",
+        "of_Ct (BOT:of_Ct, idf=4.73)",
+        "p_Ses (BOT:p_Ses, idf=4.73)",
+        "tarod (BOT:tarod, idf=4.73)",
+        "Socphh (BOT:Socphh, idf=4.73)",
+        "dydy (BOT:dydy, idf=4.73)"
+      ],
+      "line1_header_eva": "tarodaiin . ytedy . eeody . ofchtar . chcphedy . ypar . shol . folor",
+      "line1_header_gloss": "tarodaiin <BOT:stem[tarod]:DOSE[measure-aiin]> | ytedy <MOD:init-stalk[yt]:PROC[decoct/mix-edy]> | eeody <BOT:stem[EEo]:STATE[steeped-dy]> | ofchtar <BOT:stem[of_Ct]:RESIN[extract-or/ar]> | chcphedy <BOT:stem[Ccph]:PROC[decoct/mix-edy]> | ypar <BOT:stem[yp]:RESIN[extract-or/ar]> | shol <BOT:stem[So]:FLUID[lotion-ol/al]> | folor <BOT:stem[fol]:RESIN[extract-or/ar]>",
+      "best_zodiac_match": {
+        "folio": "f73v",
+        "idf": 16.325,
+        "shared_stems": [
+          "yp",
+          "tol",
+          "EEo",
+          "ykeo"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f89r1",
+        "idf": 15.177,
+        "shared_stems": [
+          "Cckhhh",
+          "ckhh",
+          "dals",
+          "old"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f77v",
+        "idf": 21.623,
+        "shared_stems": [
+          "das",
+          "kalC",
+          "SEEk",
+          "ked"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f116r",
+        "idf": 22.311,
+        "shared_stems": [
+          "Ccph",
+          "otar",
+          "odai",
+          "SEEk"
+        ]
+      }
+    },
+    {
+      "rank": 16,
+      "folio": "f43v",
+      "quire": "F",
+      "bifolio_B": 3,
+      "page_P": "F",
+      "scribe_H": "2",
+      "sheet_mates": [
+        "f43r",
+        "f46r",
+        "f46v"
+      ],
+      "n_tokens": 151,
+      "n_paras": 3,
+      "n_lines": 16,
+      "n_unique_stems": 59,
+      "morph": {
+        "n": 151,
+        "qo_pct": 6.62,
+        "edy_pct": 19.87,
+        "l_ol_pct": 8.61,
+        "aiin_pct": 5.96,
+        "do_so_pct": 9.93
+      },
+      "routing_idf": {
+        "P": 57.651,
+        "B": 59.161,
+        "S": 93.768,
+        "Z": 46.293,
+        "AC": 64.629,
+        "f66r": 18.926,
+        "total_clinical_PBS": 103.415
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "ySEE (BOT:ySEE, idf=3.12)",
+        "oked (BOT:oked, idf=2.38)",
+        "tolk_C (BOT:tolk_C, idf=4.73)",
+        "oyk (BOT:oyk, idf=4.73)",
+        "oteoro (BOT:oteoro, idf=4.73)",
+        "dalteoS (BOT:dalteoS, idf=4.73)"
+      ],
+      "line1_header_eva": "pdsairy . dalteoshy . d[o:a]ly . sheet . or . arodl . lkeo . r",
+      "line1_header_gloss": "pdsairy <BOT:stem[pdsair]:STAT[state-y]> | dalteoshy <BOT:stem[dalteoS]:STAT[state-y]> | d[o:a]ly <BOT:stem[dol]:STAT[state-y]> | sheet <BOT:stem[SEEt]> | or <BOT:stem[or]:RESIN[extract-or/ar]> | arodl <BOT:stem[arod]> | lkeo <BOT:stem[lkeo]> | r <SOL:sharp-resin/seed[r]>",
+      "best_zodiac_match": {
+        "folio": "f72v3",
+        "idf": 21.323,
+        "shared_stems": [
+          "Secth",
+          "Cep",
+          "oteos",
+          "oted"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f99r",
+        "idf": 18.667,
+        "shared_stems": [
+          "dald",
+          "octh",
+          "ockh",
+          "yp_C"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f75r",
+        "idf": 19.929,
+        "shared_stems": [
+          "daro",
+          "SEEt",
+          "Secth",
+          "olo"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f111r",
+        "idf": 30.386,
+        "shared_stems": [
+          "SEEt",
+          "p_Cd",
+          "Secth",
+          "EEs"
+        ]
+      }
+    },
+    {
+      "rank": 17,
+      "folio": "f46r",
+      "quire": "F",
+      "bifolio_B": 3,
+      "page_P": "K",
+      "scribe_H": "2",
+      "sheet_mates": [
+        "f43r",
+        "f43v",
+        "f46v"
+      ],
+      "n_tokens": 163,
+      "n_paras": 5,
+      "n_lines": 15,
+      "n_unique_stems": 54,
+      "morph": {
+        "n": 163,
+        "qo_pct": 8.59,
+        "edy_pct": 11.04,
+        "l_ol_pct": 13.5,
+        "aiin_pct": 9.2,
+        "do_so_pct": 15.34
+      },
+      "routing_idf": {
+        "P": 35.807,
+        "B": 64.544,
+        "S": 84.373,
+        "Z": 20.497,
+        "AC": 35.625,
+        "f66r": 34.937,
+        "total_clinical_PBS": 97.807
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "xo (BOT:xo, idf=4.33)",
+        "Sd (BOT:Sd, idf=1.66)",
+        "Sk (BOT:Sk, idf=2.38)",
+        "dalocthh (BOT:dalocthh, idf=4.73)",
+        "Cekh (BOT:Cekh, idf=4.73)",
+        "Sck (BOT:Sck, idf=4.73)"
+      ],
+      "line1_header_eva": "pcheocphy . qotedy . chety . dy . chepchx . yfcheky . o[s:r]aiin . shee",
+      "line1_header_gloss": "pcheocphy <BOT:stem[p_Ceocph]:STAT[state-y]> | qotedy <ACT:boil/extract+STEM:boiled-stalk[te]:PROC[decoct/mix-edy]> | chety <BOT:stem[Cet]:STAT[state-y]> | dy <BOT:stem[dy]:STATE[steeped-dy]> | chepchx <BOT:stem[Cep_Cx]> | yfcheky <BOT:stem[yf_Cek]:STAT[state-y]> | o[s:r]aiin <BOT:stem[os]:DOSE[measure-aiin]> | shee <STEM:decocted-spray[shee]>",
+      "best_zodiac_match": {
+        "folio": "f73v",
+        "idf": 8.378,
+        "shared_stems": [
+          "ytal",
+          "kEEs",
+          "kal"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f99r",
+        "idf": 12.718,
+        "shared_stems": [
+          "olaii",
+          "dSe",
+          "ols",
+          "yp_C"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f78r",
+        "idf": 28.477,
+        "shared_stems": [
+          "t_Sed",
+          "dalS",
+          "yf_C",
+          "kar"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f104r",
+        "idf": 27.864,
+        "shared_stems": [
+          "t_Seod",
+          "p_Cdai",
+          "teC",
+          "Seockh"
+        ]
+      }
+    },
+    {
+      "rank": 18,
+      "folio": "f46v",
+      "quire": "F",
+      "bifolio_B": 3,
+      "page_P": "L",
+      "scribe_H": "2",
+      "sheet_mates": [
+        "f43r",
+        "f43v",
+        "f46r"
+      ],
+      "n_tokens": 111,
+      "n_paras": 1,
+      "n_lines": 13,
+      "n_unique_stems": 30,
+      "morph": {
+        "n": 111,
+        "qo_pct": 7.21,
+        "edy_pct": 24.32,
+        "l_ol_pct": 9.01,
+        "aiin_pct": 9.01,
+        "do_so_pct": 14.41
+      },
+      "routing_idf": {
+        "P": 15.508,
+        "B": 34.347,
+        "S": 42.656,
+        "Z": 17.441,
+        "AC": 13.874,
+        "f66r": 16.618,
+        "total_clinical_PBS": 49.922
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "dykal (BOT:dykal, idf=4.73)",
+        "Cocpheod (BOT:Cocpheod, idf=4.73)",
+        "Ceck (BOT:Ceck, idf=4.73)",
+        "Ceted (BOT:Ceted, idf=4.73)",
+        "aicky (BOT:aicky, idf=4.73)",
+        "toCs (BOT:toCs, idf=4.73)"
+      ],
+      "line1_header_eva": "pody . lshed . ypdy . shedy . opchedy . ytedy . oepchol . yfchey",
+      "line1_header_gloss": "pody <BOT:stem[po]:STATE[steeped-dy]> | lshed <BOT:stem[lSed]> | ypdy <BOT:stem[yp]:STATE[steeped-dy]> | shedy <STEM:infused-spray[she]:PROC[decoct/mix-edy]> | opchedy <BOT:stem[op_C]:PROC[decoct/mix-edy]> | ytedy <MOD:init-stalk[yt]:PROC[decoct/mix-edy]> | oepchol <BOT:stem[oep_C]:FLUID[lotion-ol/al]> | yfchey <BOT:stem[yf_C]:INF[cooked-ey]>",
+      "best_zodiac_match": {
+        "folio": "f72r1",
+        "idf": 8.079,
+        "shared_stems": [
+          "okalS",
+          "okal",
+          "yd"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f89r1",
+        "idf": 7.791,
+        "shared_stems": [
+          "om",
+          "Cockh",
+          "yd",
+          "yk_C"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f82r",
+        "idf": 11.908,
+        "shared_stems": [
+          "lSed",
+          "kal",
+          "okal",
+          "po"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f113r",
+        "idf": 14.504,
+        "shared_stems": [
+          "Cdo",
+          "om",
+          "okal",
+          "Cockh"
+        ]
+      }
+    },
+    {
+      "rank": 19,
+      "folio": "f48r",
+      "quire": "F",
+      "bifolio_B": 1,
+      "page_P": "O",
+      "scribe_H": "5",
+      "sheet_mates": [
+        "f41r",
+        "f41v",
+        "f48v"
+      ],
+      "n_tokens": 89,
+      "n_paras": 1,
+      "n_lines": 9,
+      "n_unique_stems": 38,
+      "morph": {
+        "n": 89,
+        "qo_pct": 8.99,
+        "edy_pct": 12.36,
+        "l_ol_pct": 23.6,
+        "aiin_pct": 10.11,
+        "do_so_pct": 7.87
+      },
+      "routing_idf": {
+        "P": 34.611,
+        "B": 38.102,
+        "S": 60.98,
+        "Z": 31.953,
+        "AC": 31.392,
+        "f66r": 13.583,
+        "total_clinical_PBS": 68.652
+      },
+      "clinical_branch": "BALNEO_HYDROTHERAPY_DOMINANT (Bath-Infusion Herb)",
+      "top_signature_stems": [
+        "lolke (BOT:lolke, idf=4.73)",
+        "keCodS (BOT:keCodS, idf=4.73)",
+        "dr (BOT:dr, idf=4.73)",
+        "otolCes (BOT:otolCes, idf=4.73)",
+        "Seoke (BOT:Seoke, idf=4.73)",
+        "op_Cet (BOT:op_Cet, idf=4.73)"
+      ],
+      "line1_header_eva": "pshdaiin . ypchdy . opchey . {c@162;h}y . dal . sheodaiin . sheokeol . ykeeody",
+      "line1_header_gloss": "pshdaiin <BOT:stem[p_Sd]:DOSE[measure-aiin]> | ypchdy <BOT:stem[yp_C]:STATE[steeped-dy]> | opchey <BOT:stem[op_C]:INF[cooked-ey]> | {c@162;h}y <BOT:stem[Cy]:STAT[state-y]> | dal <BOT:stem[da]:FLUID[lotion-ol/al]> | sheodaiin <BOT:stem[Seod]:DOSE[measure-aiin]> | sheokeol <BOT:stem[Seoke]:FLUID[lotion-ol/al]> | ykeeody <BOT:stem[ykEEo]:STATE[steeped-dy]>",
+      "best_zodiac_match": {
+        "folio": "f72v1",
+        "idf": 13.269,
+        "shared_stems": [
+          "oteol",
+          "alS",
+          "octh",
+          "oteod"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f99r",
+        "idf": 11.573,
+        "shared_stems": [
+          "tocth",
+          "octh",
+          "yp_C",
+          "t_S"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f79r",
+        "idf": 10.528,
+        "shared_stems": [
+          "olSEE",
+          "ytEE",
+          "ld",
+          "t_S"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f113v",
+        "idf": 22.491,
+        "shared_stems": [
+          "lot",
+          "opal",
+          "Colk",
+          "teo"
+        ]
+      }
+    },
+    {
+      "rank": 20,
+      "folio": "f48v",
+      "quire": "F",
+      "bifolio_B": 1,
+      "page_P": "P",
+      "scribe_H": "5",
+      "sheet_mates": [
+        "f41r",
+        "f41v",
+        "f48r"
+      ],
+      "n_tokens": 128,
+      "n_paras": 2,
+      "n_lines": 11,
+      "n_unique_stems": 36,
+      "morph": {
+        "n": 128,
+        "qo_pct": 2.34,
+        "edy_pct": 21.09,
+        "l_ol_pct": 14.06,
+        "aiin_pct": 2.34,
+        "do_so_pct": 4.69
+      },
+      "routing_idf": {
+        "P": 23.071,
+        "B": 45.722,
+        "S": 66.124,
+        "Z": 28.722,
+        "AC": 49.786,
+        "f66r": 13.686,
+        "total_clinical_PBS": 77.899
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "alC (BOT:alC, idf=2.53)",
+        "CEEdls (BOT:CEEdls, idf=4.73)",
+        "f_Ceod (BOT:f_Ceod, idf=4.73)",
+        "cphEEg (BOT:cphEEg, idf=4.73)",
+        "Sef (BOT:Sef, idf=4.73)",
+        "p_CeodC (BOT:p_CeodC, idf=4.73)"
+      ],
+      "line1_header_eva": "pcheodchy . dshedy . fchedy . los . aiin . ykeeedy . shey . ypchedy",
+      "line1_header_gloss": "pcheodchy <BOT:stem[p_CeodC]:STAT[state-y]> | dshedy <BOT:stem[dS]:PROC[decoct/mix-edy]> | fchedy <CMPD:plume-bench[fch]:PROC[decoct/mix-edy]> | los <BOT:stem[los]> | aiin <BOT:stem[aIIN]:DOSE[measure-aiin]> | ykeeedy <MOD:init-calyx[yk]:PROC[decoct/mix-edy]> | shey <STEM:infused-spray[she]:INF[cooked-ey]> | ypchedy <BOT:stem[yp_C]:PROC[decoct/mix-edy]>",
+      "best_zodiac_match": {
+        "folio": "f72v1",
+        "idf": 10.008,
+        "shared_stems": [
+          "ypai",
+          "alC",
+          "ot_S",
+          "oteo"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f102v2",
+        "idf": 9.798,
+        "shared_stems": [
+          "yot",
+          "sar",
+          "oteo",
+          "EE"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f75v",
+        "idf": 19.971,
+        "shared_stems": [
+          "lol",
+          "alC",
+          "p_Ced",
+          "kal"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f113v",
+        "idf": 21.709,
+        "shared_stems": [
+          "tok",
+          "otEEs",
+          "sar",
+          "ot_S"
+        ]
+      }
+    },
+    {
+      "rank": 21,
+      "folio": "f50r",
+      "quire": "G",
+      "bifolio_B": 2,
+      "page_P": "C",
+      "scribe_H": "2",
+      "sheet_mates": [
+        "f50v",
+        "f55r",
+        "f55v"
+      ],
+      "n_tokens": 93,
+      "n_paras": 1,
+      "n_lines": 10,
+      "n_unique_stems": 27,
+      "morph": {
+        "n": 93,
+        "qo_pct": 12.9,
+        "edy_pct": 8.6,
+        "l_ol_pct": 12.9,
+        "aiin_pct": 13.98,
+        "do_so_pct": 10.75
+      },
+      "routing_idf": {
+        "P": 16.847,
+        "B": 28.886,
+        "S": 40.944,
+        "Z": 11.067,
+        "AC": 18.29,
+        "f66r": 6.697,
+        "total_clinical_PBS": 49.597
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "todalai (BOT:todalai, idf=4.73)",
+        "taip (BOT:taip, idf=4.73)",
+        "opalke (BOT:opalke, idf=4.73)",
+        "pEEd (BOT:pEEd, idf=4.73)",
+        "orSeckh (BOT:orSeckh, idf=4.73)",
+        "dari (BOT:dari, idf=4.73)"
+      ],
+      "line1_header_eva": "psheor . olkair . olfchedy . qop[eee:che]dar . opchey . dair . o . laiin",
+      "line1_header_gloss": "psheor <BOT:stem[p_Se]:RESIN[extract-or/ar]> | olkair <LOC:in-bath+BOT:stem[olkai]> | olfchedy <LOC:in-bath+BOT:stem[olf_C]:PROC[decoct/mix-edy]> | qop[eee:che]dar <ACT:boil/extract+BOT:stem[pEEd]:RESIN[extract-or/ar]> | opchey <BOT:stem[op_C]:INF[cooked-ey]> | dair <BOT:stem[dai]> | o <BOT:stem[o]> | laiin <BOT:stem[la]:DOSE[measure-aiin]>",
+      "best_zodiac_match": {
+        "folio": "f70v2",
+        "idf": 6.861,
+        "shared_stems": [
+          "alos",
+          "ykai"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f99r",
+        "idf": 7.152,
+        "shared_stems": [
+          "ols",
+          "t_S",
+          "dar",
+          "okeo"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f79v",
+        "idf": 12.579,
+        "shared_stems": [
+          "ykai",
+          "olkai",
+          "SEEk",
+          "la"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f113r",
+        "idf": 15.774,
+        "shared_stems": [
+          "Sedai",
+          "Sos",
+          "olkai",
+          "SEEk"
+        ]
+      }
+    },
+    {
+      "rank": 22,
+      "folio": "f50v",
+      "quire": "G",
+      "bifolio_B": 2,
+      "page_P": "D",
+      "scribe_H": "2",
+      "sheet_mates": [
+        "f50r",
+        "f55r",
+        "f55v"
+      ],
+      "n_tokens": 100,
+      "n_paras": 1,
+      "n_lines": 11,
+      "n_unique_stems": 29,
+      "morph": {
+        "n": 100,
+        "qo_pct": 11.0,
+        "edy_pct": 13.0,
+        "l_ol_pct": 14.0,
+        "aiin_pct": 14.0,
+        "do_so_pct": 7.0
+      },
+      "routing_idf": {
+        "P": 20.368,
+        "B": 30.604,
+        "S": 51.199,
+        "Z": 15.613,
+        "AC": 18.71,
+        "f66r": 12.562,
+        "total_clinical_PBS": 51.199
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "arood (BOT:arood, idf=4.73)",
+        "t_Codai (BOT:t_Codai, idf=4.73)",
+        "eC (BOT:eC, idf=4.73)",
+        "olCek (BOT:olCek, idf=4.73)",
+        "fard (BOT:fard, idf=4.73)",
+        "okedyd (BOT:okedyd, idf=4.73)"
+      ],
+      "line1_header_eva": "tchy . do . ldar . shotchdy . qokchdy . opchedy . qokol . shor",
+      "line1_header_gloss": "tchy <CMPD:stalk-bench[tch]:STAT[state-y]> | do <BOT:stem[do]> | ldar <BOT:stem[ld]:RESIN[extract-or/ar]> | shotchdy <BOT:stem[Sot_C]:STATE[steeped-dy]> | qokchdy <ACT:boil/extract+CMPD:calyx-bench[kch]:STATE[steeped-dy]> | opchedy <BOT:stem[op_C]:PROC[decoct/mix-edy]> | qokol <ACT:boil/extract+BOT:stem[ko]:FLUID[lotion-ol/al]> | shor <BOT:stem[So]:RESIN[extract-or/ar]>",
+      "best_zodiac_match": {
+        "folio": "f72r3",
+        "idf": 6.979,
+        "shared_stems": [
+          "SeS",
+          "of"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f89v2",
+        "idf": 7.904,
+        "shared_stems": [
+          "qek",
+          "of",
+          "oEE"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f75v",
+        "idf": 14.995,
+        "shared_stems": [
+          "qek",
+          "ted",
+          "kal",
+          "ld"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f111v",
+        "idf": 19.174,
+        "shared_stems": [
+          "poC",
+          "qek",
+          "CkEE",
+          "ted"
+        ]
+      }
+    },
+    {
+      "rank": 23,
+      "folio": "f55r",
+      "quire": "G",
+      "bifolio_B": 2,
+      "page_P": "M",
+      "scribe_H": "2",
+      "sheet_mates": [
+        "f50r",
+        "f50v",
+        "f55v"
+      ],
+      "n_tokens": 124,
+      "n_paras": 2,
+      "n_lines": 13,
+      "n_unique_stems": 36,
+      "morph": {
+        "n": 124,
+        "qo_pct": 8.87,
+        "edy_pct": 3.23,
+        "l_ol_pct": 16.94,
+        "aiin_pct": 16.13,
+        "do_so_pct": 12.9
+      },
+      "routing_idf": {
+        "P": 17.39,
+        "B": 25.635,
+        "S": 59.064,
+        "Z": 13.73,
+        "AC": 41.413,
+        "f66r": 8.668,
+        "total_clinical_PBS": 63.39
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "loh (BOT:loh, idf=4.73)",
+        "xa (BOT:xa, idf=4.73)",
+        "p_Ct_C (BOT:p_Ct_C, idf=4.73)",
+        "ohep (BOT:ohep, idf=4.73)",
+        "Cel (BOT:Cel, idf=4.73)",
+        "olkard (BOT:olkard, idf=4.73)"
+      ],
+      "line1_header_eva": "podaiin . shekchy . qofair . okar . yk . [{oh}:ch]epaiin . qokchdy . os",
+      "line1_header_gloss": "podaiin <BOT:stem[pod]:DOSE[measure-aiin]> | shekchy <BOT:stem[Sek_C]:STAT[state-y]> | qofair <ACT:boil/extract+BOT:stem[fai]> | okar <NOM:vessel-calyx[ok]:RESIN[extract-or/ar]> | yk <MOD:init-calyx[yk]> | [{oh}:ch]epaiin <BOT:stem[ohep]:DOSE[measure-aiin]> | qokchdy <ACT:boil/extract+CMPD:calyx-bench[kch]:STATE[steeped-dy]> | os <BOT:stem[os]>",
+      "best_zodiac_match": {
+        "folio": "f70v2",
+        "idf": 5.762,
+        "shared_stems": [
+          "otald",
+          "ykai"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f89r2",
+        "idf": 5.634,
+        "shared_stems": [
+          "ockh",
+          "kEEo",
+          "oIIN"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f75v",
+        "idf": 9.686,
+        "shared_stems": [
+          "ykai",
+          "dl",
+          "Sd",
+          "oIIN"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f104r",
+        "idf": 18.745,
+        "shared_stems": [
+          "ok_Cd",
+          "oai",
+          "dl",
+          "ockh"
+        ]
+      }
+    },
+    {
+      "rank": 24,
+      "folio": "f55v",
+      "quire": "G",
+      "bifolio_B": 2,
+      "page_P": "N",
+      "scribe_H": "2",
+      "sheet_mates": [
+        "f50r",
+        "f50v",
+        "f55r"
+      ],
+      "n_tokens": 105,
+      "n_paras": 2,
+      "n_lines": 12,
+      "n_unique_stems": 27,
+      "morph": {
+        "n": 105,
+        "qo_pct": 7.62,
+        "edy_pct": 4.76,
+        "l_ol_pct": 12.38,
+        "aiin_pct": 19.05,
+        "do_so_pct": 9.52
+      },
+      "routing_idf": {
+        "P": 21.038,
+        "B": 30.496,
+        "S": 40.569,
+        "Z": 22.704,
+        "AC": 16.544,
+        "f66r": 9.185,
+        "total_clinical_PBS": 44.896
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "ykai (BOT:ykai, idf=2.53)",
+        "ykEEsa (BOT:ykEEsa, idf=4.73)",
+        "dodyd (BOT:dodyd, idf=4.73)",
+        "oedai (BOT:oedai, idf=4.73)",
+        "kEEyf (BOT:kEEyf, idf=4.73)",
+        "k_CEEdC (BOT:k_CEEdC, idf=4.73)"
+      ],
+      "line1_header_eva": "kcheedchdy . oedain . chckhy . otoldaiin . dodyd",
+      "line1_header_gloss": "kcheedchdy <BOT:stem[k_CEEdC]:STATE[steeped-dy]> | oedain <BOT:stem[oedai]> | chckhy <BOT:stem[Cckh]:STAT[state-y]> | otoldaiin <BOT:stem[otold]:DOSE[measure-aiin]> | dodyd <BOT:stem[dodyd]>",
+      "best_zodiac_match": {
+        "folio": "f72v2",
+        "idf": 8.022,
+        "shared_stems": [
+          "oEEd",
+          "Seok",
+          "okeo"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f102v2",
+        "idf": 7.804,
+        "shared_stems": [
+          "orai",
+          "CEEk",
+          "os",
+          "okeo"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f78r",
+        "idf": 11.645,
+        "shared_stems": [
+          "tal",
+          "orai",
+          "ykai",
+          "CEEk"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f113r",
+        "idf": 15.679,
+        "shared_stems": [
+          "ok_Cd",
+          "tal",
+          "Seok",
+          "CEEk"
+        ]
+      }
+    },
+    {
+      "rank": 25,
+      "folio": "f57r",
+      "quire": "H",
+      "bifolio_B": 1,
+      "page_P": "A",
+      "scribe_H": "5",
+      "sheet_mates": [
+        "f57v",
+        "f66r",
+        "f66v"
+      ],
+      "n_tokens": 87,
+      "n_paras": 2,
+      "n_lines": 11,
+      "n_unique_stems": 45,
+      "morph": {
+        "n": 87,
+        "qo_pct": 8.05,
+        "edy_pct": 11.49,
+        "l_ol_pct": 3.45,
+        "aiin_pct": 5.75,
+        "do_so_pct": 18.39
+      },
+      "routing_idf": {
+        "P": 47.165,
+        "B": 12.958,
+        "S": 71.143,
+        "Z": 26.518,
+        "AC": 54.836,
+        "f66r": 17.343,
+        "total_clinical_PBS": 78.815
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "cteC (BOT:cteC, idf=4.73)",
+        "Cteo (BOT:Cteo, idf=4.73)",
+        "ckhhh (BOT:ckhhh, idf=4.73)",
+        "cphed (BOT:cphed, idf=4.73)",
+        "poEEockh (BOT:poEEockh, idf=4.73)",
+        "SEEp (BOT:SEEp, idf=4.73)"
+      ],
+      "line1_header_eva": "poeeockhey . odain . cheop . sheody . shocfhey . dy . sheep . sheody",
+      "line1_header_gloss": "poeeockhey <BOT:stem[poEEockh]:INF[cooked-ey]> | odain <BOT:stem[odai]> | cheop <BOT:stem[Ceop]> | sheody <BOT:stem[Seo]:STATE[steeped-dy]> | shocfhey <BOT:stem[Socfh]:INF[cooked-ey]> | dy <BOT:stem[dy]:STATE[steeped-dy]> | sheep <BOT:stem[SEEp]> | sheody <BOT:stem[Seo]:STATE[steeped-dy]>",
+      "best_zodiac_match": {
+        "folio": "f71v",
+        "idf": 10.966,
+        "shared_stems": [
+          "otEEod",
+          "SEEo",
+          "oC",
+          "Sek"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f101v",
+        "idf": 15.558,
+        "shared_stems": [
+          "et_C",
+          "Ceop",
+          "CEEo",
+          "k_Co"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f81v",
+        "idf": 7.186,
+        "shared_stems": [
+          "daii",
+          "tai",
+          "Cet",
+          "Sek"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f115r",
+        "idf": 30.546,
+        "shared_stems": [
+          "Ceop",
+          "Ceocth",
+          "t_Ceod",
+          "tEEo"
+        ]
+      }
+    },
+    {
+      "rank": 26,
+      "folio": "f66v",
+      "quire": "H",
+      "bifolio_B": 1,
+      "page_P": "H",
+      "scribe_H": "5",
+      "sheet_mates": [
+        "f57r",
+        "f57v",
+        "f66r"
+      ],
+      "n_tokens": 114,
+      "n_paras": 3,
+      "n_lines": 13,
+      "n_unique_stems": 48,
+      "morph": {
+        "n": 114,
+        "qo_pct": 7.02,
+        "edy_pct": 7.89,
+        "l_ol_pct": 20.18,
+        "aiin_pct": 7.02,
+        "do_so_pct": 21.05
+      },
+      "routing_idf": {
+        "P": 37.023,
+        "B": 38.075,
+        "S": 57.341,
+        "Z": 16.81,
+        "AC": 28.653,
+        "f66r": 11.04,
+        "total_clinical_PBS": 67.681
+      },
+      "clinical_branch": "BALNEO_HYDROTHERAPY_DOMINANT (Bath-Infusion Herb)",
+      "top_signature_stems": [
+        "okag (BOT:okag, idf=4.73)",
+        "f_Cdl (BOT:f_Cdl, idf=4.73)",
+        "dCek (BOT:dCek, idf=4.73)",
+        "dCEEk (BOT:dCEEk, idf=4.73)",
+        "Seop (BOT:Seop, idf=4.73)",
+        "CeosEEs (BOT:CeosEEs, idf=4.73)"
+      ],
+      "line1_header_eva": "okeodof . sheod . ychoopy . opch . dal . dor . sheefy . ytody",
+      "line1_header_gloss": "okeodof <BOT:stem[okeodof]> | sheod <BOT:stem[Seod]> | ychoopy <BOT:stem[yCoop]:STAT[state-y]> | opch <BOT:stem[op_C]> | dal <BOT:stem[da]:FLUID[lotion-ol/al]> | dor <BOT:stem[do]:RESIN[extract-or/ar]> | sheefy <BOT:stem[SEEf]:STAT[state-y]> | ytody <BOT:stem[yto]:STATE[steeped-dy]>",
+      "best_zodiac_match": {
+        "folio": "f72v3",
+        "idf": 5.434,
+        "shared_stems": [
+          "okeC",
+          "Cep"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f102v2",
+        "idf": 11.017,
+        "shared_stems": [
+          "keos",
+          "Cos",
+          "sy",
+          "po"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f75v",
+        "idf": 21.797,
+        "shared_stems": [
+          "dok",
+          "dalk",
+          "qek",
+          "SEEk"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f113r",
+        "idf": 20.768,
+        "shared_stems": [
+          "q-k",
+          "Seod",
+          "SEEk",
+          "ok_S"
+        ]
+      }
+    },
+    {
+      "rank": 27,
+      "folio": "f94r",
+      "quire": "Q",
+      "bifolio_B": 2,
+      "page_P": "C",
+      "scribe_H": "3",
+      "sheet_mates": [
+        "f94v",
+        "f95r1",
+        "f95r2",
+        "f95v2",
+        "f95v1"
+      ],
+      "n_tokens": 79,
+      "n_paras": 1,
+      "n_lines": 9,
+      "n_unique_stems": 23,
+      "morph": {
+        "n": 79,
+        "qo_pct": 12.66,
+        "edy_pct": 7.59,
+        "l_ol_pct": 16.46,
+        "aiin_pct": 16.46,
+        "do_so_pct": 12.66
+      },
+      "routing_idf": {
+        "P": 25.675,
+        "B": 24.599,
+        "S": 46.134,
+        "Z": 15.035,
+        "AC": 24.858,
+        "f66r": 5.493,
+        "total_clinical_PBS": 46.134
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "p_Ced (BOT:p_Ced, idf=2.43)",
+        "olkeo (BOT:olkeo, idf=4.73)",
+        "ykaro (BOT:ykaro, idf=4.73)",
+        "Cykai (BOT:Cykai, idf=4.73)",
+        "xockhh (BOT:xockhh, idf=4.73)",
+        "q-f (BOT:q-f, idf=4.33)"
+      ],
+      "line1_header_eva": "tchedy . opaiir . chedaiin . dsheedy . qopchedal . keodaiin . otalaiin . oar",
+      "line1_header_gloss": "tchedy <CMPD:stalk-bench[tch]:PROC[decoct/mix-edy]> | opaiir <BOT:stem[opaii]> | chedaiin <BOT:stem[Ced]:DOSE[measure-aiin]> | dsheedy <BOT:stem[dS]:PROC[decoct/mix-edy]> | qopchedal <ACT:boil/extract+BOT:stem[p_Ced]:FLUID[lotion-ol/al]> | keodaiin <BOT:stem[keod]:DOSE[measure-aiin]> | otalaiin <BOT:stem[otal]:DOSE[measure-aiin]> | oar <BOT:stem[oa]:RESIN[extract-or/ar]>",
+      "best_zodiac_match": {
+        "folio": "f70v2",
+        "idf": 10.513,
+        "shared_stems": [
+          "Colk",
+          "tod",
+          "otal",
+          "oto"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f102v2",
+        "idf": 8.802,
+        "shared_stems": [
+          "osai",
+          "keod",
+          "tod"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f82v",
+        "idf": 6.82,
+        "shared_stems": [
+          "Colk",
+          "olkai",
+          "otal"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f105v",
+        "idf": 15.81,
+        "shared_stems": [
+          "opaii",
+          "kalC",
+          "Colk",
+          "p_Ced"
+        ]
+      }
+    },
+    {
+      "rank": 28,
+      "folio": "f94v",
+      "quire": "Q",
+      "bifolio_B": 2,
+      "page_P": "D",
+      "scribe_H": "3",
+      "sheet_mates": [
+        "f94r",
+        "f95r1",
+        "f95r2",
+        "f95v2",
+        "f95v1"
+      ],
+      "n_tokens": 97,
+      "n_paras": 3,
+      "n_lines": 12,
+      "n_unique_stems": 27,
+      "morph": {
+        "n": 97,
+        "qo_pct": 13.4,
+        "edy_pct": 12.37,
+        "l_ol_pct": 12.37,
+        "aiin_pct": 11.34,
+        "do_so_pct": 7.22
+      },
+      "routing_idf": {
+        "P": 18.015,
+        "B": 32.977,
+        "S": 48.96,
+        "Z": 7.545,
+        "AC": 21.895,
+        "f66r": 20.103,
+        "total_clinical_PBS": 56.591
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "tam (BOT:tam, idf=4.73)",
+        "op_Cackh (BOT:op_Cackh, idf=4.73)",
+        "yp_Cdai (BOT:yp_Cdai, idf=4.73)",
+        "sd (BOT:sd, idf=4.73)",
+        "otEEda (BOT:otEEda, idf=4.73)",
+        "tararai (BOT:tararai, idf=4.73)"
+      ],
+      "line1_header_eva": "tshedy . chedar . char . qokchedy . okal . dar . opchackhy . oteedan",
+      "line1_header_gloss": "tshedy <CMPD:stalk-spray[tsh]:PROC[decoct/mix-edy]> | chedar <BOT:stem[Ced]:RESIN[extract-or/ar]> | char <BOT:stem[Ca]:RESIN[extract-or/ar]> | qokchedy <ACT:boil/extract+CMPD:calyx-bench[kch]:PROC[decoct/mix-edy]> | okal <NOM:vessel-calyx[ok]:FLUID[lotion-ol/al]> | dar <BOT:stem[da]:RESIN[extract-or/ar]> | opchackhy <BOT:stem[op_Cackh]:STAT[state-y]> | oteedan <BOT:stem[otEEda]>",
+      "best_zodiac_match": {
+        "folio": "f70v2",
+        "idf": 4.204,
+        "shared_stems": [
+          "tod",
+          "oto"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f102v1",
+        "idf": 5.369,
+        "shared_stems": [
+          "Seocth",
+          "EE"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f76v",
+        "idf": 9.702,
+        "shared_stems": [
+          "f_Cd",
+          "tEEd",
+          "k_S",
+          "EE"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f105v",
+        "idf": 16.712,
+        "shared_stems": [
+          "tedai",
+          "yCEEo",
+          "p_Ced",
+          "pa"
+        ]
+      }
+    },
+    {
+      "rank": 29,
+      "folio": "f95r1",
+      "quire": "Q",
+      "bifolio_B": 2,
+      "page_P": "F",
+      "scribe_H": "3",
+      "sheet_mates": [
+        "f94r",
+        "f94v",
+        "f95r2",
+        "f95v2",
+        "f95v1"
+      ],
+      "n_tokens": 102,
+      "n_paras": 2,
+      "n_lines": 11,
+      "n_unique_stems": 33,
+      "morph": {
+        "n": 102,
+        "qo_pct": 13.73,
+        "edy_pct": 8.82,
+        "l_ol_pct": 17.65,
+        "aiin_pct": 21.57,
+        "do_so_pct": 4.9
+      },
+      "routing_idf": {
+        "P": 31.245,
+        "B": 40.955,
+        "S": 65.111,
+        "Z": 27.746,
+        "AC": 55.421,
+        "f66r": 20.761,
+        "total_clinical_PBS": 71.684
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "Colk (BOT:Colk, idf=2.48)",
+        "Sdal (BOT:Sdal, idf=4.33)",
+        "ep (BOT:ep, idf=4.33)",
+        "oekEE (BOT:oekEE, idf=4.04)",
+        "fai (BOT:fai, idf=4.04)",
+        "alod (BOT:alod, idf=3.82)"
+      ],
+      "line1_header_eva": "kshdor . chepchdy . ofaiin . ol . oldaiin . opshol . qokaiin . oty",
+      "line1_header_gloss": "kshdor <BOT:stem[k_Sd]:RESIN[extract-or/ar]> | chepchdy <BOT:stem[Cep_C]:STATE[steeped-dy]> | ofaiin <NOM:vessel-plume[of]:DOSE[measure-aiin]> | ol <LOC:in-bath+BOT:stem[ol]:FLUID[lotion-ol/al]> | oldaiin <LOC:in-bath+BOT:stem[old]:DOSE[measure-aiin]> | opshol <BOT:stem[op_S]:FLUID[lotion-ol/al]> | qokaiin <ACT:boil/extract+BOT:stem[ka]:DOSE[measure-aiin]> | oty <NOM:vessel-stalk[ot]:STAT[state-y]>",
+      "best_zodiac_match": {
+        "folio": "f70v2",
+        "idf": 13.688,
+        "shared_stems": [
+          "ykol",
+          "teod",
+          "Colk",
+          "tod"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f88r",
+        "idf": 11.918,
+        "shared_stems": [
+          "Cet_C",
+          "of",
+          "old",
+          "olkEE"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f79v",
+        "idf": 17.494,
+        "shared_stems": [
+          "ly",
+          "kEEs",
+          "yCEE",
+          "olkai"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f113v",
+        "idf": 21.767,
+        "shared_stems": [
+          "op_S",
+          "Cdai",
+          "ls",
+          "Colk"
+        ]
+      }
+    },
+    {
+      "rank": 30,
+      "folio": "f95r2",
+      "quire": "Q",
+      "bifolio_B": 2,
+      "page_P": "G",
+      "scribe_H": "3",
+      "sheet_mates": [
+        "f94r",
+        "f94v",
+        "f95r1",
+        "f95v2",
+        "f95v1"
+      ],
+      "n_tokens": 79,
+      "n_paras": 2,
+      "n_lines": 9,
+      "n_unique_stems": 18,
+      "morph": {
+        "n": 79,
+        "qo_pct": 12.66,
+        "edy_pct": 8.86,
+        "l_ol_pct": 21.52,
+        "aiin_pct": 11.39,
+        "do_so_pct": 10.13
+      },
+      "routing_idf": {
+        "P": 14.876,
+        "B": 17.44,
+        "S": 37.483,
+        "Z": 13.113,
+        "AC": 16.657,
+        "f66r": 7.929,
+        "total_clinical_PBS": 37.483
+      },
+      "clinical_branch": "BALNEO_HYDROTHERAPY_DOMINANT (Bath-Infusion Herb)",
+      "top_signature_stems": [
+        "dalf_C (BOT:dalf_C, idf=4.73)",
+        "Cckhyf_C (BOT:Cckhyf_C, idf=4.73)",
+        "tedyk (BOT:tedyk, idf=4.73)",
+        "okedyted (BOT:okedyted, idf=4.73)",
+        "t_Sod (BOT:t_Sod, idf=4.33)",
+        "odal (BOT:odal, idf=4.04)"
+      ],
+      "line1_header_eva": "kshedy . or . chdy . dalfchy . qodaiin . chckhyfchy . daraiin . dalal",
+      "line1_header_gloss": "kshedy <CMPD:calyx-spray[ksh]:PROC[decoct/mix-edy]> | or <BOT:stem[or]:RESIN[extract-or/ar]> | chdy <BOT:stem[Cd]:STATE[steeped-dy]> | dalfchy <BOT:stem[dalf_C]:STAT[state-y]> | qodaiin <ACT:boil/extract+BOT:stem[da]:DOSE[measure-aiin]> | chckhyfchy <BOT:stem[Cckhyf_C]:STAT[state-y]> | daraiin <BOT:stem[dar]:DOSE[measure-aiin]> | dalal <BOT:stem[dal]:FLUID[lotion-ol/al]>",
+      "best_zodiac_match": {
+        "folio": "f71r",
+        "idf": 4.899,
+        "shared_stems": [
+          "Ss",
+          "EE"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f89v1",
+        "idf": 8.315,
+        "shared_stems": [
+          "dalS",
+          "po",
+          "dar",
+          "EE"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f84v",
+        "idf": 6.662,
+        "shared_stems": [
+          "po",
+          "Sd",
+          "k_S",
+          "EE"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f106v",
+        "idf": 12.464,
+        "shared_stems": [
+          "t_Sod",
+          "Ss",
+          "Sd",
+          "k_S"
+        ]
+      }
+    },
+    {
+      "rank": 31,
+      "folio": "f95v2",
+      "quire": "Q",
+      "bifolio_B": 2,
+      "page_P": "I",
+      "scribe_H": "3",
+      "sheet_mates": [
+        "f94r",
+        "f94v",
+        "f95r1",
+        "f95r2",
+        "f95v1"
+      ],
+      "n_tokens": 60,
+      "n_paras": 1,
+      "n_lines": 7,
+      "n_unique_stems": 25,
+      "morph": {
+        "n": 60,
+        "qo_pct": 10.0,
+        "edy_pct": 3.33,
+        "l_ol_pct": 15.0,
+        "aiin_pct": 20.0,
+        "do_so_pct": 10.0
+      },
+      "routing_idf": {
+        "P": 4.708,
+        "B": 17.984,
+        "S": 47.61,
+        "Z": 8.852,
+        "AC": 15.948,
+        "f66r": 7.599,
+        "total_clinical_PBS": 47.61
+      },
+      "clinical_branch": "DUAL_BRANCH_MASTER_HERB (Apothecary + Bath + Decoction)",
+      "top_signature_stems": [
+        "Seky (BOT:Seky, idf=4.73)",
+        "kaip (BOT:kaip, idf=4.73)",
+        "Cdyt (BOT:Cdyt, idf=4.73)",
+        "arCyt (BOT:arCyt, idf=4.73)",
+        "Cdykai (BOT:Cdykai, idf=4.73)",
+        "olsai (BOT:olsai, idf=4.73)"
+      ],
+      "line1_header_eva": "tchody . podar . shody . qofaiin . ofchdy . otedy . qotedaiin . shor",
+      "line1_header_gloss": "tchody <BOT:stem[t_Co]:STATE[steeped-dy]> | podar <BOT:stem[pod]:RESIN[extract-or/ar]> | shody <BOT:stem[So]:STATE[steeped-dy]> | qofaiin <ACT:boil/extract+BOT:stem[fa]:DOSE[measure-aiin]> | ofchdy <BOT:stem[of_C]:STATE[steeped-dy]> | otedy <NOM:vessel-stalk[ot]:PROC[decoct/mix-edy]> | qotedaiin <ACT:boil/extract+BOT:stem[ted]:DOSE[measure-aiin]> | shor <BOT:stem[So]:RESIN[extract-or/ar]>",
+      "best_zodiac_match": {
+        "folio": "f72v1",
+        "idf": 5.219,
+        "shared_stems": [
+          "oka",
+          "okal"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f89v1",
+        "idf": 4.708,
+        "shared_stems": [
+          "Sos",
+          "okal"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f77v",
+        "idf": 8.005,
+        "shared_stems": [
+          "okalo",
+          "ted",
+          "ld"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f114v",
+        "idf": 20.937,
+        "shared_stems": [
+          "f_CEE",
+          "alkai",
+          "Sedai",
+          "ted"
+        ]
+      }
+    },
+    {
+      "rank": 32,
+      "folio": "f95v1",
+      "quire": "Q",
+      "bifolio_B": 2,
+      "page_P": "J",
+      "scribe_H": "3",
+      "sheet_mates": [
+        "f94r",
+        "f94v",
+        "f95r1",
+        "f95r2",
+        "f95v2"
+      ],
+      "n_tokens": 118,
+      "n_paras": 4,
+      "n_lines": 13,
+      "n_unique_stems": 43,
+      "morph": {
+        "n": 118,
+        "qo_pct": 14.41,
+        "edy_pct": 10.17,
+        "l_ol_pct": 11.02,
+        "aiin_pct": 13.56,
+        "do_so_pct": 11.02
+      },
+      "routing_idf": {
+        "P": 40.399,
+        "B": 48.863,
+        "S": 68.793,
+        "Z": 20.473,
+        "AC": 38.472,
+        "f66r": 16.277,
+        "total_clinical_PBS": 83.377
+      },
+      "clinical_branch": "DECOCTION_INTERNAL_DOMINANT (Boiled-Recipe Herb)",
+      "top_signature_stems": [
+        "ok_S (BOT:ok_S, idf=2.17)",
+        "t_Ces (BOT:t_Ces, idf=4.73)",
+        "dolkai (BOT:dolkai, idf=4.73)",
+        "Ccthyk (BOT:Ccthyk, idf=4.73)",
+        "alf_Sed (BOT:alf_Sed, idf=4.73)",
+        "dolk_C (BOT:dolk_C, idf=4.73)"
+      ],
+      "line1_header_eva": "{c@132;h}olteedy . {c@133;h}oepaiin . oekshy . qofchdaiin . shoyfar . okshy . okain . ar",
+      "line1_header_gloss": "{c@132;h}olteedy <BOT:stem[Colt]:PROC[decoct/mix-edy]> | {c@133;h}oepaiin <BOT:stem[Coep]:DOSE[measure-aiin]> | oekshy <BOT:stem[oek_S]:STAT[state-y]> | qofchdaiin <ACT:boil/extract+BOT:stem[f_Cd]:DOSE[measure-aiin]> | shoyfar <BOT:stem[Soyf]:RESIN[extract-or/ar]> | okshy <BOT:stem[ok_S]:STAT[state-y]> | okain <BOT:stem[okai]> | ar <BOT:stem[ar]:RESIN[extract-or/ar]>",
+      "best_zodiac_match": {
+        "folio": "f73r",
+        "idf": 11.945,
+        "shared_stems": [
+          "Cef",
+          "Cedai",
+          "okar",
+          "otal"
+        ]
+      },
+      "best_pharm_match": {
+        "folio": "f100r",
+        "idf": 7.421,
+        "shared_stems": [
+          "f_Cod",
+          "oto",
+          "ra"
+        ]
+      },
+      "best_balneo_match": {
+        "folio": "f76v",
+        "idf": 18.164,
+        "shared_stems": [
+          "f_Cd",
+          "lSEE",
+          "otar",
+          "Scth"
+        ]
+      },
+      "best_starred_match": {
+        "folio": "f107r",
+        "idf": 25.236,
+        "shared_stems": [
+          "p_Sed",
+          "Seyk",
+          "olk_C",
+          "Cedai"
+        ]
+      }
+    }
+  ]
+}
