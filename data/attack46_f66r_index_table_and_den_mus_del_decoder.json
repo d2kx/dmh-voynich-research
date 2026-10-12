@@ -1,0 +1,496 @@
+{
+  "summary": {
+    "col1_outer_count": 15,
+    "col2_key_count": 34,
+    "col3_prose_lines": 32,
+    "anchor_pairs": [
+      {
+        "word": "rary",
+        "key": "y"
+      },
+      {
+        "word": "rals",
+        "key": "s"
+      },
+      {
+        "word": "dary",
+        "key": "y"
+      },
+      {
+        "word": "saly",
+        "key": "y"
+      },
+      {
+        "word": "salf",
+        "key": "f"
+      },
+      {
+        "word": "fary",
+        "key": "f"
+      }
+    ],
+    "observed_anchor_key_matches": 6,
+    "null_mean_matches": 1.0551,
+    "z_score": 5.42,
+    "empirical_p_value": 0.0,
+    "global_words_ending_in_f_count": 15,
+    "global_words_ending_in_f_tokens": 16
+  },
+  "words_ending_in_f": [
+    {
+      "word": "chof",
+      "count": 2,
+      "loci": [
+        "f8r.4,+P0",
+        "f27v.1,@P0"
+      ]
+    },
+    {
+      "word": "pochof",
+      "count": 1,
+      "loci": [
+        "f27v.1,@P0"
+      ]
+    },
+    {
+      "word": "qef",
+      "count": 1,
+      "loci": [
+        "f31r.2,+P0"
+      ]
+    },
+    {
+      "word": "olchef",
+      "count": 1,
+      "loci": [
+        "f39v.10,+P0"
+      ]
+    },
+    {
+      "word": "chef",
+      "count": 1,
+      "loci": [
+        "f43v.8,+P0"
+      ]
+    },
+    {
+      "word": "yf",
+      "count": 1,
+      "loci": [
+        "f57v.4,+Cc"
+      ]
+    },
+    {
+      "word": "salf",
+      "count": 1,
+      "loci": [
+        "f66r.7,+L0"
+      ]
+    },
+    {
+      "word": "pchof",
+      "count": 1,
+      "loci": [
+        "f66r.63,+P0"
+      ]
+    },
+    {
+      "word": "okeodof",
+      "count": 1,
+      "loci": [
+        "f66v.1,@P0"
+      ]
+    },
+    {
+      "word": "alif",
+      "count": 1,
+      "loci": [
+        "f72r1.7,&Lz"
+      ]
+    },
+    {
+      "word": "of",
+      "count": 1,
+      "loci": [
+        "f72r3.20,&Lz"
+      ]
+    },
+    {
+      "word": "cheef",
+      "count": 1,
+      "loci": [
+        "f78v.15,+P0"
+      ]
+    },
+    {
+      "word": "doef",
+      "count": 1,
+      "loci": [
+        "f89v2.19,+P0"
+      ]
+    },
+    {
+      "word": "qof",
+      "count": 1,
+      "loci": [
+        "f94r.6,+P0"
+      ]
+    },
+    {
+      "word": "opcheof",
+      "count": 1,
+      "loci": [
+        "f104r.30,+P0"
+      ]
+    }
+  ],
+  "outer_word_profiles": [
+    {
+      "index": 1,
+      "loc_id": "1",
+      "word": "rary",
+      "approx_aligned_key": "y",
+      "global_count": 5,
+      "section_distribution": {
+        "T": 1,
+        "Z": 2,
+        "S": 2
+      },
+      "sample_loci": [
+        "f66r.1,@L0",
+        "f71r.10,&Lz",
+        "f72v2.33,@Cc",
+        "f107r.30,+P0",
+        "f107v.31,+P0"
+      ]
+    },
+    {
+      "index": 2,
+      "loc_id": "2",
+      "word": "rals",
+      "approx_aligned_key": "s",
+      "global_count": 1,
+      "section_distribution": {
+        "T": 1
+      },
+      "sample_loci": [
+        "f66r.2,+L0"
+      ]
+    },
+    {
+      "index": 3,
+      "loc_id": "3",
+      "word": "qor",
+      "approx_aligned_key": "d",
+      "global_count": 21,
+      "section_distribution": {
+        "H": 7,
+        "S": 7,
+        "T": 1,
+        "B": 6
+      },
+      "sample_loci": [
+        "f17r.4,+P0",
+        "f24r.10,+P0",
+        "f24r.14,+P0",
+        "f29r.9,+P0",
+        "f30r.7,+P0",
+        "f36r.5,+P0",
+        "f45r.7,+P0",
+        "f58r.5,+P0",
+        "f66r.3,+L0",
+        "f75r.20,+P0"
+      ]
+    },
+    {
+      "index": 4,
+      "loc_id": "4",
+      "word": "dary",
+      "approx_aligned_key": "f",
+      "global_count": 23,
+      "section_distribution": {
+        "H": 8,
+        "T": 2,
+        "A": 3,
+        "C": 1,
+        "B": 4,
+        "P": 1,
+        "S": 4
+      },
+      "sample_loci": [
+        "f9v.9,+P0",
+        "f18r.8,+P0",
+        "f29v.2,+P0",
+        "f32r.9,+P0",
+        "f43v.3,+P0",
+        "f43v.15,+P0",
+        "f45r.6,+P0",
+        "f55v.7,+P0",
+        "f66r.4,+L0",
+        "f66r.69,+P0"
+      ]
+    },
+    {
+      "index": 5,
+      "loc_id": "5",
+      "word": "ykeol",
+      "approx_aligned_key": "x",
+      "global_count": 16,
+      "section_distribution": {
+        "H": 5,
+        "S": 4,
+        "T": 1,
+        "C": 2,
+        "P": 4
+      },
+      "sample_loci": [
+        "f35v.19,+P0",
+        "f45r.4,+P0",
+        "f45r.4,+P0",
+        "f48v.10,+P0",
+        "f51v.10,+P0",
+        "f58r.13,+P0",
+        "f66r.5,+L0",
+        "f68v3.17,@Pb",
+        "f68v3.19,+Pb",
+        "f99r.48,+P0"
+      ]
+    },
+    {
+      "index": 6,
+      "loc_id": "6",
+      "word": "saly",
+      "approx_aligned_key": "sh",
+      "global_count": 5,
+      "section_distribution": {
+        "C": 1,
+        "T": 1,
+        "Z": 1,
+        "B": 1,
+        "S": 1
+      },
+      "sample_loci": [
+        "f57v.2,@Cc",
+        "f66r.6,+L0",
+        "f73v.22,@Cc",
+        "f80v.7,+P0",
+        "f116r.3,+P0"
+      ]
+    },
+    {
+      "index": 7,
+      "loc_id": "7",
+      "word": "salf",
+      "approx_aligned_key": "f",
+      "global_count": 1,
+      "section_distribution": {
+        "T": 1
+      },
+      "sample_loci": [
+        "f66r.7,+L0"
+      ]
+    },
+    {
+      "index": 8,
+      "loc_id": "8",
+      "word": "fary",
+      "approx_aligned_key": "y",
+      "global_count": 1,
+      "section_distribution": {
+        "T": 1
+      },
+      "sample_loci": [
+        "f66r.8,+L0"
+      ]
+    },
+    {
+      "index": 9,
+      "loc_id": "9",
+      "word": "qotesy",
+      "approx_aligned_key": "s",
+      "global_count": 1,
+      "section_distribution": {
+        "T": 1
+      },
+      "sample_loci": [
+        "f66r.9,+L0"
+      ]
+    },
+    {
+      "index": 10,
+      "loc_id": "10",
+      "word": "ykaly",
+      "approx_aligned_key": "c",
+      "global_count": 7,
+      "section_distribution": {
+        "S": 3,
+        "T": 1,
+        "A": 1,
+        "C": 1,
+        "H": 1
+      },
+      "sample_loci": [
+        "f58r.40,+P0",
+        "f58v.8,+P0",
+        "f58v.26,+P0",
+        "f66r.10,+L0",
+        "f67r2.9,&L0",
+        "f67v2.14,@Ri",
+        "f95v2.6,+P0"
+      ]
+    },
+    {
+      "index": 11,
+      "loc_id": "11",
+      "word": "doly",
+      "approx_aligned_key": "t",
+      "global_count": 8,
+      "section_distribution": {
+        "H": 2,
+        "T": 1,
+        "C": 1,
+        "B": 2,
+        "P": 2
+      },
+      "sample_loci": [
+        "f43v.1,@P0",
+        "f44v.6,+P0",
+        "f66r.11,+L0",
+        "f69r.26,@Ro",
+        "f80v.2,+P0",
+        "f84v.16,+P0",
+        "f89r2.2,@Lf",
+        "f102r1.8,@P0"
+      ]
+    },
+    {
+      "index": 12,
+      "loc_id": "12",
+      "word": "saiin",
+      "approx_aligned_key": "@195;",
+      "global_count": 149,
+      "section_distribution": {
+        "H": 46,
+        "C": 2,
+        "S": 42,
+        "T": 8,
+        "A": 2,
+        "Z": 3,
+        "B": 32,
+        "P": 14
+      },
+      "sample_loci": [
+        "f2r.6,+P0",
+        "f2r.10,+P0",
+        "f2r.12,+P0",
+        "f8v.1,@P0",
+        "f15r.6,+P0",
+        "f16r.7,+P0",
+        "f16r.9,+P0",
+        "f16v.11,+P0",
+        "f21r.2,+P0",
+        "f22v.4,+P0"
+      ]
+    },
+    {
+      "index": 13,
+      "loc_id": "13",
+      "word": "qokal",
+      "approx_aligned_key": "r",
+      "global_count": 188,
+      "section_distribution": {
+        "H": 12,
+        "S": 48,
+        "T": 14,
+        "C": 12,
+        "B": 99,
+        "P": 3
+      },
+      "sample_loci": [
+        "f39r.16,+Pc",
+        "f40r.3,+P0",
+        "f41r.8,+P0",
+        "f41v.6,+P0",
+        "f51v.6,+P0",
+        "f51v.8,+P0",
+        "f54v.10,+P0",
+        "f55r.11,+P0",
+        "f58r.31,+P0",
+        "f58v.4,+P0"
+      ]
+    },
+    {
+      "index": 14,
+      "loc_id": "14",
+      "word": "qolsa",
+      "approx_aligned_key": "x",
+      "global_count": 1,
+      "section_distribution": {
+        "T": 1
+      },
+      "sample_loci": [
+        "f66r.14,+L0"
+      ]
+    },
+    {
+      "index": 15,
+      "loc_id": "15",
+      "word": "raral",
+      "approx_aligned_key": "d",
+      "global_count": 1,
+      "section_distribution": {
+        "T": 1
+      },
+      "sample_loci": [
+        "f66r.15,+L0"
+      ]
+    }
+  ],
+  "all_col2_keys": [
+    "y",
+    "o",
+    "s",
+    "sh",
+    "y",
+    "d",
+    "o",
+    "f",
+    "@169;",
+    "x",
+    "air",
+    "d",
+    "sh",
+    "y",
+    "f",
+    "f",
+    "y",
+    "o",
+    "d",
+    "s",
+    "f",
+    "c",
+    "@172;",
+    "x",
+    "t",
+    "o",
+    "@195;",
+    "l",
+    "r",
+    "t",
+    "o",
+    "x",
+    "p",
+    "d"
+  ],
+  "bottom_lx_locus82": {
+    "loc_id": "82",
+    "loc_tag": "@Lx",
+    "raw_text": "otcheo,daiin.chty.ykees,cheg",
+    "clean_text": "otcheo,daiin.chty.ykees,cheg",
+    "tokens": [
+      "otcheodaiin",
+      "chty",
+      "ykeescheg"
+    ]
+  }
+}

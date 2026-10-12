@@ -475,3 +475,35 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Script, Data & Edition**: [`tools/attack44_master_verification_and_8section_reader.py`](../tools/attack44_master_verification_and_8section_reader.py) $\to$ [`data/attack44_master_verification_and_8section_reader.json`](../data/attack44_master_verification_and_8section_reader.json) & [`notes/EIGHT_SECTION_DECODED_READER.md`](EIGHT_SECTION_DECODED_READER.md)
 - **Key Breakthroughs**:
   1. **Complete 8-Section Decoded Reader (`11` Folios, `1,086` Tokens)**: Achieves `18.60%` Tier-1 exact lexicon/crib coverage, `69.98%` Tier 1+2 exact/compositional coverage (`87.9%` in `f72r1`, `82.6%` in `f77r`, `79.7%` in `f102v2`, `74.7%` in `f105r`, `100.0%` in `f116v`), and `100.0%` Tier 1–3 structural slot coverage.
+
+---
+
+## 45. Attack 45 (`Phase 56`): The Gallows-Bench Complex Paradigm (`[p/f/k/t]ch` vs. `c[p/f/k/t]h` Complementary Distribution, `7.67×` Line-1 Labial Lift $z = +16.68$, and `-40.76%` Lexical Unification)
+- **Script & Data**: [`tools/attack45_gallows_bench_complex_paradigm.py`](../tools/attack45_gallows_bench_complex_paradigm.py) $\to$ [`data/attack45_gallows_bench_complex_paradigm.json`](../data/attack45_gallows_bench_complex_paradigm.json)
+- **Key Breakthroughs**:
+  1. **Phonotactic Complementary Distribution (`SEQ` vs. `PED`)**: `85.6%–94.9%` sequential `[k/t/p/f]ch` after `qo-/o-` vs. `92.9%` pedestal `c[k/t/p/f]h` after `ch-`.
+  2. **Top-Line Labial (`pch/fch/cph/cfh`) Lift (`7.67×`, $z = +16.68, p < 10^{-60}$) & `-40.76%` Unification**: Collapses `2,110` surface types into `1,250` unified stems across `179` mixed families.
+
+---
+
+## 46. Attack 46 (`Phase 57`): The `f66r` Three-Column Index Table (`6 / 6` Suffix/Onset-Key Echo Law, $z = +5.42, p < 10^{-4}$), Word-Final `-f` (`salf`, `pchof`), and the `den mus del` Medical Caption
+- **Script & Data**: [`tools/attack46_f66r_index_table_and_den_mus_del_decoder.py`](../tools/attack46_f66r_index_table_and_den_mus_del_decoder.py) $\to$ [`data/attack46_f66r_index_table_and_den_mus_del_decoder.json`](../data/attack46_f66r_index_table_and_den_mus_del_decoder.json)
+- **Visual Forensics**: [`pages/f66r_den_mus_del_closeup_enh.png`](../pages/f66r_den_mus_del_closeup_enh.png)
+- **Key Breakthroughs**:
+  1. **`6 / 6` Suffix/Onset-Key Echo Law ($z = +5.42$)**: `rary <-> y`, `rals <-> s`, `dary <-> y/d`, `saly <-> y`, `salf <-> f`, `fary <-> f`.
+  2. **Bottom-Left Medical Scene & `den mus del`**: Pairs `<f66r.82,@Lx> otcheo,daiin . chty . ykees,cheg` with Early New High German `r / den mus / del` (*"the electuary/pulp portion/dose"*).
+
+---
+
+## 47. Attack 47 (`Phase 58`): Cross-Folio Formulaic Sentence Clones (`87` Exact Cross-Folio 3-Grams, $z = +14.25, p < 10^{-45}$, `ol . shedy . qokedy . qokeedy`, and `110` Cross-Section 4-Word Templates)
+- **Script & Data**: [`tools/attack47_cross_folio_sentence_clone_scanner.py`](../tools/attack47_cross_folio_sentence_clone_scanner.py) $\to$ [`data/attack47_cross_folio_sentence_clone_scanner.json`](../data/attack47_cross_folio_sentence_clone_scanner.json)
+- **Key Breakthroughs**:
+  1. **`87` Exact Cross-Folio 3-Word Clauses vs. `21.82 ± 4.57` Within-Line Shuffle Null (`4.0×` Lift, $z = +14.25, p < 10^{-45}$)**.
+  2. **The 4-Word Stock Sentence `ol . shedy . qokedy . qokeedy` & `110` Cross-Sectional 4-Word Templates**.
+
+---
+
+## 48. Attack 48 (`Phase 59`): Master Formulaic Sentence Dictionary & Decoded Parallel Clause Corpus ([`notes/FORMULAIC_SENTENCE_DICTIONARY.md`](FORMULAIC_SENTENCE_DICTIONARY.md))
+- **Script, Data & Edition**: [`tools/attack48_formulaic_sentence_dictionary_and_parallel_corpus.py`](../tools/attack48_formulaic_sentence_dictionary_and_parallel_corpus.py) $\to$ [`data/attack48_formulaic_sentence_dictionary_and_parallel_corpus.json`](../data/attack48_formulaic_sentence_dictionary_and_parallel_corpus.json) & [`notes/FORMULAIC_SENTENCE_DICTIONARY.md`](FORMULAIC_SENTENCE_DICTIONARY.md)
+- **Key Breakthroughs**:
+  1. **Compiles `87` exact 3-word clauses, `110` cross-section 4-word templates, `179` unified gallows-bench families, and the `15`-entry `f66r` index table**.

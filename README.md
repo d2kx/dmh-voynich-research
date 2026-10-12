@@ -424,6 +424,28 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 54. The Gallows-Bench Complex Paradigm (`[p/f/k/t]ch` vs. `c[p/f/k/t]h` Complementary Distribution, `7.67×` Line-1 Labial Lift $z = +16.68$, and `-40.76%` Lexical Unification, `Attack 45`)
+- **Phonotactic Complementary Distribution (`SEQ` vs. `PED`, Suffix Cosine `0.8007`)**: After open back-vowel prefixes (`qo-` or `o-`), scribes write sequential `[k/t/p/f]ch` (**`85.6%` in `qoKy`, `94.9%` in `oKedy`**), whereas after horizontal bench prefixes (`ch-` or `sh-`), scribes write pedestal `c[k/t/p/f]h` (**`92.9%` in `chKy`**).
+- **Top-Line Labial (`pch/fch/cph/cfh`) Lift (`7.67×`, $z = +16.68, p < 10^{-60}$) & Lexical Unification (`-40.76%`)**: Labial gallows-bench clusters account for `54.93%` of Line-1 tokens vs. `7.16%` in interior lines ($z = +16.68$), and unifying `[p/f/k/t][c/s]h <-> c[p/f/k/t]h` collapses `2,110` types into `1,250` unified stems (`179` mixed families).
+
+---
+
+### 55. The `f66r` Three-Column Index Table (`6 / 6` Suffix/Onset-Key Echo Law, $z = +5.42, p < 10^{-4}$), Word-Final `-f` (`salf`, `pchof`), and `den mus del` (`Attack 46`)
+- **`6 / 6` Suffix/Onset-Key Echo Law ($z = +5.42$)**: On `f66r`, the outer index words (`<f66r.1..8>`) echo the aligned Column 2 key letters (`<f66r.16..31>`) in `6 / 6` anchor pairs (`rary <-> y`, `rals <-> s`, `dary <-> y/d`, `saly <-> y`, `salf <-> f`, `fary <-> f` vs. `1.0551` null, $z = +5.42$), and `salf` + `pchof` on `f66r` account for `2` of the only `16` tokens ending in `-f` in the entire manuscript.
+- **Bottom-Left Medical Scene & `den mus del` (`pages/f66r_den_mus_del_closeup_enh.png`)**: Pairs the Voynich caption `<f66r.82,@Lx> otcheo,daiin . chty . ykees,cheg` above the reclining female figure with the German caption `r / den mus / del` (*"den Mus-Teil"* = *"the electuary/pulp portion/dose"*) beside the two round doses and apothecary cup.
+
+---
+
+### 56. Cross-Folio Formulaic Sentence Clones (`87` Exact Cross-Folio 3-Grams, $z = +14.25, p < 10^{-45}$, `ol . shedy . qokedy . qokeedy`, and `110` Cross-Section 4-Word Templates, `Attack 47`)
+- **`4.0×` Enrichment of Exact Cross-Folio 3-Word Clauses ($z = +14.25, p < 10^{-45}$)**: Preserving exact line vocabularies under 200 within-line word-order shuffles proves that the `87` recurring cross-folio 3-word clauses exceed the `21.82 ± 4.57` null by **`4.0×` ($z = +14.25$)**, led by the 4-word stock sentence **`ol . shedy . qokedy . qokeedy`** (`<f75v.47>` & `<f84r.22>`) and **`110` cross-sectional 4-word canonical root templates**.
+
+---
+
+### 57. Master Formulaic Sentence Dictionary & Decoded Parallel Clause Corpus ([`notes/FORMULAIC_SENTENCE_DICTIONARY.md`](notes/FORMULAIC_SENTENCE_DICTIONARY.md), `Attack 48`)
+- **4-Part Reference Dictionary ([`notes/FORMULAIC_SENTENCE_DICTIONARY.md`](notes/FORMULAIC_SENTENCE_DICTIONARY.md))**: Compiles all `87` exact cross-folio 3-word clauses, `110` cross-section 4-word sentence templates (`Currier A <-> Currier B`), `179` unified gallows-bench families, and the `15`-entry `f66r` index table.
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -499,4 +521,8 @@ python tools/attack41_disyllabic_vocalic_liquid_matrix.py
 python tools/attack42_intraline_slot_progression_and_margin_compression.py
 python tools/attack43_cosmological_and_f85_f86_diagram_decoder.py
 python tools/attack44_master_verification_and_8section_reader.py
+python tools/attack45_gallows_bench_complex_paradigm.py
+python tools/attack46_f66r_index_table_and_den_mus_del_decoder.py
+python tools/attack47_cross_folio_sentence_clone_scanner.py
+python tools/attack48_formulaic_sentence_dictionary_and_parallel_corpus.py
 ```

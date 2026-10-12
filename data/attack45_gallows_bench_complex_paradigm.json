@@ -1,0 +1,1006 @@
+{
+  "summary": {
+    "seq_cluster_tokens": 3439,
+    "ped_cluster_tokens": 2022,
+    "seq_word_initial_rate": 0.2698,
+    "ped_word_initial_rate": 0.3892,
+    "suffix_distribution_cosine_similarity": 0.8007,
+    "line1_labial_share": 0.5493,
+    "interior_labial_share": 0.0716,
+    "line1_labial_lift": 7.67,
+    "line1_labial_z_score": 16.68,
+    "gallows_bench_types_before_unification": 2110,
+    "gallows_bench_types_after_unification": 1250,
+    "type_reduction_rate": 0.4076,
+    "mixed_seq_and_ped_families_count": 179
+  },
+  "positional_distribution": {
+    "SEQ_[p/f/k/t]ch": {
+      "post_prefix (o-/qo-/y-/d-/s-)": 1924,
+      "word_initial (idx=0)": 928,
+      "medial_other": 587
+    },
+    "PED_c[p/f/k/t]h": {
+      "word_initial (idx=0)": 787,
+      "medial_other": 511,
+      "post_prefix (o-/qo-/ch-/sh-)": 724
+    }
+  },
+  "top_suffixes_seq": {
+    "y": 560,
+    "edy": 476,
+    "ey": 339,
+    "dy": 324,
+    "ol": 184,
+    "or": 157,
+    "o": 83,
+    "eey": 61,
+    "ody": 60,
+    "eody": 49,
+    "eol": 48,
+    "ar": 42
+  },
+  "top_suffixes_ped": {
+    "y": 856,
+    "ey": 253,
+    "ol": 123,
+    "edy": 91,
+    "or": 73,
+    "dy": 58,
+    "ody": 44,
+    "eey": 36,
+    "ar": 31,
+    "aiin": 30,
+    "al": 27,
+    "eody": 25
+  },
+  "top_mixed_families": [
+    {
+      "unified_stem": "chKy",
+      "total_tokens": 238,
+      "member_count": 9,
+      "members": [
+        {
+          "word": "chckhy",
+          "count": 133
+        },
+        {
+          "word": "chcthy",
+          "count": 78
+        },
+        {
+          "word": "chcphy",
+          "count": 10
+        },
+        {
+          "word": "chkchy",
+          "count": 5
+        },
+        {
+          "word": "chtchy",
+          "count": 4
+        },
+        {
+          "word": "chpchy",
+          "count": 4
+        },
+        {
+          "word": "chcfhy",
+          "count": 2
+        },
+        {
+          "word": "chtshy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "unified_stem": "Ky",
+      "total_tokens": 199,
+      "member_count": 10,
+      "members": [
+        {
+          "word": "cthy",
+          "count": 99
+        },
+        {
+          "word": "ckhy",
+          "count": 31
+        },
+        {
+          "word": "kchy",
+          "count": 21
+        },
+        {
+          "word": "tchy",
+          "count": 19
+        },
+        {
+          "word": "cphy",
+          "count": 12
+        },
+        {
+          "word": "cfhy",
+          "count": 6
+        },
+        {
+          "word": "kshy",
+          "count": 5
+        },
+        {
+          "word": "tshy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "unified_stem": "qoKy",
+      "total_tokens": 181,
+      "member_count": 9,
+      "members": [
+        {
+          "word": "qokchy",
+          "count": 64
+        },
+        {
+          "word": "qotchy",
+          "count": 62
+        },
+        {
+          "word": "qockhy",
+          "count": 18
+        },
+        {
+          "word": "qopchy",
+          "count": 12
+        },
+        {
+          "word": "qokshy",
+          "count": 9
+        },
+        {
+          "word": "qocthy",
+          "count": 8
+        },
+        {
+          "word": "qotshy",
+          "count": 5
+        },
+        {
+          "word": "qocphy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "unified_stem": "Kol",
+      "total_tokens": 143,
+      "member_count": 11,
+      "members": [
+        {
+          "word": "cthol",
+          "count": 54
+        },
+        {
+          "word": "ckhol",
+          "count": 20
+        },
+        {
+          "word": "kchol",
+          "count": 20
+        },
+        {
+          "word": "cphol",
+          "count": 14
+        },
+        {
+          "word": "tchol",
+          "count": 14
+        },
+        {
+          "word": "tshol",
+          "count": 6
+        },
+        {
+          "word": "pchol",
+          "count": 5
+        },
+        {
+          "word": "cfhol",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "unified_stem": "Key",
+      "total_tokens": 141,
+      "member_count": 10,
+      "members": [
+        {
+          "word": "cthey",
+          "count": 47
+        },
+        {
+          "word": "ckhey",
+          "count": 27
+        },
+        {
+          "word": "tchey",
+          "count": 19
+        },
+        {
+          "word": "kchey",
+          "count": 19
+        },
+        {
+          "word": "cphey",
+          "count": 9
+        },
+        {
+          "word": "tshey",
+          "count": 7
+        },
+        {
+          "word": "pchey",
+          "count": 6
+        },
+        {
+          "word": "kshey",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "unified_stem": "oKedy",
+      "total_tokens": 136,
+      "member_count": 10,
+      "members": [
+        {
+          "word": "opchedy",
+          "count": 47
+        },
+        {
+          "word": "otchedy",
+          "count": 33
+        },
+        {
+          "word": "okchedy",
+          "count": 24
+        },
+        {
+          "word": "otshedy",
+          "count": 10
+        },
+        {
+          "word": "ockhedy",
+          "count": 7
+        },
+        {
+          "word": "ofchedy",
+          "count": 6
+        },
+        {
+          "word": "okshedy",
+          "count": 4
+        },
+        {
+          "word": "octhedy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "unified_stem": "oKey",
+      "total_tokens": 132,
+      "member_count": 10,
+      "members": [
+        {
+          "word": "okchey",
+          "count": 34
+        },
+        {
+          "word": "otchey",
+          "count": 32
+        },
+        {
+          "word": "opchey",
+          "count": 29
+        },
+        {
+          "word": "okshey",
+          "count": 9
+        },
+        {
+          "word": "ockhey",
+          "count": 8
+        },
+        {
+          "word": "otshey",
+          "count": 8
+        },
+        {
+          "word": "octhey",
+          "count": 6
+        },
+        {
+          "word": "ofchey",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "unified_stem": "oKy",
+      "total_tokens": 128,
+      "member_count": 9,
+      "members": [
+        {
+          "word": "otchy",
+          "count": 44
+        },
+        {
+          "word": "okchy",
+          "count": 31
+        },
+        {
+          "word": "ockhy",
+          "count": 12
+        },
+        {
+          "word": "okshy",
+          "count": 11
+        },
+        {
+          "word": "opchy",
+          "count": 10
+        },
+        {
+          "word": "octhy",
+          "count": 9
+        },
+        {
+          "word": "ofchy",
+          "count": 4
+        },
+        {
+          "word": "otshy",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "unified_stem": "qoKedy",
+      "total_tokens": 127,
+      "member_count": 9,
+      "members": [
+        {
+          "word": "qokchedy",
+          "count": 40
+        },
+        {
+          "word": "qopchedy",
+          "count": 30
+        },
+        {
+          "word": "qotchedy",
+          "count": 24
+        },
+        {
+          "word": "qokshedy",
+          "count": 11
+        },
+        {
+          "word": "qofchedy",
+          "count": 8
+        },
+        {
+          "word": "qockhedy",
+          "count": 4
+        },
+        {
+          "word": "qopshedy",
+          "count": 4
+        },
+        {
+          "word": "qocthedy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "unified_stem": "Kedy",
+      "total_tokens": 122,
+      "member_count": 11,
+      "members": [
+        {
+          "word": "tchedy",
+          "count": 32
+        },
+        {
+          "word": "pchedy",
+          "count": 30
+        },
+        {
+          "word": "kchedy",
+          "count": 13
+        },
+        {
+          "word": "cthedy",
+          "count": 12
+        },
+        {
+          "word": "fchedy",
+          "count": 9
+        },
+        {
+          "word": "tshedy",
+          "count": 9
+        },
+        {
+          "word": "cphedy",
+          "count": 7
+        },
+        {
+          "word": "ckhedy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "unified_stem": "Kor",
+      "total_tokens": 108,
+      "member_count": 10,
+      "members": [
+        {
+          "word": "cthor",
+          "count": 42
+        },
+        {
+          "word": "kchor",
+          "count": 18
+        },
+        {
+          "word": "tchor",
+          "count": 16
+        },
+        {
+          "word": "ckhor",
+          "count": 9
+        },
+        {
+          "word": "pchor",
+          "count": 9
+        },
+        {
+          "word": "cphor",
+          "count": 5
+        },
+        {
+          "word": "tshor",
+          "count": 3
+        },
+        {
+          "word": "fchor",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "unified_stem": "qoKdy",
+      "total_tokens": 102,
+      "member_count": 9,
+      "members": [
+        {
+          "word": "qokchdy",
+          "count": 51
+        },
+        {
+          "word": "qotchdy",
+          "count": 22
+        },
+        {
+          "word": "qopchdy",
+          "count": 16
+        },
+        {
+          "word": "qokshdy",
+          "count": 3
+        },
+        {
+          "word": "qotshdy",
+          "count": 3
+        },
+        {
+          "word": "qofchdy",
+          "count": 3
+        },
+        {
+          "word": "qocphdy",
+          "count": 2
+        },
+        {
+          "word": "qockhdy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "unified_stem": "shKy",
+      "total_tokens": 98,
+      "member_count": 7,
+      "members": [
+        {
+          "word": "shckhy",
+          "count": 57
+        },
+        {
+          "word": "shcthy",
+          "count": 32
+        },
+        {
+          "word": "shtchy",
+          "count": 3
+        },
+        {
+          "word": "shcphy",
+          "count": 2
+        },
+        {
+          "word": "shkchy",
+          "count": 2
+        },
+        {
+          "word": "shtshy",
+          "count": 1
+        },
+        {
+          "word": "shkshy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "unified_stem": "qoKey",
+      "total_tokens": 96,
+      "member_count": 11,
+      "members": [
+        {
+          "word": "qokchey",
+          "count": 28
+        },
+        {
+          "word": "qotchey",
+          "count": 19
+        },
+        {
+          "word": "qockhey",
+          "count": 18
+        },
+        {
+          "word": "qopchey",
+          "count": 10
+        },
+        {
+          "word": "qokshey",
+          "count": 8
+        },
+        {
+          "word": "qotshey",
+          "count": 5
+        },
+        {
+          "word": "qocthey",
+          "count": 4
+        },
+        {
+          "word": "qofshey",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "unified_stem": "oKdy",
+      "total_tokens": 94,
+      "member_count": 10,
+      "members": [
+        {
+          "word": "otchdy",
+          "count": 33
+        },
+        {
+          "word": "okchdy",
+          "count": 28
+        },
+        {
+          "word": "opchdy",
+          "count": 19
+        },
+        {
+          "word": "ofchdy",
+          "count": 5
+        },
+        {
+          "word": "otshdy",
+          "count": 3
+        },
+        {
+          "word": "octhdy",
+          "count": 2
+        },
+        {
+          "word": "opshdy",
+          "count": 1
+        },
+        {
+          "word": "ofshdy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "unified_stem": "cheKy",
+      "total_tokens": 91,
+      "member_count": 7,
+      "members": [
+        {
+          "word": "checkhy",
+          "count": 47
+        },
+        {
+          "word": "checthy",
+          "count": 27
+        },
+        {
+          "word": "chekchy",
+          "count": 5
+        },
+        {
+          "word": "chetchy",
+          "count": 4
+        },
+        {
+          "word": "chepchy",
+          "count": 4
+        },
+        {
+          "word": "chefchy",
+          "count": 3
+        },
+        {
+          "word": "checfhy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "unified_stem": "choKy",
+      "total_tokens": 83,
+      "member_count": 10,
+      "members": [
+        {
+          "word": "chockhy",
+          "count": 24
+        },
+        {
+          "word": "chocthy",
+          "count": 19
+        },
+        {
+          "word": "chokchy",
+          "count": 15
+        },
+        {
+          "word": "chotchy",
+          "count": 11
+        },
+        {
+          "word": "chopchy",
+          "count": 5
+        },
+        {
+          "word": "chocphy",
+          "count": 3
+        },
+        {
+          "word": "chotshy",
+          "count": 2
+        },
+        {
+          "word": "chocfhy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "unified_stem": "sheKy",
+      "total_tokens": 63,
+      "member_count": 6,
+      "members": [
+        {
+          "word": "sheckhy",
+          "count": 31
+        },
+        {
+          "word": "shecthy",
+          "count": 19
+        },
+        {
+          "word": "shekchy",
+          "count": 5
+        },
+        {
+          "word": "shepchy",
+          "count": 3
+        },
+        {
+          "word": "shecphy",
+          "count": 3
+        },
+        {
+          "word": "shetchy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "unified_stem": "Kdy",
+      "total_tokens": 61,
+      "member_count": 10,
+      "members": [
+        {
+          "word": "kchdy",
+          "count": 17
+        },
+        {
+          "word": "tchdy",
+          "count": 13
+        },
+        {
+          "word": "pchdy",
+          "count": 8
+        },
+        {
+          "word": "cthdy",
+          "count": 7
+        },
+        {
+          "word": "tshdy",
+          "count": 5
+        },
+        {
+          "word": "ckhdy",
+          "count": 3
+        },
+        {
+          "word": "fchdy",
+          "count": 3
+        },
+        {
+          "word": "kshdy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "unified_stem": "oKol",
+      "total_tokens": 51,
+      "member_count": 8,
+      "members": [
+        {
+          "word": "otchol",
+          "count": 27
+        },
+        {
+          "word": "okchol",
+          "count": 13
+        },
+        {
+          "word": "opchol",
+          "count": 4
+        },
+        {
+          "word": "otshol",
+          "count": 2
+        },
+        {
+          "word": "ockhol",
+          "count": 2
+        },
+        {
+          "word": "ofchol",
+          "count": 1
+        },
+        {
+          "word": "okshol",
+          "count": 1
+        },
+        {
+          "word": "opshol",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "unified_stem": "yKy",
+      "total_tokens": 50,
+      "member_count": 6,
+      "members": [
+        {
+          "word": "ykchy",
+          "count": 23
+        },
+        {
+          "word": "ytchy",
+          "count": 17
+        },
+        {
+          "word": "ypchy",
+          "count": 4
+        },
+        {
+          "word": "ykshy",
+          "count": 3
+        },
+        {
+          "word": "ytshy",
+          "count": 2
+        },
+        {
+          "word": "yckhy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "unified_stem": "qoKol",
+      "total_tokens": 49,
+      "member_count": 8,
+      "members": [
+        {
+          "word": "qokchol",
+          "count": 17
+        },
+        {
+          "word": "qotchol",
+          "count": 12
+        },
+        {
+          "word": "qockhol",
+          "count": 8
+        },
+        {
+          "word": "qopchol",
+          "count": 6
+        },
+        {
+          "word": "qocthol",
+          "count": 2
+        },
+        {
+          "word": "qofchol",
+          "count": 2
+        },
+        {
+          "word": "qokshol",
+          "count": 1
+        },
+        {
+          "word": "qotshol",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "unified_stem": "Keey",
+      "total_tokens": 46,
+      "member_count": 11,
+      "members": [
+        {
+          "word": "ctheey",
+          "count": 14
+        },
+        {
+          "word": "ckheey",
+          "count": 10
+        },
+        {
+          "word": "tcheey",
+          "count": 6
+        },
+        {
+          "word": "fcheey",
+          "count": 4
+        },
+        {
+          "word": "pcheey",
+          "count": 3
+        },
+        {
+          "word": "kcheey",
+          "count": 3
+        },
+        {
+          "word": "cpheey",
+          "count": 2
+        },
+        {
+          "word": "psheey",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "unified_stem": "oKor",
+      "total_tokens": 44,
+      "member_count": 7,
+      "members": [
+        {
+          "word": "okchor",
+          "count": 17
+        },
+        {
+          "word": "otchor",
+          "count": 16
+        },
+        {
+          "word": "opchor",
+          "count": 5
+        },
+        {
+          "word": "octhor",
+          "count": 2
+        },
+        {
+          "word": "okshor",
+          "count": 2
+        },
+        {
+          "word": "otshor",
+          "count": 1
+        },
+        {
+          "word": "ofchor",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "unified_stem": "Keol",
+      "total_tokens": 43,
+      "member_count": 9,
+      "members": [
+        {
+          "word": "pcheol",
+          "count": 11
+        },
+        {
+          "word": "ctheol",
+          "count": 10
+        },
+        {
+          "word": "kcheol",
+          "count": 6
+        },
+        {
+          "word": "tcheol",
+          "count": 5
+        },
+        {
+          "word": "ckheol",
+          "count": 5
+        },
+        {
+          "word": "ksheol",
+          "count": 2
+        },
+        {
+          "word": "cpheol",
+          "count": 2
+        },
+        {
+          "word": "cfheol",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}
