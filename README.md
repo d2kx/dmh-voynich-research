@@ -786,6 +786,26 @@ Comparing all `31,910` adjacent word pairs (`w_i, w_{i+1}`) against a **within-l
 
 ---
 
+### 126. Complete `44`-Register Pharmaceutical Formulary Translator, `93.33%` (`196 / 210`) `@Lf` Botanical Specimen Traceability (`85.24%` Directly to Herbal `$I=H`), and Multi-Specimen Active-Verb Scaling (`Attack 117`)
+- **`93.33%` (`196 / 210`) `@Lf` Specimen Resolution & `+33.9%` Multi-Specimen Active-Verb Scaling**: Traces `196 / 210` (`93.33%`) `@Lf` botanical root/leaf labels across `f88r–f102v2` (`122` Direct/`o-`-stripped, `58` 2-Stem Compounds, `9` 2-Stem+Coda, `7` 3-Stem Compounds, with **`179 / 210` = `85.24%` traced directly to Herbal `$I=H` monographs**), and proves that Multi-Specimen Registers (`n_lf >= 4`) carry **`+33.9%` more active processing verbs (`6.80` vs. `5.08`, `Verb : Dose = 1.12`)** than Sparse/Unlabelled Registers (`n_lf <= 1`).
+
+---
+
+### 127. Complete `19`-Folio Balneological (`Quire M`, `f75r–f84v`, `$I=B`) Hydraulic Translator, the `Ln` (Nymph Label) vs. `Lt` (Tube/Pipe/Tank Label) Structural Contrast, and the 4-Level Vertical Hydraulic Gradient (`Attack 118`)
+- **`Ln` (Bather/Nymph) vs. `Lt` (Tube/Pipe/Tank) Label Contrast (`pages/f75v_nymph_ln_and_tube_lt_labels_enh.png`, `pages/f82v_nymph_and_pipe_network_enh.png`) & 4-Level Hydraulic Gradient**: Proves that **`Ln` Nymph Labels (`n=65`, `84.62%` in Herbal `$I=H`)** peak in Bathed State `-y/-dy` (`43.08%` vs. `30.36%`) and Plumed Spray `sh` (`10.77%` vs. `1.79%`, **`6.02×` higher**), whereas **`Lt` Tube/Pipe Labels (`n=56`)** peak in Nominal `o-` (`50.00%`), Vessel/Spout `-ol/-or/-al/-ar` (`39.29%` vs. `30.77%`), and Measured Volume `-aiin` (`8.93%` vs. `3.08%`, **`2.90×` higher**). Moving from `Top Inflow` to `Mid Conduit` to `Bottom Pool` to `@Pb Side-Basin Blocks` drops Active Flow `qo-` `3.95×` (`26.77% -> 6.78%`) and Processual `-edy` `2.20×` (`29.77% -> 13.56%`).
+
+---
+
+### 128. The Scribe 5 (`$H=5`) `100.0%` (`7 / 7`) Outer-Wrapper Bifolio (`$B=1`) Law, the `f57v ↔ f66r` Centerfold Key-Ring Transfer, Scribe 5 Pamphlet Cohesion ($z = +2.58$), and `f66r`'s Two-Column Parallel Left-Margin Index (`Attack 119`)
+- **`100.0%` (`7 / 7`) Outer-Wrapper Bifolio (`$B=1`) Law of Scribe 5 (`pages/f66r_margin_indexed_treatise_enh.png`, `pages/f66v_sheetmate_herbal_enh.png`)**: Proves that every folio written by Scribe 5 (`f41r, f41v, f48r, f48v` on `Quire F $B=1`; `f57r, f66r, f66v` on `Quire H $B=1`) sits on the **Outer Wrapper Bifolio (`$B=1`)** of its quire, that `f57v` (4-Ring Key Wheel) and `f66r` (34-Key Margin-Indexed Treatise) sit side-by-side on the inner spread of `Quire H $B=1` across the centerfold crease (`y o d s f c @172 x t o`), and that `f66r` shares `39` open stems (`1.56×` lift, $z = +2.58$) with Scribe 5's `6` Herbal Monographs.
+
+---
+
+### 129. The 44-Register Pharmaceutical Formulary Translator, 19-Folio Balneological (`Ln` vs. `Lt`) Hydraulic Atlas & Scribe 5 (`f66r/v ↔ f57r/v`) Outer-Wrapper Compendium ([`notes/PHARM_44REGISTER_AND_BALNEO_TRANSLATION_COMPENDIUM.md`](notes/PHARM_44REGISTER_AND_BALNEO_TRANSLATION_COMPENDIUM.md), `Attack 120`)
+- **44-Register Pharmaceutical, 19-Folio Balneological & Scribe 5 Compendium ([`notes/PHARM_44REGISTER_AND_BALNEO_TRANSLATION_COMPENDIUM.md`](notes/PHARM_44REGISTER_AND_BALNEO_TRANSLATION_COMPENDIUM.md))**: Synthesizes the 44-Register Pharmaceutical Formulary Translator (`Attack 117`), the 19-Folio Balneological Hydraulic Translator (`Attack 118`), and the Scribe 5 Outer-Wrapper & `f57v ↔ f66r` Sheet-Mate Solver (`Attack 119`).
+
+---
+
 ## Quick Start
 
 Requires Python 3.10+ with `pymupdf` and `pillow`:
@@ -933,4 +953,9 @@ python tools/attack113_five_section_dual_branch_therapeutic_matrix.py
 python tools/attack114_currier_a_to_b_apothecary_compiler.py
 python tools/attack115_pharmaceutical_register_row_decomposition.py
 python tools/attack116_five_section_paradigm_and_pharm_register_atlas.py
+python tools/attack117_pharmaceutical_44register_translator.py
+python tools/attack118_balneological_19folio_hydraulic_and_nymph_translator.py
+python tools/attack119_f66r_f66v_margin_indexed_sheetmate_solver.py
+python tools/attack120_pharm_44register_and_balneo_translation_compendium.py
 ```
+

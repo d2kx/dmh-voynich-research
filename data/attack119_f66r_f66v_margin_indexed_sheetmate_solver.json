@@ -1,0 +1,2418 @@
+{
+  "attack_id": 119,
+  "discovery_id": 136,
+  "title": "The Scribe 5 ($H=5) Outer-Wrapper Bifolio ($B=1) Law, f57v <-> f66r Sheet-Mate Key-Ring Transfer & f66r/f66v Solver",
+  "scribe5_outer_wrapper_bifolio_law": {
+    "total_scribe5_folios": 7,
+    "outer_wrapper_bifolio_B1_count": 7,
+    "outer_wrapper_bifolio_B1_pct": 100.0,
+    "scribe5_folios": [
+      {
+        "folio": "f41r",
+        "section": "H",
+        "language": "B",
+        "hand": "5",
+        "quire": "F",
+        "page_in_quire": "A",
+        "bifolio": "1"
+      },
+      {
+        "folio": "f41v",
+        "section": "H",
+        "language": "B",
+        "hand": "5",
+        "quire": "F",
+        "page_in_quire": "B",
+        "bifolio": "1"
+      },
+      {
+        "folio": "f48r",
+        "section": "H",
+        "language": "B",
+        "hand": "5",
+        "quire": "F",
+        "page_in_quire": "O",
+        "bifolio": "1"
+      },
+      {
+        "folio": "f48v",
+        "section": "H",
+        "language": "B",
+        "hand": "5",
+        "quire": "F",
+        "page_in_quire": "P",
+        "bifolio": "1"
+      },
+      {
+        "folio": "f57r",
+        "section": "H",
+        "language": "B",
+        "hand": "5",
+        "quire": "H",
+        "page_in_quire": "A",
+        "bifolio": "1"
+      },
+      {
+        "folio": "f66r",
+        "section": "T",
+        "language": "B",
+        "hand": "5",
+        "quire": "H",
+        "page_in_quire": "G",
+        "bifolio": "1"
+      },
+      {
+        "folio": "f66v",
+        "section": "H",
+        "language": "B",
+        "hand": "5",
+        "quire": "H",
+        "page_in_quire": "H",
+        "bifolio": "1"
+      }
+    ],
+    "quire_h_bifolio_architecture": [
+      {
+        "folio": "f57r",
+        "section": "H",
+        "language": "B",
+        "hand": "5",
+        "quire": "H",
+        "page_in_quire": "A",
+        "bifolio": "1"
+      },
+      {
+        "folio": "f57v",
+        "section": "C",
+        "language": "",
+        "hand": "1",
+        "quire": "H",
+        "page_in_quire": "B",
+        "bifolio": "1"
+      },
+      {
+        "folio": "f58r",
+        "section": "S",
+        "language": "A",
+        "hand": "3",
+        "quire": "H",
+        "page_in_quire": "C",
+        "bifolio": "2"
+      },
+      {
+        "folio": "f58v",
+        "section": "S",
+        "language": "A",
+        "hand": "3",
+        "quire": "H",
+        "page_in_quire": "D",
+        "bifolio": "2"
+      },
+      {
+        "folio": "f65r",
+        "section": "H",
+        "language": "",
+        "hand": "3",
+        "quire": "H",
+        "page_in_quire": "E",
+        "bifolio": "2"
+      },
+      {
+        "folio": "f65v",
+        "section": "H",
+        "language": "",
+        "hand": "3",
+        "quire": "H",
+        "page_in_quire": "F",
+        "bifolio": "2"
+      },
+      {
+        "folio": "f66r",
+        "section": "T",
+        "language": "B",
+        "hand": "5",
+        "quire": "H",
+        "page_in_quire": "G",
+        "bifolio": "1"
+      },
+      {
+        "folio": "f66v",
+        "section": "H",
+        "language": "B",
+        "hand": "5",
+        "quire": "H",
+        "page_in_quire": "H",
+        "bifolio": "1"
+      }
+    ]
+  },
+  "scribe5_pamphlet_cohesion_test": {
+    "f66r_open_stems_count": 117,
+    "scribe5_herbal_open_stems_count": 201,
+    "shared_f66r_scribe5_herbal_stems_count": 39,
+    "shared_f66r_scribe5_herbal_stems": [
+      "chckhey",
+      "chees",
+      "chekeey",
+      "chekey",
+      "cheky",
+      "cheo",
+      "cheoy",
+      "chety",
+      "choy",
+      "cthy",
+      "daiir",
+      "dair",
+      "daly",
+      "dol",
+      "dor",
+      "kal",
+      "keoy",
+      "key",
+      "koy",
+      "ldy",
+      "lkeey",
+      "octhey",
+      "okaly",
+      "okcho",
+      "okeeoy",
+      "okeoy",
+      "oly",
+      "otam",
+      "oteeod",
+      "oteoly",
+      "oteoy",
+      "otol",
+      "shed",
+      "shekey",
+      "sheod",
+      "sheodaiin",
+      "sheoy",
+      "tolchey",
+      "ykeeoy"
+    ],
+    "observed_idf": 84.476,
+    "null_all_herbal_6folio_idf_mean": 54.104,
+    "null_all_herbal_6folio_idf_std": 11.78,
+    "lift_vs_all_herbal": 1.56,
+    "z_score_vs_all_herbal": 2.58,
+    "null_herbal_b_6folio_idf_mean": 75.688,
+    "null_herbal_b_6folio_idf_std": 10.443,
+    "lift_vs_herbal_b": 1.12,
+    "z_score_vs_herbal_b": 0.84
+  },
+  "f66r_15_word_labels_audit": {
+    "n_labels": 15,
+    "qo_qol_active_onset_pct": 26.67,
+    "in_f66r_prose_only_count": 3,
+    "in_scribe5_herbals_count": 4,
+    "in_f58_index_count": 5,
+    "in_herbal_count": 9,
+    "in_pharm_count": 6,
+    "in_balneo_count": 7,
+    "in_starred_count": 9,
+    "labels": [
+      {
+        "line": 1,
+        "surface": "rary",
+        "cs": "rary",
+        "folded_cs": "rary",
+        "in_f66r_prose_only": false,
+        "in_f66v_prose_only": false,
+        "in_scribe5_herbals": false,
+        "in_f58_index": false,
+        "in_herbal": false,
+        "in_pharm": false,
+        "in_balneo": false,
+        "in_starred": true,
+        "gloss": "PORTION-[STATE] (rary)"
+      },
+      {
+        "line": 2,
+        "surface": "rals",
+        "cs": "rals",
+        "folded_cs": "rals",
+        "in_f66r_prose_only": false,
+        "in_f66v_prose_only": false,
+        "in_scribe5_herbals": false,
+        "in_f58_index": false,
+        "in_herbal": false,
+        "in_pharm": false,
+        "in_balneo": false,
+        "in_starred": false,
+        "gloss": "PORTION (rals)"
+      },
+      {
+        "line": 3,
+        "surface": "qor",
+        "cs": "or",
+        "folded_cs": "or",
+        "in_f66r_prose_only": false,
+        "in_f66v_prose_only": true,
+        "in_scribe5_herbals": true,
+        "in_f58_index": true,
+        "in_herbal": true,
+        "in_pharm": true,
+        "in_balneo": true,
+        "in_starred": true,
+        "gloss": "ACTIVE-BOIL/APPLY-PORTION-[EXTRACT] (or)"
+      },
+      {
+        "line": 4,
+        "surface": "dary",
+        "cs": "dary",
+        "folded_cs": "dary",
+        "in_f66r_prose_only": true,
+        "in_f66v_prose_only": false,
+        "in_scribe5_herbals": false,
+        "in_f58_index": false,
+        "in_herbal": true,
+        "in_pharm": false,
+        "in_balneo": true,
+        "in_starred": true,
+        "gloss": "FROM/DOSE-PORTION-[STATE] (dary)"
+      },
+      {
+        "line": 5,
+        "surface": "ykeol",
+        "cs": "ykeol",
+        "folded_cs": "ykeol",
+        "in_f66r_prose_only": false,
+        "in_f66v_prose_only": false,
+        "in_scribe5_herbals": true,
+        "in_f58_index": true,
+        "in_herbal": true,
+        "in_pharm": true,
+        "in_balneo": false,
+        "in_starred": true,
+        "gloss": "THEN-SPECIMEN-[VESSEL] (ykeol)"
+      },
+      {
+        "line": 6,
+        "surface": "saly",
+        "cs": "saly",
+        "folded_cs": "saly",
+        "in_f66r_prose_only": false,
+        "in_f66v_prose_only": false,
+        "in_scribe5_herbals": false,
+        "in_f58_index": false,
+        "in_herbal": true,
+        "in_pharm": true,
+        "in_balneo": true,
+        "in_starred": true,
+        "gloss": "AND/NEXT-PORTION-[STATE] (saly)"
+      },
+      {
+        "line": 7,
+        "surface": "salf",
+        "cs": "salf",
+        "folded_cs": "salk",
+        "in_f66r_prose_only": false,
+        "in_f66v_prose_only": false,
+        "in_scribe5_herbals": false,
+        "in_f58_index": false,
+        "in_herbal": false,
+        "in_pharm": false,
+        "in_balneo": false,
+        "in_starred": false,
+        "gloss": "AND/NEXT-SPECIMEN (salf)"
+      },
+      {
+        "line": 8,
+        "surface": "fary",
+        "cs": "fary",
+        "folded_cs": "kary",
+        "in_f66r_prose_only": true,
+        "in_f66v_prose_only": false,
+        "in_scribe5_herbals": false,
+        "in_f58_index": false,
+        "in_herbal": true,
+        "in_pharm": false,
+        "in_balneo": true,
+        "in_starred": true,
+        "gloss": "SPECIMEN-[STATE] (fary)"
+      },
+      {
+        "line": 9,
+        "surface": "qotesy",
+        "cs": "otesy",
+        "folded_cs": "otesy",
+        "in_f66r_prose_only": false,
+        "in_f66v_prose_only": false,
+        "in_scribe5_herbals": false,
+        "in_f58_index": false,
+        "in_herbal": false,
+        "in_pharm": false,
+        "in_balneo": false,
+        "in_starred": false,
+        "gloss": "ACTIVE-BOIL/APPLY-SPECIMEN-[STATE] (otesy)"
+      },
+      {
+        "line": 10,
+        "surface": "ykaly",
+        "cs": "ykaly",
+        "folded_cs": "ykaly",
+        "in_f66r_prose_only": false,
+        "in_f66v_prose_only": false,
+        "in_scribe5_herbals": false,
+        "in_f58_index": true,
+        "in_herbal": true,
+        "in_pharm": false,
+        "in_balneo": false,
+        "in_starred": true,
+        "gloss": "THEN-SPECIMEN-[STATE] (ykaly)"
+      },
+      {
+        "line": 11,
+        "surface": "doly",
+        "cs": "doly",
+        "folded_cs": "doly",
+        "in_f66r_prose_only": false,
+        "in_f66v_prose_only": false,
+        "in_scribe5_herbals": false,
+        "in_f58_index": false,
+        "in_herbal": true,
+        "in_pharm": true,
+        "in_balneo": true,
+        "in_starred": false,
+        "gloss": "FROM/DOSE-PORTION-[STATE] (doly)"
+      },
+      {
+        "line": 12,
+        "surface": "saiin",
+        "cs": "saiin",
+        "folded_cs": "saiin",
+        "in_f66r_prose_only": false,
+        "in_f66v_prose_only": true,
+        "in_scribe5_herbals": true,
+        "in_f58_index": true,
+        "in_herbal": true,
+        "in_pharm": true,
+        "in_balneo": true,
+        "in_starred": true,
+        "gloss": "AND/NEXT-PORTION-[1-MEASURE] (saiin)"
+      },
+      {
+        "line": 13,
+        "surface": "qokal",
+        "cs": "okal",
+        "folded_cs": "okal",
+        "in_f66r_prose_only": true,
+        "in_f66v_prose_only": true,
+        "in_scribe5_herbals": true,
+        "in_f58_index": true,
+        "in_herbal": true,
+        "in_pharm": true,
+        "in_balneo": true,
+        "in_starred": true,
+        "gloss": "ACTIVE-BOIL/APPLY-SPECIMEN-[VESSEL] (okal)"
+      },
+      {
+        "line": 14,
+        "surface": "qolsa",
+        "cs": "olsa",
+        "folded_cs": "olsa",
+        "in_f66r_prose_only": false,
+        "in_f66v_prose_only": false,
+        "in_scribe5_herbals": false,
+        "in_f58_index": false,
+        "in_herbal": false,
+        "in_pharm": false,
+        "in_balneo": false,
+        "in_starred": false,
+        "gloss": "AQUEOUS-PROC-PORTION (olsa)"
+      },
+      {
+        "line": 15,
+        "surface": "raral",
+        "cs": "raral",
+        "folded_cs": "raral",
+        "in_f66r_prose_only": false,
+        "in_f66v_prose_only": false,
+        "in_scribe5_herbals": false,
+        "in_f58_index": false,
+        "in_herbal": false,
+        "in_pharm": false,
+        "in_balneo": false,
+        "in_starred": false,
+        "gloss": "PORTION-[VESSEL] (raral)"
+      }
+    ]
+  },
+  "f57v_to_f66r_sheetmate_key_ring_transfer": {
+    "sheetmate_geometry": "Quire H, Bifolio $B=1 inner spread: f57v ($P=B, left) faces f66r ($P=G, right) across the centerfold crease",
+    "n_marginal_keys_on_f66r": 34,
+    "n_prose_lines_on_f66r": 32,
+    "marginal_key_counts": {
+      "o": 5,
+      "y": 4,
+      "d": 4,
+      "f": 4,
+      "x": 3,
+      "s": 2,
+      "sh": 2,
+      "t": 2,
+      "@169;": 1,
+      "air": 1,
+      "c": 1,
+      "@172;": 1,
+      "@195;": 1,
+      "l": 1,
+      "r": 1,
+      "p": 1
+    },
+    "f66r_prose_line_initial_onset_counts": {
+      "d": 7,
+      "s": 4,
+      "y": 4,
+      "sh": 4,
+      "qo": 4,
+      "t": 4,
+      "p": 3,
+      "o": 1,
+      "l": 1
+    },
+    "f66r_L32_to_L49_sequence": [
+      "y",
+      "o",
+      "d",
+      "s",
+      "f",
+      "c",
+      "@172;",
+      "x",
+      "t",
+      "o",
+      "@195;",
+      "l",
+      "r",
+      "t",
+      "o",
+      "x",
+      "p",
+      "d"
+    ],
+    "f57v_ring_lines": [
+      {
+        "line": 1,
+        "loc": "@L0",
+        "raw": "dairal"
+      },
+      {
+        "line": 2,
+        "loc": "@Cc",
+        "raw": "v.sal,y.soeos.vs.ar.okees.o.d.soefchees.l,g.sos.okey.defo.f.o.rkedam.sh.ofol.sar.ddal.yty.s.y.daiir.otey.dshdy.dkal[s:r].oty,pchchy.a.r.opaiin.dal.karody.v,r,okeey.daram.qokar.okal.okal.d.o.l.shkeal.dy,das.o.k.sher.s,aiin"
+      },
+      {
+        "line": 3,
+        "loc": "+Cc",
+        "raw": "o.l.[d:j].r.v.x.k.m.f.@169;v.t.r.@170;.@171;.y.I.@172;.o.l.d.r.v.x.k.m.f.@169;v.t.r.@170;.@171;.y.c.@172;.o.l.d.r.v.x.k.m.p.@169;v.t.r.@170;.@171;.y.c.@172;.o.l.d.r.v.x.k.m.p.@169;v.t.r.@170;.@171;.y.c.@172;"
+      },
+      {
+        "line": 4,
+        "loc": "+Cc",
+        "raw": "daiin.otey.of[che:eee]y.shes.o.d.okeeod.l.o.lkeeol.dkedar.yf.aros.s.y.chedaiin.k.eeety.x.deeodal.vo.tchor.{ch'}.kedar.dal.@172;.daiin.aiin.otal.daro.v"
+      },
+      {
+        "line": 5,
+        "loc": "+Cc",
+        "raw": "o.[v:a].l.r.m.aiin.d.@170;.c.f.[s:r].y.l.k.x.l.r.@171;,ar.o.r.[a:?].t.l.[s:r].d.y.dar.teodar.otodal.sheky.oteeody.x.[s:r].l"
+      },
+      {
+        "line": 6,
+        "loc": "@L0",
+        "raw": "otodara[g:m]"
+      },
+      {
+        "line": 7,
+        "loc": "@L0",
+        "raw": "oparairdly"
+      },
+      {
+        "line": 8,
+        "loc": "@L0",
+        "raw": "olkeedal"
+      }
+    ],
+    "ordered_f66r_keys": [
+      "y",
+      "o",
+      "s",
+      "sh",
+      "y",
+      "d",
+      "o",
+      "f",
+      "@169;",
+      "x",
+      "air",
+      "d",
+      "sh",
+      "y",
+      "f",
+      "f",
+      "y",
+      "o",
+      "d",
+      "s",
+      "f",
+      "c",
+      "@172;",
+      "x",
+      "t",
+      "o",
+      "@195;",
+      "l",
+      "r",
+      "t",
+      "o",
+      "x",
+      "p",
+      "d"
+    ]
+  },
+  "f66r_lx_bottom_colophon": [
+    {
+      "line": 82,
+      "loc": "@Lx",
+      "w": "otcheo",
+      "cs": "otcheo",
+      "folded_cs": "otcheo"
+    },
+    {
+      "line": 82,
+      "loc": "@Lx",
+      "w": "daiin",
+      "cs": "daiin",
+      "folded_cs": "daiin"
+    },
+    {
+      "line": 82,
+      "loc": "@Lx",
+      "w": "chty",
+      "cs": "chty",
+      "folded_cs": "chty"
+    },
+    {
+      "line": 82,
+      "loc": "@Lx",
+      "w": "ykees",
+      "cs": "ykees",
+      "folded_cs": "ykees"
+    },
+    {
+      "line": 82,
+      "loc": "@Lx",
+      "w": "cheg",
+      "cs": "cheg",
+      "folded_cs": "chem"
+    }
+  ],
+  "paragraph_translations": [
+    {
+      "para_id": "f66r.P1",
+      "folio": "f66r",
+      "line_span": "L50-L56",
+      "n_tokens": 58,
+      "n_open_stems": 24,
+      "shared_with_scribe5_herbals": [
+        "chekeey",
+        "cthy",
+        "okcho",
+        "okeeoy",
+        "okeoy",
+        "shekey",
+        "sheodaiin",
+        "ykeeoy"
+      ],
+      "top_herbal_partners": [
+        {
+          "folio": "f57r",
+          "hand": "5",
+          "idf_score": 9.579,
+          "n_shared": 4,
+          "shared_stems": [
+            "okcho",
+            "okeeoy",
+            "okeoy",
+            "shekey"
+          ]
+        },
+        {
+          "folio": "f95r1",
+          "hand": "3",
+          "idf_score": 9.217,
+          "n_shared": 4,
+          "shared_stems": [
+            "chekchy",
+            "kol",
+            "okees",
+            "sheky"
+          ]
+        },
+        {
+          "folio": "f48r",
+          "hand": "5",
+          "idf_score": 8.055,
+          "n_shared": 3,
+          "shared_stems": [
+            "okeoy",
+            "sheodaiin",
+            "ykeeoy"
+          ]
+        }
+      ],
+      "top_pharm_partners": [
+        {
+          "folio": "f101v",
+          "hand": "1",
+          "idf_score": 9.028,
+          "n_shared": 5,
+          "shared_stems": [
+            "cheeo",
+            "cthy",
+            "kol",
+            "okeeoy",
+            "okeoy"
+          ]
+        },
+        {
+          "folio": "f102v1",
+          "hand": "1",
+          "idf_score": 8.295,
+          "n_shared": 4,
+          "shared_stems": [
+            "kol",
+            "okeoy",
+            "sheky",
+            "ykeeoy"
+          ]
+        },
+        {
+          "folio": "f89v1",
+          "hand": "1",
+          "idf_score": 7.154,
+          "n_shared": 3,
+          "shared_stems": [
+            "okeoy",
+            "sair",
+            "shekey"
+          ]
+        }
+      ],
+      "top_balneo_partners": [
+        {
+          "folio": "f84r",
+          "hand": "2",
+          "idf_score": 9.37,
+          "n_shared": 3,
+          "shared_stems": [
+            "kol",
+            "shekey",
+            "ykshey"
+          ]
+        },
+        {
+          "folio": "f78r",
+          "hand": "2",
+          "idf_score": 8.296,
+          "n_shared": 3,
+          "shared_stems": [
+            "cthy",
+            "dyky",
+            "shekey"
+          ]
+        },
+        {
+          "folio": "f84v",
+          "hand": "2",
+          "idf_score": 7.138,
+          "n_shared": 4,
+          "shared_stems": [
+            "cthy",
+            "kol",
+            "okees",
+            "sheky"
+          ]
+        }
+      ],
+      "top_starred_partners": [
+        {
+          "folio": "f108v",
+          "hand": "3",
+          "idf_score": 15.178,
+          "n_shared": 6,
+          "shared_stems": [
+            "cthy",
+            "dsheol",
+            "okeedar",
+            "okeoy",
+            "otedal",
+            "sair"
+          ]
+        },
+        {
+          "folio": "f107r",
+          "hand": "3",
+          "idf_score": 15.04,
+          "n_shared": 6,
+          "shared_stems": [
+            "chay",
+            "cheeo",
+            "kol",
+            "okeeoy",
+            "sair",
+            "sheky"
+          ]
+        },
+        {
+          "folio": "f106v",
+          "hand": "3",
+          "idf_score": 12.883,
+          "n_shared": 5,
+          "shared_stems": [
+            "okcho",
+            "okeeoy",
+            "okshd",
+            "sair",
+            "sheky"
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "line_num": 50,
+          "eva_text": "pdaiin . oteedy . opchedy . chap . chefchy . shddy . ypches . cholpchd . okedals",
+          "interlinear_translation": "pdaiin [HEADER-GALLOWS-SPECIMEN-[1-MEASURE] (tdaiin)] | oteedy [NOM-HERB-SPECIMEN-[PROCESSED] (oteey)] | opchedy [NOM-HERB-COMPOUND-ROOT-[PROCESSED] (otchey)] | chap [STEM/HERB (chat)] | chefchy [COMPOUND-ROOT-[STATE] (chekchy)] | shddy [AND/NEXT-PORTION-[STATE] (shdy)] | ypches [THEN-COMPOUND-ROOT (ytches)] | cholpchd [COMPOUND-ROOT (choltchd)] | okedals [NOM-HERB-SPECIMEN (okedals)]"
+        },
+        {
+          "line_num": 51,
+          "eva_text": "sair . shekey . qokeedar . okal . okedy . qokeedy . qokal . okedy . qokshd",
+          "interlinear_translation": "sair [AND/NEXT-PORTION-[CYCLE/PORTION] (sair)] | shekey [AND/NEXT-SPECIMEN-[STATE] (shekey)] | qokeedar [ACTIVE-BOIL/APPLY-SPECIMEN-[EXTRACT] (okeedar)] | okal [NOM-HERB-SPECIMEN-[VESSEL] (okal)] | okedy [NOM-HERB-SPECIMEN-[PROCESSED] (okey)] | qokeedy [ACTIVE-BOIL/APPLY-SPECIMEN-[PROCESSED] (okeey)] | qokal [ACTIVE-BOIL/APPLY-SPECIMEN-[VESSEL] (okal)] | okedy [NOM-HERB-SPECIMEN-[PROCESSED] (okey)] | qokshd [ACTIVE-BOIL/APPLY-SPRAY/INFUSION (okshd)]"
+        },
+        {
+          "line_num": 52,
+          "eva_text": "ykshedy . chady . cthdy . qokees . cheeo . okcho . dy . chekeey . chedy . chckhy",
+          "interlinear_translation": "ykshedy [THEN-SPRAY/INFUSION-[PROCESSED] (ykshey)] | chady [STEM/HERB-[STATE] (chay)] | cthdy [COMPOUND-ROOT-[STATE] (cthy)] | qokees [ACTIVE-BOIL/APPLY-SPECIMEN (okees)] | cheeo [STEM/HERB (cheeo)] | okcho [NOM-HERB-COMPOUND-ROOT (okcho)] | dy [PORTION-[STATE] (dy)] | chekeey [STEM/HERB-[STATE] (chekeey)] | chedy [STEM/HERB-[PROCESSED] (chey)] | chckhy [COMPOUND-ROOT-[STATE] (chckhy)]"
+        },
+        {
+          "line_num": 53,
+          "eva_text": "shdy . qotedy . chdy . chedy . qotedal . chcpheor . ykady . dar . qotey . kol . ar",
+          "interlinear_translation": "shdy [AND/NEXT-PORTION-[STATE] (shy)] | qotedy [ACTIVE-BOIL/APPLY-SPECIMEN-[PROCESSED] (otey)] | chdy [STEM/HERB-[STATE] (chy)] | chedy [STEM/HERB-[PROCESSED] (chey)] | qotedal [ACTIVE-BOIL/APPLY-SPECIMEN-[VESSEL] (otedal)] | chcpheor [COMPOUND-ROOT-[EXTRACT] (chcpheor)] | ykady [THEN-SPECIMEN-[STATE] (ykay)] | dar [PORTION-[EXTRACT] (dar)] | qotey [ACTIVE-BOIL/APPLY-SPECIMEN-[STATE] (otey)] | kol [SPECIMEN-[VESSEL] (kol)] | ar [PORTION-[EXTRACT] (ar)]"
+        },
+        {
+          "line_num": 54,
+          "eva_text": "qokeeody . qokeody . qokeody . qokar . sheky . qokeeody . okedy . kodary",
+          "interlinear_translation": "qokeeody [ACTIVE-BOIL/APPLY-SPECIMEN-[STATE] (okeeoy)] | qokeody [ACTIVE-BOIL/APPLY-SPECIMEN-[STATE] (okeoy)] | qokeody [ACTIVE-BOIL/APPLY-SPECIMEN-[STATE] (okeoy)] | qokar [ACTIVE-BOIL/APPLY-SPECIMEN-[EXTRACT] (okar)] | sheky [AND/NEXT-SPECIMEN-[STATE] (sheky)] | qokeeody [ACTIVE-BOIL/APPLY-SPECIMEN-[STATE] (okeeoy)] | okedy [NOM-HERB-SPECIMEN-[PROCESSED] (okey)] | kodary [SPECIMEN-[STATE] (kodary)]"
+        },
+        {
+          "line_num": 55,
+          "eva_text": "ykeeody . choekeey . okeody . chekeody . qokeey . dyky . chctho . rotaiin",
+          "interlinear_translation": "ykeeody [THEN-SPECIMEN-[STATE] (ykeeoy)] | choekeey [STEM/HERB-[STATE] (choekeey)] | okeody [NOM-HERB-SPECIMEN-[STATE] (okeoy)] | chekeody [STEM/HERB-[STATE] (chekeoy)] | qokeey [ACTIVE-BOIL/APPLY-SPECIMEN-[STATE] (okeey)] | dyky [FROM/DOSE-SPECIMEN-[STATE] (dyky)] | chctho [COMPOUND-ROOT (chctho)] | rotaiin [SPECIMEN-[1-MEASURE] (rotaiin)]"
+        },
+        {
+          "line_num": 56,
+          "eva_text": "dsheol . okaiin . sheodaiin",
+          "interlinear_translation": "dsheol [FROM/DOSE-SPRAY/INFUSION-[VESSEL] (dsheol)] | okaiin [NOM-HERB-SPECIMEN-[1-MEASURE] (okaiin)] | sheodaiin [AND/NEXT-PORTION-[1-MEASURE] (sheodaiin)]"
+        }
+      ]
+    },
+    {
+      "para_id": "f66r.P2",
+      "folio": "f66r",
+      "line_span": "L57-L62",
+      "n_tokens": 56,
+      "n_open_stems": 25,
+      "shared_with_scribe5_herbals": [
+        "chees",
+        "cheky",
+        "daiir",
+        "daly",
+        "dol",
+        "okeoy",
+        "sheod"
+      ],
+      "top_herbal_partners": [
+        {
+          "folio": "f42r",
+          "hand": "1",
+          "idf_score": 14.275,
+          "n_shared": 7,
+          "shared_stems": [
+            "chees",
+            "cheky",
+            "choty",
+            "dol",
+            "kary",
+            "sholy",
+            "shor"
+          ]
+        },
+        {
+          "folio": "f43v",
+          "hand": "2",
+          "idf_score": 10.741,
+          "n_shared": 6,
+          "shared_stems": [
+            "chees",
+            "cheky",
+            "chky",
+            "choty",
+            "okchey",
+            "okeoy"
+          ]
+        },
+        {
+          "folio": "f44r",
+          "hand": "1",
+          "idf_score": 10.264,
+          "n_shared": 4,
+          "shared_stems": [
+            "cheeky",
+            "okchey",
+            "okyd",
+            "ykol"
+          ]
+        }
+      ],
+      "top_pharm_partners": [
+        {
+          "folio": "f89r2",
+          "hand": "1",
+          "idf_score": 12.18,
+          "n_shared": 6,
+          "shared_stems": [
+            "cheky",
+            "dol",
+            "okeoy",
+            "sheodal",
+            "sholy",
+            "shor"
+          ]
+        },
+        {
+          "folio": "f102r1",
+          "hand": "1",
+          "idf_score": 9.964,
+          "n_shared": 5,
+          "shared_stems": [
+            "choty",
+            "dol",
+            "okeoy",
+            "okshy",
+            "sholy"
+          ]
+        },
+        {
+          "folio": "f99v",
+          "hand": "1",
+          "idf_score": 8.141,
+          "n_shared": 5,
+          "shared_stems": [
+            "choty",
+            "daiir",
+            "dol",
+            "okchey",
+            "okeoy"
+          ]
+        }
+      ],
+      "top_balneo_partners": [
+        {
+          "folio": "f78r",
+          "hand": "2",
+          "idf_score": 14.045,
+          "n_shared": 6,
+          "shared_stems": [
+            "cheeky",
+            "cheky",
+            "dalky",
+            "dol",
+            "kary",
+            "okchey"
+          ]
+        },
+        {
+          "folio": "f77v",
+          "hand": "2",
+          "idf_score": 12.86,
+          "n_shared": 7,
+          "shared_stems": [
+            "chees",
+            "cheky",
+            "daly",
+            "dol",
+            "okchey",
+            "shcthy",
+            "sholy"
+          ]
+        },
+        {
+          "folio": "f83r",
+          "hand": "2",
+          "idf_score": 12.804,
+          "n_shared": 6,
+          "shared_stems": [
+            "cheeky",
+            "cheky",
+            "chky",
+            "okchey",
+            "shcthy",
+            "shky"
+          ]
+        }
+      ],
+      "top_starred_partners": [
+        {
+          "folio": "f103r",
+          "hand": "3",
+          "idf_score": 17.496,
+          "n_shared": 7,
+          "shared_stems": [
+            "daly",
+            "lkar",
+            "okshy",
+            "opchy",
+            "shcthy",
+            "sheod",
+            "shky"
+          ]
+        },
+        {
+          "folio": "f106r",
+          "hand": "3",
+          "idf_score": 16.084,
+          "n_shared": 8,
+          "shared_stems": [
+            "cheeky",
+            "chees",
+            "daiir",
+            "dol",
+            "lkar",
+            "okchey",
+            "sheodal",
+            "shor"
+          ]
+        },
+        {
+          "folio": "f58v",
+          "hand": "3",
+          "idf_score": 15.364,
+          "n_shared": 8,
+          "shared_stems": [
+            "cheeky",
+            "cheky",
+            "daly",
+            "okaiir",
+            "okchey",
+            "okeoy",
+            "sholy",
+            "shor"
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "line_num": 57,
+          "eva_text": "tocpheey . dol . kchody . qokeody . qokshy . qopaiin . dairykodas . okyd",
+          "interlinear_translation": "tocpheey [HEADER-GALLOWS-COMPOUND-ROOT-[STATE] (toctheey)] | dol [PORTION-[VESSEL] (dol)] | kchody [HEADER-GALLOWS-COMPOUND-ROOT-[STATE] (kchoy)] | qokeody [ACTIVE-BOIL/APPLY-SPECIMEN-[STATE] (okeoy)] | qokshy [ACTIVE-BOIL/APPLY-SPRAY/INFUSION-[STATE] (okshy)] | qopaiin [ACTIVE-BOIL/APPLY-SPECIMEN-[1-MEASURE] (otaiin)] | dairykodas [FROM/DOSE-SPECIMEN (dairykodas)] | okyd [NOM-HERB-SPECIMEN (okyd)]"
+        },
+        {
+          "line_num": 58,
+          "eva_text": "dsholdaiir . dalky . shky . qoky . shekair . choty . dar . okeey . shdy . ykol",
+          "interlinear_translation": "dsholdaiir [FROM/DOSE-SPRAY/INFUSION-[CYCLE/PORTION] (dsholdaiir)] | dalky [FROM/DOSE-SPECIMEN-[STATE] (dalky)] | shky [AND/NEXT-SPECIMEN-[STATE] (shky)] | qoky [ACTIVE-BOIL/APPLY-SPECIMEN-[STATE] (oky)] | shekair [AND/NEXT-SPECIMEN-[CYCLE/PORTION] (shekair)] | choty [STEM/HERB-[STATE] (choty)] | dar [PORTION-[EXTRACT] (dar)] | okeey [NOM-HERB-SPECIMEN-[STATE] (okeey)] | shdy [AND/NEXT-PORTION-[STATE] (shy)] | ykol [THEN-SPECIMEN-[VESSEL] (ykol)]"
+        },
+        {
+          "line_num": 59,
+          "eva_text": "qo . cheky . shcthy . dalalshedy . cheta . r . sheod . shokaiir . chy . dard",
+          "interlinear_translation": "qo [ACTIVE-BOIL/APPLY-PORTION (qo)] | cheky [STEM/HERB-[STATE] (cheky)] | shcthy [AND/NEXT-COMPOUND-ROOT-[STATE] (shcthy)] | dalalshedy [FROM/DOSE-SPRAY/INFUSION-[PROCESSED] (dalalshey)] | cheta [STEM/HERB (cheta)] | r [PORTION (r)] | sheod [AND/NEXT-PORTION (sheod)] | shokaiir [AND/NEXT-SPECIMEN-[CYCLE/PORTION] (shokaiir)] | chy [STEM/HERB-[STATE] (chy)] | dard [FROM/DOSE-PORTION (dard)]"
+        },
+        {
+          "line_num": 60,
+          "eva_text": "shor . sheodal . sholdy . qokchedy . qopchy . qoty . chedaiir . chees . kardy",
+          "interlinear_translation": "shor [AND/NEXT-PORTION-[EXTRACT] (shor)] | sheodal [AND/NEXT-PORTION-[VESSEL] (sheodal)] | sholdy [AND/NEXT-PORTION-[STATE] (sholy)] | qokchedy [ACTIVE-BOIL/APPLY-COMPOUND-ROOT-[PROCESSED] (okchey)] | qopchy [ACTIVE-BOIL/APPLY-COMPOUND-ROOT-[STATE] (opchy)] | qoty [ACTIVE-BOIL/APPLY-SPECIMEN-[STATE] (oty)] | chedaiir [STEM/HERB-[CYCLE/PORTION] (chedaiir)] | chees [STEM/HERB (chees)] | kardy [SPECIMEN-[STATE] (kary)]"
+        },
+        {
+          "line_num": 61,
+          "eva_text": "qokchey . qokaiir . cheky . daly . daiin . dal . shedy . chedy . lkar . ol . okedy",
+          "interlinear_translation": "qokchey [ACTIVE-BOIL/APPLY-COMPOUND-ROOT-[STATE] (okchey)] | qokaiir [ACTIVE-BOIL/APPLY-SPECIMEN-[CYCLE/PORTION] (okaiir)] | cheky [STEM/HERB-[STATE] (cheky)] | daly [FROM/DOSE-PORTION-[STATE] (daly)] | daiin [FROM/DOSE-PORTION-[1-MEASURE] (daiin)] | dal [PORTION-[VESSEL] (dal)] | shedy [AND/NEXT-PORTION-[PROCESSED] (shey)] | chedy [STEM/HERB-[PROCESSED] (chey)] | lkar [LIQUID-APPLIC-SPECIMEN-[EXTRACT] (lkar)] | ol [PORTION-[VESSEL] (ol)] | okedy [NOM-HERB-SPECIMEN-[PROCESSED] (okey)]"
+        },
+        {
+          "line_num": 62,
+          "eva_text": "ol . cheeky . daiir . chky . axor . akar . y . daiin",
+          "interlinear_translation": "ol [PORTION-[VESSEL] (ol)] | cheeky [STEM/HERB-[STATE] (cheeky)] | daiir [FROM/DOSE-PORTION-[CYCLE/PORTION] (daiir)] | chky [STEM/HERB-[STATE] (chky)] | axor [PORTION-[EXTRACT] (axor)] | akar [SPECIMEN-[EXTRACT] (akar)] | y [PORTION-[STATE] (y)] | daiin [FROM/DOSE-PORTION-[1-MEASURE] (daiin)]"
+        }
+      ]
+    },
+    {
+      "para_id": "f66r.P3",
+      "folio": "f66r",
+      "line_span": "L63-L66",
+      "n_tokens": 37,
+      "n_open_stems": 19,
+      "shared_with_scribe5_herbals": [
+        "daly",
+        "dor",
+        "shed"
+      ],
+      "top_herbal_partners": [
+        {
+          "folio": "f49r",
+          "hand": "1",
+          "idf_score": 7.49,
+          "n_shared": 4,
+          "shared_stems": [
+            "dor",
+            "sheor",
+            "shes",
+            "shor"
+          ]
+        },
+        {
+          "folio": "f3r",
+          "hand": "1",
+          "idf_score": 7.112,
+          "n_shared": 4,
+          "shared_stems": [
+            "cheor",
+            "odair",
+            "sheol",
+            "shor"
+          ]
+        },
+        {
+          "folio": "f6v",
+          "hand": "1",
+          "idf_score": 6.214,
+          "n_shared": 4,
+          "shared_stems": [
+            "dor",
+            "lor",
+            "okor",
+            "shor"
+          ]
+        }
+      ],
+      "top_pharm_partners": [
+        {
+          "folio": "f89v1",
+          "hand": "1",
+          "idf_score": 9.522,
+          "n_shared": 5,
+          "shared_stems": [
+            "daly",
+            "dor",
+            "kcheoy",
+            "sheol",
+            "sheor"
+          ]
+        },
+        {
+          "folio": "f101r",
+          "hand": "1",
+          "idf_score": 8.559,
+          "n_shared": 6,
+          "shared_stems": [
+            "cheor",
+            "dor",
+            "okor",
+            "sheol",
+            "sheor",
+            "shor"
+          ]
+        },
+        {
+          "folio": "f89r2",
+          "hand": "1",
+          "idf_score": 8.168,
+          "n_shared": 5,
+          "shared_stems": [
+            "cheal",
+            "cheor",
+            "sheol",
+            "sheor",
+            "shor"
+          ]
+        }
+      ],
+      "top_balneo_partners": [
+        {
+          "folio": "f80v",
+          "hand": "2",
+          "idf_score": 11.996,
+          "n_shared": 6,
+          "shared_stems": [
+            "aly",
+            "daly",
+            "lor",
+            "otalor",
+            "sheol",
+            "sheor"
+          ]
+        },
+        {
+          "folio": "f78v",
+          "hand": "2",
+          "idf_score": 11.254,
+          "n_shared": 6,
+          "shared_stems": [
+            "cheor",
+            "dor",
+            "lor",
+            "otalor",
+            "sheol",
+            "sheor"
+          ]
+        },
+        {
+          "folio": "f80r",
+          "hand": "2",
+          "idf_score": 10.13,
+          "n_shared": 5,
+          "shared_stems": [
+            "daly",
+            "lor",
+            "otalor",
+            "sheol",
+            "sheor"
+          ]
+        }
+      ],
+      "top_starred_partners": [
+        {
+          "folio": "f115r",
+          "hand": "@",
+          "idf_score": 17.592,
+          "n_shared": 8,
+          "shared_stems": [
+            "cheor",
+            "dor",
+            "kcheoy",
+            "lor",
+            "odair",
+            "okaram",
+            "okor",
+            "sheol"
+          ]
+        },
+        {
+          "folio": "f113v",
+          "hand": "3",
+          "idf_score": 16.015,
+          "n_shared": 7,
+          "shared_stems": [
+            "aly",
+            "cheal",
+            "cheor",
+            "lor",
+            "okaram",
+            "okor",
+            "otalor"
+          ]
+        },
+        {
+          "folio": "f103v",
+          "hand": "3",
+          "idf_score": 13.853,
+          "n_shared": 6,
+          "shared_stems": [
+            "kcheoy",
+            "lor",
+            "shed",
+            "sheol",
+            "sheor",
+            "shes"
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "line_num": 63,
+          "eva_text": "pchof . sholfordaiin . qotar . otalor . fchedyr . chedy . dar . odair . ofaram",
+          "interlinear_translation": "pchof [HEADER-GALLOWS-COMPOUND-ROOT (tchok)] | sholfordaiin [AND/NEXT-SPECIMEN-[1-MEASURE] (sholkordaiin)] | qotar [ACTIVE-BOIL/APPLY-SPECIMEN-[EXTRACT] (otar)] | otalor [NOM-HERB-SPECIMEN-[EXTRACT] (otalor)] | fchedyr [HEADER-GALLOWS-COMPOUND-ROOT (kchedyr)] | chedy [STEM/HERB-[PROCESSED] (chey)] | dar [PORTION-[EXTRACT] (dar)] | odair [NOM-HERB-PORTION-[CYCLE/PORTION] (odair)] | ofaram [NOM-HERB-SPECIMEN-[END] (okaram)]"
+        },
+        {
+          "line_num": 64,
+          "eva_text": "dalcheeeky . sheol . dairody . chekchy . shed . ykesho . l . lor . sheor . cheal",
+          "interlinear_translation": "dalcheeeky [FROM/DOSE-STEM/HERB-[STATE] (dalcheeky)] | sheol [AND/NEXT-PORTION-[VESSEL] (sheol)] | dairody [FROM/DOSE-PORTION-[STATE] (dairoy)] | chekchy [COMPOUND-ROOT-[STATE] (chekchy)] | shed [AND/NEXT-PORTION (shed)] | ykesho [THEN-SPRAY/INFUSION (ykesho)] | l [PORTION (l)] | lor [PORTION-[EXTRACT] (lor)] | sheor [AND/NEXT-PORTION-[EXTRACT] (sheor)] | cheal [STEM/HERB-[VESSEL] (cheal)]"
+        },
+        {
+          "line_num": 65,
+          "eva_text": "dor . shedy . okar . shedy . kcheody . chxar . daly . fchdar . cheor . aly . ry",
+          "interlinear_translation": "dor [PORTION-[EXTRACT] (dor)] | shedy [AND/NEXT-PORTION-[PROCESSED] (shey)] | okar [NOM-HERB-SPECIMEN-[EXTRACT] (okar)] | shedy [AND/NEXT-PORTION-[PROCESSED] (shey)] | kcheody [COMPOUND-ROOT-[STATE] (kcheoy)] | chxar [STEM/HERB-[EXTRACT] (chxar)] | daly [FROM/DOSE-PORTION-[STATE] (daly)] | fchdar [COMPOUND-ROOT-[EXTRACT] (fchdar)] | cheor [STEM/HERB-[EXTRACT] (cheor)] | aly [PORTION-[STATE] (aly)] | ry [PORTION-[STATE] (ry)]"
+        },
+        {
+          "line_num": 66,
+          "eva_text": "shor . shckheody . dal . shedy . qokor . al . shes",
+          "interlinear_translation": "shor [AND/NEXT-PORTION-[EXTRACT] (shor)] | shckheody [AND/NEXT-COMPOUND-ROOT-[STATE] (shckheoy)] | dal [PORTION-[VESSEL] (dal)] | shedy [AND/NEXT-PORTION-[PROCESSED] (shey)] | qokor [ACTIVE-BOIL/APPLY-SPECIMEN-[EXTRACT] (okor)] | al [PORTION-[VESSEL] (al)] | shes [AND/NEXT-PORTION (shes)]"
+        }
+      ]
+    },
+    {
+      "para_id": "f66r.P4",
+      "folio": "f66r",
+      "line_span": "L67-L69",
+      "n_tokens": 30,
+      "n_open_stems": 16,
+      "shared_with_scribe5_herbals": [
+        "cheoy",
+        "dair",
+        "dol",
+        "dor",
+        "okaly",
+        "okeoy",
+        "oly"
+      ],
+      "top_herbal_partners": [
+        {
+          "folio": "f55v",
+          "hand": "2",
+          "idf_score": 8.481,
+          "n_shared": 5,
+          "shared_stems": [
+            "aly",
+            "cheoy",
+            "dary",
+            "okeoy",
+            "oly"
+          ]
+        },
+        {
+          "folio": "f31v",
+          "hand": "2",
+          "idf_score": 8.364,
+          "n_shared": 5,
+          "shared_stems": [
+            "cheoy",
+            "dair",
+            "okees",
+            "okeoy",
+            "sair"
+          ]
+        },
+        {
+          "folio": "f34r",
+          "hand": "2",
+          "idf_score": 7.933,
+          "n_shared": 4,
+          "shared_stems": [
+            "dary",
+            "okaly",
+            "oly",
+            "sair"
+          ]
+        }
+      ],
+      "top_pharm_partners": [
+        {
+          "folio": "f89v1",
+          "hand": "1",
+          "idf_score": 12.928,
+          "n_shared": 6,
+          "shared_stems": [
+            "cheoy",
+            "dor",
+            "okaly",
+            "okeoy",
+            "sair",
+            "tosheo"
+          ]
+        },
+        {
+          "folio": "f99v",
+          "hand": "1",
+          "idf_score": 7.99,
+          "n_shared": 4,
+          "shared_stems": [
+            "dol",
+            "okeoy",
+            "oly",
+            "shokol"
+          ]
+        },
+        {
+          "folio": "f88r",
+          "hand": "1",
+          "idf_score": 7.773,
+          "n_shared": 5,
+          "shared_stems": [
+            "cheoy",
+            "dary",
+            "dol",
+            "okeoy",
+            "oly"
+          ]
+        }
+      ],
+      "top_balneo_partners": [
+        {
+          "folio": "f84v",
+          "hand": "2",
+          "idf_score": 9.669,
+          "n_shared": 6,
+          "shared_stems": [
+            "aly",
+            "dair",
+            "dol",
+            "okaly",
+            "okees",
+            "oly"
+          ]
+        },
+        {
+          "folio": "f76v",
+          "hand": "2",
+          "idf_score": 8.244,
+          "n_shared": 5,
+          "shared_stems": [
+            "aly",
+            "dol",
+            "dor",
+            "oly",
+            "sair"
+          ]
+        },
+        {
+          "folio": "f78r",
+          "hand": "2",
+          "idf_score": 7.957,
+          "n_shared": 5,
+          "shared_stems": [
+            "aly",
+            "dol",
+            "dor",
+            "okaly",
+            "oly"
+          ]
+        }
+      ],
+      "top_starred_partners": [
+        {
+          "folio": "f58r",
+          "hand": "3",
+          "idf_score": 10.072,
+          "n_shared": 6,
+          "shared_stems": [
+            "aly",
+            "cheoy",
+            "ckhol",
+            "dair",
+            "okaly",
+            "oly"
+          ]
+        },
+        {
+          "folio": "f113r",
+          "hand": "3",
+          "idf_score": 9.515,
+          "n_shared": 6,
+          "shared_stems": [
+            "aly",
+            "cheoy",
+            "dair",
+            "dor",
+            "okees",
+            "okeoy"
+          ]
+        },
+        {
+          "folio": "f115v",
+          "hand": "3",
+          "idf_score": 9.498,
+          "n_shared": 5,
+          "shared_stems": [
+            "cheoy",
+            "dair",
+            "dairal",
+            "dary",
+            "dol"
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "line_num": 67,
+          "eva_text": "psheody . cfhol . shofol . okeody . qokaldy . ytarody . shedy . shedy . dair",
+          "interlinear_translation": "psheody [HEADER-GALLOWS-SPRAY/INFUSION-[STATE] (tsheoy)] | cfhol [COMPOUND-ROOT-[VESSEL] (ckhol)] | shofol [AND/NEXT-SPECIMEN-[VESSEL] (shokol)] | okeody [NOM-HERB-SPECIMEN-[STATE] (okeoy)] | qokaldy [ACTIVE-BOIL/APPLY-SPECIMEN-[STATE] (okaly)] | ytarody [THEN-SPECIMEN-[STATE] (ytaroy)] | shedy [AND/NEXT-PORTION-[PROCESSED] (shey)] | shedy [AND/NEXT-PORTION-[PROCESSED] (shey)] | dair [FROM/DOSE-PORTION-[CYCLE/PORTION] (dair)]"
+        },
+        {
+          "line_num": 68,
+          "eva_text": "sair . ol . daiin . daiin . dal . dol . cheody . dair . aly . dairal . dolarshy . dor",
+          "interlinear_translation": "sair [AND/NEXT-PORTION-[CYCLE/PORTION] (sair)] | ol [PORTION-[VESSEL] (ol)] | daiin [FROM/DOSE-PORTION-[1-MEASURE] (daiin)] | daiin [FROM/DOSE-PORTION-[1-MEASURE] (daiin)] | dal [PORTION-[VESSEL] (dal)] | dol [PORTION-[VESSEL] (dol)] | cheody [STEM/HERB-[STATE] (cheoy)] | dair [FROM/DOSE-PORTION-[CYCLE/PORTION] (dair)] | aly [PORTION-[STATE] (aly)] | dairal [FROM/DOSE-PORTION-[VESSEL] (dairal)] | dolarshy [FROM/DOSE-SPRAY/INFUSION-[STATE] (dolarshy)] | dor [PORTION-[EXTRACT] (dor)]"
+        },
+        {
+          "line_num": 69,
+          "eva_text": "tosheo . qokaldy . oky . ol . kcheeky . qoky . dary . okees . oly",
+          "interlinear_translation": "tosheo [SPRAY/INFUSION (tosheo)] | qokaldy [ACTIVE-BOIL/APPLY-SPECIMEN-[STATE] (okaly)] | oky [SPECIMEN-[STATE] (oky)] | ol [PORTION-[VESSEL] (ol)] | kcheeky [COMPOUND-ROOT-[STATE] (kcheeky)] | qoky [ACTIVE-BOIL/APPLY-SPECIMEN-[STATE] (oky)] | dary [FROM/DOSE-PORTION-[STATE] (dary)] | okees [NOM-HERB-SPECIMEN (okees)] | oly [PORTION-[STATE] (oly)]"
+        }
+      ]
+    },
+    {
+      "para_id": "f66r.P5",
+      "folio": "f66r",
+      "line_span": "L70-L81",
+      "n_tokens": 112,
+      "n_open_stems": 55,
+      "shared_with_scribe5_herbals": [
+        "chckhey",
+        "chekey",
+        "cheky",
+        "cheo",
+        "chety",
+        "choy",
+        "cthey",
+        "daly",
+        "dor",
+        "kal",
+        "keoy",
+        "key",
+        "koy",
+        "ldy",
+        "lkeey",
+        "octhey",
+        "okaly",
+        "okeoy",
+        "otam",
+        "oteeod",
+        "oteoly",
+        "oteoy",
+        "otol",
+        "sheoy",
+        "tchey",
+        "tolchey",
+        "ykeeoy"
+      ],
+      "top_herbal_partners": [
+        {
+          "folio": "f43v",
+          "hand": "2",
+          "idf_score": 22.343,
+          "n_shared": 13,
+          "shared_stems": [
+            "cheky",
+            "chety",
+            "choy",
+            "cthey",
+            "keoy",
+            "key",
+            "octhey",
+            "okaly"
+          ]
+        },
+        {
+          "folio": "f34r",
+          "hand": "2",
+          "idf_score": 22.251,
+          "n_shared": 11,
+          "shared_stems": [
+            "chcthey",
+            "chekey",
+            "cheky",
+            "choy",
+            "daly",
+            "octhey",
+            "okaly",
+            "otol"
+          ]
+        },
+        {
+          "folio": "f48v",
+          "hand": "5",
+          "idf_score": 21.413,
+          "n_shared": 12,
+          "shared_stems": [
+            "chckhey",
+            "cheky",
+            "chety",
+            "choy",
+            "cthey",
+            "daly",
+            "keoy",
+            "key"
+          ]
+        }
+      ],
+      "top_pharm_partners": [
+        {
+          "folio": "f101r",
+          "hand": "1",
+          "idf_score": 22.911,
+          "n_shared": 12,
+          "shared_stems": [
+            "cheo",
+            "chokeey",
+            "cthey",
+            "dor",
+            "oteeod",
+            "otol",
+            "sheeol",
+            "sheol"
+          ]
+        },
+        {
+          "folio": "f89v1",
+          "hand": "1",
+          "idf_score": 17.732,
+          "n_shared": 11,
+          "shared_stems": [
+            "cheoky",
+            "choy",
+            "cthey",
+            "daly",
+            "dor",
+            "okaly",
+            "okeoy",
+            "otam"
+          ]
+        },
+        {
+          "folio": "f89r1",
+          "hand": "1",
+          "idf_score": 16.927,
+          "n_shared": 9,
+          "shared_stems": [
+            "cheoky",
+            "chety",
+            "daly",
+            "octhey",
+            "okeoy",
+            "otol",
+            "sheol",
+            "sheoy"
+          ]
+        }
+      ],
+      "top_balneo_partners": [
+        {
+          "folio": "f82r",
+          "hand": "2",
+          "idf_score": 29.97,
+          "n_shared": 16,
+          "shared_stems": [
+            "chckhey",
+            "chcthey",
+            "cheoky",
+            "cthey",
+            "daly",
+            "key",
+            "ldy",
+            "lkeey"
+          ]
+        },
+        {
+          "folio": "f75r",
+          "hand": "2",
+          "idf_score": 29.334,
+          "n_shared": 15,
+          "shared_stems": [
+            "chcthey",
+            "cheky",
+            "daly",
+            "dor",
+            "kal",
+            "ldy",
+            "lshey",
+            "okaly"
+          ]
+        },
+        {
+          "folio": "f80r",
+          "hand": "2",
+          "idf_score": 27.615,
+          "n_shared": 14,
+          "shared_stems": [
+            "chckhey",
+            "cheky",
+            "chety",
+            "daly",
+            "dcheol",
+            "lshey",
+            "okaly",
+            "otol"
+          ]
+        }
+      ],
+      "top_starred_partners": [
+        {
+          "folio": "f103r",
+          "hand": "3",
+          "idf_score": 37.966,
+          "n_shared": 17,
+          "shared_stems": [
+            "chckhey",
+            "chety",
+            "daly",
+            "key",
+            "lkeey",
+            "lkeol",
+            "lshey",
+            "okaly"
+          ]
+        },
+        {
+          "folio": "f111r",
+          "hand": "3",
+          "idf_score": 36.346,
+          "n_shared": 19,
+          "shared_stems": [
+            "chckhey",
+            "chcthey",
+            "cheky",
+            "cheo",
+            "choy",
+            "cthey",
+            "kal",
+            "key"
+          ]
+        },
+        {
+          "folio": "f108r",
+          "hand": "3",
+          "idf_score": 35.72,
+          "n_shared": 17,
+          "shared_stems": [
+            "alkey",
+            "chckhey",
+            "cheo",
+            "chokeey",
+            "cthey",
+            "dcheol",
+            "key",
+            "lkeey"
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "line_num": 70,
+          "eva_text": "todeeey . keody . chdy . keody . shedy . shekeefy . chdy . sheol . shol . kedy . daly",
+          "interlinear_translation": "todeeey [HEADER-GALLOWS-SPECIMEN-[STATE] (todeey)] | keody [HEADER-GALLOWS-SPECIMEN-[STATE] (keoy)] | chdy [STEM/HERB-[STATE] (chy)] | keody [HEADER-GALLOWS-SPECIMEN-[STATE] (keoy)] | shedy [AND/NEXT-PORTION-[PROCESSED] (shey)] | shekeefy [AND/NEXT-SPECIMEN-[STATE] (shekeeky)] | chdy [STEM/HERB-[STATE] (chy)] | sheol [AND/NEXT-PORTION-[VESSEL] (sheol)] | shol [AND/NEXT-PORTION-[VESSEL] (shol)] | kedy [SPECIMEN-[PROCESSED] (key)] | daly [FROM/DOSE-PORTION-[STATE] (daly)]"
+        },
+        {
+          "line_num": 71,
+          "eva_text": "saiir . cheol . kal . sheody . chcthedy . dal . shol . qokeody . chody . kechody",
+          "interlinear_translation": "saiir [AND/NEXT-PORTION-[CYCLE/PORTION] (saiir)] | cheol [STEM/HERB-[VESSEL] (cheol)] | kal [SPECIMEN-[VESSEL] (kal)] | sheody [AND/NEXT-PORTION-[STATE] (sheoy)] | chcthedy [COMPOUND-ROOT-[PROCESSED] (chcthey)] | dal [PORTION-[VESSEL] (dal)] | shol [AND/NEXT-PORTION-[VESSEL] (shol)] | qokeody [ACTIVE-BOIL/APPLY-SPECIMEN-[STATE] (okeoy)] | chody [STEM/HERB-[STATE] (choy)] | kechody [STEM/HERB-[STATE] (kechoy)]"
+        },
+        {
+          "line_num": 72,
+          "eva_text": "sshedy . oteedy . ykeeody . sheocthy . ol . ld . lshedy . chokeey . chekey . chey",
+          "interlinear_translation": "sshedy [AND/NEXT-SPRAY/INFUSION-[PROCESSED] (sshey)] | oteedy [NOM-HERB-SPECIMEN-[PROCESSED] (oteey)] | ykeeody [THEN-SPECIMEN-[STATE] (ykeeoy)] | sheocthy [AND/NEXT-COMPOUND-ROOT-[STATE] (sheocthy)] | ol [PORTION-[VESSEL] (ol)] | ld [PORTION (ld)] | lshedy [LIQUID-APPLIC-SPRAY/INFUSION-[PROCESSED] (lshey)] | chokeey [STEM/HERB-[STATE] (chokeey)] | chekey [STEM/HERB-[STATE] (chekey)] | chey [STEM/HERB-[STATE] (chey)]"
+        },
+        {
+          "line_num": 73,
+          "eva_text": "ysheeod . qoteeod . qotol . qoky . chckhedy . shey . dcheol . cheky . cheo . dor",
+          "interlinear_translation": "ysheeod [THEN-SPRAY/INFUSION (ysheeod)] | qoteeod [ACTIVE-BOIL/APPLY-SPECIMEN (oteeod)] | qotol [ACTIVE-BOIL/APPLY-SPECIMEN-[VESSEL] (otol)] | qoky [ACTIVE-BOIL/APPLY-SPECIMEN-[STATE] (oky)] | chckhedy [COMPOUND-ROOT-[PROCESSED] (chckhey)] | shey [AND/NEXT-PORTION-[STATE] (shey)] | dcheol [FROM/DOSE-STEM/HERB-[VESSEL] (dcheol)] | cheky [STEM/HERB-[STATE] (cheky)] | cheo [STEM/HERB (cheo)] | dor [PORTION-[EXTRACT] (dor)]"
+        },
+        {
+          "line_num": 74,
+          "eva_text": "ydaiin . shedy . otchedy . oteochey . tolchedy . lsheody . qoky . daiin . otam",
+          "interlinear_translation": "ydaiin [THEN-PORTION-[1-MEASURE] (ydaiin)] | shedy [AND/NEXT-PORTION-[PROCESSED] (shey)] | otchedy [NOM-HERB-COMPOUND-ROOT-[PROCESSED] (otchey)] | oteochey [NOM-HERB-STEM/HERB-[STATE] (oteochey)] | tolchedy [STEM/HERB-[PROCESSED] (tolchey)] | lsheody [LIQUID-APPLIC-SPRAY/INFUSION-[STATE] (lsheoy)] | qoky [ACTIVE-BOIL/APPLY-SPECIMEN-[STATE] (oky)] | daiin [FROM/DOSE-PORTION-[1-MEASURE] (daiin)] | otam [NOM-HERB-SPECIMEN-[END] (otam)]"
+        },
+        {
+          "line_num": 75,
+          "eva_text": "tcheo . sheor . oteody . lpchees . ol . ar . alkey . otey . ltsholy . shecthy . r . ol",
+          "interlinear_translation": "tcheo [COMPOUND-ROOT (tcheo)] | sheor [AND/NEXT-PORTION-[EXTRACT] (sheor)] | oteody [NOM-HERB-SPECIMEN-[STATE] (oteoy)] | lpchees [LIQUID-APPLIC-COMPOUND-ROOT (lpchees)] | ol [PORTION-[VESSEL] (ol)] | ar [PORTION-[EXTRACT] (ar)] | alkey [SPECIMEN-[STATE] (alkey)] | otey [NOM-HERB-SPECIMEN-[STATE] (otey)] | ltsholy [LIQUID-APPLIC-SPRAY/INFUSION-[STATE] (ltsholy)] | shecthy [AND/NEXT-COMPOUND-ROOT-[STATE] (shecthy)] | r [PORTION (r)] | ol [PORTION-[VESSEL] (ol)]"
+        },
+        {
+          "line_num": 76,
+          "eva_text": "daiin . sheol . qocthedy . qokedy . lchey . qokaly . shcthy . qotal . otchdy",
+          "interlinear_translation": "daiin [FROM/DOSE-PORTION-[1-MEASURE] (daiin)] | sheol [AND/NEXT-PORTION-[VESSEL] (sheol)] | qocthedy [ACTIVE-BOIL/APPLY-COMPOUND-ROOT-[PROCESSED] (octhey)] | qokedy [ACTIVE-BOIL/APPLY-SPECIMEN-[PROCESSED] (okey)] | lchey [LIQUID-APPLIC-STEM/HERB-[STATE] (lchey)] | qokaly [ACTIVE-BOIL/APPLY-SPECIMEN-[STATE] (okaly)] | shcthy [AND/NEXT-COMPOUND-ROOT-[STATE] (shcthy)] | qotal [ACTIVE-BOIL/APPLY-SPECIMEN-[VESSEL] (otal)] | otchdy [NOM-HERB-COMPOUND-ROOT-[STATE] (otchy)]"
+        },
+        {
+          "line_num": 77,
+          "eva_text": "qokey . ar . olkeol . qokal . cheoky . ykchdy . chody . sheody . qoky . ldy",
+          "interlinear_translation": "qokey [ACTIVE-BOIL/APPLY-SPECIMEN-[STATE] (okey)] | ar [PORTION-[EXTRACT] (ar)] | olkeol [LIQUID-APPLIC-SPECIMEN-[VESSEL] (olkeol)] | qokal [ACTIVE-BOIL/APPLY-SPECIMEN-[VESSEL] (okal)] | cheoky [STEM/HERB-[STATE] (cheoky)] | ykchdy [THEN-COMPOUND-ROOT-[STATE] (ykchy)] | chody [STEM/HERB-[STATE] (choy)] | sheody [AND/NEXT-PORTION-[STATE] (sheoy)] | qoky [ACTIVE-BOIL/APPLY-SPECIMEN-[STATE] (oky)] | ldy [PORTION-[STATE] (ldy)]"
+        },
+        {
+          "line_num": 78,
+          "eva_text": "dor . aiin . sheeol . lshedy . lchedy . cheedy . shekol . dalol . lodaiin",
+          "interlinear_translation": "dor [PORTION-[EXTRACT] (dor)] | aiin [PORTION-[1-MEASURE] (aiin)] | sheeol [AND/NEXT-PORTION-[VESSEL] (sheeol)] | lshedy [LIQUID-APPLIC-SPRAY/INFUSION-[PROCESSED] (lshey)] | lchedy [LIQUID-APPLIC-STEM/HERB-[PROCESSED] (lchey)] | cheedy [STEM/HERB-[PROCESSED] (cheey)] | shekol [AND/NEXT-SPECIMEN-[VESSEL] (shekol)] | dalol [FROM/DOSE-PORTION-[VESSEL] (dalol)] | lodaiin [LIQUID-APPLIC-PORTION-[1-MEASURE] (lodaiin)]"
+        },
+        {
+          "line_num": 79,
+          "eva_text": "sheol . oteey . ldaiin . okalchedy . pchedy . kody . qotchedy . cphedy",
+          "interlinear_translation": "sheol [AND/NEXT-PORTION-[VESSEL] (sheol)] | oteey [NOM-HERB-SPECIMEN-[STATE] (oteey)] | ldaiin [LIQUID-APPLIC-PORTION-[1-MEASURE] (ldaiin)] | okalchedy [NOM-HERB-STEM/HERB-[PROCESSED] (okalchey)] | pchedy [COMPOUND-ROOT-[PROCESSED] (pchey)] | kody [SPECIMEN-[STATE] (koy)] | qotchedy [ACTIVE-BOIL/APPLY-COMPOUND-ROOT-[PROCESSED] (otchey)] | cphedy [COMPOUND-ROOT-[PROCESSED] (cphey)]"
+        },
+        {
+          "line_num": 80,
+          "eva_text": "daiin . shey . qoteoly . raiin . sheedy . shcthy . lkeol . qokol . dkar",
+          "interlinear_translation": "daiin [FROM/DOSE-PORTION-[1-MEASURE] (daiin)] | shey [AND/NEXT-PORTION-[STATE] (shey)] | qoteoly [ACTIVE-BOIL/APPLY-SPECIMEN-[STATE] (oteoly)] | raiin [PORTION-[1-MEASURE] (raiin)] | sheedy [AND/NEXT-PORTION-[PROCESSED] (sheey)] | shcthy [AND/NEXT-COMPOUND-ROOT-[STATE] (shcthy)] | lkeol [LIQUID-APPLIC-SPECIMEN-[VESSEL] (lkeol)] | qokol [ACTIVE-BOIL/APPLY-SPECIMEN-[VESSEL] (okol)] | dkar [FROM/DOSE-SPECIMEN-[EXTRACT] (dkar)]"
+        },
+        {
+          "line_num": 81,
+          "eva_text": "lchey . lkeedy . chety . shekaly . shckhar",
+          "interlinear_translation": "lchey [LIQUID-APPLIC-STEM/HERB-[STATE] (lchey)] | lkeedy [LIQUID-APPLIC-SPECIMEN-[PROCESSED] (lkeey)] | chety [STEM/HERB-[STATE] (chety)] | shekaly [AND/NEXT-SPECIMEN-[STATE] (shekaly)] | shckhar [AND/NEXT-COMPOUND-ROOT-[EXTRACT] (shckhar)]"
+        }
+      ]
+    },
+    {
+      "para_id": "f66v.P1",
+      "folio": "f66v",
+      "line_span": "L1-L5",
+      "n_tokens": 44,
+      "n_open_stems": 19,
+      "shared_with_scribe5_herbals": [
+        "chekal",
+        "cheky",
+        "cheos",
+        "chety",
+        "chokal",
+        "choy",
+        "daly",
+        "dol",
+        "dor",
+        "dshey",
+        "okechy",
+        "okeedal",
+        "okshey",
+        "otch",
+        "sheeky",
+        "sheod",
+        "tchey",
+        "teodal",
+        "ytoy"
+      ],
+      "top_herbal_partners": [
+        {
+          "folio": "f43r",
+          "hand": "2",
+          "idf_score": 11.061,
+          "n_shared": 6,
+          "shared_stems": [
+            "cheky",
+            "chety",
+            "daly",
+            "dor",
+            "dshey",
+            "sheeky"
+          ]
+        },
+        {
+          "folio": "f46r",
+          "hand": "2",
+          "idf_score": 10.918,
+          "n_shared": 6,
+          "shared_stems": [
+            "chekal",
+            "cheos",
+            "chety",
+            "choy",
+            "daly",
+            "tchey"
+          ]
+        },
+        {
+          "folio": "f48v",
+          "hand": "5",
+          "idf_score": 8.133,
+          "n_shared": 5,
+          "shared_stems": [
+            "cheky",
+            "chety",
+            "choy",
+            "daly",
+            "dshey"
+          ]
+        }
+      ],
+      "top_pharm_partners": [
+        {
+          "folio": "f89r1",
+          "hand": "1",
+          "idf_score": 8.021,
+          "n_shared": 4,
+          "shared_stems": [
+            "cheos",
+            "chety",
+            "daly",
+            "okechy"
+          ]
+        },
+        {
+          "folio": "f89v1",
+          "hand": "1",
+          "idf_score": 7.224,
+          "n_shared": 4,
+          "shared_stems": [
+            "chekal",
+            "choy",
+            "daly",
+            "dor"
+          ]
+        },
+        {
+          "folio": "f88v",
+          "hand": "1",
+          "idf_score": 7.005,
+          "n_shared": 3,
+          "shared_stems": [
+            "cheos",
+            "choy",
+            "teodal"
+          ]
+        }
+      ],
+      "top_balneo_partners": [
+        {
+          "folio": "f81v",
+          "hand": "2",
+          "idf_score": 18.459,
+          "n_shared": 9,
+          "shared_stems": [
+            "chekal",
+            "cheky",
+            "daly",
+            "dol",
+            "dshey",
+            "okeedal",
+            "okshey",
+            "sheeky"
+          ]
+        },
+        {
+          "folio": "f75r",
+          "hand": "2",
+          "idf_score": 14.978,
+          "n_shared": 8,
+          "shared_stems": [
+            "cheky",
+            "daly",
+            "dor",
+            "dshey",
+            "okechy",
+            "okshey",
+            "sheeky",
+            "tchey"
+          ]
+        },
+        {
+          "folio": "f79v",
+          "hand": "2",
+          "idf_score": 12.222,
+          "n_shared": 7,
+          "shared_stems": [
+            "daly",
+            "dol",
+            "dor",
+            "dshey",
+            "okshey",
+            "sheeky",
+            "tchey"
+          ]
+        }
+      ],
+      "top_starred_partners": [
+        {
+          "folio": "f115r",
+          "hand": "@",
+          "idf_score": 16.543,
+          "n_shared": 9,
+          "shared_stems": [
+            "cheky",
+            "cheos",
+            "chety",
+            "choy",
+            "dor",
+            "dshey",
+            "okechy",
+            "sheod"
+          ]
+        },
+        {
+          "folio": "f111r",
+          "hand": "3",
+          "idf_score": 15.471,
+          "n_shared": 8,
+          "shared_stems": [
+            "cheky",
+            "cheos",
+            "choy",
+            "dshey",
+            "okechy",
+            "sheeky",
+            "sheod",
+            "tchey"
+          ]
+        },
+        {
+          "folio": "f115v",
+          "hand": "3",
+          "idf_score": 13.573,
+          "n_shared": 8,
+          "shared_stems": [
+            "cheky",
+            "cheos",
+            "chety",
+            "choy",
+            "dol",
+            "okechy",
+            "okshey",
+            "tchey"
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "line_num": 1,
+          "eva_text": "okeodof . sheod . ychoopy . opch . dal . dor . sheefy . ytody . daldeam",
+          "interlinear_translation": "okeodof [NOM-HERB-SPECIMEN (okeodok)] | sheod [AND/NEXT-PORTION (sheod)] | ychoopy [THEN-STEM/HERB-[STATE] (ychooty)] | opch [NOM-HERB-COMPOUND-ROOT (otch)] | dal [PORTION-[VESSEL] (dal)] | dor [PORTION-[EXTRACT] (dor)] | sheefy [AND/NEXT-SPECIMEN-[STATE] (sheeky)] | ytody [THEN-SPECIMEN-[STATE] (ytoy)] | daldeam [FROM/DOSE-PORTION-[END] (daldeam)]"
+        },
+        {
+          "line_num": 2,
+          "eva_text": "teodal . tchedy . dshey . okshedy . okeedy . dcheeky . daldy . qotal . sy",
+          "interlinear_translation": "teodal [SPECIMEN-[VESSEL] (teodal)] | tchedy [COMPOUND-ROOT-[PROCESSED] (tchey)] | dshey [FROM/DOSE-SPRAY/INFUSION-[STATE] (dshey)] | okshedy [NOM-HERB-SPRAY/INFUSION-[PROCESSED] (okshey)] | okeedy [NOM-HERB-SPECIMEN-[PROCESSED] (okeey)] | dcheeky [FROM/DOSE-STEM/HERB-[STATE] (dcheeky)] | daldy [FROM/DOSE-PORTION-[STATE] (daly)] | qotal [ACTIVE-BOIL/APPLY-SPECIMEN-[VESSEL] (otal)] | sy [PORTION-[STATE] (sy)]"
+        },
+        {
+          "line_num": 3,
+          "eva_text": "ytos . s . or . sheeky . okechdy . okeedal . dar . otal . chody . cheky",
+          "interlinear_translation": "ytos [THEN-SPECIMEN (ytos)] | s [PORTION (s)] | or [PORTION-[EXTRACT] (or)] | sheeky [AND/NEXT-SPECIMEN-[STATE] (sheeky)] | okechdy [NOM-HERB-STEM/HERB-[STATE] (okechy)] | okeedal [NOM-HERB-SPECIMEN-[VESSEL] (okeedal)] | dar [PORTION-[EXTRACT] (dar)] | otal [NOM-HERB-SPECIMEN-[VESSEL] (otal)] | chody [STEM/HERB-[STATE] (choy)] | cheky [STEM/HERB-[STATE] (cheky)]"
+        },
+        {
+          "line_num": 4,
+          "eva_text": "shokeshy . daiin . cheos . chety . dol . chckhy . dal . ko . dal . chekal . dal",
+          "interlinear_translation": "shokeshy [AND/NEXT-SPRAY/INFUSION-[STATE] (shokeshy)] | daiin [FROM/DOSE-PORTION-[1-MEASURE] (daiin)] | cheos [STEM/HERB (cheos)] | chety [STEM/HERB-[STATE] (chety)] | dol [PORTION-[VESSEL] (dol)] | chckhy [COMPOUND-ROOT-[STATE] (chckhy)] | dal [PORTION-[VESSEL] (dal)] | ko [SPECIMEN (ko)] | dal [PORTION-[VESSEL] (dal)] | chekal [STEM/HERB-[VESSEL] (chekal)] | dal [PORTION-[VESSEL] (dal)]"
+        },
+        {
+          "line_num": 5,
+          "eva_text": "shdy . shedefam . qokedy . chokal . dal",
+          "interlinear_translation": "shdy [AND/NEXT-PORTION-[STATE] (shy)] | shedefam [AND/NEXT-SPECIMEN-[END] (shedefam)] | qokedy [ACTIVE-BOIL/APPLY-SPECIMEN-[PROCESSED] (okey)] | chokal [STEM/HERB-[VESSEL] (chokal)] | dal [PORTION-[VESSEL] (dal)]"
+        }
+      ]
+    },
+    {
+      "para_id": "f66v.P2",
+      "folio": "f66v",
+      "line_span": "L6-L8",
+      "n_tokens": 25,
+      "n_open_stems": 15,
+      "shared_with_scribe5_herbals": [
+        "chckhd",
+        "cheky",
+        "cheoy",
+        "chetar",
+        "chety",
+        "chos",
+        "choy",
+        "keey",
+        "keoy",
+        "koy",
+        "okeos",
+        "sheo",
+        "sheoy",
+        "tchod",
+        "ytchy"
+      ],
+      "top_herbal_partners": [
+        {
+          "folio": "f43v",
+          "hand": "2",
+          "idf_score": 13.624,
+          "n_shared": 8,
+          "shared_stems": [
+            "cheky",
+            "cheoy",
+            "chety",
+            "choy",
+            "keoy",
+            "sheo",
+            "sheoy",
+            "ytchy"
+          ]
+        },
+        {
+          "folio": "f90v2",
+          "hand": "1",
+          "idf_score": 10.116,
+          "n_shared": 6,
+          "shared_stems": [
+            "cheoy",
+            "chos",
+            "choy",
+            "keoy",
+            "sheo",
+            "sheoy"
+          ]
+        },
+        {
+          "folio": "f42r",
+          "hand": "1",
+          "idf_score": 9.861,
+          "n_shared": 5,
+          "shared_stems": [
+            "cheky",
+            "chetar",
+            "chety",
+            "chos",
+            "choy"
+          ]
+        }
+      ],
+      "top_pharm_partners": [
+        {
+          "folio": "f102r2",
+          "hand": "1",
+          "idf_score": 9.032,
+          "n_shared": 6,
+          "shared_stems": [
+            "cheoy",
+            "choy",
+            "keey",
+            "sheo",
+            "sheoy",
+            "ytchy"
+          ]
+        },
+        {
+          "folio": "f89v2",
+          "hand": "1",
+          "idf_score": 7.437,
+          "n_shared": 4,
+          "shared_stems": [
+            "chos",
+            "choy",
+            "okeos",
+            "sheoy"
+          ]
+        },
+        {
+          "folio": "f89r2",
+          "hand": "1",
+          "idf_score": 7.129,
+          "n_shared": 5,
+          "shared_stems": [
+            "cheky",
+            "cheoy",
+            "chos",
+            "choy",
+            "keey"
+          ]
+        }
+      ],
+      "top_balneo_partners": [
+        {
+          "folio": "f78r",
+          "hand": "2",
+          "idf_score": 6.501,
+          "n_shared": 3,
+          "shared_stems": [
+            "chckhd",
+            "cheky",
+            "keey"
+          ]
+        },
+        {
+          "folio": "f80r",
+          "hand": "2",
+          "idf_score": 4.709,
+          "n_shared": 3,
+          "shared_stems": [
+            "cheky",
+            "chety",
+            "keey"
+          ]
+        },
+        {
+          "folio": "f83r",
+          "hand": "2",
+          "idf_score": 3.508,
+          "n_shared": 2,
+          "shared_stems": [
+            "cheky",
+            "chety"
+          ]
+        }
+      ],
+      "top_starred_partners": [
+        {
+          "folio": "f115r",
+          "hand": "@",
+          "idf_score": 14.104,
+          "n_shared": 8,
+          "shared_stems": [
+            "cheky",
+            "cheoy",
+            "chety",
+            "chos",
+            "choy",
+            "keey",
+            "koy",
+            "sheo"
+          ]
+        },
+        {
+          "folio": "f113r",
+          "hand": "3",
+          "idf_score": 13.339,
+          "n_shared": 7,
+          "shared_stems": [
+            "cheoy",
+            "chetar",
+            "chos",
+            "choy",
+            "keoy",
+            "sheo",
+            "sheoy"
+          ]
+        },
+        {
+          "folio": "f114r",
+          "hand": "3",
+          "idf_score": 12.843,
+          "n_shared": 7,
+          "shared_stems": [
+            "chckhd",
+            "cheoy",
+            "chos",
+            "choy",
+            "keey",
+            "sheo",
+            "sheoy"
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "line_num": 6,
+          "eva_text": "tchod . sheody . shckhed . chos . chor . sheo . keody . chepar . sheopam",
+          "interlinear_translation": "tchod [HEADER-GALLOWS-COMPOUND-ROOT (tchod)] | sheody [AND/NEXT-PORTION-[STATE] (sheoy)] | shckhed [AND/NEXT-COMPOUND-ROOT (shckhed)] | chos [STEM/HERB (chos)] | chor [STEM/HERB-[EXTRACT] (chor)] | sheo [AND/NEXT-PORTION (sheo)] | keody [HEADER-GALLOWS-SPECIMEN-[STATE] (keoy)] | chepar [STEM/HERB-[EXTRACT] (chetar)] | sheopam [AND/NEXT-SPECIMEN-[END] (sheotam)]"
+        },
+        {
+          "line_num": 7,
+          "eva_text": "qokeos . sheody . chekeos . chody . kotody . qotchdy . chckhd . ytchdy",
+          "interlinear_translation": "qokeos [ACTIVE-BOIL/APPLY-SPECIMEN (okeos)] | sheody [AND/NEXT-PORTION-[STATE] (sheoy)] | chekeos [STEM/HERB (chekeos)] | chody [STEM/HERB-[STATE] (choy)] | kotody [SPECIMEN-[STATE] (kotoy)] | qotchdy [ACTIVE-BOIL/APPLY-COMPOUND-ROOT-[STATE] (otchy)] | chckhd [COMPOUND-ROOT (chckhd)] | ytchdy [THEN-COMPOUND-ROOT-[STATE] (ytchy)]"
+        },
+        {
+          "line_num": 8,
+          "eva_text": "dchekeedy . cheody . qokchdy . qokol . keedy . cheky . chety . kody",
+          "interlinear_translation": "dchekeedy [FROM/DOSE-STEM/HERB-[PROCESSED] (dchekeey)] | cheody [STEM/HERB-[STATE] (cheoy)] | qokchdy [ACTIVE-BOIL/APPLY-COMPOUND-ROOT-[STATE] (okchy)] | qokol [ACTIVE-BOIL/APPLY-SPECIMEN-[VESSEL] (okol)] | keedy [SPECIMEN-[PROCESSED] (keey)] | cheky [STEM/HERB-[STATE] (cheky)] | chety [STEM/HERB-[STATE] (chety)] | kody [SPECIMEN-[STATE] (koy)]"
+        }
+      ]
+    },
+    {
+      "para_id": "f66v.P3",
+      "folio": "f66v",
+      "line_span": "L9-L13",
+      "n_tokens": 45,
+      "n_open_stems": 16,
+      "shared_with_scribe5_herbals": [
+        "chekal",
+        "cheky",
+        "dokal",
+        "dol",
+        "ekar",
+        "kal",
+        "kaldaiin",
+        "kar",
+        "kchy",
+        "keey",
+        "okam",
+        "okchal",
+        "saiin",
+        "shedar",
+        "sheoy",
+        "toy"
+      ],
+      "top_herbal_partners": [
+        {
+          "folio": "f46r",
+          "hand": "2",
+          "idf_score": 10.987,
+          "n_shared": 6,
+          "shared_stems": [
+            "chekal",
+            "kal",
+            "kar",
+            "kchy",
+            "keey",
+            "okam"
+          ]
+        },
+        {
+          "folio": "f34v",
+          "hand": "2",
+          "idf_score": 10.947,
+          "n_shared": 6,
+          "shared_stems": [
+            "chekal",
+            "cheky",
+            "kal",
+            "kchy",
+            "keey",
+            "okam"
+          ]
+        },
+        {
+          "folio": "f34r",
+          "hand": "2",
+          "idf_score": 10.507,
+          "n_shared": 5,
+          "shared_stems": [
+            "cheky",
+            "kaldaiin",
+            "kar",
+            "kchy",
+            "sheoy"
+          ]
+        }
+      ],
+      "top_pharm_partners": [
+        {
+          "folio": "f102v2",
+          "hand": "1",
+          "idf_score": 6.148,
+          "n_shared": 4,
+          "shared_stems": [
+            "dol",
+            "keey",
+            "saiin",
+            "toy"
+          ]
+        },
+        {
+          "folio": "f101r",
+          "hand": "1",
+          "idf_score": 5.547,
+          "n_shared": 4,
+          "shared_stems": [
+            "dol",
+            "kar",
+            "keey",
+            "sheoy"
+          ]
+        },
+        {
+          "folio": "f102r2",
+          "hand": "1",
+          "idf_score": 5.095,
+          "n_shared": 4,
+          "shared_stems": [
+            "dol",
+            "keey",
+            "saiin",
+            "sheoy"
+          ]
+        }
+      ],
+      "top_balneo_partners": [
+        {
+          "folio": "f81v",
+          "hand": "2",
+          "idf_score": 9.389,
+          "n_shared": 6,
+          "shared_stems": [
+            "chekal",
+            "cheky",
+            "dol",
+            "kar",
+            "keey",
+            "saiin"
+          ]
+        },
+        {
+          "folio": "f75r",
+          "hand": "2",
+          "idf_score": 9.108,
+          "n_shared": 6,
+          "shared_stems": [
+            "cheky",
+            "kal",
+            "kar",
+            "keey",
+            "okam",
+            "saiin"
+          ]
+        },
+        {
+          "folio": "f80r",
+          "hand": "2",
+          "idf_score": 8.023,
+          "n_shared": 6,
+          "shared_stems": [
+            "cheky",
+            "dol",
+            "kar",
+            "keey",
+            "okam",
+            "saiin"
+          ]
+        }
+      ],
+      "top_starred_partners": [
+        {
+          "folio": "f113r",
+          "hand": "3",
+          "idf_score": 14.668,
+          "n_shared": 7,
+          "shared_stems": [
+            "chekal",
+            "kal",
+            "kar",
+            "kchy",
+            "okam",
+            "shedar",
+            "sheoy"
+          ]
+        },
+        {
+          "folio": "f114r",
+          "hand": "3",
+          "idf_score": 13.66,
+          "n_shared": 8,
+          "shared_stems": [
+            "dol",
+            "kal",
+            "kar",
+            "keey",
+            "okam",
+            "saiin",
+            "shedar",
+            "sheoy"
+          ]
+        },
+        {
+          "folio": "f112v",
+          "hand": "3",
+          "idf_score": 13.508,
+          "n_shared": 8,
+          "shared_stems": [
+            "cheky",
+            "kar",
+            "kchy",
+            "keey",
+            "okam",
+            "okchal",
+            "saiin",
+            "sheoy"
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "line_num": 9,
+          "eva_text": "pody . sheody . chpadar . sheey . fchdly . cheoseesey . kchy . qofchal",
+          "interlinear_translation": "pody [SPECIMEN-[STATE] (toy)] | sheody [AND/NEXT-PORTION-[STATE] (sheoy)] | chpadar [STEM/HERB-[EXTRACT] (chtadar)] | sheey [AND/NEXT-PORTION-[STATE] (sheey)] | fchdly [HEADER-GALLOWS-COMPOUND-ROOT-[STATE] (kchdly)] | cheoseesey [STEM/HERB-[STATE] (cheoseesey)] | kchy [COMPOUND-ROOT-[STATE] (kchy)] | qofchal [ACTIVE-BOIL/APPLY-COMPOUND-ROOT-[VESSEL] (okchal)]"
+        },
+        {
+          "line_num": 10,
+          "eva_text": "dshal . keedy . qok . or . okaiin . dol . kaldaiin . otal . dokal . okag",
+          "interlinear_translation": "dshal [FROM/DOSE-SPRAY/INFUSION-[VESSEL] (dshal)] | keedy [SPECIMEN-[PROCESSED] (keey)] | qok [ACTIVE-BOIL/APPLY-SPECIMEN (ok)] | or [PORTION-[EXTRACT] (or)] | okaiin [NOM-HERB-SPECIMEN-[1-MEASURE] (okaiin)] | dol [PORTION-[VESSEL] (dol)] | kaldaiin [SPECIMEN-[1-MEASURE] (kaldaiin)] | otal [NOM-HERB-SPECIMEN-[VESSEL] (otal)] | dokal [FROM/DOSE-SPECIMEN-[VESSEL] (dokal)] | okag [NOM-HERB-SPECIMEN-[END] (okag)]"
+        },
+        {
+          "line_num": 11,
+          "eva_text": "yteeod . aiin . shekeod . saiin . ykofar . otaiin . otar . chedy . kar",
+          "interlinear_translation": "yteeod [THEN-SPECIMEN (yteeod)] | aiin [PORTION-[1-MEASURE] (aiin)] | shekeod [AND/NEXT-SPECIMEN (shekeod)] | saiin [AND/NEXT-PORTION-[1-MEASURE] (saiin)] | ykofar [THEN-SPECIMEN-[EXTRACT] (ykofar)] | otaiin [NOM-HERB-SPECIMEN-[1-MEASURE] (otaiin)] | otar [NOM-HERB-SPECIMEN-[EXTRACT] (otar)] | chedy [STEM/HERB-[PROCESSED] (chey)] | kar [SPECIMEN-[EXTRACT] (kar)]"
+        },
+        {
+          "line_num": 12,
+          "eva_text": "qekar . okedy . cheky . dal . chekal . chckhy . kal . kal . dar . chkchody",
+          "interlinear_translation": "qekar [SPECIMEN-[EXTRACT] (ekar)] | okedy [NOM-HERB-SPECIMEN-[PROCESSED] (okey)] | cheky [STEM/HERB-[STATE] (cheky)] | dal [PORTION-[VESSEL] (dal)] | chekal [STEM/HERB-[VESSEL] (chekal)] | chckhy [COMPOUND-ROOT-[STATE] (chckhy)] | kal [SPECIMEN-[VESSEL] (kal)] | kal [SPECIMEN-[VESSEL] (kal)] | dar [PORTION-[EXTRACT] (dar)] | chkchody [COMPOUND-ROOT-[STATE] (chkchoy)]"
+        },
+        {
+          "line_num": 13,
+          "eva_text": "ydees . shey . daiin . dalkal . ykedaiin . shedar . okchdy . oty",
+          "interlinear_translation": "ydees [THEN-PORTION (ydees)] | shey [AND/NEXT-PORTION-[STATE] (shey)] | daiin [FROM/DOSE-PORTION-[1-MEASURE] (daiin)] | dalkal [FROM/DOSE-SPECIMEN-[VESSEL] (dalkal)] | ykedaiin [THEN-SPECIMEN-[1-MEASURE] (ykedaiin)] | shedar [AND/NEXT-PORTION-[EXTRACT] (shedar)] | okchdy [NOM-HERB-COMPOUND-ROOT-[STATE] (okchy)] | oty [SPECIMEN-[STATE] (oty)]"
+        }
+      ]
+    }
+  ]
+}

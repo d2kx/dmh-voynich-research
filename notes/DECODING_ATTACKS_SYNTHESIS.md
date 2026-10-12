@@ -998,3 +998,31 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Script, Data & Edition**: [`tools/attack116_five_section_paradigm_and_pharm_register_atlas.py`](../tools/attack116_five_section_paradigm_and_pharm_register_atlas.py) $\to$ [`data/attack116_five_section_paradigm_and_pharm_register_atlas.json`](../data/attack116_five_section_paradigm_and_pharm_register_atlas.json) & [`notes/FIVE_SECTION_PARADIGM_AND_PHARM_REGISTER_ATLAS.md`](FIVE_SECTION_PARADIGM_AND_PHARM_REGISTER_ATLAS.md)
 - **Key Breakthroughs**:
   1. **Synthesizes the Five-Section Dual-Branch Therapeutic Matrix & `69`-Stem Paradigm Table (`Attack 113`), the Currier A $\to$ Currier B Apothecary Compiler (`Attack 114`), and the `16`-Folio (`44`-Register) Pharmaceutical Compounding Atlas (`Attack 115`)**.
+
+---
+
+## 117. Attack 117 (`Phase 128`): Complete `44`-Register Pharmaceutical Formulary Translator & `93.33%` `@Lf` Botanical Specimen Traceability
+- **Script & Data**: [`tools/attack117_pharmaceutical_44register_translator.py`](../tools/attack117_pharmaceutical_44register_translator.py) $\to$ [`data/attack117_pharmaceutical_44register_translator.json`](../data/attack117_pharmaceutical_44register_translator.json)
+- **Key Breakthroughs**:
+  1. **Resolves `196 / 210` (`93.33%`) of `@Lf` Botanical Root/Leaf Labels (`179 / 210 = 85.24%` Traced Directly to Herbal `$I=H` Folios) and Proves `+33.9%` Active-Verb Scaling (`1.12` Verb:Dose Ratio) in Multi-Specimen Registers (`n_lf >= 4`)**.
+
+---
+
+## 118. Attack 118 (`Phase 129`): Complete `19`-Folio Balneological (`Quire M`, `f75r–f84v`) Hydraulic Translator & `Ln` (Nymph) vs. `Lt` (Tube/Pipe/Tank) Label Contrast Solver
+- **Script, Data & Scans**: [`tools/attack118_balneological_19folio_hydraulic_and_nymph_translator.py`](../tools/attack118_balneological_19folio_hydraulic_and_nymph_translator.py) $\to$ [`data/attack118_balneological_19folio_hydraulic_and_nymph_translator.json`](../data/attack118_balneological_19folio_hydraulic_and_nymph_translator.json), [`pages/f75v_nymph_ln_and_tube_lt_labels_enh.png`](../pages/f75v_nymph_ln_and_tube_lt_labels_enh.png), [`pages/f82v_nymph_and_pipe_network_enh.png`](../pages/f82v_nymph_and_pipe_network_enh.png)
+- **Key Breakthroughs**:
+  1. **Separates `Ln` Bather/Nymph Labels (`43.08% -y/-dy` Bathed State, `10.77% sh` Plumed Spray = `6.02×` over `Lt`) from `Lt` Tube/Pipe/Tank Labels (`50.00% o-`, `39.29% -ol/-or/-al/-ar` Spout/Vessel, `8.93% -aiin` Volume = `2.90×` over `Ln`) and Proves the 4-Level Vertical Hydraulic Gradient (`Top Inflow 26.77% qo- -> @Pb Basin Blocks 6.78%`)**.
+
+---
+
+## 119. Attack 119 (`Phase 130`): The Scribe 5 (`$H=5`) `100.0%` (`7 / 7`) Outer-Wrapper Bifolio (`$B=1`) Law, `f57v ↔ f66r` Centerfold Key-Ring Transfer & `f66r/v` Solver ($z = +2.58$)
+- **Script, Data & Scans**: [`tools/attack119_f66r_f66v_margin_indexed_sheetmate_solver.py`](../tools/attack119_f66r_f66v_margin_indexed_sheetmate_solver.py) $\to$ [`data/attack119_f66r_f66v_margin_indexed_sheetmate_solver.json`](../data/attack119_f66r_f66v_margin_indexed_sheetmate_solver.json), [`pages/f66r_margin_indexed_treatise_enh.png`](../pages/f66r_margin_indexed_treatise_enh.png), [`pages/f66v_sheetmate_herbal_enh.png`](../pages/f66v_sheetmate_herbal_enh.png)
+- **Key Breakthroughs**:
+  1. **Proves That `7 / 7` (`100.0%`) of Scribe 5's Folios Sit on Outer-Wrapper Bifolios (`$B=1`), That `f57v` (4-Ring Key Wheel) and `f66r` (34-Key Margin-Indexed Treatise) Face Each Other Across the Centerfold Crease of `Quire H $B=1`, That `f66r` Shares `39` Open Stems (`1.56×`, $z = +2.58$) with Scribe 5's `6` Herbals, and That `f66r` Carries a Two-Column Parallel Left-Margin Index (`15` Index Words + `34` Single-Glyph Keys)**.
+
+---
+
+## 120. Attack 120 (`Phase 131`): The 44-Register Pharmaceutical Formulary Translator, 19-Folio Balneological (`Ln` vs. `Lt`) Hydraulic Atlas & Scribe 5 (`f66r/v ↔ f57r/v`) Outer-Wrapper Compendium ([`notes/PHARM_44REGISTER_AND_BALNEO_TRANSLATION_COMPENDIUM.md`](PHARM_44REGISTER_AND_BALNEO_TRANSLATION_COMPENDIUM.md))
+- **Script, Data & Edition**: [`tools/attack120_pharm_44register_and_balneo_translation_compendium.py`](../tools/attack120_pharm_44register_and_balneo_translation_compendium.py) $\to$ [`data/attack120_pharm_44register_and_balneo_translation_compendium.json`](../data/attack120_pharm_44register_and_balneo_translation_compendium.json) & [`notes/PHARM_44REGISTER_AND_BALNEO_TRANSLATION_COMPENDIUM.md`](PHARM_44REGISTER_AND_BALNEO_TRANSLATION_COMPENDIUM.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes the 44-Register Pharmaceutical Formulary Translator (`Attack 117`), the 19-Folio Balneological Hydraulic Translator (`Attack 118`), and the Scribe 5 Outer-Wrapper & `f57v ↔ f66r` Sheet-Mate Solver (`Attack 119`)**.
