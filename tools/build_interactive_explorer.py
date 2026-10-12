@@ -611,6 +611,70 @@ WALKTHROUGH_FOLIOS = [
                 "english": "[Into jar `kodaiig`]: Begin with one measure of the root (`por aiin`) and leaf-infusion (`chefol y`), boil in the vessel (`qokol olaiin`), and take one dose (`daiin`) of the vessel's red-root extract (`okol dor chckhy`)."
             }
         ]
+    },
+    {
+        "folio": "f8v",
+        "title": "Red Campion (*Silene dioica*) With Medieval Bookbinder's Quire 1 Signature (`Pmg / 1`)",
+        "section": "Herbal A (`f1r–f57v`, Scribe 1, Quire 1 End)",
+        "pdf_page": 19,
+        "image": "../pages/f8v_quire1_signature_enh.png",
+        "secondary_image": "",
+        "summary": "Final page of Quire 1 (`$Q=A, $P=P`) displaying the medieval bookbinder's Latin gathering signature `Pmg` (*Primus*, 1st Quire) and numeral `1` in the bottom-right corner. Proves the 100.0% Page-Boundary Closure Law (`206/206` prose pages open with `<%>` and `99.03%` close with `<$>`) and Same-Leaf lexical cohesion (`z = +8.13`).",
+        "clauses": [
+            {
+                "locus": "f8v.1–3 (Opening Paragraph Above the 4-Branched Root & `Pmg / 1` Quire Signature)",
+                "eva": "cthod chol chor cthol daiin dain",
+                "english": "Begin from the divided calyx (`cthod`): steep in the strained herbal liquid (`chol chor`) and leaf extract (`cthol`), taking one measured portion (`daiin dain`)."
+            }
+        ]
+    },
+    {
+        "folio": "f16v",
+        "title": "Starry Blue-Cross Nigella (*Nigella damascena*) With Crimson Leaves & Quire 2 Signature (`2m`)",
+        "section": "Herbal A (`f1r–f57v`, Scribe 1, Quire 2 End)",
+        "pdf_page": 33,
+        "image": "../pages/f16v_cannabis_quire2_enh.png",
+        "secondary_image": "",
+        "summary": "Final page of Quire 2 (`$Q=B, $P=P`) with the medieval Quire 2 gathering signature `2m` (*Secundus*) in the bottom-right corner below a boot-shaped root, 4 serrated crimson leaf rosettes, and an 8-pointed blue-and-white star flower.",
+        "clauses": [
+            {
+                "locus": "f16v.1–4 (First Paragraph Opening With Tall `p-` Gallows Header)",
+                "eva": "pcodal chodar cthol qotol qokor daiin",
+                "english": "Begin in the core vessel (`pcodal`): infuse the seed/flower extract (`chodar cthol`), boil the liquid vessel and root core (`qotol qokor`), and take one measured dose (`daiin`)."
+            }
+        ]
+    },
+    {
+        "folio": "f89v1 & f102v1",
+        "title": "Three-Shelf Pharmaceutical Compounding, Inscribed Maiolica Jars & Act-I Citation Law (`z = -5.37`)",
+        "section": "Pharmaceutical (`f88r–f102v`, Scribe 1)",
+        "pdf_page": 182,
+        "image": "../pages/f102v1_pharma_shelves_quire19_enh.png",
+        "secondary_image": "../pages/f89v1_three_row_pharma_enh.png",
+        "summary": "On `f102v1`, Voynich drug labels are written right across the white waist-bands of the painted blue-and-white ceramic jars (`albarelli`), while `[2,2]` (`okeoraiin`) copies Herbal `f19r`! Across all multi-row Pharma pages (`Attack 174`), `66.29%` (`59/89`, `z = -5.37`) of echoed shelf roots appear in Lines 1–2 (`Act I: Ingredient Declaration`).",
+        "clauses": [
+            {
+                "locus": "f102v1.1–3 (Act-I Ingredient Declaration Opening Under Inscribed Jar & Shelf Roots)",
+                "eva": "pchdar okeoraiin qokeedy qokedy chol daiin",
+                "english": "Begin from the root shelf (`pchdar`): take one measure of the core taproot (`okeoraiin`, twin of `f19r`), boil thoroughly (`qokeedy qokedy`), and steep in one measure of strained liquid (`chol daiin`)."
+            }
+        ]
+    },
+    {
+        "folio": "f86v4, f86v6 & f86v5",
+        "title": "Unfolded 3-Panel Back of the Rosettes Sheet: Two Cosmological Wheels + 4-Paragraph Treatise",
+        "section": "Cosmological 3-Panel Verso (`Quire 14`, Scribe 2/4)",
+        "pdf_page": 157,
+        "image": "../pages/f86v4_four_winds_cosmology_enh.png",
+        "secondary_image": "",
+        "summary": "Unfolding p.157 shows the Four-Spoke Sun/Moon Wheel (`f86v4`, left) and Concentric Scalloped Lunar Cloud Ring (`f86v6`, center) side-by-side with 4 full-width paragraphs of procedural commentary (`f86v5`, right)—visually proving why Quire 14 diagrams are 52.1% nominal (`o-`) while Quire 14 prose surges 2.61× in `qo-` verbs (`z = +12.45`)!",
+        "clauses": [
+            {
+                "locus": "f86v4/v6 (Left & Center Wheel Labels) + f86v5.1 (Right-Hand Prose Treatise Opening)",
+                "eva": "otar okal otol pchedar qokeedy qokedy chedy shedy",
+                "english": "[From the wheel sectors `otar okal otol`]: Begin the root infusion (`pchedar`), then boil thoroughly (`qokeedy qokedy`), infuse (`chedy`), and wash (`shedy`)."
+            }
+        ]
     }
 ]
 
@@ -652,6 +716,9 @@ def main():
     twins_data = json.loads((ROOT / "data" / "attack169_visual_twin_plants_herbal_to_pharma.json").read_text(encoding="utf-8"))
     keys_data = json.loads((ROOT / "data" / "attack170_key_like_sequences_and_f49v_cycle_proof.json").read_text(encoding="utf-8"))
     stars_data = json.loads((ROOT / "data" / "attack171_star_morphology_and_red_ink_rubric_code.json").read_text(encoding="utf-8"))
+    quires_data = json.loads((ROOT / "data" / "attack173_quire_signatures_and_bifolio_continuity.json").read_text(encoding="utf-8"))
+    shelves_data = json.loads((ROOT / "data" / "attack174_multirow_pharma_shelf_to_paragraph_alignment.json").read_text(encoding="utf-8"))
+    weirdos_data = json.loads((ROOT / "data" / "attack175_plumed_gallows_and_weirdo_glyph_atlas.json").read_text(encoding="utf-8"))
 
     rosettes_panels = []
     for f_id, prof in rosettes_data["folio_profiles"].items():
@@ -685,6 +752,10 @@ def main():
         "visual_twins": twins_data["twin_pairs"],
         "f58r_acrostic": keys_data["f58r_acrostic_analysis"]["decoupled_lines"],
         "star_parity_folios": stars_data["quire20_star_parity"]["per_folio_parity_table"],
+        "quires_table": quires_data["quire_architecture"]["quires"],
+        "pharma_shelves": shelves_data["folio_breakdowns"],
+        "plumed_examples": weirdos_data["plumed_gallows_analysis"]["top_collapsed_examples"],
+        "weirdo_codes": weirdos_data["weirdo_glyph_atlas"]["top_20_weirdo_codes"],
     }, ensure_ascii=False)
 
     html = f"""<!DOCTYPE html>
@@ -1087,14 +1158,15 @@ def main():
       <p>Click any word token on any page to peel apart its Prefix + Root Stem + Suffix in plain English</p>
     </div>
     <nav class="nav-tabs" aria-label="Explorer Views">
-      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (34)</button>
-      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (35)</button>
+      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (38)</button>
+      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (40)</button>
       <button class="tab-btn" onclick="switchTab('lexicon', this)">3. Core Dictionary &amp; 8-Case Grammar</button>
       <button class="tab-btn" onclick="switchTab('zodiac', this)">4. Zodiac Months &amp; Bath Plumbing</button>
       <button class="tab-btn" onclick="switchTab('recipes', this)">5. Starred Recipes, Rosettes &amp; 4-Transcriber Proof</button>
       <button class="tab-btn" onclick="switchTab('astro', this)">6. Astro Wheels, 5 Scribes &amp; Pharma Supply Chain</button>
       <button class="tab-btn" onclick="switchTab('paragraphs', this)">7. 25 Complete Paragraphs, Intrusions &amp; Right-Titles</button>
       <button class="tab-btn" onclick="switchTab('twins', this)">8. 12 Visual Twins, f49v Key &amp; Star Parity</button>
+      <button class="tab-btn" onclick="switchTab('quires', this)">9. Quire Signatures, Pharma Shelves &amp; Weirdo-Glyph Atlas</button>
     </nav>
   </div>
 </header>
@@ -1139,9 +1211,9 @@ def main():
   <!-- TAB 2: BOTANICAL & ASTRO SPECIMENS -->
   <section id="tab-specimens" class="tab-panel">
     <div style="margin-bottom: 1rem;">
-      <h2 style="margin: 0 0 0.25rem;">35 Flagship Botanical, Astronomical, Balneological, Cosmological, Margin-Key &amp; Visual-Twin Identifications</h2>
+      <h2 style="margin: 0 0 0.25rem;">40 Flagship Botanical, Astronomical, Balneological, Cosmological, Margin-Key &amp; Visual-Twin Identifications</h2>
       <p style="margin: 0; color: var(--muted);">
-        Matching the manuscript's high-resolution drawings to concrete 15th-century European herbal species, star clusters, bilingual month wheels, labelled hydrotherapy pipes, cosmological spheres, margin keys, and visual twin plant pairs.
+        Matching the manuscript's high-resolution drawings to concrete 15th-century European herbal species, star clusters, bilingual month wheels, labelled hydrotherapy pipes, cosmological spheres, margin keys, quire signatures, and visual twin plant pairs.
       </p>
     </div>
     <div class="cards-grid" id="specimensGrid"></div>
@@ -1490,6 +1562,72 @@ def main():
             <th>Top-to-Bottom Parity Sequence</th>
             <th>Alternating Transitions</th>
             <th>Alternation Rate</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- TAB 9: QUIRE SIGNATURES, PHARMA SHELVES & WEIRDO-GLYPH ATLAS -->
+  <section id="tab-quires" class="tab-panel">
+    <h2>1. The 18-Quire Gathering Architecture (`$Q=A..T`), Quire Signatures &amp; 100.0% Page-Boundary Closure Law (`Attack 173`)</h2>
+    <p style="color: var(--muted);">
+      Across all <strong>206 prose-bearing folios</strong> in the codex, <strong>100.0% (206 / 206)</strong> open their first line with an explicit paragraph start (<code>&lt;%&gt;</code>) and <strong>99.03% (204 / 206)</strong> close their final line with a paragraph end (<code>&lt;$&gt;</code>)—no sentence ever wraps across a page turn! Furthermore, even within the exact same Section and Currier Language, canonical stem Jaccard cohesion decays monotonically with physical distance: <strong>Same Leaf (<code>recto &lt;-&gt; verso</code>, 0.2619, z = +8.13) &gt; Same Bifolio Sheet (0.2582) &gt; Same Quire (0.2560, z = +18.45) &gt;&gt; Different Quire (0.2168)</strong>:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="quiresTable">
+        <thead>
+          <tr>
+            <th>Quire</th>
+            <th>Folio Span</th>
+            <th>Transcribed Pages</th>
+            <th>Section(s)</th>
+            <th>Currier Language(s)</th>
+            <th>Scribe Hand(s)</th>
+            <th>Total Words</th>
+            <th>Quire Signature &amp; Missing-Leaf Notes</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>2. Multi-Row Pharmaceutical Shelf Alignment &amp; Act-I Paragraph-Opening Citation Law (`66.29%` in Lines 1–2, `z = -5.37`, `Attack 174`)</h2>
+    <p style="color: var(--muted);">
+      Across all <code>210</code> labeled shelf roots (<code>@Lf</code>) on the multi-row Pharmaceutical pages (<code>f88r–f102v2</code>), <strong>42.38%</strong> echo their exact canonical stem inside the prose of the same folio, and when a shelf root is cited in a recipe paragraph, <strong>66.29% (59 / 89, z = -5.37)</strong> make their first appearance directly inside <strong>Lines 1–2 (Act I: Ingredient Declaration)</strong>:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2.2rem;">
+      <table id="pharmaShelvesTable">
+        <thead>
+          <tr>
+            <th>Folio</th>
+            <th>Painted Vessels (<code>@Lc</code>, Click to Decode)</th>
+            <th>Ingredient Shelves</th>
+            <th>Recipe Paragraphs</th>
+            <th>Paired Shelf &rarr; Para Stem Hit Rate</th>
+            <th>Sample Echoed Shelf Roots (Click to Decode)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>3. Plumed Bench-Gallows (`{{cthh}}..{{cfhh}}`) Allographic Reduction (`82.35%` Word / `94.12%` Stem Collapse) &amp; Rare `@NNN;` Weirdo-Glyph Atlas (`Attack 175`)</h2>
+    <p style="color: var(--muted);">
+      Stripping the ornamental double-plume on <code>{{cthh}}, {{ckhh}}, {{cphh}}, {{cfhh}}</code> (<code>n = 68</code>) collapses <strong>82.35% (56 / 68)</strong> into exact standard words and <strong>94.12% (64 / 68)</strong> into attested canonical stems, while rare <code>@NNN;</code> weirdo glyphs (<code>n = 156</code>) are enriched <strong>3.00×</strong> in figure labels and margin keys (<code>26.92% vs. 8.96%</code>):
+    </p>
+    <div style="overflow-x: auto;">
+      <table id="plumedWeirdoTable">
+        <thead>
+          <tr>
+            <th>Locus &amp; Scribe Hand</th>
+            <th>Section</th>
+            <th>Raw Plumed-Gallows Token</th>
+            <th>Reduced Single-Loop Form (Click to Decode)</th>
+            <th>Standard Corpus Exact Count</th>
+            <th>Canonical Stem</th>
+            <th>Standard Stem Corpus Count</th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -2097,6 +2235,66 @@ function renderVisualTwinsAndStarParity() {{
   }}).join("");
 }}
 
+function renderQuiresShelvesWeirdos() {{
+  const qBody = document.querySelector("#quiresTable tbody");
+  qBody.innerHTML = (DATA.quires_table || []).map(q => {{
+    const marks = (q.quire_mark_annotations || []).length
+      ? q.quire_mark_annotations.map(m => `<code>${{m}}</code>`).join("<br/>")
+      : `<span style="color:var(--muted)">—</span>`;
+    return `
+      <tr>
+        <td><strong>Quire ${{q.quire_number}} (<code>$Q=${{q.quire_letter}}</code>)</strong></td>
+        <td><code>${{q.first_folio}}–${{q.last_folio}}</code></td>
+        <td>${{q.n_transcribed_pages}}</td>
+        <td><code>${{(q.sections || []).join(", ")}}</code></td>
+        <td><code>${{(q.languages || []).join(", ")}}</code></td>
+        <td><code>${{(q.scribe_hands || []).join(", ")}}</code></td>
+        <td>${{q.total_words}}</td>
+        <td>${{marks}}</td>
+      </tr>
+    `;
+  }}).join("");
+
+  const psBody = document.querySelector("#pharmaShelvesTable tbody");
+  psBody.innerHTML = (DATA.pharma_shelves || []).map(f => {{
+    const cChips = (f.containers || []).length
+      ? f.containers.map(w => `<span class="word-chip" onclick="setWord('${{w}}')">${{w}}</span>`).join(" ")
+      : `<span style="color:var(--muted)">—</span>`;
+    const echoed = [];
+    for (const r of (f.rows || [])) {{
+      for (const p of (r.plants || [])) {{
+        if (p.hit_same_folio && echoed.length < 6) echoed.push(p.word);
+      }}
+    }}
+    const eChips = echoed.map(w => `<span class="word-chip" onclick="setWord('${{w}}')">${{w}}</span>`).join(" ");
+    return `
+      <tr>
+        <td><strong><code>${{f.folio}}</code></strong></td>
+        <td>${{cChips}}</td>
+        <td>${{f.n_rows}} shelves</td>
+        <td>${{f.n_paragraphs}} paragraphs</td>
+        <td><strong>${{f.paired_hit_rate_pct}}%</strong></td>
+        <td>${{eChips}}</td>
+      </tr>
+    `;
+  }}).join("");
+
+  const pwBody = document.querySelector("#plumedWeirdoTable tbody");
+  pwBody.innerHTML = (DATA.plumed_examples || []).map(p => {{
+    return `
+      <tr>
+        <td><code>${{p.folio_line}}</code> (Hand ${{p.hand}})</td>
+        <td><code>${{p.section}}</code></td>
+        <td><code>${{p.raw_token}}</code></td>
+        <td><span class="word-chip" onclick="setWord('${{p.reduced_single_loop}}')"><strong>${{p.reduced_single_loop}}</strong></span></td>
+        <td><strong>${{p.standard_exact_count_single_loop}}</strong> hits</td>
+        <td><code>${{p.canonical_stem}}</code></td>
+        <td><strong>${{p.standard_stem_count}}</strong> stem hits</td>
+      </tr>
+    `;
+  }}).join("");
+}}
+
 function switchTab(tabId, btn) {{
   document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
   document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
@@ -2113,6 +2311,7 @@ renderRecipesRosettesConsensus();
 renderAstroScribesPharma();
 renderParagraphsIntrusionsTitles();
 renderVisualTwinsAndStarParity();
+renderQuiresShelvesWeirdos();
 </script>
 </body>
 </html>

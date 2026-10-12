@@ -1391,4 +1391,30 @@ This report synthesizes the empirical, visual, paleographic, and statistical fin
 - **Key Breakthroughs**:
   1. **Synthesizes `Attacks 169–171` (`Discoveries 186–188`) and Upgrades All Human-Readable Assets to v6.0 ([`notes/PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md`](PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md) 22 Folios, [`notes/VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md`](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md) `SPEC-01..35`, [`explorer/index.html`](../explorer/index.html) 8-Tab / 34-Walkthrough Interactive Explorer, and [`README.md`](../README.md))**.
 
+---
 
+## 173. Attack 173 (`Phase 184`): The 18-Quire Gathering Architecture (`$Q=A..T`, `Quire Marks 1..20`), the `100.0%` Page-Boundary Paragraph Closure Law, and Monotonic Physical Leaf/Bifolio/Quire Lexical Cohesion
+- **Script, Data & Scans**: [`tools/attack173_quire_signatures_and_bifolio_continuity.py`](../tools/attack173_quire_signatures_and_bifolio_continuity.py) $\to$ [`data/attack173_quire_signatures_and_bifolio_continuity.json`](../data/attack173_quire_signatures_and_bifolio_continuity.json), [`pages/f8v_quire1_signature_enh.png`](../pages/f8v_quire1_signature_enh.png), [`pages/f16v_cannabis_quire2_enh.png`](../pages/f16v_cannabis_quire2_enh.png)
+- **Key Breakthroughs**:
+  1. **Proves Across All `206` Prose-Bearing Folios That `100.0%` (`206 / 206`) Open Their First Line With an Explicit Paragraph Start (`<%>`) and `99.03%` (`204 / 206`) Close Their Final Line With a Paragraph End (`<$>`)—Including `100%` of Surviving Pages Immediately Before and After All `6` Missing-Folio Gaps (`f11v -> f13r`, `f58v -> f65r`, `f73v -> f75r`, `f90v2 -> f93r`, `f96v -> f99r`, `f108v -> f111r`); and Proves Within Identical Section (`$I`) and Currier Language (`$L`) Buckets That Canonical Stem Jaccard Similarity Decays Monotonically With Physical Distance: `Same Physical Leaf` (`0.2619`, $z = +8.13$) > `Same Bifolio Sheet` (`0.2582`) > `Same Quire Gathering` (`0.2560`, $z = +18.45$) >> `Different Quire` (`0.2168`)**.
+
+---
+
+## 174. Attack 174 (`Phase 185`): Multi-Row Pharmaceutical Shelf Alignment & the Act-I Paragraph-Opening Ingredient Citation Law (`66.29%` in Lines `1–2`, $z = -5.37$)
+- **Script, Data & Scans**: [`tools/attack174_multirow_pharma_shelf_to_paragraph_alignment.py`](../tools/attack174_multirow_pharma_shelf_to_paragraph_alignment.py) $\to$ [`data/attack174_multirow_pharma_shelf_to_paragraph_alignment.json`](../data/attack174_multirow_pharma_shelf_to_paragraph_alignment.json), [`pages/f88r_three_rows_jars_enh.png`](../pages/f88r_three_rows_jars_enh.png), [`pages/f89v1_three_row_pharma_enh.png`](../pages/f89v1_three_row_pharma_enh.png), [`pages/f102v1_pharma_shelves_quire19_enh.png`](../pages/f102v1_pharma_shelves_quire19_enh.png)
+- **Key Breakthroughs**:
+  1. **Proves Across All `210` Labeled Shelf Roots (`@Lf`) on Multi-Row Pharmaceutical Folios (`f88r–f102v2`) That `42.38%` Echo Their Exact Canonical Stem on the Same Folio (`31.90%` Paired Shelf $\to$ `30.45%` Same-Page Off-Shelf $\to$ `28.92%` Off-Folio Pharma), and That When a Shelf Root Is Cited Inside a Recipe Paragraph, `66.29%` (`59 / 89`, Mean Normalized Line Position `0.314` vs. `0.500` Uniform Null, $z = -5.37, p < 10^{-7}$) Make Their First Appearance Directly in Lines `1–2` (`Act I: Ingredient Declaration`)**.
+
+---
+
+## 175. Attack 175 (`Phase 186`): The Plumed Bench-Gallows (`{cthh}..{cfhh}`) Allographic Reduction Proof (`82.35%` Exact Word / `94.12%` Canonical Stem Collapse) & the Rare `@NNN;` Weirdo-Glyph Atlas (`3.00×` Label Enrichment)
+- **Script & Data**: [`tools/attack175_plumed_gallows_and_weirdo_glyph_atlas.py`](../tools/attack175_plumed_gallows_and_weirdo_glyph_atlas.py) $\to$ [`data/attack175_plumed_gallows_and_weirdo_glyph_atlas.json`](../data/attack175_plumed_gallows_and_weirdo_glyph_atlas.json)
+- **Key Breakthroughs**:
+  1. **Proves Across All `68` Double-Plumed Bench-Gallows Tokens (`{cthh}, {ckhh}, {cphh}, {cfhh}`) That Stripping the Ornamental Second Plume Collapses `52 / 68` (`76.47%`) into Exact Single-Loop Words (`56 / 68` [`82.35%`] Including `ch`) and `64 / 68` (`94.12%`) into Attested Canonical Root Stems; and Maps All `156` Rare `@NNN;` Weirdo-Glyph Tokens (`83` Distinct Codes), Proving a `3.00×` Concentration in Figure Labels & Margin Keys (`26.92%` vs. `8.96%` Baseline) and Resolving `55.74%` (`68 / 122`) of Embedded `@NNN;` Words Directly into Attested Standard Voynich Words**.
+
+---
+
+## 176. Attack 176 (`Phase 187`): The Wave 41 Master Compendium (`Quire Signatures, Multi-Row Pharma Shelves & Weirdo-Glyph Atlas`) and Synchronized v7.0 Milestone Human-Readable Assets ([`notes/QUIRE_SIGNATURES_PHARMA_SHELVES_AND_WEIRDO_GLYPH_ATLAS.md`](QUIRE_SIGNATURES_PHARMA_SHELVES_AND_WEIRDO_GLYPH_ATLAS.md))
+- **Script, Data & Edition**: [`tools/attack176_wave41_master_compendium.py`](../tools/attack176_wave41_master_compendium.py) $\to$ [`data/attack176_wave41_master_compendium.json`](../data/attack176_wave41_master_compendium.json) & [`notes/QUIRE_SIGNATURES_PHARMA_SHELVES_AND_WEIRDO_GLYPH_ATLAS.md`](QUIRE_SIGNATURES_PHARMA_SHELVES_AND_WEIRDO_GLYPH_ATLAS.md)
+- **Key Breakthroughs**:
+  1. **Synthesizes `Attacks 173–175` (`Discoveries 190–192`) and Upgrades All Human-Readable Assets to v7.0 ([`notes/PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md`](PLAIN_ENGLISH_VISUAL_READERS_GUIDE.md) 24 Folios, [`notes/VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md`](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md) `SPEC-01..40`, [`explorer/index.html`](../explorer/index.html) 9-Tab / 38-Walkthrough Interactive Explorer, and [`README.md`](../README.md))**.

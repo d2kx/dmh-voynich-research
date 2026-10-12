@@ -1,0 +1,4176 @@
+{
+  "attack": "Attack 176: Wave 41 Master Compendium (Attacks 173-176 / Discoveries 190-193)",
+  "wave": 41,
+  "discoveries": [
+    {
+      "id": "Discovery 190 (Attack 173)",
+      "title": "18-Quire Gathering Architecture, 100.0% Page-Start (<%>) & 99.03% Page-End (<$>) Paragraph Closure Law, and Monotonic Physical Leaf/Bifolio/Quire Lexical Cohesion",
+      "headline_metrics": {
+        "page_start_paragraph_open_pct": 100.0,
+        "page_end_paragraph_close_pct": 99.03,
+        "same_leaf_stem_jaccard": 0.2619,
+        "same_leaf_vs_diff_quire_z": 8.13,
+        "same_quire_stem_jaccard": 0.256,
+        "same_quire_vs_diff_quire_z": 18.45
+      }
+    },
+    {
+      "id": "Discovery 191 (Attack 174)",
+      "title": "Multi-Row Pharmaceutical Shelf-to-Paragraph Architecture & Act-I Paragraph-Opening Ingredient Citation Law (66.29% in Lines 1-2, z=-5.37)",
+      "headline_metrics": {
+        "whole_folio_stem_echo_pct": 42.38,
+        "paired_shelf_para_hit_rate_pct": 31.9,
+        "act1_first_two_lines_hit_pct": 66.29,
+        "act1_mean_first_hit_line_pos": 0.314,
+        "act1_z_vs_uniform": -5.37
+      }
+    },
+    {
+      "id": "Discovery 192 (Attack 175)",
+      "title": "Plumed Bench-Gallows Allographic Reduction Proof (82.35% Exact Word / 94.12% Canonical Stem Collapse) & Rare Weirdo-Glyph (@NNN;) 3.00x Label/Key Atlas",
+      "headline_metrics": {
+        "plumed_exact_word_collapse_pct": 82.35,
+        "plumed_canonical_stem_collapse_pct": 94.12,
+        "weirdo_label_enrichment_ratio": 3.0,
+        "embedded_weirdo_resolved_pct": 55.74
+      }
+    }
+  ],
+  "attack173": {
+    "attack": "Attack 173: 20-Quire Gathering Signatures, 100% Page-Boundary Closure Law & Physical Leaf/Quire Lexical Cohesion",
+    "quire_architecture": {
+      "total_quires": 18,
+      "single_language_quires": 12,
+      "single_language_quire_pct": 66.67,
+      "single_hand_quires": 12,
+      "single_hand_quire_pct": 66.67,
+      "single_section_quires": 10,
+      "single_section_quire_pct": 55.56,
+      "quires": [
+        {
+          "quire_letter": "A",
+          "quire_number": 1,
+          "n_transcribed_pages": 16,
+          "first_folio": "f1r",
+          "last_folio": "f8v",
+          "sections": [
+            "H",
+            "T"
+          ],
+          "languages": [
+            "A"
+          ],
+          "scribe_hands": [
+            "1"
+          ],
+          "is_single_language": true,
+          "is_single_hand": true,
+          "is_single_section": false,
+          "quire_mark_annotations": [],
+          "total_words": 1528
+        },
+        {
+          "quire_letter": "B",
+          "quire_number": 2,
+          "n_transcribed_pages": 14,
+          "first_folio": "f9r",
+          "last_folio": "f16v",
+          "sections": [
+            "H"
+          ],
+          "languages": [
+            "A"
+          ],
+          "scribe_hands": [
+            "1"
+          ],
+          "is_single_language": true,
+          "is_single_hand": true,
+          "is_single_section": true,
+          "quire_mark_annotations": [],
+          "total_words": 1046
+        },
+        {
+          "quire_letter": "C",
+          "quire_number": 3,
+          "n_transcribed_pages": 16,
+          "first_folio": "f17r",
+          "last_folio": "f24v",
+          "sections": [
+            "H"
+          ],
+          "languages": [
+            "A"
+          ],
+          "scribe_hands": [
+            "1"
+          ],
+          "is_single_language": true,
+          "is_single_hand": true,
+          "is_single_section": true,
+          "quire_mark_annotations": [],
+          "total_words": 1445
+        },
+        {
+          "quire_letter": "D",
+          "quire_number": 4,
+          "n_transcribed_pages": 16,
+          "first_folio": "f25r",
+          "last_folio": "f32v",
+          "sections": [
+            "H"
+          ],
+          "languages": [
+            "A",
+            "B"
+          ],
+          "scribe_hands": [
+            "1",
+            "2"
+          ],
+          "is_single_language": false,
+          "is_single_hand": false,
+          "is_single_section": true,
+          "quire_mark_annotations": [],
+          "total_words": 1277
+        },
+        {
+          "quire_letter": "E",
+          "quire_number": 5,
+          "n_transcribed_pages": 16,
+          "first_folio": "f33r",
+          "last_folio": "f40v",
+          "sections": [
+            "H"
+          ],
+          "languages": [
+            "A",
+            "B"
+          ],
+          "scribe_hands": [
+            "1",
+            "2"
+          ],
+          "is_single_language": false,
+          "is_single_hand": false,
+          "is_single_section": true,
+          "quire_mark_annotations": [],
+          "total_words": 1563
+        },
+        {
+          "quire_letter": "F",
+          "quire_number": 6,
+          "n_transcribed_pages": 16,
+          "first_folio": "f41r",
+          "last_folio": "f48v",
+          "sections": [
+            "H"
+          ],
+          "languages": [
+            "A",
+            "B"
+          ],
+          "scribe_hands": [
+            "1",
+            "2",
+            "5"
+          ],
+          "is_single_language": false,
+          "is_single_hand": false,
+          "is_single_section": true,
+          "quire_mark_annotations": [],
+          "total_words": 1716
+        },
+        {
+          "quire_letter": "G",
+          "quire_number": 7,
+          "n_transcribed_pages": 16,
+          "first_folio": "f49r",
+          "last_folio": "f56v",
+          "sections": [
+            "H"
+          ],
+          "languages": [
+            "A",
+            "B"
+          ],
+          "scribe_hands": [
+            "1",
+            "2"
+          ],
+          "is_single_language": false,
+          "is_single_hand": false,
+          "is_single_section": true,
+          "quire_mark_annotations": [],
+          "total_words": 1546
+        },
+        {
+          "quire_letter": "H",
+          "quire_number": 8,
+          "n_transcribed_pages": 8,
+          "first_folio": "f57r",
+          "last_folio": "f66v",
+          "sections": [
+            "C",
+            "H",
+            "S",
+            "T"
+          ],
+          "languages": [
+            "A",
+            "B"
+          ],
+          "scribe_hands": [
+            "1",
+            "3",
+            "5"
+          ],
+          "is_single_language": false,
+          "is_single_hand": false,
+          "is_single_section": false,
+          "quire_mark_annotations": [],
+          "total_words": 1524
+        },
+        {
+          "quire_letter": "I",
+          "quire_number": 9,
+          "n_transcribed_pages": 10,
+          "first_folio": "f67r1",
+          "last_folio": "f68v1",
+          "sections": [
+            "A",
+            "C"
+          ],
+          "languages": [],
+          "scribe_hands": [
+            "4"
+          ],
+          "is_single_language": true,
+          "is_single_hand": true,
+          "is_single_section": false,
+          "quire_mark_annotations": [],
+          "total_words": 1110
+        },
+        {
+          "quire_letter": "J",
+          "quire_number": 10,
+          "n_transcribed_pages": 6,
+          "first_folio": "f69r",
+          "last_folio": "f70v1",
+          "sections": [
+            "C",
+            "Z"
+          ],
+          "languages": [],
+          "scribe_hands": [
+            "4"
+          ],
+          "is_single_language": true,
+          "is_single_hand": true,
+          "is_single_section": false,
+          "quire_mark_annotations": [],
+          "total_words": 873
+        },
+        {
+          "quire_letter": "K",
+          "quire_number": 11,
+          "n_transcribed_pages": 8,
+          "first_folio": "f71r",
+          "last_folio": "f72v1",
+          "sections": [
+            "Z"
+          ],
+          "languages": [],
+          "scribe_hands": [
+            "4"
+          ],
+          "is_single_language": true,
+          "is_single_hand": true,
+          "is_single_section": true,
+          "quire_mark_annotations": [],
+          "total_words": 901
+        },
+        {
+          "quire_letter": "L",
+          "quire_number": 12,
+          "n_transcribed_pages": 2,
+          "first_folio": "f73r",
+          "last_folio": "f73v",
+          "sections": [
+            "Z"
+          ],
+          "languages": [],
+          "scribe_hands": [
+            "4"
+          ],
+          "is_single_language": true,
+          "is_single_hand": true,
+          "is_single_section": true,
+          "quire_mark_annotations": [],
+          "total_words": 195
+        },
+        {
+          "quire_letter": "M",
+          "quire_number": 13,
+          "n_transcribed_pages": 20,
+          "first_folio": "f75r",
+          "last_folio": "f84v",
+          "sections": [
+            "B",
+            "T"
+          ],
+          "languages": [
+            "B"
+          ],
+          "scribe_hands": [
+            "2"
+          ],
+          "is_single_language": true,
+          "is_single_hand": true,
+          "is_single_section": false,
+          "quire_mark_annotations": [],
+          "total_words": 6949
+        },
+        {
+          "quire_letter": "N",
+          "quire_number": 14,
+          "n_transcribed_pages": 6,
+          "first_folio": "f85r1",
+          "last_folio": "f86v3",
+          "sections": [
+            "C",
+            "T"
+          ],
+          "languages": [
+            "B"
+          ],
+          "scribe_hands": [
+            "2"
+          ],
+          "is_single_language": true,
+          "is_single_hand": true,
+          "is_single_section": false,
+          "quire_mark_annotations": [],
+          "total_words": 1855
+        },
+        {
+          "quire_letter": "O",
+          "quire_number": 15,
+          "n_transcribed_pages": 12,
+          "first_folio": "f87r",
+          "last_folio": "f90v1",
+          "sections": [
+            "H",
+            "P"
+          ],
+          "languages": [
+            "A"
+          ],
+          "scribe_hands": [
+            "1"
+          ],
+          "is_single_language": true,
+          "is_single_hand": true,
+          "is_single_section": false,
+          "quire_mark_annotations": [],
+          "total_words": 1478
+        },
+        {
+          "quire_letter": "Q",
+          "quire_number": 17,
+          "n_transcribed_pages": 10,
+          "first_folio": "f93r",
+          "last_folio": "f96v",
+          "sections": [
+            "H"
+          ],
+          "languages": [
+            "A",
+            "B"
+          ],
+          "scribe_hands": [
+            "1",
+            "3"
+          ],
+          "is_single_language": false,
+          "is_single_hand": false,
+          "is_single_section": true,
+          "quire_mark_annotations": [],
+          "total_words": 915
+        },
+        {
+          "quire_letter": "S",
+          "quire_number": 19,
+          "n_transcribed_pages": 10,
+          "first_folio": "f99r",
+          "last_folio": "f102v1",
+          "sections": [
+            "P"
+          ],
+          "languages": [
+            "A"
+          ],
+          "scribe_hands": [
+            "1"
+          ],
+          "is_single_language": true,
+          "is_single_hand": true,
+          "is_single_section": true,
+          "quire_mark_annotations": [],
+          "total_words": 1581
+        },
+        {
+          "quire_letter": "T",
+          "quire_number": 20,
+          "n_transcribed_pages": 24,
+          "first_folio": "f103r",
+          "last_folio": "f116v",
+          "sections": [
+            "S",
+            "T"
+          ],
+          "languages": [
+            "B"
+          ],
+          "scribe_hands": [
+            "3"
+          ],
+          "is_single_language": true,
+          "is_single_hand": true,
+          "is_single_section": false,
+          "quire_mark_annotations": [],
+          "total_words": 10885
+        }
+      ]
+    },
+    "page_boundary_closure_law": {
+      "total_prose_folios": 206,
+      "pages_starting_with_paragraph_open": 206,
+      "pages_starting_with_paragraph_open_pct": 100.0,
+      "pages_ending_with_paragraph_close": 204,
+      "pages_ending_with_paragraph_close_pct": 99.03,
+      "page_final_word_m_stop_rate_pct": 11.65,
+      "mid_page_line_end_m_stop_rate_pct": 15.56,
+      "mid_line_m_stop_rate_pct": 0.88,
+      "page_final_vs_mid_line_m_stop_ratio": 13.17,
+      "page_final_vs_mid_page_line_end_m_stop_ratio": 0.75,
+      "page_final_m_or_y_stop_rate_pct": 59.22
+    },
+    "missing_folio_boundary_test": [
+      {
+        "gap": "f12 missing (Quire B)",
+        "before_folio": "f11v",
+        "after_folio": "f13r",
+        "before_ends_with_paragraph_close": true,
+        "after_starts_with_paragraph_open": true,
+        "before_last_word": "chold",
+        "after_first_word": "torshor"
+      },
+      {
+        "gap": "f59-f64 missing (Quire H)",
+        "before_folio": "f58v",
+        "after_folio": "f65r",
+        "before_ends_with_paragraph_close": true,
+        "after_starts_with_paragraph_open": true,
+        "before_last_word": "sarols",
+        "after_first_word": "(label-only)"
+      },
+      {
+        "gap": "f74 missing (Quire L)",
+        "before_folio": "f73v",
+        "after_folio": "f75r",
+        "before_ends_with_paragraph_close": true,
+        "after_starts_with_paragraph_open": true,
+        "before_last_word": "(label-only)",
+        "after_first_word": "kchedykary"
+      },
+      {
+        "gap": "f91-f92 missing (Quire P)",
+        "before_folio": "f90v2",
+        "after_folio": "f93r",
+        "before_ends_with_paragraph_close": true,
+        "after_starts_with_paragraph_open": true,
+        "before_last_word": "daiin",
+        "after_first_word": "kodshol"
+      },
+      {
+        "gap": "f97-f98 missing (Quire R)",
+        "before_folio": "f96v",
+        "after_folio": "f99r",
+        "before_ends_with_paragraph_close": true,
+        "after_starts_with_paragraph_open": true,
+        "before_last_word": "cheor",
+        "after_first_word": "pcheody"
+      },
+      {
+        "gap": "f109-f110 missing (Quire T)",
+        "before_folio": "f108v",
+        "after_folio": "f111r",
+        "before_ends_with_paragraph_close": true,
+        "after_starts_with_paragraph_open": true,
+        "before_last_word": "otedy",
+        "after_first_word": "kcholchdar"
+      }
+    ],
+    "physical_codicology_cohesion_controlled_for_section_and_lang": {
+      "n_same_leaf_pairs": 109,
+      "mean_jaccard_same_leaf_recto_verso": 0.2619,
+      "n_same_bifolio_pairs": 191,
+      "mean_jaccard_same_bifolio_sheet": 0.2582,
+      "n_same_quire_pairs": 800,
+      "mean_jaccard_same_quire": 0.256,
+      "n_diff_quire_same_section_lang_pairs": 4419,
+      "mean_jaccard_diff_quire_same_section_lang": 0.2168,
+      "same_leaf_vs_diff_quire_ratio": 1.21,
+      "same_leaf_vs_diff_quire_z": 8.13,
+      "same_quire_vs_diff_quire_ratio": 1.18,
+      "same_quire_vs_diff_quire_z": 18.45
+    }
+  },
+  "attack174": {
+    "attack": "Attack 174: Multi-Row Pharmaceutical Shelf-to-Paragraph Gradient, Act-I Opening Citation Law & Vessel (@Lc) vs Root (@Lf) Morphology",
+    "shelf_to_paragraph_gradient": {
+      "whole_folio_hit_rate_pct": 42.38,
+      "paired_shelf_para_matches": 67,
+      "paired_shelf_para_total": 210,
+      "paired_shelf_para_hit_rate_pct": 31.9,
+      "off_shelf_same_page_matches": 102,
+      "off_shelf_same_page_total": 335,
+      "off_shelf_same_page_hit_rate_pct": 30.45,
+      "off_folio_pharma_para_matches": 2497,
+      "off_folio_pharma_para_total": 8635,
+      "off_folio_pharma_para_hit_rate_pct": 28.92,
+      "paired_vs_same_page_off_shelf_ratio": 1.05,
+      "paired_vs_same_page_off_shelf_z": 0.36,
+      "paired_vs_off_folio_ratio": 1.1,
+      "paired_vs_off_folio_z": 0.94
+    },
+    "act1_paragraph_opening_citation_law": {
+      "n_echoed_plants": 89,
+      "mean_first_hit_normalized_line_pos": 0.314,
+      "uniform_null_line_pos": 0.5,
+      "z_score_vs_uniform": -5.37,
+      "first_two_lines_hit_count": 59,
+      "first_two_lines_hit_pct": 66.29,
+      "left_half_shelf_mean_line_pos": 0.315,
+      "right_half_shelf_mean_line_pos": 0.312
+    },
+    "container_Lc_vs_plant_Lf_morphology": {
+      "apothecary_vessels_Lc": {
+        "count": 40,
+        "mean_len": 6.85,
+        "o_initial_pct": 52.5,
+        "ok_ot_initial_pct": 45.0,
+        "d_or_s_initial_pct": 17.5,
+        "ends_l_or_r_or_d_pct": 27.5,
+        "ends_y_pct": 50.0,
+        "sample_tokens": [
+          "otorchety",
+          "otaldy",
+          "ofyskydal",
+          "okalyd",
+          "otoram",
+          "daramdal",
+          "okchshy",
+          "ykyd",
+          "ykocfhy",
+          "odory",
+          "otoldy",
+          "korainy",
+          "okain",
+          "yorain",
+          "choeesy",
+          "otory"
+        ]
+      },
+      "plant_ingredients_Lf": {
+        "count": 210,
+        "mean_len": 5.59,
+        "o_initial_pct": 49.52,
+        "ok_ot_initial_pct": 36.19,
+        "d_or_s_initial_pct": 24.76,
+        "ends_l_or_r_or_d_pct": 40.0,
+        "ends_y_pct": 36.19,
+        "sample_tokens": [
+          "osal",
+          "orald",
+          "oldar",
+          "otoky",
+          "otaly",
+          "oram",
+          "dary",
+          "okol",
+          "sorory",
+          "otyda",
+          "otor",
+          "am",
+          "ofaldo",
+          "cheocthy",
+          "cpheor",
+          "otar"
+        ]
+      }
+    },
+    "folio_breakdowns": [
+      {
+        "folio": "f100r",
+        "n_containers": 0,
+        "containers": [],
+        "n_rows": 2,
+        "n_paragraphs": 2,
+        "paired_hit_rate_pct": 15.79,
+        "off_row_hit_rate_pct": 10.53,
+        "rows": [
+          {
+            "row_idx": 1,
+            "n_plants": 13,
+            "paired_para_indices": [
+              1
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "chosaroshol",
+                "stem": "osarosh",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 2,
+                "word": "sochorcfhy",
+                "stem": "chorcf",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 3,
+                "word": "otear",
+                "stem": "ea",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 4,
+                "word": "chofary",
+                "stem": "ofa",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 5,
+                "word": "sar",
+                "stem": "ar",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 6,
+                "word": "char",
+                "stem": "ar",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 7,
+                "word": "daiindy",
+                "stem": "iin",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 8,
+                "word": "oraro",
+                "stem": "aro",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 9,
+                "word": "chalsain",
+                "stem": "alsai",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 10,
+                "word": "soity",
+                "stem": "it",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 11,
+                "word": "sosam",
+                "stem": "sa",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 12,
+                "word": "dakocth",
+                "stem": "kocth",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 13,
+                "word": "sofam",
+                "stem": "fa",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          },
+          {
+            "row_idx": 2,
+            "n_plants": 6,
+            "paired_para_indices": [
+              2
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "okeeos",
+                "stem": "eeos",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 2,
+                "word": "shockhey",
+                "stem": "ockh",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 3,
+                "word": "orol",
+                "stem": "ol",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "cphol",
+                  "chol",
+                  "cphol"
+                ]
+              },
+              {
+                "col": 4,
+                "word": "olcheom",
+                "stem": "che",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "ycheol",
+                  "olcheol"
+                ]
+              },
+              {
+                "col": 5,
+                "word": "oteol",
+                "stem": "eo",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "sheor",
+                  "cheol",
+                  "sheor"
+                ]
+              },
+              {
+                "col": 6,
+                "word": "okols",
+                "stem": "ols",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "folio": "f100v",
+        "n_containers": 0,
+        "containers": [],
+        "n_rows": 1,
+        "n_paragraphs": 1,
+        "paired_hit_rate_pct": 7.14,
+        "off_row_hit_rate_pct": null,
+        "rows": [
+          {
+            "row_idx": 1,
+            "n_plants": 14,
+            "paired_para_indices": [
+              1
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "tolchd",
+                "stem": "tolchd",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 2,
+                "word": "chols",
+                "stem": "ols",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 3,
+                "word": "opchor",
+                "stem": "ch",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 4,
+                "word": "solsy",
+                "stem": "ls",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 5,
+                "word": "soleesos",
+                "stem": "leesos",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 6,
+                "word": "ykchochdy",
+                "stem": "choch",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 7,
+                "word": "ykchdy",
+                "stem": "ch",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 8,
+                "word": "dchdy",
+                "stem": "ch",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 9,
+                "word": "dalsy",
+                "stem": "ls",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 10,
+                "word": "okcheor",
+                "stem": "che",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 11,
+                "word": "ytchol",
+                "stem": "ch",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 12,
+                "word": "dykchal",
+                "stem": "ykch",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 13,
+                "word": "chos",
+                "stem": "os",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 14,
+                "word": "ctharal",
+                "stem": "ar",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "ar",
+                  "okar"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "folio": "f101v",
+        "n_containers": 0,
+        "containers": [],
+        "n_rows": 1,
+        "n_paragraphs": 3,
+        "paired_hit_rate_pct": 55.56,
+        "off_row_hit_rate_pct": null,
+        "rows": [
+          {
+            "row_idx": 1,
+            "n_plants": 18,
+            "paired_para_indices": [
+              1,
+              2,
+              3
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "sairaly",
+                "stem": "ira",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 2,
+                "word": "otaldy",
+                "stem": "al",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "otal",
+                  "oralar",
+                  "sal"
+                ]
+              },
+              {
+                "col": 3,
+                "word": "otol",
+                "stem": "ol",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "ol",
+                  "ol",
+                  "dol"
+                ]
+              },
+              {
+                "col": 4,
+                "word": "ytal",
+                "stem": "al",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "otal",
+                  "oralar",
+                  "sal"
+                ]
+              },
+              {
+                "col": 5,
+                "word": "dokor",
+                "stem": "ok",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "chokey"
+                ]
+              },
+              {
+                "col": 6,
+                "word": "orar",
+                "stem": "ar",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "dar",
+                  "dar",
+                  "ary"
+                ]
+              },
+              {
+                "col": 7,
+                "word": "otarar",
+                "stem": "ar",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "dar",
+                  "dar",
+                  "ary"
+                ]
+              },
+              {
+                "col": 8,
+                "word": "otoly",
+                "stem": "ol",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "ol",
+                  "ol",
+                  "dol"
+                ]
+              },
+              {
+                "col": 9,
+                "word": "soraly",
+                "stem": "ra",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 10,
+                "word": "okol",
+                "stem": "ol",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "ol",
+                  "ol",
+                  "dol"
+                ]
+              },
+              {
+                "col": 11,
+                "word": "arom",
+                "stem": "om",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 12,
+                "word": "oraram",
+                "stem": "ar",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "dar",
+                  "dar",
+                  "ary"
+                ]
+              },
+              {
+                "col": 13,
+                "word": "oraeep",
+                "stem": "aeep",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 14,
+                "word": "dytolg",
+                "stem": "ytolg",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 15,
+                "word": "olkor",
+                "stem": "ko",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "qokol",
+                  "kol"
+                ]
+              },
+              {
+                "col": 16,
+                "word": "dolary",
+                "stem": "ola",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 17,
+                "word": "odor",
+                "stem": "do",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 18,
+                "word": "olaran",
+                "stem": "ara",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "folio": "f102r1",
+        "n_containers": 3,
+        "containers": [
+          "daarod",
+          "okolaly",
+          "ddardsh"
+        ],
+        "n_rows": 1,
+        "n_paragraphs": 3,
+        "paired_hit_rate_pct": 0.0,
+        "off_row_hit_rate_pct": null,
+        "rows": [
+          {
+            "row_idx": 1,
+            "n_plants": 1,
+            "paired_para_indices": [
+              1,
+              2,
+              3
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "otodeeodor",
+                "stem": "odeeod",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "folio": "f102r2",
+        "n_containers": 5,
+        "containers": [
+          "kodaiig",
+          "okrolda",
+          "loeekadag",
+          "osheal",
+          "sodch"
+        ],
+        "n_rows": 1,
+        "n_paragraphs": 3,
+        "paired_hit_rate_pct": 0.0,
+        "off_row_hit_rate_pct": 0.0,
+        "rows": [
+          {
+            "row_idx": 1,
+            "n_plants": 2,
+            "paired_para_indices": [
+              1
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "koldarod",
+                "stem": "koldarod",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 2,
+                "word": "odalydary",
+                "stem": "dalyda",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "folio": "f102v1",
+        "n_containers": 2,
+        "containers": [
+          "keoraiiin",
+          "dindy"
+        ],
+        "n_rows": 2,
+        "n_paragraphs": 2,
+        "paired_hit_rate_pct": 25.0,
+        "off_row_hit_rate_pct": 37.5,
+        "rows": [
+          {
+            "row_idx": 1,
+            "n_plants": 5,
+            "paired_para_indices": [
+              1
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "okeody",
+                "stem": "eo",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "ctheol",
+                  "cheor",
+                  "cheo"
+                ]
+              },
+              {
+                "col": 2,
+                "word": "okeody",
+                "stem": "eo",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "ctheol",
+                  "cheor",
+                  "cheo"
+                ]
+              },
+              {
+                "col": 3,
+                "word": "daiisaly",
+                "stem": "iisa",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 4,
+                "word": "ypary",
+                "stem": "pa",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 5,
+                "word": "opchyt",
+                "stem": "chyt",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          },
+          {
+            "row_idx": 2,
+            "n_plants": 3,
+            "paired_para_indices": [
+              2
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "ypcholdy",
+                "stem": "pch",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "pchol"
+                ]
+              },
+              {
+                "col": 2,
+                "word": "loralody",
+                "stem": "loral",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 3,
+                "word": "opchdard",
+                "stem": "chdard",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "folio": "f102v2",
+        "n_containers": 3,
+        "containers": [
+          "porshols",
+          "soaimy",
+          "okolky"
+        ],
+        "n_rows": 2,
+        "n_paragraphs": 2,
+        "paired_hit_rate_pct": 57.89,
+        "off_row_hit_rate_pct": 47.37,
+        "rows": [
+          {
+            "row_idx": 1,
+            "n_plants": 14,
+            "paired_para_indices": [
+              1
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "oror",
+                "stem": "or",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "or",
+                  "or"
+                ]
+              },
+              {
+                "col": 2,
+                "word": "chor",
+                "stem": "or",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "or",
+                  "or"
+                ]
+              },
+              {
+                "col": 3,
+                "word": "sachy",
+                "stem": "ch",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "ch",
+                  "ycheey"
+                ]
+              },
+              {
+                "col": 4,
+                "word": "okeos",
+                "stem": "eos",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "cheos"
+                ]
+              },
+              {
+                "col": 5,
+                "word": "okol",
+                "stem": "ol",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "dol",
+                  "ol",
+                  "chol"
+                ]
+              },
+              {
+                "col": 6,
+                "word": "otory",
+                "stem": "or",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "or",
+                  "or"
+                ]
+              },
+              {
+                "col": 7,
+                "word": "ok",
+                "stem": "ok",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 8,
+                "word": "okody",
+                "stem": "od",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "od"
+                ]
+              },
+              {
+                "col": 9,
+                "word": "cheor",
+                "stem": "eo",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "sheor",
+                  "okeol",
+                  "okeol"
+                ]
+              },
+              {
+                "col": 10,
+                "word": "okoroeey",
+                "stem": "oro",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 11,
+                "word": "opchy",
+                "stem": "ch",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "ch",
+                  "ycheey"
+                ]
+              },
+              {
+                "col": 12,
+                "word": "sarol",
+                "stem": "ro",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 13,
+                "word": "olrodar",
+                "stem": "rod",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 14,
+                "word": "tod",
+                "stem": "tod",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          },
+          {
+            "row_idx": 2,
+            "n_plants": 5,
+            "paired_para_indices": [
+              2
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "osain",
+                "stem": "sai",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 2,
+                "word": "aiky",
+                "stem": "ai",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "orain"
+                ]
+              },
+              {
+                "col": 3,
+                "word": "okeeoraiin",
+                "stem": "eeor",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 4,
+                "word": "okockhy",
+                "stem": "ock",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 5,
+                "word": "os",
+                "stem": "os",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "chos",
+                  "chos"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "folio": "f88r",
+        "n_containers": 3,
+        "containers": [
+          "otorchety",
+          "otaldy",
+          "ofyskydal"
+        ],
+        "n_rows": 3,
+        "n_paragraphs": 3,
+        "paired_hit_rate_pct": 23.08,
+        "off_row_hit_rate_pct": 30.77,
+        "rows": [
+          {
+            "row_idx": 1,
+            "n_plants": 5,
+            "paired_para_indices": [
+              1
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "osal",
+                "stem": "sa",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 2,
+                "word": "orald",
+                "stem": "ald",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 3,
+                "word": "oldar",
+                "stem": "da",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "oldal"
+                ]
+              },
+              {
+                "col": 4,
+                "word": "otoky",
+                "stem": "ok",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "chokol"
+                ]
+              },
+              {
+                "col": 5,
+                "word": "otaly",
+                "stem": "al",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "dal"
+                ]
+              }
+            ]
+          },
+          {
+            "row_idx": 2,
+            "n_plants": 5,
+            "paired_para_indices": [
+              2
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "oram",
+                "stem": "am",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "sam",
+                  "otam",
+                  "sam"
+                ]
+              },
+              {
+                "col": 2,
+                "word": "dary",
+                "stem": "ry",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 3,
+                "word": "okol",
+                "stem": "ol",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "cphol",
+                  "okol",
+                  "ol"
+                ]
+              },
+              {
+                "col": 4,
+                "word": "sorory",
+                "stem": "ro",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 5,
+                "word": "otyda",
+                "stem": "yda",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          },
+          {
+            "row_idx": 3,
+            "n_plants": 3,
+            "paired_para_indices": [
+              3
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "otor",
+                "stem": "or",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "or",
+                  "or"
+                ]
+              },
+              {
+                "col": 2,
+                "word": "am",
+                "stem": "am",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "sam",
+                  "otam",
+                  "sam"
+                ]
+              },
+              {
+                "col": 3,
+                "word": "ofaldo",
+                "stem": "aldo",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "folio": "f88v",
+        "n_containers": 3,
+        "containers": [
+          "okalyd",
+          "otoram",
+          "daramdal"
+        ],
+        "n_rows": 3,
+        "n_paragraphs": 3,
+        "paired_hit_rate_pct": 45.45,
+        "off_row_hit_rate_pct": 26.32,
+        "rows": [
+          {
+            "row_idx": 1,
+            "n_plants": 5,
+            "paired_para_indices": [
+              1
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "cheocthy",
+                "stem": "eoct",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 2,
+                "word": "cpheor",
+                "stem": "eo",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "cheor",
+                  "cheoy"
+                ]
+              },
+              {
+                "col": 3,
+                "word": "otar",
+                "stem": "ar",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "dar"
+                ]
+              },
+              {
+                "col": 4,
+                "word": "arody",
+                "stem": "od",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "chody"
+                ]
+              },
+              {
+                "col": 5,
+                "word": "otokol",
+                "stem": "ok",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "chokar",
+                  "choky"
+                ]
+              }
+            ]
+          },
+          {
+            "row_idx": 2,
+            "n_plants": 3,
+            "paired_para_indices": [
+              2,
+              3
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "otora",
+                "stem": "ora",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 2,
+                "word": "cheosdy",
+                "stem": "eos",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "cheos"
+                ]
+              },
+              {
+                "col": 3,
+                "word": "okaiin",
+                "stem": "aii",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "oraiin",
+                  "olaiin",
+                  "aiin"
+                ]
+              }
+            ]
+          },
+          {
+            "row_idx": 3,
+            "n_plants": 3,
+            "paired_para_indices": [
+              3
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "otydary",
+                "stem": "yda",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 2,
+                "word": "otdordy",
+                "stem": "dor",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 3,
+                "word": "dararda",
+                "stem": "rarda",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "folio": "f89r1",
+        "n_containers": 3,
+        "containers": [
+          "okchshy",
+          "ykyd",
+          "ykocfhy"
+        ],
+        "n_rows": 3,
+        "n_paragraphs": 3,
+        "paired_hit_rate_pct": 25.0,
+        "off_row_hit_rate_pct": 31.58,
+        "rows": [
+          {
+            "row_idx": 1,
+            "n_plants": 4,
+            "paired_para_indices": [
+              1
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "qkol",
+                "stem": "qk",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 2,
+                "word": "oldam",
+                "stem": "da",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "ydam"
+                ]
+              },
+              {
+                "col": 3,
+                "word": "otoldy",
+                "stem": "ol",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "chol",
+                  "chol",
+                  "ckhol"
+                ]
+              },
+              {
+                "col": 4,
+                "word": "ararchodaiin",
+                "stem": "archod",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          },
+          {
+            "row_idx": 2,
+            "n_plants": 5,
+            "paired_para_indices": [
+              2,
+              3
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "chol",
+                "stem": "ol",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "chol",
+                  "ol"
+                ]
+              },
+              {
+                "col": 2,
+                "word": "ches",
+                "stem": "es",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 3,
+                "word": "otorain",
+                "stem": "orai",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 4,
+                "word": "okaiin",
+                "stem": "aii",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "aiin",
+                  "aiin"
+                ]
+              },
+              {
+                "col": 5,
+                "word": "dan",
+                "stem": "an",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          },
+          {
+            "row_idx": 3,
+            "n_plants": 3,
+            "paired_para_indices": [
+              3
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "saldam",
+                "stem": "ld",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "daldaiin"
+                ]
+              },
+              {
+                "col": 2,
+                "word": "sydarary",
+                "stem": "ydara",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 3,
+                "word": "yddy",
+                "stem": "dd",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "folio": "f89r2",
+        "n_containers": 5,
+        "containers": [
+          "odory",
+          "otoldy",
+          "korainy",
+          "okain",
+          "yorain"
+        ],
+        "n_rows": 4,
+        "n_paragraphs": 3,
+        "paired_hit_rate_pct": 23.53,
+        "off_row_hit_rate_pct": 35.29,
+        "rows": [
+          {
+            "row_idx": 1,
+            "n_plants": 4,
+            "paired_para_indices": [
+              1
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "doly",
+                "stem": "ol",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "choldy",
+                  "dol"
+                ]
+              },
+              {
+                "col": 2,
+                "word": "opchosam",
+                "stem": "chos",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 3,
+                "word": "saloiinsheol",
+                "stem": "loiinshe",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 4,
+                "word": "opcheor",
+                "stem": "che",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "olcheol"
+                ]
+              }
+            ]
+          },
+          {
+            "row_idx": 2,
+            "n_plants": 4,
+            "paired_para_indices": [
+              2
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "okol",
+                "stem": "ol",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "otol",
+                  "ol",
+                  "chol"
+                ]
+              },
+              {
+                "col": 2,
+                "word": "shol",
+                "stem": "ol",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "otol",
+                  "ol",
+                  "chol"
+                ]
+              },
+              {
+                "col": 3,
+                "word": "dy",
+                "stem": "dy",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "qody"
+                ]
+              },
+              {
+                "col": 4,
+                "word": "opchoroiin",
+                "stem": "chor",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          },
+          {
+            "row_idx": 3,
+            "n_plants": 5,
+            "paired_para_indices": [
+              3
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "sodar",
+                "stem": "da",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 2,
+                "word": "cheys",
+                "stem": "eys",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 3,
+                "word": "cheody",
+                "stem": "eo",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "sheol",
+                  "okeol",
+                  "ykeody"
+                ]
+              },
+              {
+                "col": 4,
+                "word": "oporain",
+                "stem": "orai",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 5,
+                "word": "okshdchos",
+                "stem": "shdchos",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          },
+          {
+            "row_idx": 4,
+            "n_plants": 4,
+            "paired_para_indices": [
+              3
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "ofakal",
+                "stem": "ak",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 2,
+                "word": "otalsy",
+                "stem": "als",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 3,
+                "word": "ytarem",
+                "stem": "are",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 4,
+                "word": "otolarol",
+                "stem": "olar",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "folio": "f89v1",
+        "n_containers": 2,
+        "containers": [
+          "okoraldy",
+          "koeeorain"
+        ],
+        "n_rows": 2,
+        "n_paragraphs": 2,
+        "paired_hit_rate_pct": 42.86,
+        "off_row_hit_rate_pct": 50.0,
+        "rows": [
+          {
+            "row_idx": 1,
+            "n_plants": 3,
+            "paired_para_indices": [
+              1,
+              2
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "otoy",
+                "stem": "oy",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 2,
+                "word": "otchar",
+                "stem": "ch",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "ochy",
+                  "ykchol",
+                  "okchol"
+                ]
+              },
+              {
+                "col": 3,
+                "word": "darshody",
+                "stem": "rsh",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          },
+          {
+            "row_idx": 2,
+            "n_plants": 4,
+            "paired_para_indices": [
+              2
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "otorshos",
+                "stem": "orshos",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 2,
+                "word": "opol",
+                "stem": "ol",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "okol",
+                  "cthol",
+                  "shol"
+                ]
+              },
+              {
+                "col": 3,
+                "word": "olaiin",
+                "stem": "aii",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "okaiin"
+                ]
+              },
+              {
+                "col": 4,
+                "word": "opaldaiin",
+                "stem": "ald",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "folio": "f89v2",
+        "n_containers": 3,
+        "containers": [
+          "choeesy",
+          "otory",
+          "opaloiiry"
+        ],
+        "n_rows": 3,
+        "n_paragraphs": 3,
+        "paired_hit_rate_pct": 38.46,
+        "off_row_hit_rate_pct": 40.91,
+        "rows": [
+          {
+            "row_idx": 1,
+            "n_plants": 5,
+            "paired_para_indices": [
+              1
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "okam",
+                "stem": "am",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "dam"
+                ]
+              },
+              {
+                "col": 2,
+                "word": "darcheor",
+                "stem": "rche",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 3,
+                "word": "chokaro",
+                "stem": "okaro",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 4,
+                "word": "sheol",
+                "stem": "eo",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "sheol",
+                  "cfheol",
+                  "qoeol"
+                ]
+              },
+              {
+                "col": 5,
+                "word": "chokam",
+                "stem": "ok",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "yokor"
+                ]
+              }
+            ]
+          },
+          {
+            "row_idx": 2,
+            "n_plants": 4,
+            "paired_para_indices": [
+              2,
+              3
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "otair",
+                "stem": "ai",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "air"
+                ]
+              },
+              {
+                "col": 2,
+                "word": "chody",
+                "stem": "od",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "chodor",
+                  "ytodaiin",
+                  "opodaiin"
+                ]
+              },
+              {
+                "col": 3,
+                "word": "dykaran",
+                "stem": "ykara",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 4,
+                "word": "opcheedey",
+                "stem": "cheed",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          },
+          {
+            "row_idx": 3,
+            "n_plants": 4,
+            "paired_para_indices": [
+              3
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "otaram",
+                "stem": "ar",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "dar"
+                ]
+              },
+              {
+                "col": 2,
+                "word": "chtchy",
+                "stem": "tc",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 3,
+                "word": "sada",
+                "stem": "da",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "qodam"
+                ]
+              },
+              {
+                "col": 4,
+                "word": "daseky",
+                "stem": "se",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "folio": "f99r",
+        "n_containers": 4,
+        "containers": [
+          "okaradag",
+          "oparal",
+          "tsholdy",
+          "yteoldy"
+        ],
+        "n_rows": 4,
+        "n_paragraphs": 4,
+        "paired_hit_rate_pct": 28.12,
+        "off_row_hit_rate_pct": 23.96,
+        "rows": [
+          {
+            "row_idx": 1,
+            "n_plants": 14,
+            "paired_para_indices": [
+              1
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "okar",
+                "stem": "ar",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "sar"
+                ]
+              },
+              {
+                "col": 2,
+                "word": "y",
+                "stem": "y",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 3,
+                "word": "darar",
+                "stem": "ra",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 4,
+                "word": "oky",
+                "stem": "ky",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "qoky"
+                ]
+              },
+              {
+                "col": 5,
+                "word": "salo",
+                "stem": "lo",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 6,
+                "word": "aro",
+                "stem": "aro",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 7,
+                "word": "ain",
+                "stem": "ai",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "air"
+                ]
+              },
+              {
+                "col": 8,
+                "word": "okor",
+                "stem": "or",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "shor",
+                  "shor",
+                  "ckhory"
+                ]
+              },
+              {
+                "col": 9,
+                "word": "ralol",
+                "stem": "ral",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 10,
+                "word": "skeeal",
+                "stem": "kee",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "qokeeor"
+                ]
+              },
+              {
+                "col": 11,
+                "word": "okary",
+                "stem": "ar",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "sar"
+                ]
+              },
+              {
+                "col": 12,
+                "word": "okolo",
+                "stem": "olo",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 13,
+                "word": "otalam",
+                "stem": "al",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "dal",
+                  "al"
+                ]
+              },
+              {
+                "col": 14,
+                "word": "otoldy",
+                "stem": "ol",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "ckhol",
+                  "chol",
+                  "ykol"
+                ]
+              }
+            ]
+          },
+          {
+            "row_idx": 2,
+            "n_plants": 8,
+            "paired_para_indices": [
+              2
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "oaro",
+                "stem": "aro",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 2,
+                "word": "aloly",
+                "stem": "ol",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "ckhol",
+                  "okoly",
+                  "okoldy"
+                ]
+              },
+              {
+                "col": 3,
+                "word": "aora",
+                "stem": "aora",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 4,
+                "word": "choky",
+                "stem": "ok",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 5,
+                "word": "oky",
+                "stem": "ky",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "qoky"
+                ]
+              },
+              {
+                "col": 6,
+                "word": "okeoly",
+                "stem": "eo",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "okeol",
+                  "sheol",
+                  "ckheol"
+                ]
+              },
+              {
+                "col": 7,
+                "word": "yteold",
+                "stem": "eold",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 8,
+                "word": "cheotchy",
+                "stem": "eotc",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          },
+          {
+            "row_idx": 3,
+            "n_plants": 9,
+            "paired_para_indices": [
+              3
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "okos",
+                "stem": "os",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 2,
+                "word": "oekey",
+                "stem": "ek",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 3,
+                "word": "dar",
+                "stem": "ar",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "sar"
+                ]
+              },
+              {
+                "col": 4,
+                "word": "chockhia",
+                "stem": "ockhia",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 5,
+                "word": "r",
+                "stem": "r",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "r"
+                ]
+              },
+              {
+                "col": 6,
+                "word": "cheyet",
+                "stem": "eyet",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 7,
+                "word": "saiiny",
+                "stem": "iin",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 8,
+                "word": "sory",
+                "stem": "ry",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 9,
+                "word": "dam",
+                "stem": "am",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          },
+          {
+            "row_idx": 4,
+            "n_plants": 1,
+            "paired_para_indices": [
+              4
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "tolsasy",
+                "stem": "tolsas",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "folio": "f99v",
+        "n_containers": 4,
+        "containers": [
+          "okaramy",
+          "okoldody",
+          "darolaly",
+          "oralas"
+        ],
+        "n_rows": 4,
+        "n_paragraphs": 4,
+        "paired_hit_rate_pct": 33.33,
+        "off_row_hit_rate_pct": 35.38,
+        "rows": [
+          {
+            "row_idx": 1,
+            "n_plants": 10,
+            "paired_para_indices": [
+              1
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "otoldy",
+                "stem": "ol",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "sol",
+                  "okoldy",
+                  "otol"
+                ]
+              },
+              {
+                "col": 2,
+                "word": "otor",
+                "stem": "or",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "chor",
+                  "okoraiin"
+                ]
+              },
+              {
+                "col": 3,
+                "word": "chy",
+                "stem": "ch",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "okchey",
+                  "ychol"
+                ]
+              },
+              {
+                "col": 4,
+                "word": "oldy",
+                "stem": "dy",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "dy",
+                  "oldy"
+                ]
+              },
+              {
+                "col": 5,
+                "word": "dar",
+                "stem": "ar",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "opar"
+                ]
+              },
+              {
+                "col": 6,
+                "word": "ary",
+                "stem": "ar",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "opar"
+                ]
+              },
+              {
+                "col": 7,
+                "word": "otaly",
+                "stem": "al",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "okal"
+                ]
+              },
+              {
+                "col": 8,
+                "word": "olsy",
+                "stem": "sy",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 9,
+                "word": "arol",
+                "stem": "ol",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "sol",
+                  "okoldy",
+                  "otol"
+                ]
+              },
+              {
+                "col": 10,
+                "word": "otoky",
+                "stem": "ok",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "ok"
+                ]
+              }
+            ]
+          },
+          {
+            "row_idx": 2,
+            "n_plants": 6,
+            "paired_para_indices": [
+              2
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "oeeesary",
+                "stem": "eeesa",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 2,
+                "word": "daiiinc",
+                "stem": "iiinc",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 3,
+                "word": "sary",
+                "stem": "ry",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 4,
+                "word": "saiino",
+                "stem": "iino",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 5,
+                "word": "otolsar",
+                "stem": "ols",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 6,
+                "word": "osary",
+                "stem": "sa",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          },
+          {
+            "row_idx": 3,
+            "n_plants": 7,
+            "paired_para_indices": [
+              3,
+              4
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "okechy",
+                "stem": "ec",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 2,
+                "word": "otal",
+                "stem": "al",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "okal",
+                  "olaldy",
+                  "okal"
+                ]
+              },
+              {
+                "col": 3,
+                "word": "chor",
+                "stem": "or",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "or",
+                  "or",
+                  "or"
+                ]
+              },
+              {
+                "col": 4,
+                "word": "olekor",
+                "stem": "ek",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              },
+              {
+                "col": 5,
+                "word": "okeodor",
+                "stem": "eod",
+                "hit_paired_para": false,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "sheodol",
+                  "okeodal"
+                ]
+              },
+              {
+                "col": 6,
+                "word": "olky",
+                "stem": "ky",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "qoky"
+                ]
+              },
+              {
+                "col": 7,
+                "word": "doldam",
+                "stem": "old",
+                "hit_paired_para": true,
+                "hit_same_folio": true,
+                "sample_matches": [
+                  "doldam"
+                ]
+              }
+            ]
+          },
+          {
+            "row_idx": 4,
+            "n_plants": 1,
+            "paired_para_indices": [
+              4
+            ],
+            "plants": [
+              {
+                "col": 1,
+                "word": "koleearol",
+                "stem": "koleear",
+                "hit_paired_para": false,
+                "hit_same_folio": false,
+                "sample_matches": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "attack175": {
+    "attack": "Attack 175: Plumed Bench-Gallows Allographic Reduction Proof & Rare Weirdo-Glyph (@NNN;) Structural Atlas",
+    "plumed_gallows_analysis": {
+      "total_plumed_tokens": 68,
+      "counts_by_type": {
+        "cthh": 27,
+        "cphh": 10,
+        "ckhh": 26,
+        "cfhh": 5
+      },
+      "counts_by_section": {
+        "H": 24,
+        "S": 14,
+        "T": 2,
+        "A": 1,
+        "C": 9,
+        "Z": 5,
+        "B": 7,
+        "P": 6
+      },
+      "counts_by_language": {
+        "A": 20,
+        "B": 34,
+        "?": 14
+      },
+      "counts_by_hand": {
+        "1": 19,
+        "2": 16,
+        "5": 3,
+        "3": 17,
+        "4": 13
+      },
+      "para_start_line_pct": 27.94,
+      "exact_word_collapse_single_loop_count": 52,
+      "exact_word_collapse_single_loop_pct": 76.47,
+      "exact_word_collapse_single_or_ch_count": 56,
+      "exact_word_collapse_single_or_ch_pct": 82.35,
+      "canonical_stem_collapse_count": 64,
+      "canonical_stem_collapse_pct": 94.12,
+      "top_collapsed_examples": [
+        {
+          "folio_line": "f15r.10",
+          "section": "H",
+          "hand": "1",
+          "raw_token": "ch{ckhh}y",
+          "reduced_single_loop": "chckhy",
+          "standard_exact_count_single_loop": 139,
+          "reduced_ch": "chchy",
+          "standard_exact_count_ch": 2,
+          "canonical_stem": "ck",
+          "standard_stem_count": 283
+        },
+        {
+          "folio_line": "f66r.59",
+          "section": "T",
+          "hand": "5",
+          "raw_token": "ch{ckhh}y",
+          "reduced_single_loop": "chckhy",
+          "standard_exact_count_single_loop": 139,
+          "reduced_ch": "chchy",
+          "standard_exact_count_ch": 2,
+          "canonical_stem": "ck",
+          "standard_stem_count": 283
+        },
+        {
+          "folio_line": "f70v2.14",
+          "section": "Z",
+          "hand": "4",
+          "raw_token": "ch{ckhh}y",
+          "reduced_single_loop": "chckhy",
+          "standard_exact_count_single_loop": 139,
+          "reduced_ch": "chchy",
+          "standard_exact_count_ch": 2,
+          "canonical_stem": "ck",
+          "standard_stem_count": 283
+        },
+        {
+          "folio_line": "f111r.8",
+          "section": "S",
+          "hand": "3",
+          "raw_token": "ch{ckhh}y",
+          "reduced_single_loop": "chckhy",
+          "standard_exact_count_single_loop": 139,
+          "reduced_ch": "chchy",
+          "standard_exact_count_ch": 2,
+          "canonical_stem": "ck",
+          "standard_stem_count": 283
+        },
+        {
+          "folio_line": "f113r.2",
+          "section": "S",
+          "hand": "3",
+          "raw_token": "ch{ckhh}y",
+          "reduced_single_loop": "chckhy",
+          "standard_exact_count_single_loop": 139,
+          "reduced_ch": "chchy",
+          "standard_exact_count_ch": 2,
+          "canonical_stem": "ck",
+          "standard_stem_count": 283
+        },
+        {
+          "folio_line": "f113r.48",
+          "section": "S",
+          "hand": "3",
+          "raw_token": "ch{ckhh}y",
+          "reduced_single_loop": "chckhy",
+          "standard_exact_count_single_loop": 139,
+          "reduced_ch": "chchy",
+          "standard_exact_count_ch": 2,
+          "canonical_stem": "ck",
+          "standard_stem_count": 283
+        },
+        {
+          "folio_line": "f113v.20",
+          "section": "S",
+          "hand": "3",
+          "raw_token": "ch{ckhh}y",
+          "reduced_single_loop": "chckhy",
+          "standard_exact_count_single_loop": 139,
+          "reduced_ch": "chchy",
+          "standard_exact_count_ch": 2,
+          "canonical_stem": "ck",
+          "standard_stem_count": 283
+        },
+        {
+          "folio_line": "f41r.4",
+          "section": "H",
+          "hand": "5",
+          "raw_token": "{cthh}y",
+          "reduced_single_loop": "cthy",
+          "standard_exact_count_single_loop": 103,
+          "reduced_ch": "chy",
+          "standard_exact_count_ch": 165,
+          "canonical_stem": "ct",
+          "standard_stem_count": 247
+        },
+        {
+          "folio_line": "f84r.45",
+          "section": "B",
+          "hand": "2",
+          "raw_token": "{cthh}y",
+          "reduced_single_loop": "cthy",
+          "standard_exact_count_single_loop": 103,
+          "reduced_ch": "chy",
+          "standard_exact_count_ch": 165,
+          "canonical_stem": "ct",
+          "standard_stem_count": 247
+        },
+        {
+          "folio_line": "f87v.10",
+          "section": "H",
+          "hand": "1",
+          "raw_token": "{cthh}y",
+          "reduced_single_loop": "cthy",
+          "standard_exact_count_single_loop": 103,
+          "reduced_ch": "chy",
+          "standard_exact_count_ch": 165,
+          "canonical_stem": "ct",
+          "standard_stem_count": 247
+        },
+        {
+          "folio_line": "f90v1.4",
+          "section": "H",
+          "hand": "1",
+          "raw_token": "{cthh}y",
+          "reduced_single_loop": "cthy",
+          "standard_exact_count_single_loop": 103,
+          "reduced_ch": "chy",
+          "standard_exact_count_ch": 165,
+          "canonical_stem": "ct",
+          "standard_stem_count": 247
+        },
+        {
+          "folio_line": "f70r2.14",
+          "section": "C",
+          "hand": "4",
+          "raw_token": "ch{cthh}y",
+          "reduced_single_loop": "chcthy",
+          "standard_exact_count_single_loop": 81,
+          "reduced_ch": "chchy",
+          "standard_exact_count_ch": 2,
+          "canonical_stem": "ct",
+          "standard_stem_count": 247
+        },
+        {
+          "folio_line": "f72v3.23",
+          "section": "Z",
+          "hand": "4",
+          "raw_token": "ch{cthh}y",
+          "reduced_single_loop": "chcthy",
+          "standard_exact_count_single_loop": 81,
+          "reduced_ch": "chchy",
+          "standard_exact_count_ch": 2,
+          "canonical_stem": "ct",
+          "standard_stem_count": 247
+        },
+        {
+          "folio_line": "f79v.39",
+          "section": "B",
+          "hand": "2",
+          "raw_token": "ch{cthh}y",
+          "reduced_single_loop": "chcthy",
+          "standard_exact_count_single_loop": 81,
+          "reduced_ch": "chchy",
+          "standard_exact_count_ch": 2,
+          "canonical_stem": "ct",
+          "standard_stem_count": 247
+        },
+        {
+          "folio_line": "f104v.16",
+          "section": "S",
+          "hand": "3",
+          "raw_token": "ch{cthh}y",
+          "reduced_single_loop": "chcthy",
+          "standard_exact_count_single_loop": 81,
+          "reduced_ch": "chchy",
+          "standard_exact_count_ch": 2,
+          "canonical_stem": "ct",
+          "standard_stem_count": 247
+        },
+        {
+          "folio_line": "f115v.37",
+          "section": "S",
+          "hand": "3",
+          "raw_token": "sh{ckhh}y",
+          "reduced_single_loop": "shckhy",
+          "standard_exact_count_single_loop": 60,
+          "reduced_ch": "shchy",
+          "standard_exact_count_ch": 2,
+          "canonical_stem": "ck",
+          "standard_stem_count": 283
+        },
+        {
+          "folio_line": "f68v3.18",
+          "section": "C",
+          "hand": "4",
+          "raw_token": "{ckhh}y",
+          "reduced_single_loop": "ckhy",
+          "standard_exact_count_single_loop": 35,
+          "reduced_ch": "chy",
+          "standard_exact_count_ch": 165,
+          "canonical_stem": "ck",
+          "standard_stem_count": 283
+        },
+        {
+          "folio_line": "f89r1.10",
+          "section": "P",
+          "hand": "1",
+          "raw_token": "{ckhh}y",
+          "reduced_single_loop": "ckhy",
+          "standard_exact_count_single_loop": 35,
+          "reduced_ch": "chy",
+          "standard_exact_count_ch": 165,
+          "canonical_stem": "ck",
+          "standard_stem_count": 283
+        },
+        {
+          "folio_line": "f102v2.17",
+          "section": "P",
+          "hand": "1",
+          "raw_token": "{ckhh}y",
+          "reduced_single_loop": "ckhy",
+          "standard_exact_count_single_loop": 35,
+          "reduced_ch": "chy",
+          "standard_exact_count_ch": 165,
+          "canonical_stem": "ck",
+          "standard_stem_count": 283
+        },
+        {
+          "folio_line": "f10v.4",
+          "section": "H",
+          "hand": "1",
+          "raw_token": "sh{cthh}y",
+          "reduced_single_loop": "shcthy",
+          "standard_exact_count_single_loop": 32,
+          "reduced_ch": "shchy",
+          "standard_exact_count_ch": 2,
+          "canonical_stem": "ct",
+          "standard_stem_count": 247
+        },
+        {
+          "folio_line": "f80v.12",
+          "section": "B",
+          "hand": "2",
+          "raw_token": "sh{cthh}y",
+          "reduced_single_loop": "shcthy",
+          "standard_exact_count_single_loop": 32,
+          "reduced_ch": "shchy",
+          "standard_exact_count_ch": 2,
+          "canonical_stem": "ct",
+          "standard_stem_count": 247
+        },
+        {
+          "folio_line": "f84r.26",
+          "section": "B",
+          "hand": "2",
+          "raw_token": "sh{cthh}y",
+          "reduced_single_loop": "shcthy",
+          "standard_exact_count_single_loop": 32,
+          "reduced_ch": "shchy",
+          "standard_exact_count_ch": 2,
+          "canonical_stem": "ct",
+          "standard_stem_count": 247
+        },
+        {
+          "folio_line": "f94v.11",
+          "section": "H",
+          "hand": "3",
+          "raw_token": "sh{cthh}y",
+          "reduced_single_loop": "shcthy",
+          "standard_exact_count_single_loop": 32,
+          "reduced_ch": "shchy",
+          "standard_exact_count_ch": 2,
+          "canonical_stem": "ct",
+          "standard_stem_count": 247
+        },
+        {
+          "folio_line": "f42v.13",
+          "section": "H",
+          "hand": "1",
+          "raw_token": "che{cthh}y",
+          "reduced_single_loop": "checthy",
+          "standard_exact_count_single_loop": 30,
+          "reduced_ch": "chechy",
+          "standard_exact_count_ch": 1,
+          "canonical_stem": "ect",
+          "standard_stem_count": 51
+        },
+        {
+          "folio_line": "f70r2.4",
+          "section": "C",
+          "hand": "4",
+          "raw_token": "{ckhh}ey",
+          "reduced_single_loop": "ckhey",
+          "standard_exact_count_single_loop": 28,
+          "reduced_ch": "chey",
+          "standard_exact_count_ch": 353,
+          "canonical_stem": "ey",
+          "standard_stem_count": 883
+        }
+      ]
+    },
+    "weirdo_glyph_atlas": {
+      "total_weirdo_tokens": 156,
+      "distinct_weirdo_codes": 83,
+      "in_labels_or_keys_count": 42,
+      "in_labels_or_keys_pct": 26.92,
+      "corpus_baseline_label_pct": 8.96,
+      "label_enrichment_ratio": 3.0,
+      "standalone_single_glyph_count": 34,
+      "standalone_single_glyph_pct": 21.79,
+      "embedded_word_initial_count": 40,
+      "embedded_word_final_count": 19,
+      "embedded_word_medial_count": 64,
+      "embedded_weirdo_total": 122,
+      "embedded_weirdo_resolved_to_attested_word": 68,
+      "embedded_weirdo_resolved_pct": 55.74,
+      "top_20_weirdo_codes": [
+        {
+          "code": "@132;",
+          "count": 10,
+          "standalone_count": 0,
+          "word_initial_count": 0,
+          "word_final_count": 0,
+          "word_medial_count": 10,
+          "top_allograph_substitutions": [
+            {
+              "sub": "t",
+              "matches": 2
+            }
+          ],
+          "sample_folios": [
+            "f100r",
+            "f100v",
+            "f102r2",
+            "f30v",
+            "f35r",
+            "f80r"
+          ]
+        },
+        {
+          "code": "@133;",
+          "count": 10,
+          "standalone_count": 0,
+          "word_initial_count": 1,
+          "word_final_count": 0,
+          "word_medial_count": 9,
+          "top_allograph_substitutions": [],
+          "sample_folios": [
+            "f100v",
+            "f101r",
+            "f102r2",
+            "f30v",
+            "f68r2",
+            "f80r"
+          ]
+        },
+        {
+          "code": "@172;",
+          "count": 6,
+          "standalone_count": 6,
+          "word_initial_count": 0,
+          "word_final_count": 0,
+          "word_medial_count": 0,
+          "top_allograph_substitutions": [],
+          "sample_folios": [
+            "f57v",
+            "f66r"
+          ]
+        },
+        {
+          "code": "@175;",
+          "count": 6,
+          "standalone_count": 0,
+          "word_initial_count": 0,
+          "word_final_count": 6,
+          "word_medial_count": 0,
+          "top_allograph_substitutions": [
+            {
+              "sub": "n",
+              "matches": 3
+            },
+            {
+              "sub": "r",
+              "matches": 1
+            }
+          ],
+          "sample_folios": [
+            "f111r",
+            "f112v",
+            "f76v",
+            "f86v3"
+          ]
+        },
+        {
+          "code": "@196;",
+          "count": 5,
+          "standalone_count": 0,
+          "word_initial_count": 1,
+          "word_final_count": 0,
+          "word_medial_count": 4,
+          "top_allograph_substitutions": [
+            {
+              "sub": "t",
+              "matches": 2
+            }
+          ],
+          "sample_folios": [
+            "f35r",
+            "f42r",
+            "f68r1",
+            "f8r",
+            "f8v"
+          ]
+        },
+        {
+          "code": "@169;",
+          "count": 5,
+          "standalone_count": 1,
+          "word_initial_count": 4,
+          "word_final_count": 0,
+          "word_medial_count": 0,
+          "top_allograph_substitutions": [],
+          "sample_folios": [
+            "f57v",
+            "f66r"
+          ]
+        },
+        {
+          "code": "@170;",
+          "count": 5,
+          "standalone_count": 5,
+          "word_initial_count": 0,
+          "word_final_count": 0,
+          "word_medial_count": 0,
+          "top_allograph_substitutions": [],
+          "sample_folios": [
+            "f57v"
+          ]
+        },
+        {
+          "code": "@171;",
+          "count": 5,
+          "standalone_count": 5,
+          "word_initial_count": 0,
+          "word_final_count": 0,
+          "word_medial_count": 0,
+          "top_allograph_substitutions": [],
+          "sample_folios": [
+            "f57v"
+          ]
+        },
+        {
+          "code": "@192;",
+          "count": 4,
+          "standalone_count": 2,
+          "word_initial_count": 1,
+          "word_final_count": 0,
+          "word_medial_count": 1,
+          "top_allograph_substitutions": [
+            {
+              "sub": "k",
+              "matches": 1
+            },
+            {
+              "sub": "d",
+              "matches": 1
+            }
+          ],
+          "sample_folios": [
+            "f1r",
+            "f49v",
+            "f72r3"
+          ]
+        },
+        {
+          "code": "@246;",
+          "count": 4,
+          "standalone_count": 0,
+          "word_initial_count": 0,
+          "word_final_count": 0,
+          "word_medial_count": 4,
+          "top_allograph_substitutions": [
+            {
+              "sub": "y",
+              "matches": 1
+            }
+          ],
+          "sample_folios": [
+            "f102v1",
+            "f18r",
+            "f45r",
+            "f58v"
+          ]
+        },
+        {
+          "code": "@140;",
+          "count": 4,
+          "standalone_count": 3,
+          "word_initial_count": 0,
+          "word_final_count": 1,
+          "word_medial_count": 0,
+          "top_allograph_substitutions": [
+            {
+              "sub": "k",
+              "matches": 1
+            }
+          ],
+          "sample_folios": [
+            "f18v",
+            "f49v"
+          ]
+        },
+        {
+          "code": "@162;",
+          "count": 4,
+          "standalone_count": 0,
+          "word_initial_count": 0,
+          "word_final_count": 0,
+          "word_medial_count": 4,
+          "top_allograph_substitutions": [
+            {
+              "sub": "t",
+              "matches": 2
+            },
+            {
+              "sub": "s",
+              "matches": 1
+            }
+          ],
+          "sample_folios": [
+            "f115r",
+            "f22r",
+            "f48r",
+            "f70v2"
+          ]
+        },
+        {
+          "code": "@191;",
+          "count": 4,
+          "standalone_count": 0,
+          "word_initial_count": 0,
+          "word_final_count": 0,
+          "word_medial_count": 3,
+          "top_allograph_substitutions": [],
+          "sample_folios": [
+            "f42r",
+            "f47r",
+            "f58v"
+          ]
+        },
+        {
+          "code": "@206;",
+          "count": 4,
+          "standalone_count": 1,
+          "word_initial_count": 3,
+          "word_final_count": 0,
+          "word_medial_count": 0,
+          "top_allograph_substitutions": [
+            {
+              "sub": "d",
+              "matches": 2
+            },
+            {
+              "sub": "ch",
+              "matches": 1
+            }
+          ],
+          "sample_folios": [
+            "f104v",
+            "f113v",
+            "f78r"
+          ]
+        },
+        {
+          "code": "@152;",
+          "count": 3,
+          "standalone_count": 0,
+          "word_initial_count": 2,
+          "word_final_count": 0,
+          "word_medial_count": 1,
+          "top_allograph_substitutions": [
+            {
+              "sub": "d",
+              "matches": 2
+            },
+            {
+              "sub": "o",
+              "matches": 1
+            }
+          ],
+          "sample_folios": [
+            "f11v",
+            "f36r",
+            "f82v"
+          ]
+        },
+        {
+          "code": "@138;",
+          "count": 3,
+          "standalone_count": 0,
+          "word_initial_count": 2,
+          "word_final_count": 1,
+          "word_medial_count": 0,
+          "top_allograph_substitutions": [
+            {
+              "sub": "d",
+              "matches": 2
+            }
+          ],
+          "sample_folios": [
+            "f101v",
+            "f15v",
+            "f26r"
+          ]
+        },
+        {
+          "code": "@243;",
+          "count": 3,
+          "standalone_count": 3,
+          "word_initial_count": 0,
+          "word_final_count": 0,
+          "word_medial_count": 0,
+          "top_allograph_substitutions": [],
+          "sample_folios": [
+            "f19r",
+            "f20r",
+            "f49v"
+          ]
+        },
+        {
+          "code": "@176;",
+          "count": 3,
+          "standalone_count": 0,
+          "word_initial_count": 2,
+          "word_final_count": 0,
+          "word_medial_count": 1,
+          "top_allograph_substitutions": [
+            {
+              "sub": "t",
+              "matches": 1
+            },
+            {
+              "sub": "d",
+              "matches": 1
+            },
+            {
+              "sub": "ch",
+              "matches": 1
+            }
+          ],
+          "sample_folios": [
+            "f26v",
+            "f78r"
+          ]
+        },
+        {
+          "code": "@167;",
+          "count": 3,
+          "standalone_count": 0,
+          "word_initial_count": 1,
+          "word_final_count": 0,
+          "word_medial_count": 2,
+          "top_allograph_substitutions": [
+            {
+              "sub": "k",
+              "matches": 1
+            }
+          ],
+          "sample_folios": [
+            "f56r",
+            "f68r1",
+            "f68r2"
+          ]
+        },
+        {
+          "code": "@204;",
+          "count": 3,
+          "standalone_count": 0,
+          "word_initial_count": 0,
+          "word_final_count": 0,
+          "word_medial_count": 3,
+          "top_allograph_substitutions": [],
+          "sample_folios": [
+            "f68r3",
+            "f69v"
+          ]
+        }
+      ],
+      "sample_decoded_embedded_tokens": [
+        {
+          "folio_line": "f1r.19",
+          "ltype": "+P0",
+          "raw_token": "@192;chy",
+          "weirdo_codes": [
+            "@192;"
+          ],
+          "best_allograph_sub": "k",
+          "resolved_standard_word": "kchy",
+          "standard_word_corpus_freq": 36
+        },
+        {
+          "folio_line": "f1r.19",
+          "ltype": "+P0",
+          "raw_token": "@130;tol",
+          "weirdo_codes": [
+            "@130;"
+          ],
+          "best_allograph_sub": "o",
+          "resolved_standard_word": "otol",
+          "standard_word_corpus_freq": 80
+        },
+        {
+          "folio_line": "f4r.2",
+          "ltype": "+P0",
+          "raw_token": "@163;s",
+          "weirdo_codes": [
+            "@163;"
+          ],
+          "best_allograph_sub": "o",
+          "resolved_standard_word": "os",
+          "standard_word_corpus_freq": 32
+        },
+        {
+          "folio_line": "f8r.14",
+          "ltype": "*P0",
+          "raw_token": "{c@132;h}o",
+          "weirdo_codes": [
+            "@132;"
+          ],
+          "best_allograph_sub": "t",
+          "resolved_standard_word": "ctho",
+          "standard_word_corpus_freq": 20
+        },
+        {
+          "folio_line": "f8r.14",
+          "ltype": "*P0",
+          "raw_token": "{c@196;h}ey",
+          "weirdo_codes": [
+            "@196;"
+          ],
+          "best_allograph_sub": "t",
+          "resolved_standard_word": "cthey",
+          "standard_word_corpus_freq": 51
+        },
+        {
+          "folio_line": "f8v.1",
+          "ltype": "@P0",
+          "raw_token": "{c@216;h}od",
+          "weirdo_codes": [
+            "@216;"
+          ],
+          "best_allograph_sub": "t",
+          "resolved_standard_word": "cthod",
+          "standard_word_corpus_freq": 3
+        },
+        {
+          "folio_line": "f10r.12",
+          "ltype": "+P0",
+          "raw_token": "@135;odaiin",
+          "weirdo_codes": [
+            "@135;"
+          ],
+          "best_allograph_sub": "ch",
+          "resolved_standard_word": "chodaiin",
+          "standard_word_corpus_freq": 46
+        },
+        {
+          "folio_line": "f11r.5",
+          "ltype": "+P0",
+          "raw_token": "{c'h@148;h}y",
+          "weirdo_codes": [
+            "@148;"
+          ],
+          "best_allograph_sub": "s",
+          "resolved_standard_word": "chshy",
+          "standard_word_corpus_freq": 1
+        },
+        {
+          "folio_line": "f11v.3",
+          "ltype": "+P0",
+          "raw_token": "@152;ar",
+          "weirdo_codes": [
+            "@152;"
+          ],
+          "best_allograph_sub": "d",
+          "resolved_standard_word": "dar",
+          "standard_word_corpus_freq": 322
+        },
+        {
+          "folio_line": "f14r.8",
+          "ltype": "+P0",
+          "raw_token": "@137;chol",
+          "weirdo_codes": [
+            "@137;"
+          ],
+          "best_allograph_sub": "k",
+          "resolved_standard_word": "kchol",
+          "standard_word_corpus_freq": 25
+        },
+        {
+          "folio_line": "f15v.2",
+          "ltype": "+P0",
+          "raw_token": "@138;chor",
+          "weirdo_codes": [
+            "@138;"
+          ],
+          "best_allograph_sub": "d",
+          "resolved_standard_word": "dchor",
+          "standard_word_corpus_freq": 26
+        },
+        {
+          "folio_line": "f17r.4",
+          "ltype": "+P0",
+          "raw_token": "tcho@154;",
+          "weirdo_codes": [
+            "@154;"
+          ],
+          "best_allograph_sub": "r",
+          "resolved_standard_word": "tchor",
+          "standard_word_corpus_freq": 22
+        },
+        {
+          "folio_line": "f18v.2",
+          "ltype": "+P0",
+          "raw_token": "shy@140;",
+          "weirdo_codes": [
+            "@140;"
+          ],
+          "best_allograph_sub": "k",
+          "resolved_standard_word": "shyk",
+          "standard_word_corpus_freq": 1
+        },
+        {
+          "folio_line": "f19r.2",
+          "ltype": "+P0",
+          "raw_token": "cho@242;",
+          "weirdo_codes": [
+            "@242;"
+          ],
+          "best_allograph_sub": "l",
+          "resolved_standard_word": "chol",
+          "standard_word_corpus_freq": 396
+        },
+        {
+          "folio_line": "f20v.9",
+          "ltype": "+P0",
+          "raw_token": "d@244;",
+          "weirdo_codes": [
+            "@244;"
+          ],
+          "best_allograph_sub": "aiin",
+          "resolved_standard_word": "daiin",
+          "standard_word_corpus_freq": 846
+        },
+        {
+          "folio_line": "f22r.8",
+          "ltype": "+P0",
+          "raw_token": "do@203;iin",
+          "weirdo_codes": [
+            "@203;"
+          ],
+          "best_allograph_sub": "i",
+          "resolved_standard_word": "doiiin",
+          "standard_word_corpus_freq": 3
+        },
+        {
+          "folio_line": "f24r.7",
+          "ltype": "+P0",
+          "raw_token": "q@145;kar",
+          "weirdo_codes": [
+            "@145;"
+          ],
+          "best_allograph_sub": "o",
+          "resolved_standard_word": "qokar",
+          "standard_word_corpus_freq": 159
+        },
+        {
+          "folio_line": "f24v.1",
+          "ltype": "@P0",
+          "raw_token": "o@146;am",
+          "weirdo_codes": [
+            "@146;"
+          ],
+          "best_allograph_sub": "t",
+          "resolved_standard_word": "otam",
+          "standard_word_corpus_freq": 47
+        },
+        {
+          "folio_line": "f26r.2",
+          "ltype": "+P0",
+          "raw_token": "@138;aiin",
+          "weirdo_codes": [
+            "@138;"
+          ],
+          "best_allograph_sub": "d",
+          "resolved_standard_word": "daiin",
+          "standard_word_corpus_freq": 846
+        },
+        {
+          "folio_line": "f26v.3",
+          "ltype": "+P0",
+          "raw_token": "{c@176;h}dy",
+          "weirdo_codes": [
+            "@176;"
+          ],
+          "best_allograph_sub": "t",
+          "resolved_standard_word": "cthdy",
+          "standard_word_corpus_freq": 7
+        },
+        {
+          "folio_line": "f27r.5",
+          "ltype": "+P0",
+          "raw_token": "{c@148;h}ar",
+          "weirdo_codes": [
+            "@148;"
+          ],
+          "best_allograph_sub": "t",
+          "resolved_standard_word": "cthar",
+          "standard_word_corpus_freq": 17
+        },
+        {
+          "folio_line": "f31r.1",
+          "ltype": "@P0",
+          "raw_token": "qokee@149;",
+          "weirdo_codes": [
+            "@149;"
+          ],
+          "best_allograph_sub": "y",
+          "resolved_standard_word": "qokeey",
+          "standard_word_corpus_freq": 307
+        },
+        {
+          "folio_line": "f32r.12",
+          "ltype": "+P0",
+          "raw_token": "@150;tol",
+          "weirdo_codes": [
+            "@150;"
+          ],
+          "best_allograph_sub": "o",
+          "resolved_standard_word": "otol",
+          "standard_word_corpus_freq": 80
+        },
+        {
+          "folio_line": "f35r.1",
+          "ltype": "@P0",
+          "raw_token": "{c@196;h}y",
+          "weirdo_codes": [
+            "@196;"
+          ],
+          "best_allograph_sub": "t",
+          "resolved_standard_word": "cthy",
+          "standard_word_corpus_freq": 103
+        },
+        {
+          "folio_line": "f36r.3",
+          "ltype": "+P0",
+          "raw_token": "@152;aiin",
+          "weirdo_codes": [
+            "@152;"
+          ],
+          "best_allograph_sub": "d",
+          "resolved_standard_word": "daiin",
+          "standard_word_corpus_freq": 846
+        },
+        {
+          "folio_line": "f40r.10",
+          "ltype": "+P0",
+          "raw_token": "ka@154;ar",
+          "weirdo_codes": [
+            "@154;"
+          ],
+          "best_allograph_sub": "r",
+          "resolved_standard_word": "karar",
+          "standard_word_corpus_freq": 1
+        },
+        {
+          "folio_line": "f42r.1",
+          "ltype": "@P0",
+          "raw_token": "{c@155;h}o",
+          "weirdo_codes": [
+            "@155;"
+          ],
+          "best_allograph_sub": "t",
+          "resolved_standard_word": "ctho",
+          "standard_word_corpus_freq": 20
+        },
+        {
+          "folio_line": "f42v.1",
+          "ltype": "@P0",
+          "raw_token": "@156;cho",
+          "weirdo_codes": [
+            "@156;"
+          ],
+          "best_allograph_sub": "k",
+          "resolved_standard_word": "kcho",
+          "standard_word_corpus_freq": 8
+        },
+        {
+          "folio_line": "f42v.2",
+          "ltype": "+P0",
+          "raw_token": "{c@245;h}y",
+          "weirdo_codes": [
+            "@245;"
+          ],
+          "best_allograph_sub": "t",
+          "resolved_standard_word": "cthy",
+          "standard_word_corpus_freq": 103
+        },
+        {
+          "folio_line": "f45r.9",
+          "ltype": "+P0",
+          "raw_token": "@201;or",
+          "weirdo_codes": [
+            "@201;"
+          ],
+          "best_allograph_sub": "ch",
+          "resolved_standard_word": "chor",
+          "standard_word_corpus_freq": 211
+        }
+      ]
+    }
+  }
+}

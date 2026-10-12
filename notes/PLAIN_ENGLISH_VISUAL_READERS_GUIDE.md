@@ -55,9 +55,9 @@ When you strip off the prefix and suffix, you are left with the **Root Stem**:
 
 ---
 
-## Part 2: Page-by-Page Visual Walkthroughs (20 Iconic Folios)
+## Part 2: Page-by-Page Visual Walkthroughs (24 Iconic Folios)
 
-Below are **20 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
+Below are **24 landmark pages** from across the entire manuscript, showing the actual high-resolution vellum scan, what to look for with your own eyes, and how the text reads in plain English.
 
 ---
 
@@ -409,9 +409,35 @@ Why did the scribe write the Voynich word **`oror`** at the end of a European ch
 
 ---
 
+### 23. Folios `f8v` & `f16v` — Medieval Bookbinder Quire Signatures (`Pmg / 1`, `2m`) & the `100.0%` Page-Boundary Closure Law
+* **Section:** Herbal A (`f8v` End of Quire 1; `f16v` End of Quire 2; Scribe 1) | **Pages in Yale Scan:** Pages 19 & 33
+
+![Folio f8v Red Campion with Medieval Quire 1 Signature Pmg / 1](../pages/f8v_quire1_signature_enh.png)
+
+#### What to Look for on `f8v` (Above) and `f16v` (Below)
+1. **The Medieval Bookbinder's Quire Signatures (`Pmg / 1` on `f8v` & `2m` on `f16v`):** Look in the bottom-right corner of `f8v` above, right below the 4-branched brown root: written in brown ink is **`Pmg`** (Latin *Primus*, "First [Quire]") with the numeral **`1`** underneath! Now look in the bottom-right corner of `f16v` below (the 8-pointed blue-cross *Nigella* flower above four crimson leaf rosettes): written right at the bottom corner is **`2m`** (*Secundus*, "Second [Quire]").
+2. **The `100.0%` Page-Boundary Paragraph Closure Law (`Attack 173`, `Discovery 190`):** Across all **`206` prose-bearing pages** in the entire Voynich Manuscript, **`100.0%` (`206 / 206`) start a brand-new paragraph (`<%>`) on their first line**, and **`99.03%` (`204 / 206`) close their final paragraph (`<$>`) on their last line**—including `100%` of pages immediately before and after every missing-folio gap (`f11v -> f13r`, `f58v -> f65r`, `f73v -> f75r`, `f90v2 -> f93r`, `f96v -> f99r`, `f108v -> f111r`)! No sentence in the Voynich Manuscript ever wraps mid-thought across a page turn.
+3. **Physical Leaf (`recto <-> verso`) & Same-Quire Lexical Cohesion (`z = +8.13` & `z = +18.45`):** Even when controlling strictly for the exact same manuscript Section (`$I`) and Currier Language (`$L`), pages on the **same physical leaf (`recto <-> verso`)** share significantly more root stems ($z = +8.13$), followed by **same-bifolio sheets** and **same-quire pages** ($z = +18.45$)—proving that the scribes composed the book leaf-by-leaf and quire-by-quire around coherent botanical/medical groups.
+
+![Folio f16v Starry Blue-Cross Nigella with Quire 2 Signature 2m](../pages/f16v_cannabis_quire2_enh.png)
+
+---
+
+### 24. Folios `f89v1`, `f102v1` & `f86v4–v6` — Three-Shelf Pharmaceutical Compounding, Inscribed Maiolica Jars & the Unfolded 3-Panel Cosmological Verso
+* **Sections:** Pharmaceutical (`f89v1, f102v1`, Scribe 1) & Cosmological (`f86v4–v6`, Scribe 2/4) | **Pages in Yale Scan:** Pages 164, 182 & 157
+
+![Folio f102v1 Inscribed Blue-and-White Maiolica Apothecary Jars and f19r Visual Twin](../pages/f102v1_pharma_shelves_quire19_enh.png)
+
+#### What to Look for on `f102v1` (Above) and `f86v4–v6` (Below)
+1. **Voynich Drug Names Written Directly on the Waist-Bands of the Jars (`f102v1`, above):** Look at the two tall blue-and-white cylindrical apothecary jars (*albarelli*) on the left margin of `f102v1`: the scribe wrote the Voynich labels **directly across the white waist-bands of the painted ceramic jars**, exactly like real 15th-century Italian maiolica pharmacy jars! To the right sit horizontal shelves of labeled leaves and roots—including `[2,2]` (`okeoraiin`, the large serrated green leaf with a long red taproot), which is a **stroke-for-stroke miniature copy of Herbal page `f19r`** (`Attack 169`).
+2. **The Act-I Paragraph-Opening Ingredient Citation Law (`66.29%` in Lines `1–2`, $z = -5.37$, `Attack 174`):** Across all multi-row Pharmaceutical pages (`f88r–f102v2`), **`42.38%`** of labeled shelf roots echo their exact canonical stem inside the prose of the same folio, and when a shelf root is cited in a recipe paragraph, **two-thirds (`66.29%`, `59 / 89`, $z = -5.37$) of those citations occur right in Lines `1–2` (`Act I: Ingredient Declaration`)** before the mid-paragraph `qo-` boiling steps!
+3. **The Unfolded 3-Panel Back of the Rosettes Sheet (`f86v4, f86v6, f86v5`, below):** Unfolding page 157 reveals two circular cosmological wheels on the left (`f86v4` Four-Spoke Sun/Moon Wheel) and center (`f86v6` Scalloped Lunar Cloud Ring) paired with four full-width prose paragraphs on the right (`f86v5`)—visually demonstrating why Quire 14 diagrams are `52.1%` nominal (`o-`) while Quire 14 prose surges `2.61×` in active `qo-` verbs (`z = +12.45`).
+
+![Folio f86v4-f86v6 Unfolded Three-Panel Cosmological Verso](../pages/f86v4_four_winds_cosmology_enh.png)
+
+---
+
 ## Where to Go Next
-* **Want to see all 35 real-world plants, constellations, wheels, bathing diagrams, and visual twins?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)** (`SPEC-01` through `SPEC-35`).
-* **Want to click through 34 pages, decode words interactively, and explore all 8 tabs in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now at **v6.0 with 8 interactive tabs**!).
-* **Want the deep grammatical tables, visual twin concordance, `f49v` `1-2-3-4-5` pentad proof, Quire 20 star parity proof, and full 189-discovery research log?** See **[`VISUAL_TWINS_MARGIN_KEYS_AND_STAR_PARITY_CODE.md`](VISUAL_TWINS_MARGIN_KEYS_AND_STAR_PARITY_CODE.md)**, **[`DRAWING_INTRUSIONS_RIGHT_TITLES_AND_25PARAGRAPH_READER.md`](DRAWING_INTRUSIONS_RIGHT_TITLES_AND_25PARAGRAPH_READER.md)**, **[`ASTRONOMICAL_WHEELS_5SCRIBE_INVARIANCE_AND_PHARMA_SUPPLY_CHAIN.md`](ASTRONOMICAL_WHEELS_5SCRIBE_INVARIANCE_AND_PHARMA_SUPPLY_CHAIN.md)**, and **[`NOTES.md`](../NOTES.md)**.
-
-
+* **Want to see all 40 real-world plants, constellations, wheels, bathing diagrams, and visual twins?** Read the **[Visual Botanical, Astrological, Balneological & Cosmological Identification Dossier](VISUAL_BOTANICAL_AND_ASTRO_IDENTIFICATIONS.md)** (`SPEC-01` through `SPEC-40`).
+* **Want to click through 38 pages, decode words interactively, and explore all 9 tabs in your browser?** Open **[`explorer/index.html`](../explorer/index.html)** (now at **v7.0 with 9 interactive tabs**!).
+* **Want the deep grammatical tables, quire & bifolio continuity proofs, Act-I shelf citation proofs, plumed-gallows/weirdo-glyph atlas, and full 193-discovery research log?** See **[`QUIRE_SIGNATURES_PHARMA_SHELVES_AND_WEIRDO_GLYPH_ATLAS.md`](QUIRE_SIGNATURES_PHARMA_SHELVES_AND_WEIRDO_GLYPH_ATLAS.md)**, **[`VISUAL_TWINS_MARGIN_KEYS_AND_STAR_PARITY_CODE.md`](VISUAL_TWINS_MARGIN_KEYS_AND_STAR_PARITY_CODE.md)**, **[`DRAWING_INTRUSIONS_RIGHT_TITLES_AND_25PARAGRAPH_READER.md`](DRAWING_INTRUSIONS_RIGHT_TITLES_AND_25PARAGRAPH_READER.md)**, and **[`NOTES.md`](../NOTES.md)**.

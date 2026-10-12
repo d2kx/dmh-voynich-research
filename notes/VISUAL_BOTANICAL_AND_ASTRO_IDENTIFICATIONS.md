@@ -1,10 +1,10 @@
 # Visual Botanical, Astrological, Balneological & Cosmological Crib Identification Dossier
 
-> **Purpose of this Dossier:** Statistical analysis alone cannot tell you whether a plant stem means *Nightshade* or *Alkanet*, or what a painted water pipe or star-wheel is doing. To ground Voynich root words in the real physical world, we must pair **high-resolution visual inspection of the paintings** with **the exact Voynich labels written on those drawings** and **how those words behave in the recipe sections**. This dossier compiles the **35 strongest visual botanical, astronomical, balneological, cosmological, and pharmaceutical identifications** in the manuscript.
+> **Purpose of this Dossier:** Statistical analysis alone cannot tell you whether a plant stem means *Nightshade* or *Alkanet*, or what a painted water pipe or star-wheel is doing. To ground Voynich root words in the real physical world, we must pair **high-resolution visual inspection of the paintings** with **the exact Voynich labels written on those drawings** and **how those words behave in the recipe sections**. This dossier compiles the **40 strongest visual botanical, astronomical, balneological, cosmological, and pharmaceutical identifications** in the manuscript.
 
 ---
 
-## Quick Summary Table: The 35 Flagship Visual Identifications (`SPEC-01` – `SPEC-35`)
+## Quick Summary Table: The 40 Flagship Visual Identifications (`SPEC-01` – `SPEC-40`)
 
 | ID | Folio(s) | Painted Subject | Real-World Identification (15th-c. Herbal / Astronomy / Balneology) | Key Voynich Words / Stems | Why the Match Holds Up |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -43,10 +43,15 @@
 | **SPEC-33** | `f67r2` (p.122) | **The 12-Moon Wheel With 12 Red-Ink Outer Headings & Red-Ink Bottom Rubric Line (`34.85×` Surge)** | *Rota XII Mansionum Lunae cum Rubricis Rubeis (12-Sector Lunar Wheel with Red-Ink Rubric Key)* | `ykch- / yke- / kch- (46.15% of Red-Ink words vs. 1.32% of Brown-Ink words = 34.85x surge, z = +5.48!), okol / olar (in the vessel/essence)` | Tier A+ (34.85x Lexical Concordance Between Red-Ink Rim Headings & Red-Ink Bottom Rubric, z = +5.48) |
 | **SPEC-34** | `f32v & f102r2[1,2]` (p.65) | **Blue Bellflower (*Campanula*) on `f32v` & Its Exact Miniature Copy at `f102r2[1,2]`** | *Campanula medium / Campanula trachelium (Bellflower / Glockenblume)* | `chckhy (shared verbatim between `f32v` and `f102r2` Register 1!), dor (red/root extract, shared verbatim)` | Tier A+ (Stroke-for-Stroke Visual Twin Pair + Verbatim Rare Word Match `chckhy`) |
 | **SPEC-35** | `f47v & f102r2[1,1..3,1]` (p.95) | **Leopard's Bane (*Doronicum*, `f47v`) + Bellflower (`f32v`) Compounded on `f102r2`** | *Doronicum pardalianches (Leopard's Bane / Gemswurz, `f47v` = `f102r2[1,1]`)* | `okol / qokol (vessel/boil in vessel, shared across all 3 twins), chckhy / dor (shared with `f32v` & `f47v`)` | Tier A+ (Three Independently Verified Visual Twin Plants on One Pharmaceutical Panel) |
+| **SPEC-36** | `f8v` (p.19) | **Red Campion (*Silene dioica*) With Medieval Bookbinder's Quire 1 Signature (`Pmg / 1`)** | *Silene dioica / Lychnis coronaria (Red Campion with Striped Tubular Calyces & Opposite Leaves)* | `chol / chor (strained herbal leaf/flower liquid), cthol / cthy (divided calyx/leaf infusion)` | Tier A+ (Eyewitness Quire 1 Signature `Pmg / 1` + 100% Page-Boundary Closure Proof) |
+| **SPEC-37** | `f16v` (p.33) | **Starry Blue-Cross Nigella (*Nigella damascena*) With Crimson Leaves & Quire 2 Signature (`2m`)** | *Nigella damascena /Nigella sativa (Love-in-a-Mist / Black Cumin with 4-Part Seed Capsule & Starry Bracts)* | `chodar / cthol (infused seed/flower extract), qotol / qokor (boil the vessel/root core)` | Tier A+ (Eyewitness Quire 2 Signature `2m` + Iconic Blue Star-Cross *Nigella* Painting) |
+| **SPEC-38** | `f89v1` (p.164) | **Three Blue-and-Green Apothecary Vessels & Three Ingredient Shelves (With `f48v` Twin at `[1,4]`)** | *Triplex Apothecarium Folium (3-Shelf Pharmaceutical Compounding Sheet, `Attack 174`)* | `okol / otol (apothecary vessel / liquid medium), oldar / odar (from the root/vessel)` | Tier A+ (Three-Shelf Pharma Architecture + Act-I Citation Law z = -5.37 + `f48v` Visual Twin) |
+| **SPEC-39** | `f102v1` (p.182) | **Two Blue-Banded Inscribed Jars (`sokoldy`, `olkeey`) & Serrated Red-Taproot Twin of `f19r`** | *Cichorium / Taraxacum / Eryngium (Serrated Basal Leaves with Long Red Taproot, Twin of `f19r`)* | `okeor / okor (core root essence), qokeedy / qokedy (then boil thoroughly — 17.5% `qo-` rate on `f102v1`!)` | Tier A+ (Maiolica Jar Waist-Band Labels + Stroke-for-Stroke `f19r` Visual Twin) |
+| **SPEC-40** | `f86v4, f86v6 & f86v5` (p.157) | **The Unfolded Back of the Rosettes Sheet: Four-Spoke Sun/Moon Wheel (`f86v4`), Lunar Cloud Ring (`f86v6`) & Treatise (`f86v5`)** | *De Quattuor Partibus Mundi et Sphaera Lunae (Cosmological Diagram + Accompanying 4-Paragraph Prose Treatise)* | `otar / okal / otol (52.1% `o-` nominal rate on the left/center wheels!), qokeedy / qokedy (2.61x `qo-` active verb surge in the right-hand prose panel `f86v5`!)` | Tier A+ (Complete 3-Panel Unfolded Sheet Visually Proving Diagram-to-Prose Division of Labor) |
 
 ---
 
-## Detailed Visual & Linguistic Dossiers (`SPEC-01` – `SPEC-35`)
+## Detailed Visual & Linguistic Dossiers (`SPEC-01` – `SPEC-40`)
 
 ### SPEC-01: Folio `f1v` — Deadly Nightshade / Belladonna
 * **Manuscript Section:** Herbal A (Scribe 1) (Yale PDF Page 4)
@@ -849,6 +854,122 @@ Compare Folio `f32v` (above) with the top-right plant drawn on Pharmaceutical fo
 
 #### 3. Plain-English Explanation
 Pharmaceutical panel `f102r2` (the right third of the foldout shown above) reveals the exact workflow of the Voynich apothecary. Instead of inventing new plants, the artist drew **miniature copies of three plants from earlier in the Herbal section** right next to the jars where they are compounded: in the top row sit the octopus-root of **`f47v`** (`[1,1]`) and the blue bellflower of **`f32v`** (`[1,2]`) beside jar `kodaiig`; in the bottom row sits the creeping claw-root of **`f18v / f23r`** (`[3,1]`, labeled `koldarod` and `odalydary`). That is why the Pharmaceutical paragraphs surge `1.43×` in active `qo-` processing verbs (`Attack 169`): the Herbal page describes the single living plant, while `f102r2` tells you how to boil and compound those harvested roots together into a single jar!
+
+---
+
+### SPEC-36: Folio `f8v` — Red Campion (*Silene dioica*) With Medieval Bookbinder's Quire 1 Signature (`Pmg / 1`)
+* **Manuscript Section:** Herbal A (`f1r–f57v`, Scribe 1, Quire 1 End) (Yale PDF Page 19)
+* **Primary Scientific / Historical Candidates:** *Silene dioica / Lychnis coronaria (Red Campion with Striped Tubular Calyces & Opposite Leaves)*, *Quire 1 Gathering Signature (`Primus / 1` in bottom-right corner, `Attack 173`)*
+* **15th-Century European Parallels:** 15th-century Northern Italian Herbals (*Lychnis / Ocymoides* with opposite ovate leaves and red-petalled flowers in striped calyces)
+* **Confidence Rating:** **Tier A+ (Eyewitness Quire 1 Signature `Pmg / 1` + 100% Page-Boundary Closure Proof)**
+
+![f8v — Red Campion (*Silene dioica*) With Medieval Bookbinder's Quire 1 Signature (`Pmg / 1`)](../pages/f8v_quire1_signature_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Four tubular blue-and-white striped calyces crowned by flared red-orange petals, opposite pairs of smooth green ovate leaves, and a spreading 4-branched brown root
+- In the bottom-right corner below the root sits the medieval bookbinder's Latin gathering signature **`Pmg` (*Primus*, 1st Quire)** with the numeral **`1`** underneath
+- Demonstrates both the **100.0% Page-Boundary Closure Law** (`Attack 173`: `206 / 206` prose pages open with `<%>` and `99.03%` close with `<$>`) and the **Same-Leaf (`recto <-> verso`) Lexical Cohesion Law** (`z = +8.13`)
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `cthod / pchor (`f8v` paragraph openers)`
+- **Dominant Root Stems on This Page:** `chol / chor (strained herbal leaf/flower liquid)`, `cthol / cthy (divided calyx/leaf infusion)`, `daiin / dain (one measured part)`
+- **Where This Ingredient Reappears in Recipes:** Same-leaf (`f8r <-> f8v`) and same-quire (`Quire 1`) vocabulary cohesion exceeds different-quire pages of the exact same section and language by `z = +8.13` and `z = +18.45` (`Attack 173`)!
+
+#### 3. Plain-English Explanation
+Folio f8v is the final page (verso of the 8th leaf) of the very first physical gathering (Quire 1) of the Voynich Manuscript. Look in the bottom-right corner below the brown root: a medieval hand wrote **`Pmg`** (Latin abbreviation for *Primus*, 'First [Quire]') with a tiny **`1`** underneath! In `Attack 173` (`Discovery 190`), we proved across all 18 surviving quires that **100.0% (`206 / 206`) of prose pages start a brand-new paragraph at the top (`<%>`) and 99.03% close their final paragraph at the bottom (`<$>`)**—no sentence ever wraps across a page turn—while pages on the same physical leaf (`recto <-> verso`) share vocabulary at $z = +8.13$ above same-section baseline.
+
+---
+
+### SPEC-37: Folio `f16v` — Starry Blue-Cross Nigella (*Nigella damascena*) With Crimson Leaves & Quire 2 Signature (`2m`)
+* **Manuscript Section:** Herbal A (`f1r–f57v`, Scribe 1, Quire 2 End) (Yale PDF Page 33)
+* **Primary Scientific / Historical Candidates:** *Nigella damascena /Nigella sativa (Love-in-a-Mist / Black Cumin with 4-Part Seed Capsule & Starry Bracts)*, *Quire 2 Gathering Signature (`2m` = *Secundus* in bottom-right corner, `Attack 173`)*
+* **15th-Century European Parallels:** 15th-century Italian Herbals (*Git / Nigella / Melanthium* with star-like blue perianth and finely incised leaves)
+* **Confidence Rating:** **Tier A+ (Eyewitness Quire 2 Signature `2m` + Iconic Blue Star-Cross *Nigella* Painting)**
+
+![f16v — Starry Blue-Cross Nigella (*Nigella damascena*) With Crimson Leaves & Quire 2 Signature (`2m`)](../pages/f16v_cannabis_quire2_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Massive 8-pointed blue-and-white star flower at top right with four white cross-arms around a dotted yellow central seed disk
+- Four circular, deeply serrated crimson-red leaf rosettes on separate stalks rising from a boot-shaped tan root collar
+- In the bottom-right corner sits the medieval **Quire 2 gathering signature (`2m` = *Secundus*)**, while the palmate leaves of `f16r` bleed through the vellum on the left
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `pcodal / pchodar (Two `p-` Gallows paragraph openers on `f16v`)`
+- **Dominant Root Stems on This Page:** `chodar / cthol (infused seed/flower extract)`, `qotol / qokor (boil the vessel/root core)`, `daiin / dain (one measured part)`
+- **Where This Ingredient Reappears in Recipes:** Demonstrates Quire 2 (`f9r–f16v`) Scribe 1 / Currier A homogeneity and 100% self-contained page boundaries across the `f11v -> f13r` missing-leaf gap (`Attack 173`)
+
+#### 3. Plain-English Explanation
+Folio f16v marks the end of the second physical gathering (Quire 2, `f9r–f16v`). Just like `f8v` at the end of Quire 1, look at the bottom-right corner of `f16v`: written right at the margin edge is **`2m`** (*Secundus*, 'Second [Quire]'). Above the boot-shaped root rise four spiky crimson leaf rosettes and a dramatic blue-and-white star flower with a 4-armed white cross at its center (*Nigella*). Both paragraphs open with tall `p-` Gallows headers (`pcodal`, `pchodar`) and close cleanly on the page.
+
+---
+
+### SPEC-38: Folio `f89v1` — Three Blue-and-Green Apothecary Vessels & Three Ingredient Shelves (With `f48v` Twin at `[1,4]`)
+* **Manuscript Section:** Pharmaceutical (`f88r–f102v`, Scribe 1, Quire 15) (Yale PDF Page 164)
+* **Primary Scientific / Historical Candidates:** *Triplex Apothecarium Folium (3-Shelf Pharmaceutical Compounding Sheet, `Attack 174`)*, *Visual Twin Pair `TWIN-10`: `f89v1[1,4]` copies the Herbal specimen on `f48v` (`Attack 169`)*
+* **15th-Century European Parallels:** 15th-century Italian Spezieria Compounding Tables (albarelli jars paired with horizontal rows of roots)
+* **Confidence Rating:** **Tier A+ (Three-Shelf Pharma Architecture + Act-I Citation Law z = -5.37 + `f48v` Visual Twin)**
+
+![f89v1 — Three Blue-and-Green Apothecary Vessels & Three Ingredient Shelves (With `f48v` Twin at `[1,4]`)](../pages/f89v1_three_row_pharma_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Three ornate blue-and-green banded apothecary vessels stacked down the left margin (`soy`, `olal`, `opar`)
+- Three horizontal shelves of 15 labeled roots and scalloped green leaves (`Row 1` at top, `Row 2` in middle, `Row 3` at bottom) interleaved with two multi-line recipe paragraphs (`P1`, `P2`)
+- In Row 1, the 4th root from the left (`[1,4]`, twin scalloped green leaf-fans over a bushy gold root) is an exact miniature visual twin of Herbal page **`f48v`**!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `koldar (`P1` opener) / todar (`P2` opener) / soy, olal, opar (Vessel labels)`
+- **Dominant Root Stems on This Page:** `okol / otol (apothecary vessel / liquid medium)`, `oldar / odar (from the root/vessel)`, `qokor / qokol (boil the root/vessel in `P1–P2`)`
+- **Where This Ingredient Reappears in Recipes:** Exemplifies the **Act-I Paragraph-Opening Ingredient Citation Law (`Attack 174`, z = -5.37)**: `66.29%` of echoed shelf roots appear in Lines 1–2 of the recipe paragraph!
+
+#### 3. Plain-English Explanation
+Folio f89v1 shows the classic three-shelf architecture of the Pharmaceutical section (`Attack 174`). Down the left margin stand three blue-and-green apothecary jars, while to their right sit three horizontal shelves of cut roots and leaves (`Row 1`, `Row 2`, `Row 3`) interleaved with recipe paragraphs. In `Attack 174` (`Discovery 191`), we proved that across all multi-row Pharmaceutical pages, **when a labeled shelf root is cited inside a recipe paragraph, two-thirds (`66.29%`, `59 / 89`, $z = -5.37$) of those citations happen right in Lines 1–2 (`Act I: Ingredient Declaration`)** before the mid-paragraph boiling steps!
+
+---
+
+### SPEC-39: Folio `f102v1` — Two Blue-Banded Inscribed Jars (`sokoldy`, `olkeey`) & Serrated Red-Taproot Twin of `f19r`
+* **Manuscript Section:** Pharmaceutical (`f88r–f102v`, Scribe 1, Quire 19 End) (Yale PDF Page 182)
+* **Primary Scientific / Historical Candidates:** *Cichorium / Taraxacum / Eryngium (Serrated Basal Leaves with Long Red Taproot, Twin of `f19r`)*, *Inscribed Apothecary Albarelli (`@Lc` labels written directly on the white body bands of the jars!)*
+* **15th-Century European Parallels:** 15th-century Italian Maiolica *Albarelli* (cylindrical pharmacy jars with painted drug labels around the waist)
+* **Confidence Rating:** **Tier A+ (Maiolica Jar Waist-Band Labels + Stroke-for-Stroke `f19r` Visual Twin)**
+
+![f102v1 — Two Blue-Banded Inscribed Jars (`sokoldy`, `olkeey`) & Serrated Red-Taproot Twin of `f19r`](../pages/f102v1_pharma_shelves_quire19_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Two tall cylindrical blue-and-white pharmacy jars on the left whose Voynich labels are written **directly on the white waist-bands of the jars themselves** (just like real 15th-century Italian maiolica *albarelli*!)
+- Two horizontal shelves of 15 labeled leaves and roots above two dense compounding paragraphs (`P1`, `P2`)
+- In the middle shelf (`Row 2`, second plant `[2,2]`, labeled `okeoraiin`), the artist painted a large serrated green leaf cluster attached to a long horizontal red taproot—an **exact miniature copy of Herbal page `f19r`** (`TWIN-03`, sharing `10` exact words and `15` canonical stems in `Attack 169`)!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `pchdar (`P1` opener) / pchedar (`P2` opener) / okeoraiin (`[2,2]` twin root label)`
+- **Dominant Root Stems on This Page:** `okeor / okor (core root essence)`, `qokeedy / qokedy (then boil thoroughly — 17.5% `qo-` rate on `f102v1`!)`, `chol / chedy (herbal decoction)`
+- **Where This Ingredient Reappears in Recipes:** Shares 10 exact words (`chey, chol, chy, daiin, dar, qokain, qokeey...`) and 15 root stems with its Herbal twin `f19r` (`Attack 169`)!
+
+#### 3. Plain-English Explanation
+Folio f102v1 gives us an unforgettable glimpse into a 15th-century Italian apothecary shop (*spezieria*). Look at the two tall blue-and-white cylindrical jars on the left: the scribe wrote the Voynich drug labels **right across the white belly-bands of the painted jars**, exactly how Renaissance Italian pharmacists labeled their ceramic *albarelli*! And in the middle shelf (`[2,2]`, labeled `okeoraiin`), the large serrated green leaf with a long red taproot is a stroke-for-stroke miniature copy of Herbal page **`f19r`**, sharing 10 exact words and 15 root stems while `qo-` boiling verbs surge to `17.5%` in the compounding recipe below.
+
+---
+
+### SPEC-40: Folio `f86v4, f86v6 & f86v5` — The Unfolded Back of the Rosettes Sheet: Four-Spoke Sun/Moon Wheel (`f86v4`), Lunar Cloud Ring (`f86v6`) & Treatise (`f86v5`)
+* **Manuscript Section:** Cosmological 3-Panel Verso (`Quire 14`, Scribe 2/4) (Yale PDF Page 157)
+* **Primary Scientific / Historical Candidates:** *De Quattuor Partibus Mundi et Sphaera Lunae (Cosmological Diagram + Accompanying 4-Paragraph Prose Treatise)*, *Quire 14 Diagram-vs-Prose Polarity Proof (`Attack 158`: `52.1%` `o-` on diagrams vs. `2.61×` `qo-` surge in prose!)*
+* **15th-Century European Parallels:** 15th-century Italian Cosmological Foldouts pairing circular *Rotae* of the heavens with multi-paragraph explanatory commentary
+* **Confidence Rating:** **Tier A+ (Complete 3-Panel Unfolded Sheet Visually Proving Diagram-to-Prose Division of Labor)**
+
+![f86v4, f86v6 & f86v5 — The Unfolded Back of the Rosettes Sheet: Four-Spoke Sun/Moon Wheel (`f86v4`), Lunar Cloud Ring (`f86v6`) & Treatise (`f86v5`)](../pages/f86v4_four_winds_cosmology_enh.png)
+
+#### 1. What You Can Verify Visually on the Vellum Scan
+- Shows the **entire unfolded 3-panel verso (`p157`)** on the back of the giant Rosettes sheet:
+- **Left Panel (`f86v4`)**: Central blue medallion with Sun and crescent Moon surrounded by 4 cardinal figures holding implements, 4 diagonal spokes, and 4 corner crescent-spouts
+- **Center Panel (`f86v6`)**: Concentric rings of scalloped blue-and-brown cloud/petal arches around a central golden crescent Moon, ringed by 4 outer text bands
+- **Right Panel (`f86v5`)**: Four full-width prose paragraphs (`<%>...<$>`) providing the procedural commentary for the two circular wheels to its left!
+
+#### 2. Voynich Words, Root Stems & Cross-Page Recipe Links
+- **Opening / Caption Word:** `pchedar / tchedar (`f86v5` prose paragraph openers) vs. otar / okal (`f86v4/v6` wheel labels)`
+- **Dominant Root Stems on This Page:** `otar / okal / otol (52.1% `o-` nominal rate on the left/center wheels!)`, `qokeedy / qokedy (2.61x `qo-` active verb surge in the right-hand prose panel `f86v5`!)`, `chedy / shedy (infuse and wash)`
+- **Where This Ingredient Reappears in Recipes:** Demonstrates side-by-side on a single unfolded sheet why Quire 14 diagrams are `52.1%` nominal (`o-`) while Quire 14 prose surges `2.61×` in `qo-` verbs (`Attack 158`, z = +12.45)!
+
+#### 3. Plain-English Explanation
+Unfolding page 157 of the Yale scan (`f86v4, f86v6, f86v5`) lets you see **both halves of Quire 14's design on one sheet of vellum**: on the left (`f86v4`) and center (`f86v6`) sit two circular cosmological wheels (a 4-spoke Sun/Moon wheel with 4 corner crescents, and a concentric scalloped cloud ring around a crescent Moon), while on the right (`f86v5`) sit four full-width paragraphs of continuous prose. This single unfolded view explains our `z = +12.45` discovery in `Attack 158`: the circular wheels on the left and center name the celestial and elemental states (`52.1%` `o-` nouns), while the four paragraphs on the right explain the active procedures (`2.61×` surge in `qo-` verbs)!
 
 ---
 

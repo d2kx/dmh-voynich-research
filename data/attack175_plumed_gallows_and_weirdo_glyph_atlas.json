@@ -1,0 +1,1063 @@
+{
+  "attack": "Attack 175: Plumed Bench-Gallows Allographic Reduction Proof & Rare Weirdo-Glyph (@NNN;) Structural Atlas",
+  "plumed_gallows_analysis": {
+    "total_plumed_tokens": 68,
+    "counts_by_type": {
+      "cthh": 27,
+      "cphh": 10,
+      "ckhh": 26,
+      "cfhh": 5
+    },
+    "counts_by_section": {
+      "H": 24,
+      "S": 14,
+      "T": 2,
+      "A": 1,
+      "C": 9,
+      "Z": 5,
+      "B": 7,
+      "P": 6
+    },
+    "counts_by_language": {
+      "A": 20,
+      "B": 34,
+      "?": 14
+    },
+    "counts_by_hand": {
+      "1": 19,
+      "2": 16,
+      "5": 3,
+      "3": 17,
+      "4": 13
+    },
+    "para_start_line_pct": 27.94,
+    "exact_word_collapse_single_loop_count": 52,
+    "exact_word_collapse_single_loop_pct": 76.47,
+    "exact_word_collapse_single_or_ch_count": 56,
+    "exact_word_collapse_single_or_ch_pct": 82.35,
+    "canonical_stem_collapse_count": 64,
+    "canonical_stem_collapse_pct": 94.12,
+    "top_collapsed_examples": [
+      {
+        "folio_line": "f15r.10",
+        "section": "H",
+        "hand": "1",
+        "raw_token": "ch{ckhh}y",
+        "reduced_single_loop": "chckhy",
+        "standard_exact_count_single_loop": 139,
+        "reduced_ch": "chchy",
+        "standard_exact_count_ch": 2,
+        "canonical_stem": "ck",
+        "standard_stem_count": 283
+      },
+      {
+        "folio_line": "f66r.59",
+        "section": "T",
+        "hand": "5",
+        "raw_token": "ch{ckhh}y",
+        "reduced_single_loop": "chckhy",
+        "standard_exact_count_single_loop": 139,
+        "reduced_ch": "chchy",
+        "standard_exact_count_ch": 2,
+        "canonical_stem": "ck",
+        "standard_stem_count": 283
+      },
+      {
+        "folio_line": "f70v2.14",
+        "section": "Z",
+        "hand": "4",
+        "raw_token": "ch{ckhh}y",
+        "reduced_single_loop": "chckhy",
+        "standard_exact_count_single_loop": 139,
+        "reduced_ch": "chchy",
+        "standard_exact_count_ch": 2,
+        "canonical_stem": "ck",
+        "standard_stem_count": 283
+      },
+      {
+        "folio_line": "f111r.8",
+        "section": "S",
+        "hand": "3",
+        "raw_token": "ch{ckhh}y",
+        "reduced_single_loop": "chckhy",
+        "standard_exact_count_single_loop": 139,
+        "reduced_ch": "chchy",
+        "standard_exact_count_ch": 2,
+        "canonical_stem": "ck",
+        "standard_stem_count": 283
+      },
+      {
+        "folio_line": "f113r.2",
+        "section": "S",
+        "hand": "3",
+        "raw_token": "ch{ckhh}y",
+        "reduced_single_loop": "chckhy",
+        "standard_exact_count_single_loop": 139,
+        "reduced_ch": "chchy",
+        "standard_exact_count_ch": 2,
+        "canonical_stem": "ck",
+        "standard_stem_count": 283
+      },
+      {
+        "folio_line": "f113r.48",
+        "section": "S",
+        "hand": "3",
+        "raw_token": "ch{ckhh}y",
+        "reduced_single_loop": "chckhy",
+        "standard_exact_count_single_loop": 139,
+        "reduced_ch": "chchy",
+        "standard_exact_count_ch": 2,
+        "canonical_stem": "ck",
+        "standard_stem_count": 283
+      },
+      {
+        "folio_line": "f113v.20",
+        "section": "S",
+        "hand": "3",
+        "raw_token": "ch{ckhh}y",
+        "reduced_single_loop": "chckhy",
+        "standard_exact_count_single_loop": 139,
+        "reduced_ch": "chchy",
+        "standard_exact_count_ch": 2,
+        "canonical_stem": "ck",
+        "standard_stem_count": 283
+      },
+      {
+        "folio_line": "f41r.4",
+        "section": "H",
+        "hand": "5",
+        "raw_token": "{cthh}y",
+        "reduced_single_loop": "cthy",
+        "standard_exact_count_single_loop": 103,
+        "reduced_ch": "chy",
+        "standard_exact_count_ch": 165,
+        "canonical_stem": "ct",
+        "standard_stem_count": 247
+      },
+      {
+        "folio_line": "f84r.45",
+        "section": "B",
+        "hand": "2",
+        "raw_token": "{cthh}y",
+        "reduced_single_loop": "cthy",
+        "standard_exact_count_single_loop": 103,
+        "reduced_ch": "chy",
+        "standard_exact_count_ch": 165,
+        "canonical_stem": "ct",
+        "standard_stem_count": 247
+      },
+      {
+        "folio_line": "f87v.10",
+        "section": "H",
+        "hand": "1",
+        "raw_token": "{cthh}y",
+        "reduced_single_loop": "cthy",
+        "standard_exact_count_single_loop": 103,
+        "reduced_ch": "chy",
+        "standard_exact_count_ch": 165,
+        "canonical_stem": "ct",
+        "standard_stem_count": 247
+      },
+      {
+        "folio_line": "f90v1.4",
+        "section": "H",
+        "hand": "1",
+        "raw_token": "{cthh}y",
+        "reduced_single_loop": "cthy",
+        "standard_exact_count_single_loop": 103,
+        "reduced_ch": "chy",
+        "standard_exact_count_ch": 165,
+        "canonical_stem": "ct",
+        "standard_stem_count": 247
+      },
+      {
+        "folio_line": "f70r2.14",
+        "section": "C",
+        "hand": "4",
+        "raw_token": "ch{cthh}y",
+        "reduced_single_loop": "chcthy",
+        "standard_exact_count_single_loop": 81,
+        "reduced_ch": "chchy",
+        "standard_exact_count_ch": 2,
+        "canonical_stem": "ct",
+        "standard_stem_count": 247
+      },
+      {
+        "folio_line": "f72v3.23",
+        "section": "Z",
+        "hand": "4",
+        "raw_token": "ch{cthh}y",
+        "reduced_single_loop": "chcthy",
+        "standard_exact_count_single_loop": 81,
+        "reduced_ch": "chchy",
+        "standard_exact_count_ch": 2,
+        "canonical_stem": "ct",
+        "standard_stem_count": 247
+      },
+      {
+        "folio_line": "f79v.39",
+        "section": "B",
+        "hand": "2",
+        "raw_token": "ch{cthh}y",
+        "reduced_single_loop": "chcthy",
+        "standard_exact_count_single_loop": 81,
+        "reduced_ch": "chchy",
+        "standard_exact_count_ch": 2,
+        "canonical_stem": "ct",
+        "standard_stem_count": 247
+      },
+      {
+        "folio_line": "f104v.16",
+        "section": "S",
+        "hand": "3",
+        "raw_token": "ch{cthh}y",
+        "reduced_single_loop": "chcthy",
+        "standard_exact_count_single_loop": 81,
+        "reduced_ch": "chchy",
+        "standard_exact_count_ch": 2,
+        "canonical_stem": "ct",
+        "standard_stem_count": 247
+      },
+      {
+        "folio_line": "f115v.37",
+        "section": "S",
+        "hand": "3",
+        "raw_token": "sh{ckhh}y",
+        "reduced_single_loop": "shckhy",
+        "standard_exact_count_single_loop": 60,
+        "reduced_ch": "shchy",
+        "standard_exact_count_ch": 2,
+        "canonical_stem": "ck",
+        "standard_stem_count": 283
+      },
+      {
+        "folio_line": "f68v3.18",
+        "section": "C",
+        "hand": "4",
+        "raw_token": "{ckhh}y",
+        "reduced_single_loop": "ckhy",
+        "standard_exact_count_single_loop": 35,
+        "reduced_ch": "chy",
+        "standard_exact_count_ch": 165,
+        "canonical_stem": "ck",
+        "standard_stem_count": 283
+      },
+      {
+        "folio_line": "f89r1.10",
+        "section": "P",
+        "hand": "1",
+        "raw_token": "{ckhh}y",
+        "reduced_single_loop": "ckhy",
+        "standard_exact_count_single_loop": 35,
+        "reduced_ch": "chy",
+        "standard_exact_count_ch": 165,
+        "canonical_stem": "ck",
+        "standard_stem_count": 283
+      },
+      {
+        "folio_line": "f102v2.17",
+        "section": "P",
+        "hand": "1",
+        "raw_token": "{ckhh}y",
+        "reduced_single_loop": "ckhy",
+        "standard_exact_count_single_loop": 35,
+        "reduced_ch": "chy",
+        "standard_exact_count_ch": 165,
+        "canonical_stem": "ck",
+        "standard_stem_count": 283
+      },
+      {
+        "folio_line": "f10v.4",
+        "section": "H",
+        "hand": "1",
+        "raw_token": "sh{cthh}y",
+        "reduced_single_loop": "shcthy",
+        "standard_exact_count_single_loop": 32,
+        "reduced_ch": "shchy",
+        "standard_exact_count_ch": 2,
+        "canonical_stem": "ct",
+        "standard_stem_count": 247
+      },
+      {
+        "folio_line": "f80v.12",
+        "section": "B",
+        "hand": "2",
+        "raw_token": "sh{cthh}y",
+        "reduced_single_loop": "shcthy",
+        "standard_exact_count_single_loop": 32,
+        "reduced_ch": "shchy",
+        "standard_exact_count_ch": 2,
+        "canonical_stem": "ct",
+        "standard_stem_count": 247
+      },
+      {
+        "folio_line": "f84r.26",
+        "section": "B",
+        "hand": "2",
+        "raw_token": "sh{cthh}y",
+        "reduced_single_loop": "shcthy",
+        "standard_exact_count_single_loop": 32,
+        "reduced_ch": "shchy",
+        "standard_exact_count_ch": 2,
+        "canonical_stem": "ct",
+        "standard_stem_count": 247
+      },
+      {
+        "folio_line": "f94v.11",
+        "section": "H",
+        "hand": "3",
+        "raw_token": "sh{cthh}y",
+        "reduced_single_loop": "shcthy",
+        "standard_exact_count_single_loop": 32,
+        "reduced_ch": "shchy",
+        "standard_exact_count_ch": 2,
+        "canonical_stem": "ct",
+        "standard_stem_count": 247
+      },
+      {
+        "folio_line": "f42v.13",
+        "section": "H",
+        "hand": "1",
+        "raw_token": "che{cthh}y",
+        "reduced_single_loop": "checthy",
+        "standard_exact_count_single_loop": 30,
+        "reduced_ch": "chechy",
+        "standard_exact_count_ch": 1,
+        "canonical_stem": "ect",
+        "standard_stem_count": 51
+      },
+      {
+        "folio_line": "f70r2.4",
+        "section": "C",
+        "hand": "4",
+        "raw_token": "{ckhh}ey",
+        "reduced_single_loop": "ckhey",
+        "standard_exact_count_single_loop": 28,
+        "reduced_ch": "chey",
+        "standard_exact_count_ch": 353,
+        "canonical_stem": "ey",
+        "standard_stem_count": 883
+      }
+    ]
+  },
+  "weirdo_glyph_atlas": {
+    "total_weirdo_tokens": 156,
+    "distinct_weirdo_codes": 83,
+    "in_labels_or_keys_count": 42,
+    "in_labels_or_keys_pct": 26.92,
+    "corpus_baseline_label_pct": 8.96,
+    "label_enrichment_ratio": 3.0,
+    "standalone_single_glyph_count": 34,
+    "standalone_single_glyph_pct": 21.79,
+    "embedded_word_initial_count": 40,
+    "embedded_word_final_count": 19,
+    "embedded_word_medial_count": 64,
+    "embedded_weirdo_total": 122,
+    "embedded_weirdo_resolved_to_attested_word": 68,
+    "embedded_weirdo_resolved_pct": 55.74,
+    "top_20_weirdo_codes": [
+      {
+        "code": "@132;",
+        "count": 10,
+        "standalone_count": 0,
+        "word_initial_count": 0,
+        "word_final_count": 0,
+        "word_medial_count": 10,
+        "top_allograph_substitutions": [
+          {
+            "sub": "t",
+            "matches": 2
+          }
+        ],
+        "sample_folios": [
+          "f100r",
+          "f100v",
+          "f102r2",
+          "f30v",
+          "f35r",
+          "f80r"
+        ]
+      },
+      {
+        "code": "@133;",
+        "count": 10,
+        "standalone_count": 0,
+        "word_initial_count": 1,
+        "word_final_count": 0,
+        "word_medial_count": 9,
+        "top_allograph_substitutions": [],
+        "sample_folios": [
+          "f100v",
+          "f101r",
+          "f102r2",
+          "f30v",
+          "f68r2",
+          "f80r"
+        ]
+      },
+      {
+        "code": "@172;",
+        "count": 6,
+        "standalone_count": 6,
+        "word_initial_count": 0,
+        "word_final_count": 0,
+        "word_medial_count": 0,
+        "top_allograph_substitutions": [],
+        "sample_folios": [
+          "f57v",
+          "f66r"
+        ]
+      },
+      {
+        "code": "@175;",
+        "count": 6,
+        "standalone_count": 0,
+        "word_initial_count": 0,
+        "word_final_count": 6,
+        "word_medial_count": 0,
+        "top_allograph_substitutions": [
+          {
+            "sub": "n",
+            "matches": 3
+          },
+          {
+            "sub": "r",
+            "matches": 1
+          }
+        ],
+        "sample_folios": [
+          "f111r",
+          "f112v",
+          "f76v",
+          "f86v3"
+        ]
+      },
+      {
+        "code": "@196;",
+        "count": 5,
+        "standalone_count": 0,
+        "word_initial_count": 1,
+        "word_final_count": 0,
+        "word_medial_count": 4,
+        "top_allograph_substitutions": [
+          {
+            "sub": "t",
+            "matches": 2
+          }
+        ],
+        "sample_folios": [
+          "f35r",
+          "f42r",
+          "f68r1",
+          "f8r",
+          "f8v"
+        ]
+      },
+      {
+        "code": "@169;",
+        "count": 5,
+        "standalone_count": 1,
+        "word_initial_count": 4,
+        "word_final_count": 0,
+        "word_medial_count": 0,
+        "top_allograph_substitutions": [],
+        "sample_folios": [
+          "f57v",
+          "f66r"
+        ]
+      },
+      {
+        "code": "@170;",
+        "count": 5,
+        "standalone_count": 5,
+        "word_initial_count": 0,
+        "word_final_count": 0,
+        "word_medial_count": 0,
+        "top_allograph_substitutions": [],
+        "sample_folios": [
+          "f57v"
+        ]
+      },
+      {
+        "code": "@171;",
+        "count": 5,
+        "standalone_count": 5,
+        "word_initial_count": 0,
+        "word_final_count": 0,
+        "word_medial_count": 0,
+        "top_allograph_substitutions": [],
+        "sample_folios": [
+          "f57v"
+        ]
+      },
+      {
+        "code": "@192;",
+        "count": 4,
+        "standalone_count": 2,
+        "word_initial_count": 1,
+        "word_final_count": 0,
+        "word_medial_count": 1,
+        "top_allograph_substitutions": [
+          {
+            "sub": "k",
+            "matches": 1
+          },
+          {
+            "sub": "d",
+            "matches": 1
+          }
+        ],
+        "sample_folios": [
+          "f1r",
+          "f49v",
+          "f72r3"
+        ]
+      },
+      {
+        "code": "@246;",
+        "count": 4,
+        "standalone_count": 0,
+        "word_initial_count": 0,
+        "word_final_count": 0,
+        "word_medial_count": 4,
+        "top_allograph_substitutions": [
+          {
+            "sub": "y",
+            "matches": 1
+          }
+        ],
+        "sample_folios": [
+          "f102v1",
+          "f18r",
+          "f45r",
+          "f58v"
+        ]
+      },
+      {
+        "code": "@140;",
+        "count": 4,
+        "standalone_count": 3,
+        "word_initial_count": 0,
+        "word_final_count": 1,
+        "word_medial_count": 0,
+        "top_allograph_substitutions": [
+          {
+            "sub": "k",
+            "matches": 1
+          }
+        ],
+        "sample_folios": [
+          "f18v",
+          "f49v"
+        ]
+      },
+      {
+        "code": "@162;",
+        "count": 4,
+        "standalone_count": 0,
+        "word_initial_count": 0,
+        "word_final_count": 0,
+        "word_medial_count": 4,
+        "top_allograph_substitutions": [
+          {
+            "sub": "t",
+            "matches": 2
+          },
+          {
+            "sub": "s",
+            "matches": 1
+          }
+        ],
+        "sample_folios": [
+          "f115r",
+          "f22r",
+          "f48r",
+          "f70v2"
+        ]
+      },
+      {
+        "code": "@191;",
+        "count": 4,
+        "standalone_count": 0,
+        "word_initial_count": 0,
+        "word_final_count": 0,
+        "word_medial_count": 3,
+        "top_allograph_substitutions": [],
+        "sample_folios": [
+          "f42r",
+          "f47r",
+          "f58v"
+        ]
+      },
+      {
+        "code": "@206;",
+        "count": 4,
+        "standalone_count": 1,
+        "word_initial_count": 3,
+        "word_final_count": 0,
+        "word_medial_count": 0,
+        "top_allograph_substitutions": [
+          {
+            "sub": "d",
+            "matches": 2
+          },
+          {
+            "sub": "ch",
+            "matches": 1
+          }
+        ],
+        "sample_folios": [
+          "f104v",
+          "f113v",
+          "f78r"
+        ]
+      },
+      {
+        "code": "@152;",
+        "count": 3,
+        "standalone_count": 0,
+        "word_initial_count": 2,
+        "word_final_count": 0,
+        "word_medial_count": 1,
+        "top_allograph_substitutions": [
+          {
+            "sub": "d",
+            "matches": 2
+          },
+          {
+            "sub": "o",
+            "matches": 1
+          }
+        ],
+        "sample_folios": [
+          "f11v",
+          "f36r",
+          "f82v"
+        ]
+      },
+      {
+        "code": "@138;",
+        "count": 3,
+        "standalone_count": 0,
+        "word_initial_count": 2,
+        "word_final_count": 1,
+        "word_medial_count": 0,
+        "top_allograph_substitutions": [
+          {
+            "sub": "d",
+            "matches": 2
+          }
+        ],
+        "sample_folios": [
+          "f101v",
+          "f15v",
+          "f26r"
+        ]
+      },
+      {
+        "code": "@243;",
+        "count": 3,
+        "standalone_count": 3,
+        "word_initial_count": 0,
+        "word_final_count": 0,
+        "word_medial_count": 0,
+        "top_allograph_substitutions": [],
+        "sample_folios": [
+          "f19r",
+          "f20r",
+          "f49v"
+        ]
+      },
+      {
+        "code": "@176;",
+        "count": 3,
+        "standalone_count": 0,
+        "word_initial_count": 2,
+        "word_final_count": 0,
+        "word_medial_count": 1,
+        "top_allograph_substitutions": [
+          {
+            "sub": "t",
+            "matches": 1
+          },
+          {
+            "sub": "d",
+            "matches": 1
+          },
+          {
+            "sub": "ch",
+            "matches": 1
+          }
+        ],
+        "sample_folios": [
+          "f26v",
+          "f78r"
+        ]
+      },
+      {
+        "code": "@167;",
+        "count": 3,
+        "standalone_count": 0,
+        "word_initial_count": 1,
+        "word_final_count": 0,
+        "word_medial_count": 2,
+        "top_allograph_substitutions": [
+          {
+            "sub": "k",
+            "matches": 1
+          }
+        ],
+        "sample_folios": [
+          "f56r",
+          "f68r1",
+          "f68r2"
+        ]
+      },
+      {
+        "code": "@204;",
+        "count": 3,
+        "standalone_count": 0,
+        "word_initial_count": 0,
+        "word_final_count": 0,
+        "word_medial_count": 3,
+        "top_allograph_substitutions": [],
+        "sample_folios": [
+          "f68r3",
+          "f69v"
+        ]
+      }
+    ],
+    "sample_decoded_embedded_tokens": [
+      {
+        "folio_line": "f1r.19",
+        "ltype": "+P0",
+        "raw_token": "@192;chy",
+        "weirdo_codes": [
+          "@192;"
+        ],
+        "best_allograph_sub": "k",
+        "resolved_standard_word": "kchy",
+        "standard_word_corpus_freq": 36
+      },
+      {
+        "folio_line": "f1r.19",
+        "ltype": "+P0",
+        "raw_token": "@130;tol",
+        "weirdo_codes": [
+          "@130;"
+        ],
+        "best_allograph_sub": "o",
+        "resolved_standard_word": "otol",
+        "standard_word_corpus_freq": 80
+      },
+      {
+        "folio_line": "f4r.2",
+        "ltype": "+P0",
+        "raw_token": "@163;s",
+        "weirdo_codes": [
+          "@163;"
+        ],
+        "best_allograph_sub": "o",
+        "resolved_standard_word": "os",
+        "standard_word_corpus_freq": 32
+      },
+      {
+        "folio_line": "f8r.14",
+        "ltype": "*P0",
+        "raw_token": "{c@132;h}o",
+        "weirdo_codes": [
+          "@132;"
+        ],
+        "best_allograph_sub": "t",
+        "resolved_standard_word": "ctho",
+        "standard_word_corpus_freq": 20
+      },
+      {
+        "folio_line": "f8r.14",
+        "ltype": "*P0",
+        "raw_token": "{c@196;h}ey",
+        "weirdo_codes": [
+          "@196;"
+        ],
+        "best_allograph_sub": "t",
+        "resolved_standard_word": "cthey",
+        "standard_word_corpus_freq": 51
+      },
+      {
+        "folio_line": "f8v.1",
+        "ltype": "@P0",
+        "raw_token": "{c@216;h}od",
+        "weirdo_codes": [
+          "@216;"
+        ],
+        "best_allograph_sub": "t",
+        "resolved_standard_word": "cthod",
+        "standard_word_corpus_freq": 3
+      },
+      {
+        "folio_line": "f10r.12",
+        "ltype": "+P0",
+        "raw_token": "@135;odaiin",
+        "weirdo_codes": [
+          "@135;"
+        ],
+        "best_allograph_sub": "ch",
+        "resolved_standard_word": "chodaiin",
+        "standard_word_corpus_freq": 46
+      },
+      {
+        "folio_line": "f11r.5",
+        "ltype": "+P0",
+        "raw_token": "{c'h@148;h}y",
+        "weirdo_codes": [
+          "@148;"
+        ],
+        "best_allograph_sub": "s",
+        "resolved_standard_word": "chshy",
+        "standard_word_corpus_freq": 1
+      },
+      {
+        "folio_line": "f11v.3",
+        "ltype": "+P0",
+        "raw_token": "@152;ar",
+        "weirdo_codes": [
+          "@152;"
+        ],
+        "best_allograph_sub": "d",
+        "resolved_standard_word": "dar",
+        "standard_word_corpus_freq": 322
+      },
+      {
+        "folio_line": "f14r.8",
+        "ltype": "+P0",
+        "raw_token": "@137;chol",
+        "weirdo_codes": [
+          "@137;"
+        ],
+        "best_allograph_sub": "k",
+        "resolved_standard_word": "kchol",
+        "standard_word_corpus_freq": 25
+      },
+      {
+        "folio_line": "f15v.2",
+        "ltype": "+P0",
+        "raw_token": "@138;chor",
+        "weirdo_codes": [
+          "@138;"
+        ],
+        "best_allograph_sub": "d",
+        "resolved_standard_word": "dchor",
+        "standard_word_corpus_freq": 26
+      },
+      {
+        "folio_line": "f17r.4",
+        "ltype": "+P0",
+        "raw_token": "tcho@154;",
+        "weirdo_codes": [
+          "@154;"
+        ],
+        "best_allograph_sub": "r",
+        "resolved_standard_word": "tchor",
+        "standard_word_corpus_freq": 22
+      },
+      {
+        "folio_line": "f18v.2",
+        "ltype": "+P0",
+        "raw_token": "shy@140;",
+        "weirdo_codes": [
+          "@140;"
+        ],
+        "best_allograph_sub": "k",
+        "resolved_standard_word": "shyk",
+        "standard_word_corpus_freq": 1
+      },
+      {
+        "folio_line": "f19r.2",
+        "ltype": "+P0",
+        "raw_token": "cho@242;",
+        "weirdo_codes": [
+          "@242;"
+        ],
+        "best_allograph_sub": "l",
+        "resolved_standard_word": "chol",
+        "standard_word_corpus_freq": 396
+      },
+      {
+        "folio_line": "f20v.9",
+        "ltype": "+P0",
+        "raw_token": "d@244;",
+        "weirdo_codes": [
+          "@244;"
+        ],
+        "best_allograph_sub": "aiin",
+        "resolved_standard_word": "daiin",
+        "standard_word_corpus_freq": 846
+      },
+      {
+        "folio_line": "f22r.8",
+        "ltype": "+P0",
+        "raw_token": "do@203;iin",
+        "weirdo_codes": [
+          "@203;"
+        ],
+        "best_allograph_sub": "i",
+        "resolved_standard_word": "doiiin",
+        "standard_word_corpus_freq": 3
+      },
+      {
+        "folio_line": "f24r.7",
+        "ltype": "+P0",
+        "raw_token": "q@145;kar",
+        "weirdo_codes": [
+          "@145;"
+        ],
+        "best_allograph_sub": "o",
+        "resolved_standard_word": "qokar",
+        "standard_word_corpus_freq": 159
+      },
+      {
+        "folio_line": "f24v.1",
+        "ltype": "@P0",
+        "raw_token": "o@146;am",
+        "weirdo_codes": [
+          "@146;"
+        ],
+        "best_allograph_sub": "t",
+        "resolved_standard_word": "otam",
+        "standard_word_corpus_freq": 47
+      },
+      {
+        "folio_line": "f26r.2",
+        "ltype": "+P0",
+        "raw_token": "@138;aiin",
+        "weirdo_codes": [
+          "@138;"
+        ],
+        "best_allograph_sub": "d",
+        "resolved_standard_word": "daiin",
+        "standard_word_corpus_freq": 846
+      },
+      {
+        "folio_line": "f26v.3",
+        "ltype": "+P0",
+        "raw_token": "{c@176;h}dy",
+        "weirdo_codes": [
+          "@176;"
+        ],
+        "best_allograph_sub": "t",
+        "resolved_standard_word": "cthdy",
+        "standard_word_corpus_freq": 7
+      },
+      {
+        "folio_line": "f27r.5",
+        "ltype": "+P0",
+        "raw_token": "{c@148;h}ar",
+        "weirdo_codes": [
+          "@148;"
+        ],
+        "best_allograph_sub": "t",
+        "resolved_standard_word": "cthar",
+        "standard_word_corpus_freq": 17
+      },
+      {
+        "folio_line": "f31r.1",
+        "ltype": "@P0",
+        "raw_token": "qokee@149;",
+        "weirdo_codes": [
+          "@149;"
+        ],
+        "best_allograph_sub": "y",
+        "resolved_standard_word": "qokeey",
+        "standard_word_corpus_freq": 307
+      },
+      {
+        "folio_line": "f32r.12",
+        "ltype": "+P0",
+        "raw_token": "@150;tol",
+        "weirdo_codes": [
+          "@150;"
+        ],
+        "best_allograph_sub": "o",
+        "resolved_standard_word": "otol",
+        "standard_word_corpus_freq": 80
+      },
+      {
+        "folio_line": "f35r.1",
+        "ltype": "@P0",
+        "raw_token": "{c@196;h}y",
+        "weirdo_codes": [
+          "@196;"
+        ],
+        "best_allograph_sub": "t",
+        "resolved_standard_word": "cthy",
+        "standard_word_corpus_freq": 103
+      },
+      {
+        "folio_line": "f36r.3",
+        "ltype": "+P0",
+        "raw_token": "@152;aiin",
+        "weirdo_codes": [
+          "@152;"
+        ],
+        "best_allograph_sub": "d",
+        "resolved_standard_word": "daiin",
+        "standard_word_corpus_freq": 846
+      },
+      {
+        "folio_line": "f40r.10",
+        "ltype": "+P0",
+        "raw_token": "ka@154;ar",
+        "weirdo_codes": [
+          "@154;"
+        ],
+        "best_allograph_sub": "r",
+        "resolved_standard_word": "karar",
+        "standard_word_corpus_freq": 1
+      },
+      {
+        "folio_line": "f42r.1",
+        "ltype": "@P0",
+        "raw_token": "{c@155;h}o",
+        "weirdo_codes": [
+          "@155;"
+        ],
+        "best_allograph_sub": "t",
+        "resolved_standard_word": "ctho",
+        "standard_word_corpus_freq": 20
+      },
+      {
+        "folio_line": "f42v.1",
+        "ltype": "@P0",
+        "raw_token": "@156;cho",
+        "weirdo_codes": [
+          "@156;"
+        ],
+        "best_allograph_sub": "k",
+        "resolved_standard_word": "kcho",
+        "standard_word_corpus_freq": 8
+      },
+      {
+        "folio_line": "f42v.2",
+        "ltype": "+P0",
+        "raw_token": "{c@245;h}y",
+        "weirdo_codes": [
+          "@245;"
+        ],
+        "best_allograph_sub": "t",
+        "resolved_standard_word": "cthy",
+        "standard_word_corpus_freq": 103
+      },
+      {
+        "folio_line": "f45r.9",
+        "ltype": "+P0",
+        "raw_token": "@201;or",
+        "weirdo_codes": [
+          "@201;"
+        ],
+        "best_allograph_sub": "ch",
+        "resolved_standard_word": "chor",
+        "standard_word_corpus_freq": 211
+      }
+    ]
+  }
+}
