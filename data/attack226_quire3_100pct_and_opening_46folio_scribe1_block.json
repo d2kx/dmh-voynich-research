@@ -1,0 +1,804 @@
+{
+  "attack": 226,
+  "discovery": 243,
+  "title": "100.0% (16/16) Quire 3 ($Q=C, f17r-f24v) Visual & Paleographic Completion, Quire 3 Signature 3m on f24v (p49), and the Unbroken Opening 46-Folio Pure-Scribe-1 Foundation Block (Quires 1-3, f1r-f24v)",
+  "quire3_summary": {
+    "quire_code": "C",
+    "quire_number": 3,
+    "total_folios": 16,
+    "visually_inspected_folios": 16,
+    "completion_pct": 100.0,
+    "scribe_hand": "100.0% Scribe 1 ($H=1)",
+    "currier_language": "100.0% Currier Language A ($L=A)",
+    "quire_signature": "3m at bottom-right of f24v (p49, x=0.86..0.91, y=0.92..0.96)",
+    "total_lines": 219,
+    "total_words": 1446,
+    "unique_canonical_stems": 339,
+    "new_canonical_stems_beyond_quires1_2": 150,
+    "total_drawing_intrusions": 39,
+    "q3_alone_herbal_a_token_coverage_pct": 86.81
+  },
+  "opening_3quire_scribe1_foundation_block": {
+    "quires": [
+      "Quire 1 ($Q=A, f1r-f8v)",
+      "Quire 2 ($Q=B, f9r-f16v)",
+      "Quire 3 ($Q=C, f17r-f24v)"
+    ],
+    "extant_folios": 46,
+    "visually_inspected_folios": 46,
+    "completion_pct": 100.0,
+    "homogeneity": "46/46 extant folios (100.0%) written exclusively by Scribe 1 ($H=1) in Currier Language A ($L=A) before the first Scribe 2 / Currier B bifolium appears on f26r in Quire 4.",
+    "total_words": 4034,
+    "unique_canonical_stems": 666,
+    "herbal_a_token_coverage_pct": 94.34,
+    "pharma_a_token_coverage_pct": 85.17
+  },
+  "bifolios": [
+    {
+      "bifolio_number": 1,
+      "position": "Outer sheet (Bifolio 1)",
+      "leaves": [
+        "f17r",
+        "f17v",
+        "f24r",
+        "f24v"
+      ],
+      "quire_signature": "3m clearly preserved at bottom-right corner of f24v (p49, x=0.86..0.91, y=0.92..0.96); f17r (p34) bears the famous 3-line top-left marginalia note (<f17r.1..3,@Lt>)."
+    },
+    {
+      "bifolio_number": 2,
+      "position": "Second sheet (Bifolio 2)",
+      "leaves": [
+        "f18r",
+        "f18v",
+        "f23r",
+        "f23v"
+      ],
+      "botanical_symmetry": "f18v (p37) left-aligned plant + right-justified text block; f23r (p46) inosculated twin stalks bridged by a living horizontal branch above 2 segmented bamboo/wood-ring rhizome cylinders."
+    },
+    {
+      "bifolio_number": 3,
+      "position": "Third sheet (Bifolio 3)",
+      "leaves": [
+        "f19r",
+        "f19v",
+        "f22r",
+        "f22v"
+      ],
+      "botanical_symmetry": "f19r (p38) trimorphic fern-frond / linear-leaflet / blue-catkin plant; f22v (p45) lyrate-leaved white-blue-gold tulip cup above a thorny crimson root-arch with 11 white bead-rings."
+    },
+    {
+      "bifolio_number": 4,
+      "position": "Innermost center sheet (Bifolio 4)",
+      "leaves": [
+        "f20r",
+        "f20v",
+        "f21r",
+        "f21v"
+      ],
+      "botanical_symmetry": "Center bifolium rectos f20r (p40) and f21r (p42) both place 3 unbroken paragraphs above compact lower-half bushes (0 drawing intrusions on either recto)."
+    }
+  ],
+  "folio_profiles": [
+    {
+      "folio": "f17r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 34,
+          "pdf1_label": "17r",
+          "beinecke_image_id": "1006106",
+          "pdf1_size": [
+            1415,
+            2000
+          ],
+          "pdf2_page": 34,
+          "pdf2_label": "17r",
+          "pdf2_size": [
+            1100,
+            1500
+          ],
+          "folios": [
+            "f17r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 13,
+      "word_count": 80,
+      "unique_canonical_stems": 62,
+      "drawing_intrusions": 4,
+      "opening_words": [
+        "fshody",
+        "daram",
+        "ydar",
+        "chog",
+        "opydy"
+      ],
+      "top_stems": [
+        "ch",
+        "tch",
+        "cth",
+        "dar",
+        "od"
+      ],
+      "scan_path": "pages/f17r_full.png",
+      "visual_forensics": "Opening recto of Quire 3 with 3-line top-margin annotation, tall central blue-flowered stalk, and bulbous root."
+    },
+    {
+      "folio": "f17v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 35,
+          "pdf1_label": "17v",
+          "beinecke_image_id": "1006107",
+          "pdf1_size": [
+            1506,
+            2000
+          ],
+          "pdf2_page": 35,
+          "pdf2_label": "17v",
+          "pdf2_size": [
+            1107,
+            1500
+          ],
+          "folios": [
+            "f17v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 23,
+      "word_count": 135,
+      "unique_canonical_stems": 71,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "pchodol",
+        "chor",
+        "pchy",
+        "opydaiin",
+        "odal"
+      ],
+      "top_stems": [
+        "ch",
+        "te",
+        "cth",
+        "che",
+        "ain"
+      ],
+      "scan_path": "pages/f17v_quire3_opening_vine_verso_enh.png",
+      "visual_forensics": "Climbing Tamus/Smilax vine rising from a 3-tuber chain, arching over all 24 text lines to dangle 12 red-and-white berry clusters and a wavy green tendril down the left margin."
+    },
+    {
+      "folio": "f18r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 36,
+          "pdf1_label": "18r",
+          "beinecke_image_id": "1006108",
+          "pdf1_size": [
+            1415,
+            2000
+          ],
+          "pdf2_page": 36,
+          "pdf2_label": "18r",
+          "pdf2_size": [
+            1103,
+            1500
+          ],
+          "folios": [
+            "f18r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 14,
+      "word_count": 84,
+      "unique_canonical_stems": 40,
+      "drawing_intrusions": 5,
+      "opening_words": [
+        "pdrairdy",
+        "darodcf",
+        "yoar",
+        "ykchol",
+        "dar"
+      ],
+      "top_stems": [
+        "tch",
+        "cth",
+        "ch",
+        "dar",
+        "chcth"
+      ],
+      "scan_path": "pages/f18r_quire3_lobed_fan_herb_recto_enh.png",
+      "visual_forensics": "4 pairs of paddle-shaped oblong green leaves, 3 crimson-tipped white buds, and an 11-petaled deep-blue flower cup with red-and-white stippled receptacle."
+    },
+    {
+      "folio": "f18v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 37,
+          "pdf1_label": "18v",
+          "beinecke_image_id": "1006109",
+          "pdf1_size": [
+            1505,
+            2000
+          ],
+          "pdf2_page": 37,
+          "pdf2_label": "18v",
+          "pdf2_size": [
+            1123,
+            1500
+          ],
+          "folios": [
+            "f18v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 10,
+      "word_count": 69,
+      "unique_canonical_stems": 37,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "told",
+        "shor",
+        "ytshy",
+        "otchdal",
+        "dchal"
+      ],
+      "top_stems": [
+        "tch",
+        "ch",
+        "tol",
+        "tsh",
+        "sh"
+      ],
+      "scan_path": "pages/f18v_quire3_ivy_shield_verso_enh.png",
+      "visual_forensics": "Left-standing plant with 12 palmate 5-to-7-lobed green leaves, centipede-like horizontal rhizome with 18 spurs, and fringed white cup-calyx enclosing 5 stalked crimson florets; text block right-justified."
+    },
+    {
+      "folio": "f19r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 38,
+          "pdf1_label": "19r",
+          "beinecke_image_id": "1006110",
+          "pdf1_size": [
+            1415,
+            2000
+          ],
+          "pdf2_page": 38,
+          "pdf2_label": "19r",
+          "pdf2_size": [
+            1106,
+            1500
+          ],
+          "folios": [
+            "f19r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 13,
+      "word_count": 76,
+      "unique_canonical_stems": 33,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "pchor",
+        "qodchy",
+        "qotshy",
+        "dy",
+        "tchy"
+      ],
+      "top_stems": [
+        "tch",
+        "ain",
+        "ch",
+        "sh",
+        "ot"
+      ],
+      "scan_path": "pages/f19r_quire3_slender_stalk_recto_enh.png",
+      "visual_forensics": "Trimorphic plant: 2 huge pectinate fern fronds at base, 7 narrow serrated leaflets at mid-stem, 6 blue stippled catkins and a 3-pointed dark-blue conical flower at top, above an octopus-like 9-tentacled root."
+    },
+    {
+      "folio": "f19v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 39,
+          "pdf1_label": "19v",
+          "beinecke_image_id": "1006111",
+          "pdf1_size": [
+            1512,
+            2000
+          ],
+          "pdf2_page": 39,
+          "pdf2_label": "19v",
+          "pdf2_size": [
+            1126,
+            1500
+          ],
+          "folios": [
+            "f19v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 14,
+      "word_count": 78,
+      "unique_canonical_stems": 35,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "pochaiin",
+        "cthor",
+        "chpcheos",
+        "opchey",
+        "py"
+      ],
+      "top_stems": [
+        "tch",
+        "ain",
+        "ch",
+        "cth",
+        "tol"
+      ],
+      "scan_path": "pages/f19v_quire3_umbel_herb_verso_enh.png",
+      "visual_forensics": "Two tiered candelabra-like umbels of vertical serrated dark-green leaves, crowned by 3 white bulbous flower vases tipped with dark-blue 3-pointed florets, above a crimson horned stump root."
+    },
+    {
+      "folio": "f20r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 40,
+          "pdf1_label": "20r",
+          "beinecke_image_id": "1006112",
+          "pdf1_size": [
+            1415,
+            2000
+          ],
+          "pdf2_page": 40,
+          "pdf2_label": "20r",
+          "pdf2_size": [
+            1082,
+            1500
+          ],
+          "folios": [
+            "f20r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 13,
+      "word_count": 88,
+      "unique_canonical_stems": 47,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "kdchody",
+        "chopy",
+        "cheey",
+        "qotchol",
+        "qotoeey"
+      ],
+      "top_stems": [
+        "ch",
+        "tch",
+        "chod",
+        "te",
+        "ain"
+      ],
+      "scan_path": "pages/f20r_quire3_center_bifolium_recto_enh.png",
+      "visual_forensics": "Center bifolium left recto: 3 unbroken paragraphs (0 intrusions) above a 9-stemmed pinnate legume/vetch bush with alternating green and red-orange leaflets and 2 blue-flowered racemes."
+    },
+    {
+      "folio": "f20v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 41,
+          "pdf1_label": "20v",
+          "beinecke_image_id": "1006113",
+          "pdf1_size": [
+            1512,
+            2000
+          ],
+          "pdf2_page": 41,
+          "pdf2_label": "20v",
+          "pdf2_size": [
+            1117,
+            1500
+          ],
+          "folios": [
+            "f20v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 11,
+      "word_count": 86,
+      "unique_canonical_stems": 55,
+      "drawing_intrusions": 1,
+      "opening_words": [
+        "faiis",
+        "ar",
+        "okoy",
+        "shy",
+        "pofochey"
+      ],
+      "top_stems": [
+        "ch",
+        "tch",
+        "ain",
+        "sho",
+        "ot"
+      ],
+      "scan_path": "pages/f20v_polypody_fern_enh.png",
+      "visual_forensics": "Polypody fern / pinnatifid herb with arched scaly rhizome and 2 paragraphs."
+    },
+    {
+      "folio": "f21r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 42,
+          "pdf1_label": "21r",
+          "beinecke_image_id": "1006114",
+          "pdf1_size": [
+            1415,
+            2000
+          ],
+          "pdf2_page": 42,
+          "pdf2_label": "21r",
+          "pdf2_size": [
+            1087,
+            1500
+          ],
+          "folios": [
+            "f21r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 12,
+      "word_count": 104,
+      "unique_canonical_stems": 49,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "pchor",
+        "o",
+        "eeockhy",
+        "o",
+        "fychey"
+      ],
+      "top_stems": [
+        "ch",
+        "cth",
+        "te",
+        "ain",
+        "he"
+      ],
+      "scan_path": "pages/f21r_quire3_center_bifolium_right_recto_enh.png",
+      "visual_forensics": "Center bifolium right recto: 3 unbroken paragraphs (0 intrusions) above a 15-branched radiating knotgrass/thyme wheel bush with alternating small green leaf pairs and yellow-ochre axial bead-rings."
+    },
+    {
+      "folio": "f21v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 43,
+          "pdf1_label": "21v",
+          "beinecke_image_id": "1006115",
+          "pdf1_size": [
+            1512,
+            2000
+          ],
+          "pdf2_page": 43,
+          "pdf2_label": "21v",
+          "pdf2_size": [
+            1112,
+            1500
+          ],
+          "folios": [
+            "f21v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 8,
+      "word_count": 58,
+      "unique_canonical_stems": 33,
+      "drawing_intrusions": 1,
+      "opening_words": [
+        "toldshy",
+        "chofchy",
+        "qofshey",
+        "shckhol",
+        "odaiin"
+      ],
+      "top_stems": [
+        "ain",
+        "tch",
+        "ch",
+        "sho",
+        "chot"
+      ],
+      "scan_path": "pages/f21v_quire3_broad_root_verso_enh.png",
+      "visual_forensics": "6 zebra-striped (alternating green and white) pinnatifid leaves, branched corymb of 8 deep-blue tulip/campanula flowers with crimson stamen tips, and ring-knotted brown root."
+    },
+    {
+      "folio": "f22r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 44,
+          "pdf1_label": "22r",
+          "beinecke_image_id": "1006116",
+          "pdf1_size": [
+            1415,
+            2000
+          ],
+          "pdf2_page": 44,
+          "pdf2_label": "22r",
+          "pdf2_size": [
+            1087,
+            1500
+          ],
+          "folios": [
+            "f22r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 13,
+      "word_count": 111,
+      "unique_canonical_stems": 46,
+      "drawing_intrusions": 7,
+      "opening_words": [
+        "pol",
+        "olshy",
+        "fcholy",
+        "shol",
+        "dpchy"
+      ],
+      "top_stems": [
+        "ain",
+        "tch",
+        "ch",
+        "cth",
+        "pch"
+      ],
+      "scan_path": "pages/f22r_oldam_otoldy_enh.png",
+      "visual_forensics": "Symmetrical herb with scalloped basal leaves, branched flower stalks, and oldam/otoldy paragraph."
+    },
+    {
+      "folio": "f22v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 45,
+          "pdf1_label": "22v",
+          "beinecke_image_id": "1006117",
+          "pdf1_size": [
+            1501,
+            2000
+          ],
+          "pdf2_page": 45,
+          "pdf2_label": "22v",
+          "pdf2_size": [
+            1116,
+            1500
+          ],
+          "folios": [
+            "f22v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 16,
+      "word_count": 77,
+      "unique_canonical_stems": 40,
+      "drawing_intrusions": 6,
+      "opening_words": [
+        "pysaiinor",
+        "ofchar",
+        "oky",
+        "tchy",
+        "otdy"
+      ],
+      "top_stems": [
+        "tch",
+        "ain",
+        "ot",
+        "tain",
+        "ch"
+      ],
+      "scan_path": "pages/f22v_quire3_curved_horn_root_verso_enh.png",
+      "visual_forensics": "3 pairs of lyrate-pinnatifid leaves on multi-ribbed petioles, giant white-blue-gold imbricated flower cup, and 8-thorned crimson root-arch whose lower rootlets thread through 11 white bead-rings."
+    },
+    {
+      "folio": "f23r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 46,
+          "pdf1_label": "23r",
+          "beinecke_image_id": "1006118",
+          "pdf1_size": [
+            1430,
+            2000
+          ],
+          "pdf2_page": 46,
+          "pdf2_label": "23r",
+          "pdf2_size": [
+            1103,
+            1500
+          ],
+          "folios": [
+            "f23r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 11,
+      "word_count": 110,
+      "unique_canonical_stems": 50,
+      "drawing_intrusions": 5,
+      "opening_words": [
+        "pydchdom",
+        "chy",
+        "fcholdy",
+        "oty",
+        "otchol"
+      ],
+      "top_stems": [
+        "ain",
+        "ch",
+        "tch",
+        "dal",
+        "tain"
+      ],
+      "scan_path": "pages/f23r_quire3_clustered_floret_recto_enh.png",
+      "visual_forensics": "Twin parallel stalks joined at mid-height by a living horizontal cross-branch (inosculation), bearing 19 palmate green leaves, 2 clusters of 3 blue flowers, and 2 white funnel collars atop 2 cut-log bamboo rhizome cylinders with 6 concentric wood-ring cross-sections."
+    },
+    {
+      "folio": "f23v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 47,
+          "pdf1_label": "23v",
+          "beinecke_image_id": "1006119",
+          "pdf1_size": [
+            1507,
+            2000
+          ],
+          "pdf2_page": 47,
+          "pdf2_label": "23v",
+          "pdf2_size": [
+            1118,
+            1500
+          ],
+          "folios": [
+            "f23v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 12,
+      "word_count": 95,
+      "unique_canonical_stems": 58,
+      "drawing_intrusions": 9,
+      "opening_words": [
+        "podairol",
+        "odaiiily",
+        "sho",
+        "al",
+        "dy"
+      ],
+      "top_stems": [
+        "ain",
+        "tch",
+        "ch",
+        "tol",
+        "ol"
+      ],
+      "scan_path": "pages/f23v_quire3_trefoil_root_verso_enh.png",
+      "visual_forensics": "3 clusters of round spiny-margined Drosera/Asarum-like green and olive leaves, each topped by a 5-pointed dark-blue star-calyx flower with a concentric circular eye."
+    },
+    {
+      "folio": "f24r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 48,
+          "pdf1_label": "24r",
+          "beinecke_image_id": "1006120",
+          "pdf1_size": [
+            1446,
+            2000
+          ],
+          "pdf2_page": 48,
+          "pdf2_label": "24r",
+          "pdf2_size": [
+            1118,
+            1500
+          ],
+          "folios": [
+            "f24r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 20,
+      "word_count": 110,
+      "unique_canonical_stems": 60,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "por",
+        "or",
+        "y",
+        "chor",
+        "opchar"
+      ],
+      "top_stems": [
+        "ch",
+        "cth",
+        "s",
+        "or",
+        "che"
+      ],
+      "scan_path": "pages/f24r_quire3_closing_leaf_recto_enh.png",
+      "visual_forensics": "Two intertwined stalks crossing at the base above 9 pale root tendrils, bearing 16 hastate green leaves and 2 huge green swan-neck spathes opening sideways into 15-petaled white-and-gold daisy heads."
+    },
+    {
+      "folio": "f24v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 49,
+          "pdf1_label": "24v",
+          "beinecke_image_id": "1006121",
+          "pdf1_size": [
+            1519,
+            2000
+          ],
+          "pdf2_page": 49,
+          "pdf2_label": "24v",
+          "pdf2_size": [
+            1115,
+            1500
+          ],
+          "folios": [
+            "f24v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 16,
+      "word_count": 85,
+      "unique_canonical_stems": 63,
+      "drawing_intrusions": 1,
+      "opening_words": [
+        "tchodar",
+        "chocfhey",
+        "opom",
+        "shod",
+        "chcphy"
+      ],
+      "top_stems": [
+        "ch",
+        "tch",
+        "sho",
+        "che",
+        "tchod"
+      ],
+      "scan_path": "pages/f24v_quire3_closing_signature_verso_enh.png",
+      "visual_forensics": "Closing verso of Quire 3 bearing signature '3m' at bottom-right (x=0.86..0.91, y=0.92..0.96); 8 rounded green leaves with long drooping pitcher-tips, 5 white bulbous calyces bursting with jagged blue petals, and 6 spindle tubers."
+    }
+  ]
+}

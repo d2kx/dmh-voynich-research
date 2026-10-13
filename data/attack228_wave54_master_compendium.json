@@ -1,0 +1,187 @@
+{
+  "attack": 228,
+  "discovery": 245,
+  "wave": 54,
+  "explorer_version": "v20.0",
+  "title": "Wave 54 Master Compendium (Attacks 225-228 / Discoveries 242-245 / Milestone Explorer v20.0): 100.0% Quires 1-4 (62/62 Extant Folios f1r-f32v), f12 Excised Stub Forensics on f13r, f15r/f15v Vellum-Hole Proof, Untranscribed f28v Flower-Center Micro-Inscription Discovery, and 204/227 (89.87%) Global Codex Visual Coverage",
+  "milestone_stats": {
+    "total_attacks": 228,
+    "total_discoveries": 245,
+    "explorer_version": "v20.0",
+    "explorer_tabs": 22,
+    "plain_english_walkthroughs": 74,
+    "explorer_walkthroughs": 90,
+    "flagship_specimens": 105,
+    "global_codex_scanned_folios": 204,
+    "global_codex_total_folios": 227,
+    "global_codex_coverage_pct": 89.87,
+    "new_wave54_highres_scans": 38,
+    "remaining_unscanned_folios": 23
+  },
+  "wave54_attacks": [
+    {
+      "attack": 225,
+      "discovery": 242,
+      "summary": {
+        "quire_code": "B",
+        "quire_number": 2,
+        "original_folios": 16,
+        "extant_folios": 14,
+        "excised_folios": [
+          "f12r",
+          "f12v"
+        ],
+        "visually_inspected_folios": 14,
+        "completion_pct": 100.0,
+        "scribe_hand": "100.0% Scribe 1 ($H=1)",
+        "currier_language": "100.0% Currier Language A ($L=A)",
+        "total_lines": 150,
+        "total_words": 1051,
+        "unique_canonical_stems": 256,
+        "new_canonical_stems_beyond_quire1": 130,
+        "combined_quire1_quire2_unique_stems": 516,
+        "total_drawing_intrusions": 71,
+        "q2_alone_herbal_a_token_coverage_pct": 82.39,
+        "q2_alone_pharma_a_token_coverage_pct": 71.73,
+        "combined_q1_q2_herbal_a_token_coverage_pct": 91.11,
+        "combined_q1_q2_pharma_a_token_coverage_pct": 81.85
+      },
+      "f12_excision_forensics": {
+        "missing_leaf": "f12 (f12r/f12v)",
+        "conjugate_partner": "f13 (f13r/f13v) on innermost Bifolio 4 of Quire 2",
+        "foliation_chronology_proof": "Folio numbers jump directly from '11' on f11r (p24) to '13' on f13r (p26), proving that leaf 12 was present when the 15th/16th-century foliator numbered the codex.",
+        "pigment_stub_on_f13r": "At the left gutter margin of f13r (p26, x=0.00..0.03, y=0.24..0.38), the cut vellum stub of leaf f12 remains visible outside the sewing fold and preserves original crimson-brown and dark-green botanical pigment, proving f12 was a fully painted Herbal leaf prior to excision."
+      },
+      "f15r_f15v_vellum_hole_proof": {
+        "defect_type": "Natural pre-existing vertical oval vellum hole (flaying defect / cicatrix)",
+        "f15r_recto_registration": {
+          "coordinates": "x=0.475..0.515, y=0.468..0.511 (center x=0.495, y=0.490)",
+          "botanical_integration": "Illustrator positioned the central bifurcation fork of f15r's main stem directly around the oval vellum hole so the hole forms a hollow stem-node medallion at the exact junction of the two tall flower-pod stalks.",
+          "text_avoidance": "Scribe 1 broke lines <f15r.12> (cth <-> cthol cthy) and <f15r.13> (qkol <-> dal dain) around the stem fork immediately above the hole.",
+          "show_through_folio": "f16r (p32) — dark green digitate leaf tip of f16r is visible through the hole.",
+          "zoom_crop": "pages/f15r_stem_node_vellum_hole_crop_enh.png"
+        },
+        "f15v_verso_registration": {
+          "coordinates": "x=0.498..0.538, y=0.475..0.522 (center x=0.518, y=0.498)",
+          "botanical_integration": "Illustrator drew the upper-left broad leaf of the 4-leaved Paris quadrifolia whorl directly around the oval hole, leaving an unpainted white vellum reserve border around the rim.",
+          "show_through_folio": "f14v (p29) — dark green serrated wing-leaf of f14v is visible through the hole.",
+          "zoom_crop": "pages/f15v_leaf_blade_vellum_hole_crop_enh.png"
+        }
+      }
+    },
+    {
+      "attack": 226,
+      "discovery": 243,
+      "summary": {
+        "quire_code": "C",
+        "quire_number": 3,
+        "total_folios": 16,
+        "visually_inspected_folios": 16,
+        "completion_pct": 100.0,
+        "scribe_hand": "100.0% Scribe 1 ($H=1)",
+        "currier_language": "100.0% Currier Language A ($L=A)",
+        "quire_signature": "3m at bottom-right of f24v (p49, x=0.86..0.91, y=0.92..0.96)",
+        "total_lines": 219,
+        "total_words": 1446,
+        "unique_canonical_stems": 339,
+        "new_canonical_stems_beyond_quires1_2": 150,
+        "total_drawing_intrusions": 39,
+        "q3_alone_herbal_a_token_coverage_pct": 86.81
+      },
+      "opening_3quire_block": {
+        "quires": [
+          "Quire 1 ($Q=A, f1r-f8v)",
+          "Quire 2 ($Q=B, f9r-f16v)",
+          "Quire 3 ($Q=C, f17r-f24v)"
+        ],
+        "extant_folios": 46,
+        "visually_inspected_folios": 46,
+        "completion_pct": 100.0,
+        "homogeneity": "46/46 extant folios (100.0%) written exclusively by Scribe 1 ($H=1) in Currier Language A ($L=A) before the first Scribe 2 / Currier B bifolium appears on f26r in Quire 4.",
+        "total_words": 4034,
+        "unique_canonical_stems": 666,
+        "herbal_a_token_coverage_pct": 94.34,
+        "pharma_a_token_coverage_pct": 85.17
+      }
+    },
+    {
+      "attack": 227,
+      "discovery": 244,
+      "summary": {
+        "quire_code": "D",
+        "quire_number": 4,
+        "total_folios": 16,
+        "visually_inspected_folios": 16,
+        "completion_pct": 100.0,
+        "palindromic_bifolio_structure": "[Bif1 f25|f32: H1/A, Bif2 f26|f31: H2/B, Bif3 f27|f30: H1/A, Bif4 f28|f29: H1/A]",
+        "scribe1_folios": 12,
+        "scribe1_words": 883,
+        "scribe2_folios": 4,
+        "scribe2_words": 396,
+        "total_words": 1279
+      },
+      "f28v_micro_inscription": {
+        "folio": "f28v (Yale p57 / TCPDF p57)",
+        "location": "Dead center of the unpainted white circular disc of the 18-rayed sunburst flower head (x=0.695..0.722, y=0.425..0.448)",
+        "transliteration_status": "COMPLETELY UNTRANSCRIBED in all 4 major EVA editions (ZL3b-n.txt, RF1b-er.txt, IT2a-n.txt, GC2a-n.txt record only the 9 paragraph lines <f28v.1..9> and 0 labels/notes)",
+        "cross_pdf_verification": "Confirmed identically in both books/voynich-yale-beinecke-2026-highres-214p.pdf (p57) and books/voynich-tcpdf-2014-bookmarked-210p.pdf (p57) -> pages/f28v_flower_center_micro_inscription_compare.png",
+        "paleographic_reading": "Three minute brown-ink characters ('iis' / 'w' / 'yir': two short vertical minims with top ticks and a sublinear hook followed by a taller hooked 's/r/v' sign), matching 15th-century workshop painter color-key annotations left visible because the central flower disc was never painted over.",
+        "companion_vellum_defects_on_leaf_28": {
+          "hole_1_leaf_rosette": "Natural vertical oval hole at f28r (x=0.66..0.69, y=0.46..0.51) inside the right blue-green leaf blade (exposing f29r) / f28v (x=0.34..0.38, y=0.45..0.52).",
+          "hole_2_stitched_double_hole": "Original medieval stitched double vellum hole at f28r (x=0.18..0.29, y=0.64..0.75) / f28v (x=0.73..0.83, y=0.63..0.74, immediately below the right basal stem leaf, exposing f27v's green leaf)."
+        },
+        "zoom_crops": [
+          "pages/f28v_sunburst_disc_and_stitched_hole_crop_enh.png",
+          "pages/f28v_flower_center_micro_inscription_zoom_enh.png",
+          "pages/f28v_flower_center_micro_inscription_compare.png"
+        ]
+      },
+      "global_coverage": {
+        "total_codex_folios": 227,
+        "visually_inspected_folios": 204,
+        "global_coverage_pct": 89.87,
+        "quires_1_to_4_f1r_f32v_coverage": "62/62 extant folios (100.0%)",
+        "quires_8_to_20_f57r_f116v_coverage": "117/117 extant folios (100.0%)",
+        "scribes_2_3_4_5_coverage": "113/113 folios (100.0%)",
+        "currier_b_coverage": "83/83 folios (100.0%)",
+        "scribe_1_coverage": {
+          "total": 113,
+          "scanned": 90,
+          "coverage_pct": 79.65,
+          "remaining_unscanned_count": 23
+        },
+        "remaining_23_unscanned_folios_by_quire": {
+          "E": [
+            "f35r",
+            "f35v",
+            "f36r",
+            "f36v",
+            "f37r",
+            "f37v",
+            "f38r",
+            "f38v"
+          ],
+          "F": [
+            "f42r",
+            "f44r",
+            "f44v",
+            "f45r",
+            "f45v",
+            "f47r"
+          ],
+          "G": [
+            "f51v",
+            "f52r",
+            "f52v",
+            "f53r",
+            "f53v",
+            "f54r",
+            "f54v",
+            "f56r",
+            "f56v"
+          ]
+        }
+      }
+    }
+  ]
+}

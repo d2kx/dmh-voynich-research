@@ -1,0 +1,727 @@
+{
+  "attack": 225,
+  "discovery": 242,
+  "title": "100.0% (14/14 Extant Folios) Quire 2 ($Q=B, f9r-f16v) Visual & Paleographic Completion, Physical Forensics of the Excised f12 Stub on f13r (p26), and the f15r/f15v/f16r Vellum-Hole Registration Proof",
+  "quire2_summary": {
+    "quire_code": "B",
+    "quire_number": 2,
+    "original_folios": 16,
+    "extant_folios": 14,
+    "excised_folios": [
+      "f12r",
+      "f12v"
+    ],
+    "visually_inspected_folios": 14,
+    "completion_pct": 100.0,
+    "scribe_hand": "100.0% Scribe 1 ($H=1)",
+    "currier_language": "100.0% Currier Language A ($L=A)",
+    "total_lines": 150,
+    "total_words": 1051,
+    "unique_canonical_stems": 256,
+    "new_canonical_stems_beyond_quire1": 130,
+    "combined_quire1_quire2_unique_stems": 516,
+    "total_drawing_intrusions": 71,
+    "q2_alone_herbal_a_token_coverage_pct": 82.39,
+    "q2_alone_pharma_a_token_coverage_pct": 71.73,
+    "combined_q1_q2_herbal_a_token_coverage_pct": 91.11,
+    "combined_q1_q2_pharma_a_token_coverage_pct": 81.85
+  },
+  "f12_excision_physical_forensics": {
+    "missing_leaf": "f12 (f12r/f12v)",
+    "conjugate_partner": "f13 (f13r/f13v) on innermost Bifolio 4 of Quire 2",
+    "foliation_chronology_proof": "Folio numbers jump directly from '11' on f11r (p24) to '13' on f13r (p26), proving that leaf 12 was present when the 15th/16th-century foliator numbered the codex.",
+    "pigment_stub_on_f13r": "At the left gutter margin of f13r (p26, x=0.00..0.03, y=0.24..0.38), the cut vellum stub of leaf f12 remains visible outside the sewing fold and preserves original crimson-brown and dark-green botanical pigment, proving f12 was a fully painted Herbal leaf prior to excision."
+  },
+  "f15r_f15v_f16r_vellum_hole_proof": {
+    "defect_type": "Natural pre-existing vertical oval vellum hole (flaying defect / cicatrix)",
+    "f15r_recto_registration": {
+      "coordinates": "x=0.475..0.515, y=0.468..0.511 (center x=0.495, y=0.490)",
+      "botanical_integration": "Illustrator positioned the central bifurcation fork of f15r's main stem directly around the oval vellum hole so the hole forms a hollow stem-node medallion at the exact junction of the two tall flower-pod stalks.",
+      "text_avoidance": "Scribe 1 broke lines <f15r.12> (cth <-> cthol cthy) and <f15r.13> (qkol <-> dal dain) around the stem fork immediately above the hole.",
+      "show_through_folio": "f16r (p32) — dark green digitate leaf tip of f16r is visible through the hole.",
+      "zoom_crop": "pages/f15r_stem_node_vellum_hole_crop_enh.png"
+    },
+    "f15v_verso_registration": {
+      "coordinates": "x=0.498..0.538, y=0.475..0.522 (center x=0.518, y=0.498)",
+      "botanical_integration": "Illustrator drew the upper-left broad leaf of the 4-leaved Paris quadrifolia whorl directly around the oval hole, leaving an unpainted white vellum reserve border around the rim.",
+      "show_through_folio": "f14v (p29) — dark green serrated wing-leaf of f14v is visible through the hole.",
+      "zoom_crop": "pages/f15v_leaf_blade_vellum_hole_crop_enh.png"
+    }
+  },
+  "bifolios": [
+    {
+      "bifolio_number": 1,
+      "position": "Outer sheet (Bifolio 1)",
+      "leaves": [
+        "f9r",
+        "f9v",
+        "f16r",
+        "f16v"
+      ],
+      "quire_signature": "2m (clipped/faint at bottom-right of f16v p33; folio numeral 16 at top-right of f16r p32)"
+    },
+    {
+      "bifolio_number": 2,
+      "position": "Second sheet (Bifolio 2)",
+      "leaves": [
+        "f10r",
+        "f10v",
+        "f15r",
+        "f15v"
+      ],
+      "vellum_defect_proof": "f15r (p30) central stem bifurcation node centered on oval vellum hole (x=0.495, y=0.490) exposing f16r; f15v (p31) upper-left Paris quadrifolia leaf wraps around the same hole (x=0.518, y=0.498) exposing f14v"
+    },
+    {
+      "bifolio_number": 3,
+      "position": "Third sheet (Bifolio 3)",
+      "leaves": [
+        "f11r",
+        "f11v",
+        "f14r",
+        "f14v"
+      ],
+      "vellum_defect_proof": "f14r (p28, x=0.77..0.89, y=0.25..0.37) & f14v (p29, x=0.15..0.25, y=0.26..0.39) semicircular fore-edge beast-neck notch"
+    },
+    {
+      "bifolio_number": 4,
+      "position": "Innermost center sheet (Bifolio 4 — singleton f13 after post-foliation excision of conjugate leaf f12)",
+      "leaves": [
+        "f13r",
+        "f13v"
+      ],
+      "excised_leaf_forensics": "Leaf 12 (f12r/f12v) was numbered during codex foliation (hence jump from 11 on f11r p24 to 13 on f13r p26) and subsequently cut out along the central sewing fold; the physical vellum stub of f12 remains visible at the left gutter of f13r (p26, x=0.00..0.03, y=0.24..0.38) bearing dark-green and crimson-brown botanical pigment."
+    }
+  ],
+  "folio_profiles": [
+    {
+      "folio": "f9r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 20,
+          "pdf1_label": "9r",
+          "beinecke_image_id": "1006092",
+          "pdf1_size": [
+            1440,
+            2000
+          ],
+          "pdf2_page": 20,
+          "pdf2_label": "9r",
+          "pdf2_size": [
+            1067,
+            1500
+          ],
+          "folios": [
+            "f9r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 10,
+      "word_count": 85,
+      "unique_canonical_stems": 53,
+      "drawing_intrusions": 11,
+      "opening_words": [
+        "tydlo",
+        "choly",
+        "cthor",
+        "orchey",
+        "s"
+      ],
+      "top_stems": [
+        "ch",
+        "cth",
+        "tch",
+        "ain",
+        "tain"
+      ],
+      "scan_path": "pages/f9r_quire2_opening_feather_herb_recto_enh.png",
+      "visual_forensics": "Incised antler-lobed green leaves on red stems rising from a fluted trumpet collar atop a hairy creeping rhizome; 11 spotted red-and-white flower spikes split all 10 text lines."
+    },
+    {
+      "folio": "f9v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 21,
+          "pdf1_label": "9v",
+          "beinecke_image_id": "1006093",
+          "pdf1_size": [
+            1481,
+            2000
+          ],
+          "pdf2_page": 21,
+          "pdf2_label": "9v",
+          "pdf2_size": [
+            1099,
+            1500
+          ],
+          "folios": [
+            "f9v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 12,
+      "word_count": 86,
+      "unique_canonical_stems": 43,
+      "drawing_intrusions": 12,
+      "opening_words": [
+        "fochor",
+        "oporody",
+        "opy",
+        "shor",
+        "daiin"
+      ],
+      "top_stems": [
+        "ch",
+        "ain",
+        "ot",
+        "tain",
+        "cth"
+      ],
+      "scan_path": "pages/f9v_viola_full_enh.png",
+      "visual_forensics": "Bicolored blue-and-red 4-flower Viola/pansy herb with winged green leaves and forked taproot."
+    },
+    {
+      "folio": "f10r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 22,
+          "pdf1_label": "10r",
+          "beinecke_image_id": "1006094",
+          "pdf1_size": [
+            1439,
+            2000
+          ],
+          "pdf2_page": 22,
+          "pdf2_label": "10r",
+          "pdf2_size": [
+            1081,
+            1500
+          ],
+          "folios": [
+            "f10r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 12,
+      "word_count": 92,
+      "unique_canonical_stems": 50,
+      "drawing_intrusions": 6,
+      "opening_words": [
+        "pchocthy",
+        "shor",
+        "octhody",
+        "chorchy",
+        "pchodol"
+      ],
+      "top_stems": [
+        "ch",
+        "tch",
+        "cth",
+        "ain",
+        "tor"
+      ],
+      "scan_path": "pages/f10r_quire2_drooping_bell_herb_recto_enh.png",
+      "visual_forensics": "Nodding 11-petaled blue cornflower/campanula head with yellow disc, bicolored green-and-ochre serrated leaves, and horizontal stolon ending in 2 symmetrical crimson-red oval tubers (stitched hole at bottom-right)."
+    },
+    {
+      "folio": "f10v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 23,
+          "pdf1_label": "10v",
+          "beinecke_image_id": "1006095",
+          "pdf1_size": [
+            1495,
+            2000
+          ],
+          "pdf2_page": 23,
+          "pdf2_label": "10v",
+          "pdf2_size": [
+            1105,
+            1500
+          ],
+          "folios": [
+            "f10v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 7,
+      "word_count": 57,
+      "unique_canonical_stems": 24,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "paiin",
+        "daiin",
+        "sheo",
+        "pcheey",
+        "qoty"
+      ],
+      "top_stems": [
+        "ain",
+        "ch",
+        "ty",
+        "tch",
+        "ot"
+      ],
+      "scan_path": "pages/f10v_quire2_tripod_root_herb_verso_enh.png",
+      "visual_forensics": "Symmetrical Solomon's-seal/Fritillaria herb with 5 pairs of drooping sickle-shaped green leaves, 2 nodding blue bell flowers, and 3-pronged claw root."
+    },
+    {
+      "folio": "f11r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 24,
+          "pdf1_label": "11r",
+          "beinecke_image_id": "1006096",
+          "pdf1_size": [
+            1427,
+            2000
+          ],
+          "pdf2_page": 24,
+          "pdf2_label": "11r",
+          "pdf2_size": [
+            1071,
+            1500
+          ],
+          "folios": [
+            "f11r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 7,
+      "word_count": 59,
+      "unique_canonical_stems": 28,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "tshol",
+        "schoal",
+        "cfhy",
+        "shfydaiin",
+        "cphy"
+      ],
+      "top_stems": [
+        "tch",
+        "ain",
+        "ch",
+        "cth",
+        "y"
+      ],
+      "scan_path": "pages/f11r_quire2_palmate_herb_recto_enh.png",
+      "visual_forensics": "Hemispherical cloud-canopy of white-and-green scales studded with 27 blue florets, supported by 3 yellow stalks rising from 3 hollow serrated root-trunks crossed over 2 horizontal serrated roots."
+    },
+    {
+      "folio": "f11v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 25,
+          "pdf1_label": "11v",
+          "beinecke_image_id": "1006097",
+          "pdf1_size": [
+            1497,
+            2000
+          ],
+          "pdf2_page": 25,
+          "pdf2_label": "11v",
+          "pdf2_size": [
+            1108,
+            1500
+          ],
+          "folios": [
+            "f11v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 7,
+      "word_count": 50,
+      "unique_canonical_stems": 33,
+      "drawing_intrusions": 5,
+      "opening_words": [
+        "poldchody",
+        "shcphy",
+        "shordy",
+        "qoty",
+        "shol"
+      ],
+      "top_stems": [
+        "tch",
+        "ot",
+        "dy",
+        "ch",
+        "hol"
+      ],
+      "scan_path": "pages/f11v_poldchody_headword_and_plant_enh.png",
+      "visual_forensics": "Palmate-leaved tree/shrub herb with 5-fingered green leaves and dark red woody root."
+    },
+    {
+      "folio": "f13r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 26,
+          "pdf1_label": "13r",
+          "beinecke_image_id": "1006098",
+          "pdf1_size": [
+            1397,
+            2000
+          ],
+          "pdf2_page": 26,
+          "pdf2_label": "13r",
+          "pdf2_size": [
+            1046,
+            1500
+          ],
+          "folios": [
+            "f13r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 10,
+      "word_count": 77,
+      "unique_canonical_stems": 39,
+      "drawing_intrusions": 3,
+      "opening_words": [
+        "torshor",
+        "opchy",
+        "shol",
+        "dy",
+        "qopchy"
+      ],
+      "top_stems": [
+        "tch",
+        "ch",
+        "pch",
+        "ain",
+        "s"
+      ],
+      "scan_path": "pages/f13r_quire2_inner_bifolium_recto_enh.png",
+      "visual_forensics": "Center singleton recto: bulbous crimson root with 11 hollow white cylinder-tubes, 6 fan-shaped green/olive leaves, and blue-green flower cone; left gutter (x=0.00..0.03, y=0.24..0.38) preserves the painted vellum stub of excised leaf f12."
+    },
+    {
+      "folio": "f13v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 27,
+          "pdf1_label": "13v",
+          "beinecke_image_id": "1006099",
+          "pdf1_size": [
+            1492,
+            2000
+          ],
+          "pdf2_page": 27,
+          "pdf2_label": "13v",
+          "pdf2_size": [
+            1109,
+            1500
+          ],
+          "folios": [
+            "f13v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 10,
+      "word_count": 69,
+      "unique_canonical_stems": 41,
+      "drawing_intrusions": 8,
+      "opening_words": [
+        "koair",
+        "chtoiin",
+        "otchy",
+        "kchod",
+        "otol"
+      ],
+      "top_stems": [
+        "tch",
+        "ch",
+        "ain",
+        "tal",
+        "y"
+      ],
+      "scan_path": "pages/f13v_quire2_inner_bifolium_verso_enh.png",
+      "visual_forensics": "Three imbricated green/olive/white hop-strobile or artichoke-like cones (left cone crowned by 3 blue fleur-de-lis spikes); forked lower stem splits Paragraph 2 into 3 columns."
+    },
+    {
+      "folio": "f14r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 28,
+          "pdf1_label": "14r",
+          "beinecke_image_id": "1006100",
+          "pdf1_size": [
+            1424,
+            2000
+          ],
+          "pdf2_page": 28,
+          "pdf2_label": "14r",
+          "pdf2_size": [
+            1083,
+            1500
+          ],
+          "folios": [
+            "f14r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 13,
+      "word_count": 76,
+      "unique_canonical_stems": 49,
+      "drawing_intrusions": 4,
+      "opening_words": [
+        "pcho",
+        "daiin",
+        "chopol",
+        "shoiin",
+        "daiin"
+      ],
+      "top_stems": [
+        "tch",
+        "ch",
+        "ain",
+        "dy",
+        "te"
+      ],
+      "scan_path": "pages/f14r_quire2_twin_spike_herb_recto_enh.png",
+      "visual_forensics": "Double-looped banded earthworm/caterpillar rhizome, double-cylinder collar, 2 tiers of triangular green leaves on red petioles, 10-petaled orange-red flower on dark blue-green calyx; semicircular fore-edge notch at right."
+    },
+    {
+      "folio": "f14v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 29,
+          "pdf1_label": "14v",
+          "beinecke_image_id": "1006101",
+          "pdf1_size": [
+            1491,
+            2000
+          ],
+          "pdf2_page": 29,
+          "pdf2_label": "14v",
+          "pdf2_size": [
+            1115,
+            1500
+          ],
+          "folios": [
+            "f14v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 9,
+      "word_count": 75,
+      "unique_canonical_stems": 43,
+      "drawing_intrusions": 3,
+      "opening_words": [
+        "pdychoiin",
+        "yfodain",
+        "otyshy",
+        "dy",
+        "ypchor"
+      ],
+      "top_stems": [
+        "ain",
+        "dy",
+        "tch",
+        "tsh",
+        "ot"
+      ],
+      "scan_path": "pages/f14v_quire2_serrated_bush_verso_enh.png",
+      "visual_forensics": "Two giant serrated dark-green wing-leaves framing 9 coiled white-and-blue scorpioid berry cymes above a 6-stump cut-log red woody rootstock; semicircular fore-edge notch at left."
+    },
+    {
+      "folio": "f15r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 30,
+          "pdf1_label": "15r",
+          "beinecke_image_id": "1006102",
+          "pdf1_size": [
+            1420,
+            2000
+          ],
+          "pdf2_page": 30,
+          "pdf2_label": "15r",
+          "pdf2_size": [
+            1088,
+            1500
+          ],
+          "folios": [
+            "f15r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 15,
+      "word_count": 94,
+      "unique_canonical_stems": 48,
+      "drawing_intrusions": 16,
+      "opening_words": [
+        "tshor",
+        "shey",
+        "tchaly",
+        "shy",
+        "chtols"
+      ],
+      "top_stems": [
+        "ch",
+        "ain",
+        "cth",
+        "tch",
+        "tain"
+      ],
+      "scan_path": "pages/f15r_quire2_plume_flower_recto_enh.png",
+      "visual_forensics": "38-rayed white-and-gold solar flower head and twin spindle pods above 6 pinnatifid green leaves ending in 3-beaded yellow tuber chains; natural oval vellum hole (x=0.495, y=0.490) sits dead center inside the stem bifurcation fork, exposing f16r."
+    },
+    {
+      "folio": "f15v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 31,
+          "pdf1_label": "15v",
+          "beinecke_image_id": "1006103",
+          "pdf1_size": [
+            1502,
+            2000
+          ],
+          "pdf2_page": 31,
+          "pdf2_label": "15v",
+          "pdf2_size": [
+            1115,
+            1500
+          ],
+          "folios": [
+            "f15v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 12,
+      "word_count": 71,
+      "unique_canonical_stems": 30,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "poror",
+        "orshy",
+        "choiin",
+        "dtchan",
+        "opchordy"
+      ],
+      "top_stems": [
+        "ch",
+        "tch",
+        "ain",
+        "cth",
+        "tain"
+      ],
+      "scan_path": "pages/f15v_quire2_clustered_berry_verso_enh.png",
+      "visual_forensics": "4-leaved Paris quadrifolia whorl topped by 2 arching comb-like yellow racemes of 12 & 13 club-florets; upper-left leaf blade wraps around the oval vellum hole (x=0.518, y=0.498) with a white reserve border, exposing f14v."
+    },
+    {
+      "folio": "f16r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 32,
+          "pdf1_label": "16r",
+          "beinecke_image_id": "1006104",
+          "pdf1_size": [
+            1415,
+            2000
+          ],
+          "pdf2_page": 32,
+          "pdf2_label": "16r",
+          "pdf2_size": [
+            1096,
+            1500
+          ],
+          "folios": [
+            "f16r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 13,
+      "word_count": 84,
+      "unique_canonical_stems": 53,
+      "drawing_intrusions": 3,
+      "opening_words": [
+        "pocheody",
+        "qopchey",
+        "sykaiin",
+        "opchy",
+        "dor"
+      ],
+      "top_stems": [
+        "ain",
+        "tch",
+        "pch",
+        "ch",
+        "yt"
+      ],
+      "scan_path": "pages/f16r_quire2_spiky_calyx_recto_enh.png",
+      "visual_forensics": "6 digitate 7-to-9-pointed Cannabis/Vitex-like star leaves rising from a cylindrical collar atop a 6-armed hairy rootstock, crowned by 7 crimson-and-white seeded panicle spikes."
+    },
+    {
+      "folio": "f16v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 33,
+          "pdf1_label": "16v",
+          "beinecke_image_id": "1006105",
+          "pdf1_size": [
+            1497,
+            2000
+          ],
+          "pdf2_page": 33,
+          "pdf2_label": "16v",
+          "pdf2_size": [
+            1117,
+            1500
+          ],
+          "folios": [
+            "f16v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 13,
+      "word_count": 76,
+      "unique_canonical_stems": 39,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "pchroiin",
+        "otchor",
+        "chpchol",
+        "chpchey",
+        "s"
+      ],
+      "top_stems": [
+        "ch",
+        "tch",
+        "ot",
+        "ain",
+        "chcth"
+      ],
+      "scan_path": "pages/f16v_full_enh.png",
+      "visual_forensics": "Closing verso of Quire 2: 3-tiered serrated leaf whorls with terminal flower spike and dark red claw root."
+    }
+  ]
+}

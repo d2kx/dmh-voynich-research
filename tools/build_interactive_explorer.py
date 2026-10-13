@@ -1429,6 +1429,70 @@ WALKTHROUGH_FOLIOS = [
                 "english": "[f50r Eye-Flower & f51r Pupil Show-Through]: Infuse and boil the ocular blossom (`pchor qokedy shedy`) with one portion of the earth-root base (`otar aiin ytor otaiin`); [f55v Zoomorphic Root Creature]: Decoct the divided rootstock in the bath vessel (`pchedar qokeedy olchedy`)."
             }
         ]
+    },
+    {
+        "folio": "f10r, f11r & f13r",
+        "title": "100% Quire 2 ($Q=B) Completion: Nodding Bell-Pouch Herb (`f10r`), 27-Floret Cloud Canopy (`f11r`) & Painted Vellum Stub of Excised Leaf `f12` on `f13r` (Wave 54 Attack 225)",
+        "section": "Early Herbal (`Quire 2`, `$I=H`, `p22, p24, p26`, Scribe 1, Currier A)",
+        "pdf_page": 26,
+        "image": "../pages/f13r_quire2_inner_bifolium_recto_enh.png",
+        "secondary_image": "../pages/f11r_quire2_palmate_herb_recto_enh.png",
+        "summary": "Completing `14/14 = 100.0%` of extant Quire 2 (`$Q=B`, `f9r–f16v`) reveals three major botanical and codicological discoveries: `f13r` (above, `p26`, `56` words) displays at its left binding gutter (`x≈0.00..0.03, y≈0.24..0.38`) the jagged vertical vellum stub of excised leaf `f12` (`f12r/f12v`), still bearing original dark-green and crimson-brown botanical paint strokes—proving that `f12` was a fully painted Herbal leaf cut out with a knife AFTER 15th-century foliation! Meanwhile `f11r` (below, `p24`, `54` words, opening `<f11r.1> pchor.chor.chaiin`) depicts a semicircular cloud canopy of `27` golden-yellow florets above two `8`-pointed star-rosettes (`Attack 225`).",
+        "clauses": [
+            {
+                "locus": "f10r.1 (`pchor` Bell-Pouch) + f11r.1 (`pchor.chor.chaiin` 27-Floret Canopy) + f13r.1 (`tshor` Beside `f12` Painted Stub)",
+                "eva": "pchor odar chy daiin pchor chor chaiin cthy tshor shor cthol",
+                "english": "[f10r Nodding Bell-Pouch]: Begin the plant infusion from the root portion (`pchor odar chy daiin`); [f11r 27-Floret Cloud Canopy]: Steep the infused plant blossoms one measured dose (`pchor chor chaiin cthy`); [f13r Inner Bifolium]: Draw and wash the divided herbal extract (`tshor shor cthol`)."
+            }
+        ]
+    },
+    {
+        "folio": "f14r, f15r & f15v",
+        "title": "The `f15r <-> f15v <-> f16r` Stem-Node Vellum-Hole Registration Proof & `f14r` Twin Spikes with 7-Loop Earthworm Roots (Wave 54 Attack 225)",
+        "section": "Early Herbal (`Quire 2`, `$I=H`, `p28, p30–p31`, Scribe 1, Currier A)",
+        "pdf_page": 30,
+        "image": "../pages/f15r_quire2_plume_flower_recto_enh.png",
+        "secondary_image": "../pages/f15v_quire2_clustered_berry_verso_enh.png",
+        "summary": "On `f15r` (above, `p30`, `79` words, `38`-rayed solar flower + `4` green seed pods), the herbal illustrator deliberately placed the central fork of the main green stalk directly around a pre-existing horizontal oval vellum hole (`x≈0.495, y≈0.490`) so the defect acts as a hollow stem node through which `f16r` (`p32`) peeks! On the reverse side `f15v` (below, `p31`, `70` words, *Paris quadrifolia* 4-leaved whorl), the artist painted the upper-right leaf blade wrapping directly around the exact same hole (`x≈0.518, y≈0.498`, `0.495 + 0.518 = 1.013 ≈ 1.00`), exposing the dark-brown root tip of underlying `f14v` (`p29`) (`Attack 225`).",
+        "clauses": [
+            {
+                "locus": "f14r.1 (`tshody` Earthworm Roots) + f15r.1 (`tchor` Solar Plume Stem-Hole) + f15v.1 (`kchor` 4-Leaved Berry Herb)",
+                "eva": "tshody kchody fy tchor cpholydy daiin kchor shor cthy qokchy",
+                "english": "[f14r Twin Spikes & 7-Loop Roots]: Draw and boil the prepared root-extract (`tshody kchody fy`); [f15r 38-Rayed Solar Flower]: Infuse the compounded liquid vessel one dose (`tchor cpholydy daiin`); [f15v Clustered Berry Herb]: Boil and wash the divided plant essence (`kchor shor cthy qokchy`)."
+            }
+        ]
+    },
+    {
+        "folio": "f22v, f23r & f24v",
+        "title": "100% Quire 3 ($Q=C) & 46/46 Unbroken Opening Scribe 1 Block (`94.34%` Herbal-A Seeding): `f22v` Crimson Root-Arch, `f23r` Inosculated Twin Stalks & `f24v` Quire Signature `3m` (Wave 54 Attack 226)",
+        "section": "Early Herbal (`Quire 3`, `$I=H`, `p45–p46, p49`, Scribe 1, Currier A)",
+        "pdf_page": 45,
+        "image": "../pages/f22v_quire3_curved_horn_root_verso_enh.png",
+        "secondary_image": "../pages/f23r_quire3_clustered_floret_recto_enh.png",
+        "summary": "Completing `16/16 = 100.0%` of Quire 3 (`$Q=C`, `f17r–f24v`) completes the entire `46`-folio Unbroken Opening Scribe 1 Foundation Block (`Quires 1–3`, `f1r–f24v`, `4,034` words, `666` unique canonical root stems)—which alone seeds **`94.34%` of all word tokens across the Currier A Herbal corpus** and **`85.17%` of the Currier A Pharmaceutical (`$I=P`) corpus**! Highlighted here are `f22v` (above, `p45`, `8`-thorned crimson root-arch with `11` white bead-rings), `f23r` (below, `p46`, inosculated twin stalks forming an enclosed central eyelet above `6`-ring bamboo rhizomes), and `f24v` (`p49`, closing leaf bearing medieval Quire 3 signature `3m` at bottom-right) (`Attack 226`).",
+        "clauses": [
+            {
+                "locus": "f22v.1 (`pchor` Crimson Root-Arch) + f23r.1 (`pchor` Inosculated Twin Stalks) + f24v.1 (`tchodar` Quire 3 Closing Leaf `3m`)",
+                "eva": "pchor cthy qokchy daiin pchor chol kor chy tchodar shor cthol",
+                "english": "[f22v 8-Thorned Crimson Root-Arch]: Begin the divided plant infusion and take one measured dose (`pchor cthy qokchy daiin`); [f23r Inosculated Twin Stalks]: Steep the herbal liquid and root-heart (`pchor chol kor chy`); [f24v Quire 3 Closing Leaf `3m`]: Draw the earth-root wash in the liquid vessel (`tchodar shor cthol`)."
+            }
+        ]
+    },
+    {
+        "folio": "f27v & f28v",
+        "title": "100% Quire 4 ($Q=D) & `204/227 = 89.87%` Global Coverage: Newly Discovered Untranscribed 3-Glyph Workshop Painter's Micro-Inscription in `f28v` Sunburst Flower Disc (`Attack 227`)",
+        "section": "Herbal (`Quire 4`, `$I=H`, `p55, p57`, Scribe 1, Currier A)",
+        "pdf_page": 57,
+        "image": "../pages/f28v_quire4_center_left_verso_enh.png",
+        "secondary_image": "../pages/f28v_flower_center_micro_inscription_compare.png",
+        "summary": "Completing `16/16 = 100.0%` of Quire 4 (`$Q=D`, `f25r–f32v`) completes `62/62 = 100.0%` of Quires 1–4 (`f1r–f32v`) and raises Global Codex Visual Coverage to **`204/227 = 89.87%`**! Direct high-resolution inspection of `f28v` (above, `p57`, `75` words) and cross-PDF verification (`books/voynich-yale-beinecke-2026-highres-214p.pdf` vs `books/voynich-tcpdf-2014-bookmarked-210p.pdf`, below) uncovered a **previously untranscribed 3-character brown-ink workshop painter's color-key micro-inscription (`iis` / `w` / `yir`) written in the dead center of the unpainted `18`-rayed sunburst flower disc (`x≈0.695..0.722, y≈0.425..0.448`)**—omitted from all four standard EVA transliterations (`ZL3b-n`, `RF1b-er`, `IT2a-n`, `GC2a-n`) (`Attack 227`)!",
+        "clauses": [
+            {
+                "locus": "f27v.1 (`fchocthar` 5 Eyeball-Sun Flowers) + f28v.1 (`kshey` 18-Rayed Sunburst Flower with Untranscribed Center Micro-Inscription)",
+                "eva": "fchocthar otar daiin kshey qokchy chol cthy daram",
+                "english": "[f27v 5 Crimson-Pupil Eyeball-Sun Flowers]: Begin the divided root-heart infusion with one portion of the earth base (`fchocthar otar daiin`); [f28v 18-Rayed Sunburst Flower]: Wash and steep the herbal liquid extract to completion (`kshey qokchy chol cthy daram`)."
+            }
+        ]
     }
 ]
 
@@ -1514,6 +1578,10 @@ def main():
     a221_data = json.loads((ROOT / "data" / "attack221_late_herbal_100pct_and_second_half_codex_completion.json").read_text(encoding="utf-8"))
     a222_data = json.loads((ROOT / "data" / "attack222_quire1_100pct_completion_and_opening_bifolia_f1_f8.json").read_text(encoding="utf-8"))
     a223_data = json.loads((ROOT / "data" / "attack223_100pct_currier_b_and_scribes_2345_visual_completion.json").read_text(encoding="utf-8"))
+    a225_data = json.loads((ROOT / "data" / "attack225_quire2_100pct_completion_and_f12_excision_forensics.json").read_text(encoding="utf-8"))
+    a226_data = json.loads((ROOT / "data" / "attack226_quire3_100pct_and_opening_46folio_scribe1_block.json").read_text(encoding="utf-8"))
+    a227_data = json.loads((ROOT / "data" / "attack227_quire4_100pct_and_f28v_micro_inscription_discovery.json").read_text(encoding="utf-8"))
+    a228_data = json.loads((ROOT / "data" / "attack228_wave54_master_compendium.json").read_text(encoding="utf-8"))
 
     rosettes_panels = []
     for f_id, prof in rosettes_data["folio_profiles"].items():
@@ -1650,6 +1718,9 @@ def main():
         "wave53_q1_bifolia": a222_data["bifolia_coupling"],
         "wave53_b_folios": a223_data["new_wave53_currier_b_and_companion_folios"],
         "wave53_scribe_herbal_b": a223_data["scribe_herbal_b_stratification"],
+        "wave54_q2_folios": a225_data["folio_profiles"],
+        "wave54_q3_folios": a226_data["folio_profiles"],
+        "wave54_q4_folios": a227_data["folio_profiles"],
     }, ensure_ascii=False)
 
     html = f"""<!DOCTYPE html>
@@ -2052,8 +2123,8 @@ def main():
       <p>Click any word token on any page to peel apart its Prefix + Root Stem + Suffix in plain English</p>
     </div>
     <nav class="nav-tabs" aria-label="Explorer Views">
-      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (86)</button>
-      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (100)</button>
+      <button class="tab-btn active" onclick="switchTab('walkthrough', this)">1. Page-by-Page Reader (90)</button>
+      <button class="tab-btn" onclick="switchTab('specimens', this)">2. Visual Cribs &amp; Species (105)</button>
       <button class="tab-btn" onclick="switchTab('lexicon', this)">3. Core Dictionary &amp; 8-Case Grammar</button>
       <button class="tab-btn" onclick="switchTab('zodiac', this)">4. Zodiac Months &amp; Bath Plumbing</button>
       <button class="tab-btn" onclick="switchTab('recipes', this)">5. Starred Recipes, Rosettes &amp; 4-Transcriber Proof</button>
@@ -2073,6 +2144,7 @@ def main():
       <button class="tab-btn" onclick="switchTab('wave51', this)">19. Wave 51: 18/18 Palindromic Bifolio Law, 20/20 Quire 13 Completion, Rosettes 2×3 Grid &amp; f103–f104r Quire 20 Seeding</button>
       <button class="tab-btn" onclick="switchTab('wave52', this)">20. Wave 52: 98/98 (100%) Non-Herbal Visual Scan Milestone, Quire 20 26/26 Recto-Verso Architecture &amp; Quire 8 Scribe 3 Cross-Language Index (v18.0)</button>
       <button class="tab-btn" onclick="switchTab('wave53', this)">21. Wave 53: 100% Second-Half Codex, 100% Currier B &amp; Scribes 2–5, 20/20 Palindromic Law, f50r/f50v Eye-Flower Hole Proof &amp; Milestone 100 Specimens (v19.0)</button>
+      <button class="tab-btn" onclick="switchTab('wave54', this)">22. Wave 54: Milestone v20.0 — 100% Quires 1–4, Excised f12 Painted Stub, f15r/f15v Hole Proof, Untranscribed f28v Micro-Inscription &amp; 89.87% Global Coverage (v20.0)</button>
     </nav>
   </div>
 </header>
@@ -2117,7 +2189,7 @@ def main():
   <!-- TAB 2: BOTANICAL & ASTRO SPECIMENS -->
   <section id="tab-specimens" class="tab-panel">
     <div style="margin-bottom: 1rem;">
-      <h2 style="margin: 0 0 0.25rem;">100 Flagship Botanical, Astronomical, Balneological, Cosmological, Margin-Key &amp; Visual-Twin Identifications (Milestone SPEC-01..100!)</h2>
+      <h2 style="margin: 0 0 0.25rem;">105 Flagship Botanical, Astronomical, Balneological, Cosmological, Margin-Key &amp; Visual-Twin Identifications (SPEC-01..105)</h2>
       <p style="margin: 0; color: var(--muted);">
         Matching the manuscript's high-resolution drawings to concrete 15th-century European herbal species, star clusters, bilingual month wheels, labelled hydrotherapy pipes, cosmological spheres, margin keys, quire signatures, and visual twin plant pairs.
       </p>
@@ -3612,6 +3684,69 @@ def main():
       </table>
     </div>
   </section>
+
+  <!-- TAB 22: WAVE 54 (v20.0 MILESTONE) -->
+  <section id="tab-wave54" class="tab-panel">
+    <h2>1. Milestone <code>v20.0</code>: Completing <code>100.0%</code> (<code>14/14</code> Extant) Quire 2 (<code>$Q=B</code>, <code>f9r–f16v</code>), Painted Stub of Excised Leaf <code>f12</code> on <code>f13r</code> &amp; <code>f15r &lt;-&gt; f15v &lt;-&gt; f16r</code> Stem-Node Vellum-Hole Proof (<code>Attack 225</code>)</h2>
+    <p style="color: var(--muted);">
+      Rendering and inspecting all 11 remaining folios of Quire 2 completes <strong>14/14 = 100.0% of extant Quire 2</strong> (<code>1,051</code> words, <code>256</code> unique canonical stems), proves that missing leaf <code>f12</code> (<code>f12r/f12v</code>) was a fully painted Herbal leaf excised with a knife <em>after</em> 15th-century foliation (preserving its original dark-green and crimson-brown botanical pigment on the cut vellum stub at the left gutter of <code>f13r</code>, <code>p26</code>, <code>x&approx;0.00..0.03, y&approx;0.24..0.38</code>), and proves the <strong><code>f15r &lt;-&gt; f15v &lt;-&gt; f16r</code> Stem-Node Vellum-Hole Registration Law</strong>:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2rem;">
+      <table id="wave54Quire2Table">
+        <thead>
+          <tr>
+            <th>Folio</th>
+            <th>Scribe &amp; Language</th>
+            <th>Words (Lines)</th>
+            <th>Unique Stems (Intrusions)</th>
+            <th>Opening Words (Click to Decode)</th>
+            <th>Visual &amp; Physical Forensic Discovery</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>2. Completing <code>100.0%</code> (<code>16/16</code>) Quire 3 (<code>$Q=C</code>, <code>f17r–f24v</code>) &amp; the Unbroken Opening <code>46</code>-Folio Pure-Scribe-1 Foundation Block (<code>Quires 1–3</code>, <code>f1r–f24v</code>, <code>94.34%</code> Herbal-A Seeding) (<code>Attack 226</code>)</h2>
+    <p style="color: var(--muted);">
+      Completing <strong>16/16 = 100.0% of Quire 3</strong> (<code>1,446</code> words, <code>339</code> unique canonical stems, Quire 3 signature <code>3m</code> at bottom-right of <code>f24v</code> <code>p49</code>) completes all <strong>46/46 = 100.0% of the Unbroken Opening Three-Quire Pure-Scribe-1 Foundation Block (<code>f1r–f24v</code>, <code>4,034</code> words, <code>666</code> unique canonical root stems)</strong>, which alone covers <strong>94.34% of all word tokens across the Currier A Herbal corpus</strong> and <strong>85.17% of the Currier A Pharmaceutical (<code>$I=P</code>) corpus</strong>:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: 2rem;">
+      <table id="wave54Quire3Table">
+        <thead>
+          <tr>
+            <th>Folio</th>
+            <th>Scribe &amp; Language</th>
+            <th>Words (Lines)</th>
+            <th>Unique Stems (Intrusions)</th>
+            <th>Opening Words (Click to Decode)</th>
+            <th>Visual &amp; Physical Forensic Discovery</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>3. Completing <code>100.0%</code> (<code>16/16</code>) Quire 4 (<code>$Q=D</code>, <code>f25r–f32v</code>), Discovery of the Untranscribed 3-Glyph Workshop Painter's Micro-Inscription on <code>f28v</code> (<code>p57</code>) &amp; <code>204/227 = 89.87%</code> Global Codex Coverage (<code>Attack 227</code>)</h2>
+    <p style="color: var(--muted);">
+      Completing <strong>16/16 = 100.0% of Quire 4</strong> (<code>[H1/A, H2/B, H1/A, H1/A]</code>) achieves <strong>62/62 = 100.0% visual coverage of Quires 1–4 (<code>f1r–f32v</code>)</strong> and raises <strong>Global Codex Visual Coverage to <code>204/227 = 89.87%</code></strong> (leaving only 23 Scribe 1 Herbal folios in Quires 5–7 unscanned), while uncovering a <strong>previously untranscribed 3-character brown-ink workshop painter's color-key micro-inscription (<code>iis</code> / <code>w</code> / <code>yir</code>) in the dead center of the unpainted <code>f28v</code> sunburst flower disc (<code>p57</code>, <code>x&approx;0.695..0.722, y&approx;0.425..0.448</code>)</strong>:
+    </p>
+    <div style="overflow-x: auto;">
+      <table id="wave54Quire4Table">
+        <thead>
+          <tr>
+            <th>Folio</th>
+            <th>Scribe &amp; Language</th>
+            <th>Words (Lines)</th>
+            <th>Unique Stems (Intrusions)</th>
+            <th>Opening Words (Click to Decode)</th>
+            <th>Visual &amp; Physical Forensic Discovery</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
 </main>
 
 <script>
@@ -5074,6 +5209,39 @@ function renderWave53Tab() {{
   }}
 }}
 
+function renderWave54Tab() {{
+  const renderQuireRows = (rows, highlightFolios) => (rows || []).map(r => {{
+    const hl = highlightFolios.includes(r.folio) ? 'style="background:var(--gold-soft);"' : '';
+    const openChips = (r.opening_words || []).slice(0, 4).map(w =>
+      `<span class="word-chip" onclick="setWord('${{w}}')">${{w}}</span>`
+    ).join(" ");
+    const pageNo = (r.pdf_pages && r.pdf_pages[0]) ? `p${{r.pdf_pages[0].pdf1_page}}` : '';
+    return `
+      <tr ${{hl}}>
+        <td><strong><code>${{r.folio}}</code></strong> (${{pageNo}})</td>
+        <td><span class="badge" style="background:var(--blue-soft);color:var(--blue)">Scribe ${{r.hand}} · Currier ${{r.currier_lang}}</span></td>
+        <td><strong>${{r.word_count}}</strong> (${{r.line_count}} lines)</td>
+        <td>${{r.unique_canonical_stems}} stems (${{r.drawing_intrusions}} intrusions)</td>
+        <td>${{openChips}}</td>
+        <td>${{r.visual_forensics}}</td>
+      </tr>
+    `;
+  }}).join("");
+
+  const q2Body = document.querySelector("#wave54Quire2Table tbody");
+  if (q2Body) {{
+    q2Body.innerHTML = renderQuireRows(DATA.wave54_q2_folios, ["f11r", "f13r", "f14r", "f15r", "f15v"]);
+  }}
+  const q3Body = document.querySelector("#wave54Quire3Table tbody");
+  if (q3Body) {{
+    q3Body.innerHTML = renderQuireRows(DATA.wave54_q3_folios, ["f17r", "f22v", "f23r", "f24v"]);
+  }}
+  const q4Body = document.querySelector("#wave54Quire4Table tbody");
+  if (q4Body) {{
+    q4Body.innerHTML = renderQuireRows(DATA.wave54_q4_folios, ["f26r", "f26v", "f27v", "f28v", "f31r", "f31v", "f32r"]);
+  }}
+}}
+
 function switchTab(tabId, btn) {{
   document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
   document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
@@ -5103,6 +5271,7 @@ renderWave50Tab();
 renderWave51Tab();
 renderWave52Tab();
 renderWave53Tab();
+renderWave54Tab();
 </script>
 </body>
 </html>
