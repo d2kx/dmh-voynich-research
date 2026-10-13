@@ -1,0 +1,1191 @@
+{
+  "metadata": {
+    "discovery_id": "Discovery 250",
+    "attack_id": "Attack 233",
+    "milestone": "Milestone 250th Discovery (Wave 56)",
+    "title": "Physical Binding, Spine & Book-Edge Forensics (p210\u2013p213 Yale High-Res PDF)",
+    "pdf_source": "books/voynich-yale-beinecke-2026-highres-214p.pdf",
+    "beinecke_image_ids": {
+      "p210_head": "11868207",
+      "p211_tail": "11868208",
+      "p212_fore_edge": "11868209",
+      "p213_spine": "11868210"
+    },
+    "timestamp": "2026-10-13T16:29:11.434424+00:00"
+  },
+  "book_block_measurements": {
+    "physical_estimates": {
+      "height_mm": 235,
+      "width_mm": 162,
+      "thickness_mm": 50
+    },
+    "p210_head_edge": {
+      "image_size": [
+        2000,
+        863
+      ],
+      "book_bbox": [
+        52,
+        56,
+        1978,
+        818
+      ],
+      "block_width_px": 1926,
+      "block_thickness_px": 762,
+      "orientation": "Spine on left (x=50..200), fore-edge on right (x=1850..1950)"
+    },
+    "p211_tail_edge": {
+      "image_size": [
+        2000,
+        861
+      ],
+      "book_bbox": [
+        40,
+        4,
+        1994,
+        818
+      ],
+      "block_width_px": 1954,
+      "block_thickness_px": 814,
+      "orientation": "Spine on left (x=40..200), fore-edge on right (x=1850..1980)"
+    },
+    "p212_fore_edge": {
+      "image_size": [
+        654,
+        2000
+      ],
+      "book_bbox": [
+        10,
+        0,
+        606,
+        1974
+      ],
+      "block_height_px": 1974,
+      "block_thickness_px": 543,
+      "book_x_span": [
+        59,
+        602
+      ]
+    },
+    "p213_spine": {
+      "image_size": [
+        537,
+        2000
+      ],
+      "book_bbox": [
+        52,
+        46,
+        496,
+        1988
+      ],
+      "spine_height_px": 1942,
+      "spine_width_px": 444
+    }
+  },
+  "sewing_and_spine_structure": {
+    "stations": [
+      {
+        "name": "Headband / Head Kettle Stitch",
+        "y_px": 115,
+        "y_range": [
+          95,
+          140
+        ],
+        "relative_spine_pos": 0.059,
+        "feature": "Turned-in head cap and linen headband kettle loop"
+      },
+      {
+        "name": "Sewing Station 1 (Upper Support)",
+        "y_px": 535,
+        "y_range": [
+          515,
+          555
+        ],
+        "relative_spine_pos": 0.275,
+        "feature": "Raised sewing cord ridge with transverse vellum tension crease"
+      },
+      {
+        "name": "Sewing Station 2 (Central Support)",
+        "y_px": 970,
+        "y_range": [
+          955,
+          985
+        ],
+        "relative_spine_pos": 0.499,
+        "feature": "Center spine support band, exact 50.0% spine height symmetry"
+      },
+      {
+        "name": "Sewing Station 3 (Lower Support)",
+        "y_px": 1475,
+        "y_range": [
+          1455,
+          1495
+        ],
+        "relative_spine_pos": 0.76,
+        "feature": "Lower sewing cord support with visible transverse parchment contour"
+      },
+      {
+        "name": "Tailband / Tail Kettle Stitch",
+        "y_px": 1815,
+        "y_range": [
+          1795,
+          1835
+        ],
+        "relative_spine_pos": 0.935,
+        "feature": "Turned-in tail cap and lower gathering kettle tie stitch"
+      }
+    ],
+    "inter_station_distances_px": [
+      420,
+      435,
+      505,
+      340
+    ],
+    "sewing_support_count": 3,
+    "endband_count": 2,
+    "symmetry_analysis": {
+      "station_2_relative_height": 0.499,
+      "upper_span_px": 855,
+      "lower_span_px": 845
+    }
+  },
+  "headband_and_tailband_structure": {
+    "headband_p210": {
+      "crop_bbox": [
+        40,
+        200,
+        300,
+        720
+      ],
+      "resolved_loops_count": 91,
+      "mean_loop_spacing_px": 5.57,
+      "sample_loops": [
+        {
+          "y_in_crop": 11,
+          "y_page_px": 211,
+          "brightness": 78.4
+        },
+        {
+          "y_in_crop": 51,
+          "y_page_px": 251,
+          "brightness": 101.6
+        },
+        {
+          "y_in_crop": 97,
+          "y_page_px": 297,
+          "brightness": 84.8
+        },
+        {
+          "y_in_crop": 126,
+          "y_page_px": 326,
+          "brightness": 98.2
+        },
+        {
+          "y_in_crop": 163,
+          "y_page_px": 363,
+          "brightness": 97.2
+        },
+        {
+          "y_in_crop": 187,
+          "y_page_px": 387,
+          "brightness": 92.0
+        },
+        {
+          "y_in_crop": 209,
+          "y_page_px": 409,
+          "brightness": 98.1
+        },
+        {
+          "y_in_crop": 239,
+          "y_page_px": 439,
+          "brightness": 73.3
+        },
+        {
+          "y_in_crop": 268,
+          "y_page_px": 468,
+          "brightness": 81.4
+        },
+        {
+          "y_in_crop": 315,
+          "y_page_px": 515,
+          "brightness": 71.6
+        },
+        {
+          "y_in_crop": 358,
+          "y_page_px": 558,
+          "brightness": 90.5
+        },
+        {
+          "y_in_crop": 396,
+          "y_page_px": 596,
+          "brightness": 91.0
+        },
+        {
+          "y_in_crop": 424,
+          "y_page_px": 624,
+          "brightness": 94.5
+        },
+        {
+          "y_in_crop": 450,
+          "y_page_px": 650,
+          "brightness": 90.6
+        },
+        {
+          "y_in_crop": 479,
+          "y_page_px": 679,
+          "brightness": 93.8
+        },
+        {
+          "y_in_crop": 512,
+          "y_page_px": 712,
+          "brightness": 128.2
+        }
+      ]
+    },
+    "tailband_p211": {
+      "crop_bbox": [
+        40,
+        200,
+        300,
+        720
+      ],
+      "resolved_loops_count": 86,
+      "mean_loop_spacing_px": 5.64,
+      "sample_loops": [
+        {
+          "y_in_crop": 20,
+          "y_page_px": 220,
+          "brightness": 73.9
+        },
+        {
+          "y_in_crop": 54,
+          "y_page_px": 254,
+          "brightness": 107.3
+        },
+        {
+          "y_in_crop": 86,
+          "y_page_px": 286,
+          "brightness": 93.3
+        },
+        {
+          "y_in_crop": 123,
+          "y_page_px": 323,
+          "brightness": 94.7
+        },
+        {
+          "y_in_crop": 153,
+          "y_page_px": 353,
+          "brightness": 105.9
+        },
+        {
+          "y_in_crop": 179,
+          "y_page_px": 379,
+          "brightness": 101.8
+        },
+        {
+          "y_in_crop": 206,
+          "y_page_px": 406,
+          "brightness": 95.9
+        },
+        {
+          "y_in_crop": 245,
+          "y_page_px": 445,
+          "brightness": 81.5
+        },
+        {
+          "y_in_crop": 274,
+          "y_page_px": 474,
+          "brightness": 84.0
+        },
+        {
+          "y_in_crop": 300,
+          "y_page_px": 500,
+          "brightness": 78.5
+        },
+        {
+          "y_in_crop": 346,
+          "y_page_px": 546,
+          "brightness": 91.4
+        },
+        {
+          "y_in_crop": 378,
+          "y_page_px": 578,
+          "brightness": 86.6
+        },
+        {
+          "y_in_crop": 410,
+          "y_page_px": 610,
+          "brightness": 79.1
+        },
+        {
+          "y_in_crop": 445,
+          "y_page_px": 645,
+          "brightness": 87.3
+        },
+        {
+          "y_in_crop": 487,
+          "y_page_px": 687,
+          "brightness": 96.6
+        }
+      ]
+    }
+  },
+  "fore_edge_groove_analysis": {
+    "book_x_span": [
+      59,
+      602
+    ],
+    "thickness_px": 543,
+    "valleys": [
+      {
+        "x_px": 74,
+        "depth_lum": 81.1,
+        "prominence": 21.86
+      },
+      {
+        "x_px": 84,
+        "depth_lum": 89.1,
+        "prominence": 13.69
+      },
+      {
+        "x_px": 96,
+        "depth_lum": 110.4,
+        "prominence": 3.08
+      },
+      {
+        "x_px": 112,
+        "depth_lum": 105.5,
+        "prominence": 10.77
+      },
+      {
+        "x_px": 134,
+        "depth_lum": 91.6,
+        "prominence": 20.75
+      },
+      {
+        "x_px": 166,
+        "depth_lum": 90.8,
+        "prominence": 13.96
+      },
+      {
+        "x_px": 180,
+        "depth_lum": 104.6,
+        "prominence": 13.2
+      },
+      {
+        "x_px": 223,
+        "depth_lum": 89.4,
+        "prominence": 16.69
+      },
+      {
+        "x_px": 235,
+        "depth_lum": 102.0,
+        "prominence": 2.34
+      },
+      {
+        "x_px": 265,
+        "depth_lum": 116.4,
+        "prominence": 21.48
+      },
+      {
+        "x_px": 272,
+        "depth_lum": 112.7,
+        "prominence": 23.16
+      },
+      {
+        "x_px": 288,
+        "depth_lum": 128.9,
+        "prominence": 12.88
+      },
+      {
+        "x_px": 308,
+        "depth_lum": 120.7,
+        "prominence": 20.91
+      },
+      {
+        "x_px": 334,
+        "depth_lum": 105.6,
+        "prominence": 34.36
+      },
+      {
+        "x_px": 383,
+        "depth_lum": 99.5,
+        "prominence": 24.37
+      },
+      {
+        "x_px": 396,
+        "depth_lum": 114.4,
+        "prominence": 9.48
+      },
+      {
+        "x_px": 422,
+        "depth_lum": 114.7,
+        "prominence": 22.19
+      },
+      {
+        "x_px": 439,
+        "depth_lum": 133.8,
+        "prominence": 6.2
+      },
+      {
+        "x_px": 451,
+        "depth_lum": 125.4,
+        "prominence": 14.69
+      },
+      {
+        "x_px": 463,
+        "depth_lum": 122.1,
+        "prominence": 18.62
+      },
+      {
+        "x_px": 493,
+        "depth_lum": 94.9,
+        "prominence": 23.2
+      },
+      {
+        "x_px": 505,
+        "depth_lum": 113.1,
+        "prominence": 4.94
+      },
+      {
+        "x_px": 536,
+        "depth_lum": 112.7,
+        "prominence": 2.18
+      },
+      {
+        "x_px": 549,
+        "depth_lum": 95.8,
+        "prominence": 19.11
+      }
+    ],
+    "raw_profile_sample": [
+      57.0,
+      102.8,
+      89.8,
+      103.0,
+      112.8,
+      108.7,
+      115.1,
+      99.9,
+      102.7,
+      106.7,
+      100.7,
+      96.3,
+      105.7,
+      127.8,
+      123.0,
+      116.9,
+      95.5,
+      100.1,
+      109.2,
+      126.0,
+      130.7,
+      119.3,
+      137.6,
+      129.7,
+      138.6,
+      120.8,
+      140.9,
+      113.6,
+      113.8,
+      140.0,
+      143.6,
+      132.6,
+      115.5,
+      122.8,
+      117.3,
+      136.8,
+      123.1,
+      139.8,
+      133.8,
+      129.1,
+      139.0,
+      157.2,
+      135.9,
+      102.0,
+      114.9,
+      119.8,
+      133.5,
+      123.1,
+      113.5,
+      95.8,
+      129.5,
+      132.3,
+      123.1,
+      93.6,
+      53.9
+    ]
+  },
+  "codicological_20_quire_atlas": [
+    {
+      "quire_id": "A",
+      "is_extant": true,
+      "structure_type": "single_bifolia_trimmed",
+      "folio_range": "f1r..f8v",
+      "folio_count": 16,
+      "estimated_leaves": 8,
+      "sections": [
+        "Text-only",
+        "Herbal (Botanical)"
+      ],
+      "scribes": [
+        "1"
+      ],
+      "bulk_weight": 8,
+      "predicted_x_bounds": [
+        60,
+        87
+      ],
+      "edge_texture": "flat_cut_trimmed_edges",
+      "correlated_valley": {
+        "x_px": 84,
+        "depth_lum": 89.1,
+        "prominence": 13.69
+      }
+    },
+    {
+      "quire_id": "B",
+      "is_extant": true,
+      "structure_type": "single_bifolia_trimmed",
+      "folio_range": "f9r..f16v",
+      "folio_count": 14,
+      "estimated_leaves": 7,
+      "sections": [
+        "Herbal (Botanical)"
+      ],
+      "scribes": [
+        "1"
+      ],
+      "bulk_weight": 7,
+      "predicted_x_bounds": [
+        87,
+        111
+      ],
+      "edge_texture": "flat_cut_trimmed_edges",
+      "correlated_valley": {
+        "x_px": 112,
+        "depth_lum": 105.5,
+        "prominence": 10.77
+      }
+    },
+    {
+      "quire_id": "C",
+      "is_extant": true,
+      "structure_type": "single_bifolia_trimmed",
+      "folio_range": "f17r..f24v",
+      "folio_count": 16,
+      "estimated_leaves": 8,
+      "sections": [
+        "Herbal (Botanical)"
+      ],
+      "scribes": [
+        "1"
+      ],
+      "bulk_weight": 8,
+      "predicted_x_bounds": [
+        111,
+        139
+      ],
+      "edge_texture": "flat_cut_trimmed_edges",
+      "correlated_valley": {
+        "x_px": 134,
+        "depth_lum": 91.6,
+        "prominence": 20.75
+      }
+    },
+    {
+      "quire_id": "D",
+      "is_extant": true,
+      "structure_type": "single_bifolia_trimmed",
+      "folio_range": "f25r..f32v",
+      "folio_count": 16,
+      "estimated_leaves": 8,
+      "sections": [
+        "Herbal (Botanical)"
+      ],
+      "scribes": [
+        "1",
+        "2"
+      ],
+      "bulk_weight": 8,
+      "predicted_x_bounds": [
+        139,
+        166
+      ],
+      "edge_texture": "flat_cut_trimmed_edges",
+      "correlated_valley": {
+        "x_px": 166,
+        "depth_lum": 90.8,
+        "prominence": 13.96
+      }
+    },
+    {
+      "quire_id": "E",
+      "is_extant": true,
+      "structure_type": "single_bifolia_trimmed",
+      "folio_range": "f33r..f40v",
+      "folio_count": 16,
+      "estimated_leaves": 8,
+      "sections": [
+        "Herbal (Botanical)"
+      ],
+      "scribes": [
+        "1",
+        "2"
+      ],
+      "bulk_weight": 8,
+      "predicted_x_bounds": [
+        166,
+        193
+      ],
+      "edge_texture": "flat_cut_trimmed_edges",
+      "correlated_valley": {
+        "x_px": 180,
+        "depth_lum": 104.6,
+        "prominence": 13.2
+      }
+    },
+    {
+      "quire_id": "F",
+      "is_extant": true,
+      "structure_type": "single_bifolia_trimmed",
+      "folio_range": "f41r..f48v",
+      "folio_count": 16,
+      "estimated_leaves": 8,
+      "sections": [
+        "Herbal (Botanical)"
+      ],
+      "scribes": [
+        "1",
+        "5",
+        "2"
+      ],
+      "bulk_weight": 8,
+      "predicted_x_bounds": [
+        193,
+        221
+      ],
+      "edge_texture": "flat_cut_trimmed_edges",
+      "correlated_valley": {
+        "x_px": 223,
+        "depth_lum": 89.4,
+        "prominence": 16.69
+      }
+    },
+    {
+      "quire_id": "G",
+      "is_extant": true,
+      "structure_type": "single_bifolia_trimmed",
+      "folio_range": "f49r..f56v",
+      "folio_count": 16,
+      "estimated_leaves": 8,
+      "sections": [
+        "Herbal (Botanical)"
+      ],
+      "scribes": [
+        "1",
+        "2"
+      ],
+      "bulk_weight": 8,
+      "predicted_x_bounds": [
+        221,
+        248
+      ],
+      "edge_texture": "flat_cut_trimmed_edges",
+      "correlated_valley": {
+        "x_px": 235,
+        "depth_lum": 102.0,
+        "prominence": 2.34
+      }
+    },
+    {
+      "quire_id": "H",
+      "is_extant": true,
+      "structure_type": "single_bifolia_trimmed",
+      "folio_range": "f57r..f66v",
+      "folio_count": 8,
+      "estimated_leaves": 4,
+      "sections": [
+        "Text-only",
+        "Herbal (Botanical)",
+        "Cosmological",
+        "Starred Recipes"
+      ],
+      "scribes": [
+        "1",
+        "3",
+        "5"
+      ],
+      "bulk_weight": 8,
+      "predicted_x_bounds": [
+        248,
+        276
+      ],
+      "edge_texture": "flat_cut_trimmed_edges",
+      "correlated_valley": {
+        "x_px": 272,
+        "depth_lum": 112.7,
+        "prominence": 23.16
+      }
+    },
+    {
+      "quire_id": "I",
+      "is_extant": true,
+      "structure_type": "oversized_foldout_loops",
+      "folio_range": "f67r1..f68v1",
+      "folio_count": 10,
+      "estimated_leaves": 5,
+      "sections": [
+        "Astronomical",
+        "Cosmological"
+      ],
+      "scribes": [
+        "4"
+      ],
+      "bulk_weight": 8,
+      "predicted_x_bounds": [
+        276,
+        303
+      ],
+      "edge_texture": "curved_foldout_loops_and_swell",
+      "correlated_valley": {
+        "x_px": 308,
+        "depth_lum": 120.7,
+        "prominence": 20.91
+      }
+    },
+    {
+      "quire_id": "J",
+      "is_extant": true,
+      "structure_type": "oversized_foldout_loops",
+      "folio_range": "f69r..f70v1",
+      "folio_count": 6,
+      "estimated_leaves": 3,
+      "sections": [
+        "Zodiac (Astrological)",
+        "Cosmological"
+      ],
+      "scribes": [
+        "4"
+      ],
+      "bulk_weight": 6,
+      "predicted_x_bounds": [
+        303,
+        324
+      ],
+      "edge_texture": "curved_foldout_loops_and_swell",
+      "correlated_valley": {
+        "x_px": 334,
+        "depth_lum": 105.6,
+        "prominence": 34.36
+      }
+    },
+    {
+      "quire_id": "K",
+      "is_extant": true,
+      "structure_type": "oversized_foldout_loops",
+      "folio_range": "f71r..f72v1",
+      "folio_count": 8,
+      "estimated_leaves": 4,
+      "sections": [
+        "Zodiac (Astrological)"
+      ],
+      "scribes": [
+        "4"
+      ],
+      "bulk_weight": 6,
+      "predicted_x_bounds": [
+        324,
+        345
+      ],
+      "edge_texture": "curved_foldout_loops_and_swell",
+      "correlated_valley": {
+        "x_px": 334,
+        "depth_lum": 105.6,
+        "prominence": 34.36
+      }
+    },
+    {
+      "quire_id": "L",
+      "is_extant": true,
+      "structure_type": "thin_bifolium_insert",
+      "folio_range": "f73r..f73v",
+      "folio_count": 2,
+      "estimated_leaves": 1,
+      "sections": [
+        "Zodiac (Astrological)"
+      ],
+      "scribes": [
+        "4"
+      ],
+      "bulk_weight": 3,
+      "predicted_x_bounds": [
+        345,
+        355
+      ],
+      "edge_texture": "thin_cut_edge",
+      "correlated_valley": null
+    },
+    {
+      "quire_id": "M",
+      "is_extant": true,
+      "structure_type": "balneological_heavy_gathering",
+      "folio_range": "f75r..f84v",
+      "folio_count": 20,
+      "estimated_leaves": 10,
+      "sections": [
+        "Text-only",
+        "Biological (Balneological)"
+      ],
+      "scribes": [
+        "2"
+      ],
+      "bulk_weight": 10,
+      "predicted_x_bounds": [
+        355,
+        389
+      ],
+      "edge_texture": "dense_gathering_swell",
+      "correlated_valley": {
+        "x_px": 383,
+        "depth_lum": 99.5,
+        "prominence": 24.37
+      }
+    },
+    {
+      "quire_id": "N",
+      "is_extant": true,
+      "structure_type": "oversized_foldout_loops",
+      "folio_range": "f85r1..f86v3",
+      "folio_count": 7,
+      "estimated_leaves": 3,
+      "sections": [
+        "Text-only",
+        "Cosmological"
+      ],
+      "scribes": [
+        "4",
+        "2"
+      ],
+      "bulk_weight": 14,
+      "predicted_x_bounds": [
+        389,
+        437
+      ],
+      "edge_texture": "curved_foldout_loops_and_swell",
+      "correlated_valley": {
+        "x_px": 439,
+        "depth_lum": 133.8,
+        "prominence": 6.2
+      }
+    },
+    {
+      "quire_id": "O",
+      "is_extant": true,
+      "structure_type": "oversized_foldout_loops",
+      "folio_range": "f87r..f90v1",
+      "folio_count": 12,
+      "estimated_leaves": 6,
+      "sections": [
+        "Herbal (Botanical)",
+        "Pharmaceutical"
+      ],
+      "scribes": [
+        "1"
+      ],
+      "bulk_weight": 8,
+      "predicted_x_bounds": [
+        437,
+        465
+      ],
+      "edge_texture": "curved_foldout_loops_and_swell",
+      "correlated_valley": {
+        "x_px": 463,
+        "depth_lum": 122.1,
+        "prominence": 18.62
+      }
+    },
+    {
+      "quire_id": "P",
+      "is_extant": false,
+      "structure_type": "excised_lost_quire_gap",
+      "folio_range": "LOST (originally f91-f92)",
+      "folio_count": 0,
+      "estimated_leaves": 0,
+      "sections": [
+        "Missing"
+      ],
+      "scribes": [
+        "None"
+      ],
+      "bulk_weight": 0,
+      "predicted_x_bounds": [
+        465,
+        465
+      ],
+      "edge_texture": "deep_excised_groove",
+      "correlated_valley": {
+        "x_px": 463,
+        "depth_lum": 122.1,
+        "prominence": 18.62
+      }
+    },
+    {
+      "quire_id": "Q",
+      "is_extant": true,
+      "structure_type": "oversized_foldout_loops",
+      "folio_range": "f93r..f96v",
+      "folio_count": 10,
+      "estimated_leaves": 5,
+      "sections": [
+        "Herbal (Botanical)"
+      ],
+      "scribes": [
+        "1",
+        "3"
+      ],
+      "bulk_weight": 7,
+      "predicted_x_bounds": [
+        465,
+        489
+      ],
+      "edge_texture": "curved_foldout_loops_and_swell",
+      "correlated_valley": {
+        "x_px": 493,
+        "depth_lum": 94.9,
+        "prominence": 23.2
+      }
+    },
+    {
+      "quire_id": "R",
+      "is_extant": false,
+      "structure_type": "excised_lost_quire_gap",
+      "folio_range": "LOST (originally f97-f98)",
+      "folio_count": 0,
+      "estimated_leaves": 0,
+      "sections": [
+        "Missing"
+      ],
+      "scribes": [
+        "None"
+      ],
+      "bulk_weight": 0,
+      "predicted_x_bounds": [
+        489,
+        489
+      ],
+      "edge_texture": "deep_excised_groove",
+      "correlated_valley": {
+        "x_px": 493,
+        "depth_lum": 94.9,
+        "prominence": 23.2
+      }
+    },
+    {
+      "quire_id": "S",
+      "is_extant": true,
+      "structure_type": "oversized_foldout_loops",
+      "folio_range": "f99r..f102v1",
+      "folio_count": 10,
+      "estimated_leaves": 5,
+      "sections": [
+        "Pharmaceutical"
+      ],
+      "scribes": [
+        "1"
+      ],
+      "bulk_weight": 8,
+      "predicted_x_bounds": [
+        489,
+        516
+      ],
+      "edge_texture": "curved_foldout_loops_and_swell",
+      "correlated_valley": {
+        "x_px": 505,
+        "depth_lum": 113.1,
+        "prominence": 4.94
+      }
+    },
+    {
+      "quire_id": "T",
+      "is_extant": true,
+      "structure_type": "recipe_heavy_gathering",
+      "folio_range": "f103r..f116v",
+      "folio_count": 24,
+      "estimated_leaves": 12,
+      "sections": [
+        "Text-only",
+        "Starred Recipes"
+      ],
+      "scribes": [
+        "3",
+        "@"
+      ],
+      "bulk_weight": 14,
+      "predicted_x_bounds": [
+        516,
+        565
+      ],
+      "edge_texture": "thick_recipe_leaves",
+      "correlated_valley": {
+        "x_px": 549,
+        "depth_lum": 95.8,
+        "prominence": 19.11
+      }
+    }
+  ],
+  "excised_lost_quires_forensics": {
+    "quire_P": {
+      "position": "Between Quire O (Pharma f90v) and Quire Q (Herbal f93r)",
+      "missing_leaves": 2,
+      "missing_pages": 4,
+      "physical_groove_at_fore_edge": {
+        "x_px": 463,
+        "prominence": 18.62,
+        "interpretation": "Distinct step-down in fore-edge contour where missing bifolium f91-f92 was excised"
+      }
+    },
+    "quire_R": {
+      "position": "Between Quire Q (Herbal f96v) and Quire S (Pharma jars f99r)",
+      "missing_leaves": 2,
+      "missing_pages": 4,
+      "physical_groove_at_fore_edge": {
+        "x_px": 493,
+        "prominence": 23.2,
+        "interpretation": "Prominent excision groove in fore-edge contour where missing bifolium f97-f98 was excised"
+      }
+    }
+  },
+  "herbal_vs_foldout_texture_comparison": {
+    "herbal_quires_A_to_H": {
+      "x_span": [
+        60,
+        276
+      ],
+      "thickness_px": 216,
+      "quire_count": 8,
+      "mean_thickness_per_quire_px": 27.0,
+      "texture": "Clean cut, flat, uniform leaf edges produced by guillotine or drawknife trimming"
+    },
+    "foldout_quires_I_to_S": {
+      "x_span": [
+        276,
+        516
+      ],
+      "thickness_px": 240,
+      "extant_quire_count": 9,
+      "mean_thickness_per_quire_px": 26.67,
+      "texture": "Rounded vellum fold loops, variable protrusion, and massive localized gathering swell",
+      "rosettes_quire_N_swell_px": 48
+    }
+  },
+  "cover_and_flyleaf_forensics": {
+    "front_cover_p2": {
+      "size": [
+        1517,
+        2000
+      ],
+      "mean_rgb": [
+        142.5,
+        118.2,
+        87.3
+      ],
+      "material": "Plain semi-rigid vellum covering with natural vellum grain and age patination"
+    },
+    "inside_front_cover_p3": {
+      "size": [
+        1481,
+        2000
+      ],
+      "mean_rgb": [
+        195.8,
+        179.4,
+        166.9
+      ],
+      "features": "Turned-in vellum envelope flaps, ghosting of former flyleaf attachment"
+    },
+    "f1r_flyleaf_offset_p4": {
+      "size": [
+        1578,
+        2000
+      ],
+      "mean_rgb": [
+        163.1,
+        139.7,
+        116.0
+      ],
+      "features": "Heavy perimeter discoloration from centuries of direct contact with inside front cover; Jacobus Sinapius erased signature zone at lower margin"
+    },
+    "f116v_p207": {
+      "size": [
+        1453,
+        2000
+      ],
+      "mean_rgb": [
+        163.3,
+        139.8,
+        116.9
+      ],
+      "features": "Final transcribed leaf, severe handling wear, Michitonese/German-Latin cipher inscription at top"
+    },
+    "back_flyleaf_recto_p208": {
+      "size": [
+        1357,
+        2000
+      ],
+      "mean_rgb": [
+        198.3,
+        182.3,
+        171.5
+      ],
+      "features": "Vellum endleaf recto with binding worming and historical handling creases"
+    },
+    "inside_back_cover_p209": {
+      "size": [
+        2000,
+        1431
+      ],
+      "mean_rgb": [
+        181.2,
+        166.3,
+        156.9
+      ],
+      "features": "Horizontal wide scan showing turned-in leather/vellum flaps and rear pastedown joint"
+    },
+    "back_cover_p214": {
+      "size": [
+        1497,
+        2000
+      ],
+      "mean_rgb": [
+        144.8,
+        119.7,
+        86.1
+      ],
+      "material": "Plain vellum back cover matching front cover in hue and grain texture"
+    }
+  },
+  "rendered_artifacts": {
+    "full_scans": [
+      "pages\\p210_head_edge_enh.png",
+      "pages\\p211_tail_edge_enh.png",
+      "pages\\p212_fore_edge_enh.png",
+      "pages\\p213_spine_edge_enh.png"
+    ],
+    "zoom_crops": [
+      "pages\\p210_zoom_headband_thread_loops.png",
+      "pages\\p210_zoom_fore_edge_gathering_splay.png",
+      "pages\\p211_zoom_tail_endband_sewing.png",
+      "pages\\p211_zoom_tail_gathering_compression.png",
+      "pages\\p212_zoom_herbal_cut_edges_quires_A_H.png",
+      "pages\\p212_zoom_foldout_loops_quires_I_S.png",
+      "pages\\p212_zoom_rosettes_swell_quire_N.png",
+      "pages\\p212_zoom_lost_quire_valleys_P_R.png",
+      "pages\\p213_zoom_sewing_station_1.png",
+      "pages\\p213_zoom_sewing_station_2.png",
+      "pages\\p213_zoom_sewing_station_3.png",
+      "pages\\p213_zoom_headband_turn_in.png",
+      "pages\\p213_zoom_tail_turn_in.png"
+    ]
+  }
+}

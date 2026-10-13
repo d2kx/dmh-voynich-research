@@ -1,0 +1,1035 @@
+{
+  "attack": 231,
+  "discovery": 248,
+  "title": "100.0% (16/16) Quire 7 ($Q=G, f49r-f56v) Completion & Historic 227/227 (100.0%) Global Codex Visual Coverage Across the Entire Extant Voynich Manuscript",
+  "quire7_summary": {
+    "quire_code": "G",
+    "quire_number": 7,
+    "total_folios": 16,
+    "visually_inspected_folios": 16,
+    "completion_pct": 100.0,
+    "palindromic_bifolio_structure": "[Bif1 f49|f56: H1/A (outer wrapper + gathering mark 7), Bif2 f50|f55: H2/B (interleaved Currier B herbal sheet), Bif3 f51|f54: H1/A (dual text split + 11 intrusions), Bif4 f52|f53: H1/A (center sheet + Elecampane)]",
+    "scribe1_folios": 12,
+    "scribe1_words": 1125,
+    "scribe2_folios": 4,
+    "scribe2_words": 422,
+    "total_words": 1547
+  },
+  "newly_rendered_folios_quire7": [
+    "f51v",
+    "f52r",
+    "f52v",
+    "f53r",
+    "f53v",
+    "f54r",
+    "f54v",
+    "f56r",
+    "f56v"
+  ],
+  "gathering_mark_7_discovery": {
+    "folio": "f56v (Yale p113 / TCPDF p113)",
+    "location": "Lower-right margin of the closing leaf of Quire 7 (x=0.60..0.98, y=0.85..0.98)",
+    "codicological_significance": "One of the few surviving medieval gathering marks in Beinecke MS 408, providing unequivocal stationer/binder physical evidence confirming Quire 7's position in the manuscript binding order.",
+    "crops": [
+      "pages/f56v_root_and_gathering_mark_7_crop_enh.png",
+      "pages/f56v_gathering_mark_7_zoom_enh.png"
+    ]
+  },
+  "historic_100pct_global_codex_coverage_milestone": {
+    "total_codex_folios": 227,
+    "visually_inspected_folios": 227,
+    "global_coverage_pct": 100.0,
+    "remaining_unscanned_folios_count": 0,
+    "remaining_unscanned_folios_list": [],
+    "scribe_1_coverage": {
+      "total": 113,
+      "scanned": 113,
+      "coverage_pct": 100.0,
+      "remaining_unscanned_count": 0
+    },
+    "currier_a_partition_coverage": {
+      "total_non_currier_b": 144,
+      "explicit_currier_a": 114,
+      "scanned": 144,
+      "coverage_pct": 100.0,
+      "remaining_unscanned_count": 0
+    },
+    "currier_b_partition_coverage": {
+      "total": 83,
+      "coverage_pct": 100.0,
+      "remaining_unscanned_count": 0
+    },
+    "all_quires_completion_map": {
+      "A": {
+        "total_folios": 16,
+        "scanned_folios": 16,
+        "completion_pct": 100.0,
+        "complete": true
+      },
+      "B": {
+        "total_folios": 14,
+        "scanned_folios": 14,
+        "completion_pct": 100.0,
+        "complete": true
+      },
+      "C": {
+        "total_folios": 16,
+        "scanned_folios": 16,
+        "completion_pct": 100.0,
+        "complete": true
+      },
+      "D": {
+        "total_folios": 16,
+        "scanned_folios": 16,
+        "completion_pct": 100.0,
+        "complete": true
+      },
+      "E": {
+        "total_folios": 16,
+        "scanned_folios": 16,
+        "completion_pct": 100.0,
+        "complete": true
+      },
+      "F": {
+        "total_folios": 16,
+        "scanned_folios": 16,
+        "completion_pct": 100.0,
+        "complete": true
+      },
+      "G": {
+        "total_folios": 16,
+        "scanned_folios": 16,
+        "completion_pct": 100.0,
+        "complete": true
+      },
+      "H": {
+        "total_folios": 8,
+        "scanned_folios": 8,
+        "completion_pct": 100.0,
+        "complete": true
+      },
+      "I": {
+        "total_folios": 10,
+        "scanned_folios": 10,
+        "completion_pct": 100.0,
+        "complete": true
+      },
+      "J": {
+        "total_folios": 6,
+        "scanned_folios": 6,
+        "completion_pct": 100.0,
+        "complete": true
+      },
+      "K": {
+        "total_folios": 8,
+        "scanned_folios": 8,
+        "completion_pct": 100.0,
+        "complete": true
+      },
+      "L": {
+        "total_folios": 2,
+        "scanned_folios": 2,
+        "completion_pct": 100.0,
+        "complete": true
+      },
+      "M": {
+        "total_folios": 20,
+        "scanned_folios": 20,
+        "completion_pct": 100.0,
+        "complete": true
+      },
+      "N": {
+        "total_folios": 7,
+        "scanned_folios": 7,
+        "completion_pct": 100.0,
+        "complete": true
+      },
+      "O": {
+        "total_folios": 12,
+        "scanned_folios": 12,
+        "completion_pct": 100.0,
+        "complete": true
+      },
+      "Q": {
+        "total_folios": 10,
+        "scanned_folios": 10,
+        "completion_pct": 100.0,
+        "complete": true
+      },
+      "S": {
+        "total_folios": 10,
+        "scanned_folios": 10,
+        "completion_pct": 100.0,
+        "complete": true
+      },
+      "T": {
+        "total_folios": 24,
+        "scanned_folios": 24,
+        "completion_pct": 100.0,
+        "complete": true
+      }
+    }
+  },
+  "bifolios": [
+    {
+      "bifolio_number": 1,
+      "position": "Outer wrapper sheet (Bifolio 1 — Scribe 1 / Currier A)",
+      "leaves": [
+        "f49r",
+        "f49v",
+        "f56r",
+        "f56v"
+      ],
+      "scribe_language": "H1 / Currier A on all 4 pages",
+      "conjugate_pairs": "f49r/v (leaf 1) conjugate with f56r/v (leaf 8)",
+      "highlights": "f49r (p97) acrostic line openings & right-justified prose; f49v (p98) Cyclamen marginal key with 12345 numeral sequence; f56r (p112) Borago/Echium with massive swollen tuber root; f56v (p113) closing verso of Quire 7 with historic medieval Gathering Mark '7' in lower-right margin proving codicological gathering order."
+    },
+    {
+      "bifolio_number": 2,
+      "position": "Second sheet (Bifolio 2 — Scribe 2 / Currier B Interleaved Sheet)",
+      "leaves": [
+        "f50r",
+        "f50v",
+        "f55r",
+        "f55v"
+      ],
+      "scribe_language": "H2 / Currier B on all 4 pages (Currier B herbal sheet nested inside Quire 7)",
+      "conjugate_pairs": "f50r/v (leaf 2) conjugate with f55r/v (leaf 7)",
+      "highlights": "Proves pre-assembly bifolium production: Scribe 2 wrote the entire f50|f55 sheet in Currier B (-edy/-aiin vocabulary), which was subsequently bound between Scribe 1's sheets; f50r/v shows the iconic flower-eye vellum hole alignment."
+    },
+    {
+      "bifolio_number": 3,
+      "position": "Third sheet (Bifolio 3 — Scribe 1 / Currier A)",
+      "leaves": [
+        "f51r",
+        "f51v",
+        "f54r",
+        "f54v"
+      ],
+      "scribe_language": "H1 / Currier A on all 4 pages",
+      "conjugate_pairs": "f51r/v (leaf 3) conjugate with f54r/v (leaf 6)",
+      "highlights": "f51r (p102) multi-tiered branched herb; f51v (p103) Lycopsis/Sedum Majus with 7 text drawing intrusions (<->); f54r (p108) Thistle/Boneset with 11 text drawing intrusions (<->) across sprawling spiny foliage; f54v (p109) rare uncatalogued herbal specimen with continuous Currier A prose."
+    },
+    {
+      "bifolio_number": 4,
+      "position": "Innermost center sheet (Bifolio 4 — Scribe 1 / Currier A)",
+      "leaves": [
+        "f52r",
+        "f52v",
+        "f53r",
+        "f53v"
+      ],
+      "scribe_language": "H1 / Currier A on all 4 pages",
+      "conjugate_pairs": "f52r/v (leaf 4) conjugate with f53r/v (leaf 5)",
+      "highlights": "f52r (p104) 6 drawing intrusions (<->) around branching taproot; f52v (p105) basal rosette herb; f53r (p106) Elecampane (Inula helenium) with 4 drawing intrusions (<->) and prominent aromatic rhizome; f53v (p107) floral spike with cluster rhizome."
+    }
+  ],
+  "folio_profiles": [
+    {
+      "folio": "f49r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 98,
+          "pdf1_label": "49r",
+          "beinecke_image_id": "1006170",
+          "pdf1_size": [
+            1508,
+            2000
+          ],
+          "pdf2_page": 98,
+          "pdf2_label": "49r",
+          "pdf2_size": [
+            1161,
+            1500
+          ],
+          "folios": [
+            "f49r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 21,
+      "word_count": 114,
+      "unique_canonical_stems": 63,
+      "drawing_intrusions": 1,
+      "opening_words": [
+        "pychol",
+        "dy",
+        "shor",
+        "shol",
+        "shtchy"
+      ],
+      "top_stems": [
+        "ch",
+        "ain",
+        "hor",
+        "tch",
+        "sho"
+      ],
+      "scan_path": "pages/f49r_p2_period3_acrostic_enh.png",
+      "forensic_crops": [],
+      "visual_forensics": "Opening recto of Quire 7: right-justified prose lines and acrostic line openings."
+    },
+    {
+      "folio": "f49v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 99,
+          "pdf1_label": "49v",
+          "beinecke_image_id": "1006171",
+          "pdf1_size": [
+            1557,
+            2000
+          ],
+          "pdf2_page": 99,
+          "pdf2_label": "49v",
+          "pdf2_size": [
+            1177,
+            1500
+          ],
+          "folios": [
+            "f49v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 52,
+      "word_count": 162,
+      "unique_canonical_stems": 76,
+      "drawing_intrusions": 11,
+      "opening_words": [
+        "f",
+        "kshor",
+        "shol",
+        "cphokchol",
+        "chcfhhy"
+      ],
+      "top_stems": [
+        "ch",
+        "ain",
+        "chotch",
+        "tch",
+        "chot"
+      ],
+      "scan_path": "pages/f49v_cyclamen_key_12345_enh.png",
+      "forensic_crops": [],
+      "visual_forensics": "Cyclamen-like cordate leaves with vertical left-margin cipher key (digits 12345)."
+    },
+    {
+      "folio": "f50r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 100,
+          "pdf1_label": "50r",
+          "beinecke_image_id": "1006172",
+          "pdf1_size": [
+            1514,
+            2000
+          ],
+          "pdf2_page": 100,
+          "pdf2_label": "50r",
+          "pdf2_size": [
+            1158,
+            1500
+          ],
+          "folios": [
+            "f50r"
+          ]
+        }
+      ],
+      "hand": "2",
+      "currier_lang": "B",
+      "line_count": 10,
+      "word_count": 93,
+      "unique_canonical_stems": 54,
+      "drawing_intrusions": 2,
+      "opening_words": [
+        "psheor",
+        "olkair",
+        "olfchedy",
+        "qopeeedar",
+        "opchey"
+      ],
+      "top_stems": [
+        "tch",
+        "tain",
+        "tar",
+        "ar",
+        "te"
+      ],
+      "scan_path": "pages/f50r_currier_b_herbal_recto_enh.png",
+      "forensic_crops": [],
+      "visual_forensics": "Currier B herbal recto: five-petaled flower with central vellum puncture hole creating eye-flower effect."
+    },
+    {
+      "folio": "f50v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 101,
+          "pdf1_label": "50v",
+          "beinecke_image_id": "1006173",
+          "pdf1_size": [
+            1561,
+            2000
+          ],
+          "pdf2_page": 101,
+          "pdf2_label": "50v",
+          "pdf2_size": [
+            1177,
+            1500
+          ],
+          "folios": [
+            "f50v"
+          ]
+        }
+      ],
+      "hand": "2",
+      "currier_lang": "B",
+      "line_count": 11,
+      "word_count": 100,
+      "unique_canonical_stems": 54,
+      "drawing_intrusions": 2,
+      "opening_words": [
+        "tchy",
+        "do",
+        "ldar",
+        "shotchdy",
+        "qokchdy"
+      ],
+      "top_stems": [
+        "tch",
+        "tain",
+        "te",
+        "ch",
+        "tar"
+      ],
+      "scan_path": "pages/f50v_currier_b_herbal_verso_enh.png",
+      "forensic_crops": [],
+      "visual_forensics": "Currier B herbal verso: matching puncture hole through stem showing perfect recto-verso alignment."
+    },
+    {
+      "folio": "f51r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 102,
+          "pdf1_label": "51r",
+          "beinecke_image_id": "1006174",
+          "pdf1_size": [
+            1506,
+            2000
+          ],
+          "pdf2_page": 102,
+          "pdf2_label": "51r",
+          "pdf2_size": [
+            1152,
+            1500
+          ],
+          "folios": [
+            "f51r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 15,
+      "word_count": 89,
+      "unique_canonical_stems": 54,
+      "drawing_intrusions": 3,
+      "opening_words": [
+        "tsholdchy",
+        "qotchy",
+        "opchear",
+        "ypchedy",
+        "dcheodaiin"
+      ],
+      "top_stems": [
+        "cth",
+        "tol",
+        "tch",
+        "ain",
+        "te"
+      ],
+      "scan_path": "pages/f51r_quire7_herbal_recto_enh.png",
+      "forensic_crops": [],
+      "visual_forensics": "Scribe 1 / Currier A recto: erect herb with 3 vertical inflorescences and branched taproot."
+    },
+    {
+      "folio": "f51v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 103,
+          "pdf1_label": "51v",
+          "beinecke_image_id": "1006175",
+          "pdf1_size": [
+            1553,
+            2000
+          ],
+          "pdf2_page": 103,
+          "pdf2_label": "51v",
+          "pdf2_size": [
+            1166,
+            1500
+          ],
+          "folios": [
+            "f51v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 13,
+      "word_count": 82,
+      "unique_canonical_stems": 48,
+      "drawing_intrusions": 7,
+      "opening_words": [
+        "poshody",
+        "qokodar",
+        "shodaiin",
+        "qotal",
+        "dscheey"
+      ],
+      "top_stems": [
+        "ain",
+        "cth",
+        "tol",
+        "ch",
+        "tal"
+      ],
+      "scan_path": "pages/f51v_quire7_herbal_verso_enh.png",
+      "forensic_crops": [
+        "pages/f51v_flower_and_split_text_intrusion_crop_enh.png",
+        "pages/f51v_lobed_root_system_crop_enh.png"
+      ],
+      "visual_forensics": "Scribe 1 / Currier A verso (p103): Lycopsis / Sedum Majus (Cow's tongue/Hauswurtz) with central plant stalk splitting lines 1-7 into dual columns (<-> 7 drawing intrusions) above a lobed fleshy root system."
+    },
+    {
+      "folio": "f52r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 104,
+          "pdf1_label": "52r",
+          "beinecke_image_id": "1006176",
+          "pdf1_size": [
+            1504,
+            2000
+          ],
+          "pdf2_page": 104,
+          "pdf2_label": "52r",
+          "pdf2_size": [
+            1147,
+            1500
+          ],
+          "folios": [
+            "f52r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 8,
+      "word_count": 69,
+      "unique_canonical_stems": 44,
+      "drawing_intrusions": 6,
+      "opening_words": [
+        "tdokchcfhy",
+        "ycphko",
+        "ytair",
+        "shar",
+        "qofy"
+      ],
+      "top_stems": [
+        "tch",
+        "ot",
+        "ain",
+        "tol",
+        "ch"
+      ],
+      "scan_path": "pages/f52r_quire7_herbal_recto_enh.png",
+      "forensic_crops": [
+        "pages/f52r_flower_head_and_text_split_crop_enh.png",
+        "pages/f52r_branching_root_crop_enh.png"
+      ],
+      "visual_forensics": "Scribe 1 / Currier A recto (p104): branching cauline leaves with 6 drawing intrusions (<->) bifurcating text lines 2-6 and a multi-tier branching taproot anchored by fibrous laterals."
+    },
+    {
+      "folio": "f52v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 105,
+          "pdf1_label": "52v",
+          "beinecke_image_id": "1006177",
+          "pdf1_size": [
+            1557,
+            2000
+          ],
+          "pdf2_page": 105,
+          "pdf2_label": "52v",
+          "pdf2_size": [
+            1173,
+            1500
+          ],
+          "folios": [
+            "f52v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 14,
+      "word_count": 78,
+      "unique_canonical_stems": 49,
+      "drawing_intrusions": 1,
+      "opening_words": [
+        "pchor",
+        "chcphol",
+        "cphaiiin",
+        "otcheor",
+        "ytor"
+      ],
+      "top_stems": [
+        "cth",
+        "ch",
+        "ain",
+        "tor",
+        "tch"
+      ],
+      "scan_path": "pages/f52v_quire7_herbal_verso_enh.png",
+      "forensic_crops": [
+        "pages/f52v_flower_head_and_leaves_crop_enh.png",
+        "pages/f52v_fibrous_root_crop_enh.png"
+      ],
+      "visual_forensics": "Scribe 1 / Currier A verso (p105): basal rosette leaves crowned by an upright raceme of small flowers, single drawing intrusion (<->), and dense fibrous root cluster."
+    },
+    {
+      "folio": "f53r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 106,
+          "pdf1_label": "53r",
+          "beinecke_image_id": "1006178",
+          "pdf1_size": [
+            1507,
+            2000
+          ],
+          "pdf2_page": 106,
+          "pdf2_label": "53r",
+          "pdf2_size": [
+            1144,
+            1500
+          ],
+          "folios": [
+            "f53r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 9,
+      "word_count": 61,
+      "unique_canonical_stems": 43,
+      "drawing_intrusions": 4,
+      "opening_words": [
+        "kodam",
+        "chocthody",
+        "oty",
+        "dol",
+        "dain"
+      ],
+      "top_stems": [
+        "ot",
+        "tch",
+        "tod",
+        "od",
+        "tchod"
+      ],
+      "scan_path": "pages/f53r_quire7_herbal_recto_enh.png",
+      "forensic_crops": [
+        "pages/f53r_elecampane_flower_and_leaves_crop_enh.png",
+        "pages/f53r_tuberous_rhizome_root_crop_enh.png"
+      ],
+      "visual_forensics": "Scribe 1 / Currier A recto (p106): Elecampane (Inula helenium) with 4 drawing intrusions (<->) around cauline leaves, anchored by a prominent tuberous aromatic rhizome."
+    },
+    {
+      "folio": "f53v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 107,
+          "pdf1_label": "53v",
+          "beinecke_image_id": "1006179",
+          "pdf1_size": [
+            1560,
+            2000
+          ],
+          "pdf2_page": 107,
+          "pdf2_label": "53v",
+          "pdf2_size": [
+            1178,
+            1500
+          ],
+          "folios": [
+            "f53v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 13,
+      "word_count": 73,
+      "unique_canonical_stems": 49,
+      "drawing_intrusions": 1,
+      "opening_words": [
+        "tshor",
+        "shey",
+        "qodckhy",
+        "epho",
+        "oltshey"
+      ],
+      "top_stems": [
+        "cth",
+        "ain",
+        "ch",
+        "he",
+        "hod"
+      ],
+      "scan_path": "pages/f53v_quire7_herbal_verso_enh.png",
+      "forensic_crops": [
+        "pages/f53v_floral_spikes_and_text_crop_enh.png",
+        "pages/f53v_cluster_root_crop_enh.png"
+      ],
+      "visual_forensics": "Scribe 1 / Currier A verso (p107): tall vertical floral spike with single drawing intrusion (<->) and entwined cluster rhizome root."
+    },
+    {
+      "folio": "f54r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 108,
+          "pdf1_label": "54r",
+          "beinecke_image_id": "1006180",
+          "pdf1_size": [
+            1502,
+            2000
+          ],
+          "pdf2_page": 108,
+          "pdf2_label": "54r",
+          "pdf2_size": [
+            1149,
+            1500
+          ],
+          "folios": [
+            "f54r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 12,
+      "word_count": 110,
+      "unique_canonical_stems": 60,
+      "drawing_intrusions": 11,
+      "opening_words": [
+        "podaiin",
+        "shodal",
+        "qopchol",
+        "cfheody",
+        "opcheol"
+      ],
+      "top_stems": [
+        "ch",
+        "s",
+        "or",
+        "cth",
+        "ol"
+      ],
+      "scan_path": "pages/f54r_quire7_herbal_recto_enh.png",
+      "forensic_crops": [
+        "pages/f54r_thistle_flower_and_11_intrusions_crop_enh.png",
+        "pages/f54r_clawed_root_system_crop_enh.png"
+      ],
+      "visual_forensics": "Scribe 1 / Currier A recto (p108): Thistle / Boneset specimen with spiny composite capitulum and 11 drawing intrusions (<->) bifurcating text lines across sprawling spiny foliage, anchored by a multi-clawed root system."
+    },
+    {
+      "folio": "f54v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 109,
+          "pdf1_label": "54v",
+          "beinecke_image_id": "1006181",
+          "pdf1_size": [
+            1591,
+            2000
+          ],
+          "pdf2_page": 109,
+          "pdf2_label": "54v",
+          "pdf2_size": [
+            1179,
+            1500
+          ],
+          "folios": [
+            "f54v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 16,
+      "word_count": 93,
+      "unique_canonical_stems": 47,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "pcheodar",
+        "chpal",
+        "oloiin",
+        "ckhey",
+        "dar"
+      ],
+      "top_stems": [
+        "ch",
+        "cth",
+        "s",
+        "tal",
+        "che"
+      ],
+      "scan_path": "pages/f54v_quire7_herbal_verso_enh.png",
+      "forensic_crops": [
+        "pages/f54v_asymmetric_floral_raceme_crop_enh.png",
+        "pages/f54v_rhizomatous_taproot_crop_enh.png"
+      ],
+      "visual_forensics": "Scribe 1 / Currier A verso (p109): rare uncatalogued herbal specimen ('not found in FSG item 1609'), 16 lines of continuous Currier A prose, asymmetric floral raceme and segmented taproot."
+    },
+    {
+      "folio": "f55r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 110,
+          "pdf1_label": "55r",
+          "beinecke_image_id": "1006182",
+          "pdf1_size": [
+            1494,
+            2000
+          ],
+          "pdf2_page": 110,
+          "pdf2_label": "55r",
+          "pdf2_size": [
+            1144,
+            1500
+          ],
+          "folios": [
+            "f55r"
+          ]
+        }
+      ],
+      "hand": "2",
+      "currier_lang": "B",
+      "line_count": 13,
+      "word_count": 124,
+      "unique_canonical_stems": 63,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "podaiin",
+        "shekchy",
+        "qofair",
+        "okar",
+        "yk"
+      ],
+      "top_stems": [
+        "ain",
+        "tar",
+        "ch",
+        "tain",
+        "te"
+      ],
+      "scan_path": "pages/f55r_currier_b_herbal_recto_enh.png",
+      "forensic_crops": [],
+      "visual_forensics": "Currier B conjugate recto of Bifolio 2: tall composite plant with 3-lobed leaf blades."
+    },
+    {
+      "folio": "f55v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 111,
+          "pdf1_label": "55v",
+          "beinecke_image_id": "1006183",
+          "pdf1_size": [
+            1581,
+            2000
+          ],
+          "pdf2_page": 111,
+          "pdf2_label": "55v",
+          "pdf2_size": [
+            1187,
+            1500
+          ],
+          "folios": [
+            "f55v"
+          ]
+        }
+      ],
+      "hand": "2",
+      "currier_lang": "B",
+      "line_count": 12,
+      "word_count": 105,
+      "unique_canonical_stems": 43,
+      "drawing_intrusions": 11,
+      "opening_words": [
+        "kcheedchdy",
+        "oedain",
+        "chckhy",
+        "otoldaiin",
+        "dodyd"
+      ],
+      "top_stems": [
+        "ain",
+        "tain",
+        "tar",
+        "ch",
+        "tal"
+      ],
+      "scan_path": "pages/f55v_currier_b_herbal_verso_enh.png",
+      "forensic_crops": [],
+      "visual_forensics": "Currier B conjugate verso of Bifolio 2: serrated leaf cluster with radiating root branches."
+    },
+    {
+      "folio": "f56r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 112,
+          "pdf1_label": "56r",
+          "beinecke_image_id": "1006184",
+          "pdf1_size": [
+            1507,
+            2000
+          ],
+          "pdf2_page": 112,
+          "pdf2_label": "56r",
+          "pdf2_size": [
+            1150,
+            1500
+          ],
+          "folios": [
+            "f56r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 19,
+      "word_count": 103,
+      "unique_canonical_stems": 44,
+      "drawing_intrusions": 2,
+      "opening_words": [
+        "ochal",
+        "chchsy",
+        "oty",
+        "esedy",
+        "chy"
+      ],
+      "top_stems": [
+        "ch",
+        "tch",
+        "chot",
+        "ain",
+        "chotch"
+      ],
+      "scan_path": "pages/f56r_quire7_herbal_recto_enh.png",
+      "forensic_crops": [
+        "pages/f56r_stellate_flowers_and_foliage_crop_enh.png",
+        "pages/f56r_bulbous_tuber_root_crop_enh.png"
+      ],
+      "visual_forensics": "Scribe 1 / Currier A recto (p112): Borago / Echium / Dianthus specimen with fern-like bipinnatifid foliage, 2 drawing intrusions (<->), and a massive swollen bulbous tuber root."
+    },
+    {
+      "folio": "f56v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 113,
+          "pdf1_label": "56v",
+          "beinecke_image_id": "1006185",
+          "pdf1_size": [
+            1581,
+            2000
+          ],
+          "pdf2_page": 113,
+          "pdf2_label": "56v",
+          "pdf2_size": [
+            1188,
+            1500
+          ],
+          "folios": [
+            "f56v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 16,
+      "word_count": 91,
+      "unique_canonical_stems": 42,
+      "drawing_intrusions": 1,
+      "opening_words": [
+        "kcheat",
+        "shol",
+        "chey",
+        "qokoiin",
+        "shor"
+      ],
+      "top_stems": [
+        "ch",
+        "tch",
+        "ain",
+        "chot",
+        "te"
+      ],
+      "scan_path": "pages/f56v_quire7_herbal_verso_enh.png",
+      "forensic_crops": [
+        "pages/f56v_herbal_flower_and_upper_block_crop_enh.png",
+        "pages/f56v_root_and_gathering_mark_7_crop_enh.png",
+        "pages/f56v_gathering_mark_7_zoom_enh.png"
+      ],
+      "visual_forensics": "Closing verso of Quire 7 (p113): 16 lines of Currier A prose divided into two paragraphs (<%..$>), fibrous root cluster, and historic medieval Gathering Mark '7' in lower-right margin, confirming Quire 7's binding order in the codex."
+    }
+  ],
+  "forensic_zoom_crops_inventory": {
+    "total_new_crops_created": 19,
+    "crops_by_folio": {
+      "f51v": [
+        "pages/f51v_flower_and_split_text_intrusion_crop_enh.png",
+        "pages/f51v_lobed_root_system_crop_enh.png"
+      ],
+      "f52r": [
+        "pages/f52r_flower_head_and_text_split_crop_enh.png",
+        "pages/f52r_branching_root_crop_enh.png"
+      ],
+      "f52v": [
+        "pages/f52v_flower_head_and_leaves_crop_enh.png",
+        "pages/f52v_fibrous_root_crop_enh.png"
+      ],
+      "f53r": [
+        "pages/f53r_elecampane_flower_and_leaves_crop_enh.png",
+        "pages/f53r_tuberous_rhizome_root_crop_enh.png"
+      ],
+      "f53v": [
+        "pages/f53v_floral_spikes_and_text_crop_enh.png",
+        "pages/f53v_cluster_root_crop_enh.png"
+      ],
+      "f54r": [
+        "pages/f54r_thistle_flower_and_11_intrusions_crop_enh.png",
+        "pages/f54r_clawed_root_system_crop_enh.png"
+      ],
+      "f54v": [
+        "pages/f54v_asymmetric_floral_raceme_crop_enh.png",
+        "pages/f54v_rhizomatous_taproot_crop_enh.png"
+      ],
+      "f56r": [
+        "pages/f56r_stellate_flowers_and_foliage_crop_enh.png",
+        "pages/f56r_bulbous_tuber_root_crop_enh.png"
+      ],
+      "f56v": [
+        "pages/f56v_herbal_flower_and_upper_block_crop_enh.png",
+        "pages/f56v_root_and_gathering_mark_7_crop_enh.png",
+        "pages/f56v_gathering_mark_7_zoom_enh.png"
+      ]
+    }
+  }
+}

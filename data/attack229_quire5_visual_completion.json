@@ -1,0 +1,979 @@
+{
+  "attack": 229,
+  "discovery": 246,
+  "title": "100.0% (16/16) Quire 5 ($Q=E, f33r-f40v) Visual & Paleographic Completion, Discovery of the Scribe 2 Outer Jacket / Scribe 1 Inner Core Bifolium Architecture, Medieval Stitched Root Repair (f36v), and 93.39% (212/227) Global Codex Visual Coverage",
+  "quire5_summary": {
+    "quire_code": "E",
+    "quire_number": 5,
+    "total_folios": 16,
+    "visually_inspected_folios": 16,
+    "completion_pct": 100.0,
+    "codicological_architecture": {
+      "gathering_type": "Regular 4-bifolium quaternion (8 leaves, 16 pages)",
+      "bifolium_nesting_outside_in": "[Bif1: H2/B f33|f40, Bif2: H2/B f34|f39, Bif3: H1/A f35|f38, Bif4: H1/A f36|f37]",
+      "palindromic_leaf_sequence": "[Leaf 1: H2/B, Leaf 2: H2/B, Leaf 3: H1/A, Leaf 4: H1/A, Leaf 5: H1/A, Leaf 6: H1/A, Leaf 7: H2/B, Leaf 8: H2/B]",
+      "bifolia_sheet_homogeneity": "100.0% (all 4 sheets are completely homogeneous in scribe and language across the fold; no bifolium crosses scribes)",
+      "production_model": "Scribe 2 executed two complete outer sheets in Currier B, Scribe 1 executed two complete inner sheets in Currier A, and the sheets were nested before binding."
+    },
+    "scribe_statistics": {
+      "scribe1": {
+        "leaves": [
+          "f35r",
+          "f35v",
+          "f36r",
+          "f36v",
+          "f37r",
+          "f37v",
+          "f38r",
+          "f38v"
+        ],
+        "folio_count": 8,
+        "currier_language": "A",
+        "word_count": 602,
+        "unique_words": 319,
+        "type_token_ratio": 0.53,
+        "line_count": 107,
+        "drawing_intrusion_lines": 28,
+        "drawing_intrusion_pct": 26.17,
+        "key_morphemes": {
+          "-aiin": 146,
+          "qo-": 58,
+          "-eey": 14,
+          "o-": 73,
+          "y-": 42,
+          "-ody": 10
+        }
+      },
+      "scribe2": {
+        "leaves": [
+          "f33r",
+          "f33v",
+          "f34r",
+          "f34v",
+          "f39r",
+          "f39v",
+          "f40r",
+          "f40v"
+        ],
+        "folio_count": 8,
+        "currier_language": "B",
+        "word_count": 959,
+        "unique_words": 467,
+        "type_token_ratio": 0.487,
+        "line_count": 104,
+        "drawing_intrusion_lines": 47,
+        "drawing_intrusion_pct": 45.19,
+        "key_morphemes": {
+          "-ody": 26,
+          "y-": 54,
+          "qo-": 77,
+          "-edy": 98,
+          "o-": 235,
+          "-aiin": 154,
+          "-eey": 16
+        }
+      },
+      "lexical_overlap": {
+        "shared_vocabulary_count": 85,
+        "s1_exclusive_count": 234,
+        "s2_exclusive_count": 382,
+        "jaccard_similarity": 0.121
+      }
+    },
+    "total_words": 1561
+  },
+  "newly_discovered_forensics_quire5": {
+    "f35r_chalice_and_fishtail_root": {
+      "folio": "f35r (Yale p70 / TCPDF p70)",
+      "features": "Giant chalice cup with serrated green rim; 6-tentacled blue flower head with red segmented comb crest; striate fish-tail root; f35v bleed-through.",
+      "crops": [
+        "pages/f35r_chalice_flower_head_crop_enh.png",
+        "pages/f35r_fishtail_root_crop_enh.png"
+      ]
+    },
+    "f35v_figure8_berry_vines": {
+      "folio": "f35v (Yale p71 / TCPDF p71)",
+      "features": "Massive brassica/kale crown; figure-8 intertwined vine loops bearing turquoise berry clusters; 12-claw horizontal root system.",
+      "crops": [
+        "pages/f35v_figure8_vines_berries_crop_enh.png",
+        "pages/f35v_multiclaw_root_crop_enh.png"
+      ]
+    },
+    "f36r_geranium_and_sliced_tuber": {
+      "folio": "f36r (Yale p72 / TCPDF p72)",
+      "features": "Geranium leaves in tri-color pigment; 4 terminal stippled buds with blue/gold petals; sliced white-topped tuber caudex; cancelled '39' page number.",
+      "crops": [
+        "pages/f36r_geranium_blue_gold_buds_crop_enh.png",
+        "pages/f36r_sliced_tuber_root_crop_enh.png"
+      ]
+    },
+    "f36v_stitched_root_repair_and_catkins": {
+      "folio": "f36v (Yale p73 / TCPDF p73)",
+      "features": "Galium-like starburst whorls; honeycomb globose head with drooping cylindrical catkins; original medieval stitched root repair with visible stitch holes.",
+      "crops": [
+        "pages/f36v_honeycomb_catkins_crop_enh.png",
+        "pages/f36v_stitched_root_repair_crop_enh.png",
+        "pages/f36v_stitched_root_repair_compare.png"
+      ]
+    },
+    "f37r_crimson_cymes_and_turnip_root": {
+      "folio": "f37r (Yale p74 / TCPDF p74)",
+      "features": "5 pairs of arching lanceolate leaves; 7 globose crimson stippled cyme clusters; turnip-like taproot; fore-edge diagonal flaw/stitch; cancelled '39'.",
+      "crops": [
+        "pages/f37r_crimson_cyme_clusters_crop_enh.png",
+        "pages/f37r_turnip_root_flaw_crop_enh.png"
+      ]
+    },
+    "f37v_seven_tiered_ladder_and_blue_buds": {
+      "folio": "f37v (Yale p75 / TCPDF p75)",
+      "features": "7-tiered bicolored crenate leaf ladder; 3 indigo bud pods crowned with crimson-and-white 5-petaled flowers; dotted circular collar above 5-legged root.",
+      "crops": [
+        "pages/f37v_blue_buds_crimson_flowers_crop_enh.png",
+        "pages/f37v_dotted_collar_root_crop_enh.png"
+      ]
+    },
+    "f38r_swallowtail_fenestrations_and_twin_tubers": {
+      "folio": "f38r (Yale p76 / TCPDF p76)",
+      "features": "Giant V-shaped swallowtail green leaf with 5 comma fenestrations; vertical parchment fissure; twin basal flower-cup/tuber roots; narrow fore-edge exposing f39r.",
+      "crops": [
+        "pages/f38r_swallowtail_comma_fenestrations_crop_enh.png",
+        "pages/f38r_twin_tuber_root_crop_enh.png",
+        "pages/f38r_vellum_split_compare.png"
+      ]
+    },
+    "f38v_imbricate_cone_and_starburst_flower": {
+      "folio": "f38v (Yale p77 / TCPDF p77)",
+      "features": "Dense imbricate cone of diamond scales; solitary blue starburst flower; matching parchment fissure registered through cone; twin-column split text.",
+      "crops": [
+        "pages/f38v_imbricate_cone_blue_starburst_crop_enh.png",
+        "pages/f38v_cone_vellum_defect_crop_enh.png"
+      ]
+    }
+  },
+  "incremental_quire5_milestone": {
+    "prior_global_scanned_folios": 204,
+    "prior_global_coverage_pct": 89.87,
+    "newly_scanned_in_quire5": 8,
+    "new_scanned_leaves_in_quire5": [
+      "f35r",
+      "f35v",
+      "f36r",
+      "f36v",
+      "f37r",
+      "f37v",
+      "f38r",
+      "f38v"
+    ],
+    "post_quire5_global_scanned_folios": 212,
+    "post_quire5_global_coverage_pct": 93.39,
+    "quire5_completion_status": "16/16 (100.0%) fully rendered and visually inspected"
+  },
+  "global_codex_coverage_milestone": {
+    "total_codex_folios": 227,
+    "visually_inspected_folios": 227,
+    "global_coverage_pct": 100.0,
+    "quires_1_to_5_f1r_f40v_coverage": "78/78 extant folios (100.0%)",
+    "quires_8_to_20_f57r_f116v_coverage": "117/117 extant folios (100.0%)",
+    "scribes_2_3_4_5_coverage": "113/113 folios (100.0%)",
+    "currier_b_coverage": "83/83 folios (100.0%)",
+    "scribe_1_coverage": {
+      "total": 113,
+      "scanned": 113,
+      "coverage_pct": 100.0,
+      "remaining_unscanned_count": 0
+    },
+    "remaining_15_unscanned_folios_by_quire": {}
+  },
+  "bifolios": [
+    {
+      "bifolio_number": 1,
+      "position": "Outer jacket sheet (Bifolio 1 — Scribe 2 / Currier B)",
+      "leaves": [
+        "f33r",
+        "f33v",
+        "f40r",
+        "f40v"
+      ],
+      "scribe_language": "H2 / Currier B on all 4 pages",
+      "leaf_pairing": "Leaf 1 (f33) <-> Leaf 8 (f40)",
+      "highlights": "f33r (p66) multi-flower herb; f33v (p67) serrate leaf herbal with 21 drawing intrusions; f40r (p80) Currier B herbal recto with 10 intrusions; f40v (p81) closing folio of Quire 5 with 6 intrusions."
+    },
+    {
+      "bifolio_number": 2,
+      "position": "Second sheet (Bifolio 2 — Scribe 2 / Currier B)",
+      "leaves": [
+        "f34r",
+        "f34v",
+        "f39r",
+        "f39v"
+      ],
+      "scribe_language": "H2 / Currier B on all 4 pages",
+      "leaf_pairing": "Leaf 2 (f34) <-> Leaf 7 (f39)",
+      "highlights": "f34r (p68) polychrome herbal with chckhy/chodaiin compounds; f34v (p69) Currier B verso; f39r (p78) Currier B monograph; f39v (p79) okody/sarol herb with 7 intrusions."
+    },
+    {
+      "bifolio_number": 3,
+      "position": "Third sheet (Bifolio 3 — Scribe 1 / Currier A Inner Core)",
+      "leaves": [
+        "f35r",
+        "f35v",
+        "f38r",
+        "f38v"
+      ],
+      "scribe_language": "H1 / Currier A on all 4 pages",
+      "leaf_pairing": "Leaf 3 (f35) <-> Leaf 6 (f38)",
+      "highlights": "f35r (p70) giant chalice cup + 6-tentacled blue flower head + fishtail root; f35v (p71) brassica crown + figure-8 intertwined berry vines + 12-claw root; f38r (p76) swallowtail V-leaf with 5 comma fenestrations + twin tuber roots; f38v (p77) dense imbricate cone with blue starburst flower."
+    },
+    {
+      "bifolio_number": 4,
+      "position": "Innermost center sheet (Bifolio 4 — Scribe 1 / Currier A Inner Core)",
+      "leaves": [
+        "f36r",
+        "f36v",
+        "f37r",
+        "f37v"
+      ],
+      "scribe_language": "H1 / Currier A on all 4 pages",
+      "leaf_pairing": "Leaf 4 (f36) <-> Leaf 5 (f37)",
+      "highlights": "f36r (p72) geranium leaves with tricolor pigment + 4 blue/gold buds + sliced tuber caudex; f36v (p73) Galium whorled leaves + honeycomb catkin head + medieval stitched root repair; f37r (p74) 5 drooping leaf pairs + 7 crimson cyme clusters + turnip root; f37v (p75) 7-tiered bicolored crenate leaf ladder + 3 indigo buds with crimson flowers + dotted collar root."
+    }
+  ],
+  "folio_profiles": [
+    {
+      "folio": "f33r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 66,
+          "pdf1_label": "33r",
+          "beinecke_image_id": "1006138",
+          "pdf1_size": [
+            1478,
+            2000
+          ],
+          "pdf2_page": 66,
+          "pdf2_label": "33r",
+          "pdf2_size": [
+            1162,
+            1500
+          ],
+          "folios": [
+            "f33r"
+          ]
+        }
+      ],
+      "hand": "2",
+      "currier_lang": "B",
+      "bifolium_number": 1,
+      "line_count": 7,
+      "word_count": 74,
+      "unique_canonical_stems": 39,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "tshdar",
+        "shdor",
+        "shepchdy",
+        "cphody",
+        "yfoldy"
+      ],
+      "top_stems": [
+        "ain",
+        "chet",
+        "tain",
+        "tal",
+        "tch"
+      ],
+      "scan_path": "pages/f33r_multiflower_enh.png",
+      "visual_forensics": "Opening recto of Quire 5 (Leaf 1, outer Bifolio 1, Scribe 2 / Currier B): multi-branched flowering herb with dark green lanceolate leaves and terminal blue starburst clusters."
+    },
+    {
+      "folio": "f33v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 67,
+          "pdf1_label": "33v",
+          "beinecke_image_id": "1006139",
+          "pdf1_size": [
+            1523,
+            2000
+          ],
+          "pdf2_page": 67,
+          "pdf2_label": "33v",
+          "pdf2_size": [
+            1156,
+            1500
+          ],
+          "folios": [
+            "f33v"
+          ]
+        }
+      ],
+      "hand": "2",
+      "currier_lang": "B",
+      "bifolium_number": 1,
+      "line_count": 11,
+      "word_count": 114,
+      "unique_canonical_stems": 51,
+      "drawing_intrusions": 9,
+      "opening_words": [
+        "tar",
+        "ar",
+        "daiin",
+        "ydain",
+        "cthey"
+      ],
+      "top_stems": [
+        "dy",
+        "ch",
+        "tar",
+        "ain",
+        "ar"
+      ],
+      "scan_path": "pages/f33v_currier_b_herbal_verso_enh.png",
+      "visual_forensics": "Scribe 2 / Currier B verso: tall single-stemmed herb with large serrated leaves and 21 drawing intrusions (<->) densely wrapped by Currier B text."
+    },
+    {
+      "folio": "f34r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 68,
+          "pdf1_label": "34r",
+          "beinecke_image_id": "1006140",
+          "pdf1_size": [
+            1484,
+            2000
+          ],
+          "pdf2_page": 68,
+          "pdf2_label": "34r",
+          "pdf2_size": [
+            1155,
+            1500
+          ],
+          "folios": [
+            "f34r"
+          ]
+        }
+      ],
+      "hand": "2",
+      "currier_lang": "B",
+      "bifolium_number": 2,
+      "line_count": 15,
+      "word_count": 143,
+      "unique_canonical_stems": 75,
+      "drawing_intrusions": 15,
+      "opening_words": [
+        "pcheoepchy",
+        "olar",
+        "yl",
+        "yfody",
+        "okedody"
+      ],
+      "top_stems": [
+        "te",
+        "ch",
+        "chet",
+        "ar",
+        "tch"
+      ],
+      "scan_path": "pages/f34r_currier_b_polychrome_herbal_enh.png",
+      "visual_forensics": "Leaf 2 recto (outer Bifolio 2, Scribe 2 / Currier B): polychrome herbal with chckhy/chodaiin compounds and 20 text intrusions around sprawling foliage."
+    },
+    {
+      "folio": "f34v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 69,
+          "pdf1_label": "34v",
+          "beinecke_image_id": "1006141",
+          "pdf1_size": [
+            1522,
+            2000
+          ],
+          "pdf2_page": 69,
+          "pdf2_label": "34v",
+          "pdf2_size": [
+            1146,
+            1500
+          ],
+          "folios": [
+            "f34v"
+          ]
+        }
+      ],
+      "hand": "2",
+      "currier_lang": "B",
+      "bifolium_number": 2,
+      "line_count": 11,
+      "word_count": 117,
+      "unique_canonical_stems": 57,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "kechdy",
+        "chdy",
+        "chefchy",
+        "shdy",
+        "qopchdy"
+      ],
+      "top_stems": [
+        "ch",
+        "te",
+        "tch",
+        "ld",
+        "chcth"
+      ],
+      "scan_path": "pages/f34v_currier_b_herbal_verso_enh.png",
+      "visual_forensics": "Leaf 2 verso: Scribe 2 / Currier B herbal with smooth-edged oval leaves and fibrous root cluster."
+    },
+    {
+      "folio": "f35r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 70,
+          "pdf1_label": "35r",
+          "beinecke_image_id": "1006142",
+          "pdf1_size": [
+            1492,
+            2000
+          ],
+          "pdf2_page": 70,
+          "pdf2_label": "35r",
+          "pdf2_size": [
+            1167,
+            1500
+          ],
+          "folios": [
+            "f35r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "bifolium_number": 3,
+      "line_count": 15,
+      "word_count": 94,
+      "unique_canonical_stems": 40,
+      "drawing_intrusions": 4,
+      "opening_words": [
+        "choo",
+        "r",
+        "choly",
+        "chy",
+        "choty"
+      ],
+      "top_stems": [
+        "ch",
+        "ain",
+        "tch",
+        "tain",
+        "cth"
+      ],
+      "scan_path": "pages/f35r_quire5_bifolium3_recto_enh.png",
+      "visual_forensics": "Leaf 3 recto (Bifolio 3, Scribe 1 / Currier A): giant chalice-shaped brown receptacle with green serrated upper rim; slender central stalk bearing umbel flower with 6 curled blue tentacles and central crimson segmented comb; bifurcated fish-tail striate root; faint green/blue bleed-through from f35v on left margin."
+    },
+    {
+      "folio": "f35v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 71,
+          "pdf1_label": "35v",
+          "beinecke_image_id": "1006143",
+          "pdf1_size": [
+            1514,
+            2000
+          ],
+          "pdf2_page": 71,
+          "pdf2_label": "35v",
+          "pdf2_size": [
+            1158,
+            1500
+          ],
+          "folios": [
+            "f35v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "bifolium_number": 3,
+      "line_count": 21,
+      "word_count": 91,
+      "unique_canonical_stems": 47,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "parchor",
+        "chocthy",
+        "roaiin",
+        "ar",
+        "qotchy"
+      ],
+      "top_stems": [
+        "tch",
+        "ain",
+        "ch",
+        "d",
+        "chocth"
+      ],
+      "scan_path": "pages/f35v_quire5_bifolium3_verso_enh.png",
+      "visual_forensics": "Leaf 3 verso (Bifolio 3, Scribe 1 / Currier A): massive ruffled green brassica/kale crown above vertical stalk with figure-8 intertwined looping vine stems bearing turquoise/cyan berry clusters; two oak-lobed lateral leaves; horizontal multi-fingered root system with 12 root claws; bleed-through from f35r chalice bowl on left."
+    },
+    {
+      "folio": "f36r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 72,
+          "pdf1_label": "36r",
+          "beinecke_image_id": "1006144",
+          "pdf1_size": [
+            1492,
+            2000
+          ],
+          "pdf2_page": 72,
+          "pdf2_label": "36r",
+          "pdf2_size": [
+            1158,
+            1500
+          ],
+          "folios": [
+            "f36r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "bifolium_number": 4,
+      "line_count": 9,
+      "word_count": 63,
+      "unique_canonical_stems": 42,
+      "drawing_intrusions": 4,
+      "opening_words": [
+        "pchadan",
+        "qorain",
+        "chcfhal",
+        "soiin",
+        "cphor"
+      ],
+      "top_stems": [
+        "ch",
+        "ain",
+        "cth",
+        "tch",
+        "tain"
+      ],
+      "scan_path": "pages/f36r_quire5_bifolium4_recto_enh.png",
+      "visual_forensics": "Leaf 4 recto (Bifolio 4, Scribe 1 / Currier A): deeply lobed palmate geranium leaves in tri-color pigment (emerald green, golden ochre, intense dark green); 4 terminal stippled calyces with dark blue petals and gold centers; bulbous sliced white-topped tuber caudex with sprawling root arms; cancelled page number '39' at top right; bleed-through from f36v starburst leaves."
+    },
+    {
+      "folio": "f36v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 73,
+          "pdf1_label": "36v",
+          "beinecke_image_id": "1006145",
+          "pdf1_size": [
+            1512,
+            2000
+          ],
+          "pdf2_page": 73,
+          "pdf2_label": "36v",
+          "pdf2_size": [
+            1146,
+            1500
+          ],
+          "folios": [
+            "f36v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "bifolium_number": 4,
+      "line_count": 14,
+      "word_count": 76,
+      "unique_canonical_stems": 42,
+      "drawing_intrusions": 2,
+      "opening_words": [
+        "pchar",
+        "asy",
+        "qoforom",
+        "shoaiin",
+        "tchey"
+      ],
+      "top_stems": [
+        "tch",
+        "ain",
+        "ot",
+        "tain",
+        "cth"
+      ],
+      "scan_path": "pages/f36v_quire5_bifolium4_verso_enh.png",
+      "visual_forensics": "Leaf 4 verso (Bifolio 4, Scribe 1 / Currier A): 8-to-10-part radiate whorled oblanceolate leaves (Galium-like); terminal globose honeycomb head with lateral drooping cylindrical catkins; original medieval stitched root repair with visible stitch holes at base of taproot; natural parchment blemishes in leaf blades; bleed-through from f36r geranium leaves."
+    },
+    {
+      "folio": "f37r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 74,
+          "pdf1_label": "37r",
+          "beinecke_image_id": "1006146",
+          "pdf1_size": [
+            1492,
+            2000
+          ],
+          "pdf2_page": 74,
+          "pdf2_label": "37r",
+          "pdf2_size": [
+            1159,
+            1500
+          ],
+          "folios": [
+            "f37r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "bifolium_number": 4,
+      "line_count": 11,
+      "word_count": 78,
+      "unique_canonical_stems": 38,
+      "drawing_intrusions": 5,
+      "opening_words": [
+        "tocphol",
+        "shaiin",
+        "qotor",
+        "ofchor",
+        "oty"
+      ],
+      "top_stems": [
+        "ain",
+        "tch",
+        "ch",
+        "tain",
+        "tor"
+      ],
+      "scan_path": "pages/f37r_quire5_bifolium4_conjugate_recto_enh.png",
+      "visual_forensics": "Leaf 5 recto (Bifolio 4, conjugate to f36, Scribe 1 / Currier A): 5 pairs of arching lanceolate green leaves; tall upright flowering spike bearing 7 globose crimson stippled cyme clusters; bulbous turnip-like brown root with 5 curled rootlets; diagonal parchment flaw/stitch at right edge (x=0.73, y=0.72); cancelled page number '39'."
+    },
+    {
+      "folio": "f37v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 75,
+          "pdf1_label": "37v",
+          "beinecke_image_id": "1006147",
+          "pdf1_size": [
+            1529,
+            2000
+          ],
+          "pdf2_page": 75,
+          "pdf2_label": "37v",
+          "pdf2_size": [
+            1146,
+            1500
+          ],
+          "folios": [
+            "f37v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "bifolium_number": 4,
+      "line_count": 23,
+      "word_count": 89,
+      "unique_canonical_stems": 50,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "tshody",
+        "qocthy",
+        "qotoldy",
+        "chopdain",
+        "sol"
+      ],
+      "top_stems": [
+        "ain",
+        "ch",
+        "tol",
+        "cth",
+        "sh"
+      ],
+      "scan_path": "pages/f37v_quire5_bifolium4_conjugate_verso_enh.png",
+      "visual_forensics": "Leaf 5 verso (Bifolio 4, conjugate to f36, Scribe 1 / Currier A): spectacular 7-tiered ladder of broad bicolored crenate/scalloped leaves (green upper half, white unpainted lower half); 3 dark indigo oval bud pods crowned with crimson-and-white 5-petaled flowers; dotted circular collar ring above 5-legged dark brown branching root; matching diagonal parchment flaw/stitch (x=0.25, y=0.74); 23 continuous lines of Currier A text in 3 paragraphs."
+    },
+    {
+      "folio": "f38r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 76,
+          "pdf1_label": "38r",
+          "beinecke_image_id": "1006148",
+          "pdf1_size": [
+            1492,
+            2000
+          ],
+          "pdf2_page": 76,
+          "pdf2_label": "38r",
+          "pdf2_size": [
+            1163,
+            1500
+          ],
+          "folios": [
+            "f38r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "bifolium_number": 3,
+      "line_count": 6,
+      "word_count": 44,
+      "unique_canonical_stems": 29,
+      "drawing_intrusions": 6,
+      "opening_words": [
+        "tolor",
+        "chockhy",
+        "oky",
+        "choiin",
+        "okshol"
+      ],
+      "top_stems": [
+        "tain",
+        "ch",
+        "ain",
+        "ot",
+        "tsh"
+      ],
+      "scan_path": "pages/f38r_quire5_bifolium3_conjugate_recto_enh.png",
+      "visual_forensics": "Leaf 6 recto (Bifolio 3, conjugate to f35, Scribe 1 / Currier A): gigantic two-pronged V-shaped swallowtail green leaf with serrated outer margins and 5 white comma-shaped fenestrations; vertical parchment fissure with pale rim in lower blade; twin basal flower-cup/tuber roots; narrow trimmed fore-edge exposing text of f39r; cancelled page number '39'."
+    },
+    {
+      "folio": "f38v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 77,
+          "pdf1_label": "38v",
+          "beinecke_image_id": "1006149",
+          "pdf1_size": [
+            1529,
+            2000
+          ],
+          "pdf2_page": 77,
+          "pdf2_label": "38v",
+          "pdf2_size": [
+            1169,
+            1500
+          ],
+          "folios": [
+            "f38v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "bifolium_number": 3,
+      "line_count": 8,
+      "word_count": 67,
+      "unique_canonical_stems": 26,
+      "drawing_intrusions": 7,
+      "opening_words": [
+        "okchop",
+        "chol",
+        "shotol",
+        "oteol",
+        "okeea"
+      ],
+      "top_stems": [
+        "ain",
+        "te",
+        "ch",
+        "d",
+        "s"
+      ],
+      "scan_path": "pages/f38v_quire5_bifolium3_conjugate_verso_enh.png",
+      "visual_forensics": "Leaf 6 verso (Bifolio 3, conjugate to f35, Scribe 1 / Currier A): massive conical/imbricate cone of dozens of overlapping diamond/rhomboid scales (dark green, ochre, white); solitary blue radiating starburst flower on thin stalk emerging from upper right; matching parchment fissure registering through cone (x=0.67, y=0.49); tall pink stalk splitting 8-line paragraph into two columns."
+    },
+    {
+      "folio": "f39r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 78,
+          "pdf1_label": "39r",
+          "beinecke_image_id": "1006150",
+          "pdf1_size": [
+            1492,
+            2000
+          ],
+          "pdf2_page": 78,
+          "pdf2_label": "39r",
+          "pdf2_size": [
+            1164,
+            1500
+          ],
+          "folios": [
+            "f39r"
+          ]
+        }
+      ],
+      "hand": "2",
+      "currier_lang": "B",
+      "bifolium_number": 2,
+      "line_count": 16,
+      "word_count": 157,
+      "unique_canonical_stems": 83,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "tedo",
+        "chshd",
+        "cphhofy",
+        "chdain",
+        "shey"
+      ],
+      "top_stems": [
+        "ch",
+        "ain",
+        "he",
+        "te",
+        "dar"
+      ],
+      "scan_path": "pages/f39r_currier_b_herbal_monograph_enh.png",
+      "visual_forensics": "Leaf 7 recto (outer Bifolio 2, Scribe 2 / Currier B): single-stalked Currier B herb with rounded leaves and bulbous segmented root."
+    },
+    {
+      "folio": "f39v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 79,
+          "pdf1_label": "39v",
+          "beinecke_image_id": "1006151",
+          "pdf1_size": [
+            1529,
+            2000
+          ],
+          "pdf2_page": 79,
+          "pdf2_label": "39v",
+          "pdf2_size": [
+            1148,
+            1500
+          ],
+          "folios": [
+            "f39v"
+          ]
+        }
+      ],
+      "hand": "2",
+      "currier_lang": "B",
+      "bifolium_number": 2,
+      "line_count": 14,
+      "word_count": 146,
+      "unique_canonical_stems": 67,
+      "drawing_intrusions": 7,
+      "opening_words": [
+        "pdair",
+        "chdy",
+        "fdykain",
+        "or",
+        "air"
+      ],
+      "top_stems": [
+        "ain",
+        "tar",
+        "or",
+        "ch",
+        "tain"
+      ],
+      "scan_path": "pages/f39v_okody_sarol_plant_enh.png",
+      "visual_forensics": "Leaf 7 verso: Scribe 2 / Currier B herb with okody/sarol lexical tokens and 7 drawing intrusions wrapping around wavy rootlets."
+    },
+    {
+      "folio": "f40r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 80,
+          "pdf1_label": "40r",
+          "beinecke_image_id": "1006152",
+          "pdf1_size": [
+            1496,
+            2000
+          ],
+          "pdf2_page": 80,
+          "pdf2_label": "40r",
+          "pdf2_size": [
+            1170,
+            1500
+          ],
+          "folios": [
+            "f40r"
+          ]
+        }
+      ],
+      "hand": "2",
+      "currier_lang": "B",
+      "bifolium_number": 1,
+      "line_count": 11,
+      "word_count": 103,
+      "unique_canonical_stems": 53,
+      "drawing_intrusions": 10,
+      "opening_words": [
+        "pchey",
+        "k",
+        "eodar",
+        "aldydy",
+        "qoky"
+      ],
+      "top_stems": [
+        "tar",
+        "tain",
+        "ch",
+        "or",
+        "ain"
+      ],
+      "scan_path": "pages/f40r_currier_b_herbal_recto_enh.png",
+      "visual_forensics": "Leaf 8 recto (outer Bifolio 1, Scribe 2 / Currier B): multi-branched Currier B herbal with 10 text intrusions framing central stalk."
+    },
+    {
+      "folio": "f40v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 81,
+          "pdf1_label": "40v",
+          "beinecke_image_id": "1006153",
+          "pdf1_size": [
+            1529,
+            2000
+          ],
+          "pdf2_page": 81,
+          "pdf2_label": "40v",
+          "pdf2_size": [
+            1153,
+            1500
+          ],
+          "folios": [
+            "f40v"
+          ]
+        }
+      ],
+      "hand": "2",
+      "currier_lang": "B",
+      "bifolium_number": 1,
+      "line_count": 19,
+      "word_count": 105,
+      "unique_canonical_stems": 51,
+      "drawing_intrusions": 6,
+      "opening_words": [
+        "pchedain",
+        "chefaiin",
+        "oldy",
+        "todar",
+        "qokaiin"
+      ],
+      "top_stems": [
+        "tain",
+        "te",
+        "ain",
+        "tar",
+        "ch"
+      ],
+      "scan_path": "pages/f40v_currier_b_herbal_verso_enh.png",
+      "visual_forensics": "Leaf 8 verso (closing folio of Quire 5, outer Bifolio 1, Scribe 2 / Currier B): dense bushy plant with 6 drawing intrusions, closing the outer Currier B jacket of Quire 5."
+    }
+  ]
+}

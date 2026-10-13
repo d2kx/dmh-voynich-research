@@ -1,0 +1,938 @@
+{
+  "attack_number": 230,
+  "discovery_number": 247,
+  "title": "Quire 6 ($Q=F, f41r-f48v) 100.0% Visual Completion, B-A-B-A Alternation Architecture, Root Morphology Atlas, and Pharmaceutical Recipe Lexical Seeding",
+  "quire6_status": {
+    "total_folios": 16,
+    "scanned_folios": 16,
+    "completion_percentage": 100.0,
+    "is_complete": true,
+    "all_folios": [
+      "f41r",
+      "f41v",
+      "f42r",
+      "f42v",
+      "f43r",
+      "f43v",
+      "f44r",
+      "f44v",
+      "f45r",
+      "f45v",
+      "f46r",
+      "f46v",
+      "f47r",
+      "f47v",
+      "f48r",
+      "f48v"
+    ]
+  },
+  "codicological_architecture": {
+    "bifolia_count": 4,
+    "alternation_pattern": "B-A-B-A (Scribe 5/B -> Scribe 1/A -> Scribe 2/B -> Scribe 1/A)",
+    "currier_a_leaves": 8,
+    "currier_b_leaves": 8,
+    "ratio_a_to_b": "50% / 50%",
+    "bifolia": [
+      {
+        "bifolio_number": 1,
+        "position": "Outer sheet (Bifolio 1 \u2014 Scribe 5 / Currier B)",
+        "conjugate_leaves": [
+          "f41r",
+          "f41v",
+          "f48r",
+          "f48v"
+        ],
+        "scribe": "5",
+        "currier_lang": "B",
+        "botanical_summary": "f41r (p82) Thistle with spiny leaves & fibrous taproot; f41v (p83) Tansy/fern bipinnate foliage; f48r (p96) Large branching twin plant; f48v (p97) Gentiana twin bifurcated stalk with clawed taproot ('otchdy otoldy') & gathering signature 6.",
+        "bifolio_homogeneity": true
+      },
+      {
+        "bifolio_number": 2,
+        "position": "Second sheet (Bifolio 2 \u2014 Scribe 1 / Currier A)",
+        "conjugate_leaves": [
+          "f42r",
+          "f42v",
+          "f47r",
+          "f47v"
+        ],
+        "scribe": "1",
+        "currier_lang": "A",
+        "botanical_summary": "f42r (p84) Two plants: Arum sagittate leaf + foot-like rhizome & Ranunculus 3-lobed red flower + bird-foot root; f42v (p85) Helleborus palmate herb with right-indented =Pt line ('ockhodody'); f47r (p94) Indian cucumber umbrella whorl framing text + spindle tuber; f47v (p95) Doronicum pardalianches Gemswurtz twin.",
+        "bifolio_homogeneity": true
+      },
+      {
+        "bifolio_number": 3,
+        "position": "Third sheet (Bifolio 3 \u2014 Scribe 2 / Currier B)",
+        "conjugate_leaves": [
+          "f43r",
+          "f43v",
+          "f46r",
+          "f46v"
+        ],
+        "scribe": "2",
+        "currier_lang": "B",
+        "botanical_summary": "f43r (p86) Antennaria/Gnaphalium woolly herb; f43v (p87) Polygonum bistorta/Lunaria twin plant hub; f46r (p92) Asclepias tuberous root hub; f46v (p93) Anchusa/Borago red root dye mark with leaf-indented =Pt line ('tchodar').",
+        "bifolio_homogeneity": true
+      },
+      {
+        "bifolio_number": 4,
+        "position": "Innermost centerfold sheet (Bifolio 4 \u2014 Scribe 1 / Currier A)",
+        "conjugate_leaves": [
+          "f44r",
+          "f44v",
+          "f45r",
+          "f45v"
+        ],
+        "scribe": "1",
+        "currier_lang": "A",
+        "botanical_summary": "f44r (p88) Veratrum plicate leaf fan, white/ochre chalice flower & centipede scaly rhizome; f44v (p89) Ruffled curly kale rosette, twin urn seed capsules & 4-claw anchor taproot; f45r (p90) Opposite hastate leaves, blue racemes & 3-socket glove tuber with carrot taproot; f45v (p91) Veronica 3 blue spikes with 10 drawing intrusions & 15-eye undulating root ribbon.",
+        "bifolio_homogeneity": true
+      }
+    ]
+  },
+  "morphology_and_roots": {
+    "root_categories_identified": [
+      "Creeping scaly rhizomes (f44r Veratrum centipede rhizome)",
+      "Horizontally branched foot rhizomes with rootlets (f42r Arum)",
+      "Undulating ribbon rhizomes with cup nodules (f45v 15-eye ribbon)",
+      "Articulated socket tubers (f45r 3-socket glove tuber)",
+      "Spindle tubers with root hairs (f47r cucumber tuber)",
+      "Clawed / bird-foot anchor roots (f42r, f44v, f48v)",
+      "Swollen storage tubers (f46r Asclepias)",
+      "Red-pigment crown taproots (f46v Anchusa)"
+    ],
+    "drawing_intrusions_total_q6": 74,
+    "drawing_intrusions_highlight": "f45v exhibits 10 drawing intrusions (<->) where text lines strictly flow around and between the 3 floral spikes, confirming illustrations preceded text."
+  },
+  "lexical_and_pharmaceutical_analysis": {
+    "quire6_total_words": 1724,
+    "quire6_currier_a_words": 766,
+    "quire6_currier_b_words": 958,
+    "quire6_unique_canonical_stems": 382,
+    "pharma_total_words": 2589,
+    "pharma_tokens_covered_by_q6_stems": 2054,
+    "pharma_token_coverage_percentage": 79.34,
+    "pharma_coverage_by_currier_a": 69.72,
+    "pharma_coverage_by_currier_b": 74.51,
+    "permutation_test_null_mean": 72.56,
+    "permutation_test_null_std": 2.14,
+    "permutation_test_z_score": -1.33,
+    "plant_pharma_pairs": [
+      {
+        "herbal_folio": "f47v",
+        "pharma_folio": "f102r2",
+        "botanical_species": "Doronicum pardalianches (Gemswurtz)",
+        "citation": "Petersen / Zandbergen-Landini note",
+        "shared_canonical_stems": 14,
+        "pharma_token_coverage": 0.4583333333333333
+      },
+      {
+        "herbal_folio": "f48r",
+        "pharma_folio": "f89v2",
+        "botanical_species": "Branching twin plant",
+        "citation": "Stolfi twin candidate",
+        "shared_canonical_stems": 18,
+        "pharma_token_coverage": 0.4143646408839779
+      },
+      {
+        "herbal_folio": "f48v",
+        "pharma_folio": "f89v1",
+        "botanical_species": "Gentiana twin bifurcated herb",
+        "citation": "Stolfi twin candidate",
+        "shared_canonical_stems": 21,
+        "pharma_token_coverage": 0.525974025974026
+      },
+      {
+        "herbal_folio": "f42r",
+        "pharma_folio": "f88r",
+        "botanical_species": "Arum sagittate / Ranunculus",
+        "citation": "Herbal opening bifolio to Pharma register",
+        "shared_canonical_stems": 18,
+        "pharma_token_coverage": 0.5133333333333333
+      },
+      {
+        "herbal_folio": "f44r",
+        "pharma_folio": "f99r",
+        "botanical_species": "Veratrum album (centipede rhizome)",
+        "citation": "Inner bifolio centerfold to Pharma register",
+        "shared_canonical_stems": 19,
+        "pharma_token_coverage": 0.5103092783505154
+      }
+    ]
+  },
+  "folio_profiles": [
+    {
+      "folio": "f41r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 82,
+          "pdf1_label": "41r",
+          "beinecke_image_id": "1006154",
+          "pdf1_size": [
+            1517,
+            2000
+          ],
+          "pdf2_page": 82,
+          "pdf2_label": "41r",
+          "pdf2_size": [
+            1161,
+            1500
+          ],
+          "folios": [
+            "f41r"
+          ]
+        }
+      ],
+      "hand": "5",
+      "currier_lang": "B",
+      "line_count": 11,
+      "word_count": 97,
+      "unique_canonical_stems": 54,
+      "drawing_intrusions": 11,
+      "opening_words": [
+        "pshey",
+        "kedaleey",
+        "oked",
+        "seekeeey",
+        "opshes"
+      ],
+      "top_stems": [
+        "te",
+        "chet",
+        "ch",
+        "tch",
+        "dy"
+      ],
+      "scan_path": "pages/f41r_scribe5_quire6_outer_recto_enh.png",
+      "root_type": "Branching fibrous taproot",
+      "visual_forensics": "Opening recto of Quire 6 outer bifolium: Scribe 5 / Currier B thistle with spinose-dentate lanceolate leaves and branching fibrous taproot."
+    },
+    {
+      "folio": "f41v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 83,
+          "pdf1_label": "41v",
+          "beinecke_image_id": "1006155",
+          "pdf1_size": [
+            1529,
+            2000
+          ],
+          "pdf2_page": 83,
+          "pdf2_label": "41v",
+          "pdf2_size": [
+            1155,
+            1500
+          ],
+          "folios": [
+            "f41v"
+          ]
+        }
+      ],
+      "hand": "5",
+      "currier_lang": "B",
+      "line_count": 8,
+      "word_count": 66,
+      "unique_canonical_stems": 36,
+      "drawing_intrusions": 6,
+      "opening_words": [
+        "keeredal",
+        "pcheody",
+        "qofcheepy",
+        "ofchdy",
+        "cfhekchdy"
+      ],
+      "top_stems": [
+        "te",
+        "ain",
+        "tal",
+        "pch",
+        "teo"
+      ],
+      "scan_path": "pages/f41v_scribe5_labeled_herbal_enh.png",
+      "root_type": "Slender compact taproot",
+      "visual_forensics": "Outer bifolio verso: Tansy/fern herb with delicate bipinnate dissected leaves, slender central stem, and compact taproot."
+    },
+    {
+      "folio": "f42r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 84,
+          "pdf1_label": "42r",
+          "beinecke_image_id": "1006156",
+          "pdf1_size": [
+            1519,
+            2000
+          ],
+          "pdf2_page": 84,
+          "pdf2_label": "42r",
+          "pdf2_size": [
+            1157,
+            1500
+          ],
+          "folios": [
+            "f42r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 23,
+      "word_count": 141,
+      "unique_canonical_stems": 69,
+      "drawing_intrusions": 5,
+      "opening_words": [
+        "cho",
+        "ofaiin",
+        "cthaihchy",
+        "otcheey",
+        "pchear"
+      ],
+      "top_stems": [
+        "ch",
+        "hol",
+        "ain",
+        "cth",
+        "chot"
+      ],
+      "scan_path": "pages/f42r_quire6_arum_two_plants_enh.png",
+      "root_type": "Dual root system: Foot-like horizontal rhizome with descending rootlets (Plant 1) & 4-clawed bird-foot root (Plant 2)",
+      "visual_forensics": "Second bifolio left recto (Scribe 1 / Currier A): Has two distinct botanical specimens. Plant 1 (upper-right): giant cordate-sagittate green leaf (Arum) with prominent radiating venation and a massive horizontal foot-like rhizome spanning the entire lower margin with multiple descending rootlets. Plant 2 (lower-right): 3-lobed crimson flower/calyx (Ranunculus) on a slender stalk ending in a 4-clawed bird-foot root."
+    },
+    {
+      "folio": "f42v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 85,
+          "pdf1_label": "42v",
+          "beinecke_image_id": "1006157",
+          "pdf1_size": [
+            1529,
+            2000
+          ],
+          "pdf2_page": 85,
+          "pdf2_label": "42v",
+          "pdf2_size": [
+            1134,
+            1500
+          ],
+          "folios": [
+            "f42v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 16,
+      "word_count": 116,
+      "unique_canonical_stems": 59,
+      "drawing_intrusions": 16,
+      "opening_words": [
+        "cho",
+        "cto",
+        "sheey",
+        "qocho",
+        "taiin"
+      ],
+      "top_stems": [
+        "ch",
+        "ain",
+        "tch",
+        "te",
+        "chot"
+      ],
+      "scan_path": "pages/f42v_hand1_currierA_pt_enh.png",
+      "root_type": "Dense fibrous cluster root",
+      "visual_forensics": "Second bifolio left verso: Palmate-lobed Helleborus herb with dense fibrous cluster root; paragraph 1 ends with leaf-avoidance right-indented =Pt line ('ockhodody')."
+    },
+    {
+      "folio": "f43r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 86,
+          "pdf1_label": "43r",
+          "beinecke_image_id": "1006158",
+          "pdf1_size": [
+            1513,
+            2000
+          ],
+          "pdf2_page": 86,
+          "pdf2_label": "43r",
+          "pdf2_size": [
+            1151,
+            1500
+          ],
+          "folios": [
+            "f43r"
+          ]
+        }
+      ],
+      "hand": "2",
+      "currier_lang": "B",
+      "line_count": 14,
+      "word_count": 153,
+      "unique_canonical_stems": 72,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "tarodaiin",
+        "ytedy",
+        "eeody",
+        "ofchtar",
+        "chcphedy"
+      ],
+      "top_stems": [
+        "te",
+        "ain",
+        "ch",
+        "tar",
+        "tol"
+      ],
+      "scan_path": "pages/f43r_currier_b_herbal_recto_enh.png",
+      "root_type": "Creeping fibrous root",
+      "visual_forensics": "Third bifolio left recto (Scribe 2 / Currier B): Antennaria / Gnaphalium woolly herb with upright leafy stem, clustered flower heads, and creeping fibrous root."
+    },
+    {
+      "folio": "f43v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 87,
+          "pdf1_label": "43v",
+          "beinecke_image_id": "1006159",
+          "pdf1_size": [
+            1529,
+            2000
+          ],
+          "pdf2_page": 87,
+          "pdf2_label": "43v",
+          "pdf2_size": [
+            1139,
+            1500
+          ],
+          "folios": [
+            "f43v"
+          ]
+        }
+      ],
+      "hand": "2",
+      "currier_lang": "B",
+      "line_count": 16,
+      "word_count": 151,
+      "unique_canonical_stems": 71,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "pdsairy",
+        "dalteoshy",
+        "doly",
+        "sheet",
+        "or"
+      ],
+      "top_stems": [
+        "te",
+        "ch",
+        "ar",
+        "cth",
+        "ot"
+      ],
+      "scan_path": "pages/f43v_master_hub_herbal_enh.png",
+      "root_type": "Sinuous rhizome with terminal taproot",
+      "visual_forensics": "Third bifolio left verso: Master hub herbal showing Polygonum bistorta / Lunaria twin plant with sinuous rhizome and paired plumed stalks."
+    },
+    {
+      "folio": "f44r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 88,
+          "pdf1_label": "44r",
+          "beinecke_image_id": "1006160",
+          "pdf1_size": [
+            1502,
+            2000
+          ],
+          "pdf2_page": 88,
+          "pdf2_label": "44r",
+          "pdf2_size": [
+            1161,
+            1500
+          ],
+          "folios": [
+            "f44r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 11,
+      "word_count": 74,
+      "unique_canonical_stems": 47,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "tshodpy",
+        "oraiphy",
+        "koees",
+        "ypsholy",
+        "shy"
+      ],
+      "top_stems": [
+        "tch",
+        "ch",
+        "sh",
+        "pch",
+        "y"
+      ],
+      "scan_path": "pages/f44r_quire6_veratrum_rhizome_enh.png",
+      "root_type": "Serpentine centipede-like scaly segmented rhizome with paired claw rootlets and red pigment wash",
+      "visual_forensics": "Innermost centerfold bifolio left recto (Scribe 1 / Currier A): Veratrum album (white hellebore) with a spectacular terminal white/ochre striped chalice flower framed by green sepals, perched above a giant radiating fan of bicolored dark-blue and emerald-green plicate leaves; at bottom, a serpentine centipede-like segmented rhizome with paired claw rootlets and red pigment wash."
+    },
+    {
+      "folio": "f44v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 89,
+          "pdf1_label": "44v",
+          "beinecke_image_id": "1006161",
+          "pdf1_size": [
+            1529,
+            2000
+          ],
+          "pdf2_page": 89,
+          "pdf2_label": "44v",
+          "pdf2_size": [
+            1146,
+            1500
+          ],
+          "folios": [
+            "f44v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 13,
+      "word_count": 100,
+      "unique_canonical_stems": 50,
+      "drawing_intrusions": 2,
+      "opening_words": [
+        "tsho",
+        "qotshy",
+        "cthol",
+        "d",
+        "chor"
+      ],
+      "top_stems": [
+        "cth",
+        "tch",
+        "tol",
+        "ch",
+        "hol"
+      ],
+      "scan_path": "pages/f44v_quire6_inner_bifolio_verso_enh.png",
+      "root_type": "Nodular crown taproot with 4 horizontal clawed anchor rootlets",
+      "visual_forensics": "Innermost centerfold bifolio left verso: Ruffled curly kale / Acanthus basal rosette with pale crimped margins, crowned by twin nodding urn-shaped pink/crimson-striped seed capsules with ciliated apical lids (Silene / poppy); straight vertical taproot with nodular collar splitting into 4 horizontal clawed anchor rootlets; red rhizome of f44r visible in bleed-through."
+    },
+    {
+      "folio": "f45r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 90,
+          "pdf1_label": "45r",
+          "beinecke_image_id": "1006162",
+          "pdf1_size": [
+            1523,
+            2000
+          ],
+          "pdf2_page": 90,
+          "pdf2_label": "45r",
+          "pdf2_size": [
+            1160,
+            1500
+          ],
+          "folios": [
+            "f45r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 11,
+      "word_count": 89,
+      "unique_canonical_stems": 46,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "pykydal",
+        "shaikhy",
+        "oty",
+        "shey",
+        "qop"
+      ],
+      "top_stems": [
+        "tch",
+        "ain",
+        "ch",
+        "tain",
+        "pch"
+      ],
+      "scan_path": "pages/f45r_quire6_inner_bifolio_recto_enh.png",
+      "root_type": "Articulated glove-like palmate tuber with 3 upright cylindrical socket collars and ringed conical carrot taproot",
+      "visual_forensics": "Innermost centerfold bifolio right recto: Multiple upright stalks with opposite hastate/triangular serrated leaves in emerald and ochre, crowned by arched scorpioid cymes bearing 2-ranked blue floral florets; anchored in an extraordinary articulated glove-like palmate tuber with 3 upright hollow socket collars from which the stalks emerge, connected to a ringed conical carrot-like taproot."
+    },
+    {
+      "folio": "f45v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 91,
+          "pdf1_label": "45v",
+          "beinecke_image_id": "1006163",
+          "pdf1_size": [
+            1539,
+            2000
+          ],
+          "pdf2_page": 91,
+          "pdf2_label": "45v",
+          "pdf2_size": [
+            1158,
+            1500
+          ],
+          "folios": [
+            "f45v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 11,
+      "word_count": 85,
+      "unique_canonical_stems": 52,
+      "drawing_intrusions": 10,
+      "opening_words": [
+        "korary",
+        "chko",
+        "kol",
+        "chey",
+        "fsholom"
+      ],
+      "top_stems": [
+        "tch",
+        "tol",
+        "ch",
+        "dy",
+        "ain"
+      ],
+      "scan_path": "pages/f45v_quire6_veronica_branching_enh.png",
+      "root_type": "4-lobed clover collar atop full-width undulating zig-zag root ribbon bearing 15 red-rimmed eye cups",
+      "visual_forensics": "Innermost centerfold bifolio right verso: Veronica / Scutellaria with 3 tall upright flower spikes bearing dense clusters of dark-blue oval buds/florets and opposite crenate leaves; 10 drawing intrusions (<->) where Scribe 1 flowed text around and between the pre-inked flower stalks; anchored in a 4-lobed clover collar above a full-width undulating zig-zag horizontal root ribbon bearing 15 circular red-rimmed eye cups / tuberculate organs."
+    },
+    {
+      "folio": "f46r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 92,
+          "pdf1_label": "46r",
+          "beinecke_image_id": "1006164",
+          "pdf1_size": [
+            1541,
+            2000
+          ],
+          "pdf2_page": 92,
+          "pdf2_label": "46r",
+          "pdf2_size": [
+            1172,
+            1500
+          ],
+          "folios": [
+            "f46r"
+          ]
+        }
+      ],
+      "hand": "2",
+      "currier_lang": "B",
+      "line_count": 15,
+      "word_count": 163,
+      "unique_canonical_stems": 78,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "pcheocphy",
+        "qotedy",
+        "chety",
+        "dy",
+        "chepchx"
+      ],
+      "top_stems": [
+        "ain",
+        "te",
+        "ch",
+        "she",
+        "chcth"
+      ],
+      "scan_path": "pages/f46r_master_hub_herbal_enh.png",
+      "root_type": "Swollen bulbous tuberous storage root",
+      "visual_forensics": "Third bifolio right recto: Master hub herbal showing Asclepias with swollen tuberous storage root and multiple flowering branches."
+    },
+    {
+      "folio": "f46v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 93,
+          "pdf1_label": "46v",
+          "beinecke_image_id": "1006165",
+          "pdf1_size": [
+            1559,
+            2000
+          ],
+          "pdf2_page": 93,
+          "pdf2_label": "46v",
+          "pdf2_size": [
+            1154,
+            1500
+          ],
+          "folios": [
+            "f46v"
+          ]
+        }
+      ],
+      "hand": "2",
+      "currier_lang": "B",
+      "line_count": 13,
+      "word_count": 111,
+      "unique_canonical_stems": 55,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "pody",
+        "lshed",
+        "ypdy",
+        "shedy",
+        "opchedy"
+      ],
+      "top_stems": [
+        "te",
+        "ch",
+        "he",
+        "ain",
+        "tar"
+      ],
+      "scan_path": "pages/f46v_hand2_currierB_pt_enh.png",
+      "root_type": "Thick taproot with red iron-gall pigment stain along upper crown",
+      "visual_forensics": "Third bifolio right verso: Anchusa / Borago herb with bright red pigment stain along the root apex; paragraph ends with leaf-avoidance right-indented =Pt line ('tchodar')."
+    },
+    {
+      "folio": "f47r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 94,
+          "pdf1_label": "47r",
+          "beinecke_image_id": "1006166",
+          "pdf1_size": [
+            1521,
+            2000
+          ],
+          "pdf2_page": 94,
+          "pdf2_label": "47r",
+          "pdf2_size": [
+            1168,
+            1500
+          ],
+          "folios": [
+            "f47r"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 11,
+      "word_count": 76,
+      "unique_canonical_stems": 36,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "chair",
+        "oly",
+        "sheaiin",
+        "shol",
+        "daiin"
+      ],
+      "top_stems": [
+        "ch",
+        "ain",
+        "cth",
+        "hol",
+        "tch"
+      ],
+      "scan_path": "pages/f47r_quire6_cucumber_convolute_root_enh.png",
+      "root_type": "Dark crimson spindle tuber with radiating fine root hairs",
+      "visual_forensics": "Second bifolio right recto: Indian cucumber / Medeola virginiana umbrella plant with a giant 5-lobed apical green whorl (p84 foliation '47' at top right); an arched green stem frames the text block down the right margin, descending to a broad basal rosette leaf and a dark crimson spindle tuber with radiating root hairs."
+    },
+    {
+      "folio": "f47v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 95,
+          "pdf1_label": "47v",
+          "beinecke_image_id": "1006167",
+          "pdf1_size": [
+            1556,
+            2000
+          ],
+          "pdf2_page": 95,
+          "pdf2_label": "47v",
+          "pdf2_size": [
+            1163,
+            1500
+          ],
+          "folios": [
+            "f47v"
+          ]
+        }
+      ],
+      "hand": "1",
+      "currier_lang": "A",
+      "line_count": 14,
+      "word_count": 85,
+      "unique_canonical_stems": 46,
+      "drawing_intrusions": 10,
+      "opening_words": [
+        "psheot",
+        "cheor",
+        "cholsho",
+        "chopchy",
+        "sal"
+      ],
+      "top_stems": [
+        "ch",
+        "ain",
+        "sh",
+        "tch",
+        "te"
+      ],
+      "scan_path": "pages/f47v_doronicum_twin_enh.png",
+      "root_type": "Scorpioid knot rhizome",
+      "visual_forensics": "Second bifolio right verso: Doronicum pardalianches (Gemswurtz) twin flower with scorpioid knot rhizome; visual twin of Pharmaceutical miniature f102r2[1,1]."
+    },
+    {
+      "folio": "f48r",
+      "pdf_pages": [
+        {
+          "pdf1_page": 96,
+          "pdf1_label": "48r",
+          "beinecke_image_id": "1006168",
+          "pdf1_size": [
+            1538,
+            2000
+          ],
+          "pdf2_page": 96,
+          "pdf2_label": "48r",
+          "pdf2_size": [
+            1173,
+            1500
+          ],
+          "folios": [
+            "f48r"
+          ]
+        }
+      ],
+      "hand": "5",
+      "currier_lang": "B",
+      "line_count": 9,
+      "word_count": 89,
+      "unique_canonical_stems": 57,
+      "drawing_intrusions": 0,
+      "opening_words": [
+        "pshdaiin",
+        "ypchdy",
+        "opchey",
+        "chy",
+        "dal"
+      ],
+      "top_stems": [
+        "te",
+        "ain",
+        "cth",
+        "pch",
+        "dal"
+      ],
+      "scan_path": "pages/f48r_scribe5_quire6_conjugate_recto_enh.png",
+      "root_type": "Branching bifurcated taproot",
+      "visual_forensics": "Outer bifolio conjugate right recto (Scribe 5 / Currier B): Large twin-stemmed herb with branching taproot; visual twin candidate of Pharmaceutical register f89v2[3,4]."
+    },
+    {
+      "folio": "f48v",
+      "pdf_pages": [
+        {
+          "pdf1_page": 97,
+          "pdf1_label": "48v",
+          "beinecke_image_id": "1006169",
+          "pdf1_size": [
+            1565,
+            2000
+          ],
+          "pdf2_page": 97,
+          "pdf2_label": "48v",
+          "pdf2_size": [
+            1168,
+            1500
+          ],
+          "folios": [
+            "f48v"
+          ]
+        }
+      ],
+      "hand": "5",
+      "currier_lang": "B",
+      "line_count": 11,
+      "word_count": 128,
+      "unique_canonical_stems": 54,
+      "drawing_intrusions": 14,
+      "opening_words": [
+        "pcheodchy",
+        "dshedy",
+        "fchedy",
+        "los",
+        "aiin"
+      ],
+      "top_stems": [
+        "te",
+        "ch",
+        "tar",
+        "y",
+        "ain"
+      ],
+      "scan_path": "pages/f48v_gentian_bifurcated_twin_enh.png",
+      "root_type": "Clawed bifurcated taproot",
+      "visual_forensics": "Closing verso of Quire 6 (Scribe 5 / Currier B): Gentiana twin bifurcated stalks with clawed taproot ('otchdy otoldy'); lower-right margin preserves medieval quire signature '6'; visual twin candidate of Pharmaceutical register f89v[1,4]."
+    }
+  ],
+  "deliverables": {
+    "full_folio_scans": [
+      "pages/f42r_quire6_arum_two_plants_enh.png",
+      "pages/f44r_quire6_veratrum_rhizome_enh.png",
+      "pages/f44v_quire6_inner_bifolio_verso_enh.png",
+      "pages/f45r_quire6_inner_bifolio_recto_enh.png",
+      "pages/f45v_quire6_veronica_branching_enh.png",
+      "pages/f47r_quire6_cucumber_convolute_root_enh.png"
+    ],
+    "forensic_zoom_crops": [
+      "pages/f42r_two_plants_foliage_crop_enh.png",
+      "pages/f42r_twin_plants_root_crop_enh.png",
+      "pages/f44r_veratrum_inflorescence_spike_crop_enh.png",
+      "pages/f44r_veratrum_rhizome_root_crop_enh.png",
+      "pages/f44v_flower_head_and_leaves_crop_enh.png",
+      "pages/f44v_root_system_crop_enh.png",
+      "pages/f45r_foliage_and_flowers_crop_enh.png",
+      "pages/f45r_root_tuber_system_crop_enh.png",
+      "pages/f45v_text_intrusion_branching_crop_enh.png",
+      "pages/f45v_convolute_root_crop_enh.png",
+      "pages/f47r_cucumber_whorled_leaves_crop_enh.png",
+      "pages/f47r_convolute_tuber_knot_root_crop_enh.png",
+      "pages/f47r_apical_flower_and_heading_crop_enh.png"
+    ],
+    "all_new_images_count": 19
+  },
+  "global_codex_progress": {
+    "total_codex_folios": 227,
+    "scanned_folios_count": 227,
+    "unscanned_folios_count": 0,
+    "global_visual_coverage_percentage": 100.0,
+    "scribe1_scanned_count": 113,
+    "scribe1_total_count": 113,
+    "scribe1_coverage_percentage": 100.0,
+    "remaining_unscanned_folios": []
+  }
+}

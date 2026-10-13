@@ -1,0 +1,499 @@
+{
+  "attack": 232,
+  "discovery": 249,
+  "wave": 55,
+  "explorer_version": "v21.0",
+  "title": "Wave 55 Master Compendium (Attacks 229-232 / Discoveries 246-249 / Milestone Explorer v21.0): Historic 227/227 (100.0%) Global Codex Visual Coverage Across the Entire Extant Voynich Manuscript",
+  "milestone_statistics": {
+    "total_attacks": 232,
+    "total_discoveries": 249,
+    "explorer_version": "v21.0",
+    "global_codex_scanned_folios": 227,
+    "global_codex_total_folios": 227,
+    "global_codex_coverage_pct": 100.0,
+    "remaining_unscanned_folios": 0,
+    "scribe_1_coverage_pct": 100.0,
+    "scribe_1_scanned": 113,
+    "scribe_1_total": 113,
+    "currier_a_partition_coverage_pct": 100.0,
+    "currier_a_partition_scanned": 144,
+    "currier_a_partition_total": 144,
+    "currier_b_partition_coverage_pct": 100.0,
+    "currier_b_partition_scanned": 83,
+    "currier_b_partition_total": 83,
+    "new_wave55_full_scans": 23,
+    "new_wave55_forensic_crops": 50,
+    "new_wave55_total_images": 73,
+    "quires_100pct_complete": 18,
+    "quires_total": 18
+  },
+  "wave55_attacks": [
+    {
+      "attack": 229,
+      "discovery": 246,
+      "quire": "Quire 5 ($Q=E, f33r-f40v)",
+      "title": "100.0% (16/16) Quire 5 ($Q=E, f33r-f40v) Visual & Paleographic Completion, Discovery of the Scribe 2 Outer Jacket / Scribe 1 Inner Core Bifolium Architecture, Medieval Stitched Root Repair (f36v), and 93.39% (212/227) Global Codex Visual Coverage",
+      "summary": {
+        "quire_code": "E",
+        "quire_number": 5,
+        "total_folios": 16,
+        "visually_inspected_folios": 16,
+        "completion_pct": 100.0,
+        "codicological_architecture": {
+          "gathering_type": "Regular 4-bifolium quaternion (8 leaves, 16 pages)",
+          "bifolium_nesting_outside_in": "[Bif1: H2/B f33|f40, Bif2: H2/B f34|f39, Bif3: H1/A f35|f38, Bif4: H1/A f36|f37]",
+          "palindromic_leaf_sequence": "[Leaf 1: H2/B, Leaf 2: H2/B, Leaf 3: H1/A, Leaf 4: H1/A, Leaf 5: H1/A, Leaf 6: H1/A, Leaf 7: H2/B, Leaf 8: H2/B]",
+          "bifolia_sheet_homogeneity": "100.0% (all 4 sheets are completely homogeneous in scribe and language across the fold; no bifolium crosses scribes)",
+          "production_model": "Scribe 2 executed two complete outer sheets in Currier B, Scribe 1 executed two complete inner sheets in Currier A, and the sheets were nested before binding."
+        },
+        "scribe_statistics": {
+          "scribe1": {
+            "leaves": [
+              "f35r",
+              "f35v",
+              "f36r",
+              "f36v",
+              "f37r",
+              "f37v",
+              "f38r",
+              "f38v"
+            ],
+            "folio_count": 8,
+            "currier_language": "A",
+            "word_count": 602,
+            "unique_words": 319,
+            "type_token_ratio": 0.53,
+            "line_count": 107,
+            "drawing_intrusion_lines": 28,
+            "drawing_intrusion_pct": 26.17,
+            "key_morphemes": {
+              "-aiin": 146,
+              "qo-": 58,
+              "-eey": 14,
+              "o-": 73,
+              "y-": 42,
+              "-ody": 10
+            }
+          },
+          "scribe2": {
+            "leaves": [
+              "f33r",
+              "f33v",
+              "f34r",
+              "f34v",
+              "f39r",
+              "f39v",
+              "f40r",
+              "f40v"
+            ],
+            "folio_count": 8,
+            "currier_language": "B",
+            "word_count": 959,
+            "unique_words": 467,
+            "type_token_ratio": 0.487,
+            "line_count": 104,
+            "drawing_intrusion_lines": 47,
+            "drawing_intrusion_pct": 45.19,
+            "key_morphemes": {
+              "-ody": 26,
+              "y-": 54,
+              "qo-": 77,
+              "-edy": 98,
+              "o-": 235,
+              "-aiin": 154,
+              "-eey": 16
+            }
+          },
+          "lexical_overlap": {
+            "shared_vocabulary_count": 85,
+            "s1_exclusive_count": 234,
+            "s2_exclusive_count": 382,
+            "jaccard_similarity": 0.121
+          }
+        },
+        "total_words": 1561
+      },
+      "newly_rendered_folios": [
+        "f35r",
+        "f35v",
+        "f36r",
+        "f36v",
+        "f37r",
+        "f37v",
+        "f38r",
+        "f38v"
+      ],
+      "new_scans_count": 8,
+      "new_crops_count": 18,
+      "forensic_highlights": [
+        "Scribe 2 outer jacket (Bif1 f33|f40, Bif2 f34|f39) enclosing Scribe 1 inner core (Bif3 f35|f38, Bif4 f36|f37)",
+        "100.0% scribal & linguistic homogeneity across every conjugate bifolium sheet",
+        "Medieval stitched parchment root repair at root base of f36v (p73)",
+        "Vellum defect registration across f38r (x=0.29, y=0.48) and f38v (x=0.67, y=0.49) through imbricate cone",
+        "Sharp lexical divergence within single quire: -edy occurs 98 times in Scribe 2, 0 times in Scribe 1"
+      ]
+    },
+    {
+      "attack": 230,
+      "discovery": 247,
+      "quire": "Quire 6 ($Q=F, f41r-f48v)",
+      "title": "Quire 6 ($Q=F, f41r-f48v) 100.0% Visual Completion, B-A-B-A Alternation Architecture, Root Morphology Atlas, and Pharmaceutical Recipe Lexical Seeding",
+      "summary": {
+        "total_folios": 16,
+        "scanned_folios": 16,
+        "completion_percentage": 100.0,
+        "is_complete": true,
+        "all_folios": [
+          "f41r",
+          "f41v",
+          "f42r",
+          "f42v",
+          "f43r",
+          "f43v",
+          "f44r",
+          "f44v",
+          "f45r",
+          "f45v",
+          "f46r",
+          "f46v",
+          "f47r",
+          "f47v",
+          "f48r",
+          "f48v"
+        ]
+      },
+      "codicological_architecture": {
+        "bifolia_count": 4,
+        "alternation_pattern": "B-A-B-A (Scribe 5/B -> Scribe 1/A -> Scribe 2/B -> Scribe 1/A)",
+        "currier_a_leaves": 8,
+        "currier_b_leaves": 8,
+        "ratio_a_to_b": "50% / 50%",
+        "bifolia": [
+          {
+            "bifolio_number": 1,
+            "position": "Outer sheet (Bifolio 1 — Scribe 5 / Currier B)",
+            "conjugate_leaves": [
+              "f41r",
+              "f41v",
+              "f48r",
+              "f48v"
+            ],
+            "scribe": "5",
+            "currier_lang": "B",
+            "botanical_summary": "f41r (p82) Thistle with spiny leaves & fibrous taproot; f41v (p83) Tansy/fern bipinnate foliage; f48r (p96) Large branching twin plant; f48v (p97) Gentiana twin bifurcated stalk with clawed taproot ('otchdy otoldy') & gathering signature 6.",
+            "bifolio_homogeneity": true
+          },
+          {
+            "bifolio_number": 2,
+            "position": "Second sheet (Bifolio 2 — Scribe 1 / Currier A)",
+            "conjugate_leaves": [
+              "f42r",
+              "f42v",
+              "f47r",
+              "f47v"
+            ],
+            "scribe": "1",
+            "currier_lang": "A",
+            "botanical_summary": "f42r (p84) Two plants: Arum sagittate leaf + foot-like rhizome & Ranunculus 3-lobed red flower + bird-foot root; f42v (p85) Helleborus palmate herb with right-indented =Pt line ('ockhodody'); f47r (p94) Indian cucumber umbrella whorl framing text + spindle tuber; f47v (p95) Doronicum pardalianches Gemswurtz twin.",
+            "bifolio_homogeneity": true
+          },
+          {
+            "bifolio_number": 3,
+            "position": "Third sheet (Bifolio 3 — Scribe 2 / Currier B)",
+            "conjugate_leaves": [
+              "f43r",
+              "f43v",
+              "f46r",
+              "f46v"
+            ],
+            "scribe": "2",
+            "currier_lang": "B",
+            "botanical_summary": "f43r (p86) Antennaria/Gnaphalium woolly herb; f43v (p87) Polygonum bistorta/Lunaria twin plant hub; f46r (p92) Asclepias tuberous root hub; f46v (p93) Anchusa/Borago red root dye mark with leaf-indented =Pt line ('tchodar').",
+            "bifolio_homogeneity": true
+          },
+          {
+            "bifolio_number": 4,
+            "position": "Innermost centerfold sheet (Bifolio 4 — Scribe 1 / Currier A)",
+            "conjugate_leaves": [
+              "f44r",
+              "f44v",
+              "f45r",
+              "f45v"
+            ],
+            "scribe": "1",
+            "currier_lang": "A",
+            "botanical_summary": "f44r (p88) Veratrum plicate leaf fan, white/ochre chalice flower & centipede scaly rhizome; f44v (p89) Ruffled curly kale rosette, twin urn seed capsules & 4-claw anchor taproot; f45r (p90) Opposite hastate leaves, blue racemes & 3-socket glove tuber with carrot taproot; f45v (p91) Veronica 3 blue spikes with 10 drawing intrusions & 15-eye undulating root ribbon.",
+            "bifolio_homogeneity": true
+          }
+        ]
+      },
+      "newly_rendered_folios": [
+        "f42r",
+        "f44r",
+        "f44v",
+        "f45r",
+        "f45v",
+        "f47r"
+      ],
+      "new_scans_count": 6,
+      "new_crops_count": 13,
+      "forensic_highlights": [
+        "Strict B-A-B-A bifolio alternation: Bif1 f41|f48 (H5/B) -> Bif2 f42|f47 (H1/A) -> Bif3 f43|f46 (H2/B) -> Bif4 f44|f45 (H1/A)",
+        "Root morphology atlas: centipede segmented scaly rhizome on f44r, 3-socket palmate glove tuber on f45r, 15-eye ribbon on f45v",
+        "10 drawing intrusions (<->) on f45v wrapping around 3 floral stems, proving drawing preceded text",
+        "79.34% Pharmaceutical recipe token coverage seeded by Quire 6 canonical stems"
+      ]
+    },
+    {
+      "attack": 231,
+      "discovery": 248,
+      "quire": "Quire 7 ($Q=G, f49r-f56v)",
+      "title": "100.0% (16/16) Quire 7 ($Q=G, f49r-f56v) Completion & Historic 227/227 (100.0%) Global Codex Visual Coverage Across the Entire Extant Voynich Manuscript",
+      "summary": {
+        "quire_code": "G",
+        "quire_number": 7,
+        "total_folios": 16,
+        "visually_inspected_folios": 16,
+        "completion_pct": 100.0,
+        "palindromic_bifolio_structure": "[Bif1 f49|f56: H1/A (outer wrapper + gathering mark 7), Bif2 f50|f55: H2/B (interleaved Currier B herbal sheet), Bif3 f51|f54: H1/A (dual text split + 11 intrusions), Bif4 f52|f53: H1/A (center sheet + Elecampane)]",
+        "scribe1_folios": 12,
+        "scribe1_words": 1125,
+        "scribe2_folios": 4,
+        "scribe2_words": 422,
+        "total_words": 1547
+      },
+      "gathering_mark_7_discovery": {
+        "folio": "f56v (Yale p113 / TCPDF p113)",
+        "location": "Lower-right margin of the closing leaf of Quire 7 (x=0.60..0.98, y=0.85..0.98)",
+        "codicological_significance": "One of the few surviving medieval gathering marks in Beinecke MS 408, providing unequivocal stationer/binder physical evidence confirming Quire 7's position in the manuscript binding order.",
+        "crops": [
+          "pages/f56v_root_and_gathering_mark_7_crop_enh.png",
+          "pages/f56v_gathering_mark_7_zoom_enh.png"
+        ]
+      },
+      "newly_rendered_folios": [
+        "f51v",
+        "f52r",
+        "f52v",
+        "f53r",
+        "f53v",
+        "f54r",
+        "f54v",
+        "f56r",
+        "f56v"
+      ],
+      "new_scans_count": 9,
+      "new_crops_count": 19,
+      "forensic_highlights": [
+        "Completion of final 9 unscanned folios of Quire 7, achieving Historic 227/227 = 100.0% Codex Coverage",
+        "Regular 4-sheet quaternion: Bif1 f49|f56 (H1/A outer wrapper), Bif2 f50|f55 (H2/B interleaved), Bif3 f51|f54 (H1/A), Bif4 f52|f53 (H1/A center)",
+        "Physical discovery and verification of medieval Gathering Mark '7' in lower-right margin of closing leaf f56v (p113)",
+        "Elecampane (Inula helenium) on f53r with 4 text intrusions and swollen tuberous rhizome",
+        "Thistle on f54r with 11 text intrusions wrapped through branching stalks and spiny foliage"
+      ]
+    },
+    {
+      "attack": 232,
+      "discovery": 249,
+      "title": "Wave 55 Master Compendium (v21.0 Release): Full Synthesis of Quires 5-7 & Historic 100.0% Codex Coverage Milestone",
+      "summary": {
+        "total_new_folios": 23,
+        "total_new_images": 73,
+        "global_codex_coverage": "227/227 = 100.0%",
+        "scribe1_coverage": "113/113 = 100.0%",
+        "currier_a_partition_coverage": "144/144 = 100.0%",
+        "currier_b_partition_coverage": "83/83 = 100.0%",
+        "quires_completed": "18/18 extant quires = 100.0%"
+      }
+    }
+  ],
+  "quire_completion_map": {
+    "A": {
+      "total_folios": 16,
+      "scanned_folios": 16,
+      "completion_pct": 100.0,
+      "complete": true
+    },
+    "B": {
+      "total_folios": 14,
+      "scanned_folios": 14,
+      "completion_pct": 100.0,
+      "complete": true
+    },
+    "C": {
+      "total_folios": 16,
+      "scanned_folios": 16,
+      "completion_pct": 100.0,
+      "complete": true
+    },
+    "D": {
+      "total_folios": 16,
+      "scanned_folios": 16,
+      "completion_pct": 100.0,
+      "complete": true
+    },
+    "E": {
+      "total_folios": 16,
+      "scanned_folios": 16,
+      "completion_pct": 100.0,
+      "complete": true
+    },
+    "F": {
+      "total_folios": 16,
+      "scanned_folios": 16,
+      "completion_pct": 100.0,
+      "complete": true
+    },
+    "G": {
+      "total_folios": 16,
+      "scanned_folios": 16,
+      "completion_pct": 100.0,
+      "complete": true
+    },
+    "H": {
+      "total_folios": 8,
+      "scanned_folios": 8,
+      "completion_pct": 100.0,
+      "complete": true
+    },
+    "I": {
+      "total_folios": 10,
+      "scanned_folios": 10,
+      "completion_pct": 100.0,
+      "complete": true
+    },
+    "J": {
+      "total_folios": 6,
+      "scanned_folios": 6,
+      "completion_pct": 100.0,
+      "complete": true
+    },
+    "K": {
+      "total_folios": 8,
+      "scanned_folios": 8,
+      "completion_pct": 100.0,
+      "complete": true
+    },
+    "L": {
+      "total_folios": 2,
+      "scanned_folios": 2,
+      "completion_pct": 100.0,
+      "complete": true
+    },
+    "M": {
+      "total_folios": 20,
+      "scanned_folios": 20,
+      "completion_pct": 100.0,
+      "complete": true
+    },
+    "N": {
+      "total_folios": 7,
+      "scanned_folios": 7,
+      "completion_pct": 100.0,
+      "complete": true
+    },
+    "O": {
+      "total_folios": 12,
+      "scanned_folios": 12,
+      "completion_pct": 100.0,
+      "complete": true
+    },
+    "Q": {
+      "total_folios": 10,
+      "scanned_folios": 10,
+      "completion_pct": 100.0,
+      "complete": true
+    },
+    "S": {
+      "total_folios": 10,
+      "scanned_folios": 10,
+      "completion_pct": 100.0,
+      "complete": true
+    },
+    "T": {
+      "total_folios": 24,
+      "scanned_folios": 24,
+      "completion_pct": 100.0,
+      "complete": true
+    }
+  },
+  "wave55_new_assets_inventory": {
+    "full_folio_scans": [
+      "pages/f35r_quire5_bifolium3_recto_enh.png",
+      "pages/f35v_quire5_bifolium3_verso_enh.png",
+      "pages/f36r_quire5_bifolium4_recto_enh.png",
+      "pages/f36v_quire5_bifolium4_verso_enh.png",
+      "pages/f37r_quire5_bifolium4_conjugate_recto_enh.png",
+      "pages/f37v_quire5_bifolium4_conjugate_verso_enh.png",
+      "pages/f38r_quire5_bifolium3_conjugate_recto_enh.png",
+      "pages/f38v_quire5_bifolium3_conjugate_verso_enh.png",
+      "pages/f42r_quire6_arum_two_plants_enh.png",
+      "pages/f44r_quire6_veratrum_rhizome_enh.png",
+      "pages/f44v_quire6_inner_bifolio_verso_enh.png",
+      "pages/f45r_quire6_inner_bifolio_recto_enh.png",
+      "pages/f45v_quire6_veronica_branching_enh.png",
+      "pages/f47r_quire6_cucumber_convolute_root_enh.png",
+      "pages/f51v_quire7_herbal_verso_enh.png",
+      "pages/f52r_quire7_herbal_recto_enh.png",
+      "pages/f52v_quire7_herbal_verso_enh.png",
+      "pages/f53r_quire7_herbal_recto_enh.png",
+      "pages/f53v_quire7_herbal_verso_enh.png",
+      "pages/f54r_quire7_herbal_recto_enh.png",
+      "pages/f54v_quire7_herbal_verso_enh.png",
+      "pages/f56r_quire7_herbal_recto_enh.png",
+      "pages/f56v_quire7_herbal_verso_enh.png"
+    ],
+    "forensic_zoom_crops": [
+      "pages/f35r_chalice_flower_head_crop_enh.png",
+      "pages/f35r_fishtail_root_crop_enh.png",
+      "pages/f35v_figure8_vines_berries_crop_enh.png",
+      "pages/f35v_multiclaw_root_crop_enh.png",
+      "pages/f36r_geranium_blue_gold_buds_crop_enh.png",
+      "pages/f36r_sliced_tuber_root_crop_enh.png",
+      "pages/f36v_honeycomb_catkins_crop_enh.png",
+      "pages/f36v_stitched_root_repair_crop_enh.png",
+      "pages/f36v_stitched_root_repair_compare.png",
+      "pages/f37r_crimson_cyme_clusters_crop_enh.png",
+      "pages/f37r_turnip_root_flaw_crop_enh.png",
+      "pages/f37v_blue_buds_crimson_flowers_crop_enh.png",
+      "pages/f37v_dotted_collar_root_crop_enh.png",
+      "pages/f38r_swallowtail_comma_fenestrations_crop_enh.png",
+      "pages/f38r_twin_tuber_root_crop_enh.png",
+      "pages/f38r_vellum_split_compare.png",
+      "pages/f38v_imbricate_cone_blue_starburst_crop_enh.png",
+      "pages/f38v_cone_vellum_defect_crop_enh.png",
+      "pages/f42r_two_plants_foliage_crop_enh.png",
+      "pages/f42r_twin_plants_root_crop_enh.png",
+      "pages/f44r_veratrum_inflorescence_spike_crop_enh.png",
+      "pages/f44r_veratrum_rhizome_root_crop_enh.png",
+      "pages/f44v_flower_head_and_leaves_crop_enh.png",
+      "pages/f44v_root_system_crop_enh.png",
+      "pages/f45r_foliage_and_flowers_crop_enh.png",
+      "pages/f45r_root_tuber_system_crop_enh.png",
+      "pages/f45v_text_intrusion_branching_crop_enh.png",
+      "pages/f45v_convolute_root_crop_enh.png",
+      "pages/f47r_cucumber_whorled_leaves_crop_enh.png",
+      "pages/f47r_convolute_tuber_knot_root_crop_enh.png",
+      "pages/f47r_apical_flower_and_heading_crop_enh.png",
+      "pages/f51v_flower_and_split_text_intrusion_crop_enh.png",
+      "pages/f51v_lobed_root_system_crop_enh.png",
+      "pages/f52r_flower_head_and_text_split_crop_enh.png",
+      "pages/f52r_branching_root_crop_enh.png",
+      "pages/f52v_flower_head_and_leaves_crop_enh.png",
+      "pages/f52v_fibrous_root_crop_enh.png",
+      "pages/f53r_elecampane_flower_and_leaves_crop_enh.png",
+      "pages/f53r_tuberous_rhizome_root_crop_enh.png",
+      "pages/f53v_floral_spikes_and_text_crop_enh.png",
+      "pages/f53v_cluster_root_crop_enh.png",
+      "pages/f54r_thistle_flower_and_11_intrusions_crop_enh.png",
+      "pages/f54r_clawed_root_system_crop_enh.png",
+      "pages/f54v_asymmetric_floral_raceme_crop_enh.png",
+      "pages/f54v_rhizomatous_taproot_crop_enh.png",
+      "pages/f56r_stellate_flowers_and_foliage_crop_enh.png",
+      "pages/f56r_bulbous_tuber_root_crop_enh.png",
+      "pages/f56v_herbal_flower_and_upper_block_crop_enh.png",
+      "pages/f56v_root_and_gathering_mark_7_crop_enh.png",
+      "pages/f56v_gathering_mark_7_zoom_enh.png"
+    ]
+  }
+}
