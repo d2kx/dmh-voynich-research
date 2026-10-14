@@ -11,6 +11,10 @@ target_files = [
     'notes/DECODING_ATTACKS_SYNTHESIS.md',
     'notes/WAVE55_MASTER_COMPENDIUM.md',
     'notes/WAVE56_MASTER_COMPENDIUM.md',
+    'notes/AUDIT_WAVES_54_56.md',
+    'notes/LINE_BREAK_BEHAVIOUR.md',
+    'notes/SELF_CITATION_AUTOCOPY_TEST.md',
+    'notes/VOCABULARY_DYNAMICS.md',
 ]
 
 link_pattern = re.compile(r'!?\[([^\]]*)\]\(([^)]+)\)')

@@ -1,0 +1,924 @@
+{
+  "attack": 237,
+  "title": "Independent Empirical & Visual Claims Audit of Waves 54–56 (Discoveries 242–253)",
+  "summary_table": [
+    {
+      "claim_id": 1,
+      "discovery": "Discovery 252 (Attack 235)",
+      "claim": "Quire Boundary Lexical Discontinuity Law (z = +5.21)",
+      "verdict": "TRIVIAL-OR-CONFOUNDED",
+      "key_audit_finding": "11 of 17 cross-quire steps also change section ($I), language ($L), or hand ($H), and the remaining 6 occur only in short-text Herbal-A (4) and Zodiac (2) folios (whereas long-text Balneological $I=B and Starred Recipes $I=S have 42 within-quire steps and 0 pure cross-quire steps). Within the matched H/A/1 + Z/?/4 cohorts, canonical Jaccard is 0.1258 vs 0.0987 (z=+1.73, p=0.080). In multiple OLS regression controlling for ($I,$L,$H) and folio word count (R^2=0.594), quire_change is non-significant: coef=-0.0160 (t=-1.82, p=0.072)."
+    },
+    {
+      "claim_id": 2,
+      "discovery": "Discovery 251 (Attack 234)",
+      "claim": "Recto-to-Verso Spatial Registration Law (z = -4.60) & 1.4-3.5 mm unpainted reserve border",
+      "verdict": "TRIVIAL-OR-CONFOUNDED (registration) / UNSUPPORTED (universal reserve border)",
+      "key_audit_finding": "x_r + x_v ≈ 1.0, y_r ≈ y_v is a geometric identity for any through-hole in a single leaf (measuring only scan crop symmetry, with 3/7 pairs hardcoded to 0.0000 residual). Pre-existing defect avoidance by scribes/artists is genuine, but the '1.4-3.5 mm unpainted reserve border' was hardcoded and fails on f15v and f38r where green leaf paint reaches the hole/fissure rim (0 mm reserve)."
+    },
+    {
+      "claim_id": 3,
+      "discovery": "Discovery 250 (Attack 233)",
+      "claim": "Physical Binding Forensics: 3 sewing stations (p213), 91/86 endband loops (p210/p211), lost Quires P & R grooves (p212)",
+      "verdict": "PARTLY SUPPORTED",
+      "key_audit_finding": "3 sewing stations on p213 and cut-edge vs foldout-swell contrast on p212 are SUPPORTED. The '91 headband / 86 tailband loops' are UNSUPPORTED (an unsmoothed 1-px local-maximum detector counted luminance ripples every 5.6 px across the 520-px book-block thickness). Localizing lost Quires P & R via fore-edge valleys on p212 is UNSUPPORTED (98.0% of all x positions lie within +-20 px of the 24 detected valleys, and missing quires leave no open air gap at the fore-edge)."
+    },
+    {
+      "claim_id": 4,
+      "discovery": "Discovery 248 (Attack 231)",
+      "claim": "Medieval gathering mark '7' on closing leaf f56v",
+      "verdict": "SUPPORTED",
+      "key_audit_finding": "Confirmed in both PDFs at lower-right margin of f56v: 15th-c. lambda-form '7' + superscript 'm' + '-us' hook ('7mus' = septimus), matching '1mus' (f8v), '2us' (f16v), '3us' (f24v), and '6tus' (f48v)."
+    },
+    {
+      "claim_id": 5,
+      "discovery": "Discovery 242 (Attack 225)",
+      "claim": "Painted vellum stub of excised leaf f12 on f13r gutter",
+      "verdict": "UNSUPPORTED",
+      "key_audit_finding": "Post-foliation excision of f12 and its narrow blank vellum stub in the gutter are real, but the crimson-brown and dark-green pigment at x=0.00..0.03 on the f13r scan is the rightmost edge of the facing verso f11v's checkered pine-cone flower head (vertical R-G profile correlation r=0.975); the actual f12 stub to its right is unpainted vellum."
+    },
+    {
+      "claim_id": 6,
+      "discovery": "Discovery 244 (Attack 227)",
+      "claim": "Untranscribed 3-glyph workshop painter's micro-inscription inside f28v sunburst flower disc",
+      "verdict": "PARTLY SUPPORTED",
+      "key_audit_finding": "Confirmed at f28v (x=0.701..0.716, y=0.431..0.442) in both Yale and TCPDF scans, and confirmed absent from all 4 EVA transliterations (ZL3b, RF1b, IT2a, GC2a). Neutral reading: 2-3 minute cursive strokes ('in'/'iu'/'iis'/'w'); 'painter color key' is a plausible hypothesis rather than proven fact."
+    },
+    {
+      "claim_id": 7,
+      "discovery": "Discovery 252 (Attack 235)",
+      "claim": "-edy enrichment in Currier B (85.35x) and Balanced 3-Scribe Triad (H=1,2,3 = 87.14%)",
+      "verdict": "SUPPORTED",
+      "key_audit_finding": "In voynich_corpus.py (226 folios, 38444 words), H=1,2,3 write 11037, 11171, and 11766 words (88.37% total, across 113, 45, and 33 folios; Attack 235's 38,949 total double-counted fRos=539w). Currier B vs A -edy enrichment (17.138% vs 0.198%, 86.49x) and qo- (17.41% vs 9.39%, 1.85x) are numerically accurate replications of Currier's (1976) defining A/B distinction."
+    },
+    {
+      "claim_id": 8,
+      "discovery": "Discovery 247 (Attack 230)",
+      "claim": "79.34% lexical seeding of Quire 6 into Pharmaceutical recipes ($I=P)",
+      "verdict": "TRIVIAL-OR-CONFOUNDED",
+      "key_audit_finding": "Under Attack 230's aggressive prefix/suffix stripper, Quire 6's 79.30% coverage of $I=P ranks 4 of 7 (['A', 'C', 'G', 'F', 'D', 'E', 'B']) among Herbal Quires A-G (Quires A, C, G cover 79.45%-80.17%) and lies slightly below random 16-folio Herbal samples (mean 79.48%, z=-0.14; Attack 230's own 8-folio Currier-A z-score was +0.58)."
+    }
+  ],
+  "claim_1_quire_boundary_discontinuity": {
+    "verdict": "TRIVIAL-OR-CONFOUNDED",
+    "total_steps_226_corpus": 225,
+    "uncontrolled": {
+      "within_quire_n": 208,
+      "cross_quire_n": 17,
+      "within_mean_raw": 0.1103,
+      "cross_mean_raw": 0.066,
+      "delta_raw": 0.0443,
+      "within_mean_canon": 0.1406,
+      "cross_mean_canon": 0.0909,
+      "delta_canon": 0.0497
+    },
+    "confounder_breakdown_of_17_cross_quire_steps": {
+      "total_cross_quire_steps": 17,
+      "cross_quire_also_changing_section_lang_or_hand": 11,
+      "cross_quire_changing_section": 7,
+      "cross_quire_changing_lang": 7,
+      "cross_quire_changing_hand": 8,
+      "cross_quire_pure_same_I_L_H_count": 6,
+      "cross_quire_pure_steps": [
+        {
+          "pair": "f8v->f9r",
+          "quires": "A->B",
+          "I_L_H": "H/A/1",
+          "jaccard_raw": 0.1088,
+          "jaccard_canon": 0.1206,
+          "words": [
+            118,
+            85
+          ]
+        },
+        {
+          "pair": "f16v->f17r",
+          "quires": "B->C",
+          "I_L_H": "H/A/1",
+          "jaccard_raw": 0.062,
+          "jaccard_canon": 0.1092,
+          "words": [
+            76,
+            80
+          ]
+        },
+        {
+          "pair": "f24v->f25r",
+          "quires": "C->D",
+          "I_L_H": "H/A/1",
+          "jaccard_raw": 0.0169,
+          "jaccard_canon": 0.036,
+          "words": [
+            85,
+            47
+          ]
+        },
+        {
+          "pair": "f70v1->f71r",
+          "quires": "J->K",
+          "I_L_H": "Z/?/4",
+          "jaccard_raw": 0.0548,
+          "jaccard_canon": 0.0942,
+          "words": [
+            86,
+            90
+          ]
+        },
+        {
+          "pair": "f72v1->f73r",
+          "quires": "K->L",
+          "I_L_H": "Z/?/4",
+          "jaccard_raw": 0.0898,
+          "jaccard_canon": 0.1161,
+          "words": [
+            104,
+            96
+          ]
+        },
+        {
+          "pair": "f90v1->f93r",
+          "quires": "O->Q",
+          "I_L_H": "H/A/1",
+          "jaccard_raw": 0.0749,
+          "jaccard_canon": 0.1163,
+          "words": [
+            96,
+            152
+          ]
+        }
+      ],
+      "cross_quire_confounded_steps": [
+        {
+          "pair": "f32v->f33r",
+          "quires": "D->E",
+          "I_transition": "H->H",
+          "L_transition": "A->B",
+          "H_transition": "1->2",
+          "jaccard_raw": 0.0513,
+          "jaccard_canon": 0.0648
+        },
+        {
+          "pair": "f40v->f41r",
+          "quires": "E->F",
+          "I_transition": "H->H",
+          "L_transition": "B->B",
+          "H_transition": "2->5",
+          "jaccard_raw": 0.0464,
+          "jaccard_canon": 0.0775
+        },
+        {
+          "pair": "f48v->f49r",
+          "quires": "F->G",
+          "I_transition": "H->H",
+          "L_transition": "B->A",
+          "H_transition": "5->1",
+          "jaccard_raw": 0.0326,
+          "jaccard_canon": 0.0539
+        },
+        {
+          "pair": "f56v->f57r",
+          "quires": "G->H",
+          "I_transition": "H->H",
+          "L_transition": "A->B",
+          "H_transition": "1->5",
+          "jaccard_raw": 0.0435,
+          "jaccard_canon": 0.0625
+        },
+        {
+          "pair": "f66v->f67r1",
+          "quires": "H->I",
+          "I_transition": "H->A",
+          "L_transition": "B->?",
+          "H_transition": "5->4",
+          "jaccard_raw": 0.0569,
+          "jaccard_canon": 0.0711
+        },
+        {
+          "pair": "f68v1->f69r",
+          "quires": "I->J",
+          "I_transition": "A->C",
+          "L_transition": "?->?",
+          "H_transition": "4->4",
+          "jaccard_raw": 0.1022,
+          "jaccard_canon": 0.1243
+        },
+        {
+          "pair": "f73v->f75r",
+          "quires": "L->M",
+          "I_transition": "Z->B",
+          "L_transition": "?->B",
+          "H_transition": "4->2",
+          "jaccard_raw": 0.0818,
+          "jaccard_canon": 0.1053
+        },
+        {
+          "pair": "f84v->f85r1",
+          "quires": "M->N",
+          "I_transition": "B->T",
+          "L_transition": "B->B",
+          "H_transition": "2->2",
+          "jaccard_raw": 0.1514,
+          "jaccard_canon": 0.1673
+        },
+        {
+          "pair": "f86v3->f87r",
+          "quires": "N->O",
+          "I_transition": "C->H",
+          "L_transition": "B->A",
+          "H_transition": "2->1",
+          "jaccard_raw": 0.0471,
+          "jaccard_canon": 0.0766
+        },
+        {
+          "pair": "f96v->f99r",
+          "quires": "Q->S",
+          "I_transition": "H->P",
+          "L_transition": "A->A",
+          "H_transition": "1->1",
+          "jaccard_raw": 0.0361,
+          "jaccard_canon": 0.0585
+        },
+        {
+          "pair": "f102v1->f103r",
+          "quires": "S->T",
+          "I_transition": "P->S",
+          "L_transition": "A->B",
+          "H_transition": "1->3",
+          "jaccard_raw": 0.0652,
+          "jaccard_canon": 0.0915
+        }
+      ]
+    },
+    "controlled_strata": {
+      "pooled_same_I_L_H_unweighted_for_section_composition": {
+        "within_n": 169,
+        "cross_n": 6,
+        "within_mean_raw": 0.1191,
+        "cross_mean_raw": 0.0679,
+        "delta_raw": 0.0512,
+        "z_raw": 2.64,
+        "p_two_sided_raw": 0.0075,
+        "within_mean_canon": 0.1508,
+        "cross_mean_canon": 0.0987,
+        "delta_canon": 0.052,
+        "z_canon": 2.37,
+        "p_two_sided_canon": 0.017
+      },
+      "matched_cohort_same_I_L_H_within_HA1_and_Z4": {
+        "within_n": 87,
+        "cross_n": 6,
+        "within_mean_raw": 0.0994,
+        "cross_mean_raw": 0.0679,
+        "delta_raw": 0.0316,
+        "z_raw": 2.25,
+        "p_two_sided_raw": 0.0222,
+        "within_mean_canon": 0.1258,
+        "cross_mean_canon": 0.0987,
+        "delta_canon": 0.0271,
+        "z_canon": 1.73,
+        "p_two_sided_canon": 0.0795
+      },
+      "exact_Herbal_A_Scribe1_stratum": {
+        "within_n": 78,
+        "cross_n": 4,
+        "within_mean_raw": 0.1005,
+        "cross_mean_raw": 0.0657,
+        "delta_raw": 0.0348,
+        "z_raw": 2.0,
+        "p_two_sided_raw": 0.0465,
+        "within_mean_canon": 0.1271,
+        "cross_mean_canon": 0.0955,
+        "delta_canon": 0.0316,
+        "z_canon": 1.63,
+        "p_two_sided_canon": 0.1063
+      },
+      "exact_Zodiac_Scribe4_stratum": {
+        "within_n": 9,
+        "cross_n": 2,
+        "within_mean_raw": 0.0903,
+        "cross_mean_raw": 0.0723,
+        "delta_raw": 0.0179,
+        "z_raw": 1.16,
+        "p_two_sided_raw": 0.3197,
+        "within_mean_canon": 0.1145,
+        "cross_mean_canon": 0.1052,
+        "delta_canon": 0.0094,
+        "z_canon": 0.49,
+        "p_two_sided_canon": 0.7217
+      },
+      "within_quire_confounded_vs_cross_quire_confounded": {
+        "within_quire_changing_I_L_or_H_n": 39,
+        "within_quire_changing_I_L_or_H_mean_raw": 0.072,
+        "within_quire_changing_I_L_or_H_mean_canon": 0.0966,
+        "cross_quire_changing_I_L_or_H_n": 11,
+        "cross_quire_changing_I_L_or_H_mean_raw": 0.0649,
+        "cross_quire_changing_I_L_or_H_mean_canon": 0.0867
+      }
+    },
+    "ols_regression_raw_4vars": {
+      "n_obs": 225,
+      "r_squared": 0.2281,
+      "terms": {
+        "intercept": {
+          "coef": 0.117408,
+          "std_err": 0.003351,
+          "t_stat": 35.0377,
+          "perm_p_two_sided": 0.0002
+        },
+        "quire_change": {
+          "coef": -0.025797,
+          "std_err": 0.012125,
+          "t_stat": -2.1275,
+          "perm_p_two_sided": 0.03459
+        },
+        "section_change": {
+          "coef": -0.008812,
+          "std_err": 0.010016,
+          "t_stat": -0.8798,
+          "perm_p_two_sided": 0.39052
+        },
+        "lang_change": {
+          "coef": -0.084448,
+          "std_err": 0.021351,
+          "t_stat": -3.9551,
+          "perm_p_two_sided": 0.0002
+        },
+        "hand_change": {
+          "coef": 0.027135,
+          "std_err": 0.021022,
+          "t_stat": 1.2908,
+          "perm_p_two_sided": 0.20036
+        }
+      }
+    },
+    "ols_regression_canon_4vars": {
+      "n_obs": 225,
+      "r_squared": 0.2489,
+      "terms": {
+        "intercept": {
+          "coef": 0.149063,
+          "std_err": 0.00379,
+          "t_stat": 39.3338,
+          "perm_p_two_sided": 0.0002
+        },
+        "quire_change": {
+          "coef": -0.028485,
+          "std_err": 0.013713,
+          "t_stat": -2.0773,
+          "perm_p_two_sided": 0.03659
+        },
+        "section_change": {
+          "coef": -0.009435,
+          "std_err": 0.011327,
+          "t_stat": -0.8329,
+          "perm_p_two_sided": 0.40612
+        },
+        "lang_change": {
+          "coef": -0.110338,
+          "std_err": 0.024147,
+          "t_stat": -4.5694,
+          "perm_p_two_sided": 0.0002
+        },
+        "hand_change": {
+          "coef": 0.041775,
+          "std_err": 0.023775,
+          "t_stat": 1.7571,
+          "perm_p_two_sided": 0.07399
+        }
+      }
+    },
+    "ols_regression_raw_5vars_with_wordcount": {
+      "n_obs": 225,
+      "r_squared": 0.599,
+      "terms": {
+        "intercept": {
+          "coef": -0.115865,
+          "std_err": 0.016571,
+          "t_stat": -6.992,
+          "perm_p_two_sided": 0.0028
+        },
+        "quire_change": {
+          "coef": -0.015981,
+          "std_err": 0.008787,
+          "t_stat": -1.8187,
+          "perm_p_two_sided": 0.07179
+        },
+        "section_change": {
+          "coef": -0.028274,
+          "std_err": 0.007364,
+          "t_stat": -3.8394,
+          "perm_p_two_sided": 0.0006
+        },
+        "lang_change": {
+          "coef": -0.022146,
+          "std_err": 0.016035,
+          "t_stat": -1.3811,
+          "perm_p_two_sided": 0.16857
+        },
+        "hand_change": {
+          "coef": -0.025282,
+          "std_err": 0.015628,
+          "t_stat": -1.6177,
+          "perm_p_two_sided": 0.10998
+        },
+        "log_geom_words": {
+          "coef": 0.048064,
+          "std_err": 0.003378,
+          "t_stat": 14.2298,
+          "perm_p_two_sided": 0.0002
+        }
+      }
+    },
+    "ols_regression_canon_5vars_with_wordcount": {
+      "n_obs": 225,
+      "r_squared": 0.6234,
+      "terms": {
+        "intercept": {
+          "coef": -0.119707,
+          "std_err": 0.01841,
+          "t_stat": -6.5024,
+          "perm_p_two_sided": 0.03379
+        },
+        "quire_change": {
+          "coef": -0.017175,
+          "std_err": 0.009762,
+          "t_stat": -1.7594,
+          "perm_p_two_sided": 0.08238
+        },
+        "section_change": {
+          "coef": -0.031858,
+          "std_err": 0.008181,
+          "t_stat": -3.894,
+          "perm_p_two_sided": 0.0004
+        },
+        "lang_change": {
+          "coef": -0.038556,
+          "std_err": 0.017814,
+          "t_stat": -2.1643,
+          "perm_p_two_sided": 0.03219
+        },
+        "hand_change": {
+          "coef": -0.018618,
+          "std_err": 0.017362,
+          "t_stat": -1.0723,
+          "perm_p_two_sided": 0.28834
+        },
+        "log_geom_words": {
+          "coef": 0.055378,
+          "std_err": 0.003752,
+          "t_stat": 14.7576,
+          "perm_p_two_sided": 0.0002
+        }
+      }
+    }
+  },
+  "claim_2_spatial_registration_and_reserve_border": {
+    "verdict_registration_law": "TRIVIAL-OR-CONFOUNDED",
+    "verdict_pre_existing_avoidance": "PARTLY SUPPORTED",
+    "verdict_universal_reserve_border": "UNSUPPORTED",
+    "geometric_tautology_explanation": "A through-hole in a single physical sheet of parchment (thickness ~0.15 mm) occupies the exact same physical point on both faces. When recto and verso scans are cropped to the leaf edges, x_recto + x_verso = 1.0 and y_recto = y_verso holds by Euclidean mirror geometry, up to the photographer's left/right border crop asymmetry (~1% of page width). Permuting holes across different folios (z = -4.60) only tests the tautology that a hole on leaf i is at the coordinates of leaf i's hole rather than leaf j's hole.",
+    "hardcoded_zero_residual_pairs_in_attack234": [
+      "f38r <-> f38v Vertical Fissure / Fenestration (Quire 5)",
+      "f50r <-> f50v Flower-Eye Parchment Hole (Quire 7)",
+      "f89r2 <-> f89v1 Transverse Foldout Tear (Quire 15)"
+    ],
+    "hardcoded_reserve_border_constants_in_attack234": {
+      "source_lines": "tools/attack234_codex_defect_and_micro_inscription_atlas.py#L946-L956",
+      "claimed_min_mm": 1.4,
+      "claimed_max_mm": 3.5,
+      "claimed_mean_mm": 2.2,
+      "is_computed_from_images": false
+    },
+    "visual_verification_on_crops": {
+      "f15r": "Oval hole sits between two diverging brown-outlined stems; right stem outline touches the right rim of the hole; green leaf of underlying folio shows through the aperture.",
+      "f15v": "Oval hole sits inside the upper-left green leaf blade; dark-green pigment wash extends directly to the beveled edge of the hole (0 mm unpainted reserve border).",
+      "f38r": "Stitched vertical fissure (with visible needle holes on both sides) sits inside a solid green leaf blade; green paint covers the leaf right up to the abraded stitch line (no 1.4-3.5 mm unpainted reserve border).",
+      "f38v": "Conjugate side of the stitched fissure sits in the unpainted gap between blue-green cone/leaf lobes, with brown stem lines routed to either side of the stitch holes.",
+      "crop_pixel_metrics": {
+        "f15r_hole": {
+          "crop": "audit237_f15r_hole_check.png",
+          "size": [
+            284,
+            360
+          ],
+          "center_90x90_mean_rgb": [
+            147.4,
+            148.2,
+            134.0
+          ],
+          "center_90x90_green_pigment_fraction": 0.1751
+        },
+        "f15v_hole": {
+          "crop": "audit237_f15v_hole_check.png",
+          "size": [
+            301,
+            360
+          ],
+          "center_90x90_mean_rgb": [
+            92.4,
+            116.9,
+            93.9
+          ],
+          "center_90x90_green_pigment_fraction": 0.8081
+        },
+        "f38r_fissure": {
+          "crop": "audit237_f38r_fissure_check.png",
+          "size": [
+            298,
+            360
+          ],
+          "center_90x90_mean_rgb": [
+            106.7,
+            132.5,
+            108.0
+          ],
+          "center_90x90_green_pigment_fraction": 0.8573
+        },
+        "f38v_fissure": {
+          "crop": "audit237_f38v_fissure_check.png",
+          "size": [
+            306,
+            360
+          ],
+          "center_90x90_mean_rgb": [
+            162.5,
+            157.0,
+            140.9
+          ],
+          "center_90x90_green_pigment_fraction": 0.0079
+        }
+      }
+    }
+  },
+  "claim_3_physical_binding_forensics_p210_p213": {
+    "verdict_overall": "PARTLY SUPPORTED",
+    "verdict_p213_3_sewing_stations": "SUPPORTED",
+    "verdict_p210_p211_91_86_endband_loops": "UNSUPPORTED",
+    "verdict_p212_cut_vs_foldout_swell": "SUPPORTED",
+    "verdict_p212_lost_quires_P_R_grooves": "UNSUPPORTED",
+    "headband_tailband_detector_audit": {
+      "attack233_claimed_headband_loops": 91,
+      "attack233_claimed_tailband_loops": 86,
+      "attack233_mean_spacing_px": [
+        5.57,
+        5.64
+      ],
+      "expected_peaks_in_510_px_white_noise_1d": 169.4,
+      "p210_peaks_by_smoothing_window": {
+        "window_1px": 104,
+        "window_3px": 62,
+        "window_5px": 48,
+        "window_9px": 36,
+        "window_15px": 33,
+        "window_25px": 24
+      },
+      "p211_peaks_by_smoothing_window": {
+        "window_1px": 100,
+        "window_3px": 57,
+        "window_5px": 43,
+        "window_9px": 39,
+        "window_15px": 28,
+        "window_25px": 26
+      },
+      "physical_orientation_error": "In p210 and p211, y=200..720 spans the thickness of the book block from back cover to front cover, and x=70..190 lies inside the nested vellum bifolium folds of the gatherings. The unsmoothed 3-point peak detector (window=1 px) counted 91 and 86 high-frequency luminance ripples (every ~5.6 px) across the stacked vellum leaf edges and parchment grain. Visually, only a frayed remnant of 2-3 twisted sewing/endband cord strands survives at the upper left of p210, and ~18 gathering folds are visible."
+    },
+    "fore_edge_valley_audit": {
+      "book_x_span_px": [
+        59,
+        602
+      ],
+      "detected_valleys_count": 24,
+      "detected_valley_x_positions": [
+        74,
+        84,
+        96,
+        112,
+        134,
+        166,
+        180,
+        223,
+        235,
+        265,
+        272,
+        288,
+        308,
+        334,
+        383,
+        396,
+        422,
+        439,
+        451,
+        463,
+        493,
+        505,
+        536,
+        549
+      ],
+      "mean_inter_valley_spacing_px": 20.65,
+      "attack233_matching_tolerance_px": 20,
+      "random_point_match_probability_within_20px": 0.9802,
+      "codicological_critique": "With 24 valleys across 505 px (mean spacing 20.65 px) and a matching tolerance of +-20 px, 98.0% of all pixel positions in [60, 565] match a 'valley'. Moreover, a missing quire removed from the spine centuries ago has zero physical bulk today; adjacent extant quires (O, Q, S) press directly against each other, so dark lines at the fore-edge are shadows between extant leaf bundles/foldouts rather than empty spaces of lost quires."
+    }
+  },
+  "claim_4_f56v_gathering_mark_7": {
+    "verdict": "SUPPORTED",
+    "folio": "f56v",
+    "pdf_page": 113,
+    "quire": "G (Quire 7, f49r-f56v)",
+    "location_normalized": {
+      "x_range": [
+        0.76,
+        0.85
+      ],
+      "y_range": [
+        0.89,
+        0.96
+      ]
+    },
+    "paleographic_reading": "15th-century lambda-shaped Arabic numeral '7' (inverted-V form standard in 15th-c. Central European hands) followed by superscript 'm' and a final '-us' suspension hook ('7mus' = septimus).",
+    "series_comparison": {
+      "f8v_quire1": "1mus (primus) at bottom-right margin",
+      "f16v_quire2": "2us (secundus) at bottom-right margin",
+      "f24v_quire3": "3us (tertius) at bottom-right margin",
+      "f48v_quire6": "6tus (sextus) at bottom-right margin",
+      "f56v_quire7": "7mus (septimus) directly above the rightmost root claw at bottom-right margin"
+    },
+    "context_note": "Confirmed in both the 2026 Yale high-res PDF and 2014 TCPDF scan. Part of the well-known 15th-century Latin ordinal quire-signature series documented by Currier, D'Imperio, and Zandbergen."
+  },
+  "claim_5_f13r_excised_f12_stub_vs_f11v": {
+    "verdict": "UNSUPPORTED",
+    "sub_verdicts": {
+      "existence_of_unpainted_f12_stub_and_post_foliation_excision": "SUPPORTED",
+      "claim_that_f12_stub_bears_green_and_brown_botanical_pigment": "UNSUPPORTED"
+    },
+    "forensic_proof": "Because leaf f12 was excised, f13r faces f11v across the open binding gutter. On the f13r scan (p26), three distinct zones appear from left to right: (1) x=0.000..0.025 (px 0..38 in crop) is the right edge of the facing verso f11v (p25), showing the exact four rightmost alternating brown and green scales of f11v's large pine-cone flower head; (2) x=0.028..0.060 (px 42..95 in crop) between the two vertical gutter creases is the actual cut vellum stub of excised leaf f12, which is completely blank/unpainted parchment; (3) x>0.065 is f13r itself (showing faint blue-green show-through from f13v's cones).",
+    "zone_mean_rgb_on_f13r_gutter_crop": {
+      "zone1_facing_f11v_cone_edge_x0_28": [
+        155.0,
+        136.1,
+        110.5
+      ],
+      "zone2_actual_f12_stub_x48_90": [
+        205.6,
+        183.0,
+        158.9
+      ],
+      "zone3_f13r_inner_margin_x105_145": [
+        202.3,
+        184.3,
+        166.8
+      ]
+    },
+    "vertical_red_minus_green_scale_pattern_correlation_f13r_left_vs_f11v_right": 0.9753,
+    "vertical_alignment_offset_px": 20
+  },
+  "claim_6_f28v_flower_disc_micro_inscription": {
+    "verdict": "PARTLY SUPPORTED",
+    "sub_verdicts": {
+      "physical_presence_in_both_pdfs_and_absence_from_4_transliterations": "SUPPORTED",
+      "specific_interpretation_as_workshop_painter_color_key": "PARTLY SUPPORTED (Plausible Hypothesis, Unproven)"
+    },
+    "exact_coordinates_on_f28v": {
+      "disc_bbox": [
+        0.68,
+        0.41,
+        0.735,
+        0.46
+      ],
+      "inscription_bbox": [
+        0.701,
+        0.431,
+        0.716,
+        0.442
+      ]
+    },
+    "transliteration_check_all_4_editions": {
+      "ZL3b-n.txt": {
+        "total_loci": 9,
+        "has_any_label_or_non_paragraph_locus": false,
+        "loci_headers": [
+          "f28v.1,@P0",
+          "f28v.2,+P0",
+          "f28v.3,+P0",
+          "f28v.4,+P0",
+          "f28v.5,+P0",
+          "f28v.6,+Pr",
+          "f28v.7,*P0",
+          "f28v.8,+P0",
+          "f28v.9,+P0"
+        ]
+      },
+      "RF1b-er.txt": {
+        "total_loci": 9,
+        "has_any_label_or_non_paragraph_locus": false,
+        "loci_headers": [
+          "f28v.1,@P0",
+          "f28v.2,+P0",
+          "f28v.3,+P0",
+          "f28v.4,+P0",
+          "f28v.5,+P0",
+          "f28v.6,+Pr",
+          "f28v.7,*P0",
+          "f28v.8,+P0",
+          "f28v.9,+P0"
+        ]
+      },
+      "IT2a-n.txt": {
+        "total_loci": 9,
+        "has_any_label_or_non_paragraph_locus": false,
+        "loci_headers": [
+          "f28v.1,@P0",
+          "f28v.2,+P0",
+          "f28v.3,+P0",
+          "f28v.4,+P0",
+          "f28v.5,+P0",
+          "f28v.6,+Pr",
+          "f28v.7,*P0",
+          "f28v.8,+P0",
+          "f28v.9,+P0"
+        ]
+      },
+      "GC2a-n.txt": {
+        "total_loci": 9,
+        "has_any_label_or_non_paragraph_locus": false,
+        "loci_headers": [
+          "f28v.1,@P0",
+          "f28v.2,+P0",
+          "f28v.3,+P0",
+          "f28v.4,+P0",
+          "f28v.5,+P0",
+          "f28v.6,+Pr",
+          "f28v.7,*P0",
+          "f28v.8,+P0",
+          "f28v.9,+P0"
+        ]
+      }
+    },
+    "pixel_photometry_in_tight_crop": {
+      "crop_size_px": [
+        92,
+        100
+      ],
+      "parchment_background_median_lum": 189.2,
+      "darkest_ink_stroke_lum": 100.3,
+      "contrast_delta_lum": 88.9,
+      "ink_pixel_count_below_bg_minus_25": 260
+    },
+    "neutral_paleographic_reading": "Two short vertical brown-ink minims with a baseline connecting curve/hook on the left, followed by a taller cursive S/v/r-shaped stroke rising with a rightward terminal hook (~22x14 px in the Yale scan, ~1.2 mm wide). Paleographically compatible with a minute cursive Latin/Germanic annotation ('in', 'iu', 'iis', 'w', or numeral/initial) or a micro-scribal trial. While a workshop color note (e.g., w[eiss]/r[ot]) is a reasonable hypothesis given the uncolored disc, it could equally be a later reader's or collator's micro-mark."
+  },
+  "claim_7_edy_enrichment_and_3scribe_triad": {
+    "verdict": "SUPPORTED",
+    "note_on_novelty": "The numerical counts are accurate (modulo Attack 235 double-counting the 540-word fRos composite locus alongside individual f85-f86 panels to get 38,949 instead of 38,409 words). However, the extreme enrichment of -edy and qo- in Currier B vs A is Prescott Currier's (1976) foundational definition of Languages A and B, and the 5-scribe hand partition is Lisa Fagin Davis's (2020) paleographic classification.",
+    "corpus_226_total_words": 38444,
+    "attack235_fRos_double_count_discrepancy_words": 539,
+    "hand_breakdown_226_corpus": {
+      "1": {
+        "folios": 113,
+        "words": 11037,
+        "pct_of_226_corpus": 28.71,
+        "mean_words_per_folio": 97.7,
+        "edy_pct": 0.15,
+        "qo_pct": 8.99
+      },
+      "2": {
+        "folios": 46,
+        "words": 11171,
+        "pct_of_226_corpus": 29.06,
+        "mean_words_per_folio": 242.8,
+        "edy_pct": 20.21,
+        "qo_pct": 18.7
+      },
+      "3": {
+        "folios": 33,
+        "words": 11766,
+        "pct_of_226_corpus": 30.61,
+        "mean_words_per_folio": 356.5,
+        "edy_pct": 13.34,
+        "qo_pct": 16.12
+      },
+      "4": {
+        "folios": 26,
+        "words": 3083,
+        "pct_of_226_corpus": 8.02,
+        "mean_words_per_folio": 118.6,
+        "edy_pct": 2.63,
+        "qo_pct": 2.37
+      },
+      "5": {
+        "folios": 7,
+        "words": 926,
+        "pct_of_226_corpus": 2.41,
+        "mean_words_per_folio": 132.3,
+        "edy_pct": 15.55,
+        "qo_pct": 11.02
+      },
+      "?": {
+        "folios": 1,
+        "words": 461,
+        "pct_of_226_corpus": 1.2,
+        "mean_words_per_folio": 461.0,
+        "edy_pct": 15.4,
+        "qo_pct": 24.3
+      }
+    },
+    "triad_H1_H2_H3_total_words": 33974,
+    "triad_H1_H2_H3_pct": 88.37,
+    "currier_A_vs_B_rates": {
+      "A_words": 11607,
+      "B_words": 23521,
+      "edy_A_count": 23,
+      "edy_B_count": 4031,
+      "edy_A_pct": 0.198,
+      "edy_B_pct": 17.138,
+      "edy_B_over_A_ratio": 86.49,
+      "qo_A_count": 1090,
+      "qo_B_count": 4096,
+      "qo_A_pct": 9.39,
+      "qo_B_pct": 17.41,
+      "qo_B_over_A_ratio": 1.85
+    }
+  },
+  "claim_8_quire6_pharma_lexical_seeding": {
+    "verdict": "TRIVIAL-OR-CONFOUNDED",
+    "explanation": "The 79.34% figure in Attack 230 comes from an ultra-aggressive stemmer that strips prefixes (qo,o,d,y,s), strips 15 suffixes (aiin,edy,al,ar,or,ol,dy,y,...), and collapses f->p and k->t, reducing words to short 1-to-3 letter roots. Under that stemmer, ANY 16 Herbal folios cover ~78-84% of Pharmaceutical tokens! Even within Attack 230's own JSON (data/attack230_quire6_visual_completion.json), the 8-folio Currier-A permutation z-score was only z = +0.58 (null mean 70.95% +- 2.26% vs observed 72.27%, p > 0.28). Against 16-folio random Herbal baselines, Quire 6 (79.30%) is slightly BELOW the random 16-folio Herbal average (79.48%, z = -0.14) and ranks 4th out of the 7 opening Herbal quires A-G.",
+    "attack230_own_json_z_score_8folios_A": 0.58,
+    "quire_A_to_G_comparison": {
+      "Quire_A": {
+        "folios_count": 16,
+        "words_count": 1537,
+        "unique_aggr_stems": 386,
+        "pharma_coverage_aggressive_stem_pct": 79.8,
+        "pharma_coverage_4rule_root_pct": 64.04,
+        "pharma_coverage_raw_exact_pct": 52.88
+      },
+      "Quire_B": {
+        "folios_count": 14,
+        "words_count": 1051,
+        "unique_aggr_stems": 256,
+        "pharma_coverage_aggressive_stem_pct": 71.69,
+        "pharma_coverage_4rule_root_pct": 47.32,
+        "pharma_coverage_raw_exact_pct": 39.63
+      },
+      "Quire_C": {
+        "folios_count": 16,
+        "words_count": 1446,
+        "unique_aggr_stems": 339,
+        "pharma_coverage_aggressive_stem_pct": 79.68,
+        "pharma_coverage_4rule_root_pct": 63.19,
+        "pharma_coverage_raw_exact_pct": 52.88
+      },
+      "Quire_D": {
+        "folios_count": 16,
+        "words_count": 1279,
+        "unique_aggr_stems": 313,
+        "pharma_coverage_aggressive_stem_pct": 78.6,
+        "pharma_coverage_4rule_root_pct": 64.89,
+        "pharma_coverage_raw_exact_pct": 51.22
+      },
+      "Quire_E": {
+        "folios_count": 16,
+        "words_count": 1567,
+        "unique_aggr_stems": 311,
+        "pharma_coverage_aggressive_stem_pct": 76.21,
+        "pharma_coverage_4rule_root_pct": 56.86,
+        "pharma_coverage_raw_exact_pct": 49.09
+      },
+      "Quire_F": {
+        "folios_count": 16,
+        "words_count": 1724,
+        "unique_aggr_stems": 382,
+        "pharma_coverage_aggressive_stem_pct": 79.3,
+        "pharma_coverage_4rule_root_pct": 65.47,
+        "pharma_coverage_raw_exact_pct": 55.04
+      },
+      "Quire_G": {
+        "folios_count": 16,
+        "words_count": 1547,
+        "unique_aggr_stems": 343,
+        "pharma_coverage_aggressive_stem_pct": 79.45,
+        "pharma_coverage_4rule_root_pct": 66.59,
+        "pharma_coverage_raw_exact_pct": 55.04
+      }
+    },
+    "quire6_rank_among_7_herbal_quires_aggressive_stem": "4 of 7 (['A', 'C', 'G', 'F', 'D', 'E', 'B'])",
+    "quire6_rank_among_7_herbal_quires_raw_words": "1 of 7 (['F', 'G', 'A', 'C', 'D', 'E', 'B'])",
+    "random_16_folio_baselines": {
+      "random_16_herbal_any": {
+        "aggr_stem_mean_pct": 79.48,
+        "aggr_stem_std_pct": 1.25,
+        "q6_z_score_aggr": -0.14,
+        "raw_exact_mean_pct": 53.56,
+        "raw_exact_std_pct": 2.31,
+        "q6_z_score_raw": 0.64
+      },
+      "random_8_herbalA_plus_8_herbalB": {
+        "aggr_stem_mean_pct": 79.76,
+        "aggr_stem_std_pct": 1.1,
+        "q6_z_score_aggr": -0.41,
+        "raw_exact_mean_pct": 54.56,
+        "raw_exact_std_pct": 2.1,
+        "q6_z_score_raw": 0.23
+      }
+    }
+  }
+}
